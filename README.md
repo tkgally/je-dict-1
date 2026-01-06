@@ -77,7 +77,7 @@ je-dict-1/
 │   ├── index.html
 │   ├── styles.css
 │   └── app.js
-├── dist/             # Generated output (gitignored)
+├── docs/             # Generated output (served by GitHub Pages)
 └── PROJECT_STATUS.md # Session continuity file
 ```
 
@@ -115,9 +115,9 @@ je-dict-1/
 
 3. View locally:
    ```bash
-   open dist/index.html
+   open docs/index.html
    ```
-   Or just double-click `dist/index.html` in Finder. No server required!
+   Or just double-click `docs/index.html` in Finder. No server required!
 
 ## Creating Entries
 
