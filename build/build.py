@@ -126,7 +126,7 @@ def build(project_root: Path) -> int:
     Main build process.
     Returns 0 on success, 1 on failure.
     """
-    dist_dir = project_root / 'dist'
+    dist_dir = project_root / 'docs'
 
     print("je-dict-1 Build")
     print("=" * 50)
@@ -177,7 +177,7 @@ def build(project_root: Path) -> int:
 
     # Copy web files first
     copy_web_files(project_root, dist_dir)
-    print(f"  Copied web files to dist/")
+    print(f"  Copied web files to docs/")
 
     # Generate data.js with embedded data (for offline/static use)
     data_js_path = generate_data_js(entries, index, dist_dir)
