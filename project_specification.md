@@ -235,7 +235,7 @@ je-dict-1/
 │   ├── index.html
 │   ├── styles.css
 │   └── app.js
-├── dist/                       # Generated output (gitignored)
+├── docs/                       # Generated output (served by GitHub Pages)
 │   ├── data/
 │   │   ├── entries.json        # Compiled entry data
 │   │   └── index.json          # Search index
@@ -383,21 +383,22 @@ All information is visible by default—no hidden sections or "show more" toggle
 1. **Validation**: Check all entry files against schema, report errors
 2. **Compilation**: Combine entries into optimized format for web app
 3. **Index generation**: Build search index including conjugated forms
-4. **Output**: Generate distribution files in `/dist/`
+4. **Output**: Generate distribution files in `/docs/`
 
 ### 9.3 Build Outputs
 
 ```
-dist/
+docs/
 ├── index.html
 ├── styles.css
 ├── app.js
-├── data/
-│   ├── entries.json      # All entry data
-│   └── index.json        # Search index
-└── offline/              # For downloadable distribution
-    └── je-dict-1.zip     # Complete offline package
+├── data.js               # Embedded entry data and search index
+└── data/
+    ├── entries.json      # All entry data (JSON format)
+    └── index.json        # Search index (JSON format)
 ```
+
+**Note**: Output directory is `docs/` for GitHub Pages compatibility. The site is served at https://tkgally.github.io/je-dict-1/
 
 ### 9.4 Validation Rules
 
@@ -598,18 +599,22 @@ The following are explicitly **not specified** and should be decided during impl
 
 The following items from the original specification have been completed:
 
-1. **Project structure** - All directories created (entries/, variants/, build/, web/, dist/)
+1. **Project structure** - All directories created (entries/, variants/, build/, web/, docs/)
 2. **Entry schema** - JSON schema defined in `build/schema.json`
 3. **Validation script** - `build/validate.py` validates entries against schema
 4. **Build script** - `build/build.py` compiles entries and generates search index
 5. **Web interface** - Fully functional with search and sidebar browser
 6. **Sample entries** - 47 entries created (N5 vocabulary + particles)
+7. **Furigana system** - All entries have `{kanji|reading}` notation, toggle in UI
+8. **GitHub Pages** - Live site at https://tkgally.github.io/je-dict-1/
 
 ### 15.1 Technical Decisions Made
 
 - **Static data embedding**: Data is embedded in `data.js` at build time, allowing the dictionary to work from `file://` URLs without a server
 - **Sidebar browser**: Entry browser grouped by kana row (あ行, か行, etc.) for easy browsing
 - **Wider layout**: Max-width increased to 1100px for better desktop experience
+- **GitHub Pages**: Output to `docs/` folder for direct GitHub Pages serving
+- **Furigana toggle**: Button in header toggles ruby annotations on/off, preference saved in localStorage
 
 ### 15.2 Current Next Steps
 
