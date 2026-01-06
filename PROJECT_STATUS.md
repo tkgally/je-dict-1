@@ -1,7 +1,9 @@
 # je-dict-1 Project Status
 
 **Last updated**: 2026-01-06
-**Last session**: Migrated project to GitHub for continued development
+**Last session**: Migrated to GitHub, added furigana to all entries, configured GitHub Pages
+
+**Live site**: https://tkgally.github.io/je-dict-1/
 
 ## Current State
 
@@ -9,7 +11,7 @@
 **Phase 1: Foundation** - Complete. Furigana system implemented. Ready to begin Phase 2 (Core Vocabulary expansion).
 
 ### Infrastructure Status
-- [x] Directory structure created (`entries/`, `variants/`, `build/`, `web/`, `dist/`)
+- [x] Directory structure created (`entries/`, `variants/`, `build/`, `web/`, `docs/`)
 - [x] JSON schema defined (`build/schema.json`)
 - [x] Validation script working (`build/validate.py`)
 - [x] Build script working (`build/build.py`)
@@ -26,7 +28,7 @@
 - **Total entries**: 47
 - **Verified entries**: 47
 - **Draft entries**: 0
-- **Entries with furigana**: In progress (converting all entries)
+- **Entries with furigana**: 47/47 (100% complete)
 - **N5 coverage**: ~47/800 words (~6%)
 - **N4 coverage**: 0/700 words (0%)
 
@@ -54,7 +56,12 @@
 
 ### Recent Changes (This Session)
 1. Migrated project to GitHub for continued development
-2. Updated documentation for GitHub environment
+2. Removed terminal bug workaround documentation (not needed on GitHub)
+3. Cleaned up duplicate files from root directory
+4. Added furigana notation to all 26 entries that were missing it
+5. Renamed `dist/` to `docs/` for GitHub Pages compatibility
+6. Configured GitHub Pages to serve from `docs/` folder
+7. Site is now live at https://tkgally.github.io/je-dict-1/
 
 ## Furigana System
 
@@ -77,9 +84,8 @@
 ## Next Steps
 
 ### Immediate (Next Session)
-1. **Convert remaining entries** to use furigana notation consistently
-2. **Expand vocabulary**: Add 30-50 more N5 words (target: 100 entries)
-3. **Priority words to add**:
+1. **Expand vocabulary**: Add 30-50 more N5 words (target: 100 entries)
+2. **Priority words to add**:
    - Common verbs: iu, kaeru, hairu, deru, neru, okiru, hataraku, oshieru, narau
    - Common nouns: namae, denwa, shigoto, heya, eki, mise, michi, kuruma, densha
    - Common adjectives: tooi, chikai, nagai, mijikai, hayai, osoi, muzukashii, yasashii
@@ -101,8 +107,11 @@ python3 build/validate.py
 # Build dictionary
 python3 build/build.py
 
-# View dictionary
-open dist/index.html
+# View dictionary locally
+open docs/index.html
+
+# Or view the live site
+# https://tkgally.github.io/je-dict-1/
 ```
 
 ### File Naming Convention
@@ -138,10 +147,11 @@ Next available IDs by directory:
 
 ### Key Technical Decisions
 1. **Static embedding**: Data is in `data.js`, not fetched via AJAX. This allows `file://` usage.
-2. **No server required**: Just open `dist/index.html` in browser
-3. **Single index file**: All search data in one file (optimize later if needed)
-4. **Kana-row grouping**: Sidebar groups entries by a-row, ka-row, etc.
-5. **Furigana notation**: `{kanji|reading}` converted to `<ruby>` tags in browser
+2. **No server required**: Just open `docs/index.html` in browser (or use GitHub Pages)
+3. **GitHub Pages**: Site served from `docs/` folder on main branch
+4. **Single index file**: All search data in one file (optimize later if needed)
+5. **Kana-row grouping**: Sidebar groups entries by a-row, ka-row, etc.
+6. **Furigana notation**: `{kanji|reading}` converted to `<ruby>` tags in browser
 
 ### Entry Template
 ```json

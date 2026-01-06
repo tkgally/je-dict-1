@@ -11,8 +11,9 @@ Point an AI assistant to this file when resuming work on this project.
 ## Current Status
 
 - **Phase**: Foundation complete, ready for content expansion
-- **Entries**: 47 (verbs, nouns, adjectives, particles)
+- **Entries**: 47 (verbs, nouns, adjectives, particles) - all with furigana
 - **Infrastructure**: Fully functional (build scripts, web interface, sidebar browser)
+- **Live site**: https://tkgally.github.io/je-dict-1/
 - **Target**: 500-1000 entries for "critical mass"
 
 ## Key Files to Read
@@ -31,8 +32,10 @@ python3 build/validate.py
 # Build the dictionary
 python3 build/build.py
 
-# View in browser (no server needed)
-open dist/index.html
+# View locally (no server needed)
+open docs/index.html
+
+# Or view the live site: https://tkgally.github.io/je-dict-1/
 ```
 
 ## Creating New Entries
@@ -54,10 +57,12 @@ See `PROJECT_STATUS.md` for the entry template and next available IDs.
 
 ## Important Conventions
 
+- **Furigana notation**: All kanji must have readings: `{漢字|かんじ}`
 - Romanization follows kana, not pronunciation: とうきょう → `toukyou`
 - Each entry needs 2-3 example sentences minimum
 - Particles get especially detailed explanations
 - Data embeds in `data.js` at build time (no server required)
+- Output goes to `docs/` (for GitHub Pages compatibility)
 
 ---
 
