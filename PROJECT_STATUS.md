@@ -1,7 +1,7 @@
 # je-dict-1 Project Status
 
 **Last updated**: 2026-01-06
-**Last session**: Implemented furigana system with toggle, added terminal display bug workaround
+**Last session**: Migrated project to GitHub for continued development
 
 ## Current State
 
@@ -53,11 +53,8 @@
 | `/wa/` | 2 | wo, wakaru |
 
 ### Recent Changes (This Session)
-1. Implemented furigana notation system `{kanji|reading}` for all entries
-2. Added furigana toggle button to web interface header
-3. Toggle saves preference to localStorage
-4. Updated README.md with furigana documentation
-5. Added terminal display bug workaround documentation
+1. Migrated project to GitHub for continued development
+2. Updated documentation for GitHub environment
 
 ## Furigana System
 
@@ -76,20 +73,6 @@
 - Toggle button labeled "Furigana" in header
 - Converts `{kanji|reading}` to HTML `<ruby>` tags
 - Preference saved in localStorage
-
-## Known Issues
-
-### Terminal Display Bug (Claude Code)
-**Issue**: Claude Code crashes when displaying Japanese text containing `{kanji|reading}` notation in the terminal output.
-
-**Error**: `byte index N is not a char boundary` — a UTF-8 string slicing error in Rust.
-
-**Workaround**:
-- Write Japanese dictionary content to files rather than displaying in terminal
-- Only show brief English-only status messages
-- Bug has been reported to Claude Code team
-
-**Impact**: Does not affect JSON files or web interface — only terminal display.
 
 ## Next Steps
 
@@ -152,22 +135,6 @@ Next available IDs by directory:
 - Particles deserve especially thorough explanations
 - Use natural, conversational example sentences
 - **All kanji must have furigana notation**
-
-### Terminal Display Crash Prevention (CRITICAL)
-**Claude Code crashes** when Japanese text appears in response output (UTF-8 slicing bug in Rust renderer).
-
-**ZERO TOLERANCE PROTOCOL**:
-1. NEVER include ANY Japanese characters in responses - not even in "quotes" or code blocks
-2. Write all Japanese content directly to files via Write/Edit tools
-3. Use ONLY romanized names and file paths in status messages
-4. No previews of entry content - direct users to open files in editor
-5. Subprocess output (validate.py, build.py) is safe - only Claude's response text triggers crash
-
-**Examples**:
-- BAD: "Created entry for taberu (to eat)" followed by showing the headword
-- GOOD: "Created entry: entries/ta/taberu_00001.json - open in editor to review"
-
-This crash has occurred 3+ times. Previous vague guidance failed. Zero Japanese in responses is the ONLY safe approach.
 
 ### Key Technical Decisions
 1. **Static embedding**: Data is in `data.js`, not fetched via AJAX. This allows `file://` usage.

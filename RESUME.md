@@ -3,24 +3,6 @@
 Point an AI assistant to this file when resuming work on this project.
 
 ---
-## ⚠️ CRASH PREVENTION - READ FIRST ⚠️
-
-**Claude Code has a known bug** that causes crashes when Japanese text appears in Claude's response output. This project has crashed 3+ times from this bug.
-
-### STRICT RULE: Zero Japanese in Responses
-
-1. **NEVER** output Japanese characters (hiragana, katakana, kanji) in your responses
-2. **NEVER** preview or quote entry content - write directly to files
-3. **ONLY** use romanized names and file paths in status messages
-4. Code blocks do NOT help - the crash happens in response rendering
-
-**Safe example**: "Created entries/ta/taberu_00001.json - open in editor to review"
-
-**Unsafe example**: Any response containing Japanese characters
-
-See PROJECT_STATUS.md "Terminal Display Crash Prevention" section for full details.
-
----
 
 ## Quick Summary
 
