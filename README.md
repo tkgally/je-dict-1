@@ -180,7 +180,7 @@ Files go in directories based on the first kana of the reading:
 - [x] Project structure and schema
 - [x] Build and validation scripts
 - [x] Basic web interface
-- [x] Sample entries (15 entries)
+- [x] Sample entries (47 entries)
 - [x] Furigana system with toggle
 
 ### Phase 2: Core Vocabulary
@@ -213,47 +213,6 @@ When creating or editing entries:
 4. **Place files correctly** based on the reading's first kana
 5. **Update PROJECT_STATUS.md** at the end of each session
 6. **Use furigana notation** for all kanji: `{漢字|かんじ}`
-
-### CRITICAL: Terminal Display Crash Prevention Protocol
-
-**Claude Code has a known bug** that causes crashes when displaying Japanese text in terminal output. The bug is a UTF-8 string slicing error in Rust that triggers when multi-byte characters (like Japanese) are displayed.
-
-#### Crash Trigger Pattern
-The crash occurs when Claude's response text contains:
-1. ANY Japanese characters (hiragana, katakana, kanji)
-2. Especially the `{kanji|reading}` furigana notation
-3. Mixed Japanese-English text
-
-#### STRICT PROTOCOL (Must Follow)
-
-**NEVER output Japanese text in responses.** This means:
-
-1. **File operations**: Write all Japanese content directly to files using the Write/Edit tools. Never preview, echo, or summarize content containing Japanese.
-
-2. **Status messages**: Use ONLY English descriptions:
-   - WRONG: "Created entry for taberu (食べる)"
-   - RIGHT: "Created entry: entries/ta/taberu_00001.json"
-
-3. **Entry references**: Use file paths and romanized names only:
-   - WRONG: "Added 友達 to the dictionary"
-   - RIGHT: "Added tomodachi entry - see entries/ta/tomodachi_00006.json"
-
-4. **No previews**: Never show JSON content or entry text in responses. Direct users to open files in their editor.
-
-5. **Validation output**: When running validate.py or build.py, the scripts themselves can output Japanese (they run in a subprocess). Only Claude's own response text must be Japanese-free.
-
-6. **Code blocks don't help**: The crash happens in Claude's response rendering, so even Japanese in code blocks will crash.
-
-#### Why Previous Workaround Failed
-The previous guidance was too vague ("write to files not terminal"). Crashes still occurred when Claude included Japanese words in explanatory text or status updates. The ONLY safe approach is zero Japanese characters in Claude's response text.
-
-#### Testing After Changes
-After creating/editing entries, run:
-```bash
-python3 build/validate.py && python3 build/build.py && open -a "Google Chrome" dist/index.html
-```
-
-Bug reported to Anthropic. JSON files and web interface work correctly - only Claude's terminal responses are affected.
 
 ### Romanization Quick Reference
 
