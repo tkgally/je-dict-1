@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-06T13:23:03.042318Z
+// Generated: 2026-01-06T14:12:49.430006Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -64,7 +64,7 @@ const DICTIONARY_DATA = {
   },
   "ashita_00008": {
     "id": "ashita_00008",
-    "headword": "明日",
+    "headword": "{明日|あした}",
     "reading": "あした",
     "part_of_speech": "noun",
     "gloss": "tomorrow",
@@ -77,26 +77,26 @@ const DICTIONARY_DATA = {
     ],
     "examples": [
       {
-        "japanese": "明日、会いましょう。",
+        "japanese": "{明日|あした}、{会|あ}いましょう。",
         "english": "Let's meet tomorrow.",
         "notes": null
       },
       {
-        "japanese": "明日は休みです。",
+        "japanese": "{明日|あした}は{休|やす}みです。",
         "english": "Tomorrow is a day off.",
         "notes": null
       },
       {
-        "japanese": "明日の天気はどうですか。",
+        "japanese": "{明日|あした}の{天気|てんき}はどうですか。",
         "english": "How's the weather tomorrow?",
-        "notes": "明日の = tomorrow's"
+        "notes": "{明日|あした}の = tomorrow's"
       }
     ],
-    "notes": "明日 can be read as あした (common/casual), あす (slightly more formal), or みょうにち (formal/written). あした is by far the most common in everyday speech. Like 今日 and 昨日, it typically doesn't take the particle に.",
+    "notes": "{明日|あした} can be read as あした (common/casual), あす (slightly more formal), or みょうにち (formal/written). あした is by far the most common in everyday speech. Like {今日|きょう} and {昨日|きのう}, it typically doesn't take the particle に.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -106,7 +106,7 @@ const DICTIONARY_DATA = {
   },
   "atarashii_00009": {
     "id": "atarashii_00009",
-    "headword": "新しい",
+    "headword": "{新|あたら}しい",
     "reading": "あたらしい",
     "part_of_speech": "adjective (i-adjective)",
     "gloss": "new",
@@ -114,36 +114,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "new, fresh",
-        "explanation": "Recently made, acquired, or having come into existence. Not old or used. The opposite of 古い (ふるい)."
+        "explanation": "Recently made, acquired, or having come into existence. Not old or used. The opposite of {古|ふる}い."
       },
       {
         "sense_number": 2,
         "gloss": "novel, modern",
-        "explanation": "Innovative or contemporary. 新しい考え (a new/novel idea)."
+        "explanation": "Innovative or contemporary. {新|あたら}しい{考|かんが}え (a new/novel idea)."
       }
     ],
     "examples": [
       {
-        "japanese": "新しい車を買いました。",
+        "japanese": "{新|あたら}しい{車|くるま}を{買|か}いました。",
         "english": "I bought a new car.",
         "notes": null
       },
       {
-        "japanese": "これは新しいですか、古いですか。",
+        "japanese": "これは{新|あたら}しいですか、{古|ふる}いですか。",
         "english": "Is this new or old?",
         "notes": null
       },
       {
-        "japanese": "新しい生活を始めます。",
+        "japanese": "{新|あたら}しい{生活|せいかつ}を{始|はじ}めます。",
         "english": "I'm starting a new life.",
         "notes": null
       }
     ],
-    "notes": "新しい is an i-adjective. Conjugation: 新しくない (not new), 新しかった (was new), 新しくて (new and...). In compound words, 新 is often read しん: 新年 (しんねん, new year), 新聞 (しんぶん, newspaper).",
+    "notes": "{新|あたら}しい is an i-adjective. Conjugation: {新|あたら}しくない (not new), {新|あたら}しかった (was new), {新|あたら}しくて (new and...). In compound words, {新|しん} is often read しん: {新年|しんねん} (new year), {新聞|しんぶん} (newspaper).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -153,7 +153,7 @@ const DICTIONARY_DATA = {
   },
   "au_00005": {
     "id": "au_00005",
-    "headword": "会う",
+    "headword": "{会|あ}う",
     "reading": "あう",
     "part_of_speech": "verb (godan)",
     "gloss": "to meet",
@@ -166,26 +166,26 @@ const DICTIONARY_DATA = {
     ],
     "examples": [
       {
-        "japanese": "友達に会いました。",
+        "japanese": "{友達|ともだち}に{会|あ}いました。",
         "english": "I met my friend.",
         "notes": "Use に for the person you meet"
       },
       {
-        "japanese": "明日会いましょう。",
+        "japanese": "{明日|あした}{会|あ}いましょう。",
         "english": "Let's meet tomorrow.",
         "notes": null
       },
       {
-        "japanese": "久しぶりに会えてうれしいです。",
+        "japanese": "{久|ひさ}しぶりに{会|あ}えてうれしいです。",
         "english": "I'm happy to see you after such a long time.",
-        "notes": "Potential form 会える"
+        "notes": "Potential form {会|あ}える"
       }
     ],
-    "notes": "会う takes the particle に for the person being met (友達に会う). This is different from English where 'meet' takes a direct object. Te-form: 会って. Don't confuse with 合う (あう, to match/fit) which uses different kanji.",
+    "notes": "{会|あ}う takes the particle に for the person being met ({友達|ともだち}に{会|あ}う). This is different from English where 'meet' takes a direct object. Te-form: {会|あ}って. Don't confuse with {合|あ}う (あう, to match/fit) which uses different kanji.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -195,7 +195,7 @@ const DICTIONARY_DATA = {
   },
   "chiisai_00001": {
     "id": "chiisai_00001",
-    "headword": "小さい",
+    "headword": "{小|ちい}さい",
     "reading": "ちいさい",
     "part_of_speech": "adjective (i-adjective)",
     "gloss": "small, little",
@@ -203,36 +203,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "small, little (in size)",
-        "explanation": "Describes something of less than average size. The opposite of 大きい (ookii, big). Used for physical dimensions of objects, spaces, and living things."
+        "explanation": "Describes something of less than average size. The opposite of {大|おお}きい (big). Used for physical dimensions of objects, spaces, and living things."
       },
       {
         "sense_number": 2,
         "gloss": "quiet, soft (of sound/voice)",
-        "explanation": "When describing voices or sounds, 小さい means quiet or soft. 小さい声 (chiisai koe) means a quiet/soft voice."
+        "explanation": "When describing voices or sounds, {小|ちい}さい means quiet or soft. {小|ちい}さい{声|こえ} means a quiet/soft voice."
       }
     ],
     "examples": [
       {
-        "japanese": "このカバンは小さいです。",
+        "japanese": "このカバンは{小|ちい}さいです。",
         "english": "This bag is small.",
         "notes": null
       },
       {
-        "japanese": "小さい子供がいます。",
+        "japanese": "{小|ちい}さい{子供|こども}がいます。",
         "english": "There is a small child. / I have a small child.",
         "notes": null
       },
       {
-        "japanese": "小さい声で話してください。",
+        "japanese": "{小|ちい}さい{声|こえ}で{話|はな}してください。",
         "english": "Please speak in a quiet voice.",
         "notes": null
       }
     ],
-    "notes": "小さい is an i-adjective. Like 大きい, it has a special attributive form 小さな (chiisana) that can only be used directly before nouns. Both 小さい猫 and 小さな猫 mean 'small cat.' Conjugation: 小さくない (negative), 小さかった (past).",
+    "notes": "{小|ちい}さい is an i-adjective. Like {大|おお}きい, it has a special attributive form {小|ちい}さな that can only be used directly before nouns. Both {小|ちい}さい{猫|ねこ} and {小|ちい}さな{猫|ねこ} mean 'small cat.' Conjugation: {小|ちい}さくない (negative), {小|ちい}さかった (past).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -309,7 +309,7 @@ const DICTIONARY_DATA = {
   },
   "furui_00006": {
     "id": "furui_00006",
-    "headword": "古い",
+    "headword": "{古|ふる}い",
     "reading": "ふるい",
     "part_of_speech": "adjective (i-adjective)",
     "gloss": "old",
@@ -317,36 +317,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "old (not new)",
-        "explanation": "Having existed for a long time or no longer new. Used for objects, buildings, traditions, etc. The opposite of 新しい."
+        "explanation": "Having existed for a long time or no longer new. Used for objects, buildings, traditions, etc. The opposite of {新|あたら}しい."
       },
       {
         "sense_number": 2,
         "gloss": "outdated, old-fashioned",
-        "explanation": "No longer current or fashionable. 古い考え (an outdated idea)."
+        "explanation": "No longer current or fashionable. {古|ふる}い{考|かんが}え (an outdated idea)."
       }
     ],
     "examples": [
       {
-        "japanese": "この建物は古いです。",
+        "japanese": "この{建物|たてもの}は{古|ふる}いです。",
         "english": "This building is old.",
         "notes": null
       },
       {
-        "japanese": "古い友達に会いました。",
+        "japanese": "{古|ふる}い{友達|ともだち}に{会|あ}いました。",
         "english": "I met an old friend.",
         "notes": "Here meaning long-time friend"
       },
       {
-        "japanese": "その考えは古いですよ。",
+        "japanese": "その{考|かんが}えは{古|ふる}いですよ。",
         "english": "That idea is outdated.",
         "notes": null
       }
     ],
-    "notes": "古い is used for things, not people's age. For people, use 年を取った or 年配の. An 'old friend' (古い友達) means a friend you've known for a long time, not an elderly friend. Conjugation: 古くない, 古かった, 古くて.",
+    "notes": "{古|ふる}い is used for things, not people's age. For people, use {年|とし}を{取|と}った or {年配|ねんぱい}の. An 'old friend' ({古|ふる}い{友達|ともだち}) means a friend you've known for a long time, not an elderly friend. Conjugation: {古|ふる}くない, {古|ふる}かった, {古|ふる}くて.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -413,7 +413,7 @@ const DICTIONARY_DATA = {
   },
   "gakkou_00001": {
     "id": "gakkou_00001",
-    "headword": "学校",
+    "headword": "{学校|がっこう}",
     "reading": "がっこう",
     "part_of_speech": "noun",
     "gloss": "school",
@@ -421,31 +421,31 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "school",
-        "explanation": "An educational institution. Can refer to any level: elementary school (小学校), middle school (中学校), high school (高校/高等学校), or the general concept of school as a place of learning."
+        "explanation": "An educational institution. Can refer to any level: elementary school ({小学校|しょうがっこう}), middle school ({中学校|ちゅうがっこう}), high school ({高校|こうこう}/{高等学校|こうとうがっこう}), or the general concept of school as a place of learning."
       }
     ],
     "examples": [
       {
-        "japanese": "学校に行きます。",
+        "japanese": "{学校|がっこう}に{行|い}きます。",
         "english": "I go to school.",
         "notes": null
       },
       {
-        "japanese": "学校は何時に始まりますか。",
+        "japanese": "{学校|がっこう}は{何時|なんじ}に{始|はじ}まりますか。",
         "english": "What time does school start?",
         "notes": null
       },
       {
-        "japanese": "今日は学校が休みです。",
+        "japanese": "{今日|きょう}は{学校|がっこう}が{休|やす}みです。",
         "english": "School is closed today. / There's no school today.",
         "notes": null
       }
     ],
-    "notes": "学校 is the general term for school. For specific school levels, Japanese uses: 小学校 (elementary), 中学校 (middle school), 高校 or 高等学校 (high school), 大学 (university). The particle に is used for the destination: 学校に行く (go to school).",
+    "notes": "{学校|がっこう} is the general term for school. For specific school levels, Japanese uses: {小学校|しょうがっこう} (elementary), {中学校|ちゅうがっこう} (middle school), {高校|こうこう} or {高等学校|こうとうがっこう} (high school), {大学|だいがく} (university). The particle に is used for the destination: {学校|がっこう}に{行|い}く (go to school).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -507,7 +507,7 @@ const DICTIONARY_DATA = {
   },
   "hanasu_00003": {
     "id": "hanasu_00003",
-    "headword": "話す",
+    "headword": "{話|はな}す",
     "reading": "はなす",
     "part_of_speech": "verb (godan)",
     "gloss": "to speak, to talk",
@@ -520,31 +520,31 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "to tell, to explain",
-        "explanation": "To convey information or a story to someone. 話を話す sounds redundant, so often 話をする is used instead."
+        "explanation": "To convey information or a story to someone. {話|はなし}を{話|はな}す sounds redundant, so often {話|はなし}をする is used instead."
       }
     ],
     "examples": [
       {
-        "japanese": "日本語を話せますか。",
+        "japanese": "{日本語|にほんご}を{話|はな}せますか。",
         "english": "Can you speak Japanese?",
-        "notes": "Potential form 話せる"
+        "notes": "Potential form {話|はな}せる"
       },
       {
-        "japanese": "友達と話しました。",
+        "japanese": "{友達|ともだち}と{話|はな}しました。",
         "english": "I talked with my friend.",
         "notes": null
       },
       {
-        "japanese": "本当のことを話してください。",
+        "japanese": "{本当|ほんとう}のことを{話|はな}してください。",
         "english": "Please tell me the truth.",
         "notes": null
       }
     ],
-    "notes": "話す is the basic verb for speaking. Compare with 言う (いう, to say) which focuses on the content of what is said, while 話す focuses on the act of speaking or having a conversation. Te-form: 話して.",
+    "notes": "{話|はな}す is the basic verb for speaking. Compare with {言|い}う (to say) which focuses on the content of what is said, while {話|はな}す focuses on the act of speaking or having a conversation. Te-form: {話|はな}して.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -554,7 +554,7 @@ const DICTIONARY_DATA = {
   },
   "hi_00005": {
     "id": "hi_00005",
-    "headword": "日",
+    "headword": "{日|ひ}",
     "reading": "ひ",
     "part_of_speech": "noun",
     "gloss": "day, sun",
@@ -562,36 +562,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "day",
-        "explanation": "A calendar day or a particular date. その日 (that day), いい日 (a good day)."
+        "explanation": "A calendar day or a particular date. その{日|ひ} (that day), いい{日|ひ} (a good day)."
       },
       {
         "sense_number": 2,
         "gloss": "sun, sunlight",
-        "explanation": "The sun or sunshine. 日が出る (the sun rises), 日に当たる (to be in the sun)."
+        "explanation": "The sun or sunshine. {日|ひ}が{出|で}る (the sun rises), {日|ひ}に{当|あ}たる (to be in the sun)."
       }
     ],
     "examples": [
       {
-        "japanese": "今日はいい日ですね。",
+        "japanese": "{今日|きょう}はいい{日|ひ}ですね。",
         "english": "Today is a nice day, isn't it?",
         "notes": null
       },
       {
-        "japanese": "その日は忙しいです。",
+        "japanese": "その{日|ひ}は{忙|いそが}しいです。",
         "english": "I'm busy on that day.",
         "notes": null
       },
       {
-        "japanese": "日が暮れる前に帰りましょう。",
+        "japanese": "{日|ひ}が{暮|く}れる{前|まえ}に{帰|かえ}りましょう。",
         "english": "Let's go home before the sun sets.",
         "notes": null
       }
     ],
-    "notes": "日 has many readings depending on context: ひ (day/sun), にち (counter for days, as in 三日), か (in dates like 三日 みっか), び (in compounds like 誕生日). As a counter, days 1-10 have special readings: 一日(ついたち), 二日(ふつか), etc.",
+    "notes": "{日|ひ} has many readings depending on context: ひ (day/sun), にち (counter for days, as in {三日|さんにち}), か (in dates like {三日|みっか}), び (in compounds like {誕生日|たんじょうび}). As a counter, days 1-10 have special readings: {一日|ついたち}, {二日|ふつか}, etc.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -601,7 +601,7 @@ const DICTIONARY_DATA = {
   },
   "hito_00004": {
     "id": "hito_00004",
-    "headword": "人",
+    "headword": "{人|ひと}",
     "reading": "ひと",
     "part_of_speech": "noun",
     "gloss": "person, human",
@@ -614,36 +614,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "someone, other people",
-        "explanation": "Used to refer to others in general. 人に言う (to tell someone), 人の話 (what others say)."
+        "explanation": "Used to refer to others in general. {人|ひと}に{言|い}う (to tell someone), {人|ひと}の{話|はなし} (what others say)."
       },
       {
         "sense_number": 3,
         "gloss": "character, personality",
-        "explanation": "The nature or personality of a person. いい人 (a good/kind person)."
+        "explanation": "The nature or personality of a person. いい{人|ひと} (a good/kind person)."
       }
     ],
     "examples": [
       {
-        "japanese": "あの人は誰ですか。",
+        "japanese": "あの{人|ひと}は{誰|だれ}ですか。",
         "english": "Who is that person?",
         "notes": null
       },
       {
-        "japanese": "人が多いですね。",
+        "japanese": "{人|ひと}が{多|おお}いですね。",
         "english": "There are a lot of people, aren't there?",
         "notes": null
       },
       {
-        "japanese": "人のものを取らないでください。",
+        "japanese": "{人|ひと}のものを{取|と}らないでください。",
         "english": "Please don't take other people's things.",
         "notes": null
       }
     ],
-    "notes": "人 has multiple readings: ひと (standalone or in some compounds), じん (nationality/occupation suffix like 日本人, アメリカ人), にん (counter for people like 三人). As a suffix, 〜人 often indicates nationality or a type of person.",
+    "notes": "{人|ひと} has multiple readings: ひと (standalone or in some compounds), じん (nationality/occupation suffix like {日本人|にほんじん}, アメリカ{人|じん}), にん (counter for people like {三人|さんにん}). As a suffix, 〜{人|じん} often indicates nationality or a type of person.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -851,7 +851,7 @@ const DICTIONARY_DATA = {
   },
   "jikan_00003": {
     "id": "jikan_00003",
-    "headword": "時間",
+    "headword": "{時間|じかん}",
     "reading": "じかん",
     "part_of_speech": "noun",
     "gloss": "time, hour",
@@ -859,36 +859,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "time",
-        "explanation": "The general concept of time, or a period/amount of time. 時間がない (no time), 時間がかかる (takes time)."
+        "explanation": "The general concept of time, or a period/amount of time. {時間|じかん}がない (no time), {時間|じかん}がかかる (takes time)."
       },
       {
         "sense_number": 2,
         "gloss": "hour(s)",
-        "explanation": "Used as a counter for hours. 三時間 (three hours)."
+        "explanation": "Used as a counter for hours. {三時間|さんじかん} (three hours)."
       }
     ],
     "examples": [
       {
-        "japanese": "時間がありますか。",
+        "japanese": "{時間|じかん}がありますか。",
         "english": "Do you have time?",
         "notes": null
       },
       {
-        "japanese": "二時間かかりました。",
+        "japanese": "{二時間|にじかん}かかりました。",
         "english": "It took two hours.",
         "notes": null
       },
       {
-        "japanese": "時間を大切にしてください。",
+        "japanese": "{時間|じかん}を{大切|たいせつ}にしてください。",
         "english": "Please value your time.",
         "notes": null
       }
     ],
-    "notes": "時間 as a counter for hours: 一時間, 二時間, 三時間, etc. Don't confuse with 時 (じ) which marks clock time (三時 = 3 o'clock) versus duration (三時間 = 3 hours). 時間 can also refer to a class period in school contexts.",
+    "notes": "{時間|じかん} as a counter for hours: {一時間|いちじかん}, {二時間|にじかん}, {三時間|さんじかん}, etc. Don't confuse with {時|じ} which marks clock time ({三時|さんじ} = 3 o'clock) versus duration ({三時間|さんじかん} = 3 hours). {時間|じかん} can also refer to a class period in school contexts.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -898,7 +898,7 @@ const DICTIONARY_DATA = {
   },
   "kaku_00004": {
     "id": "kaku_00004",
-    "headword": "書く",
+    "headword": "{書|か}く",
     "reading": "かく",
     "part_of_speech": "verb (godan)",
     "gloss": "to write",
@@ -911,31 +911,31 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "to draw, to paint",
-        "explanation": "Can also mean to draw or paint pictures, though 描く (えがく/かく) is more specific for artistic drawing."
+        "explanation": "Can also mean to draw or paint pictures, though {描|えが}く/{描|か}く is more specific for artistic drawing."
       }
     ],
     "examples": [
       {
-        "japanese": "手紙を書きました。",
+        "japanese": "{手紙|てがみ}を{書|か}きました。",
         "english": "I wrote a letter.",
         "notes": null
       },
       {
-        "japanese": "名前を書いてください。",
+        "japanese": "{名前|なまえ}を{書|か}いてください。",
         "english": "Please write your name.",
         "notes": null
       },
       {
-        "japanese": "日本語で書けますか。",
+        "japanese": "{日本語|にほんご}で{書|か}けますか。",
         "english": "Can you write in Japanese?",
-        "notes": "Potential form 書ける"
+        "notes": "Potential form {書|か}ける"
       }
     ],
-    "notes": "書く is a godan verb with the te-form 書いて (not 書きて). This is the standard verb for writing. For typing specifically, you can say タイプする or 打つ (うつ), but 書く is also commonly used for typed text.",
+    "notes": "{書|か}く is a godan verb with the te-form {書|か}いて (not {書|か}きて). This is the standard verb for writing. For typing specifically, you can say タイプする or {打|う}つ, but {書|か}く is also commonly used for typed text.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1002,7 +1002,7 @@ const DICTIONARY_DATA = {
   },
   "kau_00006": {
     "id": "kau_00006",
-    "headword": "買う",
+    "headword": "{買|か}う",
     "reading": "かう",
     "part_of_speech": "verb (godan)",
     "gloss": "to buy",
@@ -1015,26 +1015,26 @@ const DICTIONARY_DATA = {
     ],
     "examples": [
       {
-        "japanese": "本を買いました。",
+        "japanese": "{本|ほん}を{買|か}いました。",
         "english": "I bought a book.",
         "notes": null
       },
       {
-        "japanese": "どこで買いましたか。",
+        "japanese": "どこで{買|か}いましたか。",
         "english": "Where did you buy it?",
         "notes": null
       },
       {
-        "japanese": "新しいパソコンを買いたいです。",
+        "japanese": "{新|あたら}しいパソコンを{買|か}いたいです。",
         "english": "I want to buy a new computer.",
         "notes": null
       }
     ],
-    "notes": "買う is a godan verb. Te-form: 買って. The opposite is 売る (うる, to sell). For online shopping, you can say ネットで買う or オンラインで買う.",
+    "notes": "{買|か}う is a godan verb. Te-form: {買|か}って. The opposite is {売|う}る (to sell). For online shopping, you can say ネットで{買|か}う or オンラインで{買|か}う.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1044,7 +1044,7 @@ const DICTIONARY_DATA = {
   },
   "kiku_00005": {
     "id": "kiku_00005",
-    "headword": "聞く",
+    "headword": "{聞|き}く",
     "reading": "きく",
     "part_of_speech": "verb (godan)",
     "gloss": "to hear, to listen, to ask",
@@ -1057,36 +1057,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "to listen",
-        "explanation": "To actively pay attention to sounds, especially music or speech. 音楽を聞く (to listen to music)."
+        "explanation": "To actively pay attention to sounds, especially music or speech. {音楽|おんがく}を{聞|き}く (to listen to music)."
       },
       {
         "sense_number": 3,
         "gloss": "to ask",
-        "explanation": "To ask a question or inquire about something. 道を聞く (to ask for directions)."
+        "explanation": "To ask a question or inquire about something. {道|みち}を{聞|き}く (to ask for directions)."
       }
     ],
     "examples": [
       {
-        "japanese": "音楽を聞くのが好きです。",
+        "japanese": "{音楽|おんがく}を{聞|き}くのが{好|す}きです。",
         "english": "I like listening to music.",
         "notes": null
       },
       {
-        "japanese": "ちょっと聞いてもいいですか。",
+        "japanese": "ちょっと{聞|き}いてもいいですか。",
         "english": "May I ask you something?",
         "notes": null
       },
       {
-        "japanese": "その話は聞いたことがあります。",
+        "japanese": "その{話|はなし}は{聞|き}いたことがあります。",
         "english": "I've heard that story before.",
         "notes": "〜たことがある expressing experience"
       }
     ],
-    "notes": "聞く covers both passive hearing and active listening, as well as asking questions. The kanji 聴く emphasizes more careful, attentive listening (like to music or lectures), but 聞く is more common in everyday use. Te-form: 聞いて.",
+    "notes": "{聞|き}く covers both passive hearing and active listening, as well as asking questions. The kanji {聴|き}く emphasizes more careful, attentive listening (like to music or lectures), but {聞|き}く is more common in everyday use. Te-form: {聞|き}いて.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1143,7 +1143,7 @@ const DICTIONARY_DATA = {
   },
   "kyou_00007": {
     "id": "kyou_00007",
-    "headword": "今日",
+    "headword": "{今日|きょう}",
     "reading": "きょう",
     "part_of_speech": "noun",
     "gloss": "today",
@@ -1156,26 +1156,26 @@ const DICTIONARY_DATA = {
     ],
     "examples": [
       {
-        "japanese": "今日は何曜日ですか。",
+        "japanese": "{今日|きょう}は{何曜日|なんようび}ですか。",
         "english": "What day of the week is today?",
         "notes": null
       },
       {
-        "japanese": "今日、映画を見に行きます。",
+        "japanese": "{今日|きょう}、{映画|えいが}を{見|み}に{行|い}きます。",
         "english": "I'm going to see a movie today.",
-        "notes": "No particle needed before 今日"
+        "notes": "No particle needed before {今日|きょう}"
       },
       {
-        "japanese": "今日はありがとうございました。",
+        "japanese": "{今日|きょう}はありがとうございました。",
         "english": "Thank you for today.",
         "notes": "Common phrase when parting"
       }
     ],
-    "notes": "今日 is usually read きょう, but can also be read こんにち in formal contexts (as in こんにちは, though that's typically written in hiragana). Time words like 今日, 明日, 昨日 typically don't require the particle に.",
+    "notes": "{今日|きょう} is usually read きょう, but can also be read こんにち in formal contexts (as in こんにちは, though that's typically written in hiragana). Time words like {今日|きょう}, {明日|あした}, {昨日|きのう} typically don't require the particle に.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1242,7 +1242,7 @@ const DICTIONARY_DATA = {
   },
   "matsu_00003": {
     "id": "matsu_00003",
-    "headword": "待つ",
+    "headword": "{待|ま}つ",
     "reading": "まつ",
     "part_of_speech": "verb (godan)",
     "gloss": "to wait",
@@ -1255,31 +1255,31 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "to look forward to, to await",
-        "explanation": "To anticipate something with expectation. 楽しみに待つ (to look forward to)."
+        "explanation": "To anticipate something with expectation. {楽|たの}しみに{待|ま}つ (to look forward to)."
       }
     ],
     "examples": [
       {
-        "japanese": "ここで待ってください。",
+        "japanese": "ここで{待|ま}ってください。",
         "english": "Please wait here.",
         "notes": null
       },
       {
-        "japanese": "バスを待っています。",
+        "japanese": "バスを{待|ま}っています。",
         "english": "I'm waiting for the bus.",
         "notes": null
       },
       {
-        "japanese": "お返事をお待ちしております。",
+        "japanese": "お{返事|へんじ}をお{待|ま}ちしております。",
         "english": "I await your reply.",
         "notes": "Humble/polite form used in business"
       }
     ],
-    "notes": "待つ is a godan verb. Te-form: 待って. The thing or person being waited for takes を (バスを待つ) or can be marked with を when waiting for an action (返事を待つ). ちょっと待って is a casual way to say 'wait a moment.'",
+    "notes": "{待|ま}つ is a godan verb. Te-form: {待|ま}って. The thing or person being waited for takes を (バスを{待|ま}つ) or can be marked with を when waiting for an action ({返事|へんじ}を{待|ま}つ). ちょっと{待|ま}って is a casual way to say 'wait a moment.'",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1440,7 +1440,7 @@ const DICTIONARY_DATA = {
   },
   "motsu_00004": {
     "id": "motsu_00004",
-    "headword": "持つ",
+    "headword": "{持|も}つ",
     "reading": "もつ",
     "part_of_speech": "verb (godan)",
     "gloss": "to hold, to have, to carry",
@@ -1453,36 +1453,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "to have, to possess",
-        "explanation": "To own or possess something. 車を持っている (to have a car)."
+        "explanation": "To own or possess something. {車|くるま}を{持|も}っている (to have a car)."
       },
       {
         "sense_number": 3,
         "gloss": "to last, to hold up",
-        "explanation": "For something to remain in good condition or to endure. この電池は長く持つ (this battery lasts long)."
+        "explanation": "For something to remain in good condition or to endure. この{電池|でんち}は{長|なが}く{持|も}つ (this battery lasts long)."
       }
     ],
     "examples": [
       {
-        "japanese": "傘を持っていますか。",
+        "japanese": "{傘|かさ}を{持|も}っていますか。",
         "english": "Do you have an umbrella?",
         "notes": null
       },
       {
-        "japanese": "荷物を持ちましょうか。",
+        "japanese": "{荷物|にもつ}を{持|も}ちましょうか。",
         "english": "Shall I carry your luggage?",
         "notes": "Offering help"
       },
       {
-        "japanese": "この牛乳はあと何日持ちますか。",
+        "japanese": "この{牛乳|ぎゅうにゅう}はあと{何日|なんにち}{持|も}ちますか。",
         "english": "How many more days will this milk last?",
         "notes": null
       }
     ],
-    "notes": "持つ is a godan verb. Te-form: 持って. The form 持っている is very common for expressing possession (having something). Compare with ある which expresses existence, while 持つ emphasizes ownership or carrying.",
+    "notes": "{持|も}つ is a godan verb. Te-form: {持|も}って. The form {持|も}っている is very common for expressing possession (having something). Compare with ある which expresses existence, while {持|も}つ emphasizes ownership or carrying.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1564,7 +1564,7 @@ const DICTIONARY_DATA = {
   },
   "nomu_00001": {
     "id": "nomu_00001",
-    "headword": "飲む",
+    "headword": "{飲|の}む",
     "reading": "のむ",
     "part_of_speech": "verb (godan)",
     "gloss": "to drink",
@@ -1572,36 +1572,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "to drink",
-        "explanation": "The standard verb for drinking liquids. Used for water, tea, coffee, alcohol, and any other beverages. Can also be used for taking medicine (薬を飲む)."
+        "explanation": "The standard verb for drinking liquids. Used for water, tea, coffee, alcohol, and any other beverages. Can also be used for taking medicine ({薬|くすり}を{飲|の}む)."
       },
       {
         "sense_number": 2,
         "gloss": "to swallow",
-        "explanation": "Used for swallowing pills or capsules. Also used figuratively for accepting something difficult (e.g., 条件を飲む - to swallow/accept conditions)."
+        "explanation": "Used for swallowing pills or capsules. Also used figuratively for accepting something difficult (e.g., {条件|じょうけん}を{飲|の}む - to swallow/accept conditions)."
       }
     ],
     "examples": [
       {
-        "japanese": "水を飲みたいです。",
+        "japanese": "{水|みず}を{飲|の}みたいです。",
         "english": "I want to drink water.",
         "notes": null
       },
       {
-        "japanese": "コーヒーを飲みますか。",
+        "japanese": "コーヒーを{飲|の}みますか。",
         "english": "Would you like to drink coffee?",
         "notes": "Polite invitation"
       },
       {
-        "japanese": "薬を飲んでください。",
+        "japanese": "{薬|くすり}を{飲|の}んでください。",
         "english": "Please take (drink) your medicine.",
         "notes": null
       }
     ],
-    "notes": "This is a godan (五段) verb, also called a う-verb. The stem changes based on conjugation: 飲まない (negative), 飲みます (polite), 飲んで (te-form). Note the irregular te-form: む → んで.",
+    "notes": "This is a godan ({五段|ごだん}) verb, also called a う-verb. The stem changes based on conjugation: {飲|の}まない (negative), {飲|の}みます (polite), {飲|の}んで (te-form). Note the irregular te-form: む → んで.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-06T23:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1611,7 +1611,7 @@ const DICTIONARY_DATA = {
   },
   "omou_00006": {
     "id": "omou_00006",
-    "headword": "思う",
+    "headword": "{思|おも}う",
     "reading": "おもう",
     "part_of_speech": "verb (godan)",
     "gloss": "to think, to feel",
@@ -1619,41 +1619,41 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "to think, to believe",
-        "explanation": "To have an opinion or belief about something. Often used with と思う to express one's thoughts."
+        "explanation": "To have an opinion or belief about something. Often used with と{思|おも}う to express one's thoughts."
       },
       {
         "sense_number": 2,
         "gloss": "to feel, to sense",
-        "explanation": "To have an emotional response or impression. そう思う (I feel that way)."
+        "explanation": "To have an emotional response or impression. そう{思|おも}う (I feel that way)."
       },
       {
         "sense_number": 3,
         "gloss": "to expect, to suppose",
-        "explanation": "To anticipate or assume something. 雨が降ると思う (I think it will rain)."
+        "explanation": "To anticipate or assume something. {雨|あめ}が{降|ふ}ると{思|おも}う (I think it will rain)."
       }
     ],
     "examples": [
       {
-        "japanese": "明日は晴れると思います。",
+        "japanese": "{明日|あした}は{晴|は}れると{思|おも}います。",
         "english": "I think it will be sunny tomorrow.",
-        "notes": "〜と思う for expressing opinions"
+        "notes": "〜と{思|おも}う for expressing opinions"
       },
       {
-        "japanese": "どう思いますか。",
+        "japanese": "どう{思|おも}いますか。",
         "english": "What do you think?",
         "notes": "Common question"
       },
       {
-        "japanese": "彼は来ないと思う。",
+        "japanese": "{彼|かれ}は{来|こ}ないと{思|おも}う。",
         "english": "I don't think he will come.",
-        "notes": "Negative inside the quote, not on 思う"
+        "notes": "Negative inside the quote, not on {思|おも}う"
       }
     ],
-    "notes": "思う is extremely common for expressing opinions. The pattern 〜と思う is essential. Note that Japanese often puts the negative inside: 来ないと思う (think won't come) rather than 来ると思わない. Compare with 考える (かんがえる) which implies more deliberate thinking/reasoning. Te-form: 思って.",
+    "notes": "{思|おも}う is extremely common for expressing opinions. The pattern 〜と{思|おも}う is essential. Note that Japanese often puts the negative inside: {来|こ}ないと{思|おも}う (think won't come) rather than {来|く}ると{思|おも}わない. Compare with {考|かんが}える which implies more deliberate thinking/reasoning. Te-form: {思|おも}って.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1663,7 +1663,7 @@ const DICTIONARY_DATA = {
   },
   "ookii_00001": {
     "id": "ookii_00001",
-    "headword": "大きい",
+    "headword": "{大|おお}きい",
     "reading": "おおきい",
     "part_of_speech": "adjective (i-adjective)",
     "gloss": "big, large",
@@ -1671,36 +1671,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "big, large (in size)",
-        "explanation": "Describes physical size. Used for objects, spaces, animals, and anything that can be measured by size. The opposite is 小さい (chiisai, small)."
+        "explanation": "Describes physical size. Used for objects, spaces, animals, and anything that can be measured by size. The opposite is {小|ちい}さい (chiisai, small)."
       },
       {
         "sense_number": 2,
         "gloss": "loud (of sound/voice)",
-        "explanation": "When describing voices or sounds, 大きい means loud. 大きい声 (ookii koe) means a loud voice."
+        "explanation": "When describing voices or sounds, {大|おお}きい means loud. {大|おお}きい{声|こえ} (ookii koe) means a loud voice."
       }
     ],
     "examples": [
       {
-        "japanese": "この家は大きいです。",
+        "japanese": "この{家|いえ}は{大|おお}きいです。",
         "english": "This house is big.",
         "notes": null
       },
       {
-        "japanese": "大きい犬が好きです。",
+        "japanese": "{大|おお}きい{犬|いぬ}が{好|す}きです。",
         "english": "I like big dogs.",
         "notes": null
       },
       {
-        "japanese": "もっと大きい声で話してください。",
+        "japanese": "もっと{大|おお}きい{声|こえ}で{話|はな}してください。",
         "english": "Please speak in a louder voice.",
         "notes": null
       }
     ],
-    "notes": "大きい is an i-adjective. Before nouns, it can be used as 大きい or 大きな (ookina). 大きな is a special attributive form that can only be used directly before nouns (大きな家), while 大きい can be used both attributively and predicatively. Conjugation: 大きくない (negative), 大きかった (past).",
+    "notes": "{大|おお}きい is an i-adjective. Before nouns, it can be used as {大|おお}きい or {大|おお}きな (ookina). {大|おお}きな is a special attributive form that can only be used directly before nouns ({大|おお}きな{家|いえ}), while {大|おお}きい can be used both attributively and predicatively. Conjugation: {大|おお}きくない (negative), {大|おお}きかった (past).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-06T23:30:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1710,7 +1710,7 @@ const DICTIONARY_DATA = {
   },
   "shiru_00002": {
     "id": "shiru_00002",
-    "headword": "知る",
+    "headword": "{知|し}る",
     "reading": "しる",
     "part_of_speech": "verb (godan)",
     "gloss": "to know, to learn",
@@ -1718,36 +1718,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "to know, to be aware of",
-        "explanation": "To have knowledge or information about something. Usually used in the form 知っている to express current knowledge."
+        "explanation": "To have knowledge or information about something. Usually used in the form {知|し}っている to express current knowledge."
       },
       {
         "sense_number": 2,
         "gloss": "to learn, to find out",
-        "explanation": "To acquire new knowledge or information. 知った expresses the moment of learning something new."
+        "explanation": "To acquire new knowledge or information. {知|し}った expresses the moment of learning something new."
       }
     ],
     "examples": [
       {
-        "japanese": "この言葉を知っていますか。",
+        "japanese": "この{言葉|ことば}を{知|し}っていますか。",
         "english": "Do you know this word?",
-        "notes": "知っている for current state of knowing"
+        "notes": "{知|し}っている for current state of knowing"
       },
       {
-        "japanese": "昨日そのニュースを知りました。",
+        "japanese": "{昨日|きのう}そのニュースを{知|し}りました。",
         "english": "I learned that news yesterday.",
-        "notes": "知った for the moment of learning"
+        "notes": "{知|し}った for the moment of learning"
       },
       {
-        "japanese": "知らない人に話しかけないでください。",
+        "japanese": "{知|し}らない{人|ひと}に{話|はな}しかけないでください。",
         "english": "Please don't talk to strangers.",
-        "notes": "知らない = don't know (unknown)"
+        "notes": "{知|し}らない = don't know (unknown)"
       }
     ],
-    "notes": "知る behaves differently from English 'know.' Use 知っている (continuous form) for things you currently know, not 知る. However, 知らない (not 知っていない) is used for things you don't know. This asymmetry is important for learners. Te-form: 知って.",
+    "notes": "{知|し}る behaves differently from English 'know.' Use {知|し}っている (continuous form) for things you currently know, not {知|し}る. However, {知|し}らない (not {知|し}っていない) is used for things you don't know. This asymmetry is important for learners. Te-form: {知|し}って.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1861,7 +1861,7 @@ const DICTIONARY_DATA = {
   },
   "takai_00007": {
     "id": "takai_00007",
-    "headword": "高い",
+    "headword": "{高|たか}い",
     "reading": "たかい",
     "part_of_speech": "adjective (i-adjective)",
     "gloss": "high, tall, expensive",
@@ -1869,41 +1869,41 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "high, tall",
-        "explanation": "Having great vertical extent. Used for buildings, mountains, or anything with height. 高い山 (a tall mountain)."
+        "explanation": "Having great vertical extent. Used for buildings, mountains, or anything with height. {高|たか}い{山|やま} (a tall mountain)."
       },
       {
         "sense_number": 2,
         "gloss": "expensive",
-        "explanation": "Costing a lot of money. The opposite of 安い (やすい, cheap)."
+        "explanation": "Costing a lot of money. The opposite of {安|やす}い (cheap)."
       },
       {
         "sense_number": 3,
         "gloss": "high (in level/degree)",
-        "explanation": "Of great degree or intensity. 品質が高い (high quality), 熱が高い (high fever)."
+        "explanation": "Of great degree or intensity. {品質|ひんしつ}が{高|たか}い (high quality), {熱|ねつ}が{高|たか}い (high fever)."
       }
     ],
     "examples": [
       {
-        "japanese": "この山は高いです。",
+        "japanese": "この{山|やま}は{高|たか}いです。",
         "english": "This mountain is tall.",
         "notes": null
       },
       {
-        "japanese": "このレストランは高すぎます。",
+        "japanese": "このレストランは{高|たか}すぎます。",
         "english": "This restaurant is too expensive.",
         "notes": "〜すぎる = too much"
       },
       {
-        "japanese": "背が高いですね。",
+        "japanese": "{背|せ}が{高|たか}いですね。",
         "english": "You're tall, aren't you?",
-        "notes": "背が高い = tall (for people)"
+        "notes": "{背|せ}が{高|たか}い = tall (for people)"
       }
     ],
-    "notes": "高い covers both physical height and price - context determines meaning. For tall people, say 背が高い (せがたかい). Conjugation: 高くない, 高かった, 高くて. In compounds, 高 is often read こう: 高校 (こうこう, high school).",
+    "notes": "{高|たか}い covers both physical height and price - context determines meaning. For tall people, say {背|せ}が{高|たか}い. Conjugation: {高|たか}くない, {高|たか}かった, {高|たか}くて. In compounds, {高|こう} is often read こう: {高校|こうこう} (high school).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1975,7 +1975,7 @@ const DICTIONARY_DATA = {
   },
   "tomodachi_00006": {
     "id": "tomodachi_00006",
-    "headword": "友達",
+    "headword": "{友達|ともだち}",
     "reading": "ともだち",
     "part_of_speech": "noun",
     "gloss": "friend",
@@ -1988,26 +1988,26 @@ const DICTIONARY_DATA = {
     ],
     "examples": [
       {
-        "japanese": "友達と映画を見ました。",
+        "japanese": "{友達|ともだち}と{映画|えいが}を{見|み}ました。",
         "english": "I watched a movie with my friend.",
         "notes": null
       },
       {
-        "japanese": "新しい友達ができました。",
+        "japanese": "{新|あたら}しい{友達|ともだち}ができました。",
         "english": "I made a new friend.",
-        "notes": "友達ができる = to make a friend"
+        "notes": "{友達|ともだち}ができる = to make a friend"
       },
       {
-        "japanese": "友達に会いたいです。",
+        "japanese": "{友達|ともだち}に{会|あ}いたいです。",
         "english": "I want to meet my friend.",
         "notes": null
       }
     ],
-    "notes": "友達 is the standard word for friend. It can refer to one friend or friends in general (Japanese doesn't always mark plurality). Related words: 親友 (しんゆう, close friend), 友人 (ゆうじん, friend - more formal). To make friends: 友達を作る or 友達ができる.",
+    "notes": "{友達|ともだち} is the standard word for friend. It can refer to one friend or friends in general (Japanese doesn't always mark plurality). Related words: {親友|しんゆう} (close friend), {友人|ゆうじん} (friend - more formal). To make friends: {友達|ともだち}を{作|つく}る or {友達|ともだち}ができる.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -2017,7 +2017,7 @@ const DICTIONARY_DATA = {
   },
   "toshi_00005": {
     "id": "toshi_00005",
-    "headword": "年",
+    "headword": "{年|とし}",
     "reading": "とし",
     "part_of_speech": "noun",
     "gloss": "year, age",
@@ -2025,36 +2025,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "year",
-        "explanation": "A calendar year or a period of one year. 今年 (this year), 来年 (next year)."
+        "explanation": "A calendar year or a period of one year. {今年|ことし} (this year), {来年|らいねん} (next year)."
       },
       {
         "sense_number": 2,
         "gloss": "age",
-        "explanation": "A person's age. 年を取る (to age), 年上 (older)."
+        "explanation": "A person's age. {年|とし}を{取|と}る (to age), {年上|としうえ} (older)."
       }
     ],
     "examples": [
       {
-        "japanese": "今年は忙しいです。",
+        "japanese": "{今年|ことし}は{忙|いそが}しいです。",
         "english": "This year is busy.",
         "notes": null
       },
       {
-        "japanese": "年を聞いてもいいですか。",
+        "japanese": "{年|とし}を{聞|き}いてもいいですか。",
         "english": "May I ask your age?",
         "notes": null
       },
       {
-        "japanese": "年々暑くなっています。",
+        "japanese": "{年々|ねんねん}{暑|あつ}くなっています。",
         "english": "It's getting hotter year by year.",
-        "notes": "年々 (ねんねん) = year by year"
+        "notes": "{年々|ねんねん} = year by year"
       }
     ],
-    "notes": "年 has two main readings: とし (standalone, meaning year or age) and ねん (in compounds and as a counter: 三年 = 3 years, 2024年 = year 2024). The counter 〜年 for duration uses ねん: 一年間 (one year period).",
+    "notes": "{年|とし} has two main readings: とし (standalone, meaning year or age) and ねん (in compounds and as a counter: {三年|さんねん} = 3 years, 2024{年|ねん} = year 2024). The counter 〜{年|ねん} for duration uses ねん: {一年間|いちねんかん} (one year period).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -2064,7 +2064,7 @@ const DICTIONARY_DATA = {
   },
   "tsukau_00003": {
     "id": "tsukau_00003",
-    "headword": "使う",
+    "headword": "{使|つか}う",
     "reading": "つかう",
     "part_of_speech": "verb (godan)",
     "gloss": "to use",
@@ -2077,31 +2077,31 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "to spend (money, time)",
-        "explanation": "To expend resources. お金を使う (to spend money), 時間を使う (to spend time)."
+        "explanation": "To expend resources. お{金|かね}を{使|つか}う (to spend money), {時間|じかん}を{使|つか}う (to spend time)."
       }
     ],
     "examples": [
       {
-        "japanese": "箸を使えますか。",
+        "japanese": "{箸|はし}を{使|つか}えますか。",
         "english": "Can you use chopsticks?",
-        "notes": "Potential form 使える"
+        "notes": "Potential form {使|つか}える"
       },
       {
-        "japanese": "このアプリをよく使います。",
+        "japanese": "このアプリをよく{使|つか}います。",
         "english": "I use this app often.",
         "notes": null
       },
       {
-        "japanese": "お金を使いすぎました。",
+        "japanese": "お{金|かね}を{使|つか}いすぎました。",
         "english": "I spent too much money.",
         "notes": "〜すぎる expressing excess"
       }
     ],
-    "notes": "使う is a godan verb. Te-form: 使って. Very versatile - used for physical tools, digital tools, languages, money, time, and more. The potential form 使える is common: 日本語が使える (can use Japanese).",
+    "notes": "{使|つか}う is a godan verb. Te-form: {使|つか}って. Very versatile - used for physical tools, digital tools, languages, money, time, and more. The potential form {使|つか}える is common: {日本語|にほんご}が{使|つか}える (can use Japanese).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -2111,7 +2111,7 @@ const DICTIONARY_DATA = {
   },
   "tsukuru_00004": {
     "id": "tsukuru_00004",
-    "headword": "作る",
+    "headword": "{作|つく}る",
     "reading": "つくる",
     "part_of_speech": "verb (godan)",
     "gloss": "to make, to create",
@@ -2124,31 +2124,31 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "to prepare, to organize",
-        "explanation": "To arrange or set up something. 計画を作る (to make a plan), リストを作る (to make a list)."
+        "explanation": "To arrange or set up something. {計画|けいかく}を{作|つく}る (to make a plan), リストを{作|つく}る (to make a list)."
       }
     ],
     "examples": [
       {
-        "japanese": "晩ご飯を作ります。",
+        "japanese": "{晩|ばん}ご{飯|はん}を{作|つく}ります。",
         "english": "I'll make dinner.",
         "notes": null
       },
       {
-        "japanese": "この机は木で作られています。",
+        "japanese": "この{机|つくえ}は{木|き}で{作|つく}られています。",
         "english": "This desk is made of wood.",
-        "notes": "Passive form 作られる"
+        "notes": "Passive form {作|つく}られる"
       },
       {
-        "japanese": "友達を作りたいです。",
+        "japanese": "{友達|ともだち}を{作|つく}りたいです。",
         "english": "I want to make friends.",
         "notes": null
       }
     ],
-    "notes": "作る is one of the most common verbs in Japanese. Te-form: 作って. The kanji 造る is used for larger-scale production (ships, buildings), and 創る for creative/artistic creation, but 作る is the most general and common.",
+    "notes": "{作|つく}る is one of the most common verbs in Japanese. Te-form: {作|つく}って. The kanji {造|つく}る is used for larger-scale production (ships, buildings), and {創|つく}る for creative/artistic creation, but {作|つく}る is the most general and common.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -2158,7 +2158,7 @@ const DICTIONARY_DATA = {
   },
   "wakaru_00002": {
     "id": "wakaru_00002",
-    "headword": "分かる",
+    "headword": "{分|わ}かる",
     "reading": "わかる",
     "part_of_speech": "verb (godan)",
     "gloss": "to understand, to know",
@@ -2171,36 +2171,36 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "to know, to recognize",
-        "explanation": "To be able to identify or distinguish something. 違いが分かる (to know the difference)."
+        "explanation": "To be able to identify or distinguish something. {違|ちが}いが{分|わ}かる (to know the difference)."
       },
       {
         "sense_number": 3,
         "gloss": "to be found out, to become clear",
-        "explanation": "For something to be discovered or determined. 結果が分かる (the results become known)."
+        "explanation": "For something to be discovered or determined. {結果|けっか}が{分|わ}かる (the results become known)."
       }
     ],
     "examples": [
       {
-        "japanese": "日本語が分かりますか。",
+        "japanese": "{日本語|にほんご}が{分|わ}かりますか。",
         "english": "Do you understand Japanese?",
-        "notes": "Note: が not を with 分かる"
+        "notes": "Note: が not を with {分|わ}かる"
       },
       {
-        "japanese": "分かりました。",
+        "japanese": "{分|わ}かりました。",
         "english": "I understand. / Got it.",
         "notes": "Very common response"
       },
       {
-        "japanese": "意味が分かりません。",
+        "japanese": "{意味|いみ}が{分|わ}かりません。",
         "english": "I don't understand the meaning.",
         "notes": null
       }
     ],
-    "notes": "分かる takes が (not を) for what is understood: 日本語が分かる (understand Japanese). This is because 分かる expresses a state rather than an action - the thing understood is the subject of understanding, not the object. Also written as 解る or 判る with slightly different nuances. Te-form: 分かって.",
+    "notes": "{分|わ}かる takes が (not を) for what is understood: {日本語|にほんご}が{分|わ}かる (understand Japanese). This is because {分|わ}かる expresses a state rather than an action - the thing understood is the subject of understanding, not the object. Also written as {解|わ}かる or {判|わ}かる with slightly different nuances. Te-form: {分|わ}かって.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -2267,7 +2267,7 @@ const DICTIONARY_DATA = {
   },
   "yasui_00002": {
     "id": "yasui_00002",
-    "headword": "安い",
+    "headword": "{安|やす}い",
     "reading": "やすい",
     "part_of_speech": "adjective (i-adjective)",
     "gloss": "cheap, inexpensive",
@@ -2275,31 +2275,31 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "cheap, inexpensive",
-        "explanation": "Low in price, not costing much money. The opposite of 高い (たかい, expensive)."
+        "explanation": "Low in price, not costing much money. The opposite of {高|たか}い (expensive)."
       }
     ],
     "examples": [
       {
-        "japanese": "このカバンは安いです。",
+        "japanese": "このカバンは{安|やす}いです。",
         "english": "This bag is cheap.",
         "notes": null
       },
       {
-        "japanese": "もっと安いのはありますか。",
+        "japanese": "もっと{安|やす}いのはありますか。",
         "english": "Do you have anything cheaper?",
         "notes": null
       },
       {
-        "japanese": "安くておいしいレストランを知っていますか。",
+        "japanese": "{安|やす}くておいしいレストランを{知|し}っていますか。",
         "english": "Do you know a cheap and delicious restaurant?",
-        "notes": "安くて = cheap and (te-form)"
+        "notes": "{安|やす}くて = cheap and (te-form)"
       }
     ],
-    "notes": "安い only means cheap in price. Don't confuse with the suffix 〜やすい meaning 'easy to do' (食べやすい = easy to eat), which is written without kanji. Conjugation: 安くない, 安かった, 安くて.",
+    "notes": "{安|やす}い only means cheap in price. Don't confuse with the suffix 〜やすい meaning 'easy to do' ({食|た}べやすい = easy to eat), which is written without kanji. Conjugation: {安|やす}くない, {安|やす}かった, {安|やす}くて.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -2309,7 +2309,7 @@ const DICTIONARY_DATA = {
   },
   "yomu_00001": {
     "id": "yomu_00001",
-    "headword": "読む",
+    "headword": "{読|よ}む",
     "reading": "よむ",
     "part_of_speech": "verb (godan)",
     "gloss": "to read",
@@ -2327,31 +2327,31 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 3,
         "gloss": "to guess, to predict",
-        "explanation": "To anticipate or predict something, as in 'reading' a situation or someone's intentions. 空気を読む (kuuki wo yomu) means to read the atmosphere/room."
+        "explanation": "To anticipate or predict something, as in 'reading' a situation or someone's intentions. {空気|くうき}を{読|よ}む means to read the atmosphere/room."
       }
     ],
     "examples": [
       {
-        "japanese": "毎日新聞を読みます。",
+        "japanese": "{毎日|まいにち}{新聞|しんぶん}を{読|よ}みます。",
         "english": "I read the newspaper every day.",
         "notes": null
       },
       {
-        "japanese": "この漢字は読めません。",
+        "japanese": "この{漢字|かんじ}は{読|よ}めません。",
         "english": "I can't read this kanji.",
-        "notes": "Potential form 読める"
+        "notes": "Potential form {読|よ}める"
       },
       {
-        "japanese": "空気を読んでください。",
+        "japanese": "{空気|くうき}を{読|よ}んでください。",
         "english": "Please read the room.",
         "notes": "Idiomatic expression"
       }
     ],
-    "notes": "読む is a godan verb with the te-form 読んで. The expression 空気を読む (read the air/atmosphere) is very common in Japanese culture and refers to understanding social cues and unspoken expectations. Someone who can't do this is called KY (空気読めない).",
+    "notes": "{読|よ}む is a godan verb with the te-form {読|よ}んで. The expression {空気|くうき}を{読|よ}む (read the air/atmosphere) is very common in Japanese culture and refers to understanding social cues and unspoken expectations. Someone who can't do this is called KY ({空気読|くうきよ}めない).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-06T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -2369,25 +2369,25 @@ const DICTIONARY_INDEX = {
     "ある": [
       "aru_00001"
     ],
-    "明日": [
+    "{明日|あした}": [
       "ashita_00008"
     ],
     "あした": [
       "ashita_00008"
     ],
-    "新しい": [
+    "{新|あたら}しい": [
       "atarashii_00009"
     ],
     "あたらしい": [
       "atarashii_00009"
     ],
-    "会う": [
+    "{会|あ}う": [
       "au_00005"
     ],
     "あう": [
       "au_00005"
     ],
-    "小さい": [
+    "{小|ちい}さい": [
       "chiisai_00001"
     ],
     "ちいさい": [
@@ -2396,7 +2396,7 @@ const DICTIONARY_INDEX = {
     "で": [
       "de_00008"
     ],
-    "古い": [
+    "{古|ふる}い": [
       "furui_00006"
     ],
     "ふるい": [
@@ -2405,7 +2405,7 @@ const DICTIONARY_INDEX = {
     "が": [
       "ga_00001"
     ],
-    "学校": [
+    "{学校|がっこう}": [
       "gakkou_00001"
     ],
     "がっこう": [
@@ -2414,19 +2414,19 @@ const DICTIONARY_INDEX = {
     "は": [
       "ha_00001"
     ],
-    "話す": [
+    "{話|はな}す": [
       "hanasu_00003"
     ],
     "はなす": [
       "hanasu_00003"
     ],
-    "日": [
+    "{日|ひ}": [
       "hi_00005"
     ],
     "ひ": [
       "hi_00005"
     ],
-    "人": [
+    "{人|ひと}": [
       "hito_00004"
     ],
     "ひと": [
@@ -2450,13 +2450,13 @@ const DICTIONARY_INDEX = {
     "いる": [
       "iru_00007"
     ],
-    "時間": [
+    "{時間|じかん}": [
       "jikan_00003"
     ],
     "じかん": [
       "jikan_00003"
     ],
-    "書く": [
+    "{書|か}く": [
       "kaku_00004"
     ],
     "かく": [
@@ -2465,13 +2465,13 @@ const DICTIONARY_INDEX = {
     "から": [
       "kara_00008"
     ],
-    "買う": [
+    "{買|か}う": [
       "kau_00006"
     ],
     "かう": [
       "kau_00006"
     ],
-    "聞く": [
+    "{聞|き}く": [
       "kiku_00005"
     ],
     "きく": [
@@ -2483,7 +2483,7 @@ const DICTIONARY_INDEX = {
     "くる": [
       "kuru_00001"
     ],
-    "今日": [
+    "{今日|きょう}": [
       "kyou_00007"
     ],
     "きょう": [
@@ -2492,7 +2492,7 @@ const DICTIONARY_INDEX = {
     "まで": [
       "made_00006"
     ],
-    "待つ": [
+    "{待|ま}つ": [
       "matsu_00003"
     ],
     "まつ": [
@@ -2513,7 +2513,7 @@ const DICTIONARY_INDEX = {
     "も": [
       "mo_00005"
     ],
-    "持つ": [
+    "{持|も}つ": [
       "motsu_00004"
     ],
     "もつ": [
@@ -2522,25 +2522,25 @@ const DICTIONARY_INDEX = {
     "に": [
       "ni_00001"
     ],
-    "飲む": [
+    "{飲|の}む": [
       "nomu_00001"
     ],
     "のむ": [
       "nomu_00001"
     ],
-    "思う": [
+    "{思|おも}う": [
       "omou_00006"
     ],
     "おもう": [
       "omou_00006"
     ],
-    "大きい": [
+    "{大|おお}きい": [
       "ookii_00001"
     ],
     "おおきい": [
       "ookii_00001"
     ],
-    "知る": [
+    "{知|し}る": [
       "shiru_00002"
     ],
     "しる": [
@@ -2555,7 +2555,7 @@ const DICTIONARY_INDEX = {
     "たべる": [
       "taberu_00001"
     ],
-    "高い": [
+    "{高|たか}い": [
       "takai_00007"
     ],
     "たかい": [
@@ -2564,31 +2564,31 @@ const DICTIONARY_INDEX = {
     "と": [
       "to_00009"
     ],
-    "友達": [
+    "{友達|ともだち}": [
       "tomodachi_00006"
     ],
     "ともだち": [
       "tomodachi_00006"
     ],
-    "年": [
+    "{年|とし}": [
       "toshi_00005"
     ],
     "とし": [
       "toshi_00005"
     ],
-    "使う": [
+    "{使|つか}う": [
       "tsukau_00003"
     ],
     "つかう": [
       "tsukau_00003"
     ],
-    "作る": [
+    "{作|つく}る": [
       "tsukuru_00004"
     ],
     "つくる": [
       "tsukuru_00004"
     ],
-    "分かる": [
+    "{分|わ}かる": [
       "wakaru_00002"
     ],
     "わかる": [
@@ -2597,13 +2597,13 @@ const DICTIONARY_INDEX = {
     "を": [
       "wo_00001"
     ],
-    "安い": [
+    "{安|やす}い": [
       "yasui_00002"
     ],
     "やすい": [
       "yasui_00002"
     ],
-    "読む": [
+    "{読|よ}む": [
       "yomu_00001"
     ],
     "よむ": [
