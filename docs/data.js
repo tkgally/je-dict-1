@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-07T12:53:17.586072Z
+// Generated: 2026-01-07T13:03:49.812866Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -181,8 +181,10 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "上がる is an intransitive verb meaning 'to rise' or 'to go up.' The transitive pair is 上げる (ageru, to raise). When used for entering a house, it reflects the traditional Japanese architecture where the floor is elevated above the genkan. Conjugation: 上がらない (negative), 上がります (polite), 上がった (past).",
-    "cross_references": [],
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {上|あ}げる (to raise). Pattern: Xが{上|あ}がる.\n\nASPECT: ている indicates ongoing action or resulting state depending on context. {上|あ}がっている can mean 'is rising' (ongoing) or 'has risen/is up' (result). For prices/temperatures, the result reading is common: {値段|ねだん}が{上|あ}がっている (prices are up/have risen).\n\nCOMMON PATTERNS:\n・{気温|きおん}が{上|あ}がる (temperature rises)\n・{値段|ねだん}が{上|あ}がる (price goes up)\n・{階段|かいだん}を{上|あ}がる (go up stairs)\n・どうぞ{上|あ}がってください (please come in - entering a house)\n\nThe house-entering usage reflects traditional Japanese architecture where the floor is elevated above the genkan entrance.",
+    "cross_references": [
+      "ageru_00018"
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -228,9 +230,10 @@ const DICTIONARY_DATA = {
         "notes": "Sense 2: raising"
       }
     ],
-    "notes": "An ichidan verb. For giving to superiors, use {差|さ}し{上|あ}げる (sashiageru). For receiving, the counterpart is もらう. The て-form あげて is used to mean 'do something for someone' as in {教|おし}えてあげる (teach for someone's benefit).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: XがYにZをあげる (X gives Z to Y).\n\nFor the 'raise' meaning ({上|あ}げる): Pair verb is {上|あ}がる (intransitive, to rise). Pattern: Xを{上|あ}げる.\n\nASPECT: ている indicates ongoing action. あげている = 'is giving' or 'is raising.'\n\nCOMMON PATTERNS:\n・プレゼントをあげる (give a present)\n・{手|て}を{上|あ}げる (raise one's hand)\n・{声|こえ}を{上|あ}げる (raise one's voice)\n・〜てあげる (do something for someone's benefit)\n\nREGISTER: For giving to superiors, use {差|さ}し{上|あ}げる (humble). For receiving, the counterpart is もらう.",
     "cross_references": [
-      "morau_00011"
+      "morau_00011",
+      "agaru_00091"
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -459,9 +462,10 @@ const DICTIONARY_DATA = {
         "notes": "てみる = try doing"
       }
     ],
-    "notes": "An ichidan verb. Transitive (takes を). The intransitive pair is {開|あ}く (aku, to be open/to open by itself). Opposite: {閉|し}める (shimeru, to close).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {開|あ}く (intransitive, to open by itself). Pattern: Xを{開|あ}ける.\n\nASPECT: ている indicates resulting state. {開|あ}けている usually means 'have opened (and it's still open)' rather than 'is opening.'\n\nCOMMON PATTERNS:\n・{窓|まど}を{開|あ}ける (open the window)\n・ドアを{開|あ}ける (open the door)\n・{口|くち}を{開|あ}ける (open one's mouth)\n・{穴|あな}を{開|あ}ける (make a hole)\n\nOpposite: {閉|し}める (to close something).",
     "cross_references": [
-      "shimeru_00024"
+      "shimeru_00024",
+      "aku_00093"
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -545,8 +549,10 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Intransitive verb (no object). Something opens by itself. The transitive pair is {開|あ}ける (to open something). The opposite is {閉|し}まる (to close by itself). Pattern: [subject]が{開|あ}く.",
-    "cross_references": [],
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {開|あ}ける (transitive, to open something). Pattern: Xが{開|あ}く.\n\nASPECT: ている indicates resulting state. {開|あ}いている = 'is open' (not 'is opening'). This is important: {窓|まど}が{開|あ}いている means 'the window is open,' not 'the window is opening.'\n\nCOMMON PATTERNS:\n・ドアが{開|あ}く (the door opens)\n・{店|みせ}が{開|あ}く (the store opens)\n・{穴|あな}が{開|あ}く (a hole forms)\n・{席|せき}が{開|あ}く (a seat becomes available)\n\nOpposite: {閉|し}まる (to close by itself).",
+    "cross_references": [
+      "akeru_00023"
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -1042,7 +1048,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "This is a godan (う-verb). Te-form is {洗|あら}って. Different from 洗濯する (sentaku suru) which specifically means 'to do laundry'. For washing one's face, use {顔|かお}を{洗|あら}う.",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No intransitive pair. Pattern: Xを{洗|あら}う.\n\nASPECT: ている indicates ongoing action. {洗|あら}っている = 'is washing.'\n\nCOMMON PATTERNS:\n・{手|て}を{洗|あら}う (wash hands)\n・{顔|かお}を{洗|あら}う (wash face)\n・{皿|さら}を{洗|あら}う (wash dishes)\n・{車|くるま}を{洗|あら}う (wash a car)\n\nDifferent from {洗濯|せんたく}する which specifically means 'to do laundry' (wash clothes in a machine).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -1183,8 +1189,10 @@ const DICTIONARY_DATA = {
         "notes": "Existence of an event"
       }
     ],
-    "notes": "ある is used for inanimate things; いる is used for animate beings (people, animals). This distinction is crucial in Japanese. ある has an irregular negative form: ない (not あらない). The te-form is あって. Common patterns: 〜がある (something exists), 〜ことがある (have the experience of), 〜かもしれない (might be).",
-    "cross_references": [],
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Counterpart for animate beings: いる. Pattern: Xがある.\n\nASPECT: ある is a stative verb and does not normally take ている. Use ある directly for existence/possession.\n\nCOMMON PATTERNS:\n・{時間|じかん}がある (have time)\n・{質問|しつもん}がある (have a question)\n・〜に〜がある (there is ~ at/in ~)\n・〜ことがある (have the experience of ~)\n\nIRREGULAR FORMS:\n・Negative: ない (not あらない)\n・Te-form: あって\n\nIMPORTANT: ある is for inanimate objects, いる is for animate beings. This distinction is fundamental in Japanese.",
+    "cross_references": [
+      "iru_00007"
+    ],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
       "modified": "2026-01-05T10:00:00Z",
@@ -1225,7 +1233,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "A godan verb ending in く. Te-form is {歩|ある}いて. Often used with {行|い}く or {来|く}る to indicate mode of transportation: {歩|ある}いて{行|い}く (go on foot).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair. Pattern: Xを{歩|ある}く (walk through/along X) or Xまで{歩|ある}く (walk to X).\n\nASPECT: ている indicates ongoing action. {歩|ある}いている = 'is walking.'\n\nCOMMON PATTERNS:\n・{道|みち}を{歩|ある}く (walk along the road)\n・{公園|こうえん}を{歩|ある}く (walk in the park)\n・{歩|ある}いて{行|い}く (go on foot)\n・{歩|ある}いて{来|く}る (come on foot)\n・{歩|ある}いて〜{分|ふん} (~ minutes on foot)\n\nNote: Uses を for the path/place walked through, not に.",
     "cross_references": [
       "hashiru_00011"
     ],
@@ -1494,7 +1502,7 @@ const DICTIONARY_DATA = {
         "notes": "遊びに行く/来る = to go/come to hang out"
       }
     ],
-    "notes": "A godan verb ending in ぶ. Te-form is {遊|あそ}んで. {遊|あそ}び (noun) means 'play' or 'game'. Common expressions: {遊|あそ}びに{行|い}く (go to hang out), {遊|あそ}びに{来|く}る (come to visit).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair. Pattern: Xで{遊|あそ}ぶ (play at X) or Xと{遊|あそ}ぶ (play with X).\n\nASPECT: ている indicates ongoing action. {遊|あそ}んでいる = 'is playing/hanging out.'\n\nCOMMON PATTERNS:\n・{友達|ともだち}と{遊|あそ}ぶ (hang out with friends)\n・{公園|こうえん}で{遊|あそ}ぶ (play in the park)\n・{遊|あそ}びに{行|い}く (go to hang out/visit)\n・{遊|あそ}びに{来|く}る (come to visit/hang out)\n\nThe {遊|あそ}びに pattern is extremely common for casual social visits.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -1852,7 +1860,7 @@ const DICTIONARY_DATA = {
         "notes": "Potential form {会|あ}える"
       }
     ],
-    "notes": "{会|あ}う takes the particle に for the person being met ({友達|ともだち}に{会|あ}う). This is different from English where 'meet' takes a direct object. Te-form: {会|あ}って. Don't confuse with {合|あ}う (あう, to match/fit) which uses different kanji.",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair. Pattern: Xに{会|あ}う (meet X).\n\nASPECT: ている indicates ongoing or habitual action. {会|あ}っている = 'is meeting' or 'have been meeting (regularly).'\n\nCOMMON PATTERNS:\n・{友達|ともだち}に{会|あ}う (meet a friend)\n・{久|ひさ}しぶりに{会|あ}う (meet after a long time)\n・{初|はじ}めて{会|あ}う (meet for the first time)\n・{会|あ}いたい (want to meet/see someone)\n\nIMPORTANT: Takes に, not を. Don't confuse with {合|あ}う (to match/fit) which uses different kanji.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
@@ -4797,7 +4805,7 @@ const DICTIONARY_DATA = {
         "notes": "Passive form"
       }
     ],
-    "notes": "This is a godan (ぶ-verb). Te-form is {選|えら}んで. Often used with から (from) to indicate what you're choosing from: 三つの{中|なか}から{選|えら}ぶ (choose from three options).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{選|えら}ぶ (choose X).\n\nASPECT: ている indicates resulting state or ongoing selection process. {選|えら}んでいる = 'have chosen' or 'is choosing.'\n\nCOMMON PATTERNS:\n・〜を{選|えら}ぶ (choose ~)\n・〜から{選|えら}ぶ (choose from ~)\n・{好|す}きなものを{選|えら}ぶ (choose what you like)\n・{選|えら}ばれる (be chosen - passive)\n\nThe passive {選|えら}ばれる is common for elections and selections.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -6094,53 +6102,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "gohan_00094": {
-    "id": "gohan_00094",
-    "headword": "ご{飯|はん}",
-    "reading": "ごはん",
-    "part_of_speech": "noun",
-    "gloss": "rice; meal",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "cooked rice",
-        "explanation": "Steamed white rice, the staple food of Japan. Served with most Japanese meals."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "meal, food",
-        "explanation": "More broadly refers to a meal or food in general. Often used to mean breakfast, lunch, or dinner."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "ご{飯|はん}を{食|た}べましたか。",
-        "english": "Have you eaten (a meal)?",
-        "notes": "Common greeting to check if someone has eaten"
-      },
-      {
-        "japanese": "{朝|あさ}ご{飯|はん}は{何|なに}を{食|た}べましたか。",
-        "english": "What did you eat for breakfast?",
-        "notes": null
-      },
-      {
-        "japanese": "ご{飯|はん}を{炊|た}きました。",
-        "english": "I cooked rice.",
-        "notes": null
-      }
-    ],
-    "notes": "ご{飯|はん} has the honorific prefix ご and is the polite way to say 'rice' or 'meal'. {朝|あさ}ご{飯|はん} (breakfast), {昼|ひる}ご{飯|はん} (lunch), and {晩|ばん}ご{飯|はん}/{夜|よる}ご{飯|はん} (dinner) are common compounds. {飯|めし} is the casual/masculine form.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "gohan_00023": {
     "id": "gohan_00023",
     "headword": "ごはん",
@@ -6183,6 +6144,53 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
       "modified": "2026-01-07T14:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "gohan_00094": {
+    "id": "gohan_00094",
+    "headword": "ご{飯|はん}",
+    "reading": "ごはん",
+    "part_of_speech": "noun",
+    "gloss": "rice; meal",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "cooked rice",
+        "explanation": "Steamed white rice, the staple food of Japan. Served with most Japanese meals."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "meal, food",
+        "explanation": "More broadly refers to a meal or food in general. Often used to mean breakfast, lunch, or dinner."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "ご{飯|はん}を{食|た}べましたか。",
+        "english": "Have you eaten (a meal)?",
+        "notes": "Common greeting to check if someone has eaten"
+      },
+      {
+        "japanese": "{朝|あさ}ご{飯|はん}は{何|なに}を{食|た}べましたか。",
+        "english": "What did you eat for breakfast?",
+        "notes": null
+      },
+      {
+        "japanese": "ご{飯|はん}を{炊|た}きました。",
+        "english": "I cooked rice.",
+        "notes": null
+      }
+    ],
+    "notes": "ご{飯|はん} has the honorific prefix ご and is the polite way to say 'rice' or 'meal'. {朝|あさ}ご{飯|はん} (breakfast), {昼|ひる}ご{飯|はん} (lunch), and {晩|ばん}ご{飯|はん}/{夜|よる}ご{飯|はん} (dinner) are common compounds. {飯|めし} is the casual/masculine form.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -6444,48 +6452,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "ha_00094": {
-    "id": "ha_00094",
-    "headword": "{歯|は}",
-    "reading": "は",
-    "part_of_speech": "noun",
-    "gloss": "tooth, teeth",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "tooth, teeth",
-        "explanation": "The hard structures in the mouth used for biting and chewing. Used for dental care, physical descriptions, and tooth-related expressions."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{歯|は}を{磨|みが}きましたか。",
-        "english": "Did you brush your teeth?",
-        "notes": null
-      },
-      {
-        "japanese": "{歯|は}が{痛|いた}いので、{歯|は}{医者|いしゃ}に{行|い}きます。",
-        "english": "My tooth hurts, so I'm going to the dentist.",
-        "notes": null
-      },
-      {
-        "japanese": "{子供|こども}の{歯|は}が{抜|ぬ}けました。",
-        "english": "The child's tooth fell out.",
-        "notes": null
-      }
-    ],
-    "notes": "{歯|は}{医者|いしゃ} means 'dentist'. {歯|は}ブラシ is 'toothbrush' and {歯|は}{磨|みが}き{粉|こ} is 'toothpaste'. Common expressions include {歯|は}が{立|た}たない (to be no match for someone/something).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "ha_00001": {
     "id": "ha_00001",
     "headword": "は",
@@ -6629,6 +6595,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
       "modified": "2026-01-07T10:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "ha_00094": {
+    "id": "ha_00094",
+    "headword": "{歯|は}",
+    "reading": "は",
+    "part_of_speech": "noun",
+    "gloss": "tooth, teeth",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "tooth, teeth",
+        "explanation": "The hard structures in the mouth used for biting and chewing. Used for dental care, physical descriptions, and tooth-related expressions."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{歯|は}を{磨|みが}きましたか。",
+        "english": "Did you brush your teeth?",
+        "notes": null
+      },
+      {
+        "japanese": "{歯|は}が{痛|いた}いので、{歯|は}{医者|いしゃ}に{行|い}きます。",
+        "english": "My tooth hurts, so I'm going to the dentist.",
+        "notes": null
+      },
+      {
+        "japanese": "{子供|こども}の{歯|は}が{抜|ぬ}けました。",
+        "english": "The child's tooth fell out.",
+        "notes": null
+      }
+    ],
+    "notes": "{歯|は}{医者|いしゃ} means 'dentist'. {歯|は}ブラシ is 'toothbrush' and {歯|は}{磨|みが}き{粉|こ} is 'toothpaste'. Common expressions include {歯|は}が{立|た}たない (to be no match for someone/something).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -8694,48 +8702,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "hon_00001": {
-    "id": "hon_00001",
-    "headword": "{本|ほん}",
-    "reading": "ほん",
-    "part_of_speech": "noun",
-    "gloss": "book",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "book",
-        "explanation": "A bound publication with pages, including novels, textbooks, manga, and other printed materials. The most common word for 'book' in Japanese."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{本|ほん}を{読|よ}むのが{好|す}きです。",
-        "english": "I like reading books.",
-        "notes": null
-      },
-      {
-        "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
-        "english": "This book is interesting.",
-        "notes": null
-      },
-      {
-        "japanese": "{図書館|としょかん}で{本|ほん}を{借|か}りました。",
-        "english": "I borrowed a book from the library.",
-        "notes": null
-      }
-    ],
-    "notes": "{本|ほん} is also used as a counter for long, cylindrical objects (pens, bottles, trees, etc.) with readings ほん, ぼん, or ぽん depending on the number. As a prefix, {本|ほん} can mean 'this' or 'main' (e.g., {本日|ほんじつ} today, {本店|ほんてん} main store).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-06T22:30:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "hon_00092": {
     "id": "hon_00092",
     "headword": "〜{本|ほん}",
@@ -8771,6 +8737,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "hon_00001": {
+    "id": "hon_00001",
+    "headword": "{本|ほん}",
+    "reading": "ほん",
+    "part_of_speech": "noun",
+    "gloss": "book",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "book",
+        "explanation": "A bound publication with pages, including novels, textbooks, manga, and other printed materials. The most common word for 'book' in Japanese."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{本|ほん}を{読|よ}むのが{好|す}きです。",
+        "english": "I like reading books.",
+        "notes": null
+      },
+      {
+        "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
+        "english": "This book is interesting.",
+        "notes": null
+      },
+      {
+        "japanese": "{図書館|としょかん}で{本|ほん}を{借|か}りました。",
+        "english": "I borrowed a book from the library.",
+        "notes": null
+      }
+    ],
+    "notes": "{本|ほん} is also used as a counter for long, cylindrical objects (pens, bottles, trees, etc.) with readings ほん, ぼん, or ぽん depending on the number. As a prefix, {本|ほん} can mean 'this' or 'main' (e.g., {本日|ほんじつ} today, {本店|ほんてん} main store).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-06T22:30:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -9532,8 +9540,10 @@ const DICTIONARY_DATA = {
         "notes": "〜ていく expressing change continuing into the future"
       }
     ],
-    "notes": "{行|い}く has an irregular te-form: {行|い}って, not {行|い}いて. This is one of the most common verbs in Japanese. The kanji can also be read as ゆく in literary or formal contexts, though いく is standard in modern Japanese.",
-    "cross_references": [],
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Counterpart: {来|く}る (to come). Pattern: Xに/へ{行|い}く (go to X).\n\nASPECT: ている indicates ongoing action or resulting state. {行|い}っている can mean 'is going' or 'has gone (and is there now).'\n\nCOMMON PATTERNS:\n・{学校|がっこう}に{行|い}く (go to school)\n・{買|か}い{物|もの}に{行|い}く (go shopping)\n・{遊|あそ}びに{行|い}く (go to hang out)\n・〜て{行|い}く (go and do ~, or do ~ as one goes)\n\nIRREGULAR FORMS:\n・Te-form: {行|い}って (not {行|い}いて)\n・Also read as ゆく in literary contexts\n\nThe auxiliary 〜ていく indicates continuing into the future or moving away.",
+    "cross_references": [
+      "kuru_00001"
+    ],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
       "modified": "2026-01-06T22:15:00Z",
@@ -9854,8 +9864,10 @@ const DICTIONARY_DATA = {
         "notes": "Common idiomatic usage"
       }
     ],
-    "notes": "入れる conjugates as an ichidan verb: 入れない (negative), 入れて (te-form), 入れた (past). This is the transitive version - 入る (はいる) is the intransitive counterpart meaning 'to enter.'",
-    "cross_references": [],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {入|はい}る (intransitive, to enter). Pattern: XをYに{入|い}れる (put X into Y).\n\nASPECT: ている indicates resulting state. {入|い}れている = 'have put in (and it's still in there)' or 'is putting in.'\n\nCOMMON PATTERNS:\n・{砂糖|さとう}を{入|い}れる (add sugar)\n・かばんに{入|い}れる (put in a bag)\n・お{風呂|ふろ}を{入|い}れる (draw a bath)\n・{電源|でんげん}を{入|い}れる (turn on power)\n\nOpposite: {出|だ}す (to take out).",
+    "cross_references": [
+      "hairu_00007"
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -9948,8 +9960,10 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "いる is used for animate beings (people, animals); ある is used for inanimate objects. This distinction is fundamental in Japanese. The kanji 居る exists but hiragana is more common. As an auxiliary (〜ている), it forms the progressive/continuous aspect: 食べている (is eating / has eaten).",
-    "cross_references": [],
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Counterpart for inanimate objects: ある. Pattern: Xがいる.\n\nASPECT: いる is a stative verb and does not normally take ている for existence. As an auxiliary verb (〜ている), it forms progressive/resultative aspect with other verbs.\n\nCOMMON PATTERNS:\n・{人|ひと}がいる (there is a person)\n・{子供|こども}がいる (have children)\n・{兄弟|きょうだい}がいる (have siblings)\n・〜ている (progressive/resultative auxiliary)\n\nIMPORTANT: いる is for animate beings (people, animals), ある is for inanimate objects. This distinction is fundamental in Japanese. The kanji {居|い}る exists but hiragana is standard.",
+    "cross_references": [
+      "aru_00001"
+    ],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
       "modified": "2026-01-05T12:00:00Z",
@@ -10339,7 +10353,7 @@ const DICTIONARY_DATA = {
         "notes": "Te-form as request"
       }
     ],
-    "notes": "This is a godan verb ending in う. The te-form is {言|い}って. Often used with と to quote speech. Common expressions include {言|い}い{方|かた} (way of saying), {言|い}い{訳|わけ} (excuse), and と{言|い}えば (speaking of).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: 「〜」と{言|い}う (say '~') or Xを{言|い}う (say X).\n\nASPECT: ている indicates ongoing or repeated action. {言|い}っている = 'is saying' or 'has been saying.'\n\nCOMMON PATTERNS:\n・「〜」と{言|い}う (say '~' - quotation)\n・〜と{言|い}われている (it is said that ~)\n・{言|い}い{方|かた} (way of saying)\n・と{言|い}えば (speaking of)\n\nCompare: {話|はな}す emphasizes conversation/storytelling, while {言|い}う focuses on the specific words uttered.",
     "cross_references": [
       "hanasu_00003"
     ],
@@ -11729,48 +11743,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "kai_00096": {
-    "id": "kai_00096",
-    "headword": "{回|かい}",
-    "reading": "かい",
-    "part_of_speech": "counter",
-    "gloss": "times (frequency)",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "times, occurrences",
-        "explanation": "A counter for number of times or frequency of events. Used to count how many times something happens or has happened."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{一|いち}{日|にち}に{三|さん}{回|かい}{薬|くすり}を{飲|の}んでください。",
-        "english": "Please take the medicine three times a day.",
-        "notes": null
-      },
-      {
-        "japanese": "{日本|にほん}には{何|なん}{回|かい}{行|い}きましたか。",
-        "english": "How many times have you been to Japan?",
-        "notes": null
-      },
-      {
-        "japanese": "もう{一|いっ}{回|かい}{言|い}ってください。",
-        "english": "Please say it one more time.",
-        "notes": "Note: いっかい with small っ"
-      }
-    ],
-    "notes": "{回|かい} is used to count occurrences or times. Common expressions include {一|いっ}{回|かい} (once - note the small っ), {二|に}{回|かい} (twice), {三|さん}{回|かい} (three times), {何|なん}{回|かい} (how many times). Note that 一回 is read いっかい (with gemination), not いちかい.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "kai_00097": {
     "id": "kai_00097",
     "headword": "{階|かい}",
@@ -11802,6 +11774,48 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{階|かい} counts building floors. Note the irregular readings: {一|いっ}{階|かい} (first floor - with っ), {三|さん}{階|がい} (third floor - voiced が), {何|なん}{階|がい} (what floor - voiced が). The first floor in Japan (1階) corresponds to the ground floor in British English. Unlike American English, there is no 'ground floor' and 'first floor' distinction.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "kai_00096": {
+    "id": "kai_00096",
+    "headword": "{回|かい}",
+    "reading": "かい",
+    "part_of_speech": "counter",
+    "gloss": "times (frequency)",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "times, occurrences",
+        "explanation": "A counter for number of times or frequency of events. Used to count how many times something happens or has happened."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{一|いち}{日|にち}に{三|さん}{回|かい}{薬|くすり}を{飲|の}んでください。",
+        "english": "Please take the medicine three times a day.",
+        "notes": null
+      },
+      {
+        "japanese": "{日本|にほん}には{何|なん}{回|かい}{行|い}きましたか。",
+        "english": "How many times have you been to Japan?",
+        "notes": null
+      },
+      {
+        "japanese": "もう{一|いっ}{回|かい}{言|い}ってください。",
+        "english": "Please say it one more time.",
+        "notes": "Note: いっかい with small っ"
+      }
+    ],
+    "notes": "{回|かい} is used to count occurrences or times. Common expressions include {一|いっ}{回|かい} (once - note the small っ), {二|に}{回|かい} (twice), {三|さん}{回|かい} (three times), {何|なん}{回|かい} (how many times). Note that 一回 is read いっかい (with gemination), not いちかい.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -22420,7 +22434,7 @@ const DICTIONARY_DATA = {
         "notes": "Using the 'learn' meaning"
       }
     ],
-    "notes": "The opposite is {忘|わす}れる (to forget). {覚|おぼ}えている means 'to remember' (state of having memorized). Different from {習|なら}う which emphasizes learning from a teacher, while {覚|おぼ}える emphasizes the result of memorization.",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{覚|おぼ}える (memorize/learn X).\n\nASPECT: ている indicates resulting state. {覚|おぼ}えている = 'remember' (state of having memorized). This is a key verb where ている means the result, not ongoing action.\n\nCOMMON PATTERNS:\n・{漢字|かんじ}を{覚|おぼ}える (memorize kanji)\n・{名前|なまえ}を{覚|おぼ}える (remember a name)\n・{顔|かお}を{覚|おぼ}える (remember a face)\n・{覚|おぼ}えている (remember - state)\n\nOpposite: {忘|わす}れる (to forget). Different from {習|なら}う which emphasizes learning from a teacher.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -22828,7 +22842,7 @@ const DICTIONARY_DATA = {
         "notes": "Sense 2: something happening"
       }
     ],
-    "notes": "This is an ichidan (る-verb). The opposite is {寝|ね}る (neru, to sleep/go to bed). For waking someone else up, use {起|お}こす (okosu, transitive).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {起|お}こす (transitive, to wake someone up). Pattern: Xが{起|お}きる.\n\nASPECT: ている indicates resulting state. {起|お}きている = 'is awake' (not 'is waking up'). This is important: まだ{起|お}きている means 'still awake.'\n\nCOMMON PATTERNS:\n・{朝|あさ}{早|はや}く{起|お}きる (wake up early)\n・〜{時|じ}に{起|お}きる (wake up at ~ o'clock)\n・{事故|じこ}が{起|お}きる (an accident occurs - sense 2)\n・{起|お}きていますか (are you awake?)\n\nOpposite: {寝|ね}る (to sleep/go to bed).",
     "cross_references": [
       "neru_00003"
     ],
@@ -22877,54 +22891,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "This is a godan verb. Often used in the ている form to describe someone's current angry state. The passive {怒|おこ}られる is frequently used to mean 'to be scolded' or 'to get in trouble'. Different from {起|お}こる (to happen/occur) which has the same reading.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "oku_00099": {
-    "id": "oku_00099",
-    "headword": "{置|お}く",
-    "reading": "おく",
-    "part_of_speech": "verb (godan)",
-    "gloss": "to put, to place",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to put, to place",
-        "explanation": "To physically put or place something in a location. The item being placed is marked with を and the location with に."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "to leave (as is)",
-        "explanation": "To leave something in a particular state or position without changing it."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{本|ほん}を{机|つくえ}の{上|うえ}に{置|お}いてください。",
-        "english": "Please put the book on the desk.",
-        "notes": null
-      },
-      {
-        "japanese": "ここに{荷物|にもつ}を{置|お}いてもいいですか。",
-        "english": "May I put my luggage here?",
-        "notes": null
-      },
-      {
-        "japanese": "{窓|まど}を{開|あ}けておきます。",
-        "english": "I'll leave the window open.",
-        "notes": "～ておく construction indicating leaving something in a state"
-      }
-    ],
-    "notes": "置く conjugates as a godan verb: 置かない (negative), 置いて (te-form), 置いた (past). The auxiliary pattern ～ておく (often contracted to ～とく in casual speech) means to do something in preparation or to leave something in a state.",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive) for 'get angry'; can be {他動詞|たどうし} (transitive) for 'scold.' No pair verb. Pattern: Xが{怒|おこ}る (X gets angry) or XがYを{怒|おこ}る (X scolds Y).\n\nASPECT: ている indicates resulting state. {怒|おこ}っている = 'is angry' (state, not 'is getting angry').\n\nCOMMON PATTERNS:\n・{怒|おこ}っている (is angry - state)\n・{怒|おこ}られる (be scolded - passive)\n・{怒|おこ}らないで (don't get angry)\n・すぐ{怒|おこ}る (get angry easily)\n\nHOMOPHONE: Different from {起|お}こる (to happen/occur) which uses different kanji.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -22978,6 +22945,53 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "oku_00099": {
+    "id": "oku_00099",
+    "headword": "{置|お}く",
+    "reading": "おく",
+    "part_of_speech": "verb (godan)",
+    "gloss": "to put, to place",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to put, to place",
+        "explanation": "To physically put or place something in a location. The item being placed is marked with を and the location with に."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "to leave (as is)",
+        "explanation": "To leave something in a particular state or position without changing it."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{本|ほん}を{机|つくえ}の{上|うえ}に{置|お}いてください。",
+        "english": "Please put the book on the desk.",
+        "notes": null
+      },
+      {
+        "japanese": "ここに{荷物|にもつ}を{置|お}いてもいいですか。",
+        "english": "May I put my luggage here?",
+        "notes": null
+      },
+      {
+        "japanese": "{窓|まど}を{開|あ}けておきます。",
+        "english": "I'll leave the window open.",
+        "notes": "～ておく construction indicating leaving something in a state"
+      }
+    ],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: XをYに{置|お}く (put X at/on Y).\n\nASPECT: ている indicates resulting state. {置|お}いている = 'have put (and it's still there)' or 'is placing.'\n\nCOMMON PATTERNS:\n・{机|つくえ}の{上|うえ}に{置|お}く (put on the desk)\n・ここに{置|お}く (put here)\n・〜ておく (do in advance/leave in a state)\n・〜とく (casual contraction of ておく)\n\nThe auxiliary 〜ておく is extremely common for doing something in preparation or leaving something as is.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "okureru_00093": {
     "id": "okureru_00093",
     "headword": "{遅|おく}れる",
@@ -23013,7 +23027,7 @@ const DICTIONARY_DATA = {
         "notes": "Common apology"
       }
     ],
-    "notes": "Pattern: ～に{遅|おく}れる (to be late for ~). When apologizing for being late, {遅|おく}れてすみません is very common. The transitive form is {遅|おく}らせる (to delay/make late).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {遅|おく}らせる (transitive, to delay something). Pattern: Xに{遅|おく}れる (be late for X).\n\nASPECT: ている indicates ongoing state. {遅|おく}れている = 'is delayed/running late.'\n\nCOMMON PATTERNS:\n・{学校|がっこう}に{遅|おく}れる (be late for school)\n・{電車|でんしゃ}が{遅|おく}れる (train is delayed)\n・{遅|おく}れてすみません (sorry I'm late)\n・5{分|ふん}{遅|おく}れる (be 5 minutes late)\n\nThe apology {遅|おく}れてすみません is extremely common.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -23060,7 +23074,7 @@ const DICTIONARY_DATA = {
         "notes": "Using the 'see off' meaning"
       }
     ],
-    "notes": "Has two main uses: sending things and seeing people off. {送|おく}り{迎|むか}え means 'pick-up and drop-off.' Related words: {送料|そうりょう} (shipping fee), {見送|みおく}る (to see off/bid farewell).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: XをYに{送|おく}る (send X to Y) or Xを{送|おく}る (see X off).\n\nASPECT: ている indicates ongoing action or completed action depending on context. {送|おく}っている = 'is sending' or 'has sent.'\n\nCOMMON PATTERNS:\n・{手紙|てがみ}を{送|おく}る (send a letter)\n・メールを{送|おく}る (send an email)\n・{荷物|にもつ}を{送|おく}る (send a package)\n・{駅|えき}まで{送|おく}る (walk someone to the station)\n\nRelated: {送|おく}り{迎|むか}え (pick-up and drop-off), {見送|みおく}る (to see off).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -23250,7 +23264,7 @@ const DICTIONARY_DATA = {
         "notes": "Negative inside the quote, not on {思|おも}う"
       }
     ],
-    "notes": "{思|おも}う is extremely common for expressing opinions. The pattern 〜と{思|おも}う is essential. Note that Japanese often puts the negative inside: {来|こ}ないと{思|おも}う (think won't come) rather than {来|く}ると{思|おも}わない. Compare with {考|かんが}える which implies more deliberate thinking/reasoning. Te-form: {思|おも}って.",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: 〜と{思|おも}う (think that ~) or Xを{思|おも}う (think of X).\n\nASPECT: ている indicates ongoing thought or opinion. {思|おも}っている = 'think/believe' (current opinion).\n\nCOMMON PATTERNS:\n・〜と{思|おも}う (think that ~)\n・どう{思|おも}う (what do you think?)\n・そう{思|おも}う (I think so)\n・〜と{思|おも}っている (believe/have the opinion that)\n\nNOTE: Japanese often puts negatives inside the quote: {来|こ}ないと{思|おも}う rather than {来|く}ると{思|おも}わない.\n\nCompare: {考|かんが}える implies more deliberate reasoning/consideration.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
@@ -31388,48 +31402,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "toru_00093": {
-    "id": "toru_00093",
-    "headword": "{撮|と}る",
-    "reading": "とる",
-    "part_of_speech": "verb (godan)",
-    "gloss": "to take (a photo)",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to take (a photo), to shoot (video)",
-        "explanation": "To capture an image or video using a camera. Different kanji from {取|と}る (to take/grab)."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{写真|しゃしん}を{撮|と}りましょう。",
-        "english": "Let's take a photo.",
-        "notes": null
-      },
-      {
-        "japanese": "{写真|しゃしん}を{撮|と}ってもいいですか。",
-        "english": "May I take a photo?",
-        "notes": null
-      },
-      {
-        "japanese": "ビデオを{撮|と}っています。",
-        "english": "I'm recording a video.",
-        "notes": null
-      }
-    ],
-    "notes": "This {撮|と}る is specifically for photography/video. Different from {取|と}る (to take, grab, get) which has a more general meaning. Pattern: {写真|しゃしん}を{撮|と}る, ビデオを{撮|と}る. Related: {撮影|さつえい} (filming, photography).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "toru_00023": {
     "id": "toru_00023",
     "headword": "{取|と}る",
@@ -31475,6 +31447,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
       "modified": "2026-01-07T14:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "toru_00093": {
+    "id": "toru_00093",
+    "headword": "{撮|と}る",
+    "reading": "とる",
+    "part_of_speech": "verb (godan)",
+    "gloss": "to take (a photo)",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to take (a photo), to shoot (video)",
+        "explanation": "To capture an image or video using a camera. Different kanji from {取|と}る (to take/grab)."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{写真|しゃしん}を{撮|と}りましょう。",
+        "english": "Let's take a photo.",
+        "notes": null
+      },
+      {
+        "japanese": "{写真|しゃしん}を{撮|と}ってもいいですか。",
+        "english": "May I take a photo?",
+        "notes": null
+      },
+      {
+        "japanese": "ビデオを{撮|と}っています。",
+        "english": "I'm recording a video.",
+        "notes": null
+      }
+    ],
+    "notes": "This {撮|と}る is specifically for photography/video. Different from {取|と}る (to take, grab, get) which has a more general meaning. Pattern: {写真|しゃしん}を{撮|と}る, ビデオを{撮|と}る. Related: {撮影|さつえい} (filming, photography).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -33998,53 +34012,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "yasashii_00093": {
-    "id": "yasashii_00093",
-    "headword": "{易|やさ}しい",
-    "reading": "やさしい",
-    "part_of_speech": "adjective (i-adjective)",
-    "gloss": "easy; kind, gentle",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "easy, simple",
-        "explanation": "Describes something that is not difficult. Written as {易|やさ}しい. Similar to {簡単|かんたん}."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "kind, gentle",
-        "explanation": "Describes a person who is kind-hearted, gentle, or tender. Written as {優|やさ}しい."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{易|やさ}しい{日本語|にほんご}で{書|か}いてあります。",
-        "english": "It's written in easy Japanese.",
-        "notes": "Using the 'easy' meaning"
-      },
-      {
-        "japanese": "{彼|かれ}は{優|やさ}しい{人|ひと}です。",
-        "english": "He is a kind person.",
-        "notes": "Using the 'kind' meaning"
-      },
-      {
-        "japanese": "もっと{易|やさ}しい{問題|もんだい}をください。",
-        "english": "Please give me an easier problem.",
-        "notes": null
-      }
-    ],
-    "notes": "This word has two distinct meanings with different kanji: {易|やさ}しい (easy) and {優|やさ}しい (kind/gentle). Context usually makes the meaning clear. When written in hiragana (やさしい), it could be either meaning.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "yasashii_00003": {
     "id": "yasashii_00003",
     "headword": "{易|やさ}しい／{優|やさ}しい",
@@ -34084,6 +34051,53 @@ const DICTIONARY_DATA = {
     "cross_references": [
       "muzukashii_00010"
     ],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "yasashii_00093": {
+    "id": "yasashii_00093",
+    "headword": "{易|やさ}しい",
+    "reading": "やさしい",
+    "part_of_speech": "adjective (i-adjective)",
+    "gloss": "easy; kind, gentle",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "easy, simple",
+        "explanation": "Describes something that is not difficult. Written as {易|やさ}しい. Similar to {簡単|かんたん}."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "kind, gentle",
+        "explanation": "Describes a person who is kind-hearted, gentle, or tender. Written as {優|やさ}しい."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{易|やさ}しい{日本語|にほんご}で{書|か}いてあります。",
+        "english": "It's written in easy Japanese.",
+        "notes": "Using the 'easy' meaning"
+      },
+      {
+        "japanese": "{彼|かれ}は{優|やさ}しい{人|ひと}です。",
+        "english": "He is a kind person.",
+        "notes": "Using the 'kind' meaning"
+      },
+      {
+        "japanese": "もっと{易|やさ}しい{問題|もんだい}をください。",
+        "english": "Please give me an easier problem.",
+        "notes": null
+      }
+    ],
+    "notes": "This word has two distinct meanings with different kanji: {易|やさ}しい (easy) and {優|やさ}しい (kind/gentle). Context usually makes the meaning clear. When written in hiragana (やさしい), it could be either meaning.",
+    "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -36195,12 +36209,12 @@ const DICTIONARY_INDEX = {
     "ごご": [
       "gogo_00017"
     ],
-    "ご{飯|はん}": [
+    "ごはん": [
+      "gohan_00023",
       "gohan_00094"
     ],
-    "ごはん": [
-      "gohan_00094",
-      "gohan_00023"
+    "ご{飯|はん}": [
+      "gohan_00094"
     ],
     "{五十|ごじゅう}": [
       "gojuu_00096"
@@ -36235,12 +36249,12 @@ const DICTIONARY_INDEX = {
     "ぎゅうにゅう": [
       "gyuunyuu_00094"
     ],
-    "{歯|は}": [
+    "は": [
+      "ha_00001",
       "ha_00094"
     ],
-    "は": [
-      "ha_00094",
-      "ha_00001"
+    "{歯|は}": [
+      "ha_00094"
     ],
     "{八|はち}": [
       "hachi_00093"
@@ -36506,15 +36520,15 @@ const DICTIONARY_INDEX = {
     "ひざ": [
       "hiza_00096"
     ],
-    "{本|ほん}": [
-      "hon_00001"
-    ],
-    "ほん": [
-      "hon_00001",
-      "hon_00092"
-    ],
     "〜{本|ほん}": [
       "hon_00092"
+    ],
+    "ほん": [
+      "hon_00092",
+      "hon_00001"
+    ],
+    "{本|ほん}": [
+      "hon_00001"
     ],
     "{本当|ほんとう}": [
       "hontou_00094"
@@ -36889,15 +36903,15 @@ const DICTIONARY_INDEX = {
     "かぎ": [
       "kagi_00091"
     ],
-    "{回|かい}": [
-      "kai_00096"
-    ],
-    "かい": [
-      "kai_00096",
-      "kai_00097"
-    ],
     "{階|かい}": [
       "kai_00097"
+    ],
+    "かい": [
+      "kai_00097",
+      "kai_00096"
+    ],
+    "{回|かい}": [
+      "kai_00096"
     ],
     "{階段|かいだん}": [
       "kaidan_00094"
@@ -38190,15 +38204,15 @@ const DICTIONARY_INDEX = {
     "おこる": [
       "okoru_00095"
     ],
-    "{置|お}く": [
-      "oku_00099"
-    ],
-    "おく": [
-      "oku_00099",
-      "oku_00096"
-    ],
     "{奥|おく}": [
       "oku_00096"
+    ],
+    "おく": [
+      "oku_00096",
+      "oku_00099"
+    ],
+    "{置|お}く": [
+      "oku_00099"
     ],
     "{遅|おく}れる": [
       "okureru_00093"
@@ -39230,15 +39244,15 @@ const DICTIONARY_INDEX = {
     "とり": [
       "tori_00091"
     ],
-    "{撮|と}る": [
-      "toru_00093"
-    ],
-    "とる": [
-      "toru_00093",
-      "toru_00023"
-    ],
     "{取|と}る": [
       "toru_00023"
+    ],
+    "とる": [
+      "toru_00023",
+      "toru_00093"
+    ],
+    "{撮|と}る": [
+      "toru_00093"
     ],
     "{年|とし}": [
       "toshi_00005"
@@ -39523,15 +39537,15 @@ const DICTIONARY_INDEX = {
     "やさい": [
       "yasai_00008"
     ],
-    "{易|やさ}しい": [
-      "yasashii_00093"
-    ],
-    "やさしい": [
-      "yasashii_00093",
-      "yasashii_00003"
-    ],
     "{易|やさ}しい／{優|やさ}しい": [
       "yasashii_00003"
+    ],
+    "やさしい": [
+      "yasashii_00003",
+      "yasashii_00093"
+    ],
+    "{易|やさ}しい": [
+      "yasashii_00093"
     ],
     "{安|やす}い": [
       "yasui_00002"
@@ -40084,8 +40098,8 @@ const DICTIONARY_INDEX = {
       "gogo_00017"
     ],
     "gohan": [
-      "gohan_00094",
-      "gohan_00023"
+      "gohan_00023",
+      "gohan_00094"
     ],
     "gojuu": [
       "gojuu_00096"
@@ -40106,8 +40120,8 @@ const DICTIONARY_INDEX = {
       "gyuunyuu_00094"
     ],
     "ha": [
-      "ha_00094",
-      "ha_00001"
+      "ha_00001",
+      "ha_00094"
     ],
     "hachi": [
       "hachi_00093"
@@ -40245,8 +40259,8 @@ const DICTIONARY_INDEX = {
       "hiza_00096"
     ],
     "hon": [
-      "hon_00001",
-      "hon_00092"
+      "hon_00092",
+      "hon_00001"
     ],
     "hontou": [
       "hontou_00094"
@@ -40448,8 +40462,8 @@ const DICTIONARY_INDEX = {
       "kagi_00091"
     ],
     "kai": [
-      "kai_00096",
-      "kai_00097"
+      "kai_00097",
+      "kai_00096"
     ],
     "kaidan": [
       "kaidan_00094"
@@ -41149,8 +41163,8 @@ const DICTIONARY_INDEX = {
       "okoru_00095"
     ],
     "oku": [
-      "oku_00099",
-      "oku_00096"
+      "oku_00096",
+      "oku_00099"
     ],
     "okureru": [
       "okureru_00093"
@@ -41706,8 +41720,8 @@ const DICTIONARY_INDEX = {
       "tori_00091"
     ],
     "toru": [
-      "toru_00093",
-      "toru_00023"
+      "toru_00023",
+      "toru_00093"
     ],
     "toshi": [
       "toshi_00005"
@@ -41864,8 +41878,8 @@ const DICTIONARY_INDEX = {
       "yasai_00008"
     ],
     "yasashii": [
-      "yasashii_00093",
-      "yasashii_00003"
+      "yasashii_00003",
+      "yasashii_00093"
     ],
     "yasui": [
       "yasui_00002"
@@ -42185,8 +42199,8 @@ const DICTIONARY_INDEX = {
       "tomaru_00020",
       "tomeru_00091",
       "tonari_00096",
-      "toru_00093",
       "toru_00023",
+      "toru_00093",
       "tsukareru_00095",
       "tsukau_00003",
       "tsukeru_00022",
@@ -42992,8 +43006,8 @@ const DICTIONARY_INDEX = {
     ],
     "rice": [
       "chawan_00097",
-      "gohan_00094",
       "gohan_00023",
+      "gohan_00094",
       "osake_00097"
     ],
     "bowl": [
@@ -43272,8 +43286,8 @@ const DICTIONARY_INDEX = {
       "narau_00004",
       "nugu_00010",
       "suwaru_00093",
-      "toru_00093",
       "toru_00023",
+      "toru_00093",
       "yasumu_00072"
     ],
     "submit": [
@@ -43751,12 +43765,12 @@ const DICTIONARY_INDEX = {
       "gogo_00017"
     ],
     "meal": [
-      "gohan_00094",
-      "gohan_00023"
+      "gohan_00023",
+      "gohan_00094"
     ],
     "cooked": [
-      "gohan_00094",
-      "gohan_00023"
+      "gohan_00023",
+      "gohan_00094"
     ],
     "food": [
       "gohan_00094",
@@ -43799,17 +43813,17 @@ const DICTIONARY_INDEX = {
     "cow's": [
       "gyuunyuu_00094"
     ],
-    "tooth": [
-      "ha_00094"
-    ],
-    "teeth": [
-      "ha_00094"
-    ],
     "topic": [
       "ha_00001"
     ],
     "contrast": [
       "ha_00001"
+    ],
+    "tooth": [
+      "ha_00094"
+    ],
+    "teeth": [
+      "ha_00094"
     ],
     "eight": [
       "hachi_00093"
@@ -44198,15 +44212,15 @@ const DICTIONARY_INDEX = {
     "lap": [
       "hiza_00096"
     ],
-    "book": [
-      "hon_00001"
-    ],
     "long": [
       "hon_00092",
       "nagai_00006"
     ],
     "cylindrical": [
       "hon_00092"
+    ],
+    "book": [
+      "hon_00001"
     ],
     "truth": [
       "hontou_00094"
@@ -44667,15 +44681,6 @@ const DICTIONARY_INDEX = {
     "lock": [
       "kagi_00091"
     ],
-    "times": [
-      "kai_00096"
-    ],
-    "frequency": [
-      "kai_00096"
-    ],
-    "occurrences": [
-      "kai_00096"
-    ],
     "floors": [
       "kai_00097"
     ],
@@ -44685,6 +44690,15 @@ const DICTIONARY_INDEX = {
     "building": [
       "kai_00097",
       "manshon_00097"
+    ],
+    "times": [
+      "kai_00096"
+    ],
+    "frequency": [
+      "kai_00096"
+    ],
+    "occurrences": [
+      "kai_00096"
     ],
     "stairs": [
       "kaidan_00094"
@@ -44798,14 +44812,14 @@ const DICTIONARY_INDEX = {
     "easy": [
       "kantan_00093",
       "raku_00095",
-      "yasashii_00093",
-      "yasashii_00003"
+      "yasashii_00003",
+      "yasashii_00093"
     ],
     "simple": [
       "kantan_00093",
       "raku_00095",
-      "yasashii_00093",
-      "yasashii_00003"
+      "yasashii_00003",
+      "yasashii_00093"
     ],
     "brief": [
       "kantan_00093"
@@ -46535,8 +46549,8 @@ const DICTIONARY_INDEX = {
     ],
     "photo": [
       "shashin_00093",
-      "toru_00093",
-      "toru_00023"
+      "toru_00023",
+      "toru_00093"
     ],
     "shirt": [
       "shatsu_00097",
@@ -46616,8 +46630,8 @@ const DICTIONARY_INDEX = {
     ],
     "kind": [
       "shinsetsu_00105",
-      "yasashii_00093",
-      "yasashii_00003"
+      "yasashii_00003",
+      "yasashii_00093"
     ],
     "friendly": [
       "shinsetsu_00105"
@@ -47096,14 +47110,14 @@ const DICTIONARY_INDEX = {
     "poultry": [
       "tori_00091"
     ],
+    "obtain": [
+      "toru_00023"
+    ],
     "shoot": [
       "toru_00093"
     ],
     "video": [
       "toru_00093"
-    ],
-    "obtain": [
-      "toru_00023"
     ],
     "age": [
       "toshi_00005"
@@ -47385,8 +47399,8 @@ const DICTIONARY_INDEX = {
       "yasai_00008"
     ],
     "gentle": [
-      "yasashii_00093",
       "yasashii_00003",
+      "yasashii_00093",
       "yawarakai_00099"
     ],
     "tender": [
