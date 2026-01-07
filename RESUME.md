@@ -10,12 +10,12 @@ Point an AI assistant to this file when resuming work on this project.
 
 ## Current Status
 
-- **Phase**: Phase 2 - Core Vocabulary Expansion
-- **Entries**: 700 (verbs, nouns, adjectives, adverbs, particles, counters, demonstratives, conjunctions, expressions) - all with furigana
-- **N5 Coverage**: ~88% (700/800 words)
+- **Phase**: Phase 1 Complete - N5 Vocabulary Coverage achieved
+- **Entries**: 764 (verbs, nouns, adjectives, adverbs, particles, counters, demonstratives, conjunctions, expressions) - all with furigana
+- **N5 Coverage**: ~95% (764/800 words)
 - **Infrastructure**: Fully functional (build scripts, web interface, sidebar browser)
 - **Live site**: https://tkgally.github.io/je-dict-1/
-- **Target**: 750 entries for comprehensive N5 coverage
+- **Next goal**: Quality improvements and N4 vocabulary expansion
 
 ## Session History
 
@@ -29,6 +29,7 @@ Point an AI assistant to this file when resuming work on this project.
 | 6 | 100 | 519 | Verbs, shopping/commerce, nature, food, time, adjectives, adverbs |
 | 7 | 101 | 620 | Colors, family terms, question words, numbers 11-50, counters, time expressions, positional words, body parts, demonstratives, conjunctions, common expressions |
 | 8 | 80 | 700 | Common expressions, clothing, food/drinks, kitchen/household, buildings/places, transportation, school/education, work/business |
+| 9 | 64 | 764 | Work/business, verbs, i-adjectives, na-adjectives, adverbs, miscellaneous essential words - completing N5 coverage |
 
 ## Key Files to Read
 
@@ -63,23 +64,24 @@ Entries go in `entries/{kana-row}/` directories:
 File naming: `{romaji}_{5-digit-id}.json`
 - Example: 食べる (たべる) → `entries/ta/taberu_00001.json`
 
-**Next available IDs**: Use IDs >= 00098 in any directory to avoid conflicts (except `/ka/` which should use >= 00099).
+**Next available IDs**: Use IDs >= 00111 in any directory to avoid conflicts.
 
 See `PROJECT_STATUS.md` for the entry template and detailed ID assignment.
 
-## Session 9 Tasks (Next Session)
+## Future Work
 
-1. **Clear new_entries.txt** at start (removes "New" tags from Session 8 entries)
-2. **Add ~50 more N5 entries** from `N5_REMAINING_VOCABULARY.md`:
-   - Remaining work/business (4): shutchou, meishi, shorui, mensetsu
-   - Additional verbs (14): oku, dasu, ireru, hakobu, naraberu, kaeru, etc.
-   - Additional adjectives (14): katai, yawarakai, subarashii, sugoi, itai, etc.
-   - Na-adjectives (10): yuumei, tokubetsu, shinsetsu, anzen, kiken, etc.
-   - Adverbs (8): ichiban, kanari, taitei, sou, kou, etc.
-3. **Update new_entries.txt** with new entry IDs
-4. **Build and validate**
-5. **Update PROJECT_STATUS.md** with new counts
-6. **Target**: Reach ~750 entries (~95% N5 coverage)
+Phase 1 (N5 coverage) is now complete with 764 entries. Future sessions may focus on:
+
+1. **Quality improvements**:
+   - Review and enhance existing entries
+   - Add more example sentences where needed
+   - Add cross-references between related entries
+2. **Feature improvements**:
+   - Implement conjugation search (tabete -> taberu)
+   - Add audio pronunciations
+3. **N4 Vocabulary expansion** (Phase 2):
+   - Add N4 level words
+   - Focus on intermediate grammar patterns
 
 ## Important Conventions
 
