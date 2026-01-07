@@ -11,11 +11,11 @@ Point an AI assistant to this file when resuming work on this project.
 ## Current Status
 
 - **Phase**: Phase 2 - Core Vocabulary Expansion
-- **Entries**: 620 (verbs, nouns, adjectives, adverbs, particles, counters, demonstratives, conjunctions, expressions) - all with furigana
-- **N5 Coverage**: ~78% (620/800 words)
+- **Entries**: 700 (verbs, nouns, adjectives, adverbs, particles, counters, demonstratives, conjunctions, expressions) - all with furigana
+- **N5 Coverage**: ~88% (700/800 words)
 - **Infrastructure**: Fully functional (build scripts, web interface, sidebar browser)
 - **Live site**: https://tkgally.github.io/je-dict-1/
-- **Target**: 700-750 entries for comprehensive N5 coverage
+- **Target**: 750 entries for comprehensive N5 coverage
 
 ## Session History
 
@@ -28,6 +28,7 @@ Point an AI assistant to this file when resuming work on this project.
 | 5 | 68 | 419 | Body parts, family, school/education, food, verbs, transport, household, adjectives, numbers, health, adverbs |
 | 6 | 100 | 519 | Verbs, shopping/commerce, nature, food, time, adjectives, adverbs |
 | 7 | 101 | 620 | Colors, family terms, question words, numbers 11-50, counters, time expressions, positional words, body parts, demonstratives, conjunctions, common expressions |
+| 8 | 80 | 700 | Common expressions, clothing, food/drinks, kitchen/household, buildings/places, transportation, school/education, work/business |
 
 ## Key Files to Read
 
@@ -62,26 +63,23 @@ Entries go in `entries/{kana-row}/` directories:
 File naming: `{romaji}_{5-digit-id}.json`
 - Example: 食べる (たべる) → `entries/ta/taberu_00001.json`
 
-**Next available IDs**: Use IDs >= 00097 in any directory to avoid conflicts (except `/ka/` which should use >= 00098).
+**Next available IDs**: Use IDs >= 00098 in any directory to avoid conflicts (except `/ka/` which should use >= 00099).
 
 See `PROJECT_STATUS.md` for the entry template and detailed ID assignment.
 
-## Session 8 Tasks (Next Session)
+## Session 9 Tasks (Next Session)
 
-1. **Clear new_entries.txt** at start (removes "New" tags from Session 7 entries)
-2. **Add ~80 more N5 entries** from `N5_REMAINING_VOCABULARY.md`:
-   - Remaining common expressions (8)
-   - Clothing (11): shatsu, zubon, sukaato, etc.
-   - Food/Drinks (14): shouyu, banana, juusu, biiru, etc.
-   - Kitchen/Household (13): daidokoro, reizouko, nabe, etc.
-   - Buildings/Places (15): apato, hoteru, suupaa, konbini, etc.
-   - Transportation (5): chikatetsu, shinkansen, etc.
-   - School/Education (8): shougakkou, chuugakkou, tesuto, etc.
-   - Select 6 from work/business
+1. **Clear new_entries.txt** at start (removes "New" tags from Session 8 entries)
+2. **Add ~50 more N5 entries** from `N5_REMAINING_VOCABULARY.md`:
+   - Remaining work/business (4): shutchou, meishi, shorui, mensetsu
+   - Additional verbs (14): oku, dasu, ireru, hakobu, naraberu, kaeru, etc.
+   - Additional adjectives (14): katai, yawarakai, subarashii, sugoi, itai, etc.
+   - Na-adjectives (10): yuumei, tokubetsu, shinsetsu, anzen, kiken, etc.
+   - Adverbs (8): ichiban, kanari, taitei, sou, kou, etc.
 3. **Update new_entries.txt** with new entry IDs
 4. **Build and validate**
 5. **Update PROJECT_STATUS.md** with new counts
-6. **Target**: Reach ~700 entries (~88% N5 coverage)
+6. **Target**: Reach ~750 entries (~95% N5 coverage)
 
 ## Important Conventions
 
