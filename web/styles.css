@@ -135,10 +135,27 @@ header .subtitle {
     font-size: 0.95rem;
 }
 
+.browser-entry-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
 .browser-entry-reading {
     font-family: var(--font-jp);
     font-size: 0.75rem;
     color: var(--color-text-secondary);
+}
+
+.new-tag {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding: 0.1rem 0.3rem;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 3px;
 }
 
 /* Main content */

@@ -21,6 +21,25 @@ def load_entry(file_path: Path) -> dict:
         return json.load(f)
 
 
+def load_new_entries_list(project_root: Path) -> list[str]:
+    """
+    Load list of entry IDs marked as 'new' from new_entries.txt.
+    Returns a list of entry IDs.
+    """
+    new_entries_file = project_root / 'build' / 'new_entries.txt'
+    new_ids = []
+
+    if new_entries_file.exists():
+        with open(new_entries_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                # Skip empty lines and comments
+                if line and not line.startswith('#'):
+                    new_ids.append(line)
+
+    return new_ids
+
+
 def build_search_index(entries: list[dict]) -> dict:
     """
     Build a search index mapping searchable terms to entry IDs.
@@ -91,7 +110,7 @@ def copy_web_files(project_root: Path, dist_dir: Path):
             shutil.copy(file, dist_dir / file.name)
 
 
-def generate_data_js(entries: list[dict], index: dict, dist_dir: Path) -> Path:
+def generate_data_js(entries: list[dict], index: dict, new_entries: list[str], dist_dir: Path) -> Path:
     """
     Generate a data.js file with embedded dictionary data.
     This allows the app to work without a server (pure file:// access).
@@ -113,6 +132,8 @@ const DICTIONARY_INDEX = {{
   version: '1.0',
   index: {json.dumps(index, ensure_ascii=False, indent=2)}
 }};
+
+const NEW_ENTRIES = {json.dumps(new_entries, ensure_ascii=False)};
 """
 
     with open(data_js_path, 'w', encoding='utf-8') as f:
@@ -160,6 +181,11 @@ def build(project_root: Path) -> int:
 
     print(f"  Loaded {len(entries)} entries")
 
+    # Load new entries list
+    new_entries = load_new_entries_list(project_root)
+    if new_entries:
+        print(f"  Marked as new: {len(new_entries)} entries")
+
     # Step 3: Build search index
     print("\n[3/4] Building search index...")
     index = build_search_index(entries)
@@ -180,7 +206,7 @@ def build(project_root: Path) -> int:
     print(f"  Copied web files to docs/")
 
     # Generate data.js with embedded data (for offline/static use)
-    data_js_path = generate_data_js(entries, index, dist_dir)
+    data_js_path = generate_data_js(entries, index, new_entries, dist_dir)
     print(f"  Written: {data_js_path.relative_to(project_root)}")
 
     # Summary
