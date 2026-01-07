@@ -1,7 +1,7 @@
 # je-dict-1 Project Status
 
 **Last updated**: 2026-01-07
-**Last session**: Session 2 - Added 102 new entries (199 total)
+**Last session**: Session 3 - Added 100 new entries (299 total)
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
@@ -27,58 +27,61 @@
 - [x] Claude Code auto-accept settings configured
 
 ### Content Status
-- **Total entries**: 199
-- **Verified entries**: 199
+- **Total entries**: 299
+- **Verified entries**: 299
 - **Draft entries**: 0
-- **Entries with furigana**: 199/199 (100% complete)
-- **N5 coverage**: ~199/800 words (~25%)
+- **Entries with furigana**: 299/299 (100% complete)
+- **N5 coverage**: ~299/800 words (~37%)
 - **N4 coverage**: 0/700 words (0%)
 
 ### Entry Breakdown by Type
 | Type | Count | Examples |
 |------|-------|----------|
-| Verbs | ~65 | taberu, nomu, iku, kuru, miru, suru, aru, benkyousuru, akeru, shimeru, tsukeru, kesu, hajimeru, owaru, noru, oriru, aruku, hashiru, hataraku, yasumu, asobu, narau... |
-| Nouns | ~80 | mizu, hon, gakkou, asa, yoru, chichi, haha, atama, kao, te, ashi, gohan, pan, niku, sakana, eki, densha, byouin, ginkou, kaisha, shigoto, tomodachi, nihongo... |
-| Adjectives | ~30 | ookii, chiisai, ii, akai, aoi, shiroi, kuroi, omoshiroi, tsumaranai, isogashii, hima... |
+| Verbs | ~80 | taberu, nomu, iku, kuru, miru, suru, aru, tsuku, noboru, magaru, shinu, sumu, warau, naku, utau, okiru, tomaru, motsu, kiku, au, matsu, agaru... |
+| Nouns | ~120 | mizu, hon, gakkou, eiga, ongaku, kippu, kaban, yama, kawa, umi, hana, ki, tori, neko, inu, haru, natsu, aki, fuyu, minami, kita, higashi, nishi... |
+| Adjectives | ~45 | ookii, chiisai, ii, samui, atsui, amai, karai, tsumetai, atatakai, suzushii, nagai, mijikai, hayai, osoi, akarui, kurai... |
 | Adverbs | ~15 | totemo, taihen, chotto, sukoshi, takusan, zenzen, itsumo, tokidoki, yoku, mou, mada, amari... |
 | Particles | 9 | ha, ga, wo, ni, de, to, mo, kara, made |
 | Question words | 8 | nani, dare, doko, itsu, naze, dou, dore, dono |
+| Counters | 8 | nin, hitori, futari, ko, mai, hon, satsu, dai |
+| Days/Months | 19 | getsuyoubi, kayoubi..., ichigatsu, nigatsu... |
 
 ### Entry Breakdown by Directory
 | Directory | Count |
 |-----------|-------|
-| `/a/` | ~35 |
-| `/ka/` | ~25 |
-| `/sa/` | ~15 |
-| `/ta/` | ~40 |
-| `/na/` | ~15 |
-| `/ha/` | ~20 |
-| `/ma/` | ~20 |
-| `/ya/` | ~15 |
-| `/ra/` | 0 |
-| `/wa/` | ~3 |
+| `/a/` | ~50 |
+| `/ka/` | ~45 |
+| `/sa/` | ~35 |
+| `/ta/` | ~50 |
+| `/na/` | ~25 |
+| `/ha/` | ~35 |
+| `/ma/` | ~30 |
+| `/ya/` | ~20 |
+| `/ra/` | 1 |
+| `/wa/` | ~5 |
 
 ### Session History
 | Session | Date | Entries Added | Total After |
 |---------|------|---------------|-------------|
 | 1 | 2026-01-07 | 97 (initial + 50 new) | 97 |
 | 2 | 2026-01-07 | 102 | 199 |
+| 3 | 2026-01-07 | 100 | 299 |
 
-### Recent Changes (Session 2)
-1. Added 102 new N5 entries including:
-   - Verbs: benkyousuru, akeru, shimeru, tsukeru, kesu, hajimeru, owaru, noru, oriru, aruku, hashiru, hataraku, yasumu, asobu, narau, etc.
-   - Time nouns: asa, yoru, hiru, ban, gogo, gozen
-   - Family terms: chichi, haha, ani, ane, otouto, imouto, kazoku, kodomo
-   - Body parts: atama, kao, me, mimi, kuchi, te, ashi
-   - Food: gohan, pan, niku, sakana, yasai, kudamono, tamago, ocha, mizu
-   - Places: byouin, ginkou, yuubinkyoku, toshokan, kouen, eki, densha, mise
-   - Weather: tenki, ame, yuki, sora
-   - Colors: akai, aoi, shiroi, kuroi
-   - Adjectives: omoshiroi, tsumaranai, isogashii, hima
-   - Adverbs: totemo, taihen, chotto, sukoshi, takusan, zenzen, itsumo, tokidoki, yoku, mou, mada, amari
-   - Other nouns: shigoto, kaisha, gakkou, daigaku, sensei, gakusei, tomodachi, okane, jikan, namae, denwa, kuruma, ie, heya, machi, kuni, nihongo
-2. Updated new_entries.txt with 102 new entry IDs
-3. Total entries increased from 97 to 199
+### Recent Changes (Session 3)
+1. Added 100 new N5 entries including:
+   - Verbs: tsuku, noboru, magaru, shinu, sumu, warau, naku, utau, okiru, tomaru, tomeru, motsu, kiku, au, matsu, agaru
+   - Days of week: getsuyoubi, kayoubi, suiyoubi, mokuyoubi, kinyoubi, doyoubi, nichiyoubi
+   - Months: ichigatsu through juunigatsu (all 12 months)
+   - Adjectives: samui, atsui, amai, karai, tsumetai, atatakai, suzushii, nagai, mijikai, hayai, osoi, akarui, kurai
+   - Everyday items: eiga, ongaku, kippu, kaban, kasa, megane, tokei, saifu, kagi, mado, to
+   - Nature/animals: yama, kawa, umi, hana, ki, tori, neko, inu
+   - Seasons: haru, natsu, aki, fuyu
+   - Transportation: hikouki, jitensha, kuukou
+   - Directions: minami, kita, higashi, nishi, migi, hidari, ue, shita, mae, ushiro, naka, soto
+   - Other nouns: yasai, kaze, tegami, shinbun, zasshi, ame (candy)
+   - Counters: nin, hitori, futari, ko, mai, hon, satsu, dai
+2. Updated new_entries.txt with 100 new entry IDs
+3. Total entries increased from 199 to 299
 
 ## Furigana System
 
@@ -108,19 +111,18 @@ The sidebar now shows a red "New" tag next to recently added entries:
 
 ## Next Steps
 
-### Session 3 (Next Session)
-1. **Clear new_entries.txt** at start of session (marks Session 2 entries as no longer new)
+### Session 4 (Next Session)
+1. **Clear new_entries.txt** at start of session (marks Session 3 entries as no longer new)
 2. **Add ~100 more N5 entries** targeting:
-   - More verbs: tsuku (arrive), noboru (climb), magaru (turn), shinu (die), sumu (live), warau (laugh), naku (cry), utau (sing), etc.
-   - Numbers and counters: ~nin, ~ko, ~mai, ~hon, ~satsu, etc.
-   - Days of week: getsuyoubi, kayoubi, etc.
-   - Months: ichigatsu, nigatsu, etc.
-   - More common nouns: eiga (movie), ongaku (music), kippu (ticket), kaban (bag), etc.
-   - More adjectives: samui (cold), atsui (hot), amai (sweet), karai (spicy), etc.
-3. **Target**: Reach ~300 entries (~38% N5 coverage)
+   - More verbs: kakaru, kawaru, kowareru, naoru, nureru, kawaku, komu, suku, etc.
+   - Time expressions: mainichi, maishuu, maigetsu, maitoshi, etc.
+   - More nouns: shashin, enpitsu, borupen, keshigomu, hasami, etc.
+   - More adjectives: oishii, mazui, urusai, shizuka, kirei, etc.
+   - Numbers: ichi, ni, san... (basic counting)
+3. **Target**: Reach ~400 entries (~50% N5 coverage)
 
 ### Upcoming (Future Sessions)
-- Sessions 4-7: Continue adding ~100 entries per session
+- Sessions 5-7: Continue adding ~100 entries per session
 - Target 600-700 entries for substantial N5 coverage
 - Implement conjugation search (tabete -> taberu)
 - Add cross-references between related entries
@@ -152,19 +154,19 @@ open docs/index.html
   - ga-row -> `/ka/`, ba-row -> `/ha/`, etc.
 
 ### ID Assignment
-Next available IDs by directory (after Session 2):
-- `/a/`: 00091
-- `/ka/`: 00091
-- `/sa/`: 00091
-- `/ta/`: 00091
-- `/na/`: 00091
-- `/ha/`: 00091
-- `/ma/`: 00091
-- `/ya/`: 00091
-- `/ra/`: 00001
-- `/wa/`: 00004
+Next available IDs by directory (after Session 3):
+- `/a/`: 00093
+- `/ka/`: 00092
+- `/sa/`: 00092
+- `/ta/`: 00092
+- `/na/`: 00092
+- `/ha/`: 00093
+- `/ma/`: 00092
+- `/ya/`: 00092
+- `/ra/`: 00092
+- `/wa/`: 00092
 
-Note: Use IDs >= 00091 for new entries in any directory to avoid conflicts.
+Note: Use IDs >= 00093 for new entries in any directory to avoid conflicts.
 
 ## Notes for AI Assistants
 
@@ -209,8 +211,8 @@ Note: Use IDs >= 00091 for new entries in any directory to avoid conflicts.
   "notes": "Grammar notes, usage notes, cultural notes, etc.",
   "cross_references": [],
   "metadata": {
-    "created": "2026-01-06T12:00:00Z",
-    "modified": "2026-01-06T12:00:00Z",
+    "created": "2026-01-07T12:00:00Z",
+    "modified": "2026-01-07T12:00:00Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",
