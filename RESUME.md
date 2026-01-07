@@ -99,6 +99,29 @@ See `PROJECT_STATUS.md` for the entry template and detailed ID assignment.
 - Clear the file at the START of each new session
 - Tags appear only in sidebar, not in entry display
 
+## Creating Pull Requests
+
+The `gh` CLI often fails due to authentication issues. Use this reliable method instead:
+
+1. **Commit and push** your changes to the feature branch:
+   ```bash
+   git add -A
+   git commit -m "Session N: Add X new N5 dictionary entries"
+   git push -u origin <branch-name>
+   ```
+
+2. **Construct the PR URL directly** using this format:
+   ```
+   https://github.com/tkgally/je-dict-1/pull/new/<branch-name>
+   ```
+
+3. **Provide the URL to the user** - they can click it to create the PR in GitHub's web interface.
+
+Example: For branch `claude/add-entries-ABC123`, the PR URL is:
+```
+https://github.com/tkgally/je-dict-1/pull/new/claude/add-entries-ABC123
+```
+
 ---
 
 *For full details, read `PROJECT_STATUS.md`*
