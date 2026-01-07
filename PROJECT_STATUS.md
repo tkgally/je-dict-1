@@ -1,7 +1,7 @@
 # je-dict-1 Project Status
 
 **Last updated**: 2026-01-07
-**Last session**: Session 4 - Added 52 new entries (351 total)
+**Last session**: Session 5 - Added 68 new entries (419 total)
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
@@ -27,25 +27,25 @@
 - [x] Claude Code auto-accept settings configured
 
 ### Content Status
-- **Total entries**: 351
-- **Verified entries**: 351
+- **Total entries**: 419
+- **Verified entries**: 419
 - **Draft entries**: 0
-- **Entries with furigana**: 351/351 (100% complete)
-- **N5 coverage**: ~351/800 words (~44%)
+- **Entries with furigana**: 419/419 (100% complete)
+- **N5 coverage**: ~419/800 words (~52%)
 - **N4 coverage**: 0/700 words (0%)
 
 ### Entry Breakdown by Type
 | Type | Count | Examples |
 |------|-------|----------|
-| Verbs | ~100 | taberu, nomu, iku, kuru, miru, suru, aru, tsuku, noboru, magaru, shinu, sumu, warau, naku, utau, okiru, tomaru, motsu, kiku, au, matsu, agaru, kakaru, kawaru, naoru, tobu, tsukeru, haku, hareru, kumoru, komu, suku, kaburu, yobu, oboeru, okuru, kureru, suwaru, tatsu, aku, shimaru, toru... |
-| Nouns | ~140 | mizu, hon, gakkou, eiga, ongaku, kippu, kaban, yama, kawa, umi, hana, ki, tori, neko, inu, haru, natsu, aki, fuyu, shashin, enpitsu, boorupen, keshigomu, hasami, kami, nooto, kitte, hagaki, keitai, nimotsu, ryokou, kaigi, kumo, hoshi, tsuki, oto, koe, boushi, kutsu, kutsushita, fuku, isu, tsukue... |
-| Adjectives | ~60 | ookii, chiisai, ii, samui, atsui, amai, karai, tsumetai, atatakai, suzushii, nagai, mijikai, hayai, osoi, akarui, kurai, oishii, mazui, urusai, shizuka, kirei, genki, dame, jouzu, heta, taisetsu, kantan, yasashii, hiroi, semai, usui, atsui (thick)... |
-| Adverbs | ~15 | totemo, taihen, chotto, sukoshi, takusan, zenzen, itsumo, tokidoki, yoku, mou, mada, amari... |
+| Verbs | ~105 | taberu, nomu, iku, kuru, miru, suru, aru, tsuku, noboru, magaru, shinu, sumu, warau, naku, utau, okiru, tomaru, motsu, kiku, au, matsu, agaru, kakaru, kawaru, naoru, tobu, tsukeru, haku, hareru, kumoru, komu, suku, kaburu, yobu, oboeru, okuru, kureru, suwaru, tatsu, aku, shimaru, toru, kowareru, nureru, kawaku, sageru, sawaru... |
+| Nouns | ~170 | mizu, hon, gakkou, eiga, ongaku, kippu, kaban, yama, kawa, umi, hana, ki, tori, neko, inu, haru, natsu, aki, fuyu, shashin, enpitsu, boorupen, keshigomu, hasami, kami, nooto, kitte, hagaki, keitai, nimotsu, ryokou, kaigi, kumo, hoshi, tsuki, oto, koe, boushi, kutsu, kutsushita, fuku, isu, tsukue, karada, yubi, onaka, kubi, kata, senaka, ryoushin, sofu, sobo, musuko, musume, jugyou, shukudai, kyoushitsu, shiken, mondai, kotae, gohan, gyuunyuu, ringo, koohii, basu, takushii, fune, doa, niwa, ofuro, toire, kaidan, seki, yakusoku, yotei, kega, byouki, kusuri... |
+| Adjectives | ~75 | ookii, chiisai, ii, samui, atsui, amai, karai, tsumetai, atatakai, suzushii, nagai, mijikai, hayai, osoi, akarui, kurai, oishii, mazui, urusai, shizuka, kirei, genki, dame, jouzu, heta, taisetsu, kantan, yasashii, hiroi, semai, usui, wakai, karui, omoi, kitanai, abunai, tanoshii, kanashii, ureshii, tsuyoi, yowai, daijoubu, shinpai... |
+| Adverbs | ~20 | totemo, taihen, chotto, sukoshi, takusan, zenzen, itsumo, tokidoki, yoku, mou, mada, amari, tabun, hontou, mazu, sugu, motto... |
 | Particles | 9 | ha, ga, wo, ni, de, to, mo, kara, made |
 | Question words | 8 | nani, dare, doko, itsu, naze, dou, dore, dono |
 | Counters | 8 | nin, hitori, futari, ko, mai, hon, satsu, dai |
 | Days/Months | 19 | getsuyoubi, kayoubi..., ichigatsu, nigatsu... |
-| Numbers | 10 | ichi, ni, san, yon, go, roku, nana, hachi, kyuu, juu |
+| Numbers | 14 | ichi, ni, san, yon, go, roku, nana, hachi, kyuu, juu, hyaku, sen, man, en |
 | Time expressions | 13 | mainichi, maishuu, maitsuki, maitoshi, kyonen, kotoshi, rainen, senshuu, konshuu, raishuu, sengetsu, kongetsu, raigetsu |
 
 ### Entry Breakdown by Directory
@@ -68,22 +68,26 @@
 | 1 | 2026-01-07 | 97 (initial + 50 new) | 97 |
 | 2 | 2026-01-07 | 102 | 199 |
 | 3 | 2026-01-07 | 100 | 299 |
-| 4 | 2026-01-07 | 52 (86 created, 14 duplicates removed) | 351 |
+| 4 | 2026-01-07 | 52 (86 created, 34 duplicates removed) | 351 |
+| 5 | 2026-01-07 | 68 (100 created, 32 duplicates removed) | 419 |
 
-### Recent Changes (Session 4)
-1. Added 52 new unique N5 entries including:
-   - Numbers: ichi, ni, san, yon, go, roku, nana, hachi, kyuu, juu (1-10)
-   - Time expressions: mainichi, maishuu, maitsuki, maitoshi, kyonen, kotoshi, rainen, senshuu, konshuu, raishuu, sengetsu, kongetsu, raigetsu
-   - Adjectives: oishii, mazui, urusai, shizuka, kirei, genki, dame, jouzu, heta, taisetsu, kantan, yasashii, hiroi, semai, usui, atsui (thick)
-   - Verbs: kakaru, kawaru, naoru, tobu, tsukeru, haku, okureru, hareru, kumoru, komu, suku, kaburu, yobu, oboeru, okuru, kureru, suwaru, tatsu, aku, shimaru, toru
-   - Stationery: shashin, enpitsu, boorupen, keshigomu, hasami, kami, nooto
-   - Communication: kitte, hagaki, keitai
-   - Travel/work: nimotsu, ryokou, kaigi
-   - Nature: kumo, hoshi, tsuki, oto, koe
-   - Clothing: boushi, kutsu, kutsushita, fuku
-   - Furniture: isu, tsukue
-2. Removed 14 duplicate entries that conflicted with existing entries
-3. Total entries increased from 299 to 351
+### Recent Changes (Session 5)
+1. Added 68 new unique N5 entries including:
+   - Body parts: karada, hana (nose), ha (tooth), yubi, onaka, kubi, kata, senaka
+   - Family terms: ryoushin, sofu, sobo, ojisan, obasan, musuko, musume
+   - School/education: jugyou, shukudai, kyoushitsu, shiken, mondai, kotae, benkyou, undou
+   - Food/drinks: gohan, gyuunyuu, ringo, koohii
+   - Verbs: kowareru, nureru, kawaku, sageru, sawaru
+   - Transport: basu, takushii, fune
+   - Household: doa, niwa, ofuro, toire, kaidan
+   - Adjectives: wakai, karui, omoi, kitanai, abunai, tanoshii, kanashii, ureshii, tsuyoi, yowai
+   - Numbers: hyaku (100), sen (1000), man (10000), en (yen)
+   - Health: kega, byouki, kusuri
+   - Common nouns: seki, yakusoku, yotei
+   - Adverbs: daijoubu, shinpai, tabun, hontou, mazu, tsugi, sugu, motto
+2. Removed 32 duplicate entries that conflicted with existing entries
+3. Total entries increased from 351 to 419
+4. N5 coverage now at ~52%
 
 ## Furigana System
 
@@ -113,18 +117,19 @@ The sidebar now shows a red "New" tag next to recently added entries:
 
 ## Next Steps
 
-### Session 5 (Next Session)
-1. **Clear new_entries.txt** at start of session (marks Session 4 entries as no longer new)
+### Session 6 (Next Session)
+1. **Clear new_entries.txt** at start of session (marks Session 5 entries as no longer new)
 2. **Add ~100 more N5 entries** targeting:
-   - More verbs: kowareru, nureru, kawaku, ageru (different from agaru), sageru, etc.
-   - Family terms: kazoku, ryoushin, sofu, sobo, etc.
-   - School/education: jugyou, shukudai, kyoushitsu, etc.
-   - Food: kudamono, yasai (vegetables), gohan, niku, sakana, etc.
-   - Body parts: karada, kao, me, hana, kuchi, mimi, etc.
-3. **Target**: Reach ~450 entries (~56% N5 coverage)
+   - More verbs: ageru (to give), modoru, tsunagu, nobasu, etc.
+   - Shopping/commerce: mise, nedan, otsuri, reji, etc.
+   - Nature: mori, ike, suna, iwa, etc.
+   - Actions: hashiru, narabu, kowasu, oreru, etc.
+   - More adjectives: benri, fuben, nigiyaka, etc.
+   - More adverbs: zehi, tashika, saigo, etc.
+3. **Target**: Reach ~520 entries (~65% N5 coverage)
 
 ### Upcoming (Future Sessions)
-- Sessions 6-8: Continue adding ~100 entries per session
+- Sessions 7-8: Continue adding ~100 entries per session
 - Target 600-700 entries for substantial N5 coverage
 - Implement conjugation search (tabete -> taberu)
 - Add cross-references between related entries
@@ -156,19 +161,19 @@ open docs/index.html
   - ga-row -> `/ka/`, ba-row -> `/ha/`, etc.
 
 ### ID Assignment
-Next available IDs by directory (after Session 4):
-- `/a/`: 00094
-- `/ka/`: 00094
-- `/sa/`: 00094
-- `/ta/`: 00094
-- `/na/`: 00094
-- `/ha/`: 00094
-- `/ma/`: 00094
-- `/ya/`: 00094
-- `/ra/`: 00094
-- `/wa/`: 00094
+Next available IDs by directory (after Session 5):
+- `/a/`: 00095
+- `/ka/`: 00095
+- `/sa/`: 00095
+- `/ta/`: 00095
+- `/na/`: 00095
+- `/ha/`: 00095
+- `/ma/`: 00095
+- `/ya/`: 00095
+- `/ra/`: 00095
+- `/wa/`: 00095
 
-Note: Use IDs >= 00094 for new entries in any directory to avoid conflicts.
+Note: Use IDs >= 00095 for new entries in any directory to avoid conflicts.
 
 ## Notes for AI Assistants
 
