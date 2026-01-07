@@ -114,20 +114,27 @@ The sidebar now shows a red "New" tag next to recently added entries:
 
 ## Next Steps
 
+### Remaining N5 Vocabulary
+See **`N5_REMAINING_VOCABULARY.md`** for the complete list of ~230 remaining N5 words organized by category.
+
 ### Session 7 (Next Session)
 1. **Clear new_entries.txt** at start of session (marks Session 6 entries as no longer new)
-2. **Add ~100 more N5 entries** targeting:
-   - More verbs: modoru, tsunagu, nobasu, etc.
-   - Weather/seasons: remaining seasonal vocabulary
-   - Actions: remaining common verbs
-   - More adjectives: remaining N5 adjectives
-   - More adverbs: remaining N5 adverbs
-   - Common expressions and set phrases
+2. **Add ~100 entries** from `N5_REMAINING_VOCABULARY.md`:
+   - Colors (3), Family terms (7), Question words (3)
+   - Extended numbers (16), Counters (12), Time expressions (12)
+   - Positional words (10), Body parts (8)
+   - Demonstratives (12), Conjunctions (10)
 3. **Target**: Reach ~620 entries (~78% N5 coverage)
 
-### Upcoming (Future Sessions)
-- Sessions 7-8: Continue adding ~100 entries per session
-- Target 600-700 entries for substantial N5 coverage
+### Session 8
+- Add ~80 entries: Clothing, Food/Drinks, Kitchen, Buildings, Transportation, School
+
+### Session 9
+- Add ~50 entries: Work/Business, Verbs, Adjectives, Adverbs
+- Complete Phase 1 (~750 entries, ~95% N5 coverage)
+
+### After Phase 1 Completion
+- Reassess dictionary quality before moving to Phase 2 (N4)
 - Implement conjugation search (tabete -> taberu)
 - Add cross-references between related entries
 - Consider AI-assisted batch entry generation

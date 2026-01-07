@@ -31,10 +31,11 @@ Point an AI assistant to this file when resuming work on this project.
 ## Key Files to Read
 
 1. **`PROJECT_STATUS.md`** - Detailed current state, next steps, and technical notes
-2. **`project_specification.md`** - Full project specification and design decisions
-3. **`build/schema.json`** - Entry JSON schema
-4. **`build/new_entries.txt`** - List of entries to mark as "New" in sidebar
-5. **`README.md`** - Usage instructions
+2. **`N5_REMAINING_VOCABULARY.md`** - Comprehensive list of ~230 remaining N5 words to add
+3. **`project_specification.md`** - Full project specification and design decisions
+4. **`build/schema.json`** - Entry JSON schema
+5. **`build/new_entries.txt`** - List of entries to mark as "New" in sidebar
+6. **`README.md`** - Usage instructions
 
 ## Quick Start Commands
 
@@ -67,13 +68,17 @@ See `PROJECT_STATUS.md` for the entry template and detailed ID assignment.
 ## Session 7 Tasks (Next Session)
 
 1. **Clear new_entries.txt** at start (removes "New" tags from Session 6 entries)
-2. **Add ~100 more N5 entries** targeting:
-   - More verbs: modoru, tsunagu, nobasu, etc.
-   - Weather/seasons: remaining seasonal vocabulary
-   - Actions: remaining common verbs
-   - More adjectives: remaining N5 adjectives
-   - More adverbs: remaining N5 adverbs
-   - Common expressions and set phrases
+2. **Add ~100 more N5 entries** from `N5_REMAINING_VOCABULARY.md`:
+   - Colors (3): kiiroi, chairoi, midori
+   - Family terms (7): shujin, otto, kanai, tsuma, kyoudai, oji, oba
+   - Question words (3): ikutsu, ikura, dochira
+   - Extended numbers (16): 11-19, 20-50, etc.
+   - Counters (12): kai, kagetsu, fun, etc.
+   - Time expressions (12): ima, nanji, goro, etc.
+   - Positional words (10): tonari, soba, chikaku, etc.
+   - Body parts (8): mune, koshi, hiza, etc.
+   - Demonstratives (12): kore, sore, are, etc.
+   - Conjunctions (10): soshite, demo, shikashi, etc.
 3. **Update new_entries.txt** with new entry IDs
 4. **Build and validate**
 5. **Update PROJECT_STATUS.md** with new counts
