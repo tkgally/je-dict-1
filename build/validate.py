@@ -193,6 +193,36 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> list[str
     return errors
 
 
+def check_for_duplicates(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, str]]:
+    """
+    Check for duplicate entries (same reading AND same headword).
+    Entries with same reading but different headwords (homophones) are allowed.
+    Returns a list of (file_path, error_message) for duplicates.
+    """
+    # Group entries by reading
+    by_reading = {}
+    for file_path, entry in entries_data:
+        reading = entry.get('reading', '')
+        headword = entry.get('headword', '')
+        key = (reading, headword)
+        if key not in by_reading:
+            by_reading[key] = []
+        by_reading[key].append(file_path)
+
+    # Find duplicates (same reading AND headword)
+    duplicates = []
+    for (reading, headword), files in by_reading.items():
+        if len(files) > 1:
+            # Report all but the first as duplicates
+            for dup_file in files[1:]:
+                duplicates.append((
+                    dup_file,
+                    f"Duplicate entry: reading '{reading}' with headword '{headword}' already exists in {files[0]}"
+                ))
+
+    return duplicates
+
+
 def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]]]:
     """
     Validate all entry files in the project.
@@ -208,6 +238,7 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
     total = 0
     valid = 0
     invalid_files = []
+    entries_data = []  # Store (file_path, entry_data) for duplicate checking
 
     # Collect all JSON files
     entry_files = list(entries_dir.glob('**/*.json'))
@@ -220,6 +251,24 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
             invalid_files.append((file_path, errors))
         else:
             valid += 1
+            # Load entry data for duplicate checking
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    entry = json.load(f)
+                    entries_data.append((file_path, entry))
+            except:
+                pass  # Already handled by validate_entry_file
+
+    # Check for duplicates among valid entries
+    duplicate_errors = check_for_duplicates(entries_data)
+    for file_path, error_msg in duplicate_errors:
+        # Find if this file is already in invalid_files
+        existing = next((i for i, (fp, _) in enumerate(invalid_files) if fp == file_path), None)
+        if existing is not None:
+            invalid_files[existing][1].append(error_msg)
+        else:
+            invalid_files.append((file_path, [error_msg]))
+            valid -= 1
 
     return total, valid, invalid_files
 
