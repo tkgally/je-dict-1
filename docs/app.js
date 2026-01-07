@@ -9,6 +9,7 @@
     // State - data is loaded from data.js (embedded at build time)
     let entriesData = null;
     let indexData = null;
+    let newEntriesSet = null;  // Set of entry IDs marked as "new"
     let isLoaded = false;
 
     // Furigana state - whether readings are visible
@@ -99,10 +100,14 @@
             `;
 
             for (const entry of entries) {
+                const isNew = newEntriesSet && newEntriesSet.has(entry.id);
                 html += `
                     <a class="browser-entry" data-entry-id="${entry.id}">
                         <span class="browser-entry-headword">${processJapaneseText(entry.headword)}</span>
-                        <span class="browser-entry-reading">${escapeHtml(entry.reading)}</span>
+                        <span class="browser-entry-meta">
+                            ${isNew ? '<span class="new-tag">New</span>' : ''}
+                            <span class="browser-entry-reading">${escapeHtml(entry.reading)}</span>
+                        </span>
                     </a>
                 `;
             }
@@ -144,6 +149,13 @@
             indexData = DICTIONARY_INDEX;
             isLoaded = true;
 
+            // Load new entries list if available
+            if (typeof NEW_ENTRIES !== 'undefined' && Array.isArray(NEW_ENTRIES)) {
+                newEntriesSet = new Set(NEW_ENTRIES);
+            } else {
+                newEntriesSet = new Set();
+            }
+
             // Update stats
             const count = entriesData.count;
             statsDiv.textContent = `${count} ${count === 1 ? 'entry' : 'entries'} available`;
@@ -152,6 +164,9 @@
             buildEntryBrowser();
 
             console.log('Dictionary loaded:', entriesData.count, 'entries');
+            if (newEntriesSet.size > 0) {
+                console.log('New entries:', newEntriesSet.size);
+            }
         } else {
             console.error('Dictionary data not found. Please run the build script.');
             statsDiv.textContent = 'Error: Dictionary data not found. Please run the build script.';

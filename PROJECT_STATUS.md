@@ -1,14 +1,14 @@
 # je-dict-1 Project Status
 
-**Last updated**: 2026-01-06
-**Last session**: Migrated to GitHub, added furigana to all entries, configured GitHub Pages
+**Last updated**: 2026-01-07
+**Last session**: Added 50 new entries with "New" tag system in sidebar
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
 ## Current State
 
 ### Phase
-**Phase 1: Foundation** - Complete. Furigana system implemented. Ready to begin Phase 2 (Core Vocabulary expansion).
+**Phase 2: Core Vocabulary** - In progress. Adding common N5 words.
 
 ### Infrastructure Status
 - [x] Directory structure created (`entries/`, `variants/`, `build/`, `web/`, `docs/`)
@@ -20,48 +20,47 @@
 - [x] Static data embedding (works without server)
 - [x] **Furigana system** with `{kanji|reading}` notation
 - [x] **Furigana toggle button** in web interface
+- [x] **"New" tag system** in sidebar (tracks recently added entries)
 - [x] README.md created
 - [x] PROJECT_STATUS.md created
 - [x] .gitignore configured
 
 ### Content Status
-- **Total entries**: 47
-- **Verified entries**: 47
+- **Total entries**: 97
+- **Verified entries**: 97
 - **Draft entries**: 0
-- **Entries with furigana**: 47/47 (100% complete)
-- **N5 coverage**: ~47/800 words (~6%)
+- **Entries with furigana**: 97/97 (100% complete)
+- **N5 coverage**: ~97/800 words (~12%)
 - **N4 coverage**: 0/700 words (0%)
 
 ### Entry Breakdown by Type
 | Type | Count | Examples |
 |------|-------|----------|
-| Verbs | 21 | taberu, nomu, iku, kuru, miru, suru, aru, kaku, yomu, kiku, hanasu, kau, au, matsu, motsu, tsukau, tsukuru, shiru, omou, wakaru, iru |
-| Nouns | 10 | mizu, hon, gakkou, hito, jikan, hi, toshi, kyou, ashita, tomodachi |
-| Adjectives | 7 | ookii, chiisai, ii, atarashii, furui, takai, yasui |
+| Verbs | 41 | taberu, nomu, iku, kuru, miru, suru, aru, iu, okiru, oshieru, aruku, oyogu, ageru, asobu, kaeru, deru, hataraku, hairu, hashiru, neru, narau, tomaru, dekiru, wasureru, morau... |
+| Nouns | 27 | mizu, hon, gakkou, hito, jikan, eki, kuruma, kawa, ki, shigoto, denwa, densha, namae, heya, mise, michi, umi, onna, otoko, yama, hana... |
+| Adjectives | 17 | ookii, chiisai, ii, atarashii, furui, takai, yasui, osoi, tooi, chikai, nagai, mijikai, hayai, muzukashii, yasashii... |
 | Particles | 9 | ha, ga, wo, ni, de, to, mo, kara, made |
+| Question words | 8 | nani, dare, doko, itsu, naze, dou, dore, dono |
 
 ### Entry Breakdown by Directory
 | Directory | Count | Entries |
 |-----------|-------|---------|
-| `/a/` | 9 | iku, ookii, ii, aru, au, omou, iru, ashita, atarashii |
-| `/ka/` | 8 | kuru, gakkou, ga, kaku, kiku, kau, kyou, kara |
-| `/sa/` | 3 | suru, shiru, jikan |
-| `/ta/` | 9 | taberu, chiisai, tsukau, tsukuru, toshi, tomodachi, takai, de, to |
-| `/na/` | 2 | nomu, ni |
-| `/ha/` | 6 | hon, ha, hanasu, hito, hi, furui |
-| `/ma/` | 6 | miru, mizu, matsu, motsu, mo, made |
-| `/ya/` | 2 | yomu, yasui |
+| `/a/` | 22 | iku, ookii, ii, aru, au, omou, iru, ashita, atarashii, iu, okiru, oshieru, eki, osoi, itsu, aruku, oyogu, ageru, asobu, umi, onna, otoko |
+| `/ka/` | 12 | kuru, gakkou, ga, kaku, kiku, kau, kyou, kara, kaeru, kuruma, kawa, ki |
+| `/sa/` | 4 | suru, shiru, jikan, shigoto |
+| `/ta/` | 21 | taberu, chiisai, tsukau, tsukuru, toshi, tomodachi, takai, de, to, deru, denwa, densha, tooi, chikai, dare, doko, dou, dore, dono, tomaru, dekiru |
+| `/na/` | 8 | nomu, ni, neru, narau, namae, nagai, nani, naze |
+| `/ha/` | 12 | hon, ha, hanasu, hito, hi, furui, hairu, hataraku, heya, hayai, hashiru, hana |
+| `/ma/` | 11 | miru, mizu, matsu, motsu, mo, made, mise, michi, mijikai, muzukashii, morau |
+| `/ya/` | 4 | yomu, yasui, yasashii, yama |
 | `/ra/` | 0 | (none yet) |
-| `/wa/` | 2 | wo, wakaru |
+| `/wa/` | 3 | wo, wakaru, wasureru |
 
 ### Recent Changes (This Session)
-1. Migrated project to GitHub for continued development
-2. Removed terminal bug workaround documentation (not needed on GitHub)
-3. Cleaned up duplicate files from root directory
-4. Added furigana notation to all 26 entries that were missing it
-5. Renamed `dist/` to `docs/` for GitHub Pages compatibility
-6. Configured GitHub Pages to serve from `docs/` folder
-7. Site is now live at https://tkgally.github.io/je-dict-1/
+1. Implemented "New" tag system in sidebar for recently added entries
+2. Added 50 new dictionary entries (verbs, nouns, adjectives, question words)
+3. Updated build system to support new entries list (`build/new_entries.txt`)
+4. Total entries increased from 47 to 97
 
 ## Furigana System
 
@@ -81,21 +80,30 @@
 - Converts `{kanji|reading}` to HTML `<ruby>` tags
 - Preference saved in localStorage
 
+## "New" Tag System
+
+The sidebar now shows a red "New" tag next to recently added entries:
+- Controlled by `build/new_entries.txt` file
+- Add entry IDs (one per line) to mark them as new
+- Clear the file when starting a new batch of entries
+- Tags only appear in the sidebar, not in the entry display
+
 ## Next Steps
 
 ### Immediate (Next Session)
-1. **Expand vocabulary**: Add 30-50 more N5 words (target: 100 entries)
+1. **Continue vocabulary expansion**: Add more N5 words (target: 150 entries)
 2. **Priority words to add**:
-   - Common verbs: iu, kaeru, hairu, deru, neru, okiru, hataraku, oshieru, narau
-   - Common nouns: namae, denwa, shigoto, heya, eki, mise, michi, kuruma, densha
-   - Common adjectives: tooi, chikai, nagai, mijikai, hayai, osoi, muzukashii, yasashii
-   - Question words: nani, dare, doko, itsu, naze, dou, dore, dono
+   - More common verbs: nomu (drink) variants, benkyousuru, etc.
+   - Time words: asa, yoru, gogo, gozen, etc.
+   - Family terms: chichi, haha, ani, ane, etc.
+   - Basic counters: ~nin, ~ko, ~mai, etc.
 
 ### Upcoming (Future Sessions)
 - Reach critical mass of 500-1000 entries
 - Implement conjugation search (tabete -> taberu)
 - Add cross-references between related entries
 - Consider AI-assisted batch entry generation via OpenRouter
+- Clear "New" tags from current batch when adding next batch
 
 ## Technical Notes
 
@@ -124,16 +132,16 @@ open docs/index.html
 
 ### ID Assignment
 Next available IDs by directory:
-- `/a/`: 00010
-- `/ka/`: 00009
-- `/sa/`: 00004
-- `/ta/`: 00010
-- `/na/`: 00003
-- `/ha/`: 00007
-- `/ma/`: 00007
-- `/ya/`: 00003
+- `/a/`: 00023
+- `/ka/`: 00013
+- `/sa/`: 00005
+- `/ta/`: 00022
+- `/na/`: 00009
+- `/ha/`: 00013
+- `/ma/`: 00012
+- `/ya/`: 00005
 - `/ra/`: 00001
-- `/wa/`: 00003
+- `/wa/`: 00004
 
 ## Notes for AI Assistants
 
