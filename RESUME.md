@@ -11,8 +11,8 @@ Point an AI assistant to this file when resuming work on this project.
 ## Current Status
 
 - **Phase**: Phase 2 - Core Vocabulary Expansion
-- **Entries**: 199 (verbs, nouns, adjectives, adverbs, particles) - all with furigana
-- **N5 Coverage**: ~25% (199/800 words)
+- **Entries**: 299 (verbs, nouns, adjectives, adverbs, particles, counters) - all with furigana
+- **N5 Coverage**: ~37% (299/800 words)
 - **Infrastructure**: Fully functional (build scripts, web interface, sidebar browser)
 - **Live site**: https://tkgally.github.io/je-dict-1/
 - **Target**: 600-700 entries for substantial N5 coverage
@@ -23,6 +23,7 @@ Point an AI assistant to this file when resuming work on this project.
 |---------|---------------|-------|-------------|
 | 1 | 97 | 97 | Foundation + "New" tag system |
 | 2 | 102 | 199 | Time, family, body, food, places, weather, colors, adverbs |
+| 3 | 100 | 299 | Verbs, days of week, months, seasons, directions, counters, nature, everyday items |
 
 ## Key Files to Read
 
@@ -56,24 +57,23 @@ Entries go in `entries/{kana-row}/` directories:
 File naming: `{romaji}_{5-digit-id}.json`
 - Example: 食べる (たべる) → `entries/ta/taberu_00001.json`
 
-**Next available IDs**: Use IDs >= 00091 in any directory to avoid conflicts.
+**Next available IDs**: Use IDs >= 00093 in any directory to avoid conflicts.
 
 See `PROJECT_STATUS.md` for the entry template and detailed ID assignment.
 
-## Session 3 Tasks (Next Session)
+## Session 4 Tasks (Next Session)
 
-1. **Clear new_entries.txt** at start (removes "New" tags from Session 2 entries)
+1. **Clear new_entries.txt** at start (removes "New" tags from Session 3 entries)
 2. **Add ~100 more N5 entries** targeting:
-   - More verbs: tsuku, noboru, magaru, shinu, sumu, warau, naku, utau, etc.
-   - Numbers and counters: ~nin, ~ko, ~mai, ~hon, ~satsu, etc.
-   - Days of week: getsuyoubi, kayoubi, etc.
-   - Months: ichigatsu, nigatsu, etc.
-   - More nouns: eiga, ongaku, kippu, kaban, etc.
-   - More adjectives: samui, atsui, amai, karai, etc.
+   - More verbs: kakaru, kawaru, kowareru, naoru, nureru, kawaku, komu, suku, etc.
+   - Time expressions: mainichi, maishuu, maigetsu, maitoshi, etc.
+   - More nouns: shashin, enpitsu, borupen, keshigomu, hasami, etc.
+   - More adjectives: oishii, mazui, urusai, shizuka, kirei, etc.
+   - Numbers: ichi, ni, san... (basic counting)
 3. **Update new_entries.txt** with new entry IDs
 4. **Build and validate**
 5. **Update PROJECT_STATUS.md** with new counts
-6. **Target**: Reach ~300 entries (~38% N5 coverage)
+6. **Target**: Reach ~400 entries (~50% N5 coverage)
 
 ## Important Conventions
 
