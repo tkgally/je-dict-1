@@ -11,8 +11,8 @@ Point an AI assistant to this file when resuming work on this project.
 ## Current Status
 
 - **Phase**: Phase 2 - Core Vocabulary Expansion
-- **Entries**: 419 (verbs, nouns, adjectives, adverbs, particles, counters) - all with furigana
-- **N5 Coverage**: ~52% (419/800 words)
+- **Entries**: 519 (verbs, nouns, adjectives, adverbs, particles, counters) - all with furigana
+- **N5 Coverage**: ~65% (519/800 words)
 - **Infrastructure**: Fully functional (build scripts, web interface, sidebar browser)
 - **Live site**: https://tkgally.github.io/je-dict-1/
 - **Target**: 600-700 entries for substantial N5 coverage
@@ -26,6 +26,7 @@ Point an AI assistant to this file when resuming work on this project.
 | 3 | 100 | 299 | Verbs, days of week, months, seasons, directions, counters, nature, everyday items |
 | 4 | 52 | 351 | Numbers 1-10, time expressions, adjectives, verbs, stationery, nature, clothing, furniture |
 | 5 | 68 | 419 | Body parts, family, school/education, food, verbs, transport, household, adjectives, numbers, health, adverbs |
+| 6 | 100 | 519 | Verbs, shopping/commerce, nature, food, time, adjectives, adverbs |
 
 ## Key Files to Read
 
@@ -59,24 +60,24 @@ Entries go in `entries/{kana-row}/` directories:
 File naming: `{romaji}_{5-digit-id}.json`
 - Example: 食べる (たべる) → `entries/ta/taberu_00001.json`
 
-**Next available IDs**: Use IDs >= 00095 in any directory to avoid conflicts.
+**Next available IDs**: Use IDs >= 00096 in any directory to avoid conflicts.
 
 See `PROJECT_STATUS.md` for the entry template and detailed ID assignment.
 
-## Session 6 Tasks (Next Session)
+## Session 7 Tasks (Next Session)
 
-1. **Clear new_entries.txt** at start (removes "New" tags from Session 5 entries)
+1. **Clear new_entries.txt** at start (removes "New" tags from Session 6 entries)
 2. **Add ~100 more N5 entries** targeting:
-   - More verbs: ageru (to give), modoru, tsunagu, nobasu, etc.
-   - Shopping/commerce: mise, nedan, otsuri, reji, etc.
-   - Nature: mori, ike, suna, iwa, etc.
-   - Actions: hashiru, narabu, kowasu, oreru, etc.
-   - More adjectives: benri, fuben, nigiyaka, etc.
-   - More adverbs: zehi, tashika, saigo, etc.
+   - More verbs: modoru, tsunagu, nobasu, etc.
+   - Weather/seasons: remaining seasonal vocabulary
+   - Actions: remaining common verbs
+   - More adjectives: remaining N5 adjectives
+   - More adverbs: remaining N5 adverbs
+   - Common expressions and set phrases
 3. **Update new_entries.txt** with new entry IDs
 4. **Build and validate**
 5. **Update PROJECT_STATUS.md** with new counts
-6. **Target**: Reach ~520 entries (~65% N5 coverage)
+6. **Target**: Reach ~620 entries (~78% N5 coverage)
 
 ## Important Conventions
 
