@@ -122,9 +122,117 @@ Create a script (`select_samples.py`) that:
 
 ---
 
-## 4. Evaluation Rounds
+## 4. Entry Formatting for Evaluation
 
-### 4.1 Round Structure (Graduated Context)
+### 4.1 Why Format Entries?
+
+The evaluating models should see entries as a dictionary user would see them, NOT as raw JSON. This:
+- Makes evaluation more authentic (models evaluate the content, not the data structure)
+- Prevents models from focusing on JSON formatting issues rather than content quality
+- Simulates the actual user experience of looking up a word
+
+### 4.2 Formatting Process
+
+Create a script (`format_entries.py`) that converts JSON entries into a clean, human-readable dictionary format. The script should:
+
+1. Load the JSON entry
+2. Convert furigana notation `{kanji|reading}` to a readable format (see options below)
+3. Format all fields into a traditional dictionary layout
+4. Output formatted text ready to include in prompts
+
+### 4.3 Furigana Display Options
+
+Since the evaluating models will see plain text (not HTML with ruby annotations), choose ONE of these approaches for furigana:
+
+**Option A: Parenthetical readings** (Recommended)
+```
+行く (いく)
+学校 (がっこう) に 行きます。
+```
+
+**Option B: Inline notation preserved**
+```
+{行|い}く
+{学校|がっこう}に{行|い}きます。
+```
+Note: Explain this notation to the model if using this option.
+
+**Option C: Reading only for headword, kanji in examples**
+```
+いく (行く)
+学校に行きます。
+```
+
+**Recommendation**: Use Option A for Round 1 (most natural for fresh evaluation), then explain the notation system and use Option B for later rounds if schema discussion is relevant.
+
+### 4.4 Formatted Entry Template
+
+Convert each JSON entry to this format:
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+行く (いく)
+[verb (godan)] — to go
+
+DEFINITION 1: to go, to move (toward a destination)
+Expresses movement away from the speaker's current location toward a destination. The opposite of 来る (くる) (to come). Used when the speaker is not at the destination.
+
+DEFINITION 2: to proceed, to continue
+When attached to the te-form of another verb (〜ていく), indicates an action continuing into the future or moving away from the speaker's perspective.
+
+EXAMPLES:
+• 学校 (がっこう) に行きます。
+  "I go to school."
+
+• 明日 (あした)、東京 (とうきょう) に行く予定 (よてい) です。
+  "I plan to go to Tokyo tomorrow."
+
+• これから暑く (あつく) なっていく。
+  "It will get hotter from now on."
+  [Note: 〜ていく expressing change continuing into the future]
+
+USAGE NOTES:
+行く has an irregular te-form: 行って, not 行いて. This is one of the most common verbs in Japanese. The kanji can also be read as ゆく in literary or formal contexts, though いく is standard in modern Japanese.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### 4.5 Formatting Rules
+
+1. **Headword line**: Show kanji with reading in parentheses, or just hiragana if no kanji
+2. **Classification line**: Part of speech in brackets, followed by em-dash and gloss
+3. **Definitions**: Numbered, with gloss in bold/caps, followed by explanation
+4. **Examples**: Bulleted, Japanese first with readings, English translation indented below
+5. **Example notes**: Show in brackets if present
+6. **Usage notes**: Under "USAGE NOTES:" header
+7. **Separators**: Use horizontal lines between entries for clarity
+8. **Omit metadata**: Do not include created/modified dates, AI model info, or review status — these are internal fields not relevant to evaluation
+
+### 4.6 Handling Special Cases
+
+**Particles and grammar words**: These often have abstract meanings. Ensure the formatting preserves all nuance from explanations.
+
+**Multiple senses**: Number each sense clearly (DEFINITION 1, DEFINITION 2, etc.)
+
+**Cross-references**: If present, add a "SEE ALSO:" section at the end
+
+**Entries without notes**: Simply omit the "USAGE NOTES:" section
+
+### 4.7 Batch Formatting
+
+The formatting script should:
+1. Accept a list of entry IDs or a sample JSON file as input
+2. Load each entry from the `entries/` directory
+3. Apply the formatting template
+4. Output a single text file with all formatted entries for that sample
+5. Save formatted samples to `evaluation/formatted/` directory
+
+---
+
+## 5. Evaluation Rounds
+
+### 5.1 Round Structure (Graduated Context)
 
 #### Round 1: Fresh Eyes (Minimal Context)
 **Context provided**: Only basic framing
@@ -157,7 +265,7 @@ Create a script (`select_samples.py`) that:
 
 **Focus**: Consolidation, prioritization, concrete improvement tasks
 
-### 4.2 Refinement Between Rounds
+### 5.2 Refinement Between Rounds
 
 After each round:
 1. Review responses from all models
@@ -167,9 +275,9 @@ After each round:
 
 ---
 
-## 5. Evaluation Prompts
+## 6. Evaluation Prompts
 
-### 5.1 Core Evaluation Areas
+### 6.1 Core Evaluation Areas
 
 Every round should solicit feedback on:
 
@@ -203,7 +311,9 @@ Every round should solicit feedback on:
    - Information that should be added to entries
    - Ways to make entries more useful
 
-### 5.2 Prompt Templates
+### 6.2 Prompt Templates
+
+**Important**: All prompts use `[FORMATTED_ENTRIES]` as a placeholder. Before sending to the model, replace this with the human-readable formatted entries generated by `format_entries.py` (see Section 4).
 
 #### Round 1 Prompt Template
 
@@ -228,7 +338,7 @@ Please review the following dictionary entries and provide feedback on:
 
 Here are the entries to evaluate:
 
-[ENTRIES_JSON]
+[FORMATTED_ENTRIES]
 ```
 
 #### Round 2 Prompt Template
@@ -267,7 +377,7 @@ Please evaluate these entries with particular attention to:
 
 Here are the entries:
 
-[ENTRIES_JSON]
+[FORMATTED_ENTRIES]
 ```
 
 #### Round 3 Prompt Template
@@ -305,7 +415,7 @@ Based on this context, please provide:
 
 Here are the entries:
 
-[ENTRIES_JSON]
+[FORMATTED_ENTRIES]
 ```
 
 #### Round 4 Prompt Template
@@ -334,14 +444,14 @@ Please be specific and actionable. Each recommendation should be clear enough th
 
 Here are additional entries for reference:
 
-[ENTRIES_JSON]
+[FORMATTED_ENTRIES]
 ```
 
 ---
 
-## 6. Output Specifications
+## 7. Output Specifications
 
-### 6.1 Intermediate Outputs
+### 7.1 Intermediate Outputs
 
 After each round, save:
 
@@ -360,7 +470,7 @@ evaluation_results/
     └── ...
 ```
 
-### 6.2 Final Consolidated Report
+### 7.2 Final Consolidated Report
 
 Create `evaluation_report.md` with:
 
@@ -372,7 +482,7 @@ Create `evaluation_report.md` with:
 6. **Model Comparison** - Notable differences in feedback between models
 7. **Raw Feedback Appendix** - Complete responses organized by round
 
-### 6.3 Updated Project Specification
+### 7.3 Updated Project Specification
 
 Create an updated `project_specification_v2.md` that incorporates evaluation findings:
 
@@ -387,33 +497,36 @@ Create an updated `project_specification_v2.md` that incorporates evaluation fin
 
 ---
 
-## 7. Execution Workflow
+## 8. Execution Workflow
 
-### 7.1 Pre-Execution Checklist
+### 8.1 Pre-Execution Checklist
 
 1. [ ] Verify OpenRouter API key is set in environment
 2. [ ] Configure EVALUATION_MODELS list with desired models
 3. [ ] Run API connectivity tests for each model
 4. [ ] Generate sample entry sets for each model
-5. [ ] Create output directories
+5. [ ] Format sample entries into human-readable text (see Section 4)
+6. [ ] Create output directories
 
-### 7.2 Execution Steps
+### 8.2 Execution Steps
 
 ```
 For each round (1-4):
     For each model:
         1. Load appropriate prompt template
         2. Insert context based on round number
-        3. Load entry sample for this model
-        4. Send evaluation request to model
-        5. Parse and save response
-        6. Update progress tracker
+        3. Load formatted entries for this model (from evaluation/formatted/)
+        4. Replace [FORMATTED_ENTRIES] placeholder in prompt
+        5. Send evaluation request to model
+        6. Parse and save response
+        7. Update progress tracker
 
     After all models complete:
         1. Generate round summary
         2. Review findings and create refinement notes
         3. Adjust prompts/samples for next round if needed
-        4. Prompt operator to review before proceeding
+        4. Re-format entries if sample changes are needed
+        5. Prompt operator to review before proceeding
 
 After all rounds:
     1. Generate consolidated report
@@ -421,7 +534,7 @@ After all rounds:
     3. Save all outputs
 ```
 
-### 7.3 Manual Intervention Points
+### 8.3 Manual Intervention Points
 
 The script should pause and request human review:
 - After Round 1 (to refine approach based on initial findings)
@@ -431,7 +544,7 @@ The script should pause and request human review:
 
 ---
 
-## 8. File Structure
+## 9. File Structure
 
 After execution, the repository should contain:
 
@@ -440,12 +553,18 @@ je-dict-1/
 ├── evaluation_spec.md          # This file
 ├── evaluation/                  # New directory for evaluation artifacts
 │   ├── scripts/
-│   │   ├── select_samples.py
-│   │   ├── run_evaluation.py
-│   │   └── generate_report.py
+│   │   ├── select_samples.py   # Generates sample entry lists per model
+│   │   ├── format_entries.py   # Converts JSON entries to readable format
+│   │   ├── run_evaluation.py   # Main evaluation orchestration script
+│   │   └── generate_report.py  # Consolidates results into final reports
 │   ├── samples/
-│   │   ├── model_1_samples.json
-│   │   ├── model_2_samples.json
+│   │   ├── model_1_samples.json    # Entry IDs for model 1
+│   │   ├── model_2_samples.json    # Entry IDs for model 2
+│   │   └── ...
+│   ├── formatted/                   # Human-readable formatted entries
+│   │   ├── model_1_round_1.txt     # Formatted entries for model 1, round 1
+│   │   ├── model_1_round_2.txt
+│   │   ├── model_2_round_1.txt
 │   │   └── ...
 │   ├── results/
 │   │   ├── round_1/
@@ -460,7 +579,7 @@ je-dict-1/
 
 ---
 
-## 9. Success Criteria
+## 10. Success Criteria
 
 The evaluation is successful if it produces:
 
@@ -472,17 +591,18 @@ The evaluation is successful if it produces:
 
 ---
 
-## 10. Notes for Claude Code
+## 11. Notes for Claude Code
 
-### 10.1 Key Reminders
+### 11.1 Key Reminders
 
+- **Format entries before evaluation** - Never send raw JSON to evaluating models; always use the human-readable format (see Section 4)
 - Test all API calls manually before automating
 - Save progress frequently to enable resume on failure
 - Do NOT mention that entries are AI-generated in prompts
 - Focus evaluation on content, not technical infrastructure
 - Pause for human review at designated intervention points
 
-### 10.2 Response Processing
+### 11.2 Response Processing
 
 When processing model responses:
 - Extract specific entry feedback and tag with entry IDs
@@ -490,7 +610,7 @@ When processing model responses:
 - Note any disagreements between models (valuable signal)
 - Flag any responses that seem off-topic or unhelpful
 
-### 10.3 Quality Checks
+### 11.3 Quality Checks
 
 Before finalizing outputs:
 - Verify all recommendations are actionable (not vague)
