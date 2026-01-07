@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-07T05:02:12.295813Z
+// Generated: 2026-01-07T05:10:46.148644Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -25696,4 +25696,4 @@ const DICTIONARY_INDEX = {
 }
 };
 
-const NEW_ENTRIES = [];
+const NEW_ENTRIES = ["karada_00094", "hana_00094", "ha_00094", "yubi_00094", "onaka_00094", "kubi_00094", "kata_00094", "senaka_00094", "ryoushin_00094", "sofu_00094", "sobo_00094", "ojisan_00094", "obasan_00094", "musuko_00094", "musume_00094", "jugyou_00094", "shukudai_00094", "kyoushitsu_00094", "shiken_00094", "mondai_00094", "kotae_00094", "benkyou_00094", "undou_00094", "gohan_00094", "gyuunyuu_00094", "ringo_00094", "koohii_00094", "kowareru_00094", "nureru_00094", "kawaku_00094", "sageru_00094", "sawaru_00094", "basu_00094", "takushii_00094", "fune_00094", "doa_00094", "niwa_00094", "ofuro_00094", "toire_00094", "kaidan_00094", "wakai_00094", "karui_00094", "omoi_00094", "kitanai_00094", "abunai_00094", "tanoshii_00094", "kanashii_00094", "ureshii_00094", "tsuyoi_00094", "yowai_00094", "hyaku_00094", "sen_00094", "man_00094", "en_00094", "kega_00094", "byouki_00094", "kusuri_00094", "seki_00094", "yakusoku_00094", "yotei_00094", "daijoubu_00094", "shinpai_00094", "tabun_00094", "hontou_00094", "mazu_00094", "tsugi_00094", "sugu_00094", "motto_00094"];
