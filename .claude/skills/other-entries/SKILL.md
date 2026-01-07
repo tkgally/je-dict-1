@@ -1,3 +1,8 @@
+---
+name: other-entries
+description: Requirements for creating nouns, counters, adverbs, and expressions in je-dict-1. Covers collocations, counting patterns, register, and cultural notes.
+---
+
 # Other Entry Types: Nouns, Counters, Adverbs, Expressions
 
 Guidelines for entry types not covered by verb, adjective, or particle skills.

@@ -1,3 +1,8 @@
+---
+name: particle-entry
+description: Requirements for creating or revising particle entries in je-dict-1. HIGH PRIORITY - covers predicate lists, particle contrasts, and fixed patterns.
+---
+
 # Particle Entry Requirements
 
 Particles are among the most important entries for intermediate learners. They require especially thorough explanations.

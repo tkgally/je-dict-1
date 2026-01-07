@@ -1,3 +1,8 @@
+---
+name: adjective-entry
+description: Requirements for creating or revising adjective entries in je-dict-1. Covers forms, conjugations, predicate vs modifier usage, and similar word distinctions.
+---
+
 # Adjective Entry Requirements
 
 When creating or revising ADJECTIVE entries (both i-adjectives and na-adjectives), include all of the following:

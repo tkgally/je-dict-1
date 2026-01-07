@@ -85,7 +85,7 @@ je-dict-1/
 ├── web/              # Web application source
 ├── docs/             # Generated output (served by GitHub Pages)
 ├── .claude/          # Claude Code configuration
-│   ├── commands/     # Slash commands (skills) for entry guidelines
+│   ├── skills/       # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
 ├── project_specification_v2.md  # Quality standards from LLM evaluation
 └── PROJECT_STATUS.md # Session continuity file
@@ -216,24 +216,26 @@ Files go in directories based on the first kana of the reading:
 
 ## For AI Assistants
 
-### Available Slash Commands
+### Available Skills
 
-The following skills are available in `.claude/commands/`:
+The following skills are available in `.claude/skills/` and will be automatically invoked by Claude Code when relevant:
 
-| Command | Purpose |
-|---------|---------|
-| `/entry-guidelines` | General quality standards for all entries |
-| `/verb-entry` | Requirements for verb entries (transitivity, aspect, collocations) |
-| `/adjective-entry` | Requirements for adjective entries (forms, conjugations) |
-| `/particle-entry` | Requirements for particle entries (predicate lists, contrasts) |
-| `/other-entries` | Requirements for nouns, counters, adverbs, expressions |
-| `/revise-entries` | Checklist for revising existing entries to v2 standards |
+| Skill | Purpose |
+|-------|---------|
+| `entry-guidelines` | General quality standards for all entries |
+| `verb-entry` | Requirements for verb entries (transitivity, aspect, collocations) |
+| `adjective-entry` | Requirements for adjective entries (forms, conjugations) |
+| `particle-entry` | Requirements for particle entries (predicate lists, contrasts) |
+| `other-entries` | Requirements for nouns, counters, adverbs, expressions |
+| `revise-entries` | Checklist for revising existing entries to v2 standards |
+
+Skills are automatically loaded when Claude determines they're relevant to the current task.
 
 ### Workflow for Creating/Editing Entries
 
 1. **Read PROJECT_STATUS.md** to understand current state
-2. **Invoke relevant skill** based on entry type (e.g., `/verb-entry`)
-3. **Follow the guidelines** in the skill output
+2. **Claude will automatically load relevant skills** based on the entry type being created/revised
+3. **Follow the guidelines** from the loaded skills
 4. **Validate entries** after creation: `python3 build/validate.py`
 5. **Place files correctly** based on the reading's first kana
 6. **Update PROJECT_STATUS.md** at the end of each session

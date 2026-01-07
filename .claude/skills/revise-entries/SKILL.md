@@ -1,3 +1,8 @@
+---
+name: revise-entries
+description: Checklist for revising existing je-dict-1 entries to v2 quality standards. Use when improving existing entries rather than creating new ones.
+---
+
 # Entry Revision Checklist
 
 Use this checklist when revising existing entries to bring them up to the v2 specification standards.

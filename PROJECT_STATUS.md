@@ -59,16 +59,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Claude Code Skills
 
-Available in `.claude/commands/`:
+Available in `.claude/skills/` (automatically loaded when relevant):
 
 | Skill | Use When |
 |-------|----------|
-| `/entry-guidelines` | Creating any entry |
-| `/verb-entry` | Creating/revising verb entries |
-| `/adjective-entry` | Creating/revising adjective entries |
-| `/particle-entry` | Creating/revising particle entries |
-| `/other-entries` | Creating nouns, counters, adverbs, expressions |
-| `/revise-entries` | Revising existing entries to v2 standards |
+| `entry-guidelines` | Creating any entry |
+| `verb-entry` | Creating/revising verb entries |
+| `adjective-entry` | Creating/revising adjective entries |
+| `particle-entry` | Creating/revising particle entries |
+| `other-entries` | Creating nouns, counters, adverbs, expressions |
+| `revise-entries` | Revising existing entries to v2 standards |
 
 ## Next Steps
 

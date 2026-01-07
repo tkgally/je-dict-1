@@ -1,3 +1,8 @@
+---
+name: entry-guidelines
+description: General quality standards for all je-dict-1 dictionary entries. Use when creating or revising any entry type.
+---
+
 # Dictionary Entry Quality Guidelines
 
 When creating or revising dictionary entries for je-dict-1, follow these quality standards:

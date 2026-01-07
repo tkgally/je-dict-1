@@ -1,3 +1,8 @@
+---
+name: verb-entry
+description: Requirements for creating or revising verb entries in je-dict-1. Covers transitivity, aspect/ている behavior, particle patterns, and collocations.
+---
+
 # Verb Entry Requirements
 
 When creating or revising VERB entries, include all of the following:
