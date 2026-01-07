@@ -1,7 +1,7 @@
 # je-dict-1 Project Status
 
 **Last updated**: 2026-01-07
-**Last session**: Session 8 - Added 80 new entries (700 total)
+**Last session**: Session 9 - Added 64 new entries (764 total)
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
@@ -27,11 +27,11 @@
 - [x] Claude Code auto-accept settings configured
 
 ### Content Status
-- **Total entries**: 700
-- **Verified entries**: 700
+- **Total entries**: 764
+- **Verified entries**: 764
 - **Draft entries**: 0
-- **Entries with furigana**: 700/700 (100% complete)
-- **N5 coverage**: ~700/800 words (~88%)
+- **Entries with furigana**: 764/764 (100% complete)
+- **N5 coverage**: ~764/800 words (~95%)
 - **N4 coverage**: 0/700 words (0%)
 
 ### Entry Breakdown by Type
@@ -76,19 +76,19 @@
 | 6 | 2026-01-07 | 100 | 519 |
 | 7 | 2026-01-07 | 101 | 620 |
 | 8 | 2026-01-07 | 80 | 700 |
+| 9 | 2026-01-07 | 64 | 764 |
 
-### Recent Changes (Session 8)
-1. Added 80 new unique N5 entries including:
-   - Common expressions (8): ittekimasu, itterasshai, tadaima, okaerinasai, yoroshiku, omedetou, ganbatte, kiwotsukete
-   - Clothing (11): shatsu, zubon, sukaato, waishatsu, uwagi, sebiro, nekutai, beruto, seetaa, kooto, tebukuro
-   - Food/Drinks (14): shouyu, miso, su, banana, orenji, budou, mikan, ichigo, suika, juusu, biiru, wain, osake, bentou
-   - Kitchen/Household (13): daidokoro, reizouko, renji, nabe, furaipan, chawan, hashi, naifu, kappu, bin, kan, suidou, gasu
-   - Buildings/Places (15): apaato, manshon, hoteru, ryokan, depaato, suupaa, konbini, resutoran, kissaten, shokudou, yakkyoku, koujou, jimusho, keisatsusho, eigakan
-   - Transportation (5): chikatetsu, shinkansen, noriba, teikiken, jikokuhyou
-   - School/Education (8): shougakkou, chuugakkou, koukou, seito, kurasu, kyoukasho, tesuto, gakki
-   - Work/Business (6): shachou, buchou, kachou, douryou, kyuuryou, zangyou
-2. Total entries increased from 620 to 700
-3. N5 coverage now at ~88%
+### Recent Changes (Session 9)
+1. Added 64 new unique N5 entries to complete N5 coverage:
+   - Work/Business (4): shucchou, meishi, shorui, mensetsu
+   - Verbs (13): oku, dasu, ireru, hakobu, naraberu, kaeru (変える), nakunaru, nakusu, shinjiru, tanomu, kotaeru, machigaeru, modoru
+   - I-Adjectives (14): katai, yawarakai, subarashii, hidoi, sugoi, itai, tsurai, hoshii, kibishii, kusai, utsukushii, sukunai, ooi, nai
+   - Na-Adjectives (10): yuumei, tokubetsu, shinsetsu, fukuzatsu, jiyuu, anzen, kiken, joubu, rippa, hen
+   - Adverbs (8): ichiban, kanari, taitei, sou, kou, aa, nantoka, betsuni
+   - Miscellaneous Essential Words (15): koto, mono, tokoro, hou, tame, hazu, tsumori, you, wake, imi, riyuu, setsumei, junbi, keikaku, keiken
+2. Total entries increased from 700 to 764
+3. N5 coverage now at ~95%
+4. Phase 1 (N5 vocabulary) essentially complete
 
 ## Furigana System
 
@@ -118,28 +118,22 @@ The sidebar now shows a red "New" tag next to recently added entries:
 
 ## Next Steps
 
-### Remaining N5 Vocabulary
-See **`N5_REMAINING_VOCABULARY.md`** for the remaining N5 words organized by category.
+### Phase 1 Complete!
+N5 vocabulary coverage is now at ~95% with 764 entries. The dictionary now covers the essential vocabulary for JLPT N5 level learners.
 
-### Session 9 (Next Session)
-1. **Clear new_entries.txt** at start of session (marks Session 8 entries as no longer new)
-2. **Add ~50 entries** from `N5_REMAINING_VOCABULARY.md`:
-   - Remaining work/business (4): shutchou, meishi, shorui, mensetsu
-   - Additional verbs (14): oku, dasu, ireru, hakobu, naraberu, kaeru, nakunaru, nakusu, shinjiru, tanomu, kotaeru, machigaeru, modoru, kaeru (to go home)
-   - Additional adjectives (14): katai, yawarakai, subarashii, hidoi, sugoi, itai, tsurai, hoshii, kibishii, kusai, utsukushii, sukunai, ooi, nai
-   - Na-adjectives (10): yuumei, tokubetsu, shinsetsu, fukuzatsu, jiyuu, anzen, kiken, joubu, rippa, hen
-   - Adverbs (8): ichiban, kanari, taitei, sou, kou, aa, nantoka, betsuni
-3. **Target**: Reach ~750 entries (~95% N5 coverage)
-
-### Session 10
-- Add miscellaneous essential words (15): koto, mono, tokoro, hou, tame, hazu, tsumori, you, wake, imi, riyuu, setsumei, junbi, keikaku, keiken
-- Complete Phase 1 (~750-800 entries, 95%+ N5 coverage)
-
-### After Phase 1 Completion
-- Reassess dictionary quality before moving to Phase 2 (N4)
-- Implement conjugation search (tabete -> taberu)
-- Add cross-references between related entries
-- Consider AI-assisted batch entry generation
+### Future Enhancements (Phase 2 and beyond)
+1. **Quality improvements**:
+   - Review and enhance existing entries
+   - Add more example sentences where needed
+   - Improve cross-references between related entries
+2. **Feature improvements**:
+   - Implement conjugation search (tabete -> taberu)
+   - Add audio pronunciations
+   - Implement spaced repetition study mode
+3. **N4 Vocabulary expansion** (Phase 2):
+   - Add ~700 N4 level words
+   - Focus on intermediate grammar patterns
+   - Include more complex vocabulary and usage notes
 
 ## Technical Notes
 
@@ -167,19 +161,19 @@ open docs/index.html
   - ga-row -> `/ka/`, ba-row -> `/ha/`, etc.
 
 ### ID Assignment
-Next available IDs by directory (after Session 8):
-- `/a/`: 00098
-- `/ka/`: 00099
-- `/sa/`: 00098
-- `/ta/`: 00098
-- `/na/`: 00098
-- `/ha/`: 00098
-- `/ma/`: 00098
-- `/ya/`: 00098
-- `/ra/`: 00098
-- `/wa/`: 00098
+Next available IDs by directory (after Session 9):
+- `/a/`: 00108
+- `/ka/`: 00111
+- `/sa/`: 00111
+- `/ta/`: 00107
+- `/na/`: 00104
+- `/ha/`: 00107
+- `/ma/`: 00104
+- `/ya/`: 00102
+- `/ra/`: 00101
+- `/wa/`: 00100
 
-Note: Use IDs >= 00098 for new entries in any directory to avoid conflicts (except `/ka/` which should use >= 00099).
+Note: Use IDs >= 00111 for new entries in any directory to avoid conflicts.
 
 ## Notes for AI Assistants
 
