@@ -8,61 +8,301 @@
     {
       "sense_number": 1,
       "gloss": "destination/direction marker",
-      "explanation": "Marks the destination or target of movement. Used with verbs like 行く (go), 来る (come), 帰る (return). 学校に行く (go to school)."
+      "explanation": "Marks the destination or target of movement. Used with verbs like {行|い}く (go), {来|く}る (come), {帰|かえ}る (return). {学校|がっこう}に{行|い}く (go to school)."
     },
     {
       "sense_number": 2,
       "gloss": "location of existence marker",
-      "explanation": "Marks where something exists or is located. Used with いる/ある (to be/exist). 猫が部屋にいる (The cat is in the room)."
+      "explanation": "Marks where something exists or is located. Used with いる/ある (to be/exist). {猫|ねこ}が{部屋|へや}にいる (The cat is in the room)."
     },
     {
       "sense_number": 3,
       "gloss": "time marker",
-      "explanation": "Marks specific points in time (dates, days, times). 三時に会いましょう (Let's meet at 3 o'clock), 月曜日に (on Monday)."
+      "explanation": "Marks specific points in time (dates, days, clock times). {三時|さんじ}に{会|あ}いましょう (Let's meet at 3 o'clock), {月曜日|げつようび}に (on Monday)."
     },
     {
       "sense_number": 4,
       "gloss": "indirect object marker",
-      "explanation": "Marks the recipient of an action—the person to/for whom something is done. 友達に本をあげた (I gave a book to my friend)."
+      "explanation": "Marks the recipient of an action—the person to/for whom something is done. {友達|ともだち}に{本|ほん}をあげた (I gave a book to my friend)."
     },
     {
       "sense_number": 5,
       "gloss": "purpose marker",
-      "explanation": "Marks the purpose of going somewhere, when followed by 行く/来る. Often with the masu-stem of verbs. 映画を見に行く (go to see a movie)."
+      "explanation": "Marks the purpose of going somewhere, when followed by {行|い}く/{来|く}る. Often with the masu-stem of verbs. {映画|えいが}を{見|み}に{行|い}く (go to see a movie)."
+    },
+    {
+      "sense_number": 6,
+      "gloss": "agent marker (passive/causative)",
+      "explanation": "Marks the agent in passive and causative constructions. {先生|せんせい}に{褒|ほ}められた (was praised by the teacher)."
+    }
+  ],
+  "predicates_requiring": {
+    "description": "Verbs that specifically require に",
+    "existence_verbs": [
+      {
+        "word": "いる",
+        "example": "{猫|ねこ}が{部屋|へや}にいる",
+        "meaning": "the cat is in the room"
+      },
+      {
+        "word": "ある",
+        "example": "{本|ほん}が{机|つくえ}の{上|うえ}にある",
+        "meaning": "the book is on the desk"
+      },
+      {
+        "word": "{住|す}む",
+        "example": "{東京|とうきょう}に{住|す}んでいる",
+        "meaning": "live in Tokyo"
+      }
+    ],
+    "motion_verbs": [
+      {
+        "word": "{行|い}く",
+        "example": "{学校|がっこう}に{行|い}く",
+        "meaning": "go to school"
+      },
+      {
+        "word": "{来|く}る",
+        "example": "{日本|にほん}に{来|く}る",
+        "meaning": "come to Japan"
+      },
+      {
+        "word": "{帰|かえ}る",
+        "example": "{家|いえ}に{帰|かえ}る",
+        "meaning": "return home"
+      },
+      {
+        "word": "{入|はい}る",
+        "example": "{部屋|へや}に{入|はい}る",
+        "meaning": "enter the room"
+      },
+      {
+        "word": "{乗|の}る",
+        "example": "{電車|でんしゃ}に{乗|の}る",
+        "meaning": "get on the train"
+      },
+      {
+        "word": "{着|つ}く",
+        "example": "{駅|えき}に{着|つ}く",
+        "meaning": "arrive at the station"
+      }
+    ],
+    "giving_receiving_verbs": [
+      {
+        "word": "あげる",
+        "example": "{友達|ともだち}にあげる",
+        "meaning": "give to a friend"
+      },
+      {
+        "word": "もらう",
+        "example": "{友達|ともだち}にもらう",
+        "meaning": "receive from a friend"
+      },
+      {
+        "word": "{教|おし}える",
+        "example": "{学生|がくせい}に{教|おし}える",
+        "meaning": "teach students"
+      },
+      {
+        "word": "{会|あ}う",
+        "example": "{友達|ともだち}に{会|あ}う",
+        "meaning": "meet a friend"
+      },
+      {
+        "word": "{電話|でんわ}する",
+        "example": "{母|はは}に{電話|でんわ}する",
+        "meaning": "call mother"
+      }
+    ]
+  },
+  "particle_contrasts": [
+    {
+      "particle": "で",
+      "explanation": "に marks location of EXISTENCE; で marks location of ACTION",
+      "examples": [
+        {
+          "ni_example": "{図書館|としょかん}に{本|ほん}がある",
+          "ni_english": "There are books in the library",
+          "ni_note": "に with existence (ある)"
+        },
+        {
+          "de_example": "{図書館|としょかん}で{勉強|べんきょう}する",
+          "de_english": "Study at the library",
+          "de_note": "で with action (勉強する)"
+        }
+      ],
+      "key_points": [
+        "に = where something EXISTS (いる/ある/{住|す}む)",
+        "で = where an ACTION takes place ({食|た}べる/{働|はたら}く/{勉強|べんきょう}する)",
+        "This is one of the most common particle confusions for learners"
+      ]
+    },
+    {
+      "particle": "へ",
+      "explanation": "Both mark direction, but に focuses on destination/arrival, へ on the direction of movement",
+      "examples": [
+        {
+          "ni_example": "{学校|がっこう}に{行|い}く",
+          "ni_english": "go to school (arriving there)",
+          "ni_note": "に emphasizes the destination"
+        },
+        {
+          "he_example": "{学校|がっこう}へ{行|い}く",
+          "he_english": "go toward school",
+          "he_note": "へ emphasizes the direction"
+        }
+      ],
+      "key_points": [
+        "に = destination (where you arrive)",
+        "へ = direction (which way you're heading)",
+        "In practice, they're often interchangeable with motion verbs",
+        "Only に can be used with いる/ある (existence)"
+      ]
+    }
+  ],
+  "time_expressions": {
+    "description": "に is used with specific times but not relative times",
+    "uses_ni": [
+      {
+        "example": "{三時|さんじ}に",
+        "meaning": "at 3 o'clock"
+      },
+      {
+        "example": "{月曜日|げつようび}に",
+        "meaning": "on Monday"
+      },
+      {
+        "example": "{七月|しちがつ}に",
+        "meaning": "in July"
+      },
+      {
+        "example": "{二〇二五年|にせんにじゅうごねん}に",
+        "meaning": "in 2025"
+      },
+      {
+        "example": "{朝|あさ}に",
+        "meaning": "in the morning"
+      }
+    ],
+    "no_ni": [
+      {
+        "example": "{今日|きょう}",
+        "meaning": "today (no に)"
+      },
+      {
+        "example": "{明日|あした}",
+        "meaning": "tomorrow (no に)"
+      },
+      {
+        "example": "{来週|らいしゅう}",
+        "meaning": "next week (no に)"
+      },
+      {
+        "example": "{毎日|まいにち}",
+        "meaning": "every day (no に)"
+      },
+      {
+        "example": "いつ",
+        "meaning": "when (no に)"
+      }
+    ],
+    "rule": "Use に with absolute/specific times; omit に with relative times (今日, 明日, 来週) and frequency words (毎日, いつも)"
+  },
+  "fixed_patterns": [
+    {
+      "pattern": "〜に{対|たい}して",
+      "meaning": "toward, against, regarding",
+      "example": "その{問題|もんだい}に{対|たい}して",
+      "example_english": "regarding that problem"
+    },
+    {
+      "pattern": "〜について",
+      "meaning": "about, concerning",
+      "example": "{日本|にほん}について{話|はな}す",
+      "example_english": "talk about Japan"
+    },
+    {
+      "pattern": "〜によると",
+      "meaning": "according to",
+      "example": "{天気予報|てんきよほう}によると",
+      "example_english": "according to the weather forecast"
+    },
+    {
+      "pattern": "〜にとって",
+      "meaning": "for, to (from someone's perspective)",
+      "example": "{私|わたし}にとって{大切|たいせつ}",
+      "example_english": "important to me"
+    },
+    {
+      "pattern": "〜ために",
+      "meaning": "for the purpose of, in order to",
+      "example": "{健康|けんこう}のために{運動|うんどう}する",
+      "example_english": "exercise for health"
+    },
+    {
+      "pattern": "Verb stem + に{行|い}く/{来|く}る",
+      "meaning": "go/come to do something",
+      "example": "{食|た}べに{行|い}く",
+      "example_english": "go to eat"
     }
   ],
   "examples": [
     {
-      "japanese": "東京に行きます。",
+      "japanese": "{東京|とうきょう}に{行|い}きます。",
       "english": "I will go to Tokyo.",
       "notes": "Destination"
     },
     {
-      "japanese": "机の上に本があります。",
+      "japanese": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
       "english": "There is a book on the desk.",
       "notes": "Location of existence"
     },
     {
-      "japanese": "七時に起きます。",
+      "japanese": "{七時|しちじ}に{起|お}きます。",
       "english": "I wake up at 7 o'clock.",
       "notes": "Specific time"
     },
     {
-      "japanese": "母にプレゼントをあげました。",
+      "japanese": "{母|はは}にプレゼントをあげました。",
       "english": "I gave a present to my mother.",
       "notes": "Indirect object/recipient"
     },
     {
-      "japanese": "買い物に行きます。",
+      "japanese": "{買|か}い{物|もの}に{行|い}きます。",
       "english": "I'm going shopping.",
-      "notes": "Purpose (買い物 = shopping)"
+      "notes": "Purpose ({買|か}い{物|もの} = shopping)"
+    },
+    {
+      "japanese": "{電車|でんしゃ}に{乗|の}ってください。",
+      "english": "Please get on the train.",
+      "notes": "に with {乗|の}る (board/get on)"
     }
   ],
-  "notes": "に is one of the most versatile particles in Japanese with many uses. Compare with へ (direction only, more abstract) and で (location of action). Key distinction: に marks where something EXISTS (いる/ある), while で marks where an ACTION takes place (食べる, 働く, etc.). Time expressions: use に with specific times (三時に) but not with relative times (今日, 明日, 来週).",
-  "cross_references": [],
+  "common_mistakes": [
+    {
+      "mistake": "Using で instead of に for existence",
+      "incorrect": "{猫|ねこ}が{部屋|へや}でいる",
+      "correct": "{猫|ねこ}が{部屋|へや}にいる",
+      "explanation": "Use に (not で) for location with いる/ある"
+    },
+    {
+      "mistake": "Using に instead of で for action location",
+      "incorrect": "{図書館|としょかん}に{勉強|べんきょう}する",
+      "correct": "{図書館|としょかん}で{勉強|べんきょう}する",
+      "explanation": "Use で (not に) for where actions take place"
+    },
+    {
+      "mistake": "Using に with relative time words",
+      "incorrect": "{明日|あした}に{会|あ}いましょう",
+      "correct": "{明日|あした}{会|あ}いましょう",
+      "explanation": "Don't use に with {今日|きょう}, {明日|あした}, {来週|らいしゅう}, etc."
+    }
+  ],
+  "notes": "に is one of the most versatile particles in Japanese with many uses. Compare with へ (direction only, more abstract) and で (location of action). Key distinction: に marks where something EXISTS (いる/ある), while で marks where an ACTION takes place ({食|た}べる, {働|はたら}く, etc.). Time expressions: use に with specific times ({三時|さんじ}に) but not with relative times ({今日|きょう}, {明日|あした}, {来週|らいしゅう}).",
+  "cross_references": ["de_00008", "wo_00001"],
   "metadata": {
     "created": "2026-01-05T10:00:00Z",
-    "modified": "2026-01-05T10:00:00Z",
+    "modified": "2026-01-07T10:00:00Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",

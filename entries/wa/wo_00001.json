@@ -4,50 +4,221 @@
   "reading": "を",
   "part_of_speech": "particle",
   "gloss": "direct object marker",
+  "pronunciation_note": "Pronounced 'o' in modern Japanese, though written with the kana を (wo)",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "direct object marker",
-      "explanation": "Marks the direct object of a transitive verb—the thing that receives the action. 本を読む (read a book), ご飯を食べる (eat rice/a meal)."
+      "explanation": "Marks the direct object of a transitive verb—the thing that receives the action. {本|ほん}を{読|よ}む (read a book), ご{飯|はん}を{食|た}べる (eat rice/a meal)."
     },
     {
       "sense_number": 2,
       "gloss": "space traversed marker",
-      "explanation": "Marks the space through which movement occurs with verbs of motion. 道を歩く (walk along the road), 空を飛ぶ (fly through the sky), 橋を渡る (cross the bridge)."
+      "explanation": "Marks the space through which movement occurs with verbs of motion. {道|みち}を{歩|ある}く (walk along the road), {空|そら}を{飛|と}ぶ (fly through the sky), {橋|はし}を{渡|わた}る (cross the bridge)."
     },
     {
       "sense_number": 3,
       "gloss": "point of departure marker",
-      "explanation": "Marks the starting point or place from which one leaves with verbs like 出る (leave), 卒業する (graduate from). 家を出る (leave the house), 大学を卒業する (graduate from university)."
+      "explanation": "Marks the starting point or place from which one leaves with verbs like {出|で}る (leave), {卒業|そつぎょう}する (graduate from). {家|いえ}を{出|で}る (leave the house), {大学|だいがく}を{卒業|そつぎょう}する (graduate from university)."
+    }
+  ],
+  "predicates_requiring": {
+    "description": "Common transitive verbs that take を for their object",
+    "verbs": [
+      {
+        "word": "{食|た}べる",
+        "example": "ご{飯|はん}を{食|た}べる",
+        "meaning": "eat food"
+      },
+      {
+        "word": "{飲|の}む",
+        "example": "{水|みず}を{飲|の}む",
+        "meaning": "drink water"
+      },
+      {
+        "word": "{読|よ}む",
+        "example": "{本|ほん}を{読|よ}む",
+        "meaning": "read a book"
+      },
+      {
+        "word": "{書|か}く",
+        "example": "{手紙|てがみ}を{書|か}く",
+        "meaning": "write a letter"
+      },
+      {
+        "word": "{見|み}る",
+        "example": "{映画|えいが}を{見|み}る",
+        "meaning": "watch a movie"
+      },
+      {
+        "word": "{聞|き}く",
+        "example": "{音楽|おんがく}を{聞|き}く",
+        "meaning": "listen to music"
+      },
+      {
+        "word": "{買|か}う",
+        "example": "{服|ふく}を{買|か}う",
+        "meaning": "buy clothes"
+      },
+      {
+        "word": "{作|つく}る",
+        "example": "{料理|りょうり}を{作|つく}る",
+        "meaning": "make food"
+      }
+    ],
+    "motion_verbs": [
+      {
+        "word": "{歩|ある}く",
+        "example": "{道|みち}を{歩|ある}く",
+        "meaning": "walk along the road"
+      },
+      {
+        "word": "{走|はし}る",
+        "example": "{公園|こうえん}を{走|はし}る",
+        "meaning": "run through the park"
+      },
+      {
+        "word": "{渡|わた}る",
+        "example": "{橋|はし}を{渡|わた}る",
+        "meaning": "cross the bridge"
+      },
+      {
+        "word": "{飛|と}ぶ",
+        "example": "{空|そら}を{飛|と}ぶ",
+        "meaning": "fly through the sky"
+      },
+      {
+        "word": "{曲|ま}がる",
+        "example": "{角|かど}を{曲|ま}がる",
+        "meaning": "turn the corner"
+      }
+    ],
+    "departure_verbs": [
+      {
+        "word": "{出|で}る",
+        "example": "{家|いえ}を{出|で}る",
+        "meaning": "leave the house"
+      },
+      {
+        "word": "{卒業|そつぎょう}する",
+        "example": "{大学|だいがく}を{卒業|そつぎょう}する",
+        "meaning": "graduate from university"
+      },
+      {
+        "word": "{降|お}りる",
+        "example": "{電車|でんしゃ}を{降|お}りる",
+        "meaning": "get off the train"
+      },
+      {
+        "word": "{離|はな}れる",
+        "example": "{故郷|こきょう}を{離|はな}れる",
+        "meaning": "leave one's hometown"
+      }
+    ]
+  },
+  "particle_contrasts": [
+    {
+      "particle": "が",
+      "explanation": "With potential verbs, が often replaces を (emphasizing ability rather than object)",
+      "examples": [
+        {
+          "wo_example": "{日本語|にほんご}を{話|はな}す",
+          "wo_english": "speak Japanese",
+          "wo_note": "を with regular verb (action focus)"
+        },
+        {
+          "ga_example": "{日本語|にほんご}が{話|はな}せる",
+          "ga_english": "can speak Japanese",
+          "ga_note": "が with potential form (ability focus)"
+        }
+      ],
+      "key_points": [
+        "Potential forms can take either が (ability) or を (object)",
+        "が emphasizes the ability; を emphasizes the object being acted upon",
+        "Some speakers prefer を with potential forms in modern Japanese"
+      ]
+    },
+    {
+      "particle": "に",
+      "explanation": "For verbs of motion, を marks the path traversed; に marks the destination",
+      "examples": [
+        {
+          "wo_example": "{公園|こうえん}を{歩|ある}く",
+          "wo_english": "walk through the park",
+          "wo_note": "を marks the space moved through"
+        },
+        {
+          "ni_example": "{公園|こうえん}に{行|い}く",
+          "ni_english": "go to the park",
+          "ni_note": "に marks the destination"
+        }
+      ],
+      "key_points": [
+        "を with motion verbs = path/space traversed",
+        "に with motion verbs = destination/endpoint"
+      ]
+    }
+  ],
+  "fixed_patterns": [
+    {
+      "pattern": "〜を{中心|ちゅうしん}に",
+      "meaning": "centered on, with... as the focus",
+      "example": "{東京|とうきょう}を{中心|ちゅうしん}に{活動|かつどう}する",
+      "example_english": "operate with Tokyo as the center"
+    },
+    {
+      "pattern": "〜を{通|とお}じて",
+      "meaning": "through, via",
+      "example": "{友達|ともだち}を{通|とお}じて{知|し}り{合|あ}った",
+      "example_english": "got to know each other through a friend"
     }
   ],
   "examples": [
     {
-      "japanese": "本を読みます。",
+      "japanese": "{本|ほん}を{読|よ}みます。",
       "english": "I read a book.",
       "notes": "Basic direct object usage"
     },
     {
-      "japanese": "コーヒーを飲みませんか。",
+      "japanese": "コーヒーを{飲|の}みませんか。",
       "english": "Would you like to drink coffee?",
-      "notes": null
+      "notes": "Invitation using direct object"
     },
     {
-      "japanese": "公園を散歩しました。",
+      "japanese": "{公園|こうえん}を{散歩|さんぽ}しました。",
       "english": "I took a walk through the park.",
       "notes": "を marking space traversed"
     },
     {
-      "japanese": "電車を降りる。",
+      "japanese": "{電車|でんしゃ}を{降|お}りる。",
       "english": "To get off the train.",
       "notes": "を marking point of departure"
+    },
+    {
+      "japanese": "{角|かど}を{右|みぎ}に{曲|ま}がってください。",
+      "english": "Please turn right at the corner.",
+      "notes": "を with motion verb ({曲|ま}がる)"
     }
   ],
-  "notes": "を is pronounced 'o' in modern Japanese, though it is written with the kana を (wo). This particle is exclusively used as a grammatical particle—it doesn't appear in any other words in modern Japanese. In casual speech, を is sometimes dropped: ご飯食べた (ate a meal).",
-  "cross_references": [],
+  "common_mistakes": [
+    {
+      "mistake": "Using を instead of が with predicates like {好|す}き, {分|わ}かる",
+      "incorrect": "{猫|ねこ}を{好|す}きです",
+      "correct": "{猫|ねこ}が{好|す}きです",
+      "explanation": "These predicates require が, not を"
+    },
+    {
+      "mistake": "Using に instead of を for path traversed",
+      "incorrect": "{道|みち}に{歩|ある}く",
+      "correct": "{道|みち}を{歩|ある}く",
+      "explanation": "When moving THROUGH a space, use を"
+    }
+  ],
+  "notes": "を is exclusively used as a grammatical particle—it doesn't appear in any other words in modern Japanese. In casual speech, を is sometimes dropped: ご{飯|はん}{食|た}べた (ate a meal). The three main uses are: (1) direct object, (2) space traversed with motion verbs, (3) point of departure with leaving verbs.",
+  "cross_references": ["ga_00001", "ni_00001"],
   "metadata": {
     "created": "2026-01-05T10:00:00Z",
-    "modified": "2026-01-05T10:00:00Z",
+    "modified": "2026-01-07T10:00:00Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",

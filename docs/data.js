@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-07T11:01:21.921511Z
+// Generated: 2026-01-07T12:53:17.586072Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -648,48 +648,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "ame_00092": {
-    "id": "ame_00092",
-    "headword": "{飴|あめ}",
-    "reading": "あめ",
-    "part_of_speech": "noun",
-    "gloss": "candy",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "candy, hard candy, sweets",
-        "explanation": "A sweet confection, typically hard candy made from sugar. Different from 雨 (ame, rain) which has the same pronunciation."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{飴|あめ}を{食|た}べますか。",
-        "english": "Do you want to eat some candy?",
-        "notes": null
-      },
-      {
-        "japanese": "{子|こ}どもに{飴|あめ}をあげました。",
-        "english": "I gave candy to the child.",
-        "notes": null
-      },
-      {
-        "japanese": "のどに{飴|あめ}がいいですよ。",
-        "english": "Candy is good for your throat.",
-        "notes": "Throat lozenges"
-      }
-    ],
-    "notes": "飴 is homophone with 雨 (rain), but they have different kanji. This 飴 refers to hard candy or sweets. For softer candy or chocolate, チョコレート or キャンディー might be used. 飴と鞭 (ame to muchi, 'carrot and stick' literally 'candy and whip') is a common expression.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "ame_00044": {
     "id": "ame_00044",
     "headword": "{雨|あめ}",
@@ -728,6 +686,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
       "modified": "2026-01-07T15:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "ame_00092": {
+    "id": "ame_00092",
+    "headword": "{飴|あめ}",
+    "reading": "あめ",
+    "part_of_speech": "noun",
+    "gloss": "candy",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "candy, hard candy, sweets",
+        "explanation": "A sweet confection, typically hard candy made from sugar. Different from 雨 (ame, rain) which has the same pronunciation."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{飴|あめ}を{食|た}べますか。",
+        "english": "Do you want to eat some candy?",
+        "notes": null
+      },
+      {
+        "japanese": "{子|こ}どもに{飴|あめ}をあげました。",
+        "english": "I gave candy to the child.",
+        "notes": null
+      },
+      {
+        "japanese": "のどに{飴|あめ}がいいですよ。",
+        "english": "Candy is good for your throat.",
+        "notes": "Throat lozenges"
+      }
+    ],
+    "notes": "飴 is homophone with 雨 (rain), but they have different kanji. This 飴 refers to hard candy or sweets. For softer candy or chocolate, チョコレート or キャンディー might be used. 飴と鞭 (ame to muchi, 'carrot and stick' literally 'candy and whip') is a common expression.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -3541,56 +3541,237 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "at, in (location of action)",
-        "explanation": "Marks the location where an action takes place. 学校で勉強する (study at school). Compare with に, which marks location of existence."
+        "explanation": "Marks the location where an action takes place. {学校|がっこう}で{勉強|べんきょう}する (study at school). Compare with に, which marks location of existence."
       },
       {
         "sense_number": 2,
         "gloss": "by, with (means/method)",
-        "explanation": "Indicates the means, tool, or method used to do something. バスで行く (go by bus), 日本語で話す (speak in Japanese)."
+        "explanation": "Indicates the means, tool, or method used to do something. バスで{行|い}く (go by bus), {日本語|にほんご}で{話|はな}す (speak in Japanese)."
       },
       {
         "sense_number": 3,
         "gloss": "made of (material)",
-        "explanation": "Indicates what something is made from. 木で作る (make from wood)."
+        "explanation": "Indicates what something is made from. {木|き}で{作|つく}る (make from wood)."
       },
       {
         "sense_number": 4,
         "gloss": "due to, because of (cause)",
-        "explanation": "Indicates the cause or reason. 病気で休む (absent due to illness)."
+        "explanation": "Indicates the cause or reason. {病気|びょうき}で{休|やす}む (absent due to illness)."
       },
       {
         "sense_number": 5,
         "gloss": "in, within (scope/limit)",
-        "explanation": "Sets a boundary or scope. 三人で (among three people), 一時間で (within an hour)."
+        "explanation": "Sets a boundary or scope. {三人|さんにん}で (among three people), {一時間|いちじかん}で (within an hour)."
+      },
+      {
+        "sense_number": 6,
+        "gloss": "at (age/situation)",
+        "explanation": "Marks the age or circumstance at which something happens. {二十歳|はたち}で{大学|だいがく}を{卒業|そつぎょう}した (graduated from university at 20)."
+      }
+    ],
+    "predicates_requiring": {
+      "description": "Action verbs take で for location (unlike existence verbs which take に)",
+      "common_actions": [
+        {
+          "word": "{勉強|べんきょう}する",
+          "example": "{図書館|としょかん}で{勉強|べんきょう}する",
+          "meaning": "study at the library"
+        },
+        {
+          "word": "{働|はたら}く",
+          "example": "{会社|かいしゃ}で{働|はたら}く",
+          "meaning": "work at a company"
+        },
+        {
+          "word": "{食|た}べる",
+          "example": "レストランで{食|た}べる",
+          "meaning": "eat at a restaurant"
+        },
+        {
+          "word": "{遊|あそ}ぶ",
+          "example": "{公園|こうえん}で{遊|あそ}ぶ",
+          "meaning": "play in the park"
+        },
+        {
+          "word": "{泳|およ}ぐ",
+          "example": "プールで{泳|およ}ぐ",
+          "meaning": "swim in the pool"
+        },
+        {
+          "word": "{買|か}う",
+          "example": "デパートで{買|か}う",
+          "meaning": "buy at a department store"
+        },
+        {
+          "word": "{会|あ}う",
+          "example": "{駅|えき}で{会|あ}う",
+          "meaning": "meet at the station"
+        }
+      ],
+      "means_transport": [
+        {
+          "word": "{行|い}く",
+          "example": "{電車|でんしゃ}で{行|い}く",
+          "meaning": "go by train"
+        },
+        {
+          "word": "{来|く}る",
+          "example": "バスで{来|く}る",
+          "meaning": "come by bus"
+        },
+        {
+          "word": "{帰|かえ}る",
+          "example": "タクシーで{帰|かえ}る",
+          "meaning": "return by taxi"
+        }
+      ],
+      "means_tool": [
+        {
+          "word": "{書|か}く",
+          "example": "ペンで{書|か}く",
+          "meaning": "write with a pen"
+        },
+        {
+          "word": "{切|き}る",
+          "example": "ナイフで{切|き}る",
+          "meaning": "cut with a knife"
+        },
+        {
+          "word": "{食|た}べる",
+          "example": "{箸|はし}で{食|た}べる",
+          "meaning": "eat with chopsticks"
+        }
+      ]
+    },
+    "particle_contrasts": [
+      {
+        "particle": "に",
+        "explanation": "で marks location of ACTION; に marks location of EXISTENCE",
+        "examples": [
+          {
+            "de_example": "{図書館|としょかん}で{勉強|べんきょう}する",
+            "de_english": "study at the library",
+            "de_note": "で with action ({勉強|べんきょう}する)"
+          },
+          {
+            "ni_example": "{図書館|としょかん}に{本|ほん}がある",
+            "ni_english": "there are books in the library",
+            "ni_note": "に with existence (ある)"
+          }
+        ],
+        "key_points": [
+          "で = where an ACTION takes place ({食|た}べる/{働|はたら}く/{勉強|べんきょう}する)",
+          "に = where something EXISTS (いる/ある/{住|す}む)",
+          "This is one of the most common particle confusions for learners"
+        ]
+      },
+      {
+        "particle": "を",
+        "explanation": "で can mark location while を marks the object",
+        "examples": [
+          {
+            "combined": "レストランで{寿司|すし}を{食|た}べる",
+            "english": "eat sushi at a restaurant",
+            "note": "で for location, を for object"
+          }
+        ],
+        "key_points": [
+          "Both can appear in the same sentence",
+          "で marks where; を marks what"
+        ]
+      }
+    ],
+    "fixed_patterns": [
+      {
+        "pattern": "〜でいい",
+        "meaning": "... is fine/okay",
+        "example": "これでいいですか",
+        "example_english": "Is this okay?"
+      },
+      {
+        "pattern": "〜で{有名|ゆうめい}",
+        "meaning": "famous for...",
+        "example": "{京都|きょうと}は{お寺|おてら}で{有名|ゆうめい}です",
+        "example_english": "Kyoto is famous for temples"
+      },
+      {
+        "pattern": "〜でも",
+        "meaning": "even with/at; something like",
+        "example": "コーヒーでも{飲|の}みませんか",
+        "example_english": "Would you like to have some coffee or something?"
+      },
+      {
+        "pattern": "{全部|ぜんぶ}で",
+        "meaning": "in total",
+        "example": "{全部|ぜんぶ}で{三千円|さんぜんえん}です",
+        "example_english": "It's 3000 yen in total"
+      },
+      {
+        "pattern": "〜で〜を{作|つく}る",
+        "meaning": "make... from/with...",
+        "example": "{木|き}で{机|つくえ}を{作|つく}る",
+        "example_english": "make a desk from wood"
       }
     ],
     "examples": [
       {
-        "japanese": "図書館で勉強します。",
+        "japanese": "{図書館|としょかん}で{勉強|べんきょう}します。",
         "english": "I study at the library.",
         "notes": "Location of action"
       },
       {
-        "japanese": "電車で行きましょう。",
+        "japanese": "{電車|でんしゃ}で{行|い}きましょう。",
         "english": "Let's go by train.",
         "notes": "Means of transportation"
       },
       {
-        "japanese": "英語で書いてください。",
+        "japanese": "{英語|えいご}で{書|か}いてください。",
         "english": "Please write in English.",
         "notes": "Language as a means"
       },
       {
-        "japanese": "風邪で学校を休みました。",
+        "japanese": "{風邪|かぜ}で{学校|がっこう}を{休|やす}みました。",
         "english": "I was absent from school due to a cold.",
         "notes": "Cause/reason"
+      },
+      {
+        "japanese": "{三人|さんにん}でこの{仕事|しごと}をしました。",
+        "english": "Three of us did this work.",
+        "notes": "Scope/limit (number of people)"
+      },
+      {
+        "japanese": "{箸|はし}で{食|た}べます。",
+        "english": "I eat with chopsticks.",
+        "notes": "Tool/instrument"
       }
     ],
-    "notes": "で vs に is crucial: で marks where actions happen (図書館で勉強する), while に marks where things exist (図書館に本がある) or destinations (図書館に行く). で is one of the most versatile particles, covering location, means, material, cause, and scope.",
-    "cross_references": [],
+    "common_mistakes": [
+      {
+        "mistake": "Using に instead of で for action location",
+        "incorrect": "{図書館|としょかん}に{勉強|べんきょう}する",
+        "correct": "{図書館|としょかん}で{勉強|べんきょう}する",
+        "explanation": "Use で (not に) for where actions take place"
+      },
+      {
+        "mistake": "Using で instead of に for existence",
+        "incorrect": "{猫|ねこ}が{部屋|へや}でいる",
+        "correct": "{猫|ねこ}が{部屋|へや}にいる",
+        "explanation": "Use に (not で) for location with いる/ある"
+      },
+      {
+        "mistake": "Using で instead of に for destination",
+        "incorrect": "{学校|がっこう}で{行|い}く",
+        "correct": "{学校|がっこう}に{行|い}く",
+        "explanation": "Use に for destination; で can mark means ({電車|でんしゃ}で{行|い}く)"
+      }
+    ],
+    "notes": "で vs に is crucial: で marks where actions happen ({図書館|としょかん}で{勉強|べんきょう}する), while に marks where things exist ({図書館|としょかん}に{本|ほん}がある) or destinations ({図書館|としょかん}に{行|い}く). で is one of the most versatile particles, covering location, means, material, cause, and scope.",
+    "cross_references": [
+      "ni_00001"
+    ],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -5199,7 +5380,7 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 2,
         "gloss": "object marker (with certain predicates)",
-        "explanation": "With certain verbs and adjectives expressing ability, desire, or emotion (できる, 分かる, 好き, 欲しい, etc.), が marks what would be the object in English. 日本語が分かる (I understand Japanese), 猫が好き (I like cats)."
+        "explanation": "With certain verbs and adjectives expressing ability, desire, or emotion (できる, {分|わ}かる, {好|す}き, {欲|ほ}しい, etc.), が marks what would be the object in English. {日本語|にほんご}が{分|わ}かる (I understand Japanese), {猫|ねこ}が{好|す}き (I like cats)."
       },
       {
         "sense_number": 3,
@@ -5207,33 +5388,194 @@ const DICTIONARY_DATA = {
         "explanation": "Connects two clauses with a contrastive or concessive meaning. Similar to 'but' or 'although' in English."
       }
     ],
+    "predicates_requiring": {
+      "description": "These predicates require が to mark what English treats as the object",
+      "verbs": [
+        {
+          "word": "できる",
+          "example": "{日本語|にほんご}ができる",
+          "meaning": "can do Japanese"
+        },
+        {
+          "word": "{分|わ}かる",
+          "example": "{意味|いみ}が{分|わ}かる",
+          "meaning": "understand the meaning"
+        },
+        {
+          "word": "{見|み}える",
+          "example": "{山|やま}が{見|み}える",
+          "meaning": "can see the mountain"
+        },
+        {
+          "word": "{聞|き}こえる",
+          "example": "{声|こえ}が{聞|き}こえる",
+          "meaning": "can hear a voice"
+        },
+        {
+          "word": "ある",
+          "example": "{本|ほん}がある",
+          "meaning": "there is a book"
+        },
+        {
+          "word": "いる",
+          "example": "{猫|ねこ}がいる",
+          "meaning": "there is a cat"
+        },
+        {
+          "word": "いる (need)",
+          "example": "{時間|じかん}がいる",
+          "meaning": "need time"
+        }
+      ],
+      "adjectives": [
+        {
+          "word": "{好|す}き",
+          "example": "{音楽|おんがく}が{好|す}き",
+          "meaning": "like music"
+        },
+        {
+          "word": "{嫌|きら}い",
+          "example": "{虫|むし}が{嫌|きら}い",
+          "meaning": "dislike bugs"
+        },
+        {
+          "word": "{欲|ほ}しい",
+          "example": "{水|みず}が{欲|ほ}しい",
+          "meaning": "want water"
+        },
+        {
+          "word": "{上手|じょうず}",
+          "example": "{料理|りょうり}が{上手|じょうず}",
+          "meaning": "good at cooking"
+        },
+        {
+          "word": "{下手|へた}",
+          "example": "{運転|うんてん}が{下手|へた}",
+          "meaning": "bad at driving"
+        },
+        {
+          "word": "{得意|とくい}",
+          "example": "{数学|すうがく}が{得意|とくい}",
+          "meaning": "strong at math"
+        },
+        {
+          "word": "{苦手|にがて}",
+          "example": "{英語|えいご}が{苦手|にがて}",
+          "meaning": "weak at English"
+        },
+        {
+          "word": "{怖|こわ}い",
+          "example": "{犬|いぬ}が{怖|こわ}い",
+          "meaning": "afraid of dogs"
+        }
+      ]
+    },
+    "particle_contrasts": [
+      {
+        "particle": "は",
+        "explanation": "が marks NEW information or identifies the subject; は marks the TOPIC (old/known information)",
+        "examples": [
+          {
+            "ga_example": "{誰|だれ}が{来|き}ましたか。→ {田中|たなか}さんが{来|き}ました。",
+            "ga_english": "Who came? → Tanaka came.",
+            "ga_note": "が marks new information in the answer"
+          },
+          {
+            "ha_example": "{田中|たなか}さんは{来|き}ましたか。→ はい、{来|き}ました。",
+            "ha_english": "Did Tanaka come? → Yes, [he] came.",
+            "ha_note": "は marks known topic"
+          }
+        ],
+        "key_points": [
+          "が introduces NEW information; は marks what is already KNOWN",
+          "Use が after question words: {誰|だれ}が, {何|なに}が, どれが",
+          "Use が in subordinate/relative clauses",
+          "Certain predicates require が for their 'object' ({好|す}き, {分|わ}かる, できる, {欲|ほ}しい)"
+        ]
+      },
+      {
+        "particle": "を",
+        "explanation": "With potential verbs, が often replaces を",
+        "examples": [
+          {
+            "ga_example": "{日本語|にほんご}が{話|はな}せる",
+            "ga_english": "can speak Japanese",
+            "ga_note": "が with potential form (ability focus)"
+          },
+          {
+            "wo_example": "{日本語|にほんご}を{話|はな}す",
+            "wo_english": "speak Japanese",
+            "wo_note": "を with non-potential (action focus)"
+          }
+        ],
+        "key_points": [
+          "Potential verbs often take が (ability focus) or を (object focus)",
+          "Both are grammatically correct with potential verbs, but が emphasizes ability"
+        ]
+      }
+    ],
+    "fixed_patterns": [
+      {
+        "pattern": "〜が〜ほど",
+        "meaning": "the more... the more...",
+        "example": "{練習|れんしゅう}すればするほど、{上手|じょうず}になる",
+        "example_english": "The more you practice, the better you get"
+      },
+      {
+        "pattern": "〜がする",
+        "meaning": "to sense/perceive (smell, taste, sound)",
+        "example": "いい{匂|にお}いがする",
+        "example_english": "It smells good"
+      }
+    ],
     "examples": [
       {
-        "japanese": "誰が来ましたか。田中さんが来ました。",
+        "japanese": "{誰|だれ}が{来|き}ましたか。{田中|たなか}さんが{来|き}ました。",
         "english": "Who came? Tanaka-san came.",
         "notes": "が identifies the subject in a 'who' question and answer"
       },
       {
-        "japanese": "日本語が分かりますか。",
+        "japanese": "{日本語|にほんご}が{分|わ}かりますか。",
         "english": "Do you understand Japanese?",
-        "notes": "が with 分かる (understand)"
+        "notes": "が with {分|わ}かる (understand)"
       },
       {
-        "japanese": "猫が好きです。",
+        "japanese": "{猫|ねこ}が{好|す}きです。",
         "english": "I like cats.",
-        "notes": "が with 好き (like)"
+        "notes": "が with {好|す}き (like)"
       },
       {
-        "japanese": "行きたいですが、時間がありません。",
+        "japanese": "{行|い}きたいですが、{時間|じかん}がありません。",
         "english": "I want to go, but I don't have time.",
         "notes": "が as a conjunction meaning 'but'"
+      },
+      {
+        "japanese": "{私|わたし}が{行|い}きます。",
+        "english": "I'll go. (I'm the one who'll go)",
+        "notes": "Exhaustive-listing が: emphasizes 'I' as the one (not others)"
       }
     ],
-    "notes": "The は vs. が distinction is notoriously difficult for learners. Key differences: (1) が introduces new information, は marks known/topical information; (2) が is used in subordinate clauses; (3) が is used after question words (誰が, 何が); (4) certain predicates require が for their 'object' (好き, 分かる, できる, 欲しい, etc.).",
-    "cross_references": [],
+    "common_mistakes": [
+      {
+        "mistake": "Using は instead of が after question words",
+        "incorrect": "{誰|だれ}は{来|き}ましたか",
+        "correct": "{誰|だれ}が{来|き}ましたか",
+        "explanation": "Question words like {誰|だれ}, {何|なに}, どれ always take が"
+      },
+      {
+        "mistake": "Using を instead of が with {好|す}き, {分|わ}かる, etc.",
+        "incorrect": "{猫|ねこ}を{好|す}きです",
+        "correct": "{猫|ねこ}が{好|す}きです",
+        "explanation": "These predicates require が for the 'object'"
+      }
+    ],
+    "notes": "The は vs. が distinction is notoriously difficult for learners. Key differences: (1) が introduces new information, は marks known/topical information; (2) が is used in subordinate clauses; (3) が is used after question words ({誰|だれ}が, {何|なに}が); (4) certain predicates require が for their 'object' ({好|す}き, {分|わ}かる, できる, {欲|ほ}しい, etc.).",
+    "cross_references": [
+      "ha_00001"
+    ],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -5752,6 +6094,53 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "gohan_00094": {
+    "id": "gohan_00094",
+    "headword": "ご{飯|はん}",
+    "reading": "ごはん",
+    "part_of_speech": "noun",
+    "gloss": "rice; meal",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "cooked rice",
+        "explanation": "Steamed white rice, the staple food of Japan. Served with most Japanese meals."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "meal, food",
+        "explanation": "More broadly refers to a meal or food in general. Often used to mean breakfast, lunch, or dinner."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "ご{飯|はん}を{食|た}べましたか。",
+        "english": "Have you eaten (a meal)?",
+        "notes": "Common greeting to check if someone has eaten"
+      },
+      {
+        "japanese": "{朝|あさ}ご{飯|はん}は{何|なに}を{食|た}べましたか。",
+        "english": "What did you eat for breakfast?",
+        "notes": null
+      },
+      {
+        "japanese": "ご{飯|はん}を{炊|た}きました。",
+        "english": "I cooked rice.",
+        "notes": null
+      }
+    ],
+    "notes": "ご{飯|はん} has the honorific prefix ご and is the polite way to say 'rice' or 'meal'. {朝|あさ}ご{飯|はん} (breakfast), {昼|ひる}ご{飯|はん} (lunch), and {晩|ばん}ご{飯|はん}/{夜|よる}ご{飯|はん} (dinner) are common compounds. {飯|めし} is the casual/masculine form.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "gohan_00023": {
     "id": "gohan_00023",
     "headword": "ごはん",
@@ -5794,53 +6183,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
       "modified": "2026-01-07T14:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "gohan_00094": {
-    "id": "gohan_00094",
-    "headword": "ご{飯|はん}",
-    "reading": "ごはん",
-    "part_of_speech": "noun",
-    "gloss": "rice; meal",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "cooked rice",
-        "explanation": "Steamed white rice, the staple food of Japan. Served with most Japanese meals."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "meal, food",
-        "explanation": "More broadly refers to a meal or food in general. Often used to mean breakfast, lunch, or dinner."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "ご{飯|はん}を{食|た}べましたか。",
-        "english": "Have you eaten (a meal)?",
-        "notes": "Common greeting to check if someone has eaten"
-      },
-      {
-        "japanese": "{朝|あさ}ご{飯|はん}は{何|なに}を{食|た}べましたか。",
-        "english": "What did you eat for breakfast?",
-        "notes": null
-      },
-      {
-        "japanese": "ご{飯|はん}を{炊|た}きました。",
-        "english": "I cooked rice.",
-        "notes": null
-      }
-    ],
-    "notes": "ご{飯|はん} has the honorific prefix ご and is the polite way to say 'rice' or 'meal'. {朝|あさ}ご{飯|はん} (breakfast), {昼|ひる}ご{飯|はん} (lunch), and {晩|ばん}ご{飯|はん}/{夜|よる}ご{飯|はん} (dinner) are common compounds. {飯|めし} is the casual/masculine form.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -6102,58 +6444,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "ha_00001": {
-    "id": "ha_00001",
-    "headword": "は",
-    "reading": "は",
-    "part_of_speech": "particle",
-    "gloss": "topic marker",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "topic marker",
-        "explanation": "Marks the topic of a sentence—what the sentence is about. The topic is often (but not always) the grammatical subject. は sets up what the speaker wants to comment on, and the rest of the sentence provides information about that topic."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "contrast marker",
-        "explanation": "Indicates contrast with something else, either stated or implied. When は is used on an element that would normally take a different particle (like を or に), it often adds a contrastive nuance: 'as for X (as opposed to something else)...'"
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "私は学生です。",
-        "english": "I am a student.",
-        "notes": "私 is the topic; the sentence tells us something about 私"
-      },
-      {
-        "japanese": "この本は面白いです。",
-        "english": "This book is interesting.",
-        "notes": "この本 is the topic being described"
-      },
-      {
-        "japanese": "魚は食べますが、肉は食べません。",
-        "english": "I eat fish, but I don't eat meat.",
-        "notes": "Contrastive は: comparing fish and meat"
-      },
-      {
-        "japanese": "東京には行きましたが、大阪には行きませんでした。",
-        "english": "I went to Tokyo, but I didn't go to Osaka.",
-        "notes": "は replacing に to show contrast between destinations"
-      }
-    ],
-    "notes": "は is pronounced 'wa' when used as a particle, not 'ha'. This is one of the most important particles in Japanese. The difference between は (topic) and が (subject) is one of the most challenging aspects for learners. Generally: は marks old/known information or the topic of discussion; が marks new information or identifies the subject when making a neutral description or answering 'who/what' questions.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "ha_00094": {
     "id": "ha_00094",
     "headword": "{歯|は}",
@@ -6189,6 +6479,156 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "ha_00001": {
+    "id": "ha_00001",
+    "headword": "は",
+    "reading": "は",
+    "part_of_speech": "particle",
+    "gloss": "topic marker",
+    "pronunciation_note": "Pronounced 'wa' when used as a particle, not 'ha'",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "topic marker",
+        "explanation": "Marks the topic of a sentence—what the sentence is about. The topic is often (but not always) the grammatical subject. は sets up what the speaker wants to comment on, and the rest of the sentence provides information about that topic."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "contrast marker",
+        "explanation": "Indicates contrast with something else, either stated or implied. When は is used on an element that would normally take a different particle (like を or に), it often adds a contrastive nuance: 'as for X (as opposed to something else)...'"
+      }
+    ],
+    "particle_contrasts": [
+      {
+        "particle": "が",
+        "explanation": "は marks the TOPIC (known information); が marks NEW information or identifies the subject",
+        "examples": [
+          {
+            "ha_example": "{田中|たなか}さんは{来|き}ましたか。→ はい、{来|き}ました。",
+            "ha_english": "Did Tanaka come? → Yes, [he] came.",
+            "ha_note": "は marks known topic—we're asking about Tanaka specifically"
+          },
+          {
+            "ga_example": "{誰|だれ}が{来|き}ましたか。→ {田中|たなか}さんが{来|き}ました。",
+            "ga_english": "Who came? → Tanaka came.",
+            "ga_note": "が marks new information in the answer"
+          }
+        ],
+        "key_points": [
+          "は marks OLD/KNOWN information (topic); が marks NEW information",
+          "In 'who/what' questions, the answer uses が (new info)",
+          "In yes/no questions about someone, use は (known topic)",
+          "が is used in subordinate clauses, not は"
+        ]
+      }
+    ],
+    "information_structure": {
+      "description": "Understanding new vs. old information is key to は/が",
+      "principles": [
+        {
+          "point": "は marks what is already known or established in context",
+          "example": "{私|わたし}は{学生|がくせい}です",
+          "explanation": "The speaker is known; we're providing new info about them"
+        },
+        {
+          "point": "が introduces new information or identifies",
+          "example": "あ、{雨|あめ}が{降|ふ}っている",
+          "explanation": "Noticing something new—the rain"
+        },
+        {
+          "point": "Contrastive は implies 'but others...'",
+          "example": "{肉|にく}は{食|た}べます（が、{魚|さかな}は{食|た}べません）",
+          "explanation": "As for meat, I eat [it] (but as for fish, I don't)"
+        }
+      ]
+    },
+    "fixed_patterns": [
+      {
+        "pattern": "〜は〜が",
+        "meaning": "double-subject construction (topic + specific attribute)",
+        "example": "{象|ぞう}は{鼻|はな}が{長|なが}い",
+        "example_english": "As for elephants, their noses are long"
+      },
+      {
+        "pattern": "〜ではない / 〜じゃない",
+        "meaning": "is not (copula negative)",
+        "example": "{学生|がくせい}ではありません",
+        "example_english": "[I] am not a student"
+      },
+      {
+        "pattern": "〜はずがない",
+        "meaning": "there's no way that...",
+        "example": "そんなはずがない",
+        "example_english": "That can't be right"
+      },
+      {
+        "pattern": "〜は〜ほど〜ない",
+        "meaning": "not as... as...",
+        "example": "{今日|きょう}は{昨日|きのう}ほど{暑|あつ}くない",
+        "example_english": "Today is not as hot as yesterday"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{私|わたし}は{学生|がくせい}です。",
+        "english": "I am a student.",
+        "notes": "{私|わたし} is the topic; the sentence tells us something about {私|わたし}"
+      },
+      {
+        "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
+        "english": "This book is interesting.",
+        "notes": "この{本|ほん} is the topic being described"
+      },
+      {
+        "japanese": "{魚|さかな}は{食|た}べますが、{肉|にく}は{食|た}べません。",
+        "english": "I eat fish, but I don't eat meat.",
+        "notes": "Contrastive は: comparing fish and meat"
+      },
+      {
+        "japanese": "{東京|とうきょう}には{行|い}きましたが、{大阪|おおさか}には{行|い}きませんでした。",
+        "english": "I went to Tokyo, but I didn't go to Osaka.",
+        "notes": "は replacing に to show contrast between destinations"
+      },
+      {
+        "japanese": "{象|ぞう}は{鼻|はな}が{長|なが}い。",
+        "english": "Elephants have long trunks. (lit: As for elephants, [their] trunks are long.)",
+        "notes": "Double-subject construction: topic は + subject が"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "mistake": "Using は after question words",
+        "incorrect": "{誰|だれ}は{来|き}ましたか",
+        "correct": "{誰|だれ}が{来|き}ましたか",
+        "explanation": "Question words ({誰|だれ}, {何|なに}, どれ) take が, not は"
+      },
+      {
+        "mistake": "Using は in subordinate clauses",
+        "incorrect": "{田中|たなか}さんは{買|か}った{本|ほん}",
+        "correct": "{田中|たなか}さんが{買|か}った{本|ほん}",
+        "explanation": "Use が (not は) for subjects inside relative clauses"
+      },
+      {
+        "mistake": "Overusing は for every subject",
+        "incorrect": "{窓|まど}から{鳥|とり}は{見|み}えます",
+        "correct": "{窓|まど}から{鳥|とり}が{見|み}えます",
+        "explanation": "When describing what you notice/perceive, use が"
+      }
+    ],
+    "notes": "は is pronounced 'wa' when used as a particle, not 'ha'. This is one of the most important particles in Japanese. The difference between は (topic) and が (subject) is one of the most challenging aspects for learners. Generally: は marks old/known information or the topic of discussion; が marks new information or identifies the subject when making a neutral description or answering 'who/what' questions.",
+    "cross_references": [
+      "ga_00001"
+    ],
+    "metadata": {
+      "created": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -7012,48 +7452,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "hashi_00096": {
-    "id": "hashi_00096",
-    "headword": "{端|はし}",
-    "reading": "はし",
-    "part_of_speech": "noun",
-    "gloss": "edge, end",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "edge, end, tip",
-        "explanation": "The outermost part or boundary of something."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "テーブルの{端|はし}に{座|すわ}ってください。",
-        "english": "Please sit at the end of the table.",
-        "notes": null
-      },
-      {
-        "japanese": "{紙|かみ}の{端|はし}に{名前|なまえ}を{書|か}いてください。",
-        "english": "Please write your name at the edge of the paper.",
-        "notes": null
-      },
-      {
-        "japanese": "{道|みち}の{端|はし}を{歩|ある}いてください。",
-        "english": "Please walk on the edge of the road.",
-        "notes": null
-      }
-    ],
-    "notes": "{端|はし} refers to the outermost edge or end of something. Don't confuse this with {橋|はし} (bridge) or {箸|はし} (chopsticks) - all three are pronounced 'hashi' but have different kanji and pitch accents. [noun]の{端|はし} means 'the edge/end of [noun].'",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "hashi_00097": {
     "id": "hashi_00097",
     "headword": "{箸|はし}",
@@ -7085,6 +7483,48 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "箸 are essential eating utensils in Japan. お箸 is the polite form. 割り箸 (わりばし) are disposable wooden chopsticks. There are many chopstick etiquette rules in Japan, such as never sticking chopsticks upright in rice (associated with funerals).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "hashi_00096": {
+    "id": "hashi_00096",
+    "headword": "{端|はし}",
+    "reading": "はし",
+    "part_of_speech": "noun",
+    "gloss": "edge, end",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "edge, end, tip",
+        "explanation": "The outermost part or boundary of something."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "テーブルの{端|はし}に{座|すわ}ってください。",
+        "english": "Please sit at the end of the table.",
+        "notes": null
+      },
+      {
+        "japanese": "{紙|かみ}の{端|はし}に{名前|なまえ}を{書|か}いてください。",
+        "english": "Please write your name at the edge of the paper.",
+        "notes": null
+      },
+      {
+        "japanese": "{道|みち}の{端|はし}を{歩|ある}いてください。",
+        "english": "Please walk on the edge of the road.",
+        "notes": null
+      }
+    ],
+    "notes": "{端|はし} refers to the outermost edge or end of something. Don't confuse this with {橋|はし} (bridge) or {箸|はし} (chopsticks) - all three are pronounced 'hashi' but have different kanji and pitch accents. [noun]の{端|はし} means 'the edge/end of [noun].'",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -8254,48 +8694,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "hon_00092": {
-    "id": "hon_00092",
-    "headword": "〜{本|ほん}",
-    "reading": "ほん",
-    "part_of_speech": "counter",
-    "gloss": "counter for long objects",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "counter for long, cylindrical objects",
-        "explanation": "Used to count long, thin objects such as pencils, bottles, umbrellas, bananas, roads, and train lines."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "ペンが{三本|さんぼん}あります。",
-        "english": "There are three pens.",
-        "notes": null
-      },
-      {
-        "japanese": "{傘|かさ}を{一本|いっぽん}ください。",
-        "english": "One umbrella, please.",
-        "notes": null
-      },
-      {
-        "japanese": "バナナを{何本|なんぼん}{食|た}べましたか。",
-        "english": "How many bananas did you eat?",
-        "notes": null
-      }
-    ],
-    "notes": "〜本 is used for long, cylindrical objects. Sound changes occur: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん), 四本 (よんほん), 五本 (ごほん), 六本 (ろっぽん), 七本 (ななほん), 八本 (はっぽん/はちほん), 九本 (きゅうほん), 十本 (じゅっぽん). Note: after 1, 6, 8, 10 → ぽん; after 3 → ぼん.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "hon_00001": {
     "id": "hon_00001",
     "headword": "{本|ほん}",
@@ -8331,6 +8729,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
       "modified": "2026-01-06T22:30:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "hon_00092": {
+    "id": "hon_00092",
+    "headword": "〜{本|ほん}",
+    "reading": "ほん",
+    "part_of_speech": "counter",
+    "gloss": "counter for long objects",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "counter for long, cylindrical objects",
+        "explanation": "Used to count long, thin objects such as pencils, bottles, umbrellas, bananas, roads, and train lines."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "ペンが{三本|さんぼん}あります。",
+        "english": "There are three pens.",
+        "notes": null
+      },
+      {
+        "japanese": "{傘|かさ}を{一本|いっぽん}ください。",
+        "english": "One umbrella, please.",
+        "notes": null
+      },
+      {
+        "japanese": "バナナを{何本|なんぼん}{食|た}べましたか。",
+        "english": "How many bananas did you eat?",
+        "notes": null
+      }
+    ],
+    "notes": "〜本 is used for long, cylindrical objects. Sound changes occur: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん), 四本 (よんほん), 五本 (ごほん), 六本 (ろっぽん), 七本 (ななほん), 八本 (はっぽん/はちほん), 九本 (きゅうほん), 十本 (じゅっぽん). Note: after 1, 6, 8, 10 → ぽん; after 3 → ぼん.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -11109,6 +11549,50 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "kaeru_00009": {
+    "id": "kaeru_00009",
+    "headword": "{帰|かえ}る",
+    "reading": "かえる",
+    "part_of_speech": "verb (godan)",
+    "gloss": "to return, to go home",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to return home, to go back",
+        "explanation": "To go back to one's home, country, or original location. The destination is typically a place one belongs to or comes from."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{何時|なんじ}に{家|いえ}に{帰|かえ}りますか？",
+        "english": "What time do you go home?",
+        "notes": null
+      },
+      {
+        "japanese": "{来年|らいねん}、{国|くに}に{帰|かえ}ります。",
+        "english": "I will return to my country next year.",
+        "notes": null
+      },
+      {
+        "japanese": "もう{帰|かえ}りたいです。",
+        "english": "I want to go home now.",
+        "notes": null
+      }
+    ],
+    "notes": "A godan verb ending in る. Te-form is {帰|かえ}って. Distinguished from {戻|もど}る (modoru, to return to a previous place/state). {帰|かえ}る specifically implies returning to a place of belonging. Related: {帰|かえ}り (the return trip), お{帰|かえ}りなさい (welcome home).",
+    "cross_references": [
+      "iku_00001"
+    ],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "kaeru_00099": {
     "id": "kaeru_00099",
     "headword": "{変|か}える",
@@ -11146,50 +11630,6 @@ const DICTIONARY_DATA = {
     ],
     "notes": "変える conjugates as an ichidan verb: 変えない (negative), 変えて (te-form), 変えた (past). Note: This is different from 帰る (かえる - to go home), which is a godan verb. The intransitive counterpart is 変わる (かわる - to change by itself).",
     "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "kaeru_00009": {
-    "id": "kaeru_00009",
-    "headword": "{帰|かえ}る",
-    "reading": "かえる",
-    "part_of_speech": "verb (godan)",
-    "gloss": "to return, to go home",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to return home, to go back",
-        "explanation": "To go back to one's home, country, or original location. The destination is typically a place one belongs to or comes from."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{何時|なんじ}に{家|いえ}に{帰|かえ}りますか？",
-        "english": "What time do you go home?",
-        "notes": null
-      },
-      {
-        "japanese": "{来年|らいねん}、{国|くに}に{帰|かえ}ります。",
-        "english": "I will return to my country next year.",
-        "notes": null
-      },
-      {
-        "japanese": "もう{帰|かえ}りたいです。",
-        "english": "I want to go home now.",
-        "notes": null
-      }
-    ],
-    "notes": "A godan verb ending in る. Te-form is {帰|かえ}って. Distinguished from {戻|もど}る (modoru, to return to a previous place/state). {帰|かえ}る specifically implies returning to a place of belonging. Related: {帰|かえ}り (the return trip), お{帰|かえ}りなさい (welcome home).",
-    "cross_references": [
-      "iku_00001"
-    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -11289,48 +11729,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "kai_00097": {
-    "id": "kai_00097",
-    "headword": "{階|かい}",
-    "reading": "かい",
-    "part_of_speech": "counter",
-    "gloss": "floors, stories",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "floors, stories (of a building)",
-        "explanation": "A counter for floors or stories of a building."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{私|わたし}の{部屋|へや}は{五|ご}{階|かい}です。",
-        "english": "My room is on the fifth floor.",
-        "notes": null
-      },
-      {
-        "japanese": "このビルは{何|なん}{階|かい}ありますか。",
-        "english": "How many floors does this building have?",
-        "notes": null
-      },
-      {
-        "japanese": "{一|いっ}{階|かい}にトイレがあります。",
-        "english": "There is a restroom on the first floor.",
-        "notes": "いっかい with small っ"
-      }
-    ],
-    "notes": "{階|かい} counts building floors. Note the irregular readings: {一|いっ}{階|かい} (first floor - with っ), {三|さん}{階|がい} (third floor - voiced が), {何|なん}{階|がい} (what floor - voiced が). The first floor in Japan (1階) corresponds to the ground floor in British English. Unlike American English, there is no 'ground floor' and 'first floor' distinction.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "kai_00096": {
     "id": "kai_00096",
     "headword": "{回|かい}",
@@ -11362,6 +11760,48 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{回|かい} is used to count occurrences or times. Common expressions include {一|いっ}{回|かい} (once - note the small っ), {二|に}{回|かい} (twice), {三|さん}{回|かい} (three times), {何|なん}{回|かい} (how many times). Note that 一回 is read いっかい (with gemination), not いちかい.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "kai_00097": {
+    "id": "kai_00097",
+    "headword": "{階|かい}",
+    "reading": "かい",
+    "part_of_speech": "counter",
+    "gloss": "floors, stories",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "floors, stories (of a building)",
+        "explanation": "A counter for floors or stories of a building."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{私|わたし}の{部屋|へや}は{五|ご}{階|かい}です。",
+        "english": "My room is on the fifth floor.",
+        "notes": null
+      },
+      {
+        "japanese": "このビルは{何|なん}{階|かい}ありますか。",
+        "english": "How many floors does this building have?",
+        "notes": null
+      },
+      {
+        "japanese": "{一|いっ}{階|かい}にトイレがあります。",
+        "english": "There is a restroom on the first floor.",
+        "notes": "いっかい with small っ"
+      }
+    ],
+    "notes": "{階|かい} counts building floors. Note the irregular readings: {一|いっ}{階|かい} (first floor - with っ), {三|さん}{階|がい} (third floor - voiced が), {何|なん}{階|がい} (what floor - voiced が). The first floor in Japan (1階) corresponds to the ground floor in British English. Unlike American English, there is no 'ground floor' and 'first floor' distinction.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -12175,46 +12615,196 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "from (starting point)",
-        "explanation": "Marks the starting point in space or time. 東京から来ました (came from Tokyo), 九時から (from 9 o'clock)."
+        "explanation": "Marks the starting point in space or time. {東京|とうきょう}から{来|き}ました (came from Tokyo), {九時|くじ}から (from 9 o'clock)."
       },
       {
         "sense_number": 2,
         "gloss": "because, since (reason)",
-        "explanation": "Connects clauses to give a reason. Placed after the reason clause. 暑いから窓を開けた (opened the window because it's hot)."
+        "explanation": "Connects clauses to give a reason. Placed after the reason clause. {暑|あつ}いから{窓|まど}を{開|あ}けた (opened the window because it's hot)."
       },
       {
         "sense_number": 3,
         "gloss": "after (sequence)",
-        "explanation": "After the te-form, indicates doing something after another action. 食べてから行きます (I'll go after eating)."
+        "explanation": "After the te-form, indicates doing something after another action. {食|た}べてから{行|い}きます (I'll go after eating)."
+      },
+      {
+        "sense_number": 4,
+        "gloss": "made from (material/origin)",
+        "explanation": "Indicates the source material (especially when transformed). {米|こめ}から{酒|さけ}を{作|つく}る (make sake from rice)."
+      }
+    ],
+    "predicates_requiring": {
+      "description": "Verbs commonly used with から for starting point or source",
+      "motion_source": [
+        {
+          "word": "{来|く}る",
+          "example": "{日本|にほん}から{来|き}ました",
+          "meaning": "came from Japan"
+        },
+        {
+          "word": "{出|で}る",
+          "example": "{家|いえ}から{出|で}る",
+          "meaning": "leave from the house"
+        },
+        {
+          "word": "{始|はじ}まる",
+          "example": "{九時|くじ}から{始|はじ}まる",
+          "meaning": "start from 9 o'clock"
+        },
+        {
+          "word": "{届|とど}く",
+          "example": "{母|はは}から{届|とど}いた",
+          "meaning": "arrived from mother"
+        }
+      ],
+      "receiving_source": [
+        {
+          "word": "もらう",
+          "example": "{友達|ともだち}からもらった",
+          "meaning": "received from a friend"
+        },
+        {
+          "word": "{借|か}りる",
+          "example": "{図書館|としょかん}から{借|か}りる",
+          "meaning": "borrow from the library"
+        },
+        {
+          "word": "{聞|き}く",
+          "example": "{先生|せんせい}から{聞|き}いた",
+          "meaning": "heard from the teacher"
+        }
+      ]
+    },
+    "particle_contrasts": [
+      {
+        "particle": "より",
+        "explanation": "Both can mean 'from,' but より is used for comparisons while から is for origins/starting points",
+        "examples": [
+          {
+            "kara_example": "{東京|とうきょう}から{来|き}ました",
+            "kara_english": "came from Tokyo",
+            "kara_note": "から for origin/starting point"
+          },
+          {
+            "yori_example": "{東京|とうきょう}より{大阪|おおさか}の{方|ほう}が{好|す}きです",
+            "yori_english": "I like Osaka more than Tokyo",
+            "yori_note": "より for comparison"
+          }
+        ],
+        "key_points": [
+          "から = origin, starting point, reason",
+          "より = comparison ('than')",
+          "より can also mean 'from' in formal writing: {心|こころ}より{感謝|かんしゃ}します"
+        ]
+      },
+      {
+        "particle": "ので",
+        "explanation": "Both give reasons, but から is more subjective/personal, ので is more objective/neutral",
+        "examples": [
+          {
+            "kara_example": "{暑|あつ}いから{窓|まど}を{開|あ}けた",
+            "kara_english": "I opened the window because it's hot",
+            "kara_note": "から: personal/subjective reason"
+          },
+          {
+            "node_example": "{暑|あつ}いので{窓|まど}を{開|あ}けました",
+            "node_english": "I opened the window because it's hot",
+            "node_note": "ので: objective/polite reason"
+          }
+        ],
+        "key_points": [
+          "から = more subjective, used for commands/invitations",
+          "ので = more objective, softer, more polite",
+          "Use から with imperative: {危|あぶ}ないから{気|き}をつけて",
+          "ので is preferred in formal situations"
+        ]
+      }
+    ],
+    "fixed_patterns": [
+      {
+        "pattern": "〜てから",
+        "meaning": "after doing...",
+        "example": "{手|て}を{洗|あら}ってから{食|た}べる",
+        "example_english": "eat after washing hands"
+      },
+      {
+        "pattern": "〜から〜まで",
+        "meaning": "from... to...",
+        "example": "{九時|くじ}から{五時|ごじ}まで",
+        "example_english": "from 9 to 5"
+      },
+      {
+        "pattern": "〜からには",
+        "meaning": "since..., now that...",
+        "example": "{約束|やくそく}したからには{守|まも}る",
+        "example_english": "now that I promised, I'll keep it"
+      },
+      {
+        "pattern": "〜からこそ",
+        "meaning": "precisely because...",
+        "example": "{好|す}きだからこそ{厳|きび}しくする",
+        "example_english": "precisely because I like you, I'm strict"
+      },
+      {
+        "pattern": "〜から{言|い}うと",
+        "meaning": "from the standpoint of...",
+        "example": "{私|わたし}から{言|い}うと",
+        "example_english": "from my point of view"
       }
     ],
     "examples": [
       {
-        "japanese": "駅から歩いて十分です。",
+        "japanese": "{駅|えき}から{歩|ある}いて{十分|じっぷん}です。",
         "english": "It's a 10-minute walk from the station.",
-        "notes": "Starting point"
+        "notes": "Starting point (spatial)"
       },
       {
-        "japanese": "会議は三時から五時までです。",
+        "japanese": "{会議|かいぎ}は{三時|さんじ}から{五時|ごじ}までです。",
         "english": "The meeting is from 3 to 5.",
         "notes": "から...まで = from...to"
       },
       {
-        "japanese": "疲れたから休みます。",
+        "japanese": "{疲|つか}れたから{休|やす}みます。",
         "english": "I'll rest because I'm tired.",
-        "notes": "Reason"
+        "notes": "Reason (subjective)"
       },
       {
-        "japanese": "手を洗ってから食べてください。",
+        "japanese": "{手|て}を{洗|あら}ってから{食|た}べてください。",
         "english": "Please eat after washing your hands.",
         "notes": "〜てから = after doing"
+      },
+      {
+        "japanese": "{友達|ともだち}からプレゼントをもらいました。",
+        "english": "I received a present from a friend.",
+        "notes": "Source of receiving"
       }
     ],
-    "notes": "から pairs naturally with まで (until/to) for ranges: 月曜日から金曜日まで (from Monday to Friday). As a reason marker, から is more subjective/personal than ので, which is more objective. 〜てから indicates sequence: do A, then do B.",
-    "cross_references": [],
+    "common_mistakes": [
+      {
+        "mistake": "Using より instead of から for origin",
+        "incorrect": "{東京|とうきょう}より{来|き}ました",
+        "correct": "{東京|とうきょう}から{来|き}ました",
+        "explanation": "Use から (not より) for 'from' with motion verbs"
+      },
+      {
+        "mistake": "Using から instead of ので in formal situations",
+        "incorrect": "{遅|おく}れましたから、すみません",
+        "correct": "{遅|おく}れましたので、すみません",
+        "explanation": "ので is more polite for apologizing/formal reasons"
+      },
+      {
+        "mistake": "Confusing に with から for receiving",
+        "context": "{友達|ともだち}にもらった vs {友達|ともだち}からもらった",
+        "explanation": "Both are correct: に emphasizes the giver, から emphasizes the source"
+      }
+    ],
+    "notes": "から pairs naturally with まで (until/to) for ranges: {月曜日|げつようび}から{金曜日|きんようび}まで (from Monday to Friday). As a reason marker, から is more subjective/personal than ので, which is more objective. 〜てから indicates sequence: do A, then do B.",
+    "cross_references": [
+      "made_00006"
+    ],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -16551,46 +17141,159 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "until, to (time endpoint)",
-        "explanation": "Marks the ending point in time. 五時まで働く (work until 5 o'clock), 明日まで (until tomorrow)."
+        "explanation": "Marks the ending point in time. {五時|ごじ}まで{働|はたら}く (work until 5 o'clock), {明日|あした}まで (until tomorrow)."
       },
       {
         "sense_number": 2,
         "gloss": "to, as far as (spatial endpoint)",
-        "explanation": "Marks the ending point in space. 駅まで歩く (walk to the station)."
+        "explanation": "Marks the ending point in space. {駅|えき}まで{歩|ある}く (walk to the station)."
       },
       {
         "sense_number": 3,
         "gloss": "even (emphasis)",
-        "explanation": "Emphasizes an extreme or unexpected extent. 彼まで来た (even he came)."
+        "explanation": "Emphasizes an extreme or unexpected extent. {彼|かれ}まで{来|き}た (even he came), {子供|こども}まで{知|し}っている (even children know)."
+      },
+      {
+        "sense_number": 4,
+        "gloss": "to the extent of",
+        "explanation": "Indicates the degree to which something extends. {泣|な}くまで{笑|わら}った (laughed until [I] cried)."
+      }
+    ],
+    "particle_contrasts": [
+      {
+        "particle": "に",
+        "explanation": "まで emphasizes extent/continuation to endpoint; に marks a specific point",
+        "examples": [
+          {
+            "made_example": "{五時|ごじ}まで{働|はたら}く",
+            "made_english": "work until 5 o'clock",
+            "made_note": "まで emphasizes duration up to endpoint"
+          },
+          {
+            "ni_example": "{五時|ごじ}に{終|お}わる",
+            "ni_english": "finish at 5 o'clock",
+            "ni_note": "に marks a specific point in time"
+          }
+        ],
+        "key_points": [
+          "まで = extent/duration up to a point",
+          "に = specific point/moment",
+          "までに = 'by' (deadline): {五時|ごじ}までに (by 5 o'clock)"
+        ]
+      },
+      {
+        "particle": "も",
+        "explanation": "Both can mean 'even,' but まで emphasizes extent while も indicates inclusion",
+        "examples": [
+          {
+            "made_example": "{子供|こども}まで{知|し}っている",
+            "made_english": "even children know",
+            "made_note": "まで: surprising extent"
+          },
+          {
+            "mo_example": "{子供|こども}も{知|し}っている",
+            "mo_english": "children also know",
+            "mo_note": "も: simple inclusion"
+          }
+        ],
+        "key_points": [
+          "まで 'even' = surprising/extreme extent",
+          "も 'even/also' = inclusive addition",
+          "まで implies going as far as an unexpected point"
+        ]
+      }
+    ],
+    "fixed_patterns": [
+      {
+        "pattern": "〜から〜まで",
+        "meaning": "from... to...",
+        "example": "{東京|とうきょう}から{大阪|おおさか}まで",
+        "example_english": "from Tokyo to Osaka"
+      },
+      {
+        "pattern": "〜までに",
+        "meaning": "by (deadline)",
+        "example": "{金曜日|きんようび}までに{終|お}わらせる",
+        "example_english": "finish by Friday"
+      },
+      {
+        "pattern": "〜まで〜ない",
+        "meaning": "not until...",
+        "example": "{来週|らいしゅう}まで{会|あ}えない",
+        "example_english": "can't meet until next week"
+      },
+      {
+        "pattern": "〜するまで",
+        "meaning": "until [someone] does...",
+        "example": "{分|わ}かるまで{説明|せつめい}する",
+        "example_english": "explain until [you] understand"
+      },
+      {
+        "pattern": "今まで",
+        "meaning": "until now, so far",
+        "example": "{今|いま}まで{知|し}らなかった",
+        "example_english": "didn't know until now"
+      },
+      {
+        "pattern": "どこまでも",
+        "meaning": "endlessly, forever, anywhere",
+        "example": "どこまでも{続|つづ}く{道|みち}",
+        "example_english": "a road that goes on forever"
       }
     ],
     "examples": [
       {
-        "japanese": "十二時まで起きていました。",
+        "japanese": "{十二時|じゅうにじ}まで{起|お}きていました。",
         "english": "I was up until 12 o'clock.",
         "notes": "Time endpoint"
       },
       {
-        "japanese": "東京から大阪まで新幹線で行きます。",
+        "japanese": "{東京|とうきょう}から{大阪|おおさか}まで{新幹線|しんかんせん}で{行|い}きます。",
         "english": "I'll take the Shinkansen from Tokyo to Osaka.",
-        "notes": "から...まで for range"
+        "notes": "から...まで for spatial range"
       },
       {
-        "japanese": "ここまで来てくれてありがとう。",
+        "japanese": "ここまで{来|き}てくれてありがとう。",
         "english": "Thank you for coming all the way here.",
-        "notes": "Spatial endpoint"
+        "notes": "Spatial endpoint with appreciation"
       },
       {
-        "japanese": "子供まで分かる簡単な問題です。",
+        "japanese": "{子供|こども}まで{分|わ}かる{簡単|かんたん}な{問題|もんだい}です。",
         "english": "It's such an easy problem that even children understand.",
         "notes": "Emphatic 'even'"
+      },
+      {
+        "japanese": "{金曜日|きんようび}までに{提出|ていしゅつ}してください。",
+        "english": "Please submit it by Friday.",
+        "notes": "までに = by (deadline)"
       }
     ],
-    "notes": "まで often pairs with から: 九時から五時まで (from 9 to 5). Unlike に (which marks a specific point), まで emphasizes the extent or continuation up to that point. までに means 'by (a deadline)': 金曜日までに (by Friday).",
-    "cross_references": [],
+    "common_mistakes": [
+      {
+        "mistake": "Confusing まで with までに",
+        "context": "{五時|ごじ}まで vs {五時|ごじ}までに",
+        "explanation": "まで = until 5 (continuous); までに = by 5 (deadline)"
+      },
+      {
+        "mistake": "Using まで when に is more appropriate",
+        "incorrect": "{三時|さんじ}まで{始|はじ}まる",
+        "correct": "{三時|さんじ}に{始|はじ}まる",
+        "explanation": "Use に for specific point events; まで for duration/extent"
+      },
+      {
+        "mistake": "Using も instead of まで for 'even' (surprising extent)",
+        "context": "When emphasizing an unexpected extreme, まで is stronger",
+        "explanation": "{先生|せんせい}まで{間違|まちが}えた (even the teacher made a mistake) vs {先生|せんせい}も{間違|まちが}えた (the teacher also made a mistake)"
+      }
+    ],
+    "notes": "まで often pairs with から: {九時|くじ}から{五時|ごじ}まで (from 9 to 5). Unlike に (which marks a specific point), まで emphasizes the extent or continuation up to that point. までに means 'by (a deadline)': {金曜日|きんようび}までに (by Friday). As 'even,' まで is stronger than も, implying a surprising extreme.",
+    "cross_references": [
+      "kara_00008",
+      "ni_00001"
+    ],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -18151,46 +18854,249 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "also, too",
-        "explanation": "Indicates that something applies to an additional item or person. Replaces は, が, or を. 私も行きます (I'll go too)."
+        "explanation": "Indicates that something applies to an additional item or person. Replaces は, が, or を. {私|わたし}も{行|い}きます (I'll go too)."
       },
       {
         "sense_number": 2,
         "gloss": "even",
-        "explanation": "Emphasizes an extreme or unexpected case. 子供でも分かる (even a child can understand)."
+        "explanation": "Emphasizes an extreme or unexpected case. {子供|こども}でも{分|わ}かる (even a child can understand)."
       },
       {
         "sense_number": 3,
         "gloss": "both...and, neither...nor",
-        "explanation": "Used in pairs to mean 'both' (AもBも) or with negatives for 'neither.' 犬も猫も好き (I like both dogs and cats)."
+        "explanation": "Used in pairs to mean 'both' (AもBも) or with negatives for 'neither.' {犬|いぬ}も{猫|ねこ}も{好|す}き (I like both dogs and cats)."
+      },
+      {
+        "sense_number": 4,
+        "gloss": "as many as, as much as",
+        "explanation": "Emphasizes a large quantity. {三時間|さんじかん}も{待|ま}った (waited for as long as 3 hours)."
+      }
+    ],
+    "particle_behavior": {
+      "description": "も replaces some particles but attaches after others",
+      "replaces": [
+        {
+          "particle": "は",
+          "before": "{私|わたし}は{学生|がくせい}です",
+          "after": "{私|わたし}も{学生|がくせい}です",
+          "meaning": "I'm also a student"
+        },
+        {
+          "particle": "が",
+          "before": "{田中|たなか}さんが{来|き}た",
+          "after": "{田中|たなか}さんも{来|き}た",
+          "meaning": "Tanaka also came"
+        },
+        {
+          "particle": "を",
+          "before": "これを{買|か}う",
+          "after": "これも{買|か}う",
+          "meaning": "I'll buy this too"
+        }
+      ],
+      "attaches_after": [
+        {
+          "particle": "に",
+          "example": "{東京|とうきょう}にも{行|い}った",
+          "meaning": "went to Tokyo too"
+        },
+        {
+          "particle": "で",
+          "example": "{家|いえ}でも{勉強|べんきょう}する",
+          "meaning": "study at home too"
+        },
+        {
+          "particle": "と",
+          "example": "{友達|ともだち}とも{話|はな}した",
+          "meaning": "talked with friends too"
+        },
+        {
+          "particle": "から",
+          "example": "{駅|えき}からも{近|ちか}い",
+          "meaning": "close from the station too"
+        },
+        {
+          "particle": "まで",
+          "example": "{終点|しゅうてん}までも{行|い}った",
+          "meaning": "went even as far as the terminus"
+        }
+      ]
+    },
+    "question_word_patterns": {
+      "description": "も + question word + negative = nobody/nothing/nowhere/etc.",
+      "patterns": [
+        {
+          "pattern": "{誰|だれ}も + negative",
+          "meaning": "nobody, no one",
+          "example": "{誰|だれ}も{来|こ}なかった",
+          "example_english": "Nobody came"
+        },
+        {
+          "pattern": "{何|なに}も + negative",
+          "meaning": "nothing",
+          "example": "{何|なに}も{食|た}べなかった",
+          "example_english": "I didn't eat anything"
+        },
+        {
+          "pattern": "どこも + negative",
+          "meaning": "nowhere",
+          "example": "どこも{行|い}かなかった",
+          "example_english": "I didn't go anywhere"
+        },
+        {
+          "pattern": "いつも",
+          "meaning": "always (positive without negative verb)",
+          "example": "いつも{早|はや}く{起|お}きる",
+          "example_english": "I always wake up early"
+        },
+        {
+          "pattern": "どれも + negative",
+          "meaning": "none of them",
+          "example": "どれも{欲|ほ}しくない",
+          "example_english": "I don't want any of them"
+        }
+      ]
+    },
+    "particle_contrasts": [
+      {
+        "particle": "は",
+        "explanation": "は marks topic/contrast; も adds to a set",
+        "examples": [
+          {
+            "mo_example": "{田中|たなか}さんも{来|き}ました",
+            "mo_english": "Tanaka also came",
+            "mo_note": "も: adding to those who came"
+          },
+          {
+            "ha_example": "{田中|たなか}さんは{来|き}ました",
+            "ha_english": "Tanaka came (as for Tanaka...)",
+            "ha_note": "は: topicalizing or contrasting"
+          }
+        ],
+        "key_points": [
+          "は marks topic or contrast",
+          "も marks addition/inclusion",
+          "も implies 'in addition to others'"
+        ]
+      },
+      {
+        "particle": "まで",
+        "explanation": "Both can mean 'even,' but も is simpler inclusion while まで emphasizes surprising extent",
+        "examples": [
+          {
+            "mo_example": "{子供|こども}も{知|し}っている",
+            "mo_english": "children also know",
+            "mo_note": "も: simple inclusion"
+          },
+          {
+            "made_example": "{子供|こども}まで{知|し}っている",
+            "made_english": "even children know",
+            "made_note": "まで: surprising extent"
+          }
+        ],
+        "key_points": [
+          "も 'also/even' = inclusive",
+          "まで 'even' = surprisingly far/unexpected extent"
+        ]
+      }
+    ],
+    "fixed_patterns": [
+      {
+        "pattern": "AもBも",
+        "meaning": "both A and B",
+        "example": "{肉|にく}も{魚|さかな}も{好|す}きです",
+        "example_english": "I like both meat and fish"
+      },
+      {
+        "pattern": "AもBも + negative",
+        "meaning": "neither A nor B",
+        "example": "{肉|にく}も{魚|さかな}も{食|た}べません",
+        "example_english": "I eat neither meat nor fish"
+      },
+      {
+        "pattern": "〜ても",
+        "meaning": "even if...",
+        "example": "{雨|あめ}が{降|ふ}っても{行|い}く",
+        "example_english": "I'll go even if it rains"
+      },
+      {
+        "pattern": "〜でも",
+        "meaning": "even; something like; any",
+        "example": "コーヒーでも{飲|の}みませんか",
+        "example_english": "Would you like to have some coffee or something?"
+      },
+      {
+        "pattern": "数量 + も",
+        "meaning": "as many/much as (emphasis)",
+        "example": "{三回|さんかい}も{失敗|しっぱい}した",
+        "example_english": "failed as many as three times"
+      },
+      {
+        "pattern": "一〜も + negative",
+        "meaning": "not even one",
+        "example": "{一人|ひとり}も{来|こ}なかった",
+        "example_english": "not even one person came"
       }
     ],
     "examples": [
       {
-        "japanese": "私も日本語を勉強しています。",
+        "japanese": "{私|わたし}も{日本語|にほんご}を{勉強|べんきょう}しています。",
         "english": "I'm also studying Japanese.",
         "notes": "Replaces は"
       },
       {
-        "japanese": "これも買いたいです。",
+        "japanese": "これも{買|か}いたいです。",
         "english": "I want to buy this too.",
         "notes": "Replaces を"
       },
       {
-        "japanese": "誰も来ませんでした。",
+        "japanese": "{誰|だれ}も{来|き}ませんでした。",
         "english": "Nobody came.",
-        "notes": "With question word + negative = nobody/nothing"
+        "notes": "Question word + も + negative = nobody/nothing"
       },
       {
-        "japanese": "お茶もコーヒーもあります。",
+        "japanese": "{お茶|おちゃ}もコーヒーもあります。",
         "english": "We have both tea and coffee.",
         "notes": "AもBも = both A and B"
+      },
+      {
+        "japanese": "{三時間|さんじかん}も{待|ま}ちました。",
+        "english": "I waited for as long as three hours.",
+        "notes": "Quantity + も = emphasis on amount"
+      },
+      {
+        "japanese": "{東京|とうきょう}にも{行|い}きました。",
+        "english": "I also went to Tokyo.",
+        "notes": "も attaches after に"
       }
     ],
-    "notes": "も replaces は, が, and を but attaches after other particles: に→にも, で→でも, と→とも. With question words and negatives: 誰も...ない (nobody), 何も...ない (nothing), どこも...ない (nowhere). These patterns are essential.",
-    "cross_references": [],
+    "common_mistakes": [
+      {
+        "mistake": "Using も instead of は for topic",
+        "context": "{私|わたし}も{田中|たなか}です (I'm also Tanaka) vs {私|わたし}は{田中|たなか}です (I'm Tanaka)",
+        "explanation": "も implies addition; use は for simple topic"
+      },
+      {
+        "mistake": "Using を with も",
+        "incorrect": "これをも{買|か}う",
+        "correct": "これも{買|か}う",
+        "explanation": "も replaces を, doesn't attach after it"
+      },
+      {
+        "mistake": "Forgetting negative with question word patterns",
+        "incorrect": "{誰|だれ}も{来|き}ました (Everyone came? - actually means 'did anyone come?')",
+        "correct": "{誰|だれ}も{来|こ}なかった (Nobody came) or {皆|みんな}{来|き}ました (Everyone came)",
+        "explanation": "{誰|だれ}も with negative = nobody; for 'everyone' use {皆|みんな} or {誰|だれ}でも"
+      }
+    ],
+    "notes": "も replaces は, が, and を but attaches after other particles: に→にも, で→でも, と→とも. With question words and negatives: {誰|だれ}も...ない (nobody), {何|なに}も...ない (nothing), どこも...ない (nowhere). These patterns are essential for expressing 'nobody/nothing/nowhere.'",
+    "cross_references": [
+      "ha_00001",
+      "made_00006"
+    ],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -20190,61 +21096,304 @@ const DICTIONARY_DATA = {
       {
         "sense_number": 1,
         "gloss": "destination/direction marker",
-        "explanation": "Marks the destination or target of movement. Used with verbs like 行く (go), 来る (come), 帰る (return). 学校に行く (go to school)."
+        "explanation": "Marks the destination or target of movement. Used with verbs like {行|い}く (go), {来|く}る (come), {帰|かえ}る (return). {学校|がっこう}に{行|い}く (go to school)."
       },
       {
         "sense_number": 2,
         "gloss": "location of existence marker",
-        "explanation": "Marks where something exists or is located. Used with いる/ある (to be/exist). 猫が部屋にいる (The cat is in the room)."
+        "explanation": "Marks where something exists or is located. Used with いる/ある (to be/exist). {猫|ねこ}が{部屋|へや}にいる (The cat is in the room)."
       },
       {
         "sense_number": 3,
         "gloss": "time marker",
-        "explanation": "Marks specific points in time (dates, days, times). 三時に会いましょう (Let's meet at 3 o'clock), 月曜日に (on Monday)."
+        "explanation": "Marks specific points in time (dates, days, clock times). {三時|さんじ}に{会|あ}いましょう (Let's meet at 3 o'clock), {月曜日|げつようび}に (on Monday)."
       },
       {
         "sense_number": 4,
         "gloss": "indirect object marker",
-        "explanation": "Marks the recipient of an action—the person to/for whom something is done. 友達に本をあげた (I gave a book to my friend)."
+        "explanation": "Marks the recipient of an action—the person to/for whom something is done. {友達|ともだち}に{本|ほん}をあげた (I gave a book to my friend)."
       },
       {
         "sense_number": 5,
         "gloss": "purpose marker",
-        "explanation": "Marks the purpose of going somewhere, when followed by 行く/来る. Often with the masu-stem of verbs. 映画を見に行く (go to see a movie)."
+        "explanation": "Marks the purpose of going somewhere, when followed by {行|い}く/{来|く}る. Often with the masu-stem of verbs. {映画|えいが}を{見|み}に{行|い}く (go to see a movie)."
+      },
+      {
+        "sense_number": 6,
+        "gloss": "agent marker (passive/causative)",
+        "explanation": "Marks the agent in passive and causative constructions. {先生|せんせい}に{褒|ほ}められた (was praised by the teacher)."
+      }
+    ],
+    "predicates_requiring": {
+      "description": "Verbs that specifically require に",
+      "existence_verbs": [
+        {
+          "word": "いる",
+          "example": "{猫|ねこ}が{部屋|へや}にいる",
+          "meaning": "the cat is in the room"
+        },
+        {
+          "word": "ある",
+          "example": "{本|ほん}が{机|つくえ}の{上|うえ}にある",
+          "meaning": "the book is on the desk"
+        },
+        {
+          "word": "{住|す}む",
+          "example": "{東京|とうきょう}に{住|す}んでいる",
+          "meaning": "live in Tokyo"
+        }
+      ],
+      "motion_verbs": [
+        {
+          "word": "{行|い}く",
+          "example": "{学校|がっこう}に{行|い}く",
+          "meaning": "go to school"
+        },
+        {
+          "word": "{来|く}る",
+          "example": "{日本|にほん}に{来|く}る",
+          "meaning": "come to Japan"
+        },
+        {
+          "word": "{帰|かえ}る",
+          "example": "{家|いえ}に{帰|かえ}る",
+          "meaning": "return home"
+        },
+        {
+          "word": "{入|はい}る",
+          "example": "{部屋|へや}に{入|はい}る",
+          "meaning": "enter the room"
+        },
+        {
+          "word": "{乗|の}る",
+          "example": "{電車|でんしゃ}に{乗|の}る",
+          "meaning": "get on the train"
+        },
+        {
+          "word": "{着|つ}く",
+          "example": "{駅|えき}に{着|つ}く",
+          "meaning": "arrive at the station"
+        }
+      ],
+      "giving_receiving_verbs": [
+        {
+          "word": "あげる",
+          "example": "{友達|ともだち}にあげる",
+          "meaning": "give to a friend"
+        },
+        {
+          "word": "もらう",
+          "example": "{友達|ともだち}にもらう",
+          "meaning": "receive from a friend"
+        },
+        {
+          "word": "{教|おし}える",
+          "example": "{学生|がくせい}に{教|おし}える",
+          "meaning": "teach students"
+        },
+        {
+          "word": "{会|あ}う",
+          "example": "{友達|ともだち}に{会|あ}う",
+          "meaning": "meet a friend"
+        },
+        {
+          "word": "{電話|でんわ}する",
+          "example": "{母|はは}に{電話|でんわ}する",
+          "meaning": "call mother"
+        }
+      ]
+    },
+    "particle_contrasts": [
+      {
+        "particle": "で",
+        "explanation": "に marks location of EXISTENCE; で marks location of ACTION",
+        "examples": [
+          {
+            "ni_example": "{図書館|としょかん}に{本|ほん}がある",
+            "ni_english": "There are books in the library",
+            "ni_note": "に with existence (ある)"
+          },
+          {
+            "de_example": "{図書館|としょかん}で{勉強|べんきょう}する",
+            "de_english": "Study at the library",
+            "de_note": "で with action (勉強する)"
+          }
+        ],
+        "key_points": [
+          "に = where something EXISTS (いる/ある/{住|す}む)",
+          "で = where an ACTION takes place ({食|た}べる/{働|はたら}く/{勉強|べんきょう}する)",
+          "This is one of the most common particle confusions for learners"
+        ]
+      },
+      {
+        "particle": "へ",
+        "explanation": "Both mark direction, but に focuses on destination/arrival, へ on the direction of movement",
+        "examples": [
+          {
+            "ni_example": "{学校|がっこう}に{行|い}く",
+            "ni_english": "go to school (arriving there)",
+            "ni_note": "に emphasizes the destination"
+          },
+          {
+            "he_example": "{学校|がっこう}へ{行|い}く",
+            "he_english": "go toward school",
+            "he_note": "へ emphasizes the direction"
+          }
+        ],
+        "key_points": [
+          "に = destination (where you arrive)",
+          "へ = direction (which way you're heading)",
+          "In practice, they're often interchangeable with motion verbs",
+          "Only に can be used with いる/ある (existence)"
+        ]
+      }
+    ],
+    "time_expressions": {
+      "description": "に is used with specific times but not relative times",
+      "uses_ni": [
+        {
+          "example": "{三時|さんじ}に",
+          "meaning": "at 3 o'clock"
+        },
+        {
+          "example": "{月曜日|げつようび}に",
+          "meaning": "on Monday"
+        },
+        {
+          "example": "{七月|しちがつ}に",
+          "meaning": "in July"
+        },
+        {
+          "example": "{二〇二五年|にせんにじゅうごねん}に",
+          "meaning": "in 2025"
+        },
+        {
+          "example": "{朝|あさ}に",
+          "meaning": "in the morning"
+        }
+      ],
+      "no_ni": [
+        {
+          "example": "{今日|きょう}",
+          "meaning": "today (no に)"
+        },
+        {
+          "example": "{明日|あした}",
+          "meaning": "tomorrow (no に)"
+        },
+        {
+          "example": "{来週|らいしゅう}",
+          "meaning": "next week (no に)"
+        },
+        {
+          "example": "{毎日|まいにち}",
+          "meaning": "every day (no に)"
+        },
+        {
+          "example": "いつ",
+          "meaning": "when (no に)"
+        }
+      ],
+      "rule": "Use に with absolute/specific times; omit に with relative times (今日, 明日, 来週) and frequency words (毎日, いつも)"
+    },
+    "fixed_patterns": [
+      {
+        "pattern": "〜に{対|たい}して",
+        "meaning": "toward, against, regarding",
+        "example": "その{問題|もんだい}に{対|たい}して",
+        "example_english": "regarding that problem"
+      },
+      {
+        "pattern": "〜について",
+        "meaning": "about, concerning",
+        "example": "{日本|にほん}について{話|はな}す",
+        "example_english": "talk about Japan"
+      },
+      {
+        "pattern": "〜によると",
+        "meaning": "according to",
+        "example": "{天気予報|てんきよほう}によると",
+        "example_english": "according to the weather forecast"
+      },
+      {
+        "pattern": "〜にとって",
+        "meaning": "for, to (from someone's perspective)",
+        "example": "{私|わたし}にとって{大切|たいせつ}",
+        "example_english": "important to me"
+      },
+      {
+        "pattern": "〜ために",
+        "meaning": "for the purpose of, in order to",
+        "example": "{健康|けんこう}のために{運動|うんどう}する",
+        "example_english": "exercise for health"
+      },
+      {
+        "pattern": "Verb stem + に{行|い}く/{来|く}る",
+        "meaning": "go/come to do something",
+        "example": "{食|た}べに{行|い}く",
+        "example_english": "go to eat"
       }
     ],
     "examples": [
       {
-        "japanese": "東京に行きます。",
+        "japanese": "{東京|とうきょう}に{行|い}きます。",
         "english": "I will go to Tokyo.",
         "notes": "Destination"
       },
       {
-        "japanese": "机の上に本があります。",
+        "japanese": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
         "english": "There is a book on the desk.",
         "notes": "Location of existence"
       },
       {
-        "japanese": "七時に起きます。",
+        "japanese": "{七時|しちじ}に{起|お}きます。",
         "english": "I wake up at 7 o'clock.",
         "notes": "Specific time"
       },
       {
-        "japanese": "母にプレゼントをあげました。",
+        "japanese": "{母|はは}にプレゼントをあげました。",
         "english": "I gave a present to my mother.",
         "notes": "Indirect object/recipient"
       },
       {
-        "japanese": "買い物に行きます。",
+        "japanese": "{買|か}い{物|もの}に{行|い}きます。",
         "english": "I'm going shopping.",
-        "notes": "Purpose (買い物 = shopping)"
+        "notes": "Purpose ({買|か}い{物|もの} = shopping)"
+      },
+      {
+        "japanese": "{電車|でんしゃ}に{乗|の}ってください。",
+        "english": "Please get on the train.",
+        "notes": "に with {乗|の}る (board/get on)"
       }
     ],
-    "notes": "に is one of the most versatile particles in Japanese with many uses. Compare with へ (direction only, more abstract) and で (location of action). Key distinction: に marks where something EXISTS (いる/ある), while で marks where an ACTION takes place (食べる, 働く, etc.). Time expressions: use に with specific times (三時に) but not with relative times (今日, 明日, 来週).",
-    "cross_references": [],
+    "common_mistakes": [
+      {
+        "mistake": "Using で instead of に for existence",
+        "incorrect": "{猫|ねこ}が{部屋|へや}でいる",
+        "correct": "{猫|ねこ}が{部屋|へや}にいる",
+        "explanation": "Use に (not で) for location with いる/ある"
+      },
+      {
+        "mistake": "Using に instead of で for action location",
+        "incorrect": "{図書館|としょかん}に{勉強|べんきょう}する",
+        "correct": "{図書館|としょかん}で{勉強|べんきょう}する",
+        "explanation": "Use で (not に) for where actions take place"
+      },
+      {
+        "mistake": "Using に with relative time words",
+        "incorrect": "{明日|あした}に{会|あ}いましょう",
+        "correct": "{明日|あした}{会|あ}いましょう",
+        "explanation": "Don't use に with {今日|きょう}, {明日|あした}, {来週|らいしゅう}, etc."
+      }
+    ],
+    "notes": "に is one of the most versatile particles in Japanese with many uses. Compare with へ (direction only, more abstract) and で (location of action). Key distinction: に marks where something EXISTS (いる/ある), while で marks where an ACTION takes place ({食|た}べる, {働|はたら}く, etc.). Time expressions: use に with specific times ({三時|さんじ}に) but not with relative times ({今日|きょう}, {明日|あした}, {来週|らいしゅう}).",
+    "cross_references": [
+      "de_00008",
+      "wo_00001"
+    ],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -21740,48 +22889,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "oku_00096": {
-    "id": "oku_00096",
-    "headword": "{奥|おく}",
-    "reading": "おく",
-    "part_of_speech": "noun",
-    "gloss": "interior, back",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "interior, back, depths",
-        "explanation": "The innermost or furthest part of a space, away from the entrance."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{店|みせ}の{奥|おく}にトイレがあります。",
-        "english": "The restroom is at the back of the store.",
-        "notes": null
-      },
-      {
-        "japanese": "もう{少|すこ}し{奥|おく}に{進|すす}んでください。",
-        "english": "Please go a little further back.",
-        "notes": null
-      },
-      {
-        "japanese": "{森|もり}の{奥|おく}に{湖|みずうみ}がありました。",
-        "english": "There was a lake deep in the forest.",
-        "notes": null
-      }
-    ],
-    "notes": "{奥|おく} indicates the deep interior or back of a space, opposite to the entrance ({手前|てまえ}). It's used for buildings ({部屋|へや}の{奥|おく} - back of the room), natural spaces ({山|やま}の{奥|おく} - deep in the mountains), and even abstract concepts ({心|こころ}の{奥|おく} - depths of one's heart). {奥|おく}さん (okusan) is also a polite term for someone else's wife.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "oku_00099": {
     "id": "oku_00099",
     "headword": "{置|お}く",
@@ -21818,6 +22925,48 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "置く conjugates as a godan verb: 置かない (negative), 置いて (te-form), 置いた (past). The auxiliary pattern ～ておく (often contracted to ～とく in casual speech) means to do something in preparation or to leave something in a state.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "oku_00096": {
+    "id": "oku_00096",
+    "headword": "{奥|おく}",
+    "reading": "おく",
+    "part_of_speech": "noun",
+    "gloss": "interior, back",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "interior, back, depths",
+        "explanation": "The innermost or furthest part of a space, away from the entrance."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{店|みせ}の{奥|おく}にトイレがあります。",
+        "english": "The restroom is at the back of the store.",
+        "notes": null
+      },
+      {
+        "japanese": "もう{少|すこ}し{奥|おく}に{進|すす}んでください。",
+        "english": "Please go a little further back.",
+        "notes": null
+      },
+      {
+        "japanese": "{森|もり}の{奥|おく}に{湖|みずうみ}がありました。",
+        "english": "There was a lake deep in the forest.",
+        "notes": null
+      }
+    ],
+    "notes": "{奥|おく} indicates the deep interior or back of a space, opposite to the entrance ({手前|てまえ}). It's used for buildings ({部屋|へや}の{奥|おく} - back of the room), natural spaces ({山|やま}の{奥|おく} - deep in the mountains), and even abstract concepts ({心|こころ}の{奥|おく} - depths of one's heart). {奥|おく}さん (okusan) is also a polite term for someone else's wife.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -29266,6 +30415,299 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "to_00009": {
+    "id": "to_00009",
+    "headword": "と",
+    "reading": "と",
+    "part_of_speech": "particle",
+    "gloss": "and, with, (quotation)",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "and (connecting nouns)",
+        "explanation": "Connects nouns in a complete list. りんごとみかん (apples and oranges). Unlike や, と implies a complete enumeration."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "with (accompaniment)",
+        "explanation": "Indicates doing something together with someone. {友達|ともだち}と{行|い}く (go with a friend)."
+      },
+      {
+        "sense_number": 3,
+        "gloss": "quotation marker",
+        "explanation": "Marks quoted speech or thoughts. 「はい」と{言|い}う (say 'yes'), いいと{思|おも}う (think it's good)."
+      },
+      {
+        "sense_number": 4,
+        "gloss": "if/when (conditional)",
+        "explanation": "Expresses a natural or inevitable consequence. {春|はる}になると{暖|あたた}かくなる (when spring comes, it gets warm)."
+      },
+      {
+        "sense_number": 5,
+        "gloss": "as (comparison/manner)",
+        "explanation": "Shows how something appears or is named. {同|おな}じと{思|おも}う (think it's the same)."
+      }
+    ],
+    "predicates_requiring": {
+      "description": "Verbs that commonly take と",
+      "accompaniment_verbs": [
+        {
+          "word": "{会|あ}う",
+          "example": "{友達|ともだち}と{会|あ}う",
+          "meaning": "meet with a friend"
+        },
+        {
+          "word": "{話|はな}す",
+          "example": "{先生|せんせい}と{話|はな}す",
+          "meaning": "talk with the teacher"
+        },
+        {
+          "word": "{結婚|けっこん}する",
+          "example": "{彼女|かのじょ}と{結婚|けっこん}する",
+          "meaning": "marry her"
+        },
+        {
+          "word": "{遊|あそ}ぶ",
+          "example": "{子供|こども}と{遊|あそ}ぶ",
+          "meaning": "play with children"
+        },
+        {
+          "word": "{喧嘩|けんか}する",
+          "example": "{兄|あに}と{喧嘩|けんか}する",
+          "meaning": "quarrel with older brother"
+        }
+      ],
+      "quotation_verbs": [
+        {
+          "word": "{言|い}う",
+          "example": "「はい」と{言|い}う",
+          "meaning": "say 'yes'"
+        },
+        {
+          "word": "{思|おも}う",
+          "example": "いいと{思|おも}う",
+          "meaning": "think it's good"
+        },
+        {
+          "word": "{聞|き}く",
+          "example": "{何|なん}と{聞|き}いた",
+          "meaning": "what did [you] hear?"
+        },
+        {
+          "word": "{書|か}く",
+          "example": "{日本語|にほんご}で「{愛|あい}」と{書|か}く",
+          "meaning": "write 'love' in Japanese"
+        },
+        {
+          "word": "{呼|よ}ぶ",
+          "example": "「タロウ」と{呼|よ}ぶ",
+          "meaning": "call [him] 'Taro'"
+        }
+      ],
+      "comparison_verbs": [
+        {
+          "word": "{同|おな}じ",
+          "example": "これと{同|おな}じ",
+          "meaning": "same as this"
+        },
+        {
+          "word": "{違|ちが}う",
+          "example": "{昨日|きのう}と{違|ちが}う",
+          "meaning": "different from yesterday"
+        },
+        {
+          "word": "{比|くら}べる",
+          "example": "{去年|きょねん}と{比|くら}べる",
+          "meaning": "compare with last year"
+        }
+      ]
+    },
+    "particle_contrasts": [
+      {
+        "particle": "や",
+        "explanation": "と gives a complete list; や gives an incomplete list (examples)",
+        "examples": [
+          {
+            "to_example": "りんごとみかんを{買|か}った",
+            "to_english": "bought apples and oranges (only these two)",
+            "to_note": "と: complete/exhaustive list"
+          },
+          {
+            "ya_example": "りんごやみかんを{買|か}った",
+            "ya_english": "bought apples and oranges (and other things)",
+            "ya_note": "や: partial list, implies more"
+          }
+        ],
+        "key_points": [
+          "と = exhaustive list (A and B, that's all)",
+          "や = non-exhaustive list (A and B, etc.)",
+          "や often pairs with など: りんごやみかんなど"
+        ]
+      },
+      {
+        "particle": "に",
+        "explanation": "Both can mark companion, but と implies mutual action, に implies direction toward",
+        "examples": [
+          {
+            "to_example": "{友達|ともだち}と{会|あ}う",
+            "to_english": "meet with a friend",
+            "to_note": "と: mutual meeting"
+          },
+          {
+            "ni_example": "{友達|ともだち}に{会|あ}う",
+            "ni_english": "meet a friend",
+            "ni_note": "に: going to where friend is"
+          }
+        ],
+        "key_points": [
+          "と emphasizes togetherness/mutuality",
+          "に emphasizes direction/target",
+          "Some verbs can take either with slight nuance difference"
+        ]
+      }
+    ],
+    "conditional_usage": {
+      "description": "と as a conditional expresses natural/inevitable consequences",
+      "characteristics": [
+        "Used for natural cause-effect relationships",
+        "Used for general truths and habitual actions",
+        "Cannot be used for requests, commands, or intentions"
+      ],
+      "examples": [
+        {
+          "japanese": "{春|はる}になると{暖|あたた}かくなる",
+          "english": "When spring comes, it gets warm",
+          "note": "Natural/inevitable change"
+        },
+        {
+          "japanese": "このボタンを{押|お}すとドアが{開|あ}く",
+          "english": "When you press this button, the door opens",
+          "note": "Automatic/mechanical result"
+        },
+        {
+          "japanese": "{右|みぎ}に{曲|ま}がると{駅|えき}があります",
+          "english": "If you turn right, there's a station",
+          "note": "Giving directions"
+        }
+      ],
+      "contrast_with_other_conditionals": [
+        {
+          "form": "〜たら",
+          "usage": "More flexible, can be used with requests",
+          "example": "{着|つ}いたら{電話|でんわ}してね (Call me when you arrive)"
+        },
+        {
+          "form": "〜ば",
+          "usage": "Hypothetical condition",
+          "example": "{安|やす}ければ{買|か}う (If it's cheap, I'll buy it)"
+        },
+        {
+          "form": "〜なら",
+          "usage": "If (it's the case that)...",
+          "example": "{行|い}くなら{私|わたし}も{行|い}く (If you're going, I'll go too)"
+        }
+      ]
+    },
+    "fixed_patterns": [
+      {
+        "pattern": "〜と{言|い}う",
+        "meaning": "say that...; called...",
+        "example": "{田中|たなか}と{言|い}います",
+        "example_english": "My name is Tanaka / I'm called Tanaka"
+      },
+      {
+        "pattern": "〜と{思|おも}う",
+        "meaning": "think that...",
+        "example": "いいと{思|おも}います",
+        "example_english": "I think it's good"
+      },
+      {
+        "pattern": "〜と{一緒|いっしょ}に",
+        "meaning": "together with...",
+        "example": "{友達|ともだち}と{一緒|いっしょ}に{行|い}く",
+        "example_english": "go together with a friend"
+      },
+      {
+        "pattern": "〜ということ",
+        "meaning": "the fact that...; it means that...",
+        "example": "{来|こ}ないということは、{忙|いそが}しいのだろう",
+        "example_english": "The fact that they're not coming means they're probably busy"
+      },
+      {
+        "pattern": "〜とか〜とか",
+        "meaning": "...and...and such",
+        "example": "りんごとかみかんとか",
+        "example_english": "things like apples and oranges"
+      },
+      {
+        "pattern": "AとBとどちら",
+        "meaning": "which, A or B?",
+        "example": "コーヒーと{紅茶|こうちゃ}とどちらがいいですか",
+        "example_english": "Which would you like, coffee or tea?"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "コーヒーと{紅茶|こうちゃ}、どちらがいいですか。",
+        "english": "Which would you like, coffee or tea?",
+        "notes": "Listing options"
+      },
+      {
+        "japanese": "{友達|ともだち}と{映画|えいが}を{見|み}ました。",
+        "english": "I watched a movie with my friend.",
+        "notes": "Accompaniment"
+      },
+      {
+        "japanese": "{彼|かれ}は「{分|わ}かりました」と{言|い}いました。",
+        "english": "He said, 'I understand.'",
+        "notes": "Quotation"
+      },
+      {
+        "japanese": "このボタンを{押|お}すと、ドアが{開|あ}きます。",
+        "english": "If you press this button, the door opens.",
+        "notes": "Conditional (automatic result)"
+      },
+      {
+        "japanese": "{山田|やまだ}と{申|もう}します。",
+        "english": "My name is Yamada. (formal)",
+        "notes": "Quotation with humble verb"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "mistake": "Using と for incomplete lists",
+        "incorrect": "りんごと{買|か}いました (intending 'I bought apples and other things')",
+        "correct": "りんごや{何|なん}かを{買|か}いました or りんごなどを{買|か}いました",
+        "explanation": "Use や (not と) for non-exhaustive lists"
+      },
+      {
+        "mistake": "Using と conditional for requests/intentions",
+        "incorrect": "{終|お}わると{帰|かえ}ってください",
+        "correct": "{終|お}わったら{帰|かえ}ってください",
+        "explanation": "と conditional cannot be used for requests; use 〜たら"
+      },
+      {
+        "mistake": "Omitting quotation と before {思|おも}う/{言|い}う",
+        "incorrect": "いい{思|おも}います",
+        "correct": "いいと{思|おも}います",
+        "explanation": "Quotation と is required before {思|おも}う, {言|い}う, etc."
+      }
+    ],
+    "notes": "と has many uses. For listing: と gives a complete list (A and B), while や gives an incomplete list (A and B, etc.). For accompaniment: と implies doing something together, while に can mean toward someone. The conditional と expresses natural/automatic results and cannot be used with requests or commands.",
+    "cross_references": [
+      "ni_00001",
+      "mo_00005"
+    ],
+    "metadata": {
+      "created": "2026-01-05T12:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "to_00091": {
     "id": "to_00091",
     "headword": "{戸|と}",
@@ -29301,68 +30743,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "to_00009": {
-    "id": "to_00009",
-    "headword": "と",
-    "reading": "と",
-    "part_of_speech": "particle",
-    "gloss": "and, with, (quotation)",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "and (connecting nouns)",
-        "explanation": "Connects nouns in a complete list. りんごとみかん (apples and oranges). Unlike や, と implies a complete enumeration."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "with (accompaniment)",
-        "explanation": "Indicates doing something together with someone. 友達と行く (go with a friend)."
-      },
-      {
-        "sense_number": 3,
-        "gloss": "quotation marker",
-        "explanation": "Marks quoted speech or thoughts. 「はい」と言う (say 'yes'), いいと思う (think it's good)."
-      },
-      {
-        "sense_number": 4,
-        "gloss": "if/when (conditional)",
-        "explanation": "Expresses a natural or inevitable consequence. 春になると暖かくなる (when spring comes, it gets warm)."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "コーヒーと紅茶、どちらがいいですか。",
-        "english": "Which would you like, coffee or tea?",
-        "notes": "Listing options"
-      },
-      {
-        "japanese": "友達と映画を見ました。",
-        "english": "I watched a movie with my friend.",
-        "notes": "Accompaniment"
-      },
-      {
-        "japanese": "彼は「分かりました」と言いました。",
-        "english": "He said, 'I understand.'",
-        "notes": "Quotation"
-      },
-      {
-        "japanese": "このボタンを押すと、ドアが開きます。",
-        "english": "If you press this button, the door opens.",
-        "notes": "Conditional"
-      }
-    ],
-    "notes": "と has many uses. For listing: と gives a complete list (A and B), while や gives an incomplete list (A and B, etc.). For accompaniment: と implies doing something together, while に can mean toward someone. The conditional と expresses natural/automatic results.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-05T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -30008,6 +31388,48 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "toru_00093": {
+    "id": "toru_00093",
+    "headword": "{撮|と}る",
+    "reading": "とる",
+    "part_of_speech": "verb (godan)",
+    "gloss": "to take (a photo)",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to take (a photo), to shoot (video)",
+        "explanation": "To capture an image or video using a camera. Different kanji from {取|と}る (to take/grab)."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{写真|しゃしん}を{撮|と}りましょう。",
+        "english": "Let's take a photo.",
+        "notes": null
+      },
+      {
+        "japanese": "{写真|しゃしん}を{撮|と}ってもいいですか。",
+        "english": "May I take a photo?",
+        "notes": null
+      },
+      {
+        "japanese": "ビデオを{撮|と}っています。",
+        "english": "I'm recording a video.",
+        "notes": null
+      }
+    ],
+    "notes": "This {撮|と}る is specifically for photography/video. Different from {取|と}る (to take, grab, get) which has a more general meaning. Pattern: {写真|しゃしん}を{撮|と}る, ビデオを{撮|と}る. Related: {撮影|さつえい} (filming, photography).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "toru_00023": {
     "id": "toru_00023",
     "headword": "{取|と}る",
@@ -30053,48 +31475,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
       "modified": "2026-01-07T14:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "toru_00093": {
-    "id": "toru_00093",
-    "headword": "{撮|と}る",
-    "reading": "とる",
-    "part_of_speech": "verb (godan)",
-    "gloss": "to take (a photo)",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to take (a photo), to shoot (video)",
-        "explanation": "To capture an image or video using a camera. Different kanji from {取|と}る (to take/grab)."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{写真|しゃしん}を{撮|と}りましょう。",
-        "english": "Let's take a photo.",
-        "notes": null
-      },
-      {
-        "japanese": "{写真|しゃしん}を{撮|と}ってもいいですか。",
-        "english": "May I take a photo?",
-        "notes": null
-      },
-      {
-        "japanese": "ビデオを{撮|と}っています。",
-        "english": "I'm recording a video.",
-        "notes": null
-      }
-    ],
-    "notes": "This {撮|と}る is specifically for photography/video. Different from {取|と}る (to take, grab, get) which has a more general meaning. Pattern: {写真|しゃしん}を{撮|と}る, ビデオを{撮|と}る. Related: {撮影|さつえい} (filming, photography).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -32168,50 +33548,224 @@ const DICTIONARY_DATA = {
     "reading": "を",
     "part_of_speech": "particle",
     "gloss": "direct object marker",
+    "pronunciation_note": "Pronounced 'o' in modern Japanese, though written with the kana を (wo)",
     "definitions": [
       {
         "sense_number": 1,
         "gloss": "direct object marker",
-        "explanation": "Marks the direct object of a transitive verb—the thing that receives the action. 本を読む (read a book), ご飯を食べる (eat rice/a meal)."
+        "explanation": "Marks the direct object of a transitive verb—the thing that receives the action. {本|ほん}を{読|よ}む (read a book), ご{飯|はん}を{食|た}べる (eat rice/a meal)."
       },
       {
         "sense_number": 2,
         "gloss": "space traversed marker",
-        "explanation": "Marks the space through which movement occurs with verbs of motion. 道を歩く (walk along the road), 空を飛ぶ (fly through the sky), 橋を渡る (cross the bridge)."
+        "explanation": "Marks the space through which movement occurs with verbs of motion. {道|みち}を{歩|ある}く (walk along the road), {空|そら}を{飛|と}ぶ (fly through the sky), {橋|はし}を{渡|わた}る (cross the bridge)."
       },
       {
         "sense_number": 3,
         "gloss": "point of departure marker",
-        "explanation": "Marks the starting point or place from which one leaves with verbs like 出る (leave), 卒業する (graduate from). 家を出る (leave the house), 大学を卒業する (graduate from university)."
+        "explanation": "Marks the starting point or place from which one leaves with verbs like {出|で}る (leave), {卒業|そつぎょう}する (graduate from). {家|いえ}を{出|で}る (leave the house), {大学|だいがく}を{卒業|そつぎょう}する (graduate from university)."
+      }
+    ],
+    "predicates_requiring": {
+      "description": "Common transitive verbs that take を for their object",
+      "verbs": [
+        {
+          "word": "{食|た}べる",
+          "example": "ご{飯|はん}を{食|た}べる",
+          "meaning": "eat food"
+        },
+        {
+          "word": "{飲|の}む",
+          "example": "{水|みず}を{飲|の}む",
+          "meaning": "drink water"
+        },
+        {
+          "word": "{読|よ}む",
+          "example": "{本|ほん}を{読|よ}む",
+          "meaning": "read a book"
+        },
+        {
+          "word": "{書|か}く",
+          "example": "{手紙|てがみ}を{書|か}く",
+          "meaning": "write a letter"
+        },
+        {
+          "word": "{見|み}る",
+          "example": "{映画|えいが}を{見|み}る",
+          "meaning": "watch a movie"
+        },
+        {
+          "word": "{聞|き}く",
+          "example": "{音楽|おんがく}を{聞|き}く",
+          "meaning": "listen to music"
+        },
+        {
+          "word": "{買|か}う",
+          "example": "{服|ふく}を{買|か}う",
+          "meaning": "buy clothes"
+        },
+        {
+          "word": "{作|つく}る",
+          "example": "{料理|りょうり}を{作|つく}る",
+          "meaning": "make food"
+        }
+      ],
+      "motion_verbs": [
+        {
+          "word": "{歩|ある}く",
+          "example": "{道|みち}を{歩|ある}く",
+          "meaning": "walk along the road"
+        },
+        {
+          "word": "{走|はし}る",
+          "example": "{公園|こうえん}を{走|はし}る",
+          "meaning": "run through the park"
+        },
+        {
+          "word": "{渡|わた}る",
+          "example": "{橋|はし}を{渡|わた}る",
+          "meaning": "cross the bridge"
+        },
+        {
+          "word": "{飛|と}ぶ",
+          "example": "{空|そら}を{飛|と}ぶ",
+          "meaning": "fly through the sky"
+        },
+        {
+          "word": "{曲|ま}がる",
+          "example": "{角|かど}を{曲|ま}がる",
+          "meaning": "turn the corner"
+        }
+      ],
+      "departure_verbs": [
+        {
+          "word": "{出|で}る",
+          "example": "{家|いえ}を{出|で}る",
+          "meaning": "leave the house"
+        },
+        {
+          "word": "{卒業|そつぎょう}する",
+          "example": "{大学|だいがく}を{卒業|そつぎょう}する",
+          "meaning": "graduate from university"
+        },
+        {
+          "word": "{降|お}りる",
+          "example": "{電車|でんしゃ}を{降|お}りる",
+          "meaning": "get off the train"
+        },
+        {
+          "word": "{離|はな}れる",
+          "example": "{故郷|こきょう}を{離|はな}れる",
+          "meaning": "leave one's hometown"
+        }
+      ]
+    },
+    "particle_contrasts": [
+      {
+        "particle": "が",
+        "explanation": "With potential verbs, が often replaces を (emphasizing ability rather than object)",
+        "examples": [
+          {
+            "wo_example": "{日本語|にほんご}を{話|はな}す",
+            "wo_english": "speak Japanese",
+            "wo_note": "を with regular verb (action focus)"
+          },
+          {
+            "ga_example": "{日本語|にほんご}が{話|はな}せる",
+            "ga_english": "can speak Japanese",
+            "ga_note": "が with potential form (ability focus)"
+          }
+        ],
+        "key_points": [
+          "Potential forms can take either が (ability) or を (object)",
+          "が emphasizes the ability; を emphasizes the object being acted upon",
+          "Some speakers prefer を with potential forms in modern Japanese"
+        ]
+      },
+      {
+        "particle": "に",
+        "explanation": "For verbs of motion, を marks the path traversed; に marks the destination",
+        "examples": [
+          {
+            "wo_example": "{公園|こうえん}を{歩|ある}く",
+            "wo_english": "walk through the park",
+            "wo_note": "を marks the space moved through"
+          },
+          {
+            "ni_example": "{公園|こうえん}に{行|い}く",
+            "ni_english": "go to the park",
+            "ni_note": "に marks the destination"
+          }
+        ],
+        "key_points": [
+          "を with motion verbs = path/space traversed",
+          "に with motion verbs = destination/endpoint"
+        ]
+      }
+    ],
+    "fixed_patterns": [
+      {
+        "pattern": "〜を{中心|ちゅうしん}に",
+        "meaning": "centered on, with... as the focus",
+        "example": "{東京|とうきょう}を{中心|ちゅうしん}に{活動|かつどう}する",
+        "example_english": "operate with Tokyo as the center"
+      },
+      {
+        "pattern": "〜を{通|とお}じて",
+        "meaning": "through, via",
+        "example": "{友達|ともだち}を{通|とお}じて{知|し}り{合|あ}った",
+        "example_english": "got to know each other through a friend"
       }
     ],
     "examples": [
       {
-        "japanese": "本を読みます。",
+        "japanese": "{本|ほん}を{読|よ}みます。",
         "english": "I read a book.",
         "notes": "Basic direct object usage"
       },
       {
-        "japanese": "コーヒーを飲みませんか。",
+        "japanese": "コーヒーを{飲|の}みませんか。",
         "english": "Would you like to drink coffee?",
-        "notes": null
+        "notes": "Invitation using direct object"
       },
       {
-        "japanese": "公園を散歩しました。",
+        "japanese": "{公園|こうえん}を{散歩|さんぽ}しました。",
         "english": "I took a walk through the park.",
         "notes": "を marking space traversed"
       },
       {
-        "japanese": "電車を降りる。",
+        "japanese": "{電車|でんしゃ}を{降|お}りる。",
         "english": "To get off the train.",
         "notes": "を marking point of departure"
+      },
+      {
+        "japanese": "{角|かど}を{右|みぎ}に{曲|ま}がってください。",
+        "english": "Please turn right at the corner.",
+        "notes": "を with motion verb ({曲|ま}がる)"
       }
     ],
-    "notes": "を is pronounced 'o' in modern Japanese, though it is written with the kana を (wo). This particle is exclusively used as a grammatical particle—it doesn't appear in any other words in modern Japanese. In casual speech, を is sometimes dropped: ご飯食べた (ate a meal).",
-    "cross_references": [],
+    "common_mistakes": [
+      {
+        "mistake": "Using を instead of が with predicates like {好|す}き, {分|わ}かる",
+        "incorrect": "{猫|ねこ}を{好|す}きです",
+        "correct": "{猫|ねこ}が{好|す}きです",
+        "explanation": "These predicates require が, not を"
+      },
+      {
+        "mistake": "Using に instead of を for path traversed",
+        "incorrect": "{道|みち}に{歩|ある}く",
+        "correct": "{道|みち}を{歩|ある}く",
+        "explanation": "When moving THROUGH a space, use を"
+      }
+    ],
+    "notes": "を is exclusively used as a grammatical particle—it doesn't appear in any other words in modern Japanese. In casual speech, を is sometimes dropped: ご{飯|はん}{食|た}べた (ate a meal). The three main uses are: (1) direct object, (2) space traversed with motion verbs, (3) point of departure with leaving verbs.",
+    "cross_references": [
+      "ga_00001",
+      "ni_00001"
+    ],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-07T10:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -32444,6 +33998,53 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "yasashii_00093": {
+    "id": "yasashii_00093",
+    "headword": "{易|やさ}しい",
+    "reading": "やさしい",
+    "part_of_speech": "adjective (i-adjective)",
+    "gloss": "easy; kind, gentle",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "easy, simple",
+        "explanation": "Describes something that is not difficult. Written as {易|やさ}しい. Similar to {簡単|かんたん}."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "kind, gentle",
+        "explanation": "Describes a person who is kind-hearted, gentle, or tender. Written as {優|やさ}しい."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{易|やさ}しい{日本語|にほんご}で{書|か}いてあります。",
+        "english": "It's written in easy Japanese.",
+        "notes": "Using the 'easy' meaning"
+      },
+      {
+        "japanese": "{彼|かれ}は{優|やさ}しい{人|ひと}です。",
+        "english": "He is a kind person.",
+        "notes": "Using the 'kind' meaning"
+      },
+      {
+        "japanese": "もっと{易|やさ}しい{問題|もんだい}をください。",
+        "english": "Please give me an easier problem.",
+        "notes": null
+      }
+    ],
+    "notes": "This word has two distinct meanings with different kanji: {易|やさ}しい (easy) and {優|やさ}しい (kind/gentle). Context usually makes the meaning clear. When written in hiragana (やさしい), it could be either meaning.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "yasashii_00003": {
     "id": "yasashii_00003",
     "headword": "{易|やさ}しい／{優|やさ}しい",
@@ -32483,53 +34084,6 @@ const DICTIONARY_DATA = {
     "cross_references": [
       "muzukashii_00010"
     ],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "yasashii_00093": {
-    "id": "yasashii_00093",
-    "headword": "{易|やさ}しい",
-    "reading": "やさしい",
-    "part_of_speech": "adjective (i-adjective)",
-    "gloss": "easy; kind, gentle",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "easy, simple",
-        "explanation": "Describes something that is not difficult. Written as {易|やさ}しい. Similar to {簡単|かんたん}."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "kind, gentle",
-        "explanation": "Describes a person who is kind-hearted, gentle, or tender. Written as {優|やさ}しい."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{易|やさ}しい{日本語|にほんご}で{書|か}いてあります。",
-        "english": "It's written in easy Japanese.",
-        "notes": "Using the 'easy' meaning"
-      },
-      {
-        "japanese": "{彼|かれ}は{優|やさ}しい{人|ひと}です。",
-        "english": "He is a kind person.",
-        "notes": "Using the 'kind' meaning"
-      },
-      {
-        "japanese": "もっと{易|やさ}しい{問題|もんだい}をください。",
-        "english": "Please give me an easier problem.",
-        "notes": null
-      }
-    ],
-    "notes": "This word has two distinct meanings with different kanji: {易|やさ}しい (easy) and {優|やさ}しい (kind/gentle). Context usually makes the meaning clear. When written in hiragana (やさしい), it could be either meaning.",
-    "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -34027,15 +35581,15 @@ const DICTIONARY_INDEX = {
     "あまり": [
       "amari_00066"
     ],
-    "{飴|あめ}": [
-      "ame_00092"
-    ],
-    "あめ": [
-      "ame_00092",
-      "ame_00044"
-    ],
     "{雨|あめ}": [
       "ame_00044"
+    ],
+    "あめ": [
+      "ame_00044",
+      "ame_00092"
+    ],
+    "{飴|あめ}": [
+      "ame_00092"
     ],
     "{姉|あね}": [
       "ane_00028"
@@ -34641,12 +36195,12 @@ const DICTIONARY_INDEX = {
     "ごご": [
       "gogo_00017"
     ],
-    "ごはん": [
-      "gohan_00023",
-      "gohan_00094"
-    ],
     "ご{飯|はん}": [
       "gohan_00094"
+    ],
+    "ごはん": [
+      "gohan_00094",
+      "gohan_00023"
     ],
     "{五十|ごじゅう}": [
       "gojuu_00096"
@@ -34681,12 +36235,12 @@ const DICTIONARY_INDEX = {
     "ぎゅうにゅう": [
       "gyuunyuu_00094"
     ],
-    "は": [
-      "ha_00001",
-      "ha_00094"
-    ],
     "{歯|は}": [
       "ha_00094"
+    ],
+    "は": [
+      "ha_00094",
+      "ha_00001"
     ],
     "{八|はち}": [
       "hachi_00093"
@@ -34794,15 +36348,15 @@ const DICTIONARY_INDEX = {
     "はさみ": [
       "hasami_00093"
     ],
-    "{端|はし}": [
-      "hashi_00096"
-    ],
-    "はし": [
-      "hashi_00096",
-      "hashi_00097"
-    ],
     "{箸|はし}": [
       "hashi_00097"
+    ],
+    "はし": [
+      "hashi_00097",
+      "hashi_00096"
+    ],
+    "{端|はし}": [
+      "hashi_00096"
     ],
     "{走|はし}る": [
       "hashiru_00011"
@@ -34952,15 +36506,15 @@ const DICTIONARY_INDEX = {
     "ひざ": [
       "hiza_00096"
     ],
-    "〜{本|ほん}": [
-      "hon_00092"
-    ],
-    "ほん": [
-      "hon_00092",
-      "hon_00001"
-    ],
     "{本|ほん}": [
       "hon_00001"
+    ],
+    "ほん": [
+      "hon_00001",
+      "hon_00092"
+    ],
+    "〜{本|ほん}": [
+      "hon_00092"
     ],
     "{本当|ほんとう}": [
       "hontou_00094"
@@ -35313,15 +36867,15 @@ const DICTIONARY_INDEX = {
     "かちょう": [
       "kachou_00098"
     ],
-    "{変|か}える": [
-      "kaeru_00099"
-    ],
-    "かえる": [
-      "kaeru_00099",
-      "kaeru_00009"
-    ],
     "{帰|かえ}る": [
       "kaeru_00009"
+    ],
+    "かえる": [
+      "kaeru_00009",
+      "kaeru_00099"
+    ],
+    "{変|か}える": [
+      "kaeru_00099"
     ],
     "ヶ{月|げつ}": [
       "kagetsu_00096"
@@ -35335,15 +36889,15 @@ const DICTIONARY_INDEX = {
     "かぎ": [
       "kagi_00091"
     ],
-    "{階|かい}": [
-      "kai_00097"
-    ],
-    "かい": [
-      "kai_00097",
-      "kai_00096"
-    ],
     "{回|かい}": [
       "kai_00096"
+    ],
+    "かい": [
+      "kai_00096",
+      "kai_00097"
+    ],
+    "{階|かい}": [
+      "kai_00097"
     ],
     "{階段|かいだん}": [
       "kaidan_00094"
@@ -36636,15 +38190,15 @@ const DICTIONARY_INDEX = {
     "おこる": [
       "okoru_00095"
     ],
-    "{奥|おく}": [
-      "oku_00096"
-    ],
-    "おく": [
-      "oku_00096",
-      "oku_00099"
-    ],
     "{置|お}く": [
       "oku_00099"
+    ],
+    "おく": [
+      "oku_00099",
+      "oku_00096"
+    ],
+    "{奥|おく}": [
+      "oku_00096"
     ],
     "{遅|おく}れる": [
       "okureru_00093"
@@ -37588,12 +39142,12 @@ const DICTIONARY_INDEX = {
     "てつだう": [
       "tetsudau_00095"
     ],
-    "{戸|と}": [
+    "と": [
+      "to_00009",
       "to_00091"
     ],
-    "と": [
-      "to_00091",
-      "to_00009"
+    "{戸|と}": [
+      "to_00091"
     ],
     "{飛|と}ぶ": [
       "tobu_00093"
@@ -37676,15 +39230,15 @@ const DICTIONARY_INDEX = {
     "とり": [
       "tori_00091"
     ],
-    "{取|と}る": [
-      "toru_00023"
-    ],
-    "とる": [
-      "toru_00023",
-      "toru_00093"
-    ],
     "{撮|と}る": [
       "toru_00093"
+    ],
+    "とる": [
+      "toru_00093",
+      "toru_00023"
+    ],
+    "{取|と}る": [
+      "toru_00023"
     ],
     "{年|とし}": [
       "toshi_00005"
@@ -37969,15 +39523,15 @@ const DICTIONARY_INDEX = {
     "やさい": [
       "yasai_00008"
     ],
-    "{易|やさ}しい／{優|やさ}しい": [
-      "yasashii_00003"
-    ],
-    "やさしい": [
-      "yasashii_00003",
-      "yasashii_00093"
-    ],
     "{易|やさ}しい": [
       "yasashii_00093"
+    ],
+    "やさしい": [
+      "yasashii_00093",
+      "yasashii_00003"
+    ],
+    "{易|やさ}しい／{優|やさ}しい": [
+      "yasashii_00003"
     ],
     "{安|やす}い": [
       "yasui_00002"
@@ -38189,8 +39743,8 @@ const DICTIONARY_INDEX = {
       "amari_00066"
     ],
     "ame": [
-      "ame_00092",
-      "ame_00044"
+      "ame_00044",
+      "ame_00092"
     ],
     "ane": [
       "ane_00028"
@@ -38530,8 +40084,8 @@ const DICTIONARY_INDEX = {
       "gogo_00017"
     ],
     "gohan": [
-      "gohan_00023",
-      "gohan_00094"
+      "gohan_00094",
+      "gohan_00023"
     ],
     "gojuu": [
       "gojuu_00096"
@@ -38552,8 +40106,8 @@ const DICTIONARY_INDEX = {
       "gyuunyuu_00094"
     ],
     "ha": [
-      "ha_00001",
-      "ha_00094"
+      "ha_00094",
+      "ha_00001"
     ],
     "hachi": [
       "hachi_00093"
@@ -38611,8 +40165,8 @@ const DICTIONARY_INDEX = {
       "hasami_00093"
     ],
     "hashi": [
-      "hashi_00096",
-      "hashi_00097"
+      "hashi_00097",
+      "hashi_00096"
     ],
     "hashiru": [
       "hashiru_00011"
@@ -38691,8 +40245,8 @@ const DICTIONARY_INDEX = {
       "hiza_00096"
     ],
     "hon": [
-      "hon_00092",
-      "hon_00001"
+      "hon_00001",
+      "hon_00092"
     ],
     "hontou": [
       "hontou_00094"
@@ -38884,8 +40438,8 @@ const DICTIONARY_INDEX = {
       "kachou_00098"
     ],
     "kaeru": [
-      "kaeru_00099",
-      "kaeru_00009"
+      "kaeru_00009",
+      "kaeru_00099"
     ],
     "kagetsu": [
       "kagetsu_00096"
@@ -38894,8 +40448,8 @@ const DICTIONARY_INDEX = {
       "kagi_00091"
     ],
     "kai": [
-      "kai_00097",
-      "kai_00096"
+      "kai_00096",
+      "kai_00097"
     ],
     "kaidan": [
       "kaidan_00094"
@@ -39595,8 +41149,8 @@ const DICTIONARY_INDEX = {
       "okoru_00095"
     ],
     "oku": [
-      "oku_00096",
-      "oku_00099"
+      "oku_00099",
+      "oku_00096"
     ],
     "okureru": [
       "okureru_00093"
@@ -40106,8 +41660,8 @@ const DICTIONARY_INDEX = {
       "tetsudau_00095"
     ],
     "to": [
-      "to_00091",
-      "to_00009"
+      "to_00009",
+      "to_00091"
     ],
     "tobu": [
       "tobu_00093"
@@ -40152,8 +41706,8 @@ const DICTIONARY_INDEX = {
       "tori_00091"
     ],
     "toru": [
-      "toru_00023",
-      "toru_00093"
+      "toru_00093",
+      "toru_00023"
     ],
     "toshi": [
       "toshi_00005"
@@ -40310,8 +41864,8 @@ const DICTIONARY_INDEX = {
       "yasai_00008"
     ],
     "yasashii": [
-      "yasashii_00003",
-      "yasashii_00093"
+      "yasashii_00093",
+      "yasashii_00003"
     ],
     "yasui": [
       "yasui_00002"
@@ -40543,8 +42097,8 @@ const DICTIONARY_INDEX = {
       "iu_00010",
       "junbi_00110",
       "kaburu_00093",
-      "kaeru_00099",
       "kaeru_00009",
+      "kaeru_00099",
       "kakaru_00093",
       "kakeru_00095",
       "kaku_00004",
@@ -40631,8 +42185,8 @@ const DICTIONARY_INDEX = {
       "tomaru_00020",
       "tomeru_00091",
       "tonari_00096",
-      "toru_00023",
       "toru_00093",
+      "toru_00023",
       "tsukareru_00095",
       "tsukau_00003",
       "tsukeru_00022",
@@ -40719,6 +42273,7 @@ const DICTIONARY_INDEX = {
       "de_00008",
       "dochira_00096",
       "kai_00097",
+      "made_00006",
       "mae_00091",
       "maeni_00096",
       "mazu_00094",
@@ -40881,9 +42436,14 @@ const DICTIONARY_INDEX = {
     "much": [
       "amari_00066",
       "ikura_00096",
+      "mo_00005",
       "ooi_00103",
       "takusan_00059",
       "zutto_00095"
+    ],
+    "rain": [
+      "ame_00044",
+      "furu_00095"
     ],
     "candy": [
       "ame_00092"
@@ -40897,10 +42457,6 @@ const DICTIONARY_INDEX = {
     ],
     "sweets": [
       "ame_00092"
-    ],
-    "rain": [
-      "ame_00044",
-      "furu_00095"
     ],
     "older": [
       "ane_00028",
@@ -41436,8 +42992,8 @@ const DICTIONARY_INDEX = {
     ],
     "rice": [
       "chawan_00097",
-      "gohan_00023",
       "gohan_00094",
+      "gohan_00023",
       "osake_00097"
     ],
     "bowl": [
@@ -41716,8 +43272,8 @@ const DICTIONARY_INDEX = {
       "narau_00004",
       "nugu_00010",
       "suwaru_00093",
-      "toru_00023",
       "toru_00093",
+      "toru_00023",
       "yasumu_00072"
     ],
     "submit": [
@@ -41778,7 +43334,8 @@ const DICTIONARY_INDEX = {
     ],
     "made": [
       "de_00008",
-      "dekiru_00021"
+      "dekiru_00021",
+      "kara_00008"
     ],
     "material": [
       "de_00008"
@@ -41803,6 +43360,9 @@ const DICTIONARY_INDEX = {
       "naka_00091"
     ],
     "scope/limit": [
+      "de_00008"
+    ],
+    "age/situation": [
       "de_00008"
     ],
     "leave": [
@@ -42069,7 +43629,9 @@ const DICTIONARY_INDEX = {
       "futari_00091",
       "kyoushitsu_00094",
       "made_00006",
+      "mo_00005",
       "oku_00099",
+      "to_00009",
       "you_00101"
     ],
     "pair": [
@@ -42189,12 +43751,12 @@ const DICTIONARY_INDEX = {
       "gogo_00017"
     ],
     "meal": [
-      "gohan_00023",
-      "gohan_00094"
+      "gohan_00094",
+      "gohan_00023"
     ],
     "cooked": [
-      "gohan_00023",
-      "gohan_00094"
+      "gohan_00094",
+      "gohan_00023"
     ],
     "food": [
       "gohan_00094",
@@ -42237,17 +43799,17 @@ const DICTIONARY_INDEX = {
     "cow's": [
       "gyuunyuu_00094"
     ],
-    "topic": [
-      "ha_00001"
-    ],
-    "contrast": [
-      "ha_00001"
-    ],
     "tooth": [
       "ha_00094"
     ],
     "teeth": [
       "ha_00094"
+    ],
+    "topic": [
+      "ha_00001"
+    ],
+    "contrast": [
+      "ha_00001"
     ],
     "eight": [
       "hachi_00093"
@@ -42413,6 +43975,9 @@ const DICTIONARY_INDEX = {
     "scissors": [
       "hasami_00093"
     ],
+    "chopsticks": [
+      "hashi_00097"
+    ],
     "edge": [
       "hashi_00096"
     ],
@@ -42424,9 +43989,6 @@ const DICTIONARY_INDEX = {
     ],
     "tip": [
       "hashi_00096"
-    ],
-    "chopsticks": [
-      "hashi_00097"
     ],
     "run": [
       "hashiru_00011",
@@ -42636,15 +44198,15 @@ const DICTIONARY_INDEX = {
     "lap": [
       "hiza_00096"
     ],
+    "book": [
+      "hon_00001"
+    ],
     "long": [
       "hon_00092",
       "nagai_00006"
     ],
     "cylindrical": [
       "hon_00092"
-    ],
-    "book": [
-      "hon_00001"
     ],
     "truth": [
       "hontou_00094"
@@ -42687,6 +44249,7 @@ const DICTIONARY_INDEX = {
       "hou_00105",
       "ichinichi_00096",
       "ima_00096",
+      "made_00006",
       "mannaka_00096",
       "mazu_00094",
       "mukou_00096",
@@ -42785,6 +44348,7 @@ const DICTIONARY_INDEX = {
     ],
     "many": [
       "ikutsu_00096",
+      "mo_00005",
       "ooi_00103",
       "takusan_00059"
     ],
@@ -43076,6 +44640,10 @@ const DICTIONARY_INDEX = {
     "chief": [
       "kachou_00098"
     ],
+    "return": [
+      "kaeru_00009",
+      "modoru_00102"
+    ],
     "change": [
       "kaeru_00099",
       "kawaru_00093",
@@ -43090,10 +44658,6 @@ const DICTIONARY_INDEX = {
     "exchange": [
       "kaeru_00099"
     ],
-    "return": [
-      "kaeru_00009",
-      "modoru_00102"
-    ],
     "months": [
       "kagetsu_00096"
     ],
@@ -43102,6 +44666,15 @@ const DICTIONARY_INDEX = {
     ],
     "lock": [
       "kagi_00091"
+    ],
+    "times": [
+      "kai_00096"
+    ],
+    "frequency": [
+      "kai_00096"
+    ],
+    "occurrences": [
+      "kai_00096"
     ],
     "floors": [
       "kai_00097"
@@ -43112,15 +44685,6 @@ const DICTIONARY_INDEX = {
     "building": [
       "kai_00097",
       "manshon_00097"
-    ],
-    "times": [
-      "kai_00096"
-    ],
-    "frequency": [
-      "kai_00096"
-    ],
-    "occurrences": [
-      "kai_00096"
     ],
     "stairs": [
       "kaidan_00094"
@@ -43234,14 +44798,14 @@ const DICTIONARY_INDEX = {
     "easy": [
       "kantan_00093",
       "raku_00095",
-      "yasashii_00003",
-      "yasashii_00093"
+      "yasashii_00093",
+      "yasashii_00003"
     ],
     "simple": [
       "kantan_00093",
       "raku_00095",
-      "yasashii_00003",
-      "yasashii_00093"
+      "yasashii_00093",
+      "yasashii_00003"
     ],
     "brief": [
       "kantan_00093"
@@ -43276,6 +44840,9 @@ const DICTIONARY_INDEX = {
       "wake_00099"
     ],
     "sequence": [
+      "kara_00008"
+    ],
+    "material/origin": [
       "kara_00008"
     ],
     "physical": [
@@ -43914,6 +45481,9 @@ const DICTIONARY_INDEX = {
     "emphasis": [
       "made_00006"
     ],
+    "extent": [
+      "made_00006"
+    ],
     "window": [
       "mado_00091"
     ],
@@ -44421,6 +45991,12 @@ const DICTIONARY_INDEX = {
     "purpose": [
       "ni_00001",
       "tame_00105"
+    ],
+    "agent": [
+      "ni_00001"
+    ],
+    "passive/causative": [
+      "ni_00001"
     ],
     "sunday": [
       "nichiyoubi_00091"
@@ -44959,8 +46535,8 @@ const DICTIONARY_INDEX = {
     ],
     "photo": [
       "shashin_00093",
-      "toru_00023",
-      "toru_00093"
+      "toru_00093",
+      "toru_00023"
     ],
     "shirt": [
       "shatsu_00097",
@@ -45040,8 +46616,8 @@ const DICTIONARY_INDEX = {
     ],
     "kind": [
       "shinsetsu_00105",
-      "yasashii_00003",
-      "yasashii_00093"
+      "yasashii_00093",
+      "yasashii_00003"
     ],
     "friendly": [
       "shinsetsu_00105"
@@ -45425,9 +47001,6 @@ const DICTIONARY_INDEX = {
     "assist": [
       "tetsudau_00095"
     ],
-    "sliding": [
-      "to_00091"
-    ],
     "quotation": [
       "to_00009"
     ],
@@ -45445,6 +47018,12 @@ const DICTIONARY_INDEX = {
     ],
     "conditional": [
       "to_00009"
+    ],
+    "comparison/manner": [
+      "to_00009"
+    ],
+    "sliding": [
+      "to_00091"
     ],
     "fly": [
       "tobu_00093"
@@ -45517,14 +47096,14 @@ const DICTIONARY_INDEX = {
     "poultry": [
       "tori_00091"
     ],
-    "obtain": [
-      "toru_00023"
-    ],
     "shoot": [
       "toru_00093"
     ],
     "video": [
       "toru_00093"
+    ],
+    "obtain": [
+      "toru_00023"
     ],
     "age": [
       "toshi_00005"
@@ -45806,8 +47385,8 @@ const DICTIONARY_INDEX = {
       "yasai_00008"
     ],
     "gentle": [
-      "yasashii_00003",
       "yasashii_00093",
+      "yasashii_00003",
       "yawarakai_00099"
     ],
     "tender": [

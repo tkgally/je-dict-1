@@ -8,46 +8,156 @@
     {
       "sense_number": 1,
       "gloss": "until, to (time endpoint)",
-      "explanation": "Marks the ending point in time. 五時まで働く (work until 5 o'clock), 明日まで (until tomorrow)."
+      "explanation": "Marks the ending point in time. {五時|ごじ}まで{働|はたら}く (work until 5 o'clock), {明日|あした}まで (until tomorrow)."
     },
     {
       "sense_number": 2,
       "gloss": "to, as far as (spatial endpoint)",
-      "explanation": "Marks the ending point in space. 駅まで歩く (walk to the station)."
+      "explanation": "Marks the ending point in space. {駅|えき}まで{歩|ある}く (walk to the station)."
     },
     {
       "sense_number": 3,
       "gloss": "even (emphasis)",
-      "explanation": "Emphasizes an extreme or unexpected extent. 彼まで来た (even he came)."
+      "explanation": "Emphasizes an extreme or unexpected extent. {彼|かれ}まで{来|き}た (even he came), {子供|こども}まで{知|し}っている (even children know)."
+    },
+    {
+      "sense_number": 4,
+      "gloss": "to the extent of",
+      "explanation": "Indicates the degree to which something extends. {泣|な}くまで{笑|わら}った (laughed until [I] cried)."
+    }
+  ],
+  "particle_contrasts": [
+    {
+      "particle": "に",
+      "explanation": "まで emphasizes extent/continuation to endpoint; に marks a specific point",
+      "examples": [
+        {
+          "made_example": "{五時|ごじ}まで{働|はたら}く",
+          "made_english": "work until 5 o'clock",
+          "made_note": "まで emphasizes duration up to endpoint"
+        },
+        {
+          "ni_example": "{五時|ごじ}に{終|お}わる",
+          "ni_english": "finish at 5 o'clock",
+          "ni_note": "に marks a specific point in time"
+        }
+      ],
+      "key_points": [
+        "まで = extent/duration up to a point",
+        "に = specific point/moment",
+        "までに = 'by' (deadline): {五時|ごじ}までに (by 5 o'clock)"
+      ]
+    },
+    {
+      "particle": "も",
+      "explanation": "Both can mean 'even,' but まで emphasizes extent while も indicates inclusion",
+      "examples": [
+        {
+          "made_example": "{子供|こども}まで{知|し}っている",
+          "made_english": "even children know",
+          "made_note": "まで: surprising extent"
+        },
+        {
+          "mo_example": "{子供|こども}も{知|し}っている",
+          "mo_english": "children also know",
+          "mo_note": "も: simple inclusion"
+        }
+      ],
+      "key_points": [
+        "まで 'even' = surprising/extreme extent",
+        "も 'even/also' = inclusive addition",
+        "まで implies going as far as an unexpected point"
+      ]
+    }
+  ],
+  "fixed_patterns": [
+    {
+      "pattern": "〜から〜まで",
+      "meaning": "from... to...",
+      "example": "{東京|とうきょう}から{大阪|おおさか}まで",
+      "example_english": "from Tokyo to Osaka"
+    },
+    {
+      "pattern": "〜までに",
+      "meaning": "by (deadline)",
+      "example": "{金曜日|きんようび}までに{終|お}わらせる",
+      "example_english": "finish by Friday"
+    },
+    {
+      "pattern": "〜まで〜ない",
+      "meaning": "not until...",
+      "example": "{来週|らいしゅう}まで{会|あ}えない",
+      "example_english": "can't meet until next week"
+    },
+    {
+      "pattern": "〜するまで",
+      "meaning": "until [someone] does...",
+      "example": "{分|わ}かるまで{説明|せつめい}する",
+      "example_english": "explain until [you] understand"
+    },
+    {
+      "pattern": "今まで",
+      "meaning": "until now, so far",
+      "example": "{今|いま}まで{知|し}らなかった",
+      "example_english": "didn't know until now"
+    },
+    {
+      "pattern": "どこまでも",
+      "meaning": "endlessly, forever, anywhere",
+      "example": "どこまでも{続|つづ}く{道|みち}",
+      "example_english": "a road that goes on forever"
     }
   ],
   "examples": [
     {
-      "japanese": "十二時まで起きていました。",
+      "japanese": "{十二時|じゅうにじ}まで{起|お}きていました。",
       "english": "I was up until 12 o'clock.",
       "notes": "Time endpoint"
     },
     {
-      "japanese": "東京から大阪まで新幹線で行きます。",
+      "japanese": "{東京|とうきょう}から{大阪|おおさか}まで{新幹線|しんかんせん}で{行|い}きます。",
       "english": "I'll take the Shinkansen from Tokyo to Osaka.",
-      "notes": "から...まで for range"
+      "notes": "から...まで for spatial range"
     },
     {
-      "japanese": "ここまで来てくれてありがとう。",
+      "japanese": "ここまで{来|き}てくれてありがとう。",
       "english": "Thank you for coming all the way here.",
-      "notes": "Spatial endpoint"
+      "notes": "Spatial endpoint with appreciation"
     },
     {
-      "japanese": "子供まで分かる簡単な問題です。",
+      "japanese": "{子供|こども}まで{分|わ}かる{簡単|かんたん}な{問題|もんだい}です。",
       "english": "It's such an easy problem that even children understand.",
       "notes": "Emphatic 'even'"
+    },
+    {
+      "japanese": "{金曜日|きんようび}までに{提出|ていしゅつ}してください。",
+      "english": "Please submit it by Friday.",
+      "notes": "までに = by (deadline)"
     }
   ],
-  "notes": "まで often pairs with から: 九時から五時まで (from 9 to 5). Unlike に (which marks a specific point), まで emphasizes the extent or continuation up to that point. までに means 'by (a deadline)': 金曜日までに (by Friday).",
-  "cross_references": [],
+  "common_mistakes": [
+    {
+      "mistake": "Confusing まで with までに",
+      "context": "{五時|ごじ}まで vs {五時|ごじ}までに",
+      "explanation": "まで = until 5 (continuous); までに = by 5 (deadline)"
+    },
+    {
+      "mistake": "Using まで when に is more appropriate",
+      "incorrect": "{三時|さんじ}まで{始|はじ}まる",
+      "correct": "{三時|さんじ}に{始|はじ}まる",
+      "explanation": "Use に for specific point events; まで for duration/extent"
+    },
+    {
+      "mistake": "Using も instead of まで for 'even' (surprising extent)",
+      "context": "When emphasizing an unexpected extreme, まで is stronger",
+      "explanation": "{先生|せんせい}まで{間違|まちが}えた (even the teacher made a mistake) vs {先生|せんせい}も{間違|まちが}えた (the teacher also made a mistake)"
+    }
+  ],
+  "notes": "まで often pairs with から: {九時|くじ}から{五時|ごじ}まで (from 9 to 5). Unlike に (which marks a specific point), まで emphasizes the extent or continuation up to that point. までに means 'by (a deadline)': {金曜日|きんようび}までに (by Friday). As 'even,' まで is stronger than も, implying a surprising extreme.",
+  "cross_references": ["kara_00008", "ni_00001"],
   "metadata": {
     "created": "2026-01-05T12:00:00Z",
-    "modified": "2026-01-05T12:00:00Z",
+    "modified": "2026-01-07T10:00:00Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",
