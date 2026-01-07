@@ -11,11 +11,11 @@ Point an AI assistant to this file when resuming work on this project.
 ## Current Status
 
 - **Phase**: Phase 2 - Core Vocabulary Expansion
-- **Entries**: 519 (verbs, nouns, adjectives, adverbs, particles, counters) - all with furigana
-- **N5 Coverage**: ~65% (519/800 words)
+- **Entries**: 620 (verbs, nouns, adjectives, adverbs, particles, counters, demonstratives, conjunctions, expressions) - all with furigana
+- **N5 Coverage**: ~78% (620/800 words)
 - **Infrastructure**: Fully functional (build scripts, web interface, sidebar browser)
 - **Live site**: https://tkgally.github.io/je-dict-1/
-- **Target**: 600-700 entries for substantial N5 coverage
+- **Target**: 700-750 entries for comprehensive N5 coverage
 
 ## Session History
 
@@ -27,11 +27,12 @@ Point an AI assistant to this file when resuming work on this project.
 | 4 | 52 | 351 | Numbers 1-10, time expressions, adjectives, verbs, stationery, nature, clothing, furniture |
 | 5 | 68 | 419 | Body parts, family, school/education, food, verbs, transport, household, adjectives, numbers, health, adverbs |
 | 6 | 100 | 519 | Verbs, shopping/commerce, nature, food, time, adjectives, adverbs |
+| 7 | 101 | 620 | Colors, family terms, question words, numbers 11-50, counters, time expressions, positional words, body parts, demonstratives, conjunctions, common expressions |
 
 ## Key Files to Read
 
 1. **`PROJECT_STATUS.md`** - Detailed current state, next steps, and technical notes
-2. **`N5_REMAINING_VOCABULARY.md`** - Comprehensive list of ~230 remaining N5 words to add
+2. **`N5_REMAINING_VOCABULARY.md`** - Remaining N5 words to add
 3. **`project_specification.md`** - Full project specification and design decisions
 4. **`build/schema.json`** - Entry JSON schema
 5. **`build/new_entries.txt`** - List of entries to mark as "New" in sidebar
@@ -61,28 +62,26 @@ Entries go in `entries/{kana-row}/` directories:
 File naming: `{romaji}_{5-digit-id}.json`
 - Example: 食べる (たべる) → `entries/ta/taberu_00001.json`
 
-**Next available IDs**: Use IDs >= 00096 in any directory to avoid conflicts.
+**Next available IDs**: Use IDs >= 00097 in any directory to avoid conflicts (except `/ka/` which should use >= 00098).
 
 See `PROJECT_STATUS.md` for the entry template and detailed ID assignment.
 
-## Session 7 Tasks (Next Session)
+## Session 8 Tasks (Next Session)
 
-1. **Clear new_entries.txt** at start (removes "New" tags from Session 6 entries)
-2. **Add ~100 more N5 entries** from `N5_REMAINING_VOCABULARY.md`:
-   - Colors (3): kiiroi, chairoi, midori
-   - Family terms (7): shujin, otto, kanai, tsuma, kyoudai, oji, oba
-   - Question words (3): ikutsu, ikura, dochira
-   - Extended numbers (16): 11-19, 20-50, etc.
-   - Counters (12): kai, kagetsu, fun, etc.
-   - Time expressions (12): ima, nanji, goro, etc.
-   - Positional words (10): tonari, soba, chikaku, etc.
-   - Body parts (8): mune, koshi, hiza, etc.
-   - Demonstratives (12): kore, sore, are, etc.
-   - Conjunctions (10): soshite, demo, shikashi, etc.
+1. **Clear new_entries.txt** at start (removes "New" tags from Session 7 entries)
+2. **Add ~80 more N5 entries** from `N5_REMAINING_VOCABULARY.md`:
+   - Remaining common expressions (8)
+   - Clothing (11): shatsu, zubon, sukaato, etc.
+   - Food/Drinks (14): shouyu, banana, juusu, biiru, etc.
+   - Kitchen/Household (13): daidokoro, reizouko, nabe, etc.
+   - Buildings/Places (15): apato, hoteru, suupaa, konbini, etc.
+   - Transportation (5): chikatetsu, shinkansen, etc.
+   - School/Education (8): shougakkou, chuugakkou, tesuto, etc.
+   - Select 6 from work/business
 3. **Update new_entries.txt** with new entry IDs
 4. **Build and validate**
 5. **Update PROJECT_STATUS.md** with new counts
-6. **Target**: Reach ~620 entries (~78% N5 coverage)
+6. **Target**: Reach ~700 entries (~88% N5 coverage)
 
 ## Important Conventions
 
