@@ -11,6 +11,16 @@ A Japanese-English learner's dictionary emphasizing quality over quantity, deliv
 - **Usage notes** covering grammar, register, and common patterns
 - **Rich particle and auxiliary verb entries** crucial for learners
 - **Furigana support** with toggle to show/hide readings above kanji
+- **Transitivity and aspect information** for verbs (v2 enhancement)
+- **Collocation patterns** showing natural word combinations (v2 enhancement)
+
+## Current Status
+
+- **764 entries** covering N5 vocabulary (~95% complete)
+- **Quality specification v2** based on multi-model LLM evaluation
+- **Claude Code skills** for consistent entry creation and revision
+
+**Live site**: https://tkgally.github.io/je-dict-1/
 
 ## Target Users
 
@@ -67,17 +77,17 @@ je-dict-1/
 │   ├── ya/           # や行
 │   ├── ra/           # ら行
 │   └── wa/           # わ行 (includes を, ん)
-├── variants/         # Alternate reading entries
 ├── build/            # Build scripts
 │   ├── schema.json   # JSON schema for entries
 │   ├── validate.py   # Entry validation script
 │   ├── build.py      # Main build script
 │   └── requirements.txt
 ├── web/              # Web application source
-│   ├── index.html
-│   ├── styles.css
-│   └── app.js
 ├── docs/             # Generated output (served by GitHub Pages)
+├── .claude/          # Claude Code configuration
+│   ├── skills/       # Agent skills for entry guidelines (auto-loaded)
+│   └── settings.json
+├── project_specification_v2.md  # Quality standards from LLM evaluation
 └── PROJECT_STATUS.md # Session continuity file
 ```
 
@@ -176,27 +186,28 @@ Files go in directories based on the first kana of the reading:
 
 ## Phased Roadmap
 
-### Phase 1: Foundation (Current)
+### Phase 1: Foundation ✓ COMPLETE
 - [x] Project structure and schema
 - [x] Build and validation scripts
 - [x] Basic web interface
-- [x] Sample entries (47 entries)
 - [x] Furigana system with toggle
 
-### Phase 2: Core Vocabulary
-- [ ] Complete N5 vocabulary (~800 words)
-- [ ] Begin N4 vocabulary
-- [ ] Reach critical mass (500-1000 entries)
+### Phase 2: Core Vocabulary ✓ MOSTLY COMPLETE
+- [x] N5 vocabulary (~764 entries, 95% coverage)
+- [x] Multi-model LLM evaluation
+- [x] Quality specification v2
+- [ ] Entry revision to v2 standards (in progress)
 
-### Phase 3: Conjugation and Search
-- [ ] Implement conjugation indexing
-- [ ] Enhanced search (better partial matching)
-- [ ] Performance optimization if needed
+### Phase 3: Entry Enhancement (Current)
+- [ ] Add transitivity/aspect to all verbs
+- [ ] Expand particle entries with predicate lists
+- [ ] Add collocation patterns
+- [ ] Standardize adjective forms
 
-### Phase 4: Content Expansion
-- [ ] Complete N4, begin N3 vocabulary
+### Phase 4: N4 Expansion
+- [ ] Add ~700 N4 vocabulary entries
 - [ ] Implement cross-references
-- [ ] Refine AI generation workflow
+- [ ] Conjugation search indexing
 
 ### Phase 5: Polish and Distribution
 - [ ] Offline package generation
@@ -205,14 +216,47 @@ Files go in directories based on the first kana of the reading:
 
 ## For AI Assistants
 
-When creating or editing entries:
+### Available Skills
 
-1. **Read PROJECT_STATUS.md first** to understand current state
-2. **Validate entries** after creation: `python3 build/validate.py`
-3. **Follow the schema** defined in `build/schema.json`
-4. **Place files correctly** based on the reading's first kana
-5. **Update PROJECT_STATUS.md** at the end of each session
-6. **Use furigana notation** for all kanji: `{漢字|かんじ}`
+The following skills are available in `.claude/skills/` and will be automatically invoked by Claude Code when relevant:
+
+| Skill | Purpose |
+|-------|---------|
+| `entry-guidelines` | General quality standards for all entries |
+| `verb-entry` | Requirements for verb entries (transitivity, aspect, collocations) |
+| `adjective-entry` | Requirements for adjective entries (forms, conjugations) |
+| `particle-entry` | Requirements for particle entries (predicate lists, contrasts) |
+| `other-entries` | Requirements for nouns, counters, adverbs, expressions |
+| `revise-entries` | Checklist for revising existing entries to v2 standards |
+
+Skills are automatically loaded when Claude determines they're relevant to the current task.
+
+### Workflow for Creating/Editing Entries
+
+1. **Read PROJECT_STATUS.md** to understand current state
+2. **Claude will automatically load relevant skills** based on the entry type being created/revised
+3. **Follow the guidelines** from the loaded skills
+4. **Validate entries** after creation: `python3 build/validate.py`
+5. **Place files correctly** based on the reading's first kana
+6. **Update PROJECT_STATUS.md** at the end of each session
+
+### Key Quality Standards (v2)
+
+Based on multi-model LLM evaluation, these are HIGH PRIORITY for all entries:
+
+**For Verbs:**
+- Transitivity type and pair verb
+- Aspect/ている behavior
+- Common collocations
+
+**For Particles:**
+- List of predicates requiring this particle
+- Contrast with similar particles
+
+**For All Entries:**
+- Examples progress from simple to complex
+- At least one collocation or fixed phrase
+- Consistent depth with similar entries
 
 ### Romanization Quick Reference
 
