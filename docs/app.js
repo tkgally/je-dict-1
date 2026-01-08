@@ -383,7 +383,7 @@
             html += `
                 <div class="entry-notes">
                     <h3>Notes</h3>
-                    <p>${processJapaneseText(entry.notes)}</p>
+                    <div class="notes-content">${processNotesText(entry.notes)}</div>
                 </div>
             `;
         }
@@ -454,6 +454,63 @@
         }
 
         return parts.join('');
+    }
+
+    /**
+     * Process notes text with proper formatting.
+     * Handles paragraphs, bullet points, and line breaks.
+     * @param {string} text - Notes text that may contain formatting
+     * @returns {string} - Safe HTML for display
+     */
+    function processNotesText(text) {
+        if (!text) return '';
+
+        // Split into paragraphs (double newline)
+        const paragraphs = text.split(/\n\n+/);
+
+        return paragraphs.map(para => {
+            // Check if this paragraph contains bullet points
+            const lines = para.split('\n');
+            const hasBullets = lines.some(line => line.trim().startsWith('- ') || line.trim().startsWith('・'));
+
+            if (hasBullets) {
+                // Process as a list
+                let html = '';
+                let inList = false;
+                let listItems = [];
+
+                lines.forEach(line => {
+                    const trimmed = line.trim();
+                    if (trimmed.startsWith('- ') || trimmed.startsWith('・')) {
+                        // Bullet point
+                        const content = trimmed.replace(/^[-・]\s*/, '');
+                        listItems.push(`<li>${processJapaneseText(content)}</li>`);
+                        inList = true;
+                    } else if (trimmed) {
+                        // Regular line (could be a header before bullets)
+                        if (listItems.length > 0) {
+                            html += `<ul>${listItems.join('')}</ul>`;
+                            listItems = [];
+                        }
+                        html += `<p>${processJapaneseText(trimmed)}</p>`;
+                    }
+                });
+
+                // Close any remaining list
+                if (listItems.length > 0) {
+                    html += `<ul>${listItems.join('')}</ul>`;
+                }
+
+                return html;
+            } else {
+                // Regular paragraph - convert single newlines to <br>
+                const processed = lines
+                    .map(line => processJapaneseText(line.trim()))
+                    .filter(line => line)
+                    .join('<br>');
+                return `<p>${processed}</p>`;
+            }
+        }).join('');
     }
 
     /**

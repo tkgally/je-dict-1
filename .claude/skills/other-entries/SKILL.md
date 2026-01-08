@@ -7,6 +7,8 @@ description: Requirements for creating nouns, counters, adverbs, and expressions
 
 Guidelines for entry types not covered by verb, adjective, or particle skills.
 
+**Important:** All notes must follow the formatting guidelines in the `vocabulary-notes` skill (line breaks between sections, bullet points for lists).
+
 ---
 
 ## NOUN Entries
