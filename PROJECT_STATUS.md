@@ -1,14 +1,14 @@
 # je-dict-1 Project Status
 
-**Last updated**: 2026-01-07
-**Current phase**: Phase 3 - Entry Enhancement (Revision to v2 standards)
+**Last updated**: 2026-01-08
+**Current phase**: Phase 4 - N4 Vocabulary Expansion
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
 ## Current State
 
 ### Phase
-**Phase 3: Entry Enhancement** - Revising existing entries to meet v2 quality standards before adding new entries.
+**Phase 4: N4 Vocabulary Expansion** - Adding N4 vocabulary while maintaining v2 quality standards.
 
 ### Infrastructure Status
 - [x] Directory structure created
@@ -19,22 +19,32 @@
 - [x] Furigana system with toggle
 - [x] Claude Code skills for entry guidelines
 - [x] Quality specification v2 from multi-model evaluation
+- [x] Vocabulary-notes skill for formatting guidelines
+- [x] Notes field supports paragraph breaks and bullet points
 
 ### Content Status
-- **Total entries**: 764
-- **JLPT N5 coverage**: ~95%
-- **Entries needing v2 revision**: Most (see revision priorities below)
+- **Total entries**: 1004
+- **JLPT N5 coverage**: ~95% complete
+- **JLPT N4 coverage**: 243 entries added (~37% of target)
+- **N4 vocabulary remaining**: 406 items (see N4_VOCABULARY_TO_ADD.md)
+
+### Entry Breakdown by JLPT Level
+| Level | Count | Status |
+|-------|-------|--------|
+| N5 | ~761 | Complete |
+| N4 | 243 | In progress |
 
 ### Entry Breakdown by Type
-| Type | Count | v2 Status |
-|------|-------|-----------|
-| Verbs | ~130 | Need transitivity, aspect, collocations |
-| Nouns | ~330 | Need collocations |
-| Adjectives | ~93 | Need forms, conjugations |
-| Adverbs | ~45 | Need register, similar words |
-| Particles | 9 | HIGH PRIORITY - Need predicate lists, contrasts |
-| Counters | 20 | Need full counting patterns |
-| Other | ~137 | Various enhancements |
+| Type | Count | Notes |
+|------|-------|-------|
+| Verbs | ~220 | Includes 95 N4 verbs with transitivity info |
+| Nouns | ~430 | Includes N4 nouns, katakana loanwords |
+| Adjectives | ~100 | I-adjectives and na-adjectives |
+| Adverbs | ~56 | Includes 11 new N4 adverbs |
+| Particles | 9 | Core particles with predicate lists |
+| Counters | ~21 | Common counting patterns |
+| Keigo verbs | 12 | Honorific and humble forms |
+| Other | ~150 | Expressions, suffixes, etc. |
 
 ## v2 Quality Standards
 
@@ -69,19 +79,34 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `particle-entry` | Creating/revising particle entries |
 | `other-entries` | Creating nouns, counters, adverbs, expressions |
 | `revise-entries` | Revising existing entries to v2 standards |
+| `vocabulary-notes` | Formatting notes field content |
+
+## Recent Changes
+
+### 2026-01-08
+- Added 62 N4 vocabulary entries (adverbs, keigo verbs, nouns, katakana loanwords)
+- Total entries now 1004
+- Updated N4_VOCABULARY_TO_ADD.md (406 items remaining)
+- Removed 3 duplicate entries
+
+### Previous Sessions
+- Removed "New" tag functionality from dictionary
+- Added vocabulary-notes skill for formatting guidelines
+- Updated web interface to handle paragraph breaks and bullet points in notes
+- Reformatted 154 entries with proper bullet point formatting
+- Fixed furigana display in example sentence notes
 
 ## Next Steps
 
-### Immediate (Entry Revision)
-1. Revise all 9 particle entries (HIGH PRIORITY)
-2. Add transitivity to all ~130 verb entries
-3. Add aspect notes to verbs with non-obvious ている behavior
-4. Add collocation patterns to high-frequency entries
+### Immediate (N4 Expansion)
+1. Continue adding N4 vocabulary from N4_VOCABULARY_TO_ADD.md
+2. Priority: nouns (378 remaining), then other categories
+3. Maintain v2 quality standards for all new entries
 
-### After Revision Complete
-1. Resume N4 vocabulary expansion
-2. Implement cross-entry linking
-3. Add conjugation search
+### After N4 Complete
+1. Implement cross-entry linking
+2. Add conjugation search
+3. Begin N3 vocabulary research
 
 ## Technical Notes
 
@@ -101,18 +126,19 @@ open docs/index.html
 - Format: `{romanized_reading}_{5-digit-id}.json`
 - Romanization: Modified Hepburn with kana-faithful long vowels
 - Directory: Based on first kana of reading
+- Katakana loanwords: Use hiragana reading (e.g., アルバイト → あるばいと)
 
 ### ID Assignment
 Next available IDs by directory:
-- `/a/`: 00108+
-- `/ka/`: 00111+
-- `/sa/`: 00111+
-- `/ta/`: 00107+
-- `/na/`: 00104+
-- `/ha/`: 00107+
-- `/ma/`: 00104+
-- `/ya/`: 00102+
-- `/ra/`: 00101+
+- `/a/`: 00157+
+- `/ka/`: 00167+
+- `/sa/`: 00178+
+- `/ta/`: 00180+
+- `/na/`: 00142+
+- `/ha/`: 00187+
+- `/ma/`: 00147+
+- `/ya/`: 00137+
+- `/ra/`: 00188+
 - `/wa/`: 00100+
 
 ## Notes for AI Assistants
@@ -120,13 +146,14 @@ Next available IDs by directory:
 ### Before Starting Work
 1. Read this file to understand current state
 2. Check `project_specification_v2.md` for detailed quality standards
-3. Invoke relevant skill (e.g., `/verb-entry`) before creating/revising entries
+3. Relevant skills will be auto-loaded based on task type
 
 ### Entry Requirements
 - All kanji must have furigana: `{漢字|かんじ}`
 - 2-3 example sentences minimum
 - Examples progress from simple to complex
 - Include at least one collocation or fixed phrase
+- Katakana loanwords use hiragana in reading field
 
 ### Quality Standards
 See `project_specification_v2.md` for comprehensive guidelines. Key points:
