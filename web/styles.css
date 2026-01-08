@@ -776,7 +776,7 @@ header .subtitle {
 
 .compare-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(550px, 100%), 1fr));
     gap: var(--spacing-lg);
 }
 
@@ -918,7 +918,7 @@ ruby rp {
     }
 
     .compare-cards {
-        grid-template-columns: minmax(0, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
