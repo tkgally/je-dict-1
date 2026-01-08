@@ -40,17 +40,15 @@
     // Comparison groups for the Compare interface
     const COMPARISON_GROUPS = {
         particles: [
-            { label: 'は vs が', entries: ['wa', 'ga'] },
+            { label: 'は vs が', entries: ['ha', 'ga'] },
             { label: 'に vs で', entries: ['ni', 'de'] },
             { label: 'を vs に', entries: ['wo', 'ni'] },
             { label: 'から vs まで', entries: ['kara', 'made'] },
-            { label: 'と vs や', entries: ['to', 'ya'] },
         ],
         transitive: [
             { label: '開ける vs 開く', entries: ['akeru', 'aku'] },
             { label: '閉める vs 閉まる', entries: ['shimeru', 'shimaru'] },
             { label: '付ける vs 付く', entries: ['tsukeru', 'tsuku'] },
-            { label: '消す vs 消える', entries: ['kesu', 'kieru'] },
             { label: '入れる vs 入る', entries: ['ireru', 'hairu'] },
             { label: '出す vs 出る', entries: ['dasu', 'deru'] },
             { label: '起こす vs 起きる', entries: ['okosu', 'okiru'] },
@@ -59,10 +57,9 @@
             { label: '直す vs 直る', entries: ['naosu', 'naoru'] },
         ],
         similar: [
-            { label: '見る vs 見える vs 見せる', entries: ['miru', 'mieru', 'miseru'] },
+            { label: '見る vs 見える', entries: ['miru', 'mieru'] },
             { label: '聞く vs 聞こえる', entries: ['kiku', 'kikoeru'] },
             { label: 'きれい vs 美しい', entries: ['kirei', 'utsukushii'] },
-            { label: '大きい vs 大きな', entries: ['ookii', 'ookina'] },
             { label: '思う vs 考える', entries: ['omou', 'kangaeru'] },
             { label: '分かる vs 知る', entries: ['wakaru', 'shiru'] },
             { label: 'いる vs ある', entries: ['iru', 'aru'] },
