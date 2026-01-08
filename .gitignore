@@ -4,7 +4,8 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
+# Note: We keep our build/ directory for scripts but ignore Python's default build artifacts
+# build/
 develop-eggs/
 eggs/
 .eggs/
