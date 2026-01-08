@@ -8,9 +8,9 @@
 | Metric | Count |
 |--------|-------|
 | Source entries scanned | 2139 |
-| Duplicates with existing dictionary | 218 |
+| Duplicates with existing dictionary | 252 |
 | Duplicates with N4 list | 60 |
-| **Total new entries to add** | **1861** |
+| **Total new entries to add** | **1827** |
 | Original target | 600-700 words |
 
 ### By Part of Speech
@@ -19,9 +19,9 @@
 |----------|-------|
 | Verbs | 318 |
 | I-Adjectives | 17 |
-| Na-Adjectives | 80 |
-| Nouns | 1386 |
-| Adverbs | 60 |
+| Na-Adjectives | 78 |
+| Nouns | 1355 |
+| Adverbs | 59 |
 
 > **Note**: The total count exceeds the original target of 600-700 words. This is because
 > standard JLPT N3 actually adds approximately 2,000+ vocabulary words beyond N4 level.
@@ -415,7 +415,6 @@
 - 多少 (たしょう) - a little (same as 少し (すこし))
 - ただ (ただ) - free of charge; just (~); only (~) [REVIEW: reading may need verification]
 - 只 (ただ) - free of charge, mere, only
-- 他人 (たにん) - unrelated person, stranger
 - 単なる (たんなる) - mere, simple, sheer
 - ちゃんと (ちゃんと) - perfectly, properly, exactly [REVIEW: reading may need verification]
 - 昼食 (ちゅうしょく) - lunch (same as 昼ご飯 (ひるごはん))
@@ -430,7 +429,6 @@
 - 同様 (どうよう) - identical, same (kind), like
 - 独特 (どくとく) - peculiarity, uniqueness, characteristic
 - 日常 (にちじょう) - ordinary, regular, everyday
-- 人気 (にんき) - popularity
 - 能 (のう) - being skilled in, nicely, properly
 - 残り (のこり) - remaining, left-over
 - のんびり (のんびり) - carefree, at leisure [REVIEW: reading may need verification]
@@ -597,7 +595,6 @@
 - 温度 (おんど) - temperature
 - 可 (か) - passable
 - 蚊 (か) - mosquito
-- 課 (か) - department, division
 - 会員 (かいいん) - member, the membership
 - 絵画 (かいが) - picture, painting
 - 海外 (かいがい) - foreign, abroad, overseas
@@ -886,14 +883,11 @@
 - 諺 (ことわざ) - proverb, saying
 - 粉 (こな) - flour, powder
 - 好み (このみ) - liking, taste, choice
-- 小麦 (こむぎ) - wheat
 - 小屋 (こや) - hut, cabin, shed
 - これら (これら) - these [REVIEW: reading may need verification]
-- 今回 (こんかい) - now, this time, lately
 - 今後 (こんご) - from now on, hereafter
 - 混雑 (こんざつ) - confusion, congestion
 - こんなに (こんなに) - so, like this, in this way [REVIEW: reading may need verification]
-- 困難 (こんなん) - difficulty, distress
 - こんにちは (こんにちは) - hello, good day (daytime greeting) [REVIEW: reading may need verification]
 - 婚約 (こんやく) - engagement, betrothal
 - 混乱 (こんらん) - chaos, confusion, mayhem
@@ -910,7 +904,6 @@
 - 最終 (さいしゅう) - last, closing
 - 採集 (さいしゅう) - collecting, gathering
 - 最中 (さいちゅう) - in the middle of
-- 最低 (さいてい) - least, lowest, worst
 - 才能 (さいのう) - talent, ability
 - 裁判 (さいばん) - trial, judgment
 - 幸い (さいわい) - fortunately; luckily
@@ -925,7 +918,6 @@
 - 作物 (さくもつ) - produce (e.g., agricultural), crops
 - 酒 (さけ) - alcohol, sake
 - 支える (ささえる) - support, hold, sustain
-- 作家 (さっか) - author, writer, novelist
 - 作曲 (さっきょく) - composition (of music)
 - さっぱり (さっぱり) - feeling refreshed, neat [REVIEW: reading may need verification]
 - 砂漠 (さばく) - desert
@@ -942,7 +934,6 @@
 - 材料 (ざいりょう) - ingredients, material
 - 座席 (ざせき) - seat
 - ざっと (ざっと) - roughly, in round numbers [REVIEW: reading may need verification]
-- 幸せ (しあわせ) - happiness, blessing
 - 四角 (しかく) - square
 - 資格 (しかく) - qualifications, requirements, capabilities
 - 視覚 (しかく) - sense of sight, vision
@@ -953,11 +944,9 @@
 - 資源 (しげん) - resources
 - 支出 (ししゅつ) - expenditure, expenses
 - 詩人 (しじん) - poet
-- 自然 (しぜん) - nature, spontaneous
 - 思想 (しそう) - thought, idea
 - 次第 (しだい) - order; circumstances; immediate(ly)
 - 湿気 (しっけ) - moisture, humidity, dampness
-- 質 (しつ) - quality, nature (of person)
 - 失業 (しつぎょう) - unemployment
 - 湿度 (しつど) - humidity
 - 失望 (しつぼう) - disappointment, despair
@@ -965,7 +954,6 @@
 - 視点 (してん) - opinion, point of view, visual point
 - 指導 (しどう) - leadership, guidance, coaching
 - 品 (しな) - thing, article, goods
-- 支配 (しはい) - rule, control, direction
 - 支払 (しはらい) - payment
 - 芝居 (しばい) - play, drama
 - 芝生 (しばふ) - lawn
@@ -1018,7 +1006,6 @@
 - 少年 (しょうねん) - boys, juveniles
 - 商売 (しょうばい) - trade, business, commerce
 - 消費 (しょうひ) - consumption, expenditure
-- 商品 (しょうひん) - commodity, merchandise
 - 賞品 (しょうひん) - prize, trophy
 - 消防 (しょうぼう) - fire fighting, fire department
 - 証明 (しょうめい) - proof, verification
@@ -1148,7 +1135,6 @@
 - 青年 (せいねん) - youth, young man
 - 成年 (せいねん) - majority, adult age
 - 生年月日 (せいねんがっぴ) - birth date
-- 製品 (せいひん) - manufactured goods, finished goods
 - 政府 (せいふ) - government, administration
 - 生物 (せいぶつ) - living thing, organism
 - 生命 (せいめい) - life
@@ -1158,7 +1144,6 @@
 - 生理 (せいり) - physiology, menses
 - 石炭 (せきたん) - coal
 - 責任 (せきにん) - duty, responsibility
-- 石油 (せきゆ) - oil, petroleum, kerosene
 - 世間 (せけん) - world, society
 - 設計 (せっけい) - plan, design
 - 説 (せつ) - theory
@@ -1204,7 +1189,6 @@
 - それとも (それとも) - or, or else [REVIEW: reading may need verification]
 - 損 (そん) - loss, disadvantage
 - 損害 (そんがい) - damage, loss
-- 尊敬 (そんけい) - respect, reverence, honor
 - 存在 (そんざい) - existence, being
 - 尊重 (そんちょう) - respect, esteem, regard
 - 象 (ぞう) - elephant
@@ -1260,7 +1244,6 @@
 - 単位 (たんい) - credit (for a course in school); unit, denomination
 - 単語 (たんご) - word; vocabulary
 - 単純 (たんじゅん) - simplicity
-- 誕生 (たんじょう) - birth
 - 担当 (たんとう) - (in) charge
 - 単に (たんに) - simply, merely
 - 代金 (だいきん) - price, cost
@@ -1275,7 +1258,6 @@
 - 男子 (だんし) - young man
 - 団体 (だんたい) - organization, association
 - 地位 (ちい) - (social) position, status
-- 地域 (ちいき) - area, region
 - 知恵 (ちえ) - wisdom, wit, intelligence
 - 地下 (ちか) - basement, underground
 - 違い (ちがい) - difference, discrepancy
@@ -1283,7 +1265,6 @@
 - 地球 (ちきゅう) - the earth
 - 地区 (ちく) - district, section
 - 遅刻 (ちこく) - lateness, late coming
-- 知識 (ちしき) - knowledge, information
 - 知事 (ちじ) - prefectural governor
 - 父親 (ちちおや) - father
 - 知能 (ちのう) - intelligence, brains
@@ -1295,7 +1276,6 @@
 - 中学 (ちゅうがく) - middle school, junior high school
 - 中古 (ちゅうこ) - used, second-hand
 - 中止 (ちゅうし) - suspension, stoppage, discontinuance
-- 中心 (ちゅうしん) - center, core
 - 注目 (ちゅうもく) - notice, attention, observation
 - 注文 (ちゅうもん) - order, request
 - 長期 (ちょうき) - long time period
@@ -1336,7 +1316,6 @@
 - 抵抗 (ていこう) - resistance, opposition
 - 提出 (ていしゅつ) - presentation, submission, filing
 - 停電 (ていでん) - failure of electricity
-- 程度 (ていど) - degree, amount, level
 - 停留所 (ていりゅうじょ) - bus or tram stop
 - 敵 (てき) - enemy, rival
 - 適度 (てきど) - moderate
@@ -1391,7 +1370,6 @@
 - 道徳 (どうとく) - morals
 - 童謡 (どうよう) - children's song, nursery rhyme
 - 動揺 (どうよう) - disturbance, flutter shock
-- 道路 (どうろ) - road
 - 毒 (どく) - poison, toxicant
 - 読書 (どくしょ) - reading
 - 独身 (どくしん) - single, unmarried
@@ -1401,10 +1379,8 @@
 - 泥 (どろ) - mud
 - どんなに (どんなに) - how, how much [REVIEW: reading may need verification]
 - 名 (な) - name, reputation
-- 内容 (ないよう) - subject, contents, detail
 - 半ば (なかば) - middle, halfway
 - 仲間 (なかま) - company, fellow, colleague, associate
-- 中身 (なかみ) - content(s); substance
 - 中味 (なかみ) - contents, interior, filling
 - 眺め (ながめ) - scene; view; prospect; outlook
 - 流れ (ながれ) - stream, current
@@ -1427,7 +1403,6 @@
 - 日本 (にほん) - Japan
 - 入場 (にゅうじょう) - entrance, admission, entering
 - 人間 (にんげん) - human being, person
-- 布 (ぬの) - cloth
 - 根 (ね) - root
 - 値 (ね) - value, price, cost
 - 願い (ねがい) - desire, wish, request
@@ -1435,11 +1410,9 @@
 - 熱帯 (ねったい) - tropics
 - 年月 (ねんげつ) - months and years
 - 年代 (ねんだい) - age, era, period
-- 年齢 (ねんれい) - age, years
 - 野 (の) - field
 - 脳 (のう) - brain, memory
 - 農家 (のうか) - farmer, farm family
-- 農業 (のうぎょう) - agriculture
 - 農民 (のうみん) - farmers, peasants
 - 能力 (のうりょく) - ability, faculty
 - 望み (のぞみ) - wish, desire, (a) hope
@@ -1449,7 +1422,6 @@
 - 墓 (はか) - grave, tomb
 - 博士 (はかせ) - doctorate, PhD., doctor
 - 拍手 (はくしゅ) - clapping hands, applause
-- 博物館 (はくぶつかん) - museum
 - 破産 (はさん) - (personal) bankruptcy
 - 始まり (はじまり) - origin, beginning
 - 旗 (はた) - flag
@@ -1462,7 +1434,6 @@
 - 発達 (はったつ) - development, growth
 - 発展 (はってん) - development, growth, progress
 - 発表 (はっぴょう) - announcement; publication; presentation
-- 発明 (はつめい) - invention
 - 派手 (はで) - showy, flashy, gaudy
 - 離れる (はなれる) - (something, someone) separates; parts from; to be apart
 - 羽根 (はね) - feather
@@ -1549,7 +1520,6 @@
 - 分野 (ぶんや) - field, sphere
 - 塀 (へい) - wall, fence
 - 平均 (へいきん) - equilibrium, balance, average
-- 平和 (へいわ) - peace
 - 変化 (へんか) - change, variation, shift
 - 変更 (へんこう) - change, modification, alteration
 - 方向 (ほうこう) - direction, course, way
@@ -1612,7 +1582,6 @@
 - 魅力 (みりょく) - charm, fascination, appeal
 - 無 (む) - nothing, naught, zero
 - 向かい (むかい) - facing, opposite, across
-- 迎え (むかえ) - meeting, person sent to pick up an arrival
 - 蒸し暑い (むしあつい) - humid, sultry
 - 無駄 (むだ) - futility, uselessness
 - 夢中 (むちゅう) - crush, crazy, be hooked on
@@ -1647,7 +1616,6 @@
 - 厄介 (やっかい) - trouble, burden, care
 - 野党 (やとう) - opposition party
 - 宿 (やど) - inn, lodging
-- 屋根 (やね) - roof
 - やや (やや) - a little, partially, somewhat [REVIEW: reading may need verification]
 - 優 (ゆう) - superiority, high grade
 - 有機 (ゆうき) - organic
@@ -1669,7 +1637,6 @@
 - 陽気 (ようき) - season, weather, cheerfulness
 - 要求 (ようきゅう) - request, demand
 - 用心 (ようじん) - care, precaution, caution
-- 様子 (ようす) - aspect, state, appearance
 - 要するに (ようするに) - in a word, after all, in short …
 - 要素 (ようそ) - element
 - 曜日 (ようび) - day of the week
@@ -1875,7 +1842,6 @@
 - そっくり (そっくり) - the splitting image of; entirely [REVIEW: reading may need verification]
 - そのうえ (そのうえ) - in addition, furthermore [REVIEW: reading may need verification]
 - そのうち (そのうち) - before long, eventually, sooner or later [REVIEW: reading may need verification]
-- それぞれ (それぞれ) - each, every, respectively [REVIEW: reading may need verification]
 - それでも (それでも) - but (still), and yet, nevertheless [REVIEW: reading may need verification]
 - 大半 (たいはん) - most of, majority, mostly
 - 直ちに (ただちに) - at once, immediately
