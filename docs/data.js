@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-08T03:27:41.791024Z
+// Generated: 2026-01-08T03:32:31.352940Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -40,7 +40,7 @@ const DICTIONARY_DATA = {
         "notes": "Expressing a feeling"
       }
     ],
-    "notes": "ああ belongs to the ko-so-a-do system: こう (this way), そう (that way, near listener), ああ (that way, far from both). As an interjection, it can express realization, relief, disappointment, or other emotions depending on tone. Common patterns: ああいう (that kind of), ああやって (like that, doing it that way).",
+    "notes": "ああ belongs to the ko-so-a-do system: こう (this way), そう (that way, near listener), ああ (that way, far from both). As an interjection, it can express realization, relief, disappointment, or other emotions depending on tone.\n\nCommon patterns:\n- ああいう (that kind of)\n- ああやって (like that, doing it that way).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -549,7 +549,7 @@ const DICTIONARY_DATA = {
         "notes": "A common saying in Japan"
       }
     ],
-    "notes": "秋 is associated with momiji (紅葉, autumn leaves viewing), harvest, and comfortable weather. Common expressions: 食欲の秋 (appetite autumn), 読書の秋 (reading autumn), スポーツの秋 (sports autumn). Related: 秋分の日 (shuubun no hi, autumn equinox).",
+    "notes": "秋 is associated with momiji (紅葉, autumn leaves viewing), harvest, and comfortable weather.\n\nCommon expressions:\n- 食欲の秋 (appetite autumn)\n- 読書の秋 (reading autumn)\n- スポーツの秋 (sports autumn).\n\nRelated: 秋分の日 (shuubun no hi, autumn equinox).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -813,7 +813,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Use {姉|あね} when speaking about your own older sister to others. Use お{姉|ねえ}さん when addressing her directly or speaking about someone else's older sister. Related: {兄|あに} (older brother - humble).",
+    "notes": "Use {姉|あね} when speaking about your own older sister to others. Use お{姉|ねえ}さん when addressing her directly or speaking about someone else's older sister.\n\nRelated: {兄|あに} (older brother - humble).",
     "cross_references": [
       "ani_00027",
       "imouto_00029"
@@ -858,7 +858,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Use {兄|あに} when speaking about your own older brother to others. Use お{兄|にい}さん when addressing him directly or speaking about someone else's older brother. Related: {姉|あね} (older sister - humble).",
+    "notes": "Use {兄|あに} when speaking about your own older brother to others. Use お{兄|にい}さん when addressing him directly or speaking about someone else's older brother.\n\nRelated: {姉|あね} (older sister - humble).",
     "cross_references": [
       "ane_00028",
       "otouto_00011"
@@ -1067,7 +1067,7 @@ const DICTIONARY_DATA = {
         "notes": "Used as a noun"
       }
     ],
-    "notes": "安全 is a na-adjective and noun: 安全な (before nouns), 安全に (safely, adverb). The kanji mean 'peaceful' + 'whole/complete'. Common compounds: 安全運転 (あんぜんうんてん - safe driving), 安全第一 (あんぜんだいいち - safety first). Antonym: 危険 (きけん - dangerous).",
+    "notes": "安全 is a na-adjective and noun: 安全な (before nouns), 安全に (safely, adverb). The kanji mean 'peaceful' + 'whole/complete'.\n\nCommon compounds:\n- 安全運転 (あんぜんうんてん - safe driving)\n- 安全第一 (あんぜんだいいち - safety first). Antonym: 危険 (きけん - dangerous).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -1577,7 +1577,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "In Japanese, {足|あし} covers both 'foot' and 'leg'. Common expressions: {足|あし}が{速|はや}い (fast), {足|あし}が{遅|おそ}い (slow). Related: {手|て} (hand/arm).",
+    "notes": "In Japanese, {足|あし} covers both 'foot' and 'leg'.\n\nCommon expressions:\n- {足|あし}が{速|はや}い (fast)\n- {足|あし}が{遅|おそ}い (slow).\n\nRelated: {手|て} (hand/arm).",
     "cross_references": [
       "te_00025"
     ],
@@ -1853,7 +1853,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Common expressions: {頭|あたま}が{痛|いた}い (headache), {頭|あたま}がいい (smart), {頭|あたま}が{悪|わる}い (not smart). Related body parts: {顔|かお} (face), {髪|かみ} (hair).",
+    "notes": "Common expressions:\n- {頭|あたま}が{痛|いた}い (headache)\n- {頭|あたま}がいい (smart)\n- {頭|あたま}が{悪|わる}い (not smart). Related body parts: {顔|かお} (face), {髪|かみ} (hair).",
     "cross_references": [
       "kao_00032"
     ],
@@ -3094,7 +3094,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{秒|びょう} is relatively regular in pronunciation. Common forms: {一|いち}{秒|びょう}, {二|に}{秒|びょう}, {三|さん}{秒|びょう}, {何|なん}{秒|びょう} (how many seconds). In casual speech, people often just say the number without the counter for small amounts of time.",
+    "notes": "{秒|びょう} is relatively regular in pronunciation. Common forms:\n- {一|いち}{秒|びょう}\n- {二|に}{秒|びょう}\n- {三|さん}{秒|びょう}\n- {何|なん}{秒|びょう} (how many seconds). In casual speech\n- people often just say the number without the counter for small amounts of time.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -3136,7 +3136,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Related: {医者|いしゃ} (doctor), {看護師|かんごし} (nurse). Also: {歯医者|はいしゃ} (dentist).",
+    "notes": "Related:\n- {医者|いしゃ} (doctor)\n- {看護師|かんごし} (nurse). Also: {歯医者|はいしゃ} (dentist).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -3178,7 +3178,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{病気|びょうき}になる means 'to get sick'. {病気|びょうき}が{治|なお}る means 'to recover from illness'. Related: {病院|びょういん} (hospital), {病人|びょうにん} (sick person), {入院|にゅういん} (hospitalization).",
+    "notes": "{病気|びょうき}になる means 'to get sick'. {病気|びょうき}が{治|なお}る means 'to recover from illness'.\n\nRelated:\n- {病院|びょういん} (hospital)\n- {病人|びょうにん} (sick person)\n- {入院|にゅういん} (hospitalization).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -3309,7 +3309,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Use {父|ちち} when speaking about your own father to others. Use お{父|とう}さん when addressing your father directly or speaking about someone else's father. Related: {母|はは} (mother - humble).",
+    "notes": "Use {父|ちち} when speaking about your own father to others. Use お{父|とう}さん when addressing your father directly or speaking about someone else's father.\n\nRelated: {母|はは} (mother - humble).",
     "cross_references": [
       "haha_00018"
     ],
@@ -3400,7 +3400,7 @@ const DICTIONARY_DATA = {
         "notes": "Close in time"
       }
     ],
-    "notes": "An i-adjective. The noun/adverb form is {近|ちか}く. Opposite of {遠|とお}い (tooi, far). Common expressions: {近|ちか}くに (nearby), この{近|ちか}く (around here).",
+    "notes": "An i-adjective. The noun/adverb form is {近|ちか}く. Opposite of {遠|とお}い (tooi, far).\n\nCommon expressions:\n- {近|ちか}くに (nearby)\n- この{近|ちか}く (around here).",
     "cross_references": [
       "tooi_00013"
     ],
@@ -3713,7 +3713,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Related: {大学生|だいがくせい} (university student), {大学院|だいがくいん} (graduate school).",
+    "notes": "Related:\n- {大学生|だいがくせい} (university student)\n- {大学院|だいがくいん} (graduate school).",
     "cross_references": [
       "gakkou_00076"
     ],
@@ -4441,7 +4441,7 @@ const DICTIONARY_DATA = {
         "notes": "Sense 2: completion"
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xができる (X is possible/able).\n\nASPECT: ている indicates resulting state. できている = 'is ready/completed' or 'is made of.'\n\nCOMMON PATTERNS:\n・{日本語|にほんご}ができる (can speak Japanese)\n・Vことができる (can do V)\n・{準備|じゅんび}ができた (preparations are done)\n・{木|き}でできている (made of wood)\n\nAbility patterns: [noun]ができる (ability with noun); [V dict]ことができる (ability with verb). Note: Subject takes が, not を.",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xができる (X is possible/able).\n\nASPECT: ている indicates resulting state. できている = 'is ready/completed' or 'is made of.'\n\nCOMMON PATTERNS:\n・{日本語|にほんご}ができる (can speak Japanese)\n・Vことができる (can do V)\n・{準備|じゅんび}ができた (preparations are done)\n・{木|き}でできている (made of wood)\n\nAbility patterns: [noun]ができる (ability with noun); [V dict]ことができる (ability with verb).\n\nNote: Subject takes が, not を.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -4530,7 +4530,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Refers specifically to electric trains. For bullet trains, use {新幹線|しんかんせん}. Generic term for trains is {列車|れっしゃ}. Related: {電車|でんしゃ}に{乗|の}る (ride a train), {電車|でんしゃ}を{降|お}りる (get off a train).",
+    "notes": "Refers specifically to electric trains. For bullet trains, use {新幹線|しんかんせん}. Generic term for trains is {列車|れっしゃ}.\n\nRelated:\n- {電車|でんしゃ}に{乗|の}る (ride a train)\n- {電車|でんしゃ}を{降|お}りる (get off a train).",
     "cross_references": [
       "eki_00013",
       "kuruma_00010"
@@ -4580,7 +4580,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Can function as a noun or with する as a verb: {電話|でんわ}する (to call/phone). Common expressions: {電話|でんわ}をかける (make a call), {電話|でんわ}に{出|で}る (answer the phone), {携帯電話|けいたいでんわ} (mobile phone).",
+    "notes": "Can function as a noun or with する as a verb: {電話|でんわ}する (to call/phone).\n\nCommon expressions:\n- {電話|でんわ}をかける (make a call)\n- {電話|でんわ}に{出|で}る (answer the phone)\n- {携帯電話|けいたいでんわ} (mobile phone).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -5046,7 +5046,7 @@ const DICTIONARY_DATA = {
         "notes": "Making a suggestion"
       }
     ],
-    "notes": "A versatile question word. どうですか can ask for opinions or make suggestions. Related: どうして (why), どうも (somehow, very much), どうぞ (please, go ahead).",
+    "notes": "A versatile question word. どうですか can ask for opinions or make suggestions.\n\nRelated:\n- どうして (why)\n- どうも (somehow, very much)\n- どうぞ (please, go ahead).",
     "cross_references": [
       "nani_00007",
       "dare_00015",
@@ -5181,7 +5181,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Saturday uses 土 (earth), corresponding to the planet Saturn. Can be abbreviated to 土曜 (doyou). Note: Don't confuse with 土用 (doyou), which refers to the seasonal period before each equinox/solstice.",
+    "notes": "Saturday uses 土 (earth), corresponding to the planet Saturn. Can be abbreviated to 土曜 (doyou).\n\nNote: Don't confuse with 土用 (doyou), which refers to the seasonal period before each equinox/solstice.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -5267,7 +5267,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "映画 combines 映 (reflect/project) and 画 (picture). The movie theater is 映画館 (eigakan). Common expressions: 映画を見る (to watch a movie), 映画に行く (to go to the movies).",
+    "notes": "映画 combines 映 (reflect/project) and 画 (picture). The movie theater is 映画館 (eigakan).\n\nCommon expressions:\n- 映画を見る (to watch a movie)\n- 映画に行く (to go to the movies).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -5351,7 +5351,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Often combined with place names: {東京駅|とうきょうえき} (Tokyo Station), {新宿駅|しんじゅくえき} (Shinjuku Station). Related words: {駅員|えきいん} (station staff), {駅前|えきまえ} (in front of the station).",
+    "notes": "Often combined with place names: {東京駅|とうきょうえき} (Tokyo Station), {新宿駅|しんじゅくえき} (Shinjuku Station).\n\nRelated words:\n- {駅員|えきいん} (station staff)\n- {駅前|えきまえ} (in front of the station).",
     "cross_references": [
       "densha_00012"
     ],
@@ -5810,7 +5810,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Common compounds: レジ{袋|ぶくろ} (shopping bag), {紙袋|かみぶくろ} (paper bag), ビニール{袋|ぶくろ} (plastic bag). In Japan, stores often ask 袋はいりますか since plastic bags may cost extra or be discouraged for environmental reasons.",
+    "notes": "Common compounds:\n- レジ{袋|ぶくろ} (shopping bag)\n- {紙袋|かみぶくろ} (paper bag)\n- ビニール{袋|ぶくろ} (plastic bag). In Japan\n- stores often ask 袋はいりますか since plastic bags may cost extra or be discouraged for environmental reasons.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -6287,7 +6287,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "冬 is associated with New Year (正月), skiing, hot springs, and warm foods like nabe (hot pot). Related: 冬休み (fuyuyasumi, winter vacation), 冬至 (touji, winter solstice), 真冬 (mafuyu, midwinter).",
+    "notes": "冬 is associated with New Year (正月), skiing, hot springs, and warm foods like nabe (hot pot).\n\nRelated:\n- 冬休み (fuyuyasumi, winter vacation)\n- 冬至 (touji, winter solstice)\n- 真冬 (mafuyu, midwinter).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -7773,7 +7773,7 @@ const DICTIONARY_DATA = {
         "notes": "母の日 = Mother's Day"
       }
     ],
-    "notes": "Use {母|はは} when speaking about your own mother to others. Use お{母|かあ}さん when addressing your mother directly or speaking about someone else's mother. Related: {父|ちち} (father - humble).",
+    "notes": "Use {母|はは} when speaking about your own mother to others. Use お{母|かあ}さん when addressing your mother directly or speaking about someone else's mother.\n\nRelated: {父|ちち} (father - humble).",
     "cross_references": [
       "chichi_00024"
     ],
@@ -8041,7 +8041,7 @@ const DICTIONARY_DATA = {
         "notes": "Abstract usage meaning 'to progress'"
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{運|はこ}ぶ (carry X).\n\nASPECT: ている indicates ongoing action. {運|はこ}んでいる = 'is carrying.'\n\nCOMMON PATTERNS:\n・{荷物|にもつ}を{運|はこ}ぶ (carry luggage)\n・{部屋|へや}まで{運|はこ}ぶ (carry to the room)\n・{足|あし}を{運|はこ}ぶ (visit - idiomatic)\n・{順調|じゅんちょう}に{運|はこ}ぶ (proceed smoothly)\n\nGodan verb - te-form: {運|はこ}んで. Also means 'progress' figuratively. Related: {運|はこ}び (transport).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{運|はこ}ぶ (carry X).\n\nASPECT: ている indicates ongoing action. {運|はこ}んでいる = 'is carrying.'\n\nCOMMON PATTERNS:\n・{荷物|にもつ}を{運|はこ}ぶ (carry luggage)\n・{部屋|へや}まで{運|はこ}ぶ (carry to the room)\n・{足|あし}を{運|はこ}ぶ (visit - idiomatic)\n・{順調|じゅんちょう}に{運|はこ}ぶ (proceed smoothly)\n\nGodan verb - te-form: {運|はこ}んで. Also means 'progress' figuratively.\n\nRelated: {運|はこ}び (transport).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -8306,7 +8306,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{払|はら}う (pay X).\n\nASPECT: ている indicates completed state. {払|はら}っている = 'have paid' or 'am paying.'\n\nCOMMON PATTERNS:\n・お{金|かね}を{払|はら}う (pay money)\n・{家賃|やちん}を{払|はら}う (pay rent)\n・{現金|げんきん}で{払|はら}う (pay in cash)\n・{払|はら}い{戻|もど}し (refund)\n\nRelated: {支払|しはら}う (pay - more formal), {支払|しはら}い (payment).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{払|はら}う (pay X).\n\nASPECT: ている indicates completed state. {払|はら}っている = 'have paid' or 'am paying.'\n\nCOMMON PATTERNS:\n・お{金|かね}を{払|はら}う (pay money)\n・{家賃|やちん}を{払|はら}う (pay rent)\n・{現金|げんきん}で{払|はら}う (pay in cash)\n・{払|はら}い{戻|もど}し (refund)\n\nRelated:\n- {支払|しはら}う (pay - more formal)\n- {支払|しはら}い (payment).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -8392,7 +8392,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "春 is a significant season in Japan, associated with cherry blossoms, new beginnings (new school year, new jobs start in April), and hanami (flower viewing). Related: 春休み (haruyasumi, spring break), 春分の日 (shunbun no hi, spring equinox).",
+    "notes": "春 is a significant season in Japan, associated with cherry blossoms, new beginnings (new school year, new jobs start in April), and hanami (flower viewing).\n\nRelated:\n- 春休み (haruyasumi, spring break)\n- 春分の日 (shunbun no hi, spring equinox).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -8646,7 +8646,7 @@ const DICTIONARY_DATA = {
         "notes": "で marks the workplace"
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xで{働|はたら}く (work at X).\n\nASPECT: ている indicates ongoing action. {働|はたら}いている = 'is working' or 'works (habitually).'\n\nCOMMON PATTERNS:\n・{会社|かいしゃ}で{働|はたら}く (work at a company)\n・8{時間|じかん}{働|はたら}く (work 8 hours)\n・{働|はたら}いている (is working/employed)\n・{働|はたら}き{方|かた} (way of working)\n\nUses で for workplace. Different from {勤|つと}める (employed at - focuses on organization). Related: {仕事|しごと} (work/job).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xで{働|はたら}く (work at X).\n\nASPECT: ている indicates ongoing action. {働|はたら}いている = 'is working' or 'works (habitually).'\n\nCOMMON PATTERNS:\n・{会社|かいしゃ}で{働|はたら}く (work at a company)\n・8{時間|じかん}{働|はたら}く (work 8 hours)\n・{働|はたら}いている (is working/employed)\n・{働|はたら}き{方|かた} (way of working)\n\nUses で for workplace. Different from {勤|つと}める (employed at - focuses on organization).\n\nRelated: {仕事|しごと} (work/job).",
     "cross_references": [
       "tsutomeru_00095"
     ],
@@ -8875,7 +8875,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "変 is a na-adjective: 変な (before nouns), 変だ/です (predicate). Very commonly used to describe something that doesn't seem right or normal. Note: The same kanji 変 also means 'change' in words like 変える (かえる - to change) and 変わる (かわる - to change).",
+    "notes": "変 is a na-adjective: 変な (before nouns), 変だ/です (predicate). Very commonly used to describe something that doesn't seem right or normal.\n\nNote: The same kanji 変 also means 'change' in words like 変える (かえる - to change) and 変わる (かわる - to change).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -9090,7 +9090,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "左 is the opposite of 右 (migi, right). Related: 左手 (hidarite, left hand), 左側 (hidarigawa, left side), 左折 (sasetsu, left turn). In Japan, traffic drives on the left side.",
+    "notes": "左 is the opposite of 右 (migi, right).\n\nRelated:\n- 左手 (hidarite, left hand)\n- 左側 (hidarigawa, left side)\n- 左折 (sasetsu, left turn). In Japan\n- traffic drives on the left side.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -9226,7 +9226,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "東 is one of the four cardinal directions. 東京 (Tokyo) literally means 'eastern capital.' Related: 東日本 (higashi nihon, eastern Japan), 東口 (higashiguchi, east exit), 中東 (chuutou, Middle East).",
+    "notes": "東 is one of the four cardinal directions. 東京 (Tokyo) literally means 'eastern capital.' Related:\n- 東日本 (higashi nihon, eastern Japan)\n- 東口 (higashiguchi, east exit)\n- 中東 (chuutou, Middle East).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -9488,7 +9488,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "飛行機 combines 飛行 (flight) and 機 (machine). Related: 飛行場 (hikoujou, airfield), 空港 (kuukou, airport), 飛ぶ (tobu, to fly). Airplane tickets are often called 航空券 (koukuken) in formal contexts.",
+    "notes": "飛行機 combines 飛行 (flight) and 機 (machine).\n\nRelated:\n- 飛行場 (hikoujou, airfield)\n- 空港 (kuukou, airport)\n- 飛ぶ (tobu, to fly). Airplane tickets are often called 航空券 (koukuken) in formal contexts.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -9945,7 +9945,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "〜本 is used for long, cylindrical objects. Sound changes occur: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん), 四本 (よんほん), 五本 (ごほん), 六本 (ろっぽん), 七本 (ななほん), 八本 (はっぽん/はちほん), 九本 (きゅうほん), 十本 (じゅっぽん). Note: after 1, 6, 8, 10 → ぽん; after 3 → ぼん.",
+    "notes": "〜本 is used for long, cylindrical objects. Sound changes occur: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん), 四本 (よんほん), 五本 (ごほん), 六本 (ろっぽん), 七本 (ななほん), 八本 (はっぽん/はちほん), 九本 (きゅうほん), 十本 (じゅっぽん).\n\nNote: after 1, 6, 8, 10 → ぽん; after 3 → ぼん.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -10076,7 +10076,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Also used for ratings (5{星|ほし}, five stars) and star shapes. Related words: {星座|せいざ} (constellation), {流|なが}れ{星|ぼし} (shooting star). In Japanese culture, the Tanabata festival celebrates stars.",
+    "notes": "Also used for ratings (5{星|ほし}, five stars) and star shapes.\n\nRelated words:\n- {星座|せいざ} (constellation)\n- {流|なが}れ{星|ぼし} (shooting star). In Japanese culture\n- the Tanabata festival celebrates stars.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -10259,7 +10259,7 @@ const DICTIONARY_DATA = {
         "notes": "Comparison usage"
       }
     ],
-    "notes": "方 (ほう) is used for: 1) Direction or area (北の方 - toward the north), 2) Comparisons (Aの方がBより～ - A is more ~ than B). The comparison pattern is very common: 「Aの方が好き」 (I prefer A), 「こちらの方がいい」 (this one is better). Note: 方 can also be read かた meaning 'person' (polite) or 'way of doing.'",
+    "notes": "方 (ほう) is used for: 1) Direction or area (北の方 - toward the north), 2) Comparisons (Aの方がBより～ - A is more ~ than B). The comparison pattern is very common: 「Aの方が好き」 (I prefer A), 「こちらの方がいい」 (this one is better).\n\nNote: 方 can also be read かた meaning 'person' (polite) or 'way of doing.'",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -10568,7 +10568,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{時間|じかん} is the counter for hours of duration: {一時間|いちじかん} (one hour), {二時間|にじかん} (two hours), {三時間|さんじかん} (three hours), etc. This is different from {時|じ} which tells the time of day: {一時|いちじ} (one o'clock). Note: {何時間|なんじかん} means 'how many hours.'",
+    "notes": "{時間|じかん} is the counter for hours of duration: {一時間|いちじかん} (one hour), {二時間|にじかん} (two hours), {三時間|さんじかん} (three hours), etc. This is different from {時|じ} which tells the time of day: {一時|いちじ} (one o'clock).\n\nNote: {何時間|なんじかん} means 'how many hours.'",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -10657,7 +10657,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Also read as うち (more colloquial/casual). Related: {部屋|へや} (room), {家族|かぞく} (family).",
+    "notes": "Also read as うち (more colloquial/casual).\n\nRelated:\n- {部屋|へや} (room)\n- {家族|かぞく} (family).",
     "cross_references": [
       "kazoku_00019"
     ],
@@ -11106,7 +11106,7 @@ const DICTIONARY_DATA = {
         "notes": "A philosophical expression about mindful living"
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No direct transitive pair. Related: {生|い}かす (to make use of, to keep alive—different nuance). Pattern: Xが{生|い}きる (X lives).\n\nASPECT: ている is crucial for this verb. {生|い}きている = 'is alive' (state), NOT 'is in the process of living.' This is a stative ている—it describes a continuing state of being alive.\n\nCOMMON PATTERNS:\n・{長|なが}く{生|い}きる (live long)\n・{一生懸命|いっしょうけんめい}{生|い}きる (live with all one's might)\n・{今|いま}を{生|い}きる (live in the moment)\n・{生|い}きていく (to go on living, to survive)\n・{生|い}き{残|のこ}る (to survive—compound verb)\n\nRELATED VERBS:\n・{住|す}む: to reside (focus on location)\n・{暮|く}らす: to make a living (focus on daily life)\n・{生|い}きる: to be alive (focus on existence itself)",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No direct transitive pair.\n\nRelated: {生|い}かす (to make use of, to keep alive—different nuance). Pattern: Xが{生|い}きる (X lives).\n\nASPECT: ている is crucial for this verb. {生|い}きている = 'is alive' (state), NOT 'is in the process of living.' This is a stative ている—it describes a continuing state of being alive.\n\nCOMMON PATTERNS:\n・{長|なが}く{生|い}きる (live long)\n・{一生懸命|いっしょうけんめい}{生|い}きる (live with all one's might)\n・{今|いま}を{生|い}きる (live in the moment)\n・{生|い}きていく (to go on living, to survive)\n・{生|い}き{残|のこ}る (to survive—compound verb)\n\nRELATED VERBS:\n・{住|す}む: to reside (focus on location)\n・{暮|く}らす: to make a living (focus on daily life)\n・{生|い}きる: to be alive (focus on existence itself)",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-08T10:00:00Z",
@@ -11385,7 +11385,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Unlike older siblings, the humble/polite distinction is less strict for younger siblings. {妹|いもうと}さん is used to refer to someone else's younger sister politely. Related: {弟|おとうと} (younger brother).",
+    "notes": "Unlike older siblings, the humble/polite distinction is less strict for younger siblings. {妹|いもうと}さん is used to refer to someone else's younger sister politely.\n\nRelated: {弟|おとうと} (younger brother).",
     "cross_references": [
       "ane_00028",
       "otouto_00029"
@@ -11583,7 +11583,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "犬 is the word for 'dog.' Famous Japanese dog breeds include 秋田犬 (Akita-inu), 柴犬 (Shiba-inu). The story of Hachiko (ハチ公), the loyal Akita dog, is famous in Japan. Related: 子犬 (koinu, puppy), 番犬 (banken, guard dog).",
+    "notes": "犬 is the word for 'dog.' Famous Japanese dog breeds include 秋田犬 (Akita-inu), 柴犬 (Shiba-inu). The story of Hachiko (ハチ公), the loyal Akita dog, is famous in Japan.\n\nRelated:\n- 子犬 (koinu, puppy)\n- 番犬 (banken, guard dog).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -12043,7 +12043,7 @@ const DICTIONARY_DATA = {
         "notes": "Common question at a doctor's office"
       }
     ],
-    "notes": "痛い conjugates as an i-adjective: 痛くない (negative), 痛くて (te-form), 痛かった (past). The pattern 「body part + が痛い」 is used to say a body part hurts. Related: 痛み (いたみ - pain, noun), 痛める (いためる - to hurt/injure, verb).",
+    "notes": "痛い conjugates as an i-adjective: 痛くない (negative), 痛くて (te-form), 痛かった (past). The pattern 「body part + が痛い」 is used to say a body part hurts.\n\nRelated:\n- 痛み (いたみ - pain, noun)\n- 痛める (いためる - to hurt/injure, verb).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -12664,7 +12664,7 @@ const DICTIONARY_DATA = {
         "notes": "Describing a person's health"
       }
     ],
-    "notes": "丈夫 is a na-adjective: 丈夫な (before nouns), 丈夫だ/です (predicate). It can describe both objects (sturdy/durable) and people (healthy). Note: 大丈夫 (だいじょうぶ - all right, okay) is a related word. The kanji 丈 means 'length/height' and 夫 means 'man' - originally referring to a grown, strong man.",
+    "notes": "丈夫 is a na-adjective: 丈夫な (before nouns), 丈夫だ/です (predicate). It can describe both objects (sturdy/durable) and people (healthy).\n\nNote: 大丈夫 (だいじょうぶ - all right, okay) is a related word. The kanji 丈 means 'length/height' and 夫 means 'man' - originally referring to a grown, strong man.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -12748,7 +12748,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{授業|じゅぎょう}を{受|う}ける means 'to take/attend a class', while {授業|じゅぎょう}をする means 'to teach a class'. Related words: {宿題|しゅくだい} (homework), {教室|きょうしつ} (classroom), {先生|せんせい} (teacher).",
+    "notes": "{授業|じゅぎょう}を{受|う}ける means 'to take/attend a class', while {授業|じゅぎょう}をする means 'to teach a class'.\n\nRelated words:\n- {宿題|しゅくだい} (homework)\n- {教室|きょうしつ} (classroom)\n- {先生|せんせい} (teacher).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -12795,7 +12795,7 @@ const DICTIONARY_DATA = {
         "notes": "Often seen on signs"
       }
     ],
-    "notes": "準備 is commonly used as a suru verb: 準備する (to prepare). Common expressions: 準備ができた (ready, finished preparing), 準備中 (under preparation - often seen on shop signs meaning 'not open yet'). Related: 用意 (ようい - preparation, readiness).",
+    "notes": "準備 is commonly used as a suru verb: 準備する (to prepare).\n\nCommon expressions:\n- 準備ができた (ready, finished preparing)\n- 準備中 (under preparation - often seen on shop signs meaning 'not open yet').\n\nRelated: 用意 (ようい - preparation, readiness).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -13874,7 +13874,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "鍵 can mean both 'key' and 'lock.' Common expressions: 鍵をかける (to lock), 鍵を開ける (to unlock), 鍵がかかっている (is locked). In Japan, 鍵 is also used metaphorically: 成功の鍵 (the key to success).",
+    "notes": "鍵 can mean both 'key' and 'lock.' Common expressions:\n- 鍵をかける (to lock)\n- 鍵を開ける (to unlock)\n- 鍵がかかっている (is locked). In Japan\n- 鍵 is also used metaphorically: 成功の鍵 (the key to success).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -13958,7 +13958,7 @@ const DICTIONARY_DATA = {
         "notes": "いっかい with small っ"
       }
     ],
-    "notes": "{階|かい} counts building floors. Note the irregular readings: {一|いっ}{階|かい} (first floor - with っ), {三|さん}{階|がい} (third floor - voiced が), {何|なん}{階|がい} (what floor - voiced が). The first floor in Japan (1階) corresponds to the ground floor in British English. Unlike American English, there is no 'ground floor' and 'first floor' distinction.",
+    "notes": "{階|かい} counts building floors. Note the irregular readings:\n- {一|いっ}{階|かい} (first floor - with っ)\n- {三|さん}{階|がい} (third floor - voiced が)\n- {何|なん}{階|がい} (what floor - voiced が). The first floor in Japan (1階) corresponds to the ground floor in British English. Unlike American English\n- there is no 'ground floor' and 'first floor' distinction.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -14084,7 +14084,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Can be used with する: {会議|かいぎ}する (to hold a meeting). Related words: {会議室|かいぎしつ} (meeting room/conference room). Often used in business Japanese: {会議|かいぎ}に{出|で}る (attend a meeting), {会議|かいぎ}を{開|ひら}く (hold a meeting).",
+    "notes": "Can be used with する: {会議|かいぎ}する (to hold a meeting).\n\nRelated words: {会議室|かいぎしつ} (meeting room/conference room). Often used in business Japanese: {会議|かいぎ}に{出|で}る (attend a meeting), {会議|かいぎ}を{開|ひら}く (hold a meeting).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -14577,7 +14577,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Counter: {枚|まい} ({一|いち}{枚|まい}, one sheet). Don't confuse with {髪|かみ} (hair), which has the same reading but different kanji. Related words: {折|お}り{紙|がみ} (origami), {新聞|しんぶん}{紙|し} (newspaper).",
+    "notes": "Counter: {枚|まい} ({一|いち}{枚|まい}, one sheet). Don't confuse with {髪|かみ} (hair), which has the same reading but different kanji.\n\nRelated words:\n- {折|お}り{紙|がみ} (origami)\n- {新聞|しんぶん}{紙|し} (newspaper).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -15120,7 +15120,7 @@ const DICTIONARY_DATA = {
         "notes": "顔をする = to have an expression"
       }
     ],
-    "notes": "Used for both the physical face and facial expressions. Common expressions: {顔|かお}が{広|ひろ}い (well-connected), {顔|かお}を{出|だ}す (to show up). Related: {目|め} (eye), {口|くち} (mouth).",
+    "notes": "Used for both the physical face and facial expressions.\n\nCommon expressions:\n- {顔|かお}が{広|ひろ}い (well-connected)\n- {顔|かお}を{出|だ}す (to show up).\n\nRelated:\n- {目|め} (eye)\n- {口|くち} (mouth).",
     "cross_references": [
       "atama_00031",
       "me_00012"
@@ -15838,7 +15838,7 @@ const DICTIONARY_DATA = {
         "notes": "Figurative usage"
       }
     ],
-    "notes": "硬い conjugates as an i-adjective: 硬くない (negative), 硬くて (te-form), 硬かった (past). Note: The kanji 堅い also reads かたい but emphasizes firmness/reliability, while 硬い emphasizes physical hardness. The opposite is 柔らかい (やわらかい - soft).",
+    "notes": "硬い conjugates as an i-adjective: 硬くない (negative), 硬くて (te-form), 硬かった (past).\n\nNote: The kanji 堅い also reads かたい but emphasizes firmness/reliability, while 硬い emphasizes physical hardness. The opposite is 柔らかい (やわらかい - soft).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -16023,7 +16023,7 @@ const DICTIONARY_DATA = {
         "notes": "川 becomes がわ in compound names"
       }
     ],
-    "notes": "In compound words and river names, the reading often changes to がわ: {隅田川|すみだがわ}, {多摩川|たまがわ}. Related: {川岸|かわぎし} (riverbank), {小川|おがわ} (stream, brook).",
+    "notes": "In compound words and river names, the reading often changes to がわ: {隅田川|すみだがわ}, {多摩川|たまがわ}.\n\nRelated:\n- {川岸|かわぎし} (riverbank)\n- {小川|おがわ} (stream, brook).",
     "cross_references": [
       "umi_00020",
       "yama_00004",
@@ -16387,7 +16387,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "風 (かぜ) means 'wind.' Don't confuse with 風邪 (kaze, a cold/flu)—same pronunciation but different meaning and kanji. Related: 台風 (taifuu, typhoon), 風呂 (furo, bath). Verb: 風が吹く (kaze ga fuku, the wind blows).",
+    "notes": "風 (かぜ) means 'wind.' Don't confuse with 風邪 (kaze, a cold/flu)—same pronunciation but different meaning and kanji.\n\nRelated:\n- 台風 (taifuu, typhoon)\n- 風呂 (furo, bath). Verb: 風が吹く (kaze ga fuku, the wind blows).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -16521,7 +16521,7 @@ const DICTIONARY_DATA = {
         "notes": "Using 計画する"
       }
     ],
-    "notes": "計画 is used for plans and projects. Common expressions: 計画を立てる (to make a plan), 計画どおり (according to plan), 計画的に (systematically, in a planned manner). Compare with 予定 (よてい - schedule), つもり (intention).",
+    "notes": "計画 is used for plans and projects.\n\nCommon expressions:\n- 計画を立てる (to make a plan)\n- 計画どおり (according to plan)\n- 計画的に (systematically, in a planned manner). Compare with 予定 (よてい - schedule)\n- つもり (intention).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -16568,7 +16568,7 @@ const DICTIONARY_DATA = {
         "notes": "Using 経験する"
       }
     ],
-    "notes": "経験 is used for personal experiences. Common patterns: ～の経験がある (to have experience of), 経験を積む (けいけんをつむ - to gain experience), 経験者 (けいけんしゃ - experienced person). Compare with 体験 (たいけん - firsthand experience, often for specific events or activities).",
+    "notes": "経験 is used for personal experiences.\n\nCommon patterns:\n- ～の経験がある (to have experience of)\n- 経験を積む (けいけんをつむ - to gain experience)\n- 経験者 (けいけんしゃ - experienced person). Compare with 体験 (たいけん - firsthand experience, often for specific events or activities).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -16844,7 +16844,7 @@ const DICTIONARY_DATA = {
         "notes": "Sense 2: wood as material"
       }
     ],
-    "notes": "A basic nature word. Common compounds: {木曜日|もくようび} (Thursday), {木造|もくぞう} (wooden construction), {木の葉|このは} (tree leaf). The kanji has different readings: き, もく, ぼく.",
+    "notes": "A basic nature word.\n\nCommon compounds:\n- {木曜日|もくようび} (Thursday)\n- {木造|もくぞう} (wooden construction)\n- {木の葉|このは} (tree leaf). The kanji has different readings: き, もく, ぼく.",
     "cross_references": [
       "hana_00012"
     ],
@@ -17083,7 +17083,7 @@ const DICTIONARY_DATA = {
         "notes": "Used as a noun"
       }
     ],
-    "notes": "危険 is a na-adjective and noun: 危険な (before nouns), 危険だ/です (predicate). The kanji mean 'danger' + 'steep/severe'. Common in signs: 危険！(Danger!). Related words: 危ない (あぶない - dangerous, adjective), 危機 (きき - crisis). Antonym: 安全 (あんぜん - safe).",
+    "notes": "危険 is a na-adjective and noun: 危険な (before nouns), 危険だ/です (predicate). The kanji mean 'danger' + 'steep/severe'. Common in signs: 危険！(Danger!).\n\nRelated words:\n- 危ない (あぶない - dangerous, adjective)\n- 危機 (きき - crisis). Antonym: 安全 (あんぜん - safe).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -17496,7 +17496,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "切符 is used primarily for transportation tickets. For event tickets (concerts, movies), チケット (chiketto, from English 'ticket') is often used. Related: 切符売り場 (kippu uriba, ticket counter).",
+    "notes": "切符 is used primarily for transportation tickets. For event tickets (concerts, movies), チケット (chiketto, from English 'ticket') is often used.\n\nRelated: 切符売り場 (kippu uriba, ticket counter).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -17719,7 +17719,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "北 is one of the four cardinal directions. Related: 北海道 (Hokkaido—'northern sea road'), 北極 (hokkyoku, North Pole), 北口 (kitaguchi, north exit). In station announcements and signs, the cardinal directions are commonly used.",
+    "notes": "北 is one of the four cardinal directions.\n\nRelated:\n- 北海道 (Hokkaido—'northern sea road')\n- 北極 (hokkyoku, North Pole)\n- 北口 (kitaguchi, north exit). In station announcements and signs\n- the cardinal directions are commonly used.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -18028,7 +18028,7 @@ const DICTIONARY_DATA = {
         "notes": "子供の時 = when (I was) a child"
       }
     ],
-    "notes": "Can refer to children in general or one's own children. お{子|こ}さん is the polite form for 'your child/children'. Related: {子|こ} (child - shorter form), {男|おとこ}の{子|こ} (boy), {女|おんな}の{子|こ} (girl).",
+    "notes": "Can refer to children in general or one's own children. お{子|こ}さん is the polite form for 'your child/children'.\n\nRelated:\n- {子|こ} (child - shorter form)\n- {男|おとこ}の{子|こ} (boy)\n- {女|おんな}の{子|こ} (girl).",
     "cross_references": [
       "onna_00021",
       "otoko_00022"
@@ -18073,7 +18073,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Different from {音|おと} (sound) which is for general sounds. {声|こえ} specifically refers to vocal sounds. Common expressions: {声|こえ}を{出|だ}す (to make a sound/speak up), {声|こえ}をかける (to call out to someone).",
+    "notes": "Different from {音|おと} (sound) which is for general sounds. {声|こえ} specifically refers to vocal sounds.\n\nCommon expressions:\n- {声|こえ}を{出|だ}す (to make a sound/speak up)\n- {声|こえ}をかける (to call out to someone).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -19088,7 +19088,7 @@ const DICTIONARY_DATA = {
         "notes": "Nominalizing function - 'the act of swimming'"
       }
     ],
-    "notes": "こと has two main uses: 1) As a noun meaning 'thing/matter/affair' for abstract concepts (compare with もの for concrete things). 2) As a nominalizer that turns verbs into noun phrases. The kanji 事 is sometimes used. Common patterns: ことがある (to have the experience of), ことができる (to be able to), ことにする (to decide to).",
+    "notes": "こと has two main uses: 1) As a noun meaning 'thing/matter/affair' for abstract concepts (compare with もの for concrete things). 2) As a nominalizer that turns verbs into noun phrases. The kanji 事 is sometimes used.\n\nCommon patterns:\n- ことがある (to have the experience of)\n- ことができる (to be able to)\n- ことにする (to decide to).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -19172,7 +19172,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "こう belongs to the ko-so-a-do system: こう (this way, near speaker), そう (that way, near listener), ああ (that way, far from both). Used when demonstrating or explaining how to do something. Related: このように (in this way), こうやって (like this, while doing this).",
+    "notes": "こう belongs to the ko-so-a-do system: こう (this way, near speaker), そう (that way, near listener), ああ (that way, far from both). Used when demonstrating or explaining how to do something.\n\nRelated:\n- このように (in this way)\n- こうやって (like this, while doing this).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -19832,7 +19832,7 @@ const DICTIONARY_DATA = {
         "notes": "Figurative meaning"
       }
     ],
-    "notes": "暗い describes both physical darkness and gloomy personalities/moods. The opposite is 明るい (akarui, bright). Note: Don't confuse with the particle くらい/ぐらい meaning 'about/approximately.' Conjugation: 暗くない (negative), 暗かった (past).",
+    "notes": "暗い describes both physical darkness and gloomy personalities/moods. The opposite is 明るい (akarui, bright).\n\nNote: Don't confuse with the particle くらい/ぐらい meaning 'about/approximately.' Conjugation: 暗くない (negative), 暗かった (past).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -20061,7 +20061,7 @@ const DICTIONARY_DATA = {
         "notes": "車に乗る = to get in a car"
       }
     ],
-    "notes": "Also written as くるま in hiragana in casual contexts. More formal term is {自動車|じどうしゃ}. Related words: {電車|でんしゃ} (train), {自転車|じてんしゃ} (bicycle), {車庫|しゃこ} (garage).",
+    "notes": "Also written as くるま in hiragana in casual contexts. More formal term is {自動車|じどうしゃ}.\n\nRelated words:\n- {電車|でんしゃ} (train)\n- {自転車|じてんしゃ} (bicycle)\n- {車庫|しゃこ} (garage).",
     "cross_references": [
       "densha_00012"
     ],
@@ -20110,7 +20110,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Context determines whether {草|くさ} means grass (in a field) or weeds (unwanted plants). {草|くさ}を{取|と}る or {草|くさ}むしり means 'weeding'. Related: {花|はな} (flower), {木|き} (tree).",
+    "notes": "Context determines whether {草|くさ} means grass (in a field) or weeds (unwanted plants). {草|くさ}を{取|と}る or {草|くさ}むしり means 'weeding'.\n\nRelated:\n- {花|はな} (flower)\n- {木|き} (tree).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -20157,7 +20157,7 @@ const DICTIONARY_DATA = {
         "notes": "Figurative meaning: suspicious"
       }
     ],
-    "notes": "臭い conjugates as an i-adjective: 臭くない (negative), 臭くて (te-form), 臭かった (past). As a suffix ～くさい, it means 'smelling of' or '-ish' (e.g., 汗臭い - smelling of sweat, 嘘くさい - seems like a lie). Related: 臭い/匂い (におい - smell, odor).",
+    "notes": "臭い conjugates as an i-adjective: 臭くない (negative), 臭くて (te-form), 臭かった (past). As a suffix ～くさい, it means 'smelling of' or '-ish' (e.g., 汗臭い - smelling of sweat, 嘘くさい - seems like a lie).\n\nRelated: 臭い/匂い (におい - smell, odor).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -20241,7 +20241,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Counter: {足|そく} ({一|いっ}{足|そく}, one pair). Uses {履|は}く (to put on) and {脱|ぬ}ぐ (to take off). In Japan, shoes are removed when entering homes, schools, and many traditional establishments. Related: {靴下|くつした} (socks).",
+    "notes": "Counter: {足|そく} ({一|いっ}{足|そく}, one pair). Uses {履|は}く (to put on) and {脱|ぬ}ぐ (to take off). In Japan, shoes are removed when entering homes, schools, and many traditional establishments.\n\nRelated: {靴下|くつした} (socks).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -20325,7 +20325,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "空港 combines 空 (sky) and 港 (port). Major Japanese airports include 成田空港 (Narita), 羽田空港 (Haneda), 関西国際空港 (Kansai International). Related: 国際空港 (kokusai kuukou, international airport).",
+    "notes": "空港 combines 空 (sky) and 港 (port). Major Japanese airports include 成田空港 (Narita), 羽田空港 (Haneda), 関西国際空港 (Kansai International).\n\nRelated: 国際空港 (kokusai kuukou, international airport).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -20807,7 +20807,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Related: {街|まち} (city/downtown - same reading), {村|むら} (village).",
+    "notes": "Related:\n- {街|まち} (city/downtown - same reading)\n- {村|むら} (village).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -20854,7 +20854,7 @@ const DICTIONARY_DATA = {
         "notes": "AをBと間違える = to mistake A for B"
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{間違|まちが}える (mistake X).\n\nASPECT: ている indicates resulting state. {間違|まちが}えている = 'has made a mistake (error persists).'\n\nCOMMON PATTERNS:\n・{道|みち}を{間違|まちが}える (take wrong road)\n・{電話|でんわ}{番号|ばんごう}を{間違|まちが}える (dial wrong number)\n・AをBと{間違|まちが}える (mistake A for B)\n・{間違|まちが}えてしまう (accidentally make mistake)\n\nIchidan verb. Related: {間違|まちが}い (mistake, noun). Variant: {間違|まちが}う (godan, similar meaning).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{間違|まちが}える (mistake X).\n\nASPECT: ている indicates resulting state. {間違|まちが}えている = 'has made a mistake (error persists).'\n\nCOMMON PATTERNS:\n・{道|みち}を{間違|まちが}える (take wrong road)\n・{電話|でんわ}{番号|ばんごう}を{間違|まちが}える (dial wrong number)\n・AをBと{間違|まちが}える (mistake A for B)\n・{間違|まちが}えてしまう (accidentally make mistake)\n\nIchidan verb.\n\nRelated: {間違|まちが}い (mistake, noun). Variant: {間違|まちが}う (godan, similar meaning).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -21162,7 +21162,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "前 indicates position (in front) and time (before/ago). The opposite for position is 後ろ (ushiro, behind) and for time is 後 (ato, after). Common patterns: 〜の前に (in front of), 〜前 (~ ago).",
+    "notes": "前 indicates position (in front) and time (before/ago). The opposite for position is 後ろ (ushiro, behind) and for time is 後 (ato, after).\n\nCommon patterns:\n- 〜の前に (in front of)\n- 〜前 (~ ago).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -22269,7 +22269,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "眼鏡 uses the verb かける (to wear on face/ears) rather than きる (to wear on body). Often written in hiragana as めがね. Related: サングラス (sunglasses), コンタクトレンズ (contact lenses).",
+    "notes": "眼鏡 uses the verb かける (to wear on face/ears) rather than きる (to wear on body). Often written in hiragana as めがね.\n\nRelated:\n- サングラス (sunglasses)\n- コンタクトレンズ (contact lenses).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -22595,7 +22595,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "右 is the opposite of 左 (hidari, left). Used in giving directions and describing positions. Related: 右手 (migite, right hand), 右側 (migigawa, right side), 右折 (usetsu, right turn).",
+    "notes": "右 is the opposite of 左 (hidari, left). Used in giving directions and describing positions.\n\nRelated:\n- 右手 (migite, right hand)\n- 右側 (migigawa, right side)\n- 右折 (usetsu, right turn).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -22728,7 +22728,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Common expressions: {耳|みみ}がいい (good hearing), {耳|みみ}が{遠|とお}い (hard of hearing). Compound: イヤリング (earring).",
+    "notes": "Common expressions:\n- {耳|みみ}がいい (good hearing)\n- {耳|みみ}が{遠|とお}い (hard of hearing). Compound: イヤリング (earring).",
     "cross_references": [
       "me_00012",
       "kuchi_00022"
@@ -22773,7 +22773,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "南 is one of the four cardinal directions. Japanese stations often have named exits: 南口 (south exit), 北口 (north exit), etc. Related: 南アメリカ (South America), 南極 (Antarctica—'south pole').",
+    "notes": "南 is one of the four cardinal directions. Japanese stations often have named exits: 南口 (south exit), 北口 (north exit), etc.\n\nRelated:\n- 南アメリカ (South America)\n- 南極 (Antarctica—'south pole').",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -23586,7 +23586,7 @@ const DICTIONARY_DATA = {
         "notes": "In compound: 買い物 (shopping)"
       }
     ],
-    "notes": "もの refers to concrete, physical things (compare with こと for abstract concepts). Common compounds: 買い物 (かいもの - shopping), 食べ物 (たべもの - food), 飲み物 (のみもの - drink), 着物 (きもの - kimono). When written 者, it means 'person' (e.g., 若者 わかもの - young person).",
+    "notes": "もの refers to concrete, physical things (compare with こと for abstract concepts).\n\nCommon compounds:\n- 買い物 (かいもの - shopping)\n- 食べ物 (たべもの - food)\n- 飲み物 (のみもの - drink)\n- 着物 (きもの - kimono). When written 者\n- it means 'person' (e.g., 若者 わかもの - young person).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -23672,7 +23672,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Different from {林|はやし} which refers to a smaller grove or woods. {森|もり} implies a larger, denser forested area. Also a common family name in Japan. Related: {森林|しんりん} (forest, more formal).",
+    "notes": "Different from {林|はやし} which refers to a smaller grove or woods. {森|もり} implies a larger, denser forested area. Also a common family name in Japan.\n\nRelated: {森林|しんりん} (forest, more formal).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -24399,7 +24399,7 @@ const DICTIONARY_DATA = {
         "notes": "Sense 2: duration"
       }
     ],
-    "notes": "An i-adjective. Opposite of {短|みじか}い (mijikai, short). Adverb form: {長|なが}く. Common expressions: {長|なが}い{間|あいだ} (for a long time), {長|なが}さ (length).",
+    "notes": "An i-adjective. Opposite of {短|みじか}い (mijikai, short). Adverb form: {長|なが}く.\n\nCommon expressions:\n- {長|なが}い{間|あいだ} (for a long time)\n- {長|なが}さ (length).",
     "cross_references": [
       "mijikai_00009"
     ],
@@ -24589,7 +24589,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "中 indicates 'inside' or 'middle.' The opposite is 外 (soto, outside). Common patterns: 〜の中に (inside ~), 〜の中で (among ~). Related: 中心 (chuushin, center), 中間 (chuukan, middle).",
+    "notes": "中 indicates 'inside' or 'middle.' The opposite is 外 (soto, outside).\n\nCommon patterns:\n- 〜の中に (inside ~)\n- 〜の中で (among ~).\n\nRelated:\n- 中心 (chuushin, center)\n- 中間 (chuukan, middle).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -24823,7 +24823,7 @@ const DICTIONARY_DATA = {
         "notes": "Also used for things"
       }
     ],
-    "notes": "A fundamental noun. Can be made polite with お: お{名前|なまえ}. Related: {名字|みょうじ}/{苗字|みょうじ} (family name), {下|した}の{名前|なまえ} (first name).",
+    "notes": "A fundamental noun. Can be made polite with お: お{名前|なまえ}.\n\nRelated:\n- {名字|みょうじ}/{苗字|みょうじ} (family name)\n- {下|した}の{名前|なまえ} (first name).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -24949,7 +24949,7 @@ const DICTIONARY_DATA = {
         "notes": "何か = something"
       }
     ],
-    "notes": "Read as なに in most contexts, but as なん before certain sounds (です、だ、と、の、で) and counters. Related: {何|なに}か (something), {何|なに}も (nothing with negative), {何|なに}でも (anything).",
+    "notes": "Read as なに in most contexts, but as なん before certain sounds (です、だ、と、の、で) and counters.\n\nRelated:\n- {何|なに}か (something)\n- {何|なに}も (nothing with negative)\n- {何|なに}でも (anything).",
     "cross_references": [
       "dare_00015",
       "doko_00016",
@@ -24995,7 +24995,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{何時|なんじ} combines {何|なん} (what) with {時|じ} (hour/time). For asking 'what time' in the sense of scheduling, use {何時|なんじ}に. Hours are counted as {一時|いちじ}, {二時|にじ}, {三時|さんじ}, etc. Note irregular readings: {四時|よじ} (not しじ), {七時|しちじ}, {九時|くじ}.",
+    "notes": "{何時|なんじ} combines {何|なん} (what) with {時|じ} (hour/time). For asking 'what time' in the sense of scheduling, use {何時|なんじ}に. Hours are counted as {一時|いちじ}, {二時|にじ}, {三時|さんじ}, etc. Note irregular readings:\n- {四時|よじ} (not しじ)\n- {七時|しちじ}\n- {九時|くじ}.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -25408,7 +25408,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "夏 is associated with festivals (祭り), fireworks (花火), watermelon (スイカ), and Obon holidays. Japanese summers are hot and humid. Related: 夏休み (natsuyasumi, summer vacation), 真夏 (manatsu, midsummer), 夏祭り (natsumatsuri, summer festival).",
+    "notes": "夏 is associated with festivals (祭り), fireworks (花火), watermelon (スイカ), and Obon holidays. Japanese summers are hot and humid.\n\nRelated:\n- 夏休み (natsuyasumi, summer vacation)\n- 真夏 (manatsu, midsummer)\n- 夏祭り (natsumatsuri, summer festival).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -25450,7 +25450,7 @@ const DICTIONARY_DATA = {
         "notes": "なぜか = for some reason"
       }
     ],
-    "notes": "One of the question words for asking reasons. Compare: どうして (casual, why/how come), なぜ (neutral/slightly formal), なにゆえ (literary/very formal). Related: なぜか (for some reason), なぜなら (because).",
+    "notes": "One of the question words for asking reasons. Compare: どうして (casual, why/how come), なぜ (neutral/slightly formal), なにゆえ (literary/very formal).\n\nRelated:\n- なぜか (for some reason)\n- なぜなら (because).",
     "cross_references": [
       "nani_00007",
       "dou_00017"
@@ -25495,7 +25495,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "More specific than just asking いくら (how much). {値段|ねだん}が{高|たか}い/安{やす}い means expensive/cheap. Related: {定価|ていか} (fixed price), {価格|かかく} (price, more formal).",
+    "notes": "More specific than just asking いくら (how much). {値段|ねだん}が{高|たか}い/安{やす}い means expensive/cheap.\n\nRelated:\n- {定価|ていか} (fixed price)\n- {価格|かかく} (price, more formal).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -25537,7 +25537,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "猫 is the word for 'cat.' Japan has many cat-related cultural elements: 猫カフェ (neko cafe, cat café), 招き猫 (maneki neko, beckoning cat—a lucky charm). Common expressions: 猫の手も借りたい (even want to borrow a cat's paws—extremely busy).",
+    "notes": "猫 is the word for 'cat.' Japan has many cat-related cultural elements: 猫カフェ (neko cafe, cat café), 招き猫 (maneki neko, beckoning cat—a lucky charm).\n\nCommon expressions: 猫の手も借りたい (even want to borrow a cat's paws—extremely busy).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -26527,7 +26527,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Used alone or in compounds: {牛肉|ぎゅうにく} (beef), {豚肉|ぶたにく} (pork), {鶏肉|とりにく} (chicken), {焼|や}き{肉|にく} (grilled meat/BBQ). Related: {魚|さかな} (fish).",
+    "notes": "Used alone or in compounds: {牛肉|ぎゅうにく} (beef), {豚肉|ぶたにく} (pork), {鶏肉|とりにく} (chicken), {焼|や}き{肉|にく} (grilled meat/BBQ).\n\nRelated: {魚|さかな} (fish).",
     "cross_references": [
       "sakana_00007"
     ],
@@ -26571,7 +26571,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Counter: {個|こ} for pieces of luggage. Common expressions: {荷物|にもつ}を{預|あず}ける (to check luggage), {手|て}{荷物|にもつ} (hand luggage/carry-on). At Japanese train stations, you'll often see coin lockers for storing {荷物|にもつ}.",
+    "notes": "Counter: {個|こ} for pieces of luggage.\n\nCommon expressions:\n- {荷物|にもつ}を{預|あず}ける (to check luggage)\n- {手|て}{荷物|にもつ} (hand luggage/carry-on). At Japanese train stations\n- you'll often see coin lockers for storing {荷物|にもつ}.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -26781,7 +26781,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "西 is one of the four cardinal directions. Related: 西日本 (nishi nihon, western Japan), 西口 (nishiguchi, west exit), 西洋 (seiyou, the West/Western countries).",
+    "notes": "西 is one of the four cardinal directions.\n\nRelated:\n- 西日本 (nishi nihon, western Japan)\n- 西口 (nishiguchi, west exit)\n- 西洋 (seiyou, the West/Western countries).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -27003,7 +27003,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{飲|の}む (drink X).\n\nASPECT: ている indicates ongoing action. {飲|の}んでいる = 'is drinking.'\n\nCOMMON PATTERNS:\n・{水|みず}を{飲|の}む (drink water)\n・{薬|くすり}を{飲|の}む (take medicine)\n・お{酒|さけ}を{飲|の}む (drink alcohol)\n・{飲|の}み{物|もの} (beverage)\n\nGodan verb with irregular te-form: む → んで. Related: {食|た}べる (to eat).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{飲|の}む (drink X).\n\nASPECT: ている indicates ongoing action. {飲|の}んでいる = 'is drinking.'\n\nCOMMON PATTERNS:\n・{水|みず}を{飲|の}む (drink water)\n・{薬|くすり}を{飲|の}む (take medicine)\n・お{酒|さけ}を{飲|の}む (drink alcohol)\n・{飲|の}み{物|もの} (beverage)\n\nGodan verb with irregular te-form: む → んで.\n\nRelated: {食|た}べる (to eat).",
     "cross_references": [
       "taberu_00001"
     ],
@@ -27178,7 +27178,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{乗|の}る (ride/get on X).\n\nASPECT: ている indicates resulting state. {乗|の}っている = 'is riding' or 'is on (vehicle).'\n\nCOMMON PATTERNS:\n・{電車|でんしゃ}に{乗|の}る (get on a train)\n・{自転車|じてんしゃ}に{乗|の}る (ride a bicycle)\n・{馬|うま}に{乗|の}る (ride a horse)\n・{乗|の}り{換|か}える (to transfer)\n\nUses に particle. Opposite: {降|お}りる (to get off). Related: {乗|の}り{物|もの} (vehicle).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{乗|の}る (ride/get on X).\n\nASPECT: ている indicates resulting state. {乗|の}っている = 'is riding' or 'is on (vehicle).'\n\nCOMMON PATTERNS:\n・{電車|でんしゃ}に{乗|の}る (get on a train)\n・{自転車|じてんしゃ}に{乗|の}る (ride a bicycle)\n・{馬|うま}に{乗|の}る (ride a horse)\n・{乗|の}り{換|か}える (to transfer)\n\nUses に particle. Opposite: {降|お}りる (to get off).\n\nRelated: {乗|の}り{物|もの} (vehicle).",
     "cross_references": [
       "oriru_00025"
     ],
@@ -27398,7 +27398,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "When written in kanji, there are two forms: {伯母|おば} for an aunt older than your parent, and {叔母|おば} for an aunt younger than your parent. In casual writing, おば is often written in hiragana. When referring to someone else's aunt politely, use おばさん. Note: おばさん can also be used generally for middle-aged women.",
+    "notes": "When written in kanji, there are two forms: {伯母|おば} for an aunt older than your parent, and {叔母|おば} for an aunt younger than your parent. In casual writing, おば is often written in hiragana. When referring to someone else's aunt politely, use おばさん.\n\nNote: おばさん can also be used generally for middle-aged women.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -27906,7 +27906,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "When written in kanji, there are two forms: {伯父|おじ} for an uncle older than your parent, and {叔父|おじ} for an uncle younger than your parent. In casual writing, おじ is often written in hiragana. When referring to someone else's uncle politely, use おじさん. Note: おじさん can also be used generally for middle-aged men.",
+    "notes": "When written in kanji, there are two forms: {伯父|おじ} for an uncle older than your parent, and {叔父|おじ} for an uncle younger than your parent. In casual writing, おじ is often written in hiragana. When referring to someone else's uncle politely, use おじさん.\n\nNote: おじさん can also be used generally for middle-aged men.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -28089,7 +28089,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "お is a polite prefix. Related: {円|えん} (yen), {財布|さいふ} (wallet). お{金持|かねも}ち = rich person.",
+    "notes": "お is a polite prefix.\n\nRelated:\n- {円|えん} (yen)\n- {財布|さいふ} (wallet). お{金持|かねも}ち = rich person.",
     "cross_references": [
       "harau_00015",
       "ginkou_00036"
@@ -28598,7 +28598,7 @@ const DICTIONARY_DATA = {
         "notes": "Using the 'see off' meaning"
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: XをYに{送|おく}る (send X to Y) or Xを{送|おく}る (see X off).\n\nASPECT: ている indicates ongoing action or completed action depending on context. {送|おく}っている = 'is sending' or 'has sent.'\n\nCOMMON PATTERNS:\n・{手紙|てがみ}を{送|おく}る (send a letter)\n・メールを{送|おく}る (send an email)\n・{荷物|にもつ}を{送|おく}る (send a package)\n・{駅|えき}まで{送|おく}る (walk someone to the station)\n\nRelated: {送|おく}り{迎|むか}え (pick-up and drop-off), {見送|みおく}る (to see off).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: XをYに{送|おく}る (send X to Y) or Xを{送|おく}る (see X off).\n\nASPECT: ている indicates ongoing action or completed action depending on context. {送|おく}っている = 'is sending' or 'has sent.'\n\nCOMMON PATTERNS:\n・{手紙|てがみ}を{送|おく}る (send a letter)\n・メールを{送|おく}る (send an email)\n・{荷物|にもつ}を{送|おく}る (send a package)\n・{駅|えき}まで{送|おく}る (walk someone to the station)\n\nRelated:\n- {送|おく}り{迎|むか}え (pick-up and drop-off)\n- {見送|みおく}る (to see off).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -29151,7 +29151,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "音楽 combines 音 (sound) and 楽 (pleasure/music). Related words: 音楽家 (ongakuka, musician), 音楽会 (ongakukai, concert). Used with 聞く (to listen) rather than 見る (to see).",
+    "notes": "音楽 combines 音 (sound) and 楽 (pleasure/music).\n\nRelated words:\n- 音楽家 (ongakuka, musician)\n- 音楽会 (ongakukai, concert). Used with 聞く (to listen) rather than 見る (to see).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -29948,7 +29948,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Unlike older siblings, the humble/polite distinction is less strict for younger siblings. {弟|おとうと}さん is used to refer to someone else's younger brother politely. Related: {妹|いもうと} (younger sister).",
+    "notes": "Unlike older siblings, the humble/polite distinction is less strict for younger siblings. {弟|おとうと}さん is used to refer to someone else's younger brother politely.\n\nRelated: {妹|いもうと} (younger sister).",
     "cross_references": [
       "ani_00027",
       "imouto_00029"
@@ -30127,7 +30127,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {終|お}える (transitive, to finish something). Pattern: Xが{終|お}わる.\n\nASPECT: ている indicates resulting state. {終|お}わっている = 'has ended/is over' (not 'is ending').\n\nCOMMON PATTERNS:\n・{授業|じゅぎょう}が{終|お}わる (class ends)\n・{仕事|しごと}が{終|お}わる (work ends)\n・{終|お}わったら〜 (after it ends, ~)\n・〜{終|お}わる (finish ~ing - compound verb)\n\nOpposite: {始|はじ}まる (to begin). Note: {終|お}わる is godan despite ending in る.",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {終|お}える (transitive, to finish something). Pattern: Xが{終|お}わる.\n\nASPECT: ている indicates resulting state. {終|お}わっている = 'has ended/is over' (not 'is ending').\n\nCOMMON PATTERNS:\n・{授業|じゅぎょう}が{終|お}わる (class ends)\n・{仕事|しごと}が{終|お}わる (work ends)\n・{終|お}わったら〜 (after it ends, ~)\n・〜{終|お}わる (finish ~ing - compound verb)\n\nOpposite: {始|はじ}まる (to begin).\n\nNote: {終|お}わる is godan despite ending in る.",
     "cross_references": [
       "hajimaru_00095"
     ],
@@ -30781,7 +30781,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "理由 is a formal word for 'reason.' Common patterns: ～の理由 (the reason for ~), 理由を聞く (to ask for a reason), 理由なく (without reason). Compare with わけ (reason, often more casual or explanatory) and 原因 (げんいん - cause, more technical).",
+    "notes": "理由 is a formal word for 'reason.' Common patterns:\n- ～の理由 (the reason for ~)\n- 理由を聞く (to ask for a reason)\n- 理由なく (without reason). Compare with わけ (reason, often more casual or explanatory) and 原因 (げんいん - cause, more technical).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -30823,7 +30823,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "The native Japanese counter is {六|むっ}つ (muttsu). When combined with counters starting with h-sounds, ろく often becomes ろっ and causes sound changes: {六|ろっ}{本|ぽん} (roppon), {六|ろっ}{百|ぴゃく} (roppyaku, 600). {六|ろく}{時|じ} (rokuji) stays as ろく.",
+    "notes": "The native Japanese counter is {六|むっ}つ (muttsu). When combined with counters starting with h-sounds, ろく often becomes ろっ and causes sound changes:\n- {六|ろっ}{本|ぽん} (roppon)\n- {六|ろっ}{百|ぴゃく} (roppyaku, 600). {六|ろく}{時|じ} (rokuji) stays as ろく.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -30949,7 +30949,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Can be used as a noun ({旅行|りょこう}に{行|い}く, go on a trip) or as a suru verb ({旅行|りょこう}する, to travel). Related words: {旅行|りょこう}{会社|がいしゃ} (travel agency), {旅行|りょこう}{者|しゃ} (traveler), {海外|かいがい}{旅行|りょこう} (overseas travel).",
+    "notes": "Can be used as a noun ({旅行|りょこう}に{行|い}く, go on a trip) or as a suru verb ({旅行|りょこう}する, to travel).\n\nRelated words:\n- {旅行|りょこう}{会社|がいしゃ} (travel agency)\n- {旅行|りょこう}{者|しゃ} (traveler)\n- {海外|かいがい}{旅行|りょこう} (overseas travel).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -31174,7 +31174,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{探|さが}す (search for X).\n\nASPECT: ている indicates ongoing action. {探|さが}している = 'is looking for' (active search in progress).\n\nCOMMON PATTERNS:\n・{仕事|しごと}を{探|さが}す (look for a job)\n・{鍵|かぎ}を{探|さが}す (look for keys)\n・{部屋|へや}を{探|さが}す (look for an apartment)\n・ネットで{探|さが}す (search online)\n\nTwo kanji: {探|さが}す (search for things), {捜|さが}す (search for people/missing items). Related: {見|み}つける (to find - the result of searching).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{探|さが}す (search for X).\n\nASPECT: ている indicates ongoing action. {探|さが}している = 'is looking for' (active search in progress).\n\nCOMMON PATTERNS:\n・{仕事|しごと}を{探|さが}す (look for a job)\n・{鍵|かぎ}を{探|さが}す (look for keys)\n・{部屋|へや}を{探|さが}す (look for an apartment)\n・ネットで{探|さが}す (search online)\n\nTwo kanji: {探|さが}す (search for things), {捜|さが}す (search for people/missing items).\n\nRelated: {見|み}つける (to find - the result of searching).",
     "cross_references": [
       "mitsukeru_00095"
     ],
@@ -31490,7 +31490,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Common types: {鮭|さけ/しゃけ} (salmon), {鮪|まぐろ} (tuna). Related: {肉|にく} (meat).",
+    "notes": "Common types: {鮭|さけ/しゃけ} (salmon), {鮪|まぐろ} (tuna).\n\nRelated: {肉|にく} (meat).",
     "cross_references": [
       "niku_00011"
     ],
@@ -31870,7 +31870,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "〜冊 is specifically for bound materials. Sound changes: 一冊 (いっさつ), 八冊 (はっさつ), 十冊 (じゅっさつ). Don't confuse with 〜本 (hon), which counts the books as long objects—〜冊 counts them as bound volumes.",
+    "notes": "〜冊 is specifically for bound materials. Sound changes:\n- 一冊 (いっさつ)\n- 八冊 (はっさつ)\n- 十冊 (じゅっさつ). Don't confuse with 〜本 (hon)\n- which counts the books as long objects—〜冊 counts them as bound volumes.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -31959,7 +31959,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive - takes に). No pair verb. Pattern: Xに{触|さわ}る (touch X).\n\nASPECT: ている indicates ongoing/repeated action. {触|さわ}っている = 'is touching.'\n\nCOMMON PATTERNS:\n・Xに{触|さわ}る (touch X)\n・{触|さわ}らないでください (please don't touch)\n・{触|さわ}ると{分|わ}かる (you can tell by touching)\n・{手|て}で{触|さわ}る (touch with hand)\n\nNote: Uses に (not を) for the thing being touched. Related: {触|ふ}れる is more formal/literary.",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive - takes に). No pair verb. Pattern: Xに{触|さわ}る (touch X).\n\nASPECT: ている indicates ongoing/repeated action. {触|さわ}っている = 'is touching.'\n\nCOMMON PATTERNS:\n・Xに{触|さわ}る (touch X)\n・{触|さわ}らないでください (please don't touch)\n・{触|さわ}ると{分|わ}かる (you can tell by touching)\n・{手|て}で{触|さわ}る (touch with hand)\n\nNote: Uses に (not を) for the thing being touched.\n\nRelated: {触|ふ}れる is more formal/literary.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -32216,7 +32216,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Sound changes: {三千|さんぜん} (3000 - zen), {八千|はっせん} (8000 - ssen). {千円|せんえん}{札|さつ} is a 1000-yen bill. {何千|なんぜん} means 'thousands of'. {千|ち} is the kun'yomi reading used in some words like {千葉|ちば}.",
+    "notes": "Sound changes:\n- {三千|さんぜん} (3000 - zen)\n- {八千|はっせん} (8000 - ssen). {千円|せんえん}{札|さつ} is a 1000-yen bill. {何千|なんぜん} means 'thousands of'. {千|ち} is the kun'yomi reading used in some words like {千葉|ちば}.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -32747,7 +32747,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "One of the most common nouns in Japanese. Can be used as a verb with する: {仕事|しごと}をする (to work). Related: {仕事中|しごとちゅう} (at work), {仕事場|しごとば} (workplace).",
+    "notes": "One of the most common nouns in Japanese. Can be used as a verb with する: {仕事|しごと}をする (to work).\n\nRelated:\n- {仕事中|しごとちゅう} (at work)\n- {仕事場|しごとば} (workplace).",
     "cross_references": [
       "hataraku_00008"
     ],
@@ -32880,7 +32880,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{試験|しけん}を{受|う}ける means 'to take an exam'. {試験|しけん}に{受|う}かる/{合格|ごうかく}する means 'to pass', while {試験|しけん}に{落|お}ちる/{不合格|ふごうかく}になる means 'to fail'. Related: テスト is also used for smaller tests.",
+    "notes": "{試験|しけん}を{受|う}ける means 'to take an exam'. {試験|しけん}に{受|う}かる/{合格|ごうかく}する means 'to pass', while {試験|しけん}に{落|お}ちる/{不合格|ふごうかく}になる means 'to fail'.\n\nRelated: テスト is also used for smaller tests.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -33054,7 +33054,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "A general term for merchandise or items. More formal than {物|もの} (thing). Often used in shopping and business contexts. Related: {品質|ひんしつ} (quality), {商品|しょうひん} (product/merchandise).",
+    "notes": "A general term for merchandise or items. More formal than {物|もの} (thing). Often used in shopping and business contexts.\n\nRelated:\n- {品質|ひんしつ} (quality)\n- {商品|しょうひん} (product/merchandise).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -33096,7 +33096,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "新聞 literally means 'new things heard.' Major Japanese newspapers include 朝日新聞 (Asahi), 読売新聞 (Yomiuri), 毎日新聞 (Mainichi). Related: 新聞社 (shinbunsha, newspaper company), 新聞記事 (shinbun kiji, newspaper article).",
+    "notes": "新聞 literally means 'new things heard.' Major Japanese newspapers include 朝日新聞 (Asahi), 読売新聞 (Yomiuri), 毎日新聞 (Mainichi).\n\nRelated:\n- 新聞社 (shinbunsha, newspaper company)\n- 新聞記事 (shinbun kiji, newspaper article).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -33143,7 +33143,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{信|しん}じる (believe X).\n\nASPECT: ている indicates ongoing state. {信|しん}じている = 'believe' (continuous state of believing).\n\nCOMMON PATTERNS:\n・{人|ひと}を{信|しん}じる (believe in a person)\n・{話|はなし}を{信|しん}じる (believe a story)\n・{自分|じぶん}を{信|しん}じる (believe in oneself)\n・{信|しん}じられない (I can't believe it)\n\nRelated: {信頼|しんらい} (trust - noun), {信用|しんよう} (credit/trust). {信|しん}じられない is very common in conversation.",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{信|しん}じる (believe X).\n\nASPECT: ている indicates ongoing state. {信|しん}じている = 'believe' (continuous state of believing).\n\nCOMMON PATTERNS:\n・{人|ひと}を{信|しん}じる (believe in a person)\n・{話|はなし}を{信|しん}じる (believe a story)\n・{自分|じぶん}を{信|しん}じる (believe in oneself)\n・{信|しん}じられない (I can't believe it)\n\nRelated:\n- {信頼|しんらい} (trust - noun)\n- {信用|しんよう} (credit/trust). {信|しん}じられない is very common in conversation.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -33269,7 +33269,7 @@ const DICTIONARY_DATA = {
         "notes": "Formal expression of gratitude"
       }
     ],
-    "notes": "親切 is a na-adjective: 親切な (before nouns), 親切だ/です (predicate), 親切じゃない (negative). The kanji literally mean 'close + cut' - the idea of being close enough to someone to help them. Can also be used as a noun: 親切 (kindness). Related: 不親切 (ふしんせつ - unkind).",
+    "notes": "親切 is a na-adjective: 親切な (before nouns), 親切だ/です (predicate), 親切じゃない (negative). The kanji literally mean 'close + cut' - the idea of being close enough to someone to help them. Can also be used as a noun: 親切 (kindness).\n\nRelated: 不親切 (ふしんせつ - unkind).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -33584,7 +33584,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "下 indicates position (below, under), ranking (subordinate), or age (younger). The opposite is 上 (ue, above/on top). Common patterns: 〜の下に (under ~), 年下 (toshishita, younger person).",
+    "notes": "下 indicates position (below, under), ranking (subordinate), or age (younger). The opposite is 上 (ue, above/on top).\n\nCommon patterns:\n- 〜の下に (under ~)\n- 年下 (toshishita, younger person).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -33626,7 +33626,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Forms a verb with する: {質問|しつもん}する (to ask a question). The answer to a question is {答|こた}え or {返事|へんじ}. Related: {質問者|しつもんしゃ} (questioner).",
+    "notes": "Forms a verb with する: {質問|しつもん}する (to ask a question). The answer to a question is {答|こた}え or {返事|へんじ}.\n\nRelated: {質問者|しつもんしゃ} (questioner).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -34123,7 +34123,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{週間|しゅうかん} counts weeks of duration. Common forms: {一|いっ}{週間|しゅうかん} (one week), {二|に}{週間|しゅうかん} (two weeks), {三|さん}{週間|しゅうかん} (three weeks). Note that {一週間|いっしゅうかん} has a small っ. Compare with {週|しゅう} which refers to 'week' as a unit (e.g., {先週|せんしゅう} = last week).",
+    "notes": "{週間|しゅうかん} counts weeks of duration. Common forms:\n- {一|いっ}{週間|しゅうかん} (one week)\n- {二|に}{週間|しゅうかん} (two weeks)\n- {三|さん}{週間|しゅうかん} (three weeks). Note that {一週間|いっしゅうかん} has a small っ. Compare with {週|しゅう} which refers to 'week' as a unit (e.g., {先週|せんしゅう} = last week).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -34427,7 +34427,7 @@ const DICTIONARY_DATA = {
         "notes": "いっそく with small っ"
       }
     ],
-    "notes": "{足|そく} is used for counting pairs of footwear including shoes, socks, slippers, etc. Common forms: {一|いっ}{足|そく} (one pair - with っ), {二|に}{足|そく}, {三|さん}{足|ぞく} (voiced), {何|なん}{足|ぞく}. This counter emphasizes that footwear comes in pairs.",
+    "notes": "{足|そく} is used for counting pairs of footwear including shoes, socks, slippers, etc. Common forms:\n- {一|いっ}{足|そく} (one pair - with っ)\n- {二|に}{足|そく}\n- {三|さん}{足|ぞく} (voiced)\n- {何|なん}{足|ぞく}. This counter emphasizes that footwear comes in pairs.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -34790,7 +34790,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "外 means 'outside' or 'outdoors.' The opposite is 中 (naka, inside). Common patterns: 外に出る (to go outside), 外で (outside, outdoors). Related: 外国 (gaikoku, foreign country), 外出 (gaishutsu, going out).",
+    "notes": "外 means 'outside' or 'outdoors.' The opposite is 中 (naka, inside).\n\nCommon patterns:\n- 外に出る (to go outside)\n- 外で (outside, outdoors).\n\nRelated:\n- 外国 (gaikoku, foreign country)\n- 外出 (gaishutsu, going out).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -34837,7 +34837,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "そう belongs to the ko-so-a-do system: こう (this way), そう (that way, near listener), ああ (that way, far from both). It refers to things mentioned or known from context. Common expressions: そうですね (That's right / Let me see), そうですか (Is that so?), そうそう (Yes, yes / That's right).",
+    "notes": "そう belongs to the ko-so-a-do system: こう (this way), そう (that way, near listener), ああ (that way, far from both). It refers to things mentioned or known from context.\n\nCommon expressions:\n- そうですね (That's right / Let me see)\n- そうですか (Is that so?)\n- そうそう (Yes, yes / That's right).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -35389,7 +35389,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xがすく (X becomes empty).\n\nASPECT: ている indicates resulting state. すいている = 'is empty/not crowded' (state, not process).\n\nCOMMON PATTERNS:\n・お{腹|なか}がすく (become hungry)\n・{電車|でんしゃ}がすいている (the train is not crowded)\n・{道|みち}がすいている (the road is clear)\n・お{腹|なか}がすいた (I'm hungry - past = current state)\n\nOpposite: {込|こ}む/{混|こ}む (to be crowded). Note: すく can use different kanji ({空|す}く for empty, {透|す}く for transparent).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xがすく (X becomes empty).\n\nASPECT: ている indicates resulting state. すいている = 'is empty/not crowded' (state, not process).\n\nCOMMON PATTERNS:\n・お{腹|なか}がすく (become hungry)\n・{電車|でんしゃ}がすいている (the train is not crowded)\n・{道|みち}がすいている (the road is clear)\n・お{腹|なか}がすいた (I'm hungry - past = current state)\n\nOpposite: {込|こ}む/{混|こ}む (to be crowded).\n\nNote: すく can use different kanji ({空|す}く for empty, {透|す}く for transparent).",
     "cross_references": [
       "komu_00093"
     ],
@@ -35433,7 +35433,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "少ない conjugates as an i-adjective: 少なくない (negative), 少なくて (te-form), 少なかった (past). Unlike English 'few' vs 'little', 少ない can be used for both countable and uncountable nouns. Note: 少ない cannot directly modify nouns like English adjectives - use 少ない + noun or 少しの + noun.",
+    "notes": "少ない conjugates as an i-adjective: 少なくない (negative), 少なくて (te-form), 少なかった (past). Unlike English 'few' vs 'little', 少ない can be used for both countable and uncountable nouns.\n\nNote: 少ない cannot directly modify nouns like English adjectives - use 少ない + noun or 少しの + noun.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -35569,7 +35569,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Related words: {砂浜|すなはま} (sandy beach), {砂漠|さばく} (desert), {砂場|すなば} (sandbox). The kanji {砂|すな} is also used in {砂糖|さとう} (sugar).",
+    "notes": "Related words:\n- {砂浜|すなはま} (sandy beach)\n- {砂漠|さばく} (desert)\n- {砂場|すなば} (sandbox). The kanji {砂|すな} is also used in {砂糖|さとう} (sugar).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -35939,7 +35939,7 @@ const DICTIONARY_DATA = {
         "notes": "Volitional form expressing suggestion"
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{食|た}べる (eat X).\n\nASPECT: ている indicates ongoing action. {食|た}べている = 'is eating' (progressive, not resultative).\n\nCOMMON PATTERNS:\n・{朝|あさ}ごはんを{食|た}べる (eat breakfast)\n・{外|そと}で{食|た}べる (eat out)\n・{食|た}べてみる (try eating)\n・{食|た}べ{物|もの} (food - noun)\n\nPolite forms: {召|め}し{上|あ}がる (honorific), いただく (humble). Opposite: {飲|の}む (to drink).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{食|た}べる (eat X).\n\nASPECT: ている indicates ongoing action. {食|た}べている = 'is eating' (progressive, not resultative).\n\nCOMMON PATTERNS:\n・{朝|あさ}ごはんを{食|た}べる (eat breakfast)\n・{外|そと}で{食|た}べる (eat out)\n・{食|た}べてみる (try eating)\n・{食|た}べ{物|もの} (food - noun)\n\nPolite forms:\n- {召|め}し{上|あ}がる (honorific)\n- いただく (humble). Opposite: {飲|の}む (to drink).",
     "cross_references": [
       "nomu_00003"
     ],
@@ -36210,7 +36210,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "たいてい means 'usually' or 'mostly' - similar to 普通 (ふつう) and いつも, but たいてい suggests 'in most cases' with room for exceptions. The kanji 大抵 can be used but hiragana is more common. Related: いつも (always), 普通 (usually, normally), 大体 (だいたい - roughly, mostly).",
+    "notes": "たいてい means 'usually' or 'mostly' - similar to 普通 (ふつう) and いつも, but たいてい suggests 'in most cases' with room for exceptions. The kanji 大抵 can be used but hiragana is more common.\n\nRelated:\n- いつも (always)\n- 普通 (usually, normally)\n- 大体 (だいたい - roughly, mostly).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -36489,7 +36489,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{頼|たの}む (request X) / Xに{頼|たの}む (ask X [person]).\n\nASPECT: ている indicates ongoing/repeated state. {頼|たの}んでいる = 'have requested' or 'am relying on.'\n\nCOMMON PATTERNS:\n・{人|ひと}に{頼|たの}む (ask someone)\n・{仕事|しごと}を{頼|たの}む (request work/task)\n・ビールを{頼|たの}む (order beer)\n・{頼|たの}むよ (please! - casual request)\n\nRelated: お{願|ねが}いします (polite request), {頼|たの}み (noun - favor/request).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{頼|たの}む (request X) / Xに{頼|たの}む (ask X [person]).\n\nASPECT: ている indicates ongoing/repeated state. {頼|たの}んでいる = 'have requested' or 'am relying on.'\n\nCOMMON PATTERNS:\n・{人|ひと}に{頼|たの}む (ask someone)\n・{仕事|しごと}を{頼|たの}む (request work/task)\n・ビールを{頼|たの}む (order beer)\n・{頼|たの}むよ (please!\n- casual request)\n\nRelated:\n- お{願|ねが}いします (polite request)\n- {頼|たの}み (noun - favor/request).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -36531,7 +36531,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "The verb form is {楽|たの}しむ (to enjoy). {楽|たの}しみにする means 'to look forward to'. お{楽|たの}しみください is 'please enjoy'. Related: {楽|らく} (comfortable/easy) uses the same kanji with a different reading.",
+    "notes": "The verb form is {楽|たの}しむ (to enjoy). {楽|たの}しみにする means 'to look forward to'. お{楽|たの}しみください is 'please enjoy'.\n\nRelated: {楽|らく} (comfortable/easy) uses the same kanji with a different reading.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -36808,7 +36808,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {助|たす}かる (intransitive). Pattern: Xを{助|たす}ける (help/save X).\n\nASPECT: ている indicates ongoing action. {助|たす}けている = 'is helping/saving.'\n\nCOMMON PATTERNS:\n・{人|ひと}を{助|たす}ける (help a person)\n・{命|いのち}を{助|たす}ける (save a life)\n・{助|たす}けて! (Help! - emergency)\n・{助|たす}けを{求|もと}める (ask for help)\n\nPAIR: {助|たす}かる (intransitive) - {助|たす}かりました (that's a big help/I'm saved). Stronger than {手伝|てつだ}う (general help).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {助|たす}かる (intransitive). Pattern: Xを{助|たす}ける (help/save X).\n\nASPECT: ている indicates ongoing action. {助|たす}けている = 'is helping/saving.'\n\nCOMMON PATTERNS:\n・{人|ひと}を{助|たす}ける (help a person)\n・{命|いのち}を{助|たす}ける (save a life)\n・{助|たす}けて! (Help!\n- emergency)\n・{助|たす}けを{求|もと}める (ask for help)\n\nPAIR: {助|たす}かる (intransitive) - {助|たす}かりました (that's a big help/I'm saved). Stronger than {手伝|てつだ}う (general help).",
     "cross_references": [
       "tetsudau_00095"
     ],
@@ -36992,7 +36992,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xが{立|た}つ (X stands).\n\nASPECT: ている indicates resulting state. {立|た}っている = 'is standing' (in standing position).\n\nCOMMON PATTERNS:\n・{立|た}ってください (please stand up)\n・ずっと{立|た}っている (been standing the whole time)\n・{列|れつ}に{立|た}つ (stand in line)\n・{役|やく}に{立|た}つ (be useful)\n\nOpposite: {座|すわ}る (to sit). Related: {立|た}ち{上|あ}がる (stand up), {立|た}ち{止|ど}まる (stop). Different from {経|た}つ (time passes).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xが{立|た}つ (X stands).\n\nASPECT: ている indicates resulting state. {立|た}っている = 'is standing' (in standing position).\n\nCOMMON PATTERNS:\n・{立|た}ってください (please stand up)\n・ずっと{立|た}っている (been standing the whole time)\n・{列|れつ}に{立|た}つ (stand in line)\n・{役|やく}に{立|た}つ (be useful)\n\nOpposite: {座|すわ}る (to sit).\n\nRelated:\n- {立|た}ち{上|あ}がる (stand up)\n- {立|た}ち{止|ど}まる (stop). Different from {経|た}つ (time passes).",
     "cross_references": [
       "suwaru_00093"
     ],
@@ -37215,7 +37215,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "手紙 literally means 'hand paper.' Though email (メール) is more common now, 手紙 specifically refers to physical letters. Related: 手紙を書く (to write a letter), 手紙を出す (to send a letter), 封筒 (fuutou, envelope).",
+    "notes": "手紙 literally means 'hand paper.' Though email (メール) is more common now, 手紙 specifically refers to physical letters.\n\nRelated:\n- 手紙を書く (to write a letter)\n- 手紙を出す (to send a letter)\n- 封筒 (fuutou, envelope).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -37435,7 +37435,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Combines {店|みせ} (store) and {員|いん} (member/staff). Often addressed with さん: {店員|てんいん}さん. Related words: {店長|てんちょう} (store manager), {従業員|じゅうぎょういん} (employee).",
+    "notes": "Combines {店|みせ} (store) and {員|いん} (member/staff). Often addressed with さん: {店員|てんいん}さん.\n\nRelated words:\n- {店長|てんちょう} (store manager)\n- {従業員|じゅうぎょういん} (employee).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -37477,7 +37477,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Common weather descriptions: いい{天気|てんき} (nice weather), {悪|わる}い{天気|てんき} (bad weather). Related: {天気予報|てんきよほう} (weather forecast).",
+    "notes": "Common weather descriptions: いい{天気|てんき} (nice weather), {悪|わる}い{天気|てんき} (bad weather).\n\nRelated: {天気予報|てんきよほう} (weather forecast).",
     "cross_references": [
       "ame_00044",
       "yuki_00045"
@@ -37608,7 +37608,7 @@ const DICTIONARY_DATA = {
         "notes": "雨戸 = rain shutters"
       }
     ],
-    "notes": "戸 originally refers to traditional Japanese sliding doors (as opposed to hinged doors, which are ドア). Common compounds: 雨戸 (amado, storm shutters), 戸棚 (todana, cupboard). For modern hinged doors, ドア is more commonly used.",
+    "notes": "戸 originally refers to traditional Japanese sliding doors (as opposed to hinged doors, which are ドア).\n\nCommon compounds:\n- 雨戸 (amado, storm shutters)\n- 戸棚 (todana, cupboard). For modern hinged doors\n- ドア is more commonly used.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -37948,7 +37948,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xが{飛|と}ぶ (X flies/jumps).\n\nASPECT: ている indicates ongoing action. {飛|と}んでいる = 'is flying' (progressive).\n\nCOMMON PATTERNS:\n・{空|そら}を{飛|と}ぶ (fly through the sky)\n・{鳥|とり}が{飛|と}ぶ (a bird flies)\n・{飛|と}び{上|あ}がる (jump up)\n・{飛|と}び{込|こ}む (jump/dive in)\n\nCovers both 'fly' and 'jump' in Japanese. Related: {飛行機|ひこうき} (airplane). Godan verb - past: {飛|と}んだ.",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xが{飛|と}ぶ (X flies/jumps).\n\nASPECT: ている indicates ongoing action. {飛|と}んでいる = 'is flying' (progressive).\n\nCOMMON PATTERNS:\n・{空|そら}を{飛|と}ぶ (fly through the sky)\n・{鳥|とり}が{飛|と}ぶ (a bird flies)\n・{飛|と}び{上|あ}がる (jump up)\n・{飛|と}び{込|こ}む (jump/dive in)\n\nCovers both 'fly' and 'jump' in Japanese.\n\nRelated: {飛行機|ひこうき} (airplane). Godan verb - past: {飛|と}んだ.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -38416,7 +38416,7 @@ const DICTIONARY_DATA = {
         "notes": "Sense 2: staying (different kanji)"
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {止|と}める (transitive). Pattern: Xが{止|と}まる (X stops).\n\nASPECT: ている indicates resulting state. {止|と}まっている = 'is stopped/is stationary.'\n\nCOMMON PATTERNS:\n・{電車|でんしゃ}が{止|と}まる (train stops)\n・{時計|とけい}が{止|と}まっている (clock is stopped)\n・{雨|あめ}が{止|と}んだ (rain stopped - past form often ん)\n・ホテルに{泊|と}まる (stay at hotel - different kanji)\n\nPAIR: {止|と}める (transitive) - {車|くるま}を{止|と}めた (stopped the car). Note: {泊|と}まる (stay overnight) uses different kanji.",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {止|と}める (transitive). Pattern: Xが{止|と}まる (X stops).\n\nASPECT: ている indicates resulting state. {止|と}まっている = 'is stopped/is stationary.'\n\nCOMMON PATTERNS:\n・{電車|でんしゃ}が{止|と}まる (train stops)\n・{時計|とけい}が{止|と}まっている (clock is stopped)\n・{雨|あめ}が{止|と}んだ (rain stopped - past form often ん)\n・ホテルに{泊|と}まる (stay at hotel - different kanji)\n\nPAIR: {止|と}める (transitive) - {車|くるま}を{止|と}めた (stopped the car).\n\nNote: {泊|と}まる (stay overnight) uses different kanji.",
     "cross_references": [
       "tomeru_00091"
     ],
@@ -38465,7 +38465,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {止|と}まる (intransitive). Pattern: Xを{止|と}める (stop X).\n\nASPECT: ている indicates resulting state. {止|と}めている = 'have stopped' or 'is parked.'\n\nCOMMON PATTERNS:\n・{車|くるま}を{止|と}める (stop/park a car)\n・{音楽|おんがく}を{止|と}める (stop the music)\n・{息|いき}を{止|と}める (hold one's breath)\n・ここに{止|と}める (park/stop here)\n\nPAIR: {止|と}まる (intransitive) - {電車|でんしゃ}が{止|と}まった (train stopped). Note: {泊|と}める (let someone stay) uses different kanji.",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {止|と}まる (intransitive). Pattern: Xを{止|と}める (stop X).\n\nASPECT: ている indicates resulting state. {止|と}めている = 'have stopped' or 'is parked.'\n\nCOMMON PATTERNS:\n・{車|くるま}を{止|と}める (stop/park a car)\n・{音楽|おんがく}を{止|と}める (stop the music)\n・{息|いき}を{止|と}める (hold one's breath)\n・ここに{止|と}める (park/stop here)\n\nPAIR: {止|と}まる (intransitive) - {電車|でんしゃ}が{止|と}まった (train stopped).\n\nNote: {泊|と}める (let someone stay) uses different kanji.",
     "cross_references": [
       "tomaru_00020"
     ],
@@ -38509,7 +38509,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{友達|ともだち} is the standard word for friend. It can refer to one friend or friends in general (Japanese doesn't always mark plurality). Related words: {親友|しんゆう} (close friend), {友人|ゆうじん} (friend - more formal). To make friends: {友達|ともだち}を{作|つく}る or {友達|ともだち}ができる.",
+    "notes": "{友達|ともだち} is the standard word for friend. It can refer to one friend or friends in general (Japanese doesn't always mark plurality).\n\nRelated words:\n- {親友|しんゆう} (close friend)\n- {友人|ゆうじん} (friend - more formal). To make friends: {友達|ともだち}を{作|つく}る or {友達|ともだち}ができる.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
@@ -38699,7 +38699,7 @@ const DICTIONARY_DATA = {
         "notes": "Refers to chicken meat"
       }
     ],
-    "notes": "鳥 is the general word for 'bird' but in food contexts often specifically means chicken (as in 焼き鳥, yakitori—grilled chicken skewers). For the specific animal 'chicken,' 鶏 (niwatori) is used. Related: 鳥肉 (toriniku, chicken meat), 小鳥 (kotori, small bird).",
+    "notes": "鳥 is the general word for 'bird' but in food contexts often specifically means chicken (as in 焼き鳥, yakitori—grilled chicken skewers). For the specific animal 'chicken,' 鶏 (niwatori) is used.\n\nRelated:\n- 鳥肉 (toriniku, chicken meat)\n- 小鳥 (kotori, small bird).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -38842,7 +38842,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{撮|と}る (take X [photo/video]).\n\nASPECT: ている indicates ongoing action. {撮|と}っている = 'is taking photos/recording.'\n\nCOMMON PATTERNS:\n・{写真|しゃしん}を{撮|と}る (take a photo)\n・ビデオを{撮|と}る (record a video)\n・{撮|と}ってもいいですか (may I take a photo?)\n・{自撮|じど}りする (take a selfie)\n\nSpecifically for photography/video. Different from {取|と}る (general take/grab). Related: {撮影|さつえい} (filming/photography).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{撮|と}る (take X [photo/video]).\n\nASPECT: ている indicates ongoing action. {撮|と}っている = 'is taking photos/recording.'\n\nCOMMON PATTERNS:\n・{写真|しゃしん}を{撮|と}る (take a photo)\n・ビデオを{撮|と}る (record a video)\n・{撮|と}ってもいいですか (may I take a photo?)\n・{自撮|じど}りする (take a selfie)\n\nSpecifically for photography/video. Different from {取|と}る (general take/grab).\n\nRelated: {撮影|さつえい} (filming/photography).",
     "cross_references": [
       "toru_00023"
     ],
@@ -39241,7 +39241,7 @@ const DICTIONARY_DATA = {
         "notes": "〜すぎる expressing excess"
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{使|つか}う (use X).\n\nASPECT: ている indicates ongoing action. {使|つか}っている = 'is using.'\n\nCOMMON PATTERNS:\n・{箸|はし}を{使|つか}う (use chopsticks)\n・お{金|かね}を{使|つか}う (spend money)\n・{時間|じかん}を{使|つか}う (spend time)\n・{使|つか}い{方|かた} (how to use)\n\nVery versatile verb. Potential: {使|つか}える (can use). Related: {使用|しよう} (use - noun).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{使|つか}う (use X).\n\nASPECT: ている indicates ongoing action. {使|つか}っている = 'is using.'\n\nCOMMON PATTERNS:\n・{箸|はし}を{使|つか}う (use chopsticks)\n・お{金|かね}を{使|つか}う (spend money)\n・{時間|じかん}を{使|つか}う (spend time)\n・{使|つか}い{方|かた} (how to use)\n\nVery versatile verb. Potential: {使|つか}える (can use).\n\nRelated: {使用|しよう} (use - noun).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
@@ -39745,7 +39745,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "辛い conjugates as an i-adjective: 辛くない (negative), 辛くて (te-form), 辛かった (past). Note: The kanji 辛い can also be read からい (meaning spicy). Context usually makes the meaning clear. 辛い (つらい) expresses emotional/physical hardship, while 辛い (からい) describes spicy taste.",
+    "notes": "辛い conjugates as an i-adjective: 辛くない (negative), 辛くて (te-form), 辛かった (past).\n\nNote: The kanji 辛い can also be read からい (meaning spicy). Context usually makes the meaning clear. 辛い (つらい) expresses emotional/physical hardship, while 辛い (からい) describes spicy taste.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -39923,7 +39923,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{勤|つと}める (work at X).\n\nASPECT: ている indicates ongoing state. {勤|つと}めている = 'is employed at' (current employment).\n\nCOMMON PATTERNS:\n・{会社|かいしゃ}に{勤|つと}める (work at a company)\n・{銀行|ぎんこう}に{勤|つと}めている (work at a bank)\n・{病院|びょういん}に{勤|つと}める (work at a hospital)\n・{長年|ながねん}{勤|つと}めている (have worked for many years)\n\nSpecific to employment at an organization (uses に). Different from {働|はたら}く (general 'work'). Related: {勤務|きんむ} (service/employment).",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{勤|つと}める (work at X).\n\nASPECT: ている indicates ongoing state. {勤|つと}めている = 'is employed at' (current employment).\n\nCOMMON PATTERNS:\n・{会社|かいしゃ}に{勤|つと}める (work at a company)\n・{銀行|ぎんこう}に{勤|つと}めている (work at a bank)\n・{病院|びょういん}に{勤|つと}める (work at a hospital)\n・{長年|ながねん}{勤|つと}めている (have worked for many years)\n\nSpecific to employment at an organization (uses に). Different from {働|はたら}く (general 'work').\n\nRelated: {勤務|きんむ} (service/employment).",
     "cross_references": [
       "hataraku_00008"
     ],
@@ -40261,7 +40261,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "上 indicates position (above, on top), ranking (superior), or age (older). The opposite is 下 (shita, below/under). Common patterns: 〜の上に (on top of ~), 目上の人 (meueno hito, superiors).",
+    "notes": "上 indicates position (above, on top), ranking (superior), or age (older). The opposite is 下 (shita, below/under).\n\nCommon patterns:\n- 〜の上に (on top of ~)\n- 目上の人 (meueno hito, superiors).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -40705,7 +40705,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "{運動|うんどう}する means 'to exercise' or 'to do sports'. Related words: {運動会|うんどうかい} (sports day/field day at school), {運動場|うんどうじょう} (athletic field), {運動不足|うんどうぶそく} (lack of exercise). The kanji mean 'carry' {運|うん} and 'move' {動|どう}.",
+    "notes": "{運動|うんどう}する means 'to exercise' or 'to do sports'.\n\nRelated words:\n- {運動会|うんどうかい} (sports day/field day at school)\n- {運動場|うんどうじょう} (athletic field)\n- {運動不足|うんどうぶそく} (lack of exercise). The kanji mean 'carry' {運|うん} and 'move' {動|どう}.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -41076,7 +41076,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "後ろ indicates position at the back or rear of something. The opposite is 前 (mae, front). Common pattern: 〜の後ろに (behind ~). Note: Different from 後 (ato), which means 'after' in time.",
+    "notes": "後ろ indicates position at the back or rear of something. The opposite is 前 (mae, front). Common pattern: 〜の後ろに (behind ~).\n\nNote: Different from 後 (ato), which means 'after' in time.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -41264,7 +41264,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "美しい conjugates as an i-adjective: 美しくない (negative), 美しくて (te-form), 美しかった (past). This is more literary/formal than きれい (which is also used for 'clean'). 美しい has a deeper, more aesthetic connotation and is used in poetry and formal contexts. Related: 美しさ (うつくしさ - beauty, noun).",
+    "notes": "美しい conjugates as an i-adjective: 美しくない (negative), 美しくて (te-form), 美しかった (past). This is more literary/formal than きれい (which is also used for 'clean'). 美しい has a deeper, more aesthetic connotation and is used in poetry and formal contexts.\n\nRelated: 美しさ (うつくしさ - beauty, noun).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -41316,7 +41316,7 @@ const DICTIONARY_DATA = {
         "notes": "Contagion meaning—literally 'so the cold doesn't transfer'"
       }
     ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {移|うつ}す (transitive, to move something). Pattern: Xが{移|うつ}る (X moves/transfers).\n\nASPECT: ている indicates resulting state. {移|うつ}っている = 'has moved' (state of having relocated).\n\nCOMMON PATTERNS:\n・{家|いえ}に{移|うつ}る (move to a house)\n・{部署|ぶしょ}に{移|うつ}る (transfer to a department)\n・{話題|わだい}が{移|うつ}る (the topic shifts)\n・{季節|きせつ}が{移|うつ}る (the season changes)\n・{病気|びょうき}が{移|うつ}る (disease spreads)\n\nHOMOPHONES: Several verbs are pronounced 'うつる':\n・{移|うつ}る: to move/transfer\n・{写|うつ}る: to be photographed, appear in photo\n・{映|うつ}る: to be reflected, be projected\n\nRELATED: {引|ひ}っ{越|こ}す (to move residence) emphasizes the process of moving house, while {移|うつ}る is more general for any kind of relocation or transfer.",
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {移|うつ}す (transitive, to move something). Pattern: Xが{移|うつ}る (X moves/transfers).\n\nASPECT: ている indicates resulting state. {移|うつ}っている = 'has moved' (state of having relocated).\n\nCOMMON PATTERNS:\n・{家|いえ}に{移|うつ}る (move to a house)\n・{部署|ぶしょ}に{移|うつ}る (transfer to a department)\n・{話題|わだい}が{移|うつ}る (the topic shifts)\n・{季節|きせつ}が{移|うつ}る (the season changes)\n・{病気|びょうき}が{移|うつ}る (disease spreads)\n\nHOMOPHONES: Several verbs are pronounced 'うつる':\n・{移|うつ}る: to move/transfer\n・{写|うつ}る: to be photographed, appear in photo\n・{映|うつ}る: to be reflected, be projected\n\nRELATED:\n- {引|ひ}っ{越|こ}す (to move residence) emphasizes the process of moving house\n- while {移|うつ}る is more general for any kind of relocation or transfer.",
     "cross_references": [
       "utsusu_00117"
     ],
@@ -41787,7 +41787,7 @@ const DICTIONARY_DATA = {
         "notes": "Common expression of confusion"
       }
     ],
-    "notes": "わけ is used to explain reasons or situations. Common patterns: ～わけではない (it's not that ~, it doesn't mean that ~), ～わけがない (there's no way that ~), ～というわけだ (that's why, the thing is). Often written in hiragana. Compare with 理由 (りゆう - reason, more formal).",
+    "notes": "わけ is used to explain reasons or situations.\n\nCommon patterns:\n- ～わけではない (it's not that ~, it doesn't mean that ~)\n- ～わけがない (there's no way that ~)\n- ～というわけだ (that's why, the thing is). Often written in hiragana. Compare with 理由 (りゆう - reason, more formal).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -42014,7 +42014,7 @@ const DICTIONARY_DATA = {
         "notes": "Negative request"
       }
     ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{忘|わす}れる (forget X).\n\nASPECT: ている indicates resulting state. {忘|わす}れている = 'has forgotten' (doesn't remember).\n\nCOMMON PATTERNS:\n・{名前|なまえ}を{忘|わす}れる (forget a name)\n・{傘|かさ}を{忘|わす}れる (leave umbrella behind)\n・{忘|わす}れてしまう (unfortunately forget)\n・{忘|わす}れないで (don't forget)\n\nIchidan verb: te-form {忘|わす}れて. Related: {忘|わす}れ{物|もの} (forgotten item), {忘年会|ぼうねんかい} (year-end party).",
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{忘|わす}れる (forget X).\n\nASPECT: ている indicates resulting state. {忘|わす}れている = 'has forgotten' (doesn't remember).\n\nCOMMON PATTERNS:\n・{名前|なまえ}を{忘|わす}れる (forget a name)\n・{傘|かさ}を{忘|わす}れる (leave umbrella behind)\n・{忘|わす}れてしまう (unfortunately forget)\n・{忘|わす}れないで (don't forget)\n\nIchidan verb: te-form {忘|わす}れて.\n\nRelated:\n- {忘|わす}れ{物|もの} (forgotten item)\n- {忘年会|ぼうねんかい} (year-end party).",
     "cross_references": [
       "shiru_00002"
     ],
@@ -42528,7 +42528,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "A fundamental nature word. In mountain names, 山 is usually read さん or ざん: {富士山|ふじさん}, {阿蘇山|あそさん}. Related: {山登|やまのぼ}り (mountain climbing), {火山|かざん} (volcano).",
+    "notes": "A fundamental nature word. In mountain names, 山 is usually read さん or ざん: {富士山|ふじさん}, {阿蘇山|あそさん}.\n\nRelated:\n- {山登|やまのぼ}り (mountain climbing)\n- {火山|かざん} (volcano).",
     "cross_references": [
       "umi_00020",
       "kawa_00011"
@@ -42893,7 +42893,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "From the verb {休|やす}む. Common compounds: {夏休|なつやす}み (summer vacation), {冬休|ふゆやす}み (winter vacation), {昼休|ひるやす}み (lunch break), {春休|はるやす}み (spring break). お{休|やす}み (goodnight) is a common greeting.",
+    "notes": "From the verb {休|やす}む.\n\nCommon compounds:\n- {夏休|なつやす}み (summer vacation)\n- {冬休|ふゆやす}み (winter vacation)\n- {昼休|ひるやす}み (lunch break)\n- {春休|はるやす}み (spring break). お{休|やす}み (goodnight) is a common greeting.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -42940,7 +42940,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "TRANSITIVITY: Sense 1 {自動詞|じどうし} (intransitive), Sense 2 {他動詞|たどうし} (transitive with を). No pair verb.\n\nASPECT: ている indicates ongoing state. {休|やす}んでいる = 'is resting' or 'is off (work/school).'\n\nCOMMON PATTERNS:\n・{少|すこ}し{休|やす}む (rest a little)\n・{学校|がっこう}を{休|やす}む (take day off school)\n・{仕事|しごと}を{休|やす}む (take day off work)\n・ゆっくり{休|やす}む (rest well)\n\nGodan verb: te-form {休|やす}んで. Related: {休|やす}み (break, vacation), {休日|きゅうじつ} (holiday).",
+    "notes": "TRANSITIVITY: Sense 1 {自動詞|じどうし} (intransitive), Sense 2 {他動詞|たどうし} (transitive with を). No pair verb.\n\nASPECT: ている indicates ongoing state. {休|やす}んでいる = 'is resting' or 'is off (work/school).'\n\nCOMMON PATTERNS:\n・{少|すこ}し{休|やす}む (rest a little)\n・{学校|がっこう}を{休|やす}む (take day off school)\n・{仕事|しごと}を{休|やす}む (take day off work)\n・ゆっくり{休|やす}む (rest well)\n\nGodan verb: te-form {休|やす}んで.\n\nRelated:\n- {休|やす}み (break, vacation)\n- {休日|きゅうじつ} (holiday).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -43138,7 +43138,7 @@ const DICTIONARY_DATA = {
         "notes": "Welcome expression"
       }
     ],
-    "notes": "Sense 2 is the adverb form of いい (good). よくできました = Well done! Related: いい (good).",
+    "notes": "Sense 2 is the adverb form of いい (good). よくできました = Well done!\n\nRelated: いい (good).",
     "cross_references": [
       "tokidoki_00062",
       "itsumo_00061"
@@ -43507,7 +43507,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "A fundamental time word. Related: {夜|よる}ごはん/{晩|ばん}ごはん (dinner), {毎晩|まいばん} (every night), {今夜|こんや} (tonight). Opposite: {朝|あさ} (morning).",
+    "notes": "A fundamental time word.\n\nRelated:\n- {夜|よる}ごはん/{晩|ばん}ごはん (dinner)\n- {毎晩|まいばん} (every night)\n- {今夜|こんや} (tonight). Opposite: {朝|あさ} (morning).",
     "cross_references": [
       "asa_00026",
       "ban_00017"
@@ -43735,7 +43735,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Forms a verb with する: {予約|よやく}する (to make a reservation). Used for restaurants, hotels, tickets, appointments, etc. Related: {予約席|よやくせき} (reserved seat), {予約{済|ず}み (already reserved).",
+    "notes": "Forms a verb with する: {予約|よやく}する (to make a reservation). Used for restaurants, hotels, tickets, appointments, etc.\n\nRelated:\n- {予約席|よやくせき} (reserved seat)\n- {予約{済|ず}み (already reserved).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -43968,7 +43968,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "Japanese post offices (〒) also offer banking services. Related: {切手|きって} (stamp), {手紙|てがみ} (letter), {荷物|にもつ} (package).",
+    "notes": "Japanese post offices (〒) also offer banking services.\n\nRelated:\n- {切手|きって} (stamp)\n- {手紙|てがみ} (letter)\n- {荷物|にもつ} (package).",
     "cross_references": [
       "ginkou_00036"
     ],
@@ -44190,7 +44190,7 @@ const DICTIONARY_DATA = {
         "notes": null
       }
     ],
-    "notes": "雑誌 covers various types of magazines and periodicals. Japan has a rich magazine culture with many specialized publications. Related: 週刊誌 (shuukanshi, weekly magazine), 月刊誌 (gekkanshi, monthly magazine).",
+    "notes": "雑誌 covers various types of magazines and periodicals. Japan has a rich magazine culture with many specialized publications.\n\nRelated:\n- 週刊誌 (shuukanshi, weekly magazine)\n- 月刊誌 (gekkanshi, monthly magazine).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
