@@ -3,87 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>je-dict-1 - Japanese-English Dictionary</title>
+    <title>Japanese-English Learner's Dictionary (under development)</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="sticky-header">
+        <div class="sticky-header-content">
+            <div class="interface-toggle">
+                <button class="interface-btn active" data-interface="search">Search</button>
+                <button class="interface-btn" data-interface="browse">Browse</button>
+                <button class="interface-btn" data-interface="compare">Compare</button>
+            </div>
+            <button
+                id="furigana-toggle"
+                class="furigana-toggle-btn"
+                type="button"
+                aria-pressed="false"
+                title="Toggle furigana (reading annotations above kanji)"
+            >
+                <span class="furigana-icon">振</span>
+                <span class="furigana-label">Furigana</span>
+            </button>
+        </div>
+    </div>
+
     <div class="container">
         <header>
-            <h1>je-dict-1</h1>
-            <p class="subtitle">Japanese-English Learner's Dictionary</p>
-            <div class="header-controls">
-                <button
-                    id="furigana-toggle"
-                    class="furigana-toggle-btn"
-                    type="button"
-                    aria-pressed="false"
-                    title="Toggle furigana (reading annotations above kanji)"
-                >
-                    <span class="furigana-icon">振</span>
-                    <span class="furigana-label">Furigana</span>
-                </button>
-            </div>
+            <h1>Japanese-English Learner's Dictionary</h1>
+            <p class="subtitle">under development</p>
         </header>
 
-        <div class="main-layout">
-            <aside class="sidebar">
-                <h2>Browse Entries</h2>
-                <nav id="entry-browser" class="entry-browser"></nav>
-            </aside>
+        <!-- Search Interface -->
+        <div id="interface-search" class="interface-panel active">
+            <div class="main-layout">
+                <aside class="sidebar">
+                    <h2>Browse Entries</h2>
+                    <nav id="entry-browser" class="entry-browser"></nav>
+                </aside>
 
-            <main>
-                <section class="search-section">
-                    <form id="search-form" class="search-form">
-                        <div class="search-input-wrapper">
-                            <input
-                                type="text"
-                                id="search-input"
-                                placeholder="Search Japanese, English, or romaji..."
-                                autocomplete="off"
-                                spellcheck="false"
-                            >
-                            <button type="submit" id="search-button">Search</button>
+                <main>
+                    <section class="search-section">
+                        <form id="search-form" class="search-form">
+                            <div class="search-input-wrapper">
+                                <input
+                                    type="text"
+                                    id="search-input"
+                                    placeholder="Search Japanese, English, or romaji..."
+                                    autocomplete="off"
+                                    spellcheck="false"
+                                >
+                                <button type="submit" id="search-button">Search</button>
+                            </div>
+                            <div class="search-options">
+                                <label>
+                                    <input type="radio" name="search-type" value="auto" checked>
+                                    Auto-detect
+                                </label>
+                                <label>
+                                    <input type="radio" name="search-type" value="japanese">
+                                    Japanese
+                                </label>
+                                <label>
+                                    <input type="radio" name="search-type" value="english">
+                                    English
+                                </label>
+                                <label>
+                                    <input type="radio" name="search-type" value="romaji">
+                                    Romaji
+                                </label>
+                            </div>
+                        </form>
+                    </section>
+
+                    <section id="results-section" class="results-section hidden">
+                        <h2 id="results-heading">Results</h2>
+                        <div id="results-list" class="results-list"></div>
+                    </section>
+
+                    <section id="entry-section" class="entry-section hidden">
+                        <div id="entry-display" class="entry-display"></div>
+                    </section>
+
+                    <section id="welcome-section" class="welcome-section">
+                        <p>Search for words above, or browse entries by kana row on the left.</p>
+                        <div id="stats" class="stats"></div>
+                    </section>
+                </main>
+            </div>
+        </div>
+
+        <!-- Browse Interface -->
+        <div id="interface-browse" class="interface-panel">
+            <div class="browse-layout">
+                <div class="browse-filters">
+                    <div class="filter-group">
+                        <h3>JLPT Level</h3>
+                        <div class="filter-buttons" id="jlpt-filters">
+                            <button class="filter-btn active" data-jlpt="all">All</button>
+                            <button class="filter-btn" data-jlpt="N5">N5</button>
+                            <button class="filter-btn" data-jlpt="N4">N4</button>
                         </div>
-                        <div class="search-options">
-                            <label>
-                                <input type="radio" name="search-type" value="auto" checked>
-                                Auto-detect
-                            </label>
-                            <label>
-                                <input type="radio" name="search-type" value="japanese">
-                                Japanese
-                            </label>
-                            <label>
-                                <input type="radio" name="search-type" value="english">
-                                English
-                            </label>
-                            <label>
-                                <input type="radio" name="search-type" value="romaji">
-                                Romaji
-                            </label>
+                    </div>
+                    <div class="filter-group">
+                        <h3>Part of Speech</h3>
+                        <div class="filter-buttons" id="pos-filters">
+                            <button class="filter-btn active" data-pos="all">All</button>
+                            <button class="filter-btn" data-pos="verb">Verbs</button>
+                            <button class="filter-btn" data-pos="noun">Nouns</button>
+                            <button class="filter-btn" data-pos="adjective">Adjectives</button>
+                            <button class="filter-btn" data-pos="adverb">Adverbs</button>
+                            <button class="filter-btn" data-pos="particle">Particles</button>
+                            <button class="filter-btn" data-pos="counter">Counters</button>
+                            <button class="filter-btn" data-pos="other">Other</button>
                         </div>
-                    </form>
-                </section>
+                    </div>
+                    <div class="filter-group">
+                        <h3>Starting Kana</h3>
+                        <div class="filter-buttons kana-filters" id="kana-filters">
+                            <button class="filter-btn active" data-kana="all">All</button>
+                            <button class="filter-btn" data-kana="あ">あ行</button>
+                            <button class="filter-btn" data-kana="か">か行</button>
+                            <button class="filter-btn" data-kana="さ">さ行</button>
+                            <button class="filter-btn" data-kana="た">た行</button>
+                            <button class="filter-btn" data-kana="な">な行</button>
+                            <button class="filter-btn" data-kana="は">は行</button>
+                            <button class="filter-btn" data-kana="ま">ま行</button>
+                            <button class="filter-btn" data-kana="や">や行</button>
+                            <button class="filter-btn" data-kana="ら">ら行</button>
+                            <button class="filter-btn" data-kana="わ">わ行</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="browse-results">
+                    <div class="browse-header">
+                        <h2 id="browse-heading">All Entries</h2>
+                        <span id="browse-count" class="browse-count"></span>
+                    </div>
+                    <div id="browse-list" class="browse-list"></div>
+                </div>
+                <div class="browse-detail">
+                    <div id="browse-entry-display" class="entry-display">
+                        <p class="browse-placeholder">Select an entry to view details</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <section id="results-section" class="results-section hidden">
-                    <h2 id="results-heading">Results</h2>
-                    <div id="results-list" class="results-list"></div>
-                </section>
-
-                <section id="entry-section" class="entry-section hidden">
-                    <div id="entry-display" class="entry-display"></div>
-                </section>
-
-                <section id="welcome-section" class="welcome-section">
-                    <p>Welcome to je-dict-1, a Japanese-English dictionary designed for learners.</p>
-                    <p>Enter a search term above, or browse entries by kana row on the left.</p>
-                    <div id="stats" class="stats"></div>
-                </section>
-            </main>
+        <!-- Compare Interface -->
+        <div id="interface-compare" class="interface-panel">
+            <div class="compare-layout">
+                <div class="compare-header">
+                    <h2>Compare Words</h2>
+                    <p class="compare-intro">Select a category to compare related words side by side.</p>
+                </div>
+                <div class="compare-categories" id="compare-categories">
+                    <div class="category-group">
+                        <h3>Particles</h3>
+                        <div class="category-items" id="particle-comparisons"></div>
+                    </div>
+                    <div class="category-group">
+                        <h3>Transitive / Intransitive Pairs</h3>
+                        <div class="category-items" id="transitive-comparisons"></div>
+                    </div>
+                    <div class="category-group">
+                        <h3>Similar Words</h3>
+                        <div class="category-items" id="similar-comparisons"></div>
+                    </div>
+                </div>
+                <div id="compare-display" class="compare-display hidden">
+                    <button id="compare-back" class="compare-back-btn">&larr; Back to categories</button>
+                    <div id="compare-cards" class="compare-cards"></div>
+                </div>
+            </div>
         </div>
 
         <footer>
-            <p>je-dict-1 &middot; A learner's dictionary emphasizing quality over quantity</p>
+            <p id="last-updated"></p>
         </footer>
     </div>
 

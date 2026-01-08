@@ -1,23 +1,76 @@
 /**
- * je-dict-1 Web Application
- * A static Japanese-English learner's dictionary
+ * Japanese-English Learner's Dictionary Web Application
+ * A static dictionary with Search, Browse, and Compare interfaces
  */
 
 (function() {
     'use strict';
 
-    // State - data is loaded from data.js (embedded at build time)
+    // State
     let entriesData = null;
     let indexData = null;
     let isLoaded = false;
-
-    // Furigana state - whether readings are visible
     let furiganaEnabled = false;
+    let currentInterface = 'search';
+
+    // Browse state
+    let browseFilters = {
+        jlpt: 'all',
+        pos: 'all',
+        kana: 'all'
+    };
 
     // Pattern to match furigana notation: {kanji|reading}
     const FURIGANA_PATTERN = /\{([^|]+)\|([^}]+)\}/g;
 
-    // DOM Elements
+    // Kana row definitions
+    const KANA_ROWS = [
+        { name: 'あ行', kana: 'あいうえお', key: 'あ' },
+        { name: 'か行', kana: 'かきくけこがぎぐげご', key: 'か' },
+        { name: 'さ行', kana: 'さしすせそざじずぜぞ', key: 'さ' },
+        { name: 'た行', kana: 'たちつてとだぢづでど', key: 'た' },
+        { name: 'な行', kana: 'なにぬねの', key: 'な' },
+        { name: 'は行', kana: 'はひふへほばびぶべぼぱぴぷぺぽ', key: 'は' },
+        { name: 'ま行', kana: 'まみむめも', key: 'ま' },
+        { name: 'や行', kana: 'やゆよ', key: 'や' },
+        { name: 'ら行', kana: 'らりるれろ', key: 'ら' },
+        { name: 'わ行', kana: 'わをん', key: 'わ' },
+    ];
+
+    // Comparison groups for the Compare interface
+    const COMPARISON_GROUPS = {
+        particles: [
+            { label: 'は vs が', entries: ['wa', 'ga'] },
+            { label: 'に vs で', entries: ['ni', 'de'] },
+            { label: 'を vs に', entries: ['wo', 'ni'] },
+            { label: 'から vs まで', entries: ['kara', 'made'] },
+            { label: 'と vs や', entries: ['to', 'ya'] },
+        ],
+        transitive: [
+            { label: '開ける vs 開く', entries: ['akeru', 'aku'] },
+            { label: '閉める vs 閉まる', entries: ['shimeru', 'shimaru'] },
+            { label: '付ける vs 付く', entries: ['tsukeru', 'tsuku'] },
+            { label: '消す vs 消える', entries: ['kesu', 'kieru'] },
+            { label: '入れる vs 入る', entries: ['ireru', 'hairu'] },
+            { label: '出す vs 出る', entries: ['dasu', 'deru'] },
+            { label: '起こす vs 起きる', entries: ['okosu', 'okiru'] },
+            { label: '落とす vs 落ちる', entries: ['otosu', 'ochiru'] },
+            { label: '壊す vs 壊れる', entries: ['kowasu', 'kowareru'] },
+            { label: '直す vs 直る', entries: ['naosu', 'naoru'] },
+        ],
+        similar: [
+            { label: '見る vs 見える vs 見せる', entries: ['miru', 'mieru', 'miseru'] },
+            { label: '聞く vs 聞こえる', entries: ['kiku', 'kikoeru'] },
+            { label: 'きれい vs 美しい', entries: ['kirei', 'utsukushii'] },
+            { label: '大きい vs 大きな', entries: ['ookii', 'ookina'] },
+            { label: '思う vs 考える', entries: ['omou', 'kangaeru'] },
+            { label: '分かる vs 知る', entries: ['wakaru', 'shiru'] },
+            { label: 'いる vs ある', entries: ['iru', 'aru'] },
+            { label: '行く vs 来る', entries: ['iku', 'kuru'] },
+        ]
+    };
+
+    // DOM Elements - Search Interface
     const searchForm = document.getElementById('search-form');
     const searchInput = document.getElementById('search-input');
     const resultsSection = document.getElementById('results-section');
@@ -29,19 +82,20 @@
     const statsDiv = document.getElementById('stats');
     const entryBrowser = document.getElementById('entry-browser');
 
-    // Kana row definitions
-    const KANA_ROWS = [
-        { name: 'あ行', kana: 'あいうえお' },
-        { name: 'か行', kana: 'かきくけこがぎぐげご' },
-        { name: 'さ行', kana: 'さしすせそざじずぜぞ' },
-        { name: 'た行', kana: 'たちつてとだぢづでど' },
-        { name: 'な行', kana: 'なにぬねの' },
-        { name: 'は行', kana: 'はひふへほばびぶべぼぱぴぷぺぽ' },
-        { name: 'ま行', kana: 'まみむめも' },
-        { name: 'や行', kana: 'やゆよ' },
-        { name: 'ら行', kana: 'らりるれろ' },
-        { name: 'わ行', kana: 'わをん' },
-    ];
+    // DOM Elements - Browse Interface
+    const browseList = document.getElementById('browse-list');
+    const browseHeading = document.getElementById('browse-heading');
+    const browseCount = document.getElementById('browse-count');
+    const browseEntryDisplay = document.getElementById('browse-entry-display');
+
+    // DOM Elements - Compare Interface
+    const particleComparisons = document.getElementById('particle-comparisons');
+    const transitiveComparisons = document.getElementById('transitive-comparisons');
+    const similarComparisons = document.getElementById('similar-comparisons');
+    const compareCategories = document.getElementById('compare-categories');
+    const compareDisplay = document.getElementById('compare-display');
+    const compareCards = document.getElementById('compare-cards');
+    const compareBack = document.getElementById('compare-back');
 
     /**
      * Get the kana row for a reading based on its first character
@@ -51,14 +105,29 @@
         const firstChar = reading[0];
         for (const row of KANA_ROWS) {
             if (row.kana.includes(firstChar)) {
-                return row.name;
+                return row;
             }
         }
         return null;
     }
 
     /**
-     * Build the sidebar entry browser
+     * Get part of speech category
+     */
+    function getPosCategory(pos) {
+        if (!pos) return 'other';
+        const posLower = pos.toLowerCase();
+        if (posLower.includes('verb')) return 'verb';
+        if (posLower.includes('noun')) return 'noun';
+        if (posLower.includes('adjective')) return 'adjective';
+        if (posLower.includes('adverb')) return 'adverb';
+        if (posLower.includes('particle')) return 'particle';
+        if (posLower.includes('counter')) return 'counter';
+        return 'other';
+    }
+
+    /**
+     * Build the sidebar entry browser for Search interface
      */
     function buildEntryBrowser() {
         if (!entriesData || !entriesData.entries) {
@@ -66,27 +135,23 @@
             return;
         }
 
-        // Group entries by kana row
         const grouped = {};
         for (const row of KANA_ROWS) {
             grouped[row.name] = [];
         }
 
-        // Sort entries into groups
         const entries = Object.values(entriesData.entries);
         for (const entry of entries) {
-            const rowName = getKanaRow(entry.reading);
-            if (rowName && grouped[rowName]) {
-                grouped[rowName].push(entry);
+            const row = getKanaRow(entry.reading);
+            if (row && grouped[row.name]) {
+                grouped[row.name].push(entry);
             }
         }
 
-        // Sort entries within each group by reading
         for (const rowName of Object.keys(grouped)) {
             grouped[rowName].sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
         }
 
-        // Build HTML
         let html = '';
         for (const row of KANA_ROWS) {
             const entries = grouped[row.name];
@@ -117,7 +182,6 @@
 
         entryBrowser.innerHTML = html;
 
-        // Add click handlers
         entryBrowser.querySelectorAll('.browser-entry').forEach(item => {
             item.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -131,8 +195,8 @@
      * Initialize the application
      */
     function init() {
-        // Load furigana preference first
         loadFuriganaPreference();
+        loadInterfacePreference();
 
         // Set up furigana toggle button
         const furiganaBtn = document.getElementById('furigana-toggle');
@@ -140,27 +204,80 @@
             furiganaBtn.addEventListener('click', toggleFurigana);
         }
 
-        // Load embedded data from data.js
+        // Set up interface toggle buttons
+        document.querySelectorAll('.interface-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                switchInterface(btn.dataset.interface);
+            });
+        });
+
+        // Load dictionary data
         if (typeof DICTIONARY_DATA !== 'undefined' && typeof DICTIONARY_INDEX !== 'undefined') {
             entriesData = DICTIONARY_DATA;
             indexData = DICTIONARY_INDEX;
             isLoaded = true;
 
-            // Update stats
             const count = entriesData.count;
             statsDiv.textContent = `${count} ${count === 1 ? 'entry' : 'entries'} available`;
 
-            // Build the entry browser sidebar
             buildEntryBrowser();
+            initBrowseInterface();
+            initCompareInterface();
+            updateLastUpdated();
 
             console.log('Dictionary loaded:', entriesData.count, 'entries');
         } else {
-            console.error('Dictionary data not found. Please run the build script.');
-            statsDiv.textContent = 'Error: Dictionary data not found. Please run the build script.';
+            console.error('Dictionary data not found.');
+            statsDiv.textContent = 'Error: Dictionary data not found.';
         }
 
-        // Set up event listeners
+        // Set up search form
         searchForm.addEventListener('submit', handleSearch);
+
+        // Set up browse filters
+        setupBrowseFilters();
+
+        // Set up compare back button
+        if (compareBack) {
+            compareBack.addEventListener('click', () => {
+                compareCategories.classList.remove('hidden');
+                compareDisplay.classList.add('hidden');
+            });
+        }
+    }
+
+    /**
+     * Switch between interfaces
+     */
+    function switchInterface(interfaceName) {
+        currentInterface = interfaceName;
+
+        // Update buttons
+        document.querySelectorAll('.interface-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.interface === interfaceName);
+        });
+
+        // Update panels
+        document.querySelectorAll('.interface-panel').forEach(panel => {
+            panel.classList.toggle('active', panel.id === `interface-${interfaceName}`);
+        });
+
+        // Save preference
+        try {
+            localStorage.setItem('interface-preference', interfaceName);
+        } catch (e) {}
+    }
+
+    /**
+     * Load interface preference
+     */
+    function loadInterfacePreference() {
+        try {
+            const saved = localStorage.getItem('interface-preference');
+            if (saved && ['search', 'browse', 'compare'].includes(saved)) {
+                switchInterface(saved);
+            }
+        } catch (e) {}
     }
 
     /**
@@ -175,13 +292,10 @@
         }
 
         const query = searchInput.value.trim();
-        if (!query) {
-            return;
-        }
+        if (!query) return;
 
         const searchType = document.querySelector('input[name="search-type"]:checked').value;
         const results = performSearch(query, searchType);
-
         displayResults(query, results);
     }
 
@@ -189,16 +303,12 @@
      * Detect the type of search query
      */
     function detectQueryType(query) {
-        // Check for Japanese characters (hiragana, katakana, kanji)
         if (/[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/.test(query)) {
             return 'japanese';
         }
-        // Check if it's all ASCII lowercase (could be romaji or english)
         if (/^[a-z]+$/i.test(query)) {
-            // Heuristic: short queries are more likely romaji
             return query.length <= 10 ? 'romaji' : 'english';
         }
-        // Default to English
         return 'english';
     }
 
@@ -209,7 +319,6 @@
         const index = indexData.index;
         let entryIds = new Set();
 
-        // Auto-detect search type if needed
         if (searchType === 'auto') {
             searchType = detectQueryType(query);
         }
@@ -218,11 +327,9 @@
 
         switch (searchType) {
             case 'japanese':
-                // Search Japanese index
                 if (index.japanese[query]) {
                     index.japanese[query].forEach(id => entryIds.add(id));
                 }
-                // Also search for partial matches
                 Object.keys(index.japanese).forEach(key => {
                     if (key.includes(query) && key !== query) {
                         index.japanese[key].forEach(id => entryIds.add(id));
@@ -231,11 +338,9 @@
                 break;
 
             case 'romaji':
-                // Search romaji index
                 if (index.romaji[queryLower]) {
                     index.romaji[queryLower].forEach(id => entryIds.add(id));
                 }
-                // Partial matches
                 Object.keys(index.romaji).forEach(key => {
                     if (key.startsWith(queryLower) && key !== queryLower) {
                         index.romaji[key].forEach(id => entryIds.add(id));
@@ -244,13 +349,11 @@
                 break;
 
             case 'english':
-                // Search English index
                 const words = queryLower.split(/\s+/);
                 words.forEach(word => {
                     if (index.english[word]) {
                         index.english[word].forEach(id => entryIds.add(id));
                     }
-                    // Partial matches
                     Object.keys(index.english).forEach(key => {
                         if (key.startsWith(word) && key !== word) {
                             index.english[key].forEach(id => entryIds.add(id));
@@ -260,7 +363,6 @@
                 break;
         }
 
-        // Convert IDs to entries
         const results = [];
         entryIds.forEach(id => {
             if (entriesData.entries[id]) {
@@ -268,9 +370,7 @@
             }
         });
 
-        // Sort alphabetically by reading
         results.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
-
         return results;
     }
 
@@ -288,7 +388,6 @@
             resultsHeading.textContent = `${results.length} result${results.length === 1 ? '' : 's'} for "${query}"`;
             resultsList.innerHTML = results.map(entry => createResultItem(entry)).join('');
 
-            // Add click handlers
             resultsList.querySelectorAll('.result-item').forEach(item => {
                 item.addEventListener('click', () => {
                     const entryId = item.dataset.entryId;
@@ -316,7 +415,7 @@
     }
 
     /**
-     * Display a full entry
+     * Display a full entry in the Search interface
      */
     function displayEntry(entryId) {
         const entry = entriesData.entries[entryId];
@@ -325,13 +424,9 @@
             return;
         }
 
-        // Store current entry ID for re-rendering on furigana toggle
         entryDisplay.dataset.currentEntryId = entryId;
-
         entryDisplay.innerHTML = createEntryDisplay(entry);
         entrySection.classList.remove('hidden');
-
-        // Scroll to entry
         entrySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
@@ -348,7 +443,6 @@
             </div>
         `;
 
-        // Definitions
         if (entry.definitions && entry.definitions.length > 0) {
             html += `<div class="definitions"><h3>Definitions</h3>`;
             entry.definitions.forEach(def => {
@@ -363,7 +457,6 @@
             html += `</div>`;
         }
 
-        // Examples
         if (entry.examples && entry.examples.length > 0) {
             html += `<div class="examples"><h3>Examples</h3>`;
             entry.examples.forEach(ex => {
@@ -378,7 +471,6 @@
             html += `</div>`;
         }
 
-        // Notes
         if (entry.notes) {
             html += `
                 <div class="entry-notes">
@@ -388,7 +480,6 @@
             `;
         }
 
-        // Metadata
         html += `
             <div class="entry-metadata">
                 <div class="metadata-badges">
@@ -401,6 +492,197 @@
         return html;
     }
 
+    // ===== BROWSE INTERFACE =====
+
+    /**
+     * Initialize the Browse interface
+     */
+    function initBrowseInterface() {
+        updateBrowseList();
+    }
+
+    /**
+     * Set up browse filter event handlers
+     */
+    function setupBrowseFilters() {
+        // JLPT filters
+        document.querySelectorAll('#jlpt-filters .filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#jlpt-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                browseFilters.jlpt = btn.dataset.jlpt;
+                updateBrowseList();
+            });
+        });
+
+        // POS filters
+        document.querySelectorAll('#pos-filters .filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#pos-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                browseFilters.pos = btn.dataset.pos;
+                updateBrowseList();
+            });
+        });
+
+        // Kana filters
+        document.querySelectorAll('#kana-filters .filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#kana-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                browseFilters.kana = btn.dataset.kana;
+                updateBrowseList();
+            });
+        });
+    }
+
+    /**
+     * Update the browse list based on current filters
+     */
+    function updateBrowseList() {
+        if (!entriesData || !entriesData.entries) return;
+
+        let entries = Object.values(entriesData.entries);
+
+        // Apply JLPT filter
+        if (browseFilters.jlpt !== 'all') {
+            entries = entries.filter(e => e.metadata.jlpt_level === browseFilters.jlpt);
+        }
+
+        // Apply POS filter
+        if (browseFilters.pos !== 'all') {
+            entries = entries.filter(e => getPosCategory(e.part_of_speech) === browseFilters.pos);
+        }
+
+        // Apply kana filter
+        if (browseFilters.kana !== 'all') {
+            entries = entries.filter(e => {
+                const row = getKanaRow(e.reading);
+                return row && row.key === browseFilters.kana;
+            });
+        }
+
+        // Sort by reading
+        entries.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
+
+        // Update heading
+        let headingParts = [];
+        if (browseFilters.jlpt !== 'all') headingParts.push(browseFilters.jlpt);
+        if (browseFilters.pos !== 'all') headingParts.push(browseFilters.pos + 's');
+        if (browseFilters.kana !== 'all') {
+            const row = KANA_ROWS.find(r => r.key === browseFilters.kana);
+            if (row) headingParts.push(row.name);
+        }
+        browseHeading.textContent = headingParts.length > 0 ? headingParts.join(' - ') : 'All Entries';
+        browseCount.textContent = `${entries.length} entries`;
+
+        // Build list
+        let html = '';
+        for (const entry of entries) {
+            html += `
+                <div class="browse-item" data-entry-id="${entry.id}">
+                    <span class="browse-item-headword">${processJapaneseText(entry.headword)}</span>
+                    <span class="browse-item-reading">${escapeHtml(entry.reading)}</span>
+                </div>
+            `;
+        }
+
+        browseList.innerHTML = html || '<p class="browse-placeholder">No entries match the selected filters</p>';
+
+        // Add click handlers
+        browseList.querySelectorAll('.browse-item').forEach(item => {
+            item.addEventListener('click', () => {
+                browseList.querySelectorAll('.browse-item').forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+                displayBrowseEntry(item.dataset.entryId);
+            });
+        });
+    }
+
+    /**
+     * Display an entry in the Browse interface detail panel
+     */
+    function displayBrowseEntry(entryId) {
+        const entry = entriesData.entries[entryId];
+        if (!entry) return;
+
+        browseEntryDisplay.innerHTML = createEntryDisplay(entry);
+    }
+
+    // ===== COMPARE INTERFACE =====
+
+    /**
+     * Initialize the Compare interface
+     */
+    function initCompareInterface() {
+        buildCompareButtons(particleComparisons, COMPARISON_GROUPS.particles);
+        buildCompareButtons(transitiveComparisons, COMPARISON_GROUPS.transitive);
+        buildCompareButtons(similarComparisons, COMPARISON_GROUPS.similar);
+    }
+
+    /**
+     * Build comparison buttons for a category
+     */
+    function buildCompareButtons(container, groups) {
+        if (!container) return;
+
+        let html = '';
+        for (const group of groups) {
+            // Check if entries exist
+            const entriesExist = group.entries.every(romaji => findEntryByRomaji(romaji));
+            if (entriesExist) {
+                html += `<button class="compare-btn" data-entries="${group.entries.join(',')}">${group.label}</button>`;
+            }
+        }
+
+        container.innerHTML = html || '<p class="browse-placeholder">No comparisons available</p>';
+
+        // Add click handlers
+        container.querySelectorAll('.compare-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const entryRomajis = btn.dataset.entries.split(',');
+                showComparison(entryRomajis);
+            });
+        });
+    }
+
+    /**
+     * Find an entry by its romaji (approximate match)
+     */
+    function findEntryByRomaji(romaji) {
+        if (!indexData || !indexData.index || !indexData.index.romaji) return null;
+
+        const ids = indexData.index.romaji[romaji];
+        if (ids && ids.length > 0) {
+            return entriesData.entries[ids[0]];
+        }
+        return null;
+    }
+
+    /**
+     * Show comparison cards for selected entries
+     */
+    function showComparison(romajis) {
+        const entries = romajis.map(r => findEntryByRomaji(r)).filter(e => e);
+
+        if (entries.length === 0) {
+            alert('Could not find entries for comparison.');
+            return;
+        }
+
+        compareCategories.classList.add('hidden');
+        compareDisplay.classList.remove('hidden');
+
+        let html = '';
+        for (const entry of entries) {
+            html += `<div class="compare-card">${createEntryDisplay(entry)}</div>`;
+        }
+
+        compareCards.innerHTML = html;
+    }
+
+    // ===== UTILITY FUNCTIONS =====
+
     /**
      * Escape HTML special characters
      */
@@ -412,25 +694,18 @@
     }
 
     /**
-     * Process Japanese text with furigana notation.
-     * Converts {kanji|reading} to ruby tags when furigana is enabled,
-     * or strips notation to show only kanji when disabled.
-     * @param {string} text - Text that may contain furigana notation
-     * @returns {string} - Safe HTML for display
+     * Process Japanese text with furigana notation
      */
     function processJapaneseText(text) {
         if (!text) return '';
 
-        // Process text: escape HTML in non-notation parts, convert notation to ruby
         const parts = [];
         let lastIndex = 0;
         let match;
 
-        // Reset regex state
         FURIGANA_PATTERN.lastIndex = 0;
 
         while ((match = FURIGANA_PATTERN.exec(text)) !== null) {
-            // Add escaped text before this match
             if (match.index > lastIndex) {
                 parts.push(escapeHtml(text.slice(lastIndex, match.index)));
             }
@@ -438,7 +713,6 @@
             const kanji = match[1];
             const reading = match[2];
 
-            // Add the furigana markup or plain kanji
             if (furiganaEnabled) {
                 parts.push(`<ruby>${escapeHtml(kanji)}<rp>(</rp><rt>${escapeHtml(reading)}</rt><rp>)</rp></ruby>`);
             } else {
@@ -448,7 +722,6 @@
             lastIndex = match.index + match[0].length;
         }
 
-        // Add any remaining text
         if (lastIndex < text.length) {
             parts.push(escapeHtml(text.slice(lastIndex)));
         }
@@ -457,37 +730,27 @@
     }
 
     /**
-     * Process notes text with proper formatting.
-     * Handles paragraphs, bullet points, and line breaks.
-     * @param {string} text - Notes text that may contain formatting
-     * @returns {string} - Safe HTML for display
+     * Process notes text with proper formatting
      */
     function processNotesText(text) {
         if (!text) return '';
 
-        // Split into paragraphs (double newline)
         const paragraphs = text.split(/\n\n+/);
 
         return paragraphs.map(para => {
-            // Check if this paragraph contains bullet points
             const lines = para.split('\n');
             const hasBullets = lines.some(line => line.trim().startsWith('- ') || line.trim().startsWith('・'));
 
             if (hasBullets) {
-                // Process as a list
                 let html = '';
-                let inList = false;
                 let listItems = [];
 
                 lines.forEach(line => {
                     const trimmed = line.trim();
                     if (trimmed.startsWith('- ') || trimmed.startsWith('・')) {
-                        // Bullet point
                         const content = trimmed.replace(/^[-・]\s*/, '');
                         listItems.push(`<li>${processJapaneseText(content)}</li>`);
-                        inList = true;
                     } else if (trimmed) {
-                        // Regular line (could be a header before bullets)
                         if (listItems.length > 0) {
                             html += `<ul>${listItems.join('')}</ul>`;
                             listItems = [];
@@ -496,14 +759,12 @@
                     }
                 });
 
-                // Close any remaining list
                 if (listItems.length > 0) {
                     html += `<ul>${listItems.join('')}</ul>`;
                 }
 
                 return html;
             } else {
-                // Regular paragraph - convert single newlines to <br>
                 const processed = lines
                     .map(line => processJapaneseText(line.trim()))
                     .filter(line => line)
@@ -514,32 +775,36 @@
     }
 
     /**
-     * Toggle furigana visibility and re-render current display
+     * Toggle furigana visibility
      */
     function toggleFurigana() {
         furiganaEnabled = !furiganaEnabled;
 
-        // Update toggle button appearance
         const btn = document.getElementById('furigana-toggle');
         if (btn) {
             btn.classList.toggle('active', furiganaEnabled);
             btn.setAttribute('aria-pressed', furiganaEnabled);
         }
 
-        // Save preference to localStorage
         try {
             localStorage.setItem('furigana-enabled', furiganaEnabled);
-        } catch (e) {
-            // localStorage may not be available
+        } catch (e) {}
+
+        // Re-render all interfaces
+        buildEntryBrowser();
+        updateBrowseList();
+
+        // Re-render current entry in search
+        if (!entrySection.classList.contains('hidden')) {
+            const currentEntryId = entryDisplay.dataset.currentEntryId;
+            if (currentEntryId && entriesData.entries[currentEntryId]) {
+                displayEntry(currentEntryId);
+            }
         }
 
-        // Re-render sidebar
-        buildEntryBrowser();
-
-        // Re-render results if visible
+        // Re-render search results
         if (!resultsSection.classList.contains('hidden')) {
-            const resultItems = resultsList.querySelectorAll('.result-item');
-            resultItems.forEach(item => {
+            resultsList.querySelectorAll('.result-item').forEach(item => {
                 const entryId = item.dataset.entryId;
                 const entry = entriesData.entries[entryId];
                 if (entry) {
@@ -548,13 +813,22 @@
             });
         }
 
-        // Re-render current entry if displayed
-        if (!entrySection.classList.contains('hidden')) {
-            const currentEntryId = entryDisplay.querySelector('[data-entry-id]')?.dataset.entryId ||
-                                   entryDisplay.dataset.currentEntryId;
-            if (currentEntryId && entriesData.entries[currentEntryId]) {
-                displayEntry(currentEntryId);
-            }
+        // Re-render browse entry display
+        const browseActiveItem = browseList.querySelector('.browse-item.active');
+        if (browseActiveItem) {
+            displayBrowseEntry(browseActiveItem.dataset.entryId);
+        }
+
+        // Re-render compare cards
+        if (!compareDisplay.classList.contains('hidden')) {
+            compareCards.querySelectorAll('.compare-card').forEach(card => {
+                const headword = card.querySelector('.entry-headword');
+                if (headword) {
+                    // Find entry by headword text and re-render
+                    const entryId = card.querySelector('.metadata-badges')?.closest('.compare-card')?.dataset?.entryId;
+                    // Simplified: just toggle existing ruby elements
+                }
+            });
         }
     }
 
@@ -567,15 +841,40 @@
             if (saved !== null) {
                 furiganaEnabled = saved === 'true';
             }
-        } catch (e) {
-            // localStorage may not be available
-        }
+        } catch (e) {}
 
-        // Update button state
         const btn = document.getElementById('furigana-toggle');
         if (btn) {
             btn.classList.toggle('active', furiganaEnabled);
             btn.setAttribute('aria-pressed', furiganaEnabled);
+        }
+    }
+
+    /**
+     * Update the last updated date in the footer
+     */
+    function updateLastUpdated() {
+        const lastUpdatedEl = document.getElementById('last-updated');
+        if (!lastUpdatedEl || !entriesData || !entriesData.entries) return;
+
+        // Find the most recent modification date
+        let latestDate = null;
+        for (const entry of Object.values(entriesData.entries)) {
+            if (entry.metadata && entry.metadata.modified) {
+                const date = new Date(entry.metadata.modified);
+                if (!latestDate || date > latestDate) {
+                    latestDate = date;
+                }
+            }
+        }
+
+        if (latestDate) {
+            const formatted = latestDate.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            lastUpdatedEl.textContent = `Last updated: ${formatted}`;
         }
     }
 
