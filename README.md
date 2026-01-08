@@ -16,7 +16,7 @@ A Japanese-English learner's dictionary emphasizing quality over quantity, deliv
 
 ## Current Status
 
-- **764 entries** covering N5 vocabulary (~95% complete)
+- **944 entries** covering N5 vocabulary (complete) and N4 vocabulary (in progress)
 - **Quality specification v2** based on multi-model LLM evaluation
 - **Claude Code skills** for consistent entry creation and revision
 
