@@ -9,6 +9,14 @@ Use this checklist when revising existing entries to bring them up to the v2 spe
 
 ## High Priority Revisions (Do First)
 
+### For ALL Entries - Notes Formatting
+
+- [ ] **Line breaks**: Separate multiple topics with blank lines
+- [ ] **Bullet points**: Use `- ` for lists of 2+ items
+- [ ] **Section headers**: Use clear labels like `COMMON PATTERNS:`, `TRANSITIVITY:`
+
+See the `vocabulary-notes` skill for complete formatting guidelines.
+
 ### For ALL Verb Entries
 
 - [ ] **Transitivity**: Add transitivity type ({自動詞|じどうし}/{他動詞|たどうし})

@@ -44,7 +44,7 @@ Every entry must include:
 - `gloss`: Brief English equivalent
 - `definitions`: Array with sense_number, gloss, explanation
 - `examples`: 2-3 minimum, with Japanese, English, and optional notes
-- `notes`: Usage notes, grammar patterns, common mistakes
+- `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
 - `metadata`: Including jlpt_level
 
 ## Quality Checklist
@@ -55,4 +55,5 @@ Before finalizing any entry, verify:
 - [ ] At least one collocation or fixed phrase is shown
 - [ ] Grammar patterns are explicitly demonstrated
 - [ ] Notes cover common learner mistakes
+- [ ] Notes are properly formatted (see `vocabulary-notes` skill)
 - [ ] Depth matches similar entries in the dictionary

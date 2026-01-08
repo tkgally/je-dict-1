@@ -75,14 +75,17 @@ ORTHOGRAPHY:
 
 ## Template for Notes Section
 
+**Important:** Follow the formatting guidelines in the `vocabulary-notes` skill for proper structure.
+
 ```
 [Adjective] is an [i-adjective/na-adjective].
 
-Forms:
+FORMS:
 - Adverbial: [form]
 - Noun form: [form] (if natural)
 
-[Similar word distinctions if applicable]
+SIMILAR WORDS:
+- [word 1] vs. [word 2]: [distinction]
 
 [Register notes if applicable]
 

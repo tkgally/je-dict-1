@@ -73,6 +73,8 @@ FIXED PATTERNS:
 
 ## Template for Particle Entries
 
+**Important:** Follow the formatting guidelines in the `vocabulary-notes` skill for proper structure.
+
 ```
 [Particle] is used to mark [basic function].
 

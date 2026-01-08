@@ -81,14 +81,18 @@ Link to honorific alternatives:
 
 ## Template for Notes Section
 
+**Important:** Follow the formatting guidelines in the `vocabulary-notes` skill for proper structure.
+
 ```
 [Verb] is [transitivity type]. The transitive/intransitive pair is [pair verb].
 
-With ている: [explanation of aspect behavior]
+ASPECT (ている):
+[explanation of aspect behavior]
 
-Common patterns:
+COMMON PATTERNS:
 - [collocation 1]
 - [collocation 2]
+- [collocation 3]
 
 [Any register notes, negative usage, or keigo references]
 ```

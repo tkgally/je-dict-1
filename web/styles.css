@@ -394,9 +394,30 @@ main {
     color: var(--color-accent);
 }
 
-.entry-notes p {
+.entry-notes p,
+.notes-content p {
     font-size: 0.95rem;
-    line-height: 1.5;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-sm);
+}
+
+.notes-content p:last-child {
+    margin-bottom: 0;
+}
+
+.notes-content ul {
+    margin: var(--spacing-sm) 0;
+    padding-left: 1.5rem;
+}
+
+.notes-content li {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.25rem;
+}
+
+.notes-content li:last-child {
+    margin-bottom: 0;
 }
 
 /* Metadata */
