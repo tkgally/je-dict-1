@@ -13,10 +13,11 @@ A Japanese-English learner's dictionary emphasizing quality over quantity, deliv
 - **Furigana support** with toggle to show/hide readings above kanji
 - **Transitivity and aspect information** for verbs (v2 enhancement)
 - **Collocation patterns** showing natural word combinations (v2 enhancement)
+- **Keigo (honorific) verb coverage** with usage guidance
 
 ## Current Status
 
-- **944 entries** covering N5 vocabulary (complete) and N4 vocabulary (in progress)
+- **1004 entries** covering N5 vocabulary (complete) and N4 vocabulary (in progress)
 - **Quality specification v2** based on multi-model LLM evaluation
 - **Claude Code skills** for consistent entry creation and revision
 
@@ -88,7 +89,8 @@ je-dict-1/
 │   ├── skills/       # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
 ├── project_specification_v2.md  # Quality standards from LLM evaluation
-└── PROJECT_STATUS.md # Session continuity file
+├── PROJECT_STATUS.md # Session continuity file
+└── N4_VOCABULARY_TO_ADD.md # Remaining N4 vocabulary to add
 ```
 
 ## Getting Started
@@ -177,6 +179,7 @@ Files use the format: `{romanized_reading}_{id}.json`
 - Use Modified Hepburn romanization
 - Long vowels follow kana spelling: 東京 → `toukyou`, not `tokyo`
 - IDs are 5-digit zero-padded numbers
+- Katakana loanwords use hiragana reading (e.g., アルバイト → `arubaito`)
 
 ### Directory Placement
 
@@ -192,20 +195,22 @@ Files go in directories based on the first kana of the reading:
 - [x] Basic web interface
 - [x] Furigana system with toggle
 
-### Phase 2: Core Vocabulary ✓ MOSTLY COMPLETE
-- [x] N5 vocabulary (~764 entries, 95% coverage)
+### Phase 2: Core Vocabulary ✓ COMPLETE
+- [x] N5 vocabulary (~761 entries, 95% coverage)
 - [x] Multi-model LLM evaluation
 - [x] Quality specification v2
-- [ ] Entry revision to v2 standards (in progress)
+- [x] Entry revision to v2 standards
 
-### Phase 3: Entry Enhancement (Current)
-- [ ] Add transitivity/aspect to all verbs
-- [ ] Expand particle entries with predicate lists
-- [ ] Add collocation patterns
-- [ ] Standardize adjective forms
+### Phase 3: Entry Enhancement ✓ COMPLETE
+- [x] Add transitivity/aspect to all verbs
+- [x] Expand particle entries with predicate lists
+- [x] Add collocation patterns
+- [x] Standardize adjective forms
+- [x] Notes formatting with bullet points
 
-### Phase 4: N4 Expansion
-- [ ] Add ~700 N4 vocabulary entries
+### Phase 4: N4 Expansion (Current)
+- [x] Added 243 N4 vocabulary entries (~37% complete)
+- [ ] Add remaining ~406 N4 vocabulary entries
 - [ ] Implement cross-references
 - [ ] Conjugation search indexing
 
@@ -228,6 +233,7 @@ The following skills are available in `.claude/skills/` and will be automaticall
 | `particle-entry` | Requirements for particle entries (predicate lists, contrasts) |
 | `other-entries` | Requirements for nouns, counters, adverbs, expressions |
 | `revise-entries` | Checklist for revising existing entries to v2 standards |
+| `vocabulary-notes` | Formatting guidelines for notes field |
 
 Skills are automatically loaded when Claude determines they're relevant to the current task.
 
