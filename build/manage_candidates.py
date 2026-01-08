@@ -6,9 +6,6 @@ This script provides utilities for managing candidate words that may be
 added to the dictionary in the future.
 
 Usage:
-    # Import from N3/N4 vocabulary files
-    python build/manage_candidates.py import-vocab
-
     # Add a single candidate
     python build/manage_candidates.py add "漢字" "かんじ" "Chinese characters - common word"
 
@@ -91,47 +88,6 @@ def add_candidate(data: dict, word: str, reading: str = None, notes: str = None)
     return candidate
 
 
-def import_vocab_file(data: dict, filepath: Path, existing: set) -> int:
-    """Import candidates from a vocabulary markdown file."""
-    if not filepath.exists():
-        print(f"Warning: File not found: {filepath}")
-        return 0
-
-    with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    # Pattern: - 愛する (あいする) - to love
-    pattern = r'^- (.+?) \(([^)]+)\) - (.+)$'
-
-    added_count = 0
-    # Track what's already in candidates to avoid duplicates
-    existing_candidates = {(c.get('reading'), c.get('word')) for c in data['candidates']}
-
-    for line in content.split('\n'):
-        match = re.match(pattern, line)
-        if match:
-            headword = match.group(1)
-            reading = match.group(2)
-            gloss = match.group(3)
-
-            # Skip if already in dictionary
-            if (reading, headword) in existing:
-                continue
-
-            # Skip if already in candidates
-            if (reading, headword) in existing_candidates:
-                continue
-
-            # Clean up gloss - remove [REVIEW: ...] notes
-            gloss_clean = re.sub(r'\s*\[REVIEW:[^\]]+\]', '', gloss)
-
-            add_candidate(data, headword, reading, gloss_clean)
-            existing_candidates.add((reading, headword))
-            added_count += 1
-
-    return added_count
-
-
 def sync_with_dictionary(data: dict) -> int:
     """Remove candidates that now exist in the dictionary."""
     existing = get_existing_entries()
@@ -174,29 +130,7 @@ def main():
     command = sys.argv[1]
     data = load_candidates()
 
-    if command == 'import-vocab':
-        existing = get_existing_entries()
-        total_added = 0
-
-        # Import from N4 vocabulary file
-        n4_file = Path('N4_VOCABULARY_TO_ADD.md')
-        if n4_file.exists():
-            added = import_vocab_file(data, n4_file, existing)
-            print(f"Imported {added} candidates from {n4_file}")
-            total_added += added
-
-        # Import from N3 vocabulary file
-        n3_file = Path('N3_VOCABULARY_TO_ADD.md')
-        if n3_file.exists():
-            added = import_vocab_file(data, n3_file, existing)
-            print(f"Imported {added} candidates from {n3_file}")
-            total_added += added
-
-        save_candidates(data)
-        print(f"\nTotal: {total_added} new candidates added")
-        print(f"Total candidates now: {len(data['candidates'])}")
-
-    elif command == 'add':
+    if command == 'add':
         if len(sys.argv) < 3:
             print("Usage: manage_candidates.py add <word> [reading] [notes]")
             return

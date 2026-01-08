@@ -90,6 +90,77 @@
       },
       "description": "Array of related entry IDs"
     },
+    "predicates_requiring": {
+      "type": "object",
+      "description": "For particles: predicates that require this particle",
+      "properties": {
+        "description": { "type": "string" },
+        "verbs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "word": { "type": "string" },
+              "example": { "type": "string" },
+              "meaning": { "type": "string" }
+            }
+          }
+        },
+        "adjectives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "word": { "type": "string" },
+              "example": { "type": "string" },
+              "meaning": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "particle_contrasts": {
+      "type": "array",
+      "description": "For particles: contrasts with other particles",
+      "items": {
+        "type": "object",
+        "properties": {
+          "particle": { "type": "string" },
+          "explanation": { "type": "string" },
+          "examples": { "type": "array" },
+          "key_points": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "fixed_patterns": {
+      "type": "array",
+      "description": "Fixed grammatical patterns using this word",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pattern": { "type": "string" },
+          "meaning": { "type": "string" },
+          "example": { "type": "string" },
+          "example_english": { "type": "string" }
+        }
+      }
+    },
+    "common_mistakes": {
+      "type": "array",
+      "description": "Common mistakes learners make with this word",
+      "items": {
+        "type": "object",
+        "properties": {
+          "mistake": { "type": "string" },
+          "incorrect": { "type": "string" },
+          "correct": { "type": "string" },
+          "explanation": { "type": "string" }
+        }
+      }
+    },
     "metadata": {
       "type": "object",
       "required": ["created", "modified", "review_status"],
