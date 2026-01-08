@@ -18,9 +18,10 @@ This dictionary is designed for learners of Japanese as a second language. Unlik
 
 ## Current Status
 
-- **1004 entries** covering N5 vocabulary (complete) and N4 vocabulary (in progress)
+- **1,153 entries** covering N5 vocabulary (complete) and N4 vocabulary (in progress)
 - **Quality specification v2** based on multi-model LLM evaluation
 - **Claude Code skills** for consistent entry creation and revision
+- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
@@ -91,30 +92,34 @@ Examples:
 
 ```
 je-dict-1/
-├── entries/          # Dictionary entries (one JSON file per word)
-│   ├── a/            # あ行 (a, i, u, e, o)
-│   ├── ka/           # か行 (includes が行)
-│   ├── sa/           # さ行 (includes ざ行)
-│   ├── ta/           # た行 (includes だ行)
-│   ├── na/           # な行
-│   ├── ha/           # は行 (includes ば行, ぱ行)
-│   ├── ma/           # ま行
-│   ├── ya/           # や行
-│   ├── ra/           # ら行
-│   └── wa/           # わ行 (includes を, ん)
-├── build/            # Build scripts
-│   ├── schema.json   # JSON schema for entries
-│   ├── validate.py   # Entry validation script
-│   ├── build.py      # Main build script
+├── entries/              # Dictionary entries (one JSON file per word)
+│   ├── a/                # あ行 (a, i, u, e, o)
+│   ├── ka/               # か行 (includes が行)
+│   ├── sa/               # さ行 (includes ざ行)
+│   ├── ta/               # た行 (includes だ行)
+│   ├── na/               # な行
+│   ├── ha/               # は行 (includes ば行, ぱ行)
+│   ├── ma/               # ま行
+│   ├── ya/               # や行
+│   ├── ra/               # ら行
+│   └── wa/               # わ行 (includes を, ん)
+├── build/                # Build and management scripts
+│   ├── schema.json       # JSON schema for entries
+│   ├── validate.py       # Entry validation script
+│   ├── build.py          # Main build script
+│   ├── update_entries_index.py   # Updates entries_index.json
+│   ├── manage_candidates.py      # Manages candidate_words.json
+│   ├── update_indexes.py         # Updates both index files
 │   └── requirements.txt
-├── web/              # Web application source
-├── docs/             # Generated output (served by GitHub Pages)
-├── .claude/          # Claude Code configuration
-│   ├── skills/       # Agent skills for entry guidelines (auto-loaded)
+├── web/                  # Web application source
+├── docs/                 # Generated output (served by GitHub Pages)
+├── .claude/              # Claude Code configuration
+│   ├── skills/           # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
+├── entries_index.json    # Index of all dictionary entries
+├── candidate_words.json  # Words to potentially add in future
 ├── project_specification_v2.md  # Quality standards from LLM evaluation
-├── PROJECT_STATUS.md # Session continuity file
-└── N4_VOCABULARY_TO_ADD.md # Remaining N4 vocabulary to add
+└── PROJECT_STATUS.md     # Session continuity file
 ```
 
 ## Getting Started
@@ -233,10 +238,11 @@ Files go in directories based on the first kana of the reading:
 - [x] Notes formatting with bullet points
 
 ### Phase 4: N4 Expansion & Interface (Current)
-- [x] Added 243 N4 vocabulary entries (~37% complete)
+- [x] Added 392 N4 vocabulary entries
 - [x] Multiple interface modes (Search, Browse, Compare)
 - [x] Sticky header with interface toggle and furigana button
-- [ ] Add remaining ~406 N4 vocabulary entries
+- [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
+- [ ] Continue adding vocabulary from candidate list (1,992 candidates)
 - [ ] Implement cross-references
 - [ ] Conjugation search indexing
 
