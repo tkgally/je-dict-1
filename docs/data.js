@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-08T11:59:04.030984Z
+// Generated: 2026-01-08T12:05:16.904790Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -548,7 +548,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {開|あ}く (intransitive, to open by itself). Pattern: Xを{開|あ}ける.\n\nASPECT: ている indicates resulting state. {開|あ}けている usually means 'have opened (and it's still open)' rather than 'is opening.'\n\nCOMMON PATTERNS:\n・{窓|まど}を{開|あ}ける (open the window)\n・ドアを{開|あ}ける (open the door)\n・{口|くち}を{開|あ}ける (open one's mouth)\n・{穴|あな}を{開|あ}ける (make a hole)\n\nOpposite: {閉|し}める (to close something).",
     "cross_references": [
-      "shimeru_00024",
+      "shimeru_00005",
       "aku_00093"
     ],
     "metadata": {
@@ -858,7 +858,7 @@ const DICTIONARY_DATA = {
     "notes": "Use {姉|あね} when speaking about your own older sister to others. Use お{姉|ねえ}さん when addressing her directly or speaking about someone else's older sister.\n\nRelated: {兄|あに} (older brother - humble).",
     "cross_references": [
       "ani_00027",
-      "imouto_00029"
+      "imouto_00030"
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -903,7 +903,7 @@ const DICTIONARY_DATA = {
     "notes": "Use {兄|あに} when speaking about your own older brother to others. Use お{兄|にい}さん when addressing him directly or speaking about someone else's older brother.\n\nRelated: {姉|あね} (older sister - humble).",
     "cross_references": [
       "ane_00028",
-      "otouto_00011"
+      "otouto_00029"
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -1971,7 +1971,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "Common expressions:\n- {頭|あたま}が{痛|いた}い (headache)\n- {頭|あたま}がいい (smart)\n- {頭|あたま}が{悪|わる}い (not smart). Related body parts: {顔|かお} (face), {髪|かみ} (hair).",
     "cross_references": [
-      "kao_00032"
+      "kao_00021"
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -4396,7 +4396,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "Related:\n- {大学生|だいがくせい} (university student)\n- {大学院|だいがくいん} (graduate school).",
     "cross_references": [
-      "gakkou_00076"
+      "gakkou_00001"
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -7826,7 +7826,7 @@ const DICTIONARY_DATA = {
     "notes": "Types: {小学生|しょうがくせい} (elementary), {中学生|ちゅうがくせい} (junior high), {高校生|こうこうせい} (high school), {大学生|だいがくせい} (university).",
     "cross_references": [
       "sensei_00078",
-      "gakkou_00076"
+      "gakkou_00001"
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -14008,7 +14008,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "{一生懸命|いっしょうけんめい} is an adverb meaning 'with all one's might' or 'very hard.'\n\nPosition: Usually appears directly before the verb it modifies.\n\nModifies: Verbs (effort-related actions like {働|はたら}く, {勉強|べんきょう}する, {頑張|がんば}る, {走|はし}る)\n\n[Register: Neutral]\n\nVariant: {一所懸命|いっしょけんめい} is an older variant with the same meaning (originally referred to risking one's life to protect one's land).\n\nSimilar expressions:\n- {一生懸命|いっしょうけんめい} vs. {頑張|がんば}って: Both express effort, but {一生懸命|いっしょうけんめい} describes the manner of action while {頑張|がんば}って is an encouragement.\n- {一生懸命|いっしょうけんめい} vs. {必死|ひっし}に: {必死|ひっし}に implies even more desperate effort, often in life-or-death situations.\n\nCan also function as a na-adjective: {一生懸命|いっしょうけんめい}な{努力|どりょく} (earnest effort).",
     "cross_references": [
-      "ganbaru_00100"
+      "ganbaru_00117"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -16589,8 +16589,8 @@ const DICTIONARY_DATA = {
     ],
     "notes": "Related: {会社員|かいしゃいん} (office worker/company employee).",
     "cross_references": [
-      "shigoto_00074",
-      "hataraku_00073"
+      "shigoto_00004",
+      "hataraku_00008"
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -16676,7 +16676,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "{火事|かじ} specifically refers to a destructive fire or house fire.\n\n{火事|かじ} vs. {火|ひ}:\n- {火|ひ}: fire (general - cooking fire, campfire, etc.)\n- {火事|かじ}: fire (destructive, accidental)\n\nRelated:\n- {火事|かじ}になる: to catch fire\n- {火災|かさい}: fire (formal/official term)\n- {消防車|しょうぼうしゃ}: fire engine\n- {消防士|しょうぼうし}: firefighter",
     "cross_references": [
-      "hi_00005"
+      "hi_00325"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -19633,7 +19633,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "{気分|きぶん} means 'mood' or 'feeling.'\n\nCommon expressions:\n- {気分|きぶん}がいい: to feel good, be in a good mood\n- {気分|きぶん}が{悪|わる}い: to feel bad (physically nauseous or emotionally)\n- {気分|きぶん}{転換|てんかん}: change of pace, refreshing break\n- {気分|きぶん}次第|しだい}: depending on one's mood\n\n{気分|きぶん} vs. {気持|きも}ち:\n- {気分|きぶん}: overall mood, how you generally feel\n- {気持|きも}ち: specific feeling/emotion, often deeper",
     "cross_references": [
-      "kimochi_00095"
+      "kimochi_00193"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -21107,7 +21107,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "{心|こころ} is a fundamental Japanese concept encompassing heart, mind, and spirit.\n\nCommon expressions:\n- {心|こころ}から: from the heart, sincerely\n- {心|こころ}を{込|こ}めて: wholeheartedly, with feeling\n- {心|こころ}が{痛|いた}む: one's heart aches\n- {心|こころ}が{広|ひろ}い: broad-minded, generous\n- {心|こころ}{配|くば}り: consideration, thoughtfulness\n\nNote: {心|こころ} differs from {心臓|しんぞう} (the physical heart organ).\n\n{心|こころ} vs. {気持|きも}ち:\n- {心|こころ}: deeper, more philosophical (heart/soul)\n- {気持|きも}ち: more immediate feelings/emotions",
     "cross_references": [
-      "kimochi_00095"
+      "kimochi_00193"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -22955,7 +22955,7 @@ const DICTIONARY_DATA = {
     "notes": "Many idiomatic expressions: {口|くち}に{合|あ}う (suit one's taste), {口|くち}が{堅|かた}い (tight-lipped), {口|くち}が{軽|かる}い (loose-lipped). Also used for openings: {入|い}り{口|ぐち} (entrance), {出|で}{口|ぐち} (exit).",
     "cross_references": [
       "me_00012",
-      "mimi_00013"
+      "mimi_00344"
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -25987,7 +25987,7 @@ const DICTIONARY_DATA = {
     "notes": "Many expressions use {目|め}: {目|め}が{悪|わる}い (poor eyesight), {目|め}が{覚|さ}める (to wake up), {目|め}に{見|み}える (visible). Compounds: めがね (glasses), {目薬|めぐすり} (eye drops).",
     "cross_references": [
       "kao_00021",
-      "mimi_00013"
+      "mimi_00344"
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -32050,7 +32050,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "お{茶|ちゃ} usually refers to green tea in Japan. Types: {緑茶|りょくちゃ} (green tea), {紅茶|こうちゃ} (black tea), ウーロン{茶|ちゃ} (oolong tea).",
     "cross_references": [
-      "mizu_00034"
+      "mizu_00001"
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -32148,7 +32148,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "{踊|おど}り is a noun meaning 'dance,' derived from the verb {踊|おど}る.\n\nTypes of dance in Japanese:\n- {踊|おど}り: general dance, often traditional\n- ダンス: Western-style dance\n- {舞踊|ぶよう}: formal/artistic dance\n- {舞|まい}: classical/elegant dance (more literary)\n\nCommon compounds:\n- {盆|ぼん}{踊|おど}り: Bon dance (summer festival dance)\n- {民謡|みんよう}{踊|おど}り: folk dance\n- {踊|おど}り{子|こ}: dancer (traditional)",
     "cross_references": [
-      "odoru_00100"
+      "odoru_00123"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -34633,7 +34633,7 @@ const DICTIONARY_DATA = {
     "notes": "Unlike older siblings, the humble/polite distinction is less strict for younger siblings. {弟|おとうと}さん is used to refer to someone else's younger brother politely.\n\nRelated: {妹|いもうと} (younger sister).",
     "cross_references": [
       "ani_00027",
-      "imouto_00029"
+      "imouto_00030"
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -36327,7 +36327,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{探|さが}す (search for X).\n\nASPECT: ている indicates ongoing action. {探|さが}している = 'is looking for' (active search in progress).\n\nCOMMON PATTERNS:\n・{仕事|しごと}を{探|さが}す (look for a job)\n・{鍵|かぎ}を{探|さが}す (look for keys)\n・{部屋|へや}を{探|さが}す (look for an apartment)\n・ネットで{探|さが}す (search online)\n\nTwo kanji: {探|さが}す (search for things), {捜|さが}す (search for people/missing items).\n\nRelated: {見|み}つける (to find - the result of searching).",
     "cross_references": [
-      "mitsukeru_00095"
+      "mitsukeru_00110"
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
@@ -38364,7 +38364,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "Used as a title after names (e.g., {田中|たなか}{先生|せんせい}). Never use for yourself. Applies to teachers, doctors, lawyers, authors, etc.",
     "cross_references": [
-      "gakkou_00076"
+      "gakkou_00001"
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -39801,7 +39801,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{知|し}る (know/learn X).\n\nASPECT: SPECIAL - ている indicates resulting state of knowing. {知|し}っている = 'know' (state of having learned). The negative is {知|し}らない (NOT {知|し}っていない). This positive/negative asymmetry is unique.\n\nCOMMON PATTERNS:\n・{知|し}っていますか (Do you know?)\n・{知|し}りません/{知|し}らない (I don't know)\n・{知|し}りました (I learned/found out)\n・{知|し}らない{人|ひと} (stranger/unknown person)\n\n{知|し}る = moment of learning; {知|し}っている = state of knowing. Different from {分|わ}かる (to understand).",
     "cross_references": [
-      "wakaru_00001"
+      "wakaru_00002"
     ],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
@@ -42983,7 +42983,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{座|すわ}る (sit on/in X).\n\nASPECT: ている indicates resulting state. {座|すわ}っている = 'is sitting' (not 'is in the process of sitting down').\n\nCOMMON PATTERNS:\n・{椅子|いす}に{座|すわ}る (sit on a chair)\n・{床|ゆか}に{座|すわ}る (sit on the floor)\n・ここに{座|すわ}ってください (please sit here)\n・{正座|せいざ}する (sit formally on knees)\n\nOpposite: {立|た}つ (to stand). Japanese sitting styles include {正座|せいざ} (on heels) and あぐら (cross-legged).",
     "cross_references": [
-      "tatsu_00008"
+      "tatsu_00093"
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -43069,7 +43069,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{食|た}べる (eat X).\n\nASPECT: ている indicates ongoing action. {食|た}べている = 'is eating' (progressive, not resultative).\n\nCOMMON PATTERNS:\n・{朝|あさ}ごはんを{食|た}べる (eat breakfast)\n・{外|そと}で{食|た}べる (eat out)\n・{食|た}べてみる (try eating)\n・{食|た}べ{物|もの} (food - noun)\n\nPolite forms:\n- {召|め}し{上|あ}がる (honorific)\n- いただく (humble). Opposite: {飲|の}む (to drink).",
     "cross_references": [
-      "nomu_00003"
+      "nomu_00001"
     ],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
@@ -46791,7 +46791,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "Compounds: {大学|だいがく}{図書館|としょかん} (university library), {公立|こうりつ}{図書館|としょかん} (public library).",
     "cross_references": [
-      "hon_00004"
+      "hon_00001"
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
@@ -52549,7 +52549,7 @@ const DICTIONARY_DATA = {
     ],
     "notes": "{随分|ずいぶん} is an adverb meaning 'considerably' or 'quite,' often implying more than expected.\n\nPosition: Usually appears before adjectives or verbs.\n\nModifies: Both verbs and adjectives (i-adjectives and na-adjectives)\n\n[Register: Neutral]\n\nNuance: Often carries a nuance of surprise, emotional reaction, or implicit comparison to expectations.\n\nSimilar adverbs:\n- {随分|ずいぶん} vs. とても: とても is neutral; {随分|ずいぶん} often implies surprise or exceeding expectations.\n- {随分|ずいぶん} vs. かなり: かなり is more objective ('fairly/considerably'); {随分|ずいぶん} is more subjective with emotional coloring.\n- {随分|ずいぶん} vs. すごく: すごく is more casual and emphatic; {随分|ずいぶん} is more measured.\n\nOrthography: Often written in hiragana as ずいぶん.",
     "cross_references": [
-      "totemo_00091",
+      "totemo_00055",
       "kanari_00106"
     ],
     "metadata": {
