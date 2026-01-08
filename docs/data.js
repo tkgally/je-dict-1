@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-08T12:11:55.142806Z
+// Generated: 2026-01-08T12:19:28.661572Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -8524,6 +8524,53 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "gohan_00094": {
+    "id": "gohan_00094",
+    "headword": "ご{飯|はん}",
+    "reading": "ごはん",
+    "part_of_speech": "noun",
+    "gloss": "rice; meal",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "cooked rice",
+        "explanation": "Steamed white rice, the staple food of Japan. Served with most Japanese meals."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "meal, food",
+        "explanation": "More broadly refers to a meal or food in general. Often used to mean breakfast, lunch, or dinner."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "ご{飯|はん}を{食|た}べましたか。",
+        "english": "Have you eaten (a meal)?",
+        "notes": "Common greeting to check if someone has eaten"
+      },
+      {
+        "japanese": "{朝|あさ}ご{飯|はん}は{何|なに}を{食|た}べましたか。",
+        "english": "What did you eat for breakfast?",
+        "notes": null
+      },
+      {
+        "japanese": "ご{飯|はん}を{炊|た}きました。",
+        "english": "I cooked rice.",
+        "notes": null
+      }
+    ],
+    "notes": "ご{飯|はん} has the honorific prefix ご and is the polite way to say 'rice' or 'meal'. {朝|あさ}ご{飯|はん} (breakfast), {昼|ひる}ご{飯|はん} (lunch), and {晩|ばん}ご{飯|はん}/{夜|よる}ご{飯|はん} (dinner) are common compounds. {飯|めし} is the casual/masculine form.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "gohan_00023": {
     "id": "gohan_00023",
     "headword": "ごはん",
@@ -8566,53 +8613,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
       "modified": "2026-01-07T14:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "gohan_00094": {
-    "id": "gohan_00094",
-    "headword": "ご{飯|はん}",
-    "reading": "ごはん",
-    "part_of_speech": "noun",
-    "gloss": "rice; meal",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "cooked rice",
-        "explanation": "Steamed white rice, the staple food of Japan. Served with most Japanese meals."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "meal, food",
-        "explanation": "More broadly refers to a meal or food in general. Often used to mean breakfast, lunch, or dinner."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "ご{飯|はん}を{食|た}べましたか。",
-        "english": "Have you eaten (a meal)?",
-        "notes": "Common greeting to check if someone has eaten"
-      },
-      {
-        "japanese": "{朝|あさ}ご{飯|はん}は{何|なに}を{食|た}べましたか。",
-        "english": "What did you eat for breakfast?",
-        "notes": null
-      },
-      {
-        "japanese": "ご{飯|はん}を{炊|た}きました。",
-        "english": "I cooked rice.",
-        "notes": null
-      }
-    ],
-    "notes": "ご{飯|はん} has the honorific prefix ご and is the polite way to say 'rice' or 'meal'. {朝|あさ}ご{飯|はん} (breakfast), {昼|ひる}ご{飯|はん} (lunch), and {晩|ばん}ご{飯|はん}/{夜|よる}ご{飯|はん} (dinner) are common compounds. {飯|めし} is the casual/masculine form.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -9837,48 +9837,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "hana_00094": {
-    "id": "hana_00094",
-    "headword": "{鼻|はな}",
-    "reading": "はな",
-    "part_of_speech": "noun",
-    "gloss": "nose",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "nose",
-        "explanation": "The organ for breathing and smelling on the face. Used for physical descriptions and nose-related expressions."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{鼻|はな}が{高|たか}いですね。",
-        "english": "You have a high nose.",
-        "notes": "In Japan, a high nose bridge is considered attractive"
-      },
-      {
-        "japanese": "{鼻|はな}が{詰|つ}まっています。",
-        "english": "My nose is stuffed up.",
-        "notes": "Common when describing a cold"
-      },
-      {
-        "japanese": "いい{匂|にお}いを{鼻|はな}で{感|かん}じました。",
-        "english": "I sensed a nice smell with my nose.",
-        "notes": null
-      }
-    ],
-    "notes": "Be careful not to confuse {鼻|はな} (nose) with {花|はな} (flower) - they are homophones but written with different kanji. {鼻|はな}が{高|たか}い can mean 'to be proud/boastful' in addition to describing a physically high nose bridge.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "hana_00012": {
     "id": "hana_00012",
     "headword": "{花|はな}",
@@ -9913,6 +9871,48 @@ const DICTIONARY_DATA = {
     "cross_references": [
       "ki_00012"
     ],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "hana_00094": {
+    "id": "hana_00094",
+    "headword": "{鼻|はな}",
+    "reading": "はな",
+    "part_of_speech": "noun",
+    "gloss": "nose",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "nose",
+        "explanation": "The organ for breathing and smelling on the face. Used for physical descriptions and nose-related expressions."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{鼻|はな}が{高|たか}いですね。",
+        "english": "You have a high nose.",
+        "notes": "In Japan, a high nose bridge is considered attractive"
+      },
+      {
+        "japanese": "{鼻|はな}が{詰|つ}まっています。",
+        "english": "My nose is stuffed up.",
+        "notes": "Common when describing a cold"
+      },
+      {
+        "japanese": "いい{匂|にお}いを{鼻|はな}で{感|かん}じました。",
+        "english": "I sensed a nice smell with my nose.",
+        "notes": null
+      }
+    ],
+    "notes": "Be careful not to confuse {鼻|はな} (nose) with {花|はな} (flower) - they are homophones but written with different kanji. {鼻|はな}が{高|たか}い can mean 'to be proud/boastful' in addition to describing a physically high nose bridge.",
+    "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -10315,48 +10315,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "hashi_00096": {
-    "id": "hashi_00096",
-    "headword": "{端|はし}",
-    "reading": "はし",
-    "part_of_speech": "noun",
-    "gloss": "edge, end",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "edge, end, tip",
-        "explanation": "The outermost part or boundary of something."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "テーブルの{端|はし}に{座|すわ}ってください。",
-        "english": "Please sit at the end of the table.",
-        "notes": null
-      },
-      {
-        "japanese": "{紙|かみ}の{端|はし}に{名前|なまえ}を{書|か}いてください。",
-        "english": "Please write your name at the edge of the paper.",
-        "notes": null
-      },
-      {
-        "japanese": "{道|みち}の{端|はし}を{歩|ある}いてください。",
-        "english": "Please walk on the edge of the road.",
-        "notes": null
-      }
-    ],
-    "notes": "{端|はし} refers to the outermost edge or end of something. Don't confuse this with {橋|はし} (bridge) or {箸|はし} (chopsticks) - all three are pronounced 'hashi' but have different kanji and pitch accents. [noun]の{端|はし} means 'the edge/end of [noun].'",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "hashi_00097": {
     "id": "hashi_00097",
     "headword": "{箸|はし}",
@@ -10388,6 +10346,48 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "箸 are essential eating utensils in Japan. お箸 is the polite form. 割り箸 (わりばし) are disposable wooden chopsticks. There are many chopstick etiquette rules in Japan, such as never sticking chopsticks upright in rice (associated with funerals).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "hashi_00096": {
+    "id": "hashi_00096",
+    "headword": "{端|はし}",
+    "reading": "はし",
+    "part_of_speech": "noun",
+    "gloss": "edge, end",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "edge, end, tip",
+        "explanation": "The outermost part or boundary of something."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "テーブルの{端|はし}に{座|すわ}ってください。",
+        "english": "Please sit at the end of the table.",
+        "notes": null
+      },
+      {
+        "japanese": "{紙|かみ}の{端|はし}に{名前|なまえ}を{書|か}いてください。",
+        "english": "Please write your name at the edge of the paper.",
+        "notes": null
+      },
+      {
+        "japanese": "{道|みち}の{端|はし}を{歩|ある}いてください。",
+        "english": "Please walk on the edge of the road.",
+        "notes": null
+      }
+    ],
+    "notes": "{端|はし} refers to the outermost edge or end of something. Don't confuse this with {橋|はし} (bridge) or {箸|はし} (chopsticks) - all three are pronounced 'hashi' but have different kanji and pitch accents. [noun]の{端|はし} means 'the edge/end of [noun].'",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -11964,48 +11964,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "hon_00001": {
-    "id": "hon_00001",
-    "headword": "{本|ほん}",
-    "reading": "ほん",
-    "part_of_speech": "noun",
-    "gloss": "book",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "book",
-        "explanation": "A bound publication with pages, including novels, textbooks, manga, and other printed materials. The most common word for 'book' in Japanese."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{本|ほん}を{読|よ}むのが{好|す}きです。",
-        "english": "I like reading books.",
-        "notes": null
-      },
-      {
-        "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
-        "english": "This book is interesting.",
-        "notes": null
-      },
-      {
-        "japanese": "{図書館|としょかん}で{本|ほん}を{借|か}りました。",
-        "english": "I borrowed a book from the library.",
-        "notes": null
-      }
-    ],
-    "notes": "{本|ほん} is also used as a counter for long, cylindrical objects (pens, bottles, trees, etc.) with readings ほん, ぼん, or ぽん depending on the number. As a prefix, {本|ほん} can mean 'this' or 'main' (e.g., {本日|ほんじつ} today, {本店|ほんてん} main store).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-06T22:30:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "hon_00092": {
     "id": "hon_00092",
     "headword": "〜{本|ほん}",
@@ -12041,6 +11999,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "hon_00001": {
+    "id": "hon_00001",
+    "headword": "{本|ほん}",
+    "reading": "ほん",
+    "part_of_speech": "noun",
+    "gloss": "book",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "book",
+        "explanation": "A bound publication with pages, including novels, textbooks, manga, and other printed materials. The most common word for 'book' in Japanese."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{本|ほん}を{読|よ}むのが{好|す}きです。",
+        "english": "I like reading books.",
+        "notes": null
+      },
+      {
+        "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
+        "english": "This book is interesting.",
+        "notes": null
+      },
+      {
+        "japanese": "{図書館|としょかん}で{本|ほん}を{借|か}りました。",
+        "english": "I borrowed a book from the library.",
+        "notes": null
+      }
+    ],
+    "notes": "{本|ほん} is also used as a counter for long, cylindrical objects (pens, bottles, trees, etc.) with readings ほん, ぼん, or ぽん depending on the number. As a prefix, {本|ほん} can mean 'this' or 'main' (e.g., {本日|ほんじつ} today, {本店|ほんてん} main store).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-06T22:30:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -16224,48 +16224,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "kai_00097": {
-    "id": "kai_00097",
-    "headword": "{階|かい}",
-    "reading": "かい",
-    "part_of_speech": "counter",
-    "gloss": "floors, stories",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "floors, stories (of a building)",
-        "explanation": "A counter for floors or stories of a building."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{私|わたし}の{部屋|へや}は{五|ご}{階|かい}です。",
-        "english": "My room is on the fifth floor.",
-        "notes": null
-      },
-      {
-        "japanese": "このビルは{何|なん}{階|かい}ありますか。",
-        "english": "How many floors does this building have?",
-        "notes": null
-      },
-      {
-        "japanese": "{一|いっ}{階|かい}にトイレがあります。",
-        "english": "There is a restroom on the first floor.",
-        "notes": "いっかい with small っ"
-      }
-    ],
-    "notes": "{階|かい} counts building floors. Note the irregular readings:\n- {一|いっ}{階|かい} (first floor - with っ)\n- {三|さん}{階|がい} (third floor - voiced が)\n- {何|なん}{階|がい} (what floor - voiced が). The first floor in Japan (1階) corresponds to the ground floor in British English. Unlike American English\n- there is no 'ground floor' and 'first floor' distinction.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "kai_00096": {
     "id": "kai_00096",
     "headword": "{回|かい}",
@@ -16297,6 +16255,48 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{回|かい} is used to count occurrences or times. Common expressions include {一|いっ}{回|かい} (once - note the small っ), {二|に}{回|かい} (twice), {三|さん}{回|かい} (three times), {何|なん}{回|かい} (how many times). Note that 一回 is read いっかい (with gemination), not いちかい.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "kai_00097": {
+    "id": "kai_00097",
+    "headword": "{階|かい}",
+    "reading": "かい",
+    "part_of_speech": "counter",
+    "gloss": "floors, stories",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "floors, stories (of a building)",
+        "explanation": "A counter for floors or stories of a building."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{私|わたし}の{部屋|へや}は{五|ご}{階|かい}です。",
+        "english": "My room is on the fifth floor.",
+        "notes": null
+      },
+      {
+        "japanese": "このビルは{何|なん}{階|かい}ありますか。",
+        "english": "How many floors does this building have?",
+        "notes": null
+      },
+      {
+        "japanese": "{一|いっ}{階|かい}にトイレがあります。",
+        "english": "There is a restroom on the first floor.",
+        "notes": "いっかい with small っ"
+      }
+    ],
+    "notes": "{階|かい} counts building floors. Note the irregular readings:\n- {一|いっ}{階|かい} (first floor - with っ)\n- {三|さん}{階|がい} (third floor - voiced が)\n- {何|なん}{階|がい} (what floor - voiced が). The first floor in Japan (1階) corresponds to the ground floor in British English. Unlike American English\n- there is no 'ground floor' and 'first floor' distinction.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -40737,6 +40737,43 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "shuukan_00245": {
+    "id": "shuukan_00245",
+    "headword": "{習慣|しゅうかん}",
+    "reading": "しゅうかん",
+    "part_of_speech": "noun",
+    "gloss": "habit, custom",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "habit, custom, practice",
+        "explanation": "A regular tendency or practice that is hard to give up."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{毎朝|まいあさ}{運動|うんどう}する{習慣|しゅうかん}がある。",
+        "english": "I have a habit of exercising every morning.",
+        "notes": null
+      },
+      {
+        "japanese": "{日本|にほん}の{習慣|しゅうかん}を{学|まな}んでいる。",
+        "english": "I'm learning Japanese customs.",
+        "notes": null
+      }
+    ],
+    "notes": "Can refer to both individual habits and cultural customs. Related: {生活習慣|せいかつしゅうかん} - lifestyle habits.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
   "shuukan_00096": {
     "id": "shuukan_00096",
     "headword": "{週間|しゅうかん}",
@@ -40776,43 +40813,6 @@ const DICTIONARY_DATA = {
       "confidence": "high",
       "review_status": "verified",
       "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "shuukan_00245": {
-    "id": "shuukan_00245",
-    "headword": "{習慣|しゅうかん}",
-    "reading": "しゅうかん",
-    "part_of_speech": "noun",
-    "gloss": "habit, custom",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "habit, custom, practice",
-        "explanation": "A regular tendency or practice that is hard to give up."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{毎朝|まいあさ}{運動|うんどう}する{習慣|しゅうかん}がある。",
-        "english": "I have a habit of exercising every morning.",
-        "notes": null
-      },
-      {
-        "japanese": "{日本|にほん}の{習慣|しゅうかん}を{学|まな}んでいる。",
-        "english": "I'm learning Japanese customs.",
-        "notes": null
-      }
-    ],
-    "notes": "Can refer to both individual habits and cultural customs. Related: {生活習慣|せいかつしゅうかん} - lifestyle habits.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "jlpt_level": "N4",
       "frequency_rank": null
     }
   },
@@ -44514,50 +44514,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "tazuneru_00110": {
-    "id": "tazuneru_00110",
-    "headword": "{訪|たず}ねる",
-    "reading": "たずねる",
-    "part_of_speech": "verb (ichidan)",
-    "gloss": "to visit",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to visit, to call on",
-        "explanation": "To go to see someone at their home or office. A polite way to express visiting."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{友達|ともだち}の{家|いえ}を{訪|たず}ねた。",
-        "english": "I visited my friend's house.",
-        "notes": null
-      },
-      {
-        "japanese": "{京都|きょうと}のお{寺|てら}を{訪|たず}ねる。",
-        "english": "Visit temples in Kyoto.",
-        "notes": "Can be used for visiting places"
-      },
-      {
-        "japanese": "{先生|せんせい}を{訪|たず}ねて{行|い}った。",
-        "english": "I went to visit the teacher.",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{訪|たず}ねる (visit X).\n\nASPECT: ている indicates ongoing or completed action. {訪|たず}ねている = 'is visiting.'\n\nCOMMON PATTERNS:\n・{人|ひと}を{訪|たず}ねる (visit a person)\n・{場所|ばしょ}を{訪|たず}ねる (visit a place)\n・{訪|たず}ねて{来|く}る (come to visit)\n・{訪|たず}ねて{行|い}く (go to visit)\n\nHOMOPHONE: Don't confuse with {尋|たず}ねる (to ask/inquire), which has the same reading but different kanji and meaning.\n・{訪|たず}ねる (訪): to visit\n・{尋|たず}ねる (尋): to ask, inquire\n\nSYNONYMS:\n・{訪問|ほうもん}する: to visit (more formal)\n・{伺|うかが}う: to visit (humble)\n\nREGISTER: Neutral to slightly formal.",
-    "cross_references": [
-      "tazuneru_00109"
-    ],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N4",
-      "frequency_rank": null
-    }
-  },
   "tazuneru_00109": {
     "id": "tazuneru_00109",
     "headword": "{尋|たず}ねる",
@@ -44591,6 +44547,50 @@ const DICTIONARY_DATA = {
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xに Yを{尋|たず}ねる (ask X about Y).\n\nASPECT: ている indicates ongoing or completed action. {尋|たず}ねている = 'is asking.'\n\nCOMMON PATTERNS:\n・{道|みち}を{尋|たず}ねる (ask for directions)\n・{名前|なまえ}を{尋|たず}ねる (ask someone's name)\n・{意見|いけん}を{尋|たず}ねる (ask for an opinion)\n\nHOMOPHONE: Don't confuse with {訪|たず}ねる (to visit), which has the same reading but different kanji and meaning.\n・{尋|たず}ねる (尋): to ask, inquire\n・{訪|たず}ねる (訪): to visit\n\nCONTRAST WITH {聞|き}く:\n・{聞|き}く: general 'ask' or 'listen' (neutral)\n・{尋|たず}ねる: 'inquire' (slightly more formal)\n\nREGISTER: Slightly formal. {聞|き}く is more casual.",
     "cross_references": [
       "tazuneru_00110"
+    ],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
+  "tazuneru_00110": {
+    "id": "tazuneru_00110",
+    "headword": "{訪|たず}ねる",
+    "reading": "たずねる",
+    "part_of_speech": "verb (ichidan)",
+    "gloss": "to visit",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to visit, to call on",
+        "explanation": "To go to see someone at their home or office. A polite way to express visiting."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{友達|ともだち}の{家|いえ}を{訪|たず}ねた。",
+        "english": "I visited my friend's house.",
+        "notes": null
+      },
+      {
+        "japanese": "{京都|きょうと}のお{寺|てら}を{訪|たず}ねる。",
+        "english": "Visit temples in Kyoto.",
+        "notes": "Can be used for visiting places"
+      },
+      {
+        "japanese": "{先生|せんせい}を{訪|たず}ねて{行|い}った。",
+        "english": "I went to visit the teacher.",
+        "notes": null
+      }
+    ],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{訪|たず}ねる (visit X).\n\nASPECT: ている indicates ongoing or completed action. {訪|たず}ねている = 'is visiting.'\n\nCOMMON PATTERNS:\n・{人|ひと}を{訪|たず}ねる (visit a person)\n・{場所|ばしょ}を{訪|たず}ねる (visit a place)\n・{訪|たず}ねて{来|く}る (come to visit)\n・{訪|たず}ねて{行|い}く (go to visit)\n\nHOMOPHONE: Don't confuse with {尋|たず}ねる (to ask/inquire), which has the same reading but different kanji and meaning.\n・{訪|たず}ねる (訪): to visit\n・{尋|たず}ねる (尋): to ask, inquire\n\nSYNONYMS:\n・{訪問|ほうもん}する: to visit (more formal)\n・{伺|うかが}う: to visit (humble)\n\nREGISTER: Neutral to slightly formal.",
+    "cross_references": [
+      "tazuneru_00109"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -46577,50 +46577,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "toru_00093": {
-    "id": "toru_00093",
-    "headword": "{撮|と}る",
-    "reading": "とる",
-    "part_of_speech": "verb (godan)",
-    "gloss": "to take (a photo)",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to take (a photo), to shoot (video)",
-        "explanation": "To capture an image or video using a camera. Different kanji from {取|と}る (to take/grab)."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{写真|しゃしん}を{撮|と}りましょう。",
-        "english": "Let's take a photo.",
-        "notes": null
-      },
-      {
-        "japanese": "{写真|しゃしん}を{撮|と}ってもいいですか。",
-        "english": "May I take a photo?",
-        "notes": null
-      },
-      {
-        "japanese": "ビデオを{撮|と}っています。",
-        "english": "I'm recording a video.",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{撮|と}る (take X [photo/video]).\n\nASPECT: ている indicates ongoing action. {撮|と}っている = 'is taking photos/recording.'\n\nCOMMON PATTERNS:\n・{写真|しゃしん}を{撮|と}る (take a photo)\n・ビデオを{撮|と}る (record a video)\n・{撮|と}ってもいいですか (may I take a photo?)\n・{自撮|じど}りする (take a selfie)\n\nSpecifically for photography/video. Different from {取|と}る (general take/grab).\n\nRelated: {撮影|さつえい} (filming/photography).",
-    "cross_references": [
-      "toru_00023"
-    ],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "toru_00023": {
     "id": "toru_00023",
     "headword": "{取|と}る",
@@ -46675,40 +46631,47 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "toshi_00303": {
-    "id": "toshi_00303",
-    "headword": "{都市|とし}",
-    "reading": "とし",
-    "part_of_speech": "noun",
-    "gloss": "city, urban area",
+  "toru_00093": {
+    "id": "toru_00093",
+    "headword": "{撮|と}る",
+    "reading": "とる",
+    "part_of_speech": "verb (godan)",
+    "gloss": "to take (a photo)",
     "definitions": [
       {
         "sense_number": 1,
-        "gloss": "city, urban area",
-        "explanation": "A large town with many buildings and inhabitants."
+        "gloss": "to take (a photo), to shoot (video)",
+        "explanation": "To capture an image or video using a camera. Different kanji from {取|と}る (to take/grab)."
       }
     ],
     "examples": [
       {
-        "japanese": "{大|おお}きな{都市|とし}に{住|す}んでいる。",
-        "english": "I live in a big city.",
+        "japanese": "{写真|しゃしん}を{撮|と}りましょう。",
+        "english": "Let's take a photo.",
         "notes": null
       },
       {
-        "japanese": "{都市|とし}{開発|かいはつ}が{進|すす}んでいる。",
-        "english": "Urban development is progressing.",
+        "japanese": "{写真|しゃしん}を{撮|と}ってもいいですか。",
+        "english": "May I take a photo?",
+        "notes": null
+      },
+      {
+        "japanese": "ビデオを{撮|と}っています。",
+        "english": "I'm recording a video.",
         "notes": null
       }
     ],
-    "notes": "More formal than {町|まち} (town). Related: {都市部|としぶ} (urban area), {首都|しゅと} (capital city).",
-    "cross_references": [],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{撮|と}る (take X [photo/video]).\n\nASPECT: ている indicates ongoing action. {撮|と}っている = 'is taking photos/recording.'\n\nCOMMON PATTERNS:\n・{写真|しゃしん}を{撮|と}る (take a photo)\n・ビデオを{撮|と}る (record a video)\n・{撮|と}ってもいいですか (may I take a photo?)\n・{自撮|じど}りする (take a selfie)\n\nSpecifically for photography/video. Different from {取|と}る (general take/grab).\n\nRelated: {撮影|さつえい} (filming/photography).",
+    "cross_references": [
+      "toru_00023"
+    ],
     "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
-      "review_status": "reviewed",
-      "jlpt_level": "N4",
+      "review_status": "verified",
+      "jlpt_level": "N5",
       "frequency_rank": null
     }
   },
@@ -46756,6 +46719,43 @@ const DICTIONARY_DATA = {
       "confidence": "high",
       "review_status": "verified",
       "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "toshi_00303": {
+    "id": "toshi_00303",
+    "headword": "{都市|とし}",
+    "reading": "とし",
+    "part_of_speech": "noun",
+    "gloss": "city, urban area",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "city, urban area",
+        "explanation": "A large town with many buildings and inhabitants."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{大|おお}きな{都市|とし}に{住|す}んでいる。",
+        "english": "I live in a big city.",
+        "notes": null
+      },
+      {
+        "japanese": "{都市|とし}{開発|かいはつ}が{進|すす}んでいる。",
+        "english": "Urban development is progressing.",
+        "notes": null
+      }
+    ],
+    "notes": "More formal than {町|まち} (town). Related: {都市部|としぶ} (urban area), {首都|しゅと} (capital city).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "jlpt_level": "N4",
       "frequency_rank": null
     }
   },
@@ -53626,12 +53626,12 @@ const DICTIONARY_INDEX = {
     "ごご": [
       "gogo_00017"
     ],
-    "ごはん": [
-      "gohan_00023",
-      "gohan_00094"
-    ],
     "ご飯": [
       "gohan_00094"
+    ],
+    "ごはん": [
+      "gohan_00094",
+      "gohan_00023"
     ],
     "五十": [
       "gojuu_00096"
@@ -53772,15 +53772,15 @@ const DICTIONARY_INDEX = {
     "はくぶつかん": [
       "hakubutsukan_00320"
     ],
-    "鼻": [
-      "hana_00094"
-    ],
-    "はな": [
-      "hana_00094",
-      "hana_00012"
-    ],
     "花": [
       "hana_00012"
+    ],
+    "はな": [
+      "hana_00012",
+      "hana_00094"
+    ],
+    "鼻": [
+      "hana_00094"
     ],
     "話": [
       "hanashi_00323"
@@ -53833,15 +53833,15 @@ const DICTIONARY_INDEX = {
     "はさみ": [
       "hasami_00093"
     ],
-    "端": [
-      "hashi_00096"
-    ],
-    "はし": [
-      "hashi_00096",
-      "hashi_00097"
-    ],
     "箸": [
       "hashi_00097"
+    ],
+    "はし": [
+      "hashi_00097",
+      "hashi_00096"
+    ],
+    "端": [
+      "hashi_00096"
     ],
     "走る": [
       "hashiru_00011"
@@ -54048,15 +54048,15 @@ const DICTIONARY_INDEX = {
     "ほめる": [
       "homeru_00114"
     ],
-    "本": [
-      "hon_00001"
-    ],
-    "ほん": [
-      "hon_00001",
-      "hon_00092"
-    ],
     "〜本": [
       "hon_00092"
+    ],
+    "ほん": [
+      "hon_00092",
+      "hon_00001"
+    ],
+    "本": [
+      "hon_00001"
     ],
     "本当": [
       "hontou_00094"
@@ -54575,15 +54575,15 @@ const DICTIONARY_INDEX = {
     "かぎ": [
       "kagi_00091"
     ],
-    "階": [
-      "kai_00097"
-    ],
-    "かい": [
-      "kai_00097",
-      "kai_00096"
-    ],
     "回": [
       "kai_00096"
+    ],
+    "かい": [
+      "kai_00096",
+      "kai_00097"
+    ],
+    "階": [
+      "kai_00097"
     ],
     "階段": [
       "kaidan_00094"
@@ -57645,15 +57645,15 @@ const DICTIONARY_INDEX = {
     "しゅみ": [
       "shumi_00095"
     ],
-    "週間": [
-      "shuukan_00096"
-    ],
-    "しゅうかん": [
-      "shuukan_00096",
-      "shuukan_00245"
-    ],
     "習慣": [
       "shuukan_00245"
+    ],
+    "しゅうかん": [
+      "shuukan_00245",
+      "shuukan_00096"
+    ],
+    "週間": [
+      "shuukan_00096"
     ],
     "そば": [
       "soba_00096"
@@ -58077,15 +58077,15 @@ const DICTIONARY_INDEX = {
     "たつ": [
       "tatsu_00093"
     ],
-    "訪ねる": [
-      "tazuneru_00110"
-    ],
-    "たずねる": [
-      "tazuneru_00110",
-      "tazuneru_00109"
-    ],
     "尋ねる": [
       "tazuneru_00109"
+    ],
+    "たずねる": [
+      "tazuneru_00109",
+      "tazuneru_00110"
+    ],
+    "訪ねる": [
+      "tazuneru_00110"
     ],
     "手": [
       "te_00025"
@@ -58313,25 +58313,25 @@ const DICTIONARY_INDEX = {
     "とりかえる": [
       "torikaeru_00123"
     ],
-    "撮る": [
-      "toru_00093"
-    ],
-    "とる": [
-      "toru_00093",
-      "toru_00023"
-    ],
     "取る": [
       "toru_00023"
     ],
-    "都市": [
-      "toshi_00303"
+    "とる": [
+      "toru_00023",
+      "toru_00093"
     ],
-    "とし": [
-      "toshi_00303",
-      "toshi_00005"
+    "撮る": [
+      "toru_00093"
     ],
     "年": [
       "toshi_00005"
+    ],
+    "とし": [
+      "toshi_00005",
+      "toshi_00303"
+    ],
+    "都市": [
+      "toshi_00303"
     ],
     "図書館": [
       "toshokan_00038"
@@ -59559,8 +59559,8 @@ const DICTIONARY_INDEX = {
       "gogo_00017"
     ],
     "gohan": [
-      "gohan_00023",
-      "gohan_00094"
+      "gohan_00094",
+      "gohan_00023"
     ],
     "gojuu": [
       "gojuu_00096"
@@ -59639,8 +59639,8 @@ const DICTIONARY_INDEX = {
       "hakubutsukan_00320"
     ],
     "hana": [
-      "hana_00094",
-      "hana_00012"
+      "hana_00012",
+      "hana_00094"
     ],
     "hanashi": [
       "hanashi_00323"
@@ -59670,8 +59670,8 @@ const DICTIONARY_INDEX = {
       "hasami_00093"
     ],
     "hashi": [
-      "hashi_00096",
-      "hashi_00097"
+      "hashi_00097",
+      "hashi_00096"
     ],
     "hashiru": [
       "hashiru_00011"
@@ -59780,8 +59780,8 @@ const DICTIONARY_INDEX = {
       "homeru_00114"
     ],
     "hon": [
-      "hon_00001",
-      "hon_00092"
+      "hon_00092",
+      "hon_00001"
     ],
     "hontou": [
       "hontou_00094"
@@ -60061,8 +60061,8 @@ const DICTIONARY_INDEX = {
       "kagi_00091"
     ],
     "kai": [
-      "kai_00097",
-      "kai_00096"
+      "kai_00096",
+      "kai_00097"
     ],
     "kaidan": [
       "kaidan_00094"
@@ -61674,8 +61674,8 @@ const DICTIONARY_INDEX = {
       "shumi_00095"
     ],
     "shuukan": [
-      "shuukan_00096",
-      "shuukan_00245"
+      "shuukan_00245",
+      "shuukan_00096"
     ],
     "soba": [
       "soba_00096"
@@ -61926,8 +61926,8 @@ const DICTIONARY_INDEX = {
       "tatsu_00093"
     ],
     "tazuneru": [
-      "tazuneru_00110",
-      "tazuneru_00109"
+      "tazuneru_00109",
+      "tazuneru_00110"
     ],
     "te": [
       "te_00025"
@@ -62045,12 +62045,12 @@ const DICTIONARY_INDEX = {
       "torikaeru_00123"
     ],
     "toru": [
-      "toru_00093",
-      "toru_00023"
+      "toru_00023",
+      "toru_00093"
     ],
     "toshi": [
-      "toshi_00303",
-      "toshi_00005"
+      "toshi_00005",
+      "toshi_00303"
     ],
     "toshokan": [
       "toshokan_00038"
@@ -62736,8 +62736,8 @@ const DICTIONARY_INDEX = {
       "tateru_00111",
       "tateru_00112",
       "tatsu_00093",
-      "tazuneru_00110",
       "tazuneru_00109",
+      "tazuneru_00110",
       "tetsudau_00095",
       "tobu_00093",
       "todokeru_00122",
@@ -62747,8 +62747,8 @@ const DICTIONARY_INDEX = {
       "tonari_00096",
       "tooru_00121",
       "torikaeru_00123",
-      "toru_00093",
       "toru_00023",
+      "toru_00093",
       "tsukamaeru_00115",
       "tsukareru_00095",
       "tsukau_00003",
@@ -64095,8 +64095,8 @@ const DICTIONARY_INDEX = {
     ],
     "rice": [
       "chawan_00097",
-      "gohan_00023",
       "gohan_00094",
+      "gohan_00023",
       "kome_00147",
       "osake_00097"
     ],
@@ -64506,8 +64506,8 @@ const DICTIONARY_INDEX = {
       "narau_00004",
       "nugu_00010",
       "suwaru_00093",
-      "toru_00093",
       "toru_00023",
+      "toru_00093",
       "tsureru_00120",
       "ukeru_00115",
       "yasumu_00072"
@@ -65424,12 +65424,12 @@ const DICTIONARY_INDEX = {
       "gogo_00017"
     ],
     "meal": [
-      "gohan_00023",
-      "gohan_00094"
+      "gohan_00094",
+      "gohan_00023"
     ],
     "cooked": [
-      "gohan_00023",
-      "gohan_00094"
+      "gohan_00094",
+      "gohan_00023"
     ],
     "fifty": [
       "gojuu_00096"
@@ -65619,15 +65619,15 @@ const DICTIONARY_INDEX = {
     "museum": [
       "hakubutsukan_00320"
     ],
-    "nose": [
-      "hana_00094"
-    ],
     "flower": [
       "hana_00012"
     ],
     "blossom": [
       "hana_00012",
       "sakura_00095"
+    ],
+    "nose": [
+      "hana_00094"
     ],
     "talk": [
       "hanashi_00323",
@@ -65716,6 +65716,9 @@ const DICTIONARY_INDEX = {
     "scissors": [
       "hasami_00093"
     ],
+    "chopsticks": [
+      "hashi_00097"
+    ],
     "edge": [
       "hashi_00096"
     ],
@@ -65729,9 +65732,6 @@ const DICTIONARY_INDEX = {
     ],
     "tip": [
       "hashi_00096"
-    ],
-    "chopsticks": [
-      "hashi_00097"
     ],
     "run": [
       "hashiru_00011",
@@ -66037,9 +66037,6 @@ const DICTIONARY_INDEX = {
     "compliment": [
       "homeru_00114"
     ],
-    "book": [
-      "hon_00001"
-    ],
     "long": [
       "hon_00092",
       "mukashi_00346",
@@ -66048,6 +66045,9 @@ const DICTIONARY_INDEX = {
     ],
     "cylindrical": [
       "hon_00092"
+    ],
+    "book": [
+      "hon_00001"
     ],
     "truth": [
       "hontou_00094"
@@ -66750,17 +66750,17 @@ const DICTIONARY_INDEX = {
     "lock": [
       "kagi_00091"
     ],
-    "floors": [
-      "kai_00097"
-    ],
-    "stories": [
-      "kai_00097"
-    ],
     "frequency": [
       "kai_00096"
     ],
     "occurrences": [
       "kai_00096"
+    ],
+    "floors": [
+      "kai_00097"
+    ],
+    "stories": [
+      "kai_00097"
     ],
     "stairs": [
       "kaidan_00094"
@@ -69719,8 +69719,8 @@ const DICTIONARY_INDEX = {
     ],
     "photo": [
       "shashin_00093",
-      "toru_00093",
-      "toru_00023"
+      "toru_00023",
+      "toru_00093"
     ],
     "shirt": [
       "shatsu_00097",
@@ -70004,9 +70004,6 @@ const DICTIONARY_INDEX = {
     "hobby": [
       "shumi_00095"
     ],
-    "weeks": [
-      "shuukan_00096"
-    ],
     "habit": [
       "shuukan_00245"
     ],
@@ -70015,6 +70012,9 @@ const DICTIONARY_INDEX = {
     ],
     "practice": [
       "shuukan_00245"
+    ],
+    "weeks": [
+      "shuukan_00096"
     ],
     "beside": [
       "soba_00096",
@@ -70550,11 +70550,11 @@ const DICTIONARY_INDEX = {
     "swap": [
       "torikaeru_00123"
     ],
-    "shoot": [
-      "toru_00093"
-    ],
     "obtain": [
       "toru_00023"
+    ],
+    "shoot": [
+      "toru_00093"
     ],
     "urban": [
       "toshi_00303"
