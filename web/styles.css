@@ -12,7 +12,7 @@
     --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --font-serif: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
     --font-jp: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
-    --max-width: 1200px;
+    --max-width: 1600px;
     --spacing-sm: 0.5rem;
     --spacing-md: 1rem;
     --spacing-lg: 1.5rem;
@@ -95,7 +95,7 @@ body {
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
     min-height: calc(100vh - var(--sticky-header-height));
     display: flex;
     flex-direction: column;

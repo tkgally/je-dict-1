@@ -117,10 +117,11 @@
     function getPosCategory(pos) {
         if (!pos) return 'other';
         const posLower = pos.toLowerCase();
+        // Check adverb before verb since "adverb" contains "verb"
+        if (posLower.includes('adverb')) return 'adverb';
         if (posLower.includes('verb')) return 'verb';
         if (posLower.includes('noun')) return 'noun';
         if (posLower.includes('adjective')) return 'adjective';
-        if (posLower.includes('adverb')) return 'adverb';
         if (posLower.includes('particle')) return 'particle';
         if (posLower.includes('counter')) return 'counter';
         return 'other';
