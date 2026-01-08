@@ -26,16 +26,16 @@
 - [x] Last updated date in footer
 
 ### Content Status
-- **Total entries**: 1004
+- **Total entries**: 1,153
 - **JLPT N5 coverage**: ~95% complete
-- **JLPT N4 coverage**: 243 entries added (~37% of target)
-- **N4 vocabulary remaining**: 406 items (see N4_VOCABULARY_TO_ADD.md)
+- **JLPT N4 coverage**: 392 entries added
+- **Candidate words**: 1,992 words tracked in `candidate_words.json`
 
 ### Entry Breakdown by JLPT Level
 | Level | Count | Status |
 |-------|-------|--------|
 | N5 | ~761 | Complete |
-| N4 | 243 | In progress |
+| N4 | ~392 | In progress |
 
 ### Entry Breakdown by Type
 | Type | Count | Notes |
@@ -86,38 +86,41 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Recent Changes
 
+### 2026-01-08 (Entry Tracking System)
+- Created `entries_index.json` listing all 1,153 entries with key metadata
+- Created `candidate_words.json` with 1,992 candidate words for future addition
+- Added build scripts: `update_entries_index.py`, `manage_candidates.py`, `update_indexes.py`
+- Removed N3_VOCABULARY_TO_ADD.md and N4_VOCABULARY_TO_ADD.md (data now in candidate_words.json)
+
+### 2026-01-08 (N4 Vocabulary Expansion)
+- Added 183 new N4 vocabulary entries (nouns, katakana loanwords, adverbs, counters, suffixes)
+- Total entries now 1,153
+- Removed 34 duplicate entries from N3 vocabulary list
+
 ### 2026-01-08 (Web Interface Update)
 - Added three interface modes: Search, Browse, Compare
 - Sticky header with interface toggle and furigana button
 - Browse mode with filters for JLPT level, part of speech, starting kana
-- Compare mode for side-by-side word comparisons (particles, transitive pairs, similar words)
-- Added last revision date in footer
-- Removed "je-dict-1" branding from visible UI
-
-### 2026-01-08 (N4 Entries)
-- Added 62 N4 vocabulary entries (adverbs, keigo verbs, nouns, katakana loanwords)
-- Total entries now 1004
-- Updated N4_VOCABULARY_TO_ADD.md (406 items remaining)
-- Removed 3 duplicate entries
+- Compare mode for side-by-side word comparisons
 
 ### Previous Sessions
+- Added 62 N4 vocabulary entries (adverbs, keigo verbs, nouns, katakana loanwords)
 - Removed "New" tag functionality from dictionary
 - Added vocabulary-notes skill for formatting guidelines
 - Updated web interface to handle paragraph breaks and bullet points in notes
 - Reformatted 154 entries with proper bullet point formatting
-- Fixed furigana display in example sentence notes
 
 ## Next Steps
 
-### Immediate (N4 Expansion)
-1. Continue adding N4 vocabulary from N4_VOCABULARY_TO_ADD.md
-2. Priority: nouns (378 remaining), then other categories
+### Immediate (Vocabulary Expansion)
+1. Continue adding vocabulary from `candidate_words.json` (1,992 candidates)
+2. Run `python build/update_indexes.py` after adding/removing entries
 3. Maintain v2 quality standards for all new entries
 
-### After N4 Complete
+### After Current Batch Complete
 1. Implement cross-entry linking
 2. Add conjugation search
-3. Begin N3 vocabulary research
+3. Continue expanding from candidate list
 
 ## Technical Notes
 
@@ -129,6 +132,13 @@ python3 build/validate.py
 # Build dictionary
 python3 build/build.py
 
+# Update index files (after adding/removing entries)
+python3 build/update_indexes.py
+
+# Manage candidate words
+python3 build/manage_candidates.py stats    # Show statistics
+python3 build/manage_candidates.py add "漢字" "かんじ" "notes"  # Add candidate
+
 # View locally
 open docs/index.html
 ```
@@ -139,18 +149,10 @@ open docs/index.html
 - Directory: Based on first kana of reading
 - Katakana loanwords: Use hiragana reading (e.g., アルバイト → あるばいと)
 
-### ID Assignment
-Next available IDs by directory:
-- `/a/`: 00157+
-- `/ka/`: 00167+
-- `/sa/`: 00178+
-- `/ta/`: 00180+
-- `/na/`: 00142+
-- `/ha/`: 00187+
-- `/ma/`: 00147+
-- `/ya/`: 00137+
-- `/ra/`: 00188+
-- `/wa/`: 00100+
+### Entry and Candidate Tracking
+- **entries_index.json**: Auto-generated index of all dictionary entries
+- **candidate_words.json**: Words to potentially add (each has unique ID like C00001)
+- Run `python build/update_indexes.py` after modifying entries to keep indexes in sync
 
 ## Notes for AI Assistants
 
