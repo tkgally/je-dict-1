@@ -880,10 +880,23 @@ ruby rp {
 @media (max-width: 1100px) {
     .browse-layout {
         grid-template-columns: 220px 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .browse-filters {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .browse-results {
+        grid-row: 1;
+        grid-column: 2;
     }
 
     .browse-detail {
-        display: none;
+        grid-row: 2;
+        grid-column: 1 / -1;
+        max-height: none;
     }
 }
 
@@ -907,14 +920,24 @@ ruby rp {
 
     .browse-layout {
         grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
     }
 
     .browse-filters {
         position: static;
+        grid-row: 1;
+        grid-column: 1;
     }
 
     .browse-results {
         max-height: 400px;
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .browse-detail {
+        grid-row: 3;
+        grid-column: 1;
     }
 
     .compare-cards {
