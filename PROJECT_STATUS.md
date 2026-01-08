@@ -1,14 +1,14 @@
-# je-dict-1 Project Status
+# Japanese-English Learner's Dictionary - Project Status
 
 **Last updated**: 2026-01-08
-**Current phase**: Phase 4 - N4 Vocabulary Expansion
+**Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
 ## Current State
 
 ### Phase
-**Phase 4: N4 Vocabulary Expansion** - Adding N4 vocabulary while maintaining v2 quality standards.
+**Phase 4: N4 Vocabulary Expansion & Interface Enhancement** - Adding N4 vocabulary while maintaining v2 quality standards, plus new web interface features.
 
 ### Infrastructure Status
 - [x] Directory structure created
@@ -21,6 +21,9 @@
 - [x] Quality specification v2 from multi-model evaluation
 - [x] Vocabulary-notes skill for formatting guidelines
 - [x] Notes field supports paragraph breaks and bullet points
+- [x] Multiple interface modes (Search, Browse, Compare)
+- [x] Sticky header with interface toggle
+- [x] Last updated date in footer
 
 ### Content Status
 - **Total entries**: 1004
@@ -83,7 +86,15 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Recent Changes
 
-### 2026-01-08
+### 2026-01-08 (Web Interface Update)
+- Added three interface modes: Search, Browse, Compare
+- Sticky header with interface toggle and furigana button
+- Browse mode with filters for JLPT level, part of speech, starting kana
+- Compare mode for side-by-side word comparisons (particles, transitive pairs, similar words)
+- Added last revision date in footer
+- Removed "je-dict-1" branding from visible UI
+
+### 2026-01-08 (N4 Entries)
 - Added 62 N4 vocabulary entries (adverbs, keigo verbs, nouns, katakana loanwords)
 - Total entries now 1004
 - Updated N4_VOCABULARY_TO_ADD.md (406 items remaining)

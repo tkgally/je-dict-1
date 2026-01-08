@@ -1,16 +1,17 @@
-# je-dict-1
+# Japanese-English Learner's Dictionary
 
 A Japanese-English learner's dictionary emphasizing quality over quantity, delivered as a static website.
 
 ## Overview
 
-**je-dict-1** is a dictionary designed for learners of Japanese as a second language. Unlike comprehensive resources like Jisho.org or JMdict, this dictionary prioritizes **depth and quality**—fewer entries, but each one carefully crafted with:
+This dictionary is designed for learners of Japanese as a second language. Unlike comprehensive resources like Jisho.org or JMdict, this dictionary prioritizes **depth and quality**—fewer entries, but each one carefully crafted with:
 
 - **Explanatory definitions** that go beyond simple glosses
 - **Natural example sentences** optimized for learning
 - **Usage notes** covering grammar, register, and common patterns
 - **Rich particle and auxiliary verb entries** crucial for learners
 - **Furigana support** with toggle to show/hide readings above kanji
+- **Multiple interface modes**: Search, Browse, and Compare views
 - **Transitivity and aspect information** for verbs (v2 enhancement)
 - **Collocation patterns** showing natural word combinations (v2 enhancement)
 - **Keigo (honorific) verb coverage** with usage guidance
@@ -37,6 +38,29 @@ The dictionary is built as a **completely static website**:
 - No external dependencies—pure HTML, CSS, and JavaScript
 - Offline-capable—download and use anywhere
 - Data is embedded in JavaScript at build time for maximum portability
+
+## Web Interface
+
+The dictionary provides three different ways to explore entries:
+
+### Search Mode
+Quick lookup by Japanese, romaji, or English. The traditional dictionary experience for users who know what word they're looking for.
+
+### Browse Mode
+Filter and explore entries by:
+- **JLPT Level**: N5, N4, or all
+- **Part of Speech**: verbs, nouns, adjectives, adverbs, particles, counters, other
+- **Starting Kana**: あ行, か行, さ行, etc.
+
+Ideal for systematic vocabulary study or exploring categories.
+
+### Compare Mode
+Side-by-side comparison of related words:
+- **Particles**: は vs が, に vs で, etc.
+- **Transitive/Intransitive pairs**: 開ける vs 開く, 閉める vs 閉まる, etc.
+- **Similar words**: 見る vs 見える vs 見せる, いる vs ある, etc.
+
+Helps learners understand nuanced differences between confusing word pairs.
 
 ## Furigana System
 
@@ -208,8 +232,10 @@ Files go in directories based on the first kana of the reading:
 - [x] Standardize adjective forms
 - [x] Notes formatting with bullet points
 
-### Phase 4: N4 Expansion (Current)
+### Phase 4: N4 Expansion & Interface (Current)
 - [x] Added 243 N4 vocabulary entries (~37% complete)
+- [x] Multiple interface modes (Search, Browse, Compare)
+- [x] Sticky header with interface toggle and furigana button
 - [ ] Add remaining ~406 N4 vocabulary entries
 - [ ] Implement cross-references
 - [ ] Conjugation search indexing
