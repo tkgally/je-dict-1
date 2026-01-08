@@ -800,9 +800,22 @@
             localStorage.setItem('furigana-enabled', furiganaEnabled);
         } catch (e) {}
 
+        // Save currently active browse entry ID before rebuilding lists
+        const browseActiveItem = browseList.querySelector('.browse-item.active');
+        const activeBrowseEntryId = browseActiveItem ? browseActiveItem.dataset.entryId : null;
+
         // Re-render all interfaces
         buildEntryBrowser();
         updateBrowseList();
+
+        // Restore browse entry selection and re-render the entry display
+        if (activeBrowseEntryId) {
+            const newActiveItem = browseList.querySelector(`.browse-item[data-entry-id="${activeBrowseEntryId}"]`);
+            if (newActiveItem) {
+                newActiveItem.classList.add('active');
+            }
+            displayBrowseEntry(activeBrowseEntryId);
+        }
 
         // Re-render current entry in search
         if (!entrySection.classList.contains('hidden')) {
@@ -821,12 +834,6 @@
                     item.querySelector('.headword').innerHTML = processJapaneseText(entry.headword);
                 }
             });
-        }
-
-        // Re-render browse entry display
-        const browseActiveItem = browseList.querySelector('.browse-item.active');
-        if (browseActiveItem) {
-            displayBrowseEntry(browseActiveItem.dataset.entryId);
         }
 
         // Re-render compare cards
