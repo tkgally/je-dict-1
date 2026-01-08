@@ -1,0 +1,518 @@
+# JLPT N4 Vocabulary to Add
+
+**Generated**: 2026-01-08  
+**Source**: JLPT vocabulary lists (GitHub elzup/jlpt-word-list, JLPT Sensei, JLPT Global)
+
+## Summary Statistics
+
+| Metric | Count |
+|--------|-------|
+| Source entries scanned | 668 |
+| Duplicates with existing dictionary | 200 |
+| **Total new entries to add** | **468** |
+| Original target | 300-400 words |
+
+### By Part of Speech
+
+| Category | Count |
+|----------|-------|
+| Verbs | 97 |
+| I-Adjectives | 7 |
+| Na-Adjectives | 15 |
+| Nouns | 309 |
+| Adverbs | 20 |
+| Counters | 1 |
+| Suffix/Prefixs | 18 |
+| Expressions | 1 |
+
+## Verbs
+
+- かまう () - to mind, to care about, to be concerned about [REVIEW: reading may need verification]
+- 集まる (あつまる) - to gather (v.i.), to collect
+- 集める (あつめる) - to collect, to gather (v.t.), to assemble
+- 謝る (あやまる) - to apologize
+- 生きる (いきる) - to live
+- いじめる (いじめる) - to bully, to torment [REVIEW: reading may need verification]
+- 急ぐ (いそぐ) - to hurry, to be in a hurry, to rush
+- 祈る (いのる) - to pray; to wish
+- 植える (うえる) - to plant
+- うかがう (うかがう) - to ask [REVIEW: reading may need verification]
+- 受ける (うける) - to take (an examination, interview, etc.); to receive
+- 打つ (うつ) - to hit, to strike
+- 写す (うつす) - to copy (v.t.); to photograph
+- 移る (うつる) - to move (from a house); to transfer (from a department); to shift
+- 起こす (おこす) - to wake (someone) up
+- 行う (おこなう) - to carry out; to conduct (typically used in written language)
+- 落る (おちる) - to fall, to drop
+- 落す (おとす) - to drop, to lose
+- 踊る (おどる) - to dance
+- 驚く (おどろく) - to be surprised, to be astonished
+- 思い出す (おもいだす) - to recall, to remember
+- 折る (おる) - to snap, to break; to bend
+- 折れる (おれる) - to break, to be folded, to give in; to turn (a corner)
+- 飾る (かざる) - to decorate, to adorn
+- 片付ける (かたづける) - to (clean) tidy up (v.t.), to put away
+- 勝つ (かつ) - to win
+- 噛む (かむ) - to bite, to chew
+- 通う (かよう) - to go back and forth; to commute
+- 頑張る (がんばる) - to try one's best, to try hard, to persist
+- 聞こえる (きこえる) - to be heard, to be audible
+- 決まる (きまる) - to be set; fixed (v.i.)
+- 比べる (くらべる) - to compare
+- 壊す (こわす) - to break, to break down
+- 下る (さがる) - to descend, to drop, to fall
+- 騒ぐ (さわぐ) - to make noise, to clamor
+- 叱る (しかる) - to scold
+- 知らせる (しらせる) - to notify
+- 調べる (しらべる) - to check; to look up; to inquire; to search
+- 過ぎる (すぎる) - to exceed, to go beyond
+- 進む (すすむ) - to advance, to proceed
+- 滑る (すべる) - to slide, to slip
+- 育てる (そだてる) - to raise (v.t.); to bring up
+- それほど (それほど) - to that degree; extent [REVIEW: reading may need verification]
+- 倒れる (たおれる) - to collapse, to break down
+- 足す (たす) - to add (numbers)
+- 尋ねる (たずねる) - to inquire (same as 質問する)
+- 訪ねる (たずねる) - to visit
+- 建てる (たてる) - to build
+- 立てる (たてる) - to stand (something) up, to erect (something)
+- 楽む (たのしむ) - to enjoy
+- 足りる (たりる) - to be sufficient; to be enough
+- 捕まえる (つかまえる) - to catch, to arrest
+- 伝える (つたえる) - to convey (a message); to tell, to report
+- 包む (つつむ) - to wrap, to cover
+- 続ける (つづける) - to continue, to keep up
+- 釣る (つる) - to fish
+- 連れる (つれる) - to lead, to take (a person)
+- 通る (とおる) - to pass (by), to go through
+- 届ける (とどける) - to deliver (v.t.)
+- 取り替える (とりかえる) - to exchange, to replace
+- 投げる (なげる) - to pitch, to cast away
+- 鳴る (なる) - to sound, to ring (v.i.)
+- 逃げる (にげる) - to escape, to run away
+- 似る (にる) - to resemble, to be similar
+- 盗む (ぬすむ) - to steal; to rob
+- 塗る (ぬる) - to paint, to plaster
+- 眠る (ねむる) - to sleep
+- 残る (のこる) - to remain (v.i.), to be left
+- 乗り換える (のりかえる) - to transfer (trains), to change (bus, train, etc.)
+- 冷える (ひえる) - to grow cold, to cool down
+- 光る (ひかる) - to shine, to glitter
+- 引っ越す (ひっこす) - to move to a new place of residence
+- びっくりする (びっくりする) - to be surprised [REVIEW: reading may need verification]
+- 増える (ふえる) - to increase, to multiply
+- 太る (ふとる) - to gain weight
+- 踏む (ふむ) - to step on, to tread on
+- 褒める (ほめる) - to praise; to say nice things
+- 負ける (まける) - to lose (a game) (v.i.), to be defeated
+- 間に合う (まにあう) - to be in time for
+- 回る、回す (まわる、まわす) - to go around, to revolve [REVIEW: multiple readings]
+- 見える (みえる) - to be visible; -- polite verb meaning 来る (くる) --
+- 見つかる (みつかる) - to be found (v.i.), to be discovered
+- 見つける (みつける) - to discover, to find (v.t.)
+- 向かう (むかう) - to face, to go towards
+- 迎える (むかえる) - to welcome; to meet; to greet
+- 焼く (やく) - to bake, to grill
+- 役に立つ (やくにたつ) - to be helpful, to be useful
+- 焼ける (やける) - to burn, to be roasted
+- 痩せる (やせる) - to lose weight
+- 止む (やむ) - to cease, to stop
+- 揺れる (ゆれる) - to shake, to sway
+- 汚れる (よごれる) - to become dirty
+- 喜ぶ (よろこぶ) - to rejoice, to be delighted, to be glad
+- 沸かす (わかす) - to boil
+- 別れる (わかれる) - to part from, to separate
+- 沸く (わく) - to boil, to grow hot
+- うれしい (嬉しい) - to be happy; to be glad
+
+## Adjectives (い)
+
+- 浅い (あさい) - shallow, superficial
+- うまい (うまい) - delicious; skillful; fortunate [REVIEW: reading may need verification]
+- 細かい (こまかい) - small; fine, minute
+- 苦い (にがい) - bitter
+- 深い (ふかい) - deep, profound
+- 珍しい (めずらしい) - unusual, rare
+- よろしい (よろしい) - (hon.) good, OK, all right [REVIEW: reading may need verification]
+
+## Adjectives (な)
+
+- お子さん (おこさん) - (someone else's) child (polite)
+- お嬢さん (おじょうさん) - (someone's) daughter (polite)
+- お宅 (おたく) - (someone else's) house; home -- polite word for 家 (いえ) --
+- 盛ん (さかん) - prosperous, active, thriving
+- 残念 (ざんねん) - regret; regrettable
+- 失礼 (しつれい) - discourtesy, impoliteness; Excuse me
+- すっかり (すっかり) - all, completely [REVIEW: reading may need verification]
+- 専門 (せんもん) - major; speciality
+- 大事 (だいじ) - important, valuable, serious matter
+- 大分 (だいぶ) - fairly well, to a large extent, considerably, pretty much
+- 拝見 (はいけんする) - (humble) (polite) seeing, look at
+- はっきり (はっきり) - clearly, distinctly [REVIEW: reading may need verification]
+- 別 (べつ) - distinction, different
+- 真面目 (まじめ) - diligent, serious
+- 無理 (むり) - unreasonable, impossible
+
+## Nouns
+
+- ごらんになる () - -- honorific expression for みる -- [REVIEW: reading may need verification]
+- あ (あ) - Ah [REVIEW: reading may need verification]
+- 赤ちゃん (あかちゃん) - baby, infant
+- 赤ん坊 (あかんぼう) - baby
+- 遊び (あそび) - play
+- 安心 (あんしん) - peace of mind, relief
+- あんな (あんな) - such, like that [REVIEW: reading may need verification]
+- 案内 (あんないする) - information, guidance
+- 以下 (いか) - less than, below
+- 以外 (いがい) - other than, with the exception of, excepting
+- 医学 (いがく) - medical science
+- 意見 (いけん) - opinion, view, idea
+- 石 (いし) - stone
+- 以上 (いじょう) - more than; this is all
+- 致す (いたす) - -- extra-modest expression for する --
+- 一度 (いちど) - once, one time
+- 糸 (いと) - thread
+- 以内 (いない) - within, less (no more) than
+- 田舎 (いなか) - rural, countryside
+- いらっしゃる (いらっしゃる) - -- honorific expression for いく, くる, and いる -- [REVIEW: reading may need verification]
+- 伺う (うかがう) - humble form of 行く (いく), 聞く (きく) and 来る (くる)
+- 受付 (うけつけ) - reception(ist) desk
+- 内 (うち) - within, inside
+- 裏 (うら) - reverse side, back
+- 売り場 (うりば) - place where things are sold
+- うん (うん) - yes (informal), all right (ok) [REVIEW: reading may need verification]
+- 運転手 (うんてんしゅ) - driver (by occupation)
+- 運転 (うんてんする) - driving
+- 枝 (えだ) - branch, twig
+- 遠慮 (えんりょする) - restraint, reserve, hesitate
+- おいでになる (おいでになる) - (hon.) to be [REVIEW: reading may need verification]
+- お祝い (おいわい) - congratulation, celebration
+- 屋上 (おくじょう) - rooftop
+- 贈り物 (おくりもの) - a gift; a present
+- 押し入れ (おしいれ) - closet
+- おっしゃる (おっしゃる) - -- honorific expression for いう -- [REVIEW: reading may need verification]
+- 踊り (おどり) - dance
+- お祭り (おまつり) - festival
+- お見舞い (おみまい) - calling on someone who is ill, visit
+- お土産 (おみやげ) - souvenir
+- おもちゃ (おもちゃ) - a toy [REVIEW: reading may need verification]
+- 表 (おもて) - surface; front; outside
+- 親 (おや) - a parent
+- おる (おる) - -- extra-modest expression for いる -- [REVIEW: reading may need verification]
+- お礼 (おれい) - expression of gratitude; thanking; gift of appreciation; bow
+- 終わり (おわり) - end
+- おかげ (お陰) - thanks or owing to
+- 会議室 (かいぎしつ) - conference room
+- 会場 (かいじょう) - venue, meeting place
+- 会話 (かいわ) - conversation
+- 帰り (かえり) - return, coming back
+- 科学 (かがく) - science
+- 鏡 (かがみ) - mirror
+- 火事 (かじ) - fire
+- お金持ち (かねもち; おかねもち) - rich person [REVIEW: multiple readings]
+- 彼女 (かのじょ) - girlfriend; she
+- 壁 (かべ) - wall
+- 彼 (かれ) - he, boyfriend
+- 代わり (かわり) - substitute, replacement
+- 関係 (かんけい) - relation(ship), connection
+- 看護婦 (かんごふ) - (female) nurse
+- 機会 (きかい) - chance, opportunity
+- 汽車 (きしゃ) - train (steam)
+- 季節 (きせつ) - season (in reference to weather)
+- 規則 (きそく) - rule, regulation
+- 絹 (きぬ) - silk
+- 気分 (きぶん) - feeling, mood
+- 君 (きみ) - you (informal for men)
+- 気持ち (きもち) - feeling, sensation, mood
+- 着物 (きもの) - kimono; Japanese traditional dress
+- 急行 (きゅうこう) - express train or bus
+- 教育 (きょういく) - education
+- 教会 (きょうかい) - church
+- 競争 (きょうそう) - competition, contest
+- 興味 (きょうみ) - interest (in something)
+- 近所 (きんじょ) - neighborhood
+- 技術 (ぎじゅつ) - technique, technology, skill
+- 空気 (くうき) - air, atmosphere
+- くださる (くださる) - (hon.) to give, to confer [REVIEW: reading may need verification]
+- 具合 (ぐあい) - condition, state, health
+- 毛 (け) - hair, fur
+- 警察 (けいさつ) - police; police station
+- 経済 (けいざい) - economics, finance, economy
+- けがする (けがする) - injury (to animate object), hurt [REVIEW: reading may need verification]
+- 景色 (けしき) - scenery, landscape
+- けれど; けれども (けれど; けれども) - but, although [REVIEW: reading may need verification; REVIEW: multiple readings]
+- けんかする (けんかする) - quarrel [REVIEW: reading may need verification]
+- 研究 (けんきゅう) - study, research, investigation
+- 研究室 (けんきゅうしつ) - the professor's office; laboratory
+- 見物 (けんぶつ) - sightseeing
+- 下宿 (げしゅく) - lodging, boarding house
+- 原因 (げんいん) - cause, origin, source
+- 郊外 (こうがい) - suburb, outskirts
+- 講義 (こうぎ) - a lecture
+- 工業 (こうぎょう) - (manufacturing) industry
+- 高校生 (こうこうせい) - high school student
+- 校長 (こうちょう) - principal, headmaster
+- 交通 (こうつう) - traffic, transportation
+- 講堂 (こうどう) - auditorium
+- 公務員 (こうむいん) - government worker, public servant
+- 国際 (こくさい) - international
+- 心 (こころ) - heart, mind
+- 故障 (こしょうする) - breakdown
+- 小鳥 (ことり) - small bird
+- 米 (こめ) - uncooked rice
+- これから (これから) - from now on, after this [REVIEW: reading may need verification]
+- 今度 (こんど) - now, this time, near future, one of these days, next time
+- 今夜 (こんや) - this evening, tonight
+- ご主人 (ごしゅじん) - (your, her) husband
+- ご存じ (ごぞんじ) - knowing, acquaintance
+- ごちそう (ごちそう) - feast, treating (someone) [REVIEW: reading may need verification]
+- 坂 (さか) - slope, hill
+- 差し上げる (さしあげる) - -- humble expression for あげる --
+- さっき (さっき) - a little while ago [REVIEW: reading may need verification]
+- 再来月 (さらいげつ) - the month after next
+- 再来週 (さらいしゅう) - the week after next
+- 産業 (さんぎょう) - industry
+- 市 (し) - city
+- 試合 (しあい) - match, game, competition
+- 仕方 (しかた) - way (of doing something)
+- 下着 (したぎ) - underwear
+- 支度 (したくする) - preparation
+- しっかり (しっかり) - firmly, steady [REVIEW: reading may need verification]
+- 失敗 (しっぱい) - failure, mistake
+- しばらく (しばらく) - little while [REVIEW: reading may need verification]
+- 市民 (しみん) - citizen
+- 社会 (しゃかい) - society
+- 出席 (しゅっせきする) - attendance
+- 出発 (しゅっぱつする) - departure
+- 紹介 (しょうかい) - an introduction
+- 正月 (しょうがつ) - New Year, New Year's Day
+- 小説 (しょうせつ) - novel
+- 招待 (しょうたいする) - invitation
+- 承知 (しょうちする) - consent, acceptance
+- 将来 (しょうらい) - (in the) future; prospects
+- 食事 (しょくじする) - meal
+- 食料品 (しょくりょうひん) - foodstuff, groceries
+- 新聞社 (しんぶんしゃ) - newspaper company
+- 字 (じ) - letter; character
+- 地震 (じしん) - earthquake
+- 時代 (じだい) - age, period, epoch, era
+- 辞典 (じてん) - encyclopedia, reference book
+- 邪魔 (じゃま) - hindrance, intrusion
+- 住所 (じゅうしょ) - address; place of residence
+- 柔道 (じゅうどう) - judo
+- 十分 (じゅうぶん) - enough
+- 女性 (じょせい) - woman
+- 人口 (じんこう) - population
+- 神社 (じんじゃ) - Shinto shrine
+- 水泳 (すいえい) - swimming
+- 数学 (すうがく) - mathematics
+- 隅 (すみ) - corner
+- すり (すり) - pickpocket [REVIEW: reading may need verification]
+- すると (すると) - and, then [REVIEW: reading may need verification]
+- 生活 (せいかつする) - living, life; to live
+- 生産 (せいさんする) - production; to produce
+- 政治 (せいじ) - politics
+- 西洋 (せいよう) - the West, Western countries
+- 世界 (せかい) - world
+- 世話 (せわする) - looking after; to look after
+- 戦争 (せんそう) - war
+- 先輩 (せんぱい) - senior members of a group
+- 相談 (そうだんする) - consultation
+- 卒業 (そつぎょう) - graduation
+- そんな (そんな) - such, like that, that sort of [REVIEW: reading may need verification]
+- そんなに (そんなに) - so much, like that [REVIEW: reading may need verification]
+- 退院 (たいいんする) - leaving hospital
+- 台風 (たいふう) - typhoon
+- 畳 (たたみ) - tatami mat (Japanese straw mat)
+- 棚 (たな) - shelves, rack
+- 楽しみ (たのしみ) - pleasure, joy
+- たまに (たまに) - occasionally [REVIEW: reading may need verification]
+- 大学生 (だいがくせい) - college student, university student
+- 男性 (だんせい) - man; male
+- 暖房 (だんぼう) - heating
+- 血 (ち) - blood
+- 力 (ちから) - strength, power
+- ちっとも (ちっとも) - not at all (neg. verb) [REVIEW: reading may need verification]
+- 注意 (ちゅうい) - caution, attention
+- 注射 (ちゅうしゃ) - injection
+- 駐車場 (ちゅうしゃじょう) - parking lot
+- 地理 (ちり) - geography
+- 都合 (つごう) - circumstances, convenience
+- 適当 (てきとう) - fitness, suitability
+- 寺 (てら) - Buddhist temple
+- 点 (てん) - mark, score, grade; point, dot
+- 天気予報 (てんきよほう) - weather forecast
+- 展覧会 (てんらんかい) - exhibition
+- できるだけ (できるだけ) - if at all possible, as much as possible [REVIEW: reading may need verification]
+- 電灯 (でんとう) - electric light
+- 電報 (でんぽう) - telegram
+- 遠く (とおく) - far away, distant
+- 通り (とおり) - ~ Street, ~ Avenue
+- 床屋 (とこや) - barber's (shop)
+- 途中 (とちゅう) - on the way, midway
+- 特急 (とっきゅう) - limited express (train faster than an express)
+- 動物園 (どうぶつえん) - zoo
+- 泥棒 (どろぼう) - thief; burglar
+- なさる (なさる) - -- honorific expression for する -- [REVIEW: reading may need verification]
+- なるべく (なるべく) - if possible, as much as possible [REVIEW: reading may need verification]
+- なるほど (なるほど) - I see; I now understand [REVIEW: reading may need verification]
+- 日記 (にっき) - diary, journal
+- 入院 (にゅういんする) - hospitalization
+- 入学 (にゅうがくする) - entry to school or university
+- 人形 (にんぎょう) - doll, figure
+- 熱 (ねつ) - fever, temperature
+- 寝坊 (ねぼう) - sleeping in late
+- 乗り物 (のりもの) - vehicle
+- 歯医者 (はいしゃ) - dentist
+- 発音 (はつおん) - pronunciation
+- 花見 (はなみ) - cherry-blossom viewing
+- 林 (はやし) - woods, forest
+- 反対 (はんたい) - oppose, opposition, resistance
+- 場合 (ばあい) - case, situation
+- 倍 (ばい) - double
+- 番組 (ばんぐみ) - broadcast program
+- 光 (ひかり) - light
+- 引き出し (ひきだし) - drawer
+- ひげ (ひげ) - beard [REVIEW: reading may need verification]
+- 飛行場 (ひこうじょう) - airport
+- 久しぶり (ひさしぶり) - it has been a long time; for the first time in a long time
+- 昼間 (ひるま) - daytime, during the day
+- 昼休み (ひるやすみ) - lunch break, noon recess
+- 美術館 (びじゅつかん) - art gallery, art museum
+- 復習 (ふくしゅう) - review (of lessons), revision
+- 普通 (ふつう) - common; usual
+- 布団 (ふとん) - futon
+- 文化 (ぶんか) - culture
+- 文学 (ぶんがく) - literature
+- 文法 (ぶんぽう) - grammar
+- 放送 (ほうそうする) - broadcasting
+- 法律 (ほうりつ) - law
+- 程 (ほど) - degree, extent
+- 翻訳 (ほんやく) - translation
+- 貿易 (ぼうえき) - trade
+- 僕 (ぼく) - I (used by men towards those of equal or lower status)
+- 参る (まいる) - humble expression for 行く and 来る
+- 周り (まわり) - surroundings
+- 港 (みなと) - harbor, port
+- 昔 (むかし) - old days; past
+- 召し上がる (めしあがる) - -- honorific form of 食べる (たべる) and 飲む (のむ) --
+- 申し上げる (もうしあげる) - (humble)to say, to tell
+- 申す (もうす) - -- extra-modest (humble) expression for 言う (いう) --
+- もし (もし) - if [REVIEW: reading may need verification]
+- 最も (もっとも) - most
+- 木綿 (もめん) - cotton
+- やはり; やっぱり (やはり; やっぱり) - as I thought, absolutely [REVIEW: reading may need verification; REVIEW: multiple readings]
+- 湯 (ゆ) - hot water
+- 輸出 (ゆしゅつする) - export
+- 輸入 (ゆにゅう) - import
+- 指輪 (ゆびわ) - (finger) ring
+- 夢 (ゆめ) - a dream
+- 用意 (ようい) - preparation
+- 予習 (よしゅう) - preparation of lessons (for class)
+- 両方 (りょうほう) - both sides, both parties
+- 利用 (りよう) - use, utilization
+- 留守 (るす) - absence; not at home
+- 冷房 (れいぼう) - cooling, air conditioning
+- 歴史 (れきし) - history
+- 連絡 (れんらく) - communication, contact, connection
+- 忘れ物 (わすれもの) - lost article, something forgotten
+- 割合 (わりあい) - rate, ratio, percentage
+- アクセサリー (アクセサリー) - accessory [REVIEW: reading may need verification]
+- アジア (アジア) - Asia [REVIEW: reading may need verification]
+- アナウンサー (アナウンサー) - announcer [REVIEW: reading may need verification]
+- アフリカ (アフリカ) - Africa [REVIEW: reading may need verification]
+- アメリカ (アメリカ) - America, U.S.A. [REVIEW: reading may need verification]
+- アルコール (アルコール) - alcohol [REVIEW: reading may need verification]
+- アルバイト (アルバイト) - part-time job [REVIEW: reading may need verification]
+- エスカレーター (エスカレーター) - escalator [REVIEW: reading may need verification]
+- オートバイ (オートバイ) - motorcycle (lit: auto-bi(ke)) [REVIEW: reading may need verification]
+- オーバー (オーバー) - overcoat; over, exceeding, exaggeration [REVIEW: reading may need verification]
+- カーテン (カーテン) - curtain [REVIEW: reading may need verification]
+- ガソリン (ガソリン) - gasoline, petrol [REVIEW: reading may need verification]
+- ガソリンスタンド (ガソリンスタンド) - gas station, service station [REVIEW: reading may need verification]
+- ガラス (ガラス) - glass, pane [REVIEW: reading may need verification]
+- ケーキ (ケーキ) - cake [REVIEW: reading may need verification]
+- コンサート (コンサート) - concert [REVIEW: reading may need verification]
+- コンピュータ; コンピューター (コンピュータ; コンピューター) - computer [REVIEW: reading may need verification; REVIEW: multiple readings]
+- サラダ (サラダ) - salad [REVIEW: reading may need verification]
+- サンダル (サンダル) - sandal [REVIEW: reading may need verification]
+- サンドイッチ (サンドイッチ) - sandwich [REVIEW: reading may need verification]
+- ジャム (ジャム) - jam [REVIEW: reading may need verification]
+- スクリーン (スクリーン) - screen [REVIEW: reading may need verification]
+- ステレオ (ステレオ) - stereo [REVIEW: reading may need verification]
+- ステーキ (ステーキ) - steak [REVIEW: reading may need verification]
+- スーツ (スーツ) - suit [REVIEW: reading may need verification]
+- スーツケース (スーツケース) - suitcase [REVIEW: reading may need verification]
+- ソフト (ソフト) - soft; soft hat; software [REVIEW: reading may need verification]
+- タイプ (タイプ) - type, style [REVIEW: reading may need verification]
+- チェックする (チェックする) - check [REVIEW: reading may need verification]
+- テキスト (テキスト) - text; text book [REVIEW: reading may need verification]
+- テニス (テニス) - tennis [REVIEW: reading may need verification]
+- ハンバーグ (ハンバーグ) - hamburger steak [REVIEW: reading may need verification]
+- パソコン (パソコン) - (personal) computer [REVIEW: reading may need verification]
+- パパ (パパ) - papa, daddy [REVIEW: reading may need verification]
+- パート (タイム) (パート (タイム)) - part time (esp. female part time employees) [REVIEW: reading may need verification; REVIEW: alternative forms]
+- ビル (ビル) - (abbr.) building [REVIEW: reading may need verification]
+- ピアノ (ピアノ) - piano [REVIEW: reading may need verification]
+- ファックス (ファックス) - fax [REVIEW: reading may need verification]
+- プレゼント (プレゼント) - present, gift [REVIEW: reading may need verification]
+- ベル (ベル) - bell [REVIEW: reading may need verification]
+- レポート; リポート (レポート; リポート) - report [REVIEW: reading may need verification; REVIEW: multiple readings]
+- ワープロ (ワープロ) - word processor [REVIEW: reading may need verification]
+- いっぱい (一杯) - full, to the utmost
+- うそ (嘘) - lie
+- あいさつする (挨拶) - greet(ing)
+- かっこう (格好) - appearance, manner, shape, form, posture
+- いただく (頂く) - -- extra-modest expression for たべる and のむ; humble expression for もらう --
+
+## Adverbs
+
+- 一生懸命 (いっしょうけんめい) - very hard (as in to work hard), with utmost effort
+- 必ず (かならず) - surely, certainly
+- 彼ら (かれら) - they (usually male)
+- 決して (けっして) - never
+- この間 (このあいだ) - the other day, recently
+- この頃 (このごろ) - these days, nowadays
+- すっと (すっと) - straight, quickly [REVIEW: reading may need verification]
+- 随分 (ずいぶん) - extremely
+- それに (それに) - moreover; besides [REVIEW: reading may need verification]
+- そろそろ (そろそろ) - gradually, soon [REVIEW: reading may need verification]
+- 特に (とくに) - particularly
+- 道具 (どうぐ) - tool
+- どんどん (どんどん) - quickly and steadily; at a rapid pace [REVIEW: reading may need verification]
+- 熱心 (ねっしん) - enthusiasm
+- 非常に (ひじょうに) - extremely; very
+- または (または) - or, otherwise [REVIEW: reading may need verification]
+- 漫画 (まんが) - comic (book), cartoon
+- 皆 (みな) - everyone
+- もうすぐ (もうすぐ) - very soon; in a few moments; days [REVIEW: reading may need verification]
+- もちろん (もちろん) - certainly, of course [REVIEW: reading may need verification]
+
+## Counters
+
+- ～軒 (～けん) - counter for houses
+
+## Suffixes/Prefixes
+
+- ～(て) しまう (～(て) しまう) - to end up ~ [REVIEW: reading may need verification; REVIEW: alternative forms]
+- ～(に) ついて (～(に) ついて) - about, concerning [REVIEW: reading may need verification; REVIEW: alternative forms]
+- ～(に) よると (～(に) よると) - according to ~ [REVIEW: reading may need verification; REVIEW: alternative forms]
+- ～員 (～いん) - member of ~
+- ～おき (～おき) - after every ~ [REVIEW: reading may need verification]
+- ～学部 (～がくぶ) - department of a university
+- ～区 (～く) - ~ district, ~ ward, ~ borough
+- ～君 (～くん) - Mr. (junior) ~, master ~
+- ～ございます (～ございます) - to be (polite), to exist [REVIEW: reading may need verification]
+- ～様 (～さま) - Mr., Mrs., Ms.
+- ～式 (～しき) - ~ ceremony; ~ style
+- ～製 (～せい) - made in ~
+- 建て (～だて) - ~ storied, separate housing
+- ～ちゃん (～ちゃん) - suffix for familiar (female) person [REVIEW: reading may need verification]
+- ～続ける (～つづける) - to continue doing ~
+- ～にくい (～にくい) - difficult to do ~ [REVIEW: reading may need verification]
+- ～ばかり (～ばかり) - just did ~, only [REVIEW: reading may need verification]
+- ～まま (～まま) - as it is [REVIEW: reading may need verification]
+
+## Expressions/Other
+
+- いくら～ても (いくら～ても) - however much one may ~ [REVIEW: reading may need verification]
