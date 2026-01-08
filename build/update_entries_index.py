@@ -16,7 +16,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 
-def extract_entry_info(entry_path: Path) -> dict:
+def extract_entry_info(entry_path: Path, project_root: Path) -> dict:
     """Extract key identifying information from an entry file."""
     with open(entry_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -34,9 +34,9 @@ def extract_entry_info(entry_path: Path) -> dict:
     # Get entry ID
     entry_id = data.get('id', '')
 
-    # Get filename and relative path
+    # Get filename and path relative to project root
     filename = entry_path.name
-    relative_path = str(entry_path)
+    relative_path = str(entry_path.relative_to(project_root))
 
     return {
         'id': entry_id,
@@ -50,8 +50,11 @@ def extract_entry_info(entry_path: Path) -> dict:
 
 def update_entries_index():
     """Scan all entries and update the index file."""
-    entries_dir = Path('entries')
-    index_file = Path('entries_index.json')
+    # Use script-relative paths for robustness
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    entries_dir = project_root / 'entries'
+    index_file = project_root / 'entries_index.json'
 
     if not entries_dir.exists():
         print(f"Error: entries directory not found at {entries_dir}")
@@ -63,7 +66,7 @@ def update_entries_index():
 
     for entry_path in entry_files:
         try:
-            entry_info = extract_entry_info(entry_path)
+            entry_info = extract_entry_info(entry_path, project_root)
             entries.append(entry_info)
         except Exception as e:
             print(f"Warning: Failed to process {entry_path}: {e}")

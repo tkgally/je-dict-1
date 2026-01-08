@@ -33,6 +33,8 @@ def main():
     print("Updating Dictionary Indexes")
     print("=" * 50)
 
+    has_errors = False
+
     # 1. Update entries index
     print("\n1. Updating entries_index.json...")
     result = subprocess.run(
@@ -43,6 +45,9 @@ def main():
     print(result.stdout)
     if result.stderr:
         print(result.stderr)
+    if result.returncode != 0:
+        print(f"   ERROR: update_entries_index.py failed with exit code {result.returncode}")
+        has_errors = True
 
     # 2. Sync candidate words (remove any that now exist in dictionary)
     print("\n2. Syncing candidate_words.json...")
@@ -56,12 +61,20 @@ def main():
         print(result.stdout)
         if result.stderr:
             print(result.stderr)
+        if result.returncode != 0:
+            print(f"   ERROR: manage_candidates.py sync failed with exit code {result.returncode}")
+            has_errors = True
     else:
         print("   No candidate_words.json found, skipping sync.")
 
     print("\n" + "=" * 50)
-    print("Index update complete!")
-    print("=" * 50)
+    if has_errors:
+        print("Index update completed with ERRORS!")
+        print("=" * 50)
+        sys.exit(1)
+    else:
+        print("Index update complete!")
+        print("=" * 50)
 
 
 if __name__ == '__main__':

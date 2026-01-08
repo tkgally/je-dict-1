@@ -212,8 +212,11 @@
             });
         });
 
-        // Load dictionary data
-        if (typeof DICTIONARY_DATA !== 'undefined' && typeof DICTIONARY_INDEX !== 'undefined') {
+        // Load dictionary data with structure validation
+        if (typeof DICTIONARY_DATA !== 'undefined' && typeof DICTIONARY_INDEX !== 'undefined' &&
+            DICTIONARY_DATA.entries && typeof DICTIONARY_DATA.count === 'number' &&
+            DICTIONARY_INDEX.index && DICTIONARY_INDEX.index.japanese &&
+            DICTIONARY_INDEX.index.romaji && DICTIONARY_INDEX.index.english) {
             entriesData = DICTIONARY_DATA;
             indexData = DICTIONARY_INDEX;
             isLoaded = true;
@@ -227,6 +230,9 @@
             updateLastUpdated();
 
             console.log('Dictionary loaded:', entriesData.count, 'entries');
+        } else if (typeof DICTIONARY_DATA !== 'undefined' || typeof DICTIONARY_INDEX !== 'undefined') {
+            console.error('Dictionary data is malformed or incomplete.');
+            statsDiv.textContent = 'Error: Dictionary data is malformed.';
         } else {
             console.error('Dictionary data not found.');
             statsDiv.textContent = 'Error: Dictionary data not found.';
@@ -674,9 +680,12 @@
         compareCategories.classList.add('hidden');
         compareDisplay.classList.remove('hidden');
 
+        // Store the romajis for re-rendering on furigana toggle
+        compareCards.dataset.currentRomajis = romajis.join(',');
+
         let html = '';
         for (const entry of entries) {
-            html += `<div class="compare-card">${createEntryDisplay(entry)}</div>`;
+            html += `<div class="compare-card" data-entry-id="${entry.id}">${createEntryDisplay(entry)}</div>`;
         }
 
         compareCards.innerHTML = html;
@@ -822,14 +831,10 @@
 
         // Re-render compare cards
         if (!compareDisplay.classList.contains('hidden')) {
-            compareCards.querySelectorAll('.compare-card').forEach(card => {
-                const headword = card.querySelector('.entry-headword');
-                if (headword) {
-                    // Find entry by headword text and re-render
-                    const entryId = card.querySelector('.metadata-badges')?.closest('.compare-card')?.dataset?.entryId;
-                    // Simplified: just toggle existing ruby elements
-                }
-            });
+            const currentRomajis = compareCards.dataset.currentRomajis;
+            if (currentRomajis) {
+                showComparison(currentRomajis.split(','));
+            }
         }
     }
 

@@ -10,9 +10,22 @@ Compiles all entry files into optimized format for the web application:
 import json
 import sys
 import shutil
+import re
 from pathlib import Path
 from datetime import datetime
 from validate import validate_all_entries, hiragana_to_romaji
+
+
+# Pattern to match furigana notation: {kanji|reading}
+FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|[^}]+\}')
+
+
+def strip_furigana(text: str) -> str:
+    """
+    Strip furigana notation from text, keeping only the kanji.
+    Example: {学校|がっこう} -> 学校
+    """
+    return FURIGANA_PATTERN.sub(r'\1', text)
 
 
 def load_entry(file_path: Path) -> dict:
@@ -40,11 +53,12 @@ def build_search_index(entries: list[dict]) -> dict:
     for entry in entries:
         entry_id = entry['id']
 
-        # Index headword
+        # Index headword (strip furigana for clean kanji matching)
         headword = entry['headword']
-        if headword not in index['japanese']:
-            index['japanese'][headword] = []
-        index['japanese'][headword].append(entry_id)
+        headword_clean = strip_furigana(headword)
+        if headword_clean not in index['japanese']:
+            index['japanese'][headword_clean] = []
+        index['japanese'][headword_clean].append(entry_id)
 
         # Index reading
         reading = entry['reading']
@@ -83,12 +97,16 @@ def build_search_index(entries: list[dict]) -> dict:
 
 
 def copy_web_files(project_root: Path, dist_dir: Path):
-    """Copy web application files to dist directory."""
+    """Copy web application files to dist directory, including nested directories."""
     web_dir = project_root / 'web'
 
-    for file in web_dir.glob('*'):
-        if file.is_file():
-            shutil.copy(file, dist_dir / file.name)
+    for item in web_dir.iterdir():
+        dest = dist_dir / item.name
+        if item.is_file():
+            shutil.copy(item, dest)
+        elif item.is_dir():
+            # Use copytree with dirs_exist_ok=True to handle existing directories
+            shutil.copytree(item, dest, dirs_exist_ok=True)
 
 
 def generate_data_js(entries: list[dict], index: dict, dist_dir: Path) -> Path:
@@ -133,12 +151,16 @@ def build(project_root: Path) -> int:
 
     # Step 1: Validate all entries
     print("\n[1/4] Validating entries...")
-    total, valid, invalid_files = validate_all_entries(project_root)
+    total, valid, invalid_files, cross_ref_warnings = validate_all_entries(project_root)
 
     if invalid_files:
         print(f"  ERROR: {len(invalid_files)} invalid file(s) found")
         print("  Run validate.py for details")
         return 1
+
+    if cross_ref_warnings:
+        print(f"  WARNING: {len(cross_ref_warnings)} cross-reference issue(s) found")
+        print("  Run validate.py for details")
 
     if total == 0:
         print("  WARNING: No entry files found")
@@ -150,9 +172,8 @@ def build(project_root: Path) -> int:
     print("\n[2/4] Loading entries...")
     entries = []
     entries_dir = project_root / 'entries'
-    variants_dir = project_root / 'variants'
 
-    for file_path in list(entries_dir.glob('**/*.json')) + list(variants_dir.glob('**/*.json')):
+    for file_path in entries_dir.glob('**/*.json'):
         entries.append(load_entry(file_path))
 
     # Sort entries by reading (gojuon order approximated by romaji)

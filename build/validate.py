@@ -223,6 +223,24 @@ def check_for_duplicates(entries_data: list[tuple[Path, dict]]) -> list[tuple[Pa
     return duplicates
 
 
+def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set) -> list[tuple[Path, str]]:
+    """
+    Check that all cross_references point to existing entry IDs.
+    Returns a list of (file_path, error_message) for invalid references.
+    """
+    errors = []
+    for file_path, entry in entries_data:
+        cross_refs = entry.get('cross_references', [])
+        if cross_refs:
+            for ref_id in cross_refs:
+                if ref_id not in all_ids:
+                    errors.append((
+                        file_path,
+                        f"Invalid cross_reference: '{ref_id}' does not exist"
+                    ))
+    return errors
+
+
 def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]]]:
     """
     Validate all entry files in the project.
@@ -232,7 +250,6 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
     schema = load_schema(schema_path)
 
     entries_dir = project_root / 'entries'
-    variants_dir = project_root / 'variants'
 
     all_ids = set()
     total = 0
@@ -242,9 +259,8 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
 
     # Collect all JSON files
     entry_files = list(entries_dir.glob('**/*.json'))
-    variant_files = list(variants_dir.glob('**/*.json'))
 
-    for file_path in entry_files + variant_files:
+    for file_path in entry_files:
         total += 1
         errors = validate_entry_file(file_path, schema, all_ids)
         if errors:
@@ -256,8 +272,8 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
                 with open(file_path, 'r', encoding='utf-8') as f:
                     entry = json.load(f)
                     entries_data.append((file_path, entry))
-            except:
-                pass  # Already handled by validate_entry_file
+            except (json.JSONDecodeError, IOError, OSError):
+                pass  # Entry already flagged as invalid by validate_entry_file
 
     # Check for duplicates among valid entries
     duplicate_errors = check_for_duplicates(entries_data)
@@ -270,19 +286,98 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
             invalid_files.append((file_path, [error_msg]))
             valid -= 1
 
-    return total, valid, invalid_files
+    # Check cross_references point to existing IDs
+    # These are tracked separately as warnings (don't prevent build)
+    cross_ref_errors = check_cross_references(entries_data, all_ids)
+
+    return total, valid, invalid_files, cross_ref_errors
+
+
+def validate_single_entry(entry_path: Path, project_root: Path) -> int:
+    """
+    Validate a single entry file.
+    Returns 0 on success, 1 on failure.
+    """
+    schema_path = project_root / 'build' / 'schema.json'
+    schema = load_schema(schema_path)
+
+    # Get all existing IDs for cross-reference checking
+    entries_dir = project_root / 'entries'
+    all_ids = set()
+    for file_path in entries_dir.glob('**/*.json'):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                entry = json.load(f)
+                all_ids.add(entry.get('id', ''))
+        except (json.JSONDecodeError, IOError):
+            pass
+
+    print(f"Validating: {entry_path}")
+    print("-" * 50)
+
+    errors = validate_entry_file(entry_path, schema, set())  # Don't check ID uniqueness for single entry
+
+    # Check cross-references
+    try:
+        with open(entry_path, 'r', encoding='utf-8') as f:
+            entry = json.load(f)
+            cross_refs = entry.get('cross_references', [])
+            for ref_id in cross_refs:
+                if ref_id not in all_ids:
+                    errors.append(f"Invalid cross_reference: '{ref_id}' does not exist")
+    except (json.JSONDecodeError, IOError):
+        pass  # Already caught by validate_entry_file
+
+    if errors:
+        print("Errors found:")
+        for error in errors:
+            print(f"  - {error}")
+        return 1
+    else:
+        print("Entry is valid!")
+        return 0
 
 
 def main():
     """Main entry point."""
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Validate dictionary entries')
+    parser.add_argument('--entry', '-e', type=str, help='Path to a single entry file to validate')
+    parser.add_argument('--id', type=str, help='Entry ID to validate (e.g., taberu_00001)')
+    args = parser.parse_args()
+
     # Determine project root
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
 
+    # Single entry validation mode
+    if args.entry:
+        entry_path = Path(args.entry)
+        if not entry_path.is_absolute():
+            entry_path = project_root / entry_path
+        if not entry_path.exists():
+            print(f"Error: File not found: {entry_path}")
+            return 1
+        return validate_single_entry(entry_path, project_root)
+
+    if args.id:
+        # Find entry by ID
+        entries_dir = project_root / 'entries'
+        entry_path = None
+        for file_path in entries_dir.glob(f'**/{args.id}.json'):
+            entry_path = file_path
+            break
+        if not entry_path:
+            print(f"Error: No entry found with ID: {args.id}")
+            return 1
+        return validate_single_entry(entry_path, project_root)
+
+    # Full validation mode
     print(f"Validating entries in {project_root}")
     print("-" * 50)
 
-    total, valid, invalid_files = validate_all_entries(project_root)
+    total, valid, invalid_files, cross_ref_errors = validate_all_entries(project_root)
 
     if total == 0:
         print("No entry files found.")
@@ -298,7 +393,18 @@ def main():
                 print(f"    - {error}")
             print()
 
+    # Report cross-reference warnings
+    if cross_ref_errors:
+        print(f"\nCross-reference warnings ({len(cross_ref_errors)} issues):\n")
+        for file_path, error_msg in cross_ref_errors:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {error_msg}")
+        print()
+
     print(f"Validation complete: {valid}/{total} entries valid")
+    if cross_ref_errors:
+        print(f"  ({len(cross_ref_errors)} cross-reference warnings)")
 
     if invalid_files:
         return 1
