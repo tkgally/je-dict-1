@@ -371,7 +371,7 @@
                     <div class="example-item">
                         <div class="example-japanese">${processJapaneseText(ex.japanese)}</div>
                         <div class="example-english">${escapeHtml(ex.english)}</div>
-                        ${ex.notes ? `<div class="example-notes">${escapeHtml(ex.notes)}</div>` : ''}
+                        ${ex.notes ? `<div class="example-notes">${processJapaneseText(ex.notes)}</div>` : ''}
                     </div>
                 `;
             });
