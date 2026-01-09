@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-09T02:26:38.747234Z
+// Generated: 2026-01-09T02:39:14.746125Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -738,6 +738,48 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "ame_00092": {
+    "id": "ame_00092",
+    "headword": "{飴|あめ}",
+    "reading": "あめ",
+    "part_of_speech": "noun",
+    "gloss": "candy",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "candy, hard candy, sweets",
+        "explanation": "A sweet confection, typically hard candy made from sugar. Different from 雨 (ame, rain) which has the same pronunciation."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{飴|あめ}を{食|た}べますか。",
+        "english": "Do you want to eat some candy?",
+        "notes": null
+      },
+      {
+        "japanese": "{子|こ}どもに{飴|あめ}をあげました。",
+        "english": "I gave candy to the child.",
+        "notes": null
+      },
+      {
+        "japanese": "のどに{飴|あめ}がいいですよ。",
+        "english": "Candy is good for your throat.",
+        "notes": "Throat lozenges"
+      }
+    ],
+    "notes": "飴 is homophone with 雨 (rain), but they have different kanji. This 飴 refers to hard candy or sweets. For softer candy or chocolate, チョコレート or キャンディー might be used. 飴と鞭 (ame to muchi, 'carrot and stick' literally 'candy and whip') is a common expression.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "ame_00044": {
     "id": "ame_00044",
     "headword": "{雨|あめ}",
@@ -776,48 +818,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
       "modified": "2026-01-07T15:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "ame_00092": {
-    "id": "ame_00092",
-    "headword": "{飴|あめ}",
-    "reading": "あめ",
-    "part_of_speech": "noun",
-    "gloss": "candy",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "candy, hard candy, sweets",
-        "explanation": "A sweet confection, typically hard candy made from sugar. Different from 雨 (ame, rain) which has the same pronunciation."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{飴|あめ}を{食|た}べますか。",
-        "english": "Do you want to eat some candy?",
-        "notes": null
-      },
-      {
-        "japanese": "{子|こ}どもに{飴|あめ}をあげました。",
-        "english": "I gave candy to the child.",
-        "notes": null
-      },
-      {
-        "japanese": "のどに{飴|あめ}がいいですよ。",
-        "english": "Candy is good for your throat.",
-        "notes": "Throat lozenges"
-      }
-    ],
-    "notes": "飴 is homophone with 雨 (rain), but they have different kanji. This 飴 refers to hard candy or sweets. For softer candy or chocolate, チョコレート or キャンディー might be used. 飴と鞭 (ame to muchi, 'carrot and stick' literally 'candy and whip') is a common expression.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -9837,6 +9837,48 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "hana_00094": {
+    "id": "hana_00094",
+    "headword": "{鼻|はな}",
+    "reading": "はな",
+    "part_of_speech": "noun",
+    "gloss": "nose",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "nose",
+        "explanation": "The organ for breathing and smelling on the face. Used for physical descriptions and nose-related expressions."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{鼻|はな}が{高|たか}いですね。",
+        "english": "You have a high nose.",
+        "notes": "In Japan, a high nose bridge is considered attractive"
+      },
+      {
+        "japanese": "{鼻|はな}が{詰|つ}まっています。",
+        "english": "My nose is stuffed up.",
+        "notes": "Common when describing a cold"
+      },
+      {
+        "japanese": "いい{匂|にお}いを{鼻|はな}で{感|かん}じました。",
+        "english": "I sensed a nice smell with my nose.",
+        "notes": null
+      }
+    ],
+    "notes": "Be careful not to confuse {鼻|はな} (nose) with {花|はな} (flower) - they are homophones but written with different kanji. {鼻|はな}が{高|たか}い can mean 'to be proud/boastful' in addition to describing a physically high nose bridge.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "hana_00012": {
     "id": "hana_00012",
     "headword": "{花|はな}",
@@ -9871,48 +9913,6 @@ const DICTIONARY_DATA = {
     "cross_references": [
       "ki_00012"
     ],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "hana_00094": {
-    "id": "hana_00094",
-    "headword": "{鼻|はな}",
-    "reading": "はな",
-    "part_of_speech": "noun",
-    "gloss": "nose",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "nose",
-        "explanation": "The organ for breathing and smelling on the face. Used for physical descriptions and nose-related expressions."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{鼻|はな}が{高|たか}いですね。",
-        "english": "You have a high nose.",
-        "notes": "In Japan, a high nose bridge is considered attractive"
-      },
-      {
-        "japanese": "{鼻|はな}が{詰|つ}まっています。",
-        "english": "My nose is stuffed up.",
-        "notes": "Common when describing a cold"
-      },
-      {
-        "japanese": "いい{匂|にお}いを{鼻|はな}で{感|かん}じました。",
-        "english": "I sensed a nice smell with my nose.",
-        "notes": null
-      }
-    ],
-    "notes": "Be careful not to confuse {鼻|はな} (nose) with {花|はな} (flower) - they are homophones but written with different kanji. {鼻|はな}が{高|たか}い can mean 'to be proud/boastful' in addition to describing a physically high nose bridge.",
-    "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -10736,6 +10736,48 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "hen_00096": {
+    "id": "hen_00096",
+    "headword": "{辺|へん}",
+    "reading": "へん",
+    "part_of_speech": "noun, suffix",
+    "gloss": "area, vicinity",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "area, vicinity, neighborhood",
+        "explanation": "A general area or vicinity, often used with この/その/あの."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "この{辺|へん}に{銀行|ぎんこう}はありますか。",
+        "english": "Is there a bank around here?",
+        "notes": null
+      },
+      {
+        "japanese": "その{辺|へん}に{置|お}いておいてください。",
+        "english": "Please leave it around there.",
+        "notes": null
+      },
+      {
+        "japanese": "{駅|えき}の{辺|へん}で{待|ま}っています。",
+        "english": "I'll be waiting around the station area.",
+        "notes": null
+      }
+    ],
+    "notes": "{辺|へん} indicates a general, approximate area rather than a specific spot. It's often combined with demonstratives: この{辺|へん} (around here), その{辺|へん} (around there), あの{辺|へん} (around over there). It's more vague than {近|ちか}く (nearby) and doesn't specify a particular location.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "hen_00103": {
     "id": "hen_00103",
     "headword": "{変|へん}",
@@ -10772,48 +10814,6 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "変 is a na-adjective: 変な (before nouns), 変だ/です (predicate). Very commonly used to describe something that doesn't seem right or normal.\n\nNote: The same kanji 変 also means 'change' in words like 変える (かえる - to change) and 変わる (かわる - to change).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "hen_00096": {
-    "id": "hen_00096",
-    "headword": "{辺|へん}",
-    "reading": "へん",
-    "part_of_speech": "noun, suffix",
-    "gloss": "area, vicinity",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "area, vicinity, neighborhood",
-        "explanation": "A general area or vicinity, often used with この/その/あの."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "この{辺|へん}に{銀行|ぎんこう}はありますか。",
-        "english": "Is there a bank around here?",
-        "notes": null
-      },
-      {
-        "japanese": "その{辺|へん}に{置|お}いておいてください。",
-        "english": "Please leave it around there.",
-        "notes": null
-      },
-      {
-        "japanese": "{駅|えき}の{辺|へん}で{待|ま}っています。",
-        "english": "I'll be waiting around the station area.",
-        "notes": null
-      }
-    ],
-    "notes": "{辺|へん} indicates a general, approximate area rather than a specific spot. It's often combined with demonstratives: この{辺|へん} (around here), その{辺|へん} (around there), あの{辺|へん} (around over there). It's more vague than {近|ちか}く (nearby) and doesn't specify a particular location.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -11964,48 +11964,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "hon_00092": {
-    "id": "hon_00092",
-    "headword": "〜{本|ほん}",
-    "reading": "ほん",
-    "part_of_speech": "counter",
-    "gloss": "counter for long objects",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "counter for long, cylindrical objects",
-        "explanation": "Used to count long, thin objects such as pencils, bottles, umbrellas, bananas, roads, and train lines."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "ペンが{三本|さんぼん}あります。",
-        "english": "There are three pens.",
-        "notes": null
-      },
-      {
-        "japanese": "{傘|かさ}を{一本|いっぽん}ください。",
-        "english": "One umbrella, please.",
-        "notes": null
-      },
-      {
-        "japanese": "バナナを{何本|なんぼん}{食|た}べましたか。",
-        "english": "How many bananas did you eat?",
-        "notes": null
-      }
-    ],
-    "notes": "〜本 is used for long, cylindrical objects. Sound changes occur: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん), 四本 (よんほん), 五本 (ごほん), 六本 (ろっぽん), 七本 (ななほん), 八本 (はっぽん/はちほん), 九本 (きゅうほん), 十本 (じゅっぽん).\n\nNote: after 1, 6, 8, 10 → ぽん; after 3 → ぼん.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "hon_00001": {
     "id": "hon_00001",
     "headword": "{本|ほん}",
@@ -12041,6 +11999,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
       "modified": "2026-01-06T22:30:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "hon_00092": {
+    "id": "hon_00092",
+    "headword": "〜{本|ほん}",
+    "reading": "ほん",
+    "part_of_speech": "counter",
+    "gloss": "counter for long objects",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "counter for long, cylindrical objects",
+        "explanation": "Used to count long, thin objects such as pencils, bottles, umbrellas, bananas, roads, and train lines."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "ペンが{三本|さんぼん}あります。",
+        "english": "There are three pens.",
+        "notes": null
+      },
+      {
+        "japanese": "{傘|かさ}を{一本|いっぽん}ください。",
+        "english": "One umbrella, please.",
+        "notes": null
+      },
+      {
+        "japanese": "バナナを{何本|なんぼん}{食|た}べましたか。",
+        "english": "How many bananas did you eat?",
+        "notes": null
+      }
+    ],
+    "notes": "〜本 is used for long, cylindrical objects. Sound changes occur: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん), 四本 (よんほん), 五本 (ごほん), 六本 (ろっぽん), 七本 (ななほん), 八本 (はっぽん/はちほん), 九本 (きゅうほん), 十本 (じゅっぽん).\n\nNote: after 1, 6, 8, 10 → ぽん; after 3 → ぼん.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -15958,6 +15958,50 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "kaeru_00009": {
+    "id": "kaeru_00009",
+    "headword": "{帰|かえ}る",
+    "reading": "かえる",
+    "part_of_speech": "verb (godan)",
+    "gloss": "to return, to go home",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to return home, to go back",
+        "explanation": "To go back to one's home, country, or original location. The destination is typically a place one belongs to or comes from."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{何時|なんじ}に{家|いえ}に{帰|かえ}りますか？",
+        "english": "What time do you go home?",
+        "notes": null
+      },
+      {
+        "japanese": "{来年|らいねん}、{国|くに}に{帰|かえ}ります。",
+        "english": "I will return to my country next year.",
+        "notes": null
+      },
+      {
+        "japanese": "もう{帰|かえ}りたいです。",
+        "english": "I want to go home now.",
+        "notes": null
+      }
+    ],
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{帰|かえ}る (return to X).\n\nASPECT: ている indicates resulting state. {帰|かえ}っている = 'has returned (and is there now).'\n\nCOMMON PATTERNS:\n・{家|いえ}に{帰|かえ}る (go home)\n・{国|くに}に{帰|かえ}る (return to one's country)\n・お{帰|かえ}りなさい (welcome home - greeting)\n・{帰|かえ}り (return trip - noun)\n\nGodan verb despite ending in る. Different from {戻|もど}る (return to previous state) and {変|か}える (to change - ichidan).",
+    "cross_references": [
+      "iku_00001"
+    ],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "kaeru_00099": {
     "id": "kaeru_00099",
     "headword": "{変|か}える",
@@ -15996,50 +16040,6 @@ const DICTIONARY_DATA = {
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {変|か}わる (intransitive, to change by itself). Pattern: Xを{変|か}える (change X).\n\nASPECT: ている indicates resulting state. {変|か}えている = 'have changed (it).'\n\nCOMMON PATTERNS:\n・{予定|よてい}を{変|か}える (change the schedule)\n・{話題|わだい}を{変|か}える (change the subject)\n・{色|いろ}を{変|か}える (change the color)\n・{変|か}えられる (can be changed - potential)\n\nPAIR: {変|か}わる (intransitive) - {季節|きせつ}が{変|か}わった (season changed).\nDifferent from {帰|かえ}る (go home - godan).",
     "cross_references": [
       "kawaru_00093"
-    ],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "kaeru_00009": {
-    "id": "kaeru_00009",
-    "headword": "{帰|かえ}る",
-    "reading": "かえる",
-    "part_of_speech": "verb (godan)",
-    "gloss": "to return, to go home",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to return home, to go back",
-        "explanation": "To go back to one's home, country, or original location. The destination is typically a place one belongs to or comes from."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{何時|なんじ}に{家|いえ}に{帰|かえ}りますか？",
-        "english": "What time do you go home?",
-        "notes": null
-      },
-      {
-        "japanese": "{来年|らいねん}、{国|くに}に{帰|かえ}ります。",
-        "english": "I will return to my country next year.",
-        "notes": null
-      },
-      {
-        "japanese": "もう{帰|かえ}りたいです。",
-        "english": "I want to go home now.",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{帰|かえ}る (return to X).\n\nASPECT: ている indicates resulting state. {帰|かえ}っている = 'has returned (and is there now).'\n\nCOMMON PATTERNS:\n・{家|いえ}に{帰|かえ}る (go home)\n・{国|くに}に{帰|かえ}る (return to one's country)\n・お{帰|かえ}りなさい (welcome home - greeting)\n・{帰|かえ}り (return trip - noun)\n\nGodan verb despite ending in る. Different from {戻|もど}る (return to previous state) and {変|か}える (to change - ichidan).",
-    "cross_references": [
-      "iku_00001"
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -27980,48 +27980,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "mukou_00347": {
-    "id": "mukou_00347",
-    "headword": "{向こう|むこう}",
-    "reading": "むこう",
-    "part_of_speech": "noun",
-    "gloss": "over there, the other side",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "over there, the other side",
-        "explanation": "A place at a distance or on the opposite side."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "the other party",
-        "explanation": "The person or people on the other side of an interaction."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{向こう|むこう}に{山|やま}が{見|み}える。",
-        "english": "You can see a mountain over there.",
-        "notes": null
-      },
-      {
-        "japanese": "{向こう|むこう}から{連絡|れんらく}があった。",
-        "english": "They contacted us.",
-        "notes": null
-      }
-    ],
-    "notes": "Can refer to physical locations or the other party in communications.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "jlpt_level": "N4",
-      "frequency_rank": null
-    }
-  },
   "mukou_00096": {
     "id": "mukou_00096",
     "headword": "{向|む}こう",
@@ -28066,6 +28024,48 @@ const DICTIONARY_DATA = {
       "confidence": "high",
       "review_status": "verified",
       "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "mukou_00347": {
+    "id": "mukou_00347",
+    "headword": "{向こう|むこう}",
+    "reading": "むこう",
+    "part_of_speech": "noun",
+    "gloss": "over there, the other side",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "over there, the other side",
+        "explanation": "A place at a distance or on the opposite side."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "the other party",
+        "explanation": "The person or people on the other side of an interaction."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{向こう|むこう}に{山|やま}が{見|み}える。",
+        "english": "You can see a mountain over there.",
+        "notes": null
+      },
+      {
+        "japanese": "{向こう|むこう}から{連絡|れんらく}があった。",
+        "english": "They contacted us.",
+        "notes": null
+      }
+    ],
+    "notes": "Can refer to physical locations or the other party in communications.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "jlpt_level": "N4",
       "frequency_rank": null
     }
   },
@@ -32852,48 +32852,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "oku_00096": {
-    "id": "oku_00096",
-    "headword": "{奥|おく}",
-    "reading": "おく",
-    "part_of_speech": "noun",
-    "gloss": "interior, back",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "interior, back, depths",
-        "explanation": "The innermost or furthest part of a space, away from the entrance."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{店|みせ}の{奥|おく}にトイレがあります。",
-        "english": "The restroom is at the back of the store.",
-        "notes": null
-      },
-      {
-        "japanese": "もう{少|すこ}し{奥|おく}に{進|すす}んでください。",
-        "english": "Please go a little further back.",
-        "notes": null
-      },
-      {
-        "japanese": "{森|もり}の{奥|おく}に{湖|みずうみ}がありました。",
-        "english": "There was a lake deep in the forest.",
-        "notes": null
-      }
-    ],
-    "notes": "{奥|おく} indicates the deep interior or back of a space, opposite to the entrance ({手前|てまえ}). It's used for buildings ({部屋|へや}の{奥|おく} - back of the room), natural spaces ({山|やま}の{奥|おく} - deep in the mountains), and even abstract concepts ({心|こころ}の{奥|おく} - depths of one's heart). {奥|おく}さん (okusan) is also a polite term for someone else's wife.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "oku_00099": {
     "id": "oku_00099",
     "headword": "{置|お}く",
@@ -32930,6 +32888,48 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: XをYに{置|お}く (put X at/on Y).\n\nASPECT: ている indicates resulting state. {置|お}いている = 'have put (and it's still there)' or 'is placing.'\n\nCOMMON PATTERNS:\n・{机|つくえ}の{上|うえ}に{置|お}く (put on the desk)\n・ここに{置|お}く (put here)\n・〜ておく (do in advance/leave in a state)\n・〜とく (casual contraction of ておく)\n\nThe auxiliary 〜ておく is extremely common for doing something in preparation or leaving something as is.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "oku_00096": {
+    "id": "oku_00096",
+    "headword": "{奥|おく}",
+    "reading": "おく",
+    "part_of_speech": "noun",
+    "gloss": "interior, back",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "interior, back, depths",
+        "explanation": "The innermost or furthest part of a space, away from the entrance."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{店|みせ}の{奥|おく}にトイレがあります。",
+        "english": "The restroom is at the back of the store.",
+        "notes": null
+      },
+      {
+        "japanese": "もう{少|すこ}し{奥|おく}に{進|すす}んでください。",
+        "english": "Please go a little further back.",
+        "notes": null
+      },
+      {
+        "japanese": "{森|もり}の{奥|おく}に{湖|みずうみ}がありました。",
+        "english": "There was a lake deep in the forest.",
+        "notes": null
+      }
+    ],
+    "notes": "{奥|おく} indicates the deep interior or back of a space, opposite to the entrance ({手前|てまえ}). It's used for buildings ({部屋|へや}の{奥|おく} - back of the room), natural spaces ({山|やま}の{奥|おく} - deep in the mountains), and even abstract concepts ({心|こころ}の{奥|おく} - depths of one's heart). {奥|おく}さん (okusan) is also a polite term for someone else's wife.",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -40737,6 +40737,43 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "shuukan_00245": {
+    "id": "shuukan_00245",
+    "headword": "{習慣|しゅうかん}",
+    "reading": "しゅうかん",
+    "part_of_speech": "noun",
+    "gloss": "habit, custom",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "habit, custom, practice",
+        "explanation": "A regular tendency or practice that is hard to give up."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{毎朝|まいあさ}{運動|うんどう}する{習慣|しゅうかん}がある。",
+        "english": "I have a habit of exercising every morning.",
+        "notes": null
+      },
+      {
+        "japanese": "{日本|にほん}の{習慣|しゅうかん}を{学|まな}んでいる。",
+        "english": "I'm learning Japanese customs.",
+        "notes": null
+      }
+    ],
+    "notes": "Can refer to both individual habits and cultural customs. Related: {生活習慣|せいかつしゅうかん} - lifestyle habits.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
   "shuukan_00096": {
     "id": "shuukan_00096",
     "headword": "{週間|しゅうかん}",
@@ -40776,43 +40813,6 @@ const DICTIONARY_DATA = {
       "confidence": "high",
       "review_status": "verified",
       "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "shuukan_00245": {
-    "id": "shuukan_00245",
-    "headword": "{習慣|しゅうかん}",
-    "reading": "しゅうかん",
-    "part_of_speech": "noun",
-    "gloss": "habit, custom",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "habit, custom, practice",
-        "explanation": "A regular tendency or practice that is hard to give up."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{毎朝|まいあさ}{運動|うんどう}する{習慣|しゅうかん}がある。",
-        "english": "I have a habit of exercising every morning.",
-        "notes": null
-      },
-      {
-        "japanese": "{日本|にほん}の{習慣|しゅうかん}を{学|まな}んでいる。",
-        "english": "I'm learning Japanese customs.",
-        "notes": null
-      }
-    ],
-    "notes": "Can refer to both individual habits and cultural customs. Related: {生活習慣|せいかつしゅうかん} - lifestyle habits.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "jlpt_level": "N4",
       "frequency_rank": null
     }
   },
@@ -43451,43 +43451,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "taitei_00394": {
-    "id": "taitei_00394",
-    "headword": "{大抵|たいてい}",
-    "reading": "たいてい",
-    "part_of_speech": "adverb",
-    "gloss": "usually, mostly",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "usually, mostly, generally",
-        "explanation": "In most cases or situations."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{大抵|たいてい}7{時|じ}に{起|お}きる。",
-        "english": "I usually wake up at 7.",
-        "notes": null
-      },
-      {
-        "japanese": "{大抵|たいてい}の{人|ひと}は{知|し}っている。",
-        "english": "Most people know.",
-        "notes": null
-      }
-    ],
-    "notes": "Can also function as a noun meaning \"most things/people.\"",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "jlpt_level": "N4",
-      "frequency_rank": null
-    }
-  },
   "taitei_00103": {
     "id": "taitei_00103",
     "headword": "たいてい",
@@ -43527,6 +43490,43 @@ const DICTIONARY_DATA = {
       "confidence": "high",
       "review_status": "verified",
       "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "taitei_00394": {
+    "id": "taitei_00394",
+    "headword": "{大抵|たいてい}",
+    "reading": "たいてい",
+    "part_of_speech": "adverb",
+    "gloss": "usually, mostly",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "usually, mostly, generally",
+        "explanation": "In most cases or situations."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{大抵|たいてい}7{時|じ}に{起|お}きる。",
+        "english": "I usually wake up at 7.",
+        "notes": null
+      },
+      {
+        "japanese": "{大抵|たいてい}の{人|ひと}は{知|し}っている。",
+        "english": "Most people know.",
+        "notes": null
+      }
+    ],
+    "notes": "Can also function as a noun meaning \"most things/people.\"",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "jlpt_level": "N4",
       "frequency_rank": null
     }
   },
@@ -44330,6 +44330,50 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "tateru_00111": {
+    "id": "tateru_00111",
+    "headword": "{建|た}てる",
+    "reading": "たてる",
+    "part_of_speech": "verb (ichidan)",
+    "gloss": "to build, to construct",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to build, to construct",
+        "explanation": "To construct a building or structure."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{新|あたら}しい{家|いえ}を{建|た}てる。",
+        "english": "Build a new house.",
+        "notes": null
+      },
+      {
+        "japanese": "ここにビルが{建|た}てられた。",
+        "english": "A building was constructed here.",
+        "notes": "Passive form"
+      },
+      {
+        "japanese": "{夢|ゆめ}のマイホームを{建|た}てたい。",
+        "english": "I want to build my dream home.",
+        "notes": null
+      }
+    ],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {建|た}つ (intransitive, to be built). Pattern: Xを{建|た}てる (build X).\n\nASPECT: ている indicates completed state. {建|た}てている = 'is building' or 'has built.'\n\nCOMMON PATTERNS:\n・{家|いえ}を{建|た}てる (build a house)\n・ビルを{建|た}てる (construct a building)\n・{建|た}て{替|か}える (rebuild)\n・{一戸建|いっこだ}て (detached house—noun)\n\nCONTRAST:\n・{建|た}てる (transitive): (someone) builds X\n・{建|た}つ (intransitive): X is built/stands\n\nHOMOPHONE: Don't confuse with {立|た}てる (to stand something up), which has the same reading but different meaning.\n・{建|た}てる (建): to build (structures)\n・{立|た}てる (立): to stand up, erect (general)",
+    "cross_references": [
+      "tateru_00112"
+    ],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
   "tateru_00112": {
     "id": "tateru_00112",
     "headword": "{立|た}てる",
@@ -44368,50 +44412,6 @@ const DICTIONARY_DATA = {
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {立|た}つ (intransitive, to stand). Pattern: Xを{立|た}てる (stand X up / make X).\n\nASPECT: ている indicates resulting state. {立|た}てている = 'has set up' or 'is standing (something).'\n\nCOMMON PATTERNS:\n・{計画|けいかく}を{立|た}てる (make a plan)\n・{予定|よてい}を{立|た}てる (make a schedule)\n・{目標|もくひょう}を{立|た}てる (set a goal)\n・{音|おと}を{立|た}てる (make a sound)\n・{旗|はた}を{立|た}てる (raise a flag)\n・{腹|はら}を{立|た}てる (get angry)\n\nHOMOPHONE: Don't confuse with {建|た}てる (to build), which has the same reading.\n・{立|た}てる (立): to stand up, erect (general)\n・{建|た}てる (建): to build (structures)\n\nCONTRAST:\n・{立|た}てる (transitive): stand X up\n・{立|た}つ (intransitive): X stands",
     "cross_references": [
       "tateru_00111"
-    ],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N4",
-      "frequency_rank": null
-    }
-  },
-  "tateru_00111": {
-    "id": "tateru_00111",
-    "headword": "{建|た}てる",
-    "reading": "たてる",
-    "part_of_speech": "verb (ichidan)",
-    "gloss": "to build, to construct",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to build, to construct",
-        "explanation": "To construct a building or structure."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{新|あたら}しい{家|いえ}を{建|た}てる。",
-        "english": "Build a new house.",
-        "notes": null
-      },
-      {
-        "japanese": "ここにビルが{建|た}てられた。",
-        "english": "A building was constructed here.",
-        "notes": "Passive form"
-      },
-      {
-        "japanese": "{夢|ゆめ}のマイホームを{建|た}てたい。",
-        "english": "I want to build my dream home.",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {建|た}つ (intransitive, to be built). Pattern: Xを{建|た}てる (build X).\n\nASPECT: ている indicates completed state. {建|た}てている = 'is building' or 'has built.'\n\nCOMMON PATTERNS:\n・{家|いえ}を{建|た}てる (build a house)\n・ビルを{建|た}てる (construct a building)\n・{建|た}て{替|か}える (rebuild)\n・{一戸建|いっこだ}て (detached house—noun)\n\nCONTRAST:\n・{建|た}てる (transitive): (someone) builds X\n・{建|た}つ (intransitive): X is built/stands\n\nHOMOPHONE: Don't confuse with {立|た}てる (to stand something up), which has the same reading but different meaning.\n・{建|た}てる (建): to build (structures)\n・{立|た}てる (立): to stand up, erect (general)",
-    "cross_references": [
-      "tateru_00112"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -45323,6 +45323,48 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "to_00091": {
+    "id": "to_00091",
+    "headword": "{戸|と}",
+    "reading": "と",
+    "part_of_speech": "noun",
+    "gloss": "door, sliding door",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "door, sliding door",
+        "explanation": "A door, especially a traditional Japanese sliding door. Often used in compounds."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{戸|と}を{閉|し}めてください。",
+        "english": "Please close the door.",
+        "notes": null
+      },
+      {
+        "japanese": "{戸|と}が{開|あ}いています。",
+        "english": "The door is open.",
+        "notes": null
+      },
+      {
+        "japanese": "{雨戸|あまど}を{閉|し}めましょう。",
+        "english": "Let's close the storm shutters.",
+        "notes": "雨戸 = rain shutters"
+      }
+    ],
+    "notes": "戸 originally refers to traditional Japanese sliding doors (as opposed to hinged doors, which are ドア).\n\nCommon compounds:\n- 雨戸 (amado, storm shutters)\n- 戸棚 (todana, cupboard). For modern hinged doors\n- ドア is more commonly used.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "to_00009": {
     "id": "to_00009",
     "headword": "と",
@@ -45609,48 +45651,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
       "modified": "2026-01-07T10:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "to_00091": {
-    "id": "to_00091",
-    "headword": "{戸|と}",
-    "reading": "と",
-    "part_of_speech": "noun",
-    "gloss": "door, sliding door",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "door, sliding door",
-        "explanation": "A door, especially a traditional Japanese sliding door. Often used in compounds."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{戸|と}を{閉|し}めてください。",
-        "english": "Please close the door.",
-        "notes": null
-      },
-      {
-        "japanese": "{戸|と}が{開|あ}いています。",
-        "english": "The door is open.",
-        "notes": null
-      },
-      {
-        "japanese": "{雨戸|あまど}を{閉|し}めましょう。",
-        "english": "Let's close the storm shutters.",
-        "notes": "雨戸 = rain shutters"
-      }
-    ],
-    "notes": "戸 originally refers to traditional Japanese sliding doors (as opposed to hinged doors, which are ドア).\n\nCommon compounds:\n- 雨戸 (amado, storm shutters)\n- 戸棚 (todana, cupboard). For modern hinged doors\n- ドア is more commonly used.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -47109,55 +47109,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "tsukeru_00093": {
-    "id": "tsukeru_00093",
-    "headword": "{付|つ}ける",
-    "reading": "つける",
-    "part_of_speech": "verb (ichidan)",
-    "gloss": "to attach, to turn on",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to attach, to stick on",
-        "explanation": "To fasten, attach, or apply something to something else. The transitive pair of {付|つ}く (to stick to)."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "to turn on (lights, appliances)",
-        "explanation": "To switch on electrical devices. Written as {点|つ}ける for this meaning. Opposite of {消|け}す (to turn off)."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{電気|でんき}を{点|つ}けてください。",
-        "english": "Please turn on the light.",
-        "notes": null
-      },
-      {
-        "japanese": "{名前|なまえ}を{付|つ}けました。",
-        "english": "I gave it a name.",
-        "notes": "名前を付ける = to name"
-      },
-      {
-        "japanese": "テレビを{点|つ}けてもいいですか。",
-        "english": "May I turn on the TV?",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {付|つ}く (intransitive). Pattern: Xを{付|つ}ける (attach X).\n\nASPECT: ている indicates resulting state. {付|つ}けている = 'have attached' or 'is wearing.'\n\nCOMMON PATTERNS:\n・{名前|なまえ}を{付|つ}ける (give a name)\n・{電気|でんき}を{点|つ}ける (turn on light)\n・{気|き}を{付|つ}ける (be careful)\n・マークを{付|つ}ける (put a mark)\n\nPAIR: {付|つ}く (intransitive) - {汚|よご}れが{付|つ}いた (dirt stuck). Multiple kanji: {付|つ}ける (attach), {点|つ}ける (turn on).",
-    "cross_references": [
-      "kesu_00013"
-    ],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "tsukeru_00022": {
     "id": "tsukeru_00022",
     "headword": "つける",
@@ -47201,6 +47152,55 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
       "modified": "2026-01-07T14:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "tsukeru_00093": {
+    "id": "tsukeru_00093",
+    "headword": "{付|つ}ける",
+    "reading": "つける",
+    "part_of_speech": "verb (ichidan)",
+    "gloss": "to attach, to turn on",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to attach, to stick on",
+        "explanation": "To fasten, attach, or apply something to something else. The transitive pair of {付|つ}く (to stick to)."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "to turn on (lights, appliances)",
+        "explanation": "To switch on electrical devices. Written as {点|つ}ける for this meaning. Opposite of {消|け}す (to turn off)."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{電気|でんき}を{点|つ}けてください。",
+        "english": "Please turn on the light.",
+        "notes": null
+      },
+      {
+        "japanese": "{名前|なまえ}を{付|つ}けました。",
+        "english": "I gave it a name.",
+        "notes": "名前を付ける = to name"
+      },
+      {
+        "japanese": "テレビを{点|つ}けてもいいですか。",
+        "english": "May I turn on the TV?",
+        "notes": null
+      }
+    ],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {付|つ}く (intransitive). Pattern: Xを{付|つ}ける (attach X).\n\nASPECT: ている indicates resulting state. {付|つ}けている = 'have attached' or 'is wearing.'\n\nCOMMON PATTERNS:\n・{名前|なまえ}を{付|つ}ける (give a name)\n・{電気|でんき}を{点|つ}ける (turn on light)\n・{気|き}を{付|つ}ける (be careful)\n・マークを{付|つ}ける (put a mark)\n\nPAIR: {付|つ}く (intransitive) - {汚|よご}れが{付|つ}いた (dirt stuck). Multiple kanji: {付|つ}ける (attach), {点|つ}ける (turn on).",
+    "cross_references": [
+      "kesu_00013"
+    ],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -50670,6 +50670,53 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "yasashii_00093": {
+    "id": "yasashii_00093",
+    "headword": "{易|やさ}しい",
+    "reading": "やさしい",
+    "part_of_speech": "adjective (i-adjective)",
+    "gloss": "easy; kind, gentle",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "easy, simple",
+        "explanation": "Describes something that is not difficult. Written as {易|やさ}しい. Similar to {簡単|かんたん}."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "kind, gentle",
+        "explanation": "Describes a person who is kind-hearted, gentle, or tender. Written as {優|やさ}しい."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{易|やさ}しい{日本語|にほんご}で{書|か}いてあります。",
+        "english": "It's written in easy Japanese.",
+        "notes": "Using the 'easy' meaning"
+      },
+      {
+        "japanese": "{彼|かれ}は{優|やさ}しい{人|ひと}です。",
+        "english": "He is a kind person.",
+        "notes": "Using the 'kind' meaning"
+      },
+      {
+        "japanese": "もっと{易|やさ}しい{問題|もんだい}をください。",
+        "english": "Please give me an easier problem.",
+        "notes": null
+      }
+    ],
+    "notes": "This word has two distinct meanings with different kanji: {易|やさ}しい (easy) and {優|やさ}しい (kind/gentle). Context usually makes the meaning clear. When written in hiragana (やさしい), it could be either meaning.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "yasashii_00003": {
     "id": "yasashii_00003",
     "headword": "{易|やさ}しい／{優|やさ}しい",
@@ -50709,53 +50756,6 @@ const DICTIONARY_DATA = {
     "cross_references": [
       "muzukashii_00010"
     ],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "yasashii_00093": {
-    "id": "yasashii_00093",
-    "headword": "{易|やさ}しい",
-    "reading": "やさしい",
-    "part_of_speech": "adjective (i-adjective)",
-    "gloss": "easy; kind, gentle",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "easy, simple",
-        "explanation": "Describes something that is not difficult. Written as {易|やさ}しい. Similar to {簡単|かんたん}."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "kind, gentle",
-        "explanation": "Describes a person who is kind-hearted, gentle, or tender. Written as {優|やさ}しい."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{易|やさ}しい{日本語|にほんご}で{書|か}いてあります。",
-        "english": "It's written in easy Japanese.",
-        "notes": "Using the 'easy' meaning"
-      },
-      {
-        "japanese": "{彼|かれ}は{優|やさ}しい{人|ひと}です。",
-        "english": "He is a kind person.",
-        "notes": "Using the 'kind' meaning"
-      },
-      {
-        "japanese": "もっと{易|やさ}しい{問題|もんだい}をください。",
-        "english": "Please give me an easier problem.",
-        "notes": null
-      }
-    ],
-    "notes": "This word has two distinct meanings with different kanji: {易|やさ}しい (easy) and {優|やさ}しい (kind/gentle). Context usually makes the meaning clear. When written in hiragana (やさしい), it could be either meaning.",
-    "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -52700,15 +52700,15 @@ const DICTIONARY_INDEX = {
     "あまり": [
       "amari_00066"
     ],
-    "雨": [
-      "ame_00044"
-    ],
-    "あめ": [
-      "ame_00044",
-      "ame_00092"
-    ],
     "飴": [
       "ame_00092"
+    ],
+    "あめ": [
+      "ame_00092",
+      "ame_00044"
+    ],
+    "雨": [
+      "ame_00044"
     ],
     "姉": [
       "ane_00028"
@@ -53772,15 +53772,15 @@ const DICTIONARY_INDEX = {
     "はくぶつかん": [
       "hakubutsukan_00320"
     ],
-    "花": [
-      "hana_00012"
-    ],
-    "はな": [
-      "hana_00012",
-      "hana_00094"
-    ],
     "鼻": [
       "hana_00094"
+    ],
+    "はな": [
+      "hana_00094",
+      "hana_00012"
+    ],
+    "花": [
+      "hana_00012"
     ],
     "話": [
       "hanashi_00323"
@@ -53888,15 +53888,15 @@ const DICTIONARY_INDEX = {
     "へいわ": [
       "heiwa_00338"
     ],
-    "変": [
-      "hen_00103"
-    ],
-    "へん": [
-      "hen_00103",
-      "hen_00096"
-    ],
     "辺": [
       "hen_00096"
+    ],
+    "へん": [
+      "hen_00096",
+      "hen_00103"
+    ],
+    "変": [
+      "hen_00103"
     ],
     "返事": [
       "henji_00095"
@@ -54048,15 +54048,15 @@ const DICTIONARY_INDEX = {
     "ほめる": [
       "homeru_00114"
     ],
-    "〜本": [
-      "hon_00092"
-    ],
-    "ほん": [
-      "hon_00092",
-      "hon_00001"
-    ],
     "本": [
       "hon_00001"
+    ],
+    "ほん": [
+      "hon_00001",
+      "hon_00092"
+    ],
+    "〜本": [
+      "hon_00092"
     ],
     "本当": [
       "hontou_00094"
@@ -54541,15 +54541,15 @@ const DICTIONARY_INDEX = {
     "かえり": [
       "kaeri_00130"
     ],
-    "変える": [
-      "kaeru_00099"
-    ],
-    "かえる": [
-      "kaeru_00099",
-      "kaeru_00009"
-    ],
     "帰る": [
       "kaeru_00009"
+    ],
+    "かえる": [
+      "kaeru_00009",
+      "kaeru_00099"
+    ],
+    "変える": [
+      "kaeru_00099"
     ],
     "科学": [
       "kagaku_00131"
@@ -56000,12 +56000,12 @@ const DICTIONARY_INDEX = {
       "mukau_00111"
     ],
     "向こう": [
-      "mukou_00347",
-      "mukou_00096"
+      "mukou_00096",
+      "mukou_00347"
     ],
     "むこう": [
-      "mukou_00347",
-      "mukou_00096"
+      "mukou_00096",
+      "mukou_00347"
     ],
     "胸": [
       "mune_00096"
@@ -56575,15 +56575,15 @@ const DICTIONARY_INDEX = {
     "おこす": [
       "okosu_00119"
     ],
-    "奥": [
-      "oku_00096"
-    ],
-    "おく": [
-      "oku_00096",
-      "oku_00099"
-    ],
     "置く": [
       "oku_00099"
+    ],
+    "おく": [
+      "oku_00099",
+      "oku_00096"
+    ],
+    "奥": [
+      "oku_00096"
     ],
     "屋上": [
       "okujou_00156"
@@ -57645,15 +57645,15 @@ const DICTIONARY_INDEX = {
     "しゅみ": [
       "shumi_00095"
     ],
-    "週間": [
-      "shuukan_00096"
-    ],
-    "しゅうかん": [
-      "shuukan_00096",
-      "shuukan_00245"
-    ],
     "習慣": [
       "shuukan_00245"
+    ],
+    "しゅうかん": [
+      "shuukan_00245",
+      "shuukan_00096"
+    ],
+    "週間": [
+      "shuukan_00096"
     ],
     "そば": [
       "soba_00096"
@@ -57949,12 +57949,12 @@ const DICTIONARY_INDEX = {
     "たいしかん": [
       "taishikan_00279"
     ],
-    "大抵": [
+    "たいてい": [
+      "taitei_00103",
       "taitei_00394"
     ],
-    "たいてい": [
-      "taitei_00394",
-      "taitei_00103"
+    "大抵": [
+      "taitei_00394"
     ],
     "高い": [
       "takai_00007"
@@ -58055,15 +58055,15 @@ const DICTIONARY_INDEX = {
     "たてもの": [
       "tatemono_00280"
     ],
-    "立てる": [
-      "tateru_00112"
-    ],
-    "たてる": [
-      "tateru_00112",
-      "tateru_00111"
-    ],
     "建てる": [
       "tateru_00111"
+    ],
+    "たてる": [
+      "tateru_00111",
+      "tateru_00112"
+    ],
+    "立てる": [
+      "tateru_00112"
     ],
     "例えば": [
       "tatoeba_00096"
@@ -58189,12 +58189,12 @@ const DICTIONARY_INDEX = {
     "てつだう": [
       "tetsudau_00095"
     ],
-    "と": [
-      "to_00009",
-      "to_00091"
-    ],
     "戸": [
       "to_00091"
+    ],
+    "と": [
+      "to_00091",
+      "to_00009"
     ],
     "飛ぶ": [
       "tobu_00093"
@@ -58372,12 +58372,12 @@ const DICTIONARY_INDEX = {
     "つかう": [
       "tsukau_00003"
     ],
-    "付ける": [
+    "つける": [
+      "tsukeru_00022",
       "tsukeru_00093"
     ],
-    "つける": [
-      "tsukeru_00093",
-      "tsukeru_00022"
+    "付ける": [
+      "tsukeru_00093"
     ],
     "月": [
       "tsuki_00290"
@@ -58777,15 +58777,15 @@ const DICTIONARY_INDEX = {
     "やさい": [
       "yasai_00008"
     ],
-    "易しい／優しい": [
-      "yasashii_00003"
-    ],
-    "やさしい": [
-      "yasashii_00003",
-      "yasashii_00093"
-    ],
     "易しい": [
       "yasashii_00093"
+    ],
+    "やさしい": [
+      "yasashii_00093",
+      "yasashii_00003"
+    ],
+    "易しい／優しい": [
+      "yasashii_00003"
     ],
     "痩せる": [
       "yaseru_00105"
@@ -59058,8 +59058,8 @@ const DICTIONARY_INDEX = {
       "amari_00066"
     ],
     "ame": [
-      "ame_00044",
-      "ame_00092"
+      "ame_00092",
+      "ame_00044"
     ],
     "ane": [
       "ane_00028"
@@ -59639,8 +59639,8 @@ const DICTIONARY_INDEX = {
       "hakubutsukan_00320"
     ],
     "hana": [
-      "hana_00012",
-      "hana_00094"
+      "hana_00094",
+      "hana_00012"
     ],
     "hanashi": [
       "hanashi_00323"
@@ -59698,8 +59698,8 @@ const DICTIONARY_INDEX = {
       "heiwa_00338"
     ],
     "hen": [
-      "hen_00103",
-      "hen_00096"
+      "hen_00096",
+      "hen_00103"
     ],
     "henji": [
       "henji_00095"
@@ -59780,8 +59780,8 @@ const DICTIONARY_INDEX = {
       "homeru_00114"
     ],
     "hon": [
-      "hon_00092",
-      "hon_00001"
+      "hon_00001",
+      "hon_00092"
     ],
     "hontou": [
       "hontou_00094"
@@ -60045,8 +60045,8 @@ const DICTIONARY_INDEX = {
       "kaeri_00130"
     ],
     "kaeru": [
-      "kaeru_00099",
-      "kaeru_00009"
+      "kaeru_00009",
+      "kaeru_00099"
     ],
     "kagaku": [
       "kagaku_00131"
@@ -60818,8 +60818,8 @@ const DICTIONARY_INDEX = {
       "mukau_00111"
     ],
     "mukou": [
-      "mukou_00347",
-      "mukou_00096"
+      "mukou_00096",
+      "mukou_00347"
     ],
     "mune": [
       "mune_00096"
@@ -61126,8 +61126,8 @@ const DICTIONARY_INDEX = {
       "okosu_00119"
     ],
     "oku": [
-      "oku_00096",
-      "oku_00099"
+      "oku_00099",
+      "oku_00096"
     ],
     "okujou": [
       "okujou_00156"
@@ -61674,8 +61674,8 @@ const DICTIONARY_INDEX = {
       "shumi_00095"
     ],
     "shuukan": [
-      "shuukan_00096",
-      "shuukan_00245"
+      "shuukan_00245",
+      "shuukan_00096"
     ],
     "soba": [
       "soba_00096"
@@ -61858,8 +61858,8 @@ const DICTIONARY_INDEX = {
       "taishikan_00279"
     ],
     "taitei": [
-      "taitei_00394",
-      "taitei_00103"
+      "taitei_00103",
+      "taitei_00394"
     ],
     "takai": [
       "takai_00007"
@@ -61916,8 +61916,8 @@ const DICTIONARY_INDEX = {
       "tatemono_00280"
     ],
     "tateru": [
-      "tateru_00112",
-      "tateru_00111"
+      "tateru_00111",
+      "tateru_00112"
     ],
     "tatoeba": [
       "tatoeba_00096"
@@ -61981,8 +61981,8 @@ const DICTIONARY_INDEX = {
       "tetsudau_00095"
     ],
     "to": [
-      "to_00009",
-      "to_00091"
+      "to_00091",
+      "to_00009"
     ],
     "tobu": [
       "tobu_00093"
@@ -62077,8 +62077,8 @@ const DICTIONARY_INDEX = {
       "tsukau_00003"
     ],
     "tsukeru": [
-      "tsukeru_00093",
-      "tsukeru_00022"
+      "tsukeru_00022",
+      "tsukeru_00093"
     ],
     "tsuki": [
       "tsuki_00290"
@@ -62292,8 +62292,8 @@ const DICTIONARY_INDEX = {
       "yasai_00008"
     ],
     "yasashii": [
-      "yasashii_00003",
-      "yasashii_00093"
+      "yasashii_00093",
+      "yasashii_00003"
     ],
     "yaseru": [
       "yaseru_00105"
@@ -62490,8 +62490,8 @@ const DICTIONARY_INDEX = {
       "are_00096",
       "asoko_00096",
       "kumoru_00093",
-      "mukou_00347",
       "mukou_00096",
+      "mukou_00347",
       "nokoru_00111",
       "norikaeru_00112",
       "oobaa_00370"
@@ -62503,8 +62503,8 @@ const DICTIONARY_INDEX = {
       "asoko_00096",
       "ganbaru_00117",
       "ganbatte_00098",
-      "mukou_00347",
       "mukou_00096",
+      "mukou_00347",
       "nai_00102",
       "sochira_00096",
       "soko_00096"
@@ -62593,8 +62593,8 @@ const DICTIONARY_INDEX = {
       "itasu_00144",
       "iu_00010",
       "kaburu_00093",
-      "kaeru_00099",
       "kaeru_00009",
+      "kaeru_00099",
       "kakaru_00093",
       "kakeru_00095",
       "kaku_00004",
@@ -62733,8 +62733,8 @@ const DICTIONARY_INDEX = {
       "tariru_00114",
       "tasu_00108",
       "tasukeru_00095",
-      "tateru_00112",
       "tateru_00111",
+      "tateru_00112",
       "tatsu_00093",
       "tazuneru_00110",
       "tazuneru_00109",
@@ -62752,8 +62752,8 @@ const DICTIONARY_INDEX = {
       "tsukamaeru_00115",
       "tsukareru_00095",
       "tsukau_00003",
-      "tsukeru_00093",
       "tsukeru_00022",
+      "tsukeru_00093",
       "tsuku_00091",
       "tsukuru_00004",
       "tsumetai_00091",
@@ -63118,10 +63118,6 @@ const DICTIONARY_INDEX = {
       "takusan_00059",
       "zutto_00095"
     ],
-    "rain": [
-      "ame_00044",
-      "furu_00095"
-    ],
     "candy": [
       "ame_00092"
     ],
@@ -63136,6 +63132,10 @@ const DICTIONARY_INDEX = {
     ],
     "sweets": [
       "ame_00092"
+    ],
+    "rain": [
+      "ame_00044",
+      "furu_00095"
     ],
     "older": [
       "ane_00028",
@@ -63471,8 +63471,8 @@ const DICTIONARY_INDEX = {
     "side": [
       "arubaito_00368",
       "hou_00105",
-      "mukou_00347",
       "mukou_00096",
+      "mukou_00347",
       "sochira_00096",
       "temae_00096",
       "ura_00149"
@@ -64432,14 +64432,14 @@ const DICTIONARY_INDEX = {
     ],
     "generally": [
       "daitai_00095",
-      "taitei_00394",
-      "taitei_00103"
+      "taitei_00103",
+      "taitei_00394"
     ],
     "mostly": [
       "daitai_00095",
       "hotondo_00095",
-      "taitei_00394",
-      "taitei_00103"
+      "taitei_00103",
+      "taitei_00394"
     ],
     "therefore": [
       "dakara_00096",
@@ -64682,8 +64682,8 @@ const DICTIONARY_INDEX = {
       "mannaka_00096",
       "mazu_00094",
       "mukashi_00346",
-      "mukou_00347",
       "mukou_00096",
+      "mukou_00347",
       "omote_00163",
       "saraigetsu_00232",
       "sarainen_00231",
@@ -65081,8 +65081,8 @@ const DICTIONARY_INDEX = {
       "suru_00001",
       "tanomu_00100",
       "tazuneru_00110",
-      "tsukeru_00093",
       "tsukeru_00022",
+      "tsukeru_00093",
       "ue_00091"
     ],
     "tread": [
@@ -65209,8 +65209,8 @@ const DICTIONARY_INDEX = {
     "usually": [
       "futsuu_00333",
       "itsumo_00061",
-      "taitei_00394",
-      "taitei_00103"
+      "taitei_00103",
+      "taitei_00394"
     ],
     "normal": [
       "futsuu_00333"
@@ -65619,15 +65619,15 @@ const DICTIONARY_INDEX = {
     "museum": [
       "hakubutsukan_00320"
     ],
+    "nose": [
+      "hana_00094"
+    ],
     "flower": [
       "hana_00012"
     ],
     "blossom": [
       "hana_00012",
       "sakura_00095"
-    ],
-    "nose": [
-      "hana_00094"
     ],
     "talk": [
       "hanashi_00323",
@@ -65999,8 +65999,8 @@ const DICTIONARY_INDEX = {
       "igai_00138",
       "kondo_00148",
       "konoaida_00125",
-      "mukou_00347",
       "mukou_00096",
+      "mukou_00347",
       "tanin_00281"
     ],
     "character": [
@@ -66037,6 +66037,9 @@ const DICTIONARY_INDEX = {
     "compliment": [
       "homeru_00114"
     ],
+    "book": [
+      "hon_00001"
+    ],
     "long": [
       "hon_00092",
       "mukashi_00346",
@@ -66045,9 +66048,6 @@ const DICTIONARY_INDEX = {
     ],
     "cylindrical": [
       "hon_00092"
-    ],
-    "book": [
-      "hon_00001"
     ],
     "truth": [
       "hontou_00094"
@@ -66943,14 +66943,14 @@ const DICTIONARY_INDEX = {
     "easy": [
       "kantan_00093",
       "raku_00095",
-      "yasashii_00003",
-      "yasashii_00093"
+      "yasashii_00093",
+      "yasashii_00003"
     ],
     "simple": [
       "kantan_00093",
       "raku_00095",
-      "yasashii_00003",
-      "yasashii_00093"
+      "yasashii_00093",
+      "yasashii_00003"
     ],
     "brief": [
       "kantan_00093"
@@ -67268,8 +67268,8 @@ const DICTIONARY_INDEX = {
       "mukau_00111",
       "oreru_00127",
       "tomeru_00091",
-      "tsukeru_00093",
-      "tsukeru_00022"
+      "tsukeru_00022",
+      "tsukeru_00093"
     ],
     "off": [
       "kesu_00013",
@@ -68441,8 +68441,8 @@ const DICTIONARY_INDEX = {
       "mukaeru_00112"
     ],
     "party": [
-      "mukou_00347",
-      "mukou_00096"
+      "mukou_00096",
+      "mukou_00347"
     ],
     "they": [
       "mukou_00096"
@@ -69839,8 +69839,8 @@ const DICTIONARY_INDEX = {
     "kind": [
       "shinsetsu_00105",
       "taipu_00379",
-      "yasashii_00003",
-      "yasashii_00093"
+      "yasashii_00093",
+      "yasashii_00003"
     ],
     "friendly": [
       "shinsetsu_00105"
@@ -70004,9 +70004,6 @@ const DICTIONARY_INDEX = {
     "hobby": [
       "shumi_00095"
     ],
-    "weeks": [
-      "shuukan_00096"
-    ],
     "habit": [
       "shuukan_00245"
     ],
@@ -70015,6 +70012,9 @@ const DICTIONARY_INDEX = {
     ],
     "practice": [
       "shuukan_00245"
+    ],
+    "weeks": [
+      "shuukan_00096"
     ],
     "beside": [
       "soba_00096",
@@ -70360,17 +70360,17 @@ const DICTIONARY_INDEX = {
     "structure": [
       "tatemono_00280"
     ],
-    "erect": [
-      "tateru_00112"
-    ],
-    "establish": [
-      "tateru_00112"
-    ],
     "build": [
       "tateru_00111"
     ],
     "construct": [
       "tateru_00111"
+    ],
+    "erect": [
+      "tateru_00112"
+    ],
+    "establish": [
+      "tateru_00112"
     ],
     "example": [
       "tatoeba_00096"
@@ -70443,6 +70443,9 @@ const DICTIONARY_INDEX = {
     "assist": [
       "tetsudau_00095"
     ],
+    "sliding": [
+      "to_00091"
+    ],
     "quotation": [
       "to_00009"
     ],
@@ -70463,9 +70466,6 @@ const DICTIONARY_INDEX = {
     ],
     "comparison/manner": [
       "to_00009"
-    ],
-    "sliding": [
-      "to_00091"
     ],
     "fly": [
       "tobu_00093"
@@ -70585,8 +70585,8 @@ const DICTIONARY_INDEX = {
       "tsukau_00003"
     ],
     "attach": [
-      "tsukeru_00093",
-      "tsukeru_00022"
+      "tsukeru_00022",
+      "tsukeru_00093"
     ],
     "stick": [
       "tsukeru_00093"
@@ -71005,8 +71005,8 @@ const DICTIONARY_INDEX = {
       "yasai_00008"
     ],
     "gentle": [
-      "yasashii_00003",
       "yasashii_00093",
+      "yasashii_00003",
       "yawarakai_00099"
     ],
     "tender": [
@@ -71191,3 +71191,1756 @@ const DICTIONARY_INDEX = {
   }
 }
 };
+
+const DICTIONARY_RECENT = [
+  {
+    "id": "akachan_00133",
+    "headword": "{赤|あか}ちゃん",
+    "gloss": "baby; infant",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "anime_00367",
+    "headword": "アニメ",
+    "gloss": "anime, animation",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "annai_00136",
+    "headword": "{案内|あんない}",
+    "gloss": "guidance; information; guide",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "anshin_00135",
+    "headword": "{安心|あんしん}",
+    "gloss": "peace of mind; relief; reassurance",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "arubaito_00368",
+    "headword": "アルバイト",
+    "gloss": "part-time job",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "asai_00130",
+    "headword": "{浅|あさ}い",
+    "gloss": "shallow; superficial",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "asobi_00134",
+    "headword": "{遊|あそ}び",
+    "gloss": "play; game; amusement",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "bai_00318",
+    "headword": "{倍|ばい}",
+    "gloss": "-fold, times",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "baiten_00319",
+    "headword": "{売店|ばいてん}",
+    "gloss": "stand, kiosk, shop",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "beruto_00339",
+    "headword": "ベルト",
+    "gloss": "belt",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "betsu_00116",
+    "headword": "{別|べつ}",
+    "gloss": "different; separate; another",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "bideo_00329",
+    "headword": "ビデオ",
+    "gloss": "video",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "bikkurisuru_00110",
+    "headword": "びっくりする",
+    "gloss": "to be surprised, to be startled",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "biru_00330",
+    "headword": "ビル",
+    "gloss": "building",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "bungaku_00336",
+    "headword": "{文学|ぶんがく}",
+    "gloss": "literature",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "bunka_00335",
+    "headword": "{文化|ぶんか}",
+    "gloss": "culture",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "bunpou_00337",
+    "headword": "{文法|ぶんぽう}",
+    "gloss": "grammar",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "burashi_00334",
+    "headword": "ブラシ",
+    "gloss": "brush",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "chiiki_00283",
+    "headword": "{地域|ちいき}",
+    "gloss": "region, area",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "chikaku_00284",
+    "headword": "{近く|ちかく}",
+    "gloss": "nearby, vicinity",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "chishiki_00285",
+    "headword": "{知識|ちしき}",
+    "gloss": "knowledge",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "chuugakkou_00287",
+    "headword": "{中学校|ちゅうがっこう}",
+    "gloss": "junior high school",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "chuui_00286",
+    "headword": "{注意|ちゅうい}",
+    "gloss": "attention, caution",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "chuusha_00288",
+    "headword": "{駐車|ちゅうしゃ}",
+    "gloss": "parking",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "chuushin_00289",
+    "headword": "{中心|ちゅうしん}",
+    "gloss": "center, core",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "daiji_00124",
+    "headword": "{大事|だいじ}",
+    "gloss": "important; valuable; precious",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "denchi_00296",
+    "headword": "{電池|でんち}",
+    "gloss": "battery",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "denpou_00298",
+    "headword": "{電報|でんぽう}",
+    "gloss": "telegram",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "dentou_00297",
+    "headword": "{電灯|でんとう}",
+    "gloss": "electric light",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "denwa_00295",
+    "headword": "{電話|でんわ}",
+    "gloss": "telephone, phone call",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "dondon_00126",
+    "headword": "どんどん",
+    "gloss": "rapidly; steadily; one after another",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "doru_00403",
+    "headword": "ドル",
+    "gloss": "dollar",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "doubutsu_00306",
+    "headword": "{動物|どうぶつ}",
+    "gloss": "animal",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "dougu_00305",
+    "headword": "{道具|どうぐ}",
+    "gloss": "tool, equipment",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "douro_00307",
+    "headword": "{道路|どうろ}",
+    "gloss": "road, highway",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "eda_00153",
+    "headword": "{枝|えだ}",
+    "gloss": "branch; twig; bough",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "enryo_00154",
+    "headword": "{遠慮|えんりょ}",
+    "gloss": "reserve; restraint; hesitation",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "fuben_00331",
+    "headword": "{不便|ふべん}",
+    "gloss": "inconvenience",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "fueru_00111",
+    "headword": "{増|ふ}える",
+    "gloss": "to increase, to multiply",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "fukai_00115",
+    "headword": "{深|ふか}い",
+    "gloss": "deep; profound",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "fumu_00113",
+    "headword": "{踏|ふ}む",
+    "gloss": "to step on, to tread on",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "futoru_00112",
+    "headword": "{太|ふと}る",
+    "gloss": "to gain weight, to get fat",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "futsuu_00333",
+    "headword": "{普通|ふつう}",
+    "gloss": "ordinary, usually",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ganbaru_00117",
+    "headword": "{頑張|がんば}る",
+    "gloss": "to do one's best, to persevere",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "genin_00208",
+    "headword": "{原因|げんいん}",
+    "gloss": "cause, origin",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "geshuku_00207",
+    "headword": "{下宿|げしゅく}",
+    "gloss": "lodging, boarding house",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "gijutsu_00197",
+    "headword": "{技術|ぎじゅつ}",
+    "gloss": "technique, technology, skill",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "goran_00219",
+    "headword": "ご{覧|らん}",
+    "gloss": "looking, seeing (honorific)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "guai_00199",
+    "headword": "{具合|ぐあい}",
+    "gloss": "condition, state, health",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hakubutsukan_00320",
+    "headword": "{博物館|はくぶつかん}",
+    "gloss": "museum",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hanashi_00323",
+    "headword": "{話|はなし}",
+    "gloss": "talk, story, conversation",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hantai_00324",
+    "headword": "{反対|はんたい}",
+    "gloss": "opposition, opposite",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hatsumei_00322",
+    "headword": "{発明|はつめい}",
+    "gloss": "invention",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hazu_00404",
+    "headword": "はず",
+    "gloss": "should be, supposed to",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "heiwa_00338",
+    "headword": "{平和|へいわ}",
+    "gloss": "peace",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hi_00325",
+    "headword": "{日|ひ}",
+    "gloss": "day, sun",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hieru_00107",
+    "headword": "{冷|ひ}える",
+    "gloss": "to grow cold, to get chilly",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "higashi_00326",
+    "headword": "{東|ひがし}",
+    "gloss": "east",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hijouni_00117",
+    "headword": "{非常|ひじょう}に",
+    "gloss": "extremely; very; exceedingly",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hikaru_00108",
+    "headword": "{光|ひか}る",
+    "gloss": "to shine, to glitter",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hikidashi_00327",
+    "headword": "{引き出し|ひきだし}",
+    "gloss": "drawer",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hikkosu_00109",
+    "headword": "{引|ひ}っ{越|こ}す",
+    "gloss": "to move (residence)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hoken_00340",
+    "headword": "{保険|ほけん}",
+    "gloss": "insurance",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "homeru_00114",
+    "headword": "{褒|ほ}める",
+    "gloss": "to praise, to compliment",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "hoshi_00341",
+    "headword": "{星|ほし}",
+    "gloss": "star",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ichido_00143",
+    "headword": "{一度|いちど}",
+    "gloss": "once; one time",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "igai_00138",
+    "headword": "{以外|いがい}",
+    "gloss": "other than; except; besides",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "igaku_00139",
+    "headword": "{医学|いがく}",
+    "gloss": "medical science; medicine (field)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ijimeru_00128",
+    "headword": "いじめる",
+    "gloss": "to bully, to torment",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ijou_00142",
+    "headword": "{以上|いじょう}",
+    "gloss": "above; more than; that's all",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ika_00137",
+    "headword": "{以下|いか}",
+    "gloss": "below; less than; the following",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "iken_00140",
+    "headword": "{意見|いけん}",
+    "gloss": "opinion; view; idea",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "inai_00145",
+    "headword": "{以内|いない}",
+    "gloss": "within; less than; inside",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "inaka_00146",
+    "headword": "{田舎|いなか}",
+    "gloss": "countryside; rural area; hometown",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ishi_00141",
+    "headword": "{石|いし}",
+    "gloss": "stone; rock",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "isshoukenmei_00132",
+    "headword": "{一生懸命|いっしょうけんめい}",
+    "gloss": "with all one's might; very hard; desperately",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ito_00144",
+    "headword": "{糸|いと}",
+    "gloss": "thread; string; yarn",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "jidai_00239",
+    "headword": "{時代|じだい}",
+    "gloss": "era, period, age",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "junbi_00248",
+    "headword": "{準備|じゅんび}",
+    "gloss": "preparation",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "juusho_00246",
+    "headword": "{住所|じゅうしょ}",
+    "gloss": "address",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ka_00399",
+    "headword": "{課|か}",
+    "gloss": "lesson, section, department",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kabe_00135",
+    "headword": "{壁|かべ}",
+    "gloss": "wall",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kaeri_00130",
+    "headword": "{帰|かえ}り",
+    "gloss": "return; way home",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kagaku_00131",
+    "headword": "{科学|かがく}",
+    "gloss": "science",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kagami_00132",
+    "headword": "{鏡|かがみ}",
+    "gloss": "mirror",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kaigishitsu_00127",
+    "headword": "{会議室|かいぎしつ}",
+    "gloss": "conference room; meeting room",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kaijou_00128",
+    "headword": "{会場|かいじょう}",
+    "gloss": "venue; meeting place; site",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kaiwa_00129",
+    "headword": "{会話|かいわ}",
+    "gloss": "conversation; dialogue",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kaji_00133",
+    "headword": "{火事|かじ}",
+    "gloss": "fire (destructive)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kamau_00115",
+    "headword": "かまう",
+    "gloss": "to mind, to care about",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kamu_00114",
+    "headword": "{噛|か}む",
+    "gloss": "to bite, to chew",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kanarazu_00123",
+    "headword": "{必|かなら}ず",
+    "gloss": "certainly; surely; without fail; always",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kangofu_00188",
+    "headword": "{看護婦|かんごふ}",
+    "gloss": "(female) nurse",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kankei_00138",
+    "headword": "{関係|かんけい}",
+    "gloss": "relationship; connection; relevance",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kanojo_00134",
+    "headword": "{彼女|かのじょ}",
+    "gloss": "she; girlfriend",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kare_00136",
+    "headword": "{彼|かれ}",
+    "gloss": "he; boyfriend",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "katazukeru_00112",
+    "headword": "{片付|かたづ}ける",
+    "gloss": "to tidy up, to put away",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "katsu_00113",
+    "headword": "{勝|か}つ",
+    "gloss": "to win",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kawari_00137",
+    "headword": "{代|か}わり",
+    "gloss": "substitute; replacement; instead of",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kayou_00116",
+    "headword": "{通|かよ}う",
+    "gloss": "to commute, to go regularly",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kazaru_00111",
+    "headword": "{飾|かざ}る",
+    "gloss": "to decorate, to adorn",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ke_00200",
+    "headword": "{毛|け}",
+    "gloss": "hair, fur",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "keisatsu_00201",
+    "headword": "{警察|けいさつ}",
+    "gloss": "police",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "keizai_00202",
+    "headword": "{経済|けいざい}",
+    "gloss": "economy, economics",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kenbutsu_00206",
+    "headword": "{見物|けんぶつ}",
+    "gloss": "sightseeing, watching",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kenkyuu_00204",
+    "headword": "{研究|けんきゅう}",
+    "gloss": "research, study",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kenkyuushitsu_00205",
+    "headword": "{研究室|けんきゅうしつ}",
+    "gloss": "research lab, professor's office",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "keshiki_00203",
+    "headword": "{景色|けしき}",
+    "gloss": "scenery, landscape",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kesshite_00124",
+    "headword": "{決|けっ}して",
+    "gloss": "never; by no means; (not) at all",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kibun_00141",
+    "headword": "{気分|きぶん}",
+    "gloss": "feeling; mood",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kikai_00139",
+    "headword": "{機会|きかい}",
+    "gloss": "chance; opportunity; occasion",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kikoeru_00118",
+    "headword": "{聞|き}こえる",
+    "gloss": "to be heard, to be audible",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kimaru_00119",
+    "headword": "{決|き}まる",
+    "gloss": "to be decided, to be settled",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kimi_00192",
+    "headword": "{君|きみ}",
+    "gloss": "you (informal)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kimochi_00193",
+    "headword": "{気持ち|きもち}",
+    "gloss": "feeling, mood",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kimono_00142",
+    "headword": "{着物|きもの}",
+    "gloss": "kimono; traditional Japanese clothing",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kinjo_00145",
+    "headword": "{近所|きんじょ}",
+    "gloss": "neighborhood; vicinity",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kinu_00191",
+    "headword": "{絹|きぬ}",
+    "gloss": "silk",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kisetsu_00140",
+    "headword": "{季節|きせつ}",
+    "gloss": "season (of the year)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kisha_00189",
+    "headword": "{汽車|きしゃ}",
+    "gloss": "steam train",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kisoku_00190",
+    "headword": "{規則|きそく}",
+    "gloss": "rule, regulation",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kokoro_00146",
+    "headword": "{心|こころ}",
+    "gloss": "heart; mind; spirit",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kokusai_00215",
+    "headword": "{国際|こくさい}",
+    "gloss": "international",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "komakai_00122",
+    "headword": "{細|こま}かい",
+    "gloss": "small; fine; detailed; meticulous",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kome_00147",
+    "headword": "{米|こめ}",
+    "gloss": "rice (uncooked)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "komugi_00216",
+    "headword": "{小麦|こむぎ}",
+    "gloss": "wheat",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kondo_00148",
+    "headword": "{今度|こんど}",
+    "gloss": "this time; next time; soon",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "konkai_00220",
+    "headword": "{今回|こんかい}",
+    "gloss": "this time",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "konnan_00221",
+    "headword": "{困難|こんなん}",
+    "gloss": "difficulty, hardship",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "konoaida_00125",
+    "headword": "この{間|あいだ}",
+    "gloss": "the other day; recently; lately",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "konogoro_00126",
+    "headword": "この{頃|ごろ}",
+    "gloss": "these days; nowadays; recently",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "konpyuutaa_00374",
+    "headword": "コンピューター",
+    "gloss": "computer",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "konya_00222",
+    "headword": "{今夜|こんや}",
+    "gloss": "tonight, this evening",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "koshou_00214",
+    "headword": "{故障|こしょう}",
+    "gloss": "breakdown, malfunction",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kougai_00211",
+    "headword": "{郊外|こうがい}",
+    "gloss": "suburbs, outskirts",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kougu_00209",
+    "headword": "{工具|こうぐ}",
+    "gloss": "tool, implement",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kougyou_00210",
+    "headword": "{工業|こうぎょう}",
+    "gloss": "industry, manufacturing",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kousaten_00213",
+    "headword": "{交差点|こうさてん}",
+    "gloss": "intersection, crossing",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kowasu_00121",
+    "headword": "{壊|こわ}す",
+    "gloss": "to break, to destroy",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kuraberu_00120",
+    "headword": "{比|くら}べる",
+    "gloss": "to compare",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kuuki_00198",
+    "headword": "{空気|くうき}",
+    "gloss": "air, atmosphere",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kyouiku_00143",
+    "headword": "{教育|きょういく}",
+    "gloss": "education; training",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kyoukai_00195",
+    "headword": "{教会|きょうかい}",
+    "gloss": "church",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kyoumi_00144",
+    "headword": "{興味|きょうみ}",
+    "gloss": "interest (in something)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kyousou_00196",
+    "headword": "{競争|きょうそう}",
+    "gloss": "competition, contest",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "kyuukou_00194",
+    "headword": "{急行|きゅうこう}",
+    "gloss": "express (train/bus)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "majime_00114",
+    "headword": "{真面目|まじめ}",
+    "gloss": "serious; earnest; diligent",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "makeru_00104",
+    "headword": "{負|ま}ける",
+    "gloss": "to lose, to be defeated",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "manga_00342",
+    "headword": "{漫画|まんが}",
+    "gloss": "manga, comic",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "maniau_00105",
+    "headword": "{間|ま}に{合|あ}う",
+    "gloss": "to be in time, to make it",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mawaru_00106",
+    "headword": "{回|まわ}る",
+    "gloss": "to go around, to revolve",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mawasu_00107",
+    "headword": "{回|まわ}す",
+    "gloss": "to turn, to rotate",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mezurashii_00113",
+    "headword": "{珍|めずら}しい",
+    "gloss": "unusual; rare",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mieru_00108",
+    "headword": "{見|み}える",
+    "gloss": "to be visible, to appear",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mimi_00344",
+    "headword": "{耳|みみ}",
+    "gloss": "ear",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "minato_00343",
+    "headword": "{港|みなと}",
+    "gloss": "port, harbor",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mitsukaru_00109",
+    "headword": "{見|み}つかる",
+    "gloss": "to be found, to be discovered",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mitsukeru_00110",
+    "headword": "{見|み}つける",
+    "gloss": "to find, to discover",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mochiron_00117",
+    "headword": "もちろん",
+    "gloss": "of course; certainly; naturally",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mori_00352",
+    "headword": "{森|もり}",
+    "gloss": "forest, woods",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mousugu_00116",
+    "headword": "もうすぐ",
+    "gloss": "very soon; in a moment; almost",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mukae_00345",
+    "headword": "{迎え|むかえ}",
+    "gloss": "greeting, welcome, pick-up",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mukaeru_00112",
+    "headword": "{迎|むか}える",
+    "gloss": "to welcome, to greet",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mukashi_00346",
+    "headword": "{昔|むかし}",
+    "gloss": "old times, long ago",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mukau_00111",
+    "headword": "{向|む}かう",
+    "gloss": "to face, to head toward",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mukou_00347",
+    "headword": "{向こう|むこう}",
+    "gloss": "over there, the other side",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "mura_00350",
+    "headword": "{村|むら}",
+    "gloss": "village",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "muri_00405",
+    "headword": "{無理|むり}",
+    "gloss": "impossible, unreasonable",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nageru_00104",
+    "headword": "{投|な}げる",
+    "gloss": "to throw, to pitch",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "naiyou_00308",
+    "headword": "{内容|ないよう}",
+    "gloss": "contents, substance",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nakami_00309",
+    "headword": "{中身|なかみ}",
+    "gloss": "contents, interior",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nakanaka_00396",
+    "headword": "なかなか",
+    "gloss": "quite, rather; not easily",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "naru_00105",
+    "headword": "{鳴|な}る",
+    "gloss": "to ring, to sound",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "naze_00310",
+    "headword": "なぜ",
+    "gloss": "why",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nemuru_00110",
+    "headword": "{眠|ねむ}る",
+    "gloss": "to sleep",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nenrei_00316",
+    "headword": "{年齢|ねんれい}",
+    "gloss": "age",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nesshin_00114",
+    "headword": "{熱心|ねっしん}",
+    "gloss": "enthusiastic; eager; keen; devoted",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nibai_00311",
+    "headword": "{二倍|にばい}",
+    "gloss": "double, twice",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nigai_00113",
+    "headword": "{苦|にが}い",
+    "gloss": "bitter",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nigeru_00106",
+    "headword": "{逃|に}げる",
+    "gloss": "to escape, to run away",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nikki_00312",
+    "headword": "{日記|にっき}",
+    "gloss": "diary, journal",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ningyou_00313",
+    "headword": "{人形|にんぎょう}",
+    "gloss": "doll, puppet",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ninki_00314",
+    "headword": "{人気|にんき}",
+    "gloss": "popularity",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "niru_00107",
+    "headword": "{似|に}る",
+    "gloss": "to resemble, to be similar",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nokoru_00111",
+    "headword": "{残|のこ}る",
+    "gloss": "to remain, to be left",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "norikaeru_00112",
+    "headword": "{乗|の}り{換|か}える",
+    "gloss": "to transfer, to change (vehicles)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nougyou_00317",
+    "headword": "{農業|のうぎょう}",
+    "gloss": "agriculture, farming",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nuno_00315",
+    "headword": "{布|ぬの}",
+    "gloss": "cloth, fabric",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nuru_00109",
+    "headword": "{塗|ぬ}る",
+    "gloss": "to paint, to apply",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "nusumu_00108",
+    "headword": "{盗|ぬす}む",
+    "gloss": "to steal",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "odori_00159",
+    "headword": "{踊|おど}り",
+    "gloss": "dance; dancing",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "odoroku_00124",
+    "headword": "{驚|おどろ}く",
+    "gloss": "to be surprised",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "odoru_00123",
+    "headword": "{踊|おど}る",
+    "gloss": "to dance",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "oiwai_00155",
+    "headword": "お{祝|いわ}い",
+    "gloss": "congratulations; celebration; gift",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "okage_00167",
+    "headword": "おかげ",
+    "gloss": "thanks to; owing to; because of",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "okujou_00156",
+    "headword": "{屋上|おくじょう}",
+    "gloss": "rooftop",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "okurimono_00157",
+    "headword": "{贈|おく}り{物|もの}",
+    "gloss": "gift; present",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "omatsuri_00160",
+    "headword": "お{祭|まつ}り",
+    "gloss": "festival",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "omimai_00161",
+    "headword": "お{見舞|みま}い",
+    "gloss": "visiting someone who is ill; get-well visit",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "omiyage_00162",
+    "headword": "お{土産|みやげ}",
+    "gloss": "souvenir; gift (from travels)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "omoidasu_00125",
+    "headword": "{思|おも}い{出|だ}す",
+    "gloss": "to recall, to remember",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "omote_00163",
+    "headword": "{表|おもて}",
+    "gloss": "front; surface; outside",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "oobaa_00370",
+    "headword": "オーバー",
+    "gloss": "overcoat, over",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "orei_00165",
+    "headword": "お{礼|れい}",
+    "gloss": "thanks; gratitude; reward",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "oreru_00127",
+    "headword": "{折|お}れる",
+    "gloss": "to break, to give in",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "oru_00126",
+    "headword": "{折|お}る",
+    "gloss": "to break, to fold",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "oshiire_00158",
+    "headword": "{押|お}し{入|い}れ",
+    "gloss": "closet (Japanese-style)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "owari_00166",
+    "headword": "{終|お}わり",
+    "gloss": "end; conclusion",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "oya_00164",
+    "headword": "{親|おや}",
+    "gloss": "parent",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "paasento_00382",
+    "headword": "パーセント",
+    "gloss": "percent",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "pasokon_00383",
+    "headword": "パソコン",
+    "gloss": "personal computer",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "purinto_00384",
+    "headword": "プリント",
+    "gloss": "print, handout",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "puroguramu_00385",
+    "headword": "プログラム",
+    "gloss": "program",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "rajio_00386",
+    "headword": "ラジオ",
+    "gloss": "radio",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "rekishi_00363",
+    "headword": "{歴史|れきし}",
+    "gloss": "history",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "renraku_00364",
+    "headword": "{連絡|れんらく}",
+    "gloss": "contact, communication",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "repooto_00388",
+    "headword": "レポート",
+    "gloss": "report",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ressun_00387",
+    "headword": "レッスン",
+    "gloss": "lesson",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "ryouri_00362",
+    "headword": "{料理|りょうり}",
+    "gloss": "cooking, cuisine",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "saabisu_00375",
+    "headword": "サービス",
+    "gloss": "service",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sagaru_00111",
+    "headword": "{下|さ}がる",
+    "gloss": "to go down, to drop",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "saigo_00224",
+    "headword": "{最後|さいご}",
+    "gloss": "last, final, end",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "saitei_00223",
+    "headword": "{最低|さいてい}",
+    "gloss": "lowest, minimum, worst",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "saka_00229",
+    "headword": "{坂|さか}",
+    "gloss": "slope, hill",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sakan_00120",
+    "headword": "{盛|さか}ん",
+    "gloss": "prosperous; thriving; active; enthusiastic",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sakka_00227",
+    "headword": "{作家|さっか}",
+    "gloss": "writer, author",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sama_00400",
+    "headword": "{様|さま}",
+    "gloss": "Mr., Mrs., Ms. (polite)",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sangyou_00233",
+    "headword": "{産業|さんぎょう}",
+    "gloss": "industry",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "saraigetsu_00232",
+    "headword": "{再来月|さらいげつ}",
+    "gloss": "month after next",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sarainen_00231",
+    "headword": "{再来年|さらいねん}",
+    "gloss": "year after next",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "saraishuu_00230",
+    "headword": "{再来週|さらいしゅう}",
+    "gloss": "week after next",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sawagu_00112",
+    "headword": "{騒|さわ}ぐ",
+    "gloss": "to make noise, to be noisy",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "seihin_00265",
+    "headword": "{製品|せいひん}",
+    "gloss": "product, manufactured goods",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "seikatsu_00263",
+    "headword": "{生活|せいかつ}",
+    "gloss": "life, living",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "seisan_00264",
+    "headword": "{生産|せいさん}",
+    "gloss": "production, manufacturing",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "seiyou_00266",
+    "headword": "{西洋|せいよう}",
+    "gloss": "the West, Western countries",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sekai_00267",
+    "headword": "{世界|せかい}",
+    "gloss": "world",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sekiyu_00268",
+    "headword": "{石油|せきゆ}",
+    "gloss": "oil, petroleum",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "senmon_00123",
+    "headword": "{専門|せんもん}",
+    "gloss": "specialty; major; expertise",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "senpai_00271",
+    "headword": "{先輩|せんぱい}",
+    "gloss": "senior, upperclassman",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "sensou_00270",
+    "headword": "{戦争|せんそう}",
+    "gloss": "war",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "setsumei_00269",
+    "headword": "{説明|せつめい}",
+    "gloss": "explanation",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "shachou_00244",
+    "headword": "{社長|しゃちょう}",
+    "gloss": "company president, CEO",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "shakai_00243",
+    "headword": "{社会|しゃかい}",
+    "gloss": "society",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "shiawase_00234",
+    "headword": "{幸せ|しあわせ}",
+    "gloss": "happiness, good fortune",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "shihai_00235",
+    "headword": "{支配|しはい}",
+    "gloss": "control, rule, domination",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "shikaru_00113",
+    "headword": "{叱|しか}る",
+    "gloss": "to scold",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "shiken_00236",
+    "headword": "{試験|しけん}",
+    "gloss": "examination, test",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "shimin_00242",
+    "headword": "{市民|しみん}",
+    "gloss": "citizen, resident",
+    "status": "NEW",
+    "date": "2026.1.8"
+  },
+  {
+    "id": "shinbun_00258",
+    "headword": "{新聞|しんぶん}",
+    "gloss": "newspaper",
+    "status": "NEW",
+    "date": "2026.1.8"
+  }
+];

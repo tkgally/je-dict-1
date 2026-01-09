@@ -697,6 +697,113 @@ header .subtitle {
     padding: var(--spacing-xl);
 }
 
+/* ===== RECENT INTERFACE ===== */
+.recent-layout {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.recent-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.recent-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.recent-intro {
+    color: var(--color-text-secondary);
+}
+
+.recent-list {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: var(--spacing-md);
+}
+
+.recent-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1rem;
+    padding: 0.6rem var(--spacing-sm);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.recent-item:last-child {
+    border-bottom: none;
+}
+
+.recent-item:hover {
+    background-color: var(--color-bg);
+}
+
+.recent-headword {
+    font-family: var(--font-jp);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.recent-gloss {
+    font-size: 1.1rem;
+    color: var(--color-text);
+    flex: 1;
+    min-width: 200px;
+}
+
+.recent-status {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.recent-status.new {
+    color: var(--color-accent);
+}
+
+.recent-status.revised {
+    color: #8b5cf6;
+}
+
+.recent-date {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+.recent-entry-display {
+    margin-top: var(--spacing-lg);
+}
+
+.recent-back-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    background-color: transparent;
+    border: 1px solid var(--color-accent);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: var(--spacing-lg);
+    transition: all 0.2s ease;
+}
+
+.recent-back-btn:hover {
+    background-color: var(--color-accent);
+    color: white;
+}
+
+.recent-placeholder {
+    color: var(--color-text-secondary);
+    text-align: center;
+    padding: var(--spacing-xl);
+}
+
 /* ===== RANDOM INTERFACE ===== */
 .random-layout {
     max-width: 1200px;

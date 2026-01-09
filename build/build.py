@@ -5,6 +5,7 @@ Build script for je-dict-1 dictionary.
 Compiles all entry files into optimized format for the web application:
 - entries.json: All entry data
 - index.json: Search index for quick lookups
+- recent entries list: Most recently added/modified entries
 """
 
 import json
@@ -96,6 +97,53 @@ def build_search_index(entries: list[dict]) -> dict:
     return index
 
 
+def build_recent_entries(entries: list[dict], limit: int = 250) -> list[dict]:
+    """
+    Build a list of recently added or modified entries.
+
+    Returns a list of dicts with:
+    - id: entry ID
+    - headword: the headword text
+    - gloss: the short gloss
+    - status: 'NEW' or 'REVISED'
+    - date: formatted date string (YYYY.M.D)
+    """
+    # Sort entries by modified date, most recent first
+    def get_modified_date(entry):
+        try:
+            return datetime.fromisoformat(entry['metadata']['modified'].replace('Z', '+00:00'))
+        except (KeyError, ValueError):
+            return datetime.min.replace(tzinfo=None)
+
+    sorted_entries = sorted(entries, key=get_modified_date, reverse=True)
+
+    recent = []
+    for entry in sorted_entries[:limit]:
+        metadata = entry.get('metadata', {})
+        created = metadata.get('created', '')
+        modified = metadata.get('modified', '')
+
+        # Determine if NEW or REVISED
+        status = 'NEW' if created == modified else 'REVISED'
+
+        # Format date as YYYY.M.D
+        try:
+            dt = datetime.fromisoformat(modified.replace('Z', '+00:00'))
+            date_str = f"{dt.year}.{dt.month}.{dt.day}"
+        except (ValueError, AttributeError):
+            date_str = ''
+
+        recent.append({
+            'id': entry['id'],
+            'headword': entry['headword'],
+            'gloss': entry['gloss'],
+            'status': status,
+            'date': date_str
+        })
+
+    return recent
+
+
 def copy_web_files(project_root: Path, dist_dir: Path):
     """Copy web application files to dist directory, including nested directories."""
     web_dir = project_root / 'web'
@@ -109,7 +157,7 @@ def copy_web_files(project_root: Path, dist_dir: Path):
             shutil.copytree(item, dest, dirs_exist_ok=True)
 
 
-def generate_data_js(entries: list[dict], index: dict, dist_dir: Path) -> Path:
+def generate_data_js(entries: list[dict], index: dict, recent: list[dict], dist_dir: Path) -> Path:
     """
     Generate a data.js file with embedded dictionary data.
     This allows the app to work without a server (pure file:// access).
@@ -131,6 +179,8 @@ const DICTIONARY_INDEX = {{
   version: '1.0',
   index: {json.dumps(index, ensure_ascii=False, indent=2)}
 }};
+
+const DICTIONARY_RECENT = {json.dumps(recent, ensure_ascii=False, indent=2)};
 """
 
     with open(data_js_path, 'w', encoding='utf-8') as f:
@@ -150,7 +200,7 @@ def build(project_root: Path) -> int:
     print("=" * 50)
 
     # Step 1: Validate all entries
-    print("\n[1/4] Validating entries...")
+    print("\n[1/5] Validating entries...")
     total, valid, invalid_files, cross_ref_warnings = validate_all_entries(project_root)
 
     if invalid_files:
@@ -169,7 +219,7 @@ def build(project_root: Path) -> int:
     print(f"  OK: {valid} entries validated")
 
     # Step 2: Load all entries
-    print("\n[2/4] Loading entries...")
+    print("\n[2/5] Loading entries...")
     entries = []
     entries_dir = project_root / 'entries'
 
@@ -182,7 +232,7 @@ def build(project_root: Path) -> int:
     print(f"  Loaded {len(entries)} entries")
 
     # Step 3: Build search index
-    print("\n[3/4] Building search index...")
+    print("\n[3/5] Building search index...")
     index = build_search_index(entries)
 
     jp_terms = len(index['japanese'])
@@ -190,8 +240,13 @@ def build(project_root: Path) -> int:
     en_terms = len(index['english'])
     print(f"  Indexed: {jp_terms} Japanese, {romaji_terms} romaji, {en_terms} English terms")
 
-    # Step 4: Write output files
-    print("\n[4/4] Writing output files...")
+    # Step 4: Build recent entries list
+    print("\n[4/5] Building recent entries list...")
+    recent = build_recent_entries(entries, limit=250)
+    print(f"  Found {len(recent)} recent entries")
+
+    # Step 5: Write output files
+    print("\n[5/5] Writing output files...")
 
     # Ensure dist directory exists
     dist_dir.mkdir(exist_ok=True)
@@ -201,7 +256,7 @@ def build(project_root: Path) -> int:
     print(f"  Copied web files to docs/")
 
     # Generate data.js with embedded data (for offline/static use)
-    data_js_path = generate_data_js(entries, index, dist_dir)
+    data_js_path = generate_data_js(entries, index, recent, dist_dir)
     print(f"  Written: {data_js_path.relative_to(project_root)}")
 
     # Summary
