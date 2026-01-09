@@ -1,6 +1,6 @@
 /**
  * Japanese-English Learner's Dictionary Web Application
- * A static dictionary with Search and Browse interfaces
+ * A static dictionary with Search, Browse, and Random interfaces
  */
 
 (function() {
@@ -54,6 +54,15 @@
     const browseHeading = document.getElementById('browse-heading');
     const browseCount = document.getElementById('browse-count');
     const browseEntryDisplay = document.getElementById('browse-entry-display');
+
+    // DOM Elements - Random Interface
+    const randomWords = document.getElementById('random-words');
+    const randomEntryDisplay = document.getElementById('random-entry-display');
+    const randomEntryContent = document.getElementById('random-entry-content');
+    const randomBack = document.getElementById('random-back');
+
+    // Random interface state - shuffled once on page load
+    let shuffledEntryIds = null;
 
     /**
      * Get the kana row for a reading based on its first character
@@ -184,6 +193,7 @@
 
             buildEntryBrowser();
             initBrowseInterface();
+            initRandomInterface();
             updateLastUpdated();
 
             console.log('Dictionary loaded:', entriesData.count, 'entries');
@@ -200,6 +210,14 @@
 
         // Set up browse filters
         setupBrowseFilters();
+
+        // Set up random back button
+        if (randomBack) {
+            randomBack.addEventListener('click', () => {
+                randomWords.classList.remove('hidden');
+                randomEntryDisplay.classList.add('hidden');
+            });
+        }
     }
 
     /**
@@ -230,7 +248,7 @@
     function loadInterfacePreference() {
         try {
             const saved = localStorage.getItem('interface-preference');
-            if (saved && ['search', 'browse'].includes(saved)) {
+            if (saved && ['search', 'browse', 'random'].includes(saved)) {
                 switchInterface(saved);
             }
         } catch (e) {}
@@ -565,6 +583,71 @@
         browseEntryDisplay.innerHTML = createEntryDisplay(entry);
     }
 
+    // ===== RANDOM INTERFACE =====
+
+    /**
+     * Initialize the Random interface
+     * Shuffles entries once on page load
+     */
+    function initRandomInterface() {
+        if (!entriesData || !entriesData.entries) return;
+
+        // Get all entry IDs and shuffle them
+        const entryIds = Object.keys(entriesData.entries);
+        shuffledEntryIds = shuffleArray(entryIds);
+
+        renderRandomWords();
+    }
+
+    /**
+     * Shuffle an array using Fisher-Yates algorithm
+     */
+    function shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    /**
+     * Render the random words display
+     */
+    function renderRandomWords() {
+        if (!shuffledEntryIds || !randomWords) return;
+
+        let html = '';
+        for (const entryId of shuffledEntryIds) {
+            const entry = entriesData.entries[entryId];
+            if (entry) {
+                html += `<span class="random-word" data-entry-id="${entryId}">${processJapaneseText(entry.headword)}</span>`;
+            }
+        }
+
+        randomWords.innerHTML = html;
+
+        // Add click handlers
+        randomWords.querySelectorAll('.random-word').forEach(word => {
+            word.addEventListener('click', () => {
+                displayRandomEntry(word.dataset.entryId);
+            });
+        });
+    }
+
+    /**
+     * Display an entry in the Random interface
+     */
+    function displayRandomEntry(entryId) {
+        const entry = entriesData.entries[entryId];
+        if (!entry) return;
+
+        randomWords.classList.add('hidden');
+        randomEntryDisplay.classList.remove('hidden');
+        randomEntryContent.dataset.currentEntryId = entryId;
+        randomEntryContent.innerHTML = createEntryDisplay(entry);
+    }
+
     // ===== UTILITY FUNCTIONS =====
 
     /**
@@ -708,6 +791,17 @@
                     item.querySelector('.headword').innerHTML = processJapaneseText(entry.headword);
                 }
             });
+        }
+
+        // Re-render random words
+        renderRandomWords();
+
+        // Re-render random entry display if visible
+        if (!randomEntryDisplay.classList.contains('hidden')) {
+            const currentEntryId = randomEntryContent.dataset.currentEntryId;
+            if (currentEntryId && entriesData.entries[currentEntryId]) {
+                randomEntryContent.innerHTML = createEntryDisplay(entriesData.entries[currentEntryId]);
+            }
         }
     }
 
