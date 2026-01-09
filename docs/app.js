@@ -25,16 +25,16 @@
 
     // Kana row definitions
     const KANA_ROWS = [
-        { name: 'あ行', kana: 'あいうえお', key: 'あ' },
-        { name: 'か行', kana: 'かきくけこがぎぐげご', key: 'か' },
-        { name: 'さ行', kana: 'さしすせそざじずぜぞ', key: 'さ' },
-        { name: 'た行', kana: 'たちつてとだぢづでど', key: 'た' },
-        { name: 'な行', kana: 'なにぬねの', key: 'な' },
-        { name: 'は行', kana: 'はひふへほばびぶべぼぱぴぷぺぽ', key: 'は' },
-        { name: 'ま行', kana: 'まみむめも', key: 'ま' },
-        { name: 'や行', kana: 'やゆよ', key: 'や' },
-        { name: 'ら行', kana: 'らりるれろ', key: 'ら' },
-        { name: 'わ行', kana: 'わをん', key: 'わ' },
+        { name: 'あ行', kana: 'あいうえお', key: 'あ', folder: 'a' },
+        { name: 'か行', kana: 'かきくけこがぎぐげご', key: 'か', folder: 'ka' },
+        { name: 'さ行', kana: 'さしすせそざじずぜぞ', key: 'さ', folder: 'sa' },
+        { name: 'た行', kana: 'たちつてとだぢづでど', key: 'た', folder: 'ta' },
+        { name: 'な行', kana: 'なにぬねの', key: 'な', folder: 'na' },
+        { name: 'は行', kana: 'はひふへほばびぶべぼぱぴぷぺぽ', key: 'は', folder: 'ha' },
+        { name: 'ま行', kana: 'まみむめも', key: 'ま', folder: 'ma' },
+        { name: 'や行', kana: 'やゆよ', key: 'や', folder: 'ya' },
+        { name: 'ら行', kana: 'らりるれろ', key: 'ら', folder: 'ra' },
+        { name: 'わ行', kana: 'わをん', key: 'わ', folder: 'wa' },
     ];
 
     // DOM Elements - Search Interface
@@ -85,6 +85,39 @@
             }
         }
         return null;
+    }
+
+    /**
+     * Get the folder name for an entry based on its reading
+     */
+    function getEntryFolder(reading) {
+        const row = getKanaRow(reading);
+        return row ? row.folder : '';
+    }
+
+    /**
+     * Format an ISO datetime string to JST format: YYYY.M.D H:MM
+     * Example: 2026.1.9 14:35
+     */
+    function formatJstDatetime(isoString) {
+        if (!isoString) return '';
+        try {
+            const dt = new Date(isoString);
+            // Convert to JST (UTC+9)
+            const jstOffset = 9 * 60; // minutes
+            const utcMinutes = dt.getTime() / 60000;
+            const jstDate = new Date((utcMinutes + jstOffset) * 60000);
+
+            const year = jstDate.getUTCFullYear();
+            const month = jstDate.getUTCMonth() + 1;
+            const day = jstDate.getUTCDate();
+            const hour = jstDate.getUTCHours();
+            const minute = jstDate.getUTCMinutes().toString().padStart(2, '0');
+
+            return `${year}.${month}.${day} ${hour}:${minute}`;
+        } catch (e) {
+            return '';
+        }
     }
 
     /**
@@ -477,11 +510,35 @@
             `;
         }
 
+        // Build footer with badges, dates, and file info
+        const created = entry.metadata.created || '';
+        const modified = entry.metadata.modified || '';
+        const createdStr = formatJstDatetime(created);
+        const modifiedStr = formatJstDatetime(modified);
+        const isRevised = created && modified && created !== modified;
+
+        // Build date display
+        let dateDisplay = '';
+        if (createdStr) {
+            dateDisplay = `Added ${createdStr}`;
+            if (isRevised && modifiedStr) {
+                dateDisplay += ` · Revised ${modifiedStr}`;
+            }
+        }
+
+        // Build file path display
+        const folder = getEntryFolder(entry.reading);
+        const filePath = folder ? `${folder}/${entry.id}` : entry.id;
+
         html += `
             <div class="entry-metadata">
-                <div class="metadata-badges">
-                    ${entry.metadata.jlpt_level ? `<span class="badge jlpt">${entry.metadata.jlpt_level}</span>` : ''}
-                    <span class="badge status-${entry.metadata.review_status}">${entry.metadata.review_status}</span>
+                <div class="metadata-row">
+                    <div class="metadata-badges">
+                        ${entry.metadata.jlpt_level ? `<span class="badge jlpt">${entry.metadata.jlpt_level}</span>` : ''}
+                        <span class="badge status-${entry.metadata.review_status}">${entry.metadata.review_status}</span>
+                    </div>
+                    <div class="metadata-dates">${dateDisplay}</div>
+                    <div class="metadata-file">${escapeHtml(filePath)}</div>
                 </div>
             </div>
         `;

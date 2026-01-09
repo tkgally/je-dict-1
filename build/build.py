@@ -13,8 +13,11 @@ import sys
 import shutil
 import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from validate import validate_all_entries, hiragana_to_romaji
+
+# Japan Standard Time (UTC+9)
+JST = timezone(timedelta(hours=9))
 
 
 # Pattern to match furigana notation: {kanji|reading}
@@ -97,6 +100,19 @@ def build_search_index(entries: list[dict]) -> dict:
     return index
 
 
+def format_jst_datetime(iso_string: str) -> str:
+    """
+    Format an ISO datetime string to JST format: YYYY.M.D H:MM
+    Example: 2026.1.9 14:35
+    """
+    try:
+        dt = datetime.fromisoformat(iso_string.replace('Z', '+00:00'))
+        dt_jst = dt.astimezone(JST)
+        return f"{dt_jst.year}.{dt_jst.month}.{dt_jst.day} {dt_jst.hour}:{dt_jst.minute:02d}"
+    except (ValueError, AttributeError):
+        return ''
+
+
 def build_recent_entries(entries: list[dict], limit: int = 250) -> list[dict]:
     """
     Build a list of recently added or modified entries.
@@ -106,7 +122,7 @@ def build_recent_entries(entries: list[dict], limit: int = 250) -> list[dict]:
     - headword: the headword text
     - gloss: the short gloss
     - status: 'NEW' or 'REVISED'
-    - date: formatted date string (YYYY.M.D)
+    - date: formatted date string in JST (YYYY.M.D H:MM)
     """
     # Sort entries by modified date, most recent first
     def get_modified_date(entry):
@@ -120,18 +136,14 @@ def build_recent_entries(entries: list[dict], limit: int = 250) -> list[dict]:
     recent = []
     for entry in sorted_entries[:limit]:
         metadata = entry.get('metadata', {})
-        created = metadata.get('created', '')
         modified = metadata.get('modified', '')
 
         # Determine if NEW or REVISED
+        created = metadata.get('created', '')
         status = 'NEW' if created == modified else 'REVISED'
 
-        # Format date as YYYY.M.D
-        try:
-            dt = datetime.fromisoformat(modified.replace('Z', '+00:00'))
-            date_str = f"{dt.year}.{dt.month}.{dt.day}"
-        except (ValueError, AttributeError):
-            date_str = ''
+        # Format date as YYYY.M.D H:MM in JST
+        date_str = format_jst_datetime(modified)
 
         recent.append({
             'id': entry['id'],
