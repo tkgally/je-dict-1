@@ -45,7 +45,21 @@ Every entry must include:
 - `definitions`: Array with sense_number, gloss, explanation
 - `examples`: 2-3 minimum, with Japanese, English, and optional notes
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
-- `metadata`: Including jlpt_level
+- `metadata`: Including jlpt_level, created, modified timestamps
+
+## Metadata Timestamps
+
+**IMPORTANT**: Use actual current UTC time for `created` and `modified` fields.
+
+Generate timestamps dynamically:
+```python
+from datetime import datetime, timezone
+timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+```
+
+This produces: `"2026-01-09T08:15:42Z"`
+
+**Never use hardcoded timestamps** like `"2026-01-09T12:00:00Z"` - this causes incorrect dates in the Recent view.
 
 ## Quality Checklist
 
