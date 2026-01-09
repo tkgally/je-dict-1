@@ -697,102 +697,6 @@ header .subtitle {
     padding: var(--spacing-xl);
 }
 
-/* ===== COMPARE INTERFACE ===== */
-.compare-layout {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.compare-header {
-    text-align: center;
-    margin-bottom: var(--spacing-xl);
-}
-
-.compare-header h2 {
-    font-size: 1.5rem;
-    margin-bottom: var(--spacing-sm);
-}
-
-.compare-intro {
-    color: var(--color-text-secondary);
-}
-
-.compare-categories {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-xl);
-}
-
-.category-group h3 {
-    font-size: 1.1rem;
-    margin-bottom: var(--spacing-md);
-    padding-bottom: var(--spacing-sm);
-    border-bottom: 2px solid var(--color-accent);
-}
-
-.category-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--spacing-sm);
-}
-
-.compare-btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.95rem;
-    font-family: var(--font-jp);
-    color: var(--color-text);
-    background-color: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.compare-btn:hover {
-    border-color: var(--color-accent);
-    background-color: var(--color-accent-light);
-}
-
-.compare-display {
-    margin-top: var(--spacing-lg);
-}
-
-.compare-back-btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-    color: var(--color-accent);
-    background-color: transparent;
-    border: 1px solid var(--color-accent);
-    border-radius: 6px;
-    cursor: pointer;
-    margin-bottom: var(--spacing-lg);
-    transition: all 0.2s ease;
-}
-
-.compare-back-btn:hover {
-    background-color: var(--color-accent);
-    color: white;
-}
-
-.compare-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(550px, 100%), 1fr));
-    gap: var(--spacing-lg);
-}
-
-.compare-card {
-    background-color: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    padding: var(--spacing-lg);
-    max-height: 70vh;
-    overflow-y: auto;
-}
-
-.compare-card .entry-headword {
-    font-size: 2rem;
-}
-
 /* Footer */
 footer {
     text-align: center;
@@ -938,10 +842,6 @@ ruby rp {
     .browse-detail {
         grid-row: 3;
         grid-column: 1;
-    }
-
-    .compare-cards {
-        grid-template-columns: 1fr;
     }
 }
 

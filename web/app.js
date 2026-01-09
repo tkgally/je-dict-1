@@ -1,6 +1,6 @@
 /**
  * Japanese-English Learner's Dictionary Web Application
- * A static dictionary with Search, Browse, and Compare interfaces
+ * A static dictionary with Search and Browse interfaces
  */
 
 (function() {
@@ -37,36 +37,6 @@
         { name: 'わ行', kana: 'わをん', key: 'わ' },
     ];
 
-    // Comparison groups for the Compare interface
-    const COMPARISON_GROUPS = {
-        particles: [
-            { label: 'は vs が', entries: ['ha', 'ga'] },
-            { label: 'に vs で', entries: ['ni', 'de'] },
-            { label: 'を vs に', entries: ['wo', 'ni'] },
-            { label: 'から vs まで', entries: ['kara', 'made'] },
-        ],
-        transitive: [
-            { label: '開ける vs 開く', entries: ['akeru', 'aku'] },
-            { label: '閉める vs 閉まる', entries: ['shimeru', 'shimaru'] },
-            { label: '付ける vs 付く', entries: ['tsukeru', 'tsuku'] },
-            { label: '入れる vs 入る', entries: ['ireru', 'hairu'] },
-            { label: '出す vs 出る', entries: ['dasu', 'deru'] },
-            { label: '起こす vs 起きる', entries: ['okosu', 'okiru'] },
-            { label: '落とす vs 落ちる', entries: ['otosu', 'ochiru'] },
-            { label: '壊す vs 壊れる', entries: ['kowasu', 'kowareru'] },
-            { label: '直す vs 直る', entries: ['naosu', 'naoru'] },
-        ],
-        similar: [
-            { label: '見る vs 見える', entries: ['miru', 'mieru'] },
-            { label: '聞く vs 聞こえる', entries: ['kiku', 'kikoeru'] },
-            { label: 'きれい vs 美しい', entries: ['kirei', 'utsukushii'] },
-            { label: '思う vs 考える', entries: ['omou', 'kangaeru'] },
-            { label: '分かる vs 知る', entries: ['wakaru', 'shiru'] },
-            { label: 'いる vs ある', entries: ['iru', 'aru'] },
-            { label: '行く vs 来る', entries: ['iku', 'kuru'] },
-        ]
-    };
-
     // DOM Elements - Search Interface
     const searchForm = document.getElementById('search-form');
     const searchInput = document.getElementById('search-input');
@@ -84,15 +54,6 @@
     const browseHeading = document.getElementById('browse-heading');
     const browseCount = document.getElementById('browse-count');
     const browseEntryDisplay = document.getElementById('browse-entry-display');
-
-    // DOM Elements - Compare Interface
-    const particleComparisons = document.getElementById('particle-comparisons');
-    const transitiveComparisons = document.getElementById('transitive-comparisons');
-    const similarComparisons = document.getElementById('similar-comparisons');
-    const compareCategories = document.getElementById('compare-categories');
-    const compareDisplay = document.getElementById('compare-display');
-    const compareCards = document.getElementById('compare-cards');
-    const compareBack = document.getElementById('compare-back');
 
     /**
      * Get the kana row for a reading based on its first character
@@ -223,7 +184,6 @@
 
             buildEntryBrowser();
             initBrowseInterface();
-            initCompareInterface();
             updateLastUpdated();
 
             console.log('Dictionary loaded:', entriesData.count, 'entries');
@@ -240,14 +200,6 @@
 
         // Set up browse filters
         setupBrowseFilters();
-
-        // Set up compare back button
-        if (compareBack) {
-            compareBack.addEventListener('click', () => {
-                compareCategories.classList.remove('hidden');
-                compareDisplay.classList.add('hidden');
-            });
-        }
     }
 
     /**
@@ -278,7 +230,7 @@
     function loadInterfacePreference() {
         try {
             const saved = localStorage.getItem('interface-preference');
-            if (saved && ['search', 'browse', 'compare'].includes(saved)) {
+            if (saved && ['search', 'browse'].includes(saved)) {
                 switchInterface(saved);
             }
         } catch (e) {}
@@ -613,81 +565,6 @@
         browseEntryDisplay.innerHTML = createEntryDisplay(entry);
     }
 
-    // ===== COMPARE INTERFACE =====
-
-    /**
-     * Initialize the Compare interface
-     */
-    function initCompareInterface() {
-        buildCompareButtons(particleComparisons, COMPARISON_GROUPS.particles);
-        buildCompareButtons(transitiveComparisons, COMPARISON_GROUPS.transitive);
-        buildCompareButtons(similarComparisons, COMPARISON_GROUPS.similar);
-    }
-
-    /**
-     * Build comparison buttons for a category
-     */
-    function buildCompareButtons(container, groups) {
-        if (!container) return;
-
-        let html = '';
-        for (const group of groups) {
-            // Check if entries exist
-            const entriesExist = group.entries.every(romaji => findEntryByRomaji(romaji));
-            if (entriesExist) {
-                html += `<button class="compare-btn" data-entries="${group.entries.join(',')}">${group.label}</button>`;
-            }
-        }
-
-        container.innerHTML = html || '<p class="browse-placeholder">No comparisons available</p>';
-
-        // Add click handlers
-        container.querySelectorAll('.compare-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const entryRomajis = btn.dataset.entries.split(',');
-                showComparison(entryRomajis);
-            });
-        });
-    }
-
-    /**
-     * Find an entry by its romaji (approximate match)
-     */
-    function findEntryByRomaji(romaji) {
-        if (!indexData || !indexData.index || !indexData.index.romaji) return null;
-
-        const ids = indexData.index.romaji[romaji];
-        if (ids && ids.length > 0) {
-            return entriesData.entries[ids[0]];
-        }
-        return null;
-    }
-
-    /**
-     * Show comparison cards for selected entries
-     */
-    function showComparison(romajis) {
-        const entries = romajis.map(r => findEntryByRomaji(r)).filter(e => e);
-
-        if (entries.length === 0) {
-            alert('Could not find entries for comparison.');
-            return;
-        }
-
-        compareCategories.classList.add('hidden');
-        compareDisplay.classList.remove('hidden');
-
-        // Store the romajis for re-rendering on furigana toggle
-        compareCards.dataset.currentRomajis = romajis.join(',');
-
-        let html = '';
-        for (const entry of entries) {
-            html += `<div class="compare-card" data-entry-id="${entry.id}">${createEntryDisplay(entry)}</div>`;
-        }
-
-        compareCards.innerHTML = html;
-    }
-
     // ===== UTILITY FUNCTIONS =====
 
     /**
@@ -831,14 +708,6 @@
                     item.querySelector('.headword').innerHTML = processJapaneseText(entry.headword);
                 }
             });
-        }
-
-        // Re-render compare cards
-        if (!compareDisplay.classList.contains('hidden')) {
-            const currentRomajis = compareCards.dataset.currentRomajis;
-            if (currentRomajis) {
-                showComparison(currentRomajis.split(','));
-            }
         }
     }
 
