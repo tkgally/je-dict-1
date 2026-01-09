@@ -720,8 +720,7 @@ header .subtitle {
 .random-words {
     font-family: var(--font-jp);
     font-size: 1.2rem;
-    line-height: 2.2;
-    text-align: justify;
+    line-height: 2.8;
     padding: var(--spacing-lg);
     background-color: var(--color-surface);
     border: 1px solid var(--color-border);
@@ -732,6 +731,7 @@ header .subtitle {
     display: inline;
     cursor: pointer;
     padding: 0.1rem 0.3rem;
+    margin-right: 0.8em;
     border-radius: 4px;
     transition: background-color 0.15s ease;
     white-space: nowrap;
@@ -739,10 +739,6 @@ header .subtitle {
 
 .random-word:hover {
     background-color: var(--color-accent-light);
-}
-
-.random-word::after {
-    content: '\3000';
 }
 
 .random-entry-display {
