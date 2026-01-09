@@ -12,6 +12,7 @@
             <div class="interface-toggle">
                 <button class="interface-btn active" data-interface="search">Search</button>
                 <button class="interface-btn" data-interface="browse">Browse</button>
+                <button class="interface-btn" data-interface="random">Random</button>
             </div>
             <button
                 id="furigana-toggle"
@@ -144,6 +145,21 @@
                     <div id="browse-entry-display" class="entry-display">
                         <p class="browse-placeholder">Select an entry to view details</p>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Random Interface -->
+        <div id="interface-random" class="interface-panel">
+            <div class="random-layout">
+                <div class="random-header">
+                    <h2>Random Word Cloud</h2>
+                    <p class="random-intro">Click any word to view its entry.</p>
+                </div>
+                <div id="random-words" class="random-words"></div>
+                <div id="random-entry-display" class="random-entry-display hidden">
+                    <button id="random-back" class="random-back-btn">&larr; Back to word cloud</button>
+                    <div id="random-entry-content" class="entry-display"></div>
                 </div>
             </div>
         </div>
