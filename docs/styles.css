@@ -500,10 +500,33 @@ header .subtitle {
     color: var(--color-text-secondary);
 }
 
+.metadata-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
 .metadata-badges {
     display: flex;
     gap: var(--spacing-sm);
     flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.metadata-dates {
+    text-align: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.metadata-file {
+    text-align: right;
+    flex-shrink: 0;
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
 }
 
 .badge {
