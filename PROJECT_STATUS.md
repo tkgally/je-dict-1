@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-08
+**Last updated**: 2026-01-09
 **Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -26,10 +26,11 @@
 - [x] Last updated date in footer
 
 ### Content Status
-- **Total entries**: 1,153
+- **Total entries**: 1,880
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: 392 entries added
-- **Candidate words**: 1,992 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: 50 new entries added
+- **Candidate words**: 2,117 words tracked in `candidate_words.json`
 
 ### Entry Breakdown by JLPT Level
 | Level | Count | Status |
@@ -85,6 +86,12 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `vocabulary-notes` | Formatting notes field content |
 
 ## Recent Changes
+
+### 2026-01-09 (N3 Vocabulary Expansion)
+- Added 50 new N3 vocabulary entries from candidate_words.json
+- New entries include: na-adjectives (完全, 様々, 正直, 真剣, 深刻, 地味, 重要, 清潔, 積極的, 適切, 奇妙, 公平), nouns (完成, 区別, 現在, 種類, 事件, 状況, 人類, 専攻, 当時, 昼食, 残り, 維持, 一種, 差別, 財産, 使用, 性質, 重大), adverbs (じっと, 既に, 相当, 当然, 常に, 非常, ますます, 主に, 大いに, さて, ただ, 多少, のんびり), verbs (まとまる, 見かける), and other types
+- Updated entries_index.json (1,880 entries total)
+- Removed 49 added words from candidate_words.json (2,117 remaining)
 
 ### 2026-01-08 (Entry Tracking System)
 - Created `entries_index.json` listing all 1,153 entries with key metadata
