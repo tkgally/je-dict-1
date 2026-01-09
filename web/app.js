@@ -1,6 +1,6 @@
 /**
  * Japanese-English Learner's Dictionary Web Application
- * A static dictionary with Search, Browse, and Random interfaces
+ * A static dictionary with Search, Browse, Recent, and Random interfaces
  */
 
 (function() {
@@ -55,6 +55,12 @@
     const browseCount = document.getElementById('browse-count');
     const browseEntryDisplay = document.getElementById('browse-entry-display');
 
+    // DOM Elements - Recent Interface
+    const recentList = document.getElementById('recent-list');
+    const recentEntryDisplay = document.getElementById('recent-entry-display');
+    const recentEntryContent = document.getElementById('recent-entry-content');
+    const recentBack = document.getElementById('recent-back');
+
     // DOM Elements - Random Interface
     const randomWords = document.getElementById('random-words');
     const randomEntryDisplay = document.getElementById('random-entry-display');
@@ -63,6 +69,9 @@
 
     // Random interface state - shuffled once on page load
     let shuffledEntryIds = null;
+
+    // Recent entries data
+    let recentData = null;
 
     /**
      * Get the kana row for a reading based on its first character
@@ -193,6 +202,7 @@
 
             buildEntryBrowser();
             initBrowseInterface();
+            initRecentInterface();
             initRandomInterface();
             updateLastUpdated();
 
@@ -205,11 +215,24 @@
             statsDiv.textContent = 'Error: Dictionary data not found.';
         }
 
+        // Load recent entries data
+        if (typeof DICTIONARY_RECENT !== 'undefined') {
+            recentData = DICTIONARY_RECENT;
+        }
+
         // Set up search form
         searchForm.addEventListener('submit', handleSearch);
 
         // Set up browse filters
         setupBrowseFilters();
+
+        // Set up recent back button
+        if (recentBack) {
+            recentBack.addEventListener('click', () => {
+                recentList.classList.remove('hidden');
+                recentEntryDisplay.classList.add('hidden');
+            });
+        }
 
         // Set up random back button
         if (randomBack) {
@@ -248,7 +271,7 @@
     function loadInterfacePreference() {
         try {
             const saved = localStorage.getItem('interface-preference');
-            if (saved && ['search', 'browse', 'random'].includes(saved)) {
+            if (saved && ['search', 'browse', 'recent', 'random'].includes(saved)) {
                 switchInterface(saved);
             }
         } catch (e) {}
@@ -583,6 +606,56 @@
         browseEntryDisplay.innerHTML = createEntryDisplay(entry);
     }
 
+    // ===== RECENT INTERFACE =====
+
+    /**
+     * Initialize the Recent interface
+     */
+    function initRecentInterface() {
+        renderRecentList();
+    }
+
+    /**
+     * Render the recent entries list
+     */
+    function renderRecentList() {
+        if (!recentData || !recentList) return;
+
+        let html = '';
+        for (const item of recentData) {
+            html += `
+                <div class="recent-item" data-entry-id="${item.id}">
+                    <span class="recent-headword">${processJapaneseText(item.headword)}</span>
+                    <span class="recent-gloss">${escapeHtml(item.gloss)}</span>
+                    <span class="recent-status ${item.status.toLowerCase()}">${item.status}</span>
+                    <span class="recent-date">${item.date}</span>
+                </div>
+            `;
+        }
+
+        recentList.innerHTML = html || '<p class="recent-placeholder">No recent entries available</p>';
+
+        // Add click handlers
+        recentList.querySelectorAll('.recent-item').forEach(item => {
+            item.addEventListener('click', () => {
+                displayRecentEntry(item.dataset.entryId);
+            });
+        });
+    }
+
+    /**
+     * Display an entry in the Recent interface
+     */
+    function displayRecentEntry(entryId) {
+        const entry = entriesData.entries[entryId];
+        if (!entry) return;
+
+        recentList.classList.add('hidden');
+        recentEntryDisplay.classList.remove('hidden');
+        recentEntryContent.dataset.currentEntryId = entryId;
+        recentEntryContent.innerHTML = createEntryDisplay(entry);
+    }
+
     // ===== RANDOM INTERFACE =====
 
     /**
@@ -791,6 +864,17 @@
                     item.querySelector('.headword').innerHTML = processJapaneseText(entry.headword);
                 }
             });
+        }
+
+        // Re-render recent list
+        renderRecentList();
+
+        // Re-render recent entry display if visible
+        if (!recentEntryDisplay.classList.contains('hidden')) {
+            const currentEntryId = recentEntryContent.dataset.currentEntryId;
+            if (currentEntryId && entriesData.entries[currentEntryId]) {
+                recentEntryContent.innerHTML = createEntryDisplay(entriesData.entries[currentEntryId]);
+            }
         }
 
         // Re-render random words

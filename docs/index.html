@@ -12,6 +12,7 @@
             <div class="interface-toggle">
                 <button class="interface-btn active" data-interface="search">Search</button>
                 <button class="interface-btn" data-interface="browse">Browse</button>
+                <button class="interface-btn" data-interface="recent">Recent</button>
                 <button class="interface-btn" data-interface="random">Random</button>
             </div>
             <button
@@ -145,6 +146,21 @@
                     <div id="browse-entry-display" class="entry-display">
                         <p class="browse-placeholder">Select an entry to view details</p>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Interface -->
+        <div id="interface-recent" class="interface-panel">
+            <div class="recent-layout">
+                <div class="recent-header">
+                    <h2>Recent Entries</h2>
+                    <p class="recent-intro">Most recently added or revised entries.</p>
+                </div>
+                <div id="recent-list" class="recent-list"></div>
+                <div id="recent-entry-display" class="recent-entry-display hidden">
+                    <button id="recent-back" class="recent-back-btn">&larr; Back to recent list</button>
+                    <div id="recent-entry-content" class="entry-display"></div>
                 </div>
             </div>
         </div>
