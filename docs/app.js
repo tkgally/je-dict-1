@@ -197,6 +197,11 @@
             indexData = DICTIONARY_INDEX;
             isLoaded = true;
 
+            // Load recent entries data
+            if (typeof DICTIONARY_RECENT !== 'undefined') {
+                recentData = DICTIONARY_RECENT;
+            }
+
             const count = entriesData.count;
             statsDiv.textContent = `${count} ${count === 1 ? 'entry' : 'entries'} available`;
 
@@ -213,11 +218,6 @@
         } else {
             console.error('Dictionary data not found.');
             statsDiv.textContent = 'Error: Dictionary data not found.';
-        }
-
-        // Load recent entries data
-        if (typeof DICTIONARY_RECENT !== 'undefined') {
-            recentData = DICTIONARY_RECENT;
         }
 
         // Set up search form
