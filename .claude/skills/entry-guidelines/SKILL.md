@@ -7,6 +7,27 @@ description: General quality standards for all je-dict-1 dictionary entries. Use
 
 When creating or revising dictionary entries for je-dict-1, follow these quality standards:
 
+## Before Creating a New Entry
+
+**IMPORTANT**: Always check if an entry already exists before creating a new one.
+
+1. **Search for existing entries** by reading or headword:
+   ```bash
+   # Search by reading
+   grep -r '"reading": "たべる"' entries/
+
+   # Search by headword pattern
+   grep -r '食べる' entries/
+   ```
+
+2. **If an entry already exists**: Skip to the next word. Do NOT create a duplicate.
+
+3. **If the word was in candidate_words.json**: Remove it from the candidate list after confirming an entry exists.
+
+4. **Only create new entries** for words that have no existing entry in the dictionary.
+
+This prevents duplicate entries and wasted effort on entries that must later be deleted.
+
 ## Content Guidelines
 
 1. **Explain before exemplifying** - Definition first, then examples
