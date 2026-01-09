@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-09T02:39:14.746125Z
+// Generated: 2026-01-09T02:47:27.936716Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -738,48 +738,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "ame_00092": {
-    "id": "ame_00092",
-    "headword": "{飴|あめ}",
-    "reading": "あめ",
-    "part_of_speech": "noun",
-    "gloss": "candy",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "candy, hard candy, sweets",
-        "explanation": "A sweet confection, typically hard candy made from sugar. Different from 雨 (ame, rain) which has the same pronunciation."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{飴|あめ}を{食|た}べますか。",
-        "english": "Do you want to eat some candy?",
-        "notes": null
-      },
-      {
-        "japanese": "{子|こ}どもに{飴|あめ}をあげました。",
-        "english": "I gave candy to the child.",
-        "notes": null
-      },
-      {
-        "japanese": "のどに{飴|あめ}がいいですよ。",
-        "english": "Candy is good for your throat.",
-        "notes": "Throat lozenges"
-      }
-    ],
-    "notes": "飴 is homophone with 雨 (rain), but they have different kanji. This 飴 refers to hard candy or sweets. For softer candy or chocolate, チョコレート or キャンディー might be used. 飴と鞭 (ame to muchi, 'carrot and stick' literally 'candy and whip') is a common expression.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "ame_00044": {
     "id": "ame_00044",
     "headword": "{雨|あめ}",
@@ -818,6 +776,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
       "modified": "2026-01-07T15:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "ame_00092": {
+    "id": "ame_00092",
+    "headword": "{飴|あめ}",
+    "reading": "あめ",
+    "part_of_speech": "noun",
+    "gloss": "candy",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "candy, hard candy, sweets",
+        "explanation": "A sweet confection, typically hard candy made from sugar. Different from 雨 (ame, rain) which has the same pronunciation."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{飴|あめ}を{食|た}べますか。",
+        "english": "Do you want to eat some candy?",
+        "notes": null
+      },
+      {
+        "japanese": "{子|こ}どもに{飴|あめ}をあげました。",
+        "english": "I gave candy to the child.",
+        "notes": null
+      },
+      {
+        "japanese": "のどに{飴|あめ}がいいですよ。",
+        "english": "Candy is good for your throat.",
+        "notes": "Throat lozenges"
+      }
+    ],
+    "notes": "飴 is homophone with 雨 (rain), but they have different kanji. This 飴 refers to hard candy or sweets. For softer candy or chocolate, チョコレート or キャンディー might be used. 飴と鞭 (ame to muchi, 'carrot and stick' literally 'candy and whip') is a common expression.",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -3900,6 +3900,48 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "chikaku_00284": {
+    "id": "chikaku_00284",
+    "headword": "{近く|ちかく}",
+    "reading": "ちかく",
+    "part_of_speech": "noun",
+    "gloss": "nearby, vicinity",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "nearby, vicinity, neighborhood",
+        "explanation": "The area close to something or someone."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "nearly, almost",
+        "explanation": "Close to a number or amount."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{駅|えき}の{近|ちか}くに{住|す}んでいます。",
+        "english": "I live near the station.",
+        "notes": null
+      },
+      {
+        "japanese": "100{人|にん}{近|ちか}くが{参加|さんか}した。",
+        "english": "Nearly 100 people participated.",
+        "notes": null
+      }
+    ],
+    "notes": "As a noun, often used with の: {近く|ちかく}の{店|みせ} (nearby shop). Also functions as an adverb meaning \"nearly.\"",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
   "chikaku_00096": {
     "id": "chikaku_00096",
     "headword": "{近|ちか}く",
@@ -3944,48 +3986,6 @@ const DICTIONARY_DATA = {
       "confidence": "high",
       "review_status": "verified",
       "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "chikaku_00284": {
-    "id": "chikaku_00284",
-    "headword": "{近く|ちかく}",
-    "reading": "ちかく",
-    "part_of_speech": "noun",
-    "gloss": "nearby, vicinity",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "nearby, vicinity, neighborhood",
-        "explanation": "The area close to something or someone."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "nearly, almost",
-        "explanation": "Close to a number or amount."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{駅|えき}の{近|ちか}くに{住|す}んでいます。",
-        "english": "I live near the station.",
-        "notes": null
-      },
-      {
-        "japanese": "100{人|にん}{近|ちか}くが{参加|さんか}した。",
-        "english": "Nearly 100 people participated.",
-        "notes": null
-      }
-    ],
-    "notes": "As a noun, often used with の: {近く|ちかく}の{店|みせ} (nearby shop). Also functions as an adverb meaning \"nearly.\"",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "jlpt_level": "N4",
       "frequency_rank": null
     }
   },
@@ -9084,48 +9084,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "ha_00094": {
-    "id": "ha_00094",
-    "headword": "{歯|は}",
-    "reading": "は",
-    "part_of_speech": "noun",
-    "gloss": "tooth, teeth",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "tooth, teeth",
-        "explanation": "The hard structures in the mouth used for biting and chewing. Used for dental care, physical descriptions, and tooth-related expressions."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{歯|は}を{磨|みが}きましたか。",
-        "english": "Did you brush your teeth?",
-        "notes": null
-      },
-      {
-        "japanese": "{歯|は}が{痛|いた}いので、{歯|は}{医者|いしゃ}に{行|い}きます。",
-        "english": "My tooth hurts, so I'm going to the dentist.",
-        "notes": null
-      },
-      {
-        "japanese": "{子供|こども}の{歯|は}が{抜|ぬ}けました。",
-        "english": "The child's tooth fell out.",
-        "notes": null
-      }
-    ],
-    "notes": "{歯|は}{医者|いしゃ} means 'dentist'. {歯|は}ブラシ is 'toothbrush' and {歯|は}{磨|みが}き{粉|こ} is 'toothpaste'. Common expressions include {歯|は}が{立|た}たない (to be no match for someone/something).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "ha_00001": {
     "id": "ha_00001",
     "headword": "は",
@@ -9269,6 +9227,48 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
       "modified": "2026-01-07T10:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "ha_00094": {
+    "id": "ha_00094",
+    "headword": "{歯|は}",
+    "reading": "は",
+    "part_of_speech": "noun",
+    "gloss": "tooth, teeth",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "tooth, teeth",
+        "explanation": "The hard structures in the mouth used for biting and chewing. Used for dental care, physical descriptions, and tooth-related expressions."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{歯|は}を{磨|みが}きましたか。",
+        "english": "Did you brush your teeth?",
+        "notes": null
+      },
+      {
+        "japanese": "{歯|は}が{痛|いた}いので、{歯|は}{医者|いしゃ}に{行|い}きます。",
+        "english": "My tooth hurts, so I'm going to the dentist.",
+        "notes": null
+      },
+      {
+        "japanese": "{子供|こども}の{歯|は}が{抜|ぬ}けました。",
+        "english": "The child's tooth fell out.",
+        "notes": null
+      }
+    ],
+    "notes": "{歯|は}{医者|いしゃ} means 'dentist'. {歯|は}ブラシ is 'toothbrush' and {歯|は}{磨|みが}き{粉|こ} is 'toothpaste'. Common expressions include {歯|は}が{立|た}たない (to be no match for someone/something).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -10315,48 +10315,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "hashi_00097": {
-    "id": "hashi_00097",
-    "headword": "{箸|はし}",
-    "reading": "はし",
-    "part_of_speech": "noun",
-    "gloss": "chopsticks",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "chopsticks",
-        "explanation": "A pair of sticks used for eating in Japan and other Asian countries."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{箸|はし}を{使|つか}って{食|た}べてください。",
-        "english": "Please eat using chopsticks.",
-        "notes": null
-      },
-      {
-        "japanese": "{箸|はし}の{使|つか}い{方|かた}がわかりますか。",
-        "english": "Do you know how to use chopsticks?",
-        "notes": null
-      },
-      {
-        "japanese": "{割|わ}り{箸|ばし}をください。",
-        "english": "Please give me disposable chopsticks.",
-        "notes": null
-      }
-    ],
-    "notes": "箸 are essential eating utensils in Japan. お箸 is the polite form. 割り箸 (わりばし) are disposable wooden chopsticks. There are many chopstick etiquette rules in Japan, such as never sticking chopsticks upright in rice (associated with funerals).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "hashi_00096": {
     "id": "hashi_00096",
     "headword": "{端|はし}",
@@ -10388,6 +10346,48 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{端|はし} refers to the outermost edge or end of something. Don't confuse this with {橋|はし} (bridge) or {箸|はし} (chopsticks) - all three are pronounced 'hashi' but have different kanji and pitch accents. [noun]の{端|はし} means 'the edge/end of [noun].'",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "hashi_00097": {
+    "id": "hashi_00097",
+    "headword": "{箸|はし}",
+    "reading": "はし",
+    "part_of_speech": "noun",
+    "gloss": "chopsticks",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "chopsticks",
+        "explanation": "A pair of sticks used for eating in Japan and other Asian countries."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{箸|はし}を{使|つか}って{食|た}べてください。",
+        "english": "Please eat using chopsticks.",
+        "notes": null
+      },
+      {
+        "japanese": "{箸|はし}の{使|つか}い{方|かた}がわかりますか。",
+        "english": "Do you know how to use chopsticks?",
+        "notes": null
+      },
+      {
+        "japanese": "{割|わ}り{箸|ばし}をください。",
+        "english": "Please give me disposable chopsticks.",
+        "notes": null
+      }
+    ],
+    "notes": "箸 are essential eating utensils in Japan. お箸 is the polite form. 割り箸 (わりばし) are disposable wooden chopsticks. There are many chopstick etiquette rules in Japan, such as never sticking chopsticks upright in rice (associated with funerals).",
     "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -15958,50 +15958,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "kaeru_00009": {
-    "id": "kaeru_00009",
-    "headword": "{帰|かえ}る",
-    "reading": "かえる",
-    "part_of_speech": "verb (godan)",
-    "gloss": "to return, to go home",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to return home, to go back",
-        "explanation": "To go back to one's home, country, or original location. The destination is typically a place one belongs to or comes from."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{何時|なんじ}に{家|いえ}に{帰|かえ}りますか？",
-        "english": "What time do you go home?",
-        "notes": null
-      },
-      {
-        "japanese": "{来年|らいねん}、{国|くに}に{帰|かえ}ります。",
-        "english": "I will return to my country next year.",
-        "notes": null
-      },
-      {
-        "japanese": "もう{帰|かえ}りたいです。",
-        "english": "I want to go home now.",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{帰|かえ}る (return to X).\n\nASPECT: ている indicates resulting state. {帰|かえ}っている = 'has returned (and is there now).'\n\nCOMMON PATTERNS:\n・{家|いえ}に{帰|かえ}る (go home)\n・{国|くに}に{帰|かえ}る (return to one's country)\n・お{帰|かえ}りなさい (welcome home - greeting)\n・{帰|かえ}り (return trip - noun)\n\nGodan verb despite ending in る. Different from {戻|もど}る (return to previous state) and {変|か}える (to change - ichidan).",
-    "cross_references": [
-      "iku_00001"
-    ],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "kaeru_00099": {
     "id": "kaeru_00099",
     "headword": "{変|か}える",
@@ -16040,6 +15996,50 @@ const DICTIONARY_DATA = {
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {変|か}わる (intransitive, to change by itself). Pattern: Xを{変|か}える (change X).\n\nASPECT: ている indicates resulting state. {変|か}えている = 'have changed (it).'\n\nCOMMON PATTERNS:\n・{予定|よてい}を{変|か}える (change the schedule)\n・{話題|わだい}を{変|か}える (change the subject)\n・{色|いろ}を{変|か}える (change the color)\n・{変|か}えられる (can be changed - potential)\n\nPAIR: {変|か}わる (intransitive) - {季節|きせつ}が{変|か}わった (season changed).\nDifferent from {帰|かえ}る (go home - godan).",
     "cross_references": [
       "kawaru_00093"
+    ],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "kaeru_00009": {
+    "id": "kaeru_00009",
+    "headword": "{帰|かえ}る",
+    "reading": "かえる",
+    "part_of_speech": "verb (godan)",
+    "gloss": "to return, to go home",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to return home, to go back",
+        "explanation": "To go back to one's home, country, or original location. The destination is typically a place one belongs to or comes from."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{何時|なんじ}に{家|いえ}に{帰|かえ}りますか？",
+        "english": "What time do you go home?",
+        "notes": null
+      },
+      {
+        "japanese": "{来年|らいねん}、{国|くに}に{帰|かえ}ります。",
+        "english": "I will return to my country next year.",
+        "notes": null
+      },
+      {
+        "japanese": "もう{帰|かえ}りたいです。",
+        "english": "I want to go home now.",
+        "notes": null
+      }
+    ],
+    "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{帰|かえ}る (return to X).\n\nASPECT: ている indicates resulting state. {帰|かえ}っている = 'has returned (and is there now).'\n\nCOMMON PATTERNS:\n・{家|いえ}に{帰|かえ}る (go home)\n・{国|くに}に{帰|かえ}る (return to one's country)\n・お{帰|かえ}りなさい (welcome home - greeting)\n・{帰|かえ}り (return trip - noun)\n\nGodan verb despite ending in る. Different from {戻|もど}る (return to previous state) and {変|か}える (to change - ichidan).",
+    "cross_references": [
+      "iku_00001"
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
@@ -30113,6 +30113,48 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "ni_00093": {
+    "id": "ni_00093",
+    "headword": "{二|に}",
+    "reading": "に",
+    "part_of_speech": "number",
+    "gloss": "two",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "two",
+        "explanation": "The number two. A fundamental counting number used throughout Japanese. Like other numbers, に combines with various counters and may change pronunciation in some combinations."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{二|に}{人|にん}で{行|い}きましょう。",
+        "english": "Let's go together (the two of us).",
+        "notes": null
+      },
+      {
+        "japanese": "コーヒーを{二|に}つください。",
+        "english": "Two coffees, please.",
+        "notes": null
+      },
+      {
+        "japanese": "{二|に}{月|がつ}は{短|みじか}いです。",
+        "english": "February is short.",
+        "notes": "二月 means February"
+      }
+    ],
+    "notes": "The reading changes in some contexts: {二|ふた}つ (futatsu, two things), {二|ふた}{人|り} (futari, two people). Note that {二|ふた}{人|り} is a special reading. In most counter combinations, に is used: {二|に}{冊|さつ} (nisatsu, two books), {二|に}{台|だい} (nidai, two machines).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "ni_00001": {
     "id": "ni_00001",
     "headword": "に",
@@ -30421,48 +30463,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
       "modified": "2026-01-07T10:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "ni_00093": {
-    "id": "ni_00093",
-    "headword": "{二|に}",
-    "reading": "に",
-    "part_of_speech": "number",
-    "gloss": "two",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "two",
-        "explanation": "The number two. A fundamental counting number used throughout Japanese. Like other numbers, に combines with various counters and may change pronunciation in some combinations."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{二|に}{人|にん}で{行|い}きましょう。",
-        "english": "Let's go together (the two of us).",
-        "notes": null
-      },
-      {
-        "japanese": "コーヒーを{二|に}つください。",
-        "english": "Two coffees, please.",
-        "notes": null
-      },
-      {
-        "japanese": "{二|に}{月|がつ}は{短|みじか}いです。",
-        "english": "February is short.",
-        "notes": "二月 means February"
-      }
-    ],
-    "notes": "The reading changes in some contexts: {二|ふた}つ (futatsu, two things), {二|ふた}{人|り} (futari, two people). Note that {二|ふた}{人|り} is a special reading. In most counter combinations, に is used: {二|に}{冊|さつ} (nisatsu, two books), {二|に}{台|だい} (nidai, two machines).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -34092,6 +34092,53 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "oru_00147": {
+    "id": "oru_00147",
+    "headword": "おる",
+    "reading": "おる",
+    "part_of_speech": "verb",
+    "gloss": "to be; to exist (humble/regional)",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to be (humble)",
+        "explanation": "Humble form of いる, used when referring to oneself or one's group."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "to be (regional)",
+        "explanation": "Used as the standard form of いる in western Japanese dialects."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{田中|たなか}はただいま{席|せき}を{外|はず}しております。",
+        "english": "Tanaka is away from his desk at the moment.",
+        "notes": "Business phone language"
+      },
+      {
+        "japanese": "{私|わたし}どもは{東京|とうきょう}におります。",
+        "english": "We are in Tokyo.",
+        "notes": "Humble plural"
+      },
+      {
+        "japanese": "お{待|ま}ちしております。",
+        "english": "We are waiting for you.",
+        "notes": "Polite business expression"
+      }
+    ],
+    "notes": "おる functions as the humble form of いる in standard Japanese keigo, and as the regular equivalent of いる in Kansai and other western dialects.\n\nCONJUGATION:\n- おります (polite)\n- おって (te-form)\n- おった (past)\n\nKEIGO TYPE:\n- 謙譲語 (kenjougo): Humble language (in standard Japanese)\n- Honorific equivalent: いらっしゃる",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T03:55:00Z",
+      "modified": "2026-01-08T03:55:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
   "oru_00126": {
     "id": "oru_00126",
     "headword": "{折|お}る",
@@ -34134,53 +34181,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
       "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N4",
-      "frequency_rank": null
-    }
-  },
-  "oru_00147": {
-    "id": "oru_00147",
-    "headword": "おる",
-    "reading": "おる",
-    "part_of_speech": "verb",
-    "gloss": "to be; to exist (humble/regional)",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to be (humble)",
-        "explanation": "Humble form of いる, used when referring to oneself or one's group."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "to be (regional)",
-        "explanation": "Used as the standard form of いる in western Japanese dialects."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{田中|たなか}はただいま{席|せき}を{外|はず}しております。",
-        "english": "Tanaka is away from his desk at the moment.",
-        "notes": "Business phone language"
-      },
-      {
-        "japanese": "{私|わたし}どもは{東京|とうきょう}におります。",
-        "english": "We are in Tokyo.",
-        "notes": "Humble plural"
-      },
-      {
-        "japanese": "お{待|ま}ちしております。",
-        "english": "We are waiting for you.",
-        "notes": "Polite business expression"
-      }
-    ],
-    "notes": "おる functions as the humble form of いる in standard Japanese keigo, and as the regular equivalent of いる in Kansai and other western dialects.\n\nCONJUGATION:\n- おります (polite)\n- おって (te-form)\n- おった (past)\n\nKEIGO TYPE:\n- 謙譲語 (kenjougo): Humble language (in standard Japanese)\n- Honorific equivalent: いらっしゃる",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-08T03:55:00Z",
-      "modified": "2026-01-08T03:55:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -43451,6 +43451,43 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "taitei_00394": {
+    "id": "taitei_00394",
+    "headword": "{大抵|たいてい}",
+    "reading": "たいてい",
+    "part_of_speech": "adverb",
+    "gloss": "usually, mostly",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "usually, mostly, generally",
+        "explanation": "In most cases or situations."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{大抵|たいてい}7{時|じ}に{起|お}きる。",
+        "english": "I usually wake up at 7.",
+        "notes": null
+      },
+      {
+        "japanese": "{大抵|たいてい}の{人|ひと}は{知|し}っている。",
+        "english": "Most people know.",
+        "notes": null
+      }
+    ],
+    "notes": "Can also function as a noun meaning \"most things/people.\"",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
   "taitei_00103": {
     "id": "taitei_00103",
     "headword": "たいてい",
@@ -43490,43 +43527,6 @@ const DICTIONARY_DATA = {
       "confidence": "high",
       "review_status": "verified",
       "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "taitei_00394": {
-    "id": "taitei_00394",
-    "headword": "{大抵|たいてい}",
-    "reading": "たいてい",
-    "part_of_speech": "adverb",
-    "gloss": "usually, mostly",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "usually, mostly, generally",
-        "explanation": "In most cases or situations."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{大抵|たいてい}7{時|じ}に{起|お}きる。",
-        "english": "I usually wake up at 7.",
-        "notes": null
-      },
-      {
-        "japanese": "{大抵|たいてい}の{人|ひと}は{知|し}っている。",
-        "english": "Most people know.",
-        "notes": null
-      }
-    ],
-    "notes": "Can also function as a noun meaning \"most things/people.\"",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "jlpt_level": "N4",
       "frequency_rank": null
     }
   },
@@ -44330,50 +44330,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "tateru_00111": {
-    "id": "tateru_00111",
-    "headword": "{建|た}てる",
-    "reading": "たてる",
-    "part_of_speech": "verb (ichidan)",
-    "gloss": "to build, to construct",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to build, to construct",
-        "explanation": "To construct a building or structure."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{新|あたら}しい{家|いえ}を{建|た}てる。",
-        "english": "Build a new house.",
-        "notes": null
-      },
-      {
-        "japanese": "ここにビルが{建|た}てられた。",
-        "english": "A building was constructed here.",
-        "notes": "Passive form"
-      },
-      {
-        "japanese": "{夢|ゆめ}のマイホームを{建|た}てたい。",
-        "english": "I want to build my dream home.",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {建|た}つ (intransitive, to be built). Pattern: Xを{建|た}てる (build X).\n\nASPECT: ている indicates completed state. {建|た}てている = 'is building' or 'has built.'\n\nCOMMON PATTERNS:\n・{家|いえ}を{建|た}てる (build a house)\n・ビルを{建|た}てる (construct a building)\n・{建|た}て{替|か}える (rebuild)\n・{一戸建|いっこだ}て (detached house—noun)\n\nCONTRAST:\n・{建|た}てる (transitive): (someone) builds X\n・{建|た}つ (intransitive): X is built/stands\n\nHOMOPHONE: Don't confuse with {立|た}てる (to stand something up), which has the same reading but different meaning.\n・{建|た}てる (建): to build (structures)\n・{立|た}てる (立): to stand up, erect (general)",
-    "cross_references": [
-      "tateru_00112"
-    ],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N4",
-      "frequency_rank": null
-    }
-  },
   "tateru_00112": {
     "id": "tateru_00112",
     "headword": "{立|た}てる",
@@ -44412,6 +44368,50 @@ const DICTIONARY_DATA = {
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {立|た}つ (intransitive, to stand). Pattern: Xを{立|た}てる (stand X up / make X).\n\nASPECT: ている indicates resulting state. {立|た}てている = 'has set up' or 'is standing (something).'\n\nCOMMON PATTERNS:\n・{計画|けいかく}を{立|た}てる (make a plan)\n・{予定|よてい}を{立|た}てる (make a schedule)\n・{目標|もくひょう}を{立|た}てる (set a goal)\n・{音|おと}を{立|た}てる (make a sound)\n・{旗|はた}を{立|た}てる (raise a flag)\n・{腹|はら}を{立|た}てる (get angry)\n\nHOMOPHONE: Don't confuse with {建|た}てる (to build), which has the same reading.\n・{立|た}てる (立): to stand up, erect (general)\n・{建|た}てる (建): to build (structures)\n\nCONTRAST:\n・{立|た}てる (transitive): stand X up\n・{立|た}つ (intransitive): X stands",
     "cross_references": [
       "tateru_00111"
+    ],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
+  "tateru_00111": {
+    "id": "tateru_00111",
+    "headword": "{建|た}てる",
+    "reading": "たてる",
+    "part_of_speech": "verb (ichidan)",
+    "gloss": "to build, to construct",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to build, to construct",
+        "explanation": "To construct a building or structure."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{新|あたら}しい{家|いえ}を{建|た}てる。",
+        "english": "Build a new house.",
+        "notes": null
+      },
+      {
+        "japanese": "ここにビルが{建|た}てられた。",
+        "english": "A building was constructed here.",
+        "notes": "Passive form"
+      },
+      {
+        "japanese": "{夢|ゆめ}のマイホームを{建|た}てたい。",
+        "english": "I want to build my dream home.",
+        "notes": null
+      }
+    ],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {建|た}つ (intransitive, to be built). Pattern: Xを{建|た}てる (build X).\n\nASPECT: ている indicates completed state. {建|た}てている = 'is building' or 'has built.'\n\nCOMMON PATTERNS:\n・{家|いえ}を{建|た}てる (build a house)\n・ビルを{建|た}てる (construct a building)\n・{建|た}て{替|か}える (rebuild)\n・{一戸建|いっこだ}て (detached house—noun)\n\nCONTRAST:\n・{建|た}てる (transitive): (someone) builds X\n・{建|た}つ (intransitive): X is built/stands\n\nHOMOPHONE: Don't confuse with {立|た}てる (to stand something up), which has the same reading but different meaning.\n・{建|た}てる (建): to build (structures)\n・{立|た}てる (立): to stand up, erect (general)",
+    "cross_references": [
+      "tateru_00112"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -44514,50 +44514,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "tazuneru_00110": {
-    "id": "tazuneru_00110",
-    "headword": "{訪|たず}ねる",
-    "reading": "たずねる",
-    "part_of_speech": "verb (ichidan)",
-    "gloss": "to visit",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to visit, to call on",
-        "explanation": "To go to see someone at their home or office. A polite way to express visiting."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{友達|ともだち}の{家|いえ}を{訪|たず}ねた。",
-        "english": "I visited my friend's house.",
-        "notes": null
-      },
-      {
-        "japanese": "{京都|きょうと}のお{寺|てら}を{訪|たず}ねる。",
-        "english": "Visit temples in Kyoto.",
-        "notes": "Can be used for visiting places"
-      },
-      {
-        "japanese": "{先生|せんせい}を{訪|たず}ねて{行|い}った。",
-        "english": "I went to visit the teacher.",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{訪|たず}ねる (visit X).\n\nASPECT: ている indicates ongoing or completed action. {訪|たず}ねている = 'is visiting.'\n\nCOMMON PATTERNS:\n・{人|ひと}を{訪|たず}ねる (visit a person)\n・{場所|ばしょ}を{訪|たず}ねる (visit a place)\n・{訪|たず}ねて{来|く}る (come to visit)\n・{訪|たず}ねて{行|い}く (go to visit)\n\nHOMOPHONE: Don't confuse with {尋|たず}ねる (to ask/inquire), which has the same reading but different kanji and meaning.\n・{訪|たず}ねる (訪): to visit\n・{尋|たず}ねる (尋): to ask, inquire\n\nSYNONYMS:\n・{訪問|ほうもん}する: to visit (more formal)\n・{伺|うかが}う: to visit (humble)\n\nREGISTER: Neutral to slightly formal.",
-    "cross_references": [
-      "tazuneru_00109"
-    ],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N4",
-      "frequency_rank": null
-    }
-  },
   "tazuneru_00109": {
     "id": "tazuneru_00109",
     "headword": "{尋|たず}ねる",
@@ -44591,6 +44547,50 @@ const DICTIONARY_DATA = {
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xに Yを{尋|たず}ねる (ask X about Y).\n\nASPECT: ている indicates ongoing or completed action. {尋|たず}ねている = 'is asking.'\n\nCOMMON PATTERNS:\n・{道|みち}を{尋|たず}ねる (ask for directions)\n・{名前|なまえ}を{尋|たず}ねる (ask someone's name)\n・{意見|いけん}を{尋|たず}ねる (ask for an opinion)\n\nHOMOPHONE: Don't confuse with {訪|たず}ねる (to visit), which has the same reading but different kanji and meaning.\n・{尋|たず}ねる (尋): to ask, inquire\n・{訪|たず}ねる (訪): to visit\n\nCONTRAST WITH {聞|き}く:\n・{聞|き}く: general 'ask' or 'listen' (neutral)\n・{尋|たず}ねる: 'inquire' (slightly more formal)\n\nREGISTER: Slightly formal. {聞|き}く is more casual.",
     "cross_references": [
       "tazuneru_00110"
+    ],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N4",
+      "frequency_rank": null
+    }
+  },
+  "tazuneru_00110": {
+    "id": "tazuneru_00110",
+    "headword": "{訪|たず}ねる",
+    "reading": "たずねる",
+    "part_of_speech": "verb (ichidan)",
+    "gloss": "to visit",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to visit, to call on",
+        "explanation": "To go to see someone at their home or office. A polite way to express visiting."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{友達|ともだち}の{家|いえ}を{訪|たず}ねた。",
+        "english": "I visited my friend's house.",
+        "notes": null
+      },
+      {
+        "japanese": "{京都|きょうと}のお{寺|てら}を{訪|たず}ねる。",
+        "english": "Visit temples in Kyoto.",
+        "notes": "Can be used for visiting places"
+      },
+      {
+        "japanese": "{先生|せんせい}を{訪|たず}ねて{行|い}った。",
+        "english": "I went to visit the teacher.",
+        "notes": null
+      }
+    ],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{訪|たず}ねる (visit X).\n\nASPECT: ている indicates ongoing or completed action. {訪|たず}ねている = 'is visiting.'\n\nCOMMON PATTERNS:\n・{人|ひと}を{訪|たず}ねる (visit a person)\n・{場所|ばしょ}を{訪|たず}ねる (visit a place)\n・{訪|たず}ねて{来|く}る (come to visit)\n・{訪|たず}ねて{行|い}く (go to visit)\n\nHOMOPHONE: Don't confuse with {尋|たず}ねる (to ask/inquire), which has the same reading but different kanji and meaning.\n・{訪|たず}ねる (訪): to visit\n・{尋|たず}ねる (尋): to ask, inquire\n\nSYNONYMS:\n・{訪問|ほうもん}する: to visit (more formal)\n・{伺|うかが}う: to visit (humble)\n\nREGISTER: Neutral to slightly formal.",
+    "cross_references": [
+      "tazuneru_00109"
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
@@ -47109,6 +47109,55 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
+  "tsukeru_00093": {
+    "id": "tsukeru_00093",
+    "headword": "{付|つ}ける",
+    "reading": "つける",
+    "part_of_speech": "verb (ichidan)",
+    "gloss": "to attach, to turn on",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "to attach, to stick on",
+        "explanation": "To fasten, attach, or apply something to something else. The transitive pair of {付|つ}く (to stick to)."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "to turn on (lights, appliances)",
+        "explanation": "To switch on electrical devices. Written as {点|つ}ける for this meaning. Opposite of {消|け}す (to turn off)."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{電気|でんき}を{点|つ}けてください。",
+        "english": "Please turn on the light.",
+        "notes": null
+      },
+      {
+        "japanese": "{名前|なまえ}を{付|つ}けました。",
+        "english": "I gave it a name.",
+        "notes": "名前を付ける = to name"
+      },
+      {
+        "japanese": "テレビを{点|つ}けてもいいですか。",
+        "english": "May I turn on the TV?",
+        "notes": null
+      }
+    ],
+    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {付|つ}く (intransitive). Pattern: Xを{付|つ}ける (attach X).\n\nASPECT: ている indicates resulting state. {付|つ}けている = 'have attached' or 'is wearing.'\n\nCOMMON PATTERNS:\n・{名前|なまえ}を{付|つ}ける (give a name)\n・{電気|でんき}を{点|つ}ける (turn on light)\n・{気|き}を{付|つ}ける (be careful)\n・マークを{付|つ}ける (put a mark)\n\nPAIR: {付|つ}く (intransitive) - {汚|よご}れが{付|つ}いた (dirt stuck). Multiple kanji: {付|つ}ける (attach), {点|つ}ける (turn on).",
+    "cross_references": [
+      "kesu_00013"
+    ],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
   "tsukeru_00022": {
     "id": "tsukeru_00022",
     "headword": "つける",
@@ -47152,55 +47201,6 @@ const DICTIONARY_DATA = {
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
       "modified": "2026-01-07T14:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
-  "tsukeru_00093": {
-    "id": "tsukeru_00093",
-    "headword": "{付|つ}ける",
-    "reading": "つける",
-    "part_of_speech": "verb (ichidan)",
-    "gloss": "to attach, to turn on",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "to attach, to stick on",
-        "explanation": "To fasten, attach, or apply something to something else. The transitive pair of {付|つ}く (to stick to)."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "to turn on (lights, appliances)",
-        "explanation": "To switch on electrical devices. Written as {点|つ}ける for this meaning. Opposite of {消|け}す (to turn off)."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{電気|でんき}を{点|つ}けてください。",
-        "english": "Please turn on the light.",
-        "notes": null
-      },
-      {
-        "japanese": "{名前|なまえ}を{付|つ}けました。",
-        "english": "I gave it a name.",
-        "notes": "名前を付ける = to name"
-      },
-      {
-        "japanese": "テレビを{点|つ}けてもいいですか。",
-        "english": "May I turn on the TV?",
-        "notes": null
-      }
-    ],
-    "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {付|つ}く (intransitive). Pattern: Xを{付|つ}ける (attach X).\n\nASPECT: ている indicates resulting state. {付|つ}けている = 'have attached' or 'is wearing.'\n\nCOMMON PATTERNS:\n・{名前|なまえ}を{付|つ}ける (give a name)\n・{電気|でんき}を{点|つ}ける (turn on light)\n・{気|き}を{付|つ}ける (be careful)\n・マークを{付|つ}ける (put a mark)\n\nPAIR: {付|つ}く (intransitive) - {汚|よご}れが{付|つ}いた (dirt stuck). Multiple kanji: {付|つ}ける (attach), {点|つ}ける (turn on).",
-    "cross_references": [
-      "kesu_00013"
-    ],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -49435,43 +49435,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "wakai_00365": {
-    "id": "wakai_00365",
-    "headword": "{若い|わかい}",
-    "reading": "わかい",
-    "part_of_speech": "adjective (i-adjective)",
-    "gloss": "young",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "young",
-        "explanation": "Having lived or existed for only a short time."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{若|わか}い{時|とき}にたくさん{旅行|りょこう}した。",
-        "english": "I traveled a lot when I was young.",
-        "notes": null
-      },
-      {
-        "japanese": "{彼女|かのじょ}は{見|み}た{目|め}より{若|わか}い。",
-        "english": "She's younger than she looks.",
-        "notes": null
-      }
-    ],
-    "notes": "Related: {若者|わかもの} (young person), {若|わか}さ (youth).",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "reviewed",
-      "jlpt_level": "N4",
-      "frequency_rank": null
-    }
-  },
   "wakai_00094": {
     "id": "wakai_00094",
     "headword": "{若|わか}い",
@@ -49516,6 +49479,43 @@ const DICTIONARY_DATA = {
       "confidence": "high",
       "review_status": "verified",
       "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "wakai_00365": {
+    "id": "wakai_00365",
+    "headword": "{若い|わかい}",
+    "reading": "わかい",
+    "part_of_speech": "adjective (i-adjective)",
+    "gloss": "young",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "young",
+        "explanation": "Having lived or existed for only a short time."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{若|わか}い{時|とき}にたくさん{旅行|りょこう}した。",
+        "english": "I traveled a lot when I was young.",
+        "notes": null
+      },
+      {
+        "japanese": "{彼女|かのじょ}は{見|み}た{目|め}より{若|わか}い。",
+        "english": "She's younger than she looks.",
+        "notes": null
+      }
+    ],
+    "notes": "Related: {若者|わかもの} (young person), {若|わか}さ (youth).",
+    "cross_references": [],
+    "metadata": {
+      "created": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-08T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "jlpt_level": "N4",
       "frequency_rank": null
     }
   },
@@ -50670,53 +50670,6 @@ const DICTIONARY_DATA = {
       "frequency_rank": null
     }
   },
-  "yasashii_00093": {
-    "id": "yasashii_00093",
-    "headword": "{易|やさ}しい",
-    "reading": "やさしい",
-    "part_of_speech": "adjective (i-adjective)",
-    "gloss": "easy; kind, gentle",
-    "definitions": [
-      {
-        "sense_number": 1,
-        "gloss": "easy, simple",
-        "explanation": "Describes something that is not difficult. Written as {易|やさ}しい. Similar to {簡単|かんたん}."
-      },
-      {
-        "sense_number": 2,
-        "gloss": "kind, gentle",
-        "explanation": "Describes a person who is kind-hearted, gentle, or tender. Written as {優|やさ}しい."
-      }
-    ],
-    "examples": [
-      {
-        "japanese": "{易|やさ}しい{日本語|にほんご}で{書|か}いてあります。",
-        "english": "It's written in easy Japanese.",
-        "notes": "Using the 'easy' meaning"
-      },
-      {
-        "japanese": "{彼|かれ}は{優|やさ}しい{人|ひと}です。",
-        "english": "He is a kind person.",
-        "notes": "Using the 'kind' meaning"
-      },
-      {
-        "japanese": "もっと{易|やさ}しい{問題|もんだい}をください。",
-        "english": "Please give me an easier problem.",
-        "notes": null
-      }
-    ],
-    "notes": "This word has two distinct meanings with different kanji: {易|やさ}しい (easy) and {優|やさ}しい (kind/gentle). Context usually makes the meaning clear. When written in hiragana (やさしい), it could be either meaning.",
-    "cross_references": [],
-    "metadata": {
-      "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
-      "ai_model": "claude-opus-4-5",
-      "confidence": "high",
-      "review_status": "verified",
-      "jlpt_level": "N5",
-      "frequency_rank": null
-    }
-  },
   "yasashii_00003": {
     "id": "yasashii_00003",
     "headword": "{易|やさ}しい／{優|やさ}しい",
@@ -50756,6 +50709,53 @@ const DICTIONARY_DATA = {
     "cross_references": [
       "muzukashii_00010"
     ],
+    "metadata": {
+      "created": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-07T12:00:00Z",
+      "ai_model": "claude-opus-4-5",
+      "confidence": "high",
+      "review_status": "verified",
+      "jlpt_level": "N5",
+      "frequency_rank": null
+    }
+  },
+  "yasashii_00093": {
+    "id": "yasashii_00093",
+    "headword": "{易|やさ}しい",
+    "reading": "やさしい",
+    "part_of_speech": "adjective (i-adjective)",
+    "gloss": "easy; kind, gentle",
+    "definitions": [
+      {
+        "sense_number": 1,
+        "gloss": "easy, simple",
+        "explanation": "Describes something that is not difficult. Written as {易|やさ}しい. Similar to {簡単|かんたん}."
+      },
+      {
+        "sense_number": 2,
+        "gloss": "kind, gentle",
+        "explanation": "Describes a person who is kind-hearted, gentle, or tender. Written as {優|やさ}しい."
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "{易|やさ}しい{日本語|にほんご}で{書|か}いてあります。",
+        "english": "It's written in easy Japanese.",
+        "notes": "Using the 'easy' meaning"
+      },
+      {
+        "japanese": "{彼|かれ}は{優|やさ}しい{人|ひと}です。",
+        "english": "He is a kind person.",
+        "notes": "Using the 'kind' meaning"
+      },
+      {
+        "japanese": "もっと{易|やさ}しい{問題|もんだい}をください。",
+        "english": "Please give me an easier problem.",
+        "notes": null
+      }
+    ],
+    "notes": "This word has two distinct meanings with different kanji: {易|やさ}しい (easy) and {優|やさ}しい (kind/gentle). Context usually makes the meaning clear. When written in hiragana (やさしい), it could be either meaning.",
+    "cross_references": [],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
       "modified": "2026-01-07T12:00:00Z",
@@ -52700,15 +52700,15 @@ const DICTIONARY_INDEX = {
     "あまり": [
       "amari_00066"
     ],
-    "飴": [
-      "ame_00092"
-    ],
-    "あめ": [
-      "ame_00092",
-      "ame_00044"
-    ],
     "雨": [
       "ame_00044"
+    ],
+    "あめ": [
+      "ame_00044",
+      "ame_00092"
+    ],
+    "飴": [
+      "ame_00092"
     ],
     "姉": [
       "ane_00028"
@@ -53106,12 +53106,12 @@ const DICTIONARY_INDEX = {
       "chikai_00014"
     ],
     "近く": [
-      "chikaku_00096",
-      "chikaku_00284"
+      "chikaku_00284",
+      "chikaku_00096"
     ],
     "ちかく": [
-      "chikaku_00096",
-      "chikaku_00284"
+      "chikaku_00284",
+      "chikaku_00096"
     ],
     "地下鉄": [
       "chikatetsu_00097"
@@ -53693,12 +53693,12 @@ const DICTIONARY_INDEX = {
     "ぎゅうにゅう": [
       "gyuunyuu_00094"
     ],
-    "歯": [
+    "は": [
+      "ha_00001",
       "ha_00094"
     ],
-    "は": [
-      "ha_00094",
-      "ha_00001"
+    "歯": [
+      "ha_00094"
     ],
     "八": [
       "hachi_00093"
@@ -53833,15 +53833,15 @@ const DICTIONARY_INDEX = {
     "はさみ": [
       "hasami_00093"
     ],
-    "箸": [
-      "hashi_00097"
-    ],
-    "はし": [
-      "hashi_00097",
-      "hashi_00096"
-    ],
     "端": [
       "hashi_00096"
+    ],
+    "はし": [
+      "hashi_00096",
+      "hashi_00097"
+    ],
+    "箸": [
+      "hashi_00097"
     ],
     "走る": [
       "hashiru_00011"
@@ -54541,15 +54541,15 @@ const DICTIONARY_INDEX = {
     "かえり": [
       "kaeri_00130"
     ],
-    "帰る": [
-      "kaeru_00009"
-    ],
-    "かえる": [
-      "kaeru_00009",
-      "kaeru_00099"
-    ],
     "変える": [
       "kaeru_00099"
+    ],
+    "かえる": [
+      "kaeru_00099",
+      "kaeru_00009"
+    ],
+    "帰る": [
+      "kaeru_00009"
     ],
     "科学": [
       "kagaku_00131"
@@ -56265,12 +56265,12 @@ const DICTIONARY_INDEX = {
     "ねっしん": [
       "nesshin_00114"
     ],
-    "に": [
-      "ni_00001",
-      "ni_00093"
-    ],
     "二": [
       "ni_00093"
+    ],
+    "に": [
+      "ni_00093",
+      "ni_00001"
     ],
     "二倍": [
       "nibai_00311"
@@ -56729,12 +56729,12 @@ const DICTIONARY_INDEX = {
     "おりる": [
       "oriru_00025"
     ],
-    "折る": [
+    "おる": [
+      "oru_00147",
       "oru_00126"
     ],
-    "おる": [
-      "oru_00126",
-      "oru_00147"
+    "折る": [
+      "oru_00126"
     ],
     "お酒": [
       "osake_00097"
@@ -57949,12 +57949,12 @@ const DICTIONARY_INDEX = {
     "たいしかん": [
       "taishikan_00279"
     ],
-    "たいてい": [
-      "taitei_00103",
-      "taitei_00394"
-    ],
     "大抵": [
       "taitei_00394"
+    ],
+    "たいてい": [
+      "taitei_00394",
+      "taitei_00103"
     ],
     "高い": [
       "takai_00007"
@@ -58055,15 +58055,15 @@ const DICTIONARY_INDEX = {
     "たてもの": [
       "tatemono_00280"
     ],
-    "建てる": [
-      "tateru_00111"
-    ],
-    "たてる": [
-      "tateru_00111",
-      "tateru_00112"
-    ],
     "立てる": [
       "tateru_00112"
+    ],
+    "たてる": [
+      "tateru_00112",
+      "tateru_00111"
+    ],
+    "建てる": [
+      "tateru_00111"
     ],
     "例えば": [
       "tatoeba_00096"
@@ -58077,15 +58077,15 @@ const DICTIONARY_INDEX = {
     "たつ": [
       "tatsu_00093"
     ],
-    "訪ねる": [
-      "tazuneru_00110"
-    ],
-    "たずねる": [
-      "tazuneru_00110",
-      "tazuneru_00109"
-    ],
     "尋ねる": [
       "tazuneru_00109"
+    ],
+    "たずねる": [
+      "tazuneru_00109",
+      "tazuneru_00110"
+    ],
+    "訪ねる": [
+      "tazuneru_00110"
     ],
     "手": [
       "te_00025"
@@ -58372,12 +58372,12 @@ const DICTIONARY_INDEX = {
     "つかう": [
       "tsukau_00003"
     ],
-    "つける": [
-      "tsukeru_00022",
-      "tsukeru_00093"
-    ],
     "付ける": [
       "tsukeru_00093"
+    ],
+    "つける": [
+      "tsukeru_00093",
+      "tsukeru_00022"
     ],
     "月": [
       "tsuki_00290"
@@ -58650,12 +58650,12 @@ const DICTIONARY_INDEX = {
       "waishatsu_00097"
     ],
     "若い": [
-      "wakai_00365",
-      "wakai_00094"
+      "wakai_00094",
+      "wakai_00365"
     ],
     "わかい": [
-      "wakai_00365",
-      "wakai_00094"
+      "wakai_00094",
+      "wakai_00365"
     ],
     "別れる": [
       "wakareru_00101"
@@ -58777,15 +58777,15 @@ const DICTIONARY_INDEX = {
     "やさい": [
       "yasai_00008"
     ],
-    "易しい": [
-      "yasashii_00093"
-    ],
-    "やさしい": [
-      "yasashii_00093",
-      "yasashii_00003"
-    ],
     "易しい／優しい": [
       "yasashii_00003"
+    ],
+    "やさしい": [
+      "yasashii_00003",
+      "yasashii_00093"
+    ],
+    "易しい": [
+      "yasashii_00093"
     ],
     "痩せる": [
       "yaseru_00105"
@@ -59058,8 +59058,8 @@ const DICTIONARY_INDEX = {
       "amari_00066"
     ],
     "ame": [
-      "ame_00092",
-      "ame_00044"
+      "ame_00044",
+      "ame_00092"
     ],
     "ane": [
       "ane_00028"
@@ -59270,8 +59270,8 @@ const DICTIONARY_INDEX = {
       "chikai_00014"
     ],
     "chikaku": [
-      "chikaku_00096",
-      "chikaku_00284"
+      "chikaku_00284",
+      "chikaku_00096"
     ],
     "chikatetsu": [
       "chikatetsu_00097"
@@ -59596,8 +59596,8 @@ const DICTIONARY_INDEX = {
       "gyuunyuu_00094"
     ],
     "ha": [
-      "ha_00094",
-      "ha_00001"
+      "ha_00001",
+      "ha_00094"
     ],
     "hachi": [
       "hachi_00093"
@@ -59670,8 +59670,8 @@ const DICTIONARY_INDEX = {
       "hasami_00093"
     ],
     "hashi": [
-      "hashi_00097",
-      "hashi_00096"
+      "hashi_00096",
+      "hashi_00097"
     ],
     "hashiru": [
       "hashiru_00011"
@@ -60045,8 +60045,8 @@ const DICTIONARY_INDEX = {
       "kaeri_00130"
     ],
     "kaeru": [
-      "kaeru_00009",
-      "kaeru_00099"
+      "kaeru_00099",
+      "kaeru_00009"
     ],
     "kagaku": [
       "kagaku_00131"
@@ -60960,8 +60960,8 @@ const DICTIONARY_INDEX = {
       "nesshin_00114"
     ],
     "ni": [
-      "ni_00001",
-      "ni_00093"
+      "ni_00093",
+      "ni_00001"
     ],
     "nibai": [
       "nibai_00311"
@@ -61205,8 +61205,8 @@ const DICTIONARY_INDEX = {
       "oriru_00025"
     ],
     "oru": [
-      "oru_00126",
-      "oru_00147"
+      "oru_00147",
+      "oru_00126"
     ],
     "osake": [
       "osake_00097"
@@ -61858,8 +61858,8 @@ const DICTIONARY_INDEX = {
       "taishikan_00279"
     ],
     "taitei": [
-      "taitei_00103",
-      "taitei_00394"
+      "taitei_00394",
+      "taitei_00103"
     ],
     "takai": [
       "takai_00007"
@@ -61916,8 +61916,8 @@ const DICTIONARY_INDEX = {
       "tatemono_00280"
     ],
     "tateru": [
-      "tateru_00111",
-      "tateru_00112"
+      "tateru_00112",
+      "tateru_00111"
     ],
     "tatoeba": [
       "tatoeba_00096"
@@ -61926,8 +61926,8 @@ const DICTIONARY_INDEX = {
       "tatsu_00093"
     ],
     "tazuneru": [
-      "tazuneru_00110",
-      "tazuneru_00109"
+      "tazuneru_00109",
+      "tazuneru_00110"
     ],
     "te": [
       "te_00025"
@@ -62077,8 +62077,8 @@ const DICTIONARY_INDEX = {
       "tsukau_00003"
     ],
     "tsukeru": [
-      "tsukeru_00022",
-      "tsukeru_00093"
+      "tsukeru_00093",
+      "tsukeru_00022"
     ],
     "tsuki": [
       "tsuki_00290"
@@ -62225,8 +62225,8 @@ const DICTIONARY_INDEX = {
       "waishatsu_00097"
     ],
     "wakai": [
-      "wakai_00365",
-      "wakai_00094"
+      "wakai_00094",
+      "wakai_00365"
     ],
     "wakareru": [
       "wakareru_00101"
@@ -62292,8 +62292,8 @@ const DICTIONARY_INDEX = {
       "yasai_00008"
     ],
     "yasashii": [
-      "yasashii_00093",
-      "yasashii_00003"
+      "yasashii_00003",
+      "yasashii_00093"
     ],
     "yaseru": [
       "yaseru_00105"
@@ -62593,8 +62593,8 @@ const DICTIONARY_INDEX = {
       "itasu_00144",
       "iu_00010",
       "kaburu_00093",
-      "kaeru_00009",
       "kaeru_00099",
+      "kaeru_00009",
       "kakaru_00093",
       "kakeru_00095",
       "kaku_00004",
@@ -62694,8 +62694,8 @@ const DICTIONARY_INDEX = {
       "omou_00006",
       "oreru_00127",
       "oriru_00025",
-      "oru_00126",
       "oru_00147",
+      "oru_00126",
       "oshieru_00012",
       "ossharu_00138",
       "otosu_00122",
@@ -62733,11 +62733,11 @@ const DICTIONARY_INDEX = {
       "tariru_00114",
       "tasu_00108",
       "tasukeru_00095",
-      "tateru_00111",
       "tateru_00112",
+      "tateru_00111",
       "tatsu_00093",
-      "tazuneru_00110",
       "tazuneru_00109",
+      "tazuneru_00110",
       "tetsudau_00095",
       "tobu_00093",
       "todokeru_00122",
@@ -62752,8 +62752,8 @@ const DICTIONARY_INDEX = {
       "tsukamaeru_00115",
       "tsukareru_00095",
       "tsukau_00003",
-      "tsukeru_00022",
       "tsukeru_00093",
+      "tsukeru_00022",
       "tsuku_00091",
       "tsukuru_00004",
       "tsumetai_00091",
@@ -63118,6 +63118,10 @@ const DICTIONARY_INDEX = {
       "takusan_00059",
       "zutto_00095"
     ],
+    "rain": [
+      "ame_00044",
+      "furu_00095"
+    ],
     "candy": [
       "ame_00092"
     ],
@@ -63132,10 +63136,6 @@ const DICTIONARY_INDEX = {
     ],
     "sweets": [
       "ame_00092"
-    ],
-    "rain": [
-      "ame_00044",
-      "furu_00095"
     ],
     "older": [
       "ane_00028",
@@ -64177,35 +64177,35 @@ const DICTIONARY_INDEX = {
     ],
     "nearby": [
       "chikai_00014",
-      "chikaku_00096",
       "chikaku_00284",
+      "chikaku_00096",
       "sugu_00094"
     ],
     "vicinity": [
-      "chikaku_00096",
       "chikaku_00284",
+      "chikaku_00096",
       "hen_00096",
       "kinjo_00145"
     ],
     "neighborhood": [
-      "chikaku_00096",
       "chikaku_00284",
+      "chikaku_00096",
       "hen_00096",
       "kinjo_00145"
     ],
     "nearly": [
+      "chikaku_00284",
       "chikaku_00096",
+      "hotondo_00095",
+      "mousugu_00116"
+    ],
+    "almost": [
       "chikaku_00284",
       "hotondo_00095",
       "mousugu_00116"
     ],
     "amount": [
       "chikaku_00096"
-    ],
-    "almost": [
-      "chikaku_00284",
-      "hotondo_00095",
-      "mousugu_00116"
     ],
     "subway": [
       "chikatetsu_00097"
@@ -64432,14 +64432,14 @@ const DICTIONARY_INDEX = {
     ],
     "generally": [
       "daitai_00095",
-      "taitei_00103",
-      "taitei_00394"
+      "taitei_00394",
+      "taitei_00103"
     ],
     "mostly": [
       "daitai_00095",
       "hotondo_00095",
-      "taitei_00103",
-      "taitei_00394"
+      "taitei_00394",
+      "taitei_00103"
     ],
     "therefore": [
       "dakara_00096",
@@ -65081,8 +65081,8 @@ const DICTIONARY_INDEX = {
       "suru_00001",
       "tanomu_00100",
       "tazuneru_00110",
-      "tsukeru_00022",
       "tsukeru_00093",
+      "tsukeru_00022",
       "ue_00091"
     ],
     "tread": [
@@ -65209,8 +65209,8 @@ const DICTIONARY_INDEX = {
     "usually": [
       "futsuu_00333",
       "itsumo_00061",
-      "taitei_00103",
-      "taitei_00394"
+      "taitei_00394",
+      "taitei_00103"
     ],
     "normal": [
       "futsuu_00333"
@@ -65510,18 +65510,18 @@ const DICTIONARY_INDEX = {
     "cow's": [
       "gyuunyuu_00094"
     ],
-    "tooth": [
-      "ha_00094"
-    ],
-    "teeth": [
-      "ha_00094"
-    ],
     "topic": [
       "ha_00001",
       "hanashi_00323"
     ],
     "contrast": [
       "ha_00001"
+    ],
+    "tooth": [
+      "ha_00094"
+    ],
+    "teeth": [
+      "ha_00094"
     ],
     "eight": [
       "hachi_00093"
@@ -65716,9 +65716,6 @@ const DICTIONARY_INDEX = {
     "scissors": [
       "hasami_00093"
     ],
-    "chopsticks": [
-      "hashi_00097"
-    ],
     "edge": [
       "hashi_00096"
     ],
@@ -65732,6 +65729,9 @@ const DICTIONARY_INDEX = {
     ],
     "tip": [
       "hashi_00096"
+    ],
+    "chopsticks": [
+      "hashi_00097"
     ],
     "run": [
       "hashiru_00011",
@@ -66943,14 +66943,14 @@ const DICTIONARY_INDEX = {
     "easy": [
       "kantan_00093",
       "raku_00095",
-      "yasashii_00093",
-      "yasashii_00003"
+      "yasashii_00003",
+      "yasashii_00093"
     ],
     "simple": [
       "kantan_00093",
       "raku_00095",
-      "yasashii_00093",
-      "yasashii_00003"
+      "yasashii_00003",
+      "yasashii_00093"
     ],
     "brief": [
       "kantan_00093"
@@ -67268,8 +67268,8 @@ const DICTIONARY_INDEX = {
       "mukau_00111",
       "oreru_00127",
       "tomeru_00091",
-      "tsukeru_00022",
-      "tsukeru_00093"
+      "tsukeru_00093",
+      "tsukeru_00022"
     ],
     "off": [
       "kesu_00013",
@@ -68482,8 +68482,8 @@ const DICTIONARY_INDEX = {
     ],
     "young": [
       "musume_00094",
-      "wakai_00365",
-      "wakai_00094"
+      "wakai_00094",
+      "wakai_00365"
     ],
     "woman": [
       "musume_00094",
@@ -69188,14 +69188,14 @@ const DICTIONARY_INDEX = {
     "alight": [
       "oriru_00025"
     ],
-    "fold": [
-      "oru_00126"
-    ],
     "humble/regional": [
       "oru_00147"
     ],
     "regional": [
       "oru_00147"
+    ],
+    "fold": [
+      "oru_00126"
     ],
     "alcohol": [
       "osake_00097"
@@ -69839,8 +69839,8 @@ const DICTIONARY_INDEX = {
     "kind": [
       "shinsetsu_00105",
       "taipu_00379",
-      "yasashii_00093",
-      "yasashii_00003"
+      "yasashii_00003",
+      "yasashii_00093"
     ],
     "friendly": [
       "shinsetsu_00105"
@@ -70360,17 +70360,17 @@ const DICTIONARY_INDEX = {
     "structure": [
       "tatemono_00280"
     ],
-    "build": [
-      "tateru_00111"
-    ],
-    "construct": [
-      "tateru_00111"
-    ],
     "erect": [
       "tateru_00112"
     ],
     "establish": [
       "tateru_00112"
+    ],
+    "build": [
+      "tateru_00111"
+    ],
+    "construct": [
+      "tateru_00111"
     ],
     "example": [
       "tatoeba_00096"
@@ -70585,8 +70585,8 @@ const DICTIONARY_INDEX = {
       "tsukau_00003"
     ],
     "attach": [
-      "tsukeru_00022",
-      "tsukeru_00093"
+      "tsukeru_00093",
+      "tsukeru_00022"
     ],
     "stick": [
       "tsukeru_00093"
@@ -71005,8 +71005,8 @@ const DICTIONARY_INDEX = {
       "yasai_00008"
     ],
     "gentle": [
-      "yasashii_00093",
       "yasashii_00003",
+      "yasashii_00093",
       "yawarakai_00099"
     ],
     "tender": [
