@@ -11,7 +11,7 @@ This dictionary is designed for learners of Japanese as a second language. Unlik
 - **Usage notes** covering grammar, register, and common patterns
 - **Rich particle and auxiliary verb entries** crucial for learners
 - **Furigana support** with toggle to show/hide readings above kanji
-- **Multiple interface modes**: Search, Browse, and Compare views
+- **Multiple interface modes**: Search, Browse, Recent, and Random views
 - **Transitivity and aspect information** for verbs (v2 enhancement)
 - **Collocation patterns** showing natural word combinations (v2 enhancement)
 - **Keigo (honorific) verb coverage** with usage guidance
@@ -42,7 +42,7 @@ The dictionary is built as a **completely static website**:
 
 ## Web Interface
 
-The dictionary provides three different ways to explore entries:
+The dictionary provides four different ways to explore entries:
 
 ### Search Mode
 Quick lookup by Japanese, romaji, or English. The traditional dictionary experience for users who know what word they're looking for.
@@ -55,13 +55,16 @@ Filter and explore entries by:
 
 Ideal for systematic vocabulary study or exploring categories.
 
-### Compare Mode
-Side-by-side comparison of related words:
-- **Particles**: は vs が, に vs で, etc.
-- **Transitive/Intransitive pairs**: 開ける vs 開く, 閉める vs 閉まる, etc.
-- **Similar words**: 見る vs 見える vs 見せる, いる vs ある, etc.
+### Recent Mode
+View the most recently added or revised entries (up to 250). Each entry shows:
+- **NEW**: Newly created entries
+- **REVISED**: Updated existing entries
+- Date of addition/revision
 
-Helps learners understand nuanced differences between confusing word pairs.
+Useful for tracking dictionary updates and discovering new content.
+
+### Random Mode
+A word cloud of randomly selected entries. Click any word to view its full entry. Great for serendipitous discovery and vocabulary review.
 
 ## Furigana System
 
@@ -239,10 +242,10 @@ Files go in directories based on the first kana of the reading:
 
 ### Phase 4: N4 Expansion & Interface (Current)
 - [x] Added 392 N4 vocabulary entries
-- [x] Multiple interface modes (Search, Browse, Compare)
+- [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle and furigana button
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
-- [ ] Continue adding vocabulary from candidate list (1,992 candidates)
+- [ ] Continue adding vocabulary from candidate list (~1,993 candidates)
 - [ ] Implement cross-references
 - [ ] Conjugation search indexing
 

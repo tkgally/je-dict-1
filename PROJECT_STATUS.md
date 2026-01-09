@@ -21,7 +21,7 @@
 - [x] Quality specification v2 from multi-model evaluation
 - [x] Vocabulary-notes skill for formatting guidelines
 - [x] Notes field supports paragraph breaks and bullet points
-- [x] Multiple interface modes (Search, Browse, Compare)
+- [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle
 - [x] Last updated date in footer
 
@@ -97,11 +97,16 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 - Total entries now 1,153
 - Removed 34 duplicate entries from N3 vocabulary list
 
+### 2026-01-09 (Interface Refinements)
+- Removed Compare mode
+- Added Recent mode showing most recently added/revised entries (250 entries)
+- Added Random mode with word cloud display
+- Fixed Browse mode display on narrow screens
+
 ### 2026-01-08 (Web Interface Update)
-- Added three interface modes: Search, Browse, Compare
+- Added multiple interface modes: Search, Browse
 - Sticky header with interface toggle and furigana button
 - Browse mode with filters for JLPT level, part of speech, starting kana
-- Compare mode for side-by-side word comparisons
 
 ### Previous Sessions
 - Added 62 N4 vocabulary entries (adverbs, keigo verbs, nouns, katakana loanwords)
@@ -113,14 +118,59 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 ## Next Steps
 
 ### Immediate (Vocabulary Expansion)
-1. Continue adding vocabulary from `candidate_words.json` (1,992 candidates)
-2. Run `python build/update_indexes.py` after adding/removing entries
-3. Maintain v2 quality standards for all new entries
+1. Continue adding vocabulary from `candidate_words.json` (see workflow below)
+2. Maintain v2 quality standards for all new entries
 
 ### After Current Batch Complete
 1. Implement cross-entry linking
 2. Add conjugation search
 3. Continue expanding from candidate list
+
+## Workflow: Adding Entries from Candidates
+
+Follow this step-by-step process when adding new dictionary entries from `candidate_words.json`:
+
+### Step 1: Select Candidates
+1. Review `candidate_words.json` to choose words to add
+2. Prioritize by JLPT level (N5 → N4 → N3) or thematic groups
+3. Check that the candidate hasn't already been added to the dictionary
+
+### Step 2: Create Entry Files
+1. Create the JSON entry file following the schema (`build/schema.json`)
+2. Use the appropriate Claude skill based on entry type:
+   - Verbs: `verb-entry` skill
+   - Adjectives: `adjective-entry` skill
+   - Particles: `particle-entry` skill
+   - Others: `other-entries` skill
+3. Follow `vocabulary-notes` skill for notes formatting
+4. Place file in correct directory based on reading's first kana:
+   - あ行 → `entries/a/`, か行 → `entries/ka/`, etc.
+5. File naming: `{romaji}_{5-digit-id}.json`
+
+### Step 3: Validate Entry
+```bash
+python3 build/validate.py --id {entry_id}
+# Or validate all:
+python3 build/validate.py
+```
+
+### Step 4: Update Indexes
+**IMPORTANT: Run this after adding ANY entries:**
+```bash
+python3 build/update_indexes.py
+```
+This will:
+- Update `entries_index.json` with the new entry
+- Remove added words from `candidate_words.json` (sync)
+
+### Step 5: Build and Test
+```bash
+python3 build/build.py
+# Then open docs/index.html to verify
+```
+
+### Step 6: Commit Changes
+Commit the new entry files, updated indexes, and rebuilt docs/
 
 ## Technical Notes
 
