@@ -11,6 +11,7 @@ This dictionary is designed for learners of Japanese as a second language. Unlik
 - **Usage notes** covering grammar, register, and common patterns
 - **Rich particle and auxiliary verb entries** crucial for learners
 - **Furigana support** with toggle to show/hide readings above kanji
+- **Audio pronunciation** for example sentences with play/stop controls
 - **Multiple interface modes**: Search, Browse, Recent, and Random views
 - **Transitivity and aspect information** for verbs (v2 enhancement)
 - **Collocation patterns** showing natural word combinations (v2 enhancement)
@@ -18,7 +19,8 @@ This dictionary is designed for learners of Japanese as a second language. Unlik
 
 ## Current Status
 
-- **1,153 entries** covering N5 vocabulary (complete) and N4 vocabulary (in progress)
+- **2,024 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started)
+- **Audio pronunciation** for example sentences (112 audio files currently)
 - **Quality specification v2** based on multi-model LLM evaluation
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
@@ -106,16 +108,23 @@ je-dict-1/
 │   ├── ya/               # や行
 │   ├── ra/               # ら行
 │   └── wa/               # わ行 (includes を, ん)
+├── audio/                # Audio pronunciation files (MP3)
+│   ├── a/                # あ行 entries
+│   ├── ka/               # か行 entries
+│   └── ...               # (same structure as entries/)
+├── audio-to-add/         # Staging directory for new audio files
 ├── build/                # Build and management scripts
 │   ├── schema.json       # JSON schema for entries
 │   ├── validate.py       # Entry validation script
 │   ├── build.py          # Main build script
+│   ├── merge_audio.py    # Merges audio files into entries
 │   ├── update_entries_index.py   # Updates entries_index.json
 │   ├── manage_candidates.py      # Manages candidate_words.json
 │   ├── update_indexes.py         # Updates both index files
 │   └── requirements.txt
 ├── web/                  # Web application source
 ├── docs/                 # Generated output (served by GitHub Pages)
+│   └── audio/            # Built audio files (copied from audio/)
 ├── .claude/              # Claude Code configuration
 │   ├── skills/           # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
@@ -219,6 +228,55 @@ Files go in directories based on the first kana of the reading:
 - 食べる (たべる) → `entries/ta/taberu_00001.json`
 - 水 (みず) → `entries/ma/mizu_00001.json`
 
+## Adding Audio Files
+
+Audio pronunciation files can be added for example sentences. The web interface displays play/stop buttons for examples that have audio.
+
+### Audio File Format
+
+- **Format**: MP3 files
+- **Filename**: `{entry_id}-ex{number}.mp3`
+  - `entry_id`: The entry's ID (e.g., `taberu_00001`)
+  - `number`: Example number (1-based, e.g., `ex1`, `ex2`, `ex3`)
+- **Example**: `taberu_00001-ex1.mp3` for the first example of the entry `taberu_00001`
+
+### Adding Audio Workflow
+
+1. Place MP3 files in the `audio-to-add/` directory:
+   ```
+   audio-to-add/
+   ├── taberu_00001-ex1.mp3
+   ├── taberu_00001-ex2.mp3
+   └── mizu_00001-ex1.mp3
+   ```
+
+2. Run the merge script to process the audio files:
+   ```bash
+   python3 build/merge_audio.py
+   ```
+   This will:
+   - Copy MP3 files to `audio/{kana}/` (organized by entry reading)
+   - Update entry files to set `has_audio: true` on the corresponding examples
+
+3. Build the dictionary:
+   ```bash
+   python3 build/build.py
+   ```
+   This copies audio files to `docs/audio/` for the web interface.
+
+### Directory Structure
+
+Audio files are organized by kana (same as entries):
+```
+audio/
+├── a/                    # あ行 entries
+│   ├── a_00412-ex1.mp3
+│   └── ame_00044-ex1.mp3
+├── ka/                   # か行 entries
+├── sa/                   # さ行 entries
+└── ...
+```
+
 ## Phased Roadmap
 
 ### Phase 1: Foundation ✓ COMPLETE
@@ -245,13 +303,15 @@ Files go in directories based on the first kana of the reading:
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle and furigana button
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
-- [ ] Continue adding vocabulary from candidate list (~1,993 candidates)
-- [ ] Implement cross-references
+- [x] Cross-reference linking system
+- [x] Audio pronunciation for example sentences
+- [ ] Continue adding vocabulary from candidate list (~1,980 candidates)
 - [ ] Conjugation search indexing
 
 ### Phase 5: Polish and Distribution
 - [ ] Offline package generation
 - [ ] PWA features
+- [ ] Export to Anki format
 - [ ] Community feedback mechanism
 
 ## For AI Assistants
