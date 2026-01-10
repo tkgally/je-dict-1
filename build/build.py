@@ -174,6 +174,7 @@ def copy_audio_files(project_root: Path, dist_dir: Path) -> int:
     """
     Copy audio files from audio/ source directory to docs/audio/.
 
+    Preserves the kana subfolder structure (a/, ka/, sa/, etc.).
     Returns the number of audio files copied.
     """
     audio_src_dir = project_root / 'audio'
@@ -182,12 +183,19 @@ def copy_audio_files(project_root: Path, dist_dir: Path) -> int:
     if not audio_src_dir.exists():
         return 0
 
-    audio_dest_dir.mkdir(exist_ok=True)
-
     audio_count = 0
-    for audio_file in audio_src_dir.glob('*.mp3'):
-        shutil.copy2(audio_file, audio_dest_dir / audio_file.name)
-        audio_count += 1
+
+    # Copy audio files from each kana subfolder
+    for kana_dir in audio_src_dir.iterdir():
+        if not kana_dir.is_dir():
+            continue
+
+        dest_kana_dir = audio_dest_dir / kana_dir.name
+        dest_kana_dir.mkdir(parents=True, exist_ok=True)
+
+        for audio_file in kana_dir.glob('*.mp3'):
+            shutil.copy2(audio_file, dest_kana_dir / audio_file.name)
+            audio_count += 1
 
     return audio_count
 

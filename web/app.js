@@ -501,7 +501,7 @@
         if (entry.examples && entry.examples.length > 0) {
             html += `<div class="examples"><h3>Examples</h3>`;
             entry.examples.forEach((ex, idx) => {
-                const audioButton = ex.has_audio ? createAudioButton(entry.id, idx) : '';
+                const audioButton = ex.has_audio ? createAudioButton(entry.id, idx, entry.reading) : '';
                 html += `
                     <div class="example-item">
                         <div class="example-japanese">
@@ -896,11 +896,42 @@
     // ===== AUDIO FUNCTIONS =====
 
     /**
+     * Map first kana of reading to directory name
+     */
+    const KANA_TO_DIRECTORY = {
+        'あ': 'a', 'い': 'a', 'う': 'a', 'え': 'a', 'お': 'a',
+        'か': 'ka', 'き': 'ka', 'く': 'ka', 'け': 'ka', 'こ': 'ka',
+        'が': 'ka', 'ぎ': 'ka', 'ぐ': 'ka', 'げ': 'ka', 'ご': 'ka',
+        'さ': 'sa', 'し': 'sa', 'す': 'sa', 'せ': 'sa', 'そ': 'sa',
+        'ざ': 'sa', 'じ': 'sa', 'ず': 'sa', 'ぜ': 'sa', 'ぞ': 'sa',
+        'た': 'ta', 'ち': 'ta', 'つ': 'ta', 'て': 'ta', 'と': 'ta',
+        'だ': 'ta', 'ぢ': 'ta', 'づ': 'ta', 'で': 'ta', 'ど': 'ta',
+        'な': 'na', 'に': 'na', 'ぬ': 'na', 'ね': 'na', 'の': 'na',
+        'は': 'ha', 'ひ': 'ha', 'ふ': 'ha', 'へ': 'ha', 'ほ': 'ha',
+        'ば': 'ha', 'び': 'ha', 'ぶ': 'ha', 'べ': 'ha', 'ぼ': 'ha',
+        'ぱ': 'ha', 'ぴ': 'ha', 'ぷ': 'ha', 'ぺ': 'ha', 'ぽ': 'ha',
+        'ま': 'ma', 'み': 'ma', 'む': 'ma', 'め': 'ma', 'も': 'ma',
+        'や': 'ya', 'ゆ': 'ya', 'よ': 'ya',
+        'ら': 'ra', 'り': 'ra', 'る': 'ra', 'れ': 'ra', 'ろ': 'ra',
+        'わ': 'wa', 'を': 'wa', 'ん': 'wa'
+    };
+
+    /**
+     * Get the kana directory for a reading
+     */
+    function getKanaDirectory(reading) {
+        if (!reading) return 'a';
+        const firstKana = reading.charAt(0);
+        return KANA_TO_DIRECTORY[firstKana] || 'a';
+    }
+
+    /**
      * Create HTML for an audio play button
      */
-    function createAudioButton(entryId, exampleIndex) {
+    function createAudioButton(entryId, exampleIndex, reading) {
         const audioId = `${entryId}-ex${exampleIndex + 1}`;
-        return `<button class="audio-btn" data-audio-id="${audioId}" aria-label="Play audio" title="Play audio">
+        const kanaDir = getKanaDirectory(reading);
+        return `<button class="audio-btn" data-audio-id="${audioId}" data-kana-dir="${kanaDir}" aria-label="Play audio" title="Play audio">
             <span class="audio-icon play-icon"></span>
         </button>`;
     }
@@ -908,8 +939,8 @@
     /**
      * Get the URL for an audio file
      */
-    function getAudioUrl(audioId) {
-        return `audio/${audioId}.mp3`;
+    function getAudioUrl(kanaDir, audioId) {
+        return `audio/${kanaDir}/${audioId}.mp3`;
     }
 
     /**
@@ -939,6 +970,7 @@
         event.stopPropagation();
 
         const audioId = button.dataset.audioId;
+        const kanaDir = button.dataset.kanaDir || 'a';
         if (!audioId) return;
 
         // If this button is already playing, stop it
@@ -955,7 +987,7 @@
         currentAudioButton = button;
 
         // Get the direct MP3 URL
-        const audioUrl = getAudioUrl(audioId);
+        const audioUrl = getAudioUrl(kanaDir, audioId);
 
         // Create audio element
         const audio = new Audio(audioUrl);

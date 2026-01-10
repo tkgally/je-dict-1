@@ -2,8 +2,8 @@
 """
 Merge audio files into dictionary entries.
 
-Reads MP3 files from audio_files_to_add/ directory:
-- Copies them to the audio/ directory
+Reads MP3 files from audio-to-add/ directory:
+- Copies them to the audio/{kana}/ directory (organized by reading)
 - Updates corresponding entry files to set has_audio: true on examples
 
 Filename format: {entry_id}-ex{number}.mp3
@@ -15,6 +15,8 @@ import re
 import shutil
 import sys
 from pathlib import Path
+
+from validate import get_expected_directory
 
 
 def parse_audio_filename(filename: str) -> tuple[str, int] | None:
@@ -50,7 +52,7 @@ def merge_audio_files(project_root: Path) -> int:
     Merge audio files into entries.
     Returns the number of audio files successfully merged.
     """
-    audio_input_dir = project_root / 'audio_files_to_add'
+    audio_input_dir = project_root / 'audio-to-add'
     audio_output_dir = project_root / 'audio'
     entries_dir = project_root / 'entries'
 
@@ -58,15 +60,16 @@ def merge_audio_files(project_root: Path) -> int:
         print(f"Error: Audio input directory not found: {audio_input_dir}")
         return 0
 
-    # Create output directory if needed
-    audio_output_dir.mkdir(exist_ok=True)
-
     # Collect all audio files grouped by entry
     audio_by_entry: dict[str, list[tuple[int, Path]]] = {}
 
     print("Scanning audio files...")
     audio_files = list(audio_input_dir.glob('*.mp3'))
     print(f"Found {len(audio_files)} MP3 files")
+
+    if not audio_files:
+        print("No audio files to process.")
+        return 0
 
     for audio_file in audio_files:
         result = parse_audio_filename(audio_file.name)
@@ -96,6 +99,17 @@ def merge_audio_files(project_root: Path) -> int:
         with open(entry_file, 'r', encoding='utf-8') as f:
             entry = json.load(f)
 
+        # Determine the kana subfolder from the entry's reading
+        reading = entry.get('reading', '')
+        kana_folder = get_expected_directory(reading)
+        if not kana_folder:
+            print(f"  Warning: Could not determine folder for {entry_id} (reading: {reading})")
+            continue
+
+        # Create the kana subfolder if needed
+        audio_kana_dir = audio_output_dir / kana_folder
+        audio_kana_dir.mkdir(parents=True, exist_ok=True)
+
         examples = entry.get('examples', [])
         if not examples:
             print(f"  Warning: No examples in entry {entry_id}")
@@ -108,8 +122,8 @@ def merge_audio_files(project_root: Path) -> int:
                 print(f"  Warning: Example index {example_index + 1} out of range for {entry_id} (has {len(examples)} examples)")
                 continue
 
-            # Copy audio file to output directory
-            dest_path = audio_output_dir / audio_file.name
+            # Copy audio file to the kana subfolder
+            dest_path = audio_kana_dir / audio_file.name
             shutil.copy2(audio_file, dest_path)
 
             # Mark example as having audio (remove any old embedded audio)
