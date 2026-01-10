@@ -647,6 +647,7 @@
 
     /**
      * Handle clicks on cross-reference links
+     * Routes to the appropriate display function based on current interface
      */
     function setupCrossRefClickHandlers() {
         document.addEventListener('click', function(e) {
@@ -655,7 +656,29 @@
                 e.preventDefault();
                 const targetId = link.dataset.targetId;
                 if (targetId && entriesData && entriesData.entries && entriesData.entries[targetId]) {
-                    displayEntry(targetId);
+                    // Route to appropriate display function based on current interface
+                    switch (currentInterface) {
+                        case 'browse':
+                            displayBrowseEntry(targetId);
+                            // Also highlight the entry in the browse list if visible
+                            browseList.querySelectorAll('.browse-item').forEach(i => i.classList.remove('active'));
+                            const browseItem = browseList.querySelector(`.browse-item[data-entry-id="${targetId}"]`);
+                            if (browseItem) {
+                                browseItem.classList.add('active');
+                                browseItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                            }
+                            break;
+                        case 'recent':
+                            displayRecentEntry(targetId);
+                            break;
+                        case 'random':
+                            displayRandomEntry(targetId);
+                            break;
+                        case 'search':
+                        default:
+                            displayEntry(targetId);
+                            break;
+                    }
                 }
             }
         });
