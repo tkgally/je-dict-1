@@ -977,7 +977,7 @@
             const base64 = await fetchAudio(audioId);
 
             // Create audio element and play
-            const audio = new Audio(`data:audio/mp3;base64,${base64}`);
+            const audio = new Audio(`data:audio/mpeg;base64,${base64}`);
             currentAudio = audio;
 
             // Update button state when playback starts
