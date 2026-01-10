@@ -170,38 +170,24 @@ def copy_web_files(project_root: Path, dist_dir: Path):
             shutil.copytree(item, dest, dirs_exist_ok=True)
 
 
-def extract_audio_files(entries: list[dict], dist_dir: Path) -> int:
+def copy_audio_files(project_root: Path, dist_dir: Path) -> int:
     """
-    Extract audio data from entries and write to MP3 files.
+    Copy audio files from audio/ source directory to docs/audio/.
 
-    For each example with an 'audio' field, decodes the base64 data
-    and writes an actual MP3 file to docs/audio/ with format:
-    {entry_id}-ex{number}.mp3
-
-    Returns the number of audio files written.
+    Returns the number of audio files copied.
     """
-    import base64
+    audio_src_dir = project_root / 'audio'
+    audio_dest_dir = dist_dir / 'audio'
 
-    audio_dir = dist_dir / 'audio'
-    audio_dir.mkdir(exist_ok=True)
+    if not audio_src_dir.exists():
+        return 0
+
+    audio_dest_dir.mkdir(exist_ok=True)
 
     audio_count = 0
-
-    for entry in entries:
-        entry_id = entry['id']
-        examples = entry.get('examples', [])
-
-        for idx, example in enumerate(examples):
-            if 'audio' in example:
-                # Decode base64 and write as MP3 file
-                audio_filename = f"{entry_id}-ex{idx + 1}.mp3"
-                audio_path = audio_dir / audio_filename
-
-                audio_bytes = base64.b64decode(example['audio'])
-                with open(audio_path, 'wb') as f:
-                    f.write(audio_bytes)
-
-                audio_count += 1
+    for audio_file in audio_src_dir.glob('*.mp3'):
+        shutil.copy2(audio_file, audio_dest_dir / audio_file.name)
+        audio_count += 1
 
     return audio_count
 
@@ -338,13 +324,13 @@ def build(project_root: Path) -> int:
     recent = build_recent_entries(entries, limit=250)
     print(f"  Found {len(recent)} recent entries")
 
-    # Step 6: Extract audio files
-    print("\n[6/7] Extracting audio files...")
-    audio_count = extract_audio_files(entries, dist_dir)
+    # Step 6: Copy audio files
+    print("\n[6/7] Copying audio files...")
+    audio_count = copy_audio_files(project_root, dist_dir)
     if audio_count > 0:
-        print(f"  Extracted {audio_count} audio files to docs/audio/")
+        print(f"  Copied {audio_count} audio files to docs/audio/")
     else:
-        print("  No audio files to extract")
+        print("  No audio files to copy")
 
     # Step 7: Write output files
     print("\n[7/7] Writing output files...")
