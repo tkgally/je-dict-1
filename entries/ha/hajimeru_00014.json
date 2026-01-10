@@ -29,10 +29,24 @@
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {始|はじ}まる (intransitive). Pattern: Xを{始|はじ}める (start X).\n\nASPECT: ている indicates ongoing state. {始|はじ}めている = 'has started (and is ongoing).'\n\nCOMMON PATTERNS:\n・{仕事|しごと}を{始|はじ}める (start work)\n・{授業|じゅぎょう}を{始|はじ}める (start class)\n・V-stem + {始|はじ}める (start V-ing)\n・{食|た}べ{始|はじ}める (start eating)\n\nPAIR: {始|はじ}まる (intransitive) - {授業|じゅぎょう}が{始|はじ}まった (class started). Opposite: {終|お}わる/{終|お}える.",
-  "cross_references": ["owaru_00024", "hajimaru_00095"],
+  "cross_references": [
+    "owaru_00024",
+    "hajimaru_00095",
+    {
+      "type": "pair",
+      "reading": "はじまる",
+      "headword": "{始|はじ}まる",
+      "label": "intransitive"
+    },
+    {
+      "type": "antonym",
+      "reading": "おわる",
+      "headword": "{終|お}わる"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T14:00:00Z",
-    "modified": "2026-01-07T14:00:00Z",
+    "modified": "2026-01-10T01:26:12Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",

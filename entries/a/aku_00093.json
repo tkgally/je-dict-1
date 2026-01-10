@@ -29,10 +29,24 @@
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {開|あ}ける (transitive, to open something). Pattern: Xが{開|あ}く.\n\nASPECT: ている indicates resulting state. {開|あ}いている = 'is open' (not 'is opening'). This is important: {窓|まど}が{開|あ}いている means 'the window is open,' not 'the window is opening.'\n\nCOMMON PATTERNS:\n・ドアが{開|あ}く (the door opens)\n・{店|みせ}が{開|あ}く (the store opens)\n・{穴|あな}が{開|あ}く (a hole forms)\n・{席|せき}が{開|あ}く (a seat becomes available)\n\nOpposite: {閉|し}まる (to close by itself).",
-  "cross_references": ["akeru_00023"],
+  "cross_references": [
+    "akeru_00023",
+    {
+      "type": "pair",
+      "reading": "あける",
+      "headword": "{開|あ}ける",
+      "label": "transitive, to open something"
+    },
+    {
+      "type": "antonym",
+      "reading": "しまる",
+      "headword": "{閉|し}まる",
+      "label": "to close by itself"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:00:00Z",
-    "modified": "2026-01-07T12:00:00Z",
+    "modified": "2026-01-10T01:26:12Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",

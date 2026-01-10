@@ -1,7 +1,7 @@
 # Cross-Linking Migration - Resume Instructions
 
-**Last updated**: 2026-01-10 (Session 1)
-**Current phase**: Phase 2 - Data Population
+**Last updated**: 2026-01-10 (Session 2)
+**Current phase**: Phase 3 - Ongoing Maintenance
 
 ## Session 1 Summary (2026-01-10)
 
@@ -62,44 +62,46 @@
 
 ---
 
-## Session 2 Tasks (Next Session)
+## Session 2 Summary (2026-01-10)
 
-### Priority 1: Apply Automated Extraction
+### Completed Tasks
 
-Run the extraction script to populate cross-references from existing notes:
+1. **Applied Automated Extraction**
+   - Ran `python3 build/extract_references.py --apply`
+   - 143 entries updated with 159 new cross-references
+   - Fixed 4 entries with `label: null` validation errors
+   - Fixed extraction script to exclude null labels
 
-```bash
-# First, do a dry run to review proposed changes
-python3 build/extract_references.py
+2. **Verified Extraction Quality**
+   - Spot-checked shimeru, taberu, akeru entries
+   - All cross-references correctly extracted
+   - Pair verbs and antonyms properly identified
 
-# Then apply the changes
-python3 build/extract_references.py --apply
+3. **Rebuilt Dictionary**
+   - All 2,024 entries validated
+   - 461 total cross-references (up from 302)
+   - 445 resolved (96%)
+   - 16 pending links (targets not yet in dictionary)
 
-# Rebuild to verify
-python3 build/build.py
+### Current State
 
-# Run validation to check
-python3 build/validate.py
-```
+- **Total cross-references**: 461
+- **Resolved**: 445 (96%)
+- **Pending**: 16 unique targets
+- **Infrastructure**: Complete and stable
 
-**Expected outcome**: ~143 entries updated with ~159 new cross-references
+### Files Modified
 
-### Priority 2: Review Extraction Quality
+| File | Changes |
+|------|---------|
+| `build/extract_references.py` | Fixed null label handling |
+| 143 entry files | Added extracted cross-references |
 
-After applying automated extraction:
+---
 
-1. Spot-check 10-15 entries to verify extracted references are correct
-2. Look for false positives or missed references
-3. If issues found, update extraction patterns in `extract_references.py`
+## Session 3 Tasks (Next Session)
 
-Entries to spot-check (good variety):
-- `taberu_00001` (has keigo references)
-- `shimeru_00005` (has pair and antonym)
-- `aku_00093` (has pair and antonym)
-- `wakaru_00002` (should have synonyms)
-- `ookii_00050` (adjective with antonym)
-
-### Priority 3: Manual Enhancement for High-Priority Entries
+### Priority 1: Manual Enhancement for High-Priority Entries
 
 After automated extraction, manually add cross-references to:
 
@@ -113,7 +115,7 @@ After automated extraction, manually add cross-references to:
 3. **Particle contrasts**
    - は ↔ が, に ↔ で, に ↔ へ
 
-### Priority 4: Test UI Navigation
+### Priority 2: Test UI Navigation
 
 1. Open `docs/index.html` in browser
 2. Search for "閉める" (shimeru)
@@ -124,7 +126,7 @@ After automated extraction, manually add cross-references to:
 
 ---
 
-## Session 3+ Tasks (Future Sessions)
+## Ongoing Maintenance & Future Enhancements
 
 ### Ongoing Maintenance
 

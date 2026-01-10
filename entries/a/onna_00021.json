@@ -29,10 +29,19 @@
     }
   ],
   "notes": "When referring to people politely, use {女|おんな}の{人|ひと} (woman) or {女性|じょせい} (female, more formal). {女|おんな}の{子|こ} means 'girl'. The kanji {女|おんな} is also read as じょ in compounds like {女性|じょせい}. Opposite: {男|おとこ} (man).",
-  "cross_references": ["otoko_00022", "hito_00004"],
+  "cross_references": [
+    "otoko_00022",
+    "hito_00004",
+    {
+      "type": "antonym",
+      "reading": "おとこ",
+      "headword": "{男|おとこ}",
+      "label": "man"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:00:00Z",
-    "modified": "2026-01-07T12:00:00Z",
+    "modified": "2026-01-10T01:26:12Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",

@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-10T01:22:51.833159Z
+// Generated: 2026-01-10T01:27:54.726436Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -420,11 +420,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "ageru_01433"
+      },
+      {
+        "type": "pair",
+        "reading": "あげる",
+        "headword": "{上|あ}げる",
+        "label": "to raise",
+        "resolved": true,
+        "target_id": "ageru_01433"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1302,11 +1310,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "aku_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "あく",
+        "headword": "{開|あ}く",
+        "label": "intransitive, to open by itself",
+        "resolved": true,
+        "target_id": "aku_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "しめる",
+        "headword": "{閉|し}める",
+        "label": "to close something",
+        "resolved": true,
+        "target_id": "shimeru_00005"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -1516,11 +1540,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "akeru_00023"
+      },
+      {
+        "type": "pair",
+        "reading": "あける",
+        "headword": "{開|あ}ける",
+        "label": "transitive, to open something",
+        "resolved": true,
+        "target_id": "akeru_00023"
+      },
+      {
+        "type": "antonym",
+        "reading": "しまる",
+        "headword": "{閉|し}まる",
+        "label": "to close by itself",
+        "resolved": true,
+        "target_id": "shimaru_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -2525,11 +2565,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "anzen_00104"
+      },
+      {
+        "type": "antonym",
+        "reading": "しんぱい",
+        "headword": "{心配|しんぱい}",
+        "label": "worry",
+        "resolved": true,
+        "target_id": "shinpai_00094"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -3546,11 +3594,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "fukai_00115"
+      },
+      {
+        "type": "antonym",
+        "reading": "ふかい",
+        "headword": "{深|ふか}い",
+        "label": "deep",
+        "resolved": true,
+        "target_id": "fukai_00115"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -4865,11 +4921,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "atsumeru_00109"
+      },
+      {
+        "type": "pair",
+        "reading": "あつめる",
+        "headword": "{集|あつ}める",
+        "label": "transitive, to collect/gather something",
+        "resolved": true,
+        "target_id": "atsumeru_00109"
       }
     ],
     "metadata": {
       "created": "2026-01-08T10:00:00Z",
-      "modified": "2026-01-08T10:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -4921,11 +4985,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "atsumaru_00108"
+      },
+      {
+        "type": "pair",
+        "reading": "あつまる",
+        "headword": "{集|あつ}まる",
+        "label": "intransitive, to gather",
+        "resolved": true,
+        "target_id": "atsumaru_00108"
       }
     ],
     "metadata": {
       "created": "2026-01-08T10:00:00Z",
-      "modified": "2026-01-08T10:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -9073,10 +9145,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{暖房|だんぼう} refers to heating systems. The opposite is {冷房|れいぼう} (air conditioning/cooling).\n\nCOMMON PATTERNS:\n- {暖房|だんぼう}をつける: to turn on the heating\n- {暖房|だんぼう}を{消|け}す: to turn off the heating\n- {暖房|だんぼう}が{効|き}く: heating works/is effective\n- {暖房|だんぼう}{器具|きぐ}: heating equipment\n\nTYPES OF HEATING:\n- エアコン: air conditioner (heating/cooling)\n- ストーブ: heater, stove\n- こたつ: heated table\n- {床|ゆか}{暖房|だんぼう}: floor heating\n\nOPPOSITE: {冷房|れいぼう} (cooling, air conditioning)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "れいぼう",
+        "headword": "{冷房|れいぼう}",
+        "label": "cooling, air conditioning",
+        "resolved": true,
+        "target_id": "reibou_00505"
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -9165,11 +9246,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "josei_00434"
+      },
+      {
+        "type": "antonym",
+        "reading": "じょせい",
+        "headword": "{女性|じょせい}",
+        "label": "woman, female",
+        "resolved": true,
+        "target_id": "josei_00434"
       }
     ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -9293,11 +9382,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "deru_00010"
+      },
+      {
+        "type": "pair",
+        "reading": "でる",
+        "headword": "{出|で}る",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "deru_00010"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -10231,11 +10328,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "dasu_00099"
+      },
+      {
+        "type": "pair",
+        "reading": "だす",
+        "headword": "{出|だ}す",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "dasu_00099"
+      },
+      {
+        "type": "antonym",
+        "reading": "はいる",
+        "headword": "{入|はい}る",
+        "label": "to enter",
+        "resolved": true,
+        "target_id": "hairu_00007"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -12878,10 +12991,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "Functions as a な-adjective. Opposite: {便利|べんり} (convenient).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "べんり",
+        "headword": "{便利|べんり}",
+        "label": "convenient",
+        "resolved": true,
+        "target_id": "benri_00095"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "reviewed",
@@ -12920,10 +13042,27 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {増|ふ}やす (transitive, to increase something). Pattern: Xが{増|ふ}える (X increases).\n\nASPECT: ている indicates ongoing state. {増|ふ}えている = 'is increasing' or 'has increased.'\n\nCOMMON PATTERNS:\n・{人口|じんこう}が{増|ふ}える (population increases)\n・{体重|たいじゅう}が{増|ふ}える (weight increases)\n・{売|う}り{上|あ}げが{増|ふ}える (sales increase)\n・どんどん{増|ふ}える (increase steadily)\n\nCONTRAST:\n・{増|ふ}える (intransitive): X increases\n・{増|ふ}やす (transitive): increase X\n\nOPPOSITE: {減|へ}る (to decrease)\n\nExample pair:\n・{人口|じんこう}が{増|ふ}えた (Population increased)\n・{売|う}り{上|あ}げを{増|ふ}やす (Increase sales)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "ふやす",
+        "headword": "{増|ふ}やす",
+        "label": "transitive, to increase something",
+        "resolved": true,
+        "target_id": "fuyasu_01381"
+      },
+      {
+        "type": "antonym",
+        "reading": "へる",
+        "headword": "{減|へ}る",
+        "label": "to decrease",
+        "resolved": true,
+        "target_id": "heru_00732"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -13084,11 +13223,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "asai_00130"
+      },
+      {
+        "type": "antonym",
+        "reading": "あさい",
+        "headword": "{浅|あさ}い",
+        "label": "shallow",
+        "resolved": true,
+        "target_id": "asai_00130"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -13406,10 +13553,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{復習|ふくしゅう} means reviewing what you've already learned.\n\nLEARNING CYCLE:\n- {予習|よしゅう}: preparation before class\n- {授業|じゅぎょう}: class/lesson\n- {復習|ふくしゅう}: review after class\n\nCOMMON PATTERNS:\n- {復習|ふくしゅう}する: to review\n- {復習|ふくしゅう}を{忘|わす}れない: don't forget to review\n- 〜を{復習|ふくしゅう}する: to review ~\n\nOPPOSITE: {予習|よしゅう} (preparation/preview)\n\nNote: Don't confuse with {復讐|ふくしゅう} (revenge) which uses different kanji but same reading.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "よしゅう",
+        "headword": "{予習|よしゅう}",
+        "label": "preparation/preview",
+        "resolved": true,
+        "target_id": "yoshuu_00501"
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -14192,10 +14348,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: Xが{太|ふと}る (X gains weight).\n\nASPECT: ている indicates resulting state. {太|ふと}っている = 'is fat/overweight' (state).\n\nCOMMON PATTERNS:\n・{太|ふと}る (gain weight)\n・{太|ふと}っている (is overweight—state)\n・{太|ふと}りやすい (tends to gain weight easily)\n・{太|ふと}らない (not gain weight)\n\nOPPOSITE: {痩|や}せる (to lose weight)\n\nNUANCE: {太|ふと}っている can be sensitive. More polite alternatives:\n・ふくよか (plump—softer term)\n・{体格|たいかく}がいい (well-built)\n\nRELATED ADJECTIVE: {太|ふと}い (thick, fat)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "やせる",
+        "headword": "{痩|や}せる",
+        "label": "to lose weight",
+        "resolved": true,
+        "target_id": "yaseru_00105"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -15580,11 +15745,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "gozen_00018"
+      },
+      {
+        "type": "antonym",
+        "reading": "ごぜん",
+        "headword": "{午前|ごぜん}",
+        "label": "AM/morning",
+        "resolved": true,
+        "target_id": "gozen_00018"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -16075,11 +16248,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "gogo_00017"
+      },
+      {
+        "type": "antonym",
+        "reading": "ごご",
+        "headword": "{午後|ごご}",
+        "label": "PM/afternoon",
+        "resolved": true,
+        "target_id": "gogo_00017"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -17125,11 +17306,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "ireru_00100"
+      },
+      {
+        "type": "pair",
+        "reading": "いれる",
+        "headword": "{入|い}れる",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "ireru_00100"
+      },
+      {
+        "type": "antonym",
+        "reading": "でる",
+        "headword": "{出|で}る",
+        "label": "to exit",
+        "resolved": true,
+        "target_id": "deru_00010"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -17226,11 +17423,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "owaru_00024"
+      },
+      {
+        "type": "pair",
+        "reading": "はじめる",
+        "headword": "{始|はじ}める",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "hajimeru_00014"
+      },
+      {
+        "type": "antonym",
+        "reading": "おわる",
+        "headword": "{終|お}わる",
+        "label": "to end",
+        "resolved": true,
+        "target_id": "owaru_00024"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -17322,11 +17535,26 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "hajimaru_00095"
+      },
+      {
+        "type": "pair",
+        "reading": "はじまる",
+        "headword": "{始|はじ}まる",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "hajimaru_00095"
+      },
+      {
+        "type": "antonym",
+        "reading": "おわる",
+        "headword": "{終|お}わる",
+        "resolved": true,
+        "target_id": "owaru_00024"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -17599,11 +17827,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kaburu_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "ぬぐ",
+        "headword": "{脱|ぬ}ぐ",
+        "label": "take off",
+        "resolved": true,
+        "target_id": "nugu_00010"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -18251,11 +18487,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kumoru_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "くもる",
+        "headword": "{曇|くも}る",
+        "label": "become cloudy",
+        "resolved": true,
+        "target_id": "kumoru_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -19712,10 +19956,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {冷|ひ}やす (transitive, to cool something). Pattern: Xが{冷|ひ}える (X gets cold).\n\nASPECT: ている indicates resulting state. {冷|ひ}えている = 'is cold' (state).\n\nCOMMON PATTERNS:\n・ビールが{冷|ひ}えている (beer is cold)\n・{体|からだ}が{冷|ひ}える (body gets cold)\n・{足|あし}が{冷|ひ}える (feet get cold)\n・{冷|ひ}え{性|しょう} (sensitivity to cold—noun)\n・{底冷|そこび}え (deep chill)\n\nCONTRAST:\n・{冷|ひ}える (intransitive): X gets cold\n・{冷|ひ}やす (transitive): cool X down\n\nSIMILAR VERBS:\n・{冷|さ}める: to cool down (food/drinks), to lose enthusiasm\n・{冷|ひ}える: to get cold (body, atmosphere)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "ひやす",
+        "headword": "{冷|ひ}やす",
+        "label": "transitive, to cool something",
+        "resolved": true,
+        "target_id": "hiyasu_01374"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -20370,11 +20623,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "isogashii_00053"
+      },
+      {
+        "type": "antonym",
+        "reading": "いそがしい",
+        "headword": "{忙|いそが}しい",
+        "label": "busy",
+        "resolved": true,
+        "target_id": "isogashii_00053"
       }
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
-      "modified": "2026-01-07T15:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -20777,11 +21038,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "suteru_00095"
+      },
+      {
+        "type": "antonym",
+        "reading": "すてる",
+        "headword": "{捨|す}てる",
+        "label": "throw away",
+        "resolved": true,
+        "target_id": "suteru_00095"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -20884,10 +21153,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{昼間|ひるま} specifically refers to daylight hours.\n\nTIME OF DAY TERMS:\n- {朝|あさ}: morning\n- {昼|ひる}: noon, daytime\n- {昼間|ひるま}: daytime (emphasizes daylight hours)\n- {夕方|ゆうがた}: evening\n- {夜|よる}: night\n- {夜中|よなか}: middle of the night\n\n{昼|ひる} vs {昼間|ひるま}:\n- {昼|ひる}: noon, midday (also used broadly for daytime)\n- {昼間|ひるま}: daytime hours (contrasts with nighttime)\n\nOPPOSITE: {夜間|やかん} (nighttime)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "やかん",
+        "headword": "{夜間|やかん}",
+        "label": "nighttime",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -21151,10 +21429,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "Functions both as a na-adjective and a noun. {必要|ひつよう}がある (there is a need) and {必要|ひつよう}ない (not necessary) are common expressions. Opposite: {不必要|ふひつよう} (unnecessary).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "ふひつよう",
+        "headword": "{不必要|ふひつよう}",
+        "label": "unnecessary",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -21445,10 +21732,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{褒|ほ}める (praise X).\n\nASPECT: ている indicates ongoing or repeated action. {褒|ほ}めている = 'is praising.'\n\nCOMMON PATTERNS:\n・{人|ひと}を{褒|ほ}める (praise someone)\n・{褒|ほ}められる (be praised—passive)\n・{褒|ほ}めて{育|そだ}てる (raise with praise)\n・{褒|ほ}め{言葉|ことば} (compliment, words of praise)\n・お{世辞|せじ}で{褒|ほ}める (flatter)\n\nOPPOSITE: {叱|しか}る (to scold)\n\nKANJI NOTE: Can also be written as {誉|ほ}める, but {褒|ほ}める is more common.\n\nREGISTER: Neutral.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "しかる",
+        "headword": "{叱|しか}る",
+        "label": "to scold",
+        "resolved": true,
+        "target_id": "shikaru_00113"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -23638,11 +23934,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "ika_00137"
+      },
+      {
+        "type": "antonym",
+        "reading": "いか",
+        "headword": "{以下|いか}",
+        "label": "below, less than or equal to",
+        "resolved": true,
+        "target_id": "ika_00137"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -23691,10 +23995,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{以下|いか} means 'below' or 'less than or equal to.'\n\nIMPORTANT: In Japanese, {以下|いか} INCLUDES the stated number:\n- {十|じゅう}{以下|いか} = 10 or less (includes 10)\n- This differs from English 'less than' which excludes the number\n\nContrast with {未満|みまん}:\n- {十|じゅう}{未満|みまん} = less than 10 (excludes 10)\n\nAntonym: {以上|いじょう} (above, more than or equal to)\n\nCommon patterns:\n- [number]{以下|いか}: [number] or less\n- {以下|いか}の〜: the following ~\n- {以下|いか}{同様|どうよう}: same as below",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "いじょう",
+        "headword": "{以上|いじょう}",
+        "label": "above, more than or equal to",
+        "resolved": true,
+        "target_id": "ijou_00142"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -24865,10 +25178,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{田舎|いなか} means 'countryside' or 'rural area.'\n\nNuances:\n- Can be neutral (rural area) or slightly negative (backward/unsophisticated)\n- When referring to one's own hometown, it's neutral or affectionate\n- Using it about someone else's hometown could be rude\n\nCommon expressions:\n- {田舎|いなか}に{帰|かえ}る: to return to one's hometown\n- {田舎|いなか}{暮|ぐ}らし: country living\n- {田舎|いなか}{者|もの}: country person (can be derogatory)\n\nAntonym: {都会|とかい} (city, urban area)\n\nNote: The kanji {田|た}{舎|や} (rice field + house) reflects the agricultural nature of rural Japan.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "とかい",
+        "headword": "{都会|とかい}",
+        "label": "city, urban area",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -25652,11 +25974,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "hairu_00007"
+      },
+      {
+        "type": "pair",
+        "reading": "はいる",
+        "headword": "{入|はい}る",
+        "label": "intransitive, to enter",
+        "resolved": true,
+        "target_id": "hairu_00007"
+      },
+      {
+        "type": "antonym",
+        "reading": "だす",
+        "headword": "{出|だ}す",
+        "label": "to take out",
+        "resolved": true,
+        "target_id": "dasu_00099"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -26026,11 +26364,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "hima_00054"
+      },
+      {
+        "type": "antonym",
+        "reading": "ひま",
+        "headword": "{暇|ひま}",
+        "label": "free, not busy",
+        "resolved": true,
+        "target_id": "hima_00054"
       }
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
-      "modified": "2026-01-07T15:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -30070,11 +30416,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "nugu_00010"
+      },
+      {
+        "type": "antonym",
+        "reading": "ぬぐ",
+        "headword": "{脱|ぬ}ぐ",
+        "label": "take off",
+        "resolved": true,
+        "target_id": "nugu_00010"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -30210,11 +30564,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kaeru_00099"
+      },
+      {
+        "type": "antonym",
+        "reading": "いき",
+        "headword": "{行|い}き",
+        "label": "going, outward journey",
+        "resolved": true,
+        "target_id": "iki_00986"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -30317,11 +30679,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kawaru_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "かわる",
+        "headword": "{変|か}わる",
+        "label": "intransitive, to change by itself",
+        "resolved": true,
+        "target_id": "kawaru_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -31337,11 +31707,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kakeru_00095"
+      },
+      {
+        "type": "pair",
+        "reading": "かける",
+        "headword": "かける",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "kakeru_00095"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -31398,11 +31776,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kakaru_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "かかる",
+        "headword": "かかる",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "kakaru_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -32564,10 +32950,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{完成|かんせい} refers to reaching a finished or perfected state.\n\nTRANSITIVITY (as suru verb):\n- Type: {自動詞|じどうし} (intransitive) - Xが{完成|かんせい}する\n- Pair: {完成|かんせい}させる (causative, to complete something)\n\nCOMMON PATTERNS:\n- {工事|こうじ}が{完成|かんせい}する (construction is completed)\n- {作品|さくひん}が{完成|かんせい}する (work is completed)\n- {完成|かんせい}に{近|ちか}づく (approach completion)\n- {完成|かんせい}{品|ひん} (finished product)\n\nSIMILAR WORDS:\n- {完了|かんりょう}: completion of an action/task (more process-focused)\n- {終了|しゅうりょう}: ending (neutral, for events/processes)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "かんせいさせる",
+        "headword": "{完成|かんせい}させる",
+        "label": "causative, to complete something",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T11:41:04Z",
-      "modified": "2026-01-09T11:41:04Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -33346,11 +33741,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kasu_00015"
+      },
+      {
+        "type": "antonym",
+        "reading": "かす",
+        "headword": "{貸|か}す",
+        "label": "to lend",
+        "resolved": true,
+        "target_id": "kasu_00015"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -33674,11 +34077,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kariru_00014"
+      },
+      {
+        "type": "antonym",
+        "reading": "かりる",
+        "headword": "{借|か}りる",
+        "label": "to borrow",
+        "resolved": true,
+        "target_id": "kariru_00014"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -34083,10 +34494,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {片付|かたづ}く (intransitive, to be tidied up). Pattern: Xを{片付|かたづ}ける (tidy up X).\n\nASPECT: ている indicates ongoing action or resulting state. {片付|かたづ}けている = 'is tidying' or 'has tidied.'\n\nCOMMON PATTERNS:\n・{部屋|へや}を{片付|かたづ}ける (tidy up a room)\n・{机|つくえ}の{上|うえ}を{片付|かたづ}ける (clear the desk)\n・{仕事|しごと}を{片付|かたづ}ける (finish/wrap up work)\n・{問題|もんだい}を{片付|かたづ}ける (settle a problem)\n\nINTRANSITIVE PAIR: {片付|かたづ}く means 'to be tidied/settled.'\n・{部屋|へや}が{片付|かたづ}いた (The room is tidy now.)\n\nREGISTER: Neutral. Very common in everyday speech.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "かたづく",
+        "headword": "{片付|かたづ}く",
+        "label": "intransitive, to be tidied up",
+        "resolved": true,
+        "target_id": "katazuku_00812"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -34177,10 +34597,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: None (but related: {負|ま}ける = to lose). Pattern: Xに{勝|か}つ (win against X / win at X).\n\nASPECT: ている indicates resulting state. {勝|か}っている = 'is winning' (current lead) or 'has won.'\n\nCOMMON PATTERNS:\n・{試合|しあい}に{勝|か}つ (win a game)\n・{相手|あいて}に{勝|か}つ (beat an opponent)\n・3{対|たい}2で{勝|か}つ (win 3 to 2)\n・{誘惑|ゆうわく}に{勝|か}つ (overcome temptation)\n・{勝|か}ち{負|ま}け (win or lose—noun)\n\nOPPOSITE: {負|ま}ける (to lose)\n\nIDIOMS:\n・{勝|か}ちに{行|い}く (go for the win)\n・{勝|か}ち{残|のこ}る (survive as winner)\n\nREGISTER: Neutral.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "まける",
+        "headword": "{負|ま}ける",
+        "label": "to lose",
+        "resolved": true,
+        "target_id": "makeru_00104"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -34227,11 +34656,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "uru_00095"
+      },
+      {
+        "type": "antonym",
+        "reading": "うる",
+        "headword": "{売|う}る",
+        "label": "to sell",
+        "resolved": true,
+        "target_id": "uru_00095"
       }
     ],
     "metadata": {
       "created": "2026-01-05T12:00:00Z",
-      "modified": "2026-01-06T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -34493,11 +34930,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "suku_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "かわかす",
+        "headword": "{乾|かわ}かす",
+        "label": "transitive, to dry something",
+        "resolved": true,
+        "target_id": "kawakasu_00605"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -34591,11 +35036,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kaeru_00099"
+      },
+      {
+        "type": "pair",
+        "reading": "かえる",
+        "headword": "{変|か}える",
+        "label": "transitive, to change something",
+        "resolved": true,
+        "target_id": "kaeru_00099"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -35970,11 +36423,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tsukeru_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "きえる",
+        "headword": "{消|き}える",
+        "label": "intransitive, to go out/disappear",
+        "resolved": false,
+        "target_id": null
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -36439,10 +36900,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). This is the spontaneous/potential form related to {聞|き}く (to hear/listen). Pattern: Xが{聞|き}こえる (X can be heard).\n\nASPECT: ている indicates ongoing state. {聞|き}こえている = 'can be heard' (continuous).\n\nCOMMON PATTERNS:\n・{声|こえ}が{聞|き}こえる (a voice can be heard)\n・{音|おと}が{聞|き}こえる (a sound can be heard)\n・よく{聞|き}こえない (can't hear well)\n・{聞|き}こえてくる (come to be heard, start hearing)\n・〜に{聞|き}こえる (sound like ~)\n\nCONTRAST:\n・{聞|き}く: active listening/asking (transitive)\n・{聞|き}こえる: passive hearing, audibility (intransitive)\n\nRELATED PAIR: {見|み}る → {見|み}える (see → be visible) follows the same pattern.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "みる",
+        "headword": "{見|み}る",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "miru_00001"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -36585,10 +37055,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {決|き}める (transitive, to decide). Pattern: Xが{決|き}まる (X is decided).\n\nASPECT: ている indicates resulting state. {決|き}まっている = 'is decided/fixed' (the decision stands).\n\nCOMMON PATTERNS:\n・{日程|にってい}が{決|き}まる (the schedule is decided)\n・{ルール}が{決|き}まっている (the rule is established)\n・まだ{決|き}まっていない (not yet decided)\n・{話|はなし}が{決|き}まる (the deal is settled)\n・それで{決|き}まり (that settles it)\n\nCONTRAST:\n・{決|き}まる (intransitive): X is decided\n・{決|き}める (transitive): (someone) decides X\n\nIDIOMS:\n・{決|き}まり{文句|もんく} (stock phrase, cliché)\n・お{決|き}まりの (the usual, customary)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "きめる",
+        "headword": "{決|き}める",
+        "label": "transitive, to decide",
+        "resolved": true,
+        "target_id": "kimeru_00095"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -36627,10 +37106,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {決|き}まる (intransitive, to be decided). Pattern: Xを{決|き}める (decide X).\n\nASPECT: ている indicates resulting state. {決|き}めている = 'have decided' (current decision).\n\nCOMMON PATTERNS:\n・{日|ひ}を{決|き}める (decide on a date)\n・{何|なに}を〜か{決|き}める (decide what to ~)\n・まだ{決|き}めていない (haven't decided yet)\n・{決|き}めた！ (I've decided!)\n\nPAIR: {決|き}まる (intransitive) - {時間|じかん}が{決|き}まった (the time was decided).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "きまる",
+        "headword": "{決|き}まる",
+        "label": "intransitive, to be decided",
+        "resolved": true,
+        "target_id": "kimaru_00119"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -37392,11 +37880,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kaburu_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "ぬぐ",
+        "headword": "{脱|ぬ}ぐ",
+        "label": "take off",
+        "resolved": true,
+        "target_id": "nugu_00010"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -39019,11 +39515,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "suku_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "すく",
+        "headword": "すく",
+        "label": "to become empty",
+        "resolved": true,
+        "target_id": "suku_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "すいている",
+        "headword": "すいている",
+        "label": "is empty/not crowded",
+        "resolved": false,
+        "target_id": null
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -39980,10 +40492,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {転|ころ}がす (transitive, to roll something). Pattern: Xが{転|ころ}ぶ.\n\nASPECT: ている indicates resulting state or ongoing. {転|ころ}んでいる = 'has fallen (and is on the ground)' or 'is falling.'\n\nCOMMON PATTERNS:\n・{道|みち}で{転|ころ}ぶ (fall on the road)\n・{転|ころ}んでしまう (unfortunately fall)\n・{転|ころ}ばないように (so as not to fall)\n・{転|ころ}んで{怪我|けが}する (fall and get injured)\n\nDifferent from {落|お}ちる (fall from height). {転|ころ}ぶ is for losing balance on the ground.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "ころがす",
+        "headword": "{転|ころ}がす",
+        "label": "transitive, to roll something",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -41319,10 +41840,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {壊|こわ}す (transitive, to break something). Pattern: Xが{壊|こわ}れる.\n\nASPECT: ている indicates resulting state. {壊|こわ}れている = 'is broken' (current state).\n\nCOMMON PATTERNS:\n・パソコンが{壊|こわ}れる (computer breaks)\n・{時計|とけい}が{壊|こわ}れている (watch is broken)\n・{壊|こわ}れてしまう (unfortunately break)\n・{壊|こわ}れやすい (fragile, easily broken)\n\nPAIR: {壊|こわ}す (transitive) - {子供|こども}がおもちゃを{壊|こわ}した (child broke toy).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "こわす",
+        "headword": "{壊|こわ}す",
+        "label": "transitive, to break something",
+        "resolved": true,
+        "target_id": "kowasu_00121"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -41366,10 +41896,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {壊|こわ}れる (intransitive, to break). Pattern: Xを{壊|こわ}す (break X).\n\nASPECT: ている indicates completed action with result. {壊|こわ}している = 'has broken' or 'is breaking.'\n\nCOMMON PATTERNS:\n・{機械|きかい}を{壊|こわ}す (break a machine)\n・{建物|たてもの}を{壊|こわ}す (demolish a building)\n・{体|からだ}を{壊|こわ}す (ruin one's health)\n・{雰囲気|ふんいき}を{壊|こわ}す (ruin the atmosphere)\n・お{腹|なか}を{壊|こわ}す (upset one's stomach)\n\nCONTRAST:\n・{壊|こわ}す (transitive): (someone) breaks X\n・{壊|こわ}れる (intransitive): X breaks/is broken\n\nREGISTER: Neutral.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "こわれる",
+        "headword": "{壊|こわ}れる",
+        "label": "intransitive, to break",
+        "resolved": true,
+        "target_id": "kowareru_00094"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -44403,10 +44942,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {曲|ま}げる (transitive). Pattern: Xが{曲|ま}がる (X turns/bends).\n\nASPECT: ている indicates resulting state. {曲|ま}がっている = 'is bent/curved' (current state).\n\nCOMMON PATTERNS:\n・{右|みぎ}に{曲|ま}がる (turn right)\n・{左|ひだり}に{曲|ま}がる (turn left)\n・{角|かど}を{曲|ま}がる (turn at corner)\n・{道|みち}が{曲|ま}がっている (road curves)\n\nPAIR: {曲|ま}げる (transitive) - {棒|ぼう}を{曲|ま}げる (bend the stick). Godan verb: te-form {曲|ま}がって.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "まげる",
+        "headword": "{曲|ま}げる",
+        "label": "transitive",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -44940,11 +45488,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "katsu_00113"
+      },
+      {
+        "type": "antonym",
+        "reading": "かつ",
+        "headword": "{勝|か}つ",
+        "label": "to win",
+        "resolved": true,
+        "target_id": "katsu_00113"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -45764,10 +46320,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "まとまる is an intransitive verb meaning to come together or be settled.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pair: まとめる (transitive, to put together)\n- Pattern: Xがまとまる (X comes together)\n\nASPECT (ている):\n- まとまっている means 'is organized/settled' (resulting state)\n\nCOMMON PATTERNS:\n- {意見|いけん}がまとまる (opinions come together)\n- {話|はなし}がまとまる (deal is settled)\n- {考|かんが}えがまとまる (thoughts become organized)\n- まとまった{金額|きんがく} (substantial amount)\n\nSIMILAR WORDS:\n- {集|あつ}まる: to gather (people/things)\n- まとまる: to come together/be settled (abstract)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "まとめる",
+        "headword": "まとめる",
+        "label": "transitive, to put together",
+        "resolved": true,
+        "target_id": "matomeru_01396"
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T11:41:04Z",
-      "modified": "2026-01-09T11:41:04Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -46044,11 +46609,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "mawasu_00107"
+      },
+      {
+        "type": "pair",
+        "reading": "まわす",
+        "headword": "{回|まわ}す",
+        "label": "transitive, to turn something",
+        "resolved": true,
+        "target_id": "mawasu_00107"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -46105,11 +46678,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "mawaru_00106"
+      },
+      {
+        "type": "pair",
+        "reading": "まわる",
+        "headword": "{回|まわ}る",
+        "label": "intransitive, to turn",
+        "resolved": true,
+        "target_id": "mawaru_00106"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -47827,11 +48408,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "mitsukeru_00110"
+      },
+      {
+        "type": "pair",
+        "reading": "みつける",
+        "headword": "{見|み}つける",
+        "label": "transitive, to find",
+        "resolved": true,
+        "target_id": "mitsukeru_00110"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -47883,11 +48472,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "mitsukaru_00109"
+      },
+      {
+        "type": "pair",
+        "reading": "みつかる",
+        "headword": "{見|み}つかる",
+        "label": "intransitive, to be found",
+        "resolved": true,
+        "target_id": "mitsukaru_00109"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -48415,10 +49012,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {戻|もど}す (transitive). Pattern: Xが{戻|もど}る (X returns).\n\nASPECT: ている indicates resulting state. {戻|もど}っている = 'has returned (is back).'\n\nCOMMON PATTERNS:\n・{家|いえ}に{戻|もど}る (return home)\n・{元|もと}に{戻|もど}る (return to original state)\n・{席|せき}に{戻|もど}る (return to seat)\n・{体調|たいちょう}が{戻|もど}る (health returns)\n\nPAIR: {戻|もど}す (transitive) - {本|ほん}を{戻|もど}す (put book back). Compare: {帰|かえ}る (return home).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "もどす",
+        "headword": "{戻|もど}す",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "modosu_01234"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -51125,11 +51731,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "nakusu_00101"
+      },
+      {
+        "type": "pair",
+        "reading": "なくす",
+        "headword": "{無|な}くす",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "nakusu_00101"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -51275,11 +51889,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "nakunaru_00689"
+      },
+      {
+        "type": "pair",
+        "reading": "なくなる",
+        "headword": "{無|な}くなる",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "nakunaru_00689"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -51687,11 +52309,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "naosu_00095"
+      },
+      {
+        "type": "pair",
+        "reading": "なおす",
+        "headword": "{直|なお}す",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "naosu_00095"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -51743,11 +52373,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "naoru_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "なおる",
+        "headword": "{直|なお}る",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "naoru_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -51799,11 +52437,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "narabu_00069"
+      },
+      {
+        "type": "pair",
+        "reading": "ならぶ",
+        "headword": "{並|なら}ぶ",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "narabu_00069"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -51850,11 +52496,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "naraberu_00099"
+      },
+      {
+        "type": "pair",
+        "reading": "ならべる",
+        "headword": "{並|なら}べる",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "naraberu_00099"
       }
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
-      "modified": "2026-01-07T15:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -52117,10 +52771,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {鳴|な}らす (transitive, to ring/sound something). Pattern: Xが{鳴|な}る (X rings/sounds).\n\nASPECT: ている indicates ongoing sound. {鳴|な}っている = 'is ringing.'\n\nCOMMON PATTERNS:\n・{電話|でんわ}が{鳴|な}る (phone rings)\n・{ベル}が{鳴|な}る (bell rings)\n・お{腹|なか}が{鳴|な}る (stomach growls)\n・{雷|かみなり}が{鳴|な}る (thunder rumbles)\n・{目覚|めざ}ましが{鳴|な}る (alarm goes off)\n\nCONTRAST:\n・{鳴|な}る (intransitive): X rings\n・{鳴|な}らす (transitive): (someone) rings X\n\nDON'T CONFUSE: This {鳴|な}る (to ring/sound) uses different kanji from なる (to become), which has no kanji or uses {成|な}る.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "ならす",
+        "headword": "{鳴|な}らす",
+        "label": "transitive, to ring/sound something",
+        "resolved": true,
+        "target_id": "narasu_01350"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -52411,10 +53074,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{寝坊|ねぼう} is composed of {寝|ね} (sleep) + {坊|ぼう} (person, in compounds).\n\nCOMMON PATTERNS:\n- {寝坊|ねぼう}する: to oversleep\n- {寝坊|ねぼう}して{遅刻|ちこく}する: to be late due to oversleeping\n- {寝坊|ねぼう}しないように: so as not to oversleep\n\nRELATED TERMS:\n- {遅刻|ちこく}: being late\n- {早起|はやお}き: early riser, waking up early\n- {朝寝坊|あさねぼう}: morning oversleeping\n- {二度寝|にどね}: going back to sleep\n\nOPPOSITE: {早起|はやお}き (early riser)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "はやおき",
+        "headword": "{早起|はやお}き",
+        "label": "early riser",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -52797,11 +53469,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "okiru_00011"
+      },
+      {
+        "type": "antonym",
+        "reading": "おきる",
+        "headword": "{起|お}きる",
+        "label": "to wake up/get up",
+        "resolved": true,
+        "target_id": "okiru_00011"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -53685,10 +54365,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {逃|に}がす (transitive, to let escape). Pattern: Xから{逃|に}げる (escape from X).\n\nASPECT: ている indicates completed action or ongoing state. {逃|に}げている = 'has escaped' or 'is on the run.'\n\nCOMMON PATTERNS:\n・{危険|きけん}から{逃|に}げる (escape from danger)\n・{警察|けいさつ}から{逃|に}げる (run from police)\n・{責任|せきにん}から{逃|に}げる (run from responsibility)\n・{逃|に}げ{出|だ}す (run away, make a break for it)\n・{逃|に}げ{回|まわ}る (run around trying to escape)\n\nCONTRAST:\n・{逃|に}げる (intransitive): escape, run away\n・{逃|に}がす (transitive): let escape, miss (an opportunity)\n\nRELATED:\n・{逃|に}げ{道|みち} (escape route)\n・{逃|とう}亡 (flight, escape—noun, formal)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "にがす",
+        "headword": "{逃|に}がす",
+        "label": "transitive, to let escape",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -54747,11 +55436,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "agaru_00091"
+      },
+      {
+        "type": "antonym",
+        "reading": "おりる",
+        "headword": "{下|お}りる",
+        "label": "go down",
+        "resolved": true,
+        "target_id": "oriru_00025"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -54879,10 +55576,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {残|のこ}す (transitive, to leave behind). Pattern: Xが{残|のこ}る (X remains).\n\nASPECT: ている indicates resulting state. {残|のこ}っている = 'is remaining' or 'is left.'\n\nCOMMON PATTERNS:\n・Xが{残|のこ}る (X remains)\n・{時間|じかん}が{残|のこ}る (time remains)\n・{思|おも}い{出|で}が{残|のこ}る (memories remain)\n・{印象|いんしょう}に{残|のこ}る (leave an impression)\n・{居残|いのこ}る (stay behind—compound)\n\nCONTRAST:\n・{残|のこ}る (intransitive): X remains\n・{残|のこ}す (transitive): leave X behind\n\nExample pair:\n・{食|た}べ{物|もの}が{残|のこ}った (Food was left over)\n・{食|た}べ{物|もの}を{残|のこ}した (I left food behind)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "のこす",
+        "headword": "{残|のこ}す",
+        "label": "transitive, to leave behind",
+        "resolved": true,
+        "target_id": "nokosu_00708"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -55257,11 +55963,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "oriru_00025"
+      },
+      {
+        "type": "antonym",
+        "reading": "おりる",
+        "headword": "{降|お}りる",
+        "label": "to get off",
+        "resolved": true,
+        "target_id": "oriru_00025"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -55841,10 +56555,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {濡|ぬ}らす (transitive). Pattern: Xが{濡|ぬ}れる (X gets wet).\n\nASPECT: ている indicates resulting state. {濡|ぬ}れている = 'is wet' (state).\n\nCOMMON PATTERNS:\n・{雨|あめ}に{濡|ぬ}れる (get wet from rain)\n・{服|ふく}が{濡|ぬ}れた (clothes got wet)\n・{濡|ぬ}れている (is wet)\n・びしょ{濡|ぬ}れ (soaking wet)\n\nPAIR: {濡|ぬ}らす (transitive) - タオルを{濡|ぬ}らした (wet the towel).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "ぬらす",
+        "headword": "{濡|ぬ}らす",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "nurasu_01356"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -56271,10 +56994,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{覚|おぼ}える (memorize/learn X).\n\nASPECT: ている indicates resulting state. {覚|おぼ}えている = 'remember' (state of having memorized). This is a key verb where ている means the result, not ongoing action.\n\nCOMMON PATTERNS:\n・{漢字|かんじ}を{覚|おぼ}える (memorize kanji)\n・{名前|なまえ}を{覚|おぼ}える (remember a name)\n・{顔|かお}を{覚|おぼ}える (remember a face)\n・{覚|おぼ}えている (remember - state)\n\nOpposite: {忘|わす}れる (to forget). Different from {習|なら}う which emphasizes learning from a teacher.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "わすれる",
+        "headword": "{忘|わす}れる",
+        "label": "to forget",
+        "resolved": true,
+        "target_id": "wasureru_00003"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -56434,11 +57166,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "otosu_00122"
+      },
+      {
+        "type": "pair",
+        "reading": "おとす",
+        "headword": "{落|お}とす",
+        "label": "transitive, to drop something",
+        "resolved": true,
+        "target_id": "otosu_00122"
       }
     ],
     "metadata": {
       "created": "2026-01-08T10:00:00Z",
-      "modified": "2026-01-08T10:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -56612,10 +57352,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {驚|おどろ}かす (transitive, to surprise someone). Pattern: Xに{驚|おどろ}く (be surprised at X).\n\nASPECT: ている indicates resulting state. {驚|おどろ}いている = 'is surprised' (in a state of surprise).\n\nCOMMON PATTERNS:\n・Xに{驚|おどろ}く (be surprised at X)\n・{驚|おどろ}くほど (surprisingly, to a surprising degree)\n・{驚|おどろ}くべき (surprising, astonishing—attributive)\n・{驚|おどろ}いたことに (to my surprise)\n\nSIMILAR WORDS:\n・びっくりする: more casual, sudden surprise\n・{驚|おどろ}く: general surprise/astonishment\n・{仰天|ぎょうてん}する: extreme shock (more dramatic)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "おどろかす",
+        "headword": "{驚|おどろ}かす",
+        "label": "transitive, to surprise someone",
+        "resolved": true,
+        "target_id": "odorokasu_00591"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -57554,11 +58303,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "neru_00003"
+      },
+      {
+        "type": "pair",
+        "reading": "おこす",
+        "headword": "{起|お}こす",
+        "label": "transitive, to wake someone up",
+        "resolved": true,
+        "target_id": "okosu_00119"
+      },
+      {
+        "type": "antonym",
+        "reading": "ねる",
+        "headword": "{寝|ね}る",
+        "label": "to sleep/go to bed",
+        "resolved": true,
+        "target_id": "neru_00003"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -57788,11 +58553,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "okiru_00011"
+      },
+      {
+        "type": "pair",
+        "reading": "おきる",
+        "headword": "{起|お}きる",
+        "label": "intransitive, to wake up/get up",
+        "resolved": true,
+        "target_id": "okiru_00011"
       }
     ],
     "metadata": {
       "created": "2026-01-08T10:00:00Z",
-      "modified": "2026-01-08T10:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -58014,10 +58787,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {遅|おく}らせる (transitive, to delay something). Pattern: Xに{遅|おく}れる (be late for X).\n\nASPECT: ている indicates ongoing state. {遅|おく}れている = 'is delayed/running late.'\n\nCOMMON PATTERNS:\n・{学校|がっこう}に{遅|おく}れる (be late for school)\n・{電車|でんしゃ}が{遅|おく}れる (train is delayed)\n・{遅|おく}れてすみません (sorry I'm late)\n・5{分|ふん}{遅|おく}れる (be 5 minutes late)\n\nThe apology {遅|おく}れてすみません is extremely common.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "おくらせる",
+        "headword": "{遅|おく}らせる",
+        "label": "transitive, to delay something",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -58546,11 +59328,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tsumaranai_00052"
+      },
+      {
+        "type": "antonym",
+        "reading": "つまらない",
+        "headword": "つまらない",
+        "label": "boring",
+        "resolved": true,
+        "target_id": "tsumaranai_00052"
       }
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
-      "modified": "2026-01-07T15:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -58896,11 +59686,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "hito_00004"
+      },
+      {
+        "type": "antonym",
+        "reading": "おとこ",
+        "headword": "{男|おとこ}",
+        "label": "man",
+        "resolved": true,
+        "target_id": "otoko_00022"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -59397,11 +60195,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "oru_00147"
+      },
+      {
+        "type": "pair",
+        "reading": "おる",
+        "headword": "{折|お}る",
+        "label": "transitive, to break/fold",
+        "resolved": true,
+        "target_id": "oru_00147"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -59453,11 +60259,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "noru_00009"
+      },
+      {
+        "type": "pair",
+        "reading": "おろす",
+        "headword": "{降|お}ろす",
+        "label": "transitive, to let someone off/unload",
+        "resolved": true,
+        "target_id": "orosu_00596"
+      },
+      {
+        "type": "antonym",
+        "reading": "のる",
+        "headword": "{乗|の}る",
+        "label": "to get on",
+        "resolved": true,
+        "target_id": "noru_00009"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -59650,11 +60472,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "oreru_00127"
+      },
+      {
+        "type": "pair",
+        "reading": "おれる",
+        "headword": "{折|お}れる",
+        "label": "intransitive, to break/be folded",
+        "resolved": true,
+        "target_id": "oreru_00127"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -60237,11 +61067,18 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "hayai_00010"
+      },
+      {
+        "type": "antonym",
+        "reading": "はやい",
+        "headword": "{速|はや}い",
+        "resolved": true,
+        "target_id": "hayai_00010"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -60652,11 +61489,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "hito_00004"
+      },
+      {
+        "type": "antonym",
+        "reading": "おんな",
+        "headword": "{女|おんな}",
+        "label": "woman",
+        "resolved": true,
+        "target_id": "onna_00021"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -60797,11 +61642,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "ochiru_00121"
+      },
+      {
+        "type": "pair",
+        "reading": "おちる",
+        "headword": "{落|お}ちる",
+        "label": "intransitive, to fall",
+        "resolved": true,
+        "target_id": "ochiru_00121"
       }
     ],
     "metadata": {
       "created": "2026-01-08T10:00:00Z",
-      "modified": "2026-01-08T10:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -61380,11 +62233,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "hajimaru_00095"
+      },
+      {
+        "type": "antonym",
+        "reading": "はじまり",
+        "headword": "{始|はじ}まり",
+        "label": "beginning",
+        "resolved": false,
+        "target_id": null
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -61431,11 +62292,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "hajimaru_00095"
+      },
+      {
+        "type": "pair",
+        "reading": "おえる",
+        "headword": "{終|お}える",
+        "label": "transitive, to finish something",
+        "resolved": true,
+        "target_id": "oeru_00790"
+      },
+      {
+        "type": "antonym",
+        "reading": "はじまる",
+        "headword": "{始|はじ}まる",
+        "label": "to begin",
+        "resolved": true,
+        "target_id": "hajimaru_00095"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -62380,10 +63257,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{冷房|れいぼう} means cooling/air conditioning.\n\nOPPOSITE: {暖房|だんぼう} (heating)\n\nCOMMON VERBS:\n- {冷房|れいぼう}をつける: to turn on AC\n- {冷房|れいぼう}を{消|け}す: to turn off AC\n- {冷房|れいぼう}が{効|き}く: AC is effective\n\nRELATED TERMS:\n- エアコン: air conditioner\n- クーラー: cooler, AC unit\n- {空調|くうちょう}: climate control",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "だんぼう",
+        "headword": "{暖房|だんぼう}",
+        "label": "heating",
+        "resolved": true,
+        "target_id": "danbou_00455"
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -63561,10 +64447,27 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {下|さ}げる (transitive, to lower). Pattern: Xが{下|さ}がる (X goes down).\n\nASPECT: ている indicates resulting state. {下|さ}がっている = 'has gone down' or 'is low.'\n\nCOMMON PATTERNS:\n・{気温|きおん}が{下|さ}がる (temperature drops)\n・{値段|ねだん}が{下|さ}がる (price drops)\n・{熱|ねつ}が{下|さ}がる (fever goes down)\n・{後|うし}ろに{下|さ}がる (step back)\n・{成績|せいせき}が{下|さ}がる (grades drop)\n\nCONTRAST:\n・{下|さ}がる (intransitive): X goes down\n・{下|さ}げる (transitive): (someone) lowers X\n\nOPPOSITE: {上|あ}がる (to go up, to rise)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "さげる",
+        "headword": "{下|さ}げる",
+        "label": "transitive, to lower",
+        "resolved": true,
+        "target_id": "sageru_00094"
+      },
+      {
+        "type": "antonym",
+        "reading": "あがる",
+        "headword": "{上|あ}がる",
+        "label": "to go up, to rise",
+        "resolved": true,
+        "target_id": "agaru_00091"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -63659,10 +64562,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {下|さ}がる (intransitive). Pattern: Xを{下|さ}げる (lower X).\n\nASPECT: ている indicates resulting state. {下|さ}げている = 'have lowered' or 'is carrying (hanging).'\n\nCOMMON PATTERNS:\n・{頭|あたま}を{下|さ}げる (bow one's head)\n・{値段|ねだん}を{下|さ}げる (lower the price)\n・{温度|おんど}を{下|さ}げる (lower the temperature)\n・かばんを{下|さ}げる (carry a bag)\n\nPAIR: {下|さ}がる (intransitive) - {気温|きおん}が{下|さ}がった (temperature dropped). {頭|あたま}を{下|さ}げる = bow (important in Japanese culture).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "さがる",
+        "headword": "{下|さ}がる",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "sagaru_00111"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -68597,11 +69509,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "aku_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "しめる",
+        "headword": "{閉|し}める",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "shimeru_00005"
+      },
+      {
+        "type": "antonym",
+        "reading": "あく",
+        "headword": "{開|あ}く",
+        "label": "to open - intransitive",
+        "resolved": true,
+        "target_id": "aku_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -68656,11 +69584,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "shimaru_00093"
+      },
+      {
+        "type": "pair",
+        "reading": "しまる",
+        "headword": "{閉|し}まる",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "shimaru_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "あける",
+        "headword": "{開|あ}ける",
+        "label": "to open - transitive",
+        "resolved": true,
+        "target_id": "akeru_00023"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -71189,10 +72133,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{出発|しゅっぱつ} means departure or setting out.\n\nCOMMON EXPRESSIONS:\n- {出発|しゅっぱつ}する: to depart\n- {出発|しゅっぱつ}{時間|じかん}: departure time\n- {出発|しゅっぱつ}{点|てん}: starting point\n- {出発|しゅっぱつ}ロビー: departure lobby\n\nOPPOSITE: {到着|とうちゃく} (arrival)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "とうちゃく",
+        "headword": "{到着|とうちゃく}",
+        "label": "arrival",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -71315,10 +72268,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{出席|しゅっせき} means attendance or being present.\n\nCOMMON EXPRESSIONS:\n- {出席|しゅっせき}する: to attend\n- {出席|しゅっせき}を{取|と}る: to take attendance\n- {出席|しゅっせき}{者|しゃ}: attendee\n- {出席|しゅっせき}{率|りつ}: attendance rate\n\nOPPOSITE: {欠席|けっせき} (absence)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "けっせき",
+        "headword": "{欠席|けっせき}",
+        "label": "absence",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -71614,10 +72576,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {育|そだ}つ (intransitive, to grow up). Pattern: Xを{育|そだ}てる (raise/grow X).\n\nASPECT: ている indicates ongoing action. {育|そだ}てている = 'is raising/growing.'\n\nCOMMON PATTERNS:\n・{子供|こども}を{育|そだ}てる (raise children)\n・{野菜|やさい}を{育|そだ}てる (grow vegetables)\n・{人材|じんざい}を{育|そだ}てる (develop human resources)\n・{才能|さいのう}を{育|そだ}てる (cultivate talent)\n・{愛情|あいじょう}を{込|こ}めて{育|そだ}てる (raise with love)\n\nCONTRAST:\n・{育|そだ}てる (transitive): (someone) raises X\n・{育|そだ}つ (intransitive): X grows up\n\nExample pair:\n・{親|おや}が{子供|こども}を{育|そだ}てる (Parents raise children)\n・{子供|こども}が{育|そだ}つ (Children grow up)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "そだつ",
+        "headword": "{育|そだ}つ",
+        "label": "intransitive, to grow up",
+        "resolved": true,
+        "target_id": "sodatsu_00652"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -73826,11 +74797,18 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "komu_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "こむ",
+        "headword": "{込|こ}む",
+        "resolved": true,
+        "target_id": "komu_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -74815,10 +75793,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {進|すす}める (transitive, to advance something). Pattern: Xが{進|すす}む (X advances).\n\nASPECT: ている indicates ongoing state or result. {進|すす}んでいる = 'is advancing' or 'has advanced.'\n\nCOMMON PATTERNS:\n・{前|まえ}に{進|すす}む (move forward)\n・{仕事|しごと}が{進|すす}む (work progresses)\n・{道|みち}を{進|すす}む (proceed along a road)\n・{進|すす}んで (willingly, voluntarily)\n・{時計|とけい}が{進|すす}む (clock is fast)\n\nCONTRAST:\n・{進|すす}む (intransitive): X advances\n・{進|すす}める (transitive): (someone) advances X\n\nOPPOSITE:\n・{遅|おく}れる (to fall behind, be late)\n・{戻|もど}る (to go back)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "すすめる",
+        "headword": "{進|すす}める",
+        "label": "transitive, to advance something",
+        "resolved": true,
+        "target_id": "susumeru_00913"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -74983,10 +75970,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{捨|す}てる (throw away X).\n\nASPECT: ている indicates completed action with result. {捨|す}てている = 'has thrown away' or 'is in the process of discarding.'\n\nCOMMON PATTERNS:\n・ゴミを{捨|す}てる (throw away trash)\n・{古|ふる}いものを{捨|す}てる (throw away old things)\n・{捨|す}てないで (don't throw it away)\n・{夢|ゆめ}を{捨|す}てる (give up a dream - figurative)\n\nCan mean 'to abandon' figuratively. Opposite: {拾|ひろ}う (to pick up).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "ひろう",
+        "headword": "{拾|ひろ}う",
+        "label": "to pick up",
+        "resolved": true,
+        "target_id": "hirou_00095"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -75243,11 +76239,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tatsu_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "たつ",
+        "headword": "{立|た}つ",
+        "label": "to stand",
+        "resolved": true,
+        "target_id": "tatsu_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -75336,11 +76340,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "nomu_00001"
+      },
+      {
+        "type": "antonym",
+        "reading": "のむ",
+        "headword": "{飲|の}む",
+        "label": "to drink",
+        "resolved": true,
+        "target_id": "nomu_00001"
       }
     ],
     "metadata": {
       "created": "2026-01-05T10:00:00Z",
-      "modified": "2026-01-05T10:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -76446,11 +77458,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "sukoshi_00058"
+      },
+      {
+        "type": "antonym",
+        "reading": "すこし",
+        "headword": "{少|すこ}し",
+        "label": "a little",
+        "resolved": true,
+        "target_id": "sukoshi_00058"
       }
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
-      "modified": "2026-01-07T15:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -77305,10 +78325,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {倒|たお}す (transitive, to knock down). Pattern: Xが{倒|たお}れる (X falls down).\n\nASPECT: ている indicates resulting state. {倒|たお}れている = 'is lying fallen' or 'has collapsed.'\n\nCOMMON PATTERNS:\n・{木|き}が{倒|たお}れる (tree falls)\n・{病気|びょうき}で{倒|たお}れる (collapse from illness)\n・{過労|かろう}で{倒|たお}れる (collapse from overwork)\n・{政府|せいふ}が{倒|たお}れる (government falls)\n・ばったり{倒|たお}れる (fall down suddenly)\n\nCONTRAST:\n・{倒|たお}れる (intransitive): X falls/collapses\n・{倒|たお}す (transitive): (someone) knocks X down",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "たおす",
+        "headword": "{倒|たお}す",
+        "label": "transitive, to knock down",
+        "resolved": true,
+        "target_id": "taosu_00655"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -77758,11 +78787,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tetsudau_00095"
+      },
+      {
+        "type": "pair",
+        "reading": "たすかる",
+        "headword": "{助|たす}かる",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "tasukaru_00659"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -78076,11 +79113,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tateru_00112"
+      },
+      {
+        "type": "pair",
+        "reading": "たつ",
+        "headword": "{建|た}つ",
+        "label": "intransitive, to be built",
+        "resolved": true,
+        "target_id": "tatsu_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -78132,11 +79177,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tateru_00112"
+      },
+      {
+        "type": "pair",
+        "reading": "たつ",
+        "headword": "{立|た}つ",
+        "label": "intransitive, to stand",
+        "resolved": true,
+        "target_id": "tatsu_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -78230,11 +79283,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "suwaru_00093"
+      },
+      {
+        "type": "antonym",
+        "reading": "すわる",
+        "headword": "{座|すわ}る",
+        "label": "to sit",
+        "resolved": true,
+        "target_id": "suwaru_00093"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -78688,10 +79749,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "In Japanese grammar, {丁寧語|ていねいご} refers to polite language (using です/ます forms). As a na-adjective: {丁寧|ていねい}な + noun, {丁寧|ていねい}に + verb. Opposite: {乱暴|らんぼう} (rough) or {失礼|しつれい} (rude).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "らんぼう",
+        "headword": "{乱暴|らんぼう}",
+        "label": "rough",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -80105,10 +81175,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {届|とど}く (intransitive, to arrive). Pattern: Xを Yに{届|とど}ける (deliver X to Y).\n\nASPECT: ている indicates completed action. {届|とど}けている = 'has delivered.'\n\nCOMMON PATTERNS:\n・{荷物|にもつ}を{届|とど}ける (deliver a package)\n・プレゼントを{届|とど}ける (deliver a present)\n・{届|とど}け{出|で} (notification, report—noun)\n・{届|とど}けを{出|だ}す (file a report)\n・{警察|けいさつ}に{届|とど}ける (report to police)\n\nCONTRAST:\n・{届|とど}ける (transitive): deliver X\n・{届|とど}く (intransitive): X arrives\n\nExample pair:\n・{荷物|にもつ}を{届|とど}ける (deliver a package)\n・{荷物|にもつ}が{届|とど}く (package arrives)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "とどく",
+        "headword": "{届|とど}く",
+        "label": "intransitive, to arrive",
+        "resolved": true,
+        "target_id": "todoku_00095"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -80152,10 +81231,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {届|とど}ける (transitive). Pattern: Xが{届|とど}く (X arrives/reaches).\n\nASPECT: ている indicates resulting state. {届|とど}いている = 'has arrived' (and is here now).\n\nCOMMON PATTERNS:\n・{荷物|にもつ}が{届|とど}く (package arrives)\n・{手|て}が{届|とど}く (can reach - physical)\n・{声|こえ}が{届|とど}く (voice reaches - figurative)\n・まだ{届|とど}いていない (hasn't arrived yet)\n\nPAIR: {届|とど}ける (transitive) - {荷物|にもつ}を{届|とど}けた (delivered the package).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "とどける",
+        "headword": "{届|とど}ける",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "todokeru_00122"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -80763,11 +81851,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tomeru_00091"
+      },
+      {
+        "type": "pair",
+        "reading": "とめる",
+        "headword": "{止|と}める",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "tomeru_00091"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -80819,11 +81915,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tomaru_00020"
+      },
+      {
+        "type": "pair",
+        "reading": "とまる",
+        "headword": "{止|と}まる",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "tomaru_00020"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -81002,10 +82106,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{遠|とお}く is the noun/adverb form of {遠|とお}い (far).\n\nFORM RELATIONSHIPS:\n- {遠|とお}い: far (i-adjective)\n- {遠|とお}く: far, distance (noun/adverb)\n- {遠|とお}くに: in the distance\n- {遠|とお}くから: from far away\n- {遠|とお}くへ: to a far place\n\nSIMILAR PATTERN WITH OTHER ADJECTIVES:\n- {近|ちか}い → {近|ちか}く: nearby\n- {高|たか}い → {高|たか}く: high (adverb)\n\nOPPOSITE: {近|ちか}く (nearby)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "ちかく",
+        "headword": "{近|ちか}く",
+        "label": "nearby",
+        "resolved": true,
+        "target_id": "chikaku_00284"
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -81133,10 +82246,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {通|とお}す (transitive, to let through). Pattern: Xを{通|とお}る (pass through X).\n\nASPECT: ている indicates ongoing or completed action. {通|とお}っている = 'is passing' or 'has passed.'\n\nCOMMON PATTERNS:\n・{道|みち}を{通|とお}る (go along a road)\n・{門|もん}を{通|とお}る (pass through a gate)\n・{試験|しけん}に{通|とお}る (pass an exam)\n・{声|こえ}が{通|とお}る (voice carries well)\n・{話|はなし}が{通|とお}る (message gets through)\n・{通|とお}り (street—noun; also: way, manner)\n\nCONTRAST:\n・{通|とお}る (intransitive): pass through\n・{通|とお}す (transitive): let through, pass (something)\n\nRELATED:\n・{通|かよ}う: to commute (repeated passing)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "とおす",
+        "headword": "{通|とお}す",
+        "label": "transitive, to let through",
+        "resolved": true,
+        "target_id": "toosu_01187"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -82353,10 +83475,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {捕|つか}まる (intransitive, to be caught). Pattern: Xを{捕|つか}まえる (catch X).\n\nASPECT: ている indicates completed action with result. {捕|つか}まえている = 'has caught' or 'is holding.'\n\nCOMMON PATTERNS:\n・{虫|むし}を{捕|つか}まえる (catch a bug)\n・{犯人|はんにん}を{捕|つか}まえる (catch a criminal)\n・タクシーを{捕|つか}まえる (catch a taxi)\n・{魚|さかな}を{捕|つか}まえる (catch a fish)\n\nCONTRAST:\n・{捕|つか}まえる (transitive): catch X\n・{捕|つか}まる (intransitive): be caught, get caught\n\nExample pair:\n・{警察|けいさつ}が{犯人|はんにん}を{捕|つか}まえた (Police caught the criminal)\n・{犯人|はんにん}が{捕|つか}まった (The criminal was caught)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "つかまる",
+        "headword": "{捕|つか}まる",
+        "label": "intransitive, to be caught",
+        "resolved": true,
+        "target_id": "tsukamaru_00665"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -82599,11 +83730,27 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "tsuku_00670"
+      },
+      {
+        "type": "pair",
+        "reading": "つく",
+        "headword": "つく",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "tsuku_00670"
+      },
+      {
+        "type": "antonym",
+        "reading": "けす",
+        "headword": "{消|け}す",
+        "label": "turn off",
+        "resolved": true,
+        "target_id": "kesu_00013"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -82655,11 +83802,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kesu_00013"
+      },
+      {
+        "type": "pair",
+        "reading": "つく",
+        "headword": "{付|つ}く",
+        "label": "intransitive",
+        "resolved": true,
+        "target_id": "tsuku_00670"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -83067,11 +84222,18 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "omoshiroi_00051"
+      },
+      {
+        "type": "antonym",
+        "reading": "おもしろい",
+        "headword": "{面白|おもしろ}い",
+        "resolved": true,
+        "target_id": "omoshiroi_00051"
       }
     ],
     "metadata": {
       "created": "2026-01-07T15:00:00Z",
-      "modified": "2026-01-07T15:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -83948,10 +85110,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {伝|つた}わる (intransitive, to be conveyed). Pattern: Xに Yを{伝|つた}える (convey Y to X).\n\nASPECT: ている indicates completed action. {伝|つた}えている = 'has conveyed' or 'is passing on.'\n\nCOMMON PATTERNS:\n・{気持|きも}ちを{伝|つた}える (convey feelings)\n・メッセージを{伝|つた}える (convey a message)\n・{伝統|でんとう}を{伝|つた}える (pass down tradition)\n・{言葉|ことば}で{伝|つた}える (convey in words)\n・{伝|つた}えてください (please tell [someone])\n\nCONTRAST:\n・{伝|つた}える (transitive): convey X\n・{伝|つた}わる (intransitive): X is conveyed, X gets across\n\nSIMILAR VERBS:\n・{知|し}らせる: to notify (focus on making aware)\n・{伝|つた}える: to convey (focus on the message transfer)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "つたわる",
+        "headword": "{伝|つた}わる",
+        "label": "intransitive, to be conveyed",
+        "resolved": true,
+        "target_id": "tsutawaru_00674"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -84419,10 +85590,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {続|つづ}く (intransitive, to continue). Pattern: Xを{続|つづ}ける (continue X).\n\nASPECT: ている indicates ongoing state. {続|つづ}けている = 'has been continuing.'\n\nMAIN VERB PATTERNS:\n・{仕事|しごと}を{続|つづ}ける (continue work)\n・{勉強|べんきょう}を{続|つづ}ける (continue studying)\n・{努力|どりょく}を{続|つづ}ける (continue making effort)\n\nAUXILIARY VERB USAGE (very common):\nAttach to verb stem (masu-stem) to mean 'keep ~ing':\n・{食|た}べ{続|つづ}ける (keep eating)\n・{走|はし}り{続|つづ}ける (keep running)\n・{考|かんが}え{続|つづ}ける (keep thinking)\n\nCONTRAST:\n・{続|つづ}ける (transitive): continue X / keep doing\n・{続|つづ}く (intransitive): X continues",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "つづく",
+        "headword": "{続|つづ}く",
+        "label": "intransitive, to continue",
+        "resolved": true,
+        "target_id": "tsuzuku_00095"
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -84503,10 +85683,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {続|つづ}ける (transitive). Pattern: Xが{続|つづ}く (X continues).\n\nASPECT: ている indicates ongoing state. {続|つづ}いている = 'is continuing' (ongoing state).\n\nCOMMON PATTERNS:\n・{雨|あめ}が{続|つづ}く (rain continues)\n・{話|はなし}が{続|つづ}く (story continues)\n・{道|みち}が{続|つづ}く (road continues)\n・{続|つづ}きを{読|よ}む (read the continuation)\n\nPAIR: {続|つづ}ける (transitive) - {勉強|べんきょう}を{続|つづ}ける (continue studying). Noun: {続|つづ}き (continuation).",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "つづける",
+        "headword": "{続|つづ}ける",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "tsuzukeru_00775"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -84935,10 +86124,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {動|うご}かす (transitive, to move something). Pattern: Xが{動|うご}く.\n\nASPECT: ている indicates ongoing action or state. {動|うご}いている = 'is moving' or 'is running/working' (for machines).\n\nCOMMON PATTERNS:\n・{電車|でんしゃ}が{動|うご}く (the train moves)\n・{時計|とけい}が{動|うご}いている (the clock is working)\n・{動|うご}かないで (don't move)\n・{動|うご}き{出|だ}す (start to move)\n\nFor machines, {動|うご}いている means 'is functioning/working.'",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "うごかす",
+        "headword": "{動|うご}かす",
+        "label": "transitive, to move something",
+        "resolved": true,
+        "target_id": "ugokasu_00572"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -85400,10 +86598,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {生|う}む (transitive, to give birth). Pattern: Xが{生|う}まれる.\n\nASPECT: ている indicates resulting state. {生|う}まれている = 'has been born' (is alive as a result of being born).\n\nCOMMON PATTERNS:\n・{東京|とうきょう}で{生|う}まれる (be born in Tokyo)\n・〜{年|ねん}に{生|う}まれる (be born in year ~)\n・{生|う}まれたばかり (just born)\n・{生|う}まれて{初|はじ}めて (for the first time since birth)\n\nPlace of birth uses で particle, year/date uses に.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "うむ",
+        "headword": "{生|う}む",
+        "label": "transitive, to give birth",
+        "resolved": true,
+        "target_id": "umu_00579"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -86337,11 +87544,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "kau_00006"
+      },
+      {
+        "type": "antonym",
+        "reading": "かう",
+        "headword": "{買|か}う",
+        "label": "to buy",
+        "resolved": true,
+        "target_id": "kau_00006"
       }
     ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -86937,11 +88152,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "utsusu_00117"
+      },
+      {
+        "type": "pair",
+        "reading": "うつす",
+        "headword": "{移|うつ}す",
+        "label": "transitive, to move something",
+        "resolved": true,
+        "target_id": "utsusu_00117"
       }
     ],
     "metadata": {
       "created": "2026-01-08T10:00:00Z",
-      "modified": "2026-01-08T10:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -86993,11 +88216,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "utsuru_00118"
+      },
+      {
+        "type": "pair",
+        "reading": "うつる",
+        "headword": "{写|うつ}る",
+        "label": "intransitive, to be photographed/reflected",
+        "resolved": true,
+        "target_id": "utsuru_00118"
       }
     ],
     "metadata": {
       "created": "2026-01-08T10:00:00Z",
-      "modified": "2026-01-08T10:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -87635,11 +88866,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "waku_00102"
+      },
+      {
+        "type": "pair",
+        "reading": "わく",
+        "headword": "{沸|わ}く",
+        "label": "intransitive, to boil",
+        "resolved": true,
+        "target_id": "waku_00102"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -87785,11 +89024,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "wakasu_00100"
+      },
+      {
+        "type": "pair",
+        "reading": "わかす",
+        "headword": "{沸|わ}かす",
+        "label": "transitive, to boil",
+        "resolved": true,
+        "target_id": "wakasu_00100"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -87875,10 +89122,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {割|わ}る (transitive). Pattern: Xが{割|わ}れる (X breaks).\n\nASPECT: ている indicates resulting state. {割|わ}れている = 'is broken' (current state).\n\nCOMMON PATTERNS:\n・コップが{割|わ}れる (glass breaks)\n・{窓|まど}が{割|わ}れている (window is broken)\n・{卵|たまご}が{割|わ}れる (egg cracks)\n・{氷|こおり}が{割|わ}れる (ice cracks)\n\nPAIR: {割|わ}る (transitive) - コップを{割|わ}る (break a glass). Ichidan verb: te-form {割|わ}れて.",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "わる",
+        "headword": "{割|わ}る",
+        "label": "transitive",
+        "resolved": true,
+        "target_id": "waru_01251"
+      }
+    ],
     "metadata": {
       "created": "2026-01-07T12:00:00Z",
-      "modified": "2026-01-07T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -88750,11 +90006,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "yaku_00102"
+      },
+      {
+        "type": "pair",
+        "reading": "やく",
+        "headword": "{焼|や}く",
+        "label": "transitive, to grill/burn",
+        "resolved": true,
+        "target_id": "yaku_00102"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -88853,11 +90117,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "yakeru_00104"
+      },
+      {
+        "type": "pair",
+        "reading": "やける",
+        "headword": "{焼|や}ける",
+        "label": "intransitive, to burn/be grilled",
+        "resolved": true,
+        "target_id": "yakeru_00104"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -89338,11 +90610,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "futoru_00112"
+      },
+      {
+        "type": "antonym",
+        "reading": "ふとる",
+        "headword": "{太|ふと}る",
+        "label": "to gain weight",
+        "resolved": true,
+        "target_id": "futoru_00112"
       }
     ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -90363,11 +91643,19 @@ const DICTIONARY_DATA = {
         "label": null,
         "resolved": true,
         "target_id": "ban_00017"
+      },
+      {
+        "type": "antonym",
+        "reading": "あさ",
+        "headword": "{朝|あさ}",
+        "label": "morning",
+        "resolved": true,
+        "target_id": "asa_01140"
       }
     ],
     "metadata": {
       "created": "2026-01-07T14:00:00Z",
-      "modified": "2026-01-07T14:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -90448,10 +91736,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{予習|よしゅう} means preparing lessons before class.\n\nLEARNING CYCLE:\n- {予習|よしゅう}: preparation before class\n- {授業|じゅぎょう}: class/lesson\n- {復習|ふくしゅう}: review after class\n\nCOMMON PATTERNS:\n- {予習|よしゅう}する: to prepare (lessons)\n- 〜を{予習|よしゅう}する: to prepare ~\n\nOPPOSITE: {復習|ふくしゅう} (review)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "ふくしゅう",
+        "headword": "{復習|ふくしゅう}",
+        "label": "review",
+        "resolved": true,
+        "target_id": "fukushuu_00486"
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -91337,10 +92634,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{輸入|ゆにゅう} means to import goods.\n\nCOMMON COLLOCATIONS:\n- {輸入|ゆにゅう}する: to import\n- {輸入|ゆにゅう}{品|ひん}: imported goods\n- {輸入|ゆにゅう}{業者|ぎょうしゃ}: importer\n- {輸入|ゆにゅう}{規制|きせい}: import regulations\n- {輸入|ゆにゅう}{禁止|きんし}: import ban\n\nOPPOSITE: {輸出|ゆしゅつ} (export)\n\nRELATED: {貿易|ぼうえき} (trade)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "ゆしゅつ",
+        "headword": "{輸出|ゆしゅつ}",
+        "label": "export",
+        "resolved": true,
+        "target_id": "yushutsu_00887"
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -91389,10 +92695,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {揺|ゆ}らす (transitive, to shake something). Pattern: Xが{揺|ゆ}れる (X shakes).\n\nASPECT: ている indicates ongoing state. {揺|ゆ}れている = 'is shaking/swaying.'\n\nCOMMON PATTERNS:\n・{地震|じしん}で{揺|ゆ}れる (shake from earthquake)\n・{風|かぜ}で{揺|ゆ}れる (sway in the wind)\n・{心|こころ}が{揺|ゆ}れる (heart wavers)\n・ゆらゆら{揺|ゆ}れる (sway gently)\n・{大|おお}きく{揺|ゆ}れる (shake greatly)\n\nCONTRAST:\n・{揺|ゆ}れる (intransitive): X shakes\n・{揺|ゆ}らす (transitive): shake X\n\nONOMATOPOEIA:\n・ゆらゆら (swaying gently)\n・グラグラ (shaking unsteadily)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "pair",
+        "reading": "ゆらす",
+        "headword": "{揺|ゆ}らす",
+        "label": "transitive, to shake something",
+        "resolved": false,
+        "target_id": null
+      }
+    ],
     "metadata": {
       "created": "2026-01-08T12:00:00Z",
-      "modified": "2026-01-08T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "verified",
@@ -91510,10 +92825,19 @@ const DICTIONARY_DATA = {
       }
     ],
     "notes": "{輸出|ゆしゅつ} means export.\n\nCOMMON COLLOCATIONS:\n- {輸出|ゆしゅつ}する: to export\n- {輸出|ゆしゅつ}{品|ひん}: export goods\n- {輸出|ゆしゅつ}{業|ぎょう}: export industry\n- {輸出|ゆしゅつ}{入|にゅう}: import and export\n\nOPPOSITE: {輸入|ゆにゅう} (import)\n\nRELATED: {貿易|ぼうえき} (trade)",
-    "cross_references": [],
+    "cross_references": [
+      {
+        "type": "antonym",
+        "reading": "ゆにゅう",
+        "headword": "{輸入|ゆにゅう}",
+        "label": "import",
+        "resolved": true,
+        "target_id": "yunyuu_00498"
+      }
+    ],
     "metadata": {
       "created": "2026-01-09T12:00:00Z",
-      "modified": "2026-01-09T12:00:00Z",
+      "modified": "2026-01-10T01:26:12Z",
       "ai_model": "claude-opus-4-5",
       "confidence": "high",
       "review_status": "draft",
@@ -124615,6 +125939,1007 @@ const DICTIONARY_INDEX = {
 
 const DICTIONARY_RECENT = [
   {
+    "id": "agaru_00091",
+    "headword": "{上|あ}がる",
+    "gloss": "to rise, to go up",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "akeru_00023",
+    "headword": "{開|あ}ける",
+    "gloss": "to open",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "aku_00093",
+    "headword": "{開|あ}く",
+    "gloss": "to open (by itself)",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "anshin_00135",
+    "headword": "{安心|あんしん}",
+    "gloss": "peace of mind; relief; reassurance",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "asai_00130",
+    "headword": "{浅|あさ}い",
+    "gloss": "shallow; superficial",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "atsumaru_00108",
+    "headword": "{集|あつ}まる",
+    "gloss": "to gather, to assemble",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "atsumeru_00109",
+    "headword": "{集|あつ}める",
+    "gloss": "to collect, to gather",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "danbou_00455",
+    "headword": "{暖房|だんぼう}",
+    "gloss": "heating",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "dansei_00454",
+    "headword": "{男性|だんせい}",
+    "gloss": "man, male",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "dasu_00099",
+    "headword": "{出|だ}す",
+    "gloss": "to take out, to submit",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "deru_00010",
+    "headword": "{出|で}る",
+    "gloss": "to go out, to leave, to appear",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "fuben_00331",
+    "headword": "{不便|ふべん}",
+    "gloss": "inconvenience",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "fueru_00111",
+    "headword": "{増|ふ}える",
+    "gloss": "to increase, to multiply",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "fukai_00115",
+    "headword": "{深|ふか}い",
+    "gloss": "deep; profound",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "fukushuu_00486",
+    "headword": "{復習|ふくしゅう}",
+    "gloss": "review, revision",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "futoru_00112",
+    "headword": "{太|ふと}る",
+    "gloss": "to gain weight, to get fat",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "gogo_00017",
+    "headword": "{午後|ごご}",
+    "gloss": "afternoon, PM",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "gozen_00018",
+    "headword": "{午前|ごぜん}",
+    "gloss": "morning, AM",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hairu_00007",
+    "headword": "{入|はい}る",
+    "gloss": "to enter, to go in",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hajimaru_00095",
+    "headword": "{始|はじ}まる",
+    "gloss": "to begin, to start",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hajimeru_00014",
+    "headword": "{始|はじ}める",
+    "gloss": "to begin, to start",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "haku_00093",
+    "headword": "{履|は}く",
+    "gloss": "to put on (lower body)",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hareru_00093",
+    "headword": "{晴|は}れる",
+    "gloss": "to clear up (weather)",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hieru_00107",
+    "headword": "{冷|ひ}える",
+    "gloss": "to grow cold, to get chilly",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hima_00054",
+    "headword": "{暇|ひま}",
+    "gloss": "free time, not busy",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hirou_00095",
+    "headword": "{拾|ひろ}う",
+    "gloss": "to pick up",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hiruma_00483",
+    "headword": "{昼間|ひるま}",
+    "gloss": "daytime",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "hitsuyou_00095",
+    "headword": "{必要|ひつよう}",
+    "gloss": "necessary, needed",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "homeru_00114",
+    "headword": "{褒|ほ}める",
+    "gloss": "to praise, to compliment",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "ijou_00142",
+    "headword": "{以上|いじょう}",
+    "gloss": "above; more than; that's all",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "ika_00137",
+    "headword": "{以下|いか}",
+    "gloss": "below; less than; the following",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "inaka_00146",
+    "headword": "{田舎|いなか}",
+    "gloss": "countryside; rural area; hometown",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "ireru_00100",
+    "headword": "{入|い}れる",
+    "gloss": "to put in, to insert",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "isogashii_00053",
+    "headword": "{忙|いそが}しい",
+    "gloss": "busy",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kaburu_00093",
+    "headword": "かぶる",
+    "gloss": "to wear (on head)",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kaeri_00130",
+    "headword": "{帰|かえ}り",
+    "gloss": "return; way home",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kaeru_00099",
+    "headword": "{変|か}える",
+    "gloss": "to change, to alter",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kakaru_00093",
+    "headword": "かかる",
+    "gloss": "to take (time/money), to cost",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kakeru_00095",
+    "headword": "かける",
+    "gloss": "to hang, to call, to put on",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kansei_00401",
+    "headword": "{完成|かんせい}",
+    "gloss": "completion, perfection",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kariru_00014",
+    "headword": "{借|か}りる",
+    "gloss": "to borrow, to rent",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kasu_00015",
+    "headword": "{貸|か}す",
+    "gloss": "to lend",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "katazukeru_00112",
+    "headword": "{片付|かたづ}ける",
+    "gloss": "to tidy up, to put away",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "katsu_00113",
+    "headword": "{勝|か}つ",
+    "gloss": "to win",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kau_00006",
+    "headword": "{買|か}う",
+    "gloss": "to buy",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kawaku_00094",
+    "headword": "{乾|かわ}く",
+    "gloss": "to dry, to become dry",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kawaru_00093",
+    "headword": "{変|か}わる",
+    "gloss": "to change",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kesu_00013",
+    "headword": "{消|け}す",
+    "gloss": "to turn off, to erase",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kikoeru_00118",
+    "headword": "{聞|き}こえる",
+    "gloss": "to be heard, to be audible",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kimaru_00119",
+    "headword": "{決|き}まる",
+    "gloss": "to be decided, to be settled",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kimeru_00095",
+    "headword": "{決|き}める",
+    "gloss": "to decide",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kiru_00016",
+    "headword": "{着|き}る",
+    "gloss": "to wear, to put on (clothes)",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "komu_00093",
+    "headword": "{込|こ}む",
+    "gloss": "to be crowded",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "korobu_00095",
+    "headword": "{転|ころ}ぶ",
+    "gloss": "to fall down, to tumble",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kowareru_00094",
+    "headword": "{壊|こわ}れる",
+    "gloss": "to break, to be broken",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "kowasu_00121",
+    "headword": "{壊|こわ}す",
+    "gloss": "to break, to destroy",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "magaru_00091",
+    "headword": "{曲|ま}がる",
+    "gloss": "to turn, to bend",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "makeru_00104",
+    "headword": "{負|ま}ける",
+    "gloss": "to lose, to be defeated",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "matomaru_00447",
+    "headword": "まとまる",
+    "gloss": "to be collected, to be settled, to be organized",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "mawaru_00106",
+    "headword": "{回|まわ}る",
+    "gloss": "to go around, to revolve",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "mawasu_00107",
+    "headword": "{回|まわ}す",
+    "gloss": "to turn, to rotate",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "mitsukaru_00109",
+    "headword": "{見|み}つかる",
+    "gloss": "to be found, to be discovered",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "mitsukeru_00110",
+    "headword": "{見|み}つける",
+    "gloss": "to find, to discover",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "modoru_00102",
+    "headword": "{戻|もど}る",
+    "gloss": "to return, to go back",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "nakunaru_00100",
+    "headword": "{無|な}くなる",
+    "gloss": "to disappear, to run out",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "nakusu_00101",
+    "headword": "{無|な}くす",
+    "gloss": "to lose",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "naoru_00093",
+    "headword": "{直|なお}る",
+    "gloss": "to be fixed, to recover",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "naosu_00095",
+    "headword": "{直|なお}す",
+    "gloss": "to fix, to repair",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "naraberu_00099",
+    "headword": "{並|なら}べる",
+    "gloss": "to line up, to arrange",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "narabu_00069",
+    "headword": "{並|なら}ぶ",
+    "gloss": "to line up",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "naru_00105",
+    "headword": "{鳴|な}る",
+    "gloss": "to ring, to sound",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "nebou_00472",
+    "headword": "{寝坊|ねぼう}",
+    "gloss": "oversleeping",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "neru_00003",
+    "headword": "{寝|ね}る",
+    "gloss": "to sleep, to go to bed",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "nigeru_00106",
+    "headword": "{逃|に}げる",
+    "gloss": "to escape, to run away",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "noboru_00091",
+    "headword": "{登|のぼ}る",
+    "gloss": "to climb, to go up",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "nokoru_00111",
+    "headword": "{残|のこ}る",
+    "gloss": "to remain, to be left",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "noru_00009",
+    "headword": "{乗|の}る",
+    "gloss": "to ride, to get on",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "nureru_00094",
+    "headword": "{濡|ぬ}れる",
+    "gloss": "to get wet",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "oboeru_00093",
+    "headword": "{覚|おぼ}える",
+    "gloss": "to remember, to learn",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "ochiru_00121",
+    "headword": "{落|お}ちる",
+    "gloss": "to fall, to drop",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "odoroku_00124",
+    "headword": "{驚|おどろ}く",
+    "gloss": "to be surprised",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "okiru_00011",
+    "headword": "{起|お}きる",
+    "gloss": "to wake up, to get up",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "okosu_00119",
+    "headword": "{起|お}こす",
+    "gloss": "to wake (someone) up, to cause",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "okureru_00093",
+    "headword": "{遅|おく}れる",
+    "gloss": "to be late, to be delayed",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "omoshiroi_00051",
+    "headword": "{面白|おもしろ}い",
+    "gloss": "interesting, funny",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "onna_00021",
+    "headword": "{女|おんな}",
+    "gloss": "woman, female",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "oreru_00127",
+    "headword": "{折|お}れる",
+    "gloss": "to break, to give in",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "oriru_00025",
+    "headword": "{降|お}りる",
+    "gloss": "to get off, to descend",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "oru_00126",
+    "headword": "{折|お}る",
+    "gloss": "to break, to fold",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "osoi_00014",
+    "headword": "{遅|おそ}い",
+    "gloss": "slow, late",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "otoko_00022",
+    "headword": "{男|おとこ}",
+    "gloss": "man, male",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "otosu_00122",
+    "headword": "{落|お}とす",
+    "gloss": "to drop, to lose",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "owari_00166",
+    "headword": "{終|お}わり",
+    "gloss": "end; conclusion",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "owaru_00024",
+    "headword": "{終|お}わる",
+    "gloss": "to end, to finish",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "reibou_00505",
+    "headword": "{冷房|れいぼう}",
+    "gloss": "air conditioning",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "sagaru_00111",
+    "headword": "{下|さ}がる",
+    "gloss": "to go down, to drop",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "sageru_00094",
+    "headword": "{下|さ}げる",
+    "gloss": "to lower, to hang",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "shimaru_00093",
+    "headword": "{閉|し}まる",
+    "gloss": "to close (by itself)",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "shimeru_00005",
+    "headword": "{閉|し}める",
+    "gloss": "to close, to shut",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "shuppatsusuru_00545",
+    "headword": "{出発|しゅっぱつ}する",
+    "gloss": "departure",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "shussekisuru_00544",
+    "headword": "{出席|しゅっせき}する",
+    "gloss": "attendance",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "sodateru_00119",
+    "headword": "{育|そだ}てる",
+    "gloss": "to raise, to bring up",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "suku_00093",
+    "headword": "すく",
+    "gloss": "to become empty, not crowded",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "susumu_00117",
+    "headword": "{進|すす}む",
+    "gloss": "to advance, to proceed",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "suteru_00095",
+    "headword": "{捨|す}てる",
+    "gloss": "to throw away",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "suwaru_00093",
+    "headword": "{座|すわ}る",
+    "gloss": "to sit",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "taberu_00001",
+    "headword": "{食|た}べる",
+    "gloss": "to eat",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "takusan_00059",
+    "headword": "たくさん",
+    "gloss": "a lot, many",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "taoreru_00107",
+    "headword": "{倒|たお}れる",
+    "gloss": "to collapse, to fall down",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tasukeru_00095",
+    "headword": "{助|たす}ける",
+    "gloss": "to help, to save",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tateru_00111",
+    "headword": "{建|た}てる",
+    "gloss": "to build, to construct",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tateru_00112",
+    "headword": "{立|た}てる",
+    "gloss": "to stand up, to erect",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tatsu_00093",
+    "headword": "{立|た}つ",
+    "gloss": "to stand",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "teinei_00095",
+    "headword": "{丁寧|ていねい}",
+    "gloss": "polite, careful",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "todokeru_00122",
+    "headword": "{届|とど}ける",
+    "gloss": "to deliver",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "todoku_00095",
+    "headword": "{届|とど}く",
+    "gloss": "to arrive, to reach",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tomaru_00020",
+    "headword": "{止|と}まる",
+    "gloss": "to stop, to halt",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tomeru_00091",
+    "headword": "{止|と}める",
+    "gloss": "to stop (something)",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tooku_00466",
+    "headword": "{遠|とお}く",
+    "gloss": "far away, distance",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tooru_00121",
+    "headword": "{通|とお}る",
+    "gloss": "to pass through, to go through",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tsukamaeru_00115",
+    "headword": "{捕|つか}まえる",
+    "gloss": "to catch, to capture",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tsukeru_00022",
+    "headword": "つける",
+    "gloss": "to turn on, to attach",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tsukeru_00093",
+    "headword": "{付|つ}ける",
+    "gloss": "to attach, to turn on",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tsumaranai_00052",
+    "headword": "つまらない",
+    "gloss": "boring, dull",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tsutaeru_00116",
+    "headword": "{伝|つた}える",
+    "gloss": "to convey, to tell",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tsuzukeru_00118",
+    "headword": "{続|つづ}ける",
+    "gloss": "to continue",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "tsuzuku_00095",
+    "headword": "{続|つづ}く",
+    "gloss": "to continue",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "ugoku_00095",
+    "headword": "{動|うご}く",
+    "gloss": "to move",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "umareru_00095",
+    "headword": "{生|う}まれる",
+    "gloss": "to be born",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "uru_00095",
+    "headword": "{売|う}る",
+    "gloss": "to sell",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "utsuru_00118",
+    "headword": "{移|うつ}る",
+    "gloss": "to move, to transfer",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "utsusu_00117",
+    "headword": "{写|うつ}す",
+    "gloss": "to copy, to photograph",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "wakasu_00100",
+    "headword": "{沸|わ}かす",
+    "gloss": "to boil, to heat",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "waku_00102",
+    "headword": "{沸|わ}く",
+    "gloss": "to boil, to well up",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "wareru_00095",
+    "headword": "{割|わ}れる",
+    "gloss": "to break, to crack",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "yakeru_00104",
+    "headword": "{焼|や}ける",
+    "gloss": "to burn, to be grilled",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "yaku_00102",
+    "headword": "{焼|や}く",
+    "gloss": "to bake, to grill, to burn",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "yaseru_00105",
+    "headword": "{痩|や}せる",
+    "gloss": "to lose weight, to become thin",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "yoru_00005",
+    "headword": "{夜|よる}",
+    "gloss": "night, evening",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "yoshuu_00501",
+    "headword": "{予習|よしゅう}",
+    "gloss": "preparation (study)",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "yunyuu_00498",
+    "headword": "{輸入|ゆにゅう}",
+    "gloss": "import",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "yureru_00107",
+    "headword": "{揺|ゆ}れる",
+    "gloss": "to shake, to sway",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
+    "id": "yushutsusuru_00557",
+    "headword": "{輸出|ゆしゅつ}する",
+    "gloss": "export",
+    "status": "REVISED",
+    "date": "2026.1.10 10:26"
+  },
+  {
     "id": "abura_00590",
     "headword": "{脂|あぶら}",
     "gloss": "fat, grease, oil (animal)",
@@ -125360,1007 +127685,6 @@ const DICTIONARY_RECENT = [
     "id": "anaunsaa_00510",
     "headword": "アナウンサー",
     "gloss": "announcer",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "anna_00413",
-    "headword": "あんな",
-    "gloss": "such, like that",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "annani_00568",
-    "headword": "あんなに",
-    "gloss": "to that extent, so much",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "arasou_00563",
-    "headword": "{争|あらそ}う",
-    "gloss": "to compete, to argue",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "arawareru_00565",
-    "headword": "{現|あらわ}れる",
-    "gloss": "to appear, to emerge",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "arawasu_00890",
-    "headword": "{現|あらわ}す",
-    "gloss": "to show, to reveal, to express",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "arawasu_00564",
-    "headword": "{表|あらわ}す",
-    "gloss": "to express, to show",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "arukooru_00513",
-    "headword": "アルコール",
-    "gloss": "alcohol",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "asa_01140",
-    "headword": "{朝|あさ}",
-    "gloss": "morning",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ase_00982",
-    "headword": "{汗|あせ}",
-    "gloss": "sweat, perspiration",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ataeru_00540",
-    "headword": "{与|あた}える",
-    "gloss": "to give, to grant",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ataru_00560",
-    "headword": "{当|あ}たる",
-    "gloss": "to hit, to strike; to be correct",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "atatamaru_00558",
-    "headword": "{暖|あたた}まる",
-    "gloss": "to warm up",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "atatamaru_00888",
-    "headword": "{温|あたた}まる",
-    "gloss": "to warm oneself, to get warm",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "atatameru_00559",
-    "headword": "{暖|あたた}める",
-    "gloss": "to warm, to heat",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "atatameru_00889",
-    "headword": "{温|あたた}める",
-    "gloss": "to warm, to heat",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ateru_00562",
-    "headword": "{当|あ}てる",
-    "gloss": "to hit; to guess correctly",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ato_00984",
-    "headword": "{跡|あと}",
-    "gloss": "trace, mark, remains",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "atsukau_00561",
-    "headword": "{扱|あつか}う",
-    "gloss": "to handle, to deal with",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "awa_00985",
-    "headword": "{泡|あわ}",
-    "gloss": "bubble, foam, froth",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "awaseru_00566",
-    "headword": "{合|あ}わせる",
-    "gloss": "to combine, to match",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "awateru_00567",
-    "headword": "{慌|あわ}てる",
-    "gloss": "to panic, to be flustered",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "azukaru_00538",
-    "headword": "{預|あず}かる",
-    "gloss": "to keep, to hold",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "azukeru_00539",
-    "headword": "{預|あず}ける",
-    "gloss": "to deposit, to entrust",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "baai_00478",
-    "headword": "{場合|ばあい}",
-    "gloss": "case, situation",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "bakari_00777",
-    "headword": "〜ばかり",
-    "gloss": "just, only, nothing but",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "bangumi_00479",
-    "headword": "{番組|ばんぐみ}",
-    "gloss": "TV/radio program",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "bijutsukan_00485",
-    "headword": "{美術館|びじゅつかん}",
-    "gloss": "art museum",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "boku_00492",
-    "headword": "{僕|ぼく}",
-    "gloss": "I (male)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "boueki_00491",
-    "headword": "{貿易|ぼうえき}",
-    "gloss": "trade, commerce",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chan_00774",
-    "headword": "〜ちゃん",
-    "gloss": "affectionate suffix",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chi_00456",
-    "headword": "{血|ち}",
-    "gloss": "blood",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chigau_00663",
-    "headword": "{違|ちが}う",
-    "gloss": "to differ, to be wrong",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chikara_00457",
-    "headword": "{力|ちから}",
-    "gloss": "power, strength",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chikazukeru_00861",
-    "headword": "{近|ちか}づける",
-    "gloss": "to bring near, to let approach",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chikazuku_00664",
-    "headword": "{近|ちか}づく",
-    "gloss": "to approach, to get close",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chiri_00461",
-    "headword": "{地理|ちり}",
-    "gloss": "geography",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chiru_00862",
-    "headword": "{散|ち}る",
-    "gloss": "to scatter, to fall (leaves/petals)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chittomo_00458",
-    "headword": "ちっとも",
-    "gloss": "not at all, not a bit",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chuusha_00459",
-    "headword": "{注射|ちゅうしゃ}",
-    "gloss": "injection, shot",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "chuushajou_00460",
-    "headword": "{駐車場|ちゅうしゃじょう}",
-    "gloss": "parking lot",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "daibu_00411",
-    "headword": "{大分|だいぶ}",
-    "gloss": "considerably, fairly, quite",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "daigakusei_00453",
-    "headword": "{大学生|だいがくせい}",
-    "gloss": "university student",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "daku_00925",
-    "headword": "{抱|だ}く",
-    "gloss": "to embrace, to hug, to hold",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "danbou_00455",
-    "headword": "{暖房|だんぼう}",
-    "gloss": "heating",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "dansei_00454",
-    "headword": "{男性|だんせい}",
-    "gloss": "man, male",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "date_00773",
-    "headword": "〜{建|だ}て",
-    "gloss": "storied, -story building",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "dekiru_00682",
-    "headword": "{出来|でき}る",
-    "gloss": "to be able to, to be made",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "dorobou_00470",
-    "headword": "{泥棒|どろぼう}",
-    "gloss": "thief, burglar",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "doubutsuen_00469",
-    "headword": "{動物園|どうぶつえん}",
-    "gloss": "zoo",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ebi_01134",
-    "headword": "{海老|えび}",
-    "gloss": "shrimp, prawn, lobster",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "eda_00997",
-    "headword": "{枝|えだ}",
-    "gloss": "branch, bough, twig",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "egaku_00784",
-    "headword": "{描|えが}く",
-    "gloss": "to draw, to depict, to describe",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "eiga_01135",
-    "headword": "{映画|えいが}",
-    "gloss": "movie, film",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "eigo_01136",
-    "headword": "{英語|えいご}",
-    "gloss": "English language",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "eki_00996",
-    "headword": "{駅|えき}",
-    "gloss": "station",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "eki_01130",
-    "headword": "{液|えき}",
-    "gloss": "liquid, fluid",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "eki_01137",
-    "headword": "{益|えき}",
-    "gloss": "benefit, profit, advantage",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "en_00998",
-    "headword": "{縁|えん}",
-    "gloss": "fate, connection, bond",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "entotsu_01132",
-    "headword": "{煙突|えんとつ}",
-    "gloss": "chimney, smokestack",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "eru_00785",
-    "headword": "{得|え}る",
-    "gloss": "to get, to obtain, to gain",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "fukumu_00728",
-    "headword": "{含|ふく}む",
-    "gloss": "to contain, to include",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "fukushuu_00486",
-    "headword": "{復習|ふくしゅう}",
-    "gloss": "review, revision",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "fureru_00731",
-    "headword": "{触|ふ}れる",
-    "gloss": "to touch, to mention",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "furu_00730",
-    "headword": "{振|ふ}る",
-    "gloss": "to wave, to shake",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "futon_00487",
-    "headword": "{布団|ふとん}",
-    "gloss": "futon, bedding",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "gakubu_00767",
-    "headword": "〜{学部|がくぶ}",
-    "gloss": "faculty, department (university)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "garasu_00516",
-    "headword": "ガラス",
-    "gloss": "glass",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "go_00942",
-    "headword": "{碁|ご}",
-    "gloss": "Go (board game)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "goshujin_00422",
-    "headword": "ご{主人|しゅじん}",
-    "gloss": "(your/her) husband",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "gozonji_00423",
-    "headword": "ご{存|ぞん}じ",
-    "gloss": "knowing (honorific)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ha_01087",
-    "headword": "{葉|は}",
-    "gloss": "leaf, leaves",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hachi_01088",
-    "headword": "{蜂|はち}",
-    "gloss": "bee, wasp",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hada_01089",
-    "headword": "{肌|はだ}",
-    "gloss": "skin, texture",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hai_01090",
-    "headword": "{灰|はい}",
-    "gloss": "ash, ashes",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "haiken_00871",
-    "headword": "{拝見|はいけん}",
-    "gloss": "(humble) to look at, to see",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "haikensuru_00541",
-    "headword": "{拝見|はいけん}する",
-    "gloss": "to see (humble)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "haisha_00474",
-    "headword": "{歯医者|はいしゃ}",
-    "gloss": "dentist",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hakama_01091",
-    "headword": "{袴|はかま}",
-    "gloss": "hakama, traditional pants",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hakaru_00712",
-    "headword": "{測|はか}る",
-    "gloss": "to measure",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hako_00967",
-    "headword": "{箱|はこ}",
-    "gloss": "box, case, carton",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hana_00969",
-    "headword": "{鼻|はな}",
-    "gloss": "nose",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hanami_00476",
-    "headword": "{花見|はなみ}",
-    "gloss": "flower viewing",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hanbaagu_00521",
-    "headword": "ハンバーグ",
-    "gloss": "hamburger steak",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hara_00970",
-    "headword": "{腹|はら}",
-    "gloss": "belly, stomach, abdomen",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hashi_00968",
-    "headword": "{橋|はし}",
-    "gloss": "bridge",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hata_00966",
-    "headword": "{旗|はた}",
-    "gloss": "flag, banner",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hatsuon_00475",
-    "headword": "{発音|はつおん}",
-    "gloss": "pronunciation",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hayashi_00477",
-    "headword": "{林|はやし}",
-    "gloss": "woods, grove",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hebi_01093",
-    "headword": "{蛇|へび}",
-    "gloss": "snake, serpent",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "heru_00732",
-    "headword": "{減|へ}る",
-    "gloss": "to decrease, to reduce",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "heso_01094",
-    "headword": "{臍|へそ}",
-    "gloss": "navel, belly button",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hi_01097",
-    "headword": "{日|ひ}",
-    "gloss": "day, sun, sunlight",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hi_01096",
-    "headword": "{火|ひ}",
-    "gloss": "fire, flame",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "higashi_01098",
-    "headword": "{東|ひがし}",
-    "gloss": "east",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hikari_00480",
-    "headword": "{光|ひかり}",
-    "gloss": "light",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hikoujou_00481",
-    "headword": "{飛行場|ひこうじょう}",
-    "gloss": "airport, airfield",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hiku_00722",
-    "headword": "{引|ひ}く",
-    "gloss": "to pull, to draw",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "himo_01100",
-    "headword": "{紐|ひも}",
-    "gloss": "string, cord, strap",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hiraku_00723",
-    "headword": "{開|ひら}く",
-    "gloss": "to open, to hold (event)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hirogaru_00725",
-    "headword": "{広|ひろ}がる",
-    "gloss": "to spread, to extend",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hirogeru_00726",
-    "headword": "{広|ひろ}げる",
-    "gloss": "to spread, to extend",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hiruma_00483",
-    "headword": "{昼間|ひるま}",
-    "gloss": "daytime",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hiruyasumi_00484",
-    "headword": "{昼休|ひるやす}み",
-    "gloss": "lunch break",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hisashiburi_00482",
-    "headword": "{久|ひさ}しぶり",
-    "gloss": "long time (no see)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hitomi_01103",
-    "headword": "{瞳|ひとみ}",
-    "gloss": "pupil (of eye), eye",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hodo_00489",
-    "headword": "{程|ほど}",
-    "gloss": "degree, extent; about",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hone_00971",
-    "headword": "{骨|ほね}",
-    "gloss": "bone",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "honyaku_00490",
-    "headword": "{翻訳|ほんやく}",
-    "gloss": "translation",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "hotaru_01105",
-    "headword": "{蛍|ほたる}",
-    "gloss": "firefly, lightning bug",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "houritsu_00488",
-    "headword": "{法律|ほうりつ}",
-    "gloss": "law",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "housou_00886",
-    "headword": "{放送|ほうそう}",
-    "gloss": "broadcast, broadcasting",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "housousuru_00556",
-    "headword": "{放送|ほうそう}する",
-    "gloss": "broadcast",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "idaku_00781",
-    "headword": "{抱|いだ}く",
-    "gloss": "to hold, to embrace, to harbor",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "iki_00986",
-    "headword": "{息|いき}",
-    "gloss": "breath, breathing",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ikuratemo_00779",
-    "headword": "いくら〜ても",
-    "gloss": "no matter how much ~",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "in_00765",
-    "headword": "〜{員|いん}",
-    "gloss": "member of, staff of",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ippai_00526",
-    "headword": "{一杯|いっぱい}",
-    "gloss": "full; a cup of; a lot",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ishi_00987",
-    "headword": "{石|いし}",
-    "gloss": "stone, rock",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "itameru_00891",
-    "headword": "{傷|いた}める",
-    "gloss": "to damage, to hurt, to spoil",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "itameru_00569",
-    "headword": "{炒|いた}める",
-    "gloss": "to stir-fry",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "itaru_00780",
-    "headword": "{至|いた}る",
-    "gloss": "to reach, to arrive at, to lead to",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "iwau_00570",
-    "headword": "{祝|いわ}う",
-    "gloss": "to celebrate, to congratulate",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "jama_00431",
-    "headword": "{邪魔|じゃま}",
-    "gloss": "hindrance, nuisance",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "jamu_00517",
-    "headword": "ジャム",
-    "gloss": "jam",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "ji_00429",
-    "headword": "{字|じ}",
-    "gloss": "letter, character",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "jinja_00436",
-    "headword": "{神社|じんじゃ}",
-    "gloss": "Shinto shrine",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "jinkou_00435",
-    "headword": "{人口|じんこう}",
-    "gloss": "population",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "jishin_00430",
-    "headword": "{地震|じしん}",
-    "gloss": "earthquake",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "jiten_00446",
-    "headword": "{辞典|じてん}",
-    "gloss": "dictionary",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "josei_00434",
-    "headword": "{女性|じょせい}",
-    "gloss": "woman, female",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "juubun_00433",
-    "headword": "{十分|じゅうぶん}",
-    "gloss": "enough, sufficient",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "juudou_00432",
-    "headword": "{柔道|じゅうどう}",
-    "gloss": "judo",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kado_01014",
-    "headword": "{角|かど}",
-    "gloss": "corner, angle",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kaesu_00801",
-    "headword": "{帰|かえ}す",
-    "gloss": "to send back, to let go home",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kagami_01008",
-    "headword": "{鏡|かがみ}",
-    "gloss": "mirror",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kagayaku_00803",
-    "headword": "{輝|かがや}く",
-    "gloss": "to shine, to sparkle, to be radiant",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kage_01009",
-    "headword": "{影|かげ}",
-    "gloss": "shadow, silhouette, reflection",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kagi_01007",
-    "headword": "{鍵|かぎ}",
-    "gloss": "key, lock",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kagiru_00804",
-    "headword": "{限|かぎ}る",
-    "gloss": "to limit, to restrict",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kagu_00807",
-    "headword": "{嗅|か}ぐ",
-    "gloss": "to smell, to sniff",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kai_00949",
-    "headword": "{貝|かい}",
-    "gloss": "shellfish, shell",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kakaeru_00802",
-    "headword": "{抱|かか}える",
-    "gloss": "to hold in one's arms, to have (problems)",
-    "status": "NEW",
-    "date": "2026.1.9 21:00"
-  },
-  {
-    "id": "kakkou_00529",
-    "headword": "{格好|かっこう}",
-    "gloss": "appearance, shape",
     "status": "NEW",
     "date": "2026.1.9 21:00"
   }
