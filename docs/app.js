@@ -20,6 +20,11 @@
         kana: 'all'
     };
 
+    // Audio state
+    let audioCache = {};  // Cache for fetched audio data: { "entry_id-ex1": base64Data }
+    let currentAudio = null;  // Currently playing HTMLAudioElement
+    let currentAudioButton = null;  // Currently active button element
+
     // Pattern to match furigana notation: {kanji|reading}
     const FURIGANA_PATTERN = /\{([^|]+)\|([^}]+)\}/g;
 
@@ -262,6 +267,9 @@
         // Set up cross-reference link handlers
         setupCrossRefClickHandlers();
 
+        // Set up audio click handlers
+        setupAudioClickHandlers();
+
         // Set up recent back button
         if (recentBack) {
             recentBack.addEventListener('click', () => {
@@ -492,10 +500,14 @@
 
         if (entry.examples && entry.examples.length > 0) {
             html += `<div class="examples"><h3>Examples</h3>`;
-            entry.examples.forEach(ex => {
+            entry.examples.forEach((ex, idx) => {
+                const audioButton = ex.has_audio ? createAudioButton(entry.id, idx) : '';
                 html += `
                     <div class="example-item">
-                        <div class="example-japanese">${processJapaneseText(ex.japanese)}</div>
+                        <div class="example-japanese">
+                            ${audioButton}
+                            <span class="example-text">${processJapaneseText(ex.japanese)}</span>
+                        </div>
                         <div class="example-english">${escapeHtml(ex.english)}</div>
                         ${ex.notes ? `<div class="example-notes">${processJapaneseText(ex.notes)}</div>` : ''}
                     </div>
@@ -879,6 +891,112 @@
         randomEntryDisplay.classList.remove('hidden');
         randomEntryContent.dataset.currentEntryId = entryId;
         randomEntryContent.innerHTML = createEntryDisplay(entry);
+    }
+
+    // ===== AUDIO FUNCTIONS =====
+
+    /**
+     * Create HTML for an audio play button
+     */
+    function createAudioButton(entryId, exampleIndex) {
+        const audioId = `${entryId}-ex${exampleIndex + 1}`;
+        return `<button class="audio-btn" data-audio-id="${audioId}" aria-label="Play audio" title="Play audio">
+            <span class="audio-icon play-icon"></span>
+        </button>`;
+    }
+
+    /**
+     * Get the URL for an audio file
+     */
+    function getAudioUrl(audioId) {
+        return `audio/${audioId}.mp3`;
+    }
+
+    /**
+     * Stop any currently playing audio and reset button state
+     */
+    function stopCurrentAudio() {
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+            currentAudio = null;
+        }
+
+        if (currentAudioButton) {
+            currentAudioButton.classList.remove('playing', 'loading');
+            currentAudioButton = null;
+        }
+    }
+
+    /**
+     * Handle audio button click
+     */
+    function handleAudioClick(event) {
+        const button = event.target.closest('.audio-btn');
+        if (!button) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        const audioId = button.dataset.audioId;
+        if (!audioId) return;
+
+        // If this button is already playing, stop it
+        if (button === currentAudioButton && currentAudio && !currentAudio.paused) {
+            stopCurrentAudio();
+            return;
+        }
+
+        // Stop any currently playing audio
+        stopCurrentAudio();
+
+        // Set loading state
+        button.classList.add('loading');
+        currentAudioButton = button;
+
+        // Get the direct MP3 URL
+        const audioUrl = getAudioUrl(audioId);
+
+        // Create audio element
+        const audio = new Audio(audioUrl);
+        currentAudio = audio;
+
+        // Update button state when playback starts
+        audio.addEventListener('play', () => {
+            button.classList.remove('loading');
+            button.classList.add('playing');
+        });
+
+        // Reset button when playback ends
+        audio.addEventListener('ended', () => {
+            button.classList.remove('playing');
+            if (currentAudioButton === button) {
+                currentAudioButton = null;
+                currentAudio = null;
+            }
+        });
+
+        // Handle errors
+        audio.addEventListener('error', () => {
+            button.classList.remove('loading', 'playing');
+            if (currentAudioButton === button) {
+                currentAudioButton = null;
+                currentAudio = null;
+            }
+        });
+
+        // Start playing
+        audio.play().catch(() => {
+            button.classList.remove('loading');
+            currentAudioButton = null;
+        });
+    }
+
+    /**
+     * Set up audio click handlers (delegated)
+     */
+    function setupAudioClickHandlers() {
+        document.addEventListener('click', handleAudioClick);
     }
 
     // ===== UTILITY FUNCTIONS =====
