@@ -227,8 +227,40 @@ def generate_nav_header(relative_path: str = '') -> str:
         <a href="{base}recent.html" class="nav-link">Recent</a>
         <a href="{base}random.html" class="nav-link">Random</a>
     </nav>
-    <div class="site-title">Japanese-English Dictionary</div>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
 </header>'''
+
+
+def generate_furigana_script() -> str:
+    """Generate the furigana toggle JavaScript."""
+    return '''<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>'''
 
 
 def generate_html_head(title: str, relative_path: str = '', description: str = '') -> str:
@@ -423,6 +455,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, relative_path: str = '.
         </footer>
     ''')
 
+    html_parts.append(generate_furigana_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -490,6 +523,7 @@ def generate_index_page(entry_count: int) -> str:
 <footer>
     <p>Japanese-English Learner's Dictionary - Under Development</p>
 </footer>
+{generate_furigana_script()}
 </body>
 </html>'''
 
@@ -532,6 +566,7 @@ def generate_search_page() -> str:
 <footer>
     <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
 </footer>
+{generate_furigana_script()}
 </body>
 </html>'''
 
@@ -700,6 +735,7 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
             <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
+    html_parts.append(generate_furigana_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -748,6 +784,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
             <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
+    html_parts.append(generate_furigana_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -786,6 +823,7 @@ def generate_random_page(entries: list) -> str:
             <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
+    html_parts.append(generate_furigana_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -910,18 +948,20 @@ body {
 .nav-header {
     background-color: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
     position: sticky;
     top: 0;
     z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-md);
 }
 
 .nav-links {
     display: flex;
-    gap: var(--spacing-md);
-    justify-content: center;
+    gap: var(--spacing-sm);
     flex-wrap: wrap;
-    margin-bottom: var(--spacing-sm);
 }
 
 .nav-link {
@@ -937,10 +977,50 @@ body {
     background-color: var(--color-accent-light);
 }
 
-.site-title {
-    text-align: center;
+/* Furigana Toggle Button */
+.furigana-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.7rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    cursor: pointer;
     font-size: 0.85rem;
     color: var(--color-text-secondary);
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.furigana-toggle-btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.furigana-toggle-btn.active {
+    background-color: var(--color-accent-light);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.furigana-icon {
+    font-family: var(--font-jp);
+    font-size: 1rem;
+}
+
+.furigana-label {
+    font-size: 0.8rem;
+}
+
+/* Furigana Hidden State */
+.furigana-hidden ruby rt {
+    visibility: hidden;
+    font-size: 0;
+}
+
+.furigana-hidden ruby rp {
+    display: none;
 }
 
 /* Main Content */
@@ -1655,13 +1735,29 @@ footer a:hover {
 
 /* Responsive */
 @media (max-width: 600px) {
-    .nav-links {
+    .nav-header {
+        flex-wrap: wrap;
+        justify-content: center;
         gap: var(--spacing-sm);
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        order: 2;
     }
 
     .nav-link {
         padding: var(--spacing-sm);
         font-size: 0.9rem;
+    }
+
+    .furigana-toggle-btn {
+        order: 1;
+    }
+
+    .furigana-label {
+        display: none;
     }
 
     .entry-headword {

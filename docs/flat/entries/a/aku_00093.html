@@ -16,7 +16,10 @@
         <a href="../../recent.html" class="nav-link">Recent</a>
         <a href="../../random.html" class="nav-link">Random</a>
     </nav>
-    <div class="site-title">Japanese-English Dictionary</div>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -128,5 +131,30 @@
             <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
         </footer>
     
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
 </body>
 </html>
