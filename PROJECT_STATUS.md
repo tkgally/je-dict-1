@@ -25,6 +25,7 @@
 - [x] Sticky header with interface toggle
 - [x] Last updated date in footer
 - [x] Cross-reference linking system with UI navigation
+- [x] Audio pronunciation for example sentences (112 audio files)
 
 ### Content Status
 - **Total entries**: 2,024
@@ -90,6 +91,14 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Recent Changes
 
+### 2026-01-10 (Audio Pronunciation Support)
+- Implemented audio playback for example sentences
+- Audio files stored as MP3 in `audio/{kana}/` directory structure
+- Web interface shows play/stop buttons for examples with audio
+- Created `build/merge_audio.py` for processing new audio files
+- Build process copies audio to `docs/audio/` preserving folder structure
+- Currently 112 audio files covering 39 entries (あ行)
+
 ### 2026-01-10 (Cross-Reference Linking System)
 - Implemented structured cross-reference schema (type, reading, headword, label)
 - Added link resolution in build pipeline (`build/resolve_links.py`)
@@ -149,8 +158,8 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ### Future Enhancements
 1. Add conjugation search
-2. Add audio pronunciation
-3. Export to Anki format
+2. Export to Anki format
+3. Expand audio coverage to more entries
 
 ## Workflow: Adding Entries from Candidates
 
@@ -207,6 +216,39 @@ python3 build/build.py
 ### Step 7: Commit Changes
 Commit the new entry files, updated indexes, and rebuilt docs/
 
+## Workflow: Adding Audio Files
+
+### Step 1: Prepare Audio Files
+Place MP3 files in `audio-to-add/` with the naming convention:
+```
+{entry_id}-ex{number}.mp3
+```
+Example: `taberu_00001-ex1.mp3` for the first example of entry `taberu_00001`
+
+### Step 2: Merge Audio
+```bash
+python3 build/merge_audio.py
+```
+This will:
+- Copy MP3 files to `audio/{kana}/` directory
+- Update entry files to set `has_audio: true` on examples
+
+### Step 3: Build and Test
+```bash
+python3 build/build.py
+# Open docs/index.html to verify audio plays correctly
+```
+
+### Audio Directory Structure
+Audio files are organized by kana (matching entries/):
+```
+audio/
+├── a/    # あ行
+├── ka/   # か行
+├── sa/   # さ行
+└── ...
+```
+
 ## Workflow: Adding Cross-References to Existing Entries
 
 ### Automated Extraction
@@ -250,6 +292,9 @@ python3 build/build.py
 ```bash
 # Validate entries
 python3 build/validate.py
+
+# Merge new audio files (from audio-to-add/)
+python3 build/merge_audio.py
 
 # Build dictionary
 python3 build/build.py
