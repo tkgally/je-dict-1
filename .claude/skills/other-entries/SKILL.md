@@ -5,6 +5,8 @@ description: Requirements for creating nouns, counters, adverbs, and expressions
 
 # Other Entry Types: Nouns, Counters, Adverbs, Expressions
 
+**Reminder:** Write each entry individually by hand. Do not use scripts to mass-produce entries. See `entry-guidelines` skill.
+
 Guidelines for entry types not covered by verb, adjective, or particle skills.
 
 **Important:** All notes must follow the formatting guidelines in the `vocabulary-notes` skill (line breaks between sections, bullet points for lists).

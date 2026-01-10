@@ -265,3 +265,4 @@ python3 build/validate.py --id shimeru_00005
 4. Links to non-existent entries are allowed (shown as pending)
 5. The `cross-reference-entry` skill provides detailed guidelines
 6. Always rebuild (`python3 build/build.py`) after modifications
+7. **CRITICAL: Write each entry individually** - Do NOT create Python scripts to mass-produce entries. Each entry must be crafted by hand using the skills and guidelines. See `entry-guidelines` skill for details.
