@@ -16,7 +16,10 @@
         <a href="recent.html" class="nav-link">Recent</a>
         <a href="random.html" class="nav-link">Random</a>
     </nav>
-    <div class="site-title">Japanese-English Dictionary</div>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
 </header>
 <main class="recent-page">
 <h1>Recent Entries</h1>
@@ -239,17 +242,17 @@
             </a>
         
 
-            <a href="entries/ka/kansou_00001.html" class="recent-item">
-                <span class="recent-headword"><ruby>乾燥<rp>(</rp><rt>かんそう</rt><rp>)</rp></ruby></span>
-                <span class="recent-gloss">dryness, dry</span>
+            <a href="entries/ka/kansou_00002.html" class="recent-item">
+                <span class="recent-headword"><ruby>感想<rp>(</rp><rt>かんそう</rt><rp>)</rp></ruby></span>
+                <span class="recent-gloss">impressions, thoughts</span>
                 <span class="recent-status new">NEW</span>
                 <span class="recent-date">2026.1.10 17:42</span>
             </a>
         
 
-            <a href="entries/ka/kansou_00002.html" class="recent-item">
-                <span class="recent-headword"><ruby>感想<rp>(</rp><rt>かんそう</rt><rp>)</rp></ruby></span>
-                <span class="recent-gloss">impressions, thoughts</span>
+            <a href="entries/ka/kansou_00001.html" class="recent-item">
+                <span class="recent-headword"><ruby>乾燥<rp>(</rp><rt>かんそう</rt><rp>)</rp></ruby></span>
+                <span class="recent-gloss">dryness, dry</span>
                 <span class="recent-status new">NEW</span>
                 <span class="recent-date">2026.1.10 17:42</span>
             </a>
@@ -1055,17 +1058,17 @@
             </a>
         
 
-            <a href="entries/ta/tsukeru_00093.html" class="recent-item">
-                <span class="recent-headword"><ruby>付<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>ける</span>
-                <span class="recent-gloss">to attach, to turn on</span>
+            <a href="entries/ta/tsukeru_00022.html" class="recent-item">
+                <span class="recent-headword">つける</span>
+                <span class="recent-gloss">to turn on, to attach</span>
                 <span class="recent-status revised">REVISED</span>
                 <span class="recent-date">2026.1.10 10:26</span>
             </a>
         
 
-            <a href="entries/ta/tsukeru_00022.html" class="recent-item">
-                <span class="recent-headword">つける</span>
-                <span class="recent-gloss">to turn on, to attach</span>
+            <a href="entries/ta/tsukeru_00093.html" class="recent-item">
+                <span class="recent-headword"><ruby>付<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>ける</span>
+                <span class="recent-gloss">to attach, to turn on</span>
                 <span class="recent-status revised">REVISED</span>
                 <span class="recent-date">2026.1.10 10:26</span>
             </a>
@@ -2029,5 +2032,30 @@
             <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
         </footer>
     
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
 </body>
 </html>
