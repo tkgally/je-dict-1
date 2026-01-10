@@ -29,10 +29,18 @@
     }
   ],
   "notes": "Used before times to indicate PM: {午後|ごご}2{時|じ} (2 PM). Opposite: {午前|ごぜん} (AM/morning).",
-  "cross_references": ["gozen_00018"],
+  "cross_references": [
+    "gozen_00018",
+    {
+      "type": "antonym",
+      "reading": "ごぜん",
+      "headword": "{午前|ごぜん}",
+      "label": "AM/morning"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T14:00:00Z",
-    "modified": "2026-01-07T14:00:00Z",
+    "modified": "2026-01-10T01:26:12Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",

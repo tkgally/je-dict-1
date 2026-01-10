@@ -34,10 +34,24 @@
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {降|お}ろす (transitive, to let someone off/unload). Pattern: Xを/から{降|お}りる.\n\nASPECT: ている indicates resulting state. {降|お}りている = 'has gotten off' or 'is off (the vehicle).'\n\nCOMMON PATTERNS:\n・{電車|でんしゃ}を{降|お}りる (get off the train)\n・バスから{降|お}りる (get off the bus)\n・{階段|かいだん}を{降|お}りる (go down the stairs)\n・{次|つぎ}の{駅|えき}で{降|お}りる (get off at the next station)\n\nOpposite: {乗|の}る (to get on). Also written as {下|お}りる.",
-  "cross_references": ["noru_00009"],
+  "cross_references": [
+    "noru_00009",
+    {
+      "type": "pair",
+      "reading": "おろす",
+      "headword": "{降|お}ろす",
+      "label": "transitive, to let someone off/unload"
+    },
+    {
+      "type": "antonym",
+      "reading": "のる",
+      "headword": "{乗|の}る",
+      "label": "to get on"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T14:00:00Z",
-    "modified": "2026-01-07T14:00:00Z",
+    "modified": "2026-01-10T01:26:12Z",
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",

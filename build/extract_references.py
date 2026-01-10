@@ -106,12 +106,14 @@ def extract_pair_verb(notes: str) -> Optional[Dict[str, Any]]:
             elif 'transitive' in notes.lower():
                 label = 'transitive'
 
-        return {
+        ref = {
             'type': 'pair',
             'reading': reading,
             'headword': headword,
-            'label': label
         }
+        if label:
+            ref['label'] = label
+        return ref
 
     return None
 
@@ -132,12 +134,14 @@ def extract_antonym(notes: str) -> Optional[Dict[str, Any]]:
     result = extract_word_after_keyword(notes, keywords)
     if result:
         headword, reading, label = result
-        return {
+        ref = {
             'type': 'antonym',
             'reading': reading,
             'headword': headword,
-            'label': label
         }
+        if label:
+            ref['label'] = label
+        return ref
 
     return None
 
