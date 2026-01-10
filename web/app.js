@@ -906,45 +906,10 @@
     }
 
     /**
-     * Convert base64 string to Blob
+     * Get the URL for an audio file
      */
-    function base64ToBlob(base64, mimeType) {
-        const byteCharacters = atob(base64);
-        const byteNumbers = new Array(byteCharacters.length);
-        for (let i = 0; i < byteCharacters.length; i++) {
-            byteNumbers[i] = byteCharacters.charCodeAt(i);
-        }
-        const byteArray = new Uint8Array(byteNumbers);
-        return new Blob([byteArray], { type: mimeType });
-    }
-
-    /**
-     * Fetch audio data for a given audio ID and return a Blob URL
-     */
-    async function fetchAudio(audioId) {
-        // Check cache first
-        if (audioCache[audioId]) {
-            return audioCache[audioId];
-        }
-
-        const url = `audio/${audioId}.json`;
-        const response = await fetch(url);
-
-        if (!response.ok) {
-            throw new Error(`Failed to fetch audio: ${response.status}`);
-        }
-
-        const data = await response.json();
-        const base64 = data.audio_base64;
-
-        // Convert to Blob URL for better browser compatibility
-        const blob = base64ToBlob(base64, 'audio/mpeg');
-        const blobUrl = URL.createObjectURL(blob);
-
-        // Cache the Blob URL
-        audioCache[audioId] = blobUrl;
-
-        return blobUrl;
+    function getAudioUrl(audioId) {
+        return `audio/${audioId}.mp3`;
     }
 
     /**
@@ -966,7 +931,7 @@
     /**
      * Handle audio button click
      */
-    async function handleAudioClick(event) {
+    function handleAudioClick(event) {
         const button = event.target.closest('.audio-btn');
         if (!button) return;
 
@@ -976,11 +941,8 @@
         const audioId = button.dataset.audioId;
         if (!audioId) return;
 
-        console.log('[Audio] Button clicked for:', audioId);
-
         // If this button is already playing, stop it
         if (button === currentAudioButton && currentAudio && !currentAudio.paused) {
-            console.log('[Audio] Stopping current audio');
             stopCurrentAudio();
             return;
         }
@@ -992,65 +954,42 @@
         button.classList.add('loading');
         currentAudioButton = button;
 
-        try {
-            // Fetch the audio (returns a Blob URL)
-            console.log('[Audio] Fetching audio...');
-            const audioUrl = await fetchAudio(audioId);
-            console.log('[Audio] Got URL:', audioUrl.substring(0, 50) + '...');
+        // Get the direct MP3 URL
+        const audioUrl = getAudioUrl(audioId);
 
-            // Create audio element and play
-            const audio = new Audio(audioUrl);
-            currentAudio = audio;
+        // Create audio element
+        const audio = new Audio(audioUrl);
+        currentAudio = audio;
 
-            // Log audio element state
-            console.log('[Audio] Audio element created, readyState:', audio.readyState);
+        // Update button state when playback starts
+        audio.addEventListener('play', () => {
+            button.classList.remove('loading');
+            button.classList.add('playing');
+        });
 
-            // Update button state when playback starts
-            audio.addEventListener('play', () => {
-                console.log('[Audio] Play event fired');
-                button.classList.remove('loading');
-                button.classList.add('playing');
-            });
+        // Reset button when playback ends
+        audio.addEventListener('ended', () => {
+            button.classList.remove('playing');
+            if (currentAudioButton === button) {
+                currentAudioButton = null;
+                currentAudio = null;
+            }
+        });
 
-            // Log when audio can play
-            audio.addEventListener('canplaythrough', () => {
-                console.log('[Audio] canplaythrough event - audio ready');
-            });
+        // Handle errors
+        audio.addEventListener('error', () => {
+            button.classList.remove('loading', 'playing');
+            if (currentAudioButton === button) {
+                currentAudioButton = null;
+                currentAudio = null;
+            }
+        });
 
-            // Reset button when playback ends
-            audio.addEventListener('ended', () => {
-                console.log('[Audio] Playback ended');
-                button.classList.remove('playing');
-                if (currentAudioButton === button) {
-                    currentAudioButton = null;
-                    currentAudio = null;
-                }
-            });
-
-            // Handle errors with detailed info
-            audio.addEventListener('error', (e) => {
-                const error = audio.error;
-                console.error('[Audio] Error event:', {
-                    code: error ? error.code : 'unknown',
-                    message: error ? error.message : 'unknown',
-                    audioId: audioId
-                });
-                button.classList.remove('loading', 'playing');
-                if (currentAudioButton === button) {
-                    currentAudioButton = null;
-                    currentAudio = null;
-                }
-            });
-
-            console.log('[Audio] Calling play()...');
-            await audio.play();
-            console.log('[Audio] play() returned successfully');
-
-        } catch (error) {
-            console.error('[Audio] Failed to play:', error.name, error.message);
+        // Start playing
+        audio.play().catch(() => {
             button.classList.remove('loading');
             currentAudioButton = null;
-        }
+        });
     }
 
     /**

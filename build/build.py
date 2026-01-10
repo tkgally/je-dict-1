@@ -172,13 +172,16 @@ def copy_web_files(project_root: Path, dist_dir: Path):
 
 def extract_audio_files(entries: list[dict], dist_dir: Path) -> int:
     """
-    Extract audio data from entries and write to separate JSON files.
+    Extract audio data from entries and write to MP3 files.
 
-    For each example with an 'audio' field, writes a file to docs/audio/
-    with format: {entry_id}-ex{number}.json containing {"audio_base64": "..."}
+    For each example with an 'audio' field, decodes the base64 data
+    and writes an actual MP3 file to docs/audio/ with format:
+    {entry_id}-ex{number}.mp3
 
     Returns the number of audio files written.
     """
+    import base64
+
     audio_dir = dist_dir / 'audio'
     audio_dir.mkdir(exist_ok=True)
 
@@ -190,13 +193,13 @@ def extract_audio_files(entries: list[dict], dist_dir: Path) -> int:
 
         for idx, example in enumerate(examples):
             if 'audio' in example:
-                # Write audio to separate file
-                audio_filename = f"{entry_id}-ex{idx + 1}.json"
+                # Decode base64 and write as MP3 file
+                audio_filename = f"{entry_id}-ex{idx + 1}.mp3"
                 audio_path = audio_dir / audio_filename
 
-                audio_data = {'audio_base64': example['audio']}
-                with open(audio_path, 'w', encoding='utf-8') as f:
-                    json.dump(audio_data, f, ensure_ascii=False)
+                audio_bytes = base64.b64decode(example['audio'])
+                with open(audio_path, 'wb') as f:
+                    f.write(audio_bytes)
 
                 audio_count += 1
 
