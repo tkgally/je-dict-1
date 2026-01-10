@@ -1231,4 +1231,35 @@ ruby rp {
         padding: 0.35rem 0.7rem;
         font-size: 0.85rem;
     }
+
+    /* Entry footer - stack vertically on narrow screens */
+    .entry-metadata {
+        font-size: 0.7rem;
+    }
+
+    .metadata-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-xs);
+    }
+
+    .metadata-badges {
+        order: 1;
+    }
+
+    .metadata-dates {
+        order: 2;
+        text-align: left;
+    }
+
+    .metadata-file {
+        order: 3;
+        text-align: left;
+        font-size: 0.65rem;
+    }
+
+    .badge {
+        font-size: 0.7rem;
+        padding: 0.15rem 0.4rem;
+    }
 }
