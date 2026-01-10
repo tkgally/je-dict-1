@@ -259,6 +259,9 @@
         // Set up browse filters
         setupBrowseFilters();
 
+        // Set up cross-reference link handlers
+        setupCrossRefClickHandlers();
+
         // Set up recent back button
         if (recentBack) {
             recentBack.addEventListener('click', () => {
@@ -510,6 +513,11 @@
             `;
         }
 
+        // Render cross-references if present
+        if (entry.cross_references && entry.cross_references.length > 0) {
+            html += renderCrossReferences(entry.cross_references);
+        }
+
         // Build footer with badges, dates, and file info
         const created = entry.metadata.created || '';
         const modified = entry.metadata.modified || '';
@@ -544,6 +552,101 @@
         `;
 
         return html;
+    }
+
+    /**
+     * Get display label for cross-reference type
+     */
+    function getCrossRefTypeLabel(type) {
+        const labels = {
+            'pair': 'Pair verb',
+            'synonym': 'Synonym',
+            'antonym': 'Antonym',
+            'keigo': 'Keigo',
+            'related': 'Related',
+            'see_also': 'See also',
+            'contrast': 'Contrast'
+        };
+        return labels[type] || 'Related';
+    }
+
+    /**
+     * Render cross-references section
+     */
+    function renderCrossReferences(refs) {
+        if (!refs || refs.length === 0) return '';
+
+        const items = refs.map(ref => {
+            // Handle both legacy string format and new structured format
+            let type, reading, headword, label, resolved, targetId;
+
+            if (typeof ref === 'string') {
+                // Legacy format: just an entry ID
+                type = 'see_also';
+                targetId = ref;
+                resolved = entriesData && entriesData.entries && entriesData.entries[ref];
+                if (resolved) {
+                    const target = entriesData.entries[ref];
+                    headword = target.headword;
+                    reading = target.reading;
+                }
+            } else {
+                // New structured format
+                type = ref.type || 'see_also';
+                reading = ref.reading;
+                headword = ref.headword || reading;
+                label = ref.label;
+                resolved = ref.resolved;
+                targetId = ref.target_id;
+            }
+
+            const typeLabel = getCrossRefTypeLabel(type);
+            const display = headword ? processJapaneseText(headword) : escapeHtml(reading || '');
+            const labelText = label ? ` (${escapeHtml(label)})` : '';
+
+            if (resolved && targetId) {
+                // Clickable link to existing entry
+                return `
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">${escapeHtml(typeLabel)}:</span>
+                        <a href="#" class="cross-ref-link" data-target-id="${escapeHtml(targetId)}">
+                            ${display}${labelText}
+                        </a>
+                    </div>
+                `;
+            } else {
+                // Non-clickable (entry doesn't exist yet)
+                return `
+                    <div class="cross-ref pending">
+                        <span class="cross-ref-type">${escapeHtml(typeLabel)}:</span>
+                        <span class="cross-ref-pending">${display}${labelText}</span>
+                    </div>
+                `;
+            }
+        }).join('');
+
+        return `
+            <div class="cross-references">
+                <h3>Related Words</h3>
+                ${items}
+            </div>
+        `;
+    }
+
+    /**
+     * Handle clicks on cross-reference links
+     */
+    function setupCrossRefClickHandlers() {
+        document.addEventListener('click', function(e) {
+            const link = e.target.closest('.cross-ref-link');
+            if (link) {
+                e.preventDefault();
+                const targetId = link.dataset.targetId;
+                if (targetId && entriesData && entriesData.entries && entriesData.entries[targetId]) {
+                    displayEntry(targetId);
+                }
+            }
+        });
     }
 
     // ===== BROWSE INTERFACE =====

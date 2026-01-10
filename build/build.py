@@ -15,6 +15,7 @@ import re
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from validate import validate_all_entries, hiragana_to_romaji
+from resolve_links import resolve_cross_references, generate_link_report
 
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
@@ -212,7 +213,7 @@ def build(project_root: Path) -> int:
     print("=" * 50)
 
     # Step 1: Validate all entries
-    print("\n[1/5] Validating entries...")
+    print("\n[1/6] Validating entries...")
     total, valid, invalid_files, cross_ref_warnings = validate_all_entries(project_root)
 
     if invalid_files:
@@ -231,7 +232,7 @@ def build(project_root: Path) -> int:
     print(f"  OK: {valid} entries validated")
 
     # Step 2: Load all entries
-    print("\n[2/5] Loading entries...")
+    print("\n[2/6] Loading entries...")
     entries = []
     entries_dir = project_root / 'entries'
 
@@ -243,8 +244,28 @@ def build(project_root: Path) -> int:
 
     print(f"  Loaded {len(entries)} entries")
 
-    # Step 3: Build search index
-    print("\n[3/5] Building search index...")
+    # Step 3: Resolve cross-references
+    print("\n[3/6] Resolving cross-references...")
+    entries, pending_links = resolve_cross_references(entries)
+
+    # Count resolved vs pending
+    total_refs = 0
+    resolved_refs = 0
+    for entry in entries:
+        for ref in entry.get('cross_references', []):
+            total_refs += 1
+            if ref.get('resolved'):
+                resolved_refs += 1
+
+    if total_refs > 0:
+        print(f"  Cross-references: {resolved_refs}/{total_refs} resolved ({resolved_refs * 100 // total_refs}%)")
+        if pending_links:
+            print(f"  Pending links: {len(pending_links)} unique targets")
+    else:
+        print("  No cross-references found")
+
+    # Step 4: Build search index
+    print("\n[4/6] Building search index...")
     index = build_search_index(entries)
 
     jp_terms = len(index['japanese'])
@@ -252,13 +273,13 @@ def build(project_root: Path) -> int:
     en_terms = len(index['english'])
     print(f"  Indexed: {jp_terms} Japanese, {romaji_terms} romaji, {en_terms} English terms")
 
-    # Step 4: Build recent entries list
-    print("\n[4/5] Building recent entries list...")
+    # Step 5: Build recent entries list
+    print("\n[5/6] Building recent entries list...")
     recent = build_recent_entries(entries, limit=250)
     print(f"  Found {len(recent)} recent entries")
 
-    # Step 5: Write output files
-    print("\n[5/5] Writing output files...")
+    # Step 6: Write output files
+    print("\n[6/6] Writing output files...")
 
     # Ensure dist directory exists
     dist_dir.mkdir(exist_ok=True)

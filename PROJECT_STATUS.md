@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-09
+**Last updated**: 2026-01-10
 **Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -24,13 +24,15 @@
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle
 - [x] Last updated date in footer
+- [x] Cross-reference linking system with UI navigation
 
 ### Content Status
-- **Total entries**: 1,880
+- **Total entries**: 2,024
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: 392 entries added
-- **JLPT N3 vocabulary**: 50 new entries added
-- **Candidate words**: 2,117 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: 50+ entries added
+- **Candidate words**: ~1,980 words tracked in `candidate_words.json`
+- **Cross-references**: 302 resolved links, 159 extractable from existing notes
 
 ### Entry Breakdown by JLPT Level
 | Level | Count | Status |
@@ -84,8 +86,19 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `other-entries` | Creating nouns, counters, adverbs, expressions |
 | `revise-entries` | Revising existing entries to v2 standards |
 | `vocabulary-notes` | Formatting notes field content |
+| `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-10 (Cross-Reference Linking System)
+- Implemented structured cross-reference schema (type, reading, headword, label)
+- Added link resolution in build pipeline (`build/resolve_links.py`)
+- Added "Related Words" section to entry display in web interface
+- Created extraction script (`build/extract_references.py`) to populate from notes
+- Added validation for cross-reference format
+- Created `cross-reference-entry` skill for systematic additions
+- Reference types: pair, synonym, antonym, keigo, related, see_also, contrast
+- Supports pending links (references to entries not yet created)
 
 ### 2026-01-09 (N3 Vocabulary Expansion)
 - Added 50 new N3 vocabulary entries from candidate_words.json
@@ -124,14 +137,20 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Next Steps
 
-### Immediate (Vocabulary Expansion)
+### Immediate (Cross-Reference Migration)
+1. Run extraction script to populate cross-references from existing notes
+2. Review and apply extracted references in batches
+3. Manually add cross-references for high-priority entries (N5 verbs)
+
+### Ongoing (Vocabulary Expansion)
 1. Continue adding vocabulary from `candidate_words.json` (see workflow below)
 2. Maintain v2 quality standards for all new entries
+3. Add cross-references when creating new entries
 
-### After Current Batch Complete
-1. Implement cross-entry linking
-2. Add conjugation search
-3. Continue expanding from candidate list
+### Future Enhancements
+1. Add conjugation search
+2. Add audio pronunciation
+3. Export to Anki format
 
 ## Workflow: Adding Entries from Candidates
 
@@ -176,8 +195,54 @@ python3 build/build.py
 # Then open docs/index.html to verify
 ```
 
-### Step 6: Commit Changes
+### Step 6: Add Cross-References
+1. Use the `cross-reference-entry` skill for guidelines
+2. Add structured references for:
+   - Transitivity pairs (for verbs)
+   - Keigo equivalents
+   - Antonyms/opposites
+   - Related vocabulary mentioned in notes
+3. References can point to entries that don't exist yet
+
+### Step 7: Commit Changes
 Commit the new entry files, updated indexes, and rebuilt docs/
+
+## Workflow: Adding Cross-References to Existing Entries
+
+### Automated Extraction
+```bash
+# See proposed changes
+python3 build/extract_references.py
+
+# Apply changes
+python3 build/extract_references.py --apply
+
+# Then rebuild
+python3 build/build.py
+```
+
+### Cross-Reference Format
+```json
+"cross_references": [
+  {
+    "type": "pair",
+    "reading": "しまる",
+    "headword": "{閉|し}まる",
+    "label": "intransitive"
+  }
+]
+```
+
+### Reference Types
+| Type | Use For | Example |
+|------|---------|---------|
+| `pair` | Transitivity pairs | 閉める → 閉まる |
+| `antonym` | Opposites | 大きい → 小さい |
+| `keigo` | Honorific/humble | 食べる → 召し上がる |
+| `synonym` | Similar meaning | 分かる → 理解する |
+| `contrast` | Easily confused | は → が |
+| `related` | Semantically connected | 食べる → 食べ物 |
+| `see_also` | General reference | - |
 
 ## Technical Notes
 
@@ -195,6 +260,11 @@ python3 build/update_indexes.py
 # Manage candidate words
 python3 build/manage_candidates.py stats    # Show statistics
 python3 build/manage_candidates.py add "漢字" "かんじ" "notes"  # Add candidate
+
+# Cross-reference extraction
+python3 build/extract_references.py          # Dry run - show proposed changes
+python3 build/extract_references.py --apply  # Apply changes to entry files
+python3 build/extract_references.py --id taberu_00001  # Single entry
 
 # View locally
 open docs/index.html
