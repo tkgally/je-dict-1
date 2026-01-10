@@ -169,14 +169,12 @@
    - を (direct object) - add if not done
    - へ (direction) - verify linked to に
 
-### Priority 2: Test UI Navigation
+### Priority 2: UI Testing (User completed in Session 3)
 
-1. Open `docs/index.html` in browser
-2. Search for "閉める" (shimeru)
-3. Verify "Related Words" section appears
-4. Click on cross-reference links
-5. Verify navigation works correctly
-6. Check pending links display correctly
+User tested the following entries for cross-reference display:
+- 食べる, 閉める, いらっしゃる, は, に, いただく, 開ける, 始める, くださる, が
+
+If issues are found, address them in this session.
 
 ---
 
