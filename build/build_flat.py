@@ -793,12 +793,6 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
 
 def generate_random_page(entries: list) -> str:
     """Generate the random.html page."""
-    import random
-
-    # Shuffle entries for display
-    shuffled = list(entries)
-    random.shuffle(shuffled)
-
     html_parts = [
         generate_html_head("Random"),
         '<body>',
@@ -806,10 +800,10 @@ def generate_random_page(entries: list) -> str:
         '<main class="random-page">',
         '<h1>Random Word Cloud</h1>',
         '<p class="random-intro">Click any word to view its entry. Refresh the page for a new arrangement.</p>',
-        '<div class="random-words">',
+        '<div class="random-words" id="random-words">',
     ]
 
-    for entry in shuffled:
+    for entry in entries:
         folder = get_kana_folder(entry['reading'])
         headword_html = process_furigana(entry['headword'])
         html_parts.append(f'''
@@ -824,6 +818,25 @@ def generate_random_page(entries: list) -> str:
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
+    # Add shuffle script for random arrangement on page load
+    html_parts.append('''<script>
+(function() {
+    var container = document.getElementById('random-words');
+    if (!container) return;
+    var words = Array.from(container.children);
+    // Fisher-Yates shuffle
+    for (var i = words.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = words[i];
+        words[i] = words[j];
+        words[j] = temp;
+    }
+    // Re-append in shuffled order
+    words.forEach(function(word) {
+        container.appendChild(word);
+    });
+})();
+</script>''')
     html_parts.append('</body>')
     html_parts.append('</html>')
 
