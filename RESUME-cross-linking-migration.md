@@ -1,6 +1,6 @@
 # Cross-Linking Migration - Resume Instructions
 
-**Last updated**: 2026-01-10 (Session 2)
+**Last updated**: 2026-01-10 (Session 3)
 **Current phase**: Phase 3 - Ongoing Maintenance
 
 ## Session 1 Summary (2026-01-10)
@@ -99,21 +99,75 @@
 
 ---
 
-## Session 3 Tasks (Next Session)
+## Session 3 Summary (2026-01-10)
 
-### Priority 1: Manual Enhancement for High-Priority Entries
+### Completed Tasks
 
-After automated extraction, manually add cross-references to:
+1. **Keigo Cross-References**
+   - Added structured cross-references to 8 keigo-related entries:
+     - 召し上がる (meshiagaru) → 食べる, 飲む, いただく
+     - いただく (itadaku) → もらう, 食べる, 飲む, 召し上がる, くださる
+     - いらっしゃる (irassharu) → いる, 来る, 行く, おる, 参る
+     - おっしゃる (ossharu) → 言う, 申す, 申し上げる
+     - 参る (mairu) → 行く, 来る, いらっしゃる
+     - 申す (mousu) → 言う, おっしゃる
+     - くださる (kudasaru) → くれる, いただく
+     - 食べる (taberu) → 召し上がる, いただく (added honorific/humble refs)
+
+2. **Particle Contrast Cross-References**
+   - Updated 4 particle entries from legacy string format to structured:
+     - は (ha_00001) → が (contrast)
+     - が (ga_00001) → は (contrast)
+     - に (ni_00001) → で, へ (contrast)
+     - で (de_00008) → に (contrast)
+
+3. **Rebuilt Dictionary**
+   - All 2,024 entries validated
+   - 469 total cross-references (up from 461)
+   - 486 total references, 469 resolved (96%)
+   - 17 pending links (targets not yet in dictionary)
+
+### Current State
+
+- **Total cross-references**: 486
+- **Resolved**: 469 (96%)
+- **Pending**: 17 unique targets
+- **Infrastructure**: Complete and stable
+
+### Files Modified
+
+| File | Changes |
+|------|---------|
+| `entries/ma/meshiagaru_00142.json` | Added keigo cross-references |
+| `entries/a/itadaku_00148.json` | Added keigo cross-references |
+| `entries/a/irassharu_00137.json` | Added keigo cross-references |
+| `entries/a/ossharu_00138.json` | Added keigo cross-references |
+| `entries/ma/mairu_00146.json` | Added keigo cross-references |
+| `entries/ma/mousu_00145.json` | Added keigo cross-references |
+| `entries/ka/kudasaru_00140.json` | Added keigo cross-references |
+| `entries/ta/taberu_00001.json` | Added keigo cross-references |
+| `entries/ha/ha_00001.json` | Converted to structured format |
+| `entries/ka/ga_00001.json` | Converted to structured format |
+| `entries/na/ni_00001.json` | Converted to structured format |
+| `entries/ta/de_00008.json` | Converted to structured format |
+
+---
+
+## Session 4 Tasks (Next Session)
+
+### Priority 1: Additional Manual Enhancements
 
 1. **N5 Verbs with transitivity pairs** (highest priority)
    - Check all verb entries for pair verb references
    - Use the `cross-reference-entry` skill for guidelines
 
-2. **Keigo triplets** (plain → honorific/humble)
-   - 食べる, 飲む, 行く, 来る, いる, 見る, 言う, する, etc.
+2. **Additional keigo triplets**
+   - Check: 見る, する (if not already linked)
+   - Verify bidirectional links are complete
 
-3. **Particle contrasts**
-   - は ↔ が, に ↔ で, に ↔ へ
+3. **Additional particle contrasts**
+   - を (direct object) - add if not done
+   - へ (direction) - verify linked to に
 
 ### Priority 2: Test UI Navigation
 
