@@ -906,7 +906,20 @@
     }
 
     /**
-     * Fetch audio data for a given audio ID
+     * Convert base64 string to Blob
+     */
+    function base64ToBlob(base64, mimeType) {
+        const byteCharacters = atob(base64);
+        const byteNumbers = new Array(byteCharacters.length);
+        for (let i = 0; i < byteCharacters.length; i++) {
+            byteNumbers[i] = byteCharacters.charCodeAt(i);
+        }
+        const byteArray = new Uint8Array(byteNumbers);
+        return new Blob([byteArray], { type: mimeType });
+    }
+
+    /**
+     * Fetch audio data for a given audio ID and return a Blob URL
      */
     async function fetchAudio(audioId) {
         // Check cache first
@@ -924,10 +937,14 @@
         const data = await response.json();
         const base64 = data.audio_base64;
 
-        // Cache the result
-        audioCache[audioId] = base64;
+        // Convert to Blob URL for better browser compatibility
+        const blob = base64ToBlob(base64, 'audio/mpeg');
+        const blobUrl = URL.createObjectURL(blob);
 
-        return base64;
+        // Cache the Blob URL
+        audioCache[audioId] = blobUrl;
+
+        return blobUrl;
     }
 
     /**
@@ -973,11 +990,11 @@
         currentAudioButton = button;
 
         try {
-            // Fetch the audio data
-            const base64 = await fetchAudio(audioId);
+            // Fetch the audio (returns a Blob URL)
+            const audioUrl = await fetchAudio(audioId);
 
             // Create audio element and play
-            const audio = new Audio(`data:audio/mpeg;base64,${base64}`);
+            const audio = new Audio(audioUrl);
             currentAudio = audio;
 
             // Update button state when playback starts

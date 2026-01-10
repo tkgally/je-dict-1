@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-10T02:56:11.204289Z
+// Generated: 2026-01-10T03:00:21.039209Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
