@@ -42,6 +42,54 @@ The dictionary is built as a **completely static website**:
 - Offline-capable—download and use anywhere
 - Data is embedded in JavaScript at build time for maximum portability
 
+## Site Formats
+
+The build process generates two versions of the dictionary site:
+
+### Single-Page Application (docs/)
+
+The main site at `docs/index.html` is a JavaScript-powered single-page application:
+- **Fast navigation**: All entries loaded in memory for instant switching
+- **Rich search**: Real-time search across Japanese, English, and romaji
+- **Multiple views**: Search, Browse, Recent, and Random interfaces
+- **Furigana toggle**: Show/hide readings above kanji
+- **Offline-capable**: Works without an internet connection once loaded
+
+**Best for**: Interactive use, studying vocabulary, quick lookups
+
+### Flat HTML Site (docs/flat/)
+
+A parallel static HTML version at `docs/flat/index.html`:
+- **Individual pages**: Each entry has its own standalone HTML file
+- **SEO-friendly**: Search engines can index individual entries
+- **Works without JavaScript**: Core functionality requires no JS
+- **Lightweight pages**: Each page loads only the content needed
+- **Deep linking**: Direct URLs to specific entries (e.g., `entries/ta/taberu_00001.html`)
+- **Native audio controls**: HTML5 audio elements for pronunciation
+
+**Best for**: Sharing links to entries, search engine visibility, low-bandwidth access
+
+### URL Structure (Flat Site)
+
+Entry pages are organized by kana row:
+```
+docs/flat/
+├── index.html           # Home page
+├── search.html          # Search interface
+├── browse.html          # Browse by kana row
+├── recent.html          # Recently modified entries
+├── random.html          # Random word cloud
+├── entries/
+│   ├── a/               # あ行 entries
+│   │   └── aru_00001.html
+│   ├── ka/              # か行 entries
+│   ├── sa/              # さ行 entries
+│   └── ...
+└── audio/               # Audio files
+    ├── a/
+    └── ...
+```
+
 ## Web Interface
 
 The dictionary provides four different ways to explore entries:
@@ -116,7 +164,8 @@ je-dict-1/
 ├── build/                # Build and management scripts
 │   ├── schema.json       # JSON schema for entries
 │   ├── validate.py       # Entry validation script
-│   ├── build.py          # Main build script
+│   ├── build.py          # Main build script (runs both builds)
+│   ├── build_flat.py     # Flat HTML site generator
 │   ├── merge_audio.py    # Merges audio files into entries
 │   ├── update_entries_index.py   # Updates entries_index.json
 │   ├── manage_candidates.py      # Manages candidate_words.json
@@ -124,7 +173,10 @@ je-dict-1/
 │   └── requirements.txt
 ├── web/                  # Web application source
 ├── docs/                 # Generated output (served by GitHub Pages)
-│   └── audio/            # Built audio files (copied from audio/)
+│   ├── audio/            # Built audio files (copied from audio/)
+│   └── flat/             # Flat HTML version of the site
+│       ├── entries/      # Individual entry HTML files
+│       └── audio/        # Audio files for flat site
 ├── .claude/              # Claude Code configuration
 │   ├── skills/           # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
