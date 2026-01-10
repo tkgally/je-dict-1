@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Japanese-English learner&#x27;s dictionary with detailed explanations and examples">
+    <title>Search - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="search.html" class="nav-link">Search</a>
+        <a href="browse.html" class="nav-link">Browse</a>
+        <a href="recent.html" class="nav-link">Recent</a>
+        <a href="random.html" class="nav-link">Random</a>
+    </nav>
+    <div class="site-title">Japanese-English Dictionary</div>
+</header>
+<main class="search-page">
+    <h1>Search the Dictionary</h1>
+
+    <div class="search-form">
+        <input type="text" id="search-input" placeholder="Search Japanese, English, or romaji..." autocomplete="off">
+        <button type="button" id="search-button">Search</button>
+    </div>
+
+    <div class="search-options">
+        <label><input type="radio" name="search-type" value="auto" checked> Auto-detect</label>
+        <label><input type="radio" name="search-type" value="japanese"> Japanese</label>
+        <label><input type="radio" name="search-type" value="english"> English</label>
+        <label><input type="radio" name="search-type" value="romaji"> Romaji</label>
+    </div>
+
+    <div id="results-section" class="results-section" style="display: none;">
+        <h2 id="results-heading">Results</h2>
+        <div id="results-list" class="results-list"></div>
+    </div>
+
+    <noscript>
+        <div class="noscript-notice">
+            <p>JavaScript is required for the search feature. You can still <a href="browse.html">browse entries</a> by kana row.</p>
+        </div>
+    </noscript>
+</main>
+
+<script src="search-index.js"></script>
+<script src="search.js"></script>
+
+<footer>
+    <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
+</footer>
+</body>
+</html>

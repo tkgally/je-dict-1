@@ -16,6 +16,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from validate import validate_all_entries, hiragana_to_romaji
 from resolve_links import resolve_cross_references, generate_link_report
+from build_flat import build_flat
 
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
@@ -364,6 +365,12 @@ def build(project_root: Path) -> int:
     print(f"  Output: {dist_dir}")
     print("\nTo view the dictionary:")
     print(f"  Open {dist_dir / 'index.html'} in your browser")
+
+    # Build flat HTML version
+    flat_result = build_flat(project_root)
+    if flat_result != 0:
+        print("\nWARNING: Flat HTML build failed")
+        return 1
 
     return 0
 

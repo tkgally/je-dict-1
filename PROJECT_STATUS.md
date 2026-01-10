@@ -26,9 +26,10 @@
 - [x] Last updated date in footer
 - [x] Cross-reference linking system with UI navigation
 - [x] Audio pronunciation for example sentences (112 audio files)
+- [x] Flat HTML site generation (`build/build_flat.py`)
 
 ### Content Status
-- **Total entries**: 2,024
+- **Total entries**: 2,074
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: 392 entries added
 - **JLPT N3 vocabulary**: 50+ entries added
@@ -90,6 +91,17 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-10 (Flat HTML Site Build)
+- Added parallel flat HTML build (`build/build_flat.py`)
+- Each entry gets its own standalone HTML page at `docs/flat/entries/{kana}/{id}.html`
+- Navigation pages: index.html, search.html, browse.html, recent.html, random.html
+- Compact search index with minimal entry data for fast loading
+- Works without JavaScript (native HTML5 audio controls, expandable browse sections)
+- Cross-reference links work between entry pages
+- Audio files copied to docs/flat/audio/
+- Build process runs automatically with main build.py
+- Updated README.md with Site Formats documentation
 
 ### 2026-01-10 (Audio Pronunciation Support)
 - Implemented audio playback for example sentences
