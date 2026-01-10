@@ -223,20 +223,76 @@ def check_for_duplicates(entries_data: list[tuple[Path, dict]]) -> list[tuple[Pa
     return duplicates
 
 
-def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set) -> list[tuple[Path, str]]:
+def is_valid_hiragana(text: str) -> bool:
+    """Check if text contains only hiragana characters and long vowel mark."""
+    if not text:
+        return False
+    for char in text:
+        if not (('\u3041' <= char <= '\u3096') or char == 'ー'):
+            return False
+    return True
+
+
+def validate_structured_cross_reference(ref: dict, entry_reading: str) -> list[str]:
     """
-    Check that all cross_references point to existing entry IDs.
-    Returns a list of (file_path, error_message) for invalid references.
+    Validate a structured cross-reference object.
+    Returns a list of error messages (empty if valid).
     """
     errors = []
+    valid_types = ['pair', 'synonym', 'antonym', 'keigo', 'related', 'see_also', 'contrast']
+
+    # Check required fields
+    if 'type' not in ref:
+        errors.append("Missing 'type' in cross_reference")
+    elif ref['type'] not in valid_types:
+        errors.append(f"Invalid cross_reference type: '{ref['type']}' (must be one of: {', '.join(valid_types)})")
+
+    if 'reading' not in ref:
+        errors.append("Missing 'reading' in cross_reference")
+    elif not is_valid_hiragana(ref['reading']):
+        errors.append(f"Cross-reference reading must be hiragana: '{ref['reading']}'")
+    elif ref['reading'] == entry_reading:
+        errors.append(f"Self-reference not allowed: '{ref['reading']}'")
+
+    return errors
+
+
+def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, all_readings: set = None) -> list[tuple[Path, str]]:
+    """
+    Check cross_references for validity.
+    Handles both legacy string format and new structured format.
+    Returns a list of (file_path, error_message) for issues.
+    """
+    # Build reading index if not provided
+    if all_readings is None:
+        all_readings = set()
+        for _, entry in entries_data:
+            reading = entry.get('reading', '')
+            if reading:
+                all_readings.add(reading)
+
+    errors = []
     for file_path, entry in entries_data:
+        entry_reading = entry.get('reading', '')
         cross_refs = entry.get('cross_references', [])
         if cross_refs:
-            for ref_id in cross_refs:
-                if ref_id not in all_ids:
+            for ref in cross_refs:
+                if isinstance(ref, str):
+                    # Legacy string format (entry ID)
+                    if ref not in all_ids:
+                        errors.append((
+                            file_path,
+                            f"Invalid cross_reference: '{ref}' does not exist"
+                        ))
+                elif isinstance(ref, dict):
+                    # New structured format
+                    ref_errors = validate_structured_cross_reference(ref, entry_reading)
+                    for err in ref_errors:
+                        errors.append((file_path, err))
+                else:
                     errors.append((
                         file_path,
-                        f"Invalid cross_reference: '{ref_id}' does not exist"
+                        f"Invalid cross_reference format: expected string or object, got {type(ref).__name__}"
                     ))
     return errors
 
@@ -321,10 +377,19 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
     try:
         with open(entry_path, 'r', encoding='utf-8') as f:
             entry = json.load(f)
+            entry_reading = entry.get('reading', '')
             cross_refs = entry.get('cross_references', [])
-            for ref_id in cross_refs:
-                if ref_id not in all_ids:
-                    errors.append(f"Invalid cross_reference: '{ref_id}' does not exist")
+            for ref in cross_refs:
+                if isinstance(ref, str):
+                    # Legacy string format
+                    if ref not in all_ids:
+                        errors.append(f"Invalid cross_reference: '{ref}' does not exist")
+                elif isinstance(ref, dict):
+                    # New structured format
+                    ref_errors = validate_structured_cross_reference(ref, entry_reading)
+                    errors.extend(ref_errors)
+                else:
+                    errors.append(f"Invalid cross_reference format: expected string or object")
     except (json.JSONDecodeError, IOError):
         pass  # Already caught by validate_entry_file
 

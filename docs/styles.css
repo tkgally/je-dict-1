@@ -491,6 +491,62 @@ header .subtitle {
     margin-bottom: 0;
 }
 
+/* Cross-References */
+.cross-references {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-md);
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border-left: 3px solid #6c757d;
+}
+
+.cross-references h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    color: #495057;
+}
+
+.cross-ref {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.cross-ref:last-child {
+    margin-bottom: 0;
+}
+
+.cross-ref-type {
+    color: #6c757d;
+    min-width: 80px;
+    flex-shrink: 0;
+}
+
+.cross-ref-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cross-ref-link:hover {
+    text-decoration: underline;
+}
+
+.cross-ref.pending .cross-ref-pending {
+    color: #999;
+    font-style: italic;
+}
+
+.cross-ref.pending .cross-ref-pending::after {
+    content: " (not yet in dictionary)";
+    font-size: 0.85em;
+    color: #aaa;
+}
+
 /* Metadata */
 .entry-metadata {
     margin-top: var(--spacing-lg);
