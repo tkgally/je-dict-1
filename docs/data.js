@@ -1,5 +1,5 @@
 // Auto-generated dictionary data - do not edit manually
-// Generated: 2026-01-10T12:56:13.604347Z
+// Generated: 2026-01-10T13:02:05.726760Z
 
 const DICTIONARY_DATA = {
   version: '1.0',
@@ -489,12 +489,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{猫|ねこ}にえさをあげます。",
         "english": "I give food to the cat.",
-        "notes": "Often used for pets and children"
+        "notes": "Often used for pets and children",
+        "has_audio": true
       },
       {
         "japanese": "{手|て}を{上|あ}げてください。",
         "english": "Please raise your hand.",
-        "notes": "Sense 2: raising"
+        "notes": "Sense 2: raising",
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: XがYにZをあげる (X gives Z to Y).\n\nFor the 'raise' meaning ({上|あ}げる): Pair verb is {上|あ}がる (intransitive, to rise). Pattern: Xを{上|あ}げる.\n\nASPECT: ている indicates ongoing action. あげている = 'is giving' or 'is raising.'\n\nCOMMON PATTERNS:\n・プレゼントをあげる (give a present)\n・{手|て}を{上|あ}げる (raise one's hand)\n・{声|こえ}を{上|あ}げる (raise one's voice)\n・〜てあげる (do something for someone's benefit)\n\nREGISTER: For giving to superiors, use {差|さ}し{上|あ}げる (humble). For receiving, the counterpart is もらう.",
@@ -2279,17 +2281,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{案外|あんがい}{簡単|かんたん}でした。",
         "english": "It was surprisingly easy.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{彼|かれ}は{案外|あんがい}{優|やさ}しい{人|ひと}だった。",
         "english": "He turned out to be unexpectedly kind.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{案外|あんがい}{時間|じかん}がかかりました。",
         "english": "It took longer than expected.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{案外|あんがい} expresses that something turned out differently from expectations.\n\nUSAGE:\n- Neutral tone, can describe positive or negative surprises\n- Often modifies adjectives or verbs directly\n- Can stand alone at the beginning of a sentence\n\nSIMILAR WORDS:\n- {意外|いがい}に: unexpectedly (similar, slightly more emphatic)\n- {思|おも}ったより: more than expected\n- {案外|あんがい}: unexpectedly (neutral observation)",
@@ -2321,17 +2326,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{兄|あに}は{大学生|だいがくせい}です。",
         "english": "My older brother is a university student.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{兄|あに}は{東京|とうきょう}に{住|す}んでいます。",
         "english": "My older brother lives in Tokyo.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{兄|あに}は3{歳|さい}{年上|としうえ}です。",
         "english": "My older brother is 3 years older.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "Use {兄|あに} when speaking about your own older brother to others. Use お{兄|にい}さん when addressing him directly or speaking about someone else's older brother.\n\nRelated: {姉|あね} (older sister - humble).",
@@ -2380,12 +2388,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "アニメを{見|み}るのが{好|す}きだ。",
         "english": "I like watching anime.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "この{漫画|まんが}がアニメになった。",
         "english": "This manga was made into an anime.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "Short for アニメーション. Major aspect of Japanese pop culture.",
@@ -2417,17 +2427,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{単語|たんご}を{暗記|あんき}する。",
         "english": "To memorize vocabulary.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{公式|こうしき}を{暗記|あんき}しました。",
         "english": "I memorized the formulas.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{丸|まる}{暗記|あんき}は{効果的|こうかてき}ではない。",
         "english": "Rote memorization isn't effective.",
-        "notes": "{丸|まる}{暗記|あんき} = rote memorization"
+        "notes": "{丸|まる}{暗記|あんき} = rote memorization",
+        "has_audio": true
       }
     ],
     "notes": "{暗記|あんき} means memorization, typically through repetition.\n\nCOMMON PATTERNS:\n- {暗記|あんき}する (to memorize)\n- {暗記|あんき}できる (can memorize)\n- {丸|まる}{暗記|あんき} (rote memorization)\n\nRELATED WORDS:\n- {記憶|きおく}: memory (the faculty or stored information)\n- {暗記|あんき}: memorization (the act of memorizing)\n- {暗唱|あんしょう}: recitation from memory",
@@ -2459,17 +2472,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "あんな{人|ひと}にはなりたくない。",
         "english": "I don't want to become that kind of person.",
-        "notes": "Often implies negative judgment"
+        "notes": "Often implies negative judgment",
+        "has_audio": true
       },
       {
         "japanese": "あんなに{高|たか}いとは{思|おも}わなかった。",
         "english": "I didn't think it would be that expensive.",
-        "notes": "あんなに = to that extent"
+        "notes": "あんなに = to that extent",
+        "has_audio": true
       },
       {
         "japanese": "あんな{所|ところ}に{行|い}きたくない。",
         "english": "I don't want to go to a place like that.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "あんな is part of the ko-so-a-do demonstrative system and refers to things/people distant from both speaker and listener.\n\nKO-SO-A-DO PATTERN:\n- こんな: this kind of (near speaker)\n- そんな: that kind of (near listener)\n- あんな: that kind of (far from both)\n- どんな: what kind of (question)\n\nDERIVED FORMS:\n- あんなに: to that extent, that much\n- あんなふうに: in that way/manner\n\nNote: あんな often carries a negative or dismissive nuance, especially when referring to people.",
@@ -2511,22 +2527,26 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{駅|えき}まで{案内|あんない}します。",
         "english": "I'll show you to the station.",
-        "notes": "Verb usage"
+        "notes": "Verb usage",
+        "has_audio": true
       },
       {
         "japanese": "{案内|あんない}{係|がかり}に{聞|き}いてください。",
         "english": "Please ask the information desk attendant.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{結婚式|けっこんしき}の{案内|あんない}が{届|とど}いた。",
         "english": "I received a wedding invitation.",
-        "notes": "Invitation meaning"
+        "notes": "Invitation meaning",
+        "has_audio": true
       },
       {
         "japanese": "{観光|かんこう}{案内|あんない}",
         "english": "Tourist information/guide",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{案内|あんない} is a noun meaning 'guidance' or 'information,' and also functions as a suru-verb.\n\nVerb usage:\n- {案内|あんない}する: to guide, to show around, to inform\n- 〜を{案内|あんない}する: to show someone around ~\n\nCommon compounds:\n- {案内|あんない}{所|じょ}/{案内|あんない}{係|がかり}: information desk/attendant\n- {道|みち}{案内|あんない}: directions, giving directions\n- ご{案内|あんない}: guidance, notice (polite)\n\nRelated words:\n- {案内|あんない}{人|にん}/{案内|あんない}{者|しゃ}: guide (person)\n- {案内|あんない}{書|しょ}: guidebook, brochure\n- {案内|あんない}{状|じょう}: invitation letter",
@@ -2558,17 +2578,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "あんなに{頑張|がんば}ったのに。",
         "english": "Even though I tried so hard.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "あんなに{美味|おい}しい{料理|りょうり}は{初|はじ}めて。",
         "english": "This is the first time I've had such delicious food.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "あんなに{言|い}ったのに、{聞|き}かなかった。",
         "english": "Even though I told him so much, he didn't listen.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "あんなに means \"to that extent\" or \"that much.\"\n\nKO-SO-A-DO SERIES:\n- こんなに: this much (near speaker)\n- そんなに: that much (near listener)\n- あんなに: that much (far from both)\n- どんなに: how much (question)\n\nUSAGE:\n- Often used with past tense\n- Expresses surprise or emphasis",
@@ -2605,17 +2628,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "あの{山|やま}は{何|なん}という{山|やま}ですか。",
         "english": "What is that mountain called?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "あの{人|ひと}は{有名|ゆうめい}な{歌手|かしゅ}です。",
         "english": "That person (over there) is a famous singer.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "あの、すみません。",
         "english": "Um, excuse me.",
-        "notes": "Hesitation/attention-getter usage"
+        "notes": "Hesitation/attention-getter usage",
+        "has_audio": true
       }
     ],
     "notes": "あの has two distinct uses. As a demonstrative, it modifies nouns referring to distant things or shared knowledge. As an interjection (あの...), it's used to get attention politely or as a filler when hesitating, similar to 'um' or 'well' in English. The pronunciation is often drawn out: あのー.",
@@ -2652,22 +2678,26 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{無事|ぶじ}で{安心|あんしん}しました。",
         "english": "I'm relieved that you're safe.",
-        "notes": "〜て{安心|あんしん}する pattern"
+        "notes": "〜て{安心|あんしん}する pattern",
+        "has_audio": true
       },
       {
         "japanese": "それを{聞|き}いて{安心|あんしん}した。",
         "english": "I felt relieved to hear that.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{安心|あんしん}してください。",
         "english": "Please don't worry. / Rest assured.",
-        "notes": "Common reassurance"
+        "notes": "Common reassurance",
+        "has_audio": true
       },
       {
         "japanese": "{安心|あんしん}・{安全|あんぜん}",
         "english": "Safety and security",
-        "notes": "Common compound"
+        "notes": "Common compound",
+        "has_audio": true
       }
     ],
     "notes": "{安心|あんしん} is both a noun meaning 'peace of mind' and functions as a suru-verb.\n\nVerb usage:\n- {安心|あんしん}する: to feel relieved, to feel at ease\n- {安心|あんしん}させる: to reassure (someone)\n\nNa-adjective usage:\n- {安心|あんしん}な: safe, reliable (e.g., {安心|あんしん}な{場所|ばしょ})\n\nCommon collocations:\n- {安心|あんしん}して〜する: to do ~ without worry\n- 〜て{安心|あんしん}した: felt relieved that ~\n- ご{安心|あんしん}ください: Please rest assured (polite)\n\nAntonym: {心配|しんぱい} (worry)",
@@ -2724,17 +2754,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{経済|けいざい}が{安定|あんてい}している。",
         "english": "The economy is stable.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{精神的|せいしんてき}な{安定|あんてい}を{求|もと}める。",
         "english": "To seek emotional stability.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{収入|しゅうにゅう}が{安定|あんてい}しない。",
         "english": "My income isn't stable.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{安定|あんてい} means stability in various contexts.\n\nCOMMON PATTERNS:\n- {安定|あんてい}する (to stabilize, become stable)\n- {安定|あんてい}している (to be stable)\n- {安定|あんてい}した + noun (stable ~)\n- {安定|あんてい}を{保|たも}つ (maintain stability)\n\nCOMMON COLLOCATIONS:\n- {経済|けいざい}の{安定|あんてい} (economic stability)\n- {精神的|せいしんてき}{安定|あんてい} (mental/emotional stability)\n- {政治的|せいじてき}{安定|あんてい} (political stability)\n\nOPPOSITE:\n- {不安定|ふあんてい}: instability, unstable",
@@ -2771,17 +2804,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "ここは{安全|あんぜん}ですか。",
         "english": "Is it safe here?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{安全|あんぜん}な{場所|ばしょ}に{行|い}きましょう。",
         "english": "Let's go to a safe place.",
-        "notes": "安全な + noun"
+        "notes": "安全な + noun",
+        "has_audio": true
       },
       {
         "japanese": "{安全|あんぜん}に{気|き}をつけてください。",
         "english": "Please be careful about safety.",
-        "notes": "Used as a noun"
+        "notes": "Used as a noun",
+        "has_audio": true
       }
     ],
     "notes": "安全 is a na-adjective and noun: 安全な (before nouns), 安全に (safely, adverb). The kanji mean 'peaceful' + 'whole/complete'.\n\nCommon compounds:\n- 安全運転 (あんぜんうんてん - safe driving)\n- 安全第一 (あんぜんだいいち - safety first). Antonym: 危険 (きけん - dangerous).",
@@ -2818,17 +2854,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{空|そら}が{青|あお}いです。",
         "english": "The sky is blue.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{青|あお}い{信号|しんごう}で{渡|わた}ります。",
         "english": "Cross when the light is green.",
-        "notes": "Sense 2: traffic light"
+        "notes": "Sense 2: traffic light",
+        "has_audio": true
       },
       {
         "japanese": "{海|うみ}が{青|あお}くてきれいです。",
         "english": "The sea is blue and beautiful.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "Noun form: {青|あお}. Japanese traditionally used {青|あお}い for both blue and green. Modern Japanese has {緑|みどり} for green, but {青|あお}い is still used for traffic lights.",
@@ -2885,17 +2924,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{駅|えき}の{近|ちか}くのアパートに{住|す}んでいます。",
         "english": "I live in an apartment near the station.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{新|あたら}しいアパートを{探|さが}しています。",
         "english": "I'm looking for a new apartment.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "このアパートは{家賃|やちん}が{安|やす}いです。",
         "english": "The rent for this apartment is cheap.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "In Japan, アパート typically refers to smaller, wooden or lightweight steel buildings (usually 2-3 stories), while マンション refers to larger, more modern concrete buildings. This differs from American English where 'apartment' is a general term.",
@@ -2932,17 +2974,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{人|ひと}の{粗|あら}を{探|さが}す。",
         "english": "To look for faults in others.",
-        "notes": "Common expression"
+        "notes": "Common expression",
+        "has_audio": true
       },
       {
         "japanese": "{粗|あら}が{目立|めだ}つ。",
         "english": "The flaws are noticeable.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{計画|けいかく}の{粗|あら}を{指摘|してき}する。",
         "english": "To point out the flaws in the plan.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{粗|あら} refers to faults or rough parts.\n\nCOMMON PATTERNS:\n- {粗|あら}を{探|さが}す (to look for faults)\n- {粗|あら}が{見|み}える (flaws become visible)\n- {粗|あら}{探|さが}し (fault-finding)\n\nRELATED WORDS:\n- {粗|あら}い: rough, coarse (adjective)\n- {欠点|けってん}: fault, shortcoming\n- {粗末|そまつ}: poor quality, crude",
@@ -2979,17 +3024,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{嵐|あらし}が{来|き}そうです。",
         "english": "A storm seems to be coming.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{嵐|あらし}の{前|まえ}の{静|しず}けさ。",
         "english": "The calm before the storm.",
-        "notes": "Common expression"
+        "notes": "Common expression",
+        "has_audio": true
       },
       {
         "japanese": "{拍手|はくしゅ}の{嵐|あらし}が{起|お}きました。",
         "english": "A storm of applause broke out.",
-        "notes": "Figurative use"
+        "notes": "Figurative use",
+        "has_audio": true
       }
     ],
     "notes": "{嵐|あらし} means storm, both literally and figuratively.\n\nCOMMON PATTERNS:\n- {嵐|あらし}が{来|く}る (a storm is coming)\n- {嵐|あらし}が{過|す}ぎる (the storm passes)\n- {嵐|あらし}の{前|まえ}の{静|しず}けさ (calm before the storm)\n- {拍手|はくしゅ}の{嵐|あらし} (storm of applause)\n\nSIMILAR WORDS:\n- {台風|たいふう}: typhoon (specific type)\n- {嵐|あらし}: storm (general)\n- {暴風雨|ぼうふうう}: windstorm with rain (technical)",
@@ -3026,17 +3074,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{一位|いちい}を{争|あらそ}っている。",
         "english": "They are competing for first place.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{意見|いけん}を{争|あらそ}う。",
         "english": "To dispute opinions.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{争|あらそ}えない{事実|じじつ}。",
         "english": "An undeniable fact.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{争|あらそ}う means to compete or argue.\n\nCOMMON EXPRESSIONS:\n- 〜を{争|あらそ}う: to compete for ~\n- {争|あらそ}えない: undeniable, indisputable\n\nRELATED TERMS:\n- {争|あらそ}い: dispute, conflict\n- {競争|きょうそう}: competition\n- {戦|たたか}う: to fight",
@@ -3073,17 +3124,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{新|あら}たな{問題|もんだい}が{発生|はっせい}しました。",
         "english": "A new problem has arisen.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{新|あら}たに{始|はじ}めましょう。",
         "english": "Let's start anew.",
-        "notes": "{新|あら}たに as adverb"
+        "notes": "{新|あら}たに as adverb",
+        "has_audio": true
       },
       {
         "japanese": "{気持|きも}ちを{新|あら}たにする。",
         "english": "To renew one's feelings/attitude.",
-        "notes": "Common expression"
+        "notes": "Common expression",
+        "has_audio": true
       }
     ],
     "notes": "{新|あら}た is a na-adjective meaning new or fresh.\n\nFORMS:\n- Adverbial: {新|あら}たに (newly, afresh)\n- Noun modifier: {新|あら}たな + noun\n\nCOMMON PATTERNS:\n- {新|あら}たな{出発|しゅっぱつ} (fresh start)\n- {新|あら}たに{始|はじ}める (start anew)\n- {気持|きも}ちを{新|あら}たにする (refresh one's attitude)\n\nSIMILAR WORDS:\n- {新|あたら}しい: new (i-adjective, common)\n- {新|あら}た: new (na-adjective, more literary/formal)\n- フレッシュ: fresh (loanword)",
@@ -3115,17 +3169,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{手|て}を{洗|あら}ってください。",
         "english": "Please wash your hands.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{食|た}べる{前|まえ}に{手|て}を{洗|あら}います。",
         "english": "I wash my hands before eating.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{車|くるま}を{洗|あら}いたいです。",
         "english": "I want to wash the car.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No intransitive pair. Pattern: Xを{洗|あら}う.\n\nASPECT: ている indicates ongoing action. {洗|あら}っている = 'is washing.'\n\nCOMMON PATTERNS:\n・{手|て}を{洗|あら}う (wash hands)\n・{顔|かお}を{洗|あら}う (wash face)\n・{皿|さら}を{洗|あら}う (wash dishes)\n・{車|くるま}を{洗|あら}う (wash a car)\n\nDifferent from {洗濯|せんたく}する which specifically means 'to do laundry' (wash clothes in a machine).",
@@ -3162,17 +3219,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "これは{彼|かれ}の{愛情|あいじょう}の{現|あらわ}れだ。",
         "english": "This is a manifestation of his love.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{感謝|かんしゃ}の{気持|きも}ちの{現|あらわ}れとして。",
         "english": "As an expression of gratitude.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{症状|しょうじょう}は{病気|びょうき}の{現|あらわ}れだ。",
         "english": "The symptoms are a sign of the illness.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{現|あらわ}れ is the noun form of {現|あらわ}れる (to appear).\n\nCOMMON PATTERNS:\n- 〜の{現|あらわ}れ (manifestation of ~)\n- {気持|きも}ちの{現|あらわ}れ (expression of feelings)\n\nRELATED VERB:\n- {現|あらわ}れる: to appear, to emerge\n\nNOTE:\n- {現|あらわ}れ emphasizes the visible result or sign\n- Often used for abstract concepts becoming visible",
@@ -3204,17 +3264,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{彼|かれ}が{突然|とつぜん}{現|あらわ}れた。",
         "english": "He appeared suddenly.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{症状|しょうじょう}が{現|あらわ}れました。",
         "english": "Symptoms appeared.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{結果|けっか}が{数字|すうじ}に{現|あらわ}れている。",
         "english": "The results are reflected in the numbers.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{現|あらわ}れる means to appear or emerge.\n\nTRANSITIVE PAIR:\n- {現|あらわ}れる (v.i.): to appear\n- {現|あらわ}す (v.t.): to reveal, show\n\nSIMILAR:\n- {出|で}る: to come out\n- {見|み}える: to be visible",
@@ -3246,12 +3309,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{本|ほん}を{著|あらわ}す。",
         "english": "To write/publish a book.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{彼|かれ}は{多|おお}くの{論文|ろんぶん}を{著|あらわ}した。",
         "english": "He authored many papers.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{著|あらわ}す specifically means to write/publish works.\n\nDISTINCTION:\n- {著|あらわ}す: to author, publish (formal)\n- {書|か}く: to write (general)\n- {表|あらわ}す: to express, represent",
@@ -3288,12 +3353,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{本性|ほんしょう}を{現|あらわ}す。",
         "english": "To reveal one's true nature.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{姿|すがた}を{現|あらわ}す。",
         "english": "To appear, to show oneself.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{現|あらわ}す means to reveal or show.\n\nKANJI VARIANTS:\n- {現|あらわ}す: to reveal, to appear\n- {表|あらわ}す: to express, to represent\n- {著|あらわ}す: to write (a book)\n\nCOLLOCATIONS:\n- {姿|すがた}を{現|あらわ}す: to appear\n- {感情|かんじょう}を{表|あらわ}す: to express emotions",
@@ -3325,17 +3392,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{感謝|かんしゃ}の{気持|きも}ちを{表|あらわ}す。",
         "english": "To express gratitude.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "この{言葉|ことば}は{何|なに}を{表|あらわ}していますか。",
         "english": "What does this word represent?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{顔|かお}に{出|だ}して{表|あらわ}さない。",
         "english": "Don't show it on your face.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{表|あらわ}す means to express or show.\n\nKANJI VARIATIONS:\n- {表|あらわ}す: to express (feelings/ideas)\n- {現|あらわ}す: to reveal, appear\n- {著|あらわ}す: to write, publish\n\nRELATED:\n- {表現|ひょうげん}: expression\n- {現|あらわ}れる (v.i.): to appear",
@@ -3367,17 +3437,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "あれは{何|なん}ですか。",
         "english": "What is that over there?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "あれを{見|み}てください。",
         "english": "Please look at that (over there).",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "あれは{富士山|ふじさん}ですか。",
         "english": "Is that Mt. Fuji (over there)?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "あれ refers to things distant from both speaker and listener, completing the ko-so-a-do series with これ (this) and それ (that near you). It can also refer to shared knowledge between speaker and listener - something both parties know about. To modify nouns, use あの instead.",
@@ -3409,17 +3482,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{手伝|てつだ}ってくれてありがとう。",
         "english": "Thanks for helping me.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "ありがとうございます。",
         "english": "Thank you very much.",
-        "notes": "Polite form"
+        "notes": "Polite form",
+        "has_audio": true
       },
       {
         "japanese": "どうもありがとう。",
         "english": "Thank you very much.",
-        "notes": "Common emphasis"
+        "notes": "Common emphasis",
+        "has_audio": true
       }
     ],
     "notes": "ありがとう is casual and used with friends, family, and people of lower status. ありがとうございます is the polite form for strangers, superiors, and formal situations. どうも can be added for emphasis. The word originally comes from {有|あ}り{難|がた}い, meaning 'rare/difficult to have' - expressing that something is precious.",
@@ -3461,22 +3537,26 @@ const DICTIONARY_DATA = {
       {
         "japanese": "机の上に本があります。",
         "english": "There is a book on the desk.",
-        "notes": "Existence in a location"
+        "notes": "Existence in a location",
+        "has_audio": true
       },
       {
         "japanese": "質問がありますか。",
         "english": "Do you have any questions?",
-        "notes": "Possession/having"
+        "notes": "Possession/having",
+        "has_audio": true
       },
       {
         "japanese": "コンビニは駅の近くにあります。",
         "english": "The convenience store is near the station.",
-        "notes": "Location"
+        "notes": "Location",
+        "has_audio": true
       },
       {
         "japanese": "明日、会議があります。",
         "english": "There is a meeting tomorrow.",
-        "notes": "Existence of an event"
+        "notes": "Existence of an event",
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Counterpart for animate beings: いる. Pattern: Xがある.\n\nASPECT: ある is a stative verb and does not normally take ている. Use ある directly for existence/possession.\n\nCOMMON PATTERNS:\n・{時間|じかん}がある (have time)\n・{質問|しつもん}がある (have a question)\n・〜に〜がある (there is ~ at/in ~)\n・〜ことがある (have the experience of ~)\n\nIRREGULAR FORMS:\n・Negative: ない (not あらない)\n・Te-form: あって\n\nIMPORTANT: ある is for inanimate objects, いる is for animate beings. This distinction is fundamental in Japanese.",
@@ -3517,12 +3597,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{大学生|だいがくせい}の{時|とき}、アルバイトをしていた。",
         "english": "I worked part-time when I was a college student.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "アルバイトを{探|さが}している。",
         "english": "I'm looking for a part-time job.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "From German \"Arbeit\" (work). Often abbreviated to バイト.",
@@ -3554,17 +3636,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "アルコールは{控|ひか}えています。",
         "english": "I'm cutting back on alcohol.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "アルコール{消毒|しょうどく}してください。",
         "english": "Please disinfect with alcohol.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "この{飲|の}み{物|もの}にはアルコールが{入|はい}っていますか。",
         "english": "Does this drink contain alcohol?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "アルコール is a loanword from Dutch \"alcohol.\"\n\nUSAGES:\n- アルコール{飲料|いんりょう}: alcoholic beverage\n- アルコール{消毒|しょうどく}: alcohol disinfection\n- ノンアルコール: non-alcoholic\n\nRELATED TERMS:\n- お{酒|さけ}: sake, alcohol (general)\n- ビール: beer\n- ワイン: wine\n- {焼酎|しょうちゅう}: shochu",
@@ -3596,17 +3681,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{学校|がっこう}まで{歩|ある}いて{行|い}きます。",
         "english": "I walk to school.",
-        "notes": "歩いて = on foot, by walking"
+        "notes": "歩いて = on foot, by walking",
+        "has_audio": true
       },
       {
         "japanese": "{公園|こうえん}を{歩|ある}きましょう。",
         "english": "Let's walk in the park.",
-        "notes": "Volitional form for suggestion"
+        "notes": "Volitional form for suggestion",
+        "has_audio": true
       },
       {
         "japanese": "ここから{駅|えき}まで{歩|ある}いて15{分|ふん}かかります。",
         "english": "It takes 15 minutes to walk from here to the station.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair. Pattern: Xを{歩|ある}く (walk through/along X) or Xまで{歩|ある}く (walk to X).\n\nASPECT: ている indicates ongoing action. {歩|ある}いている = 'is walking.'\n\nCOMMON PATTERNS:\n・{道|みち}を{歩|ある}く (walk along the road)\n・{公園|こうえん}を{歩|ある}く (walk in the park)\n・{歩|ある}いて{行|い}く (go on foot)\n・{歩|ある}いて{来|く}る (come on foot)\n・{歩|ある}いて〜{分|ふん} (~ minutes on foot)\n\nNote: Uses を for the path/place walked through, not に.",
@@ -3647,12 +3735,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{朝|あさ}{起|お}きる。",
         "english": "To wake up in the morning.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{朝|あさ}ご{飯|はん}を{食|た}べる。",
         "english": "To eat breakfast.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{朝|あさ} means morning.\n\nTIMES OF DAY:\n- {朝|あさ}: morning\n- {昼|ひる}: noon/day\n- {夕方|ゆうがた}: evening\n- {夜|よる}: night\n\nCOMPOUNDS:\n- {朝食|ちょうしょく}: breakfast\n- {毎朝|まいあさ}: every morning\n- {今朝|けさ}: this morning\n- {朝日|あさひ}: morning sun",
@@ -3694,17 +3784,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "この{川|かわ}は{浅|あさ}いから、{歩|ある}いて{渡|わた}れます。",
         "english": "This river is shallow, so you can walk across it.",
-        "notes": "Physical depth"
+        "notes": "Physical depth",
+        "has_audio": true
       },
       {
         "japanese": "{知識|ちしき}が{浅|あさ}い。",
         "english": "My knowledge is shallow/limited.",
-        "notes": "Figurative usage"
+        "notes": "Figurative usage",
+        "has_audio": true
       },
       {
         "japanese": "{眠|ねむ}りが{浅|あさ}くて、すぐに{目|め}が{覚|さ}めてしまう。",
         "english": "My sleep is light, so I wake up easily.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{浅|あさ}い is an i-adjective meaning 'shallow' or 'superficial.'\n\nForms:\n- Adverbial: {浅|あさ}く\n- Noun form: {浅|あさ}さ\n\nConjugation:\n- Negative: {浅|あさ}くない\n- Te-form: {浅|あさ}くて\n- Past: {浅|あさ}かった\n\nAntonym: {深|ふか}い (deep).\n\nCommon collocations: {浅|あさ}い{川|かわ} (shallow river), {浅|あさ}い{眠|ねむ}り (light sleep), {経験|けいけん}が{浅|あさ}い (inexperienced).",
@@ -3753,17 +3846,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "あさって{会|あ}いましょう。",
         "english": "Let's meet the day after tomorrow.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "あさっては{何曜日|なんようび}ですか。",
         "english": "What day of the week is the day after tomorrow?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{試験|しけん}はあさってです。",
         "english": "The exam is the day after tomorrow.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "Usually written in hiragana. Can also be written as 明後日 in kanji. Often used with particles like に (on) or は (topic marker).",
@@ -3795,12 +3891,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{汗|あせ}をかく。",
         "english": "To sweat.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{汗|あせ}を{拭|ふ}く。",
         "english": "To wipe off sweat.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{汗|あせ} refers to sweat.\n\nEXPRESSIONS:\n- {汗|あせ}をかく: to sweat\n- {冷|ひ}や{汗|あせ}: cold sweat\n- {汗水|あせみず}{垂|た}らす: to work hard (lit. dripping with sweat)\n\nCOMPOUNDS:\n- {発汗|はっかん}: perspiration\n- {汗腺|かんせん}: sweat gland",
@@ -3837,17 +3935,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{足|あし}が{痛|いた}いです。",
         "english": "My foot/leg hurts.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{足|あし}が{速|はや}いですね。",
         "english": "You're fast (on your feet).",
-        "notes": "足が速い = fast runner"
+        "notes": "足が速い = fast runner",
+        "has_audio": true
       },
       {
         "japanese": "{足|あし}を{組|く}まないでください。",
         "english": "Please don't cross your legs.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "In Japanese, {足|あし} covers both 'foot' and 'leg'.\n\nCommon expressions:\n- {足|あし}が{速|はや}い (fast)\n- {足|あし}が{遅|おそ}い (slow).\n\nRelated: {手|て} (hand/arm).",
@@ -3888,17 +3989,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{足首|あしくび}を{捻|ひね}ってしまいました。",
         "english": "I twisted my ankle.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{足首|あしくび}が{腫|は}れています。",
         "english": "My ankle is swollen.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{足首|あしくび}を{回|まわ}す{運動|うんどう}をしましょう。",
         "english": "Let's do exercises rotating our ankles.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{足首|あしくび} literally means 'foot-neck,' following the same pattern as {手首|てくび} (wrist, 'hand-neck'). Ankle injuries ({足首|あしくび}の{怪我|けが}) are common in sports. The word {くるぶし} is also used for the ankle bone specifically.",
@@ -3930,17 +4034,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{明日|あした}、{会|あ}いましょう。",
         "english": "Let's meet tomorrow.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{明日|あした}は{休|やす}みです。",
         "english": "Tomorrow is a day off.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{明日|あした}の{天気|てんき}はどうですか。",
         "english": "How's the weather tomorrow?",
-        "notes": "{明日|あした}の = tomorrow's"
+        "notes": "{明日|あした}の = tomorrow's",
+        "has_audio": true
       }
     ],
     "notes": "{明日|あした} can be read as あした (common/casual), あす (slightly more formal), or みょうにち (formal/written). あした is by far the most common in everyday speech. Like {今日|きょう} and {昨日|きのう}, it typically doesn't take the particle に.",
@@ -3982,17 +4089,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{子供|こども}たちが{遊|あそ}びに{夢中|むちゅう}だ。",
         "english": "The children are absorbed in play.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{遊|あそ}びに{来|き}てください。",
         "english": "Please come over to hang out.",
-        "notes": "Common invitation"
+        "notes": "Common invitation",
+        "has_audio": true
       },
       {
         "japanese": "{仕事|しごと}と{遊|あそ}びのバランス",
         "english": "Work-life balance (balance between work and play)",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{遊|あそ}び is a noun derived from the verb {遊|あそ}ぶ (to play).\n\nCommon expressions:\n- {遊|あそ}びに{行|い}く: to go out (for fun), to visit someone casually\n- {遊|あそ}びに{来|く}る: to come over (casually)\n- {遊|あそ}び{相手|あいて}: playmate\n- {遊|あそ}び{場|ば}: playground\n\nNote: {遊|あそ}びに{行|い}く and {遊|あそ}びに{来|く}る are very common casual expressions for visiting friends or going out, not just 'playing.'",
@@ -4038,17 +4148,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{子供|こども}たちは{公園|こうえん}で{遊|あそ}んでいます。",
         "english": "The children are playing in the park.",
-        "notes": "Sense 1: children playing"
+        "notes": "Sense 1: children playing",
+        "has_audio": true
       },
       {
         "japanese": "{週末|しゅうまつ}、{友達|ともだち}と{遊|あそ}びました。",
         "english": "I hung out with friends on the weekend.",
-        "notes": "Sense 2: spending time together"
+        "notes": "Sense 2: spending time together",
+        "has_audio": true
       },
       {
         "japanese": "{遊|あそ}びに{来|き}てください。",
         "english": "Please come visit (to hang out).",
-        "notes": "遊びに行く/来る = to go/come to hang out"
+        "notes": "遊びに行く/来る = to go/come to hang out",
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair. Pattern: Xで{遊|あそ}ぶ (play at X) or Xと{遊|あそ}ぶ (play with X).\n\nASPECT: ている indicates ongoing action. {遊|あそ}んでいる = 'is playing/hanging out.'\n\nCOMMON PATTERNS:\n・{友達|ともだち}と{遊|あそ}ぶ (hang out with friends)\n・{公園|こうえん}で{遊|あそ}ぶ (play in the park)\n・{遊|あそ}びに{行|い}く (go to hang out/visit)\n・{遊|あそ}びに{来|く}る (come to visit/hang out)\n\nThe {遊|あそ}びに pattern is extremely common for casual social visits.",
@@ -4080,17 +4193,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "あそこに{見|み}える{建物|たてもの}は{何|なん}ですか。",
         "english": "What is that building you can see over there?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{銀行|ぎんこう}はあそこにあります。",
         "english": "The bank is over there.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "あそこで{食|た}べましょう。",
         "english": "Let's eat over there.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "あそこ refers to a place far from both speaker and listener, completing the place demonstrative series: ここ (here), そこ (there), あそこ (over there), どこ (where). Note that while other 'a' demonstratives start with あ alone, あそこ has an extra そ. A more formal equivalent is あちら.",
@@ -4122,17 +4238,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{子供|こども}に{教育|きょういく}を{与|あた}える。",
         "english": "To give children an education.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{影響|えいきょう}を{与|あた}えました。",
         "english": "It had an influence. / It gave an influence.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "チャンスを{与|あた}えてください。",
         "english": "Please give me a chance.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{与|あた}える means to give or grant.\n\nUSAGE:\n- More formal than あげる or やる\n- Often implies giver has authority/superiority\n- Common in written/formal contexts\n\nCOMMON COLLOCATIONS:\n- {影響|えいきょう}を{与|あた}える: to give influence\n- {印象|いんしょう}を{与|あた}える: to give an impression\n- {機会|きかい}を{与|あた}える: to give an opportunity\n- {許可|きょか}を{与|あた}える: to grant permission\n\nNote: Ichidan verb (る-verb).",
@@ -4169,17 +4288,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{頭|あたま}が{痛|いた}いです。",
         "english": "I have a headache.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{頭|あたま}がいい{人|ひと}です。",
         "english": "They are a smart person.",
-        "notes": "Sense 2: 頭がいい = smart"
+        "notes": "Sense 2: 頭がいい = smart",
+        "has_audio": true
       },
       {
         "japanese": "{頭|あたま}を{洗|あら}います。",
         "english": "I wash my head/hair.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "Common expressions:\n- {頭|あたま}が{痛|いた}い (headache)\n- {頭|あたま}がいい (smart)\n- {頭|あたま}が{悪|わる}い (not smart). Related body parts: {顔|かお} (face), {髪|かみ} (hair).",
@@ -4225,17 +4347,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{新|あたら}しい{車|くるま}を{買|か}いました。",
         "english": "I bought a new car.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "これは{新|あたら}しいですか、{古|ふる}いですか。",
         "english": "Is this new or old?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{新|あたら}しい{生活|せいかつ}を{始|はじ}めます。",
         "english": "I'm starting a new life.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{新|あたら}しい is an i-adjective. Conjugation: {新|あたら}しくない (not new), {新|あたら}しかった (was new), {新|あたら}しくて (new and...). In compound words, {新|しん} is often read しん: {新年|しんねん} (new year), {新聞|しんぶん} (newspaper).",
@@ -4272,17 +4397,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "この{辺|あた}りに{銀行|ぎんこう}はありますか。",
         "english": "Is there a bank around here?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{駅|えき}の{辺|あた}りで{待|ま}っています。",
         "english": "I'll be waiting near the station.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "3{時|じ}{辺|あた}りに{来|く}ると{思|おも}う。",
         "english": "I think they'll come around 3 o'clock.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{辺|あた}り indicates vicinity or approximation.\n\nCOMMON PATTERNS:\n- この{辺|あた}り (around here)\n- 〜の{辺|あた}り (around ~, near ~)\n- 〜{辺|あた}り (approximately ~)\n\nWRITING NOTE:\n- Often written in hiragana: あたり\n- Can also be written as {辺|あた}り or {周|あた}り\n\nSIMILAR WORDS:\n- {近|ちか}く: nearby (more specific)\n- {辺|あた}り: vicinity, around (vaguer)",
@@ -4324,17 +4452,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{宝|たから}くじで{当|あ}たりが{出|で}た。",
         "english": "I got a winning lottery ticket.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{当|あ}たり！",
         "english": "Correct! / You got it!",
-        "notes": "Common exclamation"
+        "notes": "Common exclamation",
+        "has_audio": true
       },
       {
         "japanese": "{今日|きょう}は{当|あ}たりの{日|ひ}だ。",
         "english": "Today is a lucky day.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{当|あ}たり is the noun form of {当|あ}たる (to hit).\n\nCOMMON PATTERNS:\n- {当|あ}たりが{出|で}る (to win)\n- {大|おお}{当|あ}たり (big hit, jackpot)\n- {当|あ}たり{外|はず}れ (hit or miss)\n\nOPPOSITE:\n- {外|はず}れ: miss, losing\n\nNOTE:\n- Different from {辺|あた}り (vicinity) - same reading, different kanji",
@@ -4371,17 +4502,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "それは{当|あ}たり{前|まえ}のことです。",
         "english": "That's only natural.",
-        "notes": "Common expression"
+        "notes": "Common expression",
+        "has_audio": true
       },
       {
         "japanese": "{当|あ}たり{前|まえ}だと{思|おも}っていました。",
         "english": "I thought it was obvious.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{当|あ}たり{前|まえ}のことを{当|あ}たり{前|まえ}にやる。",
         "english": "Do ordinary things ordinarily.",
-        "notes": "Common saying"
+        "notes": "Common saying",
+        "has_audio": true
       }
     ],
     "notes": "{当|あ}たり{前|まえ} indicates something is natural or expected.\n\nFORMS:\n- Na-adjective: {当|あ}たり{前|まえ}の/な + noun\n- Noun: {当|あ}たり{前|まえ}だ (is natural/obvious)\n\nCOMMON PATTERNS:\n- {当|あ}たり{前|まえ}のことだ (it's only natural)\n- {当|あ}たり{前|まえ}に (naturally, as a matter of course)\n- {当|あ}たり{前|まえ}と{思|おも}う (take for granted)\n\nSIMILAR WORDS:\n- {当然|とうぜん}: natural, obvious (formal)\n- {当|あ}たり{前|まえ}: natural, obvious (casual)\n- もちろん: of course (affirmation)",
@@ -4418,17 +4552,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "ボールが{頭|あたま}に{当|あ}たった。",
         "english": "The ball hit my head.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{宝|たから}くじが{当|あ}たった！",
         "english": "I won the lottery!",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{予想|よそう}が{当|あ}たった。",
         "english": "My prediction was correct.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{当|あ}たる has multiple meanings.\n\nKEY USES:\n1. TO HIT: 〜に{当|あ}たる (to hit against ~)\n2. TO WIN: くじに{当|あ}たる (to win lottery)\n3. TO BE CORRECT: {予想|よそう}が{当|あ}たる\n4. TO APPLY TO: 〜に{当|あ}たる (to correspond to)\n\nRELATED:\n- {当|あ}てる (v.t.): to hit (something)\n- {当|あ}たり: hit, success\n- {当|あ}たり{前|まえ}: natural, obvious",
@@ -4465,17 +4602,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{今日|きょう}は{暖|あたた}かいですね。",
         "english": "It's warm today, isn't it?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{春|はる}は{暖|あたた}かくなります。",
         "english": "It gets warm in spring.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{暖|あたた}かい{家族|かぞく}です。",
         "english": "They are a warm family.",
-        "notes": "Warm personality"
+        "notes": "Warm personality",
+        "has_audio": true
       }
     ],
     "notes": "暖かい (with 暖, meaning 'warmth') is used for weather and climate. 温かい (with 温, meaning 'temperature') is used for warm objects, food, or figuratively for warm personalities. Both are read あたたかい. Also commonly shortened to あったかい in casual speech.",
@@ -4507,12 +4647,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "お{風呂|ふろ}で{温|あたた}まる。",
         "english": "To warm up in the bath.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{体|からだ}が{温|あたた}まった。",
         "english": "My body warmed up.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{温|あたた}まる is intransitive.\n\nTRANSITIVITY:\n- {温|あたた}まる (intransitive): to become warm\n- {温|あたた}める (transitive): to warm something\n\nSIMILAR:\n- {暖|あたた}まる: to get warm (room temperature)",
@@ -4544,17 +4686,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{部屋|へや}が{暖|あたた}まってきた。",
         "english": "The room has warmed up.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "お{風呂|ふろ}に{入|はい}って{体|からだ}を{暖|あたた}まろう。",
         "english": "Let's take a bath and warm up.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{心|こころ}が{暖|あたた}まる{話|はなし}。",
         "english": "A heartwarming story.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{暖|あたた}まる is the intransitive form meaning to warm up.\n\nTRANSITIVE PAIR:\n- {暖|あたた}まる (v.i.): to warm up\n- {暖|あたた}める (v.t.): to warm (something)\n\nKANJI VARIATION:\n- {暖|あたた}まる: warm (temperature/room)\n- {温|あたた}まる: warm (body/emotional)\n\nNote: Godan verb (五段動詞).",
@@ -4586,17 +4731,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{牛乳|ぎゅうにゅう}を{暖|あたた}めてください。",
         "english": "Please warm up the milk.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{電子|でんし}レンジで{暖|あたた}めます。",
         "english": "I'll warm it in the microwave.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{手|て}を{暖|あたた}める。",
         "english": "To warm one's hands.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{暖|あたた}める is the transitive form meaning to warm something.\n\nTRANSITIVE PAIR:\n- {暖|あたた}める (v.t.): to warm (something)\n- {暖|あたた}まる (v.i.): to warm up\n\nKANJI VARIATION:\n- {暖|あたた}める: warm (room/air)\n- {温|あたた}める: warm (food/body)\n\nNote: Ichidan verb (一段動詞/る-verb).",
@@ -4628,12 +4776,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "スープを{温|あたた}める。",
         "english": "To heat up the soup.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{手|て}を{温|あたた}めた。",
         "english": "I warmed my hands.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{温|あたた}める is transitive.\n\nTRANSITIVITY:\n- {温|あたた}める (transitive): to warm something\n- {温|あたた}まる (intransitive): to become warm\n\nSIMILAR:\n- {暖|あたた}める: to warm (room/air)",
@@ -4670,17 +4820,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{的|まと}に{当|あ}てる。",
         "english": "To hit the target.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{答|こた}えを{当|あ}ててください。",
         "english": "Please guess the answer.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{光|ひかり}を{当|あ}てる。",
         "english": "To shine light on.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{当|あ}てる is the transitive form.\n\nTRANSITIVE PAIR:\n- {当|あ}てる (v.t.): to hit (something)\n- {当|あ}たる (v.i.): to hit, to be hit\n\nCOMMON USES:\n- {的|まと}に{当|あ}てる: to hit target\n- {光|ひかり}を{当|あ}てる: to shine light on\n- {名前|なまえ}を{当|あ}てる: to guess the name",
@@ -4717,12 +4870,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{手紙|てがみ}を{田中|たなか}さん{宛|あ}てに{送|おく}る。",
         "english": "To send a letter addressed to Mr. Tanaka.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{時間|じかん}を{勉強|べんきょう}に{宛|あ}てる。",
         "english": "To allocate time for studying.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{宛|あ}てる has the nuance of directing/addressing.\n\nCOMMON PATTERNS:\n- ～{宛|あ}てに: addressed to ~\n- {時間|じかん}を～に{宛|あ}てる: to allocate time to ~",
@@ -4759,12 +4914,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{足跡|あしあと}が{残|のこ}っている。",
         "english": "Footprints remain.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{傷|きず}の{跡|あと}がある。",
         "english": "There's a scar.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{跡|あと} refers to traces and remains.\n\nCOMPOUNDS:\n- {足跡|あしあと}: footprint\n- {傷跡|きずあと}: scar\n- {遺跡|いせき}: ruins, remains\n- {跡継|あとつ}ぎ: successor, heir\n\nNOTE:\nDifferent from {後|あと} (after, behind) which is a different word.",
@@ -4801,17 +4958,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{食|た}べた{後|あと}で{散歩|さんぽ}しましょう。",
         "english": "Let's take a walk after eating.",
-        "notes": "Past tense verb + 後で"
+        "notes": "Past tense verb + 後で",
+        "has_audio": true
       },
       {
         "japanese": "{後|あと}で{電話|でんわ}します。",
         "english": "I'll call you later.",
-        "notes": "Using 'later' meaning"
+        "notes": "Using 'later' meaning",
+        "has_audio": true
       },
       {
         "japanese": "{仕事|しごと}の{後|あと}で{飲|の}みに{行|い}きませんか。",
         "english": "Won't you go drinking after work?",
-        "notes": "Noun + の後で"
+        "notes": "Noun + の後で",
+        "has_audio": true
       }
     ],
     "notes": "{後|あと}で is used to indicate 'after' in time. With verbs, use [verb past tense] + {後|あと}で. With nouns, use [noun] + の{後|あと}で. By itself, {後|あと}で means 'later.' The opposite is {前|まえ}に (before). Compare with {後|うしろ} which means 'behind' in location.",
@@ -4843,17 +5003,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "この{本|ほん}は{厚|あつ}いですね。",
         "english": "This book is thick, isn't it?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{厚|あつ}い{肉|にく}を{焼|や}きます。",
         "english": "I'm grilling thick meat.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{壁|かべ}が{厚|あつ}いので{音|おと}が{聞|き}こえません。",
         "english": "The walls are thick so I can't hear any sound.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "Be careful not to confuse with the other あつい words: {暑|あつ}い (hot weather), {熱|あつ}い (hot to touch). The kanji {厚|あつ}い specifically means 'thick.' The opposite is {薄|うす}い (thin).",
@@ -4885,17 +5048,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{今日|きょう}は{暑|あつ}いですね。",
         "english": "It's hot today, isn't it?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{夏|なつ}は{暑|あつ}いです。",
         "english": "Summer is hot.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{暑|あつ}くて{眠|ねむ}れません。",
         "english": "It's so hot I can't sleep.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "暑い (with the 'sun' radical 日) describes hot weather. Don't confuse with 熱い (with the 'fire' radical 灬) which describes hot objects or food. Both are pronounced あつい. Conjugation: 暑くない (negative), 暑かった (past).",
@@ -4927,17 +5093,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "この{機械|きかい}は{丁寧|ていねい}に{扱|あつか}ってください。",
         "english": "Please handle this machine carefully.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{彼|かれ}を{子供|こども}{扱|あつか}いしないで。",
         "english": "Don't treat him like a child.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "この{店|みせ}は{輸入品|ゆにゅうひん}を{扱|あつか}っています。",
         "english": "This store deals in imported goods.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{扱|あつか}う means to handle or treat.\n\nCOMMON PATTERNS:\n- 〜を{扱|あつか}う: to handle ~\n- 〜{扱|あつか}いする: to treat as ~\n- {取|と}り{扱|あつか}う: to deal with, handle\n\nRELATED TERMS:\n- {取|と}り{扱|あつか}い: handling, treatment\n- {扱|あつか}い{方|かた}: way of handling",
@@ -4974,17 +5143,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{今日|きょう}は{友達|ともだち}の{集|あつ}まりがあります。",
         "english": "There's a gathering with friends today.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{良|よ}い{人|ひと}の{集|あつ}まりです。",
         "english": "It's a group of good people.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{集|あつ}まりが{悪|わる}いですね。",
         "english": "The turnout is poor.",
-        "notes": "Common expression"
+        "notes": "Common expression",
+        "has_audio": true
       }
     ],
     "notes": "{集|あつ}まり is the noun form of {集|あつ}まる (to gather).\n\nCOMMON PATTERNS:\n- {人|ひと}の{集|あつ}まり (a gathering of people)\n- {集|あつ}まりが{良|よ}い/{悪|わる}い (good/poor turnout)\n- {集|あつ}まりに{参加|さんか}する (participate in a gathering)\n\nRELATED WORDS:\n- {集|あつ}まる: to gather (intransitive verb)\n- {集|あつ}める: to collect (transitive verb)\n\nSIMILAR WORDS:\n- {会合|かいごう}: meeting (formal)\n- {集|あつ}まり: gathering (casual)\n- {集会|しゅうかい}: assembly, rally",
@@ -5021,17 +5193,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{公園|こうえん}に{人|ひと}が{集|あつ}まっています。",
         "english": "People are gathered in the park.",
-        "notes": "Use に for the location where gathering occurs"
+        "notes": "Use に for the location where gathering occurs",
+        "has_audio": true
       },
       {
         "japanese": "{来週|らいしゅう}、{友達|ともだち}が{家|いえ}に{集|あつ}まります。",
         "english": "My friends will gather at my house next week.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{募金|ぼきん}がたくさん{集|あつ}まりました。",
         "english": "A lot of donations were collected.",
-        "notes": "Subject (donations) gathers—intransitive usage"
+        "notes": "Subject (donations) gathers—intransitive usage",
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {集|あつ}める (transitive, to collect/gather something). Pattern: Xが{集|あつ}まる (X gathers).\n\nASPECT: ている indicates resulting state. {集|あつ}まっている = 'are gathered' (state), not 'are in the process of gathering.'\n\nCOMMON PATTERNS:\n・{人|ひと}が{集|あつ}まる (people gather)\n・{お金|おかね}が{集|あつ}まる (money is collected)\n・{情報|じょうほう}が{集|あつ}まる (information is gathered)\n・{一|ひと}か{所|しょ}に{集|あつ}まる (gather in one place)\n\nWHEN NOT USED: Don't use for forcibly bringing things together—use {集|あつ}める instead. {集|あつ}まる implies voluntary or natural coming together.",
@@ -5085,17 +5260,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{切手|きって}を{集|あつ}めています。",
         "english": "I collect stamps.",
-        "notes": "を marks the direct object being collected"
+        "notes": "を marks the direct object being collected",
+        "has_audio": true
       },
       {
         "japanese": "{先生|せんせい}は{生徒|せいと}を{教室|きょうしつ}に{集|あつ}めました。",
         "english": "The teacher gathered the students in the classroom.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "この{映画|えいが}は{世界中|せかいじゅう}の{注目|ちゅうもく}を{集|あつ}めている。",
         "english": "This movie is attracting attention from around the world.",
-        "notes": "{注目|ちゅうもく}を{集|あつ}める is a common collocation"
+        "notes": "{注目|ちゅうもく}を{集|あつ}める is a common collocation",
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {集|あつ}まる (intransitive, to gather). Pattern: Xを{集|あつ}める (collect X).\n\nASPECT: ている can indicate ongoing action or resulting state. {集|あつ}めている = 'is collecting' (ongoing) or 'has collected' (resulting state with accumulated items).\n\nCOMMON PATTERNS:\n・{切手|きって}を{集|あつ}める (collect stamps)\n・{情報|じょうほう}を{集|あつ}める (gather information)\n・{注目|ちゅうもく}を{集|あつ}める (attract attention)\n・{人気|にんき}を{集|あつ}める (gain popularity)\n・{資料|しりょう}を{集|あつ}める (collect materials/documents)\n\nREGISTER: Neutral. Used in both casual and formal contexts.",
@@ -5144,17 +5322,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{友達|ともだち}に{会|あ}いました。",
         "english": "I met my friend.",
-        "notes": "Use に for the person you meet"
+        "notes": "Use に for the person you meet",
+        "has_audio": true
       },
       {
         "japanese": "{明日|あした}{会|あ}いましょう。",
         "english": "Let's meet tomorrow.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{久|ひさ}しぶりに{会|あ}えてうれしいです。",
         "english": "I'm happy to see you after such a long time.",
-        "notes": "Potential form {会|あ}える"
+        "notes": "Potential form {会|あ}える",
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair. Pattern: Xに{会|あ}う (meet X).\n\nASPECT: ている indicates ongoing or habitual action. {会|あ}っている = 'is meeting' or 'have been meeting (regularly).'\n\nCOMMON PATTERNS:\n・{友達|ともだち}に{会|あ}う (meet a friend)\n・{久|ひさ}しぶりに{会|あ}う (meet after a long time)\n・{初|はじ}めて{会|あ}う (meet for the first time)\n・{会|あ}いたい (want to meet/see someone)\n\nIMPORTANT: Takes に, not を. Don't confuse with {合|あ}う (to match/fit) which uses different kanji.",
@@ -5191,12 +5372,14 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{石鹸|せっけん}の{泡|あわ}を{立|た}てる。",
         "english": "To work up soap lather.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "ビールの{泡|あわ}が{消|き}えた。",
         "english": "The beer foam disappeared.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{泡|あわ} refers to bubbles and foam.\n\nEXPRESSIONS:\n- {泡|あわ}を{食|く}う: to be flustered\n- {泡|あわ}と{消|き}える: to vanish like bubbles\n- {水|みず}の{泡|あわ}: come to nothing\n\nCOMPOUNDS:\n- {泡立|あわだ}てる: to whip, to foam\n- {泡風呂|あわぶろ}: bubble bath",
@@ -5238,17 +5421,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{哀|あわ}れな{姿|すがた}だった。",
         "english": "It was a pitiful sight.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{彼|かれ}の{哀|あわ}れを{誘|さそ}う{話|はなし}だ。",
         "english": "It's a story that evokes pity.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{哀|あわ}れに{思|おも}う。",
         "english": "To feel pity for.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{哀|あわ}れ expresses pity, pathos, or a touching sadness.\n\nFORMS:\n- Na-adjective: {哀|あわ}れな (pitiful)\n- Noun: {哀|あわ}れ (pity, pathos)\n\nCOMMON PATTERNS:\n- {哀|あわ}れに{思|おも}う (to feel pity)\n- {哀|あわ}れを{誘|さそ}う (to evoke pity)\n- {哀|あわ}れを{催|もよお}す (to feel compassion)\n\nCULTURAL NOTE:\n- もののあわれ ({物|もの}の{哀|あわ}れ): a key concept in Japanese aesthetics meaning \"the pathos of things\" - sensitivity to the ephemeral nature of beauty",
@@ -5285,17 +5471,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{時計|とけい}を{合|あ}わせる。",
         "english": "To set the clock.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{力|ちから}を{合|あ}わせる。",
         "english": "To combine efforts.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{予定|よてい}を{合|あ}わせましょう。",
         "english": "Let's coordinate our schedules.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{合|あ}わせる means to combine or match.\n\nCOMMON PATTERNS:\n- {時計|とけい}を{合|あ}わせる: to set a clock\n- {力|ちから}を{合|あ}わせる: to join forces\n- {目|め}を{合|あ}わせる: to make eye contact\n\nINTRANSITIVE: {合|あ}う (to match, fit)",
@@ -5327,17 +5516,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{慌|あわ}てないでください。",
         "english": "Please don't panic.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{時間|じかん}がなくて{慌|あわ}てた。",
         "english": "I panicked because there was no time.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{慌|あわ}てて{家|いえ}を{出|で}た。",
         "english": "I left home in a hurry.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{慌|あわ}てる means to panic or be flustered.\n\nCOMMON EXPRESSIONS:\n- {慌|あわ}てて: in a hurry, hastily\n- {慌|あわ}てないで: don't panic\n- {慌|あわ}て{者|もの}: hasty person\n\nRELATED:\n- 焦る (あせる): to be impatient\n- {急|いそ}ぐ: to hurry",
@@ -5369,17 +5561,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{計算|けいさん}に{誤|あやま}りがあった。",
         "english": "There was an error in the calculation.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{誤|あやま}りを{認|みと}める。",
         "english": "To admit one's mistake.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{誤|あやま}りを{正|ただ}す。",
         "english": "To correct an error.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{誤|あやま}り is the noun form from the verb {誤|あやま}る.\n\nCOMMON PATTERNS:\n- {誤|あやま}りがある (there is an error)\n- {誤|あやま}りを{犯|おか}す (to make an error)\n- {誤|あやま}りを{認|みと}める (to admit a mistake)\n- {誤|あやま}りを{正|ただ}す (to correct an error)\n\nSIMILAR WORDS:\n- {間違|まちが}い: mistake (common, everyday)\n- {誤|あやま}り: error (slightly formal)\n- ミス: mistake (loanword, casual)",
@@ -5411,17 +5606,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{彼|かれ}に{謝|あやま}りました。",
         "english": "I apologized to him.",
-        "notes": "Use に for the person you apologize to"
+        "notes": "Use に for the person you apologize to",
+        "has_audio": true
       },
       {
         "japanese": "{遅|おく}れてすみません。{謝|あやま}ります。",
         "english": "Sorry for being late. I apologize.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{間違|まちが}いがあったら、すぐに{謝|あやま}ったほうがいい。",
         "english": "If you make a mistake, it's better to apologize right away.",
-        "notes": "{謝|あやま}ったほうがいい = should apologize"
+        "notes": "{謝|あやま}ったほうがいい = should apologize",
+        "has_audio": true
       }
     ],
     "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair. Pattern: Xに{謝|あやま}る (apologize to X).\n\nASPECT: ている indicates resulting state or repeated action. {謝|あやま}っている = 'has apologized' (resulting state) or 'keeps apologizing.'\n\nCOMMON PATTERNS:\n・{人|ひと}に{謝|あやま}る (apologize to someone)\n・{心|こころ}から{謝|あやま}る (apologize sincerely)\n・{素直|すなお}に{謝|あやま}る (apologize honestly/obediently)\n・{間違|まちが}いを{謝|あやま}る (apologize for a mistake)\n\nHOMOPHONE: Don't confuse with {誤|あやま}る (to make an error), which uses different kanji. {謝|あやま}る = apologize, {誤|あやま}る = err.\n\nREGISTER: Neutral. In very formal situations, お{詫|わ}びする is more appropriate.",
@@ -5453,17 +5651,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{荷物|にもつ}を{預|あず}かってもらえますか。",
         "english": "Could you hold my luggage for me?",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "お{子|こ}さんを{預|あず}かります。",
         "english": "I'll look after your child.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{鍵|かぎ}を{預|あず}かっています。",
         "english": "I'm keeping the key.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{預|あず}かる means to keep something for someone.\n\nPAIR VERB:\n- {預|あず}かる: to keep (for someone) [receiver]\n- {預|あず}ける: to entrust, deposit [giver]\n\nCOMMON USES:\n- {荷物|にもつ}を{預|あず}かる: to hold luggage\n- お{金|かね}を{預|あず}かる: to hold money\n- {子供|こども}を{預|あず}かる: to look after children\n\nNote: Godan verb (う-verb).",
@@ -5495,17 +5696,20 @@ const DICTIONARY_DATA = {
       {
         "japanese": "{銀行|ぎんこう}にお{金|かね}を{預|あず}けました。",
         "english": "I deposited money in the bank.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{荷物|にもつ}を{預|あず}けたい。",
         "english": "I'd like to check my luggage.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       },
       {
         "japanese": "{子供|こども}を{保育園|ほいくえん}に{預|あず}けている。",
         "english": "I leave my child at nursery school.",
-        "notes": null
+        "notes": null,
+        "has_audio": true
       }
     ],
     "notes": "{預|あず}ける means to entrust or deposit.\n\nPAIR VERB:\n- {預|あず}ける: to entrust, deposit [giver]\n- {預|あず}かる: to keep (for someone) [receiver]\n\nCOMMON USES:\n- お{金|かね}を{預|あず}ける: to deposit money\n- {荷物|にもつ}を{預|あず}ける: to check luggage\n- {子供|こども}を{預|あず}ける: to leave children (with someone)\n\nNote: Ichidan verb (る-verb).",
