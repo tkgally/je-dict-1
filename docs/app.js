@@ -976,8 +976,11 @@
         const audioId = button.dataset.audioId;
         if (!audioId) return;
 
+        console.log('[Audio] Button clicked for:', audioId);
+
         // If this button is already playing, stop it
         if (button === currentAudioButton && currentAudio && !currentAudio.paused) {
+            console.log('[Audio] Stopping current audio');
             stopCurrentAudio();
             return;
         }
@@ -991,20 +994,32 @@
 
         try {
             // Fetch the audio (returns a Blob URL)
+            console.log('[Audio] Fetching audio...');
             const audioUrl = await fetchAudio(audioId);
+            console.log('[Audio] Got URL:', audioUrl.substring(0, 50) + '...');
 
             // Create audio element and play
             const audio = new Audio(audioUrl);
             currentAudio = audio;
 
+            // Log audio element state
+            console.log('[Audio] Audio element created, readyState:', audio.readyState);
+
             // Update button state when playback starts
             audio.addEventListener('play', () => {
+                console.log('[Audio] Play event fired');
                 button.classList.remove('loading');
                 button.classList.add('playing');
             });
 
+            // Log when audio can play
+            audio.addEventListener('canplaythrough', () => {
+                console.log('[Audio] canplaythrough event - audio ready');
+            });
+
             // Reset button when playback ends
             audio.addEventListener('ended', () => {
+                console.log('[Audio] Playback ended');
                 button.classList.remove('playing');
                 if (currentAudioButton === button) {
                     currentAudioButton = null;
@@ -1012,20 +1027,27 @@
                 }
             });
 
-            // Handle errors
-            audio.addEventListener('error', () => {
+            // Handle errors with detailed info
+            audio.addEventListener('error', (e) => {
+                const error = audio.error;
+                console.error('[Audio] Error event:', {
+                    code: error ? error.code : 'unknown',
+                    message: error ? error.message : 'unknown',
+                    audioId: audioId
+                });
                 button.classList.remove('loading', 'playing');
-                console.error('Audio playback error for', audioId);
                 if (currentAudioButton === button) {
                     currentAudioButton = null;
                     currentAudio = null;
                 }
             });
 
+            console.log('[Audio] Calling play()...');
             await audio.play();
+            console.log('[Audio] play() returned successfully');
 
         } catch (error) {
-            console.error('Failed to play audio:', error);
+            console.error('[Audio] Failed to play:', error.name, error.message);
             button.classList.remove('loading');
             currentAudioButton = null;
         }
