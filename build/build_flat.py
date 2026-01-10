@@ -338,10 +338,11 @@ def generate_entry_html(entry: dict, entries_dict: dict, relative_path: str = '.
             audio_html = ''
             if has_audio:
                 audio_id = f"{entry_id}-ex{idx + 1}"
+                prefix = get_audio_prefix(entry_id)
                 audio_html = f'''
                     <div class="audio-controls">
                         <audio controls preload="none">
-                            <source src="{relative_path}audio/{folder}/{audio_id}.mp3" type="audio/mpeg">
+                            <source src="{relative_path}audio/{folder}/{prefix}/{audio_id}.mp3" type="audio/mpeg">
                         </audio>
                     </div>
                 '''
@@ -1846,8 +1847,21 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
     return recent
 
 
+def get_audio_prefix(entry_id: str) -> str:
+    """
+    Get the 2-character prefix for audio file organization.
+
+    This creates a subdirectory structure to avoid GitHub's 1,000 file limit.
+    Example: 'ittai_00493' -> 'it'
+    """
+    return entry_id[:2].lower()
+
+
 def copy_audio_files(project_root: Path, flat_dir: Path) -> int:
-    """Copy audio files to the flat site's audio directory."""
+    """Copy audio files to the flat site's audio directory.
+
+    Preserves the kana/prefix subfolder structure (a/ab/, a/it/, etc.).
+    """
     audio_src_dir = project_root / 'audio'
     audio_dest_dir = flat_dir / 'audio'
 
@@ -1860,12 +1874,16 @@ def copy_audio_files(project_root: Path, flat_dir: Path) -> int:
         if not kana_dir.is_dir():
             continue
 
-        dest_kana_dir = audio_dest_dir / kana_dir.name
-        dest_kana_dir.mkdir(parents=True, exist_ok=True)
+        for prefix_dir in kana_dir.iterdir():
+            if not prefix_dir.is_dir():
+                continue
 
-        for audio_file in kana_dir.glob('*.mp3'):
-            shutil.copy2(audio_file, dest_kana_dir / audio_file.name)
-            audio_count += 1
+            dest_prefix_dir = audio_dest_dir / kana_dir.name / prefix_dir.name
+            dest_prefix_dir.mkdir(parents=True, exist_ok=True)
+
+            for audio_file in prefix_dir.glob('*.mp3'):
+                shutil.copy2(audio_file, dest_prefix_dir / audio_file.name)
+                audio_count += 1
 
     return audio_count
 

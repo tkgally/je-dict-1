@@ -3,11 +3,13 @@
 Merge audio files into dictionary entries.
 
 Reads MP3 files from audio-to-add/ directory:
-- Copies them to the audio/{kana}/ directory (organized by reading)
+- Copies them to the audio/{kana}/{prefix}/ directory
+  - {kana}: kana row folder (a, ka, sa, etc.) based on reading
+  - {prefix}: first 2 characters of entry_id for scalable subdirectories
 - Updates corresponding entry files to set has_audio: true on examples
 
 Filename format: {entry_id}-ex{number}.mp3
-Example: a_00412-ex1.mp3 -> entry a_00412, example index 0
+Example: ittai_00493-ex1.mp3 -> audio/a/it/ittai_00493-ex1.mp3
 """
 
 import json
@@ -45,6 +47,16 @@ def find_entry_file(entries_dir: Path, entry_id: str) -> Path | None:
     for file_path in entries_dir.glob(f'**/{entry_id}.json'):
         return file_path
     return None
+
+
+def get_audio_prefix(entry_id: str) -> str:
+    """
+    Get the 2-character prefix for audio file organization.
+
+    This creates a subdirectory structure to avoid GitHub's 1,000 file limit.
+    Example: 'ittai_00493' -> 'it'
+    """
+    return entry_id[:2].lower()
 
 
 def merge_audio_files(project_root: Path) -> int:
@@ -106,9 +118,12 @@ def merge_audio_files(project_root: Path) -> int:
             print(f"  Warning: Could not determine folder for {entry_id} (reading: {reading})")
             continue
 
-        # Create the kana subfolder if needed
-        audio_kana_dir = audio_output_dir / kana_folder
-        audio_kana_dir.mkdir(parents=True, exist_ok=True)
+        # Get the 2-character prefix for the subdirectory
+        prefix = get_audio_prefix(entry_id)
+
+        # Create the kana/prefix subfolder structure
+        audio_prefix_dir = audio_output_dir / kana_folder / prefix
+        audio_prefix_dir.mkdir(parents=True, exist_ok=True)
 
         examples = entry.get('examples', [])
         if not examples:
@@ -122,8 +137,8 @@ def merge_audio_files(project_root: Path) -> int:
                 print(f"  Warning: Example index {example_index + 1} out of range for {entry_id} (has {len(examples)} examples)")
                 continue
 
-            # Copy audio file to the kana subfolder
-            dest_path = audio_kana_dir / audio_file.name
+            # Copy audio file to the kana/prefix subfolder
+            dest_path = audio_prefix_dir / audio_file.name
             shutil.copy2(audio_file, dest_path)
 
             # Mark example as having audio (remove any old embedded audio)

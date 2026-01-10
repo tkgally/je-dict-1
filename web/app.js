@@ -960,10 +960,19 @@
     }
 
     /**
+     * Get the 2-character prefix from an audio ID for the subdirectory.
+     * Example: 'ittai_00493-ex1' -> 'it'
+     */
+    function getAudioPrefix(audioId) {
+        return audioId.substring(0, 2).toLowerCase();
+    }
+
+    /**
      * Get the URL for an audio file
      */
     function getAudioUrl(kanaDir, audioId) {
-        return `audio/${kanaDir}/${audioId}.mp3`;
+        const prefix = getAudioPrefix(audioId);
+        return `audio/${kanaDir}/${prefix}/${audioId}.mp3`;
     }
 
     /**
