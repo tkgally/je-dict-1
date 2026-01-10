@@ -5,6 +5,8 @@ description: Requirements for creating or revising particle entries in je-dict-1
 
 # Particle Entry Requirements
 
+**Reminder:** Write each entry individually by hand. Do not use scripts to mass-produce entries. See `entry-guidelines` skill.
+
 Particles are among the most important entries for intermediate learners. They require especially thorough explanations.
 
 ## Required Sections (HIGH PRIORITY)

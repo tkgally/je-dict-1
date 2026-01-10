@@ -7,6 +7,30 @@ description: General quality standards for all je-dict-1 dictionary entries. Use
 
 When creating or revising dictionary entries for je-dict-1, follow these quality standards:
 
+## CRITICAL: Write Each Entry Individually
+
+**DO NOT use Python scripts or automation to mass-produce entries.**
+
+Each dictionary entry must be written individually by hand, using:
+- Your own linguistic knowledge
+- The guidelines in this skill and related skills (`verb-entry`, `adjective-entry`, `particle-entry`, `other-entries`, `vocabulary-notes`)
+- Careful consideration of each word's unique characteristics
+
+**Why this matters:**
+- Each word has nuances that require individual attention
+- Examples must be natural and contextually appropriate
+- Notes should address learner-specific challenges for that word
+- Mass-produced entries lack the quality and depth learners need
+
+**The correct workflow:**
+1. Select a word from `candidate_words.json` or user request
+2. Research/consider the word's usage, collocations, and common patterns
+3. Write the entry JSON directly using the Write tool
+4. Validate and build to confirm correctness
+5. Repeat for each entry
+
+**Never create scripts that generate entry content programmatically.**
+
 ## Before Creating a New Entry
 
 **IMPORTANT**: Always check if an entry already exists before creating a new one.

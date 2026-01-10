@@ -5,6 +5,8 @@ description: Requirements for creating or revising verb entries in je-dict-1. Co
 
 # Verb Entry Requirements
 
+**Reminder:** Write each entry individually by hand. Do not use scripts to mass-produce entries. See `entry-guidelines` skill.
+
 When creating or revising VERB entries, include all of the following:
 
 ## Required Sections (HIGH PRIORITY)

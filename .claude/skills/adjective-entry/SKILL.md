@@ -5,6 +5,8 @@ description: Requirements for creating or revising adjective entries in je-dict-
 
 # Adjective Entry Requirements
 
+**Reminder:** Write each entry individually by hand. Do not use scripts to mass-produce entries. See `entry-guidelines` skill.
+
 When creating or revising ADJECTIVE entries (both i-adjectives and na-adjectives), include all of the following:
 
 ## Required Sections
