@@ -435,6 +435,13 @@ header .subtitle {
     font-family: var(--font-jp);
     font-size: 1.1rem;
     margin-bottom: 0.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.example-text {
+    flex: 1;
 }
 
 .example-english {
@@ -447,6 +454,89 @@ header .subtitle {
     font-size: 0.85rem;
     font-style: italic;
     margin-top: 0.25rem;
+}
+
+/* Audio Button */
+.audio-btn {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    background-color: var(--color-surface);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+    margin-top: 0.15rem;
+}
+
+.audio-btn:hover {
+    border-color: var(--color-accent);
+    background-color: var(--color-accent-light);
+}
+
+.audio-btn:active {
+    transform: scale(0.95);
+}
+
+.audio-btn.playing {
+    border-color: var(--color-accent);
+    background-color: var(--color-accent);
+}
+
+.audio-btn.loading {
+    border-color: var(--color-accent);
+    cursor: wait;
+}
+
+/* Audio Icon */
+.audio-icon {
+    width: 12px;
+    height: 12px;
+    display: block;
+}
+
+/* Play Icon (triangle) */
+.audio-icon.play-icon {
+    width: 0;
+    height: 0;
+    border-left: 8px solid var(--color-accent);
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    margin-left: 2px;
+}
+
+.audio-btn:hover .audio-icon.play-icon {
+    border-left-color: var(--color-accent-hover);
+}
+
+/* Stop Icon (square) - shown when playing */
+.audio-btn.playing .audio-icon.play-icon {
+    width: 10px;
+    height: 10px;
+    border: none;
+    background-color: white;
+    margin-left: 0;
+}
+
+/* Loading Spinner */
+.audio-btn.loading .audio-icon.play-icon {
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--color-accent-light);
+    border-top-color: var(--color-accent);
+    border-radius: 50%;
+    margin-left: 0;
+    animation: audio-spinner 0.8s linear infinite;
+}
+
+@keyframes audio-spinner {
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* Notes */

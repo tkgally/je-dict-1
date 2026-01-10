@@ -170,6 +170,63 @@ def copy_web_files(project_root: Path, dist_dir: Path):
             shutil.copytree(item, dest, dirs_exist_ok=True)
 
 
+def extract_audio_files(entries: list[dict], dist_dir: Path) -> int:
+    """
+    Extract audio data from entries and write to separate JSON files.
+
+    For each example with an 'audio' field, writes a file to docs/audio/
+    with format: {entry_id}-ex{number}.json containing {"audio_base64": "..."}
+
+    Returns the number of audio files written.
+    """
+    audio_dir = dist_dir / 'audio'
+    audio_dir.mkdir(exist_ok=True)
+
+    audio_count = 0
+
+    for entry in entries:
+        entry_id = entry['id']
+        examples = entry.get('examples', [])
+
+        for idx, example in enumerate(examples):
+            if 'audio' in example:
+                # Write audio to separate file
+                audio_filename = f"{entry_id}-ex{idx + 1}.json"
+                audio_path = audio_dir / audio_filename
+
+                audio_data = {'audio_base64': example['audio']}
+                with open(audio_path, 'w', encoding='utf-8') as f:
+                    json.dump(audio_data, f, ensure_ascii=False)
+
+                audio_count += 1
+
+    return audio_count
+
+
+def strip_audio_from_entries(entries: list[dict]) -> list[dict]:
+    """
+    Create a copy of entries with audio data stripped from examples.
+
+    Replaces 'audio' field with 'has_audio': true to indicate audio is available.
+    This keeps data.js smaller while allowing the UI to know which examples have audio.
+    """
+    import copy
+
+    stripped = []
+    for entry in entries:
+        entry_copy = copy.deepcopy(entry)
+        examples = entry_copy.get('examples', [])
+
+        for example in examples:
+            if 'audio' in example:
+                del example['audio']
+                example['has_audio'] = True
+
+        stripped.append(entry_copy)
+
+    return stripped
+
+
 def generate_data_js(entries: list[dict], index: dict, recent: list[dict], dist_dir: Path) -> Path:
     """
     Generate a data.js file with embedded dictionary data.
@@ -213,7 +270,7 @@ def build(project_root: Path) -> int:
     print("=" * 50)
 
     # Step 1: Validate all entries
-    print("\n[1/6] Validating entries...")
+    print("\n[1/7] Validating entries...")
     total, valid, invalid_files, cross_ref_warnings = validate_all_entries(project_root)
 
     if invalid_files:
@@ -232,7 +289,7 @@ def build(project_root: Path) -> int:
     print(f"  OK: {valid} entries validated")
 
     # Step 2: Load all entries
-    print("\n[2/6] Loading entries...")
+    print("\n[2/7] Loading entries...")
     entries = []
     entries_dir = project_root / 'entries'
 
@@ -245,7 +302,7 @@ def build(project_root: Path) -> int:
     print(f"  Loaded {len(entries)} entries")
 
     # Step 3: Resolve cross-references
-    print("\n[3/6] Resolving cross-references...")
+    print("\n[3/7] Resolving cross-references...")
     entries, pending_links = resolve_cross_references(entries)
 
     # Count resolved vs pending
@@ -265,7 +322,7 @@ def build(project_root: Path) -> int:
         print("  No cross-references found")
 
     # Step 4: Build search index
-    print("\n[4/6] Building search index...")
+    print("\n[4/7] Building search index...")
     index = build_search_index(entries)
 
     jp_terms = len(index['japanese'])
@@ -274,12 +331,20 @@ def build(project_root: Path) -> int:
     print(f"  Indexed: {jp_terms} Japanese, {romaji_terms} romaji, {en_terms} English terms")
 
     # Step 5: Build recent entries list
-    print("\n[5/6] Building recent entries list...")
+    print("\n[5/7] Building recent entries list...")
     recent = build_recent_entries(entries, limit=250)
     print(f"  Found {len(recent)} recent entries")
 
-    # Step 6: Write output files
-    print("\n[6/6] Writing output files...")
+    # Step 6: Extract audio files
+    print("\n[6/7] Extracting audio files...")
+    audio_count = extract_audio_files(entries, dist_dir)
+    if audio_count > 0:
+        print(f"  Extracted {audio_count} audio files to docs/audio/")
+    else:
+        print("  No audio files to extract")
+
+    # Step 7: Write output files
+    print("\n[7/7] Writing output files...")
 
     # Ensure dist directory exists
     dist_dir.mkdir(exist_ok=True)
@@ -288,8 +353,11 @@ def build(project_root: Path) -> int:
     copy_web_files(project_root, dist_dir)
     print(f"  Copied web files to docs/")
 
+    # Strip audio from entries before writing to data.js
+    entries_for_output = strip_audio_from_entries(entries)
+
     # Generate data.js with embedded data (for offline/static use)
-    data_js_path = generate_data_js(entries, index, recent, dist_dir)
+    data_js_path = generate_data_js(entries_for_output, index, recent, dist_dir)
     print(f"  Written: {data_js_path.relative_to(project_root)}")
 
     # Summary
