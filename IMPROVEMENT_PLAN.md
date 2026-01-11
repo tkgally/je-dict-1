@@ -184,12 +184,13 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Issue**: Entries contain mixed legacy (string) and structured cross-reference formats.
 
 **Action**:
-- [ ] Identify all entries with legacy cross-references
-- [ ] Create migration script to convert to structured format
-- [ ] Run migration
-- [ ] Verify all entries use structured format
+- [x] Identified 223 entries with legacy cross-references (136 legacy-only + 87 mixed)
+- [x] Created migration script `build/migrate_cross_references.py`
+- [x] Ran migration: converted 297 legacy refs, removed 86 duplicates
+- [x] Cleaned up null values in cross-reference fields
+- [x] Verified all entries use structured format
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -198,10 +199,10 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Issue**: Schema allows deprecated legacy format via `oneOf`.
 
 **Action** (after #6 complete):
-- [ ] Update `build/schema.json` to only allow structured format
-- [ ] Run validation to confirm no regressions
+- [x] Updated `build/schema.json` to only allow structured format (removed oneOf)
+- [x] Ran validation: 2074/2074 entries valid
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -303,5 +304,11 @@ This document tracks the evaluation and implementation of 17 code improvement su
   - #15: Deleted obsolete migrate_audio.py script
   - #16: Improved requirements.txt with version bounds and comments
 
+- Phase 3 (Data Migration) completed:
+  - #6: Created migrate_cross_references.py, migrated 297 legacy refs, removed 86 duplicates
+  - #17: Updated schema to only allow structured format (removed oneOf)
+  - Cleaned up null values in cross-reference fields
+  - Validation passes: 2074/2074 entries valid
+
 **Next steps**:
-- Continue with Phase 3: Data Migration (cross-reference format migration)
+- Continue with Phase 4: Feature Improvements
