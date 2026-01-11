@@ -15,6 +15,8 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from typing import Optional
 
+from path_utils import get_entry_prefix, get_audio_prefix
+
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
 
@@ -1856,26 +1858,6 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
         })
 
     return recent
-
-
-def get_entry_prefix(entry_id: str) -> str:
-    """
-    Get the 2-character prefix for entry file organization.
-
-    This creates a subdirectory structure to avoid GitHub's 1,000 file limit.
-    Example: 'taberu_00001' -> 'ta'
-    """
-    return entry_id[:2].lower()
-
-
-def get_audio_prefix(entry_id: str) -> str:
-    """
-    Get the 2-character prefix for audio file organization.
-
-    This creates a subdirectory structure to avoid GitHub's 1,000 file limit.
-    Example: 'ittai_00493' -> 'it'
-    """
-    return entry_id[:2].lower()
 
 
 def copy_audio_files(project_root: Path, dest_dir: Path) -> int:

@@ -12,6 +12,8 @@ import re
 from pathlib import Path
 from typing import Optional
 
+from path_utils import get_entry_prefix
+
 try:
     import jsonschema
     from jsonschema import Draft7Validator
@@ -76,15 +78,6 @@ KANA_TO_DIRECTORY = {
     'ら': 'ra', 'り': 'ra', 'る': 'ra', 'れ': 'ra', 'ろ': 'ra',
     'わ': 'wa', 'を': 'wa', 'ん': 'wa',
 }
-
-
-def get_entry_prefix(entry_id: str) -> str:
-    """
-    Get the 2-character prefix for entry file organization.
-
-    Example: 'taberu_00001' -> 'ta'
-    """
-    return entry_id[:2].lower()
 
 
 def hiragana_to_romaji(reading: str) -> str:

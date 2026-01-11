@@ -20,14 +20,7 @@ import argparse
 import shutil
 from pathlib import Path
 
-
-def get_entry_prefix(entry_id: str) -> str:
-    """
-    Get the 2-character prefix for entry file organization.
-
-    Example: 'taberu_00001' -> 'ta'
-    """
-    return entry_id[:2].lower()
+from path_utils import get_entry_prefix
 
 
 def migrate_entries(project_root: Path, dry_run: bool = False) -> int:

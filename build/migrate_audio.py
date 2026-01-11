@@ -11,13 +11,7 @@ Where {prefix} is the first 2 characters of the entry_id.
 import shutil
 from pathlib import Path
 
-
-def get_audio_prefix(filename: str) -> str:
-    """
-    Get the 2-character prefix from a filename.
-    Example: 'ittai_00493-ex1.mp3' -> 'it'
-    """
-    return filename[:2].lower()
+from path_utils import get_audio_prefix
 
 
 def migrate_audio_files(project_root: Path) -> int:
