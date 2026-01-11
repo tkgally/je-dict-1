@@ -24,9 +24,12 @@
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle
 - [x] Last updated date in footer
-- [x] Cross-reference linking system with UI navigation
-- [x] Audio pronunciation for example sentences (112 audio files)
+- [x] Cross-reference linking system with UI navigation (400 refs, 95% resolved)
+- [x] Audio pronunciation for example sentences (1,028 audio files)
 - [x] Prefix-based subdirectory structure for entries and audio (scalable to 10,000+ entries)
+- [x] Shared utility modules (`path_utils.py`, `japanese_utils.py`)
+- [x] Audio integrity validation in `validate.py`
+- [x] Deterministic build output (clean before build)
 
 ### Content Status
 - **Total entries**: 2,074
@@ -34,7 +37,8 @@
 - **JLPT N4 coverage**: 392 entries added
 - **JLPT N3 vocabulary**: 50+ entries added
 - **Candidate words**: ~1,980 words tracked in `candidate_words.json`
-- **Cross-references**: 302 resolved links, 159 extractable from existing notes
+- **Cross-references**: 400 total (383 resolved, 95% resolution rate)
+- **Audio files**: 1,028 MP3 files covering example sentences
 
 ### Entry Breakdown by JLPT Level
 | Level | Count | Status |
@@ -92,12 +96,22 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Recent Changes
 
+### 2026-01-11 (Code Quality Improvements)
+- Created shared utility modules:
+  - `build/path_utils.py`: Consolidated `get_entry_prefix()` from 5 files
+  - `build/japanese_utils.py`: Hiragana/romaji conversion, kana mappings
+- Made cross-reference resolution deterministic (headword disambiguation for 132 homophone readings)
+- Added audio integrity check to `validate.py` (checks for missing/orphaned audio files)
+- Made build output deterministic (cleans all generated files before rebuild)
+- Fixed double-loading in validation (eliminated ~2074 redundant file reads)
+- Migrated all cross-references to structured format (removed legacy string format from schema)
+- Updated Python version requirement to 3.10+
+
 ### 2026-01-11 (Prefix-Based Subdirectory Reorganization)
 - Reorganized entries into prefix-based subdirectories to avoid GitHub's 1,000 file/directory limit
 - Entry structure: `entries/{kana}/{prefix}/{id}.json` (prefix = first 2 chars of entry ID)
 - HTML output: `docs/entries/{kana}/{prefix}/{id}.html`
 - Audio structure: `audio/{kana}/{prefix}/{id}-exN.mp3`
-- Created `build/migrate_entries.py` for migrating entries to new structure
 - Updated validation to check prefix directory placement
 - Simplified `build/build.py` (SPA version removed, flat HTML is now the only output)
 - All 2,074 entries migrated successfully
@@ -117,17 +131,16 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 - Web interface shows play/stop buttons for examples with audio
 - Created `build/merge_audio.py` for processing new audio files
 - Build process copies audio to `docs/audio/` preserving folder structure
-- Currently 112 audio files covering 39 entries (あ行)
+- Audio integrity validation added to `validate.py`
 
 ### 2026-01-10 (Cross-Reference Linking System)
 - Implemented structured cross-reference schema (type, reading, headword, label)
 - Added link resolution in build pipeline (`build/resolve_links.py`)
 - Added "Related Words" section to entry display in web interface
-- Created extraction script (`build/extract_references.py`) to populate from notes
 - Added validation for cross-reference format
 - Created `cross-reference-entry` skill for systematic additions
 - Reference types: pair, synonym, antonym, keigo, related, see_also, contrast
-- Supports pending links (references to entries not yet created)
+- Deterministic resolution with headword disambiguation for homophones
 
 ### 2026-01-09 (N3 Vocabulary Expansion)
 - Added 50 new N3 vocabulary entries from candidate_words.json
@@ -166,11 +179,6 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Next Steps
 
-### Immediate (Cross-Reference Migration)
-1. Run extraction script to populate cross-references from existing notes
-2. Review and apply extracted references in batches
-3. Manually add cross-references for high-priority entries (N5 verbs)
-
 ### Ongoing (Vocabulary Expansion)
 1. Continue adding vocabulary from `candidate_words.json` (see workflow below)
 2. Maintain v2 quality standards for all new entries
@@ -179,7 +187,8 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 ### Future Enhancements
 1. Add conjugation search
 2. Export to Anki format
-3. Expand audio coverage to more entries
+3. Create automated test suite for build scripts
+4. Add PWA features for offline use
 
 ## Workflow: Adding Entries from Candidates
 
@@ -276,19 +285,7 @@ audio/
 └── ...
 ```
 
-## Workflow: Adding Cross-References to Existing Entries
-
-### Automated Extraction
-```bash
-# See proposed changes
-python3 build/extract_references.py
-
-# Apply changes
-python3 build/extract_references.py --apply
-
-# Then rebuild
-python3 build/build.py
-```
+## Workflow: Adding Cross-References to Entries
 
 ### Cross-Reference Format
 ```json
@@ -317,8 +314,11 @@ python3 build/build.py
 
 ### Build Commands
 ```bash
-# Validate entries
+# Validate entries (includes schema, cross-refs, audio integrity)
 python3 build/validate.py
+
+# Validate a single entry
+python3 build/validate.py --id taberu_00001
 
 # Merge new audio files (from audio-to-add/)
 python3 build/merge_audio.py
@@ -333,10 +333,8 @@ python3 build/update_indexes.py
 python3 build/manage_candidates.py stats    # Show statistics
 python3 build/manage_candidates.py add "漢字" "かんじ" "notes"  # Add candidate
 
-# Cross-reference extraction
-python3 build/extract_references.py          # Dry run - show proposed changes
-python3 build/extract_references.py --apply  # Apply changes to entry files
-python3 build/extract_references.py --id taberu_00001  # Single entry
+# Cross-reference resolution report
+python3 build/resolve_links.py
 
 # View locally
 open docs/index.html

@@ -37,24 +37,35 @@ def main():
 
     # 1. Update entries index
     print("\n1. Updating entries_index.json...")
-    result = subprocess.run(
-        [sys.executable, 'build/update_entries_index.py'],
-        capture_output=True,
-        text=True
-    )
-    print(result.stdout)
-    if result.stderr:
-        print(result.stderr)
-    if result.returncode != 0:
-        print(f"   ERROR: update_entries_index.py failed with exit code {result.returncode}")
+    entries_index_script = Path('build/update_entries_index.py')
+    if not entries_index_script.exists():
+        print(f"   ERROR: Script not found: {entries_index_script}")
         has_errors = True
+    else:
+        result = subprocess.run(
+            [sys.executable, str(entries_index_script)],
+            capture_output=True,
+            text=True
+        )
+        print(result.stdout)
+        if result.stderr:
+            print(result.stderr)
+        if result.returncode != 0:
+            print(f"   ERROR: update_entries_index.py failed with exit code {result.returncode}")
+            has_errors = True
 
     # 2. Sync candidate words (remove any that now exist in dictionary)
     print("\n2. Syncing candidate_words.json...")
     candidates_file = Path('candidate_words.json')
-    if candidates_file.exists():
+    manage_candidates_script = Path('build/manage_candidates.py')
+    if not candidates_file.exists():
+        print("   No candidate_words.json found, skipping sync.")
+    elif not manage_candidates_script.exists():
+        print(f"   ERROR: Script not found: {manage_candidates_script}")
+        has_errors = True
+    else:
         result = subprocess.run(
-            [sys.executable, 'build/manage_candidates.py', 'sync'],
+            [sys.executable, str(manage_candidates_script), 'sync'],
             capture_output=True,
             text=True
         )
@@ -64,8 +75,6 @@ def main():
         if result.returncode != 0:
             print(f"   ERROR: manage_candidates.py sync failed with exit code {result.returncode}")
             has_errors = True
-    else:
-        print("   No candidate_words.json found, skipping sync.")
 
     print("\n" + "=" * 50)
     if has_errors:

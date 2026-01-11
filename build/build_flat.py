@@ -15,39 +15,14 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from typing import Optional
 
+from path_utils import get_entry_prefix, get_audio_prefix
+from japanese_utils import hiragana_to_romaji, KANA_ROWS, KANA_TO_FOLDER, get_kana_folder
+
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
 
 # Pattern to match furigana notation: {kanji|reading}
 FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
-
-# Kana row definitions
-KANA_ROWS = [
-    {'name': 'あ行', 'kana': 'あいうえお', 'key': 'あ', 'folder': 'a'},
-    {'name': 'か行', 'kana': 'かきくけこがぎぐげご', 'key': 'か', 'folder': 'ka'},
-    {'name': 'さ行', 'kana': 'さしすせそざじずぜぞ', 'key': 'さ', 'folder': 'sa'},
-    {'name': 'た行', 'kana': 'たちつてとだぢづでど', 'key': 'た', 'folder': 'ta'},
-    {'name': 'な行', 'kana': 'なにぬねの', 'key': 'な', 'folder': 'na'},
-    {'name': 'は行', 'kana': 'はひふへほばびぶべぼぱぴぷぺぽ', 'key': 'は', 'folder': 'ha'},
-    {'name': 'ま行', 'kana': 'まみむめも', 'key': 'ま', 'folder': 'ma'},
-    {'name': 'や行', 'kana': 'やゆよ', 'key': 'や', 'folder': 'ya'},
-    {'name': 'ら行', 'kana': 'らりるれろ', 'key': 'ら', 'folder': 'ra'},
-    {'name': 'わ行', 'kana': 'わをん', 'key': 'わ', 'folder': 'wa'},
-]
-
-# Mapping from first kana to folder
-KANA_TO_FOLDER = {}
-for row in KANA_ROWS:
-    for kana in row['kana']:
-        KANA_TO_FOLDER[kana] = row['folder']
-
-
-def get_kana_folder(reading: str) -> str:
-    """Get the folder name for a reading based on its first character."""
-    if not reading:
-        return 'a'
-    first_char = reading[0]
-    return KANA_TO_FOLDER.get(first_char, 'a')
 
 
 def strip_furigana(text: str) -> str:
@@ -151,66 +126,6 @@ def get_cross_ref_type_label(ref_type: str) -> str:
     return labels.get(ref_type, 'Related')
 
 
-def hiragana_to_romaji(hiragana: str) -> str:
-    """Convert hiragana to romaji (simplified version)."""
-    romaji_map = {
-        'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o',
-        'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko',
-        'が': 'ga', 'ぎ': 'gi', 'ぐ': 'gu', 'げ': 'ge', 'ご': 'go',
-        'さ': 'sa', 'し': 'shi', 'す': 'su', 'せ': 'se', 'そ': 'so',
-        'ざ': 'za', 'じ': 'ji', 'ず': 'zu', 'ぜ': 'ze', 'ぞ': 'zo',
-        'た': 'ta', 'ち': 'chi', 'つ': 'tsu', 'て': 'te', 'と': 'to',
-        'だ': 'da', 'ぢ': 'di', 'づ': 'du', 'で': 'de', 'ど': 'do',
-        'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no',
-        'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho',
-        'ば': 'ba', 'び': 'bi', 'ぶ': 'bu', 'べ': 'be', 'ぼ': 'bo',
-        'ぱ': 'pa', 'ぴ': 'pi', 'ぷ': 'pu', 'ぺ': 'pe', 'ぽ': 'po',
-        'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo',
-        'や': 'ya', 'ゆ': 'yu', 'よ': 'yo',
-        'ら': 'ra', 'り': 'ri', 'る': 'ru', 'れ': 're', 'ろ': 'ro',
-        'わ': 'wa', 'を': 'wo', 'ん': 'n',
-        'きゃ': 'kya', 'きゅ': 'kyu', 'きょ': 'kyo',
-        'しゃ': 'sha', 'しゅ': 'shu', 'しょ': 'sho',
-        'ちゃ': 'cha', 'ちゅ': 'chu', 'ちょ': 'cho',
-        'にゃ': 'nya', 'にゅ': 'nyu', 'にょ': 'nyo',
-        'ひゃ': 'hya', 'ひゅ': 'hyu', 'ひょ': 'hyo',
-        'みゃ': 'mya', 'みゅ': 'myu', 'みょ': 'myo',
-        'りゃ': 'rya', 'りゅ': 'ryu', 'りょ': 'ryo',
-        'ぎゃ': 'gya', 'ぎゅ': 'gyu', 'ぎょ': 'gyo',
-        'じゃ': 'ja', 'じゅ': 'ju', 'じょ': 'jo',
-        'びゃ': 'bya', 'びゅ': 'byu', 'びょ': 'byo',
-        'ぴゃ': 'pya', 'ぴゅ': 'pyu', 'ぴょ': 'pyo',
-        'っ': '', 'ー': '',
-    }
-
-    result = []
-    i = 0
-    while i < len(hiragana):
-        # Try two-character combinations first
-        if i + 1 < len(hiragana):
-            two_char = hiragana[i:i+2]
-            if two_char in romaji_map:
-                result.append(romaji_map[two_char])
-                i += 2
-                continue
-
-        # Single character
-        char = hiragana[i]
-        if char in romaji_map:
-            # Handle っ (gemination)
-            if char == 'っ' and i + 1 < len(hiragana):
-                next_char = hiragana[i + 1]
-                if next_char in romaji_map and romaji_map[next_char]:
-                    result.append(romaji_map[next_char][0])  # Double the consonant
-            else:
-                result.append(romaji_map[char])
-        else:
-            result.append(char)
-        i += 1
-
-    return ''.join(result)
-
-
 def generate_nav_header(relative_path: str = '') -> str:
     """Generate navigation header HTML."""
     # Determine the base path to the flat root
@@ -277,7 +192,7 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 </head>'''
 
 
-def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, relative_path: str = '../../../') -> str:
+def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: dict, relative_path: str = '../../../') -> str:
     """Generate HTML content for a single entry page."""
     entry_id = entry['id']
     headword = entry['headword']
@@ -387,13 +302,28 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, 
                     ref_reading = ''
                 label = ''
             else:
-                # Object reference - look up by reading
+                # Object reference - look up by reading with headword disambiguation
                 ref_type = ref.get('type', 'see_also')
                 ref_reading = ref.get('reading', '')
-                ref_headword = ref.get('headword', ref_reading)
+                ref_headword = ref.get('headword', '')
                 label = ref.get('label', '')
-                # Resolve by looking up the reading in our mapping
-                target_id = readings_to_ids.get(ref_reading, '')
+
+                # Find matching entries by reading
+                candidates = readings_to_entries.get(ref_reading, [])
+                target_id = ''
+
+                if len(candidates) == 1:
+                    # Only one entry with this reading - use it
+                    target_id = candidates[0]['id']
+                elif len(candidates) > 1 and ref_headword:
+                    # Multiple entries - try to match by headword
+                    for candidate in candidates:
+                        if candidate['headword'] == ref_headword:
+                            target_id = candidate['id']
+                            break
+                # If still no match and we have a headword, use it for display
+                if not ref_headword:
+                    ref_headword = ref_reading
                 resolved = target_id in entries_dict
 
             type_label = get_cross_ref_type_label(ref_type)
@@ -436,7 +366,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, 
         if is_revised and modified_str:
             date_display += f' · Revised {modified_str}'
 
-    file_path = f'{folder}/{entry_id}'
+    file_path = f'{folder}/{prefix}/{entry_id}'
 
     html_parts.append(f'''
         <div class="entry-metadata">
@@ -923,7 +853,7 @@ def generate_search_index(entries: list) -> str:
 
     # Generate JavaScript
     js_content = f'''// Auto-generated search index - do not edit manually
-// Generated: {datetime.utcnow().isoformat()}Z
+// Generated: {datetime.now(timezone.utc).isoformat()}
 
 window.SEARCH_INDEX = {json.dumps(index, ensure_ascii=False)};
 
@@ -1835,7 +1765,8 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
         try:
             return datetime.fromisoformat(entry['metadata']['modified'].replace('Z', '+00:00'))
         except (KeyError, ValueError):
-            return datetime.min.replace(tzinfo=None)
+            # Return timezone-aware fallback to avoid mixing with aware datetimes
+            return datetime.min.replace(tzinfo=timezone.utc)
 
     sorted_entries = sorted(entries, key=get_modified_date, reverse=True)
 
@@ -1856,26 +1787,6 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
         })
 
     return recent
-
-
-def get_entry_prefix(entry_id: str) -> str:
-    """
-    Get the 2-character prefix for entry file organization.
-
-    This creates a subdirectory structure to avoid GitHub's 1,000 file limit.
-    Example: 'taberu_00001' -> 'ta'
-    """
-    return entry_id[:2].lower()
-
-
-def get_audio_prefix(entry_id: str) -> str:
-    """
-    Get the 2-character prefix for audio file organization.
-
-    This creates a subdirectory structure to avoid GitHub's 1,000 file limit.
-    Example: 'ittai_00493' -> 'it'
-    """
-    return entry_id[:2].lower()
 
 
 def copy_audio_files(project_root: Path, dest_dir: Path) -> int:
@@ -1933,24 +1844,29 @@ def build_flat(project_root: Path) -> int:
     # Create entries dictionary for cross-reference lookups
     entries_dict = {e['id']: e for e in entries}
 
-    # Create reading-to-ID mapping for resolving cross-references
-    readings_to_ids = {e['reading']: e['id'] for e in entries}
+    # Create reading-to-entries mapping for resolving cross-references
+    # Maps reading -> list of {id, headword} for deterministic resolution
+    from collections import defaultdict
+    readings_to_entries = defaultdict(list)
+    for e in entries:
+        readings_to_entries[e['reading']].append({
+            'id': e['id'],
+            'headword': e.get('headword', '')
+        })
 
     # Step 2: Create output directories
     print("\n[2/7] Creating output directories...")
 
-    # Clean up generated content (but preserve docs/flat/ for redirect)
-    generated_items = [
-        'entries', 'audio', 'index.html', 'search.html', 'browse.html',
-        'recent.html', 'random.html', 'search-index.js', 'search.js', 'styles.css'
-    ]
-    for item in generated_items:
-        item_path = docs_dir / item
-        if item_path.exists():
-            if item_path.is_dir():
-                shutil.rmtree(item_path)
-            else:
-                item_path.unlink()
+    # Clean up generated content deterministically
+    # Remove everything in docs/ except docs/flat/ (which contains a redirect)
+    if docs_dir.exists():
+        preserved_dirs = {'flat'}  # Directories to preserve
+        for item in docs_dir.iterdir():
+            if item.name not in preserved_dirs:
+                if item.is_dir():
+                    shutil.rmtree(item)
+                else:
+                    item.unlink()
 
     docs_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1964,7 +1880,7 @@ def build_flat(project_root: Path) -> int:
     for entry in entries:
         folder = get_kana_folder(entry['reading'])
         prefix = get_entry_prefix(entry['id'])
-        entry_html = generate_entry_html(entry, entries_dict, readings_to_ids)
+        entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
         # Create directory structure: entries/{kana}/{prefix}/
         output_dir = entries_output_dir / folder / prefix
         output_dir.mkdir(parents=True, exist_ok=True)

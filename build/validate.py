@@ -12,6 +12,13 @@ import re
 from pathlib import Path
 from typing import Optional
 
+from path_utils import get_entry_prefix
+from japanese_utils import (
+    hiragana_to_romaji,
+    get_expected_directory,
+    KANA_TO_DIRECTORY,
+)
+
 try:
     import jsonschema
     from jsonschema import Draft7Validator
@@ -20,138 +27,17 @@ except ImportError:
     sys.exit(1)
 
 
-# Mapping from hiragana to romaji for filename validation
-HIRAGANA_TO_ROMAJI = {
-    'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o',
-    'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko',
-    'が': 'ga', 'ぎ': 'gi', 'ぐ': 'gu', 'げ': 'ge', 'ご': 'go',
-    'さ': 'sa', 'し': 'shi', 'す': 'su', 'せ': 'se', 'そ': 'so',
-    'ざ': 'za', 'じ': 'ji', 'ず': 'zu', 'ぜ': 'ze', 'ぞ': 'zo',
-    'た': 'ta', 'ち': 'chi', 'つ': 'tsu', 'て': 'te', 'と': 'to',
-    'だ': 'da', 'ぢ': 'ji', 'づ': 'zu', 'で': 'de', 'ど': 'do',
-    'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no',
-    'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho',
-    'ば': 'ba', 'び': 'bi', 'ぶ': 'bu', 'べ': 'be', 'ぼ': 'bo',
-    'ぱ': 'pa', 'ぴ': 'pi', 'ぷ': 'pu', 'ぺ': 'pe', 'ぽ': 'po',
-    'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo',
-    'や': 'ya', 'ゆ': 'yu', 'よ': 'yo',
-    'ら': 'ra', 'り': 'ri', 'る': 'ru', 'れ': 're', 'ろ': 'ro',
-    'わ': 'wa', 'を': 'wo', 'ん': 'n',
-    # Small kana
-    'ゃ': 'ya', 'ゅ': 'yu', 'ょ': 'yo',
-    'っ': '',  # Will be handled specially
-    'ー': '',  # Long vowel mark - context dependent
-}
-
-# Combination mappings (e.g., きゃ -> kya)
-COMBO_MAPPINGS = {
-    'きゃ': 'kya', 'きゅ': 'kyu', 'きょ': 'kyo',
-    'ぎゃ': 'gya', 'ぎゅ': 'gyu', 'ぎょ': 'gyo',
-    'しゃ': 'sha', 'しゅ': 'shu', 'しょ': 'sho',
-    'じゃ': 'ja', 'じゅ': 'ju', 'じょ': 'jo',
-    'ちゃ': 'cha', 'ちゅ': 'chu', 'ちょ': 'cho',
-    'にゃ': 'nya', 'にゅ': 'nyu', 'にょ': 'nyo',
-    'ひゃ': 'hya', 'ひゅ': 'hyu', 'ひょ': 'hyo',
-    'びゃ': 'bya', 'びゅ': 'byu', 'びょ': 'byo',
-    'ぴゃ': 'pya', 'ぴゅ': 'pyu', 'ぴょ': 'pyo',
-    'みゃ': 'mya', 'みゅ': 'myu', 'みょ': 'myo',
-    'りゃ': 'rya', 'りゅ': 'ryu', 'りょ': 'ryo',
-}
-
-# Directory mapping from first kana
-KANA_TO_DIRECTORY = {
-    'あ': 'a', 'い': 'a', 'う': 'a', 'え': 'a', 'お': 'a',
-    'か': 'ka', 'き': 'ka', 'く': 'ka', 'け': 'ka', 'こ': 'ka',
-    'が': 'ka', 'ぎ': 'ka', 'ぐ': 'ka', 'げ': 'ka', 'ご': 'ka',
-    'さ': 'sa', 'し': 'sa', 'す': 'sa', 'せ': 'sa', 'そ': 'sa',
-    'ざ': 'sa', 'じ': 'sa', 'ず': 'sa', 'ぜ': 'sa', 'ぞ': 'sa',
-    'た': 'ta', 'ち': 'ta', 'つ': 'ta', 'て': 'ta', 'と': 'ta',
-    'だ': 'ta', 'ぢ': 'ta', 'づ': 'ta', 'で': 'ta', 'ど': 'ta',
-    'な': 'na', 'に': 'na', 'ぬ': 'na', 'ね': 'na', 'の': 'na',
-    'は': 'ha', 'ひ': 'ha', 'ふ': 'ha', 'へ': 'ha', 'ほ': 'ha',
-    'ば': 'ha', 'び': 'ha', 'ぶ': 'ha', 'べ': 'ha', 'ぼ': 'ha',
-    'ぱ': 'ha', 'ぴ': 'ha', 'ぷ': 'ha', 'ぺ': 'ha', 'ぽ': 'ha',
-    'ま': 'ma', 'み': 'ma', 'む': 'ma', 'め': 'ma', 'も': 'ma',
-    'や': 'ya', 'ゆ': 'ya', 'よ': 'ya',
-    'ら': 'ra', 'り': 'ra', 'る': 'ra', 'れ': 'ra', 'ろ': 'ra',
-    'わ': 'wa', 'を': 'wa', 'ん': 'wa',
-}
-
-
-def get_entry_prefix(entry_id: str) -> str:
-    """
-    Get the 2-character prefix for entry file organization.
-
-    Example: 'taberu_00001' -> 'ta'
-    """
-    return entry_id[:2].lower()
-
-
-def hiragana_to_romaji(reading: str) -> str:
-    """Convert hiragana reading to romaji."""
-    result = []
-    i = 0
-    while i < len(reading):
-        # Check for two-character combinations first
-        if i + 1 < len(reading):
-            combo = reading[i:i+2]
-            if combo in COMBO_MAPPINGS:
-                result.append(COMBO_MAPPINGS[combo])
-                i += 2
-                continue
-
-        char = reading[i]
-
-        # Handle small tsu (gemination)
-        if char == 'っ':
-            # Double the next consonant
-            if i + 1 < len(reading):
-                next_char = reading[i + 1]
-                if next_char in HIRAGANA_TO_ROMAJI:
-                    next_romaji = HIRAGANA_TO_ROMAJI[next_char]
-                    if next_romaji:
-                        result.append(next_romaji[0])
-            i += 1
-            continue
-
-        # Handle long vowel mark
-        if char == 'ー':
-            if result:
-                # Repeat the previous vowel
-                prev = result[-1]
-                if prev and prev[-1] in 'aiueo':
-                    result.append(prev[-1])
-            i += 1
-            continue
-
-        if char in HIRAGANA_TO_ROMAJI:
-            result.append(HIRAGANA_TO_ROMAJI[char])
-        else:
-            # Unknown character, keep as is
-            result.append(char)
-        i += 1
-
-    return ''.join(result)
-
-
-def get_expected_directory(reading: str) -> Optional[str]:
-    """Get the expected directory for an entry based on its reading."""
-    if not reading:
-        return None
-    first_kana = reading[0]
-    return KANA_TO_DIRECTORY.get(first_kana)
-
-
 def load_schema(schema_path: Path) -> dict:
     """Load the JSON schema."""
     with open(schema_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
-def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> list[str]:
+def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> tuple[list[str], dict | None]:
     """
     Validate a single entry file.
-    Returns a list of error messages (empty if valid).
+    Returns a tuple of (error_messages, entry_data).
+    If validation fails, entry_data may be None (for JSON errors) or the partial entry.
     """
     errors = []
 
@@ -160,7 +46,7 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> list[str
         with open(file_path, 'r', encoding='utf-8') as f:
             entry = json.load(f)
     except json.JSONDecodeError as e:
-        return [f"Invalid JSON: {e}"]
+        return [f"Invalid JSON: {e}"], None
 
     # Validate against schema
     validator = Draft7Validator(schema)
@@ -171,7 +57,7 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> list[str
 
     # If schema validation failed, skip additional checks
     if schema_errors:
-        return errors
+        return errors, None
 
     # Check ID uniqueness
     entry_id = entry['id']
@@ -207,7 +93,7 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> list[str
         if id_romaji != expected_romaji:
             errors.append(f"ID romanization mismatch: '{id_romaji}' doesn't match reading '{reading}' (expected '{expected_romaji}')")
 
-    return errors
+    return errors, entry
 
 
 def check_for_duplicates(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, str]]:
@@ -314,6 +200,55 @@ def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, 
     return errors
 
 
+def check_audio_integrity(entries_data: list[tuple[Path, dict]], project_root: Path) -> tuple[list[str], list[str]]:
+    """
+    Check that audio files match has_audio flags in entries.
+
+    Returns:
+        (missing_audio, orphaned_audio):
+        - missing_audio: entries with has_audio: true but no MP3 file
+        - orphaned_audio: MP3 files with no corresponding entry
+    """
+    from japanese_utils import get_kana_folder
+
+    audio_dir = project_root / 'audio'
+    if not audio_dir.exists():
+        return [], []
+
+    missing_audio = []
+    expected_audio_files = set()
+
+    # Check each entry's examples
+    for file_path, entry in entries_data:
+        entry_id = entry.get('id', '')
+        reading = entry.get('reading', '')
+        folder = get_kana_folder(reading)
+        prefix = get_entry_prefix(entry_id)
+
+        examples = entry.get('examples', [])
+        for i, example in enumerate(examples, start=1):
+            if example.get('has_audio'):
+                # Expected audio file path
+                audio_filename = f"{entry_id}-ex{i}.mp3"
+                audio_path = audio_dir / folder / prefix / audio_filename
+                expected_audio_files.add(audio_path)
+
+                if not audio_path.exists():
+                    rel_path = file_path.relative_to(project_root)
+                    missing_audio.append(
+                        f"{rel_path}: example {i} has_audio=true but missing {audio_filename}"
+                    )
+
+    # Find orphaned audio files
+    orphaned_audio = []
+    for audio_file in audio_dir.rglob('*.mp3'):
+        if audio_file not in expected_audio_files:
+            rel_path = audio_file.relative_to(project_root)
+            orphaned_audio.append(str(rel_path))
+
+    return missing_audio, orphaned_audio
+
+
 def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]]]:
     """
     Validate all entry files in the project.
@@ -335,18 +270,14 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
 
     for file_path in entry_files:
         total += 1
-        errors = validate_entry_file(file_path, schema, all_ids)
+        errors, entry = validate_entry_file(file_path, schema, all_ids)
         if errors:
             invalid_files.append((file_path, errors))
         else:
             valid += 1
-            # Load entry data for duplicate checking
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    entry = json.load(f)
-                    entries_data.append((file_path, entry))
-            except (json.JSONDecodeError, IOError, OSError):
-                pass  # Entry already flagged as invalid by validate_entry_file
+            # Reuse the already-loaded entry for subsequent checks
+            if entry is not None:
+                entries_data.append((file_path, entry))
 
     # Check for duplicates among valid entries
     duplicate_errors = check_for_duplicates(entries_data)
@@ -363,7 +294,10 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
     # These are tracked separately as warnings (don't prevent build)
     cross_ref_errors = check_cross_references(entries_data, all_ids)
 
-    return total, valid, invalid_files, cross_ref_errors
+    # Check audio file integrity
+    missing_audio, orphaned_audio = check_audio_integrity(entries_data, project_root)
+
+    return total, valid, invalid_files, cross_ref_errors, missing_audio, orphaned_audio
 
 
 def validate_single_entry(entry_path: Path, project_root: Path) -> int:
@@ -388,27 +322,23 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
     print(f"Validating: {entry_path}")
     print("-" * 50)
 
-    errors = validate_entry_file(entry_path, schema, set())  # Don't check ID uniqueness for single entry
+    errors, entry = validate_entry_file(entry_path, schema, set())  # Don't check ID uniqueness for single entry
 
-    # Check cross-references
-    try:
-        with open(entry_path, 'r', encoding='utf-8') as f:
-            entry = json.load(f)
-            entry_reading = entry.get('reading', '')
-            cross_refs = entry.get('cross_references', [])
-            for ref in cross_refs:
-                if isinstance(ref, str):
-                    # Legacy string format
-                    if ref not in all_ids:
-                        errors.append(f"Invalid cross_reference: '{ref}' does not exist")
-                elif isinstance(ref, dict):
-                    # New structured format
-                    ref_errors = validate_structured_cross_reference(ref, entry_reading)
-                    errors.extend(ref_errors)
-                else:
-                    errors.append(f"Invalid cross_reference format: expected string or object")
-    except (json.JSONDecodeError, IOError):
-        pass  # Already caught by validate_entry_file
+    # Check cross-references using the already-loaded entry
+    if entry is not None:
+        entry_reading = entry.get('reading', '')
+        cross_refs = entry.get('cross_references', [])
+        for ref in cross_refs:
+            if isinstance(ref, str):
+                # Legacy string format
+                if ref not in all_ids:
+                    errors.append(f"Invalid cross_reference: '{ref}' does not exist")
+            elif isinstance(ref, dict):
+                # New structured format
+                ref_errors = validate_structured_cross_reference(ref, entry_reading)
+                errors.extend(ref_errors)
+            else:
+                errors.append(f"Invalid cross_reference format: expected string or object")
 
     if errors:
         print("Errors found:")
@@ -459,7 +389,7 @@ def main():
     print(f"Validating entries in {project_root}")
     print("-" * 50)
 
-    total, valid, invalid_files, cross_ref_errors = validate_all_entries(project_root)
+    total, valid, invalid_files, cross_ref_errors, missing_audio, orphaned_audio = validate_all_entries(project_root)
 
     if total == 0:
         print("No entry files found.")
@@ -484,9 +414,33 @@ def main():
             print(f"    - {error_msg}")
         print()
 
+    # Report audio integrity warnings
+    if missing_audio or orphaned_audio:
+        print(f"\nAudio integrity warnings:\n")
+        if missing_audio:
+            print(f"  Missing audio files ({len(missing_audio)}):")
+            for msg in missing_audio[:10]:  # Show first 10
+                print(f"    - {msg}")
+            if len(missing_audio) > 10:
+                print(f"    ... and {len(missing_audio) - 10} more")
+        if orphaned_audio:
+            print(f"\n  Orphaned audio files ({len(orphaned_audio)}):")
+            for path in orphaned_audio[:10]:  # Show first 10
+                print(f"    - {path}")
+            if len(orphaned_audio) > 10:
+                print(f"    ... and {len(orphaned_audio) - 10} more")
+        print()
+
     print(f"Validation complete: {valid}/{total} entries valid")
+    warnings = []
     if cross_ref_errors:
-        print(f"  ({len(cross_ref_errors)} cross-reference warnings)")
+        warnings.append(f"{len(cross_ref_errors)} cross-reference warnings")
+    if missing_audio:
+        warnings.append(f"{len(missing_audio)} missing audio")
+    if orphaned_audio:
+        warnings.append(f"{len(orphaned_audio)} orphaned audio")
+    if warnings:
+        print(f"  ({', '.join(warnings)})")
 
     if invalid_files:
         return 1

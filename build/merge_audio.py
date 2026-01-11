@@ -19,6 +19,7 @@ import sys
 from pathlib import Path
 
 from validate import get_expected_directory
+from path_utils import get_audio_prefix
 
 
 def parse_audio_filename(filename: str) -> tuple[str, int] | None:
@@ -47,16 +48,6 @@ def find_entry_file(entries_dir: Path, entry_id: str) -> Path | None:
     for file_path in entries_dir.glob(f'**/{entry_id}.json'):
         return file_path
     return None
-
-
-def get_audio_prefix(entry_id: str) -> str:
-    """
-    Get the 2-character prefix for audio file organization.
-
-    This creates a subdirectory structure to avoid GitHub's 1,000 file limit.
-    Example: 'ittai_00493' -> 'it'
-    """
-    return entry_id[:2].lower()
 
 
 def merge_audio_files(project_root: Path) -> int:
