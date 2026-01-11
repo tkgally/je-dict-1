@@ -111,8 +111,13 @@ def resolve_reference(ref: Dict[str, Any], reading_index: Dict[str, List[Dict[st
     target = None
 
     if len(candidates) == 1:
-        # Only one entry with this reading - use it
-        target = candidates[0]
+        # Only one entry with this reading
+        # If headword specified, verify it matches (for homonym disambiguation)
+        if ref_headword and candidates[0]['headword'] != ref_headword:
+            # Headword mismatch - this is likely a homonym not yet in dictionary
+            target = None  # Leave unresolved
+        else:
+            target = candidates[0]
     elif len(candidates) > 1 and ref_headword:
         # Multiple entries - try to match by headword
         for candidate in candidates:

@@ -313,8 +313,13 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
                 target_id = ''
 
                 if len(candidates) == 1:
-                    # Only one entry with this reading - use it
-                    target_id = candidates[0]['id']
+                    # Only one entry with this reading
+                    # If headword specified, verify it matches (for homonym disambiguation)
+                    if ref_headword and candidates[0]['headword'] != ref_headword:
+                        # Headword mismatch - this is likely a homonym not yet in dictionary
+                        target_id = ''  # Leave unresolved
+                    else:
+                        target_id = candidates[0]['id']
                 elif len(candidates) > 1 and ref_headword:
                     # Multiple entries - try to match by headword
                     for candidate in candidates:
