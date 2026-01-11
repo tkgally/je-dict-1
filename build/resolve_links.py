@@ -18,50 +18,52 @@ from typing import Dict, List, Any, Optional, Tuple
 from japanese_utils import romaji_to_hiragana
 
 
-def build_reading_index(entries: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
+def build_reading_index(entries: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
     """
-    Build a lookup index from reading to entry data.
+    Build a lookup index from reading to list of entry data.
 
     Args:
         entries: List of entry dictionaries
 
     Returns:
-        Dictionary mapping reading (hiragana) to entry info
+        Dictionary mapping reading (hiragana) to list of entry info dicts
     """
-    index = {}
+    from collections import defaultdict
+    index: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for entry in entries:
         reading = entry.get('reading', '')
         if reading:
-            # Store entry info for lookup
-            index[reading] = {
+            # Store entry info for lookup (multiple entries may share a reading)
+            index[reading].append({
                 'id': entry.get('id', ''),
                 'headword': entry.get('headword', ''),
                 'reading': reading,
                 'gloss': entry.get('gloss', '')
-            }
-    return index
+            })
+    return dict(index)
 
 
-def normalize_legacy_reference(ref: str, reading_index: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
+def normalize_legacy_reference(ref: str, reading_index: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
     """
     Convert legacy string reference (entry ID) to new structured format.
 
     Args:
         ref: Legacy reference string (entry ID like "nomu_00001")
-        reading_index: Reading lookup index
+        reading_index: Reading lookup index (reading -> list of entries)
 
     Returns:
         Structured cross-reference dictionary
     """
     # Try to find entry by ID in the index
-    for reading, info in reading_index.items():
-        if info['id'] == ref:
-            return {
-                'type': 'see_also',
-                'reading': reading,
-                'headword': info['headword'],
-                'label': None
-            }
+    for reading, entries in reading_index.items():
+        for info in entries:
+            if info['id'] == ref:
+                return {
+                    'type': 'see_also',
+                    'reading': reading,
+                    'headword': info['headword'],
+                    'label': None
+                }
 
     # If not found, try to extract reading from ID
     # ID format: romaji_00000
@@ -85,22 +87,40 @@ def normalize_legacy_reference(ref: str, reading_index: Dict[str, Dict[str, Any]
     }
 
 
-def resolve_reference(ref: Dict[str, Any], reading_index: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
+def resolve_reference(ref: Dict[str, Any], reading_index: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
     """
     Resolve a single cross-reference, adding resolution status.
 
+    Uses deterministic resolution:
+    - If only one entry matches the reading, use it
+    - If multiple entries match, require headword to disambiguate
+    - If headword doesn't match any entry, mark as unresolved
+
     Args:
         ref: Cross-reference dictionary with type, reading, etc.
-        reading_index: Reading lookup index
+        reading_index: Reading lookup index (reading -> list of entries)
 
     Returns:
         Enriched cross-reference with resolved status and target_id
     """
     resolved_ref = dict(ref)
     reading = ref.get('reading', '')
+    ref_headword = ref.get('headword', '')
 
-    if reading and reading in reading_index:
-        target = reading_index[reading]
+    candidates = reading_index.get(reading, [])
+    target = None
+
+    if len(candidates) == 1:
+        # Only one entry with this reading - use it
+        target = candidates[0]
+    elif len(candidates) > 1 and ref_headword:
+        # Multiple entries - try to match by headword
+        for candidate in candidates:
+            if candidate['headword'] == ref_headword:
+                target = candidate
+                break
+
+    if target:
         resolved_ref['resolved'] = True
         resolved_ref['target_id'] = target['id']
         # Fill in headword if not provided

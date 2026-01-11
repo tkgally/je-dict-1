@@ -192,7 +192,7 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 </head>'''
 
 
-def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, relative_path: str = '../../../') -> str:
+def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: dict, relative_path: str = '../../../') -> str:
     """Generate HTML content for a single entry page."""
     entry_id = entry['id']
     headword = entry['headword']
@@ -302,13 +302,28 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, 
                     ref_reading = ''
                 label = ''
             else:
-                # Object reference - look up by reading
+                # Object reference - look up by reading with headword disambiguation
                 ref_type = ref.get('type', 'see_also')
                 ref_reading = ref.get('reading', '')
-                ref_headword = ref.get('headword', ref_reading)
+                ref_headword = ref.get('headword', '')
                 label = ref.get('label', '')
-                # Resolve by looking up the reading in our mapping
-                target_id = readings_to_ids.get(ref_reading, '')
+
+                # Find matching entries by reading
+                candidates = readings_to_entries.get(ref_reading, [])
+                target_id = ''
+
+                if len(candidates) == 1:
+                    # Only one entry with this reading - use it
+                    target_id = candidates[0]['id']
+                elif len(candidates) > 1 and ref_headword:
+                    # Multiple entries - try to match by headword
+                    for candidate in candidates:
+                        if candidate['headword'] == ref_headword:
+                            target_id = candidate['id']
+                            break
+                # If still no match and we have a headword, use it for display
+                if not ref_headword:
+                    ref_headword = ref_reading
                 resolved = target_id in entries_dict
 
             type_label = get_cross_ref_type_label(ref_type)
@@ -1829,24 +1844,29 @@ def build_flat(project_root: Path) -> int:
     # Create entries dictionary for cross-reference lookups
     entries_dict = {e['id']: e for e in entries}
 
-    # Create reading-to-ID mapping for resolving cross-references
-    readings_to_ids = {e['reading']: e['id'] for e in entries}
+    # Create reading-to-entries mapping for resolving cross-references
+    # Maps reading -> list of {id, headword} for deterministic resolution
+    from collections import defaultdict
+    readings_to_entries = defaultdict(list)
+    for e in entries:
+        readings_to_entries[e['reading']].append({
+            'id': e['id'],
+            'headword': e.get('headword', '')
+        })
 
     # Step 2: Create output directories
     print("\n[2/7] Creating output directories...")
 
-    # Clean up generated content (but preserve docs/flat/ for redirect)
-    generated_items = [
-        'entries', 'audio', 'index.html', 'search.html', 'browse.html',
-        'recent.html', 'random.html', 'search-index.js', 'search.js', 'styles.css'
-    ]
-    for item in generated_items:
-        item_path = docs_dir / item
-        if item_path.exists():
-            if item_path.is_dir():
-                shutil.rmtree(item_path)
-            else:
-                item_path.unlink()
+    # Clean up generated content deterministically
+    # Remove everything in docs/ except docs/flat/ (which contains a redirect)
+    if docs_dir.exists():
+        preserved_dirs = {'flat'}  # Directories to preserve
+        for item in docs_dir.iterdir():
+            if item.name not in preserved_dirs:
+                if item.is_dir():
+                    shutil.rmtree(item)
+                else:
+                    item.unlink()
 
     docs_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1860,7 +1880,7 @@ def build_flat(project_root: Path) -> int:
     for entry in entries:
         folder = get_kana_folder(entry['reading'])
         prefix = get_entry_prefix(entry['id'])
-        entry_html = generate_entry_html(entry, entries_dict, readings_to_ids)
+        entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
         # Create directory structure: entries/{kana}/{prefix}/
         output_dir = entries_output_dir / folder / prefix
         output_dir.mkdir(parents=True, exist_ok=True)
