@@ -24,7 +24,7 @@
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle
 - [x] Last updated date in footer
-- [x] Cross-reference linking system with UI navigation (400 refs, 95% resolved)
+- [x] Cross-reference linking system with UI navigation (437 refs, 96% resolved)
 - [x] Audio pronunciation for example sentences (1,028 audio files)
 - [x] Prefix-based subdirectory structure for entries and audio (scalable to 10,000+ entries)
 - [x] Shared utility modules (`path_utils.py`, `japanese_utils.py`)
@@ -32,12 +32,12 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,074
+- **Total entries**: 2,116
 - **JLPT N5 coverage**: ~95% complete
-- **JLPT N4 coverage**: 392 entries added
-- **JLPT N3 vocabulary**: 50+ entries added
-- **Candidate words**: ~1,980 words tracked in `candidate_words.json`
-- **Cross-references**: 400 total (383 resolved, 95% resolution rate)
+- **JLPT N4 coverage**: ~410 entries added
+- **JLPT N3 vocabulary**: ~70 entries added
+- **Candidate words**: ~1,912 words tracked in `candidate_words.json`
+- **Cross-references**: 437 total (421 resolved, 96% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
 ### Entry Breakdown by JLPT Level
@@ -53,7 +53,7 @@
 | Nouns | ~430 | Includes N4 nouns, katakana loanwords |
 | Adjectives | ~100 | I-adjectives and na-adjectives |
 | Adverbs | ~56 | Includes 11 new N4 adverbs |
-| Particles | 9 | Core particles with predicate lists |
+| Particles | 10 | Core particles with predicate lists |
 | Counters | ~21 | Common counting patterns |
 | Keigo verbs | 12 | Honorific and humble forms |
 | Other | ~150 | Expressions, suffixes, etc. |
@@ -95,6 +95,18 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 42 New Entries)
+- Added 42 new dictionary entries (2,074 → 2,116 total)
+- Resolved pending cross-references including へ particle entry
+- New entries include:
+  - Particle: へ (direction marker)
+  - Nouns: はじまり, とかい, やかん, はやおき, きんちょう, けっせき, まんぞく, ふまん, ゆうき, しんじん, こうはい, ひみつ, あいさつ, きずな, たいおう, たいさく, けっこん, etc.
+  - Verbs: にがす, ゆらす, おくらせる
+  - Adjectives: なつかしい, くわしい, しょっぱい, ふひつよう, らんぼう
+  - Adverbs: たいてい, なかなか, ぜひ, まもなく, おそらく, とくに
+- Cross-references increased from 400 to 437 (96% resolution rate)
+- Removed 18 candidates from candidate_words.json
 
 ### 2026-01-11 (Code Quality Improvements)
 - Created shared utility modules:
