@@ -24,7 +24,7 @@
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle
 - [x] Last updated date in footer
-- [x] Cross-reference linking system with UI navigation (437 refs, 96% resolved)
+- [x] Cross-reference linking system with UI navigation (491 refs, 96% resolved)
 - [x] Audio pronunciation for example sentences (1,028 audio files)
 - [x] Prefix-based subdirectory structure for entries and audio (scalable to 10,000+ entries)
 - [x] Shared utility modules (`path_utils.py`, `japanese_utils.py`)
@@ -32,12 +32,12 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,116
+- **Total entries**: 2,164
 - **JLPT N5 coverage**: ~95% complete
-- **JLPT N4 coverage**: ~410 entries added
-- **JLPT N3 vocabulary**: ~70 entries added
-- **Candidate words**: ~1,912 words tracked in `candidate_words.json`
-- **Cross-references**: 437 total (421 resolved, 96% resolution rate)
+- **JLPT N4 coverage**: ~420 entries added
+- **JLPT N3 vocabulary**: ~115 entries added
+- **Candidate words**: ~1,878 words tracked in `candidate_words.json`
+- **Cross-references**: 491 total (476 resolved, 96% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
 ### Entry Breakdown by JLPT Level
@@ -95,6 +95,19 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 47 New Entries)
+- Added 47 new dictionary entries (2,117 → 2,164 total)
+- Resolved 16 pending cross-references:
+  - Nouns: あさねぼう, おゆ, しょうさい, とうちゃく, ふよう, ぼうりょく, りこん, 会員, 会計, 観客, 休暇, 詳細, etc.
+  - Verbs: えんきする, かんせいさせる, きえる, ころがす, まげる, りらっくす, すいている
+  - Adjectives: しおからい
+  - Adverbs/Expressions: じつは, およそ, いつの間にか, 思わず
+- Added ~30 high-priority N3/N4 vocabulary candidates including:
+  - Nouns: 恩, 覚悟, 係, 拡大, 活気, 感じ, 歓迎, 観察, 感心, 完了, 火災, 驚き, 活躍, 勝ち, etc.
+  - Other: お前 (pronoun), 決まり (rule)
+- Cross-references increased from 437 to 491 (96% resolution rate)
+- Removed 34 candidates from candidate_words.json
 
 ### 2026-01-11 (Vocabulary Expansion - 42 New Entries)
 - Added 42 new dictionary entries (2,074 → 2,116 total)
