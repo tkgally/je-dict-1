@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary
 
-This is the repository for a Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude Opus 4.5 in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
+This is the repository for an in-progress Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude Opus 4.5 in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
 
 ## Overview
 
@@ -9,17 +9,16 @@ This dictionary is designed for learners of Japanese as a second language. Its f
 - **Explanatory definitions** that go beyond simple glosses
 - **Natural example sentences** optimized for learning
 - **Usage notes** covering grammar, register, and common patterns
-- **Rich particle and auxiliary verb entries** crucial for learners
 - **Furigana support** with toggle to show/hide readings above kanji
-- **Audio pronunciation** for some example sentences with play/stop controls (More will be added in the future.)
-- **Multiple interface modes**: Search, Browse, Recent, and Random views
+- **Audio pronunciation** for some example sentences with play/stop controls (more to come)
+- **Multiple interface modes**: Search, Browse, Recent, and Random views (more to come)
 - **Transitivity and aspect information** for verbs
 - **Collocation patterns** showing natural word combinations
 - **Keigo (honorific) verb coverage** with usage guidance
 
 ## Current Status
 
-- **2,834 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started)
+- **2,834 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started), with a total target of about 10,000 entries
 - **1,028 audio files** with pronunciation for example sentences
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
@@ -32,7 +31,7 @@ This dictionary is designed for learners of Japanese as a second language. Its f
 Intermediate learners of Japanese who:
 - Can read hiragana and katakana fluently
 - Know some kanji and are building vocabulary
-- Want to deeply understand words, not just look them up quickly
+- Want to understand words fully, not just look them up quickly
 
 ## Technology
 
@@ -46,7 +45,6 @@ The dictionary is built as a **completely static website**:
 The dictionary is built as a static HTML site at `docs/`:
 
 - **Individual pages**: Each entry has its own standalone HTML file
-- **Works without JavaScript**: Core functionality requires no JS
 - **Lightweight pages**: Each page loads only the content needed
 - **Deep linking**: Direct URLs to specific entries
 - **Native audio controls**: HTML5 audio elements for pronunciation
