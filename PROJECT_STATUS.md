@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,392
+- **Total entries**: 2,442
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~430 entries added
-- **JLPT N3 vocabulary**: ~320 entries added
-- **Candidate words**: ~2,675 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~370 entries added
+- **Candidate words**: ~2,625 words tracked in `candidate_words.json`
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
@@ -95,6 +95,17 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 50 New Entries, Session 7)
+- Added 50 new dictionary entries (2,392 → 2,442 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include N1/N2/N3 vocabulary:
+  - Nouns: 経由, 欠陥, 決行, 見当, 高価, 航海, 航空, 光景, 交際, 校舎, 後者, 拘束, 候補, 克服, 穀物, 故人, 今後, 混雑, 婚約, 混乱, 豪華, 合格, 合計, 強盗, 際, 最終, 最中, 境, 作物, 作曲, 作法, 左右, 騒ぎ, 参考, 賛成, 酸素, 材料, 座席, 資格, 支給, 四角, 視覚, 掲示, 語句
+  - Adverbs: こんなに, ことによると, ざっと
+  - Adjective: けち
+  - Expression: こんにちは
+  - Pronoun: これら
+- Removed 50 candidates from candidate_words.json (2,675 → 2,625)
 
 ### 2026-01-11 (Vocabulary Expansion - 51 New Entries, Session 6)
 - Added 51 new dictionary entries (2,341 → 2,392 total)
