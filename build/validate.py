@@ -164,6 +164,119 @@ def validate_structured_cross_reference(ref: dict, entry_reading: str, entry_hea
     return errors
 
 
+def check_timestamps(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, str]]:
+    """
+    Check entry timestamps for issues.
+
+    Detects:
+    - Future timestamps (created or modified time is in the future)
+    - Suspiciously round timestamps (exactly on the hour, likely hardcoded)
+
+    Returns a list of (file_path, warning_message) for issues found.
+    """
+    from datetime import datetime, timezone
+
+    now = datetime.now(timezone.utc)
+    warnings = []
+
+    for file_path, entry in entries_data:
+        metadata = entry.get('metadata', {})
+        created = metadata.get('created', '')
+        modified = metadata.get('modified', '')
+
+        for field_name, timestamp_str in [('created', created), ('modified', modified)]:
+            if not timestamp_str:
+                continue
+
+            try:
+                # Parse ISO timestamp
+                dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+
+                # Check for future timestamp
+                if dt > now:
+                    warnings.append((
+                        file_path,
+                        f"Future timestamp in '{field_name}': {timestamp_str} is in the future"
+                    ))
+
+                # Check for suspiciously round timestamps (exactly on the hour with 00:00 seconds)
+                # These are often hardcoded rather than generated dynamically
+                if dt.minute == 0 and dt.second == 0:
+                    warnings.append((
+                        file_path,
+                        f"Suspiciously round timestamp in '{field_name}': {timestamp_str} "
+                        f"(exactly on the hour - may be hardcoded instead of using datetime.now())"
+                    ))
+
+            except (ValueError, AttributeError):
+                warnings.append((
+                    file_path,
+                    f"Invalid timestamp format in '{field_name}': {timestamp_str}"
+                ))
+
+    return warnings
+
+
+def check_cross_reference_semantics(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, str]]:
+    """
+    Check cross-references for semantic issues like homonym mismatches.
+
+    This detects cases where:
+    - A cross-reference specifies a headword
+    - An entry with the same reading exists
+    - But the existing entry has a DIFFERENT headword (wrong homonym)
+
+    Returns a list of (file_path, warning_message) for issues found.
+    """
+    # Build reading-to-entries index
+    from collections import defaultdict
+    reading_index: dict[str, list[dict]] = defaultdict(list)
+    for _, entry in entries_data:
+        reading = entry.get('reading', '')
+        if reading:
+            reading_index[reading].append({
+                'id': entry.get('id', ''),
+                'headword': entry.get('headword', ''),
+                'gloss': entry.get('gloss', '')
+            })
+
+    warnings = []
+    for file_path, entry in entries_data:
+        cross_refs = entry.get('cross_references', [])
+        for ref in cross_refs:
+            if not isinstance(ref, dict):
+                continue
+
+            ref_reading = ref.get('reading', '')
+            ref_headword = ref.get('headword', '')
+            ref_label = ref.get('label', '')
+
+            if not ref_reading or not ref_headword:
+                continue
+
+            candidates = reading_index.get(ref_reading, [])
+            if len(candidates) == 0:
+                # No entry exists - this is fine, it's a forward reference
+                continue
+
+            # Check if any candidate matches the specified headword
+            headword_match = any(c['headword'] == ref_headword for c in candidates)
+
+            if not headword_match:
+                # Homonym mismatch: entries exist with this reading but different headwords
+                existing_headwords = [c['headword'] for c in candidates]
+                existing_glosses = [c['gloss'] for c in candidates]
+                label_info = f" ({ref_label})" if ref_label else ""
+                warnings.append((
+                    file_path,
+                    f"Cross-reference homonym mismatch: reading '{ref_reading}' with headword "
+                    f"'{ref_headword}'{label_info} not found. Existing entries: "
+                    f"{', '.join(f'{hw} ({gl})' for hw, gl in zip(existing_headwords, existing_glosses))}"
+                ))
+
+    return warnings
+
+
 def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, all_readings: set = None) -> list[tuple[Path, str]]:
     """
     Check cross_references for validity.
@@ -254,16 +367,18 @@ def check_audio_integrity(entries_data: list[tuple[Path, dict]], project_root: P
     return missing_audio, orphaned_audio
 
 
-def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]], list[tuple[Path, str]], list[str], list[str]]:
+def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]], list[tuple[Path, str]], list[tuple[Path, str]], list[tuple[Path, str]], list[str], list[str]]:
     """
     Validate all entry files in the project.
 
     Returns:
-        (total_count, valid_count, invalid_files, cross_ref_errors, missing_audio, orphaned_audio)
+        (total_count, valid_count, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, missing_audio, orphaned_audio)
         - total_count: Total number of entry files found
         - valid_count: Number of valid entries
         - invalid_files: List of (file_path, error_list) for invalid files
         - cross_ref_errors: List of (file_path, error_message) for cross-reference issues
+        - semantic_warnings: List of (file_path, warning_message) for semantic issues (homonym mismatches)
+        - timestamp_warnings: List of (file_path, warning_message) for timestamp issues
         - missing_audio: List of missing audio file descriptions
         - orphaned_audio: List of orphaned audio file paths
     """
@@ -307,10 +422,16 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
     # These are tracked separately as warnings (don't prevent build)
     cross_ref_errors = check_cross_references(entries_data, all_ids)
 
+    # Check for semantic issues in cross-references (homonym mismatches)
+    semantic_warnings = check_cross_reference_semantics(entries_data)
+
+    # Check timestamps for issues (future timestamps, hardcoded times)
+    timestamp_warnings = check_timestamps(entries_data)
+
     # Check audio file integrity
     missing_audio, orphaned_audio = check_audio_integrity(entries_data, project_root)
 
-    return total, valid, invalid_files, cross_ref_errors, missing_audio, orphaned_audio
+    return total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, missing_audio, orphaned_audio
 
 
 def validate_single_entry(entry_path: Path, project_root: Path) -> int:
@@ -403,7 +524,7 @@ def main():
     print(f"Validating entries in {project_root}")
     print("-" * 50)
 
-    total, valid, invalid_files, cross_ref_errors, missing_audio, orphaned_audio = validate_all_entries(project_root)
+    total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, missing_audio, orphaned_audio = validate_all_entries(project_root)
 
     if total == 0:
         print("No entry files found.")
@@ -428,6 +549,24 @@ def main():
             print(f"    - {error_msg}")
         print()
 
+    # Report semantic warnings (homonym mismatches)
+    if semantic_warnings:
+        print(f"\nCross-reference semantic warnings ({len(semantic_warnings)} issues):\n")
+        for file_path, warning_msg in semantic_warnings:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {warning_msg}")
+        print()
+
+    # Report timestamp warnings
+    if timestamp_warnings:
+        print(f"\nTimestamp warnings ({len(timestamp_warnings)} issues):\n")
+        for file_path, warning_msg in timestamp_warnings:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {warning_msg}")
+        print()
+
     # Report audio integrity warnings
     if missing_audio or orphaned_audio:
         print(f"\nAudio integrity warnings:\n")
@@ -449,6 +588,10 @@ def main():
     warnings = []
     if cross_ref_errors:
         warnings.append(f"{len(cross_ref_errors)} cross-reference warnings")
+    if semantic_warnings:
+        warnings.append(f"{len(semantic_warnings)} homonym mismatch warnings")
+    if timestamp_warnings:
+        warnings.append(f"{len(timestamp_warnings)} timestamp warnings")
     if missing_audio:
         warnings.append(f"{len(missing_audio)} missing audio")
     if orphaned_audio:

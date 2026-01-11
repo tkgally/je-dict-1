@@ -117,6 +117,12 @@ This produces: `"2026-01-11T04:15:42Z"` (UTC) → displays as `2026.1.11 13:15` 
 
 **Never use hardcoded timestamps** like `"2026-01-09T12:00:00Z"` - this causes incorrect dates in the Recent view.
 
+**Validation checks for timestamp issues:**
+- Future timestamps (created/modified time is in the future)
+- Suspiciously round timestamps (exactly on the hour with :00:00 seconds, likely hardcoded)
+
+Run `python3 build/validate.py` to check for these issues.
+
 ## Quality Checklist
 
 Before finalizing any entry, verify:

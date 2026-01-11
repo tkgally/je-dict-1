@@ -124,10 +124,43 @@ Each cross-reference object requires:
 |-------|----------|-------------|
 | `type` | Yes | One of: pair, synonym, antonym, keigo, related, see_also, contrast |
 | `reading` | Yes | Hiragana reading (primary lookup key) |
-| `headword` | No* | Display form with furigana (recommended) |
+| `headword` | Yes* | Display form with furigana (required for homonym disambiguation) |
 | `label` | No | Short descriptor |
 
-*Headword is optional but strongly recommended for display purposes.
+*Headword is **required** for proper resolution. Without it, cross-references cannot be disambiguated between homonyms.
+
+## Homonym Disambiguation
+
+**CRITICAL**: Many Japanese words share the same reading but have different kanji (homonyms). The headword field is essential for correct resolution.
+
+Example: The reading かんじょう has multiple entries:
+- {感情|かんじょう} - emotion, feeling
+- {勘定|かんじょう} - bill, calculation
+
+If you reference かんじょう without specifying the headword, the system cannot determine which entry you mean.
+
+**Always include the headword** to ensure cross-references link to the correct entry.
+
+```json
+// CORRECT - specifies headword for disambiguation
+{
+  "type": "synonym",
+  "reading": "かんじょう",
+  "headword": "{勘定|かんじょう}",
+  "label": "bill, calculation"
+}
+
+// INCORRECT - no headword, may link to wrong homonym
+{
+  "type": "synonym",
+  "reading": "かんじょう",
+  "label": "bill, calculation"
+}
+```
+
+**Validation detects homonym mismatches**: When you specify a headword that doesn't match any existing entry with that reading (e.g., 勘定 when only 感情 exists), the validator will warn you. This indicates either:
+1. The target entry doesn't exist yet (forward reference - OK)
+2. The headword is incorrect (fix it)
 
 ## Priority Order
 
@@ -211,6 +244,7 @@ The validator checks:
 - Valid type values
 - Reading is valid hiragana
 - No self-references
+- **Homonym mismatches** - warns when a headword is specified but doesn't match any existing entry with that reading (helps catch incorrect cross-references to homonyms)
 
 ## Example Entry
 
