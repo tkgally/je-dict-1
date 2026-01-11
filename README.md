@@ -19,11 +19,12 @@ This dictionary is designed for learners of Japanese as a second language. Unlik
 
 ## Current Status
 
-- **2,024 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started)
-- **Audio pronunciation** for example sentences (112 audio files currently)
+- **2,074 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started)
+- **1,028 audio files** with pronunciation for example sentences
 - **Quality specification v2** based on multi-model LLM evaluation
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
+- **400 cross-references** with 95% resolution rate
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
@@ -160,15 +161,17 @@ je-dict-1/
 ├── audio-to-add/         # Staging directory for new audio files
 ├── build/                # Build and management scripts
 │   ├── schema.json       # JSON schema for entries
-│   ├── validate.py       # Entry validation script
+│   ├── validate.py       # Entry validation (schema, cross-refs, audio integrity)
 │   ├── build.py          # Main build script
 │   ├── build_flat.py     # Static HTML site generator
+│   ├── resolve_links.py  # Cross-reference resolution
 │   ├── merge_audio.py    # Merges audio files into entries
-│   ├── migrate_entries.py        # Migration to prefix-based structure
+│   ├── path_utils.py     # Shared path/prefix utilities
+│   ├── japanese_utils.py # Hiragana/romaji conversion, kana mappings
 │   ├── update_entries_index.py   # Updates entries_index.json
 │   ├── manage_candidates.py      # Manages candidate_words.json
 │   ├── update_indexes.py         # Updates both index files
-│   └── requirements.txt
+│   └── requirements.txt  # Python 3.10+ dependencies
 ├── docs/                 # Generated output (served by GitHub Pages)
 │   ├── entries/          # Individual entry HTML files
 │   │   ├── a/            # (same prefix structure as entries/)
@@ -249,7 +252,13 @@ Each entry is a JSON file with the following structure:
     }
   ],
   "notes": "Usage notes, grammar notes, etc.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "pair",
+      "reading": "たべもの",
+      "headword": "{食|た}べ{物|もの}"
+    }
+  ],
   "metadata": {
     "created": "2026-01-05T10:00:00Z",
     "modified": "2026-01-05T10:00:00Z",
@@ -359,10 +368,11 @@ audio/
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle and furigana button
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
-- [x] Cross-reference linking system
-- [x] Audio pronunciation for example sentences
+- [x] Cross-reference linking system (400 references, 95% resolved)
+- [x] Audio pronunciation for 1,028 example sentences
 - [x] Static HTML site generation (flat HTML only)
 - [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
+- [x] Code quality improvements (shared utilities, deterministic builds)
 - [ ] Continue adding vocabulary from candidate list (~1,980 candidates)
 - [ ] Conjugation search indexing
 
@@ -387,6 +397,7 @@ The following skills are available in `.claude/skills/` and will be automaticall
 | `other-entries` | Requirements for nouns, counters, adverbs, expressions |
 | `revise-entries` | Checklist for revising existing entries to v2 standards |
 | `vocabulary-notes` | Formatting guidelines for notes field |
+| `cross-reference-entry` | Guidelines for adding cross-references between entries |
 
 Skills are automatically loaded when Claude determines they're relevant to the current task.
 
