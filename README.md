@@ -21,7 +21,7 @@ This dictionary is designed for learners of Japanese as a second language. Its f
 ## Current Status
 
 - **2,834 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started), with a total target of about 10,000 entries
-- **1,028 audio files** with pronunciation for example sentences
+- **1,028 audio files** with pronunciation for example sentences, produced with OpenAI’s text-to-speech models
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
 - **400 cross-references** with 95% resolution rate
