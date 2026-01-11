@@ -32,11 +32,12 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,442
+- **Total entries**: 2,690
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~430 entries added
-- **JLPT N3 vocabulary**: ~370 entries added
+- **JLPT N3 vocabulary**: ~420 entries added
 - **Candidate words**: ~2,625 words tracked in `candidate_words.json`
+- **Priority candidates**: 94 words remaining in `candidate_words_priority.json`
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
@@ -95,6 +96,17 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 50 New Entries, Session 8)
+- Added 50 new dictionary entries from candidate_words_priority.json (2,442 → 2,690 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include N5/N3 vocabulary:
+  - N5: 四つ (counter), じゃ (conjunction)
+  - N3 Nouns: 裏側, 貸出, 片方, 川沿い, 管理人, 外国産, 記念品, 希望者, 共通点, 掲示板, 血液型, 研究所, 交通費, 購入, 最上, 参加者, 試食, 室内, 指導者, 始発, 社員, 車道, 市役所, 集合, 小学生, 小説家, 調べ物, 新入生, 信念, 時差, 実家, 実習, 自動販売機, 事務室, 上空, 正解, 政治家, 正常, 制服, 説明会, 専門家
+  - N3 Verbs: 嫌がる, 語り合う, 仕舞う, 知り合う
+  - N3 Adjectives: 恋しい, 上品
+  - N3 Adverb: 徐々
+- Removed 50 candidates from candidate_words_priority.json (144 → 94)
 
 ### 2026-01-11 (Vocabulary Expansion - 50 New Entries, Session 7)
 - Added 50 new dictionary entries (2,392 → 2,442 total)
