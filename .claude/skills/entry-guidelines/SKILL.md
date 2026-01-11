@@ -26,8 +26,19 @@ Each dictionary entry must be written individually by hand, using:
 1. Select a word from `candidate_words.json` or user request
 2. Research/consider the word's usage, collocations, and common patterns
 3. Write the entry JSON directly using the Write tool
-4. Validate and build to confirm correctness
+4. Validate: `python3 build/validate.py`
 5. Repeat for each entry
+
+**After finishing all entries for a session:**
+```bash
+python3 build/validate.py           # Validate all entries
+python3 build/update_indexes.py     # Update indexes and sync candidates
+python3 build/build_flat.py         # Rebuild website (REQUIRED for GitHub Pages)
+git add entries/ docs/ *.json PROJECT_STATUS.md
+git commit -m "Add N new dictionary entries"
+git push
+```
+The `build_flat.py` step is critical - without it, new entries won't appear on the live site.
 
 **Never create scripts that generate entry content programmatically.**
 

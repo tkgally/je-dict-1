@@ -242,11 +242,12 @@ This will:
 - Update `entries_index.json` with the new entry
 - Remove added words from `candidate_words.json` (sync)
 
-### Step 5: Build and Test
+### Step 5: Rebuild Website
+**IMPORTANT: Run this to update the GitHub Pages site:**
 ```bash
-python3 build/build.py
-# Then open docs/index.html to verify
+python3 build/build_flat.py
 ```
+This regenerates all HTML files in `docs/` which GitHub Pages serves. Without this step, new entries won't appear on the live site.
 
 ### Step 6: Add Cross-References
 1. Use the `cross-reference-entry` skill for guidelines
@@ -258,7 +259,10 @@ python3 build/build.py
 3. References can point to entries that don't exist yet
 
 ### Step 7: Commit Changes
-Commit the new entry files, updated indexes, and rebuilt docs/
+Commit all changes including:
+- New entry JSON files in `entries/`
+- Updated `entries_index.json` and `candidate_words.json`
+- Rebuilt `docs/` folder (required for GitHub Pages to update)
 
 ## Workflow: Adding Audio Files
 
