@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,784
+- **Total entries**: 2,834
 - **JLPT N5 coverage**: ~95% complete
-- **JLPT N4 coverage**: ~440 entries added
-- **JLPT N3 vocabulary**: ~490 entries added
-- **Candidate words**: ~2,625 words tracked in `candidate_words.json`
+- **JLPT N4 coverage**: ~450 entries added
+- **JLPT N3 vocabulary**: ~540 entries added
+- **Candidate words**: ~2,672 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -51,7 +51,7 @@
 | Type | Count | Notes |
 |------|-------|-------|
 | Verbs | ~220 | Includes 95 N4 verbs with transitivity info |
-| Nouns | ~430 | Includes N4 nouns, katakana loanwords |
+| Nouns | ~480 | Includes N4 nouns, katakana loanwords |
 | Adjectives | ~100 | I-adjectives and na-adjectives |
 | Adverbs | ~56 | Includes 11 new N4 adverbs |
 | Particles | 10 | Core particles with predicate lists |
@@ -96,6 +96,19 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 50 New Entries, Session 10)
+- Added 50 new dictionary entries from candidate_words.json (2,784 → 2,834 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on し-row words:
+  - Nouns: 刺激, 資源, 支出, 詩人, 思想, 次第, 湿気, 失業, 湿度, 失望, 支店, 視点, 指導, 品, 支払, 芝居, 芝生, 資本, 死亡, 脂肪, 志望, 姉妹, 霜, 借金, 週, 州, 周囲, 収穫, 宗教, 就職, 修正, 集団, 集中, 収入, 修理, 主義, 宿泊, 首相, 手術, 手段, 主張, 出身, 出版, 出場, 首都, 主婦, 瞬間, 賞, 障害, 生涯
+- Notable entry pairs:
+  - 死亡/脂肪/志望 (homophones しぼう)
+  - 支店/視点 (homophones してん)
+  - 障害/生涯 (homophones しょうがい)
+  - 収入 ↔ 支出 (antonym pair: income/expenditure)
+  - 就職 ↔ 失業 (antonym pair: employment/unemployment)
+- Removed 53 candidates from candidate_words.json (2,725 → 2,672)
 
 ### 2026-01-11 (Vocabulary Expansion - 94 New Entries, Session 9)
 - Added 94 new dictionary entries from candidate_words_priority.json (2,690 → 2,784 total)
