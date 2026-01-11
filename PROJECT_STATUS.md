@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-10
+**Last updated**: 2026-01-11
 **Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -11,11 +11,11 @@
 **Phase 4: N4 Vocabulary Expansion & Interface Enhancement** - Adding N4 vocabulary while maintaining v2 quality standards, plus new web interface features.
 
 ### Infrastructure Status
-- [x] Directory structure created
+- [x] Directory structure created (prefix-based subdirectories for scalability)
 - [x] JSON schema defined (`build/schema.json`)
 - [x] Validation script working (`build/validate.py`)
 - [x] Build script working (`build/build.py`)
-- [x] Web interface functional with search
+- [x] Static HTML site generation (`build/build_flat.py`)
 - [x] Furigana system with toggle
 - [x] Claude Code skills for entry guidelines
 - [x] Quality specification v2 from multi-model evaluation
@@ -26,7 +26,7 @@
 - [x] Last updated date in footer
 - [x] Cross-reference linking system with UI navigation
 - [x] Audio pronunciation for example sentences (112 audio files)
-- [x] Flat HTML site generation (`build/build_flat.py`)
+- [x] Prefix-based subdirectory structure for entries and audio (scalable to 10,000+ entries)
 
 ### Content Status
 - **Total entries**: 2,074
@@ -92,20 +92,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Recent Changes
 
+### 2026-01-11 (Prefix-Based Subdirectory Reorganization)
+- Reorganized entries into prefix-based subdirectories to avoid GitHub's 1,000 file/directory limit
+- Entry structure: `entries/{kana}/{prefix}/{id}.json` (prefix = first 2 chars of entry ID)
+- HTML output: `docs/entries/{kana}/{prefix}/{id}.html`
+- Audio structure: `audio/{kana}/{prefix}/{id}-exN.mp3`
+- Created `build/migrate_entries.py` for migrating entries to new structure
+- Updated validation to check prefix directory placement
+- Simplified `build/build.py` (SPA version removed, flat HTML is now the only output)
+- All 2,074 entries migrated successfully
+- Scalable to 10,000+ entries
+
 ### 2026-01-10 (Flat HTML Site Build)
-- Added parallel flat HTML build (`build/build_flat.py`)
-- Each entry gets its own standalone HTML page at `docs/flat/entries/{kana}/{id}.html`
+- Static HTML site generation (`build/build_flat.py`)
+- Each entry gets its own standalone HTML page
 - Navigation pages: index.html, search.html, browse.html, recent.html, random.html
 - Compact search index with minimal entry data for fast loading
 - Works without JavaScript (native HTML5 audio controls, expandable browse sections)
 - Cross-reference links work between entry pages
-- Audio files copied to docs/flat/audio/
-- Build process runs automatically with main build.py
-- Updated README.md with Site Formats documentation
 
 ### 2026-01-10 (Audio Pronunciation Support)
 - Implemented audio playback for example sentences
-- Audio files stored as MP3 in `audio/{kana}/` directory structure
+- Audio files stored as MP3 in `audio/{kana}/{prefix}/` directory structure
 - Web interface shows play/stop buttons for examples with audio
 - Created `build/merge_audio.py` for processing new audio files
 - Build process copies audio to `docs/audio/` preserving folder structure
@@ -190,8 +198,11 @@ Follow this step-by-step process when adding new dictionary entries from `candid
    - Particles: `particle-entry` skill
    - Others: `other-entries` skill
 3. Follow `vocabulary-notes` skill for notes formatting
-4. Place file in correct directory based on reading's first kana:
-   - あ行 → `entries/a/`, か行 → `entries/ka/`, etc.
+4. Place file in correct directory based on reading and ID:
+   - Directory: `entries/{kana}/{prefix}/` where:
+     - `{kana}`: Based on first kana of reading (あ行 → `a/`, か行 → `ka/`, etc.)
+     - `{prefix}`: First 2 characters of entry ID (e.g., `taberu_00001` → `ta/`)
+   - Example: `entries/ta/ta/taberu_00001.json`
 5. File naming: `{romaji}_{5-digit-id}.json`
 
 ### Step 3: Validate Entry
@@ -242,7 +253,7 @@ Example: `taberu_00001-ex1.mp3` for the first example of entry `taberu_00001`
 python3 build/merge_audio.py
 ```
 This will:
-- Copy MP3 files to `audio/{kana}/` directory
+- Copy MP3 files to `audio/{kana}/{prefix}/` directory
 - Update entry files to set `has_audio: true` on examples
 
 ### Step 3: Build and Test
@@ -252,12 +263,16 @@ python3 build/build.py
 ```
 
 ### Audio Directory Structure
-Audio files are organized by kana (matching entries/):
+Audio files are organized by kana and prefix (matching entries/):
 ```
 audio/
-├── a/    # あ行
-├── ka/   # か行
-├── sa/   # さ行
+├── a/           # あ行
+│   ├── a_/      # Entries starting with 'a_'
+│   ├── am/      # Entries starting with 'am'
+│   └── ...
+├── ka/          # か行
+│   ├── ka/      # Entries starting with 'ka'
+│   └── ...
 └── ...
 ```
 
@@ -330,7 +345,10 @@ open docs/index.html
 ### File Naming Convention
 - Format: `{romanized_reading}_{5-digit-id}.json`
 - Romanization: Modified Hepburn with kana-faithful long vowels
-- Directory: Based on first kana of reading
+- Directory: `entries/{kana}/{prefix}/` where:
+  - `{kana}`: Based on first kana of reading (あ → `a/`, か → `ka/`, etc.)
+  - `{prefix}`: First 2 characters of entry ID (e.g., `taberu` → `ta/`)
+- Example: `entries/ta/ta/taberu_00001.json`
 - Katakana loanwords: Use hiragana reading (e.g., アルバイト → あるばいと)
 
 ### Entry and Candidate Tracking
