@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="テニス - tennis. Japanese-English dictionary entry with definitions and examples.">
+    <title>テニス (てにす) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">テニス</h1>
+            <div class="entry-reading">てにす</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">tennis</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">tennis</span>
+                    <div class="definition-explanation">A racket sport played on a court between two players or two pairs of players.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">テニスを<ruby>習<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>っています。</div>
+                    <div class="example-english">I&#x27;m learning tennis.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>週末<rp>(</rp><rt>しゅうまつ</rt><rp>)</rp></ruby>にテニスをしませんか。</div>
+                    <div class="example-english">Would you like to play tennis this weekend?</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">テニスコートを<ruby>予約<rp>(</rp><rt>よやく</rt><rp>)</rp></ruby>しました。</div>
+                    <div class="example-english">I reserved a tennis court.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>テニス is a loanword from English &quot;tennis.&quot;</p><p>COMMON EXPRESSIONS:</p><ul><li>テニスをする: to play tennis</li><li>テニスコート: tennis court</li><li>テニスラケット: tennis racket</li><li>テニス<ruby>部<rp>(</rp><rt>ぶ</rt><rp>)</rp></ruby>: tennis club</li></ul><p>OTHER SPORTS:</p><ul><li>バドミントン: badminton</li><li><ruby>卓球<rp>(</rp><rt>たっきゅう</rt><rp>)</rp></ruby>: table tennis</li><li>サッカー: soccer</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:00</div>
+                <div class="metadata-file">ta/tenisu_00520</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

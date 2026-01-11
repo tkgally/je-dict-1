@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="持ち上げる - to lift up, to raise. Japanese-English dictionary entry with definitions and examples.">
+    <title>持ち上げる (もちあげる) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げる</h1>
+            <div class="entry-reading">もちあげる</div>
+            <div class="entry-pos">ichidan verb</div>
+            <div class="entry-gloss">to lift up, to raise</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to lift up, to raise</span>
+                    <div class="definition-explanation">To elevate something physically.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">to flatter, to praise excessively</span>
+                    <div class="definition-explanation">To speak highly of someone (often to gain favor).</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>重<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>い<ruby>荷物<rp>(</rp><rt>にもつ</rt><rp>)</rp></ruby>を持ち上げる。</div>
+                    <div class="example-english">To lift up heavy luggage.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>上司<rp>(</rp><rt>じょうし</rt><rp>)</rp></ruby>を持ち上げる。</div>
+                    <div class="example-english">To flatter one&#x27;s boss.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>持ち上げる is a compound verb (持つ + 上げる).</p><p>COMMON PATTERNS:</p><ul><li>〜を持ち上げる: to lift up ~</li><li>〜を<ruby>褒<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>めて持ち上げる: to praise and flatter ~</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 17:21</div>
+                <div class="metadata-file">ma/mochiageru_01230</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="同志 - comrade, like-minded person. Japanese-English dictionary entry with definitions and examples.">
+    <title>同志 (どうし) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>同志<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">どうし</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">comrade, like-minded person</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">comrade, like-minded person</span>
+                    <div class="definition-explanation">A person who shares the same beliefs, goals, or cause.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">fellow, companion</span>
+                    <div class="definition-explanation">People who share a common characteristic or situation.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>らは<ruby>同志<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>として<ruby>協力<rp>(</rp><rt>きょうりょく</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">They cooperated as comrades.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>同志<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>を<ruby>募<rp>(</rp><rt>つの</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">To recruit like-minded people.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>革命<rp>(</rp><rt>かくめい</rt><rp>)</rp></ruby>の<ruby>同志<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>だった。</div>
+                    <div class="example-english">They were revolutionary comrades.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>同志<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby> refers to people who share common goals or beliefs.</p><p>COMMON PATTERNS:</p><ul><li><ruby>同志<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>を<ruby>集<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>める (gather like-minded people)</li><li><ruby>同志<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>として (as comrades)</li></ul><p>USAGE NOTE:</p><ul><li>Can have political connotations (communist/socialist movements)</li><li>Also used more generally for allies with shared goals</li></ul><p>SIMILAR WORDS:</p><ul><li><ruby>仲間<rp>(</rp><rt>なかま</rt><rp>)</rp></ruby>: companion, colleague (everyday)</li><li><ruby>同志<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>: comrade (ideological connotation)</li><li><ruby>同胞<rp>(</rp><rt>どうほう</rt><rp>)</rp></ruby>: compatriot, fellow countryman</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N1</span>
+                    <span class="badge status-verified">verified</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:15</div>
+                <div class="metadata-file">ta/doushi_00508</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

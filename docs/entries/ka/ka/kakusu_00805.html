@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="隠す - to hide, to conceal. Japanese-English dictionary entry with definitions and examples.">
+    <title>隠す (かくす) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す</h1>
+            <div class="entry-reading">かくす</div>
+            <div class="entry-pos">verb (godan)</div>
+            <div class="entry-gloss">to hide, to conceal</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to hide, to conceal</span>
+                    <div class="definition-explanation">To keep something from being seen or known.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>顔<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>を<ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す。</div>
+                    <div class="example-english">To hide one&#x27;s face.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>秘密<rp>(</rp><rt>ひみつ</rt><rp>)</rp></ruby>を<ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す。</div>
+                    <div class="example-english">To keep a secret.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>本当<rp>(</rp><rt>ほんとう</rt><rp>)</rp></ruby>のことを<ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>さないで。</div>
+                    <div class="example-english">Don&#x27;t hide the truth.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す means to hide (transitive).</p><p>TRANSITIVITY:</p><ul><li><ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す (transitive): to hide</li><li><ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>れる (intransitive): to hide oneself</li></ul><p>COMMON USES:</p><ul><li><ruby>顔<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>を<ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す: to hide one&#x27;s face</li><li><ruby>感情<rp>(</rp><rt>かんじょう</rt><rp>)</rp></ruby>を<ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す: to hide feelings</li><li><ruby>事実<rp>(</rp><rt>じじつ</rt><rp>)</rp></ruby>を<ruby>隠<rp>(</rp><rt>かく</rt><rp>)</rp></ruby>す: to conceal facts</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:00</div>
+                <div class="metadata-file">ka/kakusu_00805</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
