@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,244
+- **Total entries**: 2,294
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~430 entries added
-- **JLPT N3 vocabulary**: ~175 entries added
-- **Candidate words**: ~1,816 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~225 entries added
+- **Candidate words**: ~1,767 words tracked in `candidate_words.json`
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
@@ -95,6 +95,17 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 50 New Entries, Session 4)
+- Added 50 new dictionary entries (2,244 → 2,294 total)
+- New entries include a mix of N2/N3 vocabulary:
+  - Nouns: 禁止, 禁煙, 金属, 筋肉, 義務, 疑問, 議論, 銀, 苦痛, 課程, 鐘, 強力, 鎖, 下り, 議員, 議会, 行儀, 近代, 金融, 金額, 金, 切れ, 組, 組合, 暮らし, 暮れ, 苦労, 訓練, 偶然, 具体, 軍, 軍隊, 管, 技師, 議長, 菌, 近視, 金銭, 器官, 歓声, 局, 協調, 狩り, 計
+  - Adjectives: 器用, 可哀そう, お洒落
+  - Adverbs: ぐっすり
+  - Verbs: 逆, 食う
+- Fixed 10 prefix directory mismatches (gi*, gy*, ky* entries)
+- Fixed 3 cross-reference format issues
+- Removed 49 candidates from candidate_words.json
 
 ### 2026-01-11 (Vocabulary Expansion - 33 New Entries, Session 3)
 - Added 33 new dictionary entries (2,211 → 2,244 total)
