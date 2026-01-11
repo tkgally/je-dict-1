@@ -105,16 +105,15 @@ Every entry must include:
 
 ## Metadata Timestamps
 
-**IMPORTANT**: Use actual current Japan Standard Time (JST) for `created` and `modified` fields.
+**IMPORTANT**: Use actual current **UTC time** for `created` and `modified` fields. The website automatically converts to JST for display.
 
 Generate timestamps dynamically:
 ```python
-from datetime import datetime, timezone, timedelta
-jst = timezone(timedelta(hours=9))
-timestamp = datetime.now(jst).strftime('%Y-%m-%dT%H:%M:%SZ')
+from datetime import datetime, timezone
+timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 ```
 
-This produces: `"2026-01-11T13:15:42Z"` (JST, UTC+9)
+This produces: `"2026-01-11T04:15:42Z"` (UTC) → displays as `2026.1.11 13:15` (JST)
 
 **Never use hardcoded timestamps** like `"2026-01-09T12:00:00Z"` - this causes incorrect dates in the Recent view.
 
