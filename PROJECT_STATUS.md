@@ -32,12 +32,12 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,690
+- **Total entries**: 2,784
 - **JLPT N5 coverage**: ~95% complete
-- **JLPT N4 coverage**: ~430 entries added
-- **JLPT N3 vocabulary**: ~420 entries added
+- **JLPT N4 coverage**: ~440 entries added
+- **JLPT N3 vocabulary**: ~490 entries added
 - **Candidate words**: ~2,625 words tracked in `candidate_words.json`
-- **Priority candidates**: 94 words remaining in `candidate_words_priority.json`
+- **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 94 New Entries, Session 9)
+- Added 94 new dictionary entries from candidate_words_priority.json (2,690 → 2,784 total)
+- Completed ALL priority candidates - priority list now empty
+- Each entry written individually following entry-guidelines skill
+- New entries include N5/N4/N3 vocabulary:
+  - N5 Suffixes/Grammar: 〜がる, 〜側, 〜ころ, 〜ずつ, 〜だけ, 〜時, 〜など, 〜屋, お〜, 何〜, そうです
+  - N5 Nouns: テープレコーダー, ラジカセ
+  - N4 Grammar: 〜てしまう, 〜について, 〜によると
+  - N4 Nouns: 泳ぎ方, スーパー, パート, リポート
+  - N4 Verbs: 回る, 回す (transitivity pair)
+  - N3 Nouns: 前日, 早朝, 祖父母, 体育館, 大量, 大成功, 大都会, 代表者, 男女, 近道, 中心地, 長所, 朝食, 定食, 店内, 電球, 内緒, 仲直り, 長生き, 入社, 人数, 発生, 花束, 花屋, 歯磨き, 半年, 人々, 一人暮らし, 表示, 沸騰, 不用品, 無沙汰, 平方メートル, 返却, 弁護士, 歩行者, 本気, 窓口, ママ, 満点, 身近, 目覚まし時計, 免許証, 申し込み, 申込書, 木曜, 持ち運び, 持ち物, 遊園地, 郵送, 有料, 行き先, 翌朝, 翌年, 汚れ, 予想外, 利用者, 連絡先, 割
+  - N3 Verbs: 立て直す, 話しかける, 引き受ける, 身につける, 役立つ, やり直す
+  - N3 Adjectives: 力強い, 情けない, 不可能
+  - N3 Adverbs: 早めに, 日夜
+  - N3 Suffix: 放題
+- Priority candidates reduced from 94 to 0
 
 ### 2026-01-11 (Vocabulary Expansion - 50 New Entries, Session 8)
 - Added 50 new dictionary entries from candidate_words_priority.json (2,442 → 2,690 total)
