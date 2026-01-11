@@ -78,6 +78,15 @@ KANA_TO_DIRECTORY = {
 }
 
 
+def get_entry_prefix(entry_id: str) -> str:
+    """
+    Get the 2-character prefix for entry file organization.
+
+    Example: 'taberu_00001' -> 'ta'
+    """
+    return entry_id[:2].lower()
+
+
 def hiragana_to_romaji(reading: str) -> str:
     """Convert hiragana reading to romaji."""
     result = []
@@ -175,12 +184,20 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> list[str
     if file_path.name != expected_filename:
         errors.append(f"Filename mismatch: expected {expected_filename}, got {file_path.name}")
 
-    # Check directory matches reading
+    # Check directory structure: entries/{kana}/{prefix}/{id}.json
     reading = entry['reading']
-    expected_dir = get_expected_directory(reading)
-    actual_dir = file_path.parent.name
-    if expected_dir and actual_dir != expected_dir:
-        errors.append(f"Directory mismatch: entry with reading '{reading}' should be in '{expected_dir}/', not '{actual_dir}/'")
+    expected_kana_dir = get_expected_directory(reading)
+    expected_prefix_dir = get_entry_prefix(entry_id)
+
+    # Parent is prefix directory, grandparent is kana directory
+    actual_prefix_dir = file_path.parent.name
+    actual_kana_dir = file_path.parent.parent.name
+
+    if expected_prefix_dir and actual_prefix_dir != expected_prefix_dir:
+        errors.append(f"Prefix directory mismatch: entry '{entry_id}' should be in '{expected_prefix_dir}/', not '{actual_prefix_dir}/'")
+
+    if expected_kana_dir and actual_kana_dir != expected_kana_dir:
+        errors.append(f"Kana directory mismatch: entry with reading '{reading}' should be in '{expected_kana_dir}/', not '{actual_kana_dir}/'")
 
     # Check ID romanization matches reading
     id_parts = entry_id.split('_')

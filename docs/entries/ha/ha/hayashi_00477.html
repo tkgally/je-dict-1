@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="林 - woods, grove. Japanese-English dictionary entry with definitions and examples.">
+    <title>林 (はやし) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>林<rp>(</rp><rt>はやし</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">はやし</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">woods, grove</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">woods, grove, small forest</span>
+                    <div class="definition-explanation">A group of trees smaller than a forest, often in or near populated areas.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>林<rp>(</rp><rt>はやし</rt><rp>)</rp></ruby>の<ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>を<ruby>散歩<rp>(</rp><rt>さんぽ</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I took a walk through the woods.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>の<ruby>近<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>くに<ruby>林<rp>(</rp><rt>はやし</rt><rp>)</rp></ruby>があります。</div>
+                    <div class="example-english">There&#x27;s a grove near my house.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>竹林<rp>(</rp><rt>ちくりん</rt><rp>)</rp></ruby>が<ruby>美<rp>(</rp><rt>うつく</rt><rp>)</rp></ruby>しい。</div>
+                    <div class="example-english">The bamboo grove is beautiful.</div>
+                    <div class="example-notes">竹林 uses different reading (ちくりん)</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>林<rp>(</rp><rt>はやし</rt><rp>)</rp></ruby> refers to a smaller wooded area than <ruby>森<rp>(</rp><rt>もり</rt><rp>)</rp></ruby> (forest).</p><p><ruby>林<rp>(</rp><rt>はやし</rt><rp>)</rp></ruby> vs <ruby>森<rp>(</rp><rt>もり</rt><rp>)</rp></ruby>:</p><ul><li><ruby>林<rp>(</rp><rt>はやし</rt><rp>)</rp></ruby>: woods, grove (smaller, often human-managed)</li><li><ruby>森<rp>(</rp><rt>もり</rt><rp>)</rp></ruby>: forest (larger, more natural/wild)</li></ul><p>COMMON COMPOUNDS:</p><ul><li><ruby>竹林<rp>(</rp><rt>ちくりん/たけばやし</rt><rp>)</rp></ruby>: bamboo grove</li><li><ruby>雑木林<rp>(</rp><rt>ぞうきばやし</rt><rp>)</rp></ruby>: thicket, copse</li><li><ruby>松林<rp>(</rp><rt>まつばやし</rt><rp>)</rp></ruby>: pine grove</li><li><ruby>林業<rp>(</rp><rt>りんぎょう</rt><rp>)</rp></ruby>: forestry</li></ul><p>Note: <ruby>林<rp>(</rp><rt>はやし</rt><rp>)</rp></ruby> is also a common Japanese surname.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:00</div>
+                <div class="metadata-file">ha/hayashi_00477</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

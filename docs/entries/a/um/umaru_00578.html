@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="埋まる - to be buried, to be filled. Japanese-English dictionary entry with definitions and examples.">
+    <title>埋まる (うまる) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まる</h1>
+            <div class="entry-reading">うまる</div>
+            <div class="entry-pos">verb (godan)</div>
+            <div class="entry-gloss">to be buried, to be filled</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to be buried, to be covered</span>
+                    <div class="definition-explanation">To be hidden under something.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">to be filled, to be packed</span>
+                    <div class="definition-explanation">To have all spaces occupied.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>雪<rp>(</rp><rt>ゆき</rt><rp>)</rp></ruby>に<ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まる。</div>
+                    <div class="example-english">To be buried in snow.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>席<rp>(</rp><rt>せき</rt><rp>)</rp></ruby>が<ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まった。</div>
+                    <div class="example-english">The seats are filled.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>予定<rp>(</rp><rt>よてい</rt><rp>)</rp></ruby>が<ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まっている。</div>
+                    <div class="example-english">My schedule is full.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まる means to be buried or filled.</p><p>TRANSITIVITY:</p><ul><li><ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まる (intransitive): to be buried</li><li><ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>める (transitive): to bury</li></ul><p>COMMON USES:</p><ul><li><ruby>雪<rp>(</rp><rt>ゆき</rt><rp>)</rp></ruby>に<ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まる: to be buried in snow</li><li><ruby>席<rp>(</rp><rt>せき</rt><rp>)</rp></ruby>が<ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まる: seats fill up</li><li><ruby>予定<rp>(</rp><rt>よてい</rt><rp>)</rp></ruby>が<ruby>埋<rp>(</rp><rt>う</rt><rp>)</rp></ruby>まる: schedule fills up</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:00</div>
+                <div class="metadata-file">a/umaru_00578</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

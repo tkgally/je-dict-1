@@ -277,12 +277,13 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 </head>'''
 
 
-def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, relative_path: str = '../../') -> str:
+def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, relative_path: str = '../../../') -> str:
     """Generate HTML content for a single entry page."""
     entry_id = entry['id']
     headword = entry['headword']
     reading = entry['reading']
     folder = get_kana_folder(reading)
+    prefix = get_entry_prefix(entry_id)
 
     # Build title
     headword_plain = strip_furigana(headword)
@@ -401,10 +402,11 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, 
 
             if resolved and target_id:
                 target_folder = get_kana_folder(entries_dict[target_id]['reading'])
+                target_prefix = get_entry_prefix(target_id)
                 html_parts.append(f'''
                     <div class="cross-ref">
                         <span class="cross-ref-type">{html.escape(type_label)}:</span>
-                        <a href="{relative_path}entries/{target_folder}/{target_id}.html" class="cross-ref-link">
+                        <a href="{relative_path}entries/{target_folder}/{target_prefix}/{target_id}.html" class="cross-ref-link">
                             {display}{label_text}
                         </a>
                     </div>
@@ -652,7 +654,8 @@ def generate_search_js() -> str:
             resultsHeading.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' for "' + query + '"';
             resultsList.innerHTML = results.map(function(entry) {
                 const folder = entry.folder || 'a';
-                return '<a href="entries/' + folder + '/' + entry.id + '.html" class="result-item">' +
+                const prefix = entry.prefix || entry.id.substring(0, 2);
+                return '<a href="entries/' + folder + '/' + prefix + '/' + entry.id + '.html" class="result-item">' +
                     '<div class="result-headword">' + entry.headword + '</div>' +
                     '<div class="result-reading">' + entry.reading + '</div>' +
                     '<div class="result-gloss">' + entry.gloss + '</div>' +
@@ -722,9 +725,10 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
 
         for entry in row_entries:
             folder = get_kana_folder(entry['reading'])
+            prefix = get_entry_prefix(entry['id'])
             headword_html = process_furigana(entry['headword'])
             html_parts.append(f'''
-                <a href="entries/{folder}/{entry['id']}.html" class="browse-entry">
+                <a href="entries/{folder}/{prefix}/{entry['id']}.html" class="browse-entry">
                     <span class="browse-headword">{headword_html}</span>
                     <span class="browse-reading">{html.escape(entry['reading'])}</span>
                     <span class="browse-gloss">{html.escape(entry.get('gloss', ''))}</span>
@@ -765,6 +769,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
 
         entry = entries_dict[entry_id]
         folder = get_kana_folder(entry['reading'])
+        prefix = get_entry_prefix(entry_id)
         headword_html = process_furigana(item.get('headword', entry['headword']))
         status = item.get('status', 'NEW')
         date = item.get('date', '')
@@ -773,7 +778,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
         status_class = status.lower()
 
         html_parts.append(f'''
-            <a href="entries/{folder}/{entry_id}.html" class="recent-item">
+            <a href="entries/{folder}/{prefix}/{entry_id}.html" class="recent-item">
                 <span class="recent-headword">{headword_html}</span>
                 <span class="recent-gloss">{html.escape(gloss)}</span>
                 <span class="recent-status {status_class}">{status}</span>
@@ -809,9 +814,10 @@ def generate_random_page(entries: list) -> str:
 
     for entry in entries:
         folder = get_kana_folder(entry['reading'])
+        prefix = get_entry_prefix(entry['id'])
         headword_html = process_furigana(entry['headword'])
         html_parts.append(f'''
-            <a href="entries/{folder}/{entry['id']}.html" class="random-word">{headword_html}</a>
+            <a href="entries/{folder}/{prefix}/{entry['id']}.html" class="random-word">{headword_html}</a>
         ''')
 
     html_parts.append('</div>')
@@ -865,6 +871,7 @@ def generate_search_index(entries: list) -> str:
         reading = entry['reading']
         gloss = entry.get('gloss', '')
         folder = get_kana_folder(reading)
+        prefix = get_entry_prefix(entry_id)
 
         # Store minimal entry data for display
         entries_data[entry_id] = {
@@ -873,7 +880,8 @@ def generate_search_index(entries: list) -> str:
             'reading': reading,
             'romaji': hiragana_to_romaji(reading),
             'gloss': gloss,
-            'folder': folder
+            'folder': folder,
+            'prefix': prefix
         }
 
         # Index headword (stripped)
@@ -1850,6 +1858,16 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
     return recent
 
 
+def get_entry_prefix(entry_id: str) -> str:
+    """
+    Get the 2-character prefix for entry file organization.
+
+    This creates a subdirectory structure to avoid GitHub's 1,000 file limit.
+    Example: 'taberu_00001' -> 'ta'
+    """
+    return entry_id[:2].lower()
+
+
 def get_audio_prefix(entry_id: str) -> str:
     """
     Get the 2-character prefix for audio file organization.
@@ -1936,10 +1954,8 @@ def build_flat(project_root: Path) -> int:
 
     docs_dir.mkdir(parents=True, exist_ok=True)
 
-    # Create entry directories for each kana row
+    # Entry directories will be created dynamically with prefix subdirectories
     entries_output_dir = docs_dir / 'entries'
-    for row in KANA_ROWS:
-        (entries_output_dir / row['folder']).mkdir(parents=True, exist_ok=True)
 
     print(f"  Created {docs_dir}")
 
@@ -1947,8 +1963,12 @@ def build_flat(project_root: Path) -> int:
     print("\n[3/7] Generating entry pages...")
     for entry in entries:
         folder = get_kana_folder(entry['reading'])
+        prefix = get_entry_prefix(entry['id'])
         entry_html = generate_entry_html(entry, entries_dict, readings_to_ids)
-        output_path = entries_output_dir / folder / f"{entry['id']}.html"
+        # Create directory structure: entries/{kana}/{prefix}/
+        output_dir = entries_output_dir / folder / prefix
+        output_dir.mkdir(parents=True, exist_ok=True)
+        output_path = output_dir / f"{entry['id']}.html"
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(entry_html)
     print(f"  Generated {len(entries)} entry pages")

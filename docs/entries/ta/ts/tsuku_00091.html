@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="着く - to arrive. Japanese-English dictionary entry with definitions and examples.">
+    <title>着く (つく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く</h1>
+            <div class="entry-reading">つく</div>
+            <div class="entry-pos">verb (godan)</div>
+            <div class="entry-gloss">to arrive</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to arrive, to reach</span>
+                    <div class="definition-explanation">Used when someone or something arrives at a destination. This is the standard verb for expressing arrival at a place. Takes the particle に to mark the destination.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>駅<rp>(</rp><rt>えき</rt><rp>)</rp></ruby>に<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>きました。</div>
+                    <div class="example-english">I arrived at the station.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>何時<rp>(</rp><rt>なんじ</rt><rp>)</rp></ruby>に<ruby>東京<rp>(</rp><rt>とうきょう</rt><rp>)</rp></ruby>に<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>きますか。</div>
+                    <div class="example-english">What time will you arrive in Tokyo?</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>飛行機<rp>(</rp><rt>ひこうき</rt><rp>)</rp></ruby>が<ruby>空港<rp>(</rp><rt>くうこう</rt><rp>)</rp></ruby>に<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>いた。</div>
+                    <div class="example-english">The airplane arrived at the airport.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>TRANSITIVITY: <ruby>自動詞<rp>(</rp><rt>じどうし</rt><rp>)</rp></ruby> (intransitive). No pair verb. Pattern: Xに<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く (arrive at X).</p><p>ASPECT: ている indicates resulting state. <ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>いている = &#x27;has arrived&#x27; (is at the destination now).</p><p>COMMON PATTERNS:</p><ul><li><ruby>駅<rp>(</rp><rt>えき</rt><rp>)</rp></ruby>に<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く (arrive at the station)</li><li><ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>に<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く (arrive home)</li><li><ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>どおりに<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く (arrive on time)</li><li><ruby>無事<rp>(</rp><rt>ぶじ</rt><rp>)</rp></ruby>に<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>いた (arrived safely)</li></ul><p>Different from <ruby>付<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く (stick to), <ruby>就<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く (assume position). Destination uses に.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-verified">verified</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:00</div>
+                <div class="metadata-file">ta/tsuku_00091</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

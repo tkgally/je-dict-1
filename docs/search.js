@@ -73,7 +73,8 @@
             resultsHeading.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' for "' + query + '"';
             resultsList.innerHTML = results.map(function(entry) {
                 const folder = entry.folder || 'a';
-                return '<a href="entries/' + folder + '/' + entry.id + '.html" class="result-item">' +
+                const prefix = entry.prefix || entry.id.substring(0, 2);
+                return '<a href="entries/' + folder + '/' + prefix + '/' + entry.id + '.html" class="result-item">' +
                     '<div class="result-headword">' + entry.headword + '</div>' +
                     '<div class="result-reading">' + entry.reading + '</div>' +
                     '<div class="result-gloss">' + entry.gloss + '</div>' +

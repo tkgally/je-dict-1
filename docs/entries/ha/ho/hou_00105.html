@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="方 - direction, way; (comparison). Japanese-English dictionary entry with definitions and examples.">
+    <title>方 (ほう) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ほう</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">direction, way; (comparison)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">direction, side, way</span>
+                    <div class="definition-explanation">Indicates a direction, area, or method.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">(in comparisons) the ... one</span>
+                    <div class="definition-explanation">Used to compare two things, indicating preference or degree.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>駅<rp>(</rp><rt>えき</rt><rp>)</rp></ruby>は<ruby>北<rp>(</rp><rt>きた</rt><rp>)</rp></ruby>の<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>にあります。</div>
+                    <div class="example-english">The station is in the north direction.</div>
+                    <div class="example-notes">Indicating direction</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">お<ruby>茶<rp>(</rp><rt>ちゃ</rt><rp>)</rp></ruby>の<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>が<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きです。</div>
+                    <div class="example-english">I prefer tea. (Tea is the one I like more.)</div>
+                    <div class="example-notes">Comparison usage</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">こちらの<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>が<ruby>安<rp>(</rp><rt>やす</rt><rp>)</rp></ruby>いです。</div>
+                    <div class="example-english">This one is cheaper.</div>
+                    <div class="example-notes">Comparison usage</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>方 (ほう) is used for: 1) Direction or area (北の方 - toward the north), 2) Comparisons (Aの方がBより～ - A is more ~ than B). The comparison pattern is very common: 「Aの方が好き」 (I prefer A), 「こちらの方がいい」 (this one is better).</p><p>Note: 方 can also be read かた meaning &#x27;person&#x27; (polite) or &#x27;way of doing.&#x27;</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-verified">verified</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:00</div>
+                <div class="metadata-file">ha/hou_00105</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
