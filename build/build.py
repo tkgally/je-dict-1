@@ -21,7 +21,7 @@ def build(project_root: Path) -> int:
 
     # Step 1: Validate all entries
     print("\n[1/2] Validating entries...")
-    total, valid, invalid_files, cross_ref_warnings = validate_all_entries(project_root)
+    total, valid, invalid_files, cross_ref_warnings, missing_audio, orphaned_audio = validate_all_entries(project_root)
 
     if invalid_files:
         print(f"  ERROR: {len(invalid_files)} invalid file(s) found")
@@ -31,6 +31,12 @@ def build(project_root: Path) -> int:
     if cross_ref_warnings:
         print(f"  WARNING: {len(cross_ref_warnings)} cross-reference issue(s) found")
         print("  Run validate.py for details")
+
+    if missing_audio:
+        print(f"  WARNING: {len(missing_audio)} missing audio file(s)")
+
+    if orphaned_audio:
+        print(f"  WARNING: {len(orphaned_audio)} orphaned audio file(s)")
 
     if total == 0:
         print("  WARNING: No entry files found")

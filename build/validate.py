@@ -136,7 +136,7 @@ def is_valid_hiragana(text: str) -> bool:
     return True
 
 
-def validate_structured_cross_reference(ref: dict, entry_reading: str) -> list[str]:
+def validate_structured_cross_reference(ref: dict, entry_reading: str, entry_headword: str) -> list[str]:
     """
     Validate a structured cross-reference object.
     Returns a list of error messages (empty if valid).
@@ -154,8 +154,12 @@ def validate_structured_cross_reference(ref: dict, entry_reading: str) -> list[s
         errors.append("Missing 'reading' in cross_reference")
     elif not is_valid_hiragana(ref['reading']):
         errors.append(f"Cross-reference reading must be hiragana: '{ref['reading']}'")
-    elif ref['reading'] == entry_reading:
-        errors.append(f"Self-reference not allowed: '{ref['reading']}'")
+    else:
+        # Check for self-reference: both reading AND headword must match
+        # (Entries with same reading but different headwords are valid cross-references)
+        ref_headword = ref.get('headword', '')
+        if ref['reading'] == entry_reading and ref_headword == entry_headword:
+            errors.append(f"Self-reference not allowed: '{ref['reading']}' with headword '{ref_headword}'")
 
     return errors
 
@@ -177,6 +181,7 @@ def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, 
     errors = []
     for file_path, entry in entries_data:
         entry_reading = entry.get('reading', '')
+        entry_headword = entry.get('headword', '')
         cross_refs = entry.get('cross_references', [])
         if cross_refs:
             for ref in cross_refs:
@@ -189,7 +194,7 @@ def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, 
                         ))
                 elif isinstance(ref, dict):
                     # New structured format
-                    ref_errors = validate_structured_cross_reference(ref, entry_reading)
+                    ref_errors = validate_structured_cross_reference(ref, entry_reading, entry_headword)
                     for err in ref_errors:
                         errors.append((file_path, err))
                 else:
@@ -249,10 +254,18 @@ def check_audio_integrity(entries_data: list[tuple[Path, dict]], project_root: P
     return missing_audio, orphaned_audio
 
 
-def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]]]:
+def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]], list[tuple[Path, str]], list[str], list[str]]:
     """
     Validate all entry files in the project.
-    Returns (total_count, valid_count, list of (file, errors) for invalid files).
+
+    Returns:
+        (total_count, valid_count, invalid_files, cross_ref_errors, missing_audio, orphaned_audio)
+        - total_count: Total number of entry files found
+        - valid_count: Number of valid entries
+        - invalid_files: List of (file_path, error_list) for invalid files
+        - cross_ref_errors: List of (file_path, error_message) for cross-reference issues
+        - missing_audio: List of missing audio file descriptions
+        - orphaned_audio: List of orphaned audio file paths
     """
     schema_path = project_root / 'build' / 'schema.json'
     schema = load_schema(schema_path)
@@ -327,6 +340,7 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
     # Check cross-references using the already-loaded entry
     if entry is not None:
         entry_reading = entry.get('reading', '')
+        entry_headword = entry.get('headword', '')
         cross_refs = entry.get('cross_references', [])
         for ref in cross_refs:
             if isinstance(ref, str):
@@ -335,7 +349,7 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
                     errors.append(f"Invalid cross_reference: '{ref}' does not exist")
             elif isinstance(ref, dict):
                 # New structured format
-                ref_errors = validate_structured_cross_reference(ref, entry_reading)
+                ref_errors = validate_structured_cross_reference(ref, entry_reading, entry_headword)
                 errors.extend(ref_errors)
             else:
                 errors.append(f"Invalid cross_reference format: expected string or object")
