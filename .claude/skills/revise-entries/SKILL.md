@@ -134,17 +134,20 @@ Based on evaluation findings, prioritize these entry categories:
 - に - location vs. で, indirect object, time
 - で - action location, means, reason
 
-## Validation After Revision
+## Final Steps After Revisions
 
-After revising entries:
+After revising entries, run these commands:
 
 ```bash
-# Validate all entries
-python3 build/validate.py
-
-# Build dictionary
-python3 build/build.py
+python3 build/validate.py           # Validate all entries
+python3 build/update_indexes.py     # Update indexes
+python3 build/build_flat.py         # Rebuild website (REQUIRED for GitHub Pages)
+git add entries/ docs/ *.json PROJECT_STATUS.md
+git commit -m "Revise entries to v2 standards"
+git push
 ```
+
+The `build_flat.py` step is critical - without it, changes won't appear on the live site.
 
 Check for:
 - Schema compliance
