@@ -397,8 +397,8 @@ Based on multi-model LLM evaluation, these are HIGH PRIORITY for all entries:
 
 ## License
 
-TBD
+Creative Commons Zero v1.0 Universal
 
 ## Contributing
 
-Contributions by invitation only. The maintainer controls what gets merged to ensure quality standards are maintained.
+Email suggestions for enhancements to [Tom Gally](https://www.gally.net/about.html).
