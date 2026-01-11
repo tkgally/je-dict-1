@@ -44,6 +44,16 @@ COMBO_MAPPINGS = {
     'ぴゃ': 'pya', 'ぴゅ': 'pyu', 'ぴょ': 'pyo',
     'みゃ': 'mya', 'みゅ': 'myu', 'みょ': 'myo',
     'りゃ': 'rya', 'りゅ': 'ryu', 'りょ': 'ryo',
+    # Loanword combinations with small vowels (ぁぃぅぇぉ)
+    # Used for foreign sounds not native to Japanese
+    'てぃ': 'ti', 'でぃ': 'di',
+    'とぅ': 'tu', 'どぅ': 'du',
+    'ふぁ': 'fa', 'ふぃ': 'fi', 'ふぇ': 'fe', 'ふぉ': 'fo',
+    'うぃ': 'wi', 'うぇ': 'we', 'うぉ': 'wo',
+    'ゔぁ': 'va', 'ゔぃ': 'vi', 'ゔ': 'vu', 'ゔぇ': 've', 'ゔぉ': 'vo',
+    'つぁ': 'tsa', 'つぃ': 'tsi', 'つぇ': 'tse', 'つぉ': 'tso',
+    'ちぇ': 'che', 'しぇ': 'she', 'じぇ': 'je',
+    'てゅ': 'tyu', 'でゅ': 'dyu',
 }
 
 # Kana row definitions for navigation and folder organization
