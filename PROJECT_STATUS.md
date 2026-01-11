@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,294
+- **Total entries**: 2,341
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~430 entries added
-- **JLPT N3 vocabulary**: ~225 entries added
-- **Candidate words**: ~1,767 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~270 entries added
+- **Candidate words**: ~2,725 words tracked in `candidate_words.json`
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
@@ -95,6 +95,16 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 47 New Entries, Session 5)
+- Added 47 new dictionary entries (2,294 → 2,341 total)
+- Added missing basic verb 切る (きる) - to cut
+- New entries include N2/N3 vocabulary:
+  - Nouns: 景気, 傾向, 警告, 計算, 契約, 化粧, 決心, 決定, 欠点, 血液, 結論, 煙, 健康, 検査, 建設, 建築, 検討, 権利, 芸術, 劇, 劇場, 限界, 現金, 言語, 現象, 減少, 現実, 現状, 現代, 現場, 恋人, 幸運, 効果, 交渉, 行動, 構成, 構造, 向上, 交流, 故郷, 根気, 講演, 考察, 貢献, 後悔, 国語
+  - Verb: 切る (to cut)
+- Removed 4 duplicate entries (kokusai, konnan, kouhei, kougi already existed)
+- Added 1000 new candidates to candidate_words.json (total now 2,725)
+- Removed 42 candidates that now exist as entries
 
 ### 2026-01-11 (Vocabulary Expansion - 50 New Entries, Session 4)
 - Added 50 new dictionary entries (2,244 → 2,294 total)

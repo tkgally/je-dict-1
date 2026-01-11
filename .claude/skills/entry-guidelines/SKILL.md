@@ -83,6 +83,7 @@ This prevents duplicate entries and wasted effort on entries that must later be 
 2. **Progress to natural complexity** - Later examples can show real-world usage
 3. **Include at least one fixed phrase** - High-frequency collocations aid memory
 4. **Annotate non-obvious grammar** - Use [Note: ...] for grammatical explanations
+5. **Longer sentences for more difficult vocabulary** - Words of level N2 or N1 should have at least one full-sentence example. Such examples may have a complex structure (with relative clauses, etc.) or consist of two sentences.
 
 ## Furigana Requirements
 
