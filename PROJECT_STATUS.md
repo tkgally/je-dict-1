@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,341
+- **Total entries**: 2,392
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~430 entries added
-- **JLPT N3 vocabulary**: ~270 entries added
-- **Candidate words**: ~2,725 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~320 entries added
+- **Candidate words**: ~2,675 words tracked in `candidate_words.json`
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
@@ -95,6 +95,18 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-11 (Vocabulary Expansion - 51 New Entries, Session 6)
+- Added 51 new dictionary entries (2,341 → 2,392 total)
+- Entries created from candidate_words.json following updated entry-guidelines skill
+- Each entry written individually with proper quality standards
+- New entries include N1/N2/N3 vocabulary:
+  - Nouns: 経営, 刑事, 血管, 見解, 憲法, 硬貨, 交換, 広告, 攻撃, 高速, 幸福, 興奮, 考慮, 氷, 呼吸, 国籍, 黒板, 国民, 個人, 小銭, 国家, 国会, 国境, 骨折, 小包, 諺, 粉, 好み, 小屋, 誤解, 語学, 差, 才能, 裁判, 作業, 作品, 敬意, 経緯, 契機, 機構, 刑, 季刊, 刊行, 享受, 群, 方々
+  - Adverbs: さっぱり, 幸い
+  - Verbs: お目に掛かる (humble), チェックする
+  - Adjective: 可哀想
+- Fixed romanization issue: kooryo → kouryo (考慮)
+- Removed 50 candidates from candidate_words.json (2,725 → 2,675)
 
 ### 2026-01-11 (Vocabulary Expansion - 47 New Entries, Session 5)
 - Added 47 new dictionary entries (2,294 → 2,341 total)
