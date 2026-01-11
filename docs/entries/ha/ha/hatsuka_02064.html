@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="二十日 - twenty days, twentieth day. Japanese-English dictionary entry with definitions and examples.">
+    <title>二十日 (はつか) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>二十日<rp>(</rp><rt>はつか</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">はつか</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">twenty days, twentieth day</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">twenty days</span>
+                    <div class="definition-explanation">A period of twenty days.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">twentieth day of the month</span>
+                    <div class="definition-explanation">The twentieth day of any month.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>一月<rp>(</rp><rt>いちがつ</rt><rp>)</rp></ruby><ruby>二十日<rp>(</rp><rt>はつか</rt><rp>)</rp></ruby></div>
+                    <div class="example-english">January 20th.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>二十日<rp>(</rp><rt>はつか</rt><rp>)</rp></ruby>ぐらいかかる。</div>
+                    <div class="example-english">It takes about twenty days.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>二十日<rp>(</rp><rt>はつか</rt><rp>)</rp></ruby>までにお<ruby>届<rp>(</rp><rt>とど</rt><rp>)</rp></ruby>けします。</div>
+                    <div class="example-english">We will deliver it by the 20th.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>二十日<rp>(</rp><rt>はつか</rt><rp>)</rp></ruby> is a special reading.</p><p>SPECIAL DAY READINGS:</p><ul><li><ruby>一日<rp>(</rp><rt>ついたち</rt><rp>)</rp></ruby> (1st)</li><li><ruby>十日<rp>(</rp><rt>とおか</rt><rp>)</rp></ruby> (10th)</li><li><ruby>二十日<rp>(</rp><rt>はつか</rt><rp>)</rp></ruby> (20th)</li><li><ruby>二十四日<rp>(</rp><rt>にじゅうよっか</rt><rp>)</rp></ruby> (24th - regular + special)</li></ul><p>NOTE: After 10, most days use regular Sino-Japanese numbers + <ruby>日<rp>(</rp><rt>にち</rt><rp>)</rp></ruby>, but 14th, 20th, and 24th have special readings.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 18:50</div>
+                <div class="metadata-file">ha/ha/hatsuka_02064</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

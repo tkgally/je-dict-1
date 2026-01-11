@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="押す - to push, to press. Japanese-English dictionary entry with definitions and examples.">
+    <title>押す (おす) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す</h1>
+            <div class="entry-reading">おす</div>
+            <div class="entry-pos">godan verb</div>
+            <div class="entry-gloss">to push, to press</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to push, to press</span>
+                    <div class="definition-explanation">To apply force to move something away or to press a button.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">to stamp, to seal</span>
+                    <div class="definition-explanation">To apply a stamp or seal to a document.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ボタンを<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す。</div>
+                    <div class="example-english">To press a button.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>扉<rp>(</rp><rt>とびら</rt><rp>)</rp></ruby>を<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す。</div>
+                    <div class="example-english">To push the door.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ハンコを<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>してください。</div>
+                    <div class="example-english">Please stamp your seal.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す means to push or press.</p><p>COMMON USES:</p><ul><li>ボタンを<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す (press a button)</li><li><ruby>扉<rp>(</rp><rt>とびら</rt><rp>)</rp></ruby>を<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す (push a door)</li><li>ハンコを<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す (stamp a seal)</li><li><ruby>印鑑<rp>(</rp><rt>いんかん</rt><rp>)</rp></ruby>を<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す (put one&#x27;s seal)</li></ul><p>ANTONYM:</p><ul><li><ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>く (to pull)</li></ul><p>SIGNS:</p><ul><li><ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>す (Push)</li><li><ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>く (Pull)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 18:21</div>
+                <div class="metadata-file">a/os/osu_01984</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
