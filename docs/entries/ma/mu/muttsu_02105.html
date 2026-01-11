@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="六つ - six (things). Japanese-English dictionary entry with definitions and examples.">
+    <title>六つ (むっつ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>六<rp>(</rp><rt>むっ</rt><rp>)</rp></ruby>つ</h1>
+            <div class="entry-reading">むっつ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">six (things)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">six (things)</span>
+                    <div class="definition-explanation">The number six when counting things using native Japanese numbers.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">たまごを<ruby>六<rp>(</rp><rt>むっ</rt><rp>)</rp></ruby>つ<ruby>買<rp>(</rp><rt>か</rt><rp>)</rp></ruby>いました。</div>
+                    <div class="example-english">I bought six eggs.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>六<rp>(</rp><rt>むっ</rt><rp>)</rp></ruby>つに<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">To cut into six pieces.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>六<rp>(</rp><rt>むっ</rt><rp>)</rp></ruby>つ<ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>っています。</div>
+                    <div class="example-english">Six are remaining.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>六<rp>(</rp><rt>むっ</rt><rp>)</rp></ruby>つ is the native Japanese counter for six.</p><p>NATIVE COUNTING (1-10):</p><ul><li><ruby>一<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>つ, <ruby>二<rp>(</rp><rt>ふた</rt><rp>)</rp></ruby>つ, <ruby>三<rp>(</rp><rt>みっ</rt><rp>)</rp></ruby>つ, <ruby>四<rp>(</rp><rt>よっ</rt><rp>)</rp></ruby>つ, <ruby>五<rp>(</rp><rt>いつ</rt><rp>)</rp></ruby>つ</li><li><ruby>六<rp>(</rp><rt>むっ</rt><rp>)</rp></ruby>つ, <ruby>七<rp>(</rp><rt>なな</rt><rp>)</rp></ruby>つ, <ruby>八<rp>(</rp><rt>やっ</rt><rp>)</rp></ruby>つ, <ruby>九<rp>(</rp><rt>ここの</rt><rp>)</rp></ruby>つ, <ruby>十<rp>(</rp><rt>とお</rt><rp>)</rp></ruby></li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 19:10</div>
+                <div class="metadata-file">ma/mu/muttsu_02105</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="マッチ - match. Japanese-English dictionary entry with definitions and examples.">
+    <title>マッチ (まっち) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">マッチ</h1>
+            <div class="entry-reading">まっち</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">match</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">match (for lighting fire)</span>
+                    <div class="definition-explanation">A small stick with a tip that ignites when struck.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">マッチで<ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>をつける。</div>
+                    <div class="example-english">To light a fire with a match.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">マッチを<ruby>擦<rp>(</rp><rt>す</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">To strike a match.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">マッチがありますか。</div>
+                    <div class="example-english">Do you have matches?</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>マッチ is from English &quot;match.&quot;</p><p>COMMON PHRASES:</p><ul><li>マッチを<ruby>擦<rp>(</rp><rt>す</rt><rp>)</rp></ruby>る (to strike a match)</li><li>マッチで<ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>をつける (to light with a match)</li><li>マッチ<ruby>箱<rp>(</rp><rt>ばこ</rt><rp>)</rp></ruby> (matchbox)</li></ul><p>RELATED:</p><ul><li>ライター (lighter)</li><li><ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby> (fire)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 19:10</div>
+                <div class="metadata-file">ma/ma/macchi_02097</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
