@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary
 
-A Japanese-English learner's dictionary emphasizing quality over quantity, delivered as a static website. It is being produced by [Tom Gally](https://www.gally.net/about.html).
+This is the repository for a Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude Opus 4.5 in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
 
 ## Overview
 
