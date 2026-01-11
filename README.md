@@ -1,27 +1,26 @@
 # Japanese-English Learner's Dictionary
 
-A Japanese-English learner's dictionary emphasizing quality over quantity, delivered as a static website.
+A Japanese-English learner's dictionary emphasizing quality over quantity, delivered as a static website. It is being produced by [Tom Gally](https://www.gally.net/about.html).
 
 ## Overview
 
-This dictionary is designed for learners of Japanese as a second language. Unlike comprehensive resources like Jisho.org or JMdict, this dictionary prioritizes **depth and quality**—fewer entries, but each one carefully crafted with:
+This dictionary is designed for learners of Japanese as a second language. Its features include:
 
 - **Explanatory definitions** that go beyond simple glosses
 - **Natural example sentences** optimized for learning
 - **Usage notes** covering grammar, register, and common patterns
 - **Rich particle and auxiliary verb entries** crucial for learners
 - **Furigana support** with toggle to show/hide readings above kanji
-- **Audio pronunciation** for example sentences with play/stop controls
+- **Audio pronunciation** for some example sentences with play/stop controls (More will be added in the future.)
 - **Multiple interface modes**: Search, Browse, Recent, and Random views
-- **Transitivity and aspect information** for verbs (v2 enhancement)
-- **Collocation patterns** showing natural word combinations (v2 enhancement)
+- **Transitivity and aspect information** for verbs
+- **Collocation patterns** showing natural word combinations
 - **Keigo (honorific) verb coverage** with usage guidance
 
 ## Current Status
 
-- **2,074 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started)
+- **2,834 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started)
 - **1,028 audio files** with pronunciation for example sentences
-- **Quality specification v2** based on multi-model LLM evaluation
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
 - **400 cross-references** with 95% resolution rate
@@ -41,14 +40,12 @@ The dictionary is built as a **completely static website**:
 - No server required—just open `index.html` directly in your browser
 - No external dependencies—pure HTML, CSS, and JavaScript
 - Offline-capable—download and use anywhere
-- Data is embedded in JavaScript at build time for maximum portability
 
 ## Site Structure
 
 The dictionary is built as a static HTML site at `docs/`:
 
 - **Individual pages**: Each entry has its own standalone HTML file
-- **SEO-friendly**: Search engines can index individual entries
 - **Works without JavaScript**: Core functionality requires no JS
 - **Lightweight pages**: Each page loads only the content needed
 - **Deep linking**: Direct URLs to specific entries
@@ -109,6 +106,8 @@ Useful for tracking dictionary updates and discovering new content.
 ### Random Mode
 A word cloud of randomly selected entries. Click any word to view its full entry. Great for serendipitous discovery and vocabulary review.
 
+More interface features will be added in the weeks ahead.
+
 ## Furigana System
 
 The dictionary uses a custom notation for furigana (reading annotations above kanji):
@@ -127,12 +126,6 @@ Examples:
 - Click the **Furigana** button in the header to toggle readings on/off
 - When enabled, readings appear above kanji using HTML `<ruby>` tags
 - Preference is saved in localStorage
-
-### Rules for Entry Authors
-1. **All kanji must have readings in hiragana** — we assume readers know hiragana/katakana but may not know kanji readings
-2. **No romaji** — readings are always in hiragana, never romanized
-3. **Apply to all fields** — headword, examples, notes, and explanations should all use furigana notation
-4. **Compound readings** — for jukugo (kanji compounds), mark the entire compound: `{友達|ともだち}` not `{友|とも}{達|だち}`
 
 ## Project Structure
 
@@ -185,46 +178,6 @@ je-dict-1/
 ├── project_specification_v2.md  # Quality standards from LLM evaluation
 └── PROJECT_STATUS.md     # Session continuity file
 ```
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.10+
-- pip
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd je-dict-1
-   ```
-
-2. Install Python dependencies:
-   ```bash
-   pip install -r build/requirements.txt
-   ```
-
-### Building the Dictionary
-
-1. Validate all entries:
-   ```bash
-   python3 build/validate.py
-   ```
-
-2. Build the dictionary:
-   ```bash
-   python3 build/build.py
-   ```
-
-3. View locally:
-   ```bash
-   open docs/index.html
-   ```
-   Or just double-click `docs/index.html` in Finder. No server required!
-
-## Creating Entries
 
 ### Entry Schema
 
