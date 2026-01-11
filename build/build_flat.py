@@ -277,7 +277,7 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 </head>'''
 
 
-def generate_entry_html(entry: dict, entries_dict: dict, relative_path: str = '../../') -> str:
+def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, relative_path: str = '../../') -> str:
     """Generate HTML content for a single entry page."""
     entry_id = entry['id']
     headword = entry['headword']
@@ -373,6 +373,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, relative_path: str = '.
         html_parts.append('<div class="cross-references"><h2>Related Words</h2>')
         for ref in cross_refs:
             if isinstance(ref, str):
+                # String reference is an entry ID
                 ref_type = 'see_also'
                 target_id = ref
                 resolved = target_id in entries_dict
@@ -385,12 +386,14 @@ def generate_entry_html(entry: dict, entries_dict: dict, relative_path: str = '.
                     ref_reading = ''
                 label = ''
             else:
+                # Object reference - look up by reading
                 ref_type = ref.get('type', 'see_also')
                 ref_reading = ref.get('reading', '')
                 ref_headword = ref.get('headword', ref_reading)
                 label = ref.get('label', '')
-                resolved = ref.get('resolved', False)
-                target_id = ref.get('target_id', '')
+                # Resolve by looking up the reading in our mapping
+                target_id = readings_to_ids.get(ref_reading, '')
+                resolved = target_id in entries_dict
 
             type_label = get_cross_ref_type_label(ref_type)
             display = process_furigana(ref_headword) if ref_headword else html.escape(ref_reading)
@@ -1857,13 +1860,13 @@ def get_audio_prefix(entry_id: str) -> str:
     return entry_id[:2].lower()
 
 
-def copy_audio_files(project_root: Path, flat_dir: Path) -> int:
-    """Copy audio files to the flat site's audio directory.
+def copy_audio_files(project_root: Path, dest_dir: Path) -> int:
+    """Copy audio files to the destination audio directory.
 
     Preserves the kana/prefix subfolder structure (a/ab/, a/it/, etc.).
     """
     audio_src_dir = project_root / 'audio'
-    audio_dest_dir = flat_dir / 'audio'
+    audio_dest_dir = dest_dir / 'audio'
 
     if not audio_src_dir.exists():
         return 0
@@ -1893,7 +1896,7 @@ def build_flat(project_root: Path) -> int:
     Build the flat HTML version of the dictionary.
     Returns 0 on success, 1 on failure.
     """
-    flat_dir = project_root / 'docs' / 'flat'
+    docs_dir = project_root / 'docs'
     entries_dir = project_root / 'entries'
 
     print("\nFlat HTML Build")
@@ -1912,24 +1915,39 @@ def build_flat(project_root: Path) -> int:
     # Create entries dictionary for cross-reference lookups
     entries_dict = {e['id']: e for e in entries}
 
+    # Create reading-to-ID mapping for resolving cross-references
+    readings_to_ids = {e['reading']: e['id'] for e in entries}
+
     # Step 2: Create output directories
     print("\n[2/7] Creating output directories...")
-    if flat_dir.exists():
-        shutil.rmtree(flat_dir)
-    flat_dir.mkdir(parents=True)
+
+    # Clean up generated content (but preserve docs/flat/ for redirect)
+    generated_items = [
+        'entries', 'audio', 'index.html', 'search.html', 'browse.html',
+        'recent.html', 'random.html', 'search-index.js', 'search.js', 'styles.css'
+    ]
+    for item in generated_items:
+        item_path = docs_dir / item
+        if item_path.exists():
+            if item_path.is_dir():
+                shutil.rmtree(item_path)
+            else:
+                item_path.unlink()
+
+    docs_dir.mkdir(parents=True, exist_ok=True)
 
     # Create entry directories for each kana row
-    entries_output_dir = flat_dir / 'entries'
+    entries_output_dir = docs_dir / 'entries'
     for row in KANA_ROWS:
         (entries_output_dir / row['folder']).mkdir(parents=True, exist_ok=True)
 
-    print(f"  Created {flat_dir}")
+    print(f"  Created {docs_dir}")
 
     # Step 3: Generate entry pages
     print("\n[3/7] Generating entry pages...")
     for entry in entries:
         folder = get_kana_folder(entry['reading'])
-        entry_html = generate_entry_html(entry, entries_dict)
+        entry_html = generate_entry_html(entry, entries_dict, readings_to_ids)
         output_path = entries_output_dir / folder / f"{entry['id']}.html"
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(entry_html)
@@ -1939,59 +1957,59 @@ def build_flat(project_root: Path) -> int:
     print("\n[4/7] Generating navigation pages...")
 
     # Index page
-    with open(flat_dir / 'index.html', 'w', encoding='utf-8') as f:
+    with open(docs_dir / 'index.html', 'w', encoding='utf-8') as f:
         f.write(generate_index_page(len(entries)))
 
     # Search page
-    with open(flat_dir / 'search.html', 'w', encoding='utf-8') as f:
+    with open(docs_dir / 'search.html', 'w', encoding='utf-8') as f:
         f.write(generate_search_page())
 
     # Browse page
-    with open(flat_dir / 'browse.html', 'w', encoding='utf-8') as f:
+    with open(docs_dir / 'browse.html', 'w', encoding='utf-8') as f:
         f.write(generate_browse_page(entries, entries_dict))
 
     # Recent page
     recent_entries = build_recent_entries(entries)
-    with open(flat_dir / 'recent.html', 'w', encoding='utf-8') as f:
+    with open(docs_dir / 'recent.html', 'w', encoding='utf-8') as f:
         f.write(generate_recent_page(recent_entries, entries_dict))
 
     # Random page
-    with open(flat_dir / 'random.html', 'w', encoding='utf-8') as f:
+    with open(docs_dir / 'random.html', 'w', encoding='utf-8') as f:
         f.write(generate_random_page(entries))
 
     print("  Generated index.html, search.html, browse.html, recent.html, random.html")
 
     # Step 5: Generate search index and JavaScript
     print("\n[5/7] Generating search index...")
-    with open(flat_dir / 'search-index.js', 'w', encoding='utf-8') as f:
+    with open(docs_dir / 'search-index.js', 'w', encoding='utf-8') as f:
         f.write(generate_search_index(entries))
 
-    with open(flat_dir / 'search.js', 'w', encoding='utf-8') as f:
+    with open(docs_dir / 'search.js', 'w', encoding='utf-8') as f:
         f.write(generate_search_js())
 
     print("  Generated search-index.js, search.js")
 
     # Step 6: Generate stylesheet
     print("\n[6/7] Generating stylesheet...")
-    with open(flat_dir / 'styles.css', 'w', encoding='utf-8') as f:
+    with open(docs_dir / 'styles.css', 'w', encoding='utf-8') as f:
         f.write(generate_stylesheet())
     print("  Generated styles.css")
 
     # Step 7: Copy audio files
     print("\n[7/7] Copying audio files...")
-    audio_count = copy_audio_files(project_root, flat_dir)
+    audio_count = copy_audio_files(project_root, docs_dir)
     if audio_count > 0:
-        print(f"  Copied {audio_count} audio files to docs/flat/audio/")
+        print(f"  Copied {audio_count} audio files to docs/audio/")
     else:
         print("  No audio files to copy")
 
     # Summary
     print("\n" + "=" * 50)
-    print("Flat build complete!")
+    print("Build complete!")
     print(f"  Total entries: {len(entries)}")
-    print(f"  Output: {flat_dir}")
-    print("\nTo view the flat dictionary:")
-    print(f"  Open {flat_dir / 'index.html'} in your browser")
+    print(f"  Output: {docs_dir}")
+    print("\nTo view the dictionary:")
+    print(f"  Open {docs_dir / 'index.html'} in your browser")
 
     return 0
 
