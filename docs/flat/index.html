@@ -2,105 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Japanese-English learner&#x27;s dictionary with detailed explanations and examples">
-    <title>Home - Japanese-English Dictionary</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="refresh" content="0; url=../index.html">
+    <title>Redirecting...</title>
 </head>
 <body>
-<header class="nav-header">
-    <nav class="nav-links">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="search.html" class="nav-link">Search</a>
-        <a href="browse.html" class="nav-link">Browse</a>
-        <a href="recent.html" class="nav-link">Recent</a>
-        <a href="random.html" class="nav-link">Random</a>
-    </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
-</header>
-<main class="home-page">
-    <div class="hero">
-        <h1>Japanese-English Learner's Dictionary</h1>
-        <p class="subtitle">A quality-focused dictionary for learners of Japanese</p>
-    </div>
-
-    <section class="intro">
-        <h2>About This Dictionary</h2>
-        <p>This dictionary is designed for learners of Japanese as a second language. Unlike comprehensive resources, this dictionary prioritizes <strong>depth and quality</strong> over quantity.</p>
-
-        <p>Each entry includes:</p>
-        <ul>
-            <li><strong>Explanatory definitions</strong> that go beyond simple glosses</li>
-            <li><strong>Natural example sentences</strong> optimized for learning</li>
-            <li><strong>Usage notes</strong> covering grammar, register, and common patterns</li>
-            <li><strong>Furigana readings</strong> for all kanji</li>
-            <li><strong>Audio pronunciation</strong> for many example sentences</li>
-        </ul>
-    </section>
-
-    <section class="stats-section">
-        <h2>Dictionary Statistics</h2>
-        <div class="stats-grid">
-            <div class="stat-item">
-                <span class="stat-number">2,074</span>
-                <span class="stat-label">Entries</span>
-            </div>
-        </div>
-    </section>
-
-    <section class="navigation-section">
-        <h2>Explore the Dictionary</h2>
-        <div class="nav-cards">
-            <a href="search.html" class="nav-card">
-                <h3>Search</h3>
-                <p>Look up words in Japanese, English, or romaji</p>
-            </a>
-            <a href="browse.html" class="nav-card">
-                <h3>Browse</h3>
-                <p>Explore entries by kana row</p>
-            </a>
-            <a href="recent.html" class="nav-card">
-                <h3>Recent</h3>
-                <p>View recently added or revised entries</p>
-            </a>
-            <a href="random.html" class="nav-card">
-                <h3>Random</h3>
-                <p>Discover entries at random</p>
-            </a>
-        </div>
-    </section>
-</main>
-
-<footer>
-    <p>Japanese-English Learner's Dictionary - Under Development</p>
-</footer>
-<script>
-(function() {
-    var btn = document.getElementById('furigana-toggle');
-    if (!btn) return;
-
-    // Check saved preference
-    var hidden = localStorage.getItem('furiganaHidden') === 'true';
-
-    function updateState() {
-        document.body.classList.toggle('furigana-hidden', hidden);
-        btn.setAttribute('aria-pressed', !hidden);
-        btn.classList.toggle('active', !hidden);
-    }
-
-    // Apply initial state
-    updateState();
-
-    // Toggle on click
-    btn.addEventListener('click', function() {
-        hidden = !hidden;
-        localStorage.setItem('furiganaHidden', hidden);
-        updateState();
-    });
-})();
-</script>
+    <p>Redirecting to <a href="../index.html">the dictionary</a>...</p>
 </body>
 </html>
