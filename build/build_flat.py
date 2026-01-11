@@ -351,7 +351,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_ids: dict, 
         if is_revised and modified_str:
             date_display += f' · Revised {modified_str}'
 
-    file_path = f'{folder}/{entry_id}'
+    file_path = f'{folder}/{prefix}/{entry_id}'
 
     html_parts.append(f'''
         <div class="entry-metadata">
@@ -838,7 +838,7 @@ def generate_search_index(entries: list) -> str:
 
     # Generate JavaScript
     js_content = f'''// Auto-generated search index - do not edit manually
-// Generated: {datetime.utcnow().isoformat()}Z
+// Generated: {datetime.now(timezone.utc).isoformat()}
 
 window.SEARCH_INDEX = {json.dumps(index, ensure_ascii=False)};
 
@@ -1750,7 +1750,8 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
         try:
             return datetime.fromisoformat(entry['metadata']['modified'].replace('Z', '+00:00'))
         except (KeyError, ValueError):
-            return datetime.min.replace(tzinfo=None)
+            # Return timezone-aware fallback to avoid mixing with aware datetimes
+            return datetime.min.replace(tzinfo=timezone.utc)
 
     sorted_entries = sorted(entries, key=get_modified_date, reverse=True)
 

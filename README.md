@@ -187,7 +187,7 @@ je-dict-1/
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - pip
 
 ### Installation

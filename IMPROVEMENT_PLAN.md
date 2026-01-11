@@ -91,11 +91,11 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Issue**: `build_flat.py` writes `metadata-file` as `folder/id` but real path is `folder/prefix/id`.
 
 **Action**:
-- [ ] Locate the code in `build_flat.py` that generates `metadata-file`
-- [ ] Update to include prefix in path
-- [ ] Rebuild and verify
+- [x] Locate the code in `build_flat.py` that generates `metadata-file`
+- [x] Update to include prefix in path
+- [x] Rebuild and verify
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -104,11 +104,11 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Issue**: `build_recent_entries` may raise when mixing naive and aware datetimes.
 
 **Action**:
-- [ ] Find `build_recent_entries` in `build_flat.py`
-- [ ] Add timezone-aware fallback or skip invalid entries with warning
-- [ ] Test with intentionally malformed timestamp
+- [x] Find `build_recent_entries` in `build_flat.py`
+- [x] Add timezone-aware fallback (`datetime.min.replace(tzinfo=timezone.utc)`)
+- [x] Verified build works
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -119,11 +119,10 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Decision**: Update minimum Python version to 3.10+ (simpler, modern syntax).
 
 **Action**:
-- [ ] Update README to specify Python 3.10+
-- [ ] Audit all scripts for 3.10+ syntax issues
-- [ ] Update `requirements.txt` if needed
+- [x] Update README to specify Python 3.10+
+- [x] Update `requirements.txt` with Python version comment
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -132,10 +131,10 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Issue**: `update_indexes.py` doesn't check if scripts exist before calling them.
 
 **Action**:
-- [ ] Add existence checks in `update_indexes.py` lines 41-66
-- [ ] Add clear error messages
+- [x] Add existence checks in `update_indexes.py` before subprocess calls
+- [x] Add clear error messages for missing scripts
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -144,11 +143,11 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Issue**: Mixed use of deprecated `datetime.utcnow()` and modern `datetime.now(timezone.utc)`.
 
 **Action**:
-- [ ] Find all uses of `datetime.utcnow()` across build scripts
-- [ ] Replace with `datetime.now(timezone.utc)`
-- [ ] Standardize `.isoformat()` for output format
+- [x] Found 1 use of `datetime.utcnow()` in `build_flat.py`
+- [x] Replaced with `datetime.now(timezone.utc)`
+- [x] Using `.isoformat()` (now includes timezone automatically)
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -157,11 +156,10 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Issue**: `migrate_audio.py` exists but is not documented or called.
 
 **Action**:
-- [ ] Determine if script is still needed
-- [ ] If useful, document in PROJECT_STATUS.md
-- [ ] If obsolete, delete
+- [x] Determined script is obsolete (one-time migration already completed)
+- [x] Deleted `build/migrate_audio.py`
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -170,10 +168,10 @@ This document tracks the evaluation and implementation of 17 code improvement su
 **Issue**: Only `jsonschema>=4.0.0` listed; versions not pinned.
 
 **Action**:
-- [ ] Pin jsonschema version
-- [ ] Create `requirements-dev.txt` for testing tools (future)
+- [x] Added upper bound to jsonschema version (`>=4.0.0,<5.0.0`)
+- [x] Added comments explaining requirements and Python version
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -296,5 +294,14 @@ This document tracks the evaluation and implementation of 17 code improvement su
 - Updated 3 files to import from japanese_utils: validate.py, build_flat.py, resolve_links.py
 - Removed ~200 lines of duplicated code
 
+- Phase 2 (Quick Fixes) completed:
+  - #2: Fixed metadata file path to include prefix
+  - #5: Fixed timezone-aware fallback in recent entries sorting
+  - #9: Updated Python version requirement to 3.10+
+  - #13: Added script existence checks in update_indexes.py
+  - #14: Replaced deprecated datetime.utcnow() with datetime.now(timezone.utc)
+  - #15: Deleted obsolete migrate_audio.py script
+  - #16: Improved requirements.txt with version bounds and comments
+
 **Next steps**:
-- Continue with Phase 2: Quick Fixes
+- Continue with Phase 3: Data Migration (cross-reference format migration)
