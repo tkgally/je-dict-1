@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="売り切れる - to be sold out. Japanese-English dictionary entry with definitions and examples.">
+    <title>売り切れる (うりきれる) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">売り切れる</h1>
+            <div class="entry-reading">うりきれる</div>
+            <div class="entry-pos">verb</div>
+            <div class="entry-gloss">to be sold out</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to be sold out</span>
+                    <div class="definition-explanation">When all items have been sold and none remain.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">チケットが<ruby>売<rp>(</rp><rt>う</rt><rp>)</rp></ruby>り<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れた。</div>
+                    <div class="example-english">The tickets sold out.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>人気商品<rp>(</rp><rt>にんきしょうひん</rt><rp>)</rp></ruby>は<ruby>売<rp>(</rp><rt>う</rt><rp>)</rp></ruby>り<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れやすい。</div>
+                    <div class="example-english">Popular products sell out easily.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>完全<rp>(</rp><rt>かんぜん</rt><rp>)</rp></ruby>に<ruby>売<rp>(</rp><rt>う</rt><rp>)</rp></ruby>り<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れている。</div>
+                    <div class="example-english">It&#x27;s completely sold out.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 19:41</div>
+                <div class="metadata-file">a/ur/urikireru_02144</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
