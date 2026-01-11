@@ -13,6 +13,11 @@ from pathlib import Path
 from typing import Optional
 
 from path_utils import get_entry_prefix
+from japanese_utils import (
+    hiragana_to_romaji,
+    get_expected_directory,
+    KANA_TO_DIRECTORY,
+)
 
 try:
     import jsonschema
@@ -20,119 +25,6 @@ try:
 except ImportError:
     print("Error: jsonschema package required. Install with: pip install jsonschema")
     sys.exit(1)
-
-
-# Mapping from hiragana to romaji for filename validation
-HIRAGANA_TO_ROMAJI = {
-    'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o',
-    'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko',
-    'が': 'ga', 'ぎ': 'gi', 'ぐ': 'gu', 'げ': 'ge', 'ご': 'go',
-    'さ': 'sa', 'し': 'shi', 'す': 'su', 'せ': 'se', 'そ': 'so',
-    'ざ': 'za', 'じ': 'ji', 'ず': 'zu', 'ぜ': 'ze', 'ぞ': 'zo',
-    'た': 'ta', 'ち': 'chi', 'つ': 'tsu', 'て': 'te', 'と': 'to',
-    'だ': 'da', 'ぢ': 'ji', 'づ': 'zu', 'で': 'de', 'ど': 'do',
-    'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no',
-    'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho',
-    'ば': 'ba', 'び': 'bi', 'ぶ': 'bu', 'べ': 'be', 'ぼ': 'bo',
-    'ぱ': 'pa', 'ぴ': 'pi', 'ぷ': 'pu', 'ぺ': 'pe', 'ぽ': 'po',
-    'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo',
-    'や': 'ya', 'ゆ': 'yu', 'よ': 'yo',
-    'ら': 'ra', 'り': 'ri', 'る': 'ru', 'れ': 're', 'ろ': 'ro',
-    'わ': 'wa', 'を': 'wo', 'ん': 'n',
-    # Small kana
-    'ゃ': 'ya', 'ゅ': 'yu', 'ょ': 'yo',
-    'っ': '',  # Will be handled specially
-    'ー': '',  # Long vowel mark - context dependent
-}
-
-# Combination mappings (e.g., きゃ -> kya)
-COMBO_MAPPINGS = {
-    'きゃ': 'kya', 'きゅ': 'kyu', 'きょ': 'kyo',
-    'ぎゃ': 'gya', 'ぎゅ': 'gyu', 'ぎょ': 'gyo',
-    'しゃ': 'sha', 'しゅ': 'shu', 'しょ': 'sho',
-    'じゃ': 'ja', 'じゅ': 'ju', 'じょ': 'jo',
-    'ちゃ': 'cha', 'ちゅ': 'chu', 'ちょ': 'cho',
-    'にゃ': 'nya', 'にゅ': 'nyu', 'にょ': 'nyo',
-    'ひゃ': 'hya', 'ひゅ': 'hyu', 'ひょ': 'hyo',
-    'びゃ': 'bya', 'びゅ': 'byu', 'びょ': 'byo',
-    'ぴゃ': 'pya', 'ぴゅ': 'pyu', 'ぴょ': 'pyo',
-    'みゃ': 'mya', 'みゅ': 'myu', 'みょ': 'myo',
-    'りゃ': 'rya', 'りゅ': 'ryu', 'りょ': 'ryo',
-}
-
-# Directory mapping from first kana
-KANA_TO_DIRECTORY = {
-    'あ': 'a', 'い': 'a', 'う': 'a', 'え': 'a', 'お': 'a',
-    'か': 'ka', 'き': 'ka', 'く': 'ka', 'け': 'ka', 'こ': 'ka',
-    'が': 'ka', 'ぎ': 'ka', 'ぐ': 'ka', 'げ': 'ka', 'ご': 'ka',
-    'さ': 'sa', 'し': 'sa', 'す': 'sa', 'せ': 'sa', 'そ': 'sa',
-    'ざ': 'sa', 'じ': 'sa', 'ず': 'sa', 'ぜ': 'sa', 'ぞ': 'sa',
-    'た': 'ta', 'ち': 'ta', 'つ': 'ta', 'て': 'ta', 'と': 'ta',
-    'だ': 'ta', 'ぢ': 'ta', 'づ': 'ta', 'で': 'ta', 'ど': 'ta',
-    'な': 'na', 'に': 'na', 'ぬ': 'na', 'ね': 'na', 'の': 'na',
-    'は': 'ha', 'ひ': 'ha', 'ふ': 'ha', 'へ': 'ha', 'ほ': 'ha',
-    'ば': 'ha', 'び': 'ha', 'ぶ': 'ha', 'べ': 'ha', 'ぼ': 'ha',
-    'ぱ': 'ha', 'ぴ': 'ha', 'ぷ': 'ha', 'ぺ': 'ha', 'ぽ': 'ha',
-    'ま': 'ma', 'み': 'ma', 'む': 'ma', 'め': 'ma', 'も': 'ma',
-    'や': 'ya', 'ゆ': 'ya', 'よ': 'ya',
-    'ら': 'ra', 'り': 'ra', 'る': 'ra', 'れ': 'ra', 'ろ': 'ra',
-    'わ': 'wa', 'を': 'wa', 'ん': 'wa',
-}
-
-
-def hiragana_to_romaji(reading: str) -> str:
-    """Convert hiragana reading to romaji."""
-    result = []
-    i = 0
-    while i < len(reading):
-        # Check for two-character combinations first
-        if i + 1 < len(reading):
-            combo = reading[i:i+2]
-            if combo in COMBO_MAPPINGS:
-                result.append(COMBO_MAPPINGS[combo])
-                i += 2
-                continue
-
-        char = reading[i]
-
-        # Handle small tsu (gemination)
-        if char == 'っ':
-            # Double the next consonant
-            if i + 1 < len(reading):
-                next_char = reading[i + 1]
-                if next_char in HIRAGANA_TO_ROMAJI:
-                    next_romaji = HIRAGANA_TO_ROMAJI[next_char]
-                    if next_romaji:
-                        result.append(next_romaji[0])
-            i += 1
-            continue
-
-        # Handle long vowel mark
-        if char == 'ー':
-            if result:
-                # Repeat the previous vowel
-                prev = result[-1]
-                if prev and prev[-1] in 'aiueo':
-                    result.append(prev[-1])
-            i += 1
-            continue
-
-        if char in HIRAGANA_TO_ROMAJI:
-            result.append(HIRAGANA_TO_ROMAJI[char])
-        else:
-            # Unknown character, keep as is
-            result.append(char)
-        i += 1
-
-    return ''.join(result)
-
-
-def get_expected_directory(reading: str) -> Optional[str]:
-    """Get the expected directory for an entry based on its reading."""
-    if not reading:
-        return None
-    first_kana = reading[0]
-    return KANA_TO_DIRECTORY.get(first_kana)
 
 
 def load_schema(schema_path: Path) -> dict:

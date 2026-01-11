@@ -68,17 +68,17 @@ This document tracks the evaluation and implementation of 17 code improvement su
 - `resolve_links.py`: `romaji_to_hiragana()` (with bugs noted)
 
 **Action**:
-- [ ] Create `build/japanese_utils.py` with:
+- [x] Create `build/japanese_utils.py` with:
   - `hiragana_to_romaji(reading: str) -> str`
   - `romaji_to_hiragana(romaji: str) -> str`
   - `KANA_ROWS` list
   - `KANA_TO_FOLDER` dict
   - `get_kana_folder(reading: str) -> str`
-- [ ] Fix bug in `romaji_to_hiragana()` (trailing 'k' issue)
-- [ ] Update all 3 files to import from `japanese_utils`
-- [ ] Verify build still works
+- [x] Fix bug in `romaji_to_hiragana()` (trailing 'k' issue) - fixed using regex
+- [x] Update all 3 files to import from `japanese_utils`
+- [x] Verify build still works
 
-**Status**: NOT STARTED
+**Status**: COMPLETED (2026-01-11)
 
 ---
 
@@ -288,6 +288,13 @@ This document tracks the evaluation and implementation of 17 code improvement su
 - Phase 1.1: Created `build/path_utils.py` with consolidated `get_entry_prefix()` and `get_audio_prefix()` functions
 - Updated 5 files to import from path_utils: validate.py, build_flat.py, migrate_entries.py, merge_audio.py, migrate_audio.py
 - Verified all scripts still run correctly (validation passes, build completes)
+- Phase 1.2: Created `build/japanese_utils.py` with consolidated:
+  - `hiragana_to_romaji()` - best implementation from validate.py with proper っ and ー handling
+  - `romaji_to_hiragana()` - fixed bug using regex for double consonant handling
+  - `KANA_ROWS`, `KANA_TO_FOLDER`, `KANA_TO_DIRECTORY` mappings
+  - `get_kana_folder()`, `get_expected_directory()` helper functions
+- Updated 3 files to import from japanese_utils: validate.py, build_flat.py, resolve_links.py
+- Removed ~200 lines of duplicated code
 
 **Next steps**:
-- Continue with Phase 1.2: Create `build/japanese_utils.py` for hiragana-romaji conversion
+- Continue with Phase 2: Quick Fixes

@@ -16,40 +16,13 @@ from datetime import datetime, timezone, timedelta
 from typing import Optional
 
 from path_utils import get_entry_prefix, get_audio_prefix
+from japanese_utils import hiragana_to_romaji, KANA_ROWS, KANA_TO_FOLDER, get_kana_folder
 
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
 
 # Pattern to match furigana notation: {kanji|reading}
 FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
-
-# Kana row definitions
-KANA_ROWS = [
-    {'name': 'あ行', 'kana': 'あいうえお', 'key': 'あ', 'folder': 'a'},
-    {'name': 'か行', 'kana': 'かきくけこがぎぐげご', 'key': 'か', 'folder': 'ka'},
-    {'name': 'さ行', 'kana': 'さしすせそざじずぜぞ', 'key': 'さ', 'folder': 'sa'},
-    {'name': 'た行', 'kana': 'たちつてとだぢづでど', 'key': 'た', 'folder': 'ta'},
-    {'name': 'な行', 'kana': 'なにぬねの', 'key': 'な', 'folder': 'na'},
-    {'name': 'は行', 'kana': 'はひふへほばびぶべぼぱぴぷぺぽ', 'key': 'は', 'folder': 'ha'},
-    {'name': 'ま行', 'kana': 'まみむめも', 'key': 'ま', 'folder': 'ma'},
-    {'name': 'や行', 'kana': 'やゆよ', 'key': 'や', 'folder': 'ya'},
-    {'name': 'ら行', 'kana': 'らりるれろ', 'key': 'ら', 'folder': 'ra'},
-    {'name': 'わ行', 'kana': 'わをん', 'key': 'わ', 'folder': 'wa'},
-]
-
-# Mapping from first kana to folder
-KANA_TO_FOLDER = {}
-for row in KANA_ROWS:
-    for kana in row['kana']:
-        KANA_TO_FOLDER[kana] = row['folder']
-
-
-def get_kana_folder(reading: str) -> str:
-    """Get the folder name for a reading based on its first character."""
-    if not reading:
-        return 'a'
-    first_char = reading[0]
-    return KANA_TO_FOLDER.get(first_char, 'a')
 
 
 def strip_furigana(text: str) -> str:
@@ -151,66 +124,6 @@ def get_cross_ref_type_label(ref_type: str) -> str:
         'contrast': 'Contrast'
     }
     return labels.get(ref_type, 'Related')
-
-
-def hiragana_to_romaji(hiragana: str) -> str:
-    """Convert hiragana to romaji (simplified version)."""
-    romaji_map = {
-        'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o',
-        'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko',
-        'が': 'ga', 'ぎ': 'gi', 'ぐ': 'gu', 'げ': 'ge', 'ご': 'go',
-        'さ': 'sa', 'し': 'shi', 'す': 'su', 'せ': 'se', 'そ': 'so',
-        'ざ': 'za', 'じ': 'ji', 'ず': 'zu', 'ぜ': 'ze', 'ぞ': 'zo',
-        'た': 'ta', 'ち': 'chi', 'つ': 'tsu', 'て': 'te', 'と': 'to',
-        'だ': 'da', 'ぢ': 'di', 'づ': 'du', 'で': 'de', 'ど': 'do',
-        'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no',
-        'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho',
-        'ば': 'ba', 'び': 'bi', 'ぶ': 'bu', 'べ': 'be', 'ぼ': 'bo',
-        'ぱ': 'pa', 'ぴ': 'pi', 'ぷ': 'pu', 'ぺ': 'pe', 'ぽ': 'po',
-        'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo',
-        'や': 'ya', 'ゆ': 'yu', 'よ': 'yo',
-        'ら': 'ra', 'り': 'ri', 'る': 'ru', 'れ': 're', 'ろ': 'ro',
-        'わ': 'wa', 'を': 'wo', 'ん': 'n',
-        'きゃ': 'kya', 'きゅ': 'kyu', 'きょ': 'kyo',
-        'しゃ': 'sha', 'しゅ': 'shu', 'しょ': 'sho',
-        'ちゃ': 'cha', 'ちゅ': 'chu', 'ちょ': 'cho',
-        'にゃ': 'nya', 'にゅ': 'nyu', 'にょ': 'nyo',
-        'ひゃ': 'hya', 'ひゅ': 'hyu', 'ひょ': 'hyo',
-        'みゃ': 'mya', 'みゅ': 'myu', 'みょ': 'myo',
-        'りゃ': 'rya', 'りゅ': 'ryu', 'りょ': 'ryo',
-        'ぎゃ': 'gya', 'ぎゅ': 'gyu', 'ぎょ': 'gyo',
-        'じゃ': 'ja', 'じゅ': 'ju', 'じょ': 'jo',
-        'びゃ': 'bya', 'びゅ': 'byu', 'びょ': 'byo',
-        'ぴゃ': 'pya', 'ぴゅ': 'pyu', 'ぴょ': 'pyo',
-        'っ': '', 'ー': '',
-    }
-
-    result = []
-    i = 0
-    while i < len(hiragana):
-        # Try two-character combinations first
-        if i + 1 < len(hiragana):
-            two_char = hiragana[i:i+2]
-            if two_char in romaji_map:
-                result.append(romaji_map[two_char])
-                i += 2
-                continue
-
-        # Single character
-        char = hiragana[i]
-        if char in romaji_map:
-            # Handle っ (gemination)
-            if char == 'っ' and i + 1 < len(hiragana):
-                next_char = hiragana[i + 1]
-                if next_char in romaji_map and romaji_map[next_char]:
-                    result.append(romaji_map[next_char][0])  # Double the consonant
-            else:
-                result.append(romaji_map[char])
-        else:
-            result.append(char)
-        i += 1
-
-    return ''.join(result)
 
 
 def generate_nav_header(relative_path: str = '') -> str:

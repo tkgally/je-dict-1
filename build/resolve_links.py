@@ -15,6 +15,8 @@ import re
 from pathlib import Path
 from typing import Dict, List, Any, Optional, Tuple
 
+from japanese_utils import romaji_to_hiragana
+
 
 def build_reading_index(entries: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
     """
@@ -81,56 +83,6 @@ def normalize_legacy_reference(ref: str, reading_index: Dict[str, Dict[str, Any]
         'headword': None,
         'label': None
     }
-
-
-def romaji_to_hiragana(romaji: str) -> str:
-    """
-    Convert romaji to hiragana (simplified conversion).
-
-    This handles common patterns but is not comprehensive.
-    """
-    # Mapping table for common romaji to hiragana
-    conversions = [
-        # Long vowels and special cases first
-        ('shi', 'し'), ('chi', 'ち'), ('tsu', 'つ'),
-        ('sha', 'しゃ'), ('shu', 'しゅ'), ('sho', 'しょ'),
-        ('cha', 'ちゃ'), ('chu', 'ちゅ'), ('cho', 'ちょ'),
-        ('ja', 'じゃ'), ('ju', 'じゅ'), ('jo', 'じょ'),
-        ('nya', 'にゃ'), ('nyu', 'にゅ'), ('nyo', 'にょ'),
-        ('hya', 'ひゃ'), ('hyu', 'ひゅ'), ('hyo', 'ひょ'),
-        ('mya', 'みゃ'), ('myu', 'みゅ'), ('myo', 'みょ'),
-        ('rya', 'りゃ'), ('ryu', 'りゅ'), ('ryo', 'りょ'),
-        ('gya', 'ぎゃ'), ('gyu', 'ぎゅ'), ('gyo', 'ぎょ'),
-        ('bya', 'びゃ'), ('byu', 'びゅ'), ('byo', 'びょ'),
-        ('pya', 'ぴゃ'), ('pyu', 'ぴゅ'), ('pyo', 'ぴょ'),
-        # Double consonants
-        ('kk', 'っk'), ('ss', 'っs'), ('tt', 'っt'),
-        ('pp', 'っp'), ('mm', 'っm'), ('nn', 'ん'),
-        # Basic syllables
-        ('ka', 'か'), ('ki', 'き'), ('ku', 'く'), ('ke', 'け'), ('ko', 'こ'),
-        ('sa', 'さ'), ('su', 'す'), ('se', 'せ'), ('so', 'そ'),
-        ('ta', 'た'), ('te', 'て'), ('to', 'と'),
-        ('na', 'な'), ('ni', 'に'), ('nu', 'ぬ'), ('ne', 'ね'), ('no', 'の'),
-        ('ha', 'は'), ('hi', 'ひ'), ('fu', 'ふ'), ('he', 'へ'), ('ho', 'ほ'),
-        ('ma', 'ま'), ('mi', 'み'), ('mu', 'む'), ('me', 'め'), ('mo', 'も'),
-        ('ya', 'や'), ('yu', 'ゆ'), ('yo', 'よ'),
-        ('ra', 'ら'), ('ri', 'り'), ('ru', 'る'), ('re', 'れ'), ('ro', 'ろ'),
-        ('wa', 'わ'), ('wo', 'を'),
-        ('ga', 'が'), ('gi', 'ぎ'), ('gu', 'ぐ'), ('ge', 'げ'), ('go', 'ご'),
-        ('za', 'ざ'), ('ji', 'じ'), ('zu', 'ず'), ('ze', 'ぜ'), ('zo', 'ぞ'),
-        ('da', 'だ'), ('de', 'で'), ('do', 'ど'),
-        ('ba', 'ば'), ('bi', 'び'), ('bu', 'ぶ'), ('be', 'べ'), ('bo', 'ぼ'),
-        ('pa', 'ぱ'), ('pi', 'ぴ'), ('pu', 'ぷ'), ('pe', 'ぺ'), ('po', 'ぽ'),
-        # Single vowels
-        ('a', 'あ'), ('i', 'い'), ('u', 'う'), ('e', 'え'), ('o', 'お'),
-        ('n', 'ん'),
-    ]
-
-    result = romaji.lower()
-    for rom, hira in conversions:
-        result = result.replace(rom, hira)
-
-    return result
 
 
 def resolve_reference(ref: Dict[str, Any], reading_index: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
