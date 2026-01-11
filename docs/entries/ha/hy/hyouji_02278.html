@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="表示 - display, indication, showing. Japanese-English dictionary entry with definitions and examples.">
+    <title>表示 (ひょうじ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ひょうじ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">display, indication, showing</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">display, indication, showing</span>
+                    <div class="definition-explanation">The act of displaying or showing information, or the displayed information itself.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>画面<rp>(</rp><rt>がめん</rt><rp>)</rp></ruby>に<ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby>される。</div>
+                    <div class="example-english">It is displayed on the screen.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>価格<rp>(</rp><rt>かかく</rt><rp>)</rp></ruby><ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby>を<ruby>確認<rp>(</rp><rt>かくにん</rt><rp>)</rp></ruby>してください。</div>
+                    <div class="example-english">Please check the price display.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">エラー<ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby>が<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>た。</div>
+                    <div class="example-english">An error message appeared.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>COMPOUND: <ruby>表<rp>(</rp><rt>ひょう</rt><rp>)</rp></ruby> (surface, express) + <ruby>示<rp>(</rp><rt>じ</rt><rp>)</rp></ruby> (show)</p><p>COMMON COLLOCATIONS:</p><ul><li><ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby>する (to display)</li><li><ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby>される (to be displayed)</li><li><ruby>価格<rp>(</rp><rt>かかく</rt><rp>)</rp></ruby><ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby> (price display)</li><li><ruby>時刻<rp>(</rp><rt>じこく</rt><rp>)</rp></ruby><ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby> (time display)</li><li><ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby><ruby>画面<rp>(</rp><rt>がめん</rt><rp>)</rp></ruby> (display screen)</li><li><ruby>成分<rp>(</rp><rt>せいぶん</rt><rp>)</rp></ruby><ruby>表示<rp>(</rp><rt>ひょうじ</rt><rp>)</rp></ruby> (ingredient list/display)</li></ul><p>USED IN:</p><ul><li>Computer/phone screens</li><li>Product labels</li><li>Signs and notices</li><li>Data visualization</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-reviewed">reviewed</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 21:00</div>
+                <div class="metadata-file">ha/hy/hyouji_02278</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
