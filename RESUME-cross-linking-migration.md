@@ -1,7 +1,7 @@
 # Cross-Linking Migration - Resume Instructions
 
-**Last updated**: 2026-01-10 (Session 3)
-**Current phase**: Phase 3 - Ongoing Maintenance
+**Last updated**: 2026-01-11 (Session 4)
+**Current phase**: Phase 4 - Infrastructure Updated
 
 ## Session 1 Summary (2026-01-10)
 
@@ -138,22 +138,56 @@
 
 | File | Changes |
 |------|---------|
-| `entries/ma/meshiagaru_00142.json` | Added keigo cross-references |
-| `entries/a/itadaku_00148.json` | Added keigo cross-references |
-| `entries/a/irassharu_00137.json` | Added keigo cross-references |
-| `entries/a/ossharu_00138.json` | Added keigo cross-references |
-| `entries/ma/mairu_00146.json` | Added keigo cross-references |
-| `entries/ma/mousu_00145.json` | Added keigo cross-references |
-| `entries/ka/kudasaru_00140.json` | Added keigo cross-references |
-| `entries/ta/taberu_00001.json` | Added keigo cross-references |
-| `entries/ha/ha_00001.json` | Converted to structured format |
-| `entries/ka/ga_00001.json` | Converted to structured format |
-| `entries/na/ni_00001.json` | Converted to structured format |
-| `entries/ta/de_00008.json` | Converted to structured format |
+| `entries/ma/me/meshiagaru_00142.json` | Added keigo cross-references |
+| `entries/a/it/itadaku_00148.json` | Added keigo cross-references |
+| `entries/a/ir/irassharu_00137.json` | Added keigo cross-references |
+| `entries/a/os/ossharu_00138.json` | Added keigo cross-references |
+| `entries/ma/ma/mairu_00146.json` | Added keigo cross-references |
+| `entries/ma/mo/mousu_00145.json` | Added keigo cross-references |
+| `entries/ka/ku/kudasaru_00140.json` | Added keigo cross-references |
+| `entries/ta/ta/taberu_00001.json` | Added keigo cross-references |
+| `entries/ha/ha/ha_00001.json` | Converted to structured format |
+| `entries/ka/ga/ga_00001.json` | Converted to structured format |
+| `entries/na/ni/ni_00001.json` | Converted to structured format |
+| `entries/ta/de/de_00008.json` | Converted to structured format |
+
+**Note**: File paths above use the new prefix-based structure (`entries/{kana}/{prefix}/{id}.json`) introduced in Session 4.
 
 ---
 
-## Session 4 Tasks (Next Session)
+## Session 4 Summary (2026-01-11)
+
+### Infrastructure Changes
+
+**IMPORTANT**: The project underwent major reorganization in this session:
+
+1. **SPA Removed** - The single-page application version was removed. The dictionary is now built as flat HTML only.
+   - `web/` directory no longer exists
+   - `build/build.py` simplified to only run validation and `build_flat.py`
+   - Output goes directly to `docs/` (not `docs/flat/`)
+
+2. **Prefix-Based Subdirectories** - Entries and audio reorganized to avoid GitHub's 1,000 file/directory limit:
+   - Entry paths changed from `entries/{kana}/{id}.json` to `entries/{kana}/{prefix}/{id}.json`
+   - Audio paths changed from `audio/{kana}/{id}-exN.mp3` to `audio/{kana}/{prefix}/{id}-exN.mp3`
+   - HTML output changed from `docs/flat/entries/{kana}/{id}.html` to `docs/entries/{kana}/{prefix}/{id}.html`
+   - Prefix = first 2 characters of entry ID (e.g., `taberu_00001` → `ta/`)
+
+3. **Files Modified/Created**:
+   - `build/build.py` - Simplified (SPA code removed)
+   - `build/build_flat.py` - Updated for new paths
+   - `build/validate.py` - Added prefix directory validation
+   - `build/migrate_entries.py` - New script for migration
+   - All 2,074 entry files migrated to new locations
+
+### Impact on Cross-References
+
+- Cross-reference resolution still works (by reading lookup)
+- Web display still works (links updated in build_flat.py)
+- No changes to cross-reference format or validation
+
+---
+
+## Session 5 Tasks (Next Session)
 
 ### Priority 1: Additional Manual Enhancements
 
@@ -169,12 +203,10 @@
    - を (direct object) - add if not done
    - へ (direction) - verify linked to に
 
-### Priority 2: UI Testing (User completed in Session 3)
+### Note: UI Testing Completed
 
-User tested the following entries for cross-reference display:
+User tested the following entries for cross-reference display in Session 3:
 - 食べる, 閉める, いらっしゃる, は, に, いただく, 開ける, 始める, くださる, が
-
-If issues are found, address them in this session.
 
 ---
 
@@ -266,3 +298,5 @@ python3 build/validate.py --id shimeru_00005
 5. The `cross-reference-entry` skill provides detailed guidelines
 6. Always rebuild (`python3 build/build.py`) after modifications
 7. **CRITICAL: Write each entry individually** - Do NOT create Python scripts to mass-produce entries. Each entry must be crafted by hand using the skills and guidelines. See `entry-guidelines` skill for details.
+8. **Entry paths use prefix-based structure**: `entries/{kana}/{prefix}/{id}.json` where prefix is first 2 chars of entry ID
+9. **SPA no longer exists** - The dictionary is now flat HTML only. The `web/` directory was removed.

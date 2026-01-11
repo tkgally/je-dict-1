@@ -42,38 +42,22 @@ The dictionary is built as a **completely static website**:
 - Offline-capable—download and use anywhere
 - Data is embedded in JavaScript at build time for maximum portability
 
-## Site Formats
+## Site Structure
 
-The build process generates two versions of the dictionary site:
+The dictionary is built as a static HTML site at `docs/`:
 
-### Single-Page Application (docs/)
-
-The main site at `docs/index.html` is a JavaScript-powered single-page application:
-- **Fast navigation**: All entries loaded in memory for instant switching
-- **Rich search**: Real-time search across Japanese, English, and romaji
-- **Multiple views**: Search, Browse, Recent, and Random interfaces
-- **Furigana toggle**: Show/hide readings above kanji
-- **Offline-capable**: Works without an internet connection once loaded
-
-**Best for**: Interactive use, studying vocabulary, quick lookups
-
-### Flat HTML Site (docs/flat/)
-
-A parallel static HTML version at `docs/flat/index.html`:
 - **Individual pages**: Each entry has its own standalone HTML file
 - **SEO-friendly**: Search engines can index individual entries
 - **Works without JavaScript**: Core functionality requires no JS
 - **Lightweight pages**: Each page loads only the content needed
-- **Deep linking**: Direct URLs to specific entries (e.g., `entries/ta/taberu_00001.html`)
+- **Deep linking**: Direct URLs to specific entries
 - **Native audio controls**: HTML5 audio elements for pronunciation
 
-**Best for**: Sharing links to entries, search engine visibility, low-bandwidth access
+### URL Structure
 
-### URL Structure (Flat Site)
-
-Entry pages are organized by kana row:
+Entry pages are organized by kana row and prefix (first 2 characters of entry ID):
 ```
-docs/flat/
+docs/
 ├── index.html           # Home page
 ├── search.html          # Search interface
 ├── browse.html          # Browse by kana row
@@ -81,14 +65,22 @@ docs/flat/
 ├── random.html          # Random word cloud
 ├── entries/
 │   ├── a/               # あ行 entries
-│   │   └── aru_00001.html
+│   │   ├── a_/          # Entries with IDs starting 'a_'
+│   │   │   └── a_00412.html
+│   │   ├── ar/          # Entries with IDs starting 'ar'
+│   │   │   └── aru_00001.html
+│   │   └── ...
 │   ├── ka/              # か行 entries
 │   ├── sa/              # さ行 entries
 │   └── ...
-└── audio/               # Audio files
+└── audio/               # Audio files (same structure)
     ├── a/
+    │   ├── a_/
+    │   └── ...
     └── ...
 ```
+
+This prefix-based subdirectory structure allows the dictionary to scale to 10,000+ entries while staying within GitHub's 1,000 files per directory limit.
 
 ## Web Interface
 
@@ -147,6 +139,9 @@ Examples:
 je-dict-1/
 ├── entries/              # Dictionary entries (one JSON file per word)
 │   ├── a/                # あ行 (a, i, u, e, o)
+│   │   ├── a_/           # Entries with IDs starting 'a_'
+│   │   ├── ar/           # Entries with IDs starting 'ar'
+│   │   └── ...           # (prefix = first 2 chars of entry ID)
 │   ├── ka/               # か行 (includes が行)
 │   ├── sa/               # さ行 (includes ざ行)
 │   ├── ta/               # た行 (includes だ行)
@@ -158,25 +153,27 @@ je-dict-1/
 │   └── wa/               # わ行 (includes を, ん)
 ├── audio/                # Audio pronunciation files (MP3)
 │   ├── a/                # あ行 entries
+│   │   ├── a_/           # (same prefix structure as entries/)
+│   │   └── ...
 │   ├── ka/               # か行 entries
-│   └── ...               # (same structure as entries/)
+│   └── ...
 ├── audio-to-add/         # Staging directory for new audio files
 ├── build/                # Build and management scripts
 │   ├── schema.json       # JSON schema for entries
 │   ├── validate.py       # Entry validation script
-│   ├── build.py          # Main build script (runs both builds)
-│   ├── build_flat.py     # Flat HTML site generator
+│   ├── build.py          # Main build script
+│   ├── build_flat.py     # Static HTML site generator
 │   ├── merge_audio.py    # Merges audio files into entries
+│   ├── migrate_entries.py        # Migration to prefix-based structure
 │   ├── update_entries_index.py   # Updates entries_index.json
 │   ├── manage_candidates.py      # Manages candidate_words.json
 │   ├── update_indexes.py         # Updates both index files
 │   └── requirements.txt
-├── web/                  # Web application source
 ├── docs/                 # Generated output (served by GitHub Pages)
-│   ├── audio/            # Built audio files (copied from audio/)
-│   └── flat/             # Flat HTML version of the site
-│       ├── entries/      # Individual entry HTML files
-│       └── audio/        # Audio files for flat site
+│   ├── entries/          # Individual entry HTML files
+│   │   ├── a/            # (same prefix structure as entries/)
+│   │   └── ...
+│   └── audio/            # Built audio files (copied from audio/)
 ├── .claude/              # Claude Code configuration
 │   ├── skills/           # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
@@ -276,9 +273,13 @@ Files use the format: `{romanized_reading}_{id}.json`
 
 ### Directory Placement
 
-Files go in directories based on the first kana of the reading:
-- 食べる (たべる) → `entries/ta/taberu_00001.json`
-- 水 (みず) → `entries/ma/mizu_00001.json`
+Files go in directories based on the reading's first kana and the entry ID prefix:
+- 食べる (たべる) → `entries/ta/ta/taberu_00001.json`
+  - `ta/` = た行 (based on reading)
+  - `ta/` = first 2 chars of `taberu_00001`
+- 水 (みず) → `entries/ma/mi/mizu_00001.json`
+  - `ma/` = ま行 (based on reading)
+  - `mi/` = first 2 chars of `mizu_00001`
 
 ## Adding Audio Files
 
@@ -318,12 +319,15 @@ Audio pronunciation files can be added for example sentences. The web interface 
 
 ### Directory Structure
 
-Audio files are organized by kana (same as entries):
+Audio files are organized by kana and prefix (same as entries):
 ```
 audio/
 ├── a/                    # あ行 entries
-│   ├── a_00412-ex1.mp3
-│   └── ame_00044-ex1.mp3
+│   ├── a_/               # Entries with IDs starting 'a_'
+│   │   └── a_00412-ex1.mp3
+│   ├── am/               # Entries with IDs starting 'am'
+│   │   └── ame_00044-ex1.mp3
+│   └── ...
 ├── ka/                   # か行 entries
 ├── sa/                   # さ行 entries
 └── ...
@@ -357,6 +361,8 @@ audio/
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
 - [x] Cross-reference linking system
 - [x] Audio pronunciation for example sentences
+- [x] Static HTML site generation (flat HTML only)
+- [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
 - [ ] Continue adding vocabulary from candidate list (~1,980 candidates)
 - [ ] Conjugation search indexing
 
