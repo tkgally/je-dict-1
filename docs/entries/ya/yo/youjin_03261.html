@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="用心 - caution, precaution. Japanese-English dictionary entry with definitions and examples.">
+    <title>用心 (ようじん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>用心<rp>(</rp><rt>ようじん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ようじん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">caution, precaution</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">caution, precaution, vigilance</span>
+                    <div class="definition-explanation">Care taken to avoid danger or mistakes; being careful and watchful.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>の<ruby>用心<rp>(</rp><rt>ようじん</rt><rp>)</rp></ruby>をしてください。</div>
+                    <div class="example-english">Please be careful with fire.</div>
+                    <div class="example-notes">火の用心 = fire safety/prevention</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>用心<rp>(</rp><rt>ようじん</rt><rp>)</rp></ruby>に<ruby>越<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>したことはない。</div>
+                    <div class="example-english">You can&#x27;t be too careful.</div>
+                    <div class="example-notes">Common saying meaning &#x27;better safe than sorry&#x27;</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>夜道<rp>(</rp><rt>よみち</rt><rp>)</rp></ruby>は<ruby>用心<rp>(</rp><rt>ようじん</rt><rp>)</rp></ruby>して<ruby>歩<rp>(</rp><rt>ある</rt><rp>)</rp></ruby>いた<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>がいい。</div>
+                    <div class="example-english">You should walk carefully on the streets at night.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>USAGE: <ruby>用心<rp>(</rp><rt>ようじん</rt><rp>)</rp></ruby> emphasizes being careful to prevent problems or danger. It&#x27;s often used with する to form a verb.</p><p>COMMON PATTERNS:</p><ul><li><ruby>用心<rp>(</rp><rt>ようじん</rt><rp>)</rp></ruby>する (to be careful, to take precautions)</li><li><ruby>火<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>の<ruby>用心<rp>(</rp><rt>ようじん</rt><rp>)</rp></ruby> (fire safety/prevention)</li><li><ruby>用心<rp>(</rp><rt>ようじん</rt><rp>)</rp></ruby>に<ruby>越<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>したことはない (can&#x27;t be too careful)</li><li><ruby>用心深<rp>(</rp><rt>ようじんぶか</rt><rp>)</rp></ruby>い (cautious, wary)</li><li><ruby>用心棒<rp>(</rp><rt>ようじんぼう</rt><rp>)</rp></ruby> (bodyguard)</li></ul><p>SIMILAR WORDS:</p><ul><li><ruby>注意<rp>(</rp><rt>ちゅうい</rt><rp>)</rp></ruby> - attention, caution</li><li><ruby>警戒<rp>(</rp><rt>けいかい</rt><rp>)</rp></ruby> - vigilance, precaution</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 1:05</div>
+                <div class="metadata-file">ya/yo/youjin_03261</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
