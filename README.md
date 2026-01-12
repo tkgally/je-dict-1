@@ -12,19 +12,20 @@ This dictionary is designed for learners of Japanese as a second language. Its f
 - **Natural example sentences** optimized for learning
 - **Usage notes** covering grammar, register, and common patterns
 - **Furigana support** with toggle to show/hide readings above kanji
-- **Audio pronunciation** for some example sentences with play/stop controls (more to come)
-- **Multiple interface modes**: Search, Browse, Recent, and Random views (more to come)
+- **Audio pronunciation** for 1,000+ example sentences with play/stop controls
+- **Multiple interface modes**: Search, Browse, Recent, and Random views
+- **Cross-reference linking** connecting related words, antonyms, and transitivity pairs
 - **Transitivity and aspect information** for verbs
 - **Collocation patterns** showing natural word combinations
 - **Keigo (honorific) verb coverage** with usage guidance
 
 ## Current Status
 
-- **2,834 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (started), with a total target of about 10,000 entries
-- **1,028 audio files** with pronunciation for example sentences, produced with OpenAI’s text-to-speech models
+- **3,481 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (significant progress), with a total target of about 10,000 entries
+- **1,028 audio files** with pronunciation for example sentences, produced with OpenAI's text-to-speech models
+- **567 cross-references** linking related entries with 97% resolution rate
 - **Claude Code skills** for consistent entry creation and revision
-- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
-- **400 cross-references** with 95% resolution rate
+- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions (~2,070 candidates)
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
@@ -105,8 +106,6 @@ Useful for tracking dictionary updates and discovering new content.
 
 ### Random Mode
 A word cloud of randomly selected entries. Click any word to view its full entry. Great for serendipitous discovery and vocabulary review.
-
-More interface features will be added in the weeks ahead.
 
 ## Furigana System
 
@@ -317,16 +316,17 @@ audio/
 - [x] Notes formatting with bullet points
 
 ### Phase 4: N4 Expansion & Interface (Current)
-- [x] Added 392 N4 vocabulary entries
+- [x] Added ~450 N4 vocabulary entries
+- [x] Added ~1,090 N3 vocabulary entries
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle and furigana button
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
-- [x] Cross-reference linking system (400 references, 95% resolved)
+- [x] Cross-reference linking system (567 references, 97% resolved)
 - [x] Audio pronunciation for 1,028 example sentences
 - [x] Static HTML site generation (flat HTML only)
 - [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
 - [x] Code quality improvements (shared utilities, deterministic builds)
-- [ ] Continue adding vocabulary from candidate list (~1,980 candidates)
+- [ ] Continue adding vocabulary from candidate list (~2,070 candidates)
 - [ ] Conjugation search indexing
 
 ### Phase 5: Polish and Distribution
@@ -351,6 +351,7 @@ The following skills are available in `.claude/skills/` and will be automaticall
 | `revise-entries` | Checklist for revising existing entries to v2 standards |
 | `vocabulary-notes` | Formatting guidelines for notes field |
 | `cross-reference-entry` | Guidelines for adding cross-references between entries |
+| `find-candidates` | Guidelines for finding new candidate words to add |
 
 Skills are automatically loaded when Claude determines they're relevant to the current task.
 

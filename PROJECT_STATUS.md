@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,431
+- **Total entries**: 3,481
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~1,090 entries added
-- **Candidate words**: ~2,079 words tracked in `candidate_words.json`
+- **Candidate words**: ~2,070 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 23)
+- Added 50 new dictionary entries from candidate_words.json (3,431 → 3,481 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily katakana loanwords and basic Japanese words:
+  - Katakana loanwords: アイスクリーム, アルバム, イメージ, インタビュー, エネルギー, エンジン, カード, キャンプ, クラシック, クリスマス, グループ, ケース, ゲーム, コンテスト, コーチ, ゴール, サイン, ショック, スイッチ, スキー, スケジュール, スタイル, スピーチ, セット, センター, タイトル, ダンス, チャンス, チーム, テント, デザイン, デート, トップ, トラック, トランプ, トンネル, ドライブ, ドラマ, ノック, ハイキング, バランス, プロ, マスコミ
+  - Basic Japanese: 何か (something), 何も (nothing), 何で (why), 日本 (Japan), 曜日 (day of week), 元 (origin/former), どうぞよろしく (pleased to meet you)
+- Entry types:
+  - Nouns (most entries): everyday objects, activities, concepts
+  - Expressions: どうぞよろしく
+  - Pronouns: 何か, 何も
+  - Adverbs: 何で
+- Notable features:
+  - Multiple meanings covered (e.g., トラック = truck/track, サイン = autograph/signature/sign)
+  - Cultural notes included (クリスマス, トランプ)
+  - Cross-references added where applicable
+- Removed 9 candidates from candidate_words.json (2,079 → 2,070)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 22)
 - Added 50 new dictionary entries from candidate_words.json (3,381 → 3,431 total)
