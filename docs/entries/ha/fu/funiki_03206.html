@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="雰囲気 - atmosphere, mood. Japanese-English dictionary entry with definitions and examples.">
+    <title>雰囲気 (ふんいき) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ふんいき</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">atmosphere, mood</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">atmosphere, mood, ambiance</span>
+                    <div class="definition-explanation">The overall feeling or character of a place, situation, or person.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">このレストランは<ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby>がいい。</div>
+                    <div class="example-english">This restaurant has a nice atmosphere.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>会議<rp>(</rp><rt>かいぎ</rt><rp>)</rp></ruby>の<ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby>が<ruby>重<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>かった。</div>
+                    <div class="example-english">The atmosphere of the meeting was heavy.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>には<ruby>独特<rp>(</rp><rt>どくとく</rt><rp>)</rp></ruby>の<ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby>がある。</div>
+                    <div class="example-english">She has a unique aura about her.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>USAGE: <ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby> describes the intangible feeling of places, events, or people. Very commonly used in everyday conversation.</p><p>PRONUNCIATION NOTE: Though written ふんいき, some speakers say ふいんき. The standard pronunciation is ふんいき.</p><p>COMMON PATTERNS:</p><ul><li><ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby>がいい/わるい (good/bad atmosphere)</li><li><ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby>を<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す (to create atmosphere)</li><li><ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby>を<ruby>壊<rp>(</rp><rt>こわ</rt><rp>)</rp></ruby>す (to ruin the atmosphere)</li><li><ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby>に<ruby>飲<rp>(</rp><rt>の</rt><rp>)</rp></ruby>まれる (to be overwhelmed by the atmosphere)</li><li><ruby>独特<rp>(</rp><rt>どくとく</rt><rp>)</rp></ruby>の<ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby> (unique atmosphere)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 0:33</div>
+                <div class="metadata-file">ha/fu/funiki_03206</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
