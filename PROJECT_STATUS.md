@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,331
+- **Total entries**: 3,381
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,040 entries added
-- **Candidate words**: ~2,175 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,090 entries added
+- **Candidate words**: ~2,126 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 21)
+- Added 50 new dictionary entries from candidate_words.json (3,331 → 3,381 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on ま/み/む/め/せ/ぜ/の/か rows:
+  - Nouns: 孫, 間違い, 祭, 真似, 豆, 万一, 実, 見送り, 味方, 見舞い, 土産, 都, 未来, 魅力, 向かい, 夢中, 名人, 命令, 石炭, 禅, 前進, 農民, 書斎, 食物, 食糧, 声明, 姓名, 税, 章, 慣行, 降伏, 大戦, 先行, 選考, 密, 荒廃, 正規, 足袋
+  - Na-adjectives: 真っ赤 (bright red), 見事 (splendid), 精巧 (elaborate)
+  - I-adjectives: まぶしい (dazzling), 蒸し暑い (humid)
+  - Adverbs: まさか (surely not), まるで (just like), 前もって (in advance), なぜなら (because)
+  - Expressions: 違いない (must be), 無し (without)
+- Notable homophone pairs:
+  - 声明/姓名/生命 (せいめい - statement/full name/life)
+  - 先行/選考/専攻 (せんこう - preceding/selection/major)
+  - 成功/精巧 (せいこう - success/elaborate)
+  - 降伏/幸福 (こうふく - surrender/happiness)
+  - 荒廃/後輩 (こうはい - ruin/junior)
+- Removed 49 candidates from candidate_words.json (2,175 → 2,126)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 20)
 - Added 50 new dictionary entries from candidate_words.json (3,281 → 3,331 total)
