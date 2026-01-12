@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="どうぞよろしく - pleased to meet you. Japanese-English dictionary entry with definitions and examples.">
+    <title>どうぞよろしく (どうぞよろしく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">どうぞよろしく</h1>
+            <div class="entry-reading">どうぞよろしく</div>
+            <div class="entry-pos">expression</div>
+            <div class="entry-gloss">pleased to meet you</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">pleased to meet you</span>
+                    <div class="definition-explanation">A polite expression used when meeting someone for the first time.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">please take care of it</span>
+                    <div class="definition-explanation">Used when asking someone to handle something or requesting their favorable consideration.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>初<rp>(</rp><rt>はじ</rt><rp>)</rp></ruby>めまして。<ruby>田中<rp>(</rp><rt>たなか</rt><rp>)</rp></ruby>です。どうぞよろしく。</div>
+                    <div class="example-english">Nice to meet you. I&#x27;m Tanaka. Pleased to meet you.</div>
+                    <div class="example-notes">Standard self-introduction</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>新人<rp>(</rp><rt>しんじん</rt><rp>)</rp></ruby>の<ruby>山田<rp>(</rp><rt>やまだ</rt><rp>)</rp></ruby>です。どうぞよろしくお<ruby>願<rp>(</rp><rt>ねが</rt><rp>)</rp></ruby>いします。</div>
+                    <div class="example-english">I&#x27;m Yamada, the new employee. I look forward to working with you.</div>
+                    <div class="example-notes">More formal version</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>件<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>、どうぞよろしくお<ruby>願<rp>(</rp><rt>ねが</rt><rp>)</rp></ruby>いします。</div>
+                    <div class="example-english">Please take care of this matter.</div>
+                    <div class="example-notes">Requesting someone&#x27;s help</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>USAGE: どうぞよろしく is the shortened form of どうぞよろしくお願いします. It&#x27;s used:<br>1. When meeting someone for the first time<br>2. When asking for someone&#x27;s help or cooperation<br>3. At the end of self-introductions</p><p>FORMALITY LEVELS:</p><ul><li>よろしく (casual)</li><li>どうぞよろしく (polite)</li><li>どうぞよろしくお<ruby>願<rp>(</rp><rt>ねが</rt><rp>)</rp></ruby>いします (formal)</li><li>どうぞよろしくお<ruby>願<rp>(</rp><rt>ねが</rt><rp>)</rp></ruby>いいたします (very formal)</li></ul><p>COMMON CONTEXTS:</p><ul><li>Self-introductions</li><li>Business meetings</li><li>Email endings</li><li>Requesting favors</li></ul><p>[Register: Polite]</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.12 22:55</div>
+                <div class="metadata-file">ta/do/douzoyoroshiku_03480</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
