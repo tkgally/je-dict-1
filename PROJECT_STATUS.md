@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-11
+**Last updated**: 2026-01-12
 **Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,834
+- **Total entries**: 2,884
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~540 entries added
-- **Candidate words**: ~2,672 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~590 entries added
+- **Candidate words**: ~2,623 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 11)
+- Added 50 new dictionary entries from candidate_words.json (2,834 → 2,884 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on し/じ-row words:
+  - Nouns: 奨学金, 正午, 少女, 症状, 衝突, 商人, 承認, 少年, 商売, 消費, 消防, 証明, 照明, 省略, 職業, 食卓, 食品, 植物, 食欲, 食料, 処理, 知らせ, 知り合い, 印, 城, 進学, 神経, 信号, 診察, 親戚, 心臓, 身長, 進歩, 親友, 信用, 信頼, 時期, 時刻, 事実, 事情, 実験, 実行, 実施, 実現, 実力, 自慢, 渋滞
+  - Adjectives: 新鮮 (fresh), 慎重 (careful)
+  - Adverb: 少々 (a little - formal)
+- Notable entry pairs:
+  - 証明/照明 (homophones しょうめい - proof/lighting)
+  - 商人/承認 (homophones しょうにん - merchant/approval)
+  - 身長/慎重 (homophones しんちょう - height/careful)
+  - 信用/信頼 (similar words - practical trust/deeper trust)
+  - 少年/少女 (antonym pair - boy/girl)
+- Removed 49 candidates from candidate_words.json (2,672 → 2,623)
 
 ### 2026-01-11 (Vocabulary Expansion - 50 New Entries, Session 10)
 - Added 50 new dictionary entries from candidate_words.json (2,784 → 2,834 total)
