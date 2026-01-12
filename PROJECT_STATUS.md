@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,381
+- **Total entries**: 3,431
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~1,090 entries added
-- **Candidate words**: ~2,126 words tracked in `candidate_words.json`
+- **Candidate words**: ~2,079 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 22)
+- Added 50 new dictionary entries from candidate_words.json (3,381 → 3,431 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on れ/ろ/わ/り/ゆ/め/も/か/け/さ/あ rows:
+  - Nouns: 礼儀, 連想, 連続, 老人, 労働, 論争, 論文, 別れ, 脇, 話題, 悪口, 湾, 料金, 例外, 量, 寮, 率, 郵便, 目上, 飯, 綿, 免許, 申し訳, 回復, 癖, 選手, ストレス, メッセージ, アンケート
+  - Na-adjectives: 冷静 (calm), わがまま (selfish), 利口 (clever), 面倒 (troublesome), 上等 (first-class)
+  - Adverbs: わざと (on purpose), 僅か (only), 滅多に (rarely), 必ずしも (not necessarily), 結局 (after all), 極 (quite), 更に (furthermore), 実に (indeed), いつでも (anytime)
+  - Conjunctions: しかも (moreover), したがって (therefore), あるいは (or), もしも (if)
+  - Pronouns: 我々 (we)
+  - Pre-noun adjectival: あらゆる (all, every), 全て (all)
+- Notable entry groups:
+  - ろ-row academic terms: 老人, 労働, 論争, 論文
+  - わ-row expressions: わがまま, わざと, 話題, 悪口
+  - Formal conjunctions: したがって, しかも, あるいは
+  - Common adverbs: 結局, 更に, 極, 実に
+- Removed 47 candidates from candidate_words.json (2,126 → 2,079)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 21)
 - Added 50 new dictionary entries from candidate_words.json (3,331 → 3,381 total)
