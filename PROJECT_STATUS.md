@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,884
+- **Total entries**: 2,934
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~590 entries added
-- **Candidate words**: ~2,623 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~640 entries added
+- **Candidate words**: ~2,573 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 12)
+- Added 50 new dictionary entries from candidate_words.json (2,884 → 2,934 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on じゅ/じょ/せ/ぜ/そ/ぞ rows:
+  - Nouns: 住宅, 住民, 順調, 順番, 乗客, 条件, 上司, 常識, 製造, 成長, 制度, 青年, 生年月日, 政府, 生物, 生命, 整理, 責任, 世間, 設計, 設備, 節約, 選挙, 洗剤, 選択, 宣伝, 税金, 全員, 全国, 前者, 全身, 全体, 騒音, 操作, 創造, 装置, 速度, 組織, 損, 存在, 尊重, 象, 増加
+  - Adjectives: 贅沢 (extravagant), 粗末 (crude)
+  - Adverbs: 精々 (at most), そっと (softly), そのまま (as is)
+  - Conjunctions: それとも (or), 先日 (the other day)
+- Notable entry pairs:
+  - 上司/部下 (homophones - boss/subordinate, antonym)
+  - 前者/後者 (antonym - former/latter)
+  - 損/得 (antonym - loss/gain)
+  - 増加/減少 (antonym - increase/decrease)
+  - 創造/想像 (homophones そうぞう - creation/imagination)
+  - 操作/捜査 (homophones そうさ - operation/investigation)
+  - 尊重/尊敬 (related words - respect for values/respect for people)
+- Removed 50 candidates from candidate_words.json (2,623 → 2,573)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 11)
 - Added 50 new dictionary entries from candidate_words.json (2,834 → 2,884 total)
