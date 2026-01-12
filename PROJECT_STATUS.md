@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,981
+- **Total entries**: 3,031
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~690 entries added
-- **Candidate words**: ~2,524 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~740 entries added
+- **Candidate words**: ~2,474 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 14)
+- Added 50 new dictionary entries from candidate_words.json (2,981 → 3,031 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on た/だ/ち rows:
+  - Nouns: 田, 他, 対, 隊, 体育, 体温, 大会, 退学, 大気, 滞在, 大使, 対象, 対照, 体重, 態度, 逮捕, 太陽, 大陸, 宝, 立場, 束, 旅, 試し, 便り, 単位, 単語, 代金, 大臣, 大統領, 代表, 大部分, 題名, 代理, 段, 男子, 団体, 地位, 知恵, 地下
+  - Adjectives/Na-adjectives: 退屈 (boring), 大した (significant), 平ら (flat), 単純 (simple)
+  - Adverbs: たっぷり (plenty), たとえ (even if), たまたま (by chance), 単に (simply)
+  - Expressions: たまらない (unbearable), だって (but/because)
+  - Other: 互い (mutual)
+- Notable entry pairs:
+  - 対象/対照 (homophones たいしょう - target/contrast)
+  - 太陽/月 (antonym pair - sun/moon, cross-referenced)
+  - 男子/女子 (antonym pair - male/female)
+  - 立場/地位 (related words - standpoint/status)
+  - 単位/単語/単純/単に (related 単 words)
+- Removed 50 candidates from candidate_words.json (2,524 → 2,474)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 13)
 - Added 50 new dictionary entries from candidate_words.json (2,934 → 2,981 total; 3 duplicates from previous session removed)
