@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 2,934
+- **Total entries**: 2,981
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~640 entries added
-- **Candidate words**: ~2,573 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~690 entries added
+- **Candidate words**: ~2,524 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 13)
+- Added 50 new dictionary entries from candidate_words.json (2,934 → 2,981 total; 3 duplicates from previous session removed)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on し/じ/す/ず/せ rows:
+  - Nouns: 身体, 審判, 心理, 真理, 磁気, 磁器, 自殺, 字体, 辞退, 自動, 児童, 重視, 順, 情, 上京, 状態, 上達, 冗談, 情報, 女王, 女子, 助詞, 助手, 女優, 人種, 人生, 人物, 水準, 推薦, 睡眠, 数, 数字, 末, 姿, 筋, 図, 頭痛, 世紀, 請求, 制限, 精神, 成人, 成績
+  - Adjectives: 正確 (accurate), 正式 (formal)
+  - Adverbs: 少なくとも (at least), 少しも (not at all), すなわち (namely)
+  - Verbs: ずれる (to shift)
+- Notable entry pairs:
+  - 心理/真理 (homophones しんり - psychology/truth)
+  - 磁気/磁器 (homophones じき - magnetism/porcelain)
+  - 字体/辞退 (homophones じたい - font/refusal)
+  - 自動/児童 (homophones じどう - automatic/children)
+  - 女子/助詞 (homophones じょし - female/particle)
+  - 性格/正確 (homophones せいかく - personality/accurate)
+  - 数/数字 (related words すう/すうじ - number/numeral)
+- Removed 49 candidates from candidate_words.json (2,573 → 2,524)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 12)
 - Added 50 new dictionary entries from candidate_words.json (2,884 → 2,934 total)
