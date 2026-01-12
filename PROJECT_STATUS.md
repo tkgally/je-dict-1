@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,181
+- **Total entries**: 3,231
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~890 entries added
-- **Candidate words**: ~2,325 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~940 entries added
+- **Candidate words**: ~2,275 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,22 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 18)
+- Added 50 new dictionary entries from candidate_words.json (3,181 → 3,231 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2 vocabulary focused on ひ/ふ/へ/ほ/ぼ rows:
+  - Nouns: 批判, 批評, 票, 評価, 表現, 表情, 評判, 表面, 費用, 風景, 夫婦, 笛, 服装, 不幸, 不自由, 夫人, 不足, 双子, 筆, 不平, 不利, 雰囲気, 武器, 舞台, 物価, 物質, 物理, 分析, 文明, 分野, 塀, 平均, 変化, 変更, 方向, 報告, 宝石, 豊富, 方法, 訪問, 誇り, 埃, 保護, 保存, 本人, 本物, 冒険
+  - Na-adjectives: 微妙 (subtle/iffy), 平等 (equal)
+- Notable entry pairs:
+  - 批判/批評 (related words - criticism/critique)
+  - 変化/変更 (related words - change/modification)
+  - 誇り/埃 (homophones ほこり - pride/dust)
+  - 本人/本物 (related words - the person himself/genuine article)
+  - 不幸/幸福 (antonym pair - unhappiness/happiness)
+  - 不利/有利 (antonym pair - disadvantage/advantage)
+  - 不平/不満 (related words - complaint/dissatisfaction)
+- Removed 50 candidates from candidate_words.json (2,325 → 2,275)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 17)
 - Added 50 new dictionary entries from candidate_words.json (3,131 → 3,181 total)
