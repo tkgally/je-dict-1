@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,281
+- **Total entries**: 3,331
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~990 entries added
-- **Candidate words**: ~2,225 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,040 entries added
+- **Candidate words**: ~2,175 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 20)
+- Added 50 new dictionary entries from candidate_words.json (3,281 → 3,331 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2 vocabulary focused on し/そ/は/ひ/ふ/ほ/ぼ/ま rows:
+  - Nouns: 至急, 署名, 書物, 尻, 信仰, 進行, 申告, 捜査, 操縦, 相続, 像, 裸, 発行, 発車, 発射, 羽根, 班, 版, 場, 莫大, 場面, 非行, 引越し, 必死, 日付, 否定, 一言, 人込み, 品, 節, 振り, 部分, 文, 頬, 保証, 保障, 補償, 仏, 歩道, 炎, 堀, 棒, 迷子
+  - Adverbs: しきりに, ばったり, ほっと, ぼんやり, まあ
+  - I-adjective: 等しい (equal)
+  - Expressions: 一人一人 (each person)
+- Notable entry pairs:
+  - 信仰/進行 (homophones しんこう - faith/progress)
+  - 捜査/操作 (homophones そうさ - investigation/operation)
+  - 発車/発射 (homophones はっしゃ - departure/firing)
+  - 保証/保障/補償 (homophones ほしょう - warranty/security/compensation)
+  - 否定/肯定 (antonym pair - negation/affirmation)
+  - 部分/全体 (antonym pair - part/whole)
+- Removed 50 candidates from candidate_words.json (2,225 → 2,175)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 19)
 - Added 50 new dictionary entries from candidate_words.json (3,231 → 3,281 total)
