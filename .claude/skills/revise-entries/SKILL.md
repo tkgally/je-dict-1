@@ -134,6 +134,26 @@ Based on evaluation findings, prioritize these entry categories:
 - に - location vs. で, indirect object, time
 - で - action location, means, reason
 
+## Updating Timestamps When Revising
+
+**IMPORTANT**: When revising an entry, update the `modified` timestamp to the current UTC time.
+
+Run this command to get the correct timestamp:
+```bash
+python3 build/get_timestamp.py
+```
+
+Then update only the `modified` field (keep `created` unchanged):
+```json
+"metadata": {
+  "created": "2026-01-05T08:30:00Z",   // Keep original
+  "modified": "2026-01-12T10:52:00Z",  // Update to current UTC
+  ...
+}
+```
+
+This ensures the entry appears in the "Recent" page with the correct revision date.
+
 ## Final Steps After Revisions
 
 After revising entries, run these commands:

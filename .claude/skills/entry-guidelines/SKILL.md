@@ -106,23 +106,40 @@ Every entry must include:
 
 ## Metadata Timestamps
 
-**IMPORTANT**: Use actual current **UTC time** for `created` and `modified` fields. The website automatically converts to JST for display.
+**CRITICAL**: Timestamps MUST be actual current UTC time. The website converts UTC to JST (+9 hours) for display. Incorrect timestamps will show as wrong dates/times (often appearing hours or days in the future).
 
-Generate timestamps dynamically:
-```python
-from datetime import datetime, timezone
-timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+### How to Get the Correct Timestamp
+
+**ALWAYS run this command** to get the current UTC timestamp before writing each entry:
+
+```bash
+python3 build/get_timestamp.py
 ```
 
-This produces: `"2026-01-11T04:15:42Z"` (UTC) → displays as `2026.1.11 13:15` (JST)
+This outputs the current UTC time, e.g.: `2026-01-12T10:45:30Z`
 
-**Never use hardcoded timestamps** like `"2026-01-09T12:00:00Z"` - this causes incorrect dates in the Recent view.
+Copy this exact output into both `created` and `modified` fields (for new entries) or just `modified` (for revisions).
 
-**Validation checks for timestamp issues:**
-- Future timestamps (created/modified time is in the future)
-- Suspiciously round timestamps (exactly on the hour with :00:00 seconds, likely hardcoded)
+### Why This Matters
 
-Run `python3 build/validate.py` to check for these issues.
+- The `Z` suffix means UTC (not local time, not JST)
+- The build script adds 9 hours to convert to JST for display
+- If you write `16:00:00Z` when actual UTC is `10:00`, it displays as **01:00 JST next day** (wrong!)
+- If you write `10:00:00Z` when actual UTC is `10:00`, it displays as **19:00 JST same day** (correct!)
+
+### Common Mistakes to Avoid
+
+1. **DO NOT** guess or estimate the timestamp
+2. **DO NOT** use your perception of current time - always run the script
+3. **DO NOT** use round hours like `12:00:00Z` or `15:00:00Z` (these are almost certainly wrong)
+4. **DO NOT** copy timestamps from other entries
+5. **DO NOT** write JST time with a Z suffix (this causes 9-hour errors)
+
+### Validation
+
+Run `python3 build/validate.py` to check for:
+- Future timestamps (timestamp is ahead of current UTC time)
+- Suspiciously round timestamps (exactly `:00:00` seconds, likely not from the script)
 
 ## Quality Checklist
 
