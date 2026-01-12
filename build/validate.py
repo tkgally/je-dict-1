@@ -9,6 +9,7 @@ consistency rules (filename format, directory placement, ID uniqueness).
 import json
 import sys
 import re
+import subprocess
 from pathlib import Path
 from typing import Optional
 
@@ -19,12 +20,25 @@ from japanese_utils import (
     KANA_TO_DIRECTORY,
 )
 
-try:
-    import jsonschema
-    from jsonschema import Draft7Validator
-except ImportError:
-    print("Error: jsonschema package required. Install with: pip install jsonschema")
-    sys.exit(1)
+
+def ensure_package(package_name: str) -> None:
+    """Ensure a package is installed, installing it automatically if missing."""
+    try:
+        __import__(package_name)
+    except ImportError:
+        print(f"Installing required package: {package_name}...")
+        subprocess.check_call(
+            [sys.executable, "-m", "pip", "install", package_name, "--quiet"],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
+        )
+
+
+# Auto-install required packages
+ensure_package("jsonschema")
+
+import jsonschema
+from jsonschema import Draft7Validator
 
 
 def load_schema(schema_path: Path) -> dict:
