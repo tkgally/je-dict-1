@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,031
+- **Total entries**: 3,081
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~740 entries added
-- **Candidate words**: ~2,474 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~790 entries added
+- **Candidate words**: ~2,424 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 15)
+- Added 50 new dictionary entries from candidate_words.json (3,031 → 3,081 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on ち/つ/て rows:
+  - Nouns: 地球, 地区, 遅刻, 知事, 父親, 知能, 地平線, 中央, 中学, 中古, 中止, 注目, 注文, 長期, 調査, 調子, 頂上, 挑戦, 貯金, 著者, 治療, 通過, 通貨, 通学, 通勤, 通信, 通訳, 疲れ, 付き合い, 包み, 続き, 翼, 罪, 連れ, 提案, 定期, 抵抗, 提出, 停電, 敵, 哲学, 鉄道, 徹夜, 手間, 典型, 天候, 天然
+  - Adverbs: 次々 (one after another), つまり (in other words), 直接 (directly)
+- Notable entry pairs:
+  - 通過/通貨 (homophones つうか - passage/currency)
+  - 天候/天気/気候 (weather-related: formal weather/casual weather/climate)
+  - 通学/通勤 (related words - school commute/work commute)
+  - 長期/短期 (antonym pair - long-term/short-term)
+  - 直接/間接 (antonym pair - direct/indirect)
+  - 天然/人工 (antonym pair - natural/artificial)
+- Removed 50 candidates from candidate_words.json (2,474 → 2,424)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 14)
 - Added 50 new dictionary entries from candidate_words.json (2,981 → 3,031 total)
