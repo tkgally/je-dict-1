@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="要するに - in short, in other words. Japanese-English dictionary entry with definitions and examples.">
+    <title>要するに (ようするに) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>要<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>するに</h1>
+            <div class="entry-reading">ようするに</div>
+            <div class="entry-pos">expression</div>
+            <div class="entry-gloss">in short, in other words</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">in short, in other words, basically</span>
+                    <div class="definition-explanation">Used to summarize or rephrase what has been said in a simpler or more direct way.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>要<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>するに、<ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>来<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>ないということだ。</div>
+                    <div class="example-english">In short, he&#x27;s not coming.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>要<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>するに、お<ruby>金<rp>(</rp><rt>かね</rt><rp>)</rp></ruby>が<ruby>足<rp>(</rp><rt>た</rt><rp>)</rp></ruby>りないんです。</div>
+                    <div class="example-english">Basically, we don&#x27;t have enough money.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>長<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>い<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>だったけど、<ruby>要<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>するに<ruby>何<rp>(</rp><rt>なに</rt><rp>)</rp></ruby>が<ruby>言<rp>(</rp><rt>い</rt><rp>)</rp></ruby>いたいの？</div>
+                    <div class="example-english">That was a long explanation, but in short, what are you trying to say?</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>USAGE: <ruby>要<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>するに is used at the beginning of a sentence to introduce a summary or the main point of what was previously said. It&#x27;s useful for cutting through complexity.</p><p>SIMILAR EXPRESSIONS:</p><ul><li>つまり - in other words, that is to say</li><li><ruby>結局<rp>(</rp><rt>けっきょく</rt><rp>)</rp></ruby> - after all, in the end</li><li><ruby>簡単<rp>(</rp><rt>かんたん</rt><rp>)</rp></ruby>に<ruby>言<rp>(</rp><rt>い</rt><rp>)</rp></ruby>えば - to put it simply</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 1:06</div>
+                <div class="metadata-file">ya/yo/yousuruni_03262</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

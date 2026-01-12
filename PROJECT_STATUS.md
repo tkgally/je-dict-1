@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,231
+- **Total entries**: 3,281
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~940 entries added
-- **Candidate words**: ~2,275 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~990 entries added
+- **Candidate words**: ~2,225 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 19)
+- Added 50 new dictionary entries from candidate_words.json (3,231 → 3,281 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on も/や/ゆ/よ/り rows:
+  - Nouns: 毛布, 目標, 文字, 物音, 物語, 模様, 文句, 役割, 家賃, 宿, 有機, 友好, 有効, 優秀, 優勝, 友情, 友人, 有能, 有利, 床, 夜明け, 容器, 陽気, 要求, 用心, 要素, 予期, 予算, 予想, 予測, 世の中, 余分, 予報, 予防, 嫁, 余裕, 喜び, 利益, 理解, 陸, 理想, 留学, 流行, 両替
+  - Na-adjectives: 厄介 (troublesome), 愉快 (pleasant), 豊か (rich/abundant)
+  - Adverbs: やがて (before long), やや (slightly), 要するに (in short)
+- Notable entry pairs:
+  - 友好/有効 (homophones ゆうこう - friendship/valid)
+  - 容器/陽気 (homophones ようき - container/cheerful)
+  - 予想/予測 (related words - expectation/prediction)
+  - 予報/予防 (homophones よほう/よぼう - forecast/prevention)
+  - 利益/損失 (antonym pair - profit/loss, cross-referenced)
+- Removed 50 candidates from candidate_words.json (2,275 → 2,225)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 18)
 - Added 50 new dictionary entries from candidate_words.json (3,181 → 3,231 total)
