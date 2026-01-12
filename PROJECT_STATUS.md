@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,081
+- **Total entries**: 3,131
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~790 entries added
-- **Candidate words**: ~2,424 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~840 entries added
+- **Candidate words**: ~2,375 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 16)
+- Added 50 new dictionary entries from candidate_words.json (3,081 → 3,131 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on た/ち/つ/て/と/ど/な rows:
+  - Nouns: 盾, 違い, 茶, 注, 通行, 勤め, 務め, 釣り, 停留所, 出会い, 出来事, 伝言, 電子, 問い, 答案, 倒産, 投票, 東洋, 得意, 特徴, 登山, 年月, 図書, 年寄り, 道徳, 童謡, 動揺, 読書, 独身, 独立, 努力, 泥, 名, 仲間
+  - Grammar terms: 動詞 (verb), 同士 (fellow/suffix)
+  - Expressions: ちょうだい (please give me - casual), とんでもない (outrageous/not at all)
+  - Adverbs: とにかく (anyway), 共に (together), どうしても (no matter what), どんなに (how much)
+  - Na-adjectives: 適度 (moderate), 得意 (good at)
+  - Counter/suffix: 度 (occasion)
+- Notable entry pairs:
+  - 動詞/同士 (homophones どうし - verb/fellow)
+  - 童謡/動揺 (homophones どうよう - nursery rhyme/agitation)
+  - 勤め/務め (homophones つとめ - employment/duty)
+  - 特徴/特長 (homophones とくちょう - characteristic/strong point)
+  - 得意/苦手 (antonym pair - good at/bad at)
+  - 独身/既婚 (antonym pair - single/married)
+  - 独立/依存 (antonym pair - independence/dependence)
+- Removed 49 candidates from candidate_words.json (2,424 → 2,375)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 15)
 - Added 50 new dictionary entries from candidate_words.json (3,031 → 3,081 total)
