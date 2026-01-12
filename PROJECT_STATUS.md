@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,131
+- **Total entries**: 3,181
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~840 entries added
-- **Candidate words**: ~2,375 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~890 entries added
+- **Candidate words**: ~2,325 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 17)
+- Added 50 new dictionary entries from candidate_words.json (3,131 → 3,181 total)
+- Each entry written individually following entry-guidelines skill
+- New entries are primarily N2/N3 vocabulary focused on な/に/ね/の/は/ば/ひ rows:
+  - Nouns: 半ば, 眺め, 流れ, 謎, 納得, 縄, 日光, 日中, 入場, 人間, 根, 値, 願い, 熱帯, 年代, 野, 脳, 農家, 能力, 望み, 後, 俳優, 墓, 博士, 拍手, 破産, 働き, 発達, 発展, 発表, 母親, 幅, 針, 範囲, 反抗, 犯罪, 反省, 判断, 犯人, 販売, 爆発, 比較, 悲劇, 飛行, 額
+  - Na-adjectives: 苦手 (weak at), 派手 (showy/flashy), 生 (raw/live)
+  - Adverbs: にっこり (smilingly)
+  - Slang/colloquial: 馬鹿 (fool/idiot)
+- Notable entry pairs:
+  - 根/値 (homophones ね - root/price)
+  - 破産/倒産 (related words - personal/business bankruptcy)
+  - 発達/発展 (related words - organic/societal development)
+  - 苦手/得意 (antonym pair - weak at/good at)
+  - 派手/地味 (antonym pair - showy/plain)
+  - 悲劇/喜劇 (antonym pair - tragedy/comedy)
+- Removed 50 candidates from candidate_words.json (2,375 → 2,325)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 16)
 - Added 50 new dictionary entries from candidate_words.json (3,081 → 3,131 total)
