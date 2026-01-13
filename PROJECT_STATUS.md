@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,777
+- **Total entries**: 3,826
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,390 entries added
-- **Candidate words**: ~1,874 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,440 entries added
+- **Candidate words**: ~1,833 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 30)
+- Added 50 new dictionary entries from candidate_words.json (3,777 → 3,826 total)
+- Note: 9 candidates were duplicates that already existed and were removed automatically
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Nouns (32): {井戸|いど} (well), {緯度|いど} (latitude), {仮名|かな} (kana), {器具|きぐ} (instrument), {基礎|きそ} (foundation), {基地|きち} (base), {外科|げか} (surgery), {下駄|げた} (wooden clogs), {自治|じち} (autonomy), {弟子|でし} (disciple), {皮膚|ひふ} (skin), {父母|ふぼ} (parents), {武士|ぶし} (samurai), {無地|むじ} (plain), {湯気|ゆげ} (steam), {余所|よそ} (elsewhere), {予備|よび} (reserve), {理科|りか} (science), {宛名|あてな} (address), {雨戸|あまど} (storm shutter), {育児|いくじ} (childcare), {移転|いてん} (relocation), {植木|うえき} (garden plant), {運河|うんが} (canal), {英和|えいわ} (English-Japanese), {漢和|かんわ} (Chinese-Japanese), {火山|かざん} (volcano), {為替|かわせ} (exchange), {敬語|けいご} (keigo), {刺身|さしみ} (sashimi)
+  - Verbs (4): {遡|さかのぼ}る (to go back), {蘇|よみがえ}る (to revive), {承|うけたまわ}る (to receive - humble), {略|りゃく}す (to abbreviate)
+  - Adverbs (6): {順々|じゅんじゅん} (in order), {着々|ちゃくちゃく} (steadily), {所々|ところどころ} (here and there), {悠々|ゆうゆう} (leisurely), {何々|なになに} (such and such)
+  - Na-adjective (1): {安易|あんい} (easy-going)
+  - Suffixes/Counters (8): 〜{毎|ごと} (every), 〜{済|ず}み (finished), 〜{滴|てき} (drop counter), 〜{名|めい} (people counter), 〜{問|もん} (question counter), 〜{論|ろん} (theory), 〜{号|ごう} (number), 〜{通|つう} (letter counter), 〜{発|はつ} (departing/shot counter), {以降|いこう} (onward)
+- Notable entry features:
+  - Homophone pair {井戸|いど} (well) vs {緯度|いど} (latitude)
+  - Traditional Japanese items: {下駄|げた}, {雨戸|あまど}, {刺身|さしみ}
+  - Dictionary-related terms: {仮名|かな}, {英和|えいわ}, {漢和|かんわ}, {敬語|けいご}
+  - Humble verb {承|うけたまわ}る with customer service usage
+  - Multiple useful counters and suffixes
+- Removed 41 candidates from candidate_words.json (1,874 → 1,833)
 
 ### 2026-01-13 (Vocabulary Expansion - 47 New Entries, Session 29)
 - Added 47 new dictionary entries from candidate_words.json (3,730 → 3,777 total)
