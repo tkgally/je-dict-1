@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,126
+- **Total entries**: 4,136
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,740 entries added
-- **Candidate words**: ~2,093 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,750 entries added
+- **Candidate words**: ~2,090 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,15 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 10 New Entries, Session 37)
+- Added 10 new dictionary entries from candidate_words.json (4,126 → 4,136 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include:
+  - Adverbs (3): いつのまにか (before one knows), {少|すく}なくとも (at least), {例|たと}え (even if)
+  - Nouns (7): いとこ (cousin), {知|し}り{合|あ}い (acquaintance), {釣|つ}り (fishing), {出会|であ}い (encounter), {年寄|としよ}り (elderly person), {他|ほか} (other), {堀|ほり} (moat)
+- Note: Many initially targeted candidates (katakana loanwords) were found to already exist in the dictionary
+- Removed 3 candidates from candidate_words.json (2,093 → 2,090)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 36)
 - Added 50 new dictionary entries from candidate_words.json (4,076 → 4,126 total)
