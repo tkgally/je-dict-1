@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,730
+- **Total entries**: 3,777
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,340 entries added
-- **Candidate words**: ~1,894 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,390 entries added
+- **Candidate words**: ~1,874 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 47 New Entries, Session 29)
+- Added 47 new dictionary entries from candidate_words.json (3,730 → 3,777 total)
+- Note: 3 planned entries (たんぼ, はがす, いとこ) were skipped as duplicates already existed
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Verbs (11): {巡|めぐ}る (to go around), {潜|もぐ}る (to dive), {祭|まつ}る (to enshrine), {囁|ささや}く (to whisper), {耕|たがや}す (to cultivate), {整|ととの}う (to be prepared), {怠|おこた}る (to neglect), {捻|ねじ}る (to twist), {吊|つ}るす (to hang), {放|ほう}る (to throw), {破|やぶ}く (to tear)
+  - I-adjective (1): {煙|けむ}い (smoky)
+  - Nouns (6): {坊|ぼう}や (boy), {上|のぼ}り (ascent), データ (data), {郡|ぐん} (county), {計器|けいき} (gauge), ジェット{機|き} (jet plane)
+  - Prefixes (24): {外|がい}〜, {空|くう}〜, {現|げん}〜, {高|こう}〜, {今|こん}〜, {再|さい}〜, {最|さい}〜, {初|しょ}〜, {諸|しょ}〜, {前|ぜん}〜, {総|そう}〜, {短|たん}〜, {第|だい}〜, {低|てい}〜, {同|どう}〜, {長|なが}〜, {反|はん}〜, {副|ふく}〜, {古|ふる}〜, {防|ぼう}〜, {毎|まい}〜, {名|めい}〜, {翌|よく}〜, {我|わ}が〜
+  - Adverb-like expressions (5): {別々|べつべつ} (separately), {広々|ひろびろ} (spaciously), {点々|てんてん} (here and there), {転々|てんてん} (from place to place), {銘々|めいめい} (each person)
+- Notable entry features:
+  - Comprehensive verb entries with transitivity pairs and aspect notes
+  - Large set of productive prefixes with many common compounds listed
+  - Homophone pair {点々|てんてん} vs {転々|てんてん} with clear contrast
+  - Adverb-like expressions with usage patterns
+- Removed 20 candidates from candidate_words.json (1,894 → 1,874)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 28)
 - Added 50 new dictionary entries from candidate_words.json (3,680 → 3,730 total)
