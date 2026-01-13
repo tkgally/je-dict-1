@@ -154,7 +154,6 @@ je-dict-1/
 ├── build/                # Build and management scripts
 │   ├── schema.json       # JSON schema for entries
 │   ├── validate.py       # Entry validation (schema, cross-refs, audio integrity)
-│   ├── build.py          # Main build script
 │   ├── build_flat.py     # Static HTML site generator
 │   ├── resolve_links.py  # Cross-reference resolution
 │   ├── merge_audio.py    # Merges audio files into entries
@@ -274,9 +273,10 @@ Audio pronunciation files can be added for example sentences. The web interface 
 
 3. Build the dictionary:
    ```bash
-   python3 build/build.py
+   python3 build/validate.py       # Validate entries
+   python3 build/build_flat.py     # Build static HTML site
    ```
-   This copies audio files to `docs/audio/` for the web interface.
+   This validates entries and copies audio files to `docs/audio/` for the web interface.
 
 ### Directory Structure
 
