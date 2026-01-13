@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,026
+- **Total entries**: 4,076
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,640 entries added
-- **Candidate words**: ~2,195 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,690 entries added
+- **Candidate words**: ~2,144 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 35)
+- Added 50 new dictionary entries from candidate_words.json (4,026 → 4,076 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Nouns (36): {回数|かいすう} (frequency), {海洋|かいよう} (ocean), {書留|かきとめ} (registered mail), {確率|かくりつ} (probability), {片道|かたみち} (one-way), {神様|かみさま} (god), {剃刀|かみそり} (razor), {観測|かんそく} (observation), {缶詰|かんづめ} (canned goods), {看板|かんばん} (signboard), {学年|がくねん} (school year), {元日|がんじつ} (New Year's Day), {客間|きゃくま} (guest room), {給与|きゅうよ} (salary), {金魚|きんぎょ} (goldfish), {行事|ぎょうじ} (event), {苦情|くじょう} (complaint), {口紅|くちべに} (lipstick), {偶数|ぐうすう} (even number), {傑作|けっさく} (masterpiece), {血圧|けつあつ} (blood pressure), {芸能|げいのう} (entertainment), {下旬|げじゅん} (late month), {月末|げつまつ} (end of month), {原稿|げんこう} (manuscript), {香水|こうすい} (perfume), {関西|かんさい} (Kansai region), {関東|かんとう} (Kanto region)
+  - Suru-verbs (10): {解説|かいせつ} (explanation), {改造|かいぞう} (modification), {回転|かいてん} (rotation), {感激|かんげき} (being moved), {起床|きしょう} (getting up), {強化|きょうか} (strengthening), {空想|くうそう} (fantasy), {継続|けいぞく} (continuation), {見学|けんがく} (tour)
+  - Na-adjectives (3): {格別|かくべつ} (exceptional), {謙虚|けんきょ} (humble), {懸命|けんめい} (strenuous)
+  - Homophone pairs (4): {快晴|かいせい}/{改正|かいせい}, {回答|かいとう}/{解答|かいとう}, {解放|かいほう}/{開放|かいほう}, {基準|きじゅん}
+  - Other (5): {乾杯|かんぱい} (cheers!), {間接|かんせつ} (indirect), {形式|けいしき} (format)
+- Notable entry features:
+  - Japanese regions: {関西|かんさい}, {関東|かんとう}
+  - Cultural terms: {乾杯|かんぱい}, {元日|がんじつ}, {金魚|きんぎょ}
+  - Business terms: {給与|きゅうよ}, {形式|けいしき}, {継続|けいぞく}
+  - Health/beauty: {血圧|けつあつ}, {香水|こうすい}, {口紅|くちべに}
+  - Multiple homophone pairs with cross-references
+- Removed 51 candidates from candidate_words.json (2,195 → 2,144)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 34)
 - Added 50 new dictionary entries from candidate_words.json (3,976 → 4,026 total)
