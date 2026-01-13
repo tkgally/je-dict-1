@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,219
+- **Total entries**: 4,269
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,800 entries added
-- **Candidate words**: ~2,000 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,850 entries added
+- **Candidate words**: ~1,949 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -95,6 +95,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 39)
+Added 50 new dictionary entries from candidate_words.json, including:
+- Nouns (48): {素人|しろうと} (amateur), {受験|じゅけん} (taking an exam), {述語|じゅつご} (predicate), {巡査|じゅんさ} (policeman), {蒸気|じょうき} (steam), {定規|じょうぎ} (ruler), {上下|じょうげ} (up and down), {人造|じんぞう} (man-made), {人命|じんめい} (human life), {水産|すいさん} (fisheries), {推定|すいてい} (estimation), {水滴|すいてき} (water drop), {水筒|すいとう} (water bottle), {水分|すいぶん} (moisture), {水平|すいへい} (horizontal), {水面|すいめん} (water surface), {寸法|すんぽう} (measurement), {随筆|ずいひつ} (essay), {図表|ずひょう} (chart), {制作|せいさく} (production), {製作|せいさく} (manufacture), {清書|せいしょ} (clean copy), {整数|せいすう} (integer), {清掃|せいそう} (cleaning), {生存|せいぞん} (survival), {政党|せいとう} (political party), {性能|せいのう} (performance), {成分|せいぶん} (ingredient), {性別|せいべつ} (gender), {正門|せいもん} (main gate), {成立|せいりつ} (establishment), {西暦|せいれき} (Western calendar), {赤道|せきどう} (equator), {接近|せっきん} (approach), {接続|せつぞく} (connection), {先端|せんたん} (tip/cutting edge), {先頭|せんとう} (lead), {洗面|せんめん} (washing face), {税関|ぜいかん} (customs), {全般|ぜんぱん} (whole), {創作|そうさく} (creation), {葬式|そうしき} (funeral), {送別|そうべつ} (farewell), {速達|そくたつ} (express mail), {測定|そくてい} (measurement), {算盤|そろばん} (abacus), {損得|そんとく} (profit and loss), {雑巾|ぞうきん} (cleaning rag), {増減|ぞうげん} (fluctuation)
+- Adverb (1): {折角|せっかく} (with effort, long-awaited)
+
+Notable entry features:
+- Grammar/academic terms: {述語|じゅつご}, {整数|せいすう}, {随筆|ずいひつ}
+- Measurement/technical: {水平|すいへい}, {寸法|すんぽう}, {測定|そくてい}
+- Homophone pairs: {制作|せいさく} vs {製作|せいさく}
+- Traditional Japanese: {算盤|そろばん}, {雑巾|ぞうきん}
+- Daily life: {水筒|すいとう}, {洗面|せんめん}, {税関|ぜいかん}
+
+Total entries: 4,219 → 4,269
+Remaining candidates: 2,000 → 1,949
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 38)
 Added 50 new dictionary entries from candidate_words.json, including:
