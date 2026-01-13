@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,926
+- **Total entries**: 3,976
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,540 entries added
-- **Candidate words**: ~2,298 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,590 entries added
+- **Candidate words**: ~2,245 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 33)
+- Added 50 new dictionary entries from candidate_words.json (3,926 → 3,976 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Nouns (43): {耕地|こうち} (arable land), {個体|こたい} (individual), {小指|こゆび} (little finger), {合理|ごうり} (rationality), {産地|さんち} (producing area), {死体|したい} (corpse), {氏名|しめい} (full name), {針路|しんろ} (course), {地盤|じばん} (ground), {図形|ずけい} (figure), {整備|せいび} (maintenance), {台詞|せりふ} (lines), {扇子|せんす} (folding fan), {先祖|せんぞ} (ancestor), {線路|せんろ} (railway track), {前後|ぜんご} (front and back), {相違|そうい} (difference), {倉庫|そうこ} (warehouse), {相互|そうご} (mutual), {素質|そしつ} (aptitude), {祖先|そせん} (ancestor), {草履|ぞうり} (Japanese sandals), {太鼓|たいこ} (drum), {短期|たんき} (short term), {大工|だいく} (carpenter), {楕円|だえん} (ellipse), {団地|だんち} (housing complex), {地質|ちしつ} (geology), {知人|ちじん} (acquaintance), {地帯|ちたい} (zone), {地点|ちてん} (spot), {地名|ちめい} (place name), {追加|ついか} (addition), {通知|つうち} (notice), {通路|つうろ} (passage), {月日|つきひ} (time), {低下|ていか} (decline), {定価|ていか} (list price), {停止|ていし} (stoppage), {伝記|でんき} (biography), {電波|でんぱ} (radio waves), {灯油|とうゆ} (kerosene), {都心|としん} (city center), {戸棚|とだな} (cupboard), {動作|どうさ} (movement), {童話|どうわ} (fairy tale), {内科|ないか} (internal medicine)
+  - Na-adjectives (2): {妥当|だとう} (proper), {手頃|てごろ} (reasonable)
+  - Noun with multiple meanings (1): {強気|つよき} (bullish/confident)
+- Notable entry features:
+  - Traditional Japanese items: {扇子|せんす}, {草履|ぞうり}, {太鼓|たいこ}
+  - Geography/geology terms: {地盤|じばん}, {地質|ちしつ}, {地帯|ちたい}, {地点|ちてん}, {地名|ちめい}
+  - Transportation terms: {線路|せんろ}, {通路|つうろ}
+  - Medical term: {内科|ないか}
+  - Homophone pairs: {低下|ていか} (decline) vs {定価|ていか} (list price), {先祖|せんぞ} vs {祖先|そせん}
+- Removed 53 candidates from candidate_words.json (2,298 → 2,245)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 32)
 - Added 50 new dictionary entries from candidate_words.json (3,876 → 3,926 total)
