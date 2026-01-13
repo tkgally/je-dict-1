@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="キャプテン - captain. Japanese-English dictionary entry with definitions and examples.">
+    <title>キャプテン (きゃぷてん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">キャプテン</h1>
+            <div class="entry-reading">きゃぷてん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">captain</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">captain, team leader</span>
+                    <div class="definition-explanation">The leader of a sports team or group.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>はサッカー<ruby>部<rp>(</rp><rt>ぶ</rt><rp>)</rp></ruby>のキャプテンだ。</div>
+                    <div class="example-english">He is the captain of the soccer team.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">キャプテンが<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>をかけてチームをまとめた。</div>
+                    <div class="example-english">The captain called out and brought the team together.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>来年<rp>(</rp><rt>らいねん</rt><rp>)</rp></ruby>のキャプテンに<ruby>選<rp>(</rp><rt>えら</rt><rp>)</rp></ruby>ばれた。</div>
+                    <div class="example-english">I was chosen as next year&#x27;s captain.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>キャプテン (from English &#x27;captain&#x27;) is commonly used for sports team leaders. For ship or aircraft captains, <ruby>船長<rp>(</rp><rt>せんちょう</rt><rp>)</rp></ruby> or <ruby>機長<rp>(</rp><rt>きちょう</rt><rp>)</rp></ruby> are more common.</p><p>USAGE BY CONTEXT:</p><ul><li>Sports: キャプテン (team captain)</li><li>Ships: <ruby>船長<rp>(</rp><rt>せんちょう</rt><rp>)</rp></ruby></li><li>Aircraft: <ruby>機長<rp>(</rp><rt>きちょう</rt><rp>)</rp></ruby></li><li>Military: <ruby>大尉<rp>(</rp><rt>たいい</rt><rp>)</rp></ruby> (army/navy captain)</li></ul><p>The word is often shortened to キャプ in casual speech among teammates.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 8:49</div>
+                <div class="metadata-file">ka/ky/kyaputen_00001</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

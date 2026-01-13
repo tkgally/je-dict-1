@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="スター - star (celebrity). Japanese-English dictionary entry with definitions and examples.">
+    <title>スター (すたー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">スター</h1>
+            <div class="entry-reading">すたー</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">star (celebrity)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">star, celebrity</span>
+                    <div class="definition-explanation">A famous and popular person, especially in entertainment or sports.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>は<ruby>映画<rp>(</rp><rt>えいが</rt><rp>)</rp></ruby>スターだ。</div>
+                    <div class="example-english">She is a movie star.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">スターになることを<ruby>夢見<rp>(</rp><rt>ゆめみ</rt><rp>)</rp></ruby>ている。</div>
+                    <div class="example-english">I dream of becoming a star.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">あの<ruby>野球<rp>(</rp><rt>やきゅう</rt><rp>)</rp></ruby><ruby>選手<rp>(</rp><rt>せんしゅ</rt><rp>)</rp></ruby>は<ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>たちのスターだ。</div>
+                    <div class="example-english">That baseball player is a star to the children.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>スター (from English &#x27;star&#x27;) refers to famous celebrities, not celestial stars (<ruby>星<rp>(</rp><rt>ほし</rt><rp>)</rp></ruby>).</p><p>COMMON USES:</p><ul><li><ruby>映画<rp>(</rp><rt>えいが</rt><rp>)</rp></ruby>スター: movie star</li><li>ポップスター: pop star</li><li>スポーツスター: sports star</li><li>スター<ruby>選手<rp>(</rp><rt>せんしゅ</rt><rp>)</rp></ruby>: star player</li><li>スター<ruby>誕生<rp>(</rp><rt>たんじょう</rt><rp>)</rp></ruby>: birth of a star (also a famous TV talent show)</li></ul><p>RELATED TERMS:</p><ul><li><ruby>有名人<rp>(</rp><rt>ゆうめいじん</rt><rp>)</rp></ruby>: famous person, celebrity</li><li><ruby>芸能人<rp>(</rp><rt>げいのうじん</rt><rp>)</rp></ruby>: entertainer</li><li><ruby>俳優<rp>(</rp><rt>はいゆう</rt><rp>)</rp></ruby>: actor</li><li>アイドル: idol (young celebrity)</li></ul><p>For astronomical stars, use <ruby>星<rp>(</rp><rt>ほし</rt><rp>)</rp></ruby>.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../../entries/ha/ho/hoshi_00341.html" class="cross-ref-link">
+                            <ruby>星<rp>(</rp><rt>ほし</rt><rp>)</rp></ruby> (star (celestial))
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 8:49</div>
+                <div class="metadata-file">sa/su/sutaa_00001</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

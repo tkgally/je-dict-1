@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-12
+**Last updated**: 2026-01-13
 **Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,481
+- **Total entries**: 3,530
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,090 entries added
-- **Candidate words**: ~2,070 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,140 entries added
+- **Candidate words**: ~2,037 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,19 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 49 New Entries, Session 24)
+- Added 49 new dictionary entries from candidate_words.json (3,481 → 3,530 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Nouns with homophones: {酸性|さんせい} (acidity), {新興|しんこう} (emerging), {振興|しんこう} (promotion), {生長|せいちょう} (growth), {成年|せいねん} (adulthood), {採集|さいしゅう} (collecting), {参加|さんか} (participation), {就職|しゅうしょく} (employment), {私用|しよう} (personal use), {仕様|しよう} (specification), {推薦|すいせん} (recommendation), {特長|とくちょう} (merit), {銅貨|どうか} (copper coin), {難|なん} (difficulty), {優|ゆう} (superiority), {世|よ} (world), {読み|よみ} (reading), {椀|わん} (bowl), {職|しょく} (employment), {善|ぜん} (virtue), {対|つい} (pair), {供|とも} (companion), {男の人|おとこのひと} (man)
+  - Katakana loanwords: インク, ウイスキー, オフィス, キャプテン, クリーム, グラス, コード, ジーンズ, スケート, スタンド, スター, スープ, ダイヤ, チャイム, チーズ, デザート
+  - Adverbs/Conjunctions: {絶対|ぜったい} (absolutely), そこで (so/therefore), そっくり (spitting image), そのうち (before long), それでも (nevertheless), {直|ただ}ちに (immediately), たびたび (often), {突然|とつぜん} (suddenly), {近頃|ちかごろ} (lately)
+- Notable entry features:
+  - Multiple homophone groups distinguished (しんこう, しよう, せいちょう, etc.)
+  - Katakana loanwords with multiple meanings (ダイヤ = diamond/train schedule, スタンド = stand/lamp/stadium/gas station)
+  - Useful everyday vocabulary and conjunctions
+- Removed 33 candidates from candidate_words.json (2,070 → 2,037)
 
 ### 2026-01-12 (Vocabulary Expansion - 50 New Entries, Session 23)
 - Added 50 new dictionary entries from candidate_words.json (3,431 → 3,481 total)
