@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,680
+- **Total entries**: 3,730
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,290 entries added
-- **Candidate words**: ~1,942 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,340 entries added
+- **Candidate words**: ~1,894 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 28)
+- Added 50 new dictionary entries from candidate_words.json (3,680 → 3,730 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Verbs (18): {誓|ちか}う (to swear), {縮|ちぢ}む (to shrink), {潰|つぶ}す (to crush), {吊|つ}るす (to hang), {尖|とが}る (to taper), {匂|にお}う (to smell), {憎|にく}む (to hate), {狙|ねら}う (to aim), {剥|は}がす (to peel off), {挟|はさ}む (to pinch), {捻|ひね}る (to twist), {響|ひび}く (to resound), {塞|ふさ}ぐ (to block), {凹|へこ}む (to dent), {敬|うやま}う (to respect), {補|おぎな}う (to compensate), {傾|かたむ}く (to incline), {実|みの}る (to bear fruit)
+  - I-adjectives (6): {粗|あら}い (coarse), {荒|あら}い (rough), {清|きよ}い (pure), {鈍|にぶ}い (dull), {緩|ゆる}い (loose), {醜|みにく}い (ugly)
+  - Adverbs (10): {急|きゅう}に (suddenly), {直|じか}に (directly), {現|げん}に (actually), ほぼ (almost), まさに (exactly), もしかすると (perhaps), {割|わり}と (relatively), {続々|ぞくぞく} (one after another), {漸|ようや}く (finally), {元々|もともと} (originally)
+  - Nouns (10): {虫歯|むしば} (cavity), {物事|ものごと} (things), {狙|ねら}い (aim), {響|ひび}き (echo), {広|ひろ}さ (extent), {斜|なな}め (diagonal), {田|た}んぼ (rice paddy), {逆|さか}さ (upside down), {催|もよお}し (event), {意義|いぎ} (significance)
+  - Na-adjectives (2): {稀|まれ} (rare), {俄|にわか} (sudden)
+  - Conjunctions (2): {但|ただ}し (however), {近々|ちかぢか} (soon)
+  - Pronouns/Other (2): {自|みずか}ら (oneself), {各々|おのおの} (each)
+- Notable entry features:
+  - Comprehensive verb entries with transitivity pairs and aspect notes
+  - Adjective pairs with same reading but different kanji ({粗|あら}い vs {荒|あら}い)
+  - Adverbs with detailed comparisons to similar words
+  - Modern slang usage for {俄|にわか} (にわかファン = bandwagon fan)
+- Removed 48 candidates from candidate_words.json (1,942 → 1,894)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 27)
 - Added 50 new dictionary entries from candidate_words.json (3,630 → 3,680 total)
