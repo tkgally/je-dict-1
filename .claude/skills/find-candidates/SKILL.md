@@ -86,6 +86,73 @@ The word is a common **synonym**, **antonym**, or **related word** to an entry a
 - Onomatopoeia/Mimesis (ぴかぴか, ふわふわ, どきどき, わくわく, etc.)
 - Common verbs by category (motion, communication, perception, etc.)
 
+**Additional categories for systematic coverage:**
+
+1. **Compound verbs (V+V)** - Verbs formed by combining two verbs
+   - Examples: 追い出す, 切り離す, 取り出す, 持ち上げる, 引き受ける, 打ち合わせる
+   - Common first elements: 追い〜, 切り〜, 取り〜, 持ち〜, 引き〜, 打ち〜, 飛び〜, 押し〜
+
+2. **Reduplication words (畳語)** - Words formed by repeating elements (beyond onomatopoeia)
+   - Examples: 人々, 国々, 山々, 木々, 我々, 日々, 時々, 様々, 各々, 次々
+
+3. **Four-character idioms (四字熟語)** - Common yojijukugo for learners
+   - Examples: 一石二鳥, 以心伝心, 一期一会, 自業自得, 十人十色, 一生懸命
+
+4. **Proverbs (諺)** - Frequently referenced sayings
+   - Examples: 猿も木から落ちる, 七転び八起き, 塵も積もれば山となる, 石の上にも三年
+
+5. **Abbreviated words (略語)** - Modern contractions and shortenings
+   - Examples: 就活, 婚活, 終活, リモワ, ワーホリ, コスパ, タイパ, 推し活
+
+6. **Cooking verbs and techniques** - Kitchen and food preparation vocabulary
+   - Examples: 炒める, 茹でる, 蒸す, 煮込む, 和える, 漬ける, 焼く, 揚げる, 炊く
+
+7. **Medical/anatomical terms** - Beyond basic body parts
+   - Examples: 臓器, 神経, 血管, 細胞, 骨髄, 関節, 筋肉, 内臓, 免疫
+
+8. **Legal/administrative terms** - Forms, procedures, and official vocabulary
+   - Examples: 届出, 申請, 認可, 免除, 届け出, 登録, 手続き, 証明
+
+9. **Traditional Japanese items** - Cultural objects and architectural features
+   - Examples: 畳, 障子, 床の間, 縁側, 風呂敷, 扇子, 提灯, 暖簾
+
+10. **Japanese cuisine terms** - Food categories and cooking concepts
+    - Examples: 出汁, 煮物, 焼き物, 揚げ物, 漬物, 薬味, 惣菜, 珍味
+
+11. **～的 na-adjectives** - Productive Sino-Japanese adjectival pattern
+    - Examples: 積極的, 消極的, 具体的, 抽象的, 一般的, 基本的, 個人的, 社会的
+
+12. **Paired antonym compounds** - Two-kanji compounds expressing opposites
+    - Examples: 上下, 左右, 前後, 内外, 表裏, 出入り, 売買, 往復, 開閉
+
+13. **Emotional/psychological nouns** - Nominalized feelings and mental states
+    - Examples: 焦り, 苛立ち, 戸惑い, 安堵, 憂鬱, 苦悩, 葛藤, 動揺
+
+14. **Set grammatical expressions** - Phrases that function as vocabulary items
+    - Examples: ～というわけで, ～に関して, ～において, ～に対して, ～について
+
+15. **Loanwords by domain** - Systematic coverage of borrowed vocabulary by field
+    - Sports: ドリブル, シュート, パス, オフサイド
+    - Fashion: コーデ, トレンド, ヴィンテージ
+    - Music: リフ, ビート, サビ, アレンジ
+
+16. **Ritual/ceremonial terms** - Life events, customs, and traditions
+    - Examples: 初詣, 七五三, 還暦, 厄年, 法事, 盆踊り, 初節句
+
+17. **Honorific vocabulary pairs** - Keigo expressions beyond basic verbs
+    - Examples: お召し上がり/頂く, ご覧/拝見, お越し/参る, ご存知/存じる
+
+18. **Sound-symbolic words by source** - Onomatopoeia organized by what produces the sound
+    - Water: ざぶざぶ, じゃぶじゃぶ, ぽたぽた
+    - Fire: めらめら, ぼうぼう, ちろちろ
+    - Machines: がたがた, ぶんぶん, カチカチ
+
+19. **Sino-Japanese number compounds** - Number + noun patterns
+    - Examples: 一流, 二重, 三角, 四季, 五感, 六法, 七夕, 八方, 九九
+
+20. **Sentence-final expressions** - Pragmatic and modal markers
+    - Examples: ～かしら, ～ものか, ～ではないか, ～じゃないか, ～ことか, ～ものだ
+
 **Approach:** When reviewing an existing entry, identify gaps in related vocabulary.
 
 ### 2-3. Post-2000 Widespread Terms
