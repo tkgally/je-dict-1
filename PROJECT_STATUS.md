@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,630
+- **Total entries**: 3,680
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,240 entries added
-- **Candidate words**: ~1,958 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,290 entries added
+- **Candidate words**: ~1,942 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,20 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 27)
+- Added 50 new dictionary entries from candidate_words.json (3,630 → 3,680 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Katakana loanwords (35): アウト, アップ, グランド, ダウン, ドレス, ノー, ハンサム, バイオリン, バッグ, パイロット, パス, パスポート, ピクニック, ピン, ブレーキ, プラス, プラスチック, プラン, ベンチ, ペンキ, ホーム, ボーイ, ボート, ボール, マイク, マイナス, マスター, マッサージ, マーケット, ミス, ミルク, パイプ, トレーニング, トン
+  - Nouns (8): {綿|わた} (cotton), {大半|たいはん} (majority), {熱中|ねっちゅう} (enthusiasm), {年中|ねんじゅう} (all year), {配達|はいたつ} (delivery), {発見|はっけん} (discovery), {普段|ふだん} (usually)
+  - Adverbs/Conjunctions (7): あんまり, そのうえ, だが, だけど, ところが, なお, ふと
+  - Expressions (1): かもしれない (might/perhaps), {何|なん}でも (anything)
+- Notable entry features:
+  - Comprehensive loanword entries with multiple meanings (ホーム = platform/home, ボール = ball/bowl, パス = pass/path)
+  - Conjunction entries with register comparisons (だが vs しかし vs でも)
+  - Adverb entries with nuanced usage notes (ふと vs {突然|とつぜん}, あんまり vs あまり)
+- Removed 16 candidates from candidate_words.json (1,958 → 1,942)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 26)
 - Added 50 new dictionary entries from candidate_words.json (3,580 → 3,630 total)
