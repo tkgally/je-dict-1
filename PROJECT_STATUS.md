@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,126
+- **Total entries**: 4,169
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,740 entries added
-- **Candidate words**: ~2,093 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,750 entries added
+- **Candidate words**: ~2,051 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 43 New Entries, Session 37)
+Added 43 new dictionary entries from candidate_words.json, including:
+- Adverbs: 恐らく, 徐々に, 再三, 先程, 早速
+- Nouns: 陽射し, 夜間, 液体, 応用, 屋外, 書取り, 紙屑, 学会, 規準, 系統, 謙遜, 功績, 光線, 高層, 交替, 校庭, 肯定, 鉱物, 項目, 紅葉, 国王, 国立, 混合, 献立, 祭日, 催促, 採点, 災難, 裁縫, 索引, 作者, 削除, 撮影, 三角
+- Na-adjective: 強引
+
+Total entries: 4,136 → 4,169
+Remaining candidates: 2,090 → 2,051
+
+### 2026-01-13 (Session 37 initial - superseded)
+- Added 10 new dictionary entries from candidate_words.json (4,126 → 4,136 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include:
+  - Adverbs (3): いつのまにか (before one knows), {少|すく}なくとも (at least), {例|たと}え (even if)
+  - Nouns (7): いとこ (cousin), {知|し}り{合|あ}い (acquaintance), {釣|つ}り (fishing), {出会|であ}い (encounter), {年寄|としよ}り (elderly person), {他|ほか} (other), {堀|ほり} (moat)
+- Note: Many initially targeted candidates (katakana loanwords) were found to already exist in the dictionary
+- Removed 3 candidates from candidate_words.json (2,093 → 2,090)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 36)
 - Added 50 new dictionary entries from candidate_words.json (4,076 → 4,126 total)
