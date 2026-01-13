@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,530
+- **Total entries**: 3,580
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,140 entries added
-- **Candidate words**: ~2,037 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,190 entries added
+- **Candidate words**: ~2,008 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,20 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 25)
+- Added 50 new dictionary entries from candidate_words.json (3,530 → 3,580 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Verbs (16): {編|あ}む (to knit), {浮|う}く (to float), {敷|し}く (to spread), {剃|そ}る (to shave), {照|て}る (to shine), {縫|ぬ}う (to sew), {這|は}う (to crawl), {干|ほ}す (to dry), {彫|ほ}る (to carve), {掘|ほ}る (to dig), {揉|も}む (to rub), {盛|も}る (to serve), {扇|あお}ぐ (to fan), {余|あま}る (to be left over), {拝|おが}む (to worship), {恨|うら}む (to resent)
+  - Nouns/Adjectives (13): {紫|むらさき} (purple), ガム, ゴム, ゼミ, ダム, ねじ, ばね, ぼろ, {群|む}れ (flock), {限|かぎ}り (limit), {恨|うら}み (resentment), {偉|えら}い (great), {頬|ほほ} (cheek)
+  - Katakana loanwords (11): メモ, メンバー, ユーモア, ヨット, ヨーロッパ, ライター, ラケット, ラベル, ルール, レベル, ロケット
+  - Prefixes/Suffixes (10): {各|かく}〜 (each), {小|こ}〜 (small), {未|み}〜 (not yet), {和|わ}〜 (Japanese-style), {幾|いく}〜 (several), {上|うわ}〜 (upper), {御|おん}〜 (honorific), 〜{位|い} (rank), 〜{部|ぶ} (department), 〜{歩|ほ} (step)
+- Notable entry features:
+  - Comprehensive verb entries with transitivity pairs and aspect notes
+  - Katakana loanwords with multiple meanings (ライター = lighter/writer, ロケット = rocket/locket)
+  - Prefixes and suffixes with counting patterns and common compounds
+- Removed 29 candidates from candidate_words.json (2,037 → 2,008)
 
 ### 2026-01-13 (Vocabulary Expansion - 49 New Entries, Session 24)
 - Added 49 new dictionary entries from candidate_words.json (3,481 → 3,530 total)
