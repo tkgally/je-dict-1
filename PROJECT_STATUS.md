@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,580
+- **Total entries**: 3,630
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,190 entries added
-- **Candidate words**: ~2,008 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,240 entries added
+- **Candidate words**: ~1,958 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,20 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 26)
+- Added 50 new dictionary entries from candidate_words.json (3,580 → 3,630 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Nouns (33): {釜|かま} (iron pot), {釘|くぎ} (nail), {櫛|くし} (comb), {屑|くず} (scrap), {桁|けた} (digit), {紺|こん} (navy blue), {匙|さじ} (spoon), {錆|さび} (rust), {芯|しん} (core), {杉|すぎ} (cedar), {鈴|すず} (bell), {綱|つな} (rope), {粒|つぶ} (grain), {艶|つや} (gloss), {虹|にじ} (rainbow), {糊|のり} (glue), {蓋|ふた} (lid), {盆|ぼん} (tray/Obon), {枕|まくら} (pillow), {姪|めい} (niece), {餅|もち} (mochi), {欄|らん} (column), {瓦|かわら} (roof tile), {唇|くちびる} (lips), {丼|どんぶり} (rice bowl), {塊|かたまり} (lump), {冠|かんむり} (crown), {秤|はかり} (scales), {襖|ふすま} (sliding screen), {麓|ふもと} (foot of mountain), {箒|ほうき} (broom), {岬|みさき} (cape), {軒|のき} (eaves)
+  - Verbs (16): {下|くだ}る (to descend), {足|た}る (to suffice), {為|な}す (to accomplish), {浮|う}かぶ (to float), {担|かつ}ぐ (to shoulder), {刻|きざ}む (to mince), {崩|くず}す (to break), {砕|くだ}く (to smash), {配|くば}る (to distribute), {削|けず}る (to shave), {探|さぐ}る (to search), {茂|しげ}る (to grow thick), {縛|しば}る (to tie), {絞|しぼ}る (to wring), {涼|すず}む (to cool off), {迫|せま}る (to approach)
+  - Adjectives (1): {狡|ずる}い (sly/cunning)
+- Notable entry features:
+  - Traditional Japanese household items: {釜|かま}, {櫛|くし}, {蓋|ふた}, {箒|ほうき}, {襖|ふすま}
+  - Nature and geography terms: {杉|すぎ}, {虹|にじ}, {岬|みさき}, {麓|ふもと}
+  - Comprehensive verb entries with transitivity pairs and aspect notes
+  - Cultural notes for {盆|ぼん} (Obon festival), {餅|もち} (safety warning), {杉|すぎ} (pollen allergy)
+- Removed 50 candidates from candidate_words.json (2,008 → 1,958)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 25)
 - Added 50 new dictionary entries from candidate_words.json (3,530 → 3,580 total)

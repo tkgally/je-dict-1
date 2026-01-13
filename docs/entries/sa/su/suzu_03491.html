@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="鈴 - bell (small). Japanese-English dictionary entry with definitions and examples.">
+    <title>鈴 (すず) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>鈴<rp>(</rp><rt>すず</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">すず</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">bell (small)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">small bell</span>
+                    <div class="definition-explanation">A small metal bell that makes a ringing or jingling sound when shaken.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>猫<rp>(</rp><rt>ねこ</rt><rp>)</rp></ruby>の<ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>に<ruby>鈴<rp>(</rp><rt>すず</rt><rp>)</rp></ruby>をつけた。</div>
+                    <div class="example-english">I put a bell on the cat&#x27;s neck.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>風鈴<rp>(</rp><rt>ふうりん</rt><rp>)</rp></ruby>の<ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>が<ruby>涼<rp>(</rp><rt>すず</rt><rp>)</rp></ruby>しげだ。</div>
+                    <div class="example-english">The sound of the wind chime sounds refreshing.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>神社<rp>(</rp><rt>じんじゃ</rt><rp>)</rp></ruby>で<ruby>鈴<rp>(</rp><rt>すず</rt><rp>)</rp></ruby>を<ruby>鳴<rp>(</rp><rt>な</rt><rp>)</rp></ruby>らしてから<ruby>参拝<rp>(</rp><rt>さんぱい</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Ring the bell before praying at the shrine.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>鈴<rp>(</rp><rt>すず</rt><rp>)</rp></ruby> refers to small bells that jingle. This is different from <ruby>鐘<rp>(</rp><rt>かね</rt><rp>)</rp></ruby>, which refers to large bells that are struck.</p><p>COMMON EXPRESSIONS:</p><ul><li><ruby>鈴<rp>(</rp><rt>すず</rt><rp>)</rp></ruby>を<ruby>鳴<rp>(</rp><rt>な</rt><rp>)</rp></ruby>らす (to ring a bell)</li><li><ruby>風鈴<rp>(</rp><rt>ふうりん</rt><rp>)</rp></ruby> (wind chime)</li><li><ruby>鈴<rp>(</rp><rt>すず</rt><rp>)</rp></ruby>の<ruby>音<rp>(</rp><rt>ね</rt><rp>)</rp></ruby> (the sound of a bell)</li><li><ruby>鈴<rp>(</rp><rt>すず</rt><rp>)</rp></ruby>なり (hanging in clusters, like bells)</li></ul><p>CULTURAL NOTE:<br>At Shinto shrines, visitors ring a large <ruby>鈴<rp>(</rp><rt>すず</rt><rp>)</rp></ruby> to announce their presence to the deity before praying. <ruby>風鈴<rp>(</rp><rt>ふうりん</rt><rp>)</rp></ruby> (wind chimes) are a summer tradition in Japan.</p><p>COUNTER: <ruby>個<rp>(</rp><rt>こ</rt><rp>)</rp></ruby></p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 10:47</div>
+                <div class="metadata-file">sa/su/suzu_03491</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
