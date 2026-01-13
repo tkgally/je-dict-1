@@ -32,7 +32,7 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,780
+- **Total entries**: 3,777
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~1,390 entries added
@@ -97,13 +97,14 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Recent Changes
 
-### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 29)
-- Added 50 new dictionary entries from candidate_words.json (3,730 → 3,780 total)
+### 2026-01-13 (Vocabulary Expansion - 47 New Entries, Session 29)
+- Added 47 new dictionary entries from candidate_words.json (3,730 → 3,777 total)
+- Note: 3 planned entries (たんぼ, はがす, いとこ) were skipped as duplicates already existed
 - Each entry written individually following entry-guidelines skill
 - New entries include a diverse mix of vocabulary:
-  - Verbs (12): {巡|めぐ}る (to go around), {潜|もぐ}る (to dive), {祭|まつ}る (to enshrine), {囁|ささや}く (to whisper), {耕|たがや}す (to cultivate), {整|ととの}う (to be prepared), {怠|おこた}る (to neglect), {捻|ねじ}る (to twist), {吊|つ}るす (to hang), {剥|は}がす (to peel off), {放|ほう}る (to throw), {破|やぶ}く (to tear)
+  - Verbs (11): {巡|めぐ}る (to go around), {潜|もぐ}る (to dive), {祭|まつ}る (to enshrine), {囁|ささや}く (to whisper), {耕|たがや}す (to cultivate), {整|ととの}う (to be prepared), {怠|おこた}る (to neglect), {捻|ねじ}る (to twist), {吊|つ}るす (to hang), {放|ほう}る (to throw), {破|やぶ}く (to tear)
   - I-adjective (1): {煙|けむ}い (smoky)
-  - Nouns (8): いとこ (cousin), {坊|ぼう}や (boy), {上|のぼ}り (ascent), {田|た}んぼ (rice paddy), データ (data), {郡|ぐん} (county), {計器|けいき} (gauge), ジェット{機|き} (jet plane)
+  - Nouns (6): {坊|ぼう}や (boy), {上|のぼ}り (ascent), データ (data), {郡|ぐん} (county), {計器|けいき} (gauge), ジェット{機|き} (jet plane)
   - Prefixes (24): {外|がい}〜, {空|くう}〜, {現|げん}〜, {高|こう}〜, {今|こん}〜, {再|さい}〜, {最|さい}〜, {初|しょ}〜, {諸|しょ}〜, {前|ぜん}〜, {総|そう}〜, {短|たん}〜, {第|だい}〜, {低|てい}〜, {同|どう}〜, {長|なが}〜, {反|はん}〜, {副|ふく}〜, {古|ふる}〜, {防|ぼう}〜, {毎|まい}〜, {名|めい}〜, {翌|よく}〜, {我|わ}が〜
   - Adverb-like expressions (5): {別々|べつべつ} (separately), {広々|ひろびろ} (spaciously), {点々|てんてん} (here and there), {転々|てんてん} (from place to place), {銘々|めいめい} (each person)
 - Notable entry features:
