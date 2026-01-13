@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,076
+- **Total entries**: 4,126
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,690 entries added
-- **Candidate words**: ~2,144 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,740 entries added
+- **Candidate words**: ~2,093 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 36)
+- Added 50 new dictionary entries from candidate_words.json (4,076 → 4,126 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Nouns (38): {火傷|やけど} (burn), {夜行|やこう} (night train), {家主|やぬし} (landlord), {夕日|ゆうひ} (setting sun), {浴衣|ゆかた} (yukata), {行方|ゆくえ} (whereabouts), {輸血|ゆけつ} (blood transfusion), {輸送|ゆそう} (transport), {用語|ようご} (terminology), {要旨|ようし} (gist), {用途|ようと} (use), {利害|りがい} (interests), {煉瓦|れんが} (brick), {和服|わふく} (Japanese clothes), {足跡|あしあと} (footprint), {足元|あしもと} (at one's feet), {粗筋|あらすじ} (synopsis), {受取|うけとり} (receipt), {裏口|うらぐち} (back door), {売上|うりあげ} (sales), {英文|えいぶん} (English text), {宴会|えんかい} (party), {園芸|えんげい} (gardening), {演劇|えんげき} (drama), {遠足|えんそく} (excursion), {王女|おうじょ} (princess), {応接|おうせつ} (reception), {応対|おうたい} (handling), {往復|おうふく} (round trip), {欧米|おうべい} (Europe and America), {親指|おやゆび} (thumb), {恩恵|おんけい} (blessing), {温室|おんしつ} (greenhouse), {温泉|おんせん} (hot spring), {会館|かいかん} (meeting hall), {改札|かいさつ} (ticket gate), {開通|かいつう} (opening), {寒帯|かんたい} (frigid zone)
+  - Na-adjectives (3): {幼稚|ようち} (childish), {余計|よけい} (unnecessary), {過剰|かじょう} (excessive)
+  - Adverbs (3): {油断|ゆだん} (negligence), {幾分|いくぶん} (somewhat), {大凡|おおよそ} (approximately)
+  - Suru-verbs (4): {開会|かいかい} (opening), {解散|かいさん} (dissolution), {一旦|いったん} (once/temporarily), {観念|かんねん} (concept/resignation)
+  - Academic (2): {概論|がいろん} (introduction), {臨時|りんじ} (temporary)
+- Notable entry features:
+  - Japanese culture: {浴衣|ゆかた}, {温泉|おんせん}, {宴会|えんかい}
+  - Transportation: {夜行|やこう}, {改札|かいさつ}, {往復|おうふく}, {開通|かいつう}
+  - Business terms: {売上|うりあげ}, {応接|おうせつ}, {応対|おうたい}
+  - Geography: {欧米|おうべい}, {寒帯|かんたい}
+  - Body parts: {親指|おやゆび}, {足元|あしもと}
+- Removed 51 candidates from candidate_words.json (2,144 → 2,093)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 35)
 - Added 50 new dictionary entries from candidate_words.json (4,026 → 4,076 total)
