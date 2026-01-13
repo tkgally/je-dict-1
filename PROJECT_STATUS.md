@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,876
+- **Total entries**: 3,926
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,490 entries added
-- **Candidate words**: ~2,180 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,540 entries added
+- **Candidate words**: ~2,298 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,22 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 32)
+- Added 50 new dictionary entries from candidate_words.json (3,876 → 3,926 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Nouns (46): {競馬|けいば} (horse racing), {警備|けいび} (security), {毛皮|けがわ} (fur), {気配|けはい} (indication), {下車|げしゃ} (getting off), {下水|げすい} (sewage), {原始|げんし} (primeval), {限度|げんど} (limit), {原理|げんり} (principle), {交差|こうさ} (intersection), {講師|こうし} (lecturer), {工事|こうじ} (construction), {高度|こうど} (altitude), {公務|こうむ} (official business), {古典|こてん} (classics), {御免|ごめん} (pardon), {娯楽|ごらく} (entertainment), {酒場|さかば} (bar), {座敷|ざしき} (tatami room), {司会|しかい} (host), {敷地|しきち} (site), {姿勢|しせい} (posture), {子孫|しそん} (descendant), {指定|してい} (designation), {私鉄|してつ} (private railway), {紙幣|しへい} (paper money), {車庫|しゃこ} (garage), {洒落|しゃれ} (joke), {主語|しゅご} (subject), {初歩|しょほ} (basics), {白髪|しらが} (white hair), {深夜|しんや} (late night), {神話|しんわ} (myth), {寺院|じいん} (temple), {自衛|じえい} (self-defense), {持参|じさん} (bringing), {時速|じそく} (speed/hour), {自宅|じたく} (one's home), {地面|じめん} (ground), {人事|じんじ} (personnel), {炊事|すいじ} (cooking), {水素|すいそ} (hydrogen), {隙間|すきま} (gap), {相撲|すもう} (sumo), {図鑑|ずかん} (picture book), {頭脳|ずのう} (brains)
+  - Na-adjectives (2): {下品|げひん} (vulgar), {素直|すなお} (obedient)
+  - Adverbs (1): {流石|さすが} (as expected)
+  - Private/Public pairs: {私立|しりつ} vs {公立|こうりつ}
+- Notable entry features:
+  - Transportation terms: {下車|げしゃ}, {私鉄|してつ}, {時速|じそく}
+  - Cultural terms: {座敷|ざしき}, {相撲|すもう}
+  - HR/Business terms: {人事|じんじ}, {公務|こうむ}, {警備|けいび}
+  - Scientific terms: {水素|すいそ}, {原理|げんり}, {原始|げんし}
+  - Grammar terms: {主語|しゅご}
+- Removed 82 candidates from candidate_words.json (2,380 → 2,298)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 31)
 - Added 50 new dictionary entries from candidate_words.json (3,826 → 3,876 total)
