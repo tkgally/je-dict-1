@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,169
+- **Total entries**: 4,219
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,750 entries added
-- **Candidate words**: ~2,051 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,800 entries added
+- **Candidate words**: ~2,000 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -95,6 +95,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 38)
+Added 50 new dictionary entries from candidate_words.json, including:
+- Nouns (45): {締|し}め{切|き}り (deadline), {職場|しょくば} (workplace), {資料|しりょう} (materials), {算数|さんすう} (arithmetic), {将棋|しょうぎ} (shogi), {真空|しんくう} (vacuum), {習字|しゅうじ} (penmanship), {書道|しょどう} (calligraphy), {激増|げきぞう} (surge), {原産|げんさん} (origin), {工員|こういん} (factory worker), {工芸|こうげい} (crafts), {口実|こうじつ} (excuse), {高等|こうとう} (higher), {合同|ごうどう} (joint), {作成|さくせい} (creation), {作製|さくせい} (manufacture), {山林|さんりん} (mountain forest), {在学|ざいがく} (enrollment), {材木|ざいもく} (lumber), {雑音|ざつおん} (noise), {下町|したまち} (downtown), {執筆|しっぴつ} (writing), {失恋|しつれん} (heartbreak), {写生|しゃせい} (sketching), {社説|しゃせつ} (editorial), {車輪|しゃりん} (wheel), {主役|しゅやく} (leading role), {消化|しょうか} (digestion), {障子|しょうじ} (shoji), {正味|しょうみ} (net), {書籍|しょせき} (books), {食器|しょっき} (tableware), {書店|しょてん} (bookstore), {心身|しんしん} (mind and body), {申請|しんせい} (application), {寝台|しんだい} (bed), {診断|しんだん} (diagnosis), {親類|しんるい} (relatives), {磁石|じしゃく} (magnet), {自習|じしゅう} (self-study), {実感|じっかん} (realization), {実績|じっせき} (achievements), {実物|じつぶつ} (real thing), {実用|じつよう} (practical use), {実例|じつれい} (example), {蛇口|じゃぐち} (faucet), {熟語|じゅくご} (compound word)
+- Na-adjective (1): {公式|こうしき} (official/formula)
+- Adverb (1): {始終|しじゅう} (constantly)
+
+Notable entry features:
+- Academic terms: {算数|さんすう}, {習字|しゅうじ}, {書道|しょどう}, {熟語|じゅくご}
+- Traditional Japanese: {将棋|しょうぎ}, {障子|しょうじ}, {下町|したまち}
+- Business/work terms: {職場|しょくば}, {締|し}め{切|き}り, {申請|しんせい}, {実績|じっせき}
+- Homophone pairs: {作成|さくせい} vs {作製|さくせい}
+
+Total entries: 4,169 → 4,219
+Remaining candidates: 2,051 → 2,000
 
 ### 2026-01-13 (Vocabulary Expansion - 43 New Entries, Session 37)
 Added 43 new dictionary entries from candidate_words.json, including:
