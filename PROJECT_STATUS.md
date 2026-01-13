@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,976
+- **Total entries**: 4,026
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,590 entries added
-- **Candidate words**: ~2,245 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,640 entries added
+- **Candidate words**: ~2,195 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 34)
+- Added 50 new dictionary entries from candidate_words.json (3,976 → 4,026 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Nouns (42): {並木|なみき} (roadside tree), {日時|にちじ} (date and time), {日課|にっか} (daily routine), {寝巻|ねまき} (pajamas), {年度|ねんど} (fiscal year), {濃度|のうど} (concentration), {俳句|はいく} (haiku), {梯子|はしご} (ladder), {肌着|はだぎ} (underwear), {発揮|はっき} (demonstration), {花火|はなび} (fireworks), {破片|はへん} (fragment), {判子|はんこ} (seal), {判事|はんじ} (judge), {番地|ばんち} (address), {日陰|ひかげ} (shade), {日差|ひざ}し (sunlight), {筆記|ひっき} (note-taking), {昼寝|ひるね} (nap), {広場|ひろば} (plaza), {美容|びよう} (beauty), {付近|ふきん} (vicinity), {副詞|ふくし} (adverb), {符号|ふごう} (symbol), {夫妻|ふさい} (married couple), {附属|ふぞく} (affiliated), {吹雪|ふぶき} (blizzard), {噴火|ふんか} (eruption), {部首|ぶしゅ} (radical), {部品|ぶひん} (parts), {分布|ぶんぷ} (distribution), {平野|へいや} (plain), {本部|ほんぶ} (headquarters), {盆地|ぼんち} (basin), {毎度|まいど} (each time), {摩擦|まさつ} (friction), {水着|みずぎ} (swimsuit), {身分|みぶん} (status), {見本|みほん} (sample), {目安|めやす} (criterion), {目次|もくじ} (table of contents), {役目|やくめ} (duty)
+  - Na-adjectives (5): {呑気|のんき} (carefree), {不潔|ふけつ} (dirty), {平気|へいき} (calm), {不運|ふうん} (bad luck), {皮肉|ひにく} (sarcasm)
+  - Suffixes (3): {未満|みまん} (less than), {無限|むげん} (infinite), {無数|むすう} (countless)
+- Notable entry features:
+  - Cultural/traditional items: {俳句|はいく}, {判子|はんこ}, {花火|はなび}
+  - Geographic terms: {平野|へいや}, {盆地|ぼんち}, {分布|ぶんぷ}
+  - Grammar term: {副詞|ふくし} (adverb), {部首|ぶしゅ} (radical)
+  - Weather term: {吹雪|ふぶき}, {噴火|ふんか}
+  - Body/beauty terms: {肌着|はだぎ}, {美容|びよう}, {水着|みずぎ}
+- Removed 50 candidates from candidate_words.json (2,245 → 2,195)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 33)
 - Added 50 new dictionary entries from candidate_words.json (3,926 → 3,976 total)
