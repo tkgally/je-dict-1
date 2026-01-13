@@ -14,8 +14,7 @@
 - [x] Directory structure created (prefix-based subdirectories for scalability)
 - [x] JSON schema defined (`build/schema.json`)
 - [x] Validation script working (`build/validate.py`)
-- [x] Build script working (`build/build.py`)
-- [x] Static HTML site generation (`build/build_flat.py`)
+- [x] Build script working (`build/build_flat.py`)
 - [x] Furigana system with toggle
 - [x] Claude Code skills for entry guidelines
 - [x] Quality specification v2 from multi-model evaluation
@@ -697,7 +696,7 @@ Remaining candidates: 2,090 → 2,051
 - HTML output: `docs/entries/{kana}/{prefix}/{id}.html`
 - Audio structure: `audio/{kana}/{prefix}/{id}-exN.mp3`
 - Updated validation to check prefix directory placement
-- Simplified `build/build.py` (SPA version removed, flat HTML is now the only output)
+- Simplified build process (SPA version removed, flat HTML via `build/build_flat.py` is now the only output)
 - All 2,074 entries migrated successfully
 - Scalable to 10,000+ entries
 
@@ -855,7 +854,7 @@ This will:
 
 ### Step 3: Build and Test
 ```bash
-python3 build/build.py
+python3 build/build_flat.py
 # Open docs/index.html to verify audio plays correctly
 ```
 
@@ -912,7 +911,7 @@ python3 build/validate.py --id taberu_00001
 python3 build/merge_audio.py
 
 # Build dictionary
-python3 build/build.py
+python3 build/build_flat.py
 
 # Update index files (after adding/removing entries)
 python3 build/update_indexes.py
