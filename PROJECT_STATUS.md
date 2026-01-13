@@ -32,11 +32,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 3,826
+- **Total entries**: 3,876
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,440 entries added
-- **Candidate words**: ~1,833 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,490 entries added
+- **Candidate words**: ~2,180 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -96,6 +96,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 31)
+- Added 50 new dictionary entries from candidate_words.json (3,826 → 3,876 total)
+- Each entry written individually following entry-guidelines skill
+- New entries include a diverse mix of vocabulary:
+  - Native Japanese nouns (30+): {盛|さか}り (peak), {方々|ほうぼう} (here and there), {年月|ねんげつ} (years), {家屋|かおく} (house), {垣根|かきね} (hedge), {架空|かくう} (imaginary), {各自|かくじ} (each person), {各地|かくち} (various places), {角度|かくど} (angle), {可決|かけつ} (approval), {下降|かこう} (descent), {火口|かこう} (crater), {過失|かしつ} (negligence), {貸間|かしま} (room to let), {貸家|かしや} (house for rent), {箇所|かしょ} (place), {果実|かじつ} (fruit), {下線|かせん} (underline), {課税|かぜい} (taxation), {加速|かそく} (acceleration), {括弧|かっこ} (parentheses), {活字|かつじ} (printing type), {加熱|かねつ} (heating), {貨物|かもつ} (cargo), {換気|かんき} (ventilation), {外部|がいぶ} (outside), {学科|がっか} (subject), {気圧|きあつ} (atmospheric pressure), {飢饉|ききん} (famine), {記号|きごう} (symbol), {基盤|きばん} (foundation), {規律|きりつ} (discipline), {儀式|ぎしき} (ceremony), {区域|くいき} (zone), {苦心|くしん} (pains), {工夫|くふう} (ingenuity), {区分|くぶん} (division), {稽古|けいこ} (practice), {毛糸|けいと} (yarn), {経度|けいど} (longitude)
+  - Adverbs/conjunctions (3): たった (only), それと (and also), {斜|はす} (diagonal)
+  - Prefixes (1): {来|らい}〜 (next)
+  - Formal variants (2): {明後日|みょうごにち} (day after tomorrow - formal), {日本|にっぽん} (Japan - emphatic)
+  - Academic/technical terms (1): {文字|もんじ} (writing system term)
+  - Katakana loanwords (3): タイプライター, カー, バツ
+- Notable entry features:
+  - Homophone pairs: {下降|かこう} (descent) vs {火口|かこう} (crater)
+  - Legal/formal terminology: {過失|かしつ}, {可決|かけつ}, {課税|かぜい}
+  - Real estate terms: {貸間|かしま}, {貸家|かしや}
+  - Traditional Japanese culture: {稽古|けいこ}, {儀式|ぎしき}
+  - Scientific terms: {気圧|きあつ}, {経度|けいど}, {加熱|かねつ}
+- Removed 69 candidates from candidate_words.json (2,249 → 2,180)
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 30)
 - Added 50 new dictionary entries from candidate_words.json (3,777 → 3,826 total)
