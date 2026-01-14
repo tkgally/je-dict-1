@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,369
+- **Total entries**: 4,419
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,900 entries added
-- **Candidate words**: ~1,902 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,950 entries added
+- **Candidate words**: ~1,849 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -95,6 +95,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 42)
+Added 50 new dictionary entries from candidate_words.json, including a mix of verbs and nouns:
+
+- Verbs (19): {漂|ただよ}う (to drift), {散|ち}らかる (to be messy), {散|ち}らかす (to scatter), {剥|は}がれる (to come off), {絡|から}む (to get tangled), {解|と}ける (to come undone), {織|お}る (to weave), {研|と}ぐ (to sharpen), {跳|は}ねる (to jump), {潜|ひそ}む (to lurk), {瞬|またた}く (to blink), {鳴|な}く (to cry - animals), {唸|うな}る (to groan), {吸|す}う (to inhale), {吐|は}く (to exhale), {舐|な}める (to lick), {飲|の}み{込|こ}む (to swallow), {味|あじ}わう (to taste), {撫|な}でる (to stroke)
+- Na-adjective (1): {卑怯|ひきょう} (cowardly)
+- Nouns (30): {統計|とうけい} (statistics), {等分|とうぶん} (division), {特定|とくてい} (specific), {特売|とくばい} (special sale), {内線|ないせん} (phone extension), {中指|なかゆび} (middle finger), {謎々|なぞなぞ} (riddle), {南米|なんべい} (South America), {南北|なんぼく} (north and south), {日程|にってい} (schedule), {農村|のうそん} (farming village), {農薬|のうやく} (pesticide), {能率|のうりつ} (efficiency), {乗換|のりかえ} (transfer), {灰色|はいいろ} (gray), {歯車|はぐるま} (gear), {発想|はっそう} (idea), {発電|はつでん} (power generation), {発売|はつばい} (sale/release), {花嫁|はなよめ} (bride), {早口|はやくち} (fast-talking), {針金|はりがね} (wire), {反映|はんえい} (reflection), {半径|はんけい} (radius), {半島|はんとう} (peninsula), {売買|ばいばい} (trade), {万歳|ばんざい} (banzai), {引算|ひきざん} (subtraction), {筆者|ひっしゃ} (writer), {表紙|ひょうし} (cover)
+
+Notable entry features:
+- Comprehensive verb entries with transitivity pairs and aspect notes
+- Physical action verbs: {吸|す}う/{吐|は}く (inhale/exhale pair), {舐|な}める, {撫|な}でる
+- Sound verbs: {鳴|な}く (animal sounds), {唸|うな}る (groaning)
+- Messy/tidy pair: {散|ち}らかる (intransitive) / {散|ち}らかす (transitive)
+- Geographic terms: {南米|なんべい}, {南北|なんぼく}, {半島|はんとう}
+- Business/technical terms: {統計|とうけい}, {発電|はつでん}, {能率|のうりつ}
+
+Total entries: 4,369 → 4,419
+Remaining candidates: 1,902 → 1,849
 
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 41)
 Added 50 new dictionary entries from candidate_words.json, including a mix of verbs, nouns, adjectives, and adverbs:
