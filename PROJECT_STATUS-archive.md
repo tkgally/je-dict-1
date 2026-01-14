@@ -7,6 +7,21 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 43)
+Added 50 new dictionary entries from candidate_words.json, focusing on katakana loanwords:
+
+- Nouns (50): アウト (out), アップ (up), インク (ink), カー (car), キャプテン (captain), クリーム (cream), グラス (glass), グランド (ground), ケース (case), コード (code/cord), ジェット{機|き} (jet plane), ジーンズ (jeans), スキー (ski), スケート (skate), スタイル (style), スタンド (stand), スター (star), チャイム (chime), チーズ (cheese), デザート (dessert), デート (date), トップ (top), トラック (truck/track), トランプ (playing cards), トレーニング (training), トン (ton), ダイヤ (diamond/schedule), ダウン (down), ドラマ (drama), ドレス (dress), ノック (knock), ハンサム (handsome), バイオリン (violin), バッグ (bag), パイロット (pilot), パス (pass), ピクニック (picnic), ピン (pin), プラス (plus), プラン (plan), ペンキ (paint), ボーイ (boy/porter), ボート (boat), マイク (microphone), マイナス (minus), マスター (master), マッサージ (massage), マーケット (market), ミス (miss/mistake), ミルク (milk)
+
+Notable entry features:
+- All entries are katakana loanwords from English, German, or Dutch
+- Words with multiple meanings documented (e.g., グラス: glass/grass, コード: code/cord/chord)
+- Common compounds and collocations for each word
+- Japanese-specific usage explained (e.g., トランプ for playing cards, not trump)
+- Distinctions from native Japanese alternatives noted
+
+Total entries: 4,419 → 4,469
+Remaining candidates: 2,249 → 2,161
+
 ### 2026-01-14 (Candidate Word Expansion - Session 2)
 Added 200 new candidate words across 10 semantic domains:
 - **Body parts/medical** (20): 拳, 膵臓, 動脈, 静脈, 免疫, 瞳, 額, 鎖骨, etc.

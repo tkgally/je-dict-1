@@ -35,7 +35,7 @@
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~2,200 entries added
-- **Candidate words**: ~1,783 words tracked in `candidate_words.json`
+- **Candidate words**: ~1,579 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-14 (Candidate Words Expansion - 202 New Candidates)
+Added 202 new candidates to `candidate_words.json` using systematic semantic gap analysis:
+
+- **Medical/anatomical terms** (15): 肩甲骨, 肋骨, 骨盤, 脊椎, 靭帯, 軟骨, 毛細血管, リンパ, 通院, 処方, 感染, 炎症, 切り傷, 応急処置, 健康診断
+- **Four-character idioms & proverbs** (9): 二束三文, 三日坊主, 青息吐息, 本末転倒, 猿も木から落ちる, 石の上にも三年, 塵も積もれば山となる, 棚から牡丹餅, 一朝一夕
+- **Emotional/psychological terms** (8): 倦怠, 嫌悪, 渇望, 郷愁, 陶酔, 恍惚, 虚脱, 緊迫
+- **Traditional culture** (6): 褌, 朱肉, 御神籤, お宮参り, 告別式, 初七日, 四十九日, 一周忌, 三回忌, 法要
+- **Honorific vocabulary** (9): お越しになる, 存じる, 頂戴する, 拝借する, お供する, 恐れ入る, 差し支える, お手数, ご容赦
+- **Sports & music terms** (14): ドリブル, シュート, オフサイド, ファウル, ゴールキーパー, フォワード, ミッドフィルダー, ディフェンダー, スタメン, アレンジ, リフ, ビート, アドリブ, アンコール
+- **Business & finance** (10): 配当, 財務, 経理, 監査, 決算, 収益, 抵当, 担保, 手形, 小切手
+- **Transportation** (9): 滑走路, 離陸, 着陸, 搭乗, 乗車, 優先席, 車内, 車掌, 運転士
+- **Construction & architecture** (13): 施工, 骨組み, 外壁, 内装, 断熱, 防水, 耐震, 解体, 改築, 増築, 修繕, 塗装, 足場
+- **Agriculture** (12): 耕作, 播種, 灌漑, 肥料, 害虫, 苗床, 果樹園, 酪農, 牧場, 飼育, 家畜, 堆肥
+- **Modern vocabulary** (6): マウント, チルい, パワハラ, モラハラ, セクハラ, マタハラ
+- **Social media slang** (6): リツイート, ハッシュタグ, ネタ, 空気を読む, KY, ガチ勢
+- **Environment & energy** (8): 省エネ, ゴミ分別, 埋立地, 太陽光, 風力, 原子力, 水力, 炭素
+- **Other categories** (77): Various nouns, verbs, adjectives, and number compounds
+
+Total candidates: 1,377 → 1,579
 
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 51)
 Added 50 new dictionary entries from candidate_words.json, focusing on animal classification, exotic animals, tree types, Japanese cooking methods, and household vocabulary:
@@ -266,21 +286,6 @@ Notable entry features:
 
 Total entries: 4,469 → 4,519
 Remaining candidates: 2,161 → 2,105
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 43)
-Added 50 new dictionary entries from candidate_words.json, focusing on katakana loanwords:
-
-- Nouns (50): アウト (out), アップ (up), インク (ink), カー (car), キャプテン (captain), クリーム (cream), グラス (glass), グランド (ground), ケース (case), コード (code/cord), ジェット{機|き} (jet plane), ジーンズ (jeans), スキー (ski), スケート (skate), スタイル (style), スタンド (stand), スター (star), チャイム (chime), チーズ (cheese), デザート (dessert), デート (date), トップ (top), トラック (truck/track), トランプ (playing cards), トレーニング (training), トン (ton), ダイヤ (diamond/schedule), ダウン (down), ドラマ (drama), ドレス (dress), ノック (knock), ハンサム (handsome), バイオリン (violin), バッグ (bag), パイロット (pilot), パス (pass), ピクニック (picnic), ピン (pin), プラス (plus), プラン (plan), ペンキ (paint), ボーイ (boy/porter), ボート (boat), マイク (microphone), マイナス (minus), マスター (master), マッサージ (massage), マーケット (market), ミス (miss/mistake), ミルク (milk)
-
-Notable entry features:
-- All entries are katakana loanwords from English, German, or Dutch
-- Words with multiple meanings documented (e.g., グラス: glass/grass, コード: code/cord/chord)
-- Common compounds and collocations for each word
-- Japanese-specific usage explained (e.g., トランプ for playing cards, not trump)
-- Distinctions from native Japanese alternatives noted
-
-Total entries: 4,419 → 4,469
-Remaining candidates: 2,249 → 2,161
 
 ---
 
