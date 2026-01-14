@@ -35,7 +35,7 @@
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~1,950 entries added
-- **Candidate words**: ~2,049 words tracked in `candidate_words.json`
+- **Candidate words**: ~2,249 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -95,6 +95,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-14 (Candidate Word Expansion - Session 2)
+Added 200 new candidate words across 10 semantic domains:
+- **Body parts/medical** (20): 拳, 膵臓, 動脈, 静脈, 免疫, 瞳, 額, 鎖骨, etc.
+- **Food/cooking** (25): 捏ねる, 出汁, 薬味, 惣菜, 煮物, 揚げ物, 漬物, 味噌汁, etc.
+- **Weather/nature** (20): 霧, 霜, 露, 雹, 吹雪, 稲妻, 豪雨, 虹, 気温, etc.
+- **Compound verbs** (25): 追い出す, 追いかける, 切り替える, 取り出す, 持ち上げる, 引き受ける, etc.
+- **Onomatopoeia** (20): ざわざわ, しんしん, ぼんやり, じっと, すっきり, しっとり, etc.
+- **～的 adjectives** (15): 積極的, 消極的, 具体的, 抽象的, 歴史的, 圧倒的, etc.
+- **Four-character idioms** (15): 一石二鳥, 以心伝心, 一期一会, 試行錯誤, 臨機応変, etc.
+- **Modern/tech vocabulary** (20): スマホ, アプリ, 推し, バズる, コスパ, タイパ, サブスク, etc.
+- **Emotional/psychological** (20): 焦り, 苛立ち, 憂鬱, 葛藤, 嫉妬, 達成感, 虚無感, etc.
+- **Traditional/cultural** (20): 畳, 障子, 風呂敷, 初詣, 七五三, 鳥居, 絵馬, etc.
+
+Total candidates: 2,049 → 2,249
 
 ### 2026-01-14 (Candidate Word Expansion - 200 New Candidates)
 Added 200 new candidate words to candidate_words.json, covering:
