@@ -141,6 +141,7 @@ def generate_nav_header(relative_path: str = '') -> str:
         <a href="{base}browse.html" class="nav-link">Browse</a>
         <a href="{base}recent.html" class="nav-link">Recent</a>
         <a href="{base}random.html" class="nav-link">Random</a>
+        <a href="{base}pending.html" class="nav-link">Pending</a>
     </nav>
     <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
         <span class="furigana-icon">振</span>
@@ -456,6 +457,10 @@ def generate_index_page(entry_count: int) -> str:
             <a href="random.html" class="nav-card">
                 <h3>Random</h3>
                 <p>Discover entries at random</p>
+            </a>
+            <a href="pending.html" class="nav-card">
+                <h3>Pending</h3>
+                <p>View candidate words awaiting entry creation</p>
             </a>
         </div>
     </section>
@@ -782,6 +787,51 @@ def generate_random_page(entries: list) -> str:
     });
 })();
 </script>''')
+    html_parts.append('</body>')
+    html_parts.append('</html>')
+
+    return '\n'.join(html_parts)
+
+
+def generate_pending_page(candidates: list) -> str:
+    """Generate the pending.html page showing candidate words."""
+    html_parts = [
+        generate_html_head("Pending"),
+        '<body>',
+        generate_nav_header(),
+        '<main class="pending-page">',
+        '<h1>Pending Words</h1>',
+        f'<p class="pending-intro">Candidate words awaiting dictionary entry creation ({len(candidates):,} words). Most recently added appear first.</p>',
+        '<div class="pending-list">',
+    ]
+
+    # Sort by date added, most recent first
+    sorted_candidates = sorted(
+        candidates,
+        key=lambda x: x.get('added', ''),
+        reverse=True
+    )
+
+    for candidate in sorted_candidates:
+        word = html.escape(candidate.get('word', ''))
+        reading = html.escape(candidate.get('reading', ''))
+        notes = html.escape(candidate.get('notes', ''))
+
+        html_parts.append(f'''
+            <div class="pending-item">
+                <span class="pending-word">{word}</span>
+                <span class="pending-reading">{reading}</span>
+                <span class="pending-notes">{notes}</span>
+            </div>
+        ''')
+
+    html_parts.append('</div>')
+    html_parts.append('</main>')
+    html_parts.append('''
+        <footer>
+            <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    ''')
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -1662,6 +1712,58 @@ main {
     background-color: var(--color-accent-light);
 }
 
+/* Pending Page */
+.pending-page h1 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.pending-intro {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.pending-list {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-jp);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pending-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem var(--spacing-md);
+    border-bottom: 1px solid var(--color-border);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.pending-item:last-child {
+    border-bottom: none;
+}
+
+.pending-item:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.pending-word {
+    font-weight: 500;
+    min-width: 100px;
+}
+
+.pending-reading {
+    color: var(--color-text-secondary);
+    min-width: 100px;
+}
+
+.pending-notes {
+    color: var(--color-text);
+    flex: 1;
+}
+
 /* Ruby/Furigana Styling */
 ruby {
     ruby-align: center;
@@ -1918,7 +2020,16 @@ def build_flat(project_root: Path) -> int:
     with open(docs_dir / 'random.html', 'w', encoding='utf-8') as f:
         f.write(generate_random_page(entries))
 
-    print("  Generated index.html, search.html, browse.html, recent.html, random.html")
+    # Pending page (candidate words)
+    candidate_file = project_root / 'candidate_words.json'
+    if candidate_file.exists():
+        with open(candidate_file, 'r', encoding='utf-8') as f:
+            candidate_data = json.load(f)
+            candidates = candidate_data.get('candidates', [])
+        with open(docs_dir / 'pending.html', 'w', encoding='utf-8') as f:
+            f.write(generate_pending_page(candidates))
+
+    print("  Generated index.html, search.html, browse.html, recent.html, random.html, pending.html")
 
     # Step 5: Generate search index and JavaScript
     print("\n[5/7] Generating search index...")
