@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="センター - center. Japanese-English dictionary entry with definitions and examples.">
+    <title>センター (せんたー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">センター</h1>
+            <div class="entry-reading">せんたー</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">center</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">center, facility</span>
+                    <div class="definition-explanation">A building or organization that provides services or facilities for a particular purpose.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">center (position)</span>
+                    <div class="definition-explanation">The middle position in a group or formation, especially in sports or entertainment.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ショッピングセンターで<ruby>買<rp>(</rp><rt>か</rt><rp>)</rp></ruby>い<ruby>物<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>をした。</div>
+                    <div class="example-english">I went shopping at the shopping center.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>市民<rp>(</rp><rt>しみん</rt><rp>)</rp></ruby>センターで<ruby>会議<rp>(</rp><rt>かいぎ</rt><rp>)</rp></ruby>がある。</div>
+                    <div class="example-english">There is a meeting at the civic center.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">アイドルグループのセンターに<ruby>選<rp>(</rp><rt>えら</rt><rp>)</rp></ruby>ばれた。</div>
+                    <div class="example-english">I was chosen as the center of the idol group.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>センター is used for facilities, positions, and as a central point.</p><p>COMMON EXPRESSIONS:</p><ul><li>ショッピングセンター: shopping center</li><li>コミュニティセンター: community center</li><li>センター<ruby>試験<rp>(</rp><rt>しけん</rt><rp>)</rp></ruby>: Center Test (national university entrance exam)</li><li>コールセンター: call center</li><li>センターを<ruby>務<rp>(</rp><rt>つと</rt><rp>)</rp></ruby>める: to serve as center (in a group)</li></ul><p>USAGE NOTE:<br>In idol group contexts, センター refers to the member who stands in the middle during performances and is often the most prominent.</p><p>[Register: Neutral]</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 9:20</div>
+                <div class="metadata-file">sa/se/sentaa_04786</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

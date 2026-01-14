@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="カード - card. Japanese-English dictionary entry with definitions and examples.">
+    <title>カード (かーど) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">カード</h1>
+            <div class="entry-reading">かーど</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">card</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">card (payment, membership, ID)</span>
+                    <div class="definition-explanation">A small flat piece of plastic used for payment, identification, or membership.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">card (playing, message)</span>
+                    <div class="definition-explanation">A piece of cardboard used for games or sending messages.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">クレジットカードで<ruby>支払<rp>(</rp><rt>しはら</rt><rp>)</rp></ruby>う。</div>
+                    <div class="example-english">I pay with a credit card.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">カードを<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>えますか。</div>
+                    <div class="example-english">Can I use a card?</div>
+                    <div class="example-notes">Common question when paying</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>誕生日<rp>(</rp><rt>たんじょうび</rt><rp>)</rp></ruby>カードをもらった。</div>
+                    <div class="example-english">I received a birthday card.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>カード is a versatile word used for many types of cards.</p><p>COMMON EXPRESSIONS:</p><ul><li>クレジットカード: credit card</li><li>キャッシュカード: bank/ATM card</li><li>ポイントカード: points card, loyalty card</li><li><ruby>会員<rp>(</rp><rt>かいいん</rt><rp>)</rp></ruby>カード: membership card</li><li>カード<ruby>決済<rp>(</rp><rt>けっさい</rt><rp>)</rp></ruby>: card payment</li><li>カードで<ruby>払<rp>(</rp><rt>はら</rt><rp>)</rp></ruby>う: to pay by card</li></ul><p>RELATED WORDS:</p><ul><li><ruby>札<rp>(</rp><rt>ふだ</rt><rp>)</rp></ruby>: tag, card (traditional)</li><li>トランプ: playing cards</li><li><ruby>名刺<rp>(</rp><rt>めいし</rt><rp>)</rp></ruby>: business card</li></ul><p>[Register: Neutral]</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N4</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 9:20</div>
+                <div class="metadata-file">ka/ka/kaado_04769</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
