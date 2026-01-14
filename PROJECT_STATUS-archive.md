@@ -7,6 +7,27 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 44)
+Added 50 new compound verb entries (複合動詞) from candidate_words.json:
+
+- Compound verbs with 見/聞/思/言 (vision/hearing/thinking/speaking): {見上|みあ}げる, {見下|みおろ}す, {見|み}つめる, {見守|みまも}る, {見逃|みのが}す, {見落|みおと}す, {見直|みなお}す, {見習|みなら}う, {聞|き}き{取|と}る, {聞|き}き{入|い}れる, {思|おも}い{込|こ}む, {思|おも}い{切|き}る, {考|かんが}え{直|なお}す, {言|い}い{出|だ}す, {言|い}い{換|か}える
+- Compound verbs with 書/読 (writing/reading): {書|か}き{直|なお}す, {書|か}き{込|こ}む, {読|よ}み{取|と}る, {読|よ}み{上|あ}げる
+- Motion compound verbs with ～回る/～込む/～越える (around/into/over): {歩|ある}き{回|まわ}る, {走|はし}り{回|まわ}る, {飛|と}び{回|まわ}る, {動|うご}き{回|まわ}る, {飛|と}び{込|こ}む, {飛|と}び{越|こ}える, {乗|の}り{込|こ}む, {乗|の}り{越|こ}える, {乗|の}り{遅|おく}れる
+- Compound verbs with 追/入/出/立 (chase/enter/exit/stand): {追|お}い{越|こ}す, {追|お}い{出|だ}す, {追|お}い{掛|か}ける, {入|はい}り{込|こ}む, {出|で}くわす, {出迎|でむか}える, {立|た}ち{止|ど}まる, {立|た}ち{寄|よ}る, {立|た}ち{去|さ}る
+- Body position compound verbs: {座|すわ}り{込|こ}む, {寝転|ねころ}ぶ, {寝付|ねつ}く, {起|お}き{上|あ}がる, {目覚|めざ}める
+- Reciprocal compound verbs with ～合う: {向|む}き{合|あ}う, {助|たす}け{合|あ}う, {競|きそ}い{合|あ}う, {支|ささ}え{合|あ}う
+- Assembly compound verbs: {組|く}み{合|あ}わせる, {組|く}み{立|た}てる, {仕上|しあ}げる, {仕切|しき}る
+
+Notable entry features:
+- All entries follow v2 quality standards with transitivity (自動詞/他動詞) marked
+- ている aspect behavior documented for each verb
+- Common patterns and collocations included
+- Cross-references linking related compound verbs (antonym pairs, similar patterns)
+- Compound structure breakdown (e.g., 見る + 上げる → 見上げる)
+
+Total entries: 4,469 → 4,519
+Remaining candidates: 2,161 → 2,105
+
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 43)
 Added 50 new dictionary entries from candidate_words.json, focusing on katakana loanwords:
 
