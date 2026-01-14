@@ -35,7 +35,7 @@
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~1,950 entries added
-- **Candidate words**: ~1,849 words tracked in `candidate_words.json`
+- **Candidate words**: ~2,049 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -95,6 +95,19 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-14 (Candidate Word Expansion - 200 New Candidates)
+Added 200 new candidate words to candidate_words.json, covering:
+- **Reduplication words**: 国々, 山々, 木々, 日々
+- **〜的 adjectives**: 具体的, 革新的, 批判的, 本格的, 伝統的, 継続的, etc. (25+ terms)
+- **〜やか adjectives**: 煌びやか, 朗らか, 健やか, 爽やか, 鮮やか, 和やか, etc.
+- **Compound verbs**: 押し出す, 引き込む, 落ち込む, 受け入れる, 乗り出す, etc.
+- **Adverbs**: かろうじて, ひたすら, やたらに, ひとまず, あらかじめ, etc.
+- **Onomatopoeia**: 50+ terms covering emotions, texture, movement, eating sounds
+- **Modern/Internet vocabulary**: バズる, エモい, ガチ, コスパ, タイパ, SNS terms
+- **Tech loanwords**: サブスク, クラウド, アプリ, スマホ, テレワーク, etc.
+
+Total candidates: 1,849 → 2,049
 
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 42)
 Added 50 new dictionary entries from candidate_words.json, including a mix of verbs and nouns:
