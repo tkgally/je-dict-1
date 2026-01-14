@@ -31,10 +31,10 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,569
+- **Total entries**: 4,619
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~2,000 entries added
+- **JLPT N3 vocabulary**: ~2,050 entries added
 - **Candidate words**: ~2,043 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
@@ -95,6 +95,25 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 46)
+Added 50 new dictionary entries from candidate_words.json, focusing on common katakana loanwords:
+
+- Core loanwords: チェックする, アイスクリーム, アルバム, アンケート, イメージ, インタビュー, ウイスキー, エネルギー, エンジン, オフィス
+- Commerce/daily life: カード, キャンプ, クラシック, クリスマス, グループ, ゲーム, コンテスト, コーチ, ゴール, サイン
+- Emotions/communication: ショック, スイッチ, スケジュール, ストレス, スピーチ, スープ, セット, センター, タイトル, ダンス
+- Activities/objects: チャンス, チーム, テント, デザイン, データ, トンネル, ドライブ, ハイキング, バランス, パスポート
+- Technology/sports: ブレーキ, プラスチック, プロ, ベンチ, ホーム, ボール, マスコミ, メッセージ, メモ, メンバー
+
+Notable entry features:
+- All entries include common patterns and collocations
+- Multiple meanings documented where applicable (e.g., ホーム: platform/home, ボール: ball/bowl)
+- Japanese-specific usage explained (e.g., ホーム for train platform)
+- Related vocabulary and synonyms cross-referenced
+- Loanword origins noted (e.g., アンケート from French 'enquête')
+
+Total entries: 4,569 → 4,619
+Remaining candidates: 2,043 (sync pending due to reading format mismatch)
 
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 45)
 Added 50 new dictionary entries from candidate_words.json, focusing on compound verbs and transitive/intransitive pairs:
