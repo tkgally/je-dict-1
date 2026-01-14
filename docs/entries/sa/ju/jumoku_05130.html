@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="樹木 - tree. Japanese-English dictionary entry with definitions and examples.">
+    <title>樹木 (じゅもく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>樹木<rp>(</rp><rt>じゅもく</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">じゅもく</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">tree</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">trees, woody plants</span>
+                    <div class="definition-explanation">A general term for trees and woody plants, especially in formal or scientific contexts.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby>には<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>くの<ruby>樹木<rp>(</rp><rt>じゅもく</rt><rp>)</rp></ruby>があります。</div>
+                    <div class="example-english">There are many trees in this park.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>樹木<rp>(</rp><rt>じゅもく</rt><rp>)</rp></ruby>は<ruby>二酸化炭素<rp>(</rp><rt>にさんかたんそ</rt><rp>)</rp></ruby>を<ruby>吸収<rp>(</rp><rt>きゅうしゅう</rt><rp>)</rp></ruby>します。</div>
+                    <div class="example-english">Trees absorb carbon dioxide.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>樹木<rp>(</rp><rt>じゅもく</rt><rp>)</rp></ruby>の<ruby>手入<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>れが<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">The trees need maintenance.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>樹木<rp>(</rp><rt>じゅもく</rt><rp>)</rp></ruby> is a formal/literary term for trees, often used in environmental, scientific, or official contexts.</p><p>In everyday conversation, <ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby> is more common.</p><p>Tree classification:</p><ul><li><ruby>広葉樹<rp>(</rp><rt>こうようじゅ</rt><rp>)</rp></ruby> (broadleaf trees)</li><li><ruby>針葉樹<rp>(</rp><rt>しんようじゅ</rt><rp>)</rp></ruby> (conifers)</li><li><ruby>落葉樹<rp>(</rp><rt>らくようじゅ</rt><rp>)</rp></ruby> (deciduous trees)</li><li><ruby>常緑樹<rp>(</rp><rt>じょうりょくじゅ</rt><rp>)</rp></ruby> (evergreen trees)</li></ul><p>Related terms:</p><ul><li><ruby>植林<rp>(</rp><rt>しょくりん</rt><rp>)</rp></ruby> (afforestation)</li><li><ruby>伐採<rp>(</rp><rt>ばっさい</rt><rp>)</rp></ruby> (logging, felling)</li><li><ruby>樹齢<rp>(</rp><rt>じゅれい</rt><rp>)</rp></ruby> (age of a tree)</li></ul><p>Counter: <ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby></p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 22:31</div>
+                <div class="metadata-file">sa/ju/jumoku_05130</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

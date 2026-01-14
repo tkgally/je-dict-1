@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,707
+- **Total entries**: 4,757
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~2,200 entries added
-- **Candidate words**: ~1,840 words tracked in `candidate_words.json`
+- **Candidate words**: ~1,783 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -97,6 +97,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 51)
+Added 50 new dictionary entries from candidate_words.json, focusing on animal classification, exotic animals, tree types, Japanese cooking methods, and household vocabulary:
+
+- Loanwords (2): ルール (rule), レベル (level)
+- Animal classification (6): {哺乳類|ほにゅうるい} (mammal), {爬虫類|はちゅうるい} (reptile), {両生類|りょうせいるい} (amphibian), {魚類|ぎょるい} (fish class), {鳥類|ちょうるい} (bird class), {甲虫|こうちゅう} (beetle)
+- Insects/creatures (3): {蚯蚓|みみず} (earthworm), {毛虫|けむし} (caterpillar), {穴熊|あなぐま} (badger)
+- Birds (4): {孔雀|くじゃく} (peacock), {白鳥|はくちょう} (swan), {鷺|さぎ} (heron), {鸚鵡|おうむ} (parrot)
+- Exotic animals (5): {獅子|しし} (lion), {河馬|かば} (hippopotamus), {麒麟|きりん} (giraffe), {縞馬|しまうま} (zebra), {駱駝|らくだ} (camel)
+- Tree classification (5): {樹木|じゅもく} (tree), {広葉樹|こうようじゅ} (broadleaf), {針葉樹|しんようじゅ} (conifer), {落葉樹|らくようじゅ} (deciduous), {常緑樹|じょうりょくじゅ} (evergreen)
+- Plants (2): {菖蒲|あやめ} (iris), {蔦|つた} (ivy)
+- Japanese cooking methods (7): {佃煮|つくだに} (tsukudani), {煮物|にもの} (simmered dish), {焼|や}き{物|もの} (grilled dish), {揚|あ}げ{物|もの} (fried food), {蒸|む}し{物|もの} (steamed dish), {和|あ}え{物|もの} (dressed dish), {酢|す}の{物|もの} (vinegared dish)
+- Japanese dishes/food (7): {焼肉|やきにく} (yakiniku), {雑炊|ぞうすい} (rice porridge), {茶漬|ちゃづ}け (ochazuke), {吸|す}い{物|もの} (clear soup), {饅頭|まんじゅう} (manju), {羊羹|ようかん} (yokan), {洋菓子|ようがし} (Western sweets)
+- Meal structure (3): {前菜|ぜんさい} (appetizer), {副菜|ふくさい} (side dish), {主菜|しゅさい} (main dish)
+- Household/architecture (6): {玄関|げんかん} (entrance), {廊下|ろうか} (hallway), {天井|てんじょう} (ceiling), {柱|はしら} (pillar), {箪笥|たんす} (chest of drawers), {洋服|ようふく} (Western clothes)
+
+Notable entry features:
+- Complete animal classification system with related terms cross-referenced
+- Comprehensive Japanese cooking method vocabulary with examples
+- Tree classification entries cover both botanical and practical information
+- All entries include cultural notes where relevant
+
+Total entries: 4,707 → 4,757
+Remaining candidates: 1,840 → 1,783
 
 ### 2026-01-14 (Duplicate Entry Cleanup)
 Removed 112 duplicate entries (63 duplicate sets) using the new resolve-duplicates and delete-entry skills. Entry count reduced from 4,819 to 4,707.
