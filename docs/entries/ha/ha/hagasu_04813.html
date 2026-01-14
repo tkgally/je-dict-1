@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="剥がす - to peel off, to tear off. Japanese-English dictionary entry with definitions and examples.">
+    <title>剥がす (はがす) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がす</h1>
+            <div class="entry-reading">はがす</div>
+            <div class="entry-pos">godan verb</div>
+            <div class="entry-gloss">to peel off, to tear off</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to peel off, to tear off, to strip</span>
+                    <div class="definition-explanation">To remove something that is attached or stuck to a surface.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">シールを<ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がす。</div>
+                    <div class="example-english">I peel off the sticker.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>壁紙<rp>(</rp><rt>かべがみ</rt><rp>)</rp></ruby>を<ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がして<ruby>新<rp>(</rp><rt>あたら</rt><rp>)</rp></ruby>しいのを<ruby>貼<rp>(</rp><rt>は</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">I peel off the wallpaper and put up new one.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>仮面<rp>(</rp><rt>かめん</rt><rp>)</rp></ruby>を<ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がす。</div>
+                    <div class="example-english">I tear off the mask.</div>
+                    <div class="example-notes">Can be used figuratively</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がす is a transitive verb meaning to peel or tear off something attached.</p><p>TRANSITIVITY:</p><ul><li>Type: <ruby>他動詞<rp>(</rp><rt>たどうし</rt><rp>)</rp></ruby> (transitive)</li><li>Pair: <ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がれる (intransitive, to come off, to peel off)</li></ul><p>COMMON PATTERNS:</p><ul><li>シールを<ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がす: to peel off a sticker</li><li><ruby>皮<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>を<ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がす: to peel off skin/bark</li><li><ruby>化<rp>(</rp><rt>ば</rt><rp>)</rp></ruby>けの<ruby>皮<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>を<ruby>剥<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がす: to unmask, expose someone&#x27;s true nature</li></ul><p>RELATED WORDS:</p><ul><li><ruby>剥<rp>(</rp><rt>む</rt><rp>)</rp></ruby>く: to peel (fruit, vegetables)</li><li><ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>る: to remove</li></ul><p>[Register: Neutral]</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 9:33</div>
+                <div class="metadata-file">ha/ha/hagasu_04813</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
