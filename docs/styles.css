@@ -790,6 +790,58 @@ main {
     background-color: var(--color-accent-light);
 }
 
+/* Pending Page */
+.pending-page h1 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.pending-intro {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.pending-list {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-jp);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pending-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem var(--spacing-md);
+    border-bottom: 1px solid var(--color-border);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.pending-item:last-child {
+    border-bottom: none;
+}
+
+.pending-item:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.pending-word {
+    font-weight: 500;
+    min-width: 100px;
+}
+
+.pending-reading {
+    color: var(--color-text-secondary);
+    min-width: 100px;
+}
+
+.pending-notes {
+    color: var(--color-text);
+    flex: 1;
+}
+
 /* Ruby/Furigana Styling */
 ruby {
     ruby-align: center;
