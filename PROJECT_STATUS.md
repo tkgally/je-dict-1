@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,719
+- **Total entries**: 4,769
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~2,150 entries added
-- **Candidate words**: ~1,950 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~2,200 entries added
+- **Candidate words**: ~1,904 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -95,6 +95,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 49)
+Added 50 new dictionary entries from candidate_words.json, focusing on verbs, environmental/scientific terms, medical vocabulary, and useful suffixes:
+
+- Verbs (27): {透|す}ける (to be transparent), {滲|にじ}む (to blur), {滴|したた}る (to drip), {舞|ま}う (to dance/flutter), {暴|あば}れる (to act violently), {荒|あ}れる (to be rough), {静|しず}まる (to become quiet), {老|お}いる (to grow old), {衰|おとろ}える (to decline), {早|はや}まる (to quicken), {早|はや}める (to hasten), {枯|か}れる (to wither), {萎|しお}れる (to wilt), {芽生|めば}える (to sprout), {蒸|む}れる (to be stuffy), {揺|ゆ}する (to shake), {括|くく}る (to bundle), {絡|から}める (to entwine), {着替|きが}える (to change clothes), {漁|あさ}る (to rummage), {暴|あば}く (to expose), {晒|さら}す (to expose), {逃|のが}す (to let escape), {拒|こば}む (to refuse), {跳|は}ね{上|あ}がる (to jump up), {吹|ふ}き{飛|と}ばす (to blow away), {焦|あせ}る (to be impatient)
+- Environmental terms (11): {温暖化|おんだんか} (global warming), リサイクル (recycling), {生態系|せいたいけい} (ecosystem), {気候変動|きこうへんどう} (climate change), {二酸化炭素|にさんかたんそ} (carbon dioxide), {排出|はいしゅつ} (emission), {廃棄物|はいきぶつ} (waste), {再生可能|さいせいかのう} (renewable), {持続可能|じぞくかのう} (sustainable), {生物多様性|せいぶつたようせい} (biodiversity), {絶滅危惧種|ぜつめつきぐしゅ} (endangered species)
+- Medical/Health terms (5): {体調|たいちょう} (physical condition), アレルギー (allergy), {脳卒中|のうそっちゅう} (stroke), {鬱病|うつびょう} (depression), {関節痛|かんせつつう} (joint pain)
+- Nature/Time terms (3): {言|い}い{訳|わけ} (excuse), {朝焼|あさや}け (morning glow), {日没|にちぼつ} (sunset)
+- Suffixes (4): 〜{社|しゃ} (company), 〜{者|しゃ} (person), 〜{団|だん} (group), 〜{長|ちょう} (head/leader)
+
+Notable entry features:
+- Comprehensive verb entries with transitivity pairs and ている aspect behavior
+- Environmental vocabulary highly relevant for current events discussions
+- Medical terms cover common conditions and health-related expressions
+- All suffixes include extensive compound word lists
+
+Total entries: 4,719 → 4,769
+Remaining candidates: 1,950 → 1,904
 
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 48)
 Added 50 new dictionary entries from candidate_words.json, focusing on animals, plants/trees, and medical/health terms:
