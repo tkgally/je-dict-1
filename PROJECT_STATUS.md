@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,419
+- **Total entries**: 4,469
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,950 entries added
-- **Candidate words**: ~2,249 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~2,000 entries added
+- **Candidate words**: ~2,161 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -95,6 +95,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 43)
+Added 50 new dictionary entries from candidate_words.json, focusing on katakana loanwords:
+
+- Nouns (50): アウト (out), アップ (up), インク (ink), カー (car), キャプテン (captain), クリーム (cream), グラス (glass), グランド (ground), ケース (case), コード (code/cord), ジェット{機|き} (jet plane), ジーンズ (jeans), スキー (ski), スケート (skate), スタイル (style), スタンド (stand), スター (star), チャイム (chime), チーズ (cheese), デザート (dessert), デート (date), トップ (top), トラック (truck/track), トランプ (playing cards), トレーニング (training), トン (ton), ダイヤ (diamond/schedule), ダウン (down), ドラマ (drama), ドレス (dress), ノック (knock), ハンサム (handsome), バイオリン (violin), バッグ (bag), パイロット (pilot), パス (pass), ピクニック (picnic), ピン (pin), プラス (plus), プラン (plan), ペンキ (paint), ボーイ (boy/porter), ボート (boat), マイク (microphone), マイナス (minus), マスター (master), マッサージ (massage), マーケット (market), ミス (miss/mistake), ミルク (milk)
+
+Notable entry features:
+- All entries are katakana loanwords from English, German, or Dutch
+- Words with multiple meanings documented (e.g., グラス: glass/grass, コード: code/cord/chord)
+- Common compounds and collocations for each word
+- Japanese-specific usage explained (e.g., トランプ for playing cards, not trump)
+- Distinctions from native Japanese alternatives noted
+
+Total entries: 4,419 → 4,469
+Remaining candidates: 2,249 → 2,161
 
 ### 2026-01-14 (Candidate Word Expansion - Session 2)
 Added 200 new candidate words across 10 semantic domains:
