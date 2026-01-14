@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ユーモア - humor. Japanese-English dictionary entry with definitions and examples.">
+    <title>ユーモア (ゆーもあ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ユーモア</h1>
+            <div class="entry-reading">ゆーもあ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">humor</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">humor, wit</span>
+                    <div class="definition-explanation">The quality of being amusing or comical, or the ability to appreciate and express such quality.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ユーモアのセンスがある<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>は<ruby>人気<rp>(</rp><rt>にんき</rt><rp>)</rp></ruby>がある。</div>
+                    <div class="example-english">People with a sense of humor are popular.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>の<ruby>話<rp>(</rp><rt>はなし</rt><rp>)</rp></ruby>はユーモアに<ruby>溢<rp>(</rp><rt>あふ</rt><rp>)</rp></ruby>れていた。</div>
+                    <div class="example-english">His story was full of humor.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>辛<rp>(</rp><rt>つら</rt><rp>)</rp></ruby>い<ruby>状況<rp>(</rp><rt>じょうきょう</rt><rp>)</rp></ruby>でもユーモアを<ruby>忘<rp>(</rp><rt>わす</rt><rp>)</rp></ruby>れないことが<ruby>大切<rp>(</rp><rt>たいせつ</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">It&#x27;s important not to forget humor even in difficult situations.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ユーモア refers to humor or wit, borrowed from English &#x27;humor.&#x27;</p><p>COMMON EXPRESSIONS:</p><ul><li>ユーモアのセンス: sense of humor</li><li>ユーモアがある: to have humor, to be funny</li><li>ユーモアに<ruby>富<rp>(</rp><rt>と</rt><rp>)</rp></ruby>む: to be rich in humor</li><li>ユーモアを<ruby>交<rp>(</rp><rt>まじ</rt><rp>)</rp></ruby>える: to add humor (to a speech, etc.)</li></ul><p>RELATED WORDS:</p><ul><li><ruby>冗談<rp>(</rp><rt>じょうだん</rt><rp>)</rp></ruby>: joke (more casual)</li><li>ジョーク: joke (loanword)</li><li>おかしい: funny, amusing</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 19:37</div>
+                <div class="metadata-file">ya/yu/yuumoa_05160</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

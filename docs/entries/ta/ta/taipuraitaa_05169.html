@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="タイプライター - typewriter. Japanese-English dictionary entry with definitions and examples.">
+    <title>タイプライター (たいぷらいたー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">タイプライター</h1>
+            <div class="entry-reading">たいぷらいたー</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">typewriter</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">typewriter</span>
+                    <div class="definition-explanation">A mechanical or electromechanical device with keys for producing printed characters on paper.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>祖父<rp>(</rp><rt>そふ</rt><rp>)</rp></ruby>の<ruby>時代<rp>(</rp><rt>じだい</rt><rp>)</rp></ruby>はタイプライターで<ruby>書類<rp>(</rp><rt>しょるい</rt><rp>)</rp></ruby>を<ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>っていた。</div>
+                    <div class="example-english">In my grandfather&#x27;s time, they made documents using typewriters.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>古<rp>(</rp><rt>ふる</rt><rp>)</rp></ruby>いタイプライターが<ruby>骨董品<rp>(</rp><rt>こっとうひん</rt><rp>)</rp></ruby>として<ruby>売<rp>(</rp><rt>う</rt><rp>)</rp></ruby>られている。</div>
+                    <div class="example-english">Old typewriters are being sold as antiques.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">タイプライターの<ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>が<ruby>懐<rp>(</rp><rt>なつ</rt><rp>)</rp></ruby>かしい。</div>
+                    <div class="example-english">I feel nostalgic hearing the sound of a typewriter.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>タイプライター refers to a typewriter, now largely replaced by computers and word processors.</p><p>COMMON EXPRESSIONS:</p><ul><li>タイプライターを<ruby>打<rp>(</rp><rt>う</rt><rp>)</rp></ruby>つ: to type on a typewriter</li><li><ruby>電動<rp>(</rp><rt>でんどう</rt><rp>)</rp></ruby>タイプライター: electric typewriter</li><li><ruby>和文<rp>(</rp><rt>わぶん</rt><rp>)</rp></ruby>タイプライター: Japanese typewriter</li></ul><p>HISTORICAL NOTE: Japanese typewriters (<ruby>和文<rp>(</rp><rt>わぶん</rt><rp>)</rp></ruby>タイプライター) were complex machines with thousands of characters, unlike alphabetic typewriters. The word processor (ワープロ) and later personal computers largely replaced typewriters in Japan by the 1990s.</p><p>RELATED WORDS:</p><ul><li>ワープロ: word processor</li><li>キーボード: keyboard</li><li>タイプ: type, typing</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 19:37</div>
+                <div class="metadata-file">ta/ta/taipuraitaa_05169</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
