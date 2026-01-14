@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,319
+- **Total entries**: 4,369
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~1,850 entries added
-- **Candidate words**: ~1,949 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~1,900 entries added
+- **Candidate words**: ~1,902 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -95,6 +95,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 41)
+Added 50 new dictionary entries from candidate_words.json, including a mix of verbs, nouns, adjectives, and adverbs:
+
+- Verbs (5): {浮|う}かぶ (to float), {吊|つ}るす (to hang), {捩|ね}じる (to twist), {剥|は}がす (to peel off), {養|やしな}う (to support/nourish)
+- Na-adjectives (4): {逆様|さかさま} (upside down), {的確|てきかく} (precise), {透明|とうめい} (transparent), {特殊|とくしゅ} (special)
+- Adverb (1): {大層|たいそう} (very much)
+- Nouns (40): {温帯|おんたい} (temperate zone), {造船|ぞうせん} (shipbuilding), {増大|ぞうだい} (increase), {体系|たいけい} (system), {体制|たいせい} (structure), {体積|たいせき} (volume), {体操|たいそう} (gymnastics), {大木|たいぼく} (large tree), {対立|たいりつ} (confrontation), {溜息|ためいき} (sigh), {炭鉱|たんこう} (coal mine), {短所|たんしょ} (weak point), {淡水|たんすい} (fresh water), {単数|たんすう} (singular), {短編|たんぺん} (short story), {脱線|だっせん} (derailment), {段階|だんかい} (stage), {断水|だんすい} (water outage), {断定|だんてい} (conclusion), {中途|ちゅうと} (halfway), {超過|ちょうか} (excess), {直後|ちょくご} (immediately after), {貯蔵|ちょぞう} (storage), {通用|つうよう} (circulation), {定員|ていいん} (capacity), {停車|ていしゃ} (stopping), {手帳|てちょう} (notebook), {鉄砲|てっぽう} (gun), {展開|てんかい} (development), {点数|てんすう} (score), {天皇|てんのう} (Emperor), {凸凹|でこぼこ} (unevenness), {伝染|でんせん} (contagion), {統一|とういつ} (unity), {東西|とうざい} (east and west), {投書|とうしょ} (letter to editor), {当日|とうじつ} (that day), {灯台|とうだい} (lighthouse), {盗難|とうなん} (theft), {当番|とうばん} (duty)
+
+Notable entry features:
+- Diverse vocabulary: verbs with transitivity info, technical nouns, cultural terms
+- Japanese-specific concepts: {天皇|てんのう}, {体操|たいそう}, {障子|しょうじ}-related vocab
+- Common expressions and collocations documented in notes
+- Proverbs included: {灯台|とうだい}{下|もと}{暗|くら}し (lighthouse proverb)
+
+Total entries: 4,319 → 4,369
+Remaining candidates: 1,949 → 1,902
 
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 40)
 Added 50 new dictionary entries from candidate_words.json, focusing on katakana loanwords:
