@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-13
+**Last updated**: 2026-01-14
 **Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -31,7 +31,7 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,269
+- **Total entries**: 4,319
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~1,850 entries added
@@ -95,6 +95,19 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `cross-reference-entry` | Adding cross-references between entries |
 
 ## Recent Changes
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 40)
+Added 50 new dictionary entries from candidate_words.json, focusing on katakana loanwords:
+- Nouns (50): アイスクリーム (ice cream), アルバム (album), アンケート (questionnaire), イメージ (image), インタビュー (interview), ウイスキー (whiskey), エネルギー (energy), エンジン (engine), オフィス (office), カード (card), キャンプ (camp), クラシック (classical), クリスマス (Christmas), グループ (group), ゲーム (game), コンテスト (contest), コーチ (coach), ゴール (goal), サイン (sign/autograph), ショック (shock), スイッチ (switch), スケジュール (schedule), ストレス (stress), スピーチ (speech), スープ (soup), セット (set), センター (center), タイトル (title), ダンス (dance), チャンス (chance), チーム (team), テント (tent), デザイン (design), データ (data), トンネル (tunnel), ドライブ (drive), ドラマ (drama), ハイキング (hiking), バランス (balance), ブレーキ (brake), プラスチック (plastic), プロ (professional), ベンチ (bench), ホーム (platform/home), マスコミ (mass media), メッセージ (message), メモ (memo), メンバー (member), ルール (rule), レベル (level)
+
+Notable entry features:
+- All entries are katakana loanwords from English, German, or French
+- Common everyday vocabulary for learners
+- Includes cultural notes where Japanese usage differs from English (e.g., クリスマス, ホーム)
+- Multiple meanings documented for polysemous words (e.g., サイン, ホーム, ゴール)
+
+Total entries: 4,269 → 4,319
+Remaining candidates: 1,949 → 1,899
 
 ### 2026-01-13 (Vocabulary Expansion - 50 New Entries, Session 39)
 Added 50 new dictionary entries from candidate_words.json, including:
