@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,807
+- **Total entries**: 4,857
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~2,250 entries added
-- **Candidate words**: ~1,529 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~2,300 entries added
+- **Candidate words**: ~1,479 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,25 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 53)
+Added 50 new dictionary entries from candidate_words.json, focusing on household items, clothing, accessories, and work vocabulary:
+
+- Kitchen Utensils (10): ざる (colander), おたま (ladle), へら (spatula), {菜箸|さいばし} (cooking chopsticks), {汁椀|しるわん} (soup bowl), {小皿|こざら} (small plate), {大皿|おおざら} (large plate), {湯呑|ゆの}み (teacup), {箸置|はしお}き (chopstick rest), ボウル (mixing bowl)
+- Home/Living Items (10): ソファ (sofa), テーブル (table), {本棚|ほんだな} (bookshelf), クローゼット (closet), {扉|とびら} (door), {縁側|えんがわ} (veranda), {絨毯|じゅうたん} (carpet), シーツ (sheets), ベッド (bed), シャワー (shower)
+- Bathroom Items (5): スポンジ (sponge), シャンプー (shampoo), {歯|は}ブラシ (toothbrush), バスタオル (bath towel), {便器|べんき} (toilet bowl)
+- Clothing (10): パジャマ (pajamas), ブラウス (blouse), カーディガン (cardigan), ジャケット (jacket), パーカー (hoodie), ワンピース (dress), スニーカー (sneakers), ブーツ (boots), スリッパ (slippers), マフラー (scarf)
+- Accessories (5): サングラス (sunglasses), {腕時計|うでどけい} (wristwatch), ネックレス (necklace), リュック (backpack), {団扇|うちわ} (round fan)
+- Work Vocabulary (10): {勤務|きんむ} (work), {出勤|しゅっきん} (going to work), {退勤|たいきん} (leaving work), {有給|ゆうきゅう} (paid leave), {昇進|しょうしん} (promotion), {転勤|てんきん} (job transfer), {転職|てんしょく} (job change), {退職|たいしょく} (resignation), {解雇|かいこ} (dismissal), {採用|さいよう} (hiring)
+
+Notable entry features:
+- Comprehensive household vocabulary useful for daily life in Japan
+- Clothing entries include both loanwords and the casual/formal distinctions in Japanese
+- Work vocabulary covers the full employment lifecycle with cultural notes on Japanese workplace culture
+- All entries include common expressions and related vocabulary
+
+Total entries: 4,807 → 4,857
+Remaining candidates: 1,529 → 1,479
 
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 52)
 Added 50 new dictionary entries from candidate_words.json, focusing on technology/electronics, media/broadcasting, and traditional Japanese arts:
@@ -261,30 +280,6 @@ Notable entry features:
 
 Total entries: 4,569 → 4,619
 Remaining candidates: 2,043 (sync pending due to reading format mismatch)
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 45)
-Added 50 new dictionary entries from candidate_words.json, focusing on compound verbs and transitive/intransitive pairs:
-
-- Compound verbs with 取り～ (take): {取|と}り{出|だ}す, {取|と}り{入|い}れる, {取|と}り{除|のぞ}く, {取|と}り{戻|もど}す, {取|と}り{消|け}す, {取|と}り{組|く}む
-- Compound verbs with 持ち～ (hold): {持|も}ち{込|こ}む, {持|も}ち{帰|かえ}る
-- Compound verbs with 打ち～ (strike): {打|う}ち{合|あ}わせる, {打|う}ち{込|こ}む, {打|う}ち{明|あ}ける
-- Compound verbs with 振り～ (swing): {振|ふ}り{返|かえ}る, {振|ふ}り{向|む}く, {振|ふ}る{舞|ま}う
-- Compound verbs with 差し～/押し～/切り～: {差|さ}し{出|だ}す, {差|さ}し{込|こ}む, {押|お}し{付|つ}ける, {押|お}し{込|こ}む, {切|き}り{取|と}る, {切|き}り{替|か}える
-- Other compound verbs: {見送|みおく}る, {握|にぎ}りしめる, {詰|つ}め{込|こ}む, {仕掛|しか}ける, {仕込|しこ}む, {縮|ちぢ}める
-- Physical state verbs: {歪|ゆが}む, {弾|はず}む, {崩|くず}れる, {潰|つぶ}れる, {溢|あふ}れる
-- Transitive/intransitive pairs: {零|こぼ}す/{零|こぼ}れる, {染|そ}める/{染|そ}まる, {嵌|は}める/{嵌|は}まる, {纏|まと}める/{纏|まと}まる
-- Cleaning/action verbs: {整|ととの}える, {掃|は}く, {拭|ふ}く, {擦|こす}る, {濯|すす}ぐ, {漕|こ}ぐ
-- Body parts: {踵|かかと}, {顎|あご}, {眉|まゆ}, {睫毛|まつげ}, {瞼|まぶた}
-
-Notable entry features:
-- All verb entries include transitivity (自動詞/他動詞) markings
-- ている aspect behavior documented for each verb
-- Transitive/intransitive pairs cross-referenced
-- Common collocations and patterns included
-- Body part entries include related expressions and idioms
-
-Total entries: 4,519 → 4,569
-Remaining candidates: 2,105 → 2,043
 
 ---
 

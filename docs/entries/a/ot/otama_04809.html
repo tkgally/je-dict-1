@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="おたま - ladle. Japanese-English dictionary entry with definitions and examples.">
+    <title>おたま (おたま) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">おたま</h1>
+            <div class="entry-reading">おたま</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">ladle</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">ladle</span>
+                    <div class="definition-explanation">ladle</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">おたまで<ruby>味噌汁<rp>(</rp><rt>みそしる</rt><rp>)</rp></ruby>をよそった。</div>
+                    <div class="example-english">I served miso soup with a ladle.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">このおたまは<ruby>深<rp>(</rp><rt>ふか</rt><rp>)</rp></ruby>くて<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>いやすい。</div>
+                    <div class="example-english">This ladle is deep and easy to use.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">おたまを<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>って、スープを<ruby>鍋<rp>(</rp><rt>なべ</rt><rp>)</rp></ruby>から<ruby>器<rp>(</rp><rt>うつわ</rt><rp>)</rp></ruby>に<ruby>移<rp>(</rp><rt>うつ</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I used a ladle to transfer soup from the pot to the bowl.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>おたま is a ladle used for serving soup, stew, and other liquid dishes. The formal name is お<ruby>玉杓子<rp>(</rp><rt>たまじゃくし</rt><rp>)</rp></ruby>, but おたま is the common everyday form.</p><p>Common expressions:</p><ul><li>おたまでよそう (serve with a ladle)</li><li>おたまで<ruby>掬<rp>(</rp><rt>すく</rt><rp>)</rp></ruby>う (scoop with a ladle)</li></ul><p>The word おたまじゃくし also means &quot;tadpole&quot; due to the similar shape, which is where the kitchen utensil likely got its name.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.15 3:53</div>
+                <div class="metadata-file">a/ot/otama_04809</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

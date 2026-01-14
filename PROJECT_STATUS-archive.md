@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 45)
+Added 50 new dictionary entries from candidate_words.json, focusing on compound verbs and transitive/intransitive pairs:
+
+- Compound verbs with 取り～ (take): {取|と}り{出|だ}す, {取|と}り{入|い}れる, {取|と}り{除|のぞ}く, {取|と}り{戻|もど}す, {取|と}り{消|け}す, {取|と}り{組|く}む
+- Compound verbs with 持ち～ (hold): {持|も}ち{込|こ}む, {持|も}ち{帰|かえ}る
+- Compound verbs with 打ち～ (strike): {打|う}ち{合|あ}わせる, {打|う}ち{込|こ}む, {打|う}ち{明|あ}ける
+- Compound verbs with 振り～ (swing): {振|ふ}り{返|かえ}る, {振|ふ}り{向|む}く, {振|ふ}る{舞|ま}う
+- Compound verbs with 差し～/押し～/切り～: {差|さ}し{出|だ}す, {差|さ}し{込|こ}む, {押|お}し{付|つ}ける, {押|お}し{込|こ}む, {切|き}り{取|と}る, {切|き}り{替|か}える
+- Other compound verbs: {見送|みおく}る, {握|にぎ}りしめる, {詰|つ}め{込|こ}む, {仕掛|しか}ける, {仕込|しこ}む, {縮|ちぢ}める
+- Physical state verbs: {歪|ゆが}む, {弾|はず}む, {崩|くず}れる, {潰|つぶ}れる, {溢|あふ}れる
+- Transitive/intransitive pairs: {零|こぼ}す/{零|こぼ}れる, {染|そ}める/{染|そ}まる, {嵌|は}める/{嵌|は}まる, {纏|まと}める/{纏|まと}まる
+- Cleaning/action verbs: {整|ととの}える, {掃|は}く, {拭|ふ}く, {擦|こす}る, {濯|すす}ぐ, {漕|こ}ぐ
+- Body parts: {踵|かかと}, {顎|あご}, {眉|まゆ}, {睫毛|まつげ}, {瞼|まぶた}
+
+Notable entry features:
+- All verb entries include transitivity (自動詞/他動詞) markings
+- ている aspect behavior documented for each verb
+- Transitive/intransitive pairs cross-referenced
+- Common collocations and patterns included
+- Body part entries include related expressions and idioms
+
+Total entries: 4,519 → 4,569
+Remaining candidates: 2,105 → 2,043
+
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 44)
 Added 50 new compound verb entries (複合動詞) from candidate_words.json:
 
