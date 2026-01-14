@@ -31,7 +31,7 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,819
+- **Total entries**: 4,707
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
 - **JLPT N3 vocabulary**: ~2,200 entries added
@@ -93,8 +93,17 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `revise-entries` | Revising existing entries to v2 standards |
 | `vocabulary-notes` | Formatting notes field content |
 | `cross-reference-entry` | Adding cross-references between entries |
+| `resolve-duplicates` | Identifying and resolving duplicate entries |
+| `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-14 (Duplicate Entry Cleanup)
+Removed 112 duplicate entries (63 duplicate sets) using the new resolve-duplicates and delete-entry skills. Entry count reduced from 4,819 to 4,707.
+
+Added two new Claude Code skills:
+- `resolve-duplicates`: Guidelines for identifying, comparing, and safely removing duplicate entries
+- `delete-entry`: Step-by-step process for safely deleting entries while updating indexes and cross-references
 
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 50)
 Added 50 new dictionary entries from candidate_words.json, focusing on Japanese food, cooking ingredients, kitchen items, and nature vocabulary:
