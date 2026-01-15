@@ -39,11 +39,12 @@ CURRENT PROGRESS:
   - ka/: COMPLETE
   - sa/: COMPLETE
   - ta/: COMPLETE
-  - Other directories: pending (na/, ha/, ma/, ya/, ra/, wa/)
+  - na/: COMPLETE
+  - Other directories: pending (ha/, ma/, ya/, ra/, wa/)
 
 IMMEDIATE NEXT STEPS:
-1. Process na/ directory (111 multi-sense entries)
-2. Continue with ha/, ma/, ya/, ra/, wa/
+1. Process ha/ directory (206 multi-sense entries)
+2. Continue with ma/, ya/, ra/, wa/
 
 WORKFLOW FOR EACH ENTRY:
 1. Read the file to see definitions array (each sense with sense_number)
@@ -76,7 +77,7 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 | か | entries/ka/ | 649 | 0 | COMPLETE |
 | さ | entries/sa/ | 664 | 0 | COMPLETE |
 | た | entries/ta/ | 422 | 0 | COMPLETE |
-| な | entries/na/ | 123 | 111 | SCRIPT DONE |
+| な | entries/na/ | 123 | 0 | COMPLETE |
 | は | entries/ha/ | 377 | 206 | SCRIPT DONE |
 | ま | entries/ma/ | 140 | 152 | SCRIPT DONE |
 | や | entries/ya/ | 112 | 69 | SCRIPT DONE |
@@ -84,7 +85,7 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 | わ | entries/wa/ | 28 | 24 | SCRIPT DONE |
 
 **Total Single-sense Completed**: 2,579 entries
-**Total Multi-sense Remaining**: ~585 entries (na/, ha/, ma/, ya/, ra/, wa/)
+**Total Multi-sense Remaining**: ~474 entries (ha/, ma/, ya/, ra/, wa/)
 
 ---
 
@@ -134,6 +135,15 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 - **ta/to/ COMPLETE**: 57 files (3 batches)
 - **ta/ DIRECTORY COMPLETE**: All 267 multi-sense entries processed (192 files updated)
 
+### na/ Directory Processing (2026-01-15)
+- **na/nu/ COMPLETE**: 6 files
+- **na/ne/ COMPLETE**: 9 files
+- **na/ni/ COMPLETE**: 20 files
+- **na/no/ COMPLETE**: 28 files
+- **na/na/ COMPLETE**: 48 files
+- **na/ny/**: No multi-sense entries
+- **na/ DIRECTORY COMPLETE**: All 111 multi-sense entries processed
+
 ---
 
 ## Entries Flagged for Human Review
@@ -146,8 +156,8 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 
 ## Next Steps
 
-1. Process na/ directory (111 multi-sense entries)
-2. Continue with ha/, ma/, ya/, ra/, wa/
+1. Process ha/ directory (206 multi-sense entries)
+2. Continue with ma/, ya/, ra/, wa/
 3. Update this file after completing each directory
 
 ---
@@ -163,7 +173,7 @@ Current counts (as of last update):
 - ka/: 0 (COMPLETE)
 - sa/: 0 (COMPLETE)
 - ta/: 0 (COMPLETE)
-- na/: 111
+- na/: 0 (COMPLETE)
 - ha/: 206
 - ma/: 152
 - ya/: 69
