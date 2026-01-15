@@ -1,6 +1,6 @@
 # New Entry Creation Prompt
 
-Add 50 new entries to the Japanese-English learner's dictionary from candidate_words.json.
+Add 100 new entries to the Japanese-English learner's dictionary from candidate_words.json.
 
 ## Session Workflow
 
@@ -20,7 +20,7 @@ Add 50 new entries to the Japanese-English learner's dictionary from candidate_w
      - Multi-sense entries: each example must specify which sense(s) it illustrates
    - Use Write tool to create file at: `entries/{kana_row}/{prefix}/{romaji}_{5digit_id}.json`
 
-3. **After all 50 entries**:
+3. **After all 100 entries**:
    ```bash
    python3 build/validate.py          # Fix any errors before continuing
    python3 build/update_indexes.py    # Sync candidate_words.json
