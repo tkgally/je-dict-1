@@ -15,7 +15,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from typing import Optional
 
-from path_utils import get_entry_prefix, get_audio_prefix
+from path_utils import get_entry_prefix
 from japanese_utils import hiragana_to_romaji, KANA_ROWS, KANA_TO_FOLDER, get_kana_folder
 
 # Japan Standard Time (UTC+9)
@@ -249,27 +249,12 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
             japanese = ex.get('japanese', '')
             english = ex.get('english', '')
             notes = ex.get('notes', '')
-            has_audio = ex.get('has_audio', False)
-
-            # Audio button (enhanced with JS, but shows info without it)
-            audio_html = ''
-            if has_audio:
-                audio_id = f"{entry_id}-ex{idx + 1}"
-                prefix = get_audio_prefix(entry_id)
-                audio_html = f'''
-                    <div class="audio-controls">
-                        <audio controls preload="none">
-                            <source src="{relative_path}audio/{folder}/{prefix}/{audio_id}.mp3" type="audio/mpeg">
-                        </audio>
-                    </div>
-                '''
 
             html_parts.append(f'''
                 <div class="example-item">
                     <div class="example-japanese">{process_furigana(japanese)}</div>
                     <div class="example-english">{html.escape(english)}</div>
                     {f'<div class="example-notes">{process_furigana(notes)}</div>' if notes else ''}
-                    {audio_html}
                 </div>
             ''')
         html_parts.append('</div>')
@@ -425,7 +410,6 @@ def generate_index_page(entry_count: int) -> str:
             <li><strong>Natural example sentences</strong> optimized for learning</li>
             <li><strong>Usage notes</strong> covering grammar, register, and common patterns</li>
             <li><strong>Furigana readings</strong> for all kanji</li>
-            <li><strong>Audio pronunciation</strong> for many example sentences</li>
         </ul>
     </section>
 
@@ -1245,16 +1229,6 @@ main {
     margin-top: 0.25rem;
 }
 
-.audio-controls {
-    margin-top: var(--spacing-sm);
-}
-
-.audio-controls audio {
-    width: 100%;
-    max-width: 300px;
-    height: 32px;
-}
-
 /* Notes */
 .entry-notes {
     margin-top: var(--spacing-lg);
@@ -1896,37 +1870,6 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
     return recent
 
 
-def copy_audio_files(project_root: Path, dest_dir: Path) -> int:
-    """Copy audio files to the destination audio directory.
-
-    Preserves the kana/prefix subfolder structure (a/ab/, a/it/, etc.).
-    """
-    audio_src_dir = project_root / 'audio'
-    audio_dest_dir = dest_dir / 'audio'
-
-    if not audio_src_dir.exists():
-        return 0
-
-    audio_count = 0
-
-    for kana_dir in audio_src_dir.iterdir():
-        if not kana_dir.is_dir():
-            continue
-
-        for prefix_dir in kana_dir.iterdir():
-            if not prefix_dir.is_dir():
-                continue
-
-            dest_prefix_dir = audio_dest_dir / kana_dir.name / prefix_dir.name
-            dest_prefix_dir.mkdir(parents=True, exist_ok=True)
-
-            for audio_file in prefix_dir.glob('*.mp3'):
-                shutil.copy2(audio_file, dest_prefix_dir / audio_file.name)
-                audio_count += 1
-
-    return audio_count
-
-
 def build_flat(project_root: Path) -> int:
     """
     Build the flat HTML version of the dictionary.
@@ -1939,7 +1882,7 @@ def build_flat(project_root: Path) -> int:
     print("=" * 50)
 
     # Step 1: Load all entries
-    print("\n[1/7] Loading entries...")
+    print("\n[1/6] Loading entries...")
     entries = []
     for file_path in entries_dir.glob('**/*.json'):
         entries.append(load_entry(file_path))
@@ -1962,7 +1905,7 @@ def build_flat(project_root: Path) -> int:
         })
 
     # Step 2: Create output directories
-    print("\n[2/7] Creating output directories...")
+    print("\n[2/6] Creating output directories...")
 
     # Clean up generated content deterministically
     # Remove everything in docs/ except docs/flat/ (which contains a redirect)
@@ -1983,7 +1926,7 @@ def build_flat(project_root: Path) -> int:
     print(f"  Created {docs_dir}")
 
     # Step 3: Generate entry pages
-    print("\n[3/7] Generating entry pages...")
+    print("\n[3/6] Generating entry pages...")
     for entry in entries:
         folder = get_kana_folder(entry['reading'])
         prefix = get_entry_prefix(entry['id'])
@@ -1997,7 +1940,7 @@ def build_flat(project_root: Path) -> int:
     print(f"  Generated {len(entries)} entry pages")
 
     # Step 4: Generate navigation pages
-    print("\n[4/7] Generating navigation pages...")
+    print("\n[4/6] Generating navigation pages...")
 
     # Index page
     with open(docs_dir / 'index.html', 'w', encoding='utf-8') as f:
@@ -2032,7 +1975,7 @@ def build_flat(project_root: Path) -> int:
     print("  Generated index.html, search.html, browse.html, recent.html, random.html, pending.html")
 
     # Step 5: Generate search index and JavaScript
-    print("\n[5/7] Generating search index...")
+    print("\n[5/6] Generating search index...")
     with open(docs_dir / 'search-index.js', 'w', encoding='utf-8') as f:
         f.write(generate_search_index(entries))
 
@@ -2042,18 +1985,10 @@ def build_flat(project_root: Path) -> int:
     print("  Generated search-index.js, search.js")
 
     # Step 6: Generate stylesheet
-    print("\n[6/7] Generating stylesheet...")
+    print("\n[6/6] Generating stylesheet...")
     with open(docs_dir / 'styles.css', 'w', encoding='utf-8') as f:
         f.write(generate_stylesheet())
     print("  Generated styles.css")
-
-    # Step 7: Copy audio files
-    print("\n[7/7] Copying audio files...")
-    audio_count = copy_audio_files(project_root, docs_dir)
-    if audio_count > 0:
-        print(f"  Copied {audio_count} audio files to docs/audio/")
-    else:
-        print("  No audio files to copy")
 
     # Summary
     print("\n" + "=" * 50)
