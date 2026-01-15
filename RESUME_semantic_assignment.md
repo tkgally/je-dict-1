@@ -5,8 +5,8 @@
 **Last Updated**: 2026-01-15
 **Total Entries**: 4,857
 **Total Examples**: ~14,180
-**Entries Completed**: 30
-**Entries Remaining**: ~4,827
+**Entries Completed**: 42
+**Entries Remaining**: ~4,815
 
 ---
 
@@ -23,9 +23,9 @@ TASK: Continue semantically assigning example sentences to their corresponding
 sense definitions in je-dict-1 dictionary entries.
 
 CURRENT PROGRESS:
-- Last completed kana row: a/ (IN PROGRESS - 30/651 entries done)
-- Last completed entry ID: aizu_00464
-- Next entry to process: entries/a/aj/aji_00095.json
+- Last completed kana row: a/ (IN PROGRESS - 42/651 entries done)
+- Last completed entry ID: aki_01139
+- Next entry to process: entries/a/ak/akiraka_01268.json
 
 WHAT TO DO:
 1. Read the "Progress by Kana Row" section below to see what's done
@@ -65,7 +65,7 @@ After each batch, run: python3 /home/user/je-dict-1/build/validate.py
 
 | Row | Directory | Status | Entries Done | Notes |
 |-----|-----------|--------|--------------|-------|
-| あ | entries/a/ | IN PROGRESS | 30/651 | Next: aji_00095 |
+| あ | entries/a/ | IN PROGRESS | 42/651 | Next: akiraka_01268 |
 | か | entries/ka/ | NOT STARTED | 0/? | |
 | さ | entries/sa/ | NOT STARTED | 0/? | |
 | た | entries/ta/ | NOT STARTED | 0/? | |
@@ -82,8 +82,9 @@ After each batch, run: python3 /home/user/je-dict-1/build/validate.py
 
 ### Session 1 (2026-01-15)
 - Started task
-- Completed 30 entries in a/ directory (a through aizu alphabetically)
+- Completed 42 entries in a/ directory (a through aki alphabetically)
 - All entries processed successfully, no ambiguous cases
+- Notable multi-sense assignments: aida (3 senses), aite (3 senses), akarui (2 senses)
 
 ---
 
@@ -130,18 +131,30 @@ aisukuriimu_03431
 aisuru_00535
 aite_00465
 aizu_00464
+aji_00095
+ajia_00509
+ajisai_05151
+ajiwau_04758
+aka_01972
+akachan_00133
+akai_00047
+akanbou_00149
+akari_00467
+akarui_00091
+akeru_00023
+aki_01139
 ```
 
 ---
 
 ## Next Entry to Process
 
-**Directory**: entries/a/aj/
-**Entry**: aji_00095.json
+**Directory**: entries/a/ak/
+**Entry**: akiraka_01268.json
 
 **Full list command**:
 ```bash
 find /home/user/je-dict-1/entries/a -name "*.json" | sort | head -100
 ```
 
-After aji_00095, continue with: ajia_00509, ajisai_05151, ajiwau_04758, then ak/* entries
+After akiraka_01268, continue with: akirameru_00536, akiru_00537, akiya_02139, aku_00093, akuma_00511, akusesarii_00508, akushu_00468, then al/* entries
