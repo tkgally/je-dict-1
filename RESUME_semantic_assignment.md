@@ -37,7 +37,7 @@ CURRENT PROGRESS:
 - Multi-sense entries:
   - a/: COMPLETE
   - ka/: COMPLETE (31 files processed in this session)
-  - sa/: IN PROGRESS (315 remaining)
+  - sa/: IN PROGRESS (23 done in sa/sa/, ~292 remaining)
   - Other directories: pending
 
 IMMEDIATE NEXT STEPS:
@@ -73,7 +73,7 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 |-----|-----------|--------------|----------------------|--------|
 | あ | entries/a/ | 651 (100%) | 0 | COMPLETE |
 | か | entries/ka/ | 649 | 0 | COMPLETE |
-| さ | entries/sa/ | 664 | 315 | IN PROGRESS |
+| さ | entries/sa/ | 664 | ~292 | IN PROGRESS (23 done in sa/sa/) |
 | た | entries/ta/ | 422 | 267 | SCRIPT DONE |
 | な | entries/na/ | 123 | 111 | SCRIPT DONE |
 | は | entries/ha/ | 377 | 206 | SCRIPT DONE |
