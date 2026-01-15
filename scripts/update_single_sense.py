@@ -49,10 +49,19 @@ def process_entry(filepath: Path) -> tuple[bool, str]:
         if ex.get('sense_numbers') == []:
             ex['sense_numbers'] = [1]
 
-    # Write back
+    # Write back with compact sense_numbers formatting
     try:
+        import re
+        output = json.dumps(data, ensure_ascii=False, indent=2)
+        # Fix multi-line sense_numbers arrays to be compact
+        pattern = r'"sense_numbers": \[\s*\n\s*(\d+(?:,\s*\d+)*)\s*\n\s*\]'
+        def replace_func(match):
+            numbers = match.group(1)
+            nums = [n.strip() for n in numbers.split(',')]
+            return f'"sense_numbers": [{", ".join(nums)}]'
+        output = re.sub(pattern, replace_func, output)
         with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+            f.write(output)
             f.write('\n')
     except IOError as e:
         return False, f"Error writing: {e}"
