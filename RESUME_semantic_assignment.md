@@ -114,6 +114,11 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 
 ### sa/ Directory Processing (2026-01-15)
 - Starting sa/ directory with 315 multi-sense entries remaining
+- **sa/sa/ IN PROGRESS**: 17 files processed so far
+  - Committed: saa, sa, saabisu, sabaku, sabetsu, sagaru
+  - Committed: sageru, saguru, saiban, saijitsu, saijou, saikou
+  - Committed: sain, saisei, saiseikanou, saitei, saiwai
+- **Remaining in sa/sa/**: ~37 files
 
 ---
 
