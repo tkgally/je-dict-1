@@ -36,13 +36,13 @@ CURRENT PROGRESS:
 - Single-sense entries: COMPLETED for all directories (auto-processed)
 - Multi-sense entries:
   - a/: COMPLETE
-  - ka/: COMPLETE (31 files processed in this session)
-  - sa/: IN PROGRESS (23 done in sa/sa/, ~292 remaining)
-  - Other directories: pending
+  - ka/: COMPLETE
+  - sa/: COMPLETE
+  - Other directories: pending (ta/, na/, ha/, ma/, ya/, ra/, wa/)
 
 IMMEDIATE NEXT STEPS:
-1. Continue processing sa/ directory (315 multi-sense entries)
-2. After sa/ complete, continue with ta/, na/, ha/, ma/, ya/, ra/, wa/
+1. Process ta/ directory (267 multi-sense entries)
+2. Continue with na/, ha/, ma/, ya/, ra/, wa/
 
 WORKFLOW FOR EACH ENTRY:
 1. Read the file to see definitions array (each sense with sense_number)
@@ -73,7 +73,7 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 |-----|-----------|--------------|----------------------|--------|
 | あ | entries/a/ | 651 (100%) | 0 | COMPLETE |
 | か | entries/ka/ | 649 | 0 | COMPLETE |
-| さ | entries/sa/ | 664 | ~292 | IN PROGRESS (23 done in sa/sa/) |
+| さ | entries/sa/ | 664 | 0 | COMPLETE |
 | た | entries/ta/ | 422 | 267 | SCRIPT DONE |
 | な | entries/na/ | 123 | 111 | SCRIPT DONE |
 | は | entries/ha/ | 377 | 206 | SCRIPT DONE |
@@ -83,7 +83,7 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 | わ | entries/wa/ | 28 | 24 | SCRIPT DONE |
 
 **Total Single-sense Completed**: 2,579 entries
-**Total Multi-sense Remaining**: ~1,140 entries (315 in sa/ + remaining directories)
+**Total Multi-sense Remaining**: ~852 entries (ta/, na/, ha/, ma/, ya/, ra/, wa/)
 
 ---
 
@@ -114,11 +114,14 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 
 ### sa/ Directory Processing (2026-01-15)
 - Starting sa/ directory with 315 multi-sense entries remaining
-- **sa/sa/ IN PROGRESS**: 17 files processed so far
-  - Committed: saa, sa, saabisu, sabaku, sabetsu, sagaru
-  - Committed: sageru, saguru, saiban, saijitsu, saijou, saikou
-  - Committed: sain, saisei, saiseikanou, saitei, saiwai
-- **Remaining in sa/sa/**: ~37 files
+- **sa/sa/ COMPLETE**: 31 files
+- **sa/sh/ COMPLETE**: 25 files
+- **sa/si/, sa/so/ COMPLETE**: 12 files + 23 files
+- **sa/su/ COMPLETE**: 45 files
+- **sa/se/ COMPLETE**: 33 files
+- **sa/za/, sa/ze/, sa/zo/, sa/zu/ COMPLETE**: 20 files
+- **sa/ja/, sa/ji/, sa/jo/, sa/ju/ COMPLETE**: 26 files
+- **sa/ DIRECTORY COMPLETE**: All multi-sense entries processed
 
 ---
 
@@ -132,10 +135,9 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 
 ## Next Steps
 
-1. Continue processing sa/ directory (315 multi-sense entries)
-2. After sa/ complete, process ta/ (267 entries)
-3. Continue with na/, ha/, ma/, ya/, ra/, wa/
-4. Update this file after completing each directory
+1. Process ta/ directory (267 multi-sense entries)
+2. Continue with na/, ha/, ma/, ya/, ra/, wa/
+3. Update this file after completing each directory
 
 ---
 
@@ -148,7 +150,7 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json 2>/dev/null | wc -l
 
 Current counts (as of last update):
 - ka/: 0 (COMPLETE)
-- sa/: 315
+- sa/: 0 (COMPLETE)
 - ta/: 267
 - na/: 111
 - ha/: 206
