@@ -7,6 +7,24 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 47)
+Added 50 new dictionary entries from candidate_words.json, focusing on health/medical vocabulary, nature/geography terms, and astronomy:
+
+- Katakana loanwords (10): ユーモア, ヨット, ヨーロッパ, ライター, ラケット, ラベル, ロケット, パイプ, ノー, タイプライター
+- Health/medical terms (10): {副作用|ふくさよう}, {捻挫|ねんざ}, {打撲|だぼく}, {凍傷|とうしょう}, {腹痛|ふくつう}, {腰痛|ようつう}, {吐|は}き{気|け}, {眩暈|めまい}, {倦怠感|けんたいかん}, {不眠症|ふみんしょう}
+- Body parts & biology (10): {歯茎|はぐき}, {太腿|ふともも}, {脹脛|ふくらはぎ}, {内臓|ないぞう}, {肝臓|かんぞう}, {細胞|さいぼう}, {遺伝子|いでんし}, {免疫|めんえき}, {視力|しりょく}, {聴力|ちょうりょく}
+- Nature/geography (10): {草原|そうげん}, {湿地|しっち}, {峡谷|きょうこく}, {洞窟|どうくつ}, {断崖|だんがい}, {入|い}り{江|え}, {浜|はま}, {霞|かすみ}, {木陰|こかげ}, {日向|ひなた}
+- Astronomy/sky (10): {夕焼|ゆうや}け, {黄昏|たそがれ}, {月明|つきあ}かり, {星空|ほしぞら}, {流|なが}れ{星|ぼし}, {天|あま}の{川|がわ}, {銀河|ぎんが}, {惑星|わくせい}, {彗星|すいせい}, {隕石|いんせき}
+
+Notable entry features:
+- Medical terms include symptoms, conditions, and body parts useful for healthcare situations
+- Nature terms cover diverse landscapes and weather phenomena
+- Astronomy entries include cultural references (Tanabata, seasonal observations)
+- All entries include common expressions, collocations, and related vocabulary
+
+Total entries: 4,619 → 4,669
+Remaining candidates: 2,043 → 2,000
+
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 46)
 Added 50 new dictionary entries from candidate_words.json, focusing on common katakana loanwords:
 

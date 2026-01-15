@@ -35,7 +35,7 @@
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~500 entries added
 - **JLPT N3 vocabulary**: ~2,300 entries added
-- **Candidate words**: ~1,631 words tracked in `candidate_words.json`
+- **Candidate words**: ~1,831 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,19 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-15 (Candidate Words Expansion - 200 New Candidates)
+Added 200 new candidates to `candidate_words.json` using the balanced coverage strategy outlined in `newcandidates.md`:
+
+- **Tier 1 - Core Vocabulary Gaps** (70 candidates): Essential verbs missing from the dictionary including 行く, 来る, 見る, 聞く, 言う, 思う, 知る, 分かる, 食べる, 飲む, 書く, 読む, plus transitive/intransitive pairs like 開ける/開く, 閉める/閉じる, 始まる/始める, 終わる/終える. Also added missing basic adjectives (早い, 熱い), adverbs (本当に, 多分, 確かに), and nouns (事).
+
+- **Tier 2 - Semantic Domain Completion** (70 candidates): Action verbs (走る, 歩く, 泳ぐ, 飛ぶ), emotion verbs (怒る, 笑う, 泣く, 喜ぶ, 驚く, 困る), change-of-state verbs (壊れる/壊す, 変わる/変える, 増える, 減る), plus missing colors (白, ピンク), animals (豚, 羊), family terms (叔父, 叔母).
+
+- **Tier 3 & 4 - Related Word Networks & Productive Patterns** (35 candidates): Reduplication words (日々, 国々, 山々, 木々), ～的 adjectives (消極的, 具体的, 抽象的, 一般的, 基本的, 個人的, 社会的, 効果的, 現実的, 理想的, 魅力的, 典型的, 伝統的), compound verbs (追い出す, 取り出す, 持ち上げる, 引き受ける, 飛び出す, 思い出す, 呼び出す), and four-character idioms (一石二鳥, 以心伝心, 一期一会, 十人十色, 四苦八苦, 一長一短, 自業自得).
+
+- **Tier 5 - Modern & Informal Vocabulary** (25 candidates): Technology terms (スマホ, アプリ, ダウンロード, 検索), social media vocabulary (フォロー, 投稿, バズる, 推し), lifestyle terms (コスパ, タイパ, リモート), and colloquial expressions (マジ, やばい, めっちゃ, ウザい, ダサい, キモい, エモい, ガチ, イケメン, 草, 神, ネタバレ).
+
+Total candidates: 1,631 → 1,831
 
 ### 2026-01-15 (Vocabulary Expansion - 50 New Entries, Session 54)
 Added 50 new dictionary entries from candidate_words.json, focusing on verbs, kitchen appliances, household items, accessories, work/business vocabulary, education, and technology:
@@ -279,24 +292,6 @@ Notable entry features:
 
 Total entries: 4,669 → 4,719
 Remaining candidates: 2,000 → 1,950
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 47)
-Added 50 new dictionary entries from candidate_words.json, focusing on health/medical vocabulary, nature/geography terms, and astronomy:
-
-- Katakana loanwords (10): ユーモア, ヨット, ヨーロッパ, ライター, ラケット, ラベル, ロケット, パイプ, ノー, タイプライター
-- Health/medical terms (10): {副作用|ふくさよう}, {捻挫|ねんざ}, {打撲|だぼく}, {凍傷|とうしょう}, {腹痛|ふくつう}, {腰痛|ようつう}, {吐|は}き{気|け}, {眩暈|めまい}, {倦怠感|けんたいかん}, {不眠症|ふみんしょう}
-- Body parts & biology (10): {歯茎|はぐき}, {太腿|ふともも}, {脹脛|ふくらはぎ}, {内臓|ないぞう}, {肝臓|かんぞう}, {細胞|さいぼう}, {遺伝子|いでんし}, {免疫|めんえき}, {視力|しりょく}, {聴力|ちょうりょく}
-- Nature/geography (10): {草原|そうげん}, {湿地|しっち}, {峡谷|きょうこく}, {洞窟|どうくつ}, {断崖|だんがい}, {入|い}り{江|え}, {浜|はま}, {霞|かすみ}, {木陰|こかげ}, {日向|ひなた}
-- Astronomy/sky (10): {夕焼|ゆうや}け, {黄昏|たそがれ}, {月明|つきあ}かり, {星空|ほしぞら}, {流|なが}れ{星|ぼし}, {天|あま}の{川|がわ}, {銀河|ぎんが}, {惑星|わくせい}, {彗星|すいせい}, {隕石|いんせき}
-
-Notable entry features:
-- Medical terms include symptoms, conditions, and body parts useful for healthcare situations
-- Nature terms cover diverse landscapes and weather phenomena
-- Astronomy entries include cultural references (Tanabata, seasonal observations)
-- All entries include common expressions, collocations, and related vocabulary
-
-Total entries: 4,619 → 4,669
-Remaining candidates: 2,043 → 2,000
 
 ---
 
