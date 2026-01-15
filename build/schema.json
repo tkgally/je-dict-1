@@ -59,8 +59,13 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["japanese", "english"],
+        "required": ["id", "japanese", "english"],
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z]+_[0-9]{5}_ex[0-9]+$",
+            "description": "Unique example ID: {entry_id}_ex{number}"
+          },
           "japanese": {
             "type": "string",
             "minLength": 1,
@@ -74,6 +79,18 @@
           "notes": {
             "type": ["string", "null"],
             "description": "Notes about this specific example"
+          },
+          "has_audio": {
+            "type": "boolean",
+            "description": "Whether audio exists for this example"
+          },
+          "sense_numbers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "description": "Array of sense numbers this example illustrates"
           }
         }
       },
