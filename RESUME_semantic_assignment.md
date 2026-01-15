@@ -5,8 +5,8 @@
 **Last Updated**: 2026-01-15
 **Total Entries**: 4,857
 **Total Examples**: ~14,180
-**Entries Completed**: 82
-**Entries Remaining**: ~4,775
+**Entries Completed**: 111
+**Entries Remaining**: ~4,746
 
 ---
 
@@ -23,9 +23,9 @@ TASK: Continue semantically assigning example sentences to their corresponding
 sense definitions in je-dict-1 dictionary entries.
 
 CURRENT PROGRESS:
-- Last completed kana row: a/ (IN PROGRESS - 82/651 entries done)
-- Last completed entry ID: aoi_00048
-- Next entry to process: entries/a/ap/ (continue with ap/* entries)
+- Last completed kana row: a/ (IN PROGRESS - 111/651 entries done)
+- Last completed entry ID: aruku_00016
+- Next entry to process: entries/a/as/ (continue with as/* entries)
 
 WHAT TO DO:
 1. Read the "Progress by Kana Row" section below to see what's done
@@ -65,7 +65,7 @@ After each batch, run: python3 /home/user/je-dict-1/build/validate.py
 
 | Row | Directory | Status | Entries Done | Notes |
 |-----|-----------|--------|--------------|-------|
-| あ | entries/a/ | IN PROGRESS | 82/651 | Next: ap/* entries |
+| あ | entries/a/ | IN PROGRESS | 111/651 | Next: as/* entries |
 | か | entries/ka/ | NOT STARTED | 0/? | |
 | さ | entries/sa/ | NOT STARTED | 0/? | |
 | た | entries/ta/ | NOT STARTED | 0/? | |
@@ -86,6 +86,15 @@ After each batch, run: python3 /home/user/je-dict-1/build/validate.py
 - All entries processed successfully, no ambiguous cases
 - Notable multi-sense assignments: aida (3 senses), aite (3 senses), akarui (2 senses),
   annai (3 senses), ao/aoi (blue vs green), aogu (fan vs incite)
+
+### Session 2 (2026-01-15) - Continuation
+- Continued from entry 83 (apaato)
+- Completed entries 83-111 (apaato through aruku)
+- Processed ap/, ar/ subdirectories
+- Notable multi-sense: appu (4 senses), arata (2 senses), araware (2 senses),
+  aru (3 senses - exist/have/be located), arubamu (2 senses - photo/music album),
+  aruiha (2 senses - or/perhaps), arerugi (2 senses - medical/figurative),
+  areru (4 senses), arukimawaru (2 senses)
 
 ---
 
@@ -184,18 +193,47 @@ antei_00478
 ao_01971
 aogu_00001
 aoi_00048
+apaato_00097
+appu_04861
+appu_00001
+ara_00591
+arai_00003
+arai_00002
+arashi_00474
+arasou_00563
+arasuji_04097
+arata_00475
+arau_00095
+arawareru_00565
+araware_00514
+arawasu_00890
+arawasu_01162
+arawasu_00564
+arayuru_03425
+are_00096
+arerugi_04940
+areru_04906
+ari_04720
+arigatou_00096
+aru_00001
+arubamu_03432
+aruiha_03426
+arubaito_00368
+arukooru_00513
+arukimawaru_04920
+aruku_00016
 ```
 
 ---
 
 ## Next Entry to Process
 
-**Directory**: entries/a/ap/
-**Entry**: Continue with ap/* entries, then ar/, as/, at/, aw/, ay/, az/*
+**Directory**: entries/a/as/
+**Entry**: Continue with as/* entries, then at/, aw/, ay/, az/*
 
 **Full list command**:
 ```bash
 find /home/user/je-dict-1/entries/a -name "*.json" | sort
 ```
 
-Directories completed: a/, aa/, ab/, ac/, ae/, af/, ag/, ai/, aj/, ak/, al/, am/, an/, ao/
+Directories completed: a/, aa/, ab/, ac/, ae/, af/, ag/, ai/, aj/, ak/, al/, am/, an/, ao/, ap/, ar/
