@@ -429,6 +429,9 @@ open docs/index.html
 - Examples progress from simple to complex
 - Include at least one collocation or fixed phrase
 - Katakana loanwords use hiragana in reading field
+- **sense_numbers required**: All examples must have `sense_numbers` field populated
+  - Single-sense entries: use `[1]` for all examples
+  - Multi-sense entries: each example must specify which sense(s) it illustrates
 
 ### Quality Standards
 See the `entry-guidelines` skill for comprehensive guidelines. Key points:

@@ -111,6 +111,26 @@ SIMILAR WORDS:
 - {嫌|きら}い - na-adjective
 - Note these exceptions explicitly in entries
 
+## Sense Numbers in Examples
+
+For adjectives with multiple senses, each example must include a `sense_numbers` field:
+
+```json
+"examples": [
+  {
+    "id": "adj_00001_ex1",
+    "japanese": "...",
+    "english": "...",
+    "sense_numbers": [1]
+  }
+]
+```
+
+**Guidelines for adjective entries:**
+- Examples demonstrating predicate vs. modifier usage typically share the same sense
+- Different nuances of meaning (e.g., physical vs. emotional) may require separate senses
+- Figurative or extended meanings should have their own sense numbers
+
 ## Quality Checklist for Adjectives
 
 - [ ] Part of speech correctly identified (i-adj vs. na-adj)
@@ -120,3 +140,4 @@ SIMILAR WORDS:
 - [ ] Examples show both predicate and modifier uses
 - [ ] Register noted if not neutral
 - [ ] Special cases (きれい, 嫌い type) flagged if applicable
+- [ ] All examples have valid sense_numbers

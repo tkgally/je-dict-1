@@ -84,6 +84,43 @@ This prevents duplicate entries and wasted effort on entries that must later be 
 3. **Include at least one fixed phrase** - High-frequency collocations aid memory
 4. **Annotate non-obvious grammar** - Use [Note: ...] for grammatical explanations
 5. **Longer sentences for more difficult vocabulary** - Words of level N2 or N1 should have at least one full-sentence example. Such examples may have a complex structure (with relative clauses, etc.) or consist of two sentences.
+6. **Always include sense_numbers** - Every example must specify which definition sense(s) it illustrates
+
+### Sense Numbers Requirement
+
+Every example sentence **must** have a `sense_numbers` field that links it to the definition(s) it illustrates:
+
+```json
+"examples": [
+  {
+    "id": "word_00001_ex1",
+    "japanese": "...",
+    "english": "...",
+    "sense_numbers": [1]
+  }
+]
+```
+
+**Rules:**
+- **Single-sense entries**: Use `[1]` for all examples
+- **Multi-sense entries**: Each example must specify which sense(s) it demonstrates
+- **Examples illustrating multiple senses**: Use `[1, 2]` format
+- **Must reference valid senses**: Numbers must match `sense_number` values in definitions
+
+**Example for multi-sense entry:**
+```json
+"definitions": [
+  { "sense_number": 1, "gloss": "to stuff" },
+  { "sense_number": 2, "gloss": "to cram (study)" }
+],
+"examples": [
+  { "id": "..._ex1", "sense_numbers": [1], ... },  // illustrates sense 1
+  { "id": "..._ex2", "sense_numbers": [2], ... },  // illustrates sense 2
+  { "id": "..._ex3", "sense_numbers": [1, 2], ... } // illustrates both
+]
+```
+
+The validation script checks that all examples in multi-sense entries have valid sense_numbers.
 
 ## Furigana Requirements
 
@@ -100,7 +137,7 @@ Every entry must include:
 - `part_of_speech`: Consistent terminology
 - `gloss`: Brief English equivalent
 - `definitions`: Array with sense_number, gloss, explanation
-- `examples`: 2-3 minimum, with Japanese, English, and optional notes
+- `examples`: 2-3 minimum, with id, Japanese, English, sense_numbers, and optional notes
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
 - `metadata`: Including jlpt_level, created, modified timestamps
 
@@ -151,3 +188,4 @@ Before finalizing any entry, verify:
 - [ ] Notes cover common learner mistakes
 - [ ] Notes are properly formatted (see `vocabulary-notes` skill)
 - [ ] Depth matches similar entries in the dictionary
+- [ ] All examples have valid sense_numbers

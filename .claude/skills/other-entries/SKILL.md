@@ -199,6 +199,41 @@ ingredients themselves. It is said with hands together.
 
 ---
 
+## Sense Numbers in Examples
+
+All examples must include a `sense_numbers` field linking them to the definition(s) they illustrate:
+
+```json
+"examples": [
+  {
+    "id": "word_00001_ex1",
+    "japanese": "...",
+    "english": "...",
+    "sense_numbers": [1]
+  }
+]
+```
+
+**Guidelines by entry type:**
+
+**Nouns:**
+- Concrete vs. abstract meanings may require separate senses
+- Different domains of use (technical, everyday) may warrant separate senses
+
+**Counters:**
+- Usually single-sense; use `[1]` for all examples
+- Different counting contexts typically share the same sense
+
+**Adverbs:**
+- Degree vs. frequency meanings need separate senses
+- Emphatic uses may be a separate sense from neutral uses
+
+**Expressions:**
+- Fixed expressions typically have one sense
+- Variations in formality level may be noted within the same sense
+
+---
+
 ## Quality Checklists
 
 ### For Nouns
@@ -206,6 +241,7 @@ ingredients themselves. It is said with hands together.
 - [ ] Scope clarified if different from English
 - [ ] Counter mentioned if non-obvious
 - [ ] Examples show natural usage
+- [ ] All examples have valid sense_numbers
 
 ### For Counters
 - [ ] Full 1-10 counting pattern provided
@@ -213,15 +249,18 @@ ingredients themselves. It is said with hands together.
 - [ ] Sound change rules explained
 - [ ] What it counts clearly stated
 - [ ] What it does NOT count mentioned
+- [ ] All examples have valid sense_numbers
 
 ### For Adverbs
 - [ ] Typical sentence position noted
 - [ ] What it modifies specified
 - [ ] Register labeled
 - [ ] Distinguished from similar adverbs
+- [ ] All examples have valid sense_numbers
 
 ### For Expressions
 - [ ] Situational context explained
 - [ ] Register specified
 - [ ] Response pairs included (if applicable)
 - [ ] Cultural significance noted (if applicable)
+- [ ] All examples have valid sense_numbers

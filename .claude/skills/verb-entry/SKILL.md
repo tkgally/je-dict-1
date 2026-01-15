@@ -99,6 +99,27 @@ COMMON PATTERNS:
 [Any register notes, negative usage, or keigo references]
 ```
 
+## Sense Numbers in Examples
+
+For verbs with multiple senses (e.g., different meanings or usages), each example must include a `sense_numbers` field:
+
+```json
+"examples": [
+  {
+    "id": "verb_00001_ex1",
+    "japanese": "...",
+    "english": "...",
+    "sense_numbers": [1]
+  }
+]
+```
+
+**Guidelines for verb entries:**
+- Each example should clearly demonstrate the sense it's tagged with
+- Transitivity-related examples typically share the same sense
+- Figurative vs. literal uses often require different sense numbers
+- Idiomatic expressions may warrant their own sense
+
 ## Quality Checklist for Verbs
 
 - [ ] Transitivity clearly marked (自動詞/他動詞)
@@ -108,3 +129,4 @@ COMMON PATTERNS:
 - [ ] At least 2 collocations listed
 - [ ] Examples show the verb in natural contexts
 - [ ] Irregular conjugations noted (行く→行って, etc.)
+- [ ] All examples have valid sense_numbers

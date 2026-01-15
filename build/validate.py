@@ -178,6 +178,62 @@ def validate_structured_cross_reference(ref: dict, entry_reading: str, entry_hea
     return errors
 
 
+def check_sense_numbers(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, str]]:
+    """
+    Check that examples have valid sense_numbers.
+
+    For entries with multiple definitions:
+    - All examples must have non-empty sense_numbers arrays
+    - Each sense_number must reference a valid definition sense_number
+
+    Returns a list of (file_path, error_message) for issues found.
+    """
+    errors = []
+
+    for file_path, entry in entries_data:
+        definitions = entry.get('definitions', [])
+        examples = entry.get('examples', [])
+
+        # Skip entries with no definitions or no examples
+        if not definitions or not examples:
+            continue
+
+        # Get the set of valid sense numbers from definitions
+        valid_sense_numbers = {d.get('sense_number') for d in definitions if d.get('sense_number')}
+
+        # Determine if this is a multi-sense entry
+        is_multi_sense = len(definitions) > 1
+
+        for example in examples:
+            example_id = example.get('id', 'unknown')
+            sense_numbers = example.get('sense_numbers', [])
+
+            # Check for empty sense_numbers in multi-sense entries
+            if is_multi_sense and not sense_numbers:
+                errors.append((
+                    file_path,
+                    f"Example '{example_id}' has empty sense_numbers (required for multi-sense entries)"
+                ))
+                continue
+
+            # Even for single-sense entries, if sense_numbers is provided but empty, warn
+            if sense_numbers is not None and len(sense_numbers) == 0 and not is_multi_sense:
+                # This is acceptable for single-sense entries, skip validation
+                continue
+
+            # Validate that each sense_number references a valid definition
+            if sense_numbers:
+                for sn in sense_numbers:
+                    if sn not in valid_sense_numbers:
+                        errors.append((
+                            file_path,
+                            f"Example '{example_id}' references invalid sense_number {sn} "
+                            f"(valid sense numbers: {sorted(valid_sense_numbers)})"
+                        ))
+
+    return errors
+
+
 def check_timestamps(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, str]]:
     """
     Check entry timestamps for issues.
@@ -332,18 +388,19 @@ def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, 
     return errors
 
 
-def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]], list[tuple[Path, str]], list[tuple[Path, str]], list[tuple[Path, str]]]:
+def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]], list[tuple[Path, str]], list[tuple[Path, str]], list[tuple[Path, str]], list[tuple[Path, str]]]:
     """
     Validate all entry files in the project.
 
     Returns:
-        (total_count, valid_count, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings)
+        (total_count, valid_count, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, sense_number_errors)
         - total_count: Total number of entry files found
         - valid_count: Number of valid entries
         - invalid_files: List of (file_path, error_list) for invalid files
         - cross_ref_errors: List of (file_path, error_message) for cross-reference issues
         - semantic_warnings: List of (file_path, warning_message) for semantic issues (homonym mismatches)
         - timestamp_warnings: List of (file_path, warning_message) for timestamp issues
+        - sense_number_errors: List of (file_path, error_message) for sense_numbers issues
     """
     schema_path = project_root / 'build' / 'schema.json'
     schema = load_schema(schema_path)
@@ -391,7 +448,10 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
     # Check timestamps for issues (future timestamps, hardcoded times)
     timestamp_warnings = check_timestamps(entries_data)
 
-    return total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings
+    # Check sense_numbers validity in examples
+    sense_number_errors = check_sense_numbers(entries_data)
+
+    return total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, sense_number_errors
 
 
 def validate_single_entry(entry_path: Path, project_root: Path) -> int:
@@ -484,7 +544,7 @@ def main():
     print(f"Validating entries in {project_root}")
     print("-" * 50)
 
-    total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings = validate_all_entries(project_root)
+    total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, sense_number_errors = validate_all_entries(project_root)
 
     if total == 0:
         print("No entry files found.")
@@ -527,6 +587,15 @@ def main():
             print(f"    - {warning_msg}")
         print()
 
+    # Report sense_numbers errors
+    if sense_number_errors:
+        print(f"\nSense number errors ({len(sense_number_errors)} issues):\n")
+        for file_path, error_msg in sense_number_errors:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {error_msg}")
+        print()
+
     print(f"Validation complete: {valid}/{total} entries valid")
     warnings = []
     if cross_ref_errors:
@@ -535,6 +604,8 @@ def main():
         warnings.append(f"{len(semantic_warnings)} homonym mismatch warnings")
     if timestamp_warnings:
         warnings.append(f"{len(timestamp_warnings)} timestamp warnings")
+    if sense_number_errors:
+        warnings.append(f"{len(sense_number_errors)} sense_numbers errors")
     if warnings:
         print(f"  ({', '.join(warnings)})")
 
