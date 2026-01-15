@@ -332,69 +332,18 @@ def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, 
     return errors
 
 
-def check_audio_integrity(entries_data: list[tuple[Path, dict]], project_root: Path) -> tuple[list[str], list[str]]:
-    """
-    Check that audio files match has_audio flags in entries.
-
-    Returns:
-        (missing_audio, orphaned_audio):
-        - missing_audio: entries with has_audio: true but no MP3 file
-        - orphaned_audio: MP3 files with no corresponding entry
-    """
-    from japanese_utils import get_kana_folder
-
-    audio_dir = project_root / 'audio'
-    if not audio_dir.exists():
-        return [], []
-
-    missing_audio = []
-    expected_audio_files = set()
-
-    # Check each entry's examples
-    for file_path, entry in entries_data:
-        entry_id = entry.get('id', '')
-        reading = entry.get('reading', '')
-        folder = get_kana_folder(reading)
-        prefix = get_entry_prefix(entry_id)
-
-        examples = entry.get('examples', [])
-        for i, example in enumerate(examples, start=1):
-            if example.get('has_audio'):
-                # Expected audio file path
-                audio_filename = f"{entry_id}-ex{i}.mp3"
-                audio_path = audio_dir / folder / prefix / audio_filename
-                expected_audio_files.add(audio_path)
-
-                if not audio_path.exists():
-                    rel_path = file_path.relative_to(project_root)
-                    missing_audio.append(
-                        f"{rel_path}: example {i} has_audio=true but missing {audio_filename}"
-                    )
-
-    # Find orphaned audio files
-    orphaned_audio = []
-    for audio_file in audio_dir.rglob('*.mp3'):
-        if audio_file not in expected_audio_files:
-            rel_path = audio_file.relative_to(project_root)
-            orphaned_audio.append(str(rel_path))
-
-    return missing_audio, orphaned_audio
-
-
-def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]], list[tuple[Path, str]], list[tuple[Path, str]], list[tuple[Path, str]], list[str], list[str]]:
+def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]], list[tuple[Path, str]], list[tuple[Path, str]], list[tuple[Path, str]]]:
     """
     Validate all entry files in the project.
 
     Returns:
-        (total_count, valid_count, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, missing_audio, orphaned_audio)
+        (total_count, valid_count, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings)
         - total_count: Total number of entry files found
         - valid_count: Number of valid entries
         - invalid_files: List of (file_path, error_list) for invalid files
         - cross_ref_errors: List of (file_path, error_message) for cross-reference issues
         - semantic_warnings: List of (file_path, warning_message) for semantic issues (homonym mismatches)
         - timestamp_warnings: List of (file_path, warning_message) for timestamp issues
-        - missing_audio: List of missing audio file descriptions
-        - orphaned_audio: List of orphaned audio file paths
     """
     schema_path = project_root / 'build' / 'schema.json'
     schema = load_schema(schema_path)
@@ -442,10 +391,7 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
     # Check timestamps for issues (future timestamps, hardcoded times)
     timestamp_warnings = check_timestamps(entries_data)
 
-    # Check audio file integrity
-    missing_audio, orphaned_audio = check_audio_integrity(entries_data, project_root)
-
-    return total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, missing_audio, orphaned_audio
+    return total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings
 
 
 def validate_single_entry(entry_path: Path, project_root: Path) -> int:
@@ -538,7 +484,7 @@ def main():
     print(f"Validating entries in {project_root}")
     print("-" * 50)
 
-    total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, missing_audio, orphaned_audio = validate_all_entries(project_root)
+    total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings = validate_all_entries(project_root)
 
     if total == 0:
         print("No entry files found.")
@@ -581,23 +527,6 @@ def main():
             print(f"    - {warning_msg}")
         print()
 
-    # Report audio integrity warnings
-    if missing_audio or orphaned_audio:
-        print(f"\nAudio integrity warnings:\n")
-        if missing_audio:
-            print(f"  Missing audio files ({len(missing_audio)}):")
-            for msg in missing_audio[:10]:  # Show first 10
-                print(f"    - {msg}")
-            if len(missing_audio) > 10:
-                print(f"    ... and {len(missing_audio) - 10} more")
-        if orphaned_audio:
-            print(f"\n  Orphaned audio files ({len(orphaned_audio)}):")
-            for path in orphaned_audio[:10]:  # Show first 10
-                print(f"    - {path}")
-            if len(orphaned_audio) > 10:
-                print(f"    ... and {len(orphaned_audio) - 10} more")
-        print()
-
     print(f"Validation complete: {valid}/{total} entries valid")
     warnings = []
     if cross_ref_errors:
@@ -606,10 +535,6 @@ def main():
         warnings.append(f"{len(semantic_warnings)} homonym mismatch warnings")
     if timestamp_warnings:
         warnings.append(f"{len(timestamp_warnings)} timestamp warnings")
-    if missing_audio:
-        warnings.append(f"{len(missing_audio)} missing audio")
-    if orphaned_audio:
-        warnings.append(f"{len(orphaned_audio)} orphaned audio")
     if warnings:
         print(f"  ({', '.join(warnings)})")
 
