@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-14
+**Last updated**: 2026-01-15
 **Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,857
+- **Total entries**: 4,907
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~450 entries added
-- **JLPT N3 vocabulary**: ~2,300 entries added
-- **Candidate words**: ~1,680 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~2,350 entries added
+- **Candidate words**: ~1,631 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,25 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-15 (Vocabulary Expansion - 50 New Entries, Session 54)
+Added 50 new dictionary entries from candidate_words.json, focusing on education, employment, business, technology, and sports vocabulary:
+
+- Education (10): {大学院|だいがくいん} (graduate school), {専門学校|せんもんがっこう} (vocational school), {塾|じゅく} (cram school), {予備校|よびこう} (prep school), {幼稚園|ようちえん} (kindergarten), {保育園|ほいくえん} (nursery school), {入試|にゅうし} (entrance exam), {不合格|ふごうかく} (failure), {留年|りゅうねん} (repeating a year), {学費|がくひ} (tuition)
+- Employment (10): {昇給|しょうきゅう} (salary increase), {降格|こうかく} (demotion), リストラ (restructuring), {求人|きゅうじん} (job offer), {履歴書|りれきしょ} (resume), {月給|げっきゅう} (monthly salary), {時給|じきゅう} (hourly wage), {手当|てあて} (allowance), {賞与|しょうよ} (bonus), {年金|ねんきん} (pension)
+- Business/Finance (10): {経費|けいひ} (expenses), {領収書|りょうしゅうしょ} (receipt), {請求書|せいきゅうしょ} (invoice), {見積|みつも}り (estimate), {取引|とりひき} (transaction), {企画|きかく} (planning), {戦略|せんりゃく} (strategy), {方針|ほうしん} (policy), {赤字|あかじ} (deficit), {黒字|くろじ} (surplus)
+- IT/Technology (10): ソフトウェア (software), ハードウェア (hardware), ネットワーク (network), インターネット (internet), ダウンロード (download), アップロード (upload), インストール (install), {更新|こうしん} (update), {設定|せってい} (settings), {入力|にゅうりょく} (input)
+- Sports (10): {野球|やきゅう} (baseball), サッカー (soccer), ゴルフ (golf), マラソン (marathon), {勝敗|しょうはい} (victory/defeat), {引|ひ}き{分|わ}け (draw), {得点|とくてん} (score), {決勝|けっしょう} (finals), {準決勝|じゅんけっしょう} (semifinal), {予選|よせん} (preliminary)
+
+Notable entry features:
+- Education vocabulary covers the full Japanese education system from preschool to graduate school
+- Employment entries include Japan-specific concepts like {賞与|しょうよ} bonus culture and {年金|ねんきん} pension system
+- Business vocabulary useful for professional contexts and news comprehension
+- IT terminology covers essential digital literacy vocabulary
+- Sports entries include tournament stages and competition vocabulary
+
+Total entries: 4,857 → 4,907
+Remaining candidates: 1,680 → 1,631
 
 ### 2026-01-14 (Candidate Words Expansion - 201 New Candidates)
 Added 201 new candidates to `candidate_words.json` using systematic semantic gap analysis across multiple domains:

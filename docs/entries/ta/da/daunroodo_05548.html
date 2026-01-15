@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ダウンロード - download. Japanese-English dictionary entry with definitions and examples.">
+    <title>ダウンロード (だうんろーど) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ダウンロード</h1>
+            <div class="entry-reading">だうんろーど</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">download</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">download</span>
+                    <div class="definition-explanation">See notes for detailed explanation.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">アプリをダウンロードした。</div>
+                    <div class="example-english">I downloaded the app.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ダウンロードに<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>がかかる。</div>
+                    <div class="example-english">The download takes time.</div>
+                    
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>無料<rp>(</rp><rt>むりょう</rt><rp>)</rp></ruby>でダウンロードできる。</div>
+                    <div class="example-english">It can be downloaded for free.</div>
+                    
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ダウンロード means transferring data from a server or network to a local device.</p><p>COMMON COLLOCATIONS:</p><ul><li>ダウンロードする (to download)</li><li>ダウンロードできる (can download)</li><li><ruby>無料<rp>(</rp><rt>むりょう</rt><rp>)</rp></ruby>ダウンロード (free download)</li><li>ダウンロード<ruby>中<rp>(</rp><rt>ちゅう</rt><rp>)</rp></ruby> (downloading)</li><li>ダウンロード<ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby> (download speed)</li><li>ダウンロード<ruby>済<rp>(</rp><rt>ず</rt><rp>)</rp></ruby>み (downloaded/completed)</li></ul><p>WHAT CAN BE DOWNLOADED:</p><ul><li>アプリ (apps)</li><li><ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby> (music)</li><li><ruby>動画<rp>(</rp><rt>どうが</rt><rp>)</rp></ruby> (videos)</li><li>ファイル (files)</li><li>ソフト (software)</li></ul><p>ABBREVIATION:</p><ul><li>DL (ディーエル)</li></ul><p>ANTONYM:</p><ul><li>アップロード (upload)</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Antonym:</span>
+                        <a href="../../../entries/a/ap/appuroodo_05549.html" class="cross-ref-link">
+                            アップロード (upload)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N4</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.15 9:05</div>
+                <div class="metadata-file">ta/da/daunroodo_05548</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
