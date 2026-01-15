@@ -197,9 +197,11 @@ Each entry is a JSON file with the following structure:
   ],
   "examples": [
     {
+      "id": "taberu_00001_ex1",
       "japanese": "{朝|あさ}ごはんを{食|た}べましたか。",
       "english": "Did you eat breakfast?",
-      "notes": null
+      "notes": null,
+      "sense_numbers": [1]
     }
   ],
   "notes": "Usage notes, grammar notes, etc.",
@@ -221,6 +223,17 @@ Each entry is a JSON file with the following structure:
   }
 }
 ```
+
+### Sense Numbers in Examples
+
+The `sense_numbers` field on example sentences links each example to one or more definition senses:
+
+- **Required for multi-sense entries**: Every example must specify which sense(s) it illustrates
+- **Format**: Array of integers matching `sense_number` values in definitions (e.g., `[1]`, `[2]`, or `[1, 2]`)
+- **Single-sense entries**: Use `[1]` for all examples
+- **Multi-sense examples**: An example can illustrate multiple senses with `[1, 2]`
+
+This enables future features like filtering examples by sense and helps learners understand which meaning each example demonstrates.
 
 ### File Naming Convention
 
