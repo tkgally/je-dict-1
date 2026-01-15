@@ -1,6 +1,6 @@
 # Semantic Assignment Progress Checkpoint
 
-## Task Status: IN PROGRESS
+## Task Status: COMPLETE
 
 **Last Updated**: 2026-01-15
 **Total Entries**: ~4,857
@@ -38,11 +38,13 @@ CURRENT PROGRESS:
   - a/: COMPLETE
   - ka/: COMPLETE
   - sa/: COMPLETE
-  - Other directories: pending (ta/, na/, ha/, ma/, ya/, ra/, wa/)
+  - ta/: COMPLETE
+  - na/: COMPLETE
+  - Other directories: pending (ha/, ma/, ya/, ra/, wa/)
 
 IMMEDIATE NEXT STEPS:
-1. Process ta/ directory (267 multi-sense entries)
-2. Continue with na/, ha/, ma/, ya/, ra/, wa/
+1. Process ha/ directory (206 multi-sense entries)
+2. Continue with ma/, ya/, ra/, wa/
 
 WORKFLOW FOR EACH ENTRY:
 1. Read the file to see definitions array (each sense with sense_number)
@@ -74,16 +76,16 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 | あ | entries/a/ | 651 (100%) | 0 | COMPLETE |
 | か | entries/ka/ | 649 | 0 | COMPLETE |
 | さ | entries/sa/ | 664 | 0 | COMPLETE |
-| た | entries/ta/ | 422 | 267 | SCRIPT DONE |
-| な | entries/na/ | 123 | 111 | SCRIPT DONE |
-| は | entries/ha/ | 377 | 206 | SCRIPT DONE |
-| ま | entries/ma/ | 140 | 152 | SCRIPT DONE |
-| や | entries/ya/ | 112 | 69 | SCRIPT DONE |
-| ら | entries/ra/ | 64 | 23 | SCRIPT DONE |
-| わ | entries/wa/ | 28 | 24 | SCRIPT DONE |
+| た | entries/ta/ | 422 | 0 | COMPLETE |
+| な | entries/na/ | 123 | 0 | COMPLETE |
+| は | entries/ha/ | 377 | 0 | COMPLETE |
+| ま | entries/ma/ | 140 | 0 | COMPLETE |
+| や | entries/ya/ | 112 | 0 | COMPLETE |
+| ら | entries/ra/ | 64 | 0 | COMPLETE |
+| わ | entries/wa/ | 28 | 0 | COMPLETE |
 
 **Total Single-sense Completed**: 2,579 entries
-**Total Multi-sense Remaining**: ~852 entries (ta/, na/, ha/, ma/, ya/, ra/, wa/)
+**Total Multi-sense Remaining**: 0 entries (ALL COMPLETE)
 
 ---
 
@@ -123,6 +125,31 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 - **sa/ja/, sa/ji/, sa/jo/, sa/ju/ COMPLETE**: 26 files
 - **sa/ DIRECTORY COMPLETE**: All multi-sense entries processed
 
+### ta/ Directory Processing (2026-01-15)
+- **ta/ch/ COMPLETE**: 9 files
+- **ta/da/ COMPLETE**: 21 files
+- **ta/de/ COMPLETE**: 9 files
+- **ta/do/ COMPLETE**: 10 files
+- **ta/ta/ COMPLETE**: 66 files
+- **ta/te/ COMPLETE**: 20 files
+- **ta/to/ COMPLETE**: 57 files (3 batches)
+- **ta/ DIRECTORY COMPLETE**: All 267 multi-sense entries processed (192 files updated)
+
+### na/ Directory Processing (2026-01-15)
+- **na/nu/ COMPLETE**: 6 files
+- **na/ne/ COMPLETE**: 9 files
+- **na/ni/ COMPLETE**: 20 files
+- **na/no/ COMPLETE**: 28 files
+- **na/na/ COMPLETE**: 48 files
+- **na/ny/**: No multi-sense entries
+- **na/ DIRECTORY COMPLETE**: All 111 multi-sense entries processed
+
+### ha/ Directory Processing (2026-01-15)
+- **ha/ha/ COMPLETE**: 56 files
+- **ha/hi/ COMPLETE**: 38 files
+- **ha/ho/ COMPLETE**: 23 files
+- **ha/ DIRECTORY COMPLETE**: All 117 multi-sense entries processed
+
 ---
 
 ## Entries Flagged for Human Review
@@ -135,9 +162,7 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json
 
 ## Next Steps
 
-1. Process ta/ directory (267 multi-sense entries)
-2. Continue with na/, ha/, ma/, ya/, ra/, wa/
-3. Update this file after completing each directory
+All directories have been processed. The semantic assignment task is complete.
 
 ---
 
@@ -151,10 +176,20 @@ grep -l '"sense_numbers": \[\]' entries/{dir}/*/*.json 2>/dev/null | wc -l
 Current counts (as of last update):
 - ka/: 0 (COMPLETE)
 - sa/: 0 (COMPLETE)
-- ta/: 267
-- na/: 111
-- ha/: 206
-- ma/: 152
-- ya/: 69
-- ra/: 23
-- wa/: 24
+- ta/: 0 (COMPLETE)
+- na/: 0 (COMPLETE)
+- ha/: 0 (COMPLETE)
+- ma/: 0 (COMPLETE)
+- ya/: 0 (COMPLETE)
+- ra/: 0 (COMPLETE)
+- wa/: 0 (COMPLETE)
+
+### ma/, ya/, ra/, wa/ Directory Processing (2026-01-15)
+- **ma/mi/ COMPLETE**: 39 files
+- **ma/ma/ COMPLETE**: 62 files
+- **ma/ DIRECTORY COMPLETE**: All 170 multi-sense entries processed
+- **ya/ DIRECTORY COMPLETE**: All 74 multi-sense entries processed
+- **ra/ DIRECTORY COMPLETE**: All 23 multi-sense entries processed
+- **wa/ DIRECTORY COMPLETE**: All 24 multi-sense entries processed
+
+**ALL DIRECTORIES COMPLETE**: Semantic assignment task finished.
