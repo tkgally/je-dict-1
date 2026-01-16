@@ -236,6 +236,10 @@ All examples must include a `sense_numbers` field linking them to the definition
 
 ## Quality Checklists
 
+**For ALL entry types below:**
+- [ ] **All kanji have furigana** (headword, examples, AND notes)
+- [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
+
 ### For Nouns
 - [ ] Common verb collocations listed
 - [ ] Scope clarified if different from English

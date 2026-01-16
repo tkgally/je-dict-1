@@ -155,13 +155,26 @@ In the JSON `notes` field, use `\n` for line breaks and `\n\n` for paragraph bre
 "notes": "First paragraph here.\n\nSecond paragraph here.\n\nBullet list:\n- Item one\n- Item two"
 ```
 
-### Furigana
+### Furigana (CRITICAL)
 
-All kanji in notes MUST have furigana using the `{漢字|かな}` notation:
+**All kanji in notes MUST have furigana** using the `{漢字|かな}` notation.
+
+This is a common source of errors. Every kanji - in idioms, collocations, cultural notes, alternative kanji forms, etc. - must be annotated:
 
 ```
 ✓ {案内|あんない}する means to guide.
 ✗ 案内する means to guide.
+
+✓ IDIOM: {暖簾|のれん}に{腕押|うでお}し
+✗ IDIOM: 暖簾に腕押し
+
+✓ KANJI: Sometimes written as {家鴨|あひる}
+✗ KANJI: Sometimes written as 家鴨
+```
+
+**Verify with:**
+```bash
+python3 build/verify_furigana.py <entry_id>
 ```
 
 ### Punctuation
@@ -177,7 +190,8 @@ Before finalizing notes:
 
 - [ ] Multiple topics are separated by blank lines
 - [ ] Lists of 2+ items use bullet points
-- [ ] All kanji have furigana
+- [ ] **All kanji have furigana** - including idioms, collocations, kanji variants
+- [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
 - [ ] Section headers are clear and consistent
 - [ ] Information is ordered by usefulness to learners
 - [ ] No run-on paragraphs mixing unrelated information

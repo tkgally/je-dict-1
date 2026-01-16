@@ -122,6 +122,8 @@ For verbs with multiple senses (e.g., different meanings or usages), each exampl
 
 ## Quality Checklist for Verbs
 
+- [ ] **All kanji have furigana** (headword, examples, AND notes)
+- [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
 - [ ] Transitivity clearly marked (自動詞/他動詞)
 - [ ] Pair verb identified (if exists)
 - [ ] Aspect/ている behavior explained
