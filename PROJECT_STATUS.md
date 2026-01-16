@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,008
+- **Total entries**: 6,058
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~968 words tracked in `candidate_words.json`
+- **Candidate words**: ~918 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 69)
+Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Onomatopoeia (10): にたにた (smirking), がつがつ (greedily), ぽりぽり (crunching), むしむし (muggy), じとじと (damp/sticky), どたばた (clumsily), ごそごそ (rustling), のそのそ (lumbering), しゃきしゃき (crisp), ころころ (rolling)
+- Four-character idioms (5): {起承転結|きしょうてんけつ} (narrative structure), {弱肉強食|じゃくにくきょうしょく} (survival of the fittest), {喜怒哀楽|きどあいらく} (human emotions), {因果応報|いんがおうほう} (karma), {前代未聞|ぜんだいみもん} (unprecedented)
+- Emotional/psychological terms (5): {執着|しゅうちゃく} (attachment), {罪悪感|ざいあくかん} (guilt), {達成感|たっせいかん} (sense of achievement), {充実感|じゅうじつかん} (sense of fulfillment), {劣等感|れっとうかん} (inferiority complex)
+- Cultural/religious (5): お{守|まも}り (amulet), {鳥居|とりい} (torii gate), {絵馬|えま} (votive tablet), {賽銭|さいせん} (offering money), おみくじ (fortune slip)
+- Body/medical terms (5): {膵臓|すいぞう} (pancreas), {脾臓|ひぞう} (spleen), {肋骨|ろっこつ} (rib), {骨盤|こつばん} (pelvis), {軟骨|なんこつ} (cartilage)
+- Legal terms (5): {棄却|ききゃく} (dismissal), {控訴|こうそ} (appeal to high court), {上訴|じょうそ} (appeal), {革命|かくめい} (revolution), {独裁|どくさい} (dictatorship)
+- Business/finance terms (5): {配当|はいとう} (dividend), {財務|ざいむ} (finances), {監査|かんさ} (audit), {決算|けっさん} (settlement), {担保|たんぽ} (collateral)
+- Medical procedure terms (5): {通院|つういん} (outpatient visit), {処方|しょほう} (prescription), {感染|かんせん} (infection), {炎症|えんしょう} (inflammation), {健康診断|けんこうしんだん} (health checkup)
+- Travel/aviation terms (3): {滑走路|かっそうろ} (runway), {離陸|りりく} (takeoff), {着陸|ちゃくりく} (landing)
+- Modern/slang terms (2): マウント (one-upmanship), もやもや (feeling uneasy)
+
+Notable entry features:
+- Comprehensive onomatopoeia covering textures, sounds, movements, and atmospheric conditions
+- Four-character idioms with detailed cultural/historical explanations
+- Psychological vocabulary for expressing complex emotional states
+- Shinto/temple cultural vocabulary essential for understanding Japanese religious practices
+- Medical and anatomical terms for healthcare contexts
+- Legal system vocabulary with explanations of Japanese court hierarchy
+- Cross-references added linking related terms (離陸↔着陸, 控訴↔上訴)
+
+Total entries: 6,008 → 6,058
+Remaining candidates: 968 → 918
 
 ### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 68)
 Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -329,37 +355,6 @@ Added 200 new candidates to `candidate_words.json` using balanced coverage strat
 - **Domain-Specific Vocabulary** (~19 candidates): Emotions (悔い, 情け, 悩み), cooking (火加減, 手際, コツ, 隠し味, 香ばしい, 瑞々しい), nature (小川), housing (ロフト, バルコニー), personality/character traits (物覚え, 思いやり, 気配り, 心掛け, 志, やり甲斐, 生き甲斐, 甲斐甲斐しい, 億劫, 鈍感, 敏感, 不器用, 頑固, 図太い, 生真面目, 無口, 口下手, せっかち, そそっかしい)
 
 Total candidates: 1,151 → 1,351
-
-### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 60)
-Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Verbs (15): {映|ば}える (to look good), {手放|てばな}す (to let go), {垂|た}らす (to drip), {怒鳴|どな}る (to shout), {呟|つぶや}く (to mutter), {膨|ふく}らむ (to swell), {萎|しぼ}む (to wilt), {焦|こ}げる (to burn), {喚|わめ}く (to scream), {咎|とが}める (to blame), {寝|ね}ぼける (to be drowsy), {抓|つね}る (to pinch), しゃぶる (to suck), {欠伸|あくび}する (to yawn), くしゃみする (to sneeze)
-- Onomatopoeia (25): くるくる (spinning), ばたばた (flapping), きゅっと (tightly), ぎゅっと (squeezing), ぱっと (suddenly), さっと (quickly), はっと (startled), ぎらぎら (glaring), てかてか (shiny), もこもこ (fluffy), ぼこぼこ (bumpy), すらすら (smoothly), ぶつぶつ (grumbling), ぴんぴん (lively), びしょびしょ (soaked), ふらふら (unsteady), よろよろ (tottering), おろおろ (flustered), いそいそ (eagerly), おどおど (timidly), ちくちく (prickly), しくしく (sobbing), ひやひや (anxious), めらめら (blazing), ぺたぺた (sticking)
-- School terms (5): {部活|ぶかつ} (club activities), {生徒会|せいとかい} (student council), {職員室|しょくいんしつ} (staff room), {保健室|ほけんしつ} (nurse's office), {図書室|としょしつ} (library room)
-- Health (5): {下痢|げり} (diarrhea), {便秘|べんぴ} (constipation), インフルエンザ (influenza), {包帯|ほうたい} (bandage), {絆創膏|ばんそうこう} (adhesive bandage)
-- Nature (6): {紅葉|もみじ} (maple/autumn leaves), {葉|は}っぱ (leaf), {磯|いそ} (rocky shore), {珊瑚|さんご} (coral), {崖|がけ} (cliff), あられ (hail)
-- Technology (8): ユーザー (user), フォルダ (folder), タップ (tap), サブスク (subscription), テレワーク (telework), ワイファイ (WiFi), {生配信|なまはいしん} (live streaming), エコ (eco)
-- Media controls (3): {一時停止|いちじていし} (pause), {早送|はやおく}り (fast forward), {巻|ま}き{戻|もど}し (rewind)
-- Emotions (4): {悲|かな}しみ (sadness), {恐|おそ}れ (fear), {嫉妬|しっと} (jealousy), {葛藤|かっとう} (conflict)
-- Arts/crafts (4): {折|お}り{紙|がみ} (origami), {生|い}け{花|ばな} (ikebana), {舞踊|ぶよう} (dance), {刺繍|ししゅう} (embroidery)
-- Political terms (4): {民主主義|みんしゅしゅぎ} (democracy), {資本主義|しほんしゅぎ} (capitalism), {社会主義|しゃかいしゅぎ} (socialism), {人権|じんけん} (human rights)
-- Finance (6): {口座|こうざ} (bank account), {預金|よきん} (deposit), {振込|ふりこみ} (transfer), {残高|ざんだか} (balance), {手数料|てすうりょう} (handling fee), {値引|ねび}き (discount)
-- Games (2): パズル (puzzle), オセロ (Othello)
-- Live performance (1): ライブ (live concert)
-- Misc (3): {真夜中|まよなか} (midnight), {染|し}み (stain), {麦|むぎ} (wheat/barley)
-- Animal sounds (2): わんわん (bow-wow), にゃんにゃん (meow)
-- Expressions (3): まあまあ (so-so), みたいな (like), じゃん (isn't it)
-- Clothing (4): Tシャツ (T-shirt), ジャンパー (jacket), キャップ (cap), スニーカー (sneakers)
-
-Notable entry features:
-- Comprehensive onomatopoeia covering movement, texture, emotions, and states
-- Japanese school-specific vocabulary (部活, 生徒会, etc.)
-- Cross-references added linking antonyms (下痢↔便秘, 早送り↔巻き戻し)
-- Political vocabulary useful for news and academic contexts
-- Finance terms essential for daily life in Japan
-
-Total entries: 5,407 → 5,507
-Remaining candidates: 1,354 → 1,247
 
 ---
 
