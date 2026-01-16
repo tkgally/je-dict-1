@@ -6,6 +6,7 @@ This script scans all JSON entries and identifies cases where kanji characters
 appear outside of the {kanji|furigana} notation pattern.
 """
 
+import argparse
 import json
 import os
 import re
@@ -111,6 +112,17 @@ def scan_entries(entries_dir: Path) -> list[dict]:
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description='Find dictionary entries with kanji lacking furigana in notes field'
+    )
+    parser.add_argument(
+        '-o', '--output',
+        type=Path,
+        default=None,
+        help='Output file path (default: stdout). Using this flag prevents stderr contamination.'
+    )
+    args = parser.parse_args()
+
     # Get the project root directory
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
@@ -133,8 +145,16 @@ def main():
         'entries': results
     }
 
-    # Output to stdout (can be redirected to file)
-    print(json.dumps(output, ensure_ascii=False, indent=2))
+    json_output = json.dumps(output, ensure_ascii=False, indent=2)
+
+    if args.output:
+        # Write directly to file (prevents stderr contamination)
+        with open(args.output, 'w', encoding='utf-8') as f:
+            f.write(json_output)
+        print(f"Output written to {args.output}", file=sys.stderr)
+    else:
+        # Output to stdout (can be redirected to file)
+        print(json_output)
 
 
 if __name__ == '__main__':
