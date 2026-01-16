@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="クリック - click (computer). Japanese-English dictionary entry with definitions and examples.">
+    <title>クリック (くりっく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">クリック</h1>
+            <div class="entry-reading">くりっく</div>
+            <div class="entry-pos">noun, suru verb</div>
+            <div class="entry-gloss">click (computer)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">click</span>
+                    <div class="definition-explanation">The action of pressing a mouse button to select or activate something on a computer.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ここをクリックしてください。</div>
+                    <div class="example-english">Please click here.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">リンクをクリックすると<ruby>新<rp>(</rp><rt>あたら</rt><rp>)</rp></ruby>しいページが<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">Clicking the link opens a new page.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ダブルクリックでファイルを<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">Double-click to open the file.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>クリック is a loanword from English &quot;click&quot; used in computer contexts.</p><p>COMMON PATTERNS:</p><ul><li>クリックする: to click</li><li>ダブルクリック: double-click</li><li><ruby>右<rp>(</rp><rt>みぎ</rt><rp>)</rp></ruby>クリック: right-click</li><li><ruby>左<rp>(</rp><rt>ひだり</rt><rp>)</rp></ruby>クリック: left-click</li></ul><p>RELATED TERMS:</p><ul><li>タップ: tap (touchscreen)</li><li>タッチ: touch</li><li><ruby>選択<rp>(</rp><rt>せんたく</rt><rp>)</rp></ruby>する: to select</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref pending">
+                        <span class="cross-ref-type">Related:</span>
+                        <span class="cross-ref-pending">タップ (tap (touchscreen))</span>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N4</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 14:20</div>
+                <div class="metadata-file">ka/ku/kurikku_05430</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
