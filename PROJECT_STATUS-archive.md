@@ -7,6 +7,25 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 48)
+Added 50 new dictionary entries from candidate_words.json, focusing on animals, plants/trees, and medical/health terms:
+
+- Insects (5): {蝶|ちょう} (butterfly), {蟻|あり} (ant), {蚊|か} (mosquito), {蝸牛|かたつむり} (snail), {蛙|かえる} (frog)
+- Reptiles/Sea creatures (8): {蜥蜴|とかげ} (lizard), {鰐|わに} (crocodile), {鯨|くじら} (whale), {海豚|いるか} (dolphin), {鮫|さめ} (shark), {烏賊|いか} (squid), {蛸|たこ} (octopus), {蟹|かに} (crab)
+- Birds (4): {鷲|わし} (eagle), {梟|ふくろう} (owl), {鶴|つる} (crane), {燕|つばめ} (swallow)
+- Mammals (8): {狼|おおかみ} (wolf), {狐|きつね} (fox), {狸|たぬき} (raccoon dog), {熊|くま} (bear), {鹿|しか} (deer), {猪|いのしし} (wild boar), {栗鼠|りす} (squirrel), {蝙蝠|こうもり} (bat)
+- Plants/Trees (15): {幹|みき} (trunk), {蕾|つぼみ} (bud), {花弁|かべん} (petal), {花粉|かふん} (pollen), {楓|かえで} (maple), {銀杏|いちょう} (ginkgo), {桃|もも} (peach), {柿|かき} (persimmon), {栗|くり} (chestnut), {薔薇|ばら} (rose), {百合|ゆり} (lily), {藤|ふじ} (wisteria), {椿|つばき} (camellia), {檜|ひのき} (Japanese cypress), {笹|ささ} (bamboo grass)
+- Medical/Health (10): {花粉症|かふんしょう} (hay fever), {糖尿病|とうにょうびょう} (diabetes), {高血圧|こうけつあつ} (high blood pressure), {心臓病|しんぞうびょう} (heart disease), {認知症|にんちしょう} (dementia), {嗅覚|きゅうかく} (sense of smell), {味覚|みかく} (sense of taste), {触覚|しょっかく} (sense of touch), くしゃみ (sneeze), {鼻水|はなみず} (runny nose)
+
+Notable entry features:
+- Animal entries include counters, cultural notes, and figurative expressions (e.g., {狐|きつね}と{狸|たぬき}の{化|ば}かし{合|あ}い)
+- Plant entries feature seasonal significance and traditional uses (e.g., {笹|ささ} for Tanabata)
+- Medical terms cover common conditions relevant to aging society (diabetes, dementia, hypertension)
+- All entries include common collocations, proverbs where relevant, and cross-references
+
+Total entries: 4,669 → 4,719
+Remaining candidates: 2,000 → 1,950
+
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 47)
 Added 50 new dictionary entries from candidate_words.json, focusing on health/medical vocabulary, nature/geography terms, and astronomy:
 
