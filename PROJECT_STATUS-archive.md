@@ -7,6 +7,31 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 57)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Occupations (15): {看護師|かんごし} (nurse), {警察官|けいさつかん} (police officer), {消防士|しょうぼうし} (firefighter), {銀行員|ぎんこういん} (bank employee), エンジニア (engineer), プログラマー (programmer), デザイナー (designer), シェフ (chef), コック (cook), ウェイター (waiter), ウェイトレス (waitress), ガイド (guide), {役者|やくしゃ} (actor), アイドル (idol), モデル (model)
+- Natural disasters (4): {津波|つなみ} (tsunami), {洪水|こうずい} (flood), {雪崩|なだれ} (avalanche), {干|ひ}ばつ (drought)
+- Colors (2): {金色|きんいろ} (gold), {銀色|ぎんいろ} (silver)
+- Household items (6): {扇風機|せんぷうき} (electric fan), {炬燵|こたつ} (kotatsu), アイロン (iron), ベランダ (balcony), ガレージ (garage), ドライヤー (hair dryer)
+- Health/Medical (2): ワクチン (vaccine), マスク (mask)
+- Vehicles (5): {救急車|きゅうきゅうしゃ} (ambulance), {消防車|しょうぼうしゃ} (fire engine), パトカー (police car), バイク (motorcycle), ヘリコプター (helicopter)
+- Business terms (10): {競合|きょうごう} (competition), {卸売|おろしうり} (wholesale), {小売|こうり} (retail), {発注|はっちゅう} (ordering), {受注|じゅちゅう} (receiving orders), {納品|のうひん} (delivery), {出荷|しゅっか} (shipping), {関税|かんぜい} (tariff), {物流|ぶつりゅう} (logistics), {流通|りゅうつう} (distribution)
+- Abstract concepts (18): {願望|がんぼう} (desire), {欲望|よくぼう} (craving), {情熱|じょうねつ} (passion), {熱意|ねつい} (enthusiasm), やる{気|き} (motivation), {認識|にんしき} (recognition), {了解|りょうかい} (acknowledgment), {同意|どうい} (consent), {合意|ごうい} (agreement), {連携|れんけい} (cooperation), {規模|きぼ} (scale), {運営|うんえい} (management), {正義|せいぎ} (justice), {倫理|りんり} (ethics), {発言|はつげん} (statement), {討論|とうろん} (debate), {辛抱|しんぼう} (patience), {世代|せだい} (generation)
+- Technology (6): アカウント (account), ブログ (blog), モニター (monitor), {充電器|じゅうでんき} (charger), {録音|ろくおん} (recording), アップデート (update)
+- Math/Science (11): {百科事典|ひゃっかじてん} (encyclopedia), {代数|だいすう} (algebra), {幾何|きか} (geometry), {微分|びぶん} (differentiation), {積分|せきぶん} (integration), {定数|ていすう} (constant), {演算|えんざん} (operation), ハードウェア (hardware), ウェブサイト (website), {見積|みつも}もり (estimate), {株価|かぶか} (stock price)
+- Education (4): {不合格|ふごうかく} (failure), {休学|きゅうがく} (leave of absence), {留年|りゅうねん} (repeating a year), {参考書|さんこうしょ} (reference book), {法則|ほうそく} (law/rule)
+- Other vocabulary (17): カラオケ (karaoke), {舅|しゅうと} (father-in-law), {姑|しゅうとめ} (mother-in-law), ジーパン (jeans), {化粧品|けしょうひん} (cosmetics), {日焼|ひや}け{止|ど}め (sunscreen), {山葵|わさび} (wasabi), {皺|しわ} (wrinkle), {黒子|ほくろ} (mole), {齧|かじ}る (to gnaw), {啜|すす}る (to sip), むせる (to choke), {浮|う}き{浮|う}き (cheerful), しゃっくり (hiccup), クワガタ (stag beetle), ゴキブリ (cockroach)
+
+Notable entry features:
+- Business vocabulary covers supply chain and commerce terminology
+- Math/Science entries include calculus and computer science vocabulary
+- Abstract concept entries useful for academic and philosophical discussions
+- Cross-references added linking related terms (発注↔受注, 物流↔流通)
+
+Total entries: 5,107 → 5,207
+Remaining candidates: 1,652 → 1,548
+
 ### 2026-01-16 (Candidate Words Expansion - 200 New Candidates)
 Added 200 new candidates to `candidate_words.json` using the balanced coverage strategy:
 
