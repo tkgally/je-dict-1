@@ -7,6 +7,26 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-15 (Vocabulary Expansion - 50 New Entries, Session 54)
+Added 50 new dictionary entries from candidate_words.json, focusing on verbs, kitchen appliances, household items, accessories, work/business vocabulary, education, and technology:
+
+- Verbs (4): {砕|くだ}ける (to break into pieces), {挟|はさ}まる (to be caught between), {照|て}らす (to illuminate), {落|お}ち{着|つ}く (to calm down)
+- Kitchen Appliances (6): バター (butter), {乾燥機|かんそうき} (dryer), {食器洗|しょっきあら}い{機|き} (dishwasher), オーブン (oven), トースター (toaster), ミキサー (blender)
+- Household Items (3): コンロ (stove), {換気扇|かんきせん} (ventilation fan), シンク (sink)
+- Clothing/Accessories (8): {衣類|いるい} (clothing), ベスト (vest), ストッキング (stockings), タイツ (tights), イヤリング (clip-on earrings), ピアス (pierced earrings), {日傘|ひがさ} (parasol)
+- Work/Business (14): {昇給|しょうきゅう} (salary increase), {降格|こうかく} (demotion), リストラ (restructuring), {求人|きゅうじん} (job offer), {履歴書|りれきしょ} (resume), {月給|げっきゅう} (monthly salary), {時給|じきゅう} (hourly wage), {賞与|しょうよ} (bonus), {年金|ねんきん} (pension), {経費|けいひ} (expenses), {領収書|りょうしゅうしょ} (receipt), {請求書|せいきゅうしょ} (invoice), {見積|みつも}り (estimate), {取引|とりひき} (transaction), {在庫|ざいこ} (inventory)
+- Education (5): {塾|じゅく} (cram school), {幼稚園|ようちえん} (kindergarten), {保育園|ほいくえん} (nursery school), {入試|にゅうし} (entrance exam), {学費|がくひ} (tuition)
+- Science/Technology (10): {辞書|じしょ} (dictionary), {理論|りろん} (theory), {概念|がいねん} (concept), {投資|とうし} (investment), {赤字|あかじ} (deficit), {黒字|くろじ} (surplus), アルゴリズム (algorithm), ソフトウェア (software), データベース (database), インターネット (internet)
+
+Notable entry features:
+- Verb entries include transitivity pairs and aspect notes
+- Business vocabulary covers employment cycle, financial documents, and inventory management
+- Education entries explain Japanese education system distinctions (幼稚園 vs 保育園, 塾 vs 予備校)
+- Technology entries include modern IT terminology with Japanese usage notes
+
+Total entries: 4,857 → 4,907
+Remaining candidates: 1,680 → 1,631
+
 ### 2026-01-14 (Candidate Words Expansion - 201 New Candidates)
 Added 201 new candidates to `candidate_words.json` using systematic semantic gap analysis across multiple domains:
 
