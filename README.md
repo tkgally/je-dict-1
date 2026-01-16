@@ -26,11 +26,12 @@ Dictionary features include:
 
 ## Current Status
 
-- **5,507 entries** with a total target of about 10,000 entries. The dictionary uses an original three-tier vocabulary classification system (basic, core, general) rather than JLPT levels.
+- **5,907 entries** with a total target of about 10,000 entries. The dictionary uses an original three-tier vocabulary classification system (basic, core, general) rather than JLPT levels.
 - **1,028 audio files** with pronunciation for example sentences, produced with OpenAI's text-to-speech models
 - **567 cross-references** linking related entries with 97% resolution rate
 - **Claude Code skills** for consistent entry creation and revision
-- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions (~2,070 candidates)
+- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions (~967 candidates)
+- **Robust build system** with atomic builds, XSS protection, and comprehensive validation
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
@@ -157,11 +158,12 @@ je-dict-1/
 ├── build/                # Build and management scripts
 │   ├── schema.json       # JSON schema for entries
 │   ├── validate.py       # Entry validation (schema, cross-refs, audio integrity)
-│   ├── build_flat.py     # Static HTML site generator
+│   ├── build_flat.py     # Static HTML site generator (atomic builds)
 │   ├── resolve_links.py  # Cross-reference resolution
 │   ├── merge_audio.py    # Merges audio files into entries
 │   ├── path_utils.py     # Shared path/prefix utilities
-│   ├── japanese_utils.py # Hiragana/romaji conversion, kana mappings
+│   ├── japanese_utils.py # Hiragana/romaji/furigana utilities
+│   ├── cross_ref_types.py # Centralized cross-reference type definitions
 │   ├── update_entries_index.py   # Updates entries_index.json
 │   ├── manage_candidates.py      # Manages candidate_words.json
 │   ├── update_indexes.py         # Updates both index files

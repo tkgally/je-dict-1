@@ -134,7 +134,7 @@ Well-known informal or colloquial terms that:
 
 ## Search Strategies
 
-The dictionary now has ~6,000 entries plus candidates. Basic vocabulary is largely covered. Prioritize strategies that find remaining gaps.
+The dictionary now has ~5,900 entries plus ~970 candidates. Basic vocabulary is largely covered. Prioritize strategies that find remaining gaps.
 
 ### HIGH PRIORITY Strategies (Use These First)
 
@@ -275,7 +275,7 @@ Methodically cover loanwords by domain, as these are often underrepresented.
 2. Identify high-frequency words not yet in the dictionary
 3. Add as candidates
 
-**Note:** At ~6,000 entries, most JLPT N5-N2 vocabulary should be covered. Focus on finding remaining gaps rather than systematic sweeps.
+**Note:** At nearly 6,000 entries, most JLPT N5-N2 vocabulary should be covered. Focus on finding remaining gaps rather than systematic sweeps.
 
 #### Strategy L: Basic Vocabulary Audit
 *Diminishing returns at current dictionary size.*
