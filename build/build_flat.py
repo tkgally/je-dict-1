@@ -797,9 +797,10 @@ def generate_pending_page(candidates: list) -> str:
     )
 
     for candidate in sorted_candidates:
-        word = html.escape(candidate.get('word', ''))
-        reading = html.escape(candidate.get('reading', ''))
-        notes = html.escape(candidate.get('notes', ''))
+        # Use 'or' to handle both missing keys and explicit None values
+        word = html.escape(candidate.get('word') or '')
+        reading = html.escape(candidate.get('reading') or '')
+        notes = html.escape(candidate.get('notes') or '')
 
         html_parts.append(f'''
             <div class="pending-item">
@@ -843,12 +844,14 @@ def generate_search_index(entries: list) -> str:
         prefix = get_entry_prefix(entry_id)
 
         # Store minimal entry data for display
+        # Note: headword is HTML-escaped by process_furigana(); gloss and reading
+        # are escaped here to prevent XSS when rendered via innerHTML in search.js
         entries_data[entry_id] = {
             'id': entry_id,
             'headword': process_furigana(headword),
-            'reading': reading,
+            'reading': html.escape(reading),
             'romaji': hiragana_to_romaji(reading),
-            'gloss': gloss,
+            'gloss': html.escape(gloss),
             'folder': folder,
             'prefix': prefix
         }
