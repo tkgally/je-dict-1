@@ -12,28 +12,63 @@ Use this skill when asked to find new words to add to `candidate_words.json` for
 
 ## Workflow Overview
 
-1. Determine the search strategy based on user request (semantic expansion, frequency-based, etc.)
-2. Check each word against eligibility criteria
+1. Determine the search strategy based on user request and dictionary maturity
+2. Check each word against eligibility criteria (MANDATORY duplicate checks)
 3. Add qualifying words to `candidate_words.json` using the manage_candidates script
 4. Report what was added
 
-## Eligibility Criteria (ALL must be met)
+## Duplicate Prevention (CRITICAL)
 
-Before adding any word, verify:
+**Duplicates waste significant time.** Every word MUST be verified before adding.
+
+### Mandatory Check Procedure
+
+For EVERY candidate word, run these checks:
+
+```bash
+# 1. Check dictionary entries by reading
+grep -i '"reading": "たべる"' entries_index.json
+
+# 2. Check dictionary entries by headword
+grep -i '"headword": "食べる"' entries_index.json
+
+# 3. Check existing candidates by reading
+grep -i '"reading": "たべる"' candidate_words.json
+
+# 4. Check existing candidates by word
+grep -i '"word": "食べる"' candidate_words.json
+```
+
+**If ANY of these return results for the same word sense, DO NOT add the word.**
+
+### Near-Duplicate Patterns to Watch
+
+- **Verb forms**: する verbs may exist as standalone nouns (勉強 vs 勉強する)
+- **Kanji variants**: 見る/観る, 聞く/聴く - check if one already covers the meaning
+- **Okurigana variations**: 行なう/行う, 現われる/現れる
+- **Prefix/suffix forms**: Check if 大～ or ～的 forms exist as part of other entries
+- **Reading variations**: Long vowels (おう vs おお), particles in readings
+
+### Efficient Batch Checking
+
+When checking multiple candidates:
+```bash
+# Batch check readings
+for r in "たべる" "のむ" "かく"; do
+  echo "=== $r ==="
+  grep -i "\"reading\": \"$r\"" entries_index.json candidate_words.json
+done
+```
+
+## Eligibility Criteria (ALL must be met)
 
 ### 1-1. Not Already in the Dictionary
 
-Check that the word is NOT already in `entries_index.json`:
-```bash
-grep -i '"reading": "たべる"' entries_index.json
-```
+Check that the word is NOT already in `entries_index.json` (by reading AND headword).
 
 ### 1-2. Not Already a Candidate
 
-Check that the word is NOT already in `candidate_words.json`:
-```bash
-grep -i '"reading": "たべる"' candidate_words.json
-```
+Check that the word is NOT already in `candidate_words.json` (by reading AND word).
 
 ### 1-3. Not a Proper Noun
 
@@ -58,8 +93,6 @@ The word should have a usage frequency or centrality to contemporary Japanese si
 - Consider whether an intermediate learner would encounter this word regularly
 - Compare to existing entries at similar frequency levels
 
-**Examples:** Core vocabulary missing from the dictionary, words from standard frequency lists (BCCWJ, newspapers, etc.)
-
 ### 2-2. Semantic Relation to Existing Entries
 
 The word is a common **synonym**, **antonym**, or **related word** to an entry already in the dictionary.
@@ -68,92 +101,6 @@ The word is a common **synonym**, **antonym**, or **related word** to an entry a
 - **Synonyms:** 美しい ↔ きれい, 言う ↔ 話す
 - **Antonyms:** 大きい ↔ 小さい, 始まる ↔ 終わる
 - **Semantic groups:** Words belonging to the same category as existing entries
-
-**Common semantic groups to check:**
-- Body parts (頭, 手, 足, 目, 耳, 口, 鼻, 首, 肩, 腕, 指, 背中, 腹, 胸, 腰, 膝, etc.)
-- Days of the week (月曜, 火曜, etc.)
-- Months (一月, 二月, etc.)
-- Seasons (春, 夏, 秋, 冬)
-- Common foods (米, 肉, 魚, 野菜, 果物, パン, 麺, etc.)
-- Common animals (犬, 猫, 鳥, 魚, 虫, etc.)
-- Celestial bodies (太陽, 月, 星, 地球, etc.)
-- Colors (赤, 青, 黄, 緑, 白, 黒, etc.)
-- Family terms (父, 母, 兄, 姉, 弟, 妹, 祖父, 祖母, etc.)
-- Counters (〜個, 〜本, 〜枚, 〜匹, 〜冊, etc.)
-- Time expressions (朝, 昼, 夜, 今日, 明日, 昨日, etc.)
-- Weather terms (晴れ, 雨, 雪, 風, 曇り, etc.)
-- Directions (上, 下, 右, 左, 前, 後ろ, 中, 外, etc.)
-- Onomatopoeia/Mimesis (ぴかぴか, ふわふわ, どきどき, わくわく, etc.)
-- Common verbs by category (motion, communication, perception, etc.)
-
-**Additional categories for systematic coverage:**
-
-1. **Compound verbs (V+V)** - Verbs formed by combining two verbs
-   - Examples: 追い出す, 切り離す, 取り出す, 持ち上げる, 引き受ける, 打ち合わせる
-   - Common first elements: 追い〜, 切り〜, 取り〜, 持ち〜, 引き〜, 打ち〜, 飛び〜, 押し〜
-
-2. **Reduplication words (畳語)** - Words formed by repeating elements (beyond onomatopoeia)
-   - Examples: 人々, 国々, 山々, 木々, 我々, 日々, 時々, 様々, 各々, 次々
-
-3. **Four-character idioms (四字熟語)** - Common yojijukugo for learners
-   - Examples: 一石二鳥, 以心伝心, 一期一会, 自業自得, 十人十色, 一生懸命
-
-4. **Proverbs (諺)** - Frequently referenced sayings
-   - Examples: 猿も木から落ちる, 七転び八起き, 塵も積もれば山となる, 石の上にも三年
-
-5. **Abbreviated words (略語)** - Modern contractions and shortenings
-   - Examples: 就活, 婚活, 終活, リモワ, ワーホリ, コスパ, タイパ, 推し活
-
-6. **Cooking verbs and techniques** - Kitchen and food preparation vocabulary
-   - Examples: 炒める, 茹でる, 蒸す, 煮込む, 和える, 漬ける, 焼く, 揚げる, 炊く
-
-7. **Medical/anatomical terms** - Beyond basic body parts
-   - Examples: 臓器, 神経, 血管, 細胞, 骨髄, 関節, 筋肉, 内臓, 免疫
-
-8. **Legal/administrative terms** - Forms, procedures, and official vocabulary
-   - Examples: 届出, 申請, 認可, 免除, 届け出, 登録, 手続き, 証明
-
-9. **Traditional Japanese items** - Cultural objects and architectural features
-   - Examples: 畳, 障子, 床の間, 縁側, 風呂敷, 扇子, 提灯, 暖簾
-
-10. **Japanese cuisine terms** - Food categories and cooking concepts
-    - Examples: 出汁, 煮物, 焼き物, 揚げ物, 漬物, 薬味, 惣菜, 珍味
-
-11. **～的 na-adjectives** - Productive Sino-Japanese adjectival pattern
-    - Examples: 積極的, 消極的, 具体的, 抽象的, 一般的, 基本的, 個人的, 社会的
-
-12. **Paired antonym compounds** - Two-kanji compounds expressing opposites
-    - Examples: 上下, 左右, 前後, 内外, 表裏, 出入り, 売買, 往復, 開閉
-
-13. **Emotional/psychological nouns** - Nominalized feelings and mental states
-    - Examples: 焦り, 苛立ち, 戸惑い, 安堵, 憂鬱, 苦悩, 葛藤, 動揺
-
-14. **Set grammatical expressions** - Phrases that function as vocabulary items
-    - Examples: ～というわけで, ～に関して, ～において, ～に対して, ～について
-
-15. **Loanwords by domain** - Systematic coverage of borrowed vocabulary by field
-    - Sports: ドリブル, シュート, パス, オフサイド
-    - Fashion: コーデ, トレンド, ヴィンテージ
-    - Music: リフ, ビート, サビ, アレンジ
-
-16. **Ritual/ceremonial terms** - Life events, customs, and traditions
-    - Examples: 初詣, 七五三, 還暦, 厄年, 法事, 盆踊り, 初節句
-
-17. **Honorific vocabulary pairs** - Keigo expressions beyond basic verbs
-    - Examples: お召し上がり/頂く, ご覧/拝見, お越し/参る, ご存知/存じる
-
-18. **Sound-symbolic words by source** - Onomatopoeia organized by what produces the sound
-    - Water: ざぶざぶ, じゃぶじゃぶ, ぽたぽた
-    - Fire: めらめら, ぼうぼう, ちろちろ
-    - Machines: がたがた, ぶんぶん, カチカチ
-
-19. **Sino-Japanese number compounds** - Number + noun patterns
-    - Examples: 一流, 二重, 三角, 四季, 五感, 六法, 七夕, 八方, 九九
-
-20. **Sentence-final expressions** - Pragmatic and modal markers
-    - Examples: ～かしら, ～ものか, ～ではないか, ～じゃないか, ～ことか, ～ものだ
-
-**Approach:** When reviewing an existing entry, identify gaps in related vocabulary.
 
 ### 2-3. Post-2000 Widespread Terms
 
@@ -183,6 +130,194 @@ Well-known informal or colloquial terms that:
 
 **Exclude:** Highly ephemeral slang, vulgar terms, discriminatory language
 
+---
+
+## Search Strategies
+
+The dictionary now has ~6,000 entries plus candidates. Basic vocabulary is largely covered. Prioritize strategies that find remaining gaps.
+
+### HIGH PRIORITY Strategies (Use These First)
+
+#### Strategy A: Corpus-Driven Gap Analysis
+Use corpus frequency data to find common words still missing.
+
+**Method:**
+1. Consider the top 10,000 words in corpora like BCCWJ (Balanced Corpus of Contemporary Written Japanese)
+2. Compare against entries_index.json
+3. Words in the top 10,000 by frequency that aren't in the dictionary are high-priority candidates
+
+**Why effective:** Guarantees discovered words are genuinely common.
+
+#### Strategy B: Collocational Mining
+Find words that commonly appear with existing entries but aren't in the dictionary.
+
+**Method:**
+1. Take existing entries, especially verbs and adjectives
+2. Consider their most common collocates (words they frequently appear with)
+3. Check if those collocates are in the dictionary
+
+**Examples:**
+- If 約束 exists, check: 守る, 破る, 果たす (promise-related verbs)
+- If 責任 exists, check: 取る, 負う, 問う, 逃れる (responsibility-related verbs)
+- If 注意 exists, check: 払う, 向ける, 引く (attention-related verbs)
+
+**Why effective:** Finds words learners need to use existing vocabulary naturally.
+
+#### Strategy C: Productive Pattern Completion
+Systematically complete morphological patterns already partially in the dictionary.
+
+**Patterns to check:**
+1. **Compound verbs** - For each V1 element (追い-, 取り-, 引き-, 切り-, etc.), list all common V1+V2 combinations
+2. **～的 adjectives** - Check which common ～的 words are missing
+3. **Paired compounds** - Check 上下, 左右, 前後 pattern for gaps
+4. **Nominalized verbs** - 動詞 → ～み, ～さ, ～り forms (悲しみ, 高さ, 眠り)
+
+**Why effective:** These patterns are productive and predictable; gaps are easy to identify systematically.
+
+#### Strategy D: Register/Formality Pairs
+For existing entries, find their register variants (formal ↔ informal, written ↔ spoken).
+
+**Method:**
+1. Take informal words in the dictionary, find their formal equivalents
+2. Take formal/written words, find their colloquial equivalents
+3. Check keigo (honorific) variants of common verbs
+
+**Examples:**
+- If いる exists, check: おる, いらっしゃる, おいでになる
+- If 食べる exists, check: 召し上がる, 頂く, 食う
+- If でも exists, check: しかし, しかしながら, けれども, だけど
+
+**Why effective:** Learners need multiple registers; dictionaries often have gaps here.
+
+#### Strategy E: Domain-Specific Systematic Sweeps
+Pick a semantic domain and exhaustively check for gaps.
+
+**Underexplored domains to investigate:**
+1. **Cooking/food preparation**: 下ごしらえ, 味付け, 盛り付け, 火加減, etc.
+2. **Health/medical**: 症状, 診察, 処方, 副作用, 通院, etc.
+3. **Housing/real estate**: 間取り, 敷金, 礼金, 更新, 退去, etc.
+4. **Employment/work**: 採用, 昇進, 異動, 退職, 有給, etc.
+5. **Finance/money**: 振込, 引き落とし, 残高, 利息, 手数料, etc.
+6. **Transportation**: 乗り換え, 運賃, 定期, 遅延, 運休, etc.
+7. **Education**: 入学, 卒業, 進学, 留年, 履修, etc.
+8. **Legal/administrative**: 届出, 申請, 届け, 届ける, 認可, etc.
+
+**Why effective:** Practical vocabulary in these domains is essential for living in Japan but often missing from learner dictionaries.
+
+#### Strategy F: Written vs Spoken Japanese Gap Analysis
+Find words common in one medium but potentially missing from the dictionary.
+
+**Written Japanese gaps:**
+- Newspaper/news vocabulary: 懸念, 是正, 遺憾, 謝罪, 声明
+- Academic/essay words: 考察, 検討, 概要, 結論, 要旨
+- Literary expressions: ～ざるを得ない, ～にほかならない, ～といえども
+
+**Spoken Japanese gaps:**
+- Conversational fillers: えーと, あのー, なんか, ほら, ねえ
+- Sentence-final particles beyond basics: さ, ぜ, わ, かな, もん
+- Contracted forms: ～ちゃう, ～とく, ～てる, ～なきゃ
+
+**Why effective:** Dictionaries often skew toward one medium; this ensures balanced coverage.
+
+#### Strategy G: Loanword Systematic Coverage
+Methodically cover loanwords by domain, as these are often underrepresented.
+
+**Domains with heavy loanword use:**
+1. **IT/Computing**: アプリ, ブラウザ, サーバー, クラウド, ストレージ
+2. **Business**: プレゼン, ミーティング, アジェンダ, フィードバック
+3. **Sports**: specific to each sport beyond basics
+4. **Fashion**: コーデ, トレンド, アイテム, ブランド
+5. **Music**: ライブ, フェス, サビ, アレンジ, カバー
+6. **Food service**: テイクアウト, デリバリー, ドリンクバー
+
+**Method:** Pick a domain, list common loanwords used in that context, check dictionary.
+
+**Why effective:** Loanwords are essential for modern Japanese but often treated inconsistently.
+
+### MEDIUM PRIORITY Strategies
+
+#### Strategy H: Semantic Gap Analysis
+*Still useful but many obvious gaps are filled.*
+
+1. Pick a semantic domain (e.g., body parts)
+2. List words that should be in that domain
+3. Check which are missing from entries_index.json
+4. Add missing words as candidates
+
+**Common semantic groups:**
+- Body parts, days/months, seasons, foods, animals, colors, family terms, counters, time expressions, weather, directions, onomatopoeia
+
+#### Strategy I: Entry Cross-Reference Expansion
+*Useful for incremental expansion.*
+
+1. Read recent dictionary entries
+2. For each entry, identify synonyms, antonyms, and related words mentioned in notes
+3. Check if those related words are in the dictionary
+4. Add missing ones as candidates
+
+#### Strategy J: Four-Character Idioms and Proverbs
+*Many common ones may already be covered; check systematically.*
+
+**Yojijukugo categories:**
+- Describing personality: 誠心誠意, 温厚篤実, 軽挙妄動
+- Describing situations: 一触即発, 暗中模索, 危機一髪
+- Describing actions: 試行錯誤, 取捨選択, 創意工夫
+
+**Proverbs:** Focus on those frequently referenced in modern contexts.
+
+### LOWER PRIORITY Strategies
+*Basic coverage is largely complete; use these only for spot-checking.*
+
+#### Strategy K: Frequency List Comparison
+*Most high-frequency words are now covered.*
+
+1. Reference standard frequency data (JLPT lists, BCCWJ rankings)
+2. Identify high-frequency words not yet in the dictionary
+3. Add as candidates
+
+**Note:** At ~6,000 entries, most JLPT N5-N2 vocabulary should be covered. Focus on finding remaining gaps rather than systematic sweeps.
+
+#### Strategy L: Basic Vocabulary Audit
+*Diminishing returns at current dictionary size.*
+
+Spot-check for overlooked basics:
+- Basic verbs, adjectives, nouns
+- Essential particles and conjunctions
+- Core adverbs
+
+---
+
+## Extended Category Reference
+
+### Compound verbs (V+V)
+Common first elements: 追い～, 切り～, 取り～, 持ち～, 引き～, 打ち～, 飛び～, 押し～, 差し～, 突き～, 振り～, 掛け～, 落ち～, 受け～
+
+### Reduplication words (畳語)
+人々, 国々, 山々, 木々, 我々, 日々, 時々, 様々, 各々, 次々, 徐々, 段々, 益々, 偶々
+
+### ～的 na-adjectives
+積極的, 消極的, 具体的, 抽象的, 一般的, 基本的, 個人的, 社会的, 精神的, 物理的, 心理的, 論理的, 感情的, 効果的, 現実的, 理想的
+
+### Paired antonym compounds
+上下, 左右, 前後, 内外, 表裏, 出入り, 売買, 往復, 開閉, 増減, 加減, 遠近, 高低, 大小, 長短, 強弱, 明暗, 善悪, 正誤, 生死
+
+### Emotional/psychological nouns
+焦り, 苛立ち, 戸惑い, 安堵, 憂鬱, 苦悩, 葛藤, 動揺, 羨望, 嫉妬, 後悔, 悔しさ, 寂しさ, 切なさ, 懐かしさ
+
+### Set grammatical expressions
+～というわけで, ～に関して, ～において, ～に対して, ～について, ～によって, ～として, ～にとって, ～をもって, ～に際して
+
+### Sino-Japanese number compounds
+一流, 二重, 三角, 四季, 五感, 六法, 七夕, 八方, 九九, 十分, 百科, 千差万別, 万全
+
+### Onomatopoeia by source
+- Water: ざぶざぶ, じゃぶじゃぶ, ぽたぽた, しとしと, ざあざあ
+- Fire: めらめら, ぼうぼう, ちろちろ
+- Machines: がたがた, ぶんぶん, カチカチ
+- Movement: すたすた, のろのろ, ばたばた, ふらふら
+
+---
+
 ## Adding Candidates
 
 After identifying qualifying words, add them using:
@@ -201,32 +336,6 @@ python3 build/manage_candidates.py add "漢字表記" "ひらがな読み" "brie
 python3 build/manage_candidates.py add "推し" "おし" "one's favorite (idol/character); to support"
 ```
 
-## Search Strategies
-
-When asked to find candidates, consider these approaches:
-
-### Strategy 1: Semantic Gap Analysis
-1. Pick a semantic domain (e.g., body parts)
-2. List words that should be in that domain
-3. Check which are missing from entries_index.json
-4. Add missing words as candidates
-
-### Strategy 2: Entry Cross-Reference Expansion
-1. Read recent dictionary entries
-2. For each entry, identify synonyms, antonyms, and related words mentioned in notes
-3. Check if those related words are in the dictionary
-4. Add missing ones as candidates
-
-### Strategy 3: Frequency List Comparison
-1. Reference standard frequency data (JLPT lists, BCCWJ rankings)
-2. Identify high-frequency words not yet in the dictionary
-3. Add as candidates
-
-### Strategy 4: Modern Vocabulary Audit
-1. Consider common contemporary terms (technology, lifestyle, internet)
-2. Verify they have stable, widespread usage
-3. Add as candidates
-
 ## Output Format
 
 After adding candidates, report:
@@ -236,8 +345,9 @@ After adding candidates, report:
 
 ## Quality Reminders
 
+- **Verify before adding:** ALWAYS check both entries_index.json AND candidate_words.json
 - **Breadth over depth:** Aim for broad coverage across semantic domains
 - **Learner utility:** Prioritize words an intermediate learner would benefit from knowing
-- **Avoid duplicates:** Always check both entries_index.json AND candidate_words.json
 - **No proper nouns:** Save those for systematic addition later
 - **Stable vocabulary:** Avoid ephemeral slang or highly specialized jargon
+- **Efficient checking:** Use batch checks when adding multiple words
