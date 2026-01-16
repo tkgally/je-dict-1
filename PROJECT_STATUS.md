@@ -33,7 +33,7 @@
 ### Content Status
 - **Total entries**: 5,507
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~1,247 words tracked in `candidate_words.json`
+- **Candidate words**: ~1,351 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Candidate Words Expansion - 200 New Candidates, Session 61)
+Added 200 new candidates to `candidate_words.json` using balanced coverage strategy:
+
+- **Semantic Domain Completion** (~73 candidates): Body functions (欠伸, げっぷ, 瞬き, 咳払い), body parts (舌先, 踝), animals (ゴリラ, チンパンジー, アザラシ, ペンギン, バッタ, カマキリ, てんとう虫, クワガタムシ, 蜜蜂), weather (靄, 霙, 竜巻), clothing (襟, 裾, チャック, マフラー), kitchen items (鍋敷き, お椀, マグカップ), appliances (下駄箱, 加湿器, 除湿機, 空気清浄機), transportation (踏切, 横断歩道, 歩道橋, 地下道, 路地, ガードレール), medical (処方箋, 抗体), occupations (建築家, 会計士, 税理士, 司法書士, 行政書士, 不動産屋, 営業マン, サラリーマン), sports (連覇, 打者, 投手, 自己ベスト), music (不協和音, 伴奏, 奏者, 指揮者, バース, コーラス), housing (間取り, 敷金, 礼金, 退去, 管理費, 共益費, 賃貸, 分譲, 新築), finance (電子マネー, クレジットカード, ローン, 債務), education (試験期間, 期末試験, 中間試験, 追試験)
+
+- **Related Word Networks** (~31 candidates): Compound verbs (取り返す, 振り回す, 叩き込む, 見過ごす, 切り抜く), conjunctions (然しながら, にも関わらず), adverbs (わざわざ, 敢えて, 残らず, 強いて, 否応なく, 尚更, 一切, 最早), discourse markers (いずれにせよ, ともかく, どうせ, どのみち, さすがに, 到底, どうやら), onomatopoeia (きっぱり, こってり, いよいよ, じわじわ, ぽつぽつ), personality adjectives (愚か, 素直, しつこい, 健気)
+
+- **Productive Patterns** (~41 candidates): ～的 adjectives (物質的, 公的, 私的, 内的, 外的), four-character idioms (取捨選択, 創意工夫, 全身全霊, 心機一転, 絶体絶命), grammatical expressions (に関して, において, に対して, によって, として, にとって, をもって, に際して), shape adjectives (細長い, 平たい), compound verbs with ～出す/～上がる/～替える (吹き出す, 泣き出す, 笑い出す, 走り出す, 飛び上がる, 盛り上がる, 履き替える, 出直す, 焦がす)
+
+- **Modern & Informal Vocabulary** (~36 candidates): Casual expressions (ムカつく, イケてる, ググる, ぴえん, ガチで), business/IT loanwords (アジェンダ, フィードバック, ストレージ, IT, テイクアウト, デリバリー, ドリンクバー, コーデ, トレンド, アイテム, フェス, カバー, ID, Bluetooth, デバイス), casual speech patterns (なんて, っていう, ていうか, つーか, なんだかんだ, 知らんけど), fillers/particles (えーと, あのー, ほら, ねえ, よね, やっぱ), contracted forms (ちゃう, なきゃ, っぽい, そこそこ)
+
+- **Domain-Specific Vocabulary** (~19 candidates): Emotions (悔い, 情け, 悩み), cooking (火加減, 手際, コツ, 隠し味, 香ばしい, 瑞々しい), nature (小川), housing (ロフト, バルコニー), personality/character traits (物覚え, 思いやり, 気配り, 心掛け, 志, やり甲斐, 生き甲斐, 甲斐甲斐しい, 億劫, 鈍感, 敏感, 不器用, 頑固, 図太い, 生真面目, 無口, 口下手, せっかち, そそっかしい)
+
+Total candidates: 1,151 → 1,351
 
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 60)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
