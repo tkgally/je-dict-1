@@ -133,6 +133,8 @@ For adjectives with multiple senses, each example must include a `sense_numbers`
 
 ## Quality Checklist for Adjectives
 
+- [ ] **All kanji have furigana** (headword, examples, AND notes)
+- [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
 - [ ] Part of speech correctly identified (i-adj vs. na-adj)
 - [ ] Adverbial form provided
 - [ ] Key conjugations shown

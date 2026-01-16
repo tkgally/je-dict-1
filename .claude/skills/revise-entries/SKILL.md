@@ -9,6 +9,12 @@ Use this checklist when revising existing entries to bring them up to the v2 spe
 
 ## High Priority Revisions (Do First)
 
+### For ALL Entries - Furigana
+
+- [ ] **All kanji have furigana** in headword, examples, AND notes
+- [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
+- [ ] Pay special attention to idioms, collocations, and kanji variants in notes
+
 ### For ALL Entries - Notes Formatting
 
 - [ ] **Line breaks**: Separate multiple topics with blank lines
@@ -160,6 +166,7 @@ After revising entries, run these commands:
 
 ```bash
 python3 build/validate.py           # Validate all entries
+python3 build/verify_furigana.py <entry_ids...>  # Verify furigana coverage
 python3 build/update_indexes.py     # Update indexes
 python3 build/build_flat.py         # Rebuild website (REQUIRED for GitHub Pages)
 git add entries/ docs/ *.json PROJECT_STATUS.md
@@ -171,5 +178,5 @@ The `build_flat.py` step is critical - without it, changes won't appear on the l
 
 Check for:
 - Schema compliance
-- Furigana on all kanji
+- **Furigana on all kanji** - use `python3 build/verify_furigana.py` to confirm
 - No broken cross-references

@@ -23,9 +23,12 @@ Add 50 new entries to the Japanese-English learner's dictionary from candidate_w
 3. **After all 50 entries**:
    ```bash
    python3 build/validate.py          # Fix any errors before continuing
+   python3 build/find_missing_furigana.py | head -50  # Check for missing furigana in notes
    python3 build/update_indexes.py    # Sync candidate_words.json
    python3 build/build_flat.py        # REQUIRED for live site update
    ```
+
+   **Important**: If `find_missing_furigana.py` shows any entries from your session, fix them before committing.
 
 4. **Finish**: Update PROJECT_STATUS.md with entry count and summary, then commit and push
 
@@ -33,7 +36,10 @@ Add 50 new entries to the Japanese-English learner's dictionary from candidate_w
 
 - **NEVER create an entry without first searching entries/ for that word** - this is the #1 cause of duplicates
 - Each entry must be written individually (no automation scripts)
-- All kanji require furigana: `{漢字|かんじ}`
+- **ALL kanji require furigana in ALL fields**: headword, examples, AND notes
+  - Format: `{漢字|かんじ}`
+  - This includes idioms, collocations, and kanji orthography notes
+  - Example: `{暖簾|のれん}に{腕押|うでお}し` NOT `暖簾に腕押し`
 - Examples progress simple → complex, include at least one collocation
 - **All examples require sense_numbers** - validation will fail without them
 - Timestamps must be from get_timestamp.py - the Z suffix is UTC, not JST

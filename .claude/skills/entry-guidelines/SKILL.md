@@ -122,11 +122,36 @@ Every example sentence **must** have a `sense_numbers` field that links it to th
 
 The validation script checks that all examples in multi-sense entries have valid sense_numbers.
 
-## Furigana Requirements
+## Furigana Requirements (CRITICAL)
 
-- All kanji MUST have furigana: `{漢字|かんじ}`
-- Use compound readings for jukugo: `{友達|ともだち}` not `{友|とも}{達|だち}`
-- Apply to headword, examples, notes, and all explanatory text
+**All kanji MUST have furigana in ALL fields, including notes.**
+
+Format: `{漢字|かんじ}`
+
+This applies to:
+- Headwords
+- Example sentences
+- **Notes field** (idioms, collocations, cultural notes, etc.)
+- All explanatory text
+
+**Common mistakes to avoid:**
+```
+✗ WRONG: 暖簾に腕押し
+✓ RIGHT: {暖簾|のれん}に{腕押|うでお}し
+
+✗ WRONG: 安堵の息をつく
+✓ RIGHT: {安堵|あんど}の{息|いき}をつく
+
+✗ WRONG: Sometimes written as 家鴨
+✓ RIGHT: Sometimes written as {家鴨|あひる}
+```
+
+Use compound readings for jukugo: `{友達|ともだち}` not `{友|とも}{達|だち}`
+
+**Verify before finalizing:**
+```bash
+python3 build/verify_furigana.py <entry_id>
+```
 
 ## Entry Structure
 
@@ -181,7 +206,8 @@ Run `python3 build/validate.py` to check for:
 ## Quality Checklist
 
 Before finalizing any entry, verify:
-- [ ] All kanji have furigana
+- [ ] **All kanji have furigana** (headword, examples, AND notes)
+- [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
 - [ ] Examples progress from simple to complex
 - [ ] At least one collocation or fixed phrase is shown
 - [ ] Grammar patterns are explicitly demonstrated
