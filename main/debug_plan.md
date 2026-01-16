@@ -7,21 +7,21 @@ This document tracks fixes based on code reviews from three LLMs. Work through t
 ## Session 1: Security & Build Stability
 
 ### Task 1.1: Fix XSS vulnerability in search results
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **Files**: `docs/search.js`, `build/build_flat.py`
 - **Issue**: Search results use innerHTML with unescaped content (entry.headword, entry.gloss)
 - **Fix**: Either escape gloss in `build_flat.py:generate_search_index()` OR use DOM methods in search.js
 - **Reviews**: 1 (#5), 2 (#2)
 
 ### Task 1.2: Remove auto-install package pattern
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/validate.py` (lines 24-38)
 - **Issue**: `ensure_package()` runs pip install at runtime - security risk, breaks CI/CD
 - **Fix**: Remove function, add clear error message if jsonschema not installed
 - **Reviews**: 2 (#1), 3 (#2)
 
 ### Task 1.3: Fix null candidate field crash
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/build_flat.py` (lines 800-802)
 - **Issue**: `html.escape(candidate.get('reading', ''))` fails if value is explicitly `None`
 - **Fix**: Change to `html.escape(candidate.get('reading') or '')`
@@ -215,7 +215,7 @@ These are larger efforts noted by reviewers but not prioritized for immediate ac
 
 | Session | Date | Tasks Completed |
 |---------|------|-----------------|
-| 1 | - | - |
+| 1 | 2026-01-16 | 1.1, 1.2, 1.3 |
 | 2 | - | - |
 | 3 | - | - |
 | 4 | - | - |
