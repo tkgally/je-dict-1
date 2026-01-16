@@ -38,7 +38,7 @@ git add entries/ docs/ *.json PROJECT_STATUS.md
 git commit -m "Add N new dictionary entries"
 git push
 ```
-The `build_flat.py` step is critical - without it, new entries won't appear on the live site.
+The `build_flat.py` step is critical - without it, new entries won't appear on the live site. The build uses an atomic process (builds to temp directory, then swaps) to prevent broken states if the build fails.
 
 **Never create scripts that generate entry content programmatically.**
 
@@ -200,8 +200,10 @@ Copy this exact output into both `created` and `modified` fields (for new entrie
 ### Validation
 
 Run `python3 build/validate.py` to check for:
-- Future timestamps (timestamp is ahead of current UTC time)
+- Future timestamps (timestamp more than 24 hours ahead of current UTC time)
 - Suspiciously round timestamps (exactly `:00:00` seconds, likely not from the script)
+
+Note: The validator allows a 24-hour grace period for timestamps to accommodate CI/CD clock drift.
 
 ## Quality Checklist
 

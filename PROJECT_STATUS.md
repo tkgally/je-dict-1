@@ -29,6 +29,11 @@
 - [x] Shared utility modules (`path_utils.py`, `japanese_utils.py`)
 - [x] Audio integrity validation in `validate.py`
 - [x] Deterministic build output (clean before build)
+- [x] Atomic build process (temp directory swap prevents broken states)
+- [x] Centralized cross-reference type definitions (`build/cross_ref_types.py`)
+- [x] Centralized furigana pattern and utilities (`build/japanese_utils.py`)
+- [x] Enhanced validation with structured return types
+- [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
 - **Total entries**: 5,907
@@ -98,6 +103,47 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Code Quality Improvements - Debug Plan Complete)
+Completed all 23 tasks from `main/debug_plan.md` across 8 debugging sessions, addressing recommendations from multi-LLM code reviews:
+
+**Security & Build Stability:**
+- Fixed XSS vulnerability in search results (HTML escaping in `search.js` and `build_flat.py`)
+- Removed auto-install package pattern from `validate.py` (security risk)
+- Fixed null candidate field crash in `build_flat.py`
+
+**Data Integrity:**
+- Fixed cross-reference migration losing distinct refs (composite key deduplication)
+- Added duplicate ID check to build process
+- Improved self-reference validation for entries without headword
+
+**Robustness & Error Handling:**
+- Added error handling to `cleanup_candidates.py` and `manage_candidates.py`
+- Fixed hardcoded relative paths in `manage_candidates.py`
+- Made build process atomic (builds to temp directory, then swaps)
+
+**Performance:**
+- Fixed double file read in `add_example_ids.py`
+- Fixed O(n²) duplicate detection in search index (now uses sets)
+- Reuse validator instance across entries
+
+**Code Quality:**
+- Moved inline imports to module top across 4 files
+- Centralized furigana pattern `FURIGANA_PATTERN` in `japanese_utils.py`
+- Refactored `validate_all_entries()` to return `ValidationResult` dataclass
+
+**Schema & Validation:**
+- Updated schema to allow legacy string cross-references (oneOf)
+- Expanded reading pattern to include rare kana (ゝ, ゞ, etc.)
+- Added 24-hour grace period for timestamp validation
+
+**UX & Architecture:**
+- Added furigana toggle script to `pending.html`
+- Extended furigana scanning to all text fields (notes, examples, definitions, explanation)
+- Centralized cross-reference types in `build/cross_ref_types.py`
+- Moved `normalize_reading()` to `japanese_utils.py`
+
+See `main/debug_plan.md` for full task details and progress log.
 
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 65)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -323,21 +369,6 @@ Notable entry features:
 
 Total entries: 5,107 → 5,207
 Remaining candidates: 1,652 → 1,548
-
-### 2026-01-16 (Candidate Words Expansion - 200 New Candidates)
-Added 200 new candidates to `candidate_words.json` using the balanced coverage strategy:
-
-- **Tier 1 - Core Vocabulary Gaps** (20 candidates): Basic vocabulary including 事 (こと), 黄 (yellow), 白 (white), 多分 (probably), counters (個, 枚, 冊, 台), verbs (点ける, 返す), adjectives (早い, 速い, 可愛い, 固い, 素敵, 綺麗), and conjunctions (ただし, そうすると).
-
-- **Tier 2 - Semantic Domain Completion** (42 candidates): Food/cooking (麺, ラーメン, 煮込む, 和える, 漬ける, 揚げる, すりおろす, 泡立てる), body parts (腸, 肺, 腎臓), cultural terms (床の間, 風呂敷, 提灯, 暖簾, 初詣, 七五三, 盆踊り, 鳥居, お守り), family terms (従兄弟, 叔父, 叔母, 甥, 彼氏), music (曲, 楽器, ライブ), sports (バスケ, バレー, 練習), everyday items (カバン, メガネ, エアコン, バイク, 乗り換え, 終電), work (不合格, 部下, ボーナス), and places (消防署, 役所).
-
-- **Tier 3 - Related Word Networks** (54 candidates): Emotional terms (焦り, 苛立ち, 戸惑い, 安堵, 憂鬱, 苦悩, 葛藤, 羨望, 嫉妬, 悲しみ, 恐れ), antonym pairs (内外, 表裏, 出入り, 開閉, 長短, 大小, 強弱, 高低, 軽重, 善悪, 正誤), communication verbs (説明する, 質問する, 励ます, 感謝する, 同意する, 反対する, 賛成する, 提案する, 議論する), cognition verbs (気づく, 理解する, 想像する, 考慮する, 判断する, 否定する, 予想する, 期待する, 心配する, 安心する), and compound verbs (切り離す, 押し入る, 取り込む, 追いかける, 追い払う, 巻き込む, 呼びかける, 見分ける, 聞き直す, 引き返す, 降り立つ).
-
-- **Tier 4 - Productive Patterns** (56 candidates): ～的 adjectives (経済的, 歴史的, 文化的, 国際的, 科学的, 精神的, 物理的, 心理的, 論理的, 感情的), reduplication (段々, 堂々, 延々, 粛々, 淡々), four-character idioms (三日坊主, 七転八起, 四面楚歌, 一朝一夕, 起死回生, 弱肉強食, 臨機応変, 有名無実, 一心不乱, 我田引水, 異口同音, 因果応報, 暗中模索, 五里霧中), proverbs (猿も木から落ちる, 七転び八起き, 石の上にも三年, 早起きは三文の徳, 百聞は一見に如かず, 井の中の蛙, 蛙の子は蛙, 花より団子, 二兎を追う者は一兎をも得ず, 急がば回れ), number compounds (二重, 四季, 五感, 六法, 七夕, 八方, 九九, 百万, 千円, 万人, 一人前, 二度と), and onomatopoeia (ぴかぴか, ふわふわ, さらさら, ぼろぼろ, がたがた, ばらばら, きらきら, しとしと, ざあざあ, ぽたぽた, もぐもぐ, ぺらぺら, ぐるぐる, ばたばた, にこにこ).
-
-- **Tier 5 - Modern & Informal Vocabulary** (28 candidates): Technology (アップデート, クリック, タップ, スワイプ, ログイン, パスワード, シェア, いいね, コメント, バグ, アカウント, プロフィール, オンライン, オフライン), lifestyle abbreviations (就活, 婚活, 終活, バイト), and social media (炎上, 既読).
-
-Total candidates: 1,452 → 1,652
 
 ---
 

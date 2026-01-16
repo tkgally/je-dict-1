@@ -1,6 +1,6 @@
 # Add Missing Furigana to Dictionary Entries
 
-This prompt guides you through systematically adding furigana to dictionary entries that have kanji without annotation in their `notes` field.
+This prompt guides you through systematically adding furigana to dictionary entries that have kanji without annotation in any text field (notes, examples, definitions, and explanations).
 
 ## Important: Furigana Assignment Requires Semantic Understanding
 
@@ -37,7 +37,7 @@ Work in batches of 10-20 entries per session to maintain focus and accuracy.
    Read /home/user/je-dict-1/entries/{file_path}
    ```
 
-2. **Identify unannotated kanji** in the `notes` field
+2. **Identify unannotated kanji** in all text fields (notes, definitions, examples, explanation)
 
 3. **Determine correct readings** based on:
    - The meaning of the phrase/collocation

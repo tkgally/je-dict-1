@@ -129,6 +129,8 @@ Each cross-reference object requires:
 
 *Headword is **required** for proper resolution. Without it, cross-references cannot be disambiguated between homonyms.
 
+**Note:** Valid cross-reference types are defined centrally in `build/cross_ref_types.py` and shared across the schema, validation, and build scripts.
+
 ## Homonym Disambiguation
 
 **CRITICAL**: Many Japanese words share the same reading but have different kanji (homonyms). The headword field is essential for correct resolution.
