@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 5,907
+- **Total entries**: 5,958
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~967 words tracked in `candidate_words.json`
+- **Candidate words**: ~919 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 66)
+Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Onomatopoeia (10): しょんぼり (dejected), ぐったり (exhausted), ひんやり (cool), しっとり (moist), てくてく (plodding), とぼとぼ (trudging), すたすた (briskly), ゆったり (relaxed), きびきび (briskly), だらだら (sluggishly)
+- ～{的|てき} adjectives (10): {継続的|けいぞくてき} (continuous), {一時的|いちじてき} (temporary), {永久的|えいきゅうてき} (permanent), {直感的|ちょっかんてき} (intuitive), {絶対的|ぜったいてき} (absolute), {相対的|そうたいてき} (relative), {精神的|せいしんてき} (mental), {身体的|しんたいてき} (physical), {圧倒的|あっとうてき} (overwhelming), {極端的|きょくたんてき} (extreme)
+- Body/medical terms (5): {拳|こぶし} (fist), お{尻|しり} (buttocks), {動脈|どうみゃく} (artery), {静脈|じょうみゃく} (vein), {鎖骨|さこつ} (collarbone)
+- Weather terms (5): {豪雨|ごうう} (heavy rain), {小雨|こさめ} (light rain), {夕立|ゆうだち} (afternoon shower), {肌寒|はだざむ}い (chilly), {薄曇|うすぐも}り (overcast)
+- Modern/social media (6): いいね (like), フォロワー (follower), {炎上|えんじょう} (online backlash), ぼっち (loner), ホームページ (website), デジタル (digital)
+- Compound verbs (5): {取|と}り{込|こ}む (to take in), {引|ひ}き{返|かえ}す (to turn back), {引|ひ}き{下|さ}がる (to withdraw), {押|お}し{入|い}れる (to force into), {泳|およ}ぎ{回|まわ}る (to swim around)
+- Nouns (5): {墓場|はかば} (graveyard), メロディー (melody), ボーナス (bonus), {認可|にんか} (authorization), {根|ね}っこ (root)
+- Food terms (4): {海鮮|かいせん} (seafood), {乳製品|にゅうせいひん} (dairy products), {炊|た}き{込|こ}みご{飯|はん} (mixed rice), {生鮮|せいせん} (fresh produce)
+
+Notable entry features:
+- Comprehensive onomatopoeia covering emotional and physical states
+- ～的 adjective pairs including antonyms (絶対的↔相対的, 精神的↔身体的)
+- Modern internet vocabulary reflecting contemporary Japanese usage
+- Compound verb patterns with ～回る (movement around) and ～込む (action into)
+- Cross-references added linking antonyms and related medical terms (動脈↔静脈)
+
+Total entries: 5,907 → 5,958
+Remaining candidates: 967 → 919
 
 ### 2026-01-16 (Code Quality Improvements - Debug Plan Complete)
 Completed all 23 tasks from `main/debug_plan.md` across 8 debugging sessions, addressing recommendations from multi-LLM code reviews:
@@ -344,31 +366,6 @@ Notable entry features:
 
 Total entries: 5,207 → 5,307
 Remaining candidates: 1,548 → 1,441
-
-### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 57)
-Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Occupations (15): {看護師|かんごし} (nurse), {警察官|けいさつかん} (police officer), {消防士|しょうぼうし} (firefighter), {銀行員|ぎんこういん} (bank employee), エンジニア (engineer), プログラマー (programmer), デザイナー (designer), シェフ (chef), コック (cook), ウェイター (waiter), ウェイトレス (waitress), ガイド (guide), {役者|やくしゃ} (actor), アイドル (idol), モデル (model)
-- Natural disasters (4): {津波|つなみ} (tsunami), {洪水|こうずい} (flood), {雪崩|なだれ} (avalanche), {干|ひ}ばつ (drought)
-- Colors (2): {金色|きんいろ} (gold), {銀色|ぎんいろ} (silver)
-- Household items (6): {扇風機|せんぷうき} (electric fan), {炬燵|こたつ} (kotatsu), アイロン (iron), ベランダ (balcony), ガレージ (garage), ドライヤー (hair dryer)
-- Health/Medical (2): ワクチン (vaccine), マスク (mask)
-- Vehicles (5): {救急車|きゅうきゅうしゃ} (ambulance), {消防車|しょうぼうしゃ} (fire engine), パトカー (police car), バイク (motorcycle), ヘリコプター (helicopter)
-- Business terms (10): {競合|きょうごう} (competition), {卸売|おろしうり} (wholesale), {小売|こうり} (retail), {発注|はっちゅう} (ordering), {受注|じゅちゅう} (receiving orders), {納品|のうひん} (delivery), {出荷|しゅっか} (shipping), {関税|かんぜい} (tariff), {物流|ぶつりゅう} (logistics), {流通|りゅうつう} (distribution)
-- Abstract concepts (18): {願望|がんぼう} (desire), {欲望|よくぼう} (craving), {情熱|じょうねつ} (passion), {熱意|ねつい} (enthusiasm), やる{気|き} (motivation), {認識|にんしき} (recognition), {了解|りょうかい} (acknowledgment), {同意|どうい} (consent), {合意|ごうい} (agreement), {連携|れんけい} (cooperation), {規模|きぼ} (scale), {運営|うんえい} (management), {正義|せいぎ} (justice), {倫理|りんり} (ethics), {発言|はつげん} (statement), {討論|とうろん} (debate), {辛抱|しんぼう} (patience), {世代|せだい} (generation)
-- Technology (6): アカウント (account), ブログ (blog), モニター (monitor), {充電器|じゅうでんき} (charger), {録音|ろくおん} (recording), アップデート (update)
-- Math/Science (11): {百科事典|ひゃっかじてん} (encyclopedia), {代数|だいすう} (algebra), {幾何|きか} (geometry), {微分|びぶん} (differentiation), {積分|せきぶん} (integration), {定数|ていすう} (constant), {演算|えんざん} (operation), ハードウェア (hardware), ウェブサイト (website), {見積|みつも}もり (estimate), {株価|かぶか} (stock price)
-- Education (4): {不合格|ふごうかく} (failure), {休学|きゅうがく} (leave of absence), {留年|りゅうねん} (repeating a year), {参考書|さんこうしょ} (reference book), {法則|ほうそく} (law/rule)
-- Other vocabulary (17): カラオケ (karaoke), {舅|しゅうと} (father-in-law), {姑|しゅうとめ} (mother-in-law), ジーパン (jeans), {化粧品|けしょうひん} (cosmetics), {日焼|ひや}け{止|ど}め (sunscreen), {山葵|わさび} (wasabi), {皺|しわ} (wrinkle), {黒子|ほくろ} (mole), {齧|かじ}る (to gnaw), {啜|すす}る (to sip), むせる (to choke), {浮|う}き{浮|う}き (cheerful), しゃっくり (hiccup), クワガタ (stag beetle), ゴキブリ (cockroach)
-
-Notable entry features:
-- Business vocabulary covers supply chain and commerce terminology
-- Math/Science entries include calculus and computer science vocabulary
-- Abstract concept entries useful for academic and philosophical discussions
-- Cross-references added linking related terms (発注↔受注, 物流↔流通)
-
-Total entries: 5,107 → 5,207
-Remaining candidates: 1,652 → 1,548
 
 ---
 
