@@ -31,9 +31,9 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 5,707
+- **Total entries**: 5,807
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~1,167 words tracked in `candidate_words.json`
+- **Candidate words**: ~1,067 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,34 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 64)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Suru verbs (10): {質問|しつもん}する (to ask), {説明|せつめい}する (to explain), {紹介|しょうかい}する (to introduce), {約束|やくそく}する (to promise), {報告|ほうこく}する (to report), {賛成|さんせい}する (to agree), {反対|はんたい}する (to oppose), {邪魔|じゃま}する (to disturb), {電話|でんわ}する (to call), お{願|ねが}いする (to request)
+- Four-character idioms (7): {試行錯誤|しこうさくご} (trial and error), {自画自賛|じがじさん} (self-praise), {無我夢中|むがむちゅう} (being absorbed), {臨機応変|りんきおうへん} (flexibility), {五里霧中|ごりむちゅう} (bewilderment), {異口同音|いくどうおん} (unanimous), {油断大敵|ゆだんたいてき} (complacency warning)
+- ～的 adjectives (15): {歴史的|れきしてき} (historical), {論理的|ろんりてき} (logical), {経済的|けいざいてき} (economical), {科学的|かがくてき} (scientific), {感情的|かんじょうてき} (emotional), {本格的|ほんかくてき} (full-scale), {技術的|ぎじゅつてき} (technical), {政治的|せいじてき} (political), {心理的|しんりてき} (psychological), {文化的|ぶんかてき} (cultural), {実践的|じっせんてき} (practical), {理論的|りろんてき} (theoretical), {創造的|そうぞうてき} (creative), {客観的|きゃっかんてき} (objective), {主観的|しゅかんてき} (subjective)
+- ～やか adjectives (6): {爽|さわ}やか (refreshing), {鮮|あざ}やか (vivid), {和|なご}やか (harmonious), {健|すこ}やか (healthy), のどか (peaceful), {朗|ほが}らか (cheerful)
+- Adverbs (12): もしかして (perhaps), いっそ (rather), {何|なに}しろ (after all), いかにも (indeed), かろうじて (barely), ひたすら (earnestly), もっぱら (exclusively), ひそかに (secretly), まれに (rarely), ひとまず (for now), おおむね (generally), あらかじめ (beforehand)
+- Compound verbs (15): {引|ひ}き{込|こ}む (to draw in), {持|も}ち{歩|ある}く (to carry around), {生|い}き{返|かえ}る (to revive), {締|し}め{切|き}る (to close off), {切|き}り{開|ひら}く (to pioneer), {切|き}り{捨|す}てる (to cut off), {流|なが}れ{込|こ}む (to flow in), {落|お}ち{込|こ}む (to fall into), {巻|ま}き{込|こ}む (to involve), {受|う}け{入|い}れる (to accept), {受|う}け{止|と}める (to catch), {立|た}て{替|か}える (to pay for), {乗|の}り{出|だ}す (to set out), {切|き}り{離|はな}す (to separate), {押|お}し{出|だ}す (to push out)
+- Onomatopoeia (10): にやにや (grinning), げらげら (guffawing), くすくす (giggling), めそめそ (sobbing), もぐもぐ (munching), ごくごく (gulping), ちびちび (sipping), ずるずる (slurping), すやすや (sleeping soundly), ぽかぽか (warmly)
+- Cultural vocabulary (8): {床|とこ}の{間|ま} (alcove), {風呂敷|ふろしき} (wrapping cloth), {提灯|ちょうちん} (paper lantern), {暖簾|のれん} (shop curtain), {初詣|はつもうで} (first shrine visit), {還暦|かんれき} (60th birthday), {厄年|やくどし} (unlucky year), {大晦日|おおみそか} (New Year's Eve)
+- Emotional nouns (5): {焦|あせ}り (impatience), {苛立|いらだ}ち (irritation), {戸惑|とまど}い (confusion), {安堵|あんど} (relief), {憂鬱|ゆううつ} (depression)
+- Cooking vocabulary (5): {煮込|にこ}む (to simmer), {和|あ}える (to dress food), {惣菜|そうざい} (prepared food), {下|した}ごしらえ (food prep), {味付|あじつ}け (seasoning)
+- Modern abbreviations (2): {就活|しゅうかつ} (job hunting), {婚活|こんかつ} (marriage hunting)
+- Additional onomatopoeia (5): ぬくぬく (snugly warm), じめじめ (damp), からっと (dry/crispy), こそこそ (sneakily), さっさと (quickly)
+
+Notable entry features:
+- Common suru verbs essential for basic communication
+- Four-character idioms with explanations of origins and usage
+- Comprehensive ～的 adjective coverage for academic contexts
+- Traditional Japanese cultural vocabulary with detailed notes
+- Emotional noun entries useful for nuanced expression
+- Cooking terms covering food preparation methods
+- Cross-references added linking antonym pairs ({賛成|さんせい}↔{反対|はんたい}, {客観的|きゃっかんてき}↔{主観的|しゅかんてき})
+
+Total entries: 5,707 → 5,807
+Remaining candidates: 1,167 → 1,067
 
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 63)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -310,43 +338,6 @@ Notable entry features:
 
 Total entries: 5,007 → 5,107
 Remaining candidates: 1,552 → 1,452
-
-### 2026-01-15 (Vocabulary Expansion - 100 New Entries, Session 55)
-Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Core vocabulary (5): {豚|ぶた} (pig), {羊|ひつじ} (sheep), {本当|ほんとう}に (really), {確|たし}かに (certainly), ピンク (pink)
-- Modern/Slang vocabulary (21): スマホ, アプリ, ダウンロード, {検索|けんさく}, フォロー, {投稿|とうこう}, バズる, {推|お}し, コスパ, タイパ, リモート, マジ, やばい, めっちゃ, ウザい, ダサい, キモい, エモい, ガチ, イケメン, ネタバレ
-- 四字熟語 (7): {一石二鳥|いっせきにちょう}, {以心伝心|いしんでんしん}, {一期一会|いちごいちえ}, {十人十色|じゅうにんといろ}, {四苦八苦|しくはっく}, {一長一短|いっちょういったん}, {自業自得|じごうじとく}
-- ～的 adjectives (13): {消極的|しょうきょくてき}, {具体的|ぐたいてき}, {抽象的|ちゅうしょうてき}, {一般的|いっぱんてき}, {基本的|きほんてき}, {個人的|こじんてき}, {社会的|しゃかいてき}, {効果的|こうかてき}, {現実的|げんじつてき}, {理想的|りそうてき}, {魅力的|みりょくてき}, {典型的|てんけいてき}, {伝統的|でんとうてき}
-- Reduplication (4): {日々|ひび}, {国々|くにぐに}, {山々|やまやま}, {木々|きぎ}
-- Compound verb (1): {呼|よ}び{出|だ}す (to call out)
-- Onomatopoeia (12): ひらひら, ゆらゆら, すれすれ, がらがら, へらへら, むすっと, ぷりぷり, うんざり, げんなり, しんみり, ぱさぱさ, ほかほか
-- Emotional vocabulary (15): {哀愁|あいしゅう}, {羞恥|しゅうち}, {孤独|こどく}, {充実|じゅうじつ}, {虚無|きょむ}, {軽蔑|けいべつ}, {惨|みじ}め, {屈辱|くつじょく}, {焦燥|しょうそう}, {切望|せつぼう}, {愛着|あいちゃく}, {落胆|らくたん}, {絶望|ぜつぼう}, {憎悪|ぞうお}, {未練|みれん}
-- Business terms (11): {戦略|せんりゃく}, {方針|ほうしん}, {業績|ぎょうせき}, {損失|そんしつ}, {商談|しょうだん}, {企画|きかく}, {手当|てあて}, {福利厚生|ふくりこうせい}, {確定申告|かくていしんこく}, {源泉徴収|げんせんちょうしゅう}, {見積|みつも}り
-- Household/Environment (11): インターホン, {表札|ひょうさつ}, {郵便受|ゆうびんう}け, ブラインド, ブレスレット, ブローチ, {世界遺産|せかいいさん}, {天然記念物|てんねんきねんぶつ}, {保護区|ほごく}, {給湯器|きゅうとうき}, {電化製品|でんかせいひん}
-
-Notable entry features:
-- Modern slang includes internet/social media terms popular with younger generations
-- 四字熟語 entries include origin, literal meaning, and modern usage contexts
-- ～的 adjectives cover common academic and formal vocabulary
-- Emotional vocabulary useful for literature and nuanced expression
-- Business terms cover tax, HR, and corporate planning terminology
-
-Total entries: 4,907 → 5,007
-Remaining candidates: 1,831 → 1,552
-
-### 2026-01-15 (Candidate Words Expansion - 200 New Candidates)
-Added 200 new candidates to `candidate_words.json` using the balanced coverage strategy outlined in `newcandidates.md`:
-
-- **Tier 1 - Core Vocabulary Gaps** (70 candidates): Essential verbs missing from the dictionary including 行く, 来る, 見る, 聞く, 言う, 思う, 知る, 分かる, 食べる, 飲む, 書く, 読む, plus transitive/intransitive pairs like 開ける/開く, 閉める/閉じる, 始まる/始める, 終わる/終える. Also added missing basic adjectives (早い, 熱い), adverbs (本当に, 多分, 確かに), and nouns (事).
-
-- **Tier 2 - Semantic Domain Completion** (70 candidates): Action verbs (走る, 歩く, 泳ぐ, 飛ぶ), emotion verbs (怒る, 笑う, 泣く, 喜ぶ, 驚く, 困る), change-of-state verbs (壊れる/壊す, 変わる/変える, 増える, 減る), plus missing colors (白, ピンク), animals (豚, 羊), family terms (叔父, 叔母).
-
-- **Tier 3 & 4 - Related Word Networks & Productive Patterns** (35 candidates): Reduplication words (日々, 国々, 山々, 木々), ～的 adjectives (消極的, 具体的, 抽象的, 一般的, 基本的, 個人的, 社会的, 効果的, 現実的, 理想的, 魅力的, 典型的, 伝統的), compound verbs (追い出す, 取り出す, 持ち上げる, 引き受ける, 飛び出す, 思い出す, 呼び出す), and four-character idioms (一石二鳥, 以心伝心, 一期一会, 十人十色, 四苦八苦, 一長一短, 自業自得).
-
-- **Tier 5 - Modern & Informal Vocabulary** (25 candidates): Technology terms (スマホ, アプリ, ダウンロード, 検索), social media vocabulary (フォロー, 投稿, バズる, 推し), lifestyle terms (コスパ, タイパ, リモート), and colloquial expressions (マジ, やばい, めっちゃ, ウザい, ダサい, キモい, エモい, ガチ, イケメン, 草, 神, ネタバレ).
-
-Total candidates: 1,631 → 1,831
 
 ---
 
