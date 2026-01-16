@@ -18,7 +18,7 @@
     },
     "reading": {
       "type": "string",
-      "pattern": "^[ぁ-んー]+$",
+      "pattern": "^[ぁ-んーゝゞ]+$",
       "description": "Hiragana reading"
     },
     "part_of_speech": {
@@ -103,28 +103,36 @@
     "cross_references": {
       "type": "array",
       "items": {
-        "type": "object",
-        "required": ["type", "reading"],
-        "properties": {
-          "type": {
+        "oneOf": [
+          {
             "type": "string",
-            "enum": ["pair", "synonym", "antonym", "keigo", "related", "see_also", "contrast"],
-            "description": "Relationship type"
+            "description": "Legacy format: entry ID string"
           },
-          "reading": {
-            "type": "string",
-            "pattern": "^[ぁ-んー]+$",
-            "description": "Hiragana reading of target word (primary lookup key)"
-          },
-          "headword": {
-            "type": "string",
-            "description": "Display form with kanji/furigana (optional, for display before entry exists)"
-          },
-          "label": {
-            "type": "string",
-            "description": "Short label like 'intransitive', 'honorific', 'formal'"
+          {
+            "type": "object",
+            "required": ["type", "reading"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["pair", "synonym", "antonym", "keigo", "related", "see_also", "contrast"],
+                "description": "Relationship type"
+              },
+              "reading": {
+                "type": "string",
+                "pattern": "^[ぁ-んーゝゞ]+$",
+                "description": "Hiragana reading of target word (primary lookup key)"
+              },
+              "headword": {
+                "type": "string",
+                "description": "Display form with kanji/furigana (optional, for display before entry exists)"
+              },
+              "label": {
+                "type": "string",
+                "description": "Short label like 'intransitive', 'honorific', 'formal'"
+              }
+            }
           }
-        }
+        ]
       },
       "description": "Array of cross-references to related entries"
     },

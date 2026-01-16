@@ -132,21 +132,21 @@ This document tracks fixes based on code reviews from three LLMs. Work through t
 ## Session 6: Schema & Validation Consistency
 
 ### Task 6.1: Update schema for legacy cross-reference format
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/schema.json`
 - **Issue**: Schema only allows object cross-refs but code handles legacy strings
 - **Fix**: Add oneOf to allow string OR object format
 - **Review**: 1 (#4)
 
 ### Task 6.2: Expand reading pattern in schema
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/schema.json` (line 21-23)
 - **Issue**: Pattern `^[ぁ-んー]+$` misses voiced iteration marks (ゝ, ゞ)
 - **Fix**: Expand character class to include rare kana
 - **Review**: 2 (#11)
 
 ### Task 6.3: Fix system clock dependency in validation
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/validate.py` (line 230)
 - **Issue**: Checks if timestamps are "in future" based on current time
 - **Fix**: Add small grace period (24h) to avoid CI clock drift issues
@@ -220,7 +220,7 @@ These are larger efforts noted by reviewers but not prioritized for immediate ac
 | 3 | 2026-01-16 | 3.1, 3.2, 3.3 |
 | 4 | 2026-01-16 | 4.1, 4.2, 4.3 |
 | 5 | 2026-01-16 | 5.1, 5.2, 5.3 |
-| 6 | - | - |
+| 6 | 2026-01-16 | 6.1, 6.2, 6.3 |
 | 7 | - | - |
 | 8 | - | - |
 

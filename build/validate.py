@@ -11,7 +11,7 @@ import sys
 import re
 from collections import defaultdict
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -272,6 +272,8 @@ def check_timestamps(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, 
     Returns a list of (file_path, warning_message) for issues found.
     """
     now = datetime.now(timezone.utc)
+    # Add 24-hour grace period to avoid CI clock drift issues
+    grace_period = timedelta(hours=24)
     warnings = []
 
     for file_path, entry in entries_data:
@@ -287,8 +289,8 @@ def check_timestamps(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, 
                 # Parse ISO timestamp
                 dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
 
-                # Check for future timestamp
-                if dt > now:
+                # Check for future timestamp (with grace period for clock drift)
+                if dt > now + grace_period:
                     warnings.append((
                         file_path,
                         f"Future timestamp in '{field_name}': {timestamp_str} is in the future"
