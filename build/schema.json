@@ -115,6 +115,7 @@
               "type": {
                 "type": "string",
                 "enum": ["pair", "synonym", "antonym", "keigo", "related", "see_also", "contrast"],
+                "$comment": "Keep this enum in sync with CROSS_REF_TYPES in build/constants.py",
                 "description": "Relationship type"
               },
               "reading": {

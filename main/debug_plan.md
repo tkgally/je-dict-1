@@ -182,14 +182,14 @@ This document tracks fixes based on code reviews from three LLMs. Work through t
 ## Session 8: Architecture (Larger Refactors)
 
 ### Task 8.1: Centralize cross-reference type definitions
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **Files**: `build/schema.json`, `build/validate.py`, `build/build_flat.py`
 - **Issue**: Cross-ref types (pair, synonym, etc.) defined in 3 places
 - **Fix**: Create constants module, import everywhere
 - **Review**: 3 (#8)
 
 ### Task 8.2: Move normalize_reading to japanese_utils.py
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **Files**: `build/cleanup_candidates.py` → `build/japanese_utils.py`
 - **Issue**: Katakana normalization logic isolated in cleanup script
 - **Fix**: Move to shared utilities
@@ -222,7 +222,7 @@ These are larger efforts noted by reviewers but not prioritized for immediate ac
 | 5 | 2026-01-16 | 5.1, 5.2, 5.3 |
 | 6 | 2026-01-16 | 6.1, 6.2, 6.3 |
 | 7 | 2026-01-16 | 7.1, 7.2, 7.3 |
-| 8 | - | - |
+| 8 | 2026-01-16 | 8.1, 8.2 |
 
 ---
 
