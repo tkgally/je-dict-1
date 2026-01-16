@@ -1888,11 +1888,24 @@ def build_flat(project_root: Path) -> int:
     print("\n[1/6] Loading entries...")
     entries = []
     for file_path in entries_dir.glob('**/*.json'):
-        entries.append(load_entry(file_path))
+        entry = load_entry(file_path)
+        entry['_source_file'] = str(file_path)
+        entries.append(entry)
 
     # Sort entries by reading
     entries.sort(key=lambda e: e['reading'])
     print(f"  Loaded {len(entries)} entries")
+
+    # Check for duplicate IDs before creating dictionary
+    seen_ids = {}
+    for e in entries:
+        entry_id = e['id']
+        if entry_id in seen_ids:
+            print(f"  WARNING: Duplicate entry ID '{entry_id}' found!")
+            print(f"    First occurrence: {seen_ids[entry_id]}")
+            print(f"    Second occurrence: {e.get('_source_file', 'unknown')}")
+        else:
+            seen_ids[entry_id] = e.get('_source_file', 'unknown')
 
     # Create entries dictionary for cross-reference lookups
     entries_dict = {e['id']: e for e in entries}

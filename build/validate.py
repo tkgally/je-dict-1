@@ -157,11 +157,16 @@ def validate_structured_cross_reference(ref: dict, entry_reading: str, entry_hea
     elif not is_valid_hiragana(ref['reading']):
         errors.append(f"Cross-reference reading must be hiragana: '{ref['reading']}'")
     else:
-        # Check for self-reference: both reading AND headword must match
-        # (Entries with same reading but different headwords are valid cross-references)
-        ref_headword = ref.get('headword', '')
-        if ref['reading'] == entry_reading and ref_headword == entry_headword:
-            errors.append(f"Self-reference not allowed: '{ref['reading']}' with headword '{ref_headword}'")
+        # Check for self-reference
+        ref_headword = ref.get('headword')
+        if ref['reading'] == entry_reading:
+            # Case 1: Both reading AND headword match - definite self-reference
+            if ref_headword == entry_headword:
+                errors.append(f"Self-reference not allowed: '{ref['reading']}' with headword '{ref_headword}'")
+            # Case 2: Reading matches but cross-ref has no headword specified
+            # This is a potential self-reference since it could resolve to this entry
+            elif not ref_headword:
+                errors.append(f"Potential self-reference: '{ref['reading']}' has no headword specified (could match this entry)")
 
     return errors
 

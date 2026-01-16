@@ -32,21 +32,21 @@ This document tracks fixes based on code reviews from three LLMs. Work through t
 ## Session 2: Data Integrity
 
 ### Task 2.1: Fix cross-reference migration losing distinct refs
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/migrate_cross_references.py`
 - **Issue**: Deduplication uses only `reading`, dropping refs with same reading but different type/headword/label
 - **Fix**: Use composite key `(type, reading, headword, label)` for deduplication
 - **Review**: 1 (#1)
 
 ### Task 2.2: Add duplicate ID check to build
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/build_flat.py` (around line 722)
 - **Issue**: `entries_dict = {e['id']: e for e in entries}` silently overwrites duplicates
 - **Fix**: Add explicit duplicate check with warning/error
 - **Review**: 3 (#5)
 
 ### Task 2.3: Fix self-reference validation gap
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/validate.py`
 - **Issue**: Self-reference detection only fires when both reading AND headword match; same-reading refs without headword pass
 - **Fix**: If reading matches and headword is missing, treat as potential self-reference
@@ -216,7 +216,7 @@ These are larger efforts noted by reviewers but not prioritized for immediate ac
 | Session | Date | Tasks Completed |
 |---------|------|-----------------|
 | 1 | 2026-01-16 | 1.1, 1.2, 1.3 |
-| 2 | - | - |
+| 2 | 2026-01-16 | 2.1, 2.2, 2.3 |
 | 3 | - | - |
 | 4 | - | - |
 | 5 | - | - |
