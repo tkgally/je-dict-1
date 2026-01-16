@@ -54,7 +54,7 @@ A word qualifies for addition if it meets at least one of these criteria:
 The word should have a usage frequency or centrality to contemporary Japanese similar to words already in `entries_index.json`.
 
 **How to assess:**
-- Consider whether the word would appear in JLPT N5-N1 vocabulary lists
+- Evaluate words based on the three-tier vocabulary system (see vocabulary-tiers skill): basic (fundamental 600-800 words), core (1600-2000 words for adult communication), or general (all other useful vocabulary)
 - Consider whether an intermediate learner would encounter this word regularly
 - Compare to existing entries at similar frequency levels
 

@@ -47,7 +47,7 @@ Check for missing **fundamental words** that may have been overlooked:
 - Essential particles and conjunctions: しかし, でも, だから, そして, または, それに
 - Numbers, counters, time words: basic gaps in these systematic categories
 
-**Method**: Check JLPT N5-N4 word lists against entries_index.json systematically.
+**Method**: Check basic vocabulary lists against entries_index.json. Prioritize words that would belong to the basic or core tiers in the three-tier vocabulary system.
 
 ### Tier 2: Semantic Domain Completion (60-80 candidates)
 Fill gaps in **semantic categories** already partially covered:
@@ -89,7 +89,7 @@ Add contemporary terms with stable usage:
 - Extremely specialized technical jargon
 
 **Should BE:**
-- Words a JLPT N5-N1 learner would encounter
+- Words appropriate for the three-tier vocabulary system (basic, core, or general tier)
 - Semantically related to existing entries
 - Modern terms with widespread, stable usage
 - Useful informal expressions learners need to understand

@@ -348,7 +348,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     created_str = format_jst_datetime(created)
     modified_str = format_jst_datetime(modified)
     is_revised = created and modified and created != modified
-    jlpt_level = metadata.get('jlpt_level', '')
+    vocabulary_tier = metadata.get('vocabulary_tier', '')
     review_status = metadata.get('review_status', 'draft')
 
     date_display = ''
@@ -363,7 +363,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         <div class="entry-metadata">
             <div class="metadata-row">
                 <div class="metadata-badges">
-                    {f'<span class="badge jlpt">{jlpt_level}</span>' if jlpt_level else ''}
+                    {f'<span class="badge tier">{vocabulary_tier}</span>' if vocabulary_tier else ''}
                     <span class="badge status-{review_status}">{review_status}</span>
                 </div>
                 <div class="metadata-dates">{date_display}</div>
@@ -1350,7 +1350,7 @@ main {
     font-size: 0.8rem;
 }
 
-.badge.jlpt {
+.badge.tier {
     background-color: #dbeafe;
     color: #1e40af;
 }

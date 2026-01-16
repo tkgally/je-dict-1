@@ -62,7 +62,7 @@ Choose the entry with **better quality**. Evaluate:
 | **Example quality** | Natural, varied, useful examples |
 | **Notes richness** | Covers usage, collocations, learner traps |
 | **Cross-references** | Links to related entries |
-| **JLPT level** | Has accurate level assigned |
+| **Vocabulary tier** | Has appropriate tier assigned (if any) |
 | **Furigana** | All kanji properly annotated |
 
 **Tie-breaker**: Keep the entry with the **lower ID number** (older entry).
@@ -74,7 +74,7 @@ Before deleting, check if the inferior entry has unique content worth preserving
 - Unique examples not in the better entry
 - Additional usage notes or collocations
 - Cross-references to other entries
-- Different JLPT level assessment (choose the more accurate one)
+- Different vocabulary tier assignment (choose the more accurate one)
 
 If so, **edit the keeper entry first** to incorporate the valuable content:
 
