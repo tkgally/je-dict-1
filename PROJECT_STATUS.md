@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 5,958
+- **Total entries**: 6,008
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~1,019 words tracked in `candidate_words.json`
+- **Candidate words**: ~968 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 68)
+Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Onomatopoeia (11): しとしと (drizzling), ざあざあ (pouring), さくさく (crispy), つやつや (glossy), ぱちぱち (crackling), こっそり (secretly), ぎっしり (packed), びっしり (densely), がっくり (dejected), るんるん (cheerfully), がりがり (crunching)
+- ABAB adverbs (5): {堂々|どうどう} (dignified), {延々|えんえん} (endlessly), {淡々|たんたん} (calmly), {刻々|こっこく} (moment by moment), {代々|だいだい} (for generations)
+- Modern/social media (6): リプライ (reply), ブロック (block), ミュート (mute), パワハラ (power harassment), セクハラ (sexual harassment)
+- Legal/business terms (5): {判決|はんけつ} (verdict), {仲裁|ちゅうさい} (arbitration), {却下|きゃっか} (rejection), {認証|にんしょう} (authentication), {緊迫|きんぱく} (tension)
+- Keigo verbs (5): {届|とど}け{出|で}る (to report), お{越|こ}しになる (to come, honorific), {存|ぞん}じる (to know, humble), {頂戴|ちょうだい}する (to receive, humble), {恐|おそ}れ{入|い}る (to be obliged)
+- Adjectives (3): {甘酸|あまず}っぱい (bittersweet), {四角|しかく}い (square-shaped), {差|さ}し{支|つか}える (to hinder)
+- Opposite/compound words (4): {功罪|こうざい} (merits and demerits), {需給|じゅきゅう} (supply and demand), {起伏|きふく} (ups and downs), {反面|はんめん} (on the other hand)
+- Cultural/ceremonial (4): {初節句|はつぜっく} (baby's first festival), {告別式|こくべつしき} (funeral service), {法要|ほうよう} (memorial service), お{宮参|みやまい}り (shrine visit for newborn)
+- Sports/music (4): シュート (shot), ドリブル (dribble), アンコール (encore), アドリブ (ad-lib)
+- Nature/other (3): {五月雨|さみだれ} (early summer rain), {三昧|ざんまい} (absorption in), {万全|ばんぜん} (perfect), {稲刈|いねか}り (rice harvesting)
+
+Notable entry features:
+- Comprehensive onomatopoeia covering sounds, textures, and emotional states
+- ABAB-pattern adverbs with kanji reduplication ({堂々|どうどう}, {延々|えんえん}, etc.)
+- Modern harassment terminology (パワハラ, セクハラ) with workplace context
+- Formal keigo verbs including humble ({謙譲語|けんじょうご}) and honorific ({尊敬語|そんけいご}) forms
+- Japanese ceremonial vocabulary covering lifecycle events (birth, death, memorials)
+- Cross-references added linking related terms (シュート↔ドリブル, パワハラ↔セクハラ)
+
+Total entries: 5,958 → 6,008
+Remaining candidates: 1,019 → 968
 
 ### 2026-01-16 (New Candidates - 100 Words Added, Session 67)
 Added 100 new candidate words to `candidate_words.json` using balanced coverage strategy:
@@ -335,55 +360,6 @@ Notable entry features:
 
 Total entries: 5,407 → 5,507
 Remaining candidates: 1,354 → 1,247
-
-### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 59)
-Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Onomatopoeia (20): さらさら (smooth/rustling), ぺらぺら (fluent), とろとろ (thick/gooey), ねばねば (sticky), ぱりぱり (crispy), もちもち (chewy), がんがん (pounding), ずきずき (throbbing), ひりひり (stinging), じんじん (tingling), むかむか (nauseous), びくびく (nervous), そわそわ (restless), はらはら (anxious), ぼーっと (spaced out), うとうと (drowsy), うっとり (enchanted), ぞっと (shuddering), へとへと (exhausted), がたがた (rattling)
-- Technology (7): クリック (click), ログイン (login), パスワード (password), オンライン (online), ネット (internet), ファイル (file), タブレット (tablet)
-- Household items (10): エアコン (air conditioner), ヒーター (heater), リモコン (remote), ケトル (kettle), ポット (pot), {爪切|つめき}り (nail clippers), しゃもじ (rice paddle), ぬいぐるみ (stuffed toy), {印鑑|いんかん} (seal), レシート (receipt)
-- Body parts (3): {眉毛|まゆげ} (eyebrow), こめかみ (temple), {手|て}のひら (palm)
-- Transportation (5): バス{停|てい} (bus stop), {終電|しゅうでん} (last train), {車両|しゃりょう} (vehicle/train car), {乗車券|じょうしゃけん} (ticket), {運賃|うんちん} (fare)
-- Rooms (2): {寝室|しんしつ} (bedroom), {浴室|よくしつ} (bathroom)
-- Verbs (3): {憧|あこが}れる (to admire), {叶|かな}う (to come true), {励|はげ}ます (to encourage)
-- Expressions (8): じゃあね (see ya), またね (see you later), だるい (sluggish), {面倒臭|めんどくさ}い (bothersome), なんか (like/somehow), ぶっちゃけ (to be honest), ぼちぼち (so-so), ほどほど (moderation)
-- Abstract nouns (12): {難民|なんみん} (refugee), {移民|いみん} (immigrant), {世論|せろん} (public opinion), {真実|しんじつ} (truth), {意欲|いよく} (motivation), {体力|たいりょく} (stamina), {自覚|じかく} (self-awareness), {協定|きょうてい} (agreement), {同盟|どうめい} (alliance), {研修|けんしゅう} (training), {練習|れんしゅう} (practice), {古代|こだい} (ancient times)
-- Measurements/Math (18): {産業|さんぎょう} (industry), {資源|しげん} (resources), {強力|きょうりょく} (powerful), {探査|たんさ} (exploration), {哲学|てつがく} (philosophy), {心理|しんり} (psychology), {楽|たの}しむ (to enjoy), {苦|くる}しむ (to suffer), {長|なが}さ (length), {高|たか}さ (height), {深|ふか}さ (depth), {厚|あつ}さ (thickness), {広|ひろ}さ (width), {面積|めんせき} (area), {体積|たいせき} (volume), {距離|きょり} (distance), {速度|そくど} (speed), {割合|わりあい} (ratio)
-- Academic subjects (12): {平均|へいきん} (average), {合計|ごうけい} (total), {足|た}し{算|ざん} (addition), {引|ひ}き{算|ざん} (subtraction), {掛|か}け{算|ざん} (multiplication), {割|わ}り{算|ざん} (division), {数学|すうがく} (mathematics), {科学|かがく} (science), {化学|かがく} (chemistry), {物理|ぶつり} (physics), {生物|せいぶつ} (biology), {歴史|れきし} (history)
-
-Notable entry features:
-- Comprehensive onomatopoeia for textures, sensations, and emotional states
-- Complete set of basic math operations (四則演算)
-- Academic subjects useful for educational contexts
-- Measurement vocabulary with related adjective notes
-- Cross-references added linking homophones ({科学|かがく}↔{化学|かがく})
-
-Total entries: 5,307 → 5,407
-Remaining candidates: 1,441 → 1,354
-
-### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 58)
-Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Onomatopoeia (26): ぴかぴか (sparkling), ふわふわ (fluffy), どきどき (heart pounding), わくわく (excited), きらきら (glittering), ぐるぐる (spinning), ぺこぺこ (hungry/bowing), のろのろ (slowly), すべすべ (smooth), ぼろぼろ (worn out), ばらばら (scattered), ぎりぎり (barely), ぶらぶら (wandering), うろうろ (loitering), くたくた (exhausted), ぐちゃぐちゃ (messy), べたべた (sticky), からから (parched), ぬるぬる (slimy), ざらざら (rough), つるつる (slippery), ごろごろ (rumbling), にこにこ (smiling), めちゃくちゃ (absurd), ぐっと (firmly), すっきり (refreshed)
-- Food/Noodles (3): ラーメン (ramen), うどん (udon), チョコレート (chocolate)
-- Vegetables (13): じゃがいも (potato), {人参|にんじん} (carrot), {大根|だいこん} (daikon), キャベツ (cabbage), {法蓮草|ほうれんそう} (spinach), {葱|ねぎ} (green onion), にんにく (garlic), {生姜|しょうが} (ginger), トマト (tomato), レタス (lettuce), メロン (melon), {胡瓜|きゅうり} (cucumber), {玉葱|たまねぎ} (onion)
-- Animals (8): ライオン (lion), かもめ (seagull), カブトムシ (beetle), {蝉|せみ} (cicada), アヒル (duck), {鶏|にわとり} (chicken), {山羊|やぎ} (goat), {蜻蛉|とんぼ} (dragonfly)
-- Daily expressions (5): おはよう (good morning), おやすみ (good night), どういたしまして (you're welcome), {お疲|おつか}れ{様|さま} (thank you for your work), とりあえず (for now)
-- Adverbs (2): ちなみに (by the way), そもそも (in the first place)
-- Abstract concepts (8): {忍耐|にんたい} (patience), {好奇心|こうきしん} (curiosity), {創造性|そうぞうせい} (creativity), {矛盾|むじゅん} (contradiction), {調和|ちょうわ} (harmony), {均衡|きんこう} (equilibrium), {中断|ちゅうだん} (interruption), {再開|さいかい} (resumption)
-- Technology/Media (15): ブランド (brand), マーケティング (marketing), ウイルス (virus), {貼|は}り{付|つ}け (paste), {画素|がそ} (pixel), タッチパネル (touchscreen), {取材|しゅざい} (news gathering), {広報|こうほう} (PR), {吹|ふ}き{替|か}え (dubbing), スキャナー (scanner), テレビ{電話|でんわ} (video call), ドキュメンタリー (documentary), アダプター (adapter), ビッグデータ (big data), {和英|わえい} (Japanese-English)
-- Music/Arts (5): {和歌|わか} (waka poetry), {和楽器|わがっき} (Japanese instruments), {独唱|どくしょう} (solo), {作詞|さくし} (lyrics writing), {編曲|へんきょく} (arrangement)
-- Sports/Exercise (7): ボクシング (boxing), レスリング (wrestling), サーフィン (surfing), ダイビング (diving), ストレッチ (stretching), ウォーキング (walking)
-- Science/Politics (8): {与党|よとう} (ruling party), {過疎化|かそか} (depopulation), {染色体|せんしょくたい} (chromosome), {小惑星|しょうわくせい} (asteroid), {成層圏|せいそうけん} (stratosphere), オゾン{層|そう} (ozone layer), {脈|みゃく} (pulse), {塵紙|ちりがみ} (tissue paper)
-
-Notable entry features:
-- Comprehensive onomatopoeia coverage for common sensory descriptions
-- Vegetable vocabulary useful for cooking and shopping contexts
-- Science vocabulary includes space and environmental terms
-- Cross-references added linking antonym pairs ({中断|ちゅうだん}↔{再開|さいかい})
-
-Total entries: 5,207 → 5,307
-Remaining candidates: 1,548 → 1,441
 
 ---
 
