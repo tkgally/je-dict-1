@@ -23,14 +23,25 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 
-CANDIDATES_FILE = Path('candidate_words.json')
+# Calculate paths relative to script location
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+CANDIDATES_FILE = PROJECT_ROOT / 'candidate_words.json'
+ENTRIES_DIR = PROJECT_ROOT / 'entries'
 
 
 def load_candidates() -> dict:
     """Load the candidates file, or create empty structure if not exists."""
     if CANDIDATES_FILE.exists():
-        with open(CANDIDATES_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        try:
+            with open(CANDIDATES_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except json.JSONDecodeError as e:
+            print(f"Error: Invalid JSON in {CANDIDATES_FILE}: {e}")
+            sys.exit(1)
+        except PermissionError:
+            print(f"Error: Permission denied reading {CANDIDATES_FILE}")
+            sys.exit(1)
     return {
         'metadata': {
             'description': 'Candidate words to potentially add to the dictionary',
@@ -47,23 +58,38 @@ def save_candidates(data: dict):
     data['metadata']['last_updated'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     data['metadata']['total_candidates'] = len(data['candidates'])
 
-    with open(CANDIDATES_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    try:
+        with open(CANDIDATES_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    except PermissionError:
+        print(f"Error: Permission denied writing to {CANDIDATES_FILE}")
+        sys.exit(1)
+    except OSError as e:
+        print(f"Error: Could not write to {CANDIDATES_FILE}: {e}")
+        sys.exit(1)
 
 
 def get_existing_entries() -> set:
     """Get set of (reading, headword) tuples from existing dictionary entries."""
     existing = set()
-    entries_dir = Path('entries')
 
-    for entry_file in entries_dir.rglob('*.json'):
-        with open(entry_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            reading = data.get('reading', '')
-            headword = data.get('headword', '')
-            # Clean headword of furigana notation
-            clean_headword = re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', headword)
-            existing.add((reading, clean_headword))
+    if not ENTRIES_DIR.exists():
+        print(f"Warning: Entries directory not found: {ENTRIES_DIR}")
+        return existing
+
+    for entry_file in ENTRIES_DIR.rglob('*.json'):
+        try:
+            with open(entry_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                reading = data.get('reading', '')
+                headword = data.get('headword', '')
+                # Clean headword of furigana notation
+                clean_headword = re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', headword)
+                existing.add((reading, clean_headword))
+        except json.JSONDecodeError as e:
+            print(f"Warning: Invalid JSON in {entry_file}: {e}")
+        except PermissionError:
+            print(f"Warning: Permission denied reading {entry_file}")
 
     return existing
 

@@ -6,15 +6,44 @@ Clean up candidate_words.json:
 """
 
 import json
+import sys
 from datetime import datetime, timezone
+from pathlib import Path
+
+# Calculate paths relative to script location
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+CANDIDATES_FILE = PROJECT_ROOT / 'candidate_words.json'
+ENTRIES_INDEX_FILE = PROJECT_ROOT / 'entries_index.json'
+
 
 def load_json(filepath):
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    """Load JSON file with error handling."""
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"Error: File not found: {filepath}")
+        sys.exit(1)
+    except json.JSONDecodeError as e:
+        print(f"Error: Invalid JSON in {filepath}: {e}")
+        sys.exit(1)
+    except PermissionError:
+        print(f"Error: Permission denied reading {filepath}")
+        sys.exit(1)
+
 
 def save_json(filepath, data):
-    with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    """Save JSON file with error handling."""
+    try:
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    except PermissionError:
+        print(f"Error: Permission denied writing to {filepath}")
+        sys.exit(1)
+    except OSError as e:
+        print(f"Error: Could not write to {filepath}: {e}")
+        sys.exit(1)
 
 def normalize_reading(reading):
     """Normalize reading for comparison - convert to hiragana lowercase."""
@@ -31,8 +60,8 @@ def normalize_reading(reading):
 
 def main():
     # Load data
-    candidates_data = load_json('candidate_words.json')
-    entries_data = load_json('entries_index.json')
+    candidates_data = load_json(CANDIDATES_FILE)
+    entries_data = load_json(ENTRIES_INDEX_FILE)
 
     original_count = len(candidates_data['candidates'])
     print(f"Original candidates: {original_count}")
@@ -106,8 +135,8 @@ def main():
     candidates_data['metadata']['total_candidates'] = len(filtered_candidates)
     candidates_data['metadata']['last_updated'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    save_json('candidate_words.json', candidates_data)
-    print(f"\nSaved updated candidate_words.json")
+    save_json(CANDIDATES_FILE, candidates_data)
+    print(f"\nSaved updated {CANDIDATES_FILE}")
     print(f"Total removed: {original_count - len(filtered_candidates)}")
 
 if __name__ == '__main__':

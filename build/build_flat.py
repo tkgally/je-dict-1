@@ -1920,21 +1920,33 @@ def build_flat(project_root: Path) -> int:
             'headword': e.get('headword', '')
         })
 
-    # Step 2: Create output directories
+    # Step 2: Create output directories (atomic build pattern)
     print("\n[2/6] Creating output directories...")
 
-    # Clean up generated content deterministically
-    # Remove everything in docs/ except docs/flat/ (which contains a redirect)
-    if docs_dir.exists():
-        preserved_dirs = {'flat'}  # Directories to preserve
-        for item in docs_dir.iterdir():
-            if item.name not in preserved_dirs:
-                if item.is_dir():
-                    shutil.rmtree(item)
-                else:
-                    item.unlink()
+    # Build to a temporary directory first, then swap atomically
+    # This ensures a failed build doesn't leave docs/ in a broken state
+    temp_dir = project_root / 'docs_build_temp'
+    backup_dir = project_root / 'docs_backup'
+    preserved_dirs = {'flat'}  # Directories to preserve
 
-    docs_dir.mkdir(parents=True, exist_ok=True)
+    # Clean up any leftover temp/backup dirs from previous failed builds
+    if temp_dir.exists():
+        shutil.rmtree(temp_dir)
+    if backup_dir.exists():
+        shutil.rmtree(backup_dir)
+
+    temp_dir.mkdir(parents=True, exist_ok=True)
+
+    # Copy preserved directories from existing docs/ to temp build dir
+    if docs_dir.exists():
+        for preserved in preserved_dirs:
+            src = docs_dir / preserved
+            if src.exists():
+                shutil.copytree(src, temp_dir / preserved)
+
+    # Use temp_dir for all build output (reassign docs_dir for the build)
+    original_docs_dir = docs_dir
+    docs_dir = temp_dir
 
     # Entry directories will be created dynamically with prefix subdirectories
     entries_output_dir = docs_dir / 'entries'
@@ -2006,13 +2018,36 @@ def build_flat(project_root: Path) -> int:
         f.write(generate_stylesheet())
     print("  Generated styles.css")
 
+    # Atomic swap: replace original docs/ with newly built temp_dir
+    print("\n[Swap] Atomically replacing output directory...")
+    try:
+        # Move original docs/ to backup (if it exists)
+        if original_docs_dir.exists():
+            original_docs_dir.rename(backup_dir)
+
+        # Move temp build to docs/
+        docs_dir.rename(original_docs_dir)
+
+        # Remove backup after successful swap
+        if backup_dir.exists():
+            shutil.rmtree(backup_dir)
+
+        print("  Swap complete")
+    except OSError as e:
+        print(f"  ERROR: Failed to swap directories: {e}")
+        print("  Build output remains in: {temp_dir}")
+        # Try to restore backup if swap failed midway
+        if backup_dir.exists() and not original_docs_dir.exists():
+            backup_dir.rename(original_docs_dir)
+        return 1
+
     # Summary
     print("\n" + "=" * 50)
     print("Build complete!")
     print(f"  Total entries: {len(entries)}")
-    print(f"  Output: {docs_dir}")
+    print(f"  Output: {original_docs_dir}")
     print("\nTo view the dictionary:")
-    print(f"  Open {docs_dir / 'index.html'} in your browser")
+    print(f"  Open {original_docs_dir / 'index.html'} in your browser")
 
     return 0
 

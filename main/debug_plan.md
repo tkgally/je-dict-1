@@ -57,21 +57,21 @@ This document tracks fixes based on code reviews from three LLMs. Work through t
 ## Session 3: Robustness & Error Handling
 
 ### Task 3.1: Add error handling to utility scripts
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **Files**: `build/cleanup_candidates.py`, `build/manage_candidates.py`
 - **Issue**: JSON file operations lack try/except
 - **Fix**: Add proper error handling with clear messages
 - **Review**: 2 (#4)
 
 ### Task 3.2: Fix hardcoded relative paths
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/manage_candidates.py` (line 27)
 - **Issue**: `CANDIDATES_FILE = Path('candidate_words.json')` fails from non-root directory
 - **Fix**: Calculate path relative to script location
 - **Review**: 2 (#5)
 
 ### Task 3.3: Make build process atomic
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/build_flat.py`
 - **Issue**: Build deletes docs/ before generating - failed builds leave broken state
 - **Fix**: Build to temp directory, then swap atomically (or add preserved files list)
@@ -217,7 +217,7 @@ These are larger efforts noted by reviewers but not prioritized for immediate ac
 |---------|------|-----------------|
 | 1 | 2026-01-16 | 1.1, 1.2, 1.3 |
 | 2 | 2026-01-16 | 2.1, 2.2, 2.3 |
-| 3 | - | - |
+| 3 | 2026-01-16 | 3.1, 3.2, 3.3 |
 | 4 | - | - |
 | 5 | - | - |
 | 6 | - | - |
