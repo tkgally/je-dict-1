@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="合間 - interval; gap; between. Japanese-English dictionary entry with definitions and examples.">
+    <title>合間 (あいま) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">あいま</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">interval; gap; between</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">interval; gap; between</span>
+                    <div class="definition-explanation">A break or pause between activities; spare time during a busy schedule.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>仕事<rp>(</rp><rt>しごと</rt><rp>)</rp></ruby>の<ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby>にコーヒーを<ruby>飲<rp>(</rp><rt>の</rt><rp>)</rp></ruby>む。</div>
+                    <div class="example-english">I drink coffee between work tasks.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>授業<rp>(</rp><rt>じゅぎょう</rt><rp>)</rp></ruby>の<ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby>に<ruby>友達<rp>(</rp><rt>ともだち</rt><rp>)</rp></ruby>と<ruby>話<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I talked with friends between classes.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby>を<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>つけて<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">I study whenever I find spare moments.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>COMMON COLLOCATIONS:</p><ul><li><ruby>仕事<rp>(</rp><rt>しごと</rt><rp>)</rp></ruby>の<ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby>に: between work tasks</li><li><ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby>を<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>つける: to find spare time</li><li><ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby>を<ruby>縫<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>って: squeezing in between (activities)</li><li>ちょっとした<ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby>に: during a brief interval</li></ul><p>NUANCE:<br><ruby>合間<rp>(</rp><rt>あいま</rt><rp>)</rp></ruby> emphasizes using small pockets of time productively or for brief activities.</p><p>SIMILAR WORDS:</p><ul><li><ruby>間<rp>(</rp><rt>あいだ</rt><rp>)</rp></ruby>: between, interval (more general)</li><li><ruby>休憩<rp>(</rp><rt>きゅうけい</rt><rp>)</rp></ruby>: break, rest</li><li><ruby>隙間<rp>(</rp><rt>すきま</rt><rp>)</rp></ruby>: gap, crack (physical)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 18:40</div>
+                <div class="metadata-file">a/ai/aima_05846</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

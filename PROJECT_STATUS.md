@@ -31,9 +31,9 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 5,807
+- **Total entries**: 5,907
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~1,067 words tracked in `candidate_words.json`
+- **Candidate words**: ~967 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 65)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Cultural vocabulary (8): {七夕|たなばた} (Tanabata), {法事|ほうじ} (memorial service), {披露宴|ひろうえん} (wedding reception), {盆踊|ぼんおど}り (Bon dance), お{葬式|そうしき} (funeral), お{見合|みあ}い (matchmaking), {鯉|こい}のぼり (carp streamers), {羽織|はおり} (haori jacket)
+- Onomatopoeia (10): もふもふ (fluffy), ぎゅうぎゅう (crammed), ぽたぽた (dripping), ぶんぶん (buzzing), カチカチ (clicking), ばりばり (crunching), ぱくぱく (gobbling), じゃぶじゃぶ (splashing), ぼうぼう (overgrown), てきぱき (efficiently)
+- Adverbs (11): あっさり (lightly), がっちり (firmly), ざっくり (roughly), すんなり (smoothly), ばっちり (perfectly), ばっさり (decisively), やたらに (excessively), {無闇|むやみ}に (recklessly), {碌|ろく}に (properly), ありのまま (as is), {却|かえ}って (on the contrary)
+- ～的 adjectives (13): {革新的|かくしんてき} (innovative), {批判的|ひはんてき} (critical), {協力的|きょうりょくてき} (cooperative), {標準的|ひょうじゅんてき} (standard), {代表的|だいひょうてき} (representative), {全面的|ぜんめんてき} (overall), {部分的|ぶぶんてき} (partial), {中心的|ちゅうしんてき} (central), {内面的|ないめんてき} (internal), {外面的|がいめんてき} (external), {感覚的|かんかくてき} (sensory), {知性的|ちせいてき} (intellectual), {主体的|しゅたいてき} (autonomous)
+- ～やか adjectives (2): {淑|しと}やか (graceful), {煌|きら}びやか (dazzling)
+- Compound verbs (7): {受|う}け{付|つ}ける (to accept), {受|う}け{持|も}つ (to be in charge), {受|う}け{流|なが}す (to deflect), {引|ひ}き{上|あ}げる (to pull up), {立|た}て{込|こ}む (to be busy), {乗|の}りこなす (to master riding), {掛|か}け{合|あ}う (to negotiate)
+- Four-character idioms (3): {一心不乱|いっしんふらん} (single-minded), {起死回生|きしかいせい} (revival), {七転八起|しちてんはっき} (perseverance)
+- Number compounds (2): {五感|ごかん} (five senses), {九九|くく} (multiplication table)
+- Abstract ～性 nouns (10): {独創性|どくそうせい} (originality), {柔軟性|じゅうなんせい} (flexibility), {適応性|てきおうせい} (adaptability), {正確性|せいかくせい} (accuracy), {緊急性|きんきゅうせい} (urgency), {整合性|せいごうせい} (consistency), {妥当性|だとうせい} (validity), {合理性|ごうりせい} (rationality), {論理性|ろんりせい} (logic), {探究心|たんきゅうしん} (curiosity)
+- Society/politics (3): {都市化|としか} (urbanization), {安全保障|あんぜんほしょう} (security), {自衛隊|じえいたい} (Self-Defense Forces)
+- Business/procedures (10): {登録|とうろく} (registration), {解除|かいじょ} (cancellation), {免除|めんじょ} (exemption), {早退|そうたい} (leaving early), {加盟|かめい} (joining), {脱退|だったい} (withdrawal), {提携|ていけい} (partnership), {処置|しょち} (treatment), {統括|とうかつ} (supervision), {勧告|かんこく} (recommendation)
+- Other nouns (21): {臓器|ぞうき} (organ), {新旧|しんきゅう} (old and new), {合間|あいま} (interval), {羨望|せんぼう} (envy), {珍味|ちんみ} (delicacy), {盛|も}り{付|つ}け (plating), {財政|ざいせい} (finance), {紛争|ふんそう} (conflict), {作用|さよう} (effect), {偏|かたよ}り (bias), {局面|きょくめん} (phase), {側面|そくめん} (aspect), {風潮|ふうちょう} (trend), {風習|ふうしゅう} (custom), {無意識|むいしき} (unconscious), {不参加|ふさんか} (non-participation), {出発点|しゅっぱつてん} (starting point), {記述|きじゅつ} (description), {評論|ひょうろん} (criticism), {打診|だしん} (sounding out), それなら (if so)
+
+Notable entry features:
+- Japanese cultural vocabulary including ceremonies and traditional items
+- Comprehensive ～的 adjective coverage for expressing qualities and states
+- Abstract ～性 nouns useful for academic and business contexts
+- Society and politics vocabulary including Self-Defense Forces with cultural notes
+- Business procedure terms covering membership, exemptions, and organizational management
+
+Total entries: 5,807 → 5,907
+Remaining candidates: 1,067 → 967
 
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 64)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -312,32 +338,6 @@ Added 200 new candidates to `candidate_words.json` using the balanced coverage s
 - **Tier 5 - Modern & Informal Vocabulary** (28 candidates): Technology (アップデート, クリック, タップ, スワイプ, ログイン, パスワード, シェア, いいね, コメント, バグ, アカウント, プロフィール, オンライン, オフライン), lifestyle abbreviations (就活, 婚活, 終活, バイト), and social media (炎上, 既読).
 
 Total candidates: 1,452 → 1,652
-
-### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 56)
-Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Sports (12): {野球|やきゅう} (baseball), サッカー (soccer), バスケットボール (basketball), バレーボール (volleyball), ゴルフ (golf), マラソン (marathon), ジム (gym), ヨガ (yoga), ジョギング (jogging), スポーツ (sports), {決勝|けっしょう} (final), {予選|よせん} (preliminary)
-- Music terms (5): リズム (rhythm), テンポ (tempo), {和音|わおん} (chord), {旋律|せんりつ} (melody), {音階|おんかい} (scale)
-- Technology/Computing (15): サーバー (server), クラウド (cloud), ネットワーク (network), アップロード (upload), インストール (install), {更新|こうしん} (update), {設定|せってい} (settings), {入力|にゅうりょく} (input), {出力|しゅつりょく} (output), セキュリティ (security), {暗号|あんごう} (encryption), バックアップ (backup), ブラウザ (browser), アプリケーション (application), クライアント (client)
-- AI/Computing (2): {人工知能|じんこうちのう} (AI), {機械学習|きかいがくしゅう} (machine learning)
-- Business/Finance (15): {株式|かぶしき} (stock), {融資|ゆうし} (financing), {返済|へんさい} (repayment), {合併|がっぺい} (merger), {買収|ばいしゅう} (acquisition), {消費税|しょうひぜい} (consumption tax), {賃金|ちんぎん} (wages), {不況|ふきょう} (recession), {好況|こうきょう} (boom), インフレ (inflation), デフレ (deflation), {円高|えんだか} (strong yen), {円安|えんやす} (weak yen), {金利|きんり} (interest rate), {雇用|こよう} (employment)
-- Education (5): {大学院|だいがくいん} (graduate school), {予備校|よびこう} (prep school), {専門学校|せんもんがっこう} (vocational school), {履修|りしゅう} (course registration), {工学|こうがく} (engineering)
-- Science (4): {仮説|かせつ} (hypothesis), {定義|ていぎ} (definition), {分類|ぶんるい} (classification), {検証|けんしょう} (verification)
-- Math (4): {方程式|ほうていしき} (equation), {関数|かんすう} (function), {変数|へんすう} (variable), グラフ (graph)
-- Society/Politics (8): {内閣|ないかく} (cabinet), {介護|かいご} (nursing care), {少子化|しょうしか} (declining birthrate), {高齢化|こうれいか} (aging), {貧困|ひんこん} (poverty), {格差|かくさ} (disparity), {条約|じょうやく} (treaty), {社会保障|しゃかいほしょう} (social security)
-- Sports results (6): {勝敗|しょうはい} (victory/defeat), {引|ひ}き{分|わ}け (draw), {得点|とくてん} (score), {準優勝|じゅんゆうしょう} (runner-up), {準決勝|じゅんけっしょう} (semifinal), {所得税|しょとくぜい} (income tax)
-- Communication (4): {発信|はっしん} (transmission), {受信|じゅしん} (reception), {配信|はいしん} (streaming), {合唱|がっしょう} (chorus)
-- Abstract concepts (13): {本質|ほんしつ} (essence), {反応|はんのう} (reaction), {改革|かいかく} (reform), {達成|たっせい} (achievement), {可能性|かのうせい} (possibility), {必要性|ひつようせい} (necessity), {重要性|じゅうようせい} (importance), {多様性|たようせい} (diversity), {最大|さいだい} (maximum), {最小|さいしょう} (minimum), {最新|さいしん} (latest), {標準|ひょうじゅん} (standard), ボランティア (volunteer)
-- Tech hardware (7): コピー (copy), {圧縮|あっしゅく} (compression), {容量|ようりょう} (capacity), {解像度|かいぞうど} (resolution), ディスプレイ (display), メモリ (memory), {筋|きん}トレ (strength training)
-
-Notable entry features:
-- Computing entries include both Japanese and English terminology used in tech contexts
-- Business/Finance terms cover modern economic vocabulary
-- Cross-references added linking related terms (発信↔受信, 合唱↔独唱)
-- Sports vocabulary includes competition terminology
-
-Total entries: 5,007 → 5,107
-Remaining candidates: 1,552 → 1,452
 
 ---
 
