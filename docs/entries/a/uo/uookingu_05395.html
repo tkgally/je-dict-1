@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ウォーキング - walking (as exercise). Japanese-English dictionary entry with definitions and examples.">
+    <title>ウォーキング (うぉーきんぐ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ウォーキング</h1>
+            <div class="entry-reading">うぉーきんぐ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">walking (as exercise)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">walking (as exercise)</span>
+                    <div class="definition-explanation">Walking done regularly as a form of physical exercise for health and fitness.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>毎朝<rp>(</rp><rt>まいあさ</rt><rp>)</rp></ruby>30<ruby>分<rp>(</rp><rt>ぷん</rt><rp>)</rp></ruby>ウォーキングをしている。</div>
+                    <div class="example-english">I walk for 30 minutes every morning.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ウォーキングは<ruby>健康<rp>(</rp><rt>けんこう</rt><rp>)</rp></ruby>にいい。</div>
+                    <div class="example-english">Walking is good for your health.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ウォーキングシューズを<ruby>買<rp>(</rp><rt>か</rt><rp>)</rp></ruby>った。</div>
+                    <div class="example-english">I bought walking shoes.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ウォーキング refers specifically to walking as exercise.</p><p>RELATED TERMS:</p><ul><li>ウォーキングシューズ: walking shoes</li><li>ウォーキングコース: walking course</li><li><ruby>散歩<rp>(</rp><rt>さんぽ</rt><rp>)</rp></ruby>: walk, stroll (casual)</li><li>ジョギング: jogging</li></ul><p>NOTE: Different from <ruby>歩<rp>(</rp><rt>ある</rt><rp>)</rp></ruby>く (to walk) or <ruby>散歩<rp>(</rp><rt>さんぽ</rt><rp>)</rp></ruby>する (to take a walk), ウォーキング emphasizes the exercise aspect.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 12:32</div>
+                <div class="metadata-file">a/uo/uookingu_05395</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="おはよう - good morning (casual). Japanese-English dictionary entry with definitions and examples.">
+    <title>おはよう (おはよう) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">おはよう</h1>
+            <div class="entry-reading">おはよう</div>
+            <div class="entry-pos">expression</div>
+            <div class="entry-gloss">good morning (casual)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">good morning (casual)</span>
+                    <div class="definition-explanation">A casual greeting used in the morning, typically among friends, family, or equals.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">おはよう、<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>も<ruby>頑張<rp>(</rp><rt>がんば</rt><rp>)</rp></ruby>ろう。</div>
+                    <div class="example-english">Good morning, let&#x27;s do our best today too.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">「おはよう」「おはよう、よく<ruby>眠<rp>(</rp><rt>ねむ</rt><rp>)</rp></ruby>れた？」</div>
+                    <div class="example-english">&quot;Good morning.&quot; &quot;Morning, did you sleep well?&quot;</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>たちが「おはよう」と<ruby>挨拶<rp>(</rp><rt>あいさつ</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">The children greeted me with &#x27;good morning.&#x27;</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>おはよう is the casual form of the morning greeting.</p><p>FORMALITY LEVELS:</p><ul><li>おはよう: casual (friends, family, children)</li><li>おはようございます: polite (business, strangers, superiors)</li></ul><p>USAGE NOTES:</p><ul><li>Used roughly until late morning (around 10-11 AM)</li><li>In entertainment industry, used regardless of time as first greeting of the day</li><li>Can be shortened to おは in very casual texting</li></ul><p>ETYMOLOGY: From <ruby>お早<rp>(</rp><rt>はや</rt><rp>)</rp></ruby>う (&#x27;you&#x27;re early/it&#x27;s early&#x27;).</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N5</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 12:28</div>
+                <div class="metadata-file">a/oh/ohayou_05360</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

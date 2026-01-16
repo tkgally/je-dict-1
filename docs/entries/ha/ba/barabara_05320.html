@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ばらばら - scattered; in pieces; disjointed. Japanese-English dictionary entry with definitions and examples.">
+    <title>ばらばら (ばらばら) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ばらばら</h1>
+            <div class="entry-reading">ばらばら</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">scattered; in pieces; disjointed</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">scattered; in pieces</span>
+                    <div class="definition-explanation">Describes things that are separated, scattered, or not together.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">varied; inconsistent</span>
+                    <div class="definition-explanation">Describes opinions, times, or qualities that differ from each other.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>書類<rp>(</rp><rt>しょるい</rt><rp>)</rp></ruby>がばらばらになっている。</div>
+                    <div class="example-english">The documents are scattered.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>家族<rp>(</rp><rt>かぞく</rt><rp>)</rp></ruby>はばらばらに<ruby>住<rp>(</rp><rt>す</rt><rp>)</rp></ruby>んでいる。</div>
+                    <div class="example-english">The family members live separately.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>がばらばらで<ruby>決<rp>(</rp><rt>き</rt><rp>)</rp></ruby>まらない。</div>
+                    <div class="example-english">We can&#x27;t decide because opinions vary so much.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ばらばら is an onomatopoeic word (擬態語) describing separation or inconsistency.</p><p>COMMON PATTERNS:</p><ul><li>ばらばらになる: to become scattered/separated</li><li>ばらばらに<ruby>住<rp>(</rp><rt>す</rt><rp>)</rp></ruby>む: to live separately</li><li><ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>がばらばら: opinions are divided</li></ul><p>SIMILAR WORDS:</p><ul><li>めちゃくちゃ: messed up, chaotic</li><li>ぐちゃぐちゃ: jumbled, mixed up</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 12:17</div>
+                <div class="metadata-file">ha/ba/barabara_05320</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
