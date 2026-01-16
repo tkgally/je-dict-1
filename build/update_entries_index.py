@@ -11,9 +11,10 @@ Usage:
 """
 
 import json
-import re
 from pathlib import Path
 from datetime import datetime, timezone
+
+from japanese_utils import strip_furigana
 
 
 def extract_entry_info(entry_path: Path, project_root: Path) -> dict:
@@ -23,7 +24,7 @@ def extract_entry_info(entry_path: Path, project_root: Path) -> dict:
 
     # Get headword and clean it (remove furigana notation for display)
     headword = data.get('headword', '')
-    headword_clean = re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', headword)
+    headword_clean = strip_furigana(headword)
 
     # Get reading (kana)
     reading = data.get('reading', '')

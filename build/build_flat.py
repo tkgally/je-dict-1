@@ -11,23 +11,19 @@ import os
 import re
 import shutil
 import html
+from collections import defaultdict
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from typing import Optional
 
 from path_utils import get_entry_prefix
-from japanese_utils import hiragana_to_romaji, KANA_ROWS, KANA_TO_FOLDER, get_kana_folder
+from japanese_utils import (
+    hiragana_to_romaji, KANA_ROWS, KANA_TO_FOLDER, get_kana_folder,
+    FURIGANA_PATTERN, strip_furigana
+)
 
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
-
-# Pattern to match furigana notation: {kanji|reading}
-FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
-
-
-def strip_furigana(text: str) -> str:
-    """Strip furigana notation from text, keeping only the kanji."""
-    return FURIGANA_PATTERN.sub(r'\1', text)
 
 
 def process_furigana(text: str, show_furigana: bool = True) -> str:
@@ -1916,7 +1912,6 @@ def build_flat(project_root: Path) -> int:
 
     # Create reading-to-entries mapping for resolving cross-references
     # Maps reading -> list of {id, headword} for deterministic resolution
-    from collections import defaultdict
     readings_to_entries = defaultdict(list)
     for e in entries:
         readings_to_entries[e['reading']].append({

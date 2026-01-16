@@ -12,6 +12,7 @@ Usage:
 
 import json
 import re
+from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Any, Optional, Tuple
 
@@ -28,7 +29,6 @@ def build_reading_index(entries: List[Dict[str, Any]]) -> Dict[str, List[Dict[st
     Returns:
         Dictionary mapping reading (hiragana) to list of entry info dicts
     """
-    from collections import defaultdict
     index: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for entry in entries:
         reading = entry.get('reading', '')

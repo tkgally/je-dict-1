@@ -5,7 +5,29 @@ This module consolidates duplicated hiragana/romaji conversion and
 kana-to-folder mapping that were previously defined in multiple scripts.
 """
 
+import re
 from typing import Optional
+
+
+# Pattern to match furigana notation: {kanji|reading}
+# This pattern captures both groups: group 1 = kanji, group 2 = reading
+FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
+
+
+def strip_furigana(text: str) -> str:
+    """Strip furigana notation from text, keeping only the kanji.
+
+    Converts '{漢字|かんじ}' to '漢字'.
+
+    Args:
+        text: Text potentially containing furigana notation
+
+    Returns:
+        Text with furigana notation replaced by just the kanji portion
+    """
+    if not text:
+        return ''
+    return FURIGANA_PATTERN.sub(r'\1', text)
 
 
 # Mapping from hiragana to romaji
@@ -212,7 +234,6 @@ def romaji_to_hiragana(romaji: str) -> str:
 
     # Handle double consonants first (gemination)
     # These need special handling to avoid leaving trailing consonants
-    import re
     result = re.sub(r'([kstpgzdbj])\1', r'っ\1', result)
 
     # Apply conversions

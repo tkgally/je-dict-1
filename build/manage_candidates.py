@@ -17,10 +17,11 @@ Usage:
 """
 
 import json
-import re
 import sys
 from pathlib import Path
 from datetime import datetime, timezone
+
+from japanese_utils import strip_furigana
 
 
 # Calculate paths relative to script location
@@ -84,7 +85,7 @@ def get_existing_entries() -> set:
                 reading = data.get('reading', '')
                 headword = data.get('headword', '')
                 # Clean headword of furigana notation
-                clean_headword = re.sub(r'\{([^|]+)\|[^}]+\}', r'\1', headword)
+                clean_headword = strip_furigana(headword)
                 existing.add((reading, clean_headword))
         except json.JSONDecodeError as e:
             print(f"Warning: Invalid JSON in {entry_file}: {e}")
