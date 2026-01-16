@@ -7,6 +7,65 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 53)
+Added 50 new dictionary entries from candidate_words.json, focusing on household items, clothing, accessories, and work vocabulary:
+
+- Kitchen Utensils (10): ざる (colander), おたま (ladle), へら (spatula), {菜箸|さいばし} (cooking chopsticks), {汁椀|しるわん} (soup bowl), {小皿|こざら} (small plate), {大皿|おおざら} (large plate), {湯呑|ゆの}み (teacup), {箸置|はしお}き (chopstick rest), ボウル (mixing bowl)
+- Home/Living Items (10): ソファ (sofa), テーブル (table), {本棚|ほんだな} (bookshelf), クローゼット (closet), {扉|とびら} (door), {縁側|えんがわ} (veranda), {絨毯|じゅうたん} (carpet), シーツ (sheets), ベッド (bed), シャワー (shower)
+- Bathroom Items (5): スポンジ (sponge), シャンプー (shampoo), {歯|は}ブラシ (toothbrush), バスタオル (bath towel), {便器|べんき} (toilet bowl)
+- Clothing (10): パジャマ (pajamas), ブラウス (blouse), カーディガン (cardigan), ジャケット (jacket), パーカー (hoodie), ワンピース (dress), スニーカー (sneakers), ブーツ (boots), スリッパ (slippers), マフラー (scarf)
+- Accessories (5): サングラス (sunglasses), {腕時計|うでどけい} (wristwatch), ネックレス (necklace), リュック (backpack), {団扇|うちわ} (round fan)
+- Work Vocabulary (10): {勤務|きんむ} (work), {出勤|しゅっきん} (going to work), {退勤|たいきん} (leaving work), {有給|ゆうきゅう} (paid leave), {昇進|しょうしん} (promotion), {転勤|てんきん} (job transfer), {転職|てんしょく} (job change), {退職|たいしょく} (resignation), {解雇|かいこ} (dismissal), {採用|さいよう} (hiring)
+
+Notable entry features:
+- Comprehensive household vocabulary useful for daily life in Japan
+- Clothing entries include both loanwords and the casual/formal distinctions in Japanese
+- Work vocabulary covers the full employment lifecycle with cultural notes on Japanese workplace culture
+- All entries include common expressions and related vocabulary
+
+Total entries: 4,807 → 4,857
+Remaining candidates: 1,529 → 1,479
+
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 52)
+Added 50 new dictionary entries from candidate_words.json, focusing on technology/electronics, media/broadcasting, and traditional Japanese arts:
+
+- Technology/Electronics (15): {画面|がめん} (screen), キーボード (keyboard), マウス (mouse), プリンター (printer), カメラ (camera), スピーカー (speaker), イヤホン (earphones), ヘッドホン (headphones), バッテリー (battery), {充電|じゅうでん} (charging), {電源|でんげん} (power supply), コンセント (outlet), ケーブル (cable), {携帯電話|けいたいでんわ} (mobile phone), スマートフォン (smartphone)
+- Media/Communication (12): メール (email), チャット (chat), ニュース (news), {報道|ほうどう} (news coverage), {編集|へんしゅう} (editing), {見出|みだ}し (headline), {録画|ろくが} (recording), {再生|さいせい} (playback), {動画|どうが} (video), {映像|えいぞう} (footage), {音声|おんせい} (audio), {字幕|じまく} (subtitles)
+- Fine Arts (3): {美術|びじゅつ} (fine arts), {彫刻|ちょうこく} (sculpture), {陶芸|とうげい} (pottery)
+- Traditional Japanese Arts (5): {華道|かどう} (flower arrangement), {茶道|さどう} (tea ceremony), {剣道|けんどう} (kendo), {弓道|きゅうどう} (archery), {空手|からて} (karate)
+- Performing Arts (7): {歌舞伎|かぶき} (kabuki), {狂言|きょうげん} (kyogen), {落語|らくご} (rakugo), {漫才|まんざい} (manzai), {脚本|きゃくほん} (script), {演出|えんしゅつ} (direction), {視聴|しちょう} (viewing)
+- Musical Instruments (5): ギター (guitar), フルート (flute), ドラム (drums), {三味線|しゃみせん} (shamisen), {尺八|しゃくはち} (shakuhachi)
+- Other (3): オーケストラ (orchestra), {購読|こうどく} (subscription), チャンネル (channel)
+
+Notable entry features:
+- Comprehensive technology vocabulary for modern life and digital communication
+- Traditional Japanese arts entries include major schools, equipment, and cultural context
+- Performing arts entries cover traditional comedy, theater, and modern media
+- Musical instrument entries include both Western and Japanese traditional instruments
+
+Total entries: 4,757 → 4,807
+Remaining candidates: 1,579 → 1,529
+
+### 2026-01-14 (Candidate Words Expansion - 202 New Candidates)
+Added 202 new candidates to `candidate_words.json` using systematic semantic gap analysis:
+
+- **Medical/anatomical terms** (15): 肩甲骨, 肋骨, 骨盤, 脊椎, 靭帯, 軟骨, 毛細血管, リンパ, 通院, 処方, 感染, 炎症, 切り傷, 応急処置, 健康診断
+- **Four-character idioms & proverbs** (9): 二束三文, 三日坊主, 青息吐息, 本末転倒, 猿も木から落ちる, 石の上にも三年, 塵も積もれば山となる, 棚から牡丹餅, 一朝一夕
+- **Emotional/psychological terms** (8): 倦怠, 嫌悪, 渇望, 郷愁, 陶酔, 恍惚, 虚脱, 緊迫
+- **Traditional culture** (6): 褌, 朱肉, 御神籤, お宮参り, 告別式, 初七日, 四十九日, 一周忌, 三回忌, 法要
+- **Honorific vocabulary** (9): お越しになる, 存じる, 頂戴する, 拝借する, お供する, 恐れ入る, 差し支える, お手数, ご容赦
+- **Sports & music terms** (14): ドリブル, シュート, オフサイド, ファウル, ゴールキーパー, フォワード, ミッドフィルダー, ディフェンダー, スタメン, アレンジ, リフ, ビート, アドリブ, アンコール
+- **Business & finance** (10): 配当, 財務, 経理, 監査, 決算, 収益, 抵当, 担保, 手形, 小切手
+- **Transportation** (9): 滑走路, 離陸, 着陸, 搭乗, 乗車, 優先席, 車内, 車掌, 運転士
+- **Construction & architecture** (13): 施工, 骨組み, 外壁, 内装, 断熱, 防水, 耐震, 解体, 改築, 増築, 修繕, 塗装, 足場
+- **Agriculture** (12): 耕作, 播種, 灌漑, 肥料, 害虫, 苗床, 果樹園, 酪農, 牧場, 飼育, 家畜, 堆肥
+- **Modern vocabulary** (6): マウント, チルい, パワハラ, モラハラ, セクハラ, マタハラ
+- **Social media slang** (6): リツイート, ハッシュタグ, ネタ, 空気を読む, KY, ガチ勢
+- **Environment & energy** (8): 省エネ, ゴミ分別, 埋立地, 太陽光, 風力, 原子力, 水力, 炭素
+- **Other categories** (77): Various nouns, verbs, adjectives, and number compounds
+
+Total candidates: 1,377 → 1,579
+
 ### 2026-01-14 (Duplicate Entry Cleanup)
 Removed 112 duplicate entries (63 duplicate sets) using the new resolve-duplicates and delete-entry skills. Entry count reduced from 4,819 to 4,707.
 
