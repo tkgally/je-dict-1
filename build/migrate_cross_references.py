@@ -95,7 +95,7 @@ def normalize_cross_references(
         List of structured cross-references with duplicates removed
     """
     normalized = []
-    seen_readings = set()
+    seen_keys = set()
 
     for ref in refs:
         if isinstance(ref, str):
@@ -105,15 +105,19 @@ def normalize_cross_references(
             # Already structured
             structured = ref
 
-        # Check for duplicates by reading
+        # Check for duplicates using composite key (type, reading, headword, label)
+        # This preserves refs with same reading but different type/headword/label
+        ref_type = structured.get('type', '')
         reading = structured.get('reading', '')
-        if reading and reading in seen_readings:
+        headword = structured.get('headword') or ''
+        label = structured.get('label') or ''
+        key = (ref_type, reading, headword, label)
+
+        if key in seen_keys:
             # Skip duplicate
             continue
 
-        if reading:
-            seen_readings.add(reading)
-
+        seen_keys.add(key)
         normalized.append(structured)
 
     return normalized
