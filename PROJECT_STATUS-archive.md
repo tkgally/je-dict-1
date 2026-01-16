@@ -7,6 +7,24 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 50)
+Added 50 new dictionary entries from candidate_words.json, focusing on Japanese food, cooking ingredients, kitchen items, and nature vocabulary:
+
+- Food ingredients (15): {出汁|だし} (soup stock), {味醂|みりん} (mirin), {胡麻油|ごまあぶら} (sesame oil), {小麦粉|こむぎこ} (wheat flour), {片栗粉|かたくりこ} (potato starch), パン{粉|こ} (breadcrumbs), {豆腐|とうふ} (tofu), {納豆|なっとう} (natto), こんにゃく (konjac), {昆布|こんぶ} (kelp), {鰹節|かつおぶし} (dried bonito), {漬物|つけもの} (pickles), {食材|しょくざい} (ingredient), {調味料|ちょうみりょう} (seasoning), {香辛料|こうしんりょう} (spice)
+- Japanese dishes (10): {寿司|すし} (sushi), {天|てん}ぷら (tempura), {唐揚|からあ}げ (fried chicken), {焼|や}き{鳥|とり} (yakitori), {味噌汁|みそしる} (miso soup), おにぎり (rice ball), {煎餅|せんべい} (rice cracker), {団子|だんご} (dumpling), {和菓子|わがし} (Japanese sweets), {薬味|やくみ} (condiment)
+- Kitchen & household (12): {家電|かでん} (appliances), {掃除機|そうじき} (vacuum), {洗濯機|せんたくき} (washing machine), {炊飯器|すいはんき} (rice cooker), {電子|でんし}レンジ (microwave), {包丁|ほうちょう} (kitchen knife), まな{板|いた} (cutting board), {急須|きゅうす} (teapot), {石鹸|せっけん} (soap), {歯磨|はみが}き{粉|こ} (toothpaste), {浴槽|よくそう} (bathtub), {洗面台|せんめんだい} (washstand)
+- Nature & plants (8): {稲妻|いなずま} (lightning), {苔|こけ} (moss), {茸|きのこ} (mushroom), {雑草|ざっそう} (weed), {紫陽花|あじさい} (hydrangea), {向日葵|ひまわり} (sunflower), {朝顔|あさがお} (morning glory)
+- Birds & insects (5): {鴉|からす} (crow), {雀|すずめ} (sparrow), {鳩|はと} (pigeon), {昆虫|こんちゅう} (insect), {蛾|が} (moth), {蠅|はえ} (fly)
+
+Notable entry features:
+- Extensive coverage of Japanese food culture with cooking terminology
+- Kitchen appliance entries include Japanese-specific features and brands
+- All food entries include types, preparation methods, and cultural context
+- Nature entries feature seasonal significance and traditional associations
+
+Total entries: 4,769 → 4,819
+Remaining candidates: 1,904 → 1,840
+
 ### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 49)
 Added 50 new dictionary entries from candidate_words.json, focusing on verbs, environmental/scientific terms, medical vocabulary, and useful suffixes:
 

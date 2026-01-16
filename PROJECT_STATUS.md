@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 5,207
+- **Total entries**: 5,307
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~500 entries added
 - **JLPT N3 vocabulary**: ~2,600 entries added
-- **Candidate words**: ~1,548 words tracked in `candidate_words.json`
+- **Candidate words**: ~1,441 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 58)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Onomatopoeia (26): ぴかぴか (sparkling), ふわふわ (fluffy), どきどき (heart pounding), わくわく (excited), きらきら (glittering), ぐるぐる (spinning), ぺこぺこ (hungry/bowing), のろのろ (slowly), すべすべ (smooth), ぼろぼろ (worn out), ばらばら (scattered), ぎりぎり (barely), ぶらぶら (wandering), うろうろ (loitering), くたくた (exhausted), ぐちゃぐちゃ (messy), べたべた (sticky), からから (parched), ぬるぬる (slimy), ざらざら (rough), つるつる (slippery), ごろごろ (rumbling), にこにこ (smiling), めちゃくちゃ (absurd), ぐっと (firmly), すっきり (refreshed)
+- Food/Noodles (3): ラーメン (ramen), うどん (udon), チョコレート (chocolate)
+- Vegetables (13): じゃがいも (potato), {人参|にんじん} (carrot), {大根|だいこん} (daikon), キャベツ (cabbage), {法蓮草|ほうれんそう} (spinach), {葱|ねぎ} (green onion), にんにく (garlic), {生姜|しょうが} (ginger), トマト (tomato), レタス (lettuce), メロン (melon), {胡瓜|きゅうり} (cucumber), {玉葱|たまねぎ} (onion)
+- Animals (8): ライオン (lion), かもめ (seagull), カブトムシ (beetle), {蝉|せみ} (cicada), アヒル (duck), {鶏|にわとり} (chicken), {山羊|やぎ} (goat), {蜻蛉|とんぼ} (dragonfly)
+- Daily expressions (5): おはよう (good morning), おやすみ (good night), どういたしまして (you're welcome), {お疲|おつか}れ{様|さま} (thank you for your work), とりあえず (for now)
+- Adverbs (2): ちなみに (by the way), そもそも (in the first place)
+- Abstract concepts (8): {忍耐|にんたい} (patience), {好奇心|こうきしん} (curiosity), {創造性|そうぞうせい} (creativity), {矛盾|むじゅん} (contradiction), {調和|ちょうわ} (harmony), {均衡|きんこう} (equilibrium), {中断|ちゅうだん} (interruption), {再開|さいかい} (resumption)
+- Technology/Media (15): ブランド (brand), マーケティング (marketing), ウイルス (virus), {貼|は}り{付|つ}け (paste), {画素|がそ} (pixel), タッチパネル (touchscreen), {取材|しゅざい} (news gathering), {広報|こうほう} (PR), {吹|ふ}き{替|か}え (dubbing), スキャナー (scanner), テレビ{電話|でんわ} (video call), ドキュメンタリー (documentary), アダプター (adapter), ビッグデータ (big data), {和英|わえい} (Japanese-English)
+- Music/Arts (5): {和歌|わか} (waka poetry), {和楽器|わがっき} (Japanese instruments), {独唱|どくしょう} (solo), {作詞|さくし} (lyrics writing), {編曲|へんきょく} (arrangement)
+- Sports/Exercise (7): ボクシング (boxing), レスリング (wrestling), サーフィン (surfing), ダイビング (diving), ストレッチ (stretching), ウォーキング (walking)
+- Science/Politics (8): {与党|よとう} (ruling party), {過疎化|かそか} (depopulation), {染色体|せんしょくたい} (chromosome), {小惑星|しょうわくせい} (asteroid), {成層圏|せいそうけん} (stratosphere), オゾン{層|そう} (ozone layer), {脈|みゃく} (pulse), {塵紙|ちりがみ} (tissue paper)
+
+Notable entry features:
+- Comprehensive onomatopoeia coverage for common sensory descriptions
+- Vegetable vocabulary useful for cooking and shopping contexts
+- Science vocabulary includes space and environmental terms
+- Cross-references added linking antonym pairs ({中断|ちゅうだん}↔{再開|さいかい})
+
+Total entries: 5,207 → 5,307
+Remaining candidates: 1,548 → 1,441
 
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 57)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -327,24 +351,6 @@ Removed 112 duplicate entries (63 duplicate sets) using the new resolve-duplicat
 Added two new Claude Code skills:
 - `resolve-duplicates`: Guidelines for identifying, comparing, and safely removing duplicate entries
 - `delete-entry`: Step-by-step process for safely deleting entries while updating indexes and cross-references
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 50)
-Added 50 new dictionary entries from candidate_words.json, focusing on Japanese food, cooking ingredients, kitchen items, and nature vocabulary:
-
-- Food ingredients (15): {出汁|だし} (soup stock), {味醂|みりん} (mirin), {胡麻油|ごまあぶら} (sesame oil), {小麦粉|こむぎこ} (wheat flour), {片栗粉|かたくりこ} (potato starch), パン{粉|こ} (breadcrumbs), {豆腐|とうふ} (tofu), {納豆|なっとう} (natto), こんにゃく (konjac), {昆布|こんぶ} (kelp), {鰹節|かつおぶし} (dried bonito), {漬物|つけもの} (pickles), {食材|しょくざい} (ingredient), {調味料|ちょうみりょう} (seasoning), {香辛料|こうしんりょう} (spice)
-- Japanese dishes (10): {寿司|すし} (sushi), {天|てん}ぷら (tempura), {唐揚|からあ}げ (fried chicken), {焼|や}き{鳥|とり} (yakitori), {味噌汁|みそしる} (miso soup), おにぎり (rice ball), {煎餅|せんべい} (rice cracker), {団子|だんご} (dumpling), {和菓子|わがし} (Japanese sweets), {薬味|やくみ} (condiment)
-- Kitchen & household (12): {家電|かでん} (appliances), {掃除機|そうじき} (vacuum), {洗濯機|せんたくき} (washing machine), {炊飯器|すいはんき} (rice cooker), {電子|でんし}レンジ (microwave), {包丁|ほうちょう} (kitchen knife), まな{板|いた} (cutting board), {急須|きゅうす} (teapot), {石鹸|せっけん} (soap), {歯磨|はみが}き{粉|こ} (toothpaste), {浴槽|よくそう} (bathtub), {洗面台|せんめんだい} (washstand)
-- Nature & plants (8): {稲妻|いなずま} (lightning), {苔|こけ} (moss), {茸|きのこ} (mushroom), {雑草|ざっそう} (weed), {紫陽花|あじさい} (hydrangea), {向日葵|ひまわり} (sunflower), {朝顔|あさがお} (morning glory)
-- Birds & insects (5): {鴉|からす} (crow), {雀|すずめ} (sparrow), {鳩|はと} (pigeon), {昆虫|こんちゅう} (insect), {蛾|が} (moth), {蠅|はえ} (fly)
-
-Notable entry features:
-- Extensive coverage of Japanese food culture with cooking terminology
-- Kitchen appliance entries include Japanese-specific features and brands
-- All food entries include types, preparation methods, and cultural context
-- Nature entries feature seasonal significance and traditional associations
-
-Total entries: 4,769 → 4,819
-Remaining candidates: 1,904 → 1,840
 
 ---
 
