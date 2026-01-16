@@ -157,21 +157,21 @@ This document tracks fixes based on code reviews from three LLMs. Work through t
 ## Session 7: UX & Minor Fixes
 
 ### Task 7.1: Add furigana toggle to pending.html
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/build_flat.py`
 - **Issue**: pending.html missing furigana toggle script
 - **Fix**: Add `generate_furigana_script()` call
 - **Review**: 1 (#6)
 
 ### Task 7.2: Use return value in update_entries_index.py
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/update_entries_index.py` (line 96)
 - **Issue**: Function returns boolean but main ignores it
 - **Fix**: Use return value for exit code
 - **Review**: 2 (#16)
 
 ### Task 7.3: Extend furigana scanning to all text fields
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/find_missing_furigana.py`
 - **Issue**: Only scans notes field for missing furigana
 - **Fix**: Also scan examples, definitions, explanation fields
@@ -221,7 +221,7 @@ These are larger efforts noted by reviewers but not prioritized for immediate ac
 | 4 | 2026-01-16 | 4.1, 4.2, 4.3 |
 | 5 | 2026-01-16 | 5.1, 5.2, 5.3 |
 | 6 | 2026-01-16 | 6.1, 6.2, 6.3 |
-| 7 | - | - |
+| 7 | 2026-01-16 | 7.1, 7.2, 7.3 |
 | 8 | - | - |
 
 ---

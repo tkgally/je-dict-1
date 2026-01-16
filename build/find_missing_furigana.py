@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """
-Find dictionary entries that have kanji without furigana in the notes field.
+Find dictionary entries that have kanji without furigana in text fields.
 
 This script scans all JSON entries and identifies cases where kanji characters
-appear outside of the {kanji|furigana} notation pattern.
+appear outside of the {kanji|furigana} notation pattern. It checks:
+- notes (entry-level)
+- definitions[].explanation
+- examples[].japanese
+- examples[].notes
 """
 
 import argparse
@@ -74,6 +78,12 @@ def extract_unannotated_context(text: str) -> list[str]:
 def scan_entries(entries_dir: Path) -> list[dict]:
     """
     Scan all entry files and return those with missing furigana.
+
+    Scans these text fields:
+    - notes (entry-level)
+    - definitions[].explanation
+    - examples[].japanese
+    - examples[].notes
     """
     results = []
 
@@ -85,22 +95,55 @@ def scan_entries(entries_dir: Path) -> list[dict]:
             entry_id = entry.get('id', 'unknown')
             headword = entry.get('headword', '')
             reading = entry.get('reading', '')
+
+            # Collect all text fields to scan with their field names
+            fields_to_scan = []
+
+            # Entry-level notes
             notes = entry.get('notes', '')
+            if notes:
+                fields_to_scan.append(('notes', notes))
 
-            has_missing, kanji_list = contains_unannotated_kanji(notes)
+            # Definition explanations
+            for i, defn in enumerate(entry.get('definitions', [])):
+                explanation = defn.get('explanation', '')
+                if explanation:
+                    fields_to_scan.append((f'definitions[{i}].explanation', explanation))
 
-            if has_missing:
+            # Example sentences and notes
+            for i, example in enumerate(entry.get('examples', [])):
+                japanese = example.get('japanese', '')
+                if japanese:
+                    fields_to_scan.append((f'examples[{i}].japanese', japanese))
+                example_notes = example.get('notes', '')
+                if example_notes:
+                    fields_to_scan.append((f'examples[{i}].notes', example_notes))
+
+            # Check all fields for missing furigana
+            all_kanji = set()
+            all_contexts = []
+            fields_with_issues = []
+
+            for field_name, text in fields_to_scan:
+                has_missing, kanji_list = contains_unannotated_kanji(text)
+                if has_missing:
+                    all_kanji.update(kanji_list)
+                    contexts = extract_unannotated_context(text)
+                    all_contexts.extend(contexts)
+                    fields_with_issues.append(field_name)
+
+            if all_kanji:
                 # Get relative path from entries directory
                 rel_path = json_file.relative_to(entries_dir)
-                contexts = extract_unannotated_context(notes)
 
                 results.append({
                     'id': entry_id,
                     'file_path': str(rel_path),
                     'headword': headword,
                     'reading': reading,
-                    'unannotated_kanji': kanji_list,
-                    'context_snippets': contexts
+                    'unannotated_kanji': list(all_kanji),
+                    'context_snippets': all_contexts[:5],  # Limit total contexts
+                    'fields': fields_with_issues
                 })
         except json.JSONDecodeError as e:
             print(f"Error parsing {json_file}: {e}", file=sys.stderr)
@@ -112,7 +155,7 @@ def scan_entries(entries_dir: Path) -> list[dict]:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Find dictionary entries with kanji lacking furigana in notes field'
+        description='Find dictionary entries with kanji lacking furigana in text fields'
     )
     parser.add_argument(
         '-o', '--output',
@@ -135,11 +178,11 @@ def main():
 
     results = scan_entries(entries_dir)
 
-    print(f"Found {len(results)} entries with missing furigana in notes", file=sys.stderr)
+    print(f"Found {len(results)} entries with missing furigana", file=sys.stderr)
 
     # Output JSON for further processing
     output = {
-        'description': 'Dictionary entries with kanji lacking furigana in the notes field',
+        'description': 'Dictionary entries with kanji lacking furigana in text fields',
         'total_count': len(results),
         'entries': results
     }
