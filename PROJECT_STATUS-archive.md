@@ -7,6 +7,43 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-15 (Candidate Words Expansion - 200 New Candidates)
+Added 200 new candidates to `candidate_words.json` using the balanced coverage strategy outlined in `newcandidates.md`:
+
+- **Tier 1 - Core Vocabulary Gaps** (70 candidates): Essential verbs missing from the dictionary including 行く, 来る, 見る, 聞く, 言う, 思う, 知る, 分かる, 食べる, 飲む, 書く, 読む, plus transitive/intransitive pairs like 開ける/開く, 閉める/閉じる, 始まる/始める, 終わる/終える. Also added missing basic adjectives (早い, 熱い), adverbs (本当に, 多分, 確かに), and nouns (事).
+
+- **Tier 2 - Semantic Domain Completion** (70 candidates): Action verbs (走る, 歩く, 泳ぐ, 飛ぶ), emotion verbs (怒る, 笑う, 泣く, 喜ぶ, 驚く, 困る), change-of-state verbs (壊れる/壊す, 変わる/変える, 増える, 減る), plus missing colors (白, ピンク), animals (豚, 羊), family terms (叔父, 叔母).
+
+- **Tier 3 & 4 - Related Word Networks & Productive Patterns** (35 candidates): Reduplication words (日々, 国々, 山々, 木々), ～的 adjectives (消極的, 具体的, 抽象的, 一般的, 基本的, 個人的, 社会的, 効果的, 現実的, 理想的, 魅力的, 典型的, 伝統的), compound verbs (追い出す, 取り出す, 持ち上げる, 引き受ける, 飛び出す, 思い出す, 呼び出す), and four-character idioms (一石二鳥, 以心伝心, 一期一会, 十人十色, 四苦八苦, 一長一短, 自業自得).
+
+- **Tier 5 - Modern & Informal Vocabulary** (25 candidates): Technology terms (スマホ, アプリ, ダウンロード, 検索), social media vocabulary (フォロー, 投稿, バズる, 推し), lifestyle terms (コスパ, タイパ, リモート), and colloquial expressions (マジ, やばい, めっちゃ, ウザい, ダサい, キモい, エモい, ガチ, イケメン, 草, 神, ネタバレ).
+
+Total candidates: 1,631 → 1,831
+
+### 2026-01-15 (Vocabulary Expansion - 100 New Entries, Session 55)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Core vocabulary (5): {豚|ぶた} (pig), {羊|ひつじ} (sheep), {本当|ほんとう}に (really), {確|たし}かに (certainly), ピンク (pink)
+- Modern/Slang vocabulary (21): スマホ, アプリ, ダウンロード, {検索|けんさく}, フォロー, {投稿|とうこう}, バズる, {推|お}し, コスパ, タイパ, リモート, マジ, やばい, めっちゃ, ウザい, ダサい, キモい, エモい, ガチ, イケメン, ネタバレ
+- 四字熟語 (7): {一石二鳥|いっせきにちょう}, {以心伝心|いしんでんしん}, {一期一会|いちごいちえ}, {十人十色|じゅうにんといろ}, {四苦八苦|しくはっく}, {一長一短|いっちょういったん}, {自業自得|じごうじとく}
+- ～的 adjectives (13): {消極的|しょうきょくてき}, {具体的|ぐたいてき}, {抽象的|ちゅうしょうてき}, {一般的|いっぱんてき}, {基本的|きほんてき}, {個人的|こじんてき}, {社会的|しゃかいてき}, {効果的|こうかてき}, {現実的|げんじつてき}, {理想的|りそうてき}, {魅力的|みりょくてき}, {典型的|てんけいてき}, {伝統的|でんとうてき}
+- Reduplication (4): {日々|ひび}, {国々|くにぐに}, {山々|やまやま}, {木々|きぎ}
+- Compound verb (1): {呼|よ}び{出|だ}す (to call out)
+- Onomatopoeia (12): ひらひら, ゆらゆら, すれすれ, がらがら, へらへら, むすっと, ぷりぷり, うんざり, げんなり, しんみり, ぱさぱさ, ほかほか
+- Emotional vocabulary (15): {哀愁|あいしゅう}, {羞恥|しゅうち}, {孤独|こどく}, {充実|じゅうじつ}, {虚無|きょむ}, {軽蔑|けいべつ}, {惨|みじ}め, {屈辱|くつじょく}, {焦燥|しょうそう}, {切望|せつぼう}, {愛着|あいちゃく}, {落胆|らくたん}, {絶望|ぜつぼう}, {憎悪|ぞうお}, {未練|みれん}
+- Business terms (11): {戦略|せんりゃく}, {方針|ほうしん}, {業績|ぎょうせき}, {損失|そんしつ}, {商談|しょうだん}, {企画|きかく}, {手当|てあて}, {福利厚生|ふくりこうせい}, {確定申告|かくていしんこく}, {源泉徴収|げんせんちょうしゅう}, {見積|みつも}り
+- Household/Environment (11): インターホン, {表札|ひょうさつ}, {郵便受|ゆうびんう}け, ブラインド, ブレスレット, ブローチ, {世界遺産|せかいいさん}, {天然記念物|てんねんきねんぶつ}, {保護区|ほごく}, {給湯器|きゅうとうき}, {電化製品|でんかせいひん}
+
+Notable entry features:
+- Modern slang includes internet/social media terms popular with younger generations
+- 四字熟語 entries include origin, literal meaning, and modern usage contexts
+- ～的 adjectives cover common academic and formal vocabulary
+- Emotional vocabulary useful for literature and nuanced expression
+- Business terms cover tax, HR, and corporate planning terminology
+
+Total entries: 4,907 → 5,007
+Remaining candidates: 1,831 → 1,552
+
 ### 2026-01-15 (Vocabulary Expansion - 50 New Entries, Session 54)
 Added 50 new dictionary entries from candidate_words.json, focusing on verbs, kitchen appliances, household items, accessories, work/business vocabulary, education, and technology:
 
