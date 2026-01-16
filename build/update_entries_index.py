@@ -11,6 +11,7 @@ Usage:
 """
 
 import json
+import sys
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -94,4 +95,5 @@ def update_entries_index():
 
 
 if __name__ == '__main__':
-    update_entries_index()
+    success = update_entries_index()
+    sys.exit(0 if success else 1)

@@ -813,6 +813,7 @@ def generate_pending_page(candidates: list) -> str:
             <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
+    html_parts.append(generate_furigana_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
