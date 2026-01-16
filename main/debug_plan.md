@@ -107,21 +107,21 @@ This document tracks fixes based on code reviews from three LLMs. Work through t
 ## Session 5: Code Quality & Consistency
 
 ### Task 5.1: Move imports to module top
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **Files**: `build/build_flat.py` (line 1899), `build/japanese_utils.py` (line 215), `build/resolve_links.py` (line 31), `build/validate.py` (line 247)
 - **Issue**: Various imports inside functions
 - **Fix**: Move all imports to top of files
 - **Reviews**: 2 (#3, #9, #13, #15)
 
 ### Task 5.2: Centralize furigana pattern
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **Files**: Multiple (build_flat.py, extract_references.py, find_missing_furigana.py, verify_furigana.py, update_entries_index.py)
 - **Issue**: Same regex pattern `r'\{([^|]+)\|([^}]+)\}'` duplicated across 5+ files
 - **Fix**: Add FURIGANA_PATTERN and helper functions to japanese_utils.py
 - **Review**: 2 (#17)
 
 ### Task 5.3: Refactor validate_all_entries return type
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/validate.py` (line 350)
 - **Issue**: Function returns 7-tuple, hard to use correctly
 - **Fix**: Return a dataclass or TypedDict
@@ -219,7 +219,7 @@ These are larger efforts noted by reviewers but not prioritized for immediate ac
 | 2 | 2026-01-16 | 2.1, 2.2, 2.3 |
 | 3 | 2026-01-16 | 3.1, 3.2, 3.3 |
 | 4 | 2026-01-16 | 4.1, 4.2, 4.3 |
-| 5 | - | - |
+| 5 | 2026-01-16 | 5.1, 5.2, 5.3 |
 | 6 | - | - |
 | 7 | - | - |
 | 8 | - | - |

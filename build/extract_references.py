@@ -19,9 +19,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, List, Any, Optional, Tuple
 
-
-# Pattern to extract furigana notation: {kanji|reading}
-FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
+from japanese_utils import FURIGANA_PATTERN
 
 
 def extract_furigana_words(text: str) -> List[Tuple[str, str]]:

@@ -12,11 +12,10 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+from japanese_utils import FURIGANA_PATTERN
+
 # Kanji Unicode ranges
 KANJI_PATTERN = re.compile(r'[\u4e00-\u9fff\u3400-\u4dbf]')
-
-# Pattern to match furigana notation: {kanji|reading}
-FURIGANA_PATTERN = re.compile(r'\{[^}|]+\|[^}]+\}')
 
 
 def check_entry_furigana(entry_path: Path) -> tuple[bool, list[str], list[str]]:

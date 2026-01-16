@@ -13,14 +13,13 @@ import re
 import sys
 from pathlib import Path
 
+from japanese_utils import FURIGANA_PATTERN
+
 # Kanji Unicode ranges
 # CJK Unified Ideographs: U+4E00 to U+9FFF
 # CJK Unified Ideographs Extension A: U+3400 to U+4DBF
 # CJK Unified Ideographs Extension B-F: U+20000 to U+2FA1F
 KANJI_PATTERN = re.compile(r'[\u4e00-\u9fff\u3400-\u4dbf]')
-
-# Pattern to match furigana notation: {kanji|reading}
-FURIGANA_PATTERN = re.compile(r'\{[^}|]+\|[^}]+\}')
 
 
 def contains_unannotated_kanji(text: str) -> tuple[bool, list[str]]:

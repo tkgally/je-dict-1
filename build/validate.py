@@ -9,6 +9,9 @@ consistency rules (filename format, directory placement, ID uniqueness).
 import json
 import sys
 import re
+from collections import defaultdict
+from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -27,6 +30,28 @@ except ImportError:
     print("Error: Required package 'jsonschema' is not installed.")
     print("Please install it with: pip install jsonschema")
     sys.exit(1)
+
+
+@dataclass
+class ValidationResult:
+    """Result of validating all dictionary entries.
+
+    Attributes:
+        total_count: Total number of entry files found
+        valid_count: Number of valid entries
+        invalid_files: List of (file_path, error_list) for invalid files
+        cross_ref_errors: List of (file_path, error_message) for cross-reference issues
+        semantic_warnings: List of (file_path, warning_message) for semantic issues
+        timestamp_warnings: List of (file_path, warning_message) for timestamp issues
+        sense_number_errors: List of (file_path, error_message) for sense_numbers issues
+    """
+    total_count: int = 0
+    valid_count: int = 0
+    invalid_files: list[tuple[Path, list[str]]] = field(default_factory=list)
+    cross_ref_errors: list[tuple[Path, str]] = field(default_factory=list)
+    semantic_warnings: list[tuple[Path, str]] = field(default_factory=list)
+    timestamp_warnings: list[tuple[Path, str]] = field(default_factory=list)
+    sense_number_errors: list[tuple[Path, str]] = field(default_factory=list)
 
 
 def load_schema(schema_path: Path) -> dict:
@@ -246,8 +271,6 @@ def check_timestamps(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, 
 
     Returns a list of (file_path, warning_message) for issues found.
     """
-    from datetime import datetime, timezone
-
     now = datetime.now(timezone.utc)
     warnings = []
 
@@ -301,7 +324,6 @@ def check_cross_reference_semantics(entries_data: list[tuple[Path, dict]]) -> li
     Returns a list of (file_path, warning_message) for issues found.
     """
     # Build reading-to-entries index
-    from collections import defaultdict
     reading_index: dict[str, list[dict]] = defaultdict(list)
     for _, entry in entries_data:
         reading = entry.get('reading', '')
@@ -390,19 +412,12 @@ def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, 
     return errors
 
 
-def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path, list[str]]], list[tuple[Path, str]], list[tuple[Path, str]], list[tuple[Path, str]], list[tuple[Path, str]]]:
+def validate_all_entries(project_root: Path) -> ValidationResult:
     """
     Validate all entry files in the project.
 
     Returns:
-        (total_count, valid_count, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, sense_number_errors)
-        - total_count: Total number of entry files found
-        - valid_count: Number of valid entries
-        - invalid_files: List of (file_path, error_list) for invalid files
-        - cross_ref_errors: List of (file_path, error_message) for cross-reference issues
-        - semantic_warnings: List of (file_path, warning_message) for semantic issues (homonym mismatches)
-        - timestamp_warnings: List of (file_path, warning_message) for timestamp issues
-        - sense_number_errors: List of (file_path, error_message) for sense_numbers issues
+        ValidationResult dataclass containing validation results
     """
     schema_path = project_root / 'build' / 'schema.json'
     schema = load_schema(schema_path)
@@ -456,7 +471,15 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
     # Check sense_numbers validity in examples
     sense_number_errors = check_sense_numbers(entries_data)
 
-    return total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, sense_number_errors
+    return ValidationResult(
+        total_count=total,
+        valid_count=valid,
+        invalid_files=invalid_files,
+        cross_ref_errors=cross_ref_errors,
+        semantic_warnings=semantic_warnings,
+        timestamp_warnings=timestamp_warnings,
+        sense_number_errors=sense_number_errors
+    )
 
 
 def validate_single_entry(entry_path: Path, project_root: Path) -> int:
@@ -552,16 +575,16 @@ def main():
     print(f"Validating entries in {project_root}")
     print("-" * 50)
 
-    total, valid, invalid_files, cross_ref_errors, semantic_warnings, timestamp_warnings, sense_number_errors = validate_all_entries(project_root)
+    result = validate_all_entries(project_root)
 
-    if total == 0:
+    if result.total_count == 0:
         print("No entry files found.")
         return 0
 
     # Report results
-    if invalid_files:
-        print(f"\nFound {len(invalid_files)} invalid file(s):\n")
-        for file_path, errors in invalid_files:
+    if result.invalid_files:
+        print(f"\nFound {len(result.invalid_files)} invalid file(s):\n")
+        for file_path, errors in result.invalid_files:
             rel_path = file_path.relative_to(project_root)
             print(f"  {rel_path}:")
             for error in errors:
@@ -569,55 +592,55 @@ def main():
             print()
 
     # Report cross-reference warnings
-    if cross_ref_errors:
-        print(f"\nCross-reference warnings ({len(cross_ref_errors)} issues):\n")
-        for file_path, error_msg in cross_ref_errors:
+    if result.cross_ref_errors:
+        print(f"\nCross-reference warnings ({len(result.cross_ref_errors)} issues):\n")
+        for file_path, error_msg in result.cross_ref_errors:
             rel_path = file_path.relative_to(project_root)
             print(f"  {rel_path}:")
             print(f"    - {error_msg}")
         print()
 
     # Report semantic warnings (homonym mismatches)
-    if semantic_warnings:
-        print(f"\nCross-reference semantic warnings ({len(semantic_warnings)} issues):\n")
-        for file_path, warning_msg in semantic_warnings:
+    if result.semantic_warnings:
+        print(f"\nCross-reference semantic warnings ({len(result.semantic_warnings)} issues):\n")
+        for file_path, warning_msg in result.semantic_warnings:
             rel_path = file_path.relative_to(project_root)
             print(f"  {rel_path}:")
             print(f"    - {warning_msg}")
         print()
 
     # Report timestamp warnings
-    if timestamp_warnings:
-        print(f"\nTimestamp warnings ({len(timestamp_warnings)} issues):\n")
-        for file_path, warning_msg in timestamp_warnings:
+    if result.timestamp_warnings:
+        print(f"\nTimestamp warnings ({len(result.timestamp_warnings)} issues):\n")
+        for file_path, warning_msg in result.timestamp_warnings:
             rel_path = file_path.relative_to(project_root)
             print(f"  {rel_path}:")
             print(f"    - {warning_msg}")
         print()
 
     # Report sense_numbers errors
-    if sense_number_errors:
-        print(f"\nSense number errors ({len(sense_number_errors)} issues):\n")
-        for file_path, error_msg in sense_number_errors:
+    if result.sense_number_errors:
+        print(f"\nSense number errors ({len(result.sense_number_errors)} issues):\n")
+        for file_path, error_msg in result.sense_number_errors:
             rel_path = file_path.relative_to(project_root)
             print(f"  {rel_path}:")
             print(f"    - {error_msg}")
         print()
 
-    print(f"Validation complete: {valid}/{total} entries valid")
+    print(f"Validation complete: {result.valid_count}/{result.total_count} entries valid")
     warnings = []
-    if cross_ref_errors:
-        warnings.append(f"{len(cross_ref_errors)} cross-reference warnings")
-    if semantic_warnings:
-        warnings.append(f"{len(semantic_warnings)} homonym mismatch warnings")
-    if timestamp_warnings:
-        warnings.append(f"{len(timestamp_warnings)} timestamp warnings")
-    if sense_number_errors:
-        warnings.append(f"{len(sense_number_errors)} sense_numbers errors")
+    if result.cross_ref_errors:
+        warnings.append(f"{len(result.cross_ref_errors)} cross-reference warnings")
+    if result.semantic_warnings:
+        warnings.append(f"{len(result.semantic_warnings)} homonym mismatch warnings")
+    if result.timestamp_warnings:
+        warnings.append(f"{len(result.timestamp_warnings)} timestamp warnings")
+    if result.sense_number_errors:
+        warnings.append(f"{len(result.sense_number_errors)} sense_numbers errors")
     if warnings:
         print(f"  ({', '.join(warnings)})")
 
-    if invalid_files:
+    if result.invalid_files:
         return 1
     return 0
 
