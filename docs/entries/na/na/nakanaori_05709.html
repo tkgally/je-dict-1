@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="仲直り - reconciliation; making up. Japanese-English dictionary entry with definitions and examples.">
+    <title>仲直り (なかなおり) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>仲直<rp>(</rp><rt>なかなお</rt><rp>)</rp></ruby>り</h1>
+            <div class="entry-reading">なかなおり</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">reconciliation; making up</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">reconciliation; making up; patching up</span>
+                    <div class="definition-explanation">The act of becoming friends again after a quarrel or disagreement.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>友達<rp>(</rp><rt>ともだち</rt><rp>)</rp></ruby>と<ruby>仲直<rp>(</rp><rt>なかなお</rt><rp>)</rp></ruby>りした。</div>
+                    <div class="example-english">I made up with my friend.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>仲直<rp>(</rp><rt>なかなお</rt><rp>)</rp></ruby>りしよう。</div>
+                    <div class="example-english">Let&#x27;s make up.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>喧嘩<rp>(</rp><rt>けんか</rt><rp>)</rp></ruby>の<ruby>後<rp>(</rp><rt>あと</rt><rp>)</rp></ruby>、<ruby>仲直<rp>(</rp><rt>なかなお</rt><rp>)</rp></ruby>りした。</div>
+                    <div class="example-english">We made up after the fight.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>仲直<rp>(</rp><rt>なかなお</rt><rp>)</rp></ruby>り means making up or reconciliation.</p><p>COMMON EXPRESSIONS:</p><ul><li><ruby>仲直<rp>(</rp><rt>なかなお</rt><rp>)</rp></ruby>りする: to make up, to reconcile</li><li><ruby>仲直<rp>(</rp><rt>なかなお</rt><rp>)</rp></ruby>りの<ruby>握手<rp>(</rp><rt>あくしゅ</rt><rp>)</rp></ruby>: handshake of reconciliation</li></ul><p>USAGE:<br>Commonly used for personal relationships, especially among friends and family.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 16:49</div>
+                <div class="metadata-file">na/na/nakanaori_05709</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

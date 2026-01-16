@@ -31,9 +31,9 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 5,507
+- **Total entries**: 5,607
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~1,351 words tracked in `candidate_words.json`
+- **Candidate words**: ~1,252 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,33 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 62)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Geometry (13): {三角形|さんかくけい} (triangle), {四角形|しかくけい} (quadrilateral), {正方形|せいほうけい} (square), {長方形|ちょうほうけい} (rectangle), {直線|ちょくせん} (straight line), {曲線|きょくせん} (curve), {円周|えんしゅう} (circumference), {直径|ちょっけい} (diameter), {直角|ちょっかく} (right angle), {平行|へいこう} (parallel), {垂直|すいちょく} (perpendicular), {傾斜|けいしゃ} (slope), {頂点|ちょうてん} (vertex)
+- Position/Process (12): {内側|うちがわ} (inside), {外側|そとがわ} (outside), {由来|ゆらい} (origin), {手順|てじゅん} (procedure), {手続|てつづ}き (procedure), {方式|ほうしき} (method), {様式|ようしき} (style), パターン (pattern), {終点|しゅうてん} (terminal), {中間|ちゅうかん} (middle), {領域|りょういき} (domain), {順序|じゅんじょ} (order)
+- Business/Finance (15): {配送|はいそう} (delivery), {返品|へんぴん} (return), {決済|けっさい} (settlement), {入金|にゅうきん} (deposit), {出金|しゅっきん} (withdrawal), {利息|りそく} (interest), {原価|げんか} (cost), {単価|たんか} (unit price), {総額|そうがく} (total amount), {数量|すうりょう} (quantity), {分量|ぶんりょう} (amount), {重量|じゅうりょう} (weight), {年収|ねんしゅう} (annual income), プレゼン (presentation), ミーティング (meeting)
+- Tools (10): {金槌|かなづち} (hammer), {鋸|のこぎり} (saw), ドライバー (screwdriver), {懐中電灯|かいちゅうでんとう} (flashlight), {物差|ものさ}し (ruler), {電卓|でんたく} (calculator), {顕微鏡|けんびきょう} (microscope), {望遠鏡|ぼうえんきょう} (telescope), {体温計|たいおんけい} (thermometer), {体重計|たいじゅうけい} (scale)
+- Plants/Nature (5): たんぽぽ (dandelion), チューリップ (tulip), サボテン (cactus), {苗|なえ} (seedling), {蝋燭|ろうそく} (candle)
+- Ceremonies (3): {結婚式|けっこんしき} (wedding), {成人式|せいじんしき} (coming-of-age), {入学式|にゅうがくしき} (entrance ceremony)
+- Geography (5): ジャングル (jungle), {高原|こうげん} (plateau), {海辺|うみべ} (seaside), {群島|ぐんとう} (archipelago), {本土|ほんど} (mainland)
+- Occupations (3): {写真家|しゃしんか} (photographer), {秘書|ひしょ} (secretary), {駅員|えきいん} (station staff)
+- Culture (2): {茶道|ちゃどう} (tea ceremony), バンド (band)
+- Body/Sleep (2): いびき (snoring), {寝返|ねがえ}り (turning over in sleep)
+- Office supplies (2): ホッチキス (stapler), クリップ (clip)
+- Advice (3): {助言|じょげん} (advice), {忠告|ちゅうこく} (warning), {要請|ようせい} (request)
+- Abstract (20): ブーム (boom), {名声|めいせい} (fame), {任務|にんむ} (duty), {役職|やくしょく} (position), {階級|かいきゅう} (class), {描写|びょうしゃ} (description), {苦悩|くのう} (anguish), {対処|たいしょ} (dealing with), {措置|そち} (measure), {処分|しょぶん} (disposal), {監視|かんし} (surveillance), {修行|しゅぎょう} (training), {慣習|かんしゅう} (custom), {中世|ちゅうせい} (medieval), {活力|かつりょく} (vitality), {精力|せいりょく} (energy), {見識|けんしき} (insight), {野望|やぼう} (ambition), {必然|ひつぜん} (inevitability), {象徴|しょうちょう} (symbol)
+- Adverbs (5): {極|きわ}めて (extremely), {若干|じゃっかん} (some), {次第|しだい}に (gradually), {無論|むろん} (of course), {仲直|なかなお}り (reconciliation)
+
+Notable entry features:
+- Comprehensive geometry vocabulary for mathematical contexts
+- Business/finance terms covering transactions and measurements
+- Tool vocabulary useful for daily life and DIY contexts
+- Abstract concepts covering emotions, social status, and philosophical terms
+
+Total entries: 5,507 → 5,607
+Remaining candidates: 1,351 → 1,252
 
 ### 2026-01-16 (Candidate Words Expansion - 200 New Candidates, Session 61)
 Added 200 new candidates to `candidate_words.json` using balanced coverage strategy:
@@ -316,22 +343,6 @@ Notable entry features:
 
 Total entries: 4,857 → 4,907
 Remaining candidates: 1,680 → 1,631
-
-### 2026-01-14 (Candidate Words Expansion - 201 New Candidates)
-Added 201 new candidates to `candidate_words.json` using systematic semantic gap analysis across multiple domains:
-
-- **Emotions/psychological terms** (21): 哀愁, 羞恥, 孤独, 充実, 虚無, 軽蔑, 惨め, 屈辱, 焦燥, 切望, 愛着, 落胆, 絶望, 憎悪, 未練, 恥辱, 怨念, 悔恨, 狂喜, 憤慨
-- **Compound verbs** (24): 閉め出す, 売り出す, 送り出す, 抜け出す, 逃げ出す, 流れ出す, 染み出す, 溢れ出す, 浮き上がる, 舞い上がる, 呼び込む, 誘い込む, 突き刺す, 突き飛ばす, 投げ捨てる, 殴り倒す, 蹴り飛ばす, 踏みつける, 抱きしめる, 引きずる, 引き寄せる, 押し倒す, 張り付く, 絞り込む
-- **Onomatopoeia** (11): ひらひら, ゆらゆら, すれすれ, がらがら, へらへら, むすっと, ぷりぷり, うんざり, げんなり, しんみり, ぱさぱさ, ほかほか
-- **Modern/technology terms** (32): プログラミング, コーディング, デバッグ, バグ, プロフィール, プッシュ通知, リモートワーク, 在宅勤務, オンライン会議, ウェブ会議, ビデオ通話, 画面共有, コンテンツ, インフルエンサー, ユーチューバー, 投げ銭, スタートアップ, イノベーション, ソリューション, サステナブル, SDGs, カーボンニュートラル, 脱炭素, 電動, 蓄電, ドローン, 自動運転, ロボット, IoT, 仮想通貨, ブロックチェーン, QRコード
-- **Traditional Japanese items & ceremonies** (18): 掛け軸, 屏風, 座布団, ちゃぶ台, 火鉢, 紋付, 手拭い, 番傘, 蛇の目傘, 硯, 香炉, お中元, お歳暮, 祝儀, 不祝儀, 香典, 年賀状, 喪中
-- **四字熟語 & proverbs** (27): 我田引水, 森羅万象, 言語道断, 四面楚歌, 針小棒大, 馬耳東風, 青天霹靂, 晴耕雨読, 竜頭蛇尾, 呉越同舟, 画竜点睛, 二律背反, 天変地異, 自暴自棄, 有言実行, 能ある鷹は爪を隠す, 虻蜂取らず, 井の中の蛙, 鬼に金棒, 花より団子, 七転び八起き, 灯台下暗し, 良薬口に苦し, 情けは人の為ならず, 豚に真珠, 猫の手も借りたい, 馬の耳に念仏
-- **Body/medical terms** (15): 骨格, 横隔膜, 粘膜, 皮下, 表皮, 発熱, 筋肉痛, 動悸, 息切れ, 痙攣
-- **～的 adjectives** (9): 直接的, 間接的, 自発的, 強制的, 悲観的, 楽観的, 建設的, 破壊的, 支配的
-- **Food/cooking terms** (14): すりおろす, 汁物, 具材, 冷凍食品, 加工食品, 生鮮食品, 保存料, 添加物, 賞味期限, 消費期限, カロリー, 栄養素, 炭水化物
-- **Business/commerce terms** (30): 認定, 取消, 施行, 遵守, 保活, 朝活, ノマド, キャッシュレス, ペーパーレス, コワーキング, フリーランス, ベンチャー, 電子決済, キャッシュバック, ポイント還元, クーポン, 送料, 年会費, 入会金, 解約, 延長, 有効期限, 返金, 不具合, 問い合わせ, 納品書, 明細, 契約書, 同意書
-
-Total candidates: 1,479 → 1,680
 
 ---
 
