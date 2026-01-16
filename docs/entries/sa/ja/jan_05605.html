@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="じゃん - isn&#x27;t it; right (casual sentence-ending). Japanese-English dictionary entry with definitions and examples.">
+    <title>じゃん (じゃん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">じゃん</h1>
+            <div class="entry-reading">じゃん</div>
+            <div class="entry-pos">particle</div>
+            <div class="entry-gloss">isn&#x27;t it; right (casual sentence-ending)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">isn&#x27;t it; right</span>
+                    <div class="definition-explanation">A casual sentence-ending particle seeking agreement or confirmation, primarily used in the Kanto region.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">いいじゃん。</div>
+                    <div class="example-english">That&#x27;s fine, isn&#x27;t it?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>ってるじゃん。</div>
+                    <div class="example-english">You know it, right?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">できるじゃん！</div>
+                    <div class="example-english">You can do it! (See!)</div>
+                    <div class="example-notes">Expressing pleasant surprise</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>じゃん is a casual sentence-ending particle common in Tokyo and the Kanto region.</p><p>ORIGIN:<br>Contraction of じゃないか (isn&#x27;t it?)</p><p>USAGE:</p><ul><li>Very casual; use with friends and peers</li><li>Common among younger speakers</li><li>Can express mild surprise or seek confirmation</li></ul><p>VARIATIONS:</p><ul><li>じゃんか: slightly stronger emphasis</li><li>じゃない: more standard form</li></ul><p>REGIONAL NOTE:<br>More common in Kanto; Kansai speakers may use やん instead.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N3</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 15:00</div>
+                <div class="metadata-file">sa/ja/jan_05605</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

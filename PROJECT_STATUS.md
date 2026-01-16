@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 5,407
+- **Total entries**: 5,507
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~500 entries added
-- **JLPT N3 vocabulary**: ~2,700 entries added
-- **Candidate words**: ~1,354 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~2,800 entries added
+- **Candidate words**: ~1,247 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,37 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 60)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Verbs (15): {映|ば}える (to look good), {手放|てばな}す (to let go), {垂|た}らす (to drip), {怒鳴|どな}る (to shout), {呟|つぶや}く (to mutter), {膨|ふく}らむ (to swell), {萎|しぼ}む (to wilt), {焦|こ}げる (to burn), {喚|わめ}く (to scream), {咎|とが}める (to blame), {寝|ね}ぼける (to be drowsy), {抓|つね}る (to pinch), しゃぶる (to suck), {欠伸|あくび}する (to yawn), くしゃみする (to sneeze)
+- Onomatopoeia (25): くるくる (spinning), ばたばた (flapping), きゅっと (tightly), ぎゅっと (squeezing), ぱっと (suddenly), さっと (quickly), はっと (startled), ぎらぎら (glaring), てかてか (shiny), もこもこ (fluffy), ぼこぼこ (bumpy), すらすら (smoothly), ぶつぶつ (grumbling), ぴんぴん (lively), びしょびしょ (soaked), ふらふら (unsteady), よろよろ (tottering), おろおろ (flustered), いそいそ (eagerly), おどおど (timidly), ちくちく (prickly), しくしく (sobbing), ひやひや (anxious), めらめら (blazing), ぺたぺた (sticking)
+- School terms (5): {部活|ぶかつ} (club activities), {生徒会|せいとかい} (student council), {職員室|しょくいんしつ} (staff room), {保健室|ほけんしつ} (nurse's office), {図書室|としょしつ} (library room)
+- Health (5): {下痢|げり} (diarrhea), {便秘|べんぴ} (constipation), インフルエンザ (influenza), {包帯|ほうたい} (bandage), {絆創膏|ばんそうこう} (adhesive bandage)
+- Nature (6): {紅葉|もみじ} (maple/autumn leaves), {葉|は}っぱ (leaf), {磯|いそ} (rocky shore), {珊瑚|さんご} (coral), {崖|がけ} (cliff), あられ (hail)
+- Technology (8): ユーザー (user), フォルダ (folder), タップ (tap), サブスク (subscription), テレワーク (telework), ワイファイ (WiFi), {生配信|なまはいしん} (live streaming), エコ (eco)
+- Media controls (3): {一時停止|いちじていし} (pause), {早送|はやおく}り (fast forward), {巻|ま}き{戻|もど}し (rewind)
+- Emotions (4): {悲|かな}しみ (sadness), {恐|おそ}れ (fear), {嫉妬|しっと} (jealousy), {葛藤|かっとう} (conflict)
+- Arts/crafts (4): {折|お}り{紙|がみ} (origami), {生|い}け{花|ばな} (ikebana), {舞踊|ぶよう} (dance), {刺繍|ししゅう} (embroidery)
+- Political terms (4): {民主主義|みんしゅしゅぎ} (democracy), {資本主義|しほんしゅぎ} (capitalism), {社会主義|しゃかいしゅぎ} (socialism), {人権|じんけん} (human rights)
+- Finance (6): {口座|こうざ} (bank account), {預金|よきん} (deposit), {振込|ふりこみ} (transfer), {残高|ざんだか} (balance), {手数料|てすうりょう} (handling fee), {値引|ねび}き (discount)
+- Games (2): パズル (puzzle), オセロ (Othello)
+- Live performance (1): ライブ (live concert)
+- Misc (3): {真夜中|まよなか} (midnight), {染|し}み (stain), {麦|むぎ} (wheat/barley)
+- Animal sounds (2): わんわん (bow-wow), にゃんにゃん (meow)
+- Expressions (3): まあまあ (so-so), みたいな (like), じゃん (isn't it)
+- Clothing (4): Tシャツ (T-shirt), ジャンパー (jacket), キャップ (cap), スニーカー (sneakers)
+
+Notable entry features:
+- Comprehensive onomatopoeia covering movement, texture, emotions, and states
+- Japanese school-specific vocabulary (部活, 生徒会, etc.)
+- Cross-references added linking antonyms (下痢↔便秘, 早送り↔巻き戻し)
+- Political vocabulary useful for news and academic contexts
+- Finance terms essential for daily life in Japan
+
+Total entries: 5,407 → 5,507
+Remaining candidates: 1,354 → 1,247
 
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 59)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -286,65 +317,6 @@ Added 201 new candidates to `candidate_words.json` using systematic semantic gap
 - **Business/commerce terms** (30): 認定, 取消, 施行, 遵守, 保活, 朝活, ノマド, キャッシュレス, ペーパーレス, コワーキング, フリーランス, ベンチャー, 電子決済, キャッシュバック, ポイント還元, クーポン, 送料, 年会費, 入会金, 解約, 延長, 有効期限, 返金, 不具合, 問い合わせ, 納品書, 明細, 契約書, 同意書
 
 Total candidates: 1,479 → 1,680
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 53)
-Added 50 new dictionary entries from candidate_words.json, focusing on household items, clothing, accessories, and work vocabulary:
-
-- Kitchen Utensils (10): ざる (colander), おたま (ladle), へら (spatula), {菜箸|さいばし} (cooking chopsticks), {汁椀|しるわん} (soup bowl), {小皿|こざら} (small plate), {大皿|おおざら} (large plate), {湯呑|ゆの}み (teacup), {箸置|はしお}き (chopstick rest), ボウル (mixing bowl)
-- Home/Living Items (10): ソファ (sofa), テーブル (table), {本棚|ほんだな} (bookshelf), クローゼット (closet), {扉|とびら} (door), {縁側|えんがわ} (veranda), {絨毯|じゅうたん} (carpet), シーツ (sheets), ベッド (bed), シャワー (shower)
-- Bathroom Items (5): スポンジ (sponge), シャンプー (shampoo), {歯|は}ブラシ (toothbrush), バスタオル (bath towel), {便器|べんき} (toilet bowl)
-- Clothing (10): パジャマ (pajamas), ブラウス (blouse), カーディガン (cardigan), ジャケット (jacket), パーカー (hoodie), ワンピース (dress), スニーカー (sneakers), ブーツ (boots), スリッパ (slippers), マフラー (scarf)
-- Accessories (5): サングラス (sunglasses), {腕時計|うでどけい} (wristwatch), ネックレス (necklace), リュック (backpack), {団扇|うちわ} (round fan)
-- Work Vocabulary (10): {勤務|きんむ} (work), {出勤|しゅっきん} (going to work), {退勤|たいきん} (leaving work), {有給|ゆうきゅう} (paid leave), {昇進|しょうしん} (promotion), {転勤|てんきん} (job transfer), {転職|てんしょく} (job change), {退職|たいしょく} (resignation), {解雇|かいこ} (dismissal), {採用|さいよう} (hiring)
-
-Notable entry features:
-- Comprehensive household vocabulary useful for daily life in Japan
-- Clothing entries include both loanwords and the casual/formal distinctions in Japanese
-- Work vocabulary covers the full employment lifecycle with cultural notes on Japanese workplace culture
-- All entries include common expressions and related vocabulary
-
-Total entries: 4,807 → 4,857
-Remaining candidates: 1,529 → 1,479
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 52)
-Added 50 new dictionary entries from candidate_words.json, focusing on technology/electronics, media/broadcasting, and traditional Japanese arts:
-
-- Technology/Electronics (15): {画面|がめん} (screen), キーボード (keyboard), マウス (mouse), プリンター (printer), カメラ (camera), スピーカー (speaker), イヤホン (earphones), ヘッドホン (headphones), バッテリー (battery), {充電|じゅうでん} (charging), {電源|でんげん} (power supply), コンセント (outlet), ケーブル (cable), {携帯電話|けいたいでんわ} (mobile phone), スマートフォン (smartphone)
-- Media/Communication (12): メール (email), チャット (chat), ニュース (news), {報道|ほうどう} (news coverage), {編集|へんしゅう} (editing), {見出|みだ}し (headline), {録画|ろくが} (recording), {再生|さいせい} (playback), {動画|どうが} (video), {映像|えいぞう} (footage), {音声|おんせい} (audio), {字幕|じまく} (subtitles)
-- Fine Arts (3): {美術|びじゅつ} (fine arts), {彫刻|ちょうこく} (sculpture), {陶芸|とうげい} (pottery)
-- Traditional Japanese Arts (5): {華道|かどう} (flower arrangement), {茶道|さどう} (tea ceremony), {剣道|けんどう} (kendo), {弓道|きゅうどう} (archery), {空手|からて} (karate)
-- Performing Arts (7): {歌舞伎|かぶき} (kabuki), {狂言|きょうげん} (kyogen), {落語|らくご} (rakugo), {漫才|まんざい} (manzai), {脚本|きゃくほん} (script), {演出|えんしゅつ} (direction), {視聴|しちょう} (viewing)
-- Musical Instruments (5): ギター (guitar), フルート (flute), ドラム (drums), {三味線|しゃみせん} (shamisen), {尺八|しゃくはち} (shakuhachi)
-- Other (3): オーケストラ (orchestra), {購読|こうどく} (subscription), チャンネル (channel)
-
-Notable entry features:
-- Comprehensive technology vocabulary for modern life and digital communication
-- Traditional Japanese arts entries include major schools, equipment, and cultural context
-- Performing arts entries cover traditional comedy, theater, and modern media
-- Musical instrument entries include both Western and Japanese traditional instruments
-
-Total entries: 4,757 → 4,807
-Remaining candidates: 1,579 → 1,529
-
-### 2026-01-14 (Candidate Words Expansion - 202 New Candidates)
-Added 202 new candidates to `candidate_words.json` using systematic semantic gap analysis:
-
-- **Medical/anatomical terms** (15): 肩甲骨, 肋骨, 骨盤, 脊椎, 靭帯, 軟骨, 毛細血管, リンパ, 通院, 処方, 感染, 炎症, 切り傷, 応急処置, 健康診断
-- **Four-character idioms & proverbs** (9): 二束三文, 三日坊主, 青息吐息, 本末転倒, 猿も木から落ちる, 石の上にも三年, 塵も積もれば山となる, 棚から牡丹餅, 一朝一夕
-- **Emotional/psychological terms** (8): 倦怠, 嫌悪, 渇望, 郷愁, 陶酔, 恍惚, 虚脱, 緊迫
-- **Traditional culture** (6): 褌, 朱肉, 御神籤, お宮参り, 告別式, 初七日, 四十九日, 一周忌, 三回忌, 法要
-- **Honorific vocabulary** (9): お越しになる, 存じる, 頂戴する, 拝借する, お供する, 恐れ入る, 差し支える, お手数, ご容赦
-- **Sports & music terms** (14): ドリブル, シュート, オフサイド, ファウル, ゴールキーパー, フォワード, ミッドフィルダー, ディフェンダー, スタメン, アレンジ, リフ, ビート, アドリブ, アンコール
-- **Business & finance** (10): 配当, 財務, 経理, 監査, 決算, 収益, 抵当, 担保, 手形, 小切手
-- **Transportation** (9): 滑走路, 離陸, 着陸, 搭乗, 乗車, 優先席, 車内, 車掌, 運転士
-- **Construction & architecture** (13): 施工, 骨組み, 外壁, 内装, 断熱, 防水, 耐震, 解体, 改築, 増築, 修繕, 塗装, 足場
-- **Agriculture** (12): 耕作, 播種, 灌漑, 肥料, 害虫, 苗床, 果樹園, 酪農, 牧場, 飼育, 家畜, 堆肥
-- **Modern vocabulary** (6): マウント, チルい, パワハラ, モラハラ, セクハラ, マタハラ
-- **Social media slang** (6): リツイート, ハッシュタグ, ネタ, 空気を読む, KY, ガチ勢
-- **Environment & energy** (8): 省エネ, ゴミ分別, 埋立地, 太陽光, 風力, 原子力, 水力, 炭素
-- **Other categories** (77): Various nouns, verbs, adjectives, and number compounds
-
-Total candidates: 1,377 → 1,579
 
 ---
 
