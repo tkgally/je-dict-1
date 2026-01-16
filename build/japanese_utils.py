@@ -281,3 +281,33 @@ def get_expected_directory(reading: str) -> Optional[str]:
         return None
     first_kana = reading[0]
     return KANA_TO_DIRECTORY.get(first_kana)
+
+
+def normalize_reading(reading: str) -> str:
+    """
+    Normalize a reading for comparison by converting katakana to hiragana.
+
+    This is useful for deduplication and matching when readings may be
+    written in either hiragana or katakana.
+
+    Args:
+        reading: Reading string (may contain katakana or hiragana)
+
+    Returns:
+        Normalized reading in hiragana (lowercase)
+
+    Examples:
+        >>> normalize_reading('カタカナ')
+        'かたかな'
+        >>> normalize_reading('ひらがな')
+        'ひらがな'
+    """
+    result = []
+    for char in reading:
+        code = ord(char)
+        # Katakana range: 0x30A1-0x30F6 -> Hiragana: 0x3041-0x3096
+        if 0x30A1 <= code <= 0x30F6:
+            result.append(chr(code - 0x60))
+        else:
+            result.append(char)
+    return ''.join(result).lower()

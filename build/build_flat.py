@@ -21,6 +21,7 @@ from japanese_utils import (
     hiragana_to_romaji, KANA_ROWS, KANA_TO_FOLDER, get_kana_folder,
     FURIGANA_PATTERN, strip_furigana
 )
+from constants import get_cross_ref_label
 
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
@@ -108,18 +109,6 @@ def format_jst_datetime(iso_string: str) -> str:
         return ''
 
 
-def get_cross_ref_type_label(ref_type: str) -> str:
-    """Get display label for cross-reference type."""
-    labels = {
-        'pair': 'Pair verb',
-        'synonym': 'Synonym',
-        'antonym': 'Antonym',
-        'keigo': 'Keigo',
-        'related': 'Related',
-        'see_also': 'See also',
-        'contrast': 'Contrast'
-    }
-    return labels.get(ref_type, 'Related')
 
 
 def generate_nav_header(relative_path: str = '') -> str:
@@ -313,7 +302,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
                     ref_headword = ref_reading
                 resolved = target_id in entries_dict
 
-            type_label = get_cross_ref_type_label(ref_type)
+            type_label = get_cross_ref_label(ref_type)
             display = process_furigana(ref_headword) if ref_headword else html.escape(ref_reading)
             label_text = f' ({html.escape(label)})' if label else ''
 

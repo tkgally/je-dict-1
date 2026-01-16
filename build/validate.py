@@ -21,6 +21,7 @@ from japanese_utils import (
     get_expected_directory,
     KANA_TO_DIRECTORY,
 )
+from constants import CROSS_REF_TYPES
 
 
 try:
@@ -178,13 +179,12 @@ def validate_structured_cross_reference(ref: dict, entry_reading: str, entry_hea
     Returns a list of error messages (empty if valid).
     """
     errors = []
-    valid_types = ['pair', 'synonym', 'antonym', 'keigo', 'related', 'see_also', 'contrast']
 
     # Check required fields
     if 'type' not in ref:
         errors.append("Missing 'type' in cross_reference")
-    elif ref['type'] not in valid_types:
-        errors.append(f"Invalid cross_reference type: '{ref['type']}' (must be one of: {', '.join(valid_types)})")
+    elif ref['type'] not in CROSS_REF_TYPES:
+        errors.append(f"Invalid cross_reference type: '{ref['type']}' (must be one of: {', '.join(CROSS_REF_TYPES)})")
 
     if 'reading' not in ref:
         errors.append("Missing 'reading' in cross_reference")

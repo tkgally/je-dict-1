@@ -10,6 +10,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from japanese_utils import normalize_reading
+
 # Calculate paths relative to script location
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
@@ -44,19 +46,6 @@ def save_json(filepath, data):
     except OSError as e:
         print(f"Error: Could not write to {filepath}: {e}")
         sys.exit(1)
-
-def normalize_reading(reading):
-    """Normalize reading for comparison - convert to hiragana lowercase."""
-    # Convert katakana to hiragana
-    result = []
-    for char in reading:
-        code = ord(char)
-        # Katakana range: 0x30A0-0x30FF -> Hiragana: 0x3040-0x309F
-        if 0x30A1 <= code <= 0x30F6:
-            result.append(chr(code - 0x60))
-        else:
-            result.append(char)
-    return ''.join(result).lower()
 
 def main():
     # Load data
