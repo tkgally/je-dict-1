@@ -35,9 +35,17 @@ def load_schema(schema_path: Path) -> dict:
         return json.load(f)
 
 
-def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> tuple[list[str], dict | None]:
+def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: Draft7Validator = None) -> tuple[list[str], dict | None]:
     """
     Validate a single entry file.
+
+    Args:
+        file_path: Path to the entry file.
+        schema: The JSON schema dict.
+        all_ids: Set of all entry IDs seen so far (for uniqueness checking).
+        validator: Pre-created Draft7Validator instance (optional, for performance).
+                   If not provided, a new validator will be created.
+
     Returns a tuple of (error_messages, entry_data).
     If validation fails, entry_data may be None (for JSON errors) or the partial entry.
     """
@@ -50,8 +58,9 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set) -> tuple[li
     except json.JSONDecodeError as e:
         return [f"Invalid JSON: {e}"], None
 
-    # Validate against schema
-    validator = Draft7Validator(schema)
+    # Validate against schema - reuse validator if provided
+    if validator is None:
+        validator = Draft7Validator(schema)
     schema_errors = list(validator.iter_errors(entry))
     for error in schema_errors:
         path = ' -> '.join(str(p) for p in error.absolute_path) if error.absolute_path else 'root'
@@ -406,12 +415,15 @@ def validate_all_entries(project_root: Path) -> tuple[int, int, list[tuple[Path,
     invalid_files = []
     entries_data = []  # Store (file_path, entry_data) for duplicate checking
 
+    # Create validator once and reuse for all entries (performance optimization)
+    validator = Draft7Validator(schema)
+
     # Collect all JSON files
     entry_files = list(entries_dir.glob('**/*.json'))
 
     for file_path in entry_files:
         total += 1
-        errors, entry = validate_entry_file(file_path, schema, all_ids)
+        errors, entry = validate_entry_file(file_path, schema, all_ids, validator)
         if errors:
             invalid_files.append((file_path, errors))
         else:
@@ -455,6 +467,9 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
     schema_path = project_root / 'build' / 'schema.json'
     schema = load_schema(schema_path)
 
+    # Create validator once
+    validator = Draft7Validator(schema)
+
     # Get all existing IDs for cross-reference checking
     entries_dir = project_root / 'entries'
     all_ids = set()
@@ -469,7 +484,7 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
     print(f"Validating: {entry_path}")
     print("-" * 50)
 
-    errors, entry = validate_entry_file(entry_path, schema, set())  # Don't check ID uniqueness for single entry
+    errors, entry = validate_entry_file(entry_path, schema, set(), validator)  # Don't check ID uniqueness for single entry
 
     # Check cross-references using the already-loaded entry
     if entry is not None:

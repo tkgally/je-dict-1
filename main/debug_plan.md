@@ -82,21 +82,21 @@ This document tracks fixes based on code reviews from three LLMs. Work through t
 ## Session 4: Performance
 
 ### Task 4.1: Fix double file read in add_example_ids.py
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/add_example_ids.py` (lines 91-94)
 - **Issue**: Main loop reads each file twice
 - **Fix**: Pass loaded data to process_entry or refactor
 - **Review**: 2 (#6)
 
 ### Task 4.2: Fix inefficient search index creation
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/build_flat.py` (around line 883)
 - **Issue**: O(n²) duplicate detection with list membership checks
 - **Fix**: Use sets instead of lists, convert at end
 - **Review**: 2 (#10)
 
 ### Task 4.3: Reuse validator instance
-- [ ] **PENDING**
+- [x] **COMPLETED**
 - **File**: `build/validate.py`
 - **Issue**: Creates new Draft7Validator for each entry
 - **Fix**: Initialize once and reuse
@@ -218,7 +218,7 @@ These are larger efforts noted by reviewers but not prioritized for immediate ac
 | 1 | 2026-01-16 | 1.1, 1.2, 1.3 |
 | 2 | 2026-01-16 | 2.1, 2.2, 2.3 |
 | 3 | 2026-01-16 | 3.1, 3.2, 3.3 |
-| 4 | - | - |
+| 4 | 2026-01-16 | 4.1, 4.2, 4.3 |
 | 5 | - | - |
 | 6 | - | - |
 | 7 | - | - |

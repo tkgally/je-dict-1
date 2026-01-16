@@ -38,10 +38,19 @@ def reorder_example(example, entry_id, index):
     return new_example
 
 
-def process_entry(filepath):
-    """Process a single entry file."""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+def process_entry(filepath, data=None):
+    """Process a single entry file.
+
+    Args:
+        filepath: Path to the entry file.
+        data: Pre-loaded entry data (optional). If not provided, file will be read.
+
+    Returns:
+        bool: True if entry was updated, False otherwise.
+    """
+    if data is None:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
     entry_id = data.get('id')
     if not entry_id:
@@ -92,7 +101,8 @@ def main():
 
         examples_before = len(data.get('examples', []))
 
-        if process_entry(filepath):
+        # Pass pre-loaded data to avoid double file read
+        if process_entry(filepath, data):
             updated_count += 1
             total_examples += examples_before
 
