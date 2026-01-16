@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="稲刈り - rice harvesting. Japanese-English dictionary entry with definitions and examples.">
+    <title>稲刈り (いねかり) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>稲刈<rp>(</rp><rt>いねか</rt><rp>)</rp></ruby>り</h1>
+            <div class="entry-reading">いねかり</div>
+            <div class="entry-pos">noun, suru verb</div>
+            <div class="entry-gloss">rice harvesting</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">rice harvesting; rice reaping</span>
+                    <div class="definition-explanation">The act of cutting and gathering mature rice plants from the paddy field. A significant agricultural activity in Japan, typically done in autumn.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>秋<rp>(</rp><rt>あき</rt><rp>)</rp></ruby>になると<ruby>稲刈<rp>(</rp><rt>いねか</rt><rp>)</rp></ruby>りの<ruby>季節<rp>(</rp><rt>きせつ</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">When autumn comes, it&#x27;s rice harvesting season.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>今年<rp>(</rp><rt>ことし</rt><rp>)</rp></ruby>の<ruby>稲刈<rp>(</rp><rt>いねか</rt><rp>)</rp></ruby>りは<ruby>豊作<rp>(</rp><rt>ほうさく</rt><rp>)</rp></ruby>だった。</div>
+                    <div class="example-english">This year&#x27;s rice harvest was bountiful.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>小学校<rp>(</rp><rt>しょうがっこう</rt><rp>)</rp></ruby>で<ruby>稲刈<rp>(</rp><rt>いねか</rt><rp>)</rp></ruby>り<ruby>体験<rp>(</rp><rt>たいけん</rt><rp>)</rp></ruby>をした。</div>
+                    <div class="example-english">We had a rice harvesting experience at elementary school.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>稲刈<rp>(</rp><rt>いねか</rt><rp>)</rp></ruby>り combines <ruby>稲<rp>(</rp><rt>いね</rt><rp>)</rp></ruby> (rice plant) and <ruby>刈<rp>(</rp><rt>か</rt><rp>)</rp></ruby>り (cutting).</p><p>SEASON:<br>Typically takes place in September-October in most of Japan.</p><p>RELATED VOCABULARY:</p><ul><li><ruby>田植<rp>(</rp><rt>たう</rt><rp>)</rp></ruby>え: rice planting (spring)</li><li><ruby>稲穂<rp>(</rp><rt>いなほ</rt><rp>)</rp></ruby>: ear of rice</li><li><ruby>収穫<rp>(</rp><rt>しゅうかく</rt><rp>)</rp></ruby>: harvest</li><li><ruby>豊作<rp>(</rp><rt>ほうさく</rt><rp>)</rp></ruby>: good harvest</li><li><ruby>凶作<rp>(</rp><rt>きょうさく</rt><rp>)</rp></ruby>: poor harvest</li></ul><p>CULTURAL NOTE:<br>Many schools include rice cultivation and harvesting as educational experiences.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 23:51</div>
+                <div class="metadata-file">a/in/inekari_06009</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
