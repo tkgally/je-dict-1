@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 5,958
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~919 words tracked in `candidate_words.json`
+- **Candidate words**: ~1,019 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (New Candidates - 100 Words Added, Session 67)
+Added 100 new candidate words to `candidate_words.json` using balanced coverage strategy:
+
+- **Modern loanwords** (32): Business terms (フィードバック, アジェンダ, キャンセル, リスケ, アポ, コスト, マネジメント, プロジェクト, タスク, デッドライン), places (カフェ, バー), food (パスタ, ピザ, アイス), sports (バスケ, バレー, スノボ), technology (オフライン, ストレージ, ペースト, スキャン, リンク, シェア, コメント, ハッシュタグ, タイムライン, プロフィール, DM), appliances (エアコン, ストーブ, 電子レンジ), travel (プラットホーム)
+- **Compound words** (25): Verbs (持ち出す, 取り外す, 取り扱う, 取り締まる, 書き留める), housing (敷金, 物件), education (就学), work (報告書, 成果, 開発, 運用), weather (俄雨), formal expressions (告白, 宣告, 遺憾, 謝罪, 概要), abstract concepts (幻想, 妄想, 錯覚), travel (切符売り場), family (義母, 義父, 連れ合い)
+- **～的 adjectives** (7): 実質的, 比較的, 定期的, 段階的, 保守的, 特徴的, plus four-character idioms (一直線, 一生懸命, 多事多難)
+- **Emotional adjectives** (5): 切ない, 煩わしい, 鬱陶しい, 愛しい, 面倒くさい
+- **Math/number terms** (2): 分数, 比率
+- **Clothing** (2): 靴下, 手袋
+- **Medical** (1): 湿疹
+- **Conjunctions/connectors** (9): それなのに, 及び, 並びに, 若しくは, さもないと, 故に, 差し当たり, に伴い
+- **Onomatopoeia/adverbs** (3): ぐんぐん, じゃんじゃん, ばんばん
+- **Particles** (3): ぜ, ぞ, かしら
+- **Verbs** (7): ばれる, いける, 怒る (いかる), 呆れる, 痺れる, かぶれる
+- **Expressions** (3): うんざり, 今しがた, 度 (counter)
+
+Candidate count: 919 → 1,019
 
 ### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 66)
 Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
