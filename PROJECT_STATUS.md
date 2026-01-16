@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 4,907
+- **Total entries**: 5,007
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~500 entries added
-- **JLPT N3 vocabulary**: ~2,300 entries added
-- **Candidate words**: ~1,831 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~2,400 entries added
+- **Candidate words**: ~1,552 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-15 (Vocabulary Expansion - 100 New Entries, Session 55)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Core vocabulary (5): {豚|ぶた} (pig), {羊|ひつじ} (sheep), {本当|ほんとう}に (really), {確|たし}かに (certainly), ピンク (pink)
+- Modern/Slang vocabulary (21): スマホ, アプリ, ダウンロード, {検索|けんさく}, フォロー, {投稿|とうこう}, バズる, {推|お}し, コスパ, タイパ, リモート, マジ, やばい, めっちゃ, ウザい, ダサい, キモい, エモい, ガチ, イケメン, ネタバレ
+- 四字熟語 (7): {一石二鳥|いっせきにちょう}, {以心伝心|いしんでんしん}, {一期一会|いちごいちえ}, {十人十色|じゅうにんといろ}, {四苦八苦|しくはっく}, {一長一短|いっちょういったん}, {自業自得|じごうじとく}
+- ～的 adjectives (13): {消極的|しょうきょくてき}, {具体的|ぐたいてき}, {抽象的|ちゅうしょうてき}, {一般的|いっぱんてき}, {基本的|きほんてき}, {個人的|こじんてき}, {社会的|しゃかいてき}, {効果的|こうかてき}, {現実的|げんじつてき}, {理想的|りそうてき}, {魅力的|みりょくてき}, {典型的|てんけいてき}, {伝統的|でんとうてき}
+- Reduplication (4): {日々|ひび}, {国々|くにぐに}, {山々|やまやま}, {木々|きぎ}
+- Compound verb (1): {呼|よ}び{出|だ}す (to call out)
+- Onomatopoeia (12): ひらひら, ゆらゆら, すれすれ, がらがら, へらへら, むすっと, ぷりぷり, うんざり, げんなり, しんみり, ぱさぱさ, ほかほか
+- Emotional vocabulary (15): {哀愁|あいしゅう}, {羞恥|しゅうち}, {孤独|こどく}, {充実|じゅうじつ}, {虚無|きょむ}, {軽蔑|けいべつ}, {惨|みじ}め, {屈辱|くつじょく}, {焦燥|しょうそう}, {切望|せつぼう}, {愛着|あいちゃく}, {落胆|らくたん}, {絶望|ぜつぼう}, {憎悪|ぞうお}, {未練|みれん}
+- Business terms (11): {戦略|せんりゃく}, {方針|ほうしん}, {業績|ぎょうせき}, {損失|そんしつ}, {商談|しょうだん}, {企画|きかく}, {手当|てあて}, {福利厚生|ふくりこうせい}, {確定申告|かくていしんこく}, {源泉徴収|げんせんちょうしゅう}, {見積|みつも}り
+- Household/Environment (11): インターホン, {表札|ひょうさつ}, {郵便受|ゆうびんう}け, ブラインド, ブレスレット, ブローチ, {世界遺産|せかいいさん}, {天然記念物|てんねんきねんぶつ}, {保護区|ほごく}, {給湯器|きゅうとうき}, {電化製品|でんかせいひん}
+
+Notable entry features:
+- Modern slang includes internet/social media terms popular with younger generations
+- 四字熟語 entries include origin, literal meaning, and modern usage contexts
+- ～的 adjectives cover common academic and formal vocabulary
+- Emotional vocabulary useful for literature and nuanced expression
+- Business terms cover tax, HR, and corporate planning terminology
+
+Total entries: 4,907 → 5,007
+Remaining candidates: 1,831 → 1,552
 
 ### 2026-01-15 (Candidate Words Expansion - 200 New Candidates)
 Added 200 new candidates to `candidate_words.json` using the balanced coverage strategy outlined in `newcandidates.md`:
@@ -273,25 +297,6 @@ Notable entry features:
 
 Total entries: 4,719 → 4,769
 Remaining candidates: 1,950 → 1,904
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 48)
-Added 50 new dictionary entries from candidate_words.json, focusing on animals, plants/trees, and medical/health terms:
-
-- Insects (5): {蝶|ちょう} (butterfly), {蟻|あり} (ant), {蚊|か} (mosquito), {蝸牛|かたつむり} (snail), {蛙|かえる} (frog)
-- Reptiles/Sea creatures (8): {蜥蜴|とかげ} (lizard), {鰐|わに} (crocodile), {鯨|くじら} (whale), {海豚|いるか} (dolphin), {鮫|さめ} (shark), {烏賊|いか} (squid), {蛸|たこ} (octopus), {蟹|かに} (crab)
-- Birds (4): {鷲|わし} (eagle), {梟|ふくろう} (owl), {鶴|つる} (crane), {燕|つばめ} (swallow)
-- Mammals (8): {狼|おおかみ} (wolf), {狐|きつね} (fox), {狸|たぬき} (raccoon dog), {熊|くま} (bear), {鹿|しか} (deer), {猪|いのしし} (wild boar), {栗鼠|りす} (squirrel), {蝙蝠|こうもり} (bat)
-- Plants/Trees (15): {幹|みき} (trunk), {蕾|つぼみ} (bud), {花弁|かべん} (petal), {花粉|かふん} (pollen), {楓|かえで} (maple), {銀杏|いちょう} (ginkgo), {桃|もも} (peach), {柿|かき} (persimmon), {栗|くり} (chestnut), {薔薇|ばら} (rose), {百合|ゆり} (lily), {藤|ふじ} (wisteria), {椿|つばき} (camellia), {檜|ひのき} (Japanese cypress), {笹|ささ} (bamboo grass)
-- Medical/Health (10): {花粉症|かふんしょう} (hay fever), {糖尿病|とうにょうびょう} (diabetes), {高血圧|こうけつあつ} (high blood pressure), {心臓病|しんぞうびょう} (heart disease), {認知症|にんちしょう} (dementia), {嗅覚|きゅうかく} (sense of smell), {味覚|みかく} (sense of taste), {触覚|しょっかく} (sense of touch), くしゃみ (sneeze), {鼻水|はなみず} (runny nose)
-
-Notable entry features:
-- Animal entries include counters, cultural notes, and figurative expressions (e.g., {狐|きつね}と{狸|たぬき}の{化|ば}かし{合|あ}い)
-- Plant entries feature seasonal significance and traditional uses (e.g., {笹|ささ} for Tanabata)
-- Medical terms cover common conditions relevant to aging society (diabetes, dementia, hypertension)
-- All entries include common collocations, proverbs where relevant, and cross-references
-
-Total entries: 4,669 → 4,719
-Remaining candidates: 2,000 → 1,950
 
 ---
 
