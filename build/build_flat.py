@@ -825,8 +825,9 @@ def generate_pending_page(candidates: list) -> str:
 
 def generate_search_index(entries: list) -> str:
     """Generate the compact search index JavaScript file."""
-    # Build index
-    index = {
+    # Build index using sets for O(1) duplicate detection
+    # Sets are converted to lists at the end for JSON serialization
+    index_sets = {
         'japanese': {},
         'romaji': {},
         'english': {}
@@ -858,23 +859,20 @@ def generate_search_index(entries: list) -> str:
 
         # Index headword (stripped)
         headword_clean = strip_furigana(headword)
-        if headword_clean not in index['japanese']:
-            index['japanese'][headword_clean] = []
-        if entry_id not in index['japanese'][headword_clean]:
-            index['japanese'][headword_clean].append(entry_id)
+        if headword_clean not in index_sets['japanese']:
+            index_sets['japanese'][headword_clean] = set()
+        index_sets['japanese'][headword_clean].add(entry_id)
 
         # Index reading
-        if reading not in index['japanese']:
-            index['japanese'][reading] = []
-        if entry_id not in index['japanese'][reading]:
-            index['japanese'][reading].append(entry_id)
+        if reading not in index_sets['japanese']:
+            index_sets['japanese'][reading] = set()
+        index_sets['japanese'][reading].add(entry_id)
 
         # Index romaji
         romaji = hiragana_to_romaji(reading)
-        if romaji not in index['romaji']:
-            index['romaji'][romaji] = []
-        if entry_id not in index['romaji'][romaji]:
-            index['romaji'][romaji].append(entry_id)
+        if romaji not in index_sets['romaji']:
+            index_sets['romaji'][romaji] = set()
+        index_sets['romaji'][romaji].add(entry_id)
 
         # Index English gloss words
         glosses = [gloss]
@@ -888,10 +886,16 @@ def generate_search_index(entries: list) -> str:
                 word = word.strip('()[].')
                 if len(word) < 2:
                     continue
-                if word not in index['english']:
-                    index['english'][word] = []
-                if entry_id not in index['english'][word]:
-                    index['english'][word].append(entry_id)
+                if word not in index_sets['english']:
+                    index_sets['english'][word] = set()
+                index_sets['english'][word].add(entry_id)
+
+    # Convert sets to lists for JSON serialization
+    index = {
+        'japanese': {k: list(v) for k, v in index_sets['japanese'].items()},
+        'romaji': {k: list(v) for k, v in index_sets['romaji'].items()},
+        'english': {k: list(v) for k, v in index_sets['english'].items()}
+    }
 
     # Generate JavaScript
     js_content = f'''// Auto-generated search index - do not edit manually
