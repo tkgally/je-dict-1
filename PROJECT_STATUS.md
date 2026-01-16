@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 5,307
+- **Total entries**: 5,407
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~500 entries added
-- **JLPT N3 vocabulary**: ~2,600 entries added
-- **Candidate words**: ~1,441 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~2,700 entries added
+- **Candidate words**: ~1,354 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 59)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Onomatopoeia (20): さらさら (smooth/rustling), ぺらぺら (fluent), とろとろ (thick/gooey), ねばねば (sticky), ぱりぱり (crispy), もちもち (chewy), がんがん (pounding), ずきずき (throbbing), ひりひり (stinging), じんじん (tingling), むかむか (nauseous), びくびく (nervous), そわそわ (restless), はらはら (anxious), ぼーっと (spaced out), うとうと (drowsy), うっとり (enchanted), ぞっと (shuddering), へとへと (exhausted), がたがた (rattling)
+- Technology (7): クリック (click), ログイン (login), パスワード (password), オンライン (online), ネット (internet), ファイル (file), タブレット (tablet)
+- Household items (10): エアコン (air conditioner), ヒーター (heater), リモコン (remote), ケトル (kettle), ポット (pot), {爪切|つめき}り (nail clippers), しゃもじ (rice paddle), ぬいぐるみ (stuffed toy), {印鑑|いんかん} (seal), レシート (receipt)
+- Body parts (3): {眉毛|まゆげ} (eyebrow), こめかみ (temple), {手|て}のひら (palm)
+- Transportation (5): バス{停|てい} (bus stop), {終電|しゅうでん} (last train), {車両|しゃりょう} (vehicle/train car), {乗車券|じょうしゃけん} (ticket), {運賃|うんちん} (fare)
+- Rooms (2): {寝室|しんしつ} (bedroom), {浴室|よくしつ} (bathroom)
+- Verbs (3): {憧|あこが}れる (to admire), {叶|かな}う (to come true), {励|はげ}ます (to encourage)
+- Expressions (8): じゃあね (see ya), またね (see you later), だるい (sluggish), {面倒臭|めんどくさ}い (bothersome), なんか (like/somehow), ぶっちゃけ (to be honest), ぼちぼち (so-so), ほどほど (moderation)
+- Abstract nouns (12): {難民|なんみん} (refugee), {移民|いみん} (immigrant), {世論|せろん} (public opinion), {真実|しんじつ} (truth), {意欲|いよく} (motivation), {体力|たいりょく} (stamina), {自覚|じかく} (self-awareness), {協定|きょうてい} (agreement), {同盟|どうめい} (alliance), {研修|けんしゅう} (training), {練習|れんしゅう} (practice), {古代|こだい} (ancient times)
+- Measurements/Math (18): {産業|さんぎょう} (industry), {資源|しげん} (resources), {強力|きょうりょく} (powerful), {探査|たんさ} (exploration), {哲学|てつがく} (philosophy), {心理|しんり} (psychology), {楽|たの}しむ (to enjoy), {苦|くる}しむ (to suffer), {長|なが}さ (length), {高|たか}さ (height), {深|ふか}さ (depth), {厚|あつ}さ (thickness), {広|ひろ}さ (width), {面積|めんせき} (area), {体積|たいせき} (volume), {距離|きょり} (distance), {速度|そくど} (speed), {割合|わりあい} (ratio)
+- Academic subjects (12): {平均|へいきん} (average), {合計|ごうけい} (total), {足|た}し{算|ざん} (addition), {引|ひ}き{算|ざん} (subtraction), {掛|か}け{算|ざん} (multiplication), {割|わ}り{算|ざん} (division), {数学|すうがく} (mathematics), {科学|かがく} (science), {化学|かがく} (chemistry), {物理|ぶつり} (physics), {生物|せいぶつ} (biology), {歴史|れきし} (history)
+
+Notable entry features:
+- Comprehensive onomatopoeia for textures, sensations, and emotional states
+- Complete set of basic math operations (四則演算)
+- Academic subjects useful for educational contexts
+- Measurement vocabulary with related adjective notes
+- Cross-references added linking homophones ({科学|かがく}↔{化学|かがく})
+
+Total entries: 5,307 → 5,407
+Remaining candidates: 1,441 → 1,354
 
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 58)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -320,37 +345,6 @@ Added 202 new candidates to `candidate_words.json` using systematic semantic gap
 - **Other categories** (77): Various nouns, verbs, adjectives, and number compounds
 
 Total candidates: 1,377 → 1,579
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 51)
-Added 50 new dictionary entries from candidate_words.json, focusing on animal classification, exotic animals, tree types, Japanese cooking methods, and household vocabulary:
-
-- Loanwords (2): ルール (rule), レベル (level)
-- Animal classification (6): {哺乳類|ほにゅうるい} (mammal), {爬虫類|はちゅうるい} (reptile), {両生類|りょうせいるい} (amphibian), {魚類|ぎょるい} (fish class), {鳥類|ちょうるい} (bird class), {甲虫|こうちゅう} (beetle)
-- Insects/creatures (3): {蚯蚓|みみず} (earthworm), {毛虫|けむし} (caterpillar), {穴熊|あなぐま} (badger)
-- Birds (4): {孔雀|くじゃく} (peacock), {白鳥|はくちょう} (swan), {鷺|さぎ} (heron), {鸚鵡|おうむ} (parrot)
-- Exotic animals (5): {獅子|しし} (lion), {河馬|かば} (hippopotamus), {麒麟|きりん} (giraffe), {縞馬|しまうま} (zebra), {駱駝|らくだ} (camel)
-- Tree classification (5): {樹木|じゅもく} (tree), {広葉樹|こうようじゅ} (broadleaf), {針葉樹|しんようじゅ} (conifer), {落葉樹|らくようじゅ} (deciduous), {常緑樹|じょうりょくじゅ} (evergreen)
-- Plants (2): {菖蒲|あやめ} (iris), {蔦|つた} (ivy)
-- Japanese cooking methods (7): {佃煮|つくだに} (tsukudani), {煮物|にもの} (simmered dish), {焼|や}き{物|もの} (grilled dish), {揚|あ}げ{物|もの} (fried food), {蒸|む}し{物|もの} (steamed dish), {和|あ}え{物|もの} (dressed dish), {酢|す}の{物|もの} (vinegared dish)
-- Japanese dishes/food (7): {焼肉|やきにく} (yakiniku), {雑炊|ぞうすい} (rice porridge), {茶漬|ちゃづ}け (ochazuke), {吸|す}い{物|もの} (clear soup), {饅頭|まんじゅう} (manju), {羊羹|ようかん} (yokan), {洋菓子|ようがし} (Western sweets)
-- Meal structure (3): {前菜|ぜんさい} (appetizer), {副菜|ふくさい} (side dish), {主菜|しゅさい} (main dish)
-- Household/architecture (6): {玄関|げんかん} (entrance), {廊下|ろうか} (hallway), {天井|てんじょう} (ceiling), {柱|はしら} (pillar), {箪笥|たんす} (chest of drawers), {洋服|ようふく} (Western clothes)
-
-Notable entry features:
-- Complete animal classification system with related terms cross-referenced
-- Comprehensive Japanese cooking method vocabulary with examples
-- Tree classification entries cover both botanical and practical information
-- All entries include cultural notes where relevant
-
-Total entries: 4,707 → 4,757
-Remaining candidates: 1,840 → 1,783
-
-### 2026-01-14 (Duplicate Entry Cleanup)
-Removed 112 duplicate entries (63 duplicate sets) using the new resolve-duplicates and delete-entry skills. Entry count reduced from 4,819 to 4,707.
-
-Added two new Claude Code skills:
-- `resolve-duplicates`: Guidelines for identifying, comparing, and safely removing duplicate entries
-- `delete-entry`: Step-by-step process for safely deleting entries while updating indexes and cross-references
 
 ---
 

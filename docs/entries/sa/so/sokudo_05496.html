@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="速度 - speed; velocity. Japanese-English dictionary entry with definitions and examples.">
+    <title>速度 (そくど) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">そくど</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">speed; velocity</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">speed; velocity; rate</span>
+                    <div class="definition-explanation">The rate at which something moves or operates.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby><ruby>制限<rp>(</rp><rt>せいげん</rt><rp>)</rp></ruby>は<ruby>時速<rp>(</rp><rt>じそく</rt><rp>)</rp></ruby>60キロだ。</div>
+                    <div class="example-english">The speed limit is 60 kilometers per hour.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby>を<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げる。</div>
+                    <div class="example-english">To increase speed.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>光<rp>(</rp><rt>ひかり</rt><rp>)</rp></ruby>の<ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby></div>
+                    <div class="example-english">The speed of light</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby> is composed of <ruby>速<rp>(</rp><rt>そく</rt><rp>)</rp></ruby> (fast) + <ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby> (degree).</p><p>COMMON EXPRESSIONS:</p><ul><li><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby>を<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げる: to speed up</li><li><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby>を<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>とす: to slow down</li><li><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby><ruby>制限<rp>(</rp><rt>せいげん</rt><rp>)</rp></ruby>: speed limit</li><li><ruby>平均<rp>(</rp><rt>へいきん</rt><rp>)</rp></ruby><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby>: average speed</li><li><ruby>最高<rp>(</rp><rt>さいこう</rt><rp>)</rp></ruby><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby>: maximum speed</li></ul><p>VS. スピード:</p><ul><li><ruby>速度<rp>(</rp><rt>そくど</rt><rp>)</rp></ruby>: formal/technical term</li><li>スピード: casual/everyday term</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N2</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 14:20</div>
+                <div class="metadata-file">sa/so/sokudo_05496</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

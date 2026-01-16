@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ファイル - file; folder. Japanese-English dictionary entry with definitions and examples.">
+    <title>ファイル (ふぁいる) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../../index.html" class="nav-link">Home</a>
+        <a href="../../../search.html" class="nav-link">Search</a>
+        <a href="../../../browse.html" class="nav-link">Browse</a>
+        <a href="../../../recent.html" class="nav-link">Recent</a>
+        <a href="../../../random.html" class="nav-link">Random</a>
+        <a href="../../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ファイル</h1>
+            <div class="entry-reading">ふぁいる</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">file; folder</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">file (computer)</span>
+                    <div class="definition-explanation">A digital document or data stored on a computer.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">file; folder; binder</span>
+                    <div class="definition-explanation">A physical folder or binder for organizing documents.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ファイルを<ruby>保存<rp>(</rp><rt>ほぞん</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">To save a file.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ファイルを<ruby>添付<rp>(</rp><rt>てんぷ</rt><rp>)</rp></ruby>してメールを<ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">To attach a file and send an email.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>書類<rp>(</rp><rt>しょるい</rt><rp>)</rp></ruby>をファイルに<ruby>綴<rp>(</rp><rt>と</rt><rp>)</rp></ruby>じる。</div>
+                    <div class="example-english">To put documents in a binder.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ファイル is a loanword from English &quot;file.&quot;</p><p>COMPUTER USES:</p><ul><li>ファイルを<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>く: to open a file</li><li>ファイルを<ruby>保存<rp>(</rp><rt>ほぞん</rt><rp>)</rp></ruby>する: to save a file</li><li>ファイルを<ruby>削除<rp>(</rp><rt>さくじょ</rt><rp>)</rp></ruby>する: to delete a file</li><li><ruby>添付<rp>(</rp><rt>てんぷ</rt><rp>)</rp></ruby>ファイル: attached file</li></ul><p>PHYSICAL USES:</p><ul><li>クリアファイル: clear folder</li><li>リングファイル: ring binder</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref pending">
+                        <span class="cross-ref-type">Related:</span>
+                        <span class="cross-ref-pending">フォルダ (folder)</span>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge jlpt">N4</span>
+                    <span class="badge status-draft">draft</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 14:20</div>
+                <div class="metadata-file">ha/fa/fairu_05435</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
