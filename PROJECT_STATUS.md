@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-15
+**Last updated**: 2026-01-16
 **Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -31,11 +31,11 @@
 - [x] Deterministic build output (clean before build)
 
 ### Content Status
-- **Total entries**: 5,007
+- **Total entries**: 5,107
 - **JLPT N5 coverage**: ~95% complete
 - **JLPT N4 coverage**: ~500 entries added
-- **JLPT N3 vocabulary**: ~2,400 entries added
-- **Candidate words**: ~1,552 words tracked in `candidate_words.json`
+- **JLPT N3 vocabulary**: ~2,500 entries added
+- **Candidate words**: ~1,452 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -98,6 +98,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 56)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Sports (12): {野球|やきゅう} (baseball), サッカー (soccer), バスケットボール (basketball), バレーボール (volleyball), ゴルフ (golf), マラソン (marathon), ジム (gym), ヨガ (yoga), ジョギング (jogging), スポーツ (sports), {決勝|けっしょう} (final), {予選|よせん} (preliminary)
+- Music terms (5): リズム (rhythm), テンポ (tempo), {和音|わおん} (chord), {旋律|せんりつ} (melody), {音階|おんかい} (scale)
+- Technology/Computing (15): サーバー (server), クラウド (cloud), ネットワーク (network), アップロード (upload), インストール (install), {更新|こうしん} (update), {設定|せってい} (settings), {入力|にゅうりょく} (input), {出力|しゅつりょく} (output), セキュリティ (security), {暗号|あんごう} (encryption), バックアップ (backup), ブラウザ (browser), アプリケーション (application), クライアント (client)
+- AI/Computing (2): {人工知能|じんこうちのう} (AI), {機械学習|きかいがくしゅう} (machine learning)
+- Business/Finance (15): {株式|かぶしき} (stock), {融資|ゆうし} (financing), {返済|へんさい} (repayment), {合併|がっぺい} (merger), {買収|ばいしゅう} (acquisition), {消費税|しょうひぜい} (consumption tax), {賃金|ちんぎん} (wages), {不況|ふきょう} (recession), {好況|こうきょう} (boom), インフレ (inflation), デフレ (deflation), {円高|えんだか} (strong yen), {円安|えんやす} (weak yen), {金利|きんり} (interest rate), {雇用|こよう} (employment)
+- Education (5): {大学院|だいがくいん} (graduate school), {予備校|よびこう} (prep school), {専門学校|せんもんがっこう} (vocational school), {履修|りしゅう} (course registration), {工学|こうがく} (engineering)
+- Science (4): {仮説|かせつ} (hypothesis), {定義|ていぎ} (definition), {分類|ぶんるい} (classification), {検証|けんしょう} (verification)
+- Math (4): {方程式|ほうていしき} (equation), {関数|かんすう} (function), {変数|へんすう} (variable), グラフ (graph)
+- Society/Politics (8): {内閣|ないかく} (cabinet), {介護|かいご} (nursing care), {少子化|しょうしか} (declining birthrate), {高齢化|こうれいか} (aging), {貧困|ひんこん} (poverty), {格差|かくさ} (disparity), {条約|じょうやく} (treaty), {社会保障|しゃかいほしょう} (social security)
+- Sports results (6): {勝敗|しょうはい} (victory/defeat), {引|ひ}き{分|わ}け (draw), {得点|とくてん} (score), {準優勝|じゅんゆうしょう} (runner-up), {準決勝|じゅんけっしょう} (semifinal), {所得税|しょとくぜい} (income tax)
+- Communication (4): {発信|はっしん} (transmission), {受信|じゅしん} (reception), {配信|はいしん} (streaming), {合唱|がっしょう} (chorus)
+- Abstract concepts (13): {本質|ほんしつ} (essence), {反応|はんのう} (reaction), {改革|かいかく} (reform), {達成|たっせい} (achievement), {可能性|かのうせい} (possibility), {必要性|ひつようせい} (necessity), {重要性|じゅうようせい} (importance), {多様性|たようせい} (diversity), {最大|さいだい} (maximum), {最小|さいしょう} (minimum), {最新|さいしん} (latest), {標準|ひょうじゅん} (standard), ボランティア (volunteer)
+- Tech hardware (7): コピー (copy), {圧縮|あっしゅく} (compression), {容量|ようりょう} (capacity), {解像度|かいぞうど} (resolution), ディスプレイ (display), メモリ (memory), {筋|きん}トレ (strength training)
+
+Notable entry features:
+- Computing entries include both Japanese and English terminology used in tech contexts
+- Business/Finance terms cover modern economic vocabulary
+- Cross-references added linking related terms (発信↔受信, 合唱↔独唱)
+- Sports vocabulary includes competition terminology
+
+Total entries: 5,007 → 5,107
+Remaining candidates: 1,552 → 1,452
 
 ### 2026-01-15 (Vocabulary Expansion - 100 New Entries, Session 55)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -279,24 +305,6 @@ Notable entry features:
 
 Total entries: 4,769 → 4,819
 Remaining candidates: 1,904 → 1,840
-
-### 2026-01-14 (Vocabulary Expansion - 50 New Entries, Session 49)
-Added 50 new dictionary entries from candidate_words.json, focusing on verbs, environmental/scientific terms, medical vocabulary, and useful suffixes:
-
-- Verbs (27): {透|す}ける (to be transparent), {滲|にじ}む (to blur), {滴|したた}る (to drip), {舞|ま}う (to dance/flutter), {暴|あば}れる (to act violently), {荒|あ}れる (to be rough), {静|しず}まる (to become quiet), {老|お}いる (to grow old), {衰|おとろ}える (to decline), {早|はや}まる (to quicken), {早|はや}める (to hasten), {枯|か}れる (to wither), {萎|しお}れる (to wilt), {芽生|めば}える (to sprout), {蒸|む}れる (to be stuffy), {揺|ゆ}する (to shake), {括|くく}る (to bundle), {絡|から}める (to entwine), {着替|きが}える (to change clothes), {漁|あさ}る (to rummage), {暴|あば}く (to expose), {晒|さら}す (to expose), {逃|のが}す (to let escape), {拒|こば}む (to refuse), {跳|は}ね{上|あ}がる (to jump up), {吹|ふ}き{飛|と}ばす (to blow away), {焦|あせ}る (to be impatient)
-- Environmental terms (11): {温暖化|おんだんか} (global warming), リサイクル (recycling), {生態系|せいたいけい} (ecosystem), {気候変動|きこうへんどう} (climate change), {二酸化炭素|にさんかたんそ} (carbon dioxide), {排出|はいしゅつ} (emission), {廃棄物|はいきぶつ} (waste), {再生可能|さいせいかのう} (renewable), {持続可能|じぞくかのう} (sustainable), {生物多様性|せいぶつたようせい} (biodiversity), {絶滅危惧種|ぜつめつきぐしゅ} (endangered species)
-- Medical/Health terms (5): {体調|たいちょう} (physical condition), アレルギー (allergy), {脳卒中|のうそっちゅう} (stroke), {鬱病|うつびょう} (depression), {関節痛|かんせつつう} (joint pain)
-- Nature/Time terms (3): {言|い}い{訳|わけ} (excuse), {朝焼|あさや}け (morning glow), {日没|にちぼつ} (sunset)
-- Suffixes (4): 〜{社|しゃ} (company), 〜{者|しゃ} (person), 〜{団|だん} (group), 〜{長|ちょう} (head/leader)
-
-Notable entry features:
-- Comprehensive verb entries with transitivity pairs and ている aspect behavior
-- Environmental vocabulary highly relevant for current events discussions
-- Medical terms cover common conditions and health-related expressions
-- All suffixes include extensive compound word lists
-
-Total entries: 4,719 → 4,769
-Remaining candidates: 1,950 → 1,904
 
 ---
 
