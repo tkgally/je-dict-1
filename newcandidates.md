@@ -1,6 +1,6 @@
 # New Candidate Words Prompt
 
-Add 200 new candidates to candidate_words.json using the find-candidates skill.
+Add 100 new candidates to candidate_words.json using the find-candidates skill.
 
 ## Quick Context
 
