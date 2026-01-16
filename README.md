@@ -6,7 +6,12 @@ This dictionary is licensed under Creative Commons Zero v1.0 Universal, and anyo
 
 ## Overview
 
-This dictionary is designed for learners of Japanese as a second language. Its features include:
+This dictionary is designed for learners of Japanese as a second language. It uses an original three-tier vocabulary classification system:
+- **Basic tier**: 600-800 fundamental words essential for basic communication
+- **Core tier**: 1,600-2,000 words needed for adult-level communication
+- **General tier**: All other vocabulary useful for learners
+
+Dictionary features include:
 
 - **Explanatory definitions** that go beyond simple glosses
 - **Natural example sentences** optimized for learning
@@ -21,7 +26,7 @@ This dictionary is designed for learners of Japanese as a second language. Its f
 
 ## Current Status
 
-- **3,481 entries** covering N5 vocabulary (complete), N4 vocabulary (in progress), and N3 vocabulary (significant progress), with a total target of about 10,000 entries
+- **5,507 entries** with a total target of about 10,000 entries. The dictionary uses an original three-tier vocabulary classification system (basic, core, general) rather than JLPT levels.
 - **1,028 audio files** with pronunciation for example sentences, produced with OpenAI's text-to-speech models
 - **567 cross-references** linking related entries with 97% resolution rate
 - **Claude Code skills** for consistent entry creation and revision
@@ -89,12 +94,10 @@ The dictionary provides four different ways to explore entries:
 Quick lookup by Japanese, romaji, or English. The traditional dictionary experience for users who know what word they're looking for.
 
 ### Browse Mode
-Filter and explore entries by:
-- **JLPT Level**: N5, N4, or all
-- **Part of Speech**: verbs, nouns, adjectives, adverbs, particles, counters, other
+Explore entries organized by:
 - **Starting Kana**: あ行, か行, さ行, etc.
 
-Ideal for systematic vocabulary study or exploring categories.
+Tier-based filtering (basic, core, general) will be available once vocabulary tiers are assigned to entries. The dictionary uses an original three-tier classification system instead of JLPT levels.
 
 ### Recent Mode
 View the most recently added or revised entries (up to 250). Each entry shows:
@@ -218,7 +221,7 @@ Each entry is a JSON file with the following structure:
     "ai_model": "claude-opus-4-5",
     "confidence": "high",
     "review_status": "verified",
-    "jlpt_level": "N5",
+    "vocabulary_tier": null,
     "frequency_rank": null
   }
 }
@@ -316,7 +319,7 @@ audio/
 - [x] Furigana system with toggle
 
 ### Phase 2: Core Vocabulary ✓ COMPLETE
-- [x] N5 vocabulary (~761 entries, 95% coverage)
+- [x] Basic vocabulary foundation (~761 entries)
 - [x] Multi-model LLM evaluation
 - [x] Quality specification v2
 - [x] Entry revision to v2 standards
@@ -328,9 +331,8 @@ audio/
 - [x] Standardize adjective forms
 - [x] Notes formatting with bullet points
 
-### Phase 4: N4 Expansion & Interface (Current)
-- [x] Added ~450 N4 vocabulary entries
-- [x] Added ~1,090 N3 vocabulary entries
+### Phase 4: Vocabulary Expansion & Interface (Current)
+- [x] Added ~4,700 additional vocabulary entries
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle and furigana button
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
@@ -339,7 +341,10 @@ audio/
 - [x] Static HTML site generation (flat HTML only)
 - [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
 - [x] Code quality improvements (shared utilities, deterministic builds)
-- [ ] Continue adding vocabulary from candidate list (~2,070 candidates)
+- [x] Migrated from JLPT levels to three-tier vocabulary system (basic, core, general)
+- [ ] Assign vocabulary tiers to existing entries
+- [ ] Continue adding vocabulary from candidate list (~1,247 candidates)
+- [ ] Tier-based filtering in Browse mode
 - [ ] Conjugation search indexing
 
 ### Phase 5: Polish and Distribution

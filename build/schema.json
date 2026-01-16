@@ -227,10 +227,10 @@
           "enum": ["draft", "reviewed", "verified"],
           "description": "Review status of the entry"
         },
-        "jlpt_level": {
-          "type": "string",
-          "enum": ["N5", "N4", "N3", "N2", "N1"],
-          "description": "JLPT level if applicable"
+        "vocabulary_tier": {
+          "type": ["string", "null"],
+          "enum": ["basic", "core", "general", null],
+          "description": "Vocabulary tier: basic (600-800 fundamental words), core (1600-2000 words for adult communication), or general (all other vocabulary)"
         },
         "frequency_rank": {
           "type": ["integer", "null"],

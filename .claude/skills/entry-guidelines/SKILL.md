@@ -83,7 +83,7 @@ This prevents duplicate entries and wasted effort on entries that must later be 
 2. **Progress to natural complexity** - Later examples can show real-world usage
 3. **Include at least one fixed phrase** - High-frequency collocations aid memory
 4. **Annotate non-obvious grammar** - Use [Note: ...] for grammatical explanations
-5. **Longer sentences for more difficult vocabulary** - Words of level N2 or N1 should have at least one full-sentence example. Such examples may have a complex structure (with relative clauses, etc.) or consist of two sentences.
+5. **Longer sentences for more difficult vocabulary** - Words that will be classified as core or general tier vocabulary should have at least one full-sentence example. Such examples may have a complex structure (with relative clauses, etc.) or consist of two sentences.
 6. **Always include sense_numbers** - Every example must specify which definition sense(s) it illustrates
 
 ### Sense Numbers Requirement
@@ -139,7 +139,7 @@ Every entry must include:
 - `definitions`: Array with sense_number, gloss, explanation
 - `examples`: 2-3 minimum, with id, Japanese, English, sense_numbers, and optional notes
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
-- `metadata`: Including jlpt_level, created, modified timestamps
+- `metadata`: Including vocabulary_tier (null until assigned), created, modified timestamps
 
 ## Metadata Timestamps
 

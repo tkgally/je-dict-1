@@ -1,14 +1,14 @@
 # Japanese-English Learner's Dictionary - Project Status
 
 **Last updated**: 2026-01-16
-**Current phase**: Phase 4 - N4 Vocabulary Expansion & Interface Enhancement
+**Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
 ## Current State
 
 ### Phase
-**Phase 4: N4 Vocabulary Expansion & Interface Enhancement** - Adding N4 vocabulary while maintaining v2 quality standards, plus new web interface features.
+**Phase 4: Vocabulary Expansion & Interface Enhancement** - Adding vocabulary while maintaining v2 quality standards, plus new web interface features. The dictionary uses an original three-tier vocabulary classification (basic, core, general) instead of JLPT levels.
 
 ### Infrastructure Status
 - [x] Directory structure created (prefix-based subdirectories for scalability)
@@ -32,31 +32,31 @@
 
 ### Content Status
 - **Total entries**: 5,507
-- **JLPT N5 coverage**: ~95% complete
-- **JLPT N4 coverage**: ~500 entries added
-- **JLPT N3 vocabulary**: ~2,800 entries added
+- **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
 - **Candidate words**: ~1,247 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
 
-### Entry Breakdown by JLPT Level
-| Level | Count | Status |
-|-------|-------|--------|
-| N5 | ~761 | Complete |
-| N4 | ~392 | In progress |
+### Vocabulary Tier System
+The dictionary uses a three-tier vocabulary classification system (see vocabulary-tiers skill):
+- **Basic**: 600-800 fundamental words for basic communication
+- **Core**: 1,600-2,000 words for adult-level communication
+- **General**: All other vocabulary useful for learners
+
+Tier assignment is pending. Once complete, entries will be categorized for progressive learning.
 
 ### Entry Breakdown by Type
 | Type | Count | Notes |
 |------|-------|-------|
-| Verbs | ~220 | Includes 95 N4 verbs with transitivity info |
-| Nouns | ~480 | Includes N4 nouns, katakana loanwords |
-| Adjectives | ~100 | I-adjectives and na-adjectives |
-| Adverbs | ~56 | Includes 11 new N4 adverbs |
+| Verbs | ~1,200 | Includes transitivity and aspect info |
+| Nouns | ~2,500 | Includes katakana loanwords |
+| Adjectives | ~400 | I-adjectives and na-adjectives |
+| Adverbs | ~200 | Time, manner, degree adverbs |
 | Particles | 10 | Core particles with predicate lists |
-| Counters | ~21 | Common counting patterns |
+| Counters | ~50 | Common counting patterns |
 | Keigo verbs | 12 | Honorific and humble forms |
-| Other | ~150 | Expressions, suffixes, etc. |
+| Other | ~1,100 | Expressions, onomatopoeia, suffixes, etc. |
 
 ## v2 Quality Standards
 
