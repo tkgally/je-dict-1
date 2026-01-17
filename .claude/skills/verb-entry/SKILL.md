@@ -106,7 +106,7 @@ For verbs with multiple senses (e.g., different meanings or usages), each exampl
 ```json
 "examples": [
   {
-    "id": "verb_00001_ex1",
+    "id": "00001_verb_ex1",
     "japanese": "...",
     "english": "...",
     "sense_numbers": [1]

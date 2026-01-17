@@ -118,7 +118,7 @@ For adjectives with multiple senses, each example must include a `sense_numbers`
 ```json
 "examples": [
   {
-    "id": "adj_00001_ex1",
+    "id": "00001_adj_ex1",
     "japanese": "...",
     "english": "...",
     "sense_numbers": [1]

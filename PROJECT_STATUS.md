@@ -411,12 +411,14 @@ Follow this step-by-step process when adding new dictionary entries from `candid
    - Particles: `particle-entry` skill
    - Others: `other-entries` skill
 3. Follow `vocabulary-notes` skill for notes formatting
-4. Place file in correct directory based on reading and ID:
-   - Directory: `entries/{kana}/{prefix}/` where:
-     - `{kana}`: Based on first kana of reading (あ行 → `a/`, か行 → `ka/`, etc.)
-     - `{prefix}`: First 2 characters of entry ID (e.g., `taberu_00001` → `ta/`)
-   - Example: `entries/ta/ta/taberu_00001.json`
-5. File naming: `{romaji}_{5-digit-id}.json`
+4. Place file in correct directory based on numeric ID range:
+   - Directory: `entries/{range}/` where `{range}` is based on the 5-digit ID:
+     - IDs 00001-00499 → `entries/00000/`
+     - IDs 00500-00999 → `entries/00500/`
+     - IDs 01000-01499 → `entries/01000/`
+     - etc. (500 entries per directory)
+   - Example: `entries/00000/00001_taberu.json`
+5. File naming: `{5-digit-id}_{romaji}.json`
 
 ### Step 3: Validate Entry
 ```bash
@@ -489,7 +491,7 @@ Commit all changes including:
 python3 build/validate.py
 
 # Validate a single entry
-python3 build/validate.py --id taberu_00001
+python3 build/validate.py --id 00001_taberu
 
 # Merge new audio files (from audio-to-add/)
 python3 build/merge_audio.py
@@ -512,12 +514,14 @@ open docs/index.html
 ```
 
 ### File Naming Convention
-- Format: `{romanized_reading}_{5-digit-id}.json`
+- Format: `{5-digit-id}_{romanized_reading}.json`
 - Romanization: Modified Hepburn with kana-faithful long vowels
-- Directory: `entries/{kana}/{prefix}/` where:
-  - `{kana}`: Based on first kana of reading (あ → `a/`, か → `ka/`, etc.)
-  - `{prefix}`: First 2 characters of entry ID (e.g., `taberu` → `ta/`)
-- Example: `entries/ta/ta/taberu_00001.json`
+- Directory: `entries/{range}/` where `{range}` is based on the numeric ID:
+  - IDs 00001-00499 → `entries/00000/`
+  - IDs 00500-00999 → `entries/00500/`
+  - IDs 01000-01499 → `entries/01000/`
+  - etc. (500 entries per directory)
+- Example: `entries/00000/00001_taberu.json`
 - Katakana loanwords: Use hiragana reading (e.g., アルバイト → あるばいと)
 
 ### Entry and Candidate Tracking
