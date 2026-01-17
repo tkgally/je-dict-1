@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,571
 - **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,733 | General: 423 | Unassigned: 305
-- **Candidate words**: ~660 words tracked in `candidate_words.json`
+- **Candidate words**: ~762 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,39 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (New Candidates - 102 Words Added, Session 94)
+Added 102 new candidate words to `candidate_words.json` with balanced coverage:
+
+**Novel categories NOT mentioned in prompt/skill (~52 words):**
+- **Gardening** (4): {接|つ}ぎ{木|き} (grafting), {挿|さ}し{木|き} (plant cutting), {雨樋|あまどい} (rain gutter), {土台|どだい} (foundation)
+- **Sports** (14): {延長戦|えんちょうせん} (overtime), {反則|はんそく} (foul), {打席|だせき} (at-bat), {打率|だりつ} (batting average), {防御率|ぼうぎょりつ} (ERA), {完封|かんぷう} (shutout), {逆転|ぎゃくてん} (comeback), {敗退|はいたい} (defeat), {連勝|れんしょう} (winning streak), {連敗|れんぱい} (losing streak), {平泳|ひらおよ}ぎ (breaststroke), {背泳|せおよ}ぎ (backstroke), バタフライ (butterfly), クロール (front crawl)
+- **Tools/Carpentry** (6): のみ (chisel), たがね (cold chisel), {万力|まんりき} (vise), {糸鋸|いとのこ} (coping saw), かんな (plane), {砥石|といし} (whetstone)
+- **Vehicle parts** (6): ウィンカー (turn signal), ダッシュボード (dashboard), サイドミラー (side mirror), バックミラー (rearview mirror), クラッチ (clutch), ワイパー (wiper)
+- **Traditional games** (9): {駒|こま} (game piece), サイコロ (dice), じゃんけん (rock-paper-scissors), あみだくじ (ladder lottery), くじ{引|び}き (lottery), お{手玉|てだま} (juggling beanbags), けん{玉|だま} (kendama), {竹馬|たけうま} (stilts), {凧揚|たこあ}げ (kite flying)
+- **Mythology** (3): {河童|かっぱ} (kappa), {天狗|てんぐ} (tengu), {座敷童|ざしきわらし} (zashiki-warashi)
+- **Natural phenomena** (4): {干潮|かんちょう} (low tide), {満潮|まんちょう} (high tide), {引|ひ}き{潮|しお} (ebb tide), {蜃気楼|しんきろう} (mirage)
+- **Other novel categories** (6): {裏地|うらじ} (lining), {縫|ぬ}い{目|め} (seam), {飛|と}び{込|こ}み (diving), ゴーグル (goggles), {羽根|はね}つき (Japanese badminton), {福笑|ふくわら}い (pin-the-face game)
+
+**Standard categories from prompt/skill (~50 words):**
+- **～{的|てき} adjectives** (5): {画期的|かっきてき} (groundbreaking), {徹底的|てっていてき} (thorough), {決定的|けっていてき} (decisive), {衝撃的|しょうげきてき} (shocking), {劇的|げきてき} (dramatic)
+- **Employment/finance** (5): {左遷|させん} (demotion), {栄転|えいてん} (promotion transfer), {出向|しゅっこう} (temporary transfer), {手取|てど}り (take-home pay), {額面|がくめん} (face value)
+- **Academic subjects** (3): {地学|ちがく} (earth science), {生物学|せいぶつがく} (biology), {天文学|てんもんがく} (astronomy)
+- **Crafts/hobbies** (3): {木彫|きぼ}り (wood carving), {手芸|しゅげい} (handicraft), {斜線|しゃせん} (diagonal)
+- **Physical states/textures** (9): {空腹|くうふく} (hunger), {満腹|まんぷく} (full stomach), {眠気|ねむけ} (sleepiness), ぬめぬめ (slimy), コリコリ (crunchy), プチプチ (popping), {渋|しぶ}い (astringent), {青臭|あおくさ}い (grassy smell), {生臭|なまぐさ}い (fishy smell)
+- **Social/emotion terms** (9): {顔見知|かおみし}り (acquaintance), {仲間入|なかまい}り (joining), {仲間外|なかまはず}れ (exclusion), {馴|な}れ{馴|な}れしい (overly familiar), {図々|ずうずう}しい (shameless), {気|き}まずい (awkward), てれくさい (embarrassed), {気恥|きは}ずかしい (bashful), もどかしい (frustrating)
+- **Writing/publishing** (6): {行間|ぎょうかん} (line spacing), {余白|よはく} (margin), {下書|したが}き (draft), {添削|てんさく} (correction), {手回|てまわ}し (preparation), {紛|まぎ}らわしい (confusing)
+- **Cultural items** (4): だるま (daruma doll), {招|まね}き{猫|ねこ} (beckoning cat), {狛犬|こまいぬ} (shrine guardian), {焦|こ}げ{臭|くさ}い (burnt smell)
+- **Music/geometry** (5): {元本|がんぽん} (principal), {対角線|たいかくせん} (diagonal), {音程|おんてい} (pitch/interval)
+
+Notable features:
+- Novel categories (~50%) explore areas not mentioned in prompt: sports statistics, traditional Japanese games, carpentry tools, vehicle parts, mythology
+- Swimming strokes complete the aquatic sports vocabulary
+- Traditional games (じゃんけん, あみだくじ, けん{玉|だま}) cover Japanese childhood culture
+- Vehicle interior parts complement existing driving vocabulary
+- Mythology ({河童|かっぱ}, {天狗|てんぐ}) adds folklore vocabulary
+
+Candidate count: 660 → 762
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 93)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
