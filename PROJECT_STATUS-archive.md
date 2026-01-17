@@ -7,6 +7,47 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-16 (Code Quality Improvements - Debug Plan Complete)
+Completed all 23 tasks from `main/debug_plan.md` across 8 debugging sessions, addressing recommendations from multi-LLM code reviews:
+
+**Security & Build Stability:**
+- Fixed XSS vulnerability in search results (HTML escaping in `search.js` and `build_flat.py`)
+- Removed auto-install package pattern from `validate.py` (security risk)
+- Fixed null candidate field crash in `build_flat.py`
+
+**Data Integrity:**
+- Fixed cross-reference migration losing distinct refs (composite key deduplication)
+- Added duplicate ID check to build process
+- Improved self-reference validation for entries without headword
+
+**Robustness & Error Handling:**
+- Added error handling to `cleanup_candidates.py` and `manage_candidates.py`
+- Fixed hardcoded relative paths in `manage_candidates.py`
+- Made build process atomic (builds to temp directory, then swaps)
+
+**Performance:**
+- Fixed double file read in `add_example_ids.py`
+- Fixed O(n²) duplicate detection in search index (now uses sets)
+- Reuse validator instance across entries
+
+**Code Quality:**
+- Moved inline imports to module top across 4 files
+- Centralized furigana pattern `FURIGANA_PATTERN` in `japanese_utils.py`
+- Refactored `validate_all_entries()` to return `ValidationResult` dataclass
+
+**Schema & Validation:**
+- Updated schema to allow legacy string cross-references (oneOf)
+- Expanded reading pattern to include rare kana (ゝ, ゞ, etc.)
+- Added 24-hour grace period for timestamp validation
+
+**UX & Architecture:**
+- Added furigana toggle script to `pending.html`
+- Extended furigana scanning to all text fields (notes, examples, definitions, explanation)
+- Centralized cross-reference types in `build/cross_ref_types.py`
+- Moved `normalize_reading()` to `japanese_utils.py`
+
+See `main/debug_plan.md` for full task details and progress log.
+
 ### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 66)
 Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
