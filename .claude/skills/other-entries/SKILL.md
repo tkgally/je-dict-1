@@ -206,7 +206,7 @@ All examples must include a `sense_numbers` field linking them to the definition
 ```json
 "examples": [
   {
-    "id": "word_00001_ex1",
+    "id": "00001_word_ex1",
     "japanese": "...",
     "english": "...",
     "sense_numbers": [1]

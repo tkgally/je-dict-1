@@ -72,7 +72,7 @@ def process_entry(filepath: Path) -> tuple[bool, str]:
 def main():
     if len(sys.argv) < 2:
         print("Usage: python update_single_sense.py <directory>")
-        print("Example: python update_single_sense.py entries/ka/")
+        print("Example: python update_single_sense.py entries/00000/")
         sys.exit(1)
 
     target_dir = Path(sys.argv[1])

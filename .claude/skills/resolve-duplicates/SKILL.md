@@ -80,8 +80,8 @@ If so, **edit the keeper entry first** to incorporate the valuable content:
 
 ```bash
 # Read both entries
-cat entries/ta/ta/taberu_00123.json
-cat entries/ta/ta/taberu_04567.json
+cat entries/00000/00123_taberu.json
+cat entries/04500/04567_taberu.json
 
 # Edit the keeper to add any missing valuable content
 # Then delete the duplicate
@@ -118,16 +118,16 @@ Use the `delete-entry` skill for safe deletion. The process:
 python3 build/validate.py 2>&1 | grep "Duplicate"
 
 # 2. Read both entries (example)
-cat entries/ta/ta/taberu_00123.json
-cat entries/ta/ta/taberu_04567.json
+cat entries/00000/00123_taberu.json
+cat entries/04500/04567_taberu.json
 
-# 3. Decide: Keep 00123 (better examples), delete 04567
+# 3. Decide: Keep 00123_taberu (better examples), delete 04567_taberu
 
-# 4. Check if 04567 has content worth merging
-# (If yes, edit 00123 first to add the content)
+# 4. Check if 04567_taberu has content worth merging
+# (If yes, edit 00123_taberu first to add the content)
 
 # 5. Delete the duplicate
-rm entries/ta/ta/taberu_04567.json
+rm entries/04500/04567_taberu.json
 
 # 6. Update indexes and rebuild
 python3 build/update_indexes.py

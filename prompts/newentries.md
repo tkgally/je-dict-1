@@ -68,7 +68,7 @@ python3 build/check_duplicate.py --batch --skip-candidates "食べる:たべる"
 ```json
 "examples": [
   {
-    "id": "word_00001_ex1",
+    "id": "00001_word_ex1",
     "japanese": "{例文|れいぶん}です。",
     "english": "This is an example sentence.",
     "sense_numbers": [1]
