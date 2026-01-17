@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,408
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 383 | Unassigned: 200
-- **Candidate words**: ~837 words tracked in `candidate_words.json`
+- **Total entries**: 6,433
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 383 | Unassigned: 225
+- **Candidate words**: ~812 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 85)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Japanese proverbs** (3): {早起|はやお}きは{三文|さんもん}の{徳|とく} (the early bird catches the worm), {百聞|ひゃくぶん}は{一見|いっけん}に{如|し}かず (seeing is believing), {急|いそ}がば{回|まわ}れ (more haste, less speed)
+- **Four-character idioms** (4): {心機一転|しんきいってん} (turning over a new leaf), {絶体絶命|ぜったいぜつめい} (desperate situation), {創意工夫|そういくふう} (originality and ingenuity), {取捨選択|しゅしゃせんたく} (careful selection)
+- **Compound verbs** (7): {吹|ふ}き{出|だ}す (to burst out laughing/gush), {泣|な}き{出|だ}す (to burst into tears), {盛|も}り{上|あ}がる (to get excited), {飛|と}び{上|あ}がる (to jump up), {出直|でなお}す (to start over), {追|お}い{払|はら}う (to chase away), {見分|みわ}ける (to distinguish)
+- **～{的|てき} adjectives** (4): {公的|こうてき} (public/official), {私的|してき} (private/personal), {内的|ないてき} (internal/inner), {外的|がいてき} (external/outer)
+- **Adverbs** (4): いよいよ (finally/more and more), きっぱり (decisively), どうせ (anyway/after all), さすがに (as expected)
+- **Slang verbs** (2): ムカつく (to be pissed off), ググる (to google)
+- **Weather noun** (1): {竜巻|たつまき} (tornado)
+
+Notable entry features:
+- Classic Japanese proverbs with origins, English equivalents, and usage notes
+- Four-character idioms with etymology and contextual examples
+- Compound verbs with ～{出|だ}す (sudden action) and ～{上|あ}がる (completion/rising) patterns
+- ～{的|てき} adjective antonym pairs ({公的|こうてき}↔{私的|してき}, {内的|ないてき}↔{外的|がいてき})
+- Modern internet slang (ググる) and youth slang (ムカつく) with register notes
+- Adverbs with nuanced emotional/situational meanings
+
+Total entries: 6,408 → 6,433
+Remaining candidates: 837 → 812
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 84)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -357,28 +379,6 @@ Notable entry features:
 
 Total entries: 6,158 → 6,183
 Remaining candidates: 878 → 853
-
-### 2026-01-17 (Vocabulary Expansion - 50 New Entries, Session 72)
-Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Basic verbs** (3): ためらう (to hesitate), {戸惑|とまど}う (to be confused), {怯|おび}える (to be frightened)
-- **Compound verbs** (17): {締|し}め{出|だ}す (to lock out), {売|う}り{出|だ}す (to launch), {抜|ぬ}け{出|だ}す (to slip out), {逃|に}げ{出|だ}す (to run away), {浮|う}き{上|あ}がる (to float up), {舞|ま}い{上|あ}がる (to soar), {抱|だ}き{締|し}める (to embrace), {引|ひ}きずる (to drag), {引|ひ}き{寄|よ}せる (to draw near), {押|お}し{倒|たお}す (to push down), {張|は}り{付|つ}く (to stick to), {絞|しぼ}り{込|こ}む (to narrow down), {取|と}り{返|かえ}す (to take back), {振|ふ}り{回|まわ}す (to swing around), {叩|たた}き{込|こ}む (to hammer in), {見過|みす}ごす (to overlook), {切|き}り{抜|ぬ}く (to cut out)
-- **Suru verbs** (13): {感謝|かんしゃ}する (to be grateful), {同意|どうい}する (to agree), {提案|ていあん}する (to propose), {議論|ぎろん}する (to discuss), {理解|りかい}する (to understand), {想像|そうぞう}する (to imagine), {考慮|こうりょ}する (to consider), {判断|はんだん}する (to judge), {否定|ひてい}する (to deny), {予想|よそう}する (to predict), {期待|きたい}する (to expect), {心配|しんぱい}する (to worry), {安心|あんしん}する (to feel relieved)
-- **Na-adjectives** (5): {滑|なめ}らか (smooth), {脆|もろ}い (fragile), {華|はな}やか (gorgeous), {素朴|そぼく} (simple), {野暮|やぼ} (unsophisticated)
-- **Adverbs** (2): わざわざ (deliberately), あえて (dare to)
-- **Housing/rental terms** (5): {敷金|しききん} (security deposit), {礼金|れいきん} (key money), {賃貸|ちんたい} (rental), {間取|まど}り (floor plan), {冷凍食品|れいとうしょくひん} (frozen food)
-- **Food terms** (2): {賞味期限|しょうみきげん} (best-before date), {消費期限|しょうひきげん} (use-by date)
-- **Profession terms** (3): {建築家|けんちくか} (architect), {会計士|かいけいし} (accountant), サラリーマン (salaryman)
-
-Notable entry features:
-- Comprehensive compound verb coverage with ～出す (escape/start) patterns, ～上がる (upward) patterns, and ～込む (into) patterns
-- Essential suru verbs for communication and reasoning ({理解|りかい}する, {議論|ぎろん}する, {考慮|こうりょ}する)
-- Japanese rental system vocabulary ({敷金|しききん}/{礼金|れいきん}) with cultural notes
-- Food expiration terms with explanation of legal distinctions
-- Cross-references linking related terms ({敷金|しききん}↔{礼金|れいきん}, {賞味期限|しょうみきげん}↔{消費期限|しょうひきげん})
-
-Total entries: 6,108 → 6,158
-Remaining candidates: 928 → 878
 
 ---
 
