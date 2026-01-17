@@ -166,7 +166,7 @@ Every entry must include:
 - `definitions`: Array with sense_number, gloss, explanation
 - `examples`: 2-3 minimum, with id, Japanese, English, sense_numbers, and optional notes
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
-- `metadata`: Including vocabulary_tier (null until assigned), created, modified timestamps
+- `metadata`: Including vocabulary_tier (basic/core/general, or null for new entries pending tier assignment), created, modified timestamps
 
 ## File Placement (CRITICAL)
 

@@ -229,7 +229,9 @@ When creating new entries:
 
 ### Schema Note
 
-The tier will be stored in the metadata field. The exact field name and format will be determined during schema migration. Until then, this skill provides the conceptual framework for tier assignment decisions.
+Vocabulary tier is stored in the `metadata.vocabulary_tier` field. Valid values are `"basic"`, `"core"`, `"general"`, or `null` (for entries not yet assigned a tier).
+
+Current tier assignments are provisional and subject to revision as the dictionary develops.
 
 ---
 

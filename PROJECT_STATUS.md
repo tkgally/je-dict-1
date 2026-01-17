@@ -37,7 +37,7 @@
 
 ### Content Status
 - **Total entries**: 6,333
-- **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 358 | Unassigned: 150
 - **Candidate words**: ~811 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
@@ -49,7 +49,7 @@ The dictionary uses a three-tier vocabulary classification system (see vocabular
 - **Core**: 1,600-2,000 words for adult-level communication
 - **General**: All other vocabulary useful for learners
 
-Tier assignment is pending. Once complete, entries will be categorized for progressive learning.
+Most entries have provisional tier assignments. These values are subject to revision as the dictionary develops and tier assignment policies are refined.
 
 ### Entry Breakdown by Type
 | Type | Count | Notes |
