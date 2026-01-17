@@ -7,6 +7,26 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 74)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **{駆|か}け～ compound verbs** (5): {駆|か}け{上|あ}がる (to run up), {駆|か}け{下|お}りる (to run down), {駆|か}け{込|こ}む (to rush in), {駆|か}け{回|まわ}る (to run around), {駆|か}け{抜|ぬ}ける (to run through)
+- **Four-character idioms** (5): {青天霹靂|せいてんへきれき} (bolt from the blue), {画竜点睛|がりょうてんせい} (finishing touch), {四面楚歌|しめんそか} (surrounded by enemies), {馬耳東風|ばじとうふう} (in one ear and out the other), {竜頭蛇尾|りゅうとうだび} (anticlimax)
+- **Traditional Japanese culture** (5): {座布団|ざぶとん} (floor cushion), {火鉢|ひばち} (charcoal brazier), {掛|か}け{軸|じく} (hanging scroll), {手拭|てぬぐ}い (tenugui towel), {硯|すずり} (inkstone)
+- **Gift-giving/ceremony** (3): お{中元|ちゅうげん} (mid-year gift), お{歳暮|せいぼ} (year-end gift), {香典|こうでん} (funeral offering)
+- **Business/consumer terms** (4): {送料|そうりょう} (shipping fee), {解約|かいやく} (cancellation), {返金|へんきん} (refund), {問|と}い{合|あ}わせ (inquiry)
+- **～{的|てき} adjectives** (3): {自発的|じはつてき} (spontaneous), {強制的|きょうせいてき} (compulsory), {破壊的|はかいてき} (destructive)
+
+Notable entry features:
+- Complete {駆|か}け～ compound verb series with running/rushing movement patterns
+- Classical four-character idioms with historical/cultural origins
+- Traditional Japanese items used in tea ceremony and calligraphy
+- Japanese gift-giving customs with cultural etiquette notes
+- Antonym pairs ({自発的|じはつてき}↔{強制的|きょうせいてき})
+
+Total entries: 6,183 → 6,208
+Remaining candidates: 853 → 828
+
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 73)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
