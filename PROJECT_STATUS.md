@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,108
+- **Total entries**: 6,158
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~928 words tracked in `candidate_words.json`
+- **Candidate words**: ~878 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 50 New Entries, Session 72)
+Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Basic verbs** (3): ためらう (to hesitate), {戸惑|とまど}う (to be confused), {怯|おび}える (to be frightened)
+- **Compound verbs** (17): {締|し}め{出|だ}す (to lock out), {売|う}り{出|だ}す (to launch), {抜|ぬ}け{出|だ}す (to slip out), {逃|に}げ{出|だ}す (to run away), {浮|う}き{上|あ}がる (to float up), {舞|ま}い{上|あ}がる (to soar), {抱|だ}き{締|し}める (to embrace), {引|ひ}きずる (to drag), {引|ひ}き{寄|よ}せる (to draw near), {押|お}し{倒|たお}す (to push down), {張|は}り{付|つ}く (to stick to), {絞|しぼ}り{込|こ}む (to narrow down), {取|と}り{返|かえ}す (to take back), {振|ふ}り{回|まわ}す (to swing around), {叩|たた}き{込|こ}む (to hammer in), {見過|みす}ごす (to overlook), {切|き}り{抜|ぬ}く (to cut out)
+- **Suru verbs** (13): {感謝|かんしゃ}する (to be grateful), {同意|どうい}する (to agree), {提案|ていあん}する (to propose), {議論|ぎろん}する (to discuss), {理解|りかい}する (to understand), {想像|そうぞう}する (to imagine), {考慮|こうりょ}する (to consider), {判断|はんだん}する (to judge), {否定|ひてい}する (to deny), {予想|よそう}する (to predict), {期待|きたい}する (to expect), {心配|しんぱい}する (to worry), {安心|あんしん}する (to feel relieved)
+- **Na-adjectives** (5): {滑|なめ}らか (smooth), {脆|もろ}い (fragile), {華|はな}やか (gorgeous), {素朴|そぼく} (simple), {野暮|やぼ} (unsophisticated)
+- **Adverbs** (2): わざわざ (deliberately), あえて (dare to)
+- **Housing/rental terms** (5): {敷金|しききん} (security deposit), {礼金|れいきん} (key money), {賃貸|ちんたい} (rental), {間取|まど}り (floor plan), {冷凍食品|れいとうしょくひん} (frozen food)
+- **Food terms** (2): {賞味期限|しょうみきげん} (best-before date), {消費期限|しょうひきげん} (use-by date)
+- **Profession terms** (3): {建築家|けんちくか} (architect), {会計士|かいけいし} (accountant), サラリーマン (salaryman)
+
+Notable entry features:
+- Comprehensive compound verb coverage with ～出す (escape/start) patterns, ～上がる (upward) patterns, and ～込む (into) patterns
+- Essential suru verbs for communication and reasoning ({理解|りかい}する, {議論|ぎろん}する, {考慮|こうりょ}する)
+- Japanese rental system vocabulary ({敷金|しききん}/{礼金|れいきん}) with cultural notes
+- Food expiration terms with explanation of legal distinctions
+- Cross-references linking related terms ({敷金|しききん}↔{礼金|れいきん}, {賞味期限|しょうみきげん}↔{消費期限|しょうひきげん})
+
+Total entries: 6,108 → 6,158
+Remaining candidates: 928 → 878
 
 ### 2026-01-17 (New Candidates - 59 Words Added, Session 71)
 Added 59 new candidate words to `candidate_words.json` using balanced coverage strategy:
@@ -328,30 +350,6 @@ Notable entry features:
 
 Total entries: 5,707 → 5,807
 Remaining candidates: 1,167 → 1,067
-
-### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 63)
-Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Body postures/verbs (8): しゃがむ (to squat), {跪|ひざまず}く (to kneel), {屈|かが}む (to crouch), {反|そ}る (to bend backward), {捻|ひね}る (to twist), うつ{伏|ぶ}せ (face down), {仰向|あおむ}け (face up), {膝枕|ひざまくら} (lap pillow)
-- Geometry (8): {立方体|りっぽうたい} (cube), {円錐|えんすい} (cone), {円柱|えんちゅう} (cylinder), {球|きゅう} (sphere), {多角形|たかっけい} (polygon), {対角線|たいかくせん} (diagonal), {弧|こ} (arc), {放物線|ほうぶつせん} (parabola)
-- Opposite pairs (10): {内外|ないがい} (inside and outside), {大小|だいしょう} (large and small), {長短|ちょうたん} (long and short), {表裏|ひょうり} (front and back), {出入|でい}り (going in and out), {開閉|かいへい} (opening and closing), {高低|こうてい} (high and low), {軽重|けいちょう} (light and heavy), {善悪|ぜんあく} (good and evil), {正誤|せいご} (right and wrong)
-- Abstract concepts (15): {信頼性|しんらいせい} (reliability), {効率性|こうりつせい} (efficiency), {透明性|とうめいせい} (transparency), {柔軟性|じゅうなんせい} (flexibility), {汎用性|はんようせい} (versatility), {利便性|りべんせい} (convenience), {耐久性|たいきゅうせい} (durability), {整合性|せいごうせい} (consistency), {持続性|じぞくせい} (sustainability), {即効性|そっこうせい} (quick effectiveness), {再現性|さいげんせい} (reproducibility), {公平性|こうへいせい} (fairness), {合理性|ごうりせい} (rationality), {独自性|どくじせい} (originality), {普遍性|ふへんせい} (universality)
-- Events/Ceremonies (7): {卒業式|そつぎょうしき} (graduation ceremony), お{正月|しょうがつ} (New Year), お{盆|ぼん} (Obon festival), {七五三|しちごさん} (Shichi-Go-San), {節分|せつぶん} (Setsubun), {歓迎会|かんげいかい} (welcome party), {送別会|そうべつかい} (farewell party)
-- Nature/Geography (6): {干潟|ひがた} (tidal flat), {荒野|こうや} (wilderness), {湿原|しつげん} (wetland), {水源|すいげん} (water source), {原野|げんや} (prairie), {河口|かこう} (river mouth)
-- Tools (6): コンパス (compass), {分度器|ぶんどき} (protractor), {虫眼鏡|むしめがね} (magnifying glass), {巻|ま}き{尺|じゃく} (tape measure), {万力|まんりき} (vise), {梃子|てこ} (lever)
-- Technology (8): SNS (social media), ウェブ (web), サイト (site), ブラウザ (browser), スクリーンショット (screenshot), {英和|えいわ} (English-Japanese), ハッシュタグ (hashtag), {画像|がぞう}{編集|へんしゅう} (image editing)
-- Modern vocabulary (8): タピオカ (tapioca), ペットボトル (plastic bottle), フリーター (freeter), ニート (NEET), {非正規|ひせいき} (non-regular), {正社員|せいしゃいん} (full-time employee), {派遣|はけん} (temporary worker), {契約|けいやく}{社員|しゃいん} (contract employee)
-- Business/formal (24): {委託|いたく} (consignment), {懸念|けねん} (concern), {顕著|けんちょ} (remarkable), {獲得|かくとく} (acquisition), {把握|はあく} (grasp), {暫定|ざんてい} (provisional), {妥当|だとう} (appropriate), {端末|たんまつ} (terminal), {拠点|きょてん} (base), {趣旨|しゅし} (gist), {指摘|してき} (pointing out), {是正|ぜせい} (correction), {促進|そくしん} (promotion), {抑制|よくせい} (suppression), {固有|こゆう} (inherent), {不十分|ふじゅうぶん} (insufficient), {革新|かくしん} (innovation), {保持|ほじ} (retention), {遂行|すいこう} (accomplishment), {簡潔|かんけつ} (concise)
-
-Notable entry features:
-- Comprehensive geometry vocabulary extending beyond basic shapes
-- Abstract concept entries useful for academic and business discussions
-- Opposite pair vocabulary commonly used in formal writing
-- Employment status terms reflecting modern Japanese workforce categories
-- Cross-reference added linking antonyms ({促進|そくしん}↔{抑制|よくせい})
-
-Total entries: 5,607 → 5,707
-Remaining candidates: 1,252 → 1,167
 
 ---
 
