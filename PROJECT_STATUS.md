@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,433
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 383 | Unassigned: 225
-- **Candidate words**: ~812 words tracked in `candidate_words.json`
+- **Total entries**: 6,453
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 403 | Unassigned: 225
+- **Candidate words**: ~792 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 86)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Astronomy/space** (2): {軌道|きどう} (orbit/trajectory), {天体|てんたい} (celestial body)
+- **Photography** (2): {現像|げんぞう} (photo developing), ピント (focus)
+- **Textiles** (2): {編|あ}み{物|もの} (knitting), ミシン (sewing machine)
+- **Geology** (2): {地層|ちそう} (stratum), {断層|だんそう} (fault)
+- **Publishing** (1): {印税|いんぜい} (royalty)
+- **Eye care** (2): {老眼|ろうがん} (presbyopia), {乱視|らんし} (astigmatism)
+- **Compound verbs** (2): {追|お}い{込|こ}む (to corner), {引|ひ}き{伸|の}ばす (to stretch)
+- **～{的|てき} adjectives** (2): {威圧的|いあつてき} (intimidating), {革命的|かくめいてき} (revolutionary)
+- **Four-character idioms** (4): {大器晩成|たいきばんせい} (great talents mature late), {疑心暗鬼|ぎしんあんき} (suspicion breeds monsters), {一目瞭然|いちもくりょうぜん} (obvious at a glance), {波乱万丈|はらんばんじょう} (eventful/turbulent)
+- **Modern business loanword** (1): コンプライアンス (compliance)
+
+Notable entry features:
+- Science vocabulary covering astronomy ({軌道|きどう}, {天体|てんたい}) and geology ({地層|ちそう}, {断層|だんそう})
+- Photography terminology from film era ({現像|げんぞう}, ピント) with modern digital context
+- Textile crafts vocabulary ({編|あ}み{物|もの}↔ミシン)
+- Eye care conditions with medical terminology
+- Compound verbs with ～{込|こ}む (into) and ～{伸|の}ばす (extend) patterns
+- Four-character idioms with etymology and cultural context
+- Modern business Japanese (コンプライアンス) with corporate culture notes
+
+Total entries: 6,433 → 6,453
+Remaining candidates: 812 → 792
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 85)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -360,25 +386,6 @@ Notable entry features:
 
 Total entries: 6,183 → 6,208
 Remaining candidates: 853 → 828
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 73)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Compound verbs** (5): {送|おく}り{出|だ}す (to send off), {流|なが}れ{出|だ}す (to flow out), {呼|よ}び{込|こ}む (to call in), {突|つ}き{刺|さ}す (to stab), {踏|ふ}みつける (to trample)
-- **～{的|てき} adjectives** (5): {楽観的|らっかんてき} (optimistic), {悲観的|ひかんてき} (pessimistic), {建設的|けんせつてき} (constructive), {直接的|ちょくせつてき} (direct), {間接的|かんせつてき} (indirect)
-- **Modern loanwords** (5): リモートワーク (remote work), キャッシュレス (cashless), ドローン (drone), バグ (bug), プログラミング (programming)
-- **Food/agriculture terms** (5): {玄米|げんまい} (brown rice), {白米|はくまい} (white rice), {肥料|ひりょう} (fertilizer), {牧場|ぼくじょう} (ranch), {酪農|らくのう} (dairy farming)
-- **Fish/legal terms** (5): {鰻|うなぎ} (eel), {鰹|かつお} (bonito), {遵守|じゅんしゅ} (compliance), {認定|にんてい} (certification), カロリー (calorie)
-
-Notable entry features:
-- Compound verbs with ～{出|だ}す (outward) and ～{込|こ}む (inward) patterns
-- ～{的|てき} adjective antonym pairs ({楽観的|らっかんてき}↔{悲観的|ひかんてき}, {直接的|ちょくせつてき}↔{間接的|かんせつてき})
-- Modern technology vocabulary (リモートワーク, キャッシュレス, プログラミング)
-- Japanese food culture ({鰻|うなぎ} with {土用|どよう}の{丑|うし}の{日|ひ} tradition, {鰹|かつお} with regional cuisine notes)
-- Agriculture vocabulary relevant for discussing Japanese food production
-
-Total entries: 6,158 → 6,183
-Remaining candidates: 878 → 853
 
 ---
 
