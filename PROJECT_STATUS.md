@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,453
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 403 | Unassigned: 225
-- **Candidate words**: ~792 words tracked in `candidate_words.json`
+- **Total entries**: 6,473
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 225
+- **Candidate words**: ~772 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 87)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Photography** (1): シャッター (shutter)
+- **Humble expression** (1): {拝借|はいしゃく} (borrowing humble)
+- **Compound verbs** (5): {押|お}し{流|なが}す (to wash away), {踏|ふ}み{倒|たお}す (to default on), {食|く}い{止|と}める (to hold back), {嵌|は}め{込|こ}む (to fit into), {飛|と}び{移|うつ}る (to jump across)
+- **～{的|てき} adjectives** (3): {挑発的|ちょうはつてき} (provocative), {排他的|はいたてき} (exclusive), {壊滅的|かいめつてき} (devastating)
+- **Four-character idioms** (5): {抱腹絶倒|ほうふくぜっとう} (hilarious), {傍若無人|ぼうじゃくぶじん} (arrogant), {意気投合|いきとうごう} (hit it off), {厚顔無恥|こうがんむち} (shameless), {朝令暮改|ちょうれいぼかい} (inconsistent)
+- **Modern business loanwords** (5): クラウドファンディング (crowdfunding), ブレインストーミング (brainstorming), シェアハウス (share house), マインドセット (mindset), ワークショップ (workshop)
+
+Notable entry features:
+- Compound verbs with ～{流|なが}す (wash away), ～{倒|たお}す (knock down/default), ～{止|と}める (stop), ～{込|こ}む (into), ～{移|うつ}る (transfer) patterns
+- Four-character idioms covering emotions ({抱腹絶倒|ほうふくぜっとう}, {意気投合|いきとうごう}) and character traits ({傍若無人|ぼうじゃくぶじん}, {厚顔無恥|こうがんむち})
+- Modern business loanwords used in Japanese corporate culture
+- Humble expression {拝借|はいしゃく} with {拝|はい} prefix for formal contexts
+- {排他的|はいたてき}{経済|けいざい}{水域|すいいき} (EEZ) terminology
+
+Total entries: 6,453 → 6,473
+Remaining candidates: 792 → 772
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 86)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -366,26 +386,6 @@ Notable entry features:
 
 Total entries: 6,208 → 6,233
 Remaining candidates: 828 → 803
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 74)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **{駆|か}け～ compound verbs** (5): {駆|か}け{上|あ}がる (to run up), {駆|か}け{下|お}りる (to run down), {駆|か}け{込|こ}む (to rush in), {駆|か}け{回|まわ}る (to run around), {駆|か}け{抜|ぬ}ける (to run through)
-- **Four-character idioms** (5): {青天霹靂|せいてんへきれき} (bolt from the blue), {画竜点睛|がりょうてんせい} (finishing touch), {四面楚歌|しめんそか} (surrounded by enemies), {馬耳東風|ばじとうふう} (in one ear and out the other), {竜頭蛇尾|りゅうとうだび} (anticlimax)
-- **Traditional Japanese culture** (5): {座布団|ざぶとん} (floor cushion), {火鉢|ひばち} (charcoal brazier), {掛|か}け{軸|じく} (hanging scroll), {手拭|てぬぐ}い (tenugui towel), {硯|すずり} (inkstone)
-- **Gift-giving/ceremony** (3): お{中元|ちゅうげん} (mid-year gift), お{歳暮|せいぼ} (year-end gift), {香典|こうでん} (funeral offering)
-- **Business/consumer terms** (4): {送料|そうりょう} (shipping fee), {解約|かいやく} (cancellation), {返金|へんきん} (refund), {問|と}い{合|あ}わせ (inquiry)
-- **～{的|てき} adjectives** (3): {自発的|じはつてき} (spontaneous), {強制的|きょうせいてき} (compulsory), {破壊的|はかいてき} (destructive)
-
-Notable entry features:
-- Complete {駆|か}け～ compound verb series with running/rushing movement patterns
-- Classical four-character idioms with historical/cultural origins
-- Traditional Japanese items used in tea ceremony and calligraphy
-- Japanese gift-giving customs with cultural etiquette notes
-- Antonym pairs ({自発的|じはつてき}↔{強制的|きょうせいてき})
-
-Total entries: 6,183 → 6,208
-Remaining candidates: 853 → 828
 
 ---
 
