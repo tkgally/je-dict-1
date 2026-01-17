@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ふわっと - softly, lightly, gently floating. Japanese-English dictionary entry with definitions and examples.">
+    <title>ふわっと (ふわっと) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ふわっと</h1>
+            <div class="entry-reading">ふわっと</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">softly, lightly, gently floating</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">softly, lightly, gently floating</span>
+                    <div class="definition-explanation">Describes something moving or resting in a soft, light, airy manner, like floating or drifting.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">fluffy, soft and puffy</span>
+                    <div class="definition-explanation">Describes a soft, fluffy texture or appearance.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">カーテンがふわっと<ruby>揺<rp>(</rp><rt>ゆ</rt><rp>)</rp></ruby>れた。</div>
+                    <div class="example-english">The curtain swayed gently.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">いい<ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>りがふわっと<ruby>漂<rp>(</rp><rt>ただよ</rt><rp>)</rp></ruby>ってきた。</div>
+                    <div class="example-english">A pleasant scent drifted over softly.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">パンケーキがふわっと<ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>けた。</div>
+                    <div class="example-english">The pancakes turned out fluffy.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ONOMATOPOEIA TYPE:<br>Mimetic word (<ruby>擬態語<rp>(</rp><rt>ぎたいご</rt><rp>)</rp></ruby>) describing light, soft movement or texture.</p><p>COMMON PATTERNS:</p><ul><li>ふわっと<ruby>浮<rp>(</rp><rt>う</rt><rp>)</rp></ruby>く (to float lightly)</li><li>ふわっと<ruby>香<rp>(</rp><rt>かお</rt><rp>)</rp></ruby>る (to waft fragrantly)</li><li>ふわっと<ruby>揺<rp>(</rp><rt>ゆ</rt><rp>)</rp></ruby>れる (to sway gently)</li><li>ふわっと<ruby>仕上<rp>(</rp><rt>しあ</rt><rp>)</rp></ruby>がる (to turn out fluffy)</li></ul><p>VARIATIONS:</p><ul><li>ふわふわ: repeated form emphasizing fluffy texture</li><li>ふんわり: similar meaning, slightly more deliberate softness</li></ul><p>COOKING USAGE:<br>Very common for describing desired texture of baked goods, eggs, etc.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/05000/05311_fuwafuwa.html" class="cross-ref-link">
+                            ふわふわ (fluffy)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    
+                </div>
+                <div class="metadata-dates">Added 2026.1.17 15:51</div>
+                <div class="metadata-file">06000/06328_fuwatto</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

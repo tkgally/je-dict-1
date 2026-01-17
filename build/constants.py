@@ -16,6 +16,7 @@ CROSS_REF_TYPES = [
     'related',
     'see_also',
     'contrast',
+    'homophone',
 ]
 
 # Display labels for cross-reference types (used in HTML generation)
@@ -27,6 +28,7 @@ CROSS_REF_LABELS = {
     'related': 'Related',
     'see_also': 'See also',
     'contrast': 'Contrast',
+    'homophone': 'Homophone',
 }
 
 
