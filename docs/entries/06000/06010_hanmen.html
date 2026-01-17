@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="反面 - on the other hand; while; reverse side. Japanese-English dictionary entry with definitions and examples.">
+    <title>反面 (はんめん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>反面<rp>(</rp><rt>はんめん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">はんめん</div>
+            <div class="entry-pos">noun, adverb</div>
+            <div class="entry-gloss">on the other hand; while; reverse side</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">on the other hand; while; at the same time</span>
+                    <div class="definition-explanation">Used to introduce a contrasting aspect or perspective. Indicates that something has both a positive and negative side.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">reverse side; other side</span>
+                    <div class="definition-explanation">The opposite or back side of something.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>便利<rp>(</rp><rt>べんり</rt><rp>)</rp></ruby>な<ruby>反面<rp>(</rp><rt>はんめん</rt><rp>)</rp></ruby>、<ruby>危険<rp>(</rp><rt>きけん</rt><rp>)</rp></ruby>もある。</div>
+                    <div class="example-english">While convenient, there are also dangers.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>優<rp>(</rp><rt>やさ</rt><rp>)</rp></ruby>しい<ruby>反面<rp>(</rp><rt>はんめん</rt><rp>)</rp></ruby>、<ruby>頑固<rp>(</rp><rt>がんこ</rt><rp>)</rp></ruby>な<ruby>面<rp>(</rp><rt>めん</rt><rp>)</rp></ruby>もある。</div>
+                    <div class="example-english">While he is kind, he also has a stubborn side.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>反面教師<rp>(</rp><rt>はんめんきょうし</rt><rp>)</rp></ruby>として<ruby>学<rp>(</rp><rt>まな</rt><rp>)</rp></ruby>ぶ。</div>
+                    <div class="example-english">To learn from someone as a negative example.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>反面<rp>(</rp><rt>はんめん</rt><rp>)</rp></ruby> is used to present contrasting aspects of the same thing.</p><p>GRAMMAR PATTERNS:</p><ul><li>〜<ruby>反面<rp>(</rp><rt>はんめん</rt><rp>)</rp></ruby>、〜: While ~, (contrast)</li><li>〜な<ruby>反面<rp>(</rp><rt>はんめん</rt><rp>)</rp></ruby>: (for na-adjectives)</li><li>〜である<ruby>反面<rp>(</rp><rt>はんめん</rt><rp>)</rp></ruby>: (formal)</li></ul><p>COMMON EXPRESSION:<br><ruby>反面教師<rp>(</rp><rt>はんめんきょうし</rt><rp>)</rp></ruby>: a negative example (someone whose mistakes you learn from)</p><p>SIMILAR EXPRESSIONS:</p><ul><li><ruby>一方<rp>(</rp><rt>いっぽう</rt><rp>)</rp></ruby>で: on the other hand</li><li>その<ruby>反面<rp>(</rp><rt>はんめん</rt><rp>)</rp></ruby>: conversely</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 23:51</div>
+                <div class="metadata-file">06000/06010_hanmen</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

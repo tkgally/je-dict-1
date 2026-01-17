@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="プラス - plus, positive. Japanese-English dictionary entry with definitions and examples.">
+    <title>プラス (プラス) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">プラス</h1>
+            <div class="entry-reading">プラス</div>
+            <div class="entry-pos">noun, suru-verb</div>
+            <div class="entry-gloss">plus, positive</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">plus, addition</span>
+                    <div class="definition-explanation">The mathematical operation of addition, or something added</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">positive, advantage</span>
+                    <div class="definition-explanation">A beneficial factor or positive aspect</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">3プラス5は8だ。</div>
+                    <div class="example-english">Three plus five is eight.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>経験<rp>(</rp><rt>けいけん</rt><rp>)</rp></ruby>はプラスになる。</div>
+                    <div class="example-english">This experience will be a plus (beneficial).</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>送料<rp>(</rp><rt>そうりょう</rt><rp>)</rp></ruby>プラス<ruby>税<rp>(</rp><rt>ぜい</rt><rp>)</rp></ruby>で<ruby>合計<rp>(</rp><rt>ごうけい</rt><rp>)</rp></ruby>3000<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">It&#x27;s 3000 yen total including shipping plus tax.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">プラスに<ruby>考<rp>(</rp><rt>かんが</rt><rp>)</rp></ruby>えよう。</div>
+                    <div class="example-english">Let&#x27;s think positively.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>プラス is used for addition and positive factors.</p><p>MATHEMATICS:</p><ul><li>〜プラス〜: ~ plus ~</li><li>プラス<ruby>記号<rp>(</rp><rt>きごう</rt><rp>)</rp></ruby>: plus sign (+)</li></ul><p>POSITIVE/BENEFIT:</p><ul><li>プラスになる: to be beneficial, to be a plus</li><li>プラスに<ruby>働<rp>(</rp><rt>はたら</rt><rp>)</rp></ruby>く: to work in one&#x27;s favor</li><li>プラス<ruby>思考<rp>(</rp><rt>しこう</rt><rp>)</rp></ruby>: positive thinking</li><li>プラス<ruby>面<rp>(</rp><rt>めん</rt><rp>)</rp></ruby>: positive aspects</li></ul><p>COMMON COMPOUNDS:</p><ul><li>プラスアルファ: something extra, additional element</li><li>プラスマイナス: plus or minus, give or take</li><li>プラマイゼロ: breaking even</li></ul><p>OPPOSITE:<br>マイナス (minus) is the opposite of プラス.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 12:02 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">04500/04898_purasu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

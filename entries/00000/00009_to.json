@@ -1,0 +1,323 @@
+{
+  "id": "00009_to",
+  "headword": "と",
+  "reading": "と",
+  "part_of_speech": "particle",
+  "gloss": "and, with, (quotation)",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "and (connecting nouns)",
+      "explanation": "Connects nouns in a complete list. りんごとみかん (apples and oranges). Unlike や, と implies a complete enumeration."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "with (accompaniment)",
+      "explanation": "Indicates doing something together with someone. {友達|ともだち}と{行|い}く (go with a friend)."
+    },
+    {
+      "sense_number": 3,
+      "gloss": "quotation marker",
+      "explanation": "Marks quoted speech or thoughts. 「はい」と{言|い}う (say 'yes'), いいと{思|おも}う (think it's good)."
+    },
+    {
+      "sense_number": 4,
+      "gloss": "if/when (conditional)",
+      "explanation": "Expresses a natural or inevitable consequence. {春|はる}になると{暖|あたた}かくなる (when spring comes, it gets warm)."
+    },
+    {
+      "sense_number": 5,
+      "gloss": "as (comparison/manner)",
+      "explanation": "Shows how something appears or is named. {同|おな}じと{思|おも}う (think it's the same)."
+    }
+  ],
+  "predicates_requiring": {
+    "description": "Verbs that commonly take と",
+    "accompaniment_verbs": [
+      {
+        "word": "{会|あ}う",
+        "example": "{友達|ともだち}と{会|あ}う",
+        "meaning": "meet with a friend"
+      },
+      {
+        "word": "{話|はな}す",
+        "example": "{先生|せんせい}と{話|はな}す",
+        "meaning": "talk with the teacher"
+      },
+      {
+        "word": "{結婚|けっこん}する",
+        "example": "{彼女|かのじょ}と{結婚|けっこん}する",
+        "meaning": "marry her"
+      },
+      {
+        "word": "{遊|あそ}ぶ",
+        "example": "{子供|こども}と{遊|あそ}ぶ",
+        "meaning": "play with children"
+      },
+      {
+        "word": "{喧嘩|けんか}する",
+        "example": "{兄|あに}と{喧嘩|けんか}する",
+        "meaning": "quarrel with older brother"
+      }
+    ],
+    "quotation_verbs": [
+      {
+        "word": "{言|い}う",
+        "example": "「はい」と{言|い}う",
+        "meaning": "say 'yes'"
+      },
+      {
+        "word": "{思|おも}う",
+        "example": "いいと{思|おも}う",
+        "meaning": "think it's good"
+      },
+      {
+        "word": "{聞|き}く",
+        "example": "{何|なん}と{聞|き}いた",
+        "meaning": "what did [you] hear?"
+      },
+      {
+        "word": "{書|か}く",
+        "example": "{日本語|にほんご}で「{愛|あい}」と{書|か}く",
+        "meaning": "write 'love' in Japanese"
+      },
+      {
+        "word": "{呼|よ}ぶ",
+        "example": "「タロウ」と{呼|よ}ぶ",
+        "meaning": "call [him] 'Taro'"
+      }
+    ],
+    "comparison_verbs": [
+      {
+        "word": "{同|おな}じ",
+        "example": "これと{同|おな}じ",
+        "meaning": "same as this"
+      },
+      {
+        "word": "{違|ちが}う",
+        "example": "{昨日|きのう}と{違|ちが}う",
+        "meaning": "different from yesterday"
+      },
+      {
+        "word": "{比|くら}べる",
+        "example": "{去年|きょねん}と{比|くら}べる",
+        "meaning": "compare with last year"
+      }
+    ]
+  },
+  "particle_contrasts": [
+    {
+      "particle": "や",
+      "explanation": "と gives a complete list; や gives an incomplete list (examples)",
+      "examples": [
+        {
+          "to_example": "りんごとみかんを{買|か}った",
+          "to_english": "bought apples and oranges (only these two)",
+          "to_note": "と: complete/exhaustive list"
+        },
+        {
+          "ya_example": "りんごやみかんを{買|か}った",
+          "ya_english": "bought apples and oranges (and other things)",
+          "ya_note": "や: partial list, implies more"
+        }
+      ],
+      "key_points": [
+        "と = exhaustive list (A and B, that's all)",
+        "や = non-exhaustive list (A and B, etc.)",
+        "や often pairs with など: りんごやみかんなど"
+      ]
+    },
+    {
+      "particle": "に",
+      "explanation": "Both can mark companion, but と implies mutual action, に implies direction toward",
+      "examples": [
+        {
+          "to_example": "{友達|ともだち}と{会|あ}う",
+          "to_english": "meet with a friend",
+          "to_note": "と: mutual meeting"
+        },
+        {
+          "ni_example": "{友達|ともだち}に{会|あ}う",
+          "ni_english": "meet a friend",
+          "ni_note": "に: going to where friend is"
+        }
+      ],
+      "key_points": [
+        "と emphasizes togetherness/mutuality",
+        "に emphasizes direction/target",
+        "Some verbs can take either with slight nuance difference"
+      ]
+    }
+  ],
+  "conditional_usage": {
+    "description": "と as a conditional expresses natural/inevitable consequences",
+    "characteristics": [
+      "Used for natural cause-effect relationships",
+      "Used for general truths and habitual actions",
+      "Cannot be used for requests, commands, or intentions"
+    ],
+    "examples": [
+      {
+        "japanese": "{春|はる}になると{暖|あたた}かくなる",
+        "english": "When spring comes, it gets warm",
+        "note": "Natural/inevitable change"
+      },
+      {
+        "japanese": "このボタンを{押|お}すとドアが{開|あ}く",
+        "english": "When you press this button, the door opens",
+        "note": "Automatic/mechanical result"
+      },
+      {
+        "japanese": "{右|みぎ}に{曲|ま}がると{駅|えき}があります",
+        "english": "If you turn right, there's a station",
+        "note": "Giving directions"
+      }
+    ],
+    "contrast_with_other_conditionals": [
+      {
+        "form": "〜たら",
+        "usage": "More flexible, can be used with requests",
+        "example": "{着|つ}いたら{電話|でんわ}してね (Call me when you arrive)"
+      },
+      {
+        "form": "〜ば",
+        "usage": "Hypothetical condition",
+        "example": "{安|やす}ければ{買|か}う (If it's cheap, I'll buy it)"
+      },
+      {
+        "form": "〜なら",
+        "usage": "If (it's the case that)...",
+        "example": "{行|い}くなら{私|わたし}も{行|い}く (If you're going, I'll go too)"
+      }
+    ]
+  },
+  "fixed_patterns": [
+    {
+      "pattern": "〜と{言|い}う",
+      "meaning": "say that...; called...",
+      "example": "{田中|たなか}と{言|い}います",
+      "example_english": "My name is Tanaka / I'm called Tanaka"
+    },
+    {
+      "pattern": "〜と{思|おも}う",
+      "meaning": "think that...",
+      "example": "いいと{思|おも}います",
+      "example_english": "I think it's good"
+    },
+    {
+      "pattern": "〜と{一緒|いっしょ}に",
+      "meaning": "together with...",
+      "example": "{友達|ともだち}と{一緒|いっしょ}に{行|い}く",
+      "example_english": "go together with a friend"
+    },
+    {
+      "pattern": "〜ということ",
+      "meaning": "the fact that...; it means that...",
+      "example": "{来|こ}ないということは、{忙|いそが}しいのだろう",
+      "example_english": "The fact that they're not coming means they're probably busy"
+    },
+    {
+      "pattern": "〜とか〜とか",
+      "meaning": "...and...and such",
+      "example": "りんごとかみかんとか",
+      "example_english": "things like apples and oranges"
+    },
+    {
+      "pattern": "AとBとどちら",
+      "meaning": "which, A or B?",
+      "example": "コーヒーと{紅茶|こうちゃ}とどちらがいいですか",
+      "example_english": "Which would you like, coffee or tea?"
+    }
+  ],
+  "examples": [
+    {
+      "id": "00009_to_ex1",
+      "japanese": "コーヒーと{紅茶|こうちゃ}、どちらがいいですか。",
+      "english": "Which would you like, coffee or tea?",
+      "notes": "Listing options",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00009_to_ex2",
+      "japanese": "{友達|ともだち}と{映画|えいが}を{見|み}ました。",
+      "english": "I watched a movie with my friend.",
+      "notes": "Accompaniment",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00009_to_ex3",
+      "japanese": "{彼|かれ}は「{分|わ}かりました」と{言|い}いました。",
+      "english": "He said, 'I understand.'",
+      "notes": "Quotation",
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00009_to_ex4",
+      "japanese": "このボタンを{押|お}すと、ドアが{開|あ}きます。",
+      "english": "If you press this button, the door opens.",
+      "notes": "Conditional (automatic result)",
+      "has_audio": false,
+      "sense_numbers": [
+        4
+      ]
+    },
+    {
+      "id": "00009_to_ex5",
+      "japanese": "{山田|やまだ}と{申|もう}します。",
+      "english": "My name is Yamada. (formal)",
+      "notes": "Quotation with humble verb",
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Using と for incomplete lists",
+      "incorrect": "りんごと{買|か}いました (intending 'I bought apples and other things')",
+      "correct": "りんごや{何|なん}かを{買|か}いました or りんごなどを{買|か}いました",
+      "explanation": "Use や (not と) for non-exhaustive lists"
+    },
+    {
+      "mistake": "Using と conditional for requests/intentions",
+      "incorrect": "{終|お}わると{帰|かえ}ってください",
+      "correct": "{終|お}わったら{帰|かえ}ってください",
+      "explanation": "と conditional cannot be used for requests; use 〜たら"
+    },
+    {
+      "mistake": "Omitting quotation と before {思|おも}う/{言|い}う",
+      "incorrect": "いい{思|おも}います",
+      "correct": "いいと{思|おも}います",
+      "explanation": "Quotation と is required before {思|おも}う, {言|い}う, etc."
+    }
+  ],
+  "notes": "と has many uses. For listing: と gives a complete list (A and B), while や gives an incomplete list (A and B, etc.). For accompaniment: と implies doing something together, while に can mean toward someone. The conditional と expresses natural/automatic results and cannot be used with requests or commands.",
+  "cross_references": [
+    {
+      "type": "see_also",
+      "reading": "に",
+      "headword": "に"
+    },
+    {
+      "type": "see_also",
+      "reading": "も",
+      "headword": "も"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-05T12:41:22Z",
+    "modified": "2026-01-16T06:34:17Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "basic"
+  }
+}

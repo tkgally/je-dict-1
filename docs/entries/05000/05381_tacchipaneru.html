@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="タッチパネル - touch panel; touchscreen. Japanese-English dictionary entry with definitions and examples.">
+    <title>タッチパネル (たっちぱねる) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">タッチパネル</h1>
+            <div class="entry-reading">たっちぱねる</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">touch panel; touchscreen</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">touch panel; touchscreen</span>
+                    <div class="definition-explanation">A display screen that responds to touch input, allowing users to interact directly with what is displayed.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">タッチパネルで<ruby>注文<rp>(</rp><rt>ちゅうもん</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">To order using a touch panel.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">スマートフォンのタッチパネルが<ruby>反応<rp>(</rp><rt>はんのう</rt><rp>)</rp></ruby>しない。</div>
+                    <div class="example-english">The smartphone touchscreen isn&#x27;t responding.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>駅<rp>(</rp><rt>えき</rt><rp>)</rp></ruby>の<ruby>券売機<rp>(</rp><rt>けんばいき</rt><rp>)</rp></ruby>はタッチパネル<ruby>式<rp>(</rp><rt>しき</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">The station ticket machines are touchscreen-operated.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>タッチパネル comes from English &#x27;touch panel.&#x27;</p><p>SYNONYMS:</p><ul><li>タッチスクリーン: touchscreen</li></ul><p>COMMON USES:</p><ul><li>スマートフォン: smartphones</li><li>タブレット: tablets</li><li>ATM: ATM machines</li><li><ruby>券売機<rp>(</rp><rt>けんばいき</rt><rp>)</rp></ruby>: ticket machines</li><li><ruby>飲食店<rp>(</rp><rt>いんしょくてん</rt><rp>)</rp></ruby>: restaurant ordering systems</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 12:32 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05381_tacchipaneru</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

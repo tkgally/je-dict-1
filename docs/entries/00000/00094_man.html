@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="万 - ten thousand, 10000. Japanese-English dictionary entry with definitions and examples.">
+    <title>万 (まん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>万<rp>(</rp><rt>まん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">まん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">ten thousand, 10000</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">ten thousand, 10000</span>
+                    <div class="definition-explanation">The number ten thousand. A key unit in Japanese counting, as large numbers are grouped by 万 (ten thousands) rather than thousands.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>一万<rp>(</rp><rt>いちまん</rt><rp>)</rp></ruby><ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">It&#x27;s 10,000 yen.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>百万<rp>(</rp><rt>ひゃくまん</rt><rp>)</rp></ruby><ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>の<ruby>車<rp>(</rp><rt>くるま</rt><rp>)</rp></ruby>を<ruby>買<rp>(</rp><rt>か</rt><rp>)</rp></ruby>いました。</div>
+                    <div class="example-english">I bought a car for 1,000,000 yen.</div>
+                    <div class="example-notes">100万 = one million</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>東京<rp>(</rp><rt>とうきょう</rt><rp>)</rp></ruby>には<ruby>一千万人<rp>(</rp><rt>いっせんまんにん</rt><rp>)</rp></ruby><ruby>以上<rp>(</rp><rt>いじょう</rt><rp>)</rp></ruby>が<ruby>住<rp>(</rp><rt>す</rt><rp>)</rp></ruby>んでいます。</div>
+                    <div class="example-english">More than 10 million people live in Tokyo.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Japanese groups large numbers by 万 (10,000): <ruby>十万<rp>(</rp><rt>じゅうまん</rt><rp>)</rp></ruby> (100,000), <ruby>百万<rp>(</rp><rt>ひゃくまん</rt><rp>)</rp></ruby> (1,000,000), <ruby>千万<rp>(</rp><rt>せんまん</rt><rp>)</rp></ruby> (10,000,000). <ruby>一万円<rp>(</rp><rt>いちまんえん</rt><rp>)</rp></ruby><ruby>札<rp>(</rp><rt>さつ</rt><rp>)</rp></ruby> is a 10,000-yen bill (the largest bill). <ruby>万一<rp>(</rp><rt>まんいち</rt><rp>)</rp></ruby> means &#x27;by any chance/if by chance&#x27;.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:31 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00000/00094_man</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

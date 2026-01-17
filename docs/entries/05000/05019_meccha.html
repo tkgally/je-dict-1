@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="めっちゃ - very, extremely. Japanese-English dictionary entry with definitions and examples.">
+    <title>めっちゃ (めっちゃ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">めっちゃ</h1>
+            <div class="entry-reading">めっちゃ</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">very, extremely</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">very, extremely</span>
+                    <div class="definition-explanation">Casual intensifier meaning &#x27;very much&#x27; or &#x27;extremely&#x27;. Originally Kansai dialect.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">めっちゃ<ruby>楽<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しかった！</div>
+                    <div class="example-english">It was super fun!</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">めっちゃ<ruby>疲<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>れた。</div>
+                    <div class="example-english">I&#x27;m extremely tired.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>映画<rp>(</rp><rt>えいが</rt><rp>)</rp></ruby>、めっちゃ<ruby>面白<rp>(</rp><rt>おもしろ</rt><rp>)</rp></ruby>いよ。</div>
+                    <div class="example-english">This movie is really interesting.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Originally from Kansai dialect (<ruby>滅茶<rp>(</rp><rt>めちゃ</rt><rp>)</rp></ruby>), now used throughout Japan, especially by younger speakers. More casual than とても or すごく. Variations include めちゃ, めちゃくちゃ (even stronger). Very common in everyday casual speech.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref pending">
+                        <span class="cross-ref-type">Synonym:</span>
+                        <span class="cross-ref-pending">すごく (standard)</span>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 8:50 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05019_meccha</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

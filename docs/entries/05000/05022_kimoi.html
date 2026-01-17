@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="キモい - gross, creepy. Japanese-English dictionary entry with definitions and examples.">
+    <title>キモい (きもい) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">キモい</h1>
+            <div class="entry-reading">きもい</div>
+            <div class="entry-pos">adjective (i-adjective)</div>
+            <div class="entry-gloss">gross, creepy</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">gross, disgusting, creepy</span>
+                    <div class="definition-explanation">Describing something that causes disgust or discomfort. Slang abbreviation of <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ち<ruby>悪<rp>(</rp><rt>わる</rt><rp>)</rp></ruby>い.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>虫<rp>(</rp><rt>むし</rt><rp>)</rp></ruby>、キモい！</div>
+                    <div class="example-english">This bug is gross!</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">あの<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>の<ruby>行動<rp>(</rp><rt>こうどう</rt><rp>)</rp></ruby>がキモい。</div>
+                    <div class="example-english">That person&#x27;s behavior is creepy.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">キモいものを<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>てしまった。</div>
+                    <div class="example-english">I saw something gross.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Slang abbreviation of <ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ち<ruby>悪<rp>(</rp><rt>わる</rt><rp>)</rp></ruby>い (unpleasant, disgusting). Common among youth. Can be considered rude when directed at people. Often written in katakana. Conjugates as i-adjective: キモくない, キモかった.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/05000/05020_uzai.html" class="cross-ref-link">
+                            ウザい (annoying)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 8:51 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05022_kimoi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

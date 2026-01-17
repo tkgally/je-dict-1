@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="利息 - interest (on money). Japanese-English dictionary entry with definitions and examples.">
+    <title>利息 (りそく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>利息<rp>(</rp><rt>りそく</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">りそく</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">interest (on money)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">interest (financial)</span>
+                    <div class="definition-explanation">Money paid for the use of borrowed money, or earned on deposited money.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>銀行<rp>(</rp><rt>ぎんこう</rt><rp>)</rp></ruby>に<ruby>預<rp>(</rp><rt>あず</rt><rp>)</rp></ruby>けると<ruby>利息<rp>(</rp><rt>りそく</rt><rp>)</rp></ruby>がつく。</div>
+                    <div class="example-english">If you deposit at a bank, you earn interest.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>利息<rp>(</rp><rt>りそく</rt><rp>)</rp></ruby>が<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>いローンは<ruby>避<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>けたい。</div>
+                    <div class="example-english">I want to avoid loans with high interest.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>毎月<rp>(</rp><rt>まいつき</rt><rp>)</rp></ruby>の<ruby>利息<rp>(</rp><rt>りそく</rt><rp>)</rp></ruby>を<ruby>支払<rp>(</rp><rt>しはら</rt><rp>)</rp></ruby>う。</div>
+                    <div class="example-english">To pay the monthly interest.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>利息<rp>(</rp><rt>りそく</rt><rp>)</rp></ruby> refers to interest on money.</p><p>COMMON EXPRESSIONS:</p><ul><li><ruby>利息<rp>(</rp><rt>りそく</rt><rp>)</rp></ruby>がつく: to earn interest</li><li><ruby>利息<rp>(</rp><rt>りそく</rt><rp>)</rp></ruby>を<ruby>払<rp>(</rp><rt>はら</rt><rp>)</rp></ruby>う: to pay interest</li><li><ruby>利息<rp>(</rp><rt>りそく</rt><rp>)</rp></ruby>が<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い/<ruby>低<rp>(</rp><rt>ひく</rt><rp>)</rp></ruby>い: high/low interest</li></ul><p>RELATED TERMS:</p><ul><li><ruby>金利<rp>(</rp><rt>きんり</rt><rp>)</rp></ruby>: interest rate</li><li><ruby>利子<rp>(</rp><rt>りし</rt><rp>)</rp></ruby>: interest (same meaning, slightly more formal)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 16:41</div>
+                <div class="metadata-file">05500/05643_risoku</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

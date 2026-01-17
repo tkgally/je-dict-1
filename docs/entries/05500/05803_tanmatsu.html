@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="端末 - terminal; device; endpoint. Japanese-English dictionary entry with definitions and examples.">
+    <title>端末 (たんまつ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>端末<rp>(</rp><rt>たんまつ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">たんまつ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">terminal; device; endpoint</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">terminal; device; endpoint</span>
+                    <div class="definition-explanation">A device or equipment used to access a computer system or network; any electronic device used for communication or data processing.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>携帯<rp>(</rp><rt>けいたい</rt><rp>)</rp></ruby><ruby>端末<rp>(</rp><rt>たんまつ</rt><rp>)</rp></ruby>で<ruby>操作<rp>(</rp><rt>そうさ</rt><rp>)</rp></ruby>できる。</div>
+                    <div class="example-english">You can operate it with a mobile device.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>端末<rp>(</rp><rt>たんまつ</rt><rp>)</rp></ruby>から<ruby>データ<rp>(</rp><rt>でーた</rt><rp>)</rp></ruby>を<ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">To input data from a terminal.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>決済<rp>(</rp><rt>けっさい</rt><rp>)</rp></ruby><ruby>端末<rp>(</rp><rt>たんまつ</rt><rp>)</rp></ruby>を<ruby>設置<rp>(</rp><rt>せっち</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">To install a payment terminal.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>端末<rp>(</rp><rt>たんまつ</rt><rp>)</rp></ruby> is widely used in IT and technology contexts.</p><p>COMMON COLLOCATIONS:</p><ul><li><ruby>携帯<rp>(</rp><rt>けいたい</rt><rp>)</rp></ruby><ruby>端末<rp>(</rp><rt>たんまつ</rt><rp>)</rp></ruby>: mobile device</li><li><ruby>情報<rp>(</rp><rt>じょうほう</rt><rp>)</rp></ruby><ruby>端末<rp>(</rp><rt>たんまつ</rt><rp>)</rp></ruby>: information terminal</li><li><ruby>端末<rp>(</rp><rt>たんまつ</rt><rp>)</rp></ruby><ruby>機器<rp>(</rp><rt>きき</rt><rp>)</rp></ruby>: terminal equipment</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 17:21</div>
+                <div class="metadata-file">05500/05803_tanmatsu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

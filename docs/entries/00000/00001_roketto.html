@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ロケット - rocket; locket. Japanese-English dictionary entry with definitions and examples.">
+    <title>ロケット (ろけっと) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ロケット</h1>
+            <div class="entry-reading">ろけっと</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">rocket; locket</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">rocket</span>
+                    <div class="definition-explanation">A cylindrical projectile propelled by combustion of fuel.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">locket</span>
+                    <div class="definition-explanation">A small ornamental case worn on a necklace that holds a photo.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ロケットが<ruby>打<rp>(</rp><rt>う</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げられた。</div>
+                    <div class="example-english">The rocket was launched.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ロケットで<ruby>月<rp>(</rp><rt>つき</rt><rp>)</rp></ruby>に<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">I go to the moon by rocket.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>からロケットを<ruby>下<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>げている。</div>
+                    <div class="example-english">I&#x27;m wearing a locket around my neck.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ロケット (from English &#x27;rocket&#x27; and &#x27;locket&#x27;) has two distinct meanings.</p><p>MEANING 1 - ROCKET (spacecraft/weapon):</p><ul><li>ロケットを<ruby>打<rp>(</rp><rt>う</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げる: to launch a rocket</li><li>ロケットエンジン: rocket engine</li><li><ruby>宇宙<rp>(</rp><rt>うちゅう</rt><rp>)</rp></ruby>ロケット: space rocket</li><li>ロケット<ruby>花火<rp>(</rp><rt>はなび</rt><rp>)</rp></ruby>: rocket firework</li></ul><p>MEANING 2 - LOCKET (jewelry):</p><ul><li>ロケットペンダント: locket pendant</li><li>ロケットに<ruby>写真<rp>(</rp><rt>しゃしん</rt><rp>)</rp></ruby>を<ruby>入<rp>(</rp><rt>い</rt><rp>)</rp></ruby>れる: to put a photo in a locket</li></ul><p>CONTEXT:<br>The meaning is usually clear from context - space/military contexts = rocket; jewelry/fashion = locket.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 9:40 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00000/00001_roketto</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

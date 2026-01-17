@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="暗号 - encryption. Japanese-English dictionary entry with definitions and examples.">
+    <title>暗号 (あんごう) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>暗号<rp>(</rp><rt>あんごう</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">あんごう</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">encryption</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">cipher, code</span>
+                    <div class="definition-explanation">A secret message or system of writing that conceals meaning.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">encryption</span>
+                    <div class="definition-explanation">The process of encoding information to protect it.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>暗号<rp>(</rp><rt>あんごう</rt><rp>)</rp></ruby>を<ruby>解読<rp>(</rp><rt>かいどく</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Decrypt a code.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">データを<ruby>暗号化<rp>(</rp><rt>あんごうか</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Encrypt the data.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>暗号<rp>(</rp><rt>あんごう</rt><rp>)</rp></ruby><ruby>通貨<rp>(</rp><rt>つうか</rt><rp>)</rp></ruby>に<ruby>投資<rp>(</rp><rt>とうし</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Invest in cryptocurrency.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Used in both traditional spy/mystery contexts and modern computing.</p><p>Common expressions:</p><ul><li><ruby>暗号化<rp>(</rp><rt>あんごうか</rt><rp>)</rp></ruby> (encryption)</li><li><ruby>暗号<rp>(</rp><rt>あんごう</rt><rp>)</rp></ruby><ruby>解読<rp>(</rp><rt>かいどく</rt><rp>)</rp></ruby> (decryption)</li><li><ruby>暗号<rp>(</rp><rt>あんごう</rt><rp>)</rp></ruby><ruby>通貨<rp>(</rp><rt>つうか</rt><rp>)</rp></ruby> (cryptocurrency)</li><li><ruby>暗号<rp>(</rp><rt>あんごう</rt><rp>)</rp></ruby>キー (encryption key)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 9:32 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05079_angou</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

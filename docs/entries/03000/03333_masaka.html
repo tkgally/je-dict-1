@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="まさか - surely not, no way. Japanese-English dictionary entry with definitions and examples.">
+    <title>まさか (まさか) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">まさか</h1>
+            <div class="entry-reading">まさか</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">surely not, no way</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">surely not, no way, by no means</span>
+                    <div class="definition-explanation">Expresses disbelief or denial that something could be true or happen.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">just in case, in the unlikely event</span>
+                    <div class="definition-explanation">Used with の/に to mean &#x27;in case of emergency&#x27; or &#x27;for an unexpected situation.&#x27;</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">まさか<ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>が<ruby>犯人<rp>(</rp><rt>はんにん</rt><rp>)</rp></ruby>だとは<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>わなかった。</div>
+                    <div class="example-english">I never thought he could be the culprit.</div>
+                    <div class="example-notes">Expresses surprise at an unexpected truth</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">「<ruby>合格<rp>(</rp><rt>ごうかく</rt><rp>)</rp></ruby>したよ」「まさか！」</div>
+                    <div class="example-english">&quot;I passed!&quot; &quot;No way!&quot;</div>
+                    <div class="example-notes">Used as an interjection expressing disbelief</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">まさかの<ruby>時<rp>(</rp><rt>とき</rt><rp>)</rp></ruby>のために<ruby>貯金<rp>(</rp><rt>ちょきん</rt><rp>)</rp></ruby>している。</div>
+                    <div class="example-english">I&#x27;m saving money for a rainy day (in case of emergency).</div>
+                    <div class="example-notes">まさかの時 = emergency, unexpected situation</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>USAGE PATTERNS:</p><ul><li>まさか〜ないだろう (surely...won&#x27;t)</li><li>まさか〜とは<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>わなかった (never thought that...)</li><li>まさか！ (No way! - as an exclamation)</li><li>まさかの<ruby>時<rp>(</rp><rt>とき</rt><rp>)</rp></ruby> (in case of emergency)</li><li>まさかの<ruby>事態<rp>(</rp><rt>じたい</rt><rp>)</rp></ruby> (unexpected situation)</li></ul><p>NUANCE:<br>まさか conveys strong doubt or disbelief. When something actually happens that you thought was impossible, you might say まさか本当だとは... (I never thought it was actually true...).</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.12 21:48 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">03000/03333_masaka</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

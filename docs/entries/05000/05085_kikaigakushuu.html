@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="機械学習 - machine learning. Japanese-English dictionary entry with definitions and examples.">
+    <title>機械学習 (きかいがくしゅう) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>機械学習<rp>(</rp><rt>きかいがくしゅう</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">きかいがくしゅう</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">machine learning</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">machine learning</span>
+                    <div class="definition-explanation">A type of artificial intelligence that enables computers to learn from data without explicit programming.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>機械学習<rp>(</rp><rt>きかいがくしゅう</rt><rp>)</rp></ruby>でパターンを<ruby>認識<rp>(</rp><rt>にんしき</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Recognize patterns through machine learning.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>機械学習<rp>(</rp><rt>きかいがくしゅう</rt><rp>)</rp></ruby>モデルを<ruby>訓練<rp>(</rp><rt>くんれん</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Train a machine learning model.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>機械学習<rp>(</rp><rt>きかいがくしゅう</rt><rp>)</rp></ruby>を<ruby>用<rp>(</rp><rt>もち</rt><rp>)</rp></ruby>いた<ruby>予測<rp>(</rp><rt>よそく</rt><rp>)</rp></ruby>。</div>
+                    <div class="example-english">Predictions using machine learning.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>A subfield of artificial intelligence.</p><p>Common expressions:</p><ul><li><ruby>機械学習<rp>(</rp><rt>きかいがくしゅう</rt><rp>)</rp></ruby>モデル (machine learning model)</li><li><ruby>機械学習<rp>(</rp><rt>きかいがくしゅう</rt><rp>)</rp></ruby>アルゴリズム (machine learning algorithm)</li><li><ruby>教師<rp>(</rp><rt>きょうし</rt><rp>)</rp></ruby>あり<ruby>学習<rp>(</rp><rt>がくしゅう</rt><rp>)</rp></ruby> (supervised learning)</li><li><ruby>教師<rp>(</rp><rt>きょうし</rt><rp>)</rp></ruby>なし<ruby>学習<rp>(</rp><rt>がくしゅう</rt><rp>)</rp></ruby> (unsupervised learning)</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/05000/05084_jinkouchinou.html" class="cross-ref-link">
+                            <ruby>人工知能<rp>(</rp><rt>じんこうちのう</rt><rp>)</rp></ruby> (artificial intelligence)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 9:33 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05085_kikaigakushuu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
