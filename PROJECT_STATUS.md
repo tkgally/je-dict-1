@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,513
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 265
-- **Candidate words**: ~732 words tracked in `candidate_words.json`
+- **Total entries**: 6,533
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 285
+- **Candidate words**: ~716 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 90)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Social Media/Modern** (4): タイムライン (timeline/feed), {陰|いん}キャ (introvert slang), {陽|よう}キャ (extrovert slang), {投|な}げ{銭|せん} (online tipping)
+- **Technology** (2): アナログ (analog/old-fashioned), {自動運転|じどううんてん} (autonomous driving)
+- **Business/Consumer** (6): クーポン (coupon), {延長|えんちょう} (extension), {明細|めいさい} (itemization/statement), {同意書|どういしょ} (consent form), {部下|ぶか} (subordinate), {彼氏|かれし} (boyfriend)
+- **Public Services** (2): {消防署|しょうぼうしょ} (fire station), {役所|やくしょ} (government office)
+- **Traditional Japanese** (2): {不祝儀|ぶしゅうぎ} (condolence money), {蛇|じゃ}の{目傘|めがさ} (traditional umbrella)
+- **Modern Lifestyle** (1): {朝活|あさかつ} (morning activity)
+- **Four-character idioms** (2): {暗中模索|あんちゅうもさく} (groping in dark), {有名無実|ゆうめいむじつ} (nominal)
+- **Adjective** (1): {国際的|こくさいてき} (international)
+
+Notable entry features:
+- Social media vocabulary with {陰|いん}キャ/{陽|よう}キャ as antonym pair (youth slang)
+- {投|な}げ{銭|せん} covering both traditional (street performers) and modern (streaming tips) usage
+- Traditional Japanese culture terms ({不祝儀|ぶしゅうぎ} with envelope etiquette, {蛇|じゃ}の{目傘|めがさ} with craft traditions)
+- {朝活|あさかつ} as part of the ～{活|かつ} word pattern trend
+- Government/public service vocabulary ({消防署|しょうぼうしょ}, {役所|やくしょ}) with emergency numbers and procedures
+- Four-character idioms with etymology and context
+
+Total entries: 6,513 → 6,533
+Remaining candidates: 732 → 716
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 89)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
