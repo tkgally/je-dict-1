@@ -7,6 +7,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 78)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Compound verbs** (3): すり{下|お}ろす (to grate), {誘|さそ}い{込|こ}む (to lure into), {殴|なぐ}り{倒|たお}す (to knock down)
+- **Japanese proverbs** (4): {花|はな}より{団子|だんご} (substance over style), {豚|ぶた}に{真珠|しんじゅ} (pearls before swine), {猫|ねこ}の{手|て}も{借|か}りたい (desperately busy), {良薬|りょうやく}{口|くち}に{苦|にが}し (good medicine tastes bitter)
+- **Four-character idioms** (5): {針小棒大|しんしょうぼうだい} (making a mountain out of a molehill), {晴耕雨読|せいこううどく} (farm when sunny, read when rainy), {呉越同舟|ごえつどうしゅう} (enemies in same boat), {我田引水|がでんいんすい} (self-serving), {二律背反|にりつはいはん} (antinomy)
+- **Construction terms** (3): {耐震|たいしん} (earthquake-resistant), {解体|かいたい} (demolition), {改築|かいちく} (renovation)
+- **Japanese customs** (3): {祝儀|しゅうぎ} (congratulatory money), {喪中|もちゅう} (mourning period), {年賀状|ねんがじょう} (New Year's card)
+- **Traditional Japanese items** (2): {屏風|びょうぶ} (folding screen), ちゃぶ{台|だい} (low dining table)
+- **Food terms** (3): {具材|ぐざい} (ingredients), {汁物|しるもの} (soup dish), {生鮮食品|せいせんしょくひん} (fresh produce)
+- **Other** (2): {骨格|こっかく} (skeleton/framework), コンテンツ (content)
+
+Notable entry features:
+- Classic Japanese proverbs with origins and English equivalents
+- Four-character idioms ({四字熟語|よじじゅくご}) with historical context
+- Construction vocabulary related to Japan's earthquake preparedness
+- Japanese gift-giving customs ({祝儀|しゅうぎ}↔{不祝儀|ぶしゅうぎ})
+- New Year traditions with cultural etiquette ({年賀状|ねんがじょう}, {喪中|もちゅう})
+- Traditional home items from Showa era (ちゃぶ{台|だい})
+
+Total entries: 6,283 → 6,308
+Remaining candidates: 756 → 732
+
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 77)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
