@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,108
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~969 words tracked in `candidate_words.json`
+- **Candidate words**: ~928 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -104,22 +104,21 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 
 ## Recent Changes
 
-### 2026-01-17 (New Candidates - 100 Words Added, Session 71)
-Added 100 new candidate words to `candidate_words.json` using balanced coverage strategy:
+### 2026-01-17 (New Candidates - 59 Words Added, Session 71)
+Added 59 new candidate words to `candidate_words.json` using balanced coverage strategy:
 
 - **Compound verbs** (28): Transportation verbs ({切|き}り{出|だ}す, {打|う}ち{出|だ}す, {突|つ}き{出|だ}す, {取|と}り{付|つ}ける), emotional/action verbs ({引|ひ}き{取|と}る, {引|ひ}き{起|お}こす, {引|ひ}き{止|と}める, {引|ひ}き{付|つ}ける), launching verbs ({打|う}ち{上|あ}げる, {打|う}ち{切|き}る, {打|う}ち{消|け}す), movement verbs ({押|お}し{切|き}る, {押|お}し{進|すす}める, {押|お}し{寄|よ}せる, {受|う}け{継|つ}ぐ), courtesy ({差|さ}し{入|い}れる, {差|さ}し{掛|か}かる, {差|さ}し{引|ひ}く), persistence ({持|も}ちかける, {持|も}ち{堪|こた}える, {振|ふ}り{切|き}る), jumping ({飛|と}び{付|つ}く, {飛|と}び{降|お}りる), running ({駆|か}け{上|あ}がる, {駆|か}け{下|お}りる, {駆|か}け{込|こ}む, {駆|か}け{回|まわ}る, {駆|か}け{抜|ぬ}ける)
-- **IT/tech loanwords** (30): Devices/services (アプリ, ブラウザ, サーバー, クラウド, スマホ, SNS, オンライン), actions (ダウンロード, フォロー, ログイン, チェック, クリック, タップ, スワイプ, スクロール, コピー, アップロード, インストール), work (プレゼン, ミーティング, リモート, テレワーク), infrastructure (パスワード, ウェブサイト, ネットワーク, データベース, バックアップ, セキュリティ, プライバシー, アカウント)
-- **Fashion/music/food loanwords** (10): コーデ, トレンド, アイテム, ライブ, フェス, サビ, アレンジ, カバー, テイクアウト, デリバリー
-- **Modern lifestyle terms** (12): コスパ, タイパ, ワンオペ, パワハラ, セクハラ, モラハラ, イクメン, ママ{友|とも}, リスク, メリット, デメリット, トラブル
-- **Informal/slang** (5): マジ, ダサい, ウザい, キモい, バズる
-- **Business/abstract loanwords** (5): ストレス, バランス, モチベーション, スポーツ, ジム
+- **Fashion/music/food loanwords** (9): コーデ, トレンド, アイテム, フェス, サビ, アレンジ, カバー, テイクアウト, デリバリー
+- **Modern lifestyle terms** (7): ワンオペ, モラハラ, イクメン, ママ{友|とも}, リスク, メリット, デメリット, トラブル
+- **IT/tech loanwords** (4): スワイプ, スクロール, プライバシー, メールアドレス
 - **Transportation** (3): {遅延|ちえん}, {運休|うんきゅう}, {発着|はっちゃく}
 - **Cooking** (2): {下味|したあじ}, {灰汁抜|あくぬ}き
 - **Housing** (2): {不動産|ふどうさん}, {居住|きょじゅう}
 - **Four-character idioms** (2): {一触即発|いっしょくそくはつ}, {危機一髪|ききいっぱつ}
 - **～的 adjective** (1): {総合的|そうごうてき}
+- **Other** (1): モチベーション
 
-Candidate count: 869 → 969
+Candidate count: 869 → 928
 
 ### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 70)
 Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
