@@ -7,6 +7,25 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 73)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Compound verbs** (5): {送|おく}り{出|だ}す (to send off), {流|なが}れ{出|だ}す (to flow out), {呼|よ}び{込|こ}む (to call in), {突|つ}き{刺|さ}す (to stab), {踏|ふ}みつける (to trample)
+- **～{的|てき} adjectives** (5): {楽観的|らっかんてき} (optimistic), {悲観的|ひかんてき} (pessimistic), {建設的|けんせつてき} (constructive), {直接的|ちょくせつてき} (direct), {間接的|かんせつてき} (indirect)
+- **Modern loanwords** (5): リモートワーク (remote work), キャッシュレス (cashless), ドローン (drone), バグ (bug), プログラミング (programming)
+- **Food/agriculture terms** (5): {玄米|げんまい} (brown rice), {白米|はくまい} (white rice), {肥料|ひりょう} (fertilizer), {牧場|ぼくじょう} (ranch), {酪農|らくのう} (dairy farming)
+- **Fish/legal terms** (5): {鰻|うなぎ} (eel), {鰹|かつお} (bonito), {遵守|じゅんしゅ} (compliance), {認定|にんてい} (certification), カロリー (calorie)
+
+Notable entry features:
+- Compound verbs with ～{出|だ}す (outward) and ～{込|こ}む (inward) patterns
+- ～{的|てき} adjective antonym pairs ({楽観的|らっかんてき}↔{悲観的|ひかんてき}, {直接的|ちょくせつてき}↔{間接的|かんせつてき})
+- Modern technology vocabulary (リモートワーク, キャッシュレス, プログラミング)
+- Japanese food culture ({鰻|うなぎ} with {土用|どよう}の{丑|うし}の{日|ひ} tradition, {鰹|かつお} with regional cuisine notes)
+- Agriculture vocabulary relevant for discussing Japanese food production
+
+Total entries: 6,158 → 6,183
+Remaining candidates: 878 → 853
+
 ### 2026-01-17 (Vocabulary Expansion - 50 New Entries, Session 72)
 Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
