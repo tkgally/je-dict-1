@@ -7,12 +7,12 @@ Add 50 new entries to the Japanese-English learner's dictionary from candidate_w
 1. **Start**: Read PROJECT_STATUS.md for current counts and recent patterns
 
 2. **For each entry**:
-   - **DUPLICATE CHECK (MANDATORY)**: Before writing ANY entry, search the entries directory:
+   - **DUPLICATE CHECK (MANDATORY)**: Before writing ANY entry, run:
      ```bash
-     grep -r '"reading": "たべる"' entries/
-     grep -r '食べる' entries/
+     python3 build/check_duplicate.py "食べる" "たべる"
      ```
-     If either returns results, SKIP this word - it already exists. Move to next candidate.
+     - If it says "OK", proceed with creating the entry
+     - If it says "DUPLICATE", SKIP this word - move to next candidate
    - Get timestamp: `python3 build/get_timestamp.py` (CRITICAL - always run this, never guess)
    - Write entry using the appropriate skill (auto-loaded based on part of speech)
    - **Include sense_numbers on all examples**: Every example must have a `sense_numbers` field
@@ -34,7 +34,7 @@ Add 50 new entries to the Japanese-English learner's dictionary from candidate_w
 
 ## Critical Rules
 
-- **NEVER create an entry without first searching entries/ for that word** - this is the #1 cause of duplicates
+- **NEVER create an entry without first running `check_duplicate.py`** - this is the #1 cause of duplicates
 - Each entry must be written individually (no automation scripts)
 - **ALL kanji require furigana in ALL fields**: headword, examples, AND notes
   - Format: `{漢字|かんじ}`
@@ -43,6 +43,17 @@ Add 50 new entries to the Japanese-English learner's dictionary from candidate_w
 - Examples progress simple → complex, include at least one collocation
 - **All examples require sense_numbers** - validation will fail without them
 - Timestamps must be from get_timestamp.py - the Z suffix is UTC, not JST
+
+## Duplicate Check Details
+
+The `check_duplicate.py` script checks:
+1. `entries_index.json` for matching reading or headword
+2. `candidate_words.json` for matching reading or word
+
+**Batch checking** (optional, for planning which candidates to work on):
+```bash
+python3 build/check_duplicate.py --batch "食べる:たべる" "飲む:のむ" "書く:かく"
+```
 
 ## Example Structure Reminder
 

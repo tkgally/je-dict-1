@@ -6,8 +6,14 @@ This script provides utilities for managing candidate words that may be
 added to the dictionary in the future.
 
 Usage:
-    # Add a single candidate
+    # Add a single candidate (automatically checks for duplicates)
     python build/manage_candidates.py add "漢字" "かんじ" "Chinese characters - common word"
+
+    # Add with --force to bypass duplicate check (use with caution!)
+    python build/manage_candidates.py add --force "漢字" "かんじ" "note"
+
+    # Check if a word is a duplicate (exits 0 if safe to add, 1 if duplicate)
+    python build/manage_candidates.py check "漢字" "かんじ"
 
     # Remove candidates that now exist in dictionary
     python build/manage_candidates.py sync
@@ -28,6 +34,7 @@ from japanese_utils import strip_furigana
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 CANDIDATES_FILE = PROJECT_ROOT / 'candidate_words.json'
+ENTRIES_INDEX_FILE = PROJECT_ROOT / 'entries_index.json'
 ENTRIES_DIR = PROJECT_ROOT / 'entries'
 
 
@@ -52,6 +59,106 @@ def load_candidates() -> dict:
         },
         'candidates': []
     }
+
+
+def load_entries_index() -> dict:
+    """Load the entries index file."""
+    if ENTRIES_INDEX_FILE.exists():
+        try:
+            with open(ENTRIES_INDEX_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except json.JSONDecodeError as e:
+            print(f"Error: Invalid JSON in {ENTRIES_INDEX_FILE}: {e}")
+            sys.exit(1)
+        except PermissionError:
+            print(f"Error: Permission denied reading {ENTRIES_INDEX_FILE}")
+            sys.exit(1)
+    return {'metadata': {}, 'entries': []}
+
+
+def check_duplicate(word: str, reading: str, candidates_data: dict = None) -> dict:
+    """
+    Check if a word already exists in entries or candidates.
+
+    Returns a dict with:
+        - is_duplicate: bool
+        - found_in: 'entries' | 'candidates' | None
+        - match_type: 'exact' | 'reading_only' | 'word_only' | None
+        - details: str with match information
+    """
+    result = {
+        'is_duplicate': False,
+        'found_in': None,
+        'match_type': None,
+        'details': None
+    }
+
+    # Normalize the word (strip furigana if present)
+    clean_word = strip_furigana(word)
+
+    # Check entries_index.json
+    entries_data = load_entries_index()
+    for entry in entries_data.get('entries', []):
+        entry_reading = entry.get('reading', '')
+        entry_headword = strip_furigana(entry.get('headword', ''))
+
+        # Check for exact match (both reading and headword)
+        if entry_reading == reading and entry_headword == clean_word:
+            result['is_duplicate'] = True
+            result['found_in'] = 'entries'
+            result['match_type'] = 'exact'
+            result['details'] = f"Exact match in dictionary: {entry['id']} ({entry_headword} / {entry_reading})"
+            return result
+
+        # Check for reading-only match
+        if entry_reading == reading:
+            result['is_duplicate'] = True
+            result['found_in'] = 'entries'
+            result['match_type'] = 'reading_only'
+            result['details'] = f"Reading match in dictionary: {entry['id']} ({entry_headword} / {entry_reading})"
+            return result
+
+        # Check for headword-only match
+        if entry_headword == clean_word:
+            result['is_duplicate'] = True
+            result['found_in'] = 'entries'
+            result['match_type'] = 'word_only'
+            result['details'] = f"Headword match in dictionary: {entry['id']} ({entry_headword} / {entry_reading})"
+            return result
+
+    # Check candidate_words.json
+    if candidates_data is None:
+        candidates_data = load_candidates()
+
+    for candidate in candidates_data.get('candidates', []):
+        cand_reading = candidate.get('reading', '')
+        cand_word = candidate.get('word', '')
+
+        # Check for exact match
+        if cand_reading == reading and cand_word == clean_word:
+            result['is_duplicate'] = True
+            result['found_in'] = 'candidates'
+            result['match_type'] = 'exact'
+            result['details'] = f"Exact match in candidates: {candidate['id']} ({cand_word} / {cand_reading})"
+            return result
+
+        # Check for reading-only match
+        if cand_reading == reading:
+            result['is_duplicate'] = True
+            result['found_in'] = 'candidates'
+            result['match_type'] = 'reading_only'
+            result['details'] = f"Reading match in candidates: {candidate['id']} ({cand_word} / {cand_reading})"
+            return result
+
+        # Check for word-only match
+        if cand_word == clean_word:
+            result['is_duplicate'] = True
+            result['found_in'] = 'candidates'
+            result['match_type'] = 'word_only'
+            result['details'] = f"Word match in candidates: {candidate['id']} ({cand_word} / {cand_reading})"
+            return result
+
+    return result
 
 
 def save_candidates(data: dict):
@@ -155,20 +262,59 @@ def main():
         return
 
     command = sys.argv[1]
+
+    # Handle --force flag for add command
+    force = False
+    args = sys.argv[2:]
+    if '--force' in args:
+        force = True
+        args = [a for a in args if a != '--force']
+
     data = load_candidates()
 
     if command == 'add':
-        if len(sys.argv) < 3:
-            print("Usage: manage_candidates.py add <word> [reading] [notes]")
+        if len(args) < 1:
+            print("Usage: manage_candidates.py add [--force] <word> [reading] [notes]")
+            print("\nOptions:")
+            print("  --force    Skip duplicate check (use with caution!)")
             return
 
-        word = sys.argv[2]
-        reading = sys.argv[3] if len(sys.argv) > 3 else None
-        notes = sys.argv[4] if len(sys.argv) > 4 else None
+        word = args[0]
+        reading = args[1] if len(args) > 1 else None
+        notes = args[2] if len(args) > 2 else None
+
+        # Check for duplicates BEFORE adding (unless --force)
+        if not force and reading:
+            dup_check = check_duplicate(word, reading, data)
+            if dup_check['is_duplicate']:
+                print(f"ERROR: Duplicate detected!")
+                print(f"  {dup_check['details']}")
+                print(f"\nThis word already exists. NOT adding to candidates.")
+                print(f"Use --force to bypass this check (not recommended).")
+                sys.exit(1)
 
         candidate = add_candidate(data, word, reading, notes)
         save_candidates(data)
         print(f"Added candidate: {candidate['id']} - {word}")
+
+    elif command == 'check':
+        # Check command: verify if a word is a duplicate
+        if len(args) < 2:
+            print("Usage: manage_candidates.py check <word> <reading>")
+            print("\nChecks if a word exists in entries_index.json or candidate_words.json.")
+            print("Exit code 0 = safe to add, exit code 1 = duplicate found")
+            return
+
+        word = args[0]
+        reading = args[1]
+
+        dup_check = check_duplicate(word, reading, data)
+        if dup_check['is_duplicate']:
+            print(f"DUPLICATE: {dup_check['details']}")
+            sys.exit(1)
+        else:
+            print(f"OK: '{word}' ({reading}) is not in the dictionary or candidates.")
+            sys.exit(0)
 
     elif command == 'sync':
         removed = sync_with_dictionary(data)

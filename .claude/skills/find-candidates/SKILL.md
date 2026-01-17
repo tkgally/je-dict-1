@@ -17,48 +17,50 @@ Use this skill when asked to find new words to add to `candidate_words.json` for
 3. Add qualifying words to `candidate_words.json` using the manage_candidates script
 4. Report what was added
 
-## Duplicate Prevention (CRITICAL)
+## Duplicate Prevention (AUTOMATIC)
 
-**Duplicates waste significant time.** Every word MUST be verified before adding.
+**The `manage_candidates.py add` command now AUTOMATICALLY checks for duplicates.**
 
-### Mandatory Check Procedure
-
-For EVERY candidate word, run these checks:
-
+When you run:
 ```bash
-# 1. Check dictionary entries by reading
-grep -i '"reading": "たべる"' entries_index.json
-
-# 2. Check dictionary entries by headword
-grep -i '"headword": "食べる"' entries_index.json
-
-# 3. Check existing candidates by reading
-grep -i '"reading": "たべる"' candidate_words.json
-
-# 4. Check existing candidates by word
-grep -i '"word": "食べる"' candidate_words.json
+python3 build/manage_candidates.py add "食べる" "たべる" "to eat"
 ```
 
-**If ANY of these return results for the same word sense, DO NOT add the word.**
+The script will:
+1. Check `entries_index.json` for matching reading or headword
+2. Check `candidate_words.json` for matching reading or word
+3. **REFUSE to add the word if any match is found**
+4. Display the existing match so you know why it was rejected
+
+### Example of Automatic Rejection
+```
+$ python3 build/manage_candidates.py add "食べる" "たべる" "to eat"
+ERROR: Duplicate detected!
+  Exact match in dictionary: taberu_00001 (食べる / たべる)
+
+This word already exists. NOT adding to candidates.
+```
+
+### Pre-Check Command (Optional)
+If you want to check a word before attempting to add it:
+```bash
+python3 build/manage_candidates.py check "漢字" "かんじ"
+```
+
+### Batch Checking (Optional)
+To check multiple words at once before adding:
+```bash
+python3 build/check_duplicate.py --batch "食べる:たべる" "飲む:のむ" "書く:かく"
+```
 
 ### Near-Duplicate Patterns to Watch
 
+The automatic check catches exact matches. You should still watch for:
 - **Verb forms**: する verbs may exist as standalone nouns (勉強 vs 勉強する)
 - **Kanji variants**: 見る/観る, 聞く/聴く - check if one already covers the meaning
 - **Okurigana variations**: 行なう/行う, 現われる/現れる
 - **Prefix/suffix forms**: Check if 大～ or ～的 forms exist as part of other entries
 - **Reading variations**: Long vowels (おう vs おお), particles in readings
-
-### Efficient Batch Checking
-
-When checking multiple candidates:
-```bash
-# Batch check readings
-for r in "たべる" "のむ" "かく"; do
-  echo "=== $r ==="
-  grep -i "\"reading\": \"$r\"" entries_index.json candidate_words.json
-done
-```
 
 ## Eligibility Criteria (ALL must be met)
 
@@ -345,9 +347,10 @@ After adding candidates, report:
 
 ## Quality Reminders
 
-- **Verify before adding:** ALWAYS check both entries_index.json AND candidate_words.json
+- **Duplicates are blocked automatically:** The `manage_candidates.py add` command will refuse to add duplicates
+- **Watch for near-duplicates:** The automatic check catches exact matches; manually verify for verb forms, kanji variants, etc.
 - **Breadth over depth:** Aim for broad coverage across semantic domains
 - **Learner utility:** Prioritize words an intermediate learner would benefit from knowing
 - **No proper nouns:** Save those for systematic addition later
 - **Stable vocabulary:** Avoid ephemeral slang or highly specialized jargon
-- **Efficient checking:** Use batch checks when adding multiple words
+- **Use batch checks:** When planning which words to add: `python3 build/check_duplicate.py --batch "word1:reading1" ...`

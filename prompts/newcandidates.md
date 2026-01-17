@@ -11,58 +11,59 @@ Add 100 new candidates to candidate_words.json using the find-candidates skill.
 
 1. Load the find-candidates skill for detailed guidelines
 2. Choose search strategies appropriate for the dictionary's current size (see below)
-3. **MANDATORY: Verify EVERY word before adding** (see Duplicate Prevention below)
-4. Add candidates using: `python3 build/manage_candidates.py add "漢字" "ひらがな" "brief English note"`
+3. Add candidates using: `python3 build/manage_candidates.py add "漢字" "ひらがな" "brief English note"`
 
-5. After adding all candidates, update PROJECT_STATUS.md:
+4. After adding all candidates, update PROJECT_STATUS.md:
    - Update "Candidate words" count in Content Status section
    - Add a brief session note under Recent Changes
 
-6. Finally, build the website:
+5. Finally, build the website:
    ```bash
    python3 build/build_flat.py        # REQUIRED for live site update
    ```
 
-## Duplicate Prevention (CRITICAL)
+## Duplicate Prevention (AUTOMATIC)
 
-**Before adding ANY word, you MUST verify it doesn't already exist.** Duplicates waste time and must be removed later.
+**The `manage_candidates.py add` command now AUTOMATICALLY checks for duplicates.**
 
-### Step 1: Check the Dictionary Entries
+When you run:
 ```bash
-# Search by reading (most reliable)
-grep -i '"reading": "たべる"' entries_index.json
-
-# Also search by headword (catches alternate readings)
-grep -i '"headword": "食べる"' entries_index.json
+python3 build/manage_candidates.py add "食べる" "たべる" "to eat"
 ```
 
-### Step 2: Check Existing Candidates
-```bash
-# Search by reading
-grep -i '"reading": "たべる"' candidate_words.json
+The script will:
+1. Check `entries_index.json` for matching reading or headword
+2. Check `candidate_words.json` for matching reading or word
+3. **REFUSE to add the word if any match is found**
+4. Display the existing match so you know why it was rejected
 
-# Also search by word field
-grep -i '"word": "食べる"' candidate_words.json
+### Example of Automatic Rejection
+```
+$ python3 build/manage_candidates.py add "食べる" "たべる" "to eat"
+ERROR: Duplicate detected!
+  Exact match in dictionary: taberu_00001 (食べる / たべる)
+
+This word already exists. NOT adding to candidates.
 ```
 
-### Step 3: Handle Near-Duplicates
-Watch for these common duplicate patterns:
+### Pre-Check Command (Optional)
+If you want to check a word before attempting to add it:
+```bash
+python3 build/manage_candidates.py check "漢字" "かんじ"
+```
+
+### Batch Checking (Optional)
+To check multiple words at once before adding:
+```bash
+python3 build/check_duplicate.py --batch "食べる:たべる" "飲む:のむ" "書く:かく"
+```
+
+### Near-Duplicates to Watch For
+The automatic check catches exact matches. You should still watch for:
 - **Verb forms**: する verbs may exist as standalone nouns (勉強 vs 勉強する)
 - **Kanji variants**: 見る and 観る, 聞く and 聴く
 - **Okurigana variations**: 行なう vs 行う, 現われる vs 現れる
 - **Prefix/suffix forms**: Check if 大～ or ～的 forms exist separately
-
-**If ANY search returns results for the same word sense, DO NOT add the word.**
-
-### Batch Checking (Recommended for Efficiency)
-When adding many candidates, first compile your list, then batch-check:
-```bash
-# Check multiple readings at once
-for r in "たべる" "のむ" "かく"; do
-  echo "=== $r ==="
-  grep -i "\"reading\": \"$r\"" entries_index.json candidate_words.json
-done
-```
 
 ## Selection Strategy: Balanced Coverage
 

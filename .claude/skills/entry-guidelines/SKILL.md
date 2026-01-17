@@ -46,20 +46,22 @@ The `build_flat.py` step is critical - without it, new entries won't appear on t
 
 **IMPORTANT**: Always check if an entry already exists before creating a new one.
 
-1. **Search for existing entries** by reading or headword:
+1. **Run the duplicate check script**:
    ```bash
-   # Search by reading
-   grep -r '"reading": "たべる"' entries/
-
-   # Search by headword pattern
-   grep -r '食べる' entries/
+   python3 build/check_duplicate.py "食べる" "たべる"
    ```
 
-2. **If an entry already exists**: Skip to the next word. Do NOT create a duplicate.
+   - If it says "OK: ... is not in the dictionary or candidates" → Safe to create entry
+   - If it says "DUPLICATE: ..." → SKIP this word, do NOT create a duplicate
 
-3. **If the word was in candidate_words.json**: Remove it from the candidate list after confirming an entry exists.
+2. **Batch checking** (optional, to plan which candidates to work on):
+   ```bash
+   python3 build/check_duplicate.py --batch "食べる:たべる" "飲む:のむ" "書く:かく"
+   ```
 
-4. **Only create new entries** for words that have no existing entry in the dictionary.
+3. **If the word was in candidate_words.json**: It will be automatically removed when you run `python3 build/update_indexes.py` after creating the entry.
+
+4. **Only create new entries** for words that pass the duplicate check.
 
 This prevents duplicate entries and wasted effort on entries that must later be deleted.
 
