@@ -7,6 +7,32 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 65)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Cultural vocabulary (8): {七夕|たなばた} (Tanabata), {法事|ほうじ} (memorial service), {披露宴|ひろうえん} (wedding reception), {盆踊|ぼんおど}り (Bon dance), お{葬式|そうしき} (funeral), お{見合|みあ}い (matchmaking), {鯉|こい}のぼり (carp streamers), {羽織|はおり} (haori jacket)
+- Onomatopoeia (10): もふもふ (fluffy), ぎゅうぎゅう (crammed), ぽたぽた (dripping), ぶんぶん (buzzing), カチカチ (clicking), ばりばり (crunching), ぱくぱく (gobbling), じゃぶじゃぶ (splashing), ぼうぼう (overgrown), てきぱき (efficiently)
+- Adverbs (11): あっさり (lightly), がっちり (firmly), ざっくり (roughly), すんなり (smoothly), ばっちり (perfectly), ばっさり (decisively), やたらに (excessively), {無闇|むやみ}に (recklessly), {碌|ろく}に (properly), ありのまま (as is), {却|かえ}って (on the contrary)
+- ～的 adjectives (13): {革新的|かくしんてき} (innovative), {批判的|ひはんてき} (critical), {協力的|きょうりょくてき} (cooperative), {標準的|ひょうじゅんてき} (standard), {代表的|だいひょうてき} (representative), {全面的|ぜんめんてき} (overall), {部分的|ぶぶんてき} (partial), {中心的|ちゅうしんてき} (central), {内面的|ないめんてき} (internal), {外面的|がいめんてき} (external), {感覚的|かんかくてき} (sensory), {知性的|ちせいてき} (intellectual), {主体的|しゅたいてき} (autonomous)
+- ～やか adjectives (2): {淑|しと}やか (graceful), {煌|きら}びやか (dazzling)
+- Compound verbs (7): {受|う}け{付|つ}ける (to accept), {受|う}け{持|も}つ (to be in charge), {受|う}け{流|なが}す (to deflect), {引|ひ}き{上|あ}げる (to pull up), {立|た}て{込|こ}む (to be busy), {乗|の}りこなす (to master riding), {掛|か}け{合|あ}う (to negotiate)
+- Four-character idioms (3): {一心不乱|いっしんふらん} (single-minded), {起死回生|きしかいせい} (revival), {七転八起|しちてんはっき} (perseverance)
+- Number compounds (2): {五感|ごかん} (five senses), {九九|くく} (multiplication table)
+- Abstract ～性 nouns (10): {独創性|どくそうせい} (originality), {柔軟性|じゅうなんせい} (flexibility), {適応性|てきおうせい} (adaptability), {正確性|せいかくせい} (accuracy), {緊急性|きんきゅうせい} (urgency), {整合性|せいごうせい} (consistency), {妥当性|だとうせい} (validity), {合理性|ごうりせい} (rationality), {論理性|ろんりせい} (logic), {探究心|たんきゅうしん} (curiosity)
+- Society/politics (3): {都市化|としか} (urbanization), {安全保障|あんぜんほしょう} (security), {自衛隊|じえいたい} (Self-Defense Forces)
+- Business/procedures (10): {登録|とうろく} (registration), {解除|かいじょ} (cancellation), {免除|めんじょ} (exemption), {早退|そうたい} (leaving early), {加盟|かめい} (joining), {脱退|だったい} (withdrawal), {提携|ていけい} (partnership), {処置|しょち} (treatment), {統括|とうかつ} (supervision), {勧告|かんこく} (recommendation)
+- Other nouns (21): {臓器|ぞうき} (organ), {新旧|しんきゅう} (old and new), {合間|あいま} (interval), {羨望|せんぼう} (envy), {珍味|ちんみ} (delicacy), {盛|も}り{付|つ}け (plating), {財政|ざいせい} (finance), {紛争|ふんそう} (conflict), {作用|さよう} (effect), {偏|かたよ}り (bias), {局面|きょくめん} (phase), {側面|そくめん} (aspect), {風潮|ふうちょう} (trend), {風習|ふうしゅう} (custom), {無意識|むいしき} (unconscious), {不参加|ふさんか} (non-participation), {出発点|しゅっぱつてん} (starting point), {記述|きじゅつ} (description), {評論|ひょうろん} (criticism), {打診|だしん} (sounding out), それなら (if so)
+
+Notable entry features:
+- Japanese cultural vocabulary including ceremonies and traditional items
+- Comprehensive ～的 adjective coverage for expressing qualities and states
+- Abstract ～性 nouns useful for academic and business contexts
+- Society and politics vocabulary including Self-Defense Forces with cultural notes
+- Business procedure terms covering membership, exemptions, and organizational management
+
+Total entries: 5,807 → 5,907
+Remaining candidates: 1,067 → 967
+
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 64)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
