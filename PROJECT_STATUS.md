@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,383
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 358 | Unassigned: 200
-- **Candidate words**: ~862 words tracked in `candidate_words.json`
+- **Total entries**: 6,408
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 383 | Unassigned: 200
+- **Candidate words**: ~837 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 84)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Astronomy/space** (4): {流星|りゅうせい} (meteor), {日食|にっしょく} (solar eclipse), {月食|げっしょく} (lunar eclipse), {星座|せいざ} (constellation)
+- **Tools/hardware** (2): ペンチ (pliers), {脚立|きゃたつ} (stepladder)
+- **Postal/mail** (2): {差出人|さしだしにん} (sender), {消印|けしいん} (postmark)
+- **Grooming/hair** (3): {散髪|さんぱつ} (haircut), {美容院|びよういん} (beauty salon), {理髪店|りはつてん} (barbershop)
+- **Games/playground** (6): {鬼|おに}ごっこ (tag), かくれんぼ (hide-and-seek), {縄跳|なわと}び (jump rope), ぶらんこ (swing), {滑|すべ}り{台|だい} (slide), {砂場|すなば} (sandbox)
+- **Gardening** (3): {剪定|せんてい} (pruning), {水|みず}やり (watering), {植木鉢|うえきばち} (flower pot)
+- **Vehicle parts** (3): タイヤ (tire), ハンドル (steering wheel), アクセル (accelerator)
+- **～{的|てき} adjectives** (2): {肯定的|こうていてき} (affirmative), {否定的|ひていてき} (negative)
+
+Notable entry features:
+- Astronomy vocabulary with eclipse types ({皆既日食|かいきにっしょく}, {部分日食|ぶぶんにっしょく})
+- Complete playground equipment vocabulary with cross-references
+- Grooming/hair vocabulary contrasting {美容院|びよういん}↔{理髪店|りはつてん}
+- Vehicle parts for driving contexts with safety notes
+- ～{的|てき} adjective antonym pair ({肯定的|こうていてき}↔{否定的|ひていてき})
+
+Total entries: 6,383 → 6,408
+Remaining candidates: 862 → 837
 
 ### 2026-01-17 (New Candidates - 101 Words Added, Session 83)
 Added 101 new candidate words to `candidate_words.json` using balanced coverage strategy:
