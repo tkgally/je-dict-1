@@ -167,6 +167,8 @@ je-dict-1/
 │   ├── update_entries_index.py   # Updates entries_index.json
 │   ├── manage_candidates.py      # Manages candidate_words.json
 │   ├── update_indexes.py         # Updates both index files
+│   ├── get_entry_path.py         # Computes correct path for new entries
+│   ├── get_timestamp.py          # Generates UTC timestamp for metadata
 │   └── requirements.txt  # Python 3.10+ dependencies
 ├── docs/                 # Generated output (served by GitHub Pages)
 │   ├── entries/          # Individual entry HTML files
