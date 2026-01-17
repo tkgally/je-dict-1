@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,533
+- **Total entries**: 6,531
 - **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 285
-- **Candidate words**: ~716 words tracked in `candidate_words.json`
+- **Candidate words**: ~700 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 91)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Modern Slang/Internet** (6): リア{充|じゅう} (person with fulfilling life), コミュ{障|しょう} (socially awkward), KY (can't read the room), ガチ{勢|ぜい} (hardcore fan), アンチ (hater), チルい (chill/relaxed)
+- **Tech/Digital** (5): ガジェット (gadget), プロフィール (profile), ユーチューバー (YouTuber), {画面共有|がめんきょうゆう} (screen sharing), プッシュ{通知|つうち} (push notification)
+- **Business/Consumer** (2): {入会金|にゅうかいきん} (membership fee), {添加物|てんかぶつ} (additive)
+- **Beauty/Appearance** (2): {一重|ひとえ} (single eyelid), {二重|ふたえ} (double eyelid)
+- **Polite/Formal** (2): お{手数|てすう} (trouble - polite), {洗練|せんれん} (refinement)
+- **Workplace** (1): モラハラ (moral harassment)
+- **Agriculture** (2): {堆肥|たいひ} (compost), {果樹園|かじゅえん} (orchard)
+
+Notable entry features:
+- Modern youth slang with リア{充|じゅう}, コミュ{障|しょう}, KY reflecting Japanese internet culture
+- Gaming/fan community vocabulary (ガチ{勢|ぜい} vs エンジョイ{勢|ぜい})
+- Digital communication terms ({画面共有|がめんきょうゆう}, プッシュ{通知|つうち}) for remote work/meetings
+- Beauty vocabulary ({一重|ひとえ}↔{二重|ふたえ}) with cultural context
+- チルい as example of English loanword becoming Japanese i-adjective
+- Workplace harassment terminology (モラハラ) alongside other ハラ words
+
+Total entries: 6,511 → 6,531
+Remaining candidates: 716 → 700
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 90)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -416,25 +438,6 @@ Notable entry features:
 
 Total entries: 6,258 → 6,283
 Remaining candidates: 780 → 756
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 76)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Compound verbs** (7): {持|も}ち{出|だ}す (to take out, to bring up), {取|と}り{外|はず}す (to remove), {取|と}り{扱|あつか}う (to handle), {取|と}り{締|し}まる (to regulate), {引|ひ}き{取|と}る (to take back), {引|ひ}き{起|お}こす (to cause), {引|ひ}き{止|と}める (to hold back)
-- **Emotional adjectives** (4): {切|せつ}ない (bittersweet), {煩|わずら}わしい (troublesome), {鬱陶|うっとう}しい (gloomy/annoying), {愛|いと}しい (beloved)
-- **～{的|てき} adjectives** (6): {実質的|じっしつてき} (substantial), {比較的|ひかくてき} (relatively), {定期的|ていきてき} (regular), {段階的|だんかいてき} (gradual), {総合的|そうごうてき} (comprehensive), {保守的|ほしゅてき} (conservative)
-- **Onomatopoeia/adverbs** (3): ぐんぐん (steadily), じゃんじゃん (one after another), ばんばん (vigorously)
-- **Modern loanwords** (5): テイクアウト (takeout), デリバリー (delivery), スワイプ (swipe), スクロール (scroll), モチベーション (motivation)
-
-Notable entry features:
-- {取|と}り～ and {引|ひ}き～ compound verb patterns with business/everyday usage
-- Emotional i-adjectives expressing complex feelings ({切|せつ}ない for bittersweet longing)
-- ～{的|てき} adjectives for formal/academic contexts ({比較的|ひかくてき} as adverb)
-- Tech/smartphone vocabulary (スワイプ, スクロール) reflecting modern usage
-- Food delivery terms (テイクアウト↔デリバリー) with COVID-era context
-
-Total entries: 6,233 → 6,258
-Remaining candidates: 803 → 780
 
 ---
 
