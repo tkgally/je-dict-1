@@ -210,7 +210,7 @@
     },
     "metadata": {
       "type": "object",
-      "required": ["created", "modified", "review_status"],
+      "required": ["created", "modified"],
       "properties": {
         "created": {
           "type": "string",
@@ -226,24 +226,10 @@
           "type": "string",
           "description": "Which AI model generated/edited this entry"
         },
-        "confidence": {
-          "type": "string",
-          "enum": ["high", "medium", "low"],
-          "description": "Confidence level"
-        },
-        "review_status": {
-          "type": "string",
-          "enum": ["draft", "reviewed", "verified"],
-          "description": "Review status of the entry"
-        },
         "vocabulary_tier": {
           "type": ["string", "null"],
           "enum": ["basic", "core", "general", null],
           "description": "Vocabulary tier: basic (600-800 fundamental words), core (1600-2000 words for adult communication), or general (all other vocabulary)"
-        },
-        "frequency_rank": {
-          "type": ["integer", "null"],
-          "description": "Numeric frequency rank if available"
         }
       }
     }
