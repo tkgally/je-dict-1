@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,571
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,733 | General: 423 | Unassigned: 305
-- **Candidate words**: ~762 words tracked in `candidate_words.json`
+- **Total entries**: 6,591
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,745 | General: 427 | Unassigned: 306
+- **Candidate words**: ~742 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 95)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Traditional games** (4): じゃんけん (rock-paper-scissors), けん{玉|だま} (kendama), サイコロ (dice)
+- **Japanese mythology** (2): {河童|かっぱ} (kappa), {天狗|てんぐ} (tengu)
+- **Swimming strokes** (2): {平泳|ひらおよ}ぎ (breaststroke), {背泳|せおよ}ぎ (backstroke)
+- **Sports terms** (2): {連勝|れんしょう} (winning streak), {連敗|れんぱい} (losing streak)
+- **Natural phenomena** (2): {満潮|まんちょう} (high tide), {干潮|かんちょう} (low tide)
+- **Physical states** (3): {空腹|くうふく} (hunger), {満腹|まんぷく} (full stomach), {眠気|ねむけ} (sleepiness)
+- **Adjectives** (3): {図々|ずうずう}しい (shameless), {気|き}まずい (awkward), もどかしい (frustrating)
+- **Cultural items** (2): {招|まね}き{猫|ねこ} (beckoning cat), だるま (daruma doll)
+- **Tools** (1): {砥石|といし} (whetstone)
+
+Notable entry features:
+- Traditional Japanese games and toys with cultural background (じゃんけん rules, けん{玉|だま} tricks)
+- Japanese mythology creatures with folklore details ({河童|かっぱ}'s dish, {天狗|てんぐ}'s characteristics)
+- Swimming vocabulary with competitive context
+- Antonym pairs: {連勝|れんしょう}↔{連敗|れんぱい}, {満潮|まんちょう}↔{干潮|かんちょう}, {空腹|くうふく}↔{満腹|まんぷく}
+- Good luck charms ({招|まね}き{猫|ねこ}, だるま) with symbolic meanings
+
+Total entries: 6,571 → 6,591
+Remaining candidates: 762 → 742
 
 ### 2026-01-17 (New Candidates - 102 Words Added, Session 94)
 Added 102 new candidate words to `candidate_words.json` with balanced coverage:
@@ -476,29 +499,6 @@ Added 104 new candidate words to `candidate_words.json` using balanced coverage 
 - **Modern terms** (8): ドヤ{顔|がお} (smug face), リミックス (remix), ゲーマー (gamer), スクショ (screenshot), スパム (spam), {水加減|みずかげん} (water level), {切|き}り{崩|くず}す (to encroach on), せわしない (restless)
 
 Candidate count: 732 → 836
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 78)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Compound verbs** (3): すり{下|お}ろす (to grate), {誘|さそ}い{込|こ}む (to lure into), {殴|なぐ}り{倒|たお}す (to knock down)
-- **Japanese proverbs** (4): {花|はな}より{団子|だんご} (substance over style), {豚|ぶた}に{真珠|しんじゅ} (pearls before swine), {猫|ねこ}の{手|て}も{借|か}りたい (desperately busy), {良薬|りょうやく}{口|くち}に{苦|にが}し (good medicine tastes bitter)
-- **Four-character idioms** (5): {針小棒大|しんしょうぼうだい} (making a mountain out of a molehill), {晴耕雨読|せいこううどく} (farm when sunny, read when rainy), {呉越同舟|ごえつどうしゅう} (enemies in same boat), {我田引水|がでんいんすい} (self-serving), {二律背反|にりつはいはん} (antinomy)
-- **Construction terms** (3): {耐震|たいしん} (earthquake-resistant), {解体|かいたい} (demolition), {改築|かいちく} (renovation)
-- **Japanese customs** (3): {祝儀|しゅうぎ} (congratulatory money), {喪中|もちゅう} (mourning period), {年賀状|ねんがじょう} (New Year's card)
-- **Traditional Japanese items** (2): {屏風|びょうぶ} (folding screen), ちゃぶ{台|だい} (low dining table)
-- **Food terms** (3): {具材|ぐざい} (ingredients), {汁物|しるもの} (soup dish), {生鮮食品|せいせんしょくひん} (fresh produce)
-- **Other** (2): {骨格|こっかく} (skeleton/framework), コンテンツ (content)
-
-Notable entry features:
-- Classic Japanese proverbs with origins and English equivalents
-- Four-character idioms ({四字熟語|よじじゅくご}) with historical context
-- Construction vocabulary related to Japan's earthquake preparedness
-- Japanese gift-giving customs ({祝儀|しゅうぎ}↔{不祝儀|ぶしゅうぎ})
-- New Year traditions with cultural etiquette ({年賀状|ねんがじょう}, {喪中|もちゅう})
-- Traditional home items from Showa era (ちゃぶ{台|だい})
-
-Total entries: 6,283 → 6,308
-Remaining candidates: 756 → 732
 
 ---
 
