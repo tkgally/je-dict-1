@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,308
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~732 words tracked in `candidate_words.json`
+- **Candidate words**: ~836 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,20 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (New Candidates - 104 Words Added, Session 79)
+Added 104 new candidate words to `candidate_words.json` using balanced coverage strategy:
+
+- **Compound verbs** (16): {振|ふ}り{払|はら}う (to shake off), {蹴|け}り{倒|たお}す (to kick down), {突|つ}き{詰|つ}める (to investigate thoroughly), {押|お}し{流|なが}す (to wash away), {切|き}り{詰|つ}める (to economize), {掻|か}き{集|あつ}める (to scrape together), {叩|たた}き{落|お}とす (to knock down), {踏|ふ}み{切|き}る (to take the plunge), {踏|ふ}み{倒|たお}す (to default on), {食|く}い{込|こ}む (to bite into), {食|く}い{止|と}める (to hold back), {這|は}い{上|あ}がる (to crawl up), {這|は}い{出|で}る (to crawl out), {嵌|は}め{込|こ}む (to fit in), {塗|ぬ}り{替|か}える (to repaint), {積|つ}み{重|かさ}ねる (to pile up)
+- **～{的|てき} adjectives** (14): {効率的|こうりつてき} (efficient), {衝動的|しょうどうてき} (impulsive), {本能的|ほんのうてき} (instinctive), {刺激的|しげきてき} (stimulating), {意欲的|いよくてき} (ambitious), {献身的|けんしんてき} (devoted), {独創的|どくそうてき} (original), {攻撃的|こうげきてき} (aggressive), {防御的|ぼうぎょてき} (defensive), {開放的|かいほうてき} (open), {閉鎖的|へいさてき} (exclusive), {象徴的|しょうちょうてき} (symbolic), {包括的|ほうかつてき} (comprehensive), {暫定的|ざんていてき} (provisional)
+- **Four-character idioms** (7): {誠心誠意|せいしんせいい} (in all sincerity), {軽挙妄動|けいきょもうどう} (rash action), {温厚篤実|おんこうとくじつ} (gentle and sincere), {千差万別|せんさばんべつ} (great diversity), {単刀直入|たんとうちょくにゅう} (straight to the point), {日進月歩|にっしんげっぽ} (rapid progress), {恒久的|こうきゅうてき} (permanent)
+- **Humble/formal expressions** (7): {拝借|はいしゃく} (borrowing humble), {拝読|はいどく} (reading humble), {拝聴|はいちょう} (listening humble), お{越|こ}し (coming honorific), とはいえ (although), とはいうものの (having said that), てか (or rather casual)
+- **Emotional/psychological** (7): {切|せつ}なさ (heartache), {懐|なつか}しさ (nostalgia), {物足|ものた}りなさ (dissatisfaction), {違和感|いわかん} (discomfort), {疎外感|そがいかん} (alienation), {一体感|いったいかん} (unity), {臨場感|りんじょうかん} (sense of presence)
+- **Onomatopoeia/adverbs** (32): ちょろちょろ (trickling), がやがや (noisy chatter), ひそひそ (whispering), ぶくぶく (bubbling), くねくね (winding), ふわっと (softly), かりかり (crispy), どっと (all at once), ひょっと (possibly), ひょいと (quickly), ひょこひょこ (bobbing), もじもじ (fidgeting), おいおい (bawling), きりきり (sharp pain), くらくら (dizzy), ほんのり (slightly), ほっこり (heartwarming), ちゃっかり (shrewdly), しれっと (nonchalantly), けろっと (casually), しゅんと (dejected), あくまで (to the end), おのずと (naturally), ひいては (by extension), ともあれ (anyway), つくづく (deeply), しみじみ (keenly), まんまと (successfully), じっくり (thoroughly), むずむず (itching), うずうず (restless), おずおず (timidly)
+- **Adjectives** (13): にこやか (smiling), あどけない (innocent), いじらしい (touching), いたわしい (pitiful), うやうやしい (respectful), おぼつかない (uncertain), けたたましい (piercing), しおらしい (demure), たくましい (sturdy), ふてぶてしい (brazen), おおらか (broad-minded), あざとい (cunning), えげつない (nasty)
+- **Modern terms** (8): ドヤ{顔|がお} (smug face), リミックス (remix), ゲーマー (gamer), スクショ (screenshot), スパム (spam), {水加減|みずかげん} (water level), {切|き}り{崩|くず}す (to encroach on), せわしない (restless)
+
+Candidate count: 732 → 836
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 78)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
