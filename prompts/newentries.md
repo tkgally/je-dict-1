@@ -30,7 +30,7 @@ Add 20 new entries to the Japanese-English learner's dictionary from candidate_w
    python3 build/build_flat.py        # REQUIRED for live site update
    ```
 
-   **Important**: If `find_missing_furigana.py` shows any entries from your session, fix them before committing.
+   **Important**: Restrict the search range of `find_missing_furigana.py` to the entries that you have created in this session. If `find_missing_furigana.py` shows any entries from your session, fix them before committing.
 
 4. **Finish**: Update PROJECT_STATUS.md with entry count and summary, then commit and push
 
