@@ -7,6 +7,25 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 76)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Compound verbs** (7): {持|も}ち{出|だ}す (to take out, to bring up), {取|と}り{外|はず}す (to remove), {取|と}り{扱|あつか}う (to handle), {取|と}り{締|し}まる (to regulate), {引|ひ}き{取|と}る (to take back), {引|ひ}き{起|お}こす (to cause), {引|ひ}き{止|と}める (to hold back)
+- **Emotional adjectives** (4): {切|せつ}ない (bittersweet), {煩|わずら}わしい (troublesome), {鬱陶|うっとう}しい (gloomy/annoying), {愛|いと}しい (beloved)
+- **～{的|てき} adjectives** (6): {実質的|じっしつてき} (substantial), {比較的|ひかくてき} (relatively), {定期的|ていきてき} (regular), {段階的|だんかいてき} (gradual), {総合的|そうごうてき} (comprehensive), {保守的|ほしゅてき} (conservative)
+- **Onomatopoeia/adverbs** (3): ぐんぐん (steadily), じゃんじゃん (one after another), ばんばん (vigorously)
+- **Modern loanwords** (5): テイクアウト (takeout), デリバリー (delivery), スワイプ (swipe), スクロール (scroll), モチベーション (motivation)
+
+Notable entry features:
+- {取|と}り～ and {引|ひ}き～ compound verb patterns with business/everyday usage
+- Emotional i-adjectives expressing complex feelings ({切|せつ}ない for bittersweet longing)
+- ～{的|てき} adjectives for formal/academic contexts ({比較的|ひかくてき} as adverb)
+- Tech/smartphone vocabulary (スワイプ, スクロール) reflecting modern usage
+- Food delivery terms (テイクアウト↔デリバリー) with COVID-era context
+
+Total entries: 6,233 → 6,258
+Remaining candidates: 803 → 780
+
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 75)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
