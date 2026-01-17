@@ -9,10 +9,12 @@ Add 25 new entries to the Japanese-English learner's dictionary from candidate_w
 2. **For each entry**:
    - **DUPLICATE CHECK (MANDATORY)**: Before writing ANY entry, run:
      ```bash
-     python3 build/check_duplicate.py "食べる" "たべる"
+     python3 build/check_duplicate.py --skip-candidates "食べる" "たべる"
      ```
+     - Use `--skip-candidates` since you're picking FROM candidates (they're expected to be there)
+     - This checks only against existing entries, not candidates
      - If it says "OK", proceed with creating the entry
-     - If it says "DUPLICATE", SKIP this word - move to next candidate
+     - If it says "DUPLICATE", SKIP this word - it's already an entry
    - Get timestamp: `python3 build/get_timestamp.py` (CRITICAL - always run this, never guess)
    - Write entry using the appropriate skill (auto-loaded based on part of speech)
    - **Include sense_numbers on all examples**: Every example must have a `sense_numbers` field
@@ -46,14 +48,20 @@ Add 25 new entries to the Japanese-English learner's dictionary from candidate_w
 
 ## Duplicate Check Details
 
-The `check_duplicate.py` script checks:
-1. `entries_index.json` for matching reading or headword
-2. `candidate_words.json` for matching reading or word
+The `check_duplicate.py` script checks for duplicates before creating entries.
+
+**When creating entries FROM candidates** (this task), use `--skip-candidates`:
+```bash
+python3 build/check_duplicate.py --skip-candidates "食べる" "たべる"
+```
+This checks only `entries_index.json` - we know the word is in candidates (that's where we picked it).
 
 **Batch checking** (optional, for planning which candidates to work on):
 ```bash
-python3 build/check_duplicate.py --batch "食べる:たべる" "飲む:のむ" "書く:かく"
+python3 build/check_duplicate.py --batch --skip-candidates "食べる:たべる" "飲む:のむ" "書く:かく"
 ```
+
+**Note**: When adding NEW candidates (not this task), omit `--skip-candidates` to check both entries and existing candidates.
 
 ## Example Structure Reminder
 
