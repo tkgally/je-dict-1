@@ -7,6 +7,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 70)
+Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Onomatopoeia (10): ざわざわ (rustling/uneasy), がさがさ (rustling/rough), どさどさ (with thuds), ぽっかり (gaping/floating), みっしり (tightly packed), ちろちろ (flickering), ぺちゃぺちゃ (chattering), ぱたぱた (flapping), ざぶざぶ (splashing), ぴよぴよ (chirping)
+- Emotional/psychological terms (10): {孤独感|こどくかん} (loneliness), {優越感|ゆうえつかん} (superiority), {虚無感|きょむかん} (emptiness), {嫌悪|けんお} (disgust), {渇望|かつぼう} (craving), {郷愁|きょうしゅう} (nostalgia), {陶酔|とうすい} (intoxication), {恍惚|こうこつ} (ecstasy), {虚脱|きょだつ} (lethargy), {倦怠|けんたい} (weariness)
+- Body/medical terms (10): {肩甲骨|けんこうこつ} (shoulder blade), {脊椎|せきつい} (spine), {靭帯|じんたい} (ligament), {毛細血管|もうさいけっかん} (capillary), リンパ (lymph), {骨髄|こつずい} (bone marrow), {呼吸器|こきゅうき} (respiratory system), {消化器|しょうかき} (digestive system), {循環器|じゅんかんき} (circulatory system), {喉仏|のどぼとけ} (Adam's apple)
+- Cultural/memorial terms (5): {注連縄|しめなわ} (sacred rope), {初七日|しょなのか} (7th day memorial), {四十九日|しじゅうくにち} (49th day memorial), {一周忌|いっしゅうき} (first anniversary), {三回忌|さんかいき} (second anniversary)
+- Four-character idioms (5): {二束三文|にそくさんもん} (dirt cheap), {三日坊主|みっかぼうず} (quitter), {本末転倒|ほんまつてんとう} (cart before horse), {一朝一夕|いっちょういっせき} (overnight), {青息吐息|あおいきといき} (gasping with distress)
+- Concepts/abstract (6): {偏見|へんけん} (prejudice), {論理|ろんり} (logic), {理念|りねん} (principle), {民主|みんしゅ} (democracy), {進化|しんか} (evolution), {退化|たいか} (degeneration)
+- Modern/other (4): ストリーミング (streaming), {拝借|はいしゃく}する (to borrow humble), {粛々|しゅくしゅく} (solemnly), ぶーぶー (honking/complaining)
+
+Notable entry features:
+- Comprehensive onomatopoeia covering sounds, textures, and psychological states
+- Psychological vocabulary for nuanced emotional expression (感 compounds)
+- Body systems vocabulary useful for medical/health contexts
+- Buddhist memorial service terminology with cultural explanations
+- Four-character idioms with etymological notes
+- Cross-references linking antonyms ({進化|しんか}↔{退化|たいか}, {優越感|ゆうえつかん}↔{劣等感|れっとうかん})
+- Organ system terms cross-referenced to each other
+
+Total entries: 6,058 → 6,108
+Remaining candidates: 918 → 869
+
 ### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 69)
 Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
