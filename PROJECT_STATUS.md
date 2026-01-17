@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,493
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 245
-- **Candidate words**: ~752 words tracked in `candidate_words.json`
+- **Total entries**: 6,513
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 265
+- **Candidate words**: ~732 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 89)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Social Media** (2): ハッシュタグ (hashtag), インフルエンサー (influencer)
+- **Construction/Building** (4): {内装|ないそう} (interior), {外壁|がいへき} (exterior wall), {断熱|だんねつ} (insulation), {防水|ぼうすい} (waterproofing)
+- **Agriculture/Farming** (3): {灌漑|かんがい} (irrigation), {害虫|がいちゅう} (pest), {家畜|かちく} (livestock)
+- **Energy/Power** (3): {風力|ふうりょく} (wind power), {原子力|げんしりょく} (nuclear power), {水力|すいりょく} (hydropower)
+- **Academic/Publishing** (3): {脚注|きゃくちゅう} (footnote), {出典|しゅってん} (source/reference), {飼育|しいく} (breeding/raising)
+- **Emotions** (2): {狂喜|きょうき} (wild joy/ecstasy), {憤慨|ふんがい} (indignation)
+- **Body Parts** (2): {二|に}の{腕|うで} (upper arm), {手|て}の{甲|こう} (back of hand)
+- **Business** (1): {経理|けいり} (accounting)
+
+Notable entry features:
+- Social media vocabulary for modern digital communication
+- Construction terms with building industry context and related terminology
+- Energy sources vocabulary ({風力|ふうりょく}, {水力|すいりょく}, {原子力|げんしりょく}) as a set
+- Agriculture vocabulary including {灌漑|かんがい} with historical notes on Japanese rice cultivation
+- Body part terms with beauty/fitness context ({二|に}の{腕|うで} discussion of {振|ふ}り{袖|そで} slang)
+- Academic writing terms ({脚注|きゃくちゅう}, {出典|しゅってん}) with cross-references
+
+Total entries: 6,493 → 6,513
+Remaining candidates: 752 → 732
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 88)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -389,25 +412,6 @@ Notable entry features:
 
 Total entries: 6,233 → 6,258
 Remaining candidates: 803 → 780
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 75)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Compound verbs** (5): {突|つ}き{飛|と}ばす (to shove away), {投|な}げ{捨|す}てる (to throw away), {蹴|け}り{飛|と}ばす (to kick away), {染|し}み{出|だ}す (to ooze out), {溢|あふ}れ{出|だ}す (to overflow)
-- **Japanese proverbs** (5): {猿|さる}も{木|き}から{落|お}ちる (even monkeys fall from trees), {七転|ななころ}び{八起|やお}き (fall seven times, get up eight), {灯台|とうだい}{下|もと}{暗|くら}し (darkest under the lamppost), {鬼|おに}に{金棒|かなぼう} (making strong stronger), {井|い}の{中|なか}の{蛙|かわず} (frog in a well)
-- **Four-character idioms** (5): {言語道断|ごんごどうだん} (outrageous), {天変地異|てんぺんちい} (natural disaster), {自暴自棄|じぼうじき} (self-destructive despair), {有言実行|ゆうげんじっこう} (practice what you preach), {森羅万象|しんらばんしょう} (all things in the universe)
-- **Modern/tech terms** (5): コーディング (coding), デバッグ (debugging), フリーランス (freelance), スタートアップ (startup), サステナブル (sustainable)
-- **Work-related terms** (5): {出社|しゅっしゃ} (going to work), {退社|たいしゃ} (leaving work), {辞職|じしょく} (resignation), {在宅勤務|ざいたくきんむ} (work from home), {配属|はいぞく} (assignment)
-
-Notable entry features:
-- Compound verbs with ～{飛|と}ばす (send flying) and ～{出|だ}す (come out) patterns
-- Classic Japanese proverbs with cultural explanations and English equivalents
-- Four-character idioms with etymology and usage contexts
-- Modern tech/work vocabulary reflecting contemporary Japanese usage
-- Cross-references linking related terms ({出社|しゅっしゃ}↔{退社|たいしゃ})
-
-Total entries: 6,208 → 6,233
-Remaining candidates: 828 → 803
 
 ---
 
