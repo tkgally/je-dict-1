@@ -23,10 +23,10 @@ Before deleting any entry:
 
 1. [ ] **Confirm deletion is necessary** - Can the entry be fixed instead?
 2. [ ] **Note the entry details** for later reference:
-   - Entry ID (e.g., `taberu_00123`)
+   - Entry ID (e.g., `00123_taberu`)
    - Reading (e.g., `たべる`)
    - Headword (e.g., `{食べる|たべる}`)
-   - File path (e.g., `entries/ta/ta/taberu_00123.json`)
+   - File path (e.g., `entries/00000/00123_taberu.json`)
 3. [ ] **Check for cross-references** to this entry from other entries
 4. [ ] **Decide if word should return to candidates** (if it still needs an entry later)
 
@@ -79,15 +79,15 @@ If the cross-reference is still useful even without a target entry, you may keep
 
 ```bash
 # Remove the entry file
-rm entries/path/to/entry_id.json
+rm entries/{range}/{entry_id}.json
 
 # Example:
-rm entries/ta/ta/taberu_04567.json
+rm entries/04500/04567_taberu.json
 ```
 
 **Verify deletion**:
 ```bash
-ls entries/ta/ta/taberu_04567.json  # Should return "No such file"
+ls entries/04500/04567_taberu.json  # Should return "No such file"
 ```
 
 ## Step 4: Update Indexes
@@ -142,7 +142,7 @@ Confirm:
 
 ```bash
 # 1. Note the entry to delete
-# ID: taberu_04567, Reading: たべる, Path: entries/ta/ta/taberu_04567.json
+# ID: 04567_taberu, Reading: たべる, Path: entries/04500/04567_taberu.json
 
 # 2. Find cross-references
 grep -r '"reading": "たべる"' entries/ --include="*.json" -l
@@ -150,7 +150,7 @@ grep -r '"reading": "たべる"' entries/ --include="*.json" -l
 # 3. Update any cross-references found (edit those files)
 
 # 4. Delete the entry
-rm entries/ta/ta/taberu_04567.json
+rm entries/04500/04567_taberu.json
 
 # 5. Update indexes
 python3 build/update_indexes.py
@@ -163,7 +163,7 @@ python3 build/validate.py
 
 # 8. Commit changes
 git add entries/ docs/ *.json PROJECT_STATUS.md
-git commit -m "Remove duplicate/erroneous entry: taberu_04567"
+git commit -m "Remove duplicate/erroneous entry: 04567_taberu"
 git push
 ```
 
