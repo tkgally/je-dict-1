@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,473
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 225
-- **Candidate words**: ~772 words tracked in `candidate_words.json`
+- **Total entries**: 6,493
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 245
+- **Candidate words**: ~752 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 88)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Tech/Finance** (5): {仮想通貨|かそうつうか} (cryptocurrency), ブロックチェーン (blockchain), {電子決済|でんしけっさい} (electronic payment), QRコード (QR code), ロボット (robot)
+- **Modern Business** (5): ノマド (digital nomad), コワーキング (coworking), イノベーション (innovation), ベンチャー (venture/startup), ソリューション (solution)
+- **Environmental** (3): {脱炭素|だつたんそ} (decarbonization), カーボンニュートラル (carbon neutral), {電動|でんどう} (electric-powered)
+- **Business/Consumer** (4): {不具合|ふぐあい} (defect/malfunction), {年会費|ねんかいひ} (annual fee), {有効期限|ゆうこうきげん} (expiration date), {契約書|けいやくしょ} (contract)
+- **Modern Japanese** (2): テンション (mood/energy level), {保活|ほかつ} (daycare hunting)
+- **Cooking verb** (1): {泡立|あわだ}てる (to whip/froth)
+
+Notable entry features:
+- Cryptocurrency and blockchain terminology with related terms and Japanese legal terminology ({暗号資産|あんごうしさん})
+- QRコード noting its Japanese origin (Denso Wave, 1994)
+- Modern work vocabulary (ノマド, コワーキング) reflecting post-pandemic work trends
+- Environmental terms for Japan's 2050 carbon neutrality goals
+- テンション as {和製英語|わせいえいご} (different meaning from English "tension")
+- {保活|ほかつ} as part of ～{活|かつ} word pattern ({就活|しゅうかつ}, {婚活|こんかつ}, etc.)
+- {泡立|あわだ}てる with transitivity pair and cooking terminology
+
+Total entries: 6,473 → 6,493
+Remaining candidates: 772 → 752
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 87)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
