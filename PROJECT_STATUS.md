@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,531
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 423 | Unassigned: 285
-- **Candidate words**: ~700 words tracked in `candidate_words.json`
+- **Total entries**: 6,551
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,733 | General: 423 | Unassigned: 285
+- **Candidate words**: ~680 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 92)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Compound verbs** (2): {呼|よ}びかける (to call out/appeal), {聞|き}き{直|なお}す (to ask again/re-listen)
+- **Adverb** (1): {二度|にど}と (never again)
+- **Modern/Digital** (1): {既読|きどく} (read message status)
+- **Body/Physical** (3): {欠伸|あくび} (yawn), {瞬|まばた}き (blink), {踝|くるぶし} (ankle)
+- **Clothing** (4): {襟|えり} (collar), {裾|すそ} (hem), チャック (zipper), {下駄箱|げたばこ} (shoe cabinet)
+- **Home Appliances** (2): {加湿器|かしつき} (humidifier), {除湿機|じょしつき} (dehumidifier)
+- **Infrastructure** (3): {踏切|ふみきり} (railroad crossing), {歩道橋|ほどうきょう} (pedestrian overpass), {地下道|ちかどう} (underground passage)
+- **Medical** (1): {処方箋|しょほうせん} (prescription)
+- **Nature** (1): てんとう{虫|むし} (ladybug)
+- **Adjectives** (2): しつこい (persistent/heavy taste), {健気|けなげ} (brave/admirable)
+
+Notable entry features:
+- {既読|きどく} covering LINE messaging culture and {既読|きどく}スルー phenomenon
+- Antonym pair {加湿器|かしつき}↔{除湿機|じょしつき} for seasonal Japanese climate needs
+- Infrastructure vocabulary ({踏切|ふみきり}, {歩道橋|ほどうきょう}, {地下道|ちかどう}) common in urban Japan
+- {処方箋|しょほうせん} with Japanese healthcare system context (out-of-hospital dispensing)
+- Body function vocabulary ({欠伸|あくび}, {瞬|まばた}き) and clothing terminology ({襟|えり}, {裾|すそ})
+- チャック as wasei-eigo (Japanese-made English word)
+
+Total entries: 6,531 → 6,551
+Remaining candidates: 700 → 680
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 91)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
