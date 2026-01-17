@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,283
+- **Total entries**: 6,308
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~756 words tracked in `candidate_words.json`
+- **Candidate words**: ~732 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 78)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Compound verbs** (3): すり{下|お}ろす (to grate), {誘|さそ}い{込|こ}む (to lure into), {殴|なぐ}り{倒|たお}す (to knock down)
+- **Japanese proverbs** (4): {花|はな}より{団子|だんご} (substance over style), {豚|ぶた}に{真珠|しんじゅ} (pearls before swine), {猫|ねこ}の{手|て}も{借|か}りたい (desperately busy), {良薬|りょうやく}{口|くち}に{苦|にが}し (good medicine tastes bitter)
+- **Four-character idioms** (5): {針小棒大|しんしょうぼうだい} (making a mountain out of a molehill), {晴耕雨読|せいこううどく} (farm when sunny, read when rainy), {呉越同舟|ごえつどうしゅう} (enemies in same boat), {我田引水|がでんいんすい} (self-serving), {二律背反|にりつはいはん} (antinomy)
+- **Construction terms** (3): {耐震|たいしん} (earthquake-resistant), {解体|かいたい} (demolition), {改築|かいちく} (renovation)
+- **Japanese customs** (3): {祝儀|しゅうぎ} (congratulatory money), {喪中|もちゅう} (mourning period), {年賀状|ねんがじょう} (New Year's card)
+- **Traditional Japanese items** (2): {屏風|びょうぶ} (folding screen), ちゃぶ{台|だい} (low dining table)
+- **Food terms** (3): {具材|ぐざい} (ingredients), {汁物|しるもの} (soup dish), {生鮮食品|せいせんしょくひん} (fresh produce)
+- **Other** (2): {骨格|こっかく} (skeleton/framework), コンテンツ (content)
+
+Notable entry features:
+- Classic Japanese proverbs with origins and English equivalents
+- Four-character idioms ({四字熟語|よじじゅくご}) with historical context
+- Construction vocabulary related to Japan's earthquake preparedness
+- Japanese gift-giving customs ({祝儀|しゅうぎ}↔{不祝儀|ぶしゅうぎ})
+- New Year traditions with cultural etiquette ({年賀状|ねんがじょう}, {喪中|もちゅう})
+- Traditional home items from Showa era (ちゃぶ{台|だい})
+
+Total entries: 6,283 → 6,308
+Remaining candidates: 756 → 732
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 77)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -290,31 +313,6 @@ Notable entry features:
 
 Total entries: 6,008 → 6,058
 Remaining candidates: 968 → 918
-
-### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 68)
-Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Onomatopoeia (11): しとしと (drizzling), ざあざあ (pouring), さくさく (crispy), つやつや (glossy), ぱちぱち (crackling), こっそり (secretly), ぎっしり (packed), びっしり (densely), がっくり (dejected), るんるん (cheerfully), がりがり (crunching)
-- ABAB adverbs (5): {堂々|どうどう} (dignified), {延々|えんえん} (endlessly), {淡々|たんたん} (calmly), {刻々|こっこく} (moment by moment), {代々|だいだい} (for generations)
-- Modern/social media (6): リプライ (reply), ブロック (block), ミュート (mute), パワハラ (power harassment), セクハラ (sexual harassment)
-- Legal/business terms (5): {判決|はんけつ} (verdict), {仲裁|ちゅうさい} (arbitration), {却下|きゃっか} (rejection), {認証|にんしょう} (authentication), {緊迫|きんぱく} (tension)
-- Keigo verbs (5): {届|とど}け{出|で}る (to report), お{越|こ}しになる (to come, honorific), {存|ぞん}じる (to know, humble), {頂戴|ちょうだい}する (to receive, humble), {恐|おそ}れ{入|い}る (to be obliged)
-- Adjectives (3): {甘酸|あまず}っぱい (bittersweet), {四角|しかく}い (square-shaped), {差|さ}し{支|つか}える (to hinder)
-- Opposite/compound words (4): {功罪|こうざい} (merits and demerits), {需給|じゅきゅう} (supply and demand), {起伏|きふく} (ups and downs), {反面|はんめん} (on the other hand)
-- Cultural/ceremonial (4): {初節句|はつぜっく} (baby's first festival), {告別式|こくべつしき} (funeral service), {法要|ほうよう} (memorial service), お{宮参|みやまい}り (shrine visit for newborn)
-- Sports/music (4): シュート (shot), ドリブル (dribble), アンコール (encore), アドリブ (ad-lib)
-- Nature/other (3): {五月雨|さみだれ} (early summer rain), {三昧|ざんまい} (absorption in), {万全|ばんぜん} (perfect), {稲刈|いねか}り (rice harvesting)
-
-Notable entry features:
-- Comprehensive onomatopoeia covering sounds, textures, and emotional states
-- ABAB-pattern adverbs with kanji reduplication ({堂々|どうどう}, {延々|えんえん}, etc.)
-- Modern harassment terminology (パワハラ, セクハラ) with workplace context
-- Formal keigo verbs including humble ({謙譲語|けんじょうご}) and honorific ({尊敬語|そんけいご}) forms
-- Japanese ceremonial vocabulary covering lifecycle events (birth, death, memorials)
-- Cross-references added linking related terms (シュート↔ドリブル, パワハラ↔セクハラ)
-
-Total entries: 5,958 → 6,008
-Remaining candidates: 1,019 → 968
 
 ---
 
