@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,551
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,733 | General: 423 | Unassigned: 285
-- **Candidate words**: ~680 words tracked in `candidate_words.json`
+- **Total entries**: 6,571
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,733 | General: 423 | Unassigned: 305
+- **Candidate words**: ~660 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 93)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Animals** (4): ペンギン (penguin), ゴリラ (gorilla), {蜜蜂|みつばち} (honeybee), バッタ (grasshopper)
+- **Insects** (1): カマキリ (praying mantis)
+- **Weather** (2): {霙|みぞれ} (sleet), {靄|もや} (haze/mist)
+- **Infrastructure/Roads** (3): {横断歩道|おうだんほどう} (crosswalk), {路地|ろじ} (alley), ガードレール (guardrail)
+- **Kitchen/Household** (4): お{椀|わん} (soup bowl), {鍋敷|なべし}き (trivet), マグカップ (mug), {空気清浄機|くうきせいじょうき} (air purifier)
+- **Tools** (1): ねじ{回|まわ}し (screwdriver)
+- **Construction** (1): {足場|あしば} (scaffolding)
+- **Body Functions** (2): げっぷ (burp), {咳払|せきばら}い (clearing throat)
+- **Arts** (1): バレエ (ballet)
+- **Medical** (1): {応急処置|おうきゅうしょち} (first aid)
+
+Notable entry features:
+- Animal vocabulary including zoo favorites (ペンギン, ゴリラ) and common insects (バッタ, カマキリ, {蜜蜂|みつばち})
+- Weather terms {霙|みぞれ} and {靄|もや} with meteorological distinctions
+- Infrastructure vocabulary ({横断歩道|おうだんほどう}, ガードレール) for road safety
+- Kitchen items with traditional Japanese context (お{椀|わん} for soup, {鍋敷|なべし}き)
+- {空気清浄機|くうきせいじょうき} with notes on Japanese allergy season ({花粉|かふん}{症|しょう})
+- Body function terms (げっぷ, {咳払|せきばら}い) with cultural etiquette notes
+- {応急処置|おうきゅうしょち} with Japanese first aid training context
+
+Total entries: 6,551 → 6,571
+Remaining candidates: 680 → 660
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 92)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -440,29 +466,6 @@ Notable entry features:
 
 Total entries: 6,283 → 6,308
 Remaining candidates: 756 → 732
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 77)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Japanese proverbs** (3): {石|いし}の{上|うえ}にも{三年|さんねん} (perseverance pays off), {塵|ちり}も{積|つ}もれば{山|やま}となる (many a little makes a mickle), {棚|たな}から{牡丹餅|ぼたもち} (unexpected good fortune)
-- **～{的|てき} adjectives** (3): {物理的|ぶつりてき} (physical), {肉体的|にくたいてき} (bodily), {合理的|ごうりてき} (rational)
-- **Transportation terms** (5): {搭乗|とうじょう} (boarding aircraft), {乗車|じょうしゃ} (boarding train), {優先席|ゆうせんせき} (priority seat), {車内|しゃない} (inside train), {車掌|しゃしょう} (conductor)
-- **Weather/nature terms** (3): {雷鳴|らいめい} (thunder), {日照|ひで}り (drought), {太陽光|たいようこう} (solar energy)
-- **Traditional Japanese items** (3): お{札|ふだ} (paper charm), {乾物|かんぶつ} (dried food), {朱肉|しゅにく} (red ink pad)
-- **Food/nutrition** (2): {栄養素|えいようそ} (nutrient), {炭水化物|たんすいかぶつ} (carbohydrate)
-- **Book structure** (2): {序文|じょぶん} (preface), {付録|ふろく} (appendix)
-- **Cultural** (2): {七五三|しちごさん} (Shichi-Go-San festival), ずぶ{濡|ぬ}れ (soaking wet)
-- **Verbs** (2): {捏|こ}ねる (to knead), {引|ひ}き{下|さ}げる (to lower)
-
-Notable entry features:
-- Three classic Japanese proverbs with English equivalents and usage notes
-- ～{的|てき} adjectives with contrast pairs ({物理的|ぶつりてき}↔{肉体的|にくたいてき})
-- Complete transportation vocabulary set with cross-references ({搭乗|とうじょう}↔{乗車|じょうしゃ})
-- Cultural items for shrine visits and traditional practices
-- Nutrition terminology with {三大|さんだい}{栄養素|えいようそ} (three major nutrients) context
-
-Total entries: 6,258 → 6,283
-Remaining candidates: 780 → 756
 
 ---
 
