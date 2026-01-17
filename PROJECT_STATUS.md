@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,258
+- **Total entries**: 6,283
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~780 words tracked in `candidate_words.json`
+- **Candidate words**: ~756 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 77)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Japanese proverbs** (3): {石|いし}の{上|うえ}にも{三年|さんねん} (perseverance pays off), {塵|ちり}も{積|つ}もれば{山|やま}となる (many a little makes a mickle), {棚|たな}から{牡丹餅|ぼたもち} (unexpected good fortune)
+- **～{的|てき} adjectives** (3): {物理的|ぶつりてき} (physical), {肉体的|にくたいてき} (bodily), {合理的|ごうりてき} (rational)
+- **Transportation terms** (5): {搭乗|とうじょう} (boarding aircraft), {乗車|じょうしゃ} (boarding train), {優先席|ゆうせんせき} (priority seat), {車内|しゃない} (inside train), {車掌|しゃしょう} (conductor)
+- **Weather/nature terms** (3): {雷鳴|らいめい} (thunder), {日照|ひで}り (drought), {太陽光|たいようこう} (solar energy)
+- **Traditional Japanese items** (3): お{札|ふだ} (paper charm), {乾物|かんぶつ} (dried food), {朱肉|しゅにく} (red ink pad)
+- **Food/nutrition** (2): {栄養素|えいようそ} (nutrient), {炭水化物|たんすいかぶつ} (carbohydrate)
+- **Book structure** (2): {序文|じょぶん} (preface), {付録|ふろく} (appendix)
+- **Cultural** (2): {七五三|しちごさん} (Shichi-Go-San festival), ずぶ{濡|ぬ}れ (soaking wet)
+- **Verbs** (2): {捏|こ}ねる (to knead), {引|ひ}き{下|さ}げる (to lower)
+
+Notable entry features:
+- Three classic Japanese proverbs with English equivalents and usage notes
+- ～{的|てき} adjectives with contrast pairs ({物理的|ぶつりてき}↔{肉体的|にくたいてき})
+- Complete transportation vocabulary set with cross-references ({搭乗|とうじょう}↔{乗車|じょうしゃ})
+- Cultural items for shrine visits and traditional practices
+- Nutrition terminology with {三大|さんだい}{栄養素|えいようそ} (three major nutrients) context
+
+Total entries: 6,258 → 6,283
+Remaining candidates: 780 → 756
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 76)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -292,24 +315,6 @@ Notable entry features:
 
 Total entries: 5,958 → 6,008
 Remaining candidates: 1,019 → 968
-
-### 2026-01-16 (New Candidates - 100 Words Added, Session 67)
-Added 100 new candidate words to `candidate_words.json` using balanced coverage strategy:
-
-- **Modern loanwords** (32): Business terms (フィードバック, アジェンダ, キャンセル, リスケ, アポ, コスト, マネジメント, プロジェクト, タスク, デッドライン), places (カフェ, バー), food (パスタ, ピザ, アイス), sports (バスケ, バレー, スノボ), technology (オフライン, ストレージ, ペースト, スキャン, リンク, シェア, コメント, ハッシュタグ, タイムライン, プロフィール, DM), appliances (エアコン, ストーブ, 電子レンジ), travel (プラットホーム)
-- **Compound words** (25): Verbs (持ち出す, 取り外す, 取り扱う, 取り締まる, 書き留める), housing (敷金, 物件), education (就学), work (報告書, 成果, 開発, 運用), weather (俄雨), formal expressions (告白, 宣告, 遺憾, 謝罪, 概要), abstract concepts (幻想, 妄想, 錯覚), travel (切符売り場), family (義母, 義父, 連れ合い)
-- **～的 adjectives** (7): 実質的, 比較的, 定期的, 段階的, 保守的, 特徴的, plus four-character idioms (一直線, 一生懸命, 多事多難)
-- **Emotional adjectives** (5): 切ない, 煩わしい, 鬱陶しい, 愛しい, 面倒くさい
-- **Math/number terms** (2): 分数, 比率
-- **Clothing** (2): 靴下, 手袋
-- **Medical** (1): 湿疹
-- **Conjunctions/connectors** (9): それなのに, 及び, 並びに, 若しくは, さもないと, 故に, 差し当たり, に伴い
-- **Onomatopoeia/adverbs** (3): ぐんぐん, じゃんじゃん, ばんばん
-- **Particles** (3): ぜ, ぞ, かしら
-- **Verbs** (7): ばれる, いける, 怒る (いかる), 呆れる, 痺れる, かぶれる
-- **Expressions** (3): うんざり, 今しがた, 度 (counter)
-
-Candidate count: 919 → 1,019
 
 ---
 
