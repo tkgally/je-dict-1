@@ -168,6 +168,61 @@ Every entry must include:
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
 - `metadata`: Including vocabulary_tier (null until assigned), created, modified timestamps
 
+## File Placement (CRITICAL)
+
+**Entries MUST be placed in the correct two-level directory structure.**
+
+The path follows this pattern: `entries/{kana_row}/{prefix}/{entry_id}.json`
+
+1. **Kana row directory**: Determined by the **FIRST KANA of the READING**
+   - あ行 (あいうえお) → `a/`
+   - か行 (かきくけこ, がぎぐげご) → `ka/`
+   - さ行 (さしすせそ, ざじずぜぞ) → `sa/`
+   - た行 (たちつてと, だぢづでど) → `ta/`
+   - な行 (なにぬねの) → `na/`
+   - は行 (はひふへほ, ばびぶべぼ, ぱぴぷぺぽ) → `ha/`
+   - ま行 (まみむめも) → `ma/`
+   - や行 (やゆよ) → `ya/`
+   - ら行 (らりるれろ) → `ra/`
+   - わ行 (わをん) → `wa/`
+
+2. **Prefix subdirectory**: First 2 characters of the **ENTRY ID**
+   - `taberu_00001` → `ta/`
+   - `fumikiru_06311` → `fu/`
+
+### IMPORTANT: These are often different!
+
+For example, `ふみきる` (fumikiru):
+- Reading starts with `ふ` → kana row is `ha/` (は行)
+- Entry ID starts with `fu` → prefix is `fu/`
+- **Correct path**: `entries/ha/fu/fumikiru_06311.json`
+- **WRONG path**: `entries/fu/fu/...` (using prefix as kana row!)
+
+### How to Get the Correct Path
+
+**ALWAYS run this command** to determine the correct path before writing:
+
+```bash
+python3 build/get_entry_path.py <reading> <entry_id>
+```
+
+Example:
+```bash
+python3 build/get_entry_path.py ふみきる fumikiru_06311
+# Output: entries/ha/fu/fumikiru_06311.json
+
+python3 build/get_entry_path.py こうりつてき kouritsuteki_00001
+# Output: entries/ka/ko/kouritsuteki_00001.json
+```
+
+### Common Placement Mistakes to Avoid
+
+1. **DO NOT** use the entry ID prefix as the kana row
+2. **DO NOT** guess the kana row - always check the reading's first kana
+3. **DO NOT** forget that ふ→ha, not fu (romanization ≠ kana row)
+
+The `validate.py` script checks for directory mismatches and will report errors.
+
 ## Metadata Timestamps
 
 **CRITICAL**: Timestamps MUST be actual current UTC time. The website converts UTC to JST (+9 hours) for display. Incorrect timestamps will show as wrong dates/times (often appearing hours or days in the future).
@@ -210,6 +265,7 @@ Note: The validator allows a 24-hour grace period for timestamps to accommodate 
 ## Quality Checklist
 
 Before finalizing any entry, verify:
+- [ ] **File placed in correct directory** (use `python3 build/get_entry_path.py <reading> <entry_id>`)
 - [ ] **All kanji have furigana** (headword, examples, AND notes)
 - [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
 - [ ] Examples progress from simple to complex
@@ -219,3 +275,4 @@ Before finalizing any entry, verify:
 - [ ] Notes are properly formatted (see `vocabulary-notes` skill)
 - [ ] Depth matches similar entries in the dictionary
 - [ ] All examples have valid sense_numbers
+- [ ] Run `python3 build/validate.py` to catch any directory or other errors
