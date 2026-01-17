@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,233
+- **Total entries**: 6,258
 - **Vocabulary tier assignment**: Pending (all entries have vocabulary_tier: null)
-- **Candidate words**: ~803 words tracked in `candidate_words.json`
+- **Candidate words**: ~780 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,25 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 76)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Compound verbs** (7): {持|も}ち{出|だ}す (to take out, to bring up), {取|と}り{外|はず}す (to remove), {取|と}り{扱|あつか}う (to handle), {取|と}り{締|し}まる (to regulate), {引|ひ}き{取|と}る (to take back), {引|ひ}き{起|お}こす (to cause), {引|ひ}き{止|と}める (to hold back)
+- **Emotional adjectives** (4): {切|せつ}ない (bittersweet), {煩|わずら}わしい (troublesome), {鬱陶|うっとう}しい (gloomy/annoying), {愛|いと}しい (beloved)
+- **～{的|てき} adjectives** (6): {実質的|じっしつてき} (substantial), {比較的|ひかくてき} (relatively), {定期的|ていきてき} (regular), {段階的|だんかいてき} (gradual), {総合的|そうごうてき} (comprehensive), {保守的|ほしゅてき} (conservative)
+- **Onomatopoeia/adverbs** (3): ぐんぐん (steadily), じゃんじゃん (one after another), ばんばん (vigorously)
+- **Modern loanwords** (5): テイクアウト (takeout), デリバリー (delivery), スワイプ (swipe), スクロール (scroll), モチベーション (motivation)
+
+Notable entry features:
+- {取|と}り～ and {引|ひ}き～ compound verb patterns with business/everyday usage
+- Emotional i-adjectives expressing complex feelings ({切|せつ}ない for bittersweet longing)
+- ～{的|てき} adjectives for formal/academic contexts ({比較的|ひかくてき} as adverb)
+- Tech/smartphone vocabulary (スワイプ, スクロール) reflecting modern usage
+- Food delivery terms (テイクアウト↔デリバリー) with COVID-era context
+
+Total entries: 6,233 → 6,258
+Remaining candidates: 803 → 780
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 75)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -291,47 +310,6 @@ Added 100 new candidate words to `candidate_words.json` using balanced coverage 
 - **Expressions** (3): うんざり, 今しがた, 度 (counter)
 
 Candidate count: 919 → 1,019
-
-### 2026-01-16 (Code Quality Improvements - Debug Plan Complete)
-Completed all 23 tasks from `main/debug_plan.md` across 8 debugging sessions, addressing recommendations from multi-LLM code reviews:
-
-**Security & Build Stability:**
-- Fixed XSS vulnerability in search results (HTML escaping in `search.js` and `build_flat.py`)
-- Removed auto-install package pattern from `validate.py` (security risk)
-- Fixed null candidate field crash in `build_flat.py`
-
-**Data Integrity:**
-- Fixed cross-reference migration losing distinct refs (composite key deduplication)
-- Added duplicate ID check to build process
-- Improved self-reference validation for entries without headword
-
-**Robustness & Error Handling:**
-- Added error handling to `cleanup_candidates.py` and `manage_candidates.py`
-- Fixed hardcoded relative paths in `manage_candidates.py`
-- Made build process atomic (builds to temp directory, then swaps)
-
-**Performance:**
-- Fixed double file read in `add_example_ids.py`
-- Fixed O(n²) duplicate detection in search index (now uses sets)
-- Reuse validator instance across entries
-
-**Code Quality:**
-- Moved inline imports to module top across 4 files
-- Centralized furigana pattern `FURIGANA_PATTERN` in `japanese_utils.py`
-- Refactored `validate_all_entries()` to return `ValidationResult` dataclass
-
-**Schema & Validation:**
-- Updated schema to allow legacy string cross-references (oneOf)
-- Expanded reading pattern to include rare kana (ゝ, ゞ, etc.)
-- Added 24-hour grace period for timestamp validation
-
-**UX & Architecture:**
-- Added furigana toggle script to `pending.html`
-- Extended furigana scanning to all text fields (notes, examples, definitions, explanation)
-- Centralized cross-reference types in `build/cross_ref_types.py`
-- Moved `normalize_reading()` to `japanese_utils.py`
-
-See `main/debug_plan.md` for full task details and progress log.
 
 ---
 
