@@ -223,10 +223,7 @@ Each entry is a JSON file with the following structure:
     "created": "2026-01-05T10:00:00Z",
     "modified": "2026-01-05T10:00:00Z",
     "ai_model": "claude-opus-4-5",
-    "confidence": "high",
-    "review_status": "verified",
-    "vocabulary_tier": null,
-    "frequency_rank": null
+    "vocabulary_tier": "basic"
   }
 }
 ```

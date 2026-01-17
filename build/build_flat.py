@@ -334,7 +334,6 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     modified_str = format_jst_datetime(modified)
     is_revised = created and modified and created != modified
     vocabulary_tier = metadata.get('vocabulary_tier', '')
-    review_status = metadata.get('review_status', 'draft')
 
     date_display = ''
     if created_str:
@@ -348,8 +347,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         <div class="entry-metadata">
             <div class="metadata-row">
                 <div class="metadata-badges">
-                    {f'<span class="badge tier">{vocabulary_tier}</span>' if vocabulary_tier else ''}
-                    <span class="badge status-{review_status}">{review_status}</span>
+                    {f'<span class="badge tier-{vocabulary_tier}">{vocabulary_tier}</span>' if vocabulary_tier else ''}
                 </div>
                 <div class="metadata-dates">{date_display}</div>
                 <div class="metadata-file">{html.escape(file_path)}</div>
@@ -1343,24 +1341,19 @@ main {
     font-size: 0.8rem;
 }
 
-.badge.tier {
-    background-color: #dbeafe;
-    color: #1e40af;
-}
-
-.badge.status-verified {
+.badge.tier-basic {
     background-color: #dcfce7;
     color: #166534;
 }
 
-.badge.status-reviewed {
-    background-color: #fef9c3;
-    color: #854d0e;
+.badge.tier-core {
+    background-color: #dbeafe;
+    color: #1e40af;
 }
 
-.badge.status-draft {
-    background-color: #fee2e2;
-    color: #991b1b;
+.badge.tier-general {
+    background-color: #fef9c3;
+    color: #854d0e;
 }
 
 .metadata-dates {
