@@ -7,6 +7,33 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 62)
+Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Geometry (13): {三角形|さんかくけい} (triangle), {四角形|しかくけい} (quadrilateral), {正方形|せいほうけい} (square), {長方形|ちょうほうけい} (rectangle), {直線|ちょくせん} (straight line), {曲線|きょくせん} (curve), {円周|えんしゅう} (circumference), {直径|ちょっけい} (diameter), {直角|ちょっかく} (right angle), {平行|へいこう} (parallel), {垂直|すいちょく} (perpendicular), {傾斜|けいしゃ} (slope), {頂点|ちょうてん} (vertex)
+- Position/Process (12): {内側|うちがわ} (inside), {外側|そとがわ} (outside), {由来|ゆらい} (origin), {手順|てじゅん} (procedure), {手続|てつづ}き (procedure), {方式|ほうしき} (method), {様式|ようしき} (style), パターン (pattern), {終点|しゅうてん} (terminal), {中間|ちゅうかん} (middle), {領域|りょういき} (domain), {順序|じゅんじょ} (order)
+- Business/Finance (15): {配送|はいそう} (delivery), {返品|へんぴん} (return), {決済|けっさい} (settlement), {入金|にゅうきん} (deposit), {出金|しゅっきん} (withdrawal), {利息|りそく} (interest), {原価|げんか} (cost), {単価|たんか} (unit price), {総額|そうがく} (total amount), {数量|すうりょう} (quantity), {分量|ぶんりょう} (amount), {重量|じゅうりょう} (weight), {年収|ねんしゅう} (annual income), プレゼン (presentation), ミーティング (meeting)
+- Tools (10): {金槌|かなづち} (hammer), {鋸|のこぎり} (saw), ドライバー (screwdriver), {懐中電灯|かいちゅうでんとう} (flashlight), {物差|ものさ}し (ruler), {電卓|でんたく} (calculator), {顕微鏡|けんびきょう} (microscope), {望遠鏡|ぼうえんきょう} (telescope), {体温計|たいおんけい} (thermometer), {体重計|たいじゅうけい} (scale)
+- Plants/Nature (5): たんぽぽ (dandelion), チューリップ (tulip), サボテン (cactus), {苗|なえ} (seedling), {蝋燭|ろうそく} (candle)
+- Ceremonies (3): {結婚式|けっこんしき} (wedding), {成人式|せいじんしき} (coming-of-age), {入学式|にゅうがくしき} (entrance ceremony)
+- Geography (5): ジャングル (jungle), {高原|こうげん} (plateau), {海辺|うみべ} (seaside), {群島|ぐんとう} (archipelago), {本土|ほんど} (mainland)
+- Occupations (3): {写真家|しゃしんか} (photographer), {秘書|ひしょ} (secretary), {駅員|えきいん} (station staff)
+- Culture (2): {茶道|ちゃどう} (tea ceremony), バンド (band)
+- Body/Sleep (2): いびき (snoring), {寝返|ねがえ}り (turning over in sleep)
+- Office supplies (2): ホッチキス (stapler), クリップ (clip)
+- Advice (3): {助言|じょげん} (advice), {忠告|ちゅうこく} (warning), {要請|ようせい} (request)
+- Abstract (20): ブーム (boom), {名声|めいせい} (fame), {任務|にんむ} (duty), {役職|やくしょく} (position), {階級|かいきゅう} (class), {描写|びょうしゃ} (description), {苦悩|くのう} (anguish), {対処|たいしょ} (dealing with), {措置|そち} (measure), {処分|しょぶん} (disposal), {監視|かんし} (surveillance), {修行|しゅぎょう} (training), {慣習|かんしゅう} (custom), {中世|ちゅうせい} (medieval), {活力|かつりょく} (vitality), {精力|せいりょく} (energy), {見識|けんしき} (insight), {野望|やぼう} (ambition), {必然|ひつぜん} (inevitability), {象徴|しょうちょう} (symbol)
+- Adverbs (5): {極|きわ}めて (extremely), {若干|じゃっかん} (some), {次第|しだい}に (gradually), {無論|むろん} (of course), {仲直|なかなお}り (reconciliation)
+
+Notable entry features:
+- Comprehensive geometry vocabulary for mathematical contexts
+- Business/finance terms covering transactions and measurements
+- Tool vocabulary useful for daily life and DIY contexts
+- Abstract concepts covering emotions, social status, and philosophical terms
+
+Total entries: 5,507 → 5,607
+Remaining candidates: 1,351 → 1,252
+
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 60)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
