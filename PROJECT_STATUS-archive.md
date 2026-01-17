@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 66)
+Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Onomatopoeia (10): しょんぼり (dejected), ぐったり (exhausted), ひんやり (cool), しっとり (moist), てくてく (plodding), とぼとぼ (trudging), すたすた (briskly), ゆったり (relaxed), きびきび (briskly), だらだら (sluggishly)
+- ～{的|てき} adjectives (10): {継続的|けいぞくてき} (continuous), {一時的|いちじてき} (temporary), {永久的|えいきゅうてき} (permanent), {直感的|ちょっかんてき} (intuitive), {絶対的|ぜったいてき} (absolute), {相対的|そうたいてき} (relative), {精神的|せいしんてき} (mental), {身体的|しんたいてき} (physical), {圧倒的|あっとうてき} (overwhelming), {極端的|きょくたんてき} (extreme)
+- Body/medical terms (5): {拳|こぶし} (fist), お{尻|しり} (buttocks), {動脈|どうみゃく} (artery), {静脈|じょうみゃく} (vein), {鎖骨|さこつ} (collarbone)
+- Weather terms (5): {豪雨|ごうう} (heavy rain), {小雨|こさめ} (light rain), {夕立|ゆうだち} (afternoon shower), {肌寒|はだざむ}い (chilly), {薄曇|うすぐも}り (overcast)
+- Modern/social media (6): いいね (like), フォロワー (follower), {炎上|えんじょう} (online backlash), ぼっち (loner), ホームページ (website), デジタル (digital)
+- Compound verbs (5): {取|と}り{込|こ}む (to take in), {引|ひ}き{返|かえ}す (to turn back), {引|ひ}き{下|さ}がる (to withdraw), {押|お}し{入|い}れる (to force into), {泳|およ}ぎ{回|まわ}る (to swim around)
+- Nouns (5): {墓場|はかば} (graveyard), メロディー (melody), ボーナス (bonus), {認可|にんか} (authorization), {根|ね}っこ (root)
+- Food terms (4): {海鮮|かいせん} (seafood), {乳製品|にゅうせいひん} (dairy products), {炊|た}き{込|こ}みご{飯|はん} (mixed rice), {生鮮|せいせん} (fresh produce)
+
+Notable entry features:
+- Comprehensive onomatopoeia covering emotional and physical states
+- ～的 adjective pairs including antonyms (絶対的↔相対的, 精神的↔身体的)
+- Modern internet vocabulary reflecting contemporary Japanese usage
+- Compound verb patterns with ～回る (movement around) and ～込む (action into)
+- Cross-references added linking antonyms and related medical terms (動脈↔静脈)
+
+Total entries: 5,907 → 5,958
+Remaining candidates: 967 → 919
+
 ### 2026-01-16 (Vocabulary Expansion - 100 New Entries, Session 65)
 Added 100 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
