@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,358
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 358 | Unassigned: 175
-- **Candidate words**: ~786 words tracked in `candidate_words.json`
+- **Total entries**: 6,383
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 358 | Unassigned: 200
+- **Candidate words**: ~761 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 82)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Modern slang/expressions** (5): ワンチャン (maybe/possibly), エモ (emotional), {界隈|かいわい} (community/scene), {古参|こさん} (longtime fan), {新規|しんき} (new fan)
+- **Japanese proverbs** (4): {能|のう}ある{鷹|たか}は{爪|つめ}を{隠|かく}す (still waters run deep), {情|なさ}けは{人|ひと}の{為|ため}ならず (kindness comes back to you), {馬|うま}の{耳|みみ}に{念仏|ねんぶつ} (preaching to deaf ears), {虻|あぶ}{蜂|はち}{取|と}らず (grasp all, lose all)
+- **Traditional Japanese items** (3): {紋付|もんつき} (formal kimono), {番傘|ばんがさ} (traditional umbrella), {香炉|こうろ} (incense burner)
+- **Medical terms** (5): {発熱|はつねつ} (fever), {筋肉痛|きんにくつう} (muscle pain), {動悸|どうき} (palpitation), {息切|いきぎ}れ (shortness of breath), {痙攣|けいれん} (spasm)
+- **Business/financial terms** (4): {収益|しゅうえき} (earnings), {抵当|ていとう} (mortgage), {手形|てがた} (promissory note), {小切手|こぎって} (check)
+- **Social/cultural** (3): {空気|くうき}を{読|よ}む (read the room), {仲直|なかなお}りする (to reconcile), {省|しょう}エネ (energy saving)
+- **Other** (1): ネタ (material/topic)
+
+Notable entry features:
+- Modern youth slang for online communities (ワンチャン, エモ, {界隈|かいわい}, {古参|こさん}↔{新規|しんき})
+- Classic Japanese proverbs with cultural explanations and English equivalents
+- Traditional Japanese items for formal occasions and ceremonies
+- Medical terminology for common symptoms
+- Business/financial vocabulary for formal contexts
+- Cultural expression {空気|くうき}を{読|よ}む central to Japanese social dynamics
+
+Total entries: 6,358 → 6,383
+Remaining candidates: 786 → 761
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 81)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -320,29 +342,6 @@ Added 59 new candidate words to `candidate_words.json` using balanced coverage s
 - **Other** (1): モチベーション
 
 Candidate count: 869 → 928
-
-### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 70)
-Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Onomatopoeia (10): ざわざわ (rustling/uneasy), がさがさ (rustling/rough), どさどさ (with thuds), ぽっかり (gaping/floating), みっしり (tightly packed), ちろちろ (flickering), ぺちゃぺちゃ (chattering), ぱたぱた (flapping), ざぶざぶ (splashing), ぴよぴよ (chirping)
-- Emotional/psychological terms (10): {孤独感|こどくかん} (loneliness), {優越感|ゆうえつかん} (superiority), {虚無感|きょむかん} (emptiness), {嫌悪|けんお} (disgust), {渇望|かつぼう} (craving), {郷愁|きょうしゅう} (nostalgia), {陶酔|とうすい} (intoxication), {恍惚|こうこつ} (ecstasy), {虚脱|きょだつ} (lethargy), {倦怠|けんたい} (weariness)
-- Body/medical terms (10): {肩甲骨|けんこうこつ} (shoulder blade), {脊椎|せきつい} (spine), {靭帯|じんたい} (ligament), {毛細血管|もうさいけっかん} (capillary), リンパ (lymph), {骨髄|こつずい} (bone marrow), {呼吸器|こきゅうき} (respiratory system), {消化器|しょうかき} (digestive system), {循環器|じゅんかんき} (circulatory system), {喉仏|のどぼとけ} (Adam's apple)
-- Cultural/memorial terms (5): {注連縄|しめなわ} (sacred rope), {初七日|しょなのか} (7th day memorial), {四十九日|しじゅうくにち} (49th day memorial), {一周忌|いっしゅうき} (first anniversary), {三回忌|さんかいき} (second anniversary)
-- Four-character idioms (5): {二束三文|にそくさんもん} (dirt cheap), {三日坊主|みっかぼうず} (quitter), {本末転倒|ほんまつてんとう} (cart before horse), {一朝一夕|いっちょういっせき} (overnight), {青息吐息|あおいきといき} (gasping with distress)
-- Concepts/abstract (6): {偏見|へんけん} (prejudice), {論理|ろんり} (logic), {理念|りねん} (principle), {民主|みんしゅ} (democracy), {進化|しんか} (evolution), {退化|たいか} (degeneration)
-- Modern/other (4): ストリーミング (streaming), {拝借|はいしゃく}する (to borrow humble), {粛々|しゅくしゅく} (solemnly), ぶーぶー (honking/complaining)
-
-Notable entry features:
-- Comprehensive onomatopoeia covering sounds, textures, and psychological states
-- Psychological vocabulary for nuanced emotional expression (感 compounds)
-- Body systems vocabulary useful for medical/health contexts
-- Buddhist memorial service terminology with cultural explanations
-- Four-character idioms with etymological notes
-- Cross-references linking antonyms ({進化|しんか}↔{退化|たいか}, {優越感|ゆうえつかん}↔{劣等感|れっとうかん})
-- Organ system terms cross-referenced to each other
-
-Total entries: 6,058 → 6,108
-Remaining candidates: 918 → 869
 
 ---
 
