@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,383
 - **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 358 | Unassigned: 200
-- **Candidate words**: ~761 words tracked in `candidate_words.json`
+- **Candidate words**: ~862 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,37 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (New Candidates - 101 Words Added, Session 83)
+Added 101 new candidate words to `candidate_words.json` using balanced coverage strategy:
+
+**Novel categories NOT mentioned in prompt/skill (~51 words):**
+- **Astronomy/space** (6): {流星|りゅうせい} (meteor), {日食|にっしょく} (solar eclipse), {月食|げっしょく} (lunar eclipse), {星座|せいざ} (constellation), {軌道|きどう} (orbit), {天体|てんたい} (celestial body)
+- **Tools/hardware** (2): ペンチ (pliers), {脚立|きゃたつ} (stepladder)
+- **Postal/mail** (2): {差出人|さしだしにん} (sender), {消印|けしいん} (postmark)
+- **Grooming/hair** (3): {散髪|さんぱつ} (haircut), {美容院|びよういん} (beauty salon), {理髪店|りはつてん} (barbershop)
+- **Photography** (3): {現像|げんぞう} (developing), ピント (focus), シャッター (shutter)
+- **Games/playground** (6): {鬼|おに}ごっこ (tag), かくれんぼ (hide-and-seek), {縄跳|なわと}び (jump rope), ぶらんこ (swing), {滑|すべ}り{台|だい} (slide), {砂場|すなば} (sandbox)
+- **Textiles** (2): {編|あ}み{物|もの} (knitting), ミシン (sewing machine)
+- **Gardening** (4): {剪定|せんてい} (pruning), {水|みず}やり (watering), {植木鉢|うえきばち} (flower pot), {種|たね}まき (sowing)
+- **Geology** (2): {地層|ちそう} (stratum), {断層|だんそう} (fault)
+- **Publishing** (1): {印税|いんぜい} (royalty)
+- **Eyecare** (3): {乱視|らんし} (astigmatism), {遠視|えんし} (farsightedness), {老眼|ろうがん} (presbyopia)
+- **Furniture** (2): {食器棚|しょっきだな} (dish cabinet), マットレス (mattress)
+- **Marine** (1): {海藻|かいそう} (seaweed)
+- **Vehicle parts** (4): タイヤ (tire), ハンドル (steering wheel), バンパー (bumper), アクセル (accelerator)
+- **Religious items** (3): {数珠|じゅず} (prayer beads), {仏壇|ぶつだん} (Buddhist altar), {位牌|いはい} (memorial tablet)
+- **Traditional items** (1): {熨斗|のし} (gift ornament)
+- **Architecture** (2): {敷居|しきい} (threshold), {鴨居|かもい} (lintel)
+- **Household items** (5): {柱時計|はしらどけい} (pendulum clock), {湯|ゆ}たんぽ (hot water bottle), {蚊取|かと}り{線香|せんこう} (mosquito coil), {物干|ものほ}し{竿|ざお} (laundry pole), {洗濯|せんたく}ばさみ (clothespin)
+
+**Standard categories mentioned in prompt/skill (~50 words):**
+- **Compound verbs** (4): {追|お}い{込|こ}む (to corner), {引|ひ}き{伸|の}ばす (to stretch), {飛|と}び{移|うつ}る (to jump to), ちょこちょこ (in small steps)
+- **～{的|てき} adjectives** (8): {威圧的|いあつてき} (intimidating), {革命的|かくめいてき} (revolutionary), {挑発的|ちょうはつてき} (provocative), {排他的|はいたてき} (exclusive), {否定的|ひていてき} (negative), {肯定的|こうていてき} (affirmative), {壊滅的|かいめつてき} (devastating), {支離滅裂|しりめつれつ} (incoherent)
+- **Four-character idioms** (18): {大器晩成|たいきばんせい} (great talents mature late), {抱腹絶倒|ほうふくぜっとう} (hilarious), {傍若無人|ぼうじゃくぶじん} (arrogant), {粉骨砕身|ふんこつさいしん} (working hard), {疑心暗鬼|ぎしんあんき} (suspicion), {意気投合|いきとうごう} (hit it off), {一喜一憂|いっきいちゆう} (swinging between hope and fear), {厚顔無恥|こうがんむち} (shameless), {朝令暮改|ちょうれいぼかい} (inconsistent), {一目瞭然|いちもくりょうぜん} (obvious at a glance), {公明正大|こうめいせいだい} (fair and square), {前途多難|ぜんとたなん} (grim future), {満身創痍|まんしんそうい} (covered in wounds), {付和雷同|ふわらいどう} (following blindly), {栄枯盛衰|えいこせいすい} (ups and downs), {明鏡止水|めいきょうしすい} (serene mind), {波乱万丈|はらんばんじょう} (eventful)
+- **Modern business/tech loanwords** (20): クラウドファンディング, ブレインストーミング, シェアハウス, マインドセット, ワークショップ, ファシリテーター, キャリアアップ, ライフスタイル, ウェルビーイング, ダイバーシティ, インクルーシブ, ワークライフバランス, デジタルネイティブ, レガシー, ローンチ, ピボット, スケール, コンプライアンス, ガバナンス, ステークホルダー
+
+Candidate count: 761 → 862
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 82)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -326,22 +357,6 @@ Notable entry features:
 
 Total entries: 6,108 → 6,158
 Remaining candidates: 928 → 878
-
-### 2026-01-17 (New Candidates - 59 Words Added, Session 71)
-Added 59 new candidate words to `candidate_words.json` using balanced coverage strategy:
-
-- **Compound verbs** (28): Transportation verbs ({切|き}り{出|だ}す, {打|う}ち{出|だ}す, {突|つ}き{出|だ}す, {取|と}り{付|つ}ける), emotional/action verbs ({引|ひ}き{取|と}る, {引|ひ}き{起|お}こす, {引|ひ}き{止|と}める, {引|ひ}き{付|つ}ける), launching verbs ({打|う}ち{上|あ}げる, {打|う}ち{切|き}る, {打|う}ち{消|け}す), movement verbs ({押|お}し{切|き}る, {押|お}し{進|すす}める, {押|お}し{寄|よ}せる, {受|う}け{継|つ}ぐ), courtesy ({差|さ}し{入|い}れる, {差|さ}し{掛|か}かる, {差|さ}し{引|ひ}く), persistence ({持|も}ちかける, {持|も}ち{堪|こた}える, {振|ふ}り{切|き}る), jumping ({飛|と}び{付|つ}く, {飛|と}び{降|お}りる), running ({駆|か}け{上|あ}がる, {駆|か}け{下|お}りる, {駆|か}け{込|こ}む, {駆|か}け{回|まわ}る, {駆|か}け{抜|ぬ}ける)
-- **Fashion/music/food loanwords** (9): コーデ, トレンド, アイテム, フェス, サビ, アレンジ, カバー, テイクアウト, デリバリー
-- **Modern lifestyle terms** (7): ワンオペ, モラハラ, イクメン, ママ{友|とも}, リスク, メリット, デメリット, トラブル
-- **IT/tech loanwords** (4): スワイプ, スクロール, プライバシー, メールアドレス
-- **Transportation** (3): {遅延|ちえん}, {運休|うんきゅう}, {発着|はっちゃく}
-- **Cooking** (2): {下味|したあじ}, {灰汁抜|あくぬ}き
-- **Housing** (2): {不動産|ふどうさん}, {居住|きょじゅう}
-- **Four-character idioms** (2): {一触即発|いっしょくそくはつ}, {危機一髪|ききいっぱつ}
-- **～的 adjective** (1): {総合的|そうごうてき}
-- **Other** (1): モチベーション
-
-Candidate count: 869 → 928
 
 ---
 
