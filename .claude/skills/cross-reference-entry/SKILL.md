@@ -216,7 +216,7 @@ python3 build/extract_references.py
 python3 build/extract_references.py --apply
 
 # Single entry
-python3 build/extract_references.py --id taberu_00001
+python3 build/extract_references.py --id 00001_taberu
 ```
 
 ## Handling Non-Existent Entries
@@ -253,7 +253,7 @@ The validator checks:
 Before:
 ```json
 {
-  "id": "shimeru_00005",
+  "id": "00005_shimeru",
   "cross_references": []
 }
 ```
@@ -261,7 +261,7 @@ Before:
 After:
 ```json
 {
-  "id": "shimeru_00005",
+  "id": "00005_shimeru",
   "cross_references": [
     {
       "type": "pair",
