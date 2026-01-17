@@ -16,9 +16,9 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from typing import Optional
 
-from path_utils import get_entry_prefix
+from path_utils import get_directory_range
 from japanese_utils import (
-    hiragana_to_romaji, KANA_ROWS, KANA_TO_FOLDER, get_kana_folder,
+    hiragana_to_romaji, KANA_ROWS,
     FURIGANA_PATTERN, strip_furigana
 )
 from constants import get_cross_ref_label
@@ -178,13 +178,12 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 </head>'''
 
 
-def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: dict, relative_path: str = '../../../') -> str:
+def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: dict, relative_path: str = '../../') -> str:
     """Generate HTML content for a single entry page."""
     entry_id = entry['id']
     headword = entry['headword']
     reading = entry['reading']
-    folder = get_kana_folder(reading)
-    prefix = get_entry_prefix(entry_id)
+    dir_range = get_directory_range(entry_id)
 
     # Build title
     headword_plain = strip_furigana(headword)
@@ -307,12 +306,11 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
             label_text = f' ({html.escape(label)})' if label else ''
 
             if resolved and target_id:
-                target_folder = get_kana_folder(entries_dict[target_id]['reading'])
-                target_prefix = get_entry_prefix(target_id)
+                target_dir_range = get_directory_range(target_id)
                 html_parts.append(f'''
                     <div class="cross-ref">
                         <span class="cross-ref-type">{html.escape(type_label)}:</span>
-                        <a href="{relative_path}entries/{target_folder}/{target_prefix}/{target_id}.html" class="cross-ref-link">
+                        <a href="{relative_path}entries/{target_dir_range}/{target_id}.html" class="cross-ref-link">
                             {display}{label_text}
                         </a>
                     </div>
@@ -341,7 +339,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         if is_revised and modified_str:
             date_display += f' · Revised {modified_str}'
 
-    file_path = f'{folder}/{prefix}/{entry_id}'
+    file_path = f'{dir_range}/{entry_id}'
 
     html_parts.append(f'''
         <div class="entry-metadata">
@@ -560,9 +558,8 @@ def generate_search_js() -> str:
         } else {
             resultsHeading.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' for "' + query + '"';
             resultsList.innerHTML = results.map(function(entry) {
-                const folder = entry.folder || 'a';
-                const prefix = entry.prefix || entry.id.substring(0, 2);
-                return '<a href="entries/' + folder + '/' + prefix + '/' + entry.id + '.html" class="result-item">' +
+                const dirRange = entry.dirRange || '00000';
+                return '<a href="entries/' + dirRange + '/' + entry.id + '.html" class="result-item">' +
                     '<div class="result-headword">' + entry.headword + '</div>' +
                     '<div class="result-reading">' + entry.reading + '</div>' +
                     '<div class="result-gloss">' + entry.gloss + '</div>' +
@@ -585,6 +582,17 @@ def generate_search_js() -> str:
         if (e.key === 'Enter') handleSearch();
     });
 })();'''
+
+
+def get_kana_folder_for_display(reading: str) -> str:
+    """Get the kana row name for display purposes (browsing)."""
+    if not reading:
+        return 'a'
+    first_char = reading[0]
+    for row in KANA_ROWS:
+        if first_char in row['kana']:
+            return row['folder']
+    return 'a'
 
 
 def generate_browse_page(entries: list, entries_dict: dict) -> str:
@@ -631,11 +639,10 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
         ''')
 
         for entry in row_entries:
-            folder = get_kana_folder(entry['reading'])
-            prefix = get_entry_prefix(entry['id'])
+            dir_range = get_directory_range(entry['id'])
             headword_html = process_furigana(entry['headword'])
             html_parts.append(f'''
-                <a href="entries/{folder}/{prefix}/{entry['id']}.html" class="browse-entry">
+                <a href="entries/{dir_range}/{entry['id']}.html" class="browse-entry">
                     <span class="browse-headword">{headword_html}</span>
                     <span class="browse-reading">{html.escape(entry['reading'])}</span>
                     <span class="browse-gloss">{html.escape(entry.get('gloss', ''))}</span>
@@ -675,8 +682,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
             continue
 
         entry = entries_dict[entry_id]
-        folder = get_kana_folder(entry['reading'])
-        prefix = get_entry_prefix(entry_id)
+        dir_range = get_directory_range(entry_id)
         headword_html = process_furigana(item.get('headword', entry['headword']))
         status = item.get('status', 'NEW')
         date = item.get('date', '')
@@ -685,7 +691,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
         status_class = status.lower()
 
         html_parts.append(f'''
-            <a href="entries/{folder}/{prefix}/{entry_id}.html" class="recent-item">
+            <a href="entries/{dir_range}/{entry_id}.html" class="recent-item">
                 <span class="recent-headword">{headword_html}</span>
                 <span class="recent-gloss">{html.escape(gloss)}</span>
                 <span class="recent-status {status_class}">{status}</span>
@@ -720,11 +726,10 @@ def generate_random_page(entries: list) -> str:
     ]
 
     for entry in entries:
-        folder = get_kana_folder(entry['reading'])
-        prefix = get_entry_prefix(entry['id'])
+        dir_range = get_directory_range(entry['id'])
         headword_html = process_furigana(entry['headword'])
         html_parts.append(f'''
-            <a href="entries/{folder}/{prefix}/{entry['id']}.html" class="random-word">{headword_html}</a>
+            <a href="entries/{dir_range}/{entry['id']}.html" class="random-word">{headword_html}</a>
         ''')
 
     html_parts.append('</div>')
@@ -825,8 +830,7 @@ def generate_search_index(entries: list) -> str:
         headword = entry['headword']
         reading = entry['reading']
         gloss = entry.get('gloss', '')
-        folder = get_kana_folder(reading)
-        prefix = get_entry_prefix(entry_id)
+        dir_range = get_directory_range(entry_id)
 
         # Store minimal entry data for display
         # Note: headword is HTML-escaped by process_furigana(); gloss and reading
@@ -837,8 +841,7 @@ def generate_search_index(entries: list) -> str:
             'reading': html.escape(reading),
             'romaji': hiragana_to_romaji(reading),
             'gloss': html.escape(gloss),
-            'folder': folder,
-            'prefix': prefix
+            'dirRange': dir_range
         }
 
         # Index headword (stripped)
@@ -1930,7 +1933,7 @@ def build_flat(project_root: Path) -> int:
     original_docs_dir = docs_dir
     docs_dir = temp_dir
 
-    # Entry directories will be created dynamically with prefix subdirectories
+    # Entry directories will be created dynamically with range subdirectories
     entries_output_dir = docs_dir / 'entries'
 
     print(f"  Created {docs_dir}")
@@ -1938,11 +1941,10 @@ def build_flat(project_root: Path) -> int:
     # Step 3: Generate entry pages
     print("\n[3/6] Generating entry pages...")
     for entry in entries:
-        folder = get_kana_folder(entry['reading'])
-        prefix = get_entry_prefix(entry['id'])
+        dir_range = get_directory_range(entry['id'])
         entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
-        # Create directory structure: entries/{kana}/{prefix}/
-        output_dir = entries_output_dir / folder / prefix
+        # Create directory structure: entries/{range}/
+        output_dir = entries_output_dir / dir_range
         output_dir.mkdir(parents=True, exist_ok=True)
         output_path = output_dir / f"{entry['id']}.html"
         with open(output_path, 'w', encoding='utf-8') as f:

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="分野 - field, sphere. Japanese-English dictionary entry with definitions and examples.">
+    <title>分野 (ぶんや) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ぶんや</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">field, sphere</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">field, area, sphere</span>
+                    <div class="definition-explanation">A particular branch of study, activity, or interest.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>専門<rp>(</rp><rt>せんもん</rt><rp>)</rp></ruby><ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby>は<ruby>何<rp>(</rp><rt>なん</rt><rp>)</rp></ruby>ですか。</div>
+                    <div class="example-english">What is your field of specialization?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>様々<rp>(</rp><rt>さまざま</rt><rp>)</rp></ruby>な<ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby>で<ruby>活躍<rp>(</rp><rt>かつやく</rt><rp>)</rp></ruby>している。</div>
+                    <div class="example-english">He is active in various fields.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby>では<ruby>日本<rp>(</rp><rt>にほん</rt><rp>)</rp></ruby>が<ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>んでいる。</div>
+                    <div class="example-english">Japan is advanced in this field.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>USAGE: <ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby> is commonly used when discussing academic disciplines, professional areas, or spheres of activity.</p><p>COMMON PATTERNS:</p><ul><li><ruby>専門<rp>(</rp><rt>せんもん</rt><rp>)</rp></ruby><ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby> (field of specialization)</li><li><ruby>研究<rp>(</rp><rt>けんきゅう</rt><rp>)</rp></ruby><ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby> (research field)</li><li>〜の<ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby>で (in the field of ~)</li><li><ruby>様々<rp>(</rp><rt>さまざま</rt><rp>)</rp></ruby>な<ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby> (various fields)</li><li><ruby>新<rp>(</rp><rt>あたら</rt><rp>)</rp></ruby>しい<ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby> (new field)</li><li><ruby>未知<rp>(</rp><rt>みち</rt><rp>)</rp></ruby>の<ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby> (unknown field)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 0:35 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">03000/03214_bunya</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

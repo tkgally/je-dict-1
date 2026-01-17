@@ -95,7 +95,7 @@ Every example sentence **must** have a `sense_numbers` field that links it to th
 ```json
 "examples": [
   {
-    "id": "word_00001_ex1",
+    "id": "00001_word_ex1",
     "japanese": "...",
     "english": "...",
     "sense_numbers": [1]
@@ -158,7 +158,7 @@ python3 build/verify_furigana.py <entry_id>
 ## Entry Structure
 
 Every entry must include:
-- `id`: Format `{romaji}_{5-digit-number}`
+- `id`: Format `{5-digit-number}_{romaji}` (e.g., `00001_taberu`)
 - `headword`: With furigana notation
 - `reading`: Hiragana only
 - `part_of_speech`: Consistent terminology
@@ -170,33 +170,22 @@ Every entry must include:
 
 ## File Placement (CRITICAL)
 
-**Entries MUST be placed in the correct two-level directory structure.**
+**Entries MUST be placed in the correct numeric range directory.**
 
-The path follows this pattern: `entries/{kana_row}/{prefix}/{entry_id}.json`
+The path follows this pattern: `entries/{range}/{entry_id}.json`
 
-1. **Kana row directory**: Determined by the **FIRST KANA of the READING**
-   - あ行 (あいうえお) → `a/`
-   - か行 (かきくけこ, がぎぐげご) → `ka/`
-   - さ行 (さしすせそ, ざじずぜぞ) → `sa/`
-   - た行 (たちつてと, だぢづでど) → `ta/`
-   - な行 (なにぬねの) → `na/`
-   - は行 (はひふへほ, ばびぶべぼ, ぱぴぷぺぽ) → `ha/`
-   - ま行 (まみむめも) → `ma/`
-   - や行 (やゆよ) → `ya/`
-   - ら行 (らりるれろ) → `ra/`
-   - わ行 (わをん) → `wa/`
+The **range directory** is determined by the numeric portion of the entry ID, rounded down to the nearest 500:
+- IDs 00000-00499 → `entries/00000/`
+- IDs 00500-00999 → `entries/00500/`
+- IDs 01000-01499 → `entries/01000/`
+- etc.
 
-2. **Prefix subdirectory**: First 2 characters of the **ENTRY ID**
-   - `taberu_00001` → `ta/`
-   - `fumikiru_06311` → `fu/`
+### Examples
 
-### IMPORTANT: These are often different!
-
-For example, `ふみきる` (fumikiru):
-- Reading starts with `ふ` → kana row is `ha/` (は行)
-- Entry ID starts with `fu` → prefix is `fu/`
-- **Correct path**: `entries/ha/fu/fumikiru_06311.json`
-- **WRONG path**: `entries/fu/fu/...` (using prefix as kana row!)
+- Entry `00001_taberu` → `entries/00000/00001_taberu.json`
+- Entry `00500_miru` → `entries/00500/00500_miru.json`
+- Entry `01234_aruku` → `entries/01000/01234_aruku.json`
+- Entry `06311_fumikiru` → `entries/06000/06311_fumikiru.json`
 
 ### How to Get the Correct Path
 
@@ -208,18 +197,12 @@ python3 build/get_entry_path.py <reading> <entry_id>
 
 Example:
 ```bash
-python3 build/get_entry_path.py ふみきる fumikiru_06311
-# Output: entries/ha/fu/fumikiru_06311.json
+python3 build/get_entry_path.py ふみきる 06311_fumikiru
+# Output: entries/06000/06311_fumikiru.json
 
-python3 build/get_entry_path.py こうりつてき kouritsuteki_00001
-# Output: entries/ka/ko/kouritsuteki_00001.json
+python3 build/get_entry_path.py こうりつてき 00001_kouritsuteki
+# Output: entries/00000/00001_kouritsuteki.json
 ```
-
-### Common Placement Mistakes to Avoid
-
-1. **DO NOT** use the entry ID prefix as the kana row
-2. **DO NOT** guess the kana row - always check the reading's first kana
-3. **DO NOT** forget that ふ→ha, not fu (romanization ≠ kana row)
 
 The `validate.py` script checks for directory mismatches and will report errors.
 

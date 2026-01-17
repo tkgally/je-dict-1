@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ぱっと - suddenly; in a flash; brightly. Japanese-English dictionary entry with definitions and examples.">
+    <title>ぱっと (ぱっと) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ぱっと</h1>
+            <div class="entry-reading">ぱっと</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">suddenly; in a flash; brightly</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">suddenly; in a flash; quickly</span>
+                    <div class="definition-explanation">Describes something happening instantaneously.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">brightly; flashily</span>
+                    <div class="definition-explanation">Describes something becoming bright or standing out vividly.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>電気<rp>(</rp><rt>でんき</rt><rp>)</rp></ruby>がぱっとついた。</div>
+                    <div class="example-english">The light suddenly came on.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ぱっと<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>ただけで<ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>かる。</div>
+                    <div class="example-english">You can tell just at a glance.</div>
+                    <div class="example-notes">ぱっと見 = at a glance</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>花火<rp>(</rp><rt>はなび</rt><rp>)</rp></ruby>がぱっと<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>いた。</div>
+                    <div class="example-english">The fireworks burst open brightly.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ぱっと is an onomatopoeia expressing sudden, quick actions or bright appearances.</p><p>COMMON EXPRESSIONS:</p><ul><li>ぱっと見 (ぱっとみ): at a glance</li><li>ぱっとしない: not impressive, dull</li></ul><p>SIMILAR WORDS:</p><ul><li>さっと: quickly, swiftly (smooth motion)</li><li>はっと: with a start (surprise)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 14:48 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05500/05529_patto</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -8,8 +8,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z]+_[0-9]{5}$",
-      "description": "Unique identifier: romanized_reading + underscore + 5-digit number"
+      "pattern": "^[0-9]{5}_[a-z]+(_[a-z]+)?$",
+      "description": "Unique identifier: 5-digit number + underscore + romanized_reading (with optional suffix for homophones)"
     },
     "headword": {
       "type": "string",
@@ -18,8 +18,8 @@
     },
     "reading": {
       "type": "string",
-      "pattern": "^[ぁ-んーゝゞ]+$",
-      "description": "Hiragana reading"
+      "pattern": "^[ぁ-んァ-ヶーゝゞ]+$",
+      "description": "Hiragana or katakana reading"
     },
     "part_of_speech": {
       "type": "string",
@@ -63,7 +63,7 @@
         "properties": {
           "id": {
             "type": "string",
-            "pattern": "^[a-z]+_[0-9]{5}_ex[0-9]+$",
+            "pattern": "^[0-9]{5}_[a-z]+(_[a-z]+)?_ex[0-9]+$",
             "description": "Unique example ID: {entry_id}_ex{number}"
           },
           "japanese": {

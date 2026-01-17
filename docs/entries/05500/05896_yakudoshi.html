@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="厄年 - unlucky year, climacteric year. Japanese-English dictionary entry with definitions and examples.">
+    <title>厄年 (やくどし) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>厄年<rp>(</rp><rt>やくどし</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">やくどし</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">unlucky year, climacteric year</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">unlucky year, year of calamity</span>
+                    <div class="definition-explanation">Specific ages believed to bring bad luck or misfortune in Japanese tradition.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>今年<rp>(</rp><rt>ことし</rt><rp>)</rp></ruby>は<ruby>厄年<rp>(</rp><rt>やくどし</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">This year is my unlucky year.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>厄年<rp>(</rp><rt>やくどし</rt><rp>)</rp></ruby>の<ruby>厄払<rp>(</rp><rt>やくばら</rt><rp>)</rp></ruby>いをする。</div>
+                    <div class="example-english">To have a purification ceremony for the unlucky year.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>男性<rp>(</rp><rt>だんせい</rt><rp>)</rp></ruby>の<ruby>大厄<rp>(</rp><rt>たいやく</rt><rp>)</rp></ruby>は42<ruby>歳<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">The great unlucky year for men is age 42.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>CULTURAL:</p><p>Traditional belief in years when one is susceptible to misfortune. Main unlucky ages differ by gender:</p><ul><li>Men: 25, 42 (大厄 major), 61</li><li>Women: 19, 33 (大厄 major), 37</li></ul><p>People often visit shrines for 厄払い (purification rituals) during these years.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 17:49</div>
+                <div class="metadata-file">05500/05896_yakudoshi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

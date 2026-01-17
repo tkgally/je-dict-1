@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="予習 - preparation (study). Japanese-English dictionary entry with definitions and examples.">
+    <title>予習 (よしゅう) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>予習<rp>(</rp><rt>よしゅう</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">よしゅう</div>
+            <div class="entry-pos">noun, verb (suru)</div>
+            <div class="entry-gloss">preparation (study)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">preparation, preview</span>
+                    <div class="definition-explanation">Studying material before class or learning it in advance.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby>の<ruby>授業<rp>(</rp><rt>じゅぎょう</rt><rp>)</rp></ruby>の<ruby>予習<rp>(</rp><rt>よしゅう</rt><rp>)</rp></ruby>をしなければ。</div>
+                    <div class="example-english">I have to prepare for tomorrow&#x27;s class.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>予習<rp>(</rp><rt>よしゅう</rt><rp>)</rp></ruby>してから<ruby>授業<rp>(</rp><rt>じゅぎょう</rt><rp>)</rp></ruby>に<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>ます。</div>
+                    <div class="example-english">I attend class after preparing in advance.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>予習<rp>(</rp><rt>よしゅう</rt><rp>)</rp></ruby>と<ruby>復習<rp>(</rp><rt>ふくしゅう</rt><rp>)</rp></ruby>が<ruby>大切<rp>(</rp><rt>たいせつ</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">Preparation and review are important.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>予習<rp>(</rp><rt>よしゅう</rt><rp>)</rp></ruby> means preparing lessons before class.</p><p>LEARNING CYCLE:</p><ul><li><ruby>予習<rp>(</rp><rt>よしゅう</rt><rp>)</rp></ruby>: preparation before class</li><li><ruby>授業<rp>(</rp><rt>じゅぎょう</rt><rp>)</rp></ruby>: class/lesson</li><li><ruby>復習<rp>(</rp><rt>ふくしゅう</rt><rp>)</rp></ruby>: review after class</li></ul><p>COMMON PATTERNS:</p><ul><li><ruby>予習<rp>(</rp><rt>よしゅう</rt><rp>)</rp></ruby>する: to prepare (lessons)</li><li>〜を<ruby>予習<rp>(</rp><rt>よしゅう</rt><rp>)</rp></ruby>する: to prepare ~</li></ul><p>OPPOSITE: <ruby>復習<rp>(</rp><rt>ふくしゅう</rt><rp>)</rp></ruby> (review)</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Antonym:</span>
+                        <a href="../../entries/00000/00486_fukushuu.html" class="cross-ref-link">
+                            <ruby>復習<rp>(</rp><rt>ふくしゅう</rt><rp>)</rp></ruby> (review)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:58 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00500/00501_yoshuu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

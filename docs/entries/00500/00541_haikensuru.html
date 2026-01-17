@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="拝見する - to see (humble). Japanese-English dictionary entry with definitions and examples.">
+    <title>拝見する (はいけんする) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>拝見<rp>(</rp><rt>はいけん</rt><rp>)</rp></ruby>する</h1>
+            <div class="entry-reading">はいけんする</div>
+            <div class="entry-pos">noun, verb (suru)</div>
+            <div class="entry-gloss">to see (humble)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to see, to look at (humble)</span>
+                    <div class="definition-explanation">Humble form of 見る, used when referring to one&#x27;s own action of seeing or looking at something.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">お<ruby>写真<rp>(</rp><rt>しゃしん</rt><rp>)</rp></ruby>を<ruby>拝見<rp>(</rp><rt>はいけん</rt><rp>)</rp></ruby>しました。</div>
+                    <div class="example-english">I looked at your photo.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>資料<rp>(</rp><rt>しりょう</rt><rp>)</rp></ruby>を<ruby>拝見<rp>(</rp><rt>はいけん</rt><rp>)</rp></ruby>してもよろしいですか。</div>
+                    <div class="example-english">May I look at the materials?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">お<ruby>手紙<rp>(</rp><rt>てがみ</rt><rp>)</rp></ruby>、<ruby>拝見<rp>(</rp><rt>はいけん</rt><rp>)</rp></ruby>いたしました。</div>
+                    <div class="example-english">I have read your letter.</div>
+                    <div class="example-notes">Very formal</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>拝見<rp>(</rp><rt>はいけん</rt><rp>)</rp></ruby>する is the humble form of <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>る.</p><p>POLITENESS LEVELS:</p><ul><li><ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>る: plain</li><li><ruby>拝見<rp>(</rp><rt>はいけん</rt><rp>)</rp></ruby>する: humble</li><li>ご<ruby>覧<rp>(</rp><rt>らん</rt><rp>)</rp></ruby>になる: honorific</li></ul><p>USAGE:</p><ul><li>Used when looking at something belonging to or related to someone of higher status</li><li>Common in business settings</li><li>Shows respect by humbling one&#x27;s own action</li></ul><p>[Register: Humble/Formal]</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:45 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00500/00541_haikensuru</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

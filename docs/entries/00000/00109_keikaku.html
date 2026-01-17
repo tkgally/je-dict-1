@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="計画 - plan, project. Japanese-English dictionary entry with definitions and examples.">
+    <title>計画 (けいかく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>計画<rp>(</rp><rt>けいかく</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">けいかく</div>
+            <div class="entry-pos">noun, suru verb</div>
+            <div class="entry-gloss">plan, project</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">plan, project, scheme</span>
+                    <div class="definition-explanation">A detailed proposal or intention for doing or achieving something.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">to plan (suru verb)</span>
+                    <div class="definition-explanation">When used as a suru verb, means &#x27;to plan&#x27; or &#x27;to scheme.&#x27;</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>夏休<rp>(</rp><rt>なつやす</rt><rp>)</rp></ruby>みの<ruby>計画<rp>(</rp><rt>けいかく</rt><rp>)</rp></ruby>を<ruby>立<rp>(</rp><rt>た</rt><rp>)</rp></ruby>てましょう。</div>
+                    <div class="example-english">Let&#x27;s make plans for summer vacation.</div>
+                    <div class="example-notes">計画を立てる is a common collocation</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>計画<rp>(</rp><rt>けいかく</rt><rp>)</rp></ruby>どおりに<ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>んでいます。</div>
+                    <div class="example-english">Things are proceeding according to plan.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>旅行<rp>(</rp><rt>りょこう</rt><rp>)</rp></ruby>を<ruby>計画<rp>(</rp><rt>けいかく</rt><rp>)</rp></ruby>しています。</div>
+                    <div class="example-english">I&#x27;m planning a trip.</div>
+                    <div class="example-notes">Using 計画する</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>計画 is used for plans and projects.</p><p>Common expressions:</p><ul><li>計画を立てる (to make a plan)</li><li>計画どおり (according to plan)</li><li>計画的に (systematically, in a planned manner). Compare with 予定 (よてい - schedule)</li><li>つもり (intention).</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:27 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00000/00109_keikaku</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

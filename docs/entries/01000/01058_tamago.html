@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="卵 - egg. Japanese-English dictionary entry with definitions and examples.">
+    <title>卵 (たまご) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>卵<rp>(</rp><rt>たまご</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">たまご</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">egg</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">egg</span>
+                    <div class="definition-explanation">An oval reproductive body produced by birds.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">novice, beginner</span>
+                    <div class="definition-explanation">Someone who is not yet fully developed.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>卵<rp>(</rp><rt>たまご</rt><rp>)</rp></ruby>を<ruby>割<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">To crack an egg.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>卵焼<rp>(</rp><rt>たまごや</rt><rp>)</rp></ruby>きを<ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">To make a Japanese omelet.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>卵<rp>(</rp><rt>たまご</rt><rp>)</rp></ruby> means egg.</p><p>ALTERNATE WRITING:<br>Also written as <ruby>玉子<rp>(</rp><rt>たまご</rt><rp>)</rp></ruby>, especially for chicken eggs used in cooking.</p><p>COMMON PREPARATIONS:</p><ul><li><ruby>目玉焼<rp>(</rp><rt>めだまや</rt><rp>)</rp></ruby>き: fried egg</li><li><ruby>卵焼<rp>(</rp><rt>たまごや</rt><rp>)</rp></ruby>き: Japanese omelet</li><li><ruby>ゆで{卵<rp>(</rp><rt>たまご</rt><rp>)</rp></ruby>}: boiled egg</li><li><ruby>生<rp>(</rp><rt>なま</rt><rp>)</rp></ruby><ruby>卵<rp>(</rp><rt>たまご</rt><rp>)</rp></ruby>: raw egg</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:38 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">01000/01058_tamago</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

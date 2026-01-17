@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="爬虫類 - reptile. Japanese-English dictionary entry with definitions and examples.">
+    <title>爬虫類 (はちゅうるい) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>爬虫類<rp>(</rp><rt>はちゅうるい</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">はちゅうるい</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">reptile</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">reptile</span>
+                    <div class="definition-explanation">Cold-blooded vertebrate animals with scaly skin that typically lay soft-shelled eggs. The class Reptilia in biological classification.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>蛇<rp>(</rp><rt>へび</rt><rp>)</rp></ruby>と<ruby>蜥蜴<rp>(</rp><rt>とかげ</rt><rp>)</rp></ruby>は<ruby>爬虫類<rp>(</rp><rt>はちゅうるい</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">Snakes and lizards are reptiles.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>爬虫類<rp>(</rp><rt>はちゅうるい</rt><rp>)</rp></ruby>は<ruby>変温<rp>(</rp><rt>へんおん</rt><rp>)</rp></ruby><ruby>動物<rp>(</rp><rt>どうぶつ</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">Reptiles are cold-blooded animals.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>恐竜<rp>(</rp><rt>きょうりゅう</rt><rp>)</rp></ruby>は<ruby>爬虫類<rp>(</rp><rt>はちゅうるい</rt><rp>)</rp></ruby>の<ruby>一種<rp>(</rp><rt>いっしゅ</rt><rp>)</rp></ruby>でした。</div>
+                    <div class="example-english">Dinosaurs were a type of reptile.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>爬虫類<rp>(</rp><rt>はちゅうるい</rt><rp>)</rp></ruby> is a scientific classification term.</p><p><ruby>爬虫<rp>(</rp><rt>はちゅう</rt><rp>)</rp></ruby> means &quot;crawling creature&quot; (爬 = crawl) and <ruby>類<rp>(</rp><rt>るい</rt><rp>)</rp></ruby> means &quot;class/category.&quot;</p><p>Examples of reptiles:</p><ul><li><ruby>蛇<rp>(</rp><rt>へび</rt><rp>)</rp></ruby> (snake)</li><li><ruby>蜥蜴<rp>(</rp><rt>とかげ</rt><rp>)</rp></ruby> (lizard)</li><li><ruby>亀<rp>(</rp><rt>かめ</rt><rp>)</rp></ruby> (turtle)</li><li><ruby>鰐<rp>(</rp><rt>わに</rt><rp>)</rp></ruby> (crocodile, alligator)</li></ul><p>Related classification terms:</p><ul><li><ruby>哺乳類<rp>(</rp><rt>ほにゅうるい</rt><rp>)</rp></ruby> (mammals)</li><li><ruby>両生類<rp>(</rp><rt>りょうせいるい</rt><rp>)</rp></ruby> (amphibians)</li><li><ruby>鳥類<rp>(</rp><rt>ちょうるい</rt><rp>)</rp></ruby> (birds)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 22:31 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05113_hachuurui</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="限界 - limit, bound, boundary. Japanese-English dictionary entry with definitions and examples.">
+    <title>限界 (げんかい) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">げんかい</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">limit, bound, boundary</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">limit, bound</span>
+                    <div class="definition-explanation">The point beyond which something cannot go.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>体力<rp>(</rp><rt>たいりょく</rt><rp>)</rp></ruby>の<ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby>に<ruby>達<rp>(</rp><rt>たっ</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I reached the limit of my physical strength.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>我慢<rp>(</rp><rt>がまん</rt><rp>)</rp></ruby>にも<ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby>がある。</div>
+                    <div class="example-english">There&#x27;s a limit to patience.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby>を<ruby>超<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>える。</div>
+                    <div class="example-english">To exceed the limit.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby> refers to limits and boundaries.</p><p>COMMON PATTERNS:</p><ul><li><ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby>がある (there is a limit)</li><li><ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby>に<ruby>達<rp>(</rp><rt>たっ</rt><rp>)</rp></ruby>する (to reach the limit)</li><li><ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby>を<ruby>超<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>える (to exceed the limit)</li><li><ruby>限界<rp>(</rp><rt>げんかい</rt><rp>)</rp></ruby>を<ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>じる (to feel one&#x27;s limits)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 16:27 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">01500/01841_genkai</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -60,7 +60,7 @@ The dictionary is built as a static HTML site at `docs/`:
 
 ### URL Structure
 
-Entry pages are organized by kana row and prefix (first 2 characters of entry ID):
+Entry pages are organized by numeric ID ranges (500 entries per directory):
 ```
 docs/
 ├── index.html           # Home page
@@ -69,23 +69,19 @@ docs/
 ├── recent.html          # Recently modified entries
 ├── random.html          # Random word cloud
 ├── entries/
-│   ├── a/               # あ行 entries
-│   │   ├── a_/          # Entries with IDs starting 'a_'
-│   │   │   └── a_00412.html
-│   │   ├── ar/          # Entries with IDs starting 'ar'
-│   │   │   └── aru_00001.html
-│   │   └── ...
-│   ├── ka/              # か行 entries
-│   ├── sa/              # さ行 entries
+│   ├── 00000/           # Entries 00000-00499
+│   │   ├── 00001_taberu.html
+│   │   └── 00412_a.html
+│   ├── 00500/           # Entries 00500-00999
+│   ├── 01000/           # Entries 01000-01499
 │   └── ...
 └── audio/               # Audio files (same structure)
-    ├── a/
-    │   ├── a_/
-    │   └── ...
+    ├── 00000/
+    ├── 00500/
     └── ...
 ```
 
-This prefix-based subdirectory structure allows the dictionary to scale to 10,000+ entries while staying within GitHub's 1,000 files per directory limit.
+This numeric range structure allows the dictionary to scale to 10,000+ entries while staying within GitHub's 1,000 files per directory limit.
 
 ## Web Interface
 
@@ -135,24 +131,13 @@ Examples:
 ```
 je-dict-1/
 ├── entries/              # Dictionary entries (one JSON file per word)
-│   ├── a/                # あ行 (a, i, u, e, o)
-│   │   ├── a_/           # Entries with IDs starting 'a_'
-│   │   ├── ar/           # Entries with IDs starting 'ar'
-│   │   └── ...           # (prefix = first 2 chars of entry ID)
-│   ├── ka/               # か行 (includes が行)
-│   ├── sa/               # さ行 (includes ざ行)
-│   ├── ta/               # た行 (includes だ行)
-│   ├── na/               # な行
-│   ├── ha/               # は行 (includes ば行, ぱ行)
-│   ├── ma/               # ま行
-│   ├── ya/               # や行
-│   ├── ra/               # ら行
-│   └── wa/               # わ行 (includes を, ん)
+│   ├── 00000/            # Entries 00000-00499
+│   ├── 00500/            # Entries 00500-00999
+│   ├── 01000/            # Entries 01000-01499
+│   └── ...               # (500 entries per directory)
 ├── audio/                # Audio pronunciation files (MP3)
-│   ├── a/                # あ行 entries
-│   │   ├── a_/           # (same prefix structure as entries/)
-│   │   └── ...
-│   ├── ka/               # か行 entries
+│   ├── 00000/            # (same structure as entries/)
+│   ├── 00500/
 │   └── ...
 ├── audio-to-add/         # Staging directory for new audio files
 ├── build/                # Build and management scripts
@@ -172,7 +157,7 @@ je-dict-1/
 │   └── requirements.txt  # Python 3.10+ dependencies
 ├── docs/                 # Generated output (served by GitHub Pages)
 │   ├── entries/          # Individual entry HTML files
-│   │   ├── a/            # (same prefix structure as entries/)
+│   │   ├── 00000/        # (same numeric range structure as entries/)
 │   │   └── ...
 │   └── audio/            # Built audio files (copied from audio/)
 ├── .claude/              # Claude Code configuration
@@ -190,7 +175,7 @@ Each entry is a JSON file with the following structure:
 
 ```json
 {
-  "id": "taberu_00001",
+  "id": "00001_taberu",
   "headword": "{食|た}べる",
   "reading": "たべる",
   "part_of_speech": "verb (ichidan)",
@@ -204,7 +189,7 @@ Each entry is a JSON file with the following structure:
   ],
   "examples": [
     {
-      "id": "taberu_00001_ex1",
+      "id": "00001_taberu_ex1",
       "japanese": "{朝|あさ}ごはんを{食|た}べましたか。",
       "english": "Did you eat breakfast?",
       "notes": null,
@@ -241,22 +226,24 @@ This enables future features like filtering examples by sense and helps learners
 
 ### File Naming Convention
 
-Files use the format: `{romanized_reading}_{id}.json`
+Files use the format: `{id}_{romanized_reading}.json`
 
-- Use Modified Hepburn romanization
+- IDs are 5-digit zero-padded numbers at the START of the filename
+- Use Modified Hepburn romanization for the reading
 - Long vowels follow kana spelling: 東京 → `toukyou`, not `tokyo`
-- IDs are 5-digit zero-padded numbers
 - Katakana loanwords use hiragana reading (e.g., アルバイト → `arubaito`)
 
 ### Directory Placement
 
-Files go in directories based on the reading's first kana and the entry ID prefix:
-- 食べる (たべる) → `entries/ta/ta/taberu_00001.json`
-  - `ta/` = た行 (based on reading)
-  - `ta/` = first 2 chars of `taberu_00001`
-- 水 (みず) → `entries/ma/mi/mizu_00001.json`
-  - `ma/` = ま行 (based on reading)
-  - `mi/` = first 2 chars of `mizu_00001`
+Files go in directories based on the numeric ID range (500 entries per directory):
+- Entry 00001_taberu → `entries/00000/00001_taberu.json`
+- Entry 00500_miru → `entries/00500/00500_miru.json`
+- Entry 01234_aruku → `entries/01000/01234_aruku.json`
+
+The directory name is determined by rounding down to the nearest 500:
+- IDs 00000-00499 → `entries/00000/`
+- IDs 00500-00999 → `entries/00500/`
+- IDs 01000-01499 → `entries/01000/`
 
 ## Adding Audio Files
 
@@ -266,18 +253,18 @@ Audio pronunciation files can be added for example sentences. The web interface 
 
 - **Format**: MP3 files
 - **Filename**: `{entry_id}-ex{number}.mp3`
-  - `entry_id`: The entry's ID (e.g., `taberu_00001`)
+  - `entry_id`: The entry's ID (e.g., `00001_taberu`)
   - `number`: Example number (1-based, e.g., `ex1`, `ex2`, `ex3`)
-- **Example**: `taberu_00001-ex1.mp3` for the first example of the entry `taberu_00001`
+- **Example**: `00001_taberu-ex1.mp3` for the first example of the entry `00001_taberu`
 
 ### Adding Audio Workflow
 
 1. Place MP3 files in the `audio-to-add/` directory:
    ```
    audio-to-add/
-   ├── taberu_00001-ex1.mp3
-   ├── taberu_00001-ex2.mp3
-   └── mizu_00001-ex1.mp3
+   ├── 00001_taberu-ex1.mp3
+   ├── 00001_taberu-ex2.mp3
+   └── 00412_a-ex1.mp3
    ```
 
 2. Run the merge script to process the audio files:
@@ -285,7 +272,7 @@ Audio pronunciation files can be added for example sentences. The web interface 
    python3 build/merge_audio.py
    ```
    This will:
-   - Copy MP3 files to `audio/{kana}/` (organized by entry reading)
+   - Copy MP3 files to `audio/{range}/` (organized by numeric ID range)
    - Update entry files to set `has_audio: true` on the corresponding examples
 
 3. Build the dictionary:
@@ -297,17 +284,14 @@ Audio pronunciation files can be added for example sentences. The web interface 
 
 ### Directory Structure
 
-Audio files are organized by kana and prefix (same as entries):
+Audio files are organized by numeric ID range (same as entries):
 ```
 audio/
-├── a/                    # あ行 entries
-│   ├── a_/               # Entries with IDs starting 'a_'
-│   │   └── a_00412-ex1.mp3
-│   ├── am/               # Entries with IDs starting 'am'
-│   │   └── ame_00044-ex1.mp3
-│   └── ...
-├── ka/                   # か行 entries
-├── sa/                   # さ行 entries
+├── 00000/                # Entries 00000-00499
+│   ├── 00001_taberu-ex1.mp3
+│   └── 00412_a-ex1.mp3
+├── 00500/                # Entries 00500-00999
+├── 01000/                # Entries 01000-01499
 └── ...
 ```
 
@@ -401,21 +385,18 @@ Based on multi-model LLM evaluation, these are HIGH PRIORITY for all entries:
 - At least one collocation or fixed phrase
 - Consistent depth with similar entries
 
-### Romanization Quick Reference
+### Directory Structure Quick Reference
 
-| Kana | Romaji | Directory |
-|------|--------|-----------|
-| あいうえお | a i u e o | /a/ |
-| かきくけこ | ka ki ku ke ko | /ka/ |
-| がぎぐげご | ga gi gu ge go | /ka/ |
-| さしすせそ | sa shi su se so | /sa/ |
-| たちつてと | ta chi tsu te to | /ta/ |
-| なにぬねの | na ni nu ne no | /na/ |
-| はひふへほ | ha hi fu he ho | /ha/ |
-| まみむめも | ma mi mu me mo | /ma/ |
-| やゆよ | ya yu yo | /ya/ |
-| らりるれろ | ra ri ru re ro | /ra/ |
-| わをん | wa wo n | /wa/ |
+Entries are organized by numeric ID ranges (500 entries per directory):
+
+| ID Range | Directory |
+|----------|-----------|
+| 00000-00499 | `entries/00000/` |
+| 00500-00999 | `entries/00500/` |
+| 01000-01499 | `entries/01000/` |
+| ... | ... |
+
+Use `python3 build/get_entry_path.py <reading> <entry_id>` to get the correct path for new entries.
 
 ## License
 

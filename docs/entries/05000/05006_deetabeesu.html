@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="データベース - database. Japanese-English dictionary entry with definitions and examples.">
+    <title>データベース (でーたべーす) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">データベース</h1>
+            <div class="entry-reading">でーたべーす</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">database</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">database</span>
+                    <div class="definition-explanation">An organized collection of data stored and accessed electronically, typically managed by a database management system.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>顧客<rp>(</rp><rt>こきゃく</rt><rp>)</rp></ruby>データベースを<ruby>検索<rp>(</rp><rt>けんさく</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Search the customer database.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">データベースに<ruby>情報<rp>(</rp><rt>じょうほう</rt><rp>)</rp></ruby>を<ruby>登録<rp>(</rp><rt>とうろく</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Register information in the database.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">データベースの<ruby>構築<rp>(</rp><rt>こうちく</rt><rp>)</rp></ruby>に１<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>かかった。</div>
+                    <div class="example-english">It took one year to build the database.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>データベース is a loanword from English &#x27;database&#x27;. Often abbreviated to DB.</p><p>COMMON TYPES:</p><ul><li>リレーショナルデータベース (relational database)</li><li>クラウドデータベース (cloud database)</li><li><ruby>顧客<rp>(</rp><rt>こきゃく</rt><rp>)</rp></ruby>データベース (customer database)</li></ul><p>COMMON COLLOCATIONS:</p><ul><li>データベースを<ruby>構築<rp>(</rp><rt>こうちく</rt><rp>)</rp></ruby>する (to build a database)</li><li>データベースを<ruby>管理<rp>(</rp><rt>かんり</rt><rp>)</rp></ruby>する (to manage a database)</li><li>データベースに<ruby>登録<rp>(</rp><rt>とうろく</rt><rp>)</rp></ruby>する (to register in a database)</li><li>データベースから<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す (to retrieve from a database)</li></ul><p>RELATED TERMS:</p><ul><li>データ (data)</li><li>SQL (database query language)</li><li>バックアップ (backup)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 8:13 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05006_deetabeesu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -15,12 +15,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
-from path_utils import get_entry_prefix
-from japanese_utils import (
-    hiragana_to_romaji,
-    get_expected_directory,
-    KANA_TO_DIRECTORY,
-)
+from path_utils import get_directory_range
+from japanese_utils import hiragana_to_romaji, normalize_reading
 from constants import CROSS_REF_TYPES
 
 
@@ -107,28 +103,34 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: 
     if file_path.name != expected_filename:
         errors.append(f"Filename mismatch: expected {expected_filename}, got {file_path.name}")
 
-    # Check directory structure: entries/{kana}/{prefix}/{id}.json
+    # Check directory structure: entries/{range}/{id}.json
+    # New format: entry ID is 00000_romaji, directory is based on numeric range
+    expected_range_dir = get_directory_range(entry_id)
+    actual_range_dir = file_path.parent.name
+
+    if expected_range_dir and actual_range_dir != expected_range_dir:
+        errors.append(f"Directory mismatch: entry '{entry_id}' should be in '{expected_range_dir}/', not '{actual_range_dir}/'")
+
+    # Check ID format and romanization matches reading
+    # New format: 00000_romaji or 00000_romaji_suffix (for homophones)
     reading = entry['reading']
-    expected_kana_dir = get_expected_directory(reading)
-    expected_prefix_dir = get_entry_prefix(entry_id)
-
-    # Parent is prefix directory, grandparent is kana directory
-    actual_prefix_dir = file_path.parent.name
-    actual_kana_dir = file_path.parent.parent.name
-
-    if expected_prefix_dir and actual_prefix_dir != expected_prefix_dir:
-        errors.append(f"Prefix directory mismatch: entry '{entry_id}' should be in '{expected_prefix_dir}/', not '{actual_prefix_dir}/'")
-
-    if expected_kana_dir and actual_kana_dir != expected_kana_dir:
-        errors.append(f"Kana directory mismatch: entry with reading '{reading}' should be in '{expected_kana_dir}/', not '{actual_kana_dir}/'")
-
-    # Check ID romanization matches reading
     id_parts = entry_id.split('_')
-    if len(id_parts) == 2:
-        id_romaji = id_parts[0]
-        expected_romaji = hiragana_to_romaji(reading)
+    if len(id_parts) >= 2:
+        id_number = id_parts[0]
+        id_romaji = id_parts[1]  # Base romanization (suffix ignored for matching)
+
+        # Validate number format
+        if not id_number.isdigit() or len(id_number) != 5:
+            errors.append(f"ID number format error: '{id_number}' should be 5 digits")
+
+        # Validate romanization matches reading (base romaji only, suffix is for disambiguation)
+        # Normalize reading first (converts katakana to hiragana if needed)
+        normalized_reading = normalize_reading(reading)
+        expected_romaji = hiragana_to_romaji(normalized_reading)
         if id_romaji != expected_romaji:
             errors.append(f"ID romanization mismatch: '{id_romaji}' doesn't match reading '{reading}' (expected '{expected_romaji}')")
+    else:
+        errors.append(f"ID format error: expected '00000_romaji' or '00000_romaji_suffix', got '{entry_id}'")
 
     return errors, entry
 
@@ -544,7 +546,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='Validate dictionary entries')
     parser.add_argument('--entry', '-e', type=str, help='Path to a single entry file to validate')
-    parser.add_argument('--id', type=str, help='Entry ID to validate (e.g., taberu_00001)')
+    parser.add_argument('--id', type=str, help='Entry ID to validate (e.g., 00001_taberu)')
     args = parser.parse_args()
 
     # Determine project root

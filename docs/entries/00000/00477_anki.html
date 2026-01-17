@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="暗記 - memorization, learning by heart. Japanese-English dictionary entry with definitions and examples.">
+    <title>暗記 (あんき) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">あんき</div>
+            <div class="entry-pos">noun/suru verb</div>
+            <div class="entry-gloss">memorization, learning by heart</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">memorization, learning by heart</span>
+                    <div class="definition-explanation">Committing something to memory so it can be recalled without reference.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>単語<rp>(</rp><rt>たんご</rt><rp>)</rp></ruby>を<ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">To memorize vocabulary.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>公式<rp>(</rp><rt>こうしき</rt><rp>)</rp></ruby>を<ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby>しました。</div>
+                    <div class="example-english">I memorized the formulas.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>丸<rp>(</rp><rt>まる</rt><rp>)</rp></ruby><ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby>は<ruby>効果的<rp>(</rp><rt>こうかてき</rt><rp>)</rp></ruby>ではない。</div>
+                    <div class="example-english">Rote memorization isn&#x27;t effective.</div>
+                    <div class="example-notes"><ruby>丸<rp>(</rp><rt>まる</rt><rp>)</rp></ruby><ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby> = rote memorization</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby> means memorization, typically through repetition.</p><p>COMMON PATTERNS:</p><ul><li><ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby>する (to memorize)</li><li><ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby>できる (can memorize)</li><li><ruby>丸<rp>(</rp><rt>まる</rt><rp>)</rp></ruby><ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby> (rote memorization)</li></ul><p>RELATED WORDS:</p><ul><li><ruby>記憶<rp>(</rp><rt>きおく</rt><rp>)</rp></ruby>: memory (the faculty or stored information)</li><li><ruby>暗記<rp>(</rp><rt>あんき</rt><rp>)</rp></ruby>: memorization (the act of memorizing)</li><li><ruby>暗唱<rp>(</rp><rt>あんしょう</rt><rp>)</rp></ruby>: recitation from memory</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 20:57 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00000/00477_anki</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

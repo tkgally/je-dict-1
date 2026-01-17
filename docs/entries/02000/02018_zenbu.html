@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="全部 - all, entire, whole. Japanese-English dictionary entry with definitions and examples.">
+    <title>全部 (ぜんぶ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>全部<rp>(</rp><rt>ぜんぶ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ぜんぶ</div>
+            <div class="entry-pos">noun / adverb</div>
+            <div class="entry-gloss">all, entire, whole</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">all, entire, whole</span>
+                    <div class="definition-explanation">The complete amount or every part of something.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>全部<rp>(</rp><rt>ぜんぶ</rt><rp>)</rp></ruby><ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べてください。</div>
+                    <div class="example-english">Please eat all of it.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>宿題<rp>(</rp><rt>しゅくだい</rt><rp>)</rp></ruby>は<ruby>全部<rp>(</rp><rt>ぜんぶ</rt><rp>)</rp></ruby><ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わりました。</div>
+                    <div class="example-english">I finished all of my homework.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>全部<rp>(</rp><rt>ぜんぶ</rt><rp>)</rp></ruby>でいくらですか。</div>
+                    <div class="example-english">How much is it in total?</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>全部<rp>(</rp><rt>ぜんぶ</rt><rp>)</rp></ruby> means all or everything.</p><p>COMMON PATTERNS:</p><ul><li><ruby>全部<rp>(</rp><rt>ぜんぶ</rt><rp>)</rp></ruby>で (in total, altogether)</li><li><ruby>全部<rp>(</rp><rt>ぜんぶ</rt><rp>)</rp></ruby>の + noun (all of ~)</li></ul><p>SIMILAR WORDS:</p><ul><li><ruby>全<rp>(</rp><rt>すべ</rt><rp>)</rp></ruby>て (all, everything - more formal)</li><li>みんな (everyone, all)</li><li><ruby>全員<rp>(</rp><rt>ぜんいん</rt><rp>)</rp></ruby> (everyone, all members)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 18:35 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">02000/02018_zenbu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

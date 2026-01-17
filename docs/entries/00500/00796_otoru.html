@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="劣る - to be inferior, to fall behind. Japanese-English dictionary entry with definitions and examples.">
+    <title>劣る (おとる) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>劣<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>る</h1>
+            <div class="entry-reading">おとる</div>
+            <div class="entry-pos">verb (godan)</div>
+            <div class="entry-gloss">to be inferior, to fall behind</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to be inferior to, to be worse than</span>
+                    <div class="definition-explanation">To be of lower quality or ability than something else.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>品質<rp>(</rp><rt>ひんしつ</rt><rp>)</rp></ruby>が<ruby>劣<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">The quality is inferior.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>に<ruby>劣<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>らない。</div>
+                    <div class="example-english">I&#x27;m not inferior to him.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">どちらも<ruby>劣<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>らず<ruby>素晴<rp>(</rp><rt>すば</rt><rp>)</rp></ruby>らしい。</div>
+                    <div class="example-english">Both are equally wonderful.</div>
+                    <div class="example-notes">Lit: wonderful without being inferior</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>劣<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>る means to be inferior.</p><p>PATTERNS:</p><ul><li>〜に<ruby>劣<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>る: to be inferior to ~</li><li>〜に<ruby>劣<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>らず: not inferior to ~</li><li><ruby>勝<rp>(</rp><rt>まさ</rt><rp>)</rp></ruby>るとも<ruby>劣<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>らない: at least as good as</li></ul><p>OPPOSITE:</p><ul><li><ruby>優<rp>(</rp><rt>すぐ</rt><rp>)</rp></ruby>れる: to excel, be superior</li><li><ruby>勝<rp>(</rp><rt>まさ</rt><rp>)</rp></ruby>る: to surpass</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:01 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00500/00796_otoru</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

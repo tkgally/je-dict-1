@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="小麦粉 - wheat flour. Japanese-English dictionary entry with definitions and examples.">
+    <title>小麦粉 (こむぎこ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>小麦粉<rp>(</rp><rt>こむぎこ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">こむぎこ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">wheat flour</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">wheat flour</span>
+                    <div class="definition-explanation">Flour made from ground wheat, used in baking and cooking.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>小麦粉<rp>(</rp><rt>こむぎこ</rt><rp>)</rp></ruby>をふるいにかける。</div>
+                    <div class="example-english">Sift the flour.</div>
+                    <div class="example-notes">ふるいにかける means to sift</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>唐揚<rp>(</rp><rt>からあ</rt><rp>)</rp></ruby>げを<ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>るには<ruby>小麦粉<rp>(</rp><rt>こむぎこ</rt><rp>)</rp></ruby>か<ruby>片栗粉<rp>(</rp><rt>かたくりこ</rt><rp>)</rp></ruby>を<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>います。</div>
+                    <div class="example-english">To make fried chicken, you use either wheat flour or potato starch.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>小麦粉<rp>(</rp><rt>こむぎこ</rt><rp>)</rp></ruby>と<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>を<ruby>混<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>ぜて<ruby>生地<rp>(</rp><rt>きじ</rt><rp>)</rp></ruby>を<ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">Mix flour and water to make dough.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Types of wheat flour in Japan:</p><ul><li><ruby>薄力粉<rp>(</rp><rt>はくりきこ</rt><rp>)</rp></ruby> (cake flour) - low gluten, for cakes and tempura</li><li><ruby>中力粉<rp>(</rp><rt>ちゅうりきこ</rt><rp>)</rp></ruby> (all-purpose flour) - medium gluten, for udon</li><li><ruby>強力粉<rp>(</rp><rt>きょうりきこ</rt><rp>)</rp></ruby> (bread flour) - high gluten, for bread</li></ul><p>Commonly used in:</p><ul><li><ruby>天<rp>(</rp><rt>てん</rt><rp>)</rp></ruby>ぷら (tempura batter)</li><li>お<ruby>好<rp>(</rp><rt>この</rt><rp>)</rp></ruby>み<ruby>焼<rp>(</rp><rt>や</rt><rp>)</rp></ruby>き (okonomiyaki)</li><li>うどん (udon noodles)</li><li>パン (bread)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 21:48 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05113_komugiko</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
