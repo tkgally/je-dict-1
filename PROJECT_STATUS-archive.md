@@ -7,6 +7,32 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 69)
+Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- Onomatopoeia (10): にたにた (smirking), がつがつ (greedily), ぽりぽり (crunching), むしむし (muggy), じとじと (damp/sticky), どたばた (clumsily), ごそごそ (rustling), のそのそ (lumbering), しゃきしゃき (crisp), ころころ (rolling)
+- Four-character idioms (5): {起承転結|きしょうてんけつ} (narrative structure), {弱肉強食|じゃくにくきょうしょく} (survival of the fittest), {喜怒哀楽|きどあいらく} (human emotions), {因果応報|いんがおうほう} (karma), {前代未聞|ぜんだいみもん} (unprecedented)
+- Emotional/psychological terms (5): {執着|しゅうちゃく} (attachment), {罪悪感|ざいあくかん} (guilt), {達成感|たっせいかん} (sense of achievement), {充実感|じゅうじつかん} (sense of fulfillment), {劣等感|れっとうかん} (inferiority complex)
+- Cultural/religious (5): お{守|まも}り (amulet), {鳥居|とりい} (torii gate), {絵馬|えま} (votive tablet), {賽銭|さいせん} (offering money), おみくじ (fortune slip)
+- Body/medical terms (5): {膵臓|すいぞう} (pancreas), {脾臓|ひぞう} (spleen), {肋骨|ろっこつ} (rib), {骨盤|こつばん} (pelvis), {軟骨|なんこつ} (cartilage)
+- Legal terms (5): {棄却|ききゃく} (dismissal), {控訴|こうそ} (appeal to high court), {上訴|じょうそ} (appeal), {革命|かくめい} (revolution), {独裁|どくさい} (dictatorship)
+- Business/finance terms (5): {配当|はいとう} (dividend), {財務|ざいむ} (finances), {監査|かんさ} (audit), {決算|けっさん} (settlement), {担保|たんぽ} (collateral)
+- Medical procedure terms (5): {通院|つういん} (outpatient visit), {処方|しょほう} (prescription), {感染|かんせん} (infection), {炎症|えんしょう} (inflammation), {健康診断|けんこうしんだん} (health checkup)
+- Travel/aviation terms (3): {滑走路|かっそうろ} (runway), {離陸|りりく} (takeoff), {着陸|ちゃくりく} (landing)
+- Modern/slang terms (2): マウント (one-upmanship), もやもや (feeling uneasy)
+
+Notable entry features:
+- Comprehensive onomatopoeia covering textures, sounds, movements, and atmospheric conditions
+- Four-character idioms with detailed cultural/historical explanations
+- Psychological vocabulary for expressing complex emotional states
+- Shinto/temple cultural vocabulary essential for understanding Japanese religious practices
+- Medical and anatomical terms for healthcare contexts
+- Legal system vocabulary with explanations of Japanese court hierarchy
+- Cross-references added linking related terms (離陸↔着陸, 控訴↔上訴)
+
+Total entries: 6,008 → 6,058
+Remaining candidates: 968 → 918
+
 ### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 68)
 Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 

@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,333
-- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 358 | Unassigned: 150
-- **Candidate words**: ~811 words tracked in `candidate_words.json`
+- **Total entries**: 6,358
+- **Vocabulary tier assignment**: Basic: 1,112 | Core: 4,713 | General: 358 | Unassigned: 175
+- **Candidate words**: ~786 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 81)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **～{的|てき} adjectives** (6): {本能的|ほんのうてき} (instinctive), {刺激的|しげきてき} (stimulating), {意欲的|いよくてき} (ambitious), {献身的|けんしんてき} (devoted), {象徴的|しょうちょうてき} (symbolic), {恒久的|こうきゅうてき} (permanent)
+- **Compound verbs** (5): {蹴|け}り{倒|たお}す (to kick down), {突|つ}き{詰|つ}める (to investigate thoroughly), {切|き}り{詰|つ}める (to economize), {這|は}い{上|あ}がる (to crawl up), {塗|ぬ}り{替|か}える (to repaint)
+- **Onomatopoeia/adverbs** (7): ちょろちょろ (trickling), がやがや (noisy chatter), ひそひそ (whispering), もじもじ (fidgeting), ほんのり (slightly), ほっこり (heartwarming), ちゃっかり (shrewdly)
+- **Four-character idioms** (2): {軽挙妄動|けいきょもうどう} (rash action), {温厚篤実|おんこうとくじつ} (gentle and sincere)
+- **Humble expressions** (2): {拝読|はいどく} (reading humble), {拝聴|はいちょう} (listening humble)
+- **Conjunctions** (2): とはいえ (although), とはいうものの (having said that)
+- **Modern casual** (1): てか (or rather)
+
+Notable entry features:
+- ～{的|てき} adjectives with antonym pairs ({恒久的|こうきゅうてき}↔{暫定的|ざんていてき}, {意欲的|いよくてき}↔{消極的|しょうきょくてき})
+- Compound verbs with ～{倒|たお}す (knock down), ～{詰|つ}める (exhaustive), ～{上|あ}がる (upward) patterns
+- Onomatopoeia covering sounds (がやがや, ひそひそ), emotions (もじもじ, ほっこり), and textures (ちょろちょろ)
+- Humble expressions with {拝|はい} prefix for formal business/academic contexts
+- Modern youth slang (てか) alongside formal conjunctions
+
+Total entries: 6,333 → 6,358
+Remaining candidates: 811 → 786
 
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 80)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -322,32 +343,6 @@ Notable entry features:
 
 Total entries: 6,058 → 6,108
 Remaining candidates: 918 → 869
-
-### 2026-01-16 (Vocabulary Expansion - 50 New Entries, Session 69)
-Added 50 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- Onomatopoeia (10): にたにた (smirking), がつがつ (greedily), ぽりぽり (crunching), むしむし (muggy), じとじと (damp/sticky), どたばた (clumsily), ごそごそ (rustling), のそのそ (lumbering), しゃきしゃき (crisp), ころころ (rolling)
-- Four-character idioms (5): {起承転結|きしょうてんけつ} (narrative structure), {弱肉強食|じゃくにくきょうしょく} (survival of the fittest), {喜怒哀楽|きどあいらく} (human emotions), {因果応報|いんがおうほう} (karma), {前代未聞|ぜんだいみもん} (unprecedented)
-- Emotional/psychological terms (5): {執着|しゅうちゃく} (attachment), {罪悪感|ざいあくかん} (guilt), {達成感|たっせいかん} (sense of achievement), {充実感|じゅうじつかん} (sense of fulfillment), {劣等感|れっとうかん} (inferiority complex)
-- Cultural/religious (5): お{守|まも}り (amulet), {鳥居|とりい} (torii gate), {絵馬|えま} (votive tablet), {賽銭|さいせん} (offering money), おみくじ (fortune slip)
-- Body/medical terms (5): {膵臓|すいぞう} (pancreas), {脾臓|ひぞう} (spleen), {肋骨|ろっこつ} (rib), {骨盤|こつばん} (pelvis), {軟骨|なんこつ} (cartilage)
-- Legal terms (5): {棄却|ききゃく} (dismissal), {控訴|こうそ} (appeal to high court), {上訴|じょうそ} (appeal), {革命|かくめい} (revolution), {独裁|どくさい} (dictatorship)
-- Business/finance terms (5): {配当|はいとう} (dividend), {財務|ざいむ} (finances), {監査|かんさ} (audit), {決算|けっさん} (settlement), {担保|たんぽ} (collateral)
-- Medical procedure terms (5): {通院|つういん} (outpatient visit), {処方|しょほう} (prescription), {感染|かんせん} (infection), {炎症|えんしょう} (inflammation), {健康診断|けんこうしんだん} (health checkup)
-- Travel/aviation terms (3): {滑走路|かっそうろ} (runway), {離陸|りりく} (takeoff), {着陸|ちゃくりく} (landing)
-- Modern/slang terms (2): マウント (one-upmanship), もやもや (feeling uneasy)
-
-Notable entry features:
-- Comprehensive onomatopoeia covering textures, sounds, movements, and atmospheric conditions
-- Four-character idioms with detailed cultural/historical explanations
-- Psychological vocabulary for expressing complex emotional states
-- Shinto/temple cultural vocabulary essential for understanding Japanese religious practices
-- Medical and anatomical terms for healthcare contexts
-- Legal system vocabulary with explanations of Japanese court hierarchy
-- Cross-references added linking related terms (離陸↔着陸, 控訴↔上訴)
-
-Total entries: 6,008 → 6,058
-Remaining candidates: 968 → 918
 
 ---
 
