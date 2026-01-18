@@ -7,6 +7,31 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 97)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Animals** (2): チンパンジー (chimpanzee), アザラシ (seal)
+- **Insects** (1): クワガタムシ (stag beetle)
+- **Baseball** (2): {投手|とうしゅ} (pitcher), {打者|だしゃ} (batter)
+- **Music** (3): {指揮者|しきしゃ} (conductor), {伴奏|ばんそう} (accompaniment), コーラス (chorus)
+- **Construction** (3): {新築|しんちく} (newly built), {増築|ぞうちく} (extension), {修繕|しゅうぜん} (repair)
+- **Plants** (1): コスモス (cosmos flower)
+- **Professions** (2): {税理士|ぜいりし} (tax accountant), {不動産屋|ふどうさんや} (real estate agent)
+- **Sports** (1): {連覇|れんぱ} (consecutive championship)
+- **Real estate** (3): {管理費|かんりひ} (management fee), {共益費|きょうえきひ} (common expense fee), {分譲|ぶんじょう} (for-sale housing)
+- **Finance** (2): {債務|さいむ} (debt), ローン (loan)
+
+Notable entry features:
+- Animal vocabulary including zoo favorites (チンパンジー, アザラシ) and popular summer insects (クワガタムシ with hobby/collection context)
+- Baseball pair: {投手|とうしゅ} (pitcher) ↔ {打者|だしゃ} (batter) with detailed statistics terminology
+- Music terminology covering orchestral ({指揮者|しきしゃ}, {伴奏|ばんそう}) and pop music (コーラス) contexts
+- Construction vocabulary for home building and renovation ({新築|しんちく} ↔ {中古|ちゅうこ})
+- Real estate terms commonly seen in apartment hunting ({管理費|かんりひ}, {共益費|きょうえきひ}, {分譲|ぶんじょう})
+- Finance vocabulary with legal context ({債務|さいむ}, ローン)
+
+Total entries: 6,611 → 6,631
+Remaining candidates: 722 → 702
+
 ### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 96)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 

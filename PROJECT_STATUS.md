@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,781
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,840 | General: 475 | Unassigned: 337
-- **Candidate words**: ~833 words tracked in `candidate_words.json`
+- **Total entries**: 6,811
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 480 | Unassigned: 337
+- **Candidate words**: ~804 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 107)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, nouns, and onomatopoeia:
+
+- **Compound verbs** (6): {書|か}き{留|と}める (to write down), {切|き}り{出|だ}す (to bring up), {打|う}ち{上|あ}げる (to launch/wrap-up party), {押|お}し{寄|よ}せる (to surge), {飛|と}び{降|お}りる (to jump down), {差|さ}し{掛|か}かる (to approach)
+- **I-adjectives** (4): せわしない (restless), えげつない (nasty), おぼつかない (uncertain), いたわしい (pitiful)
+- **Na-adjectives** (2): {特徴的|とくちょうてき} (characteristic), {防御的|ぼうぎょてき} (defensive)
+- **Nouns - Business/Formal** (6): {告白|こくはく} (confession), {報告書|ほうこくしょ} (report), {成果|せいか} (result), {開発|かいはつ} (development), {概要|がいよう} (summary), {謝罪|しゃざい} (apology)
+- **Nouns - Daily life** (4): {物件|ぶっけん} (property), {遅延|ちえん} (delay), {海藻|かいそう} (seaweed), {蚊取|かと}り{線香|せんこう} (mosquito coil)
+- **Nouns - Abstract** (3): {錯覚|さっかく} (illusion), {幻想|げんそう} (fantasy), リスク (risk)
+- **Onomatopoeia/Adverbs** (5): どっと (in a rush), むずむず (itching), うずうず (eager), くらくら (dizzy), しれっと (nonchalantly)
+
+Notable entry features:
+- Compound verb patterns: ～{留|と}める for securing/noting, ～{上|あ}げる for launching, ～{寄|よ}せる for gathering/surging
+- Expressive i-adjectives including Kansai-origin えげつない and literary おぼつかない
+- Business vocabulary ({報告書|ほうこくしょ}, {成果|せいか}, {開発|かいはつ}) common in corporate contexts
+- Real estate vocabulary ({物件|ぶっけん}) and train terminology ({遅延|ちえん}{証明書|しょうめいしょ})
+- Japanese summer icons: {蚊取|かと}り{線香|せんこう} with cultural notes on pig-shaped holders
+- Onomatopoeia contrasting similar concepts: むずむず (physical itch) vs うずうず (eager anticipation)
+
+Total entries: 6,781 → 6,811
+Remaining candidates: 833 → 804
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 106)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, adverbs, onomatopoeia, and modern vocabulary:
@@ -393,31 +415,6 @@ Notable entry features:
 
 Total entries: 6,631 → 6,651
 Remaining candidates: 702 → 683
-
-### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 97)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Animals** (2): チンパンジー (chimpanzee), アザラシ (seal)
-- **Insects** (1): クワガタムシ (stag beetle)
-- **Baseball** (2): {投手|とうしゅ} (pitcher), {打者|だしゃ} (batter)
-- **Music** (3): {指揮者|しきしゃ} (conductor), {伴奏|ばんそう} (accompaniment), コーラス (chorus)
-- **Construction** (3): {新築|しんちく} (newly built), {増築|ぞうちく} (extension), {修繕|しゅうぜん} (repair)
-- **Plants** (1): コスモス (cosmos flower)
-- **Professions** (2): {税理士|ぜいりし} (tax accountant), {不動産屋|ふどうさんや} (real estate agent)
-- **Sports** (1): {連覇|れんぱ} (consecutive championship)
-- **Real estate** (3): {管理費|かんりひ} (management fee), {共益費|きょうえきひ} (common expense fee), {分譲|ぶんじょう} (for-sale housing)
-- **Finance** (2): {債務|さいむ} (debt), ローン (loan)
-
-Notable entry features:
-- Animal vocabulary including zoo favorites (チンパンジー, アザラシ) and popular summer insects (クワガタムシ with hobby/collection context)
-- Baseball pair: {投手|とうしゅ} (pitcher) ↔ {打者|だしゃ} (batter) with detailed statistics terminology
-- Music terminology covering orchestral ({指揮者|しきしゃ}, {伴奏|ばんそう}) and pop music (コーラス) contexts
-- Construction vocabulary for home building and renovation ({新築|しんちく} ↔ {中古|ちゅうこ})
-- Real estate terms commonly seen in apartment hunting ({管理費|かんりひ}, {共益費|きょうえきひ}, {分譲|ぶんじょう})
-- Finance vocabulary with legal context ({債務|さいむ}, ローン)
-
-Total entries: 6,611 → 6,631
-Remaining candidates: 722 → 702
 
 ---
 
