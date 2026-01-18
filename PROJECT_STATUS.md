@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,059
-- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 399
-- **Candidate words**: ~657 words tracked in `candidate_words.json`
+- **Total entries**: 7,089
+- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 429
+- **Candidate words**: ~627 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 121)
+Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary across multiple categories:
+
+- **Establishments/Facilities** (3): バー (bar), {控|ひか}え{室|しつ} (waiting room), {授乳室|じゅにゅうしつ} (nursing room)
+- **Architecture/Windows** (2): {天窓|てんまど} (skylight), {出窓|でまど} (bay window)
+- **Tools/Equipment** (4): {蛍光|けいこう}ペン (highlighter), {軍手|ぐんて} (work gloves), {紙|かみ}やすり (sandpaper), ゴーグル (goggles)
+- **Household products** (3): {延長|えんちょう}コード (extension cord), {消臭剤|しょうしゅうざい} (deodorizer), {接着剤|せっちゃくざい} (adhesive)
+- **Crafts/Hobbies** (6): {手芸|しゅげい} (handicraft), {木彫|きぼ}り (wood carving), {日曜大工|にちようだいく} (DIY), {模型|もけい} (model), コスプレ (cosplay), フィギュア (figure)
+- **Art** (2): {油絵|あぶらえ} (oil painting), {水彩画|すいさいが} (watercolor painting)
+- **Music genres** (3): {演歌|えんか} (enka), {民謡|みんよう} (folk song), ジャズ (jazz)
+- **Finance** (2): {元本|がんぽん} (principal), {額面|がくめん} (face value)
+- **Elections/Lotteries** (2): {当選|とうせん} (winning), {落選|らくせん} (losing)
+- **Medical** (1): {脱臼|だっきゅう} (dislocation)
+- **Gardening** (1): {家庭菜園|かていさいえん} (home vegetable garden)
+- **Other** (1): トラブル (trouble)
+
+Notable entry features:
+- Hobby/culture vocabulary: コスプレ, フィギュア, {日曜大工|にちようだいく} with etymology and cultural context
+- Art vocabulary contrast pairs: {油絵|あぶらえ} ↔ {水彩画|すいさいが}
+- Music genres with cultural notes: {演歌|えんか} (famous singers), {民謡|みんよう} (regional songs)
+- Election vocabulary antonym pair: {当選|とうせん} ↔ {落選|らくせん}
+- Financial terms with context: {元本|がんぽん}, {額面|がくめん} (including figurative usage)
+
+Total entries: 7,059 → 7,089
+Remaining candidates: ~657 → ~627
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 120)
 Added 30 new dictionary entries from candidate_words.json, covering occupations, household products, facilities, travel/accommodation terms, and four-character idioms:
@@ -311,43 +337,6 @@ Notable entry features:
 
 Total entries: 6,901 → 6,931
 Remaining candidates: ~827 → ~797
-
-### 2026-01-18 (New Candidates - 100 Words Added, Session 111)
-Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
-
-**Compound Verbs** (~20 words):
-- {読|よ}み{飛|と}ばす (skip reading), {書|か}き{足|た}す (add in writing), {放|ほう}り{込|こ}む (throw in), {焼|や}き{付|つ}ける (burn in)
-- {弾|はじ}き{出|だ}す (calculate), {貼|は}り{付|つ}ける (paste), {吐|は}き{出|だ}す (spit out), {掘|ほ}り{起|お}こす (dig up)
-- {浮|う}かび{上|あ}がる (emerge), {言|い}い{当|あ}てる (guess correctly), {見|み}せびらかす (show off), {練|ね}り{上|あ}げる (refine)
-- {蹴飛|けと}ばす (kick away), {付|つ}け{足|た}す (add on), {取|と}り{繕|つくろ}う (keep up appearances)
-
-**Idiomatic Expressions with Body Parts** (~30 words):
-- 気 expressions: {気|き}が{利|き}く (attentive), {気|き}が{重|おも}い (reluctant), {気|き}が{短|みじか}い (short-tempered), {気|き}が{散|ち}る (distracted)
-- 口 expressions: {口|くち}が{軽|かる}い (loose-lipped), {口|くち}が{堅|かた}い (discreet)
-- Body part idioms: {腹|はら}が{立|た}つ (angry), {顔|かお}が{広|ひろ}い (well-connected), {肩身|かたみ}が{狭|せま}い (awkward)
-- Action expressions: {眉|まゆ}をひそめる (frown), {足|あし}を{運|はこ}ぶ (visit), {顔|かお}を{出|だ}す (show up), {胸|むね}を{張|は}る (be proud)
-- Breath expressions: {息|いき}を{呑|の}む (gasp), {息|いき}を{潜|ひそ}める (hold breath)
-
-**Adjectives and Personality Words** (~15 words):
-- Adjectives: {奥深|おくぶか}い (profound), {生|なま}ぬるい (lukewarm), {差|さ}し{出|で}がましい (presumptuous)
-- Personality: {気|き}まぐれ (capricious), {理不尽|りふじん} (unreasonable), {横柄|おうへい} (arrogant), {潔|いさぎよ}い (graceful)
-
-**Nouns and Abstract Concepts** (~20 words):
-- Social: {世帯|せたい} (household), {配偶者|はいぐうしゃ} (spouse), {世話人|せわにん} (organizer)
-- Abstract: {見込|みこ}み (prospect), {手掛|てがか}かり (clue), {成|な}り{行|ゆ}き (outcome)
-- Psychology: {先入観|せんにゅうかん} (preconception), {固定観念|こていかんねん} (fixed idea), {既成概念|きせいがいねん} (conventional notion)
-
-**Adverbs and Onomatopoeia** (~15 words):
-- Adverbs: とことん (thoroughly), ひょっとして (perhaps), まして (let alone), たいして (not very)
-- Onomatopoeia: じろじろ (staring), ちらちら (flickering), めきめき (remarkably), むしゃむしゃ (munching)
-
-Notable features:
-- Strong focus on idiomatic body-part expressions (気・口・目・耳・手・足・腹・胸・腰・首・肩)
-- Practical compound verbs for everyday actions
-- Adjectives describing personality and social behavior
-- Abstract nouns for thinking and social concepts
-
-Candidate count: 727 → 827
 
 ---
 
