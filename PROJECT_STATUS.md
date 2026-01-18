@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,991
-- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,918 | General: 513 | Unassigned: 369
-- **Candidate words**: ~738 words tracked in `candidate_words.json`
+- **Total entries**: 7,021
+- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,918 | General: 513 | Unassigned: 399
+- **Candidate words**: ~709 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 115)
+Added 30 new dictionary entries from candidate_words.json, covering grammar patterns, four-character idioms, modern vocabulary, and everyday terms:
+
+- **Grammar patterns** (5): に{関|かん}して (regarding), に{際|さい}して (on the occasion of), をもって (with/by means of), さもないと (otherwise), そうすると (in that case)
+- **Casual expressions** (3): つーか (or rather - very casual), {知|し}らんけど (I dunno though - Kansai hedge), ぴえん (sad - internet slang)
+- **Four-character idioms (yojijukugo)** (4): {一触即発|いっしょくそくはつ} (explosive situation), {全身全霊|ぜんしんぜんれい} (with all one's heart), {危機一髪|ききいっぱつ} (close call), {多事多難|たじたなん} (full of troubles)
+- **Modern loanwords** (5): ストレージ (storage), デバイス (device), アジェンダ (agenda), クレジットカード (credit card), コメント (comment)
+- **Music/Entertainment vocabulary** (3): {奏者|そうしゃ} (instrumentalist), {不協和音|ふきょうわおん} (dissonance), {自己|じこ}ベスト (personal best)
+- **Everyday vocabulary** (6): バイト (part-time job), いける (to be doable), {湿疹|しっしん} (eczema), {分数|ぶんすう} (fraction), {残|のこ}らず (without exception), {一直線|いっちょくせん} (straight line/beeline)
+- **Social/Family vocabulary** (2): ママ{友|とも} (mom friend), {就学|しゅうがく} (school attendance)
+- **Formal expressions** (2): ご{容赦|ようしゃ} (pardon), {切符|きっぷ}{売|う}り{場|ば} (ticket booth)
+
+Notable entry features:
+- Formal grammar pattern coverage: に{関|かん}して vs について (formality contrast)
+- Internet/youth slang: ぴえん with emoji context (🥺), {知|し}らんけど spreading from Kansai
+- Comprehensive yojijukugo: {一触即発|いっしょくそくはつ} ↔ {危機一髪|ききいっぱつ} (cross-referenced)
+- Tech vocabulary: ストレージ, デバイス for digital literacy
+- Hybrid terms: {自己|じこ}ベスト (Japanese + English compound)
+
+Total entries: 6,991 → 7,021
+Remaining candidates: ~738 → ~709
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 114)
 Added 30 new dictionary entries from candidate_words.json, focusing on conversational particles, formal conjunctions, adverbs, and onomatopoeia:
@@ -306,28 +328,6 @@ Notable entry features:
 
 Total entries: 6,751 → 6,781
 Remaining candidates: 861 → 833
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 104)
-Added 30 new dictionary entries from candidate_words.json, covering personality traits, emotions, cooking, cultural concepts, and modern business vocabulary:
-
-- **Personality/Character traits** (8): {鈍感|どんかん} (insensitive), {敏感|びんかん} (sensitive), {不器用|ぶきよう} (clumsy), {頑固|がんこ} (stubborn), {無口|むくち} (taciturn), {口下手|くちべた} (inarticulate), せっかち (impatient), そそっかしい (careless)
-- **Emotions/Mental states** (5): {悔|く}い (regret), {情|なさ}け (compassion), {悩|なや}み (worry), {思|おも}いやり (consideration), {億劫|おっくう} (bothersome)
-- **Japanese cultural concepts** (3): やり{甲斐|がい} (sense of fulfillment), {生|い}き{甲斐|がい} (ikigai - purpose in life), {志|こころざし} (aspiration)
-- **Cooking vocabulary** (4): {火加減|ひかげん} (heat level), {手際|てぎわ} (skill/efficiency), コツ (knack), {隠|かく}し{味|あじ} (secret ingredient)
-- **I-adjective** (1): {香|こう}ばしい (fragrant/savory)
-- **Adverbs** (5): {尚更|なおさら} (all the more), {一切|いっさい} (entirely), {最早|もはや} (no longer), {強|し}いて (if pressed), どうやら (apparently)
-- **Business slang** (3): コスト (cost), リスケ (reschedule), アポ (appointment)
-- **Weather** (1): {俄雨|にわかあめ} (sudden rain shower)
-
-Notable entry features:
-- Antonym pairs: {鈍感|どんかん}↔{敏感|びんかん}, やり{甲斐|がい}↔{生|い}き{甲斐|がい}
-- Japanese cultural concept {生|い}き{甲斐|がい} (ikigai) with international popularity context
-- Cooking vocabulary for temperature control and technique
-- Business abbreviation slang (リスケ, アポ) with formal equivalents noted
-- Adverbs for hedging and inference (どうやら, {強|し}いて{言|い}えば)
-
-Total entries: 6,691 → 6,721
-Remaining candidates: 918 → 891
 
 ---
 
