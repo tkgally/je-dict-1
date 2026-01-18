@@ -100,35 +100,20 @@ The word should have a usage frequency or centrality to contemporary Japanese si
 The word is a common **synonym**, **antonym**, or **related word** to an entry already in the dictionary.
 
 **Types of semantic relations:**
-- **Synonyms:** 美しい ↔ きれい, 言う ↔ 話す
-- **Antonyms:** 大きい ↔ 小さい, 始まる ↔ 終わる
+- **Synonyms:** Words with similar meanings at different registers or contexts
+- **Antonyms:** Opposite meanings
 - **Semantic groups:** Words belonging to the same category as existing entries
 
-### 2-3. Post-2000 Widespread Terms
+### 2-3. Modern Widespread Terms
 
-Words that have come into widespread usage since approximately 2000.
+Words that have come into widespread, stable usage in contemporary Japanese. This includes vocabulary from technology, media, lifestyle, and other areas of modern life. Focus on terms with established, lasting usage rather than ephemeral trends.
 
-**Categories to consider:**
-- Technology terms (スマホ, アプリ, ダウンロード, etc.)
-- Internet/social media (SNS, フォロー, バズる, etc.)
-- Modern lifestyle (コンビニ, ペットボトル, エコ, etc.)
-- Contemporary culture (推し, 沼, 盛る, etc.)
-- Wasei-eigo coinages (リモート, テレワーク, etc.)
-
-**Note:** Include only terms with stable, widespread usage—not fleeting slang.
-
-### 2-4. Informal/Slang Terms Useful for Learners
+### 2-4. Informal/Colloquial Terms Useful for Learners
 
 Well-known informal or colloquial terms that:
 - Do not typically appear on formal vocabulary lists
 - Are commonly encountered in everyday Japanese
 - Would help learners understand natural speech
-
-**Examples:**
-- Common contractions (じゃん, っす, etc.)
-- Casual expressions (マジ, やばい, ダサい, etc.)
-- Colloquial variants (めっちゃ, すげー, etc.)
-- Youth slang with staying power (ウザい, キモい, etc.)
 
 **Exclude:** Highly ephemeral slang, vulgar terms, discriminatory language
 
@@ -136,11 +121,29 @@ Well-known informal or colloquial terms that:
 
 ## Search Strategies
 
-The dictionary now has ~5,900 entries plus ~970 candidates. Basic vocabulary is largely covered. Prioritize strategies that find remaining gaps.
+The dictionary has ~6,000 entries plus ~700 candidates. Use a variety of strategies to find remaining gaps while ensuring comprehensive coverage.
 
-### HIGH PRIORITY Strategies (Use These First)
+### CRITICAL: Basic and Core Tier Completeness
 
-#### Strategy A: Corpus-Driven Gap Analysis
+**Before exploring specialized vocabulary, ensure the basic and core tiers are complete.**
+
+The vocabulary-tiers skill defines:
+- **Basic tier (600-800 words):** Fundamental vocabulary for any learner
+- **Core tier (1600-2000 words):** Vocabulary expected of any adult using Japanese
+
+**Priority audit areas for basic/core completeness:**
+- Function words (particles, conjunctions, sentence-final expressions)
+- Question words and demonstratives
+- Numbers, counters, and time expressions
+- Body parts, family terms, colors, directions
+- Core verbs for daily actions, communication, movement
+- Essential adjectives for description
+- Common adverbs
+
+If any words that clearly belong in basic or core tiers are missing, prioritize adding them before expanding into specialized or general-tier vocabulary.
+
+### Strategy: Corpus-Driven Gap Analysis
+
 Use corpus frequency data to find common words still missing.
 
 **Method:**
@@ -150,7 +153,8 @@ Use corpus frequency data to find common words still missing.
 
 **Why effective:** Guarantees discovered words are genuinely common.
 
-#### Strategy B: Collocational Mining
+### Strategy: Collocational Mining
+
 Find words that commonly appear with existing entries but aren't in the dictionary.
 
 **Method:**
@@ -158,25 +162,10 @@ Find words that commonly appear with existing entries but aren't in the dictiona
 2. Consider their most common collocates (words they frequently appear with)
 3. Check if those collocates are in the dictionary
 
-**Examples:**
-- If 約束 exists, check: 守る, 破る, 果たす (promise-related verbs)
-- If 責任 exists, check: 取る, 負う, 問う, 逃れる (responsibility-related verbs)
-- If 注意 exists, check: 払う, 向ける, 引く (attention-related verbs)
-
 **Why effective:** Finds words learners need to use existing vocabulary naturally.
 
-#### Strategy C: Productive Pattern Completion
-Systematically complete morphological patterns already partially in the dictionary.
+### Strategy: Register/Formality Pairs
 
-**Patterns to check:**
-1. **Compound verbs** - For each V1 element (追い-, 取り-, 引き-, 切り-, etc.), list all common V1+V2 combinations
-2. **～的 adjectives** - Check which common ～的 words are missing
-3. **Paired compounds** - Check 上下, 左右, 前後 pattern for gaps
-4. **Nominalized verbs** - 動詞 → ～み, ～さ, ～り forms (悲しみ, 高さ, 眠り)
-
-**Why effective:** These patterns are productive and predictable; gaps are easy to identify systematically.
-
-#### Strategy D: Register/Formality Pairs
 For existing entries, find their register variants (formal ↔ informal, written ↔ spoken).
 
 **Method:**
@@ -184,139 +173,65 @@ For existing entries, find their register variants (formal ↔ informal, written
 2. Take formal/written words, find their colloquial equivalents
 3. Check keigo (honorific) variants of common verbs
 
-**Examples:**
-- If いる exists, check: おる, いらっしゃる, おいでになる
-- If 食べる exists, check: 召し上がる, 頂く, 食う
-- If でも exists, check: しかし, しかしながら, けれども, だけど
-
 **Why effective:** Learners need multiple registers; dictionaries often have gaps here.
 
-#### Strategy E: Domain-Specific Systematic Sweeps
-Pick a semantic domain and exhaustively check for gaps.
+### Strategy: Semantic Domain Exploration
 
-**Underexplored domains to investigate:**
-1. **Cooking/food preparation**: 下ごしらえ, 味付け, 盛り付け, 火加減, etc.
-2. **Health/medical**: 症状, 診察, 処方, 副作用, 通院, etc.
-3. **Housing/real estate**: 間取り, 敷金, 礼金, 更新, 退去, etc.
-4. **Employment/work**: 採用, 昇進, 異動, 退職, 有給, etc.
-5. **Finance/money**: 振込, 引き落とし, 残高, 利息, 手数料, etc.
-6. **Transportation**: 乗り換え, 運賃, 定期, 遅延, 運休, etc.
-7. **Education**: 入学, 卒業, 進学, 留年, 履修, etc.
-8. **Legal/administrative**: 届出, 申請, 届け, 届ける, 認可, etc.
+Explore semantic domains to find gaps, but **choose domains creatively** based on what seems underrepresented rather than following a fixed list.
 
-**Why effective:** Practical vocabulary in these domains is essential for living in Japan but often missing from learner dictionaries.
+**Method:**
+1. Browse existing entries to identify which semantic domains have coverage
+2. Notice which domains seem thin or missing
+3. Systematically check for gaps in those domains
+4. Be creative—consider domains that are practical for daily life, work, study, or cultural understanding
 
-#### Strategy F: Written vs Spoken Japanese Gap Analysis
-Find words common in one medium but potentially missing from the dictionary.
+**Why effective:** Ensures balanced coverage across the vocabulary learners need.
 
-**Written Japanese gaps:**
-- Newspaper/news vocabulary: 懸念, 是正, 遺憾, 謝罪, 声明
-- Academic/essay words: 考察, 検討, 概要, 結論, 要旨
-- Literary expressions: ～ざるを得ない, ～にほかならない, ～といえども
+### Strategy: Productive Pattern Completion
 
-**Spoken Japanese gaps:**
-- Conversational fillers: えーと, あのー, なんか, ほら, ねえ
-- Sentence-final particles beyond basics: さ, ぜ, わ, かな, もん
-- Contracted forms: ～ちゃう, ～とく, ～てる, ～なきゃ
+Systematically complete morphological patterns already partially in the dictionary.
 
-**Why effective:** Dictionaries often skew toward one medium; this ensures balanced coverage.
+**Method:**
+1. Identify word-formation patterns that are productive in Japanese (compound verbs, adjectival derivations, noun compounds, etc.)
+2. Check which common words using those patterns are missing
+3. Add gaps
 
-#### Strategy G: Loanword Systematic Coverage
-Methodically cover loanwords by domain, as these are often underrepresented.
+**Why effective:** These patterns are productive and predictable; gaps are easy to identify systematically.
 
-**Domains with heavy loanword use:**
-1. **IT/Computing**: アプリ, ブラウザ, サーバー, クラウド, ストレージ
-2. **Business**: プレゼン, ミーティング, アジェンダ, フィードバック
-3. **Sports**: specific to each sport beyond basics
-4. **Fashion**: コーデ, トレンド, アイテム, ブランド
-5. **Music**: ライブ, フェス, サビ, アレンジ, カバー
-6. **Food service**: テイクアウト, デリバリー, ドリンクバー
+### Strategy: Cross-Reference Expansion
 
-**Method:** Pick a domain, list common loanwords used in that context, check dictionary.
+Expand from existing entries by finding mentioned but unlisted words.
 
-**Why effective:** Loanwords are essential for modern Japanese but often treated inconsistently.
-
-### MEDIUM PRIORITY Strategies
-
-#### Strategy H: Semantic Gap Analysis
-*Still useful but many obvious gaps are filled.*
-
-1. Pick a semantic domain (e.g., body parts)
-2. List words that should be in that domain
-3. Check which are missing from entries_index.json
-4. Add missing words as candidates
-
-**Common semantic groups:**
-- Body parts, days/months, seasons, foods, animals, colors, family terms, counters, time expressions, weather, directions, onomatopoeia
-
-#### Strategy I: Entry Cross-Reference Expansion
-*Useful for incremental expansion.*
-
+**Method:**
 1. Read recent dictionary entries
-2. For each entry, identify synonyms, antonyms, and related words mentioned in notes
+2. For each entry, identify synonyms, antonyms, and related words mentioned in notes or cross-references
 3. Check if those related words are in the dictionary
 4. Add missing ones as candidates
 
-#### Strategy J: Four-Character Idioms and Proverbs
-*Many common ones may already be covered; check systematically.*
+**Why effective:** Useful for incremental expansion from established content.
 
-**Yojijukugo categories:**
-- Describing personality: 誠心誠意, 温厚篤実, 軽挙妄動
-- Describing situations: 一触即発, 暗中模索, 危機一髪
-- Describing actions: 試行錯誤, 取捨選択, 創意工夫
+### Strategy: Written vs Spoken Japanese Balance
 
-**Proverbs:** Focus on those frequently referenced in modern contexts.
+Ensure the dictionary covers both written and spoken Japanese.
 
-### LOWER PRIORITY Strategies
-*Basic coverage is largely complete; use these only for spot-checking.*
+**Method:**
+1. Check for gaps in formal/written vocabulary (news, academic, business contexts)
+2. Check for gaps in casual/spoken vocabulary (conversation, sentence-final expressions, contracted forms)
 
-#### Strategy K: Frequency List Comparison
-*Most high-frequency words are now covered.*
-
-1. Reference standard frequency data (JLPT lists, BCCWJ rankings)
-2. Identify high-frequency words not yet in the dictionary
-3. Add as candidates
-
-**Note:** At nearly 6,000 entries, most JLPT N5-N2 vocabulary should be covered. Focus on finding remaining gaps rather than systematic sweeps.
-
-#### Strategy L: Basic Vocabulary Audit
-*Diminishing returns at current dictionary size.*
-
-Spot-check for overlooked basics:
-- Basic verbs, adjectives, nouns
-- Essential particles and conjunctions
-- Core adverbs
+**Why effective:** Dictionaries often skew toward one medium; this ensures balanced coverage.
 
 ---
 
-## Extended Category Reference
+## Creative Exploration
 
-### Compound verbs (V+V)
-Common first elements: 追い～, 切り～, 取り～, 持ち～, 引き～, 打ち～, 飛び～, 押し～, 差し～, 突き～, 振り～, 掛け～, 落ち～, 受け～
+**Don't limit yourself to the strategies above.** Each search session should involve creative thinking about what vocabulary learners need that might be missing. Consider:
 
-### Reduplication words (畳語)
-人々, 国々, 山々, 木々, 我々, 日々, 時々, 様々, 各々, 次々, 徐々, 段々, 益々, 偶々
+- What practical situations would learners encounter?
+- What vocabulary would help them understand media, conversations, or texts?
+- What semantic fields feel underrepresented?
+- What word types (verbs, adjectives, adverbs, etc.) might have gaps?
 
-### ～的 na-adjectives
-積極的, 消極的, 具体的, 抽象的, 一般的, 基本的, 個人的, 社会的, 精神的, 物理的, 心理的, 論理的, 感情的, 効果的, 現実的, 理想的
-
-### Paired antonym compounds
-上下, 左右, 前後, 内外, 表裏, 出入り, 売買, 往復, 開閉, 増減, 加減, 遠近, 高低, 大小, 長短, 強弱, 明暗, 善悪, 正誤, 生死
-
-### Emotional/psychological nouns
-焦り, 苛立ち, 戸惑い, 安堵, 憂鬱, 苦悩, 葛藤, 動揺, 羨望, 嫉妬, 後悔, 悔しさ, 寂しさ, 切なさ, 懐かしさ
-
-### Set grammatical expressions
-～というわけで, ～に関して, ～において, ～に対して, ～について, ～によって, ～として, ～にとって, ～をもって, ～に際して
-
-### Sino-Japanese number compounds
-一流, 二重, 三角, 四季, 五感, 六法, 七夕, 八方, 九九, 十分, 百科, 千差万別, 万全
-
-### Onomatopoeia by source
-- Water: ざぶざぶ, じゃぶじゃぶ, ぽたぽた, しとしと, ざあざあ
-- Fire: めらめら, ぼうぼう, ちろちろ
-- Machines: がたがた, ぶんぶん, カチカチ
-- Movement: すたすた, のろのろ, ばたばた, ふらふら
+The goal is comprehensive, balanced coverage—not deep exploration of any single category at the expense of others.
 
 ---
 
@@ -335,22 +250,24 @@ python3 build/manage_candidates.py add "漢字表記" "ひらがな読み" "brie
 
 **Example:**
 ```bash
-python3 build/manage_candidates.py add "推し" "おし" "one's favorite (idol/character); to support"
+python3 build/manage_candidates.py add "提案" "ていあん" "proposal, suggestion"
 ```
 
 ## Output Format
 
 After adding candidates, report:
 1. Number of words added
-2. Summary of categories/sources
+2. Summary of categories/sources (aim for variety)
 3. Any notable gaps identified for future sessions
 
 ## Quality Reminders
 
 - **Duplicates are blocked automatically:** The `manage_candidates.py add` command will refuse to add duplicates
 - **Watch for near-duplicates:** The automatic check catches exact matches; manually verify for verb forms, kanji variants, etc.
-- **Breadth over depth:** Aim for broad coverage across semantic domains
+- **Breadth over depth:** Aim for broad coverage across many domains rather than deep coverage of a few
+- **Basic/core first:** Prioritize completing basic and core tiers before expanding into specialized vocabulary
 - **Learner utility:** Prioritize words an intermediate learner would benefit from knowing
 - **No proper nouns:** Save those for systematic addition later
 - **Stable vocabulary:** Avoid ephemeral slang or highly specialized jargon
+- **Creative variety:** Each session should explore different areas; avoid repeatedly searching the same categories
 - **Use batch checks:** When planning which words to add: `python3 build/check_duplicate.py --batch "word1:reading1" ...`

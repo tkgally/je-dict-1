@@ -10,7 +10,7 @@ Add 100 new candidates to candidate_words.json using the find-candidates skill.
 ## Workflow
 
 1. Load the find-candidates skill for detailed guidelines
-2. Choose search strategies appropriate for the dictionary's current size (see below)
+2. Use a variety of search strategies to find balanced, diverse candidates
 3. Add candidates using: `python3 build/manage_candidates.py add "漢字" "ひらがな" "brief English note"`
 
 4. After adding all candidates, update PROJECT_STATUS.md:
@@ -24,39 +24,12 @@ Add 100 new candidates to candidate_words.json using the find-candidates skill.
 
 ## Duplicate Prevention (AUTOMATIC)
 
-**The `manage_candidates.py add` command now AUTOMATICALLY checks for duplicates.**
-
-When you run:
-```bash
-python3 build/manage_candidates.py add "食べる" "たべる" "to eat"
-```
+**The `manage_candidates.py add` command AUTOMATICALLY checks for duplicates.**
 
 The script will:
 1. Check `entries_index.json` for matching reading or headword
 2. Check `candidate_words.json` for matching reading or word
 3. **REFUSE to add the word if any match is found**
-4. Display the existing match so you know why it was rejected
-
-### Example of Automatic Rejection
-```
-$ python3 build/manage_candidates.py add "食べる" "たべる" "to eat"
-ERROR: Duplicate detected!
-  Exact match in dictionary: 00001_taberu (食べる / たべる)
-
-This word already exists. NOT adding to candidates.
-```
-
-### Pre-Check Command (Optional)
-If you want to check a word before attempting to add it:
-```bash
-python3 build/manage_candidates.py check "漢字" "かんじ"
-```
-
-### Batch Checking (Optional)
-To check multiple words at once before adding:
-```bash
-python3 build/check_duplicate.py --batch "食べる:たべる" "飲む:のむ" "書く:かく"
-```
 
 ### Near-Duplicates to Watch For
 The automatic check catches exact matches. You should still watch for:
@@ -65,50 +38,33 @@ The automatic check catches exact matches. You should still watch for:
 - **Okurigana variations**: 行なう vs 行う, 現われる vs 現れる
 - **Prefix/suffix forms**: Check if 大～ or ～的 forms exist separately
 
-## Selection Strategy: Balanced Coverage
+## Selection Approach
 
-As the dictionary approaches 6,000+ entries, basic vocabulary gaps become rarer. Use a **balanced approach** that emphasizes harder-to-find vocabulary:
+### Priority 1: Basic and Core Vocabulary Completeness
 
-### Tier 1: Core Vocabulary Gaps (20-30 candidates)
-*De-emphasized: Most basic vocabulary is already covered at this dictionary size.*
+Before adding specialized vocabulary, ensure the basic and core tiers are complete:
+- **Basic tier (600-800 words):** Fundamental vocabulary every learner needs
+- **Core tier (1600-2000 words):** Vocabulary expected of any adult using Japanese
 
-Check for missing **fundamental words** that may have been overlooked:
-- Basic verbs, adjectives, nouns, adverbs
-- Essential particles and conjunctions
-- Numbers, counters, time words
+Check for missing function words, demonstratives, numbers, counters, time expressions, body parts, family terms, colors, directions, core verbs, essential adjectives, and common adverbs.
 
-**Method**: Spot-check basic vocabulary lists. Most will already exist, but occasional gaps may remain.
+### Priority 2: Balanced Coverage
 
-### Tier 2: Semantic Domain Completion (50-70 candidates)
-Fill gaps in **semantic categories** already partially covered:
-- If 猫 exists but not 犬, add 犬
-- If 春 and 夏 exist but not 秋 and 冬, add those
-- Check body parts, family terms, colors, directions, weather, days/months
+Use a variety of strategies from the find-candidates skill:
+- Corpus-driven gap analysis (frequency-based)
+- Collocational mining (words that go with existing entries)
+- Register/formality pairs
+- Semantic domain exploration (choose domains creatively)
+- Productive pattern completion
+- Cross-reference expansion
+- Written vs spoken balance
 
-**Method**: Read existing entries in a domain, list what's missing.
+### Key Principles
 
-### Tier 3: Related Word Networks (50-60 candidates)
-Expand from existing entries by adding:
-- Antonyms of existing words (始まる → 終わる)
-- Synonyms at different registers (食べる → 召し上がる, 頂く)
-- Transitive/intransitive pairs (開ける → 開く)
-- Word families (教える → 教育, 教室, 教師)
-
-**Method**: Review recent entries' notes sections for mentioned related words.
-
-### Tier 4: Productive Patterns (40-50 candidates)
-Add words from systematic patterns:
-- Compound verbs: 追い出す, 取り出す, 持ち上げる, etc.
-- ～的 adjectives: 積極的, 消極的, 具体的, etc.
-- Reduplication: 人々, 日々, 時々, etc.
-- Common four-character idioms: 一石二鳥, 十人十色, etc.
-
-### Tier 5: Modern & Informal Vocabulary (30-40 candidates)
-Add contemporary terms with stable usage:
-- Technology: アプリ, ダウンロード, 検索, etc.
-- Social media/internet: フォロー, 投稿, バズる, etc.
-- Lifestyle: コスパ, タイパ, リモート, etc.
-- Colloquial expressions: マジ, やばい, めっちゃ, etc.
+- **Breadth over depth:** Cover many domains rather than going deep in a few
+- **Creative variety:** Each session should explore different areas
+- **Learner utility:** Focus on words intermediate learners would benefit from
+- **Stable vocabulary:** Avoid ephemeral slang or highly specialized jargon
 
 ## Selection Criteria
 
@@ -124,18 +80,9 @@ Add contemporary terms with stable usage:
 - Modern terms with widespread, stable usage
 - Useful informal expressions learners need to understand
 
-## Priority Guidance
-
-At the current dictionary size (~6000 entries, goal 10,000):
-- **High priority**: Semantic domain completion, related word networks, productive patterns
-- **Medium priority**: Modern vocabulary, specialized but common terms
-- **Lower priority**: Basic vocabulary gaps (mostly filled), rare expressions
-
-The goal is comprehensive coverage of common vocabulary before expanding into specialized domains.
-
 ## Output Format
 
 After adding candidates, report:
 1. Number of words added
-2. Breakdown by tier/category
+2. Summary of categories/sources covered (emphasize variety)
 3. Notable gaps identified for future sessions
