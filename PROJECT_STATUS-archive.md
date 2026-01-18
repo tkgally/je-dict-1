@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 107)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, nouns, and onomatopoeia:
+
+- **Compound verbs** (6): {書|か}き{留|と}める (to write down), {切|き}り{出|だ}す (to bring up), {打|う}ち{上|あ}げる (to launch/wrap-up party), {押|お}し{寄|よ}せる (to surge), {飛|と}び{降|お}りる (to jump down), {差|さ}し{掛|か}かる (to approach)
+- **I-adjectives** (4): せわしない (restless), えげつない (nasty), おぼつかない (uncertain), いたわしい (pitiful)
+- **Na-adjectives** (2): {特徴的|とくちょうてき} (characteristic), {防御的|ぼうぎょてき} (defensive)
+- **Nouns - Business/Formal** (6): {告白|こくはく} (confession), {報告書|ほうこくしょ} (report), {成果|せいか} (result), {開発|かいはつ} (development), {概要|がいよう} (summary), {謝罪|しゃざい} (apology)
+- **Nouns - Daily life** (4): {物件|ぶっけん} (property), {遅延|ちえん} (delay), {海藻|かいそう} (seaweed), {蚊取|かと}り{線香|せんこう} (mosquito coil)
+- **Nouns - Abstract** (3): {錯覚|さっかく} (illusion), {幻想|げんそう} (fantasy), リスク (risk)
+- **Onomatopoeia/Adverbs** (5): どっと (in a rush), むずむず (itching), うずうず (eager), くらくら (dizzy), しれっと (nonchalantly)
+
+Notable entry features:
+- Compound verb patterns: ～{留|と}める for securing/noting, ～{上|あ}げる for launching, ～{寄|よ}せる for gathering/surging
+- Expressive i-adjectives including Kansai-origin えげつない and literary おぼつかない
+- Business vocabulary ({報告書|ほうこくしょ}, {成果|せいか}, {開発|かいはつ}) common in corporate contexts
+- Real estate vocabulary ({物件|ぶっけん}) and train terminology ({遅延|ちえん}{証明書|しょうめいしょ})
+- Japanese summer icons: {蚊取|かと}り{線香|せんこう} with cultural notes on pig-shaped holders
+- Onomatopoeia contrasting similar concepts: むずむず (physical itch) vs うずうず (eager anticipation)
+
+Total entries: 6,781 → 6,811
+Remaining candidates: 833 → 804
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 106)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, adverbs, onomatopoeia, and modern vocabulary:
 
