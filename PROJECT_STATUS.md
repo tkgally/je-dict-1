@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,021
+- **Total entries**: 6,969
 - **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,918 | General: 513 | Unassigned: 399
-- **Candidate words**: ~709 words tracked in `candidate_words.json`
+- **Candidate words**: ~651 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Katakana Reading Cleanup, Session 116)
+Fixed inconsistency where some entries had katakana readings instead of hiragana, causing duplicate entries.
+
+**Changes:**
+- **Deleted 52 duplicate entries** where both katakana and hiragana reading versions existed (kept hiragana versions)
+- **Converted 1 entry reading** to hiragana: 07126_diiemu (DM: ディーエム → でぃーえむ)
+- **Fixed 93 candidate readings** in candidate_words.json
+- **Removed 7 duplicate candidates** after hiragana normalization
+- **Removed 51 candidates** that now exist in dictionary (index sync)
+
+**Updated documentation and validation:**
+- Added katakana reading validation to `validate.py` (now errors on katakana readings)
+- Updated `entry-guidelines` skill with explicit "Reading Format" section
+- Updated `find-candidates` skill with hiragana reading requirement
+- Updated `manage_candidates.py` to auto-convert katakana readings to hiragana with warning
+- Created `fix_katakana_readings.py` script for future cleanup needs
+
+**Rationale:** Katakana readings like "スキー" vs hiragana "すきー" created duplicate entries for the same word. All readings are now normalized to hiragana (even for loanwords) to ensure consistent indexing, deduplication, and lookup. The long vowel mark ー is preserved since there's no hiragana equivalent.
+
+Total entries: 7,021 → 6,969 (52 duplicates removed)
+Remaining candidates: ~709 → ~651 (51 synced + 7 duplicates removed)
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 115)
 Added 30 new dictionary entries from candidate_words.json, covering grammar patterns, four-character idioms, modern vocabulary, and everyday terms:
@@ -304,30 +326,6 @@ Notable entry features:
 
 Total entries: 6,781 → 6,811
 Remaining candidates: 833 → 804
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 106)
-Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, adverbs, onomatopoeia, and modern vocabulary:
-
-- **Compound verbs** (5): {受|う}け{継|つ}ぐ (to inherit), {差|さ}し{引|ひ}く (to deduct), {打|う}ち{切|き}る (to discontinue), {振|ふ}り{切|き}る (to shake off), {飛|と}び{付|つ}く (to jump at)
-- **I-adjectives** (5): あどけない (innocent), いじらしい (touching), けたたましい (shrill), しおらしい (meek), ふてぶてしい (brazen)
-- **Na-adjectives** (3): {閉鎖的|へいさてき} (exclusive), {包括的|ほうかつてき} (comprehensive), {暫定的|ざんていてき} (provisional)
-- **Adverbs** (4): あくまで (to the end), おのずと (naturally), しみじみ (deeply), まんまと (completely fooled)
-- **Onomatopoeia** (2): くねくね (winding), かりかり (crispy)
-- **Verbs** (2): {呆|あき}れる (to be appalled), ばれる (to be found out)
-- **Modern vocabulary** (4): スクショ (screenshot), ワンオペ (one-person operation), イクメン (hands-on father), {不動産|ふどうさん} (real estate)
-- **Family terms** (2): {義母|ぎぼ} (mother-in-law), {義父|ぎふ} (father-in-law)
-- **Abstract nouns** (3): {比率|ひりつ} (ratio), {切|せつ}なさ (heartache), {懐|なつ}かしさ (nostalgia)
-
-Notable entry features:
-- Compound verb patterns: ～{継|つ}ぐ for inheritance, ～{切|き}る for completion/severing
-- Expressive i-adjectives for describing people's qualities and sounds
-- ～{的|てき} na-adjectives common in formal/written Japanese
-- Adverbs for emphasis and nuance in natural speech
-- Modern slang: ワンオペ (from restaurant industry to parenting), イクメン (childcare-involved fathers)
-- Emotion nouns formed from adjectives: {切|せつ}ない→{切|せつ}なさ, {懐|なつ}かしい→{懐|なつ}かしさ
-
-Total entries: 6,751 → 6,781
-Remaining candidates: 861 → 833
 
 ---
 

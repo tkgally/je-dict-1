@@ -43,6 +43,7 @@ class ValidationResult:
         sense_number_errors: List of (file_path, error_message) for sense_numbers issues
         target_id_errors: List of (file_path, error_message) for stale target_id references
         hardenable_warnings: List of (file_path, warning_message) for refs that could be hardened
+        katakana_reading_errors: List of (file_path, error_message) for readings containing katakana
     """
     total_count: int = 0
     valid_count: int = 0
@@ -53,6 +54,7 @@ class ValidationResult:
     sense_number_errors: list[tuple[Path, str]] = field(default_factory=list)
     target_id_errors: list[tuple[Path, str]] = field(default_factory=list)
     hardenable_warnings: list[tuple[Path, str]] = field(default_factory=list)
+    katakana_reading_errors: list[tuple[Path, str]] = field(default_factory=list)
 
 
 def load_schema(schema_path: Path) -> dict:
@@ -180,6 +182,42 @@ def is_valid_hiragana(text: str) -> bool:
         if not (('\u3041' <= char <= '\u3096') or char in 'ーゝゞ'):
             return False
     return True
+
+
+def contains_katakana(text: str) -> bool:
+    """Check if text contains any katakana characters (excluding long vowel mark)."""
+    if not text:
+        return False
+    for char in text:
+        code = ord(char)
+        # Katakana range: U+30A1-U+30F6 (standard katakana characters)
+        # Exclude U+30FC (ー) which is the long vowel mark and acceptable
+        if 0x30A1 <= code <= 0x30F6:
+            return True
+    return False
+
+
+def check_katakana_readings(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, str]]:
+    """
+    Check that entry readings are in hiragana, not katakana.
+
+    Readings should always be in hiragana. Katakana readings cause duplicate
+    entries and inconsistency issues.
+
+    Returns a list of (file_path, error_message) for entries with katakana readings.
+    """
+    errors = []
+
+    for file_path, entry in entries_data:
+        reading = entry.get('reading', '')
+        if contains_katakana(reading):
+            errors.append((
+                file_path,
+                f"Reading '{reading}' contains katakana. Readings must be in hiragana only. "
+                f"Use: python3 build/fix_katakana_readings.py to fix."
+            ))
+
+    return errors
 
 
 def validate_structured_cross_reference(ref: dict, entry_reading: str, entry_headword: str) -> list[str]:
@@ -567,6 +605,9 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
         entries_data, all_ids, project_root
     )
 
+    # Check for katakana in readings (should be hiragana only)
+    katakana_reading_errors = check_katakana_readings(entries_data)
+
     return ValidationResult(
         total_count=total,
         valid_count=valid,
@@ -576,7 +617,8 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
         timestamp_warnings=timestamp_warnings,
         sense_number_errors=sense_number_errors,
         target_id_errors=target_id_errors,
-        hardenable_warnings=hardenable_warnings
+        hardenable_warnings=hardenable_warnings,
+        katakana_reading_errors=katakana_reading_errors
     )
 
 
@@ -763,6 +805,15 @@ def main():
             print("  Run: python3 build/harden_references.py --apply")
         print()
 
+    # Report katakana reading errors
+    if result.katakana_reading_errors:
+        print(f"\nKatakana reading ERRORS ({len(result.katakana_reading_errors)} issues):\n")
+        for file_path, error_msg in result.katakana_reading_errors:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {error_msg}")
+        print()
+
     print(f"Validation complete: {result.valid_count}/{result.total_count} entries valid")
     warnings = []
     if result.cross_ref_errors:
@@ -777,10 +828,12 @@ def main():
         warnings.append(f"{len(result.target_id_errors)} stale target_id errors")
     if result.hardenable_warnings:
         warnings.append(f"{len(result.hardenable_warnings)} hardenable refs")
+    if result.katakana_reading_errors:
+        warnings.append(f"{len(result.katakana_reading_errors)} katakana reading errors")
     if warnings:
         print(f"  ({', '.join(warnings)})")
 
-    if result.invalid_files or result.target_id_errors:
+    if result.invalid_files or result.target_id_errors or result.katakana_reading_errors:
         return 1
     return 0
 
