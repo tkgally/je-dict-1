@@ -7,6 +7,27 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 108)
+Added 30 new dictionary entries from candidate_words.json, covering verbs, loanwords, expressions, and nouns:
+
+- **Verbs** (3): {押|お}し{入|い}る (to break in), {降|お}り{立|た}つ (to arrive/land), {萎縮|いしゅく}する (to shrink/be intimidated)
+- **Business loanwords** (6): フィードバック (feedback), プロジェクト (project), タスク (task), デッドライン (deadline), キャンセル (cancel), マネジメント (management)
+- **Food/Lifestyle loanwords** (4): カフェ (cafe), パスタ (pasta), ピザ (pizza), アイス (ice cream)
+- **Housing** (2): ロフト (loft), バルコニー (balcony)
+- **Sports abbreviations** (3): バスケ (basketball), バレー (volleyball), スノボ (snowboarding)
+- **Expressions/Grammar** (4): にも{関|かか}わらず (in spite of), いずれにせよ (in any case), ともかく (anyway), っぽい (-ish suffix)
+- **Nouns** (8): {一人前|いちにんまえ} (full portion/independent person), {一部|いちぶ} (part), {採択|さいたく} (adoption), {識別|しきべつ} (identification), {沿革|えんかく} (history/development), {斑点|はんてん} (spot), {末端|まったん} (end/tip), {悔|くや}しさ (frustration)
+
+Notable entry features:
+- Compound verbs: {押|お}し{入|い}る (criminal/forceful entry), {降|お}り{立|た}つ (literary/news context for arrivals)
+- Business vocabulary common in Japanese workplaces (タスク, デッドライン, マネジメント)
+- Youth-culture sports abbreviations (バスケ, バレー, スノボ) with parent word cross-references
+- Productive suffix っぽい with semantic breakdown (resemblance, tendency, excess)
+- {一人前|いちにんまえ} covering both food portions and personal maturity meanings
+
+Total entries: 6,811 → 6,841
+Remaining candidates: 804 → 784
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 107)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, nouns, and onomatopoeia:
 
