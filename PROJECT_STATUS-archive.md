@@ -8,6 +8,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 ## Archived Recent Changes
 
 
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 95)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Traditional games** (4): じゃんけん (rock-paper-scissors), けん{玉|だま} (kendama), サイコロ (dice)
+- **Japanese mythology** (2): {河童|かっぱ} (kappa), {天狗|てんぐ} (tengu)
+- **Swimming strokes** (2): {平泳|ひらおよ}ぎ (breaststroke), {背泳|せおよ}ぎ (backstroke)
+- **Sports terms** (2): {連勝|れんしょう} (winning streak), {連敗|れんぱい} (losing streak)
+- **Natural phenomena** (2): {満潮|まんちょう} (high tide), {干潮|かんちょう} (low tide)
+- **Physical states** (3): {空腹|くうふく} (hunger), {満腹|まんぷく} (full stomach), {眠気|ねむけ} (sleepiness)
+- **Adjectives** (3): {図々|ずうずう}しい (shameless), {気|き}まずい (awkward), もどかしい (frustrating)
+- **Cultural items** (2): {招|まね}き{猫|ねこ} (beckoning cat), だるま (daruma doll)
+- **Tools** (1): {砥石|といし} (whetstone)
+
+Notable entry features:
+- Traditional Japanese games and toys with cultural background (じゃんけん rules, けん{玉|だま} tricks)
+- Japanese mythology creatures with folklore details ({河童|かっぱ}'s dish, {天狗|てんぐ}'s characteristics)
+- Swimming vocabulary with competitive context
+- Antonym pairs: {連勝|れんしょう}↔{連敗|れんぱい}, {満潮|まんちょう}↔{干潮|かんちょう}, {空腹|くうふく}↔{満腹|まんぷく}
+- Good luck charms ({招|まね}き{猫|ねこ}, だるま) with symbolic meanings
+
+Total entries: 6,571 → 6,591
+Remaining candidates: 762 → 742
+
 ### 2026-01-17 (New Candidates - 102 Words Added, Session 94)
 Added 102 new candidate words to `candidate_words.json` with balanced coverage:
 
