@@ -7,6 +7,43 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (New Candidates - 100 Words Added, Session 111)
+Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Compound Verbs** (~20 words):
+- {読|よ}み{飛|と}ばす (skip reading), {書|か}き{足|た}す (add in writing), {放|ほう}り{込|こ}む (throw in), {焼|や}き{付|つ}ける (burn in)
+- {弾|はじ}き{出|だ}す (calculate), {貼|は}り{付|つ}ける (paste), {吐|は}き{出|だ}す (spit out), {掘|ほ}り{起|お}こす (dig up)
+- {浮|う}かび{上|あ}がる (emerge), {言|い}い{当|あ}てる (guess correctly), {見|み}せびらかす (show off), {練|ね}り{上|あ}げる (refine)
+- {蹴飛|けと}ばす (kick away), {付|つ}け{足|た}す (add on), {取|と}り{繕|つくろ}う (keep up appearances)
+
+**Idiomatic Expressions with Body Parts** (~30 words):
+- 気 expressions: {気|き}が{利|き}く (attentive), {気|き}が{重|おも}い (reluctant), {気|き}が{短|みじか}い (short-tempered), {気|き}が{散|ち}る (distracted)
+- 口 expressions: {口|くち}が{軽|かる}い (loose-lipped), {口|くち}が{堅|かた}い (discreet)
+- Body part idioms: {腹|はら}が{立|た}つ (angry), {顔|かお}が{広|ひろ}い (well-connected), {肩身|かたみ}が{狭|せま}い (awkward)
+- Action expressions: {眉|まゆ}をひそめる (frown), {足|あし}を{運|はこ}ぶ (visit), {顔|かお}を{出|だ}す (show up), {胸|むね}を{張|は}る (be proud)
+- Breath expressions: {息|いき}を{呑|の}む (gasp), {息|いき}を{潜|ひそ}める (hold breath)
+
+**Adjectives and Personality Words** (~15 words):
+- Adjectives: {奥深|おくぶか}い (profound), {生|なま}ぬるい (lukewarm), {差|さ}し{出|で}がましい (presumptuous)
+- Personality: {気|き}まぐれ (capricious), {理不尽|りふじん} (unreasonable), {横柄|おうへい} (arrogant), {潔|いさぎよ}い (graceful)
+
+**Nouns and Abstract Concepts** (~20 words):
+- Social: {世帯|せたい} (household), {配偶者|はいぐうしゃ} (spouse), {世話人|せわにん} (organizer)
+- Abstract: {見込|みこ}み (prospect), {手掛|てがか}かり (clue), {成|な}り{行|ゆ}き (outcome)
+- Psychology: {先入観|せんにゅうかん} (preconception), {固定観念|こていかんねん} (fixed idea), {既成概念|きせいがいねん} (conventional notion)
+
+**Adverbs and Onomatopoeia** (~15 words):
+- Adverbs: とことん (thoroughly), ひょっとして (perhaps), まして (let alone), たいして (not very)
+- Onomatopoeia: じろじろ (staring), ちらちら (flickering), めきめき (remarkably), むしゃむしゃ (munching)
+
+Notable features:
+- Strong focus on idiomatic body-part expressions (気・口・目・耳・手・足・腹・胸・腰・首・肩)
+- Practical compound verbs for everyday actions
+- Adjectives describing personality and social behavior
+- Abstract nouns for thinking and social concepts
+
+Candidate count: 727 → 827
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 110)
 Added 30 new dictionary entries from candidate_words.json, covering adjectives, nouns, compound verbs, and onomatopoeia:
 
