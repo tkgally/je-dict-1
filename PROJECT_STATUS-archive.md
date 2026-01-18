@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 96)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Sports/Baseball** (4): {延長戦|えんちょうせん} (overtime), {反則|はんそく} (foul), {打席|だせき} (at-bat), {完封|かんぷう} (shutout)
+- **Swimming strokes** (2): バタフライ (butterfly stroke), クロール (front crawl)
+- **Carpentry/Tools** (4): のみ (chisel), たがね (cold chisel), {万力|まんりき} (vise), かんな (plane)
+- **Vehicle parts** (4): ウィンカー (turn signal), ダッシュボード (dashboard), サイドミラー (side mirror), クラッチ (clutch)
+- **Traditional games** (4): あみだくじ (ladder lottery), くじ{引|び}き (lottery drawing), お{手玉|てだま} (beanbag juggling), {竹馬|たけうま} (stilts)
+- **Japanese mythology** (1): {座敷童|ざしきわらし} (zashiki-warashi)
+- **Natural phenomena** (1): {蜃気楼|しんきろう} (mirage)
+
+Notable entry features:
+- Baseball terminology with detailed rules ({延長戦|えんちょうせん}'s extra innings, {完封|かんぷう} statistics)
+- Swimming strokes completing the 4{泳法|えいほう} set with cross-references
+- Traditional Japanese carpentry tools with technique notes (かんな's pull-type motion)
+- Vehicle parts with {和製英語|わせいえいご} notes (ウィンカー from "winker")
+- Traditional games with cultural/mathematical explanations (あみだくじ's permutation property)
+- Japanese folklore creature {座敷童|ざしきわらし} with detailed mythology
+- {蜃気楼|しんきろう} with kanji etymology (giant clam legend)
+
+Total entries: 6,591 → 6,611
+Remaining candidates: 742 → 722
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 95)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:

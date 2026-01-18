@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,751
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,816 | General: 469 | Unassigned: 337
-- **Candidate words**: ~861 words tracked in `candidate_words.json`
+- **Total entries**: 6,781
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,840 | General: 475 | Unassigned: 337
+- **Candidate words**: ~833 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 106)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, adverbs, onomatopoeia, and modern vocabulary:
+
+- **Compound verbs** (5): {受|う}け{継|つ}ぐ (to inherit), {差|さ}し{引|ひ}く (to deduct), {打|う}ち{切|き}る (to discontinue), {振|ふ}り{切|き}る (to shake off), {飛|と}び{付|つ}く (to jump at)
+- **I-adjectives** (5): あどけない (innocent), いじらしい (touching), けたたましい (shrill), しおらしい (meek), ふてぶてしい (brazen)
+- **Na-adjectives** (3): {閉鎖的|へいさてき} (exclusive), {包括的|ほうかつてき} (comprehensive), {暫定的|ざんていてき} (provisional)
+- **Adverbs** (4): あくまで (to the end), おのずと (naturally), しみじみ (deeply), まんまと (completely fooled)
+- **Onomatopoeia** (2): くねくね (winding), かりかり (crispy)
+- **Verbs** (2): {呆|あき}れる (to be appalled), ばれる (to be found out)
+- **Modern vocabulary** (4): スクショ (screenshot), ワンオペ (one-person operation), イクメン (hands-on father), {不動産|ふどうさん} (real estate)
+- **Family terms** (2): {義母|ぎぼ} (mother-in-law), {義父|ぎふ} (father-in-law)
+- **Abstract nouns** (3): {比率|ひりつ} (ratio), {切|せつ}なさ (heartache), {懐|なつ}かしさ (nostalgia)
+
+Notable entry features:
+- Compound verb patterns: ～{継|つ}ぐ for inheritance, ～{切|き}る for completion/severing
+- Expressive i-adjectives for describing people's qualities and sounds
+- ～{的|てき} na-adjectives common in formal/written Japanese
+- Adverbs for emphasis and nuance in natural speech
+- Modern slang: ワンオペ (from restaurant industry to parenting), イクメン (childcare-involved fathers)
+- Emotion nouns formed from adjectives: {切|せつ}ない→{切|せつ}なさ, {懐|なつ}かしい→{懐|なつ}かしさ
+
+Total entries: 6,751 → 6,781
+Remaining candidates: 861 → 833
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 105)
 Added 30 new dictionary entries from candidate_words.json, covering adjectives, verbs, adverbs, onomatopoeia, and everyday vocabulary:
@@ -394,29 +418,6 @@ Notable entry features:
 
 Total entries: 6,611 → 6,631
 Remaining candidates: 722 → 702
-
-### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 96)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Sports/Baseball** (4): {延長戦|えんちょうせん} (overtime), {反則|はんそく} (foul), {打席|だせき} (at-bat), {完封|かんぷう} (shutout)
-- **Swimming strokes** (2): バタフライ (butterfly stroke), クロール (front crawl)
-- **Carpentry/Tools** (4): のみ (chisel), たがね (cold chisel), {万力|まんりき} (vise), かんな (plane)
-- **Vehicle parts** (4): ウィンカー (turn signal), ダッシュボード (dashboard), サイドミラー (side mirror), クラッチ (clutch)
-- **Traditional games** (4): あみだくじ (ladder lottery), くじ{引|び}き (lottery drawing), お{手玉|てだま} (beanbag juggling), {竹馬|たけうま} (stilts)
-- **Japanese mythology** (1): {座敷童|ざしきわらし} (zashiki-warashi)
-- **Natural phenomena** (1): {蜃気楼|しんきろう} (mirage)
-
-Notable entry features:
-- Baseball terminology with detailed rules ({延長戦|えんちょうせん}'s extra innings, {完封|かんぷう} statistics)
-- Swimming strokes completing the 4{泳法|えいほう} set with cross-references
-- Traditional Japanese carpentry tools with technique notes (かんな's pull-type motion)
-- Vehicle parts with {和製英語|わせいえいご} notes (ウィンカー from "winker")
-- Traditional games with cultural/mathematical explanations (あみだくじ's permutation property)
-- Japanese folklore creature {座敷童|ざしきわらし} with detailed mythology
-- {蜃気楼|しんきろう} with kanji etymology (giant clam legend)
-
-Total entries: 6,591 → 6,611
-Remaining candidates: 742 → 722
 
 ---
 
