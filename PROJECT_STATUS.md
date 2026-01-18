@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,691
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,786 | General: 469 | Unassigned: 307
-- **Candidate words**: ~918 words tracked in `candidate_words.json`
+- **Total entries**: 6,721
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,816 | General: 469 | Unassigned: 307
+- **Candidate words**: ~891 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 104)
+Added 30 new dictionary entries from candidate_words.json, covering personality traits, emotions, cooking, cultural concepts, and modern business vocabulary:
+
+- **Personality/Character traits** (8): {鈍感|どんかん} (insensitive), {敏感|びんかん} (sensitive), {不器用|ぶきよう} (clumsy), {頑固|がんこ} (stubborn), {無口|むくち} (taciturn), {口下手|くちべた} (inarticulate), せっかち (impatient), そそっかしい (careless)
+- **Emotions/Mental states** (5): {悔|く}い (regret), {情|なさ}け (compassion), {悩|なや}み (worry), {思|おも}いやり (consideration), {億劫|おっくう} (bothersome)
+- **Japanese cultural concepts** (3): やり{甲斐|がい} (sense of fulfillment), {生|い}き{甲斐|がい} (ikigai - purpose in life), {志|こころざし} (aspiration)
+- **Cooking vocabulary** (4): {火加減|ひかげん} (heat level), {手際|てぎわ} (skill/efficiency), コツ (knack), {隠|かく}し{味|あじ} (secret ingredient)
+- **I-adjective** (1): {香|こう}ばしい (fragrant/savory)
+- **Adverbs** (5): {尚更|なおさら} (all the more), {一切|いっさい} (entirely), {最早|もはや} (no longer), {強|し}いて (if pressed), どうやら (apparently)
+- **Business slang** (3): コスト (cost), リスケ (reschedule), アポ (appointment)
+- **Weather** (1): {俄雨|にわかあめ} (sudden rain shower)
+
+Notable entry features:
+- Antonym pairs: {鈍感|どんかん}↔{敏感|びんかん}, やり{甲斐|がい}↔{生|い}き{甲斐|がい}
+- Japanese cultural concept {生|い}き{甲斐|がい} (ikigai) with international popularity context
+- Cooking vocabulary for temperature control and technique
+- Business abbreviation slang (リスケ, アポ) with formal equivalents noted
+- Adverbs for hedging and inference (どうやら, {強|し}いて{言|い}えば)
+
+Total entries: 6,691 → 6,721
+Remaining candidates: 918 → 891
 
 ### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 103)
 Added 20 new dictionary entries from candidate_words.json, focusing on interpersonal vocabulary and Japanese cultural concepts:
@@ -396,247 +418,6 @@ Notable entry features:
 
 Total entries: 6,571 → 6,591
 Remaining candidates: 762 → 742
-
-### 2026-01-17 (New Candidates - 102 Words Added, Session 94)
-Added 102 new candidate words to `candidate_words.json` with balanced coverage:
-
-**Novel categories NOT mentioned in prompt/skill (~52 words):**
-- **Gardening** (4): {接|つ}ぎ{木|き} (grafting), {挿|さ}し{木|き} (plant cutting), {雨樋|あまどい} (rain gutter), {土台|どだい} (foundation)
-- **Sports** (14): {延長戦|えんちょうせん} (overtime), {反則|はんそく} (foul), {打席|だせき} (at-bat), {打率|だりつ} (batting average), {防御率|ぼうぎょりつ} (ERA), {完封|かんぷう} (shutout), {逆転|ぎゃくてん} (comeback), {敗退|はいたい} (defeat), {連勝|れんしょう} (winning streak), {連敗|れんぱい} (losing streak), {平泳|ひらおよ}ぎ (breaststroke), {背泳|せおよ}ぎ (backstroke), バタフライ (butterfly), クロール (front crawl)
-- **Tools/Carpentry** (6): のみ (chisel), たがね (cold chisel), {万力|まんりき} (vise), {糸鋸|いとのこ} (coping saw), かんな (plane), {砥石|といし} (whetstone)
-- **Vehicle parts** (6): ウィンカー (turn signal), ダッシュボード (dashboard), サイドミラー (side mirror), バックミラー (rearview mirror), クラッチ (clutch), ワイパー (wiper)
-- **Traditional games** (9): {駒|こま} (game piece), サイコロ (dice), じゃんけん (rock-paper-scissors), あみだくじ (ladder lottery), くじ{引|び}き (lottery), お{手玉|てだま} (juggling beanbags), けん{玉|だま} (kendama), {竹馬|たけうま} (stilts), {凧揚|たこあ}げ (kite flying)
-- **Mythology** (3): {河童|かっぱ} (kappa), {天狗|てんぐ} (tengu), {座敷童|ざしきわらし} (zashiki-warashi)
-- **Natural phenomena** (4): {干潮|かんちょう} (low tide), {満潮|まんちょう} (high tide), {引|ひ}き{潮|しお} (ebb tide), {蜃気楼|しんきろう} (mirage)
-- **Other novel categories** (6): {裏地|うらじ} (lining), {縫|ぬ}い{目|め} (seam), {飛|と}び{込|こ}み (diving), ゴーグル (goggles), {羽根|はね}つき (Japanese badminton), {福笑|ふくわら}い (pin-the-face game)
-
-**Standard categories from prompt/skill (~50 words):**
-- **～{的|てき} adjectives** (5): {画期的|かっきてき} (groundbreaking), {徹底的|てっていてき} (thorough), {決定的|けっていてき} (decisive), {衝撃的|しょうげきてき} (shocking), {劇的|げきてき} (dramatic)
-- **Employment/finance** (5): {左遷|させん} (demotion), {栄転|えいてん} (promotion transfer), {出向|しゅっこう} (temporary transfer), {手取|てど}り (take-home pay), {額面|がくめん} (face value)
-- **Academic subjects** (3): {地学|ちがく} (earth science), {生物学|せいぶつがく} (biology), {天文学|てんもんがく} (astronomy)
-- **Crafts/hobbies** (3): {木彫|きぼ}り (wood carving), {手芸|しゅげい} (handicraft), {斜線|しゃせん} (diagonal)
-- **Physical states/textures** (9): {空腹|くうふく} (hunger), {満腹|まんぷく} (full stomach), {眠気|ねむけ} (sleepiness), ぬめぬめ (slimy), コリコリ (crunchy), プチプチ (popping), {渋|しぶ}い (astringent), {青臭|あおくさ}い (grassy smell), {生臭|なまぐさ}い (fishy smell)
-- **Social/emotion terms** (9): {顔見知|かおみし}り (acquaintance), {仲間入|なかまい}り (joining), {仲間外|なかまはず}れ (exclusion), {馴|な}れ{馴|な}れしい (overly familiar), {図々|ずうずう}しい (shameless), {気|き}まずい (awkward), てれくさい (embarrassed), {気恥|きは}ずかしい (bashful), もどかしい (frustrating)
-- **Writing/publishing** (6): {行間|ぎょうかん} (line spacing), {余白|よはく} (margin), {下書|したが}き (draft), {添削|てんさく} (correction), {手回|てまわ}し (preparation), {紛|まぎ}らわしい (confusing)
-- **Cultural items** (4): だるま (daruma doll), {招|まね}き{猫|ねこ} (beckoning cat), {狛犬|こまいぬ} (shrine guardian), {焦|こ}げ{臭|くさ}い (burnt smell)
-- **Music/geometry** (5): {元本|がんぽん} (principal), {対角線|たいかくせん} (diagonal), {音程|おんてい} (pitch/interval)
-
-Notable features:
-- Novel categories (~50%) explore areas not mentioned in prompt: sports statistics, traditional Japanese games, carpentry tools, vehicle parts, mythology
-- Swimming strokes complete the aquatic sports vocabulary
-- Traditional games (じゃんけん, あみだくじ, けん{玉|だま}) cover Japanese childhood culture
-- Vehicle interior parts complement existing driving vocabulary
-- Mythology ({河童|かっぱ}, {天狗|てんぐ}) adds folklore vocabulary
-
-Candidate count: 660 → 762
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 93)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Animals** (4): ペンギン (penguin), ゴリラ (gorilla), {蜜蜂|みつばち} (honeybee), バッタ (grasshopper)
-- **Insects** (1): カマキリ (praying mantis)
-- **Weather** (2): {霙|みぞれ} (sleet), {靄|もや} (haze/mist)
-- **Infrastructure/Roads** (3): {横断歩道|おうだんほどう} (crosswalk), {路地|ろじ} (alley), ガードレール (guardrail)
-- **Kitchen/Household** (4): お{椀|わん} (soup bowl), {鍋敷|なべし}き (trivet), マグカップ (mug), {空気清浄機|くうきせいじょうき} (air purifier)
-- **Tools** (1): ねじ{回|まわ}し (screwdriver)
-- **Construction** (1): {足場|あしば} (scaffolding)
-- **Body Functions** (2): げっぷ (burp), {咳払|せきばら}い (clearing throat)
-- **Arts** (1): バレエ (ballet)
-- **Medical** (1): {応急処置|おうきゅうしょち} (first aid)
-
-Notable entry features:
-- Animal vocabulary including zoo favorites (ペンギン, ゴリラ) and common insects (バッタ, カマキリ, {蜜蜂|みつばち})
-- Weather terms {霙|みぞれ} and {靄|もや} with meteorological distinctions
-- Infrastructure vocabulary ({横断歩道|おうだんほどう}, ガードレール) for road safety
-- Kitchen items with traditional Japanese context (お{椀|わん} for soup, {鍋敷|なべし}き)
-- {空気清浄機|くうきせいじょうき} with notes on Japanese allergy season ({花粉|かふん}{症|しょう})
-- Body function terms (げっぷ, {咳払|せきばら}い) with cultural etiquette notes
-- {応急処置|おうきゅうしょち} with Japanese first aid training context
-
-Total entries: 6,551 → 6,571
-Remaining candidates: 680 → 660
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 92)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Compound verbs** (2): {呼|よ}びかける (to call out/appeal), {聞|き}き{直|なお}す (to ask again/re-listen)
-- **Adverb** (1): {二度|にど}と (never again)
-- **Modern/Digital** (1): {既読|きどく} (read message status)
-- **Body/Physical** (3): {欠伸|あくび} (yawn), {瞬|まばた}き (blink), {踝|くるぶし} (ankle)
-- **Clothing** (4): {襟|えり} (collar), {裾|すそ} (hem), チャック (zipper), {下駄箱|げたばこ} (shoe cabinet)
-- **Home Appliances** (2): {加湿器|かしつき} (humidifier), {除湿機|じょしつき} (dehumidifier)
-- **Infrastructure** (3): {踏切|ふみきり} (railroad crossing), {歩道橋|ほどうきょう} (pedestrian overpass), {地下道|ちかどう} (underground passage)
-- **Medical** (1): {処方箋|しょほうせん} (prescription)
-- **Nature** (1): てんとう{虫|むし} (ladybug)
-- **Adjectives** (2): しつこい (persistent/heavy taste), {健気|けなげ} (brave/admirable)
-
-Notable entry features:
-- {既読|きどく} covering LINE messaging culture and {既読|きどく}スルー phenomenon
-- Antonym pair {加湿器|かしつき}↔{除湿機|じょしつき} for seasonal Japanese climate needs
-- Infrastructure vocabulary ({踏切|ふみきり}, {歩道橋|ほどうきょう}, {地下道|ちかどう}) common in urban Japan
-- {処方箋|しょほうせん} with Japanese healthcare system context (out-of-hospital dispensing)
-- Body function vocabulary ({欠伸|あくび}, {瞬|まばた}き) and clothing terminology ({襟|えり}, {裾|すそ})
-- チャック as wasei-eigo (Japanese-made English word)
-
-Total entries: 6,531 → 6,551
-Remaining candidates: 700 → 680
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 91)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Modern Slang/Internet** (6): リア{充|じゅう} (person with fulfilling life), コミュ{障|しょう} (socially awkward), KY (can't read the room), ガチ{勢|ぜい} (hardcore fan), アンチ (hater), チルい (chill/relaxed)
-- **Tech/Digital** (5): ガジェット (gadget), プロフィール (profile), ユーチューバー (YouTuber), {画面共有|がめんきょうゆう} (screen sharing), プッシュ{通知|つうち} (push notification)
-- **Business/Consumer** (2): {入会金|にゅうかいきん} (membership fee), {添加物|てんかぶつ} (additive)
-- **Beauty/Appearance** (2): {一重|ひとえ} (single eyelid), {二重|ふたえ} (double eyelid)
-- **Polite/Formal** (2): お{手数|てすう} (trouble - polite), {洗練|せんれん} (refinement)
-- **Workplace** (1): モラハラ (moral harassment)
-- **Agriculture** (2): {堆肥|たいひ} (compost), {果樹園|かじゅえん} (orchard)
-
-Notable entry features:
-- Modern youth slang with リア{充|じゅう}, コミュ{障|しょう}, KY reflecting Japanese internet culture
-- Gaming/fan community vocabulary (ガチ{勢|ぜい} vs エンジョイ{勢|ぜい})
-- Digital communication terms ({画面共有|がめんきょうゆう}, プッシュ{通知|つうち}) for remote work/meetings
-- Beauty vocabulary ({一重|ひとえ}↔{二重|ふたえ}) with cultural context
-- チルい as example of English loanword becoming Japanese i-adjective
-- Workplace harassment terminology (モラハラ) alongside other ハラ words
-
-Total entries: 6,511 → 6,531
-Remaining candidates: 716 → 700
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 90)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Social Media/Modern** (4): タイムライン (timeline/feed), {陰|いん}キャ (introvert slang), {陽|よう}キャ (extrovert slang), {投|な}げ{銭|せん} (online tipping)
-- **Technology** (2): アナログ (analog/old-fashioned), {自動運転|じどううんてん} (autonomous driving)
-- **Business/Consumer** (6): クーポン (coupon), {延長|えんちょう} (extension), {明細|めいさい} (itemization/statement), {同意書|どういしょ} (consent form), {部下|ぶか} (subordinate), {彼氏|かれし} (boyfriend)
-- **Public Services** (2): {消防署|しょうぼうしょ} (fire station), {役所|やくしょ} (government office)
-- **Traditional Japanese** (2): {不祝儀|ぶしゅうぎ} (condolence money), {蛇|じゃ}の{目傘|めがさ} (traditional umbrella)
-- **Modern Lifestyle** (1): {朝活|あさかつ} (morning activity)
-- **Four-character idioms** (2): {暗中模索|あんちゅうもさく} (groping in dark), {有名無実|ゆうめいむじつ} (nominal)
-- **Adjective** (1): {国際的|こくさいてき} (international)
-
-Notable entry features:
-- Social media vocabulary with {陰|いん}キャ/{陽|よう}キャ as antonym pair (youth slang)
-- {投|な}げ{銭|せん} covering both traditional (street performers) and modern (streaming tips) usage
-- Traditional Japanese culture terms ({不祝儀|ぶしゅうぎ} with envelope etiquette, {蛇|じゃ}の{目傘|めがさ} with craft traditions)
-- {朝活|あさかつ} as part of the ～{活|かつ} word pattern trend
-- Government/public service vocabulary ({消防署|しょうぼうしょ}, {役所|やくしょ}) with emergency numbers and procedures
-- Four-character idioms with etymology and context
-
-Total entries: 6,513 → 6,533
-Remaining candidates: 732 → 716
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 88)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Tech/Finance** (5): {仮想通貨|かそうつうか} (cryptocurrency), ブロックチェーン (blockchain), {電子決済|でんしけっさい} (electronic payment), QRコード (QR code), ロボット (robot)
-- **Modern Business** (5): ノマド (digital nomad), コワーキング (coworking), イノベーション (innovation), ベンチャー (venture/startup), ソリューション (solution)
-- **Environmental** (3): {脱炭素|だつたんそ} (decarbonization), カーボンニュートラル (carbon neutral), {電動|でんどう} (electric-powered)
-- **Business/Consumer** (4): {不具合|ふぐあい} (defect/malfunction), {年会費|ねんかいひ} (annual fee), {有効期限|ゆうこうきげん} (expiration date), {契約書|けいやくしょ} (contract)
-- **Modern Japanese** (2): テンション (mood/energy level), {保活|ほかつ} (daycare hunting)
-- **Cooking verb** (1): {泡立|あわだ}てる (to whip/froth)
-
-Notable entry features:
-- Cryptocurrency and blockchain terminology with related terms and Japanese legal terminology ({暗号資産|あんごうしさん})
-- QRコード noting its Japanese origin (Denso Wave, 1994)
-- Modern work vocabulary (ノマド, コワーキング) reflecting post-pandemic work trends
-- Environmental terms for Japan's 2050 carbon neutrality goals
-- テンション as {和製英語|わせいえいご} (different meaning from English "tension")
-- {保活|ほかつ} as part of ～{活|かつ} word pattern ({就活|しゅうかつ}, {婚活|こんかつ}, etc.)
-- {泡立|あわだ}てる with transitivity pair and cooking terminology
-
-Total entries: 6,473 → 6,493
-Remaining candidates: 772 → 752
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 87)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Photography** (1): シャッター (shutter)
-- **Humble expression** (1): {拝借|はいしゃく} (borrowing humble)
-- **Compound verbs** (5): {押|お}し{流|なが}す (to wash away), {踏|ふ}み{倒|たお}す (to default on), {食|く}い{止|と}める (to hold back), {嵌|は}め{込|こ}む (to fit into), {飛|と}び{移|うつ}る (to jump across)
-- **～{的|てき} adjectives** (3): {挑発的|ちょうはつてき} (provocative), {排他的|はいたてき} (exclusive), {壊滅的|かいめつてき} (devastating)
-- **Four-character idioms** (5): {抱腹絶倒|ほうふくぜっとう} (hilarious), {傍若無人|ぼうじゃくぶじん} (arrogant), {意気投合|いきとうごう} (hit it off), {厚顔無恥|こうがんむち} (shameless), {朝令暮改|ちょうれいぼかい} (inconsistent)
-- **Modern business loanwords** (5): クラウドファンディング (crowdfunding), ブレインストーミング (brainstorming), シェアハウス (share house), マインドセット (mindset), ワークショップ (workshop)
-
-Notable entry features:
-- Compound verbs with ～{流|なが}す (wash away), ～{倒|たお}す (knock down/default), ～{止|と}める (stop), ～{込|こ}む (into), ～{移|うつ}る (transfer) patterns
-- Four-character idioms covering emotions ({抱腹絶倒|ほうふくぜっとう}, {意気投合|いきとうごう}) and character traits ({傍若無人|ぼうじゃくぶじん}, {厚顔無恥|こうがんむち})
-- Modern business loanwords used in Japanese corporate culture
-- Humble expression {拝借|はいしゃく} with {拝|はい} prefix for formal contexts
-- {排他的|はいたてき}{経済|けいざい}{水域|すいいき} (EEZ) terminology
-
-Total entries: 6,453 → 6,473
-Remaining candidates: 792 → 772
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 86)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Astronomy/space** (2): {軌道|きどう} (orbit/trajectory), {天体|てんたい} (celestial body)
-- **Photography** (2): {現像|げんぞう} (photo developing), ピント (focus)
-- **Textiles** (2): {編|あ}み{物|もの} (knitting), ミシン (sewing machine)
-- **Geology** (2): {地層|ちそう} (stratum), {断層|だんそう} (fault)
-- **Publishing** (1): {印税|いんぜい} (royalty)
-- **Eye care** (2): {老眼|ろうがん} (presbyopia), {乱視|らんし} (astigmatism)
-- **Compound verbs** (2): {追|お}い{込|こ}む (to corner), {引|ひ}き{伸|の}ばす (to stretch)
-- **～{的|てき} adjectives** (2): {威圧的|いあつてき} (intimidating), {革命的|かくめいてき} (revolutionary)
-- **Four-character idioms** (4): {大器晩成|たいきばんせい} (great talents mature late), {疑心暗鬼|ぎしんあんき} (suspicion breeds monsters), {一目瞭然|いちもくりょうぜん} (obvious at a glance), {波乱万丈|はらんばんじょう} (eventful/turbulent)
-- **Modern business loanword** (1): コンプライアンス (compliance)
-
-Notable entry features:
-- Science vocabulary covering astronomy ({軌道|きどう}, {天体|てんたい}) and geology ({地層|ちそう}, {断層|だんそう})
-- Photography terminology from film era ({現像|げんぞう}, ピント) with modern digital context
-- Textile crafts vocabulary ({編|あ}み{物|もの}↔ミシン)
-- Eye care conditions with medical terminology
-- Compound verbs with ～{込|こ}む (into) and ～{伸|の}ばす (extend) patterns
-- Four-character idioms with etymology and cultural context
-- Modern business Japanese (コンプライアンス) with corporate culture notes
-
-Total entries: 6,433 → 6,453
-Remaining candidates: 812 → 792
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 85)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Japanese proverbs** (3): {早起|はやお}きは{三文|さんもん}の{徳|とく} (the early bird catches the worm), {百聞|ひゃくぶん}は{一見|いっけん}に{如|し}かず (seeing is believing), {急|いそ}がば{回|まわ}れ (more haste, less speed)
-- **Four-character idioms** (4): {心機一転|しんきいってん} (turning over a new leaf), {絶体絶命|ぜったいぜつめい} (desperate situation), {創意工夫|そういくふう} (originality and ingenuity), {取捨選択|しゅしゃせんたく} (careful selection)
-- **Compound verbs** (7): {吹|ふ}き{出|だ}す (to burst out laughing/gush), {泣|な}き{出|だ}す (to burst into tears), {盛|も}り{上|あ}がる (to get excited), {飛|と}び{上|あ}がる (to jump up), {出直|でなお}す (to start over), {追|お}い{払|はら}う (to chase away), {見分|みわ}ける (to distinguish)
-- **～{的|てき} adjectives** (4): {公的|こうてき} (public/official), {私的|してき} (private/personal), {内的|ないてき} (internal/inner), {外的|がいてき} (external/outer)
-- **Adverbs** (4): いよいよ (finally/more and more), きっぱり (decisively), どうせ (anyway/after all), さすがに (as expected)
-- **Slang verbs** (2): ムカつく (to be pissed off), ググる (to google)
-- **Weather noun** (1): {竜巻|たつまき} (tornado)
-
-Notable entry features:
-- Classic Japanese proverbs with origins, English equivalents, and usage notes
-- Four-character idioms with etymology and contextual examples
-- Compound verbs with ～{出|だ}す (sudden action) and ～{上|あ}がる (completion/rising) patterns
-- ～{的|てき} adjective antonym pairs ({公的|こうてき}↔{私的|してき}, {内的|ないてき}↔{外的|がいてき})
-- Modern internet slang (ググる) and youth slang (ムカつく) with register notes
-- Adverbs with nuanced emotional/situational meanings
-
-Total entries: 6,408 → 6,433
-Remaining candidates: 837 → 812
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 84)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Astronomy/space** (4): {流星|りゅうせい} (meteor), {日食|にっしょく} (solar eclipse), {月食|げっしょく} (lunar eclipse), {星座|せいざ} (constellation)
-- **Tools/hardware** (2): ペンチ (pliers), {脚立|きゃたつ} (stepladder)
-- **Postal/mail** (2): {差出人|さしだしにん} (sender), {消印|けしいん} (postmark)
-- **Grooming/hair** (3): {散髪|さんぱつ} (haircut), {美容院|びよういん} (beauty salon), {理髪店|りはつてん} (barbershop)
-- **Games/playground** (6): {鬼|おに}ごっこ (tag), かくれんぼ (hide-and-seek), {縄跳|なわと}び (jump rope), ぶらんこ (swing), {滑|すべ}り{台|だい} (slide), {砂場|すなば} (sandbox)
-- **Gardening** (3): {剪定|せんてい} (pruning), {水|みず}やり (watering), {植木鉢|うえきばち} (flower pot)
-- **Vehicle parts** (3): タイヤ (tire), ハンドル (steering wheel), アクセル (accelerator)
-- **～{的|てき} adjectives** (2): {肯定的|こうていてき} (affirmative), {否定的|ひていてき} (negative)
-
-Notable entry features:
-- Astronomy vocabulary with eclipse types ({皆既日食|かいきにっしょく}, {部分日食|ぶぶんにっしょく})
-- Complete playground equipment vocabulary with cross-references
-- Grooming/hair vocabulary contrasting {美容院|びよういん}↔{理髪店|りはつてん}
-- Vehicle parts for driving contexts with safety notes
-- ～{的|てき} adjective antonym pair ({肯定的|こうていてき}↔{否定的|ひていてき})
-
-Total entries: 6,383 → 6,408
-Remaining candidates: 862 → 837
 
 ---
 
