@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 109)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, formal grammar patterns, modern vocabulary, and everyday nouns:
+
+- **Compound verbs** (9): {打|う}ち{出|だ}す (to launch), {引|ひ}き{付|つ}ける (to attract), {打|う}ち{消|け}す (to negate), {押|お}し{切|き}る (to overcome), {差|さ}し{入|い}れる (to insert/bring refreshments), {持|も}ちかける (to propose), {持|も}ち{堪|こた}える (to hold out), {取|と}り{付|つ}ける (to install), {押|お}し{進|すす}める (to push forward)
+- **Formal grammar patterns** (6): において (in/at), に{対|たい}して (towards), によって (by/depending on), として (as), にとって (for someone), に{伴|ともな}い (accompanying)
+- **Tech/Digital** (2): DM (direct message), プライバシー (privacy)
+- **Everyday nouns** (8): {運休|うんきゅう} (service suspension), {発着|はっちゃく} (arrivals/departures), {下味|したあじ} (preliminary seasoning), {連|つ}れ{合|あ}い (spouse), {運用|うんよう} (operation), {居住|きょじゅう} (residence), {妄想|もうそう} (delusion), {宣告|せんこく} (verdict)
+- **Verbs** (2): {痺|しび}れる (to become numb), かぶれる (to get a rash)
+- **Slang** (1): ガチで (seriously)
+- **Formal** (1): {遺憾|いかん} (regrettable)
+- **Cooking** (1): {灰汁|あく}{抜|ぬ}き (removing bitterness)
+
+Notable entry features:
+- Comprehensive formal grammar patterns (において, に対して, etc.) essential for written Japanese
+- Compound verb patterns: ～{切|き}る for completion, ～{出|だ}す for starting/launching
+- Youth slang ガチで with etymology from sumo ガチンコ
+- {差|さ}し{入|い}れる covering both literal insertion and bringing refreshments to people
+- Cooking terminology {灰汁|あく}{抜|ぬ}き with common methods and ingredients
+
+Total entries: 6,841 → 6,871
+Remaining candidates: ~784 → ~755
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 108)
 Added 30 new dictionary entries from candidate_words.json, covering verbs, loanwords, expressions, and nouns:
 
