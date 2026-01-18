@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="オフサイド - offside (sports). Japanese-English dictionary entry with definitions and examples.">
+    <title>オフサイド (おふさいど) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">オフサイド</h1>
+            <div class="entry-reading">おふさいど</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">offside (sports)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">offside</span>
+                    <div class="definition-explanation">A rule violation in soccer and other sports where an attacking player is positioned beyond the last defender when receiving the ball.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">オフサイドで<ruby>得点<rp>(</rp><rt>とくてん</rt><rp>)</rp></ruby>が<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>消<rp>(</rp><rt>け</rt><rp>)</rp></ruby>された。</div>
+                    <div class="example-english">The goal was disallowed due to offside.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>線審<rp>(</rp><rt>せんしん</rt><rp>)</rp></ruby>がオフサイドの<ruby>旗<rp>(</rp><rt>はた</rt><rp>)</rp></ruby>を<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げた。</div>
+                    <div class="example-english">The linesman raised the flag for offside.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">VAR<ruby>判定<rp>(</rp><rt>はんてい</rt><rp>)</rp></ruby>でオフサイドが<ruby>確認<rp>(</rp><rt>かくにん</rt><rp>)</rp></ruby>された。</div>
+                    <div class="example-english">Offside was confirmed by VAR review.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>SOCCER RULE:</p><p>A player is offside if:</p><ul><li>They are in the opponent&#x27;s half</li><li>They are closer to the goal line than both the ball and the second-last opponent</li><li>They are actively involved in play</li></ul><p>RELATED TERMS:</p><ul><li>オフサイドトラップ (offside trap)</li><li>オフサイドライン (offside line)</li><li>VAR (Video Assistant Referee)</li><li><ruby>線審<rp>(</rp><rt>せんしん</rt><rp>)</rp></ruby> / <ruby>副審<rp>(</rp><rt>ふくしん</rt><rp>)</rp></ruby> (assistant referee, linesman)</li></ul><p>JAPANESE EQUIVALENT:</p><ul><li><ruby>越位<rp>(</rp><rt>えつい</rt><rp>)</rp></ruby> (offside - formal/technical term, rarely used)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 9:57</div>
+                <div class="metadata-file">06500/06740_ofusaido</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ビート - beat (music); rhythm. Japanese-English dictionary entry with definitions and examples.">
+    <title>ビート (びーと) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ビート</h1>
+            <div class="entry-reading">びーと</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">beat (music); rhythm</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">beat; rhythm; pulse in music</span>
+                    <div class="definition-explanation">The basic rhythmic unit or pulse in music. Also refers to the rhythmic pattern or groove.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>曲<rp>(</rp><rt>きょく</rt><rp>)</rp></ruby>はビートが<ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>い。</div>
+                    <div class="example-english">This song has a strong beat.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ビートに<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>わせて<ruby>踊<rp>(</rp><rt>おど</rt><rp>)</rp></ruby>ろう。</div>
+                    <div class="example-english">Let&#x27;s dance to the beat.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ドラムがビートを<ruby>刻<rp>(</rp><rt>きざ</rt><rp>)</rp></ruby>んでいる。</div>
+                    <div class="example-english">The drums are keeping the beat.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>MUSIC TERMINOLOGY:</p><ul><li>ビートを<ruby>刻<rp>(</rp><rt>きざ</rt><rp>)</rp></ruby>む (to keep the beat)</li><li>ビートに<ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>る (to ride the beat, get into the groove)</li><li>ダウンビート (downbeat)</li><li>アップビート (upbeat)</li><li>オフビート (offbeat)</li></ul><p>BEATS PER MINUTE:</p><ul><li>BPM (beats per minute) - テンポの<ruby>単位<rp>(</rp><rt>たんい</rt><rp>)</rp></ruby></li></ul><p>RELATED TERMS:</p><ul><li>リズム (rhythm)</li><li>テンポ (tempo)</li><li>グルーヴ (groove)</li><li><ruby>拍<rp>(</rp><rt>はく</rt><rp>)</rp></ruby> (beat, in traditional Japanese music terminology)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 9:57</div>
+                <div class="metadata-file">06500/06734_biito</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
