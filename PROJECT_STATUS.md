@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,089
-- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 429
-- **Candidate words**: ~627 words tracked in `candidate_words.json`
+- **Total entries**: 7,119
+- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 459
+- **Candidate words**: ~597 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,34 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 122)
+Added 30 new dictionary entries from candidate_words.json, covering occupations, household items, medical terms, academic subjects, business vocabulary, and cultural terms:
+
+- **Occupations** (4): {配管工|はいかんこう} (plumber), {電気技師|でんきぎし} (electrician), {彫刻家|ちょうこくか} (sculptor), {映画監督|えいがかんとく} (film director)
+- **Household items** (5): {物干|ものほ}し (drying rack), {洗濯籠|せんたくかご} (laundry basket), {吹|ふ}き{抜|ぬ}け (atrium), {食器棚|しょっきだな} (dish cabinet), マットレス (mattress)
+- **Sewing/Clothing** (3): ファスナー (zipper), {裏地|うらじ} (lining), {縫|ぬ}い{目|め} (seam)
+- **Medical terms** (3): {低血圧|ていけつあつ} (low blood pressure), {不整脈|ふせいみゃく} (arrhythmia), {遠視|えんし} (farsightedness)
+- **Academic subjects** (3): {地学|ちがく} (earth science), {生物学|せいぶつがく} (biology), {天文学|てんもんがく} (astronomy)
+- **Music** (1): {音程|おんてい} (pitch/interval)
+- **Business/Work** (3): {出向|しゅっこう} (secondment), ワークライフバランス (work-life balance), ダイバーシティ (diversity)
+- **Sports** (2): {打率|だりつ} (batting average), {飛|と}び{込|こ}み (diving)
+- **Cultural/Religious** (2): {狛犬|こまいぬ} (guardian lion-dog), {仏壇|ぶつだん} (Buddhist altar)
+- **Yojijukugo** (2): {粉骨砕身|ふんこつさいしん} (working oneself to the bone), {前途多難|ぜんとたなん} (many difficulties ahead)
+- **Games** (1): {駒|こま} (game piece)
+- **Compound verb** (1): {撫|な}で{下|お}ろす (to smooth down/feel relieved)
+
+Notable entry features:
+- Trade/professional occupations with qualification contexts
+- Household vocabulary for daily life: laundry, furniture, architecture
+- Medical terms with antonym pairs: {低血圧|ていけつあつ} ↔ {高血圧|こうけつあつ}, {遠視|えんし} ↔ {近視|きんし}
+- Academic subjects as a group with cross-references
+- Modern business loanwords: ワークライフバランス, ダイバーシティ
+- Japanese cultural items: {狛犬|こまいぬ} with 阿吽 symbolism, {仏壇|ぶつだん} with component vocabulary
+- Two yojijukugo with character breakdowns and similar expressions
+
+Total entries: 7,089 → 7,119
+Remaining candidates: ~627 → ~597
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 121)
 Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary across multiple categories:
@@ -321,22 +349,6 @@ Notable entry features:
 
 Total entries: 6,931 → 6,961
 Remaining candidates: ~797 → ~767
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 112)
-Added 30 new dictionary entries from candidate_words.json, covering compound verbs, na-adjectives, and social/work vocabulary:
-
-- **Compound verbs** (15): {読|よ}み{飛|と}ばす (skip reading), {書|か}き{足|た}す (add in writing), {放|ほう}り{込|こ}む (throw in), {焼|や}き{付|つ}ける (burn in/imprint), {弾|はじ}き{出|だ}す (calculate), {貼|は}り{付|つ}ける (paste), {吐|は}き{出|だ}す (spit out), {掘|ほ}り{起|お}こす (dig up), {浮|う}かび{上|あ}がる (emerge), {言|い}い{当|あ}てる (guess correctly), {見|み}せびらかす (show off), {練|ね}り{上|あ}げる (refine), {蹴飛|けと}ばす (kick away), {付|つ}け{足|た}す (add on), {取|と}り{繕|つくろ}う (keep up appearances)
-- **Na-adjectives** (5): {気軽|きがる} (casual), {軽率|けいそつ} (rash), {大雑把|おおざっぱ} (rough), {几帳面|きちょうめん} (methodical), {窮屈|きゅうくつ} (cramped)
-- **Work/Social nouns** (10): {世帯|せたい} (household), {手掛|てが}かり (clue), {見込|みこ}み (prospect), {取|と}り{柄|え} (merit), {言|い}い{分|ぶん} (one's say), {幹部|かんぶ} (executive), {中堅|ちゅうけん} (mid-level), {新米|しんまい} (newcomer), {常連|じょうれん} (regular customer), {運命|うんめい} (fate)
-
-Notable entry features:
-- Strong compound verb coverage: ～{飛|と}ばす (skip), ～{足|た}す (add), ～{込|こ}む (into), ～{付|つ}ける (attach), ～{出|だ}す (out), ～{起|お}こす (dig up), ～{上|あ}がる (emerge), ～{当|あ}てる (hit mark), ～{上|あ}げる (complete)
-- Personality contrast pair: {大雑把|おおざっぱ} (rough) ↔ {几帳面|きちょうめん} (meticulous)
-- Workplace hierarchy vocabulary: {幹部|かんぶ} → {中堅|ちゅうけん} → {新米|しんまい}
-- Customer relationships: {常連|じょうれん} (regular) vs first-time customers
-
-Total entries: 6,901 → 6,931
-Remaining candidates: ~827 → ~797
 
 ---
 
