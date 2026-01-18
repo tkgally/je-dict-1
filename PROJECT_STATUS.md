@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,671
 - **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,766 | General: 469 | Unassigned: 307
-- **Candidate words**: ~663 words tracked in `candidate_words.json`
+- **Candidate words**: ~698 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,55 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (New Candidates - 101 Words Added, Session 100)
+Added 101 new candidate words to `candidate_words.json` with balanced coverage across diverse categories:
+
+**Professions & Occupations** (8):
+- {薬剤師|やくざいし} (pharmacist), {獣医|じゅうい} (veterinarian), {司書|ししょ} (librarian), {配管工|はいかんこう} (plumber), {電気技師|でんきぎし} (electrician), {彫刻家|ちょうこくか} (sculptor), {映画監督|えいがかんとく} (film director), {探偵|たんてい} (detective)
+
+**Household & Daily Life** (26):
+- Tools/kitchen: {栓抜|せんぬ}き (bottle opener), {缶切|かんき}り (can opener), おろし{金|がね} (grater), {蛍光|けいこう}ペン (highlighter), {軍手|ぐんて} (work gloves), {巻尺|まきじゃく} (tape measure)
+- Household items: {電源|でんげん}タップ (power strip), {延長|えんちょう}コード (extension cord), {柔軟剤|じゅうなんざい} (fabric softener), {漂白剤|ひょうはくざい} (bleach), {消臭剤|しょうしゅうざい} (deodorizer), {殺虫剤|さっちゅうざい} (insecticide), {芳香剤|ほうこうざい} (air freshener), {接着剤|せっちゃくざい} (adhesive), {潤滑油|じゅんかつゆ} (lubricant)
+- Laundry: {洗濯籠|せんたくかご} (laundry basket), ゴミ{箱|ばこ} (trash can), {靴棚|くつだな} (shoe rack), {傘立|かさた}て (umbrella stand), {鍵掛|かぎか}け (key hook)
+- Bedding: {掛|か}け{布団|ぶとん} (comforter), {敷布団|しきぶとん} (mattress futon)
+- Tech: {携帯充電器|けいたいじゅうでんき} (phone charger), モバイルバッテリー (portable battery), ワイヤレス{充電|じゅうでん} (wireless charging), {液晶画面|えきしょうがめん} (LCD screen)
+
+**Building & Architecture** (9):
+- {天窓|てんまど} (skylight), {網戸|あみど} (screen door), {出窓|でまど} (bay window), {吹|ふ}き{抜|ぬ}け (atrium), {物干|ものほ}し (drying rack), {排水溝|はいすいこう} (drain)
+
+**Environment & Energy** (7):
+- {節電|せつでん} (power saving), {再生可能|さいせいかのう}エネルギー (renewable energy), {太陽光発電|たいようこうはつでん} (solar power), {風力発電|ふうりょくはつでん} (wind power), {断熱材|だんねつざい} (insulation), {気密性|きみつせい} (airtightness), カビ (mold)
+
+**Taste Vocabulary** (4):
+- {酸味|さんみ} (sourness), {甘味|あまみ} (sweetness), {塩気|しおけ} (saltiness), {旨味|うまみ} (umami), {渋|しぶ}み (astringency)
+
+**Medical & Health** (7):
+- {鬱血|うっけつ} (congestion), {脱臼|だっきゅう} (dislocation), {貧血|ひんけつ} (anemia), {不整脈|ふせいみゃく} (arrhythmia), {低血圧|ていけつあつ} (low blood pressure), {食中毒|しょくちゅうどく} (food poisoning)
+
+**Action Verbs** (6):
+- よろめく (to stagger), つまずく (to stumble), {撫|な}で{下|お}ろす (to smooth down), {突|つ}っ{込|こ}む (to thrust), {飛|と}び{跳|は}ねる (to hop), {引|ひ}っ{掻|か}く (to scratch)
+
+**Public Facilities & Travel** (22):
+- Facilities: {観客席|かんきゃくせき} (spectator seating), {控|ひか}え{室|しつ} (waiting room), {更衣室|こういしつ} (changing room), {喫煙所|きつえんじょ} (smoking area), {授乳室|じゅにゅうしつ} (nursing room), {多目的|たもくてき}トイレ (accessible restroom), {指定席|していせき} (reserved seat), {自由席|じゆうせき} (unreserved seat), {喫茶室|きっさしつ} (tea lounge), {休憩所|きゅうけいじょ} (rest area), {集合場所|しゅうごうばしょ} (meeting place)
+- Safety: {非常口|ひじょうぐち} (emergency exit), {避難経路|ひなんけいろ} (evacuation route), {防犯|ぼうはん}カメラ (security camera)
+- Fees: {入場料|にゅうじょうりょう} (admission fee), {入館料|にゅうかんりょう} (museum fee), {拝観料|はいかんりょう} (temple fee), {駐車料金|ちゅうしゃりょうきん} (parking fee), {宿泊料|しゅくはくりょう} (accommodation fee)
+
+**Accommodation & Business** (12):
+- {送迎|そうげい} (shuttle service), {朝食付|ちょうしょくつ}き (with breakfast), {素泊|すどま}り (room only), {連泊|れんぱく} (consecutive stay), {予約制|よやくせい} (by reservation), {先着順|せんちゃくじゅん} (first-come-first-served), {抽選|ちゅうせん} (lottery), {当選|とうせん} (winning), {落選|らくせん} (losing), {繰|く}り{上|あ}げ (moving up schedule), {繰|く}り{下|さ}げ (pushing back), {日程調整|にっていちょうせい} (scheduling)
+
+**Work & Leave** (5):
+- {遅刻届|ちこくとどけ} (late notice), {欠席届|けっせきとどけ} (absence notice), {有給休暇|ゆうきゅうきゅうか} (paid vacation), {育児休暇|いくじきゅうか} (parental leave), {産休|さんきゅう} (maternity leave)
+
+Notable features:
+- Practical daily life vocabulary covering household items, cleaning supplies, and modern technology
+- Comprehensive public facility vocabulary useful for travelers
+- Complete accommodation/booking vocabulary set
+- Work-related leave terminology reflecting Japanese corporate culture
+- Taste vocabulary completing the five basic tastes (umami as the fifth taste, discovered in Japan)
+- Environment/sustainability terms reflecting Japan's carbon neutrality goals
+
+Candidate count: 597 → 698
 
 ### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 99)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -515,27 +564,6 @@ Notable entry features:
 
 Total entries: 6,358 → 6,383
 Remaining candidates: 786 → 761
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 81)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **～{的|てき} adjectives** (6): {本能的|ほんのうてき} (instinctive), {刺激的|しげきてき} (stimulating), {意欲的|いよくてき} (ambitious), {献身的|けんしんてき} (devoted), {象徴的|しょうちょうてき} (symbolic), {恒久的|こうきゅうてき} (permanent)
-- **Compound verbs** (5): {蹴|け}り{倒|たお}す (to kick down), {突|つ}き{詰|つ}める (to investigate thoroughly), {切|き}り{詰|つ}める (to economize), {這|は}い{上|あ}がる (to crawl up), {塗|ぬ}り{替|か}える (to repaint)
-- **Onomatopoeia/adverbs** (7): ちょろちょろ (trickling), がやがや (noisy chatter), ひそひそ (whispering), もじもじ (fidgeting), ほんのり (slightly), ほっこり (heartwarming), ちゃっかり (shrewdly)
-- **Four-character idioms** (2): {軽挙妄動|けいきょもうどう} (rash action), {温厚篤実|おんこうとくじつ} (gentle and sincere)
-- **Humble expressions** (2): {拝読|はいどく} (reading humble), {拝聴|はいちょう} (listening humble)
-- **Conjunctions** (2): とはいえ (although), とはいうものの (having said that)
-- **Modern casual** (1): てか (or rather)
-
-Notable entry features:
-- ～{的|てき} adjectives with antonym pairs ({恒久的|こうきゅうてき}↔{暫定的|ざんていてき}, {意欲的|いよくてき}↔{消極的|しょうきょくてき})
-- Compound verbs with ～{倒|たお}す (knock down), ～{詰|つ}める (exhaustive), ～{上|あ}がる (upward) patterns
-- Onomatopoeia covering sounds (がやがや, ひそひそ), emotions (もじもじ, ほっこり), and textures (ちょろちょろ)
-- Humble expressions with {拝|はい} prefix for formal business/academic contexts
-- Modern youth slang (てか) alongside formal conjunctions
-
-Total entries: 6,333 → 6,358
-Remaining candidates: 811 → 786
 
 ---
 
