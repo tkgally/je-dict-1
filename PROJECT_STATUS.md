@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,671
 - **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,766 | General: 469 | Unassigned: 307
-- **Candidate words**: ~820 words tracked in `candidate_words.json`
+- **Candidate words**: ~937 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,58 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (New Candidates - 117 Words Added, Session 102)
+Added 117 new candidate words to `candidate_words.json` with balanced coverage across interpersonal and social vocabulary:
+
+**Personality & Character Traits** (~15 words):
+- {気軽|きがる} (casual), {軽率|けいそつ} (rash), {大雑把|おおざっぱ} (rough), {几帳面|きちょうめん} (methodical), {窮屈|きゅうくつ} (cramped)
+- {無愛想|ぶあいそう} (curt), {愛想|あいそう} (amiability), {愛嬌|あいきょう} (charm)
+- {不可欠|ふかけつ} (indispensable), {不可解|ふかかい} (mysterious), {不可思議|ふかしぎ} (inexplicable), {不用意|ふようい} (careless)
+
+**Communication & Speech** (~20 words):
+- Verbal habits: {口癖|くちぐせ} (verbal habit), {愚痴|ぐち} (complaint), {陰口|かげぐち} (gossip)
+- Social concepts: {本音|ほんね} (true feelings), {建前|たてまえ} (public stance), {人見知り|ひとみしり} (shy with strangers)
+- Types of talk: {世間話|せけんばなし} (small talk), {雑談|ざつだん} (chitchat), {井戸端会議|いどばたかいぎ} (gossip session), {独り言|ひとりごと} (monologue)
+- Speech types: {寝言|ねごと} (sleep-talking), たわ{言|ごと} (nonsense), {繰|く}り{言|ごと} (repetitive complaints), {憎|にく}まれ{口|ぐち} (sarcasm), {減|へ}らず{口|ぐち} (backtalk)
+- Flattery: お{世辞|せじ} (flattery), {追従|ついしょう} (sycophancy), おべっか (brown-nosing), {嫌味|いやみ} (snide remark)
+
+**Emotions & Psychology** (~15 words):
+- {甘|あま}える (depend on), {甘|あま}やかす (spoil), {見栄|みえ} (vanity), {虚栄心|きょえいしん} (conceit)
+- {自己嫌悪|じこけんお} (self-loathing), {自己満足|じこまんぞく} (self-satisfaction), {物足|ものた}りない (unsatisfying), {歯|は}がゆい (frustrating)
+- {強|つよ}がり (bravado), {負|ま}け{惜|お}しみ (sour grapes), {勝|か}ち{気|き} (competitive), {負|ま}けず{嫌|ぎら}い (hate to lose)
+
+**Consideration & Care** (~10 words):
+- お{節介|せっかい} (meddlesome), {心配|こころくば}り (thoughtfulness), {目配|めくば}り (watchfulness)
+- {気遣|きづか}い (concern), {心遣|こころづか}い (consideration), {心得|こころえ} (knowledge), {心構|こころがま}え (mental preparedness)
+
+**Sensory & Physical Experience** (~20 words):
+- ～{応|ごた}え pattern: {手応|てごた}え (response), {歯応|はごた}え (chewiness), {読|よ}み{応|ごた}え (worth reading), {見応|みごた}え (worth seeing), {聞|き}き{応|ごた}え (worth listening)
+- ～{心地|ごこち} pattern: {居心地|いごこち} (comfort), {寝心地|ねごこち} (sleeping comfort), {乗|の}り{心地|ごこち} (ride comfort), {着心地|きごこち} (wearing comfort), {使|つか}い{心地|ごこち} (ease of use)
+- Textures: {触感|しょっかん} (tactile feel), {食感|しょくかん} (mouthfeel), {肌触|はだざわ}り (skin texture)
+- Health: {凝|こ}り (stiffness), {痺|しび}れ (numbness), むくみ (swelling), かゆみ (itchiness), {持病|じびょう} (chronic illness)
+
+**Work & Social Status** (~20 words):
+- Ability: {段取|だんど}り (preparation), {采配|さいはい} (leadership), {裁量|さいりょう} (discretion), {腕前|うでまえ} (skill), {手腕|しゅわん} (capability), {敏腕|びんわん} (capable), {凄腕|すごうで} (highly skilled)
+- Hierarchy: {幹部|かんぶ} (executive), {中堅|ちゅうけん} (mid-level), {格上|かくうえ} (superior), {格下|かくした} (inferior), {年上|としうえ} (older), {年下|としした} (younger)
+- Status: {新米|しんまい} (newcomer), {古株|ふるかぶ} (veteran), {新顔|しんがお} (new face), {常連|じょうれん} (regular), {一見|いちげん} (first-timer)
+
+**Relationships & Fate** (~15 words):
+- People: {馴染|なじ}み (acquaintance), {顔馴染|かおなじ}み (familiar face), {赤|あか}の{他人|たにん} (complete stranger), {見|み}ず{知|し}らず (total stranger), {初対面|しょたいめん} (first meeting)
+- Destiny: {因縁|いんねん} (karma), {運命|うんめい} (destiny), {宿命|しゅくめい} (fate), {天命|てんめい} (divine will), {定|さだ}め (destiny)
+- Other: {巡|めぐ}り{合|あ}わせ (chance), {別|わか}れ{際|ぎわ} (moment of parting), {名残|なごり} (traces), {面影|おもかげ} (vestiges)
+
+**Idioms & Expressions** (~5 words):
+- {日常茶飯事|にちじょうさはんじ} (everyday occurrence), {紆余曲折|うよきょくせつ} (twists and turns), {大同小異|だいどうしょうい} (essentially the same)
+- {二枚目|にまいめ} (handsome man), {三枚目|さんまいめ} (comedian), {一枚上手|いちまいうわて} (a cut above)
+
+Notable features:
+- Productive patterns: ～{応|ごた}え (worth doing X), ～{心地|ごこち} (comfort of X)
+- Japanese cultural concepts: {本音|ほんね}/{建前|たてまえ}, {人見知り|ひとみしり}, {甘|あま}え
+- Social hierarchy vocabulary reflecting Japanese workplace and relationships
+- Interpersonal speech vocabulary for natural conversation
+
+Candidate count: 820 → 937
 
 ### 2026-01-18 (New Candidates - 122 Words Added, Session 101)
 Added 122 new candidate words to `candidate_words.json` with balanced coverage across specialized areas:
