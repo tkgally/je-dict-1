@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 104)
+Added 30 new dictionary entries from candidate_words.json, covering personality traits, emotions, cooking, cultural concepts, and modern business vocabulary:
+
+- **Personality/Character traits** (8): {鈍感|どんかん} (insensitive), {敏感|びんかん} (sensitive), {不器用|ぶきよう} (clumsy), {頑固|がんこ} (stubborn), {無口|むくち} (taciturn), {口下手|くちべた} (inarticulate), せっかち (impatient), そそっかしい (careless)
+- **Emotions/Mental states** (5): {悔|く}い (regret), {情|なさ}け (compassion), {悩|なや}み (worry), {思|おも}いやり (consideration), {億劫|おっくう} (bothersome)
+- **Japanese cultural concepts** (3): やり{甲斐|がい} (sense of fulfillment), {生|い}き{甲斐|がい} (ikigai - purpose in life), {志|こころざし} (aspiration)
+- **Cooking vocabulary** (4): {火加減|ひかげん} (heat level), {手際|てぎわ} (skill/efficiency), コツ (knack), {隠|かく}し{味|あじ} (secret ingredient)
+- **I-adjective** (1): {香|こう}ばしい (fragrant/savory)
+- **Adverbs** (5): {尚更|なおさら} (all the more), {一切|いっさい} (entirely), {最早|もはや} (no longer), {強|し}いて (if pressed), どうやら (apparently)
+- **Business slang** (3): コスト (cost), リスケ (reschedule), アポ (appointment)
+- **Weather** (1): {俄雨|にわかあめ} (sudden rain shower)
+
+Notable entry features:
+- Antonym pairs: {鈍感|どんかん}↔{敏感|びんかん}, やり{甲斐|がい}↔{生|い}き{甲斐|がい}
+- Japanese cultural concept {生|い}き{甲斐|がい} (ikigai) with international popularity context
+- Cooking vocabulary for temperature control and technique
+- Business abbreviation slang (リスケ, アポ) with formal equivalents noted
+- Adverbs for hedging and inference (どうやら, {強|し}いて{言|い}えば)
+
+Total entries: 6,691 → 6,721
+Remaining candidates: 918 → 891
+
 ### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 103)
 Added 20 new dictionary entries from candidate_words.json, focusing on interpersonal vocabulary and Japanese cultural concepts:
 
