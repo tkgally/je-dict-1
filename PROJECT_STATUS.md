@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,671
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,766 | General: 469 | Unassigned: 307
-- **Candidate words**: ~937 words tracked in `candidate_words.json`
+- **Total entries**: 6,691
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,786 | General: 469 | Unassigned: 307
+- **Candidate words**: ~918 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 103)
+Added 20 new dictionary entries from candidate_words.json, focusing on interpersonal vocabulary and Japanese cultural concepts:
+
+- **Cultural concepts** (2): {本音|ほんね} (true feelings), {建前|たてまえ} (public stance)
+- **Emotions/Psychology** (5): {人見知|ひとみし}り (shy with strangers), {愚痴|ぐち} (complaint), {見栄|みえ} (vanity), {物足|ものた}りない (unsatisfying), {歯|は}がゆい (frustrating)
+- **Verbs** (2): {甘|あま}える (to depend on), {甘|あま}やかす (to spoil)
+- **Preparation/Signs** (4): {段取|だんど}り (preparation), {名残|なごり} (traces), {面影|おもかげ} (vestiges), {前触|まえぶ}れ (omen), {兆|きざ}し (sign)
+- **Sensory/Comfort** (5): {居心地|いごこち} (comfort of place), {手応|てごた}え (response), {食感|しょっかん} (food texture), {肌触|はだざわ}り (skin feel)
+- **Communication** (2): {陰口|かげぐち} (gossip), {雑談|ざつだん} (chitchat)
+
+Notable entry features:
+- {本音|ほんね}/{建前|たてまえ} pair with detailed cultural explanations of Japanese communication style
+- {甘|あま}える/{甘|あま}やかす transitivity pair covering Japanese concept of {甘|あま}え (emotional dependence)
+- Productive patterns: ～{心地|ごこち} (comfort of X), ～{応|ごた}え (worth doing X)
+- Sensory vocabulary ({食感|しょっかん}, {肌触|はだざわ}り) with texture onomatopoeia examples
+- Cross-references linking related vocabulary pairs
+
+Total entries: 6,671 → 6,691
+Remaining candidates: 937 → 918
 
 ### 2026-01-18 (New Candidates - 117 Words Added, Session 102)
 Added 117 new candidate words to `candidate_words.json` with balanced coverage across interpersonal and social vocabulary:
@@ -617,37 +637,6 @@ Notable entry features:
 
 Total entries: 6,383 → 6,408
 Remaining candidates: 862 → 837
-
-### 2026-01-17 (New Candidates - 101 Words Added, Session 83)
-Added 101 new candidate words to `candidate_words.json` using balanced coverage strategy:
-
-**Novel categories NOT mentioned in prompt/skill (~51 words):**
-- **Astronomy/space** (6): {流星|りゅうせい} (meteor), {日食|にっしょく} (solar eclipse), {月食|げっしょく} (lunar eclipse), {星座|せいざ} (constellation), {軌道|きどう} (orbit), {天体|てんたい} (celestial body)
-- **Tools/hardware** (2): ペンチ (pliers), {脚立|きゃたつ} (stepladder)
-- **Postal/mail** (2): {差出人|さしだしにん} (sender), {消印|けしいん} (postmark)
-- **Grooming/hair** (3): {散髪|さんぱつ} (haircut), {美容院|びよういん} (beauty salon), {理髪店|りはつてん} (barbershop)
-- **Photography** (3): {現像|げんぞう} (developing), ピント (focus), シャッター (shutter)
-- **Games/playground** (6): {鬼|おに}ごっこ (tag), かくれんぼ (hide-and-seek), {縄跳|なわと}び (jump rope), ぶらんこ (swing), {滑|すべ}り{台|だい} (slide), {砂場|すなば} (sandbox)
-- **Textiles** (2): {編|あ}み{物|もの} (knitting), ミシン (sewing machine)
-- **Gardening** (4): {剪定|せんてい} (pruning), {水|みず}やり (watering), {植木鉢|うえきばち} (flower pot), {種|たね}まき (sowing)
-- **Geology** (2): {地層|ちそう} (stratum), {断層|だんそう} (fault)
-- **Publishing** (1): {印税|いんぜい} (royalty)
-- **Eyecare** (3): {乱視|らんし} (astigmatism), {遠視|えんし} (farsightedness), {老眼|ろうがん} (presbyopia)
-- **Furniture** (2): {食器棚|しょっきだな} (dish cabinet), マットレス (mattress)
-- **Marine** (1): {海藻|かいそう} (seaweed)
-- **Vehicle parts** (4): タイヤ (tire), ハンドル (steering wheel), バンパー (bumper), アクセル (accelerator)
-- **Religious items** (3): {数珠|じゅず} (prayer beads), {仏壇|ぶつだん} (Buddhist altar), {位牌|いはい} (memorial tablet)
-- **Traditional items** (1): {熨斗|のし} (gift ornament)
-- **Architecture** (2): {敷居|しきい} (threshold), {鴨居|かもい} (lintel)
-- **Household items** (5): {柱時計|はしらどけい} (pendulum clock), {湯|ゆ}たんぽ (hot water bottle), {蚊取|かと}り{線香|せんこう} (mosquito coil), {物干|ものほ}し{竿|ざお} (laundry pole), {洗濯|せんたく}ばさみ (clothespin)
-
-**Standard categories mentioned in prompt/skill (~50 words):**
-- **Compound verbs** (4): {追|お}い{込|こ}む (to corner), {引|ひ}き{伸|の}ばす (to stretch), {飛|と}び{移|うつ}る (to jump to), ちょこちょこ (in small steps)
-- **～{的|てき} adjectives** (8): {威圧的|いあつてき} (intimidating), {革命的|かくめいてき} (revolutionary), {挑発的|ちょうはつてき} (provocative), {排他的|はいたてき} (exclusive), {否定的|ひていてき} (negative), {肯定的|こうていてき} (affirmative), {壊滅的|かいめつてき} (devastating), {支離滅裂|しりめつれつ} (incoherent)
-- **Four-character idioms** (18): {大器晩成|たいきばんせい} (great talents mature late), {抱腹絶倒|ほうふくぜっとう} (hilarious), {傍若無人|ぼうじゃくぶじん} (arrogant), {粉骨砕身|ふんこつさいしん} (working hard), {疑心暗鬼|ぎしんあんき} (suspicion), {意気投合|いきとうごう} (hit it off), {一喜一憂|いっきいちゆう} (swinging between hope and fear), {厚顔無恥|こうがんむち} (shameless), {朝令暮改|ちょうれいぼかい} (inconsistent), {一目瞭然|いちもくりょうぜん} (obvious at a glance), {公明正大|こうめいせいだい} (fair and square), {前途多難|ぜんとたなん} (grim future), {満身創痍|まんしんそうい} (covered in wounds), {付和雷同|ふわらいどう} (following blindly), {栄枯盛衰|えいこせいすい} (ups and downs), {明鏡止水|めいきょうしすい} (serene mind), {波乱万丈|はらんばんじょう} (eventful)
-- **Modern business/tech loanwords** (20): クラウドファンディング, ブレインストーミング, シェアハウス, マインドセット, ワークショップ, ファシリテーター, キャリアアップ, ライフスタイル, ウェルビーイング, ダイバーシティ, インクルーシブ, ワークライフバランス, デジタルネイティブ, レガシー, ローンチ, ピボット, スケール, コンプライアンス, ガバナンス, ステークホルダー
-
-Candidate count: 761 → 862
 
 ---
 
