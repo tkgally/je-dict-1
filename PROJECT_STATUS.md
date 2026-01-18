@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,901
+- **Total entries**: 6,931
 - **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 510 | Unassigned: 367
-- **Candidate words**: ~827 words tracked in `candidate_words.json`
+- **Candidate words**: ~797 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,22 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 112)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, na-adjectives, and social/work vocabulary:
+
+- **Compound verbs** (15): {読|よ}み{飛|と}ばす (skip reading), {書|か}き{足|た}す (add in writing), {放|ほう}り{込|こ}む (throw in), {焼|や}き{付|つ}ける (burn in/imprint), {弾|はじ}き{出|だ}す (calculate), {貼|は}り{付|つ}ける (paste), {吐|は}き{出|だ}す (spit out), {掘|ほ}り{起|お}こす (dig up), {浮|う}かび{上|あ}がる (emerge), {言|い}い{当|あ}てる (guess correctly), {見|み}せびらかす (show off), {練|ね}り{上|あ}げる (refine), {蹴飛|けと}ばす (kick away), {付|つ}け{足|た}す (add on), {取|と}り{繕|つくろ}う (keep up appearances)
+- **Na-adjectives** (5): {気軽|きがる} (casual), {軽率|けいそつ} (rash), {大雑把|おおざっぱ} (rough), {几帳面|きちょうめん} (methodical), {窮屈|きゅうくつ} (cramped)
+- **Work/Social nouns** (10): {世帯|せたい} (household), {手掛|てが}かり (clue), {見込|みこ}み (prospect), {取|と}り{柄|え} (merit), {言|い}い{分|ぶん} (one's say), {幹部|かんぶ} (executive), {中堅|ちゅうけん} (mid-level), {新米|しんまい} (newcomer), {常連|じょうれん} (regular customer), {運命|うんめい} (fate)
+
+Notable entry features:
+- Strong compound verb coverage: ～{飛|と}ばす (skip), ～{足|た}す (add), ～{込|こ}む (into), ～{付|つ}ける (attach), ～{出|だ}す (out), ～{起|お}こす (dig up), ～{上|あ}がる (emerge), ～{当|あ}てる (hit mark), ～{上|あ}げる (complete)
+- Personality contrast pair: {大雑把|おおざっぱ} (rough) ↔ {几帳面|きちょうめん} (meticulous)
+- Workplace hierarchy vocabulary: {幹部|かんぶ} → {中堅|ちゅうけん} → {新米|しんまい}
+- Customer relationships: {常連|じょうれん} (regular) vs first-time customers
+
+Total entries: 6,901 → 6,931
+Remaining candidates: ~827 → ~797
 
 ### 2026-01-18 (New Candidates - 100 Words Added, Session 111)
 Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
@@ -251,28 +267,6 @@ Notable entry features:
 
 Total entries: 6,751 → 6,781
 Remaining candidates: 861 → 833
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 105)
-Added 30 new dictionary entries from candidate_words.json, covering adjectives, verbs, adverbs, onomatopoeia, and everyday vocabulary:
-
-- **I-adjectives** (5): {細長|ほそなが}い (long and thin), {平|ひら}たい (flat), {瑞々|みずみず}しい (fresh/juicy), {図太|ずぶと}い (thick-skinned), {甲斐甲斐|かいがい}しい (devoted)
-- **Na-adjectives** (2): {生真面目|きまじめ} (overly serious), {愚|おろ}か (foolish)
-- **Verbs** (4): {焦|こ}がす (to burn/scorch), {笑|わら}い{出|だ}す (to start laughing), {走|はし}り{出|だ}す (to start running), {履|は}き{替|か}える (to change shoes)
-- **Onomatopoeia/Adverbs** (7): こってり (rich/heavy), じわじわ (gradually), ぽつぽつ (bit by bit), そこそこ (so-so), {到底|とうてい} (not possibly), {否応|いやおう}なく (inevitably), なんだかんだ (one way or another)
-- **Nouns - Memory/Attitude** (3): {物覚|ものおぼ}え (memory ability), {気配|きくば}り (attentiveness), {心掛|こころが}け (mindset)
-- **Nouns - Exams** (3): {期末試験|きまつしけん} (final exam), {中間試験|ちゅうかんしけん} (midterm exam), {追試験|ついしけん} (makeup exam)
-- **Nouns - Modern life** (6): {退去|たいきょ} (moving out), {電子|でんし}マネー (electronic money), {小川|おがわ} (stream), トレンド (trend), フェス (music festival), ドリンクバー (drink bar)
-
-Notable entry features:
-- Compound adjectives: {細長|ほそなが}い from {細|ほそ}い + {長|なが}い, {生真面目|きまじめ} with intensifying {生|き} prefix
-- Compound verbs with ～{出|だ}す pattern for "beginning to" ({笑|わら}い{出|だ}す, {走|はし}り{出|だ}す)
-- Transitivity pair: {焦|こ}がす (trans.) ↔ {焦|こ}げる (intrans.)
-- Japanese school exam terminology set with cross-references
-- {和製英語|わせいえいご} entries: ドリンクバー (self-service drinks), フェス (festival)
-- Onomatopoeia for texture/gradual change: こってり↔あっさり antonym pair, じわじわ for slow persistent change
-
-Total entries: 6,721 → 6,751
-Remaining candidates: 891 → 861
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 104)
 Added 30 new dictionary entries from candidate_words.json, covering personality traits, emotions, cooking, cultural concepts, and modern business vocabulary:

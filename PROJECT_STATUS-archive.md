@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 105)
+Added 30 new dictionary entries from candidate_words.json, covering adjectives, verbs, adverbs, onomatopoeia, and everyday vocabulary:
+
+- **I-adjectives** (5): {細長|ほそなが}い (long and thin), {平|ひら}たい (flat), {瑞々|みずみず}しい (fresh/juicy), {図太|ずぶと}い (thick-skinned), {甲斐甲斐|かいがい}しい (devoted)
+- **Na-adjectives** (2): {生真面目|きまじめ} (overly serious), {愚|おろ}か (foolish)
+- **Verbs** (4): {焦|こ}がす (to burn/scorch), {笑|わら}い{出|だ}す (to start laughing), {走|はし}り{出|だ}す (to start running), {履|は}き{替|か}える (to change shoes)
+- **Onomatopoeia/Adverbs** (7): こってり (rich/heavy), じわじわ (gradually), ぽつぽつ (bit by bit), そこそこ (so-so), {到底|とうてい} (not possibly), {否応|いやおう}なく (inevitably), なんだかんだ (one way or another)
+- **Nouns - Memory/Attitude** (3): {物覚|ものおぼ}え (memory ability), {気配|きくば}り (attentiveness), {心掛|こころが}け (mindset)
+- **Nouns - Exams** (3): {期末試験|きまつしけん} (final exam), {中間試験|ちゅうかんしけん} (midterm exam), {追試験|ついしけん} (makeup exam)
+- **Nouns - Modern life** (6): {退去|たいきょ} (moving out), {電子|でんし}マネー (electronic money), {小川|おがわ} (stream), トレンド (trend), フェス (music festival), ドリンクバー (drink bar)
+
+Notable entry features:
+- Compound adjectives: {細長|ほそなが}い from {細|ほそ}い + {長|なが}い, {生真面目|きまじめ} with intensifying {生|き} prefix
+- Compound verbs with ～{出|だ}す pattern for "beginning to" ({笑|わら}い{出|だ}す, {走|はし}り{出|だ}す)
+- Transitivity pair: {焦|こ}がす (trans.) ↔ {焦|こ}げる (intrans.)
+- Japanese school exam terminology set with cross-references
+- {和製英語|わせいえいご} entries: ドリンクバー (self-service drinks), フェス (festival)
+- Onomatopoeia for texture/gradual change: こってり↔あっさり antonym pair, じわじわ for slow persistent change
+
+Total entries: 6,721 → 6,751
+Remaining candidates: 891 → 861
+
 ### 2026-01-18 (New Candidates - 122 Words Added, Session 101)
 Added 122 new candidate words to `candidate_words.json` with balanced coverage across specialized areas:
 
