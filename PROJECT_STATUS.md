@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,931
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 510 | Unassigned: 367
-- **Candidate words**: ~797 words tracked in `candidate_words.json`
+- **Total entries**: 6,961
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,895 | General: 510 | Unassigned: 367
+- **Candidate words**: ~767 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 113)
+Added 30 new dictionary entries from candidate_words.json, focusing on idiomatic body part expressions and adverbs:
+
+- **Body part idioms with {気|き}** (4): {気|き}が{利|き}く (attentive), {気|き}が{重|おも}い (reluctant), {気|き}が{短|みじか}い (short-tempered), {気|き}が{散|ち}る (distracted)
+- **Body part idioms with {口|くち}** (2): {口|くち}が{軽|かる}い (loose-lipped), {口|くち}が{堅|かた}い (tight-lipped)
+- **Body part idioms with other parts** (9): {腹|はら}が{立|た}つ (angry), {顔|かお}が{広|ひろ}い (well-connected), {足|あし}が{出|で}る (over budget), {手|て}が{離|はな}せない (too busy), {目|め}が{離|はな}せない (captivating), {肩身|かたみ}が{狭|せま}い (feel awkward), {耳|みみ}が{痛|いた}い (hard to hear), {頭|あたま}が{固|かた}い (stubborn), {腰|こし}が{低|ひく}い (humble)
+- **Body action expressions** (12): {首|くび}を{振|ふ}る (shake head), {肩|かた}をすくめる (shrug), {眉|まゆ}をひそめる (frown), {足|あし}を{運|はこ}ぶ (visit), {顔|かお}を{出|だ}す (show up), {胸|むね}を{張|は}る (be proud), {腰|こし}を{据|す}える (settle down), {息|いき}を{呑|の}む (gasp), {耳|みみ}を{傾|かたむ}ける (listen carefully), {目|め}を{通|とお}す (skim), {手|て}を{抜|ぬ}く (cut corners), {足|あし}を{引|ひ}っ{張|ぱ}る (drag down)
+- **Adverbs** (3): じろじろ (staring fixedly), とことん (thoroughly), ひょっとして (perhaps)
+
+Notable entry features:
+- Comprehensive coverage of Japanese body part idioms with {気|き}, {口|くち}, {手|て}, {足|あし}, {目|め}, {耳|みみ}, {頭|あたま}, {腹|はら}, {胸|むね}, {腰|こし}, {肩|かた}, {首|くび}, {眉|まゆ}, {息|いき}
+- Antonym pairs: {口|くち}が{軽|かる}い ↔ {口|くち}が{堅|かた}い, {頭|あたま}が{固|かた}い ↔ {頭|あたま}が{柔|やわ}らかい
+- Contrast pairs: {手|て}が{離|はな}せない (busy with hands) vs {目|め}が{離|はな}せない (can't stop watching)
+- Cultural notes on Japanese body metaphors ({腹|はら} as seat of emotions)
+
+Total entries: 6,931 → 6,961
+Remaining candidates: ~797 → ~767
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 112)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, na-adjectives, and social/work vocabulary:
@@ -309,58 +327,6 @@ Notable entry features:
 
 Total entries: 6,671 → 6,691
 Remaining candidates: 937 → 918
-
-### 2026-01-18 (New Candidates - 117 Words Added, Session 102)
-Added 117 new candidate words to `candidate_words.json` with balanced coverage across interpersonal and social vocabulary:
-
-**Personality & Character Traits** (~15 words):
-- {気軽|きがる} (casual), {軽率|けいそつ} (rash), {大雑把|おおざっぱ} (rough), {几帳面|きちょうめん} (methodical), {窮屈|きゅうくつ} (cramped)
-- {無愛想|ぶあいそう} (curt), {愛想|あいそう} (amiability), {愛嬌|あいきょう} (charm)
-- {不可欠|ふかけつ} (indispensable), {不可解|ふかかい} (mysterious), {不可思議|ふかしぎ} (inexplicable), {不用意|ふようい} (careless)
-
-**Communication & Speech** (~20 words):
-- Verbal habits: {口癖|くちぐせ} (verbal habit), {愚痴|ぐち} (complaint), {陰口|かげぐち} (gossip)
-- Social concepts: {本音|ほんね} (true feelings), {建前|たてまえ} (public stance), {人見知り|ひとみしり} (shy with strangers)
-- Types of talk: {世間話|せけんばなし} (small talk), {雑談|ざつだん} (chitchat), {井戸端会議|いどばたかいぎ} (gossip session), {独り言|ひとりごと} (monologue)
-- Speech types: {寝言|ねごと} (sleep-talking), たわ{言|ごと} (nonsense), {繰|く}り{言|ごと} (repetitive complaints), {憎|にく}まれ{口|ぐち} (sarcasm), {減|へ}らず{口|ぐち} (backtalk)
-- Flattery: お{世辞|せじ} (flattery), {追従|ついしょう} (sycophancy), おべっか (brown-nosing), {嫌味|いやみ} (snide remark)
-
-**Emotions & Psychology** (~15 words):
-- {甘|あま}える (depend on), {甘|あま}やかす (spoil), {見栄|みえ} (vanity), {虚栄心|きょえいしん} (conceit)
-- {自己嫌悪|じこけんお} (self-loathing), {自己満足|じこまんぞく} (self-satisfaction), {物足|ものた}りない (unsatisfying), {歯|は}がゆい (frustrating)
-- {強|つよ}がり (bravado), {負|ま}け{惜|お}しみ (sour grapes), {勝|か}ち{気|き} (competitive), {負|ま}けず{嫌|ぎら}い (hate to lose)
-
-**Consideration & Care** (~10 words):
-- お{節介|せっかい} (meddlesome), {心配|こころくば}り (thoughtfulness), {目配|めくば}り (watchfulness)
-- {気遣|きづか}い (concern), {心遣|こころづか}い (consideration), {心得|こころえ} (knowledge), {心構|こころがま}え (mental preparedness)
-
-**Sensory & Physical Experience** (~20 words):
-- ～{応|ごた}え pattern: {手応|てごた}え (response), {歯応|はごた}え (chewiness), {読|よ}み{応|ごた}え (worth reading), {見応|みごた}え (worth seeing), {聞|き}き{応|ごた}え (worth listening)
-- ～{心地|ごこち} pattern: {居心地|いごこち} (comfort), {寝心地|ねごこち} (sleeping comfort), {乗|の}り{心地|ごこち} (ride comfort), {着心地|きごこち} (wearing comfort), {使|つか}い{心地|ごこち} (ease of use)
-- Textures: {触感|しょっかん} (tactile feel), {食感|しょくかん} (mouthfeel), {肌触|はだざわ}り (skin texture)
-- Health: {凝|こ}り (stiffness), {痺|しび}れ (numbness), むくみ (swelling), かゆみ (itchiness), {持病|じびょう} (chronic illness)
-
-**Work & Social Status** (~20 words):
-- Ability: {段取|だんど}り (preparation), {采配|さいはい} (leadership), {裁量|さいりょう} (discretion), {腕前|うでまえ} (skill), {手腕|しゅわん} (capability), {敏腕|びんわん} (capable), {凄腕|すごうで} (highly skilled)
-- Hierarchy: {幹部|かんぶ} (executive), {中堅|ちゅうけん} (mid-level), {格上|かくうえ} (superior), {格下|かくした} (inferior), {年上|としうえ} (older), {年下|としした} (younger)
-- Status: {新米|しんまい} (newcomer), {古株|ふるかぶ} (veteran), {新顔|しんがお} (new face), {常連|じょうれん} (regular), {一見|いちげん} (first-timer)
-
-**Relationships & Fate** (~15 words):
-- People: {馴染|なじ}み (acquaintance), {顔馴染|かおなじ}み (familiar face), {赤|あか}の{他人|たにん} (complete stranger), {見|み}ず{知|し}らず (total stranger), {初対面|しょたいめん} (first meeting)
-- Destiny: {因縁|いんねん} (karma), {運命|うんめい} (destiny), {宿命|しゅくめい} (fate), {天命|てんめい} (divine will), {定|さだ}め (destiny)
-- Other: {巡|めぐ}り{合|あ}わせ (chance), {別|わか}れ{際|ぎわ} (moment of parting), {名残|なごり} (traces), {面影|おもかげ} (vestiges)
-
-**Idioms & Expressions** (~5 words):
-- {日常茶飯事|にちじょうさはんじ} (everyday occurrence), {紆余曲折|うよきょくせつ} (twists and turns), {大同小異|だいどうしょうい} (essentially the same)
-- {二枚目|にまいめ} (handsome man), {三枚目|さんまいめ} (comedian), {一枚上手|いちまいうわて} (a cut above)
-
-Notable features:
-- Productive patterns: ～{応|ごた}え (worth doing X), ～{心地|ごこち} (comfort of X)
-- Japanese cultural concepts: {本音|ほんね}/{建前|たてまえ}, {人見知り|ひとみしり}, {甘|あま}え
-- Social hierarchy vocabulary reflecting Japanese workplace and relationships
-- Interpersonal speech vocabulary for natural conversation
-
-Candidate count: 820 → 937
 
 ---
 
