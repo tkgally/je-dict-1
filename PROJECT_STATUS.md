@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,961
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,895 | General: 510 | Unassigned: 367
-- **Candidate words**: ~767 words tracked in `candidate_words.json`
+- **Total entries**: 6,991
+- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,918 | General: 513 | Unassigned: 369
+- **Candidate words**: ~738 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 114)
+Added 30 new dictionary entries from candidate_words.json, focusing on conversational particles, formal conjunctions, adverbs, and onomatopoeia:
+
+- **Conversational fillers/interjections** (8): えーと (um, let me see), あのー (um, excuse me), ほら (look, see), ねえ (hey, right?), よね (right?), やっぱ (as expected), ぜ (masculine emphasis), ぞ (emphasis particle)
+- **Grammar/Quotative expressions** (4): なんて (such as, what a), っていう (called, that says), ていうか (or rather), かしら (I wonder - feminine)
+- **Formal conjunctions** (6): {及|およ}び (and - formal), {並|なら}びに (and - very formal), {若|も}しくは (or - formal), {故|ゆえ}に (therefore), しかしながら (however), それなのに (even so)
+- **Adverbs** (4): どのみち (anyway), {差|さ}し{当|あ}たり (for the time being), {今|いま}しがた (just now), ひいては (by extension)
+- **Onomatopoeia** (4): おずおず (timidly), けろっと (nonchalantly), しゅんと (dejected), ぶくぶく (bubbling/getting fat)
+- **Adjectives/Nouns** (4): うやうやしい (respectful), {敷居|しきい} (threshold), {疎外感|そがいかん} (alienation), ドヤ{顔|がお} (smug face)
+
+Notable entry features:
+- Comprehensive conversational particle coverage for natural Japanese speech
+- Formal conjunction hierarchy: {及|およ}び (same level) vs {並|なら}びに (larger groups); {若|も}しくは (same level) vs または (larger groups)
+- Register contrast: やっぱ (casual) vs やっぱり (neutral) vs やはり (formal)
+- Gender-specific particles: かしら (feminine), ぜ/ぞ (masculine)
+- Internet/modern vocabulary: ドヤ{顔|がお} (from Kansai dialect どや)
+- Emotional onomatopoeia contrast pair: けろっと (unaffected) ↔ しゅんと (dejected)
+
+Total entries: 6,961 → 6,991
+Remaining candidates: ~767 → ~738
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 113)
 Added 30 new dictionary entries from candidate_words.json, focusing on idiomatic body part expressions and adverbs:
@@ -307,26 +328,6 @@ Notable entry features:
 
 Total entries: 6,691 → 6,721
 Remaining candidates: 918 → 891
-
-### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 103)
-Added 20 new dictionary entries from candidate_words.json, focusing on interpersonal vocabulary and Japanese cultural concepts:
-
-- **Cultural concepts** (2): {本音|ほんね} (true feelings), {建前|たてまえ} (public stance)
-- **Emotions/Psychology** (5): {人見知|ひとみし}り (shy with strangers), {愚痴|ぐち} (complaint), {見栄|みえ} (vanity), {物足|ものた}りない (unsatisfying), {歯|は}がゆい (frustrating)
-- **Verbs** (2): {甘|あま}える (to depend on), {甘|あま}やかす (to spoil)
-- **Preparation/Signs** (4): {段取|だんど}り (preparation), {名残|なごり} (traces), {面影|おもかげ} (vestiges), {前触|まえぶ}れ (omen), {兆|きざ}し (sign)
-- **Sensory/Comfort** (5): {居心地|いごこち} (comfort of place), {手応|てごた}え (response), {食感|しょっかん} (food texture), {肌触|はだざわ}り (skin feel)
-- **Communication** (2): {陰口|かげぐち} (gossip), {雑談|ざつだん} (chitchat)
-
-Notable entry features:
-- {本音|ほんね}/{建前|たてまえ} pair with detailed cultural explanations of Japanese communication style
-- {甘|あま}える/{甘|あま}やかす transitivity pair covering Japanese concept of {甘|あま}え (emotional dependence)
-- Productive patterns: ～{心地|ごこち} (comfort of X), ～{応|ごた}え (worth doing X)
-- Sensory vocabulary ({食感|しょっかん}, {肌触|はだざわ}り) with texture onomatopoeia examples
-- Cross-references linking related vocabulary pairs
-
-Total entries: 6,671 → 6,691
-Remaining candidates: 937 → 918
 
 ---
 
