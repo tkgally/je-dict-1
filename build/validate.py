@@ -170,11 +170,14 @@ def check_for_duplicates(entries_data: list[tuple[Path, dict]]) -> list[tuple[Pa
 
 
 def is_valid_hiragana(text: str) -> bool:
-    """Check if text contains only hiragana characters and long vowel mark."""
+    """Check if text contains only hiragana characters, long vowel mark, and iteration marks."""
     if not text:
         return False
     for char in text:
-        if not (('\u3041' <= char <= '\u3096') or char == 'ー'):
+        # Hiragana range: \u3041-\u3096
+        # Long vowel mark: ー
+        # Iteration marks: ゝ (\u309D), ゞ (\u309E)
+        if not (('\u3041' <= char <= '\u3096') or char in 'ーゝゞ'):
             return False
     return True
 
@@ -294,6 +297,9 @@ def check_timestamps(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, 
             try:
                 # Parse ISO timestamp
                 dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+                # Handle timezone-naive datetimes (assume UTC)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
 
                 # Check for future timestamp (with grace period for clock drift)
                 if dt > now + grace_period:

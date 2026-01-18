@@ -25,10 +25,7 @@ def main():
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
 
-    # Change to project root for consistent paths
-    import os
-    os.chdir(project_root)
-
+    # Use absolute paths throughout instead of os.chdir()
     print("=" * 50)
     print("Updating Dictionary Indexes")
     print("=" * 50)
@@ -37,7 +34,7 @@ def main():
 
     # 1. Update entries index
     print("\n1. Updating entries_index.json...")
-    entries_index_script = Path('build/update_entries_index.py')
+    entries_index_script = project_root / 'build' / 'update_entries_index.py'
     if not entries_index_script.exists():
         print(f"   ERROR: Script not found: {entries_index_script}")
         has_errors = True
@@ -45,7 +42,8 @@ def main():
         result = subprocess.run(
             [sys.executable, str(entries_index_script)],
             capture_output=True,
-            text=True
+            text=True,
+            cwd=str(project_root)
         )
         print(result.stdout)
         if result.stderr:
@@ -56,8 +54,8 @@ def main():
 
     # 2. Sync candidate words (remove any that now exist in dictionary)
     print("\n2. Syncing candidate_words.json...")
-    candidates_file = Path('candidate_words.json')
-    manage_candidates_script = Path('build/manage_candidates.py')
+    candidates_file = project_root / 'candidate_words.json'
+    manage_candidates_script = project_root / 'build' / 'manage_candidates.py'
     if not candidates_file.exists():
         print("   No candidate_words.json found, skipping sync.")
     elif not manage_candidates_script.exists():
@@ -67,7 +65,8 @@ def main():
         result = subprocess.run(
             [sys.executable, str(manage_candidates_script), 'sync'],
             capture_output=True,
-            text=True
+            text=True,
+            cwd=str(project_root)
         )
         print(result.stdout)
         if result.stderr:

@@ -38,12 +38,7 @@ def get_numeric_id(entry_id: str) -> int:
         try:
             return int(parts[0])
         except ValueError:
-            # Handle old format (romaji_number) during migration
-            if len(parts) >= 2:
-                try:
-                    return int(parts[1])
-                except ValueError:
-                    pass
+            pass
     return 0
 
 
