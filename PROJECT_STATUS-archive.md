@@ -7,6 +7,27 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 81)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **～{的|てき} adjectives** (6): {本能的|ほんのうてき} (instinctive), {刺激的|しげきてき} (stimulating), {意欲的|いよくてき} (ambitious), {献身的|けんしんてき} (devoted), {象徴的|しょうちょうてき} (symbolic), {恒久的|こうきゅうてき} (permanent)
+- **Compound verbs** (5): {蹴|け}り{倒|たお}す (to kick down), {突|つ}き{詰|つ}める (to investigate thoroughly), {切|き}り{詰|つ}める (to economize), {這|は}い{上|あ}がる (to crawl up), {塗|ぬ}り{替|か}える (to repaint)
+- **Onomatopoeia/adverbs** (7): ちょろちょろ (trickling), がやがや (noisy chatter), ひそひそ (whispering), もじもじ (fidgeting), ほんのり (slightly), ほっこり (heartwarming), ちゃっかり (shrewdly)
+- **Four-character idioms** (2): {軽挙妄動|けいきょもうどう} (rash action), {温厚篤実|おんこうとくじつ} (gentle and sincere)
+- **Humble expressions** (2): {拝読|はいどく} (reading humble), {拝聴|はいちょう} (listening humble)
+- **Conjunctions** (2): とはいえ (although), とはいうものの (having said that)
+- **Modern casual** (1): てか (or rather)
+
+Notable entry features:
+- ～{的|てき} adjectives with antonym pairs ({恒久的|こうきゅうてき}↔{暫定的|ざんていてき}, {意欲的|いよくてき}↔{消極的|しょうきょくてき})
+- Compound verbs with ～{倒|たお}す (knock down), ～{詰|つ}める (exhaustive), ～{上|あ}がる (upward) patterns
+- Onomatopoeia covering sounds (がやがや, ひそひそ), emotions (もじもじ, ほっこり), and textures (ちょろちょろ)
+- Humble expressions with {拝|はい} prefix for formal business/academic contexts
+- Modern youth slang (てか) alongside formal conjunctions
+
+Total entries: 6,333 → 6,358
+Remaining candidates: 811 → 786
+
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 89)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
