@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,901
 - **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 510 | Unassigned: 367
-- **Candidate words**: ~727 words tracked in `candidate_words.json`
+- **Candidate words**: ~827 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,43 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (New Candidates - 100 Words Added, Session 111)
+Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Compound Verbs** (~20 words):
+- {読|よ}み{飛|と}ばす (skip reading), {書|か}き{足|た}す (add in writing), {放|ほう}り{込|こ}む (throw in), {焼|や}き{付|つ}ける (burn in)
+- {弾|はじ}き{出|だ}す (calculate), {貼|は}り{付|つ}ける (paste), {吐|は}き{出|だ}す (spit out), {掘|ほ}り{起|お}こす (dig up)
+- {浮|う}かび{上|あ}がる (emerge), {言|い}い{当|あ}てる (guess correctly), {見|み}せびらかす (show off), {練|ね}り{上|あ}げる (refine)
+- {蹴飛|けと}ばす (kick away), {付|つ}け{足|た}す (add on), {取|と}り{繕|つくろ}う (keep up appearances)
+
+**Idiomatic Expressions with Body Parts** (~30 words):
+- 気 expressions: {気|き}が{利|き}く (attentive), {気|き}が{重|おも}い (reluctant), {気|き}が{短|みじか}い (short-tempered), {気|き}が{散|ち}る (distracted)
+- 口 expressions: {口|くち}が{軽|かる}い (loose-lipped), {口|くち}が{堅|かた}い (discreet)
+- Body part idioms: {腹|はら}が{立|た}つ (angry), {顔|かお}が{広|ひろ}い (well-connected), {肩身|かたみ}が{狭|せま}い (awkward)
+- Action expressions: {眉|まゆ}をひそめる (frown), {足|あし}を{運|はこ}ぶ (visit), {顔|かお}を{出|だ}す (show up), {胸|むね}を{張|は}る (be proud)
+- Breath expressions: {息|いき}を{呑|の}む (gasp), {息|いき}を{潜|ひそ}める (hold breath)
+
+**Adjectives and Personality Words** (~15 words):
+- Adjectives: {奥深|おくぶか}い (profound), {生|なま}ぬるい (lukewarm), {差|さ}し{出|で}がましい (presumptuous)
+- Personality: {気|き}まぐれ (capricious), {理不尽|りふじん} (unreasonable), {横柄|おうへい} (arrogant), {潔|いさぎよ}い (graceful)
+
+**Nouns and Abstract Concepts** (~20 words):
+- Social: {世帯|せたい} (household), {配偶者|はいぐうしゃ} (spouse), {世話人|せわにん} (organizer)
+- Abstract: {見込|みこ}み (prospect), {手掛|てがか}かり (clue), {成|な}り{行|ゆ}き (outcome)
+- Psychology: {先入観|せんにゅうかん} (preconception), {固定観念|こていかんねん} (fixed idea), {既成概念|きせいがいねん} (conventional notion)
+
+**Adverbs and Onomatopoeia** (~15 words):
+- Adverbs: とことん (thoroughly), ひょっとして (perhaps), まして (let alone), たいして (not very)
+- Onomatopoeia: じろじろ (staring), ちらちら (flickering), めきめき (remarkably), むしゃむしゃ (munching)
+
+Notable features:
+- Strong focus on idiomatic body-part expressions (気・口・目・耳・手・足・腹・胸・腰・首・肩)
+- Practical compound verbs for everyday actions
+- Adjectives describing personality and social behavior
+- Abstract nouns for thinking and social concepts
+
+Candidate count: 727 → 827
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 110)
 Added 30 new dictionary entries from candidate_words.json, covering adjectives, nouns, compound verbs, and onomatopoeia:
@@ -330,60 +367,6 @@ Notable features:
 - Interpersonal speech vocabulary for natural conversation
 
 Candidate count: 820 → 937
-
-### 2026-01-18 (New Candidates - 122 Words Added, Session 101)
-Added 122 new candidate words to `candidate_words.json` with balanced coverage across specialized areas:
-
-**Specialized Hobbies** (~24 words):
-- Crafts/arts: {盆栽|ぼんさい} (bonsai), {水彩画|すいさいが} (watercolor), {油絵|あぶらえ} (oil painting), {型紙|かたがみ} (pattern), コスプレ (cosplay)
-- Outdoor activities: {釣り竿|つりざお} (fishing rod), {寝袋|ねぶくろ} (sleeping bag), {焚き火|たきび} (campfire), {登山靴|とざんぐつ} (hiking boots)
-- Photography: {一眼|いちがん}レフ (SLR camera), {三脚|さんきゃく} (tripod), {露出|ろしゅつ} (exposure)
-- Games/collecting: {麻雀|マージャン} (mahjong), {双六|すごろく} (sugoroku), {骨董品|こっとうひん} (antique), コレクション (collection)
-- Astronomy/gardening: {天体観測|てんたいかんそく} (stargazing), {家庭菜園|かていさいえん} (home garden), バードウォッチング
-- Modern hobbies: {模型|もけい} (model), プラモデル (plastic model), ラジコン (RC), {同人誌|どうじんし} (doujinshi), オタク, フィギュア
-- Entertainment: パチンコ, スロット, クラフトビール, {利き酒|ききざけ} (sake tasting), ゲーセン (arcade)
-
-**Music Terminology** (~30 words):
-- Notation: {楽譜|がくふ} (sheet music), {音符|おんぷ} (musical note), {休符|きゅうふ} (rest), {音色|ねいろ} (timbre)
-- Performance: {独奏|どくそう} (solo), {即興|そっきょう} (improvisation), {吹奏楽|すいそうがく} (wind band), リハーサル (rehearsal)
-- Orchestral instruments: チェロ, コントラバス, クラリネット, トランペット, トロンボーン, サックス
-- Equipment: {指揮棒|しきぼう} (baton), シンセサイザー (synthesizer), アンプ (amplifier), {弓|ゆみ} (bow), ピック (pick)
-- Categories: {打楽器|だがっき} (percussion), {管楽器|かんがっき} (wind), {弦楽器|げんがっき} (string)
-- Genres: ロック, ジャズ, ヒップホップ, {民謡|みんよう} (folk song), {演歌|えんか} (enka)
-- Production: レコーディング, ミキシング, {調律|ちょうりつ} (tuning), {転調|てんちょう} (modulation)
-
-**Regional Dialect Vocabulary** (~28 words):
-- General: {方言|ほうげん} (dialect), {訛|なま}り (accent), {標準語|ひょうじゅんご} (standard language)
-- Kansai: おおきに (thank you), あかん (no good), ほんま (really), なんでやねん, しんどい, せや, わや, うっとこ
-- Kyoto: おいでやす (welcome), おおけに (thank you)
-- Nagoya: でら (very)
-- Hiroshima: じゃけん (therefore)
-- Kyushu/Hakata: ばってん (but), よか (good), ちかっぱ (very)
-- Hokkaido: なまら (very), したっけ (bye/well then)
-- Tohoku: いずい (uncomfortable), おばんです (good evening), だべ (right?)
-- Edo: べらぼう (ridiculously)
-- Shizuoka: ズラ, だら (sentence-enders)
-- Dialect forms: どないやねん, ええやん, さぶい
-
-**Compound Verbs** (~28 words):
-- ～込む: {踏み込|ふみこ}む (step into), {割り込|わりこ}む (cut in), {溶け込|とけこ}む (blend in), {組み込|くみこ}む (incorporate), {吸い込|すいこ}む (inhale)
-- ～出す/取る: {聞き出|ききだ}す (get info), {呼び戻|よびもど}す (call back)
-- ～上げる/下げる: {書き上|かきあ}げる (finish writing), {切り上|きりあ}げる (finish up), {切り下|きりさ}げる (lower), {繰り上|くりあ}げる (move up), {繰り下|くりさ}げる (postpone)
-- ～渡る/広げる: {行き渡|いきわた}る (spread throughout), {繰り広|くりひろ}げる (unfold)
-- ～切る/向かう: {言い切|いいき}る (say definitively), {立ち向|たちむ}かう (confront)
-- ～起こる/返す: {巻き起|まきお}こる (arise), {巻き返|まきかえ}す (comeback)
-- ～浮かべる/伸べる: {思い浮|おもいう}かべる (imagine), {差し伸|さしの}べる (extend)
-- ～落とす/進む: {突き落|つきお}とす (push down), {突き進|つきすす}む (push forward), {突き当|つきあ}たる (run into)
-- ～戻す/抜く: {差し戻|さしもど}す (send back), {見抜|みぬ}く (see through)
-- ～渡す/上がる: {言い渡|いいわた}す (hand down), {沸き上|わきあ}がる (well up), {湧き出|わきで}る (gush out)
-
-Notable features:
-- Specialized hobbies covering traditional Japanese arts (盆栽) and modern otaku culture (同人誌, フィギュア)
-- Complete music terminology set from notation to production
-- Regional dialects spanning all major Japanese dialect regions
-- Compound verbs systematically organized by auxiliary verb patterns
-
-Candidate count: 698 → 820
 
 ---
 
