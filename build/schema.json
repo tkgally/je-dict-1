@@ -118,10 +118,15 @@
                 "$comment": "Keep this enum in sync with CROSS_REF_TYPES in build/constants.py",
                 "description": "Relationship type"
               },
+              "target_id": {
+                "type": "string",
+                "pattern": "^[0-9]{5}_[a-z]+(_[a-z]+)?$",
+                "description": "Hard-coded entry ID for direct resolution (optional, takes priority over reading/headword lookup)"
+              },
               "reading": {
                 "type": "string",
                 "pattern": "^[ぁ-んーゝゞ]+$",
-                "description": "Hiragana reading of target word (primary lookup key)"
+                "description": "Hiragana reading of target word (primary lookup key when target_id is absent)"
               },
               "headword": {
                 "type": "string",

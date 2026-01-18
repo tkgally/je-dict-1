@@ -20,6 +20,7 @@ from datetime import datetime, timezone
 from typing import Dict, List, Any, Optional, Tuple
 
 from japanese_utils import FURIGANA_PATTERN
+from collections import defaultdict
 
 
 def extract_furigana_words(text: str) -> List[Tuple[str, str]]:
@@ -271,11 +272,96 @@ def extract_references_from_entry(entry: Dict[str, Any]) -> List[Dict[str, Any]]
     return unique_refs
 
 
-def merge_references(existing: List, new: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def build_reading_index(entries_dir: Path) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Build a reading-to-entries index from all entry files.
+
+    Returns:
+        Dict mapping reading to list of {id, headword} dicts
+    """
+    index: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+
+    for entry_path in entries_dir.rglob('*.json'):
+        try:
+            with open(entry_path, 'r', encoding='utf-8') as f:
+                entry = json.load(f)
+
+            reading = entry.get('reading', '')
+            if reading:
+                index[reading].append({
+                    'id': entry.get('id', ''),
+                    'headword': entry.get('headword', '')
+                })
+        except (json.JSONDecodeError, IOError):
+            pass
+
+    return dict(index)
+
+
+def resolve_new_reference(
+    ref: Dict[str, Any],
+    reading_index: Dict[str, List[Dict[str, Any]]]
+) -> Dict[str, Any]:
+    """
+    Attempt to resolve a newly extracted reference to get target_id.
+
+    If the target entry exists and is unambiguous, adds target_id.
+    Otherwise returns the reference as-is (forward reference).
+
+    Args:
+        ref: Reference dict with reading, headword, etc.
+        reading_index: Reading -> list of entries index
+
+    Returns:
+        Reference dict, possibly with target_id added
+    """
+    reading = ref.get('reading', '')
+    ref_headword = ref.get('headword', '')
+
+    if not reading:
+        return ref
+
+    candidates = reading_index.get(reading, [])
+
+    if len(candidates) == 0:
+        # No entry exists - forward reference
+        return ref
+
+    if len(candidates) == 1:
+        candidate = candidates[0]
+        # If headword specified, verify it matches
+        if ref_headword and candidate['headword'] != ref_headword:
+            # Headword mismatch - forward reference to different homonym
+            return ref
+        # Single unambiguous match - add target_id
+        resolved_ref = dict(ref)
+        resolved_ref['target_id'] = candidate['id']
+        return resolved_ref
+
+    # Multiple candidates - need headword to disambiguate
+    if ref_headword:
+        for candidate in candidates:
+            if candidate['headword'] == ref_headword:
+                resolved_ref = dict(ref)
+                resolved_ref['target_id'] = candidate['id']
+                return resolved_ref
+
+    # Cannot resolve - return as forward reference
+    return ref
+
+
+def merge_references(
+    existing: List,
+    new: List[Dict[str, Any]],
+    reading_index: Dict[str, List[Dict[str, Any]]] = None
+) -> List[Dict[str, Any]]:
     """
     Merge new references with existing ones.
     Preserves existing structured refs, converts legacy string refs,
     and adds new refs that don't duplicate existing ones.
+
+    If reading_index is provided, attempts to resolve new references
+    immediately and add target_id.
     """
     result = []
     existing_readings = set()
@@ -294,15 +380,27 @@ def merge_references(existing: List, new: List[Dict[str, Any]]) -> List[Dict[str
     # Add new references that don't duplicate
     for ref in new:
         if ref['reading'] not in existing_readings:
+            # Attempt immediate resolution if index provided
+            if reading_index:
+                ref = resolve_new_reference(ref, reading_index)
             result.append(ref)
             existing_readings.add(ref['reading'])
 
     return result
 
 
-def process_entry(entry_path: Path, dry_run: bool = True) -> Tuple[bool, List[Dict[str, Any]]]:
+def process_entry(
+    entry_path: Path,
+    dry_run: bool = True,
+    reading_index: Dict[str, List[Dict[str, Any]]] = None
+) -> Tuple[bool, List[Dict[str, Any]]]:
     """
     Process a single entry file and extract/add cross-references.
+
+    Args:
+        entry_path: Path to the entry JSON file
+        dry_run: If True, don't write changes
+        reading_index: Optional reading->entries index for immediate resolution
 
     Returns:
         Tuple of (was_modified, list of added references)
@@ -319,8 +417,8 @@ def process_entry(entry_path: Path, dry_run: bool = True) -> Tuple[bool, List[Di
     # Get existing cross-references
     existing_refs = entry.get('cross_references', [])
 
-    # Merge
-    merged_refs = merge_references(existing_refs, extracted_refs)
+    # Merge (with immediate resolution if index provided)
+    merged_refs = merge_references(existing_refs, extracted_refs, reading_index)
 
     # Check if anything changed
     if len(merged_refs) == len(existing_refs):
@@ -346,14 +444,24 @@ def process_all_entries(project_root: Path, dry_run: bool = True) -> Dict[str, A
     """
     Process all entry files and extract cross-references.
 
+    Builds a reading index for immediate resolution of extracted references.
+    When a target entry exists, the extracted reference will include target_id.
+
     Returns a report dictionary.
     """
     entries_dir = project_root / 'entries'
+
+    # Build reading index for immediate resolution
+    print("Building reading index for immediate resolution...")
+    reading_index = build_reading_index(entries_dir)
+    print(f"  Indexed {sum(len(v) for v in reading_index.values())} entries")
 
     report = {
         'total_entries': 0,
         'entries_with_new_refs': 0,
         'total_new_refs': 0,
+        'resolved_refs': 0,
+        'forward_refs': 0,
         'changes': []
     }
 
@@ -361,11 +469,19 @@ def process_all_entries(project_root: Path, dry_run: bool = True) -> Dict[str, A
         report['total_entries'] += 1
 
         try:
-            was_modified, added_refs = process_entry(entry_path, dry_run)
+            was_modified, added_refs = process_entry(entry_path, dry_run, reading_index)
 
             if was_modified:
                 report['entries_with_new_refs'] += 1
                 report['total_new_refs'] += len(added_refs)
+
+                # Count resolved vs forward refs
+                for ref in added_refs:
+                    if ref.get('target_id'):
+                        report['resolved_refs'] += 1
+                    else:
+                        report['forward_refs'] += 1
+
                 report['changes'].append({
                     'file': str(entry_path.relative_to(project_root)),
                     'added': added_refs
@@ -378,6 +494,7 @@ def process_all_entries(project_root: Path, dry_run: bool = True) -> Dict[str, A
 
 def print_report(report: Dict[str, Any], dry_run: bool = True):
     """Print a formatted report of the extraction results."""
+    print()
     print("=" * 60)
     print("Cross-Reference Extraction Report")
     print("=" * 60)
@@ -385,6 +502,11 @@ def print_report(report: Dict[str, Any], dry_run: bool = True):
     print(f"Total entries scanned: {report['total_entries']}")
     print(f"Entries with new references: {report['entries_with_new_refs']}")
     print(f"Total new references found: {report['total_new_refs']}")
+    if report['total_new_refs'] > 0:
+        resolved = report.get('resolved_refs', 0)
+        forward = report.get('forward_refs', 0)
+        print(f"  - Resolved (with target_id): {resolved}")
+        print(f"  - Forward references: {forward}")
     print()
 
     if report['changes']:
@@ -397,8 +519,10 @@ def print_report(report: Dict[str, Any], dry_run: bool = True):
                 reading = ref.get('reading', '')
                 headword = ref.get('headword', reading)
                 label = ref.get('label', '')
+                target_id = ref.get('target_id', '')
                 label_str = f" ({label})" if label else ""
-                print(f"  + {ref_type}: {headword}{label_str}")
+                target_str = f" → {target_id}" if target_id else " (forward ref)"
+                print(f"  + {ref_type}: {headword}{label_str}{target_str}")
 
     if dry_run and report['entries_with_new_refs'] > 0:
         print()
@@ -437,12 +561,17 @@ def main():
             print(f"Entry not found: {args.id}", file=sys.stderr)
             return 1
 
-        was_modified, added_refs = process_entry(entry_path, dry_run=not args.apply)
+        # Build reading index for immediate resolution
+        reading_index = build_reading_index(entries_dir)
+
+        was_modified, added_refs = process_entry(entry_path, dry_run=not args.apply, reading_index=reading_index)
 
         if was_modified:
             print(f"{'Would add' if not args.apply else 'Added'} {len(added_refs)} reference(s):")
             for ref in added_refs:
-                print(f"  + {ref['type']}: {ref.get('headword', ref['reading'])}")
+                target_id = ref.get('target_id', '')
+                target_str = f" → {target_id}" if target_id else " (forward ref)"
+                print(f"  + {ref['type']}: {ref.get('headword', ref['reading'])}{target_str}")
         else:
             print("No new references found.")
 
