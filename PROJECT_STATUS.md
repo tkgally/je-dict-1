@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,671
 - **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,766 | General: 469 | Unassigned: 307
-- **Candidate words**: ~698 words tracked in `candidate_words.json`
+- **Candidate words**: ~820 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,60 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (New Candidates - 122 Words Added, Session 101)
+Added 122 new candidate words to `candidate_words.json` with balanced coverage across specialized areas:
+
+**Specialized Hobbies** (~24 words):
+- Crafts/arts: {盆栽|ぼんさい} (bonsai), {水彩画|すいさいが} (watercolor), {油絵|あぶらえ} (oil painting), {型紙|かたがみ} (pattern), コスプレ (cosplay)
+- Outdoor activities: {釣り竿|つりざお} (fishing rod), {寝袋|ねぶくろ} (sleeping bag), {焚き火|たきび} (campfire), {登山靴|とざんぐつ} (hiking boots)
+- Photography: {一眼|いちがん}レフ (SLR camera), {三脚|さんきゃく} (tripod), {露出|ろしゅつ} (exposure)
+- Games/collecting: {麻雀|マージャン} (mahjong), {双六|すごろく} (sugoroku), {骨董品|こっとうひん} (antique), コレクション (collection)
+- Astronomy/gardening: {天体観測|てんたいかんそく} (stargazing), {家庭菜園|かていさいえん} (home garden), バードウォッチング
+- Modern hobbies: {模型|もけい} (model), プラモデル (plastic model), ラジコン (RC), {同人誌|どうじんし} (doujinshi), オタク, フィギュア
+- Entertainment: パチンコ, スロット, クラフトビール, {利き酒|ききざけ} (sake tasting), ゲーセン (arcade)
+
+**Music Terminology** (~30 words):
+- Notation: {楽譜|がくふ} (sheet music), {音符|おんぷ} (musical note), {休符|きゅうふ} (rest), {音色|ねいろ} (timbre)
+- Performance: {独奏|どくそう} (solo), {即興|そっきょう} (improvisation), {吹奏楽|すいそうがく} (wind band), リハーサル (rehearsal)
+- Orchestral instruments: チェロ, コントラバス, クラリネット, トランペット, トロンボーン, サックス
+- Equipment: {指揮棒|しきぼう} (baton), シンセサイザー (synthesizer), アンプ (amplifier), {弓|ゆみ} (bow), ピック (pick)
+- Categories: {打楽器|だがっき} (percussion), {管楽器|かんがっき} (wind), {弦楽器|げんがっき} (string)
+- Genres: ロック, ジャズ, ヒップホップ, {民謡|みんよう} (folk song), {演歌|えんか} (enka)
+- Production: レコーディング, ミキシング, {調律|ちょうりつ} (tuning), {転調|てんちょう} (modulation)
+
+**Regional Dialect Vocabulary** (~28 words):
+- General: {方言|ほうげん} (dialect), {訛|なま}り (accent), {標準語|ひょうじゅんご} (standard language)
+- Kansai: おおきに (thank you), あかん (no good), ほんま (really), なんでやねん, しんどい, せや, わや, うっとこ
+- Kyoto: おいでやす (welcome), おおけに (thank you)
+- Nagoya: でら (very)
+- Hiroshima: じゃけん (therefore)
+- Kyushu/Hakata: ばってん (but), よか (good), ちかっぱ (very)
+- Hokkaido: なまら (very), したっけ (bye/well then)
+- Tohoku: いずい (uncomfortable), おばんです (good evening), だべ (right?)
+- Edo: べらぼう (ridiculously)
+- Shizuoka: ズラ, だら (sentence-enders)
+- Dialect forms: どないやねん, ええやん, さぶい
+
+**Compound Verbs** (~28 words):
+- ～込む: {踏み込|ふみこ}む (step into), {割り込|わりこ}む (cut in), {溶け込|とけこ}む (blend in), {組み込|くみこ}む (incorporate), {吸い込|すいこ}む (inhale)
+- ～出す/取る: {聞き出|ききだ}す (get info), {呼び戻|よびもど}す (call back)
+- ～上げる/下げる: {書き上|かきあ}げる (finish writing), {切り上|きりあ}げる (finish up), {切り下|きりさ}げる (lower), {繰り上|くりあ}げる (move up), {繰り下|くりさ}げる (postpone)
+- ～渡る/広げる: {行き渡|いきわた}る (spread throughout), {繰り広|くりひろ}げる (unfold)
+- ～切る/向かう: {言い切|いいき}る (say definitively), {立ち向|たちむ}かう (confront)
+- ～起こる/返す: {巻き起|まきお}こる (arise), {巻き返|まきかえ}す (comeback)
+- ～浮かべる/伸べる: {思い浮|おもいう}かべる (imagine), {差し伸|さしの}べる (extend)
+- ～落とす/進む: {突き落|つきお}とす (push down), {突き進|つきすす}む (push forward), {突き当|つきあ}たる (run into)
+- ～戻す/抜く: {差し戻|さしもど}す (send back), {見抜|みぬ}く (see through)
+- ～渡す/上がる: {言い渡|いいわた}す (hand down), {沸き上|わきあ}がる (well up), {湧き出|わきで}る (gush out)
+
+Notable features:
+- Specialized hobbies covering traditional Japanese arts (盆栽) and modern otaku culture (同人誌, フィギュア)
+- Complete music terminology set from notation to production
+- Regional dialects spanning all major Japanese dialect regions
+- Compound verbs systematically organized by auxiliary verb patterns
+
+Candidate count: 698 → 820
 
 ### 2026-01-18 (New Candidates - 101 Words Added, Session 100)
 Added 101 new candidate words to `candidate_words.json` with balanced coverage across diverse categories:
@@ -542,28 +596,6 @@ Added 101 new candidate words to `candidate_words.json` using balanced coverage 
 - **Modern business/tech loanwords** (20): クラウドファンディング, ブレインストーミング, シェアハウス, マインドセット, ワークショップ, ファシリテーター, キャリアアップ, ライフスタイル, ウェルビーイング, ダイバーシティ, インクルーシブ, ワークライフバランス, デジタルネイティブ, レガシー, ローンチ, ピボット, スケール, コンプライアンス, ガバナンス, ステークホルダー
 
 Candidate count: 761 → 862
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 82)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Modern slang/expressions** (5): ワンチャン (maybe/possibly), エモ (emotional), {界隈|かいわい} (community/scene), {古参|こさん} (longtime fan), {新規|しんき} (new fan)
-- **Japanese proverbs** (4): {能|のう}ある{鷹|たか}は{爪|つめ}を{隠|かく}す (still waters run deep), {情|なさ}けは{人|ひと}の{為|ため}ならず (kindness comes back to you), {馬|うま}の{耳|みみ}に{念仏|ねんぶつ} (preaching to deaf ears), {虻|あぶ}{蜂|はち}{取|と}らず (grasp all, lose all)
-- **Traditional Japanese items** (3): {紋付|もんつき} (formal kimono), {番傘|ばんがさ} (traditional umbrella), {香炉|こうろ} (incense burner)
-- **Medical terms** (5): {発熱|はつねつ} (fever), {筋肉痛|きんにくつう} (muscle pain), {動悸|どうき} (palpitation), {息切|いきぎ}れ (shortness of breath), {痙攣|けいれん} (spasm)
-- **Business/financial terms** (4): {収益|しゅうえき} (earnings), {抵当|ていとう} (mortgage), {手形|てがた} (promissory note), {小切手|こぎって} (check)
-- **Social/cultural** (3): {空気|くうき}を{読|よ}む (read the room), {仲直|なかなお}りする (to reconcile), {省|しょう}エネ (energy saving)
-- **Other** (1): ネタ (material/topic)
-
-Notable entry features:
-- Modern youth slang for online communities (ワンチャン, エモ, {界隈|かいわい}, {古参|こさん}↔{新規|しんき})
-- Classic Japanese proverbs with cultural explanations and English equivalents
-- Traditional Japanese items for formal occasions and ceremonies
-- Medical terminology for common symptoms
-- Business/financial vocabulary for formal contexts
-- Cultural expression {空気|くうき}を{読|よ}む central to Japanese social dynamics
-
-Total entries: 6,358 → 6,383
-Remaining candidates: 786 → 761
 
 ---
 

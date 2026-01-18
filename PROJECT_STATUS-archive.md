@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 82)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Modern slang/expressions** (5): ワンチャン (maybe/possibly), エモ (emotional), {界隈|かいわい} (community/scene), {古参|こさん} (longtime fan), {新規|しんき} (new fan)
+- **Japanese proverbs** (4): {能|のう}ある{鷹|たか}は{爪|つめ}を{隠|かく}す (still waters run deep), {情|なさ}けは{人|ひと}の{為|ため}ならず (kindness comes back to you), {馬|うま}の{耳|みみ}に{念仏|ねんぶつ} (preaching to deaf ears), {虻|あぶ}{蜂|はち}{取|と}らず (grasp all, lose all)
+- **Traditional Japanese items** (3): {紋付|もんつき} (formal kimono), {番傘|ばんがさ} (traditional umbrella), {香炉|こうろ} (incense burner)
+- **Medical terms** (5): {発熱|はつねつ} (fever), {筋肉痛|きんにくつう} (muscle pain), {動悸|どうき} (palpitation), {息切|いきぎ}れ (shortness of breath), {痙攣|けいれん} (spasm)
+- **Business/financial terms** (4): {収益|しゅうえき} (earnings), {抵当|ていとう} (mortgage), {手形|てがた} (promissory note), {小切手|こぎって} (check)
+- **Social/cultural** (3): {空気|くうき}を{読|よ}む (read the room), {仲直|なかなお}りする (to reconcile), {省|しょう}エネ (energy saving)
+- **Other** (1): ネタ (material/topic)
+
+Notable entry features:
+- Modern youth slang for online communities (ワンチャン, エモ, {界隈|かいわい}, {古参|こさん}↔{新規|しんき})
+- Classic Japanese proverbs with cultural explanations and English equivalents
+- Traditional Japanese items for formal occasions and ceremonies
+- Medical terminology for common symptoms
+- Business/financial vocabulary for formal contexts
+- Cultural expression {空気|くうき}を{読|よ}む central to Japanese social dynamics
+
+Total entries: 6,358 → 6,383
+Remaining candidates: 786 → 761
+
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 81)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
