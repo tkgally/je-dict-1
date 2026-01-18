@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 6,969
 - **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,918 | General: 513 | Unassigned: 399
-- **Candidate words**: ~651 words tracked in `candidate_words.json`
+- **Candidate words**: ~752 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,52 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (New Candidates - 101 Words Added, Session 117)
+Added 101 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Verbs** (~25 words):
+- Intransitive/state verbs: {空|むな}しい (empty), {捗|はかど}る (make progress), {滞|とどこお}る (stagnate), {翳|かす}む (become misty)
+- Compound verbs: {溜|た}め{込|こ}む (hoard), {染|し}み{付|つ}く (become ingrained), {引|ひ}っ{込|こ}む (withdraw), {摺|す}り{寄|よ}る (sidle up)
+- Action verbs: {錆|さ}びる (rust), {燻|くすぶ}る (smolder), {軋|きし}む (creak), {篭|こも}る (shut oneself in), {嗾|けしか}ける (incite), {漲|みなぎ}る (overflow with)
+- Physical verbs: {浸|ひた}す (soak), {拵|こしら}える (prepare), {覆|くつがえ}す (overturn), {揺|ゆ}さぶる (shake), {揺|ゆ}らぐ (sway), {滑|すべ}らす (slide)
+- Emotional/mental verbs: {懲|こ}りる (learn lesson), {萎|な}える (wilt), {綻|ほころ}びる (come apart), {蔓延|はびこ}る (spread), {紛|まぎ}れる (be mixed up)
+
+**Abstract/Business Nouns** (~25 words):
+- Organizational: {萎縮|いしゅく} (atrophy), {疲弊|ひへい} (exhaustion), {停滞|ていたい} (stagnation), {衰退|すいたい} (decline), {躍進|やくしん} (rapid advance)
+- Action nouns: {迷走|めいそう} (straying), {逸脱|いつだつ} (deviation), {逡巡|しゅんじゅん} (hesitation), {同調|どうちょう} (conformity), {妥協|だきょう} (compromise)
+- Social/political: {瓦解|がかい} (collapse), {傍観|ぼうかん} (looking on), {介入|かいにゅう} (intervention), {粛清|しゅくせい} (purge), {紛糾|ふんきゅう} (complication), {糾弾|きゅうだん} (denunciation)
+- Technology/business: {脆弱|ぜいじゃく} (vulnerability), {堅牢|けんろう} (robust), {冗長|じょうちょう} (redundant), {復旧|ふっきゅう} (recovery), {切|き}り{替|か}え (switching), {互換性|ごかんせい} (compatibility), {汎用|はんよう} (general-purpose)
+- Progress/change: {普及|ふきゅう} (spread), {浸透|しんとう} (permeation), {定着|ていちゃく} (establishment), {台頭|たいとう} (rise)
+
+**Keigo and Formal Expressions** (~15 words):
+- Humble/formal: {恐縮|きょうしゅく} (feeling grateful/sorry), {恐|おそ}れ{入|い}ります (sorry to trouble), {僭越|せんえつ} (presumptuous), {粗相|そそう} (blunder), {不躾|ぶしつけ} (rude)
+- Business formal: {差|さ}し{支|つか}え (hindrance), {不手際|ふてぎわ} (mishandling), {不備|ふび} (deficiency), {謹|つつし}んで (respectfully)
+- Archaic honorific: {賜|たまわ}る (receive - honorific), {仰|おお}せ (instruction - honorific), {御意|ぎょい} (as you wish), {憚|はばか}る (hesitate)
+
+**Adverbs and Mimetics** (~15 words):
+- Adverbs: {逐一|ちくいち} (one by one), {逐次|ちくじ} (sequentially), ずばり (decisively), てっきり (surely), やたら (excessively)
+- Mimetics: ぴりぴり (tingling/tense), しぶしぶ (reluctantly), まごまご (bewildered), きょろきょろ (looking around), もたもた (sluggishly), そそくさ (hurriedly)
+
+**Food/Cooking** (~8 words):
+- Actions: {削|そ}ぐ (slice thin), すり{潰|つぶ}す (mash), {裏返|うらがえ}す (turn over), {敷|し}き{詰|つ}める (spread all over)
+- Vocabulary: {吟味|ぎんみ} (scrutiny), {塩梅|あんばい} (seasoning/condition), {擂|す}り{鉢|ばち} (mortar)
+
+**Business Reform Vocabulary** (~10 words):
+- {査定|さてい} (assessment), {精査|せいさ} (close examination), {抜本|ばっぽん} (drastic), {刷新|さっしん} (reform), {改編|かいへん} (reorganization), {統廃合|とうはいごう} (consolidation), {再編|さいへん} (restructuring)
+
+**Colloquial/Emotional Expressions** (~5 words):
+- Expressions: やるせない (helpless), {晴|は}れ{晴|ば}れ (cheerfully), {諦観|ていかん} (resignation), あのね (you know), ほっとする (feel relieved)
+- Verbs: {揉|も}める (have trouble), {拗|こじ}れる (become complicated), {掻|か}き{立|た}てる (stir up), {醸|かも}す (brew/create atmosphere), {嵩|かさ}む (mount up)
+
+Notable features:
+- Strong coverage of business/organizational vocabulary for news and formal contexts
+- Keigo and formal expressions for polite Japanese
+- Verbs with rare kanji that intermediate learners encounter
+- Food and cooking vocabulary for practical use
+- Modern business reform and technology terminology
+
+Candidate count: 651 → 752
 
 ### 2026-01-18 (Katakana Reading Cleanup, Session 116)
 Fixed inconsistency where some entries had katakana readings instead of hiragana, causing duplicate entries.
@@ -304,28 +350,6 @@ Notable entry features:
 
 Total entries: 6,811 → 6,841
 Remaining candidates: 804 → 784
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 107)
-Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, nouns, and onomatopoeia:
-
-- **Compound verbs** (6): {書|か}き{留|と}める (to write down), {切|き}り{出|だ}す (to bring up), {打|う}ち{上|あ}げる (to launch/wrap-up party), {押|お}し{寄|よ}せる (to surge), {飛|と}び{降|お}りる (to jump down), {差|さ}し{掛|か}かる (to approach)
-- **I-adjectives** (4): せわしない (restless), えげつない (nasty), おぼつかない (uncertain), いたわしい (pitiful)
-- **Na-adjectives** (2): {特徴的|とくちょうてき} (characteristic), {防御的|ぼうぎょてき} (defensive)
-- **Nouns - Business/Formal** (6): {告白|こくはく} (confession), {報告書|ほうこくしょ} (report), {成果|せいか} (result), {開発|かいはつ} (development), {概要|がいよう} (summary), {謝罪|しゃざい} (apology)
-- **Nouns - Daily life** (4): {物件|ぶっけん} (property), {遅延|ちえん} (delay), {海藻|かいそう} (seaweed), {蚊取|かと}り{線香|せんこう} (mosquito coil)
-- **Nouns - Abstract** (3): {錯覚|さっかく} (illusion), {幻想|げんそう} (fantasy), リスク (risk)
-- **Onomatopoeia/Adverbs** (5): どっと (in a rush), むずむず (itching), うずうず (eager), くらくら (dizzy), しれっと (nonchalantly)
-
-Notable entry features:
-- Compound verb patterns: ～{留|と}める for securing/noting, ～{上|あ}げる for launching, ～{寄|よ}せる for gathering/surging
-- Expressive i-adjectives including Kansai-origin えげつない and literary おぼつかない
-- Business vocabulary ({報告書|ほうこくしょ}, {成果|せいか}, {開発|かいはつ}) common in corporate contexts
-- Real estate vocabulary ({物件|ぶっけん}) and train terminology ({遅延|ちえん}{証明書|しょうめいしょ})
-- Japanese summer icons: {蚊取|かと}り{線香|せんこう} with cultural notes on pig-shaped holders
-- Onomatopoeia contrasting similar concepts: むずむず (physical itch) vs うずうず (eager anticipation)
-
-Total entries: 6,781 → 6,811
-Remaining candidates: 833 → 804
 
 ---
 
