@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,721
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,816 | General: 469 | Unassigned: 307
-- **Candidate words**: ~891 words tracked in `candidate_words.json`
+- **Total entries**: 6,751
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,816 | General: 469 | Unassigned: 337
+- **Candidate words**: ~861 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 105)
+Added 30 new dictionary entries from candidate_words.json, covering adjectives, verbs, adverbs, onomatopoeia, and everyday vocabulary:
+
+- **I-adjectives** (5): {細長|ほそなが}い (long and thin), {平|ひら}たい (flat), {瑞々|みずみず}しい (fresh/juicy), {図太|ずぶと}い (thick-skinned), {甲斐甲斐|かいがい}しい (devoted)
+- **Na-adjectives** (2): {生真面目|きまじめ} (overly serious), {愚|おろ}か (foolish)
+- **Verbs** (4): {焦|こ}がす (to burn/scorch), {笑|わら}い{出|だ}す (to start laughing), {走|はし}り{出|だ}す (to start running), {履|は}き{替|か}える (to change shoes)
+- **Onomatopoeia/Adverbs** (7): こってり (rich/heavy), じわじわ (gradually), ぽつぽつ (bit by bit), そこそこ (so-so), {到底|とうてい} (not possibly), {否応|いやおう}なく (inevitably), なんだかんだ (one way or another)
+- **Nouns - Memory/Attitude** (3): {物覚|ものおぼ}え (memory ability), {気配|きくば}り (attentiveness), {心掛|こころが}け (mindset)
+- **Nouns - Exams** (3): {期末試験|きまつしけん} (final exam), {中間試験|ちゅうかんしけん} (midterm exam), {追試験|ついしけん} (makeup exam)
+- **Nouns - Modern life** (6): {退去|たいきょ} (moving out), {電子|でんし}マネー (electronic money), {小川|おがわ} (stream), トレンド (trend), フェス (music festival), ドリンクバー (drink bar)
+
+Notable entry features:
+- Compound adjectives: {細長|ほそなが}い from {細|ほそ}い + {長|なが}い, {生真面目|きまじめ} with intensifying {生|き} prefix
+- Compound verbs with ～{出|だ}す pattern for "beginning to" ({笑|わら}い{出|だ}す, {走|はし}り{出|だ}す)
+- Transitivity pair: {焦|こ}がす (trans.) ↔ {焦|こ}げる (intrans.)
+- Japanese school exam terminology set with cross-references
+- {和製英語|わせいえいご} entries: ドリンクバー (self-service drinks), フェス (festival)
+- Onomatopoeia for texture/gradual change: こってり↔あっさり antonym pair, じわじわ for slow persistent change
+
+Total entries: 6,721 → 6,751
+Remaining candidates: 891 → 861
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 104)
 Added 30 new dictionary entries from candidate_words.json, covering personality traits, emotions, cooking, cultural concepts, and modern business vocabulary:
@@ -395,29 +417,6 @@ Notable entry features:
 
 Total entries: 6,591 → 6,611
 Remaining candidates: 742 → 722
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 95)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Traditional games** (4): じゃんけん (rock-paper-scissors), けん{玉|だま} (kendama), サイコロ (dice)
-- **Japanese mythology** (2): {河童|かっぱ} (kappa), {天狗|てんぐ} (tengu)
-- **Swimming strokes** (2): {平泳|ひらおよ}ぎ (breaststroke), {背泳|せおよ}ぎ (backstroke)
-- **Sports terms** (2): {連勝|れんしょう} (winning streak), {連敗|れんぱい} (losing streak)
-- **Natural phenomena** (2): {満潮|まんちょう} (high tide), {干潮|かんちょう} (low tide)
-- **Physical states** (3): {空腹|くうふく} (hunger), {満腹|まんぷく} (full stomach), {眠気|ねむけ} (sleepiness)
-- **Adjectives** (3): {図々|ずうずう}しい (shameless), {気|き}まずい (awkward), もどかしい (frustrating)
-- **Cultural items** (2): {招|まね}き{猫|ねこ} (beckoning cat), だるま (daruma doll)
-- **Tools** (1): {砥石|といし} (whetstone)
-
-Notable entry features:
-- Traditional Japanese games and toys with cultural background (じゃんけん rules, けん{玉|だま} tricks)
-- Japanese mythology creatures with folklore details ({河童|かっぱ}'s dish, {天狗|てんぐ}'s characteristics)
-- Swimming vocabulary with competitive context
-- Antonym pairs: {連勝|れんしょう}↔{連敗|れんぱい}, {満潮|まんちょう}↔{干潮|かんちょう}, {空腹|くうふく}↔{満腹|まんぷく}
-- Good luck charms ({招|まね}き{猫|ねこ}, だるま) with symbolic meanings
-
-Total entries: 6,571 → 6,591
-Remaining candidates: 762 → 742
 
 ---
 
