@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-17
+**Last updated**: 2026-01-18
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,611
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,745 | General: 427 | Unassigned: 306
-- **Candidate words**: ~722 words tracked in `candidate_words.json`
+- **Total entries**: 6,631
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,760 | General: 431 | Unassigned: 307
+- **Candidate words**: ~702 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 97)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Animals** (2): チンパンジー (chimpanzee), アザラシ (seal)
+- **Insects** (1): クワガタムシ (stag beetle)
+- **Baseball** (2): {投手|とうしゅ} (pitcher), {打者|だしゃ} (batter)
+- **Music** (3): {指揮者|しきしゃ} (conductor), {伴奏|ばんそう} (accompaniment), コーラス (chorus)
+- **Construction** (3): {新築|しんちく} (newly built), {増築|ぞうちく} (extension), {修繕|しゅうぜん} (repair)
+- **Plants** (1): コスモス (cosmos flower)
+- **Professions** (2): {税理士|ぜいりし} (tax accountant), {不動産屋|ふどうさんや} (real estate agent)
+- **Sports** (1): {連覇|れんぱ} (consecutive championship)
+- **Real estate** (3): {管理費|かんりひ} (management fee), {共益費|きょうえきひ} (common expense fee), {分譲|ぶんじょう} (for-sale housing)
+- **Finance** (2): {債務|さいむ} (debt), ローン (loan)
+
+Notable entry features:
+- Animal vocabulary including zoo favorites (チンパンジー, アザラシ) and popular summer insects (クワガタムシ with hobby/collection context)
+- Baseball pair: {投手|とうしゅ} (pitcher) ↔ {打者|だしゃ} (batter) with detailed statistics terminology
+- Music terminology covering orchestral ({指揮者|しきしゃ}, {伴奏|ばんそう}) and pop music (コーラス) contexts
+- Construction vocabulary for home building and renovation ({新築|しんちく} ↔ {中古|ちゅうこ})
+- Real estate terms commonly seen in apartment hunting ({管理費|かんりひ}, {共益費|きょうえきひ}, {分譲|ぶんじょう})
+- Finance vocabulary with legal context ({債務|さいむ}, ローン)
+
+Total entries: 6,611 → 6,631
+Remaining candidates: 722 → 702
 
 ### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 96)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -487,27 +512,6 @@ Notable entry features:
 
 Total entries: 6,333 → 6,358
 Remaining candidates: 811 → 786
-
-### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 80)
-Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Compound verbs** (5): {積|つ}み{重|かさ}ねる (to pile up), {食|く}い{込|こ}む (to bite into), {踏|ふ}み{切|き}る (to take the plunge), {掻|か}き{集|あつ}める (to scrape together), {振|ふ}り{払|はら}う (to shake off)
-- **～{的|てき} adjectives** (5): {効率的|こうりつてき} (efficient), {衝動的|しょうどうてき} (impulsive), {独創的|どくそうてき} (original), {攻撃的|こうげきてき} (aggressive), {開放的|かいほうてき} (open)
-- **Four-character idioms** (4): {千差万別|せんさばんべつ} (great variety), {単刀直入|たんとうちょくにゅう} (straight to the point), {日進月歩|にっしんげっぽ} (rapid progress), {誠心誠意|せいしんせいい} (in all sincerity)
-- **Emotional nouns** (3): {違和感|いわかん} (sense of discomfort), {一体感|いったいかん} (sense of unity), {臨場感|りんじょうかん} (sense of presence)
-- **Adverbs** (3): じっくり (slowly and carefully), つくづく (deeply), ふわっと (softly)
-- **Adjectives** (4): たくましい (sturdy), おおらか (broad-minded), にこやか (smiling), あざとい (cunning)
-- **Modern term** (1): ゲーマー (gamer)
-
-Notable entry features:
-- Compound verbs with ～{込|こ}む (into), ～{切|き}る (decisively), ～{払|はら}う (away) patterns
-- ～{的|てき} adjectives with antonym pairs ({攻撃的|こうげきてき}↔{防御的|ぼうぎょてき}, {開放的|かいほうてき}↔{閉鎖的|へいさてき})
-- Four-character idioms with etymological context
-- Emotional ～{感|かん} compound nouns for expressing nuanced feelings
-- Modern youth/gaming vocabulary (あざとい's semantic shift, ゲーマー)
-
-Total entries: 6,308 → 6,333
-Remaining candidates: 836 → 811
 
 ---
 

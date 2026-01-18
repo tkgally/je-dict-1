@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="チンパンジー - chimpanzee. Japanese-English dictionary entry with definitions and examples.">
+    <title>チンパンジー (ちんぱんじー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">チンパンジー</h1>
+            <div class="entry-reading">ちんぱんじー</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">chimpanzee</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">chimpanzee</span>
+                    <div class="definition-explanation">A great ape native to Africa, known for its intelligence and close genetic relationship to humans.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>動物園<rp>(</rp><rt>どうぶつえん</rt><rp>)</rp></ruby>でチンパンジーを<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>た。</div>
+                    <div class="example-english">I saw chimpanzees at the zoo.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">チンパンジーは<ruby>道具<rp>(</rp><rt>どうぐ</rt><rp>)</rp></ruby>を<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>うことができる。</div>
+                    <div class="example-english">Chimpanzees can use tools.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">チンパンジーは<ruby>人間<rp>(</rp><rt>にんげん</rt><rp>)</rp></ruby>に<ruby>最<rp>(</rp><rt>もっと</rt><rp>)</rp></ruby>も<ruby>近<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>い<ruby>動物<rp>(</rp><rt>どうぶつ</rt><rp>)</rp></ruby>の<ruby>一<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>つだ。</div>
+                    <div class="example-english">Chimpanzees are one of the animals closest to humans.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>SCIENTIFIC CLASSIFICATION:<br>チンパンジー belongs to the great ape family (<ruby>類人猿<rp>(</rp><rt>るいじんえん</rt><rp>)</rp></ruby>). The Japanese name comes from the English &quot;chimpanzee.&quot;</p><p>RELATED VOCABULARY:</p><ul><li>ゴリラ (gorilla)</li><li>オランウータン (orangutan)</li><li><ruby>類人猿<rp>(</rp><rt>るいじんえん</rt><rp>)</rp></ruby> (great ape)</li><li><ruby>霊長類<rp>(</rp><rt>れいちょうるい</rt><rp>)</rp></ruby> (primate)</li></ul><p>FUN FACT:<br>Chimpanzees share approximately 98-99% of their DNA with humans, making them our closest living relatives along with bonobos (ボノボ).</p><p>COMMON COLLOCATIONS:</p><ul><li>チンパンジーの<ruby>群<rp>(</rp><rt>む</rt><rp>)</rp></ruby>れ (a group of chimpanzees)</li><li>チンパンジーを<ruby>飼育<rp>(</rp><rt>しいく</rt><rp>)</rp></ruby>する (to keep/raise chimpanzees)</li><li>チンパンジーの<ruby>知能<rp>(</rp><rt>ちのう</rt><rp>)</rp></ruby> (chimpanzee intelligence)</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/06500/06657_gorira.html" class="cross-ref-link">
+                            ゴリラ (gorilla)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 9:30</div>
+                <div class="metadata-file">06500/06704_chinpanjii</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

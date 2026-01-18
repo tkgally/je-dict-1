@@ -7,6 +7,27 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 80)
+Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Compound verbs** (5): {積|つ}み{重|かさ}ねる (to pile up), {食|く}い{込|こ}む (to bite into), {踏|ふ}み{切|き}る (to take the plunge), {掻|か}き{集|あつ}める (to scrape together), {振|ふ}り{払|はら}う (to shake off)
+- **～{的|てき} adjectives** (5): {効率的|こうりつてき} (efficient), {衝動的|しょうどうてき} (impulsive), {独創的|どくそうてき} (original), {攻撃的|こうげきてき} (aggressive), {開放的|かいほうてき} (open)
+- **Four-character idioms** (4): {千差万別|せんさばんべつ} (great variety), {単刀直入|たんとうちょくにゅう} (straight to the point), {日進月歩|にっしんげっぽ} (rapid progress), {誠心誠意|せいしんせいい} (in all sincerity)
+- **Emotional nouns** (3): {違和感|いわかん} (sense of discomfort), {一体感|いったいかん} (sense of unity), {臨場感|りんじょうかん} (sense of presence)
+- **Adverbs** (3): じっくり (slowly and carefully), つくづく (deeply), ふわっと (softly)
+- **Adjectives** (4): たくましい (sturdy), おおらか (broad-minded), にこやか (smiling), あざとい (cunning)
+- **Modern term** (1): ゲーマー (gamer)
+
+Notable entry features:
+- Compound verbs with ～{込|こ}む (into), ～{切|き}る (decisively), ～{払|はら}う (away) patterns
+- ～{的|てき} adjectives with antonym pairs ({攻撃的|こうげきてき}↔{防御的|ぼうぎょてき}, {開放的|かいほうてき}↔{閉鎖的|へいさてき})
+- Four-character idioms with etymological context
+- Emotional ～{感|かん} compound nouns for expressing nuanced feelings
+- Modern youth/gaming vocabulary (あざとい's semantic shift, ゲーマー)
+
+Total entries: 6,308 → 6,333
+Remaining candidates: 836 → 811
+
 ### 2026-01-17 (New Candidates - 104 Words Added, Session 79)
 Added 104 new candidate words to `candidate_words.json` using balanced coverage strategy:
 
