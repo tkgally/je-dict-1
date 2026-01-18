@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,871
+- **Total entries**: 6,901
 - **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 510 | Unassigned: 367
-- **Candidate words**: ~755 words tracked in `candidate_words.json`
+- **Candidate words**: ~727 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 110)
+Added 30 new dictionary entries from candidate_words.json, covering adjectives, nouns, compound verbs, and onomatopoeia:
+
+- **I-adjectives** (6): {渋|しぶ}い (astringent/refined), {青臭|あおくさ}い (grassy/immature), {生臭|なまぐさ}い (fishy), {焦|こ}げ{臭|くさ}い (burnt-smelling), {紛|まぎ}らわしい (confusing), {馴|な}れ{馴|な}れしい (overly familiar)
+- **Na-adjectives (～的)** (5): {画期的|かっきてき} (groundbreaking), {徹底的|てっていてき} (thorough), {決定的|けっていてき} (decisive), {衝撃的|しょうげきてき} (shocking), {劇的|げきてき} (dramatic)
+- **Business/Career nouns** (5): {左遷|させん} (demotion), {栄転|えいてん} (promotion with transfer), {手取|てど}り (take-home pay), {逆転|ぎゃくてん} (reversal), {敗退|はいたい} (defeat)
+- **Writing/Editing nouns** (3): {下書|したが}き (draft), {添削|てんさく} (correction), {余白|よはく} (margin)
+- **Social nouns** (2): {顔見知|かおみし}り (acquaintance), {仲間外|なかまはず}れ (exclusion from group)
+- **Compound verbs** (4): {突|つ}き{出|だ}す (to thrust out), {叩|たた}き{落|お}とす (to knock down), {這|は}い{出|で}る (to crawl out), {切|き}り{崩|くず}す (to cut into/dip into savings)
+- **Onomatopoeia** (3): ぬめぬめ (slimy), コリコリ (crunchy-chewy), プチプチ (popping/bubble wrap)
+- **Loanwords** (2): メリット (advantage), デメリット (disadvantage)
+
+Notable entry features:
+- Smell-related adjective series: {青臭|あおくさ}い, {生臭|なまぐさ}い, {焦|こ}げ{臭|くさ}い (grassy, fishy, burnt)
+- ～{的|てき} na-adjective group for formal/written Japanese: {画期的|かっきてき}, {徹底的|てっていてき}, etc.
+- Career vocabulary pair: {左遷|させん} (demotion) ↔ {栄転|えいてん} (promotion)
+- Compound verbs with clear auxiliary patterns: ～{出|だ}す (outward), ～{落|お}とす (down), ～{崩|くず}す (break down)
+- Food texture onomatopoeia: コリコリ for cartilage-like crunch, プチプチ for popping fish roe
+
+Total entries: 6,871 → 6,901
+Remaining candidates: ~755 → ~727
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 109)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, formal grammar patterns, modern vocabulary, and everyday nouns:
@@ -362,55 +384,6 @@ Notable features:
 - Compound verbs systematically organized by auxiliary verb patterns
 
 Candidate count: 698 → 820
-
-### 2026-01-18 (New Candidates - 101 Words Added, Session 100)
-Added 101 new candidate words to `candidate_words.json` with balanced coverage across diverse categories:
-
-**Professions & Occupations** (8):
-- {薬剤師|やくざいし} (pharmacist), {獣医|じゅうい} (veterinarian), {司書|ししょ} (librarian), {配管工|はいかんこう} (plumber), {電気技師|でんきぎし} (electrician), {彫刻家|ちょうこくか} (sculptor), {映画監督|えいがかんとく} (film director), {探偵|たんてい} (detective)
-
-**Household & Daily Life** (26):
-- Tools/kitchen: {栓抜|せんぬ}き (bottle opener), {缶切|かんき}り (can opener), おろし{金|がね} (grater), {蛍光|けいこう}ペン (highlighter), {軍手|ぐんて} (work gloves), {巻尺|まきじゃく} (tape measure)
-- Household items: {電源|でんげん}タップ (power strip), {延長|えんちょう}コード (extension cord), {柔軟剤|じゅうなんざい} (fabric softener), {漂白剤|ひょうはくざい} (bleach), {消臭剤|しょうしゅうざい} (deodorizer), {殺虫剤|さっちゅうざい} (insecticide), {芳香剤|ほうこうざい} (air freshener), {接着剤|せっちゃくざい} (adhesive), {潤滑油|じゅんかつゆ} (lubricant)
-- Laundry: {洗濯籠|せんたくかご} (laundry basket), ゴミ{箱|ばこ} (trash can), {靴棚|くつだな} (shoe rack), {傘立|かさた}て (umbrella stand), {鍵掛|かぎか}け (key hook)
-- Bedding: {掛|か}け{布団|ぶとん} (comforter), {敷布団|しきぶとん} (mattress futon)
-- Tech: {携帯充電器|けいたいじゅうでんき} (phone charger), モバイルバッテリー (portable battery), ワイヤレス{充電|じゅうでん} (wireless charging), {液晶画面|えきしょうがめん} (LCD screen)
-
-**Building & Architecture** (9):
-- {天窓|てんまど} (skylight), {網戸|あみど} (screen door), {出窓|でまど} (bay window), {吹|ふ}き{抜|ぬ}け (atrium), {物干|ものほ}し (drying rack), {排水溝|はいすいこう} (drain)
-
-**Environment & Energy** (7):
-- {節電|せつでん} (power saving), {再生可能|さいせいかのう}エネルギー (renewable energy), {太陽光発電|たいようこうはつでん} (solar power), {風力発電|ふうりょくはつでん} (wind power), {断熱材|だんねつざい} (insulation), {気密性|きみつせい} (airtightness), カビ (mold)
-
-**Taste Vocabulary** (4):
-- {酸味|さんみ} (sourness), {甘味|あまみ} (sweetness), {塩気|しおけ} (saltiness), {旨味|うまみ} (umami), {渋|しぶ}み (astringency)
-
-**Medical & Health** (7):
-- {鬱血|うっけつ} (congestion), {脱臼|だっきゅう} (dislocation), {貧血|ひんけつ} (anemia), {不整脈|ふせいみゃく} (arrhythmia), {低血圧|ていけつあつ} (low blood pressure), {食中毒|しょくちゅうどく} (food poisoning)
-
-**Action Verbs** (6):
-- よろめく (to stagger), つまずく (to stumble), {撫|な}で{下|お}ろす (to smooth down), {突|つ}っ{込|こ}む (to thrust), {飛|と}び{跳|は}ねる (to hop), {引|ひ}っ{掻|か}く (to scratch)
-
-**Public Facilities & Travel** (22):
-- Facilities: {観客席|かんきゃくせき} (spectator seating), {控|ひか}え{室|しつ} (waiting room), {更衣室|こういしつ} (changing room), {喫煙所|きつえんじょ} (smoking area), {授乳室|じゅにゅうしつ} (nursing room), {多目的|たもくてき}トイレ (accessible restroom), {指定席|していせき} (reserved seat), {自由席|じゆうせき} (unreserved seat), {喫茶室|きっさしつ} (tea lounge), {休憩所|きゅうけいじょ} (rest area), {集合場所|しゅうごうばしょ} (meeting place)
-- Safety: {非常口|ひじょうぐち} (emergency exit), {避難経路|ひなんけいろ} (evacuation route), {防犯|ぼうはん}カメラ (security camera)
-- Fees: {入場料|にゅうじょうりょう} (admission fee), {入館料|にゅうかんりょう} (museum fee), {拝観料|はいかんりょう} (temple fee), {駐車料金|ちゅうしゃりょうきん} (parking fee), {宿泊料|しゅくはくりょう} (accommodation fee)
-
-**Accommodation & Business** (12):
-- {送迎|そうげい} (shuttle service), {朝食付|ちょうしょくつ}き (with breakfast), {素泊|すどま}り (room only), {連泊|れんぱく} (consecutive stay), {予約制|よやくせい} (by reservation), {先着順|せんちゃくじゅん} (first-come-first-served), {抽選|ちゅうせん} (lottery), {当選|とうせん} (winning), {落選|らくせん} (losing), {繰|く}り{上|あ}げ (moving up schedule), {繰|く}り{下|さ}げ (pushing back), {日程調整|にっていちょうせい} (scheduling)
-
-**Work & Leave** (5):
-- {遅刻届|ちこくとどけ} (late notice), {欠席届|けっせきとどけ} (absence notice), {有給休暇|ゆうきゅうきゅうか} (paid vacation), {育児休暇|いくじきゅうか} (parental leave), {産休|さんきゅう} (maternity leave)
-
-Notable features:
-- Practical daily life vocabulary covering household items, cleaning supplies, and modern technology
-- Comprehensive public facility vocabulary useful for travelers
-- Complete accommodation/booking vocabulary set
-- Work-related leave terminology reflecting Japanese corporate culture
-- Taste vocabulary completing the five basic tastes (umami as the fifth taste, discovered in Japan)
-- Environment/sustainability terms reflecting Japan's carbon neutrality goals
-
-Candidate count: 597 → 698
 
 ---
 
