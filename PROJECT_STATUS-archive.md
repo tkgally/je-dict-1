@@ -7,6 +7,26 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 103)
+Added 20 new dictionary entries from candidate_words.json, focusing on interpersonal vocabulary and Japanese cultural concepts:
+
+- **Cultural concepts** (2): {本音|ほんね} (true feelings), {建前|たてまえ} (public stance)
+- **Emotions/Psychology** (5): {人見知|ひとみし}り (shy with strangers), {愚痴|ぐち} (complaint), {見栄|みえ} (vanity), {物足|ものた}りない (unsatisfying), {歯|は}がゆい (frustrating)
+- **Verbs** (2): {甘|あま}える (to depend on), {甘|あま}やかす (to spoil)
+- **Preparation/Signs** (4): {段取|だんど}り (preparation), {名残|なごり} (traces), {面影|おもかげ} (vestiges), {前触|まえぶ}れ (omen), {兆|きざ}し (sign)
+- **Sensory/Comfort** (5): {居心地|いごこち} (comfort of place), {手応|てごた}え (response), {食感|しょっかん} (food texture), {肌触|はだざわ}り (skin feel)
+- **Communication** (2): {陰口|かげぐち} (gossip), {雑談|ざつだん} (chitchat)
+
+Notable entry features:
+- {本音|ほんね}/{建前|たてまえ} pair with detailed cultural explanations of Japanese communication style
+- {甘|あま}える/{甘|あま}やかす transitivity pair covering Japanese concept of {甘|あま}え (emotional dependence)
+- Productive patterns: ～{心地|ごこち} (comfort of X), ～{応|ごた}え (worth doing X)
+- Sensory vocabulary ({食感|しょっかん}, {肌触|はだざわ}り) with texture onomatopoeia examples
+- Cross-references linking related vocabulary pairs
+
+Total entries: 6,671 → 6,691
+Remaining candidates: 937 → 918
+
 ### 2026-01-18 (New Candidates - 117 Words Added, Session 102)
 Added 117 new candidate words to `candidate_words.json` with balanced coverage across interpersonal and social vocabulary:
 
