@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="あどけない - innocent; childlike; artless. Japanese-English dictionary entry with definitions and examples.">
+    <title>あどけない (あどけない) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">あどけない</h1>
+            <div class="entry-reading">あどけない</div>
+            <div class="entry-pos">i-adjective</div>
+            <div class="entry-gloss">innocent; childlike; artless</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">innocent; childlike</span>
+                    <div class="definition-explanation">Having an innocent, pure quality typically associated with young children; lacking worldliness or guile.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">あどけない<ruby>笑顔<rp>(</rp><rt>えがお</rt><rp>)</rp></ruby>の<ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>たちが<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>んでいた。</div>
+                    <div class="example-english">Children with innocent smiles were playing.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">まだあどけない<ruby>表情<rp>(</rp><rt>ひょうじょう</rt><rp>)</rp></ruby>が<ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>っている。</div>
+                    <div class="example-english">There&#x27;s still an innocent expression remaining (on their face).</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">あどけない<ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>で<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>つめられた。</div>
+                    <div class="example-english">I was gazed at with innocent eyes.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>CONJUGATION:</p><ul><li>あどけない → あどけなく (adverbial)</li><li>あどけない → あどけなくない (negative)</li><li>あどけない → あどけなかった (past)</li><li>あどけない → あどけなさ (noun form)</li></ul><p>USAGE:<br>Typically describes children or young people, or adults who have retained a childlike quality. Often used positively to describe a pure, unspoiled quality.</p><p>COMMON COLLOCATIONS:</p><ul><li>あどけない<ruby>笑顔<rp>(</rp><rt>えがお</rt><rp>)</rp></ruby> (innocent smile)</li><li>あどけない<ruby>表情<rp>(</rp><rt>ひょうじょう</rt><rp>)</rp></ruby> (innocent expression)</li><li>あどけない<ruby>顔<rp>(</rp><rt>かお</rt><rp>)</rp></ruby> (innocent face)</li><li>あどけない<ruby>寝顔<rp>(</rp><rt>ねがお</rt><rp>)</rp></ruby> (innocent sleeping face)</li></ul><p>NUANCE:<br>Carries a warm, affectionate tone. Unlike <ruby>無邪気<rp>(</rp><rt>むじゃき</rt><rp>)</rp></ruby> (innocent/naive), あどけない specifically emphasizes the visual appearance of innocence.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref pending">
+                        <span class="cross-ref-type">Related:</span>
+                        <span class="cross-ref-pending"><ruby>無邪気<rp>(</rp><rt>むじゃき</rt><rp>)</rp></ruby> (innocent/naive)</span>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 13:42</div>
+                <div class="metadata-file">07000/07026_adokenai</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
