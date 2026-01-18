@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,029
-- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,948 | General: 527 | Unassigned: 399
-- **Candidate words**: ~687 words tracked in `candidate_words.json`
+- **Total entries**: 7,059
+- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 399
+- **Candidate words**: ~657 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 120)
+Added 30 new dictionary entries from candidate_words.json, covering occupations, household products, facilities, travel/accommodation terms, and four-character idioms:
+
+- **Occupations** (4): {薬剤師|やくざいし} (pharmacist), {獣医|じゅうい} (veterinarian), {司書|ししょ} (librarian), {探偵|たんてい} (detective)
+- **Household products** (4): {柔軟剤|じゅうなんざい} (fabric softener), {漂白剤|ひょうはくざい} (bleach), {殺虫剤|さっちゅうざい} (insecticide), {芳香剤|ほうこうざい} (air freshener)
+- **Household items** (4): おろし{金|がね} (grater), {巻尺|まきじゃく} (tape measure), {湯|ゆ}たんぽ (hot water bottle), {洗濯|せんたく}ばさみ (clothespin)
+- **Facilities/Places** (4): {更衣室|こういしつ} (changing room), {喫煙所|きつえんじょ} (smoking area), {休憩所|きゅうけいじょ} (rest area), {非常口|ひじょうぐち} (emergency exit)
+- **Travel/Accommodation** (5): {指定席|していせき} (reserved seat), {自由席|じゆうせき} (unreserved seat), {素泊|すど}まり (room only), {連泊|れんぱく} (consecutive nights), {送迎|そうげい} (shuttle service)
+- **Yojijukugo (4-character idioms)** (3): {支離滅裂|しりめつれつ} (incoherent), {公明正大|こうめいせいだい} (fair and square), {一喜一憂|いっきいちゆう} (emotional ups and downs)
+- **Booking/Fee systems** (5): {抽選|ちゅうせん} (lottery), {先着順|せんちゃくじゅん} (first-come-first-served), {予約制|よやくせい} (by reservation), {入場料|にゅうじょうりょう} (admission fee), {拝観料|はいかんりょう} (temple viewing fee)
+- **Other** (1): カビ (mold)
+
+Notable entry features:
+- Occupation vocabulary with workplace contexts and related professions
+- Household chemical products (～{剤|ざい} suffix pattern): cleaning, laundry, pest control
+- Travel and accommodation terminology with contrast pairs: {指定席|していせき} ↔ {自由席|じゆうせき}, {抽選|ちゅうせん} ↔ {先着順|せんちゃくじゅん}
+- Public facility vocabulary with usage contexts
+- Three yojijukugo with formation analysis and grammar patterns
+
+Total entries: 7,029 → 7,059
+Remaining candidates: ~687 → ~657
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 119)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, household items, taste vocabulary, medical terms, and social expressions:
@@ -326,28 +348,6 @@ Notable features:
 - Abstract nouns for thinking and social concepts
 
 Candidate count: 727 → 827
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 110)
-Added 30 new dictionary entries from candidate_words.json, covering adjectives, nouns, compound verbs, and onomatopoeia:
-
-- **I-adjectives** (6): {渋|しぶ}い (astringent/refined), {青臭|あおくさ}い (grassy/immature), {生臭|なまぐさ}い (fishy), {焦|こ}げ{臭|くさ}い (burnt-smelling), {紛|まぎ}らわしい (confusing), {馴|な}れ{馴|な}れしい (overly familiar)
-- **Na-adjectives (～的)** (5): {画期的|かっきてき} (groundbreaking), {徹底的|てっていてき} (thorough), {決定的|けっていてき} (decisive), {衝撃的|しょうげきてき} (shocking), {劇的|げきてき} (dramatic)
-- **Business/Career nouns** (5): {左遷|させん} (demotion), {栄転|えいてん} (promotion with transfer), {手取|てど}り (take-home pay), {逆転|ぎゃくてん} (reversal), {敗退|はいたい} (defeat)
-- **Writing/Editing nouns** (3): {下書|したが}き (draft), {添削|てんさく} (correction), {余白|よはく} (margin)
-- **Social nouns** (2): {顔見知|かおみし}り (acquaintance), {仲間外|なかまはず}れ (exclusion from group)
-- **Compound verbs** (4): {突|つ}き{出|だ}す (to thrust out), {叩|たた}き{落|お}とす (to knock down), {這|は}い{出|で}る (to crawl out), {切|き}り{崩|くず}す (to cut into/dip into savings)
-- **Onomatopoeia** (3): ぬめぬめ (slimy), コリコリ (crunchy-chewy), プチプチ (popping/bubble wrap)
-- **Loanwords** (2): メリット (advantage), デメリット (disadvantage)
-
-Notable entry features:
-- Smell-related adjective series: {青臭|あおくさ}い, {生臭|なまぐさ}い, {焦|こ}げ{臭|くさ}い (grassy, fishy, burnt)
-- ～{的|てき} na-adjective group for formal/written Japanese: {画期的|かっきてき}, {徹底的|てっていてき}, etc.
-- Career vocabulary pair: {左遷|させん} (demotion) ↔ {栄転|えいてん} (promotion)
-- Compound verbs with clear auxiliary patterns: ～{出|だ}す (outward), ～{落|お}とす (down), ～{崩|くず}す (break down)
-- Food texture onomatopoeia: コリコリ for cartilage-like crunch, プチプチ for popping fish roe
-
-Total entries: 6,871 → 6,901
-Remaining candidates: ~755 → ~727
 
 ---
 

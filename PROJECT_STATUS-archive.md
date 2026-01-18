@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 110)
+Added 30 new dictionary entries from candidate_words.json, covering adjectives, nouns, compound verbs, and onomatopoeia:
+
+- **I-adjectives** (6): {渋|しぶ}い (astringent/refined), {青臭|あおくさ}い (grassy/immature), {生臭|なまぐさ}い (fishy), {焦|こ}げ{臭|くさ}い (burnt-smelling), {紛|まぎ}らわしい (confusing), {馴|な}れ{馴|な}れしい (overly familiar)
+- **Na-adjectives (～的)** (5): {画期的|かっきてき} (groundbreaking), {徹底的|てっていてき} (thorough), {決定的|けっていてき} (decisive), {衝撃的|しょうげきてき} (shocking), {劇的|げきてき} (dramatic)
+- **Business/Career nouns** (5): {左遷|させん} (demotion), {栄転|えいてん} (promotion with transfer), {手取|てど}り (take-home pay), {逆転|ぎゃくてん} (reversal), {敗退|はいたい} (defeat)
+- **Writing/Editing nouns** (3): {下書|したが}き (draft), {添削|てんさく} (correction), {余白|よはく} (margin)
+- **Social nouns** (2): {顔見知|かおみし}り (acquaintance), {仲間外|なかまはず}れ (exclusion from group)
+- **Compound verbs** (4): {突|つ}き{出|だ}す (to thrust out), {叩|たた}き{落|お}とす (to knock down), {這|は}い{出|で}る (to crawl out), {切|き}り{崩|くず}す (to cut into/dip into savings)
+- **Onomatopoeia** (3): ぬめぬめ (slimy), コリコリ (crunchy-chewy), プチプチ (popping/bubble wrap)
+- **Loanwords** (2): メリット (advantage), デメリット (disadvantage)
+
+Notable entry features:
+- Smell-related adjective series: {青臭|あおくさ}い, {生臭|なまぐさ}い, {焦|こ}げ{臭|くさ}い (grassy, fishy, burnt)
+- ～{的|てき} na-adjective group for formal/written Japanese: {画期的|かっきてき}, {徹底的|てっていてき}, etc.
+- Career vocabulary pair: {左遷|させん} (demotion) ↔ {栄転|えいてん} (promotion)
+- Compound verbs with clear auxiliary patterns: ～{出|だ}す (outward), ～{落|お}とす (down), ～{崩|くず}す (break down)
+- Food texture onomatopoeia: コリコリ for cartilage-like crunch, プチプチ for popping fish roe
+
+Total entries: 6,871 → 6,901
+Remaining candidates: ~755 → ~727
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 109)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, formal grammar patterns, modern vocabulary, and everyday nouns:
 
