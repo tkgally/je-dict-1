@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,999
+- **Total entries**: 7,029
 - **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,948 | General: 527 | Unassigned: 399
-- **Candidate words**: ~716 words tracked in `candidate_words.json`
+- **Candidate words**: ~687 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 119)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, household items, taste vocabulary, medical terms, and social expressions:
+
+- **Compound verbs** (10): {突|つ}っ{込|こ}む (to thrust/retort), {引|ひ}っ{掻|か}く (to scratch), {言|い}い{渡|わた}す (to hand down), {行|い}き{渡|わた}る (to spread throughout), {呼|よ}び{戻|もど}す (to call back), {巻|ま}き{起|お}こる (to arise), {巻|ま}き{返|かえ}す (to make a comeback), {繰|く}り{上|あ}げる (to move up schedule), {折|お}り{曲|ま}げる (to fold), {跳|は}ね{返|かえ}る (to bounce back)
+- **Household items** (6): {栓|せん}{抜|ぬ}き (bottle opener), {缶切|かんき}り (can opener), {電源|でんげん}タップ (power strip), {傘立|かさた}て (umbrella stand), {掛|か}け{布団|ぶとん} (comforter), {敷|し}き{布団|ぶとん} (mattress futon)
+- **Taste vocabulary** (3): {酸味|さんみ} (sourness), {甘味|あまみ} (sweetness), {塩気|しおけ} (saltiness)
+- **Medical terms** (2): {貧血|ひんけつ} (anemia), {食中毒|しょくちゅうどく} (food poisoning)
+- **Social/communication** (5): {世間話|せけんばなし} (small talk), {独|ひと}り{言|ごと} (talking to oneself), お{世辞|せじ} (flattery), {嫌味|いやみ} (sarcasm), {負|ま}けず{嫌|ぎら}い (competitive)
+- **Abstract concepts** (2): {心構|こころがま}え (mental preparedness), {不可欠|ふかけつ} (indispensable)
+- **Adverbs** (2): {次々|つぎつぎ}と (one after another), {仮|かり}に (supposing)
+
+Notable entry features:
+- Strong compound verb coverage: ～{込|こ}む (into), ～{渡|わた}す (convey), ～{渡|わた}る (spread), ～{戻|もど}す (return), ～{起|お}こる (arise), ～{返|かえ}す (reverse), ～{上|あ}げる (advance), ～{返|かえ}る (rebound)
+- Practical household vocabulary: kitchen tools, bedding, and home items
+- Five basic taste words group: {酸味|さんみ}, {甘味|あまみ}, {塩気|しおけ} linked with cross-references
+- Social communication: small talk, flattery, sarcasm with nuance explanations
+- Comedy culture: {突|つ}っ{込|こ}む with manzai (tsukkomi/boke) context
+
+Total entries: 6,999 → 7,029
+Remaining candidates: ~716 → ~687
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 118)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, verbs, and nouns:
@@ -327,28 +348,6 @@ Notable entry features:
 
 Total entries: 6,871 → 6,901
 Remaining candidates: ~755 → ~727
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 109)
-Added 30 new dictionary entries from candidate_words.json, covering compound verbs, formal grammar patterns, modern vocabulary, and everyday nouns:
-
-- **Compound verbs** (9): {打|う}ち{出|だ}す (to launch), {引|ひ}き{付|つ}ける (to attract), {打|う}ち{消|け}す (to negate), {押|お}し{切|き}る (to overcome), {差|さ}し{入|い}れる (to insert/bring refreshments), {持|も}ちかける (to propose), {持|も}ち{堪|こた}える (to hold out), {取|と}り{付|つ}ける (to install), {押|お}し{進|すす}める (to push forward)
-- **Formal grammar patterns** (6): において (in/at), に{対|たい}して (towards), によって (by/depending on), として (as), にとって (for someone), に{伴|ともな}い (accompanying)
-- **Tech/Digital** (2): DM (direct message), プライバシー (privacy)
-- **Everyday nouns** (8): {運休|うんきゅう} (service suspension), {発着|はっちゃく} (arrivals/departures), {下味|したあじ} (preliminary seasoning), {連|つ}れ{合|あ}い (spouse), {運用|うんよう} (operation), {居住|きょじゅう} (residence), {妄想|もうそう} (delusion), {宣告|せんこく} (verdict)
-- **Verbs** (2): {痺|しび}れる (to become numb), かぶれる (to get a rash)
-- **Slang** (1): ガチで (seriously)
-- **Formal** (1): {遺憾|いかん} (regrettable)
-- **Cooking** (1): {灰汁|あく}{抜|ぬ}き (removing bitterness)
-
-Notable entry features:
-- Comprehensive formal grammar patterns (において, に対して, etc.) essential for written Japanese
-- Compound verb patterns: ～{切|き}る for completion, ～{出|だ}す for starting/launching
-- Youth slang ガチで with etymology from sumo ガチンコ
-- {差|さ}し{入|い}れる covering both literal insertion and bringing refreshments to people
-- Cooking terminology {灰汁|あく}{抜|ぬ}き with common methods and ingredients
-
-Total entries: 6,841 → 6,871
-Remaining candidates: ~784 → ~755
 
 ---
 
