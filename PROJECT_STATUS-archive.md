@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 106)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, adverbs, onomatopoeia, and modern vocabulary:
+
+- **Compound verbs** (5): {受|う}け{継|つ}ぐ (to inherit), {差|さ}し{引|ひ}く (to deduct), {打|う}ち{切|き}る (to discontinue), {振|ふ}り{切|き}る (to shake off), {飛|と}び{付|つ}く (to jump at)
+- **I-adjectives** (5): あどけない (innocent), いじらしい (touching), けたたましい (shrill), しおらしい (meek), ふてぶてしい (brazen)
+- **Na-adjectives** (3): {閉鎖的|へいさてき} (exclusive), {包括的|ほうかつてき} (comprehensive), {暫定的|ざんていてき} (provisional)
+- **Adverbs** (4): あくまで (to the end), おのずと (naturally), しみじみ (deeply), まんまと (completely fooled)
+- **Onomatopoeia** (2): くねくね (winding), かりかり (crispy)
+- **Verbs** (2): {呆|あき}れる (to be appalled), ばれる (to be found out)
+- **Modern vocabulary** (4): スクショ (screenshot), ワンオペ (one-person operation), イクメン (hands-on father), {不動産|ふどうさん} (real estate)
+- **Family terms** (2): {義母|ぎぼ} (mother-in-law), {義父|ぎふ} (father-in-law)
+- **Abstract nouns** (3): {比率|ひりつ} (ratio), {切|せつ}なさ (heartache), {懐|なつ}かしさ (nostalgia)
+
+Notable entry features:
+- Compound verb patterns: ～{継|つ}ぐ for inheritance, ～{切|き}る for completion/severing
+- Expressive i-adjectives for describing people's qualities and sounds
+- ～{的|てき} na-adjectives common in formal/written Japanese
+- Adverbs for emphasis and nuance in natural speech
+- Modern slang: ワンオペ (from restaurant industry to parenting), イクメン (childcare-involved fathers)
+- Emotion nouns formed from adjectives: {切|せつ}ない→{切|せつ}なさ, {懐|なつ}かしい→{懐|なつ}かしさ
+
+Total entries: 6,751 → 6,781
+Remaining candidates: 861 → 833
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 104)
 Added 30 new dictionary entries from candidate_words.json, covering personality traits, emotions, cooking, cultural concepts, and modern business vocabulary:
 

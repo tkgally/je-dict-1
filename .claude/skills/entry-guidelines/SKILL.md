@@ -160,13 +160,46 @@ python3 build/verify_furigana.py <entry_id>
 Every entry must include:
 - `id`: Format `{5-digit-number}_{romaji}` (e.g., `00001_taberu`)
 - `headword`: With furigana notation
-- `reading`: Hiragana only
+- `reading`: **Hiragana only** (see Reading Format below)
 - `part_of_speech`: Consistent terminology
 - `gloss`: Brief English equivalent
 - `definitions`: Array with sense_number, gloss, explanation
 - `examples`: 2-3 minimum, with id, Japanese, English, sense_numbers, and optional notes
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
 - `metadata`: Including vocabulary_tier (basic/core/general, or null for new entries pending tier assignment), created, modified timestamps
+
+## Reading Format (CRITICAL)
+
+**All readings MUST be in hiragana, never katakana.**
+
+This applies to ALL entries, including:
+- Loanwords (katakana headwords like スキー, ストレージ)
+- Abbreviations (DM, PC, etc.)
+- Any word regardless of how the headword is written
+
+**Examples:**
+```
+✓ CORRECT:
+  headword: "スキー"
+  reading: "すきー"
+
+✓ CORRECT:
+  headword: "DM"
+  reading: "でぃーえむ"
+
+✗ WRONG:
+  headword: "スキー"
+  reading: "スキー"  ← Katakana readings cause duplicates!
+```
+
+**Why this matters:**
+- Katakana readings cause duplicate entries (same word with two different reading formats)
+- The dictionary uses readings for indexing and deduplication
+- Consistent hiragana readings ensure proper sorting and lookup
+
+**Note:** The long vowel mark `ー` is acceptable in hiragana readings (e.g., `すきー`, `すとれーじ`) since there is no hiragana equivalent.
+
+The validation script (`validate.py`) will report errors for entries with katakana readings.
 
 ## File Placement (CRITICAL)
 

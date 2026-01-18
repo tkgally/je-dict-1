@@ -27,8 +27,21 @@ import sys
 from pathlib import Path
 from datetime import datetime, timezone
 
-from japanese_utils import strip_furigana
+from japanese_utils import strip_furigana, normalize_reading
 from duplicate_utils import check_for_duplicate
+
+
+def contains_katakana(text: str) -> bool:
+    """Check if text contains any katakana characters (excluding long vowel mark)."""
+    if not text:
+        return False
+    for char in text:
+        code = ord(char)
+        # Katakana range: U+30A1-U+30F6 (standard katakana characters)
+        # Exclude U+30FC (ー) which is the long vowel mark and acceptable
+        if 0x30A1 <= code <= 0x30F6:
+            return True
+    return False
 
 
 # Calculate paths relative to script location
@@ -218,6 +231,13 @@ def main():
         word = args[0]
         reading = args[1] if len(args) > 1 else None
         notes = args[2] if len(args) > 2 else None
+
+        # Convert katakana reading to hiragana (with warning)
+        if reading and contains_katakana(reading):
+            original_reading = reading
+            reading = normalize_reading(reading)
+            print(f"WARNING: Katakana reading converted to hiragana: {original_reading} -> {reading}")
+            print("  (Readings must always be in hiragana, even for loanwords)")
 
         # Check for duplicates BEFORE adding (unless --force)
         if not force and reading:

@@ -243,6 +243,17 @@ After identifying qualifying words, add them using:
 python3 build/manage_candidates.py add "漢字表記" "ひらがな読み" "brief English note"
 ```
 
+**IMPORTANT: Readings must be in hiragana, not katakana.**
+
+Even for loanwords with katakana headwords, the reading must be hiragana:
+```bash
+# Correct:
+python3 build/manage_candidates.py add "スキー" "すきー" "skiing"
+
+# Wrong (katakana reading):
+python3 build/manage_candidates.py add "スキー" "スキー" "skiing"
+```
+
 **Notes field guidance:**
 - Brief English gloss or description
 - Can include part of speech hint
