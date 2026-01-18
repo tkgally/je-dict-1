@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,841
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 510 | Unassigned: 337
-- **Candidate words**: ~784 words tracked in `candidate_words.json`
+- **Total entries**: 6,871
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 510 | Unassigned: 367
+- **Candidate words**: ~755 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 109)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, formal grammar patterns, modern vocabulary, and everyday nouns:
+
+- **Compound verbs** (9): {打|う}ち{出|だ}す (to launch), {引|ひ}き{付|つ}ける (to attract), {打|う}ち{消|け}す (to negate), {押|お}し{切|き}る (to overcome), {差|さ}し{入|い}れる (to insert/bring refreshments), {持|も}ちかける (to propose), {持|も}ち{堪|こた}える (to hold out), {取|と}り{付|つ}ける (to install), {押|お}し{進|すす}める (to push forward)
+- **Formal grammar patterns** (6): において (in/at), に{対|たい}して (towards), によって (by/depending on), として (as), にとって (for someone), に{伴|ともな}い (accompanying)
+- **Tech/Digital** (2): DM (direct message), プライバシー (privacy)
+- **Everyday nouns** (8): {運休|うんきゅう} (service suspension), {発着|はっちゃく} (arrivals/departures), {下味|したあじ} (preliminary seasoning), {連|つ}れ{合|あ}い (spouse), {運用|うんよう} (operation), {居住|きょじゅう} (residence), {妄想|もうそう} (delusion), {宣告|せんこく} (verdict)
+- **Verbs** (2): {痺|しび}れる (to become numb), かぶれる (to get a rash)
+- **Slang** (1): ガチで (seriously)
+- **Formal** (1): {遺憾|いかん} (regrettable)
+- **Cooking** (1): {灰汁|あく}{抜|ぬ}き (removing bitterness)
+
+Notable entry features:
+- Comprehensive formal grammar patterns (において, に対して, etc.) essential for written Japanese
+- Compound verb patterns: ～{切|き}る for completion, ～{出|だ}す for starting/launching
+- Youth slang ガチで with etymology from sumo ガチンコ
+- {差|さ}し{入|い}れる covering both literal insertion and bringing refreshments to people
+- Cooking terminology {灰汁|あく}{抜|ぬ}き with common methods and ingredients
+
+Total entries: 6,841 → 6,871
+Remaining candidates: ~784 → ~755
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 108)
 Added 30 new dictionary entries from candidate_words.json, covering verbs, loanwords, expressions, and nouns:
@@ -389,30 +411,6 @@ Notable features:
 - Environment/sustainability terms reflecting Japan's carbon neutrality goals
 
 Candidate count: 597 → 698
-
-### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 99)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Technology/Computing** (4): {深層|しんそう}{学習|がくしゅう} (deep learning), {検索|けんさく}エンジン (search engine), USBメモリ (USB flash drive), ハードディスク (hard disk)
-- **Communication/Remote work** (3): オンライン{会議|かいぎ} (online meeting), ビデオ{通話|つうわ} (video call), ワーホリ (working holiday)
-- **Sports** (1): {陸上|りくじょう}{競技|きょうぎ} (track and field)
-- **Food** (1): {加工|かこう}{食品|しょくひん} (processed food)
-- **Compound concepts** (4): {出入|でい}り (going in and out), {開閉|かいへい} (opening and closing), {表裏|おもてうら} (front and back), {八方|はっぽう} (all directions)
-- **Legal** (1): {六法|ろっぽう} (the Six Codes)
-- **Emotions** (1): {恥辱|ちじょく} (disgrace)
-- **Agriculture** (3): {精米|せいまい} (rice polishing), {脱穀|だっこく} (threshing), {耕作|こうさく} (cultivation)
-- **Construction** (1): {施工|せこう} (construction work)
-- **Nature** (1): {熱帯林|ねったいりん} (tropical forest)
-
-Notable entry features:
-- AI/computing vocabulary ({深層|しんそう}{学習|がくしゅう}, {検索|けんさく}エンジン) for modern technology discussions
-- Remote work terminology (オンライン{会議|かいぎ}, ビデオ{通話|つうわ}) reflecting post-pandemic work culture
-- Rice production vocabulary ({精米|せいまい}, {脱穀|だっこく}, {耕作|こうさく}) with agricultural process context
-- Compound words pairing opposites ({出入|でい}り, {開閉|かいへい}, {表裏|おもてうら})
-- Japanese legal terminology ({六法|ろっぽう}) with the six fundamental codes explained
-
-Total entries: 6,651 → 6,671
-Remaining candidates: 683 → 663
 
 ---
 
