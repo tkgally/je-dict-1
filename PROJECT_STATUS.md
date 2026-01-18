@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,811
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 480 | Unassigned: 337
-- **Candidate words**: ~804 words tracked in `candidate_words.json`
+- **Total entries**: 6,841
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,865 | General: 510 | Unassigned: 337
+- **Candidate words**: ~784 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 108)
+Added 30 new dictionary entries from candidate_words.json, covering verbs, loanwords, expressions, and nouns:
+
+- **Verbs** (3): {押|お}し{入|い}る (to break in), {降|お}り{立|た}つ (to arrive/land), {萎縮|いしゅく}する (to shrink/be intimidated)
+- **Business loanwords** (6): フィードバック (feedback), プロジェクト (project), タスク (task), デッドライン (deadline), キャンセル (cancel), マネジメント (management)
+- **Food/Lifestyle loanwords** (4): カフェ (cafe), パスタ (pasta), ピザ (pizza), アイス (ice cream)
+- **Housing** (2): ロフト (loft), バルコニー (balcony)
+- **Sports abbreviations** (3): バスケ (basketball), バレー (volleyball), スノボ (snowboarding)
+- **Expressions/Grammar** (4): にも{関|かか}わらず (in spite of), いずれにせよ (in any case), ともかく (anyway), っぽい (-ish suffix)
+- **Nouns** (8): {一人前|いちにんまえ} (full portion/independent person), {一部|いちぶ} (part), {採択|さいたく} (adoption), {識別|しきべつ} (identification), {沿革|えんかく} (history/development), {斑点|はんてん} (spot), {末端|まったん} (end/tip), {悔|くや}しさ (frustration)
+
+Notable entry features:
+- Compound verbs: {押|お}し{入|い}る (criminal/forceful entry), {降|お}り{立|た}つ (literary/news context for arrivals)
+- Business vocabulary common in Japanese workplaces (タスク, デッドライン, マネジメント)
+- Youth-culture sports abbreviations (バスケ, バレー, スノボ) with parent word cross-references
+- Productive suffix っぽい with semantic breakdown (resemblance, tendency, excess)
+- {一人前|いちにんまえ} covering both food portions and personal maturity meanings
+
+Total entries: 6,811 → 6,841
+Remaining candidates: 804 → 784
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 107)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, nouns, and onomatopoeia:
@@ -392,29 +413,6 @@ Notable entry features:
 
 Total entries: 6,651 → 6,671
 Remaining candidates: 683 → 663
-
-### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 98)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Soccer positions** (5): ゴールキーパー (goalkeeper), フォワード (forward), ミッドフィルダー (midfielder), ディフェンダー (defender), スタメン (starting lineup)
-- **Sports** (2): ファウル (foul), オフサイド (offside)
-- **Modern/Youth culture** (1): {推|お}し{活|かつ} (fan activity supporting idols)
-- **Music** (1): ビート (beat/rhythm)
-- **Emotions** (2): {怨念|おんねん} (grudge/vengeful spirit), {悔恨|かいこん} (remorse)
-- **Construction/Building** (2): {塗装|とそう} (painting/coating), {骨組|ほねぐ}み (framework/skeleton)
-- **Legal/Business** (3): {施行|しこう} (enforcement), {納品書|のうひんしょ} (delivery slip), {保存料|ほぞんりょう} (preservative)
-- **Science/Environment** (2): {炭素|たんそ} (carbon), {蓄電|ちくでん} (power storage)
-- **Technology/Digital** (2): オンデマンド (on-demand), ペーパーレス (paperless)
-
-Notable entry features:
-- Complete soccer position set (GK, DF, MF, FW) with abbreviations and cross-references
-- {推|お}し{活|かつ} covering modern Japanese fan culture with ～{活|かつ} word pattern
-- Environmental vocabulary ({炭素|たんそ}, {蓄電|ちくでん}) for sustainability discussions
-- Business document vocabulary ({納品書|のうひんしょ}) with document flow context
-- Supernatural/emotional vocabulary ({怨念|おんねん}, {悔恨|かいこん}) with cultural context
-
-Total entries: 6,631 → 6,651
-Remaining candidates: 702 → 683
 
 ---
 

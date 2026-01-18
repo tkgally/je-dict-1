@@ -7,6 +7,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 98)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Soccer positions** (5): ゴールキーパー (goalkeeper), フォワード (forward), ミッドフィルダー (midfielder), ディフェンダー (defender), スタメン (starting lineup)
+- **Sports** (2): ファウル (foul), オフサイド (offside)
+- **Modern/Youth culture** (1): {推|お}し{活|かつ} (fan activity supporting idols)
+- **Music** (1): ビート (beat/rhythm)
+- **Emotions** (2): {怨念|おんねん} (grudge/vengeful spirit), {悔恨|かいこん} (remorse)
+- **Construction/Building** (2): {塗装|とそう} (painting/coating), {骨組|ほねぐ}み (framework/skeleton)
+- **Legal/Business** (3): {施行|しこう} (enforcement), {納品書|のうひんしょ} (delivery slip), {保存料|ほぞんりょう} (preservative)
+- **Science/Environment** (2): {炭素|たんそ} (carbon), {蓄電|ちくでん} (power storage)
+- **Technology/Digital** (2): オンデマンド (on-demand), ペーパーレス (paperless)
+
+Notable entry features:
+- Complete soccer position set (GK, DF, MF, FW) with abbreviations and cross-references
+- {推|お}し{活|かつ} covering modern Japanese fan culture with ～{活|かつ} word pattern
+- Environmental vocabulary ({炭素|たんそ}, {蓄電|ちくでん}) for sustainability discussions
+- Business document vocabulary ({納品書|のうひんしょ}) with document flow context
+- Supernatural/emotional vocabulary ({怨念|おんねん}, {悔恨|かいこん}) with cultural context
+
+Total entries: 6,631 → 6,651
+Remaining candidates: 702 → 683
+
 ### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 97)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
