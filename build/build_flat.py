@@ -272,34 +272,46 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
                     ref_reading = ''
                 label = ''
             else:
-                # Object reference - look up by reading with headword disambiguation
+                # Object reference
                 ref_type = ref.get('type', 'see_also')
                 ref_reading = ref.get('reading', '')
                 ref_headword = ref.get('headword', '')
                 label = ref.get('label', '')
 
-                # Find matching entries by reading
-                candidates = readings_to_entries.get(ref_reading, [])
-                target_id = ''
+                # Priority 1: Check for hardcoded target_id
+                target_id = ref.get('target_id', '')
 
-                if len(candidates) == 1:
-                    # Only one entry with this reading
-                    # If headword specified, verify it matches (for homonym disambiguation)
-                    if ref_headword and candidates[0]['headword'] != ref_headword:
-                        # Headword mismatch - this is likely a homonym not yet in dictionary
-                        target_id = ''  # Leave unresolved
-                    else:
-                        target_id = candidates[0]['id']
-                elif len(candidates) > 1 and ref_headword:
-                    # Multiple entries - try to match by headword
-                    for candidate in candidates:
-                        if candidate['headword'] == ref_headword:
-                            target_id = candidate['id']
-                            break
-                # If still no match and we have a headword, use it for display
+                if target_id:
+                    # Use target_id directly
+                    resolved = target_id in entries_dict
+                    if resolved and not ref_headword:
+                        # Fill in headword from target entry if not provided
+                        target = entries_dict[target_id]
+                        ref_headword = target['headword']
+                else:
+                    # Priority 2: Fall back to reading/headword resolution
+                    candidates = readings_to_entries.get(ref_reading, [])
+
+                    if len(candidates) == 1:
+                        # Only one entry with this reading
+                        # If headword specified, verify it matches (for homonym disambiguation)
+                        if ref_headword and candidates[0]['headword'] != ref_headword:
+                            # Headword mismatch - this is likely a homonym not yet in dictionary
+                            target_id = ''  # Leave unresolved
+                        else:
+                            target_id = candidates[0]['id']
+                    elif len(candidates) > 1 and ref_headword:
+                        # Multiple entries - try to match by headword
+                        for candidate in candidates:
+                            if candidate['headword'] == ref_headword:
+                                target_id = candidate['id']
+                                break
+
+                    resolved = target_id in entries_dict
+
+                # If still no headword, use reading for display
                 if not ref_headword:
                     ref_headword = ref_reading
-                resolved = target_id in entries_dict
 
             type_label = get_cross_ref_label(ref_type)
             display = process_furigana(ref_headword) if ref_headword else html.escape(ref_reading)

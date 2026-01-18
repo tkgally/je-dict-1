@@ -15,7 +15,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
-from path_utils import get_directory_range
+from path_utils import get_directory_range, get_entry_path
 from japanese_utils import hiragana_to_romaji, normalize_reading
 from constants import CROSS_REF_TYPES
 
@@ -41,6 +41,8 @@ class ValidationResult:
         semantic_warnings: List of (file_path, warning_message) for semantic issues
         timestamp_warnings: List of (file_path, warning_message) for timestamp issues
         sense_number_errors: List of (file_path, error_message) for sense_numbers issues
+        target_id_errors: List of (file_path, error_message) for stale target_id references
+        hardenable_warnings: List of (file_path, warning_message) for refs that could be hardened
     """
     total_count: int = 0
     valid_count: int = 0
@@ -49,6 +51,8 @@ class ValidationResult:
     semantic_warnings: list[tuple[Path, str]] = field(default_factory=list)
     timestamp_warnings: list[tuple[Path, str]] = field(default_factory=list)
     sense_number_errors: list[tuple[Path, str]] = field(default_factory=list)
+    target_id_errors: list[tuple[Path, str]] = field(default_factory=list)
+    hardenable_warnings: list[tuple[Path, str]] = field(default_factory=list)
 
 
 def load_schema(schema_path: Path) -> dict:
@@ -375,6 +379,83 @@ def check_cross_reference_semantics(entries_data: list[tuple[Path, dict]]) -> li
     return warnings
 
 
+def check_target_id_references(
+    entries_data: list[tuple[Path, dict]],
+    all_ids: set,
+    project_root: Path
+) -> tuple[list[tuple[Path, str]], list[tuple[Path, str]]]:
+    """
+    Check cross-references for target_id validity and hardenability.
+
+    Returns:
+        Tuple of (target_id_errors, hardenable_warnings)
+        - target_id_errors: References with target_id pointing to non-existent entries
+        - hardenable_warnings: References without target_id that could be hardened
+    """
+    # Build reading-to-entries index for resolution checking
+    reading_index: dict[str, list[dict]] = defaultdict(list)
+    for _, entry in entries_data:
+        reading = entry.get('reading', '')
+        if reading:
+            reading_index[reading].append({
+                'id': entry.get('id', ''),
+                'headword': entry.get('headword', '')
+            })
+
+    target_id_errors = []
+    hardenable_warnings = []
+
+    for file_path, entry in entries_data:
+        cross_refs = entry.get('cross_references', [])
+        for ref in cross_refs:
+            if not isinstance(ref, dict):
+                continue
+
+            target_id = ref.get('target_id')
+            reading = ref.get('reading', '')
+            ref_headword = ref.get('headword', '')
+
+            if target_id:
+                # Has target_id - verify it exists
+                if target_id not in all_ids:
+                    target_id_errors.append((
+                        file_path,
+                        f"Stale target_id: '{target_id}' does not exist. "
+                        f"Reference to '{ref_headword or reading}' needs to be updated or target_id removed."
+                    ))
+            else:
+                # No target_id - check if it could be hardened
+                if not reading:
+                    continue
+
+                candidates = reading_index.get(reading, [])
+
+                if len(candidates) == 1:
+                    # Single match - could be hardened
+                    candidate = candidates[0]
+                    # If headword specified, verify it matches
+                    if ref_headword and candidate['headword'] != ref_headword:
+                        # Headword mismatch - this is a forward reference, not hardenable
+                        continue
+                    hardenable_warnings.append((
+                        file_path,
+                        f"Cross-reference to '{ref_headword or reading}' could be hardened with "
+                        f"target_id '{candidate['id']}'. Run: python3 build/harden_references.py --apply"
+                    ))
+                elif len(candidates) > 1 and ref_headword:
+                    # Multiple candidates with headword - check for exact match
+                    for candidate in candidates:
+                        if candidate['headword'] == ref_headword:
+                            hardenable_warnings.append((
+                                file_path,
+                                f"Cross-reference to '{ref_headword}' could be hardened with "
+                                f"target_id '{candidate['id']}'. Run: python3 build/harden_references.py --apply"
+                            ))
+                            break
+
+    return target_id_errors, hardenable_warnings
+
+
 def check_cross_references(entries_data: list[tuple[Path, dict]], all_ids: set, all_readings: set = None) -> list[tuple[Path, str]]:
     """
     Check cross_references for validity.
@@ -475,6 +556,11 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
     # Check sense_numbers validity in examples
     sense_number_errors = check_sense_numbers(entries_data)
 
+    # Check target_id validity and hardenability
+    target_id_errors, hardenable_warnings = check_target_id_references(
+        entries_data, all_ids, project_root
+    )
+
     return ValidationResult(
         total_count=total,
         valid_count=valid,
@@ -482,7 +568,9 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
         cross_ref_errors=cross_ref_errors,
         semantic_warnings=semantic_warnings,
         timestamp_warnings=timestamp_warnings,
-        sense_number_errors=sense_number_errors
+        sense_number_errors=sense_number_errors,
+        target_id_errors=target_id_errors,
+        hardenable_warnings=hardenable_warnings
     )
 
 
@@ -512,6 +600,7 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
     print("-" * 50)
 
     errors, entry = validate_entry_file(entry_path, schema, set(), validator)  # Don't check ID uniqueness for single entry
+    warnings = []
 
     # Check cross-references using the already-loaded entry
     if entry is not None:
@@ -527,6 +616,16 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
                 # New structured format
                 ref_errors = validate_structured_cross_reference(ref, entry_reading, entry_headword)
                 errors.extend(ref_errors)
+
+                # Check target_id validity
+                target_id = ref.get('target_id')
+                if target_id and target_id not in all_ids:
+                    errors.append(f"Stale target_id: '{target_id}' does not exist")
+                elif not target_id:
+                    # Check if could be hardened (informational only for single entry)
+                    reading = ref.get('reading', '')
+                    if reading:
+                        warnings.append(f"Cross-reference to '{ref.get('headword', reading)}' has no target_id")
             else:
                 errors.append(f"Invalid cross_reference format: expected string or object")
 
@@ -537,6 +636,10 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
         return 1
     else:
         print("Entry is valid!")
+        if warnings:
+            print("\nNotes:")
+            for warning in warnings:
+                print(f"  - {warning}")
         return 0
 
 
@@ -631,6 +734,29 @@ def main():
             print(f"    - {error_msg}")
         print()
 
+    # Report target_id errors (stale references)
+    if result.target_id_errors:
+        print(f"\nStale target_id ERRORS ({len(result.target_id_errors)} issues):\n")
+        for file_path, error_msg in result.target_id_errors:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {error_msg}")
+        print()
+
+    # Report hardenable warnings (references that could use target_id)
+    if result.hardenable_warnings:
+        print(f"\nHardenable cross-references ({len(result.hardenable_warnings)} refs could be hardened):\n")
+        # Only show first 10 to avoid spam
+        shown = result.hardenable_warnings[:10]
+        for file_path, warning_msg in shown:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {warning_msg}")
+        if len(result.hardenable_warnings) > 10:
+            print(f"\n  ... and {len(result.hardenable_warnings) - 10} more.")
+            print("  Run: python3 build/harden_references.py --apply")
+        print()
+
     print(f"Validation complete: {result.valid_count}/{result.total_count} entries valid")
     warnings = []
     if result.cross_ref_errors:
@@ -641,10 +767,14 @@ def main():
         warnings.append(f"{len(result.timestamp_warnings)} timestamp warnings")
     if result.sense_number_errors:
         warnings.append(f"{len(result.sense_number_errors)} sense_numbers errors")
+    if result.target_id_errors:
+        warnings.append(f"{len(result.target_id_errors)} stale target_id errors")
+    if result.hardenable_warnings:
+        warnings.append(f"{len(result.hardenable_warnings)} hardenable refs")
     if warnings:
         print(f"  ({', '.join(warnings)})")
 
-    if result.invalid_files:
+    if result.invalid_files or result.target_id_errors:
         return 1
     return 0
 

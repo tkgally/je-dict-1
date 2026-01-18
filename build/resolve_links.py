@@ -87,23 +87,70 @@ def normalize_legacy_reference(ref: str, reading_index: Dict[str, List[Dict[str,
     }
 
 
-def resolve_reference(ref: Dict[str, Any], reading_index: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
+def build_id_index(entries: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
+    """
+    Build a lookup index from entry ID to entry info.
+
+    Args:
+        entries: List of entry dictionaries
+
+    Returns:
+        Dictionary mapping entry ID to entry info dict
+    """
+    return {
+        entry.get('id', ''): {
+            'id': entry.get('id', ''),
+            'headword': entry.get('headword', ''),
+            'reading': entry.get('reading', ''),
+            'gloss': entry.get('gloss', '')
+        }
+        for entry in entries
+        if entry.get('id')
+    }
+
+
+def resolve_reference(
+    ref: Dict[str, Any],
+    reading_index: Dict[str, List[Dict[str, Any]]],
+    id_index: Dict[str, Dict[str, Any]] = None
+) -> Dict[str, Any]:
     """
     Resolve a single cross-reference, adding resolution status.
 
-    Uses deterministic resolution:
-    - If only one entry matches the reading, use it
-    - If multiple entries match, require headword to disambiguate
-    - If headword doesn't match any entry, mark as unresolved
+    Resolution priority:
+    1. If target_id present AND entry exists → resolved (use ID directly)
+    2. If target_id present AND entry missing → unresolved (stale reference)
+    3. If no target_id → resolve by reading/headword (current behavior)
 
     Args:
-        ref: Cross-reference dictionary with type, reading, etc.
+        ref: Cross-reference dictionary with type, reading, target_id, etc.
         reading_index: Reading lookup index (reading -> list of entries)
+        id_index: Optional ID lookup index (entry_id -> entry info)
 
     Returns:
         Enriched cross-reference with resolved status and target_id
     """
     resolved_ref = dict(ref)
+    existing_target_id = ref.get('target_id')
+
+    # Priority 1: Check if target_id is already present
+    if existing_target_id:
+        if id_index and existing_target_id in id_index:
+            # target_id exists - resolved
+            target = id_index[existing_target_id]
+            resolved_ref['resolved'] = True
+            resolved_ref['target_id'] = existing_target_id
+            # Fill in headword if not provided
+            if not resolved_ref.get('headword'):
+                resolved_ref['headword'] = target['headword']
+            return resolved_ref
+        else:
+            # target_id doesn't exist - stale reference
+            resolved_ref['resolved'] = False
+            # Keep the stale target_id for error reporting
+            return resolved_ref
+
+    # Priority 2: Fall back to reading/headword resolution
     reading = ref.get('reading', '')
     ref_headword = ref.get('headword', '')
 
@@ -142,6 +189,11 @@ def resolve_cross_references(entries: List[Dict[str, Any]]) -> Tuple[List[Dict[s
     """
     Resolve all cross-references in entries.
 
+    Resolution priority for each cross-reference:
+    1. If target_id present AND entry exists → resolved (use ID directly)
+    2. If target_id present AND entry missing → unresolved (stale reference)
+    3. If no target_id → resolve by reading/headword
+
     Args:
         entries: List of entry dictionaries
 
@@ -150,8 +202,9 @@ def resolve_cross_references(entries: List[Dict[str, Any]]) -> Tuple[List[Dict[s
         - List of entries with resolved cross-references
         - Dictionary of pending links (reading -> list of entry IDs wanting that link)
     """
-    # Build reading index
+    # Build reading index and ID index
     reading_index = build_reading_index(entries)
+    id_index = build_id_index(entries)
 
     # Track pending links
     pending_links: Dict[str, List[str]] = {}
@@ -169,8 +222,8 @@ def resolve_cross_references(entries: List[Dict[str, Any]]) -> Tuple[List[Dict[s
                 if isinstance(ref, str):
                     ref = normalize_legacy_reference(ref, reading_index)
 
-                # Resolve the reference
-                resolved_ref = resolve_reference(ref, reading_index)
+                # Resolve the reference (checks target_id first, then reading/headword)
+                resolved_ref = resolve_reference(ref, reading_index, id_index)
                 resolved_refs.append(resolved_ref)
 
                 # Track pending links

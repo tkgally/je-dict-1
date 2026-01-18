@@ -122,14 +122,64 @@ Each cross-reference object requires:
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `type` | Yes | One of: pair, synonym, antonym, keigo, related, see_also, contrast |
-| `reading` | Yes | Hiragana reading (primary lookup key) |
+| `type` | Yes | One of: pair, synonym, antonym, keigo, related, see_also, contrast, homophone |
+| `target_id` | No | Hard-coded entry ID for direct resolution (takes priority over reading/headword) |
+| `reading` | Yes | Hiragana reading (fallback lookup key when no target_id) |
 | `headword` | Yes* | Display form with furigana (required for homonym disambiguation) |
 | `label` | No | Short descriptor |
 
 *Headword is **required** for proper resolution. Without it, cross-references cannot be disambiguated between homonyms.
 
-**Note:** Valid cross-reference types are defined centrally in `build/cross_ref_types.py` and shared across the schema, validation, and build scripts.
+**Note:** Valid cross-reference types are defined centrally in `build/constants.py` and shared across the schema, validation, and build scripts.
+
+## Hybrid Cross-Reference System
+
+The dictionary uses a **hybrid system** that supports both:
+1. **Hard-coded `target_id`** - Direct reference to an entry ID (unambiguous)
+2. **Forward references** - References by reading/headword to entries that may not exist yet
+
+### Resolution Priority
+
+When resolving a cross-reference:
+1. If `target_id` present AND entry exists → **resolved** (use ID directly)
+2. If `target_id` present AND entry missing → **ERROR** (stale reference)
+3. If no `target_id` → resolve by reading/headword (may be pending if target doesn't exist)
+
+### When to Use `target_id`
+
+**Use `target_id` when:**
+- The target entry exists in the dictionary
+- You want guaranteed, unambiguous resolution
+- The reference was previously validated
+
+**Don't manually add `target_id` when:**
+- Creating forward references to entries that don't exist yet
+- You're unsure which homonym is correct
+
+Instead, use the `harden_references.py` script to automatically add `target_id` to resolvable references.
+
+### Example with target_id
+
+```json
+{
+  "type": "pair",
+  "target_id": "00042_shimaru",
+  "reading": "しまる",
+  "headword": "{閉|し}まる",
+  "label": "intransitive"
+}
+```
+
+### Example forward reference (no target_id)
+
+```json
+{
+  "type": "antonym",
+  "reading": "ひらく",
+  "headword": "{開|ひら}く",
+  "label": "to open"
+}
+```
 
 ## Homonym Disambiguation
 
@@ -219,6 +269,34 @@ python3 build/extract_references.py --apply
 python3 build/extract_references.py --id 00001_taberu
 ```
 
+**Note:** The extraction script now performs immediate resolution. When a target entry exists, the extracted reference automatically includes `target_id`.
+
+### Hardening References
+
+The `harden_references.py` script scans entries and adds `target_id` to resolvable cross-references. This "hardens" forward references into direct ID-based references once the target entry exists.
+
+```bash
+# Dry run - see what would change
+python3 build/harden_references.py
+
+# Apply changes
+python3 build/harden_references.py --apply
+
+# Single entry
+python3 build/harden_references.py --id 00005_shimeru
+```
+
+**When to run:**
+- After adding new entries that are targets of existing forward references
+- Periodically to ensure all resolvable references have `target_id`
+- Before releases to maximize resolution coverage
+
+**The script will:**
+- Add `target_id` to unambiguously resolvable references
+- WARN about ambiguous references (multiple candidates, need headword)
+- ERROR on stale `target_id` references (target no longer exists)
+- Skip forward references (legitimate refs to non-existent entries)
+
 ## Handling Non-Existent Entries
 
 **Important:** You can add references to entries that don't exist yet.
@@ -246,7 +324,17 @@ The validator checks:
 - Valid type values
 - Reading is valid hiragana
 - No self-references
-- **Homonym mismatches** - warns when a headword is specified but doesn't match any existing entry with that reading (helps catch incorrect cross-references to homonyms)
+- **Homonym mismatches** - warns when a headword is specified but doesn't match any existing entry with that reading
+- **Stale target_id** - ERRORS when `target_id` points to a non-existent entry
+- **Hardenable references** - warns when a reference could be hardened (target exists but no `target_id`)
+
+### Validation Messages
+
+| Type | Meaning | Action |
+|------|---------|--------|
+| ERROR: Stale target_id | `target_id` points to deleted entry | Remove or update `target_id` |
+| WARNING: Hardenable | Reference resolvable but missing `target_id` | Run `harden_references.py --apply` |
+| WARNING: Homonym mismatch | Headword doesn't match any entry with that reading | Verify correct homonym or wait for entry creation |
 
 ## Example Entry
 
