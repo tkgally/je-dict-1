@@ -310,4 +310,4 @@ def normalize_reading(reading: str) -> str:
             result.append(chr(code - 0x60))
         else:
             result.append(char)
-    return ''.join(result).lower()
+    return ''.join(result)

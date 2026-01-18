@@ -33,7 +33,7 @@ SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
-from japanese_utils import strip_furigana
+from duplicate_utils import check_for_duplicate
 
 ENTRIES_INDEX_FILE = PROJECT_ROOT / 'entries_index.json'
 CANDIDATES_FILE = PROJECT_ROOT / 'candidate_words.json'
@@ -49,96 +49,6 @@ def load_json_file(filepath: Path) -> dict:
     except (json.JSONDecodeError, PermissionError) as e:
         print(f"Warning: Could not load {filepath}: {e}", file=sys.stderr)
         return {}
-
-
-def check_word(word: str, reading: str, entries_data: dict, candidates_data: dict,
-                skip_candidates: bool = False) -> dict:
-    """
-    Check if a word exists in the dictionary or candidates.
-
-    Args:
-        word: The word to check (may include furigana markup)
-        reading: The reading in hiragana
-        entries_data: Data from entries_index.json
-        candidates_data: Data from candidate_words.json
-        skip_candidates: If True, skip checking against candidates (use when
-                         creating entries from the candidate list)
-
-    Returns dict with:
-        - is_duplicate: bool
-        - found_in: 'entries' | 'candidates' | None
-        - match_type: 'exact' | 'reading_only' | 'word_only' | None
-        - details: str
-    """
-    result = {
-        'is_duplicate': False,
-        'found_in': None,
-        'match_type': None,
-        'details': None
-    }
-
-    clean_word = strip_furigana(word)
-
-    # Check entries_index.json
-    for entry in entries_data.get('entries', []):
-        entry_reading = entry.get('reading', '')
-        entry_headword = strip_furigana(entry.get('headword', ''))
-
-        if entry_reading == reading and entry_headword == clean_word:
-            return {
-                'is_duplicate': True,
-                'found_in': 'entries',
-                'match_type': 'exact',
-                'details': f"Exact match: {entry['id']} ({entry_headword} / {entry_reading})"
-            }
-
-        if entry_reading == reading:
-            return {
-                'is_duplicate': True,
-                'found_in': 'entries',
-                'match_type': 'reading_only',
-                'details': f"Reading match: {entry['id']} ({entry_headword} / {entry_reading})"
-            }
-
-        if entry_headword == clean_word:
-            return {
-                'is_duplicate': True,
-                'found_in': 'entries',
-                'match_type': 'word_only',
-                'details': f"Headword match: {entry['id']} ({entry_headword} / {entry_reading})"
-            }
-
-    # Check candidate_words.json (unless skipped)
-    if not skip_candidates:
-        for cand in candidates_data.get('candidates', []):
-            cand_reading = cand.get('reading', '')
-            cand_word = cand.get('word', '')
-
-            if cand_reading == reading and cand_word == clean_word:
-                return {
-                    'is_duplicate': True,
-                    'found_in': 'candidates',
-                    'match_type': 'exact',
-                    'details': f"Exact match in candidates: {cand['id']} ({cand_word} / {cand_reading})"
-                }
-
-            if cand_reading == reading:
-                return {
-                    'is_duplicate': True,
-                    'found_in': 'candidates',
-                    'match_type': 'reading_only',
-                    'details': f"Reading match in candidates: {cand['id']} ({cand_word} / {cand_reading})"
-                }
-
-            if cand_word == clean_word:
-                return {
-                    'is_duplicate': True,
-                    'found_in': 'candidates',
-                    'match_type': 'word_only',
-                    'details': f"Word match in candidates: {cand['id']} ({cand_word} / {cand_reading})"
-                }
-
-    return result
 
 
 def main():
@@ -182,7 +92,7 @@ def main():
                 continue
 
             word, reading = arg.split(':', 1)
-            result = check_word(word, reading, entries_data, candidates_data, skip_candidates)
+            result = check_for_duplicate(word, reading, entries_data, candidates_data, skip_candidates)
 
             if result['is_duplicate']:
                 print(f"DUPLICATE: {word} ({reading}) - {result['details']}")
@@ -201,7 +111,7 @@ def main():
     word = args[0]
     reading = args[1]
 
-    result = check_word(word, reading, entries_data, candidates_data, skip_candidates)
+    result = check_for_duplicate(word, reading, entries_data, candidates_data, skip_candidates)
 
     if result['is_duplicate']:
         print(f"DUPLICATE: {result['details']}")

@@ -9,8 +9,6 @@ Field order in examples: id, japanese, english, notes, has_audio, sense_numbers
 """
 
 import json
-import glob
-import os
 from collections import OrderedDict
 
 
@@ -82,15 +80,11 @@ def process_entry(filepath, data=None):
 
 
 def main():
-    entries_dir = os.path.join(os.path.dirname(__file__), '..', 'entries')
+    from pathlib import Path
+    entries_dir = Path(__file__).parent.parent / 'entries'
 
-    # Find all JSON files
-    pattern = os.path.join(entries_dir, '*', '*.json')
-    files = glob.glob(pattern)
-
-    # Also check for files in nested subdirectories (like entries/n/na/)
-    pattern2 = os.path.join(entries_dir, '*', '*', '*.json')
-    files.extend(glob.glob(pattern2))
+    # Find all JSON files recursively
+    files = list(entries_dir.rglob('*.json'))
 
     updated_count = 0
     total_examples = 0

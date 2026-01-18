@@ -37,8 +37,9 @@ def extract_entry_info(entry_path: Path, project_root: Path) -> dict:
     entry_id = data.get('id', '')
 
     # Get filename and path relative to project root
+    # Use .resolve() to ensure both paths are absolute before computing relative path
     filename = entry_path.name
-    relative_path = str(entry_path.relative_to(project_root))
+    relative_path = str(entry_path.resolve().relative_to(project_root.resolve()))
 
     return {
         'id': entry_id,

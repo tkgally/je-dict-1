@@ -84,9 +84,9 @@ def main():
 
     # Validate entry_id format
     parts = entry_id.split('_')
-    if len(parts) != 2:
+    if len(parts) < 2:
         print(f"Error: Invalid entry ID format: '{entry_id}'")
-        print("Expected format: 00000_romaji")
+        print("Expected format: 00000_romaji or 00000_romaji_suffix")
         sys.exit(1)
 
     try:

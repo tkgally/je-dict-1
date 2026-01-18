@@ -28,6 +28,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 from japanese_utils import strip_furigana
+from duplicate_utils import check_for_duplicate
 
 
 # Calculate paths relative to script location
@@ -80,85 +81,20 @@ def check_duplicate(word: str, reading: str, candidates_data: dict = None) -> di
     """
     Check if a word already exists in entries or candidates.
 
+    This is a wrapper around the shared check_for_duplicate function
+    that handles loading the entries index.
+
     Returns a dict with:
         - is_duplicate: bool
         - found_in: 'entries' | 'candidates' | None
         - match_type: 'exact' | 'reading_only' | 'word_only' | None
         - details: str with match information
     """
-    result = {
-        'is_duplicate': False,
-        'found_in': None,
-        'match_type': None,
-        'details': None
-    }
-
-    # Normalize the word (strip furigana if present)
-    clean_word = strip_furigana(word)
-
-    # Check entries_index.json
     entries_data = load_entries_index()
-    for entry in entries_data.get('entries', []):
-        entry_reading = entry.get('reading', '')
-        entry_headword = strip_furigana(entry.get('headword', ''))
-
-        # Check for exact match (both reading and headword)
-        if entry_reading == reading and entry_headword == clean_word:
-            result['is_duplicate'] = True
-            result['found_in'] = 'entries'
-            result['match_type'] = 'exact'
-            result['details'] = f"Exact match in dictionary: {entry['id']} ({entry_headword} / {entry_reading})"
-            return result
-
-        # Check for reading-only match
-        if entry_reading == reading:
-            result['is_duplicate'] = True
-            result['found_in'] = 'entries'
-            result['match_type'] = 'reading_only'
-            result['details'] = f"Reading match in dictionary: {entry['id']} ({entry_headword} / {entry_reading})"
-            return result
-
-        # Check for headword-only match
-        if entry_headword == clean_word:
-            result['is_duplicate'] = True
-            result['found_in'] = 'entries'
-            result['match_type'] = 'word_only'
-            result['details'] = f"Headword match in dictionary: {entry['id']} ({entry_headword} / {entry_reading})"
-            return result
-
-    # Check candidate_words.json
     if candidates_data is None:
         candidates_data = load_candidates()
 
-    for candidate in candidates_data.get('candidates', []):
-        cand_reading = candidate.get('reading', '')
-        cand_word = candidate.get('word', '')
-
-        # Check for exact match
-        if cand_reading == reading and cand_word == clean_word:
-            result['is_duplicate'] = True
-            result['found_in'] = 'candidates'
-            result['match_type'] = 'exact'
-            result['details'] = f"Exact match in candidates: {candidate['id']} ({cand_word} / {cand_reading})"
-            return result
-
-        # Check for reading-only match
-        if cand_reading == reading:
-            result['is_duplicate'] = True
-            result['found_in'] = 'candidates'
-            result['match_type'] = 'reading_only'
-            result['details'] = f"Reading match in candidates: {candidate['id']} ({cand_word} / {cand_reading})"
-            return result
-
-        # Check for word-only match
-        if cand_word == clean_word:
-            result['is_duplicate'] = True
-            result['found_in'] = 'candidates'
-            result['match_type'] = 'word_only'
-            result['details'] = f"Word match in candidates: {candidate['id']} ({cand_word} / {cand_reading})"
-            return result
-
-    return result
+    return check_for_duplicate(word, reading, entries_data, candidates_data)
 
 
 def save_candidates(data: dict):

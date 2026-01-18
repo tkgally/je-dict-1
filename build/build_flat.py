@@ -1845,7 +1845,11 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
     """Build a list of recently added or modified entries."""
     def get_modified_date(entry):
         try:
-            return datetime.fromisoformat(entry['metadata']['modified'].replace('Z', '+00:00'))
+            dt = datetime.fromisoformat(entry['metadata']['modified'].replace('Z', '+00:00'))
+            # Handle timezone-naive datetimes (assume UTC)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
         except (KeyError, ValueError):
             # Return timezone-aware fallback to avoid mixing with aware datetimes
             return datetime.min.replace(tzinfo=timezone.utc)
@@ -1899,9 +1903,11 @@ def build_flat(project_root: Path) -> int:
     for e in entries:
         entry_id = e['id']
         if entry_id in seen_ids:
-            print(f"  WARNING: Duplicate entry ID '{entry_id}' found!")
+            print(f"  ERROR: Duplicate entry ID '{entry_id}' found!")
             print(f"    First occurrence: {seen_ids[entry_id]}")
             print(f"    Second occurrence: {e.get('_source_file', 'unknown')}")
+            import sys
+            sys.exit(1)
         else:
             seen_ids[entry_id] = e.get('_source_file', 'unknown')
 
@@ -2031,7 +2037,7 @@ def build_flat(project_root: Path) -> int:
         print("  Swap complete")
     except OSError as e:
         print(f"  ERROR: Failed to swap directories: {e}")
-        print("  Build output remains in: {temp_dir}")
+        print(f"  Build output remains in: {temp_dir}")
         # Try to restore backup if swap failed midway
         if backup_dir.exists() and not original_docs_dir.exists():
             backup_dir.rename(original_docs_dir)
