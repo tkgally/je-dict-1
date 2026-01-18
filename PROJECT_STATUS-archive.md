@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 99)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Technology/Computing** (4): {深層|しんそう}{学習|がくしゅう} (deep learning), {検索|けんさく}エンジン (search engine), USBメモリ (USB flash drive), ハードディスク (hard disk)
+- **Communication/Remote work** (3): オンライン{会議|かいぎ} (online meeting), ビデオ{通話|つうわ} (video call), ワーホリ (working holiday)
+- **Sports** (1): {陸上|りくじょう}{競技|きょうぎ} (track and field)
+- **Food** (1): {加工|かこう}{食品|しょくひん} (processed food)
+- **Compound concepts** (4): {出入|でい}り (going in and out), {開閉|かいへい} (opening and closing), {表裏|おもてうら} (front and back), {八方|はっぽう} (all directions)
+- **Legal** (1): {六法|ろっぽう} (the Six Codes)
+- **Emotions** (1): {恥辱|ちじょく} (disgrace)
+- **Agriculture** (3): {精米|せいまい} (rice polishing), {脱穀|だっこく} (threshing), {耕作|こうさく} (cultivation)
+- **Construction** (1): {施工|せこう} (construction work)
+- **Nature** (1): {熱帯林|ねったいりん} (tropical forest)
+
+Notable entry features:
+- AI/computing vocabulary ({深層|しんそう}{学習|がくしゅう}, {検索|けんさく}エンジン) for modern technology discussions
+- Remote work terminology (オンライン{会議|かいぎ}, ビデオ{通話|つうわ}) reflecting post-pandemic work culture
+- Rice production vocabulary ({精米|せいまい}, {脱穀|だっこく}, {耕作|こうさく}) with agricultural process context
+- Compound words pairing opposites ({出入|でい}り, {開閉|かいへい}, {表裏|おもてうら})
+- Japanese legal terminology ({六法|ろっぽう}) with the six fundamental codes explained
+
+Total entries: 6,651 → 6,671
+Remaining candidates: 683 → 663
+
 ### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 98)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 
