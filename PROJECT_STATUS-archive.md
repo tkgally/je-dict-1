@@ -7,6 +7,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 89)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Social Media** (2): ハッシュタグ (hashtag), インフルエンサー (influencer)
+- **Construction/Building** (4): {内装|ないそう} (interior), {外壁|がいへき} (exterior wall), {断熱|だんねつ} (insulation), {防水|ぼうすい} (waterproofing)
+- **Agriculture/Farming** (3): {灌漑|かんがい} (irrigation), {害虫|がいちゅう} (pest), {家畜|かちく} (livestock)
+- **Energy/Power** (3): {風力|ふうりょく} (wind power), {原子力|げんしりょく} (nuclear power), {水力|すいりょく} (hydropower)
+- **Academic/Publishing** (3): {脚注|きゃくちゅう} (footnote), {出典|しゅってん} (source/reference), {飼育|しいく} (breeding/raising)
+- **Emotions** (2): {狂喜|きょうき} (wild joy/ecstasy), {憤慨|ふんがい} (indignation)
+- **Body Parts** (2): {二|に}の{腕|うで} (upper arm), {手|て}の{甲|こう} (back of hand)
+- **Business** (1): {経理|けいり} (accounting)
+
+Notable entry features:
+- Social media vocabulary for modern digital communication
+- Construction terms with building industry context and related terminology
+- Energy sources vocabulary ({風力|ふうりょく}, {水力|すいりょく}, {原子力|げんしりょく}) as a set
+- Agriculture vocabulary including {灌漑|かんがい} with historical notes on Japanese rice cultivation
+- Body part terms with beauty/fitness context ({二|に}の{腕|うで} discussion of {振|ふ}り{袖|そで} slang)
+- Academic writing terms ({脚注|きゃくちゅう}, {出典|しゅってん}) with cross-references
+
+Total entries: 6,493 → 6,513
+Remaining candidates: 752 → 732
+
 ### 2026-01-17 (Vocabulary Expansion - 25 New Entries, Session 80)
 Added 25 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
 

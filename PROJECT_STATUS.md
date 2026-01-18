@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 6,651
-- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,762 | General: 449 | Unassigned: 307
-- **Candidate words**: ~683 words tracked in `candidate_words.json`
+- **Total entries**: 6,671
+- **Vocabulary tier assignment**: Basic: 1,113 | Core: 4,766 | General: 469 | Unassigned: 307
+- **Candidate words**: ~663 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 99)
+Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
+
+- **Technology/Computing** (4): {深層|しんそう}{学習|がくしゅう} (deep learning), {検索|けんさく}エンジン (search engine), USBメモリ (USB flash drive), ハードディスク (hard disk)
+- **Communication/Remote work** (3): オンライン{会議|かいぎ} (online meeting), ビデオ{通話|つうわ} (video call), ワーホリ (working holiday)
+- **Sports** (1): {陸上|りくじょう}{競技|きょうぎ} (track and field)
+- **Food** (1): {加工|かこう}{食品|しょくひん} (processed food)
+- **Compound concepts** (4): {出入|でい}り (going in and out), {開閉|かいへい} (opening and closing), {表裏|おもてうら} (front and back), {八方|はっぽう} (all directions)
+- **Legal** (1): {六法|ろっぽう} (the Six Codes)
+- **Emotions** (1): {恥辱|ちじょく} (disgrace)
+- **Agriculture** (3): {精米|せいまい} (rice polishing), {脱穀|だっこく} (threshing), {耕作|こうさく} (cultivation)
+- **Construction** (1): {施工|せこう} (construction work)
+- **Nature** (1): {熱帯林|ねったいりん} (tropical forest)
+
+Notable entry features:
+- AI/computing vocabulary ({深層|しんそう}{学習|がくしゅう}, {検索|けんさく}エンジン) for modern technology discussions
+- Remote work terminology (オンライン{会議|かいぎ}, ビデオ{通話|つうわ}) reflecting post-pandemic work culture
+- Rice production vocabulary ({精米|せいまい}, {脱穀|だっこく}, {耕作|こうさく}) with agricultural process context
+- Compound words pairing opposites ({出入|でい}り, {開閉|かいへい}, {表裏|おもてうら})
+- Japanese legal terminology ({六法|ろっぽう}) with the six fundamental codes explained
+
+Total entries: 6,651 → 6,671
+Remaining candidates: 683 → 663
 
 ### 2026-01-18 (Vocabulary Expansion - 20 New Entries, Session 98)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
@@ -326,29 +350,6 @@ Notable entry features:
 
 Total entries: 6,513 → 6,533
 Remaining candidates: 732 → 716
-
-### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 89)
-Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
-
-- **Social Media** (2): ハッシュタグ (hashtag), インフルエンサー (influencer)
-- **Construction/Building** (4): {内装|ないそう} (interior), {外壁|がいへき} (exterior wall), {断熱|だんねつ} (insulation), {防水|ぼうすい} (waterproofing)
-- **Agriculture/Farming** (3): {灌漑|かんがい} (irrigation), {害虫|がいちゅう} (pest), {家畜|かちく} (livestock)
-- **Energy/Power** (3): {風力|ふうりょく} (wind power), {原子力|げんしりょく} (nuclear power), {水力|すいりょく} (hydropower)
-- **Academic/Publishing** (3): {脚注|きゃくちゅう} (footnote), {出典|しゅってん} (source/reference), {飼育|しいく} (breeding/raising)
-- **Emotions** (2): {狂喜|きょうき} (wild joy/ecstasy), {憤慨|ふんがい} (indignation)
-- **Body Parts** (2): {二|に}の{腕|うで} (upper arm), {手|て}の{甲|こう} (back of hand)
-- **Business** (1): {経理|けいり} (accounting)
-
-Notable entry features:
-- Social media vocabulary for modern digital communication
-- Construction terms with building industry context and related terminology
-- Energy sources vocabulary ({風力|ふうりょく}, {水力|すいりょく}, {原子力|げんしりょく}) as a set
-- Agriculture vocabulary including {灌漑|かんがい} with historical notes on Japanese rice cultivation
-- Body part terms with beauty/fitness context ({二|に}の{腕|うで} discussion of {振|ふ}り{袖|そで} slang)
-- Academic writing terms ({脚注|きゃくちゅう}, {出典|しゅってん}) with cross-references
-
-Total entries: 6,493 → 6,513
-Remaining candidates: 752 → 732
 
 ### 2026-01-17 (Vocabulary Expansion - 20 New Entries, Session 88)
 Added 20 new dictionary entries from candidate_words.json, covering diverse vocabulary categories:
