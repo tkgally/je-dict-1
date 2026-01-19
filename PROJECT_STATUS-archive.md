@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Katakana Reading Cleanup, Session 116)
+Fixed inconsistency where some entries had katakana readings instead of hiragana, causing duplicate entries.
+
+**Changes:**
+- **Deleted 52 duplicate entries** where both katakana and hiragana reading versions existed (kept hiragana versions)
+- **Converted 1 entry reading** to hiragana: 06805_diiemu (DM: ディーエム → でぃーえむ)
+- **Fixed 93 candidate readings** in candidate_words.json
+- **Removed 7 duplicate candidates** after hiragana normalization
+- **Removed 51 candidates** that now exist in dictionary (index sync)
+
+**Updated documentation and validation:**
+- Added katakana reading validation to `validate.py` (now errors on katakana readings)
+- Updated `entry-guidelines` skill with explicit "Reading Format" section
+- Updated `find-candidates` skill with hiragana reading requirement
+- Updated `manage_candidates.py` to auto-convert katakana readings to hiragana with warning
+- Created `fix_katakana_readings.py` script for future cleanup needs
+
+**Rationale:** Katakana readings like "スキー" vs hiragana "すきー" created duplicate entries for the same word. All readings are now normalized to hiragana (even for loanwords) to ensure consistent indexing, deduplication, and lookup. The long vowel mark ー is preserved since there's no hiragana equivalent.
+
+Total entries: 7,021 → 6,969 (52 duplicates removed)
+Remaining candidates: ~709 → ~651 (51 synced + 7 duplicates removed)
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 115)
 Added 30 new dictionary entries from candidate_words.json, covering grammar patterns, four-character idioms, modern vocabulary, and everyday terms:
 
