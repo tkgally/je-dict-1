@@ -7,6 +7,27 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 114)
+Added 30 new dictionary entries from candidate_words.json, focusing on conversational particles, formal conjunctions, adverbs, and onomatopoeia:
+
+- **Conversational fillers/interjections** (8): えーと (um, let me see), あのー (um, excuse me), ほら (look, see), ねえ (hey, right?), よね (right?), やっぱ (as expected), ぜ (masculine emphasis), ぞ (emphasis particle)
+- **Grammar/Quotative expressions** (4): なんて (such as, what a), っていう (called, that says), ていうか (or rather), かしら (I wonder - feminine)
+- **Formal conjunctions** (6): {及|およ}び (and - formal), {並|なら}びに (and - very formal), {若|も}しくは (or - formal), {故|ゆえ}に (therefore), しかしながら (however), それなのに (even so)
+- **Adverbs** (4): どのみち (anyway), {差|さ}し{当|あ}たり (for the time being), {今|いま}しがた (just now), ひいては (by extension)
+- **Onomatopoeia** (4): おずおず (timidly), けろっと (nonchalantly), しゅんと (dejected), ぶくぶく (bubbling/getting fat)
+- **Adjectives/Nouns** (4): うやうやしい (respectful), {敷居|しきい} (threshold), {疎外感|そがいかん} (alienation), ドヤ{顔|がお} (smug face)
+
+Notable entry features:
+- Comprehensive conversational particle coverage for natural Japanese speech
+- Formal conjunction hierarchy: {及|およ}び (same level) vs {並|なら}びに (larger groups); {若|も}しくは (same level) vs または (larger groups)
+- Register contrast: やっぱ (casual) vs やっぱり (neutral) vs やはり (formal)
+- Gender-specific particles: かしら (feminine), ぜ/ぞ (masculine)
+- Internet/modern vocabulary: ドヤ{顔|がお} (from Kansai dialect どや)
+- Emotional onomatopoeia contrast pair: けろっと (unaffected) ↔ しゅんと (dejected)
+
+Total entries: 6,961 → 6,991
+Remaining candidates: ~767 → ~738
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 113)
 Added 30 new dictionary entries from candidate_words.json, focusing on idiomatic body part expressions and adverbs:
 

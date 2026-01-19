@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-18
+**Last updated**: 2026-01-19
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,149
-- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 489
-- **Candidate words**: ~567 words tracked in `candidate_words.json`
+- **Total entries**: 7,179
+- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,978 | General: 567 | Unassigned: 489
+- **Candidate words**: ~537 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 124)
+Added 30 new dictionary entries from candidate_words.json, covering language/dialect vocabulary, music terminology, hobbies/leisure, technology, and everyday items:
+
+- **Language/Dialect** (4): しんどい (tiring - Kansai origin), {方言|ほうげん} (dialect), {訛|なま}り (accent), {標準語|ひょうじゅんご} (standard language)
+- **Music terminology** (6): {音色|ねいろ} (timbre), {調律|ちょうりつ} (tuning), {打楽器|だがっき} (percussion), {管楽器|かんがっき} (wind instrument), {弦楽器|げんがっき} (string instrument), リハーサル (rehearsal)
+- **Hobbies/Leisure** (6): プラモデル (plastic model kit), {同人誌|どうじんし} (doujinshi), パチンコ (pachinko), {利|き}き{酒|ざけ} (sake tasting), ゲーセン (game center), コレクション (collection)
+- **Outdoor/Sports** (2): {登山靴|とざんぐつ} (hiking boots), {釣|つ}り{竿|ざお} (fishing rod)
+- **Car parts** (2): バックミラー (rearview mirror), ワイパー (windshield wiper)
+- **Technology** (4): モバイルバッテリー (portable battery), LINE (messaging app), レンズ (lens), プラグ (plug)
+- **Household** (2): {排水溝|はいすいこう} (drain), {靴棚|くつだな} (shoe rack)
+- **Cosmetics** (1): ファンデーション (foundation makeup)
+- **Adverbs** (1): ともあれ (anyway)
+- **Business** (1): {日程調整|にっていちょうせい} (schedule coordination)
+- **Crafts** (1): {型紙|かたがみ} (sewing pattern)
+
+Notable entry features:
+- Japanese dialect vocabulary group with cross-references: {方言|ほうげん}, {訛|なま}り, {標準語|ひょうじゅんご}
+- Complete musical instrument categories: {打楽器|だがっき}, {管楽器|かんがっき}, {弦楽器|げんがっき} with cross-references
+- Japanese hobby culture: プラモデル, {同人誌|どうじんし}, パチンコ, ゲーセン with cultural context
+- Modern technology vocabulary: LINE, モバイルバッテリー with Japanese-specific usage notes
+- Regional dialect adjective: しんどい (originally Kansai, now nationwide)
+
+Total entries: 7,149 → 7,179
+Remaining candidates: ~567 → ~537
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 123)
 Added 30 new dictionary entries from candidate_words.json, covering yojijukugo, mimetics, cultural/religious items, modern vocabulary, and everyday terms:
@@ -335,27 +360,6 @@ Notable entry features:
 
 Total entries: 6,991 → 7,021
 Remaining candidates: ~738 → ~709
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 114)
-Added 30 new dictionary entries from candidate_words.json, focusing on conversational particles, formal conjunctions, adverbs, and onomatopoeia:
-
-- **Conversational fillers/interjections** (8): えーと (um, let me see), あのー (um, excuse me), ほら (look, see), ねえ (hey, right?), よね (right?), やっぱ (as expected), ぜ (masculine emphasis), ぞ (emphasis particle)
-- **Grammar/Quotative expressions** (4): なんて (such as, what a), っていう (called, that says), ていうか (or rather), かしら (I wonder - feminine)
-- **Formal conjunctions** (6): {及|およ}び (and - formal), {並|なら}びに (and - very formal), {若|も}しくは (or - formal), {故|ゆえ}に (therefore), しかしながら (however), それなのに (even so)
-- **Adverbs** (4): どのみち (anyway), {差|さ}し{当|あ}たり (for the time being), {今|いま}しがた (just now), ひいては (by extension)
-- **Onomatopoeia** (4): おずおず (timidly), けろっと (nonchalantly), しゅんと (dejected), ぶくぶく (bubbling/getting fat)
-- **Adjectives/Nouns** (4): うやうやしい (respectful), {敷居|しきい} (threshold), {疎外感|そがいかん} (alienation), ドヤ{顔|がお} (smug face)
-
-Notable entry features:
-- Comprehensive conversational particle coverage for natural Japanese speech
-- Formal conjunction hierarchy: {及|およ}び (same level) vs {並|なら}びに (larger groups); {若|も}しくは (same level) vs または (larger groups)
-- Register contrast: やっぱ (casual) vs やっぱり (neutral) vs やはり (formal)
-- Gender-specific particles: かしら (feminine), ぜ/ぞ (masculine)
-- Internet/modern vocabulary: ドヤ{顔|がお} (from Kansai dialect どや)
-- Emotional onomatopoeia contrast pair: けろっと (unaffected) ↔ しゅんと (dejected)
-
-Total entries: 6,961 → 6,991
-Remaining candidates: ~767 → ~738
 
 ---
 
