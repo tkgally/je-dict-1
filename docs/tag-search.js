@@ -93,15 +93,7 @@
         const filters = getSelectedFilters();
         const andMode = document.getElementById('filter-and-mode').checked;
         const entries = getAllEntries();
-        console.log('applyFilters called:');
-        console.log('  filters:', filters);
-        console.log('  andMode:', andMode);
-        console.log('  entries count:', entries.length);
-        if (entries.length > 0) {
-            console.log('  sample entry:', entries[0]);
-        }
         currentResults = filterEntries(entries, filters, andMode);
-        console.log('  filtered results:', currentResults.length);
         currentResults.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
         currentPage = 1;
         displayResults();
