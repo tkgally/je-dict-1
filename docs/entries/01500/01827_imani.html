@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="今に - before long, soon, eventually. Japanese-English dictionary entry with definitions and examples.">
+    <title>今に (いまに) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に</h1>
+            <div class="entry-reading">いまに</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">before long, soon, eventually</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">before long, soon</span>
+                    <div class="definition-explanation">In the near future, after a while.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">eventually, one of these days</span>
+                    <div class="definition-explanation">At some point in the future, with a sense of certainty.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に<ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>かるよ。</div>
+                    <div class="example-english">You&#x27;ll understand soon.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>ていろ。</div>
+                    <div class="example-english">Just you wait and see.</div>
+                    <div class="example-notes">Threatening/challenging tone</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に<ruby>雨<rp>(</rp><rt>あめ</rt><rp>)</rp></ruby>が<ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>りそうだ。</div>
+                    <div class="example-english">It looks like it will rain soon.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に indicates something will happen soon or eventually.</p><p>COMMON PATTERNS:</p><ul><li><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に<ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>かる (you&#x27;ll understand soon)</li><li><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>ていろ (just you wait)</li><li><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に<ruby>始<rp>(</rp><rt>はじ</rt><rp>)</rp></ruby>まったことではない (not something that just started)</li></ul><p>NUANCES:</p><ul><li>Often implies confidence or warning</li><li>Can have threatening undertone: &quot;You&#x27;ll see!&quot;</li><li><ruby>今<rp>(</rp><rt>いま</rt><rp>)</rp></ruby>に<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>ていろ is a common challenging expression</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:15 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">01500/01827_imani</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

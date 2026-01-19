@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-18
+**Last updated**: 2026-01-19
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 7,149
 - **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 489
-- **Candidate words**: ~567 words tracked in `candidate_words.json`
+- **Candidate words**: ~667 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,57 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (New Candidates - 100 Words Added, Session 124)
+Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Adverbs & Manner Expressions** (~20 words):
+- Togetherness/separation: {互|たが}いに (mutually), {一緒|いっしょ}に (together), {別々|べつべつ}に (separately)
+- Unexpectedness: {意外|いがい}と (unexpectedly), {思|おも}いがけず (by chance), {思|おも}いのほか (more than expected)
+- Time/occasion: {当面|とうめん} (for now), {事前|じぜん} (beforehand), {事後|じご} (after the fact)
+- Manner: {仕方|しかた}なく (reluctantly), {嫌々|いやいや} (unwillingly), ちょくちょく (often), {思|おも}い{切|き}って (resolutely)
+
+**Personality & Emotional States** (~15 words):
+- Personality traits: {心配性|しんぱいしょう} (worrywart), {神経質|しんけいしつ} (nervous), {繊細|せんさい} (delicate), {臆病|おくびょう} (timid), {大胆|だいたん} (bold)
+- Resilience: {我慢強|がまんづよ}い (patient), {粘|ねば}り{強|づよ}い (tenacious), {諦|あきら}め (resignation), {悟|さと}り (enlightenment), {決意|けつい} (determination)
+- Mental states: {落|お}ち{着|つ}き (composure), プレッシャー (pressure), {気楽|きらく} (carefree), {気|き}さく (friendly)
+
+**Compound Verbs - 見る/思う/使う patterns** (~20 words):
+- {見|み}る compounds: {見渡|みわた}す (survey), {見届|みとど}ける (see through), {見極|みきわ}める (discern)
+- {思|おも}う compounds: {思|おも}い{知|し}る (learn from experience), {思|おも}い{直|なお}す (reconsider), {思|おも}い{浮|う}かぶ (come to mind)
+- {使|つか}う compounds: {使|つか}い{方|かた} (how to use), {使|つか}い{道|みち} (purpose), {使|つか}い{捨|す}て (disposable), {使|つか}い{分|わ}ける (use differently), {使|つか}いこなす (master), {使|つか}い{果|は}たす (use up)
+
+**手 Compounds** (~8 words):
+- {手間取|てまど}る (take time), {手軽|てがる} (easy), {手配|てはい} (arrangement), {手遅|ておく}れ (too late), {手元|てもと} (at hand), {手加減|てかげん} (holding back), {手入|てい}れ (maintenance)
+
+**Commerce & Pricing** (~8 words):
+- {値上|ねあ}げ (price increase), {値下|ねさ}げ (price reduction), {安売|やすう}り (bargain sale), セール (sale), {相場|そうば} (market price)
+- {満員|まんいん} (full), {満席|まんせき} (fully booked), {空席|くうせき} (vacancy), {余地|よち} (room/margin)
+
+**Color & Position Intensifiers** (~8 words):
+- {真|ま}っ{白|しろ} (pure white), {真|ま}っ{黒|くろ} (pitch black), {真|ま}っ{青|さお} (deep blue), {真|ま}っ{暗|くら} (pitch dark), {真|ま}っ{先|さき} (first of all), {真上|まうえ} (directly above), {真下|ました} (directly below)
+
+**Time Off & Rest** (~6 words):
+- {連休|れんきゅう} (consecutive holidays), {祝日|しゅくじつ} (national holiday), {小休止|しょうきゅうし} (short break), {一息|ひといき} (breather), ひと{休|やす}み (short rest)
+
+**がる Verbs & Physical Actions** (~8 words):
+- Emotional expression: {欲|ほ}しがる (want), {怖|こわ}がる (fear), {恥|は}ずかしがる (be shy), {寂|さび}しがる (feel lonely)
+- Spatial verbs: {狭|せば}まる (narrow), {狭|せば}める (contract)
+
+**Miscellaneous** (~7 words):
+- {打|う}ち{合|あ}わせ (meeting), {調理|ちょうり} (cooking), {具|ぐ} (ingredients), レシピ (recipe), ハード (hardware)
+- {山脈|さんみゃく} (mountain range), {落第|らくだい} (failing grade)
+- {散策|さんさく} (stroll), {行楽|こうらく} (outing), {整頓|せいとん} (tidying), {消毒|しょうどく} (disinfection), {除菌|じょきん} (sanitizing)
+
+Notable features:
+- Strong coverage of compound verb patterns (~使う, ~見る, ~思う)
+- Comprehensive 手 compound vocabulary for everyday expressions
+- Personality and emotional vocabulary for describing people
+- Practical commerce and pricing vocabulary
+- Color/position intensifiers with 真っ～ pattern
+- Balance of native Japanese and loanwords
+
+Candidate count: 567 → 667
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 123)
 Added 30 new dictionary entries from candidate_words.json, covering yojijukugo, mimetics, cultural/religious items, modern vocabulary, and everyday terms:
@@ -335,27 +386,6 @@ Notable entry features:
 
 Total entries: 6,991 → 7,021
 Remaining candidates: ~738 → ~709
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 114)
-Added 30 new dictionary entries from candidate_words.json, focusing on conversational particles, formal conjunctions, adverbs, and onomatopoeia:
-
-- **Conversational fillers/interjections** (8): えーと (um, let me see), あのー (um, excuse me), ほら (look, see), ねえ (hey, right?), よね (right?), やっぱ (as expected), ぜ (masculine emphasis), ぞ (emphasis particle)
-- **Grammar/Quotative expressions** (4): なんて (such as, what a), っていう (called, that says), ていうか (or rather), かしら (I wonder - feminine)
-- **Formal conjunctions** (6): {及|およ}び (and - formal), {並|なら}びに (and - very formal), {若|も}しくは (or - formal), {故|ゆえ}に (therefore), しかしながら (however), それなのに (even so)
-- **Adverbs** (4): どのみち (anyway), {差|さ}し{当|あ}たり (for the time being), {今|いま}しがた (just now), ひいては (by extension)
-- **Onomatopoeia** (4): おずおず (timidly), けろっと (nonchalantly), しゅんと (dejected), ぶくぶく (bubbling/getting fat)
-- **Adjectives/Nouns** (4): うやうやしい (respectful), {敷居|しきい} (threshold), {疎外感|そがいかん} (alienation), ドヤ{顔|がお} (smug face)
-
-Notable entry features:
-- Comprehensive conversational particle coverage for natural Japanese speech
-- Formal conjunction hierarchy: {及|およ}び (same level) vs {並|なら}びに (larger groups); {若|も}しくは (same level) vs または (larger groups)
-- Register contrast: やっぱ (casual) vs やっぱり (neutral) vs やはり (formal)
-- Gender-specific particles: かしら (feminine), ぜ/ぞ (masculine)
-- Internet/modern vocabulary: ドヤ{顔|がお} (from Kansai dialect どや)
-- Emotional onomatopoeia contrast pair: けろっと (unaffected) ↔ しゅんと (dejected)
-
-Total entries: 6,961 → 6,991
-Remaining candidates: ~767 → ~738
 
 ---
 

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="イヤホン - earphones. Japanese-English dictionary entry with definitions and examples.">
+    <title>イヤホン (いやほん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">イヤホン</h1>
+            <div class="entry-reading">いやほん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">earphones</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">earphones, earbuds</span>
+                    <div class="definition-explanation">Small audio devices inserted into or placed on the ears for private listening.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">イヤホンで<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>を<ruby>聴<rp>(</rp><rt>き</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">I listen to music with earphones.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ワイヤレスイヤホンが<ruby>人気<rp>(</rp><rt>にんき</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">Wireless earphones are popular.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>電車<rp>(</rp><rt>でんしゃ</rt><rp>)</rp></ruby>でイヤホンをしている<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>が<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>い。</div>
+                    <div class="example-english">Many people wear earphones on the train.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>From English &quot;earphone.&quot;</p><p>TYPES:</p><ul><li>ワイヤレスイヤホン (wireless earphones)</li><li><ruby>完全<rp>(</rp><rt>かんぜん</rt><rp>)</rp></ruby>ワイヤレスイヤホン (true wireless earphones)</li><li>カナル<ruby>型<rp>(</rp><rt>がた</rt><rp>)</rp></ruby>イヤホン (in-ear earphones)</li><li>インナーイヤー<ruby>型<rp>(</rp><rt>がた</rt><rp>)</rp></ruby> (earbud type)</li></ul><p>COMMON COLLOCATIONS:</p><ul><li>イヤホンをする/つける (to put on earphones)</li><li>イヤホンを<ruby>外<rp>(</rp><rt>はず</rt><rp>)</rp></ruby>す (to take off earphones)</li><li>イヤホンジャック (earphone jack)</li></ul><p>CONTRAST:</p><ul><li>イヤホン: goes in or on the ear</li><li>ヘッドホン: covers the entire ear</li></ul><p>[Register: Neutral]</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Contrast:</span>
+                        <a href="../../entries/04000/04423_heddohon.html" class="cross-ref-link">
+                            ヘッドホン (over-ear type)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 23:59 · Revised 2026.1.18 18:21</div>
+                <div class="metadata-file">04000/04421_iyahon</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

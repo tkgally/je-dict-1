@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="握る - to grasp, to grip. Japanese-English dictionary entry with definitions and examples.">
+    <title>握る (にぎる) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>握<rp>(</rp><rt>にぎ</rt><rp>)</rp></ruby>る</h1>
+            <div class="entry-reading">にぎる</div>
+            <div class="entry-pos">godan verb</div>
+            <div class="entry-gloss">to grasp, to grip</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to grasp, to grip</span>
+                    <div class="definition-explanation">To hold firmly in the hand.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">to make (sushi)</span>
+                    <div class="definition-explanation">To mold sushi rice by hand.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">3.</span>
+                    <span class="definition-gloss">to hold (power)</span>
+                    <div class="definition-explanation">To have control over something.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ハンドルを握る。</div>
+                    <div class="example-english">To grip the steering wheel.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>寿司<rp>(</rp><rt>すし</rt><rp>)</rp></ruby>を握る。</div>
+                    <div class="example-english">To make sushi.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>権力<rp>(</rp><rt>けんりょく</rt><rp>)</rp></ruby>を握る。</div>
+                    <div class="example-english">To hold power.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>握る has both literal and figurative uses.</p><p>SUSHI TERM:</p><ul><li><ruby>握<rp>(</rp><rt>にぎ</rt><rp>)</rp></ruby>り<ruby>寿司<rp>(</rp><rt>ずし</rt><rp>)</rp></ruby>: hand-pressed sushi</li></ul><p>EXPRESSIONS:</p><ul><li><ruby>拳<rp>(</rp><rt>こぶし</rt><rp>)</rp></ruby>を握る: to clench one&#x27;s fist</li><li><ruby>秘密<rp>(</rp><rt>ひみつ</rt><rp>)</rp></ruby>を握る: to hold a secret</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 17:53 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">02000/02383_nigiru</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

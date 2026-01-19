@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ファスナー - zipper; fastener. Japanese-English dictionary entry with definitions and examples.">
+    <title>ファスナー (ふぁすなー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ファスナー</h1>
+            <div class="entry-reading">ふぁすなー</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">zipper; fastener</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">zipper; fastener</span>
+                    <div class="definition-explanation">A device consisting of two rows of metal or plastic teeth that interlock when a sliding piece is moved, used to join two edges of fabric.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ジャケットのファスナーが<ruby>壊<rp>(</rp><rt>こわ</rt><rp>)</rp></ruby>れた。</div>
+                    <div class="example-english">The zipper on my jacket broke.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ファスナーを<ruby>閉<rp>(</rp><rt>し</rt><rp>)</rp></ruby>めてください。</div>
+                    <div class="example-english">Please close the zipper.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">かばんのファスナーが<ruby>開<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>いていますよ。</div>
+                    <div class="example-english">The zipper on your bag is open.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>SYNONYMS:</p><ul><li>チャック (zipper - common colloquial term, from &#x27;chuck&#x27;)</li><li>ジッパー (zipper - from English &#x27;zipper&#x27;)</li></ul><p>All three terms are commonly used interchangeably in Japanese.</p><p>COMMON COLLOCATIONS:</p><ul><li>ファスナーを<ruby>開<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>ける (to open the zipper)</li><li>ファスナーを<ruby>閉<rp>(</rp><rt>し</rt><rp>)</rp></ruby>める (to close the zipper)</li><li>ファスナーが<ruby>壊<rp>(</rp><rt>こわ</rt><rp>)</rp></ruby>れる (zipper breaks)</li><li>ファスナーが<ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>っかかる (zipper gets stuck)</li></ul><p>TYPES:</p><ul><li><ruby>金属<rp>(</rp><rt>きんぞく</rt><rp>)</rp></ruby>ファスナー (metal zipper)</li><li>プラスチックファスナー (plastic zipper)</li><li><ruby>止水<rp>(</rp><rt>しすい</rt><rp>)</rp></ruby>ファスナー (waterproof zipper)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.19 8:16</div>
+                <div class="metadata-file">07000/07100_fasunaa</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

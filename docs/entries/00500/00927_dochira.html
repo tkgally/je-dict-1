@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="どちら - which (of two); where (polite). Japanese-English dictionary entry with definitions and examples.">
+    <title>どちら (どちら) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">どちら</h1>
+            <div class="entry-reading">どちら</div>
+            <div class="entry-pos">pronoun</div>
+            <div class="entry-gloss">which (of two); where (polite)</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">which one (of two)</span>
+                    <div class="definition-explanation">Used to ask about a choice between two options. The polite form of どっち.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">where (polite)</span>
+                    <div class="definition-explanation">A polite way to ask where someone is from or where they are going.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">3.</span>
+                    <span class="definition-gloss">who (polite)</span>
+                    <div class="definition-explanation">A polite way to ask who someone is, often used in business contexts.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>紅茶<rp>(</rp><rt>こうちゃ</rt><rp>)</rp></ruby>と<ruby>コーヒー<rp>(</rp><rt>こーひー</rt><rp>)</rp></ruby>、どちらがいいですか。</div>
+                    <div class="example-english">Which would you prefer, tea or coffee?</div>
+                    <div class="example-notes">Choice between two</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">どちらからいらっしゃいましたか。</div>
+                    <div class="example-english">Where are you from?</div>
+                    <div class="example-notes">Polite &#x27;where&#x27; meaning</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>失礼<rp>(</rp><rt>しつれい</rt><rp>)</rp></ruby>ですが、どちら<ruby>様<rp>(</rp><rt>さま</rt><rp>)</rp></ruby>ですか。</div>
+                    <div class="example-english">Excuse me, but who are you? / May I ask who you are?</div>
+                    <div class="example-notes">Very polite &#x27;who&#x27; meaning</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>どちら is a polite word with multiple uses. For asking &#x27;which of two,&#x27; どっち is the casual equivalent. どちら is part of the ko-so-a-do demonstrative series: こちら (this way), そちら (that way), あちら (over there), どちら (which way). In formal settings, どちら<ruby>様<rp>(</rp><rt>さま</rt><rp>)</rp></ruby>ですか is used to politely ask someone&#x27;s identity.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:03 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00500/00927_dochira</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

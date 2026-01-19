@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="タイプライター - typewriter. Japanese-English dictionary entry with definitions and examples.">
+    <title>タイプライター (たいぷらいたー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">タイプライター</h1>
+            <div class="entry-reading">たいぷらいたー</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">typewriter</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">typewriter</span>
+                    <div class="definition-explanation">A mechanical or electromechanical machine for writing characters by pressing keys that cause inked types to strike paper. Largely replaced by computers but still used in some contexts.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>祖父<rp>(</rp><rt>そふ</rt><rp>)</rp></ruby>は<ruby>昔<rp>(</rp><rt>むかし</rt><rp>)</rp></ruby>タイプライターで<ruby>手紙<rp>(</rp><rt>てがみ</rt><rp>)</rp></ruby>を<ruby>打<rp>(</rp><rt>う</rt><rp>)</rp></ruby>っていた。</div>
+                    <div class="example-english">My grandfather used to type letters on a typewriter.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>古<rp>(</rp><rt>ふる</rt><rp>)</rp></ruby>いタイプライターが<ruby>骨董品<rp>(</rp><rt>こっとうひん</rt><rp>)</rp></ruby>として<ruby>売<rp>(</rp><rt>う</rt><rp>)</rp></ruby>られている。</div>
+                    <div class="example-english">Old typewriters are being sold as antiques.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">タイプライターの<ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>がカタカタと<ruby>響<rp>(</rp><rt>ひび</rt><rp>)</rp></ruby>いた。</div>
+                    <div class="example-english">The sound of the typewriter clattered.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ETYMOLOGY: From English &#x27;typewriter&#x27;.</p><p>USAGE: While largely obsolete due to computers, typewriters are still:</p><ul><li>Collected as antiques</li><li>Used for certain official documents in some countries</li><li>Appreciated for aesthetic/nostalgic value</li></ul><p>RELATED VOCABULARY:</p><ul><li><ruby>和文<rp>(</rp><rt>わぶん</rt><rp>)</rp></ruby>タイプライター (Japanese typewriter)</li><li>タイプを<ruby>打<rp>(</rp><rt>う</rt><rp>)</rp></ruby>つ (to type)</li><li>ワープロ (word processor - abbreviation of ワードプロセッサー)</li></ul><p>NOTE: Japanese typewriters were complex mechanical devices with thousands of characters, unlike Western typewriters.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 19:53 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00000/00401_taipuraitaa</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

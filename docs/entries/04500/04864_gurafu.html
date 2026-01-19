@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="グラフ - graph. Japanese-English dictionary entry with definitions and examples.">
+    <title>グラフ (ぐらふ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">グラフ</h1>
+            <div class="entry-reading">ぐらふ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">graph</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">graph, chart</span>
+                    <div class="definition-explanation">A diagram showing the relationship between variables or data.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">グラフを<ruby>作成<rp>(</rp><rt>さくせい</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Create a graph.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>売上<rp>(</rp><rt>うりあげ</rt><rp>)</rp></ruby>をグラフで<ruby>表<rp>(</rp><rt>あらわ</rt><rp>)</rp></ruby>す。</div>
+                    <div class="example-english">Show sales in a graph.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">グラフから<ruby>傾向<rp>(</rp><rt>けいこう</rt><rp>)</rp></ruby>が<ruby>読<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>み<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>れる。</div>
+                    <div class="example-english">You can read the trend from the graph.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>From English &quot;graph.&quot; Used in math, business, and data visualization.</p><p>Common types:</p><ul><li><ruby>棒<rp>(</rp><rt>ぼう</rt><rp>)</rp></ruby>グラフ (bar graph)</li><li><ruby>折<rp>(</rp><rt>お</rt><rp>)</rp></ruby>れ<ruby>線<rp>(</rp><rt>せん</rt><rp>)</rp></ruby>グラフ (line graph)</li><li><ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>グラフ (pie chart)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 9:32 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">04500/04864_gurafu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

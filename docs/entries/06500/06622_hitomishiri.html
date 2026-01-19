@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="人見知り - shyness with strangers; fear of strangers. Japanese-English dictionary entry with definitions and examples.">
+    <title>人見知り (ひとみしり) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>り</h1>
+            <div class="entry-reading">ひとみしり</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">shyness with strangers; fear of strangers</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">shyness with strangers; being uncomfortable around unfamiliar people</span>
+                    <div class="definition-explanation">The tendency to feel shy, nervous, or uncomfortable when meeting new people. Common in both children and adults.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">うちの<ruby>子<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>は<ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>りがひどい。</div>
+                    <div class="example-english">Our child is very shy with strangers.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>りするので、パーティーが<ruby>苦手<rp>(</rp><rt>にがて</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">I&#x27;m not good at parties because I&#x27;m shy around people I don&#x27;t know.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>ちゃんが<ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>りを<ruby>始<rp>(</rp><rt>はじ</rt><rp>)</rp></ruby>めた。</div>
+                    <div class="example-english">The baby has started showing stranger anxiety.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>WORD FORMATION:<br><ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby> (person) + <ruby>見知<rp>(</rp><rt>みし</rt><rp>)</rp></ruby>り (recognizing by seeing) → discomfort with unfamiliar faces</p><p>GRAMMAR PATTERNS:</p><ul><li><ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>りする (verb form: to be shy with strangers)</li><li><ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>りが<ruby>激<rp>(</rp><rt>はげ</rt><rp>)</rp></ruby>しい / ひどい (to be very shy)</li><li><ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>りをする (to show shyness around strangers)</li></ul><p>USAGE NOTE:<br>In Japan, <ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>り is often mentioned as a personality trait, especially when explaining social difficulties. Adults commonly use this term to describe themselves. For infants, <ruby>人見知<rp>(</rp><rt>ひとみし</rt><rp>)</rp></ruby>り typically begins around 6-8 months and is considered a normal developmental stage.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 12:30</div>
+                <div class="metadata-file">06500/06622_hitomishiri</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

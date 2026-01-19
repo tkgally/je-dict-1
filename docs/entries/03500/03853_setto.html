@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="セット - set. Japanese-English dictionary entry with definitions and examples.">
+    <title>セット (せっと) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">セット</h1>
+            <div class="entry-reading">せっと</div>
+            <div class="entry-pos">noun, verb (suru)</div>
+            <div class="entry-gloss">set</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">set, combination</span>
+                    <div class="definition-explanation">A group of items sold or used together.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">set (in tennis/volleyball)</span>
+                    <div class="definition-explanation">A unit of play in certain sports.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">3.</span>
+                    <span class="definition-gloss">set, setting</span>
+                    <div class="definition-explanation">The act of arranging or preparing something.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ハンバーガーとドリンクのセットを<ruby>注文<rp>(</rp><rt>ちゅうもん</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I ordered a hamburger and drink set.</div>
+                    <div class="example-notes">セット meal</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>1セットを<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>った。</div>
+                    <div class="example-english">I won the first set.</div>
+                    <div class="example-notes">Sports term</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>目覚<rp>(</rp><rt>めざ</rt><rp>)</rp></ruby>まし<ruby>時計<rp>(</rp><rt>どけい</rt><rp>)</rp></ruby>を7<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>にセットした。</div>
+                    <div class="example-english">I set the alarm clock for 7 o&#x27;clock.</div>
+                    <div class="example-notes">セットする = to set</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>MEANINGS:</p><p>1. COMBINATION/MEAL:</p><ul><li>セットメニュー (set menu)</li><li><ruby>定食<rp>(</rp><rt>ていしょく</rt><rp>)</rp></ruby>セット (set meal)</li><li><ruby>家具<rp>(</rp><rt>かぐ</rt><rp>)</rp></ruby>セット (furniture set)</li></ul><p>2. SPORTS:</p><ul><li><ruby>第<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>〜セット (set number in tennis, etc.)</li></ul><p>3. SETTING/ARRANGING:</p><ul><li><ruby>髪<rp>(</rp><rt>かみ</rt><rp>)</rp></ruby>をセットする (to style hair)</li><li>アラームをセットする (to set an alarm)</li></ul><p>[Register: Neutral]</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.12 22:55 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">03500/03853_setto</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

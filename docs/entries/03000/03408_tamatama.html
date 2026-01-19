@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="偶々 - by chance, unexpectedly. Japanese-English dictionary entry with definitions and examples.">
+    <title>偶々 (たまたま) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>偶々<rp>(</rp><rt>たまたま</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">たまたま</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">by chance, unexpectedly</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">by chance, accidentally, unexpectedly</span>
+                    <div class="definition-explanation">Something happening without intention or planning; coincidentally.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>駅<rp>(</rp><rt>えき</rt><rp>)</rp></ruby>で<ruby>偶々<rp>(</rp><rt>たまたま</rt><rp>)</rp></ruby><ruby>友達<rp>(</rp><rt>ともだち</rt><rp>)</rp></ruby>に<ruby>会<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>った。</div>
+                    <div class="example-english">I happened to meet a friend at the station.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>偶々<rp>(</rp><rt>たまたま</rt><rp>)</rp></ruby><ruby>通<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>りかかった<ruby>店<rp>(</rp><rt>みせ</rt><rp>)</rp></ruby>で<ruby>買<rp>(</rp><rt>か</rt><rp>)</rp></ruby>い<ruby>物<rp>(</rp><rt>もの</rt><rp>)</rp></ruby>をした。</div>
+                    <div class="example-english">I shopped at a store I happened to pass by.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>偶々<rp>(</rp><rt>たまたま</rt><rp>)</rp></ruby><ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>たテレビ<ruby>番組<rp>(</rp><rt>ばんぐみ</rt><rp>)</rp></ruby>が<ruby>面白<rp>(</rp><rt>おもしろ</rt><rp>)</rp></ruby>かった。</div>
+                    <div class="example-english">A TV program I happened to watch was interesting.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>WRITING:</p><ul><li>Usually written in hiragana as たまたま</li><li>Kanji <ruby>偶々<rp>(</rp><rt>たまたま</rt><rp>)</rp></ruby> is less common but may appear in formal writing</li></ul><p>SIMILAR WORDS:</p><ul><li>たまたま: By chance (neutral, common)</li><li><ruby>偶然<rp>(</rp><rt>ぐうぜん</rt><rp>)</rp></ruby>: Coincidentally (slightly more formal)</li><li><ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>いがけず: Unexpectedly (emphasizes surprise)</li></ul><p>NUANCE: たまたま is very common in everyday conversation to describe coincidental or unplanned occurrences.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Synonym:</span>
+                        <a href="../../entries/02500/02674_guuzen.html" class="cross-ref-link">
+                            <ruby>偶然<rp>(</rp><rt>ぐうぜん</rt><rp>)</rp></ruby> (by chance)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.12 23:28 · Revised 2026.1.18 18:21</div>
+                <div class="metadata-file">03000/03408_tamatama</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

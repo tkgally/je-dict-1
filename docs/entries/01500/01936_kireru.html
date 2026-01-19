@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="切れる - to be cut, to run out. Japanese-English dictionary entry with definitions and examples.">
+    <title>切れる (きれる) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れる</h1>
+            <div class="entry-reading">きれる</div>
+            <div class="entry-pos">verb (ichidan)</div>
+            <div class="entry-gloss">to be cut, to run out</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to be cut, to break</span>
+                    <div class="definition-explanation">For something to become severed.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">to run out, to expire</span>
+                    <div class="definition-explanation">For something to be used up or end.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">3.</span>
+                    <span class="definition-gloss">to snap, to lose one&#x27;s temper</span>
+                    <div class="definition-explanation">To suddenly become angry.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>糸<rp>(</rp><rt>いと</rt><rp>)</rp></ruby>が<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れた。</div>
+                    <div class="example-english">The thread broke.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>電池<rp>(</rp><rt>でんち</rt><rp>)</rp></ruby>が<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れた。</div>
+                    <div class="example-english">The battery ran out.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れた。</div>
+                    <div class="example-english">He snapped (lost his temper).</div>
+                    <div class="example-notes">Colloquial</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れる means to be cut, run out, or snap.</p><p>TRANSITIVITY:</p><ul><li><ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れる (intransitive): to be cut</li><li><ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>る (transitive): to cut</li></ul><p>COMMON USES:</p><ul><li><ruby>電池<rp>(</rp><rt>でんち</rt><rp>)</rp></ruby>が<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れる: battery dies</li><li><ruby>期限<rp>(</rp><rt>きげん</rt><rp>)</rp></ruby>が<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れる: expires</li><li><ruby>息<rp>(</rp><rt>いき</rt><rp>)</rp></ruby>が<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>れる: out of breath</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:39 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">01500/01936_kireru</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

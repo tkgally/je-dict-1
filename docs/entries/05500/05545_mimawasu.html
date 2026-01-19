@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="見回す - to look around. Japanese-English dictionary entry with definitions and examples.">
+    <title>見回す (みまわす) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>す</h1>
+            <div class="entry-reading">みまわす</div>
+            <div class="entry-pos">verb (godan)</div>
+            <div class="entry-gloss">to look around</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to look around; to survey</span>
+                    <div class="definition-explanation">To turn one&#x27;s gaze in various directions to observe the surroundings.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>部屋<rp>(</rp><rt>へや</rt><rp>)</rp></ruby>を<ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>して<ruby>何<rp>(</rp><rt>なに</rt><rp>)</rp></ruby>かを<ruby>探<rp>(</rp><rt>さが</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I looked around the room searching for something.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>辺<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>りを<ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>すと、<ruby>誰<rp>(</rp><rt>だれ</rt><rp>)</rp></ruby>もいなかった。</div>
+                    <div class="example-english">When I looked around, there was no one there.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>は<ruby>不安<rp>(</rp><rt>ふあん</rt><rp>)</rp></ruby>そうに<ruby>周囲<rp>(</rp><rt>しゅうい</rt><rp>)</rp></ruby>を<ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">She looked around anxiously.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>す is a compound verb combining <ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>る (to see) and <ruby>回<rp>(</rp><rt>まわ</rt><rp>)</rp></ruby>す (to turn around).</p><p>CONJUGATION (godan verb):</p><ul><li><ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>す (dictionary form)</li><li><ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>さない (negative)</li><li><ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>した (past)</li><li><ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>して (te-form)</li></ul><p>SIMILAR WORDS:</p><ul><li><ruby>見渡<rp>(</rp><rt>みわた</rt><rp>)</rp></ruby>す: to look out over (wider view)</li><li><ruby>見回<rp>(</rp><rt>みまわ</rt><rp>)</rp></ruby>る: to patrol, to make rounds</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 17:09</div>
+                <div class="metadata-file">05500/05545_mimawasu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

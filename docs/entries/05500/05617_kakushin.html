@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="革新 - innovation; reform. Japanese-English dictionary entry with definitions and examples.">
+    <title>革新 (かくしん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>革新<rp>(</rp><rt>かくしん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">かくしん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">innovation; reform</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">innovation; reform; renewal</span>
+                    <div class="definition-explanation">Making significant changes or improvements; introducing new ideas or methods.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>技術<rp>(</rp><rt>ぎじゅつ</rt><rp>)</rp></ruby><ruby>革新<rp>(</rp><rt>かくしん</rt><rp>)</rp></ruby>が<ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>んでいる。</div>
+                    <div class="example-english">Technological innovation is advancing.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>革新的<rp>(</rp><rt>かくしんてき</rt><rp>)</rp></ruby>なアイデアを<ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>み<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。</div>
+                    <div class="example-english">To come up with innovative ideas.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>制度<rp>(</rp><rt>せいど</rt><rp>)</rp></ruby>の<ruby>革新<rp>(</rp><rt>かくしん</rt><rp>)</rp></ruby>が<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">Reform of the system is necessary.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>革新<rp>(</rp><rt>かくしん</rt><rp>)</rp></ruby> implies significant change or modernization, often with positive connotations.</p><p>COMMON EXPRESSIONS:</p><ul><li><ruby>技術<rp>(</rp><rt>ぎじゅつ</rt><rp>)</rp></ruby><ruby>革新<rp>(</rp><rt>かくしん</rt><rp>)</rp></ruby>: technological innovation</li><li><ruby>革新的<rp>(</rp><rt>かくしんてき</rt><rp>)</rp></ruby>: innovative</li><li><ruby>革新<rp>(</rp><rt>かくしん</rt><rp>)</rp></ruby><ruby>政党<rp>(</rp><rt>せいとう</rt><rp>)</rp></ruby>: progressive party</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 17:20</div>
+                <div class="metadata-file">05500/05617_kakushin</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

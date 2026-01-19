@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="岬 - cape, promontory, headland. Japanese-English dictionary entry with definitions and examples.">
+    <title>岬 (みさき) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>岬<rp>(</rp><rt>みさき</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">みさき</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">cape, promontory, headland</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">cape, promontory, headland</span>
+                    <div class="definition-explanation">A narrow piece of land that extends into a body of water.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>岬<rp>(</rp><rt>みさき</rt><rp>)</rp></ruby>の<ruby>先端<rp>(</rp><rt>せんたん</rt><rp>)</rp></ruby>に<ruby>灯台<rp>(</rp><rt>とうだい</rt><rp>)</rp></ruby>がある。</div>
+                    <div class="example-english">There&#x27;s a lighthouse at the tip of the cape.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>岬<rp>(</rp><rt>みさき</rt><rp>)</rp></ruby>から<ruby>海<rp>(</rp><rt>うみ</rt><rp>)</rp></ruby>を<ruby>見渡<rp>(</rp><rt>みわた</rt><rp>)</rp></ruby>す。</div>
+                    <div class="example-english">Look out over the sea from the cape.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>知床岬<rp>(</rp><rt>しれとこみさき</rt><rp>)</rp></ruby>は<ruby>世界遺産<rp>(</rp><rt>せかいいさん</rt><rp>)</rp></ruby>に<ruby>登録<rp>(</rp><rt>とうろく</rt><rp>)</rp></ruby>されている。</div>
+                    <div class="example-english">Cape Shiretoko is registered as a World Heritage site.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>岬<rp>(</rp><rt>みさき</rt><rp>)</rp></ruby> refers to a point of land extending into water.</p><p>FAMOUS CAPES IN JAPAN:</p><ul><li><ruby>知床岬<rp>(</rp><rt>しれとこみさき</rt><rp>)</rp></ruby> (Cape Shiretoko, Hokkaido)</li><li><ruby>潮岬<rp>(</rp><rt>しおのみさき</rt><rp>)</rp></ruby> (Cape Shiono, southernmost point of Honshu)</li><li><ruby>足摺岬<rp>(</rp><rt>あしずりみさき</rt><rp>)</rp></ruby> (Cape Ashizuri, Shikoku)</li><li><ruby>佐多岬<rp>(</rp><rt>さたみさき</rt><rp>)</rp></ruby> (Cape Sata, southernmost point of Kyushu)</li></ul><p>COMMON EXPRESSIONS:</p><ul><li><ruby>岬<rp>(</rp><rt>みさき</rt><rp>)</rp></ruby>を<ruby>回<rp>(</rp><rt>まわ</rt><rp>)</rp></ruby>る (to go around a cape)</li><li><ruby>岬<rp>(</rp><rt>みさき</rt><rp>)</rp></ruby>の<ruby>先端<rp>(</rp><rt>せんたん</rt><rp>)</rp></ruby> (tip of the cape)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 10:47 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">03500/03911_misaki</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

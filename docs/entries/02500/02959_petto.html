@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ペット - pet. Japanese-English dictionary entry with definitions and examples.">
+    <title>ペット (ぺっと) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ペット</h1>
+            <div class="entry-reading">ぺっと</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">pet</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">pet</span>
+                    <div class="definition-explanation">An animal kept for companionship.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ペットを<ruby>飼<rp>(</rp><rt>か</rt><rp>)</rp></ruby>っていますか。</div>
+                    <div class="example-english">Do you have a pet?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>犬<rp>(</rp><rt>いぬ</rt><rp>)</rp></ruby>をペットにしています。</div>
+                    <div class="example-english">I have a dog as a pet.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">このアパートはペット<ruby>禁止<rp>(</rp><rt>きんし</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">Pets are not allowed in this apartment.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ペット is a loanword from English &quot;pet.&quot;</p><p>COMMON PETS:</p><ul><li><ruby>犬<rp>(</rp><rt>いぬ</rt><rp>)</rp></ruby> (dog)</li><li><ruby>猫<rp>(</rp><rt>ねこ</rt><rp>)</rp></ruby> (cat)</li><li><ruby>鳥<rp>(</rp><rt>とり</rt><rp>)</rp></ruby> (bird)</li><li><ruby>魚<rp>(</rp><rt>さかな</rt><rp>)</rp></ruby> (fish)</li></ul><p>RELATED:</p><ul><li>ペット<ruby>ショップ<rp>(</rp><rt>しょっぷ</rt><rp>)</rp></ruby> (pet shop)</li><li>ペット<ruby>可<rp>(</rp><rt>か</rt><rp>)</rp></ruby> (pets allowed)</li><li>ペット<ruby>禁止<rp>(</rp><rt>きんし</rt><rp>)</rp></ruby> (no pets allowed)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 19:10 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">02500/02959_petto</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

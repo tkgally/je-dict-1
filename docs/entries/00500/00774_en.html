@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="円 - yen; circle. Japanese-English dictionary entry with definitions and examples.">
+    <title>円 (えん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">えん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">yen; circle</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">yen (Japanese currency)</span>
+                    <div class="definition-explanation">The official currency of Japan. Symbol: ¥.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">circle</span>
+                    <div class="definition-explanation">A round shape. The kanji literally means &#x27;round/circle&#x27;.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">これは<ruby>百<rp>(</rp><rt>ひゃく</rt><rp>)</rp></ruby><ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">This is 100 yen.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>五千<rp>(</rp><rt>ごせん</rt><rp>)</rp></ruby><ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>で<ruby>足<rp>(</rp><rt>た</rt><rp>)</rp></ruby>りますか。</div>
+                    <div class="example-english">Is 5000 yen enough?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>を<ruby>描<rp>(</rp><rt>か</rt><rp>)</rp></ruby>いてください。</div>
+                    <div class="example-english">Please draw a circle.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>The yen is Japan&#x27;s currency since 1871. Coins: 1<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>, 5<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>, 10<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>, 50<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>, 100<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>, 500<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>. Bills: 1000<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>, 5000<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>, 10000<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>. The 5<ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby> coin is considered lucky (ご<ruby>縁<rp>(</rp><rt>えん</rt><rp>)</rp></ruby> = connection/fate). <ruby>円高<rp>(</rp><rt>えんだか</rt><rp>)</rp></ruby> means &#x27;strong yen&#x27;, <ruby>円安<rp>(</rp><rt>えんやす</rt><rp>)</rp></ruby> means &#x27;weak yen&#x27;.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:49 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00500/00774_en</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

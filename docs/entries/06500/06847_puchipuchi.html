@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="プチプチ - popping sound; bubble wrap. Japanese-English dictionary entry with definitions and examples.">
+    <title>プチプチ (ぷちぷち) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">プチプチ</h1>
+            <div class="entry-reading">ぷちぷち</div>
+            <div class="entry-pos">adverb, noun</div>
+            <div class="entry-gloss">popping sound; bubble wrap</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">popping, bursting (sound/texture)</span>
+                    <div class="definition-explanation">The sound or sensation of small things popping; a texture with small pops when eaten.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">bubble wrap</span>
+                    <div class="definition-explanation">Packaging material with air-filled bubbles that pop when pressed.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>とびこ}がプチプチして{美味<rp>(</rp><rt>おい</rt><rp>)</rp></ruby>しい。</div>
+                    <div class="example-english">Flying fish roe pops in your mouth and tastes delicious.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">プチプチを<ruby>潰<rp>(</rp><rt>つぶ</rt><rp>)</rp></ruby>すのがストレス<ruby>解消<rp>(</rp><rt>かいしょう</rt><rp>)</rp></ruby>になる。</div>
+                    <div class="example-english">Popping bubble wrap relieves stress.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>荷物<rp>(</rp><rt>にもつ</rt><rp>)</rp></ruby>をプチプチで<ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>んでください。</div>
+                    <div class="example-english">Please wrap the package in bubble wrap.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>食感<rp>(</rp><rt>しょっかん</rt><rp>)</rp></ruby>、プチプチしていて<ruby>楽<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しい。</div>
+                    <div class="example-english">This texture is fun with its popping sensation.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>プチプチ is an onomatopoeia that has also become a common noun for bubble wrap.</p><p>GRAMMAR PATTERNS:</p><ul><li>プチプチする - to pop (verb form)</li><li>プチプチした＋noun - popping (noun modifier)</li><li>プチプチで<ruby>包<rp>(</rp><rt>つつ</rt><rp>)</rp></ruby>む - to wrap in bubble wrap</li></ul><p>USAGE NOTE (Sense 1 - Texture):<br>Describes the satisfying pop of fish roe, tapioca pearls, or similar foods. The texture is smaller and lighter than コリコリ.</p><p>USAGE NOTE (Sense 2 - Bubble wrap):<br>プチプチ has become the colloquial name for bubble wrap (<ruby>気泡<rp>(</rp><rt>きほう</rt><rp>)</rp></ruby>シート) in Japan. The sound when popping the bubbles gives it its name. Popping bubble wrap is a popular stress relief activity.</p><p>FOODS DESCRIBED AS プチプチ:</p><ul><li>とびこ (flying fish roe)</li><li>いくら (salmon roe, when fresh)</li><li>タピオカ (tapioca)</li><li><ruby>数<rp>(</rp><rt>かず</rt><rp>)</rp></ruby>の<ruby>子<rp>(</rp><rt>こ</rt><rp>)</rp></ruby> (herring roe)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 16:48</div>
+                <div class="metadata-file">06500/06847_puchipuchi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

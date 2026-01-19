@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一貫性 - consistency; coherence. Japanese-English dictionary entry with definitions and examples.">
+    <title>一貫性 (いっかんせい) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>一貫性<rp>(</rp><rt>いっかんせい</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">いっかんせい</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">consistency; coherence</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">consistency; coherence</span>
+                    <div class="definition-explanation">The quality of being consistent throughout; logical connection between parts.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>政策<rp>(</rp><rt>せいさく</rt><rp>)</rp></ruby>に<ruby>一貫性<rp>(</rp><rt>いっかんせい</rt><rp>)</rp></ruby>がない。</div>
+                    <div class="example-english">The policy lacks consistency.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>主張<rp>(</rp><rt>しゅちょう</rt><rp>)</rp></ruby>に<ruby>一貫性<rp>(</rp><rt>いっかんせい</rt><rp>)</rp></ruby>を<ruby>持<rp>(</rp><rt>も</rt><rp>)</rp></ruby>たせる。</div>
+                    <div class="example-english">To maintain consistency in one&#x27;s argument.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>一貫性<rp>(</rp><rt>いっかんせい</rt><rp>)</rp></ruby>のある<ruby>対応<rp>(</rp><rt>たいおう</rt><rp>)</rp></ruby>が<ruby>求<rp>(</rp><rt>もと</rt><rp>)</rp></ruby>められる。</div>
+                    <div class="example-english">A consistent response is required.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>一貫性<rp>(</rp><rt>いっかんせい</rt><rp>)</rp></ruby> is formed from <ruby>一貫<rp>(</rp><rt>いっかん</rt><rp>)</rp></ruby> (consistency) + <ruby>性<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>. It&#x27;s important in logic, policy, and communication.</p><p>COMMON COLLOCATIONS:</p><ul><li><ruby>一貫性<rp>(</rp><rt>いっかんせい</rt><rp>)</rp></ruby>がある/ない: to have/lack consistency</li><li><ruby>一貫性<rp>(</rp><rt>いっかんせい</rt><rp>)</rp></ruby>を<ruby>保<rp>(</rp><rt>たも</rt><rp>)</rp></ruby>つ: to maintain consistency</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 17:14</div>
+                <div class="metadata-file">05500/05575_ikkansei</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

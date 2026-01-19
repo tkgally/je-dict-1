@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="正門 - main gate, main entrance. Japanese-English dictionary entry with definitions and examples.">
+    <title>正門 (せいもん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>正門<rp>(</rp><rt>せいもん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">せいもん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">main gate, main entrance</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">main gate, front gate</span>
+                    <div class="definition-explanation">The principal entrance to a building, institution, or grounds; the front or formal entrance.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>の<ruby>正門<rp>(</rp><rt>せいもん</rt><rp>)</rp></ruby>の<ruby>前<rp>(</rp><rt>まえ</rt><rp>)</rp></ruby>で<ruby>待<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>ち<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>わせしよう。</div>
+                    <div class="example-english">Let&#x27;s meet in front of the school&#x27;s main gate.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>正門<rp>(</rp><rt>せいもん</rt><rp>)</rp></ruby>から<ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>ってまっすぐ<ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>んでください。</div>
+                    <div class="example-english">Please enter through the main gate and go straight.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>会社<rp>(</rp><rt>かいしゃ</rt><rp>)</rp></ruby>の<ruby>正門<rp>(</rp><rt>せいもん</rt><rp>)</rp></ruby>には<ruby>警備員<rp>(</rp><rt>けいびいん</rt><rp>)</rp></ruby>がいる。</div>
+                    <div class="example-english">There are security guards at the company&#x27;s main gate.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>正門<rp>(</rp><rt>せいもん</rt><rp>)</rp></ruby> is the main or front gate of an institution, as opposed to side entrances or back gates.</p><p>CONTRAST WITH:</p><ul><li><ruby>裏門<rp>(</rp><rt>うらもん</rt><rp>)</rp></ruby>: back gate</li><li><ruby>通用門<rp>(</rp><rt>つうようもん</rt><rp>)</rp></ruby>: service entrance, side entrance</li><li><ruby>南門<rp>(</rp><rt>なんもん</rt><rp>)</rp></ruby>/<ruby>北門<rp>(</rp><rt>ほくもん</rt><rp>)</rp></ruby>/etc.: south gate, north gate, etc.</li></ul><p>COMMON LOCATIONS:</p><ul><li>Schools and universities</li><li>Shrines and temples</li><li>Corporate buildings</li><li>Government facilities</li><li>Parks and gardens</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 7:31 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">04000/04350_seimon</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="はらはら - anxiously; nervously; fluttering down. Japanese-English dictionary entry with definitions and examples.">
+    <title>はらはら (はらはら) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">はらはら</h1>
+            <div class="entry-reading">はらはら</div>
+            <div class="entry-pos">adverb, suru verb</div>
+            <div class="entry-gloss">anxiously; nervously; fluttering down</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">anxiously; nervously; on edge</span>
+                    <div class="definition-explanation">Describes feeling anxious while watching something unfold, worried about the outcome.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">fluttering down; falling gently</span>
+                    <div class="definition-explanation">Describes light things like leaves, petals, or tears falling gently.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>子<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>どもの<ruby>発表<rp>(</rp><rt>はっぴょう</rt><rp>)</rp></ruby>をはらはらしながら<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>た。</div>
+                    <div class="example-english">I watched my child&#x27;s presentation nervously.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">はらはらするシーンが<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>いた。</div>
+                    <div class="example-english">There were continuous suspenseful scenes.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>桜<rp>(</rp><rt>さくら</rt><rp>)</rp></ruby>の<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>びらがはらはらと<ruby>散<rp>(</rp><rt>ち</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">Cherry blossom petals flutter down.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>はらはら is an onomatopoeic word with two distinct uses.</p><p>ANXIOUS USE:</p><ul><li>はらはらする<ruby>映画<rp>(</rp><rt>えいが</rt><rp>)</rp></ruby>: suspenseful movie</li><li>はらはら{ドキドキ}: nervous and excited</li></ul><p>FALLING USE:</p><ul><li><ruby>涙<rp>(</rp><rt>なみだ</rt><rp>)</rp></ruby>がはらはら<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>ちる: tears falling</li><li><ruby>葉<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がはらはら<ruby>散<rp>(</rp><rt>ち</rt><rp>)</rp></ruby>る: leaves fluttering down</li></ul><p>SIMILAR ANXIETY WORDS:</p><ul><li>どきどき: heart pounding (excitement/nervousness)</li><li>ひやひや: feeling worried/chilled</li><li>そわそわ: restless, fidgety</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/05000/05157_dokidoki.html" class="cross-ref-link">
+                            どきどき (heart pounding)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 14:20 · Revised 2026.1.18 18:21</div>
+                <div class="metadata-file">05000/05268_harahara</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

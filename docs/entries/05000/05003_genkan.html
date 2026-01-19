@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="玄関 - entrance. Japanese-English dictionary entry with definitions and examples.">
+    <title>玄関 (げんかん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>玄関<rp>(</rp><rt>げんかん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">げんかん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">entrance</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">entrance, entryway, foyer</span>
+                    <div class="definition-explanation">The entrance area of a Japanese home or building where visitors are received and shoes are removed. A transitional space between outside and inside.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>玄関<rp>(</rp><rt>げんかん</rt><rp>)</rp></ruby>で<ruby>靴<rp>(</rp><rt>くつ</rt><rp>)</rp></ruby>を<ruby>脱<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>いでください。</div>
+                    <div class="example-english">Please take off your shoes at the entrance.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>玄関<rp>(</rp><rt>げんかん</rt><rp>)</rp></ruby>のベルが<ruby>鳴<rp>(</rp><rt>な</rt><rp>)</rp></ruby>りました。</div>
+                    <div class="example-english">The doorbell rang.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>玄関<rp>(</rp><rt>げんかん</rt><rp>)</rp></ruby>に<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>を<ruby>飾<rp>(</rp><rt>かざ</rt><rp>)</rp></ruby>りました。</div>
+                    <div class="example-english">I decorated the entrance with flowers.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>玄関<rp>(</rp><rt>げんかん</rt><rp>)</rp></ruby> is the entrance area of a Japanese building, culturally significant as the boundary between inside and outside.</p><p>Components:</p><ul><li><ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>がり<ruby>框<rp>(</rp><rt>かまち</rt><rp>)</rp></ruby> (step up into the house)</li><li><ruby>土間<rp>(</rp><rt>どま</rt><rp>)</rp></ruby>/{たたき} (earthen floor/concrete area)</li><li><ruby>下駄箱<rp>(</rp><rt>げたばこ</rt><rp>)</rp></ruby> (shoe cabinet)</li><li><ruby>傘立<rp>(</rp><rt>かさた</rt><rp>)</rp></ruby>て (umbrella stand)</li></ul><p>Cultural aspects:</p><ul><li>Shoes are removed before stepping up</li><li>The lowered floor keeps dirt from entering</li><li>Often has <ruby>表札<rp>(</rp><rt>ひょうさつ</rt><rp>)</rp></ruby> (nameplate) outside</li><li>Guests may be greeted but not invited further (<ruby>玄関先<rp>(</rp><rt>げんかんさき</rt><rp>)</rp></ruby>で)</li></ul><p>Expressions:</p><ul><li><ruby>玄関<rp>(</rp><rt>げんかん</rt><rp>)</rp></ruby><ruby>払<rp>(</rp><rt>ばら</rt><rp>)</rp></ruby>い - turning someone away at the door</li><li><ruby>玄関先<rp>(</rp><rt>げんかんさき</rt><rp>)</rp></ruby> - at the entrance (without inviting in)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 22:31 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05003_genkan</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

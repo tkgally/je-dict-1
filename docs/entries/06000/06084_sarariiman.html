@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="サラリーマン - salaryman, office worker. Japanese-English dictionary entry with definitions and examples.">
+    <title>サラリーマン (さらりーまん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">サラリーマン</h1>
+            <div class="entry-reading">さらりーまん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">salaryman, office worker</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">salaryman, white-collar worker, office worker</span>
+                    <div class="definition-explanation">A male employee of a company who receives a regular salary. The term represents the typical Japanese corporate employee, especially in business contexts.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>父<rp>(</rp><rt>ちち</rt><rp>)</rp></ruby>は<ruby>普通<rp>(</rp><rt>ふつう</rt><rp>)</rp></ruby>のサラリーマンだ。</div>
+                    <div class="example-english">My father is an ordinary office worker.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">サラリーマン<ruby>生活<rp>(</rp><rt>せいかつ</rt><rp>)</rp></ruby>も<ruby>悪<rp>(</rp><rt>わる</rt><rp>)</rp></ruby>くない。</div>
+                    <div class="example-english">Life as a salaryman isn&#x27;t bad.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>駅前<rp>(</rp><rt>えきまえ</rt><rp>)</rp></ruby>はサラリーマンでいっぱいだ。</div>
+                    <div class="example-english">The area in front of the station is full of office workers.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ETYMOLOGY: English &#x27;salary&#x27; + &#x27;man&#x27; (wasei-eigo/Japanese-made English)</p><p>CULTURAL SIGNIFICANCE: The term サラリーマン became iconic during Japan&#x27;s economic growth period (1960s-1980s), representing the dedicated corporate worker who prioritizes company loyalty.</p><p>GENDER NOTE: サラリーマン traditionally refers to male workers. The female equivalent is OL (オーエル, &#x27;office lady&#x27;), though this term is increasingly seen as outdated. More gender-neutral terms like <ruby>会社員<rp>(</rp><rt>かいしゃいん</rt><rp>)</rp></ruby> (company employee) are now preferred.</p><p>COMMON PATTERNS:</p><ul><li>サラリーマン<ruby>金太郎<rp>(</rp><rt>きんたろう</rt><rp>)</rp></ruby> (a popular manga character)</li><li><ruby>脱<rp>(</rp><rt>だつ</rt><rp>)</rp></ruby>サラ (leaving corporate employment to start one&#x27;s own business)</li><li>サラリーマン<ruby>川柳<rp>(</rp><rt>せんりゅう</rt><rp>)</rp></ruby> (humorous poems about office life)</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/03000/03018_kaishain.html" class="cross-ref-link">
+                            <ruby>会社員<rp>(</rp><rt>かいしゃいん</rt><rp>)</rp></ruby>
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.17 11:09 · Revised 2026.1.18 18:21</div>
+                <div class="metadata-file">06000/06084_sarariiman</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

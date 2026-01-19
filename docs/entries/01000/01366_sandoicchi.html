@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="サンドイッチ - sandwich. Japanese-English dictionary entry with definitions and examples.">
+    <title>サンドイッチ (さんどいっち) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">サンドイッチ</h1>
+            <div class="entry-reading">さんどいっち</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">sandwich</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">sandwich</span>
+                    <div class="definition-explanation">Food consisting of fillings between slices of bread.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>昼<rp>(</rp><rt>ひる</rt><rp>)</rp></ruby>ご<ruby>飯<rp>(</rp><rt>はん</rt><rp>)</rp></ruby>にサンドイッチを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べた。</div>
+                    <div class="example-english">I had a sandwich for lunch.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">サンドイッチを<ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>りましょう。</div>
+                    <div class="example-english">Let&#x27;s make sandwiches.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>卵<rp>(</rp><rt>たまご</rt><rp>)</rp></ruby>サンドイッチが<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きです。</div>
+                    <div class="example-english">I like egg sandwiches.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>From English &#x27;sandwich&#x27;. Often abbreviated to サンド.</p><p>COMMON TYPES:</p><ul><li><ruby>卵<rp>(</rp><rt>たまご</rt><rp>)</rp></ruby>サンド: egg sandwich</li><li>ハムサンド: ham sandwich</li><li>カツサンド: pork cutlet sandwich</li><li>ツナサンド: tuna sandwich</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.8 12:55 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">01000/01366_sandoicchi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
