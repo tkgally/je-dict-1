@@ -494,6 +494,35 @@
               "examples": ["遊ぶ", "映画", "旅行"]
             }
           }
+        },
+        "linguistic": {
+          "description": "Language and expression categories",
+          "subcategories": {
+            "general": {
+              "description": "General nouns without a specific semantic category",
+              "examples": ["物", "事", "所"]
+            },
+            "action": {
+              "description": "Verbs describing actions (fallback for unspecified verbs)",
+              "examples": ["する", "やる", "なる"]
+            },
+            "descriptive": {
+              "description": "Adjectives and adverbs describing qualities",
+              "examples": ["いい", "悪い", "とても"]
+            },
+            "grammatical": {
+              "description": "Grammatical particles and conjunctions",
+              "examples": ["は", "が", "を", "そして"]
+            },
+            "expression": {
+              "description": "Fixed expressions and interjections",
+              "examples": ["あら", "まあ", "ねえ"]
+            },
+            "onomatopoeia": {
+              "description": "Onomatopoeia and mimetic words",
+              "examples": ["ぴかぴか", "どんどん", "ふわふわ"]
+            }
+          }
         }
       }
     }
