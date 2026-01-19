@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,359
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,566 | Unassigned: 0 ✓
-- **Candidate words**: ~563 words tracked in `candidate_words.json`
+- **Total entries**: 7,389
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,596 | Unassigned: 0 ✓
+- **Candidate words**: ~533 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 133)
+Added 30 new dictionary entries from candidate_words.json, focusing on body-part idioms, expressions about skills/strangers, fate/destiny vocabulary, and abstract nouns:
+
+- **Compound verbs (3)**: {湧|わ}き{出|で}る (to gush out), {突|つ}き{落|お}とす (to push down), {差|さ}し{戻|もど}す (to send back)
+- **Body-part idioms (9)**: {息|いき}を{潜|ひそ}める (to hold one's breath), {唇|くちびる}を{噛|か}む (to bite one's lip), {目|め}を{丸|まる}くする (to be wide-eyed), {鼻|はな}で{笑|わら}う (to sneer), {手|て}を{打|う}つ (to take measures), {手|て}を{染|そ}める (to get involved), {腕|うで}を{振|ふ}るう (to show skill), {腕|うで}を{磨|みが}く (to hone skills), {目|め}を{奪|うば}われる (to be captivated)
+- **Stranger/newcomer vocabulary (5)**: {赤|あか}の{他人|たにん} (complete stranger), {見|み}ず{知|し}らず (total stranger), {古株|ふるかぶ} (old-timer), {新顔|しんがお} (newcomer), {一見|いちげん} (first-time customer)
+- **Fate/destiny nouns (2)**: {因縁|いんねん} (fate/karma), {定|さだ}め (fate/destiny)
+- **Yojijukugo (2)**: {大同小異|だいどうしょうい} (essentially the same), {不可思議|ふかしぎ} (mysterious)
+- **Abstract nouns (8)**: {取|と}り{締|し}まり (crackdown), {巻|ま}き{添|ぞ}え (getting caught up in), {心得|こころえ} (knowledge), {手腕|しゅわん} (skill), {固定観念|こていかんねん} (preconception), {勝|か}ち{気|き} (competitive spirit), {自己嫌悪|じこけんお} (self-loathing), {別|わか}れ{際|ぎわ} (moment of parting)
+- **Humble gift noun (1)**: {粗品|そしな} (small gift)
+
+Notable entry features:
+- Body-part idiom group with 手, 目, 鼻, 唇, 息, 腕 covering emotions and actions
+- Skill-related expressions: {腕|うで}を{振|ふ}るう ↔ {腕|うで}を{磨|みが}く (show vs. hone)
+- Stranger vocabulary: {赤|あか}の{他人|たにん} ↔ {見|み}ず{知|し}らず (both mean complete stranger, with etymology notes)
+- {古株|ふるかぶ} ↔ {新顔|しんがお} antonym pair for workplace veterans/newcomers
+- {一見|いちげん}さんお{断|ことわ}り cultural note about Japanese establishments
+- Buddhist origin notes for {因縁|いんねん} and {不可思議|ふかしぎ}
+- {粗品|そしな} with Japanese gift-giving culture context
+
+Total entries: 7,359 → 7,389
+Remaining candidates: ~563 → ~533
 
 ### 2026-01-19 (Vocabulary Tier Realignment Complete - Phase 4 & 5)
 Completed the vocabulary tier realignment project (Phases 4 and 5):
@@ -323,57 +346,6 @@ Notable entry features:
 
 Total entries: 7,149 → 7,179
 Remaining candidates: ~667 → ~637
-
-### 2026-01-19 (New Candidates - 100 Words Added, Session 124)
-Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
-
-**Adverbs & Manner Expressions** (~20 words):
-- Togetherness/separation: {互|たが}いに (mutually), {一緒|いっしょ}に (together), {別々|べつべつ}に (separately)
-- Unexpectedness: {意外|いがい}と (unexpectedly), {思|おも}いがけず (by chance), {思|おも}いのほか (more than expected)
-- Time/occasion: {当面|とうめん} (for now), {事前|じぜん} (beforehand), {事後|じご} (after the fact)
-- Manner: {仕方|しかた}なく (reluctantly), {嫌々|いやいや} (unwillingly), ちょくちょく (often), {思|おも}い{切|き}って (resolutely)
-
-**Personality & Emotional States** (~15 words):
-- Personality traits: {心配性|しんぱいしょう} (worrywart), {神経質|しんけいしつ} (nervous), {繊細|せんさい} (delicate), {臆病|おくびょう} (timid), {大胆|だいたん} (bold)
-- Resilience: {我慢強|がまんづよ}い (patient), {粘|ねば}り{強|づよ}い (tenacious), {諦|あきら}め (resignation), {悟|さと}り (enlightenment), {決意|けつい} (determination)
-- Mental states: {落|お}ち{着|つ}き (composure), プレッシャー (pressure), {気楽|きらく} (carefree), {気|き}さく (friendly)
-
-**Compound Verbs - 見る/思う/使う patterns** (~20 words):
-- {見|み}る compounds: {見渡|みわた}す (survey), {見届|みとど}ける (see through), {見極|みきわ}める (discern)
-- {思|おも}う compounds: {思|おも}い{知|し}る (learn from experience), {思|おも}い{直|なお}す (reconsider), {思|おも}い{浮|う}かぶ (come to mind)
-- {使|つか}う compounds: {使|つか}い{方|かた} (how to use), {使|つか}い{道|みち} (purpose), {使|つか}い{捨|す}て (disposable), {使|つか}い{分|わ}ける (use differently), {使|つか}いこなす (master), {使|つか}い{果|は}たす (use up)
-
-**手 Compounds** (~8 words):
-- {手間取|てまど}る (take time), {手軽|てがる} (easy), {手配|てはい} (arrangement), {手遅|ておく}れ (too late), {手元|てもと} (at hand), {手加減|てかげん} (holding back), {手入|てい}れ (maintenance)
-
-**Commerce & Pricing** (~8 words):
-- {値上|ねあ}げ (price increase), {値下|ねさ}げ (price reduction), {安売|やすう}り (bargain sale), セール (sale), {相場|そうば} (market price)
-- {満員|まんいん} (full), {満席|まんせき} (fully booked), {空席|くうせき} (vacancy), {余地|よち} (room/margin)
-
-**Color & Position Intensifiers** (~8 words):
-- {真|ま}っ{白|しろ} (pure white), {真|ま}っ{黒|くろ} (pitch black), {真|ま}っ{青|さお} (deep blue), {真|ま}っ{暗|くら} (pitch dark), {真|ま}っ{先|さき} (first of all), {真上|まうえ} (directly above), {真下|ました} (directly below)
-
-**Time Off & Rest** (~6 words):
-- {連休|れんきゅう} (consecutive holidays), {祝日|しゅくじつ} (national holiday), {小休止|しょうきゅうし} (short break), {一息|ひといき} (breather), ひと{休|やす}み (short rest)
-
-**がる Verbs & Physical Actions** (~8 words):
-- Emotional expression: {欲|ほ}しがる (want), {怖|こわ}がる (fear), {恥|は}ずかしがる (be shy), {寂|さび}しがる (feel lonely)
-- Spatial verbs: {狭|せば}まる (narrow), {狭|せば}める (contract)
-
-**Miscellaneous** (~7 words):
-- {打|う}ち{合|あ}わせ (meeting), {調理|ちょうり} (cooking), {具|ぐ} (ingredients), レシピ (recipe), ハード (hardware)
-- {山脈|さんみゃく} (mountain range), {落第|らくだい} (failing grade)
-- {散策|さんさく} (stroll), {行楽|こうらく} (outing), {整頓|せいとん} (tidying), {消毒|しょうどく} (disinfection), {除菌|じょきん} (sanitizing)
-
-Notable features:
-- Strong coverage of compound verb patterns (~使う, ~見る, ~思う)
-- Comprehensive 手 compound vocabulary for everyday expressions
-- Personality and emotional vocabulary for describing people
-- Practical commerce and pricing vocabulary
-- Color/position intensifiers with 真っ～ pattern
-- Balance of native Japanese and loanwords
-
-Candidate count: 567 → 667
 
 ---
 
