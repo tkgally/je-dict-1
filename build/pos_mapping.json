@@ -1,0 +1,736 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Part of Speech Mapping",
+  "description": "Maps legacy part_of_speech strings to canonical metadata.tags.pos arrays with optional transitivity extraction",
+  "version": "1.0.0",
+  "mappings": {
+    "noun": {
+      "pos": ["noun"]
+    },
+    "noun (verbal)": {
+      "pos": ["noun"],
+      "notes": "Verbal noun - can form verb with する"
+    },
+    "noun (four-character idiom)": {
+      "pos": ["noun"],
+      "semantic": ["idiom"]
+    },
+    "noun (proper)": {
+      "pos": ["noun"],
+      "notes": "Proper noun"
+    },
+
+    "noun, suru-verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun / suru-verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun, suru verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun / suru verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun/suru verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun/suru-verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun; suru-verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun; suru verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun, verb (suru)": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun; verb (suru)": {
+      "pos": ["noun", "verb-suru"]
+    },
+    "noun, する-verb": {
+      "pos": ["noun", "verb-suru"]
+    },
+
+    "noun, na-adjective": {
+      "pos": ["noun", "adjective-na"]
+    },
+    "noun / na-adjective": {
+      "pos": ["noun", "adjective-na"]
+    },
+    "noun; na-adjective": {
+      "pos": ["noun", "adjective-na"]
+    },
+    "noun/na-adjective": {
+      "pos": ["noun", "adjective-na"]
+    },
+    "na-adjective, noun": {
+      "pos": ["adjective-na", "noun"]
+    },
+    "na-adjective / noun": {
+      "pos": ["adjective-na", "noun"]
+    },
+    "na-adjective; noun": {
+      "pos": ["adjective-na", "noun"]
+    },
+    "na-adjective/noun": {
+      "pos": ["adjective-na", "noun"]
+    },
+    "adjective (na-adjective), noun": {
+      "pos": ["adjective-na", "noun"]
+    },
+    "な-adjective, noun": {
+      "pos": ["adjective-na", "noun"]
+    },
+
+    "noun, no-adjective": {
+      "pos": ["noun", "adjective-no"]
+    },
+    "noun / no-adjective": {
+      "pos": ["noun", "adjective-no"]
+    },
+    "noun/no-adjective": {
+      "pos": ["noun", "adjective-no"]
+    },
+    "noun, の-adjective": {
+      "pos": ["noun", "adjective-no"]
+    },
+
+    "noun, adverb": {
+      "pos": ["noun", "adverb"]
+    },
+    "noun / adverb": {
+      "pos": ["noun", "adverb"]
+    },
+    "noun; adverb": {
+      "pos": ["noun", "adverb"]
+    },
+    "noun/adverb": {
+      "pos": ["noun", "adverb"]
+    },
+    "noun, adverbial noun": {
+      "pos": ["noun", "adverb"]
+    },
+
+    "noun, suffix": {
+      "pos": ["noun", "suffix"]
+    },
+    "noun / suffix": {
+      "pos": ["noun", "suffix"]
+    },
+    "noun; suffix": {
+      "pos": ["noun", "suffix"]
+    },
+
+    "noun, prefix": {
+      "pos": ["noun", "prefix"]
+    },
+    "noun / noun-prefix": {
+      "pos": ["noun", "prefix"]
+    },
+
+    "noun, counter": {
+      "pos": ["noun", "counter"]
+    },
+    "noun / counter": {
+      "pos": ["noun", "counter"]
+    },
+    "noun; counter": {
+      "pos": ["noun", "counter"]
+    },
+
+    "noun, expression": {
+      "pos": ["noun", "expression"]
+    },
+    "noun / expression": {
+      "pos": ["noun", "expression"]
+    },
+
+    "noun, interjection": {
+      "pos": ["noun", "interjection"]
+    },
+    "noun; interjection": {
+      "pos": ["noun", "interjection"]
+    },
+
+    "noun; particle": {
+      "pos": ["noun", "particle"]
+    },
+    "particle, noun": {
+      "pos": ["particle", "noun"]
+    },
+
+    "noun / pronoun": {
+      "pos": ["noun", "pronoun"]
+    },
+    "noun/conjunction": {
+      "pos": ["noun", "conjunction"]
+    },
+
+    "noun, suru-verb, no-adjective": {
+      "pos": ["noun", "verb-suru", "adjective-no"]
+    },
+    "noun, no-adjective, suru verb": {
+      "pos": ["noun", "adjective-no", "verb-suru"]
+    },
+
+    "noun, suru-verb, na-adjective": {
+      "pos": ["noun", "verb-suru", "adjective-na"]
+    },
+    "noun, suru verb, na-adjective": {
+      "pos": ["noun", "verb-suru", "adjective-na"]
+    },
+    "noun / na-adjective / suru-verb": {
+      "pos": ["noun", "adjective-na", "verb-suru"]
+    },
+    "noun / suru-verb / na-adjective": {
+      "pos": ["noun", "verb-suru", "adjective-na"]
+    },
+    "noun/na-adjective/suru verb": {
+      "pos": ["noun", "adjective-na", "verb-suru"]
+    },
+
+    "noun, na-adjective, suru verb": {
+      "pos": ["noun", "adjective-na", "verb-suru"]
+    },
+    "noun, na-adjective, suru-verb": {
+      "pos": ["noun", "adjective-na", "verb-suru"]
+    },
+
+    "noun, na-adjective, no-adjective": {
+      "pos": ["noun", "adjective-na", "adjective-no"]
+    },
+    "noun, na-adjective, adverb": {
+      "pos": ["noun", "adjective-na", "adverb"]
+    },
+
+    "noun, na-adjective, four-character idiom": {
+      "pos": ["noun", "adjective-na"],
+      "semantic": ["idiom"]
+    },
+    "noun, four-character idiom": {
+      "pos": ["noun"],
+      "semantic": ["idiom"]
+    },
+    "four-character idiom": {
+      "pos": ["expression"],
+      "semantic": ["idiom"]
+    },
+
+    "noun, suru-verb, interjection": {
+      "pos": ["noun", "verb-suru", "interjection"]
+    },
+
+    "noun, adverb, suru verb": {
+      "pos": ["noun", "adverb", "verb-suru"]
+    },
+    "noun, adverb, na-adjective": {
+      "pos": ["noun", "adverb", "adjective-na"]
+    },
+
+    "noun / adverb / na-adjective": {
+      "pos": ["noun", "adverb", "adjective-na"]
+    },
+    "noun / prefix / na-adjective": {
+      "pos": ["noun", "prefix", "adjective-na"]
+    },
+    "noun / na-adjective / prefix": {
+      "pos": ["noun", "adjective-na", "prefix"]
+    },
+
+    "verb (godan)": {
+      "pos": ["verb-godan"]
+    },
+    "godan verb": {
+      "pos": ["verb-godan"]
+    },
+    "verb-godan": {
+      "pos": ["verb-godan"]
+    },
+    "verb (godan, transitive)": {
+      "pos": ["verb-godan"],
+      "transitivity": "transitive"
+    },
+    "verb (godan, intransitive)": {
+      "pos": ["verb-godan"],
+      "transitivity": "intransitive"
+    },
+    "godan verb, transitive": {
+      "pos": ["verb-godan"],
+      "transitivity": "transitive"
+    },
+    "godan verb, intransitive": {
+      "pos": ["verb-godan"],
+      "transitivity": "intransitive"
+    },
+    "verb (godan, intransitive/transitive)": {
+      "pos": ["verb-godan"],
+      "transitivity": "both"
+    },
+    "verb (godan, transitive/intransitive)": {
+      "pos": ["verb-godan"],
+      "transitivity": "both"
+    },
+    "godan verb, intransitive/transitive": {
+      "pos": ["verb-godan"],
+      "transitivity": "both"
+    },
+    "godan verb (keigo)": {
+      "pos": ["verb-godan"],
+      "politeness": "honorific"
+    },
+
+    "verb (godan う)": {
+      "pos": ["verb-godan"],
+      "verb_class": "godan-u"
+    },
+    "verb (godan く)": {
+      "pos": ["verb-godan"],
+      "verb_class": "godan-ku"
+    },
+    "verb (godan す)": {
+      "pos": ["verb-godan"],
+      "verb_class": "godan-su"
+    },
+    "verb (godan む)": {
+      "pos": ["verb-godan"],
+      "verb_class": "godan-mu"
+    },
+    "verb (godan る)": {
+      "pos": ["verb-godan"],
+      "verb_class": "godan-ru"
+    },
+
+    "verb (ichidan)": {
+      "pos": ["verb-ichidan"]
+    },
+    "ichidan verb": {
+      "pos": ["verb-ichidan"]
+    },
+    "verb (ichidan, transitive)": {
+      "pos": ["verb-ichidan"],
+      "transitivity": "transitive"
+    },
+    "verb (ichidan, intransitive)": {
+      "pos": ["verb-ichidan"],
+      "transitivity": "intransitive"
+    },
+    "ichidan verb, transitive": {
+      "pos": ["verb-ichidan"],
+      "transitivity": "transitive"
+    },
+    "ichidan verb, intransitive": {
+      "pos": ["verb-ichidan"],
+      "transitivity": "intransitive"
+    },
+    "ichidan verb, transitive/intransitive": {
+      "pos": ["verb-ichidan"],
+      "transitivity": "both"
+    },
+    "verb (ichidan, irregular)": {
+      "pos": ["verb-ichidan"],
+      "notes": "Irregular ichidan conjugation"
+    },
+
+    "verb (suru)": {
+      "pos": ["verb-suru"]
+    },
+    "suru verb": {
+      "pos": ["verb-suru"]
+    },
+    "suru-verb": {
+      "pos": ["verb-suru"]
+    },
+    "verb (suru verb)": {
+      "pos": ["verb-suru"]
+    },
+    "verb (する)": {
+      "pos": ["verb-suru"]
+    },
+    "suru-verb (intransitive)": {
+      "pos": ["verb-suru"],
+      "transitivity": "intransitive"
+    },
+    "suru verb, intransitive": {
+      "pos": ["verb-suru"],
+      "transitivity": "intransitive"
+    },
+    "suru verb (humble)": {
+      "pos": ["verb-suru"],
+      "politeness": "humble"
+    },
+
+    "verb (irregular)": {
+      "pos": ["verb-irregular"]
+    },
+    "verb": {
+      "pos": ["verb-godan"],
+      "notes": "Unspecified verb type - assume godan"
+    },
+
+    "i-adjective": {
+      "pos": ["adjective-i"]
+    },
+    "adjective (i-adjective)": {
+      "pos": ["adjective-i"]
+    },
+    "i-adjective, expression": {
+      "pos": ["adjective-i", "expression"]
+    },
+
+    "na-adjective": {
+      "pos": ["adjective-na"]
+    },
+    "adjective (na-adjective)": {
+      "pos": ["adjective-na"]
+    },
+    "な-adjective": {
+      "pos": ["adjective-na"]
+    },
+
+    "na-adjective, adverb": {
+      "pos": ["adjective-na", "adverb"]
+    },
+    "na-adjective / adverb": {
+      "pos": ["adjective-na", "adverb"]
+    },
+    "na-adjective, adverb, noun": {
+      "pos": ["adjective-na", "adverb", "noun"]
+    },
+    "na-adjective, noun, adverb": {
+      "pos": ["adjective-na", "noun", "adverb"]
+    },
+
+    "na-adjective, noun, expression": {
+      "pos": ["adjective-na", "noun", "expression"]
+    },
+    "na-adjective, noun (four-character idiom)": {
+      "pos": ["adjective-na", "noun"],
+      "semantic": ["idiom"]
+    },
+    "na-adjective, noun, suru-verb": {
+      "pos": ["adjective-na", "noun", "verb-suru"]
+    },
+    "na-adjective, noun, suru verb": {
+      "pos": ["adjective-na", "noun", "verb-suru"]
+    },
+
+    "adjective": {
+      "pos": ["adjective-i"],
+      "notes": "Unspecified adjective type - assume i-adjective"
+    },
+    "adjectival noun": {
+      "pos": ["adjective-na"]
+    },
+
+    "pre-noun adjectival": {
+      "pos": ["pre-noun-adjectival"]
+    },
+    "pre-noun adjective": {
+      "pos": ["pre-noun-adjectival"]
+    },
+    "no-adjective": {
+      "pos": ["adjective-no"]
+    },
+    "pre-noun adjectival, interjection": {
+      "pos": ["pre-noun-adjectival", "interjection"]
+    },
+    "pre-noun adjectival / na-adjective": {
+      "pos": ["pre-noun-adjectival", "adjective-na"]
+    },
+
+    "adverb": {
+      "pos": ["adverb"]
+    },
+    "adverb, onomatopoeia": {
+      "pos": ["adverb", "onomatopoeia"]
+    },
+    "adverb, mimetic": {
+      "pos": ["adverb", "onomatopoeia"]
+    },
+    "adverb; noun (onomatopoeia)": {
+      "pos": ["adverb", "noun", "onomatopoeia"]
+    },
+
+    "adverb, na-adjective": {
+      "pos": ["adverb", "adjective-na"]
+    },
+    "adverb / na-adjective": {
+      "pos": ["adverb", "adjective-na"]
+    },
+    "adverb, na-adjective, noun": {
+      "pos": ["adverb", "adjective-na", "noun"]
+    },
+    "adverb / noun / na-adjective": {
+      "pos": ["adverb", "noun", "adjective-na"]
+    },
+    "adverb, na-adjective, onomatopoeia": {
+      "pos": ["adverb", "adjective-na", "onomatopoeia"]
+    },
+    "adverb, na-adjective (の/な)": {
+      "pos": ["adverb", "adjective-na", "adjective-no"]
+    },
+    "adverb, na-adjective (の)": {
+      "pos": ["adverb", "adjective-na", "adjective-no"]
+    },
+    "adverb, na-adjective (taru)": {
+      "pos": ["adverb", "adjective-na", "adjective-taru"]
+    },
+    "adverb, na-adjective, taru-adjective": {
+      "pos": ["adverb", "adjective-na", "adjective-taru"]
+    },
+    "adverb, na-adjective, prefix": {
+      "pos": ["adverb", "adjective-na", "prefix"]
+    },
+
+    "adverb, suru verb": {
+      "pos": ["adverb", "verb-suru"]
+    },
+    "adverb, verb (suru)": {
+      "pos": ["adverb", "verb-suru"]
+    },
+    "adverb, suru-verb": {
+      "pos": ["adverb", "verb-suru"]
+    },
+    "adverb / suru-verb": {
+      "pos": ["adverb", "verb-suru"]
+    },
+    "adverb; suru verb": {
+      "pos": ["adverb", "verb-suru"]
+    },
+    "adverb/suru verb": {
+      "pos": ["adverb", "verb-suru"]
+    },
+    "adverb, onomatopoeia, suru-verb": {
+      "pos": ["adverb", "onomatopoeia", "verb-suru"]
+    },
+
+    "adverb, na-adjective, suru verb": {
+      "pos": ["adverb", "adjective-na", "verb-suru"]
+    },
+    "adverb, na-adjective, verb (suru)": {
+      "pos": ["adverb", "adjective-na", "verb-suru"]
+    },
+    "adverb, verb (suru), na-adjective": {
+      "pos": ["adverb", "verb-suru", "adjective-na"]
+    },
+    "adverb / suru-verb / na-adjective": {
+      "pos": ["adverb", "verb-suru", "adjective-na"]
+    },
+    "adverb / na-adjective / suru-verb": {
+      "pos": ["adverb", "adjective-na", "verb-suru"]
+    },
+
+    "adverb, suru verb, noun": {
+      "pos": ["adverb", "verb-suru", "noun"]
+    },
+    "adverb/suru verb/noun": {
+      "pos": ["adverb", "verb-suru", "noun"]
+    },
+    "adverb, noun, verb (suru)": {
+      "pos": ["adverb", "noun", "verb-suru"]
+    },
+
+    "adverb, noun": {
+      "pos": ["adverb", "noun"]
+    },
+    "adverb / noun": {
+      "pos": ["adverb", "noun"]
+    },
+    "adverb/noun": {
+      "pos": ["adverb", "noun"]
+    },
+    "adverb, noun, no-adjective": {
+      "pos": ["adverb", "noun", "adjective-no"]
+    },
+    "adverb, noun, conjunction": {
+      "pos": ["adverb", "noun", "conjunction"]
+    },
+
+    "adverb, no-adjective": {
+      "pos": ["adverb", "adjective-no"]
+    },
+    "adverb / no-adjective": {
+      "pos": ["adverb", "adjective-no"]
+    },
+    "adverb/no-adjective": {
+      "pos": ["adverb", "adjective-no"]
+    },
+    "adverb, の-adjective": {
+      "pos": ["adverb", "adjective-no"]
+    },
+    "adverb, no-adjective, noun": {
+      "pos": ["adverb", "adjective-no", "noun"]
+    },
+
+    "adverb, taru-adjective": {
+      "pos": ["adverb", "adjective-taru"]
+    },
+    "adverb, taru-adjective, na-adjective": {
+      "pos": ["adverb", "adjective-taru", "adjective-na"]
+    },
+    "adverb, たる-adjective, の-adjective": {
+      "pos": ["adverb", "adjective-taru", "adjective-no"]
+    },
+
+    "adverb, conjunction": {
+      "pos": ["adverb", "conjunction"]
+    },
+    "adverb; conjunction": {
+      "pos": ["adverb", "conjunction"]
+    },
+
+    "adverb, interjection": {
+      "pos": ["adverb", "interjection"]
+    },
+    "adverb / interjection": {
+      "pos": ["adverb", "interjection"]
+    },
+
+    "adverb, expression": {
+      "pos": ["adverb", "expression"]
+    },
+    "adverb / expression": {
+      "pos": ["adverb", "expression"]
+    },
+
+    "adverb, particle": {
+      "pos": ["adverb", "particle"]
+    },
+
+    "adverb, pronoun": {
+      "pos": ["adverb", "pronoun"]
+    },
+    "adverb / pronoun": {
+      "pos": ["adverb", "pronoun"]
+    },
+    "adverb/pronoun": {
+      "pos": ["adverb", "pronoun"]
+    },
+
+    "particle": {
+      "pos": ["particle"]
+    },
+
+    "conjunction": {
+      "pos": ["conjunction"]
+    },
+    "conjunction, particle": {
+      "pos": ["conjunction", "particle"]
+    },
+    "conjunction, interjection": {
+      "pos": ["conjunction", "interjection"]
+    },
+    "conjunction / interjection": {
+      "pos": ["conjunction", "interjection"]
+    },
+    "conjunction, adverb": {
+      "pos": ["conjunction", "adverb"]
+    },
+
+    "interjection": {
+      "pos": ["interjection"]
+    },
+    "interjection/noun": {
+      "pos": ["interjection", "noun"]
+    },
+    "interjection, noun, suru-verb": {
+      "pos": ["interjection", "noun", "verb-suru"]
+    },
+    "interjection, noun, internet slang": {
+      "pos": ["interjection", "noun"],
+      "domain": ["internet"]
+    },
+    "interjection / adverb": {
+      "pos": ["interjection", "adverb"]
+    },
+
+    "pronoun": {
+      "pos": ["pronoun"]
+    },
+    "pronoun, adverb": {
+      "pos": ["pronoun", "adverb"]
+    },
+    "pronoun / adverb": {
+      "pos": ["pronoun", "adverb"]
+    },
+    "pronoun; adverb": {
+      "pos": ["pronoun", "adverb"]
+    },
+    "pronoun, interjection": {
+      "pos": ["pronoun", "interjection"]
+    },
+
+    "counter": {
+      "pos": ["counter"]
+    },
+
+    "prefix": {
+      "pos": ["prefix"]
+    },
+
+    "suffix": {
+      "pos": ["suffix"]
+    },
+    "suffix, counter": {
+      "pos": ["suffix", "counter"]
+    },
+
+    "expression": {
+      "pos": ["expression"]
+    },
+    "expression (proverb)": {
+      "pos": ["expression"],
+      "semantic": ["proverb"]
+    },
+    "expression, proverb": {
+      "pos": ["expression"],
+      "semantic": ["proverb"]
+    },
+    "proverb": {
+      "pos": ["expression"],
+      "semantic": ["proverb"]
+    },
+    "expression, verb phrase": {
+      "pos": ["expression"]
+    },
+    "expression (verb)": {
+      "pos": ["expression"]
+    },
+    "expression (verb て-form + いる)": {
+      "pos": ["expression"]
+    },
+    "expression; verb (godan)": {
+      "pos": ["expression", "verb-godan"]
+    },
+
+    "grammar pattern": {
+      "pos": ["expression"],
+      "notes": "Grammatical pattern or construction"
+    },
+
+    "number": {
+      "pos": ["number"]
+    },
+
+    "auxiliary": {
+      "pos": ["auxiliary"]
+    },
+    "auxiliary verb": {
+      "pos": ["auxiliary"]
+    },
+    "auxiliary verb (ichidan)": {
+      "pos": ["auxiliary"]
+    },
+    "auxiliary adjective": {
+      "pos": ["auxiliary"]
+    },
+
+    "noun; adverb (と); na-adjective": {
+      "pos": ["noun", "adverb", "adjective-na"],
+      "notes": "Adverb formed with と particle"
+    }
+  }
+}
