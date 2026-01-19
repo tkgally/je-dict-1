@@ -45,11 +45,13 @@
 
 ### Vocabulary Tier System
 The dictionary uses a three-tier vocabulary classification system (see vocabulary-tiers skill):
-- **Basic**: 600-800 fundamental words for basic communication
-- **Core**: 1,600-2,000 words for adult-level communication
-- **General**: All other vocabulary useful for learners
+- **Basic**: 795 entries (target: 600-800) - fundamental words for basic communication
+- **Core**: 1,998 entries (target: 1,600-2,000) - words for adult-level communication
+- **General**: 4,566+ entries (no limit) - all other vocabulary useful for learners
 
-Tier realignment completed 2026-01-19: All entries now have tier assignments that meet target ranges. The basic and core tiers are curated to ensure semantic group integrity (no splitting groups across tiers).
+**Tier realignment completed 2026-01-19.** All entries have tier assignments meeting target ranges. The basic and core tiers are curated to ensure semantic group integrity.
+
+**Policy for new entries:** All new entries must be assigned to the **general** tier. The basic and core tiers are considered stable and should not be modified unless explicitly requested.
 
 ### Entry Breakdown by Type
 | Type | Count | Notes |

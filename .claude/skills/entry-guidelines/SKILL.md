@@ -166,7 +166,7 @@ Every entry must include:
 - `definitions`: Array with sense_number, gloss, explanation
 - `examples`: 2-3 minimum, with id, Japanese, English, sense_numbers, and optional notes
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
-- `metadata`: Including vocabulary_tier (basic/core/general, or null for new entries pending tier assignment), created, modified timestamps
+- `metadata`: Including vocabulary_tier (**always "general" for new entries**), created, modified timestamps
 
 ## Reading Format (CRITICAL)
 
@@ -277,6 +277,26 @@ Run `python3 build/validate.py` to check for:
 - Suspiciously round timestamps (exactly `:00:00` seconds, likely not from the script)
 
 Note: The validator allows a 24-hour grace period for timestamps to accommodate CI/CD clock drift.
+
+## Vocabulary Tier Policy
+
+**All new entries must be assigned to the "general" tier.**
+
+As of January 2026, the vocabulary tier realignment is complete:
+- **Basic tier** (795 entries): Fixed - contains foundational vocabulary
+- **Core tier** (1,998 entries): Fixed - contains essential adult communication vocabulary
+- **General tier** (4,566+ entries): All other vocabulary, including all new entries
+
+**Do NOT assign new entries to basic or core tiers** unless explicitly instructed by the user. The basic and core tiers have been curated to meet specific word count targets and maintain semantic group integrity.
+
+In `metadata.vocabulary_tier`, always use `"general"`:
+```json
+"metadata": {
+  "vocabulary_tier": "general",
+  "created": "...",
+  "modified": "..."
+}
+```
 
 ## Quality Checklist
 
