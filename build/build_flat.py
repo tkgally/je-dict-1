@@ -737,6 +737,14 @@ def generate_tag_search_section() -> str:
 
         <!-- Filter Mode Panel -->
         <div id="filter-panel" class="tag-filter-panel">
+            <div class="filter-actions">
+                <button type="button" id="apply-filters" class="primary">Apply Filters</button>
+                <button type="button" id="clear-filters">Clear All</button>
+                <label style="display: inline-flex; align-items: center; gap: 0.25rem;">
+                    <input type="checkbox" id="filter-and-mode"> AND mode (require all)
+                </label>
+            </div>
+
             <div class="filter-group">
                 <h3>Vocabulary Tier <span class="count" id="tier-count"></span></h3>
                 <div class="filter-options" id="tier-filters">
@@ -885,14 +893,6 @@ def generate_tag_search_section() -> str:
                     <label><input type="checkbox" name="domain" value="colloquial"> colloquial</label>
                     <label><input type="checkbox" name="domain" value="internet"> internet</label>
                 </div>
-            </div>
-
-            <div class="filter-actions">
-                <button type="button" id="apply-filters" class="primary">Apply Filters</button>
-                <button type="button" id="clear-filters">Clear All</button>
-                <label style="display: inline-flex; align-items: center; gap: 0.25rem;">
-                    <input type="checkbox" id="filter-and-mode"> AND mode (require all)
-                </label>
             </div>
         </div>
 
