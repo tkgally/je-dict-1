@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 7,269
 - **Vocabulary tier assignment**: Basic: 1,118 | Core: 5,061 | General: 571 | Unassigned: 489
-- **Candidate words**: ~547 words tracked in `candidate_words.json`
+- **Candidate words**: ~651 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,47 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (New Candidates - 104 Words Added, Session 129)
+Added 104 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Expressions & Adverbs** (~10 words):
+- しかたがない/しょうがない (it can't be helped), 案の定 (as expected), ぞんざい (careless/rude), おもむろに (slowly), たちまち (instantly)
+
+**Adjectives - Personality & Emotions** (~25 words):
+- Negative traits: ぎこちない (awkward), ややこしい (complicated), こすい (cunning), せこい (stingy), けばい (gaudy)
+- Emotional states: いたましい (pitiful), けだるい (languid), ものがなしい (melancholy), いまいましい (annoying), おぞましい (loathsome)
+- Character descriptions: さりげない (casual), よそよそしい (distant), あっけない (anticlimactic), そっけない (curt), たどたどしい (faltering)
+- Intensity: すさまじい (tremendous), おびただしい (numerous), ものものしい (imposing), なまめかしい (alluring)
+
+**Verbs - Expressive & Onomatopoeic** (~30 words):
+- Speech/communication: ぼやく (complain), からかう (tease), ねだる (beg), ほざく (babble), あざける (mock), おだてる (flatter), あおる (provoke)
+- Physical states: むくむ (swell), うずく (ache), ぼける (become senile), ふやける (become soggy)
+- Body language: うなだれる (hang head), はにかむ (be shy), たじろぐ (flinch), ひるむ (cower), よどむ (stagnate)
+- Movement/sound: なびく (sway), とどろく (roar), かすれる (become hoarse), どよめく (stir), きらめく (glitter), ひらめく (flash), ときめく (flutter), ざわめく (rustle), さえずる (chirp)
+- Relationships: つるむ (hang out), いたわる (care for), おとずれる (visit), おののく (tremble)
+
+**Nouns - Places & Facilities** (~15 words):
+- Buildings: 物置 (storage shed), 土間 (dirt floor), 軒下 (under eaves), 表口 (front entrance), 待合室 (waiting room), 作業場 (workshop), 集会所 (meeting hall)
+- Infrastructure: 配線 (wiring), 避難所 (evacuation shelter)
+
+**Nouns - Weather & Nature** (~10 words):
+- 寒暖差 (temperature difference), 紫外線 (UV rays), 日射 (solar radiation), 濃霧 (dense fog), 朝靄 (morning mist), 氷点下 (below freezing), 暴風雨 (storm), 落雷 (lightning strike)
+
+**Nouns - Abstract & Business** (~10 words):
+- 添付 (attachment), 進捗 (progress), 黒酢 (black vinegar), 物資 (supplies), 備蓄 (stockpile), 配給 (distribution), 救援 (relief), 復興 (reconstruction)
+
+**Other vocabulary** (~5 words):
+- ものぐさ (lazy), かわいげ (lovability), うとい (unfamiliar), あさましい (despicable), ちっぽけ (tiny)
+
+Notable features:
+- Strong coverage of expressive verbs describing emotions, body language, and sounds
+- Comprehensive adjective vocabulary for describing personalities and situations
+- Weather and natural phenomenon vocabulary
+- Practical facility and infrastructure terms
+- Emergency/disaster-related vocabulary: 避難所, 物資, 備蓄, 救援, 復興
+
+Candidate count: 547 → 651
 
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 128)
 Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, cultural/hobby terms, transportation, and business expressions:
@@ -348,27 +389,6 @@ Notable entry features:
 
 Total entries: 7,029 → 7,059
 Remaining candidates: ~687 → ~657
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 119)
-Added 30 new dictionary entries from candidate_words.json, covering compound verbs, household items, taste vocabulary, medical terms, and social expressions:
-
-- **Compound verbs** (10): {突|つ}っ{込|こ}む (to thrust/retort), {引|ひ}っ{掻|か}く (to scratch), {言|い}い{渡|わた}す (to hand down), {行|い}き{渡|わた}る (to spread throughout), {呼|よ}び{戻|もど}す (to call back), {巻|ま}き{起|お}こる (to arise), {巻|ま}き{返|かえ}す (to make a comeback), {繰|く}り{上|あ}げる (to move up schedule), {折|お}り{曲|ま}げる (to fold), {跳|は}ね{返|かえ}る (to bounce back)
-- **Household items** (6): {栓|せん}{抜|ぬ}き (bottle opener), {缶切|かんき}り (can opener), {電源|でんげん}タップ (power strip), {傘立|かさた}て (umbrella stand), {掛|か}け{布団|ぶとん} (comforter), {敷|し}き{布団|ぶとん} (mattress futon)
-- **Taste vocabulary** (3): {酸味|さんみ} (sourness), {甘味|あまみ} (sweetness), {塩気|しおけ} (saltiness)
-- **Medical terms** (2): {貧血|ひんけつ} (anemia), {食中毒|しょくちゅうどく} (food poisoning)
-- **Social/communication** (5): {世間話|せけんばなし} (small talk), {独|ひと}り{言|ごと} (talking to oneself), お{世辞|せじ} (flattery), {嫌味|いやみ} (sarcasm), {負|ま}けず{嫌|ぎら}い (competitive)
-- **Abstract concepts** (2): {心構|こころがま}え (mental preparedness), {不可欠|ふかけつ} (indispensable)
-- **Adverbs** (2): {次々|つぎつぎ}と (one after another), {仮|かり}に (supposing)
-
-Notable entry features:
-- Strong compound verb coverage: ～{込|こ}む (into), ～{渡|わた}す (convey), ～{渡|わた}る (spread), ～{戻|もど}す (return), ～{起|お}こる (arise), ～{返|かえ}す (reverse), ～{上|あ}げる (advance), ～{返|かえ}る (rebound)
-- Practical household vocabulary: kitchen tools, bedding, and home items
-- Five basic taste words group: {酸味|さんみ}, {甘味|あまみ}, {塩気|しおけ} linked with cross-references
-- Social communication: small talk, flattery, sarcasm with nuance explanations
-- Comedy culture: {突|つ}っ{込|こ}む with manzai (tsukkomi/boke) context
-
-Total entries: 6,999 → 7,029
-Remaining candidates: ~716 → ~687
 
 ---
 
