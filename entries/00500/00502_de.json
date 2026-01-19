@@ -1,0 +1,281 @@
+{
+  "id": "00502_de",
+  "headword": "で",
+  "reading": "で",
+  "part_of_speech": "particle",
+  "gloss": "at, by, with (location/means)",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "at, in (location of action)",
+      "explanation": "Marks the location where an action takes place. {学校|がっこう}で{勉強|べんきょう}する (study at school). Compare with に, which marks location of existence."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "by, with (means/method)",
+      "explanation": "Indicates the means, tool, or method used to do something. バスで{行|い}く (go by bus), {日本語|にほんご}で{話|はな}す (speak in Japanese)."
+    },
+    {
+      "sense_number": 3,
+      "gloss": "made of (material)",
+      "explanation": "Indicates what something is made from. {木|き}で{作|つく}る (make from wood)."
+    },
+    {
+      "sense_number": 4,
+      "gloss": "due to, because of (cause)",
+      "explanation": "Indicates the cause or reason. {病気|びょうき}で{休|やす}む (absent due to illness)."
+    },
+    {
+      "sense_number": 5,
+      "gloss": "in, within (scope/limit)",
+      "explanation": "Sets a boundary or scope. {三人|さんにん}で (among three people), {一時間|いちじかん}で (within an hour)."
+    },
+    {
+      "sense_number": 6,
+      "gloss": "at (age/situation)",
+      "explanation": "Marks the age or circumstance at which something happens. {二十歳|はたち}で{大学|だいがく}を{卒業|そつぎょう}した (graduated from university at 20)."
+    }
+  ],
+  "predicates_requiring": {
+    "description": "Action verbs take で for location (unlike existence verbs which take に)",
+    "common_actions": [
+      {
+        "word": "{勉強|べんきょう}する",
+        "example": "{図書館|としょかん}で{勉強|べんきょう}する",
+        "meaning": "study at the library"
+      },
+      {
+        "word": "{働|はたら}く",
+        "example": "{会社|かいしゃ}で{働|はたら}く",
+        "meaning": "work at a company"
+      },
+      {
+        "word": "{食|た}べる",
+        "example": "レストランで{食|た}べる",
+        "meaning": "eat at a restaurant"
+      },
+      {
+        "word": "{遊|あそ}ぶ",
+        "example": "{公園|こうえん}で{遊|あそ}ぶ",
+        "meaning": "play in the park"
+      },
+      {
+        "word": "{泳|およ}ぐ",
+        "example": "プールで{泳|およ}ぐ",
+        "meaning": "swim in the pool"
+      },
+      {
+        "word": "{買|か}う",
+        "example": "デパートで{買|か}う",
+        "meaning": "buy at a department store"
+      },
+      {
+        "word": "{会|あ}う",
+        "example": "{駅|えき}で{会|あ}う",
+        "meaning": "meet at the station"
+      }
+    ],
+    "means_transport": [
+      {
+        "word": "{行|い}く",
+        "example": "{電車|でんしゃ}で{行|い}く",
+        "meaning": "go by train"
+      },
+      {
+        "word": "{来|く}る",
+        "example": "バスで{来|く}る",
+        "meaning": "come by bus"
+      },
+      {
+        "word": "{帰|かえ}る",
+        "example": "タクシーで{帰|かえ}る",
+        "meaning": "return by taxi"
+      }
+    ],
+    "means_tool": [
+      {
+        "word": "{書|か}く",
+        "example": "ペンで{書|か}く",
+        "meaning": "write with a pen"
+      },
+      {
+        "word": "{切|き}る",
+        "example": "ナイフで{切|き}る",
+        "meaning": "cut with a knife"
+      },
+      {
+        "word": "{食|た}べる",
+        "example": "{箸|はし}で{食|た}べる",
+        "meaning": "eat with chopsticks"
+      }
+    ]
+  },
+  "particle_contrasts": [
+    {
+      "particle": "に",
+      "explanation": "で marks location of ACTION; に marks location of EXISTENCE",
+      "examples": [
+        {
+          "de_example": "{図書館|としょかん}で{勉強|べんきょう}する",
+          "de_english": "study at the library",
+          "de_note": "で with action ({勉強|べんきょう}する)"
+        },
+        {
+          "ni_example": "{図書館|としょかん}に{本|ほん}がある",
+          "ni_english": "there are books in the library",
+          "ni_note": "に with existence (ある)"
+        }
+      ],
+      "key_points": [
+        "で = where an ACTION takes place ({食|た}べる/{働|はたら}く/{勉強|べんきょう}する)",
+        "に = where something EXISTS (いる/ある/{住|す}む)",
+        "This is one of the most common particle confusions for learners"
+      ]
+    },
+    {
+      "particle": "を",
+      "explanation": "で can mark location while を marks the object",
+      "examples": [
+        {
+          "combined": "レストランで{寿司|すし}を{食|た}べる",
+          "english": "eat sushi at a restaurant",
+          "note": "で for location, を for object"
+        }
+      ],
+      "key_points": [
+        "Both can appear in the same sentence",
+        "で marks where; を marks what"
+      ]
+    }
+  ],
+  "fixed_patterns": [
+    {
+      "pattern": "〜でいい",
+      "meaning": "... is fine/okay",
+      "example": "これでいいですか",
+      "example_english": "Is this okay?"
+    },
+    {
+      "pattern": "〜で{有名|ゆうめい}",
+      "meaning": "famous for...",
+      "example": "{京都|きょうと}は{お寺|おてら}で{有名|ゆうめい}です",
+      "example_english": "Kyoto is famous for temples"
+    },
+    {
+      "pattern": "〜でも",
+      "meaning": "even with/at; something like",
+      "example": "コーヒーでも{飲|の}みませんか",
+      "example_english": "Would you like to have some coffee or something?"
+    },
+    {
+      "pattern": "{全部|ぜんぶ}で",
+      "meaning": "in total",
+      "example": "{全部|ぜんぶ}で{三千円|さんぜんえん}です",
+      "example_english": "It's 3000 yen in total"
+    },
+    {
+      "pattern": "〜で〜を{作|つく}る",
+      "meaning": "make... from/with...",
+      "example": "{木|き}で{机|つくえ}を{作|つく}る",
+      "example_english": "make a desk from wood"
+    }
+  ],
+  "examples": [
+    {
+      "id": "00502_de_ex1",
+      "japanese": "{図書館|としょかん}で{勉強|べんきょう}します。",
+      "english": "I study at the library.",
+      "notes": "Location of action",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00502_de_ex2",
+      "japanese": "{電車|でんしゃ}で{行|い}きましょう。",
+      "english": "Let's go by train.",
+      "notes": "Means of transportation",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00502_de_ex3",
+      "japanese": "{英語|えいご}で{書|か}いてください。",
+      "english": "Please write in English.",
+      "notes": "Language as a means",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00502_de_ex4",
+      "japanese": "{風邪|かぜ}で{学校|がっこう}を{休|やす}みました。",
+      "english": "I was absent from school due to a cold.",
+      "notes": "Cause/reason",
+      "has_audio": false,
+      "sense_numbers": [
+        4
+      ]
+    },
+    {
+      "id": "00502_de_ex5",
+      "japanese": "{三人|さんにん}でこの{仕事|しごと}をしました。",
+      "english": "Three of us did this work.",
+      "notes": "Scope/limit (number of people)",
+      "has_audio": false,
+      "sense_numbers": [
+        5
+      ]
+    },
+    {
+      "id": "00502_de_ex6",
+      "japanese": "{箸|はし}で{食|た}べます。",
+      "english": "I eat with chopsticks.",
+      "notes": "Tool/instrument",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Using に instead of で for action location",
+      "incorrect": "{図書館|としょかん}に{勉強|べんきょう}する",
+      "correct": "{図書館|としょかん}で{勉強|べんきょう}する",
+      "explanation": "Use で (not に) for where actions take place"
+    },
+    {
+      "mistake": "Using で instead of に for existence",
+      "incorrect": "{猫|ねこ}が{部屋|へや}でいる",
+      "correct": "{猫|ねこ}が{部屋|へや}にいる",
+      "explanation": "Use に (not で) for location with いる/ある"
+    },
+    {
+      "mistake": "Using で instead of に for destination",
+      "incorrect": "{学校|がっこう}で{行|い}く",
+      "correct": "{学校|がっこう}に{行|い}く",
+      "explanation": "Use に for destination; で can mark means ({電車|でんしゃ}で{行|い}く)"
+    }
+  ],
+  "notes": "で vs に is crucial: で marks where actions happen ({図書館|としょかん}で{勉強|べんきょう}する), while に marks where things exist ({図書館|としょかん}に{本|ほん}がある) or destinations ({図書館|としょかん}に{行|い}く). で is one of the most versatile particles, covering location, means, material, cause, and scope.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "に",
+      "headword": "に",
+      "label": "location of existence",
+      "target_id": "00314_ni"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-05T12:39:47Z",
+    "modified": "2026-01-18T09:21:25Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "basic"
+  }
+}

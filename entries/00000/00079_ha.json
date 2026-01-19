@@ -1,0 +1,178 @@
+{
+  "id": "00079_ha",
+  "headword": "は",
+  "reading": "は",
+  "part_of_speech": "particle",
+  "gloss": "topic marker",
+  "pronunciation_note": "Pronounced 'wa' when used as a particle, not 'ha'",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "topic marker",
+      "explanation": "Marks the topic of a sentence—what the sentence is about. The topic is often (but not always) the grammatical subject. は sets up what the speaker wants to comment on, and the rest of the sentence provides information about that topic."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "contrast marker",
+      "explanation": "Indicates contrast with something else, either stated or implied. When は is used on an element that would normally take a different particle (like を or に), it often adds a contrastive nuance: 'as for X (as opposed to something else)...'"
+    }
+  ],
+  "particle_contrasts": [
+    {
+      "particle": "が",
+      "explanation": "は marks the TOPIC (known information); が marks NEW information or identifies the subject",
+      "examples": [
+        {
+          "ha_example": "{田中|たなか}さんは{来|き}ましたか。→ はい、{来|き}ました。",
+          "ha_english": "Did Tanaka come? → Yes, [he] came.",
+          "ha_note": "は marks known topic—we're asking about Tanaka specifically"
+        },
+        {
+          "ga_example": "{誰|だれ}が{来|き}ましたか。→ {田中|たなか}さんが{来|き}ました。",
+          "ga_english": "Who came? → Tanaka came.",
+          "ga_note": "が marks new information in the answer"
+        }
+      ],
+      "key_points": [
+        "は marks OLD/KNOWN information (topic); が marks NEW information",
+        "In 'who/what' questions, the answer uses が (new info)",
+        "In yes/no questions about someone, use は (known topic)",
+        "が is used in subordinate clauses, not は"
+      ]
+    }
+  ],
+  "information_structure": {
+    "description": "Understanding new vs. old information is key to は/が",
+    "principles": [
+      {
+        "point": "は marks what is already known or established in context",
+        "example": "{私|わたし}は{学生|がくせい}です",
+        "explanation": "The speaker is known; we're providing new info about them"
+      },
+      {
+        "point": "が introduces new information or identifies",
+        "example": "あ、{雨|あめ}が{降|ふ}っている",
+        "explanation": "Noticing something new—the rain"
+      },
+      {
+        "point": "Contrastive は implies 'but others...'",
+        "example": "{肉|にく}は{食|た}べます（が、{魚|さかな}は{食|た}べません）",
+        "explanation": "As for meat, I eat [it] (but as for fish, I don't)"
+      }
+    ]
+  },
+  "fixed_patterns": [
+    {
+      "pattern": "〜は〜が",
+      "meaning": "double-subject construction (topic + specific attribute)",
+      "example": "{象|ぞう}は{鼻|はな}が{長|なが}い",
+      "example_english": "As for elephants, their noses are long"
+    },
+    {
+      "pattern": "〜ではない / 〜じゃない",
+      "meaning": "is not (copula negative)",
+      "example": "{学生|がくせい}ではありません",
+      "example_english": "[I] am not a student"
+    },
+    {
+      "pattern": "〜はずがない",
+      "meaning": "there's no way that...",
+      "example": "そんなはずがない",
+      "example_english": "That can't be right"
+    },
+    {
+      "pattern": "〜は〜ほど〜ない",
+      "meaning": "not as... as...",
+      "example": "{今日|きょう}は{昨日|きのう}ほど{暑|あつ}くない",
+      "example_english": "Today is not as hot as yesterday"
+    }
+  ],
+  "examples": [
+    {
+      "id": "00079_ha_ex1",
+      "japanese": "{私|わたし}は{学生|がくせい}です。",
+      "english": "I am a student.",
+      "notes": "{私|わたし} is the topic; the sentence tells us something about {私|わたし}",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00079_ha_ex2",
+      "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
+      "english": "This book is interesting.",
+      "notes": "この{本|ほん} is the topic being described",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00079_ha_ex3",
+      "japanese": "{魚|さかな}は{食|た}べますが、{肉|にく}は{食|た}べません。",
+      "english": "I eat fish, but I don't eat meat.",
+      "notes": "Contrastive は: comparing fish and meat",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00079_ha_ex4",
+      "japanese": "{東京|とうきょう}には{行|い}きましたが、{大阪|おおさか}には{行|い}きませんでした。",
+      "english": "I went to Tokyo, but I didn't go to Osaka.",
+      "notes": "は replacing に to show contrast between destinations",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00079_ha_ex5",
+      "japanese": "{象|ぞう}は{鼻|はな}が{長|なが}い。",
+      "english": "Elephants have long trunks. (lit: As for elephants, [their] trunks are long.)",
+      "notes": "Double-subject construction: topic は + subject が",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Using は after question words",
+      "incorrect": "{誰|だれ}は{来|き}ましたか",
+      "correct": "{誰|だれ}が{来|き}ましたか",
+      "explanation": "Question words ({誰|だれ}, {何|なに}, どれ) take が, not は"
+    },
+    {
+      "mistake": "Using は in subordinate clauses",
+      "incorrect": "{田中|たなか}さんは{買|か}った{本|ほん}",
+      "correct": "{田中|たなか}さんが{買|か}った{本|ほん}",
+      "explanation": "Use が (not は) for subjects inside relative clauses"
+    },
+    {
+      "mistake": "Overusing は for every subject",
+      "incorrect": "{窓|まど}から{鳥|とり}は{見|み}えます",
+      "correct": "{窓|まど}から{鳥|とり}が{見|み}えます",
+      "explanation": "When describing what you notice/perceive, use が"
+    }
+  ],
+  "notes": "は is pronounced 'wa' when used as a particle, not 'ha'. This is one of the most important particles in Japanese. The difference between は (topic) and が (subject) is one of the most challenging aspects for learners. Generally: は marks old/known information or the topic of discussion; が marks new information or identifies the subject when making a neutral description or answering 'who/what' questions.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "が",
+      "headword": "が",
+      "label": "subject marker",
+      "target_id": "00051_ga"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-05T10:02:55Z",
+    "modified": "2026-01-18T09:21:25Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "basic"
+  }
+}
