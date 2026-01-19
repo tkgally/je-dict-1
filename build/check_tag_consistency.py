@@ -33,24 +33,27 @@ ADJECTIVE_POS_TAGS = {
 }
 
 # Keigo-related keywords in notes/definitions
-KEIGO_KEYWORDS = {
-    "honorific": ["honorific", "respectful", "sonkeigo", "尊敬語"],
-    "humble": ["humble", "kenjougo", "謙譲語", "modest"],
-    "polite": ["polite form", "teineigo", "丁寧語"],
+# These indicate the entry IS keigo (in gloss/main definition)
+KEIGO_IS_PATTERNS = {
+    "honorific": ["(honorific)", "honorific form", "respectful form", "尊敬語"],
+    "humble": ["(humble)", "humble form", "謙譲語"],
+    "polite": ["(polite)", "polite form", "丁寧語"],
 }
 
+# These patterns indicate comparison/description, not that the entry IS keigo
+KEIGO_COMPARISON_MARKERS = [
+    "comparison:", "keigo:", "keigo forms:", "polite alternatives:",
+    "related keigo:", "vs.", "contrast:"
+]
+
 # Domain keywords to check against domain tags
+# Only flag when the entry IS domain-specific, not just mentions a domain
 DOMAIN_KEYWORDS = {
-    "business": ["business", "corporate", "commercial", "company"],
-    "academic": ["academic", "scholarly", "research"],
-    "technical": ["technical", "engineering", "scientific"],
-    "legal": ["legal", "law", "judicial", "court"],
-    "medical": ["medical", "medicine", "clinical", "health"],
-    "computing": ["computer", "programming", "software", "digital"],
-    "linguistics": ["grammar", "linguistic", "language"],
-    "sports": ["sport", "athletic", "competition"],
-    "music": ["music", "musical", "instrument"],
-    "cooking": ["cooking", "culinary", "cuisine"],
+    "business": ["business term", "business context", "corporate jargon", "used in business"],
+    "academic": ["academic term", "scholarly usage", "academic context"],
+    "technical": ["technical term", "engineering term", "scientific term"],
+    "legal": ["legal term", "law term", "judicial term", "used in legal"],
+    "medical": ["medical term", "clinical term", "anatomy", "used in medical"],
 }
 
 
@@ -117,42 +120,48 @@ def check_entry_consistency(entry: dict, file_path: Path) -> list[dict]:
         pass  # We don't flag missing transitivity as an issue
 
     # Check 3: Keigo entries should have appropriate politeness tags
-    for keigo_type, keywords in KEIGO_KEYWORDS.items():
-        if any(kw in all_text for kw in keywords):
+    # Only check the PRIMARY gloss (not individual sense definitions which may have
+    # alternative keigo uses for multi-sense words like 拝む, こちら, 邪魔する)
+    primary_gloss = gloss.lower()
+
+    for keigo_type, patterns in KEIGO_IS_PATTERNS.items():
+        if any(pat in primary_gloss for pat in patterns):
             if keigo_type == "honorific" and politeness != "honorific":
                 issues.append({
                     "type": "keigo_politeness_mismatch",
-                    "severity": "info",
-                    "message": f"Entry mentions honorific but politeness is '{politeness}'",
+                    "severity": "warning",
+                    "message": f"Entry appears to be honorific but politeness is '{politeness}'",
                     "file": str(file_path),
                     "headword": headword,
                 })
             elif keigo_type == "humble" and politeness != "humble":
                 issues.append({
                     "type": "keigo_politeness_mismatch",
-                    "severity": "info",
-                    "message": f"Entry mentions humble but politeness is '{politeness}'",
+                    "severity": "warning",
+                    "message": f"Entry appears to be humble but politeness is '{politeness}'",
                     "file": str(file_path),
                     "headword": headword,
                 })
 
     # Check 4: Domain-specific content should have domain tags
-    for domain_name, keywords in DOMAIN_KEYWORDS.items():
-        if any(kw in all_text for kw in keywords):
+    # Use stricter matching - only flag when explicitly marked as domain-specific
+    for domain_name, patterns in DOMAIN_KEYWORDS.items():
+        if any(pat in all_text for pat in patterns):
             if domain_name not in domain:
-                # Only flag if it seems strongly domain-specific
-                keyword_count = sum(1 for kw in keywords if kw in all_text)
-                if keyword_count >= 2:
-                    issues.append({
-                        "type": "missing_domain_tag",
-                        "severity": "info",
-                        "message": f"Entry mentions {domain_name} concepts but lacks domain tag",
-                        "file": str(file_path),
-                        "headword": headword,
-                    })
+                issues.append({
+                    "type": "missing_domain_tag",
+                    "severity": "info",
+                    "message": f"Entry explicitly mentions {domain_name} usage but lacks domain tag",
+                    "file": str(file_path),
+                    "headword": headword,
+                })
 
-    # Check 5: Semantic tags should exist
-    if not semantic:
+    # Check 5: Semantic tags should exist for content words
+    # Functional words (pronouns, particles, prefixes, suffixes, auxiliaries) may not need semantic tags
+    FUNCTIONAL_POS = {"pronoun", "particle", "prefix", "suffix", "auxiliary", "conjunction", "pre-noun-adjectival"}
+    is_functional = bool(set(pos_tags) & FUNCTIONAL_POS) and not (set(pos_tags) & {"noun", "counter"})
+
+    if not semantic and not is_functional:
         issues.append({
             "type": "missing_semantic_tags",
             "severity": "warning",
