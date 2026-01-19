@@ -235,6 +235,110 @@
           "type": ["string", "null"],
           "enum": ["basic", "core", "general", null],
           "description": "Vocabulary tier: basic (600-800 fundamental words), core (1600-2000 words for adult communication), or general (all other vocabulary)"
+        },
+        "tags": {
+          "type": "object",
+          "description": "Structured tags for search and categorization",
+          "properties": {
+            "pos": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "noun",
+                  "verb-godan",
+                  "verb-ichidan",
+                  "verb-suru",
+                  "verb-kuru",
+                  "verb-irregular",
+                  "adjective-i",
+                  "adjective-na",
+                  "adjective-no",
+                  "adjective-taru",
+                  "adverb",
+                  "particle",
+                  "conjunction",
+                  "interjection",
+                  "pronoun",
+                  "counter",
+                  "prefix",
+                  "suffix",
+                  "expression",
+                  "pre-noun-adjectival",
+                  "number",
+                  "auxiliary",
+                  "onomatopoeia"
+                ]
+              },
+              "description": "Part of speech (canonical forms)"
+            },
+            "transitivity": {
+              "type": ["string", "null"],
+              "enum": ["transitive", "intransitive", "both", null],
+              "description": "Verb transitivity (verbs only)"
+            },
+            "verb_class": {
+              "type": ["string", "null"],
+              "enum": [
+                "godan-u",
+                "godan-ku",
+                "godan-gu",
+                "godan-su",
+                "godan-tsu",
+                "godan-nu",
+                "godan-bu",
+                "godan-mu",
+                "godan-ru",
+                "ichidan",
+                "suru",
+                "kuru",
+                "irregular",
+                null
+              ],
+              "description": "Verb conjugation class (verbs only)"
+            },
+            "formality": {
+              "type": ["string", "null"],
+              "enum": ["formal", "neutral", "informal", "vulgar", null],
+              "description": "Register/formality level"
+            },
+            "politeness": {
+              "type": ["string", "null"],
+              "enum": ["honorific", "humble", "polite", "plain", null],
+              "description": "Keigo classification"
+            },
+            "style": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["written", "spoken", "literary", "archaic", "slang"]
+              },
+              "description": "Style/medium associations"
+            },
+            "domain": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "business",
+                  "academic",
+                  "technical",
+                  "legal",
+                  "medical",
+                  "colloquial",
+                  "internet"
+                ]
+              },
+              "description": "Usage domains"
+            },
+            "semantic": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Semantic categories (e.g., time-day-of-week, animal-mammal, body-part)"
+            }
+          }
         }
       }
     }
