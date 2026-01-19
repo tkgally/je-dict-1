@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,329
-- **Vocabulary tier assignment**: Basic: 1,121 | Core: 5,109 | General: 580 | Unassigned: 489
-- **Candidate words**: ~592 words tracked in `candidate_words.json`
+- **Total entries**: 7,359
+- **Vocabulary tier assignment**: Basic: 1,121 | Core: 5,109 | General: 580 | Unassigned: 519
+- **Candidate words**: ~563 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 132)
+Added 30 new dictionary entries from candidate_words.json, focusing on verbs describing physical/state changes, language/dialect vocabulary, suru-verbs for social dynamics, and idiomatic expressions:
+
+- **Verbs (7)**: {錆|さ}びる (to rust), {軋|きし}む (to creak), {籠|こ}もる (to shut oneself in), {溜|た}め{込|こ}む (to hoard), {染|し}み{付|つ}く (to become ingrained), {引|ひ}っ{込|こ}む (to withdraw), {燻|くすぶ}る (to smolder)
+- **Language/dialect nouns (3)**: {方言|ほうげん} (dialect), {訛|なま}り (accent), {標準語|ひょうじゅんご} (standard language)
+- **Suru-verbs for social dynamics (9)**: {妥協|だきょう} (compromise), {傍観|ぼうかん} (looking on), {介入|かいにゅう} (intervention), {同調|どうちょう} (conformity), {停滞|ていたい} (stagnation), {衰退|すいたい} (decline), {躍進|やくしん} (rapid advance), {逡巡|しゅんじゅん} (hesitation), {迷走|めいそう} (straying)
+- **Other nouns (5)**: {音色|ねいろ} (tone/timbre), {配偶者|はいぐうしゃ} (spouse), {仕入|しい}れ (stocking), {仕上|しあ}がり (finish), {手持|ても}ち (on hand)
+- **Mimetic (1)**: むしゃむしゃ (munching)
+- **Adverbs (2)**: まして (let alone), たいして (not very)
+- **Idiomatic expressions (3)**: {舌|した}を{巻|ま}く (to be amazed), {手|て}を{焼|や}く (to have trouble with), {頭|あたま}を{抱|かか}える (to be at a loss)
+
+Notable entry features:
+- Complete language/dialect vocabulary group with cross-references: {方言|ほうげん}, {訛|なま}り, {標準語|ひょうじゅんご}
+- Social dynamics suru-verbs with antonym pairs: {傍観|ぼうかん} ↔ {介入|かいにゅう}, {停滞|ていたい} ↔ {躍進|やくしん}, {衰退|すいたい} ↔ {繁栄|はんえい}
+- Body-part idioms: {舌|した}を{巻|ま}く, {手|て}を{焼|や}く, {頭|あたま}を{抱|かか}える
+- {同調圧力|どうちょうあつりょく} (peer pressure) cultural note in {同調|どうちょう} entry
+- Verbs describing physical changes: {錆|さ}びる (rusting), {軋|きし}む (creaking), {燻|くすぶ}る (smoldering) with figurative uses
+
+Total entries: 7,329 → 7,359
+Remaining candidates: ~592 → ~563
 
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 131)
 Added 30 new dictionary entries from candidate_words.json, focusing on progress/process verbs, emotional adjectives, speech-related nouns, status expressions, and mimetics:
@@ -357,34 +378,6 @@ Notable entry features:
 
 Total entries: 7,119 → 7,149
 Remaining candidates: ~597 → ~567
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 122)
-Added 30 new dictionary entries from candidate_words.json, covering occupations, household items, medical terms, academic subjects, business vocabulary, and cultural terms:
-
-- **Occupations** (4): {配管工|はいかんこう} (plumber), {電気技師|でんきぎし} (electrician), {彫刻家|ちょうこくか} (sculptor), {映画監督|えいがかんとく} (film director)
-- **Household items** (5): {物干|ものほ}し (drying rack), {洗濯籠|せんたくかご} (laundry basket), {吹|ふ}き{抜|ぬ}け (atrium), {食器棚|しょっきだな} (dish cabinet), マットレス (mattress)
-- **Sewing/Clothing** (3): ファスナー (zipper), {裏地|うらじ} (lining), {縫|ぬ}い{目|め} (seam)
-- **Medical terms** (3): {低血圧|ていけつあつ} (low blood pressure), {不整脈|ふせいみゃく} (arrhythmia), {遠視|えんし} (farsightedness)
-- **Academic subjects** (3): {地学|ちがく} (earth science), {生物学|せいぶつがく} (biology), {天文学|てんもんがく} (astronomy)
-- **Music** (1): {音程|おんてい} (pitch/interval)
-- **Business/Work** (3): {出向|しゅっこう} (secondment), ワークライフバランス (work-life balance), ダイバーシティ (diversity)
-- **Sports** (2): {打率|だりつ} (batting average), {飛|と}び{込|こ}み (diving)
-- **Cultural/Religious** (2): {狛犬|こまいぬ} (guardian lion-dog), {仏壇|ぶつだん} (Buddhist altar)
-- **Yojijukugo** (2): {粉骨砕身|ふんこつさいしん} (working oneself to the bone), {前途多難|ぜんとたなん} (many difficulties ahead)
-- **Games** (1): {駒|こま} (game piece)
-- **Compound verb** (1): {撫|な}で{下|お}ろす (to smooth down/feel relieved)
-
-Notable entry features:
-- Trade/professional occupations with qualification contexts
-- Household vocabulary for daily life: laundry, furniture, architecture
-- Medical terms with antonym pairs: {低血圧|ていけつあつ} ↔ {高血圧|こうけつあつ}, {遠視|えんし} ↔ {近視|きんし}
-- Academic subjects as a group with cross-references
-- Modern business loanwords: ワークライフバランス, ダイバーシティ
-- Japanese cultural items: {狛犬|こまいぬ} with 阿吽 symbolism, {仏壇|ぶつだん} with component vocabulary
-- Two yojijukugo with character breakdowns and similar expressions
-
-Total entries: 7,089 → 7,119
-Remaining candidates: ~627 → ~597
 
 ---
 
