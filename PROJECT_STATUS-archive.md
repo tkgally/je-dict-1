@@ -7,6 +7,24 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 113)
+Added 30 new dictionary entries from candidate_words.json, focusing on idiomatic body part expressions and adverbs:
+
+- **Body part idioms with {気|き}** (4): {気|き}が{利|き}く (attentive), {気|き}が{重|おも}い (reluctant), {気|き}が{短|みじか}い (short-tempered), {気|き}が{散|ち}る (distracted)
+- **Body part idioms with {口|くち}** (2): {口|くち}が{軽|かる}い (loose-lipped), {口|くち}が{堅|かた}い (tight-lipped)
+- **Body part idioms with other parts** (9): {腹|はら}が{立|た}つ (angry), {顔|かお}が{広|ひろ}い (well-connected), {足|あし}が{出|で}る (over budget), {手|て}が{離|はな}せない (too busy), {目|め}が{離|はな}せない (captivating), {肩身|かたみ}が{狭|せま}い (feel awkward), {耳|みみ}が{痛|いた}い (hard to hear), {頭|あたま}が{固|かた}い (stubborn), {腰|こし}が{低|ひく}い (humble)
+- **Body action expressions** (12): {首|くび}を{振|ふ}る (shake head), {肩|かた}をすくめる (shrug), {眉|まゆ}をひそめる (frown), {足|あし}を{運|はこ}ぶ (visit), {顔|かお}を{出|だ}す (show up), {胸|むね}を{張|は}る (be proud), {腰|こし}を{据|す}える (settle down), {息|いき}を{呑|の}む (gasp), {耳|みみ}を{傾|かたむ}ける (listen carefully), {目|め}を{通|とお}す (skim), {手|て}を{抜|ぬ}く (cut corners), {足|あし}を{引|ひ}っ{張|ぱ}る (drag down)
+- **Adverbs** (3): じろじろ (staring fixedly), とことん (thoroughly), ひょっとして (perhaps)
+
+Notable entry features:
+- Comprehensive coverage of Japanese body part idioms with {気|き}, {口|くち}, {手|て}, {足|あし}, {目|め}, {耳|みみ}, {頭|あたま}, {腹|はら}, {胸|むね}, {腰|こし}, {肩|かた}, {首|くび}, {眉|まゆ}, {息|いき}
+- Antonym pairs: {口|くち}が{軽|かる}い ↔ {口|くち}が{堅|かた}い, {頭|あたま}が{固|かた}い ↔ {頭|あたま}が{柔|やわ}らかい
+- Contrast pairs: {手|て}が{離|はな}せない (busy with hands) vs {目|め}が{離|はな}せない (can't stop watching)
+- Cultural notes on Japanese body metaphors ({腹|はら} as seat of emotions)
+
+Total entries: 6,931 → 6,961
+Remaining candidates: ~797 → ~767
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 112)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, na-adjectives, and social/work vocabulary:
 
