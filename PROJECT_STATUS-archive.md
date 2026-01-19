@@ -7,6 +7,52 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (New Candidates - 101 Words Added, Session 117)
+Added 101 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Verbs** (~25 words):
+- Intransitive/state verbs: {空|むな}しい (empty), {捗|はかど}る (make progress), {滞|とどこお}る (stagnate), {翳|かす}む (become misty)
+- Compound verbs: {溜|た}め{込|こ}む (hoard), {染|し}み{付|つ}く (become ingrained), {引|ひ}っ{込|こ}む (withdraw), {摺|す}り{寄|よ}る (sidle up)
+- Action verbs: {錆|さ}びる (rust), {燻|くすぶ}る (smolder), {軋|きし}む (creak), {篭|こも}る (shut oneself in), {嗾|けしか}ける (incite), {漲|みなぎ}る (overflow with)
+- Physical verbs: {浸|ひた}す (soak), {拵|こしら}える (prepare), {覆|くつがえ}す (overturn), {揺|ゆ}さぶる (shake), {揺|ゆ}らぐ (sway), {滑|すべ}らす (slide)
+- Emotional/mental verbs: {懲|こ}りる (learn lesson), {萎|な}える (wilt), {綻|ほころ}びる (come apart), {蔓延|はびこ}る (spread), {紛|まぎ}れる (be mixed up)
+
+**Abstract/Business Nouns** (~25 words):
+- Organizational: {萎縮|いしゅく} (atrophy), {疲弊|ひへい} (exhaustion), {停滞|ていたい} (stagnation), {衰退|すいたい} (decline), {躍進|やくしん} (rapid advance)
+- Action nouns: {迷走|めいそう} (straying), {逸脱|いつだつ} (deviation), {逡巡|しゅんじゅん} (hesitation), {同調|どうちょう} (conformity), {妥協|だきょう} (compromise)
+- Social/political: {瓦解|がかい} (collapse), {傍観|ぼうかん} (looking on), {介入|かいにゅう} (intervention), {粛清|しゅくせい} (purge), {紛糾|ふんきゅう} (complication), {糾弾|きゅうだん} (denunciation)
+- Technology/business: {脆弱|ぜいじゃく} (vulnerability), {堅牢|けんろう} (robust), {冗長|じょうちょう} (redundant), {復旧|ふっきゅう} (recovery), {切|き}り{替|か}え (switching), {互換性|ごかんせい} (compatibility), {汎用|はんよう} (general-purpose)
+- Progress/change: {普及|ふきゅう} (spread), {浸透|しんとう} (permeation), {定着|ていちゃく} (establishment), {台頭|たいとう} (rise)
+
+**Keigo and Formal Expressions** (~15 words):
+- Humble/formal: {恐縮|きょうしゅく} (feeling grateful/sorry), {恐|おそ}れ{入|い}ります (sorry to trouble), {僭越|せんえつ} (presumptuous), {粗相|そそう} (blunder), {不躾|ぶしつけ} (rude)
+- Business formal: {差|さ}し{支|つか}え (hindrance), {不手際|ふてぎわ} (mishandling), {不備|ふび} (deficiency), {謹|つつし}んで (respectfully)
+- Archaic honorific: {賜|たまわ}る (receive - honorific), {仰|おお}せ (instruction - honorific), {御意|ぎょい} (as you wish), {憚|はばか}る (hesitate)
+
+**Adverbs and Mimetics** (~15 words):
+- Adverbs: {逐一|ちくいち} (one by one), {逐次|ちくじ} (sequentially), ずばり (decisively), てっきり (surely), やたら (excessively)
+- Mimetics: ぴりぴり (tingling/tense), しぶしぶ (reluctantly), まごまご (bewildered), きょろきょろ (looking around), もたもた (sluggishly), そそくさ (hurriedly)
+
+**Food/Cooking** (~8 words):
+- Actions: {削|そ}ぐ (slice thin), すり{潰|つぶ}す (mash), {裏返|うらがえ}す (turn over), {敷|し}き{詰|つ}める (spread all over)
+- Vocabulary: {吟味|ぎんみ} (scrutiny), {塩梅|あんばい} (seasoning/condition), {擂|す}り{鉢|ばち} (mortar)
+
+**Business Reform Vocabulary** (~10 words):
+- {査定|さてい} (assessment), {精査|せいさ} (close examination), {抜本|ばっぽん} (drastic), {刷新|さっしん} (reform), {改編|かいへん} (reorganization), {統廃合|とうはいごう} (consolidation), {再編|さいへん} (restructuring)
+
+**Colloquial/Emotional Expressions** (~5 words):
+- Expressions: やるせない (helpless), {晴|は}れ{晴|ば}れ (cheerfully), {諦観|ていかん} (resignation), あのね (you know), ほっとする (feel relieved)
+- Verbs: {揉|も}める (have trouble), {拗|こじ}れる (become complicated), {掻|か}き{立|た}てる (stir up), {醸|かも}す (brew/create atmosphere), {嵩|かさ}む (mount up)
+
+Notable features:
+- Strong coverage of business/organizational vocabulary for news and formal contexts
+- Keigo and formal expressions for polite Japanese
+- Verbs with rare kanji that intermediate learners encounter
+- Food and cooking vocabulary for practical use
+- Modern business reform and technology terminology
+
+Candidate count: 651 → 752
+
 ### 2026-01-18 (Katakana Reading Cleanup, Session 116)
 Fixed inconsistency where some entries had katakana readings instead of hiragana, causing duplicate entries.
 
