@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 115)
+Added 30 new dictionary entries from candidate_words.json, covering grammar patterns, four-character idioms, modern vocabulary, and everyday terms:
+
+- **Grammar patterns** (5): に{関|かん}して (regarding), に{際|さい}して (on the occasion of), をもって (with/by means of), さもないと (otherwise), そうすると (in that case)
+- **Casual expressions** (3): つーか (or rather - very casual), {知|し}らんけど (I dunno though - Kansai hedge), ぴえん (sad - internet slang)
+- **Four-character idioms (yojijukugo)** (4): {一触即発|いっしょくそくはつ} (explosive situation), {全身全霊|ぜんしんぜんれい} (with all one's heart), {危機一髪|ききいっぱつ} (close call), {多事多難|たじたなん} (full of troubles)
+- **Modern loanwords** (5): ストレージ (storage), デバイス (device), アジェンダ (agenda), クレジットカード (credit card), コメント (comment)
+- **Music/Entertainment vocabulary** (3): {奏者|そうしゃ} (instrumentalist), {不協和音|ふきょうわおん} (dissonance), {自己|じこ}ベスト (personal best)
+- **Everyday vocabulary** (6): バイト (part-time job), いける (to be doable), {湿疹|しっしん} (eczema), {分数|ぶんすう} (fraction), {残|のこ}らず (without exception), {一直線|いっちょくせん} (straight line/beeline)
+- **Social/Family vocabulary** (2): ママ{友|とも} (mom friend), {就学|しゅうがく} (school attendance)
+- **Formal expressions** (2): ご{容赦|ようしゃ} (pardon), {切符|きっぷ}{売|う}り{場|ば} (ticket booth)
+
+Notable entry features:
+- Formal grammar pattern coverage: に{関|かん}して vs について (formality contrast)
+- Internet/youth slang: ぴえん with emoji context (🥺), {知|し}らんけど spreading from Kansai
+- Comprehensive yojijukugo: {一触即発|いっしょくそくはつ} ↔ {危機一髪|ききいっぱつ} (cross-referenced)
+- Tech vocabulary: ストレージ, デバイス for digital literacy
+- Hybrid terms: {自己|じこ}ベスト (Japanese + English compound)
+
+Total entries: 6,991 → 7,021
+Remaining candidates: ~738 → ~709
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 114)
 Added 30 new dictionary entries from candidate_words.json, focusing on conversational particles, formal conjunctions, adverbs, and onomatopoeia:
 

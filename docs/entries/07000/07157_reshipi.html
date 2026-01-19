@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="レシピ - recipe. Japanese-English dictionary entry with definitions and examples.">
+    <title>レシピ (れしぴ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">レシピ</h1>
+            <div class="entry-reading">れしぴ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">recipe</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">recipe; cooking instructions</span>
+                    <div class="definition-explanation">A set of instructions for preparing a particular dish, including a list of ingredients and steps.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">このレシピは<ruby>簡単<rp>(</rp><rt>かんたん</rt><rp>)</rp></ruby>でおいしい。</div>
+                    <div class="example-english">This recipe is easy and delicious.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>祖母<rp>(</rp><rt>そぼ</rt><rp>)</rp></ruby>のレシピを<ruby>受<rp>(</rp><rt>う</rt><rp>)</rp></ruby>け<ruby>継<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>いだ。</div>
+                    <div class="example-english">I inherited my grandmother&#x27;s recipe.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">レシピ<ruby>通<rp>(</rp><rt>どお</rt><rp>)</rp></ruby>りに<ruby>作<rp>(</rp><rt>つく</rt><rp>)</rp></ruby>ったのに、なぜか<ruby>失敗<rp>(</rp><rt>しっぱい</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I made it exactly according to the recipe, but somehow it failed.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ORIGIN:<br>From English &#x27;recipe&#x27;.</p><p>COLLOCATIONS:</p><ul><li>レシピを<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>る - to look at a recipe</li><li>レシピ<ruby>通<rp>(</rp><rt>どお</rt><rp>)</rp></ruby>りに - according to the recipe</li><li>レシピを<ruby>考<rp>(</rp><rt>かんが</rt><rp>)</rp></ruby>える - to think up a recipe</li><li>オリジナルレシピ - original recipe</li><li><ruby>定番<rp>(</rp><rt>ていばん</rt><rp>)</rp></ruby>レシピ - standard/classic recipe</li><li>レシピサイト - recipe website</li></ul><p>RELATED VOCABULARY:</p><ul><li><ruby>材料<rp>(</rp><rt>ざいりょう</rt><rp>)</rp></ruby> - ingredients</li><li><ruby>分量<rp>(</rp><rt>ぶんりょう</rt><rp>)</rp></ruby> - quantities/measurements</li><li><ruby>手順<rp>(</rp><rt>てじゅん</rt><rp>)</rp></ruby> - steps/procedure</li><li><ruby>調理<rp>(</rp><rt>ちょうり</rt><rp>)</rp></ruby><ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby> - cooking time</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/07000/07156_chouri.html" class="cross-ref-link">
+                            <ruby>調理<rp>(</rp><rt>ちょうり</rt><rp>)</rp></ruby> (cooking)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.19 11:58</div>
+                <div class="metadata-file">07000/07157_reshipi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
