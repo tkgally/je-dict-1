@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="こと - thing (abstract), matter. Japanese-English dictionary entry with definitions and examples.">
+    <title>こと (こと) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">こと</h1>
+            <div class="entry-reading">こと</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">thing (abstract), matter</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">thing, matter, affair (abstract)</span>
+                    <div class="definition-explanation">Refers to abstract concepts, events, facts, or situations. Unlike 物 (もの), which is for concrete objects.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">(nominalizer)</span>
+                    <div class="definition-explanation">Turns verbs and adjectives into noun phrases, allowing them to be the subject or object of a sentence.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>大切<rp>(</rp><rt>たいせつ</rt><rp>)</rp></ruby>なことを<ruby>忘<rp>(</rp><rt>わす</rt><rp>)</rp></ruby>れました。</div>
+                    <div class="example-english">I forgot something important.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>を<ruby>話<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>すことができます。</div>
+                    <div class="example-english">I can speak Japanese.</div>
+                    <div class="example-notes">Nominalizing function with できる</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>泳<rp>(</rp><rt>およ</rt><rp>)</rp></ruby>ぐことが<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きです。</div>
+                    <div class="example-english">I like swimming.</div>
+                    <div class="example-notes">Nominalizing function - &#x27;the act of swimming&#x27;</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>こと has two main uses: 1) As a noun meaning &#x27;thing/matter/affair&#x27; for abstract concepts (compare with もの for concrete things). 2) As a nominalizer that turns verbs into noun phrases. The kanji 事 is sometimes used.</p><p>Common patterns:</p><ul><li>ことがある (to have the experience of)</li><li>ことができる (to be able to)</li><li>ことにする (to decide to).</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:16 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">01000/01164_koto</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

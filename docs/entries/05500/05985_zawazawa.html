@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ざわざわ - rustling; murmuring; uneasy feeling. Japanese-English dictionary entry with definitions and examples.">
+    <title>ざわざわ (ざわざわ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ざわざわ</h1>
+            <div class="entry-reading">ざわざわ</div>
+            <div class="entry-pos">adverb, suru verb</div>
+            <div class="entry-gloss">rustling; murmuring; uneasy feeling</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">rustling; murmuring</span>
+                    <div class="definition-explanation">The sound of many things moving or people talking at once, creating a low, continuous noise. Typical of leaves in wind or a crowded room.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">feeling uneasy; unsettled</span>
+                    <div class="definition-explanation">A psychological sensation of unease, anxiety, or foreboding. Often used to describe a gut feeling that something is wrong.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>風<rp>(</rp><rt>かぜ</rt><rp>)</rp></ruby>で<ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>の<ruby>葉<rp>(</rp><rt>は</rt><rp>)</rp></ruby>がざわざわと<ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>を<ruby>立<rp>(</rp><rt>た</rt><rp>)</rp></ruby>てた。</div>
+                    <div class="example-english">The wind made the leaves rustle.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>会場<rp>(</rp><rt>かいじょう</rt><rp>)</rp></ruby>がざわざわしている。</div>
+                    <div class="example-english">The venue is buzzing with noise.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>胸<rp>(</rp><rt>むね</rt><rp>)</rp></ruby>がざわざわして<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>ち<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>かない。</div>
+                    <div class="example-english">I feel uneasy and can&#x27;t calm down.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ざわざわ is a versatile onomatopoeia expressing both physical sounds and psychological states.</p><p>COMMON PATTERNS:</p><ul><li>ざわざわする: to rustle; to feel uneasy</li><li>ざわざわと: with a rustling sound</li><li><ruby>胸<rp>(</rp><rt>むね</rt><rp>)</rp></ruby>がざわざわする: to feel anxious/uneasy</li></ul><p>CONTRAST WITH SIMILAR WORDS:</p><ul><li>がやがや: noisier, more chaotic crowd noise</li><li>そわそわ: restless, fidgety (more visible anxiety)</li><li>ざわめく: to stir, to murmur (verb form)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.17 6:25</div>
+                <div class="metadata-file">05500/05985_zawazawa</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

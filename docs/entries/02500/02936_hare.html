@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="晴れ - clear weather, sunny. Japanese-English dictionary entry with definitions and examples.">
+    <title>晴れ (はれ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れ</h1>
+            <div class="entry-reading">はれ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">clear weather, sunny</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">clear weather, sunny weather</span>
+                    <div class="definition-explanation">Weather condition with clear skies.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby>は<ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れでしょう。</div>
+                    <div class="example-english">Tomorrow will be sunny.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れの<ruby>日<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>が<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">Sunny days continue.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>天気<rp>(</rp><rt>てんき</rt><rp>)</rp></ruby>は<ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れです。</div>
+                    <div class="example-english">The weather is clear.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れ describes sunny/clear weather.</p><p>WEATHER TERMS:</p><ul><li><ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れ (sunny/clear)</li><li><ruby>曇<rp>(</rp><rt>くも</rt><rp>)</rp></ruby>り (cloudy)</li><li><ruby>雨<rp>(</rp><rt>あめ</rt><rp>)</rp></ruby> (rain)</li><li><ruby>雪<rp>(</rp><rt>ゆき</rt><rp>)</rp></ruby> (snow)</li></ul><p>FORECAST EXPRESSIONS:</p><ul><li><ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れのち<ruby>曇<rp>(</rp><rt>くも</rt><rp>)</rp></ruby>り (sunny then cloudy)</li><li><ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れ<ruby>時々<rp>(</rp><rt>ときどき</rt><rp>)</rp></ruby><ruby>曇<rp>(</rp><rt>くも</rt><rp>)</rp></ruby>り (sunny with occasional clouds)</li></ul><p>RELATED:</p><ul><li><ruby>晴<rp>(</rp><rt>は</rt><rp>)</rp></ruby>れる (to clear up - verb)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 18:50 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">02500/02936_hare</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

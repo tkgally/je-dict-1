@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="英語 - English language. Japanese-English dictionary entry with definitions and examples.">
+    <title>英語 (えいご) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>英語<rp>(</rp><rt>えいご</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">えいご</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">English language</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">English</span>
+                    <div class="definition-explanation">The English language.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>英語<rp>(</rp><rt>えいご</rt><rp>)</rp></ruby>を<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">To study English.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>英語<rp>(</rp><rt>えいご</rt><rp>)</rp></ruby>が<ruby>話<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>せますか。</div>
+                    <div class="example-english">Can you speak English?</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>英語<rp>(</rp><rt>えいご</rt><rp>)</rp></ruby> means English.</p><p>OTHER LANGUAGES:</p><ul><li><ruby>日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>: Japanese</li><li><ruby>中国語<rp>(</rp><rt>ちゅうごくご</rt><rp>)</rp></ruby>: Chinese</li><li><ruby>韓国語<rp>(</rp><rt>かんこくご</rt><rp>)</rp></ruby>: Korean</li><li><ruby>フランス語<rp>(</rp><rt>ご</rt><rp>)</rp></ruby>: French</li></ul><p>COMPOUNDS:</p><ul><li><ruby>英会話<rp>(</rp><rt>えいかいわ</rt><rp>)</rp></ruby>: English conversation</li><li><ruby>英文<rp>(</rp><rt>えいぶん</rt><rp>)</rp></ruby>: English text</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:29 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">02000/02274_eigo</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

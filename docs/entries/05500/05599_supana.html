@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="スパナ - spanner; wrench. Japanese-English dictionary entry with definitions and examples.">
+    <title>スパナ (すぱな) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">スパナ</h1>
+            <div class="entry-reading">すぱな</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">spanner; wrench</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">spanner; wrench</span>
+                    <div class="definition-explanation">A tool with a shaped opening for gripping and turning nuts and bolts.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">スパナでボルトを<ruby>締<rp>(</rp><rt>し</rt><rp>)</rp></ruby>める。</div>
+                    <div class="example-english">To tighten a bolt with a spanner.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>工具<rp>(</rp><rt>こうぐ</rt><rp>)</rp></ruby><ruby>箱<rp>(</rp><rt>ばこ</rt><rp>)</rp></ruby>からスパナを<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。</div>
+                    <div class="example-english">To take out a spanner from the toolbox.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>自転車<rp>(</rp><rt>じてんしゃ</rt><rp>)</rp></ruby>の<ruby>修理<rp>(</rp><rt>しゅうり</rt><rp>)</rp></ruby>にスパナが<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">A spanner is needed for bicycle repair.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>スパナ is from British English &quot;spanner.&quot; In American English contexts, レンチ (wrench) is also used.</p><p>TYPES:</p><ul><li>モンキースパナ: adjustable wrench</li><li><ruby>両口<rp>(</rp><rt>りょうくち</rt><rp>)</rp></ruby>スパナ: double-ended spanner</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Synonym:</span>
+                        <a href="../../entries/05500/05600_renchi.html" class="cross-ref-link">
+                            レンチ (American term)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 17:17 · Revised 2026.1.18 18:21</div>
+                <div class="metadata-file">05500/05599_supana</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

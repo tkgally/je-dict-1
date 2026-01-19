@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="シーツ - bed sheet. Japanese-English dictionary entry with definitions and examples.">
+    <title>シーツ (しーつ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">シーツ</h1>
+            <div class="entry-reading">しーつ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">bed sheet</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">bed sheet; sheets</span>
+                    <div class="definition-explanation">bed sheet; sheets</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">シーツを<ruby>洗濯<rp>(</rp><rt>せんたく</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I washed the sheets.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>清潔<rp>(</rp><rt>せいけつ</rt><rp>)</rp></ruby>なシーツは<ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちがいい。</div>
+                    <div class="example-english">Clean sheets feel good.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ホテルでは<ruby>毎日<rp>(</rp><rt>まいにち</rt><rp>)</rp></ruby>シーツを<ruby>交換<rp>(</rp><rt>こうかん</rt><rp>)</rp></ruby>してくれる。</div>
+                    <div class="example-english">Hotels change the sheets every day.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>シーツ (from English &quot;sheets&quot;) refers to bed linens that cover the mattress. In Japanese, the singular form is used even when referring to a set.</p><p>Related bedding terms:</p><ul><li><ruby>布団<rp>(</rp><rt>ふとん</rt><rp>)</rp></ruby>カバー (futon cover)</li><li><ruby>枕<rp>(</rp><rt>まくら</rt><rp>)</rp></ruby>カバー (pillowcase)</li><li><ruby>掛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>け<ruby>布団<rp>(</rp><rt>ぶとん</rt><rp>)</rp></ruby> (comforter/duvet)</li><li><ruby>毛布<rp>(</rp><rt>もうふ</rt><rp>)</rp></ruby> (blanket)</li></ul><p>Common expressions:</p><ul><li>シーツを<ruby>敷<rp>(</rp><rt>し</rt><rp>)</rp></ruby>く (spread sheets)</li><li>シーツを<ruby>替<rp>(</rp><rt>か</rt><rp>)</rp></ruby>える (change sheets)</li><li>ボックスシーツ (fitted sheet)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.15 3:56 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">04000/04499_shiitsu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

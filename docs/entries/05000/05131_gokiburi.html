@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ゴキブリ - cockroach. Japanese-English dictionary entry with definitions and examples.">
+    <title>ゴキブリ (ごきぶり) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ゴキブリ</h1>
+            <div class="entry-reading">ごきぶり</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">cockroach</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">cockroach</span>
+                    <div class="definition-explanation">A common household insect pest known for its flat body, long antennae, and ability to survive in various conditions.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>台所<rp>(</rp><rt>だいどころ</rt><rp>)</rp></ruby>でゴキブリを<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>た。</div>
+                    <div class="example-english">I saw a cockroach in the kitchen.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ゴキブリが<ruby>苦手<rp>(</rp><rt>にがて</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">I can&#x27;t stand cockroaches.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ゴキブリ<ruby>退治<rp>(</rp><rt>たいじ</rt><rp>)</rp></ruby>のスプレーを<ruby>買<rp>(</rp><rt>か</rt><rp>)</rp></ruby>った。</div>
+                    <div class="example-english">I bought cockroach spray.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>COMMON COLLOCATIONS:</p><ul><li>ゴキブリを<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>る (to see a cockroach)</li><li>ゴキブリが<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>る (cockroaches appear)</li><li>ゴキブリを<ruby>退治<rp>(</rp><rt>たいじ</rt><rp>)</rp></ruby>する (to exterminate cockroaches)</li><li>ゴキブリホイホイ (cockroach trap - brand name often used generically)</li></ul><p>NICKNAMES:</p><ul><li>G - Sometimes written as just &quot;G&quot; in casual Japanese to avoid saying the word directly.</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 11:32 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">05000/05131_gokiburi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

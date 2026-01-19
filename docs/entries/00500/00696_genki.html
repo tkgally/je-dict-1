@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="元気 - healthy, energetic, well. Japanese-English dictionary entry with definitions and examples.">
+    <title>元気 (げんき) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">げんき</div>
+            <div class="entry-pos">adjective (na-adjective), noun</div>
+            <div class="entry-gloss">healthy, energetic, well</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">healthy, well, fine</span>
+                    <div class="definition-explanation">Describes a state of good health and vitality. Commonly used in greetings to ask how someone is doing.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">energetic, lively, spirited</span>
+                    <div class="definition-explanation">Describes someone who is full of energy and vigor.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">お<ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>ですか。</div>
+                    <div class="example-english">How are you? (Are you well?)</div>
+                    <div class="example-notes">Common greeting</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">はい、<ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">Yes, I&#x27;m fine.</div>
+                    <div class="example-notes">Standard response to お元気ですか</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>な<ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>ですね。</div>
+                    <div class="example-english">What an energetic child!</div>
+                    <div class="example-notes">na-adjective form</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>One of the most important words for basic conversation. お<ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>ですか is the standard &#x27;How are you?&#x27; greeting. Can be used as both a na-adjective and a noun. When someone looks down, you might encourage them with <ruby>元気<rp>(</rp><rt>げんき</rt><rp>)</rp></ruby>を<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>して (cheer up!).</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:12 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00500/00696_genki</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

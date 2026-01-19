@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="遠い - far, distant. Japanese-English dictionary entry with definitions and examples.">
+    <title>遠い (とおい) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>い</h1>
+            <div class="entry-reading">とおい</div>
+            <div class="entry-pos">adjective (i-adjective)</div>
+            <div class="entry-gloss">far, distant</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">far, distant</span>
+                    <div class="definition-explanation">Located at a great distance. Used for physical distance or metaphorical distance (like distant memories).</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>駅<rp>(</rp><rt>えき</rt><rp>)</rp></ruby>から<ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>いですか？</div>
+                    <div class="example-english">Is it far from the station?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>の<ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>は<ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>くにあります。</div>
+                    <div class="example-english">His house is far away.</div>
+                    <div class="example-notes">遠く = far away (adverb/noun)</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">それは<ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>い<ruby>昔<rp>(</rp><rt>むかし</rt><rp>)</rp></ruby>のことです。</div>
+                    <div class="example-english">That was a long time ago (in the distant past).</div>
+                    <div class="example-notes">Metaphorical: distant in time</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>An i-adjective. The adverb form is <ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>く. Opposite of <ruby>近<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>い (chikai, near/close). Often used with から to indicate distance from something.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">See also:</span>
+                        <a href="../../entries/00500/00530_chikai.html" class="cross-ref-link">
+                            <ruby>近<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>い
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:49 · Revised 2026.1.18 18:21</div>
+                <div class="metadata-file">00500/00529_tooi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

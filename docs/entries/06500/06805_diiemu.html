@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DM - direct message. Japanese-English dictionary entry with definitions and examples.">
+    <title>DM (でぃーえむ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">DM</h1>
+            <div class="entry-reading">でぃーえむ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">direct message</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">direct message (on social media)</span>
+                    <div class="definition-explanation">A private message sent between users on social media platforms. From English &#x27;Direct Message.&#x27;</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">DMで<ruby>連絡<rp>(</rp><rt>れんらく</rt><rp>)</rp></ruby>ください。</div>
+                    <div class="example-english">Please contact me via DM.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>友達<rp>(</rp><rt>ともだち</rt><rp>)</rp></ruby>からDMが<ruby>届<rp>(</rp><rt>とど</rt><rp>)</rp></ruby>いた。</div>
+                    <div class="example-english">I received a DM from a friend.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>詳<rp>(</rp><rt>くわ</rt><rp>)</rp></ruby>しいことはDMで<ruby>話<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>しましょう。</div>
+                    <div class="example-english">Let&#x27;s talk about the details in DM.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ETYMOLOGY: Abbreviation of English &#x27;Direct Message.&#x27;</p><p>USAGE: Commonly used as both noun and する-verb (DMする &#x27;to DM someone&#x27;).</p><p>COMMON EXPRESSIONS:</p><ul><li>DMを<ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>る (send a DM)</li><li>DMで<ruby>連絡<rp>(</rp><rt>れんらく</rt><rp>)</rp></ruby>する (contact via DM)</li><li>DMを<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>く (open a DM)</li><li>DMに<ruby>返信<rp>(</rp><rt>へんしん</rt><rp>)</rp></ruby>する (reply to a DM)</li></ul><p>PLATFORMS: Used across Twitter/X, Instagram, and other social media platforms. The specific term may vary by platform, but DM is widely understood.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 16:17</div>
+                <div class="metadata-file">06500/06805_diiemu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

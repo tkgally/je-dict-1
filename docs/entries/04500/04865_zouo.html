@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="憎悪 - hatred, animosity. Japanese-English dictionary entry with definitions and examples.">
+    <title>憎悪 (ぞうお) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>憎悪<rp>(</rp><rt>ぞうお</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ぞうお</div>
+            <div class="entry-pos">noun, verb (suru)</div>
+            <div class="entry-gloss">hatred, animosity</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">hatred, animosity, loathing</span>
+                    <div class="definition-explanation">Intense dislike or hostility toward someone or something.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>憎悪<rp>(</rp><rt>ぞうお</rt><rp>)</rp></ruby>を<ruby>抱<rp>(</rp><rt>いだ</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">To harbor hatred.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>憎悪<rp>(</rp><rt>ぞうお</rt><rp>)</rp></ruby>に<ruby>満<rp>(</rp><rt>み</rt><rp>)</rp></ruby>ちた<ruby>目<rp>(</rp><rt>め</rt><rp>)</rp></ruby>で<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>つめた。</div>
+                    <div class="example-english">They gazed with eyes full of hatred.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>憎悪<rp>(</rp><rt>ぞうお</rt><rp>)</rp></ruby>が<ruby>憎悪<rp>(</rp><rt>ぞうお</rt><rp>)</rp></ruby>を<ruby>生<rp>(</rp><rt>う</rt><rp>)</rp></ruby>む。</div>
+                    <div class="example-english">Hatred breeds hatred.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>A formal word for intense hatred. Stronger and more literary than <ruby>嫌<rp>(</rp><rt>きら</rt><rp>)</rp></ruby>い or <ruby>憎<rp>(</rp><rt>にく</rt><rp>)</rp></ruby>む. Often used in dramatic or serious contexts. <ruby>憎悪犯罪<rp>(</rp><rt>ぞうおはんざい</rt><rp>)</rp></ruby> (hate crime).</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 8:59 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">04500/04865_zouo</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

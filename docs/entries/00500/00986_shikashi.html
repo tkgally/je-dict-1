@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="しかし - however, but. Japanese-English dictionary entry with definitions and examples.">
+    <title>しかし (しかし) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">しかし</h1>
+            <div class="entry-reading">しかし</div>
+            <div class="entry-pos">conjunction</div>
+            <div class="entry-gloss">however, but</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">however, but, nevertheless</span>
+                    <div class="definition-explanation">A formal conjunction used to introduce contrast or contradiction. More formal than でも.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>努力<rp>(</rp><rt>どりょく</rt><rp>)</rp></ruby>しました。しかし、<ruby>成功<rp>(</rp><rt>せいこう</rt><rp>)</rp></ruby>しませんでした。</div>
+                    <div class="example-english">He made an effort. However, he did not succeed.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>いです。しかし、<ruby>品質<rp>(</rp><rt>ひんしつ</rt><rp>)</rp></ruby>がいいです。</div>
+                    <div class="example-english">It&#x27;s expensive. However, the quality is good.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">しかし、<ruby>問題<rp>(</rp><rt>もんだい</rt><rp>)</rp></ruby>があります。</div>
+                    <div class="example-english">However, there is a problem.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>しかし is more formal than でも and is often used in written Japanese and formal speech. It introduces a contrasting statement or objection. In casual conversation, でも is more common. しかしながら is an even more formal variant.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:29 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00500/00986_shikashi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="〜式 - ceremony; style, type. Japanese-English dictionary entry with definitions and examples.">
+    <title>〜式 (しき) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">〜<ruby>式<rp>(</rp><rt>しき</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">しき</div>
+            <div class="entry-pos">suffix</div>
+            <div class="entry-gloss">ceremony; style, type</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">ceremony, ritual</span>
+                    <div class="definition-explanation">A formal event or ceremony.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">style, type, method</span>
+                    <div class="definition-explanation">A particular way or system of doing something.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>結婚式<rp>(</rp><rt>けっこんしき</rt><rp>)</rp></ruby>に<ruby>出席<rp>(</rp><rt>しゅっせき</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I attended a wedding ceremony.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>日本式<rp>(</rp><rt>にほんしき</rt><rp>)</rp></ruby>の<ruby>庭<rp>(</rp><rt>にわ</rt><rp>)</rp></ruby>が<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きだ。</div>
+                    <div class="example-english">I like Japanese-style gardens.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>入学式<rp>(</rp><rt>にゅうがくしき</rt><rp>)</rp></ruby>は<ruby>四月<rp>(</rp><rt>しがつ</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">The entrance ceremony is in April.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>〜<ruby>式<rp>(</rp><rt>しき</rt><rp>)</rp></ruby> can mean ceremony or style.</p><p>CEREMONIES:</p><ul><li><ruby>結婚式<rp>(</rp><rt>けっこんしき</rt><rp>)</rp></ruby>: wedding</li><li><ruby>入学式<rp>(</rp><rt>にゅうがくしき</rt><rp>)</rp></ruby>: entrance ceremony</li><li><ruby>卒業式<rp>(</rp><rt>そつぎょうしき</rt><rp>)</rp></ruby>: graduation ceremony</li></ul><p>STYLES:</p><ul><li><ruby>日本式<rp>(</rp><rt>にほんしき</rt><rp>)</rp></ruby>: Japanese-style</li><li><ruby>西洋式<rp>(</rp><rt>せいようしき</rt><rp>)</rp></ruby>: Western-style</li><li><ruby>新式<rp>(</rp><rt>しんしき</rt><rp>)</rp></ruby>: new style</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:02 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">02000/02000_shiki</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

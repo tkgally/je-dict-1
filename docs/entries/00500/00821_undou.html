@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="運動 - exercise, sports. Japanese-English dictionary entry with definitions and examples.">
+    <title>運動 (うんどう) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">うんどう</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">exercise, sports</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">physical exercise, sports, athletics</span>
+                    <div class="definition-explanation">Physical activity done for health or fitness. Includes both casual exercise and organized sports.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">movement, campaign</span>
+                    <div class="definition-explanation">Can also refer to a social or political movement or campaign for a cause.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>毎朝<rp>(</rp><rt>まいあさ</rt><rp>)</rp></ruby><ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>をしています。</div>
+                    <div class="example-english">I exercise every morning.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>は<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>にいいです。</div>
+                    <div class="example-english">Exercise is good for your body.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">あまり<ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>をしません。</div>
+                    <div class="example-english">I don&#x27;t exercise much.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>運動<rp>(</rp><rt>うんどう</rt><rp>)</rp></ruby>する means &#x27;to exercise&#x27; or &#x27;to do sports&#x27;.</p><p>Related words:</p><ul><li><ruby>運動会<rp>(</rp><rt>うんどうかい</rt><rp>)</rp></ruby> (sports day/field day at school)</li><li><ruby>運動場<rp>(</rp><rt>うんどうじょう</rt><rp>)</rp></ruby> (athletic field)</li><li><ruby>運動不足<rp>(</rp><rt>うんどうぶそく</rt><rp>)</rp></ruby> (lack of exercise). The kanji mean &#x27;carry&#x27; <ruby>運<rp>(</rp><rt>うん</rt><rp>)</rp></ruby> and &#x27;move&#x27; <ruby>動<rp>(</rp><rt>どう</rt><rp>)</rp></ruby>.</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:27 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">00500/00821_undou</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

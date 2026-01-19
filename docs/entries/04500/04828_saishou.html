@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="最小 - minimum. Japanese-English dictionary entry with definitions and examples.">
+    <title>最小 (さいしょう) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>最小<rp>(</rp><rt>さいしょう</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">さいしょう</div>
+            <div class="entry-pos">noun, no-adjective</div>
+            <div class="entry-gloss">minimum</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">minimum, smallest</span>
+                    <div class="definition-explanation">The least in size, amount, or degree.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">コストを<ruby>最小限<rp>(</rp><rt>さいしょうげん</rt><rp>)</rp></ruby>に<ruby>抑<rp>(</rp><rt>おさ</rt><rp>)</rp></ruby>える。</div>
+                    <div class="example-english">Keep costs to a minimum.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>被害<rp>(</rp><rt>ひがい</rt><rp>)</rp></ruby>を<ruby>最小<rp>(</rp><rt>さいしょう</rt><rp>)</rp></ruby>にする。</div>
+                    <div class="example-english">Minimize the damage.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>最小<rp>(</rp><rt>さいしょう</rt><rp>)</rp></ruby><ruby>単位<rp>(</rp><rt>たんい</rt><rp>)</rp></ruby>で<ruby>販売<rp>(</rp><rt>はんばい</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Sell in the smallest unit.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Used as a prefix or standalone word.</p><p>Common expressions:</p><ul><li><ruby>最小限<rp>(</rp><rt>さいしょうげん</rt><rp>)</rp></ruby> (minimum limit)</li><li><ruby>最小<rp>(</rp><rt>さいしょう</rt><rp>)</rp></ruby>の (the smallest, the least)</li><li><ruby>最小化<rp>(</rp><rt>さいしょうか</rt><rp>)</rp></ruby> (minimization)</li><li><ruby>最小<rp>(</rp><rt>さいしょう</rt><rp>)</rp></ruby><ruby>公倍数<rp>(</rp><rt>こうばいすう</rt><rp>)</rp></ruby> (least common multiple)</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Antonym:</span>
+                        <a href="../../entries/04500/04827_saidai.html" class="cross-ref-link">
+                            <ruby>最大<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby> (maximum)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 9:29 · Revised 2026.1.18 18:21</div>
+                <div class="metadata-file">04500/04828_saishou</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

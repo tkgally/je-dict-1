@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="背 - height, stature, back. Japanese-English dictionary entry with definitions and examples.">
+    <title>背 (せ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">せ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">height, stature, back</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">height, stature</span>
+                    <div class="definition-explanation">How tall a person is.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">back (of body)</span>
+                    <div class="definition-explanation">The rear part of the body.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>が<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>いですね。</div>
+                    <div class="example-english">You&#x27;re tall, aren&#x27;t you?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>が<ruby>低<rp>(</rp><rt>ひく</rt><rp>)</rp></ruby>い。</div>
+                    <div class="example-english">To be short (in height).</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>を<ruby>伸<rp>(</rp><rt>の</rt><rp>)</rp></ruby>ばす。</div>
+                    <div class="example-english">To straighten one&#x27;s back.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby> relates to height and back.</p><p>COMMON PHRASES:</p><ul><li><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>が<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い (tall)</li><li><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>が<ruby>低<rp>(</rp><rt>ひく</rt><rp>)</rp></ruby>い (short)</li><li><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>が<ruby>伸<rp>(</rp><rt>の</rt><rp>)</rp></ruby>びる (to grow taller)</li><li><ruby>背中<rp>(</rp><rt>せなか</rt><rp>)</rp></ruby> (back of body)</li></ul><p>RELATED:</p><ul><li><ruby>身長<rp>(</rp><rt>しんちょう</rt><rp>)</rp></ruby> (height - measurement)</li><li><ruby>背丈<rp>(</rp><rt>せたけ</rt><rp>)</rp></ruby> (stature)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 18:50 · Revised 2026.1.16 15:34</div>
+                <div class="metadata-file">02500/02907_se</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
