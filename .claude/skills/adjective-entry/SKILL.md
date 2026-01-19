@@ -131,10 +131,38 @@ For adjectives with multiple senses, each example must include a `sense_numbers`
 - Different nuances of meaning (e.g., physical vs. emotional) may require separate senses
 - Figurative or extended meanings should have their own sense numbers
 
+## Required Tags for Adjectives
+
+All adjective entries must include these tags in `metadata.tags`:
+
+```json
+"metadata": {
+  "tags": {
+    "pos": ["adjective-i"],           // adjective-i, adjective-na, adjective-no, adjective-taru
+    "formality": "neutral",           // formal, neutral, informal, vulgar
+    "politeness": "plain",            // honorific, humble, polite, plain
+    "semantic": ["descriptive"]       // Choose appropriate category
+  }
+}
+```
+
+**POS tag values for adjectives:**
+- `adjective-i`: い-adjectives (高い, 大きい, 美しい)
+- `adjective-na`: な-adjectives (静か, 便利, きれい)
+- `adjective-no`: の-adjectives (本当の, 普通の)
+- `adjective-taru`: たる-adjectives (堂々たる, 悠々たる) - literary/formal
+
+**Semantic categories for adjectives:**
+- `emotion`: 嬉しい, 悲しい, 怖い (feelings)
+- `size`: 大きい, 小さい, 長い, 高い (dimensions)
+- `color`: 赤い, 青い, 白い (colors)
+- `descriptive`: Fallback for adjectives not fitting specific categories
+
 ## Quality Checklist for Adjectives
 
 - [ ] **All kanji have furigana** (headword, examples, AND notes)
 - [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
+- [ ] **Tags complete**: pos, formality, politeness, semantic
 - [ ] Part of speech correctly identified (i-adj vs. na-adj)
 - [ ] Adverbial form provided
 - [ ] Key conjugations shown

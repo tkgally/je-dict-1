@@ -298,12 +298,97 @@ In `metadata.vocabulary_tier`, always use `"general"`:
 }
 ```
 
+## Metadata Tags (REQUIRED)
+
+All entries must have properly structured tags in `metadata.tags`. This enables search, filtering, and export functionality.
+
+### Required Tag Categories
+
+```json
+"metadata": {
+  "vocabulary_tier": "general",
+  "tags": {
+    "pos": ["noun"],                    // REQUIRED: Part of speech (array)
+    "formality": "neutral",             // REQUIRED: formal/neutral/informal/vulgar
+    "politeness": "plain",              // REQUIRED: honorific/humble/polite/plain
+    "semantic": ["food"]                // REQUIRED: Semantic category (array)
+  },
+  "created": "...",
+  "modified": "..."
+}
+```
+
+### Part of Speech (`pos`)
+
+Valid values: `noun`, `verb-godan`, `verb-ichidan`, `verb-suru`, `verb-kuru`, `verb-irregular`, `adjective-i`, `adjective-na`, `adjective-no`, `adjective-taru`, `adverb`, `particle`, `conjunction`, `interjection`, `pronoun`, `counter`, `prefix`, `suffix`, `expression`, `pre-noun-adjectival`, `number`, `onomatopoeia`, `auxiliary`
+
+- Use arrays for multi-function words: `["noun", "verb-suru"]`
+- The array should list the most common/primary POS first
+
+### Formality
+
+- `formal`: Used in formal/written contexts (敬語, 硬い表現)
+- `neutral`: Standard usage appropriate for most contexts (default)
+- `informal`: Casual/colloquial usage (くだけた表現)
+- `vulgar`: Strong/offensive language (use sparingly)
+
+### Politeness (Keigo Classification)
+
+- `honorific`: 尊敬語 - Elevates the subject (いらっしゃる, おっしゃる)
+- `humble`: 謙譲語 - Lowers the speaker (申す, 参る)
+- `polite`: 丁寧語 - General polite forms (です/ます base forms)
+- `plain`: 普通体 - Plain/dictionary forms (default for most entries)
+
+### Semantic Categories
+
+Choose the most appropriate category(ies) for the word's meaning:
+
+**Specific categories** (use when applicable):
+- Time: `time-day-of-week`, `time-month`, `time-season`, `time-period`, `time-general`
+- Nature: `animal-mammal`, `animal-bird`, `animal-fish`, `animal-insect`, `animal-general`, `plant-tree`, `plant-flower`, `plant-general`, `weather`, `geography`
+- Human: `body-part`, `body-internal`, `family`, `person`, `occupation`
+- Objects: `food`, `clothing`, `building`, `transportation`, `tool`, `furniture`, `electronics`
+- Abstract: `emotion`, `color`, `number`, `direction`, `size`, `quantity`
+- Actions: `movement`, `communication`, `cognition`, `existence`, `consumption`
+- Social: `greeting`, `education`, `work`, `leisure`
+
+**Fallback categories** (when no specific category fits):
+- `general`: For nouns without a specific semantic category
+- `action`: For verbs not fitting other action categories
+- `descriptive`: For adjectives and adverbs
+- `grammatical`: For particles and conjunctions
+- `expression`: For fixed expressions and interjections
+- `onomatopoeia`: For mimetic words
+
+### Optional Tag Categories
+
+```json
+"tags": {
+  // ... required tags above ...
+  "transitivity": "transitive",     // For verbs: transitive/intransitive/both
+  "style": ["spoken"],              // written/spoken/literary/archaic/slang
+  "domain": ["business"]            // business/academic/technical/legal/medical/etc.
+}
+```
+
+- `transitivity`: Required for verbs - indicates if verb takes a direct object
+- `style`: Use when word is strongly associated with a medium
+- `domain`: Use when word is specialized/technical
+
+### Tag Selection Tips
+
+1. **Be specific when possible**: Use `food` not `general` for 寿司
+2. **Multiple tags allowed**: 朝ご飯 can be `["food", "time-period"]`
+3. **Match the primary meaning**: Tag based on the word's core meaning
+4. **Check similar entries**: Ensure consistency with related words
+
 ## Quality Checklist
 
 Before finalizing any entry, verify:
 - [ ] **File placed in correct directory** (use `python3 build/get_entry_path.py <reading> <entry_id>`)
 - [ ] **All kanji have furigana** (headword, examples, AND notes)
 - [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
+- [ ] **Tags are complete**: pos, formality, politeness, semantic all present
 - [ ] Examples progress from simple to complex
 - [ ] At least one collocation or fixed phrase is shown
 - [ ] Grammar patterns are explicitly demonstrated
