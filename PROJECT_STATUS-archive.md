@@ -7,6 +7,34 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 122)
+Added 30 new dictionary entries from candidate_words.json, covering occupations, household items, medical terms, academic subjects, business vocabulary, and cultural terms:
+
+- **Occupations** (4): {配管工|はいかんこう} (plumber), {電気技師|でんきぎし} (electrician), {彫刻家|ちょうこくか} (sculptor), {映画監督|えいがかんとく} (film director)
+- **Household items** (5): {物干|ものほ}し (drying rack), {洗濯籠|せんたくかご} (laundry basket), {吹|ふ}き{抜|ぬ}け (atrium), {食器棚|しょっきだな} (dish cabinet), マットレス (mattress)
+- **Sewing/Clothing** (3): ファスナー (zipper), {裏地|うらじ} (lining), {縫|ぬ}い{目|め} (seam)
+- **Medical terms** (3): {低血圧|ていけつあつ} (low blood pressure), {不整脈|ふせいみゃく} (arrhythmia), {遠視|えんし} (farsightedness)
+- **Academic subjects** (3): {地学|ちがく} (earth science), {生物学|せいぶつがく} (biology), {天文学|てんもんがく} (astronomy)
+- **Music** (1): {音程|おんてい} (pitch/interval)
+- **Business/Work** (3): {出向|しゅっこう} (secondment), ワークライフバランス (work-life balance), ダイバーシティ (diversity)
+- **Sports** (2): {打率|だりつ} (batting average), {飛|と}び{込|こ}み (diving)
+- **Cultural/Religious** (2): {狛犬|こまいぬ} (guardian lion-dog), {仏壇|ぶつだん} (Buddhist altar)
+- **Yojijukugo** (2): {粉骨砕身|ふんこつさいしん} (working oneself to the bone), {前途多難|ぜんとたなん} (many difficulties ahead)
+- **Games** (1): {駒|こま} (game piece)
+- **Compound verb** (1): {撫|な}で{下|お}ろす (to smooth down/feel relieved)
+
+Notable entry features:
+- Trade/professional occupations with qualification contexts
+- Household vocabulary for daily life: laundry, furniture, architecture
+- Medical terms with antonym pairs: {低血圧|ていけつあつ} ↔ {高血圧|こうけつあつ}, {遠視|えんし} ↔ {近視|きんし}
+- Academic subjects as a group with cross-references
+- Modern business loanwords: ワークライフバランス, ダイバーシティ
+- Japanese cultural items: {狛犬|こまいぬ} with 阿吽 symbolism, {仏壇|ぶつだん} with component vocabulary
+- Two yojijukugo with character breakdowns and similar expressions
+
+Total entries: 7,089 → 7,119
+Remaining candidates: ~627 → ~597
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 121)
 Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary across multiple categories:
 
