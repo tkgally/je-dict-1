@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,119
-- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 459
-- **Candidate words**: ~597 words tracked in `candidate_words.json`
+- **Total entries**: 7,149
+- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 489
+- **Candidate words**: ~567 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 123)
+Added 30 new dictionary entries from candidate_words.json, covering yojijukugo, mimetics, cultural/religious items, modern vocabulary, and everyday terms:
+
+- **Yojijukugo** (4): {満身創痍|まんしんそうい} (covered in wounds), {付和雷同|ふわらいどう} (following blindly), {栄枯盛衰|えいこせいすい} (rise and fall), {明鏡止水|めいきょうしすい} (serene mind)
+- **Mimetics/Adverbs** (4): ちょこちょこ (in small steps), きりきり (sharp pain), ひょこひょこ (bobbing), ひょいと (quickly)
+- **Traditional New Year games** (3): {凧揚|たこあ}げ (kite flying), {羽根|はね}つき (Japanese badminton), {福笑|ふくわら}い (pin-the-face game)
+- **Religious/Cultural items** (3): {数珠|じゅず} (prayer beads), {位牌|いはい} (memorial tablet), {熨斗|のし} (gift ornament)
+- **Adjectives** (2): てれくさい (embarrassing), {気恥|きは}ずかしい (bashful)
+- **Modern/Safety vocabulary** (4): {節電|せつでん} (power saving), {防犯|ぼうはん}カメラ (security camera), {避難経路|ひなんけいろ} (evacuation route), {観客席|かんきゃくせき} (spectator seating)
+- **Facilities/Fees** (3): {多目的|たもくてき}トイレ (accessible toilet), {入館料|にゅうかんりょう} (admission fee), {宿泊料|しゅくはくりょう} (accommodation fee)
+- **Work/Life** (1): {育児休暇|いくじきゅうか} (parental leave)
+- **Tools/Architecture** (4): やすり (file), {雨樋|あまどい} (rain gutter), {土台|どだい} (foundation), {糸鋸|いとのこ} (coping saw)
+- **Nature/Taste** (2): {引|ひ}き{潮|しお} (ebb tide), {渋|しぶ}み (astringency)
+
+Notable entry features:
+- Four yojijukugo with character breakdowns and etymology
+- Traditional New Year games group with cross-references and cultural context
+- Buddhist/religious vocabulary: {数珠|じゅず}, {位牌|いはい} linked with {仏壇|ぶつだん}
+- Modern safety terminology common in public facilities
+- Japanese aesthetic concept: {渋|しぶ}み (astringency and refined elegance)
+- Mimetics describing manner of movement and sensation
+
+Total entries: 7,119 → 7,149
+Remaining candidates: ~597 → ~567
 
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 122)
 Added 30 new dictionary entries from candidate_words.json, covering occupations, household items, medical terms, academic subjects, business vocabulary, and cultural terms:
@@ -331,24 +356,6 @@ Notable entry features:
 
 Total entries: 6,961 → 6,991
 Remaining candidates: ~767 → ~738
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 113)
-Added 30 new dictionary entries from candidate_words.json, focusing on idiomatic body part expressions and adverbs:
-
-- **Body part idioms with {気|き}** (4): {気|き}が{利|き}く (attentive), {気|き}が{重|おも}い (reluctant), {気|き}が{短|みじか}い (short-tempered), {気|き}が{散|ち}る (distracted)
-- **Body part idioms with {口|くち}** (2): {口|くち}が{軽|かる}い (loose-lipped), {口|くち}が{堅|かた}い (tight-lipped)
-- **Body part idioms with other parts** (9): {腹|はら}が{立|た}つ (angry), {顔|かお}が{広|ひろ}い (well-connected), {足|あし}が{出|で}る (over budget), {手|て}が{離|はな}せない (too busy), {目|め}が{離|はな}せない (captivating), {肩身|かたみ}が{狭|せま}い (feel awkward), {耳|みみ}が{痛|いた}い (hard to hear), {頭|あたま}が{固|かた}い (stubborn), {腰|こし}が{低|ひく}い (humble)
-- **Body action expressions** (12): {首|くび}を{振|ふ}る (shake head), {肩|かた}をすくめる (shrug), {眉|まゆ}をひそめる (frown), {足|あし}を{運|はこ}ぶ (visit), {顔|かお}を{出|だ}す (show up), {胸|むね}を{張|は}る (be proud), {腰|こし}を{据|す}える (settle down), {息|いき}を{呑|の}む (gasp), {耳|みみ}を{傾|かたむ}ける (listen carefully), {目|め}を{通|とお}す (skim), {手|て}を{抜|ぬ}く (cut corners), {足|あし}を{引|ひ}っ{張|ぱ}る (drag down)
-- **Adverbs** (3): じろじろ (staring fixedly), とことん (thoroughly), ひょっとして (perhaps)
-
-Notable entry features:
-- Comprehensive coverage of Japanese body part idioms with {気|き}, {口|くち}, {手|て}, {足|あし}, {目|め}, {耳|みみ}, {頭|あたま}, {腹|はら}, {胸|むね}, {腰|こし}, {肩|かた}, {首|くび}, {眉|まゆ}, {息|いき}
-- Antonym pairs: {口|くち}が{軽|かる}い ↔ {口|くち}が{堅|かた}い, {頭|あたま}が{固|かた}い ↔ {頭|あたま}が{柔|やわ}らかい
-- Contrast pairs: {手|て}が{離|はな}せない (busy with hands) vs {目|め}が{離|はな}せない (can't stop watching)
-- Cultural notes on Japanese body metaphors ({腹|はら} as seat of emotions)
-
-Total entries: 6,931 → 6,961
-Remaining candidates: ~797 → ~767
 
 ---
 
