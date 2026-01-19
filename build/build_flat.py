@@ -473,9 +473,503 @@ def generate_index_page(entry_count: int, tier_counts: dict, build_time_jst: str
 </html>'''
 
 
+def generate_tag_search_styles() -> str:
+    """Generate CSS styles for the tag-based search UI."""
+    return '''
+    <style>
+        /* Tag Search UI Styles */
+        .tag-search-section {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid #ddd;
+        }
+        .tag-search-section h2 { margin-bottom: 1rem; }
+        .tag-search-modes {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .tag-search-modes button {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+            background: #f5f5f5;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .tag-search-modes button.active {
+            background: #4a90d9;
+            color: white;
+            border-color: #4a90d9;
+        }
+        .tag-filter-panel {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+        .filter-group { margin-bottom: 1.5rem; }
+        .filter-group:last-child { margin-bottom: 0; }
+        .filter-group h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1rem;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .filter-group h3 .count {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: normal;
+        }
+        .filter-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .filter-options label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.25rem 0.5rem;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+        .filter-options label:hover { background: #f0f0f0; }
+        .filter-options label.checked {
+            background: #e3f2fd;
+            border-color: #4a90d9;
+        }
+        .filter-note {
+            font-size: 0.8rem;
+            color: #e67e22;
+            margin-top: 0.25rem;
+            font-style: italic;
+        }
+        .filter-actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        .filter-actions button {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .filter-actions button:hover { background: #f0f0f0; }
+        .filter-actions button.primary {
+            background: #4a90d9;
+            color: white;
+            border-color: #4a90d9;
+        }
+        .filter-actions button.primary:hover { background: #3a7bc8; }
+        .tag-results { margin-top: 1.5rem; }
+        .tag-results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .tag-results-count { font-weight: bold; color: #333; }
+        .tag-results-export { display: flex; gap: 0.5rem; }
+        .tag-results-export button {
+            padding: 0.25rem 0.5rem;
+            border: 1px solid #ccc;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        .tag-results-list { display: grid; gap: 0.5rem; }
+        .tag-result-item {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr auto;
+            gap: 1rem;
+            padding: 0.75rem;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-decoration: none;
+            color: inherit;
+            align-items: center;
+        }
+        .tag-result-item:hover {
+            background: #f5f5f5;
+            border-color: #4a90d9;
+        }
+        .tag-result-headword { font-weight: bold; }
+        .tag-result-reading { color: #666; }
+        .tag-result-gloss { color: #333; }
+        .tag-result-tags { font-size: 0.75rem; color: #888; }
+        .stats-panel { display: none; }
+        .stats-panel.active { display: block; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .stats-card {
+            background: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        .stats-card h3 { margin: 0 0 0.75rem 0; font-size: 1rem; }
+        .stats-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.25rem 0;
+            border-bottom: 1px solid #eee;
+            font-size: 0.9rem;
+        }
+        .stats-item:last-child { border-bottom: none; }
+        .stats-value { font-weight: bold; }
+        .stats-bar {
+            width: 60px;
+            height: 8px;
+            background: #eee;
+            border-radius: 4px;
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 0.5rem;
+        }
+        .stats-bar-fill { height: 100%; background: #4a90d9; }
+        .missing-panel { display: none; }
+        .missing-panel.active { display: block; }
+        .missing-selector {
+            background: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .missing-selector h3 { margin: 0 0 0.5rem 0; font-size: 1rem; }
+        .missing-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .missing-options label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.25rem 0.5rem;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+        .combined-panel { display: none; }
+        .combined-panel.active { display: block; }
+        .query-builder {
+            background: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .query-builder textarea {
+            width: 100%;
+            min-height: 100px;
+            font-family: monospace;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+        }
+        .query-examples { font-size: 0.85rem; color: #666; }
+        .query-examples code {
+            background: #e9e9e9;
+            padding: 0.1rem 0.3rem;
+            border-radius: 3px;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .pagination button {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .pagination button:disabled { opacity: 0.5; cursor: not-allowed; }
+        .pagination button.current {
+            background: #4a90d9;
+            color: white;
+            border-color: #4a90d9;
+        }
+        .page-info { padding: 0.5rem 1rem; color: #666; }
+        @media (max-width: 768px) {
+            .tag-result-item { grid-template-columns: 1fr; gap: 0.25rem; }
+            .stats-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+'''
+
+
+def generate_tag_search_section() -> str:
+    """Generate the tag-based search section HTML."""
+    return '''
+    <!-- Tag-Based Search Section -->
+    <section class="tag-search-section">
+        <h2>Tag-Based Search</h2>
+
+        <div class="tag-search-modes">
+            <button class="mode-btn active" data-mode="filter">Filter by Tags</button>
+            <button class="mode-btn" data-mode="stats">Tag Statistics</button>
+            <button class="mode-btn" data-mode="missing">Find Missing Tags</button>
+            <button class="mode-btn" data-mode="combined">Combined Query</button>
+        </div>
+
+        <!-- Filter Mode Panel -->
+        <div id="filter-panel" class="tag-filter-panel">
+            <div class="filter-group">
+                <h3>Vocabulary Tier <span class="count" id="tier-count"></span></h3>
+                <div class="filter-options" id="tier-filters">
+                    <label><input type="checkbox" name="tier" value="basic"> basic</label>
+                    <label><input type="checkbox" name="tier" value="core"> core</label>
+                    <label><input type="checkbox" name="tier" value="general"> general</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Part of Speech <span class="count" id="pos-count"></span></h3>
+                <div class="filter-options" id="pos-filters">
+                    <label><input type="checkbox" name="pos" value="noun"> noun</label>
+                    <label><input type="checkbox" name="pos" value="verb-godan"> verb-godan</label>
+                    <label><input type="checkbox" name="pos" value="verb-ichidan"> verb-ichidan</label>
+                    <label><input type="checkbox" name="pos" value="verb-suru"> verb-suru</label>
+                    <label><input type="checkbox" name="pos" value="verb-kuru"> verb-kuru</label>
+                    <label><input type="checkbox" name="pos" value="verb-irregular"> verb-irregular</label>
+                    <label><input type="checkbox" name="pos" value="adjective-i"> adjective-i</label>
+                    <label><input type="checkbox" name="pos" value="adjective-na"> adjective-na</label>
+                    <label><input type="checkbox" name="pos" value="adjective-no"> adjective-no</label>
+                    <label><input type="checkbox" name="pos" value="adjective-taru"> adjective-taru</label>
+                    <label><input type="checkbox" name="pos" value="adverb"> adverb</label>
+                    <label><input type="checkbox" name="pos" value="particle"> particle</label>
+                    <label><input type="checkbox" name="pos" value="conjunction"> conjunction</label>
+                    <label><input type="checkbox" name="pos" value="interjection"> interjection</label>
+                    <label><input type="checkbox" name="pos" value="pronoun"> pronoun</label>
+                    <label><input type="checkbox" name="pos" value="counter"> counter</label>
+                    <label><input type="checkbox" name="pos" value="prefix"> prefix</label>
+                    <label><input type="checkbox" name="pos" value="suffix"> suffix</label>
+                    <label><input type="checkbox" name="pos" value="expression"> expression</label>
+                    <label><input type="checkbox" name="pos" value="pre-noun-adjectival"> pre-noun-adjectival</label>
+                    <label><input type="checkbox" name="pos" value="number"> number</label>
+                    <label><input type="checkbox" name="pos" value="auxiliary"> auxiliary</label>
+                    <label><input type="checkbox" name="pos" value="onomatopoeia"> onomatopoeia</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Transitivity (Verbs) <span class="count" id="transitivity-count"></span></h3>
+                <div class="filter-options" id="transitivity-filters">
+                    <label><input type="checkbox" name="transitivity" value="transitive"> transitive</label>
+                    <label><input type="checkbox" name="transitivity" value="intransitive"> intransitive</label>
+                    <label><input type="checkbox" name="transitivity" value="both"> both</label>
+                    <label><input type="checkbox" name="transitivity" value="_missing"> (missing)</label>
+                </div>
+                <div class="filter-note">⚠️ Transitivity tagging is incomplete (~8% coverage). Many verbs still need tagging.</div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Formality <span class="count" id="formality-count"></span></h3>
+                <div class="filter-options" id="formality-filters">
+                    <label><input type="checkbox" name="formality" value="formal"> formal</label>
+                    <label><input type="checkbox" name="formality" value="neutral"> neutral</label>
+                    <label><input type="checkbox" name="formality" value="informal"> informal</label>
+                    <label><input type="checkbox" name="formality" value="vulgar"> vulgar</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Politeness <span class="count" id="politeness-count"></span></h3>
+                <div class="filter-options" id="politeness-filters">
+                    <label><input type="checkbox" name="politeness" value="honorific"> honorific</label>
+                    <label><input type="checkbox" name="politeness" value="humble"> humble</label>
+                    <label><input type="checkbox" name="politeness" value="polite"> polite</label>
+                    <label><input type="checkbox" name="politeness" value="plain"> plain</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Semantic Categories <span class="count" id="semantic-count"></span></h3>
+                <div class="filter-options" id="semantic-filters">
+                    <label><input type="checkbox" name="semantic" value="time-day-of-week"> time-day-of-week</label>
+                    <label><input type="checkbox" name="semantic" value="time-month"> time-month</label>
+                    <label><input type="checkbox" name="semantic" value="time-season"> time-season</label>
+                    <label><input type="checkbox" name="semantic" value="time-period"> time-period</label>
+                    <label><input type="checkbox" name="semantic" value="time-general"> time-general</label>
+                    <label><input type="checkbox" name="semantic" value="animal-mammal"> animal-mammal</label>
+                    <label><input type="checkbox" name="semantic" value="animal-bird"> animal-bird</label>
+                    <label><input type="checkbox" name="semantic" value="animal-fish"> animal-fish</label>
+                    <label><input type="checkbox" name="semantic" value="animal-insect"> animal-insect</label>
+                    <label><input type="checkbox" name="semantic" value="animal-general"> animal-general</label>
+                    <label><input type="checkbox" name="semantic" value="plant-tree"> plant-tree</label>
+                    <label><input type="checkbox" name="semantic" value="plant-flower"> plant-flower</label>
+                    <label><input type="checkbox" name="semantic" value="plant-general"> plant-general</label>
+                    <label><input type="checkbox" name="semantic" value="weather"> weather</label>
+                    <label><input type="checkbox" name="semantic" value="geography"> geography</label>
+                    <label><input type="checkbox" name="semantic" value="body-part"> body-part</label>
+                    <label><input type="checkbox" name="semantic" value="body-internal"> body-internal</label>
+                    <label><input type="checkbox" name="semantic" value="family"> family</label>
+                    <label><input type="checkbox" name="semantic" value="person"> person</label>
+                    <label><input type="checkbox" name="semantic" value="occupation"> occupation</label>
+                    <label><input type="checkbox" name="semantic" value="emotion"> emotion</label>
+                    <label><input type="checkbox" name="semantic" value="color"> color</label>
+                    <label><input type="checkbox" name="semantic" value="number"> number</label>
+                    <label><input type="checkbox" name="semantic" value="direction"> direction</label>
+                    <label><input type="checkbox" name="semantic" value="size"> size</label>
+                    <label><input type="checkbox" name="semantic" value="quantity"> quantity</label>
+                    <label><input type="checkbox" name="semantic" value="food"> food</label>
+                    <label><input type="checkbox" name="semantic" value="clothing"> clothing</label>
+                    <label><input type="checkbox" name="semantic" value="building"> building</label>
+                    <label><input type="checkbox" name="semantic" value="transportation"> transportation</label>
+                    <label><input type="checkbox" name="semantic" value="tool"> tool</label>
+                    <label><input type="checkbox" name="semantic" value="furniture"> furniture</label>
+                    <label><input type="checkbox" name="semantic" value="electronics"> electronics</label>
+                    <label><input type="checkbox" name="semantic" value="movement"> movement</label>
+                    <label><input type="checkbox" name="semantic" value="communication"> communication</label>
+                    <label><input type="checkbox" name="semantic" value="cognition"> cognition</label>
+                    <label><input type="checkbox" name="semantic" value="existence"> existence</label>
+                    <label><input type="checkbox" name="semantic" value="creation"> creation</label>
+                    <label><input type="checkbox" name="semantic" value="consumption"> consumption</label>
+                    <label><input type="checkbox" name="semantic" value="greeting"> greeting</label>
+                    <label><input type="checkbox" name="semantic" value="education"> education</label>
+                    <label><input type="checkbox" name="semantic" value="work"> work</label>
+                    <label><input type="checkbox" name="semantic" value="leisure"> leisure</label>
+                    <label><input type="checkbox" name="semantic" value="proverb"> proverb</label>
+                    <label><input type="checkbox" name="semantic" value="idiom"> idiom</label>
+                    <label><input type="checkbox" name="semantic" value="general"> general</label>
+                    <label><input type="checkbox" name="semantic" value="action"> action</label>
+                    <label><input type="checkbox" name="semantic" value="descriptive"> descriptive</label>
+                    <label><input type="checkbox" name="semantic" value="grammatical"> grammatical</label>
+                    <label><input type="checkbox" name="semantic" value="expression"> expression</label>
+                    <label><input type="checkbox" name="semantic" value="onomatopoeia"> onomatopoeia</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Style <span class="count" id="style-count"></span></h3>
+                <div class="filter-options" id="style-filters">
+                    <label><input type="checkbox" name="style" value="written"> written</label>
+                    <label><input type="checkbox" name="style" value="spoken"> spoken</label>
+                    <label><input type="checkbox" name="style" value="literary"> literary</label>
+                    <label><input type="checkbox" name="style" value="archaic"> archaic</label>
+                    <label><input type="checkbox" name="style" value="slang"> slang</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Domain <span class="count" id="domain-count"></span></h3>
+                <div class="filter-options" id="domain-filters">
+                    <label><input type="checkbox" name="domain" value="business"> business</label>
+                    <label><input type="checkbox" name="domain" value="academic"> academic</label>
+                    <label><input type="checkbox" name="domain" value="technical"> technical</label>
+                    <label><input type="checkbox" name="domain" value="legal"> legal</label>
+                    <label><input type="checkbox" name="domain" value="medical"> medical</label>
+                    <label><input type="checkbox" name="domain" value="colloquial"> colloquial</label>
+                    <label><input type="checkbox" name="domain" value="internet"> internet</label>
+                </div>
+            </div>
+
+            <div class="filter-actions">
+                <button type="button" id="apply-filters" class="primary">Apply Filters</button>
+                <button type="button" id="clear-filters">Clear All</button>
+                <label style="display: inline-flex; align-items: center; gap: 0.25rem;">
+                    <input type="checkbox" id="filter-and-mode"> AND mode (require all)
+                </label>
+            </div>
+        </div>
+
+        <!-- Stats Panel -->
+        <div id="stats-panel" class="stats-panel">
+            <div class="stats-grid" id="stats-grid"></div>
+        </div>
+
+        <!-- Missing Tags Panel -->
+        <div id="missing-panel" class="missing-panel">
+            <div class="missing-selector">
+                <h3>Find Entries Missing:</h3>
+                <div class="missing-options">
+                    <label><input type="checkbox" name="missing" value="pos"> POS tags</label>
+                    <label><input type="checkbox" name="missing" value="formality"> Formality</label>
+                    <label><input type="checkbox" name="missing" value="politeness"> Politeness</label>
+                    <label><input type="checkbox" name="missing" value="semantic"> Semantic tags</label>
+                    <label><input type="checkbox" name="missing" value="transitivity"> Transitivity (verbs only)</label>
+                </div>
+                <div class="filter-actions">
+                    <button type="button" id="find-missing" class="primary">Find Missing</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Combined Query Panel -->
+        <div id="combined-panel" class="combined-panel">
+            <div class="query-builder">
+                <h3>Query Builder</h3>
+                <textarea id="query-input" placeholder="Enter query (e.g., pos:verb-ichidan AND semantic:food)"></textarea>
+                <div class="query-examples">
+                    <strong>Examples:</strong><br>
+                    <code>pos:noun AND semantic:food</code> - Food-related nouns<br>
+                    <code>pos:verb-ichidan OR pos:verb-godan</code> - All main verbs<br>
+                    <code>tier:basic AND pos:verb-suru</code> - Basic tier suru verbs<br>
+                    <code>formality:formal AND politeness:humble</code> - Humble formal words<br>
+                    <code>NOT transitivity:*</code> - Verbs without transitivity tag<br>
+                    <code>semantic:emotion OR semantic:cognition</code> - Emotion/cognition words
+                </div>
+                <div class="filter-actions">
+                    <button type="button" id="run-query" class="primary">Run Query</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Area -->
+        <div id="tag-results" class="tag-results" style="display: none;">
+            <div class="tag-results-header">
+                <span class="tag-results-count" id="tag-results-count"></span>
+                <div class="tag-results-export">
+                    <button type="button" id="export-csv">Export CSV</button>
+                    <button type="button" id="export-json">Export JSON</button>
+                    <button type="button" id="copy-ids">Copy IDs</button>
+                </div>
+            </div>
+            <div id="tag-results-list" class="tag-results-list"></div>
+            <div id="tag-pagination" class="pagination"></div>
+        </div>
+    </section>
+'''
+
+
 def generate_search_page() -> str:
     """Generate the search.html page."""
-    return f'''{generate_html_head("Search")}
+    # Custom head with tag search styles
+    custom_head = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Japanese-English learner&#x27;s dictionary with detailed explanations and examples">
+    <title>Search - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+{generate_tag_search_styles()}
+</head>'''
+
+    return f'''{custom_head}
 <body>
 {generate_nav_header()}
 <main class="search-page">
@@ -498,6 +992,8 @@ def generate_search_page() -> str:
         <div id="results-list" class="results-list"></div>
     </div>
 
+{generate_tag_search_section()}
+
     <noscript>
         <div class="noscript-notice">
             <p>JavaScript is required for the search feature. You can still <a href="browse.html">browse entries</a> by kana row.</p>
@@ -507,6 +1003,7 @@ def generate_search_page() -> str:
 
 <script src="search-index.js"></script>
 <script src="search.js"></script>
+<script src="tag-search.js"></script>
 
 <footer>
     <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
@@ -615,6 +1112,401 @@ def generate_search_js() -> str:
     searchInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') handleSearch();
     });
+})();'''
+
+
+def generate_tag_search_js() -> str:
+    """Generate the tag-search.js JavaScript file for tag-based filtering."""
+    return '''/**
+ * Tag-Based Search functionality for je-dict-1 dictionary
+ * Provides filtering by tags, statistics, missing tag detection, and combined queries
+ */
+(function() {
+    'use strict';
+
+    const RESULTS_PER_PAGE = 50;
+    const VERB_POS_TAGS = ['verb-godan', 'verb-ichidan', 'verb-suru', 'verb-kuru', 'verb-irregular'];
+
+    let currentResults = [];
+    let currentPage = 1;
+    let currentMode = 'filter';
+
+    const filterPanel = document.getElementById('filter-panel');
+    const statsPanel = document.getElementById('stats-panel');
+    const missingPanel = document.getElementById('missing-panel');
+    const combinedPanel = document.getElementById('combined-panel');
+    const resultsContainer = document.getElementById('tag-results');
+    const resultsCountEl = document.getElementById('tag-results-count');
+    const resultsListEl = document.getElementById('tag-results-list');
+    const paginationEl = document.getElementById('tag-pagination');
+
+    function getAllEntries() {
+        if (!window.SEARCH_ENTRIES) return [];
+        return Object.values(window.SEARCH_ENTRIES);
+    }
+
+    function entryHasTag(entry, category, value) {
+        const tags = entry.tags || {};
+        if (value === '_missing') {
+            if (category === 'transitivity') {
+                const pos = tags.pos || [];
+                const isVerb = VERB_POS_TAGS.some(v => pos.includes(v));
+                return isVerb && !tags.transitivity;
+            }
+            return false;
+        }
+        if (category === 'tier') {
+            return entry.tier === value;
+        }
+        const tagValue = tags[category];
+        if (Array.isArray(tagValue)) {
+            return tagValue.includes(value);
+        } else if (typeof tagValue === 'string') {
+            return tagValue === value;
+        }
+        return false;
+    }
+
+    function entryMissingTag(entry, category) {
+        const tags = entry.tags || {};
+        if (category === 'pos') return !tags.pos || tags.pos.length === 0;
+        if (category === 'formality') return !tags.formality;
+        if (category === 'politeness') return !tags.politeness;
+        if (category === 'semantic') return !tags.semantic || tags.semantic.length === 0;
+        if (category === 'transitivity') {
+            const pos = tags.pos || [];
+            const isVerb = VERB_POS_TAGS.some(v => pos.includes(v));
+            return isVerb && !tags.transitivity;
+        }
+        return false;
+    }
+
+    function getSelectedFilters() {
+        const filters = {};
+        const categories = ['tier', 'pos', 'transitivity', 'formality', 'politeness', 'semantic', 'style', 'domain'];
+        categories.forEach(category => {
+            const checked = document.querySelectorAll('input[name="' + category + '"]:checked');
+            if (checked.length > 0) {
+                filters[category] = Array.from(checked).map(el => el.value);
+            }
+        });
+        return filters;
+    }
+
+    function filterEntries(entries, filters, andMode) {
+        if (Object.keys(filters).length === 0) return entries;
+        return entries.filter(entry => {
+            if (andMode) {
+                return Object.entries(filters).every(([category, values]) => {
+                    return values.some(value => entryHasTag(entry, category, value));
+                });
+            } else {
+                return Object.entries(filters).some(([category, values]) => {
+                    return values.some(value => entryHasTag(entry, category, value));
+                });
+            }
+        });
+    }
+
+    function applyFilters() {
+        const filters = getSelectedFilters();
+        const andMode = document.getElementById('filter-and-mode').checked;
+        const entries = getAllEntries();
+        currentResults = filterEntries(entries, filters, andMode);
+        currentResults.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
+        currentPage = 1;
+        displayResults();
+    }
+
+    function findMissingTags() {
+        const checked = document.querySelectorAll('input[name="missing"]:checked');
+        const categories = Array.from(checked).map(el => el.value);
+        if (categories.length === 0) {
+            alert('Please select at least one tag category.');
+            return;
+        }
+        const entries = getAllEntries();
+        currentResults = entries.filter(entry => {
+            return categories.some(category => entryMissingTag(entry, category));
+        });
+        currentResults.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
+        currentPage = 1;
+        displayResults();
+    }
+
+    function runCombinedQuery() {
+        const queryInput = document.getElementById('query-input');
+        const query = queryInput.value.trim();
+        if (!query) {
+            alert('Please enter a query.');
+            return;
+        }
+        try {
+            const entries = getAllEntries();
+            currentResults = executeQuery(entries, query);
+            currentResults.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
+            currentPage = 1;
+            displayResults();
+        } catch (e) {
+            alert('Query error: ' + e.message);
+        }
+    }
+
+    function executeQuery(entries, query) {
+        const orParts = query.split(/\\s+OR\\s+/i);
+        return entries.filter(entry => {
+            return orParts.some(orPart => {
+                const andParts = orPart.split(/\\s+AND\\s+/i);
+                return andParts.every(andPart => {
+                    const trimmed = andPart.trim();
+                    const isNegated = trimmed.startsWith('NOT ');
+                    const condition = isNegated ? trimmed.substring(4).trim() : trimmed;
+                    const match = condition.match(/^(\\w+):(.+)$/);
+                    if (!match) throw new Error('Invalid condition: ' + condition);
+                    const [, category, value] = match;
+                    let result;
+                    if (value === '*') {
+                        const tags = entry.tags || {};
+                        if (category === 'tier') {
+                            result = !!entry.tier;
+                        } else if (Array.isArray(tags[category])) {
+                            result = tags[category].length > 0;
+                        } else {
+                            result = !!tags[category];
+                        }
+                    } else {
+                        result = entryHasTag(entry, category, value);
+                    }
+                    return isNegated ? !result : result;
+                });
+            });
+        });
+    }
+
+    function displayResults() {
+        resultsContainer.style.display = 'block';
+        const total = currentResults.length;
+        const totalPages = Math.ceil(total / RESULTS_PER_PAGE);
+        const start = (currentPage - 1) * RESULTS_PER_PAGE;
+        const end = Math.min(start + RESULTS_PER_PAGE, total);
+        const pageResults = currentResults.slice(start, end);
+
+        resultsCountEl.textContent = total + ' entries found (showing ' + (start + 1) + '-' + end + ')';
+
+        resultsListEl.innerHTML = pageResults.map(entry => {
+            const tags = entry.tags || {};
+            const posStr = (tags.pos || []).join(', ');
+            const semanticStr = (tags.semantic || []).slice(0, 3).join(', ');
+            const tagSummary = [posStr, tags.formality, semanticStr].filter(Boolean).join(' | ');
+            return '<a href="entries/' + entry.dirRange + '/' + entry.id + '.html" class="tag-result-item">' +
+                '<div class="tag-result-headword">' + entry.headword + '</div>' +
+                '<div class="tag-result-reading">' + entry.reading + '</div>' +
+                '<div class="tag-result-gloss">' + entry.gloss + '</div>' +
+                '<div class="tag-result-tags">' + tagSummary + '</div>' +
+            '</a>';
+        }).join('');
+
+        renderPagination(totalPages);
+    }
+
+    function renderPagination(totalPages) {
+        if (totalPages <= 1) {
+            paginationEl.innerHTML = '';
+            return;
+        }
+        let html = '<button ' + (currentPage === 1 ? 'disabled' : '') + ' data-page="' + (currentPage - 1) + '">← Prev</button>';
+        const pages = [1];
+        if (currentPage > 3) pages.push('...');
+        for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+            pages.push(i);
+        }
+        if (currentPage < totalPages - 2) pages.push('...');
+        if (totalPages > 1) pages.push(totalPages);
+        pages.forEach(p => {
+            if (p === '...') {
+                html += '<span class="page-info">...</span>';
+            } else {
+                html += '<button ' + (p === currentPage ? 'class="current"' : '') + ' data-page="' + p + '">' + p + '</button>';
+            }
+        });
+        html += '<button ' + (currentPage === totalPages ? 'disabled' : '') + ' data-page="' + (currentPage + 1) + '">Next →</button>';
+        paginationEl.innerHTML = html;
+    }
+
+    function calculateStats() {
+        const entries = getAllEntries();
+        const stats = { total: entries.length, tier: {}, pos: {}, transitivity: {}, formality: {}, politeness: {}, semantic: {}, style: {}, domain: {} };
+        let verbCount = 0;
+
+        entries.forEach(entry => {
+            const tags = entry.tags || {};
+            const tier = entry.tier || 'unknown';
+            stats.tier[tier] = (stats.tier[tier] || 0) + 1;
+            const pos = tags.pos || [];
+            pos.forEach(p => { stats.pos[p] = (stats.pos[p] || 0) + 1; });
+            const isVerb = VERB_POS_TAGS.some(v => pos.includes(v));
+            if (isVerb) verbCount++;
+            if (isVerb) {
+                const trans = tags.transitivity || '(missing)';
+                stats.transitivity[trans] = (stats.transitivity[trans] || 0) + 1;
+            }
+            const formality = tags.formality || '(missing)';
+            stats.formality[formality] = (stats.formality[formality] || 0) + 1;
+            const politeness = tags.politeness || '(missing)';
+            stats.politeness[politeness] = (stats.politeness[politeness] || 0) + 1;
+            const semantic = tags.semantic || [];
+            if (semantic.length === 0) {
+                stats.semantic['(missing)'] = (stats.semantic['(missing)'] || 0) + 1;
+            } else {
+                semantic.forEach(s => { stats.semantic[s] = (stats.semantic[s] || 0) + 1; });
+            }
+            (tags.style || []).forEach(s => { stats.style[s] = (stats.style[s] || 0) + 1; });
+            (tags.domain || []).forEach(d => { stats.domain[d] = (stats.domain[d] || 0) + 1; });
+        });
+
+        const statsGrid = document.getElementById('stats-grid');
+        statsGrid.innerHTML = '<div class="stats-card"><h3>Overview</h3>' +
+            '<div class="stats-item"><span>Total entries</span><span class="stats-value">' + stats.total + '</span></div>' +
+            '<div class="stats-item"><span>Verb entries</span><span class="stats-value">' + verbCount + '</span></div></div>' +
+            '<div class="stats-card"><h3>Vocabulary Tier</h3>' + renderStatsItems(stats.tier, stats.total) + '</div>' +
+            '<div class="stats-card"><h3>Part of Speech (top 15)</h3>' + renderStatsItems(stats.pos, stats.total, 15) + '</div>' +
+            '<div class="stats-card"><h3>Transitivity (' + verbCount + ' verbs)</h3>' + renderStatsItems(stats.transitivity, verbCount) + '</div>' +
+            '<div class="stats-card"><h3>Formality</h3>' + renderStatsItems(stats.formality, stats.total) + '</div>' +
+            '<div class="stats-card"><h3>Politeness</h3>' + renderStatsItems(stats.politeness, stats.total) + '</div>' +
+            '<div class="stats-card"><h3>Semantic (top 20)</h3>' + renderStatsItems(stats.semantic, stats.total, 20) + '</div>' +
+            '<div class="stats-card"><h3>Style</h3>' + renderStatsItems(stats.style, stats.total) + '</div>' +
+            '<div class="stats-card"><h3>Domain</h3>' + renderStatsItems(stats.domain, stats.total) + '</div>';
+    }
+
+    function renderStatsItems(data, total, limit) {
+        const entries = Object.entries(data).sort((a, b) => b[1] - a[1]);
+        const displayEntries = limit ? entries.slice(0, limit) : entries;
+        if (displayEntries.length === 0) return '<div class="stats-item"><span>(no data)</span></div>';
+        return displayEntries.map(([key, count]) => {
+            const pct = (count / total * 100).toFixed(1);
+            return '<div class="stats-item"><span>' + key + '</span><span class="stats-value">' + count + ' (' + pct + '%)' +
+                '<span class="stats-bar"><span class="stats-bar-fill" style="width:' + pct + '%"></span></span></span></div>';
+        }).join('');
+    }
+
+    function exportCSV() {
+        if (currentResults.length === 0) { alert('No results to export.'); return; }
+        const headers = ['id', 'headword', 'reading', 'gloss', 'tier', 'pos', 'formality', 'politeness', 'transitivity', 'semantic', 'style', 'domain'];
+        const rows = currentResults.map(entry => {
+            const tags = entry.tags || {};
+            return [entry.id, entry.headword.replace(/<[^>]+>/g, ''), entry.reading, entry.gloss, entry.tier || '',
+                (tags.pos || []).join(';'), tags.formality || '', tags.politeness || '', tags.transitivity || '',
+                (tags.semantic || []).join(';'), (tags.style || []).join(';'), (tags.domain || []).join(';')
+            ].map(v => '"' + String(v).replace(/"/g, '""') + '"').join(',');
+        });
+        downloadFile([headers.join(','), ...rows].join('\\n'), 'tag-search-results.csv', 'text/csv');
+    }
+
+    function exportJSON() {
+        if (currentResults.length === 0) { alert('No results to export.'); return; }
+        downloadFile(JSON.stringify(currentResults, null, 2), 'tag-search-results.json', 'application/json');
+    }
+
+    function copyIDs() {
+        if (currentResults.length === 0) { alert('No results to copy.'); return; }
+        const ids = currentResults.map(e => e.id).join('\\n');
+        navigator.clipboard.writeText(ids).then(() => {
+            alert(currentResults.length + ' entry IDs copied to clipboard.');
+        }).catch(() => { alert('Failed to copy to clipboard.'); });
+    }
+
+    function downloadFile(content, filename, mimeType) {
+        const blob = new Blob([content], { type: mimeType });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    function switchMode(mode) {
+        currentMode = mode;
+        document.querySelectorAll('.mode-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.mode === mode);
+        });
+        filterPanel.style.display = mode === 'filter' ? 'block' : 'none';
+        statsPanel.classList.toggle('active', mode === 'stats');
+        missingPanel.classList.toggle('active', mode === 'missing');
+        combinedPanel.classList.toggle('active', mode === 'combined');
+        if (mode === 'stats') {
+            calculateStats();
+            resultsContainer.style.display = 'none';
+        }
+    }
+
+    function clearFilters() {
+        document.querySelectorAll('#filter-panel input[type="checkbox"]').forEach(cb => {
+            cb.checked = false;
+            cb.closest('label').classList.remove('checked');
+        });
+        document.getElementById('filter-and-mode').checked = false;
+    }
+
+    function updateCheckboxStyling(checkbox) {
+        checkbox.closest('label').classList.toggle('checked', checkbox.checked);
+    }
+
+    function updateFilterCounts() {
+        const entries = getAllEntries();
+        if (entries.length === 0) {
+            setTimeout(updateFilterCounts, 100);
+            return;
+        }
+        const counts = { tier: new Set(), pos: new Set(), transitivity: new Set(), formality: new Set(), politeness: new Set(), semantic: new Set(), style: new Set(), domain: new Set() };
+        entries.forEach(entry => {
+            const tags = entry.tags || {};
+            if (entry.tier) counts.tier.add(entry.tier);
+            (tags.pos || []).forEach(p => counts.pos.add(p));
+            if (tags.transitivity) counts.transitivity.add(tags.transitivity);
+            if (tags.formality) counts.formality.add(tags.formality);
+            if (tags.politeness) counts.politeness.add(tags.politeness);
+            (tags.semantic || []).forEach(s => counts.semantic.add(s));
+            (tags.style || []).forEach(s => counts.style.add(s));
+            (tags.domain || []).forEach(d => counts.domain.add(d));
+        });
+        Object.entries(counts).forEach(([category, values]) => {
+            const el = document.getElementById(category + '-count');
+            if (el) el.textContent = '(' + values.size + ' values)';
+        });
+    }
+
+    function init() {
+        document.querySelectorAll('.mode-btn').forEach(btn => {
+            btn.addEventListener('click', () => switchMode(btn.dataset.mode));
+        });
+        document.getElementById('apply-filters').addEventListener('click', applyFilters);
+        document.getElementById('clear-filters').addEventListener('click', clearFilters);
+        document.querySelectorAll('.filter-options input[type="checkbox"]').forEach(cb => {
+            cb.addEventListener('change', () => updateCheckboxStyling(cb));
+        });
+        document.getElementById('find-missing').addEventListener('click', findMissingTags);
+        document.getElementById('run-query').addEventListener('click', runCombinedQuery);
+        document.getElementById('export-csv').addEventListener('click', exportCSV);
+        document.getElementById('export-json').addEventListener('click', exportJSON);
+        document.getElementById('copy-ids').addEventListener('click', copyIDs);
+        paginationEl.addEventListener('click', (e) => {
+            if (e.target.tagName === 'BUTTON' && e.target.dataset.page) {
+                currentPage = parseInt(e.target.dataset.page, 10);
+                displayResults();
+                resultsContainer.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+        updateFilterCounts();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
 })();'''
 
 
@@ -866,6 +1758,10 @@ def generate_search_index(entries: list) -> str:
         gloss = entry.get('gloss', '')
         dir_range = get_directory_range(entry_id)
 
+        # Get tags
+        tags = entry.get('metadata', {}).get('tags', {})
+        tier = entry.get('metadata', {}).get('vocabulary_tier', 'general')
+
         # Store minimal entry data for display
         # Note: headword is HTML-escaped by process_furigana(); gloss and reading
         # are escaped here to prevent XSS when rendered via innerHTML in search.js
@@ -875,7 +1771,17 @@ def generate_search_index(entries: list) -> str:
             'reading': html.escape(reading),
             'romaji': hiragana_to_romaji(reading),
             'gloss': html.escape(gloss),
-            'dirRange': dir_range
+            'dirRange': dir_range,
+            'tier': tier,
+            'tags': {
+                'pos': tags.get('pos', []),
+                'formality': tags.get('formality'),
+                'politeness': tags.get('politeness'),
+                'transitivity': tags.get('transitivity'),
+                'semantic': tags.get('semantic', []),
+                'style': tags.get('style', []),
+                'domain': tags.get('domain', [])
+            }
         }
 
         # Index headword (stripped)
@@ -2047,7 +2953,10 @@ def build_flat(project_root: Path) -> int:
     with open(docs_dir / 'search.js', 'w', encoding='utf-8') as f:
         f.write(generate_search_js())
 
-    print("  Generated search-index.js, search.js")
+    with open(docs_dir / 'tag-search.js', 'w', encoding='utf-8') as f:
+        f.write(generate_tag_search_js())
+
+    print("  Generated search-index.js, search.js, tag-search.js")
 
     # Step 6: Generate stylesheet
     print("\n[6/6] Generating stylesheet...")
