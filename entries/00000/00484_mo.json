@@ -1,0 +1,297 @@
+{
+  "id": "00484_mo",
+  "headword": "も",
+  "reading": "も",
+  "part_of_speech": "particle",
+  "gloss": "also, too, even",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "also, too",
+      "explanation": "Indicates that something applies to an additional item or person. Replaces は, が, or を. {私|わたし}も{行|い}きます (I'll go too)."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "even",
+      "explanation": "Emphasizes an extreme or unexpected case. {子供|こども}でも{分|わ}かる (even a child can understand)."
+    },
+    {
+      "sense_number": 3,
+      "gloss": "both...and, neither...nor",
+      "explanation": "Used in pairs to mean 'both' (AもBも) or with negatives for 'neither.' {犬|いぬ}も{猫|ねこ}も{好|す}き (I like both dogs and cats)."
+    },
+    {
+      "sense_number": 4,
+      "gloss": "as many as, as much as",
+      "explanation": "Emphasizes a large quantity. {三時間|さんじかん}も{待|ま}った (waited for as long as 3 hours)."
+    }
+  ],
+  "particle_behavior": {
+    "description": "も replaces some particles but attaches after others",
+    "replaces": [
+      {
+        "particle": "は",
+        "before": "{私|わたし}は{学生|がくせい}です",
+        "after": "{私|わたし}も{学生|がくせい}です",
+        "meaning": "I'm also a student"
+      },
+      {
+        "particle": "が",
+        "before": "{田中|たなか}さんが{来|き}た",
+        "after": "{田中|たなか}さんも{来|き}た",
+        "meaning": "Tanaka also came"
+      },
+      {
+        "particle": "を",
+        "before": "これを{買|か}う",
+        "after": "これも{買|か}う",
+        "meaning": "I'll buy this too"
+      }
+    ],
+    "attaches_after": [
+      {
+        "particle": "に",
+        "example": "{東京|とうきょう}にも{行|い}った",
+        "meaning": "went to Tokyo too"
+      },
+      {
+        "particle": "で",
+        "example": "{家|いえ}でも{勉強|べんきょう}する",
+        "meaning": "study at home too"
+      },
+      {
+        "particle": "と",
+        "example": "{友達|ともだち}とも{話|はな}した",
+        "meaning": "talked with friends too"
+      },
+      {
+        "particle": "から",
+        "example": "{駅|えき}からも{近|ちか}い",
+        "meaning": "close from the station too"
+      },
+      {
+        "particle": "まで",
+        "example": "{終点|しゅうてん}までも{行|い}った",
+        "meaning": "went even as far as the terminus"
+      }
+    ]
+  },
+  "question_word_patterns": {
+    "description": "も + question word + negative = nobody/nothing/nowhere/etc.",
+    "patterns": [
+      {
+        "pattern": "{誰|だれ}も + negative",
+        "meaning": "nobody, no one",
+        "example": "{誰|だれ}も{来|こ}なかった",
+        "example_english": "Nobody came"
+      },
+      {
+        "pattern": "{何|なに}も + negative",
+        "meaning": "nothing",
+        "example": "{何|なに}も{食|た}べなかった",
+        "example_english": "I didn't eat anything"
+      },
+      {
+        "pattern": "どこも + negative",
+        "meaning": "nowhere",
+        "example": "どこも{行|い}かなかった",
+        "example_english": "I didn't go anywhere"
+      },
+      {
+        "pattern": "いつも",
+        "meaning": "always (positive without negative verb)",
+        "example": "いつも{早|はや}く{起|お}きる",
+        "example_english": "I always wake up early"
+      },
+      {
+        "pattern": "どれも + negative",
+        "meaning": "none of them",
+        "example": "どれも{欲|ほ}しくない",
+        "example_english": "I don't want any of them"
+      }
+    ]
+  },
+  "particle_contrasts": [
+    {
+      "particle": "は",
+      "explanation": "は marks topic/contrast; も adds to a set",
+      "examples": [
+        {
+          "mo_example": "{田中|たなか}さんも{来|き}ました",
+          "mo_english": "Tanaka also came",
+          "mo_note": "も: adding to those who came"
+        },
+        {
+          "ha_example": "{田中|たなか}さんは{来|き}ました",
+          "ha_english": "Tanaka came (as for Tanaka...)",
+          "ha_note": "は: topicalizing or contrasting"
+        }
+      ],
+      "key_points": [
+        "は marks topic or contrast",
+        "も marks addition/inclusion",
+        "も implies 'in addition to others'"
+      ]
+    },
+    {
+      "particle": "まで",
+      "explanation": "Both can mean 'even,' but も is simpler inclusion while まで emphasizes surprising extent",
+      "examples": [
+        {
+          "mo_example": "{子供|こども}も{知|し}っている",
+          "mo_english": "children also know",
+          "mo_note": "も: simple inclusion"
+        },
+        {
+          "made_example": "{子供|こども}まで{知|し}っている",
+          "made_english": "even children know",
+          "made_note": "まで: surprising extent"
+        }
+      ],
+      "key_points": [
+        "も 'also/even' = inclusive",
+        "まで 'even' = surprisingly far/unexpected extent"
+      ]
+    }
+  ],
+  "fixed_patterns": [
+    {
+      "pattern": "AもBも",
+      "meaning": "both A and B",
+      "example": "{肉|にく}も{魚|さかな}も{好|す}きです",
+      "example_english": "I like both meat and fish"
+    },
+    {
+      "pattern": "AもBも + negative",
+      "meaning": "neither A nor B",
+      "example": "{肉|にく}も{魚|さかな}も{食|た}べません",
+      "example_english": "I eat neither meat nor fish"
+    },
+    {
+      "pattern": "〜ても",
+      "meaning": "even if...",
+      "example": "{雨|あめ}が{降|ふ}っても{行|い}く",
+      "example_english": "I'll go even if it rains"
+    },
+    {
+      "pattern": "〜でも",
+      "meaning": "even; something like; any",
+      "example": "コーヒーでも{飲|の}みませんか",
+      "example_english": "Would you like to have some coffee or something?"
+    },
+    {
+      "pattern": "数量 + も",
+      "meaning": "as many/much as (emphasis)",
+      "example": "{三回|さんかい}も{失敗|しっぱい}した",
+      "example_english": "failed as many as three times"
+    },
+    {
+      "pattern": "一〜も + negative",
+      "meaning": "not even one",
+      "example": "{一人|ひとり}も{来|こ}なかった",
+      "example_english": "not even one person came"
+    }
+  ],
+  "examples": [
+    {
+      "id": "00484_mo_ex1",
+      "japanese": "{私|わたし}も{日本語|にほんご}を{勉強|べんきょう}しています。",
+      "english": "I'm also studying Japanese.",
+      "notes": "Replaces は",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00484_mo_ex2",
+      "japanese": "これも{買|か}いたいです。",
+      "english": "I want to buy this too.",
+      "notes": "Replaces を",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00484_mo_ex3",
+      "japanese": "{誰|だれ}も{来|き}ませんでした。",
+      "english": "Nobody came.",
+      "notes": "Question word + も + negative = nobody/nothing",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00484_mo_ex4",
+      "japanese": "{お茶|おちゃ}もコーヒーもあります。",
+      "english": "We have both tea and coffee.",
+      "notes": "AもBも = both A and B",
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00484_mo_ex5",
+      "japanese": "{三時間|さんじかん}も{待|ま}ちました。",
+      "english": "I waited for as long as three hours.",
+      "notes": "Quantity + も = emphasis on amount",
+      "has_audio": false,
+      "sense_numbers": [
+        4
+      ]
+    },
+    {
+      "id": "00484_mo_ex6",
+      "japanese": "{東京|とうきょう}にも{行|い}きました。",
+      "english": "I also went to Tokyo.",
+      "notes": "も attaches after に",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Using も instead of は for topic",
+      "context": "{私|わたし}も{田中|たなか}です (I'm also Tanaka) vs {私|わたし}は{田中|たなか}です (I'm Tanaka)",
+      "explanation": "も implies addition; use は for simple topic"
+    },
+    {
+      "mistake": "Using を with も",
+      "incorrect": "これをも{買|か}う",
+      "correct": "これも{買|か}う",
+      "explanation": "も replaces を, doesn't attach after it"
+    },
+    {
+      "mistake": "Forgetting negative with question word patterns",
+      "incorrect": "{誰|だれ}も{来|き}ました (Everyone came? - actually means 'did anyone come?')",
+      "correct": "{誰|だれ}も{来|こ}なかった (Nobody came) or {皆|みんな}{来|き}ました (Everyone came)",
+      "explanation": "{誰|だれ}も with negative = nobody; for 'everyone' use {皆|みんな} or {誰|だれ}でも"
+    }
+  ],
+  "notes": "も replaces は, が, and を but attaches after other particles: に→にも, で→でも, と→とも. With question words and negatives: {誰|だれ}も...ない (nobody), {何|なに}も...ない (nothing), どこも...ない (nowhere). These patterns are essential for expressing 'nobody/nothing/nowhere.'",
+  "cross_references": [
+    {
+      "type": "see_also",
+      "reading": "は",
+      "headword": "は",
+      "target_id": "00079_ha"
+    },
+    {
+      "type": "see_also",
+      "reading": "まで",
+      "headword": "まで",
+      "target_id": "00490_made"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-05T12:58:49Z",
+    "modified": "2026-01-18T09:21:25Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "basic"
+  }
+}
