@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,149
-- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,958 | General: 557 | Unassigned: 489
-- **Candidate words**: ~667 words tracked in `candidate_words.json`
+- **Total entries**: 7,179
+- **Vocabulary tier assignment**: Basic: 1,115 | Core: 4,988 | General: 557 | Unassigned: 489
+- **Candidate words**: ~637 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 125)
+Added 30 new dictionary entries from candidate_words.json, covering adverbs, adjectives, compound verbs, and practical vocabulary:
+
+- **Adverbs** (5): {互|たが}いに (mutually), {意外|いがい}と (unexpectedly), {思|おも}いがけず (unexpectedly), {仕方|しかた}なく (reluctantly), {思|おも}い{切|き}って (resolutely)
+- **Na-adjectives** (5): {巧|たく}み (skillful), {気|き}さく (friendly), {気楽|きらく} (carefree), {些細|ささい} (trivial), {手軽|てがる} (easy)
+- **I-adjectives** (3): {気持|きも}ち{悪|わる}い (creepy), {我慢強|がまんづよ}い (patient), {粘|ねば}り{強|づよ}い (tenacious)
+- **Nouns** (10): {打|う}ち{合|あ}わせ (meeting), {調理|ちょうり} (cooking), レシピ (recipe), {落|お}ち{着|つ}き (composure), プレッシャー (pressure), {諦|あきら}め (resignation), {決意|けつい} (determination), {仕組|しく}み (mechanism), {手遅|ておく}れ (too late), {手入|てい}れ (maintenance)
+- **Compound verbs** (7): {見渡|みわた}す (to survey), {見届|みとど}ける (to see through), {見極|みきわ}める (to discern), {思|おも}い{知|し}る (to learn from experience), {思|おも}い{直|なお}す (to reconsider), {手間取|てまど}る (to take time), {使|つか}いこなす (to master)
+
+Notable entry features:
+- Strong adverb coverage: manner expressions ({互|たが}いに, {仕方|しかた}なく) and unexpectedness ({意外|いがい}と, {思|おも}いがけず)
+- Personality/character adjectives: {気|き}さく, {気楽|きらく}, {我慢強|がまんづよ}い, {粘|ねば}り{強|づよ}い with nuance distinctions
+- {見|み}る compound verbs: {見渡|みわた}す, {見届|みとど}ける, {見極|みきわ}める showing visual perception patterns
+- {思|おも}う compound verbs: {思|おも}い{切|き}って, {思|おも}い{知|し}る, {思|おも}い{直|なお}す showing mental processes
+- {手|て} compounds: {手遅|ておく}れ, {手入|てい}れ, {手軽|てがる}, {手間取|てまど}る with practical meanings
+- Business/work vocabulary: {打|う}ち{合|あ}わせ, プレッシャー, {調理|ちょうり}, レシピ
+
+Total entries: 7,149 → 7,179
+Remaining candidates: ~667 → ~637
 
 ### 2026-01-19 (New Candidates - 100 Words Added, Session 124)
 Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
@@ -364,28 +384,6 @@ Fixed inconsistency where some entries had katakana readings instead of hiragana
 
 Total entries: 7,021 → 6,969 (52 duplicates removed)
 Remaining candidates: ~709 → ~651 (51 synced + 7 duplicates removed)
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 115)
-Added 30 new dictionary entries from candidate_words.json, covering grammar patterns, four-character idioms, modern vocabulary, and everyday terms:
-
-- **Grammar patterns** (5): に{関|かん}して (regarding), に{際|さい}して (on the occasion of), をもって (with/by means of), さもないと (otherwise), そうすると (in that case)
-- **Casual expressions** (3): つーか (or rather - very casual), {知|し}らんけど (I dunno though - Kansai hedge), ぴえん (sad - internet slang)
-- **Four-character idioms (yojijukugo)** (4): {一触即発|いっしょくそくはつ} (explosive situation), {全身全霊|ぜんしんぜんれい} (with all one's heart), {危機一髪|ききいっぱつ} (close call), {多事多難|たじたなん} (full of troubles)
-- **Modern loanwords** (5): ストレージ (storage), デバイス (device), アジェンダ (agenda), クレジットカード (credit card), コメント (comment)
-- **Music/Entertainment vocabulary** (3): {奏者|そうしゃ} (instrumentalist), {不協和音|ふきょうわおん} (dissonance), {自己|じこ}ベスト (personal best)
-- **Everyday vocabulary** (6): バイト (part-time job), いける (to be doable), {湿疹|しっしん} (eczema), {分数|ぶんすう} (fraction), {残|のこ}らず (without exception), {一直線|いっちょくせん} (straight line/beeline)
-- **Social/Family vocabulary** (2): ママ{友|とも} (mom friend), {就学|しゅうがく} (school attendance)
-- **Formal expressions** (2): ご{容赦|ようしゃ} (pardon), {切符|きっぷ}{売|う}り{場|ば} (ticket booth)
-
-Notable entry features:
-- Formal grammar pattern coverage: に{関|かん}して vs について (formality contrast)
-- Internet/youth slang: ぴえん with emoji context (🥺), {知|し}らんけど spreading from Kansai
-- Comprehensive yojijukugo: {一触即発|いっしょくそくはつ} ↔ {危機一髪|ききいっぱつ} (cross-referenced)
-- Tech vocabulary: ストレージ, デバイス for digital literacy
-- Hybrid terms: {自己|じこ}ベスト (Japanese + English compound)
-
-Total entries: 6,991 → 7,021
-Remaining candidates: ~738 → ~709
 
 ---
 
