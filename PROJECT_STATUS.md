@@ -37,7 +37,7 @@
 
 ### Content Status
 - **Total entries**: 7,359
-- **Vocabulary tier assignment**: Basic: 1,121 | Core: 5,109 | General: 580 | Unassigned: 519
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,566 | Unassigned: 0 ✓
 - **Candidate words**: ~563 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
@@ -49,7 +49,7 @@ The dictionary uses a three-tier vocabulary classification system (see vocabular
 - **Core**: 1,600-2,000 words for adult-level communication
 - **General**: All other vocabulary useful for learners
 
-Most entries have provisional tier assignments. These values are subject to revision as the dictionary develops and tier assignment policies are refined.
+Tier realignment completed 2026-01-19: All entries now have tier assignments that meet target ranges. The basic and core tiers are curated to ensure semantic group integrity (no splitting groups across tiers).
 
 ### Entry Breakdown by Type
 | Type | Count | Notes |
@@ -103,6 +103,25 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (Vocabulary Tier Realignment Complete - Phase 4 & 5)
+Completed the vocabulary tier realignment project (Phases 4 and 5):
+
+**Phase 4: Assigned 200 unassigned entries**
+- All previously unassigned entries have been assigned to the general tier
+- Categories included: four-character idioms (yojijukugo), proverbs, traditional Japanese items, modern tech/business terms, medical terms, work terms, -teki adjectives, onomatopoeia, and compound verbs
+
+**Phase 5: Validation and finalization**
+- Verified final tier counts meet targets:
+  - Basic: 795 (target: 600-800) ✓
+  - Core: 1,998 (target: 1,600-2,000) ✓
+  - General: 4,566 (no limit) ✓
+  - Unassigned: 0 (target: 0) ✓
+- Ran full validation (7,357/7,359 entries valid)
+- Updated indexes and rebuilt flat HTML
+- Updated PROJECT_STATUS.md
+
+The tier realignment project is now complete. All 7,359 dictionary entries have vocabulary tier assignments that meet the target ranges specified in the vocabulary-tiers skill guidelines.
 
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 132)
 Added 30 new dictionary entries from candidate_words.json, focusing on verbs describing physical/state changes, language/dialect vocabulary, suru-verbs for social dynamics, and idiomatic expressions:
@@ -353,31 +372,6 @@ Notable features:
 - Balance of native Japanese and loanwords
 
 Candidate count: 567 → 667
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 123)
-Added 30 new dictionary entries from candidate_words.json, covering yojijukugo, mimetics, cultural/religious items, modern vocabulary, and everyday terms:
-
-- **Yojijukugo** (4): {満身創痍|まんしんそうい} (covered in wounds), {付和雷同|ふわらいどう} (following blindly), {栄枯盛衰|えいこせいすい} (rise and fall), {明鏡止水|めいきょうしすい} (serene mind)
-- **Mimetics/Adverbs** (4): ちょこちょこ (in small steps), きりきり (sharp pain), ひょこひょこ (bobbing), ひょいと (quickly)
-- **Traditional New Year games** (3): {凧揚|たこあ}げ (kite flying), {羽根|はね}つき (Japanese badminton), {福笑|ふくわら}い (pin-the-face game)
-- **Religious/Cultural items** (3): {数珠|じゅず} (prayer beads), {位牌|いはい} (memorial tablet), {熨斗|のし} (gift ornament)
-- **Adjectives** (2): てれくさい (embarrassing), {気恥|きは}ずかしい (bashful)
-- **Modern/Safety vocabulary** (4): {節電|せつでん} (power saving), {防犯|ぼうはん}カメラ (security camera), {避難経路|ひなんけいろ} (evacuation route), {観客席|かんきゃくせき} (spectator seating)
-- **Facilities/Fees** (3): {多目的|たもくてき}トイレ (accessible toilet), {入館料|にゅうかんりょう} (admission fee), {宿泊料|しゅくはくりょう} (accommodation fee)
-- **Work/Life** (1): {育児休暇|いくじきゅうか} (parental leave)
-- **Tools/Architecture** (4): やすり (file), {雨樋|あまどい} (rain gutter), {土台|どだい} (foundation), {糸鋸|いとのこ} (coping saw)
-- **Nature/Taste** (2): {引|ひ}き{潮|しお} (ebb tide), {渋|しぶ}み (astringency)
-
-Notable entry features:
-- Four yojijukugo with character breakdowns and etymology
-- Traditional New Year games group with cross-references and cultural context
-- Buddhist/religious vocabulary: {数珠|じゅず}, {位牌|いはい} linked with {仏壇|ぶつだん}
-- Modern safety terminology common in public facilities
-- Japanese aesthetic concept: {渋|しぶ}み (astringency and refined elegance)
-- Mimetics describing manner of movement and sensation
-
-Total entries: 7,119 → 7,149
-Remaining candidates: ~597 → ~567
 
 ---
 
