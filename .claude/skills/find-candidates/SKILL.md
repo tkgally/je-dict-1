@@ -91,9 +91,9 @@ A word qualifies for addition if it meets at least one of these criteria:
 The word should have a usage frequency or centrality to contemporary Japanese similar to words already in `entries_index.json`.
 
 **How to assess:**
-- Evaluate words based on the three-tier vocabulary system (see vocabulary-tiers skill): basic (fundamental 600-800 words), core (1600-2000 words for adult communication), or general (all other useful vocabulary)
 - Consider whether an intermediate learner would encounter this word regularly
 - Compare to existing entries at similar frequency levels
+- Note: All new entries are assigned to the general tier (basic and core tiers are complete)
 
 ### 2-2. Semantic Relation to Existing Entries
 
@@ -123,24 +123,15 @@ Well-known informal or colloquial terms that:
 
 The dictionary has ~6,000 entries plus ~700 candidates. Use a variety of strategies to find remaining gaps while ensuring comprehensive coverage.
 
-### CRITICAL: Basic and Core Tier Completeness
+### Vocabulary Tier Status
 
-**Before exploring specialized vocabulary, ensure the basic and core tiers are complete.**
+**The basic and core tiers are complete (as of January 2026).**
 
-The vocabulary-tiers skill defines:
-- **Basic tier (600-800 words):** Fundamental vocabulary for any learner
-- **Core tier (1600-2000 words):** Vocabulary expected of any adult using Japanese
+- Basic: 795 entries (target met)
+- Core: 1,998 entries (target met)
+- General: 4,566+ entries (all new vocabulary goes here)
 
-**Priority audit areas for basic/core completeness:**
-- Function words (particles, conjunctions, sentence-final expressions)
-- Question words and demonstratives
-- Numbers, counters, and time expressions
-- Body parts, family terms, colors, directions
-- Core verbs for daily actions, communication, movement
-- Essential adjectives for description
-- Common adverbs
-
-If any words that clearly belong in basic or core tiers are missing, prioritize adding them before expanding into specialized or general-tier vocabulary.
+**All new candidate words will be assigned to the general tier.** Focus on finding useful vocabulary for advanced learners, specialized topics, and vocabulary that complements existing entries.
 
 ### Strategy: Corpus-Driven Gap Analysis
 
@@ -276,7 +267,7 @@ After adding candidates, report:
 - **Duplicates are blocked automatically:** The `manage_candidates.py add` command will refuse to add duplicates
 - **Watch for near-duplicates:** The automatic check catches exact matches; manually verify for verb forms, kanji variants, etc.
 - **Breadth over depth:** Aim for broad coverage across many domains rather than deep coverage of a few
-- **Basic/core first:** Prioritize completing basic and core tiers before expanding into specialized vocabulary
+- **General tier only:** All new entries are assigned to the general tier (basic and core are complete)
 - **Learner utility:** Prioritize words an intermediate learner would benefit from knowing
 - **No proper nouns:** Save those for systematic addition later
 - **Stable vocabulary:** Avoid ephemeral slang or highly specialized jargon

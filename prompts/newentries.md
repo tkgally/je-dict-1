@@ -45,6 +45,7 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
 - Examples progress simple → complex, include at least one collocation
 - **All examples require sense_numbers** - validation will fail without them
 - Timestamps must be from get_timestamp.py - the Z suffix is UTC, not JST
+- **All new entries must have `vocabulary_tier: "general"`** - basic and core tiers are fixed
 
 ## Duplicate Check Details
 

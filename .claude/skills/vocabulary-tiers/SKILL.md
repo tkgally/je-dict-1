@@ -209,29 +209,43 @@ Specialized ({弁護士|べんごし}, {会計士|かいけいし}) → core/gen
 
 ## Implementation Notes
 
+### Tier Realignment Complete (January 2026)
+
+The vocabulary tier realignment project has been completed. The tiers are now fixed at:
+- **Basic**: 795 entries (within 600-800 target)
+- **Core**: 1,998 entries (within 1,600-2,000 target)
+- **General**: 4,566+ entries (no limit)
+
+All entries have been assigned a tier, and semantic groups are kept intact (no groups split across tiers).
+
+### For New Entries (IMPORTANT)
+
+**All new entries must be assigned to the "general" tier.**
+
+Do NOT assign new entries to basic or core tiers. The basic and core tiers have been curated to:
+- Meet specific word count targets
+- Maintain semantic group integrity
+- Cover foundational and adult-communication vocabulary
+
+When creating a new entry, always set:
+```json
+"metadata": {
+  "vocabulary_tier": "general",
+  ...
+}
+```
+
+The only exception is if explicitly instructed by the user to adjust tier assignments.
+
 ### For Existing Entries
 
-When revising existing entries to use the new tier system:
-
-1. **Identify semantic groups first** - Before assigning individual words, map out which semantic groups exist in the dictionary
-2. **Assign groups holistically** - Decide tier for entire groups, not individual words
-3. **Respect word limits** - Track cumulative counts: basic ≤ 800, core ≤ 2000
-4. **Document borderline cases** - Note when a decision was difficult for consistency
-
-### For New Entries
-
-When creating new entries:
-
-1. **Check semantic group membership** - Does this word belong to a group?
-2. **Check group's assigned tier** - If the group exists, use that tier
-3. **If new group** - Consider where the full group would fit, assign accordingly
-4. **If standalone word** - Apply the decision criteria above
+The basic and core tiers are considered stable. If you need to revise an existing entry:
+- **Do NOT change its vocabulary_tier** unless explicitly instructed
+- Basic and core entries were carefully curated to maintain semantic group integrity
 
 ### Schema Note
 
-Vocabulary tier is stored in the `metadata.vocabulary_tier` field. Valid values are `"basic"`, `"core"`, `"general"`, or `null` (for entries not yet assigned a tier).
-
-Current tier assignments are provisional and subject to revision as the dictionary develops.
+Vocabulary tier is stored in the `metadata.vocabulary_tier` field. Valid values are `"basic"`, `"core"`, or `"general"`.
 
 ---
 
@@ -295,11 +309,9 @@ A learner should either know all prefectures or learn them as needed. Partial kn
 
 ---
 
-## Quality Checklist for Tier Assignment
+## Quality Checklist for New Entries
 
-- [ ] Word has been assigned a tier (basic, core, or general)
-- [ ] Semantic group membership has been considered
-- [ ] If part of a group, entire group is in same tier
-- [ ] Assignment follows the decision criteria
-- [ ] Word limits are respected (basic ≤ 800, core ≤ 2000)
-- [ ] Borderline decisions are documented
+- [ ] `vocabulary_tier` is set to `"general"` (required for all new entries)
+- [ ] Entry follows all other schema requirements
+
+**Note**: The decision criteria above (basic/core/general) are historical documentation of how the tiers were curated. They should NOT be used to assign new entries to basic or core tiers. All new entries go to general tier.

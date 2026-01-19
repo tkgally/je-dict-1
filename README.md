@@ -26,11 +26,12 @@ Dictionary features include:
 
 ## Current Status
 
-- **5,907 entries** with a total target of about 10,000 entries. The dictionary uses an original three-tier vocabulary classification system (basic, core, general) rather than JLPT levels.
+- **7,359 entries** with a total target of about 10,000 entries
+- **Vocabulary tiers assigned**: Basic (795), Core (1,998), General (4,566) - all new entries are added to general tier
 - **1,028 audio files** with pronunciation for example sentences, produced with OpenAI's text-to-speech models
 - **567 cross-references** linking related entries with 97% resolution rate
 - **Claude Code skills** for consistent entry creation and revision
-- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions (~967 candidates)
+- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions (~563 candidates)
 - **Robust build system** with atomic builds, XSS protection, and comprehensive validation
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -93,8 +94,9 @@ Quick lookup by Japanese, romaji, or English. The traditional dictionary experie
 ### Browse Mode
 Explore entries organized by:
 - **Starting Kana**: あ行, か行, さ行, etc.
+- **Vocabulary Tier**: Basic (795 fundamental words), Core (1,998 adult-communication words), General (all other vocabulary)
 
-Tier-based filtering (basic, core, general) will be available once vocabulary tiers are assigned to entries. The dictionary uses an original three-tier classification system instead of JLPT levels.
+The dictionary uses an original three-tier classification system instead of JLPT levels. All new entries are added to the general tier.
 
 ### Recent Mode
 View the most recently added or revised entries (up to 250). Each entry shows:
@@ -317,7 +319,7 @@ audio/
 - [x] Notes formatting with bullet points
 
 ### Phase 4: Vocabulary Expansion & Interface (Current)
-- [x] Added ~4,700 additional vocabulary entries
+- [x] Added ~6,500 additional vocabulary entries (7,359 total)
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle and furigana button
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
@@ -326,9 +328,9 @@ audio/
 - [x] Static HTML site generation (flat HTML only)
 - [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
 - [x] Code quality improvements (shared utilities, deterministic builds)
-- [x] Migrated from JLPT levels to three-tier vocabulary system (basic, core, general)
-- [ ] Assign vocabulary tiers to existing entries
-- [ ] Continue adding vocabulary from candidate list (~1,247 candidates)
+- [x] Three-tier vocabulary system (basic 795, core 1,998, general 4,566)
+- [x] Vocabulary tier realignment complete - all entries assigned
+- [ ] Continue adding vocabulary from candidate list (~563 candidates)
 - [ ] Tier-based filtering in Browse mode
 - [ ] Conjugation search indexing
 
