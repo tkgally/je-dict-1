@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,299
-- **Vocabulary tier assignment**: Basic: 1,120 | Core: 5,086 | General: 574 | Unassigned: 489
-- **Candidate words**: ~622 words tracked in `candidate_words.json`
+- **Total entries**: 7,329
+- **Vocabulary tier assignment**: Basic: 1,121 | Core: 5,109 | General: 580 | Unassigned: 489
+- **Candidate words**: ~592 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 131)
+Added 30 new dictionary entries from candidate_words.json, focusing on progress/process verbs, emotional adjectives, speech-related nouns, status expressions, and mimetics:
+
+- **Verbs (7)**: {煮詰|につ}まる (to boil down/be stuck), うつむく (to look down), {拗|こじ}れる (to get complicated), {揉|も}める (to have trouble), {捗|はかど}る (to make progress), {滞|とどこお}る (to stagnate), {凌|しの}ぐ (to endure/surpass)
+- **I-adjectives (3)**: やるせない (helpless/forlorn), {空|むな}しい (empty/futile), しんどい (tiring/exhausting)
+- **Na-adjectives (2)**: {不用意|ふようい} (careless), {不可解|ふかかい} (incomprehensible)
+- **Speech/words nouns (4)**: {寝言|ねごと} (sleep-talking), たわ{言|ごと} (nonsense), {繰|く}り{言|ごと} (repetitive complaints), {減|へ}らず{口|ぐち} (backtalk)
+- **Social/everyday nouns (7)**: {待|ま}ち{合|あ}わせ (meeting up), {後回|あとまわ}し (putting off), お{手上|てあ}げ (giving up), {巡|めぐ}り{合|あ}わせ (fate/chance), {宿命|しゅくめい} (destiny), {井戸端会議|いどばたかいぎ} (gossip session), {二枚目|にまいめ}/{三枚目|さんまいめ} (handsome man/comedian from kabuki)
+- **Status nouns (2)**: {格上|かくうえ} (higher rank), {格下|かくした} (lower rank)
+- **Mimetics/Adverbs (5)**: ちらちら (flickering/glancing), めきめき (rapidly improving), ぴりぴり (tingling/tense), {晴|は}れ{晴|ば}れ (cheerfully)
+
+Notable entry features:
+- Progress/stagnation verbs as antonym pair: {捗|はかど}る ↔ {滞|とどこお}る with cross-references
+- Emotional vocabulary: やるせない (with etymology from {遣|や}る{瀬|せ}), {空|むな}しい (empty/futile)
+- Japanese speech patterns: 〜{言|ごと} suffix words ({寝言|ねごと}, たわ{言|ごと}, {繰|く}り{言|ごと})
+- Kabuki terminology: {二枚目|にまいめ}/{三枚目|さんまいめ} with historical context
+- しんどい with Kansai dialect origin note
+- Mimetics covering visual (ちらちら), progress (めきめき), sensation (ぴりぴり), and emotion ({晴|は}れ{晴|ば}れ)
+
+Total entries: 7,299 → 7,329
+Remaining candidates: ~622 → ~592
 
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 130)
 Added 30 new dictionary entries from candidate_words.json, focusing on expressive verbs, emotions/personality adjectives, adverbs, weather/disaster vocabulary, and common expressions:
@@ -363,32 +385,6 @@ Notable entry features:
 
 Total entries: 7,089 → 7,119
 Remaining candidates: ~627 → ~597
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 121)
-Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary across multiple categories:
-
-- **Establishments/Facilities** (3): バー (bar), {控|ひか}え{室|しつ} (waiting room), {授乳室|じゅにゅうしつ} (nursing room)
-- **Architecture/Windows** (2): {天窓|てんまど} (skylight), {出窓|でまど} (bay window)
-- **Tools/Equipment** (4): {蛍光|けいこう}ペン (highlighter), {軍手|ぐんて} (work gloves), {紙|かみ}やすり (sandpaper), ゴーグル (goggles)
-- **Household products** (3): {延長|えんちょう}コード (extension cord), {消臭剤|しょうしゅうざい} (deodorizer), {接着剤|せっちゃくざい} (adhesive)
-- **Crafts/Hobbies** (6): {手芸|しゅげい} (handicraft), {木彫|きぼ}り (wood carving), {日曜大工|にちようだいく} (DIY), {模型|もけい} (model), コスプレ (cosplay), フィギュア (figure)
-- **Art** (2): {油絵|あぶらえ} (oil painting), {水彩画|すいさいが} (watercolor painting)
-- **Music genres** (3): {演歌|えんか} (enka), {民謡|みんよう} (folk song), ジャズ (jazz)
-- **Finance** (2): {元本|がんぽん} (principal), {額面|がくめん} (face value)
-- **Elections/Lotteries** (2): {当選|とうせん} (winning), {落選|らくせん} (losing)
-- **Medical** (1): {脱臼|だっきゅう} (dislocation)
-- **Gardening** (1): {家庭菜園|かていさいえん} (home vegetable garden)
-- **Other** (1): トラブル (trouble)
-
-Notable entry features:
-- Hobby/culture vocabulary: コスプレ, フィギュア, {日曜大工|にちようだいく} with etymology and cultural context
-- Art vocabulary contrast pairs: {油絵|あぶらえ} ↔ {水彩画|すいさいが}
-- Music genres with cultural notes: {演歌|えんか} (famous singers), {民謡|みんよう} (regional songs)
-- Election vocabulary antonym pair: {当選|とうせん} ↔ {落選|らくせん}
-- Financial terms with context: {元本|がんぽん}, {額面|がくめん} (including figurative usage)
-
-Total entries: 7,059 → 7,089
-Remaining candidates: ~657 → ~627
 
 ---
 
