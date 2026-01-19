@@ -382,20 +382,25 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     return '\n'.join(html_parts)
 
 
-def generate_index_page(entry_count: int) -> str:
+def generate_index_page(entry_count: int, tier_counts: dict, build_time_jst: str) -> str:
     """Generate the main index.html page."""
+    basic_count = tier_counts.get('basic', 0)
+    core_count = tier_counts.get('core', 0)
+    general_count = tier_counts.get('general', 0)
+    unassigned_count = tier_counts.get('unassigned', 0)
+
     return f'''{generate_html_head("Home")}
 <body>
 {generate_nav_header()}
 <main class="home-page">
     <div class="hero">
         <h1>Japanese-English Learner's Dictionary</h1>
-        <p class="subtitle">A quality-focused dictionary for learners of Japanese</p>
+        <p class="subtitle">An explanatory dictionary for learners of Japanese</p>
     </div>
 
     <section class="intro">
         <h2>About This Dictionary</h2>
-        <p>This dictionary is designed for learners of Japanese as a second language. Unlike comprehensive resources, this dictionary prioritizes <strong>depth and quality</strong> over quantity.</p>
+        <p>This dictionary is designed for learners of Japanese as a second language.</p>
 
         <p>Each entry includes:</p>
         <ul>
@@ -412,6 +417,22 @@ def generate_index_page(entry_count: int) -> str:
             <div class="stat-item">
                 <span class="stat-number">{entry_count:,}</span>
                 <span class="stat-label">Entries</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{basic_count:,}</span>
+                <span class="stat-label">Basic</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{core_count:,}</span>
+                <span class="stat-label">Core</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{general_count:,}</span>
+                <span class="stat-label">General</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{unassigned_count:,}</span>
+                <span class="stat-label">Unassigned</span>
             </div>
         </div>
     </section>
@@ -445,6 +466,7 @@ def generate_index_page(entry_count: int) -> str:
 
 <footer>
     <p>Japanese-English Learner's Dictionary - Under Development</p>
+    <p>Last update: {build_time_jst}</p>
 </footer>
 {generate_furigana_script()}
 </body>
@@ -1969,12 +1991,25 @@ def build_flat(project_root: Path) -> int:
             f.write(entry_html)
     print(f"  Generated {len(entries)} entry pages")
 
+    # Count vocabulary tiers
+    tier_counts = {'basic': 0, 'core': 0, 'general': 0, 'unassigned': 0}
+    for entry in entries:
+        tier = entry.get('metadata', {}).get('vocabulary_tier', '')
+        if tier in ('basic', 'core', 'general'):
+            tier_counts[tier] += 1
+        else:
+            tier_counts['unassigned'] += 1
+
+    # Generate build timestamp in JST
+    build_time = datetime.now(JST)
+    build_time_jst = f"{build_time.year}.{build_time.month}.{build_time.day} {build_time.hour}:{build_time.minute:02d}"
+
     # Step 4: Generate navigation pages
     print("\n[4/6] Generating navigation pages...")
 
     # Index page
     with open(docs_dir / 'index.html', 'w', encoding='utf-8') as f:
-        f.write(generate_index_page(len(entries)))
+        f.write(generate_index_page(len(entries), tier_counts, build_time_jst))
 
     # Search page
     with open(docs_dir / 'search.html', 'w', encoding='utf-8') as f:
