@@ -7,6 +7,26 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 118)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, verbs, and nouns:
+
+- **Compound verbs** (13): {踏|ふ}み{込|こ}む (to step into), {割|わ}り{込|こ}む (to cut in line), {溶|と}け{込|こ}む (to blend in), {見|み}{抜|ぬ}く (to see through), {聞|き}き{出|だ}す (to get info out), {言|い}い{切|き}る (to say definitively), {書|か}き{上|あ}げる (to finish writing), {切|き}り{上|あ}げる (to wrap up), {思|おも}い{浮|う}かべる (to recall), {立|た}ち{向|む}かう (to confront), {繰|く}り{広|ひろ}げる (to unfold), {組|く}み{込|こ}む (to incorporate), {吸|す}い{込|こ}む (to inhale)
+- **Intransitive verbs** (3): つまずく (to stumble), よろめく (to stagger), {飛|と}び{跳|は}ねる (to jump up and down)
+- **Nouns - Hobbies/Culture** (6): {盆栽|ぼんさい} (bonsai), {麻雀|マージャン} (mahjong), {楽譜|がくふ} (sheet music), {音符|おんぷ} (musical note), {即興|そっきょう} (improvisation), {骨董品|こっとうひん} (antique)
+- **Nouns - Outdoor/Practical** (4): {寝袋|ねぶくろ} (sleeping bag), {焚|た}き{火|び} (campfire), {三脚|さんきゃく} (tripod), {網戸|あみど} (screen door)
+- **Nouns - Everyday** (2): ゴミ{箱|ばこ} (trash can), {旨味|うまみ} (umami)
+- **Nouns - Work/Leave** (2): {有給休暇|ゆうきゅうきゅうか} (paid vacation), {産休|さんきゅう} (maternity leave)
+
+Notable entry features:
+- Strong compound verb coverage with patterns: ～{込|こ}む (into), ～{抜|ぬ}く (through), ～{出|だ}す (out), ～{切|き}る (completely), ～{上|あ}げる (complete), ～{向|む}かう (toward), ～{広|ひろ}げる (expand)
+- Physical motion verbs: つまずく, よろめく, {飛|と}び{跳|は}ねる with related cross-references
+- Japanese culture vocabulary: {盆栽|ぼんさい}, {麻雀|マージャン}, {旨味|うまみ} with cultural context
+- Practical outdoor vocabulary: {寝袋|ねぶくろ}, {焚|た}き{火|び}, {三脚|さんきゃく}
+- Work-life vocabulary: {有給休暇|ゆうきゅうきゅうか}, {産休|さんきゅう} with legal context notes
+
+Total entries: 6,969 → 6,999
+Remaining candidates: ~752 → ~716
+
 ### 2026-01-18 (New Candidates - 101 Words Added, Session 117)
 Added 101 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
 

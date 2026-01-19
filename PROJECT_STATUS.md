@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,239
-- **Vocabulary tier assignment**: Basic: 1,117 | Core: 5,046 | General: 557 | Unassigned: 489
-- **Candidate words**: ~577 words tracked in `candidate_words.json`
+- **Total entries**: 7,269
+- **Vocabulary tier assignment**: Basic: 1,118 | Core: 5,061 | General: 571 | Unassigned: 489
+- **Candidate words**: ~547 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,33 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 128)
+Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, cultural/hobby terms, transportation, and business expressions:
+
+- **Keigo/honorific** (1): お{越|こ}し (coming - honorific)
+- **Social/group** (1): {仲間入|なかまい}り (joining a group)
+- **Reading/communication** (1): {行間|ぎょうかん} (line spacing; between the lines)
+- **Hobbies/entertainment** (7): パチンコ (pachinko), {同人誌|どうじんし} (doujinshi), コレクション (collection), プラモデル (plastic model), ゲーセン (game center), {天体観測|てんたいかんそく} (astronomical observation), {利|き}き{酒|ざけ} (sake tasting)
+- **Outdoor/sports** (2): {釣|つ}り{竿|ざお} (fishing rod), {登山靴|とざんぐつ} (hiking boots)
+- **Car parts** (2): バックミラー (rearview mirror), ワイパー (windshield wiper)
+- **Household** (2): {排水溝|はいすいこう} (drain), {靴棚|くつだな} (shoe rack)
+- **Adverbs** (3): ともあれ (anyway), ひょっと (possibly), {明|あき}らかに (clearly)
+- **Occupations** (1): {運転士|うんてんし} (train driver)
+- **Medical** (1): {切|き}り{傷|きず} (cut wound)
+- **Technology** (2): リンク (link/URL), スキャン (scan)
+- **Business/shipping** (4): {払戻|はらいもど}し (refund), {返送|へんそう} (return shipping), {送付|そうふ} (sending), {取消|とりけし} (cancellation)
+- **Crafts/games** (3): {型紙|かたがみ} (pattern/template), {双六|すごろく} (sugoroku), ラジコン (radio-controlled)
+
+Notable entry features:
+- Japanese cultural vocabulary: パチンコ with gambling context, {同人誌|どうじんし} with otaku culture notes, {双六|すごろく} as traditional New Year game
+- Hobby vocabulary group: コレクション, プラモデル, ゲーセン, {天体観測|てんたいかんそく}, ラジコン
+- Business correspondence: {送付|そうふ}/{返送|へんそう} contrast pair, {払戻|はらいもど}し, {取消|とりけし}
+- Practical everyday vocabulary: car parts, household items, medical terms
+- Adverbs with common patterns: ともあれ, ひょっと (with ひょっとしたら/ひょっとして)
+
+Total entries: 7,239 → 7,269
+Remaining candidates: ~577 → ~547
 
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 127)
 Added 30 new dictionary entries from candidate_words.json, focusing on personality traits, social relationships, consideration/care vocabulary, and useful adjectives:
@@ -342,26 +369,6 @@ Notable entry features:
 
 Total entries: 6,999 → 7,029
 Remaining candidates: ~716 → ~687
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 118)
-Added 30 new dictionary entries from candidate_words.json, covering compound verbs, verbs, and nouns:
-
-- **Compound verbs** (13): {踏|ふ}み{込|こ}む (to step into), {割|わ}り{込|こ}む (to cut in line), {溶|と}け{込|こ}む (to blend in), {見|み}{抜|ぬ}く (to see through), {聞|き}き{出|だ}す (to get info out), {言|い}い{切|き}る (to say definitively), {書|か}き{上|あ}げる (to finish writing), {切|き}り{上|あ}げる (to wrap up), {思|おも}い{浮|う}かべる (to recall), {立|た}ち{向|む}かう (to confront), {繰|く}り{広|ひろ}げる (to unfold), {組|く}み{込|こ}む (to incorporate), {吸|す}い{込|こ}む (to inhale)
-- **Intransitive verbs** (3): つまずく (to stumble), よろめく (to stagger), {飛|と}び{跳|は}ねる (to jump up and down)
-- **Nouns - Hobbies/Culture** (6): {盆栽|ぼんさい} (bonsai), {麻雀|マージャン} (mahjong), {楽譜|がくふ} (sheet music), {音符|おんぷ} (musical note), {即興|そっきょう} (improvisation), {骨董品|こっとうひん} (antique)
-- **Nouns - Outdoor/Practical** (4): {寝袋|ねぶくろ} (sleeping bag), {焚|た}き{火|び} (campfire), {三脚|さんきゃく} (tripod), {網戸|あみど} (screen door)
-- **Nouns - Everyday** (2): ゴミ{箱|ばこ} (trash can), {旨味|うまみ} (umami)
-- **Nouns - Work/Leave** (2): {有給休暇|ゆうきゅうきゅうか} (paid vacation), {産休|さんきゅう} (maternity leave)
-
-Notable entry features:
-- Strong compound verb coverage with patterns: ～{込|こ}む (into), ～{抜|ぬ}く (through), ～{出|だ}す (out), ～{切|き}る (completely), ～{上|あ}げる (complete), ～{向|む}かう (toward), ～{広|ひろ}げる (expand)
-- Physical motion verbs: つまずく, よろめく, {飛|と}び{跳|は}ねる with related cross-references
-- Japanese culture vocabulary: {盆栽|ぼんさい}, {麻雀|マージャン}, {旨味|うまみ} with cultural context
-- Practical outdoor vocabulary: {寝袋|ねぶくろ}, {焚|た}き{火|び}, {三脚|さんきゃく}
-- Work-life vocabulary: {有給休暇|ゆうきゅうきゅうか}, {産休|さんきゅう} with legal context notes
-
-Total entries: 6,969 → 6,999
-Remaining candidates: ~752 → ~716
 
 ---
 
