@@ -138,8 +138,29 @@ COMMON MISTAKES:
 - Inclusive listing
 - Emphatic negation: {誰|だれ}も{来|こ}なかった
 
+## Required Tags for Particles
+
+All particle entries must include these tags in `metadata.tags`:
+
+```json
+"metadata": {
+  "tags": {
+    "pos": ["particle"],
+    "formality": "neutral",       // Most particles are neutral
+    "politeness": "plain",        // Particles themselves are plain
+    "semantic": ["grammatical"]   // Use "grammatical" for particles
+  }
+}
+```
+
+**Notes:**
+- Particles are functional words, so `semantic: ["grammatical"]` is appropriate
+- Some particles may have `formality` variations (e.g., formal written particles)
+- The `style` tag can be added for written-only particles: `"style": ["written"]`
+
 ## Quality Checklist for Particles
 
+- [ ] **Tags complete**: pos, formality, politeness, semantic all present
 - [ ] All major functions listed with examples
 - [ ] Predicates requiring this particle explicitly listed
 - [ ] Contrast with commonly confused particles explained

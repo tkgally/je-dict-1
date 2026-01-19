@@ -234,11 +234,64 @@ All examples must include a `sense_numbers` field linking them to the definition
 
 ---
 
+## Required Tags by Entry Type
+
+All entries must include tags in `metadata.tags`. See `entry-guidelines` skill for full details.
+
+### Nouns
+
+```json
+"tags": {
+  "pos": ["noun"],              // Use ["noun", "verb-suru"] for suru-verbs
+  "formality": "neutral",       // formal/neutral/informal/vulgar
+  "politeness": "plain",        // honorific/humble/polite/plain
+  "semantic": ["food"]          // Choose appropriate category
+}
+```
+
+**Semantic categories for nouns:** `food`, `clothing`, `building`, `transportation`, `tool`, `furniture`, `electronics`, `body-part`, `body-internal`, `family`, `person`, `occupation`, `animal-*`, `plant-*`, `weather`, `geography`, `time-*`, `emotion`, `color`, `number`, `direction`, `size`, `quantity`, `work`, `education`, `leisure`, or `general` (fallback).
+
+### Counters
+
+```json
+"tags": {
+  "pos": ["counter"],
+  "formality": "neutral",
+  "politeness": "plain",
+  "semantic": ["number"]        // Counters are typically "number"
+}
+```
+
+### Adverbs
+
+```json
+"tags": {
+  "pos": ["adverb"],
+  "formality": "neutral",       // Many adverbs are register-specific
+  "politeness": "plain",
+  "semantic": ["descriptive"]   // Use "descriptive" for adverbs
+}
+```
+
+### Expressions
+
+```json
+"tags": {
+  "pos": ["expression"],
+  "formality": "neutral",       // Expressions often have specific register
+  "politeness": "plain",        // May be "polite" for greetings
+  "semantic": ["greeting"]      // Or "expression" as fallback
+}
+```
+
+---
+
 ## Quality Checklists
 
 **For ALL entry types below:**
 - [ ] **All kanji have furigana** (headword, examples, AND notes)
 - [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
+- [ ] **Tags complete**: pos, formality, politeness, semantic all present
 
 ### For Nouns
 - [ ] Common verb collocations listed
