@@ -120,10 +120,40 @@ For verbs with multiple senses (e.g., different meanings or usages), each exampl
 - Figurative vs. literal uses often require different sense numbers
 - Idiomatic expressions may warrant their own sense
 
+## Required Tags for Verbs
+
+All verb entries must include these tags in `metadata.tags`:
+
+```json
+"metadata": {
+  "tags": {
+    "pos": ["verb-godan"],           // verb-godan, verb-ichidan, verb-suru, verb-kuru, verb-irregular
+    "transitivity": "transitive",    // REQUIRED for verbs: transitive, intransitive, or both
+    "formality": "neutral",          // formal, neutral, informal, vulgar
+    "politeness": "plain",           // honorific, humble, polite, plain
+    "semantic": ["movement"]         // Choose appropriate category
+  }
+}
+```
+
+**Transitivity tag values:**
+- `transitive`: Takes a direct object (他動詞) - Xを[verb]
+- `intransitive`: No direct object (自動詞) - Xが[verb]
+- `both`: Can be used both ways (rare, e.g., 増える/増やす patterns in one verb)
+
+**Semantic categories for verbs:**
+- `movement`: 行く, 来る, 歩く, 走る, 泳ぐ
+- `communication`: 話す, 聞く, 言う, 読む, 書く
+- `cognition`: 思う, 知る, 考える, 覚える, 忘れる
+- `existence`: ある, いる, なる, できる
+- `consumption`: 食べる, 飲む, 使う, 買う
+- `action`: Fallback for verbs not fitting other categories
+
 ## Quality Checklist for Verbs
 
 - [ ] **All kanji have furigana** (headword, examples, AND notes)
 - [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
+- [ ] **Tags complete**: pos, transitivity, formality, politeness, semantic
 - [ ] Transitivity clearly marked (自動詞/他動詞)
 - [ ] Pair verb identified (if exists)
 - [ ] Aspect/ている behavior explained

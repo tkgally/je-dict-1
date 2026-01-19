@@ -243,6 +243,21 @@ Content classification for vocabulary grouping. Can have multiple values.
 | `proverb` | Proverbs/sayings | 猿も木から落ちる |
 | `idiom` | Four-character idioms | 一石二鳥, 以心伝心 |
 
+### Linguistic Fallback Categories
+
+When a word doesn't fit a specific semantic category, use these fallback categories based on the word's grammatical function:
+
+| Tag | Description | When to Use |
+|-----|-------------|-------------|
+| `general` | General noun | Nouns without a specific semantic category |
+| `action` | General verb action | Verbs not fitting movement, communication, cognition, etc. |
+| `descriptive` | Descriptive word | Adjectives and adverbs describing qualities |
+| `grammatical` | Grammatical function word | Particles, conjunctions, and grammatical helpers |
+| `expression` | Fixed expression | Interjections, fixed phrases, set expressions |
+| `onomatopoeia` | Mimetic/sound word | Onomatopoeia and gitaigo (擬態語) |
+
+**Note**: Prefer specific categories when applicable. Use fallback categories only when no specific category fits.
+
 ---
 
 ## Example Entry with Tags

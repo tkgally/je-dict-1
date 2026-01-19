@@ -70,7 +70,9 @@ VALID_SEMANTIC = {
     # Social
     "greeting", "education", "work", "leisure",
     # Special
-    "proverb", "idiom"
+    "proverb", "idiom",
+    # Linguistic fallback categories (Phase 5)
+    "general", "action", "descriptive", "grammatical", "expression", "onomatopoeia"
 }
 
 # Verb class must match POS
