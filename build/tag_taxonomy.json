@@ -1,0 +1,501 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dictionary Tag Taxonomy",
+  "description": "Complete vocabulary of valid tags for je-dict-1 dictionary entries",
+  "version": "1.0.0",
+  "tags": {
+    "pos": {
+      "description": "Part of speech - canonical grammatical categories",
+      "type": "array",
+      "values": {
+        "noun": {
+          "description": "Noun (名詞)",
+          "examples": ["本", "学校", "時間"]
+        },
+        "verb-godan": {
+          "description": "Godan verb (五段動詞) - consonant-stem verbs",
+          "examples": ["書く", "話す", "読む"]
+        },
+        "verb-ichidan": {
+          "description": "Ichidan verb (一段動詞) - vowel-stem verbs",
+          "examples": ["食べる", "見る", "起きる"]
+        },
+        "verb-suru": {
+          "description": "Suru verb (する動詞) - verbal noun + する",
+          "examples": ["勉強する", "運動する", "電話する"]
+        },
+        "verb-kuru": {
+          "description": "Kuru verb - irregular verb 来る",
+          "examples": ["来る"]
+        },
+        "verb-irregular": {
+          "description": "Other irregular verbs",
+          "examples": ["ある", "いる (auxiliary)"]
+        },
+        "adjective-i": {
+          "description": "I-adjective (イ形容詞)",
+          "examples": ["大きい", "新しい", "楽しい"]
+        },
+        "adjective-na": {
+          "description": "Na-adjective (ナ形容詞)",
+          "examples": ["静か", "元気", "きれい"]
+        },
+        "adjective-no": {
+          "description": "No-adjective (連体詞) - prenominal adjective using の",
+          "examples": ["本当の", "普通の"]
+        },
+        "adjective-taru": {
+          "description": "Taru-adjective (タルト形容詞) - archaic/literary",
+          "examples": ["堂々たる", "悠々たる"]
+        },
+        "adverb": {
+          "description": "Adverb (副詞)",
+          "examples": ["とても", "ゆっくり", "すぐ"]
+        },
+        "particle": {
+          "description": "Particle (助詞)",
+          "examples": ["は", "が", "を", "に"]
+        },
+        "conjunction": {
+          "description": "Conjunction (接続詞)",
+          "examples": ["そして", "しかし", "だから"]
+        },
+        "interjection": {
+          "description": "Interjection (感動詞)",
+          "examples": ["ああ", "えっ", "おい"]
+        },
+        "pronoun": {
+          "description": "Pronoun (代名詞)",
+          "examples": ["私", "あなた", "これ"]
+        },
+        "counter": {
+          "description": "Counter (助数詞)",
+          "examples": ["人", "本", "匹"]
+        },
+        "prefix": {
+          "description": "Prefix (接頭辞)",
+          "examples": ["お", "ご", "不"]
+        },
+        "suffix": {
+          "description": "Suffix (接尾辞)",
+          "examples": ["さん", "的", "化"]
+        },
+        "expression": {
+          "description": "Expression, phrase, or idiom",
+          "examples": ["お疲れ様", "よろしく", "いただきます"]
+        },
+        "pre-noun-adjectival": {
+          "description": "Pre-noun adjectival (連体詞) - words that directly modify nouns",
+          "examples": ["この", "その", "大きな"]
+        },
+        "number": {
+          "description": "Number (数詞)",
+          "examples": ["一", "二", "三"]
+        },
+        "auxiliary": {
+          "description": "Auxiliary verb or adjective (助動詞)",
+          "examples": ["ない", "たい", "らしい"]
+        },
+        "onomatopoeia": {
+          "description": "Onomatopoeia or mimetic word (擬音語・擬態語)",
+          "examples": ["ぴかぴか", "どんどん", "ふわふわ"]
+        }
+      }
+    },
+    "transitivity": {
+      "description": "Verb transitivity - whether verb takes a direct object",
+      "type": "string",
+      "applies_to": ["verb-godan", "verb-ichidan", "verb-suru", "verb-kuru", "verb-irregular"],
+      "values": {
+        "transitive": {
+          "description": "Transitive verb (他動詞) - takes direct object with を",
+          "examples": ["食べる", "見る", "書く"]
+        },
+        "intransitive": {
+          "description": "Intransitive verb (自動詞) - no direct object",
+          "examples": ["行く", "来る", "起きる"]
+        },
+        "both": {
+          "description": "Verb can be used both transitively and intransitively",
+          "examples": ["開く", "閉まる"]
+        }
+      }
+    },
+    "verb_class": {
+      "description": "Verb conjugation class - for detailed grammar reference",
+      "type": "string",
+      "applies_to": ["verb-godan", "verb-ichidan", "verb-suru", "verb-kuru", "verb-irregular"],
+      "values": {
+        "godan-u": {
+          "description": "Godan verb ending in う",
+          "examples": ["会う", "買う"]
+        },
+        "godan-ku": {
+          "description": "Godan verb ending in く",
+          "examples": ["書く", "聞く"]
+        },
+        "godan-gu": {
+          "description": "Godan verb ending in ぐ",
+          "examples": ["泳ぐ", "脱ぐ"]
+        },
+        "godan-su": {
+          "description": "Godan verb ending in す",
+          "examples": ["話す", "出す"]
+        },
+        "godan-tsu": {
+          "description": "Godan verb ending in つ",
+          "examples": ["待つ", "持つ"]
+        },
+        "godan-nu": {
+          "description": "Godan verb ending in ぬ",
+          "examples": ["死ぬ"]
+        },
+        "godan-bu": {
+          "description": "Godan verb ending in ぶ",
+          "examples": ["遊ぶ", "飛ぶ"]
+        },
+        "godan-mu": {
+          "description": "Godan verb ending in む",
+          "examples": ["読む", "飲む"]
+        },
+        "godan-ru": {
+          "description": "Godan verb ending in る",
+          "examples": ["帰る", "走る"]
+        },
+        "ichidan": {
+          "description": "Ichidan verb (一段動詞)",
+          "examples": ["食べる", "見る"]
+        },
+        "suru": {
+          "description": "Suru verb (する動詞)",
+          "examples": ["勉強する", "運動する"]
+        },
+        "kuru": {
+          "description": "Kuru verb (来る)",
+          "examples": ["来る"]
+        },
+        "irregular": {
+          "description": "Other irregular verbs",
+          "examples": ["ある"]
+        }
+      }
+    },
+    "formality": {
+      "description": "Speech register/formality level",
+      "type": "string",
+      "values": {
+        "formal": {
+          "description": "Formal language - business, official contexts",
+          "examples": ["ございます", "申し上げる"]
+        },
+        "neutral": {
+          "description": "Neutral register - standard polite Japanese",
+          "examples": ["です", "ます"]
+        },
+        "informal": {
+          "description": "Informal/casual language - friends, family",
+          "examples": ["だ", "plain forms"]
+        },
+        "vulgar": {
+          "description": "Vulgar or crude language",
+          "examples": ["くそ", "やばい (slang sense)"]
+        }
+      }
+    },
+    "politeness": {
+      "description": "Keigo classification - Japanese honorific system",
+      "type": "string",
+      "values": {
+        "honorific": {
+          "description": "Honorific/respectful language (尊敬語) - elevates the subject",
+          "examples": ["いらっしゃる", "おっしゃる", "召し上がる"]
+        },
+        "humble": {
+          "description": "Humble language (謙譲語) - lowers the speaker",
+          "examples": ["申す", "参る", "いただく"]
+        },
+        "polite": {
+          "description": "Polite language (丁寧語) - です/ます style",
+          "examples": ["です", "ます", "ございます"]
+        },
+        "plain": {
+          "description": "Plain/dictionary form - no special politeness",
+          "examples": ["だ", "食べる", "行く"]
+        }
+      }
+    },
+    "style": {
+      "description": "Style or medium associations",
+      "type": "array",
+      "values": {
+        "written": {
+          "description": "Primarily used in written language",
+          "examples": ["である", "において"]
+        },
+        "spoken": {
+          "description": "Primarily used in spoken language",
+          "examples": ["じゃん", "っす"]
+        },
+        "literary": {
+          "description": "Literary or poetic language",
+          "examples": ["美し", "愛でる"]
+        },
+        "archaic": {
+          "description": "Archaic or obsolete usage",
+          "examples": ["おる (formal)", "候"]
+        },
+        "slang": {
+          "description": "Slang or very casual modern usage",
+          "examples": ["マジ", "やばい"]
+        }
+      }
+    },
+    "domain": {
+      "description": "Specialized usage domains",
+      "type": "array",
+      "values": {
+        "business": {
+          "description": "Business and corporate contexts",
+          "examples": ["取引", "会議", "報告"]
+        },
+        "academic": {
+          "description": "Academic and scholarly contexts",
+          "examples": ["論文", "研究", "仮説"]
+        },
+        "technical": {
+          "description": "Technical and scientific contexts",
+          "examples": ["プログラム", "データ"]
+        },
+        "legal": {
+          "description": "Legal and judicial contexts",
+          "examples": ["契約", "訴訟", "法律"]
+        },
+        "medical": {
+          "description": "Medical and health contexts",
+          "examples": ["診断", "症状", "治療"]
+        },
+        "colloquial": {
+          "description": "Everyday colloquial usage",
+          "examples": ["common expressions"]
+        },
+        "internet": {
+          "description": "Internet and social media language",
+          "examples": ["草", "ワロタ"]
+        }
+      }
+    },
+    "semantic": {
+      "description": "Semantic category tags for content classification",
+      "type": "array",
+      "categories": {
+        "time": {
+          "description": "Time-related concepts",
+          "subcategories": {
+            "time-day-of-week": {
+              "description": "Days of the week",
+              "examples": ["月曜日", "火曜日", "水曜日"]
+            },
+            "time-month": {
+              "description": "Months of the year",
+              "examples": ["一月", "二月", "三月"]
+            },
+            "time-season": {
+              "description": "Seasons",
+              "examples": ["春", "夏", "秋", "冬"]
+            },
+            "time-period": {
+              "description": "Time periods within a day",
+              "examples": ["朝", "昼", "夜", "午前"]
+            },
+            "time-general": {
+              "description": "General time concepts",
+              "examples": ["時間", "今", "後"]
+            }
+          }
+        },
+        "nature": {
+          "description": "Nature and natural phenomena",
+          "subcategories": {
+            "animal-mammal": {
+              "description": "Mammals",
+              "examples": ["犬", "猫", "象"]
+            },
+            "animal-bird": {
+              "description": "Birds",
+              "examples": ["鳥", "鶴", "雀"]
+            },
+            "animal-fish": {
+              "description": "Fish and sea creatures",
+              "examples": ["魚", "鯛", "蛸"]
+            },
+            "animal-insect": {
+              "description": "Insects and bugs",
+              "examples": ["虫", "蝶", "蟻"]
+            },
+            "animal-general": {
+              "description": "General animal terms",
+              "examples": ["動物", "生き物"]
+            },
+            "plant-tree": {
+              "description": "Trees",
+              "examples": ["木", "桜", "松"]
+            },
+            "plant-flower": {
+              "description": "Flowers",
+              "examples": ["花", "薔薇", "菊"]
+            },
+            "plant-general": {
+              "description": "General plant terms",
+              "examples": ["植物", "草", "葉"]
+            },
+            "weather": {
+              "description": "Weather phenomena",
+              "examples": ["雨", "雪", "風", "晴れ"]
+            },
+            "geography": {
+              "description": "Geographic features",
+              "examples": ["山", "川", "海"]
+            }
+          }
+        },
+        "human": {
+          "description": "Human-related concepts",
+          "subcategories": {
+            "body-part": {
+              "description": "External body parts",
+              "examples": ["手", "足", "頭", "目"]
+            },
+            "body-internal": {
+              "description": "Internal organs and body systems",
+              "examples": ["心臓", "肺", "骨"]
+            },
+            "family": {
+              "description": "Family relationships",
+              "examples": ["父", "母", "兄", "姉"]
+            },
+            "occupation": {
+              "description": "Jobs and professions",
+              "examples": ["医者", "先生", "警察"]
+            },
+            "person": {
+              "description": "General person terms",
+              "examples": ["人", "男", "女", "子供"]
+            }
+          }
+        },
+        "abstract": {
+          "description": "Abstract concepts",
+          "subcategories": {
+            "emotion": {
+              "description": "Emotions and feelings",
+              "examples": ["嬉しい", "悲しい", "怒り"]
+            },
+            "color": {
+              "description": "Colors",
+              "examples": ["赤", "青", "白", "黒"]
+            },
+            "number": {
+              "description": "Numbers and counting",
+              "examples": ["一", "二", "三", "百"]
+            },
+            "direction": {
+              "description": "Directions",
+              "examples": ["北", "南", "東", "西", "上", "下"]
+            },
+            "size": {
+              "description": "Size and dimension",
+              "examples": ["大きい", "小さい", "長い"]
+            },
+            "quantity": {
+              "description": "Quantity and amount",
+              "examples": ["多い", "少ない", "全部"]
+            }
+          }
+        },
+        "objects": {
+          "description": "Physical objects",
+          "subcategories": {
+            "food": {
+              "description": "Food and drinks",
+              "examples": ["ご飯", "パン", "水", "酒"]
+            },
+            "clothing": {
+              "description": "Clothing and accessories",
+              "examples": ["服", "靴", "帽子"]
+            },
+            "building": {
+              "description": "Buildings and structures",
+              "examples": ["家", "学校", "駅"]
+            },
+            "transportation": {
+              "description": "Transportation and vehicles",
+              "examples": ["車", "電車", "飛行機"]
+            },
+            "tool": {
+              "description": "Tools and implements",
+              "examples": ["ペン", "鋏", "鍵"]
+            },
+            "furniture": {
+              "description": "Furniture and home items",
+              "examples": ["机", "椅子", "ベッド"]
+            },
+            "electronics": {
+              "description": "Electronic devices",
+              "examples": ["電話", "テレビ", "パソコン"]
+            }
+          }
+        },
+        "actions": {
+          "description": "Actions and activities",
+          "subcategories": {
+            "movement": {
+              "description": "Physical movement",
+              "examples": ["行く", "来る", "歩く", "走る"]
+            },
+            "communication": {
+              "description": "Communication actions",
+              "examples": ["話す", "聞く", "書く", "読む"]
+            },
+            "cognition": {
+              "description": "Mental actions",
+              "examples": ["思う", "知る", "考える", "覚える"]
+            },
+            "existence": {
+              "description": "Existence and presence",
+              "examples": ["ある", "いる", "なる"]
+            },
+            "creation": {
+              "description": "Creating and making",
+              "examples": ["作る", "建てる", "描く"]
+            },
+            "consumption": {
+              "description": "Consuming actions",
+              "examples": ["食べる", "飲む", "使う"]
+            }
+          }
+        },
+        "social": {
+          "description": "Social and cultural concepts",
+          "subcategories": {
+            "greeting": {
+              "description": "Greetings and social phrases",
+              "examples": ["おはよう", "こんにちは", "さようなら"]
+            },
+            "education": {
+              "description": "Education-related",
+              "examples": ["勉強", "学校", "先生"]
+            },
+            "work": {
+              "description": "Work and employment",
+              "examples": ["仕事", "会社", "働く"]
+            },
+            "leisure": {
+              "description": "Leisure and entertainment",
+              "examples": ["遊ぶ", "映画", "旅行"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
