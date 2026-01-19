@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 120)
+Added 30 new dictionary entries from candidate_words.json, covering occupations, household products, facilities, travel/accommodation terms, and four-character idioms:
+
+- **Occupations** (4): {薬剤師|やくざいし} (pharmacist), {獣医|じゅうい} (veterinarian), {司書|ししょ} (librarian), {探偵|たんてい} (detective)
+- **Household products** (4): {柔軟剤|じゅうなんざい} (fabric softener), {漂白剤|ひょうはくざい} (bleach), {殺虫剤|さっちゅうざい} (insecticide), {芳香剤|ほうこうざい} (air freshener)
+- **Household items** (4): おろし{金|がね} (grater), {巻尺|まきじゃく} (tape measure), {湯|ゆ}たんぽ (hot water bottle), {洗濯|せんたく}ばさみ (clothespin)
+- **Facilities/Places** (4): {更衣室|こういしつ} (changing room), {喫煙所|きつえんじょ} (smoking area), {休憩所|きゅうけいじょ} (rest area), {非常口|ひじょうぐち} (emergency exit)
+- **Travel/Accommodation** (5): {指定席|していせき} (reserved seat), {自由席|じゆうせき} (unreserved seat), {素泊|すど}まり (room only), {連泊|れんぱく} (consecutive nights), {送迎|そうげい} (shuttle service)
+- **Yojijukugo (4-character idioms)** (3): {支離滅裂|しりめつれつ} (incoherent), {公明正大|こうめいせいだい} (fair and square), {一喜一憂|いっきいちゆう} (emotional ups and downs)
+- **Booking/Fee systems** (5): {抽選|ちゅうせん} (lottery), {先着順|せんちゃくじゅん} (first-come-first-served), {予約制|よやくせい} (by reservation), {入場料|にゅうじょうりょう} (admission fee), {拝観料|はいかんりょう} (temple viewing fee)
+- **Other** (1): カビ (mold)
+
+Notable entry features:
+- Occupation vocabulary with workplace contexts and related professions
+- Household chemical products (～{剤|ざい} suffix pattern): cleaning, laundry, pest control
+- Travel and accommodation terminology with contrast pairs: {指定席|していせき} ↔ {自由席|じゆうせき}, {抽選|ちゅうせん} ↔ {先着順|せんちゃくじゅん}
+- Public facility vocabulary with usage contexts
+- Three yojijukugo with formation analysis and grammar patterns
+
+Total entries: 7,029 → 7,059
+Remaining candidates: ~687 → ~657
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 119)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, household items, taste vocabulary, medical terms, and social expressions:
 

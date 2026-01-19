@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="たちまち - instantly; in no time; at once. Japanese-English dictionary entry with definitions and examples.">
+    <title>たちまち (たちまち) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">たちまち</h1>
+            <div class="entry-reading">たちまち</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">instantly; in no time; at once</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">instantly; in no time; at once</span>
+                    <div class="definition-explanation">Describes something happening very quickly or immediately, often with a sense of surprising speed.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">たちまち<ruby>人気<rp>(</rp><rt>にんき</rt><rp>)</rp></ruby>が<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>た。</div>
+                    <div class="example-english">It became popular in no time.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>空<rp>(</rp><rt>そら</rt><rp>)</rp></ruby>がたちまち<ruby>暗<rp>(</rp><rt>くら</rt><rp>)</rp></ruby>くなった。</div>
+                    <div class="example-english">The sky suddenly turned dark.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>噂<rp>(</rp><rt>うわさ</rt><rp>)</rp></ruby>はたちまち<ruby>町中<rp>(</rp><rt>まちじゅう</rt><rp>)</rp></ruby>に<ruby>広<rp>(</rp><rt>ひろ</rt><rp>)</rp></ruby>まった。</div>
+                    <div class="example-english">The rumor spread throughout the town in no time.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>KANJI:<br>Can be written as <ruby>忽<rp>(</rp><rt>たちま</rt><rp>)</rp></ruby>ち, though hiragana is more common.</p><p>USAGE:<br>たちまち emphasizes the surprising speed at which something happens. It often describes changes, spread of information, or completion of actions that occur faster than expected.</p><p>COMMON PATTERNS:</p><ul><li>たちまち〜になる (to instantly become ~)</li><li>たちまち<ruby>広<rp>(</rp><rt>ひろ</rt><rp>)</rp></ruby>まる (to spread in no time)</li><li>たちまちのうちに (in the blink of an eye)</li></ul><p>REGISTER:<br>Neutral to slightly literary. Used in both spoken and written Japanese.</p><p>SIMILAR WORDS:</p><ul><li>すぐに - immediately (neutral, most common)</li><li>あっという<ruby>間<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>に - in the blink of an eye</li><li><ruby>瞬<rp>(</rp><rt>またた</rt><rp>)</rp></ruby>く<ruby>間<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>に - in an instant (literary)</li><li><ruby>即座<rp>(</rp><rt>そくざ</rt><rp>)</rp></ruby>に - immediately (formal)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.19 15:01</div>
+                <div class="metadata-file">07000/07371_tachimachi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

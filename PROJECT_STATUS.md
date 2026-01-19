@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,269
-- **Vocabulary tier assignment**: Basic: 1,118 | Core: 5,061 | General: 571 | Unassigned: 489
-- **Candidate words**: ~651 words tracked in `candidate_words.json`
+- **Total entries**: 7,299
+- **Vocabulary tier assignment**: Basic: 1,120 | Core: 5,086 | General: 574 | Unassigned: 489
+- **Candidate words**: ~622 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -103,6 +103,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 130)
+Added 30 new dictionary entries from candidate_words.json, focusing on expressive verbs, emotions/personality adjectives, adverbs, weather/disaster vocabulary, and common expressions:
+
+- **Expressive verbs** (14): ぼやく (complain), からかう (tease), むくむ (swell), うずく (ache), たじろぐ (flinch), なびく (sway), ひるむ (cower), とどろく (roar), いたわる (care for), おののく (tremble), ひらめく (flash), ときめく (flutter), さえずる (chirp), つるむ (hang out)
+- **I-adjectives** (4): ぎこちない (awkward), ややこしい (complicated), いたましい (pitiful), けだるい (languid)
+- **Adverbs** (2): おもむろに (slowly/deliberately), たちまち (instantly)
+- **Facilities/Places** (3): {物置|ものお}き (storage shed), {待合室|まちあいしつ} (waiting room), {避難所|ひなんじょ} (evacuation shelter)
+- **Weather/Nature** (3): {紫外線|しがいせん} (UV rays), {濃霧|のうむ} (dense fog), {落雷|らくらい} (lightning strike)
+- **Business/Technology** (2): {添付|てんぷ} (attachment), {進捗|しんちょく} (progress)
+- **Expressions** (2): しかたがない (it can't be helped), しょうがない (it can't be helped - colloquial)
+
+Notable entry features:
+- Strong coverage of expressive/onomatopoeic verbs: body sensations (むくむ, うずく), emotions (ときめく, おののく), sounds (とどろく, さえずる)
+- Fear/hesitation verbs: たじろぐ, ひるむ with nuance distinctions
+- Adjectives for describing awkwardness and emotional states: ぎこちない, ややこしい, けだるい
+- おもむろに with note about common misunderstanding (often mistakenly believed to mean "suddenly")
+- Disaster/emergency vocabulary: {避難所|ひなんじょ}, {落雷|らくらい} with safety notes
+- Commonly used expressions: しかたがない/しょうがない pair with cross-references
+
+Total entries: 7,269 → 7,299
+Remaining candidates: ~651 → ~622
 
 ### 2026-01-19 (New Candidates - 104 Words Added, Session 129)
 Added 104 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
@@ -367,28 +389,6 @@ Notable entry features:
 
 Total entries: 7,059 → 7,089
 Remaining candidates: ~657 → ~627
-
-### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 120)
-Added 30 new dictionary entries from candidate_words.json, covering occupations, household products, facilities, travel/accommodation terms, and four-character idioms:
-
-- **Occupations** (4): {薬剤師|やくざいし} (pharmacist), {獣医|じゅうい} (veterinarian), {司書|ししょ} (librarian), {探偵|たんてい} (detective)
-- **Household products** (4): {柔軟剤|じゅうなんざい} (fabric softener), {漂白剤|ひょうはくざい} (bleach), {殺虫剤|さっちゅうざい} (insecticide), {芳香剤|ほうこうざい} (air freshener)
-- **Household items** (4): おろし{金|がね} (grater), {巻尺|まきじゃく} (tape measure), {湯|ゆ}たんぽ (hot water bottle), {洗濯|せんたく}ばさみ (clothespin)
-- **Facilities/Places** (4): {更衣室|こういしつ} (changing room), {喫煙所|きつえんじょ} (smoking area), {休憩所|きゅうけいじょ} (rest area), {非常口|ひじょうぐち} (emergency exit)
-- **Travel/Accommodation** (5): {指定席|していせき} (reserved seat), {自由席|じゆうせき} (unreserved seat), {素泊|すど}まり (room only), {連泊|れんぱく} (consecutive nights), {送迎|そうげい} (shuttle service)
-- **Yojijukugo (4-character idioms)** (3): {支離滅裂|しりめつれつ} (incoherent), {公明正大|こうめいせいだい} (fair and square), {一喜一憂|いっきいちゆう} (emotional ups and downs)
-- **Booking/Fee systems** (5): {抽選|ちゅうせん} (lottery), {先着順|せんちゃくじゅん} (first-come-first-served), {予約制|よやくせい} (by reservation), {入場料|にゅうじょうりょう} (admission fee), {拝観料|はいかんりょう} (temple viewing fee)
-- **Other** (1): カビ (mold)
-
-Notable entry features:
-- Occupation vocabulary with workplace contexts and related professions
-- Household chemical products (～{剤|ざい} suffix pattern): cleaning, laundry, pest control
-- Travel and accommodation terminology with contrast pairs: {指定席|していせき} ↔ {自由席|じゆうせき}, {抽選|ちゅうせん} ↔ {先着順|せんちゃくじゅん}
-- Public facility vocabulary with usage contexts
-- Three yojijukugo with formation analysis and grammar patterns
-
-Total entries: 7,029 → 7,059
-Remaining candidates: ~687 → ~657
 
 ---
 
