@@ -7,6 +7,32 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 121)
+Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary across multiple categories:
+
+- **Establishments/Facilities** (3): バー (bar), {控|ひか}え{室|しつ} (waiting room), {授乳室|じゅにゅうしつ} (nursing room)
+- **Architecture/Windows** (2): {天窓|てんまど} (skylight), {出窓|でまど} (bay window)
+- **Tools/Equipment** (4): {蛍光|けいこう}ペン (highlighter), {軍手|ぐんて} (work gloves), {紙|かみ}やすり (sandpaper), ゴーグル (goggles)
+- **Household products** (3): {延長|えんちょう}コード (extension cord), {消臭剤|しょうしゅうざい} (deodorizer), {接着剤|せっちゃくざい} (adhesive)
+- **Crafts/Hobbies** (6): {手芸|しゅげい} (handicraft), {木彫|きぼ}り (wood carving), {日曜大工|にちようだいく} (DIY), {模型|もけい} (model), コスプレ (cosplay), フィギュア (figure)
+- **Art** (2): {油絵|あぶらえ} (oil painting), {水彩画|すいさいが} (watercolor painting)
+- **Music genres** (3): {演歌|えんか} (enka), {民謡|みんよう} (folk song), ジャズ (jazz)
+- **Finance** (2): {元本|がんぽん} (principal), {額面|がくめん} (face value)
+- **Elections/Lotteries** (2): {当選|とうせん} (winning), {落選|らくせん} (losing)
+- **Medical** (1): {脱臼|だっきゅう} (dislocation)
+- **Gardening** (1): {家庭菜園|かていさいえん} (home vegetable garden)
+- **Other** (1): トラブル (trouble)
+
+Notable entry features:
+- Hobby/culture vocabulary: コスプレ, フィギュア, {日曜大工|にちようだいく} with etymology and cultural context
+- Art vocabulary contrast pairs: {油絵|あぶらえ} ↔ {水彩画|すいさいが}
+- Music genres with cultural notes: {演歌|えんか} (famous singers), {民謡|みんよう} (regional songs)
+- Election vocabulary antonym pair: {当選|とうせん} ↔ {落選|らくせん}
+- Financial terms with context: {元本|がんぽん}, {額面|がくめん} (including figurative usage)
+
+Total entries: 7,059 → 7,089
+Remaining candidates: ~657 → ~627
+
 ### 2026-01-18 (Vocabulary Expansion - 30 New Entries, Session 120)
 Added 30 new dictionary entries from candidate_words.json, covering occupations, household products, facilities, travel/accommodation terms, and four-character idioms:
 
