@@ -13,7 +13,7 @@ Update cross-references to support:
 ```json
 {
   "type": "antonym",
-  "target_id": "07159_yohaku",
+  "target_id": "06838_yohaku",
   "reading": "よはく",
   "headword": "{余白|よはく}",
   "label": "margin"

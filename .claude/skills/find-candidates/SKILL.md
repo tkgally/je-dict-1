@@ -36,7 +36,7 @@ The script will:
 ```
 $ python3 build/manage_candidates.py add "食べる" "たべる" "to eat"
 ERROR: Duplicate detected!
-  Exact match in dictionary: 00001_taberu (食べる / たべる)
+  Exact match in dictionary: 00396_taberu (食べる / たべる)
 
 This word already exists. NOT adding to candidates.
 ```

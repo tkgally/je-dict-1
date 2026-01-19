@@ -158,7 +158,7 @@ python3 build/verify_furigana.py <entry_id>
 ## Entry Structure
 
 Every entry must include:
-- `id`: Format `{5-digit-number}_{romaji}` (e.g., `00001_taberu`)
+- `id`: Format `{5-digit-number}_{romaji}` (e.g., `00396_taberu`)
 - `headword`: With furigana notation
 - `reading`: **Hiragana only** (see Reading Format below)
 - `part_of_speech`: Consistent terminology
@@ -215,10 +215,10 @@ The **range directory** is determined by the numeric portion of the entry ID, ro
 
 ### Examples
 
-- Entry `00001_taberu` → `entries/00000/00001_taberu.json`
-- Entry `00500_miru` → `entries/00500/00500_miru.json`
-- Entry `01234_aruku` → `entries/01000/01234_aruku.json`
-- Entry `06311_fumikiru` → `entries/06000/06311_fumikiru.json`
+- Entry `00396_taberu` → `entries/00000/00396_taberu.json`
+- Entry `00538_aruku` → `entries/00500/00538_aruku.json`
+- Entry `01186_mukau` → `entries/01000/01186_mukau.json`
+- Entry `06237_fumikiru` → `entries/06000/06237_fumikiru.json`
 
 ### How to Get the Correct Path
 
@@ -230,11 +230,11 @@ python3 build/get_entry_path.py <reading> <entry_id>
 
 Example:
 ```bash
-python3 build/get_entry_path.py ふみきる 06311_fumikiru
-# Output: entries/06000/06311_fumikiru.json
+python3 build/get_entry_path.py ふみきる 06237_fumikiru
+# Output: entries/06000/06237_fumikiru.json
 
-python3 build/get_entry_path.py こうりつてき 00001_kouritsuteki
-# Output: entries/00000/00001_kouritsuteki.json
+python3 build/get_entry_path.py こうりつてき 06240_kouritsuteki
+# Output: entries/06000/06240_kouritsuteki.json
 ```
 
 The `validate.py` script checks for directory mismatches and will report errors.

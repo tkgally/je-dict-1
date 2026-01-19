@@ -297,7 +297,7 @@ Fixed inconsistency where some entries had katakana readings instead of hiragana
 
 **Changes:**
 - **Deleted 52 duplicate entries** where both katakana and hiragana reading versions existed (kept hiragana versions)
-- **Converted 1 entry reading** to hiragana: 07126_diiemu (DM: ディーエム → でぃーえむ)
+- **Converted 1 entry reading** to hiragana: 06805_diiemu (DM: ディーエム → でぃーえむ)
 - **Fixed 93 candidate readings** in candidate_words.json
 - **Removed 7 duplicate candidates** after hiragana normalization
 - **Removed 51 candidates** that now exist in dictionary (index sync)
@@ -387,7 +387,7 @@ Follow this step-by-step process when adding new dictionary entries from `candid
      - IDs 00500-00999 → `entries/00500/`
      - IDs 01000-01499 → `entries/01000/`
      - etc. (500 entries per directory)
-   - Example: `entries/00000/00001_taberu.json`
+   - Example: `entries/00000/00396_taberu.json`
 5. File naming: `{5-digit-id}_{romaji}.json`
 
 ### Step 3: Validate Entry
@@ -461,7 +461,7 @@ Commit all changes including:
 python3 build/validate.py
 
 # Validate a single entry
-python3 build/validate.py --id 00001_taberu
+python3 build/validate.py --id 00396_taberu
 
 # Merge new audio files (from audio-to-add/)
 python3 build/merge_audio.py
@@ -491,7 +491,7 @@ open docs/index.html
   - IDs 00500-00999 → `entries/00500/`
   - IDs 01000-01499 → `entries/01000/`
   - etc. (500 entries per directory)
-- Example: `entries/00000/00001_taberu.json`
+- Example: `entries/00000/00396_taberu.json`
 - Katakana loanwords: Use hiragana reading (e.g., アルバイト → あるばいと)
 
 ### Entry and Candidate Tracking

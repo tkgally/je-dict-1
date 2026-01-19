@@ -70,8 +70,8 @@ docs/
 ├── random.html          # Random word cloud
 ├── entries/
 │   ├── 00000/           # Entries 00000-00499
-│   │   ├── 00001_taberu.html
-│   │   └── 00412_a.html
+│   │   ├── 00396_taberu.html
+│   │   └── 00499_sakana.html
 │   ├── 00500/           # Entries 00500-00999
 │   ├── 01000/           # Entries 01000-01499
 │   └── ...
@@ -175,7 +175,7 @@ Each entry is a JSON file with the following structure:
 
 ```json
 {
-  "id": "00001_taberu",
+  "id": "00396_taberu",
   "headword": "{食|た}べる",
   "reading": "たべる",
   "part_of_speech": "verb (ichidan)",
@@ -189,7 +189,7 @@ Each entry is a JSON file with the following structure:
   ],
   "examples": [
     {
-      "id": "00001_taberu_ex1",
+      "id": "00396_taberu_ex1",
       "japanese": "{朝|あさ}ごはんを{食|た}べましたか。",
       "english": "Did you eat breakfast?",
       "notes": null,
@@ -236,9 +236,9 @@ Files use the format: `{id}_{romanized_reading}.json`
 ### Directory Placement
 
 Files go in directories based on the numeric ID range (500 entries per directory):
-- Entry 00001_taberu → `entries/00000/00001_taberu.json`
-- Entry 00500_miru → `entries/00500/00500_miru.json`
-- Entry 01234_aruku → `entries/01000/01234_aruku.json`
+- Entry 00396_taberu → `entries/00000/00396_taberu.json`
+- Entry 00538_aruku → `entries/00500/00538_aruku.json`
+- Entry 01186_mukau → `entries/01000/01186_mukau.json`
 
 The directory name is determined by rounding down to the nearest 500:
 - IDs 00000-00499 → `entries/00000/`
@@ -253,18 +253,18 @@ Audio pronunciation files can be added for example sentences. The web interface 
 
 - **Format**: MP3 files
 - **Filename**: `{entry_id}-ex{number}.mp3`
-  - `entry_id`: The entry's ID (e.g., `00001_taberu`)
+  - `entry_id`: The entry's ID (e.g., `00396_taberu`)
   - `number`: Example number (1-based, e.g., `ex1`, `ex2`, `ex3`)
-- **Example**: `00001_taberu-ex1.mp3` for the first example of the entry `00001_taberu`
+- **Example**: `00396_taberu-ex1.mp3` for the first example of the entry `00396_taberu`
 
 ### Adding Audio Workflow
 
 1. Place MP3 files in the `audio-to-add/` directory:
    ```
    audio-to-add/
-   ├── 00001_taberu-ex1.mp3
-   ├── 00001_taberu-ex2.mp3
-   └── 00412_a-ex1.mp3
+   ├── 00396_taberu-ex1.mp3
+   ├── 00396_taberu-ex2.mp3
+   └── 00499_sakana-ex1.mp3
    ```
 
 2. Run the merge script to process the audio files:
@@ -288,8 +288,8 @@ Audio files are organized by numeric ID range (same as entries):
 ```
 audio/
 ├── 00000/                # Entries 00000-00499
-│   ├── 00001_taberu-ex1.mp3
-│   └── 00412_a-ex1.mp3
+│   ├── 00396_taberu-ex1.mp3
+│   └── 00499_sakana-ex1.mp3
 ├── 00500/                # Entries 00500-00999
 ├── 01000/                # Entries 01000-01499
 └── ...

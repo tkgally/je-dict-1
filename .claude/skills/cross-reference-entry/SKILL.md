@@ -163,7 +163,7 @@ Instead, use the `harden_references.py` script to automatically add `target_id` 
 ```json
 {
   "type": "pair",
-  "target_id": "00042_shimaru",
+  "target_id": "00754_shimaru",
   "reading": "しまる",
   "headword": "{閉|し}まる",
   "label": "intransitive"
@@ -266,7 +266,7 @@ python3 build/extract_references.py
 python3 build/extract_references.py --apply
 
 # Single entry
-python3 build/extract_references.py --id 00001_taberu
+python3 build/extract_references.py --id 00396_taberu
 ```
 
 **Note:** The extraction script now performs immediate resolution. When a target entry exists, the extracted reference automatically includes `target_id`.
@@ -283,7 +283,7 @@ python3 build/harden_references.py
 python3 build/harden_references.py --apply
 
 # Single entry
-python3 build/harden_references.py --id 00005_shimeru
+python3 build/harden_references.py --id 00485_shimeru
 ```
 
 **When to run:**
@@ -341,7 +341,7 @@ The validator checks:
 Before:
 ```json
 {
-  "id": "00005_shimeru",
+  "id": "00485_shimeru",
   "cross_references": []
 }
 ```
@@ -349,7 +349,7 @@ Before:
 After:
 ```json
 {
-  "id": "00005_shimeru",
+  "id": "00485_shimeru",
   "cross_references": [
     {
       "type": "pair",
