@@ -1,0 +1,61 @@
+{
+  "session_id": "20260120_015",
+  "started": "2026-01-20T05:30:00Z",
+  "ended": "2026-01-20T05:45:00Z",
+  "task_type": "full-review",
+  "entries_range": "02331-02530",
+
+  "summary": {
+    "entries_reviewed": 200,
+    "entries_modified": 33,
+    "entries_flagged": 0,
+    "patterns_found": 2
+  },
+
+  "changes": [
+    {"entry": "02333_wakeru", "change": "Fixed semantic tag from work to action"},
+    {"entry": "02334_waru", "change": "Fixed semantic tag from furniture to action"},
+    {"entry": "02337_osanai", "change": "Fixed semantic tag from furniture to descriptive"},
+    {"entry": "02345_shitashii", "change": "Fixed semantic tag from furniture to descriptive"},
+    {"entry": "02352_iroiro", "change": "Fixed formality from formal to neutral"},
+    {"entry": "02357_nigiyaka", "change": "Fixed semantic tag from furniture to descriptive"},
+    {"entry": "02359_chanto", "change": "Fixed formality from formal to informal, semantic from tool to descriptive"},
+    {"entry": "02363_mattaku", "change": "Fixed formality from informal to neutral, semantic from transportation to descriptive"},
+    {"entry": "02364_mushiro", "change": "Fixed semantic tag from food to descriptive"},
+    {"entry": "02368_shiawase", "change": "Fixed semantic tag from electronics to emotion, removed incorrect archaic style"},
+    {"entry": "02377_doku", "change": "Fixed formality from formal to neutral, semantic from transportation to action"},
+    {"entry": "02385_nukeru", "change": "Fixed semantic tag from geography to action"},
+    {"entry": "02389_noberu", "change": "Fixed semantic tag from geography to communication"},
+    {"entry": "02403_hiyasu", "change": "Fixed semantic tags from emotion/time-general to action"},
+    {"entry": "02412_butsukaru", "change": "Fixed semantic tag from furniture to action"},
+    {"entry": "02426_mayou", "change": "Fixed semantic tag from leisure to action"},
+    {"entry": "02434_moeru", "change": "Fixed semantic tag from emotion to nature (primary meaning is sprouting), removed slang style"},
+    {"entry": "02435_moreru", "change": "Fixed semantic tag from geography to action"},
+    {"entry": "02438_yatou", "change": "Fixed semantic tag from leisure to general (political term)"},
+    {"entry": "02442_watasu", "change": "Fixed semantic tag from transportation to action"},
+    {"entry": "02444_hiku", "change": "Fixed semantic tags from animal-mammal/electronics/leisure to leisure only"},
+    {"entry": "02445_fuku", "change": "Fixed semantic tag from clothing to action (吹く = to blow)"},
+    {"entry": "02460_mama", "change": "Fixed semantic tag from geography to grammatical"},
+    {"entry": "02461_ikuratemo", "change": "Fixed semantic tag from furniture to grammatical"},
+    {"entry": "02473_he", "change": "Fixed formality from formal to neutral (particles are neutral)"},
+    {"entry": "02478_nigasu", "change": "Fixed semantic tags from building/geography/transportation to action"},
+    {"entry": "02489_souzou", "change": "Fixed semantic tags from electronics/geography to general"},
+    {"entry": "02504_himitsu", "change": "Fixed formality from informal to neutral, semantic from furniture to general"},
+    {"entry": "02509_kizuna", "change": "Fixed semantic tag from clothing to people"},
+    {"entry": "02511_taisaku", "change": "Fixed formality from formal to neutral, semantic from furniture to general"},
+    {"entry": "02518_oyu", "change": "Fixed semantic tag from animal-mammal to food, removed archaic/literary style"},
+    {"entry": "02520_kieru", "change": "Fixed semantic tags from electronics/transportation to action"},
+    {"entry": "02526_touchaku", "change": "Fixed semantic tag from geography to action"}
+  ],
+
+  "patterns_observed": [
+    "Random semantic tags assigned to many entries (furniture, geography, transportation, electronics, etc. appearing on unrelated words)",
+    "Formality tags sometimes contradictory (e.g., formal with colloquial domain)"
+  ],
+
+  "continuation_notes": {
+    "next_entry": "02531",
+    "pending_tasks": [],
+    "context_for_next_session": "Completed review of entries 02331-02530. Continue with entries 02531+ in next session. Pattern continues of random semantic tag assignments requiring correction."
+  }
+}
