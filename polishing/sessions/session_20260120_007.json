@@ -1,0 +1,82 @@
+{
+  "session_id": "20260120_007",
+  "metadata": {
+    "started": "2026-01-20T03:00:00Z",
+    "ended": "2026-01-20T03:30:00Z",
+    "task_type": "full-review",
+    "entry_range": "00631-00830"
+  },
+
+  "summary": {
+    "entries_reviewed": 200,
+    "entries_modified": 10,
+    "issues_found": 10,
+    "issues_fixed": 10
+  },
+
+  "changes": [
+    {
+      "entry_id": "00670_shita",
+      "change": "Removed incorrect 'body-part' semantic tag (kept 'direction')",
+      "reason": "下 (below/under) is a positional/directional word, not a body part"
+    },
+    {
+      "entry_id": "00677_tokei",
+      "change": "Changed semantic tag from 'clothing' to 'tool'",
+      "reason": "時計 (clock/watch) is a tool/device, not clothing"
+    },
+    {
+      "entry_id": "00681_tsumetai",
+      "change": "Changed semantic tag from 'body-part' to 'descriptive'",
+      "reason": "冷たい (cold) is a descriptive adjective, not related to body parts"
+    },
+    {
+      "entry_id": "00686_zasshi",
+      "change": "Removed incorrect 'time-general' semantic tag (kept 'communication')",
+      "reason": "雑誌 (magazine) is a communication medium, not time-related"
+    },
+    {
+      "entry_id": "00687_ame",
+      "change": "Changed semantic tag from 'weather' to 'food'",
+      "reason": "This entry is for 飴 (candy), not 雨 (rain) - wrong semantic tag"
+    },
+    {
+      "entry_id": "00688_hon",
+      "change": "Removed incorrect 'tool' semantic tag (kept 'number')",
+      "reason": "〜本 is a counter, should only have 'number' semantic"
+    },
+    {
+      "entry_id": "00720_kongetsu",
+      "change": "Changed semantic tag from 'descriptive' to 'time-general'",
+      "reason": "今月 (this month) is a time reference word"
+    },
+    {
+      "entry_id": "00730_maishuu",
+      "change": "Changed semantic tag from 'descriptive' to 'time-general'",
+      "reason": "毎週 (every week) is a time reference word"
+    },
+    {
+      "entry_id": "00740_oishii",
+      "change": "Changed formality from 'informal' to 'neutral'",
+      "reason": "おいしい is used in all contexts including formal speech"
+    },
+    {
+      "entry_id": "00780_hyaku",
+      "change": "Changed semantic tag from 'general' to 'number'",
+      "reason": "百 (hundred) is a number and should have 'number' semantic tag"
+    }
+  ],
+
+  "patterns_observed": [
+    "Semantic tag errors continue to be a common issue, especially confusing similar-sounding words",
+    "Time-related words sometimes mislabeled as 'descriptive' instead of 'time-general'",
+    "Number words sometimes lack the 'number' semantic tag",
+    "Homophones (like 飴 candy vs 雨 rain) may have wrong semantic tags from confusion"
+  ],
+
+  "continuation": {
+    "next_entry": "00831",
+    "entries_remaining": 6559,
+    "notes": "Entries 00631-00830 reviewed and cleaned. Most entries in good shape with occasional semantic tag corrections needed."
+  }
+}
