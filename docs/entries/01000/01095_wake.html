@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="訳 - reason, meaning; the fact is. Japanese-English dictionary entry with definitions and examples.">
+    <title>訳 (わけ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>訳<rp>(</rp><rt>わけ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">わけ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">reason, meaning; the fact is</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">reason, cause</span>
+                    <div class="definition-explanation">The reason or explanation for something.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">meaning, sense</span>
+                    <div class="definition-explanation">What something means or signifies.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">3.</span>
+                    <span class="definition-gloss">the fact is, it means that</span>
+                    <div class="definition-explanation">Used to explain a situation or draw a conclusion.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>遅<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>れた<ruby>訳<rp>(</rp><rt>わけ</rt><rp>)</rp></ruby>を<ruby>教<rp>(</rp><rt>おし</rt><rp>)</rp></ruby>えてください。</div>
+                    <div class="example-english">Please tell me the reason you were late.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">そういう<ruby>訳<rp>(</rp><rt>わけ</rt><rp>)</rp></ruby>ではありません。</div>
+                    <div class="example-english">That&#x27;s not what I mean. / It&#x27;s not like that.</div>
+                    <div class="example-notes">Common expression</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>訳<rp>(</rp><rt>わけ</rt><rp>)</rp></ruby>が<ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>からない。</div>
+                    <div class="example-english">I don&#x27;t understand (the reason/meaning).</div>
+                    <div class="example-notes">Common expression of confusion</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>わけ is used to explain reasons or situations.</p><p>Common patterns:</p><ul><li>～わけではない (it&#x27;s not that ~, it doesn&#x27;t mean that ~)</li><li>～わけがない (there&#x27;s no way that ~)</li><li>～というわけだ (that&#x27;s why, the thing is). Often written in hiragana. Compare with 理由 (りゆう - reason, more formal).</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:24 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">01000/01095_wake</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

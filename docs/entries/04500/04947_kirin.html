@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="麒麟 - giraffe. Japanese-English dictionary entry with definitions and examples.">
+    <title>麒麟 (きりん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>麒麟<rp>(</rp><rt>きりん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">きりん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">giraffe</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">giraffe</span>
+                    <div class="definition-explanation">A tall African mammal with a very long neck and legs, and distinctive spotted coat.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">qilin (mythical creature)</span>
+                    <div class="definition-explanation">A legendary creature in East Asian mythology, often depicted with dragon-like features. Sometimes translated as &quot;Chinese unicorn.&quot;</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>麒麟<rp>(</rp><rt>きりん</rt><rp>)</rp></ruby>は<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>で<ruby>一番<rp>(</rp><rt>いちばん</rt><rp>)</rp></ruby><ruby>背<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>の<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い<ruby>動物<rp>(</rp><rt>どうぶつ</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">The giraffe is the tallest animal in the world.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>たちは<ruby>動物園<rp>(</rp><rt>どうぶつえん</rt><rp>)</rp></ruby>で<ruby>麒麟<rp>(</rp><rt>きりん</rt><rp>)</rp></ruby>に<ruby>餌<rp>(</rp><rt>えさ</rt><rp>)</rp></ruby>をやりました。</div>
+                    <div class="example-english">The children fed the giraffes at the zoo.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>麒麟<rp>(</rp><rt>きりん</rt><rp>)</rp></ruby>の<ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>は<ruby>約<rp>(</rp><rt>やく</rt><rp>)</rp></ruby>2メートルあります。</div>
+                    <div class="example-english">A giraffe&#x27;s neck is about 2 meters long.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>麒麟<rp>(</rp><rt>きりん</rt><rp>)</rp></ruby> has two meanings:</p><p>1. The animal (giraffe) - usually written in katakana (キリン) in modern usage<br>2. The mythical creature (<ruby>麒麟<rp>(</rp><rt>きりん</rt><rp>)</rp></ruby>) - a benevolent beast in Chinese/Japanese mythology</p><p>The giraffe was named <ruby>麒麟<rp>(</rp><rt>きりん</rt><rp>)</rp></ruby> in Japanese because early travelers thought it resembled the mythical creature.</p><p>キリン is also a famous Japanese beer brand, using the mythical <ruby>麒麟<rp>(</rp><rt>きりん</rt><rp>)</rp></ruby> as its logo.</p><p>Counter: <ruby>頭<rp>(</rp><rt>とう</rt><rp>)</rp></ruby></p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.14 22:31 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">04500/04947_kirin</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

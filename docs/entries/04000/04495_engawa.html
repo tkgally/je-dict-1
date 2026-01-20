@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="縁側 - veranda. Japanese-English dictionary entry with definitions and examples.">
+    <title>縁側 (えんがわ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>縁側<rp>(</rp><rt>えんがわ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">えんがわ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">veranda</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">veranda; engawa (wooden porch along the side of a traditional Japanese house)</span>
+                    <div class="definition-explanation">veranda; engawa (wooden porch along the side of a traditional Japanese house)</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>縁側<rp>(</rp><rt>えんがわ</rt><rp>)</rp></ruby>に<ruby>座<rp>(</rp><rt>すわ</rt><rp>)</rp></ruby>って<ruby>庭<rp>(</rp><rt>にわ</rt><rp>)</rp></ruby>を<ruby>眺<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>めた。</div>
+                    <div class="example-english">I sat on the veranda and gazed at the garden.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>夏<rp>(</rp><rt>なつ</rt><rp>)</rp></ruby>は<ruby>縁側<rp>(</rp><rt>えんがわ</rt><rp>)</rp></ruby>で<ruby>涼<rp>(</rp><rt>すず</rt><rp>)</rp></ruby>むのが<ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちいい。</div>
+                    <div class="example-english">In summer, it feels nice to cool off on the veranda.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>祖父<rp>(</rp><rt>そふ</rt><rp>)</rp></ruby>は<ruby>縁側<rp>(</rp><rt>えんがわ</rt><rp>)</rp></ruby>でお<ruby>茶<rp>(</rp><rt>ちゃ</rt><rp>)</rp></ruby>を<ruby>飲<rp>(</rp><rt>の</rt><rp>)</rp></ruby>むのが<ruby>日課<rp>(</rp><rt>にっか</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">My grandfather&#x27;s daily routine is to drink tea on the veranda.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>縁側<rp>(</rp><rt>えんがわ</rt><rp>)</rp></ruby> is a distinctive feature of traditional Japanese houses—a wooden-floored corridor or porch that runs along the outer edge of the house, facing the garden. It serves as a transitional space between inside and outside.</p><p>Characteristics:</p><ul><li>Usually made of wooden planks</li><li>Located between the room and the garden</li><li>Often used for relaxation, drinking tea, or enjoying the view</li><li>May be covered (<ruby>濡<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>れ<ruby>縁<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>) or uncovered</li></ul><p>Cultural notes:</p><ul><li>Common setting in nostalgic depictions of Japanese life</li><li>Associated with summer scenes (<ruby>打<rp>(</rp><rt>う</rt><rp>)</rp></ruby>ち<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>, <ruby>風鈴<rp>(</rp><rt>ふうりん</rt><rp>)</rp></ruby>, <ruby>西瓜<rp>(</rp><rt>すいか</rt><rp>)</rp></ruby>)</li><li>Gradually disappearing with modern architecture</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.15 3:56 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">04000/04495_engawa</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

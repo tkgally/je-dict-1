@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ぶつける - to hit, to strike against. Japanese-English dictionary entry with definitions and examples.">
+    <title>ぶつける (ぶつける) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ぶつける</h1>
+            <div class="entry-reading">ぶつける</div>
+            <div class="entry-pos">ichidan verb</div>
+            <div class="entry-gloss">to hit, to strike against</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to hit, to knock</span>
+                    <div class="definition-explanation">To strike something against another thing.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">to direct at, to take out on</span>
+                    <div class="definition-explanation">To express feelings toward someone.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>をぶつけた。</div>
+                    <div class="example-english">I hit my head.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>怒<rp>(</rp><rt>いか</rt><rp>)</rp></ruby>りをぶつける。</div>
+                    <div class="example-english">To vent one&#x27;s anger.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ぶつける is a transitive verb.</p><p>TRANSITIVE/INTRANSITIVE PAIR:</p><ul><li>ぶつける (transitive): to hit</li><li>ぶつかる (intransitive): to collide</li></ul><p>FIGURATIVE USES:</p><ul><li><ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちをぶつける: to express feelings</li><li><ruby>不満<rp>(</rp><rt>ふまん</rt><rp>)</rp></ruby>をぶつける: to complain to</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 17:57 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">02000/02413_butsukeru</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

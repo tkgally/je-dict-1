@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="靴下 - socks. Japanese-English dictionary entry with definitions and examples.">
+    <title>靴下 (くつした) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>靴下<rp>(</rp><rt>くつした</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">くつした</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">socks</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">socks</span>
+                    <div class="definition-explanation">Cloth coverings for the feet, usually worn inside shoes. Literally means &#x27;under shoes.&#x27;</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>靴下<rp>(</rp><rt>くつした</rt><rp>)</rp></ruby>を<ruby>履<rp>(</rp><rt>は</rt><rp>)</rp></ruby>いてください。</div>
+                    <div class="example-english">Please put on socks.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby>い<ruby>靴下<rp>(</rp><rt>くつした</rt><rp>)</rp></ruby>がありますか。</div>
+                    <div class="example-english">Do you have white socks?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>靴下<rp>(</rp><rt>くつした</rt><rp>)</rp></ruby>に<ruby>穴<rp>(</rp><rt>あな</rt><rp>)</rp></ruby>が<ruby>開<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>いています。</div>
+                    <div class="example-english">There&#x27;s a hole in the sock.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Compound word: <ruby>靴<rp>(</rp><rt>くつ</rt><rp>)</rp></ruby> (shoes) + <ruby>下<rp>(</rp><rt>した</rt><rp>)</rp></ruby> (under). Counter: <ruby>足<rp>(</rp><rt>そく</rt><rp>)</rp></ruby> for pairs, <ruby>枚<rp>(</rp><rt>まい</rt><rp>)</rp></ruby> for individual socks. Uses <ruby>履<rp>(</rp><rt>は</rt><rp>)</rp></ruby>く (to put on) and <ruby>脱<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>ぐ (to take off). When in Japan, socks should be clean and without holes since shoes are often removed!</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:48 · Revised 2026.1.19 21:14</div>
+                <div class="metadata-file">00500/00726_kutsushita</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

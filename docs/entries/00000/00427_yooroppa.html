@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ヨーロッパ - Europe. Japanese-English dictionary entry with definitions and examples.">
+    <title>ヨーロッパ (よーろっぱ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ヨーロッパ</h1>
+            <div class="entry-reading">よーろっぱ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">Europe</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">Europe</span>
+                    <div class="definition-explanation">The continent located west of Asia and north of Africa.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>来年<rp>(</rp><rt>らいねん</rt><rp>)</rp></ruby>ヨーロッパを<ruby>旅行<rp>(</rp><rt>りょこう</rt><rp>)</rp></ruby>する<ruby>予定<rp>(</rp><rt>よてい</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">I plan to travel to Europe next year.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ヨーロッパの<ruby>歴史<rp>(</rp><rt>れきし</rt><rp>)</rp></ruby>に<ruby>興味<rp>(</rp><rt>きょうみ</rt><rp>)</rp></ruby>がある。</div>
+                    <div class="example-english">I&#x27;m interested in European history.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ヨーロッパからの<ruby>輸入品<rp>(</rp><rt>ゆにゅうひん</rt><rp>)</rp></ruby>。</div>
+                    <div class="example-english">Imports from Europe.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ヨーロッパ (from Portuguese &#x27;Europa&#x27; or Dutch) is the Japanese name for Europe.</p><p>COMMON EXPRESSIONS:</p><ul><li>ヨーロッパ<ruby>旅行<rp>(</rp><rt>りょこう</rt><rp>)</rp></ruby>: trip to Europe</li><li><ruby>西<rp>(</rp><rt>にし</rt><rp>)</rp></ruby>ヨーロッパ: Western Europe</li><li><ruby>東<rp>(</rp><rt>ひがし</rt><rp>)</rp></ruby>ヨーロッパ: Eastern Europe</li><li>ヨーロッパ<ruby>連合<rp>(</rp><rt>れんごう</rt><rp>)</rp></ruby> (EU): European Union</li></ul><p>ADJECTIVE FORM:<br>ヨーロッパの or ヨーロッパ<ruby>風<rp>(</rp><rt>ふう</rt><rp>)</rp></ruby> (European-style)</p><p>ALTERNATIVE WRITING:<br><ruby>欧州<rp>(</rp><rt>おうしゅう</rt><rp>)</rp></ruby> is a more formal/literary term for Europe, often used in news and official contexts.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 9:40 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">00000/00427_yooroppa</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

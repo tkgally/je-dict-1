@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="オゾン層 - ozone layer. Japanese-English dictionary entry with definitions and examples.">
+    <title>オゾン層 (おぞんそう) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">オゾン<ruby>層<rp>(</rp><rt>そう</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">おぞんそう</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">ozone layer</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">ozone layer</span>
+                    <div class="definition-explanation">A region of Earth&#x27;s stratosphere containing high concentrations of ozone that absorbs ultraviolet radiation from the sun.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">オゾン<ruby>層<rp>(</rp><rt>そう</rt><rp>)</rp></ruby>が<ruby>紫外線<rp>(</rp><rt>しがいせん</rt><rp>)</rp></ruby>から<ruby>地球<rp>(</rp><rt>ちきゅう</rt><rp>)</rp></ruby>を<ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">The ozone layer protects Earth from ultraviolet rays.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">オゾン<ruby>層<rp>(</rp><rt>そう</rt><rp>)</rp></ruby>の<ruby>破壊<rp>(</rp><rt>はかい</rt><rp>)</rp></ruby>が<ruby>問題<rp>(</rp><rt>もんだい</rt><rp>)</rp></ruby>になっている。</div>
+                    <div class="example-english">The destruction of the ozone layer has become a problem.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">フロンガスがオゾン<ruby>層<rp>(</rp><rt>そう</rt><rp>)</rp></ruby>を<ruby>破壊<rp>(</rp><rt>はかい</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">CFCs destroy the ozone layer.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>オゾン<ruby>層<rp>(</rp><rt>そう</rt><rp>)</rp></ruby> (ozone + <ruby>層<rp>(</rp><rt>そう</rt><rp>)</rp></ruby> = layer)</p><p>RELATED:</p><ul><li><ruby>紫外線<rp>(</rp><rt>しがいせん</rt><rp>)</rp></ruby>: ultraviolet rays</li><li>オゾンホール: ozone hole</li><li>フロンガス: CFCs (chlorofluorocarbons)</li></ul><p>ENVIRONMENTAL ISSUE:</p><ul><li>The Montreal Protocol (1987) regulated substances that deplete the ozone layer</li><li>The ozone hole over Antarctica has been slowly recovering</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 12:32 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">05000/05246_ozonsou</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

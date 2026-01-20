@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="無駄 - useless, wasteful. Japanese-English dictionary entry with definitions and examples.">
+    <title>無駄 (むだ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">むだ</div>
+            <div class="entry-pos">na-adjective</div>
+            <div class="entry-gloss">useless, wasteful</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">useless, wasteful, futile</span>
+                    <div class="definition-explanation">Something that serves no purpose or achieves nothing.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">waste</span>
+                    <div class="definition-explanation">As a noun, something that is wasted or unnecessary.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>を<ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby>にしないで。</div>
+                    <div class="example-english">Don&#x27;t waste time.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">それは<ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby>だと<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>う。</div>
+                    <div class="example-english">I think that&#x27;s useless.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby>な<ruby>努力<rp>(</rp><rt>どりょく</rt><rp>)</rp></ruby>だった。</div>
+                    <div class="example-english">It was a wasted effort.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Functions as a na-adjective and noun.</p><p>COMMON PATTERNS:</p><ul><li><ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby>な + noun (<ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby>な<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby> = wasted time)</li><li><ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby>にする (to waste)</li><li><ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby>になる (to be wasted)</li><li><ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby><ruby>遣<rp>(</rp><rt>づか</rt><rp>)</rp></ruby>い (wasteful spending)</li><li><ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby><ruby>話<rp>(</rp><rt>ばなし</rt><rp>)</rp></ruby> (idle chatter)</li></ul><p><ruby>無駄<rp>(</rp><rt>むだ</rt><rp>)</rp></ruby>にする is commonly used with time, money, or effort.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 21:34 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">02500/02512_muda</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

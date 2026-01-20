@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="台形 - trapezoid; trapezium. Japanese-English dictionary entry with definitions and examples.">
+    <title>台形 (だいけい) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>台形<rp>(</rp><rt>だいけい</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">だいけい</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">trapezoid; trapezium</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">trapezoid; trapezium</span>
+                    <div class="definition-explanation">A quadrilateral with exactly one pair of parallel sides.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>台形<rp>(</rp><rt>だいけい</rt><rp>)</rp></ruby>の<ruby>面積<rp>(</rp><rt>めんせき</rt><rp>)</rp></ruby>を<ruby>求<rp>(</rp><rt>もと</rt><rp>)</rp></ruby>める。</div>
+                    <div class="example-english">To find the area of a trapezoid.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>図形<rp>(</rp><rt>ずけい</rt><rp>)</rp></ruby>は<ruby>台形<rp>(</rp><rt>だいけい</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">This shape is a trapezoid.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>台形<rp>(</rp><rt>だいけい</rt><rp>)</rp></ruby>には<ruby>一組<rp>(</rp><rt>ひとくみ</rt><rp>)</rp></ruby>の<ruby>平行<rp>(</rp><rt>へいこう</rt><rp>)</rp></ruby>な<ruby>辺<rp>(</rp><rt>へん</rt><rp>)</rp></ruby>がある。</div>
+                    <div class="example-english">A trapezoid has one pair of parallel sides.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>台形<rp>(</rp><rt>だいけい</rt><rp>)</rp></ruby> is a quadrilateral with one pair of parallel sides.</p><p>FORMULA:</p><ul><li><ruby>面積<rp>(</rp><rt>めんせき</rt><rp>)</rp></ruby> = (<ruby>上底<rp>(</rp><rt>じょうてい</rt><rp>)</rp></ruby> + <ruby>下底<rp>(</rp><rt>かてい</rt><rp>)</rp></ruby>) × <ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>さ ÷ 2</li></ul><p>RELATED TERMS:</p><ul><li><ruby>等脚<rp>(</rp><rt>とうきゃく</rt><rp>)</rp></ruby><ruby>台形<rp>(</rp><rt>だいけい</rt><rp>)</rp></ruby>: isosceles trapezoid</li><li><ruby>上底<rp>(</rp><rt>じょうてい</rt><rp>)</rp></ruby>: upper base</li><li><ruby>下底<rp>(</rp><rt>かてい</rt><rp>)</rp></ruby>: lower base</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 17:09 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">05500/05552_daikei</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

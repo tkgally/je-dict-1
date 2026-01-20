@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="あのー - um, excuse me, well. Japanese-English dictionary entry with definitions and examples.">
+    <title>あのー (あのー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">あのー</h1>
+            <div class="entry-reading">あのー</div>
+            <div class="entry-pos">interjection</div>
+            <div class="entry-gloss">um, excuse me, well</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">um, excuse me</span>
+                    <div class="definition-explanation">Used to politely get someone&#x27;s attention or begin a conversation, especially with strangers.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">well, um</span>
+                    <div class="definition-explanation">A hesitation filler used when thinking of what to say or when broaching a difficult topic.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">あのー、すみません。<ruby>駅<rp>(</rp><rt>えき</rt><rp>)</rp></ruby>はどこですか。</div>
+                    <div class="example-english">Excuse me, where is the station?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">あのー、ちょっとお<ruby>聞<rp>(</rp><rt>き</rt><rp>)</rp></ruby>きしたいんですが。</div>
+                    <div class="example-english">Um, I&#x27;d like to ask you something.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">あのー、<ruby>実<rp>(</rp><rt>じつ</rt><rp>)</rp></ruby>は<ruby>話<rp>(</rp><rt>はなし</rt><rp>)</rp></ruby>があるんですけど。</div>
+                    <div class="example-english">Well, actually there&#x27;s something I need to tell you.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">「どう<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>う？」「あのー、<ruby>難<rp>(</rp><rt>むずか</rt><rp>)</rp></ruby>しいですね。」</div>
+                    <div class="example-english">&quot;What do you think?&quot; &quot;Well, it&#x27;s difficult.&quot;</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>USAGE: More polite than えーと. Often used to:</p><ul><li>Get a stranger&#x27;s attention politely</li><li>Begin a request or question</li><li>Broach a sensitive topic</li><li>Express hesitation in a softer way</li></ul><p>VARIANT FORMS:</p><ul><li>あのー: standard, slightly elongated</li><li>あの: shorter, less hesitant</li><li>あのう: formal written form</li><li>あのーー: further elongated for more hesitation</li></ul><p>COMPARISON WITH えーと:</p><ul><li>あのー: more polite, often conversation-opening</li><li>えーと: more casual, mid-conversation thinking</li></ul><p>RELATED EXPRESSIONS:</p><ul><li>すみません: &quot;excuse me&quot; (more direct)</li><li>ちょっと: often follows あのー in requests</li><li><ruby>実<rp>(</rp><rt>じつ</rt><rp>)</rp></ruby>は: &quot;actually&quot; (often follows when broaching topics)</li></ul><p>CONVERSATION OPENING: あのー + すみません is a very common polite way to approach someone.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 19:29 · Revised 2026.1.19 21:14</div>
+                <div class="metadata-file">06500/06911_anoo</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="体 - body. Japanese-English dictionary entry with definitions and examples.">
+    <title>体 (からだ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">からだ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">body</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">body (physical)</span>
+                    <div class="definition-explanation">The physical body of a person or animal. Used when talking about health, physical conditions, or body-related topics.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">health, physical condition</span>
+                    <div class="definition-explanation">Often used idiomatically to refer to one&#x27;s health or physical well-being, as in <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>に<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>をつける (take care of your health).</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>を<ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>かすのが<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きです。</div>
+                    <div class="example-english">I like moving my body (exercising).</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>に<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>をつけてください。</div>
+                    <div class="example-english">Please take care of yourself (your health).</div>
+                    <div class="example-notes">A common phrase used when parting or showing concern</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>の<ruby>調子<rp>(</rp><rt>ちょうし</rt><rp>)</rp></ruby>はどうですか。</div>
+                    <div class="example-english">How is your physical condition?</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby> is one of the most fundamental words for the physical body. It&#x27;s used in many common expressions related to health. The kanji <ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby> can also be read as &#x27;tai&#x27; in compounds like <ruby>体育<rp>(</rp><rt>たいいく</rt><rp>)</rp></ruby> (physical education).</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:23 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">00500/00784_karada</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

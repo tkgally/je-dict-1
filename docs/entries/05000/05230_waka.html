@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="和歌 - waka; classical Japanese poetry. Japanese-English dictionary entry with definitions and examples.">
+    <title>和歌 (わか) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>和歌<rp>(</rp><rt>わか</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">わか</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">waka; classical Japanese poetry</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">waka; classical Japanese poetry</span>
+                    <div class="definition-explanation">Traditional Japanese poetry, especially the 31-syllable tanka form (5-7-5-7-7), distinguished from Chinese poetry.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>には<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>くの<ruby>和歌<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>が<ruby>収<rp>(</rp><rt>おさ</rt><rp>)</rp></ruby>められている。</div>
+                    <div class="example-english">The Man&#x27;yoshu contains many waka poems.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>和歌<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>を<ruby>詠<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>む。</div>
+                    <div class="example-english">To compose a waka poem.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>平安時代<rp>(</rp><rt>へいあんじだい</rt><rp>)</rp></ruby>に<ruby>和歌<rp>(</rp><rt>わか</rt><rp>)</rp></ruby>は<ruby>盛<rp>(</rp><rt>さか</rt><rp>)</rp></ruby>んだった。</div>
+                    <div class="example-english">Waka poetry flourished in the Heian period.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>和歌<rp>(</rp><rt>わか</rt><rp>)</rp></ruby> literally means &#x27;Japanese song/poem&#x27; (和 = Japanese, 歌 = song).</p><p>FORMS:</p><ul><li><ruby>短歌<rp>(</rp><rt>たんか</rt><rp>)</rp></ruby>: 5-7-5-7-7 syllables (most common)</li><li><ruby>長歌<rp>(</rp><rt>ちょうか</rt><rp>)</rp></ruby>: long poem (alternating 5-7 patterns)</li></ul><p>FAMOUS COLLECTIONS:</p><ul><li><ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>: oldest anthology (8th century)</li><li><ruby>古今和歌集<rp>(</rp><rt>こきんわかしゅう</rt><rp>)</rp></ruby>: compiled 905 CE</li><li><ruby>百人一首<rp>(</rp><rt>ひゃくにんいっしゅ</rt><rp>)</rp></ruby>: 100 famous poems</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 12:32 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">05000/05230_waka</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

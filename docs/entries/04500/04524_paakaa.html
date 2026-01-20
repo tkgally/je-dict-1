@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="パーカー - hoodie. Japanese-English dictionary entry with definitions and examples.">
+    <title>パーカー (ぱーかー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">パーカー</h1>
+            <div class="entry-reading">ぱーかー</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">hoodie</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">hoodie; hooded sweatshirt</span>
+                    <div class="definition-explanation">hoodie; hooded sweatshirt</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">パーカーを<ruby>着<rp>(</rp><rt>き</rt><rp>)</rp></ruby>て<ruby>散歩<rp>(</rp><rt>さんぽ</rt><rp>)</rp></ruby>に<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>かけた。</div>
+                    <div class="example-english">I put on a hoodie and went for a walk.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>雨<rp>(</rp><rt>あめ</rt><rp>)</rp></ruby>が<ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>ってきたので、パーカーのフードをかぶった。</div>
+                    <div class="example-english">It started raining, so I put up my hoodie&#x27;s hood.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">パーカーは<ruby>楽<rp>(</rp><rt>らく</rt><rp>)</rp></ruby>で<ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>きやすい。</div>
+                    <div class="example-english">Hoodies are comfortable and easy to move in.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>パーカー (from &quot;parka&quot;) in Japanese commonly refers to hooded sweatshirts (hoodies). This differs from English where &quot;parka&quot; typically means a heavy winter coat.</p><p>Common types:</p><ul><li>ジップパーカー / ジップアップパーカー (zip-up hoodie)</li><li>プルオーバーパーカー (pullover hoodie)</li></ul><p>Related terms:</p><ul><li>フード (hood)</li><li>トレーナー (sweatshirt without hood)</li><li>スウェット (sweatshirt material / sweats)</li></ul><p>Usage note:</p><ul><li>フードをかぶる (put up the hood)</li><li>フードを<ruby>外<rp>(</rp><rt>はず</rt><rp>)</rp></ruby>す (take down the hood)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.15 3:58 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">04500/04524_paakaa</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

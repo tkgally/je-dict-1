@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="技 - technique, skill, move. Japanese-English dictionary entry with definitions and examples.">
+    <title>技 (わざ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>技<rp>(</rp><rt>わざ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">わざ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">technique, skill, move</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">technique, skill</span>
+                    <div class="definition-explanation">A specialized ability acquired through practice.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">move, trick</span>
+                    <div class="definition-explanation">A particular action in sports or martial arts.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>技<rp>(</rp><rt>わざ</rt><rp>)</rp></ruby>を<ruby>磨<rp>(</rp><rt>みが</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">To hone one&#x27;s skills.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>必殺技<rp>(</rp><rt>ひっさつわざ</rt><rp>)</rp></ruby>を<ruby>繰<rp>(</rp><rt>く</rt><rp>)</rp></ruby>り<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">He unleashed his special move.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>技<rp>(</rp><rt>わざ</rt><rp>)</rp></ruby> refers to techniques and skills.</p><p>COMPOUNDS:</p><ul><li><ruby>技術<rp>(</rp><rt>ぎじゅつ</rt><rp>)</rp></ruby>: technique, technology</li><li><ruby>必殺技<rp>(</rp><rt>ひっさつわざ</rt><rp>)</rp></ruby>: special move</li><li><ruby>大技<rp>(</rp><rt>おおわざ</rt><rp>)</rp></ruby>: big move, major technique</li><li><ruby>小技<rp>(</rp><rt>こわざ</rt><rp>)</rp></ruby>: small trick</li></ul><p>IN MARTIAL ARTS:<br><ruby>技<rp>(</rp><rt>わざ</rt><rp>)</rp></ruby> is used for moves in judo, sumo, wrestling, etc.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:28 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">02000/02172_waza</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

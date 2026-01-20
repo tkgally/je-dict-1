@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="パーティー - party. Japanese-English dictionary entry with definitions and examples.">
+    <title>パーティー (ぱーてぃー) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">パーティー</h1>
+            <div class="entry-reading">ぱーてぃー</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">party</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">party, social gathering</span>
+                    <div class="definition-explanation">A social event where people gather for celebration or entertainment.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>誕生日<rp>(</rp><rt>たんじょうび</rt><rp>)</rp></ruby>パーティーを<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">To hold a birthday party.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">パーティーに<ruby>招待<rp>(</rp><rt>しょうたい</rt><rp>)</rp></ruby>された。</div>
+                    <div class="example-english">I was invited to a party.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>今晩<rp>(</rp><rt>こんばん</rt><rp>)</rp></ruby>パーティーがある。</div>
+                    <div class="example-english">There is a party tonight.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>パーティー is a loanword from English &quot;party.&quot;</p><p>COMMON COLLOCATIONS:</p><ul><li>パーティーを<ruby>開<rp>(</rp><rt>ひら</rt><rp>)</rp></ruby>く (to hold a party)</li><li>パーティーに<ruby>出席<rp>(</rp><rt>しゅっせき</rt><rp>)</rp></ruby>する (to attend a party)</li><li>パーティーに<ruby>招待<rp>(</rp><rt>しょうたい</rt><rp>)</rp></ruby>する (to invite to a party)</li></ul><p>TYPES OF PARTIES:</p><ul><li><ruby>誕生日<rp>(</rp><rt>たんじょうび</rt><rp>)</rp></ruby>パーティー (birthday party)</li><li><ruby>歓迎<rp>(</rp><rt>かんげい</rt><rp>)</rp></ruby>パーティー (welcome party)</li><li><ruby>送別<rp>(</rp><rt>そうべつ</rt><rp>)</rp></ruby>パーティー (farewell party)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 19:30 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">02500/02946_paatii</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

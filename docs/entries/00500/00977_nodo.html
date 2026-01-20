@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="喉 - throat. Japanese-English dictionary entry with definitions and examples.">
+    <title>喉 (のど) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">のど</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">throat</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">throat</span>
+                    <div class="definition-explanation">The front part of the neck, including the internal passage for food and air.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby>が<ruby>渇<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>きました。</div>
+                    <div class="example-english">I&#x27;m thirsty. (My throat is dry.)</div>
+                    <div class="example-notes">Very common expression</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby>が<ruby>痛<rp>(</rp><rt>いた</rt><rp>)</rp></ruby>いです。</div>
+                    <div class="example-english">I have a sore throat.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby><ruby>飴<rp>(</rp><rt>あめ</rt><rp>)</rp></ruby>を<ruby>舐<rp>(</rp><rt>な</rt><rp>)</rp></ruby>めています。</div>
+                    <div class="example-english">I&#x27;m sucking on a throat lozenge.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby> is essential for describing thirst (<ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby>が<ruby>渇<rp>(</rp><rt>かわ</rt><rp>)</rp></ruby>く) and sore throats (<ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby>が<ruby>痛<rp>(</rp><rt>いた</rt><rp>)</rp></ruby>い). The kanji is complex, so it&#x27;s often written in hiragana. <ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby><ruby>飴<rp>(</rp><rt>あめ</rt><rp>)</rp></ruby> are throat lozenges. The proverb <ruby>喉<rp>(</rp><rt>のど</rt><rp>)</rp></ruby>もと<ruby>過<rp>(</rp><rt>す</rt><rp>)</rp></ruby>ぎれば<ruby>熱<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>さを<ruby>忘<rp>(</rp><rt>わす</rt><rp>)</rp></ruby>れる means &#x27;danger past, God forgotten.&#x27;</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:03 · Revised 2026.1.19 21:14</div>
+                <div class="metadata-file">00500/00977_nodo</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

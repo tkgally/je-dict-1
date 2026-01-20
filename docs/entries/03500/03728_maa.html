@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="まあ - well; my!; so-so. Japanese-English dictionary entry with definitions and examples.">
+    <title>まあ (まあ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">まあ</h1>
+            <div class="entry-reading">まあ</div>
+            <div class="entry-pos">interjection / adverb</div>
+            <div class="entry-gloss">well; my!; so-so</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">well, now</span>
+                    <div class="definition-explanation">Used when making a modest, hesitant, or transitional statement.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">my!, oh!</span>
+                    <div class="definition-explanation">An exclamation expressing surprise (often used by women).</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">3.</span>
+                    <span class="definition-gloss">more or less, so-so</span>
+                    <div class="definition-explanation">Indicating something is acceptable but not exceptional.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">まあ、<ruby>仕方<rp>(</rp><rt>しかた</rt><rp>)</rp></ruby>ないか。</div>
+                    <div class="example-english">Well, I guess it can&#x27;t be helped.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">まあ、<ruby>驚<rp>(</rp><rt>おどろ</rt><rp>)</rp></ruby>いた！</div>
+                    <div class="example-english">Oh my, what a surprise!</div>
+                    <div class="example-notes">Often used by women</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">まあまあの<ruby>結果<rp>(</rp><rt>けっか</rt><rp>)</rp></ruby>だった。</div>
+                    <div class="example-english">The results were so-so.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>A versatile word with different nuances depending on context and intonation.</p><p>USAGE 1 - HESITATION/MODESTY:</p><ul><li>まあ、いいでしょう (Well, that should be fine)</li><li>まあ、そうですね (Well, I suppose so)</li><li>まあ、<ruby>大丈夫<rp>(</rp><rt>だいじょうぶ</rt><rp>)</rp></ruby>だろう (Well, it&#x27;ll probably be okay)</li></ul><p>USAGE 2 - SURPRISE (feminine):</p><ul><li>まあ、<ruby>素敵<rp>(</rp><rt>すてき</rt><rp>)</rp></ruby>！(Oh my, how lovely!)</li><li>まあ、<ruby>大変<rp>(</rp><rt>たいへん</rt><rp>)</rp></ruby>！(Oh dear!)</li></ul><p>USAGE 3 - SO-SO:</p><ul><li>まあまあ (so-so, not bad)</li><li>まあまあ<ruby>美味<rp>(</rp><rt>おい</rt><rp>)</rp></ruby>しい (fairly good)</li></ul><p>USAGE 4 - CALMING:</p><ul><li>まあまあ、<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>ち<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>いて (Now, now, calm down)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.12 21:24 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">03500/03728_maa</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ときめく - to throb; to flutter; to be excited. Japanese-English dictionary entry with definitions and examples.">
+    <title>ときめく (ときめく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ときめく</h1>
+            <div class="entry-reading">ときめく</div>
+            <div class="entry-pos">verb (godan, intransitive)</div>
+            <div class="entry-gloss">to throb; to flutter; to be excited</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">to throb; to flutter; to be excited</span>
+                    <div class="definition-explanation">For one&#x27;s heart to beat fast with excitement, anticipation, or romantic feelings. Describes a positive emotional flutter.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>を<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>ると<ruby>胸<rp>(</rp><rt>むね</rt><rp>)</rp></ruby>がときめく。</div>
+                    <div class="example-english">My heart flutters when I see him.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>新<rp>(</rp><rt>あたら</rt><rp>)</rp></ruby>しい<ruby>出会<rp>(</rp><rt>であ</rt><rp>)</rp></ruby>いにときめいている。</div>
+                    <div class="example-english">I&#x27;m excited about meeting someone new.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ときめきを<ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>じなくなった。</div>
+                    <div class="example-english">I stopped feeling that flutter of excitement.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>TRANSITIVITY:<br>Intransitive verb (<ruby>自動詞<rp>(</rp><rt>じどうし</rt><rp>)</rp></ruby>). No pair verb.</p><p>KANJI:<br>Sometimes written as <ruby>時<rp>(</rp><rt>とき</rt><rp>)</rp></ruby>めく, though hiragana is standard.</p><p>USAGE:<br>ときめく describes a positive emotional excitement, often associated with romance, new experiences, or anticipation. It&#x27;s a softer, more pleasant sensation than anxiety.</p><p>COMMON COLLOCATIONS:</p><ul><li><ruby>胸<rp>(</rp><rt>むね</rt><rp>)</rp></ruby>がときめく (heart flutters)</li><li>ときめきを<ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>じる (to feel excitement)</li><li>ときめく<ruby>出会<rp>(</rp><rt>であ</rt><rp>)</rp></ruby>い (exciting encounter)</li></ul><p>RELATED NOUN:</p><p>ときめき - flutter, excitement, thrill</p><ul><li>ときめきがある (to feel excitement)</li><li>ときめきを<ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>える (to give someone a thrill)</li></ul><p>CULTURAL NOTE:<br>Famously used in Marie Kondo&#x27;s tidying philosophy: 「ときめくかどうか」(whether it sparks joy) as a criterion for keeping possessions.</p><p>SIMILAR WORDS:</p><ul><li>どきどきする - heart pounding (can be anxiety or excitement)</li><li>わくわくする - to be excited (anticipation-focused)</li><li><ruby>興奮<rp>(</rp><rt>こうふん</rt><rp>)</rp></ruby>する - to be excited (stronger, more general)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.19 14:58 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">07000/07363_tokimeku</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

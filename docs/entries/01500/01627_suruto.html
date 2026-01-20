@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="すると - then, thereupon. Japanese-English dictionary entry with definitions and examples.">
+    <title>すると (すると) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">すると</h1>
+            <div class="entry-reading">すると</div>
+            <div class="entry-pos">conjunction</div>
+            <div class="entry-gloss">then, thereupon</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">then, thereupon, and then</span>
+                    <div class="definition-explanation">A conjunction indicating that one action or event follows another, often with an element of natural consequence or unexpected result.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ドアを<ruby>開<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>けた。すると、<ruby>猫<rp>(</rp><rt>ねこ</rt><rp>)</rp></ruby>が<ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>ってきた。</div>
+                    <div class="example-english">I opened the door. Then, a cat came in.</div>
+                    <div class="example-notes">Unexpected consequence</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ボタンを<ruby>押<rp>(</rp><rt>お</rt><rp>)</rp></ruby>した。すると、<ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>が<ruby>鳴<rp>(</rp><rt>な</rt><rp>)</rp></ruby>った。</div>
+                    <div class="example-english">I pressed the button. Then, a sound rang out.</div>
+                    <div class="example-notes">Natural consequence</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>電話<rp>(</rp><rt>でんわ</rt><rp>)</rp></ruby>をかけた。すると、<ruby>田中<rp>(</rp><rt>たなか</rt><rp>)</rp></ruby>さんが<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>た。</div>
+                    <div class="example-english">I made a phone call. Then, Mr. Tanaka answered.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>すると connects two sentences where the second follows as a consequence of the first.</p><p>USAGE:</p><ul><li>Often starts a new sentence</li><li>Implies a cause-effect or sequential relationship</li><li>Can express unexpected results</li></ul><p>SIMILAR CONJUNCTIONS:</p><ul><li>そうすると: if you do so, then</li><li>それから: and then, after that (simple sequence)</li><li>そして: and, and then (additive)</li><li>すぐに: immediately (emphasis on speed)</li></ul><p>DIFFERENCE FROM そして:</p><ul><li>すると: implies consequence or surprise</li><li>そして: simple addition or continuation</li></ul><p>[Register: Neutral, common in narrative]</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:26 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">01500/01627_suruto</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

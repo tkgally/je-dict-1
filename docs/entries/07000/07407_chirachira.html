@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ちらちら - flickering; glancing; in small pieces. Japanese-English dictionary entry with definitions and examples.">
+    <title>ちらちら (ちらちら) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ちらちら</h1>
+            <div class="entry-reading">ちらちら</div>
+            <div class="entry-pos">adverb, mimetic</div>
+            <div class="entry-gloss">flickering; glancing; in small pieces</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">flickering; twinkling; flashing</span>
+                    <div class="definition-explanation">Describes light or small objects appearing and disappearing repeatedly in an unstable, intermittent way.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">glancing; stealing looks; peeking</span>
+                    <div class="definition-explanation">Looking at something repeatedly but briefly, often in a furtive manner.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">3.</span>
+                    <span class="definition-gloss">in small pieces; lightly</span>
+                    <div class="definition-explanation">Falling or appearing in small, sparse amounts (like light snow).</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>星<rp>(</rp><rt>ほし</rt><rp>)</rp></ruby>がちらちら<ruby>光<rp>(</rp><rt>ひか</rt><rp>)</rp></ruby>っている。</div>
+                    <div class="example-english">The stars are twinkling.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>は<ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>のことをちらちら<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>ていた。</div>
+                    <div class="example-english">She kept glancing at him.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>雪<rp>(</rp><rt>ゆき</rt><rp>)</rp></ruby>がちらちら<ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>ってきた。</div>
+                    <div class="example-english">Snow started to fall lightly.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ONOMATOPOEIA TYPE:<br>Giseigo/gitaigo - mimetic word expressing manner of action.</p><p>COMMON COLLOCATIONS:</p><ul><li>ちらちら<ruby>光<rp>(</rp><rt>ひか</rt><rp>)</rp></ruby>る - to flicker/twinkle</li><li>ちらちら<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>る - to steal glances</li><li><ruby>雪<rp>(</rp><rt>ゆき</rt><rp>)</rp></ruby>がちらちら<ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>る - snow falls in light flurries</li><li>ちらちら<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>える - to be barely visible, to catch glimpses of</li></ul><p>RELATED MIMETICS:</p><ul><li>きらきら - sparkling, glittering (more steady, beautiful light)</li><li>ぴかぴか - shiny, gleaming (solid brightness)</li><li>じろじろ - staring (prolonged, often rude)</li></ul><p>NUANCE:<br>ちらちら suggests intermittent, unstable, or furtive action - not continuous or steady.</p><p>REGISTER:<br>Neutral. Common in everyday conversation.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.19 16:25 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">07000/07407_chirachira</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

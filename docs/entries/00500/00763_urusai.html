@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="うるさい - noisy, annoying. Japanese-English dictionary entry with definitions and examples.">
+    <title>うるさい (うるさい) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">うるさい</h1>
+            <div class="entry-reading">うるさい</div>
+            <div class="entry-pos">adjective (i-adjective)</div>
+            <div class="entry-gloss">noisy, annoying</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">noisy, loud</span>
+                    <div class="definition-explanation">Describes something that makes too much noise or is unpleasantly loud. Can refer to sounds, people, or environments.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">annoying, bothersome</span>
+                    <div class="definition-explanation">Can describe something or someone that is pestering, nagging, or being a nuisance. Often used to tell someone to be quiet or stop bothering you.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>部屋<rp>(</rp><rt>へや</rt><rp>)</rp></ruby>はうるさいですね。</div>
+                    <div class="example-english">This room is noisy, isn&#x27;t it?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">うるさい！<ruby>静<rp>(</rp><rt>しず</rt><rp>)</rp></ruby>かにして！</div>
+                    <div class="example-english">Be quiet! Shut up!</div>
+                    <div class="example-notes">Direct/rude way to tell someone to be quiet</div>
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>隣<rp>(</rp><rt>となり</rt><rp>)</rp></ruby>の<ruby>犬<rp>(</rp><rt>いぬ</rt><rp>)</rp></ruby>がうるさくて<ruby>眠<rp>(</rp><rt>ねむ</rt><rp>)</rp></ruby>れない。</div>
+                    <div class="example-english">The neighbor&#x27;s dog is so noisy I can&#x27;t sleep.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>This word is usually written in hiragana. When used as an exclamation (うるさい！), it&#x27;s a fairly rude way to tell someone to be quiet—similar to &#x27;Shut up!&#x27; in English. The kanji form <ruby>五月蠅<rp>(</rp><rt>うるさ</rt><rp>)</rp></ruby>い exists but is rarely used. The opposite is <ruby>静<rp>(</rp><rt>しず</rt><rp>)</rp></ruby>か (quiet).</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.7 21:54 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">00500/00763_urusai</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
