@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 127)
+Added 30 new dictionary entries from candidate_words.json, focusing on personality traits, social relationships, consideration/care vocabulary, and useful adjectives:
+
+- **Friendliness/charm** (3): {愛想|あいそう} (amiability), {愛嬌|あいきょう} (charm), {無愛想|ぶあいそう} (unfriendly)
+- **Care/consideration** (4): {気遣|きづか}い (concern), {心遣|こころづか}い (thoughtfulness), {心配|こころくば}り (attentive care), {目配|めくば}り (watchfulness)
+- **Skill vocabulary** (3): {腕前|うでまえ} (skill), {凄腕|すごうで} (expert), {敏腕|びんわん} (capable)
+- **Age/status** (2): {年上|としうえ} (older), {年下|としした} (younger)
+- **Familiarity** (3): {馴染|なじ}み (familiarity), {顔馴染|かおなじ}み (familiar face), {初対面|しょたいめん} (first meeting)
+- **Attitude/behavior** (4): {強|つよ}がり (bravado), {負|ま}け{惜|お}しみ (sour grapes), お{節介|せっかい} (meddlesome), {気|き}まぐれ (capricious)
+- **Abstract nouns** (3): {無駄遣|むだづか}い (waste), {成|な}り{行|ゆ}き (course of events), {先入観|せんにゅうかん} (preconception)
+- **I-adjectives** (5): {奥深|おくぶか}い (profound), {生|なま}ぬるい (lukewarm), {潔|いさぎよ}い (graceful in defeat), {程|ほど}よい (moderate), {差|さ}し{出|で}がましい (presumptuous)
+- **Na-adjectives** (2): {理不尽|りふじん} (unreasonable), {横柄|おうへい} (arrogant)
+- **Expression** (1): やむを{得|え}ない (unavoidable)
+
+Notable entry features:
+- Complete care/consideration vocabulary group with cross-references: {気遣|きづか}い, {心遣|こころづか}い, {心配|こころくば}り, {目配|めくば}り
+- Skill words: {腕前|うでまえ} → {凄腕|すごうで} → {敏腕|びんわん} with nuance distinctions
+- Friendliness/unfriendliness: {愛想|あいそう}/{愛嬌|あいきょう}/{無愛想|ぶあいそう} as antonym pairs
+- Useful adjectives for describing personalities and situations
+- Expressions for social situations: {初対面|しょたいめん}, お{節介|せっかい}, {差|さ}し{出|で}がましい
+
+Total entries: 7,209 → 7,239
+Remaining candidates: ~607 → ~577
+
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 126)
 Added 30 new dictionary entries from candidate_words.json, focusing on compound verbs, comfort/worth expressions, physical sensations, and useful vocabulary:
 

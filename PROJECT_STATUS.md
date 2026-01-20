@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,449
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,656 | Unassigned: 0 ✓
-- **Candidate words**: ~574 words tracked in `candidate_words.json`
+- **Total entries**: 7,479
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,686 | Unassigned: 0 ✓
+- **Candidate words**: ~544 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 137)
+Added 30 new dictionary entries from candidate_words.json, covering musical instruments/terminology, regional dialects from multiple areas, and practical everyday vocabulary:
+
+- **Musical instruments (3)**: {打楽器|だがっき} (percussion instrument), {管楽器|かんがっき} (wind instrument), {弦楽器|げんがっき} (string instrument)
+- **Music terminology (7)**: {吹奏楽|すいそうがく} (wind band music), {調律|ちょうりつ} (tuning), {転調|てんちょう} (modulation), {休符|きゅうふ} (rest), {独奏|どくそう} (solo), サックス (saxophone), トランペット (trumpet)
+- **Kansai dialect (5)**: せや (that's right), わや (mess), ええやん (it's good), どないやねん (what's up with that)
+- **Kyushu dialect (2)**: ばってん (but), よか (good)
+- **Hokkaido dialect (2)**: なまら (very), したっけ (bye/well then)
+- **Tohoku dialect (1)**: いずい (uncomfortable)
+- **Edo origin (1)**: べらぼう (ridiculously)
+- **Technology/modern (2)**: オフライン (offline), モバイルバッテリー (portable battery)
+- **Business/documents (5)**: {資質|ししつ} (qualities), {届出|とどけで} (notification), {引落|ひきおと}し (automatic deduction), {借入|かりいれ} (borrowing), {届|とど}け (report)
+- **Other (2)**: リハーサル (rehearsal), クラフトビール (craft beer), {潤滑油|じゅんかつゆ} (lubricant)
+
+Notable entry features:
+- Complete musical instrument classification group: {打楽器|だがっき} ↔ {管楽器|かんがっき} ↔ {弦楽器|げんがっき} with cross-references
+- Comprehensive regional dialect coverage: Kansai (せや, わや, ええやん, どないやねん), Kyushu (ばってん, よか), Hokkaido (なまら, したっけ), Tohoku (いずい)
+- べらぼう with Edo period etymology and cultural notes about {時代劇|じだいげき}
+- いずい with explanation of this "untranslatable" Tohoku dialect word describing subtle discomfort
+- {吹奏楽|すいそうがく} with cultural context about popularity in Japanese schools
+- Financial/administrative vocabulary: {届出|とどけで}, {引落|ひきおと}し, {借入|かりいれ}
+
+Total entries: 7,449 → 7,479
+Remaining candidates: ~574 → ~544
 
 ### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 136)
 Added 30 new dictionary entries from candidate_words.json, covering cooking vocabulary, adverbs/mimetics, business/IT terms, abstract nouns, and Kansai dialect expressions:
@@ -367,30 +392,6 @@ Notable entry features:
 
 Total entries: 7,239 → 7,269
 Remaining candidates: ~577 → ~547
-
-### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 127)
-Added 30 new dictionary entries from candidate_words.json, focusing on personality traits, social relationships, consideration/care vocabulary, and useful adjectives:
-
-- **Friendliness/charm** (3): {愛想|あいそう} (amiability), {愛嬌|あいきょう} (charm), {無愛想|ぶあいそう} (unfriendly)
-- **Care/consideration** (4): {気遣|きづか}い (concern), {心遣|こころづか}い (thoughtfulness), {心配|こころくば}り (attentive care), {目配|めくば}り (watchfulness)
-- **Skill vocabulary** (3): {腕前|うでまえ} (skill), {凄腕|すごうで} (expert), {敏腕|びんわん} (capable)
-- **Age/status** (2): {年上|としうえ} (older), {年下|としした} (younger)
-- **Familiarity** (3): {馴染|なじ}み (familiarity), {顔馴染|かおなじ}み (familiar face), {初対面|しょたいめん} (first meeting)
-- **Attitude/behavior** (4): {強|つよ}がり (bravado), {負|ま}け{惜|お}しみ (sour grapes), お{節介|せっかい} (meddlesome), {気|き}まぐれ (capricious)
-- **Abstract nouns** (3): {無駄遣|むだづか}い (waste), {成|な}り{行|ゆ}き (course of events), {先入観|せんにゅうかん} (preconception)
-- **I-adjectives** (5): {奥深|おくぶか}い (profound), {生|なま}ぬるい (lukewarm), {潔|いさぎよ}い (graceful in defeat), {程|ほど}よい (moderate), {差|さ}し{出|で}がましい (presumptuous)
-- **Na-adjectives** (2): {理不尽|りふじん} (unreasonable), {横柄|おうへい} (arrogant)
-- **Expression** (1): やむを{得|え}ない (unavoidable)
-
-Notable entry features:
-- Complete care/consideration vocabulary group with cross-references: {気遣|きづか}い, {心遣|こころづか}い, {心配|こころくば}り, {目配|めくば}り
-- Skill words: {腕前|うでまえ} → {凄腕|すごうで} → {敏腕|びんわん} with nuance distinctions
-- Friendliness/unfriendliness: {愛想|あいそう}/{愛嬌|あいきょう}/{無愛想|ぶあいそう} as antonym pairs
-- Useful adjectives for describing personalities and situations
-- Expressions for social situations: {初対面|しょたいめん}, お{節介|せっかい}, {差|さ}し{出|で}がましい
-
-Total entries: 7,209 → 7,239
-Remaining candidates: ~607 → ~577
 
 ---
 
