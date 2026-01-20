@@ -1,0 +1,73 @@
+{
+  "session_id": "20260120_008",
+  "metadata": {
+    "started": "2026-01-20T03:20:00Z",
+    "ended": "2026-01-20T03:40:00Z",
+    "task_type": "full-review",
+    "entry_range": "00831-01030"
+  },
+
+  "summary": {
+    "entries_reviewed": 200,
+    "entries_modified": 8,
+    "issues_found": 8,
+    "issues_fixed": 8
+  },
+
+  "changes": [
+    {
+      "entry_id": "00831_daitai",
+      "change": "Fixed bizarre semantic tags ('electronics', 'furniture', 'time-general') to 'descriptive'; fixed formality from 'informal' to 'neutral'",
+      "reason": "だいたい (roughly/approximately) is a neutral adverb with no connection to electronics or furniture"
+    },
+    {
+      "entry_id": "00834_doushite",
+      "change": "Changed formality from 'formal' to 'neutral'",
+      "reason": "どうして is more conversational than なぜ (as notes correctly state), not formal"
+    },
+    {
+      "entry_id": "00836_fuan",
+      "change": "Changed semantic tag from 'descriptive' to 'emotion'",
+      "reason": "不安 (anxious/uneasy) is an emotional state word"
+    },
+    {
+      "entry_id": "00839_furu",
+      "change": "Changed semantic tag from 'action' to 'weather'",
+      "reason": "降る specifically describes precipitation (rain/snow falling), a weather phenomenon"
+    },
+    {
+      "entry_id": "00960_kochira",
+      "change": "Added missing semantic tag 'direction'",
+      "reason": "こちら is a demonstrative pronoun indicating direction/location"
+    },
+    {
+      "entry_id": "00990_sochira",
+      "change": "Fixed politeness from 'plain' to 'polite' (to match 'formal' formality); added semantic tag 'direction'",
+      "reason": "そちら is a polite demonstrative; 'plain' politeness with 'formal' formality was inconsistent"
+    },
+    {
+      "entry_id": "01000_tekubi",
+      "change": "Changed semantic tag from 'general' to 'body-part'",
+      "reason": "手首 (wrist) is clearly a body part"
+    },
+    {
+      "entry_id": "01030_itterasshai",
+      "change": "Changed formality from 'formal' to 'neutral'",
+      "reason": "行ってらっしゃい is used in everyday household situations, not only formal contexts"
+    }
+  ],
+
+  "patterns_observed": [
+    "Semantic tag errors continue - random inappropriate tags like 'electronics' for adverbs",
+    "Formality mismatches - words marked 'formal' that are actually conversational",
+    "Politeness/formality inconsistencies (e.g., formal + plain)",
+    "Body parts sometimes missing 'body-part' semantic tag",
+    "Weather verbs sometimes mislabeled as 'action'"
+  ],
+
+  "continuation": {
+    "next_entry": "01031",
+    "entries_remaining": 6359,
+    "notes": "Entries 00831-01030 reviewed. Most entries in good condition with semantic tag errors continuing to be the main issue."
+  }
+}
