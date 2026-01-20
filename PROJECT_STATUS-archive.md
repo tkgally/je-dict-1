@@ -7,6 +7,25 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-19 (Vocabulary Tier Realignment Complete - Phase 4 & 5)
+Completed the vocabulary tier realignment project (Phases 4 and 5):
+
+**Phase 4: Assigned 200 unassigned entries**
+- All previously unassigned entries have been assigned to the general tier
+- Categories included: four-character idioms (yojijukugo), proverbs, traditional Japanese items, modern tech/business terms, medical terms, work terms, -teki adjectives, onomatopoeia, and compound verbs
+
+**Phase 5: Validation and finalization**
+- Verified final tier counts meet targets:
+  - Basic: 795 (target: 600-800) ✓
+  - Core: 1,998 (target: 1,600-2,000) ✓
+  - General: 4,566 (no limit) ✓
+  - Unassigned: 0 (target: 0) ✓
+- Ran full validation (7,357/7,359 entries valid)
+- Updated indexes and rebuilt flat HTML
+- Updated PROJECT_STATUS.md
+
+The tier realignment project is now complete. All 7,359 dictionary entries have vocabulary tier assignments that meet the target ranges specified in the vocabulary-tiers skill guidelines.
+
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 133)
 Added 30 new dictionary entries from candidate_words.json, focusing on body-part idioms, expressions about skills/strangers, fate/destiny vocabulary, and abstract nouns:
 

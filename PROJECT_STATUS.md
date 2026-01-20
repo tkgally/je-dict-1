@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 7,599
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,806 | Unassigned: 0 ✓
-- **Candidate words**: ~529 words tracked in `candidate_words.json`
+- **Candidate words**: ~631 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,61 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-20 (New Candidates - 102 Words Added, Session 143)
+Added 102 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**High-Frequency Business/Academic Terms** (~10 words):
+- Business vocabulary: {踏|ふ}まえる (to be based on), やり{取|と}り (exchange), {配慮|はいりょ} (consideration), {網羅|もうら} (comprehensive coverage), {裏付|うらづ}け (backing)
+- Process terms: {先送|さきおく}り (postponement), {棚上|たなあ}げ (shelving), {足踏|あしぶ}み (marking time), {行|い}き{詰|づ}まり (deadlock)
+
+**Idiomatic Compound Expressions** (~15 words):
+- Disappointment: {拍子抜|ひょうしぬ}け (anticlimax), {肩透|かたすか}かし (letdown), {骨折|ほねお}り{損|ぞん} (wasted effort), {空回|からまわ}り (futile effort), {二度手間|にどでま} (doing something twice)
+- Social situations: とばっちり (getting caught up in), {板挟|いたばさ}み (caught between), {八方塞|はっぽうふさ}がり (blocked in all directions)
+- Effort/work: {手抜|てぬ}き (cutting corners)
+
+**Nature/Weather Terms** (~6 words):
+- Time of day: {夕暮|ゆうぐ}れ (twilight)
+- Weather phenomena: {木漏|こも}れ{日|び} (sunlight through leaves), {潮風|しおかぜ} (sea breeze), {朝露|あさつゆ} (morning dew), {霧雨|きりさめ} (drizzle)
+- Emotions: {躊躇|ちゅうちょ} (hesitation)
+
+**Daily Life/Household** (~20 words):
+- Sleep-related: {夜更|よふ}かし (staying up late), うたた{寝|ね} (dozing off), {二度寝|にどね} (going back to sleep), {寝相|ねぞう} (sleeping posture), {寝不足|ねぶそく} (lack of sleep), ぎっくり{腰|ごし} (strained back), {寝違|ねちが}え (stiff neck)
+- Health: {肩凝|かたこ}り (stiff shoulders)
+- Work: {定時|ていじ} (regular hours), {勤怠|きんたい} (attendance), {欠勤|けっきん} (absence), {直行|ちょっこう} (going directly), {直帰|ちょっき} (going straight home), {在宅|ざいたく} (remote work)
+- Household: {布団干|ふとんほ}し (airing bedding), {衣替|ころもが}え (seasonal clothing change), {模様替|もようが}え (room rearrangement), {水回|みずまわ}り (water areas), {詰|つ}め{替|か}え (refill), ゴミ{出|だ}し (taking out trash)
+
+**Garbage/Recycling Terms** (~4 words):
+- Waste: {生|なま}ゴミ (food waste), {粗大|そだい}ゴミ (bulky garbage), {分別|ぶんべつ} (sorting)
+
+**Shopping/Consumer Terms** (~10 words):
+- Buying patterns: まとめ{買|が}い (bulk buying), {買|か}いだめ (stocking up), {衝動買|しょうどうが}い (impulse buying), ついで{買|が}い (buying on the way), {試着|しちゃく} (trying on clothes), {試飲|しいん} (drink tasting)
+- Sales: お{得|とく} (bargain), {目玉商品|めだましょうひん} (featured item), タイムセール (time-limited sale), {見切|みき}り{品|ひん} (clearance item)
+
+**Technology/Digital Terms** (~10 words):
+- Phone: {着信|ちゃくしん} (incoming call), {不在着信|ふざいちゃくしん} (missed call), {留守電|るすでん} (voicemail), {着信音|ちゃくしんおん} (ringtone), マナーモード (silent mode), {機内|きない}モード (airplane mode)
+- Device states: {電池切|でんちぎ}れ (battery dead), {圏外|けんがい} (out of range), {未読|みどく} (unread)
+
+**Productive Patterns** (~15 words):
+- ～ごたえ (satisfying to ~): {食|た}べごたえ, {飲|の}みごたえ, {作|つく}りごたえ, {読|よ}みがい, {働|はたら}きがい
+- Communication: {立|た}ち{話|ばなし} (standing chat), {噂話|うわさばなし} (gossip)
+- Discussion terms: {見|み}え{隠|かく}れ (appearing/disappearing), {押|お}し{問答|もんどう} (argument), {駆|か}け{引|ひ}き (bargaining), {前置|まえお}き (preamble), つなぎ (stopgap)
+
+**Social/Interpersonal Terms** (~15 words):
+- Personality: {腹黒|はらぐろ}い (scheming), {打算的|ださんてき} (calculating), {裏表|うらおもて} (two-faced), {八方美人|はっぽうびじん} (people-pleaser)
+- Life skills: {世渡|よわた}り (getting through life), {処世術|しょせいじゅつ} (wisdom for living), {根回|ねまわ}し (groundwork), {忖度|そんたく} (surmising someone's wishes)
+- Communication: {察|さっ}する (to sense), {行間|ぎょうかん}を{読|よ}む (read between lines), {含|ふく}み (implication), {暗示|あんじ} (hint), {遠回|とおまわ}し (indirect), {婉曲|えんきょく} (euphemism)
+- Vagueness: うやむや (vague), あやふや (uncertain), {曖昧|あいまい} (ambiguous), {不明瞭|ふめいりょう} (unclear)
+
+Notable features:
+- Strong coverage of daily life vocabulary (household, shopping, technology)
+- Productive morphological patterns (～ごたえ, ～がい compounds)
+- Social/interpersonal vocabulary useful for understanding Japanese communication styles
+- Modern technology terms (phone, digital device states)
+- Practical shopping and consumer vocabulary
+- Garbage sorting terms (important for daily life in Japan)
+
+Candidate count: 529 → 631
 
 ### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 142)
 Added 30 new dictionary entries from candidate_words.json, covering a variety of vocabulary types including verbs, adjectives, adverbs, and nouns:
@@ -358,25 +413,6 @@ Notable features:
 - Strong practical vocabulary useful for intermediate-advanced learners
 
 Candidate count: 533 → 633
-
-### 2026-01-19 (Vocabulary Tier Realignment Complete - Phase 4 & 5)
-Completed the vocabulary tier realignment project (Phases 4 and 5):
-
-**Phase 4: Assigned 200 unassigned entries**
-- All previously unassigned entries have been assigned to the general tier
-- Categories included: four-character idioms (yojijukugo), proverbs, traditional Japanese items, modern tech/business terms, medical terms, work terms, -teki adjectives, onomatopoeia, and compound verbs
-
-**Phase 5: Validation and finalization**
-- Verified final tier counts meet targets:
-  - Basic: 795 (target: 600-800) ✓
-  - Core: 1,998 (target: 1,600-2,000) ✓
-  - General: 4,566 (no limit) ✓
-  - Unassigned: 0 (target: 0) ✓
-- Ran full validation (7,357/7,359 entries valid)
-- Updated indexes and rebuilt flat HTML
-- Updated PROJECT_STATUS.md
-
-The tier realignment project is now complete. All 7,359 dictionary entries have vocabulary tier assignments that meet the target ranges specified in the vocabulary-tiers skill guidelines.
 
 ---
 
