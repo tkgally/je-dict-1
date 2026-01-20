@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,599
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,806 | Unassigned: 0 ✓
-- **Candidate words**: ~631 words tracked in `candidate_words.json`
+- **Total entries**: 7,629
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,836 | Unassigned: 0 ✓
+- **Candidate words**: ~601 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 144)
+Added 30 new dictionary entries from candidate_words.json, covering nature/weather vocabulary, phone/technology terms, health/sleep vocabulary, work-related terms, communication patterns, and household activities:
+
+- **Nature/weather (3)**: {夕暮|ゆうぐ}れ (twilight), {木漏|こも}れ{日|び} (dappled sunlight), {霧雨|きりさめ} (drizzle)
+- **Phone/technology (7)**: {着信|ちゃくしん} (incoming call), {留守電|るすでん} (voicemail), マナーモード (silent mode), {電池切|でんちぎ}れ (dead battery), {圏外|けんがい} (out of range), {試着|しちゃく} (trying on clothes), {衝動買|しょうどうが}い (impulse buying)
+- **Health/sleep (4)**: {寝不足|ねぶそく} (lack of sleep), {夜更|よふ}かし (staying up late), {二度寝|にどね} (going back to sleep), {肩凝|かたこ}り (stiff shoulders)
+- **Work terms (6)**: {在宅|ざいたく} (remote work), {定時|ていじ} (regular hours), {直行|ちょっこう} (going directly), {直帰|ちょっき} (going straight home), {配慮|はいりょ} (consideration), {踏|ふ}まえる (to be based on)
+- **Communication (6)**: やり{取|と}り (exchange), {駆|か}け{引|ひ}き (bargaining), {前置|まえお}き (preamble), {忖度|そんたく} (surmising wishes), {婉曲|えんきょく} (euphemistic), {暗示|あんじ} (hint)
+- **Household (4)**: {分別|ぶんべつ} (sorting garbage), {詰|つ}め{替|か}え (refill), {模様替|もようが}え (room rearrangement), {衣替|ころもが}え (seasonal clothing change)
+
+Notable entry features:
+- {木漏|こも}れ{日|び} with cultural notes about this untranslatable Japanese aesthetic concept
+- Modern phone/technology vocabulary essential for daily life in Japan
+- マナーモード with cultural context about phone etiquette on public transport
+- {忖度|そんたく} with notes about its prominence in 2017 political scandals
+- Cross-references between {直行|ちょっこう} ↔ {直帰|ちょっき} work terms
+- {衣替|ころもが}え with explanation of Japan's traditional June 1st/October 1st clothing change dates
+
+Total entries: 7,599 → 7,629
+Remaining candidates: ~631 → ~601
 
 ### 2026-01-20 (New Candidates - 102 Words Added, Session 143)
 Added 102 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
