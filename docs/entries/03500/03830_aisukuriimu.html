@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="アイスクリーム - ice cream. Japanese-English dictionary entry with definitions and examples.">
+    <title>アイスクリーム (あいすくりーむ) - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../advanced.html" class="nav-link">Advanced</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+        <a href="../../about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">アイスクリーム</h1>
+            <div class="entry-reading">あいすくりーむ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">ice cream</div>
+        </div>
+    
+<div class="definitions">
+
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">ice cream</span>
+                        <div class="definition-explanation">A frozen dessert made from cream, sugar, and flavorings.</div>
+                    </div>
+                
+</div>
+<div class="examples">
+
+                <div class="example-item">
+                    <div class="example-japanese">アイスクリームを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べたい。</div>
+                    <div class="example-english">I want to eat ice cream.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>たちはアイスクリームが<ruby>大好<rp>(</rp><rt>だいす</rt><rp>)</rp></ruby>きだ。</div>
+                    <div class="example-english">Children love ice cream.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese">このアイスクリームは<ruby>手作<rp>(</rp><rt>てづく</rt><rp>)</rp></ruby>りで、<ruby>新鮮<rp>(</rp><rt>しんせん</rt><rp>)</rp></ruby>な<ruby>材料<rp>(</rp><rt>ざいりょう</rt><rp>)</rp></ruby>だけを<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>っている。</div>
+                    <div class="example-english">This ice cream is handmade and uses only fresh ingredients.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <div class="notes-content"><p>USAGE: アイスクリーム is the full form, but アイス alone is commonly used in casual conversation to mean ice cream.</p><p>COMMON COLLOCATIONS:</p><ul><li>アイスクリーム<ruby>屋<rp>(</rp><rt>や</rt><rp>)</rp></ruby> (ice cream shop)</li><li>バニラアイスクリーム (vanilla ice cream)</li><li><ruby>抹茶<rp>(</rp><rt>まっちゃ</rt><rp>)</rp></ruby>アイス (matcha ice cream)</li><li>ソフトクリーム (soft serve ice cream)</li></ul><p>RELATED WORDS:</p><ul><li>アイス (ice cream - casual)</li><li>かき<ruby>氷<rp>(</rp><rt>ごおり</rt><rp>)</rp></ruby> (shaved ice)</li><li>ジェラート (gelato)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.12 22:55 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">03500/03830_aisukuriimu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
