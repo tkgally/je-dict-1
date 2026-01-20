@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,479
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,686 | Unassigned: 0 ✓
-- **Candidate words**: ~645 words tracked in `candidate_words.json`
+- **Total entries**: 7,509
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,716 | Unassigned: 0 ✓
+- **Candidate words**: ~616 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 139)
+Added 30 new dictionary entries from candidate_words.json, plus one user-requested entry, covering transformation vocabulary, verbs, adjectives, time expressions, price/capacity terms, and practical nouns:
+
+- **User-requested** (1): {卵|たまご}かけご{飯|はん} (TKG - raw egg on rice) with note about TKG abbreviation
+- **-化 transformation words** (5): {活性化|かっせいか} (activation), {多様化|たようか} (diversification), {効率化|こうりつか} (streamlining), {自動化|じどうか} (automation), {最適化|さいてきか} (optimization)
+- **Verbs** (5): {覆|くつがえ}す (to overturn), {懲|こ}りる (to learn one's lesson), {醸|かも}す (to brew/create atmosphere), {萎|な}える (to wilt/lose motivation), {紛|まぎ}れる (to be lost in/blend into)
+- **-がる verbs** (2): {欲|ほ}しがる (to want - third person), {怖|こわ}がる (to be scared - third person)
+- **Adjectives** (3): さりげない (casual/nonchalant), よそよそしい (distant/aloof), せこい (stingy/petty)
+- **Time expressions** (4): {案|あん}の{定|じょう} (as expected), {当面|とうめん} (for the time being), {事前|じぜん} (beforehand), {事後|じご} (after the fact)
+- **Price terms** (2): {値上|ねあ}げ (price increase), {値下|ねさ}げ (price decrease) - antonym pair with cross-references
+- **Capacity terms** (3): {満員|まんいん} (full capacity), {満席|まんせき} (full/no seats), {空席|くうせき} (empty seat) - with cross-references
+- **Holiday terms** (2): {連休|れんきゅう} (consecutive holidays), {祝日|しゅくじつ} (national holiday)
+- **Practical nouns** (3): {備蓄|びちく} (stockpiling), {復興|ふっこう} (reconstruction), {消毒|しょうどく} (disinfection)
+
+Notable entry features:
+- TKG entry with cultural notes about this iconic Japanese breakfast and its social media abbreviation
+- Complete -化 transformation pattern: 5 productive suru-verbs for describing process changes
+- -がる verb pair explaining third-person emotion/desire expression in Japanese
+- Antonym pairs with cross-references: {事前|じぜん} ↔ {事後|じご}, {値上|ねあ}げ ↔ {値下|ねさ}げ, {満席|まんせき} ↔ {空席|くうせき}
+- Expressive verbs: {醸|かも}す (with sake-brewing etymology), {懲|こ}りる (learning from mistakes)
+- Emergency/disaster vocabulary: {備蓄|びちく}, {復興|ふっこう}, {消毒|しょうどく}
+
+Total entries: 7,479 → 7,509
+Remaining candidates: ~645 → ~616
 
 ### 2026-01-20 (New Candidates - 100 Words Added, Session 138)
 Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
@@ -417,33 +442,6 @@ Notable features:
 - Emergency/disaster-related vocabulary: 避難所, 物資, 備蓄, 救援, 復興
 
 Candidate count: 547 → 651
-
-### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 128)
-Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, cultural/hobby terms, transportation, and business expressions:
-
-- **Keigo/honorific** (1): お{越|こ}し (coming - honorific)
-- **Social/group** (1): {仲間入|なかまい}り (joining a group)
-- **Reading/communication** (1): {行間|ぎょうかん} (line spacing; between the lines)
-- **Hobbies/entertainment** (7): パチンコ (pachinko), {同人誌|どうじんし} (doujinshi), コレクション (collection), プラモデル (plastic model), ゲーセン (game center), {天体観測|てんたいかんそく} (astronomical observation), {利|き}き{酒|ざけ} (sake tasting)
-- **Outdoor/sports** (2): {釣|つ}り{竿|ざお} (fishing rod), {登山靴|とざんぐつ} (hiking boots)
-- **Car parts** (2): バックミラー (rearview mirror), ワイパー (windshield wiper)
-- **Household** (2): {排水溝|はいすいこう} (drain), {靴棚|くつだな} (shoe rack)
-- **Adverbs** (3): ともあれ (anyway), ひょっと (possibly), {明|あき}らかに (clearly)
-- **Occupations** (1): {運転士|うんてんし} (train driver)
-- **Medical** (1): {切|き}り{傷|きず} (cut wound)
-- **Technology** (2): リンク (link/URL), スキャン (scan)
-- **Business/shipping** (4): {払戻|はらいもど}し (refund), {返送|へんそう} (return shipping), {送付|そうふ} (sending), {取消|とりけし} (cancellation)
-- **Crafts/games** (3): {型紙|かたがみ} (pattern/template), {双六|すごろく} (sugoroku), ラジコン (radio-controlled)
-
-Notable entry features:
-- Japanese cultural vocabulary: パチンコ with gambling context, {同人誌|どうじんし} with otaku culture notes, {双六|すごろく} as traditional New Year game
-- Hobby vocabulary group: コレクション, プラモデル, ゲーセン, {天体観測|てんたいかんそく}, ラジコン
-- Business correspondence: {送付|そうふ}/{返送|へんそう} contrast pair, {払戻|はらいもど}し, {取消|とりけし}
-- Practical everyday vocabulary: car parts, household items, medical terms
-- Adverbs with common patterns: ともあれ, ひょっと (with ひょっとしたら/ひょっとして)
-
-Total entries: 7,239 → 7,269
-Remaining candidates: ~577 → ~547
 
 ---
 

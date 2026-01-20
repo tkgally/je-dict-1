@@ -7,6 +7,33 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 128)
+Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, cultural/hobby terms, transportation, and business expressions:
+
+- **Keigo/honorific** (1): お{越|こ}し (coming - honorific)
+- **Social/group** (1): {仲間入|なかまい}り (joining a group)
+- **Reading/communication** (1): {行間|ぎょうかん} (line spacing; between the lines)
+- **Hobbies/entertainment** (7): パチンコ (pachinko), {同人誌|どうじんし} (doujinshi), コレクション (collection), プラモデル (plastic model), ゲーセン (game center), {天体観測|てんたいかんそく} (astronomical observation), {利|き}き{酒|ざけ} (sake tasting)
+- **Outdoor/sports** (2): {釣|つ}り{竿|ざお} (fishing rod), {登山靴|とざんぐつ} (hiking boots)
+- **Car parts** (2): バックミラー (rearview mirror), ワイパー (windshield wiper)
+- **Household** (2): {排水溝|はいすいこう} (drain), {靴棚|くつだな} (shoe rack)
+- **Adverbs** (3): ともあれ (anyway), ひょっと (possibly), {明|あき}らかに (clearly)
+- **Occupations** (1): {運転士|うんてんし} (train driver)
+- **Medical** (1): {切|き}り{傷|きず} (cut wound)
+- **Technology** (2): リンク (link/URL), スキャン (scan)
+- **Business/shipping** (4): {払戻|はらいもど}し (refund), {返送|へんそう} (return shipping), {送付|そうふ} (sending), {取消|とりけし} (cancellation)
+- **Crafts/games** (3): {型紙|かたがみ} (pattern/template), {双六|すごろく} (sugoroku), ラジコン (radio-controlled)
+
+Notable entry features:
+- Japanese cultural vocabulary: パチンコ with gambling context, {同人誌|どうじんし} with otaku culture notes, {双六|すごろく} as traditional New Year game
+- Hobby vocabulary group: コレクション, プラモデル, ゲーセン, {天体観測|てんたいかんそく}, ラジコン
+- Business correspondence: {送付|そうふ}/{返送|へんそう} contrast pair, {払戻|はらいもど}し, {取消|とりけし}
+- Practical everyday vocabulary: car parts, household items, medical terms
+- Adverbs with common patterns: ともあれ, ひょっと (with ひょっとしたら/ひょっとして)
+
+Total entries: 7,239 → 7,269
+Remaining candidates: ~577 → ~547
+
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 127)
 Added 30 new dictionary entries from candidate_words.json, focusing on personality traits, social relationships, consideration/care vocabulary, and useful adjectives:
 
