@@ -1,0 +1,75 @@
+{
+  "session_id": "20260120_003",
+  "started": "2026-01-20T01:30:00Z",
+  "ended": "2026-01-20T01:32:51Z",
+  "task_type": "full-review",
+  "task_file": "polishing/tasks/full-review.md",
+  "batch_size": 80,
+
+  "entries_reviewed": [
+    "00061_geinou", "00062_gejun", "00063_gendo", "00064_genkou", "00065_genni",
+    "00066_genri", "00067_genshi", "00068_gesha", "00069_gesui", "00070_getsumatsu",
+    "00071_gishiki", "00072_gomen", "00073_gomu", "00074_goraku", "00075_gurando",
+    "00076_gurasu", "00077_guusuu", "00078_gyouji", "00079_ha", "00080_hadagi",
+    "00081_hagasu", "00082_hahen", "00083_haiku", "00084_haitatsu", "00085_hakken",
+    "00086_hakki", "00087_hanabi", "00088_hanji", "00089_hanko", "00090_hansamu",
+    "00091_hasamu", "00092_hashigo", "00093_hasu", "00094_hau", "00095_heiki",
+    "00096_heiya", "00097_hekomu", "00098_hibiki", "00099_hibiku", "00100_hikage",
+    "00101_hikki", "00102_hineru", "00103_hiniku", "00104_hiroba", "00105_hirosa",
+    "00106_hirune", "00107_hizashi", "00108_ho", "00109_hobo", "00110_hoho",
+    "00111_hon", "00112_honbu", "00113_hoomu", "00114_horu", "00115_hosu",
+    "00116_houbou", "00117_igi", "00118_ii", "00119_iku", "00120_inku",
+    "00121_jiei", "00122_jiin", "00123_jiinzu", "00124_jikani", "00125_jimen",
+    "00126_jinji", "00127_jisan", "00128_jisoku", "00129_jitaku", "00130_kaa",
+    "00131_kachi", "00132_kadai", "00133_kagiri", "00134_kaigai", "00135_kaihou",
+    "00136_kaiketsu", "00137_kaisei", "00138_kaisetsu", "00139_kaisuu", "00140_kaiteki"
+  ],
+
+  "changes": [
+    {"entry_id": "00062_gejun", "change": "semantic: general -> time-general"},
+    {"entry_id": "00063_gendo", "change": "added cross_references field"},
+    {"entry_id": "00066_genri", "change": "added cross_references field"},
+    {"entry_id": "00070_getsumatsu", "change": "semantic: general -> time-general"},
+    {"entry_id": "00072_gomen", "change": "formality: formal -> informal"},
+    {"entry_id": "00073_gomu", "change": "semantic: time-general -> general"},
+    {"entry_id": "00074_goraku", "change": "formality: informal -> neutral"},
+    {"entry_id": "00075_gurando", "change": "semantic: building,transportation -> leisure"},
+    {"entry_id": "00076_gurasu", "change": "formality: informal -> neutral"},
+    {"entry_id": "00079_ha", "change": "semantic: body-part,plant-general -> grammatical (particle entry!)"},
+    {"entry_id": "00081_hagasu", "change": "semantic: food -> action"},
+    {"entry_id": "00085_hakken", "change": "formality: informal -> neutral"},
+    {"entry_id": "00089_hanko", "change": "semantic: animal-mammal -> general; formality: formal -> informal"},
+    {"entry_id": "00090_hansamu", "change": "removed style:slang (it's old-fashioned but not slang)"},
+    {"entry_id": "00098_hibiki", "change": "semantic: communication,time-general -> general"},
+    {"entry_id": "00099_hibiku", "change": "semantic: time-general -> action"},
+    {"entry_id": "00102_hineru", "change": "semantic: clothing,leisure,tool -> action"},
+    {"entry_id": "00106_hirune", "change": "formality: formal -> neutral"},
+    {"entry_id": "00107_hizashi", "change": "formality: formal -> neutral"},
+    {"entry_id": "00109_hobo", "change": "semantic: electronics,furniture -> descriptive; formality: informal -> neutral"},
+    {"entry_id": "00111_hon", "change": "semantic: tool -> general"},
+    {"entry_id": "00112_honbu", "change": "semantic: education,time-general -> work"},
+    {"entry_id": "00117_igi", "change": "semantic: building,communication,transportation -> general"},
+    {"entry_id": "00118_ii", "change": "formality: formal -> informal; removed style:literary"},
+    {"entry_id": "00123_jiinzu", "change": "formality: informal -> neutral"},
+    {"entry_id": "00130_kaa", "change": "formality: formal -> neutral"},
+    {"entry_id": "00131_kachi", "change": "removed incorrect domain:colloquial"},
+    {"entry_id": "00132_kadai", "change": "formality: informal -> neutral; semantic: communication -> education"},
+    {"entry_id": "00135_kaihou", "change": "semantic: time-general -> action"},
+    {"entry_id": "00138_kaisetsu", "change": "semantic: communication,geography -> communication"}
+  ],
+
+  "issues_found": [],
+
+  "patterns_observed": [
+    "Continuing trend of inaccurate semantic tags - many entries had random/incorrect semantic tags",
+    "Formality mismatches continue: words marked formal that are neutral, informal words marked formal",
+    "Some entries had semantic tags from completely wrong domains (e.g., ha particle tagged as body-part)",
+    "Style tag 'slang' being overused for loanwords that are standard vocabulary"
+  ],
+
+  "continuation_notes": {
+    "next_entry": "00141_kaiten",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue sequential review from entry 00141. The main issues continue to be semantic tag accuracy and formality mismatches. Many entries are well-structured but have incorrect metadata tags."
+  }
+}
