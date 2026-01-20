@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 7,389
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,596 | Unassigned: 0 ✓
-- **Candidate words**: ~533 words tracked in `candidate_words.json`
+- **Candidate words**: ~633 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,51 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-20 (New Candidates - 100 Words Added, Session 134)
+Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Business Documents & Seals** (~20 words):
+- Seal terminology: {押印|おういん} (seal impression), {捺印|なついん} (seal impression), {認印|みとめいん} (personal seal), {実印|じついん} (registered seal), {印鑑登録|いんかんとうろく} (seal registration)
+- Document types: {議事録|ぎじろく} (meeting minutes), {稟議|りんぎ} (approval request), {委任状|いにんじょう} (power of attorney), {誓約書|せいやくしょ} (written pledge), {覚書|おぼえがき} (memorandum), {見積書|みつもりしょ} (quotation), {発注書|はっちゅうしょ} (purchase order), {注文書|ちゅうもんしょ} (order form), {仕様書|しようしょ} (specification document), {申請書|しんせいしょ} (application form), {伝票|でんぴょう} (voucher)
+
+**Office & Business Terms** (~15 words):
+- Office supplies: シュレッダー (shredder), {穴|あな}あけパンチ (hole punch), カートリッジ (cartridge), トナー (toner), コピー{用紙|ようし} (copy paper), {裏紙|うらがみ} (scratch paper), {両面印刷|りょうめんいんさつ} (double-sided printing), {紙詰|かみづ}まり (paper jam)
+- Business records: {帳簿|ちょうぼ} (account book), {台帳|だいちょう} (register)
+- Retail terms: {陳列|ちんれつ} (display), {棚卸|たなおろ}し (inventory), {問屋|とんや} (wholesaler), {粗利|あらり} (gross profit)
+
+**Housing & Infrastructure** (~12 words):
+- Housing: {築年数|ちくねんすう} (building age), {更地|さらち} (vacant lot), {日当|ひあ}たり (sun exposure), {収納|しゅうのう} (storage)
+- Infrastructure: {水道管|すいどうかん} (water pipe), {配管|はいかん} (plumbing), ブレーカー (circuit breaker), {漏電|ろうでん} (electrical leak), {節水|せっすい} (water conservation), {雨漏|あまも}り (roof leak), {水漏|みずも}れ (water leak)
+
+**Employment & Salary** (~12 words):
+- Career: {内定|ないてい} (unofficial job offer), {定年|ていねん} (retirement age), {早期退職|そうきたいしょく} (early retirement), {退職金|たいしょくきん} (retirement allowance)
+- Compensation: {日給|にっきゅう} (daily wage), {歩合|ぶあい} (commission), {歩合制|ぶあいせい} (commission-based), {積立|つみたて} (savings), {控除|こうじょ} (deduction)
+
+**Cooking Cuts & Food Items** (~20 words):
+- Cutting terms: みじん{切|ぎ}り (finely chopped), {千切|せんぎ}り (julienne), {乱切|らんぎ}り (irregular cut), {薄切|うすぎ}り (thin sliced), {厚切|あつぎ}り (thick sliced), {輪切|わぎ}り (round slices), {短冊切|たんざくぎ}り (rectangle cut), {角切|かくぎ}り (diced), いちょう{切|ぎ}り (quarter rounds), {半月切|はんげつぎ}り (half-moon slices), {斜|なな}め{切|ぎ}り (diagonal cut)
+- Kitchen items: {泡立|あわだ}て{器|き} (whisk), すくい{網|あみ} (strainer), {灰汁|あく}とり (skimming)
+- Food items: {油揚|あぶらあ}げ (deep-fried tofu), {厚揚|あつあ}げ (thick fried tofu), がんもどき (fried tofu fritter), ちくわ (tube fish cake), さつま{揚|あ}げ (fried fish cake), しらたき (konjac noodles), {高野豆腐|こうやどうふ} (freeze-dried tofu), {車麩|くるまふ} (ring-shaped wheat gluten), お{麩|ふ} (wheat gluten), {湯葉|ゆば} (tofu skin), {切|き}り{干|ぼ}し{大根|だいこん} (dried radish strips), ひじき (hijiki seaweed), とろろ{昆布|こんぶ} (shredded kelp), {干|ほ}し{椎茸|しいたけ} (dried shiitake)
+
+**Compound Verbs & Weather** (~10 words):
+- Compound verbs: {聞|き}き{流|なが}す (to let pass), {聞|き}き{込|こ}む (to investigate), {読|よ}み{返|かえ}す (to reread), {見慣|みな}れる (to get used to seeing), {乗|の}り{過|す}ごす (to ride past), {降|ふ}り{注|そそ}ぐ (to pour down)
+- Weather: {土砂降|どしゃぶ}り (downpour)
+- Processing: {下処理|したしょり} (preliminary preparation), {水気|みずけ} (moisture)
+
+**Other** (~11 words):
+- Storage battery: {蓄電池|ちくでんち} (storage battery)
+- Medical: {検診|けんしん} (medical checkup)
+- Logistics: {売値|うりね} (selling price), {欠品|けっぴん} (out of stock), {入荷|にゅうか} (arrival of goods), {梱包|こんぽう} (packing), {荷造|にづく}り (packing for shipping), {荷解|にほど}き (unpacking), {着払|ちゃくばら}い (cash on delivery)
+- Kitchenware: {寿司桶|すしおけ} (sushi tub), おひつ (rice container), {土鍋|どなべ} (earthenware pot)
+
+Notable features:
+- Comprehensive Japanese document vocabulary with seal terminology (essential for business/legal contexts)
+- Cooking vocabulary covering all common cutting terms and traditional food items
+- Housing and infrastructure terms for daily life in Japan
+- Employment/salary terminology for workplace contexts
+- Strong practical vocabulary useful for intermediate-advanced learners
+
+Candidate count: 533 → 633
 
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 133)
 Added 30 new dictionary entries from candidate_words.json, focusing on body-part idioms, expressions about skills/strangers, fate/destiny vocabulary, and abstract nouns:
@@ -326,26 +371,6 @@ Notable entry features:
 
 Total entries: 7,179 → 7,209
 Remaining candidates: ~637 → ~607
-
-### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 125)
-Added 30 new dictionary entries from candidate_words.json, covering adverbs, adjectives, compound verbs, and practical vocabulary:
-
-- **Adverbs** (5): {互|たが}いに (mutually), {意外|いがい}と (unexpectedly), {思|おも}いがけず (unexpectedly), {仕方|しかた}なく (reluctantly), {思|おも}い{切|き}って (resolutely)
-- **Na-adjectives** (5): {巧|たく}み (skillful), {気|き}さく (friendly), {気楽|きらく} (carefree), {些細|ささい} (trivial), {手軽|てがる} (easy)
-- **I-adjectives** (3): {気持|きも}ち{悪|わる}い (creepy), {我慢強|がまんづよ}い (patient), {粘|ねば}り{強|づよ}い (tenacious)
-- **Nouns** (10): {打|う}ち{合|あ}わせ (meeting), {調理|ちょうり} (cooking), レシピ (recipe), {落|お}ち{着|つ}き (composure), プレッシャー (pressure), {諦|あきら}め (resignation), {決意|けつい} (determination), {仕組|しく}み (mechanism), {手遅|ておく}れ (too late), {手入|てい}れ (maintenance)
-- **Compound verbs** (7): {見渡|みわた}す (to survey), {見届|みとど}ける (to see through), {見極|みきわ}める (to discern), {思|おも}い{知|し}る (to learn from experience), {思|おも}い{直|なお}す (to reconsider), {手間取|てまど}る (to take time), {使|つか}いこなす (to master)
-
-Notable entry features:
-- Strong adverb coverage: manner expressions ({互|たが}いに, {仕方|しかた}なく) and unexpectedness ({意外|いがい}と, {思|おも}いがけず)
-- Personality/character adjectives: {気|き}さく, {気楽|きらく}, {我慢強|がまんづよ}い, {粘|ねば}り{強|づよ}い with nuance distinctions
-- {見|み}る compound verbs: {見渡|みわた}す, {見届|みとど}ける, {見極|みきわ}める showing visual perception patterns
-- {思|おも}う compound verbs: {思|おも}い{切|き}って, {思|おも}い{知|し}る, {思|おも}い{直|なお}す showing mental processes
-- {手|て} compounds: {手遅|ておく}れ, {手入|てい}れ, {手軽|てがる}, {手間取|てまど}る with practical meanings
-- Business/work vocabulary: {打|う}ち{合|あ}わせ, プレッシャー, {調理|ちょうり}, レシピ
-
-Total entries: 7,149 → 7,179
-Remaining candidates: ~667 → ~637
 
 ---
 
