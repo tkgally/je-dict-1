@@ -7,6 +7,91 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 131)
+Added 30 new dictionary entries from candidate_words.json, focusing on progress/process verbs, emotional adjectives, speech-related nouns, status expressions, and mimetics:
+
+- **Verbs (7)**: {煮詰|につ}まる (to boil down/be stuck), うつむく (to look down), {拗|こじ}れる (to get complicated), {揉|も}める (to have trouble), {捗|はかど}る (to make progress), {滞|とどこお}る (to stagnate), {凌|しの}ぐ (to endure/surpass)
+- **I-adjectives (3)**: やるせない (helpless/forlorn), {空|むな}しい (empty/futile), しんどい (tiring/exhausting)
+- **Na-adjectives (2)**: {不用意|ふようい} (careless), {不可解|ふかかい} (incomprehensible)
+- **Speech/words nouns (4)**: {寝言|ねごと} (sleep-talking), たわ{言|ごと} (nonsense), {繰|く}り{言|ごと} (repetitive complaints), {減|へ}らず{口|ぐち} (backtalk)
+- **Social/everyday nouns (7)**: {待|ま}ち{合|あ}わせ (meeting up), {後回|あとまわ}し (putting off), お{手上|てあ}げ (giving up), {巡|めぐ}り{合|あ}わせ (fate/chance), {宿命|しゅくめい} (destiny), {井戸端会議|いどばたかいぎ} (gossip session), {二枚目|にまいめ}/{三枚目|さんまいめ} (handsome man/comedian from kabuki)
+- **Status nouns (2)**: {格上|かくうえ} (higher rank), {格下|かくした} (lower rank)
+- **Mimetics/Adverbs (5)**: ちらちら (flickering/glancing), めきめき (rapidly improving), ぴりぴり (tingling/tense), {晴|は}れ{晴|ば}れ (cheerfully)
+
+Notable entry features:
+- Progress/stagnation verbs as antonym pair: {捗|はかど}る ↔ {滞|とどこお}る with cross-references
+- Emotional vocabulary: やるせない (with etymology from {遣|や}る{瀬|せ}), {空|むな}しい (empty/futile)
+- Japanese speech patterns: 〜{言|ごと} suffix words ({寝言|ねごと}, たわ{言|ごと}, {繰|く}り{言|ごと})
+- Kabuki terminology: {二枚目|にまいめ}/{三枚目|さんまいめ} with historical context
+- しんどい with Kansai dialect origin note
+- Mimetics covering visual (ちらちら), progress (めきめき), sensation (ぴりぴり), and emotion ({晴|は}れ{晴|ば}れ)
+
+Total entries: 7,299 → 7,329
+Remaining candidates: ~622 → ~592
+
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 130)
+Added 30 new dictionary entries from candidate_words.json, focusing on expressive verbs, emotions/personality adjectives, adverbs, weather/disaster vocabulary, and common expressions:
+
+- **Expressive verbs** (14): ぼやく (complain), からかう (tease), むくむ (swell), うずく (ache), たじろぐ (flinch), なびく (sway), ひるむ (cower), とどろく (roar), いたわる (care for), おののく (tremble), ひらめく (flash), ときめく (flutter), さえずる (chirp), つるむ (hang out)
+- **I-adjectives** (4): ぎこちない (awkward), ややこしい (complicated), いたましい (pitiful), けだるい (languid)
+- **Adverbs** (2): おもむろに (slowly/deliberately), たちまち (instantly)
+- **Facilities/Places** (3): {物置|ものお}き (storage shed), {待合室|まちあいしつ} (waiting room), {避難所|ひなんじょ} (evacuation shelter)
+- **Weather/Nature** (3): {紫外線|しがいせん} (UV rays), {濃霧|のうむ} (dense fog), {落雷|らくらい} (lightning strike)
+- **Business/Technology** (2): {添付|てんぷ} (attachment), {進捗|しんちょく} (progress)
+- **Expressions** (2): しかたがない (it can't be helped), しょうがない (it can't be helped - colloquial)
+
+Notable entry features:
+- Strong coverage of expressive/onomatopoeic verbs: body sensations (むくむ, うずく), emotions (ときめく, おののく), sounds (とどろく, さえずる)
+- Fear/hesitation verbs: たじろぐ, ひるむ with nuance distinctions
+- Adjectives for describing awkwardness and emotional states: ぎこちない, ややこしい, けだるい
+- おもむろに with note about common misunderstanding (often mistakenly believed to mean "suddenly")
+- Disaster/emergency vocabulary: {避難所|ひなんじょ}, {落雷|らくらい} with safety notes
+- Commonly used expressions: しかたがない/しょうがない pair with cross-references
+
+Total entries: 7,269 → 7,299
+Remaining candidates: ~651 → ~622
+
+### 2026-01-19 (New Candidates - 104 Words Added, Session 129)
+Added 104 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Expressions & Adverbs** (~10 words):
+- しかたがない/しょうがない (it can't be helped), 案の定 (as expected), ぞんざい (careless/rude), おもむろに (slowly), たちまち (instantly)
+
+**Adjectives - Personality & Emotions** (~25 words):
+- Negative traits: ぎこちない (awkward), ややこしい (complicated), こすい (cunning), せこい (stingy), けばい (gaudy)
+- Emotional states: いたましい (pitiful), けだるい (languid), ものがなしい (melancholy), いまいましい (annoying), おぞましい (loathsome)
+- Character descriptions: さりげない (casual), よそよそしい (distant), あっけない (anticlimactic), そっけない (curt), たどたどしい (faltering)
+- Intensity: すさまじい (tremendous), おびただしい (numerous), ものものしい (imposing), なまめかしい (alluring)
+
+**Verbs - Expressive & Onomatopoeic** (~30 words):
+- Speech/communication: ぼやく (complain), からかう (tease), ねだる (beg), ほざく (babble), あざける (mock), おだてる (flatter), あおる (provoke)
+- Physical states: むくむ (swell), うずく (ache), ぼける (become senile), ふやける (become soggy)
+- Body language: うなだれる (hang head), はにかむ (be shy), たじろぐ (flinch), ひるむ (cower), よどむ (stagnate)
+- Movement/sound: なびく (sway), とどろく (roar), かすれる (become hoarse), どよめく (stir), きらめく (glitter), ひらめく (flash), ときめく (flutter), ざわめく (rustle), さえずる (chirp)
+- Relationships: つるむ (hang out), いたわる (care for), おとずれる (visit), おののく (tremble)
+
+**Nouns - Places & Facilities** (~15 words):
+- Buildings: 物置 (storage shed), 土間 (dirt floor), 軒下 (under eaves), 表口 (front entrance), 待合室 (waiting room), 作業場 (workshop), 集会所 (meeting hall)
+- Infrastructure: 配線 (wiring), 避難所 (evacuation shelter)
+
+**Nouns - Weather & Nature** (~10 words):
+- 寒暖差 (temperature difference), 紫外線 (UV rays), 日射 (solar radiation), 濃霧 (dense fog), 朝靄 (morning mist), 氷点下 (below freezing), 暴風雨 (storm), 落雷 (lightning strike)
+
+**Nouns - Abstract & Business** (~10 words):
+- 添付 (attachment), 進捗 (progress), 黒酢 (black vinegar), 物資 (supplies), 備蓄 (stockpile), 配給 (distribution), 救援 (relief), 復興 (reconstruction)
+
+**Other vocabulary** (~5 words):
+- ものぐさ (lazy), かわいげ (lovability), うとい (unfamiliar), あさましい (despicable), ちっぽけ (tiny)
+
+Notable features:
+- Strong coverage of expressive verbs describing emotions, body language, and sounds
+- Comprehensive adjective vocabulary for describing personalities and situations
+- Weather and natural phenomenon vocabulary
+- Practical facility and infrastructure terms
+- Emergency/disaster-related vocabulary: 避難所, 物資, 備蓄, 救援, 復興
+
+Candidate count: 547 → 651
+
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 128)
 Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, cultural/hobby terms, transportation, and business expressions:
 
