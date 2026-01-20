@@ -1,0 +1,41 @@
+{
+  "session_id": "20260120_025",
+  "started": "2026-01-20T13:40:00Z",
+  "ended": "2026-01-20T13:50:00Z",
+  "task_type": "full-review",
+  "entries_range": "02656-02665",
+  "entries_reviewed": 10,
+  "entries_modified": 4,
+  "changes": [
+    {
+      "entry_id": "02657_kuu",
+      "type": "examples_added",
+      "description": "Added 12 examples for 3 senses (15 total); core tier verb"
+    },
+    {
+      "entry_id": "02658_kusari",
+      "type": "examples_added",
+      "description": "Added 2 examples; reordered for length progression (5 total); core tier"
+    },
+    {
+      "entry_id": "02659_kudari",
+      "type": "examples_added",
+      "description": "Added 12 examples for 3 senses (15 total); core tier"
+    },
+    {
+      "entry_id": "02661_gikai",
+      "type": "examples_added",
+      "description": "Added 3 examples for 2 senses (6 total); general tier"
+    }
+  ],
+  "issues_found": [],
+  "patterns_observed": [
+    "Multi-sense core tier entries often had only 1 example per sense instead of required 5",
+    "All general tier entries (02656, 02660, 02662-02665) met minimum requirements"
+  ],
+  "continuation": {
+    "next_entry": "02666",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue full-review from entry 02666 onwards."
+  }
+}
