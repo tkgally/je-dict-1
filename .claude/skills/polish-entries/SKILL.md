@@ -57,9 +57,14 @@ For each entry in the batch:
 
 1. Read the entry file
 2. Apply the task-specific checklist
-3. Make improvements directly to the entry
-4. Update the `modified` timestamp if changes made
-5. Record the review in your session notes
+3. **Check example sentences** against the `example-sentences` skill requirements:
+   - Verify minimum count for the entry's tier (5 for basic/core, 3 for general)
+   - Verify vocabulary restrictions for basic/core tier examples
+   - Verify progressive length (shorter to longer)
+   - Add, revise, or reorder examples as needed
+4. Make other improvements directly to the entry
+5. Update the `modified` timestamp if changes made
+6. Record the review in your session notes
 
 ### Phase 2: Record Changes
 
@@ -193,6 +198,7 @@ When you find issues:
 - Missing furigana
 - Formatting inconsistencies
 - Minor typos
+- **Example sentence deficiencies** (insufficient count, vocabulary tier violations, length progression issues)
 
 ### Medium Issues (flag for review)
 - Questionable accuracy
