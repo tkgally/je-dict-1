@@ -128,7 +128,7 @@ Apply these standards during review:
 ### Required for All Entries
 - Valid ID format matching filename
 - Headword with furigana on all kanji
-- Reading in hiragana only
+- Reading in hiragana only (long vowel marker ー is also allowed)
 - Appropriate part_of_speech
 - Clear, accurate gloss
 - Complete metadata with required tags
@@ -137,8 +137,15 @@ Apply these standards during review:
 - Definitions distinguish senses clearly
 - Examples illustrate actual usage
 - Notes provide genuinely helpful information
-- Cross-references point to valid entries
+- Cross-references point to valid entries (or targets added to candidates)
 - No redundant or contradictory information
+
+### Cross-Reference Target Handling
+When a cross-reference points to an entry that does not exist yet, add the target to `candidate_words.json`:
+```bash
+python3 build/manage_candidates.py add "headword" "reading" "brief note"
+```
+The script automatically checks for duplicates and will refuse to add if the word already exists.
 
 ### Consistency
 - Formatting matches project conventions

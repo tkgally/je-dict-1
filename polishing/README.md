@@ -81,7 +81,7 @@ Each review checks entries against these quality standards:
 ### Required Fields
 - [ ] Valid ID format matching filename
 - [ ] Headword with proper furigana on all kanji
-- [ ] Reading in hiragana only
+- [ ] Reading in hiragana only (long vowel marker ー is also allowed)
 - [ ] Appropriate part_of_speech
 - [ ] Clear, accurate gloss
 - [ ] Complete metadata with all required tags
@@ -90,8 +90,17 @@ Each review checks entries against these quality standards:
 - [ ] Definitions are clear and distinguish senses
 - [ ] Examples illustrate actual usage
 - [ ] Notes provide genuinely helpful information
-- [ ] Cross-references point to valid, related entries
+- [ ] Cross-references point to valid, related entries (see below for handling missing targets)
 - [ ] No redundant or contradictory information
+
+### Cross-Reference Target Handling
+When a cross-reference points to an entry that does not exist yet:
+1. Add the target word to `candidate_words.json` using:
+   ```bash
+   python3 build/manage_candidates.py add "headword" "reading" "brief note"
+   ```
+2. The script automatically checks for duplicates and will refuse to add if the word already exists
+3. This ensures cross-reference targets are queued for future entry creation
 
 ### Consistency
 - [ ] Formatting matches project conventions
