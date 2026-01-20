@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 7,479
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,686 | Unassigned: 0 ✓
-- **Candidate words**: ~544 words tracked in `candidate_words.json`
+- **Candidate words**: ~645 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,58 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-20 (New Candidates - 100 Words Added, Session 138)
+Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Psychological/Emotional States** (~15 words):
+- Motivation/arousal: {奮起|ふんき} (stirring to action), {発奮|はっぷん} (being roused), {衝動|しょうどう} (impulse), {憧憬|しょうけい} (longing)
+- Mental states: {惰性|だせい} (inertia), {本能|ほんのう} (instinct), {直感|ちょっかん} (intuition), {没頭|ぼっとう} (immersion)
+
+**Information/Actions Vocabulary** (~20 words):
+- Concealment: {隠蔽|いんぺい} (cover-up), {捏造|ねつぞう} (fabrication), {歪曲|わいきょく} (distortion), {改竄|かいざん} (falsification)
+- Consideration/perception: {熟考|じゅっこう} (careful consideration), {黙認|もくにん} (tacit approval), {誇示|こじ} (showing off), {看過|かんか} (overlooking)
+- Revelation: {発覚|はっかく} (coming to light), {告発|こくはつ} (disclosure), {暴露|ばくろ} (exposure), {発掘|はっくつ} (excavation)
+
+**Social/Political Actions** (~15 words):
+- Elimination/change: {排除|はいじょ} (exclusion), {淘汰|とうた} (selection), {駆逐|くちく} (expulsion), {更迭|こうてつ} (replacement), {抜擢|ばってき} (promotion)
+- Obstruction: {阻止|そし} (prevention), {抑止|よくし} (deterrence), {妨害|ぼうがい} (obstruction), {横槍|よこやり} (interference)
+- Social dynamics: {迎合|げいごう} (pandering), {便乗|びんじょう} (taking advantage)
+
+**Character/Personality Traits** (~15 words):
+- Negative: {傲慢|ごうまん} (arrogance), {横暴|おうぼう} (tyranny), {専横|せんおう} (despotism), {卑屈|ひくつ} (servile), {狡猾|こうかつ} (cunning)
+- Positive: {勇敢|ゆうかん} (brave), {果敢|かかん} (resolute), {堅実|けんじつ} (steady), {着実|ちゃくじつ} (reliable)
+- Excellence: {卓越|たくえつ} (excellence), {傑出|けっしゅつ} (outstanding), {巧妙|こうみょう} (ingenious), {凌駕|りょうが} (surpassing)
+
+**Explanation/Apology** (~10 words):
+- Speech acts: {弁解|べんかい} (explanation), {弁明|べんめい} (vindication), {釈明|しゃくめい} (clarification), {陳謝|ちんしゃ} (formal apology)
+- Financial resolution: {賠償|ばいしょう} (compensation), {償還|しょうかん} (repayment), {弁済|べんさい} (reimbursement)
+
+**Business/Finance** (~10 words):
+- Investment: {出資|しゅっし} (investment), {資金繰|しきんぐ}り (cash flow management)
+- Calculation: {充当|じゅうとう} (allocation), {計上|けいじょう} (recording), {換算|かんさん} (conversion)
+- Legal: {差|さ}し{押|お}さえ (seizure), {訴訟|そしょう} (lawsuit), {告訴|こくそ} (accusation)
+
+**Transformation/Change (-化 words)** (~25 words):
+- Process improvements: {活性化|かっせいか} (activation), {効率化|こうりつか} (streamlining), {自動化|じどうか} (automation), {最適化|さいてきか} (optimization), {可視化|かしか} (visualization), {簡略化|かんりゃくか} (simplification)
+- Social changes: {多様化|たようか} (diversification), {民営化|みんえいか} (privatization), {国有化|こくゆうか} (nationalization), {商業化|しょうぎょうか} (commercialization), {大衆化|たいしゅうか} (popularization)
+- Negative changes: {形骸化|けいがいか} (becoming nominal), {空洞化|くうどうか} (hollowing out), {硬直化|こうちょくか} (rigidity), {陳腐化|ちんぷか} (obsolescence), {老朽化|ろうきゅうか} (deterioration)
+- Physical/chemical: {劣化|れっか} (degradation), {腐敗|ふはい} (decay), {腐食|ふしょく} (corrosion), {風化|ふうか} (weathering), {還元|かんげん} (reduction), {蒸発|じょうはつ} (evaporation), {凝縮|ぎょうしゅく} (condensation), {溶解|ようかい} (dissolution)
+
+**Other** (~10 words):
+- Verbs: {上回|うわまわ}る (to exceed), {下回|したまわ}る (to fall below), {聞|き}き{逃|のが}す (to mishear), {言|い}い{逃|のが}れる (to make excuses)
+- Industrial: {採掘|さいくつ} (mining), {掘削|くっさく} (drilling), {操業|そうぎょう} (operation)
+- Control: {自制|じせい} (self-control), {自粛|じしゅく} (self-restraint)
+- Actions: {暴挙|ぼうきょ} (outrage), {蛮行|ばんこう} (barbaric act)
+
+Notable features:
+- Strong coverage of transformation vocabulary (-化 words) useful for discussing social/economic changes
+- Business/legal terminology for professional contexts
+- Character trait vocabulary for describing personalities
+- Information-related vocabulary (concealment, revelation, consideration)
+- Self-control and restraint vocabulary relevant to Japanese cultural values
+
+Candidate count: 544 → 645
 
 ### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 137)
 Added 30 new dictionary entries from candidate_words.json, covering musical instruments/terminology, regional dialects from multiple areas, and practical everyday vocabulary:
