@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Japanese-English learner&#x27;s dictionary with detailed explanations and examples">
-    <title>Search - Japanese-English Dictionary</title>
+    <meta name="description" content="TKG Japanese-English Learner&#x27;s Dictionary - Advanced tag-based search">
+    <title>Advanced Search - TKG Japanese-English Learner's Dictionary</title>
     <link rel="stylesheet" href="styles.css">
 
     <style>
@@ -255,11 +255,12 @@
 <header class="nav-header">
     <nav class="nav-links">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="search.html" class="nav-link">Search</a>
+        <a href="advanced.html" class="nav-link">Advanced</a>
         <a href="browse.html" class="nav-link">Browse</a>
         <a href="recent.html" class="nav-link">Recent</a>
         <a href="random.html" class="nav-link">Random</a>
         <a href="pending.html" class="nav-link">Pending</a>
+        <a href="about.html" class="nav-link">About</a>
     </nav>
     <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
         <span class="furigana-icon">振</span>
@@ -267,24 +268,7 @@
     </button>
 </header>
 <main class="search-page">
-    <h1>Search the Dictionary</h1>
-
-    <div class="search-form">
-        <input type="text" id="search-input" placeholder="Search Japanese, English, or romaji..." autocomplete="off">
-        <button type="button" id="search-button">Search</button>
-    </div>
-
-    <div class="search-options">
-        <label><input type="radio" name="search-type" value="auto" checked> Auto-detect</label>
-        <label><input type="radio" name="search-type" value="japanese"> Japanese</label>
-        <label><input type="radio" name="search-type" value="english"> English</label>
-        <label><input type="radio" name="search-type" value="romaji"> Romaji</label>
-    </div>
-
-    <div id="results-section" class="results-section" style="display: none;">
-        <h2 id="results-heading">Results</h2>
-        <div id="results-list" class="results-list"></div>
-    </div>
+    <h1>Advanced Search</h1>
 
 
     <!-- Tag-Based Search Section -->
@@ -519,17 +503,16 @@
 
     <noscript>
         <div class="noscript-notice">
-            <p>JavaScript is required for the search feature. You can still <a href="browse.html">browse entries</a> by kana row.</p>
+            <p>JavaScript is required for the advanced search feature. You can still <a href="browse.html">browse entries</a> by kana row.</p>
         </div>
     </noscript>
 </main>
 
 <script src="search-index.js"></script>
-<script src="search.js"></script>
 <script src="tag-search.js"></script>
 
 <footer>
-    <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
+    <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
 </footer>
 <script>
 (function() {
