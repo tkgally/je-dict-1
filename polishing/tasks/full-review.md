@@ -30,7 +30,7 @@ For each entry, verify:
 
 ### 2. Headword and Reading
 - [ ] Headword has furigana on ALL kanji: `{kanji|reading}`
-- [ ] Reading is hiragana only (no katakana except for loanwords)
+- [ ] Reading is hiragana only (long vowel marker ー is also allowed)
 - [ ] Reading matches the actual pronunciation
 - [ ] ID romanization matches reading correctly
 
@@ -68,10 +68,17 @@ For each entry, verify:
 - [ ] Appropriate level of detail
 
 ### 8. Cross-References
-- [ ] All references point to valid entries
+- [ ] All references point to valid entries (or targets are added to candidates)
 - [ ] Reference types are appropriate (pair, synonym, antonym, etc.)
 - [ ] Labels accurately describe relationships
 - [ ] No broken or stale references
+
+**When a cross-reference target does not exist:**
+Add the target word to `candidate_words.json`:
+```bash
+python3 build/manage_candidates.py add "headword" "reading" "brief note"
+```
+The script automatically checks for duplicates.
 
 ### 9. Metadata
 - [ ] vocabulary_tier is set appropriately
@@ -124,6 +131,11 @@ After each batch:
    - Update current_batch progress
 
 4. Create/update session log in `sessions/`
+
+5. Build static website for review:
+   ```bash
+   python3 build/build_flat.py
+   ```
 
 ## Session Summary
 

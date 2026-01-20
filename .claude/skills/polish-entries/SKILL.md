@@ -88,7 +88,7 @@ At session end, update:
 3. **queue.json**: Remove reviewed entries, add flagged entries
 4. **sessions/**: Create session log file
 
-### Phase 4: Validate and Summarize
+### Phase 4: Validate, Build, and Summarize
 
 ```bash
 # Run validation
@@ -97,6 +97,9 @@ python3 build/validate_tags.py
 
 # Update indexes if entries changed
 python3 build/update_indexes.py
+
+# Build static website so user can review changes
+python3 build/build_flat.py
 ```
 
 Provide summary to user including:
@@ -128,7 +131,7 @@ Apply these standards during review:
 ### Required for All Entries
 - Valid ID format matching filename
 - Headword with furigana on all kanji
-- Reading in hiragana only
+- Reading in hiragana only (long vowel marker ー is also allowed)
 - Appropriate part_of_speech
 - Clear, accurate gloss
 - Complete metadata with required tags
@@ -137,8 +140,15 @@ Apply these standards during review:
 - Definitions distinguish senses clearly
 - Examples illustrate actual usage
 - Notes provide genuinely helpful information
-- Cross-references point to valid entries
+- Cross-references point to valid entries (or targets added to candidates)
 - No redundant or contradictory information
+
+### Cross-Reference Target Handling
+When a cross-reference points to an entry that does not exist yet, add the target to `candidate_words.json`:
+```bash
+python3 build/manage_candidates.py add "headword" "reading" "brief note"
+```
+The script automatically checks for duplicates and will refuse to add if the word already exists.
 
 ### Consistency
 - Formatting matches project conventions
