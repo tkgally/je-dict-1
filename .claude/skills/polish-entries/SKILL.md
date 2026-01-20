@@ -143,6 +143,35 @@ Apply these standards during review:
 - Cross-references point to valid entries (or targets added to candidates)
 - No redundant or contradictory information
 
+### Example Requirements (IMPORTANT)
+
+**See `example-sentences` skill for complete guidelines.** During polishing, verify:
+
+#### Minimum Example Counts
+| Tier | Required per Sense |
+|------|-------------------|
+| Basic | 5 examples |
+| Core | 5 examples |
+| General | 3 examples |
+
+#### Progressive Length
+Examples should progress from shorter to longer within each sense.
+
+#### Vocabulary Restrictions
+| Tier | Examples 1-2 | Examples 3+ |
+|------|-------------|-------------|
+| Basic | Basic vocab only | Basic + Core only |
+| Core | Basic + Core only | No restriction |
+| General | No restriction | No restriction |
+
+#### When Examples Don't Meet Guidelines
+1. **Insufficient count**: Add new examples to meet minimum
+2. **Wrong vocabulary tier**: Revise examples to use appropriate vocabulary
+3. **No length progression**: Reorder or revise examples
+4. **Missing sense coverage**: Add examples for uncovered senses
+
+**Note:** Existing examples should be preserved if they are high quality. Add to them rather than replacing unless there are quality issues.
+
 ### Cross-Reference Target Handling
 When a cross-reference points to an entry that does not exist yet, add the target to `candidate_words.json`:
 ```bash

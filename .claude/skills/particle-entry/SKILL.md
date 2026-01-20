@@ -158,9 +158,24 @@ All particle entries must include these tags in `metadata.tags`:
 - Some particles may have `formality` variations (e.g., formal written particles)
 - The `style` tag can be added for written-only particles: `"style": ["written"]`
 
+## Example Sentences
+
+**See the `example-sentences` skill for complete requirements including:**
+- Minimum counts: 5 examples per sense (basic/core) or 3 (general)
+- Progressive length: Examples should get longer from first to last
+- Vocabulary restrictions by tier
+- Quality standards and formatting
+
+**Particle-specific guidelines:**
+- Each major function should have dedicated examples
+- Show predicates requiring the particle in natural sentences
+- Provide contrastive examples with similar particles
+- Include examples of fixed patterns
+
 ## Quality Checklist for Particles
 
 - [ ] **Tags complete**: pos, formality, politeness, semantic all present
+- [ ] **Minimum examples per sense** (5 for basic/core, 3 for general)
 - [ ] All major functions listed with examples
 - [ ] Predicates requiring this particle explicitly listed
 - [ ] Contrast with commonly confused particles explained
@@ -168,3 +183,4 @@ All particle entries must include these tags in `metadata.tags`:
 - [ ] Examples show real usage contexts
 - [ ] Common learner mistakes addressed
 - [ ] Depth matches other particle entries
+- [ ] All examples have valid sense_numbers

@@ -111,7 +111,15 @@ SIMILAR WORDS:
 - {嫌|きら}い - na-adjective
 - Note these exceptions explicitly in entries
 
-## Sense Numbers in Examples
+## Example Sentences
+
+**See the `example-sentences` skill for complete requirements including:**
+- Minimum counts: 5 examples per sense (basic/core) or 3 (general)
+- Progressive length: Examples should get longer from first to last
+- Vocabulary restrictions by tier
+- Quality standards and formatting
+
+### Sense Numbers in Examples
 
 For adjectives with multiple senses, each example must include a `sense_numbers` field:
 
@@ -126,10 +134,12 @@ For adjectives with multiple senses, each example must include a `sense_numbers`
 ]
 ```
 
-**Guidelines for adjective entries:**
+**Adjective-specific guidelines:**
 - Examples demonstrating predicate vs. modifier usage typically share the same sense
 - Different nuances of meaning (e.g., physical vs. emotional) may require separate senses
 - Figurative or extended meanings should have their own sense numbers
+- Show both predicate form (Xは{adj}) and modifier form ({adj}+noun)
+- Demonstrate adverbial form usage where natural
 
 ## Required Tags for Adjectives
 
