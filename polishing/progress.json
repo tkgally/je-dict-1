@@ -1,19 +1,86 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-20T00:00:00Z",
+  "last_updated": "2026-01-20T01:00:00Z",
   "description": "Tracks review status of all dictionary entries",
 
   "statistics": {
     "total_entries": 7389,
-    "reviewed": 0,
-    "pending": 7389,
+    "reviewed": 10,
+    "pending": 7379,
     "flagged": 0,
     "skipped": 0
   },
 
   "entries": {
+    "00001_amaru": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Good quality entry"
+    },
+    "00002_amu": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Good entry"
+    },
+    "00003_anmari": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Good entry with detailed usage notes"
+    },
+    "00004_aogu": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag from electronics to action"
+    },
+    "00005_appu": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Good entry for loanword"
+    },
+    "00006_aru": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed part_of_speech format for consistency"
+    },
+    "00007_auto": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tags from building/transportation to leisure"
+    },
+    "00008_baggu": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Good entry"
+    },
+    "00009_baiorin": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added missing cross_references field"
+    },
+    "00010_banchi": {
+      "last_reviewed": "2026-01-20T00:57:11Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Good entry with address system explanation"
+    }
   },
 
   "review_history": [
+    {
+      "session_id": "20260120_001",
+      "date": "2026-01-20",
+      "entries_reviewed": 10,
+      "entries_modified": 4,
+      "task_type": "full-review"
+    }
   ]
 }
