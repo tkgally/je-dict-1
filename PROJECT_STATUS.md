@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,419
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,626 | Unassigned: 0 ✓
-- **Candidate words**: ~603 words tracked in `candidate_words.json`
+- **Total entries**: 7,449
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,656 | Unassigned: 0 ✓
+- **Candidate words**: ~574 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 136)
+Added 30 new dictionary entries from candidate_words.json, covering cooking vocabulary, adverbs/mimetics, business/IT terms, abstract nouns, and Kansai dialect expressions:
+
+- **Cooking/food items (4)**: {卵焼|たまごや}きご{飯|はん} (rice with tamagoyaki), {塩梅|あんばい} (seasoning/condition), {擂|す}り{鉢|ばち} (mortar), {吟味|ぎんみ} (scrutiny)
+- **Cooking verbs (4)**: {浸|ひた}す (to soak), {拵|こしら}える (to prepare), {裏返|うらがえ}す (to flip), {削|そ}ぐ (to slice thin)
+- **Adverbs/mimetics (8)**: ずばり (directly), てっきり (surely/mistakenly), しぶしぶ (reluctantly), やたら (excessively), きょろきょろ (looking around), もたもた (sluggishly), そそくさ (hurriedly), {逐一|ちくいち} (one by one), まごまご (bewildered)
+- **Business/IT terms (6)**: {査定|さてい} (assessment), {精査|せいさ} (close examination), {刷新|さっしん} (reform), {復旧|ふっきゅう} (recovery), {切|き}り{替|か}え (switching), {脆弱|ぜいじゃく} (vulnerability)
+- **Abstract nouns (3)**: {疲弊|ひへい} (exhaustion), {逸脱|いつだつ} (deviation), {萎縮|いしゅく} (atrophy)
+- **Kansai dialect (4)**: ほんま (really), なんでやねん (what the heck), おおきに (thank you), あかん (no good)
+
+Notable entry features:
+- Traditional Japanese cooking vocabulary including {擂|す}り{鉢|ばち} (mortar) with cultural context
+- Complete Kansai dialect coverage: ほんま, なんでやねん, おおきに, あかん with manzai comedy context for なんでやねん
+- Useful mimetic expressions for describing behaviors and states
+- Business/IT terminology including {脆弱|ぜいじゃく} with security context
+- {塩梅|あんばい} with etymology note about salt and plum vinegar
+
+Total entries: 7,419 → 7,449
+Remaining candidates: ~603 → ~574
 
 ### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 135)
 Added 30 new dictionary entries from candidate_words.json, focusing on cooking vocabulary, business documents, seal terminology, office supplies, infrastructure/housing, and employment terms:
