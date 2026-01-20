@@ -1,0 +1,160 @@
+{
+  "session_id": "20260120_005",
+  "task_type": "full-review",
+  "started": "2026-01-20T02:00:00Z",
+  "ended": "2026-01-20T02:30:00Z",
+  "agent": "claude-opus-4-5",
+
+  "scope": {
+    "entry_range": "00231-00430",
+    "total_reviewed": 200,
+    "total_modified": 33
+  },
+
+  "changes_summary": {
+    "semantic_tag_fixes": 22,
+    "formality_fixes": 9,
+    "missing_cross_references_added": 6,
+    "style_tag_removals": 2,
+    "domain_tag_removals": 2
+  },
+
+  "entries_modified": [
+    {
+      "id": "00231_kikou",
+      "change": "Removed incorrect 'furniture' semantic tag, kept 'weather'"
+    },
+    {
+      "id": "00233_kingyo",
+      "change": "Removed incorrect 'slang' style tag (word is not slang, only a related expression is)"
+    },
+    {
+      "id": "00240_ko",
+      "change": "Changed semantic from 'building' to 'grammatical' (prefix for 'small')"
+    },
+    {
+      "id": "00244_kouji",
+      "change": "Changed semantic from 'education,transportation' to 'work' (construction work)"
+    },
+    {
+      "id": "00247_kousui",
+      "change": "Changed semantic from 'clothing' to 'general' (perfume)"
+    },
+    {
+      "id": "00252_kujou",
+      "change": "Changed semantic from 'transportation' to 'communication' (complaint)"
+    },
+    {
+      "id": "00253_kuriimu",
+      "change": "Changed semantic from 'clothing' to 'food' (cream)"
+    },
+    {
+      "id": "00255_kushin",
+      "change": "Changed semantic from 'body-part,emotion,furniture' to 'action' (pains/effort)"
+    },
+    {
+      "id": "00256_kuusou",
+      "change": "Changed semantic from 'electronics,geography' to 'cognition' (fantasy/imagination)"
+    },
+    {
+      "id": "00257_kyakuma",
+      "change": "Changed semantic from 'leisure' to 'building' (guest room)"
+    },
+    {
+      "id": "00258_kyaputen",
+      "change": "Changed semantic from 'food,occupation,transportation' to 'occupation'; changed formality from 'informal' to 'neutral'"
+    },
+    {
+      "id": "00259_kyoka",
+      "change": "Changed semantic from 'electronics' to 'action' (permission)"
+    },
+    {
+      "id": "00261_kyouryoku",
+      "change": "Changed semantic from 'body-part,time-general' to 'action' (cooperation)"
+    },
+    {
+      "id": "00265_maaketto",
+      "change": "Changed formality from 'formal' to 'neutral' (market is a common word)"
+    },
+    {
+      "id": "00267_maiku",
+      "change": "Added missing cross_references field"
+    },
+    {
+      "id": "00268_mainasu",
+      "change": "Changed semantic from 'leisure,transportation' to 'number'; changed formality from 'formal' to 'neutral'"
+    },
+    {
+      "id": "00272_massaaji",
+      "change": "Added missing cross_references field"
+    },
+    {
+      "id": "00273_masutaa",
+      "change": "Changed formality from 'formal' to 'neutral' (master/bar owner is common usage)"
+    },
+    {
+      "id": "00274_memo",
+      "change": "Changed formality from 'formal' to 'neutral' (memo is everyday word)"
+    },
+    {
+      "id": "00275_menbaa",
+      "change": "Changed formality from 'formal' to 'neutral' (member is common word)"
+    },
+    {
+      "id": "00276_meyasu",
+      "change": "Changed semantic from 'electronics,furniture' to 'general' (criterion/guide)"
+    },
+    {
+      "id": "00277_mi",
+      "change": "Added missing semantic tag 'grammatical' (prefix meaning 'not yet')"
+    },
+    {
+      "id": "00279_mihon",
+      "change": "Changed semantic from 'occupation' to 'general' (sample/specimen)"
+    },
+    {
+      "id": "00300_musuu",
+      "change": "Changed semantic from 'time-general' to 'quantity' (countless/innumerable)"
+    },
+    {
+      "id": "00330_ojigi",
+      "change": "Changed formality from 'formal' to 'neutral' (bow is everyday word)"
+    },
+    {
+      "id": "00340_pasu",
+      "change": "Changed semantic from 'building,transportation' to 'leisure,transportation'; changed formality to 'neutral'; added cross_references"
+    },
+    {
+      "id": "00380_sonouchi",
+      "change": "Removed incorrect 'literary' style tag (word is casual/common)"
+    },
+    {
+      "id": "00390_sumou",
+      "change": "Removed incorrect 'colloquial' domain (sumo is a standard word); added cross_references"
+    },
+    {
+      "id": "00400_taihan",
+      "change": "Changed semantic from 'education' to 'quantity' (majority)"
+    },
+    {
+      "id": "00420_warito",
+      "change": "Changed formality from 'formal' to 'neutral' (割と is casual expression)"
+    }
+  ],
+
+  "patterns_observed": [
+    "Many entries have random/incorrect semantic tags assigned (likely from automated processing)",
+    "Common loanwords incorrectly marked as 'formal' when they are neutral everyday words",
+    "Some entries missing the cross_references field entirely",
+    "Prefix entries need 'grammatical' semantic tag for consistency",
+    "'slang' style tag sometimes incorrectly applied when word only MENTIONS slang usage in notes"
+  ],
+
+  "issues_flagged": [],
+
+  "continuation_notes": {
+    "next_entry": "00431",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue full review from entry 00431. Pattern of incorrect semantic tags continues - many entries need correction. Watch for loanwords incorrectly marked as formal."
+  }
+}
