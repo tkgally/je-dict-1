@@ -1,0 +1,48 @@
+{
+  "session_id": "20260120_026",
+  "started": "2026-01-20T13:45:00Z",
+  "ended": "2026-01-20T13:55:00Z",
+  "task_type": "full-review",
+  "entries_range": "02666-02675 (partial)",
+  "entries_reviewed": 5,
+  "entries_modified": 4,
+  "changes": [
+    {
+      "entry_id": "02666_kin",
+      "type": "examples_added",
+      "description": "Added 12 examples for 3 senses (15 total); basic tier"
+    },
+    {
+      "entry_id": "02667_kire",
+      "type": "examples_added",
+      "description": "Added 6 examples for 3 senses (9 total)"
+    },
+    {
+      "entry_id": "02668_kumi",
+      "type": "examples_added",
+      "description": "Added 6 examples for 3 senses (9 total)"
+    },
+    {
+      "entry_id": "02670_kurashi",
+      "type": "examples_added",
+      "description": "Added 7 examples for 2 senses (10 total); core tier"
+    }
+  ],
+  "issues_found": [],
+  "patterns_observed": [
+    "Basic tier entries (02666_kin) need 15 examples for 3 senses - significant work required",
+    "Multi-sense entries consistently had insufficient examples distributed across senses",
+    "Core tier entries need examples for all senses"
+  ],
+  "continuation": {
+    "next_entry": "02669",
+    "pending_tasks": [
+      "02669_kumiai needs +3 examples",
+      "02671_kure needs +3 examples",
+      "02672_kurou needs +3 examples",
+      "02673_kunren needs +3 examples",
+      "02674_guuzen needs +3 examples"
+    ],
+    "context_for_next_session": "Continue from entry 02669_kumiai. Entries 02669, 02671-02674 still need example additions."
+  }
+}
