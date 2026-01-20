@@ -7,6 +7,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 133)
+Added 30 new dictionary entries from candidate_words.json, focusing on body-part idioms, expressions about skills/strangers, fate/destiny vocabulary, and abstract nouns:
+
+- **Compound verbs (3)**: {湧|わ}き{出|で}る (to gush out), {突|つ}き{落|お}とす (to push down), {差|さ}し{戻|もど}す (to send back)
+- **Body-part idioms (9)**: {息|いき}を{潜|ひそ}める (to hold one's breath), {唇|くちびる}を{噛|か}む (to bite one's lip), {目|め}を{丸|まる}くする (to be wide-eyed), {鼻|はな}で{笑|わら}う (to sneer), {手|て}を{打|う}つ (to take measures), {手|て}を{染|そ}める (to get involved), {腕|うで}を{振|ふ}るう (to show skill), {腕|うで}を{磨|みが}く (to hone skills), {目|め}を{奪|うば}われる (to be captivated)
+- **Stranger/newcomer vocabulary (5)**: {赤|あか}の{他人|たにん} (complete stranger), {見|み}ず{知|し}らず (total stranger), {古株|ふるかぶ} (old-timer), {新顔|しんがお} (newcomer), {一見|いちげん} (first-time customer)
+- **Fate/destiny nouns (2)**: {因縁|いんねん} (fate/karma), {定|さだ}め (fate/destiny)
+- **Yojijukugo (2)**: {大同小異|だいどうしょうい} (essentially the same), {不可思議|ふかしぎ} (mysterious)
+- **Abstract nouns (8)**: {取|と}り{締|し}まり (crackdown), {巻|ま}き{添|ぞ}え (getting caught up in), {心得|こころえ} (knowledge), {手腕|しゅわん} (skill), {固定観念|こていかんねん} (preconception), {勝|か}ち{気|き} (competitive spirit), {自己嫌悪|じこけんお} (self-loathing), {別|わか}れ{際|ぎわ} (moment of parting)
+- **Humble gift noun (1)**: {粗品|そしな} (small gift)
+
+Notable entry features:
+- Body-part idiom group with 手, 目, 鼻, 唇, 息, 腕 covering emotions and actions
+- Skill-related expressions: {腕|うで}を{振|ふ}るう ↔ {腕|うで}を{磨|みが}く (show vs. hone)
+- Stranger vocabulary: {赤|あか}の{他人|たにん} ↔ {見|み}ず{知|し}らず (both mean complete stranger, with etymology notes)
+- {古株|ふるかぶ} ↔ {新顔|しんがお} antonym pair for workplace veterans/newcomers
+- {一見|いちげん}さんお{断|ことわ}り cultural note about Japanese establishments
+- Buddhist origin notes for {因縁|いんねん} and {不可思議|ふかしぎ}
+- {粗品|そしな} with Japanese gift-giving culture context
+
+Total entries: 7,359 → 7,389
+Remaining candidates: ~563 → ~533
+
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 132)
 Added 30 new dictionary entries from candidate_words.json, focusing on verbs describing physical/state changes, language/dialect vocabulary, suru-verbs for social dynamics, and idiomatic expressions:
 
