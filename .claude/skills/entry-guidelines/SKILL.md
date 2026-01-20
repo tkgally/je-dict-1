@@ -81,12 +81,18 @@ This prevents duplicate entries and wasted effort on entries that must later be 
 
 ## Example Sentence Guidelines
 
-1. **First example should be simple** - Demonstrate the word clearly without complexity
-2. **Progress to natural complexity** - Later examples can show real-world usage
-3. **Include at least one fixed phrase** - High-frequency collocations aid memory
-4. **Annotate non-obvious grammar** - Use [Note: ...] for grammatical explanations
-5. **Longer sentences for more difficult vocabulary** - Words that will be classified as core or general tier vocabulary should have at least one full-sentence example. Such examples may have a complex structure (with relative clauses, etc.) or consist of two sentences.
-6. **Always include sense_numbers** - Every example must specify which definition sense(s) it illustrates
+**See the `example-sentences` skill for complete guidelines on:**
+- Minimum example counts per tier (5 for basic/core, 3 for general)
+- Progressive length requirements
+- Vocabulary restrictions by tier
+- Quality standards and formatting
+
+### Key Requirements Summary
+
+1. **Minimum counts**: Basic/core tiers need 5 examples per sense; general tier needs 3
+2. **Progressive length**: Examples should get longer from first to last
+3. **Vocabulary restrictions**: Basic tier examples must use tier-appropriate vocabulary
+4. **Always include sense_numbers**: Every example must specify which definition sense(s) it illustrates
 
 ### Sense Numbers Requirement
 
@@ -108,19 +114,6 @@ Every example sentence **must** have a `sense_numbers` field that links it to th
 - **Multi-sense entries**: Each example must specify which sense(s) it demonstrates
 - **Examples illustrating multiple senses**: Use `[1, 2]` format
 - **Must reference valid senses**: Numbers must match `sense_number` values in definitions
-
-**Example for multi-sense entry:**
-```json
-"definitions": [
-  { "sense_number": 1, "gloss": "to stuff" },
-  { "sense_number": 2, "gloss": "to cram (study)" }
-],
-"examples": [
-  { "id": "..._ex1", "sense_numbers": [1], ... },  // illustrates sense 1
-  { "id": "..._ex2", "sense_numbers": [2], ... },  // illustrates sense 2
-  { "id": "..._ex3", "sense_numbers": [1, 2], ... } // illustrates both
-]
-```
 
 The validation script checks that all examples in multi-sense entries have valid sense_numbers.
 

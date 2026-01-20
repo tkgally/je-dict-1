@@ -99,9 +99,17 @@ COMMON PATTERNS:
 [Any register notes, negative usage, or keigo references]
 ```
 
-## Sense Numbers in Examples
+## Example Sentences
 
-For verbs with multiple senses (e.g., different meanings or usages), each example must include a `sense_numbers` field:
+**See the `example-sentences` skill for complete requirements including:**
+- Minimum counts: 5 examples per sense (basic/core) or 3 (general)
+- Progressive length: Examples should get longer from first to last
+- Vocabulary restrictions by tier
+- Quality standards and formatting
+
+### Sense Numbers in Examples
+
+For verbs with multiple senses, each example must include a `sense_numbers` field:
 
 ```json
 "examples": [
@@ -114,11 +122,13 @@ For verbs with multiple senses (e.g., different meanings or usages), each exampl
 ]
 ```
 
-**Guidelines for verb entries:**
+**Verb-specific guidelines:**
 - Each example should clearly demonstrate the sense it's tagged with
 - Transitivity-related examples typically share the same sense
 - Figurative vs. literal uses often require different sense numbers
 - Idiomatic expressions may warrant their own sense
+- Show particle patterns ({noun}を{verb}, {noun}に{verb}, etc.)
+- Demonstrate ている usage where relevant
 
 ## Required Tags for Verbs
 

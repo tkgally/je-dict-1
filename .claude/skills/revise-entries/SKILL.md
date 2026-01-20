@@ -46,10 +46,19 @@ See the `vocabulary-notes` skill for complete formatting guidelines.
 
 ## Medium Priority Revisions (Do Second)
 
-### For ALL Entries
+### For ALL Entries - Example Requirements
+
+**See `example-sentences` skill for complete guidelines.**
+
+- [ ] **Minimum examples**: 5 per sense (basic/core) or 3 per sense (general)
+- [ ] **Progressive length**: Examples go from short → long within each sense
+- [ ] **Vocabulary restrictions** (basic tier): Examples 1-2 use basic vocab only; examples 3-5 use basic+core only
+- [ ] **Vocabulary restrictions** (core tier): Examples 1-2 use basic+core vocab only
+- [ ] **Sense coverage**: All senses have adequate examples
+
+### For ALL Entries - General
 
 - [ ] **Register label**: Add Casual/Neutral/Formal where relevant
-- [ ] **Example progression**: Ensure examples go from simple → complex
 - [ ] **Fixed phrase**: Include at least one high-frequency collocation
 
 ### For Verb Entries

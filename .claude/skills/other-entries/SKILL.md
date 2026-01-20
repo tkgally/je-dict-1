@@ -199,7 +199,15 @@ ingredients themselves. It is said with hands together.
 
 ---
 
-## Sense Numbers in Examples
+## Example Sentences
+
+**See the `example-sentences` skill for complete requirements including:**
+- Minimum counts: 5 examples per sense (basic/core) or 3 (general)
+- Progressive length: Examples should get longer from first to last
+- Vocabulary restrictions by tier
+- Quality standards and formatting
+
+### Sense Numbers in Examples
 
 All examples must include a `sense_numbers` field linking them to the definition(s) they illustrate:
 
@@ -219,18 +227,22 @@ All examples must include a `sense_numbers` field linking them to the definition
 **Nouns:**
 - Concrete vs. abstract meanings may require separate senses
 - Different domains of use (technical, everyday) may warrant separate senses
+- Show common verb collocations in examples
 
 **Counters:**
 - Usually single-sense; use `[1]` for all examples
 - Different counting contexts typically share the same sense
+- Include examples showing sound change patterns (1, 3, 6, 8, 10)
 
 **Adverbs:**
 - Degree vs. frequency meanings need separate senses
 - Emphatic uses may be a separate sense from neutral uses
+- Show typical sentence positions
 
 **Expressions:**
 - Fixed expressions typically have one sense
 - Variations in formality level may be noted within the same sense
+- Show exchange patterns where applicable
 
 ---
 
