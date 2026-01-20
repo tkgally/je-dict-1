@@ -1,6 +1,6 @@
 # Continue Dictionary Polishing
 
-Continue the systematic polishing of dictionary entries. Review approximately 100 entries per batch, following the full-review task. This workflow loops automatically—after each batch, check your remaining context and either process another batch or create a PR.
+Continue the systematic polishing of dictionary entries. Review approximately 10 entries per batch, following the full-review task. This workflow loops automatically—after each batch, check your remaining context and either process another batch or create a PR.
 
 ## Quick Context
 
@@ -45,7 +45,7 @@ Read the most recent session log in `polishing/sessions/` to get the exact conti
 6. **Commit changes** with a descriptive message (do NOT push yet)
 
 7. **Check remaining context** using `/context` command:
-   - **If 30% or more context remains**: Return to step 2 and process another batch of ~100 entries
+   - **If 30% or more context remains**: Return to step 2 and process another batch of ~10 entries
    - **If less than 30% context remains**: Proceed to step 8 to create PR
 
 8. **Create PR** (only when context < 30%):
@@ -55,7 +55,7 @@ Read the most recent session log in `polishing/sessions/` to get the exact conti
 
 ## Key Reminders
 
-- **Target: ~100 entries per batch** (adjustable based on issue density)
+- **Target: ~10 entries per batch** (adjustable based on issue density)
 - **Context loop**: Keep processing batches until context drops below 30%
 - **Update timestamps**: Use `python3 build/get_timestamp.py` when modifying entries
 - **Track all changes**: Record every modification in your session log
