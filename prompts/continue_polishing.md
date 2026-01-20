@@ -1,6 +1,6 @@
 # Continue Dictionary Polishing
 
-Continue the systematic polishing of dictionary entries. Review approximately 100 entries in this session, following the full-review task.
+Continue the systematic polishing of dictionary entries. Review approximately 100 entries per batch, following the full-review task. This workflow loops automatically—after each batch, check your remaining context and either process another batch or create a PR.
 
 ## Quick Context
 
@@ -42,11 +42,21 @@ Read the most recent session log in `polishing/sessions/` to get the exact conti
    - `polishing/sessions/`: Create new session log with changes summary
    - Update `review_history` array in progress.json
 
-6. **Commit and push** with a descriptive message
+6. **Commit changes** with a descriptive message (do NOT push yet)
+
+7. **Check remaining context** using `/context` command:
+   - **If 30% or more context remains**: Return to step 2 and process another batch of ~100 entries
+   - **If less than 30% context remains**: Proceed to step 8 to create PR
+
+8. **Create PR** (only when context < 30%):
+   - Push all commits from this session: `git push -u origin <branch-name>`
+   - Create a PR summarizing all batches processed in this session
+   - Include total entry range, total modifications, and key patterns discovered
 
 ## Key Reminders
 
-- **Target: ~100 entries** per session (adjustable based on issue density)
+- **Target: ~100 entries per batch** (adjustable based on issue density)
+- **Context loop**: Keep processing batches until context drops below 30%
 - **Update timestamps**: Use `python3 build/get_timestamp.py` when modifying entries
 - **Track all changes**: Record every modification in your session log
 - **Cross-reference targets**: If a reference target doesn't exist, add to candidates:
@@ -60,9 +70,10 @@ Read the most recent session log in `polishing/sessions/` to get the exact conti
 
 ## Output
 
-At session end, provide:
-1. Entry range reviewed (e.g., "00631-00830")
-2. Number of entries modified
-3. Summary of change types
-4. Any patterns or issues discovered
-5. Continuation notes for the next session
+At session end (when creating PR), provide:
+1. Total entry range reviewed across all batches (e.g., "00631-01230")
+2. Number of batches processed in this session
+3. Total number of entries modified
+4. Summary of change types across all batches
+5. Any patterns or issues discovered
+6. Continuation notes for the next session
