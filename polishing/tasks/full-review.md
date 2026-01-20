@@ -52,13 +52,44 @@ For each entry, verify:
 - [ ] Explanations add value beyond the gloss
 - [ ] Definitions cover the word's main usages
 
-### 6. Examples
-- [ ] At least one example per definition sense
+### 6. Examples (IMPORTANT - See `example-sentences` skill)
+
+#### Minimum Count by Tier
+- [ ] Basic tier: 5 examples per sense
+- [ ] Core tier: 5 examples per sense
+- [ ] General tier: 3 examples per sense
+
+#### Vocabulary Restrictions
+- [ ] Basic tier examples 1-2: Basic vocabulary only
+- [ ] Basic tier examples 3-5: Basic + Core vocabulary only
+- [ ] Core tier examples 1-2: Basic + Core vocabulary only
+- [ ] Core tier examples 3+: No restriction (prefer dictionary words)
+- [ ] General tier: No restriction (prefer dictionary words)
+
+Use `python3 build/check_duplicate.py "word" "reading"` to verify vocabulary tiers.
+
+#### Progressive Length
+- [ ] Examples progress from shorter to longer within each sense
+- [ ] Example 1: Short (5-15 chars)
+- [ ] Example 2: Short-medium (10-20 chars)
+- [ ] Example 3: Medium (15-30 chars)
+- [ ] Example 4: Medium-long (25-45 chars)
+- [ ] Example 5+: Long or multi-sentence (35-70 chars)
+
+#### Quality
 - [ ] Examples use natural, common constructions
-- [ ] Japanese text has complete furigana
-- [ ] English translations are accurate and natural
+- [ ] Japanese text has complete furigana: `{kanji|reading}`
+- [ ] English translations are accurate and natural (not overly literal)
 - [ ] sense_numbers correctly reference definitions
+- [ ] At least one example per sense shows a common collocation
 - [ ] Example IDs follow format: `{entry_id}_ex{N}`
+- [ ] IDs are sequential (ex1, ex2, ex3...)
+
+#### Remediation
+- **Insufficient count**: Write new examples to meet minimum
+- **Vocabulary violation**: Replace with tier-appropriate words (e.g., {購入|こうにゅう}する → {買|か}う)
+- **No length progression**: Reorder or revise examples
+- **Missing sense coverage**: Add examples for uncovered senses
 
 ### 7. Notes
 - [ ] Notes follow formatting conventions (see vocabulary-notes skill)
