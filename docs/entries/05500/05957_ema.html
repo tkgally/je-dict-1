@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">votive tablet; wishing plaque</span>
-                    <div class="definition-explanation">A small wooden plaque sold at Shinto shrines and Buddhist temples on which worshippers write their prayers or wishes. Originally depicted horses as offerings to the gods.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">votive tablet; wishing plaque</span>
+                        <div class="definition-explanation">A small wooden plaque sold at Shinto shrines and Buddhist temples on which worshippers write their prayers or wishes. Originally depicted horses as offerings to the gods.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>神社<rp>(</rp><rt>じんじゃ</rt><rp>)</rp></ruby>には<ruby>絵馬<rp>(</rp><rt>えま</rt><rp>)</rp></ruby>がたくさん<ruby>掛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>けられていた。</div>
                     <div class="example-english">Many ema were hung at the shrine.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>絵馬<rp>(</rp><rt>えま</rt><rp>)</rp></ruby>を<ruby>奉納<rp>(</rp><rt>ほうのう</rt><rp>)</rp></ruby>して<ruby>祈願<rp>(</rp><rt>きがん</rt><rp>)</rp></ruby>する。</div>
                     <div class="example-english">One makes a wish by dedicating an ema.</div>
@@ -128,6 +132,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

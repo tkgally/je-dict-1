@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,37 +40,16 @@
             <div class="entry-gloss">to twist; to turn; to puzzle over</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to twist; to turn</span>
-                    <div class="definition-explanation">To rotate or turn something with a twisting motion.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to twist; to turn</span>
+                        <div class="definition-explanation">To rotate or turn something with a twisting motion.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to wrench; to sprain</span>
-                    <div class="definition-explanation">To injure by twisting.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">to puzzle over; to rack one&#x27;s brains</span>
-                    <div class="definition-explanation">To think hard about something difficult.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">4.</span>
-                    <span class="definition-gloss">to defeat easily</span>
-                    <div class="definition-explanation">To win against someone with little effort (colloquial).</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>蛇口<rp>(</rp><rt>じゃぐち</rt><rp>)</rp></ruby>を<ruby>捻<rp>(</rp><rt>ひね</rt><rp>)</rp></ruby>って<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>を<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す。</div>
@@ -72,6 +57,26 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to wrench; to sprain</span>
+                        <div class="definition-explanation">To injure by twisting.</div>
+                    </div>
+            
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">to puzzle over; to rack one&#x27;s brains</span>
+                        <div class="definition-explanation">To think hard about something difficult.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>首<rp>(</rp><rt>くび</rt><rp>)</rp></ruby>を<ruby>捻<rp>(</rp><rt>ひね</rt><rp>)</rp></ruby>って<ruby>考<rp>(</rp><rt>かんが</rt><rp>)</rp></ruby>えた。</div>
@@ -79,6 +84,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">4.</span>
+                        <span class="definition-gloss">to defeat easily</span>
+                        <div class="definition-explanation">To win against someone with little effort (colloquial).</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を<ruby>簡単<rp>(</rp><rt>かんたん</rt><rp>)</rp></ruby>に<ruby>捻<rp>(</rp><rt>ひね</rt><rp>)</rp></ruby>った。</div>
@@ -86,6 +102,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -141,6 +159,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

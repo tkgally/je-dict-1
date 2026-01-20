@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">orbit; trajectory; track</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">orbit, trajectory</span>
-                    <div class="definition-explanation">The curved path of a celestial body or spacecraft around another object due to gravity.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">orbit, trajectory</span>
+                        <div class="definition-explanation">The curved path of a celestial body or spacecraft around another object due to gravity.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">track, rail</span>
-                    <div class="definition-explanation">The rails on which trains or trams run.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">course, path</span>
-                    <div class="definition-explanation">Figuratively, the expected or proper course of action or development.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>地球<rp>(</rp><rt>ちきゅう</rt><rp>)</rp></ruby>は<ruby>太陽<rp>(</rp><rt>たいよう</rt><rp>)</rp></ruby>の<ruby>周<rp>(</rp><rt>まわ</rt><rp>)</rp></ruby>りを<ruby>軌道<rp>(</rp><rt>きどう</rt><rp>)</rp></ruby>に<ruby>沿<rp>(</rp><rt>そ</rt><rp>)</rp></ruby>って<ruby>回<rp>(</rp><rt>まわ</rt><rp>)</rp></ruby>っている。</div>
@@ -65,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>人工衛星<rp>(</rp><rt>じんこうえいせい</rt><rp>)</rp></ruby>を<ruby>軌道<rp>(</rp><rt>きどう</rt><rp>)</rp></ruby>に<ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せることに<ruby>成功<rp>(</rp><rt>せいこう</rt><rp>)</rp></ruby>した。</div>
                     <div class="example-english">They succeeded in putting the artificial satellite into orbit.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">track, rail</span>
+                        <div class="definition-explanation">The rails on which trains or trams run.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>路面電車<rp>(</rp><rt>ろめんでんしゃ</rt><rp>)</rp></ruby>の<ruby>軌道<rp>(</rp><rt>きどう</rt><rp>)</rp></ruby>が<ruby>道路<rp>(</rp><rt>どうろ</rt><rp>)</rp></ruby>の<ruby>真<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>ん<ruby>中<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>を<ruby>走<rp>(</rp><rt>はし</rt><rp>)</rp></ruby>っている。</div>
@@ -79,6 +81,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">course, path</span>
+                        <div class="definition-explanation">Figuratively, the expected or proper course of action or development.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">プロジェクトはようやく<ruby>軌道<rp>(</rp><rt>きどう</rt><rp>)</rp></ruby>に<ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>った。</div>
@@ -86,6 +99,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -131,6 +146,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

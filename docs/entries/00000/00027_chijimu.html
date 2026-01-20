@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">to shrink; to contract; to be reduced</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to shrink; to contract</span>
-                    <div class="definition-explanation">To become smaller in size, typically of fabric, materials, or physical dimensions.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to shrink; to contract</span>
+                        <div class="definition-explanation">To become smaller in size, typically of fabric, materials, or physical dimensions.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to be reduced; to decrease</span>
-                    <div class="definition-explanation">To become smaller in scale, scope, or amount.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">to cower; to cringe</span>
-                    <div class="definition-explanation">To shrink back in fear or discomfort.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">このセーターは<ruby>洗<rp>(</rp><rt>あら</rt><rp>)</rp></ruby>うと<ruby>縮<rp>(</rp><rt>ちぢ</rt><rp>)</rp></ruby>む。</div>
@@ -65,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>寒<rp>(</rp><rt>さむ</rt><rp>)</rp></ruby>さで<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>が<ruby>縮<rp>(</rp><rt>ちぢ</rt><rp>)</rp></ruby>んだ。</div>
                     <div class="example-english">My body contracted from the cold.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to be reduced; to decrease</span>
+                        <div class="definition-explanation">To become smaller in scale, scope, or amount.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>会社<rp>(</rp><rt>かいしゃ</rt><rp>)</rp></ruby>の<ruby>規模<rp>(</rp><rt>きぼ</rt><rp>)</rp></ruby>が<ruby>縮<rp>(</rp><rt>ちぢ</rt><rp>)</rp></ruby>んでいる。</div>
@@ -79,6 +81,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">to cower; to cringe</span>
+                        <div class="definition-explanation">To shrink back in fear or discomfort.</div>
+                    </div>
+            
+</div>
 </div>
 
             <div class="entry-notes">
@@ -134,6 +147,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

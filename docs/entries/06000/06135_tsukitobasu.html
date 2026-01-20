@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to push away; to shove</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to push away; to shove</span>
-                    <div class="definition-explanation">To forcefully push someone or something away from oneself.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to push away; to shove</span>
+                        <div class="definition-explanation">To forcefully push someone or something away from oneself.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to knock down</span>
-                    <div class="definition-explanation">To push with enough force to make someone fall or stagger.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>を<ruby>突<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばす。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>邪魔者<rp>(</rp><rt>じゃまもの</rt><rp>)</rp></ruby>を<ruby>突<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばして<ruby>逃<rp>(</rp><rt>に</rt><rp>)</rp></ruby>げた。</div>
                     <div class="example-english">He pushed the person blocking his way aside and ran away.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to knock down</span>
+                        <div class="definition-explanation">To push with enough force to make someone fall or stagger.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>怒<rp>(</rp><rt>いか</rt><rp>)</rp></ruby>りで<ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>を<ruby>突<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>飛<rp>(</rp><rt>と</rt><rp>)</rp></ruby>ばしてしまった。</div>
@@ -72,6 +81,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">big, large</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">big, large (in size)</span>
-                    <div class="definition-explanation">Describes physical size. Used for objects, spaces, animals, and anything that can be measured by size. The opposite is <ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さい (chiisai, small).</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">big, large (in size)</span>
+                        <div class="definition-explanation">Describes physical size. Used for objects, spaces, animals, and anything that can be measured by size. The opposite is <ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さい (chiisai, small).</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">loud (of sound/voice)</span>
-                    <div class="definition-explanation">When describing voices or sounds, <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きい means loud. <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きい<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby> (ookii koe) means a loud voice.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>は<ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きいです。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きい<ruby>犬<rp>(</rp><rt>いぬ</rt><rp>)</rp></ruby>が<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きです。</div>
                     <div class="example-english">I like big dogs.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">loud (of sound/voice)</span>
+                        <div class="definition-explanation">When describing voices or sounds, <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きい means loud. <ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きい<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby> (ookii koe) means a loud voice.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">もっと<ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きい<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>で<ruby>話<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>してください。</div>
@@ -72,6 +81,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +128,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

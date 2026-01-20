@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">sly, cunning, unfair</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">sly, cunning, crafty</span>
-                    <div class="definition-explanation">Cleverly deceptive or dishonest in achieving one&#x27;s aims.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">sly, cunning, crafty</span>
+                        <div class="definition-explanation">Cleverly deceptive or dishonest in achieving one&#x27;s aims.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">unfair, sneaky</span>
-                    <div class="definition-explanation">Not following the rules or playing fairly.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>狡<rp>(</rp><rt>ずる</rt><rp>)</rp></ruby>い<ruby>手<rp>(</rp><rt>て</rt><rp>)</rp></ruby>を<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>った。</div>
@@ -58,6 +57,23 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>狡<rp>(</rp><rt>ずる</rt><rp>)</rp></ruby>いことをしないで<ruby>正々堂々<rp>(</rp><rt>せいせいどうどう</rt><rp>)</rp></ruby>と<ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>いなさい。</div>
+                    <div class="example-english">Don&#x27;t play dirty - fight fair and square.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">unfair, sneaky</span>
+                        <div class="definition-explanation">Not following the rules or playing fairly.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">ずるい！<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>も<ruby>欲<rp>(</rp><rt>ほ</rt><rp>)</rp></ruby>しい！</div>
@@ -65,13 +81,14 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>狡<rp>(</rp><rt>ずる</rt><rp>)</rp></ruby>いことをしないで<ruby>正々堂々<rp>(</rp><rt>せいせいどうどう</rt><rp>)</rp></ruby>と<ruby>戦<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>いなさい。</div>
                     <div class="example-english">Don&#x27;t play dirty - fight fair and square.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +134,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

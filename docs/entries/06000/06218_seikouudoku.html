@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">farm when sunny, read when rainy; peaceful rural life</span>
-                    <div class="definition-explanation">An ideal rustic lifestyle of working in the fields on sunny days and reading indoors on rainy days; living a tranquil, self-sufficient life away from worldly concerns.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">farm when sunny, read when rainy; peaceful rural life</span>
+                        <div class="definition-explanation">An ideal rustic lifestyle of working in the fields on sunny days and reading indoors on rainy days; living a tranquil, self-sufficient life away from worldly concerns.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>晴耕雨読<rp>(</rp><rt>せいこううどく</rt><rp>)</rp></ruby>を<ruby>夢見<rp>(</rp><rt>ゆめみ</rt><rp>)</rp></ruby>て、<ruby>都会<rp>(</rp><rt>とかい</rt><rp>)</rp></ruby>を<ruby>離<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>れた。</div>
                     <div class="example-english">Dreaming of a peaceful rural lifestyle, I left the city.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>祖父<rp>(</rp><rt>そふ</rt><rp>)</rp></ruby>は<ruby>晴耕雨読<rp>(</rp><rt>せいこううどく</rt><rp>)</rp></ruby>の<ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らしを<ruby>楽<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しんでいる。</div>
                     <div class="example-english">My grandfather enjoys a quiet life of farming and reading.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

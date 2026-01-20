@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to stab, to pierce</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to stab, to pierce</span>
-                    <div class="definition-explanation">To thrust a sharp object into something, penetrating it.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to stab, to pierce</span>
+                        <div class="definition-explanation">To thrust a sharp object into something, penetrating it.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to pierce emotionally</span>
-                    <div class="definition-explanation">For words or gaze to cut deeply, affecting someone&#x27;s emotions.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">フォークで<ruby>肉<rp>(</rp><rt>にく</rt><rp>)</rp></ruby>を<ruby>突<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>す。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>鋭<rp>(</rp><rt>するど</rt><rp>)</rp></ruby>いナイフが<ruby>壁<rp>(</rp><rt>かべ</rt><rp>)</rp></ruby>に<ruby>突<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>さっていた。</div>
                     <div class="example-english">A sharp knife was stuck in the wall.</div>
                     <div class="example-notes">Using the intransitive form <ruby>突<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>さる</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to pierce emotionally</span>
+                        <div class="definition-explanation">For words or gaze to cut deeply, affecting someone&#x27;s emotions.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">その<ruby>言葉<rp>(</rp><rt>ことば</rt><rp>)</rp></ruby>が<ruby>胸<rp>(</rp><rt>むね</rt><rp>)</rp></ruby>に<ruby>突<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>刺<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>さった。</div>
@@ -72,6 +81,8 @@
                     <div class="example-notes">Figurative usage with intransitive form</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -125,6 +136,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

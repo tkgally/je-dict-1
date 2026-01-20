@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">brave, admirable, touching, commendable</span>
-                    <div class="definition-explanation">Describes someone (especially children, the weak, or those in difficult circumstances) who shows courage, determination, or effort despite hardship. Evokes a sense of sympathy and admiration.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">brave, admirable, touching, commendable</span>
+                        <div class="definition-explanation">Describes someone (especially children, the weak, or those in difficult circumstances) who shows courage, determination, or effort despite hardship. Evokes a sense of sympathy and admiration.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さな<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>で<ruby>健気<rp>(</rp><rt>けなげ</rt><rp>)</rp></ruby>に<ruby>働<rp>(</rp><rt>はたら</rt><rp>)</rp></ruby>く<ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>。</div>
                     <div class="example-english">A child bravely working with their small body.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>の<ruby>健気<rp>(</rp><rt>けなげ</rt><rp>)</rp></ruby>な<ruby>努力<rp>(</rp><rt>どりょく</rt><rp>)</rp></ruby>は<ruby>皆<rp>(</rp><rt>みな</rt><rp>)</rp></ruby>を<ruby>感動<rp>(</rp><rt>かんどう</rt><rp>)</rp></ruby>させた。</div>
                     <div class="example-english">Her admirable efforts moved everyone.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>病気<rp>(</rp><rt>びょうき</rt><rp>)</rp></ruby>と<ruby>闘<rp>(</rp><rt>たたか</rt><rp>)</rp></ruby>う<ruby>健気<rp>(</rp><rt>けなげ</rt><rp>)</rp></ruby>な<ruby>患者<rp>(</rp><rt>かんじゃ</rt><rp>)</rp></ruby>さん。</div>
                     <div class="example-english">A patient bravely fighting their illness.</div>
@@ -117,6 +120,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

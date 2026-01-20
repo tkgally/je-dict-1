@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">in, at (formal)</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">in, at (place - formal)</span>
-                    <div class="definition-explanation">Indicates a formal or abstract location where something takes place. More formal than で.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">in, at (place - formal)</span>
+                        <div class="definition-explanation">Indicates a formal or abstract location where something takes place. More formal than で.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">in (field/domain - formal)</span>
-                    <div class="definition-explanation">Indicates a field, area, or domain in which something applies or occurs.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">at (time/point - formal)</span>
-                    <div class="definition-explanation">Indicates a point in time or situation when something occurs.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>会議<rp>(</rp><rt>かいぎ</rt><rp>)</rp></ruby>は<ruby>東京<rp>(</rp><rt>とうきょう</rt><rp>)</rp></ruby>において<ruby>開催<rp>(</rp><rt>かいさい</rt><rp>)</rp></ruby>される。</div>
@@ -65,6 +57,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">in (field/domain - formal)</span>
+                        <div class="definition-explanation">Indicates a field, area, or domain in which something applies or occurs.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>科学<rp>(</rp><rt>かがく</rt><rp>)</rp></ruby>の<ruby>分野<rp>(</rp><rt>ぶんや</rt><rp>)</rp></ruby>において<ruby>大<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>きな<ruby>進歩<rp>(</rp><rt>しんぽ</rt><rp>)</rp></ruby>があった。</div>
@@ -72,13 +75,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>点<rp>(</rp><rt>てん</rt><rp>)</rp></ruby>において<ruby>両者<rp>(</rp><rt>りょうしゃ</rt><rp>)</rp></ruby>は<ruby>一致<rp>(</rp><rt>いっち</rt><rp>)</rp></ruby>している。</div>
                     <div class="example-english">On this point, both parties are in agreement.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">at (time/point - formal)</span>
+                        <div class="definition-explanation">Indicates a point in time or situation when something occurs.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>現時点<rp>(</rp><rt>げんじてん</rt><rp>)</rp></ruby>においては<ruby>判断<rp>(</rp><rt>はんだん</rt><rp>)</rp></ruby>できない。</div>
@@ -86,6 +99,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -141,6 +156,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

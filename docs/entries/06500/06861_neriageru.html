@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,37 +40,16 @@
             <div class="entry-gloss">to polish up; to refine; to perfect</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to knead thoroughly</span>
-                    <div class="definition-explanation">To work dough or similar material until it reaches the desired consistency.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to knead thoroughly</span>
+                        <div class="definition-explanation">To work dough or similar material until it reaches the desired consistency.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to polish up; to refine; to perfect</span>
-                    <div class="definition-explanation">To carefully develop and improve something through repeated effort.</div>
-                </div>
-            
-</div>
-<div class="examples">
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>企画<rp>(</rp><rt>きかく</rt><rp>)</rp></ruby>を<ruby>練<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>り<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げるのに<ruby>何<rp>(</rp><rt>なん</rt><rp>)</rp></ruby><ruby>週間<rp>(</rp><rt>しゅうかん</rt><rp>)</rp></ruby>もかかった。</div>
-                    <div class="example-english">It took weeks to refine the plan.</div>
-                    
-                </div>
-            
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>作家<rp>(</rp><rt>さっか</rt><rp>)</rp></ruby>は<ruby>何度<rp>(</rp><rt>なんど</rt><rp>)</rp></ruby>も<ruby>推敲<rp>(</rp><rt>すいこう</rt><rp>)</rp></ruby>して<ruby>文章<rp>(</rp><rt>ぶんしょう</rt><rp>)</rp></ruby>を<ruby>練<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>り<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げた。</div>
-                    <div class="example-english">The author polished the text through repeated revisions.</div>
-                    
-                </div>
-            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>生地<rp>(</rp><rt>きじ</rt><rp>)</rp></ruby>をしっかり<ruby>練<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>り<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げてください。</div>
@@ -72,6 +57,32 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to polish up; to refine; to perfect</span>
+                        <div class="definition-explanation">To carefully develop and improve something through repeated effort.</div>
+                    </div>
+            
+<div class="sense-examples examples">
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>企画<rp>(</rp><rt>きかく</rt><rp>)</rp></ruby>を<ruby>練<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>り<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げるのに<ruby>何<rp>(</rp><rt>なん</rt><rp>)</rp></ruby><ruby>週間<rp>(</rp><rt>しゅうかん</rt><rp>)</rp></ruby>もかかった。</div>
+                    <div class="example-english">It took weeks to refine the plan.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>作家<rp>(</rp><rt>さっか</rt><rp>)</rp></ruby>は<ruby>何度<rp>(</rp><rt>なんど</rt><rp>)</rp></ruby>も<ruby>推敲<rp>(</rp><rt>すいこう</rt><rp>)</rp></ruby>して<ruby>文章<rp>(</rp><rt>ぶんしょう</rt><rp>)</rp></ruby>を<ruby>練<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>り<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>げた。</div>
+                    <div class="example-english">The author polished the text through repeated revisions.</div>
+                    
+                </div>
+            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +128,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

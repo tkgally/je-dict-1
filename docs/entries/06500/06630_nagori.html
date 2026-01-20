@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">traces; remnants; lingering effects; parting</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">traces; remnants; lingering effects</span>
-                    <div class="definition-explanation">What remains after something has passed or ended; vestiges of the past.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">traces; remnants; lingering effects</span>
+                        <div class="definition-explanation">What remains after something has passed or ended; vestiges of the past.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">reluctance to part; attachment at parting</span>
-                    <div class="definition-explanation">The feeling of sadness or reluctance when separating from someone or something.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>冬<rp>(</rp><rt>ふゆ</rt><rp>)</rp></ruby>の<ruby>名残<rp>(</rp><rt>なごり</rt><rp>)</rp></ruby>がまだ<ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>っている。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>建物<rp>(</rp><rt>たてもの</rt><rp>)</rp></ruby>には<ruby>昔<rp>(</rp><rt>むかし</rt><rp>)</rp></ruby>の<ruby>名残<rp>(</rp><rt>なごり</rt><rp>)</rp></ruby>がある。</div>
                     <div class="example-english">This building has remnants of the past.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">reluctance to part; attachment at parting</span>
+                        <div class="definition-explanation">The feeling of sadness or reluctance when separating from someone or something.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>名残<rp>(</rp><rt>なごり</rt><rp>)</rp></ruby><ruby>惜<rp>(</rp><rt>お</rt><rp>)</rp></ruby>しいが、そろそろ<ruby>帰<rp>(</rp><rt>かえ</rt><rp>)</rp></ruby>らなければ。</div>
@@ -72,6 +81,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

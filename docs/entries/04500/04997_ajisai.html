@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">hydrangea</span>
-                    <div class="definition-explanation">A flowering shrub with large, rounded clusters of flowers that bloom in various colors including blue, pink, purple, and white.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">hydrangea</span>
+                        <div class="definition-explanation">A flowering shrub with large, rounded clusters of flowers that bloom in various colors including blue, pink, purple, and white.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>紫陽花<rp>(</rp><rt>あじさい</rt><rp>)</rp></ruby>の<ruby>花<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>の<ruby>色<rp>(</rp><rt>いろ</rt><rp>)</rp></ruby>は<ruby>土<rp>(</rp><rt>つち</rt><rp>)</rp></ruby>の<ruby>酸性度<rp>(</rp><rt>さんせいど</rt><rp>)</rp></ruby>で<ruby>変<rp>(</rp><rt>か</rt><rp>)</rp></ruby>わる。</div>
                     <div class="example-english">The color of hydrangea flowers changes depending on the soil&#x27;s acidity.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>鎌倉<rp>(</rp><rt>かまくら</rt><rp>)</rp></ruby>は<ruby>紫陽花<rp>(</rp><rt>あじさい</rt><rp>)</rp></ruby>の<ruby>名所<rp>(</rp><rt>めいしょ</rt><rp>)</rp></ruby>として<ruby>有名<rp>(</rp><rt>ゆうめい</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">Kamakura is famous as a hydrangea viewing spot.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

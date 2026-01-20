@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,25 @@
             <div class="entry-gloss">presumption, estimation</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">presumption, assumption</span>
-                    <div class="definition-explanation">To assume or suppose something to be true based on available evidence or reasoning.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">estimation, estimate</span>
-                    <div class="definition-explanation">To calculate or judge an approximate value or amount.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">presumption, assumption</span>
+                        <div class="definition-explanation">To assume or suppose something to be true based on available evidence or reasoning.</div>
+                    </div>
             
 </div>
-<div class="examples">
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">estimation, estimate</span>
+                        <div class="definition-explanation">To calculate or judge an approximate value or amount.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>被害額<rp>(</rp><rt>ひがいがく</rt><rp>)</rp></ruby>は<ruby>約<rp>(</rp><rt>やく</rt><rp>)</rp></ruby>1<ruby>億<rp>(</rp><rt>おく</rt><rp>)</rp></ruby><ruby>円<rp>(</rp><rt>えん</rt><rp>)</rp></ruby>と<ruby>推定<rp>(</rp><rt>すいてい</rt><rp>)</rp></ruby>されている。</div>
@@ -58,20 +66,20 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>推定<rp>(</rp><rt>すいてい</rt><rp>)</rp></ruby><ruby>年齢<rp>(</rp><rt>ねんれい</rt><rp>)</rp></ruby>は30<ruby>歳<rp>(</rp><rt>さい</rt><rp>)</rp></ruby><ruby>前後<rp>(</rp><rt>ぜんご</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">The estimated age is around 30 years old.</div>
                     <div class="example-notes">推定年齢 = estimated age</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>遺跡<rp>(</rp><rt>いせき</rt><rp>)</rp></ruby>は<ruby>推定<rp>(</rp><rt>すいてい</rt><rp>)</rp></ruby>で<ruby>約<rp>(</rp><rt>やく</rt><rp>)</rp></ruby>2000<ruby>年前<rp>(</rp><rt>ねんまえ</rt><rp>)</rp></ruby>のものだ。</div>
                     <div class="example-english">This ruin is estimated to be from about 2000 years ago.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +125,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">four-part narrative structure</span>
-                    <div class="definition-explanation">A traditional East Asian narrative structure consisting of four parts: <ruby>起<rp>(</rp><rt>き</rt><rp>)</rp></ruby> (introduction), <ruby>承<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby> (development), <ruby>転<rp>(</rp><rt>てん</rt><rp>)</rp></ruby> (twist/turn), and <ruby>結<rp>(</rp><rt>けつ</rt><rp>)</rp></ruby> (conclusion). Used in storytelling, essays, and presentations.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">four-part narrative structure</span>
+                        <div class="definition-explanation">A traditional East Asian narrative structure consisting of four parts: <ruby>起<rp>(</rp><rt>き</rt><rp>)</rp></ruby> (introduction), <ruby>承<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby> (development), <ruby>転<rp>(</rp><rt>てん</rt><rp>)</rp></ruby> (twist/turn), and <ruby>結<rp>(</rp><rt>けつ</rt><rp>)</rp></ruby> (conclusion). Used in storytelling, essays, and presentations.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">プレゼンテーションは<ruby>起承転結<rp>(</rp><rt>きしょうてんけつ</rt><rp>)</rp></ruby>を<ruby>意識<rp>(</rp><rt>いしき</rt><rp>)</rp></ruby>して<ruby>組<rp>(</rp><rt>く</rt><rp>)</rp></ruby>み<ruby>立<rp>(</rp><rt>た</rt><rp>)</rp></ruby>てよう。</div>
                     <div class="example-english">Let&#x27;s structure the presentation with the four-part narrative in mind.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>話<rp>(</rp><rt>はなし</rt><rp>)</rp></ruby>に<ruby>起承転結<rp>(</rp><rt>きしょうてんけつ</rt><rp>)</rp></ruby>がないと<ruby>分<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>かりにくい。</div>
                     <div class="example-english">Without proper narrative structure, a story is hard to follow.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

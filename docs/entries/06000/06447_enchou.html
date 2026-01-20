@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">extension, prolongation</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">extension of time or period</span>
-                    <div class="definition-explanation">Extending a deadline, contract, subscription, or time limit beyond its original end date.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">extension of time or period</span>
+                        <div class="definition-explanation">Extending a deadline, contract, subscription, or time limit beyond its original end date.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">extension of length</span>
-                    <div class="definition-explanation">Making something physically longer, or the total length of something.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">overtime (sports)</span>
-                    <div class="definition-explanation">Extra time played in sports when a game is tied at the end of regulation.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>契約<rp>(</rp><rt>けいやく</rt><rp>)</rp></ruby>を<ruby>一年<rp>(</rp><rt>いちねん</rt><rp>)</rp></ruby><ruby>延長<rp>(</rp><rt>えんちょう</rt><rp>)</rp></ruby>した。</div>
@@ -65,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>図書館<rp>(</rp><rt>としょかん</rt><rp>)</rp></ruby>の<ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>の<ruby>貸出<rp>(</rp><rt>かしだし</rt><rp>)</rp></ruby><ruby>期間<rp>(</rp><rt>きかん</rt><rp>)</rp></ruby>を<ruby>延長<rp>(</rp><rt>えんちょう</rt><rp>)</rp></ruby>できますか。</div>
                     <div class="example-english">Can I extend the borrowing period for the library book?</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">extension of length</span>
+                        <div class="definition-explanation">Making something physically longer, or the total length of something.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>道路<rp>(</rp><rt>どうろ</rt><rp>)</rp></ruby>の<ruby>延長<rp>(</rp><rt>えんちょう</rt><rp>)</rp></ruby>は<ruby>約<rp>(</rp><rt>やく</rt><rp>)</rp></ruby><ruby>10<rp>(</rp><rt>じゅっ</rt><rp>)</rp></ruby>キロだ。</div>
@@ -79,6 +81,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">overtime (sports)</span>
+                        <div class="definition-explanation">Extra time played in sports when a game is tied at the end of regulation.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>試合<rp>(</rp><rt>しあい</rt><rp>)</rp></ruby>は<ruby>延長<rp>(</rp><rt>えんちょう</rt><rp>)</rp></ruby>に<ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>った。</div>
@@ -86,6 +99,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -149,6 +164,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

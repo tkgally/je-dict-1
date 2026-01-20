@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,37 +40,16 @@
             <div class="entry-gloss">to do, to make</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to do, to perform</span>
-                    <div class="definition-explanation">The most general verb for doing or performing actions. Often combined with nouns to create compound verbs: 勉強する (to study), 仕事する (to work), 料理する (to cook).</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to do, to perform</span>
+                        <div class="definition-explanation">The most general verb for doing or performing actions. Often combined with nouns to create compound verbs: 勉強する (to study), 仕事する (to work), 料理する (to cook).</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to make, to render</span>
-                    <div class="definition-explanation">Used with adjective stems or nouns to mean &#x27;make something (into)&#x27; or &#x27;render something.&#x27; きれいにする (to make clean), 静かにする (to make quiet/be quiet).</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">to wear, to put on (accessories)</span>
-                    <div class="definition-explanation">Used for accessories like ties, watches, necklaces. ネクタイをする (to wear a tie).</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">4.</span>
-                    <span class="definition-gloss">to cost, to be priced at</span>
-                    <div class="definition-explanation">Used to state prices. この本は千円する (This book costs 1000 yen).</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">何をしていますか。</div>
@@ -72,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">日本語を勉強しています。</div>
                     <div class="example-english">I am studying Japanese.</div>
                     <div class="example-notes">勉強する (to study)</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to make, to render</span>
+                        <div class="definition-explanation">Used with adjective stems or nouns to mean &#x27;make something (into)&#x27; or &#x27;render something.&#x27; きれいにする (to make clean), 静かにする (to make quiet/be quiet).</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">部屋をきれいにしてください。</div>
@@ -86,6 +81,26 @@
                     <div class="example-notes">〜にする pattern</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">to wear, to put on (accessories)</span>
+                        <div class="definition-explanation">Used for accessories like ties, watches, necklaces. ネクタイをする (to wear a tie).</div>
+                    </div>
+            
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">4.</span>
+                        <span class="definition-gloss">to cost, to be priced at</span>
+                        <div class="definition-explanation">Used to state prices. この本は千円する (This book costs 1000 yen).</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">このバッグはいくらしますか。</div>
@@ -93,6 +108,8 @@
                     <div class="example-notes">Price usage</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -148,6 +165,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

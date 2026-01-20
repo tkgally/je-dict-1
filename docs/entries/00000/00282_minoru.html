@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to bear fruit; to ripen; to come to fruition</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to bear fruit; to ripen</span>
-                    <div class="definition-explanation">For plants to produce mature fruit or grain.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to bear fruit; to ripen</span>
+                        <div class="definition-explanation">For plants to produce mature fruit or grain.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to come to fruition; to produce results</span>
-                    <div class="definition-explanation">For efforts or plans to yield positive outcomes.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>秋<rp>(</rp><rt>あき</rt><rp>)</rp></ruby>になると<ruby>稲<rp>(</rp><rt>いね</rt><rp>)</rp></ruby>が<ruby>実<rp>(</rp><rt>みの</rt><rp>)</rp></ruby>る。</div>
@@ -58,6 +57,23 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>実<rp>(</rp><rt>みの</rt><rp>)</rp></ruby>るほど<ruby>頭<rp>(</rp><rt>こうべ</rt><rp>)</rp></ruby>を<ruby>垂<rp>(</rp><rt>た</rt><rp>)</rp></ruby>れる<ruby>稲穂<rp>(</rp><rt>いなほ</rt><rp>)</rp></ruby>かな。</div>
+                    <div class="example-english">The more the rice ripens, the more it bows its head.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to come to fruition; to produce results</span>
+                        <div class="definition-explanation">For efforts or plans to yield positive outcomes.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>長年<rp>(</rp><rt>ながねん</rt><rp>)</rp></ruby>の<ruby>努力<rp>(</rp><rt>どりょく</rt><rp>)</rp></ruby>がついに<ruby>実<rp>(</rp><rt>みの</rt><rp>)</rp></ruby>った。</div>
@@ -65,13 +81,8 @@
                     
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>実<rp>(</rp><rt>みの</rt><rp>)</rp></ruby>るほど<ruby>頭<rp>(</rp><rt>こうべ</rt><rp>)</rp></ruby>を<ruby>垂<rp>(</rp><rt>た</rt><rp>)</rp></ruby>れる<ruby>稲穂<rp>(</rp><rt>いなほ</rt><rp>)</rp></ruby>かな。</div>
-                    <div class="example-english">The more the rice ripens, the more it bows its head.</div>
-                    
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

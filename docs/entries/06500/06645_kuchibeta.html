@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">poor at expressing oneself; inarticulate; not good with words</span>
-                    <div class="definition-explanation">Unable to express one&#x27;s thoughts or feelings smoothly through speech. The person may know what they want to say but struggles to put it into words effectively.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">poor at expressing oneself; inarticulate; not good with words</span>
+                        <div class="definition-explanation">Unable to express one&#x27;s thoughts or feelings smoothly through speech. The person may know what they want to say but struggles to put it into words effectively.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>口下手<rp>(</rp><rt>くちべた</rt><rp>)</rp></ruby>だけど、<ruby>行動<rp>(</rp><rt>こうどう</rt><rp>)</rp></ruby>で<ruby>気持<rp>(</rp><rt>きも</rt><rp>)</rp></ruby>ちを<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>せてくれる。</div>
                     <div class="example-english">He&#x27;s not good with words, but he shows his feelings through actions.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>口下手<rp>(</rp><rt>くちべた</rt><rp>)</rp></ruby>な<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>には、<ruby>手紙<rp>(</rp><rt>てがみ</rt><rp>)</rp></ruby>で<ruby>伝<rp>(</rp><rt>つた</rt><rp>)</rp></ruby>えるほうが<ruby>楽<rp>(</rp><rt>らく</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">For someone inarticulate like me, it&#x27;s easier to communicate through letters.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

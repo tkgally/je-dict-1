@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">energy saving, energy conservation</span>
-                    <div class="definition-explanation">The practice of reducing energy consumption and using energy more efficiently. Shortened from <ruby>省<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>エネルギー.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">energy saving, energy conservation</span>
+                        <div class="definition-explanation">The practice of reducing energy consumption and using energy more efficiently. Shortened from <ruby>省<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>エネルギー.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>夏<rp>(</rp><rt>なつ</rt><rp>)</rp></ruby>は<ruby>省<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>エネのため<ruby>冷房<rp>(</rp><rt>れいぼう</rt><rp>)</rp></ruby>を28<ruby>度<rp>(</rp><rt>ど</rt><rp>)</rp></ruby>に<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>する。</div>
                     <div class="example-english">In summer, I set the AC to 28 degrees to save energy.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>省<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>エネ<ruby>意識<rp>(</rp><rt>いしき</rt><rp>)</rp></ruby>が<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>まっている。</div>
                     <div class="example-english">Energy conservation awareness is increasing.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>ビル}は{省<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>エネ<ruby>設計<rp>(</rp><rt>せっけい</rt><rp>)</rp></ruby>になっている。</div>
                     <div class="example-english">This building has an energy-efficient design.</div>
@@ -117,6 +120,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

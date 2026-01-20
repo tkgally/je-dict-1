@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">devastating, catastrophic, annihilating</span>
-                    <div class="definition-explanation">Causing complete destruction or ruin; so severe as to make recovery extremely difficult.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">devastating, catastrophic, annihilating</span>
+                        <div class="definition-explanation">Causing complete destruction or ruin; so severe as to make recovery extremely difficult.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>経済<rp>(</rp><rt>けいざい</rt><rp>)</rp></ruby>に<ruby>壊滅的<rp>(</rp><rt>かいめつてき</rt><rp>)</rp></ruby>な<ruby>打撃<rp>(</rp><rt>だげき</rt><rp>)</rp></ruby>を<ruby>与<rp>(</rp><rt>あた</rt><rp>)</rp></ruby>えた。</div>
                     <div class="example-english">It dealt a catastrophic blow to the economy.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>壊滅的<rp>(</rp><rt>かいめつてき</rt><rp>)</rp></ruby>な<ruby>状況<rp>(</rp><rt>じょうきょう</rt><rp>)</rp></ruby>から<ruby>復興<rp>(</rp><rt>ふっこう</rt><rp>)</rp></ruby>した。</div>
                     <div class="example-english">They recovered from a devastating situation.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>敵<rp>(</rp><rt>てき</rt><rp>)</rp></ruby><ruby>軍<rp>(</rp><rt>ぐん</rt><rp>)</rp></ruby>に<ruby>壊滅的<rp>(</rp><rt>かいめつてき</rt><rp>)</rp></ruby>な<ruby>敗北<rp>(</rp><rt>はいぼく</rt><rp>)</rp></ruby>を<ruby>喫<rp>(</rp><rt>きっ</rt><rp>)</rp></ruby>した。</div>
                     <div class="example-english">They suffered a crushing defeat at the hands of the enemy.</div>
@@ -117,6 +120,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

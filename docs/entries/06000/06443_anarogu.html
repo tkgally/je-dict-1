@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">analog; old-fashioned, non-digital</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">analog</span>
-                    <div class="definition-explanation">Relating to technology that uses continuous signals rather than digital discrete values. Opposite of digital.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">analog</span>
+                        <div class="definition-explanation">Relating to technology that uses continuous signals rather than digital discrete values. Opposite of digital.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">old-fashioned, non-digital</span>
-                    <div class="definition-explanation">Describes methods, people, or approaches that are traditional, manual, or not technologically advanced. Often used self-deprecatingly.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">アナログ<ruby>時計<rp>(</rp><rt>どけい</rt><rp>)</rp></ruby>のほうが<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きだ。</div>
@@ -58,6 +57,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">old-fashioned, non-digital</span>
+                        <div class="definition-explanation">Describes methods, people, or approaches that are traditional, manual, or not technologically advanced. Often used self-deprecatingly.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>はアナログ<ruby>人間<rp>(</rp><rt>にんげん</rt><rp>)</rp></ruby>だから、スマホがうまく<ruby>使<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>えない。</div>
@@ -65,13 +75,14 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">アナログな<ruby>方法<rp>(</rp><rt>ほうほう</rt><rp>)</rp></ruby>だけど、<ruby>手書<rp>(</rp><rt>てが</rt><rp>)</rp></ruby>きのメモが<ruby>一番<rp>(</rp><rt>いちばん</rt><rp>)</rp></ruby><ruby>確実<rp>(</rp><rt>かくじつ</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">It&#x27;s an old-fashioned method, but handwritten notes are the most reliable.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

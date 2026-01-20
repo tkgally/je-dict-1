@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">plane (woodworking tool)</span>
-                    <div class="definition-explanation">A hand tool used to smooth and flatten wood surfaces by shaving thin layers. The traditional Japanese plane (<ruby>和<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>かんな) is pulled toward the user, unlike Western planes which are pushed.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">plane (woodworking tool)</span>
+                        <div class="definition-explanation">A hand tool used to smooth and flatten wood surfaces by shaving thin layers. The traditional Japanese plane (<ruby>和<rp>(</rp><rt>わ</rt><rp>)</rp></ruby>かんな) is pulled toward the user, unlike Western planes which are pushed.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>職人<rp>(</rp><rt>しょくにん</rt><rp>)</rp></ruby>がかんなを<ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>くと<ruby>薄<rp>(</rp><rt>うす</rt><rp>)</rp></ruby>い<ruby>削<rp>(</rp><rt>けず</rt><rp>)</rp></ruby>り<ruby>屑<rp>(</rp><rt>くず</rt><rp>)</rp></ruby>が<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>る。</div>
                     <div class="example-english">When the craftsman pulls the plane, thin shavings come off.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">かんなの<ruby>刃<rp>(</rp><rt>は</rt><rp>)</rp></ruby>を<ruby>調整<rp>(</rp><rt>ちょうせい</rt><rp>)</rp></ruby>するのは<ruby>難<rp>(</rp><rt>むずか</rt><rp>)</rp></ruby>しい。</div>
                     <div class="example-english">Adjusting the plane blade is difficult.</div>
@@ -128,6 +132,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

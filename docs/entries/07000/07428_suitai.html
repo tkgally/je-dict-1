@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">decline; deterioration; decay</span>
-                    <div class="definition-explanation">A gradual weakening, decreasing, or deterioration in power, prosperity, importance, or vitality. Used for civilizations, industries, health, and other things that were once stronger or more prosperous.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">decline; deterioration; decay</span>
+                        <div class="definition-explanation">A gradual weakening, decreasing, or deterioration in power, prosperity, importance, or vitality. Used for civilizations, industries, health, and other things that were once stronger or more prosperous.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>地方<rp>(</rp><rt>ちほう</rt><rp>)</rp></ruby><ruby>都市<rp>(</rp><rt>とし</rt><rp>)</rp></ruby>の<ruby>衰退<rp>(</rp><rt>すいたい</rt><rp>)</rp></ruby>が<ruby>問題<rp>(</rp><rt>もんだい</rt><rp>)</rp></ruby>になっている。</div>
                     <div class="example-english">The decline of regional cities has become an issue.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">その<ruby>産業<rp>(</rp><rt>さんぎょう</rt><rp>)</rp></ruby>は<ruby>衰退<rp>(</rp><rt>すいたい</rt><rp>)</rp></ruby>の<ruby>一途<rp>(</rp><rt>いっと</rt><rp>)</rp></ruby>を<ruby>辿<rp>(</rp><rt>たど</rt><rp>)</rp></ruby>っている。</div>
                     <div class="example-english">That industry is on a steady path of decline.</div>
@@ -118,6 +122,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

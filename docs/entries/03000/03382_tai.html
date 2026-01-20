@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,37 +40,16 @@
             <div class="entry-gloss">pair, versus, against</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">pair, couple, set</span>
-                    <div class="definition-explanation">Two things that form a matching set or are meant to go together.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">pair, couple, set</span>
+                        <div class="definition-explanation">Two things that form a matching set or are meant to go together.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">versus, against</span>
-                    <div class="definition-explanation">Used to indicate opposition or comparison between two sides, as in sports scores or matchups.</div>
-                </div>
-            
-</div>
-<div class="examples">
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>日本<rp>(</rp><rt>にほん</rt><rp>)</rp></ruby><ruby>対<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>ブラジルの<ruby>試合<rp>(</rp><rt>しあい</rt><rp>)</rp></ruby>を<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>た。</div>
-                    <div class="example-english">I watched the Japan vs. Brazil match.</div>
-                    <div class="example-notes">Sense 2: versus in sports</div>
-                </div>
-            
-
-                <div class="example-item">
-                    <div class="example-japanese">3<ruby>対<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>2で<ruby>勝<rp>(</rp><rt>か</rt><rp>)</rp></ruby>った。</div>
-                    <div class="example-english">We won 3 to 2.</div>
-                    <div class="example-notes">Sense 2: score format</div>
-                </div>
-            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>花瓶<rp>(</rp><rt>かびん</rt><rp>)</rp></ruby>は<ruby>一対<rp>(</rp><rt>いっつい</rt><rp>)</rp></ruby>で<ruby>売<rp>(</rp><rt>う</rt><rp>)</rp></ruby>られている。</div>
@@ -72,6 +57,32 @@
                     <div class="example-notes">Sense 1: 一対 = a pair</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">versus, against</span>
+                        <div class="definition-explanation">Used to indicate opposition or comparison between two sides, as in sports scores or matchups.</div>
+                    </div>
+            
+<div class="sense-examples examples">
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>日本<rp>(</rp><rt>にほん</rt><rp>)</rp></ruby><ruby>対<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>ブラジルの<ruby>試合<rp>(</rp><rt>しあい</rt><rp>)</rp></ruby>を<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>た。</div>
+                    <div class="example-english">I watched the Japan vs. Brazil match.</div>
+                    <div class="example-notes">Sense 2: versus in sports</div>
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese">3<ruby>対<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>2で<ruby>勝<rp>(</rp><rt>か</rt><rp>)</rp></ruby>った。</div>
+                    <div class="example-english">We won 3 to 2.</div>
+                    <div class="example-notes">Sense 2: score format</div>
+                </div>
+            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

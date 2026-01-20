@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to economize, to cut back, to reduce</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to economize, to cut back</span>
-                    <div class="definition-explanation">To reduce expenses or consumption; to live frugally by cutting costs.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to economize, to cut back</span>
+                        <div class="definition-explanation">To reduce expenses or consumption; to live frugally by cutting costs.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to shorten, to trim down</span>
-                    <div class="definition-explanation">To make something shorter or smaller by cutting.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>生活費<rp>(</rp><rt>せいかつひ</rt><rp>)</rp></ruby>を<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>り<ruby>詰<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>めて<ruby>貯金<rp>(</rp><rt>ちょきん</rt><rp>)</rp></ruby>している。</div>
@@ -58,20 +57,29 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>予算<rp>(</rp><rt>よさん</rt><rp>)</rp></ruby>を<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>り<ruby>詰<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>める<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>がある。</div>
                     <div class="example-english">We need to cut the budget.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>食費<rp>(</rp><rt>しょくひ</rt><rp>)</rp></ruby>を<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>り<ruby>詰<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>めた<ruby>生活<rp>(</rp><rt>せいかつ</rt><rp>)</rp></ruby>を<ruby>送<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>っている。</div>
                     <div class="example-english">I&#x27;m living a life with reduced food expenses.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to shorten, to trim down</span>
+                        <div class="definition-explanation">To make something shorter or smaller by cutting.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>原稿<rp>(</rp><rt>げんこう</rt><rp>)</rp></ruby>を<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>り<ruby>詰<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>めて<ruby>規定<rp>(</rp><rt>きてい</rt><rp>)</rp></ruby>の<ruby>字数<rp>(</rp><rt>じすう</rt><rp>)</rp></ruby>に<ruby>収<rp>(</rp><rt>おさ</rt><rp>)</rp></ruby>めた。</div>
@@ -79,6 +87,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -134,6 +144,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

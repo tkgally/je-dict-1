@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">even so, nevertheless, and yet</span>
-                    <div class="definition-explanation">Conjunction expressing contrast or disappointment when reality doesn&#x27;t match expectation, often with emotional overtone.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">even so, nevertheless, and yet</span>
+                        <div class="definition-explanation">Conjunction expressing contrast or disappointment when reality doesn&#x27;t match expectation, often with emotional overtone.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>約束<rp>(</rp><rt>やくそく</rt><rp>)</rp></ruby>したじゃない。それなのに<ruby>来<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>なかったの？</div>
                     <div class="example-english">You promised, didn&#x27;t you? And yet you didn&#x27;t come?</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>のために<ruby>尽<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>くした。それなのに<ruby>裏切<rp>(</rp><rt>うらぎ</rt><rp>)</rp></ruby>られた。</div>
                     <div class="example-english">I devoted myself to him. Even so, I was betrayed.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>注意<rp>(</rp><rt>ちゅうい</rt><rp>)</rp></ruby>したのに。それなのに<ruby>同<rp>(</rp><rt>おな</rt><rp>)</rp></ruby>じミスをした。</div>
                     <div class="example-english">I warned them. Nevertheless, they made the same mistake.</div>
@@ -117,6 +120,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

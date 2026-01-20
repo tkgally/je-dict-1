@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">listening (humble)</span>
-                    <div class="definition-explanation">A humble expression for listening to someone speak. Used when referring to listening to a respected person&#x27;s speech, lecture, or music.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">listening (humble)</span>
+                        <div class="definition-explanation">A humble expression for listening to someone speak. Used when referring to listening to a respected person&#x27;s speech, lecture, or music.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>貴重<rp>(</rp><rt>きちょう</rt><rp>)</rp></ruby>なお<ruby>話<rp>(</rp><rt>はなし</rt><rp>)</rp></ruby>を<ruby>拝聴<rp>(</rp><rt>はいちょう</rt><rp>)</rp></ruby>できて<ruby>光栄<rp>(</rp><rt>こうえい</rt><rp>)</rp></ruby>です。</div>
                     <div class="example-english">It is an honor to be able to hear your valuable words.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">ご<ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>を<ruby>拝聴<rp>(</rp><rt>はいちょう</rt><rp>)</rp></ruby>したいと<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>います。</div>
                     <div class="example-english">I would like to hear your opinion.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>演奏<rp>(</rp><rt>えんそう</rt><rp>)</rp></ruby>を<ruby>拝聴<rp>(</rp><rt>はいちょう</rt><rp>)</rp></ruby>し、<ruby>感動<rp>(</rp><rt>かんどう</rt><rp>)</rp></ruby>いたしました。</div>
                     <div class="example-english">I was moved by listening to the performance.</div>
@@ -143,6 +146,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

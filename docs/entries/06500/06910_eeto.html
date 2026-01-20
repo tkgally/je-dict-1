@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">um, let me see, well</span>
-                    <div class="definition-explanation">A filler word used when thinking, hesitating, or trying to recall something. Buys time while formulating a response.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">um, let me see, well</span>
+                        <div class="definition-explanation">A filler word used when thinking, hesitating, or trying to recall something. Buys time while formulating a response.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">えーと、<ruby>確<rp>(</rp><rt>たし</rt><rp>)</rp></ruby>か<ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby>だったと<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>います。</div>
                     <div class="example-english">Let me see, I think it was tomorrow.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">えーと、それはちょっと<ruby>難<rp>(</rp><rt>むずか</rt><rp>)</rp></ruby>しいですね。</div>
                     <div class="example-english">Well, that&#x27;s a bit difficult.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">「<ruby>電話番号<rp>(</rp><rt>でんわばんごう</rt><rp>)</rp></ruby>は？」「えーと、090の...」</div>
                     <div class="example-english">&quot;What&#x27;s your phone number?&quot; &quot;Um, it&#x27;s 090...&quot;</div>
@@ -117,6 +120,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

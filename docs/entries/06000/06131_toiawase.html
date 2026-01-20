@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">inquiry; contact</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">inquiry; question; query</span>
-                    <div class="definition-explanation">A request for information, typically addressed to a company, organization, or authority.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">inquiry; question; query</span>
+                        <div class="definition-explanation">A request for information, typically addressed to a company, organization, or authority.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">contacting; reaching out</span>
-                    <div class="definition-explanation">The act of getting in touch with someone for information or assistance.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">ご<ruby>不明<rp>(</rp><rt>ふめい</rt><rp>)</rp></ruby>な<ruby>点<rp>(</rp><rt>てん</rt><rp>)</rp></ruby>は<ruby>お問<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>い<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>わせください。</div>
@@ -58,20 +57,38 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>電話<rp>(</rp><rt>でんわ</rt><rp>)</rp></ruby>で<ruby>問<rp>(</rp><rt>と</rt><rp>)</rp></ruby>い<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>わせる。</div>
                     <div class="example-english">To inquire by phone.</div>
                     
                 </div>
             
+</div>
+</div>
 
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">contacting; reaching out</span>
+                        <div class="definition-explanation">The act of getting in touch with someone for information or assistance.</div>
+                    </div>
+            
+<div class="sense-examples examples">
+
+                <div class="example-item">
+                    <div class="example-japanese">ご<ruby>不明<rp>(</rp><rt>ふめい</rt><rp>)</rp></ruby>な<ruby>点<rp>(</rp><rt>てん</rt><rp>)</rp></ruby>は<ruby>お問<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>い<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>わせください。</div>
+                    <div class="example-english">Please contact us if you have any questions.</div>
+                    
+                </div>
+            
                 <div class="example-item">
                     <div class="example-japanese"><ruby>お問<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>い<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>わせフォームから<ruby>送信<rp>(</rp><rt>そうしん</rt><rp>)</rp></ruby>してください。</div>
                     <div class="example-english">Please submit through the contact form.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +134,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

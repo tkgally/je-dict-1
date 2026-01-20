@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">certainly; surely; without fail; always</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">certainly, surely, definitely</span>
-                    <div class="definition-explanation">Expresses strong certainty that something will happen.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">certainly, surely, definitely</span>
+                        <div class="definition-explanation">Expresses strong certainty that something will happen.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">without fail, always</span>
-                    <div class="definition-explanation">Indicates that something happens every time without exception.</div>
-                </div>
-            
-</div>
-<div class="examples">
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby><ruby>必<rp>(</rp><rt>かなら</rt><rp>)</rp></ruby>ず<ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>てください。</div>
-                    <div class="example-english">Please come tomorrow without fail.</div>
-                    <div class="example-notes">Strong request</div>
-                </div>
-            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>必<rp>(</rp><rt>かなら</rt><rp>)</rp></ruby>ず<ruby>成功<rp>(</rp><rt>せいこう</rt><rp>)</rp></ruby>する。</div>
@@ -65,20 +57,38 @@
                     <div class="example-notes">Expressing determination</div>
                 </div>
             
+</div>
+</div>
 
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">without fail, always</span>
+                        <div class="definition-explanation">Indicates that something happens every time without exception.</div>
+                    </div>
+            
+<div class="sense-examples examples">
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby><ruby>必<rp>(</rp><rt>かなら</rt><rp>)</rp></ruby>ず<ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>てください。</div>
+                    <div class="example-english">Please come tomorrow without fail.</div>
+                    <div class="example-notes">Strong request</div>
+                </div>
+            
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>必<rp>(</rp><rt>かなら</rt><rp>)</rp></ruby>ず<ruby>約束<rp>(</rp><rt>やくそく</rt><rp>)</rp></ruby>を<ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。</div>
                     <div class="example-english">He always keeps his promises.</div>
                     <div class="example-notes">Describing consistent behavior</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>かける<ruby>前<rp>(</rp><rt>まえ</rt><rp>)</rp></ruby>に<ruby>必<rp>(</rp><rt>かなら</rt><rp>)</rp></ruby>ず<ruby>戸締<rp>(</rp><rt>とじ</rt><rp>)</rp></ruby>まりをする。</div>
                     <div class="example-english">I always lock up before going out.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -134,6 +144,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

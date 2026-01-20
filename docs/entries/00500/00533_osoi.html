@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">slow, late</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">slow</span>
-                    <div class="definition-explanation">Describing something that moves or progresses at a low speed. The opposite of <ruby>速<rp>(</rp><rt>はや</rt><rp>)</rp></ruby>い (hayai, fast).</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">slow</span>
+                        <div class="definition-explanation">Describing something that moves or progresses at a low speed. The opposite of <ruby>速<rp>(</rp><rt>はや</rt><rp>)</rp></ruby>い (hayai, fast).</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">late</span>
-                    <div class="definition-explanation">Describing something that happens after the expected or scheduled time. Also used for late hours of the day/night.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">このバスは<ruby>遅<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>いですね。</div>
@@ -58,6 +57,17 @@
                     <div class="example-notes">Sense 1: slow speed</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">late</span>
+                        <div class="definition-explanation">Describing something that happens after the expected or scheduled time. Also used for late hours of the day/night.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>遅<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>くなってすみません。</div>
@@ -65,13 +75,14 @@
                     <div class="example-notes">Sense 2: late arrival</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby><ruby>遅<rp>(</rp><rt>おそ</rt><rp>)</rp></ruby>くまで<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>しました。</div>
                     <div class="example-english">I studied until late at night.</div>
                     <div class="example-notes">Sense 2: late hours</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();
