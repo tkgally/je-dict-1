@@ -1,6 +1,6 @@
 # Continue Dictionary Polishing
 
-Continue the systematic polishing of dictionary entries. Review approximately 200 entries in this session, following the full-review task.
+Continue the systematic polishing of dictionary entries. Review approximately 100 entries in this session, following the full-review task.
 
 ## Quick Context
 
@@ -46,7 +46,7 @@ Read the most recent session log in `polishing/sessions/` to get the exact conti
 
 ## Key Reminders
 
-- **Target: ~200 entries** per session (adjustable based on issue density)
+- **Target: ~100 entries** per session (adjustable based on issue density)
 - **Update timestamps**: Use `python3 build/get_timestamp.py` when modifying entries
 - **Track all changes**: Record every modification in your session log
 - **Cross-reference targets**: If a reference target doesn't exist, add to candidates:
