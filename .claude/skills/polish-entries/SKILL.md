@@ -88,7 +88,7 @@ At session end, update:
 3. **queue.json**: Remove reviewed entries, add flagged entries
 4. **sessions/**: Create session log file
 
-### Phase 4: Validate and Summarize
+### Phase 4: Validate, Build, and Summarize
 
 ```bash
 # Run validation
@@ -97,6 +97,9 @@ python3 build/validate_tags.py
 
 # Update indexes if entries changed
 python3 build/update_indexes.py
+
+# Build static website so user can review changes
+python3 build/build_flat.py
 ```
 
 Provide summary to user including:

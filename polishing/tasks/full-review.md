@@ -132,6 +132,11 @@ After each batch:
 
 4. Create/update session log in `sessions/`
 
+5. Build static website for review:
+   ```bash
+   python3 build/build_flat.py
+   ```
+
 ## Session Summary
 
 At the end of each session, provide a summary including:
