@@ -1,0 +1,58 @@
+{
+  "id": "07496_bureekaa",
+  "headword": "ブレーカー",
+  "reading": "ぶれーかー",
+  "part_of_speech": "noun",
+  "gloss": "circuit breaker; breaker",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "circuit breaker; breaker",
+      "explanation": "A safety device that automatically interrupts electrical flow when it detects an overload or short circuit. Located in the breaker box/electrical panel of buildings."
+    }
+  ],
+  "examples": [
+    {
+      "id": "07496_bureekaa_ex1",
+      "japanese": "ブレーカーが{落|お}ちた。",
+      "english": "The breaker tripped.",
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "07496_bureekaa_ex2",
+      "japanese": "ブレーカーを{上|あ}げてください。",
+      "english": "Please flip the breaker back on.",
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "07496_bureekaa_ex3",
+      "japanese": "エアコンとドライヤーを{同時|どうじ}に{使|つか}うとブレーカーが{落|お}ちる。",
+      "english": "The breaker trips if you use the air conditioner and hair dryer at the same time.",
+      "has_audio": false,
+      "sense_numbers": [1]
+    }
+  ],
+  "notes": "LOANWORD:\nFrom English \"breaker\" (short for circuit breaker)\n\nHOW IT WORKS:\nブレーカー automatically \"trips\" ({落|お}ちる) when:\n- Too many appliances draw power simultaneously\n- {過電流|かでんりゅう} - overcurrent detected\n- {漏電|ろうでん} - electrical leak detected\n- {短絡|たんらく}/ショート - short circuit occurs\n\nCOMMON EXPRESSIONS:\n・ブレーカーが{落|お}ちる - breaker trips/goes off\n・ブレーカーを{上|あ}げる - to flip breaker back on\n・ブレーカーを{下|さ}げる - to turn breaker off\n・ブレーカーを{確認|かくにん}する - to check the breaker\n\nTYPES IN JAPANESE HOMES:\n・{漏電|ろうでん}ブレーカー - ground fault breaker (main)\n・{安全|あんぜん}ブレーカー - safety breaker (individual circuits)\n・アンペアブレーカー - amperage breaker (contract capacity)\n\nTROUBLESHOOTING:\nIf ブレーカー keeps tripping:\n1. Reduce number of appliances in use\n2. Check for damaged cords\n3. Call an electrician if problem persists",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ろうでん",
+      "headword": "{漏電|ろうでん}",
+      "label": "electrical leak"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-20T05:43:45Z",
+    "modified": "2026-01-20T05:43:45Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": ["noun"],
+      "formality": "neutral",
+      "semantic": ["infrastructure", "electrical"],
+      "domain": ["technical"]
+    }
+  }
+}
