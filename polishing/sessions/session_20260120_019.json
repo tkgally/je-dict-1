@@ -1,0 +1,49 @@
+{
+  "session_id": "20260120_019",
+  "started": "2026-01-20T09:20:00Z",
+  "ended": "2026-01-20T09:38:00Z",
+  "task_type": "full-review",
+  "entries_range": "02506-02605",
+  "entries_reviewed": 100,
+  "entries_modified": 3,
+
+  "changes": [
+    {
+      "entry_id": "02513_rikutsu",
+      "type": "metadata_fix",
+      "description": "Fixed furigana formatting error in notes (抜き was missing opening brace). Changed formality from 'formal' to 'neutral' - 理屈 is a common everyday word, not formal/academic. Removed 'academic' domain tag."
+    },
+    {
+      "entry_id": "02522_shiokarai",
+      "type": "metadata_fix",
+      "description": "Removed contradictory 'colloquial' domain tag. Entry had formal+literary style with colloquial domain which was inconsistent."
+    },
+    {
+      "entry_id": "02544_gakusha",
+      "type": "tag_fix",
+      "description": "Changed semantic tag from 'general' to 'occupation' - 学者 is a profession/occupation."
+    }
+  ],
+
+  "issues_found": [
+    {
+      "entry_id": "02534_oyoso",
+      "type": "missing_target",
+      "description": "Cross-reference for 約 (やく) is missing target_id. No entry exists for 約 yet. Cannot add to candidates due to reading collision with 焼く.",
+      "severity": "low",
+      "status": "noted"
+    }
+  ],
+
+  "patterns_observed": [
+    "Entries in this range (02506-02605) are generally well-formed with good notes and examples",
+    "Semantic tags occasionally need refinement (e.g., occupation vs general)",
+    "Some formality/domain tag combinations were inconsistent"
+  ],
+
+  "continuation": {
+    "next_entry": "02606",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue full-review from entry 02606 onwards. The 02500 range entries are generally good quality."
+  }
+}
