@@ -1,0 +1,36 @@
+{
+  "session_id": "20260120_022",
+  "started": "2026-01-20T12:00:00Z",
+  "ended": "2026-01-20T12:05:00Z",
+  "task_type": "full-review",
+  "entries_range": "02626-02635",
+  "entries_reviewed": 10,
+  "entries_modified": 2,
+
+  "changes": [
+    {
+      "entry_id": "02626_oyogi",
+      "type": "metadata_fix",
+      "description": "Fixed formality from 'formal' to 'neutral'. 泳ぎ is an everyday word."
+    },
+    {
+      "entry_id": "02627_gaikou",
+      "type": "tag_fix",
+      "description": "Fixed semantic tags from 'education, furniture, occupation' to 'work'. 外交 is about diplomacy."
+    }
+  ],
+
+  "issues_found": [],
+
+  "patterns_observed": [
+    "Entries 02626-02635 are generally good quality",
+    "Occasional formality mismatches continue (everyday words marked formal)",
+    "Semantic tags like 'furniture' still appear incorrectly on unrelated entries"
+  ],
+
+  "continuation": {
+    "next_entry": "02636",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue full-review from entry 02636 onwards."
+  }
+}
