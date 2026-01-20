@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About the TKG Japanese-English Learner's Dictionary (TKGJE)">
+    <title>About - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="advanced.html" class="nav-link">Advanced</a>
+        <a href="browse.html" class="nav-link">Browse</a>
+        <a href="recent.html" class="nav-link">Recent</a>
+        <a href="random.html" class="nav-link">Random</a>
+        <a href="pending.html" class="nav-link">Pending</a>
+        <a href="about.html" class="nav-link">About</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="about-page">
+    <h1>About the TKG Japanese-English Learner's Dictionary</h1>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <h3>Purpose and Goals</h3>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h3>Target Audience</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </section>
+
+    <section>
+        <h2>Dictionary Structure</h2>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+        <h3>Vocabulary Tiers</h3>
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+        <h3>Entry Format</h3>
+        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+    </section>
+
+    <section>
+        <h2>Contact and Feedback</h2>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+
+        <h3>How to Contribute</h3>
+        <p>Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+
+        <h3>Acknowledgments</h3>
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+    </section>
+</main>
+
+<footer>
+    <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
+</footer>
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -122,11 +122,12 @@ def generate_nav_header(relative_path: str = '') -> str:
     return f'''<header class="nav-header">
     <nav class="nav-links">
         <a href="{base}index.html" class="nav-link">Home</a>
-        <a href="{base}search.html" class="nav-link">Search</a>
+        <a href="{base}advanced.html" class="nav-link">Advanced</a>
         <a href="{base}browse.html" class="nav-link">Browse</a>
         <a href="{base}recent.html" class="nav-link">Recent</a>
         <a href="{base}random.html" class="nav-link">Random</a>
         <a href="{base}pending.html" class="nav-link">Pending</a>
+        <a href="{base}about.html" class="nav-link">About</a>
     </nav>
     <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
         <span class="furigana-icon">振</span>
@@ -166,14 +167,14 @@ def generate_furigana_script() -> str:
 
 def generate_html_head(title: str, relative_path: str = '', description: str = '') -> str:
     """Generate HTML head section."""
-    desc = description or 'Japanese-English learner\'s dictionary with detailed explanations and examples'
+    desc = description or 'TKG Japanese-English Learner\'s Dictionary (TKGJE) - An explanatory dictionary for learners of Japanese'
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{html.escape(desc)}">
-    <title>{html.escape(title)} - Japanese-English Dictionary</title>
+    <title>{html.escape(title)} - TKG Japanese-English Learner's Dictionary</title>
     <link rel="stylesheet" href="{relative_path}styles.css">
 </head>'''
 
@@ -211,7 +212,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     # Definitions
     definitions = entry.get('definitions', [])
     if definitions:
-        html_parts.append('<div class="definitions"><h2>Definitions</h2>')
+        html_parts.append('<div class="definitions">')
         for defn in definitions:
             sense = defn.get('sense_number', '')
             gloss = defn.get('gloss', '')
@@ -228,7 +229,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     # Examples
     examples = entry.get('examples', [])
     if examples:
-        html_parts.append('<div class="examples"><h2>Examples</h2>')
+        html_parts.append('<div class="examples">')
         for idx, ex in enumerate(examples):
             japanese = ex.get('japanese', '')
             english = ex.get('english', '')
@@ -248,7 +249,6 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     if notes:
         html_parts.append(f'''
             <div class="entry-notes">
-                <h2>Notes</h2>
                 <div class="notes-content">{process_notes_text(notes)}</div>
             </div>
         ''')
@@ -371,7 +371,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     # Footer
     html_parts.append(f'''
         <footer>
-            <p><a href="{relative_path}index.html">Japanese-English Learner's Dictionary</a></p>
+            <p><a href="{relative_path}index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
 
@@ -387,85 +387,51 @@ def generate_index_page(entry_count: int, tier_counts: dict, build_time_jst: str
     basic_count = tier_counts.get('basic', 0)
     core_count = tier_counts.get('core', 0)
     general_count = tier_counts.get('general', 0)
-    unassigned_count = tier_counts.get('unassigned', 0)
 
     return f'''{generate_html_head("Home")}
 <body>
 {generate_nav_header()}
 <main class="home-page">
     <div class="hero">
-        <h1>Japanese-English Learner's Dictionary</h1>
+        <h1>TKG Japanese-English Learner's Dictionary</h1>
         <p class="subtitle">An explanatory dictionary for learners of Japanese</p>
     </div>
 
+    <section class="search-section">
+        <div class="search-form">
+            <input type="text" id="search-input" placeholder="Search Japanese, English, or romaji..." autocomplete="off">
+            <button type="button" id="search-button">Search</button>
+        </div>
+
+        <div class="search-options">
+            <label><input type="radio" name="search-type" value="auto" checked> Auto-detect</label>
+            <label><input type="radio" name="search-type" value="japanese"> Japanese</label>
+            <label><input type="radio" name="search-type" value="english"> English</label>
+            <label><input type="radio" name="search-type" value="romaji"> Romaji</label>
+        </div>
+
+        <div id="results-section" class="results-section" style="display: none;">
+            <h2 id="results-heading">Results</h2>
+            <div id="results-list" class="results-list"></div>
+        </div>
+
+        <noscript>
+            <div class="noscript-notice">
+                <p>JavaScript is required for the search feature. You can still <a href="browse.html">browse entries</a> by kana row.</p>
+            </div>
+        </noscript>
+    </section>
+
     <section class="intro">
-        <h2>About This Dictionary</h2>
-        <p>This dictionary is designed for learners of Japanese as a second language.</p>
-
-        <p>Each entry includes:</p>
-        <ul>
-            <li><strong>Explanatory definitions</strong> that go beyond simple glosses</li>
-            <li><strong>Natural example sentences</strong> optimized for learning</li>
-            <li><strong>Usage notes</strong> covering grammar, register, and common patterns</li>
-            <li><strong>Furigana readings</strong> for all kanji</li>
-        </ul>
-    </section>
-
-    <section class="stats-section">
-        <h2>Dictionary Statistics</h2>
-        <div class="stats-grid">
-            <div class="stat-item">
-                <span class="stat-number">{entry_count:,}</span>
-                <span class="stat-label">Entries</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">{basic_count:,}</span>
-                <span class="stat-label">Basic</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">{core_count:,}</span>
-                <span class="stat-label">Core</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">{general_count:,}</span>
-                <span class="stat-label">General</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">{unassigned_count:,}</span>
-                <span class="stat-label">Unassigned</span>
-            </div>
-        </div>
-    </section>
-
-    <section class="navigation-section">
-        <h2>Explore the Dictionary</h2>
-        <div class="nav-cards">
-            <a href="search.html" class="nav-card">
-                <h3>Search</h3>
-                <p>Look up words in Japanese, English, or romaji</p>
-            </a>
-            <a href="browse.html" class="nav-card">
-                <h3>Browse</h3>
-                <p>Explore entries by kana row</p>
-            </a>
-            <a href="recent.html" class="nav-card">
-                <h3>Recent</h3>
-                <p>View recently added or revised entries</p>
-            </a>
-            <a href="random.html" class="nav-card">
-                <h3>Random</h3>
-                <p>Discover entries at random</p>
-            </a>
-            <a href="pending.html" class="nav-card">
-                <h3>Pending</h3>
-                <p>View candidate words awaiting entry creation</p>
-            </a>
-        </div>
+        <p>The TKG Japanese-English Learner's Dictionary (TKGJE) is an explanatory dictionary designed for learners of Japanese as a second language. It currently contains {entry_count:,} entries organized into three vocabulary tiers: {basic_count:,} basic words for beginners, {core_count:,} core vocabulary for intermediate learners, and {general_count:,} general vocabulary for advanced study. Each entry includes explanatory definitions that go beyond simple glosses, natural example sentences optimized for learning, usage notes covering grammar, register, and common patterns, and furigana readings for all kanji. The dictionary is under active development.</p>
     </section>
 </main>
 
+<script src="search-index.js"></script>
+<script src="search.js"></script>
+
 <footer>
-    <p>Japanese-English Learner's Dictionary - Under Development</p>
+    <p>TKG Japanese-English Learner's Dictionary - Under Development</p>
     <p>Last update: {build_time_jst}</p>
 </footer>
 {generate_furigana_script()}
@@ -955,16 +921,16 @@ def generate_tag_search_section() -> str:
 '''
 
 
-def generate_search_page() -> str:
-    """Generate the search.html page."""
+def generate_advanced_page() -> str:
+    """Generate the advanced.html page with tag-based search."""
     # Custom head with tag search styles
     custom_head = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Japanese-English learner&#x27;s dictionary with detailed explanations and examples">
-    <title>Search - Japanese-English Dictionary</title>
+    <meta name="description" content="TKG Japanese-English Learner&#x27;s Dictionary - Advanced tag-based search">
+    <title>Advanced Search - TKG Japanese-English Learner's Dictionary</title>
     <link rel="stylesheet" href="styles.css">
 {generate_tag_search_styles()}
 </head>'''
@@ -973,40 +939,22 @@ def generate_search_page() -> str:
 <body>
 {generate_nav_header()}
 <main class="search-page">
-    <h1>Search the Dictionary</h1>
-
-    <div class="search-form">
-        <input type="text" id="search-input" placeholder="Search Japanese, English, or romaji..." autocomplete="off">
-        <button type="button" id="search-button">Search</button>
-    </div>
-
-    <div class="search-options">
-        <label><input type="radio" name="search-type" value="auto" checked> Auto-detect</label>
-        <label><input type="radio" name="search-type" value="japanese"> Japanese</label>
-        <label><input type="radio" name="search-type" value="english"> English</label>
-        <label><input type="radio" name="search-type" value="romaji"> Romaji</label>
-    </div>
-
-    <div id="results-section" class="results-section" style="display: none;">
-        <h2 id="results-heading">Results</h2>
-        <div id="results-list" class="results-list"></div>
-    </div>
+    <h1>Advanced Search</h1>
 
 {generate_tag_search_section()}
 
     <noscript>
         <div class="noscript-notice">
-            <p>JavaScript is required for the search feature. You can still <a href="browse.html">browse entries</a> by kana row.</p>
+            <p>JavaScript is required for the advanced search feature. You can still <a href="browse.html">browse entries</a> by kana row.</p>
         </div>
     </noscript>
 </main>
 
 <script src="search-index.js"></script>
-<script src="search.js"></script>
 <script src="tag-search.js"></script>
 
 <footer>
-    <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
+    <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
 </footer>
 {generate_furigana_script()}
 </body>
@@ -1580,7 +1528,7 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
     html_parts.append('</main>')
     html_parts.append('''
         <footer>
-            <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
+            <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
@@ -1629,7 +1577,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
     html_parts.append('</main>')
     html_parts.append('''
         <footer>
-            <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
+            <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
@@ -1662,7 +1610,7 @@ def generate_random_page(entries: list) -> str:
     html_parts.append('</main>')
     html_parts.append('''
         <footer>
-            <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
+            <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
@@ -1728,7 +1676,7 @@ def generate_pending_page(candidates: list) -> str:
     html_parts.append('</main>')
     html_parts.append('''
         <footer>
-            <p><a href="index.html">Japanese-English Learner's Dictionary</a></p>
+            <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
@@ -2859,6 +2807,7 @@ def build_flat(project_root: Path) -> int:
     temp_dir = project_root / 'docs_build_temp'
     backup_dir = project_root / 'docs_backup'
     preserved_dirs = {'flat'}  # Directories to preserve
+    preserved_files = {'about.html'}  # Files to preserve (not overwritten by build)
 
     # Clean up any leftover temp/backup dirs from previous failed builds
     if temp_dir.exists():
@@ -2874,6 +2823,11 @@ def build_flat(project_root: Path) -> int:
             src = docs_dir / preserved
             if src.exists():
                 shutil.copytree(src, temp_dir / preserved)
+        # Copy preserved files
+        for preserved_file in preserved_files:
+            src = docs_dir / preserved_file
+            if src.exists():
+                shutil.copy2(src, temp_dir / preserved_file)
 
     # Use temp_dir for all build output (reassign docs_dir for the build)
     original_docs_dir = docs_dir
@@ -2913,13 +2867,13 @@ def build_flat(project_root: Path) -> int:
     # Step 4: Generate navigation pages
     print("\n[4/6] Generating navigation pages...")
 
-    # Index page
+    # Index page (with search form)
     with open(docs_dir / 'index.html', 'w', encoding='utf-8') as f:
         f.write(generate_index_page(len(entries), tier_counts, build_time_jst))
 
-    # Search page
-    with open(docs_dir / 'search.html', 'w', encoding='utf-8') as f:
-        f.write(generate_search_page())
+    # Advanced search page (tag-based)
+    with open(docs_dir / 'advanced.html', 'w', encoding='utf-8') as f:
+        f.write(generate_advanced_page())
 
     # Browse page
     with open(docs_dir / 'browse.html', 'w', encoding='utf-8') as f:
@@ -2943,7 +2897,7 @@ def build_flat(project_root: Path) -> int:
         with open(docs_dir / 'pending.html', 'w', encoding='utf-8') as f:
             f.write(generate_pending_page(candidates))
 
-    print("  Generated index.html, search.html, browse.html, recent.html, random.html, pending.html")
+    print("  Generated index.html, advanced.html, browse.html, recent.html, random.html, pending.html")
 
     # Step 5: Generate search index and JavaScript
     print("\n[5/6] Generating search index...")
