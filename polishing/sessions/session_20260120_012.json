@@ -1,0 +1,28 @@
+{
+  "session_id": "20260120_012",
+  "started": "2026-01-20T05:00:00Z",
+  "ended": "2026-01-20T05:15:00Z",
+  "task_type": "full-review",
+  "range": "01631-01730",
+  "entries_reviewed": 100,
+  "entries_modified": 6,
+  "changes": [
+    {"entry_id": "01645_sonna", "change": "Added semantic tag 'grammatical' for ko-so-a-do demonstrative"},
+    {"entry_id": "01663_chittomo", "change": "Fixed formality from formal to neutral (notes say casual to neutral)"},
+    {"entry_id": "01665_chuusha", "change": "Fixed semantic from body-part to action (injection is not a body part)"},
+    {"entry_id": "01685_atarimae", "change": "Fixed formality from formal to neutral (notes compare to formal 当然)"},
+    {"entry_id": "01711_hisashiburi", "change": "Fixed formality from informal to neutral, semantic to time-general"},
+    {"entry_id": "01729_boku", "change": "Fixed formality from formal to informal (notes say more casual than 私)"}
+  ],
+  "issues_found": [],
+  "patterns_observed": [
+    "Formality tags often inverted (casual words marked formal, formal marked informal)",
+    "Pronouns and demonstratives need semantic:grammatical tag",
+    "semantic:body-part incorrectly used for medical procedures"
+  ],
+  "continuation_notes": {
+    "next_entry": "01731",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue reviewing from entry 01731. Session 12 covered 01631-01730. Quality generally good with only 6 issues found in 100 entries."
+  }
+}
