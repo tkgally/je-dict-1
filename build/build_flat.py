@@ -176,6 +176,7 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
     <meta name="description" content="{html.escape(desc)}">
     <title>{html.escape(title)} - TKG Japanese-English Learner's Dictionary</title>
     <link rel="stylesheet" href="{relative_path}styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
 </head>'''
 
 
@@ -931,6 +932,7 @@ def generate_advanced_page() -> str:
     <meta name="description" content="TKG Japanese-English Learner&#x27;s Dictionary - Advanced tag-based search">
     <title>Advanced Search - TKG Japanese-English Learner's Dictionary</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
 {generate_tag_search_styles()}
 </head>'''
 
@@ -2806,7 +2808,7 @@ def build_flat(project_root: Path) -> int:
     temp_dir = project_root / 'docs_build_temp'
     backup_dir = project_root / 'docs_backup'
     preserved_dirs = {'flat'}  # Directories to preserve
-    preserved_files = {'about.html'}  # Files to preserve (not overwritten by build)
+    preserved_files = {'about.html', 'CNAME'}  # Files to preserve (not overwritten by build)
 
     # Clean up any leftover temp/backup dirs from previous failed builds
     if temp_dir.exists():
