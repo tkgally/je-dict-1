@@ -1,0 +1,52 @@
+{
+  "session_id": "20260120_030",
+  "started": "2026-01-20T22:54:00Z",
+  "ended": "2026-01-20T22:58:00Z",
+  "task_type": "full-review",
+  "entries_range": "02701-02710",
+  "entries_reviewed": 10,
+  "entries_modified": 6,
+  "changes": [
+    {
+      "entry_id": "02703_ketsueki",
+      "type": "examples_added",
+      "description": "Added 2 examples for core tier (5 total)"
+    },
+    {
+      "entry_id": "02704_ketsuron",
+      "type": "examples_added",
+      "description": "Added 2 examples for core tier (5 total)"
+    },
+    {
+      "entry_id": "02705_kemuri",
+      "type": "examples_added",
+      "description": "Added 2 examples for core tier (5 total)"
+    },
+    {
+      "entry_id": "02706_kenkou",
+      "type": "examples_added",
+      "description": "Added 7 examples for 2 senses (10 total); core tier"
+    },
+    {
+      "entry_id": "02707_kensa",
+      "type": "examples_added",
+      "description": "Added 3 examples for 2 senses (6 total)"
+    },
+    {
+      "entry_id": "02709_kenchiku",
+      "type": "examples_added",
+      "description": "Added 3 examples for 2 senses (6 total)"
+    }
+  ],
+  "issues_found": [],
+  "patterns_observed": [
+    "Core tier entries (ketsueki, ketsuron, kemuri, kenkou) needed examples to meet 5-minimum",
+    "kenkou with 2 senses needed the most work (7 new examples)",
+    "General tier single-sense entries (kettei, ketten, kensetsu, kentou) already met 3-minimum"
+  ],
+  "continuation": {
+    "next_entry": "02711",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue from entry 02711. Completed review of entries through 02710."
+  }
+}
