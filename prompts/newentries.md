@@ -42,10 +42,28 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
   - Format: `{漢字|かんじ}`
   - This includes idioms, collocations, and kanji orthography notes
   - Example: `{暖簾|のれん}に{腕押|うでお}し` NOT `暖簾に腕押し`
-- Examples progress simple → complex, include at least one collocation
 - **All examples require sense_numbers** - validation will fail without them
 - Timestamps must be from get_timestamp.py - the Z suffix is UTC, not JST
 - **All new entries must have `vocabulary_tier: "general"`** - basic and core tiers are fixed
+
+## Example Sentence Requirements
+
+**See the `example-sentences` skill for complete guidelines.** Key requirements for new entries:
+
+| Requirement | Standard for General Tier |
+|-------------|--------------------------|
+| **Minimum count** | 3 examples per sense |
+| **Progressive length** | Examples get longer from first to last |
+| **Vocabulary** | No restrictions (prefer dictionary words) |
+| **Collocations** | At least one common collocation per sense |
+
+### Progressive Length Pattern
+
+1. **Example 1**: Short and simple (5-15 chars) - demonstrates the word clearly
+2. **Example 2**: Medium length (10-20 chars) - shows basic context
+3. **Example 3**: Longer (15-30 chars) - natural usage with fuller context
+
+For multi-sense entries, each sense needs at least 3 examples with this progression.
 
 ## Duplicate Check Details
 
@@ -64,7 +82,9 @@ python3 build/check_duplicate.py --batch --skip-candidates "食べる:たべる"
 
 **Note**: When adding NEW candidates (not this task), omit `--skip-candidates` to check both entries and existing candidates.
 
-## Example Structure Reminder
+## Example JSON Format
+
+All required fields per the `example-sentences` skill:
 
 ```json
 "examples": [
@@ -72,10 +92,14 @@ python3 build/check_duplicate.py --batch --skip-candidates "食べる:たべる"
     "id": "00001_word_ex1",
     "japanese": "{例文|れいぶん}です。",
     "english": "This is an example sentence.",
-    "sense_numbers": [1]
+    "sense_numbers": [1],
+    "has_audio": false,
+    "notes": null
   }
 ]
 ```
+
+**ID format**: `{entry_id}_ex{N}` where N is sequential (ex1, ex2, ex3...)
 
 ## If Duplicates Are Found During Validation
 
