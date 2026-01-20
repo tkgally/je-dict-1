@@ -1,0 +1,56 @@
+{
+  "session_id": "20260120_004",
+  "started": "2026-01-20T01:35:00Z",
+  "ended": "2026-01-20T01:44:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 90,
+  "entries_modified": 26,
+  "range": {
+    "start": "00141_kaiten",
+    "end": "00230_kikin"
+  },
+  "summary": {
+    "semantic_tag_fixes": 21,
+    "formality_fixes": 5,
+    "politeness_fixes": 1,
+    "domain_fixes": 1
+  },
+  "changes": [
+    {"entry_id": "00145_kaizou", "change": "semantic: occupation -> action"},
+    {"entry_id": "00148_kaketsu", "change": "semantic: electronics -> action"},
+    {"entry_id": "00151_kakko", "change": "semantic: clothing,leisure -> general"},
+    {"entry_id": "00156_kakudo", "change": "semantic: education,electronics -> general"},
+    {"entry_id": "00158_kakunin", "change": "semantic: furniture -> action"},
+    {"entry_id": "00160_kakuu", "change": "semantic: leisure -> descriptive"},
+    {"entry_id": "00164_kamoshirenai", "change": "formality: informal -> neutral"},
+    {"entry_id": "00166_kanban", "change": "semantic: animal-mammal,communication -> general"},
+    {"entry_id": "00168_kanetsu", "change": "semantic: electronics -> action"},
+    {"entry_id": "00170_kanja", "change": "semantic: clothing -> general"},
+    {"entry_id": "00171_kanjou", "change": "formality: informal -> neutral"},
+    {"entry_id": "00175_kanou", "change": "semantic: electronics -> descriptive"},
+    {"entry_id": "00177_kanren", "change": "semantic: transportation -> general"},
+    {"entry_id": "00181_kansha", "change": "semantic: electronics,emotion -> emotion"},
+    {"entry_id": "00183_kansoku", "change": "semantic: electronics -> action"},
+    {"entry_id": "00185_kantoku", "change": "semantic: building,leisure,occupation,transportation,work -> occupation"},
+    {"entry_id": "00194_kashitsu", "change": "formality: informal -> formal"},
+    {"entry_id": "00197_kashu", "change": "formality: formal -> neutral"},
+    {"entry_id": "00198_kasoku", "change": "semantic: time-general -> action"},
+    {"entry_id": "00201_katsudou", "change": "semantic: leisure -> action"},
+    {"entry_id": "00206_kehai", "change": "semantic: communication,weather -> general"},
+    {"entry_id": "00207_keiba", "change": "domain: removed legal; semantic: general -> leisure"},
+    {"entry_id": "00211_keishiki", "change": "semantic: furniture -> general"},
+    {"entry_id": "00215_kenkyo", "change": "politeness: humble -> plain"},
+    {"entry_id": "00216_kenmei", "change": "semantic: time-general -> descriptive"},
+    {"entry_id": "00222_kichinto", "change": "formality: formal -> neutral; semantic: tool -> general"}
+  ],
+  "patterns_observed": [
+    "Many entries have incorrect semantic tags that seem randomly assigned (e.g., electronics for non-electronic concepts)",
+    "Some entries have formality set to informal when the word itself is neutral",
+    "Politeness field sometimes describes word meaning rather than speech register"
+  ],
+  "continuation_notes": {
+    "next_entry": "00231_kikou",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue reviewing from entry 00231. Main pattern observed is incorrect semantic tag assignments."
+  }
+}
