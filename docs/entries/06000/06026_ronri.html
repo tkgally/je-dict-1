@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="論理 - logic; reasoning. Japanese-English dictionary entry with definitions and examples.">
+    <title>論理 (ろんり) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>論理<rp>(</rp><rt>ろんり</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ろんり</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">logic; reasoning</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">logic; reasoning; rationale</span>
+                    <div class="definition-explanation">The principles of valid reasoning and argumentation. The systematic study of correct inference.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">その<ruby>論理<rp>(</rp><rt>ろんり</rt><rp>)</rp></ruby>は<ruby>通<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>らない。</div>
+                    <div class="example-english">That logic doesn&#x27;t hold up.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>論理的<rp>(</rp><rt>ろんりてき</rt><rp>)</rp></ruby>に<ruby>考<rp>(</rp><rt>かんが</rt><rp>)</rp></ruby>える。</div>
+                    <div class="example-english">Think logically.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>論理<rp>(</rp><rt>ろんり</rt><rp>)</rp></ruby>に<ruby>飛躍<rp>(</rp><rt>ひやく</rt><rp>)</rp></ruby>がある。</div>
+                    <div class="example-english">There&#x27;s a logical leap in the argument.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>論理<rp>(</rp><rt>ろんり</rt><rp>)</rp></ruby> is fundamental to academic and philosophical discourse.</p><p>COMMON PATTERNS:</p><ul><li><ruby>論理的<rp>(</rp><rt>ろんりてき</rt><rp>)</rp></ruby>: logical</li><li><ruby>論理<rp>(</rp><rt>ろんり</rt><rp>)</rp></ruby>が<ruby>通<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>る: the logic holds</li><li><ruby>論理<rp>(</rp><rt>ろんり</rt><rp>)</rp></ruby>に<ruby>飛躍<rp>(</rp><rt>ひやく</rt><rp>)</rp></ruby>がある: there&#x27;s a logical leap</li><li><ruby>論理<rp>(</rp><rt>ろんり</rt><rp>)</rp></ruby>を<ruby>組<rp>(</rp><rt>く</rt><rp>)</rp></ruby>み<ruby>立<rp>(</rp><rt>た</rt><rp>)</rp></ruby>てる: to construct an argument</li></ul><p>RELATED TERMS:</p><ul><li><ruby>論理学<rp>(</rp><rt>ろんりがく</rt><rp>)</rp></ruby>: logic (as a field of study)</li><li><ruby>論理性<rp>(</rp><rt>ろんりせい</rt><rp>)</rp></ruby>: logicality</li><li><ruby>非論理的<rp>(</rp><rt>ひろんりてき</rt><rp>)</rp></ruby>: illogical</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.17 6:25 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">06000/06026_ronri</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

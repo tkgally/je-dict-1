@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="全国 - the whole country, nationwide. Japanese-English dictionary entry with definitions and examples.">
+    <title>全国 (ぜんこく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ぜんこく</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">the whole country, nationwide</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">the whole country, nationwide</span>
+                    <div class="definition-explanation">The entire nation; all parts of a country.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby>で<ruby>販売<rp>(</rp><rt>はんばい</rt><rp>)</rp></ruby>されている。</div>
+                    <div class="example-english">It&#x27;s sold nationwide.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby><ruby>大会<rp>(</rp><rt>たいかい</rt><rp>)</rp></ruby>に<ruby>出場<rp>(</rp><rt>しゅつじょう</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I participated in the national tournament.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby>から<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>が<ruby>集<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>まった。</div>
+                    <div class="example-english">People gathered from all over the country.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby> is used as both a noun and adverbially.</p><p>COMMON COLLOCATIONS:</p><ul><li><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby><ruby>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby> (nationwide)</li><li><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby><ruby>各地<rp>(</rp><rt>かくち</rt><rp>)</rp></ruby> (all over the country)</li><li><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby><ruby>大会<rp>(</rp><rt>たいかい</rt><rp>)</rp></ruby> (national tournament)</li><li><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby><ruby>放送<rp>(</rp><rt>ほうそう</rt><rp>)</rp></ruby> (nationwide broadcast)</li><li><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby><ruby>チェーン<rp>(</rp><rt>ちぇーん</rt><rp>)</rp></ruby> (national chain)</li><li><ruby>全国<rp>(</rp><rt>ぜんこく</rt><rp>)</rp></ruby><ruby>展開<rp>(</rp><rt>てんかい</rt><rp>)</rp></ruby> (nationwide expansion)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.12 10:13 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">03000/03311_zenkoku</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="じんじん - tingling; numbing; pins and needles. Japanese-English dictionary entry with definitions and examples.">
+    <title>じんじん (じんじん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">じんじん</h1>
+            <div class="entry-reading">じんじん</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">tingling; numbing; pins and needles</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">tingling; numbing; pins and needles</span>
+                    <div class="definition-explanation">Describes the tingling or numbing sensation when circulation is cut off or returning, or from cold or injury.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>正座<rp>(</rp><rt>せいざ</rt><rp>)</rp></ruby>をしていたら<ruby>足<rp>(</rp><rt>あし</rt><rp>)</rp></ruby>がじんじんしてきた。</div>
+                    <div class="example-english">My legs started tingling from sitting in seiza.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>寒<rp>(</rp><rt>さむ</rt><rp>)</rp></ruby>くて<ruby>手<rp>(</rp><rt>て</rt><rp>)</rp></ruby>がじんじんする。</div>
+                    <div class="example-english">My hands are numb from the cold.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ぶつけた<ruby>肘<rp>(</rp><rt>ひじ</rt><rp>)</rp></ruby>がじんじん<ruby>痛<rp>(</rp><rt>いた</rt><rp>)</rp></ruby>む。</div>
+                    <div class="example-english">My elbow tingles with pain from bumping it.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>じんじん is an onomatopoeic word for tingling or numbing sensations.</p><p>COMMON CAUSES:</p><ul><li><ruby>正座<rp>(</rp><rt>せいざ</rt><rp>)</rp></ruby> (sitting in seiza, legs fall asleep)</li><li><ruby>寒<rp>(</rp><rt>さむ</rt><rp>)</rp></ruby>さ (cold)</li><li><ruby>血行<rp>(</rp><rt>けっこう</rt><rp>)</rp></ruby><ruby>不良<rp>(</rp><rt>ふりょう</rt><rp>)</rp></ruby> (poor circulation)</li><li>ぶつける (bumping, hitting)</li></ul><p>CULTURAL NOTE:</p><ul><li>Very commonly experienced in Japan due to seiza sitting</li><li>足がしびれる is the standard way to say &quot;my leg fell asleep&quot;</li></ul><p>SIMILAR WORDS:</p><ul><li>しびれる: to go numb (verb)</li><li>ちくちく: prickling</li><li>ひりひり: stinging</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 14:20 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">05000/05264_jinjin</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

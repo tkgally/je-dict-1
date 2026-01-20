@@ -1,0 +1,248 @@
+{
+  "session_id": "20260120_009",
+  "date": "2026-01-20",
+  "time_started": "2026-01-20T04:00:00Z",
+  "time_completed": "2026-01-20T05:00:00Z",
+  "task_type": "full-review",
+
+  "scope": {
+    "entry_range": "01031-01230",
+    "entries_reviewed": 200,
+    "entries_modified": 31
+  },
+
+  "issues_found": [
+    {
+      "entry_id": "01041_noriba",
+      "issue": "semantic",
+      "old_value": ["animal-mammal", "geography"],
+      "new_value": ["transportation"],
+      "reason": "Platform/boarding area is transportation, not animal or geography"
+    },
+    {
+      "entry_id": "01043_omedetou",
+      "issue": "formality",
+      "old_value": "formal",
+      "new_value": "neutral",
+      "reason": "Plain form おめでとう is casual, not formal"
+    },
+    {
+      "entry_id": "01046_reizouko",
+      "issue": "semantic + formality",
+      "old_semantic": ["electronics", "time-general"],
+      "new_semantic": ["electronics"],
+      "old_formality": "informal",
+      "new_formality": "neutral",
+      "reason": "Removed time-general (wrong); formality should be neutral"
+    },
+    {
+      "entry_id": "01047_renji",
+      "issue": "formality",
+      "old_value": "informal",
+      "new_value": "neutral",
+      "reason": "Standard word for microwave"
+    },
+    {
+      "entry_id": "01048_resutoran",
+      "issue": "formality",
+      "old_value": "informal",
+      "new_value": "neutral",
+      "reason": "Standard word for restaurant"
+    },
+    {
+      "entry_id": "01054_shokudou",
+      "issue": "formality",
+      "old_value": "informal",
+      "new_value": "neutral",
+      "reason": "Standard word for cafeteria"
+    },
+    {
+      "entry_id": "01069_yakkyoku",
+      "issue": "semantic",
+      "old_value": ["body-part", "building", "furniture"],
+      "new_value": ["building"],
+      "reason": "Pharmacy is just a building"
+    },
+    {
+      "entry_id": "01082_koujou",
+      "issue": "semantic",
+      "old_value": ["building", "leisure", "occupation", "work"],
+      "new_value": ["building", "work"],
+      "reason": "Factory shouldn't have leisure tag"
+    },
+    {
+      "entry_id": "01101_nakunaru",
+      "issue": "semantic",
+      "old_value": ["electronics"],
+      "new_value": ["existence"],
+      "reason": "To disappear/run out is about existence, not electronics"
+    },
+    {
+      "entry_id": "01105_wakasu",
+      "issue": "semantic",
+      "old_value": ["animal-mammal"],
+      "new_value": ["action"],
+      "reason": "To boil is an action, not related to animals"
+    },
+    {
+      "entry_id": "01113_wakareru",
+      "issue": "semantic",
+      "old_value": ["clothing"],
+      "new_value": ["action"],
+      "reason": "To part/separate is an action, not clothing"
+    },
+    {
+      "entry_id": "01114_you",
+      "issue": "semantic",
+      "old_value": ["electronics"],
+      "new_value": ["descriptive"],
+      "reason": "Way/manner/seeming is descriptive, not electronics"
+    },
+    {
+      "entry_id": "01123_yaku",
+      "issue": "semantic",
+      "old_value": ["body-part"],
+      "new_value": ["food"],
+      "reason": "To bake/grill is food-related"
+    },
+    {
+      "entry_id": "01138_yakeru",
+      "issue": "semantic",
+      "old_value": ["body-part"],
+      "new_value": ["food"],
+      "reason": "To burn/be grilled is food-related"
+    },
+    {
+      "entry_id": "01141_kiken",
+      "issue": "semantic",
+      "old_value": ["weather"],
+      "new_value": ["descriptive"],
+      "reason": "Danger/dangerous is descriptive, not weather"
+    },
+    {
+      "entry_id": "01149_kanari",
+      "issue": "semantic",
+      "old_value": ["time-general"],
+      "new_value": ["quantity"],
+      "reason": "Fairly/quite/considerably is about quantity"
+    },
+    {
+      "entry_id": "01151_nigeru",
+      "issue": "semantic + formality",
+      "old_semantic": ["geography"],
+      "new_semantic": ["action"],
+      "old_formality": "formal",
+      "new_formality": "neutral",
+      "reason": "To escape is an action; common neutral verb"
+    },
+    {
+      "entry_id": "01164_koto",
+      "issue": "semantic",
+      "old_value": ["furniture"],
+      "new_value": ["general"],
+      "reason": "Abstract thing/matter is general, not furniture"
+    },
+    {
+      "entry_id": "01165_mieru",
+      "issue": "semantic",
+      "old_value": ["electronics"],
+      "new_value": ["action"],
+      "reason": "To be visible is perception action, not electronics"
+    },
+    {
+      "entry_id": "01166_nusumu",
+      "issue": "semantic + formality",
+      "old_semantic": ["food"],
+      "new_semantic": ["action"],
+      "old_formality": "formal",
+      "new_formality": "neutral",
+      "reason": "To steal is action, not food; neutral word"
+    },
+    {
+      "entry_id": "01174_nuru",
+      "issue": "semantic",
+      "old_value": ["body-part", "electronics", "emotion", "tool"],
+      "new_value": ["action"],
+      "reason": "To paint/apply is just an action"
+    },
+    {
+      "entry_id": "01176_yoroshii",
+      "issue": "semantic",
+      "old_value": ["building", "leisure", "occupation", "work"],
+      "new_value": ["descriptive"],
+      "reason": "Good/OK/acceptable is descriptive"
+    },
+    {
+      "entry_id": "01178_bikkurisuru",
+      "issue": "formality",
+      "old_value": "formal",
+      "new_value": "neutral",
+      "reason": "びっくり is casual onomatopoeia"
+    },
+    {
+      "entry_id": "01200_mezurashii",
+      "issue": "semantic",
+      "old_value": ["leisure"],
+      "new_value": ["descriptive"],
+      "reason": "Unusual/rare is descriptive, not leisure"
+    },
+    {
+      "entry_id": "01202_shikaru",
+      "issue": "semantic",
+      "old_value": ["body-part"],
+      "new_value": ["action"],
+      "reason": "To scold is an action, not body-part"
+    },
+    {
+      "entry_id": "01215_ukeru",
+      "issue": "semantic",
+      "old_value": ["body-part", "geography", "work"],
+      "new_value": ["action"],
+      "reason": "To receive/take is just an action"
+    },
+    {
+      "entry_id": "01220_tsutaeru",
+      "issue": "semantic",
+      "old_value": ["building", "communication", "education", "transportation"],
+      "new_value": ["communication"],
+      "reason": "To convey is communication only"
+    },
+    {
+      "entry_id": "01221_utsu",
+      "issue": "semantic",
+      "old_value": ["leisure"],
+      "new_value": ["action"],
+      "reason": "To hit/strike is an action"
+    },
+    {
+      "entry_id": "01223_hijouni",
+      "issue": "style",
+      "old_value": "slang",
+      "new_value": null,
+      "reason": "非常に is formal, not slang - contradictory tag removed"
+    },
+    {
+      "entry_id": "01225_susumu",
+      "issue": "semantic",
+      "old_value": ["time-general", "tool", "transportation"],
+      "new_value": ["action", "movement"],
+      "reason": "To advance/proceed is action and movement"
+    },
+    {
+      "entry_id": "01227_utsusu",
+      "issue": "semantic",
+      "old_value": ["leisure"],
+      "new_value": ["action"],
+      "reason": "To copy/photograph is an action"
+    }
+  ],
+
+  "patterns_observed": [
+    "Semantic tag randomness continues - many entries have completely unrelated tags",
+    "Multiple formality issues where common words marked 'formal'",
+    "Some entries with 'informal' formality that should be 'neutral' (basic vocabulary)",
+    "Contradictory metadata (e.g., 'slang' on formal word 非常に)"
+  ],
+
+  "notes": "Session 9 polishing. Found significantly more issues than previous sessions, particularly bizarre random semantic tags like 'animal-mammal' for boiling water, 'furniture' for こと (thing), 'clothing' for 別れる (to part)."
+}

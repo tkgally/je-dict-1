@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="半分 - half. Japanese-English dictionary entry with definitions and examples.">
+    <title>半分 (はんぶん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>半分<rp>(</rp><rt>はんぶん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">はんぶん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">half</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">half</span>
+                    <div class="definition-explanation">One of two equal parts.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ケーキを<ruby>半分<rp>(</rp><rt>はんぶん</rt><rp>)</rp></ruby>に<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">To cut the cake in half.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>半分<rp>(</rp><rt>はんぶん</rt><rp>)</rp></ruby><ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べた。</div>
+                    <div class="example-english">I ate half.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>仕事<rp>(</rp><rt>しごと</rt><rp>)</rp></ruby>は<ruby>半分<rp>(</rp><rt>はんぶん</rt><rp>)</rp></ruby><ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わった。</div>
+                    <div class="example-english">The work is half done.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p><ruby>半分<rp>(</rp><rt>はんぶん</rt><rp>)</rp></ruby> means half (1/2).</p><p>COMMON PATTERNS:</p><ul><li><ruby>半分<rp>(</rp><rt>はんぶん</rt><rp>)</rp></ruby>に<ruby>切<rp>(</rp><rt>き</rt><rp>)</rp></ruby>る (to cut in half)</li><li><ruby>半分<rp>(</rp><rt>はんぶん</rt><rp>)</rp></ruby>ずつ (half each)</li><li><ruby>半分<rp>(</rp><rt>はんぶん</rt><rp>)</rp></ruby>くらい (about half)</li></ul><p>RELATED:</p><ul><li><ruby>半<rp>(</rp><rt>はん</rt><rp>)</rp></ruby> (half - prefix)</li><li><ruby>半額<rp>(</rp><rt>はんがく</rt><rp>)</rp></ruby> (half price)</li><li><ruby>半年<rp>(</rp><rt>はんとし</rt><rp>)</rp></ruby> (half a year)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 18:50 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">02500/02938_hanbun</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

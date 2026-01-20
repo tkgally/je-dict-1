@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ミス - mistake; Miss. Japanese-English dictionary entry with definitions and examples.">
+    <title>ミス (みす) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ミス</h1>
+            <div class="entry-reading">みす</div>
+            <div class="entry-pos">noun; suru-verb</div>
+            <div class="entry-gloss">mistake; Miss</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">mistake; error</span>
+                    <div class="definition-explanation">A wrong action or incorrect decision; a failure to do something correctly.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">Miss (title)</span>
+                    <div class="definition-explanation">A title for an unmarried woman.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ミスをしてしまった。</div>
+                    <div class="example-english">I made a mistake.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>計算<rp>(</rp><rt>けいさん</rt><rp>)</rp></ruby>ミスに<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>づく。</div>
+                    <div class="example-english">To notice a calculation error.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ミス<ruby>日本<rp>(</rp><rt>にほん</rt><rp>)</rp></ruby></div>
+                    <div class="example-english">Miss Japan</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ミス has two distinct uses from the English words &quot;miss&quot; (error) and &quot;Miss&quot; (title).</p><p>MISTAKE USAGE:</p><ul><li>ミスをする (to make a mistake)</li><li>ミスを<ruby>犯<rp>(</rp><rt>おか</rt><rp>)</rp></ruby>す (to commit an error)</li><li>ケアレスミス (careless mistake)</li><li><ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby>ミス (input error)</li><li>タイプミス (typo)</li><li>ノーミスで (without any mistakes)</li></ul><p>TITLE USAGE:</p><ul><li>ミス<ruby>日本<rp>(</rp><rt>にほん</rt><rp>)</rp></ruby> (Miss Japan)</li><li>ミス・ユニバース (Miss Universe)</li><li>ミス<ruby>東京<rp>(</rp><rt>とうきょう</rt><rp>)</rp></ruby> (Miss Tokyo)</li></ul><p>RELATED WORDS:</p><ul><li><ruby>間違<rp>(</rp><rt>まちが</rt><rp>)</rp></ruby>い - mistake (native Japanese)</li><li>エラー - error (technical contexts)</li><li>ミスる - to mess up (casual slang verb)</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Synonym:</span>
+                        <a href="../../entries/03500/03733_machigai.html" class="cross-ref-link">
+                            <ruby>間違<rp>(</rp><rt>まちが</rt><rp>)</rp></ruby>い (mistake)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.13 12:14 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">00000/00285_misu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

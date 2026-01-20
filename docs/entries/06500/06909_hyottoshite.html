@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ひょっとして - by chance, perhaps, maybe. Japanese-English dictionary entry with definitions and examples.">
+    <title>ひょっとして (ひょっとして) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ひょっとして</h1>
+            <div class="entry-reading">ひょっとして</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">by chance, perhaps, maybe</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">by any chance, perhaps, possibly</span>
+                    <div class="definition-explanation">Used when making a guess or asking a tentative question, suggesting something might be the case.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ひょっとして<ruby>田中<rp>(</rp><rt>たなか</rt><rp>)</rp></ruby>さんですか。</div>
+                    <div class="example-english">Could you possibly be Mr. Tanaka?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ひょっとして<ruby>風邪<rp>(</rp><rt>かぜ</rt><rp>)</rp></ruby>を<ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>いたかもしれない。</div>
+                    <div class="example-english">I might have caught a cold.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ひょっとして<ruby>間違<rp>(</rp><rt>まちが</rt><rp>)</rp></ruby>えたのではないか。</div>
+                    <div class="example-english">Could it be that I made a mistake?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ひょっとしたら<ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>も<ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>るかもしれない。</div>
+                    <div class="example-english">He might possibly come too.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ETYMOLOGY: From ひょっと (suddenly, by chance) + して (doing)</p><p>VARIANT FORMS:</p><ul><li>ひょっとして: by any chance (question/possibility)</li><li>ひょっとしたら: if by chance (conditional)</li><li>ひょっとすると: it may be that (speculation)</li></ul><p>NUANCE: Softer and more tentative than <ruby>多分<rp>(</rp><rt>たぶん</rt><rp>)</rp></ruby> (probably) or きっと (surely). Used when:</p><ul><li>Making polite guesses about people</li><li>Hedging uncertain statements</li><li>Asking tentative questions</li><li>Expressing slight possibility</li></ul><p>COMMON PATTERNS:</p><ul><li>ひょっとして〜ですか? (Could you be ~?)</li><li>ひょっとして〜かもしれない (might possibly ~)</li><li>ひょっとしたら〜 (if by chance ~)</li></ul><p>SIMILAR EXPRESSIONS:</p><ul><li>もしかして (perhaps, by any chance) - very similar</li><li>ひょっとすると (it may be that)</li><li>もしかしたら (if perhaps)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.18 19:03 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">06500/06909_hyottoshite</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="にこやか - smiling, cheerful, beaming. Japanese-English dictionary entry with definitions and examples.">
+    <title>にこやか (にこやか) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">にこやか</h1>
+            <div class="entry-reading">にこやか</div>
+            <div class="entry-pos">na-adjective</div>
+            <div class="entry-gloss">smiling, cheerful, beaming</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">smiling, cheerful, beaming</span>
+                    <div class="definition-explanation">Having a pleasant, smiling expression; radiating warmth and friendliness.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>店員<rp>(</rp><rt>てんいん</rt><rp>)</rp></ruby>さんがにこやかに<ruby>対応<rp>(</rp><rt>たいおう</rt><rp>)</rp></ruby>してくれた。</div>
+                    <div class="example-english">The shop clerk served me with a smile.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>はいつもにこやかな<ruby>笑顔<rp>(</rp><rt>えがお</rt><rp>)</rp></ruby>をしている。</div>
+                    <div class="example-english">She always has a cheerful smile.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">にこやかに<ruby>挨拶<rp>(</rp><rt>あいさつ</rt><rp>)</rp></ruby>をする。</div>
+                    <div class="example-english">To greet someone with a smile.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>FORMS:</p><ul><li>Adverbial: にこやかに (with a smile, cheerfully)</li><li>Noun form: にこやかさ (cheerfulness)</li></ul><p>COMMON PATTERNS:</p><ul><li>にこやかな<ruby>笑顔<rp>(</rp><rt>えがお</rt><rp>)</rp></ruby>/<ruby>表情<rp>(</rp><rt>ひょうじょう</rt><rp>)</rp></ruby> (smiling face/expression)</li><li>にこやかに<ruby>迎<rp>(</rp><rt>むか</rt><rp>)</rp></ruby>える (to welcome with a smile)</li><li>にこやかに<ruby>対応<rp>(</rp><rt>たいおう</rt><rp>)</rp></ruby>する (to respond cheerfully)</li></ul><p>ETYMOLOGY:<br>Related to にこにこ (smiling onomatopoeia).</p><p>NUANCE:<br>Describes a warm, pleasant demeanor rather than just a smile. Often used in service contexts or to describe people with approachable personalities.</p><p>CONTRAST:</p><ul><li>にこやか: warm, pleasant smile (personality trait or demeanor)</li><li>にこにこ: onomatopoeia for smiling (descriptive of action)</li><li><ruby>明<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>るい: bright, cheerful (more general)</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/05000/05177_nikoniko.html" class="cross-ref-link">
+                            にこにこ (smiling)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.17 15:52 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">06000/06257_nikoyaka</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

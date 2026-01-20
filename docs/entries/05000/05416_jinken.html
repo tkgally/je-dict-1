@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="人権 - human rights. Japanese-English dictionary entry with definitions and examples.">
+    <title>人権 (じんけん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>人権<rp>(</rp><rt>じんけん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">じんけん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">human rights</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">human rights</span>
+                    <div class="definition-explanation">Basic rights and freedoms to which all humans are entitled.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>人権<rp>(</rp><rt>じんけん</rt><rp>)</rp></ruby>を<ruby>守<rp>(</rp><rt>まも</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">To protect human rights.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>人権<rp>(</rp><rt>じんけん</rt><rp>)</rp></ruby><ruby>侵害<rp>(</rp><rt>しんがい</rt><rp>)</rp></ruby>。</div>
+                    <div class="example-english">Human rights violation.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>基本的<rp>(</rp><rt>きほんてき</rt><rp>)</rp></ruby><ruby>人権<rp>(</rp><rt>じんけん</rt><rp>)</rp></ruby>。</div>
+                    <div class="example-english">Fundamental human rights.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>人権 is a key term in legal and political contexts.</p><p>COMMON COMPOUNDS:</p><ul><li>人権侵害 (じんけんしんがい): human rights violation</li><li>人権団体 (じんけんだんたい): human rights organization</li><li>人権問題 (じんけんもんだい): human rights issue</li><li>基本的人権: fundamental human rights</li></ul><p>RELATED:</p><ul><li>世界人権宣言: Universal Declaration of Human Rights</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 15:00 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">05000/05416_jinken</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

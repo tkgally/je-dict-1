@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="どんな - what kind of. Japanese-English dictionary entry with definitions and examples.">
+    <title>どんな (どんな) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">どんな</h1>
+            <div class="entry-reading">どんな</div>
+            <div class="entry-pos">pre-noun adjectival</div>
+            <div class="entry-gloss">what kind of</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">what kind of, what sort of</span>
+                    <div class="definition-explanation">Used to ask about the nature or type of something.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">どんな<ruby>映画<rp>(</rp><rt>えいが</rt><rp>)</rp></ruby>が<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きですか。</div>
+                    <div class="example-english">What kind of movies do you like?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">どんな<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>ですか。</div>
+                    <div class="example-english">What kind of person is he/she?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">どんな<ruby>時<rp>(</rp><rt>とき</rt><rp>)</rp></ruby>でも<ruby>頑張<rp>(</rp><rt>がんば</rt><rp>)</rp></ruby>る。</div>
+                    <div class="example-english">I&#x27;ll do my best no matter what.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>どんな asks about the nature or type of something.</p><p>KO-SO-A-DO SERIES:</p><ul><li>こんな (like this)</li><li>そんな (like that - near you)</li><li>あんな (like that over there)</li><li>どんな (what kind of)</li></ul><p>PATTERNS:</p><ul><li>どんな + noun</li><li>どんなに〜ても (no matter how much)</li></ul><p>SIMILAR:</p><ul><li>どういう (what kind of - slightly more formal)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-basic">basic</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.11 18:50 · Revised 2026.1.19 20:37</div>
+                <div class="metadata-file">02500/02924_donna</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

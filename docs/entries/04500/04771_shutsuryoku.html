@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="出力 - output. Japanese-English dictionary entry with definitions and examples.">
+    <title>出力 (しゅつりょく) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">しゅつりょく</div>
+            <div class="entry-pos">noun (verbal)</div>
+            <div class="entry-gloss">output</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">output</span>
+                    <div class="definition-explanation">Data or information produced by a computer or device.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">power output</span>
+                    <div class="definition-explanation">The amount of power produced by an engine or machine.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">データを<ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Output the data.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">プリンターで<ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Print it out on the printer.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">このエンジンの<ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby>は200<ruby>馬力<rp>(</rp><rt>ばりき</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">This engine has an output of 200 horsepower.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Used in computing, printing, and engineering contexts.</p><p>Common expressions:</p><ul><li><ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby>する (to output)</li><li><ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby><ruby>結果<rp>(</rp><rt>けっか</rt><rp>)</rp></ruby> (output result)</li><li><ruby>最大<rp>(</rp><rt>さいだい</rt><rp>)</rp></ruby><ruby>出力<rp>(</rp><rt>しゅつりょく</rt><rp>)</rp></ruby> (maximum output)</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Antonym:</span>
+                        <a href="../../entries/04500/04769_nyuuryoku.html" class="cross-ref-link">
+                            <ruby>入力<rp>(</rp><rt>にゅうりょく</rt><rp>)</rp></ruby> (input)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 9:24 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">04500/04771_shutsuryoku</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

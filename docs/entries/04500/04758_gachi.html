@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ガチ - serious, for real. Japanese-English dictionary entry with definitions and examples.">
+    <title>ガチ (がち) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ガチ</h1>
+            <div class="entry-reading">がち</div>
+            <div class="entry-pos">adverb, na-adjective, prefix</div>
+            <div class="entry-gloss">serious, for real</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">serious, for real, genuine</span>
+                    <div class="definition-explanation">Emphasizing that something is genuine, earnest, or done with full effort. Slang.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">ガチで<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>しないと<ruby>合格<rp>(</rp><rt>ごうかく</rt><rp>)</rp></ruby>できない。</div>
+                    <div class="example-english">I have to study seriously to pass.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>はガチ<ruby>勢<rp>(</rp><rt>ぜい</rt><rp>)</rp></ruby>だから。</div>
+                    <div class="example-english">He&#x27;s a hardcore fan, you know.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">ガチな<ruby>話<rp>(</rp><rt>はなし</rt><rp>)</rp></ruby>、<ruby>転職<rp>(</rp><rt>てんしょく</rt><rp>)</rp></ruby>しようと<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>っている。</div>
+                    <div class="example-english">Seriously though, I&#x27;m thinking about changing jobs.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>Slang word meaning &#x27;genuine&#x27; or &#x27;serious&#x27;. Often used as ガチで (seriously), ガチな (serious), or as a prefix: ガチ<ruby>勢<rp>(</rp><rt>ぜい</rt><rp>)</rp></ruby> (hardcore fans), ガチ<ruby>恋<rp>(</rp><rt>こい</rt><rp>)</rp></ruby> (real romantic feelings). Similar to マジ but implies more commitment or intensity.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Synonym:</span>
+                        <a href="../../entries/04500/04744_maji.html" class="cross-ref-link">
+                            マジ (really)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 8:51 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">04500/04758_gachi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

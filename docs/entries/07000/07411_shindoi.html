@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="しんどい - tiring; exhausting; tough. Japanese-English dictionary entry with definitions and examples.">
+    <title>しんどい (しんどい) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">しんどい</h1>
+            <div class="entry-reading">しんどい</div>
+            <div class="entry-pos">i-adjective</div>
+            <div class="entry-gloss">tiring; exhausting; tough</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">tiring; exhausting; tough; hard</span>
+                    <div class="definition-explanation">Describes physical or mental exhaustion, or a situation that requires difficult effort. Originally a Kansai dialect word that has spread throughout Japan.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>は<ruby>仕事<rp>(</rp><rt>しごと</rt><rp>)</rp></ruby>がしんどかった。</div>
+                    <div class="example-english">Work was exhausting today.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>階段<rp>(</rp><rt>かいだん</rt><rp>)</rp></ruby>を<ruby>上<rp>(</rp><rt>のぼ</rt><rp>)</rp></ruby>るのがしんどい。</div>
+                    <div class="example-english">Climbing the stairs is tiring.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>風邪<rp>(</rp><rt>かぜ</rt><rp>)</rp></ruby>で<ruby>体<rp>(</rp><rt>からだ</rt><rp>)</rp></ruby>がしんどい。</div>
+                    <div class="example-english">My body feels weak from a cold.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ORIGIN:<br>Originally a Kansai (<ruby>関西<rp>(</rp><rt>かんさい</rt><rp>)</rp></ruby>) dialect word that has become commonly used throughout Japan.</p><p>FORMS:</p><ul><li>しんどい (dictionary)</li><li>しんどかった (past)</li><li>しんどくて (te-form)</li><li>しんどさ (noun: the difficulty/tiredness)</li></ul><p>USAGE:</p><p>しんどい can describe:</p><ul><li>Physical exhaustion</li><li>Mental fatigue</li><li>Difficult situations</li><li>Illness-related weakness</li></ul><p>SIMILAR WORDS:</p><ul><li><ruby>疲<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>れた - tired (general)</li><li>だるい - sluggish, heavy (body feels heavy)</li><li>きつい - tough, demanding (work or situation)</li><li><ruby>大変<rp>(</rp><rt>たいへん</rt><rp>)</rp></ruby> - difficult, hard (more formal)</li></ul><p>NUANCE:<br>しんどい often implies a deeper exhaustion than simply <ruby>疲<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>れた, suggesting the effort is draining one&#x27;s energy or the situation is difficult to handle.</p><p>REGISTER:<br>Casual. Very common in everyday conversation.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.19 16:26 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">07000/07411_shindoi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="アルゴリズム - algorithm. Japanese-English dictionary entry with definitions and examples.">
+    <title>アルゴリズム (あるごりずむ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">アルゴリズム</h1>
+            <div class="entry-reading">あるごりずむ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">algorithm</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">algorithm</span>
+                    <div class="definition-explanation">A step-by-step procedure or set of rules for solving a problem, especially in computing and mathematics.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>検索<rp>(</rp><rt>けんさく</rt><rp>)</rp></ruby>アルゴリズムを<ruby>改良<rp>(</rp><rt>かいりょう</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Improve the search algorithm.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">SNSのアルゴリズムがコンテンツを<ruby>選<rp>(</rp><rt>えら</rt><rp>)</rp></ruby>ぶ。</div>
+                    <div class="example-english">The social media algorithm selects content.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>効率的<rp>(</rp><rt>こうりつてき</rt><rp>)</rp></ruby>なアルゴリズムを<ruby>設計<rp>(</rp><rt>せっけい</rt><rp>)</rp></ruby>する。</div>
+                    <div class="example-english">Design an efficient algorithm.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>アルゴリズム is a loanword from English &#x27;algorithm&#x27;.</p><p>COMMON TYPES:</p><ul><li><ruby>検索<rp>(</rp><rt>けんさく</rt><rp>)</rp></ruby>アルゴリズム (search algorithm)</li><li><ruby>推薦<rp>(</rp><rt>すいせん</rt><rp>)</rp></ruby>アルゴリズム (recommendation algorithm)</li><li><ruby>機械<rp>(</rp><rt>きかい</rt><rp>)</rp></ruby><ruby>学習<rp>(</rp><rt>がくしゅう</rt><rp>)</rp></ruby>アルゴリズム (machine learning algorithm)</li><li><ruby>暗号<rp>(</rp><rt>あんごう</rt><rp>)</rp></ruby>アルゴリズム (encryption algorithm)</li></ul><p>COMMON COLLOCATIONS:</p><ul><li>アルゴリズムを<ruby>開発<rp>(</rp><rt>かいはつ</rt><rp>)</rp></ruby>する (to develop an algorithm)</li><li>アルゴリズムを<ruby>実装<rp>(</rp><rt>じっそう</rt><rp>)</rp></ruby>する (to implement an algorithm)</li><li>アルゴリズム<ruby>取引<rp>(</rp><rt>とりひき</rt><rp>)</rp></ruby> (algorithmic trading)</li></ul><p>MODERN USAGE:<br>The word has entered mainstream vocabulary through discussions of social media and AI, where algorithms determine what content users see.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 8:13 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">04500/04716_arugorizumu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

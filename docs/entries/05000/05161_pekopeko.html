@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ぺこぺこ - starving; bowing repeatedly. Japanese-English dictionary entry with definitions and examples.">
+    <title>ぺこぺこ (ぺこぺこ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">ぺこぺこ</h1>
+            <div class="entry-reading">ぺこぺこ</div>
+            <div class="entry-pos">adverb</div>
+            <div class="entry-gloss">starving; bowing repeatedly</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">starving; very hungry</span>
+                    <div class="definition-explanation">Describes the feeling of being extremely hungry, with an empty stomach.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">bowing repeatedly; being obsequious</span>
+                    <div class="definition-explanation">Describes the action of bowing repeatedly, often in an excessively flattering manner.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">お<ruby>腹<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>がぺこぺこだ。</div>
+                    <div class="example-english">I&#x27;m starving.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>昼<rp>(</rp><rt>ひる</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べなかったから、ぺこぺこです。</div>
+                    <div class="example-english">I&#x27;m really hungry because I skipped lunch.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>上司<rp>(</rp><rt>じょうし</rt><rp>)</rp></ruby>にぺこぺこ<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>を<ruby>下<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>げる。</div>
+                    <div class="example-english">To bow repeatedly to one&#x27;s boss.</div>
+                    <div class="example-notes">Often implies excessive or insincere flattery</div>
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>ぺこぺこ is an onomatopoeic word (擬態語) with two distinct meanings.</p><p>COMMON PATTERNS:</p><ul><li>お<ruby>腹<rp>(</rp><rt>なか</rt><rp>)</rp></ruby>がぺこぺこ: to be starving</li><li>ぺこぺこ<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>を<ruby>下<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>げる: to bow repeatedly</li><li>ぺこぺこする: to act subserviently</li></ul><p>NUANCE: The bowing sense often has a negative connotation, suggesting excessive flattery or servility.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.16 12:16 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">05000/05161_pekopeko</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="てか - or rather, I mean, actually. Japanese-English dictionary entry with definitions and examples.">
+    <title>てか (てか) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">てか</h1>
+            <div class="entry-reading">てか</div>
+            <div class="entry-pos">conjunction</div>
+            <div class="entry-gloss">or rather, I mean, actually</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">or rather, I mean</span>
+                    <div class="definition-explanation">Used to correct or revise what was just said, or to introduce a more important point. Casual speech.</div>
+                </div>
+            
+
+                <div class="definition-item">
+                    <span class="definition-number">2.</span>
+                    <span class="definition-gloss">actually, by the way</span>
+                    <div class="definition-explanation">Used to change the topic or introduce something the speaker just thought of.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">てか、<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby><ruby>何<rp>(</rp><rt>なん</rt><rp>)</rp></ruby>の<ruby>日<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>だっけ？</div>
+                    <div class="example-english">Actually, what day is it today?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>面白<rp>(</rp><rt>おもしろ</rt><rp>)</rp></ruby>かった、てか<ruby>最高<rp>(</rp><rt>さいこう</rt><rp>)</rp></ruby>だった。</div>
+                    <div class="example-english">It was interesting, or rather, it was amazing.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">てか、なんでここにいるの？</div>
+                    <div class="example-english">Wait, why are you here?</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>忙<rp>(</rp><rt>いそが</rt><rp>)</rp></ruby>しいっていうか、てか<ruby>時間<rp>(</rp><rt>じかん</rt><rp>)</rp></ruby>がないんだよね。</div>
+                    <div class="example-english">It&#x27;s not so much that I&#x27;m busy, I mean, I just don&#x27;t have time.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>REGISTER: Casual/informal speech. Very common among young people and in everyday conversation. Not appropriate for formal situations.</p><p>ORIGIN: Contraction of というか (to iu ka) meaning &#x27;or rather&#x27; or &#x27;I mean.&#x27;</p><p>USAGE:</p><ul><li>At the beginning of a sentence to change topics or interrupt</li><li>After a statement to correct or emphasize</li><li>To introduce a sudden thought</li></ul><p>SIMILAR EXPRESSIONS:</p><ul><li>というか: Or rather, I mean (more standard)</li><li>っていうか: Or rather (casual, same meaning)</li><li>ていうか: I mean (casual variant)</li><li>そういえば: Speaking of which, come to think of it</li></ul><p>NOTE: Some speakers consider てか to be somewhat rude or too casual. Use with friends and peers, but avoid in formal settings.</p></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref pending">
+                        <span class="cross-ref-type">Related:</span>
+                        <span class="cross-ref-pending">というか</span>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.17 17:22 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">06000/06284_teka</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

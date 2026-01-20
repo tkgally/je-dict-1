@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="臨場感 - sense of presence; sense of being there. Japanese-English dictionary entry with definitions and examples.">
+    <title>臨場感 (りんじょうかん) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>臨場感<rp>(</rp><rt>りんじょうかん</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">りんじょうかん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">sense of presence; sense of being there</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">sense of presence; sense of being there</span>
+                    <div class="definition-explanation">The feeling of actually being present at or in a scene, especially when experiencing media like movies, games, or audio systems.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>映画<rp>(</rp><rt>えいが</rt><rp>)</rp></ruby>は<ruby>臨場感<rp>(</rp><rt>りんじょうかん</rt><rp>)</rp></ruby>がすごい。</div>
+                    <div class="example-english">This movie has an amazing sense of presence.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese">VRゲームは<ruby>臨場感<rp>(</rp><rt>りんじょうかん</rt><rp>)</rp></ruby>が<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い。</div>
+                    <div class="example-english">VR games have a high sense of immersion.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>臨場感<rp>(</rp><rt>りんじょうかん</rt><rp>)</rp></ruby>あふれる<ruby>実況<rp>(</rp><rt>じっきょう</rt><rp>)</rp></ruby>に<ruby>興奮<rp>(</rp><rt>こうふん</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I got excited by the commentary that was full of vivid realism.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>FORMATION:<br><ruby>臨場<rp>(</rp><rt>りんじょう</rt><rp>)</rp></ruby> (being on the scene) + <ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby> (feeling)</p><p>COMMON PATTERNS:</p><ul><li><ruby>臨場感<rp>(</rp><rt>りんじょうかん</rt><rp>)</rp></ruby>がある: to have a sense of presence</li><li><ruby>臨場感<rp>(</rp><rt>りんじょうかん</rt><rp>)</rp></ruby>を<ruby>味<rp>(</rp><rt>あじ</rt><rp>)</rp></ruby>わう: to experience the sense of being there</li><li><ruby>臨場感<rp>(</rp><rt>りんじょうかん</rt><rp>)</rp></ruby>あふれる: full of vivid realism</li><li><ruby>臨場感<rp>(</rp><rt>りんじょうかん</rt><rp>)</rp></ruby>が<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い: having high immersion</li></ul><p>CONTEXT:</p><p>Frequently used when discussing:</p><ul><li>Movies, especially with surround sound or 3D</li><li>Video games, especially VR</li><li>Audio equipment (speakers, headphones)</li><li>Live broadcasts and sports commentary</li><li>Theme park attractions</li></ul><p>ENGLISH EQUIVALENTS:<br>Often translated as &quot;sense of presence,&quot; &quot;immersion,&quot; &quot;realism,&quot; or &quot;you-are-there feeling&quot; depending on context.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.17 15:49 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">06000/06251_rinjoukan</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

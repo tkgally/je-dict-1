@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="看護婦 - (female) nurse. Japanese-English dictionary entry with definitions and examples.">
+    <title>看護婦 (かんごふ) - Japanese-English Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../search.html" class="nav-link">Search</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+    </nav>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>看護婦<rp>(</rp><rt>かんごふ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">かんごふ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">(female) nurse</div>
+        </div>
+    
+<div class="definitions"><h2>Definitions</h2>
+
+                <div class="definition-item">
+                    <span class="definition-number">1.</span>
+                    <span class="definition-gloss">(female) nurse</span>
+                    <div class="definition-explanation">A traditional term for a female nurse. Note: This term is now considered dated; the gender-neutral term <ruby>看護師<rp>(</rp><rt>かんごし</rt><rp>)</rp></ruby> is now the standard professional title.</div>
+                </div>
+            
+</div>
+<div class="examples"><h2>Examples</h2>
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>看護婦<rp>(</rp><rt>かんごふ</rt><rp>)</rp></ruby>さんが<ruby>注射<rp>(</rp><rt>ちゅうしゃ</rt><rp>)</rp></ruby>をしてくれた。</div>
+                    <div class="example-english">The nurse gave me an injection.</div>
+                    
+                </div>
+            
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>姉<rp>(</rp><rt>あね</rt><rp>)</rp></ruby>は<ruby>病院<rp>(</rp><rt>びょういん</rt><rp>)</rp></ruby>で<ruby>看護婦<rp>(</rp><rt>かんごふ</rt><rp>)</rp></ruby>として<ruby>働<rp>(</rp><rt>はたら</rt><rp>)</rp></ruby>いています。</div>
+                    <div class="example-english">My older sister works as a nurse at a hospital.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <h2>Notes</h2>
+                <div class="notes-content"><p>This term specifically refers to female nurses. Modern Japanese prefers the gender-neutral <ruby>看護師<rp>(</rp><rt>かんごし</rt><rp>)</rp></ruby> (kangoshi), which is now the official professional term used in healthcare settings. You may still encounter <ruby>看護婦<rp>(</rp><rt>かんごふ</rt><rp>)</rp></ruby> in older texts or informal speech.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.8 21:50 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">01000/01380_kangofu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
