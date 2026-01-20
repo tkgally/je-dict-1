@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-19
+**Last updated**: 2026-01-20
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,389
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,596 | Unassigned: 0 ✓
-- **Candidate words**: ~633 words tracked in `candidate_words.json`
+- **Total entries**: 7,419
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,626 | Unassigned: 0 ✓
+- **Candidate words**: ~603 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 135)
+Added 30 new dictionary entries from candidate_words.json, focusing on cooking vocabulary, business documents, seal terminology, office supplies, infrastructure/housing, and employment terms:
+
+- **Cooking cuts (6)**: みじん{切|ぎ}り (finely chopped), {千切|せんぎ}り (julienne), {輪切|わぎ}り (round slices), {薄切|うすぎ}り (thin slices), {厚切|あつぎ}り (thick slices), {下処理|したしょり} (preliminary preparation)
+- **Food items (4)**: {油揚|あぶらあ}げ (deep-fried tofu), {厚揚|あつあ}げ (thick fried tofu), ちくわ (tube-shaped fish cake), しらたき (konjac noodles)
+- **Business documents (6)**: {議事録|ぎじろく} (meeting minutes), {稟議|りんぎ} (approval request), {見積書|みつもりしょ} (quotation), {仕様書|しようしょ} (specification document), {申請書|しんせいしょ} (application form), {伝票|でんぴょう} (slip/voucher)
+- **Seal terminology (4)**: {押印|おういん} (affixing seal), {認印|みとめいん} (personal seal), {実印|じついん} (registered seal), {印鑑登録|いんかんとうろく} (seal registration)
+- **Office supplies (3)**: シュレッダー (shredder), トナー (toner), {紙詰|かみづ}まり (paper jam)
+- **Infrastructure/housing (4)**: {配管|はいかん} (plumbing), ブレーカー (circuit breaker), {収納|しゅうのう} (storage), {日当|ひあ}たり (sun exposure)
+- **Employment (3)**: {内定|ないてい} (unofficial job offer), {定年|ていねん} (retirement age), {控除|こうじょ} (deduction)
+
+Notable entry features:
+- Complete Japanese seal system vocabulary: {押印|おういん} → {認印|みとめいん} → {実印|じついん} → {印鑑登録|いんかんとうろく} with detailed registration process and requirements
+- Comprehensive cooking cut terms covering all common Japanese cutting styles
+- Traditional Japanese food items (tofu products, konjac)
+- Japanese employment system vocabulary: {内定|ないてい} with explanation of Japan's unique job offer system
+- Infrastructure vocabulary useful for housing: {配管|はいかん}, ブレーカー, {収納|しゅうのう}, {日当|ひあ}たり
+- Business document types essential for office work in Japan
+
+Total entries: 7,389 → 7,419
+Remaining candidates: ~633 → ~603
 
 ### 2026-01-20 (New Candidates - 100 Words Added, Session 134)
 Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
@@ -349,28 +371,6 @@ Notable entry features:
 
 Total entries: 7,209 → 7,239
 Remaining candidates: ~607 → ~577
-
-### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 126)
-Added 30 new dictionary entries from candidate_words.json, focusing on compound verbs, comfort/worth expressions, physical sensations, and useful vocabulary:
-
-- **Compound verbs** (6): {繰|く}り{下|さ}げる (to postpone), {沸|わ}き{上|あ}がる (to well up), {突|つ}き{当|あ}たる (to run into), {差|さ}し{伸|の}べる (to extend), {突|つ}き{進|すす}む (to push forward), {切|き}り{下|さ}げる (to cut down)
-- **～{心地|ごこち} comfort words** (4): {乗|の}り{心地|ごこち} (ride comfort), {着心地|きごこち} (wearing comfort), {寝心地|ねごこち} (sleeping comfort), {使|つか}い{心地|ごこち} (ease of use)
-- **～{応|ごた}え worth expressions** (4): {歯応|はごた}え (chewiness), {読|よ}み{応|ごた}え (worth reading), {見応|みごた}え (worth seeing), {聞|き}き{応|ごた}え (worth listening)
-- **Physical sensations** (5): {痺|しび}れ (numbness), むくみ (swelling), かゆみ (itchiness), {凝|こ}り (stiffness), {持病|じびょう} (chronic illness)
-- **Everyday vocabulary** (4): {口癖|くちぐせ} (verbal habit), {励|はげ}み (encouragement), {張|は}り{合|あ}い (motivation), {日頃|ひごろ} (usually)
-- **Abstract/business** (3): {裁量|さいりょう} (discretion), {目処|めど} (prospect), {大筋|おおすじ} (outline)
-- **Yojijukugo** (3): {日常茶飯事|にちじょうさはんじ} (everyday occurrence), {紆余曲折|うよきょくせつ} (twists and turns), {自己満足|じこまんぞく} (self-satisfaction)
-- **Noun** (1): {虚栄心|きょえいしん} (vanity)
-
-Notable entry features:
-- Complete ～{心地|ごこち} pattern: 4 related words showing how this suffix creates comfort expressions
-- Complete ～{応|ごた}え pattern: 4 expressions describing worth/satisfaction across different senses
-- Physical sensation vocabulary: common body-related words for describing discomfort
-- Compound verbs with {繰|く}り～, {突|つ}き～, {切|き}り～ patterns
-- Three yojijukugo with character breakdown and usage notes
-
-Total entries: 7,179 → 7,209
-Remaining candidates: ~637 → ~607
 
 ---
 

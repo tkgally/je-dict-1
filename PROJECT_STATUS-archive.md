@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 126)
+Added 30 new dictionary entries from candidate_words.json, focusing on compound verbs, comfort/worth expressions, physical sensations, and useful vocabulary:
+
+- **Compound verbs** (6): {繰|く}り{下|さ}げる (to postpone), {沸|わ}き{上|あ}がる (to well up), {突|つ}き{当|あ}たる (to run into), {差|さ}し{伸|の}べる (to extend), {突|つ}き{進|すす}む (to push forward), {切|き}り{下|さ}げる (to cut down)
+- **～{心地|ごこち} comfort words** (4): {乗|の}り{心地|ごこち} (ride comfort), {着心地|きごこち} (wearing comfort), {寝心地|ねごこち} (sleeping comfort), {使|つか}い{心地|ごこち} (ease of use)
+- **～{応|ごた}え worth expressions** (4): {歯応|はごた}え (chewiness), {読|よ}み{応|ごた}え (worth reading), {見応|みごた}え (worth seeing), {聞|き}き{応|ごた}え (worth listening)
+- **Physical sensations** (5): {痺|しび}れ (numbness), むくみ (swelling), かゆみ (itchiness), {凝|こ}り (stiffness), {持病|じびょう} (chronic illness)
+- **Everyday vocabulary** (4): {口癖|くちぐせ} (verbal habit), {励|はげ}み (encouragement), {張|は}り{合|あ}い (motivation), {日頃|ひごろ} (usually)
+- **Abstract/business** (3): {裁量|さいりょう} (discretion), {目処|めど} (prospect), {大筋|おおすじ} (outline)
+- **Yojijukugo** (3): {日常茶飯事|にちじょうさはんじ} (everyday occurrence), {紆余曲折|うよきょくせつ} (twists and turns), {自己満足|じこまんぞく} (self-satisfaction)
+- **Noun** (1): {虚栄心|きょえいしん} (vanity)
+
+Notable entry features:
+- Complete ～{心地|ごこち} pattern: 4 related words showing how this suffix creates comfort expressions
+- Complete ～{応|ごた}え pattern: 4 expressions describing worth/satisfaction across different senses
+- Physical sensation vocabulary: common body-related words for describing discomfort
+- Compound verbs with {繰|く}り～, {突|つ}き～, {切|き}り～ patterns
+- Three yojijukugo with character breakdown and usage notes
+
+Total entries: 7,179 → 7,209
+Remaining candidates: ~637 → ~607
+
 ### 2026-01-19 (Vocabulary Expansion - 30 New Entries, Session 125)
 Added 30 new dictionary entries from candidate_words.json, covering adverbs, adjectives, compound verbs, and practical vocabulary:
 
