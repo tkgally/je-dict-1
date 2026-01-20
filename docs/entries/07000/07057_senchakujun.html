@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">first-come, first-served; order of arrival</span>
-                    <div class="definition-explanation">A system where people who arrive or apply first are given priority.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">first-come, first-served; order of arrival</span>
+                        <div class="definition-explanation">A system where people who arrive or apply first are given priority.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>先着順<rp>(</rp><rt>せんちゃくじゅん</rt><rp>)</rp></ruby>100<ruby>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby>に<ruby>プレゼント<rp>(</rp><rt>ぷれぜんと</rt><rp>)</rp></ruby>があります。</div>
                     <div class="example-english">The first 100 people will receive a gift.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>予約<rp>(</rp><rt>よやく</rt><rp>)</rp></ruby>は<ruby>先着順<rp>(</rp><rt>せんちゃくじゅん</rt><rp>)</rp></ruby>ですので、お<ruby>早<rp>(</rp><rt>はや</rt><rp>)</rp></ruby>めに。</div>
                     <div class="example-english">Reservations are first-come, first-served, so please hurry.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

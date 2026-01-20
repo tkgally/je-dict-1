@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to postpone; to move back (in time); to defer</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to postpone; to move back (a date or time)</span>
-                    <div class="definition-explanation">To reschedule something to happen later than originally planned.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to postpone; to move back (a date or time)</span>
+                        <div class="definition-explanation">To reschedule something to happen later than originally planned.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to defer; to push back (a deadline or age)</span>
-                    <div class="definition-explanation">To delay something, especially a payment start date or retirement age.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>会議<rp>(</rp><rt>かいぎ</rt><rp>)</rp></ruby>の<ruby>日程<rp>(</rp><rt>にってい</rt><rp>)</rp></ruby>を2<ruby>日<rp>(</rp><rt>にち</rt><rp>)</rp></ruby><ruby>繰<rp>(</rp><rt>く</rt><rp>)</rp></ruby>り<ruby>下<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>げた。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>台風<rp>(</rp><rt>たいふう</rt><rp>)</rp></ruby>の<ruby>影響<rp>(</rp><rt>えいきょう</rt><rp>)</rp></ruby>で<ruby>運動会<rp>(</rp><rt>うんどうかい</rt><rp>)</rp></ruby>を<ruby>繰<rp>(</rp><rt>く</rt><rp>)</rp></ruby>り<ruby>下<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>げることにした。</div>
                     <div class="example-english">Due to the typhoon, we decided to postpone the sports day.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to defer; to push back (a deadline or age)</span>
+                        <div class="definition-explanation">To delay something, especially a payment start date or retirement age.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>年金<rp>(</rp><rt>ねんきん</rt><rp>)</rp></ruby>の<ruby>受給<rp>(</rp><rt>じゅきゅう</rt><rp>)</rp></ruby><ruby>開始<rp>(</rp><rt>かいし</rt><rp>)</rp></ruby><ruby>年齢<rp>(</rp><rt>ねんれい</rt><rp>)</rp></ruby>を<ruby>繰<rp>(</rp><rt>く</rt><rp>)</rp></ruby>り<ruby>下<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>げると<ruby>月額<rp>(</rp><rt>げつがく</rt><rp>)</rp></ruby>が<ruby>増<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>える。</div>
@@ -72,6 +81,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

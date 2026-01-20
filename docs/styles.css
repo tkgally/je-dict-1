@@ -65,7 +65,50 @@ body {
     background-color: var(--color-accent-light);
 }
 
-/* Furigana Toggle Button */
+/* Toggle Buttons Container */
+.toggle-buttons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* Toggle Button Base Styles */
+.toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.7rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.toggle-btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.toggle-btn.active {
+    background-color: var(--color-accent-light);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.toggle-icon {
+    font-family: var(--font-jp);
+    font-size: 1rem;
+}
+
+.toggle-label {
+    font-size: 0.8rem;
+}
+
+/* Furigana Toggle Button (legacy support) */
 .furigana-toggle-btn {
     display: flex;
     align-items: center;
@@ -108,6 +151,12 @@ body {
 }
 
 .furigana-hidden ruby rp {
+    display: none;
+}
+
+/* Examples Hidden State */
+.examples-hidden .examples,
+.examples-hidden .sense-examples {
     display: none;
 }
 
@@ -321,6 +370,34 @@ main {
     font-size: 0.85rem;
     font-style: italic;
     margin-top: 0.25rem;
+}
+
+/* Definitions with Examples (multi-sense layout) */
+.definitions-with-examples {
+    margin-top: var(--spacing-lg);
+}
+
+.sense-block {
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.sense-block:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sense-examples {
+    margin-top: var(--spacing-md);
+    margin-left: var(--spacing-md);
+}
+
+.general-examples {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--color-border);
 }
 
 /* Notes */
@@ -881,6 +958,14 @@ footer a:hover {
         font-size: 0.9rem;
     }
 
+    .toggle-buttons {
+        order: 1;
+    }
+
+    .toggle-label {
+        display: none;
+    }
+
     .furigana-toggle-btn {
         order: 1;
     }
@@ -918,5 +1003,9 @@ footer a:hover {
 
     .metadata-dates {
         text-align: left;
+    }
+
+    .sense-examples {
+        margin-left: 0;
     }
 }

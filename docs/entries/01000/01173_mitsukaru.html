@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to be found, to be discovered</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to be found, to be discovered</span>
-                    <div class="definition-explanation">For something that was lost or hidden to become found. The intransitive form.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to be found, to be discovered</span>
+                        <div class="definition-explanation">For something that was lost or hidden to become found. The intransitive form.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to be caught, to be detected</span>
-                    <div class="definition-explanation">For a person doing something wrong to be discovered.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>財布<rp>(</rp><rt>さいふ</rt><rp>)</rp></ruby>が<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>つかった。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>仕事<rp>(</rp><rt>しごと</rt><rp>)</rp></ruby>が<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>つからない。</div>
                     <div class="example-english">I can&#x27;t find a job.</div>
                     <div class="example-notes">Common for job hunting</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to be caught, to be detected</span>
+                        <div class="definition-explanation">For a person doing something wrong to be discovered.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">サボっているのが<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>つかった。</div>
@@ -72,6 +81,8 @@
                     <div class="example-notes">&#x27;Be caught&#x27; meaning</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

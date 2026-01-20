@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">sound; echo; reverberation; ring</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">sound; echo; reverberation</span>
-                    <div class="definition-explanation">A sound that resonates or echoes.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">sound; echo; reverberation</span>
+                        <div class="definition-explanation">A sound that resonates or echoes.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">ring; tone; nuance</span>
-                    <div class="definition-explanation">The quality or impression of a sound or word.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>鐘<rp>(</rp><rt>かね</rt><rp>)</rp></ruby>の<ruby>響<rp>(</rp><rt>ひび</rt><rp>)</rp></ruby>きが<ruby>遠<rp>(</rp><rt>とお</rt><rp>)</rp></ruby>くまで<ruby>聞<rp>(</rp><rt>き</rt><rp>)</rp></ruby>こえた。</div>
@@ -58,6 +57,23 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese">ピアノの<ruby>響<rp>(</rp><rt>ひび</rt><rp>)</rp></ruby>きが<ruby>美<rp>(</rp><rt>うつく</rt><rp>)</rp></ruby>しい。</div>
+                    <div class="example-english">The sound of the piano is beautiful.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">ring; tone; nuance</span>
+                        <div class="definition-explanation">The quality or impression of a sound or word.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>言葉<rp>(</rp><rt>ことば</rt><rp>)</rp></ruby>には<ruby>優<rp>(</rp><rt>やさ</rt><rp>)</rp></ruby>しい<ruby>響<rp>(</rp><rt>ひび</rt><rp>)</rp></ruby>きがある。</div>
@@ -65,13 +81,8 @@
                     
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese">ピアノの<ruby>響<rp>(</rp><rt>ひび</rt><rp>)</rp></ruby>きが<ruby>美<rp>(</rp><rt>うつく</rt><rp>)</rp></ruby>しい。</div>
-                    <div class="example-english">The sound of the piano is beautiful.</div>
-                    
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -135,6 +146,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

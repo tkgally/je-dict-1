@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">side, armpit</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">side, beside</span>
-                    <div class="definition-explanation">The area next to or beside something; the side of something.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">side, beside</span>
+                        <div class="definition-explanation">The area next to or beside something; the side of something.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">armpit</span>
-                    <div class="definition-explanation">The hollow area under the arm where it joins the body.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>道<rp>(</rp><rt>みち</rt><rp>)</rp></ruby>の<ruby>脇<rp>(</rp><rt>わき</rt><rp>)</rp></ruby>に<ruby>車<rp>(</rp><rt>くるま</rt><rp>)</rp></ruby>を<ruby>止<rp>(</rp><rt>と</rt><rp>)</rp></ruby>めた。</div>
@@ -58,6 +57,23 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>脇役<rp>(</rp><rt>わきやく</rt><rp>)</rp></ruby>だが<ruby>重要<rp>(</rp><rt>じゅうよう</rt><rp>)</rp></ruby>な<ruby>役<rp>(</rp><rt>やく</rt><rp>)</rp></ruby>だ。</div>
+                    <div class="example-english">It&#x27;s a supporting role, but an important one.</div>
+                    <div class="example-notes">脇役 = supporting role/actor</div>
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">armpit</span>
+                        <div class="definition-explanation">The hollow area under the arm where it joins the body.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>脇<rp>(</rp><rt>わき</rt><rp>)</rp></ruby>に<ruby>抱<rp>(</rp><rt>かか</rt><rp>)</rp></ruby>えて<ruby>運<rp>(</rp><rt>はこ</rt><rp>)</rp></ruby>んだ。</div>
@@ -65,13 +81,8 @@
                     <div class="example-notes">脇に抱える = to carry under one&#x27;s arm</div>
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>脇役<rp>(</rp><rt>わきやく</rt><rp>)</rp></ruby>だが<ruby>重要<rp>(</rp><rt>じゅうよう</rt><rp>)</rp></ruby>な<ruby>役<rp>(</rp><rt>やく</rt><rp>)</rp></ruby>だ。</div>
-                    <div class="example-english">It&#x27;s a supporting role, but an important one.</div>
-                    <div class="example-notes">脇役 = supporting role/actor</div>
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +128,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

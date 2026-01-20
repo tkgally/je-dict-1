@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to remove; to eliminate</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to remove; to take away</span>
-                    <div class="definition-explanation">To physically remove something unwanted from a place or object.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to remove; to take away</span>
+                        <div class="definition-explanation">To physically remove something unwanted from a place or object.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to eliminate; to get rid of</span>
-                    <div class="definition-explanation">To eliminate abstract things like problems, obstacles, or concerns.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>庭<rp>(</rp><rt>にわ</rt><rp>)</rp></ruby>の<ruby>雑草<rp>(</rp><rt>ざっそう</rt><rp>)</rp></ruby>を<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>除<rp>(</rp><rt>のぞ</rt><rp>)</rp></ruby>いた。</div>
@@ -58,6 +57,23 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese">この<ruby>洗剤<rp>(</rp><rt>せんざい</rt><rp>)</rp></ruby>は<ruby>頑固<rp>(</rp><rt>がんこ</rt><rp>)</rp></ruby>な<ruby>汚<rp>(</rp><rt>よご</rt><rp>)</rp></ruby>れをきれいに<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>除<rp>(</rp><rt>のぞ</rt><rp>)</rp></ruby>くことができる。</div>
+                    <div class="example-english">This detergent can cleanly remove stubborn stains.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to eliminate; to get rid of</span>
+                        <div class="definition-explanation">To eliminate abstract things like problems, obstacles, or concerns.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>不安<rp>(</rp><rt>ふあん</rt><rp>)</rp></ruby>を<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>除<rp>(</rp><rt>のぞ</rt><rp>)</rp></ruby>くために、<ruby>何度<rp>(</rp><rt>なんど</rt><rp>)</rp></ruby>も<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>した。</div>
@@ -65,13 +81,8 @@
                     
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese">この<ruby>洗剤<rp>(</rp><rt>せんざい</rt><rp>)</rp></ruby>は<ruby>頑固<rp>(</rp><rt>がんこ</rt><rp>)</rp></ruby>な<ruby>汚<rp>(</rp><rt>よご</rt><rp>)</rp></ruby>れをきれいに<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>除<rp>(</rp><rt>のぞ</rt><rp>)</rp></ruby>くことができる。</div>
-                    <div class="example-english">This detergent can cleanly remove stubborn stains.</div>
-                    
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +128,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

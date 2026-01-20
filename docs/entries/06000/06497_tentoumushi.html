@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">ladybug, ladybird</span>
-                    <div class="definition-explanation">A small beetle with a rounded, dome-shaped body, typically red or orange with black spots. Considered beneficial in gardens as they eat aphids.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">ladybug, ladybird</span>
+                        <div class="definition-explanation">A small beetle with a rounded, dome-shaped body, typically red or orange with black spots. Considered beneficial in gardens as they eat aphids.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">てんとう<ruby>虫<rp>(</rp><rt>むし</rt><rp>)</rp></ruby>は<ruby>害虫<rp>(</rp><rt>がいちゅう</rt><rp>)</rp></ruby>を<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べてくれる<ruby>益虫<rp>(</rp><rt>えきちゅう</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">Ladybugs are beneficial insects that eat pests.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>赤<rp>(</rp><rt>あか</rt><rp>)</rp></ruby>と<ruby>黒<rp>(</rp><rt>くろ</rt><rp>)</rp></ruby>の<ruby>模様<rp>(</rp><rt>もよう</rt><rp>)</rp></ruby>のてんとう<ruby>虫<rp>(</rp><rt>むし</rt><rp>)</rp></ruby>を<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>つけた。</div>
                     <div class="example-english">I found a ladybug with a red and black pattern.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">てんとう<ruby>虫<rp>(</rp><rt>むし</rt><rp>)</rp></ruby>は<ruby>幸運<rp>(</rp><rt>こううん</rt><rp>)</rp></ruby>のシンボルとされている。</div>
                     <div class="example-english">Ladybugs are considered a symbol of good luck.</div>
@@ -117,6 +120,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

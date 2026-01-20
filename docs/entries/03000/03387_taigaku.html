@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">dropping out of school, withdrawal from school</span>
-                    <div class="definition-explanation">Leaving school before completing one&#x27;s education, either voluntarily or by expulsion.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">dropping out of school, withdrawal from school</span>
+                        <div class="definition-explanation">Leaving school before completing one&#x27;s education, either voluntarily or by expulsion.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>校則違反<rp>(</rp><rt>こうそくいはん</rt><rp>)</rp></ruby>で<ruby>退学<rp>(</rp><rt>たいがく</rt><rp>)</rp></ruby>になった<ruby>生徒<rp>(</rp><rt>せいと</rt><rp>)</rp></ruby>がいる。</div>
                     <div class="example-english">There are students who were expelled for violating school rules.</div>
                     <div class="example-notes">退学になる = to be expelled (involuntary)</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>退学届<rp>(</rp><rt>たいがくとどけ</rt><rp>)</rp></ruby>を<ruby>提出<rp>(</rp><rt>ていしゅつ</rt><rp>)</rp></ruby>する。</div>
                     <div class="example-english">To submit a withdrawal form.</div>
@@ -128,6 +132,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

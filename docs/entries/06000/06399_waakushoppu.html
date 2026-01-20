@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">workshop</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">workshop (participatory seminar)</span>
-                    <div class="definition-explanation">An interactive educational session where participants actively learn through hands-on activities, discussions, and group work rather than passive listening.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">workshop (participatory seminar)</span>
+                        <div class="definition-explanation">An interactive educational session where participants actively learn through hands-on activities, discussions, and group work rather than passive listening.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">workshop (creative studio)</span>
-                    <div class="definition-explanation">A workplace for artists, craftspeople, or makers to create their works, often also used for teaching.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">プログラミングのワークショップに<ruby>参加<rp>(</rp><rt>さんか</rt><rp>)</rp></ruby>した。</div>
@@ -58,13 +57,29 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">ワークショップで<ruby>実際<rp>(</rp><rt>じっさい</rt><rp>)</rp></ruby>に<ruby>手<rp>(</rp><rt>て</rt><rp>)</rp></ruby>を<ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>かして<ruby>学<rp>(</rp><rt>まな</rt><rp>)</rp></ruby>ぶ。</div>
                     <div class="example-english">At workshops, you learn by actually doing hands-on work.</div>
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese">アートワークショップで<ruby>陶芸<rp>(</rp><rt>とうげい</rt><rp>)</rp></ruby>を<ruby>体験<rp>(</rp><rt>たいけん</rt><rp>)</rp></ruby>できる。</div>
+                    <div class="example-english">You can experience pottery at the art workshop.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">workshop (creative studio)</span>
+                        <div class="definition-explanation">A workplace for artists, craftspeople, or makers to create their works, often also used for teaching.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">アートワークショップで<ruby>陶芸<rp>(</rp><rt>とうげい</rt><rp>)</rp></ruby>を<ruby>体験<rp>(</rp><rt>たいけん</rt><rp>)</rp></ruby>できる。</div>
@@ -72,13 +87,14 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>は<ruby>自宅<rp>(</rp><rt>じたく</rt><rp>)</rp></ruby>の<ruby>一角<rp>(</rp><rt>いっかく</rt><rp>)</rp></ruby>にワークショップを<ruby>設<rp>(</rp><rt>もう</rt><rp>)</rp></ruby>けている。</div>
                     <div class="example-english">She has set up a workshop in a corner of her home.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -134,6 +150,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

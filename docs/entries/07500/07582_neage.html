@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">price increase; raising prices; price hike</span>
-                    <div class="definition-explanation">The act of increasing the price of goods, services, or wages.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">price increase; raising prices; price hike</span>
+                        <div class="definition-explanation">The act of increasing the price of goods, services, or wages.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>原材料<rp>(</rp><rt>げんざいりょう</rt><rp>)</rp></ruby>の<ruby>高騰<rp>(</rp><rt>こうとう</rt><rp>)</rp></ruby>で<ruby>値上<rp>(</rp><rt>ねあ</rt><rp>)</rp></ruby>げせざるを<ruby>得<rp>(</rp><rt>え</rt><rp>)</rp></ruby>ない。</div>
                     <div class="example-english">Due to soaring raw material costs, we have no choice but to raise prices.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>相次<rp>(</rp><rt>あいつ</rt><rp>)</rp></ruby>ぐ<ruby>値上<rp>(</rp><rt>ねあ</rt><rp>)</rp></ruby>げで<ruby>家計<rp>(</rp><rt>かけい</rt><rp>)</rp></ruby>が<ruby>苦<rp>(</rp><rt>くる</rt><rp>)</rp></ruby>しい。</div>
                     <div class="example-english">Successive price increases are straining our household budget.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

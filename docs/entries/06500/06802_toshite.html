@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">as (in the capacity of)</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">as, in the capacity of, in the role of</span>
-                    <div class="definition-explanation">Indicates the role, status, or capacity in which someone or something acts or is regarded.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">as, in the capacity of, in the role of</span>
+                        <div class="definition-explanation">Indicates the role, status, or capacity in which someone or something acts or is regarded.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">regarding as, considering as</span>
-                    <div class="definition-explanation">Indicates how something is regarded or treated.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は<ruby>教師<rp>(</rp><rt>きょうし</rt><rp>)</rp></ruby>として<ruby>働<rp>(</rp><rt>はたら</rt><rp>)</rp></ruby>いている。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>友人<rp>(</rp><rt>ゆうじん</rt><rp>)</rp></ruby>としてアドバイスする。</div>
                     <div class="example-english">I&#x27;ll give advice as a friend.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">regarding as, considering as</span>
+                        <div class="definition-explanation">Indicates how something is regarded or treated.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>問題<rp>(</rp><rt>もんだい</rt><rp>)</rp></ruby>を<ruby>最優先<rp>(</rp><rt>さいゆうせん</rt><rp>)</rp></ruby><ruby>事項<rp>(</rp><rt>じこう</rt><rp>)</rp></ruby>として<ruby>扱<rp>(</rp><rt>あつか</rt><rp>)</rp></ruby>う。</div>
@@ -72,13 +81,14 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>日本<rp>(</rp><rt>にほん</rt><rp>)</rp></ruby>は<ruby>経済<rp>(</rp><rt>けいざい</rt><rp>)</rp></ruby><ruby>大国<rp>(</rp><rt>たいこく</rt><rp>)</rp></ruby>として<ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>られている。</div>
                     <div class="example-english">Japan is known as an economic powerhouse.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -124,6 +134,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">dictatorship; autocracy</span>
-                    <div class="definition-explanation">A form of government in which one person or a small group holds absolute power. Also used more broadly to describe any situation where one person has complete control.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">dictatorship; autocracy</span>
+                        <div class="definition-explanation">A form of government in which one person or a small group holds absolute power. Also used more broadly to describe any situation where one person has complete control.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>独裁者<rp>(</rp><rt>どくさいしゃ</rt><rp>)</rp></ruby>が<ruby>国<rp>(</rp><rt>くに</rt><rp>)</rp></ruby>を<ruby>支配<rp>(</rp><rt>しはい</rt><rp>)</rp></ruby>している。</div>
                     <div class="example-english">A dictator rules the country.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>会社<rp>(</rp><rt>かいしゃ</rt><rp>)</rp></ruby>では<ruby>社長<rp>(</rp><rt>しゃちょう</rt><rp>)</rp></ruby>が<ruby>独裁的<rp>(</rp><rt>どくさいてき</rt><rp>)</rp></ruby>に<ruby>決定<rp>(</rp><rt>けってい</rt><rp>)</rp></ruby>を<ruby>下<rp>(</rp><rt>くだ</rt><rp>)</rp></ruby>す。</div>
                     <div class="example-english">At the company, the president makes decisions autocratically.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

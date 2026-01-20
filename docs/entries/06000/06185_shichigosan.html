@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">Shichi-Go-San festival</span>
-                    <div class="definition-explanation">A traditional Japanese festival celebrating children&#x27;s growth, held on November 15th for children ages 3, 5, and 7.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">Shichi-Go-San festival</span>
+                        <div class="definition-explanation">A traditional Japanese festival celebrating children&#x27;s growth, held on November 15th for children ages 3, 5, and 7.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>娘<rp>(</rp><rt>むすめ</rt><rp>)</rp></ruby>が<ruby>七歳<rp>(</rp><rt>ななさい</rt><rp>)</rp></ruby>なので、<ruby>今年<rp>(</rp><rt>ことし</rt><rp>)</rp></ruby>は<ruby>七五三<rp>(</rp><rt>しちごさん</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">Since my daughter is seven years old, this year we have Shichi-Go-San.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>七五三<rp>(</rp><rt>しちごさん</rt><rp>)</rp></ruby>で<ruby>神社<rp>(</rp><rt>じんじゃ</rt><rp>)</rp></ruby>にお<ruby>参<rp>(</rp><rt>まい</rt><rp>)</rp></ruby>りに<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>く。</div>
                     <div class="example-english">We go to the shrine for Shichi-Go-San.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

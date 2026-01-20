@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to corner, to drive into</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to drive into, to chase into</span>
-                    <div class="definition-explanation">To force someone or something into a confined space by chasing.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to drive into, to chase into</span>
+                        <div class="definition-explanation">To force someone or something into a confined space by chasing.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to corner, to push into a difficult situation</span>
-                    <div class="definition-explanation">To force someone into a desperate or disadvantageous position, either literally or figuratively.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>羊<rp>(</rp><rt>ひつじ</rt><rp>)</rp></ruby>を<ruby>囲<rp>(</rp><rt>かこ</rt><rp>)</rp></ruby>いに<ruby>追<rp>(</rp><rt>お</rt><rp>)</rp></ruby>い<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>む。</div>
@@ -58,6 +57,23 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>犯人<rp>(</rp><rt>はんにん</rt><rp>)</rp></ruby>を<ruby>袋小路<rp>(</rp><rt>ふくろこうじ</rt><rp>)</rp></ruby>に<ruby>追<rp>(</rp><rt>お</rt><rp>)</rp></ruby>い<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>んだ。</div>
+                    <div class="example-english">The criminal was cornered in a dead end.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to corner, to push into a difficult situation</span>
+                        <div class="definition-explanation">To force someone into a desperate or disadvantageous position, either literally or figuratively.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>犯人<rp>(</rp><rt>はんにん</rt><rp>)</rp></ruby>を<ruby>袋小路<rp>(</rp><rt>ふくろこうじ</rt><rp>)</rp></ruby>に<ruby>追<rp>(</rp><rt>お</rt><rp>)</rp></ruby>い<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>んだ。</div>
@@ -65,20 +81,20 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>借金<rp>(</rp><rt>しゃっきん</rt><rp>)</rp></ruby>で<ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>追<rp>(</rp><rt>お</rt><rp>)</rp></ruby>い<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>まれた<ruby>状況<rp>(</rp><rt>じょうきょう</rt><rp>)</rp></ruby>にある。</div>
                     <div class="example-english">He&#x27;s in a desperate situation due to debt.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>を<ruby>追<rp>(</rp><rt>お</rt><rp>)</rp></ruby>い<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>んでトレーニングする。</div>
                     <div class="example-english">To push oneself hard during training.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -124,6 +140,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

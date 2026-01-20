@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">common expense fee; common area maintenance fee</span>
-                    <div class="definition-explanation">A fee paid by tenants or owners for the maintenance of shared facilities and common areas in an apartment building or condominium.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">common expense fee; common area maintenance fee</span>
+                        <div class="definition-explanation">A fee paid by tenants or owners for the maintenance of shared facilities and common areas in an apartment building or condominium.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>家賃<rp>(</rp><rt>やちん</rt><rp>)</rp></ruby><ruby>8万円<rp>(</rp><rt>はちまんえん</rt><rp>)</rp></ruby>、<ruby>共益費<rp>(</rp><rt>きょうえきひ</rt><rp>)</rp></ruby><ruby>3千円<rp>(</rp><rt>さんぜんえん</rt><rp>)</rp></ruby>。</div>
                     <div class="example-english">Rent 80,000 yen, common expense fee 3,000 yen.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>共益費<rp>(</rp><rt>きょうえきひ</rt><rp>)</rp></ruby>で<ruby>廊下<rp>(</rp><rt>ろうか</rt><rp>)</rp></ruby>の<ruby>照明<rp>(</rp><rt>しょうめい</rt><rp>)</rp></ruby>が<ruby>賄<rp>(</rp><rt>まかな</rt><rp>)</rp></ruby>われている。</div>
                     <div class="example-english">The hallway lighting is covered by the common expense fee.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">to expose; to reveal; to unmask</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to expose; to reveal; to unmask</span>
-                    <div class="definition-explanation">To bring hidden wrongdoing, secrets, or lies to light.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to expose; to reveal; to unmask</span>
+                        <div class="definition-explanation">To bring hidden wrongdoing, secrets, or lies to light.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to dig up; to exhume</span>
-                    <div class="definition-explanation">To disturb or open something that was buried or concealed.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>記者<rp>(</rp><rt>きしゃ</rt><rp>)</rp></ruby>が<ruby>政治家<rp>(</rp><rt>せいじか</rt><rp>)</rp></ruby>の<ruby>不正<rp>(</rp><rt>ふせい</rt><rp>)</rp></ruby>を<ruby>暴<rp>(</rp><rt>あば</rt><rp>)</rp></ruby>いた。</div>
@@ -58,20 +57,29 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>嘘<rp>(</rp><rt>うそ</rt><rp>)</rp></ruby>を<ruby>暴<rp>(</rp><rt>あば</rt><rp>)</rp></ruby>かれて、<ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>黙<rp>(</rp><rt>だま</rt><rp>)</rp></ruby>り<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>んだ。</div>
                     <div class="example-english">When his lies were exposed, he fell silent.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>真実<rp>(</rp><rt>しんじつ</rt><rp>)</rp></ruby>を<ruby>暴<rp>(</rp><rt>あば</rt><rp>)</rp></ruby>くことが<ruby>正義<rp>(</rp><rt>せいぎ</rt><rp>)</rp></ruby>だと<ruby>信<rp>(</rp><rt>しん</rt><rp>)</rp></ruby>じている。</div>
                     <div class="example-english">I believe that exposing the truth is justice.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to dig up; to exhume</span>
+                        <div class="definition-explanation">To disturb or open something that was buried or concealed.</div>
+                    </div>
+            
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +125,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

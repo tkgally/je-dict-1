@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">but; however; provided that</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">but; however</span>
-                    <div class="definition-explanation">Used to introduce a contrasting or limiting statement.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">but; however</span>
+                        <div class="definition-explanation">Used to introduce a contrasting or limiting statement.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">provided that; on condition that</span>
-                    <div class="definition-explanation">Used to specify a condition or exception.</div>
-                </div>
-            
-</div>
-<div class="examples">
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>参加<rp>(</rp><rt>さんか</rt><rp>)</rp></ruby>は<ruby>自由<rp>(</rp><rt>じゆう</rt><rp>)</rp></ruby>です。<ruby>但<rp>(</rp><rt>ただ</rt><rp>)</rp></ruby>し、<ruby>事前<rp>(</rp><rt>じぜん</rt><rp>)</rp></ruby>に<ruby>申<rp>(</rp><rt>もう</rt><rp>)</rp></ruby>し<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>みが<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>です。</div>
-                    <div class="example-english">Participation is free. However, advance registration is required.</div>
-                    
-                </div>
-            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby><ruby>届<rp>(</rp><rt>とど</rt><rp>)</rp></ruby>けます。<ruby>但<rp>(</rp><rt>ただ</rt><rp>)</rp></ruby>し、<ruby>天候<rp>(</rp><rt>てんこう</rt><rp>)</rp></ruby>によっては<ruby>遅<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>れることがあります。</div>
@@ -65,13 +57,32 @@
                     
                 </div>
             
+</div>
+</div>
 
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">provided that; on condition that</span>
+                        <div class="definition-explanation">Used to specify a condition or exception.</div>
+                    </div>
+            
+<div class="sense-examples examples">
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>参加<rp>(</rp><rt>さんか</rt><rp>)</rp></ruby>は<ruby>自由<rp>(</rp><rt>じゆう</rt><rp>)</rp></ruby>です。<ruby>但<rp>(</rp><rt>ただ</rt><rp>)</rp></ruby>し、<ruby>事前<rp>(</rp><rt>じぜん</rt><rp>)</rp></ruby>に<ruby>申<rp>(</rp><rt>もう</rt><rp>)</rp></ruby>し<ruby>込<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>みが<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>です。</div>
+                    <div class="example-english">Participation is free. However, advance registration is required.</div>
+                    
+                </div>
+            
                 <div class="example-item">
                     <div class="example-japanese"><ruby>入場無料<rp>(</rp><rt>にゅうじょうむりょう</rt><rp>)</rp></ruby>。<ruby>但<rp>(</rp><rt>ただ</rt><rp>)</rp></ruby>し、<ruby>小学生以下<rp>(</rp><rt>しょうがくせいいか</rt><rp>)</rp></ruby>に<ruby>限<rp>(</rp><rt>かぎ</rt><rp>)</rp></ruby>る。</div>
                     <div class="example-english">Free admission. However, limited to elementary school students and younger.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -135,6 +146,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

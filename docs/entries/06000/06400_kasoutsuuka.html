@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">cryptocurrency, virtual currency</span>
-                    <div class="definition-explanation">Digital currency that uses cryptography for security and operates on decentralized networks, typically blockchain technology. Not issued by a central bank or government.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">cryptocurrency, virtual currency</span>
+                        <div class="definition-explanation">Digital currency that uses cryptography for security and operates on decentralized networks, typically blockchain technology. Not issued by a central bank or government.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>仮想通貨<rp>(</rp><rt>かそうつうか</rt><rp>)</rp></ruby>の<ruby>価格<rp>(</rp><rt>かかく</rt><rp>)</rp></ruby>が<ruby>急落<rp>(</rp><rt>きゅうらく</rt><rp>)</rp></ruby>した。</div>
                     <div class="example-english">The price of cryptocurrency plummeted.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>仮想通貨<rp>(</rp><rt>かそうつうか</rt><rp>)</rp></ruby>の<ruby>取引所<rp>(</rp><rt>とりひきじょ</rt><rp>)</rp></ruby>で<ruby>口座<rp>(</rp><rt>こうざ</rt><rp>)</rp></ruby>を<ruby>開設<rp>(</rp><rt>かいせつ</rt><rp>)</rp></ruby>する。</div>
                     <div class="example-english">To open an account at a cryptocurrency exchange.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>仮想通貨<rp>(</rp><rt>かそうつうか</rt><rp>)</rp></ruby>の<ruby>利益<rp>(</rp><rt>りえき</rt><rp>)</rp></ruby>には<ruby>税金<rp>(</rp><rt>ぜいきん</rt><rp>)</rp></ruby>がかかる。</div>
                     <div class="example-english">Profits from cryptocurrency are subject to taxes.</div>
@@ -127,6 +130,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

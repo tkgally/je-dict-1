@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">rope, cord, cable</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">rope, thick cord</span>
-                    <div class="definition-explanation">A strong thick line made of twisted fibers or strands.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">rope, thick cord</span>
+                        <div class="definition-explanation">A strong thick line made of twisted fibers or strands.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">sumo rope belt</span>
-                    <div class="definition-explanation">The sacred rope worn by yokozuna (grand champion) in sumo wrestling.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>船<rp>(</rp><rt>ふね</rt><rp>)</rp></ruby>を<ruby>綱<rp>(</rp><rt>つな</rt><rp>)</rp></ruby>でつないだ。</div>
@@ -58,20 +57,29 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>綱引<rp>(</rp><rt>つなひ</rt><rp>)</rp></ruby>きで<ruby>勝<rp>(</rp><rt>か</rt><rp>)</rp></ruby>った。</div>
                     <div class="example-english">We won at tug-of-war.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>命<rp>(</rp><rt>いのち</rt><rp>)</rp></ruby>の<ruby>綱<rp>(</rp><rt>つな</rt><rp>)</rp></ruby>だと<ruby>思<rp>(</rp><rt>おも</rt><rp>)</rp></ruby>って<ruby>離<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>さなかった。</div>
                     <div class="example-english">I held on tight, believing it was my lifeline.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">sumo rope belt</span>
+                        <div class="definition-explanation">The sacred rope worn by yokozuna (grand champion) in sumo wrestling.</div>
+                    </div>
+            
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +125,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

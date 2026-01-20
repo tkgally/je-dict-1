@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">with a thud; in large amounts</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">with heavy thuds; with repeated dull sounds</span>
-                    <div class="definition-explanation">Describes the sound or manner of heavy objects falling or being dropped repeatedly.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">with heavy thuds; with repeated dull sounds</span>
+                        <div class="definition-explanation">Describes the sound or manner of heavy objects falling or being dropped repeatedly.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">in large amounts; one after another</span>
-                    <div class="definition-explanation">Describes things arriving, falling, or accumulating in large quantities in succession.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>がどさどさと<ruby>棚<rp>(</rp><rt>たな</rt><rp>)</rp></ruby>から<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>ちた。</div>
@@ -58,6 +57,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">in large amounts; one after another</span>
+                        <div class="definition-explanation">Describes things arriving, falling, or accumulating in large quantities in succession.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>注文<rp>(</rp><rt>ちゅうもん</rt><rp>)</rp></ruby>がどさどさ<ruby>入<rp>(</rp><rt>はい</rt><rp>)</rp></ruby>ってきた。</div>
@@ -65,13 +75,14 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>雪<rp>(</rp><rt>ゆき</rt><rp>)</rp></ruby>がどさどさと<ruby>降<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>っている。</div>
                     <div class="example-english">Snow is falling heavily.</div>
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +128,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

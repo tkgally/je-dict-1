@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">flute, whistle</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">flute</span>
-                    <div class="definition-explanation">A musical wind instrument, especially traditional Japanese flutes.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">flute</span>
+                        <div class="definition-explanation">A musical wind instrument, especially traditional Japanese flutes.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">whistle</span>
-                    <div class="definition-explanation">An instrument that makes a shrill sound when blown.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>祭<rp>(</rp><rt>まつ</rt><rp>)</rp></ruby>りで<ruby>笛<rp>(</rp><rt>ふえ</rt><rp>)</rp></ruby>の<ruby>音<rp>(</rp><rt>おと</rt><rp>)</rp></ruby>が<ruby>聞<rp>(</rp><rt>き</rt><rp>)</rp></ruby>こえた。</div>
@@ -58,6 +57,23 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>横笛<rp>(</rp><rt>よこぶえ</rt><rp>)</rp></ruby>の<ruby>演奏<rp>(</rp><rt>えんそう</rt><rp>)</rp></ruby>を<ruby>習<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>っている。</div>
+                    <div class="example-english">I&#x27;m learning to play the transverse flute.</div>
+                    <div class="example-notes">横笛 = transverse flute</div>
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">whistle</span>
+                        <div class="definition-explanation">An instrument that makes a shrill sound when blown.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>審判<rp>(</rp><rt>しんぱん</rt><rp>)</rp></ruby>が<ruby>笛<rp>(</rp><rt>ふえ</rt><rp>)</rp></ruby>を<ruby>吹<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>いた。</div>
@@ -65,13 +81,8 @@
                     
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>横笛<rp>(</rp><rt>よこぶえ</rt><rp>)</rp></ruby>の<ruby>演奏<rp>(</rp><rt>えんそう</rt><rp>)</rp></ruby>を<ruby>習<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>っている。</div>
-                    <div class="example-english">I&#x27;m learning to play the transverse flute.</div>
-                    <div class="example-notes">横笛 = transverse flute</div>
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +128,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

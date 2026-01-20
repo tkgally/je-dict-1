@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">violence, physical force</span>
-                    <div class="definition-explanation">The use of physical force to harm or intimidate; aggressive behavior.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">violence, physical force</span>
+                        <div class="definition-explanation">The use of physical force to harm or intimidate; aggressive behavior.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>暴力<rp>(</rp><rt>ぼうりょく</rt><rp>)</rp></ruby>を<ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>るう<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>は<ruby>許<rp>(</rp><rt>ゆる</rt><rp>)</rp></ruby>せない。</div>
                     <div class="example-english">I cannot forgive people who use violence.</div>
                     <div class="example-notes"><ruby>暴力<rp>(</rp><rt>ぼうりょく</rt><rp>)</rp></ruby>を<ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>るう is a common collocation</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>家庭内<rp>(</rp><rt>かていない</rt><rp>)</rp></ruby><ruby>暴力<rp>(</rp><rt>ぼうりょく</rt><rp>)</rp></ruby>は<ruby>深刻<rp>(</rp><rt>しんこく</rt><rp>)</rp></ruby>な<ruby>問題<rp>(</rp><rt>もんだい</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">Domestic violence is a serious problem.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

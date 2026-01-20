@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">noon, daytime</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">noon, midday</span>
-                    <div class="definition-explanation">Around 12 o&#x27;clock in the day.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">noon, midday</span>
+                        <div class="definition-explanation">Around 12 o&#x27;clock in the day.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">daytime</span>
-                    <div class="definition-explanation">The hours when the sun is up, as opposed to night.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>昼<rp>(</rp><rt>ひる</rt><rp>)</rp></ruby>ごはんを<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べましょう。</div>
@@ -58,6 +57,23 @@
                     <div class="example-notes">昼ごはん = lunch</div>
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>昼休<rp>(</rp><rt>ひるやす</rt><rp>)</rp></ruby>みは<ruby>何時<rp>(</rp><rt>なんじ</rt><rp>)</rp></ruby>からですか？</div>
+                    <div class="example-english">What time does lunch break start?</div>
+                    <div class="example-notes">昼休み = lunch break</div>
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">daytime</span>
+                        <div class="definition-explanation">The hours when the sun is up, as opposed to night.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>昼<rp>(</rp><rt>ひる</rt><rp>)</rp></ruby>は<ruby>暑<rp>(</rp><rt>あつ</rt><rp>)</rp></ruby>いです。</div>
@@ -65,13 +81,8 @@
                     <div class="example-notes">Sense 2</div>
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>昼休<rp>(</rp><rt>ひるやす</rt><rp>)</rp></ruby>みは<ruby>何時<rp>(</rp><rt>なんじ</rt><rp>)</rp></ruby>からですか？</div>
-                    <div class="example-english">What time does lunch break start?</div>
-                    <div class="example-notes">昼休み = lunch break</div>
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -135,6 +146,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

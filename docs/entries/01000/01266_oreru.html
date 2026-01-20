@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,37 +40,16 @@
             <div class="entry-gloss">to break, to give in</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to break, to snap</span>
-                    <div class="definition-explanation">For something to break by itself or as a result of pressure. The intransitive form—the object breaks on its own.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to break, to snap</span>
+                        <div class="definition-explanation">For something to break by itself or as a result of pressure. The intransitive form—the object breaks on its own.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to be folded, to bend</span>
-                    <div class="definition-explanation">To become bent or folded.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">to give in, to yield</span>
-                    <div class="definition-explanation">To compromise or yield in an argument or negotiation.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">4.</span>
-                    <span class="definition-gloss">to turn (a corner)</span>
-                    <div class="definition-explanation">To change direction, especially at a corner or intersection.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>強<rp>(</rp><rt>つよ</rt><rp>)</rp></ruby>い<ruby>風<rp>(</rp><rt>かぜ</rt><rp>)</rp></ruby>で<ruby>木<rp>(</rp><rt>き</rt><rp>)</rp></ruby>の<ruby>枝<rp>(</rp><rt>えだ</rt><rp>)</rp></ruby>が<ruby>折<rp>(</rp><rt>お</rt><rp>)</rp></ruby>れた。</div>
@@ -72,6 +57,26 @@
                     <div class="example-notes">Intransitive—the branch broke by itself</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to be folded, to bend</span>
+                        <div class="definition-explanation">To become bent or folded.</div>
+                    </div>
+            
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">to give in, to yield</span>
+                        <div class="definition-explanation">To compromise or yield in an argument or negotiation.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>最後<rp>(</rp><rt>さいご</rt><rp>)</rp></ruby>に<ruby>折<rp>(</rp><rt>お</rt><rp>)</rp></ruby>れた。</div>
@@ -79,6 +84,17 @@
                     <div class="example-notes">&#x27;Yield&#x27; meaning</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">4.</span>
+                        <span class="definition-gloss">to turn (a corner)</span>
+                        <div class="definition-explanation">To change direction, especially at a corner or intersection.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>次<rp>(</rp><rt>つぎ</rt><rp>)</rp></ruby>の<ruby>角<rp>(</rp><rt>かど</rt><rp>)</rp></ruby>を<ruby>右<rp>(</rp><rt>みぎ</rt><rp>)</rp></ruby>に<ruby>折<rp>(</rp><rt>お</rt><rp>)</rp></ruby>れてください。</div>
@@ -86,6 +102,8 @@
                     <div class="example-notes">Direction meaning—can also use <ruby>曲<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>がる</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -141,6 +159,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

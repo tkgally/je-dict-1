@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">work gloves; cotton work gloves</span>
-                    <div class="definition-explanation">White cotton gloves with a knitted texture, commonly used for manual labor and gardening.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">work gloves; cotton work gloves</span>
+                        <div class="definition-explanation">White cotton gloves with a knitted texture, commonly used for manual labor and gardening.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>軍手<rp>(</rp><rt>ぐんて</rt><rp>)</rp></ruby>なしで<ruby>作業<rp>(</rp><rt>さぎょう</rt><rp>)</rp></ruby>すると<ruby>手<rp>(</rp><rt>て</rt><rp>)</rp></ruby>が<ruby>汚<rp>(</rp><rt>よご</rt><rp>)</rp></ruby>れる。</div>
                     <div class="example-english">If you work without gloves, your hands will get dirty.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>引<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>っ<ruby>越<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>しの<ruby>時<rp>(</rp><rt>とき</rt><rp>)</rp></ruby>は<ruby>軍手<rp>(</rp><rt>ぐんて</rt><rp>)</rp></ruby>があると<ruby>便利<rp>(</rp><rt>べんり</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">Work gloves are handy when moving house.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

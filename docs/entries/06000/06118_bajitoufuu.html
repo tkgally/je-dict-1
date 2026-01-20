@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">in one ear and out the other; paying no attention</span>
-                    <div class="definition-explanation">Completely ignoring what is said, like an east wind blowing past a horse&#x27;s ears.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">in one ear and out the other; paying no attention</span>
+                        <div class="definition-explanation">Completely ignoring what is said, like an east wind blowing past a horse&#x27;s ears.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>の<ruby>話<rp>(</rp><rt>はなし</rt><rp>)</rp></ruby>を<ruby>馬耳東風<rp>(</rp><rt>ばじとうふう</rt><rp>)</rp></ruby>と<ruby>聞<rp>(</rp><rt>き</rt><rp>)</rp></ruby>き<ruby>流<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>す。</div>
                     <div class="example-english">He just lets what people say go in one ear and out the other.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>上司<rp>(</rp><rt>じょうし</rt><rp>)</rp></ruby>の<ruby>小言<rp>(</rp><rt>こごと</rt><rp>)</rp></ruby>も<ruby>馬耳東風<rp>(</rp><rt>ばじとうふう</rt><rp>)</rp></ruby>だった。</div>
                     <div class="example-english">Even the boss&#x27;s complaints fell on deaf ears.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

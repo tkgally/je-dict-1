@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">awkward, uncomfortable</span>
-                    <div class="definition-explanation">Describes an atmosphere or situation that feels tense or uncomfortable, especially between people. Often occurs after a disagreement, misunderstanding, or embarrassing incident.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">awkward, uncomfortable</span>
+                        <div class="definition-explanation">Describes an atmosphere or situation that feels tense or uncomfortable, especially between people. Often occurs after a disagreement, misunderstanding, or embarrassing incident.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>元<rp>(</rp><rt>もと</rt><rp>)</rp></ruby>カレと<ruby>会<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>って<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>まずかった。</div>
                     <div class="example-english">I ran into my ex-boyfriend and it was awkward.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>まずい<ruby>沈黙<rp>(</rp><rt>ちんもく</rt><rp>)</rp></ruby>が<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>いた。</div>
                     <div class="example-english">An awkward silence continued.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,25 @@
             <div class="entry-gloss">manner, pretense; after (time)</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">manner, way, style</span>
-                    <div class="definition-explanation">The way something is done or appears.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">pretense, act</span>
-                    <div class="definition-explanation">Pretending or feigning something.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">after (a period of time)</span>
-                    <div class="definition-explanation">Used as a suffix to indicate the first time in a while.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">manner, way, style</span>
+                        <div class="definition-explanation">The way something is done or appears.</div>
+                    </div>
             
 </div>
-<div class="examples">
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">pretense, act</span>
+                        <div class="definition-explanation">Pretending or feigning something.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>らない<ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>りをした。</div>
@@ -65,6 +66,23 @@
                     <div class="example-notes">Common expression</div>
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>寝<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>た<ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>りをして<ruby>様子<rp>(</rp><rt>ようす</rt><rp>)</rp></ruby>を<ruby>窺<rp>(</rp><rt>うかが</rt><rp>)</rp></ruby>った。</div>
+                    <div class="example-english">I pretended to be asleep and observed the situation.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">after (a period of time)</span>
+                        <div class="definition-explanation">Used as a suffix to indicate the first time in a while.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">3<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby><ruby>振<rp>(</rp><rt>ぶ</rt><rp>)</rp></ruby>りに<ruby>故郷<rp>(</rp><rt>こきょう</rt><rp>)</rp></ruby>に<ruby>帰<rp>(</rp><rt>かえ</rt><rp>)</rp></ruby>った。</div>
@@ -72,13 +90,8 @@
                     <div class="example-notes">Suffix usage indicating time elapsed</div>
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>寝<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>た<ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>りをして<ruby>様子<rp>(</rp><rt>ようす</rt><rp>)</rp></ruby>を<ruby>窺<rp>(</rp><rt>うかが</rt><rp>)</rp></ruby>った。</div>
-                    <div class="example-english">I pretended to be asleep and observed the situation.</div>
-                    
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -134,6 +147,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

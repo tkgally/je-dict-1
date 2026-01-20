@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">electronic payment, digital payment</span>
-                    <div class="definition-explanation">Any payment transaction conducted electronically without physical cash, including credit cards, debit cards, mobile payments, QR code payments, and online transfers.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">electronic payment, digital payment</span>
+                        <div class="definition-explanation">Any payment transaction conducted electronically without physical cash, including credit cards, debit cards, mobile payments, QR code payments, and online transfers.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>店<rp>(</rp><rt>みせ</rt><rp>)</rp></ruby>は<ruby>電子決済<rp>(</rp><rt>でんしけっさい</rt><rp>)</rp></ruby>に<ruby>対応<rp>(</rp><rt>たいおう</rt><rp>)</rp></ruby>している。</div>
                     <div class="example-english">This store accepts electronic payment.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>電子決済<rp>(</rp><rt>でんしけっさい</rt><rp>)</rp></ruby>の<ruby>普及<rp>(</rp><rt>ふきゅう</rt><rp>)</rp></ruby>で<ruby>現金<rp>(</rp><rt>げんきん</rt><rp>)</rp></ruby><ruby>使用<rp>(</rp><rt>しよう</rt><rp>)</rp></ruby>が<ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>った。</div>
                     <div class="example-english">The spread of electronic payment has reduced cash usage.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>電子決済<rp>(</rp><rt>でんしけっさい</rt><rp>)</rp></ruby>サービスを<ruby>導入<rp>(</rp><rt>どうにゅう</rt><rp>)</rp></ruby>する。</div>
                     <div class="example-english">To introduce an electronic payment service.</div>
@@ -127,6 +130,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

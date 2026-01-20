@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">friend, companion</span>
-                    <div class="definition-explanation">A friend or close acquaintance. More literary or formal than <ruby>友達<rp>(</rp><rt>ともだち</rt><rp>)</rp></ruby>. Often used in compound words or literary contexts.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">friend, companion</span>
+                        <div class="definition-explanation">A friend or close acquaintance. More literary or formal than <ruby>友達<rp>(</rp><rt>ともだち</rt><rp>)</rp></ruby>. Often used in compound words or literary contexts.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     <div class="example-notes">Famous quote from the Analects of Confucius</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>苦楽<rp>(</rp><rt>くらく</rt><rp>)</rp></ruby>を<ruby>共<rp>(</rp><rt>とも</rt><rp>)</rp></ruby>にした<ruby>友<rp>(</rp><rt>とも</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">He is a friend who has shared both hardships and joys with me.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>旧友<rp>(</rp><rt>きゅうゆう</rt><rp>)</rp></ruby>は<ruby>良<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>き<ruby>友<rp>(</rp><rt>とも</rt><rp>)</rp></ruby>だ。</div>
                     <div class="example-english">An old friend is a good friend.</div>
@@ -128,6 +132,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

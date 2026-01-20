@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">anemia; dizziness from lack of blood</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">anemia; deficiency of red blood cells</span>
-                    <div class="definition-explanation">A medical condition where the blood has fewer red blood cells than normal, causing fatigue and weakness.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">anemia; deficiency of red blood cells</span>
+                        <div class="definition-explanation">A medical condition where the blood has fewer red blood cells than normal, causing fatigue and weakness.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">dizziness; lightheadedness from standing up</span>
-                    <div class="definition-explanation">In everyday usage, often refers to feeling faint or dizzy, especially when standing up quickly (orthostatic hypotension).</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>鉄分<rp>(</rp><rt>てつぶん</rt><rp>)</rp></ruby><ruby>不足<rp>(</rp><rt>ふそく</rt><rp>)</rp></ruby>で<ruby>貧血<rp>(</rp><rt>ひんけつ</rt><rp>)</rp></ruby>になった。</div>
@@ -58,6 +57,23 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>貧血<rp>(</rp><rt>ひんけつ</rt><rp>)</rp></ruby>の<ruby>症状<rp>(</rp><rt>しょうじょう</rt><rp>)</rp></ruby>には<ruby>疲<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>れやすさがある。</div>
+                    <div class="example-english">Symptoms of anemia include feeling easily fatigued.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">dizziness; lightheadedness from standing up</span>
+                        <div class="definition-explanation">In everyday usage, often refers to feeling faint or dizzy, especially when standing up quickly (orthostatic hypotension).</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>急<rp>(</rp><rt>きゅう</rt><rp>)</rp></ruby>に<ruby>立<rp>(</rp><rt>た</rt><rp>)</rp></ruby>ち<ruby>上<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>がったら<ruby>貧血<rp>(</rp><rt>ひんけつ</rt><rp>)</rp></ruby>で<ruby>倒<rp>(</rp><rt>たお</rt><rp>)</rp></ruby>れそうになった。</div>
@@ -65,13 +81,8 @@
                     <div class="example-notes">Common everyday usage.</div>
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>貧血<rp>(</rp><rt>ひんけつ</rt><rp>)</rp></ruby>の<ruby>症状<rp>(</rp><rt>しょうじょう</rt><rp>)</rp></ruby>には<ruby>疲<rp>(</rp><rt>つか</rt><rp>)</rp></ruby>れやすさがある。</div>
-                    <div class="example-english">Symptoms of anemia include feeling easily fatigued.</div>
-                    
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

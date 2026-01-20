@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">unhappiness, misfortune</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">unhappiness, sorrow</span>
-                    <div class="definition-explanation">The state of being unhappy or unfortunate.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">unhappiness, sorrow</span>
+                        <div class="definition-explanation">The state of being unhappy or unfortunate.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">misfortune, bad luck</span>
-                    <div class="definition-explanation">An unfortunate event or circumstance.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">death in the family (euphemism)</span>
-                    <div class="definition-explanation">A polite way to refer to a death in someone&#x27;s family.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>不幸<rp>(</rp><rt>ふこう</rt><rp>)</rp></ruby>な<ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby><ruby>時代<rp>(</rp><rt>じだい</rt><rp>)</rp></ruby>を<ruby>過<rp>(</rp><rt>す</rt><rp>)</rp></ruby>ごした。</div>
@@ -65,6 +57,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">misfortune, bad luck</span>
+                        <div class="definition-explanation">An unfortunate event or circumstance.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>には<ruby>不幸<rp>(</rp><rt>ふこう</rt><rp>)</rp></ruby>が<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>いた。</div>
@@ -72,6 +75,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">death in the family (euphemism)</span>
+                        <div class="definition-explanation">A polite way to refer to a death in someone&#x27;s family.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>家族<rp>(</rp><rt>かぞく</rt><rp>)</rp></ruby>に<ruby>不幸<rp>(</rp><rt>ふこう</rt><rp>)</rp></ruby>があり、<ruby>欠席<rp>(</rp><rt>けっせき</rt><rp>)</rp></ruby>します。</div>
@@ -79,6 +93,8 @@
                     <div class="example-notes">Euphemism for death in the family</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -134,6 +150,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

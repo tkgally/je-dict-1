@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">so much, this much, to this extent</span>
-                    <div class="definition-explanation">Used to indicate the degree or extent of something near the speaker.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">so much, this much, to this extent</span>
+                        <div class="definition-explanation">Used to indicate the degree or extent of something near the speaker.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">こんなに<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>くの<ruby>人<rp>(</rp><rt>ひと</rt><rp>)</rp></ruby>が<ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>るとは。</div>
                     <div class="example-english">I didn&#x27;t expect so many people to come.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">こんなに<ruby>早<rp>(</rp><rt>はや</rt><rp>)</rp></ruby>く<ruby>終<rp>(</rp><rt>お</rt><rp>)</rp></ruby>わった。</div>
                     <div class="example-english">It finished so quickly.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>がこんなに<ruby>難<rp>(</rp><rt>むずか</rt><rp>)</rp></ruby>しいとは<ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>らなかったので、<ruby>最初<rp>(</rp><rt>さいしょ</rt><rp>)</rp></ruby>は<ruby>苦労<rp>(</rp><rt>くろう</rt><rp>)</rp></ruby>した。</div>
                     <div class="example-english">I didn&#x27;t know Japanese was this difficult, so I struggled at first.</div>
@@ -117,6 +120,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

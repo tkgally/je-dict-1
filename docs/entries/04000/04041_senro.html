@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">railway track, railroad line</span>
-                    <div class="definition-explanation">The rails and supporting structures on which trains run. The physical infrastructure of a railway.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">railway track, railroad line</span>
+                        <div class="definition-explanation">The rails and supporting structures on which trains run. The physical infrastructure of a railway.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     <div class="example-notes">Common warning sign</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>線路<rp>(</rp><rt>せんろ</rt><rp>)</rp></ruby>の<ruby>工事<rp>(</rp><rt>こうじ</rt><rp>)</rp></ruby>で<ruby>電車<rp>(</rp><rt>でんしゃ</rt><rp>)</rp></ruby>が<ruby>遅<rp>(</rp><rt>おく</rt><rp>)</rp></ruby>れている。</div>
                     <div class="example-english">The train is delayed due to track construction.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>のころ、<ruby>線路<rp>(</rp><rt>せんろ</rt><rp>)</rp></ruby><ruby>沿<rp>(</rp><rt>ぞ</rt><rp>)</rp></ruby>いの<ruby>道<rp>(</rp><rt>みち</rt><rp>)</rp></ruby>をよく<ruby>歩<rp>(</rp><rt>ある</rt><rp>)</rp></ruby>いた。</div>
                     <div class="example-english">As a child, I often walked along the road by the railway tracks.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

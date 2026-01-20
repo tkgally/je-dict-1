@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">to incline; to lean; to decline</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to incline; to lean; to tilt</span>
-                    <div class="definition-explanation">To slope or slant in a particular direction.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to incline; to lean; to tilt</span>
+                        <div class="definition-explanation">To slope or slant in a particular direction.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to decline; to wane</span>
-                    <div class="definition-explanation">To decrease in power, prosperity, or intensity.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">to lean toward; to be inclined to</span>
-                    <div class="definition-explanation">To show a tendency or preference toward something.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>塔<rp>(</rp><rt>とう</rt><rp>)</rp></ruby>が<ruby>右<rp>(</rp><rt>みぎ</rt><rp>)</rp></ruby>に<ruby>傾<rp>(</rp><rt>かたむ</rt><rp>)</rp></ruby>いている。</div>
@@ -65,6 +57,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to decline; to wane</span>
+                        <div class="definition-explanation">To decrease in power, prosperity, or intensity.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>日<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>が<ruby>傾<rp>(</rp><rt>かたむ</rt><rp>)</rp></ruby>いてきた。</div>
@@ -72,6 +75,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">to lean toward; to be inclined to</span>
+                        <div class="definition-explanation">To show a tendency or preference toward something.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>の<ruby>意見<rp>(</rp><rt>いけん</rt><rp>)</rp></ruby>に<ruby>傾<rp>(</rp><rt>かたむ</rt><rp>)</rp></ruby>きつつある。</div>
@@ -79,6 +93,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -140,6 +156,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

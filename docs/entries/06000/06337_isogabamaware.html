@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">haste makes waste; more haste, less speed; slow and steady wins the race</span>
-                    <div class="definition-explanation">A proverb advising that when in a hurry, it&#x27;s better to take a safer, longer route than to risk a shortcut that might cause problems.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">haste makes waste; more haste, less speed; slow and steady wins the race</span>
+                        <div class="definition-explanation">A proverb advising that when in a hurry, it&#x27;s better to take a safer, longer route than to risk a shortcut that might cause problems.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>近道<rp>(</rp><rt>ちかみち</rt><rp>)</rp></ruby>をして<ruby>迷<rp>(</rp><rt>まよ</rt><rp>)</rp></ruby>った。<ruby>急<rp>(</rp><rt>いそ</rt><rp>)</rp></ruby>がば<ruby>回<rp>(</rp><rt>まわ</rt><rp>)</rp></ruby>れだった。</div>
                     <div class="example-english">I got lost taking a shortcut. I should have taken the long way around.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>急<rp>(</rp><rt>いそ</rt><rp>)</rp></ruby>がば<ruby>回<rp>(</rp><rt>まわ</rt><rp>)</rp></ruby>れで、<ruby>基礎<rp>(</rp><rt>きそ</rt><rp>)</rp></ruby>からしっかり<ruby>学<rp>(</rp><rt>まな</rt><rp>)</rp></ruby>んだ<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>がいい。</div>
                     <div class="example-english">Slow and steady wins the race—it&#x27;s better to learn the basics thoroughly.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

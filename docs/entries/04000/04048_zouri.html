@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">zori, Japanese sandals</span>
-                    <div class="definition-explanation">Traditional Japanese footwear with a flat sole and a thong that goes between the big toe and second toe. Often worn with kimono.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">zori, Japanese sandals</span>
+                        <div class="definition-explanation">Traditional Japanese footwear with a flat sole and a thong that goes between the big toe and second toe. Often worn with kimono.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>草履<rp>(</rp><rt>ぞうり</rt><rp>)</rp></ruby>を<ruby>履<rp>(</rp><rt>は</rt><rp>)</rp></ruby>くのに<ruby>慣<rp>(</rp><rt>な</rt><rp>)</rp></ruby>れていない。</div>
                     <div class="example-english">I&#x27;m not used to wearing zori sandals.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>結婚式<rp>(</rp><rt>けっこんしき</rt><rp>)</rp></ruby>には<ruby>金色<rp>(</rp><rt>きんいろ</rt><rp>)</rp></ruby>の<ruby>草履<rp>(</rp><rt>ぞうり</rt><rp>)</rp></ruby>を<ruby>履<rp>(</rp><rt>は</rt><rp>)</rp></ruby>いた。</div>
                     <div class="example-english">I wore gold zori sandals to the wedding.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

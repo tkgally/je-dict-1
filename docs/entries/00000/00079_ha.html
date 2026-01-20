@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">topic marker</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">topic marker</span>
-                    <div class="definition-explanation">Marks the topic of a sentence—what the sentence is about. The topic is often (but not always) the grammatical subject. は sets up what the speaker wants to comment on, and the rest of the sentence provides information about that topic.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">topic marker</span>
+                        <div class="definition-explanation">Marks the topic of a sentence—what the sentence is about. The topic is often (but not always) the grammatical subject. は sets up what the speaker wants to comment on, and the rest of the sentence provides information about that topic.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">contrast marker</span>
-                    <div class="definition-explanation">Indicates contrast with something else, either stated or implied. When は is used on an element that would normally take a different particle (like を or に), it often adds a contrastive nuance: &#x27;as for X (as opposed to something else)...&#x27;</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は<ruby>学生<rp>(</rp><rt>がくせい</rt><rp>)</rp></ruby>です。</div>
@@ -58,13 +57,29 @@
                     <div class="example-notes"><ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby> is the topic; the sentence tells us something about <ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby></div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>は<ruby>面白<rp>(</rp><rt>おもしろ</rt><rp>)</rp></ruby>いです。</div>
                     <div class="example-english">This book is interesting.</div>
                     <div class="example-notes">この<ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby> is the topic being described</div>
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>象<rp>(</rp><rt>ぞう</rt><rp>)</rp></ruby>は<ruby>鼻<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>が<ruby>長<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>い。</div>
+                    <div class="example-english">Elephants have long trunks. (lit: As for elephants, [their] trunks are long.)</div>
+                    <div class="example-notes">Double-subject construction: topic は + subject が</div>
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">contrast marker</span>
+                        <div class="definition-explanation">Indicates contrast with something else, either stated or implied. When は is used on an element that would normally take a different particle (like を or に), it often adds a contrastive nuance: &#x27;as for X (as opposed to something else)...&#x27;</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>魚<rp>(</rp><rt>さかな</rt><rp>)</rp></ruby>は<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べますが、<ruby>肉<rp>(</rp><rt>にく</rt><rp>)</rp></ruby>は<ruby>食<rp>(</rp><rt>た</rt><rp>)</rp></ruby>べません。</div>
@@ -72,20 +87,14 @@
                     <div class="example-notes">Contrastive は: comparing fish and meat</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>東京<rp>(</rp><rt>とうきょう</rt><rp>)</rp></ruby>には<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>きましたが、<ruby>大阪<rp>(</rp><rt>おおさか</rt><rp>)</rp></ruby>には<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>きませんでした。</div>
                     <div class="example-english">I went to Tokyo, but I didn&#x27;t go to Osaka.</div>
                     <div class="example-notes">は replacing に to show contrast between destinations</div>
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>象<rp>(</rp><rt>ぞう</rt><rp>)</rp></ruby>は<ruby>鼻<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>が<ruby>長<rp>(</rp><rt>なが</rt><rp>)</rp></ruby>い。</div>
-                    <div class="example-english">Elephants have long trunks. (lit: As for elephants, [their] trunks are long.)</div>
-                    <div class="example-notes">Double-subject construction: topic は + subject が</div>
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -141,6 +150,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

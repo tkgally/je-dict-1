@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">making the strong even stronger</span>
-                    <div class="definition-explanation">A proverb meaning that adding more strength or resources to someone or something already powerful makes them even more formidable. Similar to &#x27;adding fuel to fire&#x27; but in a positive sense.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">making the strong even stronger</span>
+                        <div class="definition-explanation">A proverb meaning that adding more strength or resources to someone or something already powerful makes them even more formidable. Similar to &#x27;adding fuel to fire&#x27; but in a positive sense.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">あのチームに<ruby>彼女<rp>(</rp><rt>かのじょ</rt><rp>)</rp></ruby>が<ruby>加<rp>(</rp><rt>くわ</rt><rp>)</rp></ruby>わったら<ruby>鬼<rp>(</rp><rt>おに</rt><rp>)</rp></ruby>に<ruby>金棒<rp>(</rp><rt>かなぼう</rt><rp>)</rp></ruby>だね。</div>
                     <div class="example-english">If she joins that team, they&#x27;ll be invincible.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>語学力<rp>(</rp><rt>ごがくりょく</rt><rp>)</rp></ruby>があれば、<ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>の<ruby>専門知識<rp>(</rp><rt>せんもんちしき</rt><rp>)</rp></ruby>は<ruby>鬼<rp>(</rp><rt>おに</rt><rp>)</rp></ruby>に<ruby>金棒<rp>(</rp><rt>かなぼう</rt><rp>)</rp></ruby>になる。</div>
                     <div class="example-english">If he had language skills, his expertise would become even more powerful.</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,37 +40,16 @@
             <div class="entry-gloss">small; fine; detailed; meticulous</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">small, fine (in size/particles)</span>
-                    <div class="definition-explanation">Describes things that are small in size or fine in texture.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">small, fine (in size/particles)</span>
+                        <div class="definition-explanation">Describes things that are small in size or fine in texture.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">detailed, minute</span>
-                    <div class="definition-explanation">Describes something done with great attention to detail.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">small change (money)</span>
-                    <div class="definition-explanation">Refers to coins or small denominations of money.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">4.</span>
-                    <span class="definition-gloss">meticulous, fussy, particular</span>
-                    <div class="definition-explanation">Describes someone who pays close attention to small details, sometimes excessively.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>細<rp>(</rp><rt>こま</rt><rp>)</rp></ruby>かい<ruby>砂<rp>(</rp><rt>すな</rt><rp>)</rp></ruby>が<ruby>足<rp>(</rp><rt>あし</rt><rp>)</rp></ruby>についた。</div>
@@ -72,6 +57,17 @@
                     <div class="example-notes">Physical size/texture</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">detailed, minute</span>
+                        <div class="definition-explanation">Describes something done with great attention to detail.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>細<rp>(</rp><rt>こま</rt><rp>)</rp></ruby>かいところまで<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>してください。</div>
@@ -79,6 +75,17 @@
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">small change (money)</span>
+                        <div class="definition-explanation">Refers to coins or small denominations of money.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>細<rp>(</rp><rt>こま</rt><rp>)</rp></ruby>かいお<ruby>金<rp>(</rp><rt>かね</rt><rp>)</rp></ruby>がありますか。</div>
@@ -86,6 +93,17 @@
                     <div class="example-notes">Money meaning</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">4.</span>
+                        <span class="definition-gloss">meticulous, fussy, particular</span>
+                        <div class="definition-explanation">Describes someone who pays close attention to small details, sometimes excessively.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>は<ruby>細<rp>(</rp><rt>こま</rt><rp>)</rp></ruby>かいことを<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>にしすぎる。</div>
@@ -93,6 +111,8 @@
                     <div class="example-notes">Personality trait</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -138,6 +158,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

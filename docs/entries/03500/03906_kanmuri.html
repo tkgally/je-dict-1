@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">crown, wreath</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">crown (royal headwear)</span>
-                    <div class="definition-explanation">A ceremonial head ornament worn by royalty or nobility.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">crown (royal headwear)</span>
+                        <div class="definition-explanation">A ceremonial head ornament worn by royalty or nobility.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">crown, top (of head)</span>
-                    <div class="definition-explanation">The top part of the head.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">crown radical (in kanji)</span>
-                    <div class="definition-explanation">The upper component of a kanji character.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>王様<rp>(</rp><rt>おうさま</rt><rp>)</rp></ruby>は<ruby>金<rp>(</rp><rt>きん</rt><rp>)</rp></ruby>の<ruby>冠<rp>(</rp><rt>かんむり</rt><rp>)</rp></ruby>をかぶっている。</div>
@@ -65,6 +57,32 @@
                     
                 </div>
             
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>月桂冠<rp>(</rp><rt>げっけいかん</rt><rp>)</rp></ruby>を<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>に<ruby>載<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せた。</div>
+                    <div class="example-english">They placed a laurel wreath on their head.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">crown, top (of head)</span>
+                        <div class="definition-explanation">The top part of the head.</div>
+                    </div>
+            
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">crown radical (in kanji)</span>
+                        <div class="definition-explanation">The upper component of a kanji character.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>漢字<rp>(</rp><rt>かんじ</rt><rp>)</rp></ruby>の<ruby>冠<rp>(</rp><rt>かんむり</rt><rp>)</rp></ruby>は「うかんむり」だ。</div>
@@ -72,13 +90,8 @@
                     
                 </div>
             
-
-                <div class="example-item">
-                    <div class="example-japanese"><ruby>月桂冠<rp>(</rp><rt>げっけいかん</rt><rp>)</rp></ruby>を<ruby>頭<rp>(</rp><rt>あたま</rt><rp>)</rp></ruby>に<ruby>載<rp>(</rp><rt>の</rt><rp>)</rp></ruby>せた。</div>
-                    <div class="example-english">They placed a laurel wreath on their head.</div>
-                    
-                </div>
-            
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -124,6 +137,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

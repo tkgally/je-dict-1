@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">about, around (time)</span>
-                    <div class="definition-explanation">Suffix attached to time expressions to indicate an approximate time. Can also be written as 〜頃 (ごろ with voiced consonant). Indicates &#x27;around&#x27; or &#x27;about&#x27; a certain time.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">about, around (time)</span>
+                        <div class="definition-explanation">Suffix attached to time expressions to indicate an approximate time. Can also be written as 〜頃 (ごろ with voiced consonant). Indicates &#x27;around&#x27; or &#x27;about&#x27; a certain time.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>のころ、よく<ruby>公園<rp>(</rp><rt>こうえん</rt><rp>)</rp></ruby>で<ruby>遊<rp>(</rp><rt>あそ</rt><rp>)</rp></ruby>んだ。</div>
                     <div class="example-english">When I was a child, I often played in the park.</div>
                     <div class="example-notes">Used for periods in life</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">いつごろ<ruby>届<rp>(</rp><rt>とど</rt><rp>)</rp></ruby>きますか。</div>
                     <div class="example-english">Around when will it arrive?</div>
@@ -110,6 +114,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

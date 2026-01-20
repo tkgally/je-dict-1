@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">7th day memorial service; first seventh-day service</span>
-                    <div class="definition-explanation">A Buddhist memorial service held on the seventh day after a person&#x27;s death. The first of several memorial services marking the deceased&#x27;s journey in the afterlife.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">7th day memorial service; first seventh-day service</span>
+                        <div class="definition-explanation">A Buddhist memorial service held on the seventh day after a person&#x27;s death. The first of several memorial services marking the deceased&#x27;s journey in the afterlife.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,14 +57,12 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>初七日<rp>(</rp><rt>しょなのか</rt><rp>)</rp></ruby>までは<ruby>魂<rp>(</rp><rt>たましい</rt><rp>)</rp></ruby>がこの<ruby>世<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>にいるとされる。</div>
                     <div class="example-english">It is said the soul remains in this world until the seventh day.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>最近<rp>(</rp><rt>さいきん</rt><rp>)</rp></ruby>は<ruby>葬儀<rp>(</rp><rt>そうぎ</rt><rp>)</rp></ruby>と<ruby>初七日<rp>(</rp><rt>しょなのか</rt><rp>)</rp></ruby>を<ruby>同<rp>(</rp><rt>おな</rt><rp>)</rp></ruby>じ<ruby>日<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>に<ruby>行<rp>(</rp><rt>おこな</rt><rp>)</rp></ruby>うことが<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>い。</div>
                     <div class="example-english">Recently, it&#x27;s common to hold the funeral and seventh-day service on the same day.</div>
@@ -120,6 +124,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

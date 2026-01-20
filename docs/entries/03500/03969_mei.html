@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">famous; noted; excellent</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">famous; noted; renowned</span>
-                    <div class="definition-explanation">Prefix indicating something or someone of notable reputation.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">famous; noted; renowned</span>
+                        <div class="definition-explanation">Prefix indicating something or someone of notable reputation.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">excellent; fine</span>
-                    <div class="definition-explanation">Prefix indicating high quality or excellence.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>寺<rp>(</rp><rt>てら</rt><rp>)</rp></ruby>は<ruby>名所<rp>(</rp><rt>めいしょ</rt><rp>)</rp></ruby>として<ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>られている。</div>
@@ -58,6 +57,17 @@
                     <div class="example-notes"><ruby>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby> + <ruby>所<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby> = famous place</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">excellent; fine</span>
+                        <div class="definition-explanation">Prefix indicating high quality or excellence.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>名作<rp>(</rp><rt>めいさく</rt><rp>)</rp></ruby>と<ruby>呼<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>ばれる<ruby>映画<rp>(</rp><rt>えいが</rt><rp>)</rp></ruby>を<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>た。</div>
@@ -65,13 +75,14 @@
                     <div class="example-notes"><ruby>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby> + <ruby>作<rp>(</rp><rt>さく</rt><rp>)</rp></ruby> = masterpiece</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">あの<ruby>監督<rp>(</rp><rt>かんとく</rt><rp>)</rp></ruby>は<ruby>名采配<rp>(</rp><rt>めいさいはい</rt><rp>)</rp></ruby>で<ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>られている。</div>
                     <div class="example-english">That manager is known for his excellent leadership.</div>
                     <div class="example-notes"><ruby>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby> + <ruby>采配<rp>(</rp><rt>さいはい</rt><rp>)</rp></ruby> = excellent management</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -117,6 +128,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -36,12 +42,12 @@
     
 <div class="definitions">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">ankle, anklebone</span>
-                    <div class="definition-explanation">The bony prominence on each side of the ankle joint. Also refers to the ankle area in general.</div>
-                </div>
-            
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">ankle, anklebone</span>
+                        <div class="definition-explanation">The bony prominence on each side of the ankle joint. Also refers to the ankle area in general.</div>
+                    </div>
+                
 </div>
 <div class="examples">
 
@@ -51,21 +57,18 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>踝<rp>(</rp><rt>くるぶし</rt><rp>)</rp></ruby>が<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>える<ruby>丈<rp>(</rp><rt>たけ</rt><rp>)</rp></ruby>のパンツが<ruby>流行<rp>(</rp><rt>はや</rt><rp>)</rp></ruby>っている。</div>
                     <div class="example-english">Pants that show your ankles are in style.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>踝<rp>(</rp><rt>くるぶし</rt><rp>)</rp></ruby>まで<ruby>水<rp>(</rp><rt>みず</rt><rp>)</rp></ruby>に<ruby>浸<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>かった。</div>
                     <div class="example-english">I got wet up to my ankles.</div>
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>踝<rp>(</rp><rt>くるぶし</rt><rp>)</rp></ruby>の<ruby>骨<rp>(</rp><rt>ほね</rt><rp>)</rp></ruby>が<ruby>痛<rp>(</rp><rt>いた</rt><rp>)</rp></ruby>い。</div>
                     <div class="example-english">My anklebone hurts.</div>
@@ -127,6 +130,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

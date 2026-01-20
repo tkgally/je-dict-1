@@ -129,10 +129,16 @@ def generate_nav_header(relative_path: str = '') -> str:
         <a href="{base}pending.html" class="nav-link">Pending</a>
         <a href="{base}about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>'''
 
 
@@ -159,6 +165,35 @@ def generate_furigana_script() -> str:
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>'''
+
+
+def generate_examples_script() -> str:
+    """Generate the examples toggle JavaScript."""
+    return '''<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();
@@ -210,40 +245,96 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         </div>
     ''')
 
-    # Definitions
+    # Definitions and Examples
     definitions = entry.get('definitions', [])
-    if definitions:
-        html_parts.append('<div class="definitions">')
-        for defn in definitions:
-            sense = defn.get('sense_number', '')
-            gloss = defn.get('gloss', '')
-            explanation = defn.get('explanation', '')
-            html_parts.append(f'''
-                <div class="definition-item">
-                    <span class="definition-number">{sense}.</span>
-                    <span class="definition-gloss">{html.escape(gloss)}</span>
-                    {f'<div class="definition-explanation">{process_furigana(explanation)}</div>' if explanation else ''}
-                </div>
-            ''')
-        html_parts.append('</div>')
-
-    # Examples
     examples = entry.get('examples', [])
-    if examples:
-        html_parts.append('<div class="examples">')
-        for idx, ex in enumerate(examples):
+
+    # Helper function to render examples
+    def render_examples(examples_list):
+        """Render a list of examples as HTML."""
+        parts = []
+        for ex in examples_list:
             japanese = ex.get('japanese', '')
             english = ex.get('english', '')
             notes = ex.get('notes', '')
-
-            html_parts.append(f'''
+            parts.append(f'''
                 <div class="example-item">
                     <div class="example-japanese">{process_furigana(japanese)}</div>
                     <div class="example-english">{html.escape(english)}</div>
                     {f'<div class="example-notes">{process_furigana(notes)}</div>' if notes else ''}
                 </div>
             ''')
-        html_parts.append('</div>')
+        return ''.join(parts)
+
+    # Determine if we should group examples by sense (only for multi-sense entries)
+    has_multiple_senses = len(definitions) > 1
+
+    if has_multiple_senses:
+        # Group examples by sense number
+        examples_by_sense = defaultdict(list)
+        for ex in examples:
+            sense_numbers = ex.get('sense_numbers', [])
+            if sense_numbers:
+                for sense_num in sense_numbers:
+                    examples_by_sense[sense_num].append(ex)
+            else:
+                # Examples without sense_numbers go to a "general" bucket (sense 0)
+                examples_by_sense[0].append(ex)
+
+        # Render definitions with their corresponding examples
+        html_parts.append('<div class="definitions-with-examples">')
+        for defn in definitions:
+            sense = defn.get('sense_number', '')
+            gloss = defn.get('gloss', '')
+            explanation = defn.get('explanation', '')
+
+            html_parts.append(f'''
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">{sense}.</span>
+                        <span class="definition-gloss">{html.escape(gloss)}</span>
+                        {f'<div class="definition-explanation">{process_furigana(explanation)}</div>' if explanation else ''}
+                    </div>
+            ''')
+
+            # Add examples for this sense
+            sense_examples = examples_by_sense.get(sense, [])
+            if sense_examples:
+                html_parts.append('<div class="sense-examples examples">')
+                html_parts.append(render_examples(sense_examples))
+                html_parts.append('</div>')
+
+            html_parts.append('</div>')  # Close sense-block
+
+        # Add any "general" examples that weren't assigned to a specific sense
+        general_examples = examples_by_sense.get(0, [])
+        if general_examples:
+            html_parts.append('<div class="examples general-examples">')
+            html_parts.append(render_examples(general_examples))
+            html_parts.append('</div>')
+
+        html_parts.append('</div>')  # Close definitions-with-examples
+    else:
+        # Single sense or no senses: use original layout (definitions then examples)
+        if definitions:
+            html_parts.append('<div class="definitions">')
+            for defn in definitions:
+                sense = defn.get('sense_number', '')
+                gloss = defn.get('gloss', '')
+                explanation = defn.get('explanation', '')
+                html_parts.append(f'''
+                    <div class="definition-item">
+                        <span class="definition-number">{sense}.</span>
+                        <span class="definition-gloss">{html.escape(gloss)}</span>
+                        {f'<div class="definition-explanation">{process_furigana(explanation)}</div>' if explanation else ''}
+                    </div>
+                ''')
+            html_parts.append('</div>')
+
+        if examples:
+            html_parts.append('<div class="examples">')
+            html_parts.append(render_examples(examples))
+            html_parts.append('</div>')
 
     # Notes
     notes = entry.get('notes', '')
@@ -377,6 +468,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     ''')
 
     html_parts.append(generate_furigana_script())
+    html_parts.append(generate_examples_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -435,6 +527,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, build_time_jst: str
     <p>Last update: {build_time_jst}</p>
 </footer>
 {generate_furigana_script()}
+{generate_examples_script()}
 </body>
 </html>'''
 
@@ -958,6 +1051,7 @@ def generate_advanced_page() -> str:
     <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
 </footer>
 {generate_furigana_script()}
+{generate_examples_script()}
 </body>
 </html>'''
 
@@ -1533,6 +1627,7 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
+    html_parts.append(generate_examples_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -1582,6 +1677,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
+    html_parts.append(generate_examples_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -1615,6 +1711,7 @@ def generate_random_page(entries: list) -> str:
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
+    html_parts.append(generate_examples_script())
     # Add shuffle script for random arrangement on page load
     html_parts.append('''<script>
 (function() {
@@ -1681,6 +1778,7 @@ def generate_pending_page(candidates: list) -> str:
         </footer>
     ''')
     html_parts.append(generate_furigana_script())
+    html_parts.append(generate_examples_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -1854,7 +1952,50 @@ body {
     background-color: var(--color-accent-light);
 }
 
-/* Furigana Toggle Button */
+/* Toggle Buttons Container */
+.toggle-buttons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* Toggle Button Base Styles */
+.toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.7rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.toggle-btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.toggle-btn.active {
+    background-color: var(--color-accent-light);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.toggle-icon {
+    font-family: var(--font-jp);
+    font-size: 1rem;
+}
+
+.toggle-label {
+    font-size: 0.8rem;
+}
+
+/* Furigana Toggle Button (legacy support) */
 .furigana-toggle-btn {
     display: flex;
     align-items: center;
@@ -1897,6 +2038,12 @@ body {
 }
 
 .furigana-hidden ruby rp {
+    display: none;
+}
+
+/* Examples Hidden State */
+.examples-hidden .examples,
+.examples-hidden .sense-examples {
     display: none;
 }
 
@@ -2110,6 +2257,34 @@ main {
     font-size: 0.85rem;
     font-style: italic;
     margin-top: 0.25rem;
+}
+
+/* Definitions with Examples (multi-sense layout) */
+.definitions-with-examples {
+    margin-top: var(--spacing-lg);
+}
+
+.sense-block {
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.sense-block:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sense-examples {
+    margin-top: var(--spacing-md);
+    margin-left: var(--spacing-md);
+}
+
+.general-examples {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--color-border);
 }
 
 /* Notes */
@@ -2670,6 +2845,14 @@ footer a:hover {
         font-size: 0.9rem;
     }
 
+    .toggle-buttons {
+        order: 1;
+    }
+
+    .toggle-label {
+        display: none;
+    }
+
     .furigana-toggle-btn {
         order: 1;
     }
@@ -2707,6 +2890,10 @@ footer a:hover {
 
     .metadata-dates {
         text-align: left;
+    }
+
+    .sense-examples {
+        margin-left: 0;
     }
 }
 '''

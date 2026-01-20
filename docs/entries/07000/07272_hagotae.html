@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">chewiness; crunchy texture; bite</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">chewiness; crunchy texture; satisfying bite</span>
-                    <div class="definition-explanation">The resistance or texture felt when biting into food; the satisfying sensation of chewing.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">chewiness; crunchy texture; satisfying bite</span>
+                        <div class="definition-explanation">The resistance or texture felt when biting into food; the satisfying sensation of chewing.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">challenge; satisfaction (figurative)</span>
-                    <div class="definition-explanation">Something that provides resistance or challenge, making it worthwhile.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese">この<ruby>野菜<rp>(</rp><rt>やさい</rt><rp>)</rp></ruby>は<ruby>歯応<rp>(</rp><rt>はごた</rt><rp>)</rp></ruby>えがある。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">アルデンテのパスタは<ruby>歯応<rp>(</rp><rt>はごた</rt><rp>)</rp></ruby>えがいい。</div>
                     <div class="example-english">Al dente pasta has a good bite.</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">challenge; satisfaction (figurative)</span>
+                        <div class="definition-explanation">Something that provides resistance or challenge, making it worthwhile.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>歯応<rp>(</rp><rt>はごた</rt><rp>)</rp></ruby>えのある<ruby>相手<rp>(</rp><rt>あいて</rt><rp>)</rp></ruby>と<ruby>対戦<rp>(</rp><rt>たいせん</rt><rp>)</rp></ruby>したい。</div>
@@ -72,6 +81,8 @@
                     
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -127,6 +138,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

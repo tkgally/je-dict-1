@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">X mark; cross; wrong</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">X mark; cross mark; wrong answer mark</span>
-                    <div class="definition-explanation">A cross-shaped symbol (×) used to indicate something is wrong, incorrect, or not permitted. Opposite of ○ (maru, circle mark for correct).</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">X mark; cross mark; wrong answer mark</span>
+                        <div class="definition-explanation">A cross-shaped symbol (×) used to indicate something is wrong, incorrect, or not permitted. Opposite of ○ (maru, circle mark for correct).</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">divorced status; previous marriage (slang)</span>
-                    <div class="definition-explanation">Colloquially used to indicate that someone has been divorced. バツイチ means divorced once.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>間違<rp>(</rp><rt>まちが</rt><rp>)</rp></ruby>った<ruby>答<rp>(</rp><rt>こた</rt><rp>)</rp></ruby>えにはバツが<ruby>付<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese">ここは<ruby>撮影<rp>(</rp><rt>さつえい</rt><rp>)</rp></ruby><ruby>禁止<rp>(</rp><rt>きんし</rt><rp>)</rp></ruby>です。×マークが<ruby>見<rp>(</rp><rt>み</rt><rp>)</rp></ruby>えますか。</div>
                     <div class="example-english">Photography is prohibited here. Do you see the X mark?</div>
                     
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">divorced status; previous marriage (slang)</span>
+                        <div class="definition-explanation">Colloquially used to indicate that someone has been divorced. バツイチ means divorced once.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>彼<rp>(</rp><rt>かれ</rt><rp>)</rp></ruby>はバツイチで、<ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>が<ruby>一人<rp>(</rp><rt>ひとり</rt><rp>)</rp></ruby>いる。</div>
@@ -72,6 +81,8 @@
                     <div class="example-notes">[Note: バツイチ = divorced once, バツニ = divorced twice]</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -125,6 +136,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

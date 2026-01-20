@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,30 +40,16 @@
             <div class="entry-gloss">to wake (someone) up, to cause</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">to wake (someone) up</span>
-                    <div class="definition-explanation">To rouse someone from sleep. The transitive counterpart to <ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きる (to wake up oneself).</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to wake (someone) up</span>
+                        <div class="definition-explanation">To rouse someone from sleep. The transitive counterpart to <ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>きる (to wake up oneself).</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">to raise, to help up</span>
-                    <div class="definition-explanation">To help someone or something stand up from a lying or fallen position.</div>
-                </div>
-            
-
-                <div class="definition-item">
-                    <span class="definition-number">3.</span>
-                    <span class="definition-gloss">to cause, to bring about</span>
-                    <div class="definition-explanation">To cause something to happen, often used for events, problems, or incidents.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby>6<ruby>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>に<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こしてください。</div>
@@ -65,13 +57,32 @@
                     <div class="example-notes"><ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こして is the te-form used for requests</div>
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>子供<rp>(</rp><rt>こども</rt><rp>)</rp></ruby>を<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こさないように<ruby>静<rp>(</rp><rt>しず</rt><rp>)</rp></ruby>かにしてください。</div>
                     <div class="example-english">Please be quiet so as not to wake the children.</div>
                     <div class="example-notes"><ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こさないように = so as not to wake</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to raise, to help up</span>
+                        <div class="definition-explanation">To help someone or something stand up from a lying or fallen position.</div>
+                    </div>
+            
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">3.</span>
+                        <span class="definition-gloss">to cause, to bring about</span>
+                        <div class="definition-explanation">To cause something to happen, often used for events, problems, or incidents.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>事故<rp>(</rp><rt>じこ</rt><rp>)</rp></ruby>を<ruby>起<rp>(</rp><rt>お</rt><rp>)</rp></ruby>こしてしまった。</div>
@@ -79,6 +90,8 @@
                     <div class="example-notes">&#x27;Cause&#x27; meaning—often used with negative events</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -134,6 +147,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();

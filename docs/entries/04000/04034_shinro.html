@@ -19,10 +19,16 @@
         <a href="../../pending.html" class="nav-link">Pending</a>
         <a href="../../about.html" class="nav-link">About</a>
     </nav>
-    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
-        <span class="furigana-icon">振</span>
-        <span class="furigana-label">Furigana</span>
-    </button>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>
 <main class="entry-page">
 <article class="entry-display">
@@ -34,23 +40,16 @@
             <div class="entry-gloss">course, direction, bearing</div>
         </div>
     
-<div class="definitions">
+<div class="definitions-with-examples">
 
-                <div class="definition-item">
-                    <span class="definition-number">1.</span>
-                    <span class="definition-gloss">course, direction, bearing (nautical/aviation)</span>
-                    <div class="definition-explanation">The direction in which a ship or aircraft is traveling or should travel. A technical term used in navigation.</div>
-                </div>
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">course, direction, bearing (nautical/aviation)</span>
+                        <div class="definition-explanation">The direction in which a ship or aircraft is traveling or should travel. A technical term used in navigation.</div>
+                    </div>
             
-
-                <div class="definition-item">
-                    <span class="definition-number">2.</span>
-                    <span class="definition-gloss">course, path (figurative)</span>
-                    <div class="definition-explanation">The direction or path one takes in life or in pursuing a goal. Used metaphorically.</div>
-                </div>
-            
-</div>
-<div class="examples">
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>船長<rp>(</rp><rt>せんちょう</rt><rp>)</rp></ruby>は<ruby>針路<rp>(</rp><rt>しんろ</rt><rp>)</rp></ruby>を<ruby>変更<rp>(</rp><rt>へんこう</rt><rp>)</rp></ruby>した。</div>
@@ -58,13 +57,23 @@
                     
                 </div>
             
-
                 <div class="example-item">
                     <div class="example-japanese"><ruby>台風<rp>(</rp><rt>たいふう</rt><rp>)</rp></ruby>の<ruby>接近<rp>(</rp><rt>せっきん</rt><rp>)</rp></ruby>により、<ruby>針路<rp>(</rp><rt>しんろ</rt><rp>)</rp></ruby>を<ruby>北<rp>(</rp><rt>きた</rt><rp>)</rp></ruby>に<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>った。</div>
                     <div class="example-english">Due to the approaching typhoon, we set a northward course.</div>
                     <div class="example-notes">針路を取る = to set a course</div>
                 </div>
             
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">course, path (figurative)</span>
+                        <div class="definition-explanation">The direction or path one takes in life or in pursuing a goal. Used metaphorically.</div>
+                    </div>
+            
+<div class="sense-examples examples">
 
                 <div class="example-item">
                     <div class="example-japanese"><ruby>会社<rp>(</rp><rt>かいしゃ</rt><rp>)</rp></ruby>は<ruby>新<rp>(</rp><rt>あたら</rt><rp>)</rp></ruby>しい<ruby>針路<rp>(</rp><rt>しんろ</rt><rp>)</rp></ruby>を<ruby>示<rp>(</rp><rt>しめ</rt><rp>)</rp></ruby>す<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>がある。</div>
@@ -72,6 +81,8 @@
                     <div class="example-notes">Figurative use</div>
                 </div>
             
+</div>
+</div>
 </div>
 
             <div class="entry-notes">
@@ -125,6 +136,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
         updateState();
     });
 })();
