@@ -26,6 +26,10 @@ from constants import get_cross_ref_label
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
 
+# Canonical CNAME for GitHub Pages custom domain
+# This ensures the CNAME file is always restored even if accidentally deleted
+GITHUB_PAGES_CNAME = "www.tkgje.jp"
+
 
 def process_furigana(text: str, show_furigana: bool = True) -> str:
     """Convert furigana notation to HTML ruby tags."""
@@ -3017,6 +3021,22 @@ def build_flat(project_root: Path) -> int:
             if src.exists():
                 shutil.copy2(src, temp_dir / preserved_file)
 
+    # Always ensure CNAME file exists with canonical content
+    # This protects against accidental deletion of the custom domain config
+    cname_path = temp_dir / 'CNAME'
+    if not cname_path.exists():
+        print(f"  WARNING: CNAME file was missing - restoring from canonical value")
+        with open(cname_path, 'w', encoding='utf-8') as f:
+            f.write(GITHUB_PAGES_CNAME + '\n')
+    else:
+        # Verify CNAME has correct content
+        with open(cname_path, 'r', encoding='utf-8') as f:
+            current_cname = f.read().strip()
+        if current_cname != GITHUB_PAGES_CNAME:
+            print(f"  WARNING: CNAME had unexpected content '{current_cname}' - fixing")
+            with open(cname_path, 'w', encoding='utf-8') as f:
+                f.write(GITHUB_PAGES_CNAME + '\n')
+
     # Use temp_dir for all build output (reassign docs_dir for the build)
     original_docs_dir = docs_dir
     docs_dir = temp_dir
@@ -3128,6 +3148,24 @@ def build_flat(project_root: Path) -> int:
         if backup_dir.exists() and not original_docs_dir.exists():
             backup_dir.rename(original_docs_dir)
         return 1
+
+    # Final CNAME verification (safety check after swap)
+    final_cname_path = original_docs_dir / 'CNAME'
+    if not final_cname_path.exists():
+        print("\n[CNAME] ERROR: CNAME file missing after build - restoring!")
+        with open(final_cname_path, 'w', encoding='utf-8') as f:
+            f.write(GITHUB_PAGES_CNAME + '\n')
+        print(f"  Restored CNAME with: {GITHUB_PAGES_CNAME}")
+    else:
+        with open(final_cname_path, 'r', encoding='utf-8') as f:
+            final_cname = f.read().strip()
+        if final_cname != GITHUB_PAGES_CNAME:
+            print(f"\n[CNAME] WARNING: CNAME has wrong content - fixing!")
+            with open(final_cname_path, 'w', encoding='utf-8') as f:
+                f.write(GITHUB_PAGES_CNAME + '\n')
+            print(f"  Fixed CNAME: '{final_cname}' -> '{GITHUB_PAGES_CNAME}'")
+        else:
+            print("\n[CNAME] Verified: GitHub Pages custom domain file intact")
 
     # Summary
     print("\n" + "=" * 50)
