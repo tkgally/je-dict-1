@@ -1,0 +1,51 @@
+{
+  "session_id": "20260121_010",
+  "started": "2026-01-21T03:34:00Z",
+  "ended": "2026-01-21T03:36:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 7,
+  "range": {
+    "start": "00331_omoide",
+    "end": "00340_pasu"
+  },
+  "summary": {
+    "example_additions": 2,
+    "semantic_tag_fixes": 4,
+    "formality_fixes": 3,
+    "other_fixes": 2
+  },
+  "changes": [
+    {"entry_id": "00331_omoide", "change": "Added 2 examples for core tier (5 total)"},
+    {"entry_id": "00332_on", "change": "Added semantic tag 'grammatical' for prefix"},
+    {"entry_id": "00333_ondo", "change": "Fixed semantic tag (time-general→measurement)"},
+    {"entry_id": "00334_onoono", "change": "Fixed semantic tag (emotion→quantity), formality (formal→neutral), removed spoken style tag"},
+    {"entry_id": "00337_otokonohito", "change": "Fixed formality (formal→neutral), semantic tag (general→person); added 2 examples (5 total)"},
+    {"entry_id": "00338_paipu", "change": "Fixed semantic tag (geography→tool)"},
+    {"entry_id": "00339_pairotto", "change": "Fixed formality (formal→neutral)"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00334_onoono", "reason": "Core tier with 2 senses needs 10 examples (currently has 3)"},
+    {"entry_id": "00335_ookii", "reason": "Basic tier with 2 senses needs 10 examples (currently has 3)"},
+    {"entry_id": "00336_otagai", "reason": "Core tier with 2 senses needs 10 examples (currently has 3)"},
+    {"entry_id": "00338_paipu", "reason": "General tier with 3 senses needs 9 examples (currently has 3)"},
+    {"entry_id": "00339_pairotto", "reason": "General tier with 2 senses needs 6 examples (currently has 3)"},
+    {"entry_id": "00340_pasu", "reason": "General tier with 4 senses needs 12 examples (currently has 3)"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00332_on", "notes": "General tier 1 sense meets minimum 3 examples after tag fix"},
+    {"entry_id": "00333_ondo", "notes": "General tier 1 sense meets minimum 3 examples after tag fix"}
+  ],
+  "patterns_observed": [
+    "Several entries had incorrect semantic tags (time-general for temperature, emotion for quantity pronoun, geography for pipe)",
+    "Some entries marked as 'formal' should be 'neutral' (common words like man, pilot)",
+    "Many entries with multiple senses need substantial example additions"
+  ],
+  "continuation_notes": {
+    "next_entry": "00341",
+    "pending_tasks": [
+      "大きい (00335_ookii) is a basic tier entry with 2 senses that urgently needs more examples"
+    ],
+    "context_for_next_session": "Continue from 00341. Multiple entries flagged for example additions."
+  }
+}
