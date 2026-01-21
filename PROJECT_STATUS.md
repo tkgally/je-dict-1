@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,659
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,866 | Unassigned: 0 ✓
-- **Candidate words**: ~673 words tracked in `candidate_words.json`
+- **Total entries**: 7,689
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,896 | Unassigned: 0 ✓
+- **Candidate words**: ~643 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 147)
+Added 30 new dictionary entries from candidate_words.json, focusing on romaji abbreviations used in Japanese media, technology, daily life, and practical Japanese vocabulary:
+
+- **Youth/Student abbreviations (4)**: JK ({女子高生|じょしこうせい} - high school girl), JC ({女子中学生|じょしちゅうがくせい} - middle school girl), DK ({男子高生|だんしこうせい} - high school boy), JD ({女子大生|じょしだいせい} - female college student)
+- **Media/Entertainment (8)**: SP (special program/security personnel), VTR (video clip), MC (master of ceremonies), PR (public relations), PV (promotional video), MV (music video), BL (boys' love), GL (girls' love)
+- **Anime/Manga (3)**: OP (opening theme), ED (ending theme), OVA (original video animation)
+- **Lifestyle (3)**: LDK (living-dining-kitchen), TPO (time, place, occasion), EV (electric vehicle)
+- **Automotive (2)**: AT (automatic transmission), MT (manual transmission)
+- **Technology/Gaming (5)**: NPC (non-player character), RPG (role-playing game), AI (artificial intelligence), VR (virtual reality), AR (augmented reality)
+- **Japanese vocabulary (5)**: {既成概念|きせいがいねん} (preconceived notion), {概略|がいりゃく} (outline), {采配|さいはい} (command/leadership), お{粗末|そまつ} (poor quality), {不振|ふしん} (slump)
+
+Notable entry features:
+- Cross-references: JK ↔ JC ↔ DK, BL ↔ GL, OP ↔ ED, AT ↔ MT, VR ↔ AR, PV ↔ MV
+- SP with two senses: (1) TV special program, (2) security personnel
+- NPC with internet slang meaning (someone without independent thought)
+- LDK with explanation of Japanese real estate notation (1LDK, 2LDK, etc.)
+- TPO as essential Japanese etiquette concept
+- {采配|さいはい} with etymology from commander's baton
+- お{粗末|そまつ} with humble expression usage after serving meals
+
+Total entries: 7,659 → 7,689
+Remaining candidates: ~673 → ~643
 
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 146)
 Added 30 new dictionary entries from candidate_words.json, covering romaji abbreviations commonly used in Japan and practical Japanese vocabulary:
@@ -399,73 +422,6 @@ Notable features:
 - Self-control and restraint vocabulary relevant to Japanese cultural values
 
 Candidate count: 544 → 645
-
-### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 137)
-Added 30 new dictionary entries from candidate_words.json, covering musical instruments/terminology, regional dialects from multiple areas, and practical everyday vocabulary:
-
-- **Musical instruments (3)**: {打楽器|だがっき} (percussion instrument), {管楽器|かんがっき} (wind instrument), {弦楽器|げんがっき} (string instrument)
-- **Music terminology (7)**: {吹奏楽|すいそうがく} (wind band music), {調律|ちょうりつ} (tuning), {転調|てんちょう} (modulation), {休符|きゅうふ} (rest), {独奏|どくそう} (solo), サックス (saxophone), トランペット (trumpet)
-- **Kansai dialect (5)**: せや (that's right), わや (mess), ええやん (it's good), どないやねん (what's up with that)
-- **Kyushu dialect (2)**: ばってん (but), よか (good)
-- **Hokkaido dialect (2)**: なまら (very), したっけ (bye/well then)
-- **Tohoku dialect (1)**: いずい (uncomfortable)
-- **Edo origin (1)**: べらぼう (ridiculously)
-- **Technology/modern (2)**: オフライン (offline), モバイルバッテリー (portable battery)
-- **Business/documents (5)**: {資質|ししつ} (qualities), {届出|とどけで} (notification), {引落|ひきおと}し (automatic deduction), {借入|かりいれ} (borrowing), {届|とど}け (report)
-- **Other (2)**: リハーサル (rehearsal), クラフトビール (craft beer), {潤滑油|じゅんかつゆ} (lubricant)
-
-Notable entry features:
-- Complete musical instrument classification group: {打楽器|だがっき} ↔ {管楽器|かんがっき} ↔ {弦楽器|げんがっき} with cross-references
-- Comprehensive regional dialect coverage: Kansai (せや, わや, ええやん, どないやねん), Kyushu (ばってん, よか), Hokkaido (なまら, したっけ), Tohoku (いずい)
-- べらぼう with Edo period etymology and cultural notes about {時代劇|じだいげき}
-- いずい with explanation of this "untranslatable" Tohoku dialect word describing subtle discomfort
-- {吹奏楽|すいそうがく} with cultural context about popularity in Japanese schools
-- Financial/administrative vocabulary: {届出|とどけで}, {引落|ひきおと}し, {借入|かりいれ}
-
-Total entries: 7,449 → 7,479
-Remaining candidates: ~574 → ~544
-
-### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 136)
-Added 30 new dictionary entries from candidate_words.json, covering cooking vocabulary, adverbs/mimetics, business/IT terms, abstract nouns, and Kansai dialect expressions:
-
-- **Cooking/food items (4)**: {卵焼|たまごや}きご{飯|はん} (rice with tamagoyaki), {塩梅|あんばい} (seasoning/condition), {擂|す}り{鉢|ばち} (mortar), {吟味|ぎんみ} (scrutiny)
-- **Cooking verbs (4)**: {浸|ひた}す (to soak), {拵|こしら}える (to prepare), {裏返|うらがえ}す (to flip), {削|そ}ぐ (to slice thin)
-- **Adverbs/mimetics (8)**: ずばり (directly), てっきり (surely/mistakenly), しぶしぶ (reluctantly), やたら (excessively), きょろきょろ (looking around), もたもた (sluggishly), そそくさ (hurriedly), {逐一|ちくいち} (one by one), まごまご (bewildered)
-- **Business/IT terms (6)**: {査定|さてい} (assessment), {精査|せいさ} (close examination), {刷新|さっしん} (reform), {復旧|ふっきゅう} (recovery), {切|き}り{替|か}え (switching), {脆弱|ぜいじゃく} (vulnerability)
-- **Abstract nouns (3)**: {疲弊|ひへい} (exhaustion), {逸脱|いつだつ} (deviation), {萎縮|いしゅく} (atrophy)
-- **Kansai dialect (4)**: ほんま (really), なんでやねん (what the heck), おおきに (thank you), あかん (no good)
-
-Notable entry features:
-- Traditional Japanese cooking vocabulary including {擂|す}り{鉢|ばち} (mortar) with cultural context
-- Complete Kansai dialect coverage: ほんま, なんでやねん, おおきに, あかん with manzai comedy context for なんでやねん
-- Useful mimetic expressions for describing behaviors and states
-- Business/IT terminology including {脆弱|ぜいじゃく} with security context
-- {塩梅|あんばい} with etymology note about salt and plum vinegar
-
-Total entries: 7,419 → 7,449
-Remaining candidates: ~603 → ~574
-
-### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 135)
-Added 30 new dictionary entries from candidate_words.json, focusing on cooking vocabulary, business documents, seal terminology, office supplies, infrastructure/housing, and employment terms:
-
-- **Cooking cuts (6)**: みじん{切|ぎ}り (finely chopped), {千切|せんぎ}り (julienne), {輪切|わぎ}り (round slices), {薄切|うすぎ}り (thin slices), {厚切|あつぎ}り (thick slices), {下処理|したしょり} (preliminary preparation)
-- **Food items (4)**: {油揚|あぶらあ}げ (deep-fried tofu), {厚揚|あつあ}げ (thick fried tofu), ちくわ (tube-shaped fish cake), しらたき (konjac noodles)
-- **Business documents (6)**: {議事録|ぎじろく} (meeting minutes), {稟議|りんぎ} (approval request), {見積書|みつもりしょ} (quotation), {仕様書|しようしょ} (specification document), {申請書|しんせいしょ} (application form), {伝票|でんぴょう} (slip/voucher)
-- **Seal terminology (4)**: {押印|おういん} (affixing seal), {認印|みとめいん} (personal seal), {実印|じついん} (registered seal), {印鑑登録|いんかんとうろく} (seal registration)
-- **Office supplies (3)**: シュレッダー (shredder), トナー (toner), {紙詰|かみづ}まり (paper jam)
-- **Infrastructure/housing (4)**: {配管|はいかん} (plumbing), ブレーカー (circuit breaker), {収納|しゅうのう} (storage), {日当|ひあ}たり (sun exposure)
-- **Employment (3)**: {内定|ないてい} (unofficial job offer), {定年|ていねん} (retirement age), {控除|こうじょ} (deduction)
-
-Notable entry features:
-- Complete Japanese seal system vocabulary: {押印|おういん} → {認印|みとめいん} → {実印|じついん} → {印鑑登録|いんかんとうろく} with detailed registration process and requirements
-- Comprehensive cooking cut terms covering all common Japanese cutting styles
-- Traditional Japanese food items (tofu products, konjac)
-- Japanese employment system vocabulary: {内定|ないてい} with explanation of Japan's unique job offer system
-- Infrastructure vocabulary useful for housing: {配管|はいかん}, ブレーカー, {収納|しゅうのう}, {日当|ひあ}たり
-- Business document types essential for office work in Japan
-
-Total entries: 7,389 → 7,419
-Remaining candidates: ~633 → ~603
 
 ---
 
