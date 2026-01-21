@@ -1,0 +1,145 @@
+{
+  "session_id": "session_20260121_036",
+  "started": "2026-01-21T10:50:00Z",
+  "ended": "2026-01-21T11:00:00Z",
+  "status": "completed",
+
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00591-00600"
+  },
+
+  "configuration": {
+    "batch_size": 10,
+    "starting_entry": "00591",
+    "filters": {
+      "pos": null,
+      "tier": "basic",
+      "status": null
+    }
+  },
+
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 10,
+    "entries_flagged": 0
+  },
+
+  "entries_reviewed": [
+    {
+      "entry_id": "00591_isogashii",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier i-adjective, single sense"
+    },
+    {
+      "entry_id": "00592_hima",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier na-adjective with 2 senses (free time/not busy)"
+    },
+    {
+      "entry_id": "00593_totemo",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)", "Fixed formality tag (informal -> neutral)"],
+      "issues": [],
+      "notes": "Basic tier adverb, single sense. Formality fixed to match notes"
+    },
+    {
+      "entry_id": "00594_taihen",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier adverb with 2 senses (very/difficult)"
+    },
+    {
+      "entry_id": "00595_chotto",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 9 (3 per sense)", "Fixed formality tag (formal -> informal)"],
+      "issues": [],
+      "notes": "Basic tier adverb with 3 senses. Formality fixed - chotto is informal"
+    },
+    {
+      "entry_id": "00596_sukoshi",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier adverb, single sense. Formality 'formal' is correct"
+    },
+    {
+      "entry_id": "00597_takusan",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier adverb, single sense"
+    },
+    {
+      "entry_id": "00598_zenzen",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier adverb with 2 senses (not at all/totally colloquial)"
+    },
+    {
+      "entry_id": "00599_itsumo",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier adverb with 2 senses (always/usually)"
+    },
+    {
+      "entry_id": "00600_tokidoki",
+      "reviewed_at": "2026-01-21T10:37:08Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier adverb, single sense"
+    }
+  ],
+
+  "issues_found": [],
+
+  "patterns_observed": [
+    {
+      "pattern": "Formality tags on adverbs need careful review - totemo and chotto had incorrect tags",
+      "frequency": "occasional",
+      "suggested_action": "Review adverb entries for formality tag accuracy"
+    },
+    {
+      "pattern": "Frequency adverbs (itsumo, tokidoki, zenzen) form useful thematic group",
+      "frequency": "common",
+      "suggested_action": "Ensure cross-references are maintained between frequency adverbs"
+    }
+  ],
+
+  "continuation_notes": {
+    "next_entry": "00601",
+    "pending_tasks": [
+      "Continue reviewing entries 00601+"
+    ],
+    "context_for_next_session": "Session 036 complete. Reviewed entries 00591-00600 (all adverbs). Modified all 10 entries. Fixed formality tags on totemo (informal -> neutral) and chotto (formal -> informal). Multi-sense entries (hima, taihen, chotto, zenzen, itsumo) expanded with additional examples."
+  },
+
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 10,
+    "examples_added": 52,
+    "tag_fixes": 2,
+    "issues_found": 0,
+    "patterns_noted": 2,
+    "notes": "Modified all 10 entries. Added 52 new examples total. Batch focused on adverbs - busy/free pair (isogashii/hima), intensity adverbs (totemo, taihen, chotto, sukoshi, takusan, zenzen), and frequency adverbs (itsumo, tokidoki). Fixed formality tags on totemo and chotto."
+  }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="戻す - to return, to put back. Japanese-English dictionary entry with definitions and examples.">
+    <title>戻す (もどす) - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../advanced.html" class="nav-link">Advanced</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+        <a href="../../about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す</h1>
+            <div class="entry-reading">もどす</div>
+            <div class="entry-pos">godan verb</div>
+            <div class="entry-gloss">to return, to put back</div>
+        </div>
+    
+<div class="definitions-with-examples">
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">to return, to put back</span>
+                        <div class="definition-explanation">To restore something to its original place or condition.</div>
+                    </div>
+            
+<div class="sense-examples examples">
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>を<ruby>棚<rp>(</rp><rt>たな</rt><rp>)</rp></ruby>に戻す。</div>
+                    <div class="example-english">To return the book to the shelf.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>話<rp>(</rp><rt>はなし</rt><rp>)</rp></ruby>を戻しましょう。</div>
+                    <div class="example-english">Let&#x27;s get back to the topic.</div>
+                    
+                </div>
+            
+</div>
+</div>
+
+                <div class="sense-block">
+                    <div class="definition-item">
+                        <span class="definition-number">2.</span>
+                        <span class="definition-gloss">to vomit, to throw up</span>
+                        <div class="definition-explanation">To expel stomach contents (euphemistic).</div>
+                    </div>
+            
+</div>
+</div>
+
+            <div class="entry-notes">
+                <div class="notes-content"><p>戻す is a transitive verb.</p><p>TRANSITIVE/INTRANSITIVE PAIR:</p><ul><li>戻す (transitive): to put back</li><li><ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>る (intransitive): to return, go back</li></ul><p>COMMON EXPRESSIONS:</p><ul><li><ruby>元<rp>(</rp><rt>もと</rt><rp>)</rp></ruby>に戻す: to restore to original state</li><li><ruby>巻<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>き戻す: to rewind</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 17:21 · Revised 2026.1.19 21:17</div>
+                <div class="metadata-file">02000/02317_modosu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

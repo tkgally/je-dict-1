@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LINE - LINE (messaging app). Japanese-English dictionary entry with definitions and examples.">
+    <title>LINE (らいん) - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../advanced.html" class="nav-link">Advanced</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+        <a href="../../about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">LINE</h1>
+            <div class="entry-reading">らいん</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">LINE (messaging app)</div>
+        </div>
+    
+<div class="definitions">
+
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">LINE (messaging app)</span>
+                        <div class="definition-explanation">LINE; a popular messaging and social media application widely used in Japan</div>
+                    </div>
+                
+</div>
+<div class="examples">
+
+                <div class="example-item">
+                    <div class="example-japanese">LINEで<ruby>連絡<rp>(</rp><rt>れんらく</rt><rp>)</rp></ruby>してね。</div>
+                    <div class="example-english">Contact me on LINE.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese">LINEの<ruby>既読<rp>(</rp><rt>きどく</rt><rp>)</rp></ruby>がついたのに<ruby>返事<rp>(</rp><rt>へんじ</rt><rp>)</rp></ruby>がない。</div>
+                    <div class="example-english">They read my LINE message but haven&#x27;t replied.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>友達<rp>(</rp><rt>ともだち</rt><rp>)</rp></ruby>をLINEの<ruby>グループ<rp>(</rp><rt>ぐるーぷ</rt><rp>)</rp></ruby>に<ruby>追加<rp>(</rp><rt>ついか</rt><rp>)</rp></ruby>した。</div>
+                    <div class="example-english">I added a friend to the LINE group.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <div class="notes-content"><p>LINE is a messaging app developed by LINE Corporation (originally a subsidiary of the Korean company Naver). Launched in 2011 after the Tohoku earthquake, it became the dominant messaging platform in Japan.</p><p>KEY FEATURES:</p><ul><li><ruby>既読<rp>(</rp><rt>きどく</rt><rp>)</rp></ruby> (read receipt) - Shows when messages are read</li><li>スタンプ (stickers) - Decorative images for messaging</li><li>グループ (groups) - Group chat function</li><li><ruby>通話<rp>(</rp><rt>つうわ</rt><rp>)</rp></ruby> (calls) - Voice and video calling</li></ul><p>COMMON EXPRESSIONS:</p><ul><li>LINEする (to send a LINE message, to LINE someone)</li><li>LINE<ruby>交換<rp>(</rp><rt>こうかん</rt><rp>)</rp></ruby>する (to exchange LINE contact info)</li><li>LINE<ruby>追加<rp>(</rp><rt>ついか</rt><rp>)</rp></ruby>する (to add on LINE)</li><li><ruby>既読<rp>(</rp><rt>きどく</rt><rp>)</rp></ruby>スルー (ignoring a message after reading it)</li></ul><p>CULTURAL NOTE:<br>LINE is essentially ubiquitous in Japan. Asking for someone&#x27;s LINE is the standard way to exchange contact information, particularly among younger generations. Many businesses and organizations also use LINE for official communications.</p><p>REGISTER: Neutral. Used across all age groups and contexts.</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.21 15:42</div>
+                <div class="metadata-file">07500/07806_rain</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="マナーモード - silent mode; vibrate mode; manner mode. Japanese-English dictionary entry with definitions and examples.">
+    <title>マナーモード (まなーもーど) - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../advanced.html" class="nav-link">Advanced</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+        <a href="../../about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">マナーモード</h1>
+            <div class="entry-reading">まなーもーど</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">silent mode; vibrate mode; manner mode</div>
+        </div>
+    
+<div class="definitions">
+
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">silent mode; vibrate mode</span>
+                        <div class="definition-explanation">A phone setting that silences the ringtone, typically switching to vibration only.</div>
+                    </div>
+                
+</div>
+<div class="examples">
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>携帯<rp>(</rp><rt>けいたい</rt><rp>)</rp></ruby>をマナーモードにした。</div>
+                    <div class="example-english">I put my phone on silent mode.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>映画館<rp>(</rp><rt>えいがかん</rt><rp>)</rp></ruby>ではマナーモードにしてください。</div>
+                    <div class="example-english">Please put your phone on silent mode in the cinema.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese">マナーモードに<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>するのを<ruby>忘<rp>(</rp><rt>わす</rt><rp>)</rp></ruby>れていた。</div>
+                    <div class="example-english">I forgot to set it to silent mode.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <div class="notes-content"><p>ORIGIN:<br>Japanese-English (wasei-eigo) combining &quot;manner&quot; + &quot;mode&quot; - emphasizing phone etiquette.</p><p>CULTURAL NOTE:<br>In Japan, using phones on public transport is considered impolite. Announcements on trains commonly remind passengers to set phones to マナーモード and refrain from calls.</p><p>RELATED PHONE MODES:</p><ul><li><ruby>機内<rp>(</rp><rt>きない</rt><rp>)</rp></ruby>モード - airplane mode</li><li><ruby>消音<rp>(</rp><rt>しょうおん</rt><rp>)</rp></ruby> - mute</li><li>サイレントモード - silent mode (also used)</li></ul><p>COLLOCATIONS:</p><ul><li>マナーモードにする/に<ruby>設定<rp>(</rp><rt>せってい</rt><rp>)</rp></ruby>する - to set to silent mode</li><li>マナーモードを<ruby>解除<rp>(</rp><rt>かいじょ</rt><rp>)</rp></ruby>する - to turn off silent mode</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.21 8:30</div>
+                <div class="metadata-file">07500/07687_manaamoodo</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
