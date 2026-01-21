@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T05:00:00Z",
+  "last_updated": "2026-01-21T09:31:42Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 2970,
-    "pending": 4559,
+    "reviewed": 2980,
+    "pending": 4549,
     "flagged": 0,
     "skipped": 0
   },
@@ -2200,6 +2200,66 @@
       "reviewed": "2026-01-21T09:10:00Z",
       "status": "current",
       "notes": "Basic tier particle with 5 examples and comprehensive documentation"
+    },
+    "00491_nagai": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 7 examples (now 10 total for 2 senses)"
+    },
+    "00492_omou": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 12 examples (now 15 total for 3 senses)"
+    },
+    "00493_sagasu": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples (now 5 total)"
+    },
+    "00494_hairu": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 7 examples (now 10 total for 2 senses)"
+    },
+    "00495_iru": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 12 examples (now 15 total for 3 senses)"
+    },
+    "00496_kyou": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality tag (formal→neutral); added 2 examples (now 5 total)"
+    },
+    "00497_mise": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed politeness tag (polite→plain); added 2 examples (now 5 total)"
+    },
+    "00498_nani": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples (now 5 total)"
+    },
+    "00499_sakana": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples (now 5 total)"
+    },
+    "00500_takai": {
+      "last_reviewed": "2026-01-21T09:31:42Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 12 examples (now 15 total for 3 senses)"
     }
   },
   "review_history": [
@@ -2599,6 +2659,15 @@
       },
       "count": 10,
       "modified": 0
+    },
+    {
+      "session_id": "20260121_026",
+      "range": {
+        "start": "00491_nagai",
+        "end": "00500_takai"
+      },
+      "count": 10,
+      "modified": 10
     }
   ]
 }
