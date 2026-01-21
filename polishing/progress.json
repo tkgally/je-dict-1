@@ -4,8 +4,8 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 2950,
-    "pending": 4579,
+    "reviewed": 2960,
+    "pending": 4569,
     "flagged": 0,
     "skipped": 0
   },
@@ -2100,6 +2100,56 @@
       "reviewed": "2026-01-21T09:01:34Z",
       "status": "flagged",
       "notes": "Basic tier 2 senses needs 7 more examples - HIGH PRIORITY"
+    },
+    "00471_shinkou": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "current",
+      "notes": "Fixed semantic (removed 'emotion'); general tier 1 sense meets minimum 3 examples"
+    },
+    "00472_shiyou": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "General tier 2 senses needs 3 more examples"
+    },
+    "00473_tsukau": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "Basic tier 2 senses needs 7 more examples - HIGH PRIORITY"
+    },
+    "00474_wasureru": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "Basic tier 1 sense needs 2 more examples"
+    },
+    "00475_yasashii": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "Basic tier 2 senses needs 7 more examples - HIGH PRIORITY"
+    },
+    "00476_hito": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "Basic tier 3 senses needs 12 more examples - HIGH PRIORITY"
+    },
+    "00477_kaku": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "Basic tier 2 senses needs 7 more examples - HIGH PRIORITY"
+    },
+    "00478_motsu": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "Basic tier 3 senses needs 12 more examples - HIGH PRIORITY"
+    },
+    "00479_narau": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "Basic tier 1 sense needs 2 more examples"
+    },
+    "00480_shigoto": {
+      "reviewed": "2026-01-21T09:05:20Z",
+      "status": "flagged",
+      "notes": "Basic tier 2 senses needs 7 more examples - HIGH PRIORITY"
     }
   },
   "review_history": [
@@ -2481,6 +2531,15 @@
       },
       "count": 10,
       "modified": 3
+    },
+    {
+      "session_id": "20260121_024",
+      "range": {
+        "start": "00471_shinkou",
+        "end": "00480_shigoto"
+      },
+      "count": 10,
+      "modified": 1
     }
   ]
 }
