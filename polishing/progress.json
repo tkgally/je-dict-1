@@ -4,7 +4,7 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 545,
+    "reviewed": 555,
     "pending": 4359,
     "flagged": 2,
     "skipped": 0
@@ -1900,7 +1900,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00680_tsuku",
+    "last_reviewed_entry": "00690_atsui",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -3195,6 +3195,56 @@
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
       "reviewer": "claude-opus-4-5"
+    },
+    "00681_tsumetai": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00682_ue": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00683_ushiro": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00684_utau": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00685_warau": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00686_zasshi": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00687_ame": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00688_hon": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00689_aku": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00690_atsui": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
     }
   },
   "review_history": [
@@ -3695,6 +3745,22 @@
         "00680_tsuku"
       ],
       "session_id": "session_20260121_001"
+    },
+    {
+      "date": "2026-01-21",
+      "entries_reviewed": [
+        "00681_tsumetai",
+        "00682_ue",
+        "00683_ushiro",
+        "00684_utau",
+        "00685_warau",
+        "00686_zasshi",
+        "00687_ame",
+        "00688_hon",
+        "00689_aku",
+        "00690_atsui"
+      ],
+      "session_id": "session_20260121_002"
     }
   ]
 }
