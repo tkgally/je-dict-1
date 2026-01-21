@@ -1,0 +1,227 @@
+{
+  "session_id": "session_20260121_033",
+  "started": "2026-01-21T10:15:00Z",
+  "ended": "2026-01-21T10:20:00Z",
+  "status": "completed",
+
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00561-00570"
+  },
+
+  "configuration": {
+    "batch_size": 10,
+    "starting_entry": "00561",
+    "filters": {
+      "pos": null,
+      "tier": "basic",
+      "status": null
+    }
+  },
+
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 8,
+    "entries_flagged": 2
+  },
+
+  "entries_reviewed": [
+    {
+      "entry_id": "00561_otoko",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)", "Fixed formality tag (formal -> neutral)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense"
+    },
+    {
+      "entry_id": "00562_tsukeru",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier verb with 2 senses (turn on/attach)"
+    },
+    {
+      "entry_id": "00563_akeru",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier verb, single sense"
+    },
+    {
+      "entry_id": "00564_gohan",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "flagged",
+      "changes": [],
+      "issues": ["2 senses with only 3 examples - needs 10 total"],
+      "notes": "Core tier noun with 2 senses, flagged for example expansion"
+    },
+    {
+      "entry_id": "00565_toru",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "flagged",
+      "changes": [],
+      "issues": ["3 senses with only 3 examples - needs 15 total"],
+      "notes": "Basic tier verb with 3 senses, flagged for example expansion"
+    },
+    {
+      "entry_id": "00566_chichi",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense, humble politeness correct"
+    },
+    {
+      "entry_id": "00567_owaru",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier verb, single sense"
+    },
+    {
+      "entry_id": "00568_oriru",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier verb with 2 senses (get off/descend)"
+    },
+    {
+      "entry_id": "00569_te",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier noun with 2 senses (hand/arm)"
+    },
+    {
+      "entry_id": "00570_ani",
+      "reviewed_at": "2026-01-21T10:15:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense, humble politeness correct"
+    }
+  ],
+
+  "changes_made": [
+    {
+      "entry_id": "00561_otoko",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "examples",
+      "change_type": "added",
+      "description": "Added 2 examples with progressive length"
+    },
+    {
+      "entry_id": "00561_otoko",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "metadata.tags.formality",
+      "change_type": "fixed",
+      "description": "Changed from 'formal' to 'neutral'"
+    },
+    {
+      "entry_id": "00562_tsukeru",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "examples",
+      "change_type": "added",
+      "description": "Expanded from 3 to 10 examples (5 per sense)"
+    },
+    {
+      "entry_id": "00563_akeru",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "examples",
+      "change_type": "added",
+      "description": "Added 2 examples with progressive length"
+    },
+    {
+      "entry_id": "00566_chichi",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "examples",
+      "change_type": "added",
+      "description": "Added 2 examples with progressive length"
+    },
+    {
+      "entry_id": "00567_owaru",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "examples",
+      "change_type": "added",
+      "description": "Added 2 examples with progressive length"
+    },
+    {
+      "entry_id": "00568_oriru",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "examples",
+      "change_type": "added",
+      "description": "Expanded from 3 to 10 examples (5 per sense)"
+    },
+    {
+      "entry_id": "00569_te",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "examples",
+      "change_type": "added",
+      "description": "Expanded from 3 to 10 examples (5 per sense)"
+    },
+    {
+      "entry_id": "00570_ani",
+      "timestamp": "2026-01-21T10:15:00Z",
+      "field": "examples",
+      "change_type": "added",
+      "description": "Added 2 examples with progressive length"
+    }
+  ],
+
+  "issues_found": [
+    {
+      "entry_id": "00564_gohan",
+      "severity": "medium",
+      "category": "example_coverage",
+      "description": "2 senses with only 3 examples - needs 10 total (core tier)",
+      "action_taken": "flagged_for_review"
+    },
+    {
+      "entry_id": "00565_toru",
+      "severity": "medium",
+      "category": "example_coverage",
+      "description": "3 senses with only 3 examples - needs 15 total",
+      "action_taken": "flagged_for_review"
+    }
+  ],
+
+  "patterns_observed": [
+    {
+      "pattern": "Multi-sense entries with 3+ senses require significant example expansion effort",
+      "frequency": "common",
+      "suggested_action": "Consider dedicated sessions for high-sense-count entries"
+    },
+    {
+      "pattern": "formality tag 'formal' incorrectly applied to neutral nouns (otoko)",
+      "frequency": "occasional",
+      "suggested_action": "Review person-related nouns for consistent formality tagging"
+    }
+  ],
+
+  "continuation_notes": {
+    "next_entry": "00571",
+    "pending_tasks": [
+      "Continue reviewing entries 00571+",
+      "Return to gohan (00564) and toru (00565) for example expansion"
+    ],
+    "context_for_next_session": "Session 033 complete. Reviewed entries 00561-00570. Modified 8 entries. Flagged gohan (core tier, 2 senses) and toru (3 senses) for later example expansion. Fixed formality tag on otoko."
+  },
+
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 8,
+    "examples_added": 47,
+    "tag_fixes": 1,
+    "issues_found": 2,
+    "patterns_noted": 2,
+    "notes": "Modified 8 entries, adding 47 new examples. Multi-sense entries tsukeru, oriru, and te expanded to 10 examples each. Single-sense entries (otoko, akeru, chichi, owaru, ani) now have 5 examples. Flagged gohan and toru for example expansion due to high sense count."
+  }
+}

@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T10:14:42Z",
+  "last_updated": "2026-01-21T10:20:00Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 3040,
-    "pending": 4439,
-    "flagged": 0,
+    "reviewed": 3050,
+    "pending": 4429,
+    "flagged": 2,
     "skipped": 0
   },
   "entries": {
@@ -1900,7 +1900,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00560_kuchi",
+    "last_reviewed_entry": "00570_ani",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -2490,6 +2490,56 @@
       "reviewed_at": "2026-01-21T10:14:42Z",
       "status": "current",
       "notes": "Polished in session 032"
+    },
+    "00561_otoko": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "current",
+      "notes": "Polished in session 033"
+    },
+    "00562_tsukeru": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "current",
+      "notes": "Polished in session 033"
+    },
+    "00563_akeru": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "current",
+      "notes": "Polished in session 033"
+    },
+    "00564_gohan": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "flagged",
+      "notes": "Flagged for example expansion in session 033"
+    },
+    "00565_toru": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "flagged",
+      "notes": "Flagged for example expansion in session 033"
+    },
+    "00566_chichi": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "current",
+      "notes": "Polished in session 033"
+    },
+    "00567_owaru": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "current",
+      "notes": "Polished in session 033"
+    },
+    "00568_oriru": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "current",
+      "notes": "Polished in session 033"
+    },
+    "00569_te": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "current",
+      "notes": "Polished in session 033"
+    },
+    "00570_ani": {
+      "reviewed_at": "2026-01-21T10:20:00Z",
+      "status": "current",
+      "notes": "Polished in session 033"
     }
   },
   "review_history": [
@@ -2914,6 +2964,13 @@
       "entries_reviewed": 10,
       "entries_modified": 10,
       "range": "00551-00560"
+    },
+    {
+      "session": "session_20260121_033",
+      "date": "2026-01-21",
+      "entries_reviewed": 10,
+      "entries_modified": 8,
+      "range": "00561-00570"
     }
   ]
 }
