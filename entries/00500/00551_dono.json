@@ -41,6 +41,26 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "00551_dono_ex4",
+      "japanese": "どの{色|いろ}が{好|す}きですか？{私|わたし}は{青|あお}が{好|す}きです。",
+      "english": "Which color do you like? I like blue.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00551_dono_ex5",
+      "japanese": "どの{道|みち}を{行|い}けばいいか{分|わ}からなくて、{人|ひと}に{聞|き}きました。",
+      "english": "I didn't know which road to take, so I asked someone.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Must be followed by a noun. Part of the こそあど series: この (this), その (that), あの (that over there), どの (which). Compare with どれ (which one) used independently.",
@@ -54,7 +74,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:23:40Z",
-    "modified": "2026-01-19T11:37:00.397564Z",
+    "modified": "2026-01-21T10:10:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -62,7 +82,10 @@
         "pre-noun-adjectival"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "interrogative"
+      ]
     }
   }
 }
