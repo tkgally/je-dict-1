@@ -4,7 +4,7 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 494,
+    "reviewed": 545,
     "pending": 4359,
     "flagged": 2,
     "skipped": 0
@@ -1900,7 +1900,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00670_shita",
+    "last_reviewed_entry": "00680_tsuku",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -3145,6 +3145,56 @@
     "00670_shita": {
       "reviewed_at": "2026-01-21T12:52:23Z",
       "status": "current"
+    },
+    "00671_soto": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00672_suiyoubi": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00673_sumu": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00674_suzushii": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00675_tegami": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00676_to": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00677_tokei": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00678_tomeru": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00679_tori": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00680_tsuku": {
+      "reviewed_at": "2026-01-21T14:14:23Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
     }
   },
   "review_history": [
@@ -3629,6 +3679,22 @@
       "session_id": "session_20260121_043",
       "entries_reviewed": 10,
       "entries_modified": 10
+    },
+    {
+      "date": "2026-01-21",
+      "entries_reviewed": [
+        "00671_soto",
+        "00672_suiyoubi",
+        "00673_sumu",
+        "00674_suzushii",
+        "00675_tegami",
+        "00676_to",
+        "00677_tokei",
+        "00678_tomeru",
+        "00679_tori",
+        "00680_tsuku"
+      ],
+      "session_id": "session_20260121_001"
     }
   ]
 }
