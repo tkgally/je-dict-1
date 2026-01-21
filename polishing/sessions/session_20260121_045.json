@@ -1,0 +1,155 @@
+{
+  "session_id": "session_20260121_045",
+  "started": "2026-01-21T21:50:00Z",
+  "ended": "2026-01-21T21:58:00Z",
+  "status": "completed",
+
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00681-00690"
+  },
+
+  "configuration": {
+    "batch_size": 10,
+    "starting_entry": "00681",
+    "filters": {
+      "pos": null,
+      "tier": "basic/core",
+      "status": null
+    }
+  },
+
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 5,
+    "entries_flagged": 0
+  },
+
+  "entries_reviewed": [
+    {
+      "entry_id": "00681_tsumetai",
+      "reviewed_at": "2026-01-21T21:51:00Z",
+      "status": "current",
+      "changes": ["Fixed ex2: replaced 床 (general) with 水 (basic)"],
+      "issues": [],
+      "notes": "Basic tier adjective (cold to touch), 2 senses, 10 examples. Fixed vocabulary tier violation in ex2."
+    },
+    {
+      "entry_id": "00682_ue",
+      "reviewed_at": "2026-01-21T21:53:00Z",
+      "status": "current",
+      "changes": [
+        "Fixed ex3: replaced 棚 (general) with テーブル (basic)",
+        "Fixed ex7: replaced 立場 (general) with basic structure",
+        "Fixed ex8: replaced 相談 (general) with 聞く (basic)",
+        "Fixed ex9: replaced 学年/学生 (general) with basic vocab",
+        "Fixed ex10: replaced 敬語 (general) with 丁寧 (core)"
+      ],
+      "issues": [],
+      "notes": "Basic tier noun (above), 2 senses, 10 examples. Fixed 5 vocabulary tier violations."
+    },
+    {
+      "entry_id": "00683_ushiro",
+      "reviewed_at": "2026-01-21T21:54:00Z",
+      "status": "current",
+      "changes": [],
+      "issues": [],
+      "notes": "Basic tier noun (behind). 5 examples, all compliant. No changes needed."
+    },
+    {
+      "entry_id": "00684_utau",
+      "reviewed_at": "2026-01-21T21:54:30Z",
+      "status": "current",
+      "changes": [],
+      "issues": [],
+      "notes": "Basic tier verb (to sing). 5 examples, all compliant. No changes needed."
+    },
+    {
+      "entry_id": "00685_warau",
+      "reviewed_at": "2026-01-21T21:55:00Z",
+      "status": "current",
+      "changes": ["Fixed ex3: replaced 声 (general) with 一緒 (basic)"],
+      "issues": [],
+      "notes": "Basic tier verb (to laugh), 2 senses, 10 examples. Fixed vocabulary tier violation in ex3."
+    },
+    {
+      "entry_id": "00686_zasshi",
+      "reviewed_at": "2026-01-21T21:55:30Z",
+      "status": "current",
+      "changes": [],
+      "issues": [],
+      "notes": "Core tier noun (magazine). 5 examples, all compliant for core tier. No changes needed."
+    },
+    {
+      "entry_id": "00687_ame",
+      "reviewed_at": "2026-01-21T21:56:00Z",
+      "status": "current",
+      "changes": ["Fixed ex5: replaced 舐める (general) with 食べる (basic)"],
+      "issues": [],
+      "notes": "Basic tier noun (candy). Fixed vocabulary tier violation in ex5."
+    },
+    {
+      "entry_id": "00688_hon",
+      "reviewed_at": "2026-01-21T21:56:30Z",
+      "status": "current",
+      "changes": [],
+      "issues": [],
+      "notes": "Basic tier counter (long objects). 5 examples, all compliant. No changes needed."
+    },
+    {
+      "entry_id": "00689_aku",
+      "reviewed_at": "2026-01-21T21:57:00Z",
+      "status": "current",
+      "changes": [],
+      "issues": [],
+      "notes": "Basic tier verb (to open). 5 examples, all compliant. No changes needed."
+    },
+    {
+      "entry_id": "00690_atsui",
+      "reviewed_at": "2026-01-21T21:57:30Z",
+      "status": "current",
+      "changes": [
+        "Fixed ex2: replaced 焼く (general) with 読む (basic)",
+        "Fixed ex3: replaced 壁/聞こえる (general) with 紙/書く (basic)"
+      ],
+      "issues": [],
+      "notes": "Basic tier adjective (thick). Fixed 2 vocabulary tier violations."
+    }
+  ],
+
+  "issues_found": [],
+
+  "patterns_observed": [
+    {
+      "pattern": "General-tier vocabulary in basic-tier examples",
+      "frequency": "common",
+      "suggested_action": "Discovered: 床, 棚, 立場, 相談, 学年, 敬語, 声, 舐める, 焼く, 壁, 聞こえる are all general tier"
+    },
+    {
+      "pattern": "Sense 2 examples often use more advanced vocabulary",
+      "frequency": "common",
+      "suggested_action": "Multi-sense entries like ue (10 examples) need careful vocabulary checking for all examples"
+    }
+  ],
+
+  "continuation_notes": {
+    "next_entry": "00691",
+    "pending_tasks": [
+      "Continue reviewing entries 00691+"
+    ],
+    "context_for_next_session": "Session 045 complete. Reviewed entries 00681-00690 (cold, above, behind, sing, laugh, magazine, candy, counter-hon, open, thick). Modified 5 of 10 entries. Discovered more general-tier words: 床, 棚, 立場, 相談, 学年, 敬語, 舐める, 焼く, 壁. Entry 00682_ue had 5 violations across ex3, ex7-10."
+  },
+
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 5,
+    "examples_fixed": 10,
+    "vocab_tier_fixes": 10,
+    "candidates_added": 0,
+    "issues_found": 0,
+    "patterns_noted": 2,
+    "notes": "Reviewed 10 entries. Modified 5 entries to fix vocabulary tier violations. Fixed 10 examples total. Batch included adjectives (cold, thick), nouns (above, behind, magazine, candy), verbs (sing, laugh, open), and a counter (hon). Entry 00682_ue had the most fixes (5 examples). One core-tier entry (00686_zasshi) was verified compliant."
+  }
+}
