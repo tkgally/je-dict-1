@@ -1,0 +1,47 @@
+{
+  "session_id": "20260121_014",
+  "started": "2026-01-21T04:50:00Z",
+  "ended": "2026-01-21T05:00:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 9,
+  "range": {
+    "start": "00371_shisei",
+    "end": "00380_sonouchi"
+  },
+  "summary": {
+    "example_additions": 5,
+    "semantic_tag_fixes": 8,
+    "formality_fixes": 2,
+    "notes_field_additions": 5,
+    "other_fixes": 1
+  },
+  "changes": [
+    {"entry_id": "00371_shisei", "change": "Added 7 examples for 2 senses (10 total); fixed politeness (humble→plain), semantic tags (communication→body-part,emotion)"},
+    {"entry_id": "00372_shison", "change": "Added 2 examples (5 total); removed literary style, fixed formality (formal→neutral), semantic tag (communication→family)"},
+    {"entry_id": "00373_shitei", "change": "Added notes fields; fixed semantic tags (communication,geography→action)"},
+    {"entry_id": "00374_shitetsu", "change": "Added 2 examples (5 total); fixed semantic tag (general→transportation)"},
+    {"entry_id": "00375_shoho", "change": "Added notes fields"},
+    {"entry_id": "00376_shoku", "change": "No changes needed - already meets requirements"},
+    {"entry_id": "00377_shugo", "change": "Added notes fields; fixed semantic tags (communication,education→grammatical)"},
+    {"entry_id": "00378_sokkuri", "change": "Added 3 examples for 2 senses (6 total); fixed semantic tag (transportation→descriptive)"},
+    {"entry_id": "00379_sokode", "change": "Added 2 examples (5 total); fixed formality (formal→neutral)"},
+    {"entry_id": "00380_sonouchi", "change": "No changes needed - already meets requirements"}
+  ],
+  "entries_needing_followup": [],
+  "entries_no_changes_needed": [
+    {"entry_id": "00376_shoku", "notes": "General tier 1 sense meets minimum 3 examples with notes fields"},
+    {"entry_id": "00380_sonouchi", "notes": "General tier 1 sense meets minimum 3 examples with notes fields"}
+  ],
+  "patterns_observed": [
+    "Incorrect semantic tags are common - 'communication' used too broadly for non-communication words",
+    "'transportation' semantic tag incorrectly applied to unrelated words (sokkuri)",
+    "politeness: humble incorrectly applied to common neutral words",
+    "'literary' style applied too broadly"
+  ],
+  "continuation_notes": {
+    "next_entry": "00381",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue from 00381. Common issues: incorrect semantic tags, missing notes fields on examples."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "session_id": "20260121_013",
+  "started": "2026-01-21T04:40:00Z",
+  "ended": "2026-01-21T04:46:05Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 10,
+  "range": {
+    "start": "00361_shako",
+    "end": "00370_shiritsu"
+  },
+  "summary": {
+    "example_additions": 6,
+    "semantic_tag_fixes": 6,
+    "formality_fixes": 1,
+    "notes_field_additions": 6,
+    "other_fixes": 1
+  },
+  "changes": [
+    {"entry_id": "00361_shako", "change": "Added 7 examples for 2 senses (10 total); core tier"},
+    {"entry_id": "00362_share", "change": "Added 7 examples for 2 senses (10 total); core tier"},
+    {"entry_id": "00363_shihei", "change": "Fixed semantic tags (communication,education→economy); added notes fields"},
+    {"entry_id": "00364_shikai", "change": "Added 7 examples for 2 senses (10 total); core tier"},
+    {"entry_id": "00365_shikichi", "change": "Fixed semantic tag (general→building); added notes fields"},
+    {"entry_id": "00366_shiku", "change": "Added 3 examples for 2 senses (6 total); general tier"},
+    {"entry_id": "00367_shinwa", "change": "Added 7 examples for 2 senses (10 total); fixed semantic tag (general→culture); core tier"},
+    {"entry_id": "00368_shinya", "change": "Fixed semantic tag (descriptive→time-general); added notes fields"},
+    {"entry_id": "00369_shiraga", "change": "Added 2 examples (5 total); fixed formality (formal→neutral), removed literary style, fixed semantic tag (general→body-part)"},
+    {"entry_id": "00370_shiritsu", "change": "Added notes fields; added 公立 to candidates"}
+  ],
+  "entries_needing_followup": [],
+  "entries_no_changes_needed": [],
+  "candidates_added": [
+    {"headword": "公立", "reading": "こうりつ", "reason": "Cross-reference target from 00370_shiritsu (antonym)"}
+  ],
+  "patterns_observed": [
+    "Many core tier entries with 2 senses have only 3 examples instead of required 10",
+    "General semantic tag used too broadly - entries often need more specific tags",
+    "Examples frequently missing notes field",
+    "Some entries incorrectly marked as formal/literary when they are common everyday words"
+  ],
+  "continuation_notes": {
+    "next_entry": "00371",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue from 00371. All 10 entries in this batch were modified - common issues are insufficient examples and incorrect semantic tags."
+  }
+}
