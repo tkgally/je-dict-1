@@ -1,0 +1,32 @@
+{
+  "session_id": "20260121_002",
+  "started": "2026-01-21T01:20:00Z",
+  "ended": "2026-01-21T01:30:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 3,
+  "range": {
+    "start": "00251_kuiki",
+    "end": "00260_kyouka"
+  },
+  "summary": {
+    "example_additions": 12,
+    "semantic_tag_fixes": 0,
+    "notes_field_fixes": 0
+  },
+  "changes": [
+    {"entry_id": "00253_kuriimu", "change": "Added 3 examples for 2 senses (6 total): 1 for dairy cream sense, 2 for cosmetic cream sense"},
+    {"entry_id": "00254_kuru", "change": "Added 7 examples for 2 senses (10 total): 3 for sense 1 (to come), 4 for sense 2 (~てくる pattern); basic tier"},
+    {"entry_id": "00257_kyakuma", "change": "Added 2 examples for core tier (5 total)"}
+  ],
+  "patterns_observed": [
+    "Basic tier entries with multiple senses often lack sufficient examples (e.g., 来る had only 3 examples for 10 required)",
+    "Multi-sense entries in general tier are mostly compliant with 3 examples per sense",
+    "Core tier entries continue to need attention for meeting 5-example minimum"
+  ],
+  "continuation_notes": {
+    "next_entry": "00261",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue reviewing from entry 00261. Main focus: ensure basic/core tier entries have 5 examples per sense, verify vocabulary restrictions for basic tier examples."
+  }
+}
