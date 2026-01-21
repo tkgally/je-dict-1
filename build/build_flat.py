@@ -3021,6 +3021,36 @@ def build_flat(project_root: Path) -> int:
             if src.exists():
                 shutil.copy2(src, temp_dir / preserved_file)
 
+    # Ensure about.html exists with content (manually-edited file, not generated)
+    # If missing or empty, try to restore from git history
+    about_path = temp_dir / 'about.html'
+    if not about_path.exists() or about_path.stat().st_size == 0:
+        print(f"  WARNING: about.html is missing or empty - attempting git restore")
+        try:
+            import subprocess
+            # Get about.html from the most recent commit where it had content
+            result = subprocess.run(
+                ['git', 'log', '--oneline', '--diff-filter=M', '-1', '--', 'docs/about.html'],
+                capture_output=True, text=True, cwd=project_root
+            )
+            if result.returncode == 0 and result.stdout.strip():
+                commit_hash = result.stdout.strip().split()[0]
+                # Try to get content from parent of deletion commit
+                restore_result = subprocess.run(
+                    ['git', 'show', f'{commit_hash}:docs/about.html'],
+                    capture_output=True, text=True, cwd=project_root
+                )
+                if restore_result.returncode == 0 and restore_result.stdout.strip():
+                    with open(about_path, 'w', encoding='utf-8') as f:
+                        f.write(restore_result.stdout)
+                    print(f"  Restored about.html from git commit {commit_hash}")
+                else:
+                    print(f"  ERROR: Could not restore about.html from git - file may need manual restoration")
+            else:
+                print(f"  ERROR: Could not find about.html in git history - file may need manual restoration")
+        except Exception as e:
+            print(f"  ERROR: Git restore failed for about.html: {e}")
+
     # Always ensure CNAME file exists with canonical content
     # This protects against accidental deletion of the custom domain config
     cname_path = temp_dir / 'CNAME'
@@ -3148,6 +3178,15 @@ def build_flat(project_root: Path) -> int:
         if backup_dir.exists() and not original_docs_dir.exists():
             backup_dir.rename(original_docs_dir)
         return 1
+
+    # Final about.html verification (safety check after swap)
+    final_about_path = original_docs_dir / 'about.html'
+    if not final_about_path.exists() or final_about_path.stat().st_size == 0:
+        print("\n[about.html] WARNING: about.html is missing or empty after build!")
+        print("  This is a manually-edited file. Please restore it from git:")
+        print("  git show HEAD~1:docs/about.html > docs/about.html")
+    else:
+        print("\n[about.html] Verified: About page file intact")
 
     # Final CNAME verification (safety check after swap)
     final_cname_path = original_docs_dir / 'CNAME'
