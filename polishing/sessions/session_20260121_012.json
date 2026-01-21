@@ -1,0 +1,46 @@
+{
+  "session_id": "20260121_012",
+  "started": "2026-01-21T03:39:00Z",
+  "ended": "2026-01-21T03:41:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 6,
+  "range": {
+    "start": "00351_raketto",
+    "end": "00360_setsu"
+  },
+  "summary": {
+    "example_additions": 2,
+    "semantic_tag_fixes": 3,
+    "formality_fixes": 3,
+    "other_fixes": 0
+  },
+  "changes": [
+    {"entry_id": "00351_raketto", "change": "Fixed semantic tags (building,transportation→leisure); added 2 examples (5 total)"},
+    {"entry_id": "00352_reberu", "change": "Fixed formality (formal→neutral), semantic tag (general→quantity)"},
+    {"entry_id": "00354_ruuru", "change": "Fixed formality (formal→neutral); added 2 examples (5 total)"},
+    {"entry_id": "00357_sakari", "change": "Fixed formality (formal→neutral), semantic tag (general→time-general)"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00352_reberu", "reason": "General tier with 2 senses needs 6 examples (currently has 3)"},
+    {"entry_id": "00353_roketto", "reason": "General tier with 2 senses needs 6 examples (currently has 3)"},
+    {"entry_id": "00357_sakari", "reason": "General tier with 2 senses needs 6 examples (currently has 3)"},
+    {"entry_id": "00358_sakasa", "reason": "General tier with 2 senses needs 6 examples (currently has 3)"},
+    {"entry_id": "00359_sasuga", "reason": "General tier with 2 senses needs 6 examples (currently has 3)"},
+    {"entry_id": "00360_setsu", "reason": "General tier with 2 senses needs 6 examples (currently has 3)"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00355_saishuu", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00356_sakaba", "notes": "General tier 1 sense meets minimum 3 examples"}
+  ],
+  "patterns_observed": [
+    "Loanwords frequently have incorrect semantic tags (building/transportation for unrelated words)",
+    "Common loanwords like ルール, レベル incorrectly marked as 'formal'",
+    "Many general tier entries with 2 senses have only 3 examples instead of required 6"
+  ],
+  "continuation_notes": {
+    "next_entry": "00361",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue from 00361. Many general tier entries need example additions."
+  }
+}
