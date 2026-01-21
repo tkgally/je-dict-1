@@ -1,0 +1,55 @@
+{
+  "session_id": "20260121_022",
+  "started": "2026-01-21T09:00:00Z",
+  "ended": "2026-01-21T09:15:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 3,
+  "range": {
+    "start": "00451_koushi",
+    "end": "00460_shuushoku"
+  },
+  "summary": {
+    "semantic_tag_fixes": 2,
+    "notes_field_additions": 3
+  },
+  "changes": [
+    {"entry_id": "00451_koushi", "change": "Added notes fields to 3 examples; flagged: core tier, 1 sense, needs 2 more examples"},
+    {"entry_id": "00452_nan", "change": "Fixed semantic (education→descriptive) - word about difficulty/defect is not education; flagged: general tier, 2 senses, needs 3 more examples"},
+    {"entry_id": "00453_sanka", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00454_sansei", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00455_seichou", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00456_seinen", "change": "Fixed semantic (education→people) - legal term for adulthood should use 'people' not 'education'"},
+    {"entry_id": "00457_shinkou", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00458_shiru", "change": "No tag changes; flagged: basic tier, 2 senses, needs 7 more examples - HIGH PRIORITY"},
+    {"entry_id": "00459_shiyou", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00460_shuushoku", "change": "No tag changes; flagged: general tier, 2 senses, needs 3 more examples"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00451_koushi", "reason": "Core tier with 1 sense needs 5 examples, has 3"},
+    {"entry_id": "00452_nan", "reason": "General tier with 2 senses needs 6 examples, has 3"},
+    {"entry_id": "00458_shiru", "reason": "Basic tier with 2 senses needs 10 examples, has 3 - HIGH PRIORITY"},
+    {"entry_id": "00460_shuushoku", "reason": "General tier with 2 senses needs 6 examples, has 3"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00453_sanka", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00454_sansei", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00455_seichou", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00457_shinkou", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00459_shiyou", "notes": "General tier 1 sense meets minimum 3 examples"}
+  ],
+  "patterns_observed": [
+    "Semantic 'education' incorrectly applied to words that are not education-related (難=difficulty, 成年=adulthood)",
+    "Many chemistry/science terms (酸化, 酸性) do not have domain tags but don't strictly need them",
+    "Basic-tier fundamental verb 知る has only 3 examples for 2 senses - major gap",
+    "Several entries have good existing notes but missing notes fields in examples"
+  ],
+  "continuation_notes": {
+    "next_entry": "00461",
+    "pending_tasks": [
+      "Return to entries 00451, 00452, 00458, 00460 for example additions",
+      "Priority: 00458_shiru is a basic-tier fundamental verb needing major example work"
+    ],
+    "context_for_next_session": "Continue from 00461. Watch for semantic 'education' being incorrectly applied to non-education words. Basic-tier verbs continue to need extensive example work."
+  }
+}
