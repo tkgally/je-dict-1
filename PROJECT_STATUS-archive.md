@@ -7,6 +7,51 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-20 (New Candidates - 100 Words Added, Session 134)
+Added 100 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
+
+**Business Documents & Seals** (~20 words):
+- Seal terminology: {押印|おういん} (seal impression), {捺印|なついん} (seal impression), {認印|みとめいん} (personal seal), {実印|じついん} (registered seal), {印鑑登録|いんかんとうろく} (seal registration)
+- Document types: {議事録|ぎじろく} (meeting minutes), {稟議|りんぎ} (approval request), {委任状|いにんじょう} (power of attorney), {誓約書|せいやくしょ} (written pledge), {覚書|おぼえがき} (memorandum), {見積書|みつもりしょ} (quotation), {発注書|はっちゅうしょ} (purchase order), {注文書|ちゅうもんしょ} (order form), {仕様書|しようしょ} (specification document), {申請書|しんせいしょ} (application form), {伝票|でんぴょう} (voucher)
+
+**Office & Business Terms** (~15 words):
+- Office supplies: シュレッダー (shredder), {穴|あな}あけパンチ (hole punch), カートリッジ (cartridge), トナー (toner), コピー{用紙|ようし} (copy paper), {裏紙|うらがみ} (scratch paper), {両面印刷|りょうめんいんさつ} (double-sided printing), {紙詰|かみづ}まり (paper jam)
+- Business records: {帳簿|ちょうぼ} (account book), {台帳|だいちょう} (register)
+- Retail terms: {陳列|ちんれつ} (display), {棚卸|たなおろ}し (inventory), {問屋|とんや} (wholesaler), {粗利|あらり} (gross profit)
+
+**Housing & Infrastructure** (~12 words):
+- Housing: {築年数|ちくねんすう} (building age), {更地|さらち} (vacant lot), {日当|ひあ}たり (sun exposure), {収納|しゅうのう} (storage)
+- Infrastructure: {水道管|すいどうかん} (water pipe), {配管|はいかん} (plumbing), ブレーカー (circuit breaker), {漏電|ろうでん} (electrical leak), {節水|せっすい} (water conservation), {雨漏|あまも}り (roof leak), {水漏|みずも}れ (water leak)
+
+**Employment & Salary** (~12 words):
+- Career: {内定|ないてい} (unofficial job offer), {定年|ていねん} (retirement age), {早期退職|そうきたいしょく} (early retirement), {退職金|たいしょくきん} (retirement allowance)
+- Compensation: {日給|にっきゅう} (daily wage), {歩合|ぶあい} (commission), {歩合制|ぶあいせい} (commission-based), {積立|つみたて} (savings), {控除|こうじょ} (deduction)
+
+**Cooking Cuts & Food Items** (~20 words):
+- Cutting terms: みじん{切|ぎ}り (finely chopped), {千切|せんぎ}り (julienne), {乱切|らんぎ}り (irregular cut), {薄切|うすぎ}り (thin sliced), {厚切|あつぎ}り (thick sliced), {輪切|わぎ}り (round slices), {短冊切|たんざくぎ}り (rectangle cut), {角切|かくぎ}り (diced), いちょう{切|ぎ}り (quarter rounds), {半月切|はんげつぎ}り (half-moon slices), {斜|なな}め{切|ぎ}り (diagonal cut)
+- Kitchen items: {泡立|あわだ}て{器|き} (whisk), すくい{網|あみ} (strainer), {灰汁|あく}とり (skimming)
+- Food items: {油揚|あぶらあ}げ (deep-fried tofu), {厚揚|あつあ}げ (thick fried tofu), がんもどき (fried tofu fritter), ちくわ (tube fish cake), さつま{揚|あ}げ (fried fish cake), しらたき (konjac noodles), {高野豆腐|こうやどうふ} (freeze-dried tofu), {車麩|くるまふ} (ring-shaped wheat gluten), お{麩|ふ} (wheat gluten), {湯葉|ゆば} (tofu skin), {切|き}り{干|ぼ}し{大根|だいこん} (dried radish strips), ひじき (hijiki seaweed), とろろ{昆布|こんぶ} (shredded kelp), {干|ほ}し{椎茸|しいたけ} (dried shiitake)
+
+**Compound Verbs & Weather** (~10 words):
+- Compound verbs: {聞|き}き{流|なが}す (to let pass), {聞|き}き{込|こ}む (to investigate), {読|よ}み{返|かえ}す (to reread), {見慣|みな}れる (to get used to seeing), {乗|の}り{過|す}ごす (to ride past), {降|ふ}り{注|そそ}ぐ (to pour down)
+- Weather: {土砂降|どしゃぶ}り (downpour)
+- Processing: {下処理|したしょり} (preliminary preparation), {水気|みずけ} (moisture)
+
+**Other** (~11 words):
+- Storage battery: {蓄電池|ちくでんち} (storage battery)
+- Medical: {検診|けんしん} (medical checkup)
+- Logistics: {売値|うりね} (selling price), {欠品|けっぴん} (out of stock), {入荷|にゅうか} (arrival of goods), {梱包|こんぽう} (packing), {荷造|にづく}り (packing for shipping), {荷解|にほど}き (unpacking), {着払|ちゃくばら}い (cash on delivery)
+- Kitchenware: {寿司桶|すしおけ} (sushi tub), おひつ (rice container), {土鍋|どなべ} (earthenware pot)
+
+Notable features:
+- Comprehensive Japanese document vocabulary with seal terminology (essential for business/legal contexts)
+- Cooking vocabulary covering all common cutting terms and traditional food items
+- Housing and infrastructure terms for daily life in Japan
+- Employment/salary terminology for workplace contexts
+- Strong practical vocabulary useful for intermediate-advanced learners
+
+Candidate count: 533 → 633
+
 ### 2026-01-19 (Vocabulary Tier Realignment Complete - Phase 4 & 5)
 Completed the vocabulary tier realignment project (Phases 4 and 5):
 
