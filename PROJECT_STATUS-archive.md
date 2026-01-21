@@ -7,6 +7,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 141)
+Added 30 new dictionary entries from candidate_words.json, covering psychological/emotional vocabulary, information/revelation terms, social actions, character traits, legal/business terminology, -化 transformation words, and comparison verbs:
+
+- **Psychological/emotional (5)**: {衝動|しょうどう} (impulse), {本能|ほんのう} (instinct), {直感|ちょっかん} (intuition), {没頭|ぼっとう} (immersion), {憧憬|しょうけい} (longing)
+- **Information/revelation (4)**: {隠蔽|いんぺい} (concealment), {捏造|ねつぞう} (fabrication), {発覚|はっかく} (coming to light), {暴露|ばくろ} (exposure)
+- **Social/political actions (4)**: {排除|はいじょ} (exclusion), {妨害|ぼうがい} (obstruction), {阻止|そし} (prevention), {便乗|びんじょう} (taking advantage)
+- **Character traits (5)**: {傲慢|ごうまん} (arrogance), {卑屈|ひくつ} (servile), {勇敢|ゆうかん} (brave), {堅実|けんじつ} (steady), {狡猾|こうかつ} (cunning)
+- **Legal/business (4)**: {釈明|しゃくめい} (clarification), {賠償|ばいしょう} (compensation), {訴訟|そしょう} (lawsuit), {出資|しゅっし} (investment)
+- **-化 transformation words (4)**: {可視化|かしか} (visualization), {形骸化|けいがいか} (becoming nominal), {老朽化|ろうきゅうか} (deterioration), {劣化|れっか} (degradation)
+- **Comparison verbs (2)**: {上回|うわまわ}る (to exceed), {下回|したまわ}る (to fall below)
+- **Other (2)**: {自粛|じしゅく} (self-restraint), {蒸発|じょうはつ} (evaporation)
+
+Notable entry features:
+- Antonym verb pair with cross-references: {上回|うわまわ}る ↔ {下回|したまわ}る
+- -化 transformation words covering positive ({可視化|かしか}) and negative ({形骸化|けいがいか}, {老朽化|ろうきゅうか}, {劣化|れっか}) changes
+- {自粛|じしゅく} with cultural context about COVID-19 pandemic usage and Japanese social values
+- Information vocabulary useful for news comprehension: {隠蔽|いんぺい}, {捏造|ねつぞう}, {発覚|はっかく}, {暴露|ばくろ}
+- Character trait vocabulary with nuanced distinctions between similar concepts
+- Legal terminology for formal/news contexts: {賠償|ばいしょう}, {訴訟|そしょう}
+
+Total entries: 7,539 → 7,569
+Remaining candidates: ~588 → ~558
+
 ### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 140)
 Added 30 new dictionary entries from candidate_words.json, covering social/business suru-verbs, personality adjectives, verb pairs, and practical everyday vocabulary:
 
