@@ -1,0 +1,52 @@
+{
+  "session_id": "20260121_018",
+  "started": "2026-01-21T08:00:00Z",
+  "ended": "2026-01-21T08:20:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 8,
+  "range": {
+    "start": "00411_tsui",
+    "end": "00420_warito"
+  },
+  "summary": {
+    "example_additions": 4,
+    "semantic_tag_fixes": 4,
+    "politeness_fixes": 2
+  },
+  "changes": [
+    {"entry_id": "00411_tsui", "change": "Added 2 examples (5 total) - core tier now meets minimum"},
+    {"entry_id": "00412_uisukii", "change": "Fixed semantic tag (removed incorrect 'weather')"},
+    {"entry_id": "00413_uku", "change": "No changes (flagged: needs 6+ examples for 3 senses)"},
+    {"entry_id": "00414_urami", "change": "No changes (flagged: needs 3+ examples for 2 senses)"},
+    {"entry_id": "00415_uramu", "change": "No changes (flagged: needs 7+ examples for core tier 2 senses)"},
+    {"entry_id": "00416_uwa", "change": "Added semantic tag 'grammatical' for prefix"},
+    {"entry_id": "00417_uyamau", "change": "Fixed politeness (honorific→plain), removed incorrect semantic tag 'time-general'"},
+    {"entry_id": "00418_wa", "change": "Added semantic tag 'grammatical' for prefix"},
+    {"entry_id": "00419_wan", "change": "Added 2 examples (5 total), fixed politeness (polite→plain)"},
+    {"entry_id": "00420_warito", "change": "No changes (flagged: needs 7+ examples for core tier 2 senses)"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00413_uku", "reason": "General tier with 3 senses needs 9 examples, has 3"},
+    {"entry_id": "00414_urami", "reason": "General tier with 2 senses needs 6 examples, has 3"},
+    {"entry_id": "00415_uramu", "reason": "Core tier with 2 senses needs 10 examples, has 3"},
+    {"entry_id": "00420_warito", "reason": "Core tier with 2 senses needs 10 examples, has 3"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00412_uisukii", "notes": "General tier 1 sense, fixed semantic tag only"}
+  ],
+  "patterns_observed": [
+    "Semantic tag 'weather' incorrectly applied to whiskey entry",
+    "Prefix entries often missing 'grammatical' semantic tag",
+    "Politeness 'honorific' and 'polite' incorrectly applied to plain words",
+    "Semantic tag 'time-general' incorrectly applied to emotion verb",
+    "Multi-sense entries continue to lack adequate example coverage"
+  ],
+  "continuation_notes": {
+    "next_entry": "00421",
+    "pending_tasks": [
+      "Return to 00413_uku, 00414_urami, 00415_uramu, 00420_warito for extensive example additions"
+    ],
+    "context_for_next_session": "Continue from 00421. Prefix entries should have 'grammatical' semantic tag. Watch for incorrect politeness/honorific tags on plain words."
+  }
+}
