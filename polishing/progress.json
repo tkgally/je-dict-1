@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T12:45:00Z",
+  "last_updated": "2026-01-21T21:39:56Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
@@ -3149,52 +3149,82 @@
     "00671_soto": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Verified examples compliant. No changes needed."
     },
     "00672_suiyoubi": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Fixed ex4: replaced 会議 (general) with basic vocab"
     },
     "00673_sumu": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Verified examples compliant. No changes needed."
     },
     "00674_suzushii": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Verified examples compliant. No changes needed."
     },
     "00675_tegami": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Verified examples compliant. No changes needed."
     },
     "00676_to": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Fixed ex3: replaced 雨戸 (general) with basic vocab"
     },
     "00677_tokei": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Fixed ex2: replaced 腕時計 (core) with basic vocab"
     },
     "00678_tomeru": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Fixed ex10: replaced 安全 (general) with 広い (basic)"
     },
     "00679_tori": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Fixed ex2, ex4, ex10: replaced general-tier vocab with basic vocab"
     },
     "00680_tsuku": {
       "reviewed_at": "2026-01-21T14:14:23Z",
       "status": "current",
-      "reviewer": "claude-opus-4-5"
+      "reviewer": "claude-opus-4-5",
+      "last_reviewed": "2026-01-21T21:39:56Z",
+      "review_count": 1,
+      "notes": "Fixed ex5: replaced 予定/混む/遅れる (general) with basic vocab"
     },
     "00681_tsumetai": {
       "reviewed_at": "2026-01-21T14:14:23Z",
@@ -3761,6 +3791,14 @@
         "00690_atsui"
       ],
       "session_id": "session_20260121_002"
+    },
+    {
+      "date": "2026-01-21T21:39:56Z",
+      "session_id": "session_20260121_044",
+      "entries_reviewed": 10,
+      "entries_modified": 6,
+      "task_type": "full-review",
+      "notes": "Reviewed 00671-00680. Fixed vocabulary tier violations in 6 entries."
     }
   ]
 }
