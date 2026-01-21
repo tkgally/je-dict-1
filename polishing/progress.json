@@ -4,7 +4,7 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 2860,
+    "reviewed": 2880,
     "pending": 4619,
     "flagged": 0,
     "skipped": 0
@@ -1899,7 +1899,8 @@
       "review_count": 1,
       "status": "current",
       "notes": "No changes needed - already meets requirements"
-    }
+    },
+    "last_reviewed_entry": "00400_taihan"
   },
   "review_history": [
     {
@@ -2209,6 +2210,20 @@
       "entries_reviewed": 10,
       "entries_modified": 9,
       "task_type": "full-review"
+    },
+    {
+      "date": "2026-01-21",
+      "session": "015",
+      "range": "00381-00390",
+      "count": 10,
+      "modified": 9
+    },
+    {
+      "date": "2026-01-21",
+      "session": "016",
+      "range": "00391-00400",
+      "count": 10,
+      "modified": 7
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "session_id": "20260121_016",
+  "started": "2026-01-21T05:50:00Z",
+  "ended": "2026-01-21T06:05:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 7,
+  "range": {
+    "start": "00391_sunao",
+    "end": "00400_taihan"
+  },
+  "summary": {
+    "example_additions": 6,
+    "example_revisions": 1,
+    "semantic_tag_fixes": 2,
+    "formality_fixes": 2,
+    "politeness_fixes": 1,
+    "style_tag_removals": 1,
+    "vocabulary_tier_violations_fixed": 1
+  },
+  "changes": [
+    {"entry_id": "00391_sunao", "change": "No changes (flagged: needs +7 examples for 2 senses)"},
+    {"entry_id": "00392_suru", "change": "No changes (flagged: major entry needs +16 examples for 4 senses)"},
+    {"entry_id": "00393_sutaa", "change": "Fixed semantic tag (general→person)"},
+    {"entry_id": "00394_sutando", "change": "Fixed semantic tag (body-part→object); flagged: needs +9 examples for 4 senses"},
+    {"entry_id": "00395_suupu", "change": "Added 2 examples (5 total); revised ex3 to remove unlisted vocabulary (濃厚)"},
+    {"entry_id": "00396_taberu", "change": "Added 2 examples (5 total); fixed formality (formal→neutral) and politeness (polite→plain)"},
+    {"entry_id": "00397_tabitabi", "change": "Added 2 examples (5 total); fixed formality (formal→neutral); removed incorrect 'literary' style tag"},
+    {"entry_id": "00398_tadachini", "change": "No changes needed - general tier entry meets requirements"},
+    {"entry_id": "00399_tadashi", "change": "No changes (flagged: needs +7 examples for 2 senses)"},
+    {"entry_id": "00400_taihan", "change": "No changes needed - general tier entry meets requirements"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00391_sunao", "reason": "Core tier with 2 senses needs 10 examples, has 3"},
+    {"entry_id": "00392_suru", "reason": "Basic tier with 4 senses needs 20 examples, has 4 - fundamental verb"},
+    {"entry_id": "00394_sutando", "reason": "General tier with 4 senses needs 12 examples, has 3"},
+    {"entry_id": "00399_tadashi", "reason": "Core tier with 2 senses needs 10 examples, has 3"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00398_tadachini", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00400_taihan", "notes": "General tier 1 sense meets minimum 3 examples"}
+  ],
+  "patterns_observed": [
+    "Multi-sense entries frequently have far fewer examples than required (especially 4-sense entries)",
+    "Basic tier verb 食べる incorrectly tagged as formal/polite instead of neutral/plain",
+    "Style tag 'literary' applied incorrectly to neutral word たびたび",
+    "'body-part' semantic tag still appearing on non-body-part entries (sutando)",
+    "Unlisted vocabulary (濃厚) used in basic-tier examples"
+  ],
+  "continuation_notes": {
+    "next_entry": "00401",
+    "pending_tasks": [
+      "Return to 00391_sunao, 00392_suru, 00394_sutando, 00399_tadashi for extensive example additions"
+    ],
+    "context_for_next_session": "Continue from 00401. Multi-sense entries in this range need significant example work. Consider dedicated session for high-priority multi-sense entries."
+  }
+}
