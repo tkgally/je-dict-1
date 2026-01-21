@@ -1,6 +1,6 @@
-# Japanese-English Learner's Dictionary
+# TKG Japanese-English Learner's Dictionary
 
-This is the repository for an in-progress Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude Opus 4.5 in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
+This is the repository for a Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude Opus 4.5 in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
 
 This dictionary is licensed under Creative Commons Zero v1.0 Universal, and anyone is free to copy the data and code for whatever purpose they like, including commercial uses.
 
@@ -17,24 +17,24 @@ Dictionary features include:
 - **Natural example sentences** optimized for learning
 - **Usage notes** covering grammar, register, and common patterns
 - **Furigana support** with toggle to show/hide readings above kanji
-- **Audio pronunciation** for 1,000+ example sentences with play/stop controls
 - **Multiple interface modes**: Search, Browse, Recent, and Random views
 - **Cross-reference linking** connecting related words, antonyms, and transitivity pairs
 - **Transitivity and aspect information** for verbs
 - **Collocation patterns** showing natural word combinations
 - **Keigo (honorific) verb coverage** with usage guidance
 
+Audio readings for example sentences will be added in the future.
+
 ## Current Status
 
-- **7,359 entries** with a total target of about 10,000 entries
-- **Vocabulary tiers assigned**: Basic (795), Core (1,998), General (4,566) - all new entries are added to general tier
-- **1,028 audio files** with pronunciation for example sentences, produced with OpenAI's text-to-speech models
-- **567 cross-references** linking related entries with 97% resolution rate
+- **7,719 entries** with a target of about 10,000 entries
+- **Vocabulary tiers assigned**: Basic (795), Core (1,998), General (4,926) - all new entries are added to general tier
+- **3,195 cross-references** linking related entries
 - **Claude Code skills** for consistent entry creation and revision
-- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions (~563 candidates)
+- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
 - **Robust build system** with atomic builds, XSS protection, and comprehensive validation
 
-**Live site**: https://tkgally.github.io/je-dict-1/
+**Live site**: https://www.tkgje.jp/
 
 ## Target Users
 
@@ -57,7 +57,6 @@ The dictionary is built as a static HTML site at `docs/`:
 - **Individual pages**: Each entry has its own standalone HTML file
 - **Lightweight pages**: Each page loads only the content needed
 - **Deep linking**: Direct URLs to specific entries
-- **Native audio controls**: HTML5 audio elements for pronunciation
 
 ### URL Structure
 
@@ -69,16 +68,12 @@ docs/
 ├── browse.html          # Browse by kana row
 ├── recent.html          # Recently modified entries
 ├── random.html          # Random word cloud
-├── entries/
-│   ├── 00000/           # Entries 00000-00499
-│   │   ├── 00396_taberu.html
-│   │   └── 00499_sakana.html
-│   ├── 00500/           # Entries 00500-00999
-│   ├── 01000/           # Entries 01000-01499
-│   └── ...
-└── audio/               # Audio files (same structure)
-    ├── 00000/
-    ├── 00500/
+└── entries/
+    ├── 00000/           # Entries 00000-00499
+    │   ├── 00396_taberu.html
+    │   └── 00499_sakana.html
+    ├── 00500/           # Entries 00500-00999
+    ├── 01000/           # Entries 01000-01499
     └── ...
 ```
 
@@ -137,31 +132,31 @@ je-dict-1/
 │   ├── 00500/            # Entries 00500-00999
 │   ├── 01000/            # Entries 01000-01499
 │   └── ...               # (500 entries per directory)
-├── audio/                # Audio pronunciation files (MP3)
-│   ├── 00000/            # (same structure as entries/)
-│   ├── 00500/
-│   └── ...
-├── audio-to-add/         # Staging directory for new audio files
 ├── build/                # Build and management scripts
 │   ├── schema.json       # JSON schema for entries
-│   ├── validate.py       # Entry validation (schema, cross-refs, audio integrity)
+│   ├── validate.py       # Entry validation (schema, cross-refs)
+│   ├── validate_tags.py  # Tag taxonomy validation
 │   ├── build_flat.py     # Static HTML site generator (atomic builds)
 │   ├── resolve_links.py  # Cross-reference resolution
-│   ├── merge_audio.py    # Merges audio files into entries
 │   ├── path_utils.py     # Shared path/prefix utilities
 │   ├── japanese_utils.py # Hiragana/romaji/furigana utilities
-│   ├── cross_ref_types.py # Centralized cross-reference type definitions
+│   ├── constants.py      # Centralized cross-reference type definitions
 │   ├── update_entries_index.py   # Updates entries_index.json
 │   ├── manage_candidates.py      # Manages candidate_words.json
 │   ├── update_indexes.py         # Updates both index files
 │   ├── get_entry_path.py         # Computes correct path for new entries
 │   ├── get_timestamp.py          # Generates UTC timestamp for metadata
+│   ├── check_duplicate.py        # Checks for duplicate entries
+│   ├── verify_furigana.py        # Verifies furigana coverage
+│   ├── harden_references.py      # Adds target_id to resolvable cross-refs
+│   ├── extract_references.py     # Extracts cross-refs from notes
+│   ├── tag_taxonomy.json         # Tag hierarchy definitions
+│   ├── tag_statistics.py         # Tag usage statistics
 │   └── requirements.txt  # Python 3.10+ dependencies
-├── docs/                 # Generated output (served by GitHub Pages)
-│   ├── entries/          # Individual entry HTML files
-│   │   ├── 00000/        # (same numeric range structure as entries/)
-│   │   └── ...
-│   └── audio/            # Built audio files (copied from audio/)
+├── docs/                 # Generated output (served as static site)
+│   └── entries/          # Individual entry HTML files
+│       ├── 00000/        # (same numeric range structure as entries/)
+│       └── ...
 ├── .claude/              # Claude Code configuration
 │   ├── skills/           # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
@@ -247,56 +242,6 @@ The directory name is determined by rounding down to the nearest 500:
 - IDs 00500-00999 → `entries/00500/`
 - IDs 01000-01499 → `entries/01000/`
 
-## Adding Audio Files
-
-Audio pronunciation files can be added for example sentences. The web interface displays play/stop buttons for examples that have audio.
-
-### Audio File Format
-
-- **Format**: MP3 files
-- **Filename**: `{entry_id}-ex{number}.mp3`
-  - `entry_id`: The entry's ID (e.g., `00396_taberu`)
-  - `number`: Example number (1-based, e.g., `ex1`, `ex2`, `ex3`)
-- **Example**: `00396_taberu-ex1.mp3` for the first example of the entry `00396_taberu`
-
-### Adding Audio Workflow
-
-1. Place MP3 files in the `audio-to-add/` directory:
-   ```
-   audio-to-add/
-   ├── 00396_taberu-ex1.mp3
-   ├── 00396_taberu-ex2.mp3
-   └── 00499_sakana-ex1.mp3
-   ```
-
-2. Run the merge script to process the audio files:
-   ```bash
-   python3 build/merge_audio.py
-   ```
-   This will:
-   - Copy MP3 files to `audio/{range}/` (organized by numeric ID range)
-   - Update entry files to set `has_audio: true` on the corresponding examples
-
-3. Build the dictionary:
-   ```bash
-   python3 build/validate.py       # Validate entries
-   python3 build/build_flat.py     # Build static HTML site
-   ```
-   This validates entries and copies audio files to `docs/audio/` for the web interface.
-
-### Directory Structure
-
-Audio files are organized by numeric ID range (same as entries):
-```
-audio/
-├── 00000/                # Entries 00000-00499
-│   ├── 00396_taberu-ex1.mp3
-│   └── 00499_sakana-ex1.mp3
-├── 00500/                # Entries 00500-00999
-├── 01000/                # Entries 01000-01499
-└── ...
-```
-
 ## Phased Roadmap
 
 ### Phase 1: Foundation ✓ COMPLETE
@@ -318,23 +263,25 @@ audio/
 - [x] Standardize adjective forms
 - [x] Notes formatting with bullet points
 
-### Phase 4: Vocabulary Expansion & Interface (Current)
-- [x] Added ~6,500 additional vocabulary entries (7,359 total)
+### Phase 4: Vocabulary Expansion & Interface ✓ COMPLETE
+- [x] Added ~7,000 additional vocabulary entries (7,719 total)
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle and furigana button
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
-- [x] Cross-reference linking system (567 references, 97% resolved)
-- [x] Audio pronunciation for 1,028 example sentences
+- [x] Cross-reference linking system (3,195 references)
 - [x] Static HTML site generation (flat HTML only)
 - [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
 - [x] Code quality improvements (shared utilities, deterministic builds)
-- [x] Three-tier vocabulary system (basic 795, core 1,998, general 4,566)
+- [x] Three-tier vocabulary system (basic 795, core 1,998, general 4,926)
 - [x] Vocabulary tier realignment complete - all entries assigned
-- [ ] Continue adding vocabulary from candidate list (~563 candidates)
-- [ ] Tier-based filtering in Browse mode
+- [x] Tier-based filtering in Browse mode
+
+### Phase 5: Continued Expansion (Current)
+- [ ] Continue adding vocabulary toward 10,000 entries
+- [ ] Add audio readings for example sentences
 - [ ] Conjugation search indexing
 
-### Phase 5: Polish and Distribution
+### Phase 6: Polish and Distribution
 - [ ] Offline package generation
 - [ ] PWA features
 - [ ] Export to Anki format
@@ -353,10 +300,15 @@ The following skills are available in `.claude/skills/` and will be automaticall
 | `adjective-entry` | Requirements for adjective entries (forms, conjugations) |
 | `particle-entry` | Requirements for particle entries (predicate lists, contrasts) |
 | `other-entries` | Requirements for nouns, counters, adverbs, expressions |
-| `revise-entries` | Checklist for revising existing entries to v2 standards |
+| `example-sentences` | Requirements for example sentences (counts, length, vocabulary) |
 | `vocabulary-notes` | Formatting guidelines for notes field |
+| `vocabulary-tiers` | Guidelines for the three-tier vocabulary system |
 | `cross-reference-entry` | Guidelines for adding cross-references between entries |
 | `find-candidates` | Guidelines for finding new candidate words to add |
+| `revise-entries` | Checklist for revising existing entries to v2 standards |
+| `polish-entries` | Systematic review and improvement of entries |
+| `delete-entry` | Guidelines for safely deleting entries |
+| `resolve-duplicates` | Guidelines for identifying and resolving duplicate entries |
 
 Skills are automatically loaded when Claude determines they're relevant to the current task.
 
@@ -366,7 +318,7 @@ Skills are automatically loaded when Claude determines they're relevant to the c
 2. **Claude will automatically load relevant skills** based on the entry type being created/revised
 3. **Follow the guidelines** from the loaded skills
 4. **Validate entries** after creation: `python3 build/validate.py`
-5. **Place files correctly** based on the reading's first kana
+5. **Place files correctly** based on the numeric ID range
 6. **Update PROJECT_STATUS.md** at the end of each session
 
 ### Key Quality Standards (v2)
