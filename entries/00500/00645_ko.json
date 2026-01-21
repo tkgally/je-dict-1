@@ -14,13 +14,11 @@
   "examples": [
     {
       "id": "00645_ko_ex1",
-      "japanese": "りんごを{三|みっ}つ/{三個|さんこ}ください。",
+      "japanese": "りんごを{三個|さんこ}ください。",
       "english": "Three apples, please.",
-      "notes": "Both つ and 個 work for apples",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00645_ko_ex2",
@@ -28,9 +26,7 @@
       "english": "There are five eggs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00645_ko_ex3",
@@ -38,16 +34,30 @@
       "english": "How many sweets did you eat?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00645_ko_ex4",
+      "japanese": "この{箱|はこ}に{十個|じゅっこ}{入|はい}っています。",
+      "english": "There are ten in this box.",
+      "notes": "じゅっこ shows sound change for 10",
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00645_ko_ex5",
+      "japanese": "{子供|こども}たちに{一人|ひとり}{二個|にこ}ずつあげたら、{全部|ぜんぶ}で{何個|なんこ}いりますか。",
+      "english": "If you give each child two, how many do you need in total?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
     }
   ],
   "notes": "〜個 is used for small, compact, often round or box-shaped objects. Counting: 一個 (いっこ), 二個 (にこ), 三個 (さんこ), 四個 (よんこ), 五個 (ごこ), 六個 (ろっこ), etc. Note the sound changes: いっこ, ろっこ, はっこ, じゅっこ.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:43:53Z",
-    "modified": "2026-01-19T12:14:16.061381Z",
+    "modified": "2026-01-21T12:30:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
