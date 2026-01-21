@@ -19,8 +19,8 @@
   "examples": [
     {
       "id": "00638_karai_ex1",
-      "japanese": "この{料理|りょうり}は{辛|から}いです。",
-      "english": "This dish is spicy.",
+      "japanese": "これは{辛|から}いです。",
+      "english": "This is spicy.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -29,6 +29,16 @@
     },
     {
       "id": "00638_karai_ex2",
+      "japanese": "{辛|から}いものが{好|す}きです。",
+      "english": "I like spicy food.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00638_karai_ex3",
       "japanese": "{辛|から}いものが{食|た}べられますか。",
       "english": "Can you eat spicy food?",
       "notes": null,
@@ -38,13 +48,73 @@
       ]
     },
     {
-      "id": "00638_karai_ex3",
-      "japanese": "ちょっと{辛|から}すぎます。",
-      "english": "It's a bit too spicy.",
+      "id": "00638_karai_ex4",
+      "japanese": "カレーが{辛|から}すぎて、{水|みず}をたくさん{飲|の}みました。",
+      "english": "The curry was too spicy, so I drank a lot of water.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "00638_karai_ex5",
+      "japanese": "この{店|みせ}のラーメンは{辛|から}いですが、とてもおいしいので{人気|にんき}があります。",
+      "english": "This shop's ramen is spicy, but it's very delicious so it's popular.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00638_karai_ex6",
+      "japanese": "この{味噌汁|みそしる}は{辛|から}い。",
+      "english": "This miso soup is salty.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00638_karai_ex7",
+      "japanese": "{辛|から}い{味|あじ}が{好|す}きです。",
+      "english": "I like salty flavors.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00638_karai_ex8",
+      "japanese": "この{漬物|つけもの}は{少|すこ}し{辛|から}いですね。",
+      "english": "These pickles are a little salty, aren't they?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00638_karai_ex9",
+      "japanese": "{塩|しお}を{入|い}れすぎて、{辛|から}くなってしまいました。",
+      "english": "I put in too much salt and it became too salty.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00638_karai_ex10",
+      "japanese": "{関西|かんさい}では「{辛|から}い」と{言|い}いますが、{関東|かんとう}では「しょっぱい」と{言|い}う{人|ひと}が{多|おお}いです。",
+      "english": "In Kansai they say 'karai,' but in Kanto many people say 'shoppai.'",
+      "notes": "Regional difference in usage for 'salty'",
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
@@ -52,7 +122,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:22:15Z",
-    "modified": "2026-01-19T12:17:40.340637Z",
+    "modified": "2026-01-21T12:07:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
