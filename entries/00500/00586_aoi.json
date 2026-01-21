@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "00586_aoi_ex1",
-      "japanese": "{空|そら}が{青|あお}いです。",
+      "japanese": "{空|そら}が{青|あお}い。",
       "english": "The sky is blue.",
       "notes": null,
       "has_audio": false,
@@ -29,12 +29,12 @@
     },
     {
       "id": "00586_aoi_ex2",
-      "japanese": "{青|あお}い{信号|しんごう}で{渡|わた}ります。",
-      "english": "Cross when the light is green.",
-      "notes": "Sense 2: traffic light",
+      "japanese": "{青|あお}い{海|うみ}が{見|み}えます。",
+      "english": "I can see the blue sea.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        2
+        1
       ]
     },
     {
@@ -45,6 +45,76 @@
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "00586_aoi_ex4",
+      "japanese": "{目|め}が{青|あお}い{人|ひと}を{見|み}ました。",
+      "english": "I saw a person with blue eyes.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00586_aoi_ex5",
+      "japanese": "{今日|きょう}は{空|そら}がとても{青|あお}くて、いい{天気|てんき}です。{外|そと}に{出|で}かけたいです。",
+      "english": "Today the sky is very blue and the weather is nice. I want to go out.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00586_aoi_ex6",
+      "japanese": "{青|あお}い{信号|しんごう}で{渡|わた}る。",
+      "english": "Cross when the light is green.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00586_aoi_ex7",
+      "japanese": "バナナがまだ{青|あお}いです。",
+      "english": "The banana is still green/unripe.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00586_aoi_ex8",
+      "japanese": "{青|あお}い{葉|は}がきれいですね。",
+      "english": "The green leaves are beautiful.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00586_aoi_ex9",
+      "japanese": "このりんごはまだ{青|あお}いので、{食|た}べられません。",
+      "english": "This apple is still green/unripe, so it can't be eaten.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00586_aoi_ex10",
+      "japanese": "{信号|しんごう}が{青|あお}くなったら、{渡|わた}ってください。{日本|にほん}では{緑|みどり}の{信号|しんごう}を{青|あお}と{言|い}います。",
+      "english": "Please cross when the light turns green. In Japan, they call the green light 'blue'.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
@@ -71,7 +141,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T15:35:21Z",
-    "modified": "2026-01-19T12:17:40.311345Z",
+    "modified": "2026-01-21T10:37:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -81,7 +151,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "color"
       ]
     }
   }
