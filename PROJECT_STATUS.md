@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 7,809
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,016 | Unassigned: 0 ✓
-- **Candidate words**: ~540 words tracked in `candidate_words.json`
+- **Candidate words**: ~640 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,38 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-21 (New Candidates - 100 Words Added)
+Added 100 new candidate words to `candidate_words.json` using diverse search strategies across multiple domains:
+
+**Business/Workplace (3)**: {部署|ぶしょ} (department), {主任|しゅにん} (supervisor), {係長|かかりちょう} (section chief)
+
+**Medical/Health (8)**: {投薬|とうやく} (medication), {療養|りょうよう} (recuperation), {回診|かいしん} (doctor's rounds), {往診|おうしん} (house call), {肉離れ|にくばなれ} (muscle tear), {擦り傷|すりきず} (scrape), {渇き|かわき} (thirst), {寝汗|ねあせ} (night sweat)
+
+**Emotions/Personality (12)**: {苛立|いらだ}つ (to be irritated), {爽快|そうかい} (refreshing), {痛快|つうかい} (thrilling), {奥床|おくゆか}しい (refined), {侘|わび}しい (desolate), {儚|はかな}い (fleeting), {頼|たの}もしい (reliable), {好|この}ましい (favorable), {疎|うと}ましい (disagreeable), {痛々|いたいた}しい (pitiful), {白々|しらじら}しい (unconvincing), {憎|にく}らしい (hateful)
+
+**Culinary/Taste (9)**: {塩辛|しおから} (salted fish guts), {酢漬|すづ}け (vinegar pickle), {粕漬|かすづ}け (sake lees pickle), {濃厚|のうこう} (rich), {淡泊|たんぱく} (light), {芳醇|ほうじゅん} (mellow), {舌触|したざわ}り (texture)
+
+**Compound Verbs (25+)**: {立|た}ち{上|あ}げる (to launch), {染|し}み{込|こ}む (to soak in), {擦|す}り{切|き}れる (to wear out), {書|か}き{換|か}える (to rewrite), {置|お}き{換|か}える (to replace), {入|い}れ{替|か}える (to swap), {持|も}ち{直|なお}す (to recover), {盛|も}り{返|かえ}す (to rally), {打|う}ち{解|と}ける (to open up), {開|ひら}き{直|なお}る (to become defiant), {居直|いなお}る (to become defiant), {成|な}り{立|た}つ (to consist of), {成|な}り{上|あ}がる (to rise in status), {成|な}り{下|さ}がる (to sink), {鍛|きた}え{上|あ}げる (to train thoroughly), {磨|みが}き{上|あ}げる (to polish up), {積|つ}み{上|あ}げる (to pile up), {盛|も}り{上|あ}げる (to liven up), {和|やわ}らぐ (to soften), {和|やわ}らげる (to mitigate), {紛|まぎ}らわす (to distract), {潤|うるお}う (to be moist), {潤|うるお}す (to moisten), {奮|ふる}い{立|た}つ (to be roused), {書|か}き{殴|なぐ}る (to scribble)
+
+**Daily Life/Activities (15)**: {見掛|みか}け (appearance), {言|い}い{掛|が}かり (false accusation), {仕掛|しか}け (mechanism), {仕分|しわ}け (sorting), {振|ふ}り{分|わ}ける (to distribute), {嵩張|かさば}る (to be bulky), {滑稽|こっけい} (comical), {緻密|ちみつ} (meticulous), {怠惰|たいだ} (laziness), {草|くさ}むしり (weeding), {植|う}え{替|か}え (repotting), {追肥|ついひ} (fertilizing), {間引|まび}く (to thin out), {用足|ようた}し (errand), {買|か}い{出|だ}し (bulk buying)
+
+**Safety/Emergency (4)**: {防犯|ぼうはん} (crime prevention), {防災|ぼうさい} (disaster prevention), {避難|ひなん} (evacuation), {応急|おうきゅう} (emergency)
+
+**Work/Organization (8)**: {身支度|みじたく} (getting ready), {後始末|あとしまつ} (cleaning up), {整|ととの}え{直|なお}す (to readjust), {差配|さはい} (management), {指図|さしず} (instructions), {雑用|ざつよう} (odd jobs), {修練|しゅうれん} (training), {鍛錬|たんれん} (discipline)
+
+**Sports/Competition (8)**: {奮闘|ふんとう} (hard struggle), {善戦|ぜんせん} (good fight), {大敗|たいはい} (crushing defeat), {惨敗|ざんぱい} (crushing defeat), {圧勝|あっしょう} (overwhelming victory), {快勝|かいしょう} (easy victory), {辛勝|しんしょう} (narrow victory), {惜敗|せきはい} (narrow defeat)
+
+**Other (8)**: {凝|こ}らす (to concentrate), {凝|こ}る (to stiffen), {清々|すがすが}しい (refreshing), {空々|そらぞら}しい (feigned), {麗|うるわ}しい (beautiful), {慕|した}わしい (dear), {潤|うるお}い (moisture), {貪欲|どんよく} (greedy), {本選|ほんせん} (finals)
+
+Notable features:
+- Strong coverage of compound verbs (〜込む, 〜上げる, 〜直す patterns)
+- Taste/culinary vocabulary for food descriptions
+- Emotion adjectives with nuanced meanings (〜しい pattern)
+- Sports terminology for competition results
+- Practical daily life vocabulary
+
+Candidate count: 540 → 640
 
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 151)
 Added 30 new dictionary entries from candidate_words.json, covering practical vocabulary, formal expressions, organizational terms, and descriptive adjectives:
