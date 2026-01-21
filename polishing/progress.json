@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T02:26:01Z",
+  "last_updated": "2026-01-21T03:23:59Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 2790,
-    "pending": 4689,
+    "reviewed": 2800,
+    "pending": 4679,
     "flagged": 0,
     "skipped": 0
   },
@@ -1479,6 +1479,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Added 2 examples for core tier (5 total); fixed semantic tag"
+    },
+    "00311_nenjuu": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (descriptive→time-general), formality (formal→neutral); needs more examples (core tier 2 senses)"
+    },
+    "00312_nerai": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality (formal→neutral), semantic tag (general→action); needs more examples (general tier 2 senses)"
+    },
+    "00313_nerau": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No tag changes needed; needs more examples (core tier 3 senses); flagged for future session"
+    },
+    "00314_ni": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (geography→grammatical); needs more examples (basic tier 6 senses); flagged for future session"
+    },
+    "00315_nibui": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tags (animal-insect,body-part,emotion→descriptive); needs more examples (general tier 3 senses)"
+    },
+    "00316_nichiji": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples for core tier (5 total)"
+    },
+    "00317_nikka": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples for core tier (5 total)"
+    },
+    "00318_nikumu": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (action→emotion); needs more examples (core tier 2 senses); flagged for future session"
+    },
+    "00319_niou": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Removed incorrect style tag (literary); needs more examples (core tier 3 senses); flagged for future session"
+    },
+    "00320_nippon": {
+      "last_reviewed": "2026-01-21T03:23:59Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples for core tier (5 total); fixed semantic tag (general→geography)"
     }
   },
   "review_history": [
@@ -1739,6 +1799,13 @@
       "date": "2026-01-21",
       "entries_reviewed": 10,
       "entries_modified": 7,
+      "task_type": "full-review"
+    },
+    {
+      "session_id": "20260121_008",
+      "date": "2026-01-21",
+      "entries_reviewed": 10,
+      "entries_modified": 9,
       "task_type": "full-review"
     }
   ]
