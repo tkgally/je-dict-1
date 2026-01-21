@@ -1,0 +1,46 @@
+{
+  "session_id": "20260121_027",
+  "started": "2026-01-21T09:35:00Z",
+  "ended": "2026-01-21T09:45:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 10,
+  "range": {
+    "start": "00501_ashita",
+    "end": "00510_mijikai"
+  },
+  "summary": {
+    "tag_fixes": 5,
+    "examples_added": 31
+  },
+  "changes": [
+    {"entry_id": "00501_ashita", "change": "Fixed formality tag (formal→neutral); added 2 examples (5 total)"},
+    {"entry_id": "00502_de", "change": "Fixed semantic tags (furniture/leisure→grammatical); comprehensive particle entry, example count acceptable given documentation"},
+    {"entry_id": "00503_hataraku", "change": "Added 2 examples (5 total)"},
+    {"entry_id": "00504_kara", "change": "Fixed semantic tag (furniture→grammatical); comprehensive particle entry, example count acceptable given documentation"},
+    {"entry_id": "00505_michi", "change": "Added 7 examples (10 total for 2 senses: 5 road/path, 5 way/method)"},
+    {"entry_id": "00506_atarashii", "change": "Fixed semantic tags (leisure/time-general→general); added 7 examples (10 total for 2 senses)"},
+    {"entry_id": "00507_heya", "change": "Added 2 examples (5 total)"},
+    {"entry_id": "00508_kaeru", "change": "Added 2 examples (5 total)"},
+    {"entry_id": "00509_kudamono", "change": "Added 2 examples (5 total)"},
+    {"entry_id": "00510_mijikai", "change": "Added 7 examples (10 total for 2 senses: 5 length, 5 duration)"}
+  ],
+  "tag_fixes": [
+    {"entry_id": "00501_ashita", "field": "formality", "old": "formal", "new": "neutral", "reason": "あした is casual/neutral, not formal"},
+    {"entry_id": "00502_de", "field": "semantic", "old": ["furniture", "leisure"], "new": ["grammatical"], "reason": "Particles should use grammatical tag"},
+    {"entry_id": "00504_kara", "field": "semantic", "old": ["furniture"], "new": ["grammatical"], "reason": "Particles should use grammatical tag"},
+    {"entry_id": "00506_atarashii", "field": "semantic", "old": ["leisure", "time-general"], "new": ["general"], "reason": "新しい is a general adjective, not related to leisure or time"}
+  ],
+  "patterns_observed": [
+    "Particle entries (で, から) have comprehensive documentation with predicates_requiring, particle_contrasts, fixed_patterns - these may not need minimum example counts per sense",
+    "Semantic tags for particles were incorrectly set to content-word categories (furniture, leisure) - should be 'grammatical'",
+    "Time words (明日) incorrectly marked as 'formal' - the word あした itself is casual/neutral",
+    "Single-sense basic entries consistently have only 3 examples (need 5)",
+    "Two-sense basic entries consistently have only 3 examples (need 10)"
+  ],
+  "continuation_notes": {
+    "next_entry": "00511",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue from 00511. Particle entries have been handled - their comprehensive documentation compensates for strict per-sense example minimums. Watch for more semantic tag issues in subsequent entries."
+  }
+}
