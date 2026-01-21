@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,719
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,926 | Unassigned: 0 ✓
-- **Candidate words**: ~613 words tracked in `candidate_words.json`
+- **Total entries**: 7,749
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,956 | Unassigned: 0 ✓
+- **Candidate words**: ~584 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 149)
+Added 30 new dictionary entries from candidate_words.json, covering technology terms, business loanwords, scheduling vocabulary, and practical everyday expressions:
+
+- **Technology/Communication (6)**: LINE (messaging app), プラグ (plug), レンズ (lens), IT (information technology), ID (identification), Bluetooth
+- **Business/Startup terminology (6)**: ステークホルダー (stakeholder), ガバナンス (governance), レガシー (legacy), ローンチ (launch), スケール (scale), キャリアアップ (career advancement)
+- **Scheduling/Work (5)**: {繰|く}り{上|あ}げ (moving up schedule), {繰|く}り{下|さ}げ (postponing), {日程調整|にっていちょうせい} (schedule coordination), {遅刻届|ちこくとどけ} (late arrival notice), {朝食付|ちょうしょくつ}き (with breakfast)
+- **Music/Media (3)**: カバー (cover song), リミックス (remix), スパム (spam)
+- **Lifestyle/Shopping (4)**: ガーデニング (gardening), ライフスタイル (lifestyle), {駐車料金|ちゅうしゃりょうきん} (parking fee), アイテム (item)
+- **Daily life (6)**: イケてる (cool/stylish), {集合場所|しゅうごうばしょ} (meeting place), {物足|ものた}りなさ (wanting more), FAX (fax), バンパー (bumper), {太陽光発電|たいようこうはつでん} (solar power)
+
+Notable entry features:
+- Cross-references: {繰|く}り{上|あ}げ ↔ {繰|く}り{下|さ}げ (schedule antonym pair)
+- カバー with 3 senses: (1) protective cover, (2) cover song, (3) compensating
+- スケール with 3 senses: (1) business scale, (2) measuring scale, (3) musical scale
+- レガシー with 2 senses: (1) positive heritage, (2) outdated system
+- スパム with 2 senses: (1) email spam, (2) SPAM food (popular in Okinawa)
+- LINE entry with cultural notes about Japan's messaging culture and {既読|きどく} feature
+- FAX entry with cultural context about Japan's continued fax usage
+
+Total entries: 7,719 → 7,749
+Remaining candidates: ~613 → ~584
 
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 148)
 Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, expressions, and useful Japanese words:
@@ -369,31 +391,6 @@ Notable entry features:
 
 Total entries: 7,509 → 7,539
 Remaining candidates: ~616 → ~588
-
-### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 139)
-Added 30 new dictionary entries from candidate_words.json, plus one user-requested entry, covering transformation vocabulary, verbs, adjectives, time expressions, price/capacity terms, and practical nouns:
-
-- **User-requested** (1): {卵|たまご}かけご{飯|はん} (TKG - raw egg on rice) with note about TKG abbreviation
-- **-化 transformation words** (5): {活性化|かっせいか} (activation), {多様化|たようか} (diversification), {効率化|こうりつか} (streamlining), {自動化|じどうか} (automation), {最適化|さいてきか} (optimization)
-- **Verbs** (5): {覆|くつがえ}す (to overturn), {懲|こ}りる (to learn one's lesson), {醸|かも}す (to brew/create atmosphere), {萎|な}える (to wilt/lose motivation), {紛|まぎ}れる (to be lost in/blend into)
-- **-がる verbs** (2): {欲|ほ}しがる (to want - third person), {怖|こわ}がる (to be scared - third person)
-- **Adjectives** (3): さりげない (casual/nonchalant), よそよそしい (distant/aloof), せこい (stingy/petty)
-- **Time expressions** (4): {案|あん}の{定|じょう} (as expected), {当面|とうめん} (for the time being), {事前|じぜん} (beforehand), {事後|じご} (after the fact)
-- **Price terms** (2): {値上|ねあ}げ (price increase), {値下|ねさ}げ (price decrease) - antonym pair with cross-references
-- **Capacity terms** (3): {満員|まんいん} (full capacity), {満席|まんせき} (full/no seats), {空席|くうせき} (empty seat) - with cross-references
-- **Holiday terms** (2): {連休|れんきゅう} (consecutive holidays), {祝日|しゅくじつ} (national holiday)
-- **Practical nouns** (3): {備蓄|びちく} (stockpiling), {復興|ふっこう} (reconstruction), {消毒|しょうどく} (disinfection)
-
-Notable entry features:
-- TKG entry with cultural notes about this iconic Japanese breakfast and its social media abbreviation
-- Complete -化 transformation pattern: 5 productive suru-verbs for describing process changes
-- -がる verb pair explaining third-person emotion/desire expression in Japanese
-- Antonym pairs with cross-references: {事前|じぜん} ↔ {事後|じご}, {値上|ねあ}げ ↔ {値下|ねさ}げ, {満席|まんせき} ↔ {空席|くうせき}
-- Expressive verbs: {醸|かも}す (with sake-brewing etymology), {懲|こ}りる (learning from mistakes)
-- Emergency/disaster vocabulary: {備蓄|びちく}, {復興|ふっこう}, {消毒|しょうどく}
-
-Total entries: 7,479 → 7,509
-Remaining candidates: ~645 → ~616
 
 ---
 
