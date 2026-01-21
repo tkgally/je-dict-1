@@ -52,18 +52,33 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
 
 | Requirement | Standard for General Tier |
 |-------------|--------------------------|
-| **Minimum count** | 3 examples per sense |
+| **Minimum count** | **3 examples PER SENSE** (not per entry!) |
 | **Progressive length** | Examples get longer from first to last |
 | **Vocabulary** | No restrictions (prefer dictionary words) |
 | **Collocations** | At least one common collocation per sense |
 
+### ⚠️ CRITICAL: Example Counts Are Per Sense
+
+**The minimum of 3 examples applies to EACH SENSE, not to the entry as a whole.**
+
+| Entry Type | Senses | Minimum Examples Required |
+|------------|--------|--------------------------|
+| Single-sense | 1 | 3 examples |
+| Two-sense | 2 | 6 examples (3 × 2) |
+| Three-sense | 3 | 9 examples (3 × 3) |
+| Four-sense | 4 | 12 examples (3 × 4) |
+
+**Example:** If creating a verb entry with two senses (e.g., literal and figurative meanings), you must create at least 6 examples total—3 for sense 1 and 3 for sense 2.
+
 ### Progressive Length Pattern
+
+Each sense should have examples that progress from shorter to longer:
 
 1. **Example 1**: Short and simple (5-15 chars) - demonstrates the word clearly
 2. **Example 2**: Medium length (10-20 chars) - shows basic context
 3. **Example 3**: Longer (15-30 chars) - natural usage with fuller context
 
-For multi-sense entries, each sense needs at least 3 examples with this progression.
+**For multi-sense entries, apply this progression within EACH sense.** A two-sense entry needs 6 progressively-lengthened examples: ex1-ex3 for sense 1, ex4-ex6 for sense 2.
 
 ## Duplicate Check Details
 
