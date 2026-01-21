@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T03:35:14Z",
+  "last_updated": "2026-01-21T03:38:30Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 2820,
-    "pending": 4659,
+    "reviewed": 2830,
+    "pending": 4649,
     "flagged": 0,
     "skipped": 0
   },
@@ -1659,6 +1659,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "No changes needed; needs more examples (general tier 4 senses); flagged for future session"
+    },
+    "00341_pasupooto": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality (formal→neutral), semantic tags (building,transportation→travel)"
+    },
+    "00342_penki": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tags (body-part,emotion,tool→material)"
+    },
+    "00343_pikunikku": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (general→leisure)"
+    },
+    "00344_pin": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (general→tool); needs more examples (general tier 3 senses)"
+    },
+    "00345_puran": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality (formal→neutral); needs more examples (general tier 2 senses)"
+    },
+    "00346_purasu": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (transportation→quantity); needs more examples (general tier 2 senses)"
+    },
+    "00347_purasuchikku": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes needed; meets minimum examples for general tier 1 sense"
+    },
+    "00348_raberu": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes needed; meets minimum examples for general tier 1 sense"
+    },
+    "00349_rai": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added semantic tag 'grammatical' for prefix"
+    },
+    "00350_raitaa": {
+      "last_reviewed": "2026-01-21T03:38:30Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes needed; needs more examples (general tier 2 senses)"
     }
   },
   "review_history": [
@@ -1937,6 +1997,13 @@
     },
     {
       "session_id": "20260121_010",
+      "date": "2026-01-21",
+      "entries_reviewed": 10,
+      "entries_modified": 7,
+      "task_type": "full-review"
+    },
+    {
+      "session_id": "20260121_011",
       "date": "2026-01-21",
       "entries_reviewed": 10,
       "entries_modified": 7,
