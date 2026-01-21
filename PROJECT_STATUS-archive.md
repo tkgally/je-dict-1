@@ -7,6 +7,27 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 140)
+Added 30 new dictionary entries from candidate_words.json, covering social/business suru-verbs, personality adjectives, verb pairs, and practical everyday vocabulary:
+
+- **Social/business suru-verbs** (5): {普及|ふきゅう} (spread/diffusion), {浸透|しんとう} (permeation), {定着|ていちゃく} (establishment), {台頭|たいとう} (rise/emergence), {手配|てはい} (arrangement)
+- **Formal expressions** (4): {恐縮|きょうしゅく} (grateful/apologetic), {不躾|ぶしつけ} (rude/blunt), {不手際|ふてぎわ} (mishandling), {不備|ふび} (deficiency)
+- **Verb pairs** (4): {揺|ゆ}さぶる/{揺|ゆ}らぐ (shake/sway), {狭|せば}まる/{狭|せば}める (narrow intrans./trans.)
+- **Personality adjectives** (4): {神経質|しんけいしつ} (nervous), {繊細|せんさい} (delicate), {臆病|おくびょう} (timid), {大胆|だいたん} (bold)
+- **真っ〜 intensifiers** (4): {真|ま}っ{白|しろ} (pure white), {真|ま}っ{黒|くろ} (pitch black), {真|ま}っ{青|さお} (deep blue/pale), {真|ま}っ{暗|くら} (pitch dark)
+- **Compound verbs** (2): {嵩|かさ}む (to mount up), {思|おも}い{浮|う}かぶ (to come to mind)
+- **Other vocabulary** (7): {手元|てもと} (at hand), {余地|よち} (room/margin), {整頓|せいとん} (tidying up), {散策|さんさく} (stroll), ねだる (to beg for), くすぐる (to tickle), {拭|ぬぐ}う (to wipe)
+
+Notable entry features:
+- Personality adjective pairs with antonym cross-references: {臆病|おくびょう} ↔ {大胆|だいたん}
+- Verb transitivity pairs with cross-references: {揺|ゆ}さぶる ↔ {揺|ゆ}らぐ, {狭|せば}める ↔ {狭|せば}まる
+- Complete 真っ〜 color intensifier group with cross-references
+- Business/formal expressions useful for professional contexts
+- Social dynamics vocabulary: {普及|ふきゅう}, {浸透|しんとう}, {定着|ていちゃく}, {台頭|たいとう}
+
+Total entries: 7,509 → 7,539
+Remaining candidates: ~616 → ~588
+
 ### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 139)
 Added 30 new dictionary entries from candidate_words.json, plus one user-requested entry, covering transformation vocabulary, verbs, adjectives, time expressions, price/capacity terms, and practical nouns:
 
