@@ -19,9 +19,9 @@
   "examples": [
     {
       "id": "00555_tomaru_ex1",
-      "japanese": "{電車|でんしゃ}が{止|と}まりました。",
+      "japanese": "{電車|でんしゃ}が{止|と}まった。",
       "english": "The train stopped.",
-      "notes": "Sense 1: stopping",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -29,9 +29,9 @@
     },
     {
       "id": "00555_tomaru_ex2",
-      "japanese": "{時計|とけい}が{止|と}まっています。",
-      "english": "The clock has stopped.",
-      "notes": "State of being stopped",
+      "japanese": "{車|くるま}が{急|きゅう}に{止|と}まりました。",
+      "english": "The car stopped suddenly.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -39,9 +39,79 @@
     },
     {
       "id": "00555_tomaru_ex3",
+      "japanese": "{時計|とけい}が{止|と}まっています。",
+      "english": "The clock has stopped.",
+      "notes": "ている = resulting state",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00555_tomaru_ex4",
+      "japanese": "{雨|あめ}が{止|や}んで、{空|そら}が{明|あか}るくなりました。",
+      "english": "The rain stopped and the sky became bright.",
+      "notes": "止む (やむ) is also used for rain",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00555_tomaru_ex5",
+      "japanese": "{信号|しんごう}が{赤|あか}になったので、{止|と}まらなければなりません。",
+      "english": "Because the light turned red, I have to stop.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00555_tomaru_ex6",
+      "japanese": "ホテルに{泊|と}まる。",
+      "english": "To stay at a hotel.",
+      "notes": "Different kanji: 泊まる",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00555_tomaru_ex7",
       "japanese": "{友達|ともだち}の{家|いえ}に{泊|と}まりました。",
       "english": "I stayed at my friend's house.",
-      "notes": "Sense 2: staying (different kanji)",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00555_tomaru_ex8",
+      "japanese": "{今夜|こんや}はどこに{泊|と}まりますか？",
+      "english": "Where will you stay tonight?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00555_tomaru_ex9",
+      "japanese": "{旅行|りょこう}で{三日間|みっかかん}、{温泉|おんせん}に{泊|と}まりました。",
+      "english": "On my trip, I stayed at a hot spring inn for three days.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00555_tomaru_ex10",
+      "japanese": "{出張|しゅっちょう}のとき、いつも{駅|えき}の{近|ちか}くのホテルに{泊|と}まることにしています。",
+      "english": "When I'm on business trips, I always make it a point to stay at a hotel near the station.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         2
@@ -59,7 +129,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:07:07Z",
-    "modified": "2026-01-19T12:17:40.298500Z",
+    "modified": "2026-01-21T10:10:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

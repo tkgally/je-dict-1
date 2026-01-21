@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T09:55:01Z",
+  "last_updated": "2026-01-21T10:14:42Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 3030,
-    "pending": 4499,
+    "reviewed": 3040,
+    "pending": 4439,
     "flagged": 0,
     "skipped": 0
   },
@@ -1900,7 +1900,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00460_shuushoku",
+    "last_reviewed_entry": "00560_kuchi",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -2440,6 +2440,56 @@
       "review_count": 1,
       "status": "flagged",
       "notes": "2 senses with only 3 examples - needs 10 total"
+    },
+    "00551_dono": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00552_kazoku": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00553_pan": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00554_kodomo": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00555_tomaru": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00556_umi": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00557_dekiru": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00558_kao": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00559_onna": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
+    },
+    "00560_kuchi": {
+      "reviewed_at": "2026-01-21T10:14:42Z",
+      "status": "current",
+      "notes": "Polished in session 032"
     }
   },
   "review_history": [
@@ -2857,6 +2907,13 @@
       },
       "count": 10,
       "modified": 10
+    },
+    {
+      "session": "session_20260121_032",
+      "date": "2026-01-21",
+      "entries_reviewed": 10,
+      "entries_modified": 10,
+      "range": "00551-00560"
     }
   ]
 }
