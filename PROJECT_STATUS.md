@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,779
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,986 | Unassigned: 0 ✓
-- **Candidate words**: ~563 words tracked in `candidate_words.json`
+- **Total entries**: 7,809
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,016 | Unassigned: 0 ✓
+- **Candidate words**: ~540 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 151)
+Added 30 new dictionary entries from candidate_words.json, covering practical vocabulary, formal expressions, organizational terms, and descriptive adjectives:
+
+- **Practical/Technical (4)**: {配線|はいせん} (wiring), {物資|ぶっし} (supplies), {救援|きゅうえん} (relief), {配給|はいきゅう} (distribution)
+- **Weather/Nature (2)**: {寒暖差|かんだんさ} (temperature difference), {朝靄|あさもや} (morning mist)
+- **Adjectives (5)**: ものぐさ (lazy), あっけない (anticlimactic), か{弱|よわ}い (frail), {夥|おびただ}しい (numerous), ものものしい (imposing)
+- **Verbs (6)**: {偏|かたよ}る (to be biased), {賄|まかな}う (to provide meals), {葬|ほうむ}る (to bury), めくれる (to turn up), {使|つか}い{込|こ}む (to embezzle/use extensively), {使|つか}い{慣|な}れる (to become used to using)
+- **Places/Buildings (3)**: {作業場|さぎょうば} (workplace), {集会所|しゅうかいじょ} (meeting hall), {表口|おもてぐち} (front entrance)
+- **Social/Business (4)**: シェア (share), {追従|ついしょう} (flattery), おべっか (flattery - colloquial), {憚|はばか}る (to hesitate)
+- **Expressions/Concepts (3)**: {一枚上手|いちまいうわて} (a cut above), {天命|てんめい} (divine will), {抜本|ばっぽん} (drastic)
+- **Formal/Political (3)**: {統廃合|とうはいごう} (consolidation), {糾弾|きゅうだん} (denunciation), {紛糾|ふんきゅう} (complication)
+
+Notable entry features:
+- {追従|ついしょう} ↔ おべっか cross-reference (formal vs. colloquial flattery)
+- {使|つか}い{込|こ}む with 2 senses: (1) embezzlement, (2) developing skill through use
+- ものものしい with 2 senses: (1) solemn/imposing, (2) heavy-handed (security)
+- {偏|かたよ}る with 2 senses: (1) biased views, (2) physical leaning
+- Confucian philosophical term {天命|てんめい} with famous saying from Analects
+- Administrative vocabulary for school/hospital mergers ({統廃合|とうはいごう})
+
+Total entries: 7,779 → 7,809
+Remaining candidates: ~563 → ~540
 
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 150)
 Added 30 new dictionary entries from candidate_words.json, covering expressive verbs, descriptive adjectives, traditional Japanese architectural terms, and useful everyday vocabulary:
@@ -366,29 +389,6 @@ Notable entry features:
 
 Total entries: 7,569 → 7,599
 Remaining candidates: ~558 → ~529
-
-### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 141)
-Added 30 new dictionary entries from candidate_words.json, covering psychological/emotional vocabulary, information/revelation terms, social actions, character traits, legal/business terminology, -化 transformation words, and comparison verbs:
-
-- **Psychological/emotional (5)**: {衝動|しょうどう} (impulse), {本能|ほんのう} (instinct), {直感|ちょっかん} (intuition), {没頭|ぼっとう} (immersion), {憧憬|しょうけい} (longing)
-- **Information/revelation (4)**: {隠蔽|いんぺい} (concealment), {捏造|ねつぞう} (fabrication), {発覚|はっかく} (coming to light), {暴露|ばくろ} (exposure)
-- **Social/political actions (4)**: {排除|はいじょ} (exclusion), {妨害|ぼうがい} (obstruction), {阻止|そし} (prevention), {便乗|びんじょう} (taking advantage)
-- **Character traits (5)**: {傲慢|ごうまん} (arrogance), {卑屈|ひくつ} (servile), {勇敢|ゆうかん} (brave), {堅実|けんじつ} (steady), {狡猾|こうかつ} (cunning)
-- **Legal/business (4)**: {釈明|しゃくめい} (clarification), {賠償|ばいしょう} (compensation), {訴訟|そしょう} (lawsuit), {出資|しゅっし} (investment)
-- **-化 transformation words (4)**: {可視化|かしか} (visualization), {形骸化|けいがいか} (becoming nominal), {老朽化|ろうきゅうか} (deterioration), {劣化|れっか} (degradation)
-- **Comparison verbs (2)**: {上回|うわまわ}る (to exceed), {下回|したまわ}る (to fall below)
-- **Other (2)**: {自粛|じしゅく} (self-restraint), {蒸発|じょうはつ} (evaporation)
-
-Notable entry features:
-- Antonym verb pair with cross-references: {上回|うわまわ}る ↔ {下回|したまわ}る
-- -化 transformation words covering positive ({可視化|かしか}) and negative ({形骸化|けいがいか}, {老朽化|ろうきゅうか}, {劣化|れっか}) changes
-- {自粛|じしゅく} with cultural context about COVID-19 pandemic usage and Japanese social values
-- Information vocabulary useful for news comprehension: {隠蔽|いんぺい}, {捏造|ねつぞう}, {発覚|はっかく}, {暴露|ばくろ}
-- Character trait vocabulary with nuanced distinctions between similar concepts
-- Legal terminology for formal/news contexts: {賠償|ばいしょう}, {訴訟|そしょう}
-
-Total entries: 7,539 → 7,569
-Remaining candidates: ~588 → ~558
 
 ---
 
