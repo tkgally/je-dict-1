@@ -1,0 +1,57 @@
+{
+  "session_id": "20260121_025",
+  "started": "2026-01-21T09:10:00Z",
+  "ended": "2026-01-21T09:15:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 0,
+  "range": {
+    "start": "00481_tsukuru",
+    "end": "00490_made"
+  },
+  "summary": {
+    "tag_fixes": 0,
+    "example_deficiencies_flagged": 8
+  },
+  "changes": [
+    {"entry_id": "00481_tsukuru", "change": "No tag changes; flagged: basic tier 2 senses needs 7 more examples"},
+    {"entry_id": "00482_au", "change": "No tag changes; flagged: basic tier 1 sense needs 2 more examples"},
+    {"entry_id": "00483_kiku", "change": "No tag changes; flagged: basic tier 3 senses needs 12 more examples - HIGH PRIORITY"},
+    {"entry_id": "00484_mo", "change": "No changes needed - comprehensive particle entry with 6 examples and extensive documentation"},
+    {"entry_id": "00485_shimeru", "change": "No tag changes; flagged: core tier 1 sense needs 2 more examples"},
+    {"entry_id": "00486_toshi", "change": "No tag changes; flagged: basic tier 2 senses needs 7 more examples"},
+    {"entry_id": "00487_yoru", "change": "No tag changes; flagged: basic tier 1 sense needs 2 more examples"},
+    {"entry_id": "00488_furui", "change": "No tag changes; flagged: basic tier 2 senses needs 7 more examples"},
+    {"entry_id": "00489_kau", "change": "No tag changes; flagged: basic tier 1 sense needs 2 more examples"},
+    {"entry_id": "00490_made", "change": "No changes needed - comprehensive particle entry with 5 examples and extensive documentation"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00483_kiku", "reason": "Basic tier 3 senses needs 15 examples, has 3 - HIGH PRIORITY"},
+    {"entry_id": "00481_tsukuru", "reason": "Basic tier 2 senses needs 10 examples, has 3"},
+    {"entry_id": "00486_toshi", "reason": "Basic tier 2 senses needs 10 examples, has 3"},
+    {"entry_id": "00488_furui", "reason": "Basic tier 2 senses needs 10 examples, has 3"},
+    {"entry_id": "00482_au", "reason": "Basic tier 1 sense needs 5 examples, has 3"},
+    {"entry_id": "00487_yoru", "reason": "Basic tier 1 sense needs 5 examples, has 3"},
+    {"entry_id": "00489_kau", "reason": "Basic tier 1 sense needs 5 examples, has 3"},
+    {"entry_id": "00485_shimeru", "reason": "Core tier 1 sense needs 5 examples, has 3"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00484_mo", "notes": "Comprehensive particle entry with 6 examples and extensive particle_behavior and fixed_patterns documentation"},
+    {"entry_id": "00490_made", "notes": "Comprehensive particle entry with 5 examples and extensive particle_contrasts and fixed_patterns documentation"}
+  ],
+  "patterns_observed": [
+    "Particle entries (も, まで) have comprehensive documentation beyond just examples - includes particle_behavior, particle_contrasts, fixed_patterns",
+    "Basic-tier fundamental verbs (作る, 会う, 聞く) continue to have only 3 examples despite needing 5-15",
+    "No tag errors found in this batch - tags are correctly applied",
+    "Example deficiency is the dominant issue across all reviewed entries"
+  ],
+  "continuation_notes": {
+    "next_entry": "00491",
+    "pending_tasks": [
+      "Return to entries 00481, 00482, 00483, 00486, 00487, 00488, 00489 for basic-tier example additions",
+      "Return to entry 00485 for core-tier example additions",
+      "Priority: 00483_kiku (basic 3 senses) needs 12 more examples"
+    ],
+    "context_for_next_session": "Continue from 00491. Tags have been generally correct in recent batches - example deficiency is the main systemic issue. Particle entries tend to have better documentation despite example counts."
+  }
+}
