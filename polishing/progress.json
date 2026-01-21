@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T04:46:05Z",
+  "last_updated": "2026-01-21T05:00:00Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 2850,
-    "pending": 4629,
+    "reviewed": 2860,
+    "pending": 4619,
     "flagged": 0,
     "skipped": 0
   },
@@ -1839,6 +1839,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Added notes fields; added 公立 to candidates; general tier met minimum"
+    },
+    "00371_shisei": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 7 examples; fixed politeness (humble→plain), semantic tags"
+    },
+    "00372_shison": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples; fixed formality, removed literary style, fixed semantic"
+    },
+    "00373_shitei": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added notes fields; fixed semantic tags"
+    },
+    "00374_shitetsu": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples; fixed semantic tag (general→transportation)"
+    },
+    "00375_shoho": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added notes fields only"
+    },
+    "00376_shoku": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes needed - already meets requirements"
+    },
+    "00377_shugo": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added notes fields; fixed semantic tags"
+    },
+    "00378_sokkuri": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 3 examples; fixed semantic tag (transportation→descriptive)"
+    },
+    "00379_sokode": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples; fixed formality (formal→neutral)"
+    },
+    "00380_sonouchi": {
+      "last_reviewed": "2026-01-21T05:00:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes needed - already meets requirements"
     }
   },
   "review_history": [
@@ -2141,6 +2201,13 @@
       "date": "2026-01-21",
       "entries_reviewed": 10,
       "entries_modified": 10,
+      "task_type": "full-review"
+    },
+    {
+      "session_id": "20260121_014",
+      "date": "2026-01-21",
+      "entries_reviewed": 10,
+      "entries_modified": 9,
       "task_type": "full-review"
     }
   ]
