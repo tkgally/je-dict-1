@@ -1,0 +1,54 @@
+{
+  "session_id": "20260121_008",
+  "started": "2026-01-21T03:23:59Z",
+  "ended": "2026-01-21T03:28:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 9,
+  "range": {
+    "start": "00311_nenjuu",
+    "end": "00320_nippon"
+  },
+  "summary": {
+    "example_additions": 6,
+    "semantic_tag_fixes": 7,
+    "formality_fixes": 3,
+    "style_tag_fixes": 1
+  },
+  "changes": [
+    {"entry_id": "00311_nenjuu", "change": "Fixed semantic tag (descriptive→time-general), formality (formal→neutral), removed domain tag"},
+    {"entry_id": "00312_nerai", "change": "Fixed formality (formal→neutral), semantic tag (general→action)"},
+    {"entry_id": "00314_ni", "change": "Fixed semantic tag (geography→grammatical)"},
+    {"entry_id": "00315_nibui", "change": "Fixed semantic tags (animal-insect,body-part,emotion→descriptive)"},
+    {"entry_id": "00316_nichiji", "change": "Added 2 examples for core tier (5 total)"},
+    {"entry_id": "00317_nikka", "change": "Added 2 examples for core tier (5 total)"},
+    {"entry_id": "00318_nikumu", "change": "Fixed semantic tag (action→emotion)"},
+    {"entry_id": "00319_niou", "change": "Removed incorrect style tag (literary)"},
+    {"entry_id": "00320_nippon", "change": "Added 2 examples for core tier (5 total); fixed semantic tag (general→geography)"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00311_nenjuu", "reason": "Core tier with 2 senses needs 10 examples (currently has 3)"},
+    {"entry_id": "00312_nerai", "reason": "General tier with 2 senses needs 6 examples (currently has 3)"},
+    {"entry_id": "00313_nerau", "reason": "Core tier with 3 senses needs 15 examples (currently has 3)"},
+    {"entry_id": "00314_ni", "reason": "Basic tier with 6 senses needs 30 examples (currently has 6)"},
+    {"entry_id": "00315_nibui", "reason": "General tier with 3 senses needs 9 examples (currently has 3)"},
+    {"entry_id": "00318_nikumu", "reason": "Core tier with 2 senses needs 10 examples (currently has 3)"},
+    {"entry_id": "00319_niou", "reason": "Core tier with 3 senses needs 15 examples (currently has 3)"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00313_nerau", "notes": "Tags were already correct; flagged for examples only"}
+  ],
+  "patterns_observed": [
+    "Particle entries (like に) need semantic tag 'grammatical' not 'geography'",
+    "Emotion-related verbs should have 'emotion' semantic tag instead of 'action'",
+    "Many entries from this range have significant example sentence deficits requiring separate dedicated sessions",
+    "Multiple entries had formality set to 'formal' when they are actually neutral in register"
+  ],
+  "continuation_notes": {
+    "next_entry": "00321",
+    "pending_tasks": [
+      "Entries 00311-00315, 00318-00319 need significant example additions in a future dedicated session"
+    ],
+    "context_for_next_session": "Continue from 00321. This batch had many multi-sense entries requiring substantial example additions. Consider a dedicated examples session for high-deficit entries."
+  }
+}
