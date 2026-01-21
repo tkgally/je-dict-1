@@ -1,0 +1,56 @@
+{
+  "session_id": "20260121_021",
+  "started": "2026-01-21T08:45:00Z",
+  "ended": "2026-01-21T09:00:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 2,
+  "range": {
+    "start": "00441_fukushi",
+    "end": "00450_kansou"
+  },
+  "summary": {
+    "semantic_tag_fixes": 2,
+    "formality_fixes": 1
+  },
+  "changes": [
+    {"entry_id": "00441_fukushi", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00442_horu", "change": "No tag changes; flagged: needs 3+ examples for 2 senses (general tier)"},
+    {"entry_id": "00443_i", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00444_iku", "change": "Fixed semantic (movement→number) - critical error for number/quantity prefix; flagged: basic tier, 2 senses, needs 7+ more examples"},
+    {"entry_id": "00445_kaihou", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00446_kaisei", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00447_kaitou", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00448_kakou", "change": "No changes needed - general tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00449_kaku", "change": "Fixed formality (formal→neutral), fixed semantic (communication→grammatical) for prefix"},
+    {"entry_id": "00450_kansou", "change": "No tag changes; flagged: core tier, 1 sense, needs 2 more examples"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00442_horu", "reason": "General tier with 2 senses needs 6 examples, has 3"},
+    {"entry_id": "00444_iku", "reason": "Basic tier with 2 senses needs 10 examples, has 3 - HIGH PRIORITY"},
+    {"entry_id": "00450_kansou", "reason": "Core tier with 1 sense needs 5 examples, has 3"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00441_fukushi", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00443_i", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00445_kaihou", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00446_kaisei", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00447_kaitou", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00448_kakou", "notes": "General tier 1 sense meets minimum 3 examples"}
+  ],
+  "patterns_observed": [
+    "Semantic 'movement' incorrectly applied to number/quantity prefix (幾~)",
+    "Formality 'formal' incorrectly applied to neutral prefix (各~)",
+    "Semantic 'communication' incorrectly applied to grammatical prefix (各~)",
+    "Many entries in this range are general tier with 1 sense - these meet minimum examples",
+    "Prefixes should have semantic 'grammatical' not semantic related to usage context"
+  ],
+  "continuation_notes": {
+    "next_entry": "00451",
+    "pending_tasks": [
+      "Return to entries 00442, 00444, 00450 for example additions",
+      "Priority: 00444_iku is a basic-tier prefix needing major example work"
+    ],
+    "context_for_next_session": "Continue from 00451. Watch for semantic tags on prefix/suffix entries - should be 'grammatical' not contextual meanings."
+  }
+}
