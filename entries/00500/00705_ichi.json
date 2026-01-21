@@ -24,9 +24,9 @@
     },
     {
       "id": "00705_ichi_ex2",
-      "japanese": "りんごを{一|いち}つください。",
-      "english": "Please give me one apple.",
-      "notes": "Using the counter つ",
+      "japanese": "ペンを{一|いち}{本|ぽん}ください。",
+      "english": "Please give me one pen.",
+      "notes": "いち becomes いっ before ぽん",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -41,13 +41,33 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "00705_ichi_ex4",
+      "japanese": "{一|いち}{日|にち}に{三|さん}{回|かい}ごはんを{食|た}べます。",
+      "english": "I eat three meals a day.",
+      "notes": "{一|いち}{日|にち} means 'one day' or 'per day'",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00705_ichi_ex5",
+      "japanese": "{一|いち}{年|ねん}に{一|いち}{回|かい}、{家族|かぞく}みんなで{旅行|りょこう}に{行|い}きます。",
+      "english": "We go on a trip with the whole family once a year.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "The reading changes in many compound words and with different counters. For example: {一|ひと}つ (hitotsu, one thing), {一|いっ}{個|こ} (ikko, one piece), {一|いっ}{本|ぽん} (ippon, one long object). When used alone or in mathematical contexts, いち is the standard reading.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:47:43Z",
-    "modified": "2026-01-19T12:14:16.191569Z",
+    "modified": "2026-01-21T22:48:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
