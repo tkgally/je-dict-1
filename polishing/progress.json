@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T02:21:31Z",
+  "last_updated": "2026-01-21T02:26:01Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 2780,
-    "pending": 4699,
+    "reviewed": 2790,
+    "pending": 4689,
     "flagged": 0,
     "skipped": 0
   },
@@ -1419,6 +1419,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Good entry - met minimum examples (general tier)"
+    },
+    "00301_myougonichi": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (descriptive→time-general)"
+    },
+    "00302_namiki": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality (formal→neutral) and semantic tag (general→nature)"
+    },
+    "00303_naname": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 3 examples for 2 senses (6 total)"
+    },
+    "00304_nandemo": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Needs more examples (basic tier 3 senses); flagged for future session"
+    },
+    "00305_nao": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Needs more examples (general tier 3 senses); flagged for future session"
+    },
+    "00306_necchuu": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality (formal→neutral)"
+    },
+    "00307_neji": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Needs more examples (core tier 2 senses); flagged for future session"
+    },
+    "00308_nemaki": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples for core tier (5 total)"
+    },
+    "00309_nendo": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 3 examples for 2 senses (6 total); fixed semantic tag"
+    },
+    "00310_nengetsu": {
+      "last_reviewed": "2026-01-21T02:26:01Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples for core tier (5 total); fixed semantic tag"
     }
   },
   "review_history": [
@@ -1672,6 +1732,13 @@
       "date": "2026-01-21",
       "entries_reviewed": 10,
       "entries_modified": 9,
+      "task_type": "full-review"
+    },
+    {
+      "session_id": "20260121_007",
+      "date": "2026-01-21",
+      "entries_reviewed": 10,
+      "entries_modified": 7,
       "task_type": "full-review"
     }
   ]
