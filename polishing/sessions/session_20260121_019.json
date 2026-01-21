@@ -1,0 +1,58 @@
+{
+  "session_id": "20260121_019",
+  "started": "2026-01-21T08:20:00Z",
+  "ended": "2026-01-21T08:35:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 7,
+  "range": {
+    "start": "00421_wata",
+    "end": "00430_yurui"
+  },
+  "summary": {
+    "semantic_tag_fixes": 3,
+    "formality_fixes": 4,
+    "domain_tag_fixes": 2,
+    "style_tag_fixes": 1
+  },
+  "changes": [
+    {"entry_id": "00421_wata", "change": "Removed incorrect domain 'medical'; flagged: needs 3+ examples for 2 senses"},
+    {"entry_id": "00422_wo", "change": "Fixed formality (informal→neutral) - particles should be neutral"},
+    {"entry_id": "00423_yakume", "change": "Fixed formality (formal→neutral); flagged: needs 3+ examples for 2 senses"},
+    {"entry_id": "00424_yo", "change": "No changes; flagged: needs 3+ examples for 2 senses"},
+    {"entry_id": "00425_yomi", "change": "Fixed semantic (removed incorrect 'occupation'); flagged: needs 3+ examples for 2 senses"},
+    {"entry_id": "00426_yomu", "change": "No changes; flagged: needs extensive examples for basic tier 3 senses"},
+    {"entry_id": "00427_yooroppa", "change": "Fixed formality (formal→neutral), removed incorrect style 'literary', fixed semantic (tool→place)"},
+    {"entry_id": "00428_yotto", "change": "No changes needed - general tier 1 sense meets minimum"},
+    {"entry_id": "00429_youyaku", "change": "Removed contradicting domain 'colloquial' (conflicts with style 'literary'); flagged: needs examples"},
+    {"entry_id": "00430_yurui", "change": "Fixed formality (informal→neutral); flagged: needs 9+ examples for 4 senses"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00421_wata", "reason": "General tier with 2 senses needs 6 examples, has 3"},
+    {"entry_id": "00423_yakume", "reason": "General tier with 2 senses needs 6 examples, has 3"},
+    {"entry_id": "00424_yo", "reason": "General tier with 2 senses needs 6 examples, has 3"},
+    {"entry_id": "00425_yomi", "reason": "General tier with 2 senses needs 6 examples, has 3"},
+    {"entry_id": "00426_yomu", "reason": "Basic tier with 3 senses needs 15 examples, has 3"},
+    {"entry_id": "00429_youyaku", "reason": "Core tier with 2 senses needs 10 examples, has 3"},
+    {"entry_id": "00430_yurui", "reason": "General tier with 4 senses needs 12 examples, has 3"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00428_yotto", "notes": "General tier 1 sense meets minimum 3 examples"}
+  ],
+  "patterns_observed": [
+    "Semantic tag 'tool' incorrectly applied to place name (ヨーロッパ)",
+    "Domain 'medical' incorrectly applied to general material (綿)",
+    "Style 'literary' and domain 'colloquial' contradicting each other on same entry",
+    "Formality 'informal' incorrectly applied to neutral words",
+    "Particle を incorrectly tagged as informal (particles are neutral)",
+    "Basic tier entry 読む has only 3 examples for 3 senses - major gap"
+  ],
+  "continuation_notes": {
+    "next_entry": "00431",
+    "pending_tasks": [
+      "Return to entries 00421, 00423-00426, 00429-00430 for extensive example additions",
+      "Priority: 00426_yomu is a basic-tier fundamental verb needing major example work"
+    ],
+    "context_for_next_session": "Continue from 00431. Many multi-sense entries continue to lack adequate examples. Watch for contradicting style/domain tags."
+  }
+}

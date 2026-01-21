@@ -1,0 +1,56 @@
+{
+  "session_id": "20260121_017",
+  "started": "2026-01-21T07:54:00Z",
+  "ended": "2026-01-21T08:10:00Z",
+  "task_type": "full-review",
+  "entries_reviewed": 10,
+  "entries_modified": 7,
+  "range": {
+    "start": "00401_taipuraitaa",
+    "end": "00410_tsubusu"
+  },
+  "summary": {
+    "example_additions": 4,
+    "example_revisions": 1,
+    "semantic_tag_fixes": 2,
+    "formality_fixes": 5,
+    "typo_fixes": 1,
+    "domain_tag_fixes": 1
+  },
+  "changes": [
+    {"entry_id": "00401_taipuraitaa", "change": "No changes needed - general tier entry meets requirements"},
+    {"entry_id": "00402_tanbo", "change": "Fixed formality (formal→neutral), removed incorrect 'technical' domain tag"},
+    {"entry_id": "00403_tatta", "change": "Added 2 examples (5 total), fixed formality (formal→neutral)"},
+    {"entry_id": "00404_teru", "change": "No changes needed - general tier entry meets requirements"},
+    {"entry_id": "00405_togaru", "change": "Fixed semantic tag (existence→action), replaced ex3 with proper intransitive example; flagged: needs 7+ more examples for 2 senses"},
+    {"entry_id": "00406_tokoroga", "change": "Added 2 examples (5 total)"},
+    {"entry_id": "00407_ton", "change": "No changes needed - general tier entry meets requirements"},
+    {"entry_id": "00408_toreeningu", "change": "Fixed typo in ex3 (missing furigana brace), fixed formality (formal→neutral), fixed semantic (leisure→activity); flagged: needs 3+ more examples for 2 senses"},
+    {"entry_id": "00409_totsuzen", "change": "Fixed formality (formal→neutral)"},
+    {"entry_id": "00410_tsubusu", "change": "No changes (flagged: needs 9+ examples for 4 senses)"}
+  ],
+  "entries_needing_followup": [
+    {"entry_id": "00405_togaru", "reason": "Core tier with 2 senses needs 10 examples, has 3"},
+    {"entry_id": "00408_toreeningu", "reason": "General tier with 2 senses needs 6 examples, has 3"},
+    {"entry_id": "00410_tsubusu", "reason": "General tier with 4 senses needs 12 examples, has 3"}
+  ],
+  "entries_no_changes_needed": [
+    {"entry_id": "00401_taipuraitaa", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00404_teru", "notes": "General tier 1 sense meets minimum 3 examples"},
+    {"entry_id": "00407_ton", "notes": "General tier 1 sense meets minimum 3 examples"}
+  ],
+  "patterns_observed": [
+    "Formality tag 'formal' incorrectly applied to neutral words (たった, 田んぼ, トレーニング, 突然)",
+    "Semantic tag 'existence' incorrectly applied to action verb (尖る)",
+    "Domain tag 'technical' incorrectly combined with 'colloquial' (田んぼ)",
+    "Example ex3 in 00405_togaru used transitive form 尖らせる instead of intransitive 尖る",
+    "Multi-sense entries continue to lack adequate example coverage"
+  ],
+  "continuation_notes": {
+    "next_entry": "00411",
+    "pending_tasks": [
+      "Return to 00405_togaru, 00408_toreeningu, 00410_tsubusu for extensive example additions"
+    ],
+    "context_for_next_session": "Continue from 00411. Formality tag errors continue to be common. Multi-sense entries need significant example work."
+  }
+}
