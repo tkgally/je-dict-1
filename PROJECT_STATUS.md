@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,749
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,956 | Unassigned: 0 ✓
-- **Candidate words**: ~584 words tracked in `candidate_words.json`
+- **Total entries**: 7,779
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 4,986 | Unassigned: 0 ✓
+- **Candidate words**: ~563 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,25 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 150)
+Added 30 new dictionary entries from candidate_words.json, covering expressive verbs, descriptive adjectives, traditional Japanese architectural terms, and useful everyday vocabulary:
+
+- **Expressive verbs (10)**: {際立|きわだ}つ (to stand out), {安|やす}らぐ (to feel at ease), ひしめく (to crowd together), {項垂|うなだ}れる (to hang one's head), はにかむ (to be shy), {淀|よど}む (to stagnate), かすれる (to become hoarse), ふやける (to become soggy), ぼける (to become senile/blurred), {漲|みなぎ}る (to overflow with)
+- **Descriptive adjectives (7)**: {疎|うと}い (unfamiliar with), {浅|あさ}ましい (shameful), {物悲|ものがな}しい (melancholy), {忌々|いまいま}しい (annoying), ぞんざい (careless/rude), けばい (gaudy), こすい (sly)
+- **Traditional/architectural (5)**: {土間|どま} (dirt floor entry), {軒下|のきした} (under the eaves), {柱時計|はしらどけい} (pendulum clock), {傾|かたむ}き (tilt/slope), {諦観|ていかん} (resignation)
+- **Everyday vocabulary (6)**: {身|み}の{回|まわ}り (one's surroundings), {小休止|しょうきゅうし} (short break), {山脈|さんみゃく} (mountain range), {具|ぐ} (ingredients), あて (prospect), {世話人|せわにん} (organizer)
+- **Expressions (2)**: {思|おも}いのほか (more than expected), あのね (you know)
+
+Notable entry features:
+- ぼける with 3 senses: (1) becoming senile, (2) being blurred/out of focus (source of English "bokeh"), (3) playing dumb in comedy
+- {淀|よど}む with 2 senses: (1) stagnant water, (2) hesitant speech
+- {疎|うと}い with 2 senses: (1) unfamiliar with something, (2) estranged in relationships
+- Traditional Japanese house vocabulary: {土間|どま}, {軒下|のきした} with cultural context
+- {諦観|ていかん} with Buddhist philosophical undertones
+
+Total entries: 7,749 → 7,779
+Remaining candidates: ~584 → ~563
 
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 149)
 Added 30 new dictionary entries from candidate_words.json, covering technology terms, business loanwords, scheduling vocabulary, and practical everyday expressions:
@@ -370,27 +389,6 @@ Notable entry features:
 
 Total entries: 7,539 → 7,569
 Remaining candidates: ~588 → ~558
-
-### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 140)
-Added 30 new dictionary entries from candidate_words.json, covering social/business suru-verbs, personality adjectives, verb pairs, and practical everyday vocabulary:
-
-- **Social/business suru-verbs** (5): {普及|ふきゅう} (spread/diffusion), {浸透|しんとう} (permeation), {定着|ていちゃく} (establishment), {台頭|たいとう} (rise/emergence), {手配|てはい} (arrangement)
-- **Formal expressions** (4): {恐縮|きょうしゅく} (grateful/apologetic), {不躾|ぶしつけ} (rude/blunt), {不手際|ふてぎわ} (mishandling), {不備|ふび} (deficiency)
-- **Verb pairs** (4): {揺|ゆ}さぶる/{揺|ゆ}らぐ (shake/sway), {狭|せば}まる/{狭|せば}める (narrow intrans./trans.)
-- **Personality adjectives** (4): {神経質|しんけいしつ} (nervous), {繊細|せんさい} (delicate), {臆病|おくびょう} (timid), {大胆|だいたん} (bold)
-- **真っ〜 intensifiers** (4): {真|ま}っ{白|しろ} (pure white), {真|ま}っ{黒|くろ} (pitch black), {真|ま}っ{青|さお} (deep blue/pale), {真|ま}っ{暗|くら} (pitch dark)
-- **Compound verbs** (2): {嵩|かさ}む (to mount up), {思|おも}い{浮|う}かぶ (to come to mind)
-- **Other vocabulary** (7): {手元|てもと} (at hand), {余地|よち} (room/margin), {整頓|せいとん} (tidying up), {散策|さんさく} (stroll), ねだる (to beg for), くすぐる (to tickle), {拭|ぬぐ}う (to wipe)
-
-Notable entry features:
-- Personality adjective pairs with antonym cross-references: {臆病|おくびょう} ↔ {大胆|だいたん}
-- Verb transitivity pairs with cross-references: {揺|ゆ}さぶる ↔ {揺|ゆ}らぐ, {狭|せば}める ↔ {狭|せば}まる
-- Complete 真っ〜 color intensifier group with cross-references
-- Business/formal expressions useful for professional contexts
-- Social dynamics vocabulary: {普及|ふきゅう}, {浸透|しんとう}, {定着|ていちゃく}, {台頭|たいとう}
-
-Total entries: 7,509 → 7,539
-Remaining candidates: ~616 → ~588
 
 ---
 
