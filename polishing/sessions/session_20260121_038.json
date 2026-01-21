@@ -1,0 +1,145 @@
+{
+  "session_id": "session_20260121_038",
+  "started": "2026-01-21T11:10:00Z",
+  "ended": "2026-01-21T11:25:00Z",
+  "status": "completed",
+
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00611-00620"
+  },
+
+  "configuration": {
+    "batch_size": 10,
+    "starting_entry": "00611",
+    "filters": {
+      "pos": null,
+      "tier": "basic",
+      "status": null
+    }
+  },
+
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 10,
+    "entries_flagged": 0
+  },
+
+  "entries_reviewed": [
+    {
+      "entry_id": "00611_okane",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (money)"
+    },
+    {
+      "entry_id": "00612_ie",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)", "Fixed formality tag (informal -> neutral)", "Removed domain 'colloquial'"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (house/home). いえ is neutral, うち is more colloquial."
+    },
+    {
+      "entry_id": "00613_machi",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (town)"
+    },
+    {
+      "entry_id": "00614_nihongo",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (Japanese language)"
+    },
+    {
+      "entry_id": "00615_agaru",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier godan verb with 2 senses (to rise/to enter house)"
+    },
+    {
+      "entry_id": "00616_akarui",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier i-adjective with 2 senses (bright/cheerful)"
+    },
+    {
+      "entry_id": "00617_amai",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)"],
+      "issues": [],
+      "notes": "Basic tier i-adjective with 2 senses (sweet/lenient)"
+    },
+    {
+      "entry_id": "00618_atatakai",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Expanded examples from 3 to 10 (5 per sense)", "Fixed formality tag (informal -> neutral)"],
+      "issues": [],
+      "notes": "Basic tier i-adjective with 2 senses (warm weather/warm personality)"
+    },
+    {
+      "entry_id": "00619_atsui",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)", "Removed incorrect 'size' semantic tag"],
+      "issues": [],
+      "notes": "Basic tier i-adjective, single sense (hot weather)"
+    },
+    {
+      "entry_id": "00620_dai",
+      "reviewed_at": "2026-01-21T11:01:52Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier counter, single sense (counter for machines/vehicles)"
+    }
+  ],
+
+  "issues_found": [],
+
+  "patterns_observed": [
+    {
+      "pattern": "Formality tags on neutral words incorrectly set to 'informal'",
+      "frequency": "occasional",
+      "suggested_action": "Review neutral vocabulary for incorrect formality tagging"
+    },
+    {
+      "pattern": "Descriptive adjectives with dual meanings (physical/personality) form useful pattern",
+      "frequency": "common",
+      "suggested_action": "Ensure both senses have adequate examples showing different contexts"
+    }
+  ],
+
+  "continuation_notes": {
+    "next_entry": "00621",
+    "pending_tasks": [
+      "Continue reviewing entries 00621+"
+    ],
+    "context_for_next_session": "Session 038 complete. Reviewed entries 00611-00620 (nouns, verb, adjectives, counter). Modified all 10 entries. Fixed formality tags on ie and atatakai. Removed incorrect 'size' tag from atsui. Multi-sense adjectives (akarui, amai, atatakai) and verb (agaru) expanded with additional examples. Total 56 examples added."
+  },
+
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 10,
+    "examples_added": 56,
+    "tag_fixes": 4,
+    "issues_found": 0,
+    "patterns_noted": 2,
+    "notes": "Modified all 10 entries. Added 56 new examples total. Batch included place/money nouns (okane, ie, machi, nihongo), movement verb (agaru), descriptive adjectives (akarui, amai, atatakai, atsui), and counter (dai). Fixed formality tags on ie and atatakai, removed incorrect 'size' tag from atsui."
+  }
+}
