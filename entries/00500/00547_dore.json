@@ -41,6 +41,26 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "00547_dore_ex4",
+      "japanese": "この{中|なか}でどれが{一番|いちばん}{安|やす}いですか？",
+      "english": "Which one of these is the cheapest?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00547_dore_ex5",
+      "japanese": "ケーキがたくさんあるけど、どれを{食|た}べたいか{決|き}められない。",
+      "english": "There are many cakes, but I can't decide which one I want to eat.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Used for choosing among three or more items. For two items, use どちら (dochira). Part of the こそあど series: これ (this one), それ (that one), あれ (that one over there), どれ (which one).",
@@ -54,7 +74,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:44:32Z",
-    "modified": "2026-01-19T11:37:00.395451Z",
+    "modified": "2026-01-21T09:55:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -62,7 +82,10 @@
         "pronoun"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "interrogative"
+      ]
     }
   }
 }

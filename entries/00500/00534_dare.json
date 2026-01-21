@@ -41,6 +41,26 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "00534_dare_ex4",
+      "japanese": "{誰|だれ}かが{ドア|どあ}をノックしています。{誰|だれ}だろう？",
+      "english": "Someone is knocking on the door. I wonder who it is?",
+      "notes": "誰か = someone",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00534_dare_ex5",
+      "japanese": "この{写真|しゃしん}の{人|ひと}は{誰|だれ}ですか？{私|わたし}の{友達|ともだち}は{誰|だれ}も{知|し}らないと{言|い}っています。",
+      "english": "Who is this person in the photo? My friends say that none of them know.",
+      "notes": "誰も + negative = no one",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "One of the essential question words. More polite form is どなた (donata). Related expressions: {誰|だれ}か (someone), {誰|だれ}も (nobody, with negative), {誰|だれ}でも (anyone).",
@@ -66,15 +86,18 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:16:58Z",
-    "modified": "2026-01-19T11:37:00.387971Z",
+    "modified": "2026-01-21T09:55:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "pronoun"
       ],
-      "politeness": "polite",
-      "formality": "neutral"
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "interrogative"
+      ]
     }
   }
 }
