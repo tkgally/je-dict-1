@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T23:00:00Z",
+  "last_updated": "2026-01-21T23:15:00Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 565,
+    "reviewed": 575,
     "pending": 4359,
     "flagged": 2,
     "skipped": 0
@@ -3425,6 +3425,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "General tier, 3 examples OK"
+    },
+    "00711_kakaru": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 4 examples (ex4-ex7) for 2-sense entry"
+    },
+    "00712_kami": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag, added 2 examples"
+    },
+    "00713_kantan": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab tier violations, added 4 examples for 2-sense entry"
+    },
+    "00714_kawaru": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab tier in ex2, added 2 examples"
+    },
+    "00715_keitai": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "General tier, 3 examples OK"
+    },
+    "00716_keshigomu": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (was time-general, now tool)"
+    },
+    "00717_kirei": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 4 examples (ex4-ex7) for 2-sense entry"
+    },
+    "00718_kitte": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "General tier, 3 examples OK"
+    },
+    "00719_komu": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "General tier, 3 examples OK"
+    },
+    "00720_kongetsu": {
+      "last_reviewed": "2026-01-21T23:15:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab tier violations in ex1-ex2, added 2 examples"
     }
   },
   "review_history": [
@@ -3973,6 +4033,14 @@
       "entries_modified": 7,
       "task_type": "full-review",
       "notes": "Reviewed 00701-00710. Fixed 3 vocabulary tier violations, added 14 examples."
+    },
+    {
+      "date": "2026-01-21T23:15:00Z",
+      "session_id": "session_20260121_048",
+      "entries_reviewed": 10,
+      "entries_modified": 8,
+      "task_type": "full-review",
+      "notes": "Reviewed 00711-00720. Fixed vocabulary tier violations, fixed semantic tags, added 18 examples."
     }
   ]
 }
