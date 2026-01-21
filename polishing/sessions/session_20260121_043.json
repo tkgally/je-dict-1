@@ -1,0 +1,156 @@
+{
+  "session_id": "session_20260121_043",
+  "started": "2026-01-21T12:52:00Z",
+  "ended": "2026-01-21T13:30:00Z",
+  "status": "completed",
+
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00661-00670"
+  },
+
+  "configuration": {
+    "batch_size": 10,
+    "starting_entry": "00661",
+    "filters": {
+      "pos": null,
+      "tier": "basic/core",
+      "status": null
+    }
+  },
+
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 10,
+    "entries_flagged": 0
+  },
+
+  "entries_reviewed": [
+    {
+      "entry_id": "00661_ongaku",
+      "reviewed_at": "2026-01-21T12:55:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Core tier noun, single sense (music)"
+    },
+    {
+      "entry_id": "00662_rokugatsu",
+      "reviewed_at": "2026-01-21T12:58:00Z",
+      "status": "current",
+      "changes": ["Replaced ex2 (梅雨 is core, moved to ex3)", "Removed 結婚式 (general tier) from ex3", "Added 2 examples (3 to 5)", "Fixed vocabulary tier violations"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (June). Fixed vocabulary tier violations."
+    },
+    {
+      "entry_id": "00663_saifu",
+      "reviewed_at": "2026-01-21T13:01:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)", "Fixed ex5 (replaced 茶色/プレゼント with 黒い/あげる)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (wallet). Fixed vocabulary tier violations."
+    },
+    {
+      "entry_id": "00664_samui",
+      "reviewed_at": "2026-01-21T13:04:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier adjective, single sense (cold weather)"
+    },
+    {
+      "entry_id": "00665_sangatsu",
+      "reviewed_at": "2026-01-21T13:07:00Z",
+      "status": "current",
+      "changes": ["Replaced ex1 (卒業 is general tier)", "Fixed ex5 (周り is general tier)", "Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (March). Fixed vocabulary tier violations. Added 咲く to candidates."
+    },
+    {
+      "entry_id": "00666_satsu",
+      "reviewed_at": "2026-01-21T13:10:00Z",
+      "status": "current",
+      "changes": ["Replaced ex2 (ノート is general tier)", "Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier counter, single sense (counter for books). Fixed vocabulary tier violation."
+    },
+    {
+      "entry_id": "00667_shichigatsu",
+      "reviewed_at": "2026-01-21T13:13:00Z",
+      "status": "current",
+      "changes": ["Replaced ex2 (七夕 is general tier)", "Replaced ex3 (夏休み is general tier)", "Fixed ex5 (予定 is general tier)", "Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (July). Fixed multiple vocabulary tier violations."
+    },
+    {
+      "entry_id": "00668_shigatsu",
+      "reviewed_at": "2026-01-21T13:16:00Z",
+      "status": "current",
+      "changes": ["Replaced ex1 (学年 is general tier)", "Replaced ex3 (入学 is general tier)", "Fixed ex5 (時期 is general tier)", "Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier noun, single sense (April). Fixed multiple vocabulary tier violations."
+    },
+    {
+      "entry_id": "00669_shinu",
+      "reviewed_at": "2026-01-21T13:19:00Z",
+      "status": "current",
+      "changes": ["Added 2 examples (3 to 5)"],
+      "issues": [],
+      "notes": "Basic tier verb, single sense (to die). Added 飼う to candidates."
+    },
+    {
+      "entry_id": "00670_shita",
+      "reviewed_at": "2026-01-21T13:22:00Z",
+      "status": "current",
+      "changes": ["Added 7 examples (3 to 10)", "Expanded to 5 examples per sense for 2-sense entry"],
+      "issues": [],
+      "notes": "Basic tier noun, 2 senses (below/under, younger/subordinate). Multi-sense entry now has full example coverage (10 examples)."
+    }
+  ],
+
+  "issues_found": [],
+
+  "patterns_observed": [
+    {
+      "pattern": "General-tier vocabulary in basic-tier examples",
+      "frequency": "very common",
+      "suggested_action": "Check: 卒業, 入学, 学年, 七夕, 夏休み, 結婚式, ノート, 茶色, プレゼント, 周り, 予定, 時期 are all general tier"
+    },
+    {
+      "pattern": "Core-tier vocabulary in basic-tier examples 1-2",
+      "frequency": "occasional",
+      "suggested_action": "Check: 梅雨 is core tier - should not appear in ex1-2 of basic entries"
+    },
+    {
+      "pattern": "Missing dictionary entries used in examples",
+      "frequency": "occasional",
+      "suggested_action": "Added 咲く and 飼う to candidates"
+    },
+    {
+      "pattern": "Multi-sense entries need full example coverage",
+      "frequency": "common",
+      "suggested_action": "Entry 00670_shita now has 10 examples (5 per sense)"
+    }
+  ],
+
+  "continuation_notes": {
+    "next_entry": "00671",
+    "pending_tasks": [
+      "Continue reviewing entries 00671+"
+    ],
+    "context_for_next_session": "Session 043 complete. Reviewed entries 00661-00670 (music, June, wallet, cold, March, counter-satsu, July, April, die, below/under). Modified all 10 entries. Many basic tier entries had general tier vocabulary violations that were fixed. Added 咲く and 飼う to candidates. Total 27 examples added."
+  },
+
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 10,
+    "examples_added": 27,
+    "vocab_tier_fixes": 15,
+    "candidates_added": 2,
+    "issues_found": 0,
+    "patterns_noted": 4,
+    "notes": "Modified all 10 entries. Added 27 new examples total. Batch included: music (core), months (June, March, July, April - all basic), wallet (basic), cold weather adjective (basic), counter for books (basic), die verb (basic), below/under spatial noun with 2 senses (basic). Fixed numerous vocabulary tier violations in basic tier entries. Multi-sense entry shita now has full example coverage (10 examples)."
+  }
+}

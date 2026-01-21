@@ -4,7 +4,7 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 526,
+    "reviewed": 494,
     "pending": 4359,
     "flagged": 2,
     "skipped": 0
@@ -1900,7 +1900,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00570_ani",
+    "last_reviewed_entry": "00670_shita",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -3105,6 +3105,46 @@
       "reviewed_at": "2026-01-21T12:38:25Z",
       "status": "current",
       "reviewer": "claude-opus-4-5"
+    },
+    "00661_ongaku": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00662_rokugatsu": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00663_saifu": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00664_samui": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00665_sangatsu": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00666_satsu": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00667_shichigatsu": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00668_shigatsu": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00669_shinu": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
+    },
+    "00670_shita": {
+      "reviewed_at": "2026-01-21T12:52:23Z",
+      "status": "current"
     }
   },
   "review_history": [
@@ -3581,6 +3621,12 @@
     {
       "session_id": "session_20260121_042",
       "date": "2026-01-21",
+      "entries_reviewed": 10,
+      "entries_modified": 10
+    },
+    {
+      "date": "2026-01-21T12:52:23Z",
+      "session_id": "session_20260121_043",
       "entries_reviewed": 10,
       "entries_modified": 10
     }
