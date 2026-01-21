@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T09:31:42Z",
+  "last_updated": "2026-01-21T09:45:00Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 2980,
-    "pending": 4549,
+    "reviewed": 2990,
+    "pending": 4539,
     "flagged": 0,
     "skipped": 0
   },
@@ -2260,6 +2260,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Added 12 examples (now 15 total for 3 senses)"
+    },
+    "00501_ashita": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality tag (formal→neutral); added 2 examples"
+    },
+    "00502_de": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tags (furniture/leisure→grammatical); comprehensive particle entry with 6 senses"
+    },
+    "00503_hataraku": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples (now 5 total)"
+    },
+    "00504_kara": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (furniture→grammatical); comprehensive particle entry with 4 senses"
+    },
+    "00505_michi": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 7 examples (now 10 total for 2 senses)"
+    },
+    "00506_atarashii": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tags (leisure/time-general→general); added 7 examples (now 10 total for 2 senses)"
+    },
+    "00507_heya": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples (now 5 total)"
+    },
+    "00508_kaeru": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples (now 5 total)"
+    },
+    "00509_kudamono": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples (now 5 total)"
+    },
+    "00510_mijikai": {
+      "last_reviewed": "2026-01-21T09:45:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 7 examples (now 10 total for 2 senses)"
     }
   },
   "review_history": [
@@ -2665,6 +2725,15 @@
       "range": {
         "start": "00491_nagai",
         "end": "00500_takai"
+      },
+      "count": 10,
+      "modified": 10
+    },
+    {
+      "session_id": "20260121_027",
+      "range": {
+        "start": "00501_ashita",
+        "end": "00510_mijikai"
       },
       "count": 10,
       "modified": 10
