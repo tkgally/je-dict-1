@@ -3226,7 +3226,7 @@ def build_flat(project_root: Path) -> int:
     # This ensures a failed build doesn't leave docs/ in a broken state
     temp_dir = project_root / 'docs_build_temp'
     backup_dir = project_root / 'docs_backup'
-    preserved_dirs = {'flat'}  # Directories to preserve
+    preserved_dirs = {'flat', 'kanji'}  # Directories to preserve
     preserved_files = {'about.html', 'CNAME'}  # Files to preserve (not overwritten by build)
 
     # Clean up any leftover temp/backup dirs from previous failed builds
@@ -3446,9 +3446,28 @@ def build_flat(project_root: Path) -> int:
             subprocess.run([sys.executable, str(kanji_html_script)], check=True, cwd=str(project_root))
             print("  Kanji index pages rebuilt.")
         except subprocess.CalledProcessError as e:
-            print(f"  WARNING: Kanji rebuild failed: {e}")
+            print(f"  ERROR: Kanji rebuild failed: {e}")
+            print("  Build cannot continue without kanji index pages.")
+            return 1
     else:
-        print("  Kanji build scripts not found, skipping kanji index.")
+        print("  ERROR: Kanji build scripts not found!")
+        print("  Build cannot continue without kanji index pages.")
+        return 1
+
+    # Verify kanji HTML files were created
+    kanji_html_dir = original_docs_dir / 'kanji'
+    if not kanji_html_dir.exists():
+        print("  ERROR: docs/kanji/ directory was not created!")
+        return 1
+    kanji_html_count = len(list(kanji_html_dir.glob('*.html')))
+    kanji_list_path = project_root / 'kanji' / 'kanji_list.json'
+    if kanji_list_path.exists():
+        with open(kanji_list_path, 'r', encoding='utf-8') as f:
+            expected_count = len(json.load(f).get('kanji', {}))
+        if kanji_html_count != expected_count:
+            print(f"  ERROR: Expected {expected_count} kanji HTML files but found {kanji_html_count}")
+            return 1
+        print(f"  Verified: {kanji_html_count} kanji HTML files created")
 
     # Summary
     print("\n" + "=" * 50)
