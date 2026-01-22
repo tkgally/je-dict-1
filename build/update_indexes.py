@@ -75,6 +75,23 @@ def main():
             print(f"   ERROR: manage_candidates.py sync failed with exit code {result.returncode}")
             has_errors = True
 
+    # 3. Check for new kanji
+    print("\n3. Checking for new kanji...")
+    update_kanji_script = project_root / 'build' / 'update_kanji_index.py'
+    if not update_kanji_script.exists():
+        print(f"   WARNING: Script not found: {update_kanji_script}")
+    else:
+        result = subprocess.run(
+            [sys.executable, str(update_kanji_script), '--check-new'],
+            capture_output=True,
+            text=True,
+            cwd=str(project_root)
+        )
+        if 'new kanji' in result.stdout.lower() and 'found' in result.stdout.lower():
+            print(result.stdout)
+        else:
+            print("   No new kanji found.")
+
     print("\n" + "=" * 50)
     if has_errors:
         print("Index update completed with ERRORS!")

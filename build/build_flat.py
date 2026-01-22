@@ -3311,6 +3311,21 @@ def build_flat(project_root: Path) -> int:
         else:
             print("\n[CNAME] Verified: GitHub Pages custom domain file intact")
 
+    # Rebuild kanji index HTML pages
+    print("\n[Kanji] Rebuilding kanji index pages...")
+    import subprocess
+    kanji_json_script = project_root / 'build' / 'build_kanji_json.py'
+    kanji_html_script = project_root / 'build' / 'build_kanji_html.py'
+    if kanji_json_script.exists() and kanji_html_script.exists():
+        try:
+            subprocess.run([sys.executable, str(kanji_json_script)], check=True, cwd=str(project_root))
+            subprocess.run([sys.executable, str(kanji_html_script)], check=True, cwd=str(project_root))
+            print("  Kanji index pages rebuilt.")
+        except subprocess.CalledProcessError as e:
+            print(f"  WARNING: Kanji rebuild failed: {e}")
+    else:
+        print("  Kanji build scripts not found, skipping kanji index.")
+
     # Summary
     print("\n" + "=" * 50)
     print("Build complete!")
