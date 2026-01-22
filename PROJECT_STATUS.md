@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,869
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,076 | Unassigned: 0 ✓
-- **Candidate words**: ~585 words tracked in `candidate_words.json`
+- **Total entries**: 7,899
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,106 | Unassigned: 0 ✓
+- **Candidate words**: ~556 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 154)
+Added 30 new dictionary entries from candidate_words.json, covering formal expressions, business terms, physical verbs, and miscellaneous vocabulary:
+
+- **Formal/honorific expressions (5)**: {恐|おそ}れ{入|い}ります (I'm sorry to trouble you), {僭越|せんえつ} (presumptuous), {謹|つつし}んで (respectfully), {仰|おお}せ (instruction - honorific), {御意|ぎょい} (as you wish - archaic)
+- **Business/real estate (4)**: {歩合|ぶあい} (commission), {更地|さらち} (vacant lot), {築年数|ちくねんすう} (building age), {陳列|ちんれつ} (display)
+- **Physical verbs (7)**: {敷|し}き{詰|つ}める (to spread all over), すり{潰|つぶ}す (to grind), {滑|すべ}らす (to slide), よじる (to twist), {摺|す}り{寄|よ}る (to sidle up)
+- **Speech/mockery verbs (4)**: おだてる (to flatter), {嘲|あざけ}る (to mock), ほざく (to babble - vulgar), {嗾|けしか}ける (to incite)
+- **Abstract nouns (5)**: {逐次|ちくじ} (sequentially), {当|あ}たり{障|さわ}り (offense), {粛清|しゅくせい} (purge), {改編|かいへん} (reorganization), {差|さ}し{支|つか}え (hindrance)
+- **Environment/weather (1)**: {日射|にっしゃ} (sunshine/solar radiation)
+- **Food (1)**: {黒酢|くろず} (black vinegar)
+- **Modern/loanwords (3)**: コーデ (outfit coordination), プラットホーム (platform), アンプ (amplifier), シンセサイザー (synthesizer)
+
+Notable entry features:
+- {僭越|せんえつ} and {御意|ぎょい} with detailed notes on formal/historical contexts
+- {嗾|けしか}ける with notes on instigating dogs to attack and figurative usage
+- {摺|す}り{寄|よ}る with two senses: (1) physical sidling up, (2) opportunistic cozying up
+- {憎|にく}まれ{口|ぐち} (sarcastic remarks) with cultural context about indirect criticism
+- プラットホーム with notes distinguishing from プラットフォーム (computing/business platform)
+- 6 new kanji added to kanji index: 僭, 嗾, 嘲, 摺, 謹, 陳
+
+Total entries: 7,869 → 7,899
+Remaining candidates: ~585 → ~556
+New kanji: 2,047 → 2,053
 
 ### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 153)
 Added 30 new dictionary entries from candidate_words.json, covering sound verbs, compound verbs, adjectives, business/logistics terms, food vocabulary, and more:
@@ -371,27 +395,6 @@ Notable features:
 - Sports abbreviations commonly used in Japanese sports broadcasting
 
 Candidate count: 601 → 703
-
-### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 144)
-Added 30 new dictionary entries from candidate_words.json, covering nature/weather vocabulary, phone/technology terms, health/sleep vocabulary, work-related terms, communication patterns, and household activities:
-
-- **Nature/weather (3)**: {夕暮|ゆうぐ}れ (twilight), {木漏|こも}れ{日|び} (dappled sunlight), {霧雨|きりさめ} (drizzle)
-- **Phone/technology (7)**: {着信|ちゃくしん} (incoming call), {留守電|るすでん} (voicemail), マナーモード (silent mode), {電池切|でんちぎ}れ (dead battery), {圏外|けんがい} (out of range), {試着|しちゃく} (trying on clothes), {衝動買|しょうどうが}い (impulse buying)
-- **Health/sleep (4)**: {寝不足|ねぶそく} (lack of sleep), {夜更|よふ}かし (staying up late), {二度寝|にどね} (going back to sleep), {肩凝|かたこ}り (stiff shoulders)
-- **Work terms (6)**: {在宅|ざいたく} (remote work), {定時|ていじ} (regular hours), {直行|ちょっこう} (going directly), {直帰|ちょっき} (going straight home), {配慮|はいりょ} (consideration), {踏|ふ}まえる (to be based on)
-- **Communication (6)**: やり{取|と}り (exchange), {駆|か}け{引|ひ}き (bargaining), {前置|まえお}き (preamble), {忖度|そんたく} (surmising wishes), {婉曲|えんきょく} (euphemistic), {暗示|あんじ} (hint)
-- **Household (4)**: {分別|ぶんべつ} (sorting garbage), {詰|つ}め{替|か}え (refill), {模様替|もようが}え (room rearrangement), {衣替|ころもが}え (seasonal clothing change)
-
-Notable entry features:
-- {木漏|こも}れ{日|び} with cultural notes about this untranslatable Japanese aesthetic concept
-- Modern phone/technology vocabulary essential for daily life in Japan
-- マナーモード with cultural context about phone etiquette on public transport
-- {忖度|そんたく} with notes about its prominence in 2017 political scandals
-- Cross-references between {直行|ちょっこう} ↔ {直帰|ちょっき} work terms
-- {衣替|ころもが}え with explanation of Japan's traditional June 1st/October 1st clothing change dates
-
-Total entries: 7,599 → 7,629
-Remaining candidates: ~631 → ~601
 
 ---
 
