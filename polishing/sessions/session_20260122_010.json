@@ -1,0 +1,156 @@
+{
+  "session_id": "session_20260122_010",
+  "date": "2026-01-22",
+  "start_time": "04:30:00Z",
+  "end_time": "05:00:00Z",
+  "entries_reviewed": [
+    "00811_shinpai",
+    "00812_shukudai",
+    "00813_sobo",
+    "00814_sugu",
+    "00815_tabun",
+    "00816_takushii",
+    "00817_tanoshii",
+    "00818_toire",
+    "00819_tsugi",
+    "00820_tsuyoi"
+  ],
+  "changes_made": [
+    {
+      "entry": "00811_shinpai",
+      "changes": [
+        "Fixed vocab violation: 試験(general)→天気",
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00812_shukudai",
+      "changes": [
+        "Added ex4-ex7 for both senses"
+      ]
+    },
+    {
+      "entry": "00813_sobo",
+      "changes": [
+        "Fixed vocab violation: 料理(general)→元気",
+        "Fixed vocab: 田舎(general)→遠く",
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00814_sugu",
+      "changes": [
+        "Added ex4-ex5 for senses 2 and 3"
+      ]
+    },
+    {
+      "entry": "00815_tabun",
+      "changes": [
+        "Fixed formality: formal→neutral",
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00816_takushii",
+      "changes": [
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00817_tanoshii",
+      "changes": [
+        "Fixed vocab violation ex1: 旅行(core)→今日",
+        "Fixed vocab violation ex2: 過ごす(core)→この本",
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00818_toire",
+      "changes": [
+        "Fixed formality: vulgar→neutral",
+        "Removed style: archaic",
+        "Fixed semantic: animal-mammal/furniture→general",
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00819_tsugi",
+      "changes": [
+        "Fixed vocab violation: 楽しみ(general) removed",
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00820_tsuyoi",
+      "changes": [
+        "Added ex4-ex5 for sense 2"
+      ]
+    }
+  ],
+  "vocabulary_violations_fixed": [
+    {
+      "entry": "00811_shinpai",
+      "violation": "試験 (general)",
+      "replacement": "天気 (basic)"
+    },
+    {
+      "entry": "00813_sobo",
+      "violation": "料理 (general)",
+      "replacement": "元気 (basic)"
+    },
+    {
+      "entry": "00813_sobo",
+      "violation": "田舎 (general)",
+      "replacement": "遠く (basic)"
+    },
+    {
+      "entry": "00817_tanoshii",
+      "violation": "旅行 (core)",
+      "replacement": "今日 (basic)"
+    },
+    {
+      "entry": "00817_tanoshii",
+      "violation": "過ごす (core)",
+      "replacement": "この本 (basic)"
+    },
+    {
+      "entry": "00819_tsugi",
+      "violation": "楽しみ (general)",
+      "replacement": "removed/rewrote ex3"
+    }
+  ],
+  "tag_fixes": [
+    {
+      "entry": "00815_tabun",
+      "field": "formality",
+      "old": "formal",
+      "new": "neutral"
+    },
+    {
+      "entry": "00818_toire",
+      "field": "formality",
+      "old": "vulgar",
+      "new": "neutral"
+    },
+    {
+      "entry": "00818_toire",
+      "field": "style",
+      "old": [
+        "archaic"
+      ],
+      "new": null
+    },
+    {
+      "entry": "00818_toire",
+      "field": "semantic",
+      "old": [
+        "animal-mammal",
+        "furniture"
+      ],
+      "new": [
+        "general"
+      ]
+    }
+  ],
+  "notes": "Batch 6 of polishing session. All 10 entries modified. 6 vocabulary violations fixed, 4 tag fixes. Major tag correction on 00818_toire."
+}
