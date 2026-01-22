@@ -1,0 +1,105 @@
+{
+  "session_id": "session_20260122_018",
+  "date": "2026-01-22",
+  "start_time": "07:00:00Z",
+  "end_time": "07:30:00Z",
+  "entries_reviewed": [
+    "00891_supuun",
+    "00892_suteru",
+    "00893_tadashii",
+    "00894_tashika",
+    "00895_tasukeru",
+    "00896_teinei",
+    "00897_tenin",
+    "00898_tetsudau",
+    "00899_todoku",
+    "00900_toutou"
+  ],
+  "changes_made": [
+    {
+      "entry": "00891_supuun",
+      "changes": []
+    },
+    {
+      "entry": "00892_suteru",
+      "changes": [
+        "Added ex4-ex5",
+        "Fixed semantic tag: body-part → action"
+      ]
+    },
+    {
+      "entry": "00893_tadashii",
+      "changes": [
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00894_tashika",
+      "changes": [
+        "Expanded examples from 3 to 10 (5 per sense)"
+      ]
+    },
+    {
+      "entry": "00895_tasukeru",
+      "changes": [
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00896_teinei",
+      "changes": [
+        "Expanded examples from 3 to 10 (5 per sense)"
+      ]
+    },
+    {
+      "entry": "00897_tenin",
+      "changes": [
+        "Fixed vocab violation: 親切 (core) in ex2 → 優しい (basic)",
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00898_tetsudau",
+      "changes": [
+        "Fixed vocab violation: 料理 (general) in ex1 → 宿題 (basic)",
+        "Fixed politeness tag: humble → plain",
+        "Added ex4-ex5"
+      ]
+    },
+    {
+      "entry": "00899_todoku",
+      "changes": [
+        "Expanded examples from 3 to 10 (5 per sense)"
+      ]
+    },
+    {
+      "entry": "00900_toutou",
+      "changes": [
+        "Added ex4-ex5"
+      ]
+    }
+  ],
+  "vocabulary_violations_fixed": [
+    {
+      "entry": "00897_tenin",
+      "violation": "親切 (core) in basic tier ex2",
+      "fix": "Changed to 優しい (basic)"
+    },
+    {
+      "entry": "00898_tetsudau",
+      "violation": "料理 (general) in basic tier ex1",
+      "fix": "Changed to 宿題 (basic)"
+    }
+  ],
+  "tag_fixes": [
+    {
+      "entry": "00892_suteru",
+      "fix": "semantic tag body-part → action"
+    },
+    {
+      "entry": "00898_tetsudau",
+      "fix": "politeness tag humble → plain"
+    }
+  ],
+  "notes": "Batch 18 of polishing session. 9 entries modified out of 10 reviewed. 2 vocabulary violations fixed. 2 tag fixes. 3 multi-sense entries (00894, 00896, 00899) expanded to 5 examples per sense. Entry 00891_supuun already met requirements (general tier with 3 examples)."
+}

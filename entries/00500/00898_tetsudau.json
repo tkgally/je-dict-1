@@ -14,8 +14,8 @@
   "examples": [
     {
       "id": "00898_tetsudau_ex1",
-      "japanese": "{料理|りょうり}を{手伝|てつだ}いましょうか。",
-      "english": "Shall I help with the cooking?",
+      "japanese": "{宿題|しゅくだい}を{手伝|てつだ}おうか。",
+      "english": "Shall I help with the homework?",
       "notes": "Offering help",
       "has_audio": false,
       "sense_numbers": [
@@ -41,6 +41,26 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "00898_tetsudau_ex4",
+      "japanese": "{父|ちち}の{買|か}い{物|もの}を{手伝|てつだ}って、{重|おも}い{荷物|にもつ}を{持|も}ちました。",
+      "english": "I helped my father with shopping and carried heavy bags.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00898_tetsudau_ex5",
+      "japanese": "{友達|ともだち}が{引|ひ}っ{越|こ}しをする{時|とき}、{手伝|てつだ}いに{行|い}く{約束|やくそく}をしました。",
+      "english": "I promised to go help when my friend moves.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{手伝|てつだ}う (help with X).\n\nASPECT: ている indicates ongoing action. {手伝|てつだ}っている = 'is helping.'\n\nCOMMON PATTERNS:\n・{仕事|しごと}を{手伝|てつだ}う (help with work)\n・{料理|りょうり}を{手伝|てつだ}う (help with cooking)\n・{手伝|てつだ}ってくれる (help me - receiving)\n・お{手伝|てつだ}いする (help - humble)\n\nFor everyday assistance. Different from {助|たす}ける (rescue/serious help). Noun: お{手伝|てつだ}い (help/helper).",
@@ -54,14 +74,14 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:39:30Z",
-    "modified": "2026-01-19T12:17:40.492487Z",
+    "modified": "2026-01-22T07:03:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "verb-godan"
       ],
-      "politeness": "humble",
+      "politeness": "plain",
       "formality": "neutral",
       "semantic": [
         "action"
