@@ -4,10 +4,11 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 775,
+    "reviewed": 785,
     "pending": 6704,
     "flagged": 2,
-    "skipped": 0
+    "skipped": 0,
+    "current_batch_start": "00921"
   },
   "entries": {
     "00001_amaru": {
@@ -1900,7 +1901,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00910_yukkuri",
+    "last_reviewed_entry": "00920_atode",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -4585,6 +4586,56 @@
       "review_count": 1,
       "status": "current",
       "notes": "Multi-sense entry: expanded to 10 examples (5 per sense)"
+    },
+    "00911_zehi": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00912_zutto": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00913_achira": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00914_aida": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00915_ano": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00916_are": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00917_arigatou": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00918_ashikubi": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00919_asoko": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00920_atode": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
     }
   },
   "review_history": [
@@ -5164,6 +5215,23 @@
       "entries_modified": 4,
       "range": "00741-00744",
       "notes": "Partial batch due to context limits. Entries 00745-00750 still need review."
+    },
+    {
+      "session_id": "session_20260122_020",
+      "date": "2026-01-22",
+      "entries_reviewed": [
+        "00911_zehi",
+        "00912_zutto",
+        "00913_achira",
+        "00914_aida",
+        "00915_ano",
+        "00916_are",
+        "00917_arigatou",
+        "00918_ashikubi",
+        "00919_asoko",
+        "00920_atode"
+      ],
+      "batch_number": 20
     }
   ]
 }
