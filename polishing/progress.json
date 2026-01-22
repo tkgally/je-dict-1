@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-22T14:37:51Z",
+  "last_updated": "2026-01-22T14:58:19Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 895,
-    "pending": 6584,
+    "reviewed": 905,
+    "pending": 6574,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "00751",
-    "total_reviewed": 896,
-    "last_updated": "2026-01-22T14:37:51Z"
+    "current_batch_start": "00761",
+    "total_reviewed": 906,
+    "last_updated": "2026-01-22T14:58:19Z"
   },
   "entries": {
     "00001_amaru": {
@@ -1903,7 +1903,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00710_kaigi",
+    "last_reviewed_entry": "00760_toru",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -3692,64 +3692,64 @@
       "notes": "Replaced ex4 (23 chars) and ex5 (49 chars)"
     },
     "00751_sengetsu": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Basic tier noun (last month). Fixed ex2-ex3 vocab, added ex4-ex5, fixed semantic tag. 5 examples."
+      "notes": "Replaced ex4/ex5 with longer examples for better length progression"
     },
     "00752_senshuu": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Basic tier noun (last week). Fixed ex2 vocab (会議→友達), fixed ex5 vocab, added ex4-ex5, fixed semantic tag. 5 examples."
+      "notes": "Replaced ex4/ex5 with longer examples for better length progression"
     },
     "00753_shashin": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Basic tier noun (photograph). Added ex4-ex5. 5 examples."
+      "notes": "Replaced ex4/ex5 with longer examples for better length progression"
     },
     "00754_shimaru": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Core tier verb (to close). Added ex4-ex5. 5 examples."
+      "notes": "Replaced ex4/ex5 with longer examples (core tier)"
     },
     "00755_shizuka": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Basic tier 2-sense adjective (quiet/calm). Added ex4-ex5. 5 examples."
+      "notes": "Added 5 examples (10 total) to meet 5-per-sense requirement for 2-sense basic entry"
     },
     "00756_suku": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Core tier 2-sense verb (to become empty/to become hungry). Added ex4-ex5. 5 examples."
+      "notes": "Restructured and added examples (10 total) to meet 5-per-sense requirement for 2-sense core entry"
     },
     "00757_suwaru": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Basic tier verb (to sit). Fixed ex3 vocab (床→電車), added ex4-ex5. 5 examples."
+      "notes": "Replaced ex4/ex5 with longer examples for better length progression"
     },
     "00758_tatsu": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Basic tier 2-sense verb (to stand/to be built). Fixed ex3 vocab (建物→家), added ex4-ex5. 5 examples."
+      "notes": "Added 5 examples (10 total) to meet 5-per-sense requirement for 2-sense basic entry"
     },
     "00759_tobu": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Basic tier 2-sense verb (to fly/to jump). Added ex4-ex5. 5 examples."
+      "notes": "Restructured and added examples (10 total) to meet 5-per-sense requirement for 2-sense basic entry"
     },
     "00760_toru": {
-      "last_reviewed": "2026-01-22T02:31:38Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Basic tier verb (to take photo). Fixed ex3 vocab (ビデオ→写真), added ex4-ex5. 5 examples."
+      "notes": "Replaced ex4/ex5 with longer examples for better length progression"
     },
     "00761_tsukeru": {
       "last_reviewed": "2026-01-22T03:10:00Z",
@@ -5848,6 +5848,13 @@
       "entries_reviewed": 10,
       "entries_modified": 7,
       "reviewer": "claude-opus-4-5"
+    },
+    {
+      "date": "2026-01-22T14:58:19Z",
+      "entries_reviewed": 10,
+      "entries_modified": 10,
+      "range": "00751-00760",
+      "notes": "Batch 1: Fixed length progression and added examples for multi-sense entries"
     }
   ]
 }
