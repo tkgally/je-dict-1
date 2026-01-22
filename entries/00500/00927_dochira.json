@@ -24,9 +24,9 @@
   "examples": [
     {
       "id": "00927_dochira_ex1",
-      "japanese": "{紅茶|こうちゃ}と{コーヒー|こーひー}、どちらがいいですか。",
-      "english": "Which would you prefer, tea or coffee?",
-      "notes": "Choice between two",
+      "japanese": "どちらがいいですか。",
+      "english": "Which one would you like?",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -34,8 +34,48 @@
     },
     {
       "id": "00927_dochira_ex2",
-      "japanese": "どちらからいらっしゃいましたか。",
-      "english": "Where are you from?",
+      "japanese": "{赤|あか}と{青|あお}、どちらにしますか。",
+      "english": "Red or blue, which will you choose?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00927_dochira_ex3",
+      "japanese": "{紅茶|こうちゃ}とコーヒー、どちらがお{好|す}きですか。",
+      "english": "Which do you prefer, tea or coffee?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00927_dochira_ex4",
+      "japanese": "この{二|ふた}つの{中|なか}から、どちらか{一|ひと}つを{選|えら}んでください。",
+      "english": "Please choose one from these two.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00927_dochira_ex5",
+      "japanese": "{電車|でんしゃ}とバス、どちらが{早|はや}く{着|つ}きますか。{会議|かいぎ}に{遅|おく}れたくないんです。",
+      "english": "Which arrives faster, train or bus? I don't want to be late for the meeting.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00927_dochira_ex6",
+      "japanese": "どちらへ{行|い}かれますか。",
+      "english": "Where are you going?",
       "notes": "Polite 'where' meaning",
       "has_audio": false,
       "sense_numbers": [
@@ -43,10 +83,90 @@
       ]
     },
     {
-      "id": "00927_dochira_ex3",
-      "japanese": "{失礼|しつれい}ですが、どちら{様|さま}ですか。",
-      "english": "Excuse me, but who are you? / May I ask who you are?",
+      "id": "00927_dochira_ex7",
+      "japanese": "どちらからいらっしゃいましたか。",
+      "english": "Where are you from?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00927_dochira_ex8",
+      "japanese": "どちらにお{住|す}まいですか。",
+      "english": "Where do you live?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00927_dochira_ex9",
+      "japanese": "お{客様|きゃくさま}はどちらのご{出身|しゅっしん}ですか。",
+      "english": "Where are you from, sir/madam?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00927_dochira_ex10",
+      "japanese": "どちらの{方面|ほうめん}にお{出|で}かけですか。お{車|くるま}でお{送|おく}りしましょうか。",
+      "english": "Which direction are you heading? Shall I give you a ride?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00927_dochira_ex11",
+      "japanese": "どちら{様|さま}ですか。",
+      "english": "Who is it? / May I ask who's calling?",
       "notes": "Very polite 'who' meaning",
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00927_dochira_ex12",
+      "japanese": "{失礼|しつれい}ですが、どちら{様|さま}でしょうか。",
+      "english": "Excuse me, but may I ask who you are?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00927_dochira_ex13",
+      "japanese": "どちらにお{勤|つと}めですか。",
+      "english": "Where do you work?",
+      "notes": "Asking about affiliation",
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00927_dochira_ex14",
+      "japanese": "どちらの{会社|かいしゃ}の{方|かた}ですか。",
+      "english": "Which company are you from?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00927_dochira_ex15",
+      "japanese": "{恐|おそ}れ{入|い}りますが、どちら{様|さま}でしょうか。お{名前|なまえ}をお{聞|き}かせいただけますか。",
+      "english": "I'm sorry, but may I ask who you are? Could you tell me your name?",
+      "notes": "Very formal inquiry",
       "has_audio": false,
       "sense_numbers": [
         3
@@ -57,7 +177,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:03:43Z",
-    "modified": "2026-01-19T11:37:00.617776Z",
+    "modified": "2026-01-22T07:23:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

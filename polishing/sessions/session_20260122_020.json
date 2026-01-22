@@ -1,0 +1,131 @@
+{
+  "session_id": "session_20260122_020",
+  "date": "2026-01-22",
+  "start_time": "07:23:00Z",
+  "end_time": "08:15:00Z",
+  "entries_reviewed": [
+    "00911_zehi",
+    "00912_zutto",
+    "00913_achira",
+    "00914_aida",
+    "00915_ano",
+    "00916_are",
+    "00917_arigatou",
+    "00918_ashikubi",
+    "00919_asoko",
+    "00920_atode"
+  ],
+  "changes_made": [
+    {
+      "entry": "00911_zehi",
+      "changes": [
+        "Added ex4-ex5 (core tier, now has 5 examples)"
+      ]
+    },
+    {
+      "entry": "00912_zutto",
+      "changes": [
+        "Expanded from 3 to 10 examples (5 per sense)",
+        "Fixed ex2 vocabulary violation: replaced 日本 (core) with 元気 (basic)"
+      ]
+    },
+    {
+      "entry": "00913_achira",
+      "changes": [
+        "Expanded from 3 to 10 examples (5 per sense)",
+        "Fixed ex1 vocabulary violation: replaced 手洗い (unlisted) with トイレ (basic)"
+      ]
+    },
+    {
+      "entry": "00914_aida",
+      "changes": [
+        "Expanded from 3 to 15 examples (5 per sense, 3 senses)",
+        "Fixed ex1-ex2 vocabulary violations: removed 本棚 (core), 夏休み (general), 旅行 (core)"
+      ]
+    },
+    {
+      "entry": "00915_ano",
+      "changes": [
+        "Expanded from 3 to 10 examples (5 per sense)",
+        "Fixed ex2 vocabulary violation: removed 有名 (core), 歌手 (core)"
+      ]
+    },
+    {
+      "entry": "00916_are",
+      "changes": [
+        "Added ex4-ex5 (now has 5 examples)"
+      ]
+    },
+    {
+      "entry": "00917_arigatou",
+      "changes": [
+        "Added ex4-ex5 (now has 5 examples)",
+        "Fixed formality tag: formal → informal",
+        "Fixed politeness tag: polite → plain"
+      ]
+    },
+    {
+      "entry": "00918_ashikubi",
+      "changes": [
+        "Added ex4-ex5 (core tier, now has 5 examples)"
+      ]
+    },
+    {
+      "entry": "00919_asoko",
+      "changes": [
+        "Added ex4-ex5 (now has 5 examples)",
+        "Fixed ex1 vocabulary violation: removed 建物 (general)",
+        "Fixed formality tag: formal → neutral"
+      ]
+    },
+    {
+      "entry": "00920_atode",
+      "changes": [
+        "Expanded from 3 to 10 examples (5 per sense)",
+        "Fixed ex1 vocabulary violation: replaced 散歩 (core) with 話す (basic)"
+      ]
+    }
+  ],
+  "vocabulary_violations_fixed": [
+    {
+      "entry": "00912_zutto",
+      "fix": "ex2: 日本 (core) → 元気 (basic)"
+    },
+    {
+      "entry": "00913_achira",
+      "fix": "ex1: 手洗い (unlisted) → トイレ (basic)"
+    },
+    {
+      "entry": "00914_aida",
+      "fix": "ex1-ex2: removed 本棚, 夏休み, 旅行"
+    },
+    {
+      "entry": "00915_ano",
+      "fix": "ex2: removed 有名, 歌手 (both core)"
+    },
+    {
+      "entry": "00919_asoko",
+      "fix": "ex1: removed 建物 (general)"
+    },
+    {
+      "entry": "00920_atode",
+      "fix": "ex1: 散歩 (core) → 話す (basic)"
+    }
+  ],
+  "tag_fixes": [
+    {
+      "entry": "00917_arigatou",
+      "fix": "formality: formal → informal; politeness: polite → plain (ありがとう is casual)"
+    },
+    {
+      "entry": "00919_asoko",
+      "fix": "formality: formal → neutral (あそこ is neutral, あちら is formal)"
+    }
+  ],
+  "notes": "Batch 20 of polishing session. All 10 entries modified. Many basic-tier entries had vocabulary tier violations in examples 1-2 (using core or general tier words). 2 tag fixes for incorrect formality/politeness values. Multi-sense entries (00912, 00913, 00914, 00915, 00920) expanded to 5 examples per sense.",
+  "continuation_notes": {
+    "next_entry": "00921",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue sequential polishing. Watch for vocabulary tier violations in basic-tier entries - many early entries have this issue."
+  }
+}
