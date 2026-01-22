@@ -19,8 +19,8 @@
   "examples": [
     {
       "id": "01001_temae_ex1",
-      "japanese": "{手前|てまえ}のドアから{入|はい}ってください。",
-      "english": "Please enter through the door on this side.",
+      "japanese": "{手前|てまえ}にある。",
+      "english": "It's on this side.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -29,12 +29,12 @@
     },
     {
       "id": "01001_temae_ex2",
-      "japanese": "{駅|えき}の{手前|てまえ}で{曲|ま}がってください。",
-      "english": "Please turn just before the station.",
+      "japanese": "{手前|てまえ}のドアから{入|はい}ってください。",
+      "english": "Please enter through the door on this side.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        2
+        1
       ]
     },
     {
@@ -46,26 +46,53 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "01001_temae_ex4",
+      "japanese": "{駅|えき}の{手前|てまえ}で{曲|ま}がる。",
+      "english": "Turn just before the station.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01001_temae_ex5",
+      "japanese": "{目的地|もくてきち}の{手前|てまえ}で{車|くるま}を{止|と}めた。",
+      "english": "I stopped the car just before the destination.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01001_temae_ex6",
+      "japanese": "{交差点|こうさてん}の{手前|てまえ}にコンビニがあるので、そこを{右|みぎ}に{曲|ま}がってください。",
+      "english": "There's a convenience store just before the intersection, so turn right there.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{手前|てまえ} is the opposite of {奥|おく} (back/interior). It indicates the side closer to the speaker. When giving directions, [place]の{手前|てまえ} means 'just before [place].' The word can also be used as a humble form of 'I' in very formal situations, but this usage is quite old-fashioned.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:27:21Z",
-    "modified": "2026-01-19T12:17:40.545978Z",
+    "modified": "2026-01-22T21:16:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
-      "politeness": "humble",
-      "style": [
-        "archaic"
-      ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
-        "general"
+        "direction"
       ]
     }
   }
