@@ -7,6 +7,26 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 142)
+Added 30 new dictionary entries from candidate_words.json, covering a variety of vocabulary types including verbs, adjectives, adverbs, and nouns:
+
+- **Verbs (11)**: ほっとする (to feel relieved), {掻|か}き{立|た}てる (to stir up), {賜|たまわ}る (to receive - honorific), {綻|ほころ}びる (to come apart), {蔓延|はびこ}る (to spread/be rampant), {使|つか}い{分|わ}ける (to use selectively), {使|つか}い{果|は}たす (to use up), さまよう (to wander), たくらむ (to scheme), きらめく (to sparkle), {訪|おとず}れる (to visit)
+- **I-adjectives (4)**: そっけない (curt), みすぼらしい (shabby), たどたどしい (halting), すさまじい (tremendous)
+- **Na-adjectives (2)**: {冗長|じょうちょう} (redundant), {大|おお}まか (rough/approximate)
+- **Adverbs (2)**: {別々|べつべつ}に (separately), ちょくちょく (often)
+- **Nouns (11)**: {汎用|はんよう} (general-purpose), {互換性|ごかんせい} (compatibility), {再編|さいへん} (restructuring), {瓦解|がかい} (collapse), {使|つか}い{捨|す}て (disposable), {相場|そうば} (market price), {氷点下|ひょうてんか} (below freezing), {暴風雨|ぼうふうう} (storm), {検診|けんしん} (medical checkup), {土砂降|どしゃぶ}り (downpour), {暗証番号|あんしょうばんごう} (PIN number)
+
+Notable entry features:
+- Honorific verb {賜|たまわ}る with formal/humble usage notes
+- Negative-connotation verbs: {蔓延|はびこ}る (for spreading of undesirable things), たくらむ (scheming)
+- Technical computing terms: {汎用|はんよう}, {互換性|ごかんせい}, {冗長|じょうちょう} (with redundancy in IT context)
+- Weather vocabulary: {氷点下|ひょうてんか}, {暴風雨|ぼうふうう}, {土砂降|どしゃぶ}り
+- つかい~ compound verbs: {使|つか}い{捨|す}て, {使|つか}い{分|わ}ける, {使|つか}い{果|は}たす
+- Adjectives describing manner/appearance: そっけない, みすぼらしい, たどたどしい, すさまじい
+
+Total entries: 7,569 → 7,599
+Remaining candidates: ~558 → ~529
+
 ### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 141)
 Added 30 new dictionary entries from candidate_words.json, covering psychological/emotional vocabulary, information/revelation terms, social actions, character traits, legal/business terminology, -化 transformation words, and comparison verbs:
 
