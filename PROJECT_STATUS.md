@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-21
+**Last updated**: 2026-01-22
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,809
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,016 | Unassigned: 0 ✓
-- **Candidate words**: ~640 words tracked in `candidate_words.json`
+- **Total entries**: 7,839
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,046 | Unassigned: 0 ✓
+- **Candidate words**: ~610 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -47,7 +47,7 @@
 The dictionary uses a three-tier vocabulary classification system (see vocabulary-tiers skill):
 - **Basic**: 795 entries (target: 600-800) - fundamental words for basic communication
 - **Core**: 1,998 entries (target: 1,600-2,000) - words for adult-level communication
-- **General**: 4,866+ entries (no limit) - all other vocabulary useful for learners
+- **General**: 5,046+ entries (no limit) - all other vocabulary useful for learners
 
 **Tier realignment completed 2026-01-19.** All entries have tier assignments meeting target ranges. The basic and core tiers are curated to ensure semantic group integrity.
 
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 152)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, sports terms, culinary vocabulary, and daily life expressions:
+
+- **Compound verbs (8)**: {立|た}ち{上|あ}げる (to launch), {染|し}み{込|こ}む (to soak in), {打|う}ち{解|と}ける (to open up), {盛|も}り{上|あ}げる (to liven up), {和|やわ}らぐ (to soften - intrans.), {和|やわ}らげる (to mitigate - trans.), {積|つ}み{上|あ}げる (to pile up), {成|な}り{立|た}つ (to consist of)
+- **Adjectives (3)**: {儚|はかな}い (fleeting), {頼|たの}もしい (reliable), {清々|すがすが}しい (refreshing)
+- **Sports competition terms (4)**: {奮闘|ふんとう} (hard struggle), {善戦|ぜんせん} (good fight), {圧勝|あっしょう} (overwhelming victory), {惜敗|せきはい} (narrow defeat)
+- **Culinary/taste terms (3)**: {濃厚|のうこう} (rich/thick), {淡泊|たんぱく} (light/plain), {舌触|したざわ}り (texture/mouthfeel)
+- **Safety/emergency (2)**: {防災|ぼうさい} (disaster prevention), {避難|ひなん} (evacuation)
+- **Daily life/work (10)**: {雑用|ざつよう} (odd jobs), {身支度|みじたく} (getting ready), {後始末|あとしまつ} (cleaning up), {苛立|いらだ}つ (to be irritated), {爽快|そうかい} (refreshing), {滑稽|こっけい} (comical), {緻密|ちみつ} (meticulous), {仕掛|しか}け (mechanism), {仕分|しわ}け (sorting), {嵩張|かさば}る (to be bulky)
+
+Notable entry features:
+- Transitivity pair with cross-references: {和|やわ}らぐ (intransitive) ↔ {和|やわ}らげる (transitive)
+- Antonym pair with cross-references: {濃厚|のうこう} (rich) ↔ {淡泊|たんぱく} (light)
+- {濃厚|のうこう} with two senses: (1) rich taste/texture, (2) strong probability; includes COVID-19 term {濃厚接触者|のうこうせっしょくしゃ}
+- {染|し}み{込|こ}む with cooking usage notes (common in recipes for flavors soaking in)
+- {成|な}り{立|た}つ with two senses: (1) to consist of, (2) to be viable/sustainable
+- {儚|はかな}い with literary and cultural notes about Japanese aesthetic concept of transience
+
+Total entries: 7,809 → 7,839
+Remaining candidates: ~640 → ~610
 
 ### 2026-01-21 (New Candidates - 100 Words Added)
 Added 100 new candidate words to `candidate_words.json` using diverse search strategies across multiple domains:
@@ -401,26 +422,6 @@ Notable features:
 - Garbage sorting terms (important for daily life in Japan)
 
 Candidate count: 529 → 631
-
-### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 142)
-Added 30 new dictionary entries from candidate_words.json, covering a variety of vocabulary types including verbs, adjectives, adverbs, and nouns:
-
-- **Verbs (11)**: ほっとする (to feel relieved), {掻|か}き{立|た}てる (to stir up), {賜|たまわ}る (to receive - honorific), {綻|ほころ}びる (to come apart), {蔓延|はびこ}る (to spread/be rampant), {使|つか}い{分|わ}ける (to use selectively), {使|つか}い{果|は}たす (to use up), さまよう (to wander), たくらむ (to scheme), きらめく (to sparkle), {訪|おとず}れる (to visit)
-- **I-adjectives (4)**: そっけない (curt), みすぼらしい (shabby), たどたどしい (halting), すさまじい (tremendous)
-- **Na-adjectives (2)**: {冗長|じょうちょう} (redundant), {大|おお}まか (rough/approximate)
-- **Adverbs (2)**: {別々|べつべつ}に (separately), ちょくちょく (often)
-- **Nouns (11)**: {汎用|はんよう} (general-purpose), {互換性|ごかんせい} (compatibility), {再編|さいへん} (restructuring), {瓦解|がかい} (collapse), {使|つか}い{捨|す}て (disposable), {相場|そうば} (market price), {氷点下|ひょうてんか} (below freezing), {暴風雨|ぼうふうう} (storm), {検診|けんしん} (medical checkup), {土砂降|どしゃぶ}り (downpour), {暗証番号|あんしょうばんごう} (PIN number)
-
-Notable entry features:
-- Honorific verb {賜|たまわ}る with formal/humble usage notes
-- Negative-connotation verbs: {蔓延|はびこ}る (for spreading of undesirable things), たくらむ (scheming)
-- Technical computing terms: {汎用|はんよう}, {互換性|ごかんせい}, {冗長|じょうちょう} (with redundancy in IT context)
-- Weather vocabulary: {氷点下|ひょうてんか}, {暴風雨|ぼうふうう}, {土砂降|どしゃぶ}り
-- つかい~ compound verbs: {使|つか}い{捨|す}て, {使|つか}い{分|わ}ける, {使|つか}い{果|は}たす
-- Adjectives describing manner/appearance: そっけない, みすぼらしい, たどたどしい, すさまじい
-
-Total entries: 7,569 → 7,599
-Remaining candidates: ~558 → ~529
 
 ---
 
