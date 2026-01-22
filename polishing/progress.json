@@ -4,13 +4,13 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 1025,
-    "pending": 6454,
+    "reviewed": 1045,
+    "pending": 6434,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01091",
-    "total_reviewed": 1026,
-    "last_updated": "2026-01-22T23:00:00Z"
+    "current_batch_start": "01111",
+    "total_reviewed": 1046,
+    "last_updated": "2026-01-22T23:28:15Z"
   },
   "entries": {
     "00001_amaru": {
@@ -1903,7 +1903,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00780_hyaku",
+    "last_reviewed_entry": "01120_tokubetsu",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -5800,6 +5800,106 @@
       ],
       "issues_found": [],
       "reviewer_notes": "Batch 38 review"
+    },
+    "01101_nakunaru": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01102_riyuu": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01103_shorui": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01104_tanomu": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01105_wakasu": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01106_yuumei": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01107_hoshii": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01108_itai": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01109_machigaeru": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01110_nakusu": {
+      "reviewed": "2026-01-22T23:21:41Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01111_shinjiru": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01112_tsurai": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01113_wakareru": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01114_you": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01115_fukuzatsu": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01116_katai": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01117_modoru": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01118_nai": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01119_subarashii": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
+    },
+    "01120_tokubetsu": {
+      "reviewed": "2026-01-22T23:28:15Z",
+      "status": "current",
+      "changes_made": true
     }
   },
   "review_history": [
@@ -6590,6 +6690,20 @@
       "entries_modified": 8,
       "range": "01091-01100",
       "notes": "Batch 38: Basic tier entries (oku, hidoi, ireru, kotaeru) and core tier entries (rippa, wake, yawarakai) expanded to 5 examples. Fixed formality tags (oku: informal->neutral, wake: formal->neutral). Fixed semantic tag (shucchou: action->work). 2 general tier entries (naraberu, mensetsu) already compliant."
+    },
+    {
+      "date": "2026-01-22T23:21:41Z",
+      "entries_reviewed": 10,
+      "entries_modified": 9,
+      "range": "01101-01110",
+      "notes": "Batch 39: Core tier entries (nakunaru, shorui, tanomu, yuumei, machigaeru, nakusu) expanded to 5 examples. Basic tier entries (hoshii, itai) expanded to 5 examples. Fixed vocabulary violation in hoshii (パソコン is general tier, replaced with basic vocab). Fixed tags: riyuu (removed incorrect 'technical' domain, formality neutral, semantic 'communication'), shorui (semantic 'work'), tanomu (formality 'informal'->'neutral'). General tier entry wakasu already compliant."
+    },
+    {
+      "date": "2026-01-22T23:28:15Z",
+      "entries_reviewed": 10,
+      "entries_modified": 8,
+      "range": "01111-01120",
+      "notes": "Batch 40: Core tier entries (shinjiru, fukuzatsu, katai, modoru, subarashii, tokubetsu) expanded to 5 examples. Core tier entry tsurai expanded with fixed semantic tag (removed body-part). Basic tier entry (nai) expanded to 5 examples. Fixed semantic: modoru action->movement. 2 general tier entries (wakareru, you) already compliant."
     }
   ]
 }
