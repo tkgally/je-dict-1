@@ -17,6 +17,7 @@ Dictionary features include:
 - **Natural example sentences** optimized for learning
 - **Usage notes** covering grammar, register, and common patterns
 - **Furigana support** with toggle to show/hide readings above kanji
+- **Kanji index** linking each kanji in headwords to all other entries containing that kanji
 - **Multiple interface modes**: Search, Browse, Recent, and Random views
 - **Cross-reference linking** connecting related words, antonyms, and transitivity pairs
 - **Transitivity and aspect information** for verbs
@@ -68,13 +69,17 @@ docs/
 ├── browse.html          # Browse by kana row
 ├── recent.html          # Recently modified entries
 ├── random.html          # Random word cloud
-└── entries/
-    ├── 00000/           # Entries 00000-00499
-    │   ├── 00396_taberu.html
-    │   └── 00499_sakana.html
-    ├── 00500/           # Entries 00500-00999
-    ├── 01000/           # Entries 01000-01499
-    └── ...
+├── entries/
+│   ├── 00000/           # Entries 00000-00499
+│   │   ├── 00396_taberu.html
+│   │   └── 00499_sakana.html
+│   ├── 00500/           # Entries 00500-00999
+│   ├── 01000/           # Entries 01000-01499
+│   └── ...
+└── kanji/               # Kanji index pages
+    ├── 00001_teki_mato_target.html
+    ├── 00009_jin_hito_person.html
+    └── ...              # One page per kanji
 ```
 
 This numeric range structure allows the dictionary to scale to 10,000+ entries while staying within GitHub's 1,000 files per directory limit.
@@ -123,6 +128,39 @@ Examples:
 - When enabled, readings appear above kanji using HTML `<ruby>` tags
 - Preference is saved in localStorage
 
+## Kanji Index
+
+The kanji index allows users to find all dictionary entries containing a specific kanji character.
+
+### How It Works
+
+1. **On entry pages**: Each kanji in the headword is a clickable link
+2. **Hover tooltip**: Shows "Other words with this kanji" when hovering over a kanji
+3. **Kanji page**: Clicking displays a page with the kanji and all entries containing it
+4. **Entry list**: Sorted by hiragana reading order
+
+### Kanji ID Format
+
+Each kanji is identified by a unique ID:
+```
+{5-digit number}_{onyomi}_{kunyomi}_{gloss}
+```
+
+Examples:
+- `00009_jin_hito_person` (人)
+- `00116_kou_taka_tall` (高)
+- `00431_yo_ama_surplus` (余)
+
+The ID uses `none` when a kanji lacks on'yomi or kun'yomi.
+
+### Technical Details
+
+- **2,040 kanji** indexed from dictionary headwords
+- **kanji_list.json**: Master mapping of kanji characters to IDs
+- **Individual JSON files**: Entry lists for each kanji in `kanji/`
+- **HTML pages**: Generated in `docs/kanji/` during site build
+- **Automatic updates**: New kanji are detected and indexed when entries are added
+
 ## Project Structure
 
 ```
@@ -132,6 +170,9 @@ je-dict-1/
 │   ├── 00500/            # Entries 00500-00999
 │   ├── 01000/            # Entries 01000-01499
 │   └── ...               # (500 entries per directory)
+├── kanji/                # Kanji index data
+│   ├── kanji_list.json   # Master list mapping kanji to IDs
+│   └── {kanji_id}.json   # Entry lists for each kanji
 ├── build/                # Build and management scripts
 │   ├── schema.json       # JSON schema for entries
 │   ├── validate.py       # Entry validation (schema, cross-refs)
@@ -152,11 +193,16 @@ je-dict-1/
 │   ├── extract_references.py     # Extracts cross-refs from notes
 │   ├── tag_taxonomy.json         # Tag hierarchy definitions
 │   ├── tag_statistics.py         # Tag usage statistics
+│   ├── build_kanji_json.py       # Builds kanji entry list JSON files
+│   ├── build_kanji_html.py       # Builds kanji index HTML pages
+│   ├── update_kanji_index.py     # Updates kanji index for new entries
+│   ├── verify_kanji_index.py     # Verifies kanji index integrity
 │   └── requirements.txt  # Python 3.10+ dependencies
 ├── docs/                 # Generated output (served as static site)
-│   └── entries/          # Individual entry HTML files
-│       ├── 00000/        # (same numeric range structure as entries/)
-│       └── ...
+│   ├── entries/          # Individual entry HTML files
+│   │   ├── 00000/        # (same numeric range structure as entries/)
+│   │   └── ...
+│   └── kanji/            # Kanji index HTML pages
 ├── .claude/              # Claude Code configuration
 │   ├── skills/           # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
@@ -309,6 +355,7 @@ The following skills are available in `.claude/skills/` and will be automaticall
 | `polish-entries` | Systematic review and improvement of entries |
 | `delete-entry` | Guidelines for safely deleting entries |
 | `resolve-duplicates` | Guidelines for identifying and resolving duplicate entries |
+| `kanji-index` | Guidelines for maintaining the kanji index feature |
 
 Skills are automatically loaded when Claude determines they're relevant to the current task.
 
