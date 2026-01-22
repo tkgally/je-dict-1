@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About the TKG Japanese-English Learner's Dictionary (TKGJE)">
+    <title>About - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="advanced.html" class="nav-link">Advanced</a>
+        <a href="browse.html" class="nav-link">Browse</a>
+        <a href="recent.html" class="nav-link">Recent</a>
+        <a href="random.html" class="nav-link">Random</a>
+        <a href="pending.html" class="nav-link">Pending</a>
+        <a href="about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+    <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+        <span class="toggle-icon">例</span>
+        <span class="toggle-label">Examples</span>
+    </button>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+    </div>
+</header>
+<main class="about-page">
+    <h1>About the TKG Japanese-English Learner's Dictionary</h1>
+
+    <section>
+        <br>
+        <p>This dictionary is for learners of Japanese who are actively trying to build their vocabulary.</p>
+        <br>
+        <p>I began this dictionary project in early January 2026 in the hope of creating the sort of dictionary that I desperately wanted when I was studying Japanese more than forty years ago. Nothing like this dictionary existed then. Some years later, I proposed creating a similar dictionary to several Japanese publishers, but they all rejected the idea, on the (very reasonable) grounds that it would have taken a team of lexiographers working several years to complete and that the dictionary would never sell enough copies to recoup the investment. I gave up the idea until very recently, when AI writing and agentic coding tools became good enough to do almost all of the work.</p>
+        <br>
+        <p>All of the entry writing and coding and most of the conceptualization is being done by Claude Opus 4.5 through Claude Code for the Web, with occasional debugging and other help from ChatGPT and Gemini. I serve mainly as project supervisor. The content is a bit choppy, and many improvements remain to be made. But it should be usable by learners even in its present form.</p>
+        <br>
+        <p>All of the entry files and code are available at the dictionary’s <a href="https://github.com/tkgally/je-dict-1" target="_blank">GitHub repository</a>. This dictionary and all of its files are released into the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0 Universal</a>. Anyone may use and adapt the dictionary data for any purpose. While credit to me and to Claude would be welcome, I, at least, do not insist on it.</p>
+        <br><br>
+        <p><b>Tom Gally</b></p>
+        <p>Yokohama, Japan</p>
+        <p><a href="https://www.gally.net/" target="_blank">gally.net</a></p>
+    </section>
+</main>
+
+<footer>
+    <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
+</footer>
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
