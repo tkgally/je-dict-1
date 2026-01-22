@@ -1,0 +1,145 @@
+{
+  "session_id": "session_20260122_002",
+  "started": "2026-01-22T01:00:00Z",
+  "ended": "2026-01-22T01:23:12Z",
+  "status": "completed",
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00731-00740"
+  },
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 9,
+    "entries_flagged": 0
+  },
+  "entries_reviewed": [
+    {
+      "entry_id": "00731_maitoshi",
+      "status": "current",
+      "changes": [
+        "Fixed formality (formal→neutral)",
+        "Fixed semantic tag (descriptive→time-general)",
+        "Fixed ex2 vocab (実家→何)",
+        "Fixed ex3 vocab (祭り→正月)",
+        "Added 2 examples (ex4-ex5)"
+      ],
+      "notes": "Basic tier noun (every year). Now has 5 examples."
+    },
+    {
+      "entry_id": "00732_maitsuki",
+      "status": "current",
+      "changes": [
+        "Fixed semantic tag (descriptive→time-general)",
+        "Fixed ex1 vocab (家賃→本)",
+        "Fixed ex2 vocab (給料→映画)",
+        "Added 2 examples (ex4-ex5)"
+      ],
+      "notes": "Basic tier noun (every month). Now has 5 examples."
+    },
+    {
+      "entry_id": "00733_mazui",
+      "status": "current",
+      "changes": [
+        "Fixed semantic tag (electronics→descriptive)",
+        "Fixed ex1 vocab (料理→これ)",
+        "Fixed ex3 vocab (遅刻→時間)",
+        "Fixed ex4 vocab (料理→魚)",
+        "Added 7 examples (ex4-ex10)"
+      ],
+      "notes": "Basic tier 2-sense adjective (bad-tasting/problematic). Now has 10 examples (5 per sense)."
+    },
+    {
+      "entry_id": "00734_nana",
+      "status": "current",
+      "changes": [
+        "Added 2 examples (ex4-ex5)"
+      ],
+      "notes": "Basic tier number (seven). Now has 5 examples."
+    },
+    {
+      "entry_id": "00735_naoru",
+      "status": "current",
+      "changes": [
+        "Fixed ex1 vocab (パソコン→時計)",
+        "Added 7 examples (ex4-ex10)"
+      ],
+      "notes": "Basic tier 2-sense verb (to be fixed/to recover). Now has 10 examples (5 per sense)."
+    },
+    {
+      "entry_id": "00736_ni",
+      "status": "current",
+      "changes": [
+        "Added 2 examples (ex4-ex5)"
+      ],
+      "notes": "Basic tier number (two). Now has 5 examples."
+    },
+    {
+      "entry_id": "00737_nimotsu",
+      "status": "current",
+      "changes": [
+        "Added 2 examples (ex4-ex5)"
+      ],
+      "notes": "Core tier noun (luggage). Now has 5 examples."
+    },
+    {
+      "entry_id": "00738_nooto",
+      "status": "current",
+      "changes": [],
+      "notes": "General tier noun (notebook). Already meets requirements (3 examples). No changes needed."
+    },
+    {
+      "entry_id": "00739_oboeru",
+      "status": "current",
+      "changes": [
+        "Fixed ex1 vocab (漢字→言葉)",
+        "Fixed ex3 to use verified vocab",
+        "Fixed ex6 vocab (料理→歌)",
+        "Fixed ex9 vocab (歳→子供)",
+        "Added 7 examples (ex4-ex10)"
+      ],
+      "notes": "Basic tier 2-sense verb (to remember/to learn). Now has 10 examples (5 per sense)."
+    },
+    {
+      "entry_id": "00740_oishii",
+      "status": "current",
+      "changes": [
+        "Fixed ex1 vocab (料理→これ)",
+        "Fixed ex3 vocab (料理, 一番→魚)",
+        "Fixed ex5 vocab (幸せ→元気)",
+        "Added 2 examples (ex4-ex5)"
+      ],
+      "notes": "Basic tier adjective (delicious). Now has 5 examples."
+    }
+  ],
+  "patterns_observed": [
+    {
+      "pattern": "Incorrect semantic tags on time words",
+      "frequency": "common",
+      "suggested_action": "Time words often had descriptive instead of time-general"
+    },
+    {
+      "pattern": "Vocabulary tier violations in basic entries",
+      "frequency": "very common",
+      "suggested_action": "Many basic tier entries had core/general/unlisted vocab in examples 1-2"
+    },
+    {
+      "pattern": "料理 used excessively in examples",
+      "frequency": "common",
+      "suggested_action": "料理 is general tier but appears in many basic tier entry examples"
+    }
+  ],
+  "continuation_notes": {
+    "next_entry": "00741",
+    "context_for_next_session": "Session complete. Reviewed entries 00731-00740. Fixed numerous vocabulary tier violations, semantic tag issues, and added 28 examples total. Watch for 料理 and other general-tier words in basic entry examples."
+  },
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 9,
+    "examples_added": 28,
+    "vocab_tier_fixes": 14,
+    "tag_fixes": 4,
+    "notes": "Fixed vocab violations across many entries. Most common issue was general-tier words (料理, 遅刻, パソコン, etc.) in basic-tier entry examples. Fixed semantic tags in maitoshi, maitsuki, mazui."
+  }
+}

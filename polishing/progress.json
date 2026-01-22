@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-22T00:10:00Z",
+  "last_updated": "2026-01-22T01:28:04Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 585,
+    "reviewed": 599,
     "pending": 4359,
     "flagged": 2,
     "skipped": 0
@@ -3545,6 +3545,90 @@
       "review_count": 1,
       "status": "current",
       "notes": "Added 2 examples"
+    },
+    "00731_maitoshi": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality (formal→neutral), semantic tag (descriptive→time-general), vocab violation in ex2, added 2 examples"
+    },
+    "00732_maitsuki": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (descriptive→time-general), vocab violations in ex1-ex2, added 2 examples"
+    },
+    "00733_mazui": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag (electronics→descriptive), vocab violations, added 7 examples for 2 senses"
+    },
+    "00734_nana": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples"
+    },
+    "00735_naoru": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab violation in ex1 (パソコン→時計), added 7 examples for 2 senses"
+    },
+    "00736_ni": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples"
+    },
+    "00737_nimotsu": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples"
+    },
+    "00738_nooto": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes needed - meets requirements"
+    },
+    "00739_oboeru": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab violations (漢字→言葉, ピアノ→歌), added 7 examples for 2 senses"
+    },
+    "00740_oishii": {
+      "last_reviewed": "2026-01-22T01:22:44Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab violations (料理, 一番), added 2 examples"
+    },
+    "00741_okureru": {
+      "last_reviewed": "2026-01-22T01:28:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 3 examples for sense 2"
+    },
+    "00742_okuru": {
+      "last_reviewed": "2026-01-22T01:28:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 7 examples for 2 senses"
+    },
+    "00743_oto": {
+      "last_reviewed": "2026-01-22T01:28:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples"
+    },
+    "00744_raigetsu": {
+      "last_reviewed": "2026-01-22T01:28:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed ex1 vocab (旅行→何), added 2 examples"
     }
   },
   "review_history": [
@@ -4109,6 +4193,21 @@
       "entries_modified": 10,
       "task_type": "full-review",
       "notes": "Reviewed 00721-00730. Fixed vocab tier violations, tag issues, added 25 examples."
+    },
+    {
+      "date": "2026-01-22T01:22:44Z",
+      "session_id": "session_20260122_002",
+      "entries_reviewed": 10,
+      "entries_modified": 9,
+      "range": "00731-00740"
+    },
+    {
+      "date": "2026-01-22T01:28:04Z",
+      "session_id": "session_20260122_003",
+      "entries_reviewed": 4,
+      "entries_modified": 4,
+      "range": "00741-00744",
+      "notes": "Partial batch due to context limits. Entries 00745-00750 still need review."
     }
   ]
 }
