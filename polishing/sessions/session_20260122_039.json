@@ -1,0 +1,120 @@
+{
+  "session_id": "session_20260122_039",
+  "date": "2026-01-22",
+  "start_time": "23:21:00Z",
+  "end_time": "23:30:00Z",
+  "entries_reviewed": [
+    "01101_nakunaru",
+    "01102_riyuu",
+    "01103_shorui",
+    "01104_tanomu",
+    "01105_wakasu",
+    "01106_yuumei",
+    "01107_hoshii",
+    "01108_itai",
+    "01109_machigaeru",
+    "01110_nakusu"
+  ],
+  "changes_made": [
+    {
+      "entry": "01101_nakunaru",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Reordered examples for better length progression",
+        "Added example for sense 3 (pass away euphemism)"
+      ]
+    },
+    {
+      "entry": "01102_riyuu",
+      "changes": [
+        "Removed incorrect domain 'technical' (riyuu is not technical)",
+        "Fixed formality: formal -> neutral",
+        "Changed semantic from 'general' to 'communication'"
+      ]
+    },
+    {
+      "entry": "01103_shorui",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Changed semantic from ['communication', 'education'] to ['work'] (documents are work domain)"
+      ]
+    },
+    {
+      "entry": "01104_tanomu",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Fixed formality: informal -> neutral (standard verb, not inherently informal)",
+        "Added example for sense 3 (rely on)"
+      ]
+    },
+    {
+      "entry": "01105_wakasu",
+      "changes": [
+        "No changes - general tier already compliant with 3 examples"
+      ]
+    },
+    {
+      "entry": "01106_yuumei",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Added example with ~で有名 pattern"
+      ]
+    },
+    {
+      "entry": "01107_hoshii",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Fixed vocabulary violation: ex1 used パソコン (general tier) - replaced with 水 (basic tier)",
+        "Added past tense example (欲しかった)"
+      ]
+    },
+    {
+      "entry": "01108_itai",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Added short basic example for better length progression"
+      ]
+    },
+    {
+      "entry": "01109_machigaeru",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Added short example for better length progression"
+      ]
+    },
+    {
+      "entry": "01110_nakusu",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Added short example for better length progression"
+      ]
+    }
+  ],
+  "tag_fixes": [
+    {
+      "entry": "01102_riyuu",
+      "fix": "Removed domain 'technical', formality formal->neutral, semantic general->communication"
+    },
+    {
+      "entry": "01103_shorui",
+      "fix": "semantic: ['communication', 'education'] -> ['work']"
+    },
+    {
+      "entry": "01104_tanomu",
+      "fix": "formality: informal -> neutral"
+    }
+  ],
+  "vocabulary_violations_fixed": [
+    {
+      "entry": "01107_hoshii",
+      "issue": "Example 1 used パソコン which is general tier - not allowed in basic tier examples 1-2",
+      "fix": "Replaced with 水が欲しい using basic vocabulary only"
+    }
+  ],
+  "notes": "Batch 39 of polishing session. 9 of 10 entries modified. Main patterns: Core tier entries and basic tier entries expanded from 3 to 5 examples. Fixed vocabulary tier violation in basic entry hoshii. Corrected several tag errors: riyuu wrongly had 'technical' domain and 'formal' formality, shorui had wrong semantic tags, tanomu wrongly marked 'informal'. General tier entry (wakasu) already compliant with 3 examples.",
+  "continuation_notes": {
+    "next_entry": "01111",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue sequential polishing from 01111. Patterns to watch: (1) Basic tier vocabulary violations - check that examples 1-2 use only basic+core words, (2) Formality tags - common verbs should typically be 'neutral' not 'informal', (3) Domain tags - avoid incorrect 'technical' tag on general vocabulary."
+  }
+}

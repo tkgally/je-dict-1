@@ -19,8 +19,8 @@
   "examples": [
     {
       "id": "01107_hoshii_ex1",
-      "japanese": "{新|あたら}しいパソコンが{欲|ほ}しいです。",
-      "english": "I want a new computer.",
+      "japanese": "{水|みず}が{欲|ほ}しい。",
+      "english": "I want water.",
       "notes": "Object is marked with が, not を",
       "has_audio": false,
       "sense_numbers": [
@@ -39,6 +39,16 @@
     },
     {
       "id": "01107_hoshii_ex3",
+      "japanese": "{新|あたら}しい{本|ほん}が{欲|ほ}しいです。",
+      "english": "I want a new book.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01107_hoshii_ex4",
       "japanese": "{手伝|てつだ}ってほしいんです。",
       "english": "I want you to help me.",
       "notes": "～てほしい pattern",
@@ -46,13 +56,23 @@
       "sense_numbers": [
         2
       ]
+    },
+    {
+      "id": "01107_hoshii_ex5",
+      "japanese": "{子供|こども}のとき、{犬|いぬ}が{欲|ほ}しかったけど、{家|いえ}が{小|ちい}さかったから{飼|か}えなかった。",
+      "english": "When I was a child, I wanted a dog, but I couldn't have one because my house was small.",
+      "notes": "Past tense: 欲しかった",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "欲しい conjugates as an i-adjective: 欲しくない (negative), 欲しくて (te-form), 欲しかった (past). Important: Use 欲しい for wanting things (nouns), but use ～たい for wanting to do actions (verbs). The pattern ～てほしい means you want someone else to do something.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:23:23Z",
-    "modified": "2026-01-19T12:17:40.609677Z",
+    "modified": "2026-01-22T23:21:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

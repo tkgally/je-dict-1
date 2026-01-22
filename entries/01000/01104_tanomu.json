@@ -24,6 +24,16 @@
   "examples": [
     {
       "id": "01104_tanomu_ex1",
+      "japanese": "{母|はは}に{頼|たの}んだ。",
+      "english": "I asked my mother.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01104_tanomu_ex2",
       "japanese": "{友達|ともだち}に{手伝|てつだ}いを{頼|たの}みました。",
       "english": "I asked my friend for help.",
       "notes": null,
@@ -33,7 +43,7 @@
       ]
     },
     {
-      "id": "01104_tanomu_ex2",
+      "id": "01104_tanomu_ex3",
       "japanese": "ビールを{二|ふた}つ{頼|たの}んだ。",
       "english": "I ordered two beers.",
       "notes": "Ordering at a restaurant",
@@ -43,7 +53,7 @@
       ]
     },
     {
-      "id": "01104_tanomu_ex3",
+      "id": "01104_tanomu_ex4",
       "japanese": "お{願|ねが}いがあるんですが、{頼|たの}んでもいいですか。",
       "english": "I have a favor to ask. May I ask you?",
       "notes": null,
@@ -51,20 +61,30 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "01104_tanomu_ex5",
+      "japanese": "{困|こま}ったときは、いつも{彼女|かのじょ}に{頼|たの}んでいます。{彼女|かのじょ}は{本当|ほんとう}に{頼|たよ}りになります。",
+      "english": "When I'm in trouble, I always rely on her. She's truly dependable.",
+      "notes": "Sense 3: rely on",
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{頼|たの}む (request X) / Xに{頼|たの}む (ask X [person]).\n\nASPECT: ている indicates ongoing/repeated state. {頼|たの}んでいる = 'have requested' or 'am relying on.'\n\nCOMMON PATTERNS:\n・{人|ひと}に{頼|たの}む (ask someone)\n・{仕事|しごと}を{頼|たの}む (request work/task)\n・ビールを{頼|たの}む (order beer)\n・{頼|たの}むよ (please!\n- casual request)\n\nRelated:\n- お{願|ねが}いします (polite request)\n- {頼|たの}み (noun - favor/request).",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:44:55Z",
-    "modified": "2026-01-19T12:17:40.607760Z",
+    "modified": "2026-01-22T23:21:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
         "verb-godan"
       ],
-      "formality": "informal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "action"
