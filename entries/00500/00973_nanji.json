@@ -14,40 +14,50 @@
   "examples": [
     {
       "id": "00973_nanji_ex1",
-      "japanese": "{今|いま}{何時|なんじ}ですか。",
+      "japanese": "{今|いま}{何時|なんじ}?",
       "english": "What time is it now?",
-      "notes": "Very common question",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00973_nanji_ex2",
-      "japanese": "{会議|かいぎ}は{何時|なんじ}からですか。",
-      "english": "What time does the meeting start?",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00973_nanji_ex3",
       "japanese": "{何時|なんじ}に{起|お}きますか。",
       "english": "What time do you wake up?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00973_nanji_ex3",
+      "japanese": "{学校|がっこう}は{何時|なんじ}に{始|はじ}まりますか。",
+      "english": "What time does school start?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00973_nanji_ex4",
+      "japanese": "{今日|きょう}は{何時|なんじ}に{家|いえ}に{帰|かえ}りますか。",
+      "english": "What time are you coming home today?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00973_nanji_ex5",
+      "japanese": "{電車|でんしゃ}は{何時|なんじ}に{出|で}ますか。{乗|の}り{遅|おく}れたくないので、{早|はや}めに{駅|えき}に{行|い}きましょう。",
+      "english": "What time does the train leave? Let's go to the station early so we don't miss it.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
     }
   ],
   "notes": "{何時|なんじ} combines {何|なん} (what) with {時|じ} (hour/time). For asking 'what time' in the sense of scheduling, use {何時|なんじ}に. Hours are counted as {一時|いちじ}, {二時|にじ}, {三時|さんじ}, etc. Note irregular readings:\n- {四時|よじ} (not しじ)\n- {七時|しちじ}\n- {九時|くじ}.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:35:58Z",
-    "modified": "2026-01-19T11:37:00.642501Z",
+    "modified": "2026-01-22T13:27:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -55,7 +65,11 @@
         "pronoun"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "time",
+        "grammatical"
+      ]
     }
   }
 }

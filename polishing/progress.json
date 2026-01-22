@@ -4,11 +4,11 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 835,
-    "pending": 6644,
+    "reviewed": 845,
+    "pending": 6634,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "00971"
+    "current_batch_start": "00981"
   },
   "entries": {
     "00001_amaru": {
@@ -1901,7 +1901,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00950_juukyuu",
+    "last_reviewed_entry": "00980_oku",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -4926,6 +4926,56 @@
       "review_count": 1,
       "status": "current",
       "notes": "Expanded examples to meet tier requirements"
+    },
+    "00971_mukou": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00972_mune": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00973_nanji": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00974_nenkan": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00975_nijuu": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00976_nisen": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00977_nodo": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00978_oba": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00979_oji": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00980_oku": {
+      "reviewed_at": "2026-01-22T13:31:30Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
     }
   },
   "review_history": [
@@ -5609,6 +5659,23 @@
         "00970_midori"
       ],
       "entries_modified": 10
+    },
+    {
+      "session_id": "session_20260122_026",
+      "date": "2026-01-22",
+      "entries_reviewed": [
+        "00971_mukou",
+        "00972_mune",
+        "00973_nanji",
+        "00974_nenkan",
+        "00975_nijuu",
+        "00976_nisen",
+        "00977_nodo",
+        "00978_oba",
+        "00979_oji",
+        "00980_oku"
+      ],
+      "reviewer": "claude-opus-4-5"
     }
   ]
 }

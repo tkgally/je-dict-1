@@ -19,41 +19,90 @@
   "examples": [
     {
       "id": "00972_mune_ex1",
-      "japanese": "{胸|むね}が{痛|いた}いです。",
+      "japanese": "{胸|むね}が{痛|いた}い。",
       "english": "My chest hurts.",
-      "notes": "Physical pain",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00972_mune_ex2",
-      "japanese": "{胸|むね}がいっぱいになりました。",
-      "english": "My heart is full (with emotion).",
-      "notes": "Emotional meaning",
+      "japanese": "{胸|むね}に{手|て}を{当|あ}てる。",
+      "english": "To put one's hand on one's chest.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00972_mune_ex3",
-      "japanese": "{胸|むね}に{手|て}を{当|あ}ててよく{考|かんが}えてください。",
-      "english": "Put your hand on your chest and think carefully.",
-      "notes": "Idiomatic expression",
+      "japanese": "{赤|あか}ちゃんを{胸|むね}に{抱|だ}いている。",
+      "english": "She is holding the baby to her chest.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1,
-        2
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00972_mune_ex4",
+      "japanese": "{走|はし}った{後|あと}は{胸|むね}がどきどきする。{少|すこ}し{休|やす}もう。",
+      "english": "My heart is pounding after running. Let me rest a bit.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00972_mune_ex5",
+      "japanese": "{医者|いしゃ}に{胸|むね}を{見|み}てもらったが、{何|なに}も{悪|わる}いところはなかった。",
+      "english": "I had the doctor examine my chest, but nothing was wrong.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00972_mune_ex6",
+      "japanese": "{胸|むね}がいっぱいだ。",
+      "english": "My heart is full (with emotion).",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00972_mune_ex7",
+      "japanese": "あの{映画|えいが}を{見|み}て{胸|むね}が{熱|あつ}くなった。",
+      "english": "Watching that movie moved my heart.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00972_mune_ex8",
+      "japanese": "{別|わか}れるのは{胸|むね}が{痛|いた}むことだ。",
+      "english": "Parting is painful to the heart.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00972_mune_ex9",
+      "japanese": "{彼女|かのじょ}のことを{思|おも}うと、{胸|むね}が{苦|くる}しくなる。",
+      "english": "When I think of her, my heart aches.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00972_mune_ex10",
+      "japanese": "{子供|こども}たちの{笑|え}い{声|ごえ}を{聞|き}くと、いつも{胸|むね}が{温|あたた}かくなる。{幸|しあわ}せな{気持|きも}ちになる。",
+      "english": "Hearing the children's laughter always warms my heart. It makes me feel happy.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
     }
   ],
   "notes": "{胸|むね} can refer to both the physical chest area and figuratively to one's heart or emotions. Many idioms use {胸|むね}: {胸|むね}が{痛|いた}む (feel heartache), {胸|むね}がいっぱい (heart is full), {胸|むね}を{張|は}る (to be proud, literally 'puff out one's chest').",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:26:59Z",
-    "modified": "2026-01-19T12:14:16.727604Z",
+    "modified": "2026-01-22T13:27:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -63,7 +112,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "body-part"
+        "body-part",
+        "emotion"
       ]
     }
   }
