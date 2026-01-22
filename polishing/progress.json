@@ -4,11 +4,11 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 866,
-    "pending": 6613,
+    "reviewed": 865,
+    "pending": 6614,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "00701"
+    "current_batch_start": "00711"
   },
   "entries": {
     "00001_amaru": {
@@ -1901,7 +1901,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00700_haku",
+    "last_reviewed_entry": "00710_kaigi",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -3370,64 +3370,68 @@
       ]
     },
     "00701_hareru": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "Added 2 examples (ex4-ex5)"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00702_hasami": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "General tier, 3 examples OK"
+      "changes": []
     },
     "00703_heta": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "General tier, 3 examples OK"
+      "changes": []
     },
     "00704_hiroi": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "Added 2 examples (ex4-ex5)"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00705_ichi": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "Fixed vocab tier violation in ex2, added 2 examples"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00706_isu": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "Added 2 examples (ex4-ex5)"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00707_jouzu": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "Fixed vocab tier violation in ex2, added 2 examples"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00708_juu": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "Fixed vocab tier violation in ex3, added 2 examples"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00709_kaburu": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "Added 2 examples (ex4-ex5)"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00710_kaigi": {
-      "last_reviewed": "2026-01-21T23:00:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:59:26Z",
       "status": "current",
-      "notes": "General tier, 3 examples OK"
+      "changes": []
     },
     "00711_kakaru": {
       "last_reviewed": "2026-01-21T23:15:00Z",
@@ -5818,6 +5822,13 @@
       "batch": "entries 00691-00700",
       "entries_reviewed": 10,
       "entries_modified": 6,
+      "reviewer": "claude-opus-4-5"
+    },
+    {
+      "date": "2026-01-22T13:59:26Z",
+      "batch": "entries 00701-00710",
+      "entries_reviewed": 10,
+      "entries_modified": 7,
       "reviewer": "claude-opus-4-5"
     }
   ]
