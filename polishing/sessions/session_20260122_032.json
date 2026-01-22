@@ -1,0 +1,103 @@
+{
+  "session_id": "session_20260122_032",
+  "date": "2026-01-22",
+  "start_time": "21:51:00Z",
+  "end_time": "21:55:00Z",
+  "entries_reviewed": [
+    "01031_jikokuhyou",
+    "01032_jimusho",
+    "01033_juusu",
+    "01034_kai",
+    "01035_manshon",
+    "01036_mikan",
+    "01037_miso",
+    "01038_nabe",
+    "01039_naifu",
+    "01040_nekutai"
+  ],
+  "changes_made": [
+    {
+      "entry": "01031_jikokuhyou",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: time-general -> travel"
+      ]
+    },
+    {
+      "entry": "01032_jimusho",
+      "changes": [
+        "Expanded from 3 to 5 examples"
+      ]
+    },
+    {
+      "entry": "01033_juusu",
+      "changes": [
+        "Expanded from 3 to 5 examples"
+      ]
+    },
+    {
+      "entry": "01034_kai",
+      "changes": [
+        "Expanded from 3 to 5 examples"
+      ]
+    },
+    {
+      "entry": "01035_manshon",
+      "changes": [
+        "Expanded from 3 to 5 examples"
+      ]
+    },
+    {
+      "entry": "01036_mikan",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: general -> food"
+      ]
+    },
+    {
+      "entry": "01037_miso",
+      "changes": [
+        "Expanded from 3 to 5 examples"
+      ]
+    },
+    {
+      "entry": "01038_nabe",
+      "changes": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: general -> food"
+      ]
+    },
+    {
+      "entry": "01039_naifu",
+      "changes": [
+        "No changes - general tier OK"
+      ]
+    },
+    {
+      "entry": "01040_nekutai",
+      "changes": [
+        "Expanded from 3 to 5 examples"
+      ]
+    }
+  ],
+  "tag_fixes": [
+    {
+      "entry": "01031_jikokuhyou",
+      "fix": "semantic: time-general -> travel"
+    },
+    {
+      "entry": "01036_mikan",
+      "fix": "semantic: general -> food"
+    },
+    {
+      "entry": "01038_nabe",
+      "fix": "semantic: general -> food"
+    }
+  ],
+  "notes": "Batch 32 of polishing session. 9 of 10 entries modified (01039_naifu was already compliant as general tier). Food items (mikan, nabe) had semantic:general instead of semantic:food. Timetable had time-general instead of travel semantic.",
+  "continuation_notes": {
+    "next_entry": "01041",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue sequential polishing from 01041. Recurring patterns: food items have wrong semantic tags (general instead of food)."
+  }
+}
