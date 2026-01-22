@@ -4,11 +4,11 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 785,
+    "reviewed": 795,
     "pending": 6704,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "00921"
+    "current_batch_start": "00931"
   },
   "entries": {
     "00001_amaru": {
@@ -1901,7 +1901,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00920_atode",
+    "last_reviewed_entry": "00930_gojuu",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -4636,6 +4636,56 @@
       "reviewed_at": "2026-01-22T07:23:14Z",
       "status": "current",
       "reviewer": "claude-opus-4-5"
+    },
+    "00921_byou": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00922_chairoi": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00923_chikaku": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00924_dakara": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00925_demo": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00926_desukara": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00927_dochira": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00928_fun": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00929_gochisousama": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00930_gojuu": {
+      "reviewed_at": "2026-01-22T07:23:14Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
     }
   },
   "review_history": [
@@ -5232,6 +5282,23 @@
         "00920_atode"
       ],
       "batch_number": 20
+    },
+    {
+      "session_id": "session_20260122_021",
+      "date": "2026-01-22",
+      "entries_reviewed": [
+        "00921_byou",
+        "00922_chairoi",
+        "00923_chikaku",
+        "00924_dakara",
+        "00925_demo",
+        "00926_desukara",
+        "00927_dochira",
+        "00928_fun",
+        "00929_gochisousama",
+        "00930_gojuu"
+      ],
+      "batch_number": 21
     }
   ]
 }
