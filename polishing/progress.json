@@ -4,13 +4,13 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 995,
-    "pending": 6484,
+    "reviewed": 1005,
+    "pending": 6474,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01061",
-    "total_reviewed": 996,
-    "last_updated": "2026-01-22T22:03:06Z"
+    "current_batch_start": "01071",
+    "total_reviewed": 1006,
+    "last_updated": "2026-01-22T22:50:05Z"
   },
   "entries": {
     "00001_amaru": {
@@ -5520,6 +5520,102 @@
       "review_count": 1,
       "status": "current",
       "notes": "Expanded from 3 to 5 examples"
+    },
+    "01071_zangyou": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: general -> work"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01072_zubon": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: general -> clothing"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01073_gakki": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01074_ganbatte": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: expression -> encouragement"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01075_kachou": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "No changes - already compliant"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01076_kan": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: general -> container"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01077_kappu": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "No changes - already compliant"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01078_keisatsusho": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "No changes - already compliant"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01079_kissaten": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: food -> building"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
+    },
+    "01080_kiwotsukete": {
+      "reviewed": "2026-01-22T22:50:05Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: expression -> farewell"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 36 review"
     }
   },
   "review_history": [
@@ -6289,6 +6385,13 @@
       "entries_modified": 4,
       "range": "00771-00780",
       "notes": "Batch 3: Fixed multi-sense entries (daijoubu, en, gohan, hontou)"
+    },
+    {
+      "date": "2026-01-22T22:50:05Z",
+      "entries_reviewed": 10,
+      "entries_modified": 7,
+      "range": "01071-01080",
+      "notes": "Batch 36: Core tier entries expanded to 5 examples. Fixed semantic tags (work, clothing, encouragement, container, building, farewell). 3 general tier entries already compliant."
     }
   ]
 }
