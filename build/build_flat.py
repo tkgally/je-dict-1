@@ -3340,8 +3340,23 @@ def build_flat(project_root: Path) -> int:
 def main():
     """Main entry point."""
     import sys
+    import subprocess
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
+
+    # Verify kanji index before building
+    print("Verifying kanji index...")
+    result = subprocess.run(
+        ['python3', str(script_dir / 'verify_kanji_index.py'), '--quick'],
+        capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        print("Kanji index verification failed:")
+        print(result.stdout)
+        print(result.stderr)
+        print("\nFix issues before building.")
+        sys.exit(1)
+
     sys.exit(build_flat(project_root))
 
 
