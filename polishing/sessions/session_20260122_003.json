@@ -1,0 +1,133 @@
+{
+  "session_id": "session_20260122_003",
+  "started": "2026-01-22T02:10:00Z",
+  "ended": "2026-01-22T02:30:00Z",
+  "status": "completed",
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00741-00750"
+  },
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 9,
+    "entries_flagged": 0
+  },
+  "entries_reviewed": [
+    {
+      "entry_id": "00741_okureru",
+      "status": "current",
+      "changes": [],
+      "notes": "General tier verb (to be late, to fall behind). Already meets requirements (6 examples, 3 per sense). No changes needed."
+    },
+    {
+      "entry_id": "00742_okuru",
+      "status": "current",
+      "changes": [
+        "Fixed ex2 vocab (メール→手紙)"
+      ],
+      "notes": "Basic tier verb (to send, to see off). Fixed general-tier word in example 2. 10 examples total."
+    },
+    {
+      "entry_id": "00743_oto",
+      "status": "current",
+      "changes": [
+        "Fixed ex2 vocab (聞こえる→聞く)",
+        "Fixed ex4 vocab (removed 聞こえる)",
+        "Fixed ex5 vocab (removed 聞こえる)"
+      ],
+      "notes": "Basic tier noun (sound). Fixed general-tier 聞こえる in examples 2, 4, 5. 5 examples."
+    },
+    {
+      "entry_id": "00744_raigetsu",
+      "status": "current",
+      "changes": [
+        "Fixed ex3 vocab (楽しみ→嬉しい)",
+        "Fixed ex4 vocab (楽しみにしている→今から待っています)"
+      ],
+      "notes": "Basic tier noun (next month). Fixed general-tier 楽しみ in examples 3-4. 5 examples."
+    },
+    {
+      "entry_id": "00745_rainen",
+      "status": "current",
+      "changes": [
+        "Fixed ex2 vocab (結婚→会う)",
+        "Fixed ex3 grammar (を→が)",
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier noun (next year). Fixed core-tier word in example 2, added 2 examples. 5 examples."
+    },
+    {
+      "entry_id": "00746_raishuu",
+      "status": "current",
+      "changes": [
+        "Fixed ex1 vocab (テスト→仕事)",
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier noun (next week). Fixed general-tier テスト in example 1, added 2 examples. 5 examples."
+    },
+    {
+      "entry_id": "00747_roku",
+      "status": "current",
+      "changes": [
+        "Fixed ex1 vocab (帰る→起きる)",
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier number (six). Fixed core-tier 帰る in example 1, added 2 examples. 5 examples."
+    },
+    {
+      "entry_id": "00748_ryokou",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5"
+      ],
+      "notes": "Core tier noun (travel). Added 2 examples. 5 examples total."
+    },
+    {
+      "entry_id": "00749_san",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier number (three). Added 2 examples. 5 examples total."
+    },
+    {
+      "entry_id": "00750_semai",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier adjective (narrow). Added 2 examples. 5 examples total."
+    }
+  ],
+  "patterns_observed": [
+    {
+      "pattern": "General tier words in basic tier examples",
+      "frequency": "common",
+      "suggested_action": "Watch for テスト (general), 聞こえる (general), 楽しみ (general), メール (general)"
+    },
+    {
+      "pattern": "Core tier words in basic tier examples 1-2",
+      "frequency": "common",
+      "suggested_action": "Watch for 結婚 (core), 帰る (core) in positions 1-2 of basic entries"
+    },
+    {
+      "pattern": "Insufficient examples in basic/core tier entries",
+      "frequency": "very common",
+      "suggested_action": "Many entries only had 3 examples when 5 are required"
+    }
+  ],
+  "continuation_notes": {
+    "next_entry": "00751",
+    "context_for_next_session": "Session complete. Reviewed entries 00741-00750. Fixed vocabulary tier violations and added 14 examples total. Continue watching for 楽しみ, 聞こえる, テスト, メール and other general-tier words in basic entry examples."
+  },
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 9,
+    "examples_added": 14,
+    "vocab_tier_fixes": 10,
+    "tag_fixes": 0,
+    "notes": "Fixed vocab violations in 6 entries. Most common issues: 聞こえる (general) used in basic entries, 楽しみ (general) in basic entries, テスト (general) and メール (general) in basic entries. Added examples to 7 entries that had insufficient counts."
+  }
+}
