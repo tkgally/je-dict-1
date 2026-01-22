@@ -19,7 +19,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, List, Any, Optional, Tuple
 
-from japanese_utils import FURIGANA_PATTERN
+from japanese_utils import FURIGANA_PATTERN, normalize_reading
 from collections import defaultdict
 
 
@@ -56,7 +56,7 @@ def extract_word_after_keyword(notes: str, keywords: List[str]) -> Optional[Tupl
             headword = match.group(1)
             label = match.group(2) if match.lastindex >= 2 and match.group(2) else None
 
-            # Extract reading by combining furigana readings and plain hiragana
+            # Extract reading by combining furigana readings and plain hiragana/katakana
             reading = ''
             i = 0
             while i < len(headword):
@@ -72,6 +72,9 @@ def extract_word_after_keyword(notes: str, keywords: List[str]) -> Optional[Tupl
                 else:
                     reading += headword[i]
                     i += 1
+
+            # Normalize reading to hiragana (convert any katakana to hiragana)
+            reading = normalize_reading(reading)
 
             return (headword, reading, label)
 
