@@ -7,8 +7,8 @@ This dictionary is licensed under Creative Commons Zero v1.0 Universal, and anyo
 ## Overview
 
 This dictionary is designed for learners of Japanese as a second language. It uses an original three-tier vocabulary classification system:
-- **Basic tier**: 600-800 fundamental words essential for basic communication
-- **Core tier**: 1,600-2,000 words needed for adult-level communication
+- **Basic tier**: About one thousand fundamental words essential for basic communication
+- **Core tier**: About two thousand needed for adult-level communication
 - **General tier**: All other vocabulary useful for learners
 
 Dictionary features include:
@@ -28,9 +28,9 @@ Audio readings for example sentences will be added in the future.
 
 ## Current Status
 
-- **7,719 entries** with a target of about 10,000 entries
+- **Nearly 8,000 entries** with a target of about 10,000 entries
 - **Vocabulary tiers assigned**: Basic (795), Core (1,998), General (4,926) - all new entries are added to general tier
-- **3,195 cross-references** linking related entries
+- **Over 3,000 cross-references** linking related entries
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
 - **Robust build system** with atomic builds, XSS protection, and comprehensive validation
