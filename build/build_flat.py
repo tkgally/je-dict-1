@@ -2916,6 +2916,106 @@ ruby rt {
     border-radius: 2px;
 }
 
+/* Kanji Index Page Styles */
+.kanji-index-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.kanji-header {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.kanji-display-box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.kanji-large {
+    font-size: 72px;
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
+    line-height: 1;
+}
+
+.kanji-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kanji-readings {
+    margin-bottom: 0.5rem;
+}
+
+.reading-row {
+    margin-bottom: 0.25rem;
+}
+
+.reading-label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.kanji-gloss {
+    font-size: 1.25rem;
+    color: #495057;
+}
+
+.kanji-entries-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.kanji-entry-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kanji-entry-item {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.kanji-entry-item a {
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.kanji-entry-item a:hover {
+    background: #f8f9fa;
+}
+
+.kanji-entry-item .entry-headword {
+    font-weight: bold;
+    min-width: 120px;
+}
+
+.kanji-entry-item .entry-reading {
+    color: #6c757d;
+    min-width: 100px;
+}
+
+.kanji-entry-item .entry-gloss {
+    color: #495057;
+    flex: 1;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -3003,6 +3103,21 @@ footer a:hover {
 
     .sense-examples {
         margin-left: 0;
+    }
+
+    .kanji-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kanji-entry-item a {
+        flex-wrap: wrap;
+    }
+
+    .kanji-entry-item .entry-gloss {
+        width: 100%;
+        margin-top: 0.25rem;
     }
 }
 '''
@@ -3314,6 +3429,7 @@ def build_flat(project_root: Path) -> int:
     # Rebuild kanji index HTML pages
     print("\n[Kanji] Rebuilding kanji index pages...")
     import subprocess
+    import sys
     kanji_json_script = project_root / 'build' / 'build_kanji_json.py'
     kanji_html_script = project_root / 'build' / 'build_kanji_html.py'
     if kanji_json_script.exists() and kanji_html_script.exists():
