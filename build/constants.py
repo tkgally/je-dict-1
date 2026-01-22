@@ -5,6 +5,13 @@ This module centralizes definitions that were previously duplicated across
 multiple files (schema.json, validate.py, build_flat.py).
 """
 
+# Number of entries per directory
+# Entries are organized in directories of this size:
+# 00000/ contains entries 00001-00499
+# 00500/ contains entries 00500-00999
+# etc.
+ENTRIES_PER_DIRECTORY = 500
+
 # Valid cross-reference types
 # IMPORTANT: When updating this list, also update build/schema.json
 # which cannot import Python constants directly.

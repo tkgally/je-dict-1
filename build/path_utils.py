@@ -15,6 +15,7 @@ Entry ID Format:
 """
 
 from pathlib import Path
+from constants import ENTRIES_PER_DIRECTORY
 
 
 def get_numeric_id(entry_id: str) -> int:
@@ -67,8 +68,8 @@ def get_directory_range(entry_id: str) -> str:
         '06500'
     """
     num_id = get_numeric_id(entry_id)
-    # Calculate the range start (floor to nearest 500)
-    range_start = (num_id // 500) * 500
+    # Calculate the range start (floor to nearest ENTRIES_PER_DIRECTORY)
+    range_start = (num_id // ENTRIES_PER_DIRECTORY) * ENTRIES_PER_DIRECTORY
     return f"{range_start:05d}"
 
 

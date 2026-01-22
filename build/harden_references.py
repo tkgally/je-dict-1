@@ -192,6 +192,10 @@ def apply_changes(entry: Dict[str, Any], changes: List[Dict]) -> Dict[str, Any]:
                 cross_refs[idx]['target_id'] = change['target_id']
 
     entry['cross_references'] = cross_refs
+
+    # Safely update the modified timestamp
+    if 'metadata' not in entry:
+        entry['metadata'] = {}
     entry['metadata']['modified'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     return entry

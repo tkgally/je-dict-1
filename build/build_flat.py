@@ -11,6 +11,8 @@ import os
 import re
 import shutil
 import html
+import sys
+import subprocess
 from collections import defaultdict
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
@@ -3124,9 +3126,16 @@ footer a:hover {
 
 
 def load_entry(file_path: Path) -> dict:
-    """Load a single entry file."""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    """Load a single entry file.
+
+    Raises:
+        ValueError: If the JSON file is malformed, with the file path included in the error message.
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Invalid JSON in {file_path}: {e}") from e
 
 
 def build_recent_entries(entries: list, limit: int = 250) -> list:
@@ -3194,7 +3203,6 @@ def build_flat(project_root: Path) -> int:
             print(f"  ERROR: Duplicate entry ID '{entry_id}' found!")
             print(f"    First occurrence: {seen_ids[entry_id]}")
             print(f"    Second occurrence: {e.get('_source_file', 'unknown')}")
-            import sys
             sys.exit(1)
         else:
             seen_ids[entry_id] = e.get('_source_file', 'unknown')
@@ -3463,7 +3471,7 @@ def main():
     # Verify kanji index before building
     print("Verifying kanji index...")
     result = subprocess.run(
-        ['python3', str(script_dir / 'verify_kanji_index.py'), '--quick'],
+        [sys.executable, str(script_dir / 'verify_kanji_index.py'), '--quick'],
         capture_output=True, text=True
     )
     if result.returncode != 0:
