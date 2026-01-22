@@ -1,0 +1,124 @@
+{
+  "session_id": "session_20260122_006",
+  "started": "2026-01-22T03:10:00Z",
+  "ended": "2026-01-22T03:25:00Z",
+  "status": "completed",
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00771-00780"
+  },
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 9,
+    "entries_flagged": 0
+  },
+  "entries_reviewed": [
+    {
+      "entry_id": "00771_byouki",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5",
+        "Fixed semantic tag (body-part→health)"
+      ],
+      "notes": "Basic tier noun. 5 examples."
+    },
+    {
+      "entry_id": "00772_daijoubu",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5 (including sense 2 coverage)"
+      ],
+      "notes": "Basic tier na-adjective (2 senses). 5 examples."
+    },
+    {
+      "entry_id": "00773_doa",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier noun (door). 5 examples."
+    },
+    {
+      "entry_id": "00774_en",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier noun (2 senses: yen/circle). 5 examples."
+    },
+    {
+      "entry_id": "00775_fune",
+      "status": "current",
+      "changes": [
+        "Fixed ex3 vocab (removed unlisted 酔う)",
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier noun (boat). 5 examples."
+    },
+    {
+      "entry_id": "00776_gohan",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier noun (2 senses: rice/meal). 5 examples."
+    },
+    {
+      "entry_id": "00777_gyuunyuu",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier noun (milk). 5 examples."
+    },
+    {
+      "entry_id": "00778_ha",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5",
+        "Fixed semantic tag (removed plant-general)"
+      ],
+      "notes": "Basic tier noun (tooth). 5 examples."
+    },
+    {
+      "entry_id": "00779_hontou",
+      "status": "current",
+      "changes": [],
+      "notes": "General tier noun. Already has 3 examples (minimum met). No changes needed."
+    },
+    {
+      "entry_id": "00780_hyaku",
+      "status": "current",
+      "changes": [
+        "Added ex4-ex5"
+      ],
+      "notes": "Basic tier number (hundred). 5 examples."
+    }
+  ],
+  "patterns_observed": [
+    {
+      "pattern": "Unlisted vocabulary in basic tier examples",
+      "frequency": "occasional",
+      "suggested_action": "Watch for 酔う (unlisted) and similar words"
+    },
+    {
+      "pattern": "Incorrect semantic tags",
+      "frequency": "occasional",
+      "suggested_action": "body-part tag used for disease (should be health), plant-general incorrect for tooth"
+    }
+  ],
+  "continuation_notes": {
+    "next_entry": "00781",
+    "context_for_next_session": "Session complete. Reviewed entries 00771-00780. Modified 9 entries (00779 general tier already met minimum). Fixed vocabulary violation (酔う) in 1 entry. Fixed semantic tags in 2 entries."
+  },
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 9,
+    "examples_added": 18,
+    "vocab_tier_fixes": 1,
+    "tag_fixes": 2,
+    "notes": "9 of 10 entries modified. 00779_hontou is general tier with 3 examples already. Fixed unlisted vocab (酔う→楽しい) in 00775. Fixed semantic tags in 00771 (body-part→health) and 00778 (removed plant-general)."
+  }
+}
