@@ -1,0 +1,69 @@
+{
+  "session_id": "session_20260122_008",
+  "date": "2026-01-22",
+  "start_time": "03:55:00Z",
+  "end_time": "04:10:00Z",
+  "entries_reviewed": [
+    "00791_kowareru",
+    "00792_kubi",
+    "00793_kusuri",
+    "00794_kyoushitsu",
+    "00795_man",
+    "00796_mazu",
+    "00797_mondai",
+    "00798_motto",
+    "00799_musuko",
+    "00800_nureru"
+  ],
+  "changes_made": [
+    {
+      "entry": "00791_kowareru",
+      "changes": ["Added ex4-ex5"]
+    },
+    {
+      "entry": "00792_kubi",
+      "changes": ["Added ex4-ex5 including sense 2 example"]
+    },
+    {
+      "entry": "00793_kusuri",
+      "changes": ["Added ex4-ex5", "Fixed semantic tags: body-part/education/furniture→health"]
+    },
+    {
+      "entry": "00794_kyoushitsu",
+      "changes": ["Added ex4-ex5"]
+    },
+    {
+      "entry": "00795_man",
+      "changes": ["Added ex4-ex5"]
+    },
+    {
+      "entry": "00796_mazu",
+      "changes": ["Added ex4-ex5", "Fixed vocab violation: 自己紹介(unlisted)→名前を言う"]
+    },
+    {
+      "entry": "00797_mondai",
+      "changes": ["Added ex4-ex5", "Fixed vocab violation: 環境(general)→大きな"]
+    },
+    {
+      "entry": "00798_motto",
+      "changes": ["Added ex4-ex5", "Fixed semantic tag: education→descriptive"]
+    },
+    {
+      "entry": "00799_musuko",
+      "changes": ["Added ex4-ex5"]
+    },
+    {
+      "entry": "00800_nureru",
+      "changes": ["Added ex4-ex5"]
+    }
+  ],
+  "vocabulary_violations_fixed": [
+    {"entry": "00796_mazu", "violation": "自己紹介 (unlisted)", "replacement": "名前を言う (basic)"},
+    {"entry": "00797_mondai", "violation": "環境 (general)", "replacement": "大きな (basic)"}
+  ],
+  "tag_fixes": [
+    {"entry": "00793_kusuri", "field": "semantic", "old": ["body-part", "education", "furniture"], "new": ["health"]},
+    {"entry": "00798_motto", "field": "semantic", "old": ["education"], "new": ["descriptive"]}
+  ],
+  "notes": "Batch 4 of polishing session. All 10 entries needed ex4-ex5 added. 2 vocabulary violations fixed, 2 semantic tag fixes."
+}
