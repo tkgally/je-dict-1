@@ -181,17 +181,9 @@ def generate_kanji_page(kanji_data: dict, relative_path: str = '../') -> str:
         <div class="kanji-display-box">
             <span class="kanji-large">{html.escape(kanji)}</span>
         </div>
-        <div class="kanji-info">
-            <div class="kanji-readings">
-                <div class="reading-row"><span class="reading-label">音:</span> <span class="reading-value">{html.escape(onyomi_display)}</span></div>
-                <div class="reading-row"><span class="reading-label">訓:</span> <span class="reading-value">{html.escape(kunyomi_display)}</span></div>
-            </div>
-            <div class="kanji-gloss">{html.escape(gloss)}</div>
-        </div>
     </div>
 
     <section class="kanji-entries-section">
-        <h2>Entries containing {html.escape(kanji)} ({entry_count} words)</h2>
         <ul class="kanji-entry-list">''',
     ]
 
