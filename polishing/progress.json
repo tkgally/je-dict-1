@@ -4,11 +4,11 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 845,
-    "pending": 6634,
+    "reviewed": 855,
+    "pending": 6624,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "00981"
+    "current_batch_start": "00991"
   },
   "entries": {
     "00001_amaru": {
@@ -1901,7 +1901,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00980_oku",
+    "last_reviewed_entry": "00990_sochira",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -4976,6 +4976,56 @@
       "reviewed_at": "2026-01-22T13:31:30Z",
       "status": "current",
       "reviewer": "claude-opus-4-5"
+    },
+    "00981_onegaishimasu": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00982_otto": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00983_rei": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00984_sanjuu": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00985_sanzen": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00986_shikashi": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00987_shujin": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00988_shuukan": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00989_soba": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00990_sochira": {
+      "reviewed_at": "2026-01-22T13:35:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
     }
   },
   "review_history": [
@@ -5674,6 +5724,23 @@
         "00978_oba",
         "00979_oji",
         "00980_oku"
+      ],
+      "reviewer": "claude-opus-4-5"
+    },
+    {
+      "session_id": "session_20260122_027",
+      "date": "2026-01-22",
+      "entries_reviewed": [
+        "00981_onegaishimasu",
+        "00982_otto",
+        "00983_rei",
+        "00984_sanjuu",
+        "00985_sanzen",
+        "00986_shikashi",
+        "00987_shujin",
+        "00988_shuukan",
+        "00989_soba",
+        "00990_sochira"
       ],
       "reviewer": "claude-opus-4-5"
     }
