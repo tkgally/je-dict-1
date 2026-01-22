@@ -14,40 +14,50 @@
   "examples": [
     {
       "id": "00994_sore_ex1",
-      "japanese": "それは{何|なん}ですか。",
+      "japanese": "それは{何|なん}?",
       "english": "What is that?",
-      "notes": "Referring to something near the listener",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00994_sore_ex2",
       "japanese": "それを{取|と}ってください。",
-      "english": "Please take that.",
+      "english": "Please pass me that.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00994_sore_ex3",
       "japanese": "それはいいですね。",
       "english": "That's good. / That sounds good.",
-      "notes": "Referring to something just mentioned",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00994_sore_ex4",
+      "japanese": "それは{私|わたし}のです。{返|かえ}してください。",
+      "english": "That's mine. Please give it back.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00994_sore_ex5",
+      "japanese": "それを{聞|き}いて{安心|あんしん}しました。{心配|しんぱい}していたので、よかったです。",
+      "english": "I was relieved to hear that. I was worried, so I'm glad.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
     }
   ],
   "notes": "それ refers to things near the listener or to information just mentioned in conversation. It's part of the ko-so-a-do system. When someone tells you something, you can respond with それはいいですね (that's good) or それは{大変|たいへん}ですね (that's tough). To modify nouns, use その instead.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:53:41Z",
-    "modified": "2026-01-19T11:37:00.653604Z",
+    "modified": "2026-01-22T13:38:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -55,7 +65,10 @@
         "pronoun"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }

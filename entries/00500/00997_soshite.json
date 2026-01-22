@@ -14,47 +14,57 @@
   "examples": [
     {
       "id": "00997_soshite_ex1",
-      "japanese": "{朝|あさ}ご{飯|はん}を{食|た}べました。そして、{学校|がっこう}へ{行|い}きました。",
-      "english": "I ate breakfast. And then, I went to school.",
+      "japanese": "そして{帰|かえ}った。",
+      "english": "And then I went home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00997_soshite_ex2",
-      "japanese": "{彼|かれ}は{頭|あたま}がいい。そして、{優|やさ}しいです。",
-      "english": "He is smart. And, he is kind.",
-      "notes": "Adding information",
+      "japanese": "{朝|あさ}ご{飯|はん}を{食|た}べました。そして{学校|がっこう}へ{行|い}きました。",
+      "english": "I ate breakfast. And then I went to school.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00997_soshite_ex3",
+      "japanese": "{彼|かれ}は{頭|あたま}がいい。そして{優|やさ}しいです。",
+      "english": "He is smart. And he is kind.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00997_soshite_ex4",
       "japanese": "{勉強|べんきょう}して、{仕事|しごと}をして、そして{寝|ね}ました。",
       "english": "I studied, worked, and then went to sleep.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00997_soshite_ex5",
+      "japanese": "{最初|さいしょ}は{難|むずか}しかったです。そして{時間|じかん}もかかりました。でも{最後|さいご}にはできました。",
+      "english": "At first it was difficult. And it also took time. But in the end I did it.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
     }
   ],
   "notes": "そして connects sentences to show sequence or add information. It's typically used at the beginning of a new sentence. Compare with それから (after that - more casual, emphasizes sequence) and また (also, moreover - adds supplementary information).",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:51:46Z",
-    "modified": "2026-01-19T12:17:40.543694Z",
+    "modified": "2026-01-22T13:38:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "conjunction"
       ],
-      "formality": "informal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "grammatical"

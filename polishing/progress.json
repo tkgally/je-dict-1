@@ -4,11 +4,11 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 855,
-    "pending": 6624,
+    "reviewed": 865,
+    "pending": 6614,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "00991"
+    "current_batch_start": "01001"
   },
   "entries": {
     "00001_amaru": {
@@ -1901,7 +1901,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00990_sochira",
+    "last_reviewed_entry": "01000_tekubi",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -5026,6 +5026,56 @@
       "reviewed_at": "2026-01-22T13:35:00Z",
       "status": "current",
       "reviewer": "claude-opus-4-5"
+    },
+    "00991_soko": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00992_soku": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00993_sono": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00994_sore": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00995_sorede": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00996_sorekara": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00997_soshite": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00998_sumimasen": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "00999_tatoeba": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
+    },
+    "01000_tekubi": {
+      "reviewed_at": "2026-01-22T13:42:00Z",
+      "status": "current",
+      "reviewer": "claude-opus-4-5"
     }
   },
   "review_history": [
@@ -5741,6 +5791,23 @@
         "00988_shuukan",
         "00989_soba",
         "00990_sochira"
+      ],
+      "reviewer": "claude-opus-4-5"
+    },
+    {
+      "session_id": "session_20260122_028",
+      "date": "2026-01-22",
+      "entries_reviewed": [
+        "00991_soko",
+        "00992_soku",
+        "00993_sono",
+        "00994_sore",
+        "00995_sorede",
+        "00996_sorekara",
+        "00997_soshite",
+        "00998_sumimasen",
+        "00999_tatoeba",
+        "01000_tekubi"
       ],
       "reviewer": "claude-opus-4-5"
     }

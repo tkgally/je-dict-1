@@ -14,13 +14,11 @@
   "examples": [
     {
       "id": "00991_soko_ex1",
-      "japanese": "そこに{何|なに}がありますか。",
+      "japanese": "そこに{何|なに}がある?",
       "english": "What is there?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00991_soko_ex2",
@@ -28,26 +26,38 @@
       "english": "Please wait there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00991_soko_ex3",
       "japanese": "そこを{右|みぎ}に{曲|ま}がってください。",
       "english": "Please turn right there.",
-      "notes": "Giving directions",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00991_soko_ex4",
+      "japanese": "そこは{私|わたし}の{席|せき}です。{座|すわ}らないでください。",
+      "english": "That's my seat. Please don't sit there.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00991_soko_ex5",
+      "japanese": "そこに{置|お}いてある{本|ほん}を{取|と}ってもらえますか。{上|うえ}から{三|さん}{番目|ばんめ}のです。",
+      "english": "Could you get the book that's placed there? It's the third one from the top.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
     }
   ],
   "notes": "そこ refers to a place near the listener, contrasting with ここ (here, near speaker) and あそこ (over there). It's commonly used when giving directions or referring to a location in the listener's vicinity. そこで means 'there/at that place,' while そこに indicates direction toward that place.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:58:18Z",
-    "modified": "2026-01-19T11:37:00.652115Z",
+    "modified": "2026-01-22T13:38:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -55,7 +65,11 @@
         "pronoun"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "direction",
+        "grammatical"
+      ]
     }
   }
 }
