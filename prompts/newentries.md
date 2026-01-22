@@ -26,9 +26,13 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
    ```bash
    python3 build/validate.py          # Fix any errors before continuing
    python3 build/find_missing_furigana.py | head -60  # Check for missing furigana in notes
-   python3 build/update_indexes.py    # Sync candidate_words.json
+   python3 build/update_indexes.py    # Sync candidate_words.json and check for new kanji
+   python3 build/update_kanji_index.py --check-new  # Check for new kanji needing IDs
    python3 build/build_flat.py        # REQUIRED for live site update
    ```
+
+   **If new kanji are found**: New kanji need on'yomi, kun'yomi, and gloss assigned.
+   Run the kanji ID assignment process before building.
 
    **Important**: Restrict the search range of `find_missing_furigana.py` to the entries that you have created in this session. If `find_missing_furigana.py` shows any entries from your session, fix them before committing.
 
