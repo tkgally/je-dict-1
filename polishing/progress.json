@@ -4,13 +4,13 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 1005,
-    "pending": 6474,
+    "reviewed": 1015,
+    "pending": 6464,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01071",
-    "total_reviewed": 1006,
-    "last_updated": "2026-01-22T22:50:05Z"
+    "current_batch_start": "01081",
+    "total_reviewed": 1016,
+    "last_updated": "2026-01-22T22:55:00Z"
   },
   "entries": {
     "00001_amaru": {
@@ -5616,6 +5616,98 @@
       ],
       "issues_found": [],
       "reviewer_notes": "Batch 36 review"
+    },
+    "01081_konbini": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "No changes - already compliant"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01082_koujou": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "No changes - already compliant"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01083_koukou": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01084_kurasu": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "No changes - already compliant"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01085_kyoukasho": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01086_kyuuryou": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01087_dasu": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: communication -> action"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01088_hakobu": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed semantic: building -> movement"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01089_kaeru": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
+    },
+    "01090_meishi": {
+      "reviewed": "2026-01-22T22:55:00Z",
+      "status": "current",
+      "changes_made": [
+        "Fixed semantic: general -> work"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 37 review"
     }
   },
   "review_history": [
@@ -6392,6 +6484,13 @@
       "entries_modified": 7,
       "range": "01071-01080",
       "notes": "Batch 36: Core tier entries expanded to 5 examples. Fixed semantic tags (work, clothing, encouragement, container, building, farewell). 3 general tier entries already compliant."
+    },
+    {
+      "date": "2026-01-22T22:55:00Z",
+      "entries_reviewed": 10,
+      "entries_modified": 7,
+      "range": "01081-01090",
+      "notes": "Batch 37: Core tier entries (koukou, kyoukasho, kyuuryou, hakobu, kaeru) expanded to 5 examples. Basic tier entry (dasu) expanded. Fixed semantic tags. 3 general tier entries (konbini, koujou, kurasu) already compliant."
     }
   ]
 }
