@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,839
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,046 | Unassigned: 0 ✓
-- **Candidate words**: ~610 words tracked in `candidate_words.json`
+- **Total entries**: 7,869
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,076 | Unassigned: 0 ✓
+- **Candidate words**: ~585 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 153)
+Added 30 new dictionary entries from candidate_words.json, covering sound verbs, compound verbs, adjectives, business/logistics terms, food vocabulary, and more:
+
+- **Sound/crowd verbs (2)**: どよめく (to stir/be in uproar), ざわめく (to rustle/murmur)
+- **Multi-sense verbs (1)**: {煽|あお}る with 3 senses: (1) to fan, (2) to incite/stir up, (3) to tailgate
+- **Compound verbs (6)**: {持|も}て{余|あま}す (to have more than one can handle), {培|つちか}う (to cultivate), {聞|き}き{流|なが}す (to let pass), {乗|の}り{過|す}ごす (to ride past), {聞|き}き{逃|のが}す (to fail to hear), {傾|かし}げる (to tilt)
+- **Adjectives (4)**: {艶|なまめ}かしい (alluring), おぞましい (disgusting), {巧妙|こうみょう} (clever/ingenious), {果敢|かかん} (bold/daring)
+- **Leak/damage nouns (2)**: {雨漏|あまも}り (roof leak), {水漏|みずも}れ (water leak)
+- **Business/logistics (6)**: {梱包|こんぽう} (packing), {荷造|にづく}り (packing for moving), {入荷|にゅうか} (arrival of goods), {棚卸|たなおろ}し (inventory), {問屋|とんや} (wholesaler), {着払|ちゃくばら}い (cash on delivery)
+- **Formal/abstract nouns (5)**: {淘汰|とうた} (selection/weeding out), {改竄|かいざん} (falsification), {黙認|もくにん} (tacit approval), {惰性|だせい} (inertia), {抜擢|ばってき} (promotion/selection)
+- **Food/kitchen (3)**: {湯葉|ゆば} (tofu skin), {高野豆腐|こうやどうふ} (freeze-dried tofu), {土鍋|どなべ} (earthenware pot)
+- **Weather (1)**: {暴風|ぼうふう} (violent wind/gale)
+
+Notable entry features:
+- どよめく vs ざわめく comparison: どよめく is sudden collective reaction, ざわめく is continuous background noise
+- {煽|あお}る covers physical fanning, social incitement, and modern driving term ({煽|あお}り{運転|うんてん})
+- {改竄|かいざん} with notes on modern contexts (documents, data, DNA) and kanji/kana writing conventions
+- Food vocabulary: {湯葉|ゆば} and {高野豆腐|こうやどうふ} with preparation and regional variation notes
+- Business logistics chain: {入荷|にゅうか} (goods in) → {棚卸|たなおろ}し (inventory) → {問屋|とんや} (wholesale)
+- 7 new kanji added to kanji index: 培, 惰, 擢, 梱, 淘, 煽, 竄
+
+Total entries: 7,839 → 7,869
+Remaining candidates: ~610 → ~585
+New kanji: 2,040 → 2,047
 
 ### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 152)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, sports terms, culinary vocabulary, and daily life expressions:
@@ -367,61 +392,6 @@ Notable entry features:
 
 Total entries: 7,599 → 7,629
 Remaining candidates: ~631 → ~601
-
-### 2026-01-20 (New Candidates - 102 Words Added, Session 143)
-Added 102 new candidate words to `candidate_words.json` with balanced coverage across multiple categories:
-
-**High-Frequency Business/Academic Terms** (~10 words):
-- Business vocabulary: {踏|ふ}まえる (to be based on), やり{取|と}り (exchange), {配慮|はいりょ} (consideration), {網羅|もうら} (comprehensive coverage), {裏付|うらづ}け (backing)
-- Process terms: {先送|さきおく}り (postponement), {棚上|たなあ}げ (shelving), {足踏|あしぶ}み (marking time), {行|い}き{詰|づ}まり (deadlock)
-
-**Idiomatic Compound Expressions** (~15 words):
-- Disappointment: {拍子抜|ひょうしぬ}け (anticlimax), {肩透|かたすか}かし (letdown), {骨折|ほねお}り{損|ぞん} (wasted effort), {空回|からまわ}り (futile effort), {二度手間|にどでま} (doing something twice)
-- Social situations: とばっちり (getting caught up in), {板挟|いたばさ}み (caught between), {八方塞|はっぽうふさ}がり (blocked in all directions)
-- Effort/work: {手抜|てぬ}き (cutting corners)
-
-**Nature/Weather Terms** (~6 words):
-- Time of day: {夕暮|ゆうぐ}れ (twilight)
-- Weather phenomena: {木漏|こも}れ{日|び} (sunlight through leaves), {潮風|しおかぜ} (sea breeze), {朝露|あさつゆ} (morning dew), {霧雨|きりさめ} (drizzle)
-- Emotions: {躊躇|ちゅうちょ} (hesitation)
-
-**Daily Life/Household** (~20 words):
-- Sleep-related: {夜更|よふ}かし (staying up late), うたた{寝|ね} (dozing off), {二度寝|にどね} (going back to sleep), {寝相|ねぞう} (sleeping posture), {寝不足|ねぶそく} (lack of sleep), ぎっくり{腰|ごし} (strained back), {寝違|ねちが}え (stiff neck)
-- Health: {肩凝|かたこ}り (stiff shoulders)
-- Work: {定時|ていじ} (regular hours), {勤怠|きんたい} (attendance), {欠勤|けっきん} (absence), {直行|ちょっこう} (going directly), {直帰|ちょっき} (going straight home), {在宅|ざいたく} (remote work)
-- Household: {布団干|ふとんほ}し (airing bedding), {衣替|ころもが}え (seasonal clothing change), {模様替|もようが}え (room rearrangement), {水回|みずまわ}り (water areas), {詰|つ}め{替|か}え (refill), ゴミ{出|だ}し (taking out trash)
-
-**Garbage/Recycling Terms** (~4 words):
-- Waste: {生|なま}ゴミ (food waste), {粗大|そだい}ゴミ (bulky garbage), {分別|ぶんべつ} (sorting)
-
-**Shopping/Consumer Terms** (~10 words):
-- Buying patterns: まとめ{買|が}い (bulk buying), {買|か}いだめ (stocking up), {衝動買|しょうどうが}い (impulse buying), ついで{買|が}い (buying on the way), {試着|しちゃく} (trying on clothes), {試飲|しいん} (drink tasting)
-- Sales: お{得|とく} (bargain), {目玉商品|めだましょうひん} (featured item), タイムセール (time-limited sale), {見切|みき}り{品|ひん} (clearance item)
-
-**Technology/Digital Terms** (~10 words):
-- Phone: {着信|ちゃくしん} (incoming call), {不在着信|ふざいちゃくしん} (missed call), {留守電|るすでん} (voicemail), {着信音|ちゃくしんおん} (ringtone), マナーモード (silent mode), {機内|きない}モード (airplane mode)
-- Device states: {電池切|でんちぎ}れ (battery dead), {圏外|けんがい} (out of range), {未読|みどく} (unread)
-
-**Productive Patterns** (~15 words):
-- ～ごたえ (satisfying to ~): {食|た}べごたえ, {飲|の}みごたえ, {作|つく}りごたえ, {読|よ}みがい, {働|はたら}きがい
-- Communication: {立|た}ち{話|ばなし} (standing chat), {噂話|うわさばなし} (gossip)
-- Discussion terms: {見|み}え{隠|かく}れ (appearing/disappearing), {押|お}し{問答|もんどう} (argument), {駆|か}け{引|ひ}き (bargaining), {前置|まえお}き (preamble), つなぎ (stopgap)
-
-**Social/Interpersonal Terms** (~15 words):
-- Personality: {腹黒|はらぐろ}い (scheming), {打算的|ださんてき} (calculating), {裏表|うらおもて} (two-faced), {八方美人|はっぽうびじん} (people-pleaser)
-- Life skills: {世渡|よわた}り (getting through life), {処世術|しょせいじゅつ} (wisdom for living), {根回|ねまわ}し (groundwork), {忖度|そんたく} (surmising someone's wishes)
-- Communication: {察|さっ}する (to sense), {行間|ぎょうかん}を{読|よ}む (read between lines), {含|ふく}み (implication), {暗示|あんじ} (hint), {遠回|とおまわ}し (indirect), {婉曲|えんきょく} (euphemism)
-- Vagueness: うやむや (vague), あやふや (uncertain), {曖昧|あいまい} (ambiguous), {不明瞭|ふめいりょう} (unclear)
-
-Notable features:
-- Strong coverage of daily life vocabulary (household, shopping, technology)
-- Productive morphological patterns (～ごたえ, ～がい compounds)
-- Social/interpersonal vocabulary useful for understanding Japanese communication styles
-- Modern technology terms (phone, digital device states)
-- Practical shopping and consumer vocabulary
-- Garbage sorting terms (important for daily life in Japan)
-
-Candidate count: 529 → 631
 
 ---
 

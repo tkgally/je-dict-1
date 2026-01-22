@@ -63,47 +63,22 @@
         return results.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
     }
 
-    function createResultItem(entry) {
-        const dirRange = entry.dirRange || '00000';
-        const link = document.createElement('a');
-        link.href = 'entries/' + dirRange + '/' + entry.id + '.html';
-        link.className = 'result-item';
-
-        const headwordDiv = document.createElement('div');
-        headwordDiv.className = 'result-headword';
-        // Note: entry.headword contains pre-escaped HTML with <ruby> tags from the build process
-        headwordDiv.innerHTML = entry.headword;
-
-        const readingDiv = document.createElement('div');
-        readingDiv.className = 'result-reading';
-        readingDiv.textContent = entry.reading;
-
-        const glossDiv = document.createElement('div');
-        glossDiv.className = 'result-gloss';
-        glossDiv.textContent = entry.gloss;
-
-        link.appendChild(headwordDiv);
-        link.appendChild(readingDiv);
-        link.appendChild(glossDiv);
-        return link;
-    }
-
     function displayResults(query, results) {
         resultsSection.style.display = 'block';
 
         if (results.length === 0) {
             resultsHeading.textContent = 'No results for "' + query + '"';
-            resultsList.innerHTML = '';
-            const noResults = document.createElement('p');
-            noResults.className = 'no-results';
-            noResults.textContent = 'Try a different search term.';
-            resultsList.appendChild(noResults);
+            resultsList.innerHTML = '<p class="no-results">Try a different search term.</p>';
         } else {
             resultsHeading.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' for "' + query + '"';
-            resultsList.innerHTML = '';
-            results.forEach(function(entry) {
-                resultsList.appendChild(createResultItem(entry));
-            });
+            resultsList.innerHTML = results.map(function(entry) {
+                const dirRange = entry.dirRange || '00000';
+                return '<a href="entries/' + dirRange + '/' + entry.id + '.html" class="result-item">' +
+                    '<div class="result-headword">' + entry.headword + '</div>' +
+                    '<div class="result-reading">' + entry.reading + '</div>' +
+                    '<div class="result-gloss">' + entry.gloss + '</div>' +
+                '</a>';
+            }).join('');
         }
     }
 
