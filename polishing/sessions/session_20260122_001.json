@@ -1,0 +1,114 @@
+{
+  "session_id": "session_20260122_001",
+  "started": "2026-01-21T23:50:00Z",
+  "ended": "2026-01-22T00:10:00Z",
+  "status": "completed",
+
+  "task": {
+    "type": "full-review",
+    "description": "Complete entry review",
+    "scope": "entries 00721-00730"
+  },
+
+  "progress": {
+    "entries_planned": 10,
+    "entries_reviewed": 10,
+    "entries_modified": 10,
+    "entries_flagged": 0
+  },
+
+  "entries_reviewed": [
+    {
+      "entry_id": "00721_konshuu",
+      "status": "current",
+      "changes": ["Fixed semantic tag (descriptive→time-general)", "Added 2 examples (ex4-ex5)"],
+      "notes": "Basic tier noun (this week). Now has 5 examples."
+    },
+    {
+      "entry_id": "00722_kotoshi",
+      "status": "current",
+      "changes": ["Fixed ex2 vocab (目標=core tier)", "Fixed ex3 vocab (卒業=general tier)", "Fixed formality (formal→neutral)", "Fixed semantic tag", "Added 2 examples"],
+      "notes": "Basic tier noun (this year). Fixed multiple issues. Now has 5 examples."
+    },
+    {
+      "entry_id": "00723_kumoru",
+      "status": "current",
+      "changes": ["Fixed semantic tag (existence→weather)", "Added 7 examples (ex4-ex10)"],
+      "notes": "Core tier 2-sense verb (to cloud over/fog up). Now has 10 examples (5 per sense)."
+    },
+    {
+      "entry_id": "00724_kureru",
+      "status": "current",
+      "changes": ["Fixed politeness tag (polite→plain)", "Added 2 examples (ex4-ex5)"],
+      "notes": "Basic tier verb (to give to me). Word is plain form, not polite. Now has 5 examples."
+    },
+    {
+      "entry_id": "00725_kutsu",
+      "status": "current",
+      "changes": ["Added 2 examples (ex4-ex5)"],
+      "notes": "Basic tier noun (shoes). Now has 5 examples."
+    },
+    {
+      "entry_id": "00726_kutsushita",
+      "status": "current",
+      "changes": ["Added 2 examples (ex4-ex5)"],
+      "notes": "Basic tier noun (socks). Now has 5 examples."
+    },
+    {
+      "entry_id": "00727_kyonen",
+      "status": "current",
+      "changes": ["Fixed formality (formal→neutral)", "Fixed semantic tag (descriptive→time-general)", "Added 2 examples (ex4-ex5)"],
+      "notes": "Basic tier noun (last year). Fixed tag issues. Now has 5 examples."
+    },
+    {
+      "entry_id": "00728_kyuu",
+      "status": "current",
+      "changes": ["Fixed ex3 vocab (成功=core tier - rewrote example)", "Added 2 examples (ex4-ex5)"],
+      "notes": "Basic tier number (nine). Now has 5 examples."
+    },
+    {
+      "entry_id": "00729_mainichi",
+      "status": "current",
+      "changes": ["Fixed ex2 vocab (生活=core tier - rewrote example)", "Fixed semantic tag (descriptive→time-general)", "Added 2 examples (ex4-ex5)"],
+      "notes": "Basic tier noun (every day). Fixed vocab and tag issues. Now has 5 examples."
+    },
+    {
+      "entry_id": "00730_maishuu",
+      "status": "current",
+      "changes": ["Added 2 examples (ex4-ex5)"],
+      "notes": "Basic tier noun (every week). Semantic tag already correct. Now has 5 examples."
+    }
+  ],
+
+  "patterns_observed": [
+    {
+      "pattern": "Incorrect formality tags on time words",
+      "frequency": "common",
+      "suggested_action": "Words like 今年, 去年 had 'formal' tag but should be 'neutral'"
+    },
+    {
+      "pattern": "Incorrect semantic tags on time words",
+      "frequency": "common",
+      "suggested_action": "Time words often had 'descriptive' instead of 'time-general'"
+    },
+    {
+      "pattern": "Incorrect politeness tag",
+      "frequency": "occasional",
+      "suggested_action": "kureru had 'polite' but word itself is plain (くださる is polite form)"
+    }
+  ],
+
+  "continuation_notes": {
+    "next_entry": "00731",
+    "context_for_next_session": "Session complete. Reviewed entries 00721-00730 (konshuu, kotoshi, kumoru, kureru, kutsu, kutsushita, kyonen, kyuu, mainichi, maishuu). All 10 entries modified. Fixed vocabulary tier violations, formality/politeness/semantic tag issues, and added 25 examples total."
+  },
+
+  "summary": {
+    "entries_reviewed": 10,
+    "entries_modified": 10,
+    "examples_added": 25,
+    "vocab_tier_fixes": 4,
+    "tag_fixes": 8,
+    "notes": "Fixed vocab violations in kotoshi (ex2-ex3), kyuu (ex3), mainichi (ex2). Fixed formality tags in kotoshi, kyonen. Fixed semantic tags in konshuu, kotoshi, kumoru, kyonen, mainichi. Fixed politeness tag in kureru."
+  }
+}

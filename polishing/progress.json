@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-21T23:15:00Z",
+  "last_updated": "2026-01-22T00:10:00Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 575,
+    "reviewed": 585,
     "pending": 4359,
     "flagged": 2,
     "skipped": 0
@@ -3485,6 +3485,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Fixed vocab tier violations in ex1-ex2, added 2 examples"
+    },
+    "00721_konshuu": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag, added 2 examples"
+    },
+    "00722_kotoshi": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab violations ex2-ex3, fixed formality/semantic tags, added 2 examples"
+    },
+    "00723_kumoru": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed semantic tag, added 7 examples (2-sense core entry)"
+    },
+    "00724_kureru": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed politeness tag, added 2 examples"
+    },
+    "00725_kutsu": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples"
+    },
+    "00726_kutsushita": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples"
+    },
+    "00727_kyonen": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality/semantic tags, added 2 examples"
+    },
+    "00728_kyuu": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab violation ex3, added 2 examples"
+    },
+    "00729_mainichi": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed vocab violation ex2, fixed semantic tag, added 2 examples"
+    },
+    "00730_maishuu": {
+      "last_reviewed": "2026-01-22T00:10:00Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Added 2 examples"
     }
   },
   "review_history": [
@@ -4041,6 +4101,14 @@
       "entries_modified": 8,
       "task_type": "full-review",
       "notes": "Reviewed 00711-00720. Fixed vocabulary tier violations, fixed semantic tags, added 18 examples."
+    },
+    {
+      "date": "2026-01-22T00:10:00Z",
+      "session_id": "session_20260122_001",
+      "entries_reviewed": 10,
+      "entries_modified": 10,
+      "task_type": "full-review",
+      "notes": "Reviewed 00721-00730. Fixed vocab tier violations, tag issues, added 25 examples."
     }
   ]
 }
