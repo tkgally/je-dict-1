@@ -4,12 +4,12 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 905,
-    "pending": 6574,
+    "reviewed": 915,
+    "pending": 6564,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "00761",
-    "total_reviewed": 906,
+    "current_batch_start": "00771",
+    "total_reviewed": 916,
     "last_updated": "2026-01-22T14:58:19Z"
   },
   "entries": {
@@ -1903,7 +1903,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "00760_toru",
+    "last_reviewed_entry": "00770_benkyou",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -3752,64 +3752,64 @@
       "notes": "Replaced ex4/ex5 with longer examples for better length progression"
     },
     "00761_tsukeru": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5. Basic tier verb (2 senses)."
+      "notes": "Added examples for 2-sense entry (5+5=10 total)"
     },
     "00762_tsukue": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5. Basic tier noun."
+      "notes": "Fixed ex4/ex5 length progression"
     },
     "00763_urusai": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5 including sense 2 coverage. Basic tier adjective (2 senses)."
+      "notes": "Added examples for 2-sense entry (5+5=10 total)"
     },
     "00764_usui": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5. Core tier adjective (3 senses)."
+      "notes": "Added examples for 3-sense core entry (5+5+5=15 total)"
     },
     "00765_yasashii": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5. Basic tier adjective (2 senses)."
+      "notes": "Added examples for 2-sense entry (5+5=10 total)"
     },
     "00766_yobu": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5. Fixed vocab (パーティー->家). Basic tier verb (3 senses)."
+      "notes": "Added examples for 3-sense entry (5+5+5=15 total)"
     },
     "00767_yon": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5. Basic tier number."
+      "notes": "No changes needed - adequate examples"
     },
     "00768_abunai": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5. Fixed semantic (weather->descriptive) and formality (formal->neutral) tags."
+      "notes": "Added examples for 2-sense entry (5+5=10 total)"
     },
     "00769_basu": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added ex4-ex5. Core tier noun."
+      "notes": "No changes needed - core tier, adequate examples"
     },
     "00770_benkyou": {
-      "last_reviewed": "2026-01-22T03:10:00Z",
+      "last_reviewed": "2026-01-22T14:58:19Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Fixed vocab (試験->明日). Added ex4-ex5. Basic tier noun (2 senses)."
+      "notes": "Added 5 examples for sense 2 (discount meaning) - was missing entirely"
     },
     "00771_byouki": {
       "last_reviewed": "2026-01-22T03:25:00Z",
@@ -5855,6 +5855,13 @@
       "entries_modified": 10,
       "range": "00751-00760",
       "notes": "Batch 1: Fixed length progression and added examples for multi-sense entries"
+    },
+    {
+      "date": "2026-01-22T14:58:19Z",
+      "entries_reviewed": 10,
+      "entries_modified": 8,
+      "range": "00761-00770",
+      "notes": "Batch 2: Fixed multi-sense entries with insufficient examples per sense"
     }
   ]
 }
