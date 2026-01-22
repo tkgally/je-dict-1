@@ -26,6 +26,14 @@ from constants import get_cross_ref_label
 # Japan Standard Time (UTC+9)
 JST = timezone(timedelta(hours=9))
 
+# Load kanji index for headword linking
+KANJI_LIST = {}
+kanji_list_path = Path(__file__).parent.parent / 'kanji' / 'kanji_list.json'
+if kanji_list_path.exists():
+    with open(kanji_list_path, 'r', encoding='utf-8') as f:
+        kanji_data = json.load(f)
+        KANJI_LIST = kanji_data.get('kanji', {})
+
 # Canonical CNAME for GitHub Pages custom domain
 # This ensures the CNAME file is always restored even if accidentally deleted
 GITHUB_PAGES_CNAME = "www.tkgje.jp"
@@ -57,6 +65,85 @@ def process_furigana(text: str, show_furigana: bool = True) -> str:
     # Add any remaining text
     if last_end < len(text):
         parts.append(html.escape(text[last_end:]))
+
+    return ''.join(parts)
+
+
+def process_headword_with_kanji_links(text: str, relative_path: str = '../../') -> str:
+    """
+    Process headword text with furigana AND kanji links.
+
+    For headwords, kanji characters are wrapped in links to their kanji index pages.
+    The links are styled to be invisible (no color change, no underline) but show
+    a tooltip on hover.
+    """
+    if not text:
+        return ''
+
+    def is_kanji(char: str) -> bool:
+        code = ord(char)
+        return (
+            (0x4E00 <= code <= 0x9FFF) or
+            (0x3400 <= code <= 0x4DBF) or
+            (0xF900 <= code <= 0xFAFF)
+        )
+
+    def wrap_kanji_in_link(kanji_char: str) -> str:
+        """Wrap a single kanji in a link to its index page."""
+        if kanji_char in KANJI_LIST:
+            kanji_id = KANJI_LIST[kanji_char]['kanji_id']
+            return (
+                f'<a href="{relative_path}kanji/{kanji_id}.html" '
+                f'class="kanji-link" '
+                f'title="Other words with this kanji">{html.escape(kanji_char)}</a>'
+            )
+        return html.escape(kanji_char)
+
+    def replace_furigana_with_links(match):
+        """Process furigana, adding links to individual kanji."""
+        kanji_group = match.group(1)  # The kanji part
+        reading = html.escape(match.group(2))
+
+        # Process each character in the kanji group
+        kanji_html_parts = []
+        for char in kanji_group:
+            if is_kanji(char):
+                kanji_html_parts.append(wrap_kanji_in_link(char))
+            else:
+                kanji_html_parts.append(html.escape(char))
+
+        kanji_html = ''.join(kanji_html_parts)
+        return f'<ruby>{kanji_html}<rp>(</rp><rt>{reading}</rt><rp>)</rp></ruby>'
+
+    # Process furigana patterns
+    parts = []
+    last_end = 0
+    for match in FURIGANA_PATTERN.finditer(text):
+        # Add text before this match
+        if match.start() > last_end:
+            before_text = text[last_end:match.start()]
+            # Process any kanji outside furigana notation
+            processed_before = []
+            for char in before_text:
+                if is_kanji(char):
+                    processed_before.append(wrap_kanji_in_link(char))
+                else:
+                    processed_before.append(html.escape(char))
+            parts.append(''.join(processed_before))
+        # Add the processed furigana
+        parts.append(replace_furigana_with_links(match))
+        last_end = match.end()
+
+    # Add any remaining text after the last match
+    if last_end < len(text):
+        remaining = text[last_end:]
+        processed_remaining = []
+        for char in remaining:
+            if is_kanji(char):
+                processed_remaining.append(wrap_kanji_in_link(char))
+            else:
+                processed_remaining.append(html.escape(char))
+        parts.append(''.join(processed_remaining))
 
     return ''.join(parts)
 
@@ -239,10 +326,10 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         '<article class="entry-display">',
     ]
 
-    # Entry header
+    # Entry header with kanji links in headword
     html_parts.append(f'''
         <div class="entry-header">
-            <h1 class="entry-headword">{process_furigana(headword)}</h1>
+            <h1 class="entry-headword">{process_headword_with_kanji_links(headword, relative_path)}</h1>
             <div class="entry-reading">{html.escape(reading)}</div>
             <div class="entry-pos">{html.escape(entry.get('part_of_speech', ''))}</div>
             <div class="entry-gloss">{html.escape(entry.get('gloss', ''))}</div>
@@ -2809,6 +2896,24 @@ ruby rt {
 
 .entry-headword ruby rt {
     font-size: 0.45em;
+}
+
+/* Kanji Index Links in Headwords */
+.kanji-link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.kanji-link:hover {
+    /* Subtle indication without changing appearance */
+    text-decoration: none;
+}
+
+/* Optional: very subtle hover effect */
+.entry-headword .kanji-link:hover {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
 }
 
 /* Footer */
