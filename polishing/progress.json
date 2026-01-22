@@ -4,13 +4,13 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 1015,
-    "pending": 6464,
+    "reviewed": 1025,
+    "pending": 6454,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01081",
-    "total_reviewed": 1016,
-    "last_updated": "2026-01-22T22:55:00Z"
+    "current_batch_start": "01091",
+    "total_reviewed": 1026,
+    "last_updated": "2026-01-22T23:00:00Z"
   },
   "entries": {
     "00001_amaru": {
@@ -5708,6 +5708,98 @@
       ],
       "issues_found": [],
       "reviewer_notes": "Batch 37 review"
+    },
+    "01091_naraberu": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "No changes - already compliant"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01092_oku": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed formality: informal -> neutral"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01093_rippa": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01094_shucchou": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "Fixed semantic: action -> work"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01095_wake": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples",
+        "Fixed formality: formal -> neutral"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01096_yawarakai": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01097_hidoi": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01098_ireru": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01099_kotaeru": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "Expanded from 3 to 5 examples"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
+    },
+    "01100_mensetsu": {
+      "reviewed": "2026-01-22T23:00:00Z",
+      "status": "current",
+      "changes_made": [
+        "No changes - already compliant"
+      ],
+      "issues_found": [],
+      "reviewer_notes": "Batch 38 review"
     }
   },
   "review_history": [
@@ -6491,6 +6583,13 @@
       "entries_modified": 7,
       "range": "01081-01090",
       "notes": "Batch 37: Core tier entries (koukou, kyoukasho, kyuuryou, hakobu, kaeru) expanded to 5 examples. Basic tier entry (dasu) expanded. Fixed semantic tags. 3 general tier entries (konbini, koujou, kurasu) already compliant."
+    },
+    {
+      "date": "2026-01-22T23:00:00Z",
+      "entries_reviewed": 10,
+      "entries_modified": 8,
+      "range": "01091-01100",
+      "notes": "Batch 38: Basic tier entries (oku, hidoi, ireru, kotaeru) and core tier entries (rippa, wake, yawarakai) expanded to 5 examples. Fixed formality tags (oku: informal->neutral, wake: formal->neutral). Fixed semantic tag (shucchou: action->work). 2 general tier entries (naraberu, mensetsu) already compliant."
     }
   ]
 }
