@@ -4,11 +4,11 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 865,
-    "pending": 6614,
+    "reviewed": 866,
+    "pending": 6613,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01001"
+    "current_batch_start": "00701"
   },
   "entries": {
     "00001_amaru": {
@@ -1901,7 +1901,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "01000_tekubi",
+    "last_reviewed_entry": "00700_haku",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -3308,64 +3308,66 @@
       "notes": "Fixed ex2: 焼く (general), ex3: 壁/聞こえる (general) with basic vocab"
     },
     "00691_boorupen": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "General tier, 3 examples. Already meets minimum. No changes needed."
+      "changes": []
     },
     "00692_boushi": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "Added 2 examples (3 to 5)"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00693_dame": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "Added 7 examples (3 to 10). 2-sense entry now has full coverage."
+      "changes": []
     },
     "00694_enpitsu": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "General tier, 3 examples. Already meets minimum. No changes needed."
+      "changes": []
     },
     "00695_fuku": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "Added 2 examples (3 to 5). Fixed broken furigana in ex3."
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00696_genki": {
-      "last_reviewed": "2026-01-22T13:11:13Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "Fixed semantic tag and examples"
+      "changes": []
     },
     "00697_go": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "Added 2 examples (3 to 5)"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00698_hachi": {
-      "last_reviewed": "2026-01-22T13:11:13Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "Fixed semantic tag and examples"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00699_hagaki": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "Added 2 examples (3 to 5). Core tier entry."
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00700_haku": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
-      "review_count": 1,
+      "reviewed": "2026-01-22T13:53:58Z",
       "status": "current",
-      "notes": "Added 2 examples (3 to 5)"
+      "changes": [
+        "Improved ex4 and ex5 length progression"
+      ]
     },
     "00701_hareru": {
       "last_reviewed": "2026-01-21T23:00:00Z",
@@ -5809,6 +5811,13 @@
         "00999_tatoeba",
         "01000_tekubi"
       ],
+      "reviewer": "claude-opus-4-5"
+    },
+    {
+      "date": "2026-01-22T13:53:58Z",
+      "batch": "entries 00691-00700",
+      "entries_reviewed": 10,
+      "entries_modified": 6,
       "reviewer": "claude-opus-4-5"
     }
   ]
