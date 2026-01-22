@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-22T07:03:55Z",
+  "last_updated": "2026-01-22T13:11:13Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 815,
-    "pending": 6664,
+    "reviewed": 825,
+    "pending": 6654,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "00951"
+    "current_batch_start": "00961"
   },
   "entries": {
     "00001_amaru": {
@@ -3338,10 +3338,10 @@
       "notes": "Added 2 examples (3 to 5). Fixed broken furigana in ex3."
     },
     "00696_genki": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
+      "last_reviewed": "2026-01-22T13:11:13Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added 7 examples (3 to 10). 2-sense entry now has full coverage."
+      "notes": "Fixed semantic tag and examples"
     },
     "00697_go": {
       "last_reviewed": "2026-01-21T22:05:00Z",
@@ -3350,10 +3350,10 @@
       "notes": "Added 2 examples (3 to 5)"
     },
     "00698_hachi": {
-      "last_reviewed": "2026-01-21T22:05:00Z",
+      "last_reviewed": "2026-01-22T13:11:13Z",
       "review_count": 1,
       "status": "current",
-      "notes": "Added 2 examples (3 to 5)"
+      "notes": "Fixed semantic tag and examples"
     },
     "00699_hagaki": {
       "last_reviewed": "2026-01-21T22:05:00Z",
@@ -4806,6 +4806,66 @@
       "status": "current",
       "changes_made": true,
       "reviewer_notes": "Batch 23 review"
+    },
+    "00951_juunana": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00952_juuni": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00953_juuroku": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00954_juusan": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00955_juuyon": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00956_kagetsu": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00957_kai": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00958_kanai": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00959_kiiroi": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
+    },
+    "00960_kochira": {
+      "last_reviewed": "2026-01-22T13:11:13Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded examples to meet tier requirements"
     }
   },
   "review_history": [
@@ -5453,6 +5513,25 @@
         "00950_juukyuu"
       ],
       "batch_number": 23
+    },
+    {
+      "batch": 24,
+      "date": "2026-01-22",
+      "entries_reviewed": [
+        "00951_juunana",
+        "00952_juuni",
+        "00953_juuroku",
+        "00954_juusan",
+        "00955_juuyon",
+        "00956_kagetsu",
+        "00957_kai",
+        "00958_kanai",
+        "00959_kiiroi",
+        "00960_kochira",
+        "00696_genki",
+        "00698_hachi"
+      ],
+      "entries_modified": 12
     }
   ]
 }
