@@ -7,6 +7,63 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-21 (New Candidates - 102 Romaji Abbreviations Added, Session 145)
+Added 102 new candidate words to `candidate_words.json` focusing on romaji abbreviations used in Japanese. These include Japanese-origin abbreviations (from Japanese words), 和製英語 abbreviations (unique Japanese usage of English terms), and specialized domain abbreviations commonly used in Japan:
+
+**Japanese-Origin Abbreviations** (~8 words):
+- Student/age categories: JK (女子高生 - high school girl), JC (女子中学生 - middle school girl), JD (女子大生 - female college student), DK (男子高生 - high school boy)
+- Food: TKG (卵かけご飯 - egg over rice)
+- Alumni: OB (old boy - male alumnus), OG (old girl - female alumna)
+- Work: OL (office lady - female office worker)
+
+**Media/Entertainment Abbreviations** (~15 words):
+- TV/film: CM (commercial message), NG (no good - blooper), SP (special), VTR (video tape recording), PV (promotional video), MV (music video)
+- Anime/manga: CV (character voice), BL (boys' love), GL (girls' love), OP (opening theme), ED (ending theme), OVA (original video animation), SE (sound effect)
+- General: MC (master of ceremonies), BGM (background music), CG (computer graphics)
+
+**Technology/Computing** (~15 words):
+- Hardware: PC (personal computer), USB, CD, DVD, LED, LCD
+- Internet: HP (homepage), URL, PDF
+- Mobile: AI, IT (already existed), ID (already existed)
+- Gaming: NPC, RPG, FPS, MMO, RTA (real-time attack)
+
+**Automotive/Transportation** (~7 words):
+- Transmission: AT (automatic), MT (manual)
+- Vehicle types: EV (electric vehicle)
+- Interchange: IC
+- Appliances: IH (induction heating), AC (air conditioning)
+
+**Sports Abbreviations** (~8 words):
+- Soccer positions: FW (forward), GK (goalkeeper), DF (defender), MF (midfielder)
+- Soccer terms: PA (penalty area), PK (penalty kick)
+- Awards: MVP (most valuable player)
+- Organizations: NBA, MLB
+
+**Medical/Science** (~10 words):
+- Medical: CT, MRI, PTSD, ADHD, AED, CPR, OTC
+- Science: DNA, CO2, IQ, EQ
+
+**Business/Organizations** (~10 words):
+- Organizations: NHK, UN, EU, NPO (already existed), NGO, PTA
+- Business: CEO, PR, OJT, FAQ
+- Lifestyle: DIY, VR, AR, LCC, EC
+
+**Lifestyle/Modern Terms** (~15 words):
+- Housing: LDK (living/dining/kitchen)
+- Social: TPO (time, place, occasion), NEET, DINKS
+- Media: TV, FM, AM, GPS, DJ
+- Communication: OK, SOS, VIP, LGBT, SDGs (already existed)
+- Technology: iOS, OS, SS (screenshot)
+
+Notable features:
+- Comprehensive coverage of romaji abbreviations used daily in Japan
+- Includes Japanese-coined terms (JK, TKG, KY already in dictionary) that reflect uniquely Japanese concepts
+- Media/entertainment abbreviations essential for understanding anime, TV, and internet culture
+- Practical technology and business abbreviations learners encounter in daily life
+- Sports abbreviations commonly used in Japanese sports broadcasting
+
+Candidate count: 601 → 703
+
 ### 2026-01-20 (Vocabulary Expansion - 30 New Entries, Session 144)
 Added 30 new dictionary entries from candidate_words.json, covering nature/weather vocabulary, phone/technology terms, health/sleep vocabulary, work-related terms, communication patterns, and household activities:
 
