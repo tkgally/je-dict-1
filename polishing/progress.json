@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-23T00:27:12Z",
+  "last_updated": "2026-01-23T00:37:04Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 1075,
-    "pending": 6404,
+    "reviewed": 1085,
+    "pending": 6394,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01141",
-    "total_reviewed": 1076,
-    "last_updated": "2026-01-23T00:27:12Z"
+    "current_batch_start": "01151",
+    "total_reviewed": 1086,
+    "last_updated": "2026-01-23T00:37:04Z"
   },
   "entries": {
     "00001_amaru": {
@@ -6080,6 +6080,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Batch 43 polishing"
+    },
+    "01151_nigeru": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing"
+    },
+    "01152_tsumori": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing - no changes needed"
+    },
+    "01153_yamu": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing"
+    },
+    "01154_hieru": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing"
+    },
+    "01155_imi": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing - no changes needed"
+    },
+    "01156_joubu": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing"
+    },
+    "01157_kou": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing"
+    },
+    "01158_mawasu": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing"
+    },
+    "01159_niru": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing - no changes needed"
+    },
+    "01160_taoreru": {
+      "last_reviewed": "2026-01-23T00:37:04Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 44 polishing"
     }
   },
   "review_history": [
@@ -6884,6 +6944,13 @@
       "entries_modified": 8,
       "range": "01111-01120",
       "notes": "Batch 40: Core tier entries (shinjiru, fukuzatsu, katai, modoru, subarashii, tokubetsu) expanded to 5 examples. Core tier entry tsurai expanded with fixed semantic tag (removed body-part). Basic tier entry (nai) expanded to 5 examples. Fixed semantic: modoru action->movement. 2 general tier entries (wakareru, you) already compliant."
+    },
+    {
+      "date": "2026-01-23T00:37:04Z",
+      "entries_reviewed": 10,
+      "entries_modified": 7,
+      "range": "01151-01160",
+      "notes": "Batch 44: Core tier entries (nigeru, yamu, hieru, joubu) expanded to 5 examples. Basic tier entry (kou) expanded to 5 examples. Fixed semantic tags: hieru (body-part->temperature), joubu (body-part->quality), taoreru (body-part->action). Fixed cross-reference type for mawasu (see_also->pair). 4 general tier entries (tsumori, imi, niru, mawasu) already compliant at 3 examples."
     }
   ]
 }
