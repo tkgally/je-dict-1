@@ -1,12 +1,6 @@
 # Continue Dictionary Polishing
 
-Continue the systematic polishing of dictionary entries. Review approximately 10 entries per batch, following the full-review task. This workflow loops continuously—after each batch, check your remaining context and either process another batch directly or perform a context reset to continue working.
-
-**Important**: Continue working until either:
-1. The user tells you to stop, OR
-2. You reach the target number of entries specified by the user at session start
-
-Do NOT stop just because context is running low—use the context reset procedure instead.
+Continue the systematic polishing of dictionary entries. Review approximately 10 entries per batch, following the full-review task. This workflow loops automatically—after each batch, check your remaining context and either process another batch or create a PR.
 
 ## Quick Context
 
@@ -55,42 +49,11 @@ Read the most recent session log in `polishing/sessions/` to get the exact conti
 
 7. **Check remaining context** using `/context` command:
    - **If 30% or more context remains**: Return to step 2 and process another batch of ~10 entries
-   - **If less than 30% context remains**: Proceed to step 8 for context reset
+   - **If less than 30% context remains**: Proceed to step 8 to create PR
 
-8. **Context Reset Procedure** (when context < 30%):
-
-   a. **Update session log** in `polishing/sessions/` with:
-      - Entry range processed in this context window
-      - Summary of all modifications made
-      - Any patterns or issues discovered
-      - The exact next entry number to continue from
-
-   b. **Create a context summary** by writing a brief note at the end of the session log:
-      ```
-      ## Context Continuation Note
-      - Last entry reviewed: [entry_id]
-      - Next entry to process: [entry_id]
-      - Target remaining: [X entries until goal / or "until user stops"]
-      - Key patterns to remember: [brief notes]
-      ```
-
-   c. **Commit all pending changes**:
-      ```bash
-      git add -A && git commit -m "Polish entries XXXXX-XXXXX (batch N)"
-      ```
-
-   d. **Clear context and continue** using the `/compact` command to summarize and clear context
-
-   e. **Reread this prompt** to restore your working instructions:
-      - Read `prompts/continue_polishing.md`
-      - Read the latest session log in `polishing/sessions/`
-      - Load the skills: `polish-entries` and `example-sentences`
-
-   f. **Resume from step 2** and continue processing entries
-
-9. **Final PR** (only when target is reached OR user requests stop):
-   - Push all commits: `git push -u origin <branch-name>`
-   - Create a PR summarizing all batches processed
+8. **Create PR** (only when context < 30%):
+   - Push all commits from this session: `git push -u origin <branch-name>`
+   - Create a PR summarizing all batches processed in this session
    - Include total entry range, total modifications, and key patterns discovered
 
 ## Example Sentence Requirements
@@ -147,11 +110,9 @@ Reorder or revise examples if length progression is missing.
 ## Key Reminders
 
 - **Target: ~10 entries per batch** (adjustable based on issue density)
-- **Never stop for context**: Use context reset procedure to continue indefinitely
-- **Stop conditions**: Only stop when user requests OR target entry count is reached
+- **Context loop**: Keep processing batches until context drops below 30%
 - **Update timestamps**: Use `python3 build/get_timestamp.py` when modifying entries
 - **Track all changes**: Record every modification in your session log
-- **Session logs are critical**: They preserve your progress across context resets
 - **Cross-reference targets**: If a reference target doesn't exist, add to candidates:
   ```bash
   python3 build/manage_candidates.py add "headword" "reading" "brief note"
@@ -164,10 +125,10 @@ Reorder or revise examples if length progression is missing.
 
 ## Output
 
-At session end (when target reached or user stops), provide:
+At session end (when creating PR), provide:
 1. Total entry range reviewed across all batches (e.g., "00631-01230")
-2. Number of batches processed and context resets performed
+2. Number of batches processed in this session
 3. Total number of entries modified
 4. Summary of change types across all batches
 5. Any patterns or issues discovered
-6. Continuation notes for the next session (if not complete)
+6. Continuation notes for the next session
