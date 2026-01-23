@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-23T02:51:45Z",
+  "last_updated": "2026-01-23T02:56:49Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 1115,
-    "pending": 6364,
+    "reviewed": 1125,
+    "pending": 6354,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01181",
-    "total_reviewed": 1116,
-    "last_updated": "2026-01-23T02:51:45Z"
+    "current_batch_start": "01191",
+    "total_reviewed": 1126,
+    "last_updated": "2026-01-23T02:56:49Z"
   },
   "entries": {
     "00001_amaru": {
@@ -6320,6 +6320,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Expanded from 3 to 5 examples (core tier requirement)"
+    },
+    "01191_isogu": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Removed domain tag 'business' (doesn't fit neutral everyday verb)"
+    },
+    "01192_katazukeru": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded from 3 to 5 examples (core tier requirement)"
+    },
+    "01193_mukaeru": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01194_norikaeru": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded from 3 to 5 examples (core tier requirement)"
+    },
+    "01195_sawagu": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded from 3 to 5 examples (core tier requirement)"
+    },
+    "01196_tateru": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01197_fumu": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01198_inoru": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality tag: formal->neutral (notes say 'Neutral to slightly formal')"
+    },
+    "01199_katsu": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01200_mezurashii": {
+      "last_reviewed": "2026-01-23T02:56:49Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded from 4 to 5 examples (core tier requirement)"
     }
   },
   "review_history": [
@@ -7152,6 +7212,13 @@
       "entries_modified": 5,
       "range": "01181-01190",
       "notes": "Batch 47: Basic tier entries (nemuru, ikiru, sagaru) expanded to 5 examples. Core tier entry (futoru) expanded to 5 examples. Fixed politeness tag: tazuneru (humble->plain, verb is neutral not humble). Added 建つ to candidates (intransitive pair of 建てる). 5 general tier entries (fueru, kazaru, mukau, nokoru, tateru) already compliant at 3 examples."
+    },
+    {
+      "date": "2026-01-23T02:56:49Z",
+      "entries_reviewed": 10,
+      "entries_modified": 6,
+      "range": "01191-01200",
+      "notes": "Batch 48: Core tier entries (katazukeru, norikaeru, sawagu, mezurashii) expanded to 5 examples. Removed inappropriate domain tag from isogu (was 'business'). Fixed formality tag on inoru (formal->neutral). 4 general tier entries (mukaeru, tateru, fumu, katsu) already compliant at 3 examples."
     }
   ]
 }
