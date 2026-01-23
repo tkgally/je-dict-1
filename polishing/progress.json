@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-23T02:56:49Z",
+  "last_updated": "2026-01-23T03:00:09Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 1125,
-    "pending": 6354,
+    "reviewed": 1135,
+    "pending": 6344,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01191",
-    "total_reviewed": 1126,
-    "last_updated": "2026-01-23T02:56:49Z"
+    "current_batch_start": "01201",
+    "total_reviewed": 1136,
+    "last_updated": "2026-01-23T03:00:09Z"
   },
   "entries": {
     "00001_amaru": {
@@ -6380,6 +6380,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Expanded from 4 to 5 examples (core tier requirement)"
+    },
+    "01201_nigai": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded from 4 to 5 examples, fixed semantic tag (body-part→taste)"
+    },
+    "01202_shikaru": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01203_tanoshimu": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01204_homeru": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01205_kamu": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Fixed formality tag: formal→neutral (verb is neutral, only kanji is formal)"
+    },
+    "01206_majime": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded from 4 to 5 examples, fixed formality tag: informal→neutral"
+    },
+    "01207_nesshin": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Expanded from 4 to 5 examples (core tier requirement)"
+    },
+    "01208_shiraseru": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01209_tariru": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
+    },
+    "01210_ueru": {
+      "last_reviewed": "2026-01-23T03:00:09Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "No changes - general tier already compliant with 3 examples"
     }
   },
   "review_history": [
@@ -7219,6 +7279,13 @@
       "entries_modified": 6,
       "range": "01191-01200",
       "notes": "Batch 48: Core tier entries (katazukeru, norikaeru, sawagu, mezurashii) expanded to 5 examples. Removed inappropriate domain tag from isogu (was 'business'). Fixed formality tag on inoru (formal->neutral). 4 general tier entries (mukaeru, tateru, fumu, katsu) already compliant at 3 examples."
+    },
+    {
+      "date": "2026-01-23T03:00:09Z",
+      "entries_reviewed": 10,
+      "entries_modified": 4,
+      "range": "01201-01210",
+      "notes": "Batch 49: Core tier entries (nigai, majime, nesshin) expanded to 5 examples. Fixed semantic tag on nigai (body-part→taste). Fixed formality tags: kamu (formal→neutral), majime (informal→neutral). 6 general tier entries (shikaru, tanoshimu, homeru, shiraseru, tariru, ueru) already compliant at 3 examples."
     }
   ]
 }
