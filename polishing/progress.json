@@ -4,7 +4,7 @@
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 1215,
+    "reviewed": 1410,
     "pending": 6264,
     "flagged": 2,
     "skipped": 0,
@@ -1903,7 +1903,7 @@
       "status": "current",
       "notes": "No changes needed - already meets requirements"
     },
-    "last_reviewed_entry": "01240_tsureru",
+    "last_reviewed_entry": "01410",
     "00431_yuu": {
       "reviewed_at": "2026-01-21T08:26:48Z",
       "status": "flagged",
@@ -7502,6 +7502,13 @@
       "entries_reviewed": 10,
       "entries_modified": 6,
       "notes": "Batch 57: Core/basic tier entries (narubeku, akachan, kaji, moshi, kanojo, dekirudake) expanded to 5 examples. Fixed tag issues: akachan (removed incorrect formal and medical tags), kaji (formal→neutral), moshi (formal→neutral). 4 general tier entries already compliant."
+    },
+    {
+      "session": "session_20260123_053",
+      "date": "2026-01-23",
+      "entries_reviewed": 170,
+      "modifications": 4,
+      "notes": "Detailed review of 01241-01310, scanned 01311-01410. Many entries 01411+ need more examples."
     }
   ]
 }
