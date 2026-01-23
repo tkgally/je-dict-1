@@ -1,0 +1,104 @@
+{
+  "session_id": "session_20260123_047",
+  "date": "2026-01-23",
+  "start_time": "02:51:00Z",
+  "end_time": "02:55:00Z",
+  "entries_reviewed": [
+    "01181_nemuru",
+    "01182_tazuneru",
+    "01183_fueru",
+    "01184_ikiru",
+    "01185_kazaru",
+    "01186_mukau",
+    "01187_nokoru",
+    "01188_sagaru",
+    "01189_tateru",
+    "01190_futoru"
+  ],
+  "changes_made": [
+    {
+      "entry": "01181_nemuru",
+      "changes": [
+        "Expanded from 3 to 5 examples (basic tier requirement)",
+        "Added examples showing quiet sleeping and inability to sleep"
+      ]
+    },
+    {
+      "entry": "01182_tazuneru",
+      "changes": [
+        "Fixed politeness tag: 'humble' → 'plain' (the verb 訪ねる itself is neutral; 伺う is the humble form noted as a synonym)"
+      ]
+    },
+    {
+      "entry": "01183_fueru",
+      "changes": [
+        "No changes - general tier already compliant with 3 examples"
+      ]
+    },
+    {
+      "entry": "01184_ikiru",
+      "changes": [
+        "Expanded from 3 to 5 examples (basic tier requirement)",
+        "Added example for sense 2 (make a living)"
+      ]
+    },
+    {
+      "entry": "01185_kazaru",
+      "changes": [
+        "No changes - general tier already compliant with 3 examples"
+      ]
+    },
+    {
+      "entry": "01186_mukau",
+      "changes": [
+        "No changes - general tier already compliant with 3 examples"
+      ]
+    },
+    {
+      "entry": "01187_nokoru",
+      "changes": [
+        "No changes - general tier already compliant with 3 examples"
+      ]
+    },
+    {
+      "entry": "01188_sagaru",
+      "changes": [
+        "Expanded from 3 to 5 examples (basic tier requirement)",
+        "Added examples for senses 1 and 2 (go down, decrease)"
+      ]
+    },
+    {
+      "entry": "01189_tateru",
+      "changes": [
+        "Added 建つ to candidate_words.json (intransitive pair of 建てる was missing target_id)"
+      ]
+    },
+    {
+      "entry": "01190_futoru",
+      "changes": [
+        "Expanded from 3 to 5 examples (core tier requirement)",
+        "Added examples with やすい pattern and warning about overeating"
+      ]
+    }
+  ],
+  "tag_fixes": [
+    {
+      "entry": "01182_tazuneru",
+      "fix": "politeness: 'humble' → 'plain'"
+    }
+  ],
+  "vocabulary_fixes": [],
+  "candidate_additions": [
+    {
+      "headword": "建つ",
+      "reading": "たつ",
+      "note": "intransitive pair of 建てる (01189); to be built, to stand (of buildings)"
+    }
+  ],
+  "notes": "Batch 47 of polishing session. 5 of 10 entries modified. Basic tier entries (nemuru, ikiru, sagaru) expanded to 5 examples. Core tier entry (futoru) expanded to 5 examples. Fixed politeness tag on tazuneru (was 'humble' but that applies to the synonym 伺う, not to 訪ねる itself). Added 建つ to candidates as the intransitive pair of 建てる. 5 general tier entries (fueru, kazaru, mukau, nokoru, tateru) were already compliant at 3 examples.",
+  "continuation_notes": {
+    "next_entry": "01191",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue sequential polishing from 01191. Patterns observed: (1) Basic tier entries need 5 examples, (2) Core tier entries need 5 examples, (3) Politeness tags should be 'plain' unless the verb itself (not its synonyms) is humble/honorific, (4) Cross-reference pairs missing target_id should have targets added to candidates."
+  }
+}
