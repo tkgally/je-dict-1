@@ -57,14 +57,21 @@ For each entry in the batch:
 
 1. Read the entry file
 2. Apply the task-specific checklist
-3. **Check example sentences** against the `example-sentences` skill requirements:
+3. **Verify metadata tags are accurate**:
+   - semantic tags must match the word's actual meaning (not template defaults like "building"/"transportation" on unrelated words)
+   - formality and politeness reflect the word's inherent register
+4. **Check example sentences** against the `example-sentences` skill requirements:
    - Verify minimum count for the entry's tier (5 for basic/core, 3 for general)
    - Verify vocabulary restrictions for basic/core tier examples
    - Verify progressive length (shorter to longer)
    - Add, revise, or reorder examples as needed
-4. Make other improvements directly to the entry
-5. Update the `modified` timestamp if changes made
-6. Record the review in your session notes
+5. Make other improvements directly to the entry
+6. **CRITICAL: Update `modified` timestamp for EACH entry individually**:
+   ```bash
+   python3 build/get_timestamp.py  # Run IMMEDIATELY BEFORE saving each entry
+   ```
+   Every modified entry must have its own unique timestamp. Do NOT cache or reuse timestamps across entries.
+7. Record the review in your session notes
 
 ### Phase 2: Record Changes
 
@@ -244,9 +251,10 @@ python3 build/get_timestamp.py
 
 ## Important Reminders
 
-1. **Update timestamps**: When modifying entries, update the `modified` field
-2. **One entry at a time**: Review and edit each entry individually
-3. **Track everything**: All changes go in the session log
-4. **Validate frequently**: Run validation after each batch
-5. **Summarize for user**: Provide clear summary before any commits
-6. **Ask if unsure**: If accuracy is uncertain, flag for human review
+1. **TIMESTAMPS ARE PER-ENTRY**: Run `get_timestamp.py` immediately before saving EACH modified entry. Never use the same timestamp for multiple entries—each needs a unique timestamp reflecting when it was actually modified.
+2. **Verify ALL fields, not just examples**: Check semantic tags match word meaning, formality/politeness are accurate
+3. **One entry at a time**: Review and edit each entry individually
+4. **Track everything**: All changes go in the session log
+5. **Validate frequently**: Run validation after each batch
+6. **Summarize for user**: Provide clear summary before any commits
+7. **Ask if unsure**: If accuracy is uncertain, flag for human review

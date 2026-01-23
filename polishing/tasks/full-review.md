@@ -111,11 +111,11 @@ python3 build/manage_candidates.py add "headword" "reading" "brief note"
 ```
 The script automatically checks for duplicates.
 
-### 9. Metadata
+### 9. Metadata (IMPORTANT - Check for template artifacts)
 - [ ] vocabulary_tier is set appropriately
-- [ ] tags.formality is accurate
+- [ ] tags.formality is accurate (inherent register of the word)
 - [ ] tags.politeness is correct
-- [ ] tags.semantic categories are appropriate
+- [ ] **tags.semantic categories MUST match the word's actual meaning** (watch for template defaults like "building", "transportation" on unrelated words—these are errors)
 - [ ] tags.domain is set if applicable
 
 ### 10. Overall Quality
@@ -123,6 +123,17 @@ The script automatically checks for duplicates.
 - [ ] Information is accurate
 - [ ] Consistent with similar entries
 - [ ] No typos or grammatical errors
+
+## Updating Modified Timestamps
+
+**CRITICAL**: When you modify an entry, you MUST update its `modified` timestamp:
+
+```bash
+# Run this IMMEDIATELY BEFORE saving each modified entry
+python3 build/get_timestamp.py
+```
+
+**Each modified entry must have its own unique timestamp.** Do NOT generate one timestamp at the start and reuse it for all entries—this loses the granularity of knowing when each entry was actually modified.
 
 ## Recording Changes
 
