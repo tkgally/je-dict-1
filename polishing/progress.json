@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-23T00:37:04Z",
+  "last_updated": "2026-01-23T00:43:36Z",
   "description": "Tracks review status of all dictionary entries",
   "statistics": {
     "total_entries": 7479,
-    "reviewed": 1085,
-    "pending": 6394,
+    "reviewed": 1095,
+    "pending": 6384,
     "flagged": 2,
     "skipped": 0,
-    "current_batch_start": "01151",
-    "total_reviewed": 1086,
-    "last_updated": "2026-01-23T00:37:04Z"
+    "current_batch_start": "01161",
+    "total_reviewed": 1096,
+    "last_updated": "2026-01-23T00:43:36Z"
   },
   "entries": {
     "00001_amaru": {
@@ -6140,6 +6140,66 @@
       "review_count": 1,
       "status": "current",
       "notes": "Batch 44 polishing"
+    },
+    "01161_yureru": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing - no changes needed"
+    },
+    "01162_atsumaru": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing"
+    },
+    "01163_hikaru": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing - no changes needed"
+    },
+    "01164_koto": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing"
+    },
+    "01165_mieru": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing"
+    },
+    "01166_nusumu": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing - no changes needed"
+    },
+    "01167_sou": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing"
+    },
+    "01168_tasu": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing - no changes needed"
+    },
+    "01169_yorokobu": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing"
+    },
+    "01170_atsumeru": {
+      "last_reviewed": "2026-01-23T00:43:36Z",
+      "review_count": 1,
+      "status": "current",
+      "notes": "Batch 45 polishing"
     }
   },
   "review_history": [
@@ -6951,6 +7011,13 @@
       "entries_modified": 7,
       "range": "01151-01160",
       "notes": "Batch 44: Core tier entries (nigeru, yamu, hieru, joubu) expanded to 5 examples. Basic tier entry (kou) expanded to 5 examples. Fixed semantic tags: hieru (body-part->temperature), joubu (body-part->quality), taoreru (body-part->action). Fixed cross-reference type for mawasu (see_also->pair). 4 general tier entries (tsumori, imi, niru, mawasu) already compliant at 3 examples."
+    },
+    {
+      "date": "2026-01-23T00:43:36Z",
+      "entries_reviewed": 10,
+      "entries_modified": 7,
+      "range": "01161-01170",
+      "notes": "Batch 45: Basic tier entries (koto, mieru, sou) expanded to 5 examples. Fixed formality tags: yorokobu (formal->neutral), atsumeru (formal->neutral). Fixed politeness tag: mieru (honorific->plain, only sense 3 is honorific). Fixed cross-reference types: atsumaru (see_also->pair), atsumeru (see_also->pair). 5 general tier entries (yureru, hikaru, nusumu, tasu, yorokobu) already compliant at 3 examples."
     }
   ]
 }
