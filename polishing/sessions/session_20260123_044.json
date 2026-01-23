@@ -1,0 +1,110 @@
+{
+  "session_id": "session_20260123_044",
+  "date": "2026-01-23",
+  "start_time": "00:37:00Z",
+  "end_time": "00:45:00Z",
+  "entries_reviewed": [
+    "01151_nigeru",
+    "01152_tsumori",
+    "01153_yamu",
+    "01154_hieru",
+    "01155_imi",
+    "01156_joubu",
+    "01157_kou",
+    "01158_mawasu",
+    "01159_niru",
+    "01160_taoreru"
+  ],
+  "changes_made": [
+    {
+      "entry": "01151_nigeru",
+      "changes": [
+        "Expanded from 3 to 5 examples (core tier requirement)"
+      ]
+    },
+    {
+      "entry": "01152_tsumori",
+      "changes": [
+        "No changes - general tier already compliant with 3 examples"
+      ]
+    },
+    {
+      "entry": "01153_yamu",
+      "changes": [
+        "Expanded from 3 to 5 examples (core tier requirement)",
+        "Added example with やむを得ない (unavoidable) fixed expression"
+      ]
+    },
+    {
+      "entry": "01154_hieru",
+      "changes": [
+        "Expanded from 3 to 5 examples (core tier requirement)",
+        "Fixed semantic tag: 'body-part' → 'temperature' (word is about temperature, not body parts)"
+      ]
+    },
+    {
+      "entry": "01155_imi",
+      "changes": [
+        "No changes - general tier already compliant with 3 examples"
+      ]
+    },
+    {
+      "entry": "01156_joubu",
+      "changes": [
+        "Expanded from 3 to 5 examples (core tier requirement)",
+        "Fixed semantic tag: 'body-part' → 'quality' (word describes quality/durability)"
+      ]
+    },
+    {
+      "entry": "01157_kou",
+      "changes": [
+        "Expanded from 3 to 5 examples (basic tier requirement)",
+        "Added example with こうやって pattern",
+        "Verified vocabulary restrictions (all examples use basic/core tier vocab)"
+      ]
+    },
+    {
+      "entry": "01158_mawasu",
+      "changes": [
+        "Fixed cross-reference type: 'see_also' → 'pair' with proper label (intransitive pair relationship with 回る)"
+      ]
+    },
+    {
+      "entry": "01159_niru",
+      "changes": [
+        "No changes - general tier already compliant with 3 examples"
+      ]
+    },
+    {
+      "entry": "01160_taoreru",
+      "changes": [
+        "Fixed semantic tag: 'body-part' → 'action' (it's an action verb, not about body parts)"
+      ]
+    }
+  ],
+  "tag_fixes": [
+    {
+      "entry": "01154_hieru",
+      "fix": "semantic: 'body-part' → 'temperature'"
+    },
+    {
+      "entry": "01156_joubu",
+      "fix": "semantic: 'body-part' → 'quality'"
+    },
+    {
+      "entry": "01160_taoreru",
+      "fix": "semantic: 'body-part' → 'action'"
+    },
+    {
+      "entry": "01158_mawasu",
+      "fix": "cross-reference type: 'see_also' → 'pair' with label 'intransitive, to turn'"
+    }
+  ],
+  "vocabulary_fixes": [],
+  "notes": "Batch 44 of polishing session. 7 of 10 entries modified. Core tier entries expanded to 5 examples: nigeru, yamu, hieru, joubu. Basic tier entry kou expanded to 5 examples. Fixed semantic tags on 3 entries that had incorrect 'body-part' tag. Fixed cross-reference type for mawasu to properly indicate the transitive/intransitive pair relationship with 回る. 4 general tier entries (tsumori, imi, niru, mawasu) were already compliant at 3 examples. Key finding: Many entries have 'body-part' semantic tag that should be more specific (temperature, quality, action, etc.).",
+  "continuation_notes": {
+    "next_entry": "01161",
+    "pending_tasks": [],
+    "context_for_next_session": "Continue sequential polishing from 01161. Patterns observed: (1) Core tier entries typically need expansion from 3 to 5 examples, (2) Basic tier entries need vocabulary checking in examples 1-2 (basic only) and 3-5 (basic + core), (3) Semantic tag 'body-part' is overused - should only apply to words actually about body parts, not verbs or adjectives describing temperature, quality, or actions, (4) Cross-references for transitive/intransitive pairs should use type 'pair' not 'see_also'."
+  }
+}
