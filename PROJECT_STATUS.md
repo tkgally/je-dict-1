@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-22
+**Last updated**: 2026-01-23
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,899
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,106 | Unassigned: 0 ✓
-- **Candidate words**: ~556 words tracked in `candidate_words.json`
+- **Total entries**: 7,929
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,136 | Unassigned: 0 ✓
+- **Candidate words**: ~527 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-23 (Vocabulary Expansion - 30 New Entries, Session 155)
+Added 30 new dictionary entries from candidate_words.json, covering business terms, cooking vocabulary, compound verbs, and formal/abstract nouns:
+
+- **Business/commerce (7)**: {欠品|けっぴん} (out of stock), {売値|うりね} (selling price), {粗利|あらり} (gross profit), {退職金|たいしょくきん} (retirement allowance), {日給|にっきゅう} (daily wage), {帳簿|ちょうぼ} (ledger), {積立|つみたて} (savings)
+- **Cooking/food (5)**: {水気|みずけ} (moisture), ひじき (hijiki seaweed), {干|ほ}し{椎茸|しいたけ} (dried shiitake), がんもどき (fried tofu fritter), さつま{揚|あ}げ (fried fish cake)
+- **Compound verbs (4)**: {見慣|みな}れる (to get used to seeing), {読|よ}み{返|かえ}す (to reread), {聞|き}き{込|こ}む (to investigate), {降|ふ}り{注|そそ}ぐ (to pour down)
+- **Documents/legal (2)**: {委任状|いにんじょう} (power of attorney), {覚書|おぼえがき} (memorandum)
+- **Daily life/home (3)**: {荷解|にほど}き (unpacking), {節水|せっすい} (water conservation), {漏電|ろうでん} (electrical leak)
+- **Formal/abstract nouns (6)**: {熟考|じゅっこう} (careful consideration), {誇示|こじ} (showing off), {歪曲|わいきょく} (distortion), {更迭|こうてつ} (reshuffle), {看過|かんか} (overlooking), {駆逐|くちく} (eradication)
+- **Motivation (2)**: {奮起|ふんき} (rousing oneself), {発奮|はっぷん} (being inspired)
+- **Photography (1)**: {一眼|いちがん}レフ (SLR camera)
+
+Notable entry features:
+- Business vocabulary covering the full transaction cycle: {粗利|あらり} (gross margin) → {欠品|けっぴん} (out of stock) → {売値|うりね} (selling price)
+- Traditional Japanese foods: がんもどき etymology from "imitation goose", regional name variations
+- Employment vocabulary: {退職金|たいしょくきん} with Japanese employment context, {日給|にっきゅう} vs {月給|げっきゅう}
+- {覚書|おぼえがき} with two senses: (1) personal notes, (2) business MOU
+- 2 new kanji added to kanji index: 簿, 迭
+
+Total entries: 7,899 → 7,929
+Remaining candidates: ~556 → ~527
+New kanji: 2,053 → 2,055
 
 ### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 154)
 Added 30 new dictionary entries from candidate_words.json, covering formal expressions, business terms, physical verbs, and miscellaneous vocabulary:
@@ -338,63 +361,6 @@ Notable entry features:
 
 Total entries: 7,629 → 7,659
 Remaining candidates: ~703 → ~673
-
-### 2026-01-21 (New Candidates - 102 Romaji Abbreviations Added, Session 145)
-Added 102 new candidate words to `candidate_words.json` focusing on romaji abbreviations used in Japanese. These include Japanese-origin abbreviations (from Japanese words), 和製英語 abbreviations (unique Japanese usage of English terms), and specialized domain abbreviations commonly used in Japan:
-
-**Japanese-Origin Abbreviations** (~8 words):
-- Student/age categories: JK (女子高生 - high school girl), JC (女子中学生 - middle school girl), JD (女子大生 - female college student), DK (男子高生 - high school boy)
-- Food: TKG (卵かけご飯 - egg over rice)
-- Alumni: OB (old boy - male alumnus), OG (old girl - female alumna)
-- Work: OL (office lady - female office worker)
-
-**Media/Entertainment Abbreviations** (~15 words):
-- TV/film: CM (commercial message), NG (no good - blooper), SP (special), VTR (video tape recording), PV (promotional video), MV (music video)
-- Anime/manga: CV (character voice), BL (boys' love), GL (girls' love), OP (opening theme), ED (ending theme), OVA (original video animation), SE (sound effect)
-- General: MC (master of ceremonies), BGM (background music), CG (computer graphics)
-
-**Technology/Computing** (~15 words):
-- Hardware: PC (personal computer), USB, CD, DVD, LED, LCD
-- Internet: HP (homepage), URL, PDF
-- Mobile: AI, IT (already existed), ID (already existed)
-- Gaming: NPC, RPG, FPS, MMO, RTA (real-time attack)
-
-**Automotive/Transportation** (~7 words):
-- Transmission: AT (automatic), MT (manual)
-- Vehicle types: EV (electric vehicle)
-- Interchange: IC
-- Appliances: IH (induction heating), AC (air conditioning)
-
-**Sports Abbreviations** (~8 words):
-- Soccer positions: FW (forward), GK (goalkeeper), DF (defender), MF (midfielder)
-- Soccer terms: PA (penalty area), PK (penalty kick)
-- Awards: MVP (most valuable player)
-- Organizations: NBA, MLB
-
-**Medical/Science** (~10 words):
-- Medical: CT, MRI, PTSD, ADHD, AED, CPR, OTC
-- Science: DNA, CO2, IQ, EQ
-
-**Business/Organizations** (~10 words):
-- Organizations: NHK, UN, EU, NPO (already existed), NGO, PTA
-- Business: CEO, PR, OJT, FAQ
-- Lifestyle: DIY, VR, AR, LCC, EC
-
-**Lifestyle/Modern Terms** (~15 words):
-- Housing: LDK (living/dining/kitchen)
-- Social: TPO (time, place, occasion), NEET, DINKS
-- Media: TV, FM, AM, GPS, DJ
-- Communication: OK, SOS, VIP, LGBT, SDGs (already existed)
-- Technology: iOS, OS, SS (screenshot)
-
-Notable features:
-- Comprehensive coverage of romaji abbreviations used daily in Japan
-- Includes Japanese-coined terms (JK, TKG, KY already in dictionary) that reflect uniquely Japanese concepts
-- Media/entertainment abbreviations essential for understanding anime, TV, and internet culture
-- Practical technology and business abbreviations learners encounter in daily life
-- Sports abbreviations commonly used in Japanese sports broadcasting
-
-Candidate count: 601 → 703
 
 ---
 
