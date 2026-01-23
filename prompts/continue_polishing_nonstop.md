@@ -34,9 +34,15 @@ Read the most recent session log in `polishing/sessions/` to get the exact conti
 3. **Review entries** following the full-review task in `polishing/tasks/full-review.md`:
    - Check all fields against quality standards
    - Fix minor issues directly (furigana, formatting, tag errors)
+   - **Verify semantic tags** match the word's actual meaning (watch for template artifacts like "building", "transportation" on unrelated words)
    - **Check and fix example sentences** (see Example Sentence Requirements below)
    - Flag major issues in `polishing/issues.json`
-   - Update `modified` timestamp on any changed entries
+   - **CRITICAL: Update `modified` timestamp for EACH modified entry individually**:
+     ```bash
+     # Run this IMMEDIATELY BEFORE saving each entry you modify
+     python3 build/get_timestamp.py
+     ```
+     Every modified entry must have its own unique timestamp. Do NOT reuse a single timestamp for multiple entries.
 
 4. **After reviewing all entries**:
    ```bash
@@ -149,16 +155,17 @@ Reorder or revise examples if length progression is missing.
 - **Target: ~10 entries per batch** (adjustable based on issue density)
 - **Never stop for context**: Use context reset procedure to continue indefinitely
 - **Stop conditions**: Only stop when user requests OR target entry count is reached
-- **Update timestamps**: Use `python3 build/get_timestamp.py` when modifying entries
+- **TIMESTAMPS ARE PER-ENTRY**: Run `python3 build/get_timestamp.py` immediately before saving EACH modified entry. Never batch timestamps—each modified entry needs its own unique timestamp.
 - **Track all changes**: Record every modification in your session log
 - **Session logs are critical**: They preserve your progress across context resets
+- **Verify ALL fields, not just examples**: Check semantic tags, formality, politeness for accuracy
 - **Cross-reference targets**: If a reference target doesn't exist, add to candidates:
   ```bash
   python3 build/manage_candidates.py add "headword" "reading" "brief note"
   ```
 - **Focus areas for polishing**:
   - Politeness/formality accuracy (word's inherent register vs usage context)
-  - Semantic tag appropriateness
+  - Semantic tag appropriateness (must match word meaning, not copied from templates)
   - Suffix entries should have 'grammatical' semantic tag
   - **Example sentence compliance** (counts, vocabulary tiers, length progression)
 
