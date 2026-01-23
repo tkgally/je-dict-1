@@ -19,16 +19,6 @@
   "examples": [
     {
       "id": "01724_hodo_ex1",
-      "japanese": "{日本語|にほんご}は{難|むずか}しいほど{面白|おもしろ}い。",
-      "english": "The more difficult Japanese is, the more interesting it is.",
-      "notes": "〜ば〜ほど pattern",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01724_hodo_ex2",
       "japanese": "{彼|かれ}ほど{上手|じょうず}な{人|ひと}はいない。",
       "english": "There's no one as skilled as him.",
       "notes": "Comparison pattern",
@@ -38,10 +28,50 @@
       ]
     },
     {
+      "id": "01724_hodo_ex2",
+      "japanese": "{泣|な}きたいほど{嬉|うれ}しい。",
+      "english": "I'm so happy I could cry.",
+      "notes": "Extent pattern",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01724_hodo_ex3",
+      "japanese": "{練習|れんしゅう}すればするほど{上手|じょうず}になる。",
+      "english": "The more you practice, the better you get.",
+      "notes": "〜ば〜ほど pattern",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01724_hodo_ex4",
       "japanese": "1{時間|じかん}ほど{待|ま}ちました。",
       "english": "I waited about one hour.",
       "notes": "Approximate quantity",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01724_hodo_ex5",
+      "japanese": "3{日|にち}ほどかかります。",
+      "english": "It takes about three days.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01724_hodo_ex6",
+      "japanese": "100{人|にん}ほど{集|あつ}まった。",
+      "english": "About 100 people gathered.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         2
@@ -52,7 +82,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:36:53Z",
-    "modified": "2026-01-23T08:38:15Z",
+    "modified": "2026-01-23T09:47:27Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +93,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "grammatical"
       ]
     }
   }
