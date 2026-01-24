@@ -19,7 +19,9 @@ polishing/
 │   │   └── progress.txt                # Next entry to check
 │   ├── furigana-correctness/
 │   │   └── progress.txt                # Next entry to check
-│   └── example-sentences/
+│   ├── example-sentences/
+│   │   └── progress.txt                # Next entry to check
+│   └── semantic-labels/
 │       └── progress.txt                # Next entry to check
 └── sessions/                           # Session logs for context continuation
     └── {task}_{date}_{nnn}.md          # Session continuation notes
@@ -56,6 +58,22 @@ Checks example sentence count, vocabulary level compliance, and appropriateness.
 - Progressive length requirement
 - Natural and appropriate examples
 
+### 4. Semantic Labels (`polish_semantic_labels.md`)
+
+Checks whether semantic tags in `metadata.tags.semantic` accurately reflect each word's meaning. This is a **semantic task** that requires understanding Japanese vocabulary - it cannot be automated.
+
+**What it checks:**
+- Tags match the word's actual semantic category
+- No template artifacts (wrong default tags like "building" on unrelated words)
+- Appropriate specificity
+- Verbs use action categories, not object categories
+- Consistency with similar words
+
+**Common issues:**
+- Template artifacts: Words with irrelevant default tags
+- Verbs tagged with object categories instead of action categories
+- Multiple unrelated tags suggesting copy-paste errors
+
 ## Progress Tracking
 
 Each task has a minimal `progress.txt` file containing only:
@@ -91,4 +109,5 @@ Include:
 
 - **Prompts**: `prompts/polish_*.md`
 - **Skills**: `.claude/skills/example-sentences/SKILL.md`, `.claude/skills/vocabulary-notes/SKILL.md`
-- **Validation**: `build/verify_furigana.py`, `build/validate.py`
+- **Validation**: `build/verify_furigana.py`, `build/validate.py`, `build/validate_tags.py`
+- **Tag taxonomy**: `build/tag_taxonomy.json`
