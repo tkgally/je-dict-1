@@ -24,9 +24,9 @@
   "examples": [
     {
       "id": "00006_aru_ex1",
-      "japanese": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
-      "english": "There is a book on the desk.",
-      "notes": "Existence in a location",
+      "japanese": "{本|ほん}がある。",
+      "english": "There is a book.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -34,32 +34,142 @@
     },
     {
       "id": "00006_aru_ex2",
-      "japanese": "{質問|しつもん}がありますか。",
-      "english": "Do you have any questions?",
-      "notes": "Possession/having",
+      "japanese": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
+      "english": "There is a book on the desk.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        2
+        1
       ]
     },
     {
       "id": "00006_aru_ex3",
-      "japanese": "コンビニは{駅|えき}の{近|ちか}くにあります。",
-      "english": "The convenience store is near the station.",
-      "notes": "Location",
-      "has_audio": false,
-      "sense_numbers": [
-        3
-      ]
-    },
-    {
-      "id": "00006_aru_ex4",
       "japanese": "{明日|あした}、{会議|かいぎ}があります。",
       "english": "There is a meeting tomorrow.",
       "notes": "Existence of an event",
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "00006_aru_ex4",
+      "japanese": "{部屋|へや}に{窓|まど}が{三|みっ}つある。",
+      "english": "There are three windows in the room.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00006_aru_ex5",
+      "japanese": "{今日|きょう}は{午後|ごご}から{大事|だいじ}な{用事|ようじ}があるので、{早|はや}く{帰|かえ}ります。",
+      "english": "I have important errands this afternoon, so I'm leaving early.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00006_aru_ex6",
+      "japanese": "{時間|じかん}がある。",
+      "english": "I have time.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00006_aru_ex7",
+      "japanese": "{質問|しつもん}がありますか。",
+      "english": "Do you have any questions?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00006_aru_ex8",
+      "japanese": "お{金|かね}があれば、{旅行|りょこう}に{行|い}きたい。",
+      "english": "If I had money, I would want to travel.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00006_aru_ex9",
+      "japanese": "{彼|かれ}には{才能|さいのう}がある。",
+      "english": "He has talent.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00006_aru_ex10",
+      "japanese": "{日本|にほん}に{行|い}ったことがありますか。",
+      "english": "Have you ever been to Japan?",
+      "notes": "〜ことがある pattern for experience",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00006_aru_ex11",
+      "japanese": "{駅|えき}はどこにありますか。",
+      "english": "Where is the station?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00006_aru_ex12",
+      "japanese": "{学校|がっこう}は{家|いえ}の{近|ちか}くにある。",
+      "english": "The school is near my house.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00006_aru_ex13",
+      "japanese": "コンビニは{駅|えき}の{前|まえ}にあります。",
+      "english": "The convenience store is in front of the station.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00006_aru_ex14",
+      "japanese": "トイレは{二階|にかい}にあります。",
+      "english": "The restroom is on the second floor.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00006_aru_ex15",
+      "japanese": "その{店|みせ}は{駅|えき}から{歩|ある}いて{五分|ごふん}のところにあります。",
+      "english": "That store is a five-minute walk from the station.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
       ]
     }
   ],
@@ -74,7 +184,7 @@
   ],
   "metadata": {
     "created": "2026-01-05T10:43:43Z",
-    "modified": "2026-01-20T00:57:11Z",
+    "modified": "2026-01-24T05:23:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
