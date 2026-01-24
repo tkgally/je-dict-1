@@ -19,33 +19,83 @@
   "examples": [
     {
       "id": "00470_neru_ex1",
-      "japanese": "{昨日|きのう}は{早|はや}く{寝|ね}ました。",
-      "english": "I went to bed early yesterday.",
+      "japanese": "もう{寝|ね}る。",
+      "english": "I'm going to sleep now.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00470_neru_ex2",
-      "japanese": "{赤|あか}ちゃんはもう{寝|ね}ています。",
-      "english": "The baby is already sleeping.",
-      "notes": "寝ている = sleeping (state)",
+      "japanese": "よく{寝|ね}た。",
+      "english": "I slept well.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00470_neru_ex3",
-      "japanese": "{風邪|かぜ}を{引|ひ}いたので、{寝|ね}ていました。",
-      "english": "I had a cold, so I was lying in bed.",
-      "notes": "Sense 2: lying down due to illness",
+      "japanese": "{赤|あか}ちゃんはもう{寝|ね}ている。",
+      "english": "The baby is already sleeping.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00470_neru_ex4",
+      "japanese": "{昨日|きのう}は{八時間|はちじかん}{寝|ね}ました。",
+      "english": "I slept for eight hours yesterday.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00470_neru_ex5",
+      "japanese": "{疲|つか}れていたので、{電車|でんしゃ}の{中|なか}で{寝|ね}てしまった。{駅|えき}を{乗|の}り{過|す}ごした。",
+      "english": "I was tired, so I fell asleep on the train. I missed my stop.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00470_neru_ex6",
+      "japanese": "{早|はや}く{寝|ね}なさい。",
+      "english": "Go to bed early.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00470_neru_ex7",
+      "japanese": "{昨日|きのう}は{十一時|じゅういちじ}に{寝|ね}た。",
+      "english": "I went to bed at 11 o'clock yesterday.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00470_neru_ex8",
+      "japanese": "{風邪|かぜ}を{引|ひ}いたので、{寝|ね}ていた。",
+      "english": "I had a cold, so I was lying in bed.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00470_neru_ex9",
+      "japanese": "{疲|つか}れたからベッドに{寝|ね}たい。",
+      "english": "I'm tired, so I want to lie down in bed.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00470_neru_ex10",
+      "japanese": "{毎日|まいにち}{十二時|じゅうにじ}に{寝|ね}て、{七時|しちじ}に{起|お}きる。{朝|あさ}は{少|すこ}し{眠|ねむ}い。",
+      "english": "I go to bed at 12 o'clock every day and wake up at 7. I'm a little sleepy in the morning.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xが{寝|ね}る (X sleeps).\n\nASPECT: ている indicates resulting state. {寝|ね}ている = 'is sleeping/asleep' (state).\n\nCOMMON PATTERNS:\n・{早|はや}く{寝|ね}る (go to bed early)\n・{寝|ね}ている (is sleeping)\n・{寝|ね}る{前|まえ}に (before sleeping)\n・{寝坊|ねぼう}する (to oversleep)\n\nOpposite: {起|お}きる (to wake up/get up).",
@@ -59,7 +109,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:25:44Z",
-    "modified": "2026-01-19T12:17:40.253037Z",
+    "modified": "2026-01-24T06:34:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
