@@ -17,21 +17,27 @@
       "japanese": "{契約書|けいやくしょ}に{押印|おういん}してください。",
       "english": "Please affix your seal to the contract.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07488_ouin_ex2",
       "japanese": "{署名|しょめい}{押印|おういん}の{上|うえ}、ご{返送|へんそう}ください。",
       "english": "Please sign, stamp, and return the document.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07488_ouin_ex3",
       "japanese": "{押印|おういん}は{朱肉|しゅにく}を{使|つか}ってください。",
       "english": "Please use red ink pad for stamping.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{押|お}す (to push/stamp) + {印|いん} (seal)\n\nSIMILAR TERMS:\n・{押印|おういん} - formal term for seal stamping\n・{捺印|なついん} - also means affixing a seal (more formal)\n・{判|はん}を{押|お}す - casual way to say \"stamp one's seal\"\n\nSEAL CULTURE IN JAPAN:\nSeals ({印鑑|いんかん}/{判子|はんこ}) have traditionally been used in Japan instead of signatures for:\n- {契約書|けいやくしょ} - contracts\n- {申請書|しんせいしょ} - applications  \n- {届|とど}け{出|で} - notifications\n- {受領書|じゅりょうしょ} - receipts\n\nCOMMON EXPRESSIONS:\n・{署名|しょめい}{押印|おういん} - signature and seal\n・{押印欄|おういんらん} - seal impression box (on forms)\n・{押印|おういん}する/しない - with/without seal required\n\nMODERN TREND:\nDue to digitalization, many companies and government offices are moving toward reducing {押印|おういん} requirements. This is called {脱|だつ}ハンコ or ハンコレス.",
@@ -40,25 +46,36 @@
       "type": "related",
       "reading": "みとめいん",
       "headword": "{認印|みとめいん}",
-      "label": "personal seal"
+      "label": "personal seal",
+      "target_id": "07489_mitomein"
     },
     {
       "type": "related",
       "reading": "じついん",
       "headword": "{実印|じついん}",
-      "label": "registered seal"
+      "label": "registered seal",
+      "target_id": "07490_jitsuin"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-01-20T05:43:45Z",
+    "modified": "2026-01-24T14:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "semantic": ["business-action", "document"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "business-action",
+        "document"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ]
     }
   }
 }

@@ -17,21 +17,27 @@
       "japanese": "{引|ひ}っ{越|こ}したら{印鑑登録|いんかんとうろく}をし{直|なお}す{必要|ひつよう}がある。",
       "english": "You need to re-register your seal when you move.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07491_inkantouroku_ex2",
       "japanese": "{印鑑登録|いんかんとうろく}は{市区町村|しくちょうそん}の{窓口|まどぐち}で{行|おこな}います。",
       "english": "Seal registration is done at your local municipal office.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07491_inkantouroku_ex3",
       "japanese": "{印鑑登録|いんかんとうろく}には{身分証明書|みぶんしょうめいしょ}が{必要|ひつよう}です。",
       "english": "ID is required for seal registration.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{印鑑|いんかん} (seal) + {登録|とうろく} (registration)\n\nREGISTRATION REQUIREMENTS:\n・{本人|ほんにん}{確認|かくにん}{書類|しょるい} - ID documents\n・{登録|とうろく}する{印鑑|いんかん} - the seal to register\n・{登録|とうろく}{手数料|てすうりょう} - registration fee (varies by municipality)\n\nAFTER REGISTRATION:\nYou receive an {印鑑登録証|いんかんとうろくしょう} (registration card). This card is needed to obtain {印鑑証明書|いんかんしょうめいしょ} (seal certificate) when required for official transactions.\n\nSEAL REQUIREMENTS:\n{登録|とうろく}できる{印鑑|いんかん}:\n・Size: usually 8mm-25mm\n・Material: durable ({木|き}, {角|つの}, {象牙|ぞうげ}, チタン, etc.)\n・Clear impression\n・Shows registrant's name\n\n{登録|とうろく}できない{印鑑|いんかん}:\n・Mass-produced (100{円|えん}ショップ type)\n・Rubber stamps\n・Damaged or unclear impressions\n\nIMPORTANT NOTES:\n・One person can register only one seal\n・Registration is tied to your {住民票|じゅうみんひょう} address\n・Must re-register when moving to a new municipality",
@@ -40,19 +46,28 @@
       "type": "related",
       "reading": "じついん",
       "headword": "{実印|じついん}",
-      "label": "registered seal"
+      "label": "registered seal",
+      "target_id": "07490_jitsuin"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-01-20T05:43:45Z",
+    "modified": "2026-01-24T14:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "semantic": ["administrative", "legal"],
-      "domain": ["legal"]
+      "semantic": [
+        "administrative",
+        "legal"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

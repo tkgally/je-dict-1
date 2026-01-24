@@ -17,21 +17,27 @@
       "japanese": "{電気代|でんきだい}は{口座|こうざ}{引落|ひきおと}しにしている。",
       "english": "I have my electricity bill set up for automatic deduction.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07556_hikiotoshi_ex2",
       "japanese": "{引落|ひきおと}し{日|び}は{毎月|まいつき}27{日|にち}です。",
       "english": "The deduction date is the 27th of every month.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07556_hikiotoshi_ex3",
       "japanese": "{残高|ざんだか}{不足|ぶそく}で{引落|ひきおと}しができなかった。",
       "english": "The automatic deduction failed due to insufficient balance.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{引|ひき} (pull) + {落|おと}し (drop) - literally \"pulling down\" money from an account\n\nALTERNATIVE EXPRESSIONS:\n・{自動引落|じどうひきおと}し - automatic deduction\n・{口座振替|こうざふりかえ} - account transfer (more formal)\n・{自動振替|じどうふりかえ} - automatic transfer\n\nCOMMON COLLOCATIONS:\n・{口座|こうざ}{引落|ひきおと}し - bank account deduction\n・{引落|ひきおと}し{日|び} - deduction date\n・{引落|ひきおと}し{口座|こうざ} - account for deductions\n・{引落|ひきおと}しを{設定|せってい}する - to set up automatic deduction\n・{引落|ひきおと}しが{できる|できない} - deduction can/cannot be processed\n\nCOMMON USES IN JAPAN:\n・{公共料金|こうきょうりょうきん} - utility bills (electricity, gas, water)\n・{家賃|やちん} - rent\n・クレジットカード{支払|しはら}い - credit card payments\n・{保険料|ほけんりょう} - insurance premiums\n・サブスク{料金|りょうきん} - subscription fees",
@@ -40,19 +46,26 @@
       "type": "related",
       "reading": "こうじょ",
       "headword": "{控除|こうじょ}",
-      "label": "deduction (tax)"
+      "label": "deduction (tax)",
+      "target_id": "07501_koujo"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-20T08:47:47Z",
+    "modified": "2026-01-24T14:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["business"],
-      "domain": ["business"]
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

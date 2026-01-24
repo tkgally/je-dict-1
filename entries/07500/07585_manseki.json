@@ -17,21 +17,27 @@
       "japanese": "レストランは{満席|まんせき}で{入|はい}れなかった。",
       "english": "The restaurant was fully booked and we couldn't get in.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07585_manseki_ex2",
       "japanese": "{今日|きょう}の{便|びん}は{満席|まんせき}です。",
       "english": "Today's flight is fully booked.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07585_manseki_ex3",
       "japanese": "{映画館|えいがかん}は{週末|しゅうまつ}いつも{満席|まんせき}だ。",
       "english": "The movie theater is always fully booked on weekends.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{満|まん} (full) + {席|せき} (seat)\nLiterally: \"seats are full\"\n\nCOMMON COLLOCATIONS:\n・{満席|まんせき}になる - to become fully booked\n・{満席|まんせき}のため - because it's fully booked\n・ほぼ{満席|まんせき} - almost fully booked\n\nANTONYM:\n・{空席|くうせき} - empty seat, vacancy\n\nRELATED WORDS:\n・{満員|まんいん} - full, packed (general capacity)\n・{予約|よやく}{済|ず}み - reserved\n・{完売|かんばい} - sold out (tickets/products)\n\n{満席|まんせき} vs {満員|まんいん}:\n・{満席|まんせき} - specifically about seats being full (restaurants, flights, theaters)\n・{満員|まんいん} - about people capacity in general (trains, venues)",
@@ -40,18 +46,25 @@
       "type": "antonym",
       "reading": "くうせき",
       "headword": "{空席|くうせき}",
-      "label": "empty seat"
+      "label": "empty seat",
+      "target_id": "07586_kuuseki"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-01-20T10:31:31Z",
+    "modified": "2026-01-24T14:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "semantic": ["state", "capacity"]
+      "semantic": [
+        "state",
+        "capacity"
+      ]
     }
   }
 }

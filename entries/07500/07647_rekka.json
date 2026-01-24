@@ -17,21 +17,27 @@
       "japanese": "{画質|がしつ}が{劣化|れっか}した。",
       "english": "The image quality degraded.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07647_rekka_ex2",
       "japanese": "{電池|でんち}が{劣化|れっか}して{容量|ようりょう}が{減|へ}った。",
       "english": "The battery deteriorated and its capacity decreased.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07647_rekka_ex3",
       "japanese": "{経年|けいねん}{劣化|れっか}によりゴムが{固|かた}くなった。",
       "english": "The rubber hardened due to deterioration over time.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・{画質|がしつ}の{劣化|れっか} - image quality degradation\n・{音質|おんしつ}の{劣化|れっか} - sound quality degradation\n・{経年|けいねん}{劣化|れっか} - deterioration over time, aging\n・{品質|ひんしつ}の{劣化|れっか} - quality degradation\n・{電池|でんち}の{劣化|れっか} - battery degradation\n\nUSAGE:\nUsed for both physical deterioration and abstract quality decline.\n\nRELATED WORDS:\n・{老朽化|ろうきゅうか} - aging, becoming decrepit (infrastructure)\n・{腐食|ふしょく} - corrosion\n・{悪化|あっか} - worsening",
@@ -40,19 +46,28 @@
       "type": "related",
       "reading": "ろうきゅうか",
       "headword": "{老朽化|ろうきゅうか}",
-      "label": "aging"
+      "label": "aging",
+      "target_id": "07646_roukyuuka"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-01-20T13:21:59Z",
+    "modified": "2026-01-24T14:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["transformation", "deterioration"],
-      "domain": ["technical"]
+      "semantic": [
+        "transformation",
+        "deterioration"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

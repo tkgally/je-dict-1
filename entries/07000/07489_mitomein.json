@@ -17,21 +17,27 @@
       "japanese": "{宅配|たくはい}の{受|う}け{取|と}りは{認印|みとめいん}で{大丈夫|だいじょうぶ}です。",
       "english": "A personal seal is fine for receiving deliveries.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07489_mitomein_ex2",
       "japanese": "{認印|みとめいん}は100{円|えん}ショップでも{買|か}えます。",
       "english": "You can buy a personal seal even at a 100-yen shop.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07489_mitomein_ex3",
       "japanese": "この{書類|しょるい}は{認印|みとめいん}でいいですか、{実印|じついん}が{必要|ひつよう}ですか。",
       "english": "Is a personal seal okay for this document, or do I need a registered seal?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{認|みと}める (to acknowledge) + {印|いん} (seal)\n\nAlso read as にんいん in formal contexts.\n\nCHARACTERISTICS:\n・Not registered with the government\n・Inexpensive (can be mass-produced)\n・Used for everyday, low-stakes documents\n・Often just shows the family name ({苗字|みょうじ})\n\nCOMMON USES:\n・{宅配便|たくはいびん}の{受|う}け{取|と}り - receiving packages\n・{回覧板|かいらんばん} - neighborhood circulars\n・{社内|しゃない}{書類|しょるい} - internal company documents\n・{銀行|ぎんこう}の{届出印|とどけでいん} (sometimes)\n\nSEAL HIERARCHY:\n1. {認印|みとめいん} - everyday use, not registered\n2. {銀行印|ぎんこういん} - bank seal (registered with bank)\n3. {実印|じついん} - registered seal (with {印鑑登録|いんかんとうろく})\n\nCONTRAST:\n{認印|みとめいん} is casual/everyday while {実印|じついん} is official/legal.",
@@ -40,25 +46,34 @@
       "type": "contrast",
       "reading": "じついん",
       "headword": "{実印|じついん}",
-      "label": "registered seal"
+      "label": "registered seal",
+      "target_id": "07490_jitsuin"
     },
     {
       "type": "related",
       "reading": "おういん",
       "headword": "{押印|おういん}",
-      "label": "affixing a seal"
+      "label": "affixing a seal",
+      "target_id": "07488_ouin"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-01-20T05:43:45Z",
+    "modified": "2026-01-24T14:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["object", "document"],
-      "domain": ["business"]
+      "semantic": [
+        "object",
+        "document"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }
