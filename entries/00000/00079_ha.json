@@ -92,51 +92,81 @@
       "id": "00079_ha_ex1",
       "japanese": "{私|わたし}は{学生|がくせい}です。",
       "english": "I am a student.",
-      "notes": "{私|わたし} is the topic; the sentence tells us something about {私|わたし}",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00079_ha_ex2",
-      "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
-      "english": "This book is interesting.",
-      "notes": "この{本|ほん} is the topic being described",
+      "japanese": "これは{何|なん}ですか。",
+      "english": "What is this?",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00079_ha_ex3",
-      "japanese": "{魚|さかな}は{食|た}べますが、{肉|にく}は{食|た}べません。",
-      "english": "I eat fish, but I don't eat meat.",
-      "notes": "Contrastive は: comparing fish and meat",
+      "japanese": "{今日|きょう}は{天気|てんき}がいいです。",
+      "english": "The weather is nice today.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00079_ha_ex4",
-      "japanese": "{東京|とうきょう}には{行|い}きましたが、{大阪|おおさか}には{行|い}きませんでした。",
-      "english": "I went to Tokyo, but I didn't go to Osaka.",
-      "notes": "は replacing に to show contrast between destinations",
+      "japanese": "{田中|たなか}さんは{先生|せんせい}で、{山田|やまだ}さんは{医者|いしゃ}です。",
+      "english": "Tanaka-san is a teacher, and Yamada-san is a doctor.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00079_ha_ex5",
-      "japanese": "{象|ぞう}は{鼻|はな}が{長|なが}い。",
-      "english": "Elephants have long trunks. (lit: As for elephants, [their] trunks are long.)",
-      "notes": "Double-subject construction: topic は + subject が",
+      "japanese": "{象|ぞう}は{鼻|はな}が{長|なが}い。これはみんな{知|し}っていることだ。",
+      "english": "Elephants have long trunks. Everyone knows this.",
+      "notes": "Double-subject construction",
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00079_ha_ex6",
+      "japanese": "これは{好|す}きだ。",
+      "english": "I like this one. (implying: but not that one)",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00079_ha_ex7",
+      "japanese": "{魚|さかな}は{食|た}べる。",
+      "english": "I do eat fish. (implying: but not meat)",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00079_ha_ex8",
+      "japanese": "{読|よ}みはするが、{書|か}くのは{苦手|にがて}だ。",
+      "english": "I can read (it), but I'm not good at writing.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00079_ha_ex9",
+      "japanese": "{映画|えいが}は{見|み}ましたが、{本|ほん}はまだ{読|よ}んでいません。",
+      "english": "I watched the movie, but I haven't read the book yet.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00079_ha_ex10",
+      "japanese": "{平日|へいじつ}は{忙|いそが}しいですが、{週末|しゅうまつ}は{時間|じかん}があるので、ぜひ{遊|あそ}びに{来|き}てください。",
+      "english": "I'm busy on weekdays, but I have time on weekends, so please come visit.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
     }
   ],
   "common_mistakes": [
@@ -171,7 +201,7 @@
   ],
   "metadata": {
     "created": "2026-01-05T10:02:55Z",
-    "modified": "2026-01-19T12:14:14.897583Z",
+    "modified": "2026-01-24T06:18:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -164,53 +164,123 @@
   "examples": [
     {
       "id": "00051_ga_ex1",
-      "japanese": "{誰|だれ}が{来|き}ましたか。{田中|たなか}さんが{来|き}ました。",
-      "english": "Who came? Tanaka-san came.",
-      "notes": "が identifies the subject in a 'who' question and answer",
+      "japanese": "{雨|あめ}が{降|ふ}っている。",
+      "english": "It's raining.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00051_ga_ex2",
-      "japanese": "{日本語|にほんご}が{分|わ}かりますか。",
-      "english": "Do you understand Japanese?",
-      "notes": "が with {分|わ}かる (understand)",
+      "japanese": "{誰|だれ}が{来|き}ましたか。",
+      "english": "Who came?",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00051_ga_ex3",
-      "japanese": "{猫|ねこ}が{好|す}きです。",
-      "english": "I like cats.",
-      "notes": "が with {好|す}き (like)",
+      "japanese": "{私|わたし}が{行|い}きます。",
+      "english": "I'll go. (I'm the one who'll go.)",
+      "notes": "Emphasizes 'I' as the one",
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00051_ga_ex4",
-      "japanese": "{行|い}きたいですが、{時間|じかん}がありません。",
-      "english": "I want to go, but I don't have time.",
-      "notes": "が as a conjunction meaning 'but'",
+      "japanese": "あ、{電話|でんわ}が{鳴|な}っている。{誰|だれ}からだろう。",
+      "english": "Oh, the phone is ringing. I wonder who it's from.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        3
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00051_ga_ex5",
-      "japanese": "{私|わたし}が{行|い}きます。",
-      "english": "I'll go. (I'm the one who'll go)",
-      "notes": "Exhaustive-listing が: emphasizes 'I' as the one (not others)",
+      "japanese": "{何|なに}が{一番|いちばん}{大切|たいせつ}か{考|かんが}えてみてください。{答|こた}えは{人|ひと}によって{違|ちが}います。",
+      "english": "Please think about what is most important. The answer differs from person to person.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00051_ga_ex6",
+      "japanese": "{水|みず}が{欲|ほ}しい。",
+      "english": "I want water.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00051_ga_ex7",
+      "japanese": "{日本語|にほんご}が{分|わ}かる。",
+      "english": "I understand Japanese.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00051_ga_ex8",
+      "japanese": "{私|わたし}は{猫|ねこ}が{好|す}きです。",
+      "english": "I like cats.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00051_ga_ex9",
+      "japanese": "{彼|かれ}は{料理|りょうり}が{上手|じょうず}で、{何|なん}でも{作|つく}れる。",
+      "english": "He is good at cooking and can make anything.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00051_ga_ex10",
+      "japanese": "{私|わたし}は{犬|いぬ}が{怖|こわ}いので、{近|ちか}くに{来|こ}ないでほしいと{思|おも}っている。",
+      "english": "I'm afraid of dogs, so I don't want them to come near me.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00051_ga_ex11",
+      "japanese": "{高|たか}いですが、{買|か}います。",
+      "english": "It's expensive, but I'll buy it.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00051_ga_ex12",
+      "japanese": "{すみませんが|すみませんが}、{道|みち}を{教|おし}えてください。",
+      "english": "Excuse me, but could you tell me the way?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00051_ga_ex13",
+      "japanese": "{行|い}きたいですが、{時間|じかん}がありません。",
+      "english": "I want to go, but I don't have time.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00051_ga_ex14",
+      "japanese": "{難|むずか}しいですが、やってみます。",
+      "english": "It's difficult, but I'll try.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00051_ga_ex15",
+      "japanese": "{彼|かれ}の{説明|せつめい}は{詳|くわ}しかったですが、{私|わたし}にはまだ{難|むずか}しくてよく{分|わ}かりませんでした。",
+      "english": "His explanation was detailed, but it was still too difficult for me and I didn't understand it well.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
     }
   ],
   "common_mistakes": [
@@ -239,7 +309,7 @@
   ],
   "metadata": {
     "created": "2026-01-05T10:56:11Z",
-    "modified": "2026-01-19T12:17:39.953054Z",
+    "modified": "2026-01-24T06:17:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

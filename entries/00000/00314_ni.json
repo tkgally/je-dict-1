@@ -249,63 +249,243 @@
   "examples": [
     {
       "id": "00314_ni_ex1",
-      "japanese": "{東京|とうきょう}に{行|い}きます。",
-      "english": "I will go to Tokyo.",
-      "notes": "Destination",
+      "japanese": "{学校|がっこう}に{行|い}く。",
+      "english": "I go to school.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00314_ni_ex2",
-      "japanese": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
-      "english": "There is a book on the desk.",
-      "notes": "Location of existence",
+      "japanese": "{東京|とうきょう}に{行|い}きます。",
+      "english": "I will go to Tokyo.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00314_ni_ex3",
-      "japanese": "{七時|しちじ}に{起|お}きます。",
-      "english": "I wake up at 7 o'clock.",
-      "notes": "Specific time",
+      "japanese": "{電車|でんしゃ}に{乗|の}ってください。",
+      "english": "Please get on the train.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        3
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00314_ni_ex4",
-      "japanese": "{母|はは}にプレゼントをあげました。",
-      "english": "I gave a present to my mother.",
-      "notes": "Indirect object/recipient",
+      "japanese": "{日本|にほん}に{来|き}てからもう{三年|さんねん}になる。",
+      "english": "It has been three years since I came to Japan.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        4
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00314_ni_ex5",
-      "japanese": "{買|か}い{物|もの}に{行|い}きます。",
-      "english": "I'm going shopping.",
-      "notes": "Purpose ({買|か}い{物|もの} = shopping)",
+      "japanese": "{毎年|まいとし}{夏|なつ}になると、{家族|かぞく}で{海|うみ}に{行|い}く。{子供|こども}たちはいつも{楽|たの}しみにしている。",
+      "english": "Every summer, my family goes to the beach. The kids always look forward to it.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        5
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00314_ni_ex6",
-      "japanese": "{電車|でんしゃ}に{乗|の}ってください。",
-      "english": "Please get on the train.",
-      "notes": "に with {乗|の}る (board/get on)",
+      "japanese": "{猫|ねこ}が{部屋|へや}にいる。",
+      "english": "The cat is in the room.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00314_ni_ex7",
+      "japanese": "{机|つくえ}の{上|うえ}に{本|ほん}がある。",
+      "english": "There is a book on the desk.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00314_ni_ex8",
+      "japanese": "{東京|とうきょう}に{住|す}んでいます。",
+      "english": "I live in Tokyo.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00314_ni_ex9",
+      "japanese": "{駅|えき}の{近|ちか}くにコンビニがある。",
+      "english": "There's a convenience store near the station.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00314_ni_ex10",
+      "japanese": "この{町|まち}には{古|ふる}い{神社|じんじゃ}があって、{毎年|まいとし}{多|おお}くの{人|ひと}が{訪|おとず}れる。",
+      "english": "There is an old shrine in this town, and many people visit every year.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00314_ni_ex11",
+      "japanese": "{三時|さんじ}に{会|あ}おう。",
+      "english": "Let's meet at 3 o'clock.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00314_ni_ex12",
+      "japanese": "{七時|しちじ}に{起|お}きる。",
+      "english": "I wake up at 7 o'clock.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00314_ni_ex13",
+      "japanese": "{月曜日|げつようび}に{会議|かいぎ}がある。",
+      "english": "There is a meeting on Monday.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00314_ni_ex14",
+      "japanese": "{七月|しちがつ}に{日本|にほん}に{来|き}ました。",
+      "english": "I came to Japan in July.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00314_ni_ex15",
+      "japanese": "{毎朝|まいあさ}{六時|ろくじ}に{起|お}きて、{七時|しちじ}に{家|いえ}を{出|で}て、{八時|はちじ}に{会社|かいしゃ}に{着|つ}く。",
+      "english": "Every morning I wake up at 6, leave home at 7, and arrive at work at 8.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "00314_ni_ex16",
+      "japanese": "{友達|ともだち}に{本|ほん}をあげた。",
+      "english": "I gave a book to my friend.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [4]
+    },
+    {
+      "id": "00314_ni_ex17",
+      "japanese": "{先生|せんせい}に{質問|しつもん}する。",
+      "english": "I ask the teacher a question.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [4]
+    },
+    {
+      "id": "00314_ni_ex18",
+      "japanese": "{母|はは}に{電話|でんわ}をした。",
+      "english": "I called my mother.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [4]
+    },
+    {
+      "id": "00314_ni_ex19",
+      "japanese": "{子供|こども}に{日本語|にほんご}を{教|おし}えている。",
+      "english": "I am teaching Japanese to children.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [4]
+    },
+    {
+      "id": "00314_ni_ex20",
+      "japanese": "{誕生日|たんじょうび}に{友達|ともだち}にプレゼントをもらって、とても{嬉|うれ}しかった。",
+      "english": "I received a present from a friend on my birthday and was very happy.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [4]
+    },
+    {
+      "id": "00314_ni_ex21",
+      "japanese": "{映画|えいが}を{見|み}に{行|い}く。",
+      "english": "I'm going to see a movie.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [5]
+    },
+    {
+      "id": "00314_ni_ex22",
+      "japanese": "{買|か}い{物|もの}に{行|い}きます。",
+      "english": "I'm going shopping.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [5]
+    },
+    {
+      "id": "00314_ni_ex23",
+      "japanese": "{食|た}べに{行|い}こう。",
+      "english": "Let's go eat.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [5]
+    },
+    {
+      "id": "00314_ni_ex24",
+      "japanese": "{友達|ともだち}に{会|あ}いに{来|き}た。",
+      "english": "I came to see my friend.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [5]
+    },
+    {
+      "id": "00314_ni_ex25",
+      "japanese": "{週末|しゅうまつ}は{友達|ともだち}と{遊|あそ}びに{行|い}く{予定|よてい}で、{どこに|どこに}{行|い}くか{今|いま}{考|かんが}えている。",
+      "english": "I'm planning to go hang out with friends this weekend, and I'm thinking about where to go.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [5]
+    },
+    {
+      "id": "00314_ni_ex26",
+      "japanese": "{犬|いぬ}に{噛|か}まれた。",
+      "english": "I was bitten by a dog.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [6]
+    },
+    {
+      "id": "00314_ni_ex27",
+      "japanese": "{先生|せんせい}に{褒|ほ}められた。",
+      "english": "I was praised by my teacher.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [6]
+    },
+    {
+      "id": "00314_ni_ex28",
+      "japanese": "{雨|あめ}に{降|ふ}られた。",
+      "english": "I got rained on.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [6]
+    },
+    {
+      "id": "00314_ni_ex29",
+      "japanese": "{母|はは}に{起|お}こされた。",
+      "english": "I was woken up by my mother.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [6]
+    },
+    {
+      "id": "00314_ni_ex30",
+      "japanese": "{子供|こども}の{頃|ころ}、{両親|りょうしん}に{厳|きび}しく{育|そだ}てられたので、{今|いま}でも{礼儀|れいぎ}を{大切|たいせつ}にしている。",
+      "english": "Since I was raised strictly by my parents when I was a child, I still value manners.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [6]
     }
   ],
   "common_mistakes": [
@@ -347,7 +527,7 @@
   ],
   "metadata": {
     "created": "2026-01-05T10:40:56Z",
-    "modified": "2026-01-21T03:23:59Z",
+    "modified": "2026-01-24T06:21:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

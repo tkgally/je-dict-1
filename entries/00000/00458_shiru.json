@@ -19,33 +19,83 @@
   "examples": [
     {
       "id": "00458_shiru_ex1",
-      "japanese": "この{言葉|ことば}を{知|し}っていますか。",
-      "english": "Do you know this word?",
-      "notes": "{知|し}っている for current state of knowing",
+      "japanese": "{知|し}っている。",
+      "english": "I know.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00458_shiru_ex2",
-      "japanese": "{昨日|きのう}そのニュースを{知|し}りました。",
-      "english": "I learned that news yesterday.",
-      "notes": "{知|し}った for the moment of learning",
+      "japanese": "{知|し}らない。",
+      "english": "I don't know.",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [1]
     },
     {
       "id": "00458_shiru_ex3",
-      "japanese": "{知|し}らない{人|ひと}に{話|はな}しかけないでください。",
-      "english": "Please don't talk to strangers.",
-      "notes": "{知|し}らない = don't know (unknown)",
+      "japanese": "この{言葉|ことば}を{知|し}っていますか。",
+      "english": "Do you know this word?",
+      "notes": null,
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00458_shiru_ex4",
+      "japanese": "{知|し}らない{人|ひと}に{話|はな}しかけないで。",
+      "english": "Don't talk to strangers.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00458_shiru_ex5",
+      "japanese": "あの{歌手|かしゅ}のことは{名前|なまえ}しか{知|し}らないが、{歌|うた}は{聞|き}いたことがない。",
+      "english": "I only know that singer's name, but I've never heard their songs.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "00458_shiru_ex6",
+      "japanese": "{知|し}りました。",
+      "english": "I found out.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00458_shiru_ex7",
+      "japanese": "{昨日|きのう}ニュースで{知|し}った。",
+      "english": "I learned it from the news yesterday.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00458_shiru_ex8",
+      "japanese": "{彼|かれ}のことを{友達|ともだち}から{知|し}った。",
+      "english": "I learned about him from a friend.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00458_shiru_ex9",
+      "japanese": "その{事実|じじつ}を{知|し}って{驚|おどろ}いた。",
+      "english": "I was surprised when I found out that fact.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "00458_shiru_ex10",
+      "japanese": "{本|ほん}を{読|よ}んで{新|あたら}しいことを{知|し}るのは{楽|たの}しい。{毎日|まいにち}{何|なに}か{学|まな}びたい。",
+      "english": "It's fun to learn new things by reading books. I want to learn something every day.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{知|し}る (know/learn X).\n\nASPECT: SPECIAL - ている indicates resulting state of knowing. {知|し}っている = 'know' (state of having learned). The negative is {知|し}らない (NOT {知|し}っていない). This positive/negative asymmetry is unique.\n\nCOMMON PATTERNS:\n・{知|し}っていますか (Do you know?)\n・{知|し}りません/{知|し}らない (I don't know)\n・{知|し}りました (I learned/found out)\n・{知|し}らない{人|ひと} (stranger/unknown person)\n\n{知|し}る = moment of learning; {知|し}っている = state of knowing. Different from {分|わ}かる (to understand).",
@@ -59,7 +109,7 @@
   ],
   "metadata": {
     "created": "2026-01-05T12:50:03Z",
-    "modified": "2026-01-19T12:14:15.655848Z",
+    "modified": "2026-01-24T06:34:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
