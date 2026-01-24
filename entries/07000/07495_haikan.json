@@ -17,21 +17,27 @@
       "japanese": "{配管|はいかん}{工事|こうじ}のため{水|みず}を{止|と}めます。",
       "english": "We will shut off the water for plumbing work.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07495_haikan_ex2",
       "japanese": "{古|ふる}い{建物|たてもの}は{配管|はいかん}が{傷|いた}んでいることが{多|おお}い。",
       "english": "Old buildings often have damaged plumbing.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07495_haikan_ex3",
       "japanese": "{配管|はいかん}から{水漏|みずも}れしている。",
       "english": "There's a water leak from the pipes.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{配|はい} (distribute) + {管|かん} (pipe, tube)\n\nLiterally \"distributing pipes\" - the system of pipes that distributes water/gas throughout a building.\n\nTYPES OF {配管|はいかん}:\n・{給水|きゅうすい}{配管|はいかん} - water supply piping\n・{排水|はいすい}{配管|はいかん} - drainage piping\n・ガス{配管|はいかん} - gas piping\n・{空調|くうちょう}{配管|はいかん} - HVAC piping\n\nCOMMON EXPRESSIONS:\n・{配管|はいかん}{工事|こうじ} - plumbing work\n・{配管|はいかん}{業者|ぎょうしゃ} - plumber/plumbing contractor\n・{配管|はいかん}を{通|とお}す - to run pipes\n・{配管|はいかん}が{詰|つ}まる - pipes get clogged\n\nCOMMON ISSUES:\n・{水漏|みずも}れ - water leak\n・{詰|つ}まり - clogging\n・{凍結|とうけつ} - freezing (in winter)\n・{老朽化|ろうきゅうか} - deterioration (in old buildings)\n\nRELATED TERMS:\n・{水道管|すいどうかん} - water pipe\n・{排水管|はいすいかん} - drain pipe",
@@ -40,19 +46,28 @@
       "type": "related",
       "reading": "みずもれ",
       "headword": "{水漏|みずも}れ",
-      "label": "water leak"
+      "label": "water leak",
+      "target_id": "07936_mizumore"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-01-20T05:43:45Z",
+    "modified": "2026-01-24T14:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["infrastructure", "building"],
-      "domain": ["technical"]
+      "semantic": [
+        "infrastructure",
+        "building"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

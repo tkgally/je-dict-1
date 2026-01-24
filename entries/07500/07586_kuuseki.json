@@ -22,21 +22,27 @@
       "japanese": "{空席|くうせき}が{見|み}つかったら{座|すわ}ってください。",
       "english": "Please sit down if you find an empty seat.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07586_kuuseki_ex2",
       "japanese": "{飛行機|ひこうき}に{空席|くうせき}があるか{確認|かくにん}した。",
       "english": "I checked if there were any available seats on the flight.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07586_kuuseki_ex3",
       "japanese": "{委員会|いいんかい}に{空席|くうせき}が{出|で}た。",
       "english": "A vacancy appeared on the committee.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{空|くう} (empty, vacant) + {席|せき} (seat)\n\nCOMMON COLLOCATIONS:\n・{空席|くうせき}がある - there is an empty seat\n・{空席|くうせき}を{探|さが}す - to look for an empty seat\n・{空席|くうせき}{待|ま}ち - waiting for a seat/vacancy\n・{空席|くうせき}{状況|じょうきょう} - seat availability\n\nANTONYM:\n・{満席|まんせき} - fully booked, no seats available\n\nRELATED WORDS:\n・{空|あ}き{席|せき} - empty seat (same meaning, different reading)\n・{空|あ}き - vacancy, opening\n・{欠員|けついん} - vacancy (in personnel)",
@@ -45,18 +51,24 @@
       "type": "antonym",
       "reading": "まんせき",
       "headword": "{満席|まんせき}",
-      "label": "fully booked"
+      "label": "fully booked",
+      "target_id": "07585_manseki"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-01-20T10:31:31Z",
+    "modified": "2026-01-24T14:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["state", "capacity"]
+      "semantic": [
+        "state",
+        "capacity"
+      ]
     }
   }
 }
