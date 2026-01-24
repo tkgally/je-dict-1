@@ -1,141 +1,94 @@
 # Dictionary Polishing System
 
-This directory contains the infrastructure for systematic review, improvement, and quality assurance of dictionary entries. The system is designed to support ongoing refinement as the dictionary grows and evolves.
+This directory contains the task-based polishing framework for je-dict-1. Each polishing task focuses on a single aspect of entry quality, allowing thorough review without overlooking issues.
 
-## Overview
+## Design Philosophy
 
-The polishing system provides:
-1. **Systematic review** - Methodical checking of entries by category, field, or criteria
-2. **Progress tracking** - Records of what has been reviewed and when
-3. **Issue management** - Documentation of problems found and their resolutions
-4. **Session continuity** - Notes and context for resuming work across conversations
-5. **Task prompts** - Specific review procedures for different aspects of entries
+- **One task, one focus**: Each polishing workflow checks only one specific feature per entry
+- **Semantic tasks**: These tasks require human/AI knowledge and cannot be automated
+- **Minimal progress tracking**: Only the next entry to process is recorded
+- **Nonstop workflow**: Uses context reset procedure to work continuously
 
 ## Directory Structure
 
 ```
 polishing/
-├── README.md              # This file
-├── config.json            # System configuration and review criteria
-├── progress.json          # Master tracking of review status by entry
-├── issues.json            # Problems found, solutions, and patterns
-├── queue.json             # Prioritized review queue
-├── sessions/              # Individual session logs
-│   └── session_YYYYMMDD_NNN.json
-└── tasks/                 # Review task prompts
-    ├── full-review.md           # Complete entry review checklist
-    ├── cross-references.md      # Cross-reference validation
-    ├── examples.md              # Example quality review
-    ├── notes-consistency.md     # Notes field standardization
-    ├── definitions.md           # Definition clarity review
-    ├── tags.md                  # Tag accuracy review
-    └── furigana.md              # Furigana completeness check
+├── README.md                           # This file
+├── tasks/                              # Task-specific progress tracking
+│   ├── furigana-completeness/
+│   │   └── progress.txt                # Next entry to check
+│   ├── furigana-correctness/
+│   │   └── progress.txt                # Next entry to check
+│   └── example-sentences/
+│       └── progress.txt                # Next entry to check
+└── sessions/                           # Session logs for context continuation
+    └── {task}_{date}_{nnn}.md          # Session continuation notes
 ```
 
-## How to Use
+## Available Tasks
 
-### Starting a Polishing Session
+### 1. Furigana Completeness (`polish_furigana_completeness.md`)
 
-1. Point Claude to the appropriate task prompt in `tasks/`
-2. Claude will check `progress.json` to find entries needing review
-3. Claude will systematically review entries, recording changes
-4. At session end, Claude updates all tracking files and summarizes work
+Checks whether all kanji in an entry have furigana markup. This is a **semantic task** that requires knowledge of Japanese readings - it cannot be automated.
 
-### Invoking the Polishing Skill
+**What it checks:**
+- Headword furigana
+- Example sentence furigana
+- Notes field furigana
+- Cross-reference furigana
 
-Use the `/polish` skill to start a polishing session:
+### 2. Furigana Correctness (`polish_furigana_correctness.md`)
+
+Checks whether existing furigana readings are correct. This is a **semantic task** that requires knowledge of Japanese readings - it cannot be automated.
+
+**What it checks:**
+- Correct readings for all kanji
+- Proper rendaku/compound readings
+- Context-appropriate readings (e.g., 今日 as きょう vs こんにち)
+
+### 3. Example Sentences (`polish_example_sentences.md`)
+
+Checks example sentence count, vocabulary level compliance, and appropriateness. This is a **semantic task** (except counting) that requires language knowledge.
+
+**What it checks:**
+- Minimum example counts per sense (5 for basic/core, 3 for general)
+- Vocabulary tier restrictions for basic and core entries
+- Progressive length requirement
+- Natural and appropriate examples
+
+## Progress Tracking
+
+Each task has a minimal `progress.txt` file containing only:
+
 ```
-/polish                    # Start with default settings (next batch from queue)
-/polish --task full-review # Run a specific review task
-/polish --entries 100-150  # Review specific entry range
-/polish --category verbs   # Focus on a specific part of speech
+next: 00001
 ```
 
-### Understanding the Tracking Files
+This allows quick context loading. When starting a task, read this file to find where to continue.
 
-#### progress.json
-Tracks the review status of every entry:
-- `last_reviewed`: When the entry was last fully reviewed
-- `review_count`: How many times it has been reviewed
-- `status`: current | needs_review | flagged | skip
-- `notes`: Any reviewer notes about this entry
+## Session Logs
 
-#### issues.json
-Tracks patterns and problems:
-- `open`: Issues that need attention
-- `resolved`: Issues that have been fixed (with solutions)
-- `patterns`: Recurring problems to watch for
-- `improvements`: Suggestions for better practices
+When context runs low, write a session log to `sessions/` before resetting:
 
-#### queue.json
-Maintains a prioritized list of entries to review:
-- Entries flagged for issues
-- Entries never reviewed
-- Entries with stale reviews (older than threshold)
-- Randomly sampled entries for spot-checking
+```
+sessions/{task-name}_{YYYYMMDD}_{NNN}.md
+```
 
-## Review Criteria
+Include:
+- Last entry reviewed
+- Next entry to process
+- Any patterns or issues discovered
+- Brief notes for continuation
 
-Each review checks entries against these quality standards:
+## Adding New Tasks
 
-### Required Fields
-- [ ] Valid ID format matching filename
-- [ ] Headword with proper furigana on all kanji
-- [ ] Reading in hiragana only (long vowel marker ー is also allowed)
-- [ ] Appropriate part_of_speech
-- [ ] Clear, accurate gloss
-- [ ] Complete metadata with all required tags
+1. Create a directory in `tasks/{task-name}/`
+2. Create `progress.txt` with `next: 00001`
+3. Create prompt at `prompts/polish_{task_name}.md`
+4. Add task description to this README
 
-### Content Quality
-- [ ] Definitions are clear and distinguish senses
-- [ ] Examples illustrate actual usage
-- [ ] Notes provide genuinely helpful information
-- [ ] Cross-references point to valid, related entries (see below for handling missing targets)
-- [ ] No redundant or contradictory information
+## Related Files
 
-### Cross-Reference Target Handling
-When a cross-reference points to an entry that does not exist yet:
-1. Add the target word to `candidate_words.json` using:
-   ```bash
-   python3 build/manage_candidates.py add "headword" "reading" "brief note"
-   ```
-2. The script automatically checks for duplicates and will refuse to add if the word already exists
-3. This ensures cross-reference targets are queued for future entry creation
-
-### Consistency
-- [ ] Formatting matches project conventions
-- [ ] Tag usage aligns with taxonomy
-- [ ] Similar entries are structured similarly
-- [ ] Terminology is consistent across entries
-
-### Accuracy
-- [ ] Japanese text is correct
-- [ ] English translations are accurate
-- [ ] Grammar explanations are correct
-- [ ] Cultural notes are appropriate
-
-## Session Workflow
-
-1. **Load context** - Read progress.json and queue.json
-2. **Select batch** - Choose entries to review based on task
-3. **Review entries** - Apply checklist, make improvements
-4. **Record changes** - Log all modifications with timestamps
-5. **Update tracking** - Mark entries as reviewed, update issues
-6. **Summarize** - Report changes to user for approval
-
-## Integration with Existing Systems
-
-This system complements the existing validation tools:
-- `build/validate.py` - Structural validation (run before/after polishing)
-- `build/validate_tags.py` - Tag consistency checking
-- `.claude/skills/revise-entries/` - Guidelines for revising entries
-
-The polishing system focuses on content quality and consistency that automated validation cannot fully check.
-
-## Scalability
-
-The system is designed to handle the growing dictionary:
-- Entries are reviewed in manageable batches
-- Progress tracking enables resumption across sessions
-- Issues are categorized for efficient batch fixing
-- Random sampling ensures ongoing quality monitoring
+- **Prompts**: `prompts/polish_*.md`
+- **Skills**: `.claude/skills/example-sentences/SKILL.md`, `.claude/skills/vocabulary-notes/SKILL.md`
+- **Validation**: `build/verify_furigana.py`, `build/validate.py`
