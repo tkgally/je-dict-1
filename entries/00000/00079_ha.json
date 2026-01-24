@@ -92,7 +92,7 @@
       "id": "00079_ha_ex1",
       "japanese": "{私|わたし}は{学生|がくせい}です。",
       "english": "I am a student.",
-      "notes": "{私|わたし} is the topic; the sentence tells us something about {私|わたし}",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -100,9 +100,9 @@
     },
     {
       "id": "00079_ha_ex2",
-      "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
-      "english": "This book is interesting.",
-      "notes": "この{本|ほん} is the topic being described",
+      "japanese": "これは{本|ほん}です。",
+      "english": "This is a book.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -110,32 +110,82 @@
     },
     {
       "id": "00079_ha_ex3",
-      "japanese": "{魚|さかな}は{食|た}べますが、{肉|にく}は{食|た}べません。",
-      "english": "I eat fish, but I don't eat meat.",
-      "notes": "Contrastive は: comparing fish and meat",
+      "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
+      "english": "This book is interesting.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        2
+        1
       ]
     },
     {
       "id": "00079_ha_ex4",
-      "japanese": "{東京|とうきょう}には{行|い}きましたが、{大阪|おおさか}には{行|い}きませんでした。",
-      "english": "I went to Tokyo, but I didn't go to Osaka.",
-      "notes": "は replacing に to show contrast between destinations",
+      "japanese": "{象|ぞう}は{鼻|はな}が{長|なが}い。",
+      "english": "Elephants have long trunks.",
+      "notes": "Double-subject construction",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00079_ha_ex5",
+      "japanese": "{日本語|にほんご}は{難|むずか}しいですが、{面白|おもしろ}いです。",
+      "english": "Japanese is difficult, but interesting.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00079_ha_ex6",
+      "japanese": "{肉|にく}は{食|た}べる。",
+      "english": "I eat meat (as for meat, I eat it).",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         2
       ]
     },
     {
-      "id": "00079_ha_ex5",
-      "japanese": "{象|ぞう}は{鼻|はな}が{長|なが}い。",
-      "english": "Elephants have long trunks. (lit: As for elephants, [their] trunks are long.)",
-      "notes": "Double-subject construction: topic は + subject が",
+      "id": "00079_ha_ex7",
+      "japanese": "{行|い}きはしたけど。",
+      "english": "I did go, but...",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
+      ]
+    },
+    {
+      "id": "00079_ha_ex8",
+      "japanese": "{魚|さかな}は{食|た}べますが、{肉|にく}は{食|た}べません。",
+      "english": "I eat fish, but I don't eat meat.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00079_ha_ex9",
+      "japanese": "{東京|とうきょう}には{行|い}きましたが、{大阪|おおさか}には{行|い}きませんでした。",
+      "english": "I went to Tokyo, but I didn't go to Osaka.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00079_ha_ex10",
+      "japanese": "{読|よ}みはしたが、{理解|りかい}はできなかった。",
+      "english": "I did read it, but I couldn't understand it.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
@@ -171,7 +221,7 @@
   ],
   "metadata": {
     "created": "2026-01-05T10:02:55Z",
-    "modified": "2026-01-19T12:14:14.897583Z",
+    "modified": "2026-01-24T05:46:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
