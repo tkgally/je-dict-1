@@ -7,6 +7,56 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-24 (Vocabulary Expansion - 30 New Entries, Session 156)
+Added 30 new dictionary entries from candidate_words.json, covering formal/business vocabulary, legal terminology, financial/accounting terms, and excellence/criticism vocabulary:
+
+- **Vision/perception (1)**: {翳|かす}む (to become misty/dim)
+- **Social behavior (2)**: {迎合|げいごう} (ingratiation), {横槍|よこやり} (interference/meddling)
+- **Control/deterrence (2)**: {抑止|よくし} (deterrence), {自制|じせい} (self-control)
+- **Criticism/tyranny (4)**: {暴挙|ぼうきょ} (outrage), {横暴|おうぼう} (tyranny), {蛮行|ばんこう} (barbaric act), {専横|せんおう} (despotism)
+- **Excellence terms (4)**: {着実|ちゃくじつ} (steady), {卓越|たくえつ} (excellence), {凌駕|りょうが} (surpassing), {傑出|けっしゅつ} (outstanding)
+- **Financial/accounting (7)**: {換算|かんさん} (conversion), {充当|じゅうとう} (allocation), {計上|けいじょう} (recording), {弁済|べんさい} (repayment), {償還|しょうかん} (redemption), {資金繰|しきんぐ}り (cash flow), {台帳|だいちょう} (register/ledger)
+- **Explanation/apology (3)**: {弁解|べんかい} (excuse), {弁明|べんめい} (explanation), {陳謝|ちんしゃ} (apology)
+- **Legal terms (2)**: {告発|こくはつ} (accusation), {告訴|こくそ} (lawsuit/complaint)
+- **Mining/excavation (3)**: {発掘|はっくつ} (excavation), {採掘|さいくつ} (mining), {掘削|くっさく} (drilling)
+- **Change/deterioration (2)**: {腐敗|ふはい} (corruption/decay), {鈍化|どんか} (slowing down)
+
+Notable entry features:
+- {翳|かす}む with 3 senses: (1) physical mist/haze, (2) dimming vision, (3) being overshadowed
+- {発掘|はっくつ} with 2 senses: (1) archaeological excavation, (2) discovering hidden talent
+- {腐敗|ふはい} with 2 senses: (1) physical decay/rot, (2) political/moral corruption
+- Business vocabulary chain: {計上|けいじょう} (record) → {弁済|べんさい} (repay) → {償還|しょうかん} (redeem)
+- Criticism terms with cultural notes on workplace behavior and political discourse
+- Legal terminology pair: {告発|こくはつ} (accusation) vs {告訴|こくそ} (formal complaint)
+- 4 new kanji added to kanji index: 槍, 翳, 蛮, 駕
+
+Total entries: 7,929 → 7,959
+Remaining candidates: ~527 → ~497
+New kanji: 2,055 → 2,059
+
+### 2026-01-23 (Vocabulary Expansion - 30 New Entries, Session 155)
+Added 30 new dictionary entries from candidate_words.json, covering business terms, cooking vocabulary, compound verbs, and formal/abstract nouns:
+
+- **Business/commerce (7)**: {欠品|けっぴん} (out of stock), {売値|うりね} (selling price), {粗利|あらり} (gross profit), {退職金|たいしょくきん} (retirement allowance), {日給|にっきゅう} (daily wage), {帳簿|ちょうぼ} (ledger), {積立|つみたて} (savings)
+- **Cooking/food (5)**: {水気|みずけ} (moisture), ひじき (hijiki seaweed), {干|ほ}し{椎茸|しいたけ} (dried shiitake), がんもどき (fried tofu fritter), さつま{揚|あ}げ (fried fish cake)
+- **Compound verbs (4)**: {見慣|みな}れる (to get used to seeing), {読|よ}み{返|かえ}す (to reread), {聞|き}き{込|こ}む (to investigate), {降|ふ}り{注|そそ}ぐ (to pour down)
+- **Documents/legal (2)**: {委任状|いにんじょう} (power of attorney), {覚書|おぼえがき} (memorandum)
+- **Daily life/home (3)**: {荷解|にほど}き (unpacking), {節水|せっすい} (water conservation), {漏電|ろうでん} (electrical leak)
+- **Formal/abstract nouns (6)**: {熟考|じゅっこう} (careful consideration), {誇示|こじ} (showing off), {歪曲|わいきょく} (distortion), {更迭|こうてつ} (reshuffle), {看過|かんか} (overlooking), {駆逐|くちく} (eradication)
+- **Motivation (2)**: {奮起|ふんき} (rousing oneself), {発奮|はっぷん} (being inspired)
+- **Photography (1)**: {一眼|いちがん}レフ (SLR camera)
+
+Notable entry features:
+- Business vocabulary covering the full transaction cycle: {粗利|あらり} (gross margin) → {欠品|けっぴん} (out of stock) → {売値|うりね} (selling price)
+- Traditional Japanese foods: がんもどき etymology from "imitation goose", regional name variations
+- Employment vocabulary: {退職金|たいしょくきん} with Japanese employment context, {日給|にっきゅう} vs {月給|げっきゅう}
+- {覚書|おぼえがき} with two senses: (1) personal notes, (2) business MOU
+- 2 new kanji added to kanji index: 簿, 迭
+
+Total entries: 7,899 → 7,929
+Remaining candidates: ~556 → ~527
+New kanji: 2,053 → 2,055
+
 ### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 154)
 Added 30 new dictionary entries from candidate_words.json, covering formal expressions, business terms, physical verbs, and miscellaneous vocabulary:
 
