@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,049
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,226 | Unassigned: 0 ✓
-- **Candidate words**: ~408 words tracked in `candidate_words.json`
+- **Total entries**: 8,079
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,256 | Unassigned: 0 ✓
+- **Candidate words**: ~378 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,36 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 160)
+Added 30 new dictionary entries from candidate_words.json, covering cooking techniques, traditional foods, gardening/horticulture, music terminology, hobbies, and daily life vocabulary:
+
+- **Cooking cuts (3)**: {斜|なな}め{切|ぎ}り (diagonal cut), {半月切|はんげつぎ}り (half-moon slices), いちょう{切|ぎ}り (quarter rounds)
+- **Traditional foods (4)**: {切|き}り{干|ほ}し{大根|だいこん} (dried shredded daikon), お{麩|ふ} (wheat gluten), {車麩|くるまふ} (wheel-shaped fu), とろろ{昆布|こんぶ} (shredded kelp)
+- **Gardening/Horticulture (4)**: {苗床|なえどこ} (seedbed), {種|たね}まき (sowing seeds), {挿|さ}し{木|き} (plant cutting), {接|つ}ぎ{木|き} (grafting)
+- **Music instruments/genres (4)**: {指揮棒|しきぼう} (conductor's baton), チェロ (cello), ロック (rock music), ミキシング (audio mixing)
+- **Music production (1)**: レコーディング (recording)
+- **Hobbies/Activities (2)**: {鳥見|とりみ} (birdwatching), {星見|ほしみ} (stargazing)
+- **Home/Infrastructure (3)**: {水道管|すいどうかん} (water pipe), {蓄電池|ちくでんち} (storage battery), {鴨居|かもい} (lintel)
+- **Environment (1)**: {埋立地|うめたてち} (reclaimed land/landfill)
+- **Medical/Anatomy (2)**: {粘膜|ねんまく} (mucous membrane), {横隔膜|おうかくまく} (diaphragm)
+- **Academic (1)**: {学説|がくせつ} (academic theory)
+- **Numbers (2)**: {百万|ひゃくまん} (one million), {万人|ばんにん} (everyone)
+- **Body/Figurative (1)**: {舌先|したさき} (tip of tongue; glib talk)
+- **Cooking/Household (2)**: {水加減|みずかげん} (water amount), {喫茶室|きっさしつ} (tea room)
+
+Notable entry features:
+- Cutting technique cluster: {斜|なな}め{切|ぎ}り/{半月切|はんげつぎ}り/いちょう{切|ぎ}り with cooking context
+- Traditional Japanese foods: wheat gluten varieties (お{麩|ふ}, {車麩|くるまふ}) and preserved vegetables
+- Gardening propagation methods: {挿|さ}し{木|き} vs {接|つ}ぎ{木|き} with technique descriptions
+- Music production chain: レコーディング → ミキシング → (マスタリング)
+- Multi-sense entry: {舌先|したさき} (physical tip of tongue vs. glib/smooth talk)
+- Traditional architecture: {鴨居|かもい} with cultural notes about low height in old houses
+- 3 new kanji added to kanji index: 膜 (02063), 鴨 (02064), 麩 (02065)
+
+Total entries: 8,049 → 8,079
+Remaining candidates: ~408 → ~378
+New kanji: 2,062 → 2,065
 
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 159)
 Added 30 new dictionary entries from candidate_words.json, covering household vocabulary, cooking techniques, shopping/business terms, transformation nouns (-化), and practical daily life expressions:
@@ -357,25 +387,6 @@ Notable entry features:
 
 Total entries: 7,779 → 7,809
 Remaining candidates: ~563 → ~540
-
-### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 150)
-Added 30 new dictionary entries from candidate_words.json, covering expressive verbs, descriptive adjectives, traditional Japanese architectural terms, and useful everyday vocabulary:
-
-- **Expressive verbs (10)**: {際立|きわだ}つ (to stand out), {安|やす}らぐ (to feel at ease), ひしめく (to crowd together), {項垂|うなだ}れる (to hang one's head), はにかむ (to be shy), {淀|よど}む (to stagnate), かすれる (to become hoarse), ふやける (to become soggy), ぼける (to become senile/blurred), {漲|みなぎ}る (to overflow with)
-- **Descriptive adjectives (7)**: {疎|うと}い (unfamiliar with), {浅|あさ}ましい (shameful), {物悲|ものがな}しい (melancholy), {忌々|いまいま}しい (annoying), ぞんざい (careless/rude), けばい (gaudy), こすい (sly)
-- **Traditional/architectural (5)**: {土間|どま} (dirt floor entry), {軒下|のきした} (under the eaves), {柱時計|はしらどけい} (pendulum clock), {傾|かたむ}き (tilt/slope), {諦観|ていかん} (resignation)
-- **Everyday vocabulary (6)**: {身|み}の{回|まわ}り (one's surroundings), {小休止|しょうきゅうし} (short break), {山脈|さんみゃく} (mountain range), {具|ぐ} (ingredients), あて (prospect), {世話人|せわにん} (organizer)
-- **Expressions (2)**: {思|おも}いのほか (more than expected), あのね (you know)
-
-Notable entry features:
-- ぼける with 3 senses: (1) becoming senile, (2) being blurred/out of focus (source of English "bokeh"), (3) playing dumb in comedy
-- {淀|よど}む with 2 senses: (1) stagnant water, (2) hesitant speech
-- {疎|うと}い with 2 senses: (1) unfamiliar with something, (2) estranged in relationships
-- Traditional Japanese house vocabulary: {土間|どま}, {軒下|のきした} with cultural context
-- {諦観|ていかん} with Buddhist philosophical undertones
-
-Total entries: 7,749 → 7,779
-Remaining candidates: ~584 → ~563
 
 ---
 

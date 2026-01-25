@@ -7,6 +7,25 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 150)
+Added 30 new dictionary entries from candidate_words.json, covering expressive verbs, descriptive adjectives, traditional Japanese architectural terms, and useful everyday vocabulary:
+
+- **Expressive verbs (10)**: {際立|きわだ}つ (to stand out), {安|やす}らぐ (to feel at ease), ひしめく (to crowd together), {項垂|うなだ}れる (to hang one's head), はにかむ (to be shy), {淀|よど}む (to stagnate), かすれる (to become hoarse), ふやける (to become soggy), ぼける (to become senile/blurred), {漲|みなぎ}る (to overflow with)
+- **Descriptive adjectives (7)**: {疎|うと}い (unfamiliar with), {浅|あさ}ましい (shameful), {物悲|ものがな}しい (melancholy), {忌々|いまいま}しい (annoying), ぞんざい (careless/rude), けばい (gaudy), こすい (sly)
+- **Traditional/architectural (5)**: {土間|どま} (dirt floor entry), {軒下|のきした} (under the eaves), {柱時計|はしらどけい} (pendulum clock), {傾|かたむ}き (tilt/slope), {諦観|ていかん} (resignation)
+- **Everyday vocabulary (6)**: {身|み}の{回|まわ}り (one's surroundings), {小休止|しょうきゅうし} (short break), {山脈|さんみゃく} (mountain range), {具|ぐ} (ingredients), あて (prospect), {世話人|せわにん} (organizer)
+- **Expressions (2)**: {思|おも}いのほか (more than expected), あのね (you know)
+
+Notable entry features:
+- ぼける with 3 senses: (1) becoming senile, (2) being blurred/out of focus (source of English "bokeh"), (3) playing dumb in comedy
+- {淀|よど}む with 2 senses: (1) stagnant water, (2) hesitant speech
+- {疎|うと}い with 2 senses: (1) unfamiliar with something, (2) estranged in relationships
+- Traditional Japanese house vocabulary: {土間|どま}, {軒下|のきした} with cultural context
+- {諦観|ていかん} with Buddhist philosophical undertones
+
+Total entries: 7,749 → 7,779
+Remaining candidates: ~584 → ~563
+
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 149)
 Added 30 new dictionary entries from candidate_words.json, covering technology terms, business loanwords, scheduling vocabulary, and practical everyday expressions:
 
