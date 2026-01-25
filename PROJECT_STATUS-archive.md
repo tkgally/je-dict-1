@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 157)
+Added 30 new dictionary entries from candidate_words.json, covering science/chemistry terms, business operations, transformation nouns (-化), legal/document vocabulary, and everyday expressions:
+
+- **Science/Chemistry (5)**: {風化|ふうか} (weathering), {凝縮|ぎょうしゅく} (condensation), {溶解|ようかい} (dissolution), {腐食|ふしょく} (corrosion), {還元|かんげん} (reduction)
+- **Business operations (3)**: {操業|そうぎょう} (operation), {民営化|みんえいか} (privatization), {国有化|こくゆうか} (nationalization)
+- **Transformation nouns -化 (6)**: {簡略化|かんりゃくか} (simplification), {規格化|きかくか} (standardization), {常態化|じょうたいか} (normalization), {空洞化|くうどうか} (hollowing out), {硬直化|こうちょくか} (rigidity), {陳腐化|ちんぷか} (obsolescence)
+- **Legal/Documents (4)**: {誓約書|せいやくしょ} (written pledge), {捺印|なついん} (seal stamping), {言|い}い{逃|のが}れる (to make excuses), {差|さ}し{押|お}さえ (seizure)
+- **Evidence/Scope (3)**: {喫煙|きつえん} (smoking), {網羅|もうら} (comprehensive coverage), {裏付|うらづ}け (backing/evidence)
+- **Disappointment/Effort (4)**: {拍子抜|ひょうしぬ}け (anticlimax), {肩透|かたすか}かし (letdown), {二度手間|にどでま} (double work), {骨折|ほねお}り{損|ぞん} (wasted effort)
+- **Nature (2)**: {潮風|しおかぜ} (sea breeze), {朝露|あさつゆ} (morning dew)
+- **Activities (2)**: サイクリング (cycling), ランニング (running)
+- **Daily life (1)**: {物干|ものほ}し{竿|ざお} (laundry pole)
+
+Notable entry features:
+- Cross-references: {民営化|みんえいか} ↔ {国有化|こくゆうか} (antonym pair), {拍子抜|ひょうしぬ}け ↔ {肩透|かたすか}かし (similar disappointment)
+- Multi-sense entries: {風化|ふうか} (physical weathering vs. fading from memory), {凝縮|ぎょうしゅく} (physical vs. figurative condensation), {溶解|ようかい} (dissolving vs. melting), {還元|かんげん} (chemical reduction vs. returning benefits), {肩透|かたすか}かし (disappointment vs. sumo technique), ランニング (running vs. running costs)
+- Six related -化 transformation nouns describing organizational/systemic changes
+- {捺印|なついん} with cultural context on Japanese seal culture ({印鑑|いんかん})
+- 1 new kanji added to kanji index: 捺
+
+Total entries: 7,959 → 7,989
+Remaining candidates: ~497 → ~467
+New kanji: 2,059 → 2,060
+
 ### 2026-01-24 (Vocabulary Expansion - 30 New Entries, Session 156)
 Added 30 new dictionary entries from candidate_words.json, covering formal/business vocabulary, legal terminology, financial/accounting terms, and excellence/criticism vocabulary:
 
