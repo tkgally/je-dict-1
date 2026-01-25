@@ -7,6 +7,31 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 153)
+Added 30 new dictionary entries from candidate_words.json, covering sound verbs, compound verbs, adjectives, business/logistics terms, food vocabulary, and more:
+
+- **Sound/crowd verbs (2)**: どよめく (to stir/be in uproar), ざわめく (to rustle/murmur)
+- **Multi-sense verbs (1)**: {煽|あお}る with 3 senses: (1) to fan, (2) to incite/stir up, (3) to tailgate
+- **Compound verbs (6)**: {持|も}て{余|あま}す (to have more than one can handle), {培|つちか}う (to cultivate), {聞|き}き{流|なが}す (to let pass), {乗|の}り{過|す}ごす (to ride past), {聞|き}き{逃|のが}す (to fail to hear), {傾|かし}げる (to tilt)
+- **Adjectives (4)**: {艶|なまめ}かしい (alluring), おぞましい (disgusting), {巧妙|こうみょう} (clever/ingenious), {果敢|かかん} (bold/daring)
+- **Leak/damage nouns (2)**: {雨漏|あまも}り (roof leak), {水漏|みずも}れ (water leak)
+- **Business/logistics (6)**: {梱包|こんぽう} (packing), {荷造|にづく}り (packing for moving), {入荷|にゅうか} (arrival of goods), {棚卸|たなおろ}し (inventory), {問屋|とんや} (wholesaler), {着払|ちゃくばら}い (cash on delivery)
+- **Formal/abstract nouns (5)**: {淘汰|とうた} (selection/weeding out), {改竄|かいざん} (falsification), {黙認|もくにん} (tacit approval), {惰性|だせい} (inertia), {抜擢|ばってき} (promotion/selection)
+- **Food/kitchen (3)**: {湯葉|ゆば} (tofu skin), {高野豆腐|こうやどうふ} (freeze-dried tofu), {土鍋|どなべ} (earthenware pot)
+- **Weather (1)**: {暴風|ぼうふう} (violent wind/gale)
+
+Notable entry features:
+- どよめく vs ざわめく comparison: どよめく is sudden collective reaction, ざわめく is continuous background noise
+- {煽|あお}る covers physical fanning, social incitement, and modern driving term ({煽|あお}り{運転|うんてん})
+- {改竄|かいざん} with notes on modern contexts (documents, data, DNA) and kanji/kana writing conventions
+- Food vocabulary: {湯葉|ゆば} and {高野豆腐|こうやどうふ} with preparation and regional variation notes
+- Business logistics chain: {入荷|にゅうか} (goods in) → {棚卸|たなおろ}し (inventory) → {問屋|とんや} (wholesale)
+- 7 new kanji added to kanji index: 培, 惰, 擢, 梱, 淘, 煽, 竄
+
+Total entries: 7,839 → 7,869
+Remaining candidates: ~610 → ~585
+New kanji: 2,040 → 2,047
+
 ### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 152)
 Added 30 new dictionary entries from candidate_words.json, covering compound verbs, adjectives, sports terms, culinary vocabulary, and daily life expressions:
 

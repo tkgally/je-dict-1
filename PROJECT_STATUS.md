@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,109
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,286 | Unassigned: 0 ✓
-- **Candidate words**: ~557 words tracked in `candidate_words.json`
+- **Total entries**: 8,139
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,316 | Unassigned: 0 ✓
+- **Candidate words**: ~527 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,34 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 162)
+Added 30 new dictionary entries from candidate_words.json, covering verbs, adjectives, food/dining vocabulary, shopping terms, travel/places, cooking heat levels, media/entertainment, and science terms:
+
+- **Verbs (4)**: {咲|さ}く (to bloom), {飼|か}う (to keep/raise animals), {照|て}れる (to be shy), おごる (to treat someone)
+- **Adjectives (2)**: {乏|とぼ}しい (scarce), {険|けわ}しい (steep)
+- **Food/Dining (7)**: {出前|でまえ} (food delivery), {割|わ}り{勘|かん} (splitting bill), {味見|あじみ} (tasting), {持|も}ち{帰|かえ}り (takeout), {大盛|おおも}り (large serving)
+- **Shopping/Retail (2)**: {福袋|ふくぶくろ} (lucky bag), おまけ (bonus/freebie)
+- **Cooking heat levels (3)**: {弱火|よわび} (low heat), {中火|ちゅうび} (medium heat), {強火|つよび} (high heat)
+- **Household (1)**: {洗|あら}い{物|もの} (dishes to wash)
+- **Travel/Places (4)**: {名所|めいしょ} (famous place), {民宿|みんしゅく} (guesthouse), {坂道|さかみち} (slope), {行|い}き{止|ど}まり (dead end)
+- **Entertainment/Media (4)**: {生放送|なまほうそう} (live broadcast), {再放送|さいほうそう} (rerun), {開幕|かいまく} (opening), {閉幕|へいまく} (closing)
+- **Sports (1)**: {接戦|せっせん} (close game)
+- **Work/Business (1)**: {面談|めんだん} (interview/meeting)
+- **Science/Physics (2)**: {拡散|かくさん} (diffusion/spread), {振動|しんどう} (vibration)
+- **Personality (1)**: {人柄|ひとがら} (personality/character)
+
+Notable entry features:
+- Cooking heat level cluster: {弱火|よわび}/{中火|ちゅうび}/{強火|つよび} with cross-references between all three
+- Food/dining vocabulary chain covering the full experience: {味見|あじみ} → {大盛|おおも}り → {持|も}ち{帰|かえ}り/{出前|でまえ} → {割|わ}り{勘|かん}/おごる
+- Cultural notes on {福袋|ふくぶくろ} (New Year lucky bags) and {民宿|みんしゅく} (Japanese guesthouse tradition)
+- Multi-sense entries: {拡散|かくさん} (physical diffusion vs. information spread), おまけ (bonus item vs. on top of that)
+- {出前|でまえ} with notes on traditional delivery culture vs. modern delivery apps
+- 2 new kanji added to kanji index: 乏 (02067), 咲 (02068)
+
+Total entries: 8,109 → 8,139
+Remaining candidates: ~557 → ~527
+New kanji: 2,066 → 2,068
 
 ### 2026-01-25 (New Candidates - 106 Words Added)
 Added 106 new candidate words to `candidate_words.json` across diverse domains:
@@ -385,31 +413,6 @@ Notable entry features:
 Total entries: 7,869 → 7,899
 Remaining candidates: ~585 → ~556
 New kanji: 2,047 → 2,053
-
-### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 153)
-Added 30 new dictionary entries from candidate_words.json, covering sound verbs, compound verbs, adjectives, business/logistics terms, food vocabulary, and more:
-
-- **Sound/crowd verbs (2)**: どよめく (to stir/be in uproar), ざわめく (to rustle/murmur)
-- **Multi-sense verbs (1)**: {煽|あお}る with 3 senses: (1) to fan, (2) to incite/stir up, (3) to tailgate
-- **Compound verbs (6)**: {持|も}て{余|あま}す (to have more than one can handle), {培|つちか}う (to cultivate), {聞|き}き{流|なが}す (to let pass), {乗|の}り{過|す}ごす (to ride past), {聞|き}き{逃|のが}す (to fail to hear), {傾|かし}げる (to tilt)
-- **Adjectives (4)**: {艶|なまめ}かしい (alluring), おぞましい (disgusting), {巧妙|こうみょう} (clever/ingenious), {果敢|かかん} (bold/daring)
-- **Leak/damage nouns (2)**: {雨漏|あまも}り (roof leak), {水漏|みずも}れ (water leak)
-- **Business/logistics (6)**: {梱包|こんぽう} (packing), {荷造|にづく}り (packing for moving), {入荷|にゅうか} (arrival of goods), {棚卸|たなおろ}し (inventory), {問屋|とんや} (wholesaler), {着払|ちゃくばら}い (cash on delivery)
-- **Formal/abstract nouns (5)**: {淘汰|とうた} (selection/weeding out), {改竄|かいざん} (falsification), {黙認|もくにん} (tacit approval), {惰性|だせい} (inertia), {抜擢|ばってき} (promotion/selection)
-- **Food/kitchen (3)**: {湯葉|ゆば} (tofu skin), {高野豆腐|こうやどうふ} (freeze-dried tofu), {土鍋|どなべ} (earthenware pot)
-- **Weather (1)**: {暴風|ぼうふう} (violent wind/gale)
-
-Notable entry features:
-- どよめく vs ざわめく comparison: どよめく is sudden collective reaction, ざわめく is continuous background noise
-- {煽|あお}る covers physical fanning, social incitement, and modern driving term ({煽|あお}り{運転|うんてん})
-- {改竄|かいざん} with notes on modern contexts (documents, data, DNA) and kanji/kana writing conventions
-- Food vocabulary: {湯葉|ゆば} and {高野豆腐|こうやどうふ} with preparation and regional variation notes
-- Business logistics chain: {入荷|にゅうか} (goods in) → {棚卸|たなおろ}し (inventory) → {問屋|とんや} (wholesale)
-- 7 new kanji added to kanji index: 培, 惰, 擢, 梱, 淘, 煽, 竄
-
-Total entries: 7,839 → 7,869
-Remaining candidates: ~610 → ~585
-New kanji: 2,040 → 2,047
 
 ---
 
