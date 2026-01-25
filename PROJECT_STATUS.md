@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,079
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,256 | Unassigned: 0 ✓
-- **Candidate words**: ~378 words tracked in `candidate_words.json`
+- **Total entries**: 8,109
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,286 | Unassigned: 0 ✓
+- **Candidate words**: ~349 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 161)
+Added 30 new dictionary entries from candidate_words.json, covering geometry terms, antonym pairs, office vocabulary, music terminology, and kitchen items:
+
+- **Geometry/Lines (2)**: {斜線|しゃせん} (diagonal line), {対角線|たいかくせん} (diagonal)
+- **Antonym pairs/Abstract (6)**: {緩急|かんきゅう} (slow and fast), {軽重|けいちょう} (light and heavy), {遠近|えんきん} (distance/perspective), {正誤|せいご} (right and wrong), {浮沈|ふちん} (rise and fall), {栄枯|えいこ} (prosperity and decline)
+- **Business/Documents (3)**: {注文書|ちゅうもんしょ} (order form), {手回|てまわ}し (hand-operated; preparation), {同格|どうかく} (same rank; apposition)
+- **Cooking/Kitchen (4)**: {灰汁取|あくと}り (scum skimming), {寿司桶|すしおけ} (sushi tub), すくい{網|あみ} (strainer/skimmer), {乾湿|かんしつ} (dry and wet)
+- **Office/Stationery (4)**: {穴|あな}あけパンチ (hole punch), {両面印刷|りょうめんいんさつ} (double-sided printing), コピー{用紙|ようし} (copy paper), カートリッジ (cartridge)
+- **Music instruments (4)**: クラリネット (clarinet), トロンボーン (trombone), コントラバス (double bass), ピック (guitar pick)
+- **Music terms (3)**: ヒップホップ (hip-hop), リフ (riff), アレンジ (arrangement)
+- **Other (4)**: {可愛|かわい}げ (lovability), {得失|とくしつ} (gains and losses), {網目|あみめ} (mesh), バロメーター (barometer)
+
+Notable entry features:
+- Japanese antonym pair vocabulary: {緩急|かんきゅう}/{軽重|けいちょう}/{遠近|えんきん}/{正誤|せいご} - compound nouns combining opposite meanings
+- Four-character idiom: {栄枯盛衰|えいこせいすい} (vicissitudes of fortune)
+- Music vocabulary cluster: classical instruments and modern music terminology
+- Office workflow terms: printing, stationery, and document management
+- Multi-sense entries: {緩急|かんきゅう} (pace variation vs. emergency), {手回|てまわ}し (hand-operated vs. arrangements), {同格|どうかく} (equal status vs. grammatical apposition)
+- 1 new kanji added to kanji index: 桶 (02066)
+
+Total entries: 8,079 → 8,109
+Remaining candidates: ~378 → ~349
+New kanji: 2,065 → 2,066
 
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 160)
 Added 30 new dictionary entries from candidate_words.json, covering cooking techniques, traditional foods, gardening/horticulture, music terminology, hobbies, and daily life vocabulary:
@@ -364,29 +388,6 @@ Notable features:
 - Practical daily life vocabulary
 
 Candidate count: 540 → 640
-
-### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 151)
-Added 30 new dictionary entries from candidate_words.json, covering practical vocabulary, formal expressions, organizational terms, and descriptive adjectives:
-
-- **Practical/Technical (4)**: {配線|はいせん} (wiring), {物資|ぶっし} (supplies), {救援|きゅうえん} (relief), {配給|はいきゅう} (distribution)
-- **Weather/Nature (2)**: {寒暖差|かんだんさ} (temperature difference), {朝靄|あさもや} (morning mist)
-- **Adjectives (5)**: ものぐさ (lazy), あっけない (anticlimactic), か{弱|よわ}い (frail), {夥|おびただ}しい (numerous), ものものしい (imposing)
-- **Verbs (6)**: {偏|かたよ}る (to be biased), {賄|まかな}う (to provide meals), {葬|ほうむ}る (to bury), めくれる (to turn up), {使|つか}い{込|こ}む (to embezzle/use extensively), {使|つか}い{慣|な}れる (to become used to using)
-- **Places/Buildings (3)**: {作業場|さぎょうば} (workplace), {集会所|しゅうかいじょ} (meeting hall), {表口|おもてぐち} (front entrance)
-- **Social/Business (4)**: シェア (share), {追従|ついしょう} (flattery), おべっか (flattery - colloquial), {憚|はばか}る (to hesitate)
-- **Expressions/Concepts (3)**: {一枚上手|いちまいうわて} (a cut above), {天命|てんめい} (divine will), {抜本|ばっぽん} (drastic)
-- **Formal/Political (3)**: {統廃合|とうはいごう} (consolidation), {糾弾|きゅうだん} (denunciation), {紛糾|ふんきゅう} (complication)
-
-Notable entry features:
-- {追従|ついしょう} ↔ おべっか cross-reference (formal vs. colloquial flattery)
-- {使|つか}い{込|こ}む with 2 senses: (1) embezzlement, (2) developing skill through use
-- ものものしい with 2 senses: (1) solemn/imposing, (2) heavy-handed (security)
-- {偏|かたよ}る with 2 senses: (1) biased views, (2) physical leaning
-- Confucian philosophical term {天命|てんめい} with famous saying from Analects
-- Administrative vocabulary for school/hospital mergers ({統廃合|とうはいごう})
-
-Total entries: 7,779 → 7,809
-Remaining candidates: ~563 → ~540
 
 ---
 

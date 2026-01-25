@@ -7,6 +7,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 151)
+Added 30 new dictionary entries from candidate_words.json, covering practical vocabulary, formal expressions, organizational terms, and descriptive adjectives:
+
+- **Practical/Technical (4)**: {配線|はいせん} (wiring), {物資|ぶっし} (supplies), {救援|きゅうえん} (relief), {配給|はいきゅう} (distribution)
+- **Weather/Nature (2)**: {寒暖差|かんだんさ} (temperature difference), {朝靄|あさもや} (morning mist)
+- **Adjectives (5)**: ものぐさ (lazy), あっけない (anticlimactic), か{弱|よわ}い (frail), {夥|おびただ}しい (numerous), ものものしい (imposing)
+- **Verbs (6)**: {偏|かたよ}る (to be biased), {賄|まかな}う (to provide meals), {葬|ほうむ}る (to bury), めくれる (to turn up), {使|つか}い{込|こ}む (to embezzle/use extensively), {使|つか}い{慣|な}れる (to become used to using)
+- **Places/Buildings (3)**: {作業場|さぎょうば} (workplace), {集会所|しゅうかいじょ} (meeting hall), {表口|おもてぐち} (front entrance)
+- **Social/Business (4)**: シェア (share), {追従|ついしょう} (flattery), おべっか (flattery - colloquial), {憚|はばか}る (to hesitate)
+- **Expressions/Concepts (3)**: {一枚上手|いちまいうわて} (a cut above), {天命|てんめい} (divine will), {抜本|ばっぽん} (drastic)
+- **Formal/Political (3)**: {統廃合|とうはいごう} (consolidation), {糾弾|きゅうだん} (denunciation), {紛糾|ふんきゅう} (complication)
+
+Notable entry features:
+- {追従|ついしょう} ↔ おべっか cross-reference (formal vs. colloquial flattery)
+- {使|つか}い{込|こ}む with 2 senses: (1) embezzlement, (2) developing skill through use
+- ものものしい with 2 senses: (1) solemn/imposing, (2) heavy-handed (security)
+- {偏|かたよ}る with 2 senses: (1) biased views, (2) physical leaning
+- Confucian philosophical term {天命|てんめい} with famous saying from Analects
+- Administrative vocabulary for school/hospital mergers ({統廃合|とうはいごう})
+
+Total entries: 7,779 → 7,809
+Remaining candidates: ~563 → ~540
+
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 150)
 Added 30 new dictionary entries from candidate_words.json, covering expressive verbs, descriptive adjectives, traditional Japanese architectural terms, and useful everyday vocabulary:
 
