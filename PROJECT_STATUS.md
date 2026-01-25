@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,199
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,376 | Unassigned: 0 ✓
-- **Candidate words**: ~468 words tracked in `candidate_words.json`
+- **Total entries**: 8,229
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,406 | Unassigned: 0 ✓
+- **Candidate words**: ~438 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,35 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 165)
+Added 30 new dictionary entries from candidate_words.json, covering abstract nouns, compound verbs, daily life vocabulary, pronouns, and cooking terms:
+
+- **Abstract nouns (5)**: {前提|ぜんてい} (premise), {実践|じっせん} (practice), {拒否|きょひ} (refusal), {条例|じょうれい} (ordinance), {差配|さはい} (management)
+- **Body/Health (2)**: {体質|たいしつ} (constitution), {渇|かわ}き (thirst)
+- **Household/Daily life (4)**: {光熱費|こうねつひ} (utility costs), {付箋|ふせん} (sticky note), {筆箱|ふでばこ} (pencil case), {用足|ようた}し (errand)
+- **Training/Skills (3)**: {修練|しゅうれん} (training), {鍛|きた}え{上|あ}げる (to train thoroughly), {磨|みが}き{上|あ}げる (to polish up)
+- **Moisture/Benefit (3)**: {潤|うるお}す (to moisten), {潤|うるお}い (moisture), {渇|かわ}き (thirst)
+- **Compound verbs (5)**: {奮|ふる}い{立|た}つ (to be roused), {書|か}き{殴|なぐ}る (to scribble), {言|い}い{直|なお}す (to rephrase), {整|ととの}え{直|なお}す (to readjust), {燻|いぶ}す (to smoke food)
+- **Entertainment (1)**: {主演|しゅえん} (starring role)
+- **Shopping (1)**: バーゲン (bargain sale)
+- **Food/Cooking (2)**: {付|つ}け{合|あ}わせ (side dish), {溶|と}かす (to melt)
+- **Communication (2)**: お{詫|わ}び (apology), {逆|ぎゃく}に (conversely)
+- **Pronouns (2)**: あいつ (that guy), こいつ (this guy)
+- **Emotion (1)**: {寂|さび}しさ (loneliness)
+
+Notable entry features:
+- Multi-sense entries: {体質|たいしつ} (physical constitution vs. organizational culture), {用足|ようた}し (errand vs. bathroom euphemism), {燻|いぶ}す (smoking food vs. fumigation)
+- Compound verb patterns with {直|なお}す: {言|い}い{直|なお}す, {整|ととの}え{直|なお}す (redo/correct nuance)
+- Compound verb patterns with {上|あ}げる: {鍛|きた}え{上|あ}げる, {磨|みが}き{上|あ}げる (completion/perfection nuance)
+- Related vocabulary cluster: {潤|うるお}す/{潤|うるお}い/{渇|かわ}き (moisture/thirst contrast)
+- Ko-so-a-do pronouns: あいつ/こいつ (informal person pronouns)
+- Japanese daily life: {光熱費|こうねつひ} (utility costs), {付箋|ふせん} (sticky notes)
+- 1 new kanji added to kanji index: 詫 (02077)
+
+Total entries: 8,199 → 8,229
+Remaining candidates: ~468 → ~438
+New kanji: 2,076 → 2,077
 
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 164)
 Added 30 new dictionary entries from candidate_words.json, covering workplace positions, i-adjectives, verbs, food preservation, gardening vocabulary, and sports/competition terms:
@@ -366,30 +395,6 @@ Notable entry features:
 Total entries: 7,989 → 8,019
 Remaining candidates: ~467 → ~438
 New kanji: 2,060 → 2,061
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 157)
-Added 30 new dictionary entries from candidate_words.json, covering science/chemistry terms, business operations, transformation nouns (-化), legal/document vocabulary, and everyday expressions:
-
-- **Science/Chemistry (5)**: {風化|ふうか} (weathering), {凝縮|ぎょうしゅく} (condensation), {溶解|ようかい} (dissolution), {腐食|ふしょく} (corrosion), {還元|かんげん} (reduction)
-- **Business operations (3)**: {操業|そうぎょう} (operation), {民営化|みんえいか} (privatization), {国有化|こくゆうか} (nationalization)
-- **Transformation nouns -化 (6)**: {簡略化|かんりゃくか} (simplification), {規格化|きかくか} (standardization), {常態化|じょうたいか} (normalization), {空洞化|くうどうか} (hollowing out), {硬直化|こうちょくか} (rigidity), {陳腐化|ちんぷか} (obsolescence)
-- **Legal/Documents (4)**: {誓約書|せいやくしょ} (written pledge), {捺印|なついん} (seal stamping), {言|い}い{逃|のが}れる (to make excuses), {差|さ}し{押|お}さえ (seizure)
-- **Evidence/Scope (3)**: {喫煙|きつえん} (smoking), {網羅|もうら} (comprehensive coverage), {裏付|うらづ}け (backing/evidence)
-- **Disappointment/Effort (4)**: {拍子抜|ひょうしぬ}け (anticlimax), {肩透|かたすか}かし (letdown), {二度手間|にどでま} (double work), {骨折|ほねお}り{損|ぞん} (wasted effort)
-- **Nature (2)**: {潮風|しおかぜ} (sea breeze), {朝露|あさつゆ} (morning dew)
-- **Activities (2)**: サイクリング (cycling), ランニング (running)
-- **Daily life (1)**: {物干|ものほ}し{竿|ざお} (laundry pole)
-
-Notable entry features:
-- Cross-references: {民営化|みんえいか} ↔ {国有化|こくゆうか} (antonym pair), {拍子抜|ひょうしぬ}け ↔ {肩透|かたすか}かし (similar disappointment)
-- Multi-sense entries: {風化|ふうか} (physical weathering vs. fading from memory), {凝縮|ぎょうしゅく} (physical vs. figurative condensation), {溶解|ようかい} (dissolving vs. melting), {還元|かんげん} (chemical reduction vs. returning benefits), {肩透|かたすか}かし (disappointment vs. sumo technique), ランニング (running vs. running costs)
-- Six related -化 transformation nouns describing organizational/systemic changes
-- {捺印|なついん} with cultural context on Japanese seal culture ({印鑑|いんかん})
-- 1 new kanji added to kanji index: 捺
-
-Total entries: 7,959 → 7,989
-Remaining candidates: ~497 → ~467
-New kanji: 2,059 → 2,060
 
 ---
 
