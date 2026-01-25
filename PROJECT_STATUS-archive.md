@@ -7,6 +7,26 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 146)
+Added 30 new dictionary entries from candidate_words.json, covering romaji abbreviations commonly used in Japan and practical Japanese vocabulary:
+
+- **Romaji abbreviations (10)**: CM (TV commercial), NG (blooper), BGM (background music), OB (male alumnus), OG (female alumna), OL (female office worker), PC (personal computer), DIY (do-it-yourself), GW (Golden Week), OK (okay)
+- **Difficult situations (5)**: {躊躇|ちゅうちょ} (hesitation), {板挟|いたばさ}み (caught between), {空回|からまわ}り (spinning wheels), とばっちり (collateral damage), {八方塞|はっぽうふさ}がり (blocked in all directions)
+- **Work/business (5)**: {手抜|てぬ}き (cutting corners), {根回|ねまわ}し (groundwork), {勤怠|きんたい} (attendance), {欠勤|けっきん} (absence from work), {未読|みどく} (unread)
+- **Social/lifestyle (6)**: {噂話|うわさばなし} (gossip), {立|た}ち{話|ばなし} (standing chat), {世渡|よわた}り (getting through life), {処世術|しょせいじゅつ} (wisdom for living), {裏表|うらおもて} (two-faced), {腹黒|はらぐろ}い (scheming)
+- **Shopping/food (4)**: {見切|みき}り{品|ひん} (clearance item), お{得|とく} (good deal), {偏食|へんしょく} (picky eating), {間食|かんしょく} (snacking)
+
+Notable entry features:
+- Romaji abbreviations covering media (CM, NG, BGM), alumni (OB, OG), work (OL, PC), and lifestyle (DIY, GW, OK)
+- Cross-references between OB ↔ OG (gender equivalents) and OK ↔ NG (opposites)
+- {根回|ねまわ}し with cultural notes about Japanese business consensus-building
+- {世渡|よわた}り ↔ {処世術|しょせいじゅつ} cross-references for related social navigation concepts
+- {腹黒|はらぐろ}い with cultural explanation of the "belly" as seat of true intentions in Japanese
+- {八方塞|はっぽうふさ}がり with etymology from {陰陽道|おんみょうどう} (onmyodo)
+
+Total entries: 7,629 → 7,659
+Remaining candidates: ~703 → ~673
+
 ### 2026-01-21 (New Candidates - 102 Romaji Abbreviations Added, Session 145)
 Added 102 new candidate words to `candidate_words.json` focusing on romaji abbreviations used in Japanese. These include Japanese-origin abbreviations (from Japanese words), 和製英語 abbreviations (unique Japanese usage of English terms), and specialized domain abbreviations commonly used in Japan:
 
