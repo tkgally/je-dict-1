@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-23
+**Last updated**: 2026-01-24
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,929
+- **Total entries**: 7,959
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,136 | Unassigned: 0 ✓
-- **Candidate words**: ~527 words tracked in `candidate_words.json`
+- **Candidate words**: ~497 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,33 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-24 (Vocabulary Expansion - 30 New Entries, Session 156)
+Added 30 new dictionary entries from candidate_words.json, covering formal/business vocabulary, legal terminology, financial/accounting terms, and excellence/criticism vocabulary:
+
+- **Vision/perception (1)**: {翳|かす}む (to become misty/dim)
+- **Social behavior (2)**: {迎合|げいごう} (ingratiation), {横槍|よこやり} (interference/meddling)
+- **Control/deterrence (2)**: {抑止|よくし} (deterrence), {自制|じせい} (self-control)
+- **Criticism/tyranny (4)**: {暴挙|ぼうきょ} (outrage), {横暴|おうぼう} (tyranny), {蛮行|ばんこう} (barbaric act), {専横|せんおう} (despotism)
+- **Excellence terms (4)**: {着実|ちゃくじつ} (steady), {卓越|たくえつ} (excellence), {凌駕|りょうが} (surpassing), {傑出|けっしゅつ} (outstanding)
+- **Financial/accounting (7)**: {換算|かんさん} (conversion), {充当|じゅうとう} (allocation), {計上|けいじょう} (recording), {弁済|べんさい} (repayment), {償還|しょうかん} (redemption), {資金繰|しきんぐ}り (cash flow), {台帳|だいちょう} (register/ledger)
+- **Explanation/apology (3)**: {弁解|べんかい} (excuse), {弁明|べんめい} (explanation), {陳謝|ちんしゃ} (apology)
+- **Legal terms (2)**: {告発|こくはつ} (accusation), {告訴|こくそ} (lawsuit/complaint)
+- **Mining/excavation (3)**: {発掘|はっくつ} (excavation), {採掘|さいくつ} (mining), {掘削|くっさく} (drilling)
+- **Change/deterioration (2)**: {腐敗|ふはい} (corruption/decay), {鈍化|どんか} (slowing down)
+
+Notable entry features:
+- {翳|かす}む with 3 senses: (1) physical mist/haze, (2) dimming vision, (3) being overshadowed
+- {発掘|はっくつ} with 2 senses: (1) archaeological excavation, (2) discovering hidden talent
+- {腐敗|ふはい} with 2 senses: (1) physical decay/rot, (2) political/moral corruption
+- Business vocabulary chain: {計上|けいじょう} (record) → {弁済|べんさい} (repay) → {償還|しょうかん} (redeem)
+- Criticism terms with cultural notes on workplace behavior and political discourse
+- Legal terminology pair: {告発|こくはつ} (accusation) vs {告訴|こくそ} (formal complaint)
+- 4 new kanji added to kanji index: 槍, 翳, 蛮, 駕
+
+Total entries: 7,929 → 7,959
+Remaining candidates: ~527 → ~497
+New kanji: 2,055 → 2,059
 
 ### 2026-01-23 (Vocabulary Expansion - 30 New Entries, Session 155)
 Added 30 new dictionary entries from candidate_words.json, covering business terms, cooking vocabulary, compound verbs, and formal/abstract nouns:
@@ -341,26 +368,6 @@ Notable entry features:
 
 Total entries: 7,659 → 7,689
 Remaining candidates: ~673 → ~643
-
-### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 146)
-Added 30 new dictionary entries from candidate_words.json, covering romaji abbreviations commonly used in Japan and practical Japanese vocabulary:
-
-- **Romaji abbreviations (10)**: CM (TV commercial), NG (blooper), BGM (background music), OB (male alumnus), OG (female alumna), OL (female office worker), PC (personal computer), DIY (do-it-yourself), GW (Golden Week), OK (okay)
-- **Difficult situations (5)**: {躊躇|ちゅうちょ} (hesitation), {板挟|いたばさ}み (caught between), {空回|からまわ}り (spinning wheels), とばっちり (collateral damage), {八方塞|はっぽうふさ}がり (blocked in all directions)
-- **Work/business (5)**: {手抜|てぬ}き (cutting corners), {根回|ねまわ}し (groundwork), {勤怠|きんたい} (attendance), {欠勤|けっきん} (absence from work), {未読|みどく} (unread)
-- **Social/lifestyle (6)**: {噂話|うわさばなし} (gossip), {立|た}ち{話|ばなし} (standing chat), {世渡|よわた}り (getting through life), {処世術|しょせいじゅつ} (wisdom for living), {裏表|うらおもて} (two-faced), {腹黒|はらぐろ}い (scheming)
-- **Shopping/food (4)**: {見切|みき}り{品|ひん} (clearance item), お{得|とく} (good deal), {偏食|へんしょく} (picky eating), {間食|かんしょく} (snacking)
-
-Notable entry features:
-- Romaji abbreviations covering media (CM, NG, BGM), alumni (OB, OG), work (OL, PC), and lifestyle (DIY, GW, OK)
-- Cross-references between OB ↔ OG (gender equivalents) and OK ↔ NG (opposites)
-- {根回|ねまわ}し with cultural notes about Japanese business consensus-building
-- {世渡|よわた}り ↔ {処世術|しょせいじゅつ} cross-references for related social navigation concepts
-- {腹黒|はらぐろ}い with cultural explanation of the "belly" as seat of true intentions in Japanese
-- {八方塞|はっぽうふさ}がり with etymology from {陰陽道|おんみょうどう} (onmyodo)
-
-Total entries: 7,629 → 7,659
-Remaining candidates: ~703 → ~673
 
 ---
 
