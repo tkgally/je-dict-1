@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,259
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,436 | Unassigned: 0 ✓
-- **Candidate words**: ~508 words tracked in `candidate_words.json`
+- **Total entries**: 8,289
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,466 | Unassigned: 0 ✓
+- **Candidate words**: ~478 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 167)
+Added 30 new dictionary entries from candidate_words.json, covering products/shopping vocabulary, food/dining terms, weather vocabulary, business/finance expressions, and compound verbs:
+
+- **Products/Shopping (8)**: {手作|てづく}り (handmade), {手書|てが}き (handwriting), {中古品|ちゅうこひん} (used item), {新品|しんぴん} (brand new), {既製品|きせいひん} (ready-made), {在庫切|ざいこぎ}れ (out of stock), {取|と}り{置|お}き (holding item), {取|と}り{寄|よ}せ (ordering in)
+- **Food/Dining (5)**: {飲|の}み{放題|ほうだい} (all-you-can-drink), {替|か}え{玉|だま} (extra noodles), おまかせ (chef's choice), {腹八分目|はらはちぶんめ} (eating in moderation), {落|お}とし{蓋|ぶた} (drop lid)
+- **Weather (3)**: {猛暑|もうしょ} (intense heat), {酷暑|こくしょ} (extreme heat), {渇水|かっすい} (water shortage)
+- **Business/Finance (5)**: {概算|がいさん} (rough estimate), {収支|しゅうし} (income and expenses), たたき{台|だい} (draft proposal), {試算|しさん} (trial calculation), {累計|るいけい} (cumulative total)
+- **Compound verbs (4)**: {見込|みこ}む (to expect), {吹|ふ}き{荒|あ}れる (to rage), {駆|か}け{巡|めぐ}る (to rush around), {張|は}り{巡|めぐ}らす (to stretch around)
+- **Shopping/Services (3)**: ラッピング (gift wrapping), {景品|けいひん} (prize), {先着|せんちゃく} (first-come)
+- **Housing (2)**: {木造|もくぞう} (wooden construction), {駅近|えきちか} (close to station)
+
+Notable entry features:
+- Product condition vocabulary: {新品|しんぴん} vs {中古品|ちゅうこひん} vs {既製品|きせいひん} vs {手作|てづく}り
+- Ramen culture: {替|か}え{玉|だま} (extra noodles at no/low cost), {飲|の}み{放題|ほうだい} (all-you-can-drink)
+- Japanese proverb: {腹八分目|はらはちぶんめ} (eating in moderation for health)
+- Weather extremes: {猛暑|もうしょ} vs {酷暑|こくしょ} (intensity distinction)
+- Business planning vocabulary: たたき{台|だい}/{概算|がいさん}/{試算|しさん}/{累計|るいけい}
+- Multi-sense entries: {見込|みこ}む (expect/anticipate vs. see potential in), {吹|ふ}き{荒|あ}れる (weather vs. figurative), {駆|か}け{巡|めぐ}る (physical vs. mental)
+- 3 new kanji added to kanji index: 猛 (02079), 累 (02080), 酷 (02081)
+
+Total entries: 8,259 → 8,289
+Remaining candidates: ~508 → ~478
+New kanji: 2,078 → 2,081
 
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 166)
 Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, travel/tourism terms, dining expressions, household items, and media/entertainment terminology:
@@ -402,34 +426,6 @@ Notable entry features:
 Total entries: 8,049 → 8,079
 Remaining candidates: ~408 → ~378
 New kanji: 2,062 → 2,065
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 159)
-Added 30 new dictionary entries from candidate_words.json, covering household vocabulary, cooking techniques, shopping/business terms, transformation nouns (-化), and practical daily life expressions:
-
-- **Description/Clarity (1)**: {不明瞭|ふめいりょう} (unclear/obscure)
-- **Food/Eating (2)**: {暴飲暴食|ぼういんぼうしょく} (binge eating/drinking), やけ{食|ぐ}い (stress eating)
-- **Household (3)**: {布団干|ふとんほ}し (airing futons), {水回|みずまわ}り (water fixtures), おひつ (wooden rice container)
-- **Shopping/Business (6)**: {目玉商品|めだましょうひん} (featured product), タイムセール (limited time sale), ついで{買|が}い (impulse buying), {発注書|はっちゅうしょ} (purchase order), {歩合制|ぶあいせい} (commission system), {早期退職|そうきたいしょく} (early retirement)
-- **Cooking Techniques (5)**: {泡立|あわだ}て{器|き} (whisk), {乱切|らんぎ}り (rough cutting), {角切|かくぎ}り (dicing), {短冊切|たんざくぎ}り (rectangular strips)
-- **Office/Documents (2)**: {裏紙|うらがみ} (scrap paper), {欠席届|けっせきとどけ} (absence notification)
-- **Transformation nouns -化 (5)**: {細分化|さいぶんか} (subdivision), {固定化|こていか} (fixation), {大衆化|たいしゅうか} (popularization), {商業化|しょうぎょうか} (commercialization), {均一化|きんいつか} (standardization)
-- **Reading/Communication (2)**: {読|よ}みがい (worth reading), {行間|ぎょうかん}を{読|よ}む (read between the lines)
-- **Photography/Media (1)**: {露出|ろしゅつ} (exposure)
-- **Housing/Construction (2)**: {気密性|きみつせい} (airtightness), {断熱材|だんねつざい} (insulation material)
-- **Satisfaction (1)**: {飲|の}みごたえ (satisfying to drink)
-- **Other (1)**: {進|すす}め{方|かた} (way to proceed)
-
-Notable entry features:
-- Multi-sense entries: {露出|ろしゅつ} (photographic exposure vs. physical exposure), {暴飲暴食|ぼういんぼうしょく} (medical vs. casual use)
-- Cooking vocabulary cluster: {乱切|らんぎ}り/{角切|かくぎ}り/{短冊切|たんざくぎ}り covering different cutting techniques with visual descriptions
-- Five related -化 transformation nouns describing social/organizational changes
-- Japanese office culture: {裏紙|うらがみ} (reusing paper backs) and {欠席届|けっせきとどけ} (absence notification forms)
-- Housing terminology: {気密性|きみつせい} and {断熱材|だんねつざい} common in Japanese housing discussions
-- 1 new kanji added to kanji index: 衆 (02062)
-
-Total entries: 8,019 → 8,049
-Remaining candidates: ~438 → ~408
-New kanji: 2,061 → 2,062
 
 ---
 

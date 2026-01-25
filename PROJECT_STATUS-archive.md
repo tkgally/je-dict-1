@@ -7,6 +7,34 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 159)
+Added 30 new dictionary entries from candidate_words.json, covering household vocabulary, cooking techniques, shopping/business terms, transformation nouns (-化), and practical daily life expressions:
+
+- **Description/Clarity (1)**: {不明瞭|ふめいりょう} (unclear/obscure)
+- **Food/Eating (2)**: {暴飲暴食|ぼういんぼうしょく} (binge eating/drinking), やけ{食|ぐ}い (stress eating)
+- **Household (3)**: {布団干|ふとんほ}し (airing futons), {水回|みずまわ}り (water fixtures), おひつ (wooden rice container)
+- **Shopping/Business (6)**: {目玉商品|めだましょうひん} (featured product), タイムセール (limited time sale), ついで{買|が}い (impulse buying), {発注書|はっちゅうしょ} (purchase order), {歩合制|ぶあいせい} (commission system), {早期退職|そうきたいしょく} (early retirement)
+- **Cooking Techniques (5)**: {泡立|あわだ}て{器|き} (whisk), {乱切|らんぎ}り (rough cutting), {角切|かくぎ}り (dicing), {短冊切|たんざくぎ}り (rectangular strips)
+- **Office/Documents (2)**: {裏紙|うらがみ} (scrap paper), {欠席届|けっせきとどけ} (absence notification)
+- **Transformation nouns -化 (5)**: {細分化|さいぶんか} (subdivision), {固定化|こていか} (fixation), {大衆化|たいしゅうか} (popularization), {商業化|しょうぎょうか} (commercialization), {均一化|きんいつか} (standardization)
+- **Reading/Communication (2)**: {読|よ}みがい (worth reading), {行間|ぎょうかん}を{読|よ}む (read between the lines)
+- **Photography/Media (1)**: {露出|ろしゅつ} (exposure)
+- **Housing/Construction (2)**: {気密性|きみつせい} (airtightness), {断熱材|だんねつざい} (insulation material)
+- **Satisfaction (1)**: {飲|の}みごたえ (satisfying to drink)
+- **Other (1)**: {進|すす}め{方|かた} (way to proceed)
+
+Notable entry features:
+- Multi-sense entries: {露出|ろしゅつ} (photographic exposure vs. physical exposure), {暴飲暴食|ぼういんぼうしょく} (medical vs. casual use)
+- Cooking vocabulary cluster: {乱切|らんぎ}り/{角切|かくぎ}り/{短冊切|たんざくぎ}り covering different cutting techniques with visual descriptions
+- Five related -化 transformation nouns describing social/organizational changes
+- Japanese office culture: {裏紙|うらがみ} (reusing paper backs) and {欠席届|けっせきとどけ} (absence notification forms)
+- Housing terminology: {気密性|きみつせい} and {断熱材|だんねつざい} common in Japanese housing discussions
+- 1 new kanji added to kanji index: 衆 (02062)
+
+Total entries: 8,019 → 8,049
+Remaining candidates: ~438 → ~408
+New kanji: 2,061 → 2,062
+
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 158)
 Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, Japanese communication patterns, work/shopping terms, health/sleep vocabulary, and ambiguity expressions:
 
