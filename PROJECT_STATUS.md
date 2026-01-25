@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,139
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,316 | Unassigned: 0 ✓
-- **Candidate words**: ~527 words tracked in `candidate_words.json`
+- **Total entries**: 8,169
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,346 | Unassigned: 0 ✓
+- **Candidate words**: ~497 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 163)
+Added 30 new dictionary entries from candidate_words.json, covering compound verbs, i-adjectives, na-adjectives, health/medical terms, workplace vocabulary, and sports terms:
+
+- **Compound verbs (7)**: {凝|こ}る (to be absorbed in; to stiffen), {潤|うるお}う (to be moist; to profit), {盛|も}り{返|かえ}す (to rally), {持|も}ち{直|なお}す (to recover), {開|ひら}き{直|なお}る (to become defiant), {成|な}り{上|あ}がる (to rise in status), {紛|まぎ}らわす (to distract)
+- **I-adjectives (5)**: {白々|しらじら}しい (feigned), {侘|わび}しい (lonely/desolate), {麗|うるわ}しい (beautiful), {憎|にく}らしい (hateful), {好|この}ましい (favorable)
+- **Na-adjectives (4)**: {怠惰|たいだ} (lazy), {痛快|つうかい} (thrilling), {貪欲|どんよく} (greedy; eager), {芳醇|ほうじゅん} (mellow)
+- **Workplace (2)**: {部署|ぶしょ} (department), {指図|さしず} (orders/instructions)
+- **Shopping (1)**: {買|か}い{出|だ}し (shopping for supplies)
+- **Health/Medical (5)**: {寝汗|ねあせ} (night sweat), {肉離|にくばな}れ (muscle tear), {擦|す}り{傷|きず} (scrape), {療養|りょうよう} (recuperation), {回診|かいしん} (doctor's rounds), {往診|おうしん} (house call)
+- **Training (1)**: {鍛錬|たんれん} (training/discipline)
+- **Safety (2)**: {防犯|ぼうはん} (crime prevention), {応急|おうきゅう} (emergency/first-aid)
+- **Gardening (1)**: {草|くさ}むしり (weeding)
+- **Sports (1)**: {大敗|たいはい} (crushing defeat)
+
+Notable entry features:
+- Multi-sense entries: {凝|こ}る (absorbed in vs. stiff muscles), {潤|うるお}う (moisture vs. profit), {貪欲|どんよく} (negative greed vs. positive eagerness)
+- Defiant attitude vocabulary: {開|ひら}き{直|なお}る (becoming unapologetically defiant when confronted)
+- Social mobility: {成|な}り{上|あ}がる with notes on negative nuance (parvenu/nouveau riche)
+- Medical visit types: {回診|かいしん} (hospital rounds) vs {往診|おうしん} (house calls)
+- Japanese aesthetic concept: {侘|わび}しい with connection to {侘|わ}び{寂|さ}び aesthetic
+- 6 new kanji added to kanji index: 侘 (02069), 貪 (02070), 醇 (02071), 錬 (02072), 鍛 (02073), 麗 (02074)
+
+Total entries: 8,139 → 8,169
+Remaining candidates: ~527 → ~497
+New kanji: 2,068 → 2,074
 
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 162)
 Added 30 new dictionary entries from candidate_words.json, covering verbs, adjectives, food/dining vocabulary, shopping terms, travel/places, cooking heat levels, media/entertainment, and science terms:
@@ -389,30 +415,6 @@ Notable entry features:
 Total entries: 7,899 → 7,929
 Remaining candidates: ~556 → ~527
 New kanji: 2,053 → 2,055
-
-### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 154)
-Added 30 new dictionary entries from candidate_words.json, covering formal expressions, business terms, physical verbs, and miscellaneous vocabulary:
-
-- **Formal/honorific expressions (5)**: {恐|おそ}れ{入|い}ります (I'm sorry to trouble you), {僭越|せんえつ} (presumptuous), {謹|つつし}んで (respectfully), {仰|おお}せ (instruction - honorific), {御意|ぎょい} (as you wish - archaic)
-- **Business/real estate (4)**: {歩合|ぶあい} (commission), {更地|さらち} (vacant lot), {築年数|ちくねんすう} (building age), {陳列|ちんれつ} (display)
-- **Physical verbs (7)**: {敷|し}き{詰|つ}める (to spread all over), すり{潰|つぶ}す (to grind), {滑|すべ}らす (to slide), よじる (to twist), {摺|す}り{寄|よ}る (to sidle up)
-- **Speech/mockery verbs (4)**: おだてる (to flatter), {嘲|あざけ}る (to mock), ほざく (to babble - vulgar), {嗾|けしか}ける (to incite)
-- **Abstract nouns (5)**: {逐次|ちくじ} (sequentially), {当|あ}たり{障|さわ}り (offense), {粛清|しゅくせい} (purge), {改編|かいへん} (reorganization), {差|さ}し{支|つか}え (hindrance)
-- **Environment/weather (1)**: {日射|にっしゃ} (sunshine/solar radiation)
-- **Food (1)**: {黒酢|くろず} (black vinegar)
-- **Modern/loanwords (3)**: コーデ (outfit coordination), プラットホーム (platform), アンプ (amplifier), シンセサイザー (synthesizer)
-
-Notable entry features:
-- {僭越|せんえつ} and {御意|ぎょい} with detailed notes on formal/historical contexts
-- {嗾|けしか}ける with notes on instigating dogs to attack and figurative usage
-- {摺|す}り{寄|よ}る with two senses: (1) physical sidling up, (2) opportunistic cozying up
-- {憎|にく}まれ{口|ぐち} (sarcastic remarks) with cultural context about indirect criticism
-- プラットホーム with notes distinguishing from プラットフォーム (computing/business platform)
-- 6 new kanji added to kanji index: 僭, 嗾, 嘲, 摺, 謹, 陳
-
-Total entries: 7,869 → 7,899
-Remaining candidates: ~585 → ~556
-New kanji: 2,047 → 2,053
 
 ---
 
