@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 154)
+Added 30 new dictionary entries from candidate_words.json, covering formal expressions, business terms, physical verbs, and miscellaneous vocabulary:
+
+- **Formal/honorific expressions (5)**: {恐|おそ}れ{入|い}ります (I'm sorry to trouble you), {僭越|せんえつ} (presumptuous), {謹|つつし}んで (respectfully), {仰|おお}せ (instruction - honorific), {御意|ぎょい} (as you wish - archaic)
+- **Business/real estate (4)**: {歩合|ぶあい} (commission), {更地|さらち} (vacant lot), {築年数|ちくねんすう} (building age), {陳列|ちんれつ} (display)
+- **Physical verbs (7)**: {敷|し}き{詰|つ}める (to spread all over), すり{潰|つぶ}す (to grind), {滑|すべ}らす (to slide), よじる (to twist), {摺|す}り{寄|よ}る (to sidle up)
+- **Speech/mockery verbs (4)**: おだてる (to flatter), {嘲|あざけ}る (to mock), ほざく (to babble - vulgar), {嗾|けしか}ける (to incite)
+- **Abstract nouns (5)**: {逐次|ちくじ} (sequentially), {当|あ}たり{障|さわ}り (offense), {粛清|しゅくせい} (purge), {改編|かいへん} (reorganization), {差|さ}し{支|つか}え (hindrance)
+- **Environment/weather (1)**: {日射|にっしゃ} (sunshine/solar radiation)
+- **Food (1)**: {黒酢|くろず} (black vinegar)
+- **Modern/loanwords (3)**: コーデ (outfit coordination), プラットホーム (platform), アンプ (amplifier), シンセサイザー (synthesizer)
+
+Notable entry features:
+- {僭越|せんえつ} and {御意|ぎょい} with detailed notes on formal/historical contexts
+- {嗾|けしか}ける with notes on instigating dogs to attack and figurative usage
+- {摺|す}り{寄|よ}る with two senses: (1) physical sidling up, (2) opportunistic cozying up
+- {憎|にく}まれ{口|ぐち} (sarcastic remarks) with cultural context about indirect criticism
+- プラットホーム with notes distinguishing from プラットフォーム (computing/business platform)
+- 6 new kanji added to kanji index: 僭, 嗾, 嘲, 摺, 謹, 陳
+
+Total entries: 7,869 → 7,899
+Remaining candidates: ~585 → ~556
+New kanji: 2,047 → 2,053
+
 ### 2026-01-22 (Vocabulary Expansion - 30 New Entries, Session 153)
 Added 30 new dictionary entries from candidate_words.json, covering sound verbs, compound verbs, adjectives, business/logistics terms, food vocabulary, and more:
 
