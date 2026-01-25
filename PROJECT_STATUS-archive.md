@@ -7,6 +7,31 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 158)
+Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, Japanese communication patterns, work/shopping terms, health/sleep vocabulary, and ambiguity expressions:
+
+- **Postponement/Progress (4)**: {先送|さきおく}り (postponement), {棚上|たなあ}げ (shelving), {足踏|あしぶ}み (marking time/stagnation), {行|い}き{詰|づ}まり (deadlock)
+- **Sleep/Health (5)**: {寝違|ねちが}え (stiff neck from sleeping), ぎっくり{腰|ごし} (slipped disc), うたた{寝|ね} (dozing off), {寝相|ねぞう} (sleeping posture), {食|た}べごたえ (satisfying to eat)
+- **Work/Satisfaction (2)**: {働|はたら}きがい (job satisfaction), {試飲|しいん} (drink tasting)
+- **Phone/Technology (3)**: {着信音|ちゃくしんおん} (ringtone), {不在着信|ふざいちゃくしん} (missed call), {機内|きない}モード (airplane mode)
+- **Garbage/Household (3)**: ゴミ{出|だ}し (taking out trash), {生|なま}ゴミ (food waste), {粗大|そだい}ゴミ (bulky garbage)
+- **Shopping (3)**: まとめ{買|が}い (bulk buying), {買|か}いだめ (stocking up), {試飲|しいん} (drink tasting)
+- **Ambiguity/Vagueness (3)**: うやむや (vague), あやふや (uncertain), {曖昧|あいまい} (ambiguous)
+- **Communication (4)**: {八方美人|はっぽうびじん} (people-pleaser), {察|さっ}する (to sense/infer), {遠回|とおまわ}し (indirect), {打算的|ださんてき} (calculating)
+- **Meaning/Visibility (3)**: {含|ふく}み (implication), {見|み}え{隠|かく}れ (appearing and disappearing), {押|お}し{問答|もんどう} (argument)
+- **Other (1)**: つなぎ (connection/stopgap)
+
+Notable entry features:
+- Multi-sense entries: {足踏|あしぶ}み (marching in place vs. stagnation), {含|ふく}み (implication vs. unrealized gains), {見|み}え{隠|かく}れ (physical visibility vs. subtle hints), つなぎ (connection, stopgap, cooking binder)
+- Related vocabulary clusters: うやむや/あやふや/{曖昧|あいまい} (vagueness terms), garbage types ({生|なま}ゴミ/{粗大|そだい}ゴミ), shopping patterns (まとめ{買|が}い/{買|か}いだめ)
+- Japanese communication concepts: {察|さっ}する (reading implicit cues), {遠回|とおまわ}し (indirect communication), {八方美人|はっぽうびじん} (people-pleasing)
+- Daily life in Japan: {機内|きない}モード, garbage sorting rules, bulk buying culture
+- 1 new kanji added to kanji index: 曖
+
+Total entries: 7,989 → 8,019
+Remaining candidates: ~467 → ~438
+New kanji: 2,060 → 2,061
+
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 157)
 Added 30 new dictionary entries from candidate_words.json, covering science/chemistry terms, business operations, transformation nouns (-化), legal/document vocabulary, and everyday expressions:
 
