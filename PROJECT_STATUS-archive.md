@@ -7,6 +7,28 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 149)
+Added 30 new dictionary entries from candidate_words.json, covering technology terms, business loanwords, scheduling vocabulary, and practical everyday expressions:
+
+- **Technology/Communication (6)**: LINE (messaging app), プラグ (plug), レンズ (lens), IT (information technology), ID (identification), Bluetooth
+- **Business/Startup terminology (6)**: ステークホルダー (stakeholder), ガバナンス (governance), レガシー (legacy), ローンチ (launch), スケール (scale), キャリアアップ (career advancement)
+- **Scheduling/Work (5)**: {繰|く}り{上|あ}げ (moving up schedule), {繰|く}り{下|さ}げ (postponing), {日程調整|にっていちょうせい} (schedule coordination), {遅刻届|ちこくとどけ} (late arrival notice), {朝食付|ちょうしょくつ}き (with breakfast)
+- **Music/Media (3)**: カバー (cover song), リミックス (remix), スパム (spam)
+- **Lifestyle/Shopping (4)**: ガーデニング (gardening), ライフスタイル (lifestyle), {駐車料金|ちゅうしゃりょうきん} (parking fee), アイテム (item)
+- **Daily life (6)**: イケてる (cool/stylish), {集合場所|しゅうごうばしょ} (meeting place), {物足|ものた}りなさ (wanting more), FAX (fax), バンパー (bumper), {太陽光発電|たいようこうはつでん} (solar power)
+
+Notable entry features:
+- Cross-references: {繰|く}り{上|あ}げ ↔ {繰|く}り{下|さ}げ (schedule antonym pair)
+- カバー with 3 senses: (1) protective cover, (2) cover song, (3) compensating
+- スケール with 3 senses: (1) business scale, (2) measuring scale, (3) musical scale
+- レガシー with 2 senses: (1) positive heritage, (2) outdated system
+- スパム with 2 senses: (1) email spam, (2) SPAM food (popular in Okinawa)
+- LINE entry with cultural notes about Japan's messaging culture and {既読|きどく} feature
+- FAX entry with cultural context about Japan's continued fax usage
+
+Total entries: 7,719 → 7,749
+Remaining candidates: ~613 → ~584
+
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 148)
 Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, expressions, and useful Japanese words:
 
