@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,229
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,406 | Unassigned: 0 ✓
-- **Candidate words**: ~538 words tracked in `candidate_words.json`
+- **Total entries**: 8,259
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,436 | Unassigned: 0 ✓
+- **Candidate words**: ~508 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 166)
+Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, travel/tourism terms, dining expressions, household items, and media/entertainment terminology:
+
+- **Personality/Character (5)**: おっとり (calm), {生意気|なまいき} (impudent), {嘘|うそ}つき (liar), {不真面目|ふまじめ} (insincere)
+- **Food/Dining (4)**: おかず (side dish), {立|た}ち{食|ぐ}い (stand-up eating), {食|た}べ{放題|ほうだい} (all-you-can-eat)
+- **Household/Gardening (6)**: ハンガー (hanger), ジッパー (zipper), プランター (planter), じょうろ (watering can), スコップ (scoop), {鍬|くわ} (hoe)
+- **Travel/Tourism (5)**: チェックイン (check-in), チェックアウト (check-out), ビザ (visa), {旅券|りょけん} (passport), ツアー (tour)
+- **Tickets/Events (4)**: {立|た}ち{見|み} (standing room only), {当日券|とうじつけん} (same-day ticket), {整理券|せいりけん} (numbered ticket), {前売|まえう}り (advance sale)
+- **Services/Rules (3)**: {貸|か}し{切|き}り (reserved), {持|も}ち{込|こ}み (bringing in), {差|さ}し{入|い}れ (gift/treat)
+- **Media/Publishing (3)**: {打|う}ち{切|き}り (cancellation), {見逃|みのが}し (overlooking/catch-up viewing), {読|よ}み{切|き}り (one-shot story)
+- **Time/Competition (2)**: {駆|か}け{込|こ}み (last-minute rush), {出遅|でおく}れ (late start)
+
+Notable entry features:
+- Japanese food culture: おかず (side dishes with rice), {立|た}ち{食|ぐ}い (stand-up eateries), {食|た}べ{放題|ほうだい} (all-you-can-eat)
+- Travel vocabulary cluster: チェックイン/チェックアウト (hotel), {旅券|りょけん}/ビザ (documents), ツアー
+- Ticket types: {当日券|とうじつけん} vs {前売|まえう}り (pricing differences)
+- Japanese services: {整理券|せいりけん} (bus/restaurant queue system), {差|さ}し{入|い}れ (workplace gift culture)
+- Media terminology: {打|う}ち{切|き}り (series cancellation), {読|よ}み{切|き}り (manga one-shots)
+- Multi-sense entries: {駆|か}け{込|こ}み (last-minute rush vs. emergency shelter), {見逃|みのが}し (overlooking vs. catch-up streaming)
+- 1 new kanji added to kanji index: 鍬 (02078)
+
+Total entries: 8,229 → 8,259
+Remaining candidates: ~538 → ~508
+New kanji: 2,077 → 2,078
 
 ### 2026-01-25 (New Candidates - 100 Words Added)
 Added 100 new candidate words to `candidate_words.json` across diverse domains:
@@ -405,31 +430,6 @@ Notable entry features:
 Total entries: 8,019 → 8,049
 Remaining candidates: ~438 → ~408
 New kanji: 2,061 → 2,062
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 158)
-Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, Japanese communication patterns, work/shopping terms, health/sleep vocabulary, and ambiguity expressions:
-
-- **Postponement/Progress (4)**: {先送|さきおく}り (postponement), {棚上|たなあ}げ (shelving), {足踏|あしぶ}み (marking time/stagnation), {行|い}き{詰|づ}まり (deadlock)
-- **Sleep/Health (5)**: {寝違|ねちが}え (stiff neck from sleeping), ぎっくり{腰|ごし} (slipped disc), うたた{寝|ね} (dozing off), {寝相|ねぞう} (sleeping posture), {食|た}べごたえ (satisfying to eat)
-- **Work/Satisfaction (2)**: {働|はたら}きがい (job satisfaction), {試飲|しいん} (drink tasting)
-- **Phone/Technology (3)**: {着信音|ちゃくしんおん} (ringtone), {不在着信|ふざいちゃくしん} (missed call), {機内|きない}モード (airplane mode)
-- **Garbage/Household (3)**: ゴミ{出|だ}し (taking out trash), {生|なま}ゴミ (food waste), {粗大|そだい}ゴミ (bulky garbage)
-- **Shopping (3)**: まとめ{買|が}い (bulk buying), {買|か}いだめ (stocking up), {試飲|しいん} (drink tasting)
-- **Ambiguity/Vagueness (3)**: うやむや (vague), あやふや (uncertain), {曖昧|あいまい} (ambiguous)
-- **Communication (4)**: {八方美人|はっぽうびじん} (people-pleaser), {察|さっ}する (to sense/infer), {遠回|とおまわ}し (indirect), {打算的|ださんてき} (calculating)
-- **Meaning/Visibility (3)**: {含|ふく}み (implication), {見|み}え{隠|かく}れ (appearing and disappearing), {押|お}し{問答|もんどう} (argument)
-- **Other (1)**: つなぎ (connection/stopgap)
-
-Notable entry features:
-- Multi-sense entries: {足踏|あしぶ}み (marching in place vs. stagnation), {含|ふく}み (implication vs. unrealized gains), {見|み}え{隠|かく}れ (physical visibility vs. subtle hints), つなぎ (connection, stopgap, cooking binder)
-- Related vocabulary clusters: うやむや/あやふや/{曖昧|あいまい} (vagueness terms), garbage types ({生|なま}ゴミ/{粗大|そだい}ゴミ), shopping patterns (まとめ{買|が}い/{買|か}いだめ)
-- Japanese communication concepts: {察|さっ}する (reading implicit cues), {遠回|とおまわ}し (indirect communication), {八方美人|はっぽうびじん} (people-pleasing)
-- Daily life in Japan: {機内|きない}モード, garbage sorting rules, bulk buying culture
-- 1 new kanji added to kanji index: 曖
-
-Total entries: 7,989 → 8,019
-Remaining candidates: ~467 → ~438
-New kanji: 2,060 → 2,061
 
 ---
 
