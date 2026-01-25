@@ -7,6 +7,29 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 147)
+Added 30 new dictionary entries from candidate_words.json, focusing on romaji abbreviations used in Japanese media, technology, daily life, and practical Japanese vocabulary:
+
+- **Youth/Student abbreviations (4)**: JK ({女子高生|じょしこうせい} - high school girl), JC ({女子中学生|じょしちゅうがくせい} - middle school girl), DK ({男子高生|だんしこうせい} - high school boy), JD ({女子大生|じょしだいせい} - female college student)
+- **Media/Entertainment (8)**: SP (special program/security personnel), VTR (video clip), MC (master of ceremonies), PR (public relations), PV (promotional video), MV (music video), BL (boys' love), GL (girls' love)
+- **Anime/Manga (3)**: OP (opening theme), ED (ending theme), OVA (original video animation)
+- **Lifestyle (3)**: LDK (living-dining-kitchen), TPO (time, place, occasion), EV (electric vehicle)
+- **Automotive (2)**: AT (automatic transmission), MT (manual transmission)
+- **Technology/Gaming (5)**: NPC (non-player character), RPG (role-playing game), AI (artificial intelligence), VR (virtual reality), AR (augmented reality)
+- **Japanese vocabulary (5)**: {既成概念|きせいがいねん} (preconceived notion), {概略|がいりゃく} (outline), {采配|さいはい} (command/leadership), お{粗末|そまつ} (poor quality), {不振|ふしん} (slump)
+
+Notable entry features:
+- Cross-references: JK ↔ JC ↔ DK, BL ↔ GL, OP ↔ ED, AT ↔ MT, VR ↔ AR, PV ↔ MV
+- SP with two senses: (1) TV special program, (2) security personnel
+- NPC with internet slang meaning (someone without independent thought)
+- LDK with explanation of Japanese real estate notation (1LDK, 2LDK, etc.)
+- TPO as essential Japanese etiquette concept
+- {采配|さいはい} with etymology from commander's baton
+- お{粗末|そまつ} with humble expression usage after serving meals
+
+Total entries: 7,659 → 7,689
+Remaining candidates: ~673 → ~643
+
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 146)
 Added 30 new dictionary entries from candidate_words.json, covering romaji abbreviations commonly used in Japan and practical Japanese vocabulary:
 

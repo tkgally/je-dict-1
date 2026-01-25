@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-24
+**Last updated**: 2026-01-25
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,959
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,136 | Unassigned: 0 ✓
-- **Candidate words**: ~497 words tracked in `candidate_words.json`
+- **Total entries**: 7,989
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,166 | Unassigned: 0 ✓
+- **Candidate words**: ~467 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 157)
+Added 30 new dictionary entries from candidate_words.json, covering science/chemistry terms, business operations, transformation nouns (-化), legal/document vocabulary, and everyday expressions:
+
+- **Science/Chemistry (5)**: {風化|ふうか} (weathering), {凝縮|ぎょうしゅく} (condensation), {溶解|ようかい} (dissolution), {腐食|ふしょく} (corrosion), {還元|かんげん} (reduction)
+- **Business operations (3)**: {操業|そうぎょう} (operation), {民営化|みんえいか} (privatization), {国有化|こくゆうか} (nationalization)
+- **Transformation nouns -化 (6)**: {簡略化|かんりゃくか} (simplification), {規格化|きかくか} (standardization), {常態化|じょうたいか} (normalization), {空洞化|くうどうか} (hollowing out), {硬直化|こうちょくか} (rigidity), {陳腐化|ちんぷか} (obsolescence)
+- **Legal/Documents (4)**: {誓約書|せいやくしょ} (written pledge), {捺印|なついん} (seal stamping), {言|い}い{逃|のが}れる (to make excuses), {差|さ}し{押|お}さえ (seizure)
+- **Evidence/Scope (3)**: {喫煙|きつえん} (smoking), {網羅|もうら} (comprehensive coverage), {裏付|うらづ}け (backing/evidence)
+- **Disappointment/Effort (4)**: {拍子抜|ひょうしぬ}け (anticlimax), {肩透|かたすか}かし (letdown), {二度手間|にどでま} (double work), {骨折|ほねお}り{損|ぞん} (wasted effort)
+- **Nature (2)**: {潮風|しおかぜ} (sea breeze), {朝露|あさつゆ} (morning dew)
+- **Activities (2)**: サイクリング (cycling), ランニング (running)
+- **Daily life (1)**: {物干|ものほ}し{竿|ざお} (laundry pole)
+
+Notable entry features:
+- Cross-references: {民営化|みんえいか} ↔ {国有化|こくゆうか} (antonym pair), {拍子抜|ひょうしぬ}け ↔ {肩透|かたすか}かし (similar disappointment)
+- Multi-sense entries: {風化|ふうか} (physical weathering vs. fading from memory), {凝縮|ぎょうしゅく} (physical vs. figurative condensation), {溶解|ようかい} (dissolving vs. melting), {還元|かんげん} (chemical reduction vs. returning benefits), {肩透|かたすか}かし (disappointment vs. sumo technique), ランニング (running vs. running costs)
+- Six related -化 transformation nouns describing organizational/systemic changes
+- {捺印|なついん} with cultural context on Japanese seal culture ({印鑑|いんかん})
+- 1 new kanji added to kanji index: 捺
+
+Total entries: 7,959 → 7,989
+Remaining candidates: ~497 → ~467
+New kanji: 2,059 → 2,060
 
 ### 2026-01-24 (Vocabulary Expansion - 30 New Entries, Session 156)
 Added 30 new dictionary entries from candidate_words.json, covering formal/business vocabulary, legal terminology, financial/accounting terms, and excellence/criticism vocabulary:
@@ -345,29 +369,6 @@ Notable entry features:
 
 Total entries: 7,689 → 7,719
 Remaining candidates: ~643 → ~613
-
-### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 147)
-Added 30 new dictionary entries from candidate_words.json, focusing on romaji abbreviations used in Japanese media, technology, daily life, and practical Japanese vocabulary:
-
-- **Youth/Student abbreviations (4)**: JK ({女子高生|じょしこうせい} - high school girl), JC ({女子中学生|じょしちゅうがくせい} - middle school girl), DK ({男子高生|だんしこうせい} - high school boy), JD ({女子大生|じょしだいせい} - female college student)
-- **Media/Entertainment (8)**: SP (special program/security personnel), VTR (video clip), MC (master of ceremonies), PR (public relations), PV (promotional video), MV (music video), BL (boys' love), GL (girls' love)
-- **Anime/Manga (3)**: OP (opening theme), ED (ending theme), OVA (original video animation)
-- **Lifestyle (3)**: LDK (living-dining-kitchen), TPO (time, place, occasion), EV (electric vehicle)
-- **Automotive (2)**: AT (automatic transmission), MT (manual transmission)
-- **Technology/Gaming (5)**: NPC (non-player character), RPG (role-playing game), AI (artificial intelligence), VR (virtual reality), AR (augmented reality)
-- **Japanese vocabulary (5)**: {既成概念|きせいがいねん} (preconceived notion), {概略|がいりゃく} (outline), {采配|さいはい} (command/leadership), お{粗末|そまつ} (poor quality), {不振|ふしん} (slump)
-
-Notable entry features:
-- Cross-references: JK ↔ JC ↔ DK, BL ↔ GL, OP ↔ ED, AT ↔ MT, VR ↔ AR, PV ↔ MV
-- SP with two senses: (1) TV special program, (2) security personnel
-- NPC with internet slang meaning (someone without independent thought)
-- LDK with explanation of Japanese real estate notation (1LDK, 2LDK, etc.)
-- TPO as essential Japanese etiquette concept
-- {采配|さいはい} with etymology from commander's baton
-- お{粗末|そまつ} with humble expression usage after serving meals
-
-Total entries: 7,659 → 7,689
-Remaining candidates: ~673 → ~643
 
 ---
 
