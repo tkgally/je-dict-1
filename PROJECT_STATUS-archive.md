@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 148)
+Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, expressions, and useful Japanese words:
+
+- **Help/Support terms (5)**: {納期|のうき} (delivery date), サポート (support), {助|たす}け (help), {支援|しえん} (support/aid), お{手伝|てつだ}い (help/housemaid)
+- **Rest/Break expressions (3)**: {一息|ひといき} (a breather), ひと{休|やす}み (short rest), {行楽|こうらく} (outing/excursion)
+- **Shopping terms (2)**: {安売|やすう}り (bargain sale), セール (sale)
+- **Direction words (3)**: {真|ま}っ{先|さき} (first of all), {真上|まうえ} (directly above), {真下|ました} (directly below)
+- **Emotion verbs (2)**: {恥|は}ずかしがる (to be shy), {寂|さび}しがる (to feel lonely)
+- **Usage patterns (2)**: {使|つか}い{方|かた} (how to use), {使|つか}い{道|みち} (use/purpose)
+- **Personality/Character (3)**: {心配性|しんぱいしょう} (worrywart), {気前|きまえ} (generosity), {粗相|そそう} (blunder)
+- **Adjectives (2)**: ばかばかしい (ridiculous), ちっぽけ (tiny)
+- **Other useful vocabulary (8)**: {悟|さと}り (enlightenment), {除菌|じょきん} (disinfection), {千切|ちぎ}る (to tear), {落第|らくだい} (failing), {嫌々|いやいや} (reluctantly), {手加減|てかげん} (holding back), {根幹|こんかん} (root/basis), {堅牢|けんろう} (robust)
+
+Notable entry features:
+- Cross-references between {真上|まうえ} ↔ {真下|ました} (directional antonyms)
+- Cross-reference: {使|つか}い{方|かた} ↔ {使|つか}い{道|みち} (how to use vs. what to use for)
+- がる verb pair: {恥|は}ずかしがる and {寂|さび}しがる showing third-person emotion expression
+- お{手伝|てつだ}い with two senses: (1) help/assistance, (2) housemaid (dated)
+- {粗相|そそう} with two senses: (1) blunder, (2) toileting accident (euphemism)
+- {一息|ひといき} with two senses: (1) a breather, (2) in one breath/without stopping
+
+Total entries: 7,689 → 7,719
+Remaining candidates: ~643 → ~613
+
 ### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 147)
 Added 30 new dictionary entries from candidate_words.json, focusing on romaji abbreviations used in Japanese media, technology, daily life, and practical Japanese vocabulary:
 

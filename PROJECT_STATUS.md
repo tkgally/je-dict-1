@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 7,989
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,166 | Unassigned: 0 ✓
-- **Candidate words**: ~467 words tracked in `candidate_words.json`
+- **Total entries**: 8,019
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,196 | Unassigned: 0 ✓
+- **Candidate words**: ~438 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 158)
+Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, Japanese communication patterns, work/shopping terms, health/sleep vocabulary, and ambiguity expressions:
+
+- **Postponement/Progress (4)**: {先送|さきおく}り (postponement), {棚上|たなあ}げ (shelving), {足踏|あしぶ}み (marking time/stagnation), {行|い}き{詰|づ}まり (deadlock)
+- **Sleep/Health (5)**: {寝違|ねちが}え (stiff neck from sleeping), ぎっくり{腰|ごし} (slipped disc), うたた{寝|ね} (dozing off), {寝相|ねぞう} (sleeping posture), {食|た}べごたえ (satisfying to eat)
+- **Work/Satisfaction (2)**: {働|はたら}きがい (job satisfaction), {試飲|しいん} (drink tasting)
+- **Phone/Technology (3)**: {着信音|ちゃくしんおん} (ringtone), {不在着信|ふざいちゃくしん} (missed call), {機内|きない}モード (airplane mode)
+- **Garbage/Household (3)**: ゴミ{出|だ}し (taking out trash), {生|なま}ゴミ (food waste), {粗大|そだい}ゴミ (bulky garbage)
+- **Shopping (3)**: まとめ{買|が}い (bulk buying), {買|か}いだめ (stocking up), {試飲|しいん} (drink tasting)
+- **Ambiguity/Vagueness (3)**: うやむや (vague), あやふや (uncertain), {曖昧|あいまい} (ambiguous)
+- **Communication (4)**: {八方美人|はっぽうびじん} (people-pleaser), {察|さっ}する (to sense/infer), {遠回|とおまわ}し (indirect), {打算的|ださんてき} (calculating)
+- **Meaning/Visibility (3)**: {含|ふく}み (implication), {見|み}え{隠|かく}れ (appearing and disappearing), {押|お}し{問答|もんどう} (argument)
+- **Other (1)**: つなぎ (connection/stopgap)
+
+Notable entry features:
+- Multi-sense entries: {足踏|あしぶ}み (marching in place vs. stagnation), {含|ふく}み (implication vs. unrealized gains), {見|み}え{隠|かく}れ (physical visibility vs. subtle hints), つなぎ (connection, stopgap, cooking binder)
+- Related vocabulary clusters: うやむや/あやふや/{曖昧|あいまい} (vagueness terms), garbage types ({生|なま}ゴミ/{粗大|そだい}ゴミ), shopping patterns (まとめ{買|が}い/{買|か}いだめ)
+- Japanese communication concepts: {察|さっ}する (reading implicit cues), {遠回|とおまわ}し (indirect communication), {八方美人|はっぽうびじん} (people-pleasing)
+- Daily life in Japan: {機内|きない}モード, garbage sorting rules, bulk buying culture
+- 1 new kanji added to kanji index: 曖
+
+Total entries: 7,989 → 8,019
+Remaining candidates: ~467 → ~438
+New kanji: 2,060 → 2,061
 
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 157)
 Added 30 new dictionary entries from candidate_words.json, covering science/chemistry terms, business operations, transformation nouns (-化), legal/document vocabulary, and everyday expressions:
@@ -345,30 +370,6 @@ Notable entry features:
 
 Total entries: 7,719 → 7,749
 Remaining candidates: ~613 → ~584
-
-### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 148)
-Added 30 new dictionary entries from candidate_words.json, covering practical everyday vocabulary, expressions, and useful Japanese words:
-
-- **Help/Support terms (5)**: {納期|のうき} (delivery date), サポート (support), {助|たす}け (help), {支援|しえん} (support/aid), お{手伝|てつだ}い (help/housemaid)
-- **Rest/Break expressions (3)**: {一息|ひといき} (a breather), ひと{休|やす}み (short rest), {行楽|こうらく} (outing/excursion)
-- **Shopping terms (2)**: {安売|やすう}り (bargain sale), セール (sale)
-- **Direction words (3)**: {真|ま}っ{先|さき} (first of all), {真上|まうえ} (directly above), {真下|ました} (directly below)
-- **Emotion verbs (2)**: {恥|は}ずかしがる (to be shy), {寂|さび}しがる (to feel lonely)
-- **Usage patterns (2)**: {使|つか}い{方|かた} (how to use), {使|つか}い{道|みち} (use/purpose)
-- **Personality/Character (3)**: {心配性|しんぱいしょう} (worrywart), {気前|きまえ} (generosity), {粗相|そそう} (blunder)
-- **Adjectives (2)**: ばかばかしい (ridiculous), ちっぽけ (tiny)
-- **Other useful vocabulary (8)**: {悟|さと}り (enlightenment), {除菌|じょきん} (disinfection), {千切|ちぎ}る (to tear), {落第|らくだい} (failing), {嫌々|いやいや} (reluctantly), {手加減|てかげん} (holding back), {根幹|こんかん} (root/basis), {堅牢|けんろう} (robust)
-
-Notable entry features:
-- Cross-references between {真上|まうえ} ↔ {真下|ました} (directional antonyms)
-- Cross-reference: {使|つか}い{方|かた} ↔ {使|つか}い{道|みち} (how to use vs. what to use for)
-- がる verb pair: {恥|は}ずかしがる and {寂|さび}しがる showing third-person emotion expression
-- お{手伝|てつだ}い with two senses: (1) help/assistance, (2) housemaid (dated)
-- {粗相|そそう} with two senses: (1) blunder, (2) toileting accident (euphemism)
-- {一息|ひといき} with two senses: (1) a breather, (2) in one breath/without stopping
-
-Total entries: 7,689 → 7,719
-Remaining candidates: ~643 → ~613
 
 ---
 
