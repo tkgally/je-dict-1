@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,019
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,196 | Unassigned: 0 ✓
-- **Candidate words**: ~438 words tracked in `candidate_words.json`
+- **Total entries**: 8,049
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,226 | Unassigned: 0 ✓
+- **Candidate words**: ~408 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,34 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 159)
+Added 30 new dictionary entries from candidate_words.json, covering household vocabulary, cooking techniques, shopping/business terms, transformation nouns (-化), and practical daily life expressions:
+
+- **Description/Clarity (1)**: {不明瞭|ふめいりょう} (unclear/obscure)
+- **Food/Eating (2)**: {暴飲暴食|ぼういんぼうしょく} (binge eating/drinking), やけ{食|ぐ}い (stress eating)
+- **Household (3)**: {布団干|ふとんほ}し (airing futons), {水回|みずまわ}り (water fixtures), おひつ (wooden rice container)
+- **Shopping/Business (6)**: {目玉商品|めだましょうひん} (featured product), タイムセール (limited time sale), ついで{買|が}い (impulse buying), {発注書|はっちゅうしょ} (purchase order), {歩合制|ぶあいせい} (commission system), {早期退職|そうきたいしょく} (early retirement)
+- **Cooking Techniques (5)**: {泡立|あわだ}て{器|き} (whisk), {乱切|らんぎ}り (rough cutting), {角切|かくぎ}り (dicing), {短冊切|たんざくぎ}り (rectangular strips)
+- **Office/Documents (2)**: {裏紙|うらがみ} (scrap paper), {欠席届|けっせきとどけ} (absence notification)
+- **Transformation nouns -化 (5)**: {細分化|さいぶんか} (subdivision), {固定化|こていか} (fixation), {大衆化|たいしゅうか} (popularization), {商業化|しょうぎょうか} (commercialization), {均一化|きんいつか} (standardization)
+- **Reading/Communication (2)**: {読|よ}みがい (worth reading), {行間|ぎょうかん}を{読|よ}む (read between the lines)
+- **Photography/Media (1)**: {露出|ろしゅつ} (exposure)
+- **Housing/Construction (2)**: {気密性|きみつせい} (airtightness), {断熱材|だんねつざい} (insulation material)
+- **Satisfaction (1)**: {飲|の}みごたえ (satisfying to drink)
+- **Other (1)**: {進|すす}め{方|かた} (way to proceed)
+
+Notable entry features:
+- Multi-sense entries: {露出|ろしゅつ} (photographic exposure vs. physical exposure), {暴飲暴食|ぼういんぼうしょく} (medical vs. casual use)
+- Cooking vocabulary cluster: {乱切|らんぎ}り/{角切|かくぎ}り/{短冊切|たんざくぎ}り covering different cutting techniques with visual descriptions
+- Five related -化 transformation nouns describing social/organizational changes
+- Japanese office culture: {裏紙|うらがみ} (reusing paper backs) and {欠席届|けっせきとどけ} (absence notification forms)
+- Housing terminology: {気密性|きみつせい} and {断熱材|だんねつざい} common in Japanese housing discussions
+- 1 new kanji added to kanji index: 衆 (02062)
+
+Total entries: 8,019 → 8,049
+Remaining candidates: ~438 → ~408
+New kanji: 2,061 → 2,062
 
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 158)
 Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, Japanese communication patterns, work/shopping terms, health/sleep vocabulary, and ambiguity expressions:
@@ -348,28 +376,6 @@ Notable entry features:
 
 Total entries: 7,749 → 7,779
 Remaining candidates: ~584 → ~563
-
-### 2026-01-21 (Vocabulary Expansion - 30 New Entries, Session 149)
-Added 30 new dictionary entries from candidate_words.json, covering technology terms, business loanwords, scheduling vocabulary, and practical everyday expressions:
-
-- **Technology/Communication (6)**: LINE (messaging app), プラグ (plug), レンズ (lens), IT (information technology), ID (identification), Bluetooth
-- **Business/Startup terminology (6)**: ステークホルダー (stakeholder), ガバナンス (governance), レガシー (legacy), ローンチ (launch), スケール (scale), キャリアアップ (career advancement)
-- **Scheduling/Work (5)**: {繰|く}り{上|あ}げ (moving up schedule), {繰|く}り{下|さ}げ (postponing), {日程調整|にっていちょうせい} (schedule coordination), {遅刻届|ちこくとどけ} (late arrival notice), {朝食付|ちょうしょくつ}き (with breakfast)
-- **Music/Media (3)**: カバー (cover song), リミックス (remix), スパム (spam)
-- **Lifestyle/Shopping (4)**: ガーデニング (gardening), ライフスタイル (lifestyle), {駐車料金|ちゅうしゃりょうきん} (parking fee), アイテム (item)
-- **Daily life (6)**: イケてる (cool/stylish), {集合場所|しゅうごうばしょ} (meeting place), {物足|ものた}りなさ (wanting more), FAX (fax), バンパー (bumper), {太陽光発電|たいようこうはつでん} (solar power)
-
-Notable entry features:
-- Cross-references: {繰|く}り{上|あ}げ ↔ {繰|く}り{下|さ}げ (schedule antonym pair)
-- カバー with 3 senses: (1) protective cover, (2) cover song, (3) compensating
-- スケール with 3 senses: (1) business scale, (2) measuring scale, (3) musical scale
-- レガシー with 2 senses: (1) positive heritage, (2) outdated system
-- スパム with 2 senses: (1) email spam, (2) SPAM food (popular in Okinawa)
-- LINE entry with cultural notes about Japan's messaging culture and {既読|きどく} feature
-- FAX entry with cultural context about Japan's continued fax usage
-
-Total entries: 7,719 → 7,749
-Remaining candidates: ~613 → ~584
 
 ---
 
