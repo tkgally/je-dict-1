@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 8,379
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,556 | Unassigned: 0 ✓
-- **Candidate words**: ~388 words tracked in `candidate_words.json`
+- **Candidate words**: ~490 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,43 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-26 (New Candidates - 102 Words Added)
+Added 102 new candidate words to `candidate_words.json` across diverse domains:
+
+**Counter Questions (7)**: {何度|なんど} (how many times), {何回|なんかい} (how many times), {何人|なんにん} (how many people), {何枚|なんまい} (how many flat objects), {何冊|なんさつ} (how many books), {何杯|なんばい} (how many cups), {何歳|なんさい} (how old)
+
+**Function Words/Demonstratives (12)**: どちらも (both), {誰|だれ}でも (anyone), そのため (therefore), {その後|そのご} (after that), {その前|そのまえ} (before that), {その間|そのあいだ} (meanwhile), {向|む}こう{側|がわ} (other side), それとなく (indirectly), それなりに (in its own way), それにしても (nevertheless), {何|なん}となく (somehow), {何|なに}かと (one way or another)
+
+**Time Expressions (7)**: {明|あ}け{方|がた} (dawn), {日|ひ}の{出|で} (sunrise), {朝帰|あさがえ}り (coming home in the morning), {日帰|ひがえ}り (day trip), {泊|とま}りがけ (overnight stay), {外泊|がいはく} (staying out overnight), オールナイト (all-night)
+
+**Celestial Bodies (4)**: {三日月|みかづき} (crescent moon), {満月|まんげつ} (full moon), {新月|しんげつ} (new moon), {半月|はんげつ} (half moon)
+
+**Weather (3)**: {通|とお}り{雨|あめ} (passing shower), {底冷|そこび}え (bone-chilling cold), {上弦|じょうげん} (first quarter moon)
+
+**Cooking Terms (12)**: ぶつ{切|ぎ}り (rough chopping), {半切|はんぎ}り (cutting in half), {細切|ほそぎ}り (thin strips), {湯通|ゆどお}し (blanching), {水切|みずき}り (draining water), {油切|あぶらき}り (draining oil), {塩加減|しおかげん} (saltiness), {焦|こ}げ{目|め} (char marks), とろ{火|び} (low heat)
+
+**Compound Verbs (10)**: {聞|き}き{慣|な}れる (become used to hearing), {食|た}べ{慣|な}れる (become used to eating), {住|す}み{慣|な}れる (become accustomed to living), {引|ひ}き{抜|ぬ}く (to pull out), {投|な}げ{込|こ}む (to throw into), {迷|まよ}い{込|こ}む (to wander into)
+
+**Financial Terms (4)**: {利子|りし} (interest), {分割払|ぶんかつばら}い (installment payment), {一括払|いっかつばら}い (lump-sum payment), {副業|ふくぎょう} (side job)
+
+**Mistake/Error Terms (6)**: {聞|き}き{間違|まちが}い (mishearing), {言|い}い{間違|まちが}い (slip of tongue), {書|か}き{間違|まちが}い (writing mistake), {読|よ}み{間違|まちが}い (misreading), {見間違|みまちが}い (mistake in seeing), {勘違|かんちが}い (misunderstanding)
+
+**Personality/Traits (10)**: {恥|は}ずかしがり (shy person), {世話好|せわず}き (likes to help), {物忘|ものわす}れ (forgetfulness), ど{忘|わす}れ (memory lapse), うっかり{忘|わす}れ (careless forgetfulness), {気分転換|きぶんてんかん} (change of pace), {気分屋|きぶんや} (moody person), {記憶違|きおくちが}い (faulty memory), {思|おも}い{違|ちが}い (misconception)
+
+**Ability/力 Compounds (16)**: {気力|きりょく} (willpower), {脚力|きゃくりょく} (leg strength), {腕力|わんりょく} (arm strength), {握力|あくりょく} (grip strength), {持久力|じきゅうりょく} (endurance), {瞬発力|しゅんぱつりょく} (explosive power), {集中力|しゅうちゅうりょく} (concentration), {記憶力|きおくりょく} (memory), {判断力|はんだんりょく} (judgment), {決断力|けつだんりょく} (decisiveness), {行動力|こうどうりょく} (action ability), {実行力|じっこうりょく} (execution ability), {想像力|そうぞうりょく} (imagination), {洞察力|どうさつりょく} (insight), {観察力|かんさつりょく} (observation), {分析力|ぶんせきりょく} (analysis), {理解力|りかいりょく} (comprehension), {説得力|せっとくりょく} (persuasiveness)
+
+**Transportation (5)**: {運転見合|うんてんみあ}わせ (service suspension), {運転再開|うんてんさいかい} (resumption of service), {車両点検|しゃりょうてんけん} (train inspection), {信号故障|しんごうこしょう} (signal malfunction), {睡眠不足|すいみんぶそく} (sleep deprivation)
+
+**Other (6)**: {同期|どうき}する (to synchronize), ワイヤレス (wireless), じんわり (gradually), いくら{何|なん}でも (no matter what), {自力|じりき} (one's own power), {他力|たりき} (help from others)
+
+Notable patterns:
+- Counter question words: Complete {何|なん}+counter pattern
+- Ability vocabulary: Comprehensive 〜{力|りょく} compounds covering physical, mental, and cognitive abilities
+- Mistake vocabulary: Systematic 〜{間違|まちが}い patterns for different senses
+- Transportation announcements: Common train delay/suspension vocabulary
+
+Candidate count: 388 → 490
 
 ### 2026-01-26 (Vocabulary Expansion - 30 New Entries, Session 170)
 Added 30 new dictionary entries from candidate_words.json, covering science/physics terminology, legal/government vocabulary, sports competition terms, infrastructure/location words, academic/publishing terms, and technology vocabulary:
