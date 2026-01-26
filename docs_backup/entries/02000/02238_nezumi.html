@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="鼠 - mouse, rat. Japanese-English dictionary entry with definitions and examples.">
+    <title>鼠 (ねずみ) - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../advanced.html" class="nav-link">Advanced</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+        <a href="../../about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword"><ruby><a href="../../kanji/01370_so_nezumi_rat.html" class="kanji-link" title="Other words with this kanji">鼠</a><rp>(</rp><rt>ねずみ</rt><rp>)</rp></ruby></h1>
+            <div class="entry-reading">ねずみ</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">mouse, rat</div>
+        </div>
+    
+<div class="definitions">
+
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">mouse, rat</span>
+                        <div class="definition-explanation">A small rodent.</div>
+                    </div>
+                
+</div>
+<div class="examples">
+
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>鼠<rp>(</rp><rt>ねずみ</rt><rp>)</rp></ruby>が<ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>た。</div>
+                    <div class="example-english">A mouse appeared.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese"><ruby>猫<rp>(</rp><rt>ねこ</rt><rp>)</rp></ruby>が<ruby>鼠<rp>(</rp><rt>ねずみ</rt><rp>)</rp></ruby>を<ruby>追<rp>(</rp><rt>お</rt><rp>)</rp></ruby>いかけている。</div>
+                    <div class="example-english">The cat is chasing the mouse.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <div class="notes-content"><p><ruby>鼠<rp>(</rp><rt>ねずみ</rt><rp>)</rp></ruby> refers to mice and rats.</p><p>ZODIAC:<br><ruby>子<rp>(</rp><rt>ね</rt><rp>)</rp></ruby> is the first animal of the Chinese zodiac.</p><p>EXPRESSIONS:</p><ul><li><ruby>窮鼠<rp>(</rp><rt>きゅうそ</rt><rp>)</rp></ruby><ruby>猫<rp>(</rp><rt>ねこ</rt><rp>)</rp></ruby>を<ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>む: a cornered rat will bite a cat</li><li><ruby>鼠算<rp>(</rp><rt>ねずみざん</rt><rp>)</rp></ruby>: exponential growth</li></ul><p>COLOR:<br><ruby>鼠色<rp>(</rp><rt>ねずみいろ</rt><rp>)</rp></ruby>: gray</p></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-core">core</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.9 21:35 · Revised 2026.1.24 16:38</div>
+                <div class="metadata-file">02000/02238_nezumi</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
