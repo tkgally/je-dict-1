@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,349
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,526 | Unassigned: 0 ✓
-- **Candidate words**: ~418 words tracked in `candidate_words.json`
+- **Total entries**: 8,379
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,556 | Unassigned: 0 ✓
+- **Candidate words**: ~388 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-26 (Vocabulary Expansion - 30 New Entries, Session 170)
+Added 30 new dictionary entries from candidate_words.json, covering science/physics terminology, legal/government vocabulary, sports competition terms, infrastructure/location words, academic/publishing terms, and technology vocabulary:
+
+- **Science/Physics (5)**: {反射|はんしゃ} (reflection/reflex), {共鳴|きょうめい} (resonance/sympathy), {屈折|くっせつ} (refraction), {融解|ゆうかい} (melting), {光合成|こうごうせい} (photosynthesis)
+- **Legal/Government (7)**: {冤罪|えんざい} (false accusation), {黙秘|もくひ} (silence/refusing to answer), {公布|こうふ} (promulgation), {採決|さいけつ} (vote), {否決|ひけつ} (rejection), {訴状|そじょう} (complaint), {陳述|ちんじゅつ} (statement)
+- **Sports/Competition (4)**: トーナメント (tournament), リーグ{戦|せん} (league match), {不戦勝|ふせんしょう} (win by default), {大差|たいさ} (big difference)
+- **Infrastructure/Location (5)**: {舗装|ほそう} (paving), {石畳|いしだたみ} (cobblestone), {突|つ}き{当|あ}たり (dead end), {縁石|えんせき} (curb), {軒先|のきさき} (eaves/shopfront)
+- **Academic/Publishing (3)**: {査読|さどく} (peer review), {凡例|はんれい} (legend/explanatory notes), {抄録|しょうろく} (abstract)
+- **Technology (4)**: {暗号化|あんごうか} (encryption), {復号|ふくごう} (decryption), {並列|へいれつ} (parallel), {直列|ちょくれつ} (serial)
+- **Household/Other (2)**: {窓際|まどぎわ} (by the window/sidelined), {追|お}い{焚|だ}き (reheating bath)
+
+Notable entry features:
+- Physics vocabulary cluster: {反射|はんしゃ}/{屈折|くっせつ} (reflection vs refraction), {融解|ゆうかい}/{光合成|こうごうせい}
+- Legal process vocabulary: {訴状|そじょう}/{陳述|ちんじゅつ}/{黙秘|もくひ} (courtroom terms)
+- Legislative process: {採決|さいけつ}/{否決|ひけつ}/{公布|こうふ} (voting and promulgation)
+- Competition formats: トーナメント vs リーグ{戦|せん} (knockout vs round-robin)
+- Circuit terminology: {並列|へいれつ} vs {直列|ちょくれつ} (parallel vs series)
+- Multi-sense entries: {反射|はんしゃ} (light reflection vs physiological reflex), {共鳴|きょうめい} (physics vs sympathy), {屈折|くっせつ} (physics vs psychological), {窓際|まどぎわ} (location vs sidelined employee)
+- 3 new kanji added to kanji index: 冤 (02086), 抄 (02087), 舗 (02088)
+
+Total entries: 8,349 → 8,379
+Remaining candidates: ~418 → ~388
+New kanji: 2,085 → 2,088
 
 ### 2026-01-26 (Vocabulary Expansion - 30 New Entries, Session 169)
 Added 30 new dictionary entries from candidate_words.json, covering workplace/business vocabulary, relationship conflicts, entertainment/media terminology, and technology terms:
@@ -380,44 +404,6 @@ Added 106 new candidate words to `candidate_words.json` across diverse domains:
 **Environment (3)**: {伐採|ばっさい} (logging), {植林|しょくりん} (afforestation), {食物連鎖|しょくもつれんさ} (food chain)
 
 Candidate count: 451 → 557
-
-### 2026-01-25 (New Candidates - 102 Words Added)
-Added 102 new candidate words to `candidate_words.json` across diverse domains:
-
-**Emotions/Personality (8)**: {寂|さび}しさ (loneliness), {照|て}れる (to be shy), {人柄|ひとがら} (personality), おっとり (calm), {不真面目|ふまじめ} (unserious), {嘘|うそ}つき (liar), {生意気|なまいき} (impudent)
-
-**Work/Business (5)**: {光熱費|こうねつひ} (utility costs), {付箋|ふせん} (sticky note), {身分証明|みぶんしょうめい} (ID), {条例|じょうれい} (ordinance), {前提|ぜんてい} (premise)
-
-**Housing/Real Estate (5)**: ワンルーム (studio apartment), {木造|もくぞう} (wooden construction), {鉄筋|てっきん} (reinforced concrete), {方角|ほうがく} (direction), {駅近|えきちか} (close to station)
-
-**Travel/Tourism (7)**: {名所|めいしょ} (famous place), {民宿|みんしゅく} (B&B), チェックイン/チェックアウト (check-in/out), ビザ (visa), {旅券|りょけん} (passport), ツアー (tour)
-
-**Gardening (4)**: プランター (planter), じょうろ (watering can), スコップ (shovel), {鍬|くわ} (hoe)
-
-**Music (3)**: ハーモニー (harmony), ベース (bass), ボーカル (vocals)
-
-**Technology (4)**: システム (system), エラー (error), コミュニケーション (communication), コミュニティ (community)
-
-**Shopping/Commerce (14)**: バーゲン (bargain), {値切|ねぎ}る (to haggle), おまけ (bonus), {景品|けいひん} (prize), {福袋|ふくぶくろ} (lucky bag), {先着|せんちゃく} (first-come), {在庫切|ざいこぎ}れ (out of stock), {再入荷|さいにゅうか} (restocking), {取|と}り{寄|よ}せ (ordering in), {取|と}り{置|お}き (holding item), ラッピング (gift wrapping)
-
-**Food/Dining (14)**: おかず (side dish), {腹八分目|はらはちぶんめ} (eating in moderation), {味見|あじみ} (tasting), {立|た}ち{食|ぐ}い (standing eating), {食|た}べ{放題|ほうだい} (all-you-can-eat), {飲|の}み{放題|ほうだい} (all-you-can-drink), おまかせ (chef's choice), {持|も}ち{帰|かえ}り (takeout), {出前|でまえ} (delivery), {割|わ}り{勘|かん} (splitting bill), おごる (to treat), {大盛|おおも}り (large serving), {替|か}え{玉|だま} (extra noodles)
-
-**Products (8)**: {手書|てが}き (handwriting), {手作|てづく}り (handmade), {既製品|きせいひん} (ready-made), {注文品|ちゅうもんひん} (custom item), {中古品|ちゅうこひん} (used item), {新品|しんぴん} (brand new)
-
-**Compound Verbs/Expressions (15)**: {言|い}い{直|なお}す (to rephrase), {拒否|きょひ} (refusal), {実践|じっせん} (practice), {逆|ぎゃく}に (conversely), {駆|か}け{込|こ}み (last-minute rush), {打|う}ち{切|き}り (cancellation), {見逃|みのが}し (overlooking), {出遅|でおく}れ (late start), {貸|か}し{切|き}り (reserved), {持|も}ち{込|こ}み (bringing in), {差|さ}し{入|い}れ (gift for others)
-
-**Casual Speech (8)**: オッケー (OK), ほんと (really), あいつ/こいつ/そいつ (that/this guy), というのは (because), もしかしたら (perhaps), {絶対|ぜったい}に (absolutely)
-
-**Other (7)**: {筆箱|ふでばこ} (pencil case), {険|けわ}しい (steep), {乏|とぼ}しい (scarce), {主演|しゅえん} (starring role), お{詫|わ}び (apology), {体質|たいしつ} (constitution), {燻|いぶ}す (to smoke food)
-
-Notable patterns:
-- Strong coverage of daily life vocabulary (shopping, dining, housing)
-- Practical tourism and travel terms
-- Casual speech expressions for natural conversation
-- Compound verbs for nuanced actions
-- Both katakana loanwords and native Japanese vocabulary
-
-Candidate count: 349 → 451
 
 ---
 
