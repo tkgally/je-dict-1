@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 161)
+Added 30 new dictionary entries from candidate_words.json, covering geometry terms, antonym pairs, office vocabulary, music terminology, and kitchen items:
+
+- **Geometry/Lines (2)**: {斜線|しゃせん} (diagonal line), {対角線|たいかくせん} (diagonal)
+- **Antonym pairs/Abstract (6)**: {緩急|かんきゅう} (slow and fast), {軽重|けいちょう} (light and heavy), {遠近|えんきん} (distance/perspective), {正誤|せいご} (right and wrong), {浮沈|ふちん} (rise and fall), {栄枯|えいこ} (prosperity and decline)
+- **Business/Documents (3)**: {注文書|ちゅうもんしょ} (order form), {手回|てまわ}し (hand-operated; preparation), {同格|どうかく} (same rank; apposition)
+- **Cooking/Kitchen (4)**: {灰汁取|あくと}り (scum skimming), {寿司桶|すしおけ} (sushi tub), すくい{網|あみ} (strainer/skimmer), {乾湿|かんしつ} (dry and wet)
+- **Office/Stationery (4)**: {穴|あな}あけパンチ (hole punch), {両面印刷|りょうめんいんさつ} (double-sided printing), コピー{用紙|ようし} (copy paper), カートリッジ (cartridge)
+- **Music instruments (4)**: クラリネット (clarinet), トロンボーン (trombone), コントラバス (double bass), ピック (guitar pick)
+- **Music terms (3)**: ヒップホップ (hip-hop), リフ (riff), アレンジ (arrangement)
+- **Other (4)**: {可愛|かわい}げ (lovability), {得失|とくしつ} (gains and losses), {網目|あみめ} (mesh), バロメーター (barometer)
+
+Notable entry features:
+- Japanese antonym pair vocabulary: {緩急|かんきゅう}/{軽重|けいちょう}/{遠近|えんきん}/{正誤|せいご} - compound nouns combining opposite meanings
+- Four-character idiom: {栄枯盛衰|えいこせいすい} (vicissitudes of fortune)
+- Music vocabulary cluster: classical instruments and modern music terminology
+- Office workflow terms: printing, stationery, and document management
+- Multi-sense entries: {緩急|かんきゅう} (pace variation vs. emergency), {手回|てまわ}し (hand-operated vs. arrangements), {同格|どうかく} (equal status vs. grammatical apposition)
+- 1 new kanji added to kanji index: 桶 (02066)
+
+Total entries: 8,079 → 8,109
+Remaining candidates: ~378 → ~349
+New kanji: 2,065 → 2,066
+
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 160)
 Added 30 new dictionary entries from candidate_words.json, covering cooking techniques, traditional foods, gardening/horticulture, music terminology, hobbies, and daily life vocabulary:
 

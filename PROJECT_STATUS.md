@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,319
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,496 | Unassigned: 0 ✓
-- **Candidate words**: ~448 words tracked in `candidate_words.json`
+- **Total entries**: 8,349
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,526 | Unassigned: 0 ✓
+- **Candidate words**: ~418 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-26 (Vocabulary Expansion - 30 New Entries, Session 169)
+Added 30 new dictionary entries from candidate_words.json, covering workplace/business vocabulary, relationship conflicts, entertainment/media terminology, and technology terms:
+
+- **Workplace/Career (8)**: {値切|ねぎ}る (to haggle), {勤務先|きんむさき} (workplace), {昇格|しょうかく} (promotion), {引|ひ}き{継|つ}ぎ (handover), {申|もう}し{送|おく}り (handover briefing), {半休|はんきゅう} (half-day off), {繁忙期|はんぼうき} (busy season), {閑散期|かんさんき} (slow season)
+- **Relationship Conflicts (7)**: {揉|も}め{事|ごと} (trouble/dispute), {八|や}つ{当|あ}たり (taking out anger), {逆恨|さかうら}み (misplaced resentment), {口論|こうろん} (argument), {疎遠|そえん} (estranged), {破局|はきょく} (breakup), {絶縁|ぜつえん} (severing ties)
+- **Entertainment/Media (8)**: {楽屋|がくや} (dressing room), {舞台裏|ぶたいうら} (backstage), {収録|しゅうろく} (recording), {予告|よこく} (preview/trailer), {上映|じょうえい} (screening), {視聴率|しちょうりつ} (viewer ratings), {観覧|かんらん} (viewing), {喝采|かっさい} (applause)
+- **Business/Academic (4)**: {保留|ほりゅう} (pending/on hold), {審査|しんさ} (examination), {補足|ほそく} (supplement), {校閲|こうえつ} (proofreading)
+- **Technology/Other (3)**: {課金|かきん} (billing/in-app purchase), {分解|ぶんかい} (disassembly), {抜|ぬ}け{道|みち} (shortcut/loophole)
+
+Notable entry features:
+- Workplace transition vocabulary: {引|ひ}き{継|つ}ぎ (handover tasks) vs {申|もう}し{送|おく}り (handover briefing)
+- Seasonal business terms: {繁忙期|はんぼうき} vs {閑散期|かんさんき} (busy vs slow season)
+- Relationship deterioration scale: {疎遠|そえん} → {破局|はきょく} → {絶縁|ぜつえん}
+- Entertainment industry vocabulary: {楽屋|がくや}/{舞台裏|ぶたいうら} (behind the scenes)
+- Multi-sense entries: {絶縁|ぜつえん} (severing ties vs electrical insulation), {分解|ぶんかい} (disassembly vs decomposition), {抜|ぬ}け{道|みち} (shortcut vs loophole)
+- 4 new kanji added to kanji index: 喝 (02082), 繁 (02083), 閑 (02084), 閲 (02085)
+
+Total entries: 8,319 → 8,349
+Remaining candidates: ~448 → ~418
+New kanji: 2,081 → 2,085
 
 ### 2026-01-26 (Vocabulary Expansion - 30 New Entries, Session 168)
 Added 30 new dictionary entries from candidate_words.json, covering health/body vocabulary, weather/seasons, personality types, food/cooking, lifestyle/home, transportation, social customs/gifts, and emotions:
@@ -397,30 +418,6 @@ Notable patterns:
 - Both katakana loanwords and native Japanese vocabulary
 
 Candidate count: 349 → 451
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 161)
-Added 30 new dictionary entries from candidate_words.json, covering geometry terms, antonym pairs, office vocabulary, music terminology, and kitchen items:
-
-- **Geometry/Lines (2)**: {斜線|しゃせん} (diagonal line), {対角線|たいかくせん} (diagonal)
-- **Antonym pairs/Abstract (6)**: {緩急|かんきゅう} (slow and fast), {軽重|けいちょう} (light and heavy), {遠近|えんきん} (distance/perspective), {正誤|せいご} (right and wrong), {浮沈|ふちん} (rise and fall), {栄枯|えいこ} (prosperity and decline)
-- **Business/Documents (3)**: {注文書|ちゅうもんしょ} (order form), {手回|てまわ}し (hand-operated; preparation), {同格|どうかく} (same rank; apposition)
-- **Cooking/Kitchen (4)**: {灰汁取|あくと}り (scum skimming), {寿司桶|すしおけ} (sushi tub), すくい{網|あみ} (strainer/skimmer), {乾湿|かんしつ} (dry and wet)
-- **Office/Stationery (4)**: {穴|あな}あけパンチ (hole punch), {両面印刷|りょうめんいんさつ} (double-sided printing), コピー{用紙|ようし} (copy paper), カートリッジ (cartridge)
-- **Music instruments (4)**: クラリネット (clarinet), トロンボーン (trombone), コントラバス (double bass), ピック (guitar pick)
-- **Music terms (3)**: ヒップホップ (hip-hop), リフ (riff), アレンジ (arrangement)
-- **Other (4)**: {可愛|かわい}げ (lovability), {得失|とくしつ} (gains and losses), {網目|あみめ} (mesh), バロメーター (barometer)
-
-Notable entry features:
-- Japanese antonym pair vocabulary: {緩急|かんきゅう}/{軽重|けいちょう}/{遠近|えんきん}/{正誤|せいご} - compound nouns combining opposite meanings
-- Four-character idiom: {栄枯盛衰|えいこせいすい} (vicissitudes of fortune)
-- Music vocabulary cluster: classical instruments and modern music terminology
-- Office workflow terms: printing, stationery, and document management
-- Multi-sense entries: {緩急|かんきゅう} (pace variation vs. emergency), {手回|てまわ}し (hand-operated vs. arrangements), {同格|どうかく} (equal status vs. grammatical apposition)
-- 1 new kanji added to kanji index: 桶 (02066)
-
-Total entries: 8,079 → 8,109
-Remaining candidates: ~378 → ~349
-New kanji: 2,065 → 2,066
 
 ---
 
