@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,379
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,556 | Unassigned: 0 ✓
-- **Candidate words**: ~590 words tracked in `candidate_words.json`
+- **Total entries**: 8,409
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,586 | Unassigned: 0 ✓
+- **Candidate words**: ~560 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-26 (Vocabulary Expansion - 30 New Entries, Session 171)
+Added 30 new dictionary entries from candidate_words.json, covering counter questions, time/celestial vocabulary, weather terms, compound verbs, financial vocabulary, memory-related words, travel expressions, cognitive abilities, housing rooms, and Japanese food:
+
+- **Counter Questions (3)**: {何度|なんど} (how many times), {何人|なんにん} (how many people), {何歳|なんさい} (how old)
+- **Time/Celestial (5)**: {明|あ}け{方|がた} (dawn), {日|ひ}の{出|で} (sunrise), {三日月|みかづき} (crescent moon), {満月|まんげつ} (full moon), {新月|しんげつ} (new moon)
+- **Weather (2)**: {通|とお}り{雨|あめ} (passing shower), {底冷|そこび}え (bone-chilling cold)
+- **Compound Verbs (4)**: {聞|き}き{慣|な}れる (become used to hearing), {迷|まよ}い{込|こ}む (wander into), {引|ひ}き{抜|ぬ}く (pull out/headhunt), {投|な}げ{込|こ}む (throw into)
+- **Financial (3)**: {利子|りし} (interest), {分割払|ぶんかつばら}い (installment payment), {一括払|いっかつばら}い (lump-sum payment)
+- **Memory/Error (3)**: {勘違|かんちが}い (misunderstanding), {物忘|ものわす}れ (forgetfulness), {ど忘|わす}れ (memory lapse)
+- **Travel (2)**: {日帰|ひがえ}り (day trip), {外泊|がいはく} (staying out overnight)
+- **Cognitive Abilities (4)**: {集中力|しゅうちゅうりょく} (concentration), {想像力|そうぞうりょく} (imagination), {記憶力|きおくりょく} (memory), {判断力|はんだんりょく} (judgment)
+- **Housing (2)**: {洗面所|せんめんじょ} (washroom), {脱衣所|だついじょ} (changing room)
+- **Japanese Food (2)**: {肉|にく}じゃが (nikujaga), {親子丼|おやこどん} (oyakodon)
+
+Notable entry features:
+- Moon phase vocabulary cluster: {新月|しんげつ}/{三日月|みかづき}/{満月|まんげつ} with astronomical notes
+- Cognitive ability cluster: {集中力|しゅうちゅうりょく}/{想像力|そうぞうりょく}/{記憶力|きおくりょく}/{判断力|はんだんりょく} (～{力|りょく} compounds)
+- Payment vocabulary contrast: {分割払|ぶんかつばら}い vs {一括払|いっかつばら}い
+- Memory-related words: {物忘|ものわす}れ (chronic) vs {ど忘|わす}れ (momentary) vs {勘違|かんちが}い (misinterpretation)
+- Japanese bath culture: {洗面所|せんめんじょ}/{脱衣所|だついじょ} with house layout notes
+- Home cooking classics: {肉|にく}じゃが/{親子丼|おやこどん} with recipe and cultural notes
+- Multi-sense entry: {引|ひ}き{抜|ぬ}く (physical pulling vs. headhunting)
+
+Total entries: 8,379 → 8,409
+Remaining candidates: ~590 → ~560
 
 ### 2026-01-26 (New Candidates - 100 Words Added)
 Added 100 new candidate words to `candidate_words.json` across diverse domains:
