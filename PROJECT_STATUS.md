@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 8,379
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,556 | Unassigned: 0 ✓
-- **Candidate words**: ~490 words tracked in `candidate_words.json`
+- **Candidate words**: ~590 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,46 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-26 (New Candidates - 100 Words Added)
+Added 100 new candidate words to `candidate_words.json` across diverse domains:
+
+**Common Adverbs/Expressions (3)**: {改|あらた}めて (anew), {思|おも}い{切|き}り (with all one's might), やむを{得|え}ず (unavoidably)
+
+**Housing/Architecture (6)**: {書棚|しょだな} (bookshelf), {洗面所|せんめんじょ} (washroom), {脱衣所|だついじょ} (changing room), {応接間|おうせつま} (reception room), {踊|おど}り{場|ば} (landing of stairs)
+
+**Household Chores (5)**: {芝刈|しばか}り (lawn mowing), {草取|くさと}り (weeding), {水撒|みずま}き (watering), {雑巾|ぞうきん}がけ (mopping), {窓拭|まどふ}き (window cleaning)
+
+**Cooking/Food (9)**: {圧力鍋|あつりょくなべ} (pressure cooker), {蒸|む}し{器|き} (steamer), {炒|いた}め{物|もの} (stir-fry), {出汁巻|だしま}き{卵|たまご} (rolled omelet), きんぴら (kinpira), {筑前煮|ちくぜんに} (chicken stew), {肉|にく}じゃが (nikujaga), {親子丼|おやこどん} (oyakodon), カツ{丼|どん} (katsudon), {牛丼|ぎゅうどん} (gyudon)
+
+**Sports (9)**: {審判員|しんぱんいん} (referee), {線審|せんしん} (line judge), {逆転勝|ぎゃくてんが}ち (comeback victory), {先制点|せんせいてん} (opening goal), {同点|どうてん} (tie score), {空振|からぶ}り (swing and miss), {三振|さんしん} (strikeout), ノーヒット (no-hitter), {打点|だてん} (RBI)
+
+**Technology/Social Media (9)**: SNS{映|ば}え (Instagram-worthy), リポスト (repost), エンゲージメント (engagement), {音声入力|おんせいにゅうりょく} (voice input), {顔認証|かおにんしょう} (facial recognition), {指紋認証|しもんにんしょう} (fingerprint auth), {二段階認証|にだんかいにんしょう} (2FA), クラウドサービス (cloud service), サブスクリプション (subscription)
+
+**Work/Employment (9)**: オンライン{診療|しんりょう} (telemedicine), ハイブリッド{勤務|きんむ} (hybrid work), ワーケーション (workcation), {時差出勤|じさしゅっきん} (staggered hours), フレックス{制|せい} (flextime), {兼業|けんぎょう} (side business), {雇用形態|こようけいたい} (employment type)
+
+**Health/Medical (11)**: メンタルヘルス (mental health), {燃|も}え{尽|つ}き{症候群|しょうこうぐん} (burnout syndrome), {適応障害|てきおうしょうがい} (adjustment disorder), {自律神経|じりつしんけい} (autonomic nervous system), {更年期|こうねんき} (menopause), {免疫力|めんえきりょく} (immunity), {後遺症|こういしょう} (aftereffect), {既往症|きおうしょう} (medical history), {生活習慣病|せいかつしゅうかんびょう} (lifestyle disease), {内臓脂肪|ないぞうしぼう} (visceral fat), {過労|かろう} (overwork)
+
+**Family/Society (7)**: {栄養不足|えいようぶそく} (nutritional deficiency), {運動不足|うんどうぶそく} (lack of exercise), {体力低下|たいりょくていか} (physical decline), {共働|ともばたら}き (dual-income), {待機児童|たいきじどう} (daycare waitlist), {育休|いくきゅう} (childcare leave), {介護休暇|かいごきゅうか} (nursing care leave)
+
+**Education (9)**: {遠隔授業|えんかくじゅぎょう} (remote classes), {学力|がくりょく} (academic ability), {終業式|しゅうぎょうしき} (closing ceremony), {始業式|しぎょうしき} (opening ceremony), クラス{替|が}え (class reshuffling), {通知表|つうちひょう} (report card), {時間割|じかんわり} (timetable), {内申点|ないしんてん} (internal assessment), {偏差値|へんさち} (deviation score), {課外活動|かがいかつどう} (extracurricular), {卒論|そつろん} (graduation thesis)
+
+**Weather/Seasons (6)**: {厳冬|げんとう} (severe winter), {五月晴|さつきば}れ (May weather), {木枯|こが}らし (wintry wind), {雪解|ゆきど}け (thaw), {霜柱|しもばしら} (frost pillars), {残暑|ざんしょ} (lingering heat), {晩秋|ばんしゅう} (late autumn), {初冬|しょとう} (early winter)
+
+**Body/Physical (9)**: {眉間|みけん} (between eyebrows), うなじ (nape of neck), みぞおち (solar plexus), {土踏|つちふ}まず (arch of foot), {青筋|あおすじ} (blue vein), {鳥肌|とりはだ} (goosebumps), {吹|ふ}き{出物|でもの} (pimple), あばた (pockmarks), {歯|は}ぎしり (teeth grinding)
+
+**Sleep-related (6)**: {寝違|ねちが}い (stiff neck from sleep), {寝|ね}つき (sleep onset), {寝覚|ねざ}め (awakening), {目覚|めざ}まし (alarm clock)
+
+**Transportation (2)**: {通勤電車|つうきんでんしゃ} (commuter train), {始発電車|しはつでんしゃ} (first train)
+
+Notable patterns:
+- Japanese food culture: Popular donburi dishes and home cooking terminology
+- Modern work vocabulary: Remote/hybrid work, work-life balance terms
+- Health awareness: Mental health, lifestyle diseases, medical terminology
+- Daily life vocabulary: Sleep, body parts, household chores
+- Sports terminology: Baseball and competition vocabulary
+
+Candidate count: 490 → 590
 
 ### 2026-01-26 (New Candidates - 102 Words Added)
 Added 102 new candidate words to `candidate_words.json` across diverse domains:
