@@ -7,6 +7,36 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 160)
+Added 30 new dictionary entries from candidate_words.json, covering cooking techniques, traditional foods, gardening/horticulture, music terminology, hobbies, and daily life vocabulary:
+
+- **Cooking cuts (3)**: {斜|なな}め{切|ぎ}り (diagonal cut), {半月切|はんげつぎ}り (half-moon slices), いちょう{切|ぎ}り (quarter rounds)
+- **Traditional foods (4)**: {切|き}り{干|ほ}し{大根|だいこん} (dried shredded daikon), お{麩|ふ} (wheat gluten), {車麩|くるまふ} (wheel-shaped fu), とろろ{昆布|こんぶ} (shredded kelp)
+- **Gardening/Horticulture (4)**: {苗床|なえどこ} (seedbed), {種|たね}まき (sowing seeds), {挿|さ}し{木|き} (plant cutting), {接|つ}ぎ{木|き} (grafting)
+- **Music instruments/genres (4)**: {指揮棒|しきぼう} (conductor's baton), チェロ (cello), ロック (rock music), ミキシング (audio mixing)
+- **Music production (1)**: レコーディング (recording)
+- **Hobbies/Activities (2)**: {鳥見|とりみ} (birdwatching), {星見|ほしみ} (stargazing)
+- **Home/Infrastructure (3)**: {水道管|すいどうかん} (water pipe), {蓄電池|ちくでんち} (storage battery), {鴨居|かもい} (lintel)
+- **Environment (1)**: {埋立地|うめたてち} (reclaimed land/landfill)
+- **Medical/Anatomy (2)**: {粘膜|ねんまく} (mucous membrane), {横隔膜|おうかくまく} (diaphragm)
+- **Academic (1)**: {学説|がくせつ} (academic theory)
+- **Numbers (2)**: {百万|ひゃくまん} (one million), {万人|ばんにん} (everyone)
+- **Body/Figurative (1)**: {舌先|したさき} (tip of tongue; glib talk)
+- **Cooking/Household (2)**: {水加減|みずかげん} (water amount), {喫茶室|きっさしつ} (tea room)
+
+Notable entry features:
+- Cutting technique cluster: {斜|なな}め{切|ぎ}り/{半月切|はんげつぎ}り/いちょう{切|ぎ}り with cooking context
+- Traditional Japanese foods: wheat gluten varieties (お{麩|ふ}, {車麩|くるまふ}) and preserved vegetables
+- Gardening propagation methods: {挿|さ}し{木|き} vs {接|つ}ぎ{木|き} with technique descriptions
+- Music production chain: レコーディング → ミキシング → (マスタリング)
+- Multi-sense entry: {舌先|したさき} (physical tip of tongue vs. glib/smooth talk)
+- Traditional architecture: {鴨居|かもい} with cultural notes about low height in old houses
+- 3 new kanji added to kanji index: 膜 (02063), 鴨 (02064), 麩 (02065)
+
+Total entries: 8,049 → 8,079
+Remaining candidates: ~408 → ~378
+New kanji: 2,062 → 2,065
+
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 159)
 Added 30 new dictionary entries from candidate_words.json, covering household vocabulary, cooking techniques, shopping/business terms, transformation nouns (-化), and practical daily life expressions:
 

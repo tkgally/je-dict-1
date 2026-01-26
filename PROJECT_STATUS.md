@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-25
+**Last updated**: 2026-01-26
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,289
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,466 | Unassigned: 0 ✓
-- **Candidate words**: ~478 words tracked in `candidate_words.json`
+- **Total entries**: 8,319
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,496 | Unassigned: 0 ✓
+- **Candidate words**: ~448 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-26 (Vocabulary Expansion - 30 New Entries, Session 168)
+Added 30 new dictionary entries from candidate_words.json, covering health/body vocabulary, weather/seasons, personality types, food/cooking, lifestyle/home, transportation, social customs/gifts, and emotions:
+
+- **Health/Body (5)**: {熱中症|ねっちゅうしょう} (heatstroke), {二日酔|ふつかよ}い (hangover), {五月病|ごがつびょう} (May blues), {仮眠|かみん} (nap), {寝落|ねお}ち (falling asleep unintentionally)
+- **Weather/Seasons (4)**: {秋晴|あきば}れ (clear autumn weather), {小春日和|こはるびより} (Indian summer), {梅雨入|つゆい}り (start of rainy season), {梅雨明|つゆあ}け (end of rainy season)
+- **Personality/Eating Types (4)**: {甘党|あまとう} (sweet tooth), {辛党|からとう} (spice/alcohol lover), {大食|おおぐ}い (big eater), {怖|こわ}がり (scaredy-cat)
+- **Food/Cooking (4)**: {出来立|できた}て (freshly made), {焼|や}き{立|た}て (freshly baked), {作|つく}り{置|お}き (meal prep), こだわり (commitment/obsession)
+- **Lifestyle/Home (3)**: {大掃除|おおそうじ} (major cleaning), {断捨離|だんしゃり} (decluttering), {住|す}み{心地|ごこち} (livability)
+- **Transportation (3)**: {満員電車|まんいんでんしゃ} (packed train), {吊|つ}り{革|かわ} (train strap), {振替輸送|ふりかえゆそう} (alternative transport)
+- **Social/Gifts (4)**: {手土産|てみやげ} (visiting gift), お{返|かえ}し (return gift), {二次会|にじかい} (after-party), ご{祝儀|しゅうぎ} (congratulatory money)
+- **Emotions/Expressions (2)**: {苦笑|にがわら}い (bitter smile), {愛想笑|あいそうわら}い (forced smile)
+- **Work/Career (1)**: {出世|しゅっせ} (career advancement)
+
+Notable entry features:
+- Japanese health vocabulary: {熱中症|ねっちゅうしょう} (summer danger), {二日酔|ふつかよ}い (hangover remedies), {五月病|ごがつびょう} (adjustment disorder)
+- Seasonal weather cluster: {秋晴|あきば}れ/{小春日和|こはるびより} (autumn), {梅雨入|つゆい}り/{梅雨明|つゆあ}け (rainy season)
+- Eating preference types: {甘党|あまとう} vs {辛党|からとう} (sweets vs alcohol historically)
+- ～{立|た}て pattern: {出来立|できた}て/{焼|や}き{立|た}て (freshness suffix)
+- Commuting vocabulary: {満員電車|まんいんでんしゃ}/{吊|つ}り{革|かわ}/{振替輸送|ふりかえゆそう}
+- Japanese gift culture: {手土産|てみやげ}/お{返|かえ}し/ご{祝儀|しゅうぎ}
+- Multi-sense entries: {辛党|からとう} (alcohol lover vs spicy food lover), {大食|おおぐ}い (big eater vs eating contest), こだわり (positive dedication vs negative fixation)
+
+Total entries: 8,289 → 8,319
+Remaining candidates: ~478 → ~448
 
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 167)
 Added 30 new dictionary entries from candidate_words.json, covering products/shopping vocabulary, food/dining terms, weather vocabulary, business/finance expressions, and compound verbs:
@@ -396,36 +421,6 @@ Notable entry features:
 Total entries: 8,079 → 8,109
 Remaining candidates: ~378 → ~349
 New kanji: 2,065 → 2,066
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 160)
-Added 30 new dictionary entries from candidate_words.json, covering cooking techniques, traditional foods, gardening/horticulture, music terminology, hobbies, and daily life vocabulary:
-
-- **Cooking cuts (3)**: {斜|なな}め{切|ぎ}り (diagonal cut), {半月切|はんげつぎ}り (half-moon slices), いちょう{切|ぎ}り (quarter rounds)
-- **Traditional foods (4)**: {切|き}り{干|ほ}し{大根|だいこん} (dried shredded daikon), お{麩|ふ} (wheat gluten), {車麩|くるまふ} (wheel-shaped fu), とろろ{昆布|こんぶ} (shredded kelp)
-- **Gardening/Horticulture (4)**: {苗床|なえどこ} (seedbed), {種|たね}まき (sowing seeds), {挿|さ}し{木|き} (plant cutting), {接|つ}ぎ{木|き} (grafting)
-- **Music instruments/genres (4)**: {指揮棒|しきぼう} (conductor's baton), チェロ (cello), ロック (rock music), ミキシング (audio mixing)
-- **Music production (1)**: レコーディング (recording)
-- **Hobbies/Activities (2)**: {鳥見|とりみ} (birdwatching), {星見|ほしみ} (stargazing)
-- **Home/Infrastructure (3)**: {水道管|すいどうかん} (water pipe), {蓄電池|ちくでんち} (storage battery), {鴨居|かもい} (lintel)
-- **Environment (1)**: {埋立地|うめたてち} (reclaimed land/landfill)
-- **Medical/Anatomy (2)**: {粘膜|ねんまく} (mucous membrane), {横隔膜|おうかくまく} (diaphragm)
-- **Academic (1)**: {学説|がくせつ} (academic theory)
-- **Numbers (2)**: {百万|ひゃくまん} (one million), {万人|ばんにん} (everyone)
-- **Body/Figurative (1)**: {舌先|したさき} (tip of tongue; glib talk)
-- **Cooking/Household (2)**: {水加減|みずかげん} (water amount), {喫茶室|きっさしつ} (tea room)
-
-Notable entry features:
-- Cutting technique cluster: {斜|なな}め{切|ぎ}り/{半月切|はんげつぎ}り/いちょう{切|ぎ}り with cooking context
-- Traditional Japanese foods: wheat gluten varieties (お{麩|ふ}, {車麩|くるまふ}) and preserved vegetables
-- Gardening propagation methods: {挿|さ}し{木|き} vs {接|つ}ぎ{木|き} with technique descriptions
-- Music production chain: レコーディング → ミキシング → (マスタリング)
-- Multi-sense entry: {舌先|したさき} (physical tip of tongue vs. glib/smooth talk)
-- Traditional architecture: {鴨居|かもい} with cultural notes about low height in old houses
-- 3 new kanji added to kanji index: 膜 (02063), 鴨 (02064), 麩 (02065)
-
-Total entries: 8,049 → 8,079
-Remaining candidates: ~408 → ~378
-New kanji: 2,062 → 2,065
 
 ---
 
