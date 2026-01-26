@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="コントラバス - double bass; contrabass; upright bass. Japanese-English dictionary entry with definitions and examples.">
+    <title>コントラバス (こんとらばす) - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../advanced.html" class="nav-link">Advanced</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+        <a href="../../about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">コントラバス</h1>
+            <div class="entry-reading">こんとらばす</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">double bass; contrabass; upright bass</div>
+        </div>
+    
+<div class="definitions">
+
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">double bass; contrabass; upright bass</span>
+                        <div class="definition-explanation">the largest and lowest-pitched bowed string instrument in the modern symphony orchestra</div>
+                    </div>
+                
+</div>
+<div class="examples">
+
+                <div class="example-item">
+                    <div class="example-japanese">コントラバスを<ruby>弾<rp>(</rp><rt>ひ</rt><rp>)</rp></ruby>く。</div>
+                    <div class="example-english">To play the double bass.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese">オーケストラでコントラバスを<ruby>担当<rp>(</rp><rt>たんとう</rt><rp>)</rp></ruby>している。</div>
+                    <div class="example-english">I play double bass in the orchestra.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese">コントラバスは<ruby>立<rp>(</rp><rt>た</rt><rp>)</rp></ruby>って<ruby>演奏<rp>(</rp><rt>えんそう</rt><rp>)</rp></ruby>することが<ruby>多<rp>(</rp><rt>おお</rt><rp>)</rp></ruby>い。</div>
+                    <div class="example-english">The double bass is often played while standing.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <div class="notes-content"><p>ALSO CALLED:</p><ul><li>ダブルベース (double bass)</li><li>ウッドベース (wood bass - especially in jazz)</li><li><ruby>弦<rp>(</rp><rt>げん</rt><rp>)</rp></ruby>バス (string bass)</li></ul><p>CONTEXT:</p><ul><li>In orchestras: コントラバス is the standard term</li><li>In jazz: ウッドベース is commonly used</li></ul><p>RELATED TERMS:</p><ul><li>バイオリン (violin)</li><li>ビオラ (viola)</li><li>チェロ (cello)</li><li><ruby>弦楽器<rp>(</rp><rt>げんがっき</rt><rp>)</rp></ruby> (string instrument)</li></ul></div>
+            </div>
+        
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.25 15:06</div>
+                <div class="metadata-file">08000/08149_kontorabasu</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>

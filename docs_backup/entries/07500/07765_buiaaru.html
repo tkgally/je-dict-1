@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VR - virtual reality. Japanese-English dictionary entry with definitions and examples.">
+    <title>VR (ぶいあーる) - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="../../index.html" class="nav-link">Home</a>
+        <a href="../../advanced.html" class="nav-link">Advanced</a>
+        <a href="../../browse.html" class="nav-link">Browse</a>
+        <a href="../../recent.html" class="nav-link">Recent</a>
+        <a href="../../random.html" class="nav-link">Random</a>
+        <a href="../../pending.html" class="nav-link">Pending</a>
+        <a href="../../about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
+</header>
+<main class="entry-page">
+<article class="entry-display">
+
+        <div class="entry-header">
+            <h1 class="entry-headword">VR</h1>
+            <div class="entry-reading">ぶいあーる</div>
+            <div class="entry-pos">noun</div>
+            <div class="entry-gloss">virtual reality</div>
+        </div>
+    
+<div class="definitions">
+
+                    <div class="definition-item">
+                        <span class="definition-number">1.</span>
+                        <span class="definition-gloss">virtual reality</span>
+                        <div class="definition-explanation">A computer-generated simulation of a three-dimensional environment that can be interacted with using special equipment such as headsets.</div>
+                    </div>
+                
+</div>
+<div class="examples">
+
+                <div class="example-item">
+                    <div class="example-japanese">VR<ruby>体験<rp>(</rp><rt>たいけん</rt><rp>)</rp></ruby>をしてきた。</div>
+                    <div class="example-english">I had a VR experience.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese">VRゴーグルを<ruby>買<rp>(</rp><rt>か</rt><rp>)</rp></ruby>った。</div>
+                    <div class="example-english">I bought a VR headset.</div>
+                    
+                </div>
+            
+                <div class="example-item">
+                    <div class="example-japanese">VRで<ruby>海外<rp>(</rp><rt>かいがい</rt><rp>)</rp></ruby><ruby>旅行<rp>(</rp><rt>りょこう</rt><rp>)</rp></ruby>をした<ruby>気分<rp>(</rp><rt>きぶん</rt><rp>)</rp></ruby>になれる。</div>
+                    <div class="example-english">You can feel like you&#x27;re traveling abroad through VR.</div>
+                    
+                </div>
+            
+</div>
+
+            <div class="entry-notes">
+                <div class="notes-content"><p>ETYMOLOGY:<br>Abbreviation of &#x27;Virtual Reality&#x27;.</p><p>USAGE:</p><p>Used in contexts of:</p><ul><li>Gaming and entertainment</li><li>Training and education</li><li>Real estate (virtual property tours)</li><li>Medical applications</li></ul><p>COLLOCATIONS:</p><ul><li>VRゴーグル - VR headset/goggles</li><li>VR<ruby>体験<rp>(</rp><rt>たいけん</rt><rp>)</rp></ruby> - VR experience</li><li>VRゲーム - VR game</li></ul></div>
+            </div>
+        
+<div class="cross-references"><h2>Related Words</h2>
+
+                    <div class="cross-ref">
+                        <span class="cross-ref-type">Related:</span>
+                        <a href="../../entries/07500/07766_eeaaru.html" class="cross-ref-link">
+                            AR (augmented reality)
+                        </a>
+                    </div>
+                
+</div>
+
+        <div class="entry-metadata">
+            <div class="metadata-row">
+                <div class="metadata-badges">
+                    <span class="badge tier-general">general</span>
+                </div>
+                <div class="metadata-dates">Added 2026.1.21 10:02 · Revised 2026.1.24 23:24</div>
+                <div class="metadata-file">07500/07765_buiaaru</div>
+            </div>
+        </div>
+    
+</article>
+</main>
+
+        <footer>
+            <p><a href="../../index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+</body>
+</html>
