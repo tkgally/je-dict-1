@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,439
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,586 | Unassigned: 0 ✓
-- **Candidate words**: ~530 words tracked in `candidate_words.json`
+- **Total entries**: 8,469
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,616 | Unassigned: 0 ✓
+- **Candidate words**: ~500 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 173)
+Added 30 new dictionary entries from candidate_words.json, covering expressions/emotions vocabulary, personality types, communication skills, transportation vocabulary, and work culture:
+
+- **Smile/Laugh Expressions (7)**: {薄笑|うすわら}い (smirk), {高笑|たかわら}い (loud laugh), {照|て}れ{笑|わら}い (embarrassed smile), {泣|な}き{笑|わら}い (laughing through tears), {思|おも}い{出|だ}し{笑|わら}い (laughing at memory), {嘘泣|うそな}き (fake crying), {作|つく}り{笑|わら}い (fake smile)
+- **Personality Types (6)**: {社交的|しゃこうてき} (sociable), {内向的|ないこうてき} (introverted), {外向的|がいこうてき} (extroverted), {無神経|むしんけい} (insensitive), {多弁|たべん} (talkative), {二面性|にめんせい} (two-faced nature)
+- **Communication Skills (4)**: {話|はな}し{上手|じょうず} (good speaker), {聞|き}き{上手|じょうず} (good listener), {告|つ}げ{口|ぐち} (tattling), {揚|あ}げ{足取|あしと}り (nitpicking)
+- **Social/Dining (4)**: {会費|かいひ} (membership fee), {別会計|べつかいけい} (separate checks), {持|も}ち{寄|よ}り (potluck), もらい{泣|な}き (sympathetic crying)
+- **Transportation (4)**: {落|お}とし{物|もの} (lost property), {回数券|かいすうけん} (book of tickets), {人身事故|じんしんじこ} (rail accident), {遅延証明|ちえんしょうめい} (delay certificate)
+- **Work Culture (3)**: サービス{残業|ざんぎょう} (unpaid overtime), {飲|の}みニケーション (drinking-based networking), {副業|ふくぎょう} (side job)
+- **Conflict/Quarrel (1)**: {口喧嘩|くちげんか} (verbal argument)
+- **Gift/Culture (1)**: お{年玉|としだま} (New Year's money gift)
+
+Notable entry features:
+- Facial expression vocabulary cluster: {薄笑|うすわら}い/{高笑|たかわら}い/{照|て}れ{笑|わら}い/{作|つく}り{笑|わら}い (types of smiles)
+- Emotion vocabulary: {泣|な}き{笑|わら}い (complex emotion), もらい{泣|な}き (empathetic crying)
+- Personality psychology terms: {内向的|ないこうてき}/{外向的|がいこうてき} (introversion/extroversion)
+- ~{上手|じょうず} pattern: {話|はな}し{上手|じょうず}/{聞|き}き{上手|じょうず} (communication skills)
+- Japanese work culture: サービス{残業|ざんぎょう}/{飲|の}みニケーション (workplace practices)
+- Train culture: {人身事故|じんしんじこ}/{遅延証明|ちえんしょうめい} (commuter vocabulary)
+- Japanese customs: お{年玉|としだま} (New Year's money gift tradition)
+
+Total entries: 8,439 → 8,469
+Remaining candidates: ~530 → ~500
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 172)
 Added 30 new dictionary entries from candidate_words.json, covering health/medical terms, onomatopoeia, katakana loanwords, environmental vocabulary, personality types, compound verbs, and traditional Japanese vocabulary:
@@ -444,69 +468,6 @@ Notable entry features:
 Total entries: 8,169 → 8,199
 Remaining candidates: ~497 → ~468
 New kanji: 2,074 → 2,076
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 163)
-Added 30 new dictionary entries from candidate_words.json, covering compound verbs, i-adjectives, na-adjectives, health/medical terms, workplace vocabulary, and sports terms:
-
-- **Compound verbs (7)**: {凝|こ}る (to be absorbed in; to stiffen), {潤|うるお}う (to be moist; to profit), {盛|も}り{返|かえ}す (to rally), {持|も}ち{直|なお}す (to recover), {開|ひら}き{直|なお}る (to become defiant), {成|な}り{上|あ}がる (to rise in status), {紛|まぎ}らわす (to distract)
-- **I-adjectives (5)**: {白々|しらじら}しい (feigned), {侘|わび}しい (lonely/desolate), {麗|うるわ}しい (beautiful), {憎|にく}らしい (hateful), {好|この}ましい (favorable)
-- **Na-adjectives (4)**: {怠惰|たいだ} (lazy), {痛快|つうかい} (thrilling), {貪欲|どんよく} (greedy; eager), {芳醇|ほうじゅん} (mellow)
-- **Workplace (2)**: {部署|ぶしょ} (department), {指図|さしず} (orders/instructions)
-- **Shopping (1)**: {買|か}い{出|だ}し (shopping for supplies)
-- **Health/Medical (5)**: {寝汗|ねあせ} (night sweat), {肉離|にくばな}れ (muscle tear), {擦|す}り{傷|きず} (scrape), {療養|りょうよう} (recuperation), {回診|かいしん} (doctor's rounds), {往診|おうしん} (house call)
-- **Training (1)**: {鍛錬|たんれん} (training/discipline)
-- **Safety (2)**: {防犯|ぼうはん} (crime prevention), {応急|おうきゅう} (emergency/first-aid)
-- **Gardening (1)**: {草|くさ}むしり (weeding)
-- **Sports (1)**: {大敗|たいはい} (crushing defeat)
-
-Notable entry features:
-- Multi-sense entries: {凝|こ}る (absorbed in vs. stiff muscles), {潤|うるお}う (moisture vs. profit), {貪欲|どんよく} (negative greed vs. positive eagerness)
-- Defiant attitude vocabulary: {開|ひら}き{直|なお}る (becoming unapologetically defiant when confronted)
-- Social mobility: {成|な}り{上|あ}がる with notes on negative nuance (parvenu/nouveau riche)
-- Medical visit types: {回診|かいしん} (hospital rounds) vs {往診|おうしん} (house calls)
-- Japanese aesthetic concept: {侘|わび}しい with connection to {侘|わ}び{寂|さ}び aesthetic
-- 6 new kanji added to kanji index: 侘 (02069), 貪 (02070), 醇 (02071), 錬 (02072), 鍛 (02073), 麗 (02074)
-
-Total entries: 8,139 → 8,169
-Remaining candidates: ~527 → ~497
-New kanji: 2,068 → 2,074
-
-### 2026-01-25 (New Candidates - 106 Words Added)
-Added 106 new candidate words to `candidate_words.json` across diverse domains:
-
-**Weather/Climate (3)**: {猛暑|もうしょ} (intense heat), {酷暑|こくしょ} (extreme heat), {渇水|かっすい} (water shortage)
-
-**Health/Medical (4)**: {嘔吐|おうと} (vomiting), {肺炎|はいえん} (pneumonia), {喘息|ぜんそく} (asthma), {関節炎|かんせつえん} (arthritis)
-
-**Finance/Business (9)**: {歳入|さいにゅう} (annual revenue), {歳出|さいしゅつ} (annual expenditure), {収支|しゅうし} (income and expenses), {累計|るいけい} (cumulative total), {試算|しさん} (trial calculation), {概算|がいさん} (rough estimate), {債権|さいけん} (credit/bond), たたき{台|だい} (draft proposal), {審査|しんさ} (examination/review)
-
-**Government/Legal (6)**: {訴状|そじょう} (complaint), {陳述|ちんじゅつ} (statement), {冤罪|えんざい} (false accusation), {黙秘|もくひ} (silence), {採決|さいけつ} (vote), {否決|ひけつ} (rejection), {公布|こうふ} (promulgation)
-
-**Onomatopoeia (3)**: じりじり (scorching), ごつごつ (rugged), がちがち (rigid)
-
-**Compound Verbs (7)**: {見込|みこ}む (to expect), {駆|か}け{巡|めぐ}る (to rush around), {張|は}り{巡|めぐ}らす (to stretch around), {撒|ま}き{散|ち}らす (to scatter), {掻|か}き{消|け}す (to vanish), {吹|ふ}き{荒|あ}れる (to rage)
-
-**Cooking (5)**: {弱火|よわび} (low heat), {強火|つよび} (high heat), {中火|ちゅうび} (medium heat), {落|お}とし{蓋|ぶた} (drop lid), {追|お}い{焚|だ}き (reheating bath)
-
-**Household/Places (9)**: {洗|あら}い{物|もの} (dishes to wash), {窓際|まどぎわ} (by the window), {軒先|のきさき} (shopfront), {突|つ}き{当|あ}たり (dead end), {坂道|さかみち} (slope), {抜|ぬ}け{道|みち} (shortcut), {行|い}き{止|ど}まり (dead end), {舗装|ほそう} (pavement), {石畳|いしだたみ} (cobblestone), {縁石|えんせき} (curb)
-
-**Science/Physics (8)**: {光合成|こうごうせい} (photosynthesis), {融解|ゆうかい} (melting), {分解|ぶんかい} (decomposition), {反射|はんしゃ} (reflection), {屈折|くっせつ} (refraction), {振動|しんどう} (vibration), {共鳴|きょうめい} (resonance), {拡散|かくさん} (diffusion)
-
-**Entertainment/Media (12)**: {楽屋|がくや} (dressing room), {舞台裏|ぶたいうら} (backstage), {観覧|かんらん} (viewing), {喝采|かっさい} (acclaim), {開幕|かいまく} (opening), {閉幕|へいまく} (closing), {上映|じょうえい} (screening), {視聴率|しちょうりつ} (ratings), {収録|しゅうろく} (recording), {生放送|なまほうそう} (live broadcast), {再放送|さいほうそう} (rerun), {予告|よこく} (preview)
-
-**Sports (5)**: リーグ{戦|せん} (league match), トーナメント (tournament), {不戦勝|ふせんしょう} (win by default), {大差|たいさ} (wide margin), {接戦|せっせん} (close game)
-
-**Work Culture (11)**: {昇格|しょうかく} (promotion), {勤務先|きんむさき} (workplace), {面談|めんだん} (interview), {申|もう}し{送|おく}り (handover), {引|ひ}き{継|つ}ぎ (succession), {半休|はんきゅう} (half-day off), {繁忙期|はんぼうき} (busy season), {閑散期|かんさんき} (slow season), {検討中|けんとうちゅう} (under consideration), {保留|ほりゅう} (on hold)
-
-**Relationships (6)**: {破局|はきょく} (breakup), {疎遠|そえん} (estranged), {絶縁|ぜつえん} (breaking ties), {揉|も}め{事|ごと} (trouble), {口論|こうろん} (argument), {逆恨|さかうら}み (grudge), {八|や}つ{当|あ}たり (taking out anger)
-
-**Academic/Publishing (6)**: {査読|さどく} (peer review), {校閲|こうえつ} (proofreading), {補足|ほそく} (supplement), {抄録|しょうろく} (abstract), {凡例|はんれい} (explanatory notes)
-
-**Technology (9)**: {課金|かきん} (billing), {非同期|ひどうき} (asynchronous), {暗号化|あんごうか} (encryption), {復号|ふくごう} (decryption), {並列|へいれつ} (parallel), {直列|ちょくれつ} (serial), {帯域|たいいき} (bandwidth), スループット (throughput), {可用性|かようせい} (availability)
-
-**Environment (3)**: {伐採|ばっさい} (logging), {植林|しょくりん} (afforestation), {食物連鎖|しょくもつれんさ} (food chain)
-
-Candidate count: 451 → 557
 
 ---
 
