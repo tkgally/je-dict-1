@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,529
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,676 | Unassigned: 0 ✓
-- **Candidate words**: ~10,495 words tracked in `candidate_words.json`
+- **Total entries**: 8,559
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,706 | Unassigned: 0 ✓
+- **Candidate words**: ~9,633 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 176)
+Added 30 new dictionary entries from candidate_words.json, covering body parts, sleep vocabulary, education terms, weather/seasons, and work/life balance:
+
+- **Body Parts (8)**: {眉間|みけん} (between eyebrows), うなじ (nape of neck), みぞおち (solar plexus), {土踏|つちふ}まず (arch of foot), {鳥肌|とりはだ} (goosebumps), {青筋|あおすじ} (blue vein), {吹|ふ}き{出物|でもの} (pimple), {歯|は}ぎしり (teeth grinding)
+- **Sleep Vocabulary (3)**: {寝|ね}つき (ability to fall asleep), {寝覚|ねざ}め (waking up), {目覚|めざ}まし (alarm clock)
+- **Education (5)**: {学力|がくりょく} (academic ability), {時間割|じかんわり} (class schedule), {偏差値|へんさち} (deviation score), {終業式|しゅうぎょうしき} (closing ceremony), {始業式|しぎょうしき} (opening ceremony)
+- **Weather/Seasons (6)**: {厳冬|げんとう} (severe winter), {木枯|こが}らし (wintry wind), {雪解|ゆきど}け (thaw), {残暑|ざんしょ} (lingering summer heat), {霜柱|しもばしら} (frost pillars), {晩秋|ばんしゅう} (late autumn)
+- **Work/Life Balance (6)**: {兼業|けんぎょう} (side business), {過労|かろう} (overwork), {共働|ともばたら}き (dual-income), {育休|いくきゅう} (childcare leave), {介護休暇|かいごきゅうか} (nursing care leave), {運動不足|うんどうぶそく} (lack of exercise)
+- **Transportation (2)**: {通勤電車|つうきんでんしゃ} (commuter train), {始発電車|しはつでんしゃ} (first train)
+
+Notable entry features:
+- Body part vocabulary cluster: face/head parts ({眉間|みけん}/うなじ), body areas (みぞおち/{土踏|つちふ}まず), physical reactions ({鳥肌|とりはだ}/{青筋|あおすじ})
+- Sleep quality vocabulary: {寝|ね}つき (falling asleep) vs {寝覚|ねざ}め (waking up) contrast
+- Japanese education system: {偏差値|へんさち} with explanation of statistical scoring system
+- Seasonal vocabulary: {残暑|ざんしょ}お{見舞|みま}い greeting custom
+- Work-life vocabulary: {育休|いくきゅう}/{介護休暇|かいごきゅうか} reflecting modern workplace benefits
+- Multi-sense entries: {歯|は}ぎしり (physical grinding vs frustration), {雪解|ゆきど}け (snow thaw vs relationship thaw)
+- 1 new kanji added to kanji index: {兼|けん} (02094)
+
+Total entries: 8,529 → 8,559
+Remaining candidates: ~10,495 → ~9,633
+New kanji: 2,093 → 2,094
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 175)
 Added 30 new dictionary entries from candidate_words.json, covering function words/adverbs, ability/力 compounds, household vocabulary, cooking equipment, and Japanese food:
