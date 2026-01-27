@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,619
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,766 | Unassigned: 0 ✓
-- **Candidate words**: ~9,573 words tracked in `candidate_words.json`
+- **Total entries**: 8,649
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,796 | Unassigned: 0 ✓
+- **Candidate words**: ~9,443 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 179)
+Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including Japanese food culture, business terms, health/medical, qualities/adjectives, and cultural concepts:
+
+- **Japanese Food/Culture (4)**: {酒蔵|さかぐら} (sake brewery), {餃子|ぎょうざ} (gyoza), {餡子|あんこ} (sweet bean paste), {鯖|さば} (mackerel)
+- **Business/Work (5)**: {顧客|こきゃく} (customer), {領収|りょうしゅう} (receipt), {必修|ひっしゅう} (required), {高級|こうきゅう} (high-class), {関与|かんよ} (involvement)
+- **Health/Medical (3)**: {飲酒|いんしゅ} (drinking alcohol), {養生|ようじょう} (recuperation), {小児科|しょうにか} (pediatrics)
+- **Qualities/Adjectives (4)**: {頻繁|ひんぱん} (frequent), {頑丈|がんじょう} (sturdy), {劣勢|れっせい} (disadvantage), {半端|はんぱ} (incomplete)
+- **Actions/Concepts (6)**: {飛躍|ひやく} (leap/progress), {獲物|えもの} (prey), {破棄|はき} (destruction), {組|く}み{立|た}て (assembly), {養殖|ようしょく} (aquaculture), {独断|どくだん} (arbitrary decision)
+- **Cultural/Philosophy (4)**: {風物詩|ふうぶつし} (seasonal feature), {初心|しょしん} (beginner's mind), {視野|しや} (field of vision/perspective), {漫画家|まんがか} (manga artist)
+- **Language/Writing (2)**: {句読点|くとうてん} (punctuation marks), {饒舌|じょうぜつ} (talkative)
+- **Housing/Household (2)**: {入居|にゅうきょ} (moving in), {飯椀|めしわん} (rice bowl)
+
+Notable entry features:
+- Japanese food culture: {酒蔵|さかぐら} (sake brewing traditions), {餃子|ぎょうざ} (Japanese-style gyoza), {餡子|あんこ} ({和菓子|わがし} ingredient)
+- Multi-sense entries: {飛躍|ひやく} (physical leap vs rapid progress vs logical leap), {養生|ようじょう} (recuperation vs health maintenance vs construction curing), {視野|しや} (visual field vs perspective)
+- Zen/cultural concepts: {初心|しょしん} (beginner's mind from Zeami's teaching)
+- Japanese seasonal awareness: {風物詩|ふうぶつし} (things characteristic of seasons)
+- Business Japanese: {顧客|こきゃく}/{領収|りょうしゅう}/{関与|かんよ} (formal business vocabulary)
+- 7 new kanji added to kanji index: {殖|しょく} (02096), {頻|ひん} (02097), {顧|こ} (02098), {餃|ぎょう} (02099), {餡|あん} (02100), {饒|じょう} (02101), {鯖|さば} (02102)
+
+Total entries: 8,619 → 8,649
+Remaining candidates: ~9,573 → ~9,443
+New kanji: 2,095 → 2,102
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 178)
 Added 30 new dictionary entries from candidate_words.json, covering Japanese food, education, workplace, technology/social media, health/medical, social issues, and sports:
