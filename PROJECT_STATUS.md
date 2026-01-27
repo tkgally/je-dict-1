@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,589
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,736 | Unassigned: 0 ✓
-- **Candidate words**: ~9,603 words tracked in `candidate_words.json`
+- **Total entries**: 8,619
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,766 | Unassigned: 0 ✓
+- **Candidate words**: ~9,573 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 178)
+Added 30 new dictionary entries from candidate_words.json, covering Japanese food, education, workplace, technology/social media, health/medical, social issues, and sports:
+
+- **Japanese Food (3)**: {牛丼|ぎゅうどん} (beef bowl), {出汁巻|だしま}き{卵|たまご} (Japanese rolled omelet), {筑前煮|ちくぜんに} (simmered chicken and vegetables)
+- **Education (6)**: {遠隔授業|えんかくじゅぎょう} (remote classes), {通知表|つうちひょう} (report card), {課外活動|かがいかつどう} (extracurricular activities), {卒論|そつろん} (graduation thesis), クラス{替|が}え (class reshuffling), {内申点|ないしんてん} (internal assessment score)
+- **Workplace/Employment (5)**: {飛|と}び{込|こ}み{営業|えいぎょう} (cold calling), {配置転換|はいちてんかん} (job transfer), {窓際族|まどぎわぞく} (sidelined employees), ワーケーション (workcation), {雇用形態|こようけいたい} (employment type)
+- **Technology/Social Media (5)**: SNS{映|ば}え (Instagram-worthy), リポスト (repost), クラウドサービス (cloud service), サブスクリプション (subscription), {二段階認証|にだんかいにんしょう} (two-factor authentication)
+- **Health/Medical (5)**: オンライン{診療|しんりょう} (telemedicine), {生活習慣病|せいかつしゅうかんびょう} (lifestyle disease), {自律神経|じりつしんけい} (autonomic nervous system), {後遺症|こういしょう} (aftereffect), {既往症|きおうしょう} (medical history)
+- **Social Issues/Health (4)**: {待機児童|たいきじどう} (daycare waiting list), {体力低下|たいりょくていか} (physical decline), {内臓脂肪|ないぞうしぼう} (visceral fat), {栄養不足|えいようぶそく} (nutritional deficiency)
+- **Sports (2)**: {審判員|しんぱんいん} (referee), {線審|せんしん} (line judge)
+
+Notable entry features:
+- Japanese comfort food: {牛丼|ぎゅうどん} (popular fast food), {筑前煮|ちくぜんに} (traditional home cooking with regional origin)
+- Japanese education system: {内申点|ないしんてん}/{通知表|つうちひょう} (school evaluation), クラス{替|が}え (annual class reshuffling), {卒論|そつろん} (graduation thesis)
+- Japanese workplace culture: {窓際族|まどぎわぞく} (sidelined employees reflecting lifetime employment practices), {飛|と}び{込|こ}み{営業|えいぎょう} (traditional sales method)
+- Modern technology vocabulary: SNS{映|ば}え (social media culture), {二段階認証|にだんかいにんしょう} (security), サブスクリプション (subscription services)
+- Healthcare terminology: {生活習慣病|せいかつしゅうかんびょう} (lifestyle diseases), {後遺症|こういしょう} (including long COVID discussion), {既往症|きおうしょう} (medical history)
+- Social issues: {待機児童|たいきじどう} (daycare crisis in Japan), {体力低下|たいりょくていか} (declining physical fitness concern)
+- 1 new kanji added to kanji index: {筑|ちく} (02095)
+
+Total entries: 8,589 → 8,619
+Remaining candidates: ~9,603 → ~9,573
+New kanji: 2,094 → 2,095
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 177)
 Added 30 new dictionary entries from candidate_words.json, covering cooking techniques, mistake/error vocabulary, sports/baseball terms, modern work arrangements, technology/authentication, and health/mental health:
@@ -449,31 +473,6 @@ Notable entry features:
 Total entries: 8,259 → 8,289
 Remaining candidates: ~508 → ~478
 New kanji: 2,078 → 2,081
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 166)
-Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, travel/tourism terms, dining expressions, household items, and media/entertainment terminology:
-
-- **Personality/Character (5)**: おっとり (calm), {生意気|なまいき} (impudent), {嘘|うそ}つき (liar), {不真面目|ふまじめ} (insincere)
-- **Food/Dining (4)**: おかず (side dish), {立|た}ち{食|ぐ}い (stand-up eating), {食|た}べ{放題|ほうだい} (all-you-can-eat)
-- **Household/Gardening (6)**: ハンガー (hanger), ジッパー (zipper), プランター (planter), じょうろ (watering can), スコップ (scoop), {鍬|くわ} (hoe)
-- **Travel/Tourism (5)**: チェックイン (check-in), チェックアウト (check-out), ビザ (visa), {旅券|りょけん} (passport), ツアー (tour)
-- **Tickets/Events (4)**: {立|た}ち{見|み} (standing room only), {当日券|とうじつけん} (same-day ticket), {整理券|せいりけん} (numbered ticket), {前売|まえう}り (advance sale)
-- **Services/Rules (3)**: {貸|か}し{切|き}り (reserved), {持|も}ち{込|こ}み (bringing in), {差|さ}し{入|い}れ (gift/treat)
-- **Media/Publishing (3)**: {打|う}ち{切|き}り (cancellation), {見逃|みのが}し (overlooking/catch-up viewing), {読|よ}み{切|き}り (one-shot story)
-- **Time/Competition (2)**: {駆|か}け{込|こ}み (last-minute rush), {出遅|でおく}れ (late start)
-
-Notable entry features:
-- Japanese food culture: おかず (side dishes with rice), {立|た}ち{食|ぐ}い (stand-up eateries), {食|た}べ{放題|ほうだい} (all-you-can-eat)
-- Travel vocabulary cluster: チェックイン/チェックアウト (hotel), {旅券|りょけん}/ビザ (documents), ツアー
-- Ticket types: {当日券|とうじつけん} vs {前売|まえう}り (pricing differences)
-- Japanese services: {整理券|せいりけん} (bus/restaurant queue system), {差|さ}し{入|い}れ (workplace gift culture)
-- Media terminology: {打|う}ち{切|き}り (series cancellation), {読|よ}み{切|き}り (manga one-shots)
-- Multi-sense entries: {駆|か}け{込|こ}み (last-minute rush vs. emergency shelter), {見逃|みのが}し (overlooking vs. catch-up streaming)
-- 1 new kanji added to kanji index: 鍬 (02078)
-
-Total entries: 8,229 → 8,259
-Remaining candidates: ~538 → ~508
-New kanji: 2,077 → 2,078
 
 ### 2026-01-25 (New Candidates - 100 Words Added)
 Added 100 new candidate words to `candidate_words.json` across diverse domains:
