@@ -7,6 +7,31 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 164)
+Added 30 new dictionary entries from candidate_words.json, covering workplace positions, i-adjectives, verbs, food preservation, gardening vocabulary, and sports/competition terms:
+
+- **Workplace positions (2)**: {主任|しゅにん} (supervisor), {係長|かかりちょう} (section chief)
+- **Institutions (1)**: {公立|こうりつ} (public institution)
+- **Medical (1)**: {投薬|とうやく} (medication)
+- **Appearance/Communication (2)**: {見掛|みか}け (appearance), {言|い}い{掛|が}かり (false accusation)
+- **Verbs (9)**: {擦|す}り{切|き}れる (to wear out), {縮|ちぢ}こまる (to huddle up), {振|ふ}り{分|わ}ける (to distribute), {凝|こ}らす (to concentrate), {書|か}き{換|か}える (to rewrite), {置|お}き{換|か}える (to replace), {入|い}れ{替|か}える (to swap), {居直|いなお}る (to become defiant), {成|な}り{下|さ}がる (to sink to), {間引|まび}く (to thin out)
+- **I-adjectives (5)**: {奥|おく}ゆかしい (refined), {疎|うと}ましい (disagreeable), {痛々|いたいた}しい (pitiful), {空々|そらぞら}しい (feigned), {慕|した}わしい (dear/beloved)
+- **Japanese preserved foods (3)**: {塩辛|しおから} (salted seafood), {酢漬|すづ}け (vinegar pickle), {粕漬|かすづ}け (sake lees pickle)
+- **Gardening (3)**: {植|う}え{替|か}え (repotting), {追肥|ついひ} (additional fertilizer), {間引|まび}く (to thin out plants)
+- **Sports results (4)**: {惨敗|ざんぱい} (crushing defeat), {快勝|かいしょう} (easy victory), {辛勝|しんしょう} (narrow victory), {本選|ほんせん} (finals)
+
+Notable entry features:
+- Japanese corporate hierarchy vocabulary: {主任|しゅにん} → {係長|かかりちょう} → {課長|かちょう} → {部長|ぶちょう}
+- Multi-sense entries: {縮|ちぢ}こまる (cold vs. fear), {書|か}き{換|か}える (rewrite vs. renew), {凝|こ}らす (focus vs. elaborate), {居直|いなお}る (defiant vs. sit up), {間引|まび}く (plants vs. services)
+- Traditional Japanese foods cluster: {塩辛|しおから} (fermented seafood), {酢漬|すづ}け}/{粕漬|かすづ}け (pickle types)
+- Victory/defeat scale: {惨敗|ざんぱい} → {大敗|たいはい} → {敗北|はいぼく} and {圧勝|あっしょう} → {快勝|かいしょう} → {辛勝|しんしょう}
+- Japanese aesthetic concept: {奥|おく}ゆかしい (understated elegance)
+- 2 new kanji added to kanji index: 慕 (02075), 粕 (02076)
+
+Total entries: 8,169 → 8,199
+Remaining candidates: ~497 → ~468
+New kanji: 2,074 → 2,076
+
 ### 2026-01-25 (New Candidates - 106 Words Added)
 Added 106 new candidate words to `candidate_words.json` across diverse domains:
 
