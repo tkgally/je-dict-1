@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,499
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,646 | Unassigned: 0 ✓
-- **Candidate words**: ~472 words tracked in `candidate_words.json`
+- **Total entries**: 8,529
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,676 | Unassigned: 0 ✓
+- **Candidate words**: ~10,495 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 175)
+Added 30 new dictionary entries from candidate_words.json, covering function words/adverbs, ability/力 compounds, household vocabulary, cooking equipment, and Japanese food:
+
+- **Function Words/Adverbs (6)**: それとなく (indirectly), それなりに (in its own way), それにしても (nevertheless), {改|あらた}めて (anew), {思|おも}い{切|き}り (with all one's might), やむを{得|え}ず (unavoidably)
+- **Self-Reliance (2)**: {自力|じりき} (one's own power), {他力|たりき} (help from others)
+- **Physical Abilities (5)**: {気力|きりょく} (willpower), {脚力|きゃくりょく} (leg strength), {腕力|わんりょく} (arm strength), {握力|あくりょく} (grip strength), {持久力|じきゅうりょく} (endurance), {瞬発力|しゅんぱつりょく} (explosive power)
+- **Mental/Leadership Abilities (5)**: {決断力|けつだんりょく} (decisiveness), {行動力|こうどうりょく} (action ability), {洞察力|どうさつりょく} (insight), {観察力|かんさつりょく} (observation), {説得力|せっとくりょく} (persuasiveness)
+- **Household/Architecture (4)**: {書棚|しょだな} (bookshelf), {応接間|おうせつま} (reception room), {踊|おど}り{場|ば} (stair landing), {雑巾|ぞうきん}がけ (mopping)
+- **Gardening Chores (2)**: {芝刈|しばか}り (lawn mowing), {草取|くさと}り (weeding)
+- **Cooking Equipment (2)**: {圧力鍋|あつりょくなべ} (pressure cooker), {蒸|む}し{器|き} (steamer)
+- **Japanese Food/Cooking (3)**: {炒|いた}め{物|もの} (stir-fry), きんぴら (kinpira), カツ{丼|どん} (katsudon)
+
+Notable entry features:
+- ～{力|りょく} compound cluster: comprehensive coverage of physical and mental abilities
+- Self-reliance vocabulary: {自力|じりき} vs {他力|たりき} with Buddhist etymology
+- Endurance vs explosive power contrast: {持久力|じきゅうりょく} vs {瞬発力|しゅんぱつりょく}
+- それ～ function word pattern: それとなく/それなりに/それにしても
+- Japanese home cooking: きんぴら/カツ{丼|どん} with cultural notes
+
+Total entries: 8,499 → 8,529
+Remaining candidates: ~472 → ~10,495 (large batch added)
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 174)
 Added 30 new dictionary entries from candidate_words.json, covering eating habits, freshness expressions, train/transportation vocabulary, gift culture, function words, and compound verbs:
@@ -442,35 +464,6 @@ Notable patterns:
 - "-{上手|じょうず}" skill patterns: communication abilities
 
 Candidate count: 438 → 538
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 165)
-Added 30 new dictionary entries from candidate_words.json, covering abstract nouns, compound verbs, daily life vocabulary, pronouns, and cooking terms:
-
-- **Abstract nouns (5)**: {前提|ぜんてい} (premise), {実践|じっせん} (practice), {拒否|きょひ} (refusal), {条例|じょうれい} (ordinance), {差配|さはい} (management)
-- **Body/Health (2)**: {体質|たいしつ} (constitution), {渇|かわ}き (thirst)
-- **Household/Daily life (4)**: {光熱費|こうねつひ} (utility costs), {付箋|ふせん} (sticky note), {筆箱|ふでばこ} (pencil case), {用足|ようた}し (errand)
-- **Training/Skills (3)**: {修練|しゅうれん} (training), {鍛|きた}え{上|あ}げる (to train thoroughly), {磨|みが}き{上|あ}げる (to polish up)
-- **Moisture/Benefit (3)**: {潤|うるお}す (to moisten), {潤|うるお}い (moisture), {渇|かわ}き (thirst)
-- **Compound verbs (5)**: {奮|ふる}い{立|た}つ (to be roused), {書|か}き{殴|なぐ}る (to scribble), {言|い}い{直|なお}す (to rephrase), {整|ととの}え{直|なお}す (to readjust), {燻|いぶ}す (to smoke food)
-- **Entertainment (1)**: {主演|しゅえん} (starring role)
-- **Shopping (1)**: バーゲン (bargain sale)
-- **Food/Cooking (2)**: {付|つ}け{合|あ}わせ (side dish), {溶|と}かす (to melt)
-- **Communication (2)**: お{詫|わ}び (apology), {逆|ぎゃく}に (conversely)
-- **Pronouns (2)**: あいつ (that guy), こいつ (this guy)
-- **Emotion (1)**: {寂|さび}しさ (loneliness)
-
-Notable entry features:
-- Multi-sense entries: {体質|たいしつ} (physical constitution vs. organizational culture), {用足|ようた}し (errand vs. bathroom euphemism), {燻|いぶ}す (smoking food vs. fumigation)
-- Compound verb patterns with {直|なお}す: {言|い}い{直|なお}す, {整|ととの}え{直|なお}す (redo/correct nuance)
-- Compound verb patterns with {上|あ}げる: {鍛|きた}え{上|あ}げる, {磨|みが}き{上|あ}げる (completion/perfection nuance)
-- Related vocabulary cluster: {潤|うるお}す/{潤|うるお}い/{渇|かわ}き (moisture/thirst contrast)
-- Ko-so-a-do pronouns: あいつ/こいつ (informal person pronouns)
-- Japanese daily life: {光熱費|こうねつひ} (utility costs), {付箋|ふせん} (sticky notes)
-- 1 new kanji added to kanji index: 詫 (02077)
-
-Total entries: 8,199 → 8,229
-Remaining candidates: ~468 → ~438
-New kanji: 2,076 → 2,077
 
 ---
 
