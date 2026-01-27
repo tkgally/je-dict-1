@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,469
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,616 | Unassigned: 0 ✓
-- **Candidate words**: ~500 words tracked in `candidate_words.json`
+- **Total entries**: 8,499
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,646 | Unassigned: 0 ✓
+- **Candidate words**: ~472 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,34 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 174)
+Added 30 new dictionary entries from candidate_words.json, covering eating habits, freshness expressions, train/transportation vocabulary, gift culture, function words, and compound verbs:
+
+- **Eating Habits (2)**: {少食|しょうしょく} (light eater), {早食|はやぐ}い (fast eating)
+- **Freshness Expressions (3)**: {揚|あ}げ{立|た}て (freshly fried), {茹|ゆ}で{立|た}て (freshly boiled), {採|と}れ{立|た}て (freshly harvested)
+- **Train/Transportation (6)**: {通勤|つうきん}ラッシュ (commuter rush), {帰宅|きたく}ラッシュ (evening rush), {駆|か}け{込|こ}み{乗車|じょうしゃ} (rushing onto train), グリーン{車|しゃ} (first-class car), {女性専用車両|じょせいせんようしゃりょう} (women-only car), ホームドア (platform screen door)
+- **Gift Culture (2)**: のし{袋|ぶくろ} (gift envelope), {引|ひ}っ{越|こ}し{祝|いわ}い (housewarming gift)
+- **Personality/Skills (2)**: {甘|あま}え{上手|じょうず} (good at acting spoiled), {世渡|よわた}り{上手|じょうず} (socially adept)
+- **Function Words (7)**: {何回|なんかい} (how many times), {誰|だれ}でも (anyone), どこでも (anywhere), そのため (therefore), その{後|ご} (after that), その{前|まえ} (before that), その{間|あいだ} (meanwhile)
+- **Location (1)**: {向|む}こう{側|がわ} (the other side)
+- **Compound Verbs (2)**: {食|た}べ{慣|な}れる (become used to eating), {住|す}み{慣|な}れる (become used to living)
+- **Nature/Time (1)**: {半月|はんげつ} (half moon)
+- **Onomatopoeia (1)**: じんわり (gradually seeping)
+- **Health (1)**: {湯冷|ゆざ}め (catching cold after bath)
+- **Workplace (1)**: {社内恋愛|しゃないれんあい} (office romance)
+- **Technology (1)**: ワイヤレス (wireless)
+
+Notable entry features:
+- ~{立|た}て pattern cluster: {揚|あ}げ{立|た}て/{茹|ゆ}で{立|た}て/{採|と}れ{立|た}て (freshness expressions)
+- Train vocabulary cluster: commuter culture and safety features
+- ~{上手|じょうず} pattern: {甘|あま}え{上手|じょうず}/{世渡|よわた}り{上手|じょうず} (personality skills)
+- その + noun pattern: そのため/その{後|ご}/その{前|まえ}/その{間|あいだ} (conjunctions)
+- ~でも pattern: {誰|だれ}でも/どこでも (indefinite pronouns)
+- ~{慣|な}れる compound verbs: {食|た}べ{慣|な}れる/{住|す}み{慣|な}れる (habituation)
+
+Total entries: 8,469 → 8,499
+Remaining candidates: ~500 → ~472
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 173)
 Added 30 new dictionary entries from candidate_words.json, covering expressions/emotions vocabulary, personality types, communication skills, transportation vocabulary, and work culture:
@@ -443,31 +471,6 @@ Notable entry features:
 Total entries: 8,199 → 8,229
 Remaining candidates: ~468 → ~438
 New kanji: 2,076 → 2,077
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 164)
-Added 30 new dictionary entries from candidate_words.json, covering workplace positions, i-adjectives, verbs, food preservation, gardening vocabulary, and sports/competition terms:
-
-- **Workplace positions (2)**: {主任|しゅにん} (supervisor), {係長|かかりちょう} (section chief)
-- **Institutions (1)**: {公立|こうりつ} (public institution)
-- **Medical (1)**: {投薬|とうやく} (medication)
-- **Appearance/Communication (2)**: {見掛|みか}け (appearance), {言|い}い{掛|が}かり (false accusation)
-- **Verbs (9)**: {擦|す}り{切|き}れる (to wear out), {縮|ちぢ}こまる (to huddle up), {振|ふ}り{分|わ}ける (to distribute), {凝|こ}らす (to concentrate), {書|か}き{換|か}える (to rewrite), {置|お}き{換|か}える (to replace), {入|い}れ{替|か}える (to swap), {居直|いなお}る (to become defiant), {成|な}り{下|さ}がる (to sink to), {間引|まび}く (to thin out)
-- **I-adjectives (5)**: {奥|おく}ゆかしい (refined), {疎|うと}ましい (disagreeable), {痛々|いたいた}しい (pitiful), {空々|そらぞら}しい (feigned), {慕|した}わしい (dear/beloved)
-- **Japanese preserved foods (3)**: {塩辛|しおから} (salted seafood), {酢漬|すづ}け (vinegar pickle), {粕漬|かすづ}け (sake lees pickle)
-- **Gardening (3)**: {植|う}え{替|か}え (repotting), {追肥|ついひ} (additional fertilizer), {間引|まび}く (to thin out plants)
-- **Sports results (4)**: {惨敗|ざんぱい} (crushing defeat), {快勝|かいしょう} (easy victory), {辛勝|しんしょう} (narrow victory), {本選|ほんせん} (finals)
-
-Notable entry features:
-- Japanese corporate hierarchy vocabulary: {主任|しゅにん} → {係長|かかりちょう} → {課長|かちょう} → {部長|ぶちょう}
-- Multi-sense entries: {縮|ちぢ}こまる (cold vs. fear), {書|か}き{換|か}える (rewrite vs. renew), {凝|こ}らす (focus vs. elaborate), {居直|いなお}る (defiant vs. sit up), {間引|まび}く (plants vs. services)
-- Traditional Japanese foods cluster: {塩辛|しおから} (fermented seafood), {酢漬|すづ}け}/{粕漬|かすづ}け (pickle types)
-- Victory/defeat scale: {惨敗|ざんぱい} → {大敗|たいはい} → {敗北|はいぼく} and {圧勝|あっしょう} → {快勝|かいしょう} → {辛勝|しんしょう}
-- Japanese aesthetic concept: {奥|おく}ゆかしい (understated elegance)
-- 2 new kanji added to kanji index: 慕 (02075), 粕 (02076)
-
-Total entries: 8,169 → 8,199
-Remaining candidates: ~497 → ~468
-New kanji: 2,074 → 2,076
 
 ---
 
