@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,559
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,706 | Unassigned: 0 ✓
-- **Candidate words**: ~9,633 words tracked in `candidate_words.json`
+- **Total entries**: 8,589
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,736 | Unassigned: 0 ✓
+- **Candidate words**: ~9,603 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 177)
+Added 30 new dictionary entries from candidate_words.json, covering cooking techniques, mistake/error vocabulary, sports/baseball terms, modern work arrangements, technology/authentication, and health/mental health:
+
+- **Cooking Techniques (8)**: ぶつ{切|ぎ}り (rough chopping), {細切|ほそぎ}り (thin strips), {湯通|ゆどお}し (blanching), {水切|みずき}り (draining water), {油切|あぶらき}り (draining oil), {塩加減|しおかげん} (saltiness), {焦|こ}げ{目|め} (char marks), とろ{火|び} (low heat)
+- **Mistake/Error Vocabulary (6)**: {聞|き}き{間違|まちが}い (mishearing), {言|い}い{間違|まちが}い (slip of tongue), {書|か}き{間違|まちが}い (writing mistake), {読|よ}み{間違|まちが}い (misreading), {見|み}{間違|まちが}い (mistaken sight), {思|おも}い{違|ちが}い (misconception)
+- **Sports/Baseball (6)**: {逆転勝|ぎゃくてんが}ち (comeback victory), {先制点|せんせいてん} (opening score), {同点|どうてん} (tie score), {空振|からぶ}り (swing and miss), {三振|さんしん} (strikeout), {打点|だてん} (RBI)
+- **Modern Work (4)**: ハイブリッド{勤務|きんむ} (hybrid work), {時差出勤|じさしゅっきん} (staggered hours), フレックス{制|せい} (flextime)
+- **Technology/Authentication (3)**: {音声入力|おんせいにゅうりょく} (voice input), {顔認証|かおにんしょう} (facial recognition), {指紋認証|しもんにんしょう} (fingerprint auth)
+- **Health/Mental Health (4)**: メンタルヘルス (mental health), {燃|も}え{尽|つ}き{症候群|しょうこうぐん} (burnout syndrome), {適応障害|てきおうしょうがい} (adjustment disorder), {免疫力|めんえきりょく} (immunity)
+
+Notable entry features:
+- Japanese cooking terminology cluster: cutting techniques (ぶつ{切|ぎ}り/{細切|ほそぎ}り), preparation methods ({湯通|ゆどお}し/{水切|みずき}り/{油切|あぶらき}り), heat control (とろ{火|び})
+- ～{間違|まちが}い pattern: systematic error vocabulary for different senses (hearing/speaking/writing/reading/seeing)
+- Baseball statistics: {打点|だてん} (RBI), {三振|さんしん} (strikeout), {空振|からぶ}り (swing and miss with figurative use)
+- Modern workplace vocabulary: post-pandemic work arrangements (ハイブリッド{勤務|きんむ}, {時差出勤|じさしゅっきん}, フレックス{制|せい})
+- Biometric authentication: {顔認証|かおにんしょう}/{指紋認証|しもんにんしょう} (modern security technology)
+- Mental health awareness: メンタルヘルス/{燃|も}え{尽|つ}き{症候群|しょうこうぐん}/{適応障害|てきおうしょうがい} (workplace health vocabulary)
+- Multi-sense entry: {空振|からぶ}り (baseball swing and miss + figurative fruitless effort)
+
+Total entries: 8,559 → 8,589
+Remaining candidates: ~9,633 → ~9,603
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 176)
 Added 30 new dictionary entries from candidate_words.json, covering body parts, sleep vocabulary, education terms, weather/seasons, and work/life balance:
