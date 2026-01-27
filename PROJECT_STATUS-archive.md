@@ -7,6 +7,34 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 162)
+Added 30 new dictionary entries from candidate_words.json, covering verbs, adjectives, food/dining vocabulary, shopping terms, travel/places, cooking heat levels, media/entertainment, and science terms:
+
+- **Verbs (4)**: {咲|さ}く (to bloom), {飼|か}う (to keep/raise animals), {照|て}れる (to be shy), おごる (to treat someone)
+- **Adjectives (2)**: {乏|とぼ}しい (scarce), {険|けわ}しい (steep)
+- **Food/Dining (7)**: {出前|でまえ} (food delivery), {割|わ}り{勘|かん} (splitting bill), {味見|あじみ} (tasting), {持|も}ち{帰|かえ}り (takeout), {大盛|おおも}り (large serving)
+- **Shopping/Retail (2)**: {福袋|ふくぶくろ} (lucky bag), おまけ (bonus/freebie)
+- **Cooking heat levels (3)**: {弱火|よわび} (low heat), {中火|ちゅうび} (medium heat), {強火|つよび} (high heat)
+- **Household (1)**: {洗|あら}い{物|もの} (dishes to wash)
+- **Travel/Places (4)**: {名所|めいしょ} (famous place), {民宿|みんしゅく} (guesthouse), {坂道|さかみち} (slope), {行|い}き{止|ど}まり (dead end)
+- **Entertainment/Media (4)**: {生放送|なまほうそう} (live broadcast), {再放送|さいほうそう} (rerun), {開幕|かいまく} (opening), {閉幕|へいまく} (closing)
+- **Sports (1)**: {接戦|せっせん} (close game)
+- **Work/Business (1)**: {面談|めんだん} (interview/meeting)
+- **Science/Physics (2)**: {拡散|かくさん} (diffusion/spread), {振動|しんどう} (vibration)
+- **Personality (1)**: {人柄|ひとがら} (personality/character)
+
+Notable entry features:
+- Cooking heat level cluster: {弱火|よわび}/{中火|ちゅうび}/{強火|つよび} with cross-references between all three
+- Food/dining vocabulary chain covering the full experience: {味見|あじみ} → {大盛|おおも}り → {持|も}ち{帰|かえ}り/{出前|でまえ} → {割|わ}り{勘|かん}/おごる
+- Cultural notes on {福袋|ふくぶくろ} (New Year lucky bags) and {民宿|みんしゅく} (Japanese guesthouse tradition)
+- Multi-sense entries: {拡散|かくさん} (physical diffusion vs. information spread), おまけ (bonus item vs. on top of that)
+- {出前|でまえ} with notes on traditional delivery culture vs. modern delivery apps
+- 2 new kanji added to kanji index: 乏 (02067), 咲 (02068)
+
+Total entries: 8,109 → 8,139
+Remaining candidates: ~557 → ~527
+New kanji: 2,066 → 2,068
+
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 161)
 Added 30 new dictionary entries from candidate_words.json, covering geometry terms, antonym pairs, office vocabulary, music terminology, and kitchen items:
 

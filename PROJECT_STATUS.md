@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-26
+**Last updated**: 2026-01-27
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,409
+- **Total entries**: 8,439
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,586 | Unassigned: 0 ✓
-- **Candidate words**: ~560 words tracked in `candidate_words.json`
+- **Candidate words**: ~530 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,34 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 172)
+Added 30 new dictionary entries from candidate_words.json, covering health/medical terms, onomatopoeia, katakana loanwords, environmental vocabulary, personality types, compound verbs, and traditional Japanese vocabulary:
+
+- **Health/Medical (6)**: {肌荒|はだあ}れ (rough skin), {食|しょく}あたり (food poisoning), {肺炎|はいえん} (pneumonia), {喘息|ぜんそく} (asthma), {関節炎|かんせつえん} (arthritis), {嘔吐|おうと} (vomiting)
+- **Onomatopoeia (3)**: がちがち (rigid/stiff), じりじり (scorching/gradually), ごつごつ (rugged/bony)
+- **Katakana Loanwords (5)**: コミュニケーション (communication), コミュニティ (community), ワンルーム (studio apartment), システム (system), エラー (error)
+- **Environment (3)**: {伐採|ばっさい} (logging), {植林|しょくりん} (afforestation), {食物連鎖|しょくもつれんさ} (food chain)
+- **Personality Types (3)**: {食|く}わず{嫌|ぎら}い (disliking without trying), {恥|は}ずかしがり{屋|や} (shy person), {寂|さび}しがり{屋|や} (lonely person)
+- **Compound Verbs (2)**: {撒|ま}き{散|ち}らす (to scatter), {掻|か}き{消|け}す (to drown out)
+- **Weather/Seasons (2)**: {花冷|はなび}え (late spring cold), {寝違|ねちが}える (stiff neck from sleep)
+- **Household (1)**: {整理整頓|せいりせいとん} (organizing/tidying up)
+- **Traditional (1)**: {弓|ゆみ} (bow)
+- **Expression (1)**: もしかしたら (perhaps/maybe)
+- **Miscellaneous (3)**: {方角|ほうがく} (direction), {試乗|しじょう} (test drive), {鉄筋|てっきん} (rebar/reinforced concrete)
+
+Notable entry features:
+- Medical vocabulary cluster: disease names ending in {炎|えん} ({肺炎|はいえん}/{関節炎|かんせつえん})
+- Onomatopoeia with texture/sensation meanings: がちがち/じりじり/ごつごつ (mimetic words)
+- Environmental vocabulary: {伐採|ばっさい}/{植林|しょくりん} (forestry), {食物連鎖|しょくもつれんさ} (ecology)
+- Personality type patterns with {屋|や}: {恥|は}ずかしがり{屋|や}/{寂|さび}しがり{屋|や}
+- Traditional Japanese culture: {弓|ゆみ} with notes on {弓道|きゅうどう} (kyudo)
+- Wasei-eigo terms: ワンルーム (studio apartment), with housing terminology notes
+- 5 new kanji added to kanji index: 伐 (02089), 喘 (02090), 嘔 (02091), 撒 (02092), 肺 (02093)
+
+Total entries: 8,409 → 8,439
+Remaining candidates: ~560 → ~530
+New kanji: 2,088 → 2,093
 
 ### 2026-01-26 (Vocabulary Expansion - 30 New Entries, Session 171)
 Added 30 new dictionary entries from candidate_words.json, covering counter questions, time/celestial vocabulary, weather terms, compound verbs, financial vocabulary, memory-related words, travel expressions, cognitive abilities, housing rooms, and Japanese food:
@@ -442,34 +470,6 @@ Notable entry features:
 Total entries: 8,139 → 8,169
 Remaining candidates: ~527 → ~497
 New kanji: 2,068 → 2,074
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 162)
-Added 30 new dictionary entries from candidate_words.json, covering verbs, adjectives, food/dining vocabulary, shopping terms, travel/places, cooking heat levels, media/entertainment, and science terms:
-
-- **Verbs (4)**: {咲|さ}く (to bloom), {飼|か}う (to keep/raise animals), {照|て}れる (to be shy), おごる (to treat someone)
-- **Adjectives (2)**: {乏|とぼ}しい (scarce), {険|けわ}しい (steep)
-- **Food/Dining (7)**: {出前|でまえ} (food delivery), {割|わ}り{勘|かん} (splitting bill), {味見|あじみ} (tasting), {持|も}ち{帰|かえ}り (takeout), {大盛|おおも}り (large serving)
-- **Shopping/Retail (2)**: {福袋|ふくぶくろ} (lucky bag), おまけ (bonus/freebie)
-- **Cooking heat levels (3)**: {弱火|よわび} (low heat), {中火|ちゅうび} (medium heat), {強火|つよび} (high heat)
-- **Household (1)**: {洗|あら}い{物|もの} (dishes to wash)
-- **Travel/Places (4)**: {名所|めいしょ} (famous place), {民宿|みんしゅく} (guesthouse), {坂道|さかみち} (slope), {行|い}き{止|ど}まり (dead end)
-- **Entertainment/Media (4)**: {生放送|なまほうそう} (live broadcast), {再放送|さいほうそう} (rerun), {開幕|かいまく} (opening), {閉幕|へいまく} (closing)
-- **Sports (1)**: {接戦|せっせん} (close game)
-- **Work/Business (1)**: {面談|めんだん} (interview/meeting)
-- **Science/Physics (2)**: {拡散|かくさん} (diffusion/spread), {振動|しんどう} (vibration)
-- **Personality (1)**: {人柄|ひとがら} (personality/character)
-
-Notable entry features:
-- Cooking heat level cluster: {弱火|よわび}/{中火|ちゅうび}/{強火|つよび} with cross-references between all three
-- Food/dining vocabulary chain covering the full experience: {味見|あじみ} → {大盛|おおも}り → {持|も}ち{帰|かえ}り/{出前|でまえ} → {割|わ}り{勘|かん}/おごる
-- Cultural notes on {福袋|ふくぶくろ} (New Year lucky bags) and {民宿|みんしゅく} (Japanese guesthouse tradition)
-- Multi-sense entries: {拡散|かくさん} (physical diffusion vs. information spread), おまけ (bonus item vs. on top of that)
-- {出前|でまえ} with notes on traditional delivery culture vs. modern delivery apps
-- 2 new kanji added to kanji index: 乏 (02067), 咲 (02068)
-
-Total entries: 8,109 → 8,139
-Remaining candidates: ~557 → ~527
-New kanji: 2,066 → 2,068
 
 ### 2026-01-25 (New Candidates - 106 Words Added)
 Added 106 new candidate words to `candidate_words.json` across diverse domains:
