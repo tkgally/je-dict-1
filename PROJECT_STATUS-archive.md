@@ -7,6 +7,31 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 166)
+Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, travel/tourism terms, dining expressions, household items, and media/entertainment terminology:
+
+- **Personality/Character (5)**: おっとり (calm), {生意気|なまいき} (impudent), {嘘|うそ}つき (liar), {不真面目|ふまじめ} (insincere)
+- **Food/Dining (4)**: おかず (side dish), {立|た}ち{食|ぐ}い (stand-up eating), {食|た}べ{放題|ほうだい} (all-you-can-eat)
+- **Household/Gardening (6)**: ハンガー (hanger), ジッパー (zipper), プランター (planter), じょうろ (watering can), スコップ (scoop), {鍬|くわ} (hoe)
+- **Travel/Tourism (5)**: チェックイン (check-in), チェックアウト (check-out), ビザ (visa), {旅券|りょけん} (passport), ツアー (tour)
+- **Tickets/Events (4)**: {立|た}ち{見|み} (standing room only), {当日券|とうじつけん} (same-day ticket), {整理券|せいりけん} (numbered ticket), {前売|まえう}り (advance sale)
+- **Services/Rules (3)**: {貸|か}し{切|き}り (reserved), {持|も}ち{込|こ}み (bringing in), {差|さ}し{入|い}れ (gift/treat)
+- **Media/Publishing (3)**: {打|う}ち{切|き}り (cancellation), {見逃|みのが}し (overlooking/catch-up viewing), {読|よ}み{切|き}り (one-shot story)
+- **Time/Competition (2)**: {駆|か}け{込|こ}み (last-minute rush), {出遅|でおく}れ (late start)
+
+Notable entry features:
+- Japanese food culture: おかず (side dishes with rice), {立|た}ち{食|ぐ}い (stand-up eateries), {食|た}べ{放題|ほうだい} (all-you-can-eat)
+- Travel vocabulary cluster: チェックイン/チェックアウト (hotel), {旅券|りょけん}/ビザ (documents), ツアー
+- Ticket types: {当日券|とうじつけん} vs {前売|まえう}り (pricing differences)
+- Japanese services: {整理券|せいりけん} (bus/restaurant queue system), {差|さ}し{入|い}れ (workplace gift culture)
+- Media terminology: {打|う}ち{切|き}り (series cancellation), {読|よ}み{切|き}り (manga one-shots)
+- Multi-sense entries: {駆|か}け{込|こ}み (last-minute rush vs. emergency shelter), {見逃|みのが}し (overlooking vs. catch-up streaming)
+- 1 new kanji added to kanji index: 鍬 (02078)
+
+Total entries: 8,229 → 8,259
+Remaining candidates: ~538 → ~508
+New kanji: 2,077 → 2,078
+
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 164)
 Added 30 new dictionary entries from candidate_words.json, covering workplace positions, i-adjectives, verbs, food preservation, gardening vocabulary, and sports/competition terms:
 
