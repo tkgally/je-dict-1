@@ -2679,12 +2679,15 @@ main {
 
 /* Links to other entries within notes text */
 .notes-word-link {
-    color: #1e40af;
-    text-decoration: none;
+    color: #1e3a8a;
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;
+    border-bottom: none;
 }
 
 .notes-word-link:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
+    -webkit-text-decoration: underline !important;
 }
 
 .cross-ref.pending .cross-ref-pending {
