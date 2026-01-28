@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,649
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,796 | Unassigned: 0 ✓
-- **Candidate words**: ~9,443 words tracked in `candidate_words.json`
+- **Total entries**: 8,679
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,826 | Unassigned: 0 ✓
+- **Candidate words**: ~9,414 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 180)
+Added 30 new dictionary entries from candidate_words.json, covering Japanese gift culture vocabulary, scientific/abstract terminology, and emotion/reaction expressions:
+
+- **Gift Culture (5)**: {出産|しゅっさん}{祝|いわ}い (baby gift), {入学|にゅうがく}{祝|いわ}い (school entrance gift), {卒業|そつぎょう}{祝|いわ}い (graduation gift), {快気|かいき}{祝|いわ}い (recovery gift), {就職|しゅうしょく}{祝|いわ}い (job celebration gift)
+- **Memory/Health (3)**: {記憶|きおく}{違|ちが}い (faulty memory), {寝違|ねちが}い (stiff neck), {同期|どうき}する (to synchronize)
+- **Science/Abstract (5)**: {凝固|ぎょうこ} (solidification), {循環|じゅんかん} (circulation), {抽象|ちゅうしょう} (abstraction), {繁殖|はんしょく} (breeding), {衝撃|しょうげき} (shock/impact)
+- **Qualities/Adjectives (4)**: {執拗|しつよう} (persistent), {純粋|じゅんすい} (pure), {陰気|いんき} (gloomy), {愕然|がくぜん} (astonished)
+- **Reactions/Emotions (8)**: {反感|はんかん} (antipathy), {反発|はんぱつ} (repulsion), {反論|はんろん} (counterargument), {誤算|ごさん} (miscalculation), {誇張|こちょう} (exaggeration), {激怒|げきど} (rage), {狼狽|ろうばい} (confusion), {窮地|きゅうち} (predicament)
+- **Laugh/Smile Vocabulary (5)**: {驚愕|きょうがく} (astonishment), {爆笑|ばくしょう} (roar of laughter), {微笑|びしょう} (smile), {苦笑|くしょう} (wry smile), {失笑|しっしょう} (involuntary laugh)
+
+Notable entry features:
+- Japanese gift culture: Complete set of ceremonial gift vocabulary ({出産|しゅっさん}/{入学|にゅうがく}/{卒業|そつぎょう}/{快気|かいき}/{就職|しゅうしょく}{祝|いわ}い) with cultural context about return gifts and timing
+- Reaction vocabulary cluster: {反感|はんかん}/{反発|はんぱつ}/{反論|はんろん} (anti- words), {愕然|がくぜん}/{狼狽|ろうばい} (shock states)
+- Smile/laugh spectrum: {微笑|びしょう} (gentle) → {苦笑|くしょう} (wry) → {失笑|しっしょう} (involuntary) → {爆笑|ばくしょう} (roaring)
+- Scientific terminology: {凝固|ぎょうこ}/{循環|じゅんかん} with physics and medical usage notes
+- Multi-sense entries: {反発|はんぱつ} (opposition vs rebound), {衝撃|しょうげき} (physical vs emotional shock)
+- 3 new kanji added to kanji index: {愕|がく} (02103), {狽|はい} (02104), {粋|すい} (02105)
+
+Total entries: 8,649 → 8,679
+Remaining candidates: ~9,443 → ~9,414
+New kanji: 2,102 → 2,105
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 179)
 Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including Japanese food culture, business terms, health/medical, qualities/adjectives, and cultural concepts:
