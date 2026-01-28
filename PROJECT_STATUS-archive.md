@@ -7,6 +7,30 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 167)
+Added 30 new dictionary entries from candidate_words.json, covering products/shopping vocabulary, food/dining terms, weather vocabulary, business/finance expressions, and compound verbs:
+
+- **Products/Shopping (8)**: {手作|てづく}り (handmade), {手書|てが}き (handwriting), {中古品|ちゅうこひん} (used item), {新品|しんぴん} (brand new), {既製品|きせいひん} (ready-made), {在庫切|ざいこぎ}れ (out of stock), {取|と}り{置|お}き (holding item), {取|と}り{寄|よ}せ (ordering in)
+- **Food/Dining (5)**: {飲|の}み{放題|ほうだい} (all-you-can-drink), {替|か}え{玉|だま} (extra noodles), おまかせ (chef's choice), {腹八分目|はらはちぶんめ} (eating in moderation), {落|お}とし{蓋|ぶた} (drop lid)
+- **Weather (3)**: {猛暑|もうしょ} (intense heat), {酷暑|こくしょ} (extreme heat), {渇水|かっすい} (water shortage)
+- **Business/Finance (5)**: {概算|がいさん} (rough estimate), {収支|しゅうし} (income and expenses), たたき{台|だい} (draft proposal), {試算|しさん} (trial calculation), {累計|るいけい} (cumulative total)
+- **Compound verbs (4)**: {見込|みこ}む (to expect), {吹|ふ}き{荒|あ}れる (to rage), {駆|か}け{巡|めぐ}る (to rush around), {張|は}り{巡|めぐ}らす (to stretch around)
+- **Shopping/Services (3)**: ラッピング (gift wrapping), {景品|けいひん} (prize), {先着|せんちゃく} (first-come)
+- **Housing (2)**: {木造|もくぞう} (wooden construction), {駅近|えきちか} (close to station)
+
+Notable entry features:
+- Product condition vocabulary: {新品|しんぴん} vs {中古品|ちゅうこひん} vs {既製品|きせいひん} vs {手作|てづく}り
+- Ramen culture: {替|か}え{玉|だま} (extra noodles at no/low cost), {飲|の}み{放題|ほうだい} (all-you-can-drink)
+- Japanese proverb: {腹八分目|はらはちぶんめ} (eating in moderation for health)
+- Weather extremes: {猛暑|もうしょ} vs {酷暑|こくしょ} (intensity distinction)
+- Business planning vocabulary: たたき{台|だい}/{概算|がいさん}/{試算|しさん}/{累計|るいけい}
+- Multi-sense entries: {見込|みこ}む (expect/anticipate vs. see potential in), {吹|ふ}き{荒|あ}れる (weather vs. figurative), {駆|か}け{巡|めぐ}る (physical vs. mental)
+- 3 new kanji added to kanji index: 猛 (02079), 累 (02080), 酷 (02081)
+
+Total entries: 8,259 → 8,289
+Remaining candidates: ~508 → ~478
+New kanji: 2,078 → 2,081
+
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 166)
 Added 30 new dictionary entries from candidate_words.json, covering daily life vocabulary, travel/tourism terms, dining expressions, household items, and media/entertainment terminology:
 

@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-27
+**Last updated**: 2026-01-28
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,679
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,826 | Unassigned: 0 ✓
-- **Candidate words**: ~9,414 words tracked in `candidate_words.json`
+- **Total entries**: 8,711
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,858 | Unassigned: 0 ✓
+- **Candidate words**: ~9,310 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,32 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-28 (Vocabulary Expansion - 32 New Entries, Session 181)
+Added 32 new dictionary entries from candidate_words.json, covering health/lifestyle vocabulary, transportation announcements, adverbs/function words, ability compounds, household chores, weather/seasonal terms, and personality types:
+
+- **Health/Lifestyle (5)**: {睡眠|すいみん}{不足|ぶそく} (sleep deprivation), {気分|きぶん}{転換|てんかん} (change of pace), {気分屋|きぶんや} (moody person), {朝帰|あさがえ}り (coming home in morning), オールナイト (all-night)
+- **Transportation (4)**: {運転|うんてん}{見合|みあ}わせ (service suspension), {運転|うんてん}{再開|さいかい} (resumption of service), {車両|しゃりょう}{点検|てんけん} (train inspection), {信号|しんごう}{故障|こしょう} (signal malfunction)
+- **Adverbs/Function Words (6)**: いくら{何|なん}でも (no matter what), どうにか (somehow), どうにも (cannot do anything), {何|なん}となく (somehow/vaguely), {何|なに}かと (one way or another), {何|なに}やら (something or other)
+- **Ability Compounds (3)**: {実行力|じっこうりょく} (execution ability), {分析力|ぶんせきりょく} (analytical ability), {理解力|りかいりょく} (comprehension ability)
+- **Household Chores (2)**: {水撒|みずま}き (watering), {窓拭|まどふ}き (window cleaning)
+- **Health/Life Stages (1)**: {更年期|こうねんき} (menopause)
+- **Weather/Seasons (2)**: {五月晴|さつきば}れ (clear May weather), {初冬|しょとう} (early winter)
+- **Language Skills (2)**: {聞|き}き{取|と}り (listening comprehension), {読|よ}み{取|と}り (reading/interpretation)
+- **Culture (1)**: おとぎ{話|ばなし} (fairy tale)
+- **Personality/Status (4)**: {泊|とま}りがけ (overnight stay), {検討中|けんとうちゅう} (under consideration), {世話好|せわず}き (helpful person), {恥|は}ずかしがり (shy person)
+- **Writing/Both (2)**: {書|か}き{心地|ごこち} (writing feel), どちらも (both)
+
+Notable entry features:
+- Train announcement vocabulary: {運転|うんてん}{見合|みあ}わせ/{運転|うんてん}{再開|さいかい}/{車両|しゃりょう}{点検|てんけん}/{信号|しんごう}{故障|こしょう} (common commuter announcements)
+- Vague/indefinite adverbs: どうにか/どうにも/{何|なん}となく/{何|なに}かと/{何|なに}やら (nuanced uncertainty expressions)
+- ～{力|りょく} ability compounds: {実行力|じっこうりょく}/{分析力|ぶんせきりょく}/{理解力|りかいりょく} (cognitive abilities)
+- Comprehension skills pair: {聞|き}き{取|と}り (listening) vs {読|よ}み{取|と}り (reading)
+- Multi-sense entries: {読|よ}み{取|と}り (text interpretation vs data scanning), {更年期|こうねんき} (biological vs figurative "midlife crisis")
+- Seasonal vocabulary: {五月晴|さつきば}れ (originally referred to rainy season clearing)
+
+Total entries: 8,679 → 8,711
+Remaining candidates: ~9,414 → ~9,310
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 180)
 Added 30 new dictionary entries from candidate_words.json, covering Japanese gift culture vocabulary, scientific/abstract terminology, and emotion/reaction expressions:
@@ -495,30 +521,6 @@ Notable entry features:
 
 Total entries: 8,289 → 8,319
 Remaining candidates: ~478 → ~448
-
-### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 167)
-Added 30 new dictionary entries from candidate_words.json, covering products/shopping vocabulary, food/dining terms, weather vocabulary, business/finance expressions, and compound verbs:
-
-- **Products/Shopping (8)**: {手作|てづく}り (handmade), {手書|てが}き (handwriting), {中古品|ちゅうこひん} (used item), {新品|しんぴん} (brand new), {既製品|きせいひん} (ready-made), {在庫切|ざいこぎ}れ (out of stock), {取|と}り{置|お}き (holding item), {取|と}り{寄|よ}せ (ordering in)
-- **Food/Dining (5)**: {飲|の}み{放題|ほうだい} (all-you-can-drink), {替|か}え{玉|だま} (extra noodles), おまかせ (chef's choice), {腹八分目|はらはちぶんめ} (eating in moderation), {落|お}とし{蓋|ぶた} (drop lid)
-- **Weather (3)**: {猛暑|もうしょ} (intense heat), {酷暑|こくしょ} (extreme heat), {渇水|かっすい} (water shortage)
-- **Business/Finance (5)**: {概算|がいさん} (rough estimate), {収支|しゅうし} (income and expenses), たたき{台|だい} (draft proposal), {試算|しさん} (trial calculation), {累計|るいけい} (cumulative total)
-- **Compound verbs (4)**: {見込|みこ}む (to expect), {吹|ふ}き{荒|あ}れる (to rage), {駆|か}け{巡|めぐ}る (to rush around), {張|は}り{巡|めぐ}らす (to stretch around)
-- **Shopping/Services (3)**: ラッピング (gift wrapping), {景品|けいひん} (prize), {先着|せんちゃく} (first-come)
-- **Housing (2)**: {木造|もくぞう} (wooden construction), {駅近|えきちか} (close to station)
-
-Notable entry features:
-- Product condition vocabulary: {新品|しんぴん} vs {中古品|ちゅうこひん} vs {既製品|きせいひん} vs {手作|てづく}り
-- Ramen culture: {替|か}え{玉|だま} (extra noodles at no/low cost), {飲|の}み{放題|ほうだい} (all-you-can-drink)
-- Japanese proverb: {腹八分目|はらはちぶんめ} (eating in moderation for health)
-- Weather extremes: {猛暑|もうしょ} vs {酷暑|こくしょ} (intensity distinction)
-- Business planning vocabulary: たたき{台|だい}/{概算|がいさん}/{試算|しさん}/{累計|るいけい}
-- Multi-sense entries: {見込|みこ}む (expect/anticipate vs. see potential in), {吹|ふ}き{荒|あ}れる (weather vs. figurative), {駆|か}け{巡|めぐ}る (physical vs. mental)
-- 3 new kanji added to kanji index: 猛 (02079), 累 (02080), 酷 (02081)
-
-Total entries: 8,259 → 8,289
-Remaining candidates: ~508 → ~478
-New kanji: 2,078 → 2,081
 
 ### 2026-01-25 (New Candidates - 100 Words Added)
 Added 100 new candidate words to `candidate_words.json` across diverse domains:
