@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,801
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,948 | Unassigned: 0 ✓
-- **Candidate words**: ~9,221 words tracked in `candidate_words.json`
+- **Total entries**: 8,831
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,978 | Unassigned: 0 ✓
+- **Candidate words**: ~9,175 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 185)
+Added 30 new dictionary entries from candidate_words.json, covering katakana loanwords, abbreviations/acronyms, cultural vocabulary, casual speech, and modern terms:
+
+- **Katakana Loanwords (15)**: スキル (skill), ティッシュ (tissue), バードウォッチング (birdwatching), リフォーム (renovation), ステンレス (stainless steel), チェーン (chain), ニット (knit), ネオン (neon), サーモン (salmon), ライス (rice), リクエスト (request), パネル (panel), スロット (slot), シニア (senior), ノイローゼ (neurosis)
+- **Abbreviations/Acronyms (4)**: TKG ({卵|たまご}かけご{飯|はん}), CV (character voice), PTA (parent-teacher association), DJ (disc jockey)
+- **Cultural Vocabulary (5)**: {七福神|しちふくじん} (Seven Lucky Gods), {万葉集|まんようしゅう} (Man'yōshū), デパ{地下|ちか} (department store food hall), プロ{野球|やきゅう} (professional baseball), ボケ (blur/comedy/senility)
+- **Casual Speech (2)**: おいおい (crying loudly), っす (casual です)
+- **Modern Terms (4)**: コミュ{力|りょく} (communication skills), デジタル{化|か} (digitalization), {万能|ばんのう} (all-purpose), タンパク{質|しつ} (protein)
+
+Notable entry features:
+- Photography term: ボケ (bokeh - adopted into English as photography term for blur aesthetic)
+- Japanese food culture: TKG (viral abbreviation for {卵|たまご}かけご{飯|はん}), サーモン (sushi context), デパ{地下|ちか} (gourmet food floors)
+- Otaku culture: CV (voice actor credits), ボケとツッコミ (comedy roles)
+- German loanword: ノイローゼ (from German 'Neurose')
+- Classical literature: {万葉集|まんようしゅう} (source of {令和|れいわ} era name)
+- Multi-sense entries: ボケ (photography blur / comedy role / senility), チェーン (links / franchise / tire chains)
+
+Total entries: 8,801 → 8,831
+Remaining candidates: ~9,221 → ~9,175
 
 ### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 184)
 Added 30 new dictionary entries from candidate_words.json, covering casual/slang expressions, work culture vocabulary, technology/computing terms, modern acronyms, beauty/lifestyle vocabulary, and laughter onomatopoeia:
