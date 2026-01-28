@@ -1,161 +1,194 @@
 # Clean Up Candidates List Prompt
 
-Review and clean up candidate_words.json by removing inappropriate entries that were incorrectly extracted from notes cross-references, leaving only words suitable for the dictionary.
+Review candidate_words.json by evaluating each entry one at a time to determine whether it would be suitable for adding to this Japanese-English dictionary.
 
 ## Background
 
-A script extracted words from notes cross-references in dictionary entries by parsing furigana notation like `{漢字|かんじ}`. However, this extraction sometimes captured partial words—verb stems, adjective stems, or incomplete compounds—rather than complete dictionary words.
+The file `candidate_words.json` contains a list of candidate words that may be added to the dictionary in the future. Some entries are legitimate dictionary words, while others are problematic (verb stems, incomplete compounds, extraction artifacts, etc.). Your task is to evaluate each entry using your knowledge of Japanese to determine its suitability.
 
-## Types of Entries to REMOVE
+## Evaluation Process
 
-### 1. Verb Stems (Missing Okurigana)
+### Step 1: Load and Track Progress
 
-Words that are clearly verb stems without their inflectional endings:
-
-| Remove | Should be | Reason |
-|--------|-----------|--------|
-| 伝 (つた) | 伝える (つたえる) | Verb stem missing える |
-| 始 (はじ) | 始める (はじめる) | Verb stem missing める |
-| 終 (お) | 終わる (おわる) | Verb stem missing わる |
-| 並 (なら) | 並ぶ (ならぶ) | Verb stem missing ぶ |
-| 届 (とど) | 届く (とどく) | Verb stem missing く |
-| 調 (しら) | 調べる (しらべる) | Verb stem missing べる |
-
-### 2. Adjective Stems (Missing い or な)
-
-Words that are i-adjective or na-adjective stems:
-
-| Remove | Should be | Reason |
-|--------|-----------|--------|
-| 低 (ひく) | 低い (ひくい) | Adjective stem missing い |
-| 高 (たか) | 高い (たかい) | Adjective stem missing い |
-| 長 (なが) | 長い (ながい) | Adjective stem missing い |
-| 静 (しず) | 静か (しずか) | Na-adjective stem |
-
-### 3. Incomplete Compounds
-
-Words truncated mid-compound, typically お-prefix words missing their endings:
-
-| Remove | Should be | Reason |
-|--------|-----------|--------|
-| お互 (おたが) | お互い (おたがい) | Missing い |
-| お参 (おまい) | お参り (おまいり) | Missing り |
-| お喋 (おしゃべ) | お喋り (おしゃべり) | Missing り |
-| お守 (おまも) | お守り (おまもり) | Missing り |
-| お吸 (おす) | お吸い物 (おすいもの) | Incomplete compound |
-
-### 4. Bound Morphemes Without Context
-
-Single kanji that only function as bound prefixes/suffixes but were captured without their typical context (unless they are legitimate standalone entries like prefixes 不, 無, etc.):
-
-- Single kanji readings that don't stand alone as words
-- Partial morphemes that require attachment to other elements
-
-### 5. Extraction Artifacts
-
-Entries with anomalous readings or formatting issues:
-- Readings that don't match standard Japanese phonology
-- Entries where word and reading are identical but shouldn't be (copying errors)
-- Entries with unusual characters or formatting
-
-## Types of Entries to KEEP
-
-### 1. Complete Standalone Words
-
-Words that exist as independent dictionary entries:
-- Full nouns: お土産 (おみやげ), お寺 (おてら)
-- Complete verbs: 立ち上がる (たちあがる)
-- Complete adjectives: 美しい (うつくしい)
-- Adverbs, particles, etc.
-
-### 2. Legitimate Prefix/Suffix Entries
-
-Productive affixes that warrant their own entries:
-- 不～ (ふ～) - negative prefix
-- ～的 (～てき) - adjectival suffix
-- ～化 (～か) - -ification suffix
-
-### 3. Set Phrases and Idioms
-
-Complete idiomatic expressions:
-- いずれ菖蒲 (valid set phrase, though may need verification)
-- Four-character compounds (yojijukugo)
-
-## Workflow
-
-### Step 1: Initial Assessment
+First, check the current state of your progress file:
 
 ```bash
-# Count total candidates
-head -10 candidate_words.json
-
-# Count candidates from notes cross-reference
-grep -c '"found in notes cross-reference"' candidate_words.json
+cat cleanup_progress.json 2>/dev/null || echo '{"last_evaluated_index": 0, "removed": [], "kept": [], "uncertain": []}'
 ```
 
-### Step 2: Identify Problematic Entries
+If starting fresh, create the progress file:
 
-Focus on entries with `"notes": "found in notes cross-reference"` as these are the ones from the automated extraction. Review them systematically.
+```python
+import json
 
-Look for patterns:
-- Single kanji with kun'yomi readings (often verb/adjective stems)
-- お-prefix words with short readings
-- Words where the reading seems incomplete
+progress = {
+    "last_evaluated_index": 0,
+    "removed": [],
+    "kept": [],
+    "uncertain": []
+}
 
-### Step 3: Remove Inappropriate Entries
+with open('cleanup_progress.json', 'w') as f:
+    json.dump(progress, f, indent=2)
+```
 
-For each entry to remove, delete the entire JSON object including its surrounding comma. Be careful to maintain valid JSON structure.
+### Step 2: Entry-by-Entry Evaluation
 
-**Method A: Manual editing**
-Open the file and search for problematic patterns, removing entries one by one.
+Go through the candidates array starting from where you left off. For each entry, evaluate:
 
-**Method B: Script-assisted**
-Create a Python script to filter out entries matching certain patterns (single kanji with specific reading patterns, etc.), then manually review edge cases.
+1. **Is this a complete, standalone Japanese word?**
+   - Can it appear independently in a sentence?
+   - Would a standard Japanese dictionary include it as a headword?
 
-### Step 4: Validate JSON
+2. **Is the reading correct and complete?**
+   - Does the reading match the word?
+   - Is it a complete reading, not truncated?
 
-After editing, verify the file is valid JSON:
+3. **Is the word/reading combination valid?**
+   - Does this kanji actually have this reading in standard usage?
+   - Is this a legitimate word form, not just a stem?
+
+4. **Would this be useful in a Japanese-English dictionary?**
+   - Is it a word learners would look up?
+   - Does it have meaningful content to define?
+
+### Step 3: Categorize Each Entry
+
+For each entry, decide:
+
+- **KEEP**: Valid dictionary word with correct reading
+- **REMOVE**: Problematic entry (stem, fragment, error, duplicate concept)
+- **UNCERTAIN**: Needs human review
+
+### Examples of Evaluation Reasoning
+
+**Example 1: 不 (ふ)**
+- Evaluation: This is the negative prefix un-/non-. It's a productive prefix that learners need to understand.
+- Decision: KEEP
+
+**Example 2: 伝 (つた)** (if present)
+- Evaluation: This is the verb stem of 伝える (つたえる) or 伝わる (つたわる). It cannot stand alone as a word.
+- Decision: REMOVE
+
+**Example 3: お土産 (おみやげ)**
+- Evaluation: Complete noun meaning "souvenir." Standard dictionary word.
+- Decision: KEEP
+
+**Example 4: お互 (おたが)** (if present)
+- Evaluation: Incomplete form of お互い (おたがい). The い is missing.
+- Decision: REMOVE
+
+### Step 4: Process Entries
+
+For each entry you evaluate, record your decision in the progress file. Continue evaluating entries one by one until your remaining context falls below 20%.
+
+Use this structure to track decisions:
+
+```python
+import json
+
+# Load current state
+with open('candidate_words.json', 'r') as f:
+    data = json.load(f)
+
+with open('cleanup_progress.json', 'r') as f:
+    progress = json.load(f)
+
+# Get next entry to evaluate
+idx = progress['last_evaluated_index']
+entry = data['candidates'][idx]
+
+print(f"Entry {idx}: {entry['word']} ({entry['reading']})")
+print(f"Notes: {entry.get('notes', 'none')}")
+print(f"ID: {entry['id']}")
+```
+
+After evaluating, update progress:
+
+```python
+# After deciding on an entry
+progress['last_evaluated_index'] = idx + 1
+
+# Record decision (use appropriate list)
+progress['kept'].append(entry['id'])  # or 'removed' or 'uncertain'
+
+with open('cleanup_progress.json', 'w') as f:
+    json.dump(progress, f, indent=2)
+```
+
+### Step 5: Apply Removals
+
+When ready to apply changes, remove entries marked for removal:
+
+```python
+import json
+from datetime import datetime, timezone
+
+with open('candidate_words.json', 'r') as f:
+    data = json.load(f)
+
+with open('cleanup_progress.json', 'r') as f:
+    progress = json.load(f)
+
+# Get IDs to remove
+remove_ids = set(progress['removed'])
+
+# Filter candidates
+original_count = len(data['candidates'])
+data['candidates'] = [c for c in data['candidates'] if c['id'] not in remove_ids]
+new_count = len(data['candidates'])
+
+# Update metadata
+data['metadata']['total_candidates'] = new_count
+data['metadata']['last_updated'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+# Save
+with open('candidate_words.json', 'w') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print(f"Removed {original_count - new_count} entries")
+print(f"New total: {new_count} candidates")
+```
+
+### Step 6: Validate JSON
+
+After editing, verify the file is valid:
 
 ```bash
 python3 -c "import json; json.load(open('candidate_words.json'))" && echo "Valid JSON"
 ```
 
-### Step 5: Update Metadata
-
-After removing entries, update the metadata:
-
-```bash
-python3 -c "
-import json
-with open('candidate_words.json', 'r') as f:
-    data = json.load(f)
-data['metadata']['total_candidates'] = len(data['candidates'])
-from datetime import datetime, timezone
-data['metadata']['last_updated'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-with open('candidate_words.json', 'w') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
-print(f\"Updated: {data['metadata']['total_candidates']} candidates\")
-"
-```
-
 ## Decision Guidelines
 
-When uncertain whether to remove an entry:
+When evaluating each entry, ask yourself:
 
-1. **Would a Japanese dictionary include this as a headword?** If the word only appears as part of a larger word (like verb stems), remove it.
+1. **Standalone test**: Can this word appear alone in a Japanese sentence with this reading?
 
-2. **Can this word stand alone in a sentence?** Verb stems like 伝 (つた) cannot—you need 伝える or 伝わる.
+2. **Dictionary test**: Would you expect to find this as a headword in a published Japanese-English dictionary?
 
-3. **Is the reading complete?** If the reading seems truncated (like ひく for 低 instead of ひくい), remove it.
+3. **Completeness test**: Is the word complete? (Not a verb stem missing okurigana, not a compound missing its ending)
 
-4. **Is this a productive affix?** Prefixes like 不～ and suffixes like ～化 are legitimate entries. But single kanji that only appear in specific compounds are not.
+4. **Reading validity test**: Is this a real, standard reading for this word?
 
-5. **When in doubt, remove.** It's better to have a clean candidate list. Legitimate words can always be re-added with proper forms.
+5. **Usefulness test**: Would a Japanese learner benefit from having this entry?
+
+## When to Stop
+
+Continue evaluating entries one by one until:
+- Your remaining context drops below 20%, OR
+- You complete all entries
+
+Before stopping, always:
+1. Save your progress to cleanup_progress.json
+2. Report how many entries you evaluated in this session
+3. Report your decisions (how many kept, removed, uncertain)
 
 ## Reporting
 
-After cleanup, report:
-1. Number of entries removed
-2. Categories of removals (verb stems, adjective stems, incomplete compounds, etc.)
-3. Final candidate count
-4. Any entries you were uncertain about (for human review)
+At the end of each session, report:
+1. Starting index and ending index for this session
+2. Number of entries evaluated
+3. Breakdown: kept / removed / uncertain
+4. List of entries marked for removal with brief reasons
+5. List of uncertain entries for human review
+6. Next steps (continue from index X, or apply removals if done)
