@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,711
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,858 | Unassigned: 0 ✓
-- **Candidate words**: ~9,310 words tracked in `candidate_words.json`
+- **Total entries**: 8,741
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,888 | Unassigned: 0 ✓
+- **Candidate words**: ~9,281 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,34 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 182)
+Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including adverbs, pronouns, legal professions, technology/energy terms, anatomy/medical, and cultural expressions:
+
+- **Adverbs/Pronouns (4)**: {絶対|ぜったい}に (absolutely), {一目|ひとめ} (a glance), {四方|しほう} (all sides), {種々|しゅじゅ} (various kinds)
+- **Documents/ID (2)**: {身分|みぶん}{証明|しょうめい} (identification), {職務|しょくむ}{経歴|けいれき}{書|しょ} (work history/CV)
+- **Legal Professions (2)**: {司法|しほう}{書士|しょし} (judicial scrivener), {行政|ぎょうせい}{書士|しょし} (administrative scrivener)
+- **Business/Work (2)**: {営業|えいぎょう}マン (salesperson), ウェブ{会議|かいぎ} (web conference)
+- **Technology/Energy (4)**: {液晶|えきしょう}{画面|がめん} (LCD screen), {携帯|けいたい}{充電|じゅうでん}{器|き} (phone charger), {風力|ふうりょく}{発電|はつでん} (wind power), {再生|さいせい}{可能|かのう}エネルギー (renewable energy)
+- **Anatomy/Medical (3)**: {皮下|ひか} (subcutaneous), {表皮|ひょうひ} (epidermis), {播種|はしゅ} (sowing/dissemination)
+- **Numbers/Senses (3)**: {六感|ろっかん} (sixth sense), {七色|なないろ} (seven colors), {二心|ふたごころ} (duplicity)
+- **Na-Adjectives (2)**: {支配|しはい}{的|てき} (dominant), {物質|ぶっしつ}{的|てき} (materialistic)
+- **Food/Culture (2)**: {酒|さけ}の{肴|さかな} (drinking snacks), {蛙|かえる}の{子|こ}は{蛙|かえる} (like father like son)
+- **Education/Daily Life (4)**: {対角|たいかく} (diagonal), {百科|ひゃっか} (encyclopedia), {試験|しけん}{期間|きかん} (exam period), {鍵|かぎ}{掛|か}け (key hook)
+- **Miscellaneous (2)**: ゴミ{分別|ぶんべつ} (garbage sorting), お{供|とも}する (to accompany-humble)
+
+Notable entry features:
+- Japanese legal profession vocabulary: {司法|しほう}{書士|しょし} and {行政|ぎょうせい}{書士|しょし} (unique to Japan's legal system)
+- Renewable energy vocabulary: {風力|ふうりょく}{発電|はつでん}/{再生|さいせい}{可能|かのう}エネルギー (environmental policy terms)
+- Medical/anatomy terms: {皮下|ひか}/{表皮|ひょうひ}/{播種|はしゅ} (technical vocabulary with layered meanings)
+- Japanese proverb: {蛙|かえる}の{子|こ}は{蛙|かえる} (like father, like son)
+- Modern work vocabulary: ウェブ{会議|かいぎ} (post-pandemic standard)
+- Cultural vocabulary: {酒|さけ}の{肴|さかな} (etymology of さかな explained)
+- 3 new kanji added to kanji index: {播|はん} (02106), {晶|しょう} (02107), {肴|こう} (02108)
+
+Total entries: 8,711 → 8,741
+Remaining candidates: ~9,310 → ~9,281
+New kanji: 2,105 → 2,108
 
 ### 2026-01-28 (Vocabulary Expansion - 32 New Entries, Session 181)
 Added 32 new dictionary entries from candidate_words.json, covering health/lifestyle vocabulary, transportation announcements, adverbs/function words, ability compounds, household chores, weather/seasonal terms, and personality types:
