@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,771
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,918 | Unassigned: 0 ✓
-- **Candidate words**: ~9,251 words tracked in `candidate_words.json`
+- **Total entries**: 8,801
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,948 | Unassigned: 0 ✓
+- **Candidate words**: ~9,221 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,33 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 184)
+Added 30 new dictionary entries from candidate_words.json, covering casual/slang expressions, work culture vocabulary, technology/computing terms, modern acronyms, beauty/lifestyle vocabulary, and laughter onomatopoeia:
+
+- **Casual/Slang (5)**: すげー (amazing-slang), やべー (awesome/bad-slang), ちゃう (てしまう contraction), なきゃ (なければ contraction), わろた (LOL-internet slang)
+- **Work Culture (2)**: ブラック (exploitative company), マタハラ (maternity harassment)
+- **Modern Acronyms (4)**: SDGs, NPO, IoT, リツイート (retweet)
+- **Technology/Computing (4)**: インターフェース (interface), プロセッサ (processor), ログアウト (logout), フラッシュ (flash)
+- **Finance (2)**: キャッシュバック (cashback), ポイント{還元|かんげん} (point rewards)
+- **Beauty/Lifestyle (3)**: ファンデーション (foundation makeup), リップ (lip/lipstick), ダンサー (dancer)
+- **Modern Verbs (1)**: タピる (to drink bubble tea)
+- **Music (1)**: バース (verse)
+- **Expressions (1)**: それじゃ (well then)
+- **Laughter Onomatopoeia (3)**: あはは (ha ha), うふふ (hee hee), えへへ (heh heh)
+- **Formal/Hierarchy (3)**: {建|けん}{議|ぎ} (proposal), {目下|めした} (subordinate), {何分|なにぶん} (in any case)
+- **Other (1)**: {切|き}り{取|と}り (cutting/clipping)
+
+Notable entry features:
+- Japanese casual speech: すげー/やべー (slang adjectives), ちゃう/なきゃ (grammatical contractions)
+- Japanese work culture: ブラック{企業|きぎょう} (exploitative company), マタハラ (workplace harassment vocabulary)
+- Internet/social media: わろた (LOL slang), リツイート (retweet)
+- Japanese point culture: キャッシュバック/ポイント{還元|かんげん} (ubiquitous in Japanese retail)
+- Laughter expressions: あはは/うふふ/えへへ (different nuances of laughter)
+- Modern trends: タピる (bubble tea verb from 2019 boom)
+
+Total entries: 8,771 → 8,801
+Remaining candidates: ~9,251 → ~9,221
 
 ### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 183)
 Added 30 new dictionary entries from candidate_words.json, covering modern acronyms/loanwords, music vocabulary, counter questions, technology/computing terms, casual expressions, and cultural vocabulary:
