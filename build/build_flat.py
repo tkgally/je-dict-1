@@ -3623,14 +3623,15 @@ def build_flat(project_root: Path) -> int:
     print("  Generated styles.css")
 
     # Atomic swap: replace original docs/ with newly built temp_dir
+    # Use shutil.move() instead of Path.rename() to handle cross-device moves
     print("\n[Swap] Atomically replacing output directory...")
     try:
         # Move original docs/ to backup (if it exists)
         if original_docs_dir.exists():
-            original_docs_dir.rename(backup_dir)
+            shutil.move(str(original_docs_dir), str(backup_dir))
 
         # Move temp build to docs/
-        docs_dir.rename(original_docs_dir)
+        shutil.move(str(docs_dir), str(original_docs_dir))
 
         # Remove backup after successful swap
         if backup_dir.exists():
@@ -3642,7 +3643,7 @@ def build_flat(project_root: Path) -> int:
         print(f"  Build output remains in: {temp_dir}")
         # Try to restore backup if swap failed midway
         if backup_dir.exists() and not original_docs_dir.exists():
-            backup_dir.rename(original_docs_dir)
+            shutil.move(str(backup_dir), str(original_docs_dir))
         return 1
 
     # Final about.html verification (safety check after swap)
