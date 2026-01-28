@@ -7,6 +7,34 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 174)
+Added 30 new dictionary entries from candidate_words.json, covering eating habits, freshness expressions, train/transportation vocabulary, gift culture, function words, and compound verbs:
+
+- **Eating Habits (2)**: {少食|しょうしょく} (light eater), {早食|はやぐ}い (fast eating)
+- **Freshness Expressions (3)**: {揚|あ}げ{立|た}て (freshly fried), {茹|ゆ}で{立|た}て (freshly boiled), {採|と}れ{立|た}て (freshly harvested)
+- **Train/Transportation (6)**: {通勤|つうきん}ラッシュ (commuter rush), {帰宅|きたく}ラッシュ (evening rush), {駆|か}け{込|こ}み{乗車|じょうしゃ} (rushing onto train), グリーン{車|しゃ} (first-class car), {女性専用車両|じょせいせんようしゃりょう} (women-only car), ホームドア (platform screen door)
+- **Gift Culture (2)**: のし{袋|ぶくろ} (gift envelope), {引|ひ}っ{越|こ}し{祝|いわ}い (housewarming gift)
+- **Personality/Skills (2)**: {甘|あま}え{上手|じょうず} (good at acting spoiled), {世渡|よわた}り{上手|じょうず} (socially adept)
+- **Function Words (7)**: {何回|なんかい} (how many times), {誰|だれ}でも (anyone), どこでも (anywhere), そのため (therefore), その{後|ご} (after that), その{前|まえ} (before that), その{間|あいだ} (meanwhile)
+- **Location (1)**: {向|む}こう{側|がわ} (the other side)
+- **Compound Verbs (2)**: {食|た}べ{慣|な}れる (become used to eating), {住|す}み{慣|な}れる (become used to living)
+- **Nature/Time (1)**: {半月|はんげつ} (half moon)
+- **Onomatopoeia (1)**: じんわり (gradually seeping)
+- **Health (1)**: {湯冷|ゆざ}め (catching cold after bath)
+- **Workplace (1)**: {社内恋愛|しゃないれんあい} (office romance)
+- **Technology (1)**: ワイヤレス (wireless)
+
+Notable entry features:
+- ~{立|た}て pattern cluster: {揚|あ}げ{立|た}て/{茹|ゆ}で{立|た}て/{採|と}れ{立|た}て (freshness expressions)
+- Train vocabulary cluster: commuter culture and safety features
+- ~{上手|じょうず} pattern: {甘|あま}え{上手|じょうず}/{世渡|よわた}り{上手|じょうず} (personality skills)
+- その + noun pattern: そのため/その{後|ご}/その{前|まえ}/その{間|あいだ} (conjunctions)
+- ~でも pattern: {誰|だれ}でも/どこでも (indefinite pronouns)
+- ~{慣|な}れる compound verbs: {食|た}べ{慣|な}れる/{住|す}み{慣|な}れる (habituation)
+
+Total entries: 8,469 → 8,499
+Remaining candidates: ~500 → ~472
+
 ### 2026-01-25 (Vocabulary Expansion - 30 New Entries, Session 167)
 Added 30 new dictionary entries from candidate_words.json, covering products/shopping vocabulary, food/dining terms, weather vocabulary, business/finance expressions, and compound verbs:
 
