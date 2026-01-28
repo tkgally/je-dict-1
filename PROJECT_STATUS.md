@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,741
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,888 | Unassigned: 0 ✓
-- **Candidate words**: ~9,281 words tracked in `candidate_words.json`
+- **Total entries**: 8,771
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,918 | Unassigned: 0 ✓
+- **Candidate words**: ~9,251 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 183)
+Added 30 new dictionary entries from candidate_words.json, covering modern acronyms/loanwords, music vocabulary, counter questions, technology/computing terms, casual expressions, and cultural vocabulary:
+
+- **Modern Acronyms (9)**: NEET (ニート), DINKS (ディンクス), VIP (ビップ), ATM (えーてぃーえむ), AED (えーいーでぃー), DNA (でぃーえぬえー), IQ (あいきゅー), PTSD (ぴーてぃーえすでぃー)
+- **Music Terms (3)**: ハーモニー (harmony), ベース (bass), ボーカル (vocal)
+- **Counter Questions (3)**: {何枚|なんまい} (how many flat things), {何冊|なんさつ} (how many books), {何杯|なんばい} (how many cups)
+- **Technology/Computing (2)**: {非同期|ひどうき} (asynchronous), {帯域|たいいき} (bandwidth)
+- **Casual Expressions (4)**: オッケー (OK), ほんと (really), そいつ (that guy), というのは (that is)
+- **Japanese Culture (4)**: ご{縁|えん} (fate/connection), すり{身|み} (fish paste), お{客様|きゃくさま} (customer-honorific), どん{底|ぞこ} (rock bottom)
+- **Transportation (2)**: {車内|しゃない}{放送|ほうそう} (train announcement), {運行状況|うんこうじょうきょう} (service status)
+- **Writing/Publishing (3)**: {書|か}き{下|お}ろし (newly written), {再入荷|さいにゅうか} (restocking), {歳入|さいにゅう}/{歳出|さいしゅつ} (revenue/expenditure)
+
+Notable entry features:
+- Modern lifestyle acronyms: NEET/DINKS/VIP (wasei-eigo adaptations), medical terms (PTSD/AED/DNA/IQ)
+- Financial technology: ATM with Japan-specific usage notes (convenience store availability, fee structures)
+- Counter question pattern: {何|なん}+counter forms for flat objects, books, and cups/glasses
+- Computing vocabulary: {非同期|ひどうき} (programming), {帯域|たいいき} (networking)
+- Casual speech patterns: ほんと (casual form of 本当), そいつ (casual demonstrative pronoun)
+- Japanese cultural concepts: ご{縁|えん} (Buddhist-influenced fate concept), どん{底|ぞこ} (emphatic expression)
+- Multi-sense entries: ベース (music bass vs baseball base vs foundation), {帯域|たいいき} (internet bandwidth vs frequency band)
+
+Total entries: 8,741 → 8,771
+Remaining candidates: ~9,281 → ~9,251
 
 ### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 182)
 Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including adverbs, pronouns, legal professions, technology/energy terms, anatomy/medical, and cultural expressions:
@@ -296,34 +320,6 @@ Notable entry features:
 
 Total entries: 8,499 → 8,529
 Remaining candidates: ~472 → ~10,495 (large batch added)
-
-### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 174)
-Added 30 new dictionary entries from candidate_words.json, covering eating habits, freshness expressions, train/transportation vocabulary, gift culture, function words, and compound verbs:
-
-- **Eating Habits (2)**: {少食|しょうしょく} (light eater), {早食|はやぐ}い (fast eating)
-- **Freshness Expressions (3)**: {揚|あ}げ{立|た}て (freshly fried), {茹|ゆ}で{立|た}て (freshly boiled), {採|と}れ{立|た}て (freshly harvested)
-- **Train/Transportation (6)**: {通勤|つうきん}ラッシュ (commuter rush), {帰宅|きたく}ラッシュ (evening rush), {駆|か}け{込|こ}み{乗車|じょうしゃ} (rushing onto train), グリーン{車|しゃ} (first-class car), {女性専用車両|じょせいせんようしゃりょう} (women-only car), ホームドア (platform screen door)
-- **Gift Culture (2)**: のし{袋|ぶくろ} (gift envelope), {引|ひ}っ{越|こ}し{祝|いわ}い (housewarming gift)
-- **Personality/Skills (2)**: {甘|あま}え{上手|じょうず} (good at acting spoiled), {世渡|よわた}り{上手|じょうず} (socially adept)
-- **Function Words (7)**: {何回|なんかい} (how many times), {誰|だれ}でも (anyone), どこでも (anywhere), そのため (therefore), その{後|ご} (after that), その{前|まえ} (before that), その{間|あいだ} (meanwhile)
-- **Location (1)**: {向|む}こう{側|がわ} (the other side)
-- **Compound Verbs (2)**: {食|た}べ{慣|な}れる (become used to eating), {住|す}み{慣|な}れる (become used to living)
-- **Nature/Time (1)**: {半月|はんげつ} (half moon)
-- **Onomatopoeia (1)**: じんわり (gradually seeping)
-- **Health (1)**: {湯冷|ゆざ}め (catching cold after bath)
-- **Workplace (1)**: {社内恋愛|しゃないれんあい} (office romance)
-- **Technology (1)**: ワイヤレス (wireless)
-
-Notable entry features:
-- ~{立|た}て pattern cluster: {揚|あ}げ{立|た}て/{茹|ゆ}で{立|た}て/{採|と}れ{立|た}て (freshness expressions)
-- Train vocabulary cluster: commuter culture and safety features
-- ~{上手|じょうず} pattern: {甘|あま}え{上手|じょうず}/{世渡|よわた}り{上手|じょうず} (personality skills)
-- その + noun pattern: そのため/その{後|ご}/その{前|まえ}/その{間|あいだ} (conjunctions)
-- ~でも pattern: {誰|だれ}でも/どこでも (indefinite pronouns)
-- ~{慣|な}れる compound verbs: {食|た}べ{慣|な}れる/{住|す}み{慣|な}れる (habituation)
-
-Total entries: 8,469 → 8,499
-Remaining candidates: ~500 → ~472
 
 ### 2026-01-27 (Vocabulary Expansion - 30 New Entries, Session 173)
 Added 30 new dictionary entries from candidate_words.json, covering expressions/emotions vocabulary, personality types, communication skills, transportation vocabulary, and work culture:
