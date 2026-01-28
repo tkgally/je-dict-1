@@ -3707,6 +3707,12 @@ def build_flat(project_root: Path) -> int:
             return 1
         print(f"  Verified: {kanji_html_count} kanji HTML files created")
 
+    # Generate sitemap and robots.txt
+    from build_sitemap import build_sitemap
+    sitemap_result = build_sitemap(project_root)
+    if sitemap_result != 0:
+        print("  WARNING: Sitemap generation had issues")
+
     # Summary
     print("\n" + "=" * 50)
     print("Build complete!")
