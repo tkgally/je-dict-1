@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,831
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 5,978 | Unassigned: 0 ✓
-- **Candidate words**: ~9,175 words tracked in `candidate_words.json`
+- **Total entries**: 8,861
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,008 | Unassigned: 0 ✓
+- **Candidate words**: ~9,145 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 186)
+Added 30 new dictionary entries from candidate_words.json, covering technology abbreviations, social media platforms, business loanwords, and general vocabulary:
+
+- **Technology Abbreviations (10)**: GPS (navigation), USB (universal serial bus), LED (light-emitting diode), MRI (medical imaging), LCC (low-cost carrier), CD (compact disc), DVD (digital versatile disc), UV (ultraviolet), LAN (local area network), OS (operating system)
+- **Organizations/Media (4)**: NHK (Japan Broadcasting Corporation), NGO (non-governmental organization), EU (European Union), UN (United Nations)
+- **Social Media Platforms (4)**: YouTube, Zoom, Twitter, Instagram
+- **Business Loanwords (6)**: CEO, ウェルビーイング (well-being), インクルーシブ (inclusive), ピボット (pivot), ファシリテーター (facilitator), エンゲージメント (engagement)
+- **General Vocabulary (6)**: CO2 (carbon dioxide), ハード (hardware/hard), ペースト (paste), {上弦|じょうげん} (first quarter moon), {債権|さいけん} (credit/receivable), {防御率|ぼうぎょりつ} (ERA in baseball)
+
+Notable entry features:
+- Japan-specific media: NHK ({朝|あさ}ドラ, {紅白|こうはく}{歌合戦|うたがっせん} cultural references)
+- Social media vocabulary: Twitter/{炎上|えんじょう}, Instagram/インスタ{映|ば}え
+- Business buzzwords: ウェルビーイング{経営|けいえい}, {従業員|じゅうぎょういん}エンゲージメント
+- COVID-era vocabulary: Zoom{飲|の}み{会|かい}, Zoom{疲|づか}れ
+- Multi-sense entries: ハード (hardware/difficult), ペースト (food/computer), ピボット (business/sports)
+- Japanese baseball: {防御率|ぼうぎょりつ} (pitcher effectiveness statistic)
+
+Total entries: 8,831 → 8,861
+Remaining candidates: ~9,175 → ~9,145
 
 ### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 185)
 Added 30 new dictionary entries from candidate_words.json, covering katakana loanwords, abbreviations/acronyms, cultural vocabulary, casual speech, and modern terms:
