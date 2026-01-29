@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,921
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,068 | Unassigned: 0 ✓
-- **Candidate words**: ~9,085 words tracked in `candidate_words.json`
+- **Total entries**: 8,951
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,098 | Unassigned: 0 ✓
+- **Candidate words**: ~9,055 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,25 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-29 (Vocabulary Expansion - 30 New Entries, Session 189)
+Added 30 new dictionary entries from candidate_words.json, covering IT terminology, Japanese cultural vocabulary, loanwords, and 一 (ichi) compound words:
+
+- **IT/Technical (1)**: {可用性|かようせい} (availability - IT term)
+- **Japanese Cultural (5)**: お{彼岸|ひがん} (equinoctial week), お{茶屋|ちゃや} (tea house/geisha house), ご{当地|とうち} (local/regional), {一汁三菜|いちじゅうさんさい} (traditional meal format), {一升瓶|いっしょうびん} (1.8L sake bottle)
+- **Common Loanwords (9)**: お{手頃|てごろ} (affordable), エコバッグ (eco bag), エントランス (entrance), オチ (punchline), キック (kick), クリニック (clinic), アルミ (aluminum), ガス{代|だい} (gas bill), ガラケー (flip phone)
+- **Sports (2)**: ノーヒット (no-hitter), {一回戦|いっかいせん} (first round)
+- **一-Compound Words (13)**: {一々|いちいち} (one by one), {一括|いっかつ} (lump sum), {一撃|いちげき} (one blow), {一方通行|いっぽうつうこう} (one-way), {一桁|ひとけた} (single digit), {一段|いちだん} (one level), {一番星|いちばんぼし} (first star), {一目散|いちもくさん} (at full speed), {一眼|いちがん} (SLR camera), {一人用|ひとりよう} (for one person), {一人娘|ひとりむすめ} (only daughter), {一卵性|いちらんせい} (identical twins), {一夜|いちや} (one night)
+
+Notable entry features:
+- Japanese cultural vocabulary: お{彼岸|ひがん} (Buddhist memorial period), {一汁三菜|いちじゅうさんさい} (traditional meal structure)
+- Multi-sense entries: お{茶屋|ちゃや} (tea house/geisha house), お{手頃|てごろ} (affordable/convenient size), {一方通行|いっぽうつうこう} (traffic/figurative), {一段|いちだん} (level/degree)
+- Modern Japanese vocabulary: ガラケー (Galapagos phone etymology), エコバッグ (post-plastic-bag-charge era)
+- IT terminology: {可用性|かようせい} (availability in systems engineering)
+- Photography: {一眼|いちがん} (DSLR/mirrorless cameras)
+
+Total entries: 8,921 → 8,951
+Remaining candidates: ~9,085 → ~9,055
 
 ### 2026-01-29 (Vocabulary Expansion - 30 New Entries, Session 188)
 Added 30 new dictionary entries from candidate_words.json, covering technology abbreviations, sports leagues, loanwords, and Japanese quantity expressions with {一|いち}:
