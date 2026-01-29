@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,951
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,098 | Unassigned: 0 ✓
-- **Candidate words**: ~9,055 words tracked in `candidate_words.json`
+- **Total entries**: 8,981
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,128 | Unassigned: 0 ✓
+- **Candidate words**: ~9,026 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-29 (Vocabulary Expansion - 30 New Entries, Session 190)
+Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including abbreviations, technology terms, transportation, loanwords, and cultural vocabulary:
+
+- **Abbreviations/Acronyms (7)**: SS (screenshot), PA (penalty area), AC (air conditioning/alternating current), RTA (real-time attack/speedrun), iOS (Apple operating system)
+- **Technology/Computing (4)**: スループット (throughput), ワイヤレス{充電|じゅうでん} (wireless charging), オペレーティングシステム (operating system), デジタルネイティブ (digital native)
+- **Transportation (3)**: {立|た}ち{乗|の}り (standing on train), {座席|ざせき}{争|あらそ}い (seat scramble), {車席|しゃせき} (car seat)
+- **Loanwords (4)**: ショルダーバッグ (shoulder bag), ブラジャー (bra), ビデオゲーム (video game)
+- **Food/Cooking (3)**: {注文品|ちゅうもんひん} (custom order), {半切|はんぎ}り (cutting in half), {店屋|みせや} (store/shop)
+- **Expressions/Vocabulary (6)**: {顔色|かおいろ}をうかがう (watching someone's expression), {笑|わら}いすぎ (laughing too much), {場|ば}{見知|みし}り (shy in unfamiliar places), うっかり{忘|わす}れ (careless forgetfulness), {作|つく}りごたえ (satisfying to make), {麗々|れいれい}しい (formal/ceremonious)
+- **Cultural/Traditional (2)**: {褌|ふんどし} (loincloth/fundoshi), {切手|きって}{収集|しゅうしゅう} (stamp collecting)
+- **Other (4)**: {千円|せんえん} (1000 yen), {日日|ひにち} (date), あばた (pockmarks), {鬱血|うっけつ} (blood congestion)
+
+Notable entry features:
+- Multi-sense entries: AC (air conditioning/alternating current), {店屋|みせや} (store/shopkeeper)
+- Gaming vocabulary: RTA ({走者|そうしゃ}), SS (スクショ), ビデオゲーム
+- ～ごたえ pattern: {作|つく}りごたえ (satisfying to make)
+- Medical vocabulary: {鬱血|うっけつ} (venous congestion)
+- Famous proverb reference: あばたも{笑窪|えくぼ} (love is blind)
+- 1 new kanji added: {褌|ふんどし} (02110)
+
+Total entries: 8,951 → 8,981
+Remaining candidates: ~9,055 → ~9,026
+New kanji: 2,109 → 2,110
 
 ### 2026-01-29 (Vocabulary Expansion - 30 New Entries, Session 189)
 Added 30 new dictionary entries from candidate_words.json, covering IT terminology, Japanese cultural vocabulary, loanwords, and 一 (ichi) compound words:
