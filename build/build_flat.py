@@ -40,191 +40,6 @@ if kanji_list_path.exists():
 # This ensures the CNAME file is always restored even if accidentally deleted
 GITHUB_PAGES_CNAME = "www.tkgje.jp"
 
-# Global lookup table for cross-referencing words in notes
-# Maps (stripped_headword, reading) -> entry_path (e.g., "entries/00000/00184_kansou.json")
-ENTRY_LOOKUP = {}
-
-# Global set to track words in notes that don't have entries (for candidate collection)
-# Format: set of (kanji, reading) tuples
-MISSING_WORDS_IN_NOTES = set()
-
-
-def build_entry_lookup(entries: list) -> dict:
-    """
-    Build a lookup table mapping (headword, reading) -> entry_path.
-
-    Args:
-        entries: List of entry dictionaries with 'headword', 'reading', and 'id' keys
-
-    Returns:
-        Dictionary mapping (stripped_headword, reading) -> relative path to HTML file
-    """
-    lookup = {}
-    for entry in entries:
-        headword = entry.get('headword', '')
-        reading = entry.get('reading', '')
-        entry_id = entry.get('id', '')
-
-        # Strip furigana from headword to get plain kanji/text
-        stripped_headword = strip_furigana(headword)
-
-        # Build the path to the HTML file
-        dir_range = get_directory_range(entry_id)
-        html_path = f"entries/{dir_range}/{entry_id}.html"
-
-        # Use (stripped_headword, reading) as the key for exact matching
-        lookup[(stripped_headword, reading)] = html_path
-
-    return lookup
-
-
-def is_valid_japanese_word(text: str) -> bool:
-    """
-    Check if text is a valid Japanese word (kanji, hiragana, katakana, or common symbols).
-
-    Returns False for:
-    - Empty strings
-    - Strings with leading/trailing whitespace
-    - Strings containing invalid characters (brackets, punctuation, etc.)
-    - Strings that are just punctuation or symbols
-    """
-    if not text or text != text.strip():
-        return False
-
-    # Check each character is valid (kanji, hiragana, katakana, or common word characters)
-    has_japanese = False
-    for char in text:
-        code = ord(char)
-        # CJK Unified Ideographs (kanji): U+4E00-U+9FFF
-        # Hiragana: U+3040-U+309F
-        # Katakana: U+30A0-U+30FF
-        # Katakana Phonetic Extensions: U+31F0-U+31FF
-        # CJK Symbols and Punctuation (some): U+3000-U+303F
-        # Half-width/Full-width forms: U+FF00-U+FFEF
-        # Common symbols in words: ー (long vowel), 々 (iteration mark)
-        if 0x4E00 <= code <= 0x9FFF:  # Kanji
-            has_japanese = True
-        elif 0x3040 <= code <= 0x309F:  # Hiragana
-            has_japanese = True
-        elif 0x30A0 <= code <= 0x30FF:  # Katakana
-            has_japanese = True
-        elif code == 0x3005:  # 々 iteration mark
-            has_japanese = True
-        elif code == 0x30FC:  # ー long vowel mark
-            pass  # Valid but doesn't count as "has Japanese"
-        elif char in '～〜':  # Wave dash (used in some words)
-            pass
-        else:
-            # Invalid character (whitespace, brackets, punctuation, ASCII, etc.)
-            return False
-
-    return has_japanese
-
-
-def is_valid_candidate_word(kanji: str, reading: str) -> bool:
-    """
-    Check if a (kanji, reading) pair is a valid candidate for the dictionary.
-
-    Filters out:
-    - Invalid Japanese words (see is_valid_japanese_word)
-    - Words where kanji part is entirely hiragana (swapped word/reading)
-    - Single character readings that might be suffixes
-    - Readings that don't look like valid hiragana readings
-    - Suffix/prefix patterns starting with 〜 or ～
-    """
-    if not is_valid_japanese_word(kanji) or not is_valid_japanese_word(reading):
-        return False
-
-    # Filter out suffix/prefix patterns (words starting with wave dash)
-    if kanji.startswith('〜') or kanji.startswith('～'):
-        return False
-
-    # Check if kanji part has at least one actual kanji character
-    # (filter out cases like {あまり|余り} where hiragana is in the kanji position)
-    has_kanji = False
-    all_hiragana = True
-    for char in kanji:
-        code = ord(char)
-        if 0x4E00 <= code <= 0x9FFF:  # Actual kanji
-            has_kanji = True
-            all_hiragana = False
-        elif 0x30A0 <= code <= 0x30FF:  # Katakana
-            all_hiragana = False
-
-    # If kanji part is entirely hiragana, it's likely a data error
-    if all_hiragana and len(kanji) > 1:
-        return False
-
-    # Reading should be primarily hiragana (standard for readings)
-    # Allow katakana for loanwords, but the reading shouldn't have kanji
-    for char in reading:
-        code = ord(char)
-        if 0x4E00 <= code <= 0x9FFF:  # Kanji in reading - data error
-            return False
-
-    return True
-
-
-def process_furigana_with_links(text: str, entry_lookup: dict, current_headword: str,
-                                 current_reading: str, relative_path: str = '../../',
-                                 track_missing: bool = True) -> str:
-    """
-    Convert furigana notation to HTML ruby tags, adding links for words that exist in the dictionary.
-
-    Args:
-        text: Text containing furigana notation like {漢字|かんじ}
-        entry_lookup: Dict mapping (headword, reading) -> HTML path
-        current_headword: The stripped headword of the current entry (to avoid self-linking)
-        current_reading: The reading of the current entry
-        relative_path: Path prefix for links (e.g., '../../')
-        track_missing: Whether to add missing words to MISSING_WORDS_IN_NOTES
-
-    Returns:
-        HTML string with ruby tags and links where applicable
-    """
-    if not text:
-        return ''
-
-    parts = []
-    last_end = 0
-
-    for match in FURIGANA_PATTERN.finditer(text):
-        # Add text before this match (escaped)
-        if match.start() > last_end:
-            parts.append(html.escape(text[last_end:match.start()]))
-
-        kanji = match.group(1)
-        reading = match.group(2)
-
-        # Check if this word exists in the dictionary
-        entry_path = entry_lookup.get((kanji, reading))
-
-        # Don't link to the current entry (self-reference)
-        is_self_reference = (kanji == current_headword and reading == current_reading)
-
-        # Build the ruby element
-        ruby_html = f'<ruby>{html.escape(kanji)}<rp>(</rp><rt>{html.escape(reading)}</rt><rp>)</rp></ruby>'
-
-        if entry_path and not is_self_reference:
-            # Wrap in a link to the entry
-            parts.append(f'<a href="{relative_path}{entry_path}" class="notes-word-link">{ruby_html}</a>')
-        else:
-            # No link - just the ruby element
-            parts.append(ruby_html)
-
-            # Track missing words (but not self-references, and only if valid candidate)
-            if not entry_path and track_missing and not is_self_reference:
-                if is_valid_candidate_word(kanji, reading):
-                    MISSING_WORDS_IN_NOTES.add((kanji, reading))
-
-        last_end = match.end()
-
-    # Add any remaining text after the last match
-    if last_end < len(text):
-        parts.append(html.escape(text[last_end:]))
-
-    return ''.join(parts)
-
 
 def process_furigana(text: str, show_furigana: bool = True) -> str:
     """Convert furigana notation to HTML ruby tags."""
@@ -335,32 +150,18 @@ def process_headword_with_kanji_links(text: str, relative_path: str = '../../') 
     return ''.join(parts)
 
 
-def process_notes_text(text: str, entry_lookup: dict = None, current_headword: str = '',
-                       current_reading: str = '', relative_path: str = '../../') -> str:
+def process_notes_text(text: str) -> str:
     """
-    Process notes text with proper formatting, optionally adding cross-reference links.
+    Process notes text with proper formatting.
 
     Args:
         text: The notes text to process
-        entry_lookup: Optional dict mapping (headword, reading) -> HTML path for cross-references
-        current_headword: The stripped headword of the current entry (to avoid self-linking)
-        current_reading: The reading of the current entry
-        relative_path: Path prefix for links (e.g., '../../')
 
     Returns:
-        Formatted HTML string with furigana and optional cross-reference links
+        Formatted HTML string with furigana
     """
     if not text:
         return ''
-
-    # Choose the appropriate furigana processing function
-    def process_text(content: str) -> str:
-        if entry_lookup is not None:
-            return process_furigana_with_links(
-                content, entry_lookup, current_headword, current_reading, relative_path
-            )
-        else:
-            return process_furigana(content)
 
     paragraphs = text.split('\n\n')
     result = []
@@ -377,12 +178,12 @@ def process_notes_text(text: str, entry_lookup: dict = None, current_headword: s
                 trimmed = line.strip()
                 if trimmed.startswith('- ') or trimmed.startswith('・'):
                     content = re.sub(r'^[-・]\s*', '', trimmed)
-                    list_items.append(f'<li>{process_text(content)}</li>')
+                    list_items.append(f'<li>{process_furigana(content)}</li>')
                 elif trimmed:
                     if list_items:
                         html_parts.append(f'<ul>{"".join(list_items)}</ul>')
                         list_items = []
-                    html_parts.append(f'<p>{process_text(trimmed)}</p>')
+                    html_parts.append(f'<p>{process_furigana(trimmed)}</p>')
 
             if list_items:
                 html_parts.append(f'<ul>{"".join(list_items)}</ul>')
@@ -390,7 +191,7 @@ def process_notes_text(text: str, entry_lookup: dict = None, current_headword: s
             result.append(''.join(html_parts))
         else:
             processed = '<br>'.join(
-                process_text(line.strip())
+                process_furigana(line.strip())
                 for line in lines
                 if line.strip()
             )
@@ -516,7 +317,7 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 
 
 def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: dict,
-                        entry_lookup: dict = None, relative_path: str = '../../') -> str:
+                        relative_path: str = '../../') -> str:
     """Generate HTML content for a single entry page."""
     entry_id = entry['id']
     headword = entry['headword']
@@ -640,14 +441,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     # Notes
     notes = entry.get('notes', '')
     if notes:
-        # Process notes with cross-reference links if entry_lookup is provided
-        processed_notes = process_notes_text(
-            notes,
-            entry_lookup=entry_lookup,
-            current_headword=headword_plain,
-            current_reading=reading,
-            relative_path=relative_path
-        )
+        processed_notes = process_notes_text(notes)
         html_parts.append(f'''
             <div class="entry-notes">
                 <div class="notes-content">{processed_notes}</div>
@@ -2677,19 +2471,6 @@ main {
     text-decoration: underline;
 }
 
-/* Links to other entries within notes text */
-.notes-word-link {
-    color: #1e3a8a;
-    text-decoration: none !important;
-    -webkit-text-decoration: none !important;
-    border-bottom: none;
-}
-
-.notes-word-link:hover {
-    text-decoration: underline !important;
-    -webkit-text-decoration: underline !important;
-}
-
 .cross-ref.pending .cross-ref-pending {
     color: #999;
     font-style: italic;
@@ -3448,13 +3229,6 @@ def build_flat(project_root: Path) -> int:
             'headword': e.get('headword', '')
         })
 
-    # Build entry lookup table for cross-referencing words in notes
-    # Maps (stripped_headword, reading) -> HTML path
-    global ENTRY_LOOKUP, MISSING_WORDS_IN_NOTES
-    ENTRY_LOOKUP = build_entry_lookup(entries)
-    MISSING_WORDS_IN_NOTES = set()  # Clear for this build
-    print(f"  Built entry lookup with {len(ENTRY_LOOKUP)} entries")
-
     # Step 2: Create output directories (atomic build pattern)
     print("\n[2/6] Creating output directories...")
 
@@ -3544,7 +3318,7 @@ def build_flat(project_root: Path) -> int:
     print("\n[3/6] Generating entry pages...")
     for entry in entries:
         dir_range = get_directory_range(entry['id'])
-        entry_html = generate_entry_html(entry, entries_dict, readings_to_entries, ENTRY_LOOKUP)
+        entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
         # Create directory structure: entries/{range}/
         output_dir = entries_output_dir / dir_range
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -3552,8 +3326,6 @@ def build_flat(project_root: Path) -> int:
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(entry_html)
     print(f"  Generated {len(entries)} entry pages")
-    if MISSING_WORDS_IN_NOTES:
-        print(f"  Found {len(MISSING_WORDS_IN_NOTES)} unique words in notes without dictionary entries")
 
     # Count vocabulary tiers
     tier_counts = {'basic': 0, 'core': 0, 'general': 0, 'unassigned': 0}
