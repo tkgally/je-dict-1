@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-28
+**Last updated**: 2026-01-29
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,861
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,008 | Unassigned: 0 ✓
-- **Candidate words**: ~9,145 words tracked in `candidate_words.json`
+- **Total entries**: 8,891
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,038 | Unassigned: 0 ✓
+- **Candidate words**: ~9,115 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-29 (Vocabulary Expansion - 30 New Entries, Session 187)
+Added 30 new dictionary entries from candidate_words.json, covering media/technology abbreviations, soccer position terms, Japanese quantity expressions with {一|いち}, and medical/academic acronyms:
+
+- **Media/Broadcasting (4)**: FM (FM radio), AM (AM radio), TV (television), CG (computer graphics)
+- **Computing/Technology (4)**: FAQ (frequently asked questions), PDF (portable document format), URL (web address), EC (e-commerce)
+- **Soccer Positions (5)**: PK (penalty kick), GK (goalkeeper), FW (forward), DF (defender), MF (midfielder)
+- **Medical/Health (3)**: CPR (cardiopulmonary resuscitation), CT (CT scan), OTC (over-the-counter medicine)
+- **Social/Cultural (3)**: LGBT (sexual/gender minorities), SF (science fiction), EQ (emotional quotient)
+- **Emergency/Sports (2)**: SOS (distress signal), MVP (most valuable player)
+- **Japanese Quantity Expressions (9)**: {一晩|ひとばん} (one night), {一本|いっぽん} (one long object/ippon), {一枚|いちまい} (one flat object), {一歩|いっぽ} (one step), {一気|いっき} (in one go), {一泊|いっぱく} (one night stay), {一滴|いってき} (one drop), {一点|いってん} (one point), {一発|いっぱつ} (one shot)
+
+Notable entry features:
+- Complete soccer position vocabulary: GK/DF/MF/FW with Japanese soccer context (Jリーグ, NPB)
+- Japanese quantity compounds: {一本|いっぽん} (judo ippon scoring), {一気|いっき}{飲|の}み (chugging culture)
+- Medical terminology: OTC medicine classification ({第|だい}1/2/3{類|るい}), CPR with AED context
+- Multi-sense entries: {一本|いっぽん} (counter/judo/single-mindedness), {一発|いっぱつ} (shot/try/jackpot), SOS (distress/figurative)
+- Japanese travel vocabulary: {一泊|いっぱく}{二|に}{食|しょく} (accommodation with meals)
+
+Total entries: 8,861 → 8,891
+Remaining candidates: ~9,145 → ~9,115
 
 ### 2026-01-28 (Vocabulary Expansion - 30 New Entries, Session 186)
 Added 30 new dictionary entries from candidate_words.json, covering technology abbreviations, social media platforms, business loanwords, and general vocabulary:
