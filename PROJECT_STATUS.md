@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,891
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,038 | Unassigned: 0 ✓
-- **Candidate words**: ~9,115 words tracked in `candidate_words.json`
+- **Total entries**: 8,921
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,068 | Unassigned: 0 ✓
+- **Candidate words**: ~9,085 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-29 (Vocabulary Expansion - 30 New Entries, Session 188)
+Added 30 new dictionary entries from candidate_words.json, covering technology abbreviations, sports leagues, loanwords, and Japanese quantity expressions with {一|いち}:
+
+- **Technology/Computing (7)**: HP (homepage/website), SE (sound effect), IC (interchange/IC card), IH (induction heating), LCD (liquid crystal display), FPS (first-person shooter/frames per second), MMO (massively multiplayer online)
+- **Sports Leagues (2)**: NBA (National Basketball Association), MLB (Major League Baseball)
+- **Medical (1)**: ADHD (attention-deficit hyperactivity disorder)
+- **Business/Work (2)**: OJT (on-the-job training), スキルアップ (skill improvement)
+- **Common Loanwords (4)**: ショップ (shop), シーン (scene), タッチ (touch), キャラ (character)
+- **Japanese Quantity Expressions with {一|いち} (14)**: {一周|いっしゅう} (one lap/anniversary), {一同|いちどう} (all members), {一品|いっぴん} (one dish/fine article), {一員|いちいん} (a member), {一声|ひとこえ} (a word/call), {一個|いっこ} (one piece), {一台|いちだい} (one machine/vehicle), {一刻|いっこく} (a moment), {一回|いっかい} (once/first inning), {一位|いちい} (first place), {一件|いっけん} (one matter), {一対|いっつい} (a pair), {一億|いちおく} (100 million), {一匹|いっぴき} (one animal)
+
+Notable entry features:
+- Multi-sense technology terms: IC (interchange/IC card), FPS (game genre/frame rate)
+- Wasei-eigo vocabulary: スキルアップ (skill improvement - Japanese-made English)
+- Japanese sports culture: MLB with Japanese player context ({大谷|おおたに}{翔平|しょうへい}, イチロー)
+- Comprehensive {一|いち} quantity expressions: counters and number-based vocabulary
+- Modern gaming vocabulary: FPS, MMO (with Japanese gaming culture context)
+- Common loanwords with multiple senses: シーン (media scene/situation), タッチ (touch/style/involvement), キャラ (character/persona)
+
+Total entries: 8,891 → 8,921
+Remaining candidates: ~9,115 → ~9,085
 
 ### 2026-01-29 (Vocabulary Expansion - 30 New Entries, Session 187)
 Added 30 new dictionary entries from candidate_words.json, covering media/technology abbreviations, soccer position terms, Japanese quantity expressions with {一|いち}, and medical/academic acronyms:
