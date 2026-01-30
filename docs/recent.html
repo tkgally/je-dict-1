@@ -2050,6 +2050,40 @@
     
 <script>
 (function() {
+    'use strict';
+
+    var searchInput = document.getElementById('header-search-input');
+    var searchButton = document.getElementById('header-search-button');
+
+    if (!searchInput || !searchButton) return;
+
+    function detectQueryType(query) {
+        if (/[぀-ゟ゠-ヿ一-龯]/.test(query)) {
+            return 'japanese';
+        }
+        if (/^[a-z]+$/i.test(query)) {
+            return query.length <= 10 ? 'romaji' : 'english';
+        }
+        return 'english';
+    }
+
+    function performSearch() {
+        var query = searchInput.value.trim();
+        if (!query) return;
+
+        // Redirect to index.html with search parameter
+        var searchType = detectQueryType(query);
+        window.location.href = 'index.html?q=' + encodeURIComponent(query) + '&type=' + searchType;
+    }
+
+    searchButton.addEventListener('click', performSearch);
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') performSearch();
+    });
+})();
+</script>
+<script>
+(function() {
     var btn = document.getElementById('furigana-toggle');
     if (!btn) return;
 

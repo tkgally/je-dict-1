@@ -365,6 +365,49 @@ def generate_header_search_script(relative_path: str = '') -> str:
 </script>'''
 
 
+def generate_header_search_redirect_script() -> str:
+    """Generate a lightweight header search script that redirects to index.html.
+
+    This is for main pages (advanced, browse, recent, random, pending) that
+    don't need the full search functionality - they just redirect to index.html
+    with the query parameters.
+    """
+    return '''<script>
+(function() {
+    'use strict';
+
+    var searchInput = document.getElementById('header-search-input');
+    var searchButton = document.getElementById('header-search-button');
+
+    if (!searchInput || !searchButton) return;
+
+    function detectQueryType(query) {
+        if (/[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/.test(query)) {
+            return 'japanese';
+        }
+        if (/^[a-z]+$/i.test(query)) {
+            return query.length <= 10 ? 'romaji' : 'english';
+        }
+        return 'english';
+    }
+
+    function performSearch() {
+        var query = searchInput.value.trim();
+        if (!query) return;
+
+        // Redirect to index.html with search parameter
+        var searchType = detectQueryType(query);
+        window.location.href = 'index.html?q=' + encodeURIComponent(query) + '&type=' + searchType;
+    }
+
+    searchButton.addEventListener('click', performSearch);
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') performSearch();
+    });
+})();
+</script>'''
+
+
 def generate_html_head(title: str, relative_path: str = '', description: str = '') -> str:
     """Generate HTML head section."""
     desc = description or 'TKG Japanese-English Learner\'s Dictionary (TKGJE) - An explanatory dictionary for learners of Japanese'
@@ -1218,6 +1261,7 @@ def generate_advanced_page() -> str:
 <footer>
     <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
 </footer>
+{generate_header_search_redirect_script()}
 {generate_furigana_script()}
 {generate_examples_script()}
 </body>
@@ -1868,6 +1912,7 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
             <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
+    html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append('</body>')
@@ -1918,6 +1963,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
             <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
+    html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append('</body>')
@@ -1952,6 +1998,7 @@ def generate_random_page(entries: list) -> str:
             <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
+    html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     # Add shuffle script for random arrangement on page load
@@ -2019,6 +2066,7 @@ def generate_pending_page(candidates: list) -> str:
             <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
     ''')
+    html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append('</body>')
