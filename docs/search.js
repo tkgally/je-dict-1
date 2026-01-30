@@ -95,4 +95,46 @@
     searchInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') handleSearch();
     });
+
+    // Check for URL parameters (from header search)
+    function handleUrlParams() {
+        const params = new URLSearchParams(window.location.search);
+        const query = params.get('q');
+        const searchType = params.get('type') || 'auto';
+
+        if (query) {
+            // Set the search input value
+            searchInput.value = query;
+
+            // Set the radio button if specified
+            if (searchType && searchType !== 'auto') {
+                const radio = document.querySelector('input[name="search-type"][value="' + searchType + '"]');
+                if (radio) radio.checked = true;
+            }
+
+            // Perform the search
+            const results = performSearch(query, searchType);
+            displayResults(query, results);
+
+            // Clean up URL (remove query params)
+            if (window.history.replaceState) {
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        }
+    }
+
+    // Run URL param check after search index is loaded
+    if (window.SEARCH_INDEX) {
+        handleUrlParams();
+    } else {
+        // Wait for search index to load, then check params
+        var checkInterval = setInterval(function() {
+            if (window.SEARCH_INDEX) {
+                clearInterval(checkInterval);
+                handleUrlParams();
+            }
+        }, 50);
+        // Stop checking after 5 seconds
+        setTimeout(function() { clearInterval(checkInterval); }, 5000);
+    }
 })();
