@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-29
+**Last updated**: 2026-01-30
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 8,981
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,128 | Unassigned: 0 ✓
-- **Candidate words**: 302 words tracked in `candidate_words.json`
+- **Total entries**: 9,011
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,158 | Unassigned: 0 ✓
+- **Candidate words**: 272 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-30 (Vocabulary Expansion - 30 New Entries, Session 191)
+Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including psychology, medical terms, cooking, business, and workplace terminology:
+
+- **Psychology/Emotions (4)**: {挫折|ざせつ} (setback), {憔悴|しょうすい} (exhaustion), {激昂|げきこう} (rage), {堪|こら}える (to endure)
+- **Medical/Health (9)**: {麻痺|まひ} (paralysis), {硬直|こうちょく} (rigidity), {慢性|まんせい} (chronic), {急性|きゅうせい} (acute), {発症|はっしょう} (onset), {再発|さいはつ} (recurrence), {寛解|かんかい} (remission), {経過観察|けいかかんさつ} (follow-up), {服薬|ふくやく} (taking medicine)
+- **Business/Finance (6)**: {掲載|けいさい} (publication), {脱税|だつぜい} (tax evasion), {横領|おうりょう} (embezzlement), {督促|とくそく} (dunning), {延滞|えんたい} (arrears), {辞令|じれい} (appointment letter)
+- **Cooking/Food (4)**: {炙|あぶ}る (to roast), {漬|つ}け{込|こ}む (to marinate), {塩漬|しおづ}け (salting), {刷|す}り{込|こ}む (to imprint)
+- **Actions/Verbs (5)**: {粘|ねば}る (to persist), {蓄|たくわ}える (to accumulate), {差|さ}し{替|か}える (to replace), {立|た}ち{退|の}く (to vacate)
+- **Adjectives (2)**: {膨大|ぼうだい} (enormous), {逆襲|ぎゃくしゅう} (counterattack), {弾圧|だんあつ} (oppression)
+
+Notable entry features:
+- Multi-sense entries: {粘|ねば}る (persist/sticky), {塩漬|しおづ}け (salting/idle assets), {刷|す}り{込|こ}む (imprint/rub in), {硬直|こうちょく} (physical/figurative), {麻痺|まひ} (medical/figurative)
+- Medical vocabulary cluster: chronic/acute contrast, disease lifecycle terms
+- Business/legal vocabulary: financial crimes, workplace procedures
+- 6 new kanji added: 寛, 悴, 憔, 昂, 炙, 載
+
+Total entries: 8,981 → 9,011
+Remaining candidates: 302 → 272
+New kanji: 2,110 → 2,116
 
 ### 2026-01-30 (Candidate Collection - 100 New Category-Focused Candidates)
 Added 100 new candidate words focusing on specific vocabulary categories to reach 302 total candidates:
