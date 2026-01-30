@@ -39,18 +39,131 @@ def process_furigana(text: str) -> str:
 
 
 def generate_nav_header(relative_path: str = '../') -> str:
-    """Generate navigation header HTML."""
+    """Generate navigation header HTML with reduced nav links for kanji pages."""
+    # Header search box
+    header_search = f'''
+    <div class="header-search">
+        <input type="text" id="header-search-input" class="header-search-input" placeholder="Search..." autocomplete="off">
+        <button type="button" id="header-search-button" class="header-search-button" title="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+        </button>
+    </div>'''
+
     return f'''<header class="nav-header">
     <nav class="nav-links">
         <a href="{relative_path}index.html" class="nav-link">Home</a>
-        <a href="{relative_path}advanced.html" class="nav-link">Advanced</a>
-        <a href="{relative_path}browse.html" class="nav-link">Browse</a>
-        <a href="{relative_path}recent.html" class="nav-link">Recent</a>
         <a href="{relative_path}random.html" class="nav-link">Random</a>
-        <a href="{relative_path}pending.html" class="nav-link">Pending</a>
         <a href="{relative_path}about.html" class="nav-link">About</a>
     </nav>
+    <div class="toggle-buttons">
+        {header_search}
+        <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+            <span class="toggle-icon">例</span>
+            <span class="toggle-label">Examples</span>
+        </button>
+        <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+            <span class="toggle-icon">振</span>
+            <span class="toggle-label">Furigana</span>
+        </button>
+    </div>
 </header>'''
+
+
+def generate_furigana_script() -> str:
+    """Generate the furigana toggle JavaScript."""
+    return '''<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>'''
+
+
+def generate_examples_script() -> str:
+    """Generate the examples toggle JavaScript."""
+    return '''<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>'''
+
+
+def generate_header_search_script(relative_path: str = '../') -> str:
+    """Generate the header search JavaScript for kanji pages."""
+    return f'''<script src="{relative_path}search-index.js"></script>
+<script>
+(function() {{
+    'use strict';
+
+    var searchInput = document.getElementById('header-search-input');
+    var searchButton = document.getElementById('header-search-button');
+
+    if (!searchInput || !searchButton) return;
+
+    function detectQueryType(query) {{
+        if (/[\\u3040-\\u309f\\u30a0-\\u30ff\\u4e00-\\u9faf]/.test(query)) {{
+            return 'japanese';
+        }}
+        if (/^[a-z]+$/i.test(query)) {{
+            return query.length <= 10 ? 'romaji' : 'english';
+        }}
+        return 'english';
+    }}
+
+    function performSearch() {{
+        var query = searchInput.value.trim();
+        if (!query) return;
+
+        // Redirect to index.html with search parameter
+        var searchType = detectQueryType(query);
+        window.location.href = '{relative_path}index.html?q=' + encodeURIComponent(query) + '&type=' + searchType;
+    }}
+
+    searchButton.addEventListener('click', performSearch);
+    searchInput.addEventListener('keypress', function(e) {{
+        if (e.key === 'Enter') performSearch();
+    }});
+}})();
+</script>'''
 
 
 def romaji_to_katakana(romaji: str) -> str:
@@ -204,14 +317,17 @@ def generate_kanji_page(kanji_data: dict, relative_path: str = '../') -> str:
                 </a>
             </li>''')
 
-    html_parts.append('''
+    html_parts.append(f'''
         </ul>
     </section>
 </main>
 
 <footer>
-    <p><a href="../index.html">TKG Japanese-English Learner's Dictionary</a></p>
+    <p><a href="{relative_path}index.html">TKG Japanese-English Learner's Dictionary</a></p>
 </footer>
+{generate_header_search_script(relative_path)}
+{generate_furigana_script()}
+{generate_examples_script()}
 </body>
 </html>''')
 

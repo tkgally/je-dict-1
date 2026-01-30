@@ -212,25 +212,49 @@ def format_jst_datetime(iso_string: str) -> str:
 
 
 
-def generate_nav_header(relative_path: str = '') -> str:
-    """Generate navigation header HTML."""
+def generate_nav_header(relative_path: str = '', show_all_links: bool = True) -> str:
+    """Generate navigation header HTML.
+
+    Args:
+        relative_path: Path prefix to reach the root docs directory
+        show_all_links: If True, show all nav links. If False, show only Home, Random, About
+    """
     # Determine the base path to the flat root
     if relative_path:
         base = relative_path
     else:
         base = ''
 
-    return f'''<header class="nav-header">
-    <nav class="nav-links">
+    # Build navigation links based on show_all_links parameter
+    if show_all_links:
+        nav_links = f'''
         <a href="{base}index.html" class="nav-link">Home</a>
         <a href="{base}advanced.html" class="nav-link">Advanced</a>
         <a href="{base}browse.html" class="nav-link">Browse</a>
         <a href="{base}recent.html" class="nav-link">Recent</a>
         <a href="{base}random.html" class="nav-link">Random</a>
         <a href="{base}pending.html" class="nav-link">Pending</a>
-        <a href="{base}about.html" class="nav-link">About</a>
+        <a href="{base}about.html" class="nav-link">About</a>'''
+    else:
+        nav_links = f'''
+        <a href="{base}index.html" class="nav-link">Home</a>
+        <a href="{base}random.html" class="nav-link">Random</a>
+        <a href="{base}about.html" class="nav-link">About</a>'''
+
+    # Header search box (shown on all pages)
+    header_search = f'''
+    <div class="header-search">
+        <input type="text" id="header-search-input" class="header-search-input" placeholder="Search..." autocomplete="off">
+        <button type="button" id="header-search-button" class="header-search-button" title="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+        </button>
+    </div>'''
+
+    return f'''<header class="nav-header">
+    <nav class="nav-links">{nav_links}
     </nav>
     <div class="toggle-buttons">
+        {header_search}
         <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
             <span class="toggle-icon">例</span>
             <span class="toggle-label">Examples</span>
@@ -301,6 +325,46 @@ def generate_examples_script() -> str:
 </script>'''
 
 
+def generate_header_search_script(relative_path: str = '') -> str:
+    """Generate the header search JavaScript for entry/kanji pages."""
+    base = relative_path if relative_path else ''
+    return f'''<script src="{base}search-index.js"></script>
+<script>
+(function() {{
+    'use strict';
+
+    var searchInput = document.getElementById('header-search-input');
+    var searchButton = document.getElementById('header-search-button');
+
+    if (!searchInput || !searchButton) return;
+
+    function detectQueryType(query) {{
+        if (/[\\u3040-\\u309f\\u30a0-\\u30ff\\u4e00-\\u9faf]/.test(query)) {{
+            return 'japanese';
+        }}
+        if (/^[a-z]+$/i.test(query)) {{
+            return query.length <= 10 ? 'romaji' : 'english';
+        }}
+        return 'english';
+    }}
+
+    function performSearch() {{
+        var query = searchInput.value.trim();
+        if (!query) return;
+
+        // Redirect to index.html with search parameter
+        var searchType = detectQueryType(query);
+        window.location.href = '{base}index.html?q=' + encodeURIComponent(query) + '&type=' + searchType;
+    }}
+
+    searchButton.addEventListener('click', performSearch);
+    searchInput.addEventListener('keypress', function(e) {{
+        if (e.key === 'Enter') performSearch();
+    }});
+}})();
+</script>'''
+
+
 def generate_html_head(title: str, relative_path: str = '', description: str = '') -> str:
     """Generate HTML head section."""
     desc = description or 'TKG Japanese-English Learner\'s Dictionary (TKGJE) - An explanatory dictionary for learners of Japanese'
@@ -332,7 +396,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     html_parts = [
         generate_html_head(title, relative_path, description),
         '<body>',
-        generate_nav_header(relative_path),
+        generate_nav_header(relative_path, show_all_links=False),
         '<main class="entry-page">',
         '<article class="entry-display">',
     ]
@@ -570,6 +634,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         </footer>
     ''')
 
+    html_parts.append(generate_header_search_script(relative_path))
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append('</body>')
@@ -1258,6 +1323,48 @@ def generate_search_js() -> str:
     searchInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') handleSearch();
     });
+
+    // Check for URL parameters (from header search)
+    function handleUrlParams() {
+        const params = new URLSearchParams(window.location.search);
+        const query = params.get('q');
+        const searchType = params.get('type') || 'auto';
+
+        if (query) {
+            // Set the search input value
+            searchInput.value = query;
+
+            // Set the radio button if specified
+            if (searchType && searchType !== 'auto') {
+                const radio = document.querySelector('input[name="search-type"][value="' + searchType + '"]');
+                if (radio) radio.checked = true;
+            }
+
+            // Perform the search
+            const results = performSearch(query, searchType);
+            displayResults(query, results);
+
+            // Clean up URL (remove query params)
+            if (window.history.replaceState) {
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        }
+    }
+
+    // Run URL param check after search index is loaded
+    if (window.SEARCH_INDEX) {
+        handleUrlParams();
+    } else {
+        // Wait for search index to load, then check params
+        var checkInterval = setInterval(function() {
+            if (window.SEARCH_INDEX) {
+                clearInterval(checkInterval);
+                handleUrlParams();
+            }
+        }, 50);
+        // Stop checking after 5 seconds
+        setTimeout(function() { clearInterval(checkInterval); }, 5000);
+    }
 })();'''
 
 
@@ -2096,6 +2203,56 @@ body {
 
 .toggle-label {
     font-size: 0.8rem;
+}
+
+/* Header Search Box */
+.header-search {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.header-search-input {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    font-family: var(--font-jp);
+    border: 1px solid var(--color-border);
+    border-radius: 4px 0 0 4px;
+    width: 140px;
+    transition: border-color 0.2s, width 0.2s;
+}
+
+.header-search-input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    width: 180px;
+}
+
+.header-search-input::placeholder {
+    color: var(--color-text-secondary);
+    opacity: 0.7;
+}
+
+.header-search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 0.6rem;
+    background-color: var(--color-accent);
+    color: white;
+    border: 1px solid var(--color-accent);
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.header-search-button:hover {
+    background-color: var(--color-accent-hover);
+}
+
+.header-search-button svg {
+    width: 16px;
+    height: 16px;
 }
 
 /* Furigana Toggle Button (legacy support) */
@@ -3072,6 +3229,14 @@ footer a:hover {
 
     .toggle-label {
         display: none;
+    }
+
+    .header-search-input {
+        width: 100px;
+    }
+
+    .header-search-input:focus {
+        width: 120px;
     }
 
     .furigana-toggle-btn {
