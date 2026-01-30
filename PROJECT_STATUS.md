@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,011
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,158 | Unassigned: 0 ✓
-- **Candidate words**: 272 words tracked in `candidate_words.json`
+- **Total entries**: 9,041
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,188 | Unassigned: 0 ✓
+- **Candidate words**: 242 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-30 (Vocabulary Expansion - 30 New Entries, Session 192)
+Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including business/legal terms, satire/mockery, movement/travel, psychology, and medical vocabulary:
+
+- **Business/Workplace (2)**: {始末書|しまつしょ} (written apology), {談合|だんごう} (bid rigging)
+- **Satire/Mockery (4)**: {風刺|ふうし} (satire), {揶揄|やゆ} (ridicule), {嘲笑|ちょうしょう} (derision), {阿諛|あゆ} (flattery)
+- **Actions/Verbs (4)**: {媚|こ}びる (to flatter), {準|じゅん}ずる (to conform to), {則|のっと}る (to follow), {煮詰|につ}める (to boil down/finalize)
+- **Movement/Travel (4)**: {雑踏|ざっとう} (crowd), {迂回|うかい} (detour), {縦断|じゅうだん} (traversing), {蛇行|だこう} (meandering)
+- **Medical/Body (4)**: {徘徊|はいかい} (wandering), {咀嚼|そしゃく} (chewing), {嚥下|えんげ} (swallowing), {反芻|はんすう} (rumination)
+- **Communication (2)**: {風通|かぜとお}し (ventilation/communication), {共感|きょうかん} (empathy)
+- **Psychology/Emotions (5)**: {触発|しょくはつ} (inspiration), {顕在化|けんざいか} (becoming apparent), {波及|はきゅう} (ripple effect), {感傷|かんしょう} (sentimentality), {寂寥|せきりょう} (desolation)
+- **Appearance/Quality (3)**: {見栄|みば}え (visual appeal), {出来栄|できば}え (workmanship), {匙加減|さじかげん} (discretion)
+- **Compassion (2)**: {憫然|びんぜん} (pitiable), {惻隠|そくいん} (compassion)
+
+Notable entry features:
+- Multi-sense entries: {煮詰|につ}める (cooking/discussion), {風通|かぜとお}し (ventilation/communication), {咀嚼|そしゃく} (physical/mental), {迂回|うかい} (route/approach), {匙加減|さじかげん} (seasoning/discretion), {反芻|はんすう} (animal/mental)
+- Legal/business vocabulary: bid rigging, written apology documents
+- Medical terminology: swallowing, chewing, wandering (dementia context)
+- Literary vocabulary: satire, mockery, desolation, compassion
+- 15 new kanji added: 咀, 嚥, 嚼, 媚, 寥, 徊, 徘, 惻, 憫, 揄, 揶, 芻, 諛, 迂, 阿
+
+Total entries: 9,011 → 9,041
+Remaining candidates: 272 → 242
+New kanji: 2,116 → 2,131
 
 ### 2026-01-30 (Vocabulary Expansion - 30 New Entries, Session 191)
 Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including psychology, medical terms, cooking, business, and workplace terminology:
