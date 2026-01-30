@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 8,981
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,128 | Unassigned: 0 ✓
-- **Candidate words**: 202 words tracked in `candidate_words.json`
+- **Candidate words**: 302 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,17 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-30 (Candidate Collection - 100 New Category-Focused Candidates)
+Added 100 new candidate words focusing on specific vocabulary categories to reach 302 total candidates:
+
+- **Transportation (15)**: 快速, 各停, 駐輪場, 桟橋, 連絡船, 運航, 高速道路, 有料道路, 料金所, 徐行, 追い越し, 運搬, 右折, 左折, 直進, 積み込み
+- **Sports/Recreation (20)**: 捕手, 外野, 内野, 主審, 副審, 決勝戦, 浮き輪, 陸上, 短距離, 長距離, 跳躍, 砲丸投げ, 円盤投げ, 棒高跳び, 走り高跳び, 走り幅跳び, 障害物競走, リレー, 球技, 格闘技, 競輪, 水族館, 観覧車, 温泉街
+- **Technology/Computing (16)**: 再起動, 初期化, 読み込み, 書き込み, 接続不良, 無線, 有線, 記録媒体, 半導体, 復元, ウイルス対策, 不正アクセス, 外部機器, 周辺機器, 入力装置, 出力装置
+- **Nature/Environment (19)**: 自然保護, 野生動物, 渡り鳥, 生息地, 原生林, 珊瑚礁, 分解者, 捕食者, 排気ガス, 大気汚染, 水質汚染, 土壌汚染, 生態学, 地下水, 森林伐採, 砂漠化, 水源, 氾濫, 土砂崩れ
+- **Academic/Learning (30)**: 入学試験, 卒業論文, 修士論文, 博士論文, 必修科目, 選択科目, 指導教員, 論文発表, 参考文献, 追試, 再試験, 成績表, 出欠, 補講, 読解力, 語彙力, 問題集, 塾講師, 家庭教師, 通信教育, 生涯学習, 独学, 留学先, 受験勉強, 補習
+
+Focus on practical vocabulary across transportation, sports/recreation, technology, nature/environment, and academic/learning domains for intermediate-to-advanced learners.
 
 ### 2026-01-30 (Candidate Collection Expansion - 102 New Candidates)
 Added 102 new candidate words across diverse categories to reach 202 total candidates:
