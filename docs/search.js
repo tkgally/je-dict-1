@@ -96,6 +96,38 @@
         if (e.key === 'Enter') handleSearch();
     });
 
+    // Also handle header search input if it exists on this page
+    const headerSearchInput = document.getElementById('header-search-input');
+    const headerSearchButton = document.getElementById('header-search-button');
+
+    if (headerSearchInput && headerSearchButton) {
+        function handleHeaderSearch() {
+            const query = headerSearchInput.value.trim();
+            if (!query) return;
+
+            // Copy query to main search input for consistency
+            searchInput.value = query;
+
+            // Use auto-detect for header search
+            const searchType = detectQueryType(query);
+            const results = performSearch(query, searchType);
+            displayResults(query, results);
+
+            // Clear header search input after search
+            headerSearchInput.value = '';
+
+            // Scroll to results
+            if (resultsSection) {
+                resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        headerSearchButton.addEventListener('click', handleHeaderSearch);
+        headerSearchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') handleHeaderSearch();
+        });
+    }
+
     // Check for URL parameters (from header search)
     function handleUrlParams() {
         const params = new URLSearchParams(window.location.search);
