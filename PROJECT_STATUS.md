@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 8,981
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,128 | Unassigned: 0 ✓
-- **Candidate words**: ~9,026 words tracked in `candidate_words.json`
+- **Candidate words**: 100 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-30 (New Candidate Collection - 100 Candidates)
+Rebuilt candidate_words.json from scratch with 100 high-quality candidates using diverse search strategies:
+
+- **Emotional/Psychological (18)**: 挫折, 憔悴, 激昂, 感傷, 寂寥, 憫然, 惻隠, 共感, 情緒, 気概, 意気込み, 物憂い, etc.
+- **Medical/Health (10)**: 麻痺, 硬直, 慢性, 急性, 発症, 再発, 寛解, 経過観察, 服薬, 嚥下
+- **Business/Finance (8)**: 掲載, 脱税, 横領, 督促, 延滞, 辞令, 始末書, 談合
+- **Movement/Travel (7)**: 雑踏, 迂回, 縦断, 蛇行, 徘徊, 立ち退く
+- **Cooking/Food (4)**: 炙る, 漬け込む, 塩漬け, 煮詰める
+- **Skills/Experience (6)**: 駆け出し, 玄人, 老練, 熟練, 円熟, 練達
+- **Insight/Perception (5)**: 洞察, 慧眼, 先見, 予兆, 前兆
+- **Quality/Character (12)**: 周到, 杜撰, 拙速, 稚拙, 陳腐, 斬新, 華奢, etc.
+- **Aesthetic/Cultural (8)**: 幽玄, 風情, 雅, 趣, 興趣, 静寂, etc.
+- **Verbs/Actions (8)**: 粘る, 堪える, 蓄える, 刷り込む, 差し替える, 媚びる, 咀嚼, 触発
+- **Other (14)**: 膨大, 弾圧, 逆襲, 阿諛, 準ずる, 則る, 波及, 風刺, 揶揄, 嘲笑, etc.
+
+Candidate categories emphasize general tier vocabulary appropriate for intermediate-to-advanced learners.
 
 ### 2026-01-29 (Vocabulary Expansion - 30 New Entries, Session 190)
 Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including abbreviations, technology terms, transportation, loanwords, and cultural vocabulary:
