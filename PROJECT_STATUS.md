@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 8,981
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,128 | Unassigned: 0 ✓
-- **Candidate words**: 100 words tracked in `candidate_words.json`
+- **Candidate words**: 202 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,22 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-30 (Candidate Collection Expansion - 102 New Candidates)
+Added 102 new candidate words across diverse categories to reach 202 total candidates:
+
+- **Social/Interpersonal (15)**: 親睦, 軋轢, 融和, 歩み寄り, 詰め寄る, 問い詰める, 折り合い, 譲歩, 世間体, etc.
+- **Character/Personality (12)**: 慎む, 自重, 控え目, 厚かましい, 厚顔, 物静か, 快活, 溌剌, 愚直, 実直, etc.
+- **Demeanor/Composure (8)**: 沈着, 悠然, 泰然, 毅然, 凛々しい, 威風, 風格, 佇まい
+- **Psychology/Emotions (10)**: 抑圧, 発散, 困惑, 気後れ, 物怖じ, 臆する, 辟易, 悶える, 身悶える, etc.
+- **Physical/Movement (6)**: 身構える, 食らいつく, 抗う, 屈する, 軽快, 機敏, 鈍重, 緩慢, 俊敏
+- **Health/Body (5)**: 矍鑠, 壮健, 虚弱, 頑健, 屈強
+- **Appearance/Quality (10)**: 品格, 華麗, 絢爛, 質素, 簡素, 精緻, 粗雑, 垢抜け, 野暮ったい, 無粋, 朴訥
+- **Business/Finance (6)**: 露呈, 漏洩, 偽装, 装う, 見せかけ, 出費, 散財, 損益, 倹約, 浪費
+- **Food/Cooking (4)**: まかない, 仕込み, 淹れ立て, まろやか
+- **Other (26)**: 薄暗い, 陰る, 凍える, 鳴り響く, 反響, 払暁, 醸成, 飽和, 収束, 沈殿, 追及, 体裁, 面目, 沽券, 威嚇, 威圧, 虚勢, 雑多, 雑然, 整然, 散漫, 専念, 心酔, 盲信, 迷信, etc.
+
+Focus on intermediate-to-advanced vocabulary for general tier, emphasizing character traits, social dynamics, and abstract concepts.
 
 ### 2026-01-30 (New Candidate Collection - 100 Candidates)
 Rebuilt candidate_words.json from scratch with 100 high-quality candidates using diverse search strategies:
