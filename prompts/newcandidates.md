@@ -1,11 +1,12 @@
 # New Candidate Words Prompt
 
-Add 100 new candidates to candidate_words.json using the find-candidates skill.
+Add new candidates to candidate_words.json using the find-candidates skill.
 
 ## Quick Context
 
-- Check current state: `head -10 candidate_words.json` (shows total_candidates and next_id)
-- Check entry count: `head -5 entries_index.json` (shows total_entries in metadata)
+- The dictionary currently has ~9,000 entries
+- Check candidate count: `head -10 candidate_words.json` (shows total_candidates)
+- The candidate list may be empty or small as we are rebuilding it from scratch
 
 ## Workflow
 
@@ -40,31 +41,33 @@ The automatic check catches exact matches. You should still watch for:
 
 ## Selection Approach
 
-### Priority 1: Basic and Core Vocabulary Completeness
+### Quality Over Quantity
 
-Before adding specialized vocabulary, ensure the basic and core tiers are complete:
-- **Basic tier (600-800 words):** Fundamental vocabulary every learner needs
-- **Core tier (1600-2000 words):** Vocabulary expected of any adult using Japanese
+The basic and core vocabulary tiers are complete. Focus on finding high-quality candidates for the general tier:
+- **Individually vet each candidate** - avoid bulk extraction approaches
+- **Use verified sources** - frequency lists, JLPT vocabulary, textbook lists
+- **When in doubt, skip** - better to miss a word than add an inappropriate one
 
-Check for missing function words, demonstratives, numbers, counters, time expressions, body parts, family terms, colors, directions, core verbs, essential adjectives, and common adverbs.
-
-### Priority 2: Balanced Coverage
+### Balanced Coverage
 
 Use a variety of strategies from the find-candidates skill:
+- External vocabulary list cross-reference (JLPT, textbooks, frequency dictionaries)
+- Practical situation vocabulary
+- Media and cultural vocabulary
 - Corpus-driven gap analysis (frequency-based)
 - Collocational mining (words that go with existing entries)
 - Register/formality pairs
 - Semantic domain exploration (choose domains creatively)
 - Productive pattern completion
-- Cross-reference expansion
 - Written vs spoken balance
 
 ### Key Principles
 
+- **Quality over quantity:** Each candidate should be carefully evaluated
 - **Breadth over depth:** Cover many domains rather than going deep in a few
 - **Creative variety:** Each session should explore different areas
-- **Learner utility:** Focus on words intermediate learners would benefit from
-- **Stable vocabulary:** Avoid ephemeral slang or highly specialized jargon
+- **Learner utility:** Focus on words intermediate-to-advanced learners would benefit from
+- **Stable vocabulary:** Avoid ephemeral slang, archaic terms, or highly specialized jargon
 
 ## Selection Criteria
 
@@ -75,10 +78,11 @@ Use a variety of strategies from the find-candidates skill:
 - Extremely specialized technical jargon
 
 **Should BE:**
-- Words appropriate for the three-tier vocabulary system (basic, core, or general tier)
+- Words appropriate for the general tier (intermediate-to-advanced vocabulary)
 - Semantically related to existing entries
 - Modern terms with widespread, stable usage
 - Useful informal expressions learners need to understand
+- Vocabulary that fills genuine gaps in the dictionary's coverage
 
 ## Output Format
 
