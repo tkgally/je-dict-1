@@ -121,17 +121,26 @@ Well-known informal or colloquial terms that:
 
 ## Search Strategies
 
-The dictionary has ~6,000 entries plus ~700 candidates. Use a variety of strategies to find remaining gaps while ensuring comprehensive coverage.
+The dictionary has ~9,000 entries as of late January 2026. This is a mature dictionary with strong coverage of basic and intermediate vocabulary. Use a variety of strategies to find remaining gaps while maintaining high quality standards.
 
 ### Vocabulary Tier Status
 
 **The basic and core tiers are complete (as of January 2026).**
 
-- Basic: 795 entries (target met)
-- Core: 1,998 entries (target met)
-- General: 4,566+ entries (all new vocabulary goes here)
+- Basic: ~800 entries (target met)
+- Core: ~2,000 entries (target met)
+- General: ~6,200 entries (all new vocabulary goes here)
 
 **All new candidate words will be assigned to the general tier.** Focus on finding useful vocabulary for advanced learners, specialized topics, and vocabulary that complements existing entries.
+
+### Quality Over Quantity
+
+**IMPORTANT:** An earlier attempt to harvest candidate words by extracting vocabulary from entry notes produced thousands of spurious or inappropriate candidates. Learn from this:
+
+- **Avoid bulk extraction approaches** that generate candidates without careful vetting
+- **Each candidate should be individually evaluated** for appropriateness before adding
+- **Prefer verified vocabulary sources** (frequency lists, textbook vocabulary, JLPT lists) over automated extraction
+- **When in doubt, don't add** - it's better to have fewer high-quality candidates than many questionable ones
 
 ### Strategy: Corpus-Driven Gap Analysis
 
@@ -211,6 +220,40 @@ Ensure the dictionary covers both written and spoken Japanese.
 
 **Why effective:** Dictionaries often skew toward one medium; this ensures balanced coverage.
 
+### Strategy: External Vocabulary List Cross-Reference
+
+Compare against established vocabulary lists to find gaps.
+
+**Method:**
+1. Reference JLPT vocabulary lists (especially N2 and N1 levels for advanced vocabulary)
+2. Check textbook vocabulary from major Japanese language textbook series
+3. Compare against published frequency dictionaries
+4. Look at vocabulary from Japanese language proficiency resources
+
+**Why effective:** These lists represent expert-curated vocabulary that learners demonstrably need; gaps here are high-priority.
+
+### Strategy: Practical Situation Vocabulary
+
+Think about vocabulary needed for specific real-world situations.
+
+**Method:**
+1. Consider common situations: shopping, dining, travel, medical visits, banking, workplace, etc.
+2. Think about what vocabulary a learner would need in each situation
+3. Check if essential words for these situations are in the dictionary
+
+**Why effective:** Ensures the dictionary is practically useful, not just academically complete.
+
+### Strategy: Media and Cultural Vocabulary
+
+Identify vocabulary commonly encountered in Japanese media and culture.
+
+**Method:**
+1. Consider words frequently used in news, TV, films, manga, and online content
+2. Look for cultural terms that learners need to understand Japanese society
+3. Include vocabulary for discussing current events and contemporary life
+
+**Why effective:** Helps learners engage with authentic Japanese content.
+
 ---
 
 ## Creative Exploration
@@ -264,12 +307,15 @@ After adding candidates, report:
 
 ## Quality Reminders
 
+- **Quality over quantity:** Each candidate should be individually vetted; avoid bulk extraction approaches
 - **Duplicates are blocked automatically:** The `manage_candidates.py add` command will refuse to add duplicates
 - **Watch for near-duplicates:** The automatic check catches exact matches; manually verify for verb forms, kanji variants, etc.
 - **Breadth over depth:** Aim for broad coverage across many domains rather than deep coverage of a few
 - **General tier only:** All new entries are assigned to the general tier (basic and core are complete)
-- **Learner utility:** Prioritize words an intermediate learner would benefit from knowing
+- **Learner utility:** Prioritize words an intermediate-to-advanced learner would benefit from knowing
 - **No proper nouns:** Save those for systematic addition later
 - **Stable vocabulary:** Avoid ephemeral slang or highly specialized jargon
+- **No archaic or dialect terms:** Exclude vocabulary that most modern Japanese speakers would not know or use
 - **Creative variety:** Each session should explore different areas; avoid repeatedly searching the same categories
 - **Use batch checks:** When planning which words to add: `python3 build/check_duplicate.py --batch "word1:reading1" ...`
+- **When in doubt, skip:** It's better to pass on a questionable word than to add inappropriate candidates
