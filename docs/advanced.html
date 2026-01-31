@@ -11,7 +11,7 @@
     <style>
         /* Tag Search UI Styles */
         .tag-search-section {
-            margin-top: 3rem;
+            margin-top: 2rem;
             padding-top: 2rem;
             border-top: 2px solid #ddd;
         }
@@ -41,20 +41,43 @@
             border-radius: 8px;
             margin-bottom: 1.5rem;
         }
+        .filter-actions {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .filter-actions button {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .filter-actions button:hover { background: #f0f0f0; }
+        .filter-actions button.primary {
+            background: #4a90d9;
+            color: white;
+            border-color: #4a90d9;
+        }
+        .filter-actions button.primary:hover { background: #3a7bc8; }
         .filter-group { margin-bottom: 1.5rem; }
         .filter-group:last-child { margin-bottom: 0; }
         .filter-group h3 {
             margin: 0 0 0.5rem 0;
             font-size: 1rem;
             color: #333;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
         }
-        .filter-group h3 .count {
+        .filter-subgroup {
+            margin-bottom: 0.75rem;
+        }
+        .filter-subgroup-label {
             font-size: 0.8rem;
             color: #666;
-            font-weight: normal;
+            margin-bottom: 0.25rem;
+            font-weight: 500;
         }
         .filter-options {
             display: flex;
@@ -77,33 +100,6 @@
             background: #e3f2fd;
             border-color: #4a90d9;
         }
-        .filter-note {
-            font-size: 0.8rem;
-            color: #e67e22;
-            margin-top: 0.25rem;
-            font-style: italic;
-        }
-        .filter-actions {
-            display: flex;
-            gap: 0.5rem;
-            margin-top: 1rem;
-            flex-wrap: wrap;
-        }
-        .filter-actions button {
-            padding: 0.5rem 1rem;
-            border: 1px solid #ccc;
-            background: white;
-            cursor: pointer;
-            border-radius: 4px;
-            font-size: 0.9rem;
-        }
-        .filter-actions button:hover { background: #f0f0f0; }
-        .filter-actions button.primary {
-            background: #4a90d9;
-            color: white;
-            border-color: #4a90d9;
-        }
-        .filter-actions button.primary:hover { background: #3a7bc8; }
         .tag-results { margin-top: 1.5rem; }
         .tag-results-header {
             display: flex;
@@ -177,54 +173,6 @@
             margin-left: 0.5rem;
         }
         .stats-bar-fill { height: 100%; background: #4a90d9; }
-        .missing-panel { display: none; }
-        .missing-panel.active { display: block; }
-        .missing-selector {
-            background: #f9f9f9;
-            padding: 1rem;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }
-        .missing-selector h3 { margin: 0 0 0.5rem 0; font-size: 1rem; }
-        .missing-options {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-        .missing-options label {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.25rem;
-            padding: 0.25rem 0.5rem;
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.85rem;
-        }
-        .combined-panel { display: none; }
-        .combined-panel.active { display: block; }
-        .query-builder {
-            background: #f9f9f9;
-            padding: 1rem;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }
-        .query-builder textarea {
-            width: 100%;
-            min-height: 100px;
-            font-family: monospace;
-            padding: 0.5rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            margin-bottom: 0.5rem;
-        }
-        .query-examples { font-size: 0.85rem; color: #666; }
-        .query-examples code {
-            background: #e9e9e9;
-            padding: 0.1rem 0.3rem;
-            border-radius: 3px;
-        }
         .pagination {
             display: flex;
             justify-content: center;
@@ -287,13 +235,11 @@
 
     <!-- Tag-Based Search Section -->
     <section class="tag-search-section">
-        <h2>Tag-Based Search</h2>
+        <h2>Filter by Tags</h2>
 
         <div class="tag-search-modes">
-            <button class="mode-btn active" data-mode="filter">Filter by Tags</button>
-            <button class="mode-btn" data-mode="stats">Tag Statistics</button>
-            <button class="mode-btn" data-mode="missing">Find Missing Tags</button>
-            <button class="mode-btn" data-mode="combined">Combined Query</button>
+            <button class="mode-btn active" data-mode="filter">Filter</button>
+            <button class="mode-btn" data-mode="stats">Statistics</button>
         </div>
 
         <!-- Filter Mode Panel -->
@@ -301,13 +247,13 @@
             <div class="filter-actions">
                 <button type="button" id="apply-filters" class="primary">Apply Filters</button>
                 <button type="button" id="clear-filters">Clear All</button>
-                <label style="display: inline-flex; align-items: center; gap: 0.25rem;">
+                <label style="display: inline-flex; align-items: center; gap: 0.25rem; margin-left: 0.5rem;">
                     <input type="checkbox" id="filter-and-mode"> AND mode (require all)
                 </label>
             </div>
 
             <div class="filter-group">
-                <h3>Vocabulary Tier <span class="count" id="tier-count"></span></h3>
+                <h3>Vocabulary Tier</h3>
                 <div class="filter-options" id="tier-filters">
                     <label><input type="checkbox" name="tier" value="basic"> basic</label>
                     <label><input type="checkbox" name="tier" value="core"> core</label>
@@ -316,47 +262,49 @@
             </div>
 
             <div class="filter-group">
-                <h3>Part of Speech <span class="count" id="pos-count"></span></h3>
-                <div class="filter-options" id="pos-filters">
-                    <label><input type="checkbox" name="pos" value="noun"> noun</label>
-                    <label><input type="checkbox" name="pos" value="verb-godan"> verb-godan</label>
-                    <label><input type="checkbox" name="pos" value="verb-ichidan"> verb-ichidan</label>
-                    <label><input type="checkbox" name="pos" value="verb-suru"> verb-suru</label>
-                    <label><input type="checkbox" name="pos" value="verb-kuru"> verb-kuru</label>
-                    <label><input type="checkbox" name="pos" value="verb-irregular"> verb-irregular</label>
-                    <label><input type="checkbox" name="pos" value="adjective-i"> adjective-i</label>
-                    <label><input type="checkbox" name="pos" value="adjective-na"> adjective-na</label>
-                    <label><input type="checkbox" name="pos" value="adjective-no"> adjective-no</label>
-                    <label><input type="checkbox" name="pos" value="adjective-taru"> adjective-taru</label>
-                    <label><input type="checkbox" name="pos" value="adverb"> adverb</label>
-                    <label><input type="checkbox" name="pos" value="particle"> particle</label>
-                    <label><input type="checkbox" name="pos" value="conjunction"> conjunction</label>
-                    <label><input type="checkbox" name="pos" value="interjection"> interjection</label>
-                    <label><input type="checkbox" name="pos" value="pronoun"> pronoun</label>
-                    <label><input type="checkbox" name="pos" value="counter"> counter</label>
-                    <label><input type="checkbox" name="pos" value="prefix"> prefix</label>
-                    <label><input type="checkbox" name="pos" value="suffix"> suffix</label>
-                    <label><input type="checkbox" name="pos" value="expression"> expression</label>
-                    <label><input type="checkbox" name="pos" value="pre-noun-adjectival"> pre-noun-adjectival</label>
-                    <label><input type="checkbox" name="pos" value="number"> number</label>
-                    <label><input type="checkbox" name="pos" value="auxiliary"> auxiliary</label>
-                    <label><input type="checkbox" name="pos" value="onomatopoeia"> onomatopoeia</label>
+                <h3>Part of Speech</h3>
+                <div class="filter-subgroup">
+                    <div class="filter-subgroup-label">Verbs</div>
+                    <div class="filter-options">
+                        <label><input type="checkbox" name="pos" value="verb-godan"> godan</label>
+                        <label><input type="checkbox" name="pos" value="verb-ichidan"> ichidan</label>
+                        <label><input type="checkbox" name="pos" value="verb-suru"> suru</label>
+                        <label><input type="checkbox" name="pos" value="verb-kuru"> kuru</label>
+                        <label><input type="checkbox" name="pos" value="verb-irregular"> irregular</label>
+                    </div>
+                </div>
+                <div class="filter-subgroup">
+                    <div class="filter-subgroup-label">Adjectives</div>
+                    <div class="filter-options">
+                        <label><input type="checkbox" name="pos" value="adjective-i"> i-adjective</label>
+                        <label><input type="checkbox" name="pos" value="adjective-na"> na-adjective</label>
+                        <label><input type="checkbox" name="pos" value="adjective-no"> no-adjective</label>
+                        <label><input type="checkbox" name="pos" value="adjective-taru"> taru-adjective</label>
+                    </div>
+                </div>
+                <div class="filter-subgroup">
+                    <div class="filter-subgroup-label">Other</div>
+                    <div class="filter-options" id="pos-filters">
+                        <label><input type="checkbox" name="pos" value="noun"> noun</label>
+                        <label><input type="checkbox" name="pos" value="adverb"> adverb</label>
+                        <label><input type="checkbox" name="pos" value="pronoun"> pronoun</label>
+                        <label><input type="checkbox" name="pos" value="counter"> counter</label>
+                        <label><input type="checkbox" name="pos" value="conjunction"> conjunction</label>
+                        <label><input type="checkbox" name="pos" value="interjection"> interjection</label>
+                        <label><input type="checkbox" name="pos" value="particle"> particle</label>
+                        <label><input type="checkbox" name="pos" value="prefix"> prefix</label>
+                        <label><input type="checkbox" name="pos" value="suffix"> suffix</label>
+                        <label><input type="checkbox" name="pos" value="expression"> expression</label>
+                        <label><input type="checkbox" name="pos" value="pre-noun-adjectival"> pre-noun-adjectival</label>
+                        <label><input type="checkbox" name="pos" value="number"> number</label>
+                        <label><input type="checkbox" name="pos" value="auxiliary"> auxiliary</label>
+                        <label><input type="checkbox" name="pos" value="onomatopoeia"> onomatopoeia</label>
+                    </div>
                 </div>
             </div>
 
             <div class="filter-group">
-                <h3>Transitivity (Verbs) <span class="count" id="transitivity-count"></span></h3>
-                <div class="filter-options" id="transitivity-filters">
-                    <label><input type="checkbox" name="transitivity" value="transitive"> transitive</label>
-                    <label><input type="checkbox" name="transitivity" value="intransitive"> intransitive</label>
-                    <label><input type="checkbox" name="transitivity" value="both"> both</label>
-                    <label><input type="checkbox" name="transitivity" value="_missing"> (missing)</label>
-                </div>
-                <div class="filter-note">⚠️ Transitivity tagging is incomplete (~8% coverage). Many verbs still need tagging.</div>
-            </div>
-
-            <div class="filter-group">
-                <h3>Formality <span class="count" id="formality-count"></span></h3>
+                <h3>Formality</h3>
                 <div class="filter-options" id="formality-filters">
                     <label><input type="checkbox" name="formality" value="formal"> formal</label>
                     <label><input type="checkbox" name="formality" value="neutral"> neutral</label>
@@ -364,139 +312,11 @@
                     <label><input type="checkbox" name="formality" value="vulgar"> vulgar</label>
                 </div>
             </div>
-
-            <div class="filter-group">
-                <h3>Politeness <span class="count" id="politeness-count"></span></h3>
-                <div class="filter-options" id="politeness-filters">
-                    <label><input type="checkbox" name="politeness" value="honorific"> honorific</label>
-                    <label><input type="checkbox" name="politeness" value="humble"> humble</label>
-                    <label><input type="checkbox" name="politeness" value="polite"> polite</label>
-                    <label><input type="checkbox" name="politeness" value="plain"> plain</label>
-                </div>
-            </div>
-
-            <div class="filter-group">
-                <h3>Semantic Categories <span class="count" id="semantic-count"></span></h3>
-                <div class="filter-options" id="semantic-filters">
-                    <label><input type="checkbox" name="semantic" value="time-day-of-week"> time-day-of-week</label>
-                    <label><input type="checkbox" name="semantic" value="time-month"> time-month</label>
-                    <label><input type="checkbox" name="semantic" value="time-season"> time-season</label>
-                    <label><input type="checkbox" name="semantic" value="time-period"> time-period</label>
-                    <label><input type="checkbox" name="semantic" value="time-general"> time-general</label>
-                    <label><input type="checkbox" name="semantic" value="animal-mammal"> animal-mammal</label>
-                    <label><input type="checkbox" name="semantic" value="animal-bird"> animal-bird</label>
-                    <label><input type="checkbox" name="semantic" value="animal-fish"> animal-fish</label>
-                    <label><input type="checkbox" name="semantic" value="animal-insect"> animal-insect</label>
-                    <label><input type="checkbox" name="semantic" value="animal-general"> animal-general</label>
-                    <label><input type="checkbox" name="semantic" value="plant-tree"> plant-tree</label>
-                    <label><input type="checkbox" name="semantic" value="plant-flower"> plant-flower</label>
-                    <label><input type="checkbox" name="semantic" value="plant-general"> plant-general</label>
-                    <label><input type="checkbox" name="semantic" value="weather"> weather</label>
-                    <label><input type="checkbox" name="semantic" value="geography"> geography</label>
-                    <label><input type="checkbox" name="semantic" value="body-part"> body-part</label>
-                    <label><input type="checkbox" name="semantic" value="body-internal"> body-internal</label>
-                    <label><input type="checkbox" name="semantic" value="family"> family</label>
-                    <label><input type="checkbox" name="semantic" value="person"> person</label>
-                    <label><input type="checkbox" name="semantic" value="occupation"> occupation</label>
-                    <label><input type="checkbox" name="semantic" value="emotion"> emotion</label>
-                    <label><input type="checkbox" name="semantic" value="color"> color</label>
-                    <label><input type="checkbox" name="semantic" value="number"> number</label>
-                    <label><input type="checkbox" name="semantic" value="direction"> direction</label>
-                    <label><input type="checkbox" name="semantic" value="size"> size</label>
-                    <label><input type="checkbox" name="semantic" value="quantity"> quantity</label>
-                    <label><input type="checkbox" name="semantic" value="food"> food</label>
-                    <label><input type="checkbox" name="semantic" value="clothing"> clothing</label>
-                    <label><input type="checkbox" name="semantic" value="building"> building</label>
-                    <label><input type="checkbox" name="semantic" value="transportation"> transportation</label>
-                    <label><input type="checkbox" name="semantic" value="tool"> tool</label>
-                    <label><input type="checkbox" name="semantic" value="furniture"> furniture</label>
-                    <label><input type="checkbox" name="semantic" value="electronics"> electronics</label>
-                    <label><input type="checkbox" name="semantic" value="movement"> movement</label>
-                    <label><input type="checkbox" name="semantic" value="communication"> communication</label>
-                    <label><input type="checkbox" name="semantic" value="cognition"> cognition</label>
-                    <label><input type="checkbox" name="semantic" value="existence"> existence</label>
-                    <label><input type="checkbox" name="semantic" value="creation"> creation</label>
-                    <label><input type="checkbox" name="semantic" value="consumption"> consumption</label>
-                    <label><input type="checkbox" name="semantic" value="greeting"> greeting</label>
-                    <label><input type="checkbox" name="semantic" value="education"> education</label>
-                    <label><input type="checkbox" name="semantic" value="work"> work</label>
-                    <label><input type="checkbox" name="semantic" value="leisure"> leisure</label>
-                    <label><input type="checkbox" name="semantic" value="proverb"> proverb</label>
-                    <label><input type="checkbox" name="semantic" value="idiom"> idiom</label>
-                    <label><input type="checkbox" name="semantic" value="general"> general</label>
-                    <label><input type="checkbox" name="semantic" value="action"> action</label>
-                    <label><input type="checkbox" name="semantic" value="descriptive"> descriptive</label>
-                    <label><input type="checkbox" name="semantic" value="grammatical"> grammatical</label>
-                    <label><input type="checkbox" name="semantic" value="expression"> expression</label>
-                    <label><input type="checkbox" name="semantic" value="onomatopoeia"> onomatopoeia</label>
-                </div>
-            </div>
-
-            <div class="filter-group">
-                <h3>Style <span class="count" id="style-count"></span></h3>
-                <div class="filter-options" id="style-filters">
-                    <label><input type="checkbox" name="style" value="written"> written</label>
-                    <label><input type="checkbox" name="style" value="spoken"> spoken</label>
-                    <label><input type="checkbox" name="style" value="literary"> literary</label>
-                    <label><input type="checkbox" name="style" value="archaic"> archaic</label>
-                    <label><input type="checkbox" name="style" value="slang"> slang</label>
-                </div>
-            </div>
-
-            <div class="filter-group">
-                <h3>Domain <span class="count" id="domain-count"></span></h3>
-                <div class="filter-options" id="domain-filters">
-                    <label><input type="checkbox" name="domain" value="business"> business</label>
-                    <label><input type="checkbox" name="domain" value="academic"> academic</label>
-                    <label><input type="checkbox" name="domain" value="technical"> technical</label>
-                    <label><input type="checkbox" name="domain" value="legal"> legal</label>
-                    <label><input type="checkbox" name="domain" value="medical"> medical</label>
-                    <label><input type="checkbox" name="domain" value="colloquial"> colloquial</label>
-                    <label><input type="checkbox" name="domain" value="internet"> internet</label>
-                </div>
-            </div>
         </div>
 
         <!-- Stats Panel -->
         <div id="stats-panel" class="stats-panel">
             <div class="stats-grid" id="stats-grid"></div>
-        </div>
-
-        <!-- Missing Tags Panel -->
-        <div id="missing-panel" class="missing-panel">
-            <div class="missing-selector">
-                <h3>Find Entries Missing:</h3>
-                <div class="missing-options">
-                    <label><input type="checkbox" name="missing" value="pos"> POS tags</label>
-                    <label><input type="checkbox" name="missing" value="formality"> Formality</label>
-                    <label><input type="checkbox" name="missing" value="politeness"> Politeness</label>
-                    <label><input type="checkbox" name="missing" value="semantic"> Semantic tags</label>
-                    <label><input type="checkbox" name="missing" value="transitivity"> Transitivity (verbs only)</label>
-                </div>
-                <div class="filter-actions">
-                    <button type="button" id="find-missing" class="primary">Find Missing</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Combined Query Panel -->
-        <div id="combined-panel" class="combined-panel">
-            <div class="query-builder">
-                <h3>Query Builder</h3>
-                <textarea id="query-input" placeholder="Enter query (e.g., pos:verb-ichidan AND semantic:food)"></textarea>
-                <div class="query-examples">
-                    <strong>Examples:</strong><br>
-                    <code>pos:noun AND semantic:food</code> - Food-related nouns<br>
-                    <code>pos:verb-ichidan OR pos:verb-godan</code> - All main verbs<br>
-                    <code>tier:basic AND pos:verb-suru</code> - Basic tier suru verbs<br>
-                    <code>formality:formal AND politeness:humble</code> - Humble formal words<br>
-                    <code>NOT transitivity:*</code> - Verbs without transitivity tag<br>
-                    <code>semantic:emotion OR semantic:cognition</code> - Emotion/cognition words
-                </div>
-                <div class="filter-actions">
-                    <button type="button" id="run-query" class="primary">Run Query</button>
-                </div>
-            </div>
         </div>
 
         <!-- Results Area -->
