@@ -165,7 +165,12 @@
         const headers = ['id', 'headword', 'reading', 'gloss', 'tier', 'pos', 'formality'];
         const rows = currentResults.map(entry => {
             const tags = entry.tags || {};
-            return [entry.id, entry.headword.replace(/<[^>]+>/g, ''), entry.reading, entry.gloss, entry.tier || '',
+            // Strip ruby annotations: remove <rt>reading</rt> and <rp>parentheses</rp>, then remaining tags
+            const headword = entry.headword
+                .replace(/<rt>[^<]*<\/rt>/g, '')
+                .replace(/<rp>[^<]*<\/rp>/g, '')
+                .replace(/<[^>]+>/g, '');
+            return [entry.id, headword, entry.reading, entry.gloss, entry.tier || '',
                 (tags.pos || []).join(';'), tags.formality || ''
             ].map(v => '"' + String(v).replace(/"/g, '""') + '"').join(',');
         });

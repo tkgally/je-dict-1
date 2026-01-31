@@ -100,7 +100,7 @@
             background: #e3f2fd;
             border-color: #4a90d9;
         }
-        .tag-results { margin-top: 1.5rem; }
+        .tag-results { margin-top: 1.5rem; padding: 0 1.5rem; }
         .tag-results-header {
             display: flex;
             justify-content: space-between;
@@ -140,7 +140,7 @@
         .tag-result-reading { color: #666; }
         .tag-result-gloss { color: #333; }
         .tag-result-tags { font-size: 0.75rem; color: #888; }
-        .stats-panel { display: none; }
+        .stats-panel { display: none; padding: 0 1.5rem; }
         .stats-panel.active { display: block; }
         .stats-grid {
             display: grid;
@@ -235,15 +235,12 @@
 
     <!-- Tag-Based Search Section -->
     <section class="tag-search-section">
-        <h2>Filter by Tags</h2>
-
-        <div class="tag-search-modes">
-            <button class="mode-btn active" data-mode="filter">Filter</button>
-            <button class="mode-btn" data-mode="stats">Statistics</button>
-        </div>
-
         <!-- Filter Mode Panel -->
         <div id="filter-panel" class="tag-filter-panel">
+            <div class="tag-search-modes">
+                <button class="mode-btn active" data-mode="filter">Filter</button>
+                <button class="mode-btn" data-mode="stats">Statistics</button>
+            </div>
             <div class="filter-actions">
                 <button type="button" id="apply-filters" class="primary">Apply Filters</button>
                 <button type="button" id="clear-filters">Clear All</button>
