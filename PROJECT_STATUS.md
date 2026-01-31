@@ -36,8 +36,8 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,071
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,218 | Unassigned: 0 ✓
+- **Total entries**: 9,101
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,248 | Unassigned: 0 ✓
 - **Candidate words**: 288 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
