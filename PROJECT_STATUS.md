@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-30
+**Last updated**: 2026-01-31
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 9,041
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,188 | Unassigned: 0 ✓
-- **Candidate words**: 242 words tracked in `candidate_words.json`
+- **Candidate words**: 318 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-31 (New Candidates - 76 Words Added)
+Added 76 new candidate words to candidate_words.json using diverse search strategies. Categories covered:
+
+- **Idiomatic Expressions**: 腑に落ちる, 物議を醸す, 垣間見る, 曖昧模糊
+- **Business/Administrative**: 斡旋, 滞納, 見直し, 丸投げ, 売り込み
+- **Compound Verbs**: 蒸し返す, 差し置く, 突き止める, 信じ込む, 辿り着く
+- **Physical Actions**: 蹴躓く, 掻き回す, 掴み取る, 喰らう, 縋る
+- **Abstract Concepts**: 俯瞰, 翻弄, 杞憂, 折衷, 凋落
+- **Emotion/Attitude Words**: 惜しむ, 懐かしむ, 慕う, 崇める, 蔑む, 冷笑
+- **Descriptive Terms**: 煩雑, 旺盛, 低迷, 懐疑的
+- **Body/Experience**: 摂取, 盲点, 酷い目, 苦い経験
+- **Miscellaneous**: 縄張り, 持ち場, 足枷, 足掛かり, 橋渡し, 架け橋
+
+Strategies used: Collocational mining, register/formality pairs, semantic domain exploration, productive pattern completion (compound verbs), practical situation vocabulary.
+
+Candidates: 242 → 318
 
 ### 2026-01-30 (Vocabulary Expansion - 30 New Entries, Session 192)
 Added 30 new dictionary entries from candidate_words.json, covering diverse vocabulary including business/legal terms, satire/mockery, movement/travel, psychology, and medical vocabulary:
