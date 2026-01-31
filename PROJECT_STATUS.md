@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,041
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,188 | Unassigned: 0 ✓
-- **Candidate words**: 318 words tracked in `candidate_words.json`
+- **Total entries**: 9,071
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,218 | Unassigned: 0 ✓
+- **Candidate words**: 288 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,25 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-31 (Vocabulary Expansion - 30 New Entries, Session 193)
+Added 30 new dictionary entries from candidate_words.json, covering abstract concepts, aesthetics, personality traits, and skill-related vocabulary:
+
+- **Abstract/Psychological (8)**: {逼迫|ひっぱく} (pressure/strain), {切迫|せっぱく} (urgency), {頓挫|とんざ} (setback), {破綻|はたん} (failure), {崩壊|ほうかい} (collapse), {情緒|じょうちょ} (emotion), {気概|きがい} (mettle), {意気込|いきご}み (enthusiasm)
+- **Aesthetics/Culture (7)**: {静寂|せいじゃく} (silence), {幽玄|ゆうげん} (profound mystery), {風情|ふぜい} (elegance), {雅|みやび} (courtly grace), {趣|おもむき} (charm), {興趣|きょうしゅ} (interest), {華奢|きゃしゃ} (delicate)
+- **Quality/Evaluation (6)**: {拙速|せっそく} (hasty), {稚拙|ちせつ} (immature), {周到|しゅうとう} (meticulous), {杜撰|ずさん} (sloppy), {陳腐|ちんぷ} (stale), {斬新|ざんしん} (novel)
+- **Emotion/Attitude (3)**: {一抹|いちまつ} (a touch), {物憂|ものう}い (languid), {喧噪|けんそう} (clamor)
+- **Skill/Experience (6)**: {骨折|ほねお}り (hard work), {片手間|かたてま} (on the side), {駆|か}け{出|だ}し (novice), {玄人|くろうと} (expert), {老練|ろうれん} (seasoned), {熟練|じゅくれん} (skilled)
+
+Notable entry features:
+- Multi-sense entries: {風情|ふぜい} (aesthetic charm/humble suffix), {情緒|じょうちょ} (emotion/atmosphere), {趣|おもむき} (charm/tenor), {破綻|はたん} (failure/bankruptcy), {崩壊|ほうかい} (collapse/decay)
+- Aesthetic vocabulary cluster: {幽玄|ゆうげん}, {雅|みやび}, {風情|ふぜい} (Japanese aesthetics)
+- Skill progression vocabulary: {駆|か}け{出|だ}し → {玄人|くろうと} → {老練|ろうれん} → {熟練|じゅくれん}
+- 10 new kanji added: 噪, 奢, 幽, 抹, 拙, 撰, 斬, 杜, 逼, 雅
+
+Total entries: 9,041 → 9,071
+Remaining candidates: 318 → 288
+New kanji: 2,131 → 2,141
 
 ### 2026-01-31 (New Candidates - 76 Words Added)
 Added 76 new candidate words to candidate_words.json using diverse search strategies. Categories covered:
