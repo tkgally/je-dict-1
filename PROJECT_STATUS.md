@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,101
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,248 | Unassigned: 0 ✓
-- **Candidate words**: 464 words tracked in `candidate_words.json`
+- **Total entries**: 9,131
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,278 | Unassigned: 0 ✓
+- **Candidate words**: 434 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,30 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-31 (Vocabulary Expansion - 30 New Entries, Session 196)
+Added 30 new dictionary entries from candidate_words.json, covering maturity/skill, perception/foresight, omens/signs, atmosphere/mood, and physical/emotional states:
+
+- **Maturity/Skill (2)**: {円熟|えんじゅく} (maturity/mellowness), {練達|れんたつ} (mastery/proficiency)
+- **Perception/Foresight (3)**: {洞察|どうさつ} (insight), {慧眼|けいがん} (discerning eye), {先見|せんけん} (foresight)
+- **Omens/Signs (3)**: {予兆|よちょう} (omen), {前兆|ぜんちょう} (forewarning), {瑞兆|ずいちょう} (good omen)
+- **Descriptive/Manner (3)**: {漠然|ばくぜん} (vague), {唐突|とうとつ} (sudden), {薄暗|うすぐら}い (dim)
+- **Weather/Environment (2)**: {陰|かげ}る (to darken), {凍|こご}える (to freeze)
+- **Sound/Response (3)**: {鳴|な}り{響|ひび}く (to resound), {反響|はんきょう} (echo/response), {払暁|ふつぎょう} (dawn)
+- **Social Relations (3)**: {親睦|しんぼく} (fellowship), {軋轢|あつれき} (friction), {融和|ゆうわ} (harmony)
+- **Psychology/Process (5)**: {抑圧|よくあつ} (suppression), {発散|はっさん} (release), {醸成|じょうせい} (cultivation), {飽和|ほうわ} (saturation), {収束|しゅうそく} (convergence)
+- **Physical/Chemical (1)**: {沈殿|ちんでん} (sedimentation)
+- **Body/Movement (5)**: {悶|もだ}える (to writhe), {身悶|みもだ}える (to writhe intensely), {身構|みがま}える (to brace), {食|く}らいつく (to cling to), {抗|あらが}う (to resist)
+
+Notable entry features:
+- Multi-sense entries: {反響|はんきょう} (echo/public response), {発散|はっさん} (emission/stress relief), {醸成|じょうせい} (brewing/fostering), {飽和|ほうわ} (saturation scientific/market), {収束|しゅうそく} (convergence/settling), {陰|かげ}る (darken/gloomy), {悶|もだ}える (pain/emotional), {身構|みがま}える (physical/mental), {食|く}らいつく (bite/persist)
+- Omen vocabulary cluster: {予兆|よちょう}, {前兆|ぜんちょう}, {瑞兆|ずいちょう} (signs and omens)
+- Related verbs: {悶|もだ}える → {身悶|みもだ}える (intensity variation)
+- 7 new kanji added: 悶, 慧, 暁, 殿, 漠, 睦, 轢
+
+Total entries: 9,101 → 9,131
+Remaining candidates: 464 → 434
+New kanji: 2,141 → 2,148
 
 ### 2026-01-31 (Candidate Words - Informal Vocabulary, Session 195)
 Added 89 informal vocabulary candidates focusing on casual expressions rarely included in textbooks:
