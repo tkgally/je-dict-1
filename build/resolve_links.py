@@ -66,9 +66,11 @@ def normalize_legacy_reference(ref: str, reading_index: Dict[str, List[Dict[str,
                 }
 
     # If not found, try to extract reading from ID
-    # ID format: 00000_romaji (e.g., "00001_taberu")
+    # ID format: 00000_romaji or 00000_romaji_suffix (e.g., "00001_taberu" or "00001_taberu_i")
     parts = ref.split('_')
     if len(parts) >= 2:
+        # Use only the base romaji (parts[1]), not the suffix
+        # The suffix (if present) is for homophone disambiguation
         romaji = parts[1]
         # Convert basic romaji to hiragana (simplified)
         reading = romaji_to_hiragana(romaji)

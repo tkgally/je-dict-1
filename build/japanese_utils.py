@@ -171,6 +171,43 @@ def hiragana_to_romaji(reading: str) -> str:
     return ''.join(result)
 
 
+# Shared conversion table for romaji to kana
+# Order matters: longer patterns must come before shorter ones
+ROMAJI_CONVERSIONS = [
+    # Three-character combinations first
+    ('shi', 'し', 'シ'), ('chi', 'ち', 'チ'), ('tsu', 'つ', 'ツ'),
+    ('sha', 'しゃ', 'シャ'), ('shu', 'しゅ', 'シュ'), ('sho', 'しょ', 'ショ'),
+    ('cha', 'ちゃ', 'チャ'), ('chu', 'ちゅ', 'チュ'), ('cho', 'ちょ', 'チョ'),
+    ('nya', 'にゃ', 'ニャ'), ('nyu', 'にゅ', 'ニュ'), ('nyo', 'にょ', 'ニョ'),
+    ('hya', 'ひゃ', 'ヒャ'), ('hyu', 'ひゅ', 'ヒュ'), ('hyo', 'ひょ', 'ヒョ'),
+    ('mya', 'みゃ', 'ミャ'), ('myu', 'みゅ', 'ミュ'), ('myo', 'みょ', 'ミョ'),
+    ('rya', 'りゃ', 'リャ'), ('ryu', 'りゅ', 'リュ'), ('ryo', 'りょ', 'リョ'),
+    ('kya', 'きゃ', 'キャ'), ('kyu', 'きゅ', 'キュ'), ('kyo', 'きょ', 'キョ'),
+    ('gya', 'ぎゃ', 'ギャ'), ('gyu', 'ぎゅ', 'ギュ'), ('gyo', 'ぎょ', 'ギョ'),
+    ('bya', 'びゃ', 'ビャ'), ('byu', 'びゅ', 'ビュ'), ('byo', 'びょ', 'ビョ'),
+    ('pya', 'ぴゃ', 'ピャ'), ('pyu', 'ぴゅ', 'ピュ'), ('pyo', 'ぴょ', 'ピョ'),
+    ('ja', 'じゃ', 'ジャ'), ('ju', 'じゅ', 'ジュ'), ('jo', 'じょ', 'ジョ'),
+    # Basic syllables (two-character)
+    ('ka', 'か', 'カ'), ('ki', 'き', 'キ'), ('ku', 'く', 'ク'), ('ke', 'け', 'ケ'), ('ko', 'こ', 'コ'),
+    ('sa', 'さ', 'サ'), ('su', 'す', 'ス'), ('se', 'せ', 'セ'), ('so', 'そ', 'ソ'),
+    ('ta', 'た', 'タ'), ('te', 'て', 'テ'), ('to', 'と', 'ト'),
+    ('na', 'な', 'ナ'), ('ni', 'に', 'ニ'), ('nu', 'ぬ', 'ヌ'), ('ne', 'ね', 'ネ'), ('no', 'の', 'ノ'),
+    ('ha', 'は', 'ハ'), ('hi', 'ひ', 'ヒ'), ('fu', 'ふ', 'フ'), ('he', 'へ', 'ヘ'), ('ho', 'ほ', 'ホ'),
+    ('ma', 'ま', 'マ'), ('mi', 'み', 'ミ'), ('mu', 'む', 'ム'), ('me', 'め', 'メ'), ('mo', 'も', 'モ'),
+    ('ya', 'や', 'ヤ'), ('yu', 'ゆ', 'ユ'), ('yo', 'よ', 'ヨ'),
+    ('ra', 'ら', 'ラ'), ('ri', 'り', 'リ'), ('ru', 'る', 'ル'), ('re', 'れ', 'レ'), ('ro', 'ろ', 'ロ'),
+    ('wa', 'わ', 'ワ'), ('wo', 'を', 'ヲ'),
+    ('ga', 'が', 'ガ'), ('gi', 'ぎ', 'ギ'), ('gu', 'ぐ', 'グ'), ('ge', 'げ', 'ゲ'), ('go', 'ご', 'ゴ'),
+    ('za', 'ざ', 'ザ'), ('ji', 'じ', 'ジ'), ('zu', 'ず', 'ズ'), ('ze', 'ぜ', 'ゼ'), ('zo', 'ぞ', 'ゾ'),
+    ('da', 'だ', 'ダ'), ('di', 'ぢ', 'ヂ'), ('du', 'づ', 'ヅ'), ('de', 'で', 'デ'), ('do', 'ど', 'ド'),
+    ('ba', 'ば', 'バ'), ('bi', 'び', 'ビ'), ('bu', 'ぶ', 'ブ'), ('be', 'べ', 'ベ'), ('bo', 'ぼ', 'ボ'),
+    ('pa', 'ぱ', 'パ'), ('pi', 'ぴ', 'ピ'), ('pu', 'ぷ', 'プ'), ('pe', 'ぺ', 'ペ'), ('po', 'ぽ', 'ポ'),
+    # Single vowels (must come after longer patterns)
+    ('a', 'あ', 'ア'), ('i', 'い', 'イ'), ('u', 'う', 'ウ'), ('e', 'え', 'エ'), ('o', 'お', 'オ'),
+    ('n', 'ん', 'ン'),
+]
+
+
 def romaji_to_hiragana(romaji: str) -> str:
     """
     Convert romaji to hiragana.
@@ -195,50 +232,54 @@ def romaji_to_hiragana(romaji: str) -> str:
         >>> romaji_to_hiragana('gakkou')
         'がっこう'
     """
-    # Order matters: longer patterns must come before shorter ones
-    conversions = [
-        # Three-character combinations first
-        ('shi', 'し'), ('chi', 'ち'), ('tsu', 'つ'),
-        ('sha', 'しゃ'), ('shu', 'しゅ'), ('sho', 'しょ'),
-        ('cha', 'ちゃ'), ('chu', 'ちゅ'), ('cho', 'ちょ'),
-        ('nya', 'にゃ'), ('nyu', 'にゅ'), ('nyo', 'にょ'),
-        ('hya', 'ひゃ'), ('hyu', 'ひゅ'), ('hyo', 'ひょ'),
-        ('mya', 'みゃ'), ('myu', 'みゅ'), ('myo', 'みょ'),
-        ('rya', 'りゃ'), ('ryu', 'りゅ'), ('ryo', 'りょ'),
-        ('kya', 'きゃ'), ('kyu', 'きゅ'), ('kyo', 'きょ'),
-        ('gya', 'ぎゃ'), ('gyu', 'ぎゅ'), ('gyo', 'ぎょ'),
-        ('bya', 'びゃ'), ('byu', 'びゅ'), ('byo', 'びょ'),
-        ('pya', 'ぴゃ'), ('pyu', 'ぴゅ'), ('pyo', 'ぴょ'),
-        ('ja', 'じゃ'), ('ju', 'じゅ'), ('jo', 'じょ'),
-        # Basic syllables (two-character)
-        ('ka', 'か'), ('ki', 'き'), ('ku', 'く'), ('ke', 'け'), ('ko', 'こ'),
-        ('sa', 'さ'), ('su', 'す'), ('se', 'せ'), ('so', 'そ'),
-        ('ta', 'た'), ('te', 'て'), ('to', 'と'),
-        ('na', 'な'), ('ni', 'に'), ('nu', 'ぬ'), ('ne', 'ね'), ('no', 'の'),
-        ('ha', 'は'), ('hi', 'ひ'), ('fu', 'ふ'), ('he', 'へ'), ('ho', 'ほ'),
-        ('ma', 'ま'), ('mi', 'み'), ('mu', 'む'), ('me', 'め'), ('mo', 'も'),
-        ('ya', 'や'), ('yu', 'ゆ'), ('yo', 'よ'),
-        ('ra', 'ら'), ('ri', 'り'), ('ru', 'る'), ('re', 'れ'), ('ro', 'ろ'),
-        ('wa', 'わ'), ('wo', 'を'),
-        ('ga', 'が'), ('gi', 'ぎ'), ('gu', 'ぐ'), ('ge', 'げ'), ('go', 'ご'),
-        ('za', 'ざ'), ('ji', 'じ'), ('zu', 'ず'), ('ze', 'ぜ'), ('zo', 'ぞ'),
-        ('da', 'だ'), ('di', 'ぢ'), ('du', 'づ'), ('de', 'で'), ('do', 'ど'),
-        ('ba', 'ば'), ('bi', 'び'), ('bu', 'ぶ'), ('be', 'べ'), ('bo', 'ぼ'),
-        ('pa', 'ぱ'), ('pi', 'ぴ'), ('pu', 'ぷ'), ('pe', 'ぺ'), ('po', 'ぽ'),
-        # Single vowels (must come after longer patterns)
-        ('a', 'あ'), ('i', 'い'), ('u', 'う'), ('e', 'え'), ('o', 'お'),
-        ('n', 'ん'),
-    ]
-
     result = romaji.lower()
 
     # Handle double consonants first (gemination)
     # These need special handling to avoid leaving trailing consonants
     result = re.sub(r'([kstpgzdbj])\1', r'っ\1', result)
 
-    # Apply conversions
-    for rom, hira in conversions:
+    # Apply conversions (use hiragana column)
+    for rom, hira, _kata in ROMAJI_CONVERSIONS:
         result = result.replace(rom, hira)
+
+    return result
+
+
+def romaji_to_katakana(romaji: str) -> str:
+    """
+    Convert romaji to katakana.
+
+    This handles common patterns including:
+    - Basic syllables (ka, ki, ku, etc.)
+    - Combination syllables (sha, cha, nya, etc.)
+    - Double consonants (kk, ss, tt, etc.) -> ッ
+    - Single vowels (a, i, u, e, o)
+
+    Note: This is a simplified conversion and may not handle all edge cases.
+
+    Args:
+        romaji: Romaji string to convert
+
+    Returns:
+        Katakana representation of the romaji
+
+    Examples:
+        >>> romaji_to_katakana('jin')
+        'ジン'
+        >>> romaji_to_katakana('kaku')
+        'カク'
+    """
+    if not romaji or romaji == 'none':
+        return ''
+
+    result = romaji.lower()
+
+    # Handle double consonants first (gemination)
+    result = re.sub(r'([kstpgzdbj])\1', r'ッ\1', result)
+
+    # Apply conversions (use katakana column)
+    for rom, _hira, kata in ROMAJI_CONVERSIONS:
+        result = result.replace(rom, kata)
 
     return result
 
@@ -311,3 +352,64 @@ def normalize_reading(reading: str) -> str:
         else:
             result.append(char)
     return ''.join(result)
+
+
+def is_valid_hiragana(text: str) -> bool:
+    """
+    Check if text contains only hiragana characters, long vowel mark, and iteration marks.
+
+    Args:
+        text: Text to validate
+
+    Returns:
+        True if text contains only valid hiragana characters
+
+    Examples:
+        >>> is_valid_hiragana('たべる')
+        True
+        >>> is_valid_hiragana('タベル')
+        False
+        >>> is_valid_hiragana('taberu')
+        False
+    """
+    if not text:
+        return False
+    for char in text:
+        # Hiragana range: \u3041-\u3096
+        # Long vowel mark: ー
+        # Iteration marks: ゝ (\u309D), ゞ (\u309E)
+        if not (('\u3041' <= char <= '\u3096') or char in 'ーゝゞ'):
+            return False
+    return True
+
+
+def contains_katakana(text: str) -> bool:
+    """
+    Check if text contains any katakana characters (excluding long vowel mark).
+
+    The long vowel mark (ー) is excluded because it's commonly used in both
+    hiragana and katakana contexts.
+
+    Args:
+        text: Text to check
+
+    Returns:
+        True if text contains any katakana characters
+
+    Examples:
+        >>> contains_katakana('カタカナ')
+        True
+        >>> contains_katakana('ひらがな')
+        False
+        >>> contains_katakana('ひらがなー')
+        False
+    """
+    if not text:
+        return False
+    for char in text:
+        code = ord(char)
+        # Katakana range: U+30A1-U+30F6 (standard katakana characters)
+        # Exclude U+30FC (ー) which is the long vowel mark and acceptable
+        if 0x30A1 <= code <= 0x30F6:
+            return True
+    return False

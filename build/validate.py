@@ -16,7 +16,10 @@ from pathlib import Path
 from typing import Optional
 
 from path_utils import get_directory_range, get_entry_path
-from japanese_utils import hiragana_to_romaji, normalize_reading
+from japanese_utils import (
+    hiragana_to_romaji, normalize_reading,
+    is_valid_hiragana, contains_katakana
+)
 from constants import CROSS_REF_TYPES
 
 
@@ -61,6 +64,54 @@ def load_schema(schema_path: Path) -> dict:
     """Load the JSON schema."""
     with open(schema_path, 'r', encoding='utf-8') as f:
         return json.load(f)
+
+
+def validate_cross_ref_types_sync(schema: dict) -> list[str]:
+    """
+    Validate that CROSS_REF_TYPES in constants.py matches the enum in schema.json.
+
+    This ensures the Python constants and JSON schema stay in sync.
+
+    Args:
+        schema: The loaded JSON schema
+
+    Returns:
+        List of error messages (empty if in sync)
+    """
+    errors = []
+
+    # Extract enum from schema
+    try:
+        cross_refs_items = schema['properties']['cross_references']['items']
+        # The cross_references items is a oneOf with string or object
+        for item in cross_refs_items.get('oneOf', []):
+            if item.get('type') == 'object':
+                schema_types = item['properties']['type']['enum']
+                break
+        else:
+            errors.append("Could not find cross-reference type enum in schema")
+            return errors
+    except (KeyError, TypeError) as e:
+        errors.append(f"Error parsing schema for cross-reference types: {e}")
+        return errors
+
+    # Compare with CROSS_REF_TYPES from constants.py
+    python_types = set(CROSS_REF_TYPES)
+    json_types = set(schema_types)
+
+    missing_in_schema = python_types - json_types
+    missing_in_python = json_types - python_types
+
+    if missing_in_schema:
+        errors.append(
+            f"CROSS_REF_TYPES in constants.py has types not in schema.json: {sorted(missing_in_schema)}"
+        )
+    if missing_in_python:
+        errors.append(
+            f"schema.json has cross-reference types not in constants.py: {sorted(missing_in_python)}"
+        )
+
+    return errors
 
 
 def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: Draft7Validator = None) -> tuple[list[str], dict | None]:
@@ -169,32 +220,6 @@ def check_for_duplicates(entries_data: list[tuple[Path, dict]]) -> list[tuple[Pa
                 ))
 
     return duplicates
-
-
-def is_valid_hiragana(text: str) -> bool:
-    """Check if text contains only hiragana characters, long vowel mark, and iteration marks."""
-    if not text:
-        return False
-    for char in text:
-        # Hiragana range: \u3041-\u3096
-        # Long vowel mark: ー
-        # Iteration marks: ゝ (\u309D), ゞ (\u309E)
-        if not (('\u3041' <= char <= '\u3096') or char in 'ーゝゞ'):
-            return False
-    return True
-
-
-def contains_katakana(text: str) -> bool:
-    """Check if text contains any katakana characters (excluding long vowel mark)."""
-    if not text:
-        return False
-    for char in text:
-        code = ord(char)
-        # Katakana range: U+30A1-U+30F6 (standard katakana characters)
-        # Exclude U+30FC (ー) which is the long vowel mark and acceptable
-        if 0x30A1 <= code <= 0x30F6:
-            return True
-    return False
 
 
 def check_katakana_readings(entries_data: list[tuple[Path, dict]]) -> list[tuple[Path, str]]:
@@ -729,6 +754,17 @@ def main():
     # Full validation mode
     print(f"Validating entries in {project_root}")
     print("-" * 50)
+
+    # First, validate that CROSS_REF_TYPES is in sync with schema.json
+    schema_path = project_root / 'build' / 'schema.json'
+    schema = load_schema(schema_path)
+    sync_errors = validate_cross_ref_types_sync(schema)
+    if sync_errors:
+        print("\nCROSS_REF_TYPES sync errors:")
+        for error in sync_errors:
+            print(f"  - {error}")
+        print("\nPlease ensure constants.py and schema.json are in sync before proceeding.")
+        return 1
 
     result = validate_all_entries(project_root)
 
