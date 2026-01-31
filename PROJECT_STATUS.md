@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 9,101
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,248 | Unassigned: 0 ✓
-- **Candidate words**: 375 words tracked in `candidate_words.json`
+- **Candidate words**: 464 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,20 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-31 (Candidate Words - Informal Vocabulary, Session 195)
+Added 89 informal vocabulary candidates focusing on casual expressions rarely included in textbooks:
+
+- **Casual sentence endings (12)**: っけ, かも, だよね, でしょ, だよな, だろ, やんな, じゃん variants
+- **Casual expressions/responses (20)**: まじで, それな, あざす, とりま, やっほー, うっそ, まあね, そうそう, あのさ, ねえねえ, etc.
+- **Interjections/reactions (12)**: よし, よっしゃ, やった, しまった, ちぇっ, くそ, やばっ, まじか, まじかよ, etc.
+- **Conversational phrases (15)**: なにそれ, なにこれ, ちょっとまって, なんでだろう, どうしよう, こまったな, いいよ, だめだ, むりだ, etc.
+- **Connectors/fillers (10)**: てことは, ということで, てなわけで, そんなわけで, でもさ, ついでに, etc.
+- **Casual adjectives (8)**: でかい, ちっちゃい, すっごい, ばからしい, おしい, あやしい, かっこいい, かっこわるい
+- **Kansai dialect (5)**: ほんまに, おもろい, でんねん, ありえん, etc.
+- **Internet/casual speech (7)**: ワロス, おける, りょ, ちょい, めんどい, のりのり, あげあげ, さげさげ
+
+Candidates: 375 → 464 (+89)
 
 ### 2026-01-31 (Candidate Words - Informal Vocabulary, Session 194)
 Added 87 informal vocabulary candidates focusing on casual expressions rarely included in textbooks:
