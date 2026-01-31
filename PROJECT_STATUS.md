@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,131
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,278 | Unassigned: 0 ✓
-- **Candidate words**: 434 words tracked in `candidate_words.json`
+- **Total entries**: 9,161
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,308 | Unassigned: 0 ✓
+- **Candidate words**: 404 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-31 (Vocabulary Expansion - 30 New Entries, Session 197)
+Added 30 new dictionary entries from candidate_words.json, covering negotiation/compromise, disclosure/appearance, self-control, intimidation, and emotional responses:
+
+- **Negotiation/Compromise (7)**: {屈|くっ}する (to yield), {譲歩|じょうほ} (concession), {折|お}り{合|あ}い (compromise), {歩|あゆ}み{寄|よ}り (meeting halfway), {詰|つ}め{寄|よ}る (to press), {問|と}い{詰|つ}める (to interrogate), {追及|ついきゅう} (pursuit of responsibility)
+- **Disclosure/Exposure (2)**: {露呈|ろてい} (exposure), {漏洩|ろうえい} (leakage)
+- **Appearance/Deception (7)**: {偽装|ぎそう} (disguise), {装|よそお}う (to pretend), {見|み}せかけ (facade), {体裁|ていさい} (appearance), {面目|めんぼく} (face/honor), {沽券|こけん} (dignity), {世間体|せけんてい} (reputation)
+- **Self-control/Moderation (3)**: {慎|つつし}む (to refrain), {自重|じちょう} (self-restraint), {控|ひか}え{目|め} (modest)
+- **Shamelessness/Bluff (3)**: {厚|あつ}かましい (impudent), {厚顔|こうがん} (brazen), {虚勢|きょせい} (bluff)
+- **Intimidation (2)**: {威嚇|いかく} (intimidation), {威圧|いあつ} (coercion)
+- **Timidity/Hesitation (6)**: {気後|きおく}れ (feeling daunted), {物怖|ものお}じ (shyness), {臆|おく}する (to flinch), {辟易|へきえき} (being fed up), {困惑|こんわく} (bewilderment), {沈着|ちんちゃく} (composed)
+
+Notable entry features:
+- Multi-sense entries: {折|お}り{合|あ}い (compromise/relationship), {体裁|ていさい} (appearance/format/saving face), {装|よそお}う (pretend/dress up), {辟易|へきえき} (overwhelmed/fed up)
+- Social/psychological vocabulary cluster: Words relating to social reputation and face ({面目|めんぼく}, {沽券|こけん}, {世間体|せけんてい}, {体裁|ていさい})
+- Antonymous pairs: {威圧|いあつ}/{威嚇|いかく} (intimidation) vs {臆|おく}する/{気後|きおく}れ (being intimidated)
+- 5 new kanji added: 呈, 嚇, 沽, 洩, 辟
+
+Total entries: 9,131 → 9,161
+Remaining candidates: 434 → 404
+New kanji: 2,148 → 2,153
 
 ### 2026-01-31 (Vocabulary Expansion - 30 New Entries, Session 196)
 Added 30 new dictionary entries from candidate_words.json, covering maturity/skill, perception/foresight, omens/signs, atmosphere/mood, and physical/emotional states:
