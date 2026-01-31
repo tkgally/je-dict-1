@@ -8,11 +8,13 @@ Please review the codebase for **bugs, errors, inefficiencies, and opportunities
 
 ## Project Overview
 
-This is a static site generator for a Japanese-English dictionary with ~7,800 entries. Key characteristics:
+This is a static site generator for a Japanese-English learner's dictionary with **9,041 entries** (targeting ~10,000). Key characteristics:
 - Python scripts transform JSON dictionary entries into static HTML pages
 - No server required; the site runs entirely client-side
-- Hosted on GitHub Pages
-- Includes search functionality, furigana (reading annotations), and kanji index
+- Hosted on GitHub Pages at https://www.tkgje.jp/
+- Includes search functionality, furigana (reading annotations), kanji index, and cross-reference linking
+- Uses an original three-tier vocabulary classification system (Basic: 795, Core: 1,998, General: 6,188)
+- Supervised by Tom Gally; all entry-writing and coding by Claude Opus 4.5 via Claude Code
 
 ## What to Review
 
@@ -20,13 +22,14 @@ This is a static site generator for a Japanese-English dictionary with ~7,800 en
 
 | Script | Lines | Purpose |
 |--------|-------|---------|
-| `build_flat.py` | ~3,480 | Main HTML generator - converts JSON entries to static HTML |
+| `build_flat.py` | ~3,769 | Main HTML generator - converts JSON entries to static HTML |
 | `validate.py` | ~842 | Validates entries against JSON schema, checks consistency |
-| `extract_references.py` | ~588 | Extracts and processes cross-references from notes |
+| `extract_references.py` | ~591 | Extracts and processes cross-references from notes |
 | `migrate_pos.py` | ~511 | Part-of-speech migration utilities |
 | `tag_statistics.py` | ~428 | Tag usage statistics and analysis |
 | `renumber_entries.py` | ~409 | Entry renumbering utilities |
-| `harden_references.py` | ~368 | Hardens forward references by adding target_id to resolvable cross-references |
+| `harden_references.py` | ~372 | Hardens forward references by adding target_id to resolvable cross-references |
+| `build_kanji_html.py` | ~370 | Generates kanji index HTML pages |
 | `validate_tags.py` | ~366 | Tag taxonomy validation |
 | `migrate_entries.py` | ~355 | Data migration utilities for ID format changes |
 | `check_tag_consistency.py` | ~328 | Checks tag consistency across entries |
@@ -35,7 +38,7 @@ This is a static site generator for a Japanese-English dictionary with ~7,800 en
 | `resolve_links.py` | ~304 | Resolves cross-references between entries at build time |
 | `manage_candidates.py` | ~290 | CLI tool for candidate word management |
 | `fix_katakana_readings.py` | ~260 | Fixes katakana reading annotations |
-| `build_kanji_html.py` | ~254 | Generates kanji index HTML pages |
+| `build_sitemap.py` | ~236 | Generates XML sitemaps for SEO |
 | `migrate_cross_references.py` | ~235 | Migrates cross-reference format from legacy string to structured |
 | `find_missing_furigana.py` | ~203 | Identifies entries missing furigana annotations |
 | `update_kanji_index.py` | ~181 | Updates kanji index when new entries are added |
@@ -45,14 +48,14 @@ This is a static site generator for a Japanese-English dictionary with ~7,800 en
 | `build_kanji_json.py` | ~113 | Builds kanji entry list JSON files |
 | `duplicate_utils.py` | ~112 | Shared duplicate detection utilities |
 | `get_entry_path.py` | ~109 | Interactive path lookup for new entries |
+| `path_utils.py` | ~109 | Path utilities: entry prefix extraction, numeric ID range calculation |
 | `add_example_ids.py` | ~108 | Generates unique IDs for examples |
-| `path_utils.py` | ~108 | Path utilities: entry prefix extraction, numeric ID range calculation |
 | `update_indexes.py` | ~106 | Orchestrates updates to both index files |
 | `update_entries_index.py` | ~100 | Updates main entries index with metadata |
 | `extract_kanji_from_entries.py` | ~93 | Extracts kanji characters from entry headwords |
 | `fix_round_timestamps.py` | ~73 | Adds random minutes/seconds to round timestamps |
 | `install_hooks.py` | ~67 | Git hook installation utility |
-| `constants.py` | ~44 | Centralized constants for cross-reference types |
+| `constants.py` | ~51 | Centralized constants for cross-reference types |
 | `get_timestamp.py` | ~21 | UTC timestamp generation for metadata |
 
 Also check `scripts/` directory for additional utility scripts:
@@ -67,15 +70,18 @@ Also check `scripts/` directory for additional utility scripts:
 | File | Purpose |
 |------|---------|
 | `search.js` | Client-side search implementation |
+| `tag-search.js` | Tag-based filtering functionality |
 | `search-index.js` | Pre-built search index |
-| `styles.css` | Site-wide styling (includes kanji index styles) |
+| `styles.css` | Site-wide styling (includes kanji index styles, dark mode) |
 | `index.html` | Home page |
 | `search.html` | Search interface |
-| `browse.html` | Browse by kana row |
+| `browse.html` | Browse by kana row and vocabulary tier |
 | `recent.html` | Recently added/modified entries |
 | `random.html` | Random word cloud |
 | `pending.html` | Pending entries |
-| `kanji/*.html` | Kanji index pages (2,040 pages) |
+| `about.html` | About page with project information |
+| `advanced.html` | Advanced search options |
+| `kanji/*.html` | Kanji index pages (2,131 pages) |
 
 ### Configuration Files
 
@@ -95,7 +101,7 @@ These are AI assistant guidelines (markdown files), not code to review, but you 
 | Skill | Purpose |
 |-------|---------|
 | `entry-guidelines` | General quality standards for all entries |
-| `verb-entry` | Requirements for verb entries |
+| `verb-entry` | Requirements for verb entries (transitivity, aspect, collocations) |
 | `adjective-entry` | Requirements for adjective entries |
 | `particle-entry` | Requirements for particle entries |
 | `other-entries` | Requirements for nouns, counters, adverbs, expressions |
@@ -112,12 +118,12 @@ These are AI assistant guidelines (markdown files), not code to review, but you 
 
 ## What NOT to Review
 
-- **Dictionary entry content** in `entries/` (7,839 JSON files) - These are data, not code
+- **Dictionary entry content** in `entries/` (9,041 JSON files) - These are data, not code
 - **Generated HTML files** in `docs/entries/` - These are output, not source
 - **Generated kanji HTML files** in `docs/kanji/` - These are output, not source
 - **Kanji data files** in `kanji/` (kanji_list.json, individual kanji JSON files) - These are data, not code
 - **Audio files** in `audio/` and `docs/audio/`
-- **`entries_index.json`**, **`candidate_words.json`**, and **`entries_without_furigana.json`** - Auto-generated data files
+- **`entries_index.json`** and **`candidate_words.json`** - Auto-generated data files
 - **Backup files** in `backups/`
 - **Prompt templates** in `prompts/` - These are AI prompts, not code
 - **Markdown documentation** (README.md, PROJECT_STATUS.md, etc.) - Unless you find code snippets with errors
@@ -138,7 +144,13 @@ These are AI assistant guidelines (markdown files), not code to review, but you 
 - Kanji ID format: `{5-digit-number}_{onyomi}_{kunyomi}_{gloss}` (e.g., `00009_jin_hito_person`)
 - `kanji/kanji_list.json` maps kanji characters to their IDs
 - Individual kanji JSON files contain entry lists for each kanji
-- HTML pages generated in `docs/kanji/`
+- HTML pages generated in `docs/kanji/` (2,131 pages total)
+
+### Cross-Reference System
+- Entries can link to related entries via `cross_references` field
+- Types: `pair` (transitivity pairs), `synonym`, `antonym`, `keigo`, `related`, `see_also`, `contrast`, `homophone`
+- `resolve_links.py` converts reading-based references to entry IDs at build time
+- `harden_references.py` pre-processes references to add `target_id` for efficiency
 
 ### Build Process
 ```bash
@@ -149,6 +161,8 @@ python3 build/harden_references.py  # Harden forward references
 python3 build/verify_kanji_index.py # Verify kanji index integrity
 python3 build/build_flat.py         # Generate static site to docs/ (includes kanji pages)
 ```
+
+**Key Feature: Atomic Builds** - `build_flat.py` builds to a temp directory, then swaps atomically, preventing broken states if build fails.
 
 ### Dependencies
 - Python 3.10+
