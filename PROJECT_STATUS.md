@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 9,101
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,248 | Unassigned: 0 ✓
-- **Candidate words**: 288 words tracked in `candidate_words.json`
+- **Candidate words**: 375 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,19 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-01-31 (Candidate Words - Informal Vocabulary, Session 194)
+Added 87 informal vocabulary candidates focusing on casual expressions rarely included in textbooks:
+
+- **Casual verbs from loanwords (15)**: サボる, パクる, テンパる, バグる, ディスる, ミスる, メモる, コピる, ポチる, ダベる, etc.
+- **Colloquial verbs (15)**: びびる, 愚痴る, のろける, ぶらつく, しらける, すっぽかす, バックレる, ふざける, etc.
+- **Casual adjectives (10)**: チャラい, しょぼい, へぼい, たるい, かったるい, しょうもない, くだらない, がめつい, etc.
+- **Mimetic expressions (10)**: ぐだぐだ, まったり, うじうじ, ごちゃごちゃ, ぐでんぐでん, べろべろ, うろちょろ, etc.
+- **Emotional expressions (12)**: ムキになる, カッとなる, グッとくる, キュンとする, ふてくされる, すねる, いじける, etc.
+- **Social/conversational (15)**: タメ語, ため口, おっさん, ガキ, やつ, ツッコミ, ドン引き, ドタキャン, 合コン, 女子会, etc.
+- **Evaluative expressions (10)**: いまいち, ビミョー, ピンとこない, パッとしない, どうでもいい, ノリがいい, ノリが悪い, etc.
+
+Candidates: 288 → 375 (+87)
 
 ### 2026-01-31 (Vocabulary Expansion - 30 New Entries, Session 193)
 Added 30 new dictionary entries from candidate_words.json, covering abstract concepts, aesthetics, personality traits, and skill-related vocabulary:
