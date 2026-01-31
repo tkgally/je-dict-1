@@ -172,11 +172,7 @@
         const end = Math.min(start + RESULTS_PER_PAGE, total);
         const pageResults = currentResults.slice(start, end);
 
-        if (total === 0) {
-            resultsCountEl.textContent = '0 entries found';
-        } else {
-            resultsCountEl.textContent = total + ' entries found (showing ' + (start + 1) + '-' + end + ')';
-        }
+        resultsCountEl.textContent = total + ' entries found (showing ' + (start + 1) + '-' + end + ')';
 
         resultsListEl.innerHTML = pageResults.map(entry => {
             const tags = entry.tags || {};
