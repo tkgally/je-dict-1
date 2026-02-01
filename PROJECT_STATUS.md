@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,191
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,338 | Unassigned: 0 ✓
-- **Candidate words**: 474 words tracked in `candidate_words.json`
+- **Total entries**: 9,221
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,368 | Unassigned: 0 ✓
+- **Candidate words**: 444 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -214,6 +214,29 @@ Added 87 informal vocabulary candidates focusing on casual expressions rarely in
 - **Evaluative expressions (10)**: いまいち, ビミョー, ピンとこない, パッとしない, どうでもいい, ノリがいい, ノリが悪い, etc.
 
 Candidates: 288 → 375 (+87)
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 200)
+Added 30 new dictionary entries from candidate_words.json, covering economy/finance, transportation, technology, leisure, and descriptive terms:
+
+- **Economy/Finance (5)**: {簡素|かんそ} (simple), {倹約|けんやく} (thrift), {浪費|ろうひ} (waste), {出費|しゅっぴ} (expense), {損益|そんえき} (profit and loss)
+- **Food/Preparation (2)**: {仕込|しこ}み (preparation), まろやか (mellow)
+- **Quality/Description (4)**: {精緻|せいち} (elaborate), {粗雑|そざつ} (crude), {整然|せいぜん} (orderly), {専念|せんねん} (concentration)
+- **Belief/Culture (1)**: {迷信|めいしん} (superstition)
+- **Transportation/Driving (8)**: {快速|かいそく} (rapid train), {各停|かくてい} (local train), {徐行|じょこう} (slow driving), {追|お}い{越|こ}し (overtaking), {右折|うせつ} (right turn), {左折|させつ} (left turn), {直進|ちょくしん} (go straight), {運航|うんこう} (operation)
+- **Leisure/Places (3)**: {水族館|すいぞくかん} (aquarium), {観覧車|かんらんしゃ} (Ferris wheel), {温泉街|おんせんがい} (hot spring town)
+- **Technology (6)**: {再起動|さいきどう} (restart), {初期化|しょきか} (initialization), {読|よ}み{込|こ}み (loading), {書|か}き{込|こ}み (writing), {無線|むせん} (wireless), {有線|ゆうせん} (wired)
+- **Transport (1)**: {運搬|うんぱん} (transport)
+
+Notable entry features:
+- Transportation vocabulary cluster: train types, driving directions, driving terms
+- Technology vocabulary cluster: computer operations, connectivity
+- Antonym pairs: {倹約|けんやく}/{浪費|ろうひ}, {精緻|せいち}/{粗雑|そざつ}, {無線|むせん}/{有線|ゆうせん}, {右折|うせつ}/{左折|させつ}
+- Multi-sense entries: {仕込|しこ}み (food prep/training), {書|か}き{込|こ}み (data writing/online posting)
+- 4 new kanji added: 倹, 搬, 浪, 街
+
+Total entries: 9,191 → 9,221
+Remaining candidates: 474 → 444
+New kanji: 2,165 → 2,169
 
 ### 2026-01-31 (Vocabulary Expansion - 30 New Entries, Session 193)
 Added 30 new dictionary entries from candidate_words.json, covering abstract concepts, aesthetics, personality traits, and skill-related vocabulary:
