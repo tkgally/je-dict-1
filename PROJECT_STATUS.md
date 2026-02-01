@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,341
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,488 | Unassigned: 0 ✓
-- **Candidate words**: 324 words tracked in `candidate_words.json`
+- **Total entries**: 9,371
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,518 | Unassigned: 0 ✓
+- **Candidate words**: 294 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 204)
+Added 30 new dictionary entries from candidate_words.json, focusing on informal/spoken register vocabulary:
+
+- **Speech/Language (3)**: ため{口|ぐち} (casual speech), ノリがいい (fun, easy-going), ピンとこない (doesn't click)
+- **Evaluation/Criticism (6)**: いい{加減|かげん} (irresponsible), つまんない (boring), かったるい (sluggish), しょうもない (worthless), いまいち (not quite), ぼったくり (rip-off)
+- **Emotional States (5)**: ムキになる (to get worked up), グッとくる (to be moved), やけくそ (desperate), ふてくされる (to sulk), すねる (to pout)
+- **Behavior/Actions (6)**: やんちゃ (mischievous), ちょっかい (meddling), バックレる (to ditch), ぶらつく (to wander), いじる (to fiddle with), やらかす (to mess up)
+- **Physical States (2)**: へろへろ (exhausted), ほろ{酔|よ}い (tipsy)
+- **Everyday Expressions (5)**: どうでもいい (don't care), ついでに (while at it), かっこいい (cool), いきなり (suddenly), おかえり (welcome back)
+- **Mimetic Words (3)**: ごちゃごちゃ (cluttered), うじうじ (indecisively), {飲|の}み{会|かい} (drinking party)
+
+Notable entry features:
+- Focus on informal/spoken register vocabulary commonly used in daily conversation
+- Multiple mimetic words (onomatopoeia) that are essential for natural Japanese speech
+- Casual contractions and slang expressions (つまんない, かったるい, バックレる)
+- Social/interpersonal vocabulary: teasing, sulking, and emotional reactions
+
+Total entries: 9,341 → 9,371
+Remaining candidates: 324 → 294
 
 ### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 203)
 Added 30 new dictionary entries from candidate_words.json, covering formal/business vocabulary and compound verbs:
