@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,431
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,578 | Unassigned: 0 ✓
-- **Candidate words**: 234 words tracked in `candidate_words.json`
+- **Total entries**: 9,461
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,608 | Unassigned: 0 ✓
+- **Candidate words**: 205 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 207)
+Added 30 new dictionary entries from candidate_words.json, focusing on formal/literary vocabulary:
+
+- **Mental/Emotional States (5)**: {推察|すいさつ} (surmise), {懊悩|おうのう} (anguish), {虚栄|きょえい} (vanity), {忌憚|きたん} (reserve), {顰蹙|ひんしゅく} (disapproval)
+- **Forgiveness/Patience (3)**: {勘弁|かんべん} (pardon), {堪忍|かんにん} (forbearance), {斟酌|しんしゃく} (consideration)
+- **Neglect/Disregard (2)**: {疎|おろそ}か (neglectful), {蔑|ないがしろ} (disregard)
+- **Manner/Bearing (2)**: {颯爽|さっそう} (dashing), {凛然|りんぜん} (dignified)
+- **Verbs (3)**: {見合|みあ}わせる (to postpone), {思|おも}い{返|かえ}す (to reconsider), {焦|こ}げ{付|つ}く (to burn/stick)
+- **Mimetic/Onomatopoeia (3)**: ぼそぼそ (mumbling), しょぼしょぼ (bleary), うつらうつら (drowsily)
+- **Resource/Spread (4)**: {枯渇|こかつ} (depletion), {涵養|かんよう} (cultivation), {蔓延|まんえん} (spread), {払拭|ふっしょく} (wiping away)
+- **Behavior/Discipline (5)**: {慇懃|いんぎん} (polite), {狼藉|ろうぜき} (rampage), {乱痴気|らんちき} (wild revelry), {放蕩|ほうとう} (debauchery), {懲戒|ちょうかい} (disciplinary action)
+- **Censure/Rebuke (3)**: {譴責|けんせき} (censure), {叱責|しっせき} (reprimand), {途方|とほう} (way/means)
+
+Notable entry features:
+- Focus on formal/literary vocabulary with complex kanji
+- Many terms from business, legal, and literary contexts
+- Emotional and behavioral vocabulary with nuanced meanings
+- 12 new kanji added to kanji index
+
+Total entries: 9,431 → 9,461
+Remaining candidates: 234 → 205
+New kanji: 2,189 → 2,201
 
 ### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 206)
 Added 30 new dictionary entries from candidate_words.json, focusing on informal/spoken register vocabulary:
