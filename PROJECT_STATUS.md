@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 9,191
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,338 | Unassigned: 0 ✓
-- **Candidate words**: 374 words tracked in `candidate_words.json`
+- **Candidate words**: 474 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,20 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Candidate Expansion - 100 New Candidates, Session 199)
+Added 100 new candidate words across diverse categories:
+
+- **Formal/Written Vocabulary (20+)**: 推察, 忌憚, 斟酌, 齟齬, 枯渇, 涵養, 蔓延, 払拭, 懊悩, 顰蹙, 虚栄, 慇懃
+- **Business/Finance Vocabulary (20+)**: 堅調, 軟調, 横這い, 反落, 急騰, 急落, 暴騰, 暴落, 乱高下, 値動き, 繁盛, 斜陽
+- **Urban/Location Vocabulary (15)**: 路地裏, 裏通り, 迷路, 袋小路, 曲がり角, 十字路, 分岐点, 地下街, 商店街, 繁華街, 住宅街
+- **Nature/Time Vocabulary (10)**: 曙, 暁, 朧月, 春霞, 薫風, 凍結, 端境期, 書き入れ時
+- **Behavior/Emotion Vocabulary (10)**: 狼藉, 乱痴気, 放蕩, 懲戒, 譴責, 叱責, 訓戒, 剣幕, 侮蔑
+- **Onomatopoeia (5)**: ぼそぼそ, しょぼしょぼ, うつらうつら
+- **Food/Culinary Vocabulary (5)**: 焦げ付く, 割り下, 串揚げ, 鉄板焼き, お品書き
+- **Abstract/Conceptual (10)**: 乖離, 隔たり, 溝, 亀裂, 裂け目, 歪み, 捻れ, ずれ, 二項対立, 二者択一
+
+Total candidates: 374 → 474 (+100)
 
 ### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 198)
 Added 30 new dictionary entries from candidate_words.json, covering personality traits, demeanor, physical conditions, and aesthetic vocabulary:
