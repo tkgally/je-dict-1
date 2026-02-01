@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,251
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,398 | Unassigned: 0 ✓
-- **Candidate words**: 414 words tracked in `candidate_words.json`
+- **Total entries**: 9,281
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,428 | Unassigned: 0 ✓
+- **Candidate words**: 384 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 201)
+Added 30 new dictionary entries from candidate_words.json, covering transportation, sports, technology, environment, and education:
+
+- **Transportation (3)**: {連絡船|れんらくせん} (ferry), {有料道路|ゆうりょうどうろ} (toll road), {積|つ}み{込|こ}み (loading)
+- **Sports/Baseball (5)**: {捕手|ほしゅ} (catcher), {外野|がいや} (outfield), {内野|ないや} (infield), {主審|しゅしん} (head referee), {副審|ふくしん} (assistant referee)
+- **Track and Field (10)**: {短距離|たんきょり} (short distance), {長距離|ちょうきょり} (long distance), {跳躍|ちょうやく} (jump), {砲丸投|ほうがんな}げ (shot put), {円盤投|えんばんな}げ (discus throw), {棒高跳|ぼうたかと}び (pole vault), {走|はし}り{高跳|たかと}び (high jump), {走|はし}り{幅跳|はばと}び (long jump), リレー (relay), {球技|きゅうぎ} (ball sport)
+- **Technology (2)**: {接続不良|せつぞくふりょう} (connection error), {記録媒体|きろくばいたい} (storage medium)
+- **Environment (4)**: {排気|はいき}ガス (exhaust gas), {水質汚染|すいしつおせん} (water pollution), {土壌汚染|どじょうおせん} (soil contamination), {森林伐採|しんりんばっさい} (deforestation)
+- **Education (6)**: {必修科目|ひっしゅうかもく} (required course), {選択科目|せんたくかもく} (elective course), {参考文献|さんこうぶんけん} (bibliography), {成績表|せいせきひょう} (transcript), {読解力|どっかいりょく} (reading comprehension), {家庭教師|かていきょうし} (private tutor)
+
+Notable entry features:
+- Track and field vocabulary cluster: Comprehensive coverage of athletic events
+- Baseball vocabulary: Positions and officials terminology
+- Environmental vocabulary: Pollution types and deforestation
+- Education vocabulary: Academic courses and skills
+- 2 new kanji added: 壌, 媒
+
+Total entries: 9,251 → 9,281
+Remaining candidates: 414 → 384
+New kanji: 2,174 → 2,176
 
 ### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 200)
 Added 30 new dictionary entries from candidate_words.json, covering diverse categories:
