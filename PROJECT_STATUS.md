@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,401
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,548 | Unassigned: 0 ✓
-- **Candidate words**: 264 words tracked in `candidate_words.json`
+- **Total entries**: 9,431
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,578 | Unassigned: 0 ✓
+- **Candidate words**: 234 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 206)
+Added 30 new dictionary entries from candidate_words.json, focusing on informal/spoken register vocabulary:
+
+- **Comedy/Social Terms (3)**: ツッコミ (straight man retort), {女子会|じょしかい} (girls' night out), {酔|よ}っ{払|ぱら}い (drunk person)
+- **Casual Adjectives (8)**: がめつい (greedy), ちょろい (easy), へぼい (lousy), くだらない (worthless), アホらしい (ridiculous), ばからしい (stupid), めんどい (bothersome), ビミョー (iffy)
+- **Emotional/Behavioral (4)**: いじける (to sulk), カッとなる (to lose temper), キュンとする (heart flutter), パッとしない (unremarkable)
+- **Casual Verbs (3)**: ダベる (to chat), たむろする (to loiter), ケチる (to be stingy)
+- **Drunk-Related (3)**: ぐでんぐでん (completely drunk), べろべろ (very drunk), ドケチ (cheapskate)
+- **Mimetic/Onomatopoeia (1)**: うろちょろ (wandering aimlessly)
+- **Interjections/Expressions (8)**: バカにする (to mock), それな (I know right), やっほー (hey!), うっそ (no way!), ありえない (impossible), まじか (seriously?), ねえねえ (hey hey), のろま (slowpoke)
+
+Notable entry features:
+- Focus on informal/spoken register vocabulary for natural daily conversation
+- Casual adjectives with negative evaluative meanings
+- Slang verbs and mimetic expressions
+- Casual exclamations and response patterns common in young people's speech
+
+Total entries: 9,401 → 9,431
+Remaining candidates: 264 → 234
 
 ### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 205)
 Added 30 new dictionary entries from candidate_words.json, focusing on urban vocabulary, market terms, and abstract nouns:
