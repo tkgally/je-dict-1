@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,371
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,518 | Unassigned: 0 ✓
-- **Candidate words**: 294 words tracked in `candidate_words.json`
+- **Total entries**: 9,401
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,548 | Unassigned: 0 ✓
+- **Candidate words**: 264 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 205)
+Added 30 new dictionary entries from candidate_words.json, focusing on urban vocabulary, market terms, and abstract nouns:
+
+- **Urban/Location (13)**: {路地裏|ろじうら} (back alley), {裏通|うらどお}り (back street), {迷路|めいろ} (maze), {袋小路|ふくろこうじ} (dead end), {曲|ま}がり{角|かど} (corner), {十字路|じゅうじろ} (crossroads), {分岐点|ぶんきてん} (branch point), {合流点|ごうりゅうてん} (junction), {地下街|ちかがい} (underground mall), {商店街|しょうてんがい} (shopping street), {繁華街|はんかがい} (downtown), {歓楽街|かんらくがい} (entertainment district), {住宅街|じゅうたくがい} (residential area)
+- **Finance/Market (9)**: {堅調|けんちょう} (firm), {軟調|なんちょう} (weak), {横這|よこば}い (flat), {急騰|きゅうとう} (surge), {急落|きゅうらく} (plunge), {暴騰|ぼうとう} (skyrocketing), {暴落|ぼうらく} (crash), {乱高下|らんこうげ} (wild fluctuation), {値動|ねうご}き (price movement)
+- **Mental/Emotional States (3)**: {唖然|あぜん} (dumbfounded), {茫然|ぼうぜん} (dazed), {懐疑的|かいぎてき} (skeptical)
+- **Abstract/Relationship (5)**: {齟齬|そご} (discrepancy), {乖離|かいり} (divergence), {歪|ゆが}み (distortion), {溝|みぞ} (gap), {亀裂|きれつ} (crack)
+
+Notable entry features:
+- Urban vocabulary cluster: streets, districts, junctions
+- Complete financial market terminology: bullish/bearish, volatility terms
+- Abstract nouns for relationships and discrepancies
+- 6 new kanji added: 乖, 唖, 岐, 茫, 齟, 齬
+
+Total entries: 9,371 → 9,401
+Remaining candidates: 294 → 264
+New kanji: 2,183 → 2,189
 
 ### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 204)
 Added 30 new dictionary entries from candidate_words.json, focusing on informal/spoken register vocabulary:
