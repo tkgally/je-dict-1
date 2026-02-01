@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,311
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,458 | Unassigned: 0 ✓
-- **Candidate words**: 354 words tracked in `candidate_words.json`
+- **Total entries**: 9,341
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,488 | Unassigned: 0 ✓
+- **Candidate words**: 324 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 203)
+Added 30 new dictionary entries from candidate_words.json, covering formal/business vocabulary and compound verbs:
+
+- **Health/Nutrition (1)**: {摂取|せっしゅ} (intake, consumption)
+- **Finance/Business (4)**: {滞納|たいのう} (delinquency), {尽力|じんりょく} (great effort), {売|う}り{込|こ}み (sales pitch), {丸投|まるな}げ (handing off entirely)
+- **Cognition/Perception (4)**: {盲点|もうてん} (blind spot), {俯瞰|ふかん} (bird's-eye view), {杞憂|きゆう} (needless worry), {見直|みなお}し (review, reassessment)
+- **Description/State (3)**: {煩雑|はんざつ} (complicated), {旺盛|おうせい} (vigorous), {低迷|ていめい} (stagnation)
+- **Control/Limitation (3)**: {歯止|はど}め (brake, restraint), {翻弄|ほんろう} (tossing about), {弊害|へいがい} (harmful effect)
+- **Position/Territory (3)**: {踏|ふ}み{台|だい} (stepping stone), {縄張|なわば}り (territory), {持|も}ち{場|ば} (post, station)
+- **Work/Effort (3)**: {携|たずさ}わる (to be engaged in), {履歴|りれき} (history, record), {奔走|ほんそう} (rushing about)
+- **Conflict/Difference (2)**: {食|く}い{違|ちが}い (discrepancy), {蒸|む}し{返|かえ}す (to bring up again)
+- **Discovery/Arrival (2)**: {突|つ}き{止|と}める (to track down), {辿|たど}り{着|つ}く (to arrive at)
+- **Problem-Solving (3)**: {行|い}き{詰|づ}まる (to reach a dead end), {打開|だかい} (breakthrough), {突破口|とっぱこう} (breakthrough, opening)
+- **Skills/Background (2)**: {特技|とくぎ} (special skill), {生|お}い{立|た}ち (upbringing)
+
+Notable entry features:
+- Business/formal vocabulary cluster: Effort, delegation, sales terminology
+- Compound verbs: 蒸し返す, 突き止める, 辿り着く, 行き詰まる
+- Problem-solving vocabulary: deadlock and breakthrough terms
+- 7 new kanji added: 奔, 弄, 摂, 旺, 杞, 瞰, 辿
+
+Total entries: 9,311 → 9,341
+Remaining candidates: 354 → 324
+New kanji: 2,176 → 2,183
 
 ### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 201)
 Added 30 new dictionary entries from candidate_words.json, covering transportation, sports, technology, environment, and education:
