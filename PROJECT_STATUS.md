@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,221
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,368 | Unassigned: 0 ✓
-- **Candidate words**: 444 words tracked in `candidate_words.json`
+- **Total entries**: 9,251
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,398 | Unassigned: 0 ✓
+- **Candidate words**: 414 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 200)
+Added 30 new dictionary entries from candidate_words.json, covering diverse categories:
+
+- **State/Condition (6)**: {辟易|へきえき}する (to be put off), {散財|さんざい} (spending spree), {雑多|ざった} (miscellaneous), {雑然|ざつぜん} (cluttered), {散漫|さんまん} (scattered), まかない (staff meal)
+- **Belief/Devotion (2)**: {心酔|しんすい} (infatuation), {盲信|もうしん} (blind faith)
+- **Transportation/Infrastructure (4)**: {駐輪場|ちゅうりんじょう} (bicycle parking), {桟橋|さんばし} (pier), {高速道路|こうそくどうろ} (expressway), {料金所|りょうきんじょ} (toll booth)
+- **Sports (4)**: {決勝戦|けっしょうせん} (finals), {陸上|りくじょう} (track and field), {格闘技|かくとうぎ} (martial arts), {競輪|けいりん} (keirin)
+- **Technology (3)**: {半導体|はんどうたい} (semiconductor), {復元|ふくげん} (restoration), {周辺機器|しゅうへんきき} (peripherals)
+- **Environment/Nature (6)**: {野生動物|やせいどうぶつ} (wild animal), {渡|わた}り{鳥|どり} (migratory bird), {生息地|せいそくち} (habitat), {大気汚染|たいきおせん} (air pollution), {水源|すいげん} (water source), {氾濫|はんらん} (flood)
+- **Disasters (1)**: {土砂崩|どしゃくず}れ (landslide)
+- **Education (2)**: {入学試験|にゅうがくしけん} (entrance exam), {卒業論文|そつぎょうろんぶん} (graduation thesis)
+- **Food/Recreation (2)**: {淹|い}れ{立|た}て (freshly brewed), {浮|う}き{輪|わ} (swimming ring)
+
+Notable entry features:
+- Infrastructure vocabulary: Transportation and facilities terminology
+- Environmental vocabulary cluster: Wildlife, pollution, natural disasters
+- Education vocabulary: Academic terms
+- 5 new kanji added: 桟, 氾, 淹, 濫, 盲
+
+Total entries: 9,221 → 9,251
+Remaining candidates: 444 → 414
+New kanji: 2,169 → 2,174
 
 ### 2026-02-01 (Candidate Expansion - 100 New Candidates, Session 199)
 Added 100 new candidate words across diverse categories:
