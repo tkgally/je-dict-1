@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-01-31
+**Last updated**: 2026-02-01
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,161
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,308 | Unassigned: 0 ✓
-- **Candidate words**: 404 words tracked in `candidate_words.json`
+- **Total entries**: 9,191
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,338 | Unassigned: 0 ✓
+- **Candidate words**: 374 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 198)
+Added 30 new dictionary entries from candidate_words.json, covering personality traits, demeanor, physical conditions, and aesthetic vocabulary:
+
+- **Calmness/Composure (3)**: {悠然|ゆうぜん} (calm, leisurely), {泰然|たいぜん} (calm, unperturbed), {毅然|きぜん} (resolute, firm)
+- **Dignity/Appearance (5)**: {凛々|りり}しい (dignified), {威風|いふう} (majesty), {風格|ふうかく} (dignity, style), {佇|たたず}まい (atmosphere), {品格|ひんかく} (grace)
+- **Taste/Refinement (4)**: {悪趣味|あくしゅみ} (bad taste), {垢抜|あかぬ}け (sophistication), {無粋|ぶすい} (boorish), {野暮|やぼ}ったい (unfashionable)
+- **Honesty/Simplicity (4)**: {朴訥|ぼくとつ} (simple, artless), {愚直|ぐちょく} (simply earnest), {実直|じっちょく} (honest), {物静|ものしず}か (quiet)
+- **Energy/Liveliness (5)**: {快活|かいかつ} (cheerful), {溌剌|はつらつ} (lively), {軽快|けいかい} (light, nimble), {機敏|きびん} (nimble), {俊敏|しゅんびん} (agile)
+- **Slowness (2)**: {鈍重|どんじゅう} (dull, slow), {緩慢|かんまん} (sluggish)
+- **Physical Health (4)**: {壮健|そうけん} (healthy), {虚弱|きょじゃく} (weak), {頑健|がんけん} (sturdy), {屈強|くっきょう} (brawny)
+- **Aesthetics (3)**: {華麗|かれい} (splendid), {絢爛|けんらん} (gorgeous), {質素|しっそ} (simple, frugal)
+
+Notable entry features:
+- Personality/demeanor vocabulary cluster: Words describing composure, dignity, and character traits
+- Antonymous pairs: {機敏|きびん}/{俊敏|しゅんびん} (quick) vs {鈍重|どんじゅう}/{緩慢|かんまん} (slow)
+- Health vocabulary: {壮健|そうけん}/{頑健|がんけん}/{屈強|くっきょう} (strong) vs {虚弱|きょじゃく} (weak)
+- Aesthetic pairs: {華麗|かれい}/{絢爛|けんらん} (gorgeous) vs {質素|しっそ} (simple)
+- 12 new kanji added: 佇, 俊, 凛, 剌, 垢, 壮, 毅, 泰, 溌, 爛, 絢, 訥
+
+Total entries: 9,161 → 9,191
+Remaining candidates: 404 → 374
+New kanji: 2,153 → 2,165
 
 ### 2026-01-31 (Vocabulary Expansion - 30 New Entries, Session 197)
 Added 30 new dictionary entries from candidate_words.json, covering negotiation/compromise, disclosure/appearance, self-control, intimidation, and emotional responses:
