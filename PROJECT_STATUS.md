@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,461
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,608 | Unassigned: 0 ✓
-- **Candidate words**: 279 words tracked in `candidate_words.json`
+- **Total entries**: 9,550
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,697 | Unassigned: 0 ✓
+- **Candidate words**: 249 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
