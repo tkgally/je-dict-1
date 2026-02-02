@@ -283,7 +283,7 @@ def process_word_links(
         # Create link HTML
         # Calculate the path to the entry
         dir_range = f"{(int(entry_id[:5]) // 500) * 500:05d}"
-        entry_path = f"{relative_path}{dir_range}/{entry_id}.html"
+        entry_path = f"{relative_path}entries/{dir_range}/{entry_id}.html"
 
         return (
             f'<a class="word-link" href="{entry_path}" '
