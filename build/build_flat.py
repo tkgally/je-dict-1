@@ -585,6 +585,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, build_time_jst: str
 </footer>
 {generate_furigana_script()}
 {generate_examples_script()}
+{generate_wordlinks_script()}
 </body>
 </html>'''
 
@@ -1110,6 +1111,7 @@ def generate_advanced_page() -> str:
 {generate_header_search_redirect_script()}
 {generate_furigana_script()}
 {generate_examples_script()}
+{generate_wordlinks_script()}
 </body>
 </html>'''
 
@@ -1761,6 +1763,7 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
     html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
+    html_parts.append(generate_wordlinks_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -1812,6 +1815,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
     html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
+    html_parts.append(generate_wordlinks_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -1847,6 +1851,7 @@ def generate_random_page(entries: list) -> str:
     html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
+    html_parts.append(generate_wordlinks_script())
     # Add shuffle script for random arrangement on page load
     html_parts.append('''<script>
 (function() {
@@ -1915,6 +1920,7 @@ def generate_pending_page(candidates: list) -> str:
     html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
+    html_parts.append(generate_wordlinks_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 

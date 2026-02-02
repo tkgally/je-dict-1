@@ -18,7 +18,8 @@ from html_utils import (
     generate_nav_header as _generate_nav_header,
     generate_furigana_script,
     generate_examples_script,
-    generate_header_search_script
+    generate_header_search_script,
+    generate_wordlinks_script
 )
 
 
@@ -103,6 +104,7 @@ def generate_kanji_page(kanji_data: dict, relative_path: str = '../') -> str:
 {generate_header_search_script(relative_path)}
 {generate_furigana_script()}
 {generate_examples_script()}
+{generate_wordlinks_script()}
 </body>
 </html>''')
 
