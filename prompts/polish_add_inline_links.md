@@ -83,17 +83,21 @@ This means:
    ```
    Use this timestamp for the `modified` field.
 
-6. **After every 30 entries** (or when you make changes):
+6. **After every 4-6 entries** (smaller batches work better for context management):
    - Update `polishing/tasks/inline-links/progress.txt`
-   - Run validation:
+   - Run validation to catch ID errors:
      ```bash
-     python3 build/validate.py
+     python3 build/validate.py 2>&1 | grep -A5 "Word link"
+     ```
+   - If validation passes, run build:
+     ```bash
      python3 build/update_indexes.py
      python3 build/build_flat.py
      ```
-   - Commit changes:
+   - Commit entry changes separately from build artifacts:
      ```bash
-     git add -A && git commit -m "Inline links: add links to entries XXXXX-XXXXX"
+     git add entries/ polishing/ && git commit -m "Inline links: add links to entries XXXXX-XXXXX"
+     git add -A && git commit -m "Update build artifacts"
      ```
 
 7. **Check remaining context** using `/context`:
@@ -110,6 +114,10 @@ This means:
 
       ### Entries Modified
       - [entry_id]: [number of examples linked]
+
+      ### Words Marked noentry (candidates for future entries)
+      - word1 (meaning)
+      - word2 (meaning)
 
       ### Notes
       - Any unusual cases or decisions made
@@ -151,7 +159,7 @@ Use the reference table in the skill file. Key entries:
 - 食べる: 00396_taberu
 
 ### For Other Words
-Search the dictionary:
+Search the dictionary by reading:
 ```bash
 python3 -c "
 import json
@@ -166,6 +174,21 @@ for f in Path('entries').glob('**/*.json'):
 
 Replace `TARGET_READING` with the hiragana reading.
 
+### Batch Lookup (Multiple Words)
+For efficiency, look up multiple words at once:
+```bash
+python3 -c "
+import json
+from pathlib import Path
+readings = ['reading1', 'reading2', 'reading3']  # Add all readings you need
+for f in Path('entries').glob('**/*.json'):
+    with open(f) as fp:
+        e = json.load(fp)
+        if e['reading'] in readings:
+            print(f\"{e['id']}: {e['headword']} ({e['reading']}) - {e['gloss'][:50]}\")
+"
+```
+
 ## Example Transformation
 
 **Before:**
@@ -175,7 +198,7 @@ Replace `TARGET_READING` with the hiragana reading.
 
 **After:**
 ```json
-"japanese": "⟦{私|わたし}→私：00651_watashi⟧⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧⟦{勉強|べんきょう}しています→勉強する：00527_benkyousuru⟧。"
+"japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧⟦{勉強|べんきょう}しています→勉強する：00527_benkyousuru⟧。"
 ```
 
 Note:
