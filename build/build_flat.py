@@ -29,7 +29,9 @@ from html_utils import (
     generate_nav_header,
     generate_furigana_script,
     generate_examples_script,
-    generate_header_search_script
+    generate_header_search_script,
+    generate_wordlinks_script,
+    process_word_links as _process_word_links_base
 )
 
 # Japan Standard Time (UTC+9)
@@ -51,6 +53,11 @@ GITHUB_PAGES_CNAME = "www.tkgje.jp"
 def process_furigana(text: str, show_furigana: bool = True) -> str:
     """Convert furigana notation to HTML ruby tags."""
     return _process_furigana_base(text, FURIGANA_PATTERN, show_furigana)
+
+
+def process_word_links(text: str, entries_dict: dict, relative_path: str = '../../') -> str:
+    """Process word link markup in text and generate HTML with links."""
+    return _process_word_links_base(text, entries_dict, relative_path, FURIGANA_PATTERN)
 
 
 def process_headword_with_kanji_links(text: str, relative_path: str = '../../') -> str:
@@ -132,18 +139,26 @@ def process_headword_with_kanji_links(text: str, relative_path: str = '../../') 
     return ''.join(parts)
 
 
-def process_notes_text(text: str) -> str:
+def process_notes_text(text: str, entries_dict: dict = None, relative_path: str = '../../') -> str:
     """
     Process notes text with proper formatting.
 
     Args:
         text: The notes text to process
+        entries_dict: Optional dict of entries for word link processing
+        relative_path: Path prefix for entry links
 
     Returns:
-        Formatted HTML string with furigana
+        Formatted HTML string with furigana (and word links if entries_dict provided)
     """
     if not text:
         return ''
+
+    # Choose processing function based on whether word links are enabled
+    def process_text(t):
+        if entries_dict is not None:
+            return process_word_links(t, entries_dict, relative_path)
+        return process_furigana(t)
 
     paragraphs = text.split('\n\n')
     result = []
@@ -160,12 +175,12 @@ def process_notes_text(text: str) -> str:
                 trimmed = line.strip()
                 if trimmed.startswith('- ') or trimmed.startswith('・'):
                     content = re.sub(r'^[-・]\s*', '', trimmed)
-                    list_items.append(f'<li>{process_furigana(content)}</li>')
+                    list_items.append(f'<li>{process_text(content)}</li>')
                 elif trimmed:
                     if list_items:
                         html_parts.append(f'<ul>{"".join(list_items)}</ul>')
                         list_items = []
-                    html_parts.append(f'<p>{process_furigana(trimmed)}</p>')
+                    html_parts.append(f'<p>{process_text(trimmed)}</p>')
 
             if list_items:
                 html_parts.append(f'<ul>{"".join(list_items)}</ul>')
@@ -173,7 +188,7 @@ def process_notes_text(text: str) -> str:
             result.append(''.join(html_parts))
         else:
             processed = '<br>'.join(
-                process_furigana(line.strip())
+                process_text(line.strip())
                 for line in lines
                 if line.strip()
             )
@@ -287,17 +302,20 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
 
     # Helper function to render examples
     def render_examples(examples_list):
-        """Render a list of examples as HTML."""
+        """Render a list of examples as HTML with word links."""
         parts = []
         for ex in examples_list:
             japanese = ex.get('japanese', '')
             english = ex.get('english', '')
             notes = ex.get('notes', '')
+            # Use process_word_links to handle link markup (falls back to furigana if no links)
+            japanese_html = process_word_links(japanese, entries_dict, relative_path)
+            notes_html = process_word_links(notes, entries_dict, relative_path) if notes else ''
             parts.append(f'''
                 <div class="example-item">
-                    <div class="example-japanese">{process_furigana(japanese)}</div>
+                    <div class="example-japanese">{japanese_html}</div>
                     <div class="example-english">{html.escape(english)}</div>
-                    {f'<div class="example-notes">{process_furigana(notes)}</div>' if notes else ''}
+                    {f'<div class="example-notes">{notes_html}</div>' if notes else ''}
                 </div>
             ''')
         return ''.join(parts)
@@ -375,7 +393,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     # Notes
     notes = entry.get('notes', '')
     if notes:
-        processed_notes = process_notes_text(notes)
+        processed_notes = process_notes_text(notes, entries_dict, relative_path)
         html_parts.append(f'''
             <div class="entry-notes">
                 <div class="notes-content">{processed_notes}</div>
@@ -507,6 +525,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     html_parts.append(generate_header_search_script(relative_path))
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
+    html_parts.append(generate_wordlinks_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -2212,6 +2231,49 @@ body {
 .examples-hidden .examples,
 .examples-hidden .sense-examples {
     display: none;
+}
+
+/* Word Links - invisible by default */
+.word-link {
+    text-decoration: none;
+    color: inherit;
+    pointer-events: none;
+    cursor: text;
+}
+
+/* When word links toggle is ON */
+body.show-word-links .word-link {
+    text-decoration: underline dotted;
+    text-decoration-color: rgba(0, 102, 204, 0.4);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+body.show-word-links .word-link:hover {
+    text-decoration-color: rgba(0, 102, 204, 0.8);
+}
+
+/* Tooltip showing baseform on hover */
+body.show-word-links .word-link {
+    position: relative;
+}
+
+body.show-word-links .word-link:hover::after {
+    content: attr(data-baseform);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.25rem 0.5rem;
+    background: #333;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 100;
+    pointer-events: none;
 }
 
 /* Main Content */
