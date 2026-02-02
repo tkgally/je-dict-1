@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-01
+**Last updated**: 2026-02-02
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 9,461
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,608 | Unassigned: 0 ✓
-- **Candidate words**: 205 words tracked in `candidate_words.json`
+- **Candidate words**: 279 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,23 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-02 (Candidate Words Expansion - Everyday Life Vocabulary)
+Added 74 new candidate words focusing on vocabulary encountered in everyday life in Japan:
+
+- **Shopping/Store Signs (12)**: レジ袋 (plastic bag), 値札 (price tag), 割引券 (discount coupon), 半額 (half price), 営業中 (now open), 準備中 (preparing), 定休日 (regular day off), 売り切れ (sold out), 品切れ (out of stock), 新発売 (newly released), お買い得 (good bargain), セルフレジ (self-checkout)
+- **Garbage/Recycling (4)**: 可燃ごみ (burnable garbage), 不燃ごみ (non-burnable garbage), 資源ごみ (recyclable waste), ごみ収集 (garbage collection)
+- **Status Signs (5)**: 立入禁止 (no entry), 使用中 (in use), 故障中 (out of order), 点検中 (under inspection), 工事中 (under construction), 清掃中 (cleaning in progress)
+- **Utility/Household (9)**: 電気代 (electricity bill), 水道代 (water bill), 洗濯物 (laundry), 蛍光灯 (fluorescent light), 乾電池 (dry cell battery), 三角コーナー (sink strainer), 水切りかご (dish drainer), レンジ対応 (microwave-safe), 取扱説明書 (user manual)
+- **Transportation (7)**: 改札口 (ticket gate), 券売機 (ticket machine), 精算機 (fare adjustment machine), 両替機 (change machine), 弱冷房車 (weakly air-conditioned car), 網棚 (luggage rack)
+- **Work/Employment (3)**: 通勤時間 (commute time), 夜勤 (night shift), 仲介手数料 (brokerage fee)
+- **Weather (4)**: 猛暑日 (extremely hot day), 真夏日 (hot summer day), 熱帯夜 (tropical night), 除湿 (dehumidification)
+- **Food/Dining (6)**: 宅配便 (home delivery), お会計 (bill), 自炊 (cooking for oneself), レトルト (retort pouch food), お箸 (chopsticks), ナプキン (napkin), ストロー (straw)
+- **Shopping Equipment (6)**: ポイントカード (loyalty card), バーコード (barcode), マイバッグ (reusable bag), 買い物かご (shopping basket), カート (shopping cart), 試着室 (fitting room), 保証書 (warranty)
+- **Administrative (8)**: 日用品 (daily necessities), 消耗品 (consumables), 保存方法 (storage instructions), 市販薬 (OTC medicine), 待ち時間 (waiting time), 回覧板 (neighborhood circular), 町内会 (neighborhood association), 転居届 (change of address)
+- **Taxes/Official (6)**: 住民票 (residence certificate), 印鑑証明 (seal certificate), 戸籍謄本 (family register copy), 年末調整 (year-end tax adjustment), 税込 (tax included), 税抜 (tax not included), 内税 (price including tax), 外税 (tax added separately)
+
+Candidate count: 205 → 279
 
 ### 2026-02-01 (Vocabulary Expansion - 30 New Entries, Session 207)
 Added 30 new dictionary entries from candidate_words.json, focusing on formal/literary vocabulary:
