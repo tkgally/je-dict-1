@@ -46,6 +46,54 @@
 <p class="recent-intro">Most recently added or revised entries.</p>
 <div class="recent-list">
 
+            <a href="entries/00000/00032_daiya.html" class="recent-item">
+                <span class="recent-headword">ダイヤ</span>
+                <span class="recent-gloss">diamond; train schedule</span>
+                <span class="recent-status revised">REVISED</span>
+                <span class="recent-date">2026.2.2 17:48</span>
+            </a>
+        
+
+            <a href="entries/00000/00035_daun.html" class="recent-item">
+                <span class="recent-headword">ダウン</span>
+                <span class="recent-gloss">down; decrease; down (jacket)</span>
+                <span class="recent-status revised">REVISED</span>
+                <span class="recent-date">2026.2.2 17:48</span>
+            </a>
+        
+
+            <a href="entries/00000/00031_daga.html" class="recent-item">
+                <span class="recent-headword">だが</span>
+                <span class="recent-gloss">but; however</span>
+                <span class="recent-status revised">REVISED</span>
+                <span class="recent-date">2026.2.2 17:48</span>
+            </a>
+        
+
+            <a href="entries/00000/00033_dakedo.html" class="recent-item">
+                <span class="recent-headword">だけど</span>
+                <span class="recent-gloss">but; however</span>
+                <span class="recent-status revised">REVISED</span>
+                <span class="recent-date">2026.2.2 17:48</span>
+            </a>
+        
+
+            <a href="entries/00000/00034_damu.html" class="recent-item">
+                <span class="recent-headword">ダム</span>
+                <span class="recent-gloss">dam</span>
+                <span class="recent-status revised">REVISED</span>
+                <span class="recent-date">2026.2.2 17:48</span>
+            </a>
+        
+
+            <a href="entries/00000/00030_chikau.html" class="recent-item">
+                <span class="recent-headword"><ruby>誓<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>う</span>
+                <span class="recent-gloss">to swear; to vow; to pledge</span>
+                <span class="recent-status revised">REVISED</span>
+                <span class="recent-date">2026.2.2 17:48</span>
+            </a>
+        
+
             <a href="entries/00000/00025_chiisai.html" class="recent-item">
                 <span class="recent-headword"><ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さい</span>
                 <span class="recent-gloss">small, little</span>
@@ -1997,54 +2045,6 @@
                 <span class="recent-date">2026.2.1 16:08</span>
             </a>
         
-
-            <a href="entries/09000/09300_disuru.html" class="recent-item">
-                <span class="recent-headword">ディスる</span>
-                <span class="recent-gloss">to diss; to disrespect; to badmouth</span>
-                <span class="recent-status new">NEW</span>
-                <span class="recent-date">2026.2.1 16:08</span>
-            </a>
-        
-
-            <a href="entries/09000/09299_baguru.html" class="recent-item">
-                <span class="recent-headword">バグる</span>
-                <span class="recent-gloss">to malfunction; to glitch; to bug out</span>
-                <span class="recent-status new">NEW</span>
-                <span class="recent-date">2026.2.1 16:08</span>
-            </a>
-        
-
-            <a href="entries/09000/09297_gudaguda.html" class="recent-item">
-                <span class="recent-headword">ぐだぐだ</span>
-                <span class="recent-gloss">slovenly; messy; dragging on; rambling</span>
-                <span class="recent-status new">NEW</span>
-                <span class="recent-date">2026.2.1 16:06</span>
-            </a>
-        
-
-            <a href="entries/09000/09293_guchiru.html" class="recent-item">
-                <span class="recent-headword"><ruby>愚痴<rp>(</rp><rt>ぐち</rt><rp>)</rp></ruby>る</span>
-                <span class="recent-gloss">to gripe; to complain; to grumble</span>
-                <span class="recent-status new">NEW</span>
-                <span class="recent-date">2026.2.1 16:06</span>
-            </a>
-        
-
-            <a href="entries/09000/09295_saboru.html" class="recent-item">
-                <span class="recent-headword">サボる</span>
-                <span class="recent-gloss">to skip; to slack off; to play hooky</span>
-                <span class="recent-status new">NEW</span>
-                <span class="recent-date">2026.2.1 16:06</span>
-            </a>
-        
-
-            <a href="entries/09000/09294_norokeru.html" class="recent-item">
-                <span class="recent-headword">のろける</span>
-                <span class="recent-gloss">to brag about one&#x27;s relationship; to gush about one&#x27;s partner</span>
-                <span class="recent-status new">NEW</span>
-                <span class="recent-date">2026.2.1 16:06</span>
-            </a>
-        
 </div>
 </main>
 
@@ -2132,6 +2132,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('wordlinks-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to hidden (toggle OFF)
+    var hidden = localStorage.getItem('wordLinksHidden') !== 'false';
+
+    function updateState() {
+        document.body.classList.toggle('show-word-links', !hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('wordLinksHidden', hidden);
         updateState();
     });
 })();
