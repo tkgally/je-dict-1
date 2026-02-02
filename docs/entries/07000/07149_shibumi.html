@@ -31,6 +31,10 @@
             <span class="toggle-icon">振</span>
             <span class="toggle-label">Furigana</span>
         </button>
+        <button id="wordlinks-toggle" class="toggle-btn wordlinks-toggle-btn" type="button" aria-pressed="false" title="Toggle word links (click words to see their entries)">
+            <span class="toggle-icon">🔗</span>
+            <span class="toggle-label">Links</span>
+        </button>
     </div>
 </header>
 <main class="entry-page">
@@ -223,6 +227,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('wordlinks-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to hidden (toggle OFF)
+    var hidden = localStorage.getItem('wordLinksHidden') !== 'false';
+
+    function updateState() {
+        document.body.classList.toggle('show-word-links', !hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('wordLinksHidden', hidden);
         updateState();
     });
 })();
