@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00010_banchi_ex1",
-      "japanese": "この{建物|たてもの}の{番地|ばんち}は{何番|なんばん}ですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{番地|ばんち}⟦は→は：00079_ha⟧⟦{何番|なんばん}→何番：noentry⟧です⟦か→か：09473_ka⟧。",
       "english": "What is the house number of this building?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00010_banchi_ex2",
-      "japanese": "{住所|じゅうしょ}には{番地|ばんち}まで{書|か}いてください。",
+      "japanese": "⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{番地|ばんち}⟦まで→まで：00490_made⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please include the house number in the address.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00010_banchi_ex3",
-      "japanese": "3{丁目|ちょうめ}5{番地|ばんち}に{住|す}んでいます。",
+      "japanese": "3⟦{丁目|ちょうめ}→丁目：noentry⟧5{番地|ばんち}⟦に→に：00314_ni⟧⟦{住|す}んでいます→住む：00673_sumu⟧。",
       "english": "I live at 5 banchi, 3-chome.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "{番地|ばんち} is the lot/house number in the Japanese address system. Japanese addresses work differently from Western ones, typically going from large to small: prefecture → city → ward → district → block → lot number.\n\nAddress structure example:\n{東京都|とうきょうと}{渋谷区|しぶやく}{神宮前|じんぐうまえ}1{丁目|ちょうめ}2{番地|ばんち}3{号|ごう}\n(Tokyo, Shibuya Ward, Jingumae, 1-chome, 2-banchi, 3-go)\n\nRelated terms:\n- {住所|じゅうしょ} (address)\n- {丁目|ちょうめ} (district number within a neighborhood)\n- {号|ごう} (building number within a lot)",
+  "notes": "{番地|ばんち} is the lot/house number in the Japanese address system. Japanese addresses work differently from Western ones, typically going from large to small: prefecture → city → ward → district → block → lot number.\n\nAddress structure example:\n{東京都|とうきょうと}{渋谷区|しぶやく}{神宮前|じんぐうまえ}1{丁目|ちょうめ}2{番地|ばんち}3{号|ごう}\n(Tokyo, Shibuya Ward, Jingumae, 1-chome, 2-banchi, 3-go)\n\nRelated terms:\n- ⟦{住所|じゅうしょ}→住所：01430_juusho⟧ (address)\n- {丁目|ちょうめ} (district number within a neighborhood)\n- {号|ごう} (building number within a lot)",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-01-19T12:14:14.767149Z",
+    "modified": "2026-02-02T06:12:38Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

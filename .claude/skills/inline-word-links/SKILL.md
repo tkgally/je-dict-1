@@ -100,7 +100,7 @@ Original:
 
 With links:
 ```json
-"japanese": "⟦{私|わたし}→私：00651_watashi⟧⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦{分|わ}かります→分かる：00463_wakaru⟧。"
+"japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦{分|わ}かります→分かる：00463_wakaru⟧。"
 ```
 
 ### Example with Conjugation
@@ -151,14 +151,14 @@ Use this table for quick reference. For words not listed, search the dictionary.
 | 00547_dore | どれ | どれ | which one |
 | 00551_dono | どの | どの | which (+ noun) |
 | 00498_nani | 何 | なに | what |
-| 00651_watashi | 私 | わたし | I, me |
+| 02988_watashi | 私 | わたし | I, me |
 | 00915_ano | あの | あの | that (over there) |
 | 00919_asoko | あそこ | あそこ | over there |
 | 00961_koko | ここ | ここ | here |
 | 00962_kono | この | この | this |
 | 00991_soko | そこ | そこ | there |
 | 00993_sono | その | その | that |
-| 01060_kare | 彼 | かれ | he |
+| 00994_sore | それ | それ | that (thing) |
 | 01292_kare | 彼 | かれ | he, him |
 | 01293_kanojo | 彼女 | かのじょ | she, her |
 
@@ -298,6 +298,41 @@ Use this table for quick reference. For words not listed, search the dictionary.
 | 00603_mada | まだ | まだ | still, not yet |
 | 00604_amari | あまり | あまり | not very |
 | 00814_sugu | すぐ | すぐ | immediately |
+| 00881_saikin | 最近 | さいきん | recently, lately |
+| 01284_moshi | もし | もし | if, in case |
+
+### Additional Common Words
+
+These are frequently encountered words not in the categories above:
+
+| Entry ID | Word | Reading | Gloss |
+|----------|------|---------|-------|
+| 00164_kamoshirenai | かもしれない | かもしれない | might, perhaps |
+| 00554_kodomo | 子供 | こども | child |
+| 00673_sumu | 住む | すむ | to live, reside |
+| 00755_shizuka | 静か | しずか | quiet, calm |
+| 00791_kowareru | 壊れる | こわれる | to break |
+| 00823_wakai | 若い | わかい | young |
+| 00846_hitsuyou | 必要 | ひつよう | necessary |
+| 01098_ireru | 入れる | いれる | to put in |
+| 01127_ooi | 多い | おおい | many, much |
+| 01137_tokoro | ところ | ところ | place, point |
+| 01165_mieru | 見える | みえる | to be visible |
+| 01179_keiken | 経験 | けいけん | experience |
+| 01430_juusho | 住所 | じゅうしょ | address |
+| 01458_tatemono | 建物 | たてもの | building |
+| 01636_shippai | 失敗 | しっぱい | failure |
+| 01932_kiku | 効く | きく | to be effective |
+| 01970_naru | なる | なる | to become |
+| 02355_suki | 好き | すき | like, fond of |
+| 02444_hiku | 弾く | ひく | to play (instrument) |
+| 02514_kekkon | 結婚 | けっこん | marriage |
+| 02848_issho | 一緒 | いっしょ | together |
+| 02899_kudasai | ください | ください | please (do) |
+| 03036_machigau | 間違う | まちがう | to make a mistake |
+| 03093_dake | だけ | だけ | only, just |
+| 03290_seichou | 成長 | せいちょう | growth |
+| 03823_senshu | 選手 | せんしゅ | player, athlete |
 
 ### Conjunctions
 
@@ -315,7 +350,24 @@ Use this table for quick reference. For words not listed, search the dictionary.
 3. **Look up entry IDs** - Use reference table or search dictionary
 4. **Verify semantically** - Confirm each link matches intended meaning
 5. **Add markup** - Apply the link format carefully
-6. **Review** - Read through the linked sentence to verify
+6. **Validate immediately** - Run validation to catch ID errors early:
+   ```bash
+   python3 build/validate.py 2>&1 | grep -A5 "Word link"
+   ```
+7. **Review** - Read through the linked sentence to verify
+
+## Tracking `noentry` Words
+
+When you mark a word with `noentry`, consider tracking it for potential future entry creation. In your session log, include:
+
+```markdown
+### Words marked noentry (candidates for future entries)
+- ランナー (runner)
+- セーフ (safe - sports)
+- 丁目 (district number)
+```
+
+This helps identify gaps in the dictionary that may need filling.
 
 ## Quality Checklist
 
