@@ -20,6 +20,7 @@ Dictionary features include:
 - **Kanji index** linking each kanji in headwords to all other entries containing that kanji
 - **Multiple interface modes**: Search, Browse, Recent, and Random views
 - **Cross-reference linking** connecting related words, antonyms, and transitivity pairs
+- **Inline word links** in example sentences allowing navigation to any word's entry
 - **Transitivity and aspect information** for verbs
 - **Collocation patterns** showing natural word combinations
 - **Keigo (honorific) verb coverage** with usage guidance
@@ -127,6 +128,47 @@ Examples:
 - Click the **Furigana** button in the header to toggle readings on/off
 - When enabled, readings appear above kanji using HTML `<ruby>` tags
 - Preference is saved in localStorage
+
+## Inline Word Links
+
+Example sentences can contain inline word links that allow users to click any word to navigate to its dictionary entry.
+
+### Link Format
+
+In JSON source files, links use special Unicode delimiters:
+
+```
+⟦{surface|reading}→baseform：entry_id⟧
+```
+
+**Components:**
+- `⟦` (U+27E6) - Opening bracket
+- `surface` - The word as it appears in the sentence (may include furigana notation)
+- `→` (U+2192) - Arrow separator
+- `baseform` - The dictionary form of the word (displayed in tooltip)
+- `：` (U+FF1A) - Fullwidth colon separator
+- `entry_id` - The target dictionary entry ID (e.g., `00111_hon`)
+- `⟧` (U+27E7) - Closing bracket
+
+Example:
+```json
+"japanese": "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。"
+```
+
+### In the Web Interface
+
+- Click the **Wordlinks** button in the header to toggle link visibility
+- When enabled, words with links show a dotted underline
+- Hover over a linked word to see a tooltip with the dictionary form
+- Click to navigate to that word's entry
+- Preference is saved in localStorage
+
+### Special Cases
+
+- **`noentry`**: Use for words without dictionary entries: `⟦{矍鑠|かくしゃく}→矍鑠：noentry⟧`
+- **Conjugated forms**: Link to the dictionary form (e.g., 食べました → 食べる)
+- **No self-reference**: Don't link the headword in its own examples
+- **Punctuation**: Do not link punctuation marks (。、？！)
 
 ## Kanji Index
 
@@ -356,6 +398,7 @@ The following skills are available in `.claude/skills/` and will be automaticall
 | `delete-entry` | Guidelines for safely deleting entries |
 | `resolve-duplicates` | Guidelines for identifying and resolving duplicate entries |
 | `kanji-index` | Guidelines for maintaining the kanji index feature |
+| `inline-word-links` | Guidelines for adding inline cross-reference links to examples |
 
 Skills are automatically loaded when Claude determines they're relevant to the current task.
 

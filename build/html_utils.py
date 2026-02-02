@@ -9,6 +9,8 @@ import html
 import re
 from typing import Optional
 
+from constants import LINK_OPEN, LINK_CLOSE, LINK_ARROW, LINK_COLON, NOENTRY
+
 
 def process_furigana(text: str, furigana_pattern: re.Pattern, show_furigana: bool = True) -> str:
     """
@@ -98,6 +100,10 @@ def generate_nav_header(relative_path: str = '', show_all_links: bool = True) ->
         <button id="furigana-toggle" class="toggle-btn furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
             <span class="toggle-icon">振</span>
             <span class="toggle-label">Furigana</span>
+        </button>
+        <button id="wordlinks-toggle" class="toggle-btn wordlinks-toggle-btn" type="button" aria-pressed="false" title="Toggle word links (click words to see their entries)">
+            <span class="toggle-icon">🔗</span>
+            <span class="toggle-label">Links</span>
         </button>
     </div>
 </header>'''
@@ -198,4 +204,137 @@ def generate_header_search_script(relative_path: str = '') -> str:
         if (e.key === 'Enter') performSearch();
     }});
 }})();
+</script>'''
+
+
+# Regex patterns for word link parsing
+# Link block pattern: matches ⟦...⟧
+LINK_BLOCK_PATTERN = re.compile(r'⟦([^⟧]+)⟧')
+# Link info pattern: matches surface→baseform：entry_id
+LINK_INFO_PATTERN = re.compile(r'^(.+?)→(.+?)：(.+)$')
+
+
+def process_word_links(
+    text: str,
+    entries_dict: dict,
+    relative_path: str,
+    furigana_pattern: re.Pattern
+) -> str:
+    """
+    Process word link markup in text and generate HTML.
+
+    Parses the format: ⟦surface_form→baseform：entry_id⟧
+    - If entry_id exists in entries_dict, generates a link
+    - If entry_id is 'noentry' or doesn't exist, generates plain text
+    - Furigana in surface_form is processed to ruby tags
+
+    Args:
+        text: Text containing word link markup
+        entries_dict: Dict mapping entry IDs to entry data
+        relative_path: Path prefix to reach the flat root (e.g., '../../')
+        furigana_pattern: Compiled regex for furigana notation
+
+    Returns:
+        HTML string with word links processed
+    """
+    if not text:
+        return ''
+
+    def process_surface_furigana(surface: str) -> str:
+        """Process furigana in surface form to ruby tags."""
+        def replace_furigana(match):
+            kanji = html.escape(match.group(1))
+            reading = html.escape(match.group(2))
+            return f'<ruby>{kanji}<rp>(</rp><rt>{reading}</rt><rp>)</rp></ruby>'
+
+        parts = []
+        last_end = 0
+        for match in furigana_pattern.finditer(surface):
+            if match.start() > last_end:
+                parts.append(html.escape(surface[last_end:match.start()]))
+            parts.append(replace_furigana(match))
+            last_end = match.end()
+        if last_end < len(surface):
+            parts.append(html.escape(surface[last_end:]))
+        return ''.join(parts)
+
+    def replace_link_block(match):
+        """Replace a single ⟦...⟧ block with HTML."""
+        content = match.group(1)
+
+        # Parse the link info
+        info_match = LINK_INFO_PATTERN.match(content)
+        if not info_match:
+            # Invalid format - just return the content with furigana processed
+            return process_surface_furigana(content)
+
+        surface = info_match.group(1)
+        baseform = info_match.group(2)
+        entry_id = info_match.group(3)
+
+        # Process furigana in surface form
+        surface_html = process_surface_furigana(surface)
+
+        # Determine if we should create a link
+        if entry_id == NOENTRY or entry_id not in entries_dict:
+            # No link - just return the surface form
+            return surface_html
+
+        # Create link HTML
+        # Calculate the path to the entry
+        dir_range = f"{(int(entry_id[:5]) // 500) * 500:05d}"
+        entry_path = f"{relative_path}entries/{dir_range}/{entry_id}.html"
+
+        return (
+            f'<a class="word-link" href="{entry_path}" '
+            f'data-baseform="{html.escape(baseform)}">{surface_html}</a>'
+        )
+
+    # Process all link blocks
+    result = []
+    last_end = 0
+
+    for match in LINK_BLOCK_PATTERN.finditer(text):
+        # Add text before this link block (with furigana processed)
+        if match.start() > last_end:
+            before_text = text[last_end:match.start()]
+            result.append(process_surface_furigana(before_text))
+
+        # Process the link block
+        result.append(replace_link_block(match))
+        last_end = match.end()
+
+    # Add remaining text after the last link block
+    if last_end < len(text):
+        result.append(process_surface_furigana(text[last_end:]))
+
+    return ''.join(result)
+
+
+def generate_wordlinks_script() -> str:
+    """Generate the word links toggle JavaScript."""
+    return '''<script>
+(function() {
+    var btn = document.getElementById('wordlinks-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to hidden (toggle OFF)
+    var hidden = localStorage.getItem('wordLinksHidden') !== 'false';
+
+    function updateState() {
+        document.body.classList.toggle('show-word-links', !hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('wordLinksHidden', hidden);
+        updateState();
+    });
+})();
 </script>'''

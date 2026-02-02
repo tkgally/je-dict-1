@@ -20,7 +20,7 @@ from japanese_utils import (
     hiragana_to_romaji, normalize_reading,
     is_valid_hiragana, contains_katakana
 )
-from constants import CROSS_REF_TYPES
+from constants import CROSS_REF_TYPES, LINK_OPEN, LINK_CLOSE, LINK_ARROW, LINK_COLON, NOENTRY
 
 
 try:
@@ -47,6 +47,7 @@ class ValidationResult:
         target_id_errors: List of (file_path, error_message) for stale target_id references
         hardenable_warnings: List of (file_path, warning_message) for refs that could be hardened
         katakana_reading_errors: List of (file_path, error_message) for readings containing katakana
+        word_link_warnings: List of (file_path, warning_message) for word link format issues
     """
     total_count: int = 0
     valid_count: int = 0
@@ -58,6 +59,7 @@ class ValidationResult:
     target_id_errors: list[tuple[Path, str]] = field(default_factory=list)
     hardenable_warnings: list[tuple[Path, str]] = field(default_factory=list)
     katakana_reading_errors: list[tuple[Path, str]] = field(default_factory=list)
+    word_link_warnings: list[tuple[Path, str]] = field(default_factory=list)
 
 
 def load_schema(schema_path: Path) -> dict:
@@ -243,6 +245,79 @@ def check_katakana_readings(entries_data: list[tuple[Path, dict]]) -> list[tuple
             ))
 
     return errors
+
+
+# Regex patterns for word link validation
+WORD_LINK_BLOCK_PATTERN = re.compile(r'⟦([^⟧]+)⟧')
+WORD_LINK_INFO_PATTERN = re.compile(r'^(.+?)→(.+?)：(.+)$')
+
+
+def check_word_links(entries_data: list[tuple[Path, dict]], all_ids: set) -> list[tuple[Path, str]]:
+    """
+    Check word link markup in examples and notes for issues.
+
+    Validates:
+    - Balanced brackets (every ⟦ has matching ⟧)
+    - Valid link format (surface→baseform：entry_id)
+    - Entry existence (warns if entry_id not in dictionary and not 'noentry')
+
+    Returns a list of (file_path, warning_message) for issues found.
+    """
+    warnings = []
+
+    for file_path, entry in entries_data:
+        entry_id = entry.get('id', '')
+
+        # Collect all text fields to check
+        texts_to_check = []
+
+        # Check examples
+        for ex in entry.get('examples', []):
+            if ex.get('japanese'):
+                texts_to_check.append(('example japanese', ex['japanese']))
+            if ex.get('notes'):
+                texts_to_check.append(('example notes', ex['notes']))
+
+        # Check entry notes
+        if entry.get('notes'):
+            texts_to_check.append(('notes', entry['notes']))
+
+        for field_name, text in texts_to_check:
+            # Check for unbalanced brackets
+            open_count = text.count(LINK_OPEN)
+            close_count = text.count(LINK_CLOSE)
+            if open_count != close_count:
+                warnings.append((
+                    file_path,
+                    f"Unbalanced word link brackets in {field_name}: "
+                    f"{open_count} open '⟦' vs {close_count} close '⟧'"
+                ))
+                continue
+
+            # Check each link block
+            for match in WORD_LINK_BLOCK_PATTERN.finditer(text):
+                content = match.group(1)
+                info_match = WORD_LINK_INFO_PATTERN.match(content)
+
+                if not info_match:
+                    warnings.append((
+                        file_path,
+                        f"Invalid word link format in {field_name}: '⟦{content}⟧' "
+                        f"(expected: ⟦surface→baseform：entry_id⟧)"
+                    ))
+                    continue
+
+                link_entry_id = info_match.group(3)
+
+                # Warn if entry doesn't exist (but not for 'noentry')
+                if link_entry_id != NOENTRY and link_entry_id not in all_ids:
+                    warnings.append((
+                        file_path,
+                        f"Word link references non-existent entry in {field_name}: "
+                        f"'{link_entry_id}'"
+                    ))
+
+    return warnings
 
 
 def validate_structured_cross_reference(ref: dict, entry_reading: str, entry_headword: str) -> list[str]:
@@ -633,6 +708,9 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
     # Check for katakana in readings (should be hiragana only)
     katakana_reading_errors = check_katakana_readings(entries_data)
 
+    # Check word link markup format and validity
+    word_link_warnings = check_word_links(entries_data, all_ids)
+
     return ValidationResult(
         total_count=total,
         valid_count=valid,
@@ -643,7 +721,8 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
         sense_number_errors=sense_number_errors,
         target_id_errors=target_id_errors,
         hardenable_warnings=hardenable_warnings,
-        katakana_reading_errors=katakana_reading_errors
+        katakana_reading_errors=katakana_reading_errors,
+        word_link_warnings=word_link_warnings
     )
 
 
@@ -850,6 +929,19 @@ def main():
             print(f"    - {error_msg}")
         print()
 
+    # Report word link warnings
+    if result.word_link_warnings:
+        print(f"\nWord link warnings ({len(result.word_link_warnings)} issues):\n")
+        # Only show first 10 to avoid spam
+        shown = result.word_link_warnings[:10]
+        for file_path, warning_msg in shown:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {warning_msg}")
+        if len(result.word_link_warnings) > 10:
+            print(f"\n  ... and {len(result.word_link_warnings) - 10} more.")
+        print()
+
     print(f"Validation complete: {result.valid_count}/{result.total_count} entries valid")
     warnings = []
     if result.cross_ref_errors:
@@ -866,6 +958,8 @@ def main():
         warnings.append(f"{len(result.hardenable_warnings)} hardenable refs")
     if result.katakana_reading_errors:
         warnings.append(f"{len(result.katakana_reading_errors)} katakana reading errors")
+    if result.word_link_warnings:
+        warnings.append(f"{len(result.word_link_warnings)} word link warnings")
     if warnings:
         print(f"  ({', '.join(warnings)})")
 

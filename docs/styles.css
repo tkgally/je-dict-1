@@ -210,6 +210,49 @@ body {
     display: none;
 }
 
+/* Word Links - invisible by default */
+.word-link {
+    text-decoration: none;
+    color: inherit;
+    pointer-events: none;
+    cursor: text;
+}
+
+/* When word links toggle is ON */
+body.show-word-links .word-link {
+    text-decoration: underline dotted;
+    text-decoration-color: rgba(0, 102, 204, 0.4);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+body.show-word-links .word-link:hover {
+    text-decoration-color: rgba(0, 102, 204, 0.8);
+}
+
+/* Tooltip showing baseform on hover */
+body.show-word-links .word-link {
+    position: relative;
+}
+
+body.show-word-links .word-link:hover::after {
+    content: attr(data-baseform);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.25rem 0.5rem;
+    background: #333;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 100;
+    pointer-events: none;
+}
+
 /* Main Content */
 main {
     max-width: var(--max-width);

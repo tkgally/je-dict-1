@@ -39,6 +39,15 @@ CROSS_REF_LABELS = {
 }
 
 
+# Cross-reference link delimiters for inline word links
+# These Unicode characters are selected to avoid conflicts with JSON, HTML, and furigana notation
+LINK_OPEN = '⟦'      # U+27E6 Mathematical left white square bracket
+LINK_CLOSE = '⟧'     # U+27E7 Mathematical right white square bracket
+LINK_ARROW = '→'     # U+2192 Rightwards arrow
+LINK_COLON = '：'    # U+FF1A Fullwidth colon
+NOENTRY = 'noentry'  # Marker for words without dictionary entries
+
+
 def get_cross_ref_label(ref_type: str) -> str:
     """Get display label for cross-reference type.
 
