@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 9,618
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,825 | Unassigned: 0 ✓
-- **Candidate words**: 220 words tracked in `candidate_words.json`
+- **Candidate words**: 313 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,18 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-03 (Candidate Words - 93 New Candidates)
+Added 93 new candidate words focusing on everyday life vocabulary in Japan, covering multiple categories:
+
+- **Delivery/Logistics (10)**: 不在票, 再配達, 宅配ボックス, 置き配, 代引き, 追跡, 配達状況, etc.
+- **Shopping/Dining (15)**: 駐車禁止, 相席, 禁煙席, おごり, 行列, 閉店, ランチタイム, ラストオーダー, おしぼり, お通し, 割り箸, etc.
+- **Healthcare (7)**: 保険証, 問診票, 診察券, ドラッグストア, 頭痛薬, 風邪薬, 解熱剤, 目薬, 虫除け
+- **Housing/Administrative (14)**: 集合住宅, 内見, 仲介, 身分証明書, 転出届, 転入届, シャチハタ, 連帯保証人, オートロック, etc.
+- **Technology/Services (20)**: 初期設定, 機種変更, データ移行, 充電切れ, 通信制限, フリーWi-Fi, テザリング, 格安スマホ, 格安SIM, サブスク, 自動更新, etc.
+- **Other daily life (27)**: コインランドリー, クリーニング店, スーパー銭湯, 岩盤浴, ロッカー, 靴箱, 上がりがまち, 三和土, 集合ポスト, etc.
+
+Total candidates: 220 → 313 (+93)
 
 ### 2026-02-03 (Vocabulary Expansion - 30 New Entries, Session 208)
 Added 30 new dictionary entries from candidate_words.json, covering nature/environment, education, daily life, and business vocabulary:
