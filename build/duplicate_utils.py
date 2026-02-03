@@ -3,9 +3,19 @@ Shared utilities for duplicate entry detection.
 
 This module provides common duplicate-checking logic used by both
 check_duplicate.py and manage_candidates.py.
+
+DUPLICATE DEFINITION:
+A word is considered a duplicate ONLY if both the headword (kanji/kana)
+AND reading match an existing entry exactly.
+
+Homophones (same reading, different headword) are NOT duplicates.
+Examples: 橋/箸/端 (all はし), 線香/先行 (both せんこう)
+
+Homographs (same headword, different reading) are NOT duplicates.
+Examples: 行く (いく/ゆく), 明日 (あした/あす)
 """
 
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 
 from japanese_utils import strip_furigana
 
@@ -20,6 +30,10 @@ def check_for_duplicate(
     """
     Check if a word already exists in entries or candidates.
 
+    A word is considered a duplicate ONLY if both headword AND reading match.
+    Homophones (same reading, different headword) are NOT duplicates.
+    Homographs (same headword, different reading) are NOT duplicates.
+
     Args:
         word: The word to check (may include furigana markup)
         reading: The reading in hiragana
@@ -29,16 +43,20 @@ def check_for_duplicate(
 
     Returns:
         Dict with:
-            - is_duplicate: bool
+            - is_duplicate: bool (True only for exact matches)
             - found_in: 'entries' | 'candidates' | None
-            - match_type: 'exact' | 'reading_only' | 'word_only' | None
+            - match_type: 'exact' | None
             - details: str with match information
+            - homophones: list of entries with same reading (informational)
+            - homographs: list of entries with same headword (informational)
     """
     result = {
         'is_duplicate': False,
         'found_in': None,
         'match_type': None,
-        'details': None
+        'details': None,
+        'homophones': [],
+        'homographs': []
     }
 
     # Normalize the word (strip furigana if present)
@@ -49,32 +67,32 @@ def check_for_duplicate(
         entry_reading = entry.get('reading', '')
         entry_headword = strip_furigana(entry.get('headword', ''))
 
-        # Check for exact match (both reading and headword)
+        # Check for exact match (both reading AND headword match)
         if entry_reading == reading and entry_headword == clean_word:
             return {
                 'is_duplicate': True,
                 'found_in': 'entries',
                 'match_type': 'exact',
-                'details': f"Exact match: {entry['id']} ({entry_headword} / {entry_reading})"
+                'details': f"Exact match: {entry['id']} ({entry_headword} / {entry_reading})",
+                'homophones': [],
+                'homographs': []
             }
 
-        # Check for reading-only match
-        if entry_reading == reading:
-            return {
-                'is_duplicate': True,
-                'found_in': 'entries',
-                'match_type': 'reading_only',
-                'details': f"Reading match: {entry['id']} ({entry_headword} / {entry_reading})"
-            }
+        # Track homophones (same reading, different headword) - informational only
+        if entry_reading == reading and entry_headword != clean_word:
+            result['homophones'].append({
+                'id': entry['id'],
+                'headword': entry_headword,
+                'reading': entry_reading
+            })
 
-        # Check for headword-only match
-        if entry_headword == clean_word:
-            return {
-                'is_duplicate': True,
-                'found_in': 'entries',
-                'match_type': 'word_only',
-                'details': f"Headword match: {entry['id']} ({entry_headword} / {entry_reading})"
-            }
+        # Track homographs (same headword, different reading) - informational only
+        if entry_headword == clean_word and entry_reading != reading:
+            result['homographs'].append({
+                'id': entry['id'],
+                'headword': entry_headword,
+                'reading': entry_reading
+            })
 
     # Check candidate_words.json (unless skipped)
     if not skip_candidates and candidates_data:
@@ -82,31 +100,62 @@ def check_for_duplicate(
             cand_reading = cand.get('reading', '')
             cand_word = cand.get('word', '')
 
-            # Check for exact match
+            # Check for exact match (both reading AND word match)
             if cand_reading == reading and cand_word == clean_word:
                 return {
                     'is_duplicate': True,
                     'found_in': 'candidates',
                     'match_type': 'exact',
-                    'details': f"Exact match in candidates: {cand['id']} ({cand_word} / {cand_reading})"
+                    'details': f"Exact match in candidates: {cand['id']} ({cand_word} / {cand_reading})",
+                    'homophones': result['homophones'],
+                    'homographs': result['homographs']
                 }
 
-            # Check for reading-only match
-            if cand_reading == reading:
-                return {
-                    'is_duplicate': True,
-                    'found_in': 'candidates',
-                    'match_type': 'reading_only',
-                    'details': f"Reading match in candidates: {cand['id']} ({cand_word} / {cand_reading})"
-                }
+            # Track homophones in candidates - informational only
+            if cand_reading == reading and cand_word != clean_word:
+                result['homophones'].append({
+                    'id': cand['id'],
+                    'headword': cand_word,
+                    'reading': cand_reading,
+                    'source': 'candidates'
+                })
 
-            # Check for word-only match
-            if cand_word == clean_word:
-                return {
-                    'is_duplicate': True,
-                    'found_in': 'candidates',
-                    'match_type': 'word_only',
-                    'details': f"Word match in candidates: {cand['id']} ({cand_word} / {cand_reading})"
-                }
+            # Track homographs in candidates - informational only
+            if cand_word == clean_word and cand_reading != reading:
+                result['homographs'].append({
+                    'id': cand['id'],
+                    'headword': cand_word,
+                    'reading': cand_reading,
+                    'source': 'candidates'
+                })
 
     return result
+
+
+def format_related_entries(result: Dict[str, Any]) -> str:
+    """
+    Format informational messages about homophones and homographs.
+
+    Args:
+        result: The result dict from check_for_duplicate
+
+    Returns:
+        Formatted string with information about related entries, or empty string.
+    """
+    messages = []
+
+    if result.get('homophones'):
+        homophones = result['homophones'][:3]  # Limit to first 3
+        homophone_strs = [f"{h['headword']} ({h['id']})" for h in homophones]
+        if len(result['homophones']) > 3:
+            homophone_strs.append(f"...and {len(result['homophones']) - 3} more")
+        messages.append(f"Homophones exist: {', '.join(homophone_strs)}")
+
+    if result.get('homographs'):
+        homographs = result['homographs'][:3]  # Limit to first 3
+        homograph_strs = [f"{h['reading']} ({h['id']})" for h in homographs]
+        if len(result['homographs']) > 3:
+            homograph_strs.append(f"...and {len(result['homographs']) - 3} more")
+        messages.append(f"Same kanji with different readings: {', '.join(homograph_strs)}")
+
+    return '\n'.join(messages)
