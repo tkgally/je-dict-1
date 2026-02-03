@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09528_tanaka_ex1",
-      "japanese": "{田中|たなか}⟦さん→さん：00758_san⟧。",
+      "japanese": "{田中|たなか}さん。",
       "english": "Mr./Ms. Tanaka.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09528_tanaka_ex2",
       "japanese": "{田中|たなか}{夫妻|ふさい}⟦を→を：00422_wo⟧⟦{招待|しょうたい}→招待：01435_shoutai⟧⟦した→する：00392_suru⟧。",
       "english": "I invited the Tanakas (Mr. and Mrs. Tanaka).",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09528_tanaka_ex3",
-      "japanese": "{田中|たなか}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：00607_nihon⟧⟦で→で：00502_de⟧⟦{多|おお}い→多い：00413_ooi⟧⟦{名字|みょうじ}→名字：02679_myouji⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "{田中|たなか}⟦は→は：00079_ha⟧{日本|にほん}⟦で→で：00502_de⟧{多|おお}い{名字|みょうじ}⟦だ→だ：09496_da⟧。",
       "english": "Tanaka is a common surname in Japan.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{田中|たなか} is one of the most common Japanese surnames.\n\nETYMOLOGY:\n- {田|た}: rice field\n- {中|なか}: middle, inside\n- Literally: \"in the rice field\"",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

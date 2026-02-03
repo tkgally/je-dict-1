@@ -17,21 +17,27 @@
       "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{欠航|けっこう}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "The flight was cancelled.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09509_kekkou_ex2",
-      "japanese": "⟦{台風|たいふう}→台風：00581_taifuu⟧⟦で→で：00502_de⟧{欠航|けっこう}⟦する→する：00392_suru⟧。",
+      "japanese": "{台風|たいふう}⟦で→で：00502_de⟧{欠航|けっこう}⟦する→する：00392_suru⟧。",
       "english": "To be cancelled due to the typhoon.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09509_kekkou_ex3",
       "japanese": "⟦{吹雪|ふぶき}→吹雪：00040_fubuki⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{欠航|けっこう}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "The flight was cancelled due to the blizzard.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{欠航|けっこう} means flight/service cancellation.\n\nUSAGE:\n- {欠航|けっこう}になる: to be cancelled\n- {欠航|けっこう}する: to cancel (service)\n\nRELATED WORDS:\n- {運休|うんきゅう}: service suspension (trains)\n- {遅延|ちえん}: delay\n\nNOTE: Do not confuse with:\n- {決行|けっこう}: to carry out (proceed despite obstacles)\n- {結構|けっこう}: quite; fine; no thank you",
@@ -41,10 +47,15 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

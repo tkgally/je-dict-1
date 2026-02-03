@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09571_takuhai_ex1",
-      "japanese": "{宅配|たくはい}⟦{便|びん}→便：01877_bin⟧⟦で→で：00502_de⟧⟦{荷物|にもつ}→荷物：02027_nimotsu⟧⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
+      "japanese": "{宅配|たくはい}{便|びん}⟦で→で：00502_de⟧{荷物|にもつ}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To send a package by home delivery service.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09571_takuhai_ex2",
-      "japanese": "{宅配|たくはい}⟦ピザ→ピザ：06406_piza⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：00699_tanomu⟧。",
+      "japanese": "{宅配|たくはい}ピザ⟦を→を：00422_wo⟧{頼|たの}んだ。",
       "english": "I ordered pizza delivery.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09571_takuhai_ex3",
-      "japanese": "{宅配|たくはい}⟦ボックス→ボックス：06817_bokkusu⟧⟦に→に：00314_ni⟧⟦{届|とど}いていた→届く：00712_todoku⟧。",
+      "japanese": "{宅配|たくはい}ボックス⟦に→に：00314_ni⟧{届|とど}いていた。",
       "english": "It had been delivered to the delivery box.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{宅配|たくはい} means home delivery service. It's commonly seen in compounds.\n\nCOMMON COMPOUNDS:\n- {宅配便|たくはいびん} (delivery service, courier service)\n- {宅配|たくはい}ピザ (pizza delivery)\n- {宅配|たくはい}ボックス (delivery box/locker)\n\nRELATED TERMS:\n- {配達|はいたつ} (delivery - more general term)\n- {出前|でまえ} (food delivery from restaurants)",
@@ -41,10 +47,14 @@
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

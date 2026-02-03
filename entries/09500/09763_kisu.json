@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09763_kisu_ex1",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{頬|ほほ}→頬：00097_hoho⟧⟦に→に：00314_ni⟧キス⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{頬|ほほ}⟦に→に：00314_ni⟧キス⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I kissed her on the cheek.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09763_kisu_ex2",
-      "japanese": "⟦{二人|ふたり}→二人：00017_futari⟧⟦は→は：00079_ha⟧キスをした。",
+      "japanese": "{二人|ふたり}⟦は→は：00079_ha⟧キスをした。",
       "english": "The two kissed.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09763_kisu_ex3",
-      "japanese": "⟦{映画|えいが}→映画：00556_eiga⟧⟦の→の：09472_no⟧キスシーン⟦が→が：00051_ga⟧⟦{印象的|いんしょうてき}だった→印象的：02877_inshouteki⟧。",
+      "japanese": "{映画|えいが}⟦の→の：09472_no⟧キスシーン⟦が→が：00051_ga⟧{印象的|いんしょうてき}だった。",
       "english": "The kiss scene in the movie was impressive.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "キス is a loanword from English \"kiss.\"\n\nCOMMON EXPRESSIONS:\n- キス⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to kiss\n- ファーストキス: first kiss\n- キスシーン: kiss scene\n\nNATIVE JAPANESE EQUIVALENT:\n- {接吻|せっぷん}: kiss (more formal/literary)\n- {口|くち}づけ: kiss (poetic)",
@@ -41,10 +47,15 @@
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

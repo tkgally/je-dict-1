@@ -134,6 +134,7 @@ When count is insufficient, you must write new examples that:
 
 ## Common Issues to Fix
 
+0. **Inline links**: Do NOT add inline word links (⟦...⟧) in this task. Links are added separately via `prompts/polish_add_inline_links.md`.
 1. **Insufficient count**: Add examples to meet minimum
 2. **Vocabulary violation**: Replace non-compliant words
    - `{購入|こうにゅう}する` → `{買|か}う` (for basic tier)

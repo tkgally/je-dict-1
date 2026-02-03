@@ -17,21 +17,27 @@
       "japanese": "3{丁目|ちょうめ}5{番地|ばんち}⟦に→に：00314_ni⟧⟦{住|す}んでいます→住む：00673_sumu⟧。",
       "english": "I live at 3-chome, 5-banchi.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09491_choume_ex2",
-      "japanese": "⟦{渋谷|しぶや}→渋谷：02695_shibuya⟧2{丁目|ちょうめ}⟦に→に：00314_ni⟧⟦ある→ある：00005_aru⟧。",
+      "japanese": "{渋谷|しぶや}2{丁目|ちょうめ}⟦に→に：00314_ni⟧ある。",
       "english": "It's in Shibuya 2-chome.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09491_choume_ex3",
-      "japanese": "⟦{何|なん}→何：01234_nani⟧{丁目|ちょうめ}です⟦か→か：09473_ka⟧。",
+      "japanese": "{何|なん}{丁目|ちょうめ}です⟦か→か：09473_ka⟧。",
       "english": "What chome is it?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{丁目|ちょうめ} is a unit in Japanese addresses.\n\nADDRESS ORDER (large to small):\n{都道府県|とどうふけん} → {市区町村|しくちょうそん} → {町名|ちょうめい} → {丁目|ちょうめ} → {番地|ばんち} → {号|ごう}\n\nCOUNTING:\n- 1{丁目|ちょうめ} (いっちょうめ)\n- 2{丁目|ちょうめ} (にちょうめ)\n- 3{丁目|ちょうめ} (さんちょうめ)",
@@ -41,10 +47,15 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["counter", "suffix"],
+      "pos": [
+        "counter",
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"]
+      "semantic": [
+        "number"
+      ]
     }
   }
 }

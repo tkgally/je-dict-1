@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09508_sabaku_ex1",
-      "japanese": "{砂漠|さばく}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00445_aruku⟧。",
+      "japanese": "{砂漠|さばく}⟦を→を：00422_wo⟧{歩|ある}く。",
       "english": "To walk through the desert.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09508_sabaku_ex2",
-      "japanese": "{砂漠|さばく}⟦は→は：00079_ha⟧⟦{暑|あつ}い→暑い：00494_atsui⟧。",
+      "japanese": "{砂漠|さばく}⟦は→は：00079_ha⟧{暑|あつ}い。",
       "english": "The desert is hot.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09508_sabaku_ex3",
-      "japanese": "{砂漠|さばく}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{旅|たび}→旅：01997_tabi⟧⟦する→する：00392_suru⟧。",
+      "japanese": "{砂漠|さばく}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{旅|たび}⟦する→する：00392_suru⟧。",
       "english": "To travel through the desert.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{砂漠|さばく} means desert - a dry, sandy region.\n\nRELATED WORDS:\n- サハラ{砂漠|さばく}: Sahara Desert\n- {砂漠化|さばくか}: desertification\n- {砂|すな}: sand\n\nNOTE: Do not confuse with {裁|さば}く (to judge), which has the same reading but different kanji and meaning.",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09529_yamada_ex1",
-      "japanese": "{山田|やまだ}⟦さん→さん：00758_san⟧。",
+      "japanese": "{山田|やまだ}さん。",
       "english": "Mr./Ms. Yamada.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09529_yamada_ex2",
       "japanese": "{山田|やまだ}{夫妻|ふさい}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧30⟦{周年|しゅうねん}→周年：09520_shuunen⟧⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧。",
       "english": "The Yamadas will celebrate their 30th wedding anniversary next month.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09529_yamada_ex3",
-      "japanese": "{山田|やまだ}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：00607_nihon⟧⟦で→で：00502_de⟧⟦{一般的|いっぱんてき}→一般的：01310_ippanteki⟧⟦な→な：09497_na⟧⟦{名字|みょうじ}→名字：02679_myouji⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "{山田|やまだ}⟦は→は：00079_ha⟧{日本|にほん}⟦で→で：00502_de⟧{一般的|いっぱんてき}⟦な→な：09497_na⟧{名字|みょうじ}⟦だ→だ：09496_da⟧。",
       "english": "Yamada is a common surname in Japan.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{山田|やまだ} is one of the most common Japanese surnames.\n\nETYMOLOGY:\n- {山|やま}: mountain\n- {田|た/だ}: rice field\n- Literally: \"mountain rice field\"",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

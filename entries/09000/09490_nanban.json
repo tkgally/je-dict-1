@@ -17,21 +17,27 @@
       "japanese": "{何番|なんばん}です⟦か→か：09473_ka⟧。",
       "english": "What number is it?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09490_nanban_ex2",
-      "japanese": "⟦{電話|でんわ}→電話：00527_denwa⟧{番号|ばんごう}⟦は→は：00079_ha⟧{何番|なんばん}です⟦か→か：09473_ka⟧。",
+      "japanese": "{電話|でんわ}{番号|ばんごう}⟦は→は：00079_ha⟧{何番|なんばん}です⟦か→か：09473_ka⟧。",
       "english": "What is your phone number?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09490_nanban_ex3",
-      "japanese": "{何番|なんばん}⟦の→の：09472_no⟧バス⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00581_noru⟧⟦の→の：09472_no⟧？",
+      "japanese": "{何番|なんばん}⟦の→の：09472_no⟧バス⟦に→に：00314_ni⟧{乗|の}る⟦の→の：09472_no⟧？",
       "english": "Which bus number are you taking?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{何番|なんばん} asks \"what number\" or \"which number.\"\n\nCOMMON EXPRESSIONS:\n- {何番|なんばん}ですか (What number is it?)\n- {何番|なんばん}{線|せん} (which platform/line)\n- {何番|なんばん}{目|め} (which one in order)\n\nRelated: {番号|ばんごう} (number), {番地|ばんち} (address number)",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"]
+      "semantic": [
+        "number"
+      ]
     }
   }
 }
