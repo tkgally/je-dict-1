@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09496_da_ex1",
-      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00520_gakusei⟧だ。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{学生|がくせい}だ。",
       "english": "I am a student.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09496_da_ex2",
-      "japanese": "⟦{今日|きょう}→今日：00389_kyou⟧⟦は→は：00079_ha⟧⟦{日曜日|にちようび}→日曜日：00584_nichiyoubi⟧だ。",
+      "japanese": "{今日|きょう}⟦は→は：00079_ha⟧{日曜日|にちようび}だ。",
       "english": "Today is Sunday.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09496_da_ex3",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{先生|せんせい}→先生：00356_sensei⟧だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{先生|せんせい}だ。",
       "english": "He is a teacher.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "だ is the plain copula in Japanese, used in casual speech and writing.\n\nFORMS:\n- だ (plain present/future)\n- だった (plain past)\n- ではない / じゃない (plain negative)\n- ではなかった / じゃなかった (plain past negative)\n\nPOLITE EQUIVALENT:\n- です (polite present)\n- でした (polite past)\n\nUSAGE:\n- Used at the end of sentences in casual/plain speech\n- Follows nouns and な-adjectives\n- With い-adjectives: だ is NOT used (say {高|たか}い, not ×{高|たか}いだ)\n- Often omitted in casual speech, especially by women and in questions",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["auxiliary"],
+      "pos": [
+        "auxiliary"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["grammatical"]
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }

@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09487_douzen_ex1",
-      "japanese": "ぼろ{同然|どうぜん}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦だ→だ：00049_da⟧。",
+      "japanese": "ぼろ{同然|どうぜん}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧だ。",
       "english": "It's practically a run-down house.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09487_douzen_ex2",
-      "japanese": "ただ{同然|どうぜん}⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00938_nedan⟧⟦だ→だ：00049_da⟧。",
+      "japanese": "ただ{同然|どうぜん}⟦の→の：09472_no⟧{値段|ねだん}だ。",
       "english": "It's practically free.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09487_douzen_ex3",
-      "japanese": "{死|し}⟦んだ→死ぬ：00808_shinu⟧{同然|どうぜん}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：01460_joutai⟧⟦だ→だ：00049_da⟧。",
+      "japanese": "{死|し}んだ{同然|どうぜん}⟦の→の：09472_no⟧{状態|じょうたい}だ。",
       "english": "It's a condition practically equivalent to death.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{同然|どうぜん} is used as a suffix meaning \"equivalent to\" or \"as good as.\"\n\nCOMMON PATTERNS:\n- ただ{同然|どうぜん} (practically free, as good as free)\n- ぼろ{同然|どうぜん} (practically in tatters)\n- {死|し}んだ{同然|どうぜん} (as good as dead)\n- {新品|しんぴん}{同然|どうぜん} (as good as new)\n\nOften followed by の when modifying a noun.",
@@ -41,10 +47,15 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "suffix"],
+      "pos": [
+        "noun",
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

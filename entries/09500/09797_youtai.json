@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09797_youtai_ex1",
-      "japanese": "{容態|ようだい}⟦が→が：00051_ga⟧⟦{安定|あんてい}している→安定する：01310_antei⟧。",
+      "japanese": "{容態|ようだい}⟦が→が：00051_ga⟧{安定|あんてい}している。",
       "english": "The patient's condition is stable.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09797_youtai_ex2",
       "japanese": "{容態|ようだい}⟦が→が：00051_ga⟧{悪化|あっか}⟦した→する：00392_suru⟧。",
       "english": "The patient's condition worsened.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09797_youtai_ex3",
       "japanese": "{容態|ようだい}⟦を→を：00422_wo⟧{見守|みまも}る。",
       "english": "To monitor the patient's condition.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{容態|ようだい} refers to a patient's medical condition.\n\nALTERNATIVE READING:\n- {容体|ようたい} is an alternative reading/writing\n\nCOMMON COLLOCATIONS:\n- {容態|ようだい}が{安定|あんてい}している (condition is stable)\n- {容態|ようだい}が{悪化|あっか}する (condition worsens)\n- {容態|ようだい}が{回復|かいふく}する (condition improves)\n- {容態|ようだい}を{見守|みまも}る (to watch over the condition)\n\nRELATED TERMS:\n- {症状|しょうじょう}: symptoms\n- ⟦{重症|じゅうしょう}→重症：09792_juushou⟧: serious condition\n- {軽症|けいしょう}: mild condition",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

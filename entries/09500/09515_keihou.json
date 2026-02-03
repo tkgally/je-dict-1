@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09515_keihou_ex1",
-      "japanese": "{警報|けいほう}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00435_deru⟧。",
+      "japanese": "{警報|けいほう}⟦が→が：00051_ga⟧{出|で}た。",
       "english": "A warning has been issued.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09515_keihou_ex2",
-      "japanese": "⟦{大雨|おおあめ}→大雨：01698_ooame⟧{警報|けいほう}。",
+      "japanese": "{大雨|おおあめ}{警報|けいほう}。",
       "english": "Heavy rain warning.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09515_keihou_ex3",
       "japanese": "⟦{噴火|ふんか}→噴火：00045_funka⟧{警報|けいほう}⟦が→が：00051_ga⟧⟦{発令|はつれい}→発令：09516_hatsurei⟧⟦された→する：00392_suru⟧。",
       "english": "A volcanic eruption warning was issued.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{警報|けいほう} refers to official warnings or alerts.\n\nTYPES OF WARNINGS:\n- {大雨|おおあめ}{警報|けいほう}: heavy rain warning\n- {暴風|ぼうふう}{警報|けいほう}: storm warning\n- {津波|つなみ}{警報|けいほう}: tsunami warning\n- {噴火|ふんか}{警報|けいほう}: volcanic eruption warning\n- {空襲|くうしゅう}{警報|けいほう}: air raid warning\n\nRELATED:\n- {注意報|ちゅういほう}: advisory (less severe than 警報)",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

@@ -19,24 +19,30 @@
   "examples": [
     {
       "id": "09502_rashii_ex1",
-      "japanese": "⟦{明日|あした}→明日：00379_ashita⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00867_ame⟧らしい。",
+      "japanese": "{明日|あした}⟦は→は：00079_ha⟧{雨|あめ}らしい。",
       "english": "Apparently it will rain tomorrow.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09502_rashii_ex2",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{来|こ}ない→来る：00391_kuru⟧らしい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{来|こ}ないらしい。",
       "english": "I heard he's not coming.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09502_rashii_ex3",
-      "japanese": "⟦{男|おとこ}→男：00401_otoko⟧らしい⟦{人|ひと}→人：00476_hito⟧。",
+      "japanese": "{男|おとこ}らしい⟦{人|ひと}→人：00476_hito⟧。",
       "english": "A manly person.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "らしい has two main uses:\n\n1. HEARSAY/INFERENCE:\n- Verb (plain) + らしい\n- i-adjective + らしい\n- na-adjective + らしい\n- Noun + らしい\n\n2. TYPICAL OF:\n- Noun + らしい\n- {男|おとこ}らしい = manly\n- {子供|こども}らしい = childlike\n\nCONTRAST:\n- らしい: based on hearsay/inference (less certain)\n- そうだ: based on hearsay (I heard that...)\n- ようだ: based on observation (it appears)",
@@ -46,10 +52,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["auxiliary-adjective"],
+      "pos": [
+        "auxiliary"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["grammatical"]
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }

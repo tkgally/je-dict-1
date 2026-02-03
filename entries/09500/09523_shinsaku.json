@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09523_shinsaku_ex1",
-      "japanese": "{新作|しんさく}⟦{映画|えいが}→映画：00132_eiga⟧。",
+      "japanese": "{新作|しんさく}{映画|えいが}。",
       "english": "A new movie.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09523_shinsaku_ex2",
       "japanese": "{新作|しんさく}⟦の→の：09472_no⟧ドレス⟦が→が：00051_ga⟧⟦{発表|はっぴょう}された→発表：03562_happyou⟧。",
       "english": "A new dress was announced.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09523_shinsaku_ex3",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{新作|しんさく}⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00501_yomu⟧。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{新作|しんさく}⟦を→を：00422_wo⟧{読|よ}んだ。",
       "english": "I read his new work.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{新作|しんさく} refers to something newly created or released.\n\nCONTRAST:\n- {新作|しんさく}: new work (creation)\n- {旧作|きゅうさく}: old work\n- {名作|めいさく}: masterpiece",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

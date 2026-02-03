@@ -17,21 +17,27 @@
       "japanese": "⟦{警報|けいほう}→警報：09515_keihou⟧⟦が→が：00051_ga⟧{発令|はつれい}⟦された→する：00392_suru⟧。",
       "english": "A warning was issued.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09516_hatsurei_ex2",
-      "japanese": "⟦{避難|ひなん}→避難：03019_hinan⟧⟦{命令|めいれい}→命令：02703_meirei⟧⟦を→を：00422_wo⟧{発令|はつれい}⟦する→する：00392_suru⟧。",
+      "japanese": "{避難|ひなん}{命令|めいれい}⟦を→を：00422_wo⟧{発令|はつれい}⟦する→する：00392_suru⟧。",
       "english": "To issue an evacuation order.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09516_hatsurei_ex3",
       "japanese": "⟦{噴火|ふんか}→噴火：00045_funka⟧⟦{警報|けいほう}→警報：09515_keihou⟧⟦が→が：00051_ga⟧{発令|はつれい}⟦された→する：00392_suru⟧。",
       "english": "A volcanic eruption warning was issued.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{発令|はつれい} means to officially issue or promulgate something.\n\nCOMMON USAGE:\n- {警報|けいほう}を{発令|はつれい}する: to issue a warning\n- {命令|めいれい}を{発令|はつれい}する: to issue an order\n- {発令|はつれい}される (passive): to be issued\n\nRELATED:\n- {発表|はっぴょう}: announcement, release (more general)",
@@ -41,10 +47,15 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

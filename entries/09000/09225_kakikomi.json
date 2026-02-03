@@ -23,7 +23,9 @@
       "english": "Writing data.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09225_kakikomi_ex2",
@@ -31,7 +33,9 @@
       "english": "Failed to write to the USB drive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09225_kakikomi_ex3",
@@ -39,7 +43,9 @@
       "english": "This is a write-protected file.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09225_kakikomi_ex4",
@@ -47,7 +53,9 @@
       "english": "To post on a message board.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09225_kakikomi_ex5",
@@ -55,7 +63,9 @@
       "english": "Malicious posts will be deleted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09225_kakikomi_ex6",
@@ -63,7 +73,9 @@
       "english": "I got a reply to my post.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{書|か}き{込|こ}み has two main meanings: writing data to storage, and posting online.\n\nSENSE 1 - DATA WRITING:\n- {書|か}き{込|こ}み{中|ちゅう}: writing/saving\n- {書|か}き{込|こ}み{禁止|きんし}: write-protected\n- {書|か}き{込|こ}み{速度|そくど}: write speed\n\nSENSE 2 - ONLINE POSTING:\n- {書|か}き{込|こ}みをする: to post, to comment\n- {匿名|とくめい}{書|か}き{込|こ}み: anonymous post\n- {書|か}き{込|こ}み{欄|らん}: comment section\n\nUSAGE NOTE:\n- In online contexts, {書|か}き{込|こ}み is commonly shortened to {書き込み|かきこ} or {カキコ}",
@@ -72,20 +84,30 @@
       "type": "antonym",
       "reading": "よみこみ",
       "headword": "{読|よ}み{込|こ}み",
-      "label": "reading/loading"
+      "label": "reading/loading",
+      "target_id": "09224_yomikomi"
     }
   ],
   "metadata": {
     "created": "2026-02-01T02:44:36Z",
-    "modified": "2026-02-01T02:44:36Z",
+    "modified": "2026-02-03T14:48:46Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical", "internet"],
-      "semantic": ["technology", "computing", "communication"]
+      "domain": [
+        "technical",
+        "internet"
+      ],
+      "semantic": [
+        "technology",
+        "computing",
+        "communication"
+      ]
     }
   }
 }

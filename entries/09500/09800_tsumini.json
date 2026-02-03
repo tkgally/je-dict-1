@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09800_tsumini_ex1",
-      "japanese": "{積|つ}み{荷|に}⟦を→を：00422_wo⟧⟦{降|お}ろす→降ろす：01243_orosu⟧。",
+      "japanese": "{積|つ}み{荷|に}⟦を→を：00422_wo⟧{降|お}ろす。",
       "english": "To unload the cargo.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09800_tsumini_ex2",
-      "japanese": "{積|つ}み{荷|に}⟦が→が：00051_ga⟧⟦{重|おも}い→重い：00486_omoi⟧。",
+      "japanese": "{積|つ}み{荷|に}⟦が→が：00051_ga⟧{重|おも}い。",
       "english": "The cargo is heavy.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09800_tsumini_ex3",
       "japanese": "{船|ふね}⟦の→の：09472_no⟧{積|つ}み{荷|に}⟦を→を：00422_wo⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦する→する：00392_suru⟧。",
       "english": "To check the ship's cargo.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{積|つ}み{荷|に} refers to cargo or freight being transported.\n\nCOMMON COLLOCATIONS:\n- {積|つ}み{荷|に}を{載|の}せる (to load cargo)\n- {積|つ}み{荷|に}を{降|お}ろす (to unload cargo)\n- {積|つ}み{荷|に}を{検査|けんさ}する (to inspect cargo)\n\nRELATED TERMS:\n- {貨物|かもつ}: freight, cargo (more formal)\n- {荷物|にもつ}: luggage, baggage\n- ⟦{積|つ}み{下|おろ}し→積み下ろし：09801_tsumioroshi⟧: loading and unloading\n- ⟦{運送|うんそう}→運送：09791_unsou⟧: transport, shipping\n- ⟦コンテナ→コンテナ：09805_kontena⟧: container",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -160,7 +160,7 @@ Use this table for quick reference. For words not listed, search the dictionary.
 | 00993_sono | その | その | that |
 | 00994_sore | それ | それ | that (thing) |
 | 01292_kare | 彼 | かれ | he, him |
-| 01293_kanojo | 彼女 | かのじょ | she, her |
+| 01286_kanojo | 彼女 | かのじょ | she, her |
 
 ### Common Verbs
 
@@ -276,7 +276,7 @@ Use this table for quick reference. For words not listed, search the dictionary.
 | 00612_ie | 家 | いえ | house, home |
 | 00614_nihongo | 日本語 | にほんご | Japanese language |
 | 00682_ue | 上 | うえ | above, up |
-| 00683_shita | 下 | した | below, down |
+| 00670_shita | 下 | した | below, down |
 | 00710_kaigi | 会議 | かいぎ | meeting |
 | 00762_tsukue | 机 | つくえ | desk |
 | 00888_shitsumon | 質問 | しつもん | question |

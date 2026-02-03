@@ -14,24 +14,30 @@
   "examples": [
     {
       "id": "09489_biora_ex1",
-      "japanese": "ビオラ⟦を→を：00422_wo⟧⟦{弾|ひ}く→弾く：01949_hiku⟧。",
+      "japanese": "ビオラ⟦を→を：00422_wo⟧{弾|ひ}く。",
       "english": "To play the viola.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09489_biora_ex2",
-      "japanese": "⟦{彼女|かのじょ}→彼女：00636_kanojo⟧⟦は→は：00079_ha⟧ビオラ⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：01126_narau⟧。",
+      "japanese": "{彼女|かのじょ}⟦は→は：00079_ha⟧ビオラ⟦を→を：00422_wo⟧{習|なら}っている。",
       "english": "She is learning the viola.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09489_biora_ex3",
-      "japanese": "ビオラ⟦は→は：00079_ha⟧バイオリン⟦より→より：01481_yori⟧⟦{大|おお}きい→大きい：00335_ookii⟧。",
+      "japanese": "ビオラ⟦は→は：00079_ha⟧バイオリンより⟦{大|おお}きい→大きい：00335_ookii⟧。",
       "english": "The viola is larger than the violin.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ビオラ is the viola, a stringed instrument in the violin family.\n\nSTRING FAMILY (high to low):\n- バイオリン (violin) - highest\n- ビオラ (viola)\n- ⟦チェロ→チェロ：08115_chero⟧ (cello)\n- ⟦コントラバス→コントラバス：08149_kontorabasu⟧ (double bass) - lowest\n\nNote: Do not confuse with ビオラ (the flower viola/pansy), though the same word is used.",
@@ -41,10 +47,14 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }
