@@ -28,6 +28,10 @@
         <span class="furigana-icon">振</span>
         <span class="furigana-label">Furigana</span>
     </button>
+   <button id="wordlinks-toggle" class="toggle-btn wordlinks-toggle-btn" type="button" aria-pressed="false" title="Toggle word links (click words to see their entries)">
+            <span class="toggle-icon">🔗</span>
+            <span class="toggle-label">Links</span>
+   </button>
     </div>
 </header>
 <main class="about-page">
@@ -50,6 +54,11 @@
 	<hr>
     <section>
 		<br>
+<h3>February 3, 2026</h3><br>
+<p>Yesterday, I started adding a new feature to the dictionary: inline links from words that appear in example sentences to the entries for those words (if the entries exist). This feature required the creation of a new tagging system for the examples in the JSON entry files.</p>
+<br>
+<p>For Claude to create links to the correct files, it cannot just write a deterministic program, as the same string of characters might, depending on the context, represent different words. Instead, Claude must examine each sentence semantically, a time- and token-consuming process. The links won’t appear all entries for quite some time. Some entries that do have the links are those for <a href="entries/00000/00104_hiroba.html" target="_blank">広場</a>, <a href="entries/00000/00073_gomu.html" target="_blank">ゴム</a>, and <a href="entries/00000/00041_fudan.html" target="_blank">普段</a>. Both the Examples and Links toggles must be turned on to view the links.</p>
+<br>
 <h3>January 27, 2026</h3><br>
 <p>A few notes about how headwords are being collected for this dictionary.</p><br>
 <p>When I started the project early this month, I had Claude decide for itself what words to use as headwords. It reported that it started with a wordlist it found on GitHub for people studying for the Japanese Language Proficiency Test. As it started writing entries, on its own initiative it marked each entry with a JLPT level (N5, N4, N3, N2, or N1).</p><br>
@@ -117,6 +126,31 @@
     btn.addEventListener('click', function() {
         hidden = !hidden;
         localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('wordlinks-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to hidden (toggle OFF)
+    var hidden = localStorage.getItem('wordLinksHidden') !== 'false';
+
+    function updateState() {
+        document.body.classList.toggle('show-word-links', !hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('wordLinksHidden', hidden);
         updateState();
     });
 })();
