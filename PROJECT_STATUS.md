@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,618
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,825 | Unassigned: 0 ✓
-- **Candidate words**: 313 words tracked in `candidate_words.json`
+- **Total entries**: 9,648
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,855 | Unassigned: 0 ✓
+- **Candidate words**: 283 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-03 (Vocabulary Expansion - 30 New Entries, Session 209)
+Added 30 new dictionary entries from candidate_words.json, focusing on practical everyday life vocabulary:
+
+- **Delivery/Logistics (2)**: {不在票|ふざいひょう} (missed delivery notice), {再配達|さいはいたつ} (redelivery)
+- **Transportation/Traffic (4)**: {駐車禁止|ちゅうしゃきんし} (no parking), ラッシュアワー (rush hour), {座席指定|ざせきしてい} (reserved seating), {駅弁|えきべん} (train station bento)
+- **Restaurant/Dining (6)**: タッチ{決済|けっさい} (contactless payment), {相席|あいせき} (sharing a table), {禁煙席|きんえんせき} (non-smoking seat), おごり (treating someone), ランチタイム (lunch time), ラストオーダー (last order)
+- **Shopping (5)**: {閉店|へいてん} (store closing), {行列|ぎょうれつ} (queue/procession), {自販機|じはんき} (vending machine), ビニール{袋|ぶくろ} (plastic bag), {紙袋|かみぶくろ} (paper bag)
+- **Tax/Finance (1)**: {免税|めんぜい} (tax-free)
+- **Healthcare (8)**: {保険証|ほけんしょう} (health insurance card), {問診票|もんしんひょう} (medical questionnaire), {診察券|しんさつけん} (patient registration card), ドラッグストア (drugstore), {頭痛薬|ずつうやく} (headache medicine), {風邪薬|かぜぐすり} (cold medicine), {解熱剤|げねつざい} (fever reducer), {目薬|めぐすり} (eye drops)
+- **Daily Life (2)**: {虫除|むしよ}け (insect repellent), {集合住宅|しゅうごうじゅうたく} (apartment building)
+- **Real Estate (2)**: {内見|ないけん} (property viewing), {仲介|ちゅうかい} (mediation/brokerage)
+
+Notable entry features:
+- Practical vocabulary for daily life in Japan
+- Multi-sense entries: {閉店|へいてん} (daily closing/permanent closure), {行列|ぎょうれつ} (queue/procession), {仲介|ちゅうかい} (general mediation/real estate brokerage)
+- Healthcare vocabulary useful for clinic/pharmacy visits
+- Common loanwords with katakana: ランチタイム, ラストオーダー, ドラッグストア, ラッシュアワー
+
+Total entries: 9,618 → 9,648
+Remaining candidates: 313 → 283
 
 ### 2026-02-03 (Candidate Words - 93 New Candidates)
 Added 93 new candidate words focusing on everyday life vocabulary in Japan, covering multiple categories:
