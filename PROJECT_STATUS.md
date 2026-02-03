@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,738
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,945 | Unassigned: 0 ✓
-- **Candidate words**: 253 words tracked in `candidate_words.json`
+- **Total entries**: 9,768
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,975 | Unassigned: 0 ✓
+- **Candidate words**: 223 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,26 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-03 (Vocabulary Expansion - 30 New Entries, Session 211)
+Added 30 new dictionary entries from candidate_words.json, focusing on everyday life, administrative, and technology vocabulary:
+
+- **Administrative/Documents (5)**: {身分|みぶん}{証明書|しょうめいしょ} (ID document), {転出届|てんしゅつとどけ} (moving-out notification), {転入届|てんにゅうとどけ} (moving-in notification), シャチハタ (self-inking stamp), {連帯|れんたい}{保証人|ほしょうにん} (joint guarantor)
+- **Technology/Phone (5)**: データ{移行|いこう} (data transfer), {通信|つうしん}{制限|せいげん} (data throttling), フリーWi-Fi (free Wi-Fi), テザリング (tethering), {格安|かくやす}スマホ (budget smartphone)
+- **Contracts/Services (6)**: {違約金|いやくきん} (penalty fee), お{試|ため}し (trial), {初回|しょかい}{限定|げんてい} (first-time only), {数量|すうりょう}{限定|げんてい} (limited quantity), {季節|きせつ}{限定|げんてい} (seasonal limited), {週替|しゅうが}わり (weekly special)
+- **Shopping/Ordering (4)**: {入荷|にゅうか}{待|ま}ち (waiting for stock), {予約|よやく}{注文|ちゅうもん} (pre-order), お{取|と}り{寄|よ}せ (mail order), {呼|よ}び{出|だ}し (paging/calling)
+- **Housing/Facilities (4)**: オートロック (auto-lock), {集合|しゅうごう}ポスト (communal mailbox), スーパー{銭湯|せんとう} (super bathhouse), {岩盤浴|がんばんよく} (hot stone bath)
+- **Shopping/Daily Life (6)**: {宅配|たくはい}ピザ (delivery pizza), {市販薬|しはんやく} (OTC medicine), ポイントカード (loyalty card), セルフレジ (self-checkout), マイバッグ (reusable bag), {買|か}い{物|もの}かご (shopping basket)
+
+Notable entry features:
+- Multi-sense entries: {初回|しょかい}{限定|げんてい} (first-time offer/first-edition), {呼|よ}び{出|だ}し (paging/summons)
+- Administrative vocabulary useful for moving and renting in Japan
+- Technology/phone plan terminology
+- 3 new kanji added to kanji index: {欺|gi}, {詐|sa}, {阪|han}
+
+Total entries: 9,738 → 9,768
+Remaining candidates: 253 → 223
+New kanji: 2,207 → 2,210
 
 ### 2026-02-03 (Vocabulary Expansion - 30 New Entries, Session 210)
 Added 30 new dictionary entries from candidate_words.json, focusing on everyday life and service vocabulary:
