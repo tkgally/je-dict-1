@@ -27,9 +27,17 @@ try:
     import jsonschema
     from jsonschema import Draft7Validator
 except ImportError:
-    print("Error: Required package 'jsonschema' is not installed.")
-    print("Please install it with: pip install jsonschema")
-    sys.exit(1)
+    print("Note: Installing required package 'jsonschema'...")
+    import subprocess
+    try:
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'jsonschema>=4.0.0,<5.0.0', '-q'])
+        import jsonschema
+        from jsonschema import Draft7Validator
+        print("Successfully installed jsonschema.")
+    except subprocess.CalledProcessError:
+        print("Error: Failed to install 'jsonschema'. Please install manually:")
+        print("  pip install jsonschema")
+        sys.exit(1)
 
 
 @dataclass
