@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,648
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,855 | Unassigned: 0 ✓
-- **Candidate words**: 283 words tracked in `candidate_words.json`
+- **Total entries**: 9,738
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,945 | Unassigned: 0 ✓
+- **Candidate words**: 253 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,24 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-03 (Vocabulary Expansion - 30 New Entries, Session 210)
+Added 30 new dictionary entries from candidate_words.json, focusing on everyday life and service vocabulary:
+
+- **Delivery/Logistics (5)**: {宅配|たくはい}ボックス (delivery locker), {置|お}き{配|はい} (leave-at-door delivery), {代引|だいび}き (COD), {追跡|ついせき} (tracking), {配達|はいたつ}{状況|じょうきょう} (delivery status)
+- **Restaurant/Convenience Store (6)**: お{弁当|べんとう}{温|あたた}め (bento heating), {割|わ}り{箸|ばし} (disposable chopsticks), おしぼり (wet towel), {追加|ついか}{注文|ちゅうもん} (additional order), お{通|とお}し (appetizer), チャージ (cover charge/recharge)
+- **Housing/Living (5)**: {同居|どうきょ} (living together), ルームシェア (room sharing), コインランドリー (coin laundry), クリーニング{店|てん} (dry cleaner), {靴箱|くつばこ} (shoe cabinet)
+- **Technology/Phone (4)**: {初期|しょき}{設定|せってい} (initial setup), {機種|きしゅ}{変更|へんこう} (phone upgrade), {充電|じゅうでん}{切|き}れ (out of battery), ロッカー (locker)
+- **Subscription/Payment (5)**: {月額|げつがく} (monthly fee), {定額|ていがく} (flat rate), {使|つか}い{放題|ほうだい} (unlimited use), {自動|じどう}{更新|こうしん} (auto-renewal), {無料|むりょう}{体験|たいけん} (free trial)
+- **Shopping/Daily Life (5)**: {期間|きかん}{限定|げんてい} (limited time), {日替|ひが}わり (daily special), おすすめ (recommendation), {順番|じゅんばん}{待|ま}ち (waiting in line), {自動|じどう}ドア (automatic door)
+
+Notable entry features:
+- Multi-sense entries: {追跡|ついせき} (tracking/pursuit), チャージ (cover charge/recharge), {初期|しょき}{設定|せってい} (setup/default settings)
+- Subscription and service terminology useful for daily life in Japan
+- Common convenience store and restaurant vocabulary
+
+Total entries: 9,708 → 9,738
+Remaining candidates: 283 → 253
 
 ### 2026-02-03 (Vocabulary Expansion - 30 New Entries, Session 209)
 Added 30 new dictionary entries from candidate_words.json, focusing on practical everyday life vocabulary:
