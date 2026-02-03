@@ -33,7 +33,7 @@ SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
-from duplicate_utils import check_for_duplicate
+from duplicate_utils import check_for_duplicate, format_related_entries
 
 ENTRIES_INDEX_FILE = PROJECT_ROOT / 'entries_index.json'
 CANDIDATES_FILE = PROJECT_ROOT / 'candidate_words.json'
@@ -98,7 +98,11 @@ def main():
                 print(f"DUPLICATE: {word} ({reading}) - {result['details']}")
                 has_duplicates = True
             else:
-                print(f"OK: {word} ({reading})")
+                related_info = format_related_entries(result)
+                if related_info:
+                    print(f"OK: {word} ({reading}) [Note: {related_info}]")
+                else:
+                    print(f"OK: {word} ({reading})")
 
         sys.exit(1 if has_duplicates else 0)
 
@@ -120,7 +124,15 @@ def main():
     else:
         check_type = "entries only" if skip_candidates else "dictionary or candidates"
         print(f"OK: '{word}' ({reading}) is not in the {check_type}.")
-        print("Safe to create entry.")
+
+        # Show informational messages about related entries (homophones/homographs)
+        related_info = format_related_entries(result)
+        if related_info:
+            print(f"\nNote (informational only - these are NOT duplicates):")
+            for line in related_info.split('\n'):
+                print(f"  {line}")
+
+        print("\nSafe to create entry.")
         sys.exit(0)
 
 

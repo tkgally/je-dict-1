@@ -27,17 +27,27 @@ Add new candidates to candidate_words.json using the find-candidates skill.
 
 **The `manage_candidates.py add` command AUTOMATICALLY checks for duplicates.**
 
-The script will:
-1. Check `entries_index.json` for matching reading or headword
-2. Check `candidate_words.json` for matching reading or word
-3. **REFUSE to add the word if any match is found**
+### Duplicate Definition
 
-### Near-Duplicates to Watch For
-The automatic check catches exact matches. You should still watch for:
+**A word is a duplicate ONLY if BOTH the headword AND reading match exactly.**
+
+- **Homophones** (same reading, different headword) are **NOT duplicates**
+  - Example: 線香 (せんこう) and 先行 (せんこう) are different words
+- **Homographs** (same headword, different reading) are **NOT duplicates**
+  - Example: 行く (いく) and 行く (ゆく) are different readings
+
+The script will:
+1. Check `entries_index.json` for exact match (both headword AND reading)
+2. Check `candidate_words.json` for exact match (both word AND reading)
+3. **REFUSE to add ONLY if an exact match is found**
+4. Display informational notes about homophones/homographs (not blocks)
+
+### Near-Duplicates (Editorial Consideration)
+These patterns require editorial judgment - the automatic check won't catch them:
 - **Verb forms**: する verbs may exist as standalone nouns (勉強 vs 勉強する)
-- **Kanji variants**: 見る and 観る, 聞く and 聴く
-- **Okurigana variations**: 行なう vs 行う, 現われる vs 現れる
-- **Prefix/suffix forms**: Check if 大～ or ～的 forms exist separately
+- **Kanji variants**: 見る and 観る, 聞く and 聴く - may share an entry
+- **Okurigana variations**: 行なう vs 行う, 現われる vs 現れる - same word, different spellings
+- **Prefix/suffix forms**: Check if 大～ or ～的 forms warrant separate entries
 
 ## Selection Approach
 
