@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-02
+**Last updated**: 2026-02-03
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,550
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,697 | Unassigned: 0 ✓
-- **Candidate words**: 249 words tracked in `candidate_words.json`
+- **Total entries**: 9,618
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,825 | Unassigned: 0 ✓
+- **Candidate words**: 220 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-03 (Vocabulary Expansion - 30 New Entries, Session 208)
+Added 30 new dictionary entries from candidate_words.json, covering nature/environment, education, daily life, and business vocabulary:
+
+- **Nature/Environment (2)**: {自然保護|しぜんほご} (nature conservation), {地下水|ちかすい} (groundwater)
+- **Education (4)**: {独学|どくがく} (self-study), {問題集|もんだいしゅう} (workbook), {補習|ほしゅう} (supplementary lessons), {出欠|しゅっけつ} (attendance)
+- **Problem-Solving/Mediation (4)**: {活路|かつろ} (way out), {橋渡|はしわた}し (mediation), {架|か}け{橋|はし} (bridge/link), {波及効果|はきゅうこうか} (ripple effect)
+- **Future/Prospects (2)**: {前途|ぜんと} (future/prospects), {浮|う}き{沈|しず}み (ups and downs)
+- **Verbs (2)**: {惜|お}しむ (to regret), {縋|すが}る (to cling to)
+- **Weather/Temperature (2)**: {凍結|とうけつ} (freezing), {猛暑日|もうしょび} (extremely hot day)
+- **Business/Organization (4)**: {繁盛|はんじょう} (prospering), {統合|とうごう} (integration), {選別|せんべつ} (sorting), {分業|ぶんぎょう} (division of labor)
+- **Relationships/Gaps (2)**: {隔|へだ}たり (gap/distance), {捻|ね}じれ (twist/distortion)
+- **Priority/Time (2)**: {優先順位|ゆうせんじゅんい} (priority order), {待|ま}ち{時間|じかん} (waiting time)
+- **Daily Life (3)**: {除湿|じょしつ} (dehumidification), {蛍光灯|けいこうとう} (fluorescent light), {工事中|こうじちゅう} (under construction)
+- **Shopping/Admin (3)**: {試着室|しちゃくしつ} (fitting room), {保証書|ほしょうしょ} (warranty), {住民票|じゅうみんひょう} (certificate of residence)
+
+Notable entry features:
+- Mix of practical everyday vocabulary and business/academic terms
+- Multi-sense entries: {架|か}け{橋|はし} (literal bridge/figurative link), {凍結|とうけつ} (freezing/suspension), {隔|へだ}たり (physical/emotional distance)
+- Verb entries include transitivity information and common patterns
+- 1 new kanji added: {縋|すが}る
+
+Total entries: 9,588 → 9,618
+Remaining candidates: 249 → 220
+New kanji: 2,205 → 2,206
 
 ### 2026-02-02 (Candidate Words Expansion - Everyday Life Vocabulary)
 Added 74 new candidate words focusing on vocabulary encountered in everyday life in Japan:
