@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,768
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,975 | Unassigned: 0 ✓
-- **Candidate words**: 297 words tracked in `candidate_words.json`
+- **Total entries**: 9,921
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,128 | Unassigned: 0 ✓
+- **Candidate words**: 267 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-04 (Vocabulary Expansion - 30 New Entries, Session 212)
+Added 30 new dictionary entries from candidate_words.json, focusing on diverse vocabulary including literary terms, nature, travel, and emotions:
+
+- **Literary/Formal (4)**: {矍鑠|かくしゃく} (hale and hearty), {凋落|ちょうらく} (decline), {冷笑|れいしょう} (sneer), {行|ゆ}く{末|すえ} (future/fate)
+- **Nature/Environment (3)**: {珊瑚礁|さんごしょう} (coral reef), {捕食者|ほしょくしゃ} (predator), {砂漠化|さばくか} (desertification)
+- **Emotions/Attitudes (6)**: {慕|した}う (to yearn for), {懐|なつ}かしむ (to feel nostalgic), {浮|う}かれる (to be elated), {見下|みくだ}す (to look down on), {腑|ふ}に{落|お}ちる (to make sense), {垣間見|かいまみ}る (to catch a glimpse)
+- **Actions/Verbs (3)**: {掻|か}き{回|まわ}す (to stir/mess up), {掴|つか}み{取|と}る (to grasp/seize), {置|お}き{去|ざ}り (desertion)
+- **Travel/Transportation (5)**: {時差|じさ}ボケ (jet lag), {乗|の}り{継|つ}ぎ (transfer), {搭乗口|とうじょうぐち} (boarding gate), {手荷物|てにもつ} (hand luggage), {通帳|つうちょう} (bankbook)
+- **Social/Concepts (4)**: すれ{違|ちが}い (passing/miscommunication), {折衷|せっちゅう} (compromise), {相乗効果|そうじょうこうか} (synergy), {斜陽|しゃよう} (decline/setting sun)
+- **Education/Language (2)**: {語彙力|ごいりょく} (vocabulary ability), {生涯学習|しょうがいがくしゅう} (lifelong learning)
+- **Nature/Animals (2)**: カラス (crow), セミ (cicada)
+- **Culture (1)**: {風鈴|ふうりん} (wind chime)
+
+Notable entry features:
+- Multi-sense entries: {垣間見|かいまみ}る (physical/figurative glimpse), {浮|う}かれる (positive/negative nuance), すれ{違|ちが}い (physical/emotional), {掻|か}き{回|まわ}す (stir/rummage/disrupt), {斜陽|しゃよう} (sunset/decline)
+- Literary vocabulary often seen in written Japanese
+- Travel vocabulary essential for airport navigation
+- 7 new kanji added to kanji index: {凋|chou}, {彙|i}, {矍|kaku}, {礁|shou}, {腑|fu}, {衷|chuu}, {鑠|shaku}
+
+Total entries: 9,891 → 9,921
+Remaining candidates: 297 → 267
+New kanji: 2,212 → 2,219
 
 ### 2026-02-04 (Candidate Words Expansion - 74 New Candidates)
 Added 74 new candidate words to candidate_words.json across diverse categories:
