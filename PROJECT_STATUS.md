@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,951
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,158 | Unassigned: 0 ✓
-- **Candidate words**: 237 words tracked in `candidate_words.json`
+- **Total entries**: 9,981
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,188 | Unassigned: 0 ✓
+- **Candidate words**: 207 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,28 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-04 (Vocabulary Expansion - 30 New Entries, Session 214)
+Added 30 new dictionary entries from candidate_words.json, focusing on verbs, emotions, literary nature terms, and business vocabulary:
+
+- **Verbs (7)**: {喰|く}らう (to eat vulgar/receive blow), {蹴躓|けつまず}く (to trip), {蔑|さげす}む (to despise), {尊|たっと}ぶ (to value), {崇|あが}める (to worship), {取|と}りこぼす (to miss/drop), {取|と}り{残|のこ}す (to leave behind)
+- **Emotions/Attitudes (5)**: {訓戒|くんかい} (admonition), {剣幕|けんまく} (threatening attitude), {侮蔑|ぶべつ} (contempt), {崇拝|すうはい} (worship), {畏敬|いけい} (reverence)
+- **Education/Influence (1)**: {薫陶|くんとう} (moral cultivation)
+- **Literary/Nature (5)**: {曙|あけぼの} (dawn), {暁|あかつき} (dawn), {朧月|おぼろづき} (hazy moon), {春霞|はるがすみ} (spring haze), {薫風|くんぷう} (balmy breeze)
+- **Food/Cooking (2)**: {割|わ}り{下|した} (sukiyaki sauce), {串揚|くしあ}げ (deep-fried skewers)
+- **Time/Business (3)**: {端境期|はざかいき} (off-season), {二者択一|にしゃたくいつ} (either-or choice), {甲乙|こうおつ} (relative merit)
+- **Abstract/Concepts (5)**: {裂|さ}け{目|め} (crack/rift), ずれ (gap/discrepancy), {振|ふ}り{分|わ}け (sorting), {棲|す}み{分|わ}け (niche separation), {役割分担|やくわりぶんたん} (division of roles)
+- **Business/Interpersonal (2)**: {協業|きょうぎょう} (collaboration), {同|おな}い{年|どし} (same age)
+
+Notable entry features:
+- Multi-sense entries: {喰|く}らう (eat/get hit/suffer), {蹴躓|けつまず}く (physical/figurative), {曙|あけぼの} (dawn/beginning), {暁|あかつき} (dawn/occasion), {裂|さ}け{目|め} (physical/figurative), ずれ (physical/abstract), {甲乙|こうおつ} (ranking/contract parties), {棲|す}み{分|わ}け (ecological/business)
+- Literary/poetic vocabulary from classical Japanese
+- Business terminology for organizational concepts
+- 11 new kanji added to kanji index: {串|kushi}, {乙|otsu}, {侮|bu}, {喰|ku}, {崇|suu}, {曙|sho}, {朧|rou}, {棲|sei}, {畏|i}, {薫|kun}, {躓|chi}
+
+Total entries: 9,951 → 9,981
+Remaining candidates: 237 → 207
+New kanji: 2,223 → 2,234
 
 ### 2026-02-04 (Vocabulary Expansion - 30 New Entries, Session 213)
 Added 30 new dictionary entries from candidate_words.json, focusing on education, academic, and expressive vocabulary:
