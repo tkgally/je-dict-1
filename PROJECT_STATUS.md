@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-03
+**Last updated**: 2026-02-04
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -38,7 +38,7 @@
 ### Content Status
 - **Total entries**: 9,768
 - **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 6,975 | Unassigned: 0 ✓
-- **Candidate words**: 223 words tracked in `candidate_words.json`
+- **Candidate words**: 297 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,22 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-04 (Candidate Words Expansion - 74 New Candidates)
+Added 74 new candidate words to candidate_words.json across diverse categories:
+
+- **Nature/Environment**: 水面, 薄暮, 黎明, 陽炎, 青空, 入道雲, 日暮れ, 真っ昼間, 宵の口
+- **Animals/Insects**: カラス, スズメ, ツバメ, ハト, カモメ, トンボ, セミ, ホタル, テントウムシ, アゲハ
+- **Idiomatic Expressions**: 腹を割る, 図に乗る, 二の足を踏む, 鼻が高い, 目が利く
+- **Travel/Transportation**: 乗り継ぎ, 乗り換え, 直行便, 経由便, 搭乗口, 手荷物, 預け荷物, 機内持ち込み, 時差ボケ
+- **Martial Arts**: 空手道, 合気道, 居合道
+- **Family/Social**: 連れ子, 義理の親, 三男, 三女, 一人っ子, 同い年
+- **Business/Work**: 擦り合わせ, 立替, 減給, 残業代, 年度末, 年度始め, 四半期, 掻き入れ時
+- **Social Media/Modern**: タグ付け, フォロバ, 既読スルー
+- **Japanese Culture**: 風鈴, 甚平, 独楽, 花火大会, 露店, 十六夜, 丑三つ時
+- **Other**: 思い込み, 決め付け, 持ち味, 得手, 脈絡, 芽生え, 糸口, 蹴落とす, 赤面症, 咳込む, あくび
+
+Candidate count: 223 → 297
 
 ### 2026-02-03 (Vocabulary Expansion - 30 New Entries, Session 211)
 Added 30 new dictionary entries from candidate_words.json, focusing on everyday life, administrative, and technology vocabulary:
