@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,921
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,128 | Unassigned: 0 ✓
-- **Candidate words**: 267 words tracked in `candidate_words.json`
+- **Total entries**: 9,951
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,158 | Unassigned: 0 ✓
+- **Candidate words**: 237 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,27 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-04 (Vocabulary Expansion - 30 New Entries, Session 213)
+Added 30 new dictionary entries from candidate_words.json, focusing on education, academic, and expressive vocabulary:
+
+- **Education/Academic (10)**: {障害物競走|しょうがいぶつきょうそう} (obstacle race), {修士論文|しゅうしろんぶん} (master's thesis), {博士論文|はくしろんぶん} (doctoral dissertation), {指導教員|しどうきょういん} (academic advisor), {追試|ついし} (make-up exam), {再試験|さいしけん} (retake exam), {補講|ほこう} (make-up class), {塾講師|じゅくこうし} (cram school teacher), {通信教育|つうしんきょういく} (correspondence course), {受験勉強|じゅけんべんきょう} (exam preparation)
+- **Technology/Computing (2)**: ウイルス{対策|たいさく} (antivirus measures), {不正|ふせい}アクセス (unauthorized access)
+- **Nature/Environment (3)**: {原生林|げんせいりん} (primeval forest), {分解者|ぶんかいしゃ} (decomposer), {生態学|せいたいがく} (ecology)
+- **Study/Travel (1)**: {留学先|りゅうがくさき} (study abroad destination)
+- **Expressions/Idioms (6)**: {斡旋|あっせん} (mediation), {曖昧模糊|あいまいもこ} (vague and obscure), {物議|ぶつぎ}を{醸|かも}す (to cause controversy), {酷|ひど}い{目|め} (terrible experience), {苦|にが}い{経験|けいけん} (bitter experience), {末路|まつろ} (end/fate/downfall)
+- **Verbs (4)**: {差|さ}し{置|お}く (to leave aside), {信|しん}じ{込|こ}む (to firmly believe), {取|と}り{持|も}つ (to mediate), お{得意|とくい} (specialty/customer)
+- **Concepts (4)**: {足枷|あしかせ} (shackles/hindrance), {足掛|あしが}かり (foothold/stepping stone), {行|い}き{違|ちが}い (misunderstanding), {不得手|ふえて} (weak point)
+
+Notable entry features:
+- Multi-sense entries: ウイルス{対策|たいさく} (computing/health), {斡旋|あっせん} (mediation/job referral), {足枷|あしかせ} (literal/figurative), {足掛|あしが}かり (physical/figurative), {行|い}き{違|ちが}い (physical/communicative), お{得意|とくい} (specialty/customer)
+- Academic vocabulary useful for university life in Japan
+- Formal/literary expressions: {曖昧模糊|あいまいもこ}, {物議|ぶつぎ}を{醸|かも}す, {末路|まつろ}
+- 2 new kanji added to kanji index: {斡|atsu}, {枷|ka}
+
+Total entries: 9,921 → 9,951
+Remaining candidates: 267 → 237
+New kanji: 2,221 → 2,223
 
 ### 2026-02-04 (Vocabulary Expansion - 30 New Entries, Session 212)
 Added 30 new dictionary entries from candidate_words.json, focusing on diverse vocabulary including literary terms, nature, travel, and emotions:
