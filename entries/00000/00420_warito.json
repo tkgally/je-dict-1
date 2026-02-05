@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "00420_warito_ex1",
-      "japanese": "この{問題|もんだい}は{割|わり}と{簡単|かんたん}だった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧{割|わり}と⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦だった→だ：09496_da⟧。",
       "english": "This problem was relatively easy.",
       "has_audio": false,
       "sense_numbers": [
@@ -29,7 +29,7 @@
     },
     {
       "id": "00420_warito_ex2",
-      "japanese": "{彼|かれ}は{割|わり}と{早|はや}く{来|き}た。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{割|わり}と⟦{早|はや}く→早い：00514_hayai⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "He came fairly early.",
       "has_audio": false,
       "sense_numbers": [
@@ -38,7 +38,7 @@
     },
     {
       "id": "00420_warito_ex3",
-      "japanese": "{割|わり}と{好|す}きな{映画|えいが}だ。",
+      "japanese": "{割|わり}と⟦{好|す}きな→好き：02355_suki⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦だ→だ：09496_da⟧。",
       "english": "It's a movie I rather like.",
       "has_audio": false,
       "sense_numbers": [
@@ -47,7 +47,7 @@
     },
     {
       "id": "00420_warito_ex4",
-      "japanese": "{割|わり}と{近|ちか}くに{住|す}んでいる。",
+      "japanese": "{割|わり}と⟦{近|ちか}く→近く：00923_chikaku⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live relatively close by.",
       "notes": "Sense 1: relatively",
       "has_audio": false,
@@ -57,7 +57,7 @@
     },
     {
       "id": "00420_warito_ex5",
-      "japanese": "{思|おも}ったより{割|わり}と{安|やす}かった。",
+      "japanese": "⟦{思|おも}った→思う：00492_omou⟧⟦より→より：09476_yori⟧{割|わり}と⟦{安|やす}かった→安い：00464_yasui⟧。",
       "english": "It was relatively cheaper than I thought.",
       "notes": "Sense 1: comparatively",
       "has_audio": false,
@@ -67,7 +67,7 @@
     },
     {
       "id": "00420_warito_ex6",
-      "japanese": "{彼|かれ}は{割|わり}と{有名|ゆうめい}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{割|わり}と⟦{有名|ゆうめい}→有名：01106_yuumei⟧⟦だ→だ：09496_da⟧。",
       "english": "He's relatively famous.",
       "notes": "Sense 1: comparatively",
       "has_audio": false,
@@ -77,7 +77,7 @@
     },
     {
       "id": "00420_warito_ex7",
-      "japanese": "{割|わり}とよくできた。",
+      "japanese": "{割|わり}と⟦よく→よく：00601_yoku⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I did fairly well.",
       "notes": "Sense 2: fairly",
       "has_audio": false,
@@ -87,7 +87,7 @@
     },
     {
       "id": "00420_warito_ex8",
-      "japanese": "{割|わり}と{楽|らく}だった。",
+      "japanese": "{割|わり}と⟦{楽|らく}→楽：02169_raku⟧⟦だった→だ：09496_da⟧。",
       "english": "It was pretty easy.",
       "notes": "Sense 2: pretty",
       "has_audio": false,
@@ -97,7 +97,7 @@
     },
     {
       "id": "00420_warito_ex9",
-      "japanese": "{割|わり}と{満足|まんぞく}している。",
+      "japanese": "{割|わり}と⟦{満足|まんぞく}している→満足する：02496_manzoku⟧。",
       "english": "I'm rather satisfied.",
       "notes": "Sense 2: rather",
       "has_audio": false,
@@ -107,7 +107,7 @@
     },
     {
       "id": "00420_warito_ex10",
-      "japanese": "{割|わり}と{暖|あたた}かい{日|ひ}だ。",
+      "japanese": "{割|わり}と⟦{暖|あたた}かい→暖かい：00618_atatakai⟧⟦{日|ひ}→日：02249_hi⟧⟦だ→だ：09496_da⟧。",
       "english": "It's a fairly warm day.",
       "notes": "Sense 2: fairly",
       "has_audio": false,
@@ -134,7 +134,8 @@
   ],
   "metadata": {
     "created": "2026-01-13T06:25:33Z",
-    "modified": "2026-01-20T02:15:51Z",
+    "modified": "2026-02-05T21:20:13Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
