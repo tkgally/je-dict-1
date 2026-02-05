@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 10,246
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,453 | Unassigned: 0 ✓
-- **Candidate words**: 141 words tracked in `candidate_words.json`
+- **Total entries**: 10,276
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,483 | Unassigned: 0 ✓
+- **Candidate words**: 112 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,31 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 219)
+Added 30 new dictionary entries from candidate_words.json, covering casual expressions, household items, administrative documents, finance, social media, and daily life:
+
+- **Casual Expressions/Interjections (2)**: しまった (oh no!), やった (yay!)
+- **Mimetic/Onomatopoeia (3)**: いちゃいちゃ (flirting), ちやほや (pampering), のりのり (in high spirits)
+- **Adjective (1)**: {怪|あや}しい (suspicious/dubious)
+- **Social/Cultural (3)**: {合|ごう}コン (group blind date), お{一人|ひとり}{様|さま} (solo customer), おばちゃん (auntie/middle-aged woman)
+- **Household Items (4)**: お{箸|はし} (chopsticks), {三角|さんかく}コーナー (sink strainer), {水切|みずき}りかご (dish drainer), レンジ{対応|たいおう} (microwave-safe)
+- **Administrative Documents (5)**: {転居届|てんきょとどけ} (change of address), {印鑑証明|いんかんしょうめい} (seal certificate), {戸籍謄本|こせきとうほん} (family register copy), {訂正印|ていせいいん} (correction seal), {二重線|にじゅうせん} (double strikethrough)
+- **Finance/Business (4)**: {不均衡|ふきんこう} (imbalance), {仲介手数料|ちゅうかいてすうりょう} (brokerage fee), {比較検討|ひかくけんとう} (comparative evaluation), {反落|はんらく} (reactionary drop)
+- **Daily Life/Labels (3)**: {年度始|ねんどはじ}め (start of fiscal year), {保存方法|ほぞんほうほう} (storage instructions), バーコード (barcode)
+- **Transportation (1)**: {弱冷房車|じゃくれいぼうしゃ} (mildly air-conditioned car)
+- **Technology/SNS (3)**: タグ{付|づ}け (tagging), {既読|きどく}スルー (leaving on read), メモる (to jot down)
+- **Reference (1)**: {取扱説明書|とりあつかいせつめいしょ} (user manual)
+
+Notable entry features:
+- Multi-sense entries: {怪|あや}しい (suspicious/dubious), お{一人|ひとり}{様|さま} (service/cultural), おばちゃん (family/general)
+- Administrative document trio: {転居届|てんきょとどけ}, {印鑑証明|いんかんしょうめい}, {戸籍謄本|こせきとうほん}
+- Correction process pair: {訂正印|ていせいいん} + {二重線|にじゅうせん}
+- Modern Japanese terms: {既読|きどく}スルー, タグ{付|づ}け, メモる
+
+Total entries: 10,246 → 10,276
+Remaining candidates: 141 → 112
+New kanji: 2,242 → 2,245 ({怪|かい}, {訂|てい}, {謄|とう})
 
 ### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 218)
 Added 30 new dictionary entries from candidate_words.json, focusing on daily life, food, family, and practical vocabulary:
