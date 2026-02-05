@@ -6,7 +6,7 @@ Process words from `prompts/corpus_extracted_words.json` to find suitable candid
 
 1. **Read the starting point**: Check `prompts/corpus_harvesting_next_entry_number.txt` to find where to start.
 
-2. **Determine batch size**: Use the target number specified by the user. If none is specified, process **100 entries**.
+2. **Determine batch size**: Use the target number specified by the user. If none is specified, process **150 entries**.
 
 3. **Process each entry one by one**:
    - Read the word and its example sentence from `corpus_extracted_words.json`
@@ -50,7 +50,7 @@ Process words from `prompts/corpus_extracted_words.json` to find suitable candid
 ## Example Workflow
 
 ```
-Starting at entry 1, processing 100 entries...
+Starting at entry 1, processing 150 entries...
 
 Entry 1: "1人" - SKIP (numeric expression)
 Entry 2: "1度" - SKIP (numeric expression)
