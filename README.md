@@ -29,8 +29,8 @@ Audio readings for example sentences will be added in the future.
 
 ## Current Status
 
-- **Nearly 8,000 entries** with a target of about 10,000 entries
-- **Vocabulary tiers assigned**: Basic (795), Core (1,998), General (4,926) - all new entries are added to general tier
+- **Over 10,000 entries** with a target of about 10,000 entries
+- **Vocabulary tiers assigned**: Basic (801), Core (1,998), General (7,297) - all new entries are added to general tier
 - **Over 3,000 cross-references** linking related entries
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
@@ -95,7 +95,7 @@ Quick lookup by Japanese, romaji, or English. The traditional dictionary experie
 ### Browse Mode
 Explore entries organized by:
 - **Starting Kana**: あ行, か行, さ行, etc.
-- **Vocabulary Tier**: Basic (795 fundamental words), Core (1,998 adult-communication words), General (all other vocabulary)
+- **Vocabulary Tier**: Basic (801 fundamental words), Core (1,998 adult-communication words), General (all other vocabulary)
 
 The dictionary uses an original three-tier classification system instead of JLPT levels. All new entries are added to the general tier.
 
@@ -360,7 +360,7 @@ The directory name is determined by rounding down to the nearest 500:
 - [x] Static HTML site generation (flat HTML only)
 - [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
 - [x] Code quality improvements (shared utilities, deterministic builds)
-- [x] Three-tier vocabulary system (basic 795, core 1,998, general 4,926)
+- [x] Three-tier vocabulary system (basic 801, core 1,998, general 7,297)
 - [x] Vocabulary tier realignment complete - all entries assigned
 - [x] Tier-based filtering in Browse mode
 
