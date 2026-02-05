@@ -73,8 +73,9 @@ For each word in your list:
    - Format: `{5-digit-number}_{romaji}` (e.g., `09478_bousou`)
 
 6. **Write the entry file**:
-   - Path: `entries/{prefix}/{id}_{romaji}.json`
-   - Prefix is the first 5 digits rounded down to nearest 500 (e.g., 09478 → 09000)
+   - Path: `entries/{id_range}/{id}_{romaji}.json`
+   - `{id_range}` is the ID rounded down to nearest 500 (e.g., 09478 → 09000)
+   - Example: Entry ID `09478_bousou` goes in `entries/09000/09478_bousou.json`
 
 ### Phase 3: Update `noentry` Links
 
