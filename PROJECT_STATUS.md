@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-04
+**Last updated**: 2026-02-05
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
@@ -36,9 +36,9 @@
 - [x] Improved security (XSS prevention, no auto-install)
 
 ### Content Status
-- **Total entries**: 9,981
-- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,188 | Unassigned: 0 ✓
-- **Candidate words**: 207 words tracked in `candidate_words.json`
+- **Total entries**: 10,011
+- **Vocabulary tier assignment**: Basic: 795 | Core: 1,998 | General: 7,218 | Unassigned: 0 ✓
+- **Candidate words**: 177 words tracked in `candidate_words.json`
 - **Priority candidates**: 0 words remaining in `candidate_words_priority.json` (all 94 completed)
 - **Cross-references**: 567 total (555 resolved, 97% resolution rate)
 - **Audio files**: 1,028 MP3 files covering example sentences
@@ -105,6 +105,29 @@ Available in `.claude/skills/` (automatically loaded when relevant):
 | `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
+
+### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 215)
+Added 30 new dictionary entries from candidate_words.json, focusing on nature, time, idioms, travel, and daily life vocabulary:
+
+- **Nature/Time (9)**: {水面|みなも} (water surface), {陽炎|かげろう} (heat haze), {青空|あおぞら} (blue sky), {入道雲|にゅうどうぐも} (cumulonimbus), {日暮|ひぐ}れ (dusk), {宵|よい}の{口|くち} (early evening), {真|ま}っ{昼間|ぴるま} (broad daylight), {丑三|うしみ}つ{時|どき} (witching hour), {十六夜|いざよい} (16th-night moon)
+- **Animals (1)**: アゲハ (swallowtail butterfly)
+- **Idioms/Expressions (6)**: {腹|はら}を{割|わ}る (speak frankly), {図|ず}に{乗|の}る (get carried away), {上|うわ}の{空|そら} (absentminded), {二|に}の{足|あし}を{踏|ふ}む (hesitate), {鼻|はな}が{高|たか}い (proud), {目|め}が{利|き}く (have a good eye)
+- **Travel (2)**: {直行便|ちょっこうびん} (direct flight), {経由便|けいゆびん} (connecting flight)
+- **Family (2)**: {連|つ}れ{子|こ} (stepchild), {一人|ひとり}っ{子|こ} (only child)
+- **Business (2)**: {残業代|ざんぎょうだい} (overtime pay), {四半期|しはんき} (quarter)
+- **Culture (4)**: {独楽|こま} (spinning top), {花火大会|はなびたいかい} (fireworks festival), {露店|ろてん} (street stall), {甚平|じんべい} (jinbei garment)
+- **Abstract/Concepts (4)**: {脈絡|みゃくらく} (coherence), {芽生|めば}え (sprouting/budding), {糸口|いとぐち} (clue), {思|おも}い{込|こ}み (assumption)
+
+Notable entry features:
+- Multi-sense entries: {芽生|めば}え (physical/figurative sprouting)
+- Classical/literary vocabulary: {十六夜|いざよい}, {丑三|うしみ}つ{時|どき}
+- Seasonal/cultural vocabulary: {入道雲|にゅうどうぐも}, {花火大会|はなびたいかい}, {甚平|じんべい}
+- Common idioms useful for natural conversation
+- 3 new kanji added to kanji index: {丑|ushi}, {宵|yoi}, {甚|jin}
+
+Total entries: 9,981 → 10,011
+Remaining candidates: 207 → 177
+New kanji: 2,234 → 2,237
 
 ### 2026-02-04 (Vocabulary Expansion - 30 New Entries, Session 214)
 Added 30 new dictionary entries from candidate_words.json, focusing on verbs, emotions, literary nature terms, and business vocabulary:
