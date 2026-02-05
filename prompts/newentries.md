@@ -20,7 +20,9 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
    - **Include sense_numbers on all examples**: Every example must have a `sense_numbers` field
      - Single-sense entries: use `[1]` for all examples
      - Multi-sense entries: each example must specify which sense(s) it illustrates
-   - Use Write tool to create file at: `entries/{kana_row}/{prefix}/{romaji}_{5digit_id}.json`
+   - Use Write tool to create file at: `entries/{id_range}/{id}_{romaji}.json`
+     - `{id_range}` is the ID rounded down to nearest 500 (e.g., 10207 → 10000)
+     - `{id}_{romaji}` is the entry ID (e.g., 10207_asari)
 
 3. **After all 30 entries**:
    ```bash
