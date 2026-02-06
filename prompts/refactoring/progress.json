@@ -124,9 +124,9 @@
       "title": "Investigate and document build performance",
       "category": "Code & Structure",
       "priority": "Low",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Added timing instrumentation to build_flat.py. Full build takes ~40s for 10,306 entries. Atomic swap dominates at 57% (23s), entry HTML generation is 17% (7s), entry loading 10% (4s), directory setup 9% (4s). Added performance profile and optimization strategies as docstring at top of build_flat.py."
     },
     {
       "id": "01_code_prompt_15",
