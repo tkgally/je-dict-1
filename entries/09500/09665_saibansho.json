@@ -18,7 +18,9 @@
       "english": "I'm going to the courthouse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09665_saibansho_ex2",
@@ -26,7 +28,9 @@
       "english": "The Supreme Court is in Tokyo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09665_saibansho_ex3",
@@ -34,21 +38,34 @@
       "english": "I'm waiting for the court's verdict.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{裁判所|さいばんしょ} refers to both the institution and the building where courts are held.\n\nTYPES OF COURTS IN JAPAN:\n- {最高|さいこう}{裁判所|さいばんしょ} (Supreme Court)\n- {高等|こうとう}{裁判所|さいばんしょ} (High Court)\n- {地方|ちほう}{裁判所|さいばんしょ} (District Court)\n- {家庭|かてい}{裁判所|さいばんしょ} (Family Court)\n- {簡易|かんい}{裁判所|さいばんしょ} (Summary Court)\n\nCOMMON COLLOCATIONS:\n- {裁判所|さいばんしょ}に{訴|うった}える (to sue in court)\n- {裁判所|さいばんしょ}の{命令|めいれい} (court order)",
-  "cross_references": ["09562_saibankan"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "さいばんかん",
+      "target_id": "09562_saibankan",
+      "headword": "{裁判官|さいばんかん}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
     "modified": "2026-02-03T05:02:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

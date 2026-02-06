@@ -18,7 +18,9 @@
       "english": "The hostage was released.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09678_hitojichi_ex2",
@@ -26,7 +28,9 @@
       "english": "To take hostages.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09678_hitojichi_ex3",
@@ -34,21 +38,34 @@
       "english": "Ensuring the hostages' safety is the most important thing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{人質|ひとじち} combines {人|ひと} (person) and {質|しち} (pledge/pawn).\n\nCOMMON COLLOCATIONS:\n- {人質|ひとじち}を{取|と}る (take hostages)\n- {人質|ひとじち}を{解放|かいほう}する (release hostages)\n- {人質|ひとじち}{事件|じけん} (hostage incident)\n- {人質|ひとじち}{救出|きゅうしゅつ} (hostage rescue)",
-  "cross_references": ["00135_kaihou"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "かいほう",
+      "target_id": "00135_kaihou",
+      "headword": "{解放|かいほう}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
     "modified": "2026-02-03T05:02:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

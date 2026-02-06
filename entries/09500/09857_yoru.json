@@ -23,7 +23,9 @@
       "english": "They were sued for an accident caused by negligence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09857_yoru_ex2",
@@ -31,7 +33,9 @@
       "english": "According to weather observations, a typhoon is approaching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09857_yoru_ex3",
@@ -39,22 +43,41 @@
       "english": "Success largely depends on effort.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "よる (written {因|よ}る or {拠|よ}る in kanji) is used to indicate causation or source.\n\nCOMMON PATTERNS:\n- 〜による: due to, caused by (modifies nouns)\n- 〜によって: by means of, depending on (adverbial)\n- 〜によると: according to\n- 〜によれば: according to (more formal)\n\nUSAGE EXAMPLES:\n- {火事|かじ}による{被害|ひがい}: damage caused by fire\n- {人|ひと}によって{違|ちが}う: varies by person\n- {新聞|しんぶん}によると: according to the newspaper\n\nTRANSITIVITY:\n- Type: Intransitive ({自動詞|じどうし})\n- Pattern: 〜による / 〜によって",
-  "cross_references": ["00487_yoru", "02440_yoru"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "よる",
+      "target_id": "00487_yoru",
+      "headword": "{夜|よる}"
+    },
+    {
+      "type": "related",
+      "reading": "よる",
+      "target_id": "02440_yoru",
+      "headword": "{寄|よ}る"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
     "modified": "2026-02-04T01:44:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ]
     }
   }
 }

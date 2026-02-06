@@ -18,7 +18,9 @@
       "english": "The main store is in Kyoto.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09566_honten_ex2",
@@ -26,7 +28,9 @@
       "english": "I want to visit this shop's main branch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09566_honten_ex3",
@@ -34,21 +38,34 @@
       "english": "There are products exclusive to the main store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{本店|ほんてん} is commonly used for restaurants, shops, and retail businesses.\n\nRELATED TERMS:\n- {支店|してん}: branch store\n- {本社|ほんしゃ}: head office (for companies)\n- {店舗|てんぽ}: store, shop\n\n{本店|ほんてん} vs. {本社|ほんしゃ}:\n- {本店|ほんてん}: used for the main/original store, especially for restaurants and retail\n- {本社|ほんしゃ}: used for the administrative headquarters of a company",
-  "cross_references": ["09565_honsha"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ほんしゃ",
+      "target_id": "09565_honsha",
+      "headword": "{本社|ほんしゃ}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T00:29:56Z",
     "modified": "2026-02-03T00:29:56Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

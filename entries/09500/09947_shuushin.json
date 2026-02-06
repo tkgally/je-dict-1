@@ -18,7 +18,9 @@
       "english": "Bedtime is 10 o'clock.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09947_shuushin_ex2",
@@ -26,7 +28,9 @@
       "english": "I don't look at my smartphone before bed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09947_shuushin_ex3",
@@ -34,12 +38,19 @@
       "english": "According to school rules, wake-up time is 6 o'clock and bedtime is 10 o'clock.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{就寝|しゅうしん} is a formal word for going to bed.\n\nCOMMON COMPOUNDS:\n- {就寝|しゅうしん}{時間|じかん}: bedtime\n- {就寝|しゅうしん}{前|まえ}: before bed\n\nCONTRASTING WORD:\n- {起床|きしょう}: waking up, getting up\n\nSIMILAR WORDS:\n- {寝|ね}る: to sleep, to go to bed (everyday usage)",
   "cross_references": [
-    "00237_kishou"
+    {
+      "type": "related",
+      "reading": "きしょう",
+      "target_id": "00237_kishou",
+      "headword": "{起床|きしょう}"
+    }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
@@ -47,10 +58,15 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-daily"]
+      "semantic": [
+        "time-daily"
+      ]
     }
   }
 }

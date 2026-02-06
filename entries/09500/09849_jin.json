@@ -18,7 +18,9 @@
       "english": "Kansai people are said to be funny.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09849_jin_ex2",
@@ -26,7 +28,9 @@
       "english": "I made a Japanese friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09849_jin_ex3",
@@ -34,21 +38,34 @@
       "english": "It's popular with foreigners too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "〜{人|じん} indicates nationality or regional identity.\n\nCOMMON NATIONALITIES:\n- {日本人|にほんじん}: Japanese person\n- {中国人|ちゅうごくじん}: Chinese person\n- {韓国人|かんこくじん}: Korean person\n- {アメリカ{人|じん}}: American person\n- {外国人|がいこくじん}: foreigner\n\nREGIONAL IDENTITY:\n- {関西人|かんさいじん}: Kansai person\n- {東京人|とうきょうじん}: Tokyo person\n\nRELATED:\n- 〜{人|にん}: counter for people (e.g., {三人|さんにん})\n- {人|ひと}: person (standalone noun)",
-  "cross_references": ["00476_hito"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ひと",
+      "target_id": "00476_hito",
+      "headword": "{人|ひと}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
     "modified": "2026-02-04T01:44:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

@@ -107,42 +107,35 @@
     "cross_references": {
       "type": "array",
       "items": {
-        "oneOf": [
-          {
+        "$comment": "Legacy plain-string format removed 2026-02-06 after converting all 28 remaining entries to object format",
+        "type": "object",
+        "required": ["type", "reading"],
+        "properties": {
+          "type": {
             "type": "string",
-            "description": "Legacy format: entry ID string"
+            "enum": ["pair", "synonym", "antonym", "keigo", "related", "see_also", "contrast", "homophone"],
+            "$comment": "Keep this enum in sync with CROSS_REF_TYPES in build/constants.py",
+            "description": "Relationship type"
           },
-          {
-            "type": "object",
-            "required": ["type", "reading"],
-            "properties": {
-              "type": {
-                "type": "string",
-                "enum": ["pair", "synonym", "antonym", "keigo", "related", "see_also", "contrast", "homophone"],
-                "$comment": "Keep this enum in sync with CROSS_REF_TYPES in build/constants.py",
-                "description": "Relationship type"
-              },
-              "target_id": {
-                "type": "string",
-                "pattern": "^[0-9]{5}_[a-z]+(_[a-z]+)?$",
-                "description": "Hard-coded entry ID for direct resolution (optional, takes priority over reading/headword lookup)"
-              },
-              "reading": {
-                "type": "string",
-                "pattern": "^[ぁ-んーゝゞ]+$",
-                "description": "Hiragana reading of target word (primary lookup key when target_id is absent)"
-              },
-              "headword": {
-                "type": "string",
-                "description": "Display form with kanji/furigana (optional, for display before entry exists)"
-              },
-              "label": {
-                "type": "string",
-                "description": "Short label like 'intransitive', 'honorific', 'formal'"
-              }
-            }
+          "target_id": {
+            "type": "string",
+            "pattern": "^[0-9]{5}_[a-z]+(_[a-z]+)?$",
+            "description": "Hard-coded entry ID for direct resolution (optional, takes priority over reading/headword lookup)"
+          },
+          "reading": {
+            "type": "string",
+            "pattern": "^[ぁ-んーゝゞ]+$",
+            "description": "Hiragana reading of target word (primary lookup key when target_id is absent)"
+          },
+          "headword": {
+            "type": "string",
+            "description": "Display form with kanji/furigana (optional, for display before entry exists)"
+          },
+          "label": {
+            "type": "string",
+            "description": "Short label like 'intransitive', 'honorific', 'formal'"
           }
-        ]
+        }
       },
       "description": "Array of cross-references to related entries"
     },

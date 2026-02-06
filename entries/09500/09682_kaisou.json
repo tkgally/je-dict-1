@@ -18,7 +18,9 @@
       "english": "I renovated the store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09682_kaisou_ex2",
@@ -26,7 +28,9 @@
       "english": "Closed for renovation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09682_kaisou_ex3",
@@ -34,21 +38,35 @@
       "english": "We renovated an old building into a café.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{改装|かいそう} typically refers to interior renovation.\n\nCOMMON COLLOCATIONS:\n- {改装|かいそう}{中|ちゅう} (under renovation)\n- {改装|かいそう}オープン (reopening after renovation)\n- {全面|ぜんめん}{改装|かいそう} (complete renovation)\n- {店舗|てんぽ}{改装|かいそう} (store renovation)\n\nSIMILAR WORDS:\n- {改築|かいちく}: rebuilding, reconstruction (structural)\n- {改造|かいぞう}: remodeling, modification\n- {リフォーム}: reform, renovation (loanword)",
-  "cross_references": ["00145_kaizou"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "かいぞう",
+      "target_id": "00145_kaizou",
+      "headword": "{改造|かいぞう}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
     "modified": "2026-02-03T05:02:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

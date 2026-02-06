@@ -18,7 +18,9 @@
       "english": "The prosecutor presented evidence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09664_kensatsukan_ex2",
@@ -26,7 +28,9 @@
       "english": "I want to become a prosecutor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09664_kensatsukan_ex3",
@@ -34,21 +38,40 @@
       "english": "The prosecutor questioned the defendant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{検察官|けんさつかん} is the official term for a prosecutor in Japan.\n\nRELATED LEGAL TERMS:\n- {弁護士|べんごし} (lawyer, defense attorney)\n- {裁判官|さいばんかん} (judge)\n- {被告人|ひこくにん} (defendant)\n- {原告|げんこく} (plaintiff)\n\nCOMMON COLLOCATIONS:\n- {検察官|けんさつかん}の{論告|ろんこく} (prosecutor's closing argument)\n- {検察官|けんさつかん}による{起訴|きそ} (indictment by prosecutor)",
-  "cross_references": ["03150_bengoshi", "09562_saibankan"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "べんごし",
+      "target_id": "03150_bengoshi",
+      "headword": "{弁護士|べんごし}"
+    },
+    {
+      "type": "related",
+      "reading": "さいばんかん",
+      "target_id": "09562_saibankan",
+      "headword": "{裁判官|さいばんかん}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
     "modified": "2026-02-03T05:02:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

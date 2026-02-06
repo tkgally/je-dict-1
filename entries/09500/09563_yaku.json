@@ -18,7 +18,9 @@
       "english": "About 10 people participated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09563_yaku_ex2",
@@ -26,7 +28,9 @@
       "english": "It's about 5 minutes to the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09563_yaku_ex3",
@@ -34,21 +38,38 @@
       "english": "I waited for about an hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{約|やく} is a prefix meaning \"approximately\" that attaches directly to numbers.\n\nUSAGE:\n- {約|やく}10{分|ぷん} (about 10 minutes)\n- {約|やく}100{人|にん} (about 100 people)\n- {約|やく}3{時間|じかん} (about 3 hours)\n\nSIMILAR WORDS:\n- {約|やく} vs. ほぼ: {約|やく} is used specifically with numbers, while ほぼ is broader (e.g., ほぼ{完成|かんせい} = almost complete)\n- {約|やく} vs. だいたい: だいたい is more casual and can mean \"generally\" as well as \"approximately\"",
-  "cross_references": ["00831_daitai", "00109_hobo"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "だいたい",
+      "target_id": "00831_daitai"
+    },
+    {
+      "type": "related",
+      "reading": "ほぼ",
+      "target_id": "00109_hobo"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T00:29:56Z",
     "modified": "2026-02-03T00:29:56Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["prefix"],
+      "pos": [
+        "prefix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }
