@@ -151,9 +151,9 @@
       "title": "Add schema version field to entry schema",
       "category": "Code & Structure",
       "priority": "Low",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Added optional schema_version string field to build/schema.json. Updated entry-guidelines skill to instruct new entries to include schema_version: \"2.0\". Existing entries not backfilled."
     },
     {
       "id": "01_code_prompt_18",
