@@ -43,9 +43,9 @@
       "title": "Add unit tests for path_utils.py",
       "category": "Code & Structure",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Created build/tests/test_path_utils.py with 40 tests covering all public functions: get_numeric_id (13 tests), get_directory_range (15 tests), get_entry_path (10 tests), and get_entry_prefix legacy compat (2 tests). All boundary cases (0, 499, 500, 999, 1000) tested."
     },
     {
       "id": "01_code_prompt_06",
