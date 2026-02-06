@@ -1,4 +1,4 @@
-.PHONY: validate index build check-furigana check-kanji stats clean full
+.PHONY: validate index build check-furigana check-kanji stats report clean full
 
 validate:
 	python3 build/validate.py
@@ -17,6 +17,9 @@ check-kanji:
 
 stats:
 	python3 build/tag_statistics.py
+
+report:
+	python3 build/report.py
 
 clean:
 	rm -rf docs_build_temp/ docs_backup/
