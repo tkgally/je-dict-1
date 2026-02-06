@@ -3,8 +3,7 @@
 import sys
 import os
 import re
-
-import pytest
+import unittest
 
 # Add build directory to path so we can import japanese_utils
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
@@ -27,7 +26,7 @@ from japanese_utils import (
 
 # ── hiragana_to_romaji ──────────────────────────────────────────────
 
-class TestHiraganaToRomaji:
+class TestHiraganaToRomaji(unittest.TestCase):
     """Tests for hiragana_to_romaji()."""
 
     def test_basic_syllables(self):
@@ -105,7 +104,7 @@ class TestHiraganaToRomaji:
 
 # ── romaji_to_hiragana ──────────────────────────────────────────────
 
-class TestRomajiToHiragana:
+class TestRomajiToHiragana(unittest.TestCase):
     """Tests for romaji_to_hiragana()."""
 
     def test_basic_conversion(self):
@@ -150,7 +149,7 @@ class TestRomajiToHiragana:
 
 # ── romaji_to_katakana ──────────────────────────────────────────────
 
-class TestRomajiToKatakana:
+class TestRomajiToKatakana(unittest.TestCase):
     """Tests for romaji_to_katakana()."""
 
     def test_basic_conversion(self):
@@ -176,7 +175,7 @@ class TestRomajiToKatakana:
 
 # ── strip_furigana ──────────────────────────────────────────────────
 
-class TestStripFurigana:
+class TestStripFurigana(unittest.TestCase):
     """Tests for strip_furigana()."""
 
     def test_simple_furigana(self):
@@ -205,7 +204,7 @@ class TestStripFurigana:
 
 # ── FURIGANA_PATTERN ────────────────────────────────────────────────
 
-class TestFuriganaPattern:
+class TestFuriganaPattern(unittest.TestCase):
     """Tests for the FURIGANA_PATTERN regex constant."""
 
     def test_matches_basic_furigana(self):
@@ -231,7 +230,7 @@ class TestFuriganaPattern:
 
 # ── is_kanji ────────────────────────────────────────────────────────
 
-class TestIsKanji:
+class TestIsKanji(unittest.TestCase):
     """Tests for is_kanji()."""
 
     def test_common_kanji(self):
@@ -281,7 +280,7 @@ class TestIsKanji:
 
 # ── is_valid_hiragana ───────────────────────────────────────────────
 
-class TestIsValidHiragana:
+class TestIsValidHiragana(unittest.TestCase):
     """Tests for is_valid_hiragana()."""
 
     def test_valid_hiragana(self):
@@ -325,7 +324,7 @@ class TestIsValidHiragana:
 
 # ── normalize_reading ───────────────────────────────────────────────
 
-class TestNormalizeReading:
+class TestNormalizeReading(unittest.TestCase):
     """Tests for normalize_reading()."""
 
     def test_katakana_to_hiragana(self):
@@ -358,7 +357,7 @@ class TestNormalizeReading:
 
 # ── contains_katakana ───────────────────────────────────────────────
 
-class TestContainsKatakana:
+class TestContainsKatakana(unittest.TestCase):
     """Tests for contains_katakana()."""
 
     def test_katakana_string(self):
@@ -394,7 +393,7 @@ class TestContainsKatakana:
 
 # ── get_kana_folder ─────────────────────────────────────────────────
 
-class TestGetKanaFolder:
+class TestGetKanaFolder(unittest.TestCase):
     """Tests for get_kana_folder()."""
 
     def test_a_row(self):
@@ -448,7 +447,7 @@ class TestGetKanaFolder:
 
 # ── get_expected_directory ──────────────────────────────────────────
 
-class TestGetExpectedDirectory:
+class TestGetExpectedDirectory(unittest.TestCase):
     """Tests for get_expected_directory()."""
 
     def test_basic_readings(self):
@@ -465,7 +464,7 @@ class TestGetExpectedDirectory:
 
 # ── KANA_TO_FOLDER / KANA_TO_DIRECTORY ──────────────────────────────
 
-class TestKanaConstants:
+class TestKanaConstants(unittest.TestCase):
     """Tests for KANA_TO_FOLDER and KANA_TO_DIRECTORY mappings."""
 
     def test_kana_to_folder_covers_basic_kana(self):
