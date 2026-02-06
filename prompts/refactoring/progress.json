@@ -169,9 +169,9 @@
       "title": "Add incremental build capability",
       "category": "Code & Structure",
       "priority": "Low",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Added --quick flag to build_flat.py via argparse. Quick mode compares mtime of source JSON vs output HTML, only regenerates changed entries, writes directly to docs/ (skips atomic swap). Navigation pages, search index, and stylesheet always regenerated. Added 'quick' target to Makefile. With no changes: full build ~40s vs quick build ~10s."
     },
     {
       "id": "01_code_prompt_20",
