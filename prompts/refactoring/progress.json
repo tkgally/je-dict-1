@@ -70,9 +70,9 @@
       "title": "Add a Makefile or build runner script",
       "category": "Code & Structure",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Created Makefile with 8 targets: validate, index, build, check-furigana, check-kanji, stats, clean, full. build depends on validate+index. Note: make build currently stops at validate due to pre-existing validation warnings (10296/10306 entries valid)."
     },
     {
       "id": "01_code_prompt_09",
