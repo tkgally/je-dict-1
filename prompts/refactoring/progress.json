@@ -61,9 +61,9 @@
       "title": "Enrich entries_index.json with tag and tier data",
       "category": "Code & Structure",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Added 6 fields to extract_entry_info(): vocabulary_tier, part_of_speech, pos_tags, cross_reference_count, example_count, has_inline_links. Regenerated entries_index.json with 10306 entries."
     },
     {
       "id": "01_code_prompt_08",
