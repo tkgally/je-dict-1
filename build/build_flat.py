@@ -4,12 +4,46 @@ Build script for flat HTML version of je-dict-1 dictionary.
 
 Generates static HTML pages for each dictionary entry, plus navigation pages.
 This version works without JavaScript and is SEO-friendly.
+
+Build performance profile (10,306 entries, measured 2026-02-06):
+--------------------------------------------------------------
+  Load entries                                    4.1s   (10%)
+  Setup directories (copy preserved dirs)         3.7s   ( 9%)
+  Entry HTML generation (entry_renderer.py)       6.8s   (17%)
+  Navigation pages (page_generators.py)           0.2s   (<1%)
+  Search index (search_index_builder.py)          0.5s   ( 1%)
+  Stylesheet                                      0.0s   (<1%)
+  Atomic swap (shutil.move + rmtree)             23.1s   (57%)
+  Kanji index rebuild (build_kanji_*.py)          1.9s   ( 5%)
+  Sitemap generation (build_sitemap.py)           0.1s   (<1%)
+  TOTAL                                          40.4s
+
+Key observations:
+  - The atomic swap (shutil.move of ~12k HTML files + rmtree of backup) dominates
+    at 57% of build time. This is filesystem I/O overhead from moving and deleting
+    the docs/ directory tree containing 10k+ entry pages plus kanji pages.
+  - Entry HTML generation is the second-largest phase at 17%. This involves
+    rendering 10,306 entries through entry_renderer.generate_entry_html(), each
+    with furigana processing, cross-reference resolution, and inline word links.
+  - Loading entries (10%) involves reading and parsing 10,306 JSON files from disk.
+  - Directory setup (9%) copies preserved dirs (flat/, kanji/) to the temp build dir.
+
+Potential optimization strategies:
+  - Incremental build: only regenerate changed entries (see 01_code_prompt_19).
+    This would avoid the full atomic swap and reduce entry generation proportionally.
+  - In-place build: write directly to docs/ instead of temp dir + swap. Faster but
+    risks leaving docs/ in a broken state if build fails mid-way.
+  - Parallel entry generation: entry pages are independent; multiprocessing could
+    speed up the entry_renderer phase.
+  - Reduce swap overhead: instead of moving entire directory trees, use symlinks
+    or rename individual files.
 """
 
 import json
 import shutil
 import sys
 import subprocess
+import time
 from collections import defaultdict
 from pathlib import Path
 from datetime import datetime
@@ -69,8 +103,12 @@ def build_flat(project_root: Path) -> int:
     print("\nFlat HTML Build")
     print("=" * 50)
 
+    build_start = time.time()
+    timings = {}
+
     # Step 1: Load all entries
     print("\n[1/6] Loading entries...")
+    phase_start = time.time()
     entries = []
     for file_path in entries_dir.glob('**/*.json'):
         entry = load_entry(file_path)
@@ -105,8 +143,11 @@ def build_flat(project_root: Path) -> int:
             'headword': e.get('headword', '')
         })
 
+    timings['1_load_entries'] = time.time() - phase_start
+
     # Step 2: Create output directories (atomic build pattern)
     print("\n[2/6] Creating output directories...")
+    phase_start = time.time()
 
     # Build to a temporary directory first, then swap atomically
     # This ensures a failed build doesn't leave docs/ in a broken state
@@ -189,8 +230,11 @@ def build_flat(project_root: Path) -> int:
 
     print(f"  Created {docs_dir}")
 
+    timings['2_setup_directories'] = time.time() - phase_start
+
     # Step 3: Generate entry pages
     print("\n[3/6] Generating entry pages...")
+    phase_start = time.time()
     for entry in entries:
         dir_range = get_directory_range(entry['id'])
         entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
@@ -215,8 +259,11 @@ def build_flat(project_root: Path) -> int:
     build_time = datetime.now(JST)
     build_time_jst = f"{build_time.year}.{build_time.month}.{build_time.day} {build_time.hour}:{build_time.minute:02d}"
 
+    timings['3_entry_pages'] = time.time() - phase_start
+
     # Step 4: Generate navigation pages
     print("\n[4/6] Generating navigation pages...")
+    phase_start = time.time()
 
     # Index page (with search form)
     with open(docs_dir / 'index.html', 'w', encoding='utf-8') as f:
@@ -250,8 +297,11 @@ def build_flat(project_root: Path) -> int:
 
     print("  Generated index.html, advanced.html, browse.html, recent.html, random.html, pending.html")
 
+    timings['4_navigation_pages'] = time.time() - phase_start
+
     # Step 5: Generate search index and JavaScript
     print("\n[5/6] Generating search index...")
+    phase_start = time.time()
     with open(docs_dir / 'search-index.js', 'w', encoding='utf-8') as f:
         f.write(generate_search_index(entries))
 
@@ -263,15 +313,21 @@ def build_flat(project_root: Path) -> int:
 
     print("  Generated search-index.js, search.js, tag-search.js")
 
+    timings['5_search_index'] = time.time() - phase_start
+
     # Step 6: Generate stylesheet
     print("\n[6/6] Generating stylesheet...")
+    phase_start = time.time()
     with open(docs_dir / 'styles.css', 'w', encoding='utf-8') as f:
         f.write(generate_stylesheet())
     print("  Generated styles.css")
 
+    timings['6_stylesheet'] = time.time() - phase_start
+
     # Atomic swap: replace original docs/ with newly built temp_dir
     # Use shutil.move() instead of Path.rename() to handle cross-device moves
     print("\n[Swap] Atomically replacing output directory...")
+    phase_start = time.time()
     try:
         # Move original docs/ to backup (if it exists)
         if original_docs_dir.exists():
@@ -320,8 +376,11 @@ def build_flat(project_root: Path) -> int:
         else:
             print("\n[CNAME] Verified: GitHub Pages custom domain file intact")
 
+    timings['7_atomic_swap'] = time.time() - phase_start
+
     # Rebuild kanji index HTML pages
     print("\n[Kanji] Rebuilding kanji index pages...")
+    phase_start = time.time()
     kanji_json_script = project_root / 'build' / 'build_kanji_json.py'
     kanji_html_script = project_root / 'build' / 'build_kanji_html.py'
     if kanji_json_script.exists() and kanji_html_script.exists():
@@ -353,17 +412,46 @@ def build_flat(project_root: Path) -> int:
             return 1
         print(f"  Verified: {kanji_html_count} kanji HTML files created")
 
+    timings['8_kanji_rebuild'] = time.time() - phase_start
+
     # Generate sitemap and robots.txt
+    phase_start = time.time()
     from build_sitemap import build_sitemap
     sitemap_result = build_sitemap(project_root)
     if sitemap_result != 0:
         print("  WARNING: Sitemap generation had issues")
+
+    timings['9_sitemap'] = time.time() - phase_start
+    total_time = time.time() - build_start
 
     # Summary
     print("\n" + "=" * 50)
     print("Build complete!")
     print(f"  Total entries: {len(entries)}")
     print(f"  Output: {original_docs_dir}")
+
+    # Timing breakdown
+    print("\n" + "-" * 50)
+    print("Build timing breakdown:")
+    print("-" * 50)
+    phase_labels = {
+        '1_load_entries': 'Load entries',
+        '2_setup_directories': 'Setup directories',
+        '3_entry_pages': 'Entry HTML generation (entry_renderer)',
+        '4_navigation_pages': 'Navigation pages (page_generators)',
+        '5_search_index': 'Search index (search_index_builder)',
+        '6_stylesheet': 'Stylesheet',
+        '7_atomic_swap': 'Atomic swap',
+        '8_kanji_rebuild': 'Kanji index rebuild',
+        '9_sitemap': 'Sitemap generation',
+    }
+    for key, label in phase_labels.items():
+        elapsed = timings.get(key, 0)
+        pct = (elapsed / total_time * 100) if total_time > 0 else 0
+        print(f"  {label:<45s} {elapsed:6.2f}s  ({pct:5.1f}%)")
+    print(f"  {'TOTAL':<45s} {total_time:6.2f}s")
+    print("-" * 50)
+
     print("\nTo view the dictionary:")
     print(f"  Open {original_docs_dir / 'index.html'} in your browser")
 
