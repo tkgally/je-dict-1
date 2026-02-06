@@ -97,11 +97,9 @@ def validate_cross_ref_types_sync(schema: dict) -> list[str]:
     # Extract enum from schema
     try:
         cross_refs_items = schema['properties']['cross_references']['items']
-        # The cross_references items is a oneOf with string or object
-        for item in cross_refs_items.get('oneOf', []):
-            if item.get('type') == 'object':
-                schema_types = item['properties']['type']['enum']
-                break
+        # items is an object type with a type property containing the enum
+        if cross_refs_items.get('type') == 'object':
+            schema_types = cross_refs_items['properties']['type']['enum']
         else:
             errors.append("Could not find cross-reference type enum in schema")
             return errors

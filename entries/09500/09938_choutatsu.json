@@ -18,7 +18,9 @@
       "english": "To procure materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09938_choutatsu_ex2",
@@ -26,7 +28,9 @@
       "english": "We are struggling with fund procurement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09938_choutatsu_ex3",
@@ -34,12 +38,19 @@
       "english": "We procured the necessary parts from overseas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{調達|ちょうたつ} refers to obtaining or acquiring resources.\n\nCOMMON COMPOUNDS:\n- {資金|しきん}{調達|ちょうたつ}: fund procurement/raising\n- {物資|ぶっし}{調達|ちょうたつ}: supply procurement\n- {調達|ちょうたつ}{部門|ぶもん}: procurement department\n\nPATTERNS:\n- 〜を{調達|ちょうたつ}する: to procure ~\n- {調達|ちょうたつ}{先|さき}: procurement source/supplier",
   "cross_references": [
-    "09937_shikin"
+    {
+      "type": "related",
+      "reading": "しきん",
+      "target_id": "09937_shikin",
+      "headword": "{資金|しきん}"
+    }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
@@ -47,10 +58,15 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

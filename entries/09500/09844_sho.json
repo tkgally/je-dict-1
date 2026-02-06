@@ -18,7 +18,9 @@
       "english": "I analyzed the data from the seismic observation station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09844_sho_ex2",
@@ -26,7 +28,9 @@
       "english": "I work at a research institute.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09844_sho_ex3",
@@ -34,21 +38,34 @@
       "english": "I complete the procedures at the city hall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "〜{所|しょ} indicates a place or facility for a specific purpose.\n\nCOMMON PLACES:\n- {研究所|けんきゅうしょ}: research institute\n- {事務所|じむしょ}: office\n- {観測所|かんそくしょ}: observation station\n- {発電所|はつでんしょ}: power plant\n- {役所|やくしょ}: government office\n- {裁判所|さいばんしょ}: court\n- {停留所|ていりゅうじょ}: bus stop\n\nNOTE:\nThe reading changes to じょ in some compounds (e.g., {停留所|ていりゅうじょ}).",
-  "cross_references": ["01137_tokoro"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ところ",
+      "target_id": "01137_tokoro",
+      "headword": "{所|ところ}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
     "modified": "2026-02-04T01:44:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

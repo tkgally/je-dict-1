@@ -18,7 +18,9 @@
       "english": "The presiding judge delivered the verdict.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09666_saibanchou_ex2",
@@ -26,7 +28,9 @@
       "english": "Your Honor, I have an objection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09666_saibanchou_ex3",
@@ -34,21 +38,40 @@
       "english": "The presiding judge declared the court in session.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{裁判長|さいばんちょう} is the judge who leads court proceedings.\n\nROLE OF THE PRESIDING JUDGE:\n- Maintains order in the courtroom\n- Manages the flow of the trial\n- Delivers the final verdict in many cases\n\nRELATED TERMS:\n- {裁判官|さいばんかん} (judge - general term)\n- {裁判所|さいばんしょ} (court/courthouse)\n- {陪審員|ばいしんいん} (juror)",
-  "cross_references": ["09562_saibankan", "09665_saibansho"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "さいばんかん",
+      "target_id": "09562_saibankan",
+      "headword": "{裁判官|さいばんかん}"
+    },
+    {
+      "type": "related",
+      "reading": "さいばんしょ",
+      "target_id": "09665_saibansho",
+      "headword": "{裁判所|さいばんしょ}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
     "modified": "2026-02-03T05:02:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

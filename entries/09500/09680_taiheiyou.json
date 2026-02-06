@@ -18,7 +18,9 @@
       "english": "Japan faces the Pacific Ocean.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09680_taiheiyou_ex2",
@@ -26,7 +28,9 @@
       "english": "I flew across the Pacific Ocean.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09680_taiheiyou_ex3",
@@ -34,21 +38,34 @@
       "english": "The weather on the Pacific side is clear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{太平洋|たいへいよう} literally means 'great peaceful ocean.'\n\nCOMMON EXPRESSIONS:\n- {太平洋|たいへいよう}{側|がわ} (Pacific side of Japan)\n- {太平洋|たいへいよう}{戦争|せんそう} (Pacific War, WWII in Asia-Pacific)\n- {環太平洋|かんたいへいよう} (trans-Pacific, Pacific Rim)\n\nOTHER OCEANS:\n- {大西洋|たいせいよう} (Atlantic Ocean)\n- {インド洋|いんどよう} (Indian Ocean)",
-  "cross_references": ["09679_taiyou"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "たいよう",
+      "target_id": "09679_taiyou",
+      "headword": "{大洋|たいよう}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
     "modified": "2026-02-03T05:02:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

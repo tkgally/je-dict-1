@@ -18,7 +18,9 @@
       "english": "I work at the Osaka branch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09675_shibu_ex2",
@@ -26,7 +28,9 @@
       "english": "There are branches throughout the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09675_shibu_ex3",
@@ -34,21 +38,34 @@
       "english": "Please contact the branch manager.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{支部|しぶ} refers to a local branch of an organization.\n\nCOMMON COLLOCATIONS:\n- {支部|しぶ}{長|ちょう} (branch manager)\n- {地方|ちほう}{支部|しぶ} (regional branch)\n- {支部|しぶ}{会議|かいぎ} (branch meeting)\n\nRELATED TERMS:\n- {本部|ほんぶ}: headquarters, main office\n- {支店|してん}: branch store/office (for businesses)\n- {支社|ししゃ}: branch office (corporate)",
-  "cross_references": ["00112_honbu"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ほんぶ",
+      "target_id": "00112_honbu",
+      "headword": "{本部|ほんぶ}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
     "modified": "2026-02-03T05:02:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

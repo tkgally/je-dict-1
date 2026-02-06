@@ -18,7 +18,9 @@
       "english": "Please stand by.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09677_taiki_ex2",
@@ -26,7 +28,9 @@
       "english": "I'm on standby at home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09677_taiki_ex3",
@@ -34,21 +38,35 @@
       "english": "An ambulance is on standby.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{待機|たいき} implies being ready to act when needed.\n\nCOMMON COLLOCATIONS:\n- {待機|たいき}する (to stand by, wait)\n- {待機|たいき}{中|ちゅう} (on standby)\n- {待機|たいき}{児童|じどう} (children on waitlists for daycare)\n- {待機|たいき}{時間|じかん} (waiting time)\n\nUSAGE NOTE:\n{待機|たいき} suggests actively waiting while being prepared, not passive waiting.",
-  "cross_references": ["00129_jitaku"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "じたく",
+      "target_id": "00129_jitaku",
+      "headword": "{自宅|じたく}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
     "modified": "2026-02-03T05:02:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

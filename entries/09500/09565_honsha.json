@@ -18,7 +18,9 @@
       "english": "The head office is in Tokyo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09565_honsha_ex2",
@@ -26,7 +28,9 @@
       "english": "Instructions came from headquarters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09565_honsha_ex3",
@@ -34,21 +38,35 @@
       "english": "I was transferred to the head office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{本社|ほんしゃ} refers to a company's main administrative office.\n\nRELATED TERMS:\n- {支社|ししゃ}: branch office\n- {支店|してん}: branch store/office\n- {本店|ほんてん}: main store (for retail)\n- {本部|ほんぶ}: headquarters (general term)\n\nCOMMON COLLOCATIONS:\n- {本社|ほんしゃ}に{勤|つと}める (work at headquarters)\n- {本社|ほんしゃ}を{置|お}く (have headquarters located)",
-  "cross_references": ["00112_honbu"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ほんぶ",
+      "target_id": "00112_honbu",
+      "headword": "{本部|ほんぶ}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T00:29:56Z",
     "modified": "2026-02-03T00:29:56Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "work"]
+      "semantic": [
+        "building",
+        "work"
+      ]
     }
   }
 }

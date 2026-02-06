@@ -18,7 +18,9 @@
       "english": "Make sentences using the words in parentheses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09853_nai_ex2",
@@ -26,7 +28,9 @@
       "english": "To keep it within the budget.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09853_nai_ex3",
@@ -34,21 +38,34 @@
       "english": "Please submit it within the time period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "〜{内|ない} indicates being within or inside something.\n\nCOMMON EXPRESSIONS:\n- {括弧内|かっこない}: inside parentheses\n- {予算内|よさんない}: within budget\n- {期間内|きかんない}: within the period\n- {範囲内|はんいない}: within range/scope\n- {国内|こくない}: domestic, within the country\n- {社内|しゃない}: within the company\n- {市内|しない}: within the city\n\nOPPOSITE:\n- 〜{外|がい}: outside, external (e.g., {国外|こくがい}, {社外|しゃがい})\n\nRELATED:\n- {内|うち}: inside (as standalone noun with different reading)",
-  "cross_references": ["01328_uchi"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "うち",
+      "target_id": "01328_uchi",
+      "headword": "{内|うち}"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
     "modified": "2026-02-04T01:44:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["direction"]
+      "semantic": [
+        "direction"
+      ]
     }
   }
 }

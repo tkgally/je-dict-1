@@ -18,7 +18,9 @@
       "english": "I presented a letter of appreciation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09862_okuru_ex2",
@@ -26,7 +28,9 @@
       "english": "I give flowers (as a gift).",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09862_okuru_ex3",
@@ -34,22 +38,35 @@
       "english": "I give words of encouragement to the graduates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{贈|おく}る means to give something as a gift or to present/bestow.\n\nCOMMON COLLOCATIONS:\n- {花|はな}を{贈|おく}る: to give flowers\n- プレゼントを{贈|おく}る: to give a present\n- {言葉|ことば}を{贈|おく}る: to give words (of encouragement/blessing)\n- {賞|しょう}を{贈|おく}る: to award a prize\n- {称号|しょうごう}を{贈|おく}る: to bestow a title\n\nDIFFERENCE FROM {送|おく}る:\n- {贈|おく}る: to give as a gift, to present (formal, ceremonial)\n- {送|おく}る: to send, to see off (physical movement)\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜に〜を{贈|おく}る",
-  "cross_references": ["00742_okuru"],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "おくる",
+      "target_id": "00742_okuru",
+      "headword": "{送|おく}る"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
     "modified": "2026-02-04T01:44:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }
