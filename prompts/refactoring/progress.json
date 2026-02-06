@@ -178,9 +178,9 @@
       "title": "Create a pre-commit hook",
       "category": "Code & Structure",
       "priority": "Low",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Created .githooks/pre-commit that detects staged entries/ JSON files, validates each with validate.py --entry, and blocks commit on failure. Fast path skips validation when no entry files are staged. Install with: git config core.hooksPath .githooks"
     },
     {
       "id": "02_workflow_prompt_01",
