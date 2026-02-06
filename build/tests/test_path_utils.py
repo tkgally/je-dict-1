@@ -2,9 +2,8 @@
 
 import sys
 import os
+import unittest
 from pathlib import Path, PurePosixPath
-
-import pytest
 
 # Add build directory to path so we can import path_utils
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
@@ -13,7 +12,7 @@ from path_utils import get_numeric_id, get_directory_range, get_entry_path, get_
 
 # ── get_numeric_id ────────────────────────────────────────────────
 
-class TestGetNumericId:
+class TestGetNumericId(unittest.TestCase):
     """Tests for get_numeric_id()."""
 
     def test_docstring_example_matsu(self):
@@ -61,7 +60,7 @@ class TestGetNumericId:
 
 # ── get_directory_range ───────────────────────────────────────────
 
-class TestGetDirectoryRange:
+class TestGetDirectoryRange(unittest.TestCase):
     """Tests for get_directory_range()."""
 
     def test_docstring_example_low(self):
@@ -127,7 +126,7 @@ class TestGetDirectoryRange:
 
 # ── get_entry_path ────────────────────────────────────────────────
 
-class TestGetEntryPath:
+class TestGetEntryPath(unittest.TestCase):
     """Tests for get_entry_path()."""
 
     def test_docstring_example(self):
@@ -174,7 +173,7 @@ class TestGetEntryPath:
 
 # ── get_entry_prefix (legacy) ─────────────────────────────────────
 
-class TestGetEntryPrefix:
+class TestGetEntryPrefix(unittest.TestCase):
     """Tests for the deprecated get_entry_prefix() legacy function."""
 
     def test_delegates_to_get_directory_range(self):
