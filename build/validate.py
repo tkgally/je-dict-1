@@ -56,6 +56,8 @@ class ValidationResult:
         hardenable_warnings: List of (file_path, warning_message) for refs that could be hardened
         katakana_reading_errors: List of (file_path, error_message) for readings containing katakana
         word_link_warnings: List of (file_path, warning_message) for word link format issues
+        pos_consistency_warnings: List of (file_path, warning_message) for part_of_speech vs tags.pos mismatches
+        pos_empty_count: Number of entries with empty tags.pos
     """
     total_count: int = 0
     valid_count: int = 0
@@ -68,6 +70,8 @@ class ValidationResult:
     hardenable_warnings: list[tuple[Path, str]] = field(default_factory=list)
     katakana_reading_errors: list[tuple[Path, str]] = field(default_factory=list)
     word_link_warnings: list[tuple[Path, str]] = field(default_factory=list)
+    pos_consistency_warnings: list[tuple[Path, str]] = field(default_factory=list)
+    pos_empty_count: int = 0
 
 
 def load_schema(schema_path: Path) -> dict:
@@ -258,6 +262,162 @@ def check_katakana_readings(entries_data: list[tuple[Path, dict]]) -> list[tuple
 # Regex patterns for word link validation
 WORD_LINK_BLOCK_PATTERN = re.compile(r'⟦([^⟧]+)⟧')
 WORD_LINK_INFO_PATTERN = re.compile(r'^(.+?)→(.+?)：(.+)$')
+
+
+def infer_pos_tags(part_of_speech: str) -> set[str]:
+    """
+    Infer canonical tags.pos values from free-text part_of_speech.
+
+    Maps the diverse free-text part_of_speech strings to the canonical
+    tags.pos enum values defined in schema.json.
+
+    Args:
+        part_of_speech: Free-text part of speech string (e.g., "godan verb", "noun, suru-verb")
+
+    Returns:
+        Set of canonical tags.pos strings that should be present
+    """
+    pos_lower = part_of_speech.lower()
+
+    tags = set()
+
+    # Verb types (check specific types before generic "verb")
+    if any(kw in pos_lower for kw in ['godan', 'verb-godan']):
+        tags.add('verb-godan')
+    if any(kw in pos_lower for kw in ['ichidan', 'verb-ichidan']):
+        tags.add('verb-ichidan')
+    if any(kw in pos_lower for kw in ['suru', 'する', 'verbal']):
+        tags.add('verb-suru')
+    if 'kuru' in pos_lower or 'くる' in pos_lower:
+        tags.add('verb-kuru')
+    if 'irregular' in pos_lower:
+        tags.add('verb-irregular')
+
+    # Adjective types
+    if any(kw in pos_lower for kw in ['i-adjective', 'adjective-i', 'adjective (i']):
+        tags.add('adjective-i')
+    if any(kw in pos_lower for kw in ['na-adjective', 'adjective-na', 'adjective (na',
+                                       'な-adjective', 'adjectival noun']):
+        tags.add('adjective-na')
+    if any(kw in pos_lower for kw in ['no-adjective', 'adjective-no', 'の-adjective',
+                                       'adjective (no']):
+        tags.add('adjective-no')
+    if any(kw in pos_lower for kw in ['taru-adjective', 'adjective-taru', 'たる-adjective',
+                                       'taru adjective']):
+        tags.add('adjective-taru')
+
+    # Noun (word boundary match to avoid matching "pronoun", "pre-noun", etc.)
+    if re.search(r'(?<![a-z-])noun(?![a-z-])', pos_lower):
+        tags.add('noun')
+
+    # Adverb
+    if 'adverb' in pos_lower:
+        tags.add('adverb')
+
+    # Particle
+    if 'particle' in pos_lower:
+        tags.add('particle')
+
+    # Conjunction
+    if 'conjunction' in pos_lower:
+        tags.add('conjunction')
+
+    # Interjection
+    if 'interjection' in pos_lower:
+        tags.add('interjection')
+
+    # Pronoun
+    if 'pronoun' in pos_lower:
+        tags.add('pronoun')
+
+    # Counter
+    if 'counter' in pos_lower:
+        tags.add('counter')
+
+    # Prefix
+    if 'prefix' in pos_lower:
+        tags.add('prefix')
+
+    # Suffix
+    if 'suffix' in pos_lower:
+        tags.add('suffix')
+
+    # Expression (includes proverbs, idioms, grammar patterns)
+    if any(kw in pos_lower for kw in ['expression', 'proverb', 'idiom', 'grammar pattern']):
+        tags.add('expression')
+
+    # Pre-noun adjectival (連体詞)
+    if any(kw in pos_lower for kw in ['pre-noun adjectival', 'pre-noun adjective']):
+        tags.add('pre-noun-adjectival')
+
+    # Number
+    if 'number' in pos_lower:
+        tags.add('number')
+
+    # Auxiliary
+    if 'auxiliary' in pos_lower:
+        tags.add('auxiliary')
+
+    # Onomatopoeia / mimetic
+    if any(kw in pos_lower for kw in ['onomatopoeia', 'mimetic']):
+        tags.add('onomatopoeia')
+
+    # Four-character idiom → expression (if not already)
+    if 'four-character idiom' in pos_lower or 'yojijukugo' in pos_lower:
+        tags.add('expression')
+
+    return tags
+
+
+def check_pos_consistency(entries_data: list[tuple[Path, dict]]) -> tuple[list[tuple[Path, str]], int]:
+    """
+    Check consistency between part_of_speech and metadata.tags.pos.
+
+    When tags.pos is populated, verifies that it matches the inferred
+    canonical pos tags from the free-text part_of_speech field.
+
+    Args:
+        entries_data: List of (file_path, entry_data) tuples
+
+    Returns:
+        Tuple of (warnings_list, empty_count)
+        - warnings_list: (file_path, warning_message) for entries where tags.pos
+          disagrees with part_of_speech
+        - empty_count: Number of entries where tags.pos is empty
+    """
+    warnings = []
+    empty_count = 0
+
+    for file_path, entry in entries_data:
+        part_of_speech = entry.get('part_of_speech', '')
+        tags_pos = entry.get('metadata', {}).get('tags', {}).get('pos', [])
+
+        if not tags_pos:
+            empty_count += 1
+            continue
+
+        # Infer expected tags from part_of_speech
+        inferred = infer_pos_tags(part_of_speech)
+        actual = set(tags_pos)
+
+        # Check for mismatches
+        missing_in_tags = inferred - actual
+        extra_in_tags = actual - inferred
+
+        if missing_in_tags:
+            warnings.append((
+                file_path,
+                f"tags.pos missing expected values for part_of_speech '{part_of_speech}': "
+                f"{sorted(missing_in_tags)} (has: {sorted(actual)})"
+            ))
+        if extra_in_tags:
+            warnings.append((
+                file_path,
+                f"tags.pos has values not implied by part_of_speech '{part_of_speech}': "
+                f"{sorted(extra_in_tags)} (expected from part_of_speech: {sorted(inferred)})"
+            ))
+
+    return warnings, empty_count
 
 
 def check_word_links(entries_data: list[tuple[Path, dict]], all_ids: set) -> list[tuple[Path, str]]:
@@ -719,6 +879,9 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
     # Check word link markup format and validity
     word_link_warnings = check_word_links(entries_data, all_ids)
 
+    # Check part_of_speech vs tags.pos consistency
+    pos_consistency_warnings, pos_empty_count = check_pos_consistency(entries_data)
+
     return ValidationResult(
         total_count=total,
         valid_count=valid,
@@ -730,7 +893,9 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
         target_id_errors=target_id_errors,
         hardenable_warnings=hardenable_warnings,
         katakana_reading_errors=katakana_reading_errors,
-        word_link_warnings=word_link_warnings
+        word_link_warnings=word_link_warnings,
+        pos_consistency_warnings=pos_consistency_warnings,
+        pos_empty_count=pos_empty_count
     )
 
 
@@ -950,6 +1115,22 @@ def main():
             print(f"\n  ... and {len(result.word_link_warnings) - 10} more.")
         print()
 
+    # Report POS consistency warnings
+    if result.pos_consistency_warnings:
+        print(f"\nPOS consistency warnings ({len(result.pos_consistency_warnings)} issues):\n")
+        shown = result.pos_consistency_warnings[:10]
+        for file_path, warning_msg in shown:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {warning_msg}")
+        if len(result.pos_consistency_warnings) > 10:
+            print(f"\n  ... and {len(result.pos_consistency_warnings) - 10} more.")
+        print()
+
+    # Report POS empty count as informational note
+    if result.pos_empty_count > 0:
+        print(f"  Note: {result.pos_empty_count}/{result.valid_count} valid entries have empty tags.pos")
+
     print(f"Validation complete: {result.valid_count}/{result.total_count} entries valid")
     warnings = []
     if result.cross_ref_errors:
@@ -968,6 +1149,8 @@ def main():
         warnings.append(f"{len(result.katakana_reading_errors)} katakana reading errors")
     if result.word_link_warnings:
         warnings.append(f"{len(result.word_link_warnings)} word link warnings")
+    if result.pos_consistency_warnings:
+        warnings.append(f"{len(result.pos_consistency_warnings)} POS consistency warnings")
     if warnings:
         print(f"  ({', '.join(warnings)})")
 
