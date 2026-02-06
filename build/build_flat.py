@@ -39,7 +39,9 @@ Potential optimization strategies:
     or rename individual files.
 """
 
+import argparse
 import json
+import os
 import shutil
 import sys
 import subprocess
@@ -92,15 +94,19 @@ def load_entry(file_path: Path) -> dict:
         raise ValueError(f"Invalid JSON in {file_path}: {e}") from e
 
 
-def build_flat(project_root: Path) -> int:
+def build_flat(project_root: Path, quick: bool = False) -> int:
     """
     Build the flat HTML version of the dictionary.
     Returns 0 on success, 1 on failure.
+
+    If quick=True, only regenerates entry pages whose source JSON is newer
+    than the corresponding HTML file. Writes directly to docs/ (no atomic swap).
     """
     docs_dir = project_root / 'docs'
     entries_dir = project_root / 'entries'
 
-    print("\nFlat HTML Build")
+    mode_label = "Flat HTML Build (quick/incremental)" if quick else "Flat HTML Build"
+    print(f"\n{mode_label}")
     print("=" * 50)
 
     build_start = time.time()
@@ -145,106 +151,148 @@ def build_flat(project_root: Path) -> int:
 
     timings['1_load_entries'] = time.time() - phase_start
 
-    # Step 2: Create output directories (atomic build pattern)
-    print("\n[2/6] Creating output directories...")
-    phase_start = time.time()
+    if quick:
+        # Quick mode: write directly to docs/ (no temp dir, no atomic swap)
+        print("\n[2/6] Preparing output directories (quick mode)...")
+        phase_start = time.time()
 
-    # Build to a temporary directory first, then swap atomically
-    # This ensures a failed build doesn't leave docs/ in a broken state
-    temp_dir = project_root / 'docs_build_temp'
-    backup_dir = project_root / 'docs_backup'
-    preserved_dirs = {'flat', 'kanji'}  # Directories to preserve
-    preserved_files = {'about.html', 'CNAME'}  # Files to preserve (not overwritten by build)
+        original_docs_dir = docs_dir
+        docs_dir.mkdir(parents=True, exist_ok=True)
+        entries_output_dir = docs_dir / 'entries'
+        entries_output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Clean up any leftover temp/backup dirs from previous failed builds
-    if temp_dir.exists():
-        shutil.rmtree(temp_dir)
-    if backup_dir.exists():
-        shutil.rmtree(backup_dir)
+        print(f"  Using existing {docs_dir}")
+        timings['2_setup_directories'] = time.time() - phase_start
 
-    temp_dir.mkdir(parents=True, exist_ok=True)
+        # Step 3: Generate only changed entry pages
+        print("\n[3/6] Generating entry pages (incremental)...")
+        phase_start = time.time()
+        regenerated = 0
+        skipped = 0
+        for entry in entries:
+            dir_range = get_directory_range(entry['id'])
+            output_dir = entries_output_dir / dir_range
+            output_path = output_dir / f"{entry['id']}.html"
+            source_path = Path(entry['_source_file'])
 
-    # Copy preserved directories from existing docs/ to temp build dir
-    if docs_dir.exists():
-        for preserved in preserved_dirs:
-            src = docs_dir / preserved
-            if src.exists():
-                shutil.copytree(src, temp_dir / preserved)
-        # Copy preserved files
-        for preserved_file in preserved_files:
-            src = docs_dir / preserved_file
-            if src.exists():
-                shutil.copy2(src, temp_dir / preserved_file)
+            # Compare mtimes: regenerate if HTML missing or JSON is newer
+            if output_path.exists():
+                source_mtime = os.path.getmtime(source_path)
+                html_mtime = os.path.getmtime(output_path)
+                if source_mtime <= html_mtime:
+                    skipped += 1
+                    continue
 
-    # Ensure about.html exists with content (manually-edited file, not generated)
-    # If missing or empty, try to restore from git history
-    about_path = temp_dir / 'about.html'
-    if not about_path.exists() or about_path.stat().st_size == 0:
-        print(f"  WARNING: about.html is missing or empty - attempting git restore")
-        try:
-            # Get about.html from the most recent commit where it had content
-            result = subprocess.run(
-                ['git', 'log', '--oneline', '--diff-filter=M', '-1', '--', 'docs/about.html'],
-                capture_output=True, text=True, cwd=project_root
-            )
-            if result.returncode == 0 and result.stdout.strip():
-                commit_hash = result.stdout.strip().split()[0]
-                # Try to get content from parent of deletion commit
-                restore_result = subprocess.run(
-                    ['git', 'show', f'{commit_hash}:docs/about.html'],
+            # Regenerate this entry
+            entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
+            output_dir.mkdir(parents=True, exist_ok=True)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(entry_html)
+            regenerated += 1
+
+        print(f"  Regenerated {regenerated} entry pages, skipped {skipped} unchanged")
+    else:
+        # Full mode: atomic build pattern (temp dir + swap)
+        # Step 2: Create output directories
+        print("\n[2/6] Creating output directories...")
+        phase_start = time.time()
+
+        # Build to a temporary directory first, then swap atomically
+        # This ensures a failed build doesn't leave docs/ in a broken state
+        temp_dir = project_root / 'docs_build_temp'
+        backup_dir = project_root / 'docs_backup'
+        preserved_dirs = {'flat', 'kanji'}  # Directories to preserve
+        preserved_files = {'about.html', 'CNAME'}  # Files to preserve (not overwritten by build)
+
+        # Clean up any leftover temp/backup dirs from previous failed builds
+        if temp_dir.exists():
+            shutil.rmtree(temp_dir)
+        if backup_dir.exists():
+            shutil.rmtree(backup_dir)
+
+        temp_dir.mkdir(parents=True, exist_ok=True)
+
+        # Copy preserved directories from existing docs/ to temp build dir
+        if docs_dir.exists():
+            for preserved in preserved_dirs:
+                src = docs_dir / preserved
+                if src.exists():
+                    shutil.copytree(src, temp_dir / preserved)
+            # Copy preserved files
+            for preserved_file in preserved_files:
+                src = docs_dir / preserved_file
+                if src.exists():
+                    shutil.copy2(src, temp_dir / preserved_file)
+
+        # Ensure about.html exists with content (manually-edited file, not generated)
+        # If missing or empty, try to restore from git history
+        about_path = temp_dir / 'about.html'
+        if not about_path.exists() or about_path.stat().st_size == 0:
+            print(f"  WARNING: about.html is missing or empty - attempting git restore")
+            try:
+                # Get about.html from the most recent commit where it had content
+                result = subprocess.run(
+                    ['git', 'log', '--oneline', '--diff-filter=M', '-1', '--', 'docs/about.html'],
                     capture_output=True, text=True, cwd=project_root
                 )
-                if restore_result.returncode == 0 and restore_result.stdout.strip():
-                    with open(about_path, 'w', encoding='utf-8') as f:
-                        f.write(restore_result.stdout)
-                    print(f"  Restored about.html from git commit {commit_hash}")
+                if result.returncode == 0 and result.stdout.strip():
+                    commit_hash = result.stdout.strip().split()[0]
+                    # Try to get content from parent of deletion commit
+                    restore_result = subprocess.run(
+                        ['git', 'show', f'{commit_hash}:docs/about.html'],
+                        capture_output=True, text=True, cwd=project_root
+                    )
+                    if restore_result.returncode == 0 and restore_result.stdout.strip():
+                        with open(about_path, 'w', encoding='utf-8') as f:
+                            f.write(restore_result.stdout)
+                        print(f"  Restored about.html from git commit {commit_hash}")
+                    else:
+                        print(f"  ERROR: Could not restore about.html from git - file may need manual restoration")
                 else:
-                    print(f"  ERROR: Could not restore about.html from git - file may need manual restoration")
-            else:
-                print(f"  ERROR: Could not find about.html in git history - file may need manual restoration")
-        except Exception as e:
-            print(f"  ERROR: Git restore failed for about.html: {e}")
+                    print(f"  ERROR: Could not find about.html in git history - file may need manual restoration")
+            except Exception as e:
+                print(f"  ERROR: Git restore failed for about.html: {e}")
 
-    # Always ensure CNAME file exists with canonical content
-    # This protects against accidental deletion of the custom domain config
-    cname_path = temp_dir / 'CNAME'
-    if not cname_path.exists():
-        print(f"  WARNING: CNAME file was missing - restoring from canonical value")
-        with open(cname_path, 'w', encoding='utf-8') as f:
-            f.write(GITHUB_PAGES_CNAME + '\n')
-    else:
-        # Verify CNAME has correct content
-        with open(cname_path, 'r', encoding='utf-8') as f:
-            current_cname = f.read().strip()
-        if current_cname != GITHUB_PAGES_CNAME:
-            print(f"  WARNING: CNAME had unexpected content '{current_cname}' - fixing")
+        # Always ensure CNAME file exists with canonical content
+        # This protects against accidental deletion of the custom domain config
+        cname_path = temp_dir / 'CNAME'
+        if not cname_path.exists():
+            print(f"  WARNING: CNAME file was missing - restoring from canonical value")
             with open(cname_path, 'w', encoding='utf-8') as f:
                 f.write(GITHUB_PAGES_CNAME + '\n')
+        else:
+            # Verify CNAME has correct content
+            with open(cname_path, 'r', encoding='utf-8') as f:
+                current_cname = f.read().strip()
+            if current_cname != GITHUB_PAGES_CNAME:
+                print(f"  WARNING: CNAME had unexpected content '{current_cname}' - fixing")
+                with open(cname_path, 'w', encoding='utf-8') as f:
+                    f.write(GITHUB_PAGES_CNAME + '\n')
 
-    # Use temp_dir for all build output (reassign docs_dir for the build)
-    original_docs_dir = docs_dir
-    docs_dir = temp_dir
+        # Use temp_dir for all build output (reassign docs_dir for the build)
+        original_docs_dir = docs_dir
+        docs_dir = temp_dir
 
-    # Entry directories will be created dynamically with range subdirectories
-    entries_output_dir = docs_dir / 'entries'
+        # Entry directories will be created dynamically with range subdirectories
+        entries_output_dir = docs_dir / 'entries'
 
-    print(f"  Created {docs_dir}")
+        print(f"  Created {docs_dir}")
 
-    timings['2_setup_directories'] = time.time() - phase_start
+        timings['2_setup_directories'] = time.time() - phase_start
 
-    # Step 3: Generate entry pages
-    print("\n[3/6] Generating entry pages...")
-    phase_start = time.time()
-    for entry in entries:
-        dir_range = get_directory_range(entry['id'])
-        entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
-        # Create directory structure: entries/{range}/
-        output_dir = entries_output_dir / dir_range
-        output_dir.mkdir(parents=True, exist_ok=True)
-        output_path = output_dir / f"{entry['id']}.html"
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(entry_html)
-    print(f"  Generated {len(entries)} entry pages")
+        # Step 3: Generate all entry pages
+        print("\n[3/6] Generating entry pages...")
+        phase_start = time.time()
+        for entry in entries:
+            dir_range = get_directory_range(entry['id'])
+            entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
+            # Create directory structure: entries/{range}/
+            output_dir = entries_output_dir / dir_range
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_path = output_dir / f"{entry['id']}.html"
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(entry_html)
+        print(f"  Generated {len(entries)} entry pages")
 
     # Count vocabulary tiers
     tier_counts = {'basic': 0, 'core': 0, 'general': 0, 'unassigned': 0}
@@ -324,59 +372,64 @@ def build_flat(project_root: Path) -> int:
 
     timings['6_stylesheet'] = time.time() - phase_start
 
-    # Atomic swap: replace original docs/ with newly built temp_dir
-    # Use shutil.move() instead of Path.rename() to handle cross-device moves
-    print("\n[Swap] Atomically replacing output directory...")
-    phase_start = time.time()
-    try:
-        # Move original docs/ to backup (if it exists)
-        if original_docs_dir.exists():
-            shutil.move(str(original_docs_dir), str(backup_dir))
-
-        # Move temp build to docs/
-        shutil.move(str(docs_dir), str(original_docs_dir))
-
-        # Remove backup after successful swap
-        if backup_dir.exists():
-            shutil.rmtree(backup_dir)
-
-        print("  Swap complete")
-    except OSError as e:
-        print(f"  ERROR: Failed to swap directories: {e}")
-        print(f"  Build output remains in: {temp_dir}")
-        # Try to restore backup if swap failed midway
-        if backup_dir.exists() and not original_docs_dir.exists():
-            shutil.move(str(backup_dir), str(original_docs_dir))
-        return 1
-
-    # Final about.html verification (safety check after swap)
-    final_about_path = original_docs_dir / 'about.html'
-    if not final_about_path.exists() or final_about_path.stat().st_size == 0:
-        print("\n[about.html] WARNING: about.html is missing or empty after build!")
-        print("  This is a manually-edited file. Please restore it from git:")
-        print("  git show HEAD~1:docs/about.html > docs/about.html")
+    if quick:
+        # Quick mode: no swap needed, already wrote to docs/ directly
+        print("\n[Swap] Skipped (quick mode — wrote directly to docs/)")
+        timings['7_atomic_swap'] = 0
     else:
-        print("\n[about.html] Verified: About page file intact")
+        # Atomic swap: replace original docs/ with newly built temp_dir
+        # Use shutil.move() instead of Path.rename() to handle cross-device moves
+        print("\n[Swap] Atomically replacing output directory...")
+        phase_start = time.time()
+        try:
+            # Move original docs/ to backup (if it exists)
+            if original_docs_dir.exists():
+                shutil.move(str(original_docs_dir), str(backup_dir))
 
-    # Final CNAME verification (safety check after swap)
-    final_cname_path = original_docs_dir / 'CNAME'
-    if not final_cname_path.exists():
-        print("\n[CNAME] ERROR: CNAME file missing after build - restoring!")
-        with open(final_cname_path, 'w', encoding='utf-8') as f:
-            f.write(GITHUB_PAGES_CNAME + '\n')
-        print(f"  Restored CNAME with: {GITHUB_PAGES_CNAME}")
-    else:
-        with open(final_cname_path, 'r', encoding='utf-8') as f:
-            final_cname = f.read().strip()
-        if final_cname != GITHUB_PAGES_CNAME:
-            print(f"\n[CNAME] WARNING: CNAME has wrong content - fixing!")
+            # Move temp build to docs/
+            shutil.move(str(docs_dir), str(original_docs_dir))
+
+            # Remove backup after successful swap
+            if backup_dir.exists():
+                shutil.rmtree(backup_dir)
+
+            print("  Swap complete")
+        except OSError as e:
+            print(f"  ERROR: Failed to swap directories: {e}")
+            print(f"  Build output remains in: {temp_dir}")
+            # Try to restore backup if swap failed midway
+            if backup_dir.exists() and not original_docs_dir.exists():
+                shutil.move(str(backup_dir), str(original_docs_dir))
+            return 1
+
+        # Final about.html verification (safety check after swap)
+        final_about_path = original_docs_dir / 'about.html'
+        if not final_about_path.exists() or final_about_path.stat().st_size == 0:
+            print("\n[about.html] WARNING: about.html is missing or empty after build!")
+            print("  This is a manually-edited file. Please restore it from git:")
+            print("  git show HEAD~1:docs/about.html > docs/about.html")
+        else:
+            print("\n[about.html] Verified: About page file intact")
+
+        # Final CNAME verification (safety check after swap)
+        final_cname_path = original_docs_dir / 'CNAME'
+        if not final_cname_path.exists():
+            print("\n[CNAME] ERROR: CNAME file missing after build - restoring!")
             with open(final_cname_path, 'w', encoding='utf-8') as f:
                 f.write(GITHUB_PAGES_CNAME + '\n')
-            print(f"  Fixed CNAME: '{final_cname}' -> '{GITHUB_PAGES_CNAME}'")
+            print(f"  Restored CNAME with: {GITHUB_PAGES_CNAME}")
         else:
-            print("\n[CNAME] Verified: GitHub Pages custom domain file intact")
+            with open(final_cname_path, 'r', encoding='utf-8') as f:
+                final_cname = f.read().strip()
+            if final_cname != GITHUB_PAGES_CNAME:
+                print(f"\n[CNAME] WARNING: CNAME has wrong content - fixing!")
+                with open(final_cname_path, 'w', encoding='utf-8') as f:
+                    f.write(GITHUB_PAGES_CNAME + '\n')
+                print(f"  Fixed CNAME: '{final_cname}' -> '{GITHUB_PAGES_CNAME}'")
+            else:
+                print("\n[CNAME] Verified: GitHub Pages custom domain file intact")
 
-    timings['7_atomic_swap'] = time.time() - phase_start
+        timings['7_atomic_swap'] = time.time() - phase_start
 
     # Rebuild kanji index HTML pages
     print("\n[Kanji] Rebuilding kanji index pages...")
@@ -460,6 +513,11 @@ def build_flat(project_root: Path) -> int:
 
 def main():
     """Main entry point."""
+    parser = argparse.ArgumentParser(description='Build flat HTML dictionary site')
+    parser.add_argument('--quick', action='store_true',
+                        help='Incremental build: only regenerate entries whose JSON is newer than HTML')
+    args = parser.parse_args()
+
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
 
@@ -476,7 +534,7 @@ def main():
         print("\nFix issues before building.")
         sys.exit(1)
 
-    sys.exit(build_flat(project_root))
+    sys.exit(build_flat(project_root, quick=args.quick))
 
 
 if __name__ == '__main__':
