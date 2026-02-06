@@ -6,8 +6,12 @@
 
 ---
 
-In je-dict-1, build/build_flat.py contains generator functions for navigation pages.
-Extract these into a new file build/page_generators.py:
+**Post-prompt-09 note:** Prompt 09 already extracted entry page HTML generation into
+`build/entry_renderer.py`. build_flat.py is already smaller than its original 3,664
+lines. This prompt continues the decomposition by extracting navigation page generators.
+
+In je-dict-1, build/build_flat.py still contains generator functions for navigation
+pages. Extract these into a new file build/page_generators.py:
 
 - generate_index_page()
 - generate_advanced_page()
