@@ -41,13 +41,35 @@ def extract_entry_info(entry_path: Path, project_root: Path) -> dict:
     filename = entry_path.name
     relative_path = str(entry_path.resolve().relative_to(project_root.resolve()))
 
+    # Extract enriched metadata
+    metadata = data.get('metadata', {})
+    vocabulary_tier = metadata.get('vocabulary_tier', '')
+    part_of_speech = data.get('part_of_speech', '')
+    tags = metadata.get('tags', {})
+    pos_tags = tags.get('pos', [])
+
+    cross_references = data.get('cross_references', [])
+    cross_reference_count = len(cross_references)
+
+    examples = data.get('examples', [])
+    example_count = len(examples)
+
+    # Check if any example contains inline word links (⟦ delimiter)
+    has_inline_links = any('⟦' in ex.get('japanese', '') for ex in examples)
+
     return {
         'id': entry_id,
         'headword': headword_clean,
         'reading': reading,
         'gloss': gloss,
         'filename': filename,
-        'path': relative_path
+        'path': relative_path,
+        'vocabulary_tier': vocabulary_tier,
+        'part_of_speech': part_of_speech,
+        'pos_tags': pos_tags,
+        'cross_reference_count': cross_reference_count,
+        'example_count': example_count,
+        'has_inline_links': has_inline_links
     }
 
 
