@@ -38,6 +38,7 @@ git add entries/ docs/ *.json PROJECT_STATUS.md
 git commit -m "Add N new dictionary entries"
 git push
 ```
+**Recent Changes rotation:** PROJECT_STATUS.md keeps only the 5 most recent change entries. When adding a new entry to the "Recent Changes" section, move the oldest one to PROJECT_STATUS-archive.md.
 The `build_flat.py` step is critical - without it, new entries won't appear on the live site. The build uses an atomic process (builds to temp directory, then swaps) to prevent broken states if the build fails.
 
 **Never create scripts that generate entry content programmatically.**
