@@ -34,9 +34,9 @@
       "title": "Add unit tests for japanese_utils.py",
       "category": "Code & Structure",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Created build/tests/test_japanese_utils.py with 100 tests covering all public functions: hiragana_to_romaji, romaji_to_hiragana, romaji_to_katakana, strip_furigana, is_kanji, is_valid_hiragana, normalize_reading, contains_katakana, get_kana_folder, get_expected_directory, FURIGANA_PATTERN, and KANA_TO_FOLDER/KANA_TO_DIRECTORY constants."
     },
     {
       "id": "01_code_prompt_05",
