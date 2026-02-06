@@ -1,0 +1,474 @@
+{
+  "description": "Tracks which refactoring prompts have been completed. Updated by the master prompt after each session.",
+  "last_updated": null,
+  "prompts": [
+    {
+      "id": "01_code_prompt_01",
+      "title": "Extract CSS from build_flat.py",
+      "category": "Code & Structure",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_02",
+      "title": "Extract JavaScript from build_flat.py",
+      "category": "Code & Structure",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_03",
+      "title": "Eliminate strip_furigana and is_kanji duplication",
+      "category": "Code & Structure",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_04",
+      "title": "Add unit tests for japanese_utils.py",
+      "category": "Code & Structure",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_05",
+      "title": "Add unit tests for path_utils.py",
+      "category": "Code & Structure",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_06",
+      "title": "Archive one-time migration scripts",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_07",
+      "title": "Enrich entries_index.json with tag and tier data",
+      "category": "Code & Structure",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_08",
+      "title": "Add a Makefile or build runner script",
+      "category": "Code & Structure",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_09",
+      "title": "Split build_flat.py entry HTML generation",
+      "category": "Code & Structure",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_10",
+      "title": "Split build_flat.py page generators",
+      "category": "Code & Structure",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_11",
+      "title": "Split build_flat.py search index generation",
+      "category": "Code & Structure",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_12",
+      "title": "Add a validate-and-report summary command",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_13",
+      "title": "Validate part_of_speech consistency with tags.pos",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_14",
+      "title": "Investigate and document build performance",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_15",
+      "title": "Create a GitHub Actions CI workflow",
+      "category": "Code & Structure",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_16",
+      "title": "Reduce PROJECT_STATUS.md size",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_17",
+      "title": "Add schema version field to entry schema",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_18",
+      "title": "Clean up legacy cross-reference string format",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_19",
+      "title": "Add incremental build capability",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_20",
+      "title": "Create a pre-commit hook",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_01",
+      "title": "Create PROJECT_CONTEXT_BRIEF.md",
+      "category": "Workflow & Autonomy",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_02",
+      "title": "Archive old session logs",
+      "category": "Workflow & Autonomy",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_03",
+      "title": "Update the PreCompact hook",
+      "category": "Workflow & Autonomy",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_04",
+      "title": "Create the pipeline configuration schema",
+      "category": "Workflow & Autonomy",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_05",
+      "title": "Create the pipeline runner script",
+      "category": "Workflow & Autonomy",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_06",
+      "title": "Create post-task validation gates",
+      "category": "Workflow & Autonomy",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_07",
+      "title": "Create status update and reporting system",
+      "category": "Workflow & Autonomy",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_08",
+      "title": "Create batch-optimized prompt versions",
+      "category": "Workflow & Autonomy",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_09",
+      "title": "Generate a word-ID lookup table",
+      "category": "Workflow & Autonomy",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_10",
+      "title": "Create a task scheduler recommendation script",
+      "category": "Workflow & Autonomy",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_11",
+      "title": "Create daily workflow documentation",
+      "category": "Workflow & Autonomy",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "02_workflow_prompt_12",
+      "title": "Integrate with GitHub Actions",
+      "category": "Workflow & Autonomy",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_01",
+      "title": "Audit under-example'd basic/core entries",
+      "category": "Learner Experience",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_02",
+      "title": "Extract cross-references from notes fields",
+      "category": "Learner Experience",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_03",
+      "title": "Add structured notes to shallow entries",
+      "category": "Learner Experience",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_04",
+      "title": "Improve navigation on entry pages",
+      "category": "Learner Experience",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_05",
+      "title": "Add tier badge to search results",
+      "category": "Learner Experience",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_06",
+      "title": "Verify vocabulary tier compliance in examples",
+      "category": "Learner Experience",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_07",
+      "title": "Standardize counter entry format",
+      "category": "Learner Experience",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_08",
+      "title": "Create learner-facing tier study lists",
+      "category": "Learner Experience",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_09",
+      "title": "Improve contrastive pair model",
+      "category": "Learner Experience",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "03_learner_prompt_10",
+      "title": "Assess and improve example sentence notes",
+      "category": "Learner Experience",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_01",
+      "title": "Verb transitivity batch",
+      "category": "Lexicographic Quality",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_02",
+      "title": "Verb aspect/ている batch",
+      "category": "Lexicographic Quality",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_03",
+      "title": "Basic/core example expansion",
+      "category": "Lexicographic Quality",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_04",
+      "title": "Similar word cross-reference mining",
+      "category": "Lexicographic Quality",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_05",
+      "title": "Homophone cross-reference pass",
+      "category": "Lexicographic Quality",
+      "priority": "High",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_06",
+      "title": "Counter entry standardization",
+      "category": "Lexicographic Quality",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_07",
+      "title": "Adjective enhancement pass",
+      "category": "Lexicographic Quality",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_08",
+      "title": "Mid-range entry notes upgrade",
+      "category": "Lexicographic Quality",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_09",
+      "title": "Secondary particle enhancement",
+      "category": "Lexicographic Quality",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "04_lexicographic_prompt_10",
+      "title": "Noun scope clarification pass",
+      "category": "Lexicographic Quality",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    }
+  ]
+}
