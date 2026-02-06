@@ -30,6 +30,26 @@ def strip_furigana(text: str) -> str:
     return FURIGANA_PATTERN.sub(r'\1', text)
 
 
+def is_kanji(char: str) -> bool:
+    """Check if a character is a kanji.
+
+    Covers CJK Unified Ideographs, CJK Extension A, and CJK Compatibility
+    Ideographs ranges.
+
+    Args:
+        char: A single character to check
+
+    Returns:
+        True if the character is a kanji
+    """
+    code = ord(char)
+    return (
+        (0x4E00 <= code <= 0x9FFF) or   # CJK Unified Ideographs
+        (0x3400 <= code <= 0x4DBF) or   # CJK Extension A
+        (0xF900 <= code <= 0xFAFF)      # CJK Compatibility Ideographs
+    )
+
+
 # Mapping from hiragana to romaji
 HIRAGANA_TO_ROMAJI = {
     'あ': 'a', 'い': 'i', 'う': 'u', 'え': 'e', 'お': 'o',

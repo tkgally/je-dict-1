@@ -15,24 +15,10 @@ Usage:
 
 import argparse
 import json
-import re
 from pathlib import Path
 from datetime import datetime, timezone
 
-FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
-
-def strip_furigana(text: str) -> str:
-    if not text:
-        return ''
-    return FURIGANA_PATTERN.sub(r'\1', text)
-
-def is_kanji(char: str) -> bool:
-    code = ord(char)
-    return (
-        (0x4E00 <= code <= 0x9FFF) or
-        (0x3400 <= code <= 0x4DBF) or
-        (0xF900 <= code <= 0xFAFF)
-    )
+from japanese_utils import strip_furigana, is_kanji
 
 def extract_kanji(headword: str) -> set:
     plain = strip_furigana(headword)

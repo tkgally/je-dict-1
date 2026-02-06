@@ -25,9 +25,9 @@
       "title": "Eliminate strip_furigana and is_kanji duplication",
       "category": "Code & Structure",
       "priority": "High",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-06",
+      "notes": "Added is_kanji() to japanese_utils.py. Updated 5 files to import strip_furigana/is_kanji from japanese_utils instead of defining their own: build_kanji_json.py, extract_kanji_from_entries.py, update_kanji_index.py, verify_kanji_index.py, check_tag_consistency.py. Removed unused re imports where applicable."
     },
     {
       "id": "01_code_prompt_04",
