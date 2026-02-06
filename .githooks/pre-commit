@@ -1,0 +1,43 @@
+#!/bin/sh
+# Pre-commit hook: validates staged dictionary entry files.
+# Install with: git config core.hooksPath .githooks
+#
+# - If entries/ files are staged, validates each one with validate.py
+# - Blocks the commit if any validation fails
+# - Skips validation entirely if no entry files are staged (fast path)
+
+# Get staged entry files (added, modified, or renamed — not deleted)
+STAGED_ENTRIES=$(git diff --cached --name-only --diff-filter=d | grep '^entries/.*\.json$')
+
+if [ -z "$STAGED_ENTRIES" ]; then
+    # No entry files staged — nothing to validate
+    exit 0
+fi
+
+# Count files for the summary
+FILE_COUNT=$(echo "$STAGED_ENTRIES" | wc -l | tr -d ' ')
+echo "Pre-commit: validating $FILE_COUNT staged entry file(s)..."
+
+FAILED=0
+FAILED_FILES=""
+
+for FILE in $STAGED_ENTRIES; do
+    # Validate the working-tree version (which is what will be committed
+    # if the file is fully staged; for partially-staged files the working
+    # copy may differ, but this is the standard pre-commit convention)
+    if ! python3 build/validate.py --entry "$FILE" > /dev/null 2>&1; then
+        FAILED=$((FAILED + 1))
+        FAILED_FILES="$FAILED_FILES\n  $FILE"
+    fi
+done
+
+if [ "$FAILED" -gt 0 ]; then
+    echo "Pre-commit: FAILED — $FAILED file(s) did not pass validation:$FAILED_FILES"
+    echo ""
+    echo "Run 'python3 build/validate.py --entry <file>' for details."
+    echo "To skip this check: git commit --no-verify"
+    exit 1
+fi
+
+echo "Pre-commit: all $FILE_COUNT entry file(s) valid."
+exit 0
