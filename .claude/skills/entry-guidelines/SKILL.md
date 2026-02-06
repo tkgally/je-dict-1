@@ -174,6 +174,7 @@ Every entry must include:
 - `definitions`: Array with sense_number, gloss, explanation
 - `examples`: 2-3 minimum, with id, Japanese, English, sense_numbers, and optional notes
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
+- `schema_version`: Set to `"2.0"` for all new entries (top-level field, optional for existing entries)
 - `metadata`: Including vocabulary_tier (**always "general" for new entries**), created, modified timestamps
 
 ## Reading Format (CRITICAL)
