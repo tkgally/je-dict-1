@@ -7,29 +7,10 @@ dictionary entries that contain that kanji in their headword.
 """
 
 import json
-import re
 from pathlib import Path
 from datetime import datetime, timezone
 
-# Furigana pattern
-FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
-
-
-def strip_furigana(text: str) -> str:
-    """Strip furigana notation, keeping only kanji."""
-    if not text:
-        return ''
-    return FURIGANA_PATTERN.sub(r'\1', text)
-
-
-def is_kanji(char: str) -> bool:
-    """Check if a character is a kanji."""
-    code = ord(char)
-    return (
-        (0x4E00 <= code <= 0x9FFF) or
-        (0x3400 <= code <= 0x4DBF) or
-        (0xF900 <= code <= 0xFAFF)
-    )
+from japanese_utils import strip_furigana, is_kanji
 
 
 def hiragana_sort_key(reading: str) -> str:

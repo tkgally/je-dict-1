@@ -16,11 +16,12 @@ Usage:
 """
 
 import json
-import re
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Optional
+
+from japanese_utils import strip_furigana
 
 # Verb POS tags
 VERB_POS_TAGS = {
@@ -55,11 +56,6 @@ DOMAIN_KEYWORDS = {
     "legal": ["legal term", "law term", "judicial term", "used in legal"],
     "medical": ["medical term", "clinical term", "anatomy", "used in medical"],
 }
-
-
-def strip_furigana(text: str) -> str:
-    """Remove furigana markup from text."""
-    return re.sub(r"\{([^|]+)\|[^}]+\}", r"\1", text)
 
 
 def get_all_text(entry: dict) -> str:

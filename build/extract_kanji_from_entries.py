@@ -7,26 +7,9 @@ used in headwords, outputting a list that needs kanji index IDs assigned.
 """
 
 import json
-import re
 from pathlib import Path
 
-# Furigana pattern from japanese_utils.py
-FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
-
-def strip_furigana(text: str) -> str:
-    """Strip furigana notation, keeping only kanji."""
-    if not text:
-        return ''
-    return FURIGANA_PATTERN.sub(r'\1', text)
-
-def is_kanji(char: str) -> bool:
-    """Check if a character is a kanji."""
-    code = ord(char)
-    return (
-        (0x4E00 <= code <= 0x9FFF) or    # CJK Unified Ideographs
-        (0x3400 <= code <= 0x4DBF) or    # CJK Extension A
-        (0xF900 <= code <= 0xFAFF)       # CJK Compatibility
-    )
+from japanese_utils import strip_furigana, is_kanji
 
 def extract_kanji_from_headword(headword: str) -> set:
     """Extract all kanji characters from a headword."""

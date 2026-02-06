@@ -25,7 +25,8 @@ import sys
 from pathlib import Path
 from collections import Counter
 
-FURIGANA_PATTERN = re.compile(r'\{([^|]+)\|([^}]+)\}')
+from japanese_utils import strip_furigana, is_kanji
+
 KANJI_ID_PATTERN = re.compile(r'^(\d{5})_([a-z]+)_([a-z]+)_([a-z-]+)$')
 
 
@@ -38,21 +39,6 @@ class VerificationError:
     def __str__(self):
         fix_marker = " [FIXABLE]" if self.fixable else ""
         return f"[{self.category}] {self.message}{fix_marker}"
-
-
-def strip_furigana(text: str) -> str:
-    if not text:
-        return ''
-    return FURIGANA_PATTERN.sub(r'\1', text)
-
-
-def is_kanji(char: str) -> bool:
-    code = ord(char)
-    return (
-        (0x4E00 <= code <= 0x9FFF) or
-        (0x3400 <= code <= 0x4DBF) or
-        (0xF900 <= code <= 0xFAFF)
-    )
 
 
 def extract_kanji(headword: str) -> set:
