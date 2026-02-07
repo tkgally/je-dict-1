@@ -122,68 +122,31 @@ prompt_file_for_type() {
   esac
 }
 
-# --- Status tracking ---
+# --- Status tracking (via update-status.py) ---
 
 init_status() {
-  local timestamp
-  timestamp="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-  python3 - "$STATUS_FILE" "$CONFIG_FILE" "$timestamp" << 'PYEOF'
-import json, sys
-status_file, config_file, timestamp = sys.argv[1:4]
-status = {
-    'started': timestamp,
-    'finished': None,
-    'config_file': config_file,
-    'results': []
-}
-with open(status_file, 'w') as f:
-    json.dump(status, f, indent=2, ensure_ascii=False)
-    f.write('\n')
-PYEOF
+  python3 "$SCRIPT_DIR/update-status.py" init --config-file "$CONFIG_FILE"
 }
 
 record_result() {
-  # record_result <task_type> <task_index> <invocation> <status> <message>
+  # record_result <task_type> <task_index> <invocation> <status> <message> [duration]
   local task_type="$1"
   local task_index="$2"
   local invocation="$3"
   local status="$4"
   local message="$5"
-  local timestamp
-  timestamp="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-  python3 - "$STATUS_FILE" "$task_type" "$task_index" "$invocation" "$status" "$message" "$timestamp" << 'PYEOF'
-import json, sys
-status_file = sys.argv[1]
-task_type, task_index, invocation, status, message, timestamp = sys.argv[2:8]
-with open(status_file) as f:
-    data = json.load(f)
-data['results'].append({
-    'task_type': task_type,
-    'task_index': int(task_index),
-    'invocation': int(invocation),
-    'status': status,
-    'message': message,
-    'timestamp': timestamp
-})
-with open(status_file, 'w') as f:
-    json.dump(data, f, indent=2, ensure_ascii=False)
-    f.write('\n')
-PYEOF
+  local duration="${6:-}"
+  local duration_flag=""
+  if [ -n "$duration" ]; then
+    duration_flag="--duration $duration"
+  fi
+  python3 "$SCRIPT_DIR/update-status.py" record \
+    --type "$task_type" --index "$task_index" --invocation "$invocation" \
+    --status "$status" --message "$message" $duration_flag
 }
 
 finalize_status() {
-  local timestamp
-  timestamp="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-  python3 - "$STATUS_FILE" "$timestamp" << 'PYEOF'
-import json, sys
-status_file, timestamp = sys.argv[1:3]
-with open(status_file) as f:
-    data = json.load(f)
-data['finished'] = timestamp
-with open(status_file, 'w') as f:
-    json.dump(data, f, indent=2, ensure_ascii=False)
-    f.write('\n')
-PYEOF
+  python3 "$SCRIPT_DIR/update-status.py" finalize
 }
 
 # --- Git helpers ---
@@ -394,11 +357,16 @@ main() {
       # Step 4b: Invoke claude --print
       log "Invoking claude --print with prompt: $prompt_path"
       local claude_exit_code=0
+      local task_start_time
+      task_start_time=$(date +%s)
       claude --print "$prompt_content" 2>&1 | tee -a "$LOG_FILE" || claude_exit_code=$?
+      local task_end_time
+      task_end_time=$(date +%s)
+      local task_duration=$((task_end_time - task_start_time))
 
       if [ "$claude_exit_code" -ne 0 ]; then
         log_error "claude --print exited with code $claude_exit_code"
-        record_result "$task_type" "$t" "$i" "failed" "claude exited with code $claude_exit_code"
+        record_result "$task_type" "$t" "$i" "failed" "claude exited with code $claude_exit_code" "$task_duration"
         total_failed=$((total_failed + 1))
         # Discard any partial changes
         git -C "$PROJECT_DIR" checkout -- . 2>/dev/null || true
@@ -425,7 +393,7 @@ main() {
 
       if [ "$validate_exit_code" -ne 0 ]; then
         log_error "Validation failed for $task_type invocation $i"
-        record_result "$task_type" "$t" "$i" "failed" "Validation failed"
+        record_result "$task_type" "$t" "$i" "failed" "Validation failed" "$task_duration"
         total_failed=$((total_failed + 1))
         # Discard changes that failed validation
         git -C "$PROJECT_DIR" checkout -- . 2>/dev/null || true
@@ -441,7 +409,7 @@ main() {
       # Step 6: Commit successful changes
       log "Validation passed. Committing..."
       commit_changes "$branch" "$task_type" "$i"
-      record_result "$task_type" "$t" "$i" "passed" "OK"
+      record_result "$task_type" "$t" "$i" "passed" "OK" "$task_duration"
       total_passed=$((total_passed + 1))
       log "Committed $task_type invocation $i"
     done
@@ -454,51 +422,12 @@ main() {
   # Finalize
   finalize_status
 
-  # Generate report
-  python3 - "$STATUS_FILE" "$REPORT_FILE" << 'PYEOF' 2>&1 | tee -a "$LOG_FILE"
-import json, sys
+  # Generate report (with dictionary health snapshot)
+  python3 "$SCRIPT_DIR/update-status.py" report --include-health 2>&1 | tee -a "$LOG_FILE"
 
-status_file, report_file = sys.argv[1], sys.argv[2]
-
-with open(status_file) as f:
-    data = json.load(f)
-
-results = data["results"]
-total = len(results)
-passed = sum(1 for r in results if r["status"] == "passed")
-failed = sum(1 for r in results if r["status"] == "failed")
-skipped = sum(1 for r in results if r["status"] == "skipped")
-
-lines = []
-lines.append("=" * 60)
-lines.append("Pipeline Report")
-lines.append("=" * 60)
-lines.append(f"Started:  {data['started']}")
-lines.append(f"Finished: {data['finished']}")
-lines.append(f"Config:   {data['config_file']}")
-lines.append("")
-lines.append(f"Total invocations: {total}")
-lines.append(f"  Passed:  {passed}")
-lines.append(f"  Failed:  {failed}")
-lines.append(f"  Skipped: {skipped}")
-lines.append("")
-lines.append("-" * 60)
-lines.append(f"{'#':>3}  {'Task Type':<25} {'Status':<10} {'Message'}")
-lines.append("-" * 60)
-
-for i, r in enumerate(results, 1):
-    inv = f"{r['task_type']}[{r['invocation']}]"
-    lines.append(f"{i:>3}  {inv:<25} {r['status']:<10} {r['message']}")
-
-lines.append("-" * 60)
-lines.append("")
-
-report = "\n".join(lines)
-print(report)
-
-with open(report_file, "w") as f:
-    f.write(report)
-PYEOF
+  # Update PROJECT_CONTEXT_BRIEF.md with current counts
+  log "Updating PROJECT_CONTEXT_BRIEF.md..."
+  python3 "$SCRIPT_DIR/update-brief.py" 2>&1 | tee -a "$LOG_FILE"
 
   log ""
   log "Pipeline complete. Results: $total_passed passed, $total_failed failed, $total_skipped skipped"

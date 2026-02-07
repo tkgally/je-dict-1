@@ -8,6 +8,8 @@ Automated task queue for je-dict-1 dictionary maintenance. A pipeline config def
 |------|---------|
 | `run-pipeline.sh` | Runner script — executes tasks from config |
 | `validate-task.sh` | Post-task validation gates — task-specific checks |
+| `update-status.py` | Status tracking and report generation |
+| `update-brief.py` | Regenerates PROJECT_CONTEXT_BRIEF.md from current data |
 | `pipeline-config.schema.json` | JSON Schema defining the config format |
 | `pipeline-config.json` | Active pipeline configuration (edit this) |
 | `pipeline-config.example.json` | Sample configuration for reference |
@@ -120,7 +122,9 @@ For each task invocation, the runner:
 7. If validation fails, discards changes and either stops or skips (per `on_failure`)
 8. Records the result in `pipeline-status.json`
 
-After all tasks complete, a summary report is written to `pipeline-report.txt`.
+After all tasks complete:
+- A summary report (with dictionary health snapshot) is written to `pipeline-report.txt`
+- `PROJECT_CONTEXT_BRIEF.md` is regenerated with updated counts
 
 ### Validation gates
 
@@ -161,3 +165,41 @@ You can also run `validate-task.sh` standalone:
 - After each session, `validate-task.sh` runs task-specific checks as a quality gate
 - On validation failure, `on_failure` determines whether the pipeline stops or skips to the next invocation
 - Each successful invocation is committed to the configured branch
+
+## Status tracking (`update-status.py`)
+
+Tracks pipeline run progress in `pipeline-status.json`. Called automatically by `run-pipeline.sh`, but can also be used standalone.
+
+```bash
+# Initialize a new status file
+python3 pipeline/update-status.py init
+
+# Record a task result
+python3 pipeline/update-status.py record \
+  --type new-entries --index 0 --invocation 1 \
+  --status passed --message "OK" --duration 120
+
+# Mark the pipeline run as finished
+python3 pipeline/update-status.py finalize
+
+# Generate a full report (written to pipeline-report.txt)
+python3 pipeline/update-status.py report
+
+# Generate report with dictionary health snapshot appended
+python3 pipeline/update-status.py report --include-health
+
+# One-line summary
+python3 pipeline/update-status.py summary
+```
+
+## Brief regeneration (`update-brief.py`)
+
+Regenerates `PROJECT_CONTEXT_BRIEF.md` from `entries_index.json` and `candidate_words.json` without loading individual entry files. Called automatically at the end of a pipeline run.
+
+```bash
+# Regenerate the brief
+python3 pipeline/update-brief.py
+
+# Preview without writing
+python3 pipeline/update-brief.py --dry-run
+```
