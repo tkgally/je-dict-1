@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00489_kau_ex1",
-      "japanese": "{本|ほん}を{買|か}う。",
+      "japanese": "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{買|か}う。",
       "english": "I buy a book.",
       "notes": null,
       "has_audio": false,
@@ -22,7 +22,7 @@
     },
     {
       "id": "00489_kau_ex2",
-      "japanese": "どこで{買|か}いましたか。",
+      "japanese": "⟦どこ→どこ：00539_doko⟧⟦で→で：00502_de⟧{買|か}いました⟦か→か：09473_ka⟧。",
       "english": "Where did you buy it?",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "00489_kau_ex3",
-      "japanese": "{新|あたら}しいパソコンを{買|か}いたい。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{買|か}いたい。",
       "english": "I want to buy a new computer.",
       "notes": null,
       "has_audio": false,
@@ -38,7 +38,7 @@
     },
     {
       "id": "00489_kau_ex4",
-      "japanese": "{駅|えき}の{近|ちか}くでコーヒーを{買|か}った。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧⟦{近|ちか}く→近く：00923_chikaku⟧⟦で→で：00502_de⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧{買|か}った。",
       "english": "I bought coffee near the station.",
       "notes": null,
       "has_audio": false,
@@ -46,14 +46,14 @@
     },
     {
       "id": "00489_kau_ex5",
-      "japanese": "{誕生日|たんじょうび}に{新|あたら}しい{服|ふく}を{買|か}ってもらった。とても{嬉|うれ}しかった。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧{買|か}って⟦もらった→もらう：00520_morau⟧。⟦とても→とても：00593_totemo⟧⟦{嬉|うれ}しかった→嬉しい：00822_ureshii⟧。",
       "english": "I got new clothes bought for me on my birthday. I was very happy.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [1]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{買|か}う (buy X).\n\nASPECT: ている indicates resulting state or repeated action. {買|か}っている = 'have bought' or 'buy regularly.'\n\nCOMMON PATTERNS:\n・{本|ほん}を{買|か}う (buy a book)\n・〜で{買|か}う (buy at ~)\n・{買|か}い{物|もの} (shopping - noun)\n・{買|か}い{物|もの}に{行|い}く (go shopping)\n\nOpposite: {売|う}る (to sell).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：noentry⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{買|か}う (buy X).\n\nASPECT: ている indicates resulting state or repeated action. {買|か}っている = 'have bought' or 'buy regularly.'\n\nCOMMON PATTERNS:\n・⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{買|か}う (buy a book)\n・〜⟦で→で：00502_de⟧{買|か}う (buy at ~)\n・⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧ (shopping - noun)\n・⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (go shopping)\n\nOpposite: ⟦{売|う}る→売る：00906_uru⟧ (to sell).",
   "cross_references": [
     {
       "type": "see_also",
@@ -64,7 +64,7 @@
   ],
   "metadata": {
     "created": "2026-01-05T12:49:21Z",
-    "modified": "2026-01-24T06:34:57Z",
+    "modified": "2026-02-07T10:54:25Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
