@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pipeline-config.schema.json",
+  "title": "je-dict-1 Pipeline Configuration",
+  "description": "Defines a queue of dictionary maintenance tasks for automated or semi-automated execution.",
+  "type": "object",
+  "required": ["tasks"],
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of this pipeline run."
+    },
+    "branch": {
+      "type": "string",
+      "description": "Default git branch for commits. Individual tasks can override this.",
+      "default": "main"
+    },
+    "on_failure": {
+      "type": "string",
+      "enum": ["stop", "skip"],
+      "description": "Default behavior when a task fails validation. 'stop' halts the pipeline, 'skip' moves to the next task.",
+      "default": "stop"
+    },
+    "tasks": {
+      "type": "array",
+      "description": "Ordered list of tasks to execute.",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/task"
+      }
+    }
+  },
+  "$defs": {
+    "task": {
+      "type": "object",
+      "required": ["type", "count"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "corpus-harvesting",
+            "new-entries",
+            "new-candidates",
+            "clean-candidates",
+            "inline-links",
+            "example-sentences",
+            "furigana-completeness",
+            "furigana-correctness",
+            "semantic-labels",
+            "noentry-resolution",
+            "expand-short-notes"
+          ],
+          "description": "The task type, which maps to a prompt file in prompts/."
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Number of times to invoke this task (each invocation is one Claude session)."
+        },
+        "branch": {
+          "type": "string",
+          "description": "Git branch for this task's commits. Overrides the top-level branch."
+        },
+        "on_failure": {
+          "type": "string",
+          "enum": ["stop", "skip"],
+          "description": "Behavior when this task fails validation. Overrides the top-level on_failure."
+        },
+        "parameters": {
+          "type": "object",
+          "description": "Optional task-specific parameters passed to the prompt.",
+          "properties": {
+            "batch_size": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Number of entries to process per invocation."
+            },
+            "entry_ids": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Specific entry IDs to target (e.g., [\"01234\", \"05678\"])."
+            },
+            "tier": {
+              "type": "string",
+              "enum": ["basic", "core", "general"],
+              "description": "Restrict processing to entries in this vocabulary tier."
+            },
+            "pos": {
+              "type": "string",
+              "description": "Restrict processing to entries with this part of speech (e.g., \"verb\", \"noun\")."
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
