@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,393 |
+| Total entries | ~10,475 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,594 (open) |
-| Candidate words | ~164 |
+| General tier | ~7,676 (open) |
+| Candidate words | ~208 |
 | Cross-references | ~3,315 |
 | Example sentences | ~40,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 224)
+Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of vocabulary types:
+
+- **Nouns (10)**: {付|つ}き{物|もの} (inseparable part), {一口|ひとくち} (one bite/in a word), {褒美|ほうび} (reward), しゃぶしゃぶ (shabu-shabu), すすき (pampas grass), つけ{麺|めん} (tsukemen), {外|はず}れ (miss/outskirts), {贔屓|ひいき} (favoritism), {引|ひ}きこもり (social withdrawal), ひととき (a moment), {拍子|ひょうし} (rhythm/moment)
+- **Verbs (3)**: {馳|は}せる (to rush/send thoughts), ばら{撒|ま}く (to scatter), ほぐす (to loosen/relieve)
+- **Adjectives (5)**: {相応|ふさわ}しい (suitable), どんくさい (clumsy), ほろ{苦|にが}い (bittersweet), ひたむき (earnest), ふかふか (fluffy)
+- **Adverbs/Onomatopoeia (8)**: ひっそり (quietly), ふんわり (softly), しんなり (wilted), ずたずた (in tatters), ちまちま (in small amounts), {甚|はなは}だ (exceedingly), {一際|ひときわ} (conspicuously), ほのぼの (heartwarming)
+- **Expressions (2)**: せい (fault/blame), できる{限|かぎ}り (as much as possible), とっておき (prized)
+
+Notable entry features:
+- Multi-sense entries: {一口|ひとくち} (bite/in a word), {馳|は}せる (rush/send thoughts), ばら{撒|ま}く (scatter/distribute), {外|はず}れ (miss/outskirts), {拍子|ひょうし} (rhythm/moment), ほろ{苦|にが}い (bitter taste/bittersweet), ほぐす (loosen/relieve)
+- Transitivity pair cross-ref: ほぐす/ほぐれる
+- Cultural context: {引|ひ}きこもり (8050 problem), すすき ({月見|つきみ} tradition)
+- Food vocabulary: しゃぶしゃぶ, つけ{麺|めん}, しんなり (cooking term)
+
+Total entries: 10,445 → 10,475
+Remaining candidates: 238 → 208
+New kanji: 2,258 → 2,261 ({贔|ひ}, {屓|き}, {麺|めん})
 
 ### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 223)
 Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of verbs, adverbs, nouns, and adjectives:
