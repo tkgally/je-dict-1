@@ -4,7 +4,7 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
 
 ## Session Workflow
 
-1. **Start**: Read PROJECT_STATUS.md for current counts and recent patterns
+1. **Start**: Read PROJECT_CONTEXT_BRIEF.md for current counts and critical rules
 
 2. **For each entry**:
    - **DUPLICATE CHECK (MANDATORY)**: Before writing ANY entry, run:
@@ -38,7 +38,7 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
 
    **Important**: Restrict the search range of `find_missing_furigana.py` to the entries that you have created in this session. If `find_missing_furigana.py` shows any entries from your session, fix them before committing.
 
-4. **Finish**: Update PROJECT_STATUS.md with entry count and summary, then commit and push
+4. **Finish**: Update PROJECT_STATUS.md Recent Changes section with entry count and summary, then commit and push
 
 ## Critical Rules
 
