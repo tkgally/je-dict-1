@@ -7,6 +7,20 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 217)
+Added 30 new dictionary entries from candidate_words.json, focusing on common vocabulary, grammar, and daily life:
+
+- **Food (4)**: アサリ (short-neck clam), {小豆|あずき} (azuki bean), {餡|あん} (sweet bean paste), インゲン (green beans)
+- **Verbs (7)**: あしらう (to treat/garnish), {当|あ}てはまる (to apply to), {当|あ}てはめる (to apply), ありふれる (to be common), あてがう (to allot), {伺|うかが}う (to visit/ask, humble)
+- **Adverbs (8)**: あたかも (as if), {如何|いかが} (how, polite), {如何|いか}に (how, no matter how), {生|い}き{生|い}き (lively), {至|いた}って (very), {未|いま}だ (still/yet), うっすら (faintly)
+- **Adjectives (3)**: {有難|ありがた}い (grateful), {嫌|いや} (unpleasant), いやらしい (nasty/vulgar)
+- **Nouns (8)**: あだ{名|な} (nickname), あの{世|よ} (afterlife), あらすじ (synopsis), ありったけ (all one has), {在|あ}り{方|かた} (ideal state), {出|い}で{立|た}ち (attire), {暇|いとま} (spare time/leave), {今時|いまどき} (nowadays), {芋|いも} (potato)
+- **Prank/Mischief (1)**: {悪戯|いたずら} (prank/mischief)
+
+Total entries: 10,041 → 10,071
+Remaining candidates: 200 → 170
+New kanji: 2,239 → 2,242
+
 ### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 216)
 Added 30 new dictionary entries from candidate_words.json, focusing on technology, daily life, business, travel, and literary vocabulary:
 
