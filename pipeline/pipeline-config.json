@@ -1,0 +1,14 @@
+{
+  "description": "Default pipeline configuration. Edit tasks to suit your needs.",
+  "branch": "main",
+  "on_failure": "stop",
+  "tasks": [
+    {
+      "type": "furigana-completeness",
+      "count": 1,
+      "parameters": {
+        "batch_size": 20
+      }
+    }
+  ]
+}

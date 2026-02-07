@@ -1,0 +1,51 @@
+{
+  "description": "Example: daily maintenance run — harvest candidates, create entries, polish existing ones",
+  "branch": "main",
+  "on_failure": "skip",
+  "tasks": [
+    {
+      "type": "corpus-harvesting",
+      "count": 1,
+      "parameters": {
+        "batch_size": 150
+      }
+    },
+    {
+      "type": "new-entries",
+      "count": 3,
+      "parameters": {
+        "batch_size": 30
+      }
+    },
+    {
+      "type": "furigana-completeness",
+      "count": 2,
+      "parameters": {
+        "batch_size": 20
+      }
+    },
+    {
+      "type": "inline-links",
+      "count": 2,
+      "parameters": {
+        "batch_size": 15,
+        "tier": "core"
+      }
+    },
+    {
+      "type": "example-sentences",
+      "count": 1,
+      "parameters": {
+        "batch_size": 10,
+        "tier": "basic"
+      }
+    },
+    {
+      "type": "expand-short-notes",
+      "count": 1,
+      "parameters": {
+        "batch_size": 10
+      }
+    }
+  ]
+}
