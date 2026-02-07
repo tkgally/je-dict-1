@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,333 |
+| Total entries | ~10,363 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,534 (open) |
-| Candidate words | ~153 |
-| Cross-references | ~3,314 |
-| Example sentences | ~40,300 |
+| General tier | ~7,564 (open) |
+| Candidate words | ~159 |
+| Cross-references | ~3,315 |
+| Example sentences | ~40,500 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 222)
+Added 30 new dictionary entries from candidate_words.json, covering verbs, nouns, adjectives, adverbs, and food vocabulary:
+
+- **Verbs (14)**: すくめる (to shrug), そそる (to arouse/tempt), そびえる (to tower), {逸|そ}らす (to avert), {例|たと}える (to compare), {辿|たど}る (to trace), {付|つ}け{込|こ}む (to take advantage of), つつく (to poke/peck), つまむ (to pinch), {付|つ}きまとう (to follow around), すり{減|へ}る (to wear down), ずば{抜|ぬ}ける (to be outstanding), ちなむ (to be associated with)
+- **Nouns (10)**: せせらぎ (murmuring stream), {微風|そよかぜ} (gentle breeze), {鯛焼|たいや}き (taiyaki), たこ{焼|や}き (takoyaki), {卵焼|たまごや}き (rolled omelet), すき{焼|や}き (sukiyaki), ざわめき (commotion), {裾野|すその} (foothills), {対面|たいめん} (face-to-face), {繋|つな}がり (connection)
+- **Adverbs (3)**: ちょっぴり (a tiny bit), ついつい (despite oneself), ただただ (simply/nothing but)
+- **I-adjective (1)**: だらしない (sloppy/undisciplined)
+- **Other nouns (2)**: {大名|だいみょう} (feudal lord), そぼろ (crumbled meat topping), だんまり (silence)
+
+Notable entry features:
+- Multi-sense entries: だらしない (sloppy/undisciplined), つつく (poke/nibble/peck), つまむ (pinch/snack), すり{減|へ}る (wear down physically/figuratively), {裾野|すその} (foothills/figurative base), {付|つ}きまとう (follow/haunt)
+- Food vocabulary cluster: {鯛焼|たいや}き, たこ{焼|や}き, {卵焼|たまごや}き, すき{焼|や}き, そぼろ
+- Transitivity pair: すくめる/すくむ
+- Homophone cross-reference: {付|つ}け{込|こ}む/{漬|つ}け{込|こ}む
+
+Total entries: 10,333 → 10,363
+Remaining candidates: 153 → 159 (some new candidates added by update_indexes)
+New kanji: 2,249 → 2,250 ({鯛|ちょう})
 
 ### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 221)
 Added 30 new dictionary entries from candidate_words.json, covering general vocabulary across multiple parts of speech:
@@ -134,26 +153,6 @@ Notable entry features:
 
 Total entries: 10,216 → 10,246
 Remaining candidates: 170 → 141
-
-### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 217)
-Added 30 new dictionary entries from candidate_words.json, focusing on common vocabulary, grammar, and daily life:
-
-- **Food (4)**: アサリ (short-neck clam), {小豆|あずき} (azuki bean), {餡|あん} (sweet bean paste), インゲン (green beans)
-- **Verbs (7)**: あしらう (to treat/garnish), {当|あ}てはまる (to apply to), {当|あ}てはめる (to apply), ありふれる (to be common), あてがう (to allot), {伺|うかが}う (to visit/ask, humble)
-- **Adverbs (8)**: あたかも (as if), {如何|いかが} (how, polite), {如何|いか}に (how, no matter how), {生|い}き{生|い}き (lively), {至|いた}って (very), {未|いま}だ (still/yet), うっすら (faintly)
-- **Adjectives (3)**: {有難|ありがた}い (grateful), {嫌|いや} (unpleasant), いやらしい (nasty/vulgar)
-- **Nouns (8)**: あだ{名|な} (nickname), あの{世|よ} (afterlife), あらすじ (synopsis), ありったけ (all one has), {在|あ}り{方|かた} (ideal state), {出|い}で{立|た}ち (attire), {暇|いとま} (spare time/leave), {今時|いまどき} (nowadays), {芋|いも} (potato)
-- **Prank/Mischief (1)**: {悪戯|いたずら} (prank/mischief)
-
-Notable entry features:
-- Multi-sense entries: あしらう (treat/garnish), {餡|あん} (sweet paste/thick sauce), {如何|いか}に (how/no matter how), {悪戯|いたずら} (prank/tampering), {暇|いとま} (time/leave), あてがう (apply/allot)
-- Humble language: {伺|うかが}う (to visit/ask)
-- Formal vocabulary: あたかも, {如何|いかが}, {如何|いか}に, {未|いま}だ
-- 3 new kanji added to kanji index: {伺|shi}, {戯|gi}, {芋|u}
-
-Total entries: 10,041 → 10,071
-Remaining candidates: 200 → 170
-New kanji: 2,239 → 2,242
 
 ---
 
