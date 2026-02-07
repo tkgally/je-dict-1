@@ -1,71 +1,32 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-06
+**Last updated**: 2026-02-07
 **Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
 
 **Live site**: https://tkgally.github.io/je-dict-1/
 
-> **Note**: Older change history is archived in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).
+> **Full history**: Older change logs are archived in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).
+> **Quick reference**: See [PROJECT_CONTEXT_BRIEF.md](PROJECT_CONTEXT_BRIEF.md) for a concise session-start overview.
+> **Project setup**: See [CLAUDE.md](CLAUDE.md) for commands, file placement, and skills.
 
 ## Current State
 
-### Phase
-**Phase 4: Vocabulary Expansion & Interface Enhancement** - Adding vocabulary while maintaining v2 quality standards, plus new web interface features. The dictionary uses an original three-tier vocabulary classification (basic, core, general) instead of JLPT levels.
-
-### Infrastructure Status
-- [x] Directory structure created (prefix-based subdirectories for scalability)
-- [x] JSON schema defined (`build/schema.json`)
-- [x] Validation script working (`build/validate.py`)
-- [x] Build script working (`build/build_flat.py`)
-- [x] Furigana system with toggle
-- [x] Claude Code skills for entry guidelines
-- [x] Quality specification v2 from multi-model evaluation
-- [x] Vocabulary-notes skill for formatting guidelines
-- [x] Notes field supports paragraph breaks and bullet points
-- [x] Multiple interface modes (Search, Browse, Recent, Random)
-- [x] Sticky header with interface toggle
-- [x] Last updated date in footer
-- [x] Cross-reference linking system with UI navigation (567 refs, 97% resolved)
-- [x] Audio pronunciation for example sentences (1,028 audio files)
-- [x] Prefix-based subdirectory structure for entries and audio (scalable to 10,000+ entries)
-- [x] Shared utility modules (`path_utils.py`, `japanese_utils.py`)
-- [x] Audio integrity validation in `validate.py`
-- [x] Deterministic build output (clean before build)
-- [x] Atomic build process (temp directory swap prevents broken states)
-- [x] Centralized cross-reference type definitions (`build/cross_ref_types.py`)
-- [x] Centralized furigana pattern and utilities (`build/japanese_utils.py`)
-- [x] Enhanced validation with structured return types
-- [x] Improved security (XSS prevention, no auto-install)
+**Phase 4: Vocabulary Expansion & Interface Enhancement** — Adding vocabulary while maintaining v2 quality standards, plus new web interface features. The dictionary uses an original three-tier vocabulary classification (basic, core, general) instead of JLPT levels.
 
 ### Content Status
-- **Total entries**: 10,306
-- **Vocabulary tier assignment**: Basic: 801 | Core: 1,998 | General: 7,507 | Unassigned: 0 ✓
-- **Candidate words**: 183 words tracked in `candidate_words.json`
-- **Cross-references**: 3,313 total across 2,680 entries
-- **Example sentences**: 40,185 total
-- **Audio files**: 1,028 MP3 files covering example sentences
 
-### Vocabulary Tier System
-The dictionary uses a three-tier vocabulary classification system (see vocabulary-tiers skill):
-- **Basic**: 801 entries (target: 600-800) - fundamental words for basic communication
-- **Core**: 1,998 entries (target: 1,600-2,000) - words for adult-level communication
-- **General**: 7,507 entries (no limit) - all other vocabulary useful for learners
+These counts are approximate. Run `make report` for accurate, up-to-date numbers.
 
-**Tier realignment completed 2026-01-19.** All entries have tier assignments meeting target ranges. The basic and core tiers are curated to ensure semantic group integrity.
-
-**Policy for new entries:** All new entries must be assigned to the **general** tier. The basic and core tiers are considered stable and should not be modified unless explicitly requested.
-
-### Entry Breakdown by Type
-| Type | Count | Notes |
-|------|-------|-------|
-| Verbs | ~1,200 | Includes transitivity and aspect info |
-| Nouns | ~2,500 | Includes katakana loanwords |
-| Adjectives | ~400 | I-adjectives and na-adjectives |
-| Adverbs | ~200 | Time, manner, degree adverbs |
-| Particles | 10 | Core particles with predicate lists |
-| Counters | ~50 | Common counting patterns |
-| Keigo verbs | 12 | Honorific and humble forms |
-| Other | ~1,100 | Expressions, onomatopoeia, suffixes, etc. |
+| Metric | Value |
+|--------|-------|
+| Total entries | ~10,306 |
+| Basic tier | 801 (closed) |
+| Core tier | 1,998 (closed) |
+| General tier | ~7,507 (open) |
+| Candidate words | ~153 |
+| Cross-references | ~3,313 |
+| Example sentences | ~40,185 |
+| Audio files | 1,028 |
 
 ## v2 Quality Standards
 
@@ -87,24 +48,6 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 1. **Kanji orthography notes** - When to use kanji vs. hiragana
 2. **Cultural notes** - Expand where significant
 3. **Keigo references** - Link to honorific forms
-
-## Claude Code Skills
-
-Available in `.claude/skills/` (automatically loaded when relevant):
-
-| Skill | Use When |
-|-------|----------|
-| `entry-guidelines` | Creating any entry |
-| `verb-entry` | Creating/revising verb entries |
-| `adjective-entry` | Creating/revising adjective entries |
-| `particle-entry` | Creating/revising particle entries |
-| `other-entries` | Creating nouns, counters, adverbs, expressions |
-| `revise-entries` | Revising existing entries to v2 standards |
-| `vocabulary-notes` | Formatting notes field content |
-| `cross-reference-entry` | Adding cross-references between entries |
-| `find-candidates` | Finding new candidate words for the dictionary |
-| `resolve-duplicates` | Identifying and resolving duplicate entries |
-| `delete-entry` | Safely deleting entries with proper cleanup |
 
 ## Recent Changes
 
@@ -225,170 +168,3 @@ New kanji: 2,237 → 2,239
 **Archive Note**: Only the 5 most recent change log entries are shown above. When adding a new entry here, move the oldest one to [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md) to maintain this limit.
 
 For earlier changes, see [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).
-
-
-## Workflow: Adding Entries from Candidates
-
-Follow this step-by-step process when adding new dictionary entries from `candidate_words.json`:
-
-### Step 1: Select Candidates
-1. Review `candidate_words.json` to choose words to add
-2. Prioritize by JLPT level (N5 → N4 → N3) or thematic groups
-3. Check that the candidate hasn't already been added to the dictionary
-
-### Step 2: Create Entry Files
-1. Create the JSON entry file following the schema (`build/schema.json`)
-2. Use the appropriate Claude skill based on entry type:
-   - Verbs: `verb-entry` skill
-   - Adjectives: `adjective-entry` skill
-   - Particles: `particle-entry` skill
-   - Others: `other-entries` skill
-3. Follow `vocabulary-notes` skill for notes formatting
-4. Place file in correct directory based on numeric ID range:
-   - Directory: `entries/{range}/` where `{range}` is based on the 5-digit ID:
-     - IDs 00001-00499 → `entries/00000/`
-     - IDs 00500-00999 → `entries/00500/`
-     - IDs 01000-01499 → `entries/01000/`
-     - etc. (500 entries per directory)
-   - Example: `entries/00000/00396_taberu.json`
-5. File naming: `{5-digit-id}_{romaji}.json`
-
-### Step 3: Validate Entry
-```bash
-python3 build/validate.py --id {entry_id}
-# Or validate all:
-python3 build/validate.py
-```
-
-### Step 4: Update Indexes
-**IMPORTANT: Run this after adding ANY entries:**
-```bash
-python3 build/update_indexes.py
-```
-This will:
-- Update `entries_index.json` with the new entry
-- Remove added words from `candidate_words.json` (sync)
-
-### Step 5: Rebuild Website
-**IMPORTANT: Run this to update the GitHub Pages site:**
-```bash
-python3 build/build_flat.py
-```
-This regenerates all HTML files in `docs/` which GitHub Pages serves. Without this step, new entries won't appear on the live site.
-
-### Step 6: Add Cross-References
-1. Use the `cross-reference-entry` skill for guidelines
-2. Add structured references for:
-   - Transitivity pairs (for verbs)
-   - Keigo equivalents
-   - Antonyms/opposites
-   - Related vocabulary mentioned in notes
-3. References can point to entries that don't exist yet
-
-### Step 7: Commit Changes
-Commit all changes including:
-- New entry JSON files in `entries/`
-- Updated `entries_index.json` and `candidate_words.json`
-- Rebuilt `docs/` folder (required for GitHub Pages to update)
-
-## Workflow: Adding Cross-References to Entries
-
-### Cross-Reference Format
-```json
-"cross_references": [
-  {
-    "type": "pair",
-    "reading": "しまる",
-    "headword": "{閉|し}まる",
-    "label": "intransitive"
-  }
-]
-```
-
-### Reference Types
-| Type | Use For | Example |
-|------|---------|---------|
-| `pair` | Transitivity pairs | 閉める → 閉まる |
-| `antonym` | Opposites | 大きい → 小さい |
-| `keigo` | Honorific/humble | 食べる → 召し上がる |
-| `synonym` | Similar meaning | 分かる → 理解する |
-| `contrast` | Easily confused | は → が |
-| `related` | Semantically connected | 食べる → 食べ物 |
-| `see_also` | General reference | - |
-
-## Technical Notes
-
-### Build Commands
-```bash
-# Validate entries (includes schema, cross-refs, audio integrity)
-python3 build/validate.py
-
-# Validate a single entry
-python3 build/validate.py --id 00396_taberu
-
-# Merge new audio files (from audio-to-add/)
-python3 build/merge_audio.py
-
-# Build dictionary
-python3 build/build_flat.py
-
-# Update index files (after adding/removing entries)
-python3 build/update_indexes.py
-
-# Manage candidate words
-python3 build/manage_candidates.py stats    # Show statistics
-python3 build/manage_candidates.py add "漢字" "かんじ" "notes"  # Add candidate
-
-# Cross-reference resolution report
-python3 build/resolve_links.py
-
-# View locally
-open docs/index.html
-```
-
-### File Naming Convention
-- Format: `{5-digit-id}_{romanized_reading}.json`
-- Romanization: Modified Hepburn with kana-faithful long vowels
-- Directory: `entries/{range}/` where `{range}` is based on the numeric ID:
-  - IDs 00001-00499 → `entries/00000/`
-  - IDs 00500-00999 → `entries/00500/`
-  - IDs 01000-01499 → `entries/01000/`
-  - etc. (500 entries per directory)
-- Example: `entries/00000/00396_taberu.json`
-- Katakana loanwords: Use hiragana reading (e.g., アルバイト → あるばいと)
-
-### Entry and Candidate Tracking
-- **entries_index.json**: Auto-generated index of all dictionary entries
-- **candidate_words.json**: Words to potentially add (each has unique ID like C00001)
-- Run `python build/update_indexes.py` after modifying entries to keep indexes in sync
-
-## Notes for AI Assistants
-
-### Before Starting Work
-1. Read this file to understand current state
-2. Relevant skills will be auto-loaded based on task type (see Claude Code Skills table above)
-3. Use the `entry-guidelines` skill for general quality standards
-
-### Entry Requirements
-- All kanji must have furigana: `{漢字|かんじ}`
-- 2-3 example sentences minimum
-- Examples progress from simple to complex
-- Include at least one collocation or fixed phrase
-- Katakana loanwords use hiragana in reading field
-- **sense_numbers required**: All examples must have `sense_numbers` field populated
-  - Single-sense entries: use `[1]` for all examples
-  - Multi-sense entries: each example must specify which sense(s) it illustrates
-
-### Quality Standards
-See the `entry-guidelines` skill for comprehensive guidelines. Key points:
-- **Verbs**: Transitivity type, pair verb, aspect/ている behavior, collocations
-- **Particles**: Predicates requiring particle, contrast with similar particles
-- **Adjectives**: Forms (adverbial, noun), similar word distinctions
-- **All entries**: Consistent depth with similar entries
-
-### After Each Session
-Update the "Recent Changes" section in this file with:
-- Entries added/revised
-- Any issues encountered
-
-**Note**: Keep only the 5 most recent change entries. When adding a new entry, move the oldest one to [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).
