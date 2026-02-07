@@ -109,7 +109,29 @@ Find the first entry file that starts with that number.
 
 ## Looking Up Entry IDs
 
-### Common Words Reference
+### Word-ID Lookup Table
+
+A pre-built lookup table is available at `build/word_id_lookup.json`. Load it at the start of your session to resolve words to entry IDs without running per-word searches:
+
+```bash
+# Look up a word by reading
+python3 -c "
+import json
+with open('build/word_id_lookup.json') as f:
+    data = json.load(f)
+reading = 'きく'
+for e in data['by_reading'].get(reading, []):
+    print(f\"{e['id']}: {e['headword']} - {e['gloss']}\")
+"
+```
+
+The table has two indexes:
+- `by_reading` — maps hiragana readings to entries (use for most lookups)
+- `by_headword` — maps kanji/surface forms to entries (use when you know the written form)
+
+Each entry includes `id`, `headword`/`reading`, `gloss`, and `tier` for disambiguation.
+
+### Common Words Quick Reference
 
 **Particles:**
 - が: 00051_ga, は: 00079_ha, を: 00422_wo, に: 00314_ni
@@ -121,21 +143,6 @@ Find the first entry file that starts with that number.
 - する: 00392_suru, ある: 00006_aru, いる: 00495_iru
 - 行く: 00119_iku, 来る: 00254_kuru, 見る: 00283_miru
 - 食べる: 00396_taberu
-
-### Searching for Other Words
-
-```bash
-python3 -c "
-import json
-from pathlib import Path
-readings = ['reading1', 'reading2']
-for f in Path('entries').glob('**/*.json'):
-    with open(f) as fp:
-        e = json.load(fp)
-        if e['reading'] in readings:
-            print(f\"{e['id']}: {e['headword']} ({e['reading']}) - {e['gloss'][:50]}\")
-"
-```
 
 ## Using `noentry`
 

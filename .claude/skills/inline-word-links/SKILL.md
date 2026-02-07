@@ -343,11 +343,32 @@ These are frequently encountered words not in the categories above:
 | 00379_sokode | そこで | そこで | so, therefore |
 | 00382_soredemo | それでも | それでも | but still |
 
+## Word-ID Lookup Table
+
+A pre-built lookup table is available at `build/word_id_lookup.json` for fast word→ID resolution. It is regenerated automatically by `make index` (via `update_indexes.py`).
+
+The table has two indexes:
+- `by_reading` — maps hiragana readings to entries (primary lookup method)
+- `by_headword` — maps kanji/surface forms to entries
+
+Each match includes `id`, `headword`/`reading`, `gloss`, and `tier` for disambiguation. For homophones (e.g., きく → 聞く/効く), check the gloss to select the correct entry.
+
+```bash
+# Example: look up a word by reading
+python3 -c "
+import json
+with open('build/word_id_lookup.json') as f:
+    data = json.load(f)
+for e in data['by_reading'].get('きく', []):
+    print(f\"{e['id']}: {e['headword']} - {e['gloss']}\")
+"
+```
+
 ## Workflow for Adding Links
 
 1. **Read the sentence** - Understand the full meaning
 2. **Identify each word** - Note word boundaries carefully
-3. **Look up entry IDs** - Use reference table or search dictionary
+3. **Look up entry IDs** - Use lookup table or reference table below
 4. **Verify semantically** - Confirm each link matches intended meaning
 5. **Add markup** - Apply the link format carefully
 6. **Validate immediately** - Run validation to catch ID errors early:

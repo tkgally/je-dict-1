@@ -286,9 +286,9 @@
       "title": "Generate a word-ID lookup table",
       "category": "Workflow & Autonomy",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-07",
+      "notes": "Created build/generate_word_lookup.py producing build/word_id_lookup.json (3378 KB, 10303 entries, 9805 readings, 9289 headwords). Two indexes: by_reading and by_headword, with id/gloss/tier for disambiguation. Integrated into update_indexes.py (step 3) and Makefile (word-lookup target). Updated inline-word-links skill and batch prompt to reference the lookup table."
     },
     {
       "id": "02_workflow_prompt_10",

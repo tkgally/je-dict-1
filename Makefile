@@ -1,4 +1,4 @@
-.PHONY: validate index build quick check-furigana check-kanji stats report clean full
+.PHONY: validate index build quick check-furigana check-kanji stats report clean full word-lookup
 
 validate:
 	python3 build/validate.py
@@ -11,6 +11,9 @@ build: validate index
 
 quick: validate index
 	python3 build/build_flat.py --quick
+
+word-lookup:
+	python3 build/generate_word_lookup.py
 
 check-furigana:
 	python3 build/find_missing_furigana.py

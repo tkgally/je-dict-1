@@ -75,8 +75,27 @@ def main():
             print(f"   ERROR: manage_candidates.py sync failed with exit code {result.returncode}")
             has_errors = True
 
-    # 3. Check for new kanji
-    print("\n3. Checking for new kanji...")
+    # 3. Generate word-ID lookup table
+    print("\n3. Generating word-ID lookup table...")
+    word_lookup_script = project_root / 'build' / 'generate_word_lookup.py'
+    if not word_lookup_script.exists():
+        print(f"   WARNING: Script not found: {word_lookup_script}")
+    else:
+        result = subprocess.run(
+            [sys.executable, str(word_lookup_script)],
+            capture_output=True,
+            text=True,
+            cwd=str(project_root)
+        )
+        print(result.stdout)
+        if result.stderr:
+            print(result.stderr)
+        if result.returncode != 0:
+            print(f"   ERROR: generate_word_lookup.py failed with exit code {result.returncode}")
+            has_errors = True
+
+    # 4. Check for new kanji
+    print("\n4. Checking for new kanji...")
     update_kanji_script = project_root / 'build' / 'update_kanji_index.py'
     if not update_kanji_script.exists():
         print(f"   WARNING: Script not found: {update_kanji_script}")
