@@ -36,6 +36,8 @@ if kanji_list_path.exists():
     with open(kanji_list_path, 'r', encoding='utf-8') as f:
         kanji_data = json.load(f)
         KANJI_LIST = kanji_data.get('kanji', {})
+else:
+    print("Warning: kanji/kanji_list.json not found — kanji links will be disabled")
 
 
 def process_furigana(text: str, show_furigana: bool = True) -> str:
