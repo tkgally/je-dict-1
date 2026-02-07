@@ -35,12 +35,12 @@ To see a quick summary of progress, you can count statuses in progress.json:
 
 | Prefix | Category | Count | Source Report |
 |--------|----------|-------|---------------|
-| `01_code_prompt_*` | Code & Structure | 20 | Agent 1 |
+| `01_code_prompt_*` | Code & Structure | 23 | Agent 1 + Agent Team 5 |
 | `02_workflow_prompt_*` | Workflow & Autonomy | 12 | Agent 2 |
 | `03_learner_prompt_*` | Learner Experience | 10 | Agent 3 |
 | `04_lexicographic_prompt_*` | Lexicographic Quality | 10 | Agent 4 |
 
-**Total: 52 prompts**
+**Total: 55 prompts**
 
 ## Execution order
 
