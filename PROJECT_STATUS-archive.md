@@ -7,6 +7,27 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 218)
+Added 30 new dictionary entries from candidate_words.json, focusing on daily life, food, family, and practical vocabulary:
+
+- **Na-adjectives (2)**: うってつけ (ideal/perfect for), {虚|うつ}ろ (hollow/vacant)
+- **I-adjectives (2)**: {惜|お}しい (regrettable/close), {惜|お}しげもなく (without hesitation)
+- **Food (5)**: うに (sea urchin), オクラ (okra), お{浸|ひた}し (boiled greens), おむすび (rice ball), レトルト (retort pouch food)
+- **Family (3)**: おふくろ (mother informal), おやじ (father informal), {乙女|おとめ} (maiden)
+- **Daily Life Items (4)**: {上履|うわば}き (indoor shoes), ストロー (straw), ナプキン (napkin), カート (cart)
+- **Signs/Status (2)**: {点検中|てんけんちゅう} (under inspection), {清掃中|せいそうちゅう} (cleaning in progress)
+- **Business/Finance (4)**: {内税|うちぜい} (tax-inclusive), {外税|そとぜい} (tax-exclusive), {擦|す}り{合|あ}わせ (coordination), お{墨付|すみつ}き (seal of approval)
+- **Other (8)**: おい (hey), {折|おり} (occasion), お{好|この}み{焼|や}き (okonomiyaki), お{客|きゃく}さん (guest/customer), {思|おも}い (thought/feeling), {咳|せ}き{込|こ}む (coughing fit), {決|き}め{付|つ}け (jumping to conclusions), {赤面症|せきめんしょう} (tendency to blush)
+
+Notable entry features:
+- Multi-sense entries: {虚|うつ}ろ (hollow/vacant), {惜|お}しい (regrettable/close), ナプキン (table/sanitary), おやじ (father/shop owner), カート (shopping/go-kart)
+- Informal family terms: おふくろ, おやじ (commonly used by men)
+- Practical daily life vocabulary useful for living in Japan
+- Tax terminology pair: {内税|うちぜい}/{外税|そとぜい}
+
+Total entries: 10,216 → 10,246
+Remaining candidates: 170 → 141
+
 ### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 217)
 Added 30 new dictionary entries from candidate_words.json, focusing on common vocabulary, grammar, and daily life:
 
