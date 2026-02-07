@@ -10,6 +10,7 @@ Automated task queue for je-dict-1 dictionary maintenance. A pipeline config def
 | `validate-task.sh` | Post-task validation gates — task-specific checks |
 | `update-status.py` | Status tracking and report generation |
 | `update-brief.py` | Regenerates PROJECT_CONTEXT_BRIEF.md from current data |
+| `recommend-tasks.py` | Analyzes project state and recommends pipeline tasks |
 | `pipeline-config.schema.json` | JSON Schema defining the config format |
 | `pipeline-config.json` | Active pipeline configuration (edit this) |
 | `pipeline-config.example.json` | Sample configuration for reference |
@@ -201,6 +202,27 @@ python3 pipeline/update-status.py report --include-health
 # One-line summary
 python3 pipeline/update-status.py summary
 ```
+
+## Task recommendations (`recommend-tasks.py`)
+
+Analyzes the current project state (candidate count, inline link coverage, polishing backlogs) and suggests a pipeline configuration.
+
+```bash
+# Print recommendations with explanation
+python3 pipeline/recommend-tasks.py
+
+# Output only the JSON config
+python3 pipeline/recommend-tasks.py --json
+
+# Write directly to pipeline-config.json
+python3 pipeline/recommend-tasks.py --write
+```
+
+Decision logic:
+1. If `candidate_words.json` has < 100 candidates, recommend corpus harvesting
+2. If candidates >= 100, recommend entry creation sessions (count = candidates / 30, capped at 5)
+3. If more than 500 entries lack inline links, recommend inline-link sessions
+4. Recommend one polishing session for whichever task has the most entries remaining
 
 ## Brief regeneration (`update-brief.py`)
 
