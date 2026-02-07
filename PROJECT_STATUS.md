@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,363 |
+| Total entries | ~10,393 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,564 (open) |
-| Candidate words | ~159 |
+| General tier | ~7,594 (open) |
+| Candidate words | ~164 |
 | Cross-references | ~3,315 |
 | Example sentences | ~40,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 223)
+Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of verbs, adverbs, nouns, and adjectives:
+
+- **Verbs (12)**: {伴|ともな}う (to accompany), {育|はぐく}む (to nurture), {倣|ならう}う (to follow an example), {灯|とも}す (to light), {囚|とら}われる (to be captured/bound by), {出来上|できあ}がる (to be completed), なじる (to reproach), {綴|つづ}る (to spell/compose), {務|つと}まる (to be fit for), はぐらかす (to dodge), {留|とど}まる (to stay/remain), {留|とど}める (to keep/retain)
+- **Adverbs (8)**: とりわけ (especially), {遥々|はるばる} (from far away), {伸|の}び{伸|の}び (freely), とびきり (exceptionally), とっとと (quickly), {時折|ときおり} (occasionally), つべこべ (quibbling), たやすい
+- **Nouns (6)**: {海苔|のり} (nori), {温|ぬく}もり (warmth), どら{焼|や}き (dorayaki), とうもろこし (corn), {取|と}り{組|く}み (effort/initiative), {咄嗟|とっさ} (instant)
+- **Adverb/Adjective (3)**: {結構|けっこう} (quite/fine), {遥|はる}か (far/by far), {道理|どうり} (reason/no wonder)
+- **Adjective (1)**: {色|いろ}とりどり (colorful)
+
+Notable entry features:
+- Multi-sense entries: {結構|けっこう} (quite/fine/no thank you, 3 senses), {囚|とら}われる (captured/bound by, 2 senses), {綴|つづ}る (spell/compose, 2 senses), {留|とど}まる (stay/limited to, 2 senses), {留|とど}める (keep/limit, 2 senses), {道理|どうり} (reason/no wonder, 2 senses), {取|と}り{組|く}み (initiative/sumo bout, 2 senses)
+- Transitivity pair: {留|とど}まる/{留|とど}める
+- Cross-references: {遥|はる}か↔{遥々|はるばる}
+- Food vocabulary: {海苔|のり}, どら{焼|や}き, とうもろこし
+
+Total entries: 10,363 → 10,393
+Remaining candidates: 194 → 164
+New kanji: 2,250 → 2,256 ({倣|ほう}, {咄|とつ}, {嗟|さ}, {囚|しゅう}, {綴|てつ}, {遥|よう})
 
 ### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 222)
 Added 30 new dictionary entries from candidate_words.json, covering verbs, nouns, adjectives, adverbs, and food vocabulary:
@@ -132,27 +151,6 @@ Notable entry features:
 Total entries: 10,246 → 10,276
 Remaining candidates: 141 → 112
 New kanji: 2,242 → 2,245 ({怪|かい}, {訂|てい}, {謄|とう})
-
-### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 218)
-Added 30 new dictionary entries from candidate_words.json, focusing on daily life, food, family, and practical vocabulary:
-
-- **Na-adjectives (2)**: うってつけ (ideal/perfect for), {虚|うつ}ろ (hollow/vacant)
-- **I-adjectives (2)**: {惜|お}しい (regrettable/close), {惜|お}しげもなく (without hesitation)
-- **Food (5)**: うに (sea urchin), オクラ (okra), お{浸|ひた}し (boiled greens), おむすび (rice ball), レトルト (retort pouch food)
-- **Family (3)**: おふくろ (mother informal), おやじ (father informal), {乙女|おとめ} (maiden)
-- **Daily Life Items (4)**: {上履|うわば}き (indoor shoes), ストロー (straw), ナプキン (napkin), カート (cart)
-- **Signs/Status (2)**: {点検中|てんけんちゅう} (under inspection), {清掃中|せいそうちゅう} (cleaning in progress)
-- **Business/Finance (4)**: {内税|うちぜい} (tax-inclusive), {外税|そとぜい} (tax-exclusive), {擦|す}り{合|あ}わせ (coordination), お{墨付|すみつ}き (seal of approval)
-- **Other (8)**: おい (hey), {折|おり} (occasion), お{好|この}み{焼|や}き (okonomiyaki), お{客|きゃく}さん (guest/customer), {思|おも}い (thought/feeling), {咳|せ}き{込|こ}む (coughing fit), {決|き}め{付|つ}け (jumping to conclusions), {赤面症|せきめんしょう} (tendency to blush)
-
-Notable entry features:
-- Multi-sense entries: {虚|うつ}ろ (hollow/vacant), {惜|お}しい (regrettable/close), ナプキン (table/sanitary), おやじ (father/shop owner), カート (shopping/go-kart)
-- Informal family terms: おふくろ, おやじ (commonly used by men)
-- Practical daily life vocabulary useful for living in Japan
-- Tax terminology pair: {内税|うちぜい}/{外税|そとぜい}
-
-Total entries: 10,216 → 10,246
-Remaining candidates: 170 → 141
 
 ---
 
