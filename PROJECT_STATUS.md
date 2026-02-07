@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,306 |
+| Total entries | ~10,333 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,507 (open) |
+| General tier | ~7,534 (open) |
 | Candidate words | ~153 |
-| Cross-references | ~3,313 |
-| Example sentences | ~40,185 |
+| Cross-references | ~3,314 |
+| Example sentences | ~40,300 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 221)
+Added 30 new dictionary entries from candidate_words.json, covering general vocabulary across multiple parts of speech:
+
+- **Nouns (8)**: お{調子者|ちょうしもの} (show-off), {胡麻|ごま} (sesame), さつまいも (sweet potato), {最中|さなか} (in the midst of), {躾|しつけ} (discipline), さえずり (birdsong), {仕業|しわざ} (act/deed), この{世|よ} (this world)
+- **Verbs (9)**: ぐずる (to whine), くっつける (to attach), {込|こ}み{上|あ}げる (to well up), {象|かたど}る (to model after), {組|く}み{上|あ}げる (to assemble), くるむ (to wrap), {授|さず}ける (to grant), しかめる (to frown), しがみつく (to cling to), すくむ (to freeze with fear)
+- **Adverbs (10)**: きょうび (nowadays), くまなく (thoroughly), こないだ (the other day), ごっそり (entirely), さぞかし (surely), しっくり (to fit well), しょっちゅう (constantly), せめて (at least), ぐいっと (with a jerk)
+- **Na-adjective (1)**: しなやか (supple/graceful)
+- **Expression (1)**: かけがえのない (irreplaceable)
+- **Ichidan verb (1)**: {染|し}みる (to soak in/sting/move deeply)
+
+Notable entry features:
+- Multi-sense entries: くっつける (attach/bring close), {込|こ}み{上|あ}げる (emotions/nausea), ぐいっと (jerk/gulp), {授|さず}ける (bestow/teach), しなやか (supple/graceful), {染|し}みる (soak/sting/move)
+- Transitivity pairs noted: くっつける/くっつく, くるむ/くるまる, すくむ/すくめる, {授|さず}ける/{授|さず}かる
+- Food vocabulary: {胡麻|ごま}, さつまいも
+- Physical/emotional vocabulary: すくむ, しがみつく, {込|こ}み{上|あ}げる, しかめる
+
+Total entries: 10,303 → 10,333
+Remaining candidates: 183 → 153
 
 ### 2026-02-06 (Vocabulary Expansion - 30 New Entries, Session 220)
 Added 30 new dictionary entries from candidate_words.json, covering a wide variety of useful general vocabulary:
@@ -135,33 +154,6 @@ Notable entry features:
 Total entries: 10,041 → 10,071
 Remaining candidates: 200 → 170
 New kanji: 2,239 → 2,242
-
-### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 216)
-Added 30 new dictionary entries from candidate_words.json, focusing on technology, daily life, business, travel, and literary vocabulary:
-
-- **Technology (3)**: {外部機器|がいぶきき} (external device), {入力装置|にゅうりょくそうち} (input device), {出力装置|しゅつりょくそうち} (output device)
-- **Academic (2)**: {論文発表|ろんぶんはっぴょう} (paper presentation), {学位|がくい} (academic degree)
-- **Food/Culture (2)**: {鉄板焼|てっぱんや}き (teppanyaki), お{品書|しなが}き (menu)
-- **Urban/Transportation (5)**: {立体駐車場|りったいちゅうしゃじょう} (multi-story parking), {山手|やまのて} (uptown area), {通勤時間|つうきんじかん} (commute time), {網棚|あみだな} (luggage rack), {精算機|せいさんき} (fare adjustment machine)
-- **Weather (2)**: {真夏日|まなつび} (hot summer day), {熱帯夜|ねったいや} (tropical night)
-- **Daily Life/Items (3)**: {乾電池|かんでんち} (battery), {両替機|りょうがえき} (change machine), {新発売|しんはつばい} (new release)
-- **Community (2)**: {回覧板|かいらんばん} (neighborhood circular), {町内会|ちょうないかい} (neighborhood association)
-- **Business/Finance (4)**: {年末調整|ねんまつちょうせい} (year-end tax adjustment), {立替|たてか}え (advance payment), {年度末|ねんどまつ} (end of fiscal year), {減給|げんきゅう} (salary cut)
-- **Literary/Time (2)**: {薄暮|はくぼ} (dusk), {黎明|れいめい} (dawn)
-- **Personality/Ability (2)**: {持|も}ち{味|あじ} (distinctive quality), {得手|えて} (forte)
-- **Travel (2)**: {預|あず}け{荷物|にもつ} (checked baggage), {機内持|きないも}ち{込|こ}み (carry-on)
-- **Verbs (1)**: {蹴落|けお}とす (to kick down/defeat rivals)
-
-Notable entry features:
-- Multi-sense entries: {黎明|れいめい} (dawn/beginning of era)
-- Practical daily life vocabulary for living in Japan
-- Weather and seasonal terms used in forecasts
-- Business and tax terminology
-- 2 new kanji added to kanji index: {穂|sui}, {黎|rei}
-
-Total entries: 10,011 → 10,041
-Remaining candidates: 177 → 148
-New kanji: 2,237 → 2,239
 
 ---
 
