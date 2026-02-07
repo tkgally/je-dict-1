@@ -64,7 +64,7 @@ def generate_nav_header(relative_path: str = '', show_all_links: bool = True) ->
     base = relative_path if relative_path else ''
 
     # Home icon SVG (replaces "Home" text)
-    home_icon = '''<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='2em' height='2em' style='vertical-align:-0.15em;margin-right:0.25em;'><circle cx='50' cy='50' r='50' fill='#FFEA00'/><circle cx='50' cy='50' r='30' fill='#FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>'''
+    home_icon = '''<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='2em' height='2em' style='vertical-align:middle;margin-right:0.25em;'><circle cx='50' cy='50' r='50' fill='#FFEA00'/><circle cx='50' cy='50' r='30' fill='#FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>'''
 
     # Build navigation links based on show_all_links parameter
     if show_all_links:
