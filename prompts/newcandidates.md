@@ -4,9 +4,8 @@ Add new candidates to candidate_words.json using the find-candidates skill.
 
 ## Quick Context
 
-- The dictionary currently has ~9,000 entries
+- The dictionary has ~10,300 entries (check PROJECT_CONTEXT_BRIEF.md for current counts)
 - Check candidate count: `head -10 candidate_words.json` (shows total_candidates)
-- The candidate list may be empty or small as we are rebuilding it from scratch
 
 ## Workflow
 

@@ -46,22 +46,16 @@ Find the first entry file that starts with that number.
 
 4. **After every ~20 entries** (or when you make changes):
    - Update `polishing/tasks/example-sentences/progress.txt`
-   - Run validation:
+   - Validate and build:
      ```bash
-     python3 build/validate.py
-     python3 build/update_indexes.py
-     python3 build/build_flat.py
+     make build
      ```
    - Commit changes:
      ```bash
      git add -A && git commit -m "Example sentences: check entries XXXXX-XXXXX"
      ```
 
-5. **Check remaining context** using `/context`:
-   - **30% or more**: Continue to next batch
-   - **Less than 30%**: Perform context reset (step 6)
-
-6. **Context Reset Procedure**:
+5. **When finishing** (end of session or context getting long):
    a. Update `polishing/tasks/example-sentences/progress.txt`
    b. Write session log to `polishing/sessions/example-sentences_{date}_{nnn}.md`:
       ```
@@ -76,8 +70,6 @@ Find the first entry file that starts with that number.
       XXXXX
       ```
    c. Commit all changes
-   d. Use `/compact` to reset context
-   e. Re-read this prompt and continue from step 1
 
 ## Requirements Summary
 

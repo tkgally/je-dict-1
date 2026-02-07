@@ -85,26 +85,16 @@ This means:
 
 6. **After every 4-6 entries** (smaller batches work better for context management):
    - Update `polishing/tasks/inline-links/progress.txt`
-   - Run validation to catch ID errors:
+   - Validate and build:
      ```bash
-     python3 build/validate.py 2>&1 | grep -A5 "Word link"
+     make build
      ```
-   - If validation passes, run build:
+   - Commit changes:
      ```bash
-     python3 build/update_indexes.py
-     python3 build/build_flat.py
-     ```
-   - Commit entry changes separately from build artifacts:
-     ```bash
-     git add entries/ polishing/ && git commit -m "Inline links: add links to entries XXXXX-XXXXX"
-     git add -A && git commit -m "Update build artifacts"
+     git add -A && git commit -m "Inline links: add links to entries XXXXX-XXXXX"
      ```
 
-7. **Check remaining context** using `/context`:
-   - **30% or more**: Continue to next batch
-   - **Less than 30%**: Perform context reset (step 8)
-
-8. **Context Reset Procedure**:
+7. **When finishing** (end of session or context getting long):
    a. Update `polishing/tasks/inline-links/progress.txt`
    b. Write session log to `polishing/sessions/inline-links_{date}_{nnn}.md`:
       ```
@@ -126,8 +116,6 @@ This means:
       XXXXX
       ```
    c. Commit all changes
-   d. Use `/compact` to reset context
-   e. Re-read this prompt and continue from step 1
 
 ## Looking Up Entry IDs
 
@@ -159,35 +147,20 @@ Use the reference table in the skill file. Key entries:
 - 食べる: 00396_taberu
 
 ### For Other Words
-Search the dictionary by reading:
+Use the pre-built word lookup table at `build/word_id_lookup.json`:
 ```bash
 python3 -c "
 import json
-from pathlib import Path
-for f in Path('entries').glob('**/*.json'):
-    with open(f) as fp:
-        e = json.load(fp)
-        if e['reading'] == 'TARGET_READING':
-            print(f\"{e['id']}: {e['headword']} - {e['gloss'][:50]}\")
+with open('build/word_id_lookup.json') as f:
+    lookup = json.load(f)
+reading = 'TARGET_READING'
+matches = lookup['by_reading'].get(reading, [])
+for m in matches:
+    print(f\"{m['id']}: {m.get('gloss', '')[:50]}\")
 "
 ```
 
-Replace `TARGET_READING` with the hiragana reading.
-
-### Batch Lookup (Multiple Words)
-For efficiency, look up multiple words at once:
-```bash
-python3 -c "
-import json
-from pathlib import Path
-readings = ['reading1', 'reading2', 'reading3']  # Add all readings you need
-for f in Path('entries').glob('**/*.json'):
-    with open(f) as fp:
-        e = json.load(fp)
-        if e['reading'] in readings:
-            print(f\"{e['id']}: {e['headword']} ({e['reading']}) - {e['gloss'][:50]}\")
-"
-```
+Replace `TARGET_READING` with the hiragana reading. For headword lookups, use `lookup['by_headword']` instead.
 
 ## Example Transformation
 

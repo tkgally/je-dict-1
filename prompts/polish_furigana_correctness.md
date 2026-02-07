@@ -41,22 +41,16 @@ Find the first entry file that starts with that number.
 
 4. **After every ~50 entries** (or when you make changes):
    - Update `polishing/tasks/furigana-correctness/progress.txt` with the next entry number
-   - Run validation:
+   - Validate and build:
      ```bash
-     python3 build/validate.py
-     python3 build/update_indexes.py
-     python3 build/build_flat.py
+     make build
      ```
    - Commit changes:
      ```bash
      git add -A && git commit -m "Furigana correctness: check entries XXXXX-XXXXX"
      ```
 
-5. **Check remaining context** using `/context`:
-   - **30% or more**: Continue to next batch
-   - **Less than 30%**: Perform context reset (step 6)
-
-6. **Context Reset Procedure**:
+5. **When finishing** (end of session or context getting long):
    a. Update `polishing/tasks/furigana-correctness/progress.txt`
    b. Write session log to `polishing/sessions/furigana-correctness_{date}_{nnn}.md`:
       ```
@@ -71,7 +65,6 @@ Find the first entry file that starts with that number.
       XXXXX
       ```
    c. Commit all changes
-   d. Use `/compact` to reset context
    e. Re-read this prompt and continue from step 1
 
 ## What to Verify
