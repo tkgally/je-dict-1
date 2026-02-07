@@ -78,7 +78,11 @@ GITHUB_PAGES_CNAME = "www.tkgje.jp"
 def generate_stylesheet() -> str:
     """Generate the shared CSS stylesheet for the flat site."""
     css_path = Path(__file__).parent / 'templates' / 'styles.css'
-    return css_path.read_text(encoding='utf-8')
+    try:
+        return css_path.read_text(encoding='utf-8')
+    except FileNotFoundError:
+        print(f"Error: Template file not found: {css_path}")
+        sys.exit(1)
 
 
 def load_entry(file_path: Path) -> dict:

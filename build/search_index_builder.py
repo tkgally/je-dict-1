@@ -7,6 +7,7 @@ to entry IDs) and loads the client-side search JavaScript files from templates.
 
 import json
 import html
+import sys
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -119,10 +120,18 @@ window.SEARCH_ENTRIES = {json.dumps(entries_data, ensure_ascii=False)};
 def generate_search_js() -> str:
     """Generate the search.js JavaScript file."""
     js_path = Path(__file__).parent / 'templates' / 'search.js'
-    return js_path.read_text(encoding='utf-8')
+    try:
+        return js_path.read_text(encoding='utf-8')
+    except FileNotFoundError:
+        print(f"Error: Template file not found: {js_path}")
+        sys.exit(1)
 
 
 def generate_tag_search_js() -> str:
     """Generate the tag-search.js JavaScript file for tag-based filtering."""
     js_path = Path(__file__).parent / 'templates' / 'tag-search.js'
-    return js_path.read_text(encoding='utf-8')
+    try:
+        return js_path.read_text(encoding='utf-8')
+    except FileNotFoundError:
+        print(f"Error: Template file not found: {js_path}")
+        sys.exit(1)
