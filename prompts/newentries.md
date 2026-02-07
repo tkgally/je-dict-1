@@ -45,6 +45,7 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
 - **NEVER add inline word links (⟦...⟧)** - Inline links are added in a separate polishing step using `prompts/polish_add_inline_links.md`. Do NOT add links when creating entries.
 - **NEVER create an entry without first running `check_duplicate.py`** - this is the #1 cause of duplicates
 - Each entry must be written individually (no automation scripts)
+- **All explanations must be in English** - Definitions, notes, etymology, usage explanations, and cultural context must be in English. Japanese text appears only in example phrases, collocations, and patterns — never as explanatory prose. This is a bilingual dictionary for English-speaking learners.
 - **ALL kanji require furigana in ALL fields**: headword, examples, AND notes
   - Format: `{漢字|かんじ}`
   - This includes idioms, collocations, and kanji orthography notes
