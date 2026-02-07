@@ -1,6 +1,6 @@
 # TKG Japanese-English Learner's Dictionary
 
-This is the repository for a Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude Opus 4.5 in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
+This is the repository for a Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
 
 This dictionary is licensed under Creative Commons Zero v1.0 Universal, and anyone is free to copy the data and code for whatever purpose they like, including commercial uses.
 
@@ -29,12 +29,15 @@ Audio readings for example sentences will be added in the future.
 
 ## Current Status
 
-- **Over 10,000 entries** with a target of about 10,000 entries
-- **Vocabulary tiers assigned**: Basic (801), Core (1,998), General (7,297) - all new entries are added to general tier
-- **Over 3,000 cross-references** linking related entries
+- **Over 10,300 entries** across three vocabulary tiers
+- **Vocabulary tiers**: Basic (801), Core (1,998), General (7,504+) — all new entries are added to general tier
+- **Over 3,300 cross-references** linking related entries
+- **~40,000 example sentences** with inline word links
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
+- **Automated pipeline** for batch dictionary maintenance tasks
 - **Robust build system** with atomic builds, XSS protection, and comprehensive validation
+- **CI/CD** with GitHub Actions for validation and automated pipeline runs
 
 **Live site**: https://www.tkgje.jp/
 
@@ -220,26 +223,33 @@ je-dict-1/
 │   ├── validate.py       # Entry validation (schema, cross-refs)
 │   ├── validate_tags.py  # Tag taxonomy validation
 │   ├── build_flat.py     # Static HTML site generator (atomic builds)
-│   ├── resolve_links.py  # Cross-reference resolution
+│   ├── entry_renderer.py # Entry page HTML generation
+│   ├── page_generators.py      # Navigation page generation
+│   ├── search_index_builder.py # Search index and JS generation
+│   ├── report.py         # Dictionary health dashboard
+│   ├── generate_word_lookup.py # Builds word_id_lookup.json
 │   ├── path_utils.py     # Shared path/prefix utilities
 │   ├── japanese_utils.py # Hiragana/romaji/furigana utilities
 │   ├── constants.py      # Centralized cross-reference type definitions
-│   ├── update_entries_index.py   # Updates entries_index.json
-│   ├── manage_candidates.py      # Manages candidate_words.json
-│   ├── update_indexes.py         # Updates both index files
-│   ├── get_entry_path.py         # Computes correct path for new entries
-│   ├── get_timestamp.py          # Generates UTC timestamp for metadata
-│   ├── check_duplicate.py        # Checks for duplicate entries
-│   ├── verify_furigana.py        # Verifies furigana coverage
-│   ├── harden_references.py      # Adds target_id to resolvable cross-refs
-│   ├── extract_references.py     # Extracts cross-refs from notes
-│   ├── tag_taxonomy.json         # Tag hierarchy definitions
-│   ├── tag_statistics.py         # Tag usage statistics
-│   ├── build_kanji_json.py       # Builds kanji entry list JSON files
-│   ├── build_kanji_html.py       # Builds kanji index HTML pages
-│   ├── update_kanji_index.py     # Updates kanji index for new entries
-│   ├── verify_kanji_index.py     # Verifies kanji index integrity
+│   ├── update_indexes.py # Updates entries_index.json and candidate list
+│   ├── manage_candidates.py    # Manages candidate_words.json
+│   ├── get_entry_path.py       # Computes correct path for new entries
+│   ├── get_timestamp.py        # Generates UTC timestamp for metadata
+│   ├── check_duplicate.py      # Checks for duplicate entries
+│   ├── verify_furigana.py      # Verifies furigana coverage
+│   ├── templates/        # CSS and JS templates (styles.css, search.js, etc.)
+│   ├── tests/            # Unit tests (pytest)
+│   ├── archive/          # One-time migration scripts (no longer used)
 │   └── requirements.txt  # Python 3.10+ dependencies
+├── pipeline/             # Automated task pipeline
+│   ├── run-pipeline.sh   # Task runner (reads config, invokes claude, validates)
+│   ├── validate-task.sh  # Task-specific validation gates
+│   ├── update-status.py  # Pipeline status tracking and reporting
+│   ├── update-brief.py   # Regenerates PROJECT_CONTEXT_BRIEF.md
+│   ├── recommend-tasks.py      # Task scheduler recommendations
+│   └── pipeline-config.json    # Active pipeline configuration
+├── polishing/            # Progress tracking for polishing tasks
+├── prompts/              # Task prompts (interactive and batch/)
 ├── docs/                 # Generated output (served as static site)
 │   ├── entries/          # Individual entry HTML files
 │   │   ├── 00000/        # (same numeric range structure as entries/)
@@ -248,10 +258,12 @@ je-dict-1/
 ├── .claude/              # Claude Code configuration
 │   ├── skills/           # Agent skills for entry guidelines (auto-loaded)
 │   └── settings.json
+├── .github/workflows/    # GitHub Actions (validate.yml, pipeline.yml)
+├── Makefile              # Build runner (make validate, make build, etc.)
 ├── entries_index.json    # Index of all dictionary entries
 ├── candidate_words.json  # Words to potentially add in future
-├── project_specification_v2.md  # Quality standards from LLM evaluation
-└── PROJECT_STATUS.md     # Session continuity file
+├── PROJECT_CONTEXT_BRIEF.md  # Quick-reference counts for session start
+└── PROJECT_STATUS.md     # Session continuity and recent change log
 ```
 
 ### Entry Schema
@@ -352,28 +364,34 @@ The directory name is determined by rounding down to the nearest 500:
 - [x] Notes formatting with bullet points
 
 ### Phase 4: Vocabulary Expansion & Interface ✓ COMPLETE
-- [x] Added ~7,000 additional vocabulary entries (7,719 total)
+- [x] Added ~7,500+ vocabulary entries (10,300+ total)
 - [x] Multiple interface modes (Search, Browse, Recent, Random)
 - [x] Sticky header with interface toggle and furigana button
 - [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
-- [x] Cross-reference linking system (3,195 references)
+- [x] Cross-reference linking system (3,300+ references)
+- [x] Inline word links in example sentences
 - [x] Static HTML site generation (flat HTML only)
 - [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
-- [x] Code quality improvements (shared utilities, deterministic builds)
-- [x] Three-tier vocabulary system (basic 801, core 1,998, general 7,297)
-- [x] Vocabulary tier realignment complete - all entries assigned
+- [x] Three-tier vocabulary system (basic 801, core 1,998, general 7,504+)
+- [x] Vocabulary tier realignment complete — all entries assigned
 - [x] Tier-based filtering in Browse mode
 
-### Phase 5: Continued Expansion (Current)
-- [ ] Continue adding vocabulary toward 10,000 entries
+### Phase 5: Code Refactoring & Automation ✓ COMPLETE
+- [x] Extracted CSS/JS from build_flat.py to standalone templates
+- [x] Split build_flat.py into entry_renderer.py, page_generators.py, search_index_builder.py
+- [x] Unit tests for japanese_utils.py and path_utils.py
+- [x] Makefile with validate, build, quick, report targets
+- [x] Dictionary health dashboard (build/report.py)
+- [x] GitHub Actions CI for validation on push/PR
+- [x] Automated pipeline system (pipeline/run-pipeline.sh)
+- [x] GitHub Actions pipeline workflow for browser-triggered runs
+
+### Phase 6: Continued Expansion & Polish (Current)
+- [ ] Continue adding vocabulary
 - [ ] Add audio readings for example sentences
 - [ ] Conjugation search indexing
-
-### Phase 6: Polish and Distribution
 - [ ] Offline package generation
-- [ ] PWA features
 - [ ] Export to Anki format
-- [ ] Community feedback mechanism
 
 ## For AI Assistants
 
@@ -404,12 +422,13 @@ Skills are automatically loaded when Claude determines they're relevant to the c
 
 ### Workflow for Creating/Editing Entries
 
-1. **Read PROJECT_STATUS.md** to understand current state
+1. **Read PROJECT_CONTEXT_BRIEF.md** for current counts and rules
 2. **Claude will automatically load relevant skills** based on the entry type being created/revised
 3. **Follow the guidelines** from the loaded skills
-4. **Validate entries** after creation: `python3 build/validate.py`
+4. **Validate entries** after creation: `make validate`
 5. **Place files correctly** based on the numeric ID range
-6. **Update PROJECT_STATUS.md** at the end of each session
+6. **Build the site**: `make build` (or `make quick` for incremental)
+7. **Update PROJECT_STATUS.md** at the end of each session
 
 ### Key Quality Standards (v2)
 

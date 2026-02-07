@@ -104,46 +104,37 @@ This shows the next entry to process (entries are sorted by notes length, shorte
 7. **Update tracking file**: Change status from `pending` to `completed`
 
 8. **After every 10-15 entries**:
-   - Run validation:
+   - Run validation and build:
      ```bash
-     python3 build/validate.py
-     python3 build/find_missing_furigana.py | head -30
-     python3 build/update_indexes.py
-     python3 build/build_flat.py
+     make build
      ```
    - Commit changes:
      ```bash
      git add -A && git commit -m "Expand short notes: XXXXX-XXXXX"
      ```
 
-9. **Check remaining context** using `/context`:
-   - **30% or more**: Continue to next batch
-   - **Less than 30%**: Perform context reset (step 10)
+9. **When finishing** (end of session or context getting long):
+   a. Update tracking file with current progress
+   b. Write session log to `polishing/sessions/expand-short-notes_{date}_{nnn}.md`:
+      ```
+      ## Session: Expand Short Notes
+      Date: YYYY-MM-DD
+      Entries processed: XXXXX-XXXXX
 
-10. **Context Reset Procedure**:
-    a. Update tracking file with current progress
-    b. Write session log to `prompts/sessions/expand-short-notes_{date}_{nnn}.md`:
-       ```
-       ## Session: Expand Short Notes
-       Date: YYYY-MM-DD
-       Entries processed: XXXXX-XXXXX
+      ### Entries Expanded
+      - [entry_id]: [headword] - [brief note about what was added]
 
-       ### Entries Expanded
-       - [entry_id]: [headword] - [brief note about what was added]
+      ### Entries Skipped (if any)
+      - [entry_id]: [reason]
 
-       ### Entries Skipped (if any)
-       - [entry_id]: [reason]
+      ### Statistics
+      - Entries completed this session: N
+      - Total remaining: N
 
-       ### Statistics
-       - Entries completed this session: N
-       - Total remaining: N
-
-       ### Next Entry
-       XXXXX
-       ```
-    c. Commit all changes
-    d. Use `/compact` to reset context
-    e. Re-read this prompt and continue from step 1
+      ### Next Entry
+      XXXXX
+      ```
+   c. Commit all changes
 
 ## What Good Expanded Notes Look Like
 
@@ -231,16 +222,9 @@ pending | 01529_oobaa | オーバー | 26 | general | noun
 completed | 01529_oobaa | オーバー | 26 | general | noun
 ```
 
-## Session Directories
-
-Ensure this directory exists before writing session logs:
-```bash
-mkdir -p prompts/sessions
-```
-
 ## Output at Session End
 
-When stopping (user request or context reset), report:
+When stopping, report:
 1. Entry range processed
 2. Number of entries expanded
 3. Number of entries skipped (with reasons)

@@ -6,35 +6,26 @@ Review candidate_words.json by evaluating each entry one at a time to determine 
 
 The file `candidate_words.json` contains a list of candidate words that may be added to the dictionary in the future. Some entries are legitimate dictionary words, while others are problematic (verb stems, incomplete compounds, extraction artifacts, etc.). Your task is to evaluate each entry using your knowledge of Japanese to determine its suitability.
 
-## Evaluation Process
+## Workflow
 
-### Step 1: Load and Track Progress
+### Step 1: Read Candidates
 
-First, check the current state of your progress file:
+Read the candidate list and start from the beginning (or continue from where you left off, if the user specifies):
 
 ```bash
-cat cleanup_progress.json 2>/dev/null || echo '{"last_evaluated_index": 0, "removed": [], "kept": [], "uncertain": []}'
-```
-
-If starting fresh, create the progress file:
-
-```python
+python3 -c "
 import json
-
-progress = {
-    "last_evaluated_index": 0,
-    "removed": [],
-    "kept": [],
-    "uncertain": []
-}
-
-with open('cleanup_progress.json', 'w') as f:
-    json.dump(progress, f, indent=2)
+with open('candidate_words.json') as f:
+    d = json.load(f)
+print(f'Total candidates: {d[\"metadata\"][\"total_candidates\"]}')
+for c in d['candidates'][:20]:
+    print(f'  {c[\"id\"]}: {c[\"word\"]} ({c[\"reading\"]}) — {c.get(\"notes\", \"\")[:50]}')
+"
 ```
 
-### Step 2: Entry-by-Entry Evaluation
+### Step 2: Evaluate Each Entry
 
-Go through the candidates array starting from where you left off. For each entry, evaluate:
+For each candidate, evaluate:
 
 1. **Is this a complete, standalone Japanese word?**
    - Can it appear independently in a sentence?
@@ -52,13 +43,16 @@ Go through the candidates array starting from where you left off. For each entry
    - Is it a word learners would look up?
    - Does it have meaningful content to define?
 
-### Step 3: Categorize Each Entry
+### Step 3: Categorize and Act
 
 For each entry, decide:
 
-- **KEEP**: Valid dictionary word with correct reading
-- **REMOVE**: Problematic entry (stem, fragment, error, duplicate concept)
-- **UNCERTAIN**: Needs human review
+- **KEEP**: Valid dictionary word with correct reading — leave it in the list
+- **REMOVE**: Problematic entry — remove using `manage_candidates.py`:
+  ```bash
+  python3 build/manage_candidates.py remove "word" "reading"
+  ```
+- **UNCERTAIN**: Note it for human review at the end
 
 ### Examples of Evaluation Reasoning
 
@@ -66,7 +60,7 @@ For each entry, decide:
 - Evaluation: This is the negative prefix un-/non-. It's a productive prefix that learners need to understand.
 - Decision: KEEP
 
-**Example 2: 伝 (つた)** (if present)
+**Example 2: 伝 (つた)**
 - Evaluation: This is the verb stem of 伝える (つたえる) or 伝わる (つたわる). It cannot stand alone as a word.
 - Decision: REMOVE
 
@@ -74,121 +68,31 @@ For each entry, decide:
 - Evaluation: Complete noun meaning "souvenir." Standard dictionary word.
 - Decision: KEEP
 
-**Example 4: お互 (おたが)** (if present)
+**Example 4: お互 (おたが)**
 - Evaluation: Incomplete form of お互い (おたがい). The い is missing.
 - Decision: REMOVE
-
-### Step 4: Process Entries
-
-For each entry you evaluate, record your decision in the progress file. Continue evaluating entries one by one until your remaining context falls below 20%.
-
-Use this structure to track decisions:
-
-```python
-import json
-
-# Load current state
-with open('candidate_words.json', 'r') as f:
-    data = json.load(f)
-
-with open('cleanup_progress.json', 'r') as f:
-    progress = json.load(f)
-
-# Get next entry to evaluate
-idx = progress['last_evaluated_index']
-entry = data['candidates'][idx]
-
-print(f"Entry {idx}: {entry['word']} ({entry['reading']})")
-print(f"Notes: {entry.get('notes', 'none')}")
-print(f"ID: {entry['id']}")
-```
-
-After evaluating, update progress:
-
-```python
-# After deciding on an entry
-progress['last_evaluated_index'] = idx + 1
-
-# Record decision (use appropriate list)
-progress['kept'].append(entry['id'])  # or 'removed' or 'uncertain'
-
-with open('cleanup_progress.json', 'w') as f:
-    json.dump(progress, f, indent=2)
-```
-
-### Step 5: Apply Removals
-
-When ready to apply changes, remove entries marked for removal:
-
-```python
-import json
-from datetime import datetime, timezone
-
-with open('candidate_words.json', 'r') as f:
-    data = json.load(f)
-
-with open('cleanup_progress.json', 'r') as f:
-    progress = json.load(f)
-
-# Get IDs to remove
-remove_ids = set(progress['removed'])
-
-# Filter candidates
-original_count = len(data['candidates'])
-data['candidates'] = [c for c in data['candidates'] if c['id'] not in remove_ids]
-new_count = len(data['candidates'])
-
-# Update metadata
-data['metadata']['total_candidates'] = new_count
-data['metadata']['last_updated'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-
-# Save
-with open('candidate_words.json', 'w') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
-
-print(f"Removed {original_count - new_count} entries")
-print(f"New total: {new_count} candidates")
-```
-
-### Step 6: Validate JSON
-
-After editing, verify the file is valid:
-
-```bash
-python3 -c "import json; json.load(open('candidate_words.json'))" && echo "Valid JSON"
-```
 
 ## Decision Guidelines
 
 When evaluating each entry, ask yourself:
 
 1. **Standalone test**: Can this word appear alone in a Japanese sentence with this reading?
-
 2. **Dictionary test**: Would you expect to find this as a headword in a published Japanese-English dictionary?
-
 3. **Completeness test**: Is the word complete? (Not a verb stem missing okurigana, not a compound missing its ending)
-
 4. **Reading validity test**: Is this a real, standard reading for this word?
-
 5. **Usefulness test**: Would a Japanese learner benefit from having this entry?
 
 ## When to Stop
 
-Continue evaluating entries one by one until:
-- Your remaining context drops below 20%, OR
-- You complete all entries
-
-Before stopping, always:
-1. Save your progress to cleanup_progress.json
-2. Report how many entries you evaluated in this session
-3. Report your decisions (how many kept, removed, uncertain)
+Process all candidates, or stop when the user requests. Before stopping, always:
+1. Report how many entries you evaluated
+2. Report your decisions (how many kept, removed, uncertain)
+3. List uncertain entries for human review
 
 ## Reporting
 
-At the end of each session, report:
-1. Starting index and ending index for this session
-2. Number of entries evaluated
-3. Breakdown: kept / removed / uncertain
-4. List of entries marked for removal with brief reasons
-5. List of uncertain entries for human review
-6. Next steps (continue from index X, or apply removals if done)
+At the end, report:
+1. Number of entries evaluated
+2. Breakdown: kept / removed / uncertain
+3. List of entries removed with brief reasons
+4. List of uncertain entries for human review
