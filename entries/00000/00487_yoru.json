@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00487_yoru_ex1",
-      "japanese": "{夜|よる}、{何|なに}をしますか？",
+      "japanese": "{夜|よる}、⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧？",
       "english": "What do you do at night?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00487_yoru_ex2",
-      "japanese": "{毎晩|まいばん}{夜|よる}10{時|じ}に{寝|ね}ます。",
+      "japanese": "⟦{毎晩|まいばん}→毎晩：00967_maiban⟧{夜|よる}⟦10{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧⟦{寝|ね}ます→寝る：00470_neru⟧。",
       "english": "I go to bed at 10 o'clock every night.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00487_yoru_ex3",
-      "japanese": "{昨日|きのう}の{夜|よる}は{忙|いそが}しかったです。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦の→の：09472_no⟧{夜|よる}⟦は→は：00079_ha⟧⟦{忙|いそが}しかった→忙しい：00591_isogashii⟧⟦です→です：09485_desu⟧。",
       "english": "Last night was busy.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{夜|よる} is the primary word for night, covering the period from sunset to dawn.\n\nTIME OF DAY SEQUENCE:\n- {朝|あさ}: morning\n- {昼|ひる}: daytime/noon\n- {夕方|ゆうがた}: evening\n- {夜|よる}: night\n\nCOMMON EXPRESSIONS:\n- {夜|よる}ごはん/{晩|ばん}ごはん: dinner\n- {今夜|こんや}: tonight\n- {昨夜|さくや}/{ゆうべ}: last night\n- {毎晩|まいばん}: every night\n- {夜中|よなか}: midnight, middle of the night\n- {夜遅|よるおそ}く: late at night\n\nCOMPOUNDS:\n- {夜行|やこう}バス: overnight bus\n- {夜景|やけい}: night view\n- {夜勤|やきん}: night shift\n\nCONTRAST WITH {晩|ばん}:\n{夜|よる} refers to night generally; {晩|ばん} often refers specifically to evening/dinnertime.",
+  "notes": "{夜|よる} is the primary word for night, covering the period from sunset to dawn.\n\nTIME OF DAY SEQUENCE:\n- ⟦{朝|あさ}→朝：02277_asa⟧: morning\n- ⟦{昼|ひる}→昼：00540_hiru⟧: daytime/noon\n- ⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧: evening\n- {夜|よる}: night\n\nCOMMON EXPRESSIONS:\n- {夜|よる}ごはん/⟦{晩|ばん}→晩：00542_ban⟧ごはん: dinner\n- ⟦{今夜|こんや}→今夜：01411_konya⟧: tonight\n- ⟦{昨夜|さくや}→昨夜：02999_sakuya⟧/⟦ゆうべ→ゆうべ：02487_yuube⟧: last night\n- ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧: every night\n- ⟦{夜中|よなか}→夜中：01008_yonaka⟧: midnight, middle of the night\n- {夜|よる}⟦{遅|おそ}く→遅い：00533_osoi⟧: late at night\n\nCOMPOUNDS:\n- ⟦{夜行|やこう}→夜行：04078_yakou⟧バス: overnight bus\n- ⟦{夜景|やけい}→夜景：noentry⟧: night view\n- ⟦{夜勤|やきん}→夜勤：09549_yakin⟧: night shift\n\nCONTRAST WITH ⟦{晩|ばん}→晩：00542_ban⟧:\n{夜|よる} refers to night generally; ⟦{晩|ばん}→晩：00542_ban⟧ often refers specifically to evening/dinnertime.",
   "cross_references": [
     {
       "type": "see_also",
@@ -60,7 +60,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T14:07:36Z",
-    "modified": "2026-01-26T14:15:23Z",
+    "modified": "2026-02-07T10:54:25Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
