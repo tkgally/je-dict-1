@@ -295,9 +295,9 @@
       "title": "Create a task scheduler recommendation script",
       "category": "Workflow & Autonomy",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-07",
+      "notes": "Created pipeline/recommend-tasks.py with 4 recommendation rules: corpus harvesting when candidates < 100, entry creation sessions (capped at 5) when candidates available, inline-link sessions when > 500 entries lack links, and polishing session for the task with largest backlog. Supports --json and --write flags. Updated pipeline/README.md with documentation."
     },
     {
       "id": "02_workflow_prompt_11",
