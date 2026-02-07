@@ -144,15 +144,15 @@ Well-known informal or colloquial terms that:
 
 ## Search Strategies
 
-The dictionary has ~9,000 entries as of late January 2026. This is a mature dictionary with strong coverage of basic and intermediate vocabulary. Use a variety of strategies to find remaining gaps while maintaining high quality standards.
+The dictionary has ~10,300 entries as of February 2026. This is a mature dictionary with strong coverage of basic and intermediate vocabulary. Use a variety of strategies to find remaining gaps while maintaining high quality standards.
 
 ### Vocabulary Tier Status
 
-**The basic and core tiers are complete (as of January 2026).**
+**The basic and core tiers are complete.**
 
-- Basic: ~800 entries (target met)
-- Core: ~2,000 entries (target met)
-- General: ~6,200 entries (all new vocabulary goes here)
+- Basic: 801 entries (closed)
+- Core: 1,998 entries (closed)
+- General: 7,504+ entries (all new vocabulary goes here)
 
 **All new candidate words will be assigned to the general tier.** Focus on finding useful vocabulary for advanced learners, specialized topics, and vocabulary that complements existing entries.
 

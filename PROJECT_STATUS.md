@@ -1,9 +1,9 @@
 # Japanese-English Learner's Dictionary - Project Status
 
 **Last updated**: 2026-02-07
-**Current phase**: Phase 4 - Vocabulary Expansion & Interface Enhancement
+**Current phase**: Phase 6 - Continued Expansion & Polish
 
-**Live site**: https://tkgally.github.io/je-dict-1/
+**Live site**: https://www.tkgje.jp/
 
 > **Full history**: Older change logs are archived in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).
 > **Quick reference**: See [PROJECT_CONTEXT_BRIEF.md](PROJECT_CONTEXT_BRIEF.md) for a concise session-start overview.
@@ -11,7 +11,7 @@
 
 ## Current State
 
-**Phase 4: Vocabulary Expansion & Interface Enhancement** — Adding vocabulary while maintaining v2 quality standards, plus new web interface features. The dictionary uses an original three-tier vocabulary classification (basic, core, general) instead of JLPT levels.
+**Phase 6: Continued Expansion & Polish** — Adding vocabulary while maintaining v2 quality standards, with an automated pipeline for batch maintenance tasks. The dictionary uses an original three-tier vocabulary classification (basic, core, general) instead of JLPT levels.
 
 ### Content Status
 

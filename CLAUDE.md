@@ -1,6 +1,6 @@
 # je-dict-1 — Japanese-English Learner's Dictionary
 
-A dictionary for intermediate learners of Japanese who can read kana and are building vocabulary. The live site is at https://www.tkgje.jp/. It is a completely static site (HTML/CSS/JS, no server) hosted on GitHub Pages.
+A dictionary for intermediate learners of Japanese who can read kana and are building vocabulary. The live site is at https://www.tkgje.jp/. It is a completely static site (HTML/CSS/JS, no server) hosted on GitHub Pages. ~10,300 entries as of February 2026.
 
 ## Project structure
 
@@ -15,12 +15,17 @@ build/            # Python build, validation, and utility scripts
   build/page_generators.py      # Navigation page generation (index, browse, recent, etc.)
   build/search_index_builder.py # Search index and JS generation
   build/report.py               # Dictionary health dashboard
+  build/generate_word_lookup.py # Builds word_id_lookup.json for inline link lookups
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
+pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
+polishing/        # Progress tracking for entry polishing tasks (per-task position files)
+prompts/          # Task prompts for interactive and batch (prompts/batch/) sessions
 candidate_words.json   # Words queued for future entry creation
 entries_index.json     # Master index of all entries (rebuilt by update_indexes.py)
-PROJECT_STATUS.md      # Session continuity notes and project roadmap
+PROJECT_STATUS.md      # Session continuity notes and recent change log
+PROJECT_CONTEXT_BRIEF.md # Quick-reference counts and rules for session start
 .claude/skills/        # Reusable skill prompts for entry creation and maintenance
-.github/workflows/     # GitHub Actions CI (entry validation on push/PR)
+.github/workflows/     # GitHub Actions CI (validate.yml) and pipeline (pipeline.yml)
 .githooks/             # Git hooks (pre-commit entry validation)
 Makefile               # Build runner (make validate, make build, make quick, etc.)
 ```
