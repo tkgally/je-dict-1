@@ -103,23 +103,31 @@ PYEOF
 
 prompt_file_for_type() {
   local task_type="$1"
+  local interactive_path batch_path
   case "$task_type" in
-    corpus-harvesting)       echo "prompts/corpus_harvesting.md" ;;
-    new-entries)             echo "prompts/newentries.md" ;;
-    new-candidates)          echo "prompts/newcandidates.md" ;;
-    clean-candidates)        echo "prompts/clean_up_candidates_list.md" ;;
-    inline-links)            echo "prompts/polish_add_inline_links.md" ;;
-    example-sentences)       echo "prompts/polish_example_sentences.md" ;;
-    furigana-completeness)   echo "prompts/polish_furigana_completeness.md" ;;
-    furigana-correctness)    echo "prompts/polish_furigana_correctness.md" ;;
-    semantic-labels)         echo "prompts/polish_semantic_labels.md" ;;
-    noentry-resolution)      echo "prompts/polish_add_entries_for_noentry_example_words.md" ;;
-    expand-short-notes)      echo "prompts/expand-short-notes.md" ;;
+    corpus-harvesting)       interactive_path="prompts/corpus_harvesting.md" ;;
+    new-entries)             interactive_path="prompts/newentries.md" ;;
+    new-candidates)          interactive_path="prompts/newcandidates.md" ;;
+    clean-candidates)        interactive_path="prompts/clean_up_candidates_list.md" ;;
+    inline-links)            interactive_path="prompts/polish_add_inline_links.md" ;;
+    example-sentences)       interactive_path="prompts/polish_example_sentences.md" ;;
+    furigana-completeness)   interactive_path="prompts/polish_furigana_completeness.md" ;;
+    furigana-correctness)    interactive_path="prompts/polish_furigana_correctness.md" ;;
+    semantic-labels)         interactive_path="prompts/polish_semantic_labels.md" ;;
+    noentry-resolution)      interactive_path="prompts/polish_add_entries_for_noentry_example_words.md" ;;
+    expand-short-notes)      interactive_path="prompts/expand-short-notes.md" ;;
     *)
       log_error "Unknown task type: $task_type"
       return 1
       ;;
   esac
+  # Prefer batch-optimized prompt if it exists (designed for claude --print)
+  batch_path="prompts/batch/$(basename "$interactive_path")"
+  if [ -f "$PROJECT_DIR/$batch_path" ]; then
+    echo "$batch_path"
+  else
+    echo "$interactive_path"
+  fi
 }
 
 # --- Status tracking (via update-status.py) ---

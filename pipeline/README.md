@@ -41,21 +41,31 @@ Automated task queue for je-dict-1 dictionary maintenance. A pipeline config def
 
 ## Task types
 
-Each type maps to a prompt file in `prompts/`.
+Each type maps to a prompt file in `prompts/`. The runner automatically uses batch-optimized versions from `prompts/batch/` when available (these are designed for non-interactive `claude --print` execution). If no batch version exists, the interactive version in `prompts/` is used as a fallback.
 
-| Type | Prompt file | Description |
-|------|-------------|-------------|
-| `corpus-harvesting` | `corpus_harvesting.md` | Process corpus text to identify candidate words |
-| `new-entries` | `newentries.md` | Create new dictionary entries from candidates |
-| `new-candidates` | `newcandidates.md` | Add new words to candidate_words.json |
-| `clean-candidates` | `clean_up_candidates_list.md` | Review candidates for suitability |
-| `inline-links` | `polish_add_inline_links.md` | Add cross-reference links in examples and notes |
-| `example-sentences` | `polish_example_sentences.md` | Improve example sentence quality |
-| `furigana-completeness` | `polish_furigana_completeness.md` | Ensure all kanji have furigana |
-| `furigana-correctness` | `polish_furigana_correctness.md` | Verify furigana readings are accurate |
-| `semantic-labels` | `polish_semantic_labels.md` | Add/verify semantic labels on senses |
-| `noentry-resolution` | `polish_add_entries_for_noentry_example_words.md` | Create entries for words used in examples |
-| `expand-short-notes` | `expand-short-notes.md` | Expand abbreviated or shallow notes fields |
+| Type | Interactive prompt | Batch prompt | Description |
+|------|-------------------|--------------|-------------|
+| `corpus-harvesting` | `corpus_harvesting.md` | `batch/corpus_harvesting.md` | Process corpus text to identify candidate words |
+| `new-entries` | `newentries.md` | `batch/newentries.md` | Create new dictionary entries from candidates |
+| `new-candidates` | `newcandidates.md` | — | Add new words to candidate_words.json |
+| `clean-candidates` | `clean_up_candidates_list.md` | — | Review candidates for suitability |
+| `inline-links` | `polish_add_inline_links.md` | `batch/polish_add_inline_links.md` | Add cross-reference links in examples and notes |
+| `example-sentences` | `polish_example_sentences.md` | `batch/polish_example_sentences.md` | Improve example sentence quality |
+| `furigana-completeness` | `polish_furigana_completeness.md` | — | Ensure all kanji have furigana |
+| `furigana-correctness` | `polish_furigana_correctness.md` | — | Verify furigana readings are accurate |
+| `semantic-labels` | `polish_semantic_labels.md` | — | Add/verify semantic labels on senses |
+| `noentry-resolution` | `polish_add_entries_for_noentry_example_words.md` | — | Create entries for words used in examples |
+| `expand-short-notes` | `expand-short-notes.md` | — | Expand abbreviated or shallow notes fields |
+
+### Batch vs interactive prompts
+
+Batch prompts (`prompts/batch/`) differ from interactive prompts in these ways:
+
+- **No context reset**: Each invocation starts with a fresh context — no `/compact` or session continuity
+- **Always commit**: Every batch invocation commits its work at the end
+- **Never push**: The pipeline runner handles pushing after all tasks complete
+- **Explicit exit**: Prompts include "exit cleanly" instructions to prevent extra work
+- **Make targets**: Use `make validate` and `make build` (or `--quick`) for validation
 
 ## Top-level properties
 
