@@ -6,9 +6,13 @@ Automated task queue for je-dict-1 dictionary maintenance. A pipeline config def
 
 | File | Purpose |
 |------|---------|
+| `run-pipeline.sh` | Runner script — executes tasks from config |
 | `pipeline-config.schema.json` | JSON Schema defining the config format |
 | `pipeline-config.json` | Active pipeline configuration (edit this) |
 | `pipeline-config.example.json` | Sample configuration for reference |
+| `pipeline-status.json` | Generated: per-invocation results (gitignored) |
+| `pipeline-report.txt` | Generated: summary report (gitignored) |
+| `pipeline-*.log` | Generated: timestamped log files (gitignored) |
 
 ## Configuration format
 
@@ -84,7 +88,37 @@ These parameters are recognized by multiple task types. Tasks may also accept ad
 
 1. Copy `pipeline-config.example.json` to `pipeline-config.json`
 2. Edit the tasks list to match your needs
-3. Run the pipeline runner (see `02_workflow_prompt_05` for the runner script)
+3. Run the pipeline:
+
+```bash
+# Default config (pipeline/pipeline-config.json)
+./pipeline/run-pipeline.sh
+
+# Custom config file
+./pipeline/run-pipeline.sh path/to/config.json
+
+# Preview what would run without executing
+./pipeline/run-pipeline.sh --dry-run
+
+# Create a PR after completion
+./pipeline/run-pipeline.sh --create-pr
+
+# Combine flags
+./pipeline/run-pipeline.sh --dry-run --create-pr path/to/config.json
+```
+
+### Runner behavior
+
+For each task invocation, the runner:
+1. Checks that the git working tree is clean
+2. Switches to the configured branch (if different from current)
+3. Invokes `claude --print` with the task's prompt file, appending any parameters
+4. Runs `make validate` as a quality gate
+5. If validation passes, commits changes to the configured branch
+6. If validation fails, discards changes and either stops or skips (per `on_failure`)
+7. Records the result in `pipeline-status.json`
+
+After all tasks complete, a summary report is written to `pipeline-report.txt`.
 
 ## Execution model
 
