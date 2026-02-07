@@ -14,7 +14,7 @@ Add new candidates to candidate_words.json using the find-candidates skill.
 2. Use a variety of search strategies to find balanced, diverse candidates
 3. Add candidates using: `python3 build/manage_candidates.py add "漢字" "ひらがな" "brief English note"`
 
-4. After adding all candidates, update PROJECT_STATUS.md:
+4. After adding all candidates, update PROJECT_STATUS.md Recent Changes section:
    - Update "Candidate words" count in Content Status section
    - Add a brief session note under Recent Changes
 
