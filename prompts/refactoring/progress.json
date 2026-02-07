@@ -277,9 +277,9 @@
       "title": "Create batch-optimized prompt versions",
       "category": "Workflow & Autonomy",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-07",
+      "notes": "Created prompts/batch/ with 4 batch-optimized prompts: newentries.md, polish_add_inline_links.md, corpus_harvesting.md, polish_example_sentences.md. Key differences from interactive: no context reset, always commit, never push, explicit exit-cleanly, use make validate/build. Updated run-pipeline.sh prompt_file_for_type() to prefer batch versions when available. Updated pipeline/README.md with batch vs interactive documentation."
     },
     {
       "id": "02_workflow_prompt_09",
