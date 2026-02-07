@@ -205,9 +205,9 @@
       "title": "Add kanji_list.json missing-file warning",
       "category": "Code & Structure",
       "priority": "Low",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-07",
+      "notes": "Added else branch to KANJI_LIST loading in entry_renderer.py that prints a warning when kanji/kanji_list.json is missing. Verified no spurious warning during normal build."
     },
     {
       "id": "02_workflow_prompt_01",
