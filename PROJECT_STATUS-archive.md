@@ -7,6 +7,26 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 216)
+Added 30 new dictionary entries from candidate_words.json, focusing on technology, daily life, business, travel, and literary vocabulary:
+
+- **Technology (3)**: {外部機器|がいぶきき} (external device), {入力装置|にゅうりょくそうち} (input device), {出力装置|しゅつりょくそうち} (output device)
+- **Academic (2)**: {論文発表|ろんぶんはっぴょう} (paper presentation), {学位|がくい} (academic degree)
+- **Food/Culture (2)**: {鉄板焼|てっぱんや}き (teppanyaki), お{品書|しなが}き (menu)
+- **Urban/Transportation (5)**: {立体駐車場|りったいちゅうしゃじょう} (multi-story parking), {山手|やまのて} (uptown area), {通勤時間|つうきんじかん} (commute time), {網棚|あみだな} (luggage rack), {精算機|せいさんき} (fare adjustment machine)
+- **Weather (2)**: {真夏日|まなつび} (hot summer day), {熱帯夜|ねったいや} (tropical night)
+- **Daily Life/Items (3)**: {乾電池|かんでんち} (battery), {両替機|りょうがえき} (change machine), {新発売|しんはつばい} (new release)
+- **Community (2)**: {回覧板|かいらんばん} (neighborhood circular), {町内会|ちょうないかい} (neighborhood association)
+- **Business/Finance (4)**: {年末調整|ねんまつちょうせい} (year-end tax adjustment), {立替|たてか}え (advance payment), {年度末|ねんどまつ} (end of fiscal year), {減給|げんきゅう} (salary cut)
+- **Literary/Time (2)**: {薄暮|はくぼ} (dusk), {黎明|れいめい} (dawn)
+- **Personality/Ability (2)**: {持|も}ち{味|あじ} (distinctive quality), {得手|えて} (forte)
+- **Travel (2)**: {預|あず}け{荷物|にもつ} (checked baggage), {機内持|きないも}ち{込|こ}み (carry-on)
+- **Verbs (1)**: {蹴落|けお}とす (to kick down/defeat rivals)
+
+Total entries: 10,011 → 10,041
+Remaining candidates: 177 → 148
+New kanji: 2,237 → 2,239
+
 ### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 215)
 Added 30 new dictionary entries from candidate_words.json, focusing on nature, time, idioms, travel, and daily life vocabulary:
 
