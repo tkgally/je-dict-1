@@ -7,6 +7,20 @@ description: Requirements for formatting and structuring the notes field in je-d
 
 The `notes` field is a critical part of each entry, providing usage information, grammar patterns, cultural context, and other details that help learners deeply understand the word. As the dictionary grows, well-structured notes become increasingly important.
 
+## Language Requirement (CRITICAL)
+
+**All explanatory text in notes must be in English.** This includes etymology, usage explanations, cultural context, grammar notes, and any other prose. Japanese text should appear only within example phrases, collocations, pattern demonstrations, and headwords — never as explanatory sentences.
+
+This is a bilingual dictionary for English-speaking learners. Japanese prose explanations are too difficult for most target users.
+
+```
+✓ CORRECT: Derived from {始終|しじゅう} (from beginning to end).
+✗ INCORRECT: {始終|しじゅう}が{変化|へんか}したもの。
+
+✓ CORRECT: The kanji {躾|しつけ} is a kokuji (a kanji created in Japan).
+✗ INCORRECT: 「{躾|しつけ}」は{国字|こくじ}（{日本|にほん}で{作|つく}られた{漢字|かんじ}）。
+```
+
 ## Formatting Requirements (HIGH PRIORITY)
 
 ### 1. Line Breaks Between Sections
@@ -188,6 +202,7 @@ python3 build/verify_furigana.py <entry_id>
 
 Before finalizing notes:
 
+- [ ] **All explanatory prose is in English** - no Japanese-language explanations
 - [ ] Multiple topics are separated by blank lines
 - [ ] Lists of 2+ items use bullet points
 - [ ] **All kanji have furigana** - including idioms, collocations, kanji variants

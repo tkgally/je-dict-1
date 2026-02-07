@@ -87,6 +87,7 @@ This prevents duplicate entries and wasted effort on entries that must later be 
 3. **Show grammatical connections** - Always demonstrate how words connect
 4. **Prefer natural Japanese** - Avoid textbook stiffness
 5. **Highlight non-obvious distinctions** - Focus on what learners cannot infer from English
+6. **All explanations in English** - Definitions, explanations, usage notes, etymology, and cultural context must be written in English. Japanese text should only appear in example phrases, collocations, patterns, and headwords — never as explanatory prose. This is a bilingual learner's dictionary, not a monolingual one.
 
 ## Consistency Guidelines
 
