@@ -14,7 +14,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
 from path_utils import get_directory_range
-from japanese_utils import FURIGANA_PATTERN, strip_furigana
+from japanese_utils import FURIGANA_PATTERN, strip_furigana, is_kanji
 from constants import get_cross_ref_label
 from html_utils import (
     process_furigana as _process_furigana_base,
@@ -83,14 +83,6 @@ def process_headword_with_kanji_links(text: str, relative_path: str = '../../') 
     """
     if not text:
         return ''
-
-    def is_kanji(char: str) -> bool:
-        code = ord(char)
-        return (
-            (0x4E00 <= code <= 0x9FFF) or
-            (0x3400 <= code <= 0x4DBF) or
-            (0xF900 <= code <= 0xFAFF)
-        )
 
     def wrap_kanji_in_link(kanji_char: str) -> str:
         """Wrap a single kanji in a link to its index page."""

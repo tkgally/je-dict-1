@@ -1,6 +1,6 @@
 {
   "description": "Tracks which refactoring prompts have been completed. Updated by the master prompt after each session.",
-  "last_updated": "2026-02-06",
+  "last_updated": "2026-02-07",
   "prompts": [
     {
       "id": "01_code_prompt_01",
@@ -187,9 +187,9 @@
       "title": "Remove duplicate is_kanji() from entry_renderer.py",
       "category": "Code & Structure",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-07",
+      "notes": "Removed local is_kanji() definition from process_headword_with_kanji_links() and added is_kanji to the existing import from japanese_utils. All 140 tests pass, build succeeds."
     },
     {
       "id": "01_code_prompt_22",
