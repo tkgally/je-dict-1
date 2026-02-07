@@ -232,9 +232,9 @@
       "title": "Update the PreCompact hook",
       "category": "Workflow & Autonomy",
       "priority": "High",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-07",
+      "notes": "Replaced semantic assignment-specific pre-compact hook with general-purpose reminder. Removed outdated multi-sense entry counting loop. New script reminds to: (1) update progress tracking files, (2) write session log if expected, (3) commit and push all changes."
     },
     {
       "id": "02_workflow_prompt_04",
