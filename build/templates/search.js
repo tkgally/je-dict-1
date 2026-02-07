@@ -65,6 +65,8 @@
 
     function displayResults(query, results) {
         resultsSection.style.display = 'block';
+        var introSection = document.getElementById('intro-section');
+        if (introSection) introSection.style.display = 'none';
 
         if (results.length === 0) {
             resultsHeading.textContent = 'No results for "' + query + '"';

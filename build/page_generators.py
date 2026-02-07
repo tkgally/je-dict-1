@@ -69,7 +69,7 @@ def generate_header_search_redirect_script() -> str:
 </script>'''
 
 
-def generate_index_page(entry_count: int, tier_counts: dict, build_time_jst: str) -> str:
+def generate_index_page(entry_count: int, tier_counts: dict, example_count: int, build_time_jst: str) -> str:
     """Generate the main index.html page."""
     basic_count = tier_counts.get('basic', 0)
     core_count = tier_counts.get('core', 0)
@@ -108,8 +108,8 @@ def generate_index_page(entry_count: int, tier_counts: dict, build_time_jst: str
         </noscript>
     </section>
 
-    <section class="intro">
-        <p>The TKG Japanese-English Learner's Dictionary (TKGJE) is an explanatory dictionary designed for learners of Japanese as a second language. It currently contains {entry_count:,} entries organized into three vocabulary tiers: {basic_count:,} basic words for beginners, {core_count:,} core vocabulary for intermediate learners, and {general_count:,} general vocabulary for advanced study. Each entry includes explanatory definitions, natural example sentences optimized for learning, usage notes covering grammar, register, and common patterns, and furigana readings for all kanji. The dictionary is under active development.</p>
+    <section class="intro" id="intro-section">
+        <p>The TKG Japanese-English Learner's Dictionary (TKGJE) is an explanatory dictionary designed for learners of Japanese as a second language. It currently contains {entry_count:,} entries, including {basic_count:,} basic words for beginners and {core_count:,} core vocabulary for intermediate learners, as well as {example_count:,} natural example sentences optimized for learning. Each entry includes explanatory definitions; usage notes covering grammar, register, common patterns, and related expressions; and furigana readings for all kanji. The dictionary is under active development.</p>
     </section>
 </main>
 

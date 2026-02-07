@@ -298,14 +298,16 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
                 f.write(entry_html)
         print(f"  Generated {len(entries)} entry pages")
 
-    # Count vocabulary tiers
+    # Count vocabulary tiers and examples
     tier_counts = {'basic': 0, 'core': 0, 'general': 0, 'unassigned': 0}
+    total_examples = 0
     for entry in entries:
         tier = entry.get('metadata', {}).get('vocabulary_tier', '')
         if tier in ('basic', 'core', 'general'):
             tier_counts[tier] += 1
         else:
             tier_counts['unassigned'] += 1
+        total_examples += len(entry.get('examples', []))
 
     # Generate build timestamp in JST
     build_time = datetime.now(JST)
@@ -319,7 +321,7 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
 
     # Index page (with search form)
     with open(docs_dir / 'index.html', 'w', encoding='utf-8') as f:
-        f.write(generate_index_page(len(entries), tier_counts, build_time_jst))
+        f.write(generate_index_page(len(entries), tier_counts, total_examples, build_time_jst))
 
     # Advanced search page (tag-based)
     with open(docs_dir / 'advanced.html', 'w', encoding='utf-8') as f:
