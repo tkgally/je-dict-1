@@ -7,6 +7,7 @@ Automated task queue for je-dict-1 dictionary maintenance. A pipeline config def
 | File | Purpose |
 |------|---------|
 | `run-pipeline.sh` | Runner script — executes tasks from config |
+| `validate-task.sh` | Post-task validation gates — task-specific checks |
 | `pipeline-config.schema.json` | JSON Schema defining the config format |
 | `pipeline-config.json` | Active pipeline configuration (edit this) |
 | `pipeline-config.example.json` | Sample configuration for reference |
@@ -112,18 +113,51 @@ These parameters are recognized by multiple task types. Tasks may also accept ad
 For each task invocation, the runner:
 1. Checks that the git working tree is clean
 2. Switches to the configured branch (if different from current)
-3. Invokes `claude --print` with the task's prompt file, appending any parameters
-4. Runs `make validate` as a quality gate
-5. If validation passes, commits changes to the configured branch
-6. If validation fails, discards changes and either stops or skips (per `on_failure`)
-7. Records the result in `pipeline-status.json`
+3. Snapshots progress tracking files (for stuck-loop detection)
+4. Invokes `claude --print` with the task's prompt file, appending any parameters
+5. Runs `validate-task.sh` with the task type as the quality gate
+6. If validation passes, commits changes to the configured branch
+7. If validation fails, discards changes and either stops or skips (per `on_failure`)
+8. Records the result in `pipeline-status.json`
 
 After all tasks complete, a summary report is written to `pipeline-report.txt`.
+
+### Validation gates
+
+`validate-task.sh` provides task-type-specific validation beyond baseline `validate.py`:
+
+| Task type | Additional checks |
+|-----------|-------------------|
+| `new-entries` | `find_missing_furigana.py` for new entries |
+| `new-candidates` | `candidate_words.json` structure and count consistency |
+| `clean-candidates` | `candidate_words.json` structure and count consistency |
+| `corpus-harvesting` | `candidate_words.json` structure and count consistency |
+| `inline-links` | Word link format check (`⟦surface→base：id⟧`) |
+| `example-sentences` | Basic/core entries have ≥ 3 examples |
+| `furigana-completeness` | `find_missing_furigana.py` gap report |
+| `furigana-correctness` | Baseline validation (manual review recommended) |
+| `semantic-labels` | `validate_tags.py` + `check_tag_consistency.py` |
+| `noentry-resolution` | Same as `new-entries` |
+| `expand-short-notes` | `find_missing_furigana.py` for notes fields |
+
+All task types also check for stuck loops (progress file unchanged after task runs).
+
+You can also run `validate-task.sh` standalone:
+
+```bash
+# Validate as if a new-entries task just ran
+./pipeline/validate-task.sh new-entries
+
+# With stuck-loop detection
+./pipeline/validate-task.sh new-entries \
+  --progress-file prompts/refactoring/progress.json \
+  --pre-snapshot /tmp/snapshot-before.json
+```
 
 ## Execution model
 
 - Tasks execute in array order
 - Each task's `count` determines how many separate Claude sessions are spawned
-- After each session, `make validate` runs as a quality gate
+- After each session, `validate-task.sh` runs task-specific checks as a quality gate
 - On validation failure, `on_failure` determines whether the pipeline stops or skips to the next invocation
 - Each successful invocation is committed to the configured branch
