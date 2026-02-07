@@ -183,6 +183,33 @@
       "notes": "Created .githooks/pre-commit that detects staged entries/ JSON files, validates each with validate.py --entry, and blocks commit on failure. Fast path skips validation when no entry files are staged. Install with: git config core.hooksPath .githooks"
     },
     {
+      "id": "01_code_prompt_21",
+      "title": "Remove duplicate is_kanji() from entry_renderer.py",
+      "category": "Code & Structure",
+      "priority": "Medium",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_22",
+      "title": "Add template file error handling",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
+      "id": "01_code_prompt_23",
+      "title": "Add kanji_list.json missing-file warning",
+      "category": "Code & Structure",
+      "priority": "Low",
+      "status": "pending",
+      "completed_date": null,
+      "notes": null
+    },
+    {
       "id": "02_workflow_prompt_01",
       "title": "Create PROJECT_CONTEXT_BRIEF.md",
       "category": "Workflow & Autonomy",
