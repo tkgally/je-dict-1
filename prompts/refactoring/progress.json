@@ -259,9 +259,9 @@
       "title": "Create post-task validation gates",
       "category": "Workflow & Autonomy",
       "priority": "Medium",
-      "status": "pending",
-      "completed_date": null,
-      "notes": null
+      "status": "completed",
+      "completed_date": "2026-02-07",
+      "notes": "Created pipeline/validate-task.sh with task-type-specific validation for all 11 task types. Checks: new-entries/noentry-resolution/expand-short-notes use find_missing_furigana.py; corpus-harvesting/new-candidates/clean-candidates validate candidate_words.json structure; inline-links checks word link format; example-sentences checks basic/core have >=3 examples; semantic-labels runs validate_tags.py + check_tag_consistency.py. All types include baseline validate.py and stuck-loop detection via progress file snapshots. Integrated into run-pipeline.sh replacing generic make validate. Updated README.md with validation gate documentation."
     },
     {
       "id": "02_workflow_prompt_07",

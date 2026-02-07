@@ -376,7 +376,22 @@ main() {
         prompt_content="${prompt_content}$(echo -e "$param_suffix")"
       fi
 
-      # Step 4: Invoke claude --print
+      # Step 4a: Snapshot progress file for stuck-loop detection
+      local pre_snapshot=""
+      local progress_file_arg=""
+      # Look for common progress tracking files that the task might update
+      for candidate_progress in \
+        "$PROJECT_DIR/prompts/refactoring/progress.json" \
+        "$PROJECT_DIR/candidate_words.json"; do
+        if [ -f "$candidate_progress" ]; then
+          pre_snapshot=$(mktemp)
+          cp "$candidate_progress" "$pre_snapshot"
+          progress_file_arg="$candidate_progress"
+          break
+        fi
+      done
+
+      # Step 4b: Invoke claude --print
       log "Invoking claude --print with prompt: $prompt_path"
       local claude_exit_code=0
       claude --print "$prompt_content" 2>&1 | tee -a "$LOG_FILE" || claude_exit_code=$?
@@ -387,6 +402,7 @@ main() {
         total_failed=$((total_failed + 1))
         # Discard any partial changes
         git -C "$PROJECT_DIR" checkout -- . 2>/dev/null || true
+        [ -n "$pre_snapshot" ] && rm -f "$pre_snapshot"
         if [ "$on_failure" = "stop" ]; then
           log_error "Stopping pipeline (on_failure=stop)"
           pipeline_failed=true
@@ -395,10 +411,17 @@ main() {
         continue
       fi
 
-      # Step 5: Run make validate as quality gate
-      log "Running validation..."
+      # Step 5: Run task-specific validation gate
+      log "Running validation (validate-task.sh $task_type)..."
       local validate_exit_code=0
-      make -C "$PROJECT_DIR" validate 2>&1 | tee -a "$LOG_FILE" || validate_exit_code=$?
+      local validate_cmd="$SCRIPT_DIR/validate-task.sh $task_type"
+      if [ -n "$progress_file_arg" ] && [ -n "$pre_snapshot" ]; then
+        validate_cmd="$validate_cmd --progress-file $progress_file_arg --pre-snapshot $pre_snapshot"
+      fi
+      $validate_cmd 2>&1 | tee -a "$LOG_FILE" || validate_exit_code=$?
+
+      # Clean up snapshot
+      [ -n "$pre_snapshot" ] && rm -f "$pre_snapshot"
 
       if [ "$validate_exit_code" -ne 0 ]; then
         log_error "Validation failed for $task_type invocation $i"
