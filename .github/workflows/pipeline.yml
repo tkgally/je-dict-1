@@ -1,0 +1,146 @@
+name: Run Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      config_file:
+        description: "Pipeline config file (relative to pipeline/)"
+        required: false
+        default: "pipeline-config.json"
+        type: string
+      branch:
+        description: "Branch to create for pipeline work"
+        required: false
+        default: "pipeline/auto-run"
+        type: string
+      dry_run:
+        description: "Dry run (preview tasks without executing)"
+        required: false
+        default: false
+        type: boolean
+      create_pr:
+        description: "Create a PR after completion"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r build/requirements.txt
+
+      - name: Install Claude CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Create pipeline branch
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git checkout -b "${{ inputs.branch }}" || git checkout "${{ inputs.branch }}"
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Validate config file exists
+        run: |
+          CONFIG="pipeline/${{ inputs.config_file }}"
+          if [ ! -f "$CONFIG" ]; then
+            echo "::error::Config file not found: $CONFIG"
+            exit 1
+          fi
+          echo "Using config: $CONFIG"
+          cat "$CONFIG"
+
+      - name: Run pipeline (dry run)
+        if: ${{ inputs.dry_run }}
+        run: |
+          chmod +x pipeline/run-pipeline.sh pipeline/validate-task.sh
+          ./pipeline/run-pipeline.sh --dry-run "pipeline/${{ inputs.config_file }}"
+
+      - name: Run pipeline
+        if: ${{ !inputs.dry_run }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          chmod +x pipeline/run-pipeline.sh pipeline/validate-task.sh
+          ./pipeline/run-pipeline.sh "pipeline/${{ inputs.config_file }}"
+
+      - name: Upload pipeline artifacts
+        if: ${{ !inputs.dry_run && always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-results
+          path: |
+            pipeline/pipeline-status.json
+            pipeline/pipeline-report.txt
+            pipeline/pipeline-*.log
+          if-no-files-found: ignore
+
+      - name: Push pipeline branch
+        if: ${{ !inputs.dry_run && inputs.create_pr }}
+        run: |
+          # Check if there are any commits to push (beyond what we started with)
+          if git diff --quiet origin/main...HEAD 2>/dev/null; then
+            echo "No changes to push — pipeline produced no commits."
+            echo "SKIP_PR=true" >> "$GITHUB_ENV"
+          else
+            git push -u origin "${{ inputs.branch }}"
+            echo "SKIP_PR=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Create pull request
+        if: ${{ !inputs.dry_run && inputs.create_pr && env.SKIP_PR != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Read description from config
+          DESCRIPTION=$(python3 -c "
+          import json, sys
+          with open(sys.argv[1]) as f:
+              d = json.load(f)
+          print(d.get('description', 'Automated pipeline run'))
+          " "pipeline/${{ inputs.config_file }}")
+
+          # Read summary from pipeline report if it exists
+          SUMMARY=""
+          if [ -f pipeline/pipeline-report.txt ]; then
+            SUMMARY=$(head -50 pipeline/pipeline-report.txt)
+          fi
+
+          gh pr create \
+            --title "Pipeline: $DESCRIPTION" \
+            --body "$(cat <<EOF
+          ## Automated Pipeline Run
+
+          **Config:** \`pipeline/${{ inputs.config_file }}\`
+          **Branch:** \`${{ inputs.branch }}\`
+          **Triggered by:** @${{ github.actor }}
+
+          ### Pipeline Report
+
+          \`\`\`
+          $SUMMARY
+          \`\`\`
+
+          > Full results available in the [workflow run artifacts](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}).
+          EOF
+          )"

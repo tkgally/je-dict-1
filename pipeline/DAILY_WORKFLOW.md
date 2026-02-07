@@ -76,6 +76,8 @@ Keep named configs for different workflows:
 
 ## 2. Launching a pipeline run
 
+### From the terminal
+
 ```bash
 # Dry run first to verify the config
 ./pipeline/run-pipeline.sh --dry-run
@@ -86,6 +88,19 @@ Keep named configs for different workflows:
 # Run and create a PR when finished
 ./pipeline/run-pipeline.sh --create-pr
 ```
+
+### From GitHub Actions (browser/phone)
+
+You can trigger a pipeline run from any browser without a terminal:
+
+1. Go to **Actions** → **Run Pipeline** in the GitHub repository
+2. Click **Run workflow**
+3. Configure inputs (config file, branch name, dry run, create PR)
+4. Click **Run workflow**
+
+This requires an `ANTHROPIC_API_KEY` repository secret. See `pipeline/README.md` for setup details.
+
+### What the runner does
 
 The runner executes tasks sequentially. For each invocation it:
 1. Calls `claude --print` with the task's prompt

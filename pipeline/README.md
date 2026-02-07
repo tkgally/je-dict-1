@@ -235,3 +235,51 @@ python3 pipeline/update-brief.py
 # Preview without writing
 python3 pipeline/update-brief.py --dry-run
 ```
+
+## GitHub Actions integration
+
+A GitHub Actions workflow at `.github/workflows/pipeline.yml` allows triggering pipeline runs from any browser (including mobile) without a terminal.
+
+### Prerequisites
+
+1. **ANTHROPIC_API_KEY secret** — Add your Anthropic API key as a repository secret:
+   - Go to Settings → Secrets and variables → Actions → New repository secret
+   - Name: `ANTHROPIC_API_KEY`
+   - Value: your API key (starts with `sk-ant-`)
+
+### Triggering a run
+
+1. Go to the **Actions** tab in your GitHub repository
+2. Select **Run Pipeline** from the workflow list
+3. Click **Run workflow** and configure:
+
+| Input | Default | Description |
+|-------|---------|-------------|
+| `config_file` | `pipeline-config.json` | Config file name (relative to `pipeline/`) |
+| `branch` | `pipeline/auto-run` | Branch name for pipeline commits |
+| `dry_run` | `false` | Preview tasks without executing |
+| `create_pr` | `true` | Create a PR when the pipeline finishes |
+
+4. Click **Run workflow**
+
+### What happens
+
+1. The workflow checks out the repo and installs Python + Claude CLI
+2. Creates a new branch for the pipeline work
+3. Runs `run-pipeline.sh` with the selected config
+4. Each successful task invocation is committed to the branch
+5. Pipeline artifacts (status, report, logs) are uploaded to the workflow run
+6. A PR is created against `main` with the pipeline report in the description
+
+### Reviewing results
+
+- **PR description** includes the first 50 lines of the pipeline report
+- **Workflow artifacts** contain full `pipeline-status.json`, `pipeline-report.txt`, and log files
+- The existing **Validate Entries** workflow automatically runs on the PR, validating all entry changes
+
+### Limitations
+
+- The workflow uses `ubuntu-latest` runners with a 120-minute timeout
+- Claude CLI requires a valid `ANTHROPIC_API_KEY` secret
+- Each pipeline run consumes API credits proportional to the number and complexity of tasks
+- For large pipeline configs, consider splitting across multiple runs
