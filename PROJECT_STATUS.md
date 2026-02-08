@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,475 |
+| Total entries | ~10,505 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,676 (open) |
-| Candidate words | ~208 |
+| General tier | ~7,706 (open) |
+| Candidate words | ~179 |
 | Cross-references | ~3,315 |
-| Example sentences | ~40,500 |
+| Example sentences | ~40,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 225)
+Added 30 new dictionary entries (IDs 10499-10528) from candidate_words.json:
+
+- **Verbs (10)**: ほぐれる (to come loose), ほどく (to untie), なぞる (to trace), {攫|さら}う (to kidnap), したためる (to compose), ひっくり{返|かえ}す (to overturn), {紐解|ひもと}く (to unravel), {翻|ひるがえ}す (to wave/reverse), ぶちまける (to dump out/confess), ぶれる (to blur/waver), {目指|めざ}す (to aim for)
+- **Nouns (8)**: {侍|さむらい} (samurai), タレ (sauce), ひよこ (chick), まとめ (summary), {簾|すだれ} (bamboo blind), {溜|た}まり{場|ば} (hangout), ちらし{寿司|ずし} (scattered sushi), ひき{逃|に}げ (hit-and-run), ひな{祭|まつ}り (Girls' Day), {振|ふ}る{舞|ま}い (behavior), {恵|めぐ}み (blessing)
+- **Adjectives (5)**: {分厚|ぶあつ}い (very thick), {密|ひそ}か (secret), まちまち (varied), まっさら (brand new), まばら (sparse), まとも (proper)
+- **Adverbs (2)**: まだまだ (still far from enough), {無理|むり}やり (forcibly)
+
+Notable features:
+- Multi-sense entries: ひよこ (chick/novice), ほぐれる (loosen/relax), なぞる (trace/retrace), {攫|さら}う (kidnap/sweep away), ひっくり{返|かえ}す (flip/reverse), {翻|ひるがえ}す (flutter/retract), ぶちまける (dump/confess), ぶれる (blur/waver), まとも (proper/direct), まっさら (new/blank), まだまだ (not enough/more to come), {振|ふ}る{舞|ま}い (behavior/hospitality), {目指|めざ}す (aspire/head for)
+- Cultural context: ひな{祭|まつ}り (March 3 traditions), ちらし{寿司|ずし} (festive food), {簾|すだれ} (Heian-era usage), {侍|さむらい} (warrior class)
+- Food vocabulary: タレ (dipping sauce), ちらし{寿司|ずし}
+
+Total entries: 10,475 → 10,505
+Remaining candidates: 208 → 179
+New kanji: 2,261 → 2,263 ({侍|さむらい}, {攫|さら})
 
 ### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 224)
 Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of vocabulary types:
@@ -145,31 +162,6 @@ Notable entry features:
 Total entries: 10,276 → 10,306
 Remaining candidates: 183 → 153
 New kanji: 2,245 → 2,249 ({匿|とく}, {庇|ひ}, {椒|しょう}, {粥|しゅく})
-
-### 2026-02-05 (Vocabulary Expansion - 30 New Entries, Session 219)
-Added 30 new dictionary entries from candidate_words.json, covering casual expressions, household items, administrative documents, finance, social media, and daily life:
-
-- **Casual Expressions/Interjections (2)**: しまった (oh no!), やった (yay!)
-- **Mimetic/Onomatopoeia (3)**: いちゃいちゃ (flirting), ちやほや (pampering), のりのり (in high spirits)
-- **Adjective (1)**: {怪|あや}しい (suspicious/dubious)
-- **Social/Cultural (3)**: {合|ごう}コン (group blind date), お{一人|ひとり}{様|さま} (solo customer), おばちゃん (auntie/middle-aged woman)
-- **Household Items (4)**: お{箸|はし} (chopsticks), {三角|さんかく}コーナー (sink strainer), {水切|みずき}りかご (dish drainer), レンジ{対応|たいおう} (microwave-safe)
-- **Administrative Documents (5)**: {転居届|てんきょとどけ} (change of address), {印鑑証明|いんかんしょうめい} (seal certificate), {戸籍謄本|こせきとうほん} (family register copy), {訂正印|ていせいいん} (correction seal), {二重線|にじゅうせん} (double strikethrough)
-- **Finance/Business (4)**: {不均衡|ふきんこう} (imbalance), {仲介手数料|ちゅうかいてすうりょう} (brokerage fee), {比較検討|ひかくけんとう} (comparative evaluation), {反落|はんらく} (reactionary drop)
-- **Daily Life/Labels (3)**: {年度始|ねんどはじ}め (start of fiscal year), {保存方法|ほぞんほうほう} (storage instructions), バーコード (barcode)
-- **Transportation (1)**: {弱冷房車|じゃくれいぼうしゃ} (mildly air-conditioned car)
-- **Technology/SNS (3)**: タグ{付|づ}け (tagging), {既読|きどく}スルー (leaving on read), メモる (to jot down)
-- **Reference (1)**: {取扱説明書|とりあつかいせつめいしょ} (user manual)
-
-Notable entry features:
-- Multi-sense entries: {怪|あや}しい (suspicious/dubious), お{一人|ひとり}{様|さま} (service/cultural), おばちゃん (family/general)
-- Administrative document trio: {転居届|てんきょとどけ}, {印鑑証明|いんかんしょうめい}, {戸籍謄本|こせきとうほん}
-- Correction process pair: {訂正印|ていせいいん} + {二重線|にじゅうせん}
-- Modern Japanese terms: {既読|きどく}スルー, タグ{付|づ}け, メモる
-
-Total entries: 10,246 → 10,276
-Remaining candidates: 141 → 112
-New kanji: 2,242 → 2,245 ({怪|かい}, {訂|てい}, {謄|とう})
 
 ---
 
