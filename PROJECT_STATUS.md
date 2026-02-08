@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,551 |
+| Total entries | ~10,581 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,752 (open) |
-| Candidate words | ~238 |
+| General tier | ~7,782 (open) |
+| Candidate words | ~208 |
 | Cross-references | ~3,320 |
 | Example sentences | ~41,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 227)
+Added 30 new dictionary entries (IDs 10575-10604) from candidate_words.json:
+
+- **Nouns (18)**: {証拠|しょうこ} (evidence), {起訴|きそ} (indictment), {和解|わかい} (reconciliation/settlement), {弁護|べんご} (defense), {点滴|てんてき} (IV drip), {麻酔|ますい} (anesthesia), {版画|はんが} (printmaking), {織物|おりもの} (textile), {秩序|ちつじょ} (order), {逆説|ぎゃくせつ} (paradox), {心境|しんきょう} (state of mind), {胸騒|むなさわ}ぎ (foreboding), {仕返|しかえ}し (retaliation), {出来心|できごころ} (sudden impulse), {修羅場|しゅらば} (carnage/confrontation), {権限|けんげん} (authority), お{裾分|すそわ}け (sharing gifts), {機転|きてん} (quick wit), {所作|しょさ} (demeanor)
+- **Verbs (6)**: {付|つ}き{添|そ}う (to accompany), {噛|か}み{合|あ}う (to mesh), {寄|よ}り{添|そ}う (to stay close), {入|い}り{浸|びた}る (to frequent), {投|な}げ{出|だ}す (to give up), そそのかす (to instigate)
+- **I-adjectives (3)**: {何気|なにげ}ない (casual), {初々|ういうい}しい (fresh/innocent), {目|め}まぐるしい (dizzying)
+- **Noun + suru verbs (1)**: {赴任|ふにん} (taking up a new post)
+- **Noun (cultural)**: {漆|うるし} (lacquer/lacquerware)
+
+Notable features:
+- Multi-sense entries: {和解|わかい} (reconciliation/legal settlement), {漆|うるし} (lacquer/lacquerware), {噛|か}み{合|あ}う (mesh/in sync), {投|な}げ{出|だ}す (stretch out/give up), {修羅場|しゅらば} (battle/confrontation), {寄|よ}り{添|そ}う (physical/emotional)
+- Legal vocabulary cluster: {証拠|しょうこ}, {起訴|きそ}, {和解|わかい}, {弁護|べんご}
+- Medical vocabulary: {点滴|てんてき}, {麻酔|ますい}
+- Cultural context: {漆|うるし} (lacquerware tradition), お{裾分|すそわ}け (sharing custom), {修羅場|しゅらば} (Buddhist origin), {所作|しょさ} (tea ceremony)
+- Cross-references: {起訴|きそ}↔{弁護|べんご}, {付|つ}き{添|そ}う↔{寄|よ}り{添|そ}う
+
+Total entries: 10,551 → 10,581
+Remaining candidates: 238 → 208
+New kanji: 2,267 → 2,270 ({漆|しつ}, {秩|ちつ}, {赴|ふ})
 
 ### 2026-02-08 (Vocabulary Expansion - 31 New Entries, Session 226)
 Added 31 new dictionary entries (IDs 10544-10574) from candidate_words.json:
@@ -149,25 +169,6 @@ Notable entry features:
 Total entries: 10,363 → 10,393
 Remaining candidates: 194 → 164
 New kanji: 2,250 → 2,256 ({倣|ほう}, {咄|とつ}, {嗟|さ}, {囚|しゅう}, {綴|てつ}, {遥|よう})
-
-### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 222)
-Added 30 new dictionary entries from candidate_words.json, covering verbs, nouns, adjectives, adverbs, and food vocabulary:
-
-- **Verbs (14)**: すくめる (to shrug), そそる (to arouse/tempt), そびえる (to tower), {逸|そ}らす (to avert), {例|たと}える (to compare), {辿|たど}る (to trace), {付|つ}け{込|こ}む (to take advantage of), つつく (to poke/peck), つまむ (to pinch), {付|つ}きまとう (to follow around), すり{減|へ}る (to wear down), ずば{抜|ぬ}ける (to be outstanding), ちなむ (to be associated with)
-- **Nouns (10)**: せせらぎ (murmuring stream), {微風|そよかぜ} (gentle breeze), {鯛焼|たいや}き (taiyaki), たこ{焼|や}き (takoyaki), {卵焼|たまごや}き (rolled omelet), すき{焼|や}き (sukiyaki), ざわめき (commotion), {裾野|すその} (foothills), {対面|たいめん} (face-to-face), {繋|つな}がり (connection)
-- **Adverbs (3)**: ちょっぴり (a tiny bit), ついつい (despite oneself), ただただ (simply/nothing but)
-- **I-adjective (1)**: だらしない (sloppy/undisciplined)
-- **Other nouns (2)**: {大名|だいみょう} (feudal lord), そぼろ (crumbled meat topping), だんまり (silence)
-
-Notable entry features:
-- Multi-sense entries: だらしない (sloppy/undisciplined), つつく (poke/nibble/peck), つまむ (pinch/snack), すり{減|へ}る (wear down physically/figuratively), {裾野|すその} (foothills/figurative base), {付|つ}きまとう (follow/haunt)
-- Food vocabulary cluster: {鯛焼|たいや}き, たこ{焼|や}き, {卵焼|たまごや}き, すき{焼|や}き, そぼろ
-- Transitivity pair: すくめる/すくむ
-- Homophone cross-reference: {付|つ}け{込|こ}む/{漬|つ}け{込|こ}む
-
-Total entries: 10,333 → 10,363
-Remaining candidates: 153 → 159 (some new candidates added by update_indexes)
-New kanji: 2,249 → 2,250 ({鯛|ちょう})
 
 ---
 
