@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00501_ashita_ex1",
-      "japanese": "{明日|あした}、{会|あ}いましょう。",
+      "japanese": "{明日|あした}、⟦{会|あ}いましょう→会う：00482_au⟧。",
       "english": "Let's meet tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00501_ashita_ex2",
-      "japanese": "{明日|あした}は{休|やす}みです。",
+      "japanese": "{明日|あした}⟦は→は：00079_ha⟧⟦{休|やす}み→休み：02266_yasumi⟧⟦です→です：09485_desu⟧。",
       "english": "Tomorrow is a day off.",
       "notes": null,
       "has_audio": false,
@@ -34,9 +34,9 @@
     },
     {
       "id": "00501_ashita_ex3",
-      "japanese": "{明日|あした}の{天気|てんき}はどうですか。",
+      "japanese": "{明日|あした}⟦の→の：09472_no⟧⟦{天気|てんき}→天気：00582_tenki⟧⟦は→は：00079_ha⟧⟦どう→どう：00543_dou⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "How's the weather tomorrow?",
-      "notes": "{明日|あした}の = tomorrow's",
+      "notes": "{明日|あした}⟦の→の：09472_no⟧ = tomorrow's",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "00501_ashita_ex4",
-      "japanese": "{明日|あした}、{学校|がっこう}で{友達|ともだち}に{会|あ}います。",
+      "japanese": "{明日|あした}、⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧⟦{会|あ}います→会う：00482_au⟧。",
       "english": "I'll meet my friend at school tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00501_ashita_ex5",
-      "japanese": "{明日|あした}の{朝|あさ}{六時|ろくじ}に{起|お}きなければなりません。",
+      "japanese": "{明日|あした}⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧⟦{六時|ろくじ}→六時：noentry⟧⟦に→に：00314_ni⟧⟦{起|お}きなければなりません→起きる：00521_okiru⟧。",
       "english": "I have to wake up at 6 AM tomorrow morning.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "{明日|あした} means 'tomorrow' and is one of the most common time expressions in Japanese.\n\nREADINGS:\n- あした: most common, everyday speech\n- あす: slightly more formal\n- みょうにち: formal, written, news\n\nTIME SEQUENCE:\n- おととい: day before yesterday\n- {昨日|きのう}: yesterday\n- {今日|きょう}: today\n- {明日|あした}: tomorrow\n- あさって: day after tomorrow\n\nUSAGE:\nLike other time nouns, {明日|あした} typically appears without a particle: {明日|あした}{行|い}きます (I'll go tomorrow).\n\nCOMMON EXPRESSIONS:\n- {明日|あした}の{朝|あさ}: tomorrow morning\n- {明日|あした}の{夜|よる}/{晩|ばん}: tomorrow night\n- {明日|あした}から: from tomorrow\n- {明日|あした}まで: until tomorrow",
+  "notes": "{明日|あした} means 'tomorrow' and is one of the most common time expressions in Japanese.\n\nREADINGS:\n- あした: most common, everyday speech\n- あす: slightly more formal\n- みょうにち: formal, written, news\n\nTIME SEQUENCE:\n- ⟦おととい→おととい：00877_ototoi⟧: day before yesterday\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today\n- {明日|あした}: tomorrow\n- ⟦あさって→あさって：00828_asatte⟧: day after tomorrow\n\nUSAGE:\nLike other time nouns, {明日|あした} typically appears without a particle: {明日|あした}⟦{行|い}きます→行く：00119_iku⟧ (I'll go tomorrow).\n\nCOMMON EXPRESSIONS:\n- {明日|あした}⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧: tomorrow morning\n- {明日|あした}⟦の→の：09472_no⟧⟦{夜|よる}→夜：00487_yoru⟧/⟦{晩|ばん}→晩：00542_ban⟧: tomorrow night\n- {明日|あした}⟦から→から：00504_kara⟧: from tomorrow\n- {明日|あした}⟦まで→まで：00490_made⟧: until tomorrow",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-05T12:53:19Z",
-    "modified": "2026-01-29T06:30:59Z",
+    "modified": "2026-02-08T00:56:42Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
