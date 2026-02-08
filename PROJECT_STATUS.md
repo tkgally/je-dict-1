@@ -23,7 +23,7 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
 | General tier | ~7,706 (open) |
-| Candidate words | ~179 |
+| Candidate words | ~269 |
 | Cross-references | ~3,315 |
 | Example sentences | ~40,700 |
 | Audio files | 1,028 |
@@ -50,6 +50,32 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-08 (New Candidate Words - 90 Words Added)
+Added 90 new candidate words to candidate_words.json across 15+ domains, using diverse search strategies:
+
+- **Legal/Justice (4)**: {証拠|しょうこ}, {起訴|きそ}, {和解|わかい}, {弁護|べんご}
+- **Medical (2)**: {点滴|てんてき}, {麻酔|ますい}
+- **Arts/Crafts (3)**: {版画|はんが}, {織物|おりもの}, {漆|うるし}
+- **Compound Verbs (6)**: {付|つ}き{添|そ}う, {噛|か}み{合|あ}う, {寄|よ}り{添|そ}う, {入|い}り{浸|びた}る, {投|な}げ{出|だ}す, そそのかす
+- **Abstract/Academic (5)**: {実態|じったい}, {見通|みとお}し, {秩序|ちつじょ}, {逆説|ぎゃくせつ}, {偏差|へんさ}
+- **Emotional/Aesthetic (4)**: {余韻|よいん}, {心境|しんきょう}, {感銘|かんめい}, {胸騒|むなさわ}ぎ
+- **Adjectives (7)**: {何気|なにげ}ない, {初々|ういうい}しい, {目|め}まぐるしい, {晴|は}れ{晴|ば}れしい, {神々|こうごう}しい, おっかない, {気味悪|きみわる}い
+- **Dramatic/Critical (3)**: {瀬戸際|せとぎわ}, {土壇場|どたんば}, {修羅場|しゅらば}
+- **Social/Interpersonal (10)**: {場違|ばちが}い, {仕返|しかえ}し, {出来心|できごころ}, {素振|そぶ}り, {嫌気|いやけ}, {暇潰|ひまつぶ}し, {顔合|かおあ}わせ, {水際|みずぎわ}, {境目|さかいめ}, {口添|くちぞ}え
+- **Strategy (2)**: {先手|せんて}, {後手|ごて}
+- **Business/Admin (6)**: {転売|てんばい}, {権限|けんげん}, {内訳|うちわけ}, {赴任|ふにん}, {名義|めいぎ}, {便宜|べんぎ}
+- **Cultural/Traditional (8)**: お{裾分|すそわ}け, {引|ひ}き{出物|でもの}, {正座|せいざ}, {屋台|やたい}, {紙芝居|かみしばい}, {縁日|えんにち}, {肝試|きもだめ}し, {茶|ちゃ}の{間|ま}
+- **Religion/Spiritual (3)**: {参拝|さんぱい}, {巡礼|じゅんれい}, {墓参|はかまい}り
+- **Character/Dignity (3)**: {威厳|いげん}, {貫禄|かんろく}, {名誉|めいよ}
+- **Expressions/Idioms (3)**: {朝飯前|あさめしまえ}, {猫舌|ねこじた}, {取|と}り{越|こ}し{苦労|くろう}
+- **Other useful (11)**: {機転|きてん}, {所作|しょさ}, {手筈|てはず}, {脱力|だつりょく}, {波紋|はもん}, {掛|か}け{声|ごえ}, {手柄|てがら}, {手本|てほん}, {名乗|なの}り, {折|お}り{返|かえ}し, {手探|てさぐ}り
+- **Body/Daily (5)**: {読|よ}み{聞|き}かせ, {飛|と}び{火|ひ}, {寝癖|ねぐせ}, {足取|あしど}り, {腕組|うでぐ}み
+- **Remaining (5)**: {奥行|おくゆ}き, {利便性|りべんせい}, {一任|いちにん}, {触媒|しょくばい}, {幻覚|げんかく}
+
+Search strategies used: Legal/medical gap analysis, arts/crafts domain exploration, compound verb pattern completion, academic/abstract cross-referencing, emotional vocabulary expansion, social custom vocabulary, religious/spiritual coverage, dramatic expression mining, business register coverage, adjective gap filling
+
+Candidate words: 179 → 269
 
 ### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 225)
 Added 30 new dictionary entries (IDs 10499-10528) from candidate_words.json:
@@ -143,25 +169,6 @@ Notable entry features:
 
 Total entries: 10,303 → 10,333
 Remaining candidates: 183 → 153
-
-### 2026-02-06 (Vocabulary Expansion - 30 New Entries, Session 220)
-Added 30 new dictionary entries from candidate_words.json, covering a wide variety of useful general vocabulary:
-
-- **Nouns (12)**: お{気|き}に{入|い}り (favorite), お{笑|わら}い (comedy), お{願|ねが}い (request/please), かき{氷|ごおり} (shaved ice), かまぼこ (fish cake), からくり (mechanism/trick), きっかけ (trigger/opportunity), くじ (lottery), {粥|かゆ} (rice porridge), {胡椒|こしょう} (pepper), {繰|く}り{返|かえ}し (repetition), ご{無沙汰|ぶさた} (long silence)
-- **Verbs (6)**: {匿|かくま}う (to shelter), {庇|かば}う (to protect), {被|かぶ}せる (to cover), {潜|くぐ}る (to pass through), くっつく (to stick to), こだわる (to be particular about)
-- **Na-adjectives (4)**: {微|かす}か (faint/slight), {気|き}まま (free-spirited), こまめ (frequent/diligent), ささやか (modest/humble)
-- **I-adjective (1)**: くどい (persistent/heavy taste)
-- **Adverbs (7)**: かつて (formerly), きっちり (precisely), きょとん (blankly), がらり (completely/drastically), {散々|さんざん} (severely/terribly), ごく (very/extremely), {繰|く}り{返|かえ}し (repeatedly)
-
-Notable entry features:
-- Multi-sense entries: かつて (past/never with negative), {被|かぶ}せる (cover/put on/blame), こだわる (quality standards/fixation), がらり (dramatic change/sliding sound)
-- Food-related cluster: かき{氷|ごおり}, かまぼこ, {粥|かゆ}, {胡椒|こしょう}, かぼちゃ
-- Cultural notes: かき{氷|ごおり} (summer tradition), {粥|かゆ} ({七草|ななくさ}{粥|がゆ}), かまぼこ (おせち{料理|りょうり}), からくり ({江戸時代|えどじだい} automata)
-- Transitivity pairs: くっつく/くっつける, {被|かぶ}せる/{被|かぶ}る
-
-Total entries: 10,276 → 10,306
-Remaining candidates: 183 → 153
-New kanji: 2,245 → 2,249 ({匿|とく}, {庇|ひ}, {椒|しょう}, {粥|しゅく})
 
 ---
 
