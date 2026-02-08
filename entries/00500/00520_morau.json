@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00520_morau_ex1",
-      "japanese": "{友達|ともだち}からプレゼントをもらいました。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦から→から：00504_kara⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧もらいました。",
       "english": "I received a present from my friend.",
       "notes": "から marks the giver",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00520_morau_ex2",
-      "japanese": "{誕生日|たんじょうび}に{何|なに}をもらいましたか？",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧もらいました⟦か→か：09473_ka⟧？",
       "english": "What did you get for your birthday?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00520_morau_ex3",
-      "japanese": "{手伝|てつだ}ってもらえますか？",
+      "japanese": "⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧もらえます⟦か→か：09473_ka⟧？",
       "english": "Could you help me?",
       "notes": "てもらう = to have someone do something",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00520_morau_ex4",
-      "japanese": "{先生|せんせい}に{本|ほん}をもらいました。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧もらいました。",
       "english": "I received a book from the teacher.",
       "notes": "に marks the giver (alternative to から)",
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00520_morau_ex5",
-      "japanese": "{彼|かれ}から{手紙|てがみ}をもらったとき、とても{嬉|うれ}しかったです。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦から→から：00504_kara⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧もらった⟦とき→時：02918_toki⟧、⟦とても→とても：00593_totemo⟧⟦{嬉|うれ}しかった→嬉しい：00822_ureshii⟧⟦です→です：09485_desu⟧。",
       "english": "When I received a letter from him, I was very happy.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xに/からYをもらう (receive Y from X).\n\nASPECT: ている indicates resulting state. もらっている = 'has received.'\n\nCOMMON PATTERNS:\n・{友達|ともだち}からもらう (receive from friend)\n・プレゼントをもらう (receive a present)\n・〜てもらう (have someone do〜)\n・〜てもらえますか (could you〜?)\n\nGiving/receiving: もらう (receive), あげる (give), くれる (give to me). Humble: いただく. Auxiliary: 〜てもらう (receive favor of action).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: Xに/からYをもらう (receive Y from X).\n\nASPECT: ている indicates resulting state. もらっている = 'has received.'\n\nCOMMON PATTERNS:\n・⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦から→から：00504_kara⟧もらう (receive from friend)\n・⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧もらう (receive a present)\n・〜てもらう (have someone do〜)\n・〜てもらえますか (could you〜?)\n\nGiving/receiving: もらう (receive), ⟦あげる→あげる：00546_ageru⟧ (give), ⟦くれる→くれる：00724_kureru⟧ (give to me). Humble: ⟦いただく→いただく：01326_itadaku⟧. Auxiliary: 〜てもらう (receive favor of action).",
   "cross_references": [
     {
       "type": "see_also",
@@ -74,7 +74,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:13:44Z",
-    "modified": "2026-01-21T09:44:25Z",
+    "modified": "2026-02-08T13:27:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
