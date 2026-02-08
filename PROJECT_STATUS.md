@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-07
+**Last updated**: 2026-02-08
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,505 |
+| Total entries | ~10,551 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,706 (open) |
-| Candidate words | ~269 |
-| Cross-references | ~3,315 |
-| Example sentences | ~40,700 |
+| General tier | ~7,752 (open) |
+| Candidate words | ~238 |
+| Cross-references | ~3,320 |
+| Example sentences | ~41,000 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-08 (Vocabulary Expansion - 31 New Entries, Session 226)
+Added 31 new dictionary entries (IDs 10544-10574) from candidate_words.json:
+
+- **Verbs (7)**: ひっくり{返|かえ}る (to topple over), もたらす (to bring about), {真似|まね}る (to imitate), {免|まぬが}れる (to escape), {纏|まつ}わる (to be associated with), {纏|まと}う (to be clad in)
+- **Nouns (20)**: {屋台|やたい} (food stall), {猫舌|ねこじた} (can't handle hot food), {朝飯前|あさめしまえ} (a piece of cake), {正座|せいざ} (formal sitting), {波紋|はもん} (ripple), {瀬戸際|せとぎわ} (brink), {土壇場|どたんば} (last moment), {先手|せんて} (initiative), {後手|ごて} (reactive position), {転売|てんばい} (resale), {内訳|うちわけ} (breakdown), {余韻|よいん} (afterglow), {感銘|かんめい} (deep impression), {手柄|てがら} (feat), {手本|てほん} (model), {手探|てさぐ}り (trial and error), {見通|みとお}し (outlook), {実態|じったい} (actual conditions), {名誉|めいよ} (honor), {奥行|おくゆ}き (depth), {貫禄|かんろく} (gravitas), {掛|か}け{声|ごえ} (rallying cry), {抹茶|まっちゃ} (matcha)
+- **Adverb (1)**: {丸|まる}ごと (whole, entirely)
+- **Na-adjective (1)**: {場違|ばちが}い (out of place)
+
+Notable features:
+- Multi-sense entries: ひっくり{返|かえ}る (physical/figurative), {屋台|やたい} (food stall/festival float), {波紋|はもん} (ripple/repercussions), {先手|せんて}/{後手|ごて} (strategy/board games), {手探|てさぐ}り (physical/figurative), {見通|みとお}し (forecast/visibility), {余韻|よいん} (sound/impression), {纏|まつ}わる (associated/cling)
+- Cross-references: {先手|せんて}↔{後手|ごて} (antonym pair), {土壇場|どたんば}→{瀬戸際|せとぎわ}, {纏|まと}う→{纏|まつ}わる
+- Cultural vocabulary: {屋台|やたい} (Fukuoka food stalls), {猫舌|ねこじた}, {正座|せいざ}, {抹茶|まっちゃ} (tea ceremony)
+- Strategy/business: {先手|せんて}, {後手|ごて}, {転売|てんばい}, {内訳|うちわけ}, {見通|みとお}し, {実態|じったい}
+
+Total entries: 10,520 → 10,551
+Remaining candidates: 269 → 238
+New kanji: 2,263 → 2,267 ({瀬|せ}, {禄|ろく}, {誉|よ}, {韻|いん})
 
 ### 2026-02-08 (New Candidate Words - 90 Words Added)
 Added 90 new candidate words to candidate_words.json across 15+ domains, using diverse search strategies:
@@ -150,25 +168,6 @@ Notable entry features:
 Total entries: 10,333 → 10,363
 Remaining candidates: 153 → 159 (some new candidates added by update_indexes)
 New kanji: 2,249 → 2,250 ({鯛|ちょう})
-
-### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 221)
-Added 30 new dictionary entries from candidate_words.json, covering general vocabulary across multiple parts of speech:
-
-- **Nouns (8)**: お{調子者|ちょうしもの} (show-off), {胡麻|ごま} (sesame), さつまいも (sweet potato), {最中|さなか} (in the midst of), {躾|しつけ} (discipline), さえずり (birdsong), {仕業|しわざ} (act/deed), この{世|よ} (this world)
-- **Verbs (9)**: ぐずる (to whine), くっつける (to attach), {込|こ}み{上|あ}げる (to well up), {象|かたど}る (to model after), {組|く}み{上|あ}げる (to assemble), くるむ (to wrap), {授|さず}ける (to grant), しかめる (to frown), しがみつく (to cling to), すくむ (to freeze with fear)
-- **Adverbs (10)**: きょうび (nowadays), くまなく (thoroughly), こないだ (the other day), ごっそり (entirely), さぞかし (surely), しっくり (to fit well), しょっちゅう (constantly), せめて (at least), ぐいっと (with a jerk)
-- **Na-adjective (1)**: しなやか (supple/graceful)
-- **Expression (1)**: かけがえのない (irreplaceable)
-- **Ichidan verb (1)**: {染|し}みる (to soak in/sting/move deeply)
-
-Notable entry features:
-- Multi-sense entries: くっつける (attach/bring close), {込|こ}み{上|あ}げる (emotions/nausea), ぐいっと (jerk/gulp), {授|さず}ける (bestow/teach), しなやか (supple/graceful), {染|し}みる (soak/sting/move)
-- Transitivity pairs noted: くっつける/くっつく, くるむ/くるまる, すくむ/すくめる, {授|さず}ける/{授|さず}かる
-- Food vocabulary: {胡麻|ごま}, さつまいも
-- Physical/emotional vocabulary: すくむ, しがみつく, {込|こ}み{上|あ}げる, しかめる
-
-Total entries: 10,303 → 10,333
-Remaining candidates: 183 → 153
 
 ---
 

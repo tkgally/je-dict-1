@@ -7,6 +7,25 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 221)
+Added 30 new dictionary entries from candidate_words.json, covering general vocabulary across multiple parts of speech:
+
+- **Nouns (8)**: お{調子者|ちょうしもの} (show-off), {胡麻|ごま} (sesame), さつまいも (sweet potato), {最中|さなか} (in the midst of), {躾|しつけ} (discipline), さえずり (birdsong), {仕業|しわざ} (act/deed), この{世|よ} (this world)
+- **Verbs (9)**: ぐずる (to whine), くっつける (to attach), {込|こ}み{上|あ}げる (to well up), {象|かたど}る (to model after), {組|く}み{上|あ}げる (to assemble), くるむ (to wrap), {授|さず}ける (to grant), しかめる (to frown), しがみつく (to cling to), すくむ (to freeze with fear)
+- **Adverbs (10)**: きょうび (nowadays), くまなく (thoroughly), こないだ (the other day), ごっそり (entirely), さぞかし (surely), しっくり (to fit well), しょっちゅう (constantly), せめて (at least), ぐいっと (with a jerk)
+- **Na-adjective (1)**: しなやか (supple/graceful)
+- **Expression (1)**: かけがえのない (irreplaceable)
+- **Ichidan verb (1)**: {染|し}みる (to soak in/sting/move deeply)
+
+Notable entry features:
+- Multi-sense entries: くっつける (attach/bring close), {込|こ}み{上|あ}げる (emotions/nausea), ぐいっと (jerk/gulp), {授|さず}ける (bestow/teach), しなやか (supple/graceful), {染|し}みる (soak/sting/move)
+- Transitivity pairs noted: くっつける/くっつく, くるむ/くるまる, すくむ/すくめる, {授|さず}ける/{授|さず}かる
+- Food vocabulary: {胡麻|ごま}, さつまいも
+- Physical/emotional vocabulary: すくむ, しがみつく, {込|こ}み{上|あ}げる, しかめる
+
+Total entries: 10,303 → 10,333
+Remaining candidates: 183 → 153
+
 ### 2026-02-06 (Vocabulary Expansion - 30 New Entries, Session 220)
 Added 30 new dictionary entries from candidate_words.json, covering a wide variety of useful general vocabulary:
 
