@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,611 |
+| Total entries | ~10,641 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,812 (open) |
-| Candidate words | ~178 |
+| General tier | ~7,842 (open) |
+| Candidate words | ~167 |
 | Cross-references | ~3,320 |
-| Example sentences | ~41,000 |
+| Example sentences | ~41,200 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 229)
+Added 30 new dictionary entries (IDs 10635-10664) from candidate_words.json:
+
+- **Verbs (6)**: もてなす (to entertain), もてはやす (to lavish praise on), {過|よぎ}る (to cross one's mind), {寄越|よこ}す (to send), {跨|また}がる (to straddle), くびれる (to be constricted)
+- **Nouns (17)**: ものづくり (craftsmanship), {物|もの}の{怪|け} (evil spirit), もやし (bean sprouts), {櫓|やぐら} (tower/turret), やらせ (staged event), {幽霊|ゆうれい} (ghost), ゆかり (connection), ゆで{卵|たまご} (boiled egg), ゆとり (room/composure), わかめ (wakame seaweed), {侘|わ}び (wabi aesthetic), {引|ひ}き{出物|でもの} (wedding favor), {手筈|てはず} (arrangements), {脱力|だつりょく} (loss of strength), {茶|ちゃ}の{間|ま} (living room), {名乗|なの}り (self-introduction), {巡礼|じゅんれい} (pilgrimage), {墓参|はかまい}り (visiting a grave), もち{米|ごめ} (glutinous rice)
+- **Adjectives (2)**: おっかない (scary), {気味悪|きみわる}い (creepy)
+- **Adverbs (2)**: {故|ゆえ} (reason/because of), {余程|よほど} (considerably)
+- **Noun (formal)**: {便宜|べんぎ} (convenience/accommodation)
+
+Notable features:
+- Multi-sense entries: {過|よぎ}る (mind/vision), {寄越|よこ}す (send/demand), {跨|また}がる (straddle/span), {幽霊|ゆうれい} (ghost/phantom), {故|ゆえ} (reason/because), {余程|よほど} (considerably/nearly), {便宜|べんぎ} (convenience/accommodation), {脱力|だつりょく} (physical/comedic style), {茶|ちゃ}の{間|ま} (room/public), {名乗|なの}り (introduce/volunteer), {巡礼|じゅんれい} (religious/anime), ゆとり (margin/composure)
+- Cultural vocabulary: {侘|わ}び (wabi aesthetic), {引|ひ}き{出物|でもの} (wedding custom), {茶|ちゃ}の{間|ま} (traditional home), {巡礼|じゅんれい} (Shikoku/anime pilgrimage), {墓参|はかまい}り (grave visiting), {物|もの}の{怪|け} (folklore), {櫓|やぐら} (castle/festival)
+- Food vocabulary: もやし, わかめ, ゆで{卵|たまご}, もち{米|ごめ}
+- New kanji: 2,272 → 2,275 ({宜|ぎ}, {櫓|ろ}, {筈|かつ})
+
+Total entries: 10,611 → 10,641
+Remaining candidates: 178 → 167
 
 ### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 228)
 Added 30 new dictionary entries (IDs 10605-10634) from candidate_words.json:
@@ -167,25 +185,6 @@ Notable entry features:
 Total entries: 10,445 → 10,475
 Remaining candidates: 238 → 208
 New kanji: 2,258 → 2,261 ({贔|ひ}, {屓|き}, {麺|めん})
-
-### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 223)
-Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of verbs, adverbs, nouns, and adjectives:
-
-- **Verbs (12)**: {伴|ともな}う (to accompany), {育|はぐく}む (to nurture), {倣|ならう}う (to follow an example), {灯|とも}す (to light), {囚|とら}われる (to be captured/bound by), {出来上|できあ}がる (to be completed), なじる (to reproach), {綴|つづ}る (to spell/compose), {務|つと}まる (to be fit for), はぐらかす (to dodge), {留|とど}まる (to stay/remain), {留|とど}める (to keep/retain)
-- **Adverbs (8)**: とりわけ (especially), {遥々|はるばる} (from far away), {伸|の}び{伸|の}び (freely), とびきり (exceptionally), とっとと (quickly), {時折|ときおり} (occasionally), つべこべ (quibbling), たやすい
-- **Nouns (6)**: {海苔|のり} (nori), {温|ぬく}もり (warmth), どら{焼|や}き (dorayaki), とうもろこし (corn), {取|と}り{組|く}み (effort/initiative), {咄嗟|とっさ} (instant)
-- **Adverb/Adjective (3)**: {結構|けっこう} (quite/fine), {遥|はる}か (far/by far), {道理|どうり} (reason/no wonder)
-- **Adjective (1)**: {色|いろ}とりどり (colorful)
-
-Notable entry features:
-- Multi-sense entries: {結構|けっこう} (quite/fine/no thank you, 3 senses), {囚|とら}われる (captured/bound by, 2 senses), {綴|つづ}る (spell/compose, 2 senses), {留|とど}まる (stay/limited to, 2 senses), {留|とど}める (keep/limit, 2 senses), {道理|どうり} (reason/no wonder, 2 senses), {取|と}り{組|く}み (initiative/sumo bout, 2 senses)
-- Transitivity pair: {留|とど}まる/{留|とど}める
-- Cross-references: {遥|はる}か↔{遥々|はるばる}
-- Food vocabulary: {海苔|のり}, どら{焼|や}き, とうもろこし
-
-Total entries: 10,363 → 10,393
-Remaining candidates: 194 → 164
-New kanji: 2,250 → 2,256 ({倣|ほう}, {咄|とつ}, {嗟|さ}, {囚|しゅう}, {綴|てつ}, {遥|よう})
 
 ---
 
