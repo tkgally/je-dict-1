@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,581 |
+| Total entries | ~10,611 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,782 (open) |
-| Candidate words | ~208 |
+| General tier | ~7,812 (open) |
+| Candidate words | ~178 |
 | Cross-references | ~3,320 |
 | Example sentences | ~41,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 228)
+Added 30 new dictionary entries (IDs 10605-10634) from candidate_words.json:
+
+- **Nouns (18)**: {神輿|みこし} (portable shrine), {暇潰|ひまつぶ}し (killing time), かみさん (wife), {紙芝居|かみしばい} (kamishibai), {縁日|えんにち} (temple festival), {肝試|きもだめ}し (test of courage), {取|と}り{越|こ}し{苦労|くろう} (unnecessary worry), {名義|めいぎ} (name on title), {境目|さかいめ} (boundary), {足取|あしど}り (gait/trail), {寝癖|ねぐせ} (bed hair), {腕組|うでぐ}み (folding arms), {折|お}り{返|かえ}し (return call/turnaround), {見|み}どころ (highlight), {婿|むこ} (bridegroom), {読|よ}み{聞|き}かせ (reading aloud), {飛|と}び{火|ひ} (spreading fire/impetigo), {参拝|さんぱい} (shrine visit)
+- **Verbs (6)**: {漕|こ}ぎ{着|つ}ける (to manage to reach), なぞらえる (to liken), {引|ひ}っ{掛|か}ける (to hook/trick), ぶら{下|さ}げる (to hang), {触|ふ}れ{合|あ}う (to interact), {見|み}なす (to regard as), {目論|もくろ}む (to scheme)
+- **I-adjectives (3)**: ひもじい (hungry), {晴|は}れ{晴|ば}れしい (bright/cheerful), {神々|こうごう}しい (divine/sublime)
+- **Adverb/onomatopoeia (1)**: くちゃくちゃ (noisily chewing/crumpled)
+- **Prefix (1)**: {初|はつ} (first)
+
+Notable features:
+- Cultural vocabulary cluster: {神輿|みこし}, {縁日|えんにち}, {肝試|きもだめ}し, {紙芝居|かみしばい}, {参拝|さんぱい}
+- Multi-sense entries: {引|ひ}っ{掛|か}ける (3 senses), {飛|と}び{火|ひ} (3 senses), {足取|あしど}り (2 senses), {折|お}り{返|かえ}し (2 senses), くちゃくちゃ (2 senses), {見|み}どころ (2 senses), {婿|むこ} (2 senses), {触|ふ}れ{合|あ}う (2 senses)
+- New kanji: 2,270 → 2,272 ({婿|せい}, {輿|よ})
+
+Total entries: 10,581 → 10,611
+Remaining candidates: 208 → 178
 
 ### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 227)
 Added 30 new dictionary entries (IDs 10575-10604) from candidate_words.json:
