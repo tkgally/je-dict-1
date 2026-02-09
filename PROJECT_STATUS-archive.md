@@ -7,6 +7,19 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 224)
+Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of vocabulary types:
+
+- **Nouns (10)**: {付|つ}き{物|もの} (inseparable part), {一口|ひとくち} (one bite/in a word), {褒美|ほうび} (reward), しゃぶしゃぶ (shabu-shabu), すすき (pampas grass), つけ{麺|めん} (tsukemen), {外|はず}れ (miss/outskirts), {贔屓|ひいき} (favoritism), {引|ひ}きこもり (social withdrawal), ひととき (a moment), {拍子|ひょうし} (rhythm/moment)
+- **Verbs (3)**: {馳|は}せる (to rush/send thoughts), ばら{撒|ま}く (to scatter), ほぐす (to loosen/relieve)
+- **Adjectives (5)**: {相応|ふさわ}しい (suitable), どんくさい (clumsy), ほろ{苦|にが}い (bittersweet), ひたむき (earnest), ふかふか (fluffy)
+- **Adverbs/Onomatopoeia (8)**: ひっそり (quietly), ふんわり (softly), しんなり (wilted), ずたずた (in tatters), ちまちま (in small amounts), {甚|はなは}だ (exceedingly), {一際|ひときわ} (conspicuously), ほのぼの (heartwarming)
+- **Expressions (2)**: せい (fault/blame), できる{限|かぎ}り (as much as possible), とっておき (prized)
+
+Total entries: 10,445 → 10,475
+Remaining candidates: 238 → 208
+New kanji: 2,258 → 2,261 ({贔|ひ}, {屓|き}, {麺|めん})
+
 ### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 223)
 Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of verbs, adverbs, nouns, and adjectives:
 
