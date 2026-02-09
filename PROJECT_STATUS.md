@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,641 |
+| Total entries | ~10,671 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,842 (open) |
-| Candidate words | ~167 |
-| Cross-references | ~3,320 |
-| Example sentences | ~41,200 |
+| General tier | ~7,872 (open) |
+| Candidate words | ~137 |
+| Cross-references | ~3,330 |
+| Example sentences | ~41,350 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 230)
+Added 30 new dictionary entries (IDs 10665-10694) from candidate_words.json:
+
+- **Nouns (25)**: しじみ (freshwater clam), ちまき (rice dumpling), ちょんまげ (topknot), ふるさと{納税|のうぜい} (hometown tax), {書|か}き{入|い}れ{時|どき} (busy season), {合気道|あいきどう} (aikido), {居合道|いあいどう} (iaido), {雹|ひょう} (hail), {空手道|からてどう} (karate), {偏差|へんさ} (deviation), {幻覚|げんかく} (hallucination), {威厳|いげん} (dignity), {利便性|りべんせい} (convenience), {素振|そぶ}り (behavior/pretense), {嫌気|いやけ} (disgust/aversion), {顔合|かおあ}わせ (meeting), {水際|みずぎわ} (water's edge/border control), {口添|くちぞ}え (putting in a good word), アイデンティティ (identity), {三男|さんなん} (third son), {三女|さんじょ} (third daughter), くノ{一|いち} (female ninja), {義理|ぎり}の{親|おや} (parent-in-law), ネット{回線|かいせん} (internet connection), てにをは (particles/fine points)
+- **Nouns (suru verb) (1)**: {一任|いちにん} (entrusting entirely)
+- **Nouns (2 senses) (3)**: ちゃんぽん (chanpon/mixing), {触媒|しょくばい} (catalyst), {水際|みずぎわ} (shore/border control)
+- **Verb (1)**: かまける (to be preoccupied with)
+- **Adjective (1)**: ねむたい (sleepy)
+
+Notable features:
+- Multi-sense entries: ちゃんぽん (noodle dish/mixing), てにをは (particles/wording), {触媒|しょくばい} (chemical/figurative), {水際|みずぎわ} (shore/border), {素振|そぶ}り (behavior/sign), {義理|ぎり}の{親|おや} (in-law/step-parent)
+- Martial arts cluster: {合気道|あいきどう}, {居合道|いあいどう}, {空手道|からてどう} (with cross-references)
+- Cultural vocabulary: ちまき ({端午|たんご}の{節句|せっく}), ちょんまげ (sumo/samurai), くノ{一|いち} (ninja), {顔合|かおあ}わせ (wedding custom)
+- Modern/practical: ふるさと{納税|のうぜい}, ネット{回線|かいせん}, アイデンティティ, {利便性|りべんせい}
+- Family terms: {三男|さんなん}, {三女|さんじょ}, {義理|ぎり}の{親|おや} (with cross-references)
+- Academic/scientific: {偏差|へんさ} ({偏差|へんさ}{値|ち}), {触媒|しょくばい}, {幻覚|げんかく}
+- New kanji: 2,277 → 2,278 ({雹|ひょう})
+
+Total entries: 10,641 → 10,671
+Remaining candidates: 167 → 137
 
 ### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 229)
 Added 30 new dictionary entries (IDs 10635-10664) from candidate_words.json:
@@ -166,25 +187,6 @@ Notable features:
 Total entries: 10,475 → 10,505
 Remaining candidates: 208 → 179
 New kanji: 2,261 → 2,263 ({侍|さむらい}, {攫|さら})
-
-### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 224)
-Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of vocabulary types:
-
-- **Nouns (10)**: {付|つ}き{物|もの} (inseparable part), {一口|ひとくち} (one bite/in a word), {褒美|ほうび} (reward), しゃぶしゃぶ (shabu-shabu), すすき (pampas grass), つけ{麺|めん} (tsukemen), {外|はず}れ (miss/outskirts), {贔屓|ひいき} (favoritism), {引|ひ}きこもり (social withdrawal), ひととき (a moment), {拍子|ひょうし} (rhythm/moment)
-- **Verbs (3)**: {馳|は}せる (to rush/send thoughts), ばら{撒|ま}く (to scatter), ほぐす (to loosen/relieve)
-- **Adjectives (5)**: {相応|ふさわ}しい (suitable), どんくさい (clumsy), ほろ{苦|にが}い (bittersweet), ひたむき (earnest), ふかふか (fluffy)
-- **Adverbs/Onomatopoeia (8)**: ひっそり (quietly), ふんわり (softly), しんなり (wilted), ずたずた (in tatters), ちまちま (in small amounts), {甚|はなは}だ (exceedingly), {一際|ひときわ} (conspicuously), ほのぼの (heartwarming)
-- **Expressions (2)**: せい (fault/blame), できる{限|かぎ}り (as much as possible), とっておき (prized)
-
-Notable entry features:
-- Multi-sense entries: {一口|ひとくち} (bite/in a word), {馳|は}せる (rush/send thoughts), ばら{撒|ま}く (scatter/distribute), {外|はず}れ (miss/outskirts), {拍子|ひょうし} (rhythm/moment), ほろ{苦|にが}い (bitter taste/bittersweet), ほぐす (loosen/relieve)
-- Transitivity pair cross-ref: ほぐす/ほぐれる
-- Cultural context: {引|ひ}きこもり (8050 problem), すすき ({月見|つきみ} tradition)
-- Food vocabulary: しゃぶしゃぶ, つけ{麺|めん}, しんなり (cooking term)
-
-Total entries: 10,445 → 10,475
-Remaining candidates: 238 → 208
-New kanji: 2,258 → 2,261 ({贔|ひ}, {屓|き}, {麺|めん})
 
 ---
 
