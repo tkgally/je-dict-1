@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00538_aruku_ex1",
-      "japanese": "{学校|がっこう}まで{歩|ある}いて{行|い}きます。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦まで→まで：00490_made⟧{歩|ある}いて⟦{行|い}きます→行く：00119_iku⟧。",
       "english": "I walk to school.",
       "notes": "歩いて = on foot, by walking",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00538_aruku_ex2",
-      "japanese": "{公園|こうえん}を{歩|ある}きましょう。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦を→を：00422_wo⟧{歩|ある}きましょう。",
       "english": "Let's walk in the park.",
       "notes": "Volitional form for suggestion",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00538_aruku_ex3",
-      "japanese": "ここから{駅|えき}まで{歩|ある}いて15{分|ふん}かかります。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦から→から：00504_kara⟧⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧{歩|ある}いて⟦15{分|ふん}→分：00928_fun⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "It takes 15 minutes to walk from here to the station.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00538_aruku_ex4",
-      "japanese": "{雨|あめ}の{中|なか}を{歩|ある}くのは{好|す}きではありません。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{歩|ある}く⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{好|す}き→好き：02355_suki⟧ではありません。",
       "english": "I don't like walking in the rain.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00538_aruku_ex5",
-      "japanese": "{毎朝|まいあさ}{三十分|さんじゅっぷん}{歩|ある}いているので、{健康|けんこう}のためにとてもいいと{思|おも}います。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{三十分|さんじゅっぷん}→三十分：09672_sanjuppun⟧{歩|ある}いている⟦ので→ので：09501_node⟧、⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦とても→とても：00593_totemo⟧⟦いい→いい：00118_ii⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
       "english": "I walk for thirty minutes every morning, so I think it's very good for my health.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair. Pattern: Xを{歩|ある}く (walk through/along X) or Xまで{歩|ある}く (walk to X).\n\nASPECT: ている indicates ongoing action. {歩|ある}いている = 'is walking.'\n\nCOMMON PATTERNS:\n・{道|みち}を{歩|ある}く (walk along the road)\n・{公園|こうえん}を{歩|ある}く (walk in the park)\n・{歩|ある}いて{行|い}く (go on foot)\n・{歩|ある}いて{来|く}る (come on foot)\n・{歩|ある}いて〜{分|ふん} (~ minutes on foot)\n\nNote: Uses を for the path/place walked through, not に.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：noentry⟧ (intransitive). No transitive pair. Pattern: Xを{歩|ある}く (walk through/along X) or Xまで{歩|ある}く (walk to X).\n\nASPECT: ている indicates ongoing action. {歩|ある}いている = 'is walking.'\n\nCOMMON PATTERNS:\n・⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{歩|ある}く (walk along the road)\n・⟦{公園|こうえん}→公園：00581_kouen⟧⟦を→を：00422_wo⟧{歩|ある}く (walk in the park)\n・{歩|ある}いて⟦{行|い}く→行く：00119_iku⟧ (go on foot)\n・{歩|ある}いて⟦{来|く}る→来る：00254_kuru⟧ (come on foot)\n・{歩|ある}いて〜⟦{分|ふん}→分：00928_fun⟧ (~ minutes on foot)\n\nNote: Uses を for the path/place walked through, not に.",
   "cross_references": [
     {
       "type": "see_also",
@@ -74,8 +74,8 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:32:46Z",
-    "modified": "2026-01-21T09:55:01Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-09T02:05:09Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [

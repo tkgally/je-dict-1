@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00536_itsu_ex1",
-      "japanese": "いつ{日本|にほん}に{来|き}ましたか？",
+      "japanese": "いつ⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{来|き}ました→来る：00254_kuru⟧⟦か→か：09473_ka⟧？",
       "english": "When did you come to Japan?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00536_itsu_ex2",
-      "japanese": "{会議|かいぎ}はいつですか？",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧いつ⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧？",
       "english": "When is the meeting?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00536_itsu_ex3",
-      "japanese": "いつでも{大丈夫|だいじょうぶ}です。",
+      "japanese": "いつでも⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧⟦です→です：09485_desu⟧。",
       "english": "Anytime is fine.",
       "notes": "いつでも means 'anytime'",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00536_itsu_ex4",
-      "japanese": "{夏休|なつやす}みはいつからいつまでですか？",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦は→は：00079_ha⟧いつ⟦から→から：00504_kara⟧いつ⟦まで→まで：00490_made⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧？",
       "english": "When does summer vacation start and end?",
       "notes": "いつから = from when, いつまで = until when",
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00536_itsu_ex5",
-      "japanese": "いつか{日本|にほん}に{行|い}きたいと{思|おも}っていますが、いつ{行|い}けるか{分|わ}かりません。",
+      "japanese": "いつ⟦か→か：09473_ka⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧⟦と→と：00512_to⟧⟦{思|おも}っています→思う：00492_omou⟧⟦が→が：00051_ga⟧、いつ⟦{行|い}ける→行く：00119_iku⟧⟦か→か：09473_ka⟧⟦{分|わ}かりません→分かる：00463_wakaru⟧。",
       "english": "I want to go to Japan someday, but I don't know when I'll be able to go.",
       "notes": "いつか = someday",
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "いつ is one of the essential question words (5W1H) used to ask about time.\n\nCOMMON PATTERNS:\n- いつから: from when, since when\n- いつまで: until when\n- いつ〜ても: whenever\n\nRELATED EXPRESSIONS:\n- いつも: always\n- いつか: someday, sometime\n- いつでも: anytime\n- いつまでも: forever, indefinitely\n\nNOTE:\nUnlike {何時|なんじ} (what time), いつ asks about dates or general timing rather than specific clock time.",
+  "notes": "いつ is one of the essential question words (5W1H) used to ask about time.\n\nCOMMON PATTERNS:\n- いつ⟦から→から：00504_kara⟧: from when, since when\n- いつ⟦まで→まで：00490_made⟧: until when\n- いつ〜ても: whenever\n\nRELATED EXPRESSIONS:\n- ⟦いつも→いつも：00599_itsumo⟧: always\n- いつ⟦か→か：09473_ka⟧: someday, sometime\n- いつでも: anytime\n- いつ⟦まで→まで：00490_made⟧⟦も→も：00484_mo⟧: forever, indefinitely\n\nNOTE:\nUnlike ⟦{何時|なんじ}→何時：00973_nanji⟧ (what time), いつ asks about dates or general timing rather than specific clock time.",
   "cross_references": [
     {
       "type": "see_also",
@@ -86,8 +86,8 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:08:04Z",
-    "modified": "2026-01-26T13:37:44Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-09T02:05:09Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [

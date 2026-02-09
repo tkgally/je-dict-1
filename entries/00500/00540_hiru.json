@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "00540_hiru_ex1",
-      "japanese": "{昼|ひる}ごはんを{食|た}べましょう。",
+      "japanese": "{昼|ひる}⟦ごはん→ごはん：00564_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べましょう→食べる：00396_taberu⟧。",
       "english": "Let's eat lunch.",
       "notes": "昼ごはん = lunch",
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "00540_hiru_ex2",
-      "japanese": "{昼|ひる}は{暑|あつ}いです。",
+      "japanese": "{昼|ひる}⟦は→は：00079_ha⟧⟦{暑|あつ}い→暑い：00619_atsui⟧⟦です→です：09485_desu⟧。",
       "english": "It's hot during the day.",
       "notes": "Sense 2",
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "00540_hiru_ex3",
-      "japanese": "{昼休|ひるやす}みは{何時|なんじ}からですか？",
+      "japanese": "⟦{昼休|ひるやす}み→昼休み：01715_hiruyasumi⟧⟦は→は：00079_ha⟧⟦{何時|なんじ}→何時：00973_nanji⟧⟦から→から：00504_kara⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧？",
       "english": "What time does lunch break start?",
       "notes": "昼休み = lunch break",
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "00540_hiru_ex4",
-      "japanese": "{昼|ひる}は{明|あか}るいです。",
+      "japanese": "{昼|ひる}⟦は→は：00079_ha⟧⟦{明|あか}るい→明るい：00616_akarui⟧⟦です→です：09485_desu⟧。",
       "english": "It's bright during the day.",
       "notes": "Sense 2: daytime",
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "00540_hiru_ex5",
-      "japanese": "{昼|ひる}の{十二時|じゅうにじ}に{会|あ}いましょう。",
+      "japanese": "{昼|ひる}⟦の→の：09472_no⟧⟦{十二時|じゅうにじ}→十二時：noentry⟧⟦に→に：00314_ni⟧⟦{会|あ}いましょう→会う：00482_au⟧。",
       "english": "Let's meet at noon.",
       "notes": "Sense 1: noon",
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "00540_hiru_ex6",
-      "japanese": "{昼間|ひるま}は{仕事|しごと}をしています。",
+      "japanese": "⟦{昼間|ひるま}→昼間：01713_hiruma⟧⟦は→は：00079_ha⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦しています→する：00392_suru⟧。",
       "english": "I work during the day.",
       "notes": "Sense 2: {昼間|ひるま} = daytime",
       "has_audio": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": "00540_hiru_ex7",
-      "japanese": "{昼|ひる}に{何|なに}を{食|た}べましたか。",
+      "japanese": "{昼|ひる}⟦に→に：00314_ni⟧⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦{食|た}べました→食べる：00396_taberu⟧⟦か→か：09473_ka⟧。",
       "english": "What did you eat for lunch?",
       "notes": "Sense 1: noon/lunchtime",
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "00540_hiru_ex8",
-      "japanese": "{昼|ひる}でも{星|ほし}が{見|み}える{時|とき}があります。",
+      "japanese": "{昼|ひる}でも⟦{星|ほし}→星：01510_hoshi⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧⟦{時|とき}→時：02918_toki⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "There are times when you can see stars even during the day.",
       "notes": "Sense 2: daytime",
       "has_audio": false,
@@ -99,7 +99,7 @@
     },
     {
       "id": "00540_hiru_ex9",
-      "japanese": "{昼|ひる}ごろ{電話|でんわ}してください。",
+      "japanese": "{昼|ひる}⟦ごろ→頃：00932_goro⟧⟦{電話|でんわ}して→電話する：05652_denwasuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please call around noon.",
       "notes": "Sense 1: around noon",
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "00540_hiru_ex10",
-      "japanese": "{夜|よる}より{昼|ひる}のほうが{好|す}きです。{外|そと}で{遊|あそ}べますから。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦より→より：09476_yori⟧{昼|ひる}⟦の→の：09472_no⟧⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧⟦です→です：09485_desu⟧。⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧⟦{遊|あそ}べます→遊ぶ：00550_asobu⟧⟦から→から：00504_kara⟧。",
       "english": "I like daytime more than nighttime. Because I can play outside.",
       "notes": "Sense 2: daytime vs nighttime",
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{昼|ひる} has two meanings: noon/midday specifically, and daytime generally.\n\nCOMMON COMPOUNDS:\n- {昼|ひる}ごはん/{昼食|ちゅうしょく}: lunch\n- {昼休|ひるやす}み: lunch break\n- {昼間|ひるま}: daytime\n- {昼寝|ひるね}: nap\n- {昼過|ひるす}ぎ: early afternoon\n\nEXPRESSIONS:\n- {昼|ひる}に: at noon\n- {昼|ひる}ごろ: around noon\n- {昼|ひる}も{夜|よる}も: day and night\n\nTIME PROGRESSION:\n{朝|あさ} (morning) → {昼|ひる} (noon/daytime) → {夕方|ゆうがた} (evening) → {夜|よる} (night)",
+  "notes": "{昼|ひる} has two meanings: noon/midday specifically, and daytime generally.\n\nCOMMON COMPOUNDS:\n- {昼|ひる}⟦ごはん→ごはん：00564_gohan⟧/⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧: lunch\n- ⟦{昼休|ひるやす}み→昼休み：01715_hiruyasumi⟧: lunch break\n- ⟦{昼間|ひるま}→昼間：01713_hiruma⟧: daytime\n- ⟦{昼寝|ひるね}→昼寝：00106_hirune⟧: nap\n- {昼過|ひるす}ぎ: early afternoon\n\nEXPRESSIONS:\n- {昼|ひる}⟦に→に：00314_ni⟧: at noon\n- {昼|ひる}⟦ごろ→頃：00932_goro⟧: around noon\n- {昼|ひる}⟦も→も：00484_mo⟧⟦{夜|よる}→夜：00487_yoru⟧⟦も→も：00484_mo⟧: day and night\n\nTIME PROGRESSION:\n⟦{朝|あさ}→朝：02277_asa⟧ (morning) → {昼|ひる} (noon/daytime) → ⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧ (evening) → ⟦{夜|よる}→夜：00487_yoru⟧ (night)",
   "cross_references": [
     {
       "type": "see_also",
@@ -135,8 +135,8 @@
   ],
   "metadata": {
     "created": "2026-01-07T14:44:02Z",
-    "modified": "2026-01-26T13:42:21Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-09T02:05:09Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
