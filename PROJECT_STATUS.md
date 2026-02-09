@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-08
+**Last updated**: 2026-02-09
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,671 |
+| Total entries | ~10,716 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,872 (open) |
-| Candidate words | ~137 |
-| Cross-references | ~3,330 |
-| Example sentences | ~41,350 |
+| General tier | ~7,917 (open) |
+| Candidate words | ~163 |
+| Cross-references | ~3,332 |
+| Example sentences | ~41,450 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 231)
+Added 30 new dictionary entries (IDs 10695-10724) from candidate_words.json:
+
+- **Nouns (20)**: アウトドア (outdoor), アトリエ (studio), アボカド (avocado), アラーム (alarm), アリーナ (arena), アルファベット (alphabet), アワビ (abalone), アーモンド (almond), イクラ (salmon roe), イチオシ (top pick), イラスト (illustration), イワシ (sardine), インパクト (impact), {鱗|うろこ} (scale), エキス (extract), エッセイ (essay)
+- **Nouns + suru verb (5)**: アクセス (access), アナウンス (announcement), アピール (appeal), アプローチ (approach), アーカイブ (archive)
+- **Nouns + na-adjective (2)**: アホ (fool/stupid), インスタント (instant)
+- **Nouns (2 senses) (3)**: アクセント (accent/highlight), アプローチ (method/outreach), アクセス (transport/computing)
+- **Other nouns (3)**: アドバイス (advice), アーティスト (artist), アート (art), アラサー (around 30), アラフォー (around 40), インバウンド (inbound tourism)
+
+Notable features:
+- Primarily katakana loanwords filling gaps in the dictionary's coverage of common borrowed vocabulary
+- Food vocabulary: アボカド, アワビ, イクラ, イワシ, アーモンド, エキス, インスタント
+- Cultural/modern Japanese: アラサー/アラフォー (age-related wasei-eigo), インバウンド (tourism buzzword), イチオシ (fan/recommendation culture)
+- Arts/media: アトリエ, アート, アーティスト, イラスト, エッセイ, アーカイブ
+- One native Japanese word with new kanji: {鱗|うろこ} (scale)
+- Cross-references: アラサー↔アラフォー
+- New kanji: 2,278 → 2,279 ({鱗|りん})
+
+Total entries: 10,686 → 10,716
+Remaining candidates: 193 → 163
 
 ### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 230)
 Added 30 new dictionary entries (IDs 10665-10694) from candidate_words.json:
@@ -144,49 +165,6 @@ Notable features:
 Total entries: 10,520 → 10,551
 Remaining candidates: 269 → 238
 New kanji: 2,263 → 2,267 ({瀬|せ}, {禄|ろく}, {誉|よ}, {韻|いん})
-
-### 2026-02-08 (New Candidate Words - 90 Words Added)
-Added 90 new candidate words to candidate_words.json across 15+ domains, using diverse search strategies:
-
-- **Legal/Justice (4)**: {証拠|しょうこ}, {起訴|きそ}, {和解|わかい}, {弁護|べんご}
-- **Medical (2)**: {点滴|てんてき}, {麻酔|ますい}
-- **Arts/Crafts (3)**: {版画|はんが}, {織物|おりもの}, {漆|うるし}
-- **Compound Verbs (6)**: {付|つ}き{添|そ}う, {噛|か}み{合|あ}う, {寄|よ}り{添|そ}う, {入|い}り{浸|びた}る, {投|な}げ{出|だ}す, そそのかす
-- **Abstract/Academic (5)**: {実態|じったい}, {見通|みとお}し, {秩序|ちつじょ}, {逆説|ぎゃくせつ}, {偏差|へんさ}
-- **Emotional/Aesthetic (4)**: {余韻|よいん}, {心境|しんきょう}, {感銘|かんめい}, {胸騒|むなさわ}ぎ
-- **Adjectives (7)**: {何気|なにげ}ない, {初々|ういうい}しい, {目|め}まぐるしい, {晴|は}れ{晴|ば}れしい, {神々|こうごう}しい, おっかない, {気味悪|きみわる}い
-- **Dramatic/Critical (3)**: {瀬戸際|せとぎわ}, {土壇場|どたんば}, {修羅場|しゅらば}
-- **Social/Interpersonal (10)**: {場違|ばちが}い, {仕返|しかえ}し, {出来心|できごころ}, {素振|そぶ}り, {嫌気|いやけ}, {暇潰|ひまつぶ}し, {顔合|かおあ}わせ, {水際|みずぎわ}, {境目|さかいめ}, {口添|くちぞ}え
-- **Strategy (2)**: {先手|せんて}, {後手|ごて}
-- **Business/Admin (6)**: {転売|てんばい}, {権限|けんげん}, {内訳|うちわけ}, {赴任|ふにん}, {名義|めいぎ}, {便宜|べんぎ}
-- **Cultural/Traditional (8)**: お{裾分|すそわ}け, {引|ひ}き{出物|でもの}, {正座|せいざ}, {屋台|やたい}, {紙芝居|かみしばい}, {縁日|えんにち}, {肝試|きもだめ}し, {茶|ちゃ}の{間|ま}
-- **Religion/Spiritual (3)**: {参拝|さんぱい}, {巡礼|じゅんれい}, {墓参|はかまい}り
-- **Character/Dignity (3)**: {威厳|いげん}, {貫禄|かんろく}, {名誉|めいよ}
-- **Expressions/Idioms (3)**: {朝飯前|あさめしまえ}, {猫舌|ねこじた}, {取|と}り{越|こ}し{苦労|くろう}
-- **Other useful (11)**: {機転|きてん}, {所作|しょさ}, {手筈|てはず}, {脱力|だつりょく}, {波紋|はもん}, {掛|か}け{声|ごえ}, {手柄|てがら}, {手本|てほん}, {名乗|なの}り, {折|お}り{返|かえ}し, {手探|てさぐ}り
-- **Body/Daily (5)**: {読|よ}み{聞|き}かせ, {飛|と}び{火|ひ}, {寝癖|ねぐせ}, {足取|あしど}り, {腕組|うでぐ}み
-- **Remaining (5)**: {奥行|おくゆ}き, {利便性|りべんせい}, {一任|いちにん}, {触媒|しょくばい}, {幻覚|げんかく}
-
-Search strategies used: Legal/medical gap analysis, arts/crafts domain exploration, compound verb pattern completion, academic/abstract cross-referencing, emotional vocabulary expansion, social custom vocabulary, religious/spiritual coverage, dramatic expression mining, business register coverage, adjective gap filling
-
-Candidate words: 179 → 269
-
-### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 225)
-Added 30 new dictionary entries (IDs 10499-10528) from candidate_words.json:
-
-- **Verbs (10)**: ほぐれる (to come loose), ほどく (to untie), なぞる (to trace), {攫|さら}う (to kidnap), したためる (to compose), ひっくり{返|かえ}す (to overturn), {紐解|ひもと}く (to unravel), {翻|ひるがえ}す (to wave/reverse), ぶちまける (to dump out/confess), ぶれる (to blur/waver), {目指|めざ}す (to aim for)
-- **Nouns (8)**: {侍|さむらい} (samurai), タレ (sauce), ひよこ (chick), まとめ (summary), {簾|すだれ} (bamboo blind), {溜|た}まり{場|ば} (hangout), ちらし{寿司|ずし} (scattered sushi), ひき{逃|に}げ (hit-and-run), ひな{祭|まつ}り (Girls' Day), {振|ふ}る{舞|ま}い (behavior), {恵|めぐ}み (blessing)
-- **Adjectives (5)**: {分厚|ぶあつ}い (very thick), {密|ひそ}か (secret), まちまち (varied), まっさら (brand new), まばら (sparse), まとも (proper)
-- **Adverbs (2)**: まだまだ (still far from enough), {無理|むり}やり (forcibly)
-
-Notable features:
-- Multi-sense entries: ひよこ (chick/novice), ほぐれる (loosen/relax), なぞる (trace/retrace), {攫|さら}う (kidnap/sweep away), ひっくり{返|かえ}す (flip/reverse), {翻|ひるがえ}す (flutter/retract), ぶちまける (dump/confess), ぶれる (blur/waver), まとも (proper/direct), まっさら (new/blank), まだまだ (not enough/more to come), {振|ふ}る{舞|ま}い (behavior/hospitality), {目指|めざ}す (aspire/head for)
-- Cultural context: ひな{祭|まつ}り (March 3 traditions), ちらし{寿司|ずし} (festive food), {簾|すだれ} (Heian-era usage), {侍|さむらい} (warrior class)
-- Food vocabulary: タレ (dipping sauce), ちらし{寿司|ずし}
-
-Total entries: 10,475 → 10,505
-Remaining candidates: 208 → 179
-New kanji: 2,261 → 2,263 ({侍|さむらい}, {攫|さら})
 
 ---
 

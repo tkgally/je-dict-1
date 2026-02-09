@@ -7,6 +7,14 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-08 (New Candidate Words - 90 Words Added)
+Added 90 new candidate words to candidate_words.json across 15+ domains, using diverse search strategies.
+Candidate words: 179 → 269
+
+### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 225)
+Added 30 new dictionary entries (IDs 10499-10528) from candidate_words.json. Verbs, nouns, adjectives, and adverbs covering cultural vocabulary, food terms, and multi-sense words.
+Total entries: 10,475 → 10,505. Remaining candidates: 208 → 179.
+
 ### 2026-02-07 (Vocabulary Expansion - 30 New Entries, Session 224)
 Added 30 new dictionary entries from candidate_words.json, covering a diverse mix of vocabulary types:
 
