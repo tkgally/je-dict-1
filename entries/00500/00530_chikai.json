@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00530_chikai_ex1",
-      "japanese": "{学校|がっこう}は{家|いえ}から{近|ちか}いです。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦は→は：00079_ha⟧⟦{家|いえ}→家：00612_ie⟧⟦から→から：00504_kara⟧{近|ちか}い⟦です→です：09485_desu⟧。",
       "english": "The school is close to home.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00530_chikai_ex2",
-      "japanese": "この{近|ちか}くにコンビニはありますか？",
+      "japanese": "⟦この→この：00962_kono⟧{近|ちか}く⟦に→に：00314_ni⟧⟦コンビニ→コンビニ：01081_konbini⟧⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧？",
       "english": "Is there a convenience store nearby?",
       "notes": "この近く = around here",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00530_chikai_ex3",
-      "japanese": "{試験|しけん}が{近|ちか}いです。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦が→が：00051_ga⟧{近|ちか}い⟦です→です：09485_desu⟧。",
       "english": "The exam is coming up soon.",
       "notes": "Close in time",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00530_chikai_ex4",
-      "japanese": "{駅|えき}に{近|ちか}いアパートを{探|さが}しています。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧{近|ちか}い⟦アパート→アパート：01012_apaato⟧⟦を→を：00422_wo⟧⟦{探|さが}しています→探す：00493_sagasu⟧。",
       "english": "I'm looking for an apartment close to the station.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00530_chikai_ex5",
-      "japanese": "{会社|かいしゃ}から{家|いえ}が{近|ちか}いので、{歩|ある}いて{帰|かえ}ります。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦から→から：00504_kara⟧⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧{近|ちか}い⟦ので→ので：09501_node⟧、⟦{歩|ある}いて→歩く：00538_aruku⟧⟦{帰|かえ}ります→帰る：00508_kaeru⟧。",
       "english": "My house is close to work, so I walk home.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{近|ちか}い is an i-adjective meaning \"near\" or \"close\"—used for distance, time, and relationships.\n\nFORMS:\n- Adverb/Noun: {近|ちか}く (nearby; the vicinity)\n- Negative: {近|ちか}くない\n- Past: {近|ちか}かった\n\nCOMMON EXPRESSIONS:\n- {近|ちか}くに: nearby\n- この{近|ちか}く: around here\n- {駅|えき}に{近|ちか}い: close to the station\n- {近|ちか}い{将来|しょうらい}: near future\n- {近|ちか}い{関係|かんけい}: close relationship\n\nCOMPOUNDS:\n- {近道|ちかみち}: shortcut\n- {近所|きんじょ}: neighborhood\n- {近頃|ちかごろ}: recently, lately\n\nANTONYM:\n{遠|とお}い: far, distant",
+  "notes": "{近|ちか}い is an i-adjective meaning \"near\" or \"close\"—used for distance, time, and relationships.\n\nFORMS:\n- Adverb/Noun: {近|ちか}く (nearby; the vicinity)\n- Negative: {近|ちか}くない\n- Past: {近|ちか}かった\n\nCOMMON EXPRESSIONS:\n- {近|ちか}くに: nearby\n- ⟦この→この：00962_kono⟧{近|ちか}く: around here\n- ⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧{近|ちか}い: close to the station\n- {近|ちか}い⟦{将来|しょうらい}→将来：01438_shourai⟧: near future\n- {近|ちか}い⟦{関係|かんけい}→関係：01298_kankei⟧: close relationship\n\nCOMPOUNDS:\n- ⟦{近道|ちかみち}→近道：03118_chikamichi⟧: shortcut\n- ⟦{近所|きんじょ}→近所：01318_kinjo⟧: neighborhood\n- ⟦{近頃|ちかごろ}→近頃：00028_chikagoro⟧: recently, lately\n\nANTONYM:\n⟦{遠|とお}い→遠い：00529_tooi⟧: far, distant",
   "cross_references": [
     {
       "type": "see_also",
@@ -74,8 +74,8 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:31:10Z",
-    "modified": "2026-01-26T14:37:28Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-09T02:05:09Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
