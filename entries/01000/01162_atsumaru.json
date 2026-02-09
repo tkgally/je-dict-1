@@ -19,18 +19,8 @@
   "examples": [
     {
       "id": "01162_atsumaru_ex1",
-      "japanese": "{公園|こうえん}に{人|ひと}が{集|あつ}まっています。",
-      "english": "People are gathered in the park.",
-      "notes": "Use に for the location where gathering occurs",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01162_atsumaru_ex2",
-      "japanese": "{来週|らいしゅう}、{友達|ともだち}が{家|いえ}に{集|あつ}まります。",
-      "english": "My friends will gather at my house next week.",
+      "japanese": "{人|ひと}が{集|あつ}まった。",
+      "english": "People gathered.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -38,10 +28,50 @@
       ]
     },
     {
+      "id": "01162_atsumaru_ex2",
+      "japanese": "{公園|こうえん}に{人|ひと}が{集|あつ}まっています。",
+      "english": "People are gathered in the park.",
+      "notes": "に marks the location where gathering occurs",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01162_atsumaru_ex3",
+      "japanese": "{来週|らいしゅう}、{友達|ともだち}が{家|いえ}に{集|あつ}まって{パーティー|ぱーてぃー}をする。",
+      "english": "Next week, my friends will gather at my house for a party.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01162_atsumaru_ex4",
+      "japanese": "{お金|おかね}が{集|あつ}まった。",
+      "english": "The money was collected.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01162_atsumaru_ex5",
       "japanese": "{募金|ぼきん}がたくさん{集|あつ}まりました。",
       "english": "A lot of donations were collected.",
-      "notes": "Subject (donations) gathers—intransitive usage",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01162_atsumaru_ex6",
+      "japanese": "インターネットで{情報|じょうほう}がすぐに{集|あつ}まるようになった。",
+      "english": "Information can now be gathered quickly on the internet.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         2
@@ -60,7 +90,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T10:10:35Z",
-    "modified": "2026-01-23T00:43:36Z",
+    "modified": "2026-02-09T03:53:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
