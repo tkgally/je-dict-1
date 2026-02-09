@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,716 |
+| Total entries | ~10,746 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,917 (open) |
-| Candidate words | ~163 |
+| General tier | ~7,947 (open) |
+| Candidate words | ~133 |
 | Cross-references | ~3,332 |
-| Example sentences | ~41,450 |
+| Example sentences | ~41,570 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 232)
+Added 30 new dictionary entries (IDs 10725-10754) from candidate_words.json:
+
+- **Nouns (14)**: エプロン (apron), エリア (area), エビデンス (evidence), アスファルト (asphalt), アラート (alert), オイル (oil), アマチュア (amateur), アカデミー (academy), アシスタント (assistant), イラストレーター (illustrator), データ{通信|つうしん} (data communication), {雄|おす} (male animal)
+- **Nouns + suru verb (4)**: エスカレート (escalate), アウトプット (output), インプット (input), エントリー (entry/registration), フォロバ (follow back)
+- **Nouns (2+ senses) (3)**: エピソード (anecdote/episode), アクション (action step/action genre), エージェント (agent/spy), オフ (off/day off/discount)
+- **Particles (2)**: っけ (memory-confirming), かも (maybe)
+- **Interjections (3)**: よし (alright!), そうそう (yeah yeah), あのさ (hey, listen), よっしゃ (yes!)
+- **Adverbs (2)**: いまひとつ (not quite), ちょい (a bit)
+- **Expression (1)**: どうしよう (what should I do)
+
+Notable features:
+- Mix of loanwords, conversational particles, and interjections
+- Multi-sense entries: エピソード (anecdote/episode), アクション (concrete step/entertainment genre), エージェント (representative/spy), オフ (off/day off/discount)
+- Cross-references: アウトプット↔インプット, よし↔よっしゃ
+- Conversational vocabulary: っけ, かも, そうそう, あのさ, どうしよう, よし, よっしゃ
+- Business/tech: エビデンス, アウトプット/インプット, エントリー, エージェント, データ{通信|つうしん}
+- Internet/social media: フォロバ (follow back)
+- New kanji: 2,279 → 2,280 ({雄|ゆう})
+
+Total entries: 10,716 → 10,746
+Remaining candidates: 163 → 133
 
 ### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 231)
 Added 30 new dictionary entries (IDs 10695-10724) from candidate_words.json:
@@ -147,24 +170,6 @@ Notable features:
 Total entries: 10,551 → 10,581
 Remaining candidates: 238 → 208
 New kanji: 2,267 → 2,270 ({漆|しつ}, {秩|ちつ}, {赴|ふ})
-
-### 2026-02-08 (Vocabulary Expansion - 31 New Entries, Session 226)
-Added 31 new dictionary entries (IDs 10544-10574) from candidate_words.json:
-
-- **Verbs (7)**: ひっくり{返|かえ}る (to topple over), もたらす (to bring about), {真似|まね}る (to imitate), {免|まぬが}れる (to escape), {纏|まつ}わる (to be associated with), {纏|まと}う (to be clad in)
-- **Nouns (20)**: {屋台|やたい} (food stall), {猫舌|ねこじた} (can't handle hot food), {朝飯前|あさめしまえ} (a piece of cake), {正座|せいざ} (formal sitting), {波紋|はもん} (ripple), {瀬戸際|せとぎわ} (brink), {土壇場|どたんば} (last moment), {先手|せんて} (initiative), {後手|ごて} (reactive position), {転売|てんばい} (resale), {内訳|うちわけ} (breakdown), {余韻|よいん} (afterglow), {感銘|かんめい} (deep impression), {手柄|てがら} (feat), {手本|てほん} (model), {手探|てさぐ}り (trial and error), {見通|みとお}し (outlook), {実態|じったい} (actual conditions), {名誉|めいよ} (honor), {奥行|おくゆ}き (depth), {貫禄|かんろく} (gravitas), {掛|か}け{声|ごえ} (rallying cry), {抹茶|まっちゃ} (matcha)
-- **Adverb (1)**: {丸|まる}ごと (whole, entirely)
-- **Na-adjective (1)**: {場違|ばちが}い (out of place)
-
-Notable features:
-- Multi-sense entries: ひっくり{返|かえ}る (physical/figurative), {屋台|やたい} (food stall/festival float), {波紋|はもん} (ripple/repercussions), {先手|せんて}/{後手|ごて} (strategy/board games), {手探|てさぐ}り (physical/figurative), {見通|みとお}し (forecast/visibility), {余韻|よいん} (sound/impression), {纏|まつ}わる (associated/cling)
-- Cross-references: {先手|せんて}↔{後手|ごて} (antonym pair), {土壇場|どたんば}→{瀬戸際|せとぎわ}, {纏|まと}う→{纏|まつ}わる
-- Cultural vocabulary: {屋台|やたい} (Fukuoka food stalls), {猫舌|ねこじた}, {正座|せいざ}, {抹茶|まっちゃ} (tea ceremony)
-- Strategy/business: {先手|せんて}, {後手|ごて}, {転売|てんばい}, {内訳|うちわけ}, {見通|みとお}し, {実態|じったい}
-
-Total entries: 10,520 → 10,551
-Remaining candidates: 269 → 238
-New kanji: 2,263 → 2,267 ({瀬|せ}, {禄|ろく}, {誉|よ}, {韻|いん})
 
 ---
 
