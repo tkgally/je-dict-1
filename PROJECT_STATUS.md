@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-09
+**Last updated**: 2026-02-10
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,746 |
+| Total entries | ~10,776 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,947 (open) |
-| Candidate words | ~133 |
+| General tier | ~7,977 (open) |
+| Candidate words | ~104 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,570 |
 | Audio files | 1,028 |
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 233)
+Added 30 new dictionary entries (IDs 10755-10784) from candidate_words.json:
+
+- **Expressions (13)**: 空気読む (read the room), なんでもいい (anything's fine), ということで (so then), だよね (right?), でしょ (right?), でもさ (but you know), まあね (well yeah), てことは (so that means), なにそれ (what's that?), いいよ (it's okay), ノリが悪い (being a killjoy), やばっ (oh no!/wow!), くそ (damn)
+- **Adjectives (4)**: かっこわるい (uncool), おもろい (funny, Kansai), たるい (sluggish), ブサイク (ugly)
+- **Verbs (3)**: ポチる (order online), やんちゃする (act up), おちゃらける (joke around)
+- **Nouns (7)**: ごろつき (thug), 二項対立 (binary opposition), 三和土 (entrance floor), 赤字国債 (deficit bonds), 上がりがまち (entrance step), エンターテインメント (entertainment), タメ語 (casual speech)
+- **Adverb (1)**: ほんまに (really, Kansai)
+- **Pronoun (1)**: やつ (guy/thing)
+- **Suffix (1)**: みたい (like, similar to)
+
+Notable features:
+- Heavy focus on conversational expressions and casual vocabulary useful for media comprehension
+- Kansai dialect: ほんまに, おもろい
+- Cultural concepts: 空気読む (KY culture), タメ語 (speech level switching), ノリが悪い (group participation norms)
+- Traditional architecture: 三和土 (tataki), 上がりがまち (entrance step)
+- Modern internet culture: ポチる (online impulse buying)
+- Multi-sense entries: みたい (resemblance/conjecture), かっこわるい (uncool/embarrassing), でしょ (confirmation/vindication), なにそれ (curiosity/disbelief), やばっ (alarm/excitement), ブサイク (ugly/clumsy), やんちゃする (childhood/teenage), いいよ (permission/reassurance), やつ (person/thing), くそ (expletive/prefix), ということで (transition/wrap-up)
+- Cross-references: だよね↔だよな, だよね↔でしょ, てことは↔ということで, かっこわるい↔かっこいい
+- New kanji: 2,280 → 2,281 (框)
+
+Total entries: 10,746 → 10,776
+Remaining candidates: 133 → 104
 
 ### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 232)
 Added 30 new dictionary entries (IDs 10725-10754) from candidate_words.json:
@@ -116,23 +140,6 @@ Notable features:
 Total entries: 10,641 → 10,671
 Remaining candidates: 167 → 137
 
-### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 229)
-Added 30 new dictionary entries (IDs 10635-10664) from candidate_words.json:
-
-- **Verbs (6)**: もてなす (to entertain), もてはやす (to lavish praise on), {過|よぎ}る (to cross one's mind), {寄越|よこ}す (to send), {跨|また}がる (to straddle), くびれる (to be constricted)
-- **Nouns (17)**: ものづくり (craftsmanship), {物|もの}の{怪|け} (evil spirit), もやし (bean sprouts), {櫓|やぐら} (tower/turret), やらせ (staged event), {幽霊|ゆうれい} (ghost), ゆかり (connection), ゆで{卵|たまご} (boiled egg), ゆとり (room/composure), わかめ (wakame seaweed), {侘|わ}び (wabi aesthetic), {引|ひ}き{出物|でもの} (wedding favor), {手筈|てはず} (arrangements), {脱力|だつりょく} (loss of strength), {茶|ちゃ}の{間|ま} (living room), {名乗|なの}り (self-introduction), {巡礼|じゅんれい} (pilgrimage), {墓参|はかまい}り (visiting a grave), もち{米|ごめ} (glutinous rice)
-- **Adjectives (2)**: おっかない (scary), {気味悪|きみわる}い (creepy)
-- **Adverbs (2)**: {故|ゆえ} (reason/because of), {余程|よほど} (considerably)
-- **Noun (formal)**: {便宜|べんぎ} (convenience/accommodation)
-
-Notable features:
-- Multi-sense entries: {過|よぎ}る (mind/vision), {寄越|よこ}す (send/demand), {跨|また}がる (straddle/span), {幽霊|ゆうれい} (ghost/phantom), {故|ゆえ} (reason/because), {余程|よほど} (considerably/nearly), {便宜|べんぎ} (convenience/accommodation), {脱力|だつりょく} (physical/comedic style), {茶|ちゃ}の{間|ま} (room/public), {名乗|なの}り (introduce/volunteer), {巡礼|じゅんれい} (religious/anime), ゆとり (margin/composure)
-- Cultural vocabulary: {侘|わ}び (wabi aesthetic), {引|ひ}き{出物|でもの} (wedding custom), {茶|ちゃ}の{間|ま} (traditional home), {巡礼|じゅんれい} (Shikoku/anime pilgrimage), {墓参|はかまい}り (grave visiting), {物|もの}の{怪|け} (folklore), {櫓|やぐら} (castle/festival)
-- Food vocabulary: もやし, わかめ, ゆで{卵|たまご}, もち{米|ごめ}
-- New kanji: 2,272 → 2,275 ({宜|ぎ}, {櫓|ろ}, {筈|かつ})
-
-Total entries: 10,611 → 10,641
-Remaining candidates: 178 → 167
 
 ### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 228)
 Added 30 new dictionary entries (IDs 10605-10634) from candidate_words.json:
