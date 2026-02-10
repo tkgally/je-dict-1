@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00551_dono_ex1",
-      "japanese": "どの{本|ほん}が{欲|ほ}しいですか？",
+      "japanese": "どの⟦{本|ほん}→本：00111_hon⟧⟦が→が：00051_ga⟧⟦{欲|ほ}しい→欲しい：01107_hoshii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧？",
       "english": "Which book do you want?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00551_dono_ex2",
-      "japanese": "どの{電車|でんしゃ}に{乗|の}りますか？",
+      "japanese": "どの⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}ります→乗る：00511_noru⟧⟦か→か：09473_ka⟧？",
       "english": "Which train will you take?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00551_dono_ex3",
-      "japanese": "どの{人|ひと}が{田中|たなか}さんですか？{名前|なまえ}を{聞|き}いただけなので{顔|かお}が{分|わ}かりません。",
+      "japanese": "どの⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{田中|たなか}⟦さん→さん：09848_san⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧？⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{聞|き}いた→聞く：00483_kiku⟧⟦だけ→だけ：03093_dake⟧な⟦ので→ので：09501_node⟧⟦{顔|かお}→顔：00558_kao⟧⟦が→が：00051_ga⟧⟦{分|わ}かりません→分かる：00463_wakaru⟧。",
       "english": "Which person is Mr. Tanaka? I only heard his name, so I don't know his face.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00551_dono_ex4",
-      "japanese": "どの{色|いろ}が{好|す}きですか？{私|わたし}は{青|あお}が{好|す}きですが、{赤|あか}もいいと{思|おも}います。",
+      "japanese": "どの⟦{色|いろ}→色：00849_iro⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧？⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{青|あお}→青：02841_ao⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧、⟦{赤|あか}→赤：02842_aka⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
       "english": "Which color do you like? I like blue, but I think red is nice too.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00551_dono_ex5",
-      "japanese": "{初|はじ}めての{場所|ばしょ}だったので、どの{道|みち}を{行|い}けばいいか{分|わ}からなくて、{駅|えき}で{人|ひと}に{聞|き}きました。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧だった⟦ので→ので：09501_node⟧、どの⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{行|い}けば→行く：00119_iku⟧⟦いい→いい：00118_ii⟧⟦か→か：09473_ka⟧⟦{分|わ}からなくて→分かる：00463_wakaru⟧、⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{聞|き}きました→聞く：00483_kiku⟧。",
       "english": "It was my first time there, so I didn't know which road to take and asked someone at the station.",
       "notes": null,
       "has_audio": false,
@@ -74,7 +74,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:23:40Z",
-    "modified": "2026-01-31T23:28:47Z",
+    "modified": "2026-02-09T21:37:47Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
