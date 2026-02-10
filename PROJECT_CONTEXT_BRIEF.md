@@ -6,12 +6,12 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 
 | Metric | Value |
 |--------|-------|
-| Total entries | 10,806 |
+| Total entries | 10,836 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | 8,007 (open — all new entries here) |
-| Next entry ID | 10815 |
-| Candidate words | 151 |
+| General tier | 8,037 (open — all new entries here) |
+| Next entry ID | 10845 |
+| Candidate words | 121 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,570 |
 

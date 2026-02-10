@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,806 |
+| Total entries | ~10,836 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,007 (open) |
-| Candidate words | ~151 |
+| General tier | ~8,037 (open) |
+| Candidate words | ~121 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,570 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 235)
+Added 30 new dictionary entries (IDs 10815-10844) from candidate_words.json:
+
+- **Nouns (22)**: キッチン (kitchen), カウンター (counter), カテゴリー (category), キャンパス (campus), キリスト教 (Christianity), ギフト (gift), クレジット (credit), グランプリ (grand prix), オプション (option), オーナー (owner), キーワード (keyword), ギャラリー (gallery), ガイドライン (guideline), キャッシュカード (ATM card), キャラメル (caramel), キムチ (kimchi), オーディション (audition), オープニング (opening), ガイダンス (guidance), カーボン (carbon), カルチャー (culture)
+- **Nouns + suru verb (3)**: カット (cut), キープ (keep), クリア (clear)
+- **Nouns + na-adjective (3)**: カオス (chaos), オープン (open), カラー (color)
+- **Nouns + no-adjective (1)**: オリジナル (original)
+- **Onomatopoeia (1)**: ガタゴト (rumbling, clattering)
+
+Notable features:
+- Primarily katakana loanwords filling major gaps in common everyday vocabulary
+- Multi-sense entries: カウンター (service desk/counterattack), カラー (color/hair coloring), キャリア (career/phone carrier), クリア (clear/pass/transparent), クレジット (payment/attribution), ギャラリー (art gallery/spectators), カット (haircut/deletion), キープ (maintain/bottle keep), オープン (grand opening/open-minded), オリジナル (unique creation/source version)
+- Japan-specific concepts: ボトルキープ (bottle keep at bars), カルチャースクール (hobby classes), システムキッチン (built-in kitchen units), キャッシュカード (ATM-only bank card)
+- Cross-reference: キッチン↔台所
+
+Total entries: 10,806 → 10,836
+Remaining candidates: 151 → 121
 
 ### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 234)
 Added 30 new dictionary entries (IDs 10785-10814) from candidate_words.json:
@@ -136,28 +154,6 @@ Notable features:
 
 Total entries: 10,686 → 10,716
 Remaining candidates: 193 → 163
-
-### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 230)
-Added 30 new dictionary entries (IDs 10665-10694) from candidate_words.json:
-
-- **Nouns (25)**: しじみ (freshwater clam), ちまき (rice dumpling), ちょんまげ (topknot), ふるさと{納税|のうぜい} (hometown tax), {書|か}き{入|い}れ{時|どき} (busy season), {合気道|あいきどう} (aikido), {居合道|いあいどう} (iaido), {雹|ひょう} (hail), {空手道|からてどう} (karate), {偏差|へんさ} (deviation), {幻覚|げんかく} (hallucination), {威厳|いげん} (dignity), {利便性|りべんせい} (convenience), {素振|そぶ}り (behavior/pretense), {嫌気|いやけ} (disgust/aversion), {顔合|かおあ}わせ (meeting), {水際|みずぎわ} (water's edge/border control), {口添|くちぞ}え (putting in a good word), アイデンティティ (identity), {三男|さんなん} (third son), {三女|さんじょ} (third daughter), くノ{一|いち} (female ninja), {義理|ぎり}の{親|おや} (parent-in-law), ネット{回線|かいせん} (internet connection), てにをは (particles/fine points)
-- **Nouns (suru verb) (1)**: {一任|いちにん} (entrusting entirely)
-- **Nouns (2 senses) (3)**: ちゃんぽん (chanpon/mixing), {触媒|しょくばい} (catalyst), {水際|みずぎわ} (shore/border control)
-- **Verb (1)**: かまける (to be preoccupied with)
-- **Adjective (1)**: ねむたい (sleepy)
-
-Notable features:
-- Multi-sense entries: ちゃんぽん (noodle dish/mixing), てにをは (particles/wording), {触媒|しょくばい} (chemical/figurative), {水際|みずぎわ} (shore/border), {素振|そぶ}り (behavior/sign), {義理|ぎり}の{親|おや} (in-law/step-parent)
-- Martial arts cluster: {合気道|あいきどう}, {居合道|いあいどう}, {空手道|からてどう} (with cross-references)
-- Cultural vocabulary: ちまき ({端午|たんご}の{節句|せっく}), ちょんまげ (sumo/samurai), くノ{一|いち} (ninja), {顔合|かおあ}わせ (wedding custom)
-- Modern/practical: ふるさと{納税|のうぜい}, ネット{回線|かいせん}, アイデンティティ, {利便性|りべんせい}
-- Family terms: {三男|さんなん}, {三女|さんじょ}, {義理|ぎり}の{親|おや} (with cross-references)
-- Academic/scientific: {偏差|へんさ} ({偏差|へんさ}{値|ち}), {触媒|しょくばい}, {幻覚|げんかく}
-- New kanji: 2,277 → 2,278 ({雹|ひょう})
-
-Total entries: 10,641 → 10,671
-Remaining candidates: 167 → 137
-
 
 ---
 
