@@ -7,6 +7,17 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 230)
+Added 30 new dictionary entries (IDs 10665-10694) from candidate_words.json:
+
+- **Nouns (25)**: しじみ, ちまき, ちょんまげ, ふるさと納税, 書き入れ時, 合気道, 居合道, 雹, 空手道, 偏差, 幻覚, 威厳, 利便性, 素振り, 嫌気, 顔合わせ, 水際, 口添え, アイデンティティ, 三男, 三女, くノ一, 義理の親, ネット回線, てにをは
+- **Nouns (suru verb) (1)**: 一任
+- **Verb (1)**: かまける
+- **Adjective (1)**: ねむたい
+
+Total entries: 10,641 → 10,671
+Remaining candidates: 167 → 137
+
 ### 2026-02-08 (Vocabulary Expansion - 31 New Entries, Session 226)
 Added 31 new dictionary entries (IDs 10544-10574) from candidate_words.json:
 
