@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,776 |
+| Total entries | ~10,806 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~7,977 (open) |
-| Candidate words | ~104 |
+| General tier | ~8,007 (open) |
+| Candidate words | ~151 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,570 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 234)
+Added 30 new dictionary entries (IDs 10785-10814) from candidate_words.json:
+
+- **Nouns (21)**: おんぼろ (shabby), {牡蠣|かき} (oyster), カステラ (castella cake), {蕪|かぶ} (turnip), {干瓢|かんぴょう} (dried gourd), がらくた (junk), カニカマ (imitation crab), キクラゲ (wood ear mushroom), キャッチコピー (catchphrase), クッキー (cookie), クッション (cushion), グッズ (merchandise), カクテル (cocktail), カタログ (catalog), オムレツ (omelette), オリーブ (olive), キャンペーン (promotion), ギャグ (gag/joke), ギャンブル (gambling), グラウンド (playing field), クローン (clone)
+- **Onomatopoeia/mimetic (4)**: かんかん (furious/scorching/clanging), ガクガク (shaking), ギザギザ (jagged), ぐず (slowpoke)
+- **Na-adjectives (2)**: カラフル (colorful), カチューシャ (headband)
+- **Multi-sense (3)**: {肝|きも} (key point/liver), クッション (cushion/buffer), クラブ (club/nightclub)
+
+Notable features:
+- Food and ingredients cluster: {牡蠣|かき}, カステラ, {蕪|かぶ}, {干瓢|かんぴょう}, カニカマ, キクラゲ, クッキー, オムレツ, オリーブ, カクテル
+- Japanese food culture: regional specialties ({長崎|ながさき}カステラ, {広島|ひろしま}{牡蠣|かき}, {小豆島|しょうどしま}オリーブ)
+- Wasei-eigo: キャッチコピー (catch + copy), カニカマ (crab + kamaboko)
+- Onomatopoeia: かんかん (3 senses), ガクガク, ギザギザ
+- New kanji: 2,281 → 2,284 (瓢, 蕪, 蠣)
+
+Total entries: 10,776 → 10,806
+Remaining candidates: 104 → 151
 
 ### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 233)
 Added 30 new dictionary entries (IDs 10755-10784) from candidate_words.json:
@@ -140,43 +158,6 @@ Notable features:
 Total entries: 10,641 → 10,671
 Remaining candidates: 167 → 137
 
-
-### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 228)
-Added 30 new dictionary entries (IDs 10605-10634) from candidate_words.json:
-
-- **Nouns (18)**: {神輿|みこし} (portable shrine), {暇潰|ひまつぶ}し (killing time), かみさん (wife), {紙芝居|かみしばい} (kamishibai), {縁日|えんにち} (temple festival), {肝試|きもだめ}し (test of courage), {取|と}り{越|こ}し{苦労|くろう} (unnecessary worry), {名義|めいぎ} (name on title), {境目|さかいめ} (boundary), {足取|あしど}り (gait/trail), {寝癖|ねぐせ} (bed hair), {腕組|うでぐ}み (folding arms), {折|お}り{返|かえ}し (return call/turnaround), {見|み}どころ (highlight), {婿|むこ} (bridegroom), {読|よ}み{聞|き}かせ (reading aloud), {飛|と}び{火|ひ} (spreading fire/impetigo), {参拝|さんぱい} (shrine visit)
-- **Verbs (6)**: {漕|こ}ぎ{着|つ}ける (to manage to reach), なぞらえる (to liken), {引|ひ}っ{掛|か}ける (to hook/trick), ぶら{下|さ}げる (to hang), {触|ふ}れ{合|あ}う (to interact), {見|み}なす (to regard as), {目論|もくろ}む (to scheme)
-- **I-adjectives (3)**: ひもじい (hungry), {晴|は}れ{晴|ば}れしい (bright/cheerful), {神々|こうごう}しい (divine/sublime)
-- **Adverb/onomatopoeia (1)**: くちゃくちゃ (noisily chewing/crumpled)
-- **Prefix (1)**: {初|はつ} (first)
-
-Notable features:
-- Cultural vocabulary cluster: {神輿|みこし}, {縁日|えんにち}, {肝試|きもだめ}し, {紙芝居|かみしばい}, {参拝|さんぱい}
-- Multi-sense entries: {引|ひ}っ{掛|か}ける (3 senses), {飛|と}び{火|ひ} (3 senses), {足取|あしど}り (2 senses), {折|お}り{返|かえ}し (2 senses), くちゃくちゃ (2 senses), {見|み}どころ (2 senses), {婿|むこ} (2 senses), {触|ふ}れ{合|あ}う (2 senses)
-- New kanji: 2,270 → 2,272 ({婿|せい}, {輿|よ})
-
-Total entries: 10,581 → 10,611
-Remaining candidates: 208 → 178
-
-### 2026-02-08 (Vocabulary Expansion - 30 New Entries, Session 227)
-Added 30 new dictionary entries (IDs 10575-10604) from candidate_words.json:
-
-- **Nouns (18)**: {証拠|しょうこ} (evidence), {起訴|きそ} (indictment), {和解|わかい} (reconciliation/settlement), {弁護|べんご} (defense), {点滴|てんてき} (IV drip), {麻酔|ますい} (anesthesia), {版画|はんが} (printmaking), {織物|おりもの} (textile), {秩序|ちつじょ} (order), {逆説|ぎゃくせつ} (paradox), {心境|しんきょう} (state of mind), {胸騒|むなさわ}ぎ (foreboding), {仕返|しかえ}し (retaliation), {出来心|できごころ} (sudden impulse), {修羅場|しゅらば} (carnage/confrontation), {権限|けんげん} (authority), お{裾分|すそわ}け (sharing gifts), {機転|きてん} (quick wit), {所作|しょさ} (demeanor)
-- **Verbs (6)**: {付|つ}き{添|そ}う (to accompany), {噛|か}み{合|あ}う (to mesh), {寄|よ}り{添|そ}う (to stay close), {入|い}り{浸|びた}る (to frequent), {投|な}げ{出|だ}す (to give up), そそのかす (to instigate)
-- **I-adjectives (3)**: {何気|なにげ}ない (casual), {初々|ういうい}しい (fresh/innocent), {目|め}まぐるしい (dizzying)
-- **Noun + suru verbs (1)**: {赴任|ふにん} (taking up a new post)
-- **Noun (cultural)**: {漆|うるし} (lacquer/lacquerware)
-
-Notable features:
-- Multi-sense entries: {和解|わかい} (reconciliation/legal settlement), {漆|うるし} (lacquer/lacquerware), {噛|か}み{合|あ}う (mesh/in sync), {投|な}げ{出|だ}す (stretch out/give up), {修羅場|しゅらば} (battle/confrontation), {寄|よ}り{添|そ}う (physical/emotional)
-- Legal vocabulary cluster: {証拠|しょうこ}, {起訴|きそ}, {和解|わかい}, {弁護|べんご}
-- Medical vocabulary: {点滴|てんてき}, {麻酔|ますい}
-- Cultural context: {漆|うるし} (lacquerware tradition), お{裾分|すそわ}け (sharing custom), {修羅場|しゅらば} (Buddhist origin), {所作|しょさ} (tea ceremony)
-- Cross-references: {起訴|きそ}↔{弁護|べんご}, {付|つ}き{添|そ}う↔{寄|よ}り{添|そ}う
-
-Total entries: 10,551 → 10,581
-Remaining candidates: 238 → 208
-New kanji: 2,267 → 2,270 ({漆|しつ}, {秩|ちつ}, {赴|ふ})
 
 ---
 
