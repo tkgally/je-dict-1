@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,866 |
+| Total entries | ~10,896 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,067 (open) |
-| Candidate words | ~211 |
+| General tier | ~8,097 (open) |
+| Candidate words | ~181 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,570 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 238)
+Added 30 new dictionary entries (IDs 10875-10904) from candidate_words.json:
+
+- **Verbs (12)**: {促|うなが}す (urge), {遮|さえぎ}る (block), {委|ゆだ}ねる (entrust), {募|つの}る (recruit/intensify), {率|ひき}いる (lead), {嫉|ねた}む (envy), {滅|ほろ}びる (perish), {偽|いつわ}る (deceive), {償|つぐな}う (atone), {侮|あなど}る (underestimate), {宥|なだ}める (soothe), {弾|はじ}く (flick/repel)
+- **Abstract/emotional nouns (5)**: {陰謀|いんぼう} (conspiracy), {慈悲|じひ} (compassion), {憤|いきどおり} (indignation), {義理|ぎり} (social obligation), {伏線|ふくせん} (foreshadowing)
+- **Noun + na-adjective (2)**: {寛容|かんよう} (tolerance), {壮大|そうだい} (magnificent)
+- **Na-adjective (1)**: {過酷|かこく} (harsh)
+- **Noun + suru verb (5)**: {献身|けんしん} (devotion), {示唆|しさ} (suggestion), {言及|げんきゅう} (mention), {生成|せいせい} (generation), {精算|せいさん} (settlement)
+- **Nouns (4)**: {遺言|ゆいごん} (will/testament), {採算|さいさん} (profitability), {下請|したう}け (subcontracting), {一連|いちれん} (series)
+- **Noun + suru verb (1)**: {連鎖|れんさ} (chain reaction)
+
+Notable features:
+- Focus on literary/formal Japanese vocabulary — verbs, abstract nouns, and academic terms
+- Multi-sense entries: {募|つの}る (recruit/intensify), {偽|いつわ}る (deceive/falsify), {弾|はじ}く (flick/repel/calculate), {遮|さえぎ}る (block/interrupt), {義理|ぎり} (duty/in-law prefix), {促|うなが}す (urge/stimulate)
+- Cultural concepts: {義理|ぎり} (義理チョコ, 義理と人情), {慈悲|じひ} (Buddhist compassion), {伏線|ふくせん} (foreshadowing in media criticism), {下請|したう}け (Japanese industrial subcontracting pyramid)
+- Business vocabulary: {採算|さいさん}, {精算|せいさん}, {下請|したう}け
+- New kanji: 2,284 → 2,289 (唆, 宥, 慈, 謀, 遮)
+
+Total entries: 10,866 → 10,896
+Remaining candidates: 211 → 181
 
 ### 2026-02-11 (New Candidate Words - 55 Words, Session 237)
 Added 55 new candidate words to candidate_words.json using diverse search strategies:
@@ -125,30 +146,6 @@ Notable features:
 
 Total entries: 10,776 → 10,806
 Remaining candidates: 104 → 151
-
-### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 233)
-Added 30 new dictionary entries (IDs 10755-10784) from candidate_words.json:
-
-- **Expressions (13)**: 空気読む (read the room), なんでもいい (anything's fine), ということで (so then), だよね (right?), でしょ (right?), でもさ (but you know), まあね (well yeah), てことは (so that means), なにそれ (what's that?), いいよ (it's okay), ノリが悪い (being a killjoy), やばっ (oh no!/wow!), くそ (damn)
-- **Adjectives (4)**: かっこわるい (uncool), おもろい (funny, Kansai), たるい (sluggish), ブサイク (ugly)
-- **Verbs (3)**: ポチる (order online), やんちゃする (act up), おちゃらける (joke around)
-- **Nouns (7)**: ごろつき (thug), 二項対立 (binary opposition), 三和土 (entrance floor), 赤字国債 (deficit bonds), 上がりがまち (entrance step), エンターテインメント (entertainment), タメ語 (casual speech)
-- **Adverb (1)**: ほんまに (really, Kansai)
-- **Pronoun (1)**: やつ (guy/thing)
-- **Suffix (1)**: みたい (like, similar to)
-
-Notable features:
-- Heavy focus on conversational expressions and casual vocabulary useful for media comprehension
-- Kansai dialect: ほんまに, おもろい
-- Cultural concepts: 空気読む (KY culture), タメ語 (speech level switching), ノリが悪い (group participation norms)
-- Traditional architecture: 三和土 (tataki), 上がりがまち (entrance step)
-- Modern internet culture: ポチる (online impulse buying)
-- Multi-sense entries: みたい (resemblance/conjecture), かっこわるい (uncool/embarrassing), でしょ (confirmation/vindication), なにそれ (curiosity/disbelief), やばっ (alarm/excitement), ブサイク (ugly/clumsy), やんちゃする (childhood/teenage), いいよ (permission/reassurance), やつ (person/thing), くそ (expletive/prefix), ということで (transition/wrap-up)
-- Cross-references: だよね↔だよな, だよね↔でしょ, てことは↔ということで, かっこわるい↔かっこいい
-- New kanji: 2,280 → 2,281 (框)
-
-Total entries: 10,746 → 10,776
-Remaining candidates: 133 → 104
 
 ---
 

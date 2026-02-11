@@ -7,6 +7,20 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 233)
+Added 30 new dictionary entries (IDs 10755-10784) from candidate_words.json:
+
+- **Expressions (13)**: 空気読む (read the room), なんでもいい (anything's fine), ということで (so then), だよね (right?), でしょ (right?), でもさ (but you know), まあね (well yeah), てことは (so that means), なにそれ (what's that?), いいよ (it's okay), ノリが悪い (being a killjoy), やばっ (oh no!/wow!), くそ (damn)
+- **Adjectives (4)**: かっこわるい (uncool), おもろい (funny, Kansai), たるい (sluggish), ブサイク (ugly)
+- **Verbs (3)**: ポチる (order online), やんちゃする (act up), おちゃらける (joke around)
+- **Nouns (7)**: ごろつき (thug), 二項対立 (binary opposition), 三和土 (entrance floor), 赤字国債 (deficit bonds), 上がりがまち (entrance step), エンターテインメント (entertainment), タメ語 (casual speech)
+- **Adverb (1)**: ほんまに (really, Kansai)
+- **Pronoun (1)**: やつ (guy/thing)
+- **Suffix (1)**: みたい (like, similar to)
+
+Total entries: 10,746 → 10,776
+Remaining candidates: 133 → 104
+
 ### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 232)
 Added 30 new dictionary entries (IDs 10725-10754) from candidate_words.json:
 
