@@ -7,6 +7,18 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 231)
+Added 30 new dictionary entries (IDs 10695-10724) from candidate_words.json:
+
+- **Nouns (20)**: アウトドア (outdoor), アトリエ (studio), アボカド (avocado), アラーム (alarm), アリーナ (arena), アルファベット (alphabet), アワビ (abalone), アーモンド (almond), イクラ (salmon roe), イチオシ (top pick), イラスト (illustration), イワシ (sardine), インパクト (impact), {鱗|うろこ} (scale), エキス (extract), エッセイ (essay)
+- **Nouns + suru verb (5)**: アクセス (access), アナウンス (announcement), アピール (appeal), アプローチ (approach), アーカイブ (archive)
+- **Nouns + na-adjective (2)**: アホ (fool/stupid), インスタント (instant)
+- **Nouns (2 senses) (3)**: アクセント (accent/highlight), アプローチ (method/outreach), アクセス (transport/computing)
+- **Other nouns (3)**: アドバイス (advice), アーティスト (artist), アート (art), アラサー (around 30), アラフォー (around 40), インバウンド (inbound tourism)
+
+Total entries: 10,686 → 10,716
+Remaining candidates: 193 → 163
+
 ### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 230)
 Added 30 new dictionary entries (IDs 10665-10694) from candidate_words.json:
 
