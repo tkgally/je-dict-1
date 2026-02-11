@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,926 |
+| Total entries | ~10,956 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,127 (open) |
-| Candidate words | ~151 |
+| General tier | ~8,157 (open) |
+| Candidate words | ~121 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,700 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 240)
+Added 30 new dictionary entries (IDs 10935-10964) from candidate_words.json:
+
+- **Nouns (20)**: サウナ (sauna), サプライズ (surprise), サプリメント (supplement), サミット (summit), サンプル (sample), サロン (salon), サバイバル (survival), サポーター (supporter/brace), シート (sheet/seat), シネマ (cinema), シグナル (signal), シューズ (shoes), カウンセリング (counseling), カリキュラム (curriculum), シンボル (symbol), サウンド (sound), カルシウム (calcium), サブカルチャー (subculture), シソ (perilla/shiso), シリーズ (series)
+- **Na-adjectives (2)**: シビア (severe), シンプル (simple)
+- **Multi-category nouns (5)**: シングル (single — room/music/unmarried), ショー (show), ショート (short/short circuit), シーズン (season — time/TV), シナリオ (scenario/script)
+- **Noun + suru verb (2)**: シミュレーション (simulation), ショート (short circuit)
+- **Onomatopoeia (1)**: ザクザク (crunchy/in abundance)
+
+Notable features:
+- Katakana loanwords filling common gaps, plus Japanese onomatopoeia and food vocabulary
+- Multi-sense entries: シナリオ (script/projected events), シーズン (time of year/TV season), シート (flat sheet/seat), シングル (room/music/unmarried), ショート (hair length/short circuit), サロン (beauty/online community), サポーター (sports fan/brace), ザクザク (crunchy sound/abundance)
+- Japan-specific concepts: サウナ (Japanese sauna cycle with 水風呂 and 整う), サプライズ (positive surprises only), ショートケーキ (strawberry sponge, not American shortcake), ブルーシート (iconic Japanese tarp), オンラインサロン (paid membership communities), サバイバルゲーム/サバゲー (airsoft), シミュレーション (common mispronunciation note), 食品サンプル (plastic food models)
+- Cultural notes: シソ (大葉 naming distinction), カルシウム (folk wisdom about irritability), サブカルチャー (otaku culture focus in Japanese usage)
+
+Total entries: 10,926 → 10,956
+Remaining candidates: 151 → 121
 
 ### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 239)
 Added 30 new dictionary entries (IDs 10905-10934) from candidate_words.json:
@@ -131,24 +149,6 @@ Notable features:
 
 Total entries: 10,836 → 10,866
 Remaining candidates: 121 → 119
-
-### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 235)
-Added 30 new dictionary entries (IDs 10815-10844) from candidate_words.json:
-
-- **Nouns (22)**: キッチン (kitchen), カウンター (counter), カテゴリー (category), キャンパス (campus), キリスト教 (Christianity), ギフト (gift), クレジット (credit), グランプリ (grand prix), オプション (option), オーナー (owner), キーワード (keyword), ギャラリー (gallery), ガイドライン (guideline), キャッシュカード (ATM card), キャラメル (caramel), キムチ (kimchi), オーディション (audition), オープニング (opening), ガイダンス (guidance), カーボン (carbon), カルチャー (culture)
-- **Nouns + suru verb (3)**: カット (cut), キープ (keep), クリア (clear)
-- **Nouns + na-adjective (3)**: カオス (chaos), オープン (open), カラー (color)
-- **Nouns + no-adjective (1)**: オリジナル (original)
-- **Onomatopoeia (1)**: ガタゴト (rumbling, clattering)
-
-Notable features:
-- Primarily katakana loanwords filling major gaps in common everyday vocabulary
-- Multi-sense entries: カウンター (service desk/counterattack), カラー (color/hair coloring), キャリア (career/phone carrier), クリア (clear/pass/transparent), クレジット (payment/attribution), ギャラリー (art gallery/spectators), カット (haircut/deletion), キープ (maintain/bottle keep), オープン (grand opening/open-minded), オリジナル (unique creation/source version)
-- Japan-specific concepts: ボトルキープ (bottle keep at bars), カルチャースクール (hobby classes), システムキッチン (built-in kitchen units), キャッシュカード (ATM-only bank card)
-- Cross-reference: キッチン↔台所
-
-Total entries: 10,806 → 10,836
-Remaining candidates: 151 → 121
 
 ---
 

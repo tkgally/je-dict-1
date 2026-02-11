@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 235)
+Added 30 new dictionary entries (IDs 10815-10844) from candidate_words.json:
+
+- **Nouns (22)**: キッチン (kitchen), カウンター (counter), カテゴリー (category), キャンパス (campus), キリスト教 (Christianity), ギフト (gift), クレジット (credit), グランプリ (grand prix), オプション (option), オーナー (owner), キーワード (keyword), ギャラリー (gallery), ガイドライン (guideline), キャッシュカード (ATM card), キャラメル (caramel), キムチ (kimchi), オーディション (audition), オープニング (opening), ガイダンス (guidance), カーボン (carbon), カルチャー (culture)
+- **Nouns + suru verb (3)**: カット (cut), キープ (keep), クリア (clear)
+- **Nouns + na-adjective (3)**: カオス (chaos), オープン (open), カラー (color)
+- **Nouns + no-adjective (1)**: オリジナル (original)
+- **Onomatopoeia (1)**: ガタゴト (rumbling, clattering)
+
+Notable features:
+- Primarily katakana loanwords filling major gaps in common everyday vocabulary
+- Multi-sense entries: カウンター (service desk/counterattack), カラー (color/hair coloring), キャリア (career/phone carrier), クリア (clear/pass/transparent), クレジット (payment/attribution), ギャラリー (art gallery/spectators), カット (haircut/deletion), キープ (maintain/bottle keep), オープン (grand opening/open-minded), オリジナル (unique creation/source version)
+- Japan-specific concepts: ボトルキープ (bottle keep at bars), カルチャースクール (hobby classes), システムキッチン (built-in kitchen units), キャッシュカード (ATM-only bank card)
+- Cross-reference: キッチン↔台所
+
+Total entries: 10,806 → 10,836
+Remaining candidates: 151 → 121
+
 ---
 
 ## Archived Recent Changes
