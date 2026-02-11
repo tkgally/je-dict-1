@@ -23,7 +23,7 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
 | General tier | ~8,067 (open) |
-| Candidate words | ~119 |
+| Candidate words | ~211 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,570 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-11 (New Candidate Words - 55 Words, Session 237)
+Added 55 new candidate words to candidate_words.json using diverse search strategies:
+
+- **Verbs (12)**: 促す (urge), 遮る (block), 委ねる (entrust), 募る (recruit/intensify), 率いる (lead), 嫉む (envy), 滅びる (perish), 偽る (deceive), 償う (atone), 侮る (underestimate), 宥める (soothe), 弾く (flick/repel)
+- **Abstract/emotional nouns (7)**: 陰謀 (conspiracy), 寛容 (tolerance), 慈悲 (compassion), 憤り (indignation), 義理 (social obligation), 献身 (devotion), 自惚れ (conceit)
+- **Academic/legal (4)**: 示唆 (implication), 言及 (mention), 生成 (generation), 遺言 (will/testament)
+- **Business/commerce (4)**: 採算 (profitability), 下請け (subcontracting), 精算 (settlement), 卸 (wholesale)
+- **Adjectives/personality (7)**: 壮大 (magnificent), 過酷 (harsh), 殺風景 (bleak), 律儀 (conscientious), 気難しい (fussy), 名残惜しい (reluctant to part), 無頓着 (indifferent)
+- **Personality traits (3)**: 人懐っこい (friendly), 短気 (short-tempered), 融通 (flexibility)
+- **Nature/science (3)**: 脱水 (dehydration), 渓谷 (valley), 侵食 (erosion)
+- **Discourse/narrative (5)**: 伏線 (foreshadowing), 連鎖 (chain reaction), 一連 (series), 煽り (instigation), 断片 (fragment)
+- **Cultural/social (5)**: 相槌 (back-channel response), 仕草 (gesture), 食い逃げ (dine and dash), 立ち読み (reading in store), 十八番 (specialty)
+- **Expressions/trends (5)**: 所詮 (after all), 潮時 (opportune time), 頭打ち (plateauing), 落とし穴 (pitfall), 痕跡 (trace)
+
+Search strategies used: corpus-driven gap analysis, semantic domain exploration, collocational mining, register/formality pairs, practical situation vocabulary, productive pattern completion, cross-reference expansion
+
+Candidate words: 156 → 211
 
 ### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 236)
 Added 30 new dictionary entries (IDs 10845-10874) from candidate_words.json:
@@ -131,29 +149,6 @@ Notable features:
 
 Total entries: 10,746 → 10,776
 Remaining candidates: 133 → 104
-
-### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 232)
-Added 30 new dictionary entries (IDs 10725-10754) from candidate_words.json:
-
-- **Nouns (14)**: エプロン (apron), エリア (area), エビデンス (evidence), アスファルト (asphalt), アラート (alert), オイル (oil), アマチュア (amateur), アカデミー (academy), アシスタント (assistant), イラストレーター (illustrator), データ{通信|つうしん} (data communication), {雄|おす} (male animal)
-- **Nouns + suru verb (4)**: エスカレート (escalate), アウトプット (output), インプット (input), エントリー (entry/registration), フォロバ (follow back)
-- **Nouns (2+ senses) (3)**: エピソード (anecdote/episode), アクション (action step/action genre), エージェント (agent/spy), オフ (off/day off/discount)
-- **Particles (2)**: っけ (memory-confirming), かも (maybe)
-- **Interjections (3)**: よし (alright!), そうそう (yeah yeah), あのさ (hey, listen), よっしゃ (yes!)
-- **Adverbs (2)**: いまひとつ (not quite), ちょい (a bit)
-- **Expression (1)**: どうしよう (what should I do)
-
-Notable features:
-- Mix of loanwords, conversational particles, and interjections
-- Multi-sense entries: エピソード (anecdote/episode), アクション (concrete step/entertainment genre), エージェント (representative/spy), オフ (off/day off/discount)
-- Cross-references: アウトプット↔インプット, よし↔よっしゃ
-- Conversational vocabulary: っけ, かも, そうそう, あのさ, どうしよう, よし, よっしゃ
-- Business/tech: エビデンス, アウトプット/インプット, エントリー, エージェント, データ{通信|つうしん}
-- Internet/social media: フォロバ (follow back)
-- New kanji: 2,279 → 2,280 ({雄|ゆう})
-
-Total entries: 10,716 → 10,746
-Remaining candidates: 163 → 133
 
 ---
 
