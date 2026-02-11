@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00597_takusan_ex1",
-      "japanese": "{本|ほん}がたくさんあります。",
+      "japanese": "⟦{本|ほん}→本：00111_hon⟧⟦が→が：00051_ga⟧たくさん⟦あります→ある：00006_aru⟧。",
       "english": "There are many books.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00597_takusan_ex2",
-      "japanese": "たくさん{食|た}べました。",
+      "japanese": "たくさん⟦{食|た}べました→食べる：00396_taberu⟧。",
       "english": "I ate a lot.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00597_takusan_ex3",
-      "japanese": "{友達|ともだち}がたくさんいます。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧たくさん⟦います→いる：00495_iru⟧。",
       "english": "I have many friends.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00597_takusan_ex4",
-      "japanese": "たくさんの{人|ひと}が{来|き}ました。",
+      "japanese": "たくさん⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{来|き}ました→来る：00254_kuru⟧。",
       "english": "Many people came.",
       "notes": "たくさんの + noun pattern",
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00597_takusan_ex5",
-      "japanese": "{旅行|りょこう}でたくさんの{写真|しゃしん}を{撮|と}りました。いい{思|おも}い{出|で}がたくさんできました。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦で→で：00502_de⟧たくさん⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}りました→撮る：00760_toru⟧。⟦いい→いい：00118_ii⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧⟦が→が：00051_ga⟧たくさん⟦できました→できる：00557_dekiru⟧。",
       "english": "I took many photos on the trip. I made many good memories.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "たくさん expresses a large quantity, usable as both adverb and noun.\n\nGRAMMAR:\n- As adverb: たくさん{食|た}べる (eat a lot)\n- As noun: たくさんの{人|ひと} (many people)\n- With が: たくさんがある is less common; use たくさんある\n\nUSAGE:\nCan modify both countable and uncountable nouns.\n\nCOMMON PATTERNS:\n- たくさんある/いる: there are many\n- たくさん〜する: do something a lot\n- たくさんの〜: many/much (noun modifier)\n\nSIMILAR WORDS:\n- {多|おお}い: many (adjective, cannot directly modify nouns: ×{多|おお}い{人|ひと})\n- いっぱい: full, lots (more casual)\n- {大量|たいりょう}の: large quantity of (formal)\n\nANTONYMS:\n- {少|すこ}し: a little\n- ちょっと: a bit (casual)",
+  "notes": "たくさん expresses a large quantity, usable as both adverb and noun.\n\nGRAMMAR:\n- As adverb: たくさん⟦{食|た}べる→食べる：00396_taberu⟧ (eat a lot)\n- As noun: たくさん⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧ (many people)\n- With が: たくさん⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ is less common; use たくさん⟦ある→ある：00006_aru⟧\n\nUSAGE:\nCan modify both countable and uncountable nouns.\n\nCOMMON PATTERNS:\n- たくさん⟦ある→ある：00006_aru⟧/⟦いる→いる：00495_iru⟧: there are many\n- たくさん〜⟦する→する：00392_suru⟧: do something a lot\n- たくさん⟦の→の：09472_no⟧〜: many/much (noun modifier)\n\nSIMILAR WORDS:\n- ⟦{多|おお}い→多い：01127_ooi⟧: many (adjective, cannot directly modify nouns: ×⟦{多|おお}い→多い：01127_ooi⟧⟦{人|ひと}→人：00476_hito⟧)\n- ⟦いっぱい→一杯：01793_ippai⟧: full, lots (more casual)\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧: large quantity of (formal)\n\nANTONYMS:\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧: a little\n- ⟦ちょっと→ちょっと：00595_chotto⟧: a bit (casual)",
   "cross_references": [
     {
       "type": "see_also",
@@ -74,7 +74,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T15:48:19Z",
-    "modified": "2026-01-26T12:20:42Z",
+    "modified": "2026-02-11T22:38:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
