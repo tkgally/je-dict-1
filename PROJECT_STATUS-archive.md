@@ -7,6 +7,20 @@ For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 ## Archived Recent Changes
 
+### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 232)
+Added 30 new dictionary entries (IDs 10725-10754) from candidate_words.json:
+
+- **Nouns (14)**: エプロン (apron), エリア (area), エビデンス (evidence), アスファルト (asphalt), アラート (alert), オイル (oil), アマチュア (amateur), アカデミー (academy), アシスタント (assistant), イラストレーター (illustrator), データ通信 (data communication), 雄 (male animal)
+- **Nouns + suru verb (4)**: エスカレート (escalate), アウトプット (output), インプット (input), エントリー (entry/registration), フォロバ (follow back)
+- **Nouns (2+ senses) (3)**: エピソード (anecdote/episode), アクション (action step/action genre), エージェント (agent/spy), オフ (off/day off/discount)
+- **Particles (2)**: っけ (memory-confirming), かも (maybe)
+- **Interjections (3)**: よし (alright!), そうそう (yeah yeah), あのさ (hey, listen), よっしゃ (yes!)
+- **Adverbs (2)**: いまひとつ (not quite), ちょい (a bit)
+- **Expression (1)**: どうしよう (what should I do)
+
+Total entries: 10,716 → 10,746
+Remaining candidates: 163 → 133
+
 ### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 231)
 Added 30 new dictionary entries (IDs 10695-10724) from candidate_words.json:
 
