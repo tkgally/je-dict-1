@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "00603_mada_ex1",
-      "japanese": "まだ{雨|あめ}が{降|ふ}っています。",
+      "japanese": "まだ⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}っています→降る：00839_furu⟧。",
       "english": "It's still raining.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "00603_mada_ex2",
-      "japanese": "{子供|こども}はまだ{寝|ね}ています。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦は→は：00079_ha⟧まだ⟦{寝|ね}ています→寝る：00470_neru⟧。",
       "english": "The child is still sleeping.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "00603_mada_ex3",
-      "japanese": "まだまだです。",
+      "japanese": "まだまだ⟦です→です：09485_desu⟧。",
       "english": "I still have a long way to go.",
       "notes": "Humble expression",
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "00603_mada_ex4",
-      "japanese": "{夜|よる}の{九時|くじ}なのに、{父|ちち}はまだ{仕事|しごと}をしています。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧⟦{九時|くじ}→九時：noentry⟧な⟦のに→のに：10529_noni⟧、⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧まだ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦しています→する：00392_suru⟧。",
       "english": "Even though it's 9 PM, my father is still working.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "00603_mada_ex5",
-      "japanese": "{十年|じゅうねん}{前|まえ}に{買|か}った{車|くるま}ですが、まだ{動|うご}いているので、{新|あたら}しいのは{買|か}いません。",
+      "japanese": "⟦{十年|じゅうねん}→十年：noentry⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{買|か}った→買う：00489_kau⟧⟦{車|くるま}→車：00516_kuruma⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧、まだ⟦{動|うご}いている→動く：00904_ugoku⟧⟦ので→ので：09501_node⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{買|か}いません→買う：00489_kau⟧。",
       "english": "I bought this car ten years ago, but it's still running, so I won't buy a new one.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "00603_mada_ex6",
-      "japanese": "まだ{食|た}べていません。",
+      "japanese": "まだ⟦{食|た}べていません→食べる：00396_taberu⟧。",
       "english": "I haven't eaten yet.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": "00603_mada_ex7",
-      "japanese": "{友達|ともだち}はまだ{来|き}ていません。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦は→は：00079_ha⟧まだ⟦{来|き}ていません→来る：00254_kuru⟧。",
       "english": "My friend hasn't arrived yet.",
       "notes": null,
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "00603_mada_ex8",
-      "japanese": "その{映画|えいが}はまだ{見|み}ていません。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧まだ⟦{見|み}ていません→見る：00283_miru⟧。",
       "english": "I haven't seen that movie yet.",
       "notes": null,
       "has_audio": false,
@@ -99,7 +99,7 @@
     },
     {
       "id": "00603_mada_ex9",
-      "japanese": "{名前|なまえ}はまだ{決|き}まっていないので、{来週|らいしゅう}までに{考|かんが}えます。",
+      "japanese": "⟦{名前|なまえ}→名前：02234_namae⟧⟦は→は：00079_ha⟧まだ⟦{決|き}まっていない→決まる：01233_kimaru⟧⟦ので→ので：09501_node⟧、⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{考|かんが}えます→考える：00856_kangaeru⟧。",
       "english": "The name hasn't been decided yet, so I'll think about it by next week.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "00603_mada_ex10",
-      "japanese": "{日本語|にほんご}を{勉強|べんきょう}していますが、まだ{上手|じょうず}に{話|はな}せないので、もっと{練習|れんしゅう}したいです。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧⟦{勉強|べんきょう}しています→勉強する：00527_benkyousuru⟧⟦が→が：00051_ga⟧、まだ⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧⟦{話|はな}せない→話す：00467_hanasu⟧⟦ので→ので：09501_node⟧、⟦もっと→もっと：00798_motto⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦したいです→する：00392_suru⟧。",
       "english": "I'm studying Japanese, but I can't speak well yet, so I want to practice more.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "まだ indicates a state that continues from the past to the present.\n\nKEY PATTERNS:\n- まだ + affirmative: still (continuing state)\n- まだ + negative: not yet (expected action hasn't occurred)\n\nCOMMON EXPRESSIONS:\n- まだまだ: still have a long way to go (humble expression)\n- まだ{大丈夫|だいじょうぶ}: still okay\n- まだ{間|ま}に{合|あ}う: still in time\n\nCONTRAST WITH もう:\n- もう{食|た}べた: already ate\n- まだ{食|た}べていない: haven't eaten yet\n- もう{来|き}た: already came\n- まだ{来|き}ていない: hasn't come yet",
+  "notes": "まだ indicates a state that continues from the past to the present.\n\nKEY PATTERNS:\n- まだ + affirmative: still (continuing state)\n- まだ + negative: not yet (expected action hasn't occurred)\n\nCOMMON EXPRESSIONS:\n- まだまだ: still have a long way to go (humble expression)\n- まだ⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧: still okay\n- まだ⟦{間|ま}に{合|あ}う→間に合う：01142_maniau⟧: still in time\n\nCONTRAST WITH ⟦もう→もう：00602_mou⟧:\n- ⟦もう→もう：00602_mou⟧⟦{食|た}べた→食べる：00396_taberu⟧: already ate\n- まだ⟦{食|た}べていない→食べる：00396_taberu⟧: haven't eaten yet\n- ⟦もう→もう：00602_mou⟧⟦{来|き}た→来る：00254_kuru⟧: already came\n- まだ⟦{来|き}ていない→来る：00254_kuru⟧: hasn't come yet",
   "cross_references": [
     {
       "type": "see_also",
@@ -129,7 +129,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T15:48:21Z",
-    "modified": "2026-01-26T11:55:04Z",
+    "modified": "2026-02-11T22:38:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
