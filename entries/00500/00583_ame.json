@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00583_ame_ex1",
-      "japanese": "{雨|あめ}が{降|ふ}っています。",
+      "japanese": "{雨|あめ}⟦が→が：00051_ga⟧⟦{降|ふ}っています→降る：00839_furu⟧。",
       "english": "It's raining.",
       "notes": "雨が降る = to rain",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00583_ame_ex2",
-      "japanese": "{雨|あめ}が{止|や}みました。",
+      "japanese": "{雨|あめ}⟦が→が：00051_ga⟧⟦{止|や}みました→止む：01153_yamu⟧。",
       "english": "The rain stopped.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00583_ame_ex3",
-      "japanese": "{傘|かさ}を{持|も}っていますか。{雨|あめ}ですよ。",
+      "japanese": "⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}っています→持つ：00478_motsu⟧⟦か→か：09473_ka⟧。{雨|あめ}⟦です→です：09485_desu⟧⟦よ→よ：09475_yo⟧。",
       "english": "Do you have an umbrella? It's raining.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00583_ame_ex4",
-      "japanese": "{雨|あめ}の{日|ひ}は{家|いえ}で{本|ほん}を{読|よ}みます。",
+      "japanese": "{雨|あめ}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}みます→読む：00426_yomu⟧。",
       "english": "On rainy days, I read books at home.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00583_ame_ex5",
-      "japanese": "{六月|ろくがつ}は{雨|あめ}の{日|ひ}が{多|おお}いです。{梅雨|つゆ}なので、{毎日|まいにち}{傘|かさ}を{持|も}って{行|い}きます。",
+      "japanese": "⟦{六月|ろくがつ}→六月：00662_rokugatsu⟧⟦は→は：00079_ha⟧{雨|あめ}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦です→です：09485_desu⟧。⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦なので→ので：09501_node⟧、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{行|い}きます→行く：00119_iku⟧。",
       "english": "There are many rainy days in June. It's the rainy season, so I bring an umbrella every day.",
       "notes": null,
       "has_audio": false,
@@ -80,7 +80,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T15:26:54Z",
-    "modified": "2026-01-26T12:58:41Z",
+    "modified": "2026-02-11T11:05:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
