@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,896 |
+| Total entries | ~10,926 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,097 (open) |
-| Candidate words | ~181 |
+| General tier | ~8,127 (open) |
+| Candidate words | ~151 |
 | Cross-references | ~3,332 |
-| Example sentences | ~41,570 |
+| Example sentences | ~41,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 239)
+Added 30 new dictionary entries (IDs 10905-10934) from candidate_words.json:
+
+- **Adjectives (5)**: {殺風景|さっぷうけい} (bleak), {律儀|りちぎ} (conscientious), {気難|きむずか}しい (hard to please), {名残惜|なごりお}しい (reluctant to part), {人懐|ひとなつ}っこい (friendly)
+- **Na-adjectives/nouns (2)**: {無頓着|むとんちゃく} (indifferent), {短気|たんき} (short-tempered)
+- **Cultural/social nouns (5)**: {相槌|あいづち} (back-channel response), {仕草|しぐさ} (gesture), {立|た}ち{読|よ}み (reading in store), {十八番|おはこ} (specialty), {食|く}い{逃|に}げ (dine and dash)
+- **Abstract nouns (6)**: {融通|ゆうずう} (flexibility), {断片|だんぺん} (fragment), {痕跡|こんせき} (trace), {自惚|うぬぼ}れ (vanity), {頭打|あたまう}ち (plateauing), {落|お}とし{穴|あな} (pitfall)
+- **Nature/science nouns (3)**: {脱水|だっすい} (dehydration), {侵食|しんしょく} (erosion), {渓谷|けいこく} (valley)
+- **Time/discourse (3)**: {潮時|しおどき} (opportune time), {所詮|しょせん} (after all), {煽|あお}り (provocation/fallout)
+- **Food nouns (3)**: サクランボ (cherry), シイタケ (shiitake), シチュー (stew)
+- **Commerce/lifestyle (3)**: {卸|おろし} (wholesale), サークル (club/circle), シフト (shift)
+
+Notable features:
+- Diverse vocabulary: personality traits, cultural concepts, food, nature, business
+- Multi-sense entries: {融通|ゆうずう} (flexibility/financing), {脱水|だっすい} (dehydration/spin-dry), {侵食|しんしょく} (erosion literal/figurative), {煽|あお}り (provocation/fallout), {落|お}とし{穴|あな} (trap/hidden risk), サークル (university club/circle shape), シフト (work schedule/transition)
+- Cultural notes: {相槌|あいづち} (back-channeling in Japanese conversation), {十八番|おはこ} (kabuki origin), {立|た}ち{読|よ}み (convenience store culture), {短気|たんき}は{損気|そんき} proverb
+- New kanji: 2,289 → 2,293 (侵, 渓, 痕, 詮)
+
+Total entries: 10,896 → 10,926
+Remaining candidates: 181 → 151
 
 ### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 238)
 Added 30 new dictionary entries (IDs 10875-10904) from candidate_words.json:
@@ -128,24 +149,6 @@ Notable features:
 
 Total entries: 10,806 → 10,836
 Remaining candidates: 151 → 121
-
-### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 234)
-Added 30 new dictionary entries (IDs 10785-10814) from candidate_words.json:
-
-- **Nouns (21)**: おんぼろ (shabby), {牡蠣|かき} (oyster), カステラ (castella cake), {蕪|かぶ} (turnip), {干瓢|かんぴょう} (dried gourd), がらくた (junk), カニカマ (imitation crab), キクラゲ (wood ear mushroom), キャッチコピー (catchphrase), クッキー (cookie), クッション (cushion), グッズ (merchandise), カクテル (cocktail), カタログ (catalog), オムレツ (omelette), オリーブ (olive), キャンペーン (promotion), ギャグ (gag/joke), ギャンブル (gambling), グラウンド (playing field), クローン (clone)
-- **Onomatopoeia/mimetic (4)**: かんかん (furious/scorching/clanging), ガクガク (shaking), ギザギザ (jagged), ぐず (slowpoke)
-- **Na-adjectives (2)**: カラフル (colorful), カチューシャ (headband)
-- **Multi-sense (3)**: {肝|きも} (key point/liver), クッション (cushion/buffer), クラブ (club/nightclub)
-
-Notable features:
-- Food and ingredients cluster: {牡蠣|かき}, カステラ, {蕪|かぶ}, {干瓢|かんぴょう}, カニカマ, キクラゲ, クッキー, オムレツ, オリーブ, カクテル
-- Japanese food culture: regional specialties ({長崎|ながさき}カステラ, {広島|ひろしま}{牡蠣|かき}, {小豆島|しょうどしま}オリーブ)
-- Wasei-eigo: キャッチコピー (catch + copy), カニカマ (crab + kamaboko)
-- Onomatopoeia: かんかん (3 senses), ガクガク, ギザギザ
-- New kanji: 2,281 → 2,284 (瓢, 蕪, 蠣)
-
-Total entries: 10,776 → 10,806
-Remaining candidates: 104 → 151
 
 ---
 
