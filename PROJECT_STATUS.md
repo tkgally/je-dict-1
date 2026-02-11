@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-10
+**Last updated**: 2026-02-11
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,836 |
+| Total entries | ~10,866 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,037 (open) |
-| Candidate words | ~121 |
+| General tier | ~8,067 (open) |
+| Candidate words | ~119 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,570 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 236)
+Added 30 new dictionary entries (IDs 10845-10874) from candidate_words.json:
+
+- **Nouns (17)**: グルメ (gourmet/foodie), グレーゾーン (grey area), ゲスト (guest), ゲート (gate), コイン (coin), コスメ (cosmetics), コメディ (comedy), コラム (column), コロッケ (croquette), コンクリート (concrete), コンセプト (concept), コース (course), コーナー (corner/section), コーラ (cola), コミック (comic), キー (key), クライマックス (climax)
+- **Nouns + suru verb (5)**: ゲット (get), コラボ (collaboration), コントロール (control), カスタマイズ (customize), キャッチ (catch)
+- **Nouns + na-adjective (3)**: グローバル (global), コンパクト (compact), グルメ (gourmet)
+- **Nouns (person) (2)**: クリエイター (creator), キャスト (cast)
+- **Nouns (emotion) (1)**: コンプレックス (inferiority complex)
+- **Nouns (multi-sense) (1)**: コンタクト (contact lenses/getting in touch)
+- **Noun + suru verb + care (1)**: ケア (care/caregiving)
+- **Onomatopoeia (1)**: ゴリゴリ (grinding/hardcore)
+
+Notable features:
+- Katakana loanwords covering common everyday vocabulary gaps
+- Multi-sense entries: コンタクト (lenses/communication), コース (route/set meal), コーナー (corner/section), キャッチ (catch/catchphrase/street tout), ケア (caregiving/skincare), グルメ (person/food), ゴリゴリ (grinding/hardcore)
+- Japan-specific concepts: コロッケ (yoshoku comfort food), コンパクト (positive space efficiency), コンプレックス (inferiority complex only), キャッチ (street solicitation), キーホルダー (wasei-eigo for keychain), B級グルメ (budget gourmet), クライマックスシリーズ (NPB playoffs)
+- Cultural notes: コロッケ as 庶民の味, コンセプトカフェ culture, Disney キャスト tradition
+
+Total entries: 10,836 → 10,866
+Remaining candidates: 121 → 119
 
 ### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 235)
 Added 30 new dictionary entries (IDs 10815-10844) from candidate_words.json:
@@ -133,27 +154,6 @@ Notable features:
 
 Total entries: 10,716 → 10,746
 Remaining candidates: 163 → 133
-
-### 2026-02-09 (Vocabulary Expansion - 30 New Entries, Session 231)
-Added 30 new dictionary entries (IDs 10695-10724) from candidate_words.json:
-
-- **Nouns (20)**: アウトドア (outdoor), アトリエ (studio), アボカド (avocado), アラーム (alarm), アリーナ (arena), アルファベット (alphabet), アワビ (abalone), アーモンド (almond), イクラ (salmon roe), イチオシ (top pick), イラスト (illustration), イワシ (sardine), インパクト (impact), {鱗|うろこ} (scale), エキス (extract), エッセイ (essay)
-- **Nouns + suru verb (5)**: アクセス (access), アナウンス (announcement), アピール (appeal), アプローチ (approach), アーカイブ (archive)
-- **Nouns + na-adjective (2)**: アホ (fool/stupid), インスタント (instant)
-- **Nouns (2 senses) (3)**: アクセント (accent/highlight), アプローチ (method/outreach), アクセス (transport/computing)
-- **Other nouns (3)**: アドバイス (advice), アーティスト (artist), アート (art), アラサー (around 30), アラフォー (around 40), インバウンド (inbound tourism)
-
-Notable features:
-- Primarily katakana loanwords filling gaps in the dictionary's coverage of common borrowed vocabulary
-- Food vocabulary: アボカド, アワビ, イクラ, イワシ, アーモンド, エキス, インスタント
-- Cultural/modern Japanese: アラサー/アラフォー (age-related wasei-eigo), インバウンド (tourism buzzword), イチオシ (fan/recommendation culture)
-- Arts/media: アトリエ, アート, アーティスト, イラスト, エッセイ, アーカイブ
-- One native Japanese word with new kanji: {鱗|うろこ} (scale)
-- Cross-references: アラサー↔アラフォー
-- New kanji: 2,278 → 2,279 ({鱗|りん})
-
-Total entries: 10,686 → 10,716
-Remaining candidates: 193 → 163
 
 ---
 
