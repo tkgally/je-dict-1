@@ -23,7 +23,7 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
 | General tier | ~8,247 (open) |
-| Candidate words | ~130 |
+| Candidate words | ~185 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,820 |
 | Audio files | 1,028 |
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-12 (New Candidate Words - 55 Words, Session 244)
+Added 55 new candidate words to candidate_words.json across diverse domains:
+
+- **Legal/criminal justice (5)**: 被告 (defendant), 原告 (plaintiff), 検察 (prosecution), 懲役 (imprisonment), 証言 (testimony)
+- **Medical specialties & visits (9)**: 予防接種 (vaccination), カルテ (medical chart), 問診 (medical interview), 抗生物質 (antibiotic), 眼科 (ophthalmology), 歯科 (dentistry), 皮膚科 (dermatology), 初診 (first visit), 採血 (blood draw)
+- **Health/nutrition (4)**: 糖質 (carbohydrates), 脂質 (lipids), 新陳代謝 (metabolism), コレステロール (cholesterol)
+- **Internet/communication (4)**: 口コミ (word of mouth/reviews), 閲覧 (browsing), 送信 (sending), 回線 (circuit/line)
+- **Sports/fitness (3)**: 体幹 (core/trunk), 反復 (repetition), 番狂わせ (upset)
+- **Social/cultural (4)**: 社交辞令 (social pleasantry), 冠婚葬祭 (ceremonial occasions), 恩返し (returning a favor), 見返り (something in return)
+- **Calendar (2)**: 年末 (year-end), 年始 (beginning of year)
+- **Education (2)**: 修士 (master's degree), 模試 (mock exam)
+- **Business/construction (2)**: 決裁 (approval), 着工 (start of construction)
+- **Music (2)**: 指揮 (conducting/command), 譜面 (musical score)
+- **Home/daily life (3)**: 排水 (drainage), 結露 (condensation), 繕う (to mend)
+- **Psychology (2)**: 自尊心 (self-respect), 燃え尽き (burnout)
+- **Science (2)**: 膨張 (expansion), 窒素 (nitrogen)
+- **Adjectives (3)**: 騒がしい (noisy), 慌ただしい (hectic), めでたい (auspicious)
+- **～化 compounds (3)**: 悪化 (deterioration), 深刻化 (worsening), 長期化 (prolongation)
+- **Sleep (2)**: 不眠 (insomnia), 熟睡 (deep sleep)
+- **Other (3)**: 取引先 (business partner), 内覧 (property viewing), 花壇 (flower bed)
+
+Strategies used: semantic domain exploration (medical, legal, nutrition, home), practical situation vocabulary, corpus-driven gap analysis, collocational mining, productive pattern completion (～化 compounds)
+
+Candidate words: 130 → 185
 
 ### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 243)
 Added 30 new dictionary entries (IDs 11025-11054) from candidate_words.json:
@@ -155,27 +180,6 @@ Notable features:
 
 Total entries: 10,896 → 10,926
 Remaining candidates: 181 → 151
-
-### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 238)
-Added 30 new dictionary entries (IDs 10875-10904) from candidate_words.json:
-
-- **Verbs (12)**: {促|うなが}す (urge), {遮|さえぎ}る (block), {委|ゆだ}ねる (entrust), {募|つの}る (recruit/intensify), {率|ひき}いる (lead), {嫉|ねた}む (envy), {滅|ほろ}びる (perish), {偽|いつわ}る (deceive), {償|つぐな}う (atone), {侮|あなど}る (underestimate), {宥|なだ}める (soothe), {弾|はじ}く (flick/repel)
-- **Abstract/emotional nouns (5)**: {陰謀|いんぼう} (conspiracy), {慈悲|じひ} (compassion), {憤|いきどおり} (indignation), {義理|ぎり} (social obligation), {伏線|ふくせん} (foreshadowing)
-- **Noun + na-adjective (2)**: {寛容|かんよう} (tolerance), {壮大|そうだい} (magnificent)
-- **Na-adjective (1)**: {過酷|かこく} (harsh)
-- **Noun + suru verb (5)**: {献身|けんしん} (devotion), {示唆|しさ} (suggestion), {言及|げんきゅう} (mention), {生成|せいせい} (generation), {精算|せいさん} (settlement)
-- **Nouns (4)**: {遺言|ゆいごん} (will/testament), {採算|さいさん} (profitability), {下請|したう}け (subcontracting), {一連|いちれん} (series)
-- **Noun + suru verb (1)**: {連鎖|れんさ} (chain reaction)
-
-Notable features:
-- Focus on literary/formal Japanese vocabulary — verbs, abstract nouns, and academic terms
-- Multi-sense entries: {募|つの}る (recruit/intensify), {偽|いつわ}る (deceive/falsify), {弾|はじ}く (flick/repel/calculate), {遮|さえぎ}る (block/interrupt), {義理|ぎり} (duty/in-law prefix), {促|うなが}す (urge/stimulate)
-- Cultural concepts: {義理|ぎり} (義理チョコ, 義理と人情), {慈悲|じひ} (Buddhist compassion), {伏線|ふくせん} (foreshadowing in media criticism), {下請|したう}け (Japanese industrial subcontracting pyramid)
-- Business vocabulary: {採算|さいさん}, {精算|せいさん}, {下請|したう}け
-- New kanji: 2,284 → 2,289 (唆, 宥, 慈, 謀, 遮)
-
-Total entries: 10,866 → 10,896
-Remaining candidates: 211 → 181
 
 ---
 
