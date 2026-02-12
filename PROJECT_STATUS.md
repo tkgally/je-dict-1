@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,016 |
+| Total entries | ~11,046 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,217 (open) |
-| Candidate words | ~160 |
+| General tier | ~8,247 (open) |
+| Candidate words | ~130 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,820 |
 | Audio files | 1,028 |
@@ -50,6 +50,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 243)
+Added 30 new dictionary entries (IDs 11025-11054) from candidate_words.json:
+
+- **Katakana loanword nouns (30)**: ゼリー (jelly), ソロ (solo), ソーセージ (sausage), デンプン (starch), チキン (chicken), ゼネコン (general contractor), ソーダ (soda), ゾーン (zone), タグ (tag), タワー (tower), ターゲット (target), ターミナル (terminal), ダイヤモンド (diamond), ダミー (dummy), チェス (chess), チェーン{店|てん} (chain store), チャート (chart), ツール (tool), トピック (topic), スタッフ (staff), スピード (speed), スペース (space), セールス (sales), ジョーク (joke), スパイス (spice), スタート (start), ジャンプ (jump), ステージ (stage)
+- **Noun + suru verb (4)**: セーブ (save — gaming/sports), ツイート (tweet), ジャンプ (jump), スタート (start)
+- **Multi-sense entries (3)**: セーブ (save data/sports save), チャート (graph/music ranking), ステージ (performance stage/phase)
+
+Notable features:
+- Focus on commonly used katakana loanwords filling vocabulary gaps
+- Japan-specific usage notes: チキン (Christmas chicken custom), ソーダ (メロンソーダ/クリームソーダ culture), ゼネコン (wasei-eigo abbreviation), タワーマンション (urban housing)
+- Meaning restrictions vs English: セーブ (not for saving money/people), ツール (mainly software, not physical tools), スペース (not outer space), セールス (active selling, not セール discount events)
+- Digital/internet vocabulary: ツイート, タグ, ツール
+
+Total entries: 11,016 → 11,046
+Remaining candidates: 160 → 130
 
 ### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 242)
 Added 30 new dictionary entries (IDs 10995-11024) from candidate_words.json:
