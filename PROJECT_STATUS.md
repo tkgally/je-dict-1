@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-11
+**Last updated**: 2026-02-12
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,956 |
+| Total entries | ~10,986 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,157 (open) |
-| Candidate words | ~121 |
+| General tier | ~8,187 (open) |
+| Candidate words | ~91 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,700 |
 | Audio files | 1,028 |
@@ -50,6 +50,33 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 241)
+Added 30 new dictionary entries (IDs 10965-10994) from candidate_words.json:
+
+- **Verb (1)**: {差|さ}す (to hold up/shine/pour — distinct from 刺す/指す/射す)
+- **Conversational responses (5)**: そうだね (yeah, that's right), そうかな (I wonder), そうかも (maybe so), だよな (right? — masculine), だろ (right? — assertive)
+- **Everyday state expressions (3)**: つかれた (I'm tired), おなかすいた (I'm hungry), のどかわいた (I'm thirsty)
+- **Emotional reactions (5)**: まじかよ (are you serious?), やらかした (I screwed up), やっちゃった (oops), だめだ (it's no good), むりだ (impossible)
+- **Situational expressions (4)**: なにこれ (what's this?), ちょっとまって (wait a sec), こまったな (that's a problem), なんでだろう (I wonder why)
+- **Discourse connectors (2)**: そんなわけで (so for that reason), てなわけで (so basically)
+- **Indifference expressions (2)**: どこでもいい (anywhere's fine), いつでもいい (anytime's fine)
+- **Back-channel / interjections (3)**: うんうん (uh-huh), ちぇっ (tch), すっごい (really amazing)
+- **Cultural expression (1)**: {空気|くうき}{読|よ}めない (can't read the room / KY)
+- **Modern term (1)**: {格安|かくやす}SIM (budget SIM card)
+- **Youth slang (3)**: とりま (for now), りょ (got it), あざす (thanks)
+
+Notable features:
+- Focus on casual spoken expressions and conversational building blocks for intermediate learners
+- Agreement spectrum: そうだね (full) → そうかも (tentative) → そうかな (doubtful)
+- Body-state expression pattern: つかれた/おなかすいた/のどかわいた (past tense for current state)
+- Mistake expression gradient: やっちゃった (minor) → やらかした (major)
+- Gender notes: だよな/だろ/まじかよ (masculine) vs だよね/でしょ/うそでしょ (feminine equivalents)
+- Cultural concept: {空気|くうき}{読|よ}めない (KY) — core Japanese social skill of reading unspoken atmosphere
+- Modern abbreviation chains: ありがとうございます→あざす, {了解|りょうかい}→りょ, とりあえず→とりま
+
+Total entries: 10,956 → 10,986
+Remaining candidates: 121 → 91
 
 ### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 240)
 Added 30 new dictionary entries (IDs 10935-10964) from candidate_words.json:
@@ -128,27 +155,6 @@ Added 55 new candidate words to candidate_words.json using diverse search strate
 Search strategies used: corpus-driven gap analysis, semantic domain exploration, collocational mining, register/formality pairs, practical situation vocabulary, productive pattern completion, cross-reference expansion
 
 Candidate words: 156 → 211
-
-### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 236)
-Added 30 new dictionary entries (IDs 10845-10874) from candidate_words.json:
-
-- **Nouns (17)**: グルメ (gourmet/foodie), グレーゾーン (grey area), ゲスト (guest), ゲート (gate), コイン (coin), コスメ (cosmetics), コメディ (comedy), コラム (column), コロッケ (croquette), コンクリート (concrete), コンセプト (concept), コース (course), コーナー (corner/section), コーラ (cola), コミック (comic), キー (key), クライマックス (climax)
-- **Nouns + suru verb (5)**: ゲット (get), コラボ (collaboration), コントロール (control), カスタマイズ (customize), キャッチ (catch)
-- **Nouns + na-adjective (3)**: グローバル (global), コンパクト (compact), グルメ (gourmet)
-- **Nouns (person) (2)**: クリエイター (creator), キャスト (cast)
-- **Nouns (emotion) (1)**: コンプレックス (inferiority complex)
-- **Nouns (multi-sense) (1)**: コンタクト (contact lenses/getting in touch)
-- **Noun + suru verb + care (1)**: ケア (care/caregiving)
-- **Onomatopoeia (1)**: ゴリゴリ (grinding/hardcore)
-
-Notable features:
-- Katakana loanwords covering common everyday vocabulary gaps
-- Multi-sense entries: コンタクト (lenses/communication), コース (route/set meal), コーナー (corner/section), キャッチ (catch/catchphrase/street tout), ケア (caregiving/skincare), グルメ (person/food), ゴリゴリ (grinding/hardcore)
-- Japan-specific concepts: コロッケ (yoshoku comfort food), コンパクト (positive space efficiency), コンプレックス (inferiority complex only), キャッチ (street solicitation), キーホルダー (wasei-eigo for keychain), B級グルメ (budget gourmet), クライマックスシリーズ (NPB playoffs)
-- Cultural notes: コロッケ as 庶民の味, コンセプトカフェ culture, Disney キャスト tradition
-
-Total entries: 10,836 → 10,866
-Remaining candidates: 121 → 119
 
 ---
 

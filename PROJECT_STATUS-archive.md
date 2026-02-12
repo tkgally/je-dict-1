@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 236)
+Added 30 new dictionary entries (IDs 10845-10874) from candidate_words.json:
+
+- **Nouns (17)**: グルメ (gourmet/foodie), グレーゾーン (grey area), ゲスト (guest), ゲート (gate), コイン (coin), コスメ (cosmetics), コメディ (comedy), コラム (column), コロッケ (croquette), コンクリート (concrete), コンセプト (concept), コース (course), コーナー (corner/section), コーラ (cola), コミック (comic), キー (key), クライマックス (climax)
+- **Nouns + suru verb (5)**: ゲット (get), コラボ (collaboration), コントロール (control), カスタマイズ (customize), キャッチ (catch)
+- **Nouns + na-adjective (3)**: グローバル (global), コンパクト (compact), グルメ (gourmet)
+- **Nouns (person) (2)**: クリエイター (creator), キャスト (cast)
+- **Nouns (emotion) (1)**: コンプレックス (inferiority complex)
+- **Nouns (multi-sense) (1)**: コンタクト (contact lenses/getting in touch)
+- **Noun + suru verb + care (1)**: ケア (care/caregiving)
+- **Onomatopoeia (1)**: ゴリゴリ (grinding/hardcore)
+
+Notable features:
+- Katakana loanwords covering common everyday vocabulary gaps
+- Multi-sense entries: コンタクト (lenses/communication), コース (route/set meal), コーナー (corner/section), キャッチ (catch/catchphrase/street tout), ケア (caregiving/skincare), グルメ (person/food), ゴリゴリ (grinding/hardcore)
+- Japan-specific concepts: コロッケ (yoshoku comfort food), コンパクト (positive space efficiency), コンプレックス (inferiority complex only), キャッチ (street solicitation), キーホルダー (wasei-eigo for keychain), B級グルメ (budget gourmet), クライマックスシリーズ (NPB playoffs)
+- Cultural notes: コロッケ as 庶民の味, コンセプトカフェ culture, Disney キャスト tradition
+
+Total entries: 10,836 → 10,866
+Remaining candidates: 121 → 119
+
 ### 2026-02-10 (Vocabulary Expansion - 30 New Entries, Session 235)
 Added 30 new dictionary entries (IDs 10815-10844) from candidate_words.json:
 
