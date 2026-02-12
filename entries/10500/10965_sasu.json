@@ -1,0 +1,130 @@
+{
+  "schema_version": "2.0",
+  "id": "10965_sasu",
+  "headword": "{差|さ}す",
+  "reading": "さす",
+  "part_of_speech": "verb (godan)",
+  "gloss": "to hold up; to shine in; to pour",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to hold up, to put up",
+      "explanation": "To hold something up or over oneself, most commonly an umbrella."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "to shine in, to come through",
+      "explanation": "For light or color to come through or appear. Used when sunlight streams in or when a flush of color appears on someone's face."
+    },
+    {
+      "sense_number": 3,
+      "gloss": "to pour, to offer a drink",
+      "explanation": "To pour a drink for someone, especially sake. Part of the traditional custom of pouring for others at meals."
+    }
+  ],
+  "examples": [
+    {
+      "id": "10965_sasu_ex1",
+      "japanese": "{傘|かさ}を{差|さ}す。",
+      "english": "I put up an umbrella.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "10965_sasu_ex2",
+      "japanese": "{雨|あめ}が{降|ふ}ってきたので{傘|かさ}を{差|さ}した。",
+      "english": "It started raining, so I put up my umbrella.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "10965_sasu_ex3",
+      "japanese": "{日傘|ひがさ}を{差|さ}して{歩|ある}いている{人|ひと}が{多|おお}い。",
+      "english": "Many people are walking with parasols.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "10965_sasu_ex4",
+      "japanese": "{日|ひ}が{差|さ}す。",
+      "english": "Sunlight shines in.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "10965_sasu_ex5",
+      "japanese": "{窓|まど}から{光|ひかり}が{差|さ}してきた。",
+      "english": "Light came streaming in through the window.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "10965_sasu_ex6",
+      "japanese": "{夕日|ゆうひ}が{差|さ}して{部屋|へや}がオレンジ{色|いろ}に{染|そ}まった。",
+      "english": "The evening sun shone in and the room was dyed orange.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "10965_sasu_ex7",
+      "japanese": "{杯|さかずき}を{差|さ}す。",
+      "english": "I pour a cup of sake.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "10965_sasu_ex8",
+      "japanese": "{上司|じょうし}にお{酒|さけ}を{差|さ}した。",
+      "english": "I poured sake for my boss.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    },
+    {
+      "id": "10965_sasu_ex9",
+      "japanese": "{宴会|えんかい}では{隣|となり}の{人|ひと}にお{酒|さけ}を{差|さ}すのがマナーだ。",
+      "english": "At banquets, it's good manners to pour sake for the person next to you.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [3]
+    }
+  ],
+  "notes": "CONJUGATION (godan -su):\n- Negative: {差|さ}さない\n- Te-form: {差|さ}して\n- Past: {差|さ}した\n\nTRANSITIVITY:\nTransitive for senses 1 and 3 (takes を). Intransitive for sense 2 (light/color as subject with が).\n\nASPECT:\n{差|さ}している indicates an ongoing state — an umbrella being held up, or light continuing to shine in.\n\nHOMOPHONES:\n{差|さ}す is distinct from other さす verbs:\n- {刺|さ}す: to stab, pierce\n- {指|さ}す: to point at, indicate\n- {射|さ}す: to shine (often interchangeable with {差|さ}す for light)\n\nCOMMON COLLOCATIONS:\n- {傘|かさ}を{差|さ}す: put up an umbrella\n- {日|ひ}が{差|さ}す: sunlight shines in\n- {杯|さかずき}を{差|さ}す: pour a cup of sake\n- {赤|あか}みが{差|さ}す: a reddish tinge appears (on face)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "さす",
+      "headword": "{刺|さ}す",
+      "target_id": "02111_sasu",
+      "label": "to stab"
+    },
+    {
+      "type": "contrast",
+      "reading": "さす",
+      "headword": "{指|さ}す",
+      "target_id": "02056_sasu",
+      "label": "to point"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-12T07:49:16Z",
+    "modified": "2026-02-12T07:49:16Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": ["verb-godan"],
+      "transitivity": "both",
+      "verb_class": "godan-su",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": ["action"]
+    }
+  }
+}
