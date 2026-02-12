@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "00622_futari_ex1",
-      "japanese": "{二人|ふたり}います。",
+      "japanese": "{二人|ふたり}⟦います→いる：00495_iru⟧。",
       "english": "There are two people.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "00622_futari_ex2",
-      "japanese": "{二人|ふたり}ください。",
+      "japanese": "{二人|ふたり}⟦ください→下さい：02899_kudasai⟧。",
       "english": "Table for two, please.",
       "notes": "At a restaurant",
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "00622_futari_ex3",
-      "japanese": "{子|こ}どもが{二人|ふたり}います。",
+      "japanese": "⟦{子|こ}ども→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{二人|ふたり}⟦います→いる：00495_iru⟧。",
       "english": "I have two children.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "00622_futari_ex4",
-      "japanese": "{友達|ともだち}が{二人|ふたり}{来|き}ました。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧{二人|ふたり}⟦{来|き}ました→来る：00254_kuru⟧。",
       "english": "Two friends came.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "00622_futari_ex5",
-      "japanese": "この{部屋|へや}には{二人|ふたり}しか{入|はい}れません。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{二人|ふたり}⟦しか→しか：09959_shika⟧⟦{入|はい}れません→入る：00494_hairu⟧。",
       "english": "Only two people can enter this room.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "00622_futari_ex6",
-      "japanese": "{二人|ふたり}で{食|た}べます。",
+      "japanese": "{二人|ふたり}⟦で→で：00502_de⟧⟦{食|た}べます→食べる：00396_taberu⟧。",
       "english": "The two of us will eat together.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": "00622_futari_ex7",
-      "japanese": "{二人|ふたり}で{話|はな}しましょう。",
+      "japanese": "{二人|ふたり}⟦で→で：00502_de⟧⟦{話|はな}しましょう→話す：00467_hanasu⟧。",
       "english": "Let's talk, just the two of us.",
       "notes": null,
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "00622_futari_ex8",
-      "japanese": "{二人|ふたり}でどこに{行|い}きますか。",
+      "japanese": "{二人|ふたり}⟦で→で：00502_de⟧⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧⟦{行|い}きます→行く：00119_iku⟧⟦か→か：09473_ka⟧。",
       "english": "Where are the two of you going?",
       "notes": null,
       "has_audio": false,
@@ -99,7 +99,7 @@
     },
     {
       "id": "00622_futari_ex9",
-      "japanese": "{二人|ふたり}は{仲|なか}がいいですね。",
+      "japanese": "{二人|ふたり}⟦は→は：00079_ha⟧⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦ね→ね：09474_ne⟧。",
       "english": "The two of you get along well.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "00622_futari_ex10",
-      "japanese": "{二人|ふたり}で{協力|きょうりょく}すれば、この{仕事|しごと}は{早|はや}く{終|お}わります。",
+      "japanese": "{二人|ふたり}⟦で→で：00502_de⟧⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧⟦すれば→する：00392_suru⟧、⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦は→は：00079_ha⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{終|お}わります→終わる：00567_owaru⟧。",
       "english": "If the two of us work together, this job will finish quickly.",
       "notes": null,
       "has_audio": false,
@@ -118,11 +118,11 @@
       ]
     }
   ],
-  "notes": "{二人|ふたり} uses the native Japanese reading, not the on'yomi ににん. This is an irregular counter that must be memorized.\n\nIRREGULAR PEOPLE COUNTERS:\n- {一人|ひとり}: one person\n- {二人|ふたり}: two people\n- {三人|さんにん} and above: regular readings\n\nCOMMON PATTERNS:\n- {二人|ふたり}で: together (as a pair)\n- {二人|ふたり}とも: both of them\n- {二人|ふたり}{暮|ぐ}らし: living as a couple\n- {二人|ふたり}{連|づ}れ: a party of two\n\nUSAGE NOTE:\n{二人|ふたり}で emphasizes doing something as a pair, often implying intimacy or exclusivity: {二人|ふたり}で{話|はな}しましょう (Let's talk, just the two of us).",
+  "notes": "{二人|ふたり} uses the native Japanese reading, not the on'yomi ににん. This is an irregular counter that must be memorized.\n\nIRREGULAR PEOPLE COUNTERS:\n- ⟦{一人|ひとり}→一人：00630_hitori⟧: one person\n- {二人|ふたり}: two people\n- {三人|さんにん} and above: regular readings\n\nCOMMON PATTERNS:\n- {二人|ふたり}⟦で→で：00502_de⟧: together (as a pair)\n- {二人|ふたり}とも: both of them\n- {二人|ふたり}⟦{暮|ぐ}らし→暮らし：02670_kurashi⟧: living as a couple\n- {二人|ふたり}⟦{連|づ}れ→連れ：03534_tsure⟧: a party of two\n\nUSAGE NOTE:\n{二人|ふたり}⟦で→で：00502_de⟧ emphasizes doing something as a pair, often implying intimacy or exclusivity: {二人|ふたり}⟦で→で：00502_de⟧⟦{話|はな}しましょう→話す：00467_hanasu⟧ (Let's talk, just the two of us).",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:50:38Z",
-    "modified": "2026-02-03T05:21:54Z",
+    "modified": "2026-02-12T04:27:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

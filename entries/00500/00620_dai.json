@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00620_dai_ex1",
-      "japanese": "{車|くるま}が{二台|にだい}あります。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{二台|にだい}⟦あります→ある：00006_aru⟧。",
       "english": "There are two cars.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00620_dai_ex2",
-      "japanese": "パソコンを{一台|いちだい}{買|か}いました。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{一台|いちだい}⟦{買|か}いました→買う：00489_kau⟧。",
       "english": "I bought one computer.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00620_dai_ex3",
-      "japanese": "{自転車|じてんしゃ}が{何台|なんだい}ありますか。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦が→が：00051_ga⟧{何台|なんだい}⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "How many bicycles are there?",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00620_dai_ex4",
-      "japanese": "{会社|かいしゃ}に{新|あたら}しいパソコンが{十台|じゅうだい}{届|とど}きました。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧{十台|じゅうだい}⟦{届|とど}きました→届く：00899_todoku⟧。",
       "english": "Ten new computers arrived at the company.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00620_dai_ex5",
-      "japanese": "{家|いえ}にはテレビが{三台|さんだい}あって、{私|わたし}の{部屋|へや}にも{一台|いちだい}あります。",
+      "japanese": "⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦テレビ→テレビ：01536_terebi⟧⟦が→が：00051_ga⟧{三台|さんだい}⟦あって→ある：00006_aru⟧、⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{一台|いちだい}⟦あります→ある：00006_aru⟧。",
       "english": "There are three TVs at home, and there's one in my room too.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "〜{台|だい} counts machines, vehicles, and large appliances.\n\nCOUNTING:\nRegular pronunciation throughout:\n- {一台|いちだい}, {二台|にだい}, {三台|さんだい}\n- {何台|なんだい}: how many?\n\nWHAT IT COUNTS:\n- Vehicles: {車|くるま}, {自転車|じてんしゃ}, バイク, バス\n- Electronics: パソコン, テレビ, {冷蔵庫|れいぞうこ}\n- Machines: エアコン, {洗濯機|せんたくき}, プリンター\n\nNOTE:\nFor small electronic devices like phones, {個|こ} or {台|だい} may both be used.",
+  "notes": "〜{台|だい} counts machines, vehicles, and large appliances.\n\nCOUNTING:\nRegular pronunciation throughout:\n- {一台|いちだい}, {二台|にだい}, {三台|さんだい}\n- {何台|なんだい}: how many?\n\nWHAT IT COUNTS:\n- Vehicles: ⟦{車|くるま}→車：00516_kuruma⟧, ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧, ⟦バイク→バイク：05081_baiku⟧, ⟦バス→バス：00769_basu⟧\n- Electronics: ⟦パソコン→パソコン：01538_pasokon⟧, ⟦テレビ→テレビ：01536_terebi⟧, ⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧\n- Machines: ⟦エアコン→エアコン：05282_eakon⟧, ⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧, ⟦プリンター→プリンター：04416_purintaa⟧\n\nNOTE:\nFor small electronic devices like phones, ⟦{個|こ}→〜個：00645_ko⟧ or {台|だい} may both be used.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:32:57Z",
-    "modified": "2026-01-27T01:42:45Z",
+    "modified": "2026-02-12T04:27:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

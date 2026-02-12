@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00621_doyoubi_ex1",
-      "japanese": "{土曜日|どようび}に{買|か}い{物|もの}に{行|い}きます。",
+      "japanese": "{土曜日|どようび}⟦に→に：00314_ni⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦{行|い}きます→行く：00119_iku⟧。",
       "english": "I go shopping on Saturday.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00621_doyoubi_ex2",
-      "japanese": "{土曜日|どようび}は{何|なに}をしますか。",
+      "japanese": "{土曜日|どようび}⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧。",
       "english": "What do you do on Saturday?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00621_doyoubi_ex3",
-      "japanese": "{土曜日|どようび}の{朝|あさ}は{ゆっくり}します。",
+      "japanese": "{土曜日|どようび}⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧⟦は→は：00079_ha⟧⟦{ゆっくり}→ゆっくり：00910_yukkuri⟧⟦します→する：00392_suru⟧。",
       "english": "I take it easy on Saturday morning.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00621_doyoubi_ex4",
-      "japanese": "{今週|こんしゅう}の{土曜日|どようび}は{友達|ともだち}と{映画|えいが}を{見|み}ます。",
+      "japanese": "⟦{今週|こんしゅう}→今週：00721_konshuu⟧⟦の→の：09472_no⟧{土曜日|どようび}⟦は→は：00079_ha⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}ます→見る：00283_miru⟧。",
       "english": "This Saturday I'm going to watch a movie with a friend.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00621_doyoubi_ex5",
-      "japanese": "{土曜日|どようび}と{日曜日|にちようび}は{会社|かいしゃ}が{休|やす}みなので、{家族|かぞく}と{一緒|いっしょ}に{過|す}ごします。",
+      "japanese": "{土曜日|どようび}⟦と→と：00512_to⟧⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧⟦{休|やす}み→休み：02266_yasumi⟧⟦な→だ：09496_da⟧⟦ので→ので：09501_node⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{過|す}ごします→過ごす：02062_sugosu⟧。",
       "english": "The company is closed on Saturday and Sunday, so I spend time with my family.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "{土曜日|どようび} means Saturday. The {土|ど} (earth/soil) relates to Saturn (the 'earth star' in East Asian astronomy).\n\nFORMS:\n- {土曜日|どようび}: Saturday (full form)\n- {土曜|どよう}: Saturday (abbreviated)\n- {土|ど}: Sat (very short, in schedules)\n\nDAYS OF THE WEEK:\n- {日曜日|にちようび}: Sunday ({日|にち} = sun)\n- {月曜日|げつようび}: Monday ({月|げつ} = moon)\n- {火曜日|かようび}: Tuesday ({火|か} = fire/Mars)\n- {水曜日|すいようび}: Wednesday ({水|すい} = water/Mercury)\n- {木曜日|もくようび}: Thursday ({木|もく} = wood/Jupiter)\n- {金曜日|きんようび}: Friday ({金|きん} = metal/Venus)\n- {土曜日|どようび}: Saturday ({土|ど} = earth/Saturn)\n\nNOTE:\nDon't confuse with {土用|どよう} (18-day seasonal periods).",
+  "notes": "{土曜日|どようび} means Saturday. The {土|ど} (earth/soil) relates to Saturn (the 'earth star' in East Asian astronomy).\n\nFORMS:\n- {土曜日|どようび}: Saturday (full form)\n- {土曜|どよう}: Saturday (abbreviated)\n- {土|ど}: Sat (very short, in schedules)\n\nDAYS OF THE WEEK:\n- ⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧: Sunday ({日|にち} = sun)\n- ⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧: Monday ({月|げつ} = moon)\n- ⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧: Tuesday ({火|か} = fire/Mars)\n- ⟦{水曜日|すいようび}→水曜日：00672_suiyoubi⟧: Wednesday ({水|すい} = water/Mercury)\n- ⟦{木曜日|もくようび}→木曜日：00653_mokuyoubi⟧: Thursday ({木|もく} = wood/Jupiter)\n- ⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧: Friday ({金|きん} = metal/Venus)\n- {土曜日|どようび}: Saturday ({土|ど} = earth/Saturn)\n\nNOTE:\nDon't confuse with {土用|どよう} (18-day seasonal periods).",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:47:25Z",
-    "modified": "2026-01-21T12:07:48Z",
+    "modified": "2026-02-12T04:27:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
