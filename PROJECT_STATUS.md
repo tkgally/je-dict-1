@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~10,986 |
+| Total entries | ~11,016 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,187 (open) |
-| Candidate words | ~91 |
+| General tier | ~8,217 (open) |
+| Candidate words | ~160 |
 | Cross-references | ~3,332 |
-| Example sentences | ~41,700 |
+| Example sentences | ~41,820 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 242)
+Added 30 new dictionary entries (IDs 10995-11024) from candidate_words.json:
+
+- **Food nouns (8)**: {筍|たけのこ} (bamboo shoot), {照|て}り{焼|や}き (teriyaki), {豚骨|とんこつ} (pork bone/tonkotsu), チャーシュー (char siu), チャーハン (fried rice), ソフトクリーム (soft serve), ソース (sauce/source), トッピング (topping)
+- **People/social nouns (2)**: セレブ (celebrity/wealthy person), チンピラ (punk/thug)
+- **Clothing/culture (2)**: セーラー{服|ふく} (sailor uniform), {染井吉野|そめいよしの} (Somei-Yoshino cherry)
+- **Loanword nouns (10)**: ダイエット (diet), トラウマ (trauma), デリカシー (sensitivity), タイアップ (tie-up), タイミング (timing), テーマ (theme), チャレンジ (challenge), チケット (ticket), ダメージ (damage), デビュー (debut)
+- **Entertainment/media (3)**: ジャンル (genre), ストーリー (story/plot), デフォルメ (stylized exaggeration)
+- **Multi-sense noun (1)**: チップ (tip/chip)
+- **Onomatopoeia/mimetic (3)**: ジロリ (piercing glare), ジーンと (feeling moved/tingling), トントン (knock-knock/break even)
+- **Na-adjective (1)**: スムーズ (smooth)
+
+Notable features:
+- Food vocabulary cluster: Japanese cuisine terms ({筍|たけのこ}, {照|て}り{焼|や}き, {豚骨|とんこつ}) and ramen terminology (チャーシュー, トッピング, {豚骨|とんこつ})
+- Meaning shifts from English: セレブ (wealth > fame), チャレンジ (positive attempt > confrontation), デリカシー (negative only), ソフトクリーム (wasei-eigo)
+- Multi-sense entries: ソース (sauce/source), チップ (tip/chip), ジーンと (emotional/physical), トントン (sound/break even)
+- Cultural notes: セーラー{服|ふく} (school uniform transition), {染井吉野|そめいよしの} (cherry blossom forecast standard), チップ (no tipping culture in Japan)
+- German origin: テーマ (from Thema, not English "theme")
+- New kanji: 2,293 → 2,295 (吉, 筍)
+
+Total entries: 10,986 → 11,016
+Remaining candidates: 190 → 160
 
 ### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 241)
 Added 30 new dictionary entries (IDs 10965-10994) from candidate_words.json:
@@ -137,24 +160,6 @@ Notable features:
 
 Total entries: 10,866 → 10,896
 Remaining candidates: 211 → 181
-
-### 2026-02-11 (New Candidate Words - 55 Words, Session 237)
-Added 55 new candidate words to candidate_words.json using diverse search strategies:
-
-- **Verbs (12)**: 促す (urge), 遮る (block), 委ねる (entrust), 募る (recruit/intensify), 率いる (lead), 嫉む (envy), 滅びる (perish), 偽る (deceive), 償う (atone), 侮る (underestimate), 宥める (soothe), 弾く (flick/repel)
-- **Abstract/emotional nouns (7)**: 陰謀 (conspiracy), 寛容 (tolerance), 慈悲 (compassion), 憤り (indignation), 義理 (social obligation), 献身 (devotion), 自惚れ (conceit)
-- **Academic/legal (4)**: 示唆 (implication), 言及 (mention), 生成 (generation), 遺言 (will/testament)
-- **Business/commerce (4)**: 採算 (profitability), 下請け (subcontracting), 精算 (settlement), 卸 (wholesale)
-- **Adjectives/personality (7)**: 壮大 (magnificent), 過酷 (harsh), 殺風景 (bleak), 律儀 (conscientious), 気難しい (fussy), 名残惜しい (reluctant to part), 無頓着 (indifferent)
-- **Personality traits (3)**: 人懐っこい (friendly), 短気 (short-tempered), 融通 (flexibility)
-- **Nature/science (3)**: 脱水 (dehydration), 渓谷 (valley), 侵食 (erosion)
-- **Discourse/narrative (5)**: 伏線 (foreshadowing), 連鎖 (chain reaction), 一連 (series), 煽り (instigation), 断片 (fragment)
-- **Cultural/social (5)**: 相槌 (back-channel response), 仕草 (gesture), 食い逃げ (dine and dash), 立ち読み (reading in store), 十八番 (specialty)
-- **Expressions/trends (5)**: 所詮 (after all), 潮時 (opportune time), 頭打ち (plateauing), 落とし穴 (pitfall), 痕跡 (trace)
-
-Search strategies used: corpus-driven gap analysis, semantic domain exploration, collocational mining, register/formality pairs, practical situation vocabulary, productive pattern completion, cross-reference expansion
-
-Candidate words: 156 → 211
 
 ---
 

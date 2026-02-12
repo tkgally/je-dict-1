@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-11 (New Candidate Words - 55 Words, Session 237)
+Added 55 new candidate words to candidate_words.json using diverse search strategies:
+
+- **Verbs (12)**: 促す (urge), 遮る (block), 委ねる (entrust), 募る (recruit/intensify), 率いる (lead), 嫉む (envy), 滅びる (perish), 偽る (deceive), 償う (atone), 侮る (underestimate), 宥める (soothe), 弾く (flick/repel)
+- **Abstract/emotional nouns (7)**: 陰謀 (conspiracy), 寛容 (tolerance), 慈悲 (compassion), 憤り (indignation), 義理 (social obligation), 献身 (devotion), 自惚れ (conceit)
+- **Academic/legal (4)**: 示唆 (implication), 言及 (mention), 生成 (generation), 遺言 (will/testament)
+- **Business/commerce (4)**: 採算 (profitability), 下請け (subcontracting), 精算 (settlement), 卸 (wholesale)
+- **Adjectives/personality (7)**: 壮大 (magnificent), 過酷 (harsh), 殺風景 (bleak), 律儀 (conscientious), 気難しい (fussy), 名残惜しい (reluctant to part), 無頓着 (indifferent)
+- **Personality traits (3)**: 人懐っこい (friendly), 短気 (short-tempered), 融通 (flexibility)
+- **Nature/science (3)**: 脱水 (dehydration), 渓谷 (valley), 侵食 (erosion)
+- **Discourse/narrative (5)**: 伏線 (foreshadowing), 連鎖 (chain reaction), 一連 (series), 煽り (instigation), 断片 (fragment)
+- **Cultural/social (5)**: 相槌 (back-channel response), 仕草 (gesture), 食い逃げ (dine and dash), 立ち読み (reading in store), 十八番 (specialty)
+- **Expressions/trends (5)**: 所詮 (after all), 潮時 (opportune time), 頭打ち (plateauing), 落とし穴 (pitfall), 痕跡 (trace)
+
+Search strategies used: corpus-driven gap analysis, semantic domain exploration, collocational mining, register/formality pairs, practical situation vocabulary, productive pattern completion, cross-reference expansion
+
+Candidate words: 156 → 211
+
 ### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 236)
 Added 30 new dictionary entries (IDs 10845-10874) from candidate_words.json:
 
