@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-12
+**Last updated**: 2026-02-13
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,046 |
+| Total entries | ~11,132 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,247 (open) |
-| Candidate words | ~185 |
+| General tier | ~8,333 (open) |
+| Candidate words | ~211 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,820 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 245)
+Added 30 new dictionary entries (IDs 11055-11084) from candidate_words.json:
+
+- **I-adjectives (3)**: {騒|さわ}がしい (noisy/turbulent), {慌|あわ}ただしい (hectic), めでたい (auspicious/naive)
+- **Calendar nouns (2)**: {年末|ねんまつ} (year-end), {年始|ねんし} (beginning of year)
+- **Communication/digital (3)**: {口|くち}コミ (word of mouth/reviews), {閲覧|えつらん} (browsing/viewing), {送信|そうしん} (sending/transmission)
+- **Social/cultural (3)**: {恩返|おんがえ}し (returning a favor), {見返|みかえ}り (something in return), {社交辞令|しゃこうじれい} (social pleasantry)
+- **Medical (7)**: {予防接種|よぼうせっしゅ} (vaccination), カルテ (medical chart), {問診|もんしん} (medical interview), {眼科|がんか} (ophthalmology), {歯科|しか} (dentistry), {皮膚科|ひふか} (dermatology), {採血|さいけつ} (blood draw)
+- **Health/body (3)**: {悪化|あっか} (deterioration), {不眠|ふみん} (insomnia), {熟睡|じゅくすい} (deep sleep)
+- **Verb (1)**: {繕|つくろ}う (to mend/keep up appearances)
+- **Business/legal (2)**: {取引先|とりひきさき} (business partner), {被告|ひこく} (defendant)
+- **Other nouns (6)**: {泥沼|どろぬま} (quagmire), {番狂|ばんくる}わせ (upset), {花壇|かだん} (flower bed), {自尊心|じそんしん} (self-esteem), {膨張|ぼうちょう} (expansion), {結露|けつろ} (condensation)
+
+Notable features:
+- Medical department cluster ({眼科|がんか}/{歯科|しか}/{皮膚科|ひふか}) with cross-references between them
+- Antonym pairs: {不眠|ふみん} ↔ {熟睡|じゅくすい}, {恩返|おんがえ}し ↔ {見返|みかえ}り (related)
+- Multi-sense entries: {騒|さわ}がしい (noise/turmoil), めでたい (auspicious/naive), {繕|つくろ}う (mend/appearances), {泥沼|どろぬま} (literal/figurative)
+- Cultural notes: めでたい (鯛 pun), {社交辞令|しゃこうじれい} (reading Japanese sincerity), カルテ (German medical influence)
+- Calendar pair: {年末|ねんまつ}/{年始|ねんし} with {年末年始|ねんまつねんし} compound
+
+Total entries: 11,102 → 11,132
+Remaining candidates: 241 → 211
 
 ### 2026-02-12 (New Candidate Words - 55 Words, Session 244)
 Added 55 new candidate words to candidate_words.json across diverse domains:
@@ -159,27 +182,6 @@ Notable features:
 
 Total entries: 10,926 → 10,956
 Remaining candidates: 151 → 121
-
-### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 239)
-Added 30 new dictionary entries (IDs 10905-10934) from candidate_words.json:
-
-- **Adjectives (5)**: {殺風景|さっぷうけい} (bleak), {律儀|りちぎ} (conscientious), {気難|きむずか}しい (hard to please), {名残惜|なごりお}しい (reluctant to part), {人懐|ひとなつ}っこい (friendly)
-- **Na-adjectives/nouns (2)**: {無頓着|むとんちゃく} (indifferent), {短気|たんき} (short-tempered)
-- **Cultural/social nouns (5)**: {相槌|あいづち} (back-channel response), {仕草|しぐさ} (gesture), {立|た}ち{読|よ}み (reading in store), {十八番|おはこ} (specialty), {食|く}い{逃|に}げ (dine and dash)
-- **Abstract nouns (6)**: {融通|ゆうずう} (flexibility), {断片|だんぺん} (fragment), {痕跡|こんせき} (trace), {自惚|うぬぼ}れ (vanity), {頭打|あたまう}ち (plateauing), {落|お}とし{穴|あな} (pitfall)
-- **Nature/science nouns (3)**: {脱水|だっすい} (dehydration), {侵食|しんしょく} (erosion), {渓谷|けいこく} (valley)
-- **Time/discourse (3)**: {潮時|しおどき} (opportune time), {所詮|しょせん} (after all), {煽|あお}り (provocation/fallout)
-- **Food nouns (3)**: サクランボ (cherry), シイタケ (shiitake), シチュー (stew)
-- **Commerce/lifestyle (3)**: {卸|おろし} (wholesale), サークル (club/circle), シフト (shift)
-
-Notable features:
-- Diverse vocabulary: personality traits, cultural concepts, food, nature, business
-- Multi-sense entries: {融通|ゆうずう} (flexibility/financing), {脱水|だっすい} (dehydration/spin-dry), {侵食|しんしょく} (erosion literal/figurative), {煽|あお}り (provocation/fallout), {落|お}とし{穴|あな} (trap/hidden risk), サークル (university club/circle shape), シフト (work schedule/transition)
-- Cultural notes: {相槌|あいづち} (back-channeling in Japanese conversation), {十八番|おはこ} (kabuki origin), {立|た}ち{読|よ}み (convenience store culture), {短気|たんき}は{損気|そんき} proverb
-- New kanji: 2,289 → 2,293 (侵, 渓, 痕, 詮)
-
-Total entries: 10,896 → 10,926
-Remaining candidates: 181 → 151
 
 ---
 
