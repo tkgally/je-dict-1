@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00688_hon_ex1",
-      "japanese": "ペンが{三本|さんぼん}あります。",
+      "japanese": "⟦ペン→ペン：02960_pen⟧⟦が→が：00051_ga⟧{三本|さんぼん}⟦あります→ある：00006_aru⟧。",
       "english": "There are three pens.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00688_hon_ex2",
-      "japanese": "{傘|かさ}を{一本|いっぽん}ください。",
+      "japanese": "⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧{一本|いっぽん}⟦ください→ください：02899_kudasai⟧。",
       "english": "One umbrella, please.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00688_hon_ex3",
-      "japanese": "バナナを{何本|なんぼん}{食|た}べましたか。",
+      "japanese": "⟦バナナ→バナナ：01013_banana⟧⟦を→を：00422_wo⟧{何本|なんぼん}⟦{食|た}べました→食べる：00396_taberu⟧⟦か→か：09473_ka⟧。",
       "english": "How many bananas did you eat?",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00688_hon_ex4",
-      "japanese": "{水|みず}を{二本|にほん}{買|か}いました。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{二本|にほん}⟦{買|か}いました→買う：00489_kau⟧。",
       "english": "I bought two bottles of water.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00688_hon_ex5",
-      "japanese": "{映画|えいが}を{三本|さんぼん}{見|み}ましたが、この{映画|えいが}が{一番|いちばん}{面白|おもしろ}かったです。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{三本|さんぼん}⟦{見|み}ました→見る：00283_miru⟧⟦が→が：00051_ga⟧、⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{面白|おもしろ}かった→面白い：00589_omoshiroi⟧⟦です→です：09485_desu⟧。",
       "english": "I watched three movies, but this one was the most interesting.",
       "notes": null,
       "has_audio": false,
@@ -63,12 +63,12 @@
       ]
     }
   ],
-  "notes": "〜{本|ほん} counts long, thin, cylindrical objects.\n\nWHAT IT COUNTS:\n- Writing tools: {鉛筆|えんぴつ}, ペン, {筆|ふで}\n- Bottles/containers: ビール, {水|みず}のボトル\n- Elongated items: {傘|かさ}, バナナ, {木|き}\n- Abstract \"lines\": {電話|でんわ}, {映画|えいが}, {電車|でんしゃ}の{路線|ろせん}\n\nSOUND CHANGES:\n- ぽん (after 1, 6, 8, 10): {一本|いっぽん}, {六本|ろっぽん}, {八本|はっぽん}, {十本|じゅっぽん}\n- ぼん (after 3): {三本|さんぼん}\n- ほん (others): {二本|にほん}, {四本|よんほん}, {五本|ごほん}, {七本|ななほん}, {九本|きゅうほん}\n\nQUESTION FORM:\n{何本|なんぼん}: how many (long objects)?",
+  "notes": "〜{本|ほん} counts long, thin, cylindrical objects.\n\nWHAT IT COUNTS:\n- Writing tools: ⟦{鉛筆|えんぴつ}→鉛筆：00694_enpitsu⟧, ⟦ペン→ペン：02960_pen⟧, ⟦{筆|ふで}→筆：03601_fude⟧\n- Bottles/containers: ⟦ビール→ビール：01015_biiru⟧, ⟦{水|みず}→水：02258_mizu⟧のボトル\n- Elongated items: ⟦{傘|かさ}→傘：00639_kasa⟧, ⟦バナナ→バナナ：01013_banana⟧, ⟦{木|き}→木：00524_ki⟧\n- Abstract \"lines\": ⟦{電話|でんわ}→電話：01471_denwa⟧, ⟦{映画|えいが}→映画：02273_eiga⟧, ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦{路線|ろせん}→路線：noentry⟧\n\nSOUND CHANGES:\n- ぽん (after 1, 6, 8, 10): {一本|いっぽん}, {六本|ろっぽん}, {八本|はっぽん}, {十本|じゅっぽん}\n- ぼん (after 3): {三本|さんぼん}\n- ほん (others): {二本|にほん}, {四本|よんほん}, {五本|ごほん}, {七本|ななほん}, {九本|きゅうほん}\n\nQUESTION FORM:\n{何本|なんぼん}: how many (long objects)?",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:39:43Z",
-    "modified": "2026-01-29T09:17:58Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-13T02:44:50Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [

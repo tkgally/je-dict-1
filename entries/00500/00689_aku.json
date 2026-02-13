@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00689_aku_ex1",
-      "japanese": "ドアが{開|あ}きました。",
+      "japanese": "⟦ドア→ドア：00773_doa⟧⟦が→が：00051_ga⟧{開|あ}きました。",
       "english": "The door opened.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00689_aku_ex2",
-      "japanese": "{店|みせ}は{何|なん}{時|じ}に{開|あ}きますか。",
+      "japanese": "⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{何|なん}{時|じ}→何時：00973_nanji⟧⟦に→に：00314_ni⟧{開|あ}きます⟦か→か：09473_ka⟧。",
       "english": "What time does the store open?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00689_aku_ex3",
-      "japanese": "{窓|まど}が{開|あ}いています。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧{開|あ}いています。",
       "english": "The window is open.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00689_aku_ex4",
-      "japanese": "{電車|でんしゃ}のドアが{開|あ}くまで{待|ま}ってください。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦ドア→ドア：00773_doa⟧⟦が→が：00051_ga⟧{開|あ}く⟦まで→まで：00490_made⟧⟦{待|ま}って→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wait until the train door opens.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00689_aku_ex5",
-      "japanese": "{花|はな}が{開|ひら}くのを{見|み}るのが{好|す}きです。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧{開|ひら}く⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧⟦です→です：09485_desu⟧。",
       "english": "I like watching flowers open.",
       "notes": "Here 開く uses alternative reading ひらく for blossoming",
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {開|あ}ける (transitive, to open something). Pattern: Xが{開|あ}く.\n\nASPECT: ている indicates resulting state. {開|あ}いている = 'is open' (not 'is opening'). This is important: {窓|まど}が{開|あ}いている means 'the window is open,' not 'the window is opening.'\n\nCOMMON PATTERNS:\n・ドアが{開|あ}く (the door opens)\n・{店|みせ}が{開|あ}く (the store opens)\n・{穴|あな}が{開|あ}く (a hole forms)\n・{席|せき}が{開|あ}く (a seat becomes available)\n\nOpposite: {閉|し}まる (to close by itself).",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{開|あ}ける→開ける：00563_akeru⟧ (transitive, to open something). Pattern: X⟦が→が：00051_ga⟧{開|あ}く.\n\nASPECT: ている indicates resulting state. {開|あ}いている = 'is open' (not 'is opening'). This is important: ⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧{開|あ}いている means 'the window is open,' not 'the window is opening.'\n\nCOMMON PATTERNS:\n・⟦ドア→ドア：00773_doa⟧⟦が→が：00051_ga⟧{開|あ}く (the door opens)\n・⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{開|あ}く (the store opens)\n・⟦{穴|あな}→穴：01691_ana⟧⟦が→が：00051_ga⟧{開|あ}く (a hole forms)\n・⟦{席|せき}→席：02215_seki⟧⟦が→が：00051_ga⟧{開|あ}く (a seat becomes available)\n\nOpposite: ⟦{閉|し}まる→閉まる：00754_shimaru⟧ (to close by itself).",
   "cross_references": [
     {
       "type": "see_also",
@@ -81,8 +81,8 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:34:09Z",
-    "modified": "2026-01-21T14:14:23Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-13T02:44:50Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
