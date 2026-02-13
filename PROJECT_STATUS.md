@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,132 |
+| Total entries | ~11,162 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,333 (open) |
-| Candidate words | ~211 |
+| General tier | ~8,363 (open) |
+| Candidate words | ~181 |
 | Cross-references | ~3,332 |
 | Example sentences | ~41,820 |
 | Audio files | 1,028 |
@@ -50,6 +50,33 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 246)
+Added 30 new dictionary entries (IDs 11085-11114) from candidate_words.json:
+
+- **Legal/criminal justice (4)**: {原告|げんこく} (plaintiff), {検察|けんさつ} (prosecution), {懲役|ちょうえき} (imprisonment), {証言|しょうげん} (testimony)
+- **Medical/nutrition (4)**: {抗生物質|こうせいぶっしつ} (antibiotic), {初診|しょしん} (first medical visit), {糖質|とうしつ} (carbohydrates), {脂質|ししつ} (lipids)
+- **Health/body (2)**: {新陳代謝|しんちんたいしゃ} (metabolism), {体幹|たいかん} (core/trunk)
+- **Education (2)**: {修士|しゅうし} (master's degree), {模試|もし} (mock exam)
+- **Business/work (2)**: {決裁|けっさい} (approval), {着工|ちゃっこう} (start of construction)
+- **Music (2)**: {指揮|しき} (conducting/command), {譜面|ふめん} (musical score)
+- **〜{化|か} compounds (2)**: {深刻化|しんこくか} (worsening), {長期化|ちょうきか} (prolongation)
+- **Infrastructure/science (3)**: {回線|かいせん} (line/circuit), {排水|はいすい} (drainage), {窒素|ちっそ} (nitrogen)
+- **Culture/people (2)**: {冠婚葬祭|かんこんそうさい} (ceremonial occasions), {忍者|にんじゃ} (ninja)
+- **General vocabulary (5)**: {反復|はんぷく} (repetition), {燃|も}え{尽|つ}き (burnout), {内覧|ないらん} (property viewing), コマ (frame/panel; class period), ニラ (Chinese chives)
+- **Grammar/expression (1)**: {羽目|はめ} (predicament — 〜する{羽目|はめ}になる pattern)
+- **Verb (1)**: ばらす (to reveal/to dismantle)
+
+Notable features:
+- Legal vocabulary cluster: {原告|げんこく}/{検察|けんさつ}/{懲役|ちょうえき}/{証言|しょうげん} with cross-reference to {被告|ひこく}
+- Nutrition label terms: {糖質|とうしつ}/{脂質|ししつ} with Japanese food labeling explanation
+- Multi-sense entries: {指揮|しき} (military command/music conducting), {内覧|ないらん} (property viewing/exhibition preview), コマ (manga panel/class period), ばらす (reveal secret/dismantle)
+- Cultural notes: {冠婚葬祭|かんこんそうさい} (four life ceremony categories), {忍者|にんじゃ} (Iga/Koka history), {模試|もし} ({偏差値|へんさち} system)
+- Homophone distinctions: {決裁|けっさい} vs {決済|けっさい}, {回線|かいせん} vs {海鮮|かいせん}
+- New kanji: 2,295 → 2,296 (窒)
+
+Total entries: 11,132 → 11,162
+Remaining candidates: 211 → 181
 
 ### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 245)
 Added 30 new dictionary entries (IDs 11055-11084) from candidate_words.json:
@@ -164,24 +191,6 @@ Notable features:
 
 Total entries: 10,956 → 10,986
 Remaining candidates: 121 → 91
-
-### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 240)
-Added 30 new dictionary entries (IDs 10935-10964) from candidate_words.json:
-
-- **Nouns (20)**: サウナ (sauna), サプライズ (surprise), サプリメント (supplement), サミット (summit), サンプル (sample), サロン (salon), サバイバル (survival), サポーター (supporter/brace), シート (sheet/seat), シネマ (cinema), シグナル (signal), シューズ (shoes), カウンセリング (counseling), カリキュラム (curriculum), シンボル (symbol), サウンド (sound), カルシウム (calcium), サブカルチャー (subculture), シソ (perilla/shiso), シリーズ (series)
-- **Na-adjectives (2)**: シビア (severe), シンプル (simple)
-- **Multi-category nouns (5)**: シングル (single — room/music/unmarried), ショー (show), ショート (short/short circuit), シーズン (season — time/TV), シナリオ (scenario/script)
-- **Noun + suru verb (2)**: シミュレーション (simulation), ショート (short circuit)
-- **Onomatopoeia (1)**: ザクザク (crunchy/in abundance)
-
-Notable features:
-- Katakana loanwords filling common gaps, plus Japanese onomatopoeia and food vocabulary
-- Multi-sense entries: シナリオ (script/projected events), シーズン (time of year/TV season), シート (flat sheet/seat), シングル (room/music/unmarried), ショート (hair length/short circuit), サロン (beauty/online community), サポーター (sports fan/brace), ザクザク (crunchy sound/abundance)
-- Japan-specific concepts: サウナ (Japanese sauna cycle with 水風呂 and 整う), サプライズ (positive surprises only), ショートケーキ (strawberry sponge, not American shortcake), ブルーシート (iconic Japanese tarp), オンラインサロン (paid membership communities), サバイバルゲーム/サバゲー (airsoft), シミュレーション (common mispronunciation note), 食品サンプル (plastic food models)
-- Cultural notes: シソ (大葉 naming distinction), カルシウム (folk wisdom about irritability), サブカルチャー (otaku culture focus in Japanese usage)
-
-Total entries: 10,926 → 10,956
-Remaining candidates: 151 → 121
 
 ---
 
