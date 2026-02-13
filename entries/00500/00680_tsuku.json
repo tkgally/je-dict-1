@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00680_tsuku_ex1",
-      "japanese": "{駅|えき}に{着|つ}きました。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧{着|つ}きました。",
       "english": "I arrived at the station.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00680_tsuku_ex2",
-      "japanese": "{何時|なんじ}に{東京|とうきょう}に{着|つ}きますか。",
+      "japanese": "⟦{何時|なんじ}→何時：00973_nanji⟧⟦に→に：00314_ni⟧⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦に→に：00314_ni⟧{着|つ}きます⟦か→か：09473_ka⟧。",
       "english": "What time will you arrive in Tokyo?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00680_tsuku_ex3",
-      "japanese": "{飛行機|ひこうき}が{空港|くうこう}に{着|つ}いた。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧⟦{空港|くうこう}→空港：00648_kuukou⟧⟦に→に：00314_ni⟧{着|つ}いた。",
       "english": "The airplane arrived at the airport.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00680_tsuku_ex4",
-      "japanese": "{会社|かいしゃ}に{着|つ}いたら{電話|でんわ}してください。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{着|つ}いたら⟦{電話|でんわ}して→電話する：05652_denwasuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please call me when you arrive at the office.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00680_tsuku_ex5",
-      "japanese": "{友達|ともだち}の{家|いえ}に{着|つ}いたら、もう{皆|みんな}が{待|ま}っていました。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{着|つ}いたら、⟦もう→もう：00602_mou⟧⟦{皆|みんな}→みんな：02972_minna⟧⟦が→が：00051_ga⟧⟦{待|ま}っていました→待つ：00469_matsu⟧。",
       "english": "When I arrived at my friend's house, everyone was already waiting.",
       "notes": null,
       "has_audio": false,
@@ -63,12 +63,12 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xに{着|つ}く (arrive at X).\n\nASPECT: ている indicates resulting state. {着|つ}いている = 'has arrived' (is at the destination now).\n\nCOMMON PATTERNS:\n・{駅|えき}に{着|つ}く (arrive at the station)\n・{家|いえ}に{着|つ}く (arrive home)\n・{時間|じかん}どおりに{着|つ}く (arrive on time)\n・{無事|ぶじ}に{着|つ}いた (arrived safely)\n\nDifferent from {付|つ}く (stick to), {就|つ}く (assume position). Destination uses に.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{着|つ}く (arrive at X).\n\nASPECT: ている indicates resulting state. {着|つ}いている = 'has arrived' (is at the destination now).\n\nCOMMON PATTERNS:\n・⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧{着|つ}く (arrive at the station)\n・⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{着|つ}く (arrive home)\n・⟦{時間|じかん}→時間：00468_jikan⟧⟦どおり→どおり：09884_doori⟧⟦に→に：00314_ni⟧{着|つ}く (arrive on time)\n・⟦{無事|ぶじ}→無事：01602_buji⟧⟦に→に：00314_ni⟧{着|つ}いた (arrived safely)\n\nDifferent from ⟦{付|つ}く→付く：01960_tsuku⟧ (stick to), ⟦{就|つ}く→就く：10123_tsuku⟧ (assume position). Destination uses ⟦に→に：00314_ni⟧.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:38:33Z",
-    "modified": "2026-01-21T21:39:56Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-13T02:44:50Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
