@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 240)
+Added 30 new dictionary entries (IDs 10935-10964) from candidate_words.json:
+
+- **Nouns (20)**: サウナ (sauna), サプライズ (surprise), サプリメント (supplement), サミット (summit), サンプル (sample), サロン (salon), サバイバル (survival), サポーター (supporter/brace), シート (sheet/seat), シネマ (cinema), シグナル (signal), シューズ (shoes), カウンセリング (counseling), カリキュラム (curriculum), シンボル (symbol), サウンド (sound), カルシウム (calcium), サブカルチャー (subculture), シソ (perilla/shiso), シリーズ (series)
+- **Na-adjectives (2)**: シビア (severe), シンプル (simple)
+- **Multi-category nouns (5)**: シングル (single — room/music/unmarried), ショー (show), ショート (short/short circuit), シーズン (season — time/TV), シナリオ (scenario/script)
+- **Noun + suru verb (2)**: シミュレーション (simulation), ショート (short circuit)
+- **Onomatopoeia (1)**: ザクザク (crunchy/in abundance)
+
+Total entries: 10,926 → 10,956
+Remaining candidates: 151 → 121
+
 ### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 239)
 Added 30 new dictionary entries (IDs 10905-10934) from candidate_words.json:
 
