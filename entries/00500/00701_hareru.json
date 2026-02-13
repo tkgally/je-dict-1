@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00701_hareru_ex1",
-      "japanese": "{明日|あした}は{晴|は}れるでしょう。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧{晴|は}れる⟦でしょう→でしょう：09887_deshou⟧。",
       "english": "It will probably clear up tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00701_hareru_ex2",
-      "japanese": "{空|そら}が{晴|は}れました。",
+      "japanese": "⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{晴|は}れました。",
       "english": "The sky has cleared.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00701_hareru_ex3",
-      "japanese": "{午後|ごご}から{晴|は}れます。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧⟦から→から：00504_kara⟧{晴|は}れます。",
       "english": "It will clear up from the afternoon.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00701_hareru_ex4",
-      "japanese": "{天気|てんき}{予報|よほう}によると、{今週|こんしゅう}の{週末|しゅうまつ}は{朝|あさ}から{晴|は}れるそうです。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦{予報|よほう}→予報：03668_yohou⟧⟦に→に：00314_ni⟧⟦よると→よる：09857_yoru⟧、⟦{今週|こんしゅう}→今週：00721_konshuu⟧⟦の→の：09472_no⟧⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{晴|は}れるそう⟦です→です：09485_desu⟧。",
       "english": "According to the weather forecast, it will clear up from morning tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00701_hareru_ex5",
-      "japanese": "{朝|あさ}は{雲|くも}が{多|おお}かったですが、{午後|ごご}から{晴|は}れて、とても{気持|きも}ちがいい{天気|てんき}になりました。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦は→は：00079_ha⟧⟦{雲|くも}→雲：02202_kumo⟧⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧、⟦{午後|ごご}→午後：00544_gogo⟧⟦から→から：00504_kara⟧{晴|は}れて、⟦とても→とても：00593_totemo⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦{天気|てんき}→天気：00582_tenki⟧⟦に→に：00314_ni⟧⟦なりました→なる：01970_naru⟧。",
       "english": "It was cloudy in the morning, but it cleared up in the afternoon and became very pleasant weather.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: Xが{晴|は}れる (X clears up).\n\nASPECT: ている indicates resulting state. {晴|は}れている = 'is clear/sunny' (current weather state).\n\nCOMMON PATTERNS:\n・{空|そら}が{晴|は}れる (sky clears)\n・{明日|あした}{晴|は}れる (will clear up tomorrow)\n・{晴|は}れた{日|ひ} (sunny day)\n・{晴|は}れ{時|とき}々{曇|くも}り (partly cloudy)\n\nNoun: {晴|は}れ (clear weather). Opposite: {曇|くも}る (become cloudy). Weather words: {晴|は}れ, {曇|くも}り, {雨|あめ}.",
+  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{晴|は}れる (X clears up).\n\nASPECT: ている indicates resulting state. {晴|は}れている = 'is clear/sunny' (current weather state).\n\nCOMMON PATTERNS:\n・⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{晴|は}れる (sky clears)\n・⟦{明日|あした}→明日：00501_ashita⟧{晴|は}れる (will clear up tomorrow)\n・{晴|は}れた⟦{日|ひ}→日：02249_hi⟧ (sunny day)\n・{晴|は}れ{時|とき}々⟦{曇|くも}り→曇る：00723_kumoru⟧ (partly cloudy)\n\nNoun: {晴|は}れ (clear weather). Opposite: ⟦{曇|くも}る→曇る：00723_kumoru⟧ (become cloudy). Weather words: {晴|は}れ, {曇|くも}り, ⟦{雨|あめ}→雨：00583_ame⟧.",
   "cross_references": [
     {
       "type": "see_also",
@@ -74,7 +74,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:10:52Z",
-    "modified": "2026-01-22T13:47:35Z",
+    "modified": "2026-02-13T12:00:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
