@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,192 |
+| Total entries | ~11,222 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,393 (open) |
-| Candidate words | ~271 |
+| General tier | ~8,423 (open) |
+| Candidate words | ~241 |
 | Cross-references | ~3,332 |
-| Example sentences | ~41,920 |
+| Example sentences | ~42,040 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 248)
+Added 30 new dictionary entries (IDs 11145-11174) from candidate_words.json:
+
+- **Native Japanese (2)**: まし (better/preferable of bad options), ナス (eggplant)
+- **Loanwords with Japanese nuance (8)**: ドライ (dry/unemotional), ドリル (drill/practice workbook), フラグ (flag/foreshadowing), マニア (enthusiast), パフォーマンス (performance/publicity stunt), ムード (mood/romantic atmosphere), ヒット (hit/search result), フリーズ (freeze/computer crash)
+- **Food/dining (3)**: ビュッフェ (buffet), メニュー (menu/training regimen), ポテト (potato/french fries)
+- **Wasei-eigo (3)**: ホームセンター (home improvement store), バリアフリー (barrier-free/accessible), ベビーカー (baby stroller)
+- **Business/work (3)**: ビジネス (business), メーカー (maker/manufacturer), ネイティブ (native speaker)
+- **Fashion/beauty (2)**: ファッション (fashion), メイク (makeup)
+- **Occupation (1)**: パティシエ (pastry chef)
+- **Entertainment/culture (3)**: ホール (hall/front-of-house), メディア (media), モチーフ (motif/inspiration)
+- **General vocabulary (5)**: メイン (main/primary), パニック (panic), ペース (pace), ピーク (peak), フェリー (ferry)
+
+Notable features:
+- Japanese-specific meanings: フラグ ({死亡|しぼう}フラグ internet culture), ドライ (personality type contrast with ウェット), パフォーマンス (publicity stunt sense), ムード (romantic atmosphere)
+- Wasei-eigo cluster: ホームセンター, バリアフリー, ベビーカー with etymology notes
+- Multi-sense entries: ドライ (physical/personality), ドリル (tool/workbook), ヒット (popularity/baseball/search), メニュー (restaurant/training), ポテト (vegetable/fries), ホール (auditorium/restaurant front), フリーズ (computer/person)
+- Restaurant/food vocabulary: ビュッフェ (バイキング contrast), ポテト (じゃがいも contrast), メニュー, パティシエ
+
+Total entries: 11,192 → 11,222
+Remaining candidates: 271 → 241
 
 ### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 247)
 Added 30 new dictionary entries (IDs 11115-11144) from candidate_words.json:
@@ -163,29 +185,6 @@ Notable features:
 
 Total entries: 11,016 → 11,046
 Remaining candidates: 160 → 130
-
-### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 242)
-Added 30 new dictionary entries (IDs 10995-11024) from candidate_words.json:
-
-- **Food nouns (8)**: {筍|たけのこ} (bamboo shoot), {照|て}り{焼|や}き (teriyaki), {豚骨|とんこつ} (pork bone/tonkotsu), チャーシュー (char siu), チャーハン (fried rice), ソフトクリーム (soft serve), ソース (sauce/source), トッピング (topping)
-- **People/social nouns (2)**: セレブ (celebrity/wealthy person), チンピラ (punk/thug)
-- **Clothing/culture (2)**: セーラー{服|ふく} (sailor uniform), {染井吉野|そめいよしの} (Somei-Yoshino cherry)
-- **Loanword nouns (10)**: ダイエット (diet), トラウマ (trauma), デリカシー (sensitivity), タイアップ (tie-up), タイミング (timing), テーマ (theme), チャレンジ (challenge), チケット (ticket), ダメージ (damage), デビュー (debut)
-- **Entertainment/media (3)**: ジャンル (genre), ストーリー (story/plot), デフォルメ (stylized exaggeration)
-- **Multi-sense noun (1)**: チップ (tip/chip)
-- **Onomatopoeia/mimetic (3)**: ジロリ (piercing glare), ジーンと (feeling moved/tingling), トントン (knock-knock/break even)
-- **Na-adjective (1)**: スムーズ (smooth)
-
-Notable features:
-- Food vocabulary cluster: Japanese cuisine terms ({筍|たけのこ}, {照|て}り{焼|や}き, {豚骨|とんこつ}) and ramen terminology (チャーシュー, トッピング, {豚骨|とんこつ})
-- Meaning shifts from English: セレブ (wealth > fame), チャレンジ (positive attempt > confrontation), デリカシー (negative only), ソフトクリーム (wasei-eigo)
-- Multi-sense entries: ソース (sauce/source), チップ (tip/chip), ジーンと (emotional/physical), トントン (sound/break even)
-- Cultural notes: セーラー{服|ふく} (school uniform transition), {染井吉野|そめいよしの} (cherry blossom forecast standard), チップ (no tipping culture in Japan)
-- German origin: テーマ (from Thema, not English "theme")
-- New kanji: 2,293 → 2,295 (吉, 筍)
-
-Total entries: 10,986 → 11,016
-Remaining candidates: 190 → 160
 
 ---
 

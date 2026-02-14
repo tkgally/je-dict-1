@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 242)
+Added 30 new dictionary entries (IDs 10995-11024) from candidate_words.json:
+
+- **Food nouns (8)**: {筍|たけのこ} (bamboo shoot), {照|て}り{焼|や}き (teriyaki), {豚骨|とんこつ} (pork bone/tonkotsu), チャーシュー (char siu), チャーハン (fried rice), ソフトクリーム (soft serve), ソース (sauce/source), トッピング (topping)
+- **People/social nouns (2)**: セレブ (celebrity/wealthy person), チンピラ (punk/thug)
+- **Clothing/culture (2)**: セーラー{服|ふく} (sailor uniform), {染井吉野|そめいよしの} (Somei-Yoshino cherry)
+- **Loanword nouns (10)**: ダイエット (diet), トラウマ (trauma), デリカシー (sensitivity), タイアップ (tie-up), タイミング (timing), テーマ (theme), チャレンジ (challenge), チケット (ticket), ダメージ (damage), デビュー (debut)
+- **Entertainment/media (3)**: ジャンル (genre), ストーリー (story/plot), デフォルメ (stylized exaggeration)
+- **Multi-sense noun (1)**: チップ (tip/chip)
+- **Onomatopoeia/mimetic (3)**: ジロリ (piercing glare), ジーンと (feeling moved/tingling), トントン (knock-knock/break even)
+- **Na-adjective (1)**: スムーズ (smooth)
+
+Total entries: 10,986 → 11,016
+Remaining candidates: 190 → 160
+
 ### 2026-02-11 (Vocabulary Expansion - 30 New Entries, Session 240)
 Added 30 new dictionary entries (IDs 10935-10964) from candidate_words.json:
 
