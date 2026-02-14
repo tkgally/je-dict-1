@@ -14,16 +14,6 @@
   "examples": [
     {
       "id": "01299_ossharu_ex1",
-      "japanese": "{先生|せんせい}がおっしゃったことを{覚|おぼ}えていますか。",
-      "english": "Do you remember what the teacher said?",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01299_ossharu_ex2",
       "japanese": "おっしゃる{通|とお}りです。",
       "english": "It's just as you say.",
       "notes": "Common expression of agreement",
@@ -33,7 +23,7 @@
       ]
     },
     {
-      "id": "01299_ossharu_ex3",
+      "id": "01299_ossharu_ex2",
       "japanese": "{何|なん}とおっしゃいましたか。",
       "english": "What did you say?",
       "notes": "Polite way to ask someone to repeat",
@@ -43,10 +33,20 @@
       ]
     },
     {
+      "id": "01299_ossharu_ex3",
+      "japanese": "お{名前|なまえ}は{何|なん}とおっしゃいますか。",
+      "english": "What is your name? (very polite)",
+      "notes": "Formal way to ask someone's name",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01299_ossharu_ex4",
-      "japanese": "{社長|しゃちょう}がおっしゃるには、{来月|らいげつ}{新|あたら}しいプロジェクトが{始|はじ}まるそうです。",
-      "english": "According to what the president said, a new project will start next month.",
-      "notes": "おっしゃるには = according to what ~ said",
+      "japanese": "{先生|せんせい}がおっしゃったことを{覚|おぼ}えていますか。",
+      "english": "Do you remember what the teacher said?",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -54,9 +54,9 @@
     },
     {
       "id": "01299_ossharu_ex5",
-      "japanese": "お{名前|なまえ}は{何|なん}とおっしゃいますか。",
-      "english": "What is your name? (very polite)",
-      "notes": "Formal way to ask someone's name",
+      "japanese": "{社長|しゃちょう}がおっしゃるには、{来月|らいげつ}{新|あたら}しいプロジェクトが{始|はじ}まるそうです。",
+      "english": "According to what the president said, a new project will start next month.",
+      "notes": "おっしゃるには = according to what ~ said",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -89,7 +89,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-01-19T12:17:40.753816Z",
+    "modified": "2026-02-14T05:52:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
