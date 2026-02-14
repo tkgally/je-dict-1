@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-13
+**Last updated**: 2026-02-14
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,162 |
+| Total entries | ~11,192 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,363 (open) |
-| Candidate words | ~181 |
+| General tier | ~8,393 (open) |
+| Candidate words | ~271 |
 | Cross-references | ~3,332 |
-| Example sentences | ~41,820 |
+| Example sentences | ~41,920 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 247)
+Added 30 new dictionary entries (IDs 11115-11144) from candidate_words.json:
+
+- **Food/condiments (7)**: ポン{酢|ず} (ponzu sauce), マヨネーズ (mayonnaise), ドレッシング (salad dressing), メンマ (seasoned bamboo shoots), ピリ{辛|から} (mildly spicy), ドーナツ (doughnut), フライ (deep-fried food)
+- **Vegetables/plants (4)**: ブロッコリー (broccoli), ピーマン (green pepper), ヨモギ (mugwort), ヨーグルト (yogurt)
+- **Fish/seafood (2)**: マグロ (tuna), ヒラメ (flounder)
+- **Desserts (2)**: パフェ (parfait), プリン (pudding)
+- **Culture/society (3)**: バツイチ (once-divorced), ファミレス (family restaurant), マナー (manners/etiquette)
+- **Business/abstract (3)**: ノウハウ (know-how), ニュアンス (nuance), メンタル (mental state)
+- **Daily life (4)**: バケツ (bucket), ビニール (vinyl/plastic), フローリング (hardwood flooring), ヒント (hint/clue)
+- **General (5)**: {山場|やまば} (climax/critical moment), ハードル (hurdle/obstacle), バブル (bubble/economic bubble), ベテラン (veteran/seasoned professional), ピンチ (crisis/tight spot)
+
+Notable features:
+- Food/cooking cluster with condiments, vegetables, and cooking terms
+- Cultural context entries: バツイチ ({戸籍|こせき} × mark), ファミレス (Japanese dining culture), マナー (マナーモード)
+- Japanese economic history: バブル with bubble era ({景気|けいき}) vocabulary
+- Wasei-eigo notes: ファミレス, ピーマン (from French), マナーモード
+- Multi-sense entries: フライ (deep-fried food/fly ball), バブル (physical bubble/economic bubble), ハードル (athletics/figurative obstacle)
+
+Total entries: 11,162 → 11,192
+Remaining candidates: 301 → 271
 
 ### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 246)
 Added 30 new dictionary entries (IDs 11085-11114) from candidate_words.json:
@@ -164,33 +186,6 @@ Notable features:
 
 Total entries: 10,986 → 11,016
 Remaining candidates: 190 → 160
-
-### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 241)
-Added 30 new dictionary entries (IDs 10965-10994) from candidate_words.json:
-
-- **Verb (1)**: {差|さ}す (to hold up/shine/pour — distinct from 刺す/指す/射す)
-- **Conversational responses (5)**: そうだね (yeah, that's right), そうかな (I wonder), そうかも (maybe so), だよな (right? — masculine), だろ (right? — assertive)
-- **Everyday state expressions (3)**: つかれた (I'm tired), おなかすいた (I'm hungry), のどかわいた (I'm thirsty)
-- **Emotional reactions (5)**: まじかよ (are you serious?), やらかした (I screwed up), やっちゃった (oops), だめだ (it's no good), むりだ (impossible)
-- **Situational expressions (4)**: なにこれ (what's this?), ちょっとまって (wait a sec), こまったな (that's a problem), なんでだろう (I wonder why)
-- **Discourse connectors (2)**: そんなわけで (so for that reason), てなわけで (so basically)
-- **Indifference expressions (2)**: どこでもいい (anywhere's fine), いつでもいい (anytime's fine)
-- **Back-channel / interjections (3)**: うんうん (uh-huh), ちぇっ (tch), すっごい (really amazing)
-- **Cultural expression (1)**: {空気|くうき}{読|よ}めない (can't read the room / KY)
-- **Modern term (1)**: {格安|かくやす}SIM (budget SIM card)
-- **Youth slang (3)**: とりま (for now), りょ (got it), あざす (thanks)
-
-Notable features:
-- Focus on casual spoken expressions and conversational building blocks for intermediate learners
-- Agreement spectrum: そうだね (full) → そうかも (tentative) → そうかな (doubtful)
-- Body-state expression pattern: つかれた/おなかすいた/のどかわいた (past tense for current state)
-- Mistake expression gradient: やっちゃった (minor) → やらかした (major)
-- Gender notes: だよな/だろ/まじかよ (masculine) vs だよね/でしょ/うそでしょ (feminine equivalents)
-- Cultural concept: {空気|くうき}{読|よ}めない (KY) — core Japanese social skill of reading unspoken atmosphere
-- Modern abbreviation chains: ありがとうございます→あざす, {了解|りょうかい}→りょ, とりあえず→とりま
-
-Total entries: 10,956 → 10,986
-Remaining candidates: 121 → 91
 
 ---
 
