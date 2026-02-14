@@ -19,9 +19,9 @@
   "examples": [
     {
       "id": "01324_oru_ex1",
-      "japanese": "{田中|たなか}はただいま{席|せき}を{外|はず}しております。",
-      "english": "Tanaka is away from his desk at the moment.",
-      "notes": "Business phone language",
+      "japanese": "お{待|ま}ちしております。",
+      "english": "We are waiting for you.",
+      "notes": "Polite business expression",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -31,7 +31,7 @@
       "id": "01324_oru_ex2",
       "japanese": "{私|わたし}どもは{東京|とうきょう}におります。",
       "english": "We are in Tokyo.",
-      "notes": "Humble plural",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -39,12 +39,42 @@
     },
     {
       "id": "01324_oru_ex3",
-      "japanese": "お{待|ま}ちしております。",
-      "english": "We are waiting for you.",
-      "notes": "Polite business expression",
+      "japanese": "{田中|たなか}はただいま{席|せき}を{外|はず}しております。",
+      "english": "Tanaka is away from his desk at the moment.",
+      "notes": "Business phone language",
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "01324_oru_ex4",
+      "japanese": "あそこに{猫|ねこ}がおるよ。",
+      "english": "There's a cat over there.",
+      "notes": "Western dialect: おる = いる",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01324_oru_ex5",
+      "japanese": "{昨日|きのう}、{駅前|えきまえ}に{田中|たなか}さんがおったで。",
+      "english": "Tanaka was in front of the station yesterday.",
+      "notes": "おった = いた (past form in western dialects)",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01324_oru_ex6",
+      "japanese": "うちのおばあちゃんはずっとこの{町|まち}におるから、この{辺|あた}りのことは{何|なん}でも{知|し}っとるよ。",
+      "english": "My grandma has been in this town the whole time, so she knows everything about this area.",
+      "notes": "{知|し}っとる = {知|し}っている (western dialect progressive)",
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
@@ -52,7 +82,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-01-19T12:14:17.408580Z",
+    "modified": "2026-02-14T12:00:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
