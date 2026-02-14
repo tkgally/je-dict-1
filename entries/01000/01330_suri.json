@@ -14,9 +14,9 @@
   "examples": [
     {
       "id": "01330_suri_ex1",
-      "japanese": "すりに{気|き}をつけてください。",
-      "english": "Please watch out for pickpockets.",
-      "notes": "Common warning",
+      "japanese": "すりに{気|き}をつけて。",
+      "english": "Watch out for pickpockets.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
       "id": "01330_suri_ex2",
       "japanese": "{電車|でんしゃ}ですりに{遭|あ}った。",
       "english": "I was pickpocketed on the train.",
-      "notes": null,
+      "notes": "すりに{遭|あ}う = to be pickpocketed",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -34,16 +34,6 @@
     },
     {
       "id": "01330_suri_ex3",
-      "japanese": "すりが{捕|つか}まった。",
-      "english": "The pickpocket was caught.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01330_suri_ex4",
       "japanese": "{混|こ}んでいる{場所|ばしょ}ではすりに{注意|ちゅうい}してください。",
       "english": "Please be careful of pickpockets in crowded places.",
       "notes": null,
@@ -53,9 +43,19 @@
       ]
     },
     {
+      "id": "01330_suri_ex4",
+      "japanese": "{駅|えき}でバッグの{中|なか}から{財布|さいふ}をすりに{取|と}られたので、すぐに{警察|けいさつ}に{届|とど}けを{出|だ}した。",
+      "english": "A pickpocket took my wallet from my bag at the station, so I immediately filed a report with the police.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01330_suri_ex5",
-      "japanese": "{財布|さいふ}をすりに{取|と}られた。",
-      "english": "A pickpocket took my wallet.",
+      "japanese": "{海外|かいがい}{旅行|りょこう}では{特|とく}にすりが{多|おお}いと{聞|き}いたので、{財布|さいふ}はいつもポケットではなくバッグの{奥|おく}に{入|い}れるようにしている。",
+      "english": "I heard pickpockets are especially common when traveling abroad, so I always keep my wallet deep in my bag rather than in my pocket.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-01-26T23:53:38Z",
+    "modified": "2026-02-14T12:09:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
