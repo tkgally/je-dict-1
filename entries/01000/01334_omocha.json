@@ -14,16 +14,6 @@
   "examples": [
     {
       "id": "01334_omocha_ex1",
-      "japanese": "{子供|こども}におもちゃを{買|か}った。",
-      "english": "I bought a toy for the child.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01334_omocha_ex2",
       "japanese": "おもちゃで{遊|あそ}ぶ。",
       "english": "To play with toys.",
       "notes": null,
@@ -33,10 +23,20 @@
       ]
     },
     {
+      "id": "01334_omocha_ex2",
+      "japanese": "{子供|こども}におもちゃを{買|か}ってあげた。",
+      "english": "I bought a toy for the child.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01334_omocha_ex3",
-      "japanese": "おもちゃを{片付|かたづ}けなさい。",
-      "english": "Put away your toys.",
-      "notes": "Common parent instruction",
+      "japanese": "おもちゃを{片付|かたづ}けないとご{飯|はん}を{食|た}べられないよ。",
+      "english": "If you don't put away your toys, you can't eat dinner.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -44,8 +44,8 @@
     },
     {
       "id": "01334_omocha_ex4",
-      "japanese": "おもちゃ{屋|や}に{行|い}きたい。",
-      "english": "I want to go to a toy store.",
+      "japanese": "{子供|こども}はすぐに{新|あたら}しいおもちゃに{飽|あ}きて、また{別|べつ}のものをほしがる。",
+      "english": "Children quickly get bored of new toys and want something else again.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -54,8 +54,8 @@
     },
     {
       "id": "01334_omocha_ex5",
-      "japanese": "{新|あたら}しいおもちゃがほしい。",
-      "english": "I want a new toy.",
+      "japanese": "{子供|こども}が{小|ちい}さい{頃|ころ}に{遊|あそ}んでいたおもちゃを{捨|す}てられなくて、{今|いま}でも{大切|たいせつ}に{取|と}っておいてある。",
+      "english": "I can't bring myself to throw away the toys my child played with when they were small, so I still keep them carefully.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-01-28T10:41:58Z",
+    "modified": "2026-02-14T12:09:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
