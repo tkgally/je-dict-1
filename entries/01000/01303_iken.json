@@ -19,9 +19,9 @@
   "examples": [
     {
       "id": "01303_iken_ex1",
-      "japanese": "ご{意見|いけん}をお{聞|き}かせください。",
-      "english": "Please let me hear your opinion.",
-      "notes": "Polite request",
+      "japanese": "{意見|いけん}が{合|あ}わない。",
+      "english": "Our opinions don't match.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -29,16 +29,6 @@
     },
     {
       "id": "01303_iken_ex2",
-      "japanese": "{意見|いけん}が{合|あ}わない。",
-      "english": "Our opinions don't match.",
-      "notes": "Common expression",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01303_iken_ex3",
       "japanese": "{自分|じぶん}の{意見|いけん}を{言|い}う。",
       "english": "To express one's opinion.",
       "notes": null,
@@ -48,18 +38,17 @@
       ]
     },
     {
-      "id": "01303_iken_ex4",
-      "japanese": "{意見|いけん}を{求|もと}める。",
-      "english": "To seek opinions/advice.",
+      "id": "01303_iken_ex3",
+      "japanese": "みんなの{意見|いけん}を{聞|き}こう。",
+      "english": "Let's hear everyone's opinions.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1,
-        2
+        1
       ]
     },
     {
-      "id": "01303_iken_ex5",
+      "id": "01303_iken_ex4",
       "japanese": "{私|わたし}の{意見|いけん}では、それは{難|むずか}しいと{思|おも}います。",
       "english": "In my opinion, I think that's difficult.",
       "notes": null,
@@ -69,20 +58,30 @@
       ]
     },
     {
-      "id": "01303_iken_ex6",
-      "japanese": "{意見|いけん}を{交換|こうかん}する。",
-      "english": "To exchange opinions.",
-      "notes": "Sense 1: opinion",
+      "id": "01303_iken_ex5",
+      "japanese": "{会議|かいぎ}で{意見|いけん}を{交換|こうかん}したが、{意見|いけん}が{分|わ}かれた。",
+      "english": "We exchanged opinions at the meeting, but they were divided.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
       ]
     },
     {
+      "id": "01303_iken_ex6",
+      "japanese": "{意見|いけん}をください。",
+      "english": "Please give me your advice.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
       "id": "01303_iken_ex7",
-      "japanese": "{意見|いけん}をくれませんか。",
-      "english": "Could you give me some advice?",
-      "notes": "Sense 2: advice",
+      "japanese": "{先生|せんせい}の{意見|いけん}を{聞|き}きたい。",
+      "english": "I'd like to hear the teacher's advice.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         2
@@ -90,9 +89,9 @@
     },
     {
       "id": "01303_iken_ex8",
-      "japanese": "{先生|せんせい}の{意見|いけん}を{聞|き}きたい。",
-      "english": "I'd like to hear the teacher's opinion.",
-      "notes": "Sense 2: suggestion",
+      "japanese": "ご{意見|いけん}をお{聞|き}かせください。",
+      "english": "Please let me hear your advice.",
+      "notes": "Polite request",
       "has_audio": false,
       "sense_numbers": [
         2
@@ -100,22 +99,22 @@
     },
     {
       "id": "01303_iken_ex9",
-      "japanese": "みんなの{意見|いけん}を{聞|き}こう。",
-      "english": "Let's hear everyone's opinions.",
-      "notes": "Sense 1: view",
+      "japanese": "{友達|ともだち}に{意見|いけん}を{聞|き}いてから{決|き}めた。",
+      "english": "I decided after asking my friend for advice.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
       ]
     },
     {
       "id": "01303_iken_ex10",
-      "japanese": "{意見|いけん}が{分|わ}かれた。",
-      "english": "Opinions were divided.",
-      "notes": "Sense 1: opinion",
+      "japanese": "{先輩|せんぱい}の{意見|いけん}を{参考|さんこう}にして、レポートを{書|か}き{直|なお}した。",
+      "english": "I rewrote the report based on my senior's advice.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
       ]
     }
   ],
@@ -130,7 +129,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T12:25:53Z",
-    "modified": "2026-01-19T12:17:40.756114Z",
+    "modified": "2026-02-14T10:07:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
