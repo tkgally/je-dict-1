@@ -14,6 +14,26 @@
   "examples": [
     {
       "id": "01386_kyuukou_ex1",
+      "japanese": "{急行|きゅうこう}に{乗|の}る。",
+      "english": "To ride the express.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01386_kyuukou_ex2",
+      "japanese": "{次|つぎ}の{急行|きゅうこう}は{何時|なんじ}ですか。",
+      "english": "What time is the next express?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01386_kyuukou_ex3",
       "japanese": "{急行|きゅうこう}で{行|い}けば{早|はや}く{着|つ}きます。",
       "english": "If you take the express, you'll arrive quickly.",
       "notes": null,
@@ -23,29 +43,9 @@
       ]
     },
     {
-      "id": "01386_kyuukou_ex2",
-      "japanese": "この{駅|えき}には{急行|きゅうこう}は{止|と}まりません。",
-      "english": "The express doesn't stop at this station.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01386_kyuukou_ex3",
-      "japanese": "{急行|きゅうこう}{列車|れっしゃ}",
-      "english": "Express train",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
       "id": "01386_kyuukou_ex4",
-      "japanese": "{急行|きゅうこう}は{追加|ついか}{料金|りょうきん}がかかります。",
-      "english": "The express requires an extra fee.",
+      "japanese": "この{駅|えき}には{急行|きゅうこう}は{止|と}まらないので、{次|つぎ}の{駅|えき}まで{行|い}ってください。",
+      "english": "The express doesn't stop at this station, so please go to the next station.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -54,8 +54,8 @@
     },
     {
       "id": "01386_kyuukou_ex5",
-      "japanese": "{次|つぎ}の{急行|きゅうこう}は{何時|なんじ}ですか。",
-      "english": "What time is the next express?",
+      "japanese": "{急行|きゅうこう}は{追加|ついか}{料金|りょうきん}がかかるけど、{普通|ふつう}{列車|れっしゃ}より{早|はや}く{着|つ}くから{便利|べんり}だ。",
+      "english": "The express costs extra, but it's convenient because it arrives faster than the local train.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T12:14:06Z",
-    "modified": "2026-01-19T12:17:40.813675Z",
+    "modified": "2026-02-15T04:59:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
