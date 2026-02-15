@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,260 |
+| Total entries | ~11,290 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,461 (open) |
-| Candidate words | ~318 |
+| General tier | ~8,491 (open) |
+| Candidate words | ~288 |
 | Cross-references | ~3,336 |
-| Example sentences | ~42,160 |
+| Example sentences | ~42,280 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 250)
+Added 30 new dictionary entries (IDs 11205-11234) from candidate_words.json:
+
+- **Loanword abbreviations (3)**: ラノベ (light novel), ラブコメ (romantic comedy), レンチン (microwaving)
+- **Wasei-eigo (7)**: ランクイン (charting on a ranking), ワンマン (autocratic/solo-operated), チャームポイント (attractive feature), ピンポイント (precisely targeted), ロングセラー (perennial favorite), ロングラン (extended showing), ベースアップ (base pay raise)
+- **Standard loanwords (7)**: リノベーション (renovation), リピーター (repeat customer), ロールモデル (role model), レントゲン (X-ray), ライトアップ (illumination), ラッシュ (rush/surge), リスペクト (respect)
+- **Japanese nuance loanwords (4)**: ロマン (grand dream), ロス (waste/emotional loss), レパートリー (repertoire), モノクロ (monochrome)
+- **Food (1)**: ラー{油|ゆ} (chili oil)
+- **Writing/education (1)**: ローマ{字|じ} (Roman letters/romaji)
+- **{一|いち}- compounds (7)**: {一列|いちれつ} (a row), {一族|いちぞく} (clan), {一転|いってん} (sudden change), {一角|いっかく} (a corner/section), {一様|いちよう} (uniform), {一説|いっせつ} (one theory), {一挙|いっきょ} (at a stroke)
+
+Notable features:
+- Wasei-eigo cluster with usage notes on Japanese-specific meanings: ランクイン, ワンマン, チャームポイント, ベースアップ, ロングセラー, ロングラン
+- Multi-sense entries: ワンマン (autocratic/solo-operated), ラッシュ (rush hour/surge), ロス (waste/emotional loss)
+- Cultural context: レンチン ({食|た}べるラー{油|ゆ} trend), ベースアップ ({春闘|しゅんとう} labor negotiations), ロス (あまロス phenomenon)
+- Continued {一|いち}- compound expansion from Session 249
+- Contrast pairs noted: リスペクト vs {尊敬|そんけい}, モノクロ vs {白黒|しろくろ}, リノベーション vs リフォーム
+
+Total entries: 11,260 → 11,290
+Remaining candidates: 318 → 288
 
 ### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 249)
 Added 30 new dictionary entries (IDs 11175-11204) from candidate_words.json:
@@ -163,31 +184,6 @@ Notable features:
 
 Total entries: 11,102 → 11,132
 Remaining candidates: 241 → 211
-
-### 2026-02-12 (New Candidate Words - 55 Words, Session 244)
-Added 55 new candidate words to candidate_words.json across diverse domains:
-
-- **Legal/criminal justice (5)**: 被告 (defendant), 原告 (plaintiff), 検察 (prosecution), 懲役 (imprisonment), 証言 (testimony)
-- **Medical specialties & visits (9)**: 予防接種 (vaccination), カルテ (medical chart), 問診 (medical interview), 抗生物質 (antibiotic), 眼科 (ophthalmology), 歯科 (dentistry), 皮膚科 (dermatology), 初診 (first visit), 採血 (blood draw)
-- **Health/nutrition (4)**: 糖質 (carbohydrates), 脂質 (lipids), 新陳代謝 (metabolism), コレステロール (cholesterol)
-- **Internet/communication (4)**: 口コミ (word of mouth/reviews), 閲覧 (browsing), 送信 (sending), 回線 (circuit/line)
-- **Sports/fitness (3)**: 体幹 (core/trunk), 反復 (repetition), 番狂わせ (upset)
-- **Social/cultural (4)**: 社交辞令 (social pleasantry), 冠婚葬祭 (ceremonial occasions), 恩返し (returning a favor), 見返り (something in return)
-- **Calendar (2)**: 年末 (year-end), 年始 (beginning of year)
-- **Education (2)**: 修士 (master's degree), 模試 (mock exam)
-- **Business/construction (2)**: 決裁 (approval), 着工 (start of construction)
-- **Music (2)**: 指揮 (conducting/command), 譜面 (musical score)
-- **Home/daily life (3)**: 排水 (drainage), 結露 (condensation), 繕う (to mend)
-- **Psychology (2)**: 自尊心 (self-respect), 燃え尽き (burnout)
-- **Science (2)**: 膨張 (expansion), 窒素 (nitrogen)
-- **Adjectives (3)**: 騒がしい (noisy), 慌ただしい (hectic), めでたい (auspicious)
-- **～化 compounds (3)**: 悪化 (deterioration), 深刻化 (worsening), 長期化 (prolongation)
-- **Sleep (2)**: 不眠 (insomnia), 熟睡 (deep sleep)
-- **Other (3)**: 取引先 (business partner), 内覧 (property viewing), 花壇 (flower bed)
-
-Strategies used: semantic domain exploration (medical, legal, nutrition, home), practical situation vocabulary, corpus-driven gap analysis, collocational mining, productive pattern completion (～化 compounds)
-
-Candidate words: 130 → 185
 
 ---
 

@@ -3,6 +3,31 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-12 (New Candidate Words - 55 Words, Session 244)
+Added 55 new candidate words to candidate_words.json across diverse domains:
+
+- **Legal/criminal justice (5)**: 被告 (defendant), 原告 (plaintiff), 検察 (prosecution), 懲役 (imprisonment), 証言 (testimony)
+- **Medical specialties & visits (9)**: 予防接種 (vaccination), カルテ (medical chart), 問診 (medical interview), 抗生物質 (antibiotic), 眼科 (ophthalmology), 歯科 (dentistry), 皮膚科 (dermatology), 初診 (first visit), 採血 (blood draw)
+- **Health/nutrition (4)**: 糖質 (carbohydrates), 脂質 (lipids), 新陳代謝 (metabolism), コレステロール (cholesterol)
+- **Internet/communication (4)**: 口コミ (word of mouth/reviews), 閲覧 (browsing), 送信 (sending), 回線 (circuit/line)
+- **Sports/fitness (3)**: 体幹 (core/trunk), 反復 (repetition), 番狂わせ (upset)
+- **Social/cultural (4)**: 社交辞令 (social pleasantry), 冠婚葬祭 (ceremonial occasions), 恩返し (returning a favor), 見返り (something in return)
+- **Calendar (2)**: 年末 (year-end), 年始 (beginning of year)
+- **Education (2)**: 修士 (master's degree), 模試 (mock exam)
+- **Business/construction (2)**: 決裁 (approval), 着工 (start of construction)
+- **Music (2)**: 指揮 (conducting/command), 譜面 (musical score)
+- **Home/daily life (3)**: 排水 (drainage), 結露 (condensation), 繕う (to mend)
+- **Psychology (2)**: 自尊心 (self-respect), 燃え尽き (burnout)
+- **Science (2)**: 膨張 (expansion), 窒素 (nitrogen)
+- **Adjectives (3)**: 騒がしい (noisy), 慌ただしい (hectic), めでたい (auspicious)
+- **～化 compounds (3)**: 悪化 (deterioration), 深刻化 (worsening), 長期化 (prolongation)
+- **Sleep (2)**: 不眠 (insomnia), 熟睡 (deep sleep)
+- **Other (3)**: 取引先 (business partner), 内覧 (property viewing), 花壇 (flower bed)
+
+Strategies used: semantic domain exploration (medical, legal, nutrition, home), practical situation vocabulary, corpus-driven gap analysis, collocational mining, productive pattern completion (～化 compounds)
+
+Candidate words: 130 → 185
+
 ### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 243)
 Added 30 new dictionary entries (IDs 11025-11054) from candidate_words.json:
 
