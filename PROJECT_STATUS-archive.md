@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 248)
+Added 30 new dictionary entries (IDs 11145-11174) from candidate_words.json:
+
+- **Native Japanese (2)**: まし (better/preferable of bad options), ナス (eggplant)
+- **Loanwords with Japanese nuance (8)**: ドライ (dry/unemotional), ドリル (drill/practice workbook), フラグ (flag/foreshadowing), マニア (enthusiast), パフォーマンス (performance/publicity stunt), ムード (mood/romantic atmosphere), ヒット (hit/search result), フリーズ (freeze/computer crash)
+- **Food/dining (3)**: ビュッフェ (buffet), メニュー (menu/training regimen), ポテト (potato/french fries)
+- **Wasei-eigo (3)**: ホームセンター (home improvement store), バリアフリー (barrier-free/accessible), ベビーカー (baby stroller)
+- **Business/work (3)**: ビジネス (business), メーカー (maker/manufacturer), ネイティブ (native speaker)
+- **Fashion/beauty (2)**: ファッション (fashion), メイク (makeup)
+- **Occupation (1)**: パティシエ (pastry chef)
+- **Entertainment/culture (3)**: ホール (hall/front-of-house), メディア (media), モチーフ (motif/inspiration)
+- **General vocabulary (5)**: メイン (main/primary), パニック (panic), ペース (pace), ピーク (peak), フェリー (ferry)
+
+Notable features:
+- Japanese-specific meanings: フラグ ({死亡|しぼう}フラグ internet culture), ドライ (personality type contrast with ウェット), パフォーマンス (publicity stunt sense), ムード (romantic atmosphere)
+- Wasei-eigo cluster: ホームセンター, バリアフリー, ベビーカー with etymology notes
+- Multi-sense entries: ドライ (physical/personality), ドリル (tool/workbook), ヒット (popularity/baseball/search), メニュー (restaurant/training), ポテト (vegetable/fries), ホール (auditorium/restaurant front), フリーズ (computer/person)
+- Restaurant/food vocabulary: ビュッフェ (バイキング contrast), ポテト (じゃがいも contrast), メニュー, パティシエ
+
+Total entries: 11,192 → 11,222
+Remaining candidates: 271 → 241
+
 ### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 247)
 Added 30 new dictionary entries (IDs 11115-11144) from candidate_words.json:
 
