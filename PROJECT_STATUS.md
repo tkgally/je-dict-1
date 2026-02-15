@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-14
+**Last updated**: 2026-02-15
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,222 |
+| Total entries | ~11,260 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,423 (open) |
-| Candidate words | ~241 |
-| Cross-references | ~3,332 |
-| Example sentences | ~42,040 |
+| General tier | ~8,461 (open) |
+| Candidate words | ~318 |
+| Cross-references | ~3,336 |
+| Example sentences | ~42,160 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 249)
+Added 30 new dictionary entries (IDs 11175-11204) from candidate_words.json:
+
+- **一- compounds (14)**: {万|まん}が{一|いち} (just in case), {一覧|いちらん} (list/overview), {一方的|いっぽうてき} (one-sided), {一環|いっかん} (part of), {一服|いっぷく} (a break/a dose), {一概|いちがい}に (sweepingly — with negative), {一見|いっけん} (at first glance), {一貫|いっかん} (consistency), {一躍|いちやく} (at one bound), {一面|いちめん} (one side/entire surface), {一筋|ひとすじ} (one line/single-minded), {一騎打|いっきう}ち (showdown), {一変|いっぺん} (complete transformation), {一律|いちりつ} (uniform/across the board)
+- **上- compounds (3)**: {上々|じょうじょう} (excellent), {上位|じょうい} (upper rank), {上場|じょうじょう} (stock listing)
+- **Loanwords (8)**: ランドセル (school backpack), リハビリ (rehabilitation), レビュー (review), レンタル (rental), ランキング (ranking), ランチ (lunch), ライバル (rival), リビング (living room)
+- **Other (5)**: リセット (reset), レジャー (leisure), ワイワイ (noisily/merrily), {上乗|うわの}せ (surcharge), {七草|ななくさ} (seven herbs of spring)
+
+Notable features:
+- Large cluster of {一|いち}-prefixed compounds covering formal/written Japanese
+- Homophone pairs with cross-references: {一環|いっかん}/{一貫|いっかん}, {上々|じょうじょう}/{上場|じょうじょう}, {一見|いっけん}/{一件|いっけん}
+- Multi-sense entries: {一服|いっぷく} (break/dose), {一面|いちめん} (aspect/entire surface), {一筋|ひとすじ} (line/devotion)
+- Cultural context: ランドセル (ラン{活|かつ} culture), {七草|ななくさ} (Heian-period tradition), ライバル (positive rival archetype in anime/manga)
+- Business vocabulary cluster: {上場|じょうじょう}, {上位|じょうい}, {一律|いちりつ}, {上乗|うわの}せ, {一覧|いちらん}, ランキング, レンタル, レビュー
+- New kanji: 2,297 → 2,298 ({騎|き})
+
+Total entries: 11,222 → 11,260 (includes 8 entries created between sessions)
+Remaining candidates: 348 → 318
 
 ### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 248)
 Added 30 new dictionary entries (IDs 11145-11174) from candidate_words.json:
@@ -169,22 +188,6 @@ Added 55 new candidate words to candidate_words.json across diverse domains:
 Strategies used: semantic domain exploration (medical, legal, nutrition, home), practical situation vocabulary, corpus-driven gap analysis, collocational mining, productive pattern completion (～化 compounds)
 
 Candidate words: 130 → 185
-
-### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 243)
-Added 30 new dictionary entries (IDs 11025-11054) from candidate_words.json:
-
-- **Katakana loanword nouns (30)**: ゼリー (jelly), ソロ (solo), ソーセージ (sausage), デンプン (starch), チキン (chicken), ゼネコン (general contractor), ソーダ (soda), ゾーン (zone), タグ (tag), タワー (tower), ターゲット (target), ターミナル (terminal), ダイヤモンド (diamond), ダミー (dummy), チェス (chess), チェーン{店|てん} (chain store), チャート (chart), ツール (tool), トピック (topic), スタッフ (staff), スピード (speed), スペース (space), セールス (sales), ジョーク (joke), スパイス (spice), スタート (start), ジャンプ (jump), ステージ (stage)
-- **Noun + suru verb (4)**: セーブ (save — gaming/sports), ツイート (tweet), ジャンプ (jump), スタート (start)
-- **Multi-sense entries (3)**: セーブ (save data/sports save), チャート (graph/music ranking), ステージ (performance stage/phase)
-
-Notable features:
-- Focus on commonly used katakana loanwords filling vocabulary gaps
-- Japan-specific usage notes: チキン (Christmas chicken custom), ソーダ (メロンソーダ/クリームソーダ culture), ゼネコン (wasei-eigo abbreviation), タワーマンション (urban housing)
-- Meaning restrictions vs English: セーブ (not for saving money/people), ツール (mainly software, not physical tools), スペース (not outer space), セールス (active selling, not セール discount events)
-- Digital/internet vocabulary: ツイート, タグ, ツール
-
-Total entries: 11,016 → 11,046
-Remaining candidates: 160 → 130
 
 ---
 
