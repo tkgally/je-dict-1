@@ -3,6 +3,22 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 243)
+Added 30 new dictionary entries (IDs 11025-11054) from candidate_words.json:
+
+- **Katakana loanword nouns (30)**: ゼリー (jelly), ソロ (solo), ソーセージ (sausage), デンプン (starch), チキン (chicken), ゼネコン (general contractor), ソーダ (soda), ゾーン (zone), タグ (tag), タワー (tower), ターゲット (target), ターミナル (terminal), ダイヤモンド (diamond), ダミー (dummy), チェス (chess), チェーン{店|てん} (chain store), チャート (chart), ツール (tool), トピック (topic), スタッフ (staff), スピード (speed), スペース (space), セールス (sales), ジョーク (joke), スパイス (spice), スタート (start), ジャンプ (jump), ステージ (stage)
+- **Noun + suru verb (4)**: セーブ (save — gaming/sports), ツイート (tweet), ジャンプ (jump), スタート (start)
+- **Multi-sense entries (3)**: セーブ (save data/sports save), チャート (graph/music ranking), ステージ (performance stage/phase)
+
+Notable features:
+- Focus on commonly used katakana loanwords filling vocabulary gaps
+- Japan-specific usage notes: チキン (Christmas chicken custom), ソーダ (メロンソーダ/クリームソーダ culture), ゼネコン (wasei-eigo abbreviation), タワーマンション (urban housing)
+- Meaning restrictions vs English: セーブ (not for saving money/people), ツール (mainly software, not physical tools), スペース (not outer space), セールス (active selling, not セール discount events)
+- Digital/internet vocabulary: ツイート, タグ, ツール
+
+Total entries: 11,016 → 11,046
+Remaining candidates: 160 → 130
+
 ### 2026-02-12 (Vocabulary Expansion - 30 New Entries, Session 242)
 Added 30 new dictionary entries (IDs 10995-11024) from candidate_words.json:
 
