@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,320 |
+| Total entries | ~11,350 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,521 (open) |
-| Candidate words | ~258 |
+| General tier | ~8,551 (open) |
+| Candidate words | ~228 |
 | Cross-references | ~3,338 |
 | Example sentences | ~42,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 252)
+Added 30 new dictionary entries (IDs 11265-11294) from candidate_words.json:
+
+- **Loanwords - daily life (8)**: ペア (pair/couple), ボトル (bottle), パーツ (parts/components), ブース (booth/stall), ポイント (point/reward points), ヘルパー (helper/care worker), バージョン (version), パートナー (partner)
+- **Loanwords - descriptive (5)**: ブルー (blue/feeling down), プライベート (private/personal), マイナー (minor/niche), プレミアム (premium/deluxe), フォーマル (formal)
+- **Loanwords - culture/entertainment (5)**: バトル (battle/contest), バトン (baton), ヒロイン (heroine), パレード (parade), バレンタイン (Valentine's Day)
+- **Loanwords - society (3)**: ハラスメント (harassment), フェイク (fake/counterfeit), プロセス (process/procedure)
+- **Loanwords - food (1)**: ビスケット (biscuit/cookie)
+- **Loanwords - body/fashion (2)**: ベロ (tongue, colloquial), マント (cloak/cape)
+- **Loanwords - other (6)**: ボス (boss), パワー (power/energy), ポーズ (pose/pause), ファミリー (family in commercial contexts), ベストセラー (bestseller), ピラミッド (pyramid)
+
+Notable features:
+- Multi-sense entries: ポーズ (pose/pause from different English words), ポイント (key point/reward points), ブルー (color/emotion)
+- Japanese cultural context: バレンタイン ({本命|ほんめい}チョコ/{義理|ぎり}チョコ culture), ハラスメント (パワハラ, セクハラ, etc.), ポイント (Japanese loyalty point culture), ヘルパー (home care system), ファミリー (commercial/marketing usage)
+- Wasei-eigo notes: バトンタッチ, バージョンアップ, ボトルキープ
+- Cross-references: ヒロイン ↔ ヒーロー
+- Contrast pairs noted: マイナー vs メジャー, フォーマル vs カジュアル, プライベート vs {仕事|しごと}
+
+Total entries: 11,320 → 11,350
+Remaining candidates: 258 → 228
 
 ### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 251)
 Added 30 new dictionary entries (IDs 11235-11264) from candidate_words.json:
@@ -132,28 +153,6 @@ Notable features:
 
 Total entries: 11,192 → 11,222
 Remaining candidates: 271 → 241
-
-### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 247)
-Added 30 new dictionary entries (IDs 11115-11144) from candidate_words.json:
-
-- **Food/condiments (7)**: ポン{酢|ず} (ponzu sauce), マヨネーズ (mayonnaise), ドレッシング (salad dressing), メンマ (seasoned bamboo shoots), ピリ{辛|から} (mildly spicy), ドーナツ (doughnut), フライ (deep-fried food)
-- **Vegetables/plants (4)**: ブロッコリー (broccoli), ピーマン (green pepper), ヨモギ (mugwort), ヨーグルト (yogurt)
-- **Fish/seafood (2)**: マグロ (tuna), ヒラメ (flounder)
-- **Desserts (2)**: パフェ (parfait), プリン (pudding)
-- **Culture/society (3)**: バツイチ (once-divorced), ファミレス (family restaurant), マナー (manners/etiquette)
-- **Business/abstract (3)**: ノウハウ (know-how), ニュアンス (nuance), メンタル (mental state)
-- **Daily life (4)**: バケツ (bucket), ビニール (vinyl/plastic), フローリング (hardwood flooring), ヒント (hint/clue)
-- **General (5)**: {山場|やまば} (climax/critical moment), ハードル (hurdle/obstacle), バブル (bubble/economic bubble), ベテラン (veteran/seasoned professional), ピンチ (crisis/tight spot)
-
-Notable features:
-- Food/cooking cluster with condiments, vegetables, and cooking terms
-- Cultural context entries: バツイチ ({戸籍|こせき} × mark), ファミレス (Japanese dining culture), マナー (マナーモード)
-- Japanese economic history: バブル with bubble era ({景気|けいき}) vocabulary
-- Wasei-eigo notes: ファミレス, ピーマン (from French), マナーモード
-- Multi-sense entries: フライ (deep-fried food/fly ball), バブル (physical bubble/economic bubble), ハードル (athletics/figurative obstacle)
-
-Total entries: 11,162 → 11,192
-Remaining candidates: 301 → 271
 
 ---
 

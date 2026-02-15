@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 247)
+Added 30 new dictionary entries (IDs 11115-11144) from candidate_words.json:
+
+- **Food/condiments (7)**: ポン{酢|ず} (ponzu sauce), マヨネーズ (mayonnaise), ドレッシング (salad dressing), メンマ (seasoned bamboo shoots), ピリ{辛|から} (mildly spicy), ドーナツ (doughnut), フライ (deep-fried food)
+- **Vegetables/plants (4)**: ブロッコリー (broccoli), ピーマン (green pepper), ヨモギ (mugwort), ヨーグルト (yogurt)
+- **Fish/seafood (2)**: マグロ (tuna), ヒラメ (flounder)
+- **Desserts (2)**: パフェ (parfait), プリン (pudding)
+- **Culture/society (3)**: バツイチ (once-divorced), ファミレス (family restaurant), マナー (manners/etiquette)
+- **Business/abstract (3)**: ノウハウ (know-how), ニュアンス (nuance), メンタル (mental state)
+- **Daily life (4)**: バケツ (bucket), ビニール (vinyl/plastic), フローリング (hardwood flooring), ヒント (hint/clue)
+- **General (5)**: {山場|やまば} (climax/critical moment), ハードル (hurdle/obstacle), バブル (bubble/economic bubble), ベテラン (veteran/seasoned professional), ピンチ (crisis/tight spot)
+
+Notable features:
+- Food/cooking cluster with condiments, vegetables, and cooking terms
+- Cultural context entries: バツイチ ({戸籍|こせき} × mark), ファミレス (Japanese dining culture), マナー (マナーモード)
+- Japanese economic history: バブル with bubble era ({景気|けいき}) vocabulary
+- Wasei-eigo notes: ファミレス, ピーマン (from French), マナーモード
+- Multi-sense entries: フライ (deep-fried food/fly ball), バブル (physical bubble/economic bubble), ハードル (athletics/figurative obstacle)
+
+Total entries: 11,162 → 11,192
+Remaining candidates: 301 → 271
+
 ### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 246)
 Added 30 new dictionary entries (IDs 11085-11114) from candidate_words.json:
 
