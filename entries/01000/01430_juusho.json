@@ -14,16 +14,6 @@
   "examples": [
     {
       "id": "01430_juusho_ex1",
-      "japanese": "{住所|じゅうしょ}を{教|おし}えてください。",
-      "english": "Please tell me your address.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01430_juusho_ex2",
       "japanese": "{住所|じゅうしょ}が{変|か}わりました。",
       "english": "My address has changed.",
       "notes": null,
@@ -33,9 +23,19 @@
       ]
     },
     {
+      "id": "01430_juusho_ex2",
+      "japanese": "{住所|じゅうしょ}を{教|おし}えてください。",
+      "english": "Please tell me your address.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01430_juusho_ex3",
-      "japanese": "{住所|じゅうしょ}を{書|か}いてください。",
-      "english": "Please write your address.",
+      "japanese": "ここに{名前|なまえ}と{住所|じゅうしょ}を{書|か}いてください。",
+      "english": "Please write your name and address here.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -44,8 +44,8 @@
     },
     {
       "id": "01430_juusho_ex4",
-      "japanese": "{引|ひ}っ{越|こ}したので、{新|あたら}しい{住所|じゅうしょ}を{友達|ともだち}に{伝|つた}えた。",
-      "english": "Since I moved, I told my friends my new address.",
+      "japanese": "{住|す}む{場所|ばしょ}が{変|か}わったので、{新|あたら}しい{住所|じゅうしょ}を{友達|ともだち}に{教|おし}えた。",
+      "english": "Since I changed where I live, I told my friends my new address.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -54,8 +54,8 @@
     },
     {
       "id": "01430_juusho_ex5",
-      "japanese": "{荷物|にもつ}を{届|とど}けてもらうために、{正|ただ}しい{住所|じゅうしょ}を{確認|かくにん}してください。",
-      "english": "Please confirm the correct address so that the package can be delivered.",
+      "japanese": "{荷物|にもつ}を{送|おく}りたいので、{正|ただ}しい{住所|じゅうしょ}と{電話|でんわ}{番号|ばんごう}を{教|おし}えてください。",
+      "english": "I want to send a package, so please tell me the correct address and phone number.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T12:26:54Z",
-    "modified": "2026-01-26T11:55:04Z",
+    "modified": "2026-02-15T08:53:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
