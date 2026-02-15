@@ -3,6 +3,41 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 246)
+Added 30 new dictionary entries (IDs 11085-11114) from candidate_words.json:
+
+- **Legal/criminal justice (4)**: {原告|げんこく} (plaintiff), {検察|けんさつ} (prosecution), {懲役|ちょうえき} (imprisonment), {証言|しょうげん} (testimony)
+- **Medical/nutrition (4)**: {抗生物質|こうせいぶっしつ} (antibiotic), {初診|しょしん} (first medical visit), {糖質|とうしつ} (carbohydrates), {脂質|ししつ} (lipids)
+- **Health/body (2)**: {新陳代謝|しんちんたいしゃ} (metabolism), {体幹|たいかん} (core/trunk)
+- **Education (2)**: {修士|しゅうし} (master's degree), {模試|もし} (mock exam)
+- **Business/work (2)**: {決裁|けっさい} (approval), {着工|ちゃっこう} (start of construction)
+- **Music (2)**: {指揮|しき} (conducting/command), {譜面|ふめん} (musical score)
+- **〜{化|か} compounds (2)**: {深刻化|しんこくか} (worsening), {長期化|ちょうきか} (prolongation)
+- **Infrastructure/science (3)**: {回線|かいせん} (line/circuit), {排水|はいすい} (drainage), {窒素|ちっそ} (nitrogen)
+- **Culture/people (2)**: {冠婚葬祭|かんこんそうさい} (ceremonial occasions), {忍者|にんじゃ} (ninja)
+- **General vocabulary (5)**: {反復|はんぷく} (repetition), {燃|も}え{尽|つ}き (burnout), {内覧|ないらん} (property viewing), コマ (frame/panel; class period), ニラ (Chinese chives)
+- **Grammar/expression (1)**: {羽目|はめ} (predicament — 〜する{羽目|はめ}になる pattern)
+- **Verb (1)**: ばらす (to reveal/to dismantle)
+
+Total entries: 11,132 → 11,162
+Remaining candidates: 211 → 181
+
+### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 245)
+Added 30 new dictionary entries (IDs 11055-11084) from candidate_words.json:
+
+- **I-adjectives (3)**: {騒|さわ}がしい (noisy/turbulent), {慌|あわ}ただしい (hectic), めでたい (auspicious/naive)
+- **Calendar nouns (2)**: {年末|ねんまつ} (year-end), {年始|ねんし} (beginning of year)
+- **Communication/digital (3)**: {口|くち}コミ (word of mouth/reviews), {閲覧|えつらん} (browsing/viewing), {送信|そうしん} (sending/transmission)
+- **Social/cultural (3)**: {恩返|おんがえ}し (returning a favor), {見返|みかえ}り (something in return), {社交辞令|しゃこうじれい} (social pleasantry)
+- **Medical (7)**: {予防接種|よぼうせっしゅ} (vaccination), カルテ (medical chart), {問診|もんしん} (medical interview), {眼科|がんか} (ophthalmology), {歯科|しか} (dentistry), {皮膚科|ひふか} (dermatology), {採血|さいけつ} (blood draw)
+- **Health/body (3)**: {悪化|あっか} (deterioration), {不眠|ふみん} (insomnia), {熟睡|じゅくすい} (deep sleep)
+- **Verb (1)**: {繕|つくろ}う (to mend/keep up appearances)
+- **Business/legal (2)**: {取引先|とりひきさき} (business partner), {被告|ひこく} (defendant)
+- **Other nouns (6)**: {泥沼|どろぬま} (quagmire), {番狂|ばんくる}わせ (upset), {花壇|かだん} (flower bed), {自尊心|じそんしん} (self-esteem), {膨張|ぼうちょう} (expansion), {結露|けつろ} (condensation)
+
+Total entries: 11,102 → 11,132
+Remaining candidates: 241 → 211
+
 ### 2026-02-12 (New Candidate Words - 55 Words, Session 244)
 Added 55 new candidate words to candidate_words.json across diverse domains:
 

@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,290 |
+| Total entries | ~11,320 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,491 (open) |
-| Candidate words | ~288 |
-| Cross-references | ~3,336 |
-| Example sentences | ~42,280 |
+| General tier | ~8,521 (open) |
+| Candidate words | ~258 |
+| Cross-references | ~3,338 |
+| Example sentences | ~42,400 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 251)
+Added 30 new dictionary entries (IDs 11235-11264) from candidate_words.json:
+
+- **{一|いち}- compounds (5)**: {一回|ひとまわ}り (one round/one size/12 years), {一心|いっしん} (wholeheartedness), {一助|いちじょ} (a help/contribution), {一味|いちみ} (gang/ichimi chili), {一命|いちめい} (one's life)
+- **Loanwords - food/cooking (5)**: ハーブ (herb), フルーツ (fruit), ナッツ (nuts), ホイル (aluminum foil), レバー (lever/liver)
+- **Loanwords - general (10)**: ニーズ (needs/demand), ノイズ (noise/static), レート (rate/exchange rate), ルーツ (roots/origins), ルート (route/channel), ラッキー (lucky), リボン (ribbon), メロディ (melody), ランプ (lamp/indicator light), ロゴ (logo)
+- **Loanwords - descriptive (3)**: レア (rare/rare steak), ニッチ (niche), リフレッシュ (refresh)
+- **Loanwords - people/culture (2)**: ヒーロー (hero), パンダ (panda)
+- **Other (5)**: ビラ (flyer/leaflet), メモ{帳|ちょう} (memo pad), {三|み}つ{葉|ば} (mitsuba herb), {雌|めす} (female animal), パンチ (punch/impact/hole punch)
+
+Notable features:
+- Continued {一|いち}- compound expansion: {一回|ひとまわ}り (3 senses), {一味|いちみ} (2 senses: gang/chili), {一命|いちめい} (literary register)
+- Multi-sense entries: レア (rare/cooking), レバー (lever/liver), ルート (physical route/business channel), ランプ (lamp/indicator light), パンチ (strike/impact/hole punch)
+- Food/herb cluster: ハーブ, フルーツ, ナッツ, ホイル, {三|み}つ{葉|ば}, レバー with cooking collocations
+- Cross-references: {雌|めす} ↔ {雄|おす}, ヒーロー ↔ ヒロイン
+- New kanji: 2,298 → 2,299 ({雌|し})
+
+Total entries: 11,290 → 11,320
+Remaining candidates: 288 → 258
 
 ### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 250)
 Added 30 new dictionary entries (IDs 11205-11234) from candidate_words.json:
@@ -134,56 +154,6 @@ Notable features:
 
 Total entries: 11,162 → 11,192
 Remaining candidates: 301 → 271
-
-### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 246)
-Added 30 new dictionary entries (IDs 11085-11114) from candidate_words.json:
-
-- **Legal/criminal justice (4)**: {原告|げんこく} (plaintiff), {検察|けんさつ} (prosecution), {懲役|ちょうえき} (imprisonment), {証言|しょうげん} (testimony)
-- **Medical/nutrition (4)**: {抗生物質|こうせいぶっしつ} (antibiotic), {初診|しょしん} (first medical visit), {糖質|とうしつ} (carbohydrates), {脂質|ししつ} (lipids)
-- **Health/body (2)**: {新陳代謝|しんちんたいしゃ} (metabolism), {体幹|たいかん} (core/trunk)
-- **Education (2)**: {修士|しゅうし} (master's degree), {模試|もし} (mock exam)
-- **Business/work (2)**: {決裁|けっさい} (approval), {着工|ちゃっこう} (start of construction)
-- **Music (2)**: {指揮|しき} (conducting/command), {譜面|ふめん} (musical score)
-- **〜{化|か} compounds (2)**: {深刻化|しんこくか} (worsening), {長期化|ちょうきか} (prolongation)
-- **Infrastructure/science (3)**: {回線|かいせん} (line/circuit), {排水|はいすい} (drainage), {窒素|ちっそ} (nitrogen)
-- **Culture/people (2)**: {冠婚葬祭|かんこんそうさい} (ceremonial occasions), {忍者|にんじゃ} (ninja)
-- **General vocabulary (5)**: {反復|はんぷく} (repetition), {燃|も}え{尽|つ}き (burnout), {内覧|ないらん} (property viewing), コマ (frame/panel; class period), ニラ (Chinese chives)
-- **Grammar/expression (1)**: {羽目|はめ} (predicament — 〜する{羽目|はめ}になる pattern)
-- **Verb (1)**: ばらす (to reveal/to dismantle)
-
-Notable features:
-- Legal vocabulary cluster: {原告|げんこく}/{検察|けんさつ}/{懲役|ちょうえき}/{証言|しょうげん} with cross-reference to {被告|ひこく}
-- Nutrition label terms: {糖質|とうしつ}/{脂質|ししつ} with Japanese food labeling explanation
-- Multi-sense entries: {指揮|しき} (military command/music conducting), {内覧|ないらん} (property viewing/exhibition preview), コマ (manga panel/class period), ばらす (reveal secret/dismantle)
-- Cultural notes: {冠婚葬祭|かんこんそうさい} (four life ceremony categories), {忍者|にんじゃ} (Iga/Koka history), {模試|もし} ({偏差値|へんさち} system)
-- Homophone distinctions: {決裁|けっさい} vs {決済|けっさい}, {回線|かいせん} vs {海鮮|かいせん}
-- New kanji: 2,295 → 2,296 (窒)
-
-Total entries: 11,132 → 11,162
-Remaining candidates: 211 → 181
-
-### 2026-02-13 (Vocabulary Expansion - 30 New Entries, Session 245)
-Added 30 new dictionary entries (IDs 11055-11084) from candidate_words.json:
-
-- **I-adjectives (3)**: {騒|さわ}がしい (noisy/turbulent), {慌|あわ}ただしい (hectic), めでたい (auspicious/naive)
-- **Calendar nouns (2)**: {年末|ねんまつ} (year-end), {年始|ねんし} (beginning of year)
-- **Communication/digital (3)**: {口|くち}コミ (word of mouth/reviews), {閲覧|えつらん} (browsing/viewing), {送信|そうしん} (sending/transmission)
-- **Social/cultural (3)**: {恩返|おんがえ}し (returning a favor), {見返|みかえ}り (something in return), {社交辞令|しゃこうじれい} (social pleasantry)
-- **Medical (7)**: {予防接種|よぼうせっしゅ} (vaccination), カルテ (medical chart), {問診|もんしん} (medical interview), {眼科|がんか} (ophthalmology), {歯科|しか} (dentistry), {皮膚科|ひふか} (dermatology), {採血|さいけつ} (blood draw)
-- **Health/body (3)**: {悪化|あっか} (deterioration), {不眠|ふみん} (insomnia), {熟睡|じゅくすい} (deep sleep)
-- **Verb (1)**: {繕|つくろ}う (to mend/keep up appearances)
-- **Business/legal (2)**: {取引先|とりひきさき} (business partner), {被告|ひこく} (defendant)
-- **Other nouns (6)**: {泥沼|どろぬま} (quagmire), {番狂|ばんくる}わせ (upset), {花壇|かだん} (flower bed), {自尊心|じそんしん} (self-esteem), {膨張|ぼうちょう} (expansion), {結露|けつろ} (condensation)
-
-Notable features:
-- Medical department cluster ({眼科|がんか}/{歯科|しか}/{皮膚科|ひふか}) with cross-references between them
-- Antonym pairs: {不眠|ふみん} ↔ {熟睡|じゅくすい}, {恩返|おんがえ}し ↔ {見返|みかえ}り (related)
-- Multi-sense entries: {騒|さわ}がしい (noise/turmoil), めでたい (auspicious/naive), {繕|つくろ}う (mend/appearances), {泥沼|どろぬま} (literal/figurative)
-- Cultural notes: めでたい (鯛 pun), {社交辞令|しゃこうじれい} (reading Japanese sincerity), カルテ (German medical influence)
-- Calendar pair: {年末|ねんまつ}/{年始|ねんし} with {年末年始|ねんまつねんし} compound
-
-Total entries: 11,102 → 11,132
-Remaining candidates: 241 → 211
 
 ---
 
