@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,489 |
+| Total entries | ~11,519 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,690 (open) |
-| Candidate words | ~290 |
+| General tier | ~8,720 (open) |
+| Candidate words | ~323 |
 | Cross-references | ~3,340 |
-| Example sentences | ~42,700 |
+| Example sentences | ~42,900 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 257)
+Added 30 new dictionary entries (IDs 11434-11463) from candidate_words.json:
+
+- **Expressions/adjectives (2)**: {仕方|しかた}ない (it can't be helped), {仲良|なかよ}し (close friend)
+- **Verbs (6)**: {仕組|しく}む (to devise/plot), {仰|あお}ぐ (to look up at/revere), {佇|たたず}む (to stand still), {伸|の}び{悩|なや}む (to plateau), {乗|の}っかる (to get on/jump on board)
+- **Nouns - society/people (5)**: {人手不足|ひとでぶそく} (labor shortage), {人情|にんじょう} (human feelings), {人間関係|にんげんかんけい} (interpersonal relations), {仲良|なかよ}し, {何事|なにごと} (what/everything)
+- **Nouns - abstract/general (8)**: {使命|しめい} (mission), {伝説|でんせつ} (legend), {伝承|でんしょう} (tradition/folklore), {侮辱|ぶじょく} (insult), {主導権|しゅどうけん} (initiative), {争奪戦|そうだつせん} (contest/scramble), {乱入|らんにゅう} (barging in), {作風|さくふう} (artistic style)
+- **Nouns - practical (7)**: {代謝|たいしゃ} (metabolism), {仮面|かめん} (mask), {侵入|しんにゅう} (intrusion), {依存|いぞん} (dependence/addiction), {保管|ほかん} (storage), {体験|たいけん} (firsthand experience), {休養|きゅうよう} (rest/recuperation)
+- **Nouns - specialized (2)**: {保育|ほいく} (childcare), {供養|くよう} (memorial service), {似顔絵|にがおえ} (portrait/caricature)
+
+Notable features:
+- Multi-sense entries: {仰|あお}ぐ (look up/revere/seek guidance), {仮面|かめん} (physical mask/figurative), {依存|いぞん} (dependence/addiction), {伝説|でんせつ} (legend/legendary), {何事|なにごと} (what/everything), {乗|の}っかる (physical/figurative)
+- Cultural context: {人情|にんじょう} ({義理|ぎり}{人情|にんじょう} cultural concept), {供養|くよう} (Buddhist memorial for objects), {保育|ほいく} ({待機|たいき}{児童|じどう} social issue), {仮面|かめん}ライダー
+- Social vocabulary: {人手不足|ひとでぶそく} (aging society), {人間関係|にんげんかんけい} (workplace stress), {依存|いぞん}{症|しょう} (modern addiction issues)
+- Verb variety: godan-mu ({仕組|しく}む, {佇|たたず}む, {伸|の}び{悩|なや}む), godan-gu ({仰|あお}ぐ), godan-ru ({乗|の}っかる)
+
+Total entries: 11,489 → 11,519
+Remaining candidates: 353 → 323 (30 removed)
 
 ### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 256)
 Added 30 new dictionary entries (IDs 11404-11433) from candidate_words.json:
@@ -131,27 +150,6 @@ Notable features:
 
 Total entries: 11,350 → 11,380
 Remaining candidates: 228 → 282 (30 removed, new candidates added by update_indexes)
-
-### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 252)
-Added 30 new dictionary entries (IDs 11265-11294) from candidate_words.json:
-
-- **Loanwords - daily life (8)**: ペア (pair/couple), ボトル (bottle), パーツ (parts/components), ブース (booth/stall), ポイント (point/reward points), ヘルパー (helper/care worker), バージョン (version), パートナー (partner)
-- **Loanwords - descriptive (5)**: ブルー (blue/feeling down), プライベート (private/personal), マイナー (minor/niche), プレミアム (premium/deluxe), フォーマル (formal)
-- **Loanwords - culture/entertainment (5)**: バトル (battle/contest), バトン (baton), ヒロイン (heroine), パレード (parade), バレンタイン (Valentine's Day)
-- **Loanwords - society (3)**: ハラスメント (harassment), フェイク (fake/counterfeit), プロセス (process/procedure)
-- **Loanwords - food (1)**: ビスケット (biscuit/cookie)
-- **Loanwords - body/fashion (2)**: ベロ (tongue, colloquial), マント (cloak/cape)
-- **Loanwords - other (6)**: ボス (boss), パワー (power/energy), ポーズ (pose/pause), ファミリー (family in commercial contexts), ベストセラー (bestseller), ピラミッド (pyramid)
-
-Notable features:
-- Multi-sense entries: ポーズ (pose/pause from different English words), ポイント (key point/reward points), ブルー (color/emotion)
-- Japanese cultural context: バレンタイン ({本命|ほんめい}チョコ/{義理|ぎり}チョコ culture), ハラスメント (パワハラ, セクハラ, etc.), ポイント (Japanese loyalty point culture), ヘルパー (home care system), ファミリー (commercial/marketing usage)
-- Wasei-eigo notes: バトンタッチ, バージョンアップ, ボトルキープ
-- Cross-references: ヒロイン ↔ ヒーロー
-- Contrast pairs noted: マイナー vs メジャー, フォーマル vs カジュアル, プライベート vs {仕事|しごと}
-
-Total entries: 11,320 → 11,350
-Remaining candidates: 258 → 228
 
 ---
 
