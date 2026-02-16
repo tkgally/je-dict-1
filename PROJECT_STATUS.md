@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,429 |
+| Total entries | ~11,459 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,630 (open) |
-| Candidate words | ~252 |
-| Cross-references | ~3,338 |
-| Example sentences | ~42,400 |
+| General tier | ~8,660 (open) |
+| Candidate words | ~222 |
+| Cross-references | ~3,340 |
+| Example sentences | ~42,500 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 255)
+Added 30 new dictionary entries (IDs 11374-11403) from candidate_words.json:
+
+- **Japanese compounds - positional (5)**: {上記|じょうき} (above-mentioned), {下記|かき} (below-mentioned), {上部|じょうぶ} (upper part), {下部|かぶ} (lower part), {下限|かげん} (lower limit)
+- **Japanese compounds - 不- prefix (5)**: {不快|ふかい} (unpleasant), {不揃|ふぞろ}い (uneven/mismatched), {不向|ふむ}き (unsuited), {不人気|ふにんき} (unpopular), {不定期|ふていき} (irregular)
+- **Japanese compounds - other (5)**: {並|なみ} (ordinary/medium), {中頃|なかごろ} (around the middle), {中卒|ちゅうそつ} (middle school graduate), {一揆|いっき} (uprising), {一堂|いちどう} (in one place)
+- **Japanese compounds - time/quantity (2)**: {丸々|まるまる} (completely/plump), {一端|いったん} (one end/a part)
+- **Loanwords (13)**: ハイブリッド (hybrid), マジック (magic/marker), ユニーク (unique/quirky), リゾート (resort), リーズナブル (reasonable in price), レギュラー (regular/starter), ローカル (local), バラエティ (variety/variety show), ブレンド (blend), パンデミック (pandemic), プラチナ (platinum), ロマンス (romance), ワイド (wide)
+
+Notable features:
+- Antonym pairs: {上記|じょうき} ↔ {下記|かき}, {上部|じょうぶ} ↔ {下部|かぶ}
+- Homophone warnings: {上部|じょうぶ} vs {丈夫|じょうぶ}, {下限|かげん} vs {加減|かげん}, {不快|ふかい} vs {深|ふか}い, {一端|いったん} vs {一旦|いったん}
+- False friend notes: ユニーク (quirky, not just "unique"), リーズナブル (price only, not general "reasonable")
+- Multi-sense entries: {丸々|まるまる} (completely/plump), マジック (magic/marker), レギュラー (starter/standard), バラエティ (variety/TV show), {一端|いったん} (physical end/glimpse)
+- Cultural context: {並|なみ} (restaurant sizing), ブレンド (coffee shop culture), ワイドショー (Japanese TV genre), プラチナチケット (hard-to-get tickets)
+- New kanji: 2,302 → 2,303 ({揆|き})
+
+Total entries: 11,429 → 11,459
+Remaining candidates: 252 → 222
 
 ### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 254)
 Added 30 new dictionary entries (IDs 11344-11373) from candidate_words.json:
@@ -130,27 +150,6 @@ Notable features:
 
 Total entries: 11,290 → 11,320
 Remaining candidates: 288 → 258
-
-### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 250)
-Added 30 new dictionary entries (IDs 11205-11234) from candidate_words.json:
-
-- **Loanword abbreviations (3)**: ラノベ (light novel), ラブコメ (romantic comedy), レンチン (microwaving)
-- **Wasei-eigo (7)**: ランクイン (charting on a ranking), ワンマン (autocratic/solo-operated), チャームポイント (attractive feature), ピンポイント (precisely targeted), ロングセラー (perennial favorite), ロングラン (extended showing), ベースアップ (base pay raise)
-- **Standard loanwords (7)**: リノベーション (renovation), リピーター (repeat customer), ロールモデル (role model), レントゲン (X-ray), ライトアップ (illumination), ラッシュ (rush/surge), リスペクト (respect)
-- **Japanese nuance loanwords (4)**: ロマン (grand dream), ロス (waste/emotional loss), レパートリー (repertoire), モノクロ (monochrome)
-- **Food (1)**: ラー{油|ゆ} (chili oil)
-- **Writing/education (1)**: ローマ{字|じ} (Roman letters/romaji)
-- **{一|いち}- compounds (7)**: {一列|いちれつ} (a row), {一族|いちぞく} (clan), {一転|いってん} (sudden change), {一角|いっかく} (a corner/section), {一様|いちよう} (uniform), {一説|いっせつ} (one theory), {一挙|いっきょ} (at a stroke)
-
-Notable features:
-- Wasei-eigo cluster with usage notes on Japanese-specific meanings: ランクイン, ワンマン, チャームポイント, ベースアップ, ロングセラー, ロングラン
-- Multi-sense entries: ワンマン (autocratic/solo-operated), ラッシュ (rush hour/surge), ロス (waste/emotional loss)
-- Cultural context: レンチン ({食|た}べるラー{油|ゆ} trend), ベースアップ ({春闘|しゅんとう} labor negotiations), ロス (あまロス phenomenon)
-- Continued {一|いち}- compound expansion from Session 249
-- Contrast pairs noted: リスペクト vs {尊敬|そんけい}, モノクロ vs {白黒|しろくろ}, リノベーション vs リフォーム
-
-Total entries: 11,260 → 11,290
-Remaining candidates: 318 → 288
 
 ---
 

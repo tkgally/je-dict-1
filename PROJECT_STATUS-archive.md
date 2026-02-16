@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 250)
+Added 30 new dictionary entries (IDs 11205-11234) from candidate_words.json:
+
+- **Loanword abbreviations (3)**: ラノベ (light novel), ラブコメ (romantic comedy), レンチン (microwaving)
+- **Wasei-eigo (7)**: ランクイン (charting on a ranking), ワンマン (autocratic/solo-operated), チャームポイント (attractive feature), ピンポイント (precisely targeted), ロングセラー (perennial favorite), ロングラン (extended showing), ベースアップ (base pay raise)
+- **Standard loanwords (7)**: リノベーション (renovation), リピーター (repeat customer), ロールモデル (role model), レントゲン (X-ray), ライトアップ (illumination), ラッシュ (rush/surge), リスペクト (respect)
+- **Japanese nuance loanwords (4)**: ロマン (grand dream), ロス (waste/emotional loss), レパートリー (repertoire), モノクロ (monochrome)
+- **Food (1)**: ラー{油|ゆ} (chili oil)
+- **Writing/education (1)**: ローマ{字|じ} (Roman letters/romaji)
+- **{一|いち}- compounds (7)**: {一列|いちれつ} (a row), {一族|いちぞく} (clan), {一転|いってん} (sudden change), {一角|いっかく} (a corner/section), {一様|いちよう} (uniform), {一説|いっせつ} (one theory), {一挙|いっきょ} (at a stroke)
+
+Total entries: 11,260 → 11,290
+Remaining candidates: 318 → 288
+
 ### 2026-02-14 (Vocabulary Expansion - 30 New Entries, Session 248)
 Added 30 new dictionary entries (IDs 11145-11174) from candidate_words.json:
 
