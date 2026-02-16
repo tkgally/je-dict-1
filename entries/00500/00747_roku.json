@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00747_roku_ex1",
-      "japanese": "{六|ろく}{時|じ}に{起|お}きます。",
+      "japanese": "{六|ろく}⟦{時|じ}→じ：09869⟧⟦に→に：00314⟧⟦{起|お}きます→おきる：00521⟧。",
       "english": "I wake up at six o'clock.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00747_roku_ex2",
-      "japanese": "ビールを{六|ろっ}{本|ぽん}ください。",
+      "japanese": "⟦ビール→びーる：01015⟧⟦を→を：00422⟧{六|ろっ}⟦{本|ぽん}→ほん：00688⟧⟦ください→ください：02899⟧。",
       "english": "Six beers, please.",
       "notes": "Note: ろく becomes ろっ before ほん→ぽん",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00747_roku_ex3",
-      "japanese": "{六|ろく}{月|がつ}は{梅雨|つゆ}の{季節|きせつ}です。",
+      "japanese": "⟦{六|ろく}{月|がつ}→ろくがつ：00662⟧⟦は→は：00079⟧⟦{梅雨|つゆ}→つゆ：02232⟧⟦の→の：09472⟧⟦{季節|きせつ}→きせつ：01304⟧⟦です→です：09485⟧。",
       "english": "June is the rainy season.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00747_roku_ex4",
-      "japanese": "{友達|ともだち}が{六|ろく}{人|にん}{来|き}たので、{椅子|いす}が{足|た}りませんでした。",
+      "japanese": "⟦{友達|ともだち}→ともだち：01478⟧⟦が→が：00051⟧{六|ろく}⟦{人|にん}→にん：00658⟧⟦{来|き}た→くる：00254⟧⟦ので→ので：09501⟧、⟦{椅子|いす}→いす：00706⟧⟦が→が：00051⟧⟦{足|た}りませんでした→たりる：01209⟧。",
       "english": "Six friends came, so we didn't have enough chairs.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00747_roku_ex5",
-      "japanese": "{六|ろく}{月|がつ}は{雨|あめ}が{多|おお}いです。{毎日|まいにち}{傘|かさ}を{持|も}って{出|で}かけなければなりません。",
+      "japanese": "⟦{六|ろく}{月|がつ}→ろくがつ：00662⟧⟦は→は：00079⟧⟦{雨|あめ}→あめ：00583⟧⟦が→が：00051⟧⟦{多|おお}い→おおい：01127⟧⟦です→です：09485⟧。⟦{毎日|まいにち}→まいにち：00729⟧⟦{傘|かさ}→かさ：00639⟧⟦を→を：00422⟧⟦{持|も}って→もつ：00478⟧⟦{出|で}かけなければなりません→でかける：00833⟧。",
       "english": "There's a lot of rain in June. I have to go out with an umbrella every day.",
       "notes": null,
       "has_audio": false,
@@ -63,12 +63,12 @@
       ]
     }
   ],
-  "notes": "{六|ろく} is the number six. The native Japanese counting word is {六|むっ}つ (muttsu).\n\nSOUND CHANGES:\nWhen combined with counters starting with h-sounds, ろく often becomes ろっ:\n- {六|ろっ}{本|ぽん} (roppon): six long objects\n- {六|ろっ}{百|ぴゃく} (roppyaku): 600\n- {六|ろっ}{匹|ぴき} (roppiki): six animals\n\nNO CHANGE:\n- {六|ろく}{時|じ} (rokuji): six o'clock\n- {六|ろく}{人|にん} (rokunin): six people\n- {六|ろく}{月|がつ} (rokugatsu): June\n\nCULTURAL NOTE:\nSix is generally considered a lucky number in Japan.",
+  "notes": "{六|ろく} is the number six. The native Japanese counting word is {六|むっ}つ (muttsu).\n\nSOUND CHANGES:\nWhen combined with counters starting with h-sounds, ろく often becomes ろっ:\n- {六|ろっ}{本|ぽん} (roppon): six long objects\n- {六|ろっ}{百|ぴゃく} (roppyaku): 600\n- {六|ろっ}{匹|ぴき} (roppiki): six animals\n\nNO CHANGE:\n- {六|ろく}{時|じ} (rokuji): six o'clock\n- {六|ろく}{人|にん} (rokunin): six people\n- ⟦{六|ろく}{月|がつ}→ろくがつ：00662⟧ (rokugatsu): June\n\nCULTURAL NOTE:\nSix is generally considered a lucky number in Japan.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:57:31Z",
-    "modified": "2026-01-30T04:55:12Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-16T06:48:14Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
