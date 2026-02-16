@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00724_kureru_ex1",
-      "japanese": "{友達|ともだち}が{本|ほん}をくれました。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧くれました。",
       "english": "My friend gave me a book.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00724_kureru_ex2",
-      "japanese": "{母|はは}がお{金|かね}をくれた。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧くれた。",
       "english": "Mom gave me money.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00724_kureru_ex3",
-      "japanese": "{教|おし}えてくれてありがとう。",
+      "japanese": "⟦{教|おし}えて→教える：00526_oshieru⟧くれて⟦ありがとう→ありがとう：00917_arigatou⟧。",
       "english": "Thank you for teaching me.",
       "notes": "～てくれる pattern showing favor",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00724_kureru_ex4",
-      "japanese": "{友達|ともだち}が{風邪|かぜ}を{引|ひ}いた{時|とき}、{母|はは}がスープを{作|つく}ってくれました。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧⟦{時|とき}→〜時：03094_toki⟧、⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧くれました。",
       "english": "When my friend caught a cold, my mother made soup for them.",
       "notes": "～てくれる pattern showing favor",
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00724_kureru_ex5",
-      "japanese": "{姉|あね}が{新|あたら}しいかばんをくれたので、{毎日|まいにち}{使|つか}っています。とても{気|き}に{入|い}っています。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦が→が：00051_ga⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦かばん→かばん：00637_kaban⟧⟦を→を：00422_wo⟧くれた⟦ので→ので：09501_node⟧、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{使|つか}っています→使う：00473_tsukau⟧。⟦とても→とても：00593_totemo⟧⟦{気|き}に{入|い}っています→気に入る：02047_kiniiru⟧。",
       "english": "My older sister gave me a new bag, so I use it every day. I like it very much.",
       "notes": null,
       "has_audio": false,
@@ -80,7 +80,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:27:20Z",
-    "modified": "2026-01-22T14:37:51Z",
+    "modified": "2026-02-16T00:05:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
