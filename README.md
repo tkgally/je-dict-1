@@ -29,8 +29,8 @@ Audio readings for example sentences will be added in the future.
 
 ## Current Status
 
-- **Over 10,300 entries** across three vocabulary tiers
-- **Vocabulary tiers**: Basic (801), Core (1,998), General (7,504+) — all new entries are added to general tier
+- **Over 11,000 entries** across three vocabulary tiers
+- **Vocabulary tiers**: Basic (801), Core (1,998), General (8,000+) — all new entries are added to general tier
 - **Over 3,300 cross-references** linking related entries
 - **~40,000 example sentences** with inline word links
 - **Claude Code skills** for consistent entry creation and revision
