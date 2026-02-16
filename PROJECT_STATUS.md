@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,459 |
+| Total entries | ~11,489 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,660 (open) |
-| Candidate words | ~222 |
+| General tier | ~8,690 (open) |
+| Candidate words | ~290 |
 | Cross-references | ~3,340 |
-| Example sentences | ~42,500 |
+| Example sentences | ~42,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 256)
+Added 30 new dictionary entries (IDs 11404-11433) from candidate_words.json:
+
+- **主- compounds (5)**: {主人公|しゅじんこう} (protagonist), {主催|しゅさい} (hosting an event), {主導|しゅどう} (leadership), {主流|しゅりゅう} (mainstream), {主食|しゅしょく} (staple food)
+- **乗- compounds (3)**: {乗|の}っ{取|と}る (to take over/hijack), {乗|の}り{切|き}る (to get through/overcome), {乗用車|じょうようしゃ} (passenger car)
+- **乱- words (2)**: {乱|みだ}す (to disturb), {乱|みだ}れ (disorder)
+- **事- compounds (5)**: {事例|じれい} (case/example), {事務|じむ} (office work), {事実上|じじつじょう} (de facto), {事柄|ことがら} (matter/affair), {事業|じぎょう} (business/enterprise)
+- **人- compounds (2)**: {人材|じんざい} (talent/human resources), {人格|じんかく} (personality/character)
+- **仕- words (3)**: {仕上|しあ}がる (to be completed), {仕入|しい}れる (to stock/purchase), {仕切|しき}り (partition/management)
+- **代- compounds (2)**: {代償|だいしょう} (compensation/price to pay), {代行|だいこう} (proxy service)
+- **Other (8)**: {乳児|にゅうじ} (infant), {了承|りょうしょう} (consent), {予感|よかん} (premonition), {二次元|にじげん} (2D/anime world), {五輪|ごりん} (Olympics), {亡命|ぼうめい} (exile/defection), {交付|こうふ} (issuance), {仏教|ぶっきょう} (Buddhism)
+
+Notable features:
+- Systematic kanji compound clusters: 主-, 乗-, 乱-, 事-, 仕-, 代- prefix/radical families
+- Multi-sense entries: {乗|の}っ{取|と}る (takeover/hijack), {仕切|しき}り (partition/management), {事業|じぎょう} (business/project), {二次元|にじげん} (math 2D/otaku culture), {代償|だいしょう} (figurative price/legal compensation)
+- Transitive/intransitive pair: {乱|みだ}す (transitive) ↔ {乱|みだ}れ (noun from intransitive)
+- Cultural context: {二次元|にじげん} (otaku 2D vs 3D culture), {五輪|ごりん} (Olympics shorthand), {代行|だいこう} ({運転|うんてん}{代行|だいこう} designated driver service), {仏教|ぶっきょう} (Japanese Buddhist customs)
+- Register variety: formal ({了承|りょうしょう}, {交付|こうふ}, {事実上|じじつじょう}) to neutral ({主流|しゅりゅう}, {予感|よかん})
+
+Total entries: 11,459 → 11,489
+Remaining candidates: 222 → 290 (30 removed, new candidates may have been added)
 
 ### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 255)
 Added 30 new dictionary entries (IDs 11374-11403) from candidate_words.json:
@@ -130,26 +152,6 @@ Notable features:
 
 Total entries: 11,320 → 11,350
 Remaining candidates: 258 → 228
-
-### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 251)
-Added 30 new dictionary entries (IDs 11235-11264) from candidate_words.json:
-
-- **{一|いち}- compounds (5)**: {一回|ひとまわ}り (one round/one size/12 years), {一心|いっしん} (wholeheartedness), {一助|いちじょ} (a help/contribution), {一味|いちみ} (gang/ichimi chili), {一命|いちめい} (one's life)
-- **Loanwords - food/cooking (5)**: ハーブ (herb), フルーツ (fruit), ナッツ (nuts), ホイル (aluminum foil), レバー (lever/liver)
-- **Loanwords - general (10)**: ニーズ (needs/demand), ノイズ (noise/static), レート (rate/exchange rate), ルーツ (roots/origins), ルート (route/channel), ラッキー (lucky), リボン (ribbon), メロディ (melody), ランプ (lamp/indicator light), ロゴ (logo)
-- **Loanwords - descriptive (3)**: レア (rare/rare steak), ニッチ (niche), リフレッシュ (refresh)
-- **Loanwords - people/culture (2)**: ヒーロー (hero), パンダ (panda)
-- **Other (5)**: ビラ (flyer/leaflet), メモ{帳|ちょう} (memo pad), {三|み}つ{葉|ば} (mitsuba herb), {雌|めす} (female animal), パンチ (punch/impact/hole punch)
-
-Notable features:
-- Continued {一|いち}- compound expansion: {一回|ひとまわ}り (3 senses), {一味|いちみ} (2 senses: gang/chili), {一命|いちめい} (literary register)
-- Multi-sense entries: レア (rare/cooking), レバー (lever/liver), ルート (physical route/business channel), ランプ (lamp/indicator light), パンチ (strike/impact/hole punch)
-- Food/herb cluster: ハーブ, フルーツ, ナッツ, ホイル, {三|み}つ{葉|ば}, レバー with cooking collocations
-- Cross-references: {雌|めす} ↔ {雄|おす}, ヒーロー ↔ ヒロイン
-- New kanji: 2,298 → 2,299 ({雌|し})
-
-Total entries: 11,290 → 11,320
-Remaining candidates: 288 → 258
 
 ---
 
