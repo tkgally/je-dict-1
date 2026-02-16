@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 251)
+Added 30 new dictionary entries (IDs 11235-11264) from candidate_words.json:
+
+- **{一|いち}- compounds (5)**: {一回|ひとまわ}り (one round/one size/12 years), {一心|いっしん} (wholeheartedness), {一助|いちじょ} (a help/contribution), {一味|いちみ} (gang/ichimi chili), {一命|いちめい} (one's life)
+- **Loanwords - food/cooking (5)**: ハーブ (herb), フルーツ (fruit), ナッツ (nuts), ホイル (aluminum foil), レバー (lever/liver)
+- **Loanwords - general (10)**: ニーズ (needs/demand), ノイズ (noise/static), レート (rate/exchange rate), ルーツ (roots/origins), ルート (route/channel), ラッキー (lucky), リボン (ribbon), メロディ (melody), ランプ (lamp/indicator light), ロゴ (logo)
+- **Loanwords - descriptive (3)**: レア (rare/rare steak), ニッチ (niche), リフレッシュ (refresh)
+- **Loanwords - people/culture (2)**: ヒーロー (hero), パンダ (panda)
+- **Other (5)**: ビラ (flyer/leaflet), メモ{帳|ちょう} (memo pad), {三|み}つ{葉|ば} (mitsuba herb), {雌|めす} (female animal), パンチ (punch/impact/hole punch)
+
+Notable features:
+- Continued {一|いち}- compound expansion: {一回|ひとまわ}り (3 senses), {一味|いちみ} (2 senses: gang/chili), {一命|いちめい} (literary register)
+- Multi-sense entries: レア (rare/cooking), レバー (lever/liver), ルート (physical route/business channel), ランプ (lamp/indicator light), パンチ (strike/impact/hole punch)
+- Food/herb cluster: ハーブ, フルーツ, ナッツ, ホイル, {三|み}つ{葉|ば}, レバー with cooking collocations
+- Cross-references: {雌|めす} ↔ {雄|おす}, ヒーロー ↔ ヒロイン
+- New kanji: 2,298 → 2,299 ({雌|し})
+
+Total entries: 11,290 → 11,320
+Remaining candidates: 288 → 258
+
 ### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 250)
 Added 30 new dictionary entries (IDs 11205-11234) from candidate_words.json:
 
