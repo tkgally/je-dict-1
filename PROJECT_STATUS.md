@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-15
+**Last updated**: 2026-02-16
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,380 |
+| Total entries | ~11,429 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,581 (open) |
-| Candidate words | ~282 |
+| General tier | ~8,630 (open) |
+| Candidate words | ~252 |
 | Cross-references | ~3,338 |
 | Example sentences | ~42,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 254)
+Added 30 new dictionary entries (IDs 11344-11373) from candidate_words.json:
+
+- **下- compounds (4)**: {下剋上|げこくじょう} (overthrowing superiors), {下手|へた}くそ (terrible at), {下敷|したじ}き (desk pad/pinned underneath), {下級|かきゅう} (lower grade), {下座|げざ} (lower seat), {下層|かそう} (lower stratum)
+- **不- compounds (13)**: {不倫|ふりん} (adultery), {不審者|ふしんしゃ} (suspicious person), {不死身|ふじみ} (invulnerable), {不自然|ふしぜん} (unnatural), {不意|ふい} (unexpected), {不明|ふめい} (unknown), {不適切|ふてきせつ} (inappropriate), {不平等|ふびょうどう} (inequality), {不法|ふほう} (illegal), {不確|ふたし}か (uncertain), {不本意|ふほんい} (reluctant), {不完全|ふかんぜん} (incomplete), {不透明|ふとうめい} (opaque/unclear)
+- **中- compounds (5)**: {中華街|ちゅうかがい} (Chinatown), {中退|ちゅうたい} (dropping out), {中部|ちゅうぶ} (central region), {中流|ちゅうりゅう} (middle class/midstream), {中核|ちゅうかく} (nucleus/core), {中枢|ちゅうすう} (nerve center)
+- **両- compounds (3)**: {両端|りょうたん} (both ends), {両者|りょうしゃ} (both parties), {両面|りょうめん} (both sides)
+- **Other (2)**: {串|くし}カツ (deep-fried skewers), {世紀末|せいきまつ} (end of century)
+
+Notable features:
+- Systematic 不- prefix cluster covering negation patterns: from everyday ({不自然|ふしぜん}, {不明|ふめい}) to formal/legal ({不法|ふほう}, {不適切|ふてきせつ})
+- Multi-sense entries: {下敷|したじ}き (stationery/disaster), {不透明|ふとうめい} (physical/figurative), {中流|ちゅうりゅう} (social class/river)
+- Cultural context: {下剋上|げこくじょう} (Sengoku history/sports upsets), {下座|げざ} (seating etiquette), {中華街|ちゅうかがい} (Yokohama/Kobe/Nagasaki), {串|くし}カツ (Osaka food culture), {世紀末|せいきまつ} (North Star/fin de siecle)
+- Antonym cross-references: {不自然|ふしぜん} ↔ {自然|しぜん}, {不平等|ふびょうどう} ↔ {平等|びょうどう}, {不完全|ふかんぜん} ↔ {完全|かんぜん}, {下級|かきゅう} ↔ {上級|じょうきゅう}, {下座|げざ} ↔ {上座|かみざ}
+- New kanji: 2,299 → 2,302 ({剋|こく}, {枢|すう}, {核|かく})
+
+Total entries: 11,399 → 11,429
+Remaining candidates: 282 → 252
 
 ### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 253)
 Added 30 new dictionary entries (IDs 11295-11324) from candidate_words.json:
@@ -132,25 +151,6 @@ Notable features:
 
 Total entries: 11,260 → 11,290
 Remaining candidates: 318 → 288
-
-### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 249)
-Added 30 new dictionary entries (IDs 11175-11204) from candidate_words.json:
-
-- **一- compounds (14)**: {万|まん}が{一|いち} (just in case), {一覧|いちらん} (list/overview), {一方的|いっぽうてき} (one-sided), {一環|いっかん} (part of), {一服|いっぷく} (a break/a dose), {一概|いちがい}に (sweepingly — with negative), {一見|いっけん} (at first glance), {一貫|いっかん} (consistency), {一躍|いちやく} (at one bound), {一面|いちめん} (one side/entire surface), {一筋|ひとすじ} (one line/single-minded), {一騎打|いっきう}ち (showdown), {一変|いっぺん} (complete transformation), {一律|いちりつ} (uniform/across the board)
-- **上- compounds (3)**: {上々|じょうじょう} (excellent), {上位|じょうい} (upper rank), {上場|じょうじょう} (stock listing)
-- **Loanwords (8)**: ランドセル (school backpack), リハビリ (rehabilitation), レビュー (review), レンタル (rental), ランキング (ranking), ランチ (lunch), ライバル (rival), リビング (living room)
-- **Other (5)**: リセット (reset), レジャー (leisure), ワイワイ (noisily/merrily), {上乗|うわの}せ (surcharge), {七草|ななくさ} (seven herbs of spring)
-
-Notable features:
-- Large cluster of {一|いち}-prefixed compounds covering formal/written Japanese
-- Homophone pairs with cross-references: {一環|いっかん}/{一貫|いっかん}, {上々|じょうじょう}/{上場|じょうじょう}, {一見|いっけん}/{一件|いっけん}
-- Multi-sense entries: {一服|いっぷく} (break/dose), {一面|いちめん} (aspect/entire surface), {一筋|ひとすじ} (line/devotion)
-- Cultural context: ランドセル (ラン{活|かつ} culture), {七草|ななくさ} (Heian-period tradition), ライバル (positive rival archetype in anime/manga)
-- Business vocabulary cluster: {上場|じょうじょう}, {上位|じょうい}, {一律|いちりつ}, {上乗|うわの}せ, {一覧|いちらん}, ランキング, レンタル, レビュー
-- New kanji: 2,297 → 2,298 ({騎|き})
-
-Total entries: 11,222 → 11,260 (includes 8 entries created between sessions)
-Remaining candidates: 348 → 318
 
 ---
 
