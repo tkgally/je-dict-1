@@ -47,7 +47,7 @@ python3 build/check_duplicate.py "word" "reading" # Duplicate check
 
 - **Basic** (801): Foundational words. Closed — do not add or modify.
 - **Core** (1,998): Essential adult communication. Closed — do not add or modify.
-- **General** (7,504+): All other vocabulary. All new entries go here.
+- **General** (8,581+): All other vocabulary. All new entries go here.
 
 ## Skills
 
