@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 252)
+Added 30 new dictionary entries (IDs 11265-11294) from candidate_words.json:
+
+- **Loanwords - daily life (8)**: ペア (pair/couple), ボトル (bottle), パーツ (parts/components), ブース (booth/stall), ポイント (point/reward points), ヘルパー (helper/care worker), バージョン (version), パートナー (partner)
+- **Loanwords - descriptive (5)**: ブルー (blue/feeling down), プライベート (private/personal), マイナー (minor/niche), プレミアム (premium/deluxe), フォーマル (formal)
+- **Loanwords - culture/entertainment (5)**: バトル (battle/contest), バトン (baton), ヒロイン (heroine), パレード (parade), バレンタイン (Valentine's Day)
+- **Loanwords - society (3)**: ハラスメント (harassment), フェイク (fake/counterfeit), プロセス (process/procedure)
+- **Loanwords - food (1)**: ビスケット (biscuit/cookie)
+- **Loanwords - body/fashion (2)**: ベロ (tongue, colloquial), マント (cloak/cape)
+- **Loanwords - other (6)**: ボス (boss), パワー (power/energy), ポーズ (pose/pause), ファミリー (family in commercial contexts), ベストセラー (bestseller), ピラミッド (pyramid)
+
+Total entries: 11,320 → 11,350
+Remaining candidates: 258 → 228
+
 ### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 251)
 Added 30 new dictionary entries (IDs 11235-11264) from candidate_words.json:
 
