@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,519 |
+| Total entries | ~11,549 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,720 (open) |
-| Candidate words | ~323 |
+| General tier | ~8,750 (open) |
+| Candidate words | ~341 |
 | Cross-references | ~3,340 |
 | Example sentences | ~42,900 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 258)
+Added 30 new dictionary entries (IDs 11464-11493) from candidate_words.json:
+
+- **Japanese compounds - formal/abstract (8)**: {不愉快|ふゆかい} (unpleasant), {不合理|ふごうり} (unreasonable), {不利益|ふりえき} (disadvantage), {争点|そうてん} (contested point), {事項|じこう} (matter/item), {交錯|こうさく} (intermingling), {事業者|じぎょうしゃ} (business operator), {主体|しゅたい} (subject/main body)
+- **Japanese compounds - people/culture (5)**: {亭主|ていしゅ} (husband/host), {仇|かたき} (enemy/target of vengeance), {亡霊|ぼうれい} (ghost/specter), {主治医|しゅじい} (attending physician), {人力車|じんりきしゃ} (rickshaw)
+- **Japanese compounds - other (8)**: {主観|しゅかん} (subjectivity), {主題歌|しゅだいか} (theme song), {主力|しゅりょく} (main force), {人差|ひとさ}し{指|ゆび} (index finger), {人里|ひとざと} (inhabited area), {五目|ごもく} (assorted), {云々|うんぬん} (and so on), {事欠|ことか}く (to lack)
+- **Loanwords (9)**: ダイナミック (dynamic), ラップ (wrap/rap), リリース (release), プロモーション (promotion), ヘイト (hate), マッチング (matching), バイアス (bias), バーチャル (virtual), テンプレート (template)
+
+Notable features:
+- Mixed native Japanese and loanwords: 21 native Japanese words + 9 loanwords for good variety
+- Multi-sense entries: ラップ (plastic wrap/rap music), {亭主|ていしゅ} (husband/host), {云々|うんぬん} (et cetera/to comment on), {主体|しゅたい} (main body/philosophical subject)
+- Cultural context: {亭主|ていしゅ}{関白|かんぱく} (domineering husband), {仇討|かたきう}ち ({忠臣蔵|ちゅうしんぐら} vendetta), {人力車|じんりきしゃ} (Meiji-era invention), マッチングアプリ (modern dating culture)
+- Formal register: {争点|そうてん}, {事項|じこう}, {不利益|ふりえき}, {事業者|じぎょうしゃ}, {交錯|こうさく}
+- Modern vocabulary: バイアス, バーチャル (VTuber culture), ヘイト (hate speech law), マッチング, テンプレート
+- New kanji: 2,303 → 2,306 ({云|うん}, {亭|てい}, {仇|かたき})
+
+Total entries: 11,519 → 11,549
+Remaining candidates: 371 → 341 (30 removed)
 
 ### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 257)
 Added 30 new dictionary entries (IDs 11434-11463) from candidate_words.json:
@@ -130,26 +149,6 @@ Notable features:
 
 Total entries: 11,399 → 11,429
 Remaining candidates: 282 → 252
-
-### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 253)
-Added 30 new dictionary entries (IDs 11295-11324) from candidate_words.json:
-
-- **上- compounds (5)**: {上座|かみざ} (seat of honor), {上昇|じょうしょう} (rise/ascent), {上演|じょうえん} (performance/staging), {上級|じょうきゅう} (advanced level), {上限|じょうげん} (upper limit)
-- **下- compounds (3)**: {下山|げざん} (descending a mountain), {下準備|したじゅんび} (preparation/prep work), {下落|げらく} (decline in prices)
-- **不- compounds (6)**: {不在|ふざい} (absence), {不調|ふちょう} (poor condition/slump), {不穏|ふおん} (ominous/unsettling), {不毛|ふもう} (barren/fruitless), {不登校|ふとうこう} (school refusal), {不安定|ふあんてい} (unstable)
-- **不- compounds continued (3)**: {不当|ふとう} (unfair/unjust), {不良|ふりょう} (bad/delinquent), (see above for {不穏|ふおん} etc.)
-- **中- compounds (8)**: {中途半端|ちゅうとはんぱ} (half-hearted), {中継|ちゅうけい} (live broadcast), {中年|ちゅうねん} (middle-aged), {中庭|なかにわ} (courtyard), {中旬|ちゅうじゅん} (mid-month), {中傷|ちゅうしょう} (slander), {中盤|ちゅうばん} (middle stage), {中立|ちゅうりつ} (neutrality)
-- **Other (5)**: {両立|りょうりつ} (balancing two things), {並行|へいこう} (parallel/concurrent), {世界観|せかいかん} (worldview/world-setting), {丸|まる}める (to roll up/smooth-talk), {中二病|ちゅうにびょう} (adolescent delusions)
-
-Notable features:
-- Systematic kanji compound clusters: 上-, 下-, 不-, 中- prefix families showing how a single kanji generates many useful words
-- Multi-sense entries: {不良|ふりょう} (defective/delinquent), {不毛|ふもう} (barren land/fruitless effort), {世界観|せかいかん} (philosophical worldview/fictional world-setting), {丸|まる}める (physical rolling/figurative smooth-talking), {中華|ちゅうか} (Chinese food/Chinese culture)
-- Cultural context: {上座|かみざ}/{下座|げざ} (seating etiquette), {中二病|ちゅうにびょう} (anime/internet culture), {不登校|ふとうこう} (Japanese social issue), {不良|ふりょう} (delinquent manga culture)
-- Cross-references: {上限|じょうげん} ↔ {下限|かげん}, {上座|かみざ} ↔ {下座|げざ}, {並行|へいこう} ↔ {平行|へいこう}
-- Level/stage hierarchies documented: {初級|しょきゅう}/{中級|ちゅうきゅう}/{上級|じょうきゅう}, {序盤|じょばん}/{中盤|ちゅうばん}/{終盤|しゅうばん}, {上旬|じょうじゅん}/{中旬|ちゅうじゅん}/{下旬|げじゅん}
-
-Total entries: 11,350 → 11,380
-Remaining candidates: 228 → 282 (30 removed, new candidates added by update_indexes)
 
 ---
 
