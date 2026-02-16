@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00732_maitsuki_ex1",
-      "japanese": "{毎月|まいつき}{本|ほん}を{読|よ}みます。",
+      "japanese": "{毎月|まいつき}⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}みます→読む：00426_yomu⟧。",
       "english": "I read books every month.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00732_maitsuki_ex2",
-      "japanese": "{毎月|まいつき}{一|いち}{回|かい}{映画|えいが}を{見|み}ます。",
+      "japanese": "{毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}ます→見る：00283_miru⟧。",
       "english": "I watch a movie once a month.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00732_maitsuki_ex3",
-      "japanese": "{毎月|まいつき}{一|いち}{回|かい}{病院|びょういん}に{行|い}きます。",
+      "japanese": "{毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{行|い}きます→行く：00119_iku⟧。",
       "english": "I go to the hospital once a month.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00732_maitsuki_ex4",
-      "japanese": "{毎月|まいつき}{一|いち}{回|かい}、{友達|ともだち}と{会|あ}って{ご飯|ごはん}を{食|た}べることにしています。",
+      "japanese": "{毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{会|あ}って→会う：00482_au⟧⟦{ご飯|ごはん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦ことにしています→ことにする：10986_kotonisuru⟧。",
       "english": "I make it a point to meet with my friend once a month to have a meal.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00732_maitsuki_ex5",
-      "japanese": "{毎月|まいつき}{少|すこ}しずつお{金|かね}を{貯|た}めています。{来年|らいねん}{旅行|りょこう}に{行|い}きたいので、{今|いま}から{準備|じゅんび}しています。",
+      "japanese": "{毎月|まいつき}⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→ずつ：03092_zutsu⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{貯|た}めています→溜める：02068_tameru⟧。⟦{来年|らいねん}→来年：00745_rainen⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧⟦ので→ので：09501_node⟧、⟦{今|いま}→今：00945_ima⟧⟦から→から：00504_kara⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦しています→する：00392_suru⟧。",
       "english": "I save a little money every month. I want to go on a trip next year, so I'm preparing now.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "{毎月|まいつき} means 'every month' and can function as both a noun and an adverb.\n\nREADINGS:\n- まいつき: more common in speech\n- まいげつ: also used\n\nCOMMON PATTERNS:\n- {毎月|まいつき}〜する: to do ~ every month\n- {毎月|まいつき}{一|いち}{回|かい}: once a month\n- {毎月|まいつき}の{支払|しはら}い: monthly payment\n\nRELATED TIME WORDS:\n- {先月|せんげつ}: last month\n- {今月|こんげつ}: this month\n- {来月|らいげつ}: next month\n- {毎週|まいしゅう}: every week\n- {毎年|まいとし}: every year",
+  "notes": "{毎月|まいつき} means 'every month' and can function as both a noun and an adverb.\n\nREADINGS:\n- まいつき: more common in speech\n- まいげつ: also used\n\nCOMMON PATTERNS:\n- {毎月|まいつき}〜する: to do ~ every month\n- {毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧: once a month\n- {毎月|まいつき}の⟦{支払|しはら}い→支払う：02116_shiharau⟧: monthly payment\n\nRELATED TIME WORDS:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- ⟦{今月|こんげつ}→今月：00720_kongetsu⟧: this month\n- ⟦{来月|らいげつ}→来月：00744_raigetsu⟧: next month\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧: every week\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:34:08Z",
-    "modified": "2026-01-26T23:03:36Z",
+    "modified": "2026-02-16T03:47:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
