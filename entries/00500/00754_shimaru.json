@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00754_shimaru_ex1",
-      "japanese": "ドアが{閉|し}まりました。",
+      "japanese": "⟦ドア→ドア：00773_doa⟧⟦が→が：00051_ga⟧{閉|し}まりました。",
       "english": "The door closed.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00754_shimaru_ex2",
-      "japanese": "{店|みせ}は{閉|し}まっています。",
+      "japanese": "⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{閉|し}まっています。",
       "english": "The store is closed.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00754_shimaru_ex3",
-      "japanese": "{窓|まど}が{閉|し}まっていますか。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧{閉|し}まっています⟦か→か：09473_ka⟧。",
       "english": "Is the window closed?",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00754_shimaru_ex4",
-      "japanese": "{銀行|ぎんこう}は{三|さん}{時|じ}に{閉|し}まりますから、{早|はや}く{行|い}かなければなりません。",
+      "japanese": "⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦は→は：00079_ha⟧⟦{三|さん}{時|じ}→三時：10983_sanji⟧⟦に→に：00314_ni⟧{閉|し}まります⟦から→から：00504_kara⟧、⟦{早|はや}く→早い：00514_hayai⟧⟦{行|い}かなければなりません→行く：00119_iku⟧。",
       "english": "The bank closes at three, so I have to go quickly.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00754_shimaru_ex5",
-      "japanese": "{電車|でんしゃ}のドアが{閉|し}まりそうでしたが、{走|はし}って{乗|の}ることができました。よかったです。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦ドア→ドア：00773_doa⟧⟦が→が：00051_ga⟧{閉|し}まりそうでしたが、⟦{走|はし}って→走る：00519_hashiru⟧⟦{乗|の}る→乗る：00511_noru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦できました→できる：00557_dekiru⟧。⟦よかったです→いい：00118_ii⟧。",
       "english": "The train door was about to close, but I was able to run and get on. That was close.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {閉|し}める (transitive). Pattern: Xが{閉|し}まる (X closes).\n\nASPECT: ている indicates resulting state. {閉|し}まっている = 'is closed' (state, not process).\n\nCOMMON PATTERNS:\n・ドアが{閉|し}まる (the door closes)\n・{店|みせ}が{閉|し}まっている (the store is closed)\n・{窓|まど}が{閉|し}まっている (the window is closed)\n・{閉|し}まる{時間|じかん} (closing time)\n\nPAIR: {閉|し}める (transitive) - ドアを{閉|し}めた (closed the door). Opposite: {開|あ}く (to open - intransitive).",
+  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: ⟦{閉|し}める→閉める：00485_shimeru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{閉|し}まる (X closes).\n\nASPECT: ている indicates resulting state. {閉|し}まっている = 'is closed' (state, not process).\n\nCOMMON PATTERNS:\n・⟦ドア→ドア：00773_doa⟧⟦が→が：00051_ga⟧{閉|し}まる (the door closes)\n・⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{閉|し}まっている (the store is closed)\n・⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧{閉|し}まっている (the window is closed)\n・{閉|し}まる⟦{時間|じかん}→時間：00468_jikan⟧ (closing time)\n\nPAIR: ⟦{閉|し}める→閉める：00485_shimeru⟧ (transitive) - ⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧⟦{閉|し}めた→閉める：00485_shimeru⟧ (closed the door). Opposite: ⟦{開|あ}く→開く：00689_aku⟧ (to open - intransitive).",
   "cross_references": [
     {
       "type": "see_also",
@@ -80,7 +80,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:18:28Z",
-    "modified": "2026-01-22T14:58:19Z",
+    "modified": "2026-02-16T22:54:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
