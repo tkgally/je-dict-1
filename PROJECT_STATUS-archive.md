@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 253)
+Added 30 new dictionary entries (IDs 11295-11324) from candidate_words.json:
+
+- **上- compounds (5)**: {上座|かみざ} (seat of honor), {上昇|じょうしょう} (rise/ascent), {上演|じょうえん} (performance/staging), {上級|じょうきゅう} (advanced level), {上限|じょうげん} (upper limit)
+- **下- compounds (3)**: {下山|げざん} (descending a mountain), {下準備|したじゅんび} (preparation/prep work), {下落|げらく} (decline in prices)
+- **不- compounds (6)**: {不在|ふざい} (absence), {不調|ふちょう} (poor condition/slump), {不穏|ふおん} (ominous/unsettling), {不毛|ふもう} (barren/fruitless), {不登校|ふとうこう} (school refusal), {不安定|ふあんてい} (unstable)
+- **不- compounds continued (3)**: {不当|ふとう} (unfair/unjust), {不良|ふりょう} (bad/delinquent), (see above for {不穏|ふおん} etc.)
+- **中- compounds (8)**: {中途半端|ちゅうとはんぱ} (half-hearted), {中継|ちゅうけい} (live broadcast), {中年|ちゅうねん} (middle-aged), {中庭|なかにわ} (courtyard), {中旬|ちゅうじゅん} (mid-month), {中傷|ちゅうしょう} (slander), {中盤|ちゅうばん} (middle stage), {中立|ちゅうりつ} (neutrality)
+- **Other (5)**: {両立|りょうりつ} (balancing two things), {並行|へいこう} (parallel/concurrent), {世界観|せかいかん} (worldview/world-setting), {丸|まる}める (to roll up/smooth-talk), {中二病|ちゅうにびょう} (adolescent delusions)
+
+Notable features:
+- Systematic kanji compound clusters: 上-, 下-, 不-, 中- prefix families showing how a single kanji generates many useful words
+- Multi-sense entries: {不良|ふりょう} (defective/delinquent), {不毛|ふもう} (barren land/fruitless effort), {世界観|せかいかん} (philosophical worldview/fictional world-setting), {丸|まる}める (physical rolling/figurative smooth-talking), {中華|ちゅうか} (Chinese food/Chinese culture)
+- Cultural context: {上座|かみざ}/{下座|げざ} (seating etiquette), {中二病|ちゅうにびょう} (anime/internet culture), {不登校|ふとうこう} (Japanese social issue), {不良|ふりょう} (delinquent manga culture)
+- Cross-references: {上限|じょうげん} ↔ {下限|かげん}, {上座|かみざ} ↔ {下座|げざ}, {並行|へいこう} ↔ {平行|へいこう}
+- Level/stage hierarchies documented: {初級|しょきゅう}/{中級|ちゅうきゅう}/{上級|じょうきゅう}, {序盤|じょばん}/{中盤|ちゅうばん}/{終盤|しゅうばん}, {上旬|じょうじゅん}/{中旬|ちゅうじゅん}/{下旬|げじゅん}
+
+Total entries: 11,350 → 11,380
+Remaining candidates: 228 → 282 (30 removed, new candidates added by update_indexes)
+
 ### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 252)
 Added 30 new dictionary entries (IDs 11265-11294) from candidate_words.json:
 
