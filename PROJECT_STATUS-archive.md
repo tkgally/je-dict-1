@@ -3,6 +3,19 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 260)
+Added 30 new dictionary entries (IDs 11545-11574) from candidate_words.json:
+
+- **Nouns - abstract/formal (12)**: {主題|しゅだい} (theme/subject), {付着|ふちゃく} (adhesion), {代替|だいたい} (substitution), {件名|けんめい} (subject line), {任期|にんき} (term of office), {併用|へいよう} (combined use), {伝達|でんたつ} (transmission), {侵害|しんがい} (infringement), {保全|ほぜん} (conservation), {体罰|たいばつ} (corporal punishment), {保養|ほよう} (recuperation), {不詳|ふしょう} (unknown)
+- **Nouns - concrete/people (5)**: {位置|いち} (position/location), {住|す}まい (residence), {体内|たいない} (inside the body), {保護者|ほごしゃ} (guardian/parent), {信者|しんじゃ} (believer/devotee)
+- **Nouns - general (5)**: {作|つく}り{話|ばなし} (fabricated story), {使|つか}い{分|わ}け (proper use), {個別|こべつ} (individual/case-by-case), {便箋|びんせん} (letter paper), {人工|じんこう} (artificial)
+- **Verbs (3)**: {仕|つか}える (to serve), {供|そな}える (to offer), {作|つく}り{上|あ}げる (to build up/fabricate)
+- **Adjective (1)**: {健在|けんざい} (alive and well)
+- **Adverb/other (4)**: {今|いま}まで (until now), {他方|たほう} (on the other hand), {仮|かり} (temporary/hypothetical), {例年|れいねん} (normal year)
+
+Total entries: 11,600 → 11,630
+Remaining candidates: 570 → 540 (30 removed)
+
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 259)
 Added 30 new dictionary entries (IDs 11515-11544) from candidate_words.json:
 
