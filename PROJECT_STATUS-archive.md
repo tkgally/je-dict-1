@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-17 (Vocabulary Expansion - 30 Loanword Entries, Session 261)
+Added 30 new katakana loanword entries (IDs 11575-11604) from candidate_words.json:
+
+- **Communication/tech (6)**: スルー (ignore/let pass), スペック (specs/personal attributes), スタンプ (stamp/LINE sticker), ステータス (status/prestige), リアルタイム (real-time), プラットフォーム (platform)
+- **Places/structures (4)**: スポット (spot/location), スタジオ (studio), ハブ (hub), フレーム (frame)
+- **Process/method (3)**: ステップ (step/phase), スライド (slide/presentation), モード (mode/fashion)
+- **Sports/leisure (4)**: バット (bat), リーグ (league), リード (lead/leash), トレード (trade/exchange)
+- **Business/work (4)**: スポンサー (sponsor), ポジション (position/role), ライセンス (license), ロジック (logic)
+- **Objects/tools (3)**: ストック (stock/reserve), スプレー (spray), チューブ (tube), ポンプ (pump)
+- **Media/appearance (3)**: ビジュアル (visual/appearance), メジャー (major/tape measure), ユニット (unit/group)
+- **Other (3)**: テクノロジー (technology)
+
+Notable features:
+- All katakana loanwords, filling gaps in the dictionary's loanword coverage
+- Multi-sense entries: スペック (tech specs/personal attributes), スタンプ (rubber stamp/LINE sticker), スポット (location/spotlight), ステータス (prestige/process status), スライド (presentation/sliding), メジャー (mainstream/tape measure), モード (English mode/French fashion), リード (lead advantage/leash), ユニット (module/performer group), プラットフォーム (station platform/digital platform), チューブ (squeeze tube/inner tube), ビジュアル (visual element/appearance)
+- Wasei-eigo notes: スルー (through ≠ ignore in English), マナーモード (manner mode), {既読|きどく}スルー
+- Cultural context: LINEスタンプ (mobile culture), スタンプラリー (stamp rallies), ユニットバス (Japanese housing), ビジュアル{系|けい} (visual kei music)
+- Etymology notes: ポンプ (Dutch/Portuguese origin), モード (dual English/French etymology)
+
+Total entries: 11,630 → 11,660
+Remaining candidates: 540 → 510 (30 removed)
+
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 260)
 Added 30 new dictionary entries (IDs 11545-11574) from candidate_words.json:
 

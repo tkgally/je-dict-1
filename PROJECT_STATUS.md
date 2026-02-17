@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,780 |
+| Total entries | ~11,810 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,981 (open) |
-| Candidate words | ~390 |
+| General tier | ~9,011 (open) |
+| Candidate words | ~360 |
 | Cross-references | ~3,350 |
 | Example sentences | ~43,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 266)
+Added 30 new dictionary entries (IDs 11725-11754) from candidate_words.json:
+
+- **Nouns - cold/food (2)**: {冷凍|れいとう} (freezing), {冷蔵|れいぞう} (refrigeration)
+- **Nouns - entertainment (2)**: {出演|しゅつえん} (appearing on stage/TV), {出番|でばん} (one's turn)
+- **Nouns - life events/health (2)**: {出産|しゅっさん} (childbirth), {出血|しゅっけつ} (bleeding)
+- **Nouns - time/seasons (3)**: {初夏|しょか} (early summer), {初日|しょにち} (first day), {初期|しょき} (early period)
+- **Nouns - formal/political (4)**: {冒頭|ぼうとう} (beginning/opening), {共同体|きょうどうたい} (community), {内乱|ないらん} (civil war), {列島|れっとう} (archipelago)
+- **Nouns/suru verbs (6)**: {出品|しゅっぴん} (exhibiting/listing), {再建|さいけん} (reconstruction), {再考|さいこう} (reconsideration), {分割|ぶんかつ} (division), {分配|ぶんぱい} (distribution), {分裂|ぶんれつ} (split/fission)
+- **Nouns - general (3)**: {刃物|はもの} (blade/cutlery), {分|わ}かれ{道|みち} (fork in the road), {凪|なぎ} (calm/lull)
+- **Verbs (4)**: {冷|ひ}え{込|こ}む (to get very cold), {冷|ひ}やかす (to tease/window-shop), {出回|でまわ}る (to circulate), {兼|か}ね{備|そな}える (to possess both)
+- **Adjectives (2)**: {冷|ひ}ややか (chilly/cold in attitude), {切実|せつじつ} (earnest/pressing)
+- **Adverbs (2)**: {切|せつ}に (earnestly), {凛|りん}と (with dignity)
+
+Notable features:
+- Diverse POS mix: 22 nouns (incl. suru verbs), 4 verbs, 2 adjectives, 2 adverbs
+- Multi-sense entries: {冷|ひ}え{込|こ}む (cold weather/economy), {冷|ひ}やかす (tease/window-shop), {出品|しゅっぴん} (exhibit/list for sale), {再建|さいけん} (rebuild/restructure), {分裂|ぶんれつ} (political split/cell division), {冷|ひ}ややか (physical chill/cold attitude)
+- Distinction sets: {冷凍|れいとう} vs {冷蔵|れいぞう}, {分割|ぶんかつ} vs {分配|ぶんぱい} vs {分裂|ぶんれつ}
+- Homophone cross-references: {冒頭|ぼうとう} ↔ {暴騰|ぼうとう}, {再建|さいけん} ↔ {債権|さいけん}, {再考|さいこう} ↔ {最高|さいこう}, {出血|しゅっけつ} ↔ {出欠|しゅっけつ}, {内乱|ないらん} ↔ {内覧|ないらん}
+- Cultural context: {凪|なぎ} (kokuji, weather phenomenon), {堺|さかい} cutlery ({刃物|はもの}), {日本|にほん}{列島|れっとう}
+- New kanji: 2,318 → 2,319 ({凪|なぎ} — kokuji)
+
+Total entries: 11,780 → 11,810
+Remaining candidates: 390 → 360 (30 removed)
 
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 265)
 Added 30 new dictionary entries (IDs 11695-11724) from candidate_words.json:
@@ -138,28 +163,6 @@ Notable features:
 
 Total entries: 11,660 → 11,690
 Remaining candidates: 510 → 480 (30 removed)
-
-### 2026-02-17 (Vocabulary Expansion - 30 Loanword Entries, Session 261)
-Added 30 new katakana loanword entries (IDs 11575-11604) from candidate_words.json:
-
-- **Communication/tech (6)**: スルー (ignore/let pass), スペック (specs/personal attributes), スタンプ (stamp/LINE sticker), ステータス (status/prestige), リアルタイム (real-time), プラットフォーム (platform)
-- **Places/structures (4)**: スポット (spot/location), スタジオ (studio), ハブ (hub), フレーム (frame)
-- **Process/method (3)**: ステップ (step/phase), スライド (slide/presentation), モード (mode/fashion)
-- **Sports/leisure (4)**: バット (bat), リーグ (league), リード (lead/leash), トレード (trade/exchange)
-- **Business/work (4)**: スポンサー (sponsor), ポジション (position/role), ライセンス (license), ロジック (logic)
-- **Objects/tools (3)**: ストック (stock/reserve), スプレー (spray), チューブ (tube), ポンプ (pump)
-- **Media/appearance (3)**: ビジュアル (visual/appearance), メジャー (major/tape measure), ユニット (unit/group)
-- **Other (3)**: テクノロジー (technology)
-
-Notable features:
-- All katakana loanwords, filling gaps in the dictionary's loanword coverage
-- Multi-sense entries: スペック (tech specs/personal attributes), スタンプ (rubber stamp/LINE sticker), スポット (location/spotlight), ステータス (prestige/process status), スライド (presentation/sliding), メジャー (mainstream/tape measure), モード (English mode/French fashion), リード (lead advantage/leash), ユニット (module/performer group), プラットフォーム (station platform/digital platform), チューブ (squeeze tube/inner tube), ビジュアル (visual element/appearance)
-- Wasei-eigo notes: スルー (through ≠ ignore in English), マナーモード (manner mode), {既読|きどく}スルー
-- Cultural context: LINEスタンプ (mobile culture), スタンプラリー (stamp rallies), ユニットバス (Japanese housing), ビジュアル{系|けい} (visual kei music)
-- Etymology notes: ポンプ (Dutch/Portuguese origin), モード (dual English/French etymology)
-
-Total entries: 11,630 → 11,660
-Remaining candidates: 540 → 510 (30 removed)
 
 ---
 
