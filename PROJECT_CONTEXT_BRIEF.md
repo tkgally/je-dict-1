@@ -10,7 +10,7 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
 | General tier | 8,750 (open — all new entries here) |
-| Next entry ID | 11494 |
+| Next entry ID | Run `python3 build/get_next_id.py` before each entry |
 | Candidate words | 341 |
 | Cross-references | ~3,340 |
 | Example sentences | ~42,900 |

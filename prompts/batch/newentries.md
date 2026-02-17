@@ -20,6 +20,10 @@ Add new entries to the Japanese-English learner's dictionary from candidate_word
      ```
      - Use `--skip-candidates` since you're picking FROM candidates
      - If it says "DUPLICATE", SKIP this word
+   - **Get the next available ID** (run this before EACH entry — do not reuse a previous result):
+     ```bash
+     python3 build/get_next_id.py
+     ```
    - Get timestamp: `python3 build/get_timestamp.py` (CRITICAL — always run this, never guess)
    - Write entry using the appropriate skill (auto-loaded based on part of speech)
    - **Include sense_numbers on all examples**: Every example must have a `sense_numbers` field
