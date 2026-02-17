@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,600 |
+| Total entries | ~11,630 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,801 (open) |
-| Candidate words | ~311 |
+| General tier | ~8,831 (open) |
+| Candidate words | ~540 |
 | Cross-references | ~3,340 |
-| Example sentences | ~42,900 |
+| Example sentences | ~43,100 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 260)
+Added 30 new dictionary entries (IDs 11545-11574) from candidate_words.json:
+
+- **Nouns - abstract/formal (12)**: {主題|しゅだい} (theme/subject), {付着|ふちゃく} (adhesion), {代替|だいたい} (substitution), {件名|けんめい} (subject line), {任期|にんき} (term of office), {併用|へいよう} (combined use), {伝達|でんたつ} (transmission), {侵害|しんがい} (infringement), {保全|ほぜん} (conservation), {体罰|たいばつ} (corporal punishment), {保養|ほよう} (recuperation), {不詳|ふしょう} (unknown)
+- **Nouns - concrete/people (5)**: {位置|いち} (position/location), {住|す}まい (residence), {体内|たいない} (inside the body), {保護者|ほごしゃ} (guardian/parent), {信者|しんじゃ} (believer/devotee)
+- **Nouns - general (5)**: {作|つく}り{話|ばなし} (fabricated story), {使|つか}い{分|わ}け (proper use), {個別|こべつ} (individual/case-by-case), {便箋|びんせん} (letter paper), {人工|じんこう} (artificial)
+- **Verbs (3)**: {仕|つか}える (to serve), {供|そな}える (to offer), {作|つく}り{上|あ}げる (to build up/fabricate)
+- **Adjective (1)**: {健在|けんざい} (alive and well)
+- **Adverb/other (4)**: {今|いま}まで (until now), {他方|たほう} (on the other hand), {仮|かり} (temporary/hypothetical), {例年|れいねん} (normal year)
+
+Notable features:
+- Multi-sense entries: {仮|かり} (temporary/hypothetical), {信者|しんじゃ} (religious believer/fan devotee), {作|つく}り{上|あ}げる (build up/fabricate), {健在|けんざい} (alive and well/still going strong)
+- Diverse POS: nouns, verbs (ichidan), na-adjective, adverbs, conjunctions, pre-noun adjectivals
+- Register variety: formal ({侵害|しんがい}, {伝達|でんたつ}, {不詳|ふしょう}), neutral ({位置|いち}, {個別|こべつ}), informal ({信者|しんじゃ} sense 2)
+- Homophone notes: {代替|だいたい} vs {大体|だいたい}, {人工|じんこう} vs {人口|じんこう}, {任期|にんき} vs {人気|にんき}
+
+Total entries: 11,600 → 11,630
+Remaining candidates: 570 → 540 (30 removed)
 
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 259)
 Added 30 new dictionary entries (IDs 11515-11544) from candidate_words.json:
@@ -129,26 +148,6 @@ Notable features:
 
 Total entries: 11,459 → 11,489
 Remaining candidates: 222 → 290 (30 removed, new candidates may have been added)
-
-### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 255)
-Added 30 new dictionary entries (IDs 11374-11403) from candidate_words.json:
-
-- **Japanese compounds - positional (5)**: {上記|じょうき} (above-mentioned), {下記|かき} (below-mentioned), {上部|じょうぶ} (upper part), {下部|かぶ} (lower part), {下限|かげん} (lower limit)
-- **Japanese compounds - 不- prefix (5)**: {不快|ふかい} (unpleasant), {不揃|ふぞろ}い (uneven/mismatched), {不向|ふむ}き (unsuited), {不人気|ふにんき} (unpopular), {不定期|ふていき} (irregular)
-- **Japanese compounds - other (5)**: {並|なみ} (ordinary/medium), {中頃|なかごろ} (around the middle), {中卒|ちゅうそつ} (middle school graduate), {一揆|いっき} (uprising), {一堂|いちどう} (in one place)
-- **Japanese compounds - time/quantity (2)**: {丸々|まるまる} (completely/plump), {一端|いったん} (one end/a part)
-- **Loanwords (13)**: ハイブリッド (hybrid), マジック (magic/marker), ユニーク (unique/quirky), リゾート (resort), リーズナブル (reasonable in price), レギュラー (regular/starter), ローカル (local), バラエティ (variety/variety show), ブレンド (blend), パンデミック (pandemic), プラチナ (platinum), ロマンス (romance), ワイド (wide)
-
-Notable features:
-- Antonym pairs: {上記|じょうき} ↔ {下記|かき}, {上部|じょうぶ} ↔ {下部|かぶ}
-- Homophone warnings: {上部|じょうぶ} vs {丈夫|じょうぶ}, {下限|かげん} vs {加減|かげん}, {不快|ふかい} vs {深|ふか}い, {一端|いったん} vs {一旦|いったん}
-- False friend notes: ユニーク (quirky, not just "unique"), リーズナブル (price only, not general "reasonable")
-- Multi-sense entries: {丸々|まるまる} (completely/plump), マジック (magic/marker), レギュラー (starter/standard), バラエティ (variety/TV show), {一端|いったん} (physical end/glimpse)
-- Cultural context: {並|なみ} (restaurant sizing), ブレンド (coffee shop culture), ワイドショー (Japanese TV genre), プラチナチケット (hard-to-get tickets)
-- New kanji: 2,302 → 2,303 ({揆|き})
-
-Total entries: 11,429 → 11,459
-Remaining candidates: 252 → 222
 
 ---
 
