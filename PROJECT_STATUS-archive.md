@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 255)
+Added 30 new dictionary entries (IDs 11374-11403) from candidate_words.json:
+
+- **Japanese compounds - positional (5)**: {上記|じょうき} (above-mentioned), {下記|かき} (below-mentioned), {上部|じょうぶ} (upper part), {下部|かぶ} (lower part), {下限|かげん} (lower limit)
+- **Japanese compounds - 不- prefix (5)**: {不快|ふかい} (unpleasant), {不揃|ふぞろ}い (uneven/mismatched), {不向|ふむ}き (unsuited), {不人気|ふにんき} (unpopular), {不定期|ふていき} (irregular)
+- **Japanese compounds - other (5)**: {並|なみ} (ordinary/medium), {中頃|なかごろ} (around the middle), {中卒|ちゅうそつ} (middle school graduate), {一揆|いっき} (uprising), {一堂|いちどう} (in one place)
+- **Japanese compounds - time/quantity (2)**: {丸々|まるまる} (completely/plump), {一端|いったん} (one end/a part)
+- **Loanwords (13)**: ハイブリッド (hybrid), マジック (magic/marker), ユニーク (unique/quirky), リゾート (resort), リーズナブル (reasonable in price), レギュラー (regular/starter), ローカル (local), バラエティ (variety/variety show), ブレンド (blend), パンデミック (pandemic), プラチナ (platinum), ロマンス (romance), ワイド (wide)
+
+Total entries: 11,429 → 11,459
+Remaining candidates: 252 → 222
+
 ### 2026-02-15 (Vocabulary Expansion - 30 New Entries, Session 253)
 Added 30 new dictionary entries (IDs 11295-11324) from candidate_words.json:
 
