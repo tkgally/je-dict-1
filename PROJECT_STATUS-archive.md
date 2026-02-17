@@ -3,6 +3,19 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 257)
+Added 30 new dictionary entries (IDs 11434-11463) from candidate_words.json:
+
+- **Expressions/adjectives (2)**: {仕方|しかた}ない (it can't be helped), {仲良|なかよ}し (close friend)
+- **Verbs (6)**: {仕組|しく}む (to devise/plot), {仰|あお}ぐ (to look up at/revere), {佇|たたず}む (to stand still), {伸|の}び{悩|なや}む (to plateau), {乗|の}っかる (to get on/jump on board)
+- **Nouns - society/people (5)**: {人手不足|ひとでぶそく} (labor shortage), {人情|にんじょう} (human feelings), {人間関係|にんげんかんけい} (interpersonal relations), {仲良|なかよ}し, {何事|なにごと} (what/everything)
+- **Nouns - abstract/general (8)**: {使命|しめい} (mission), {伝説|でんせつ} (legend), {伝承|でんしょう} (tradition/folklore), {侮辱|ぶじょく} (insult), {主導権|しゅどうけん} (initiative), {争奪戦|そうだつせん} (contest/scramble), {乱入|らんにゅう} (barging in), {作風|さくふう} (artistic style)
+- **Nouns - practical (7)**: {代謝|たいしゃ} (metabolism), {仮面|かめん} (mask), {侵入|しんにゅう} (intrusion), {依存|いぞん} (dependence/addiction), {保管|ほかん} (storage), {体験|たいけん} (firsthand experience), {休養|きゅうよう} (rest/recuperation)
+- **Nouns - specialized (2)**: {保育|ほいく} (childcare), {供養|くよう} (memorial service), {似顔絵|にがおえ} (portrait/caricature)
+
+Total entries: 11,489 → 11,519
+Remaining candidates: 353 → 323 (30 removed)
+
 ### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 256)
 Added 30 new dictionary entries (IDs 11404-11433) from candidate_words.json:
 
