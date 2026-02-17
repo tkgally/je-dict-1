@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-16
+**Last updated**: 2026-02-17
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,549 |
+| Total entries | ~11,600 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,750 (open) |
-| Candidate words | ~341 |
+| General tier | ~8,801 (open) |
+| Candidate words | ~311 |
 | Cross-references | ~3,340 |
 | Example sentences | ~42,900 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 259)
+Added 30 new dictionary entries (IDs 11515-11544) from candidate_words.json:
+
+- **Verbs (6)**: {伏|ふ}せる (to turn face down/conceal), {傾|かたむ}ける (to tilt/devote), {催|もよお}す (to hold event/feel urge), {使|つか}い{切|き}る (to use up), {付|つ}け{加|くわ}える (to add/append), {使|つか}い{切|き}る (to use up completely)
+- **Na-adjectives (4)**: {優雅|ゆうが} (elegant), {健全|けんぜん} (healthy/sound), {偏屈|へんくつ} (eccentric/cranky), {優位|ゆうい} (superior/advantageous)
+- **Nouns - abstract/formal (10)**: {兆候|ちょうこう} (sign/symptom), {偽造|ぎぞう} (forgery), {僅差|きんさ} (narrow margin), {働|はたら}きかけ (effort/appeal), {倍増|ばいぞう} (doubling), {値上|ねあ}がり (price increase), {休業|きゅうぎょう} (business closure), {会談|かいだん} (conference/talks), {侵略|しんりゃく} (invasion), {修復|しゅうふく} (restoration)
+- **Nouns - concrete/cultural (6)**: {偽物|にせもの} (fake/counterfeit), {仕上|しあ}げ (finishing touches), {先延|さきの}ばし (procrastination), {僧侶|そうりょ} (Buddhist monk), {個室|こしつ} (private room), {個性|こせい} (personality/individuality)
+- **Nouns - people/origin (4)**: {働|はたら}き{者|もの} (hard worker), {元凶|げんきょう} (root cause/culprit), {元祖|がんそ} (originator/founder), {儒教|じゅきょう} (Confucianism)
+
+Notable features:
+- Multi-sense entries: {伏|ふ}せる (face down/conceal), {傾|かたむ}ける (tilt/devote), {催|もよお}す (hold event/feel urge), {傍|かたわ}ら (beside/while doing)
+- Cross-references: {偽物|にせもの} ↔ {本物|ほんもの}, {先延|さきの}ばし ↔ {延期|えんき}, {僧侶|そうりょ} ↔ お{坊|ぼう}さん, {僅差|きんさ} ↔ {大差|たいさ}, {侵略|しんりゃく} ↔ {侵攻|しんこう}, {修復|しゅうふく} ↔ {修理|しゅうり}
+- Set expressions: {耳|みみ}を{傾|かたむ}ける (listen attentively), {先延|さきの}ばしにする (to procrastinate)
+- Cultural context: {僧侶|そうりょ} (Japanese monks and marriage), {元祖|がんそ} (shop rivalry), {儒教|じゅきょう} (Edo period influence)
+- New kanji: 2,306 → 2,310 ({侶|りょ}, {僧|そう}, {儒|じゅ}, {凶|きょう})
+
+Total entries: 11,549 → 11,600 (includes entries from other sessions)
+Remaining candidates: 341 → 311 (30 removed)
 
 ### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 258)
 Added 30 new dictionary entries (IDs 11464-11493) from candidate_words.json:
@@ -130,25 +149,6 @@ Notable features:
 
 Total entries: 11,429 → 11,459
 Remaining candidates: 252 → 222
-
-### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 254)
-Added 30 new dictionary entries (IDs 11344-11373) from candidate_words.json:
-
-- **下- compounds (4)**: {下剋上|げこくじょう} (overthrowing superiors), {下手|へた}くそ (terrible at), {下敷|したじ}き (desk pad/pinned underneath), {下級|かきゅう} (lower grade), {下座|げざ} (lower seat), {下層|かそう} (lower stratum)
-- **不- compounds (13)**: {不倫|ふりん} (adultery), {不審者|ふしんしゃ} (suspicious person), {不死身|ふじみ} (invulnerable), {不自然|ふしぜん} (unnatural), {不意|ふい} (unexpected), {不明|ふめい} (unknown), {不適切|ふてきせつ} (inappropriate), {不平等|ふびょうどう} (inequality), {不法|ふほう} (illegal), {不確|ふたし}か (uncertain), {不本意|ふほんい} (reluctant), {不完全|ふかんぜん} (incomplete), {不透明|ふとうめい} (opaque/unclear)
-- **中- compounds (5)**: {中華街|ちゅうかがい} (Chinatown), {中退|ちゅうたい} (dropping out), {中部|ちゅうぶ} (central region), {中流|ちゅうりゅう} (middle class/midstream), {中核|ちゅうかく} (nucleus/core), {中枢|ちゅうすう} (nerve center)
-- **両- compounds (3)**: {両端|りょうたん} (both ends), {両者|りょうしゃ} (both parties), {両面|りょうめん} (both sides)
-- **Other (2)**: {串|くし}カツ (deep-fried skewers), {世紀末|せいきまつ} (end of century)
-
-Notable features:
-- Systematic 不- prefix cluster covering negation patterns: from everyday ({不自然|ふしぜん}, {不明|ふめい}) to formal/legal ({不法|ふほう}, {不適切|ふてきせつ})
-- Multi-sense entries: {下敷|したじ}き (stationery/disaster), {不透明|ふとうめい} (physical/figurative), {中流|ちゅうりゅう} (social class/river)
-- Cultural context: {下剋上|げこくじょう} (Sengoku history/sports upsets), {下座|げざ} (seating etiquette), {中華街|ちゅうかがい} (Yokohama/Kobe/Nagasaki), {串|くし}カツ (Osaka food culture), {世紀末|せいきまつ} (North Star/fin de siecle)
-- Antonym cross-references: {不自然|ふしぜん} ↔ {自然|しぜん}, {不平等|ふびょうどう} ↔ {平等|びょうどう}, {不完全|ふかんぜん} ↔ {完全|かんぜん}, {下級|かきゅう} ↔ {上級|じょうきゅう}, {下座|げざ} ↔ {上座|かみざ}
-- New kanji: 2,299 → 2,302 ({剋|こく}, {枢|すう}, {核|かく})
-
-Total entries: 11,399 → 11,429
-Remaining candidates: 282 → 252
 
 ---
 
