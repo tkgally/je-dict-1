@@ -20,6 +20,7 @@ build/            # Python build, validation, and utility scripts
   build/find_missing_furigana.py # Scan entries for kanji missing furigana
   build/update_kanji_index.py   # Rebuild kanji JSON files; --check-new finds new kanji
   build/validate_tags.py        # Validate semantic/POS tag consistency
+  build/get_next_id.py          # Get next available entry ID (scans filesystem)
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 polishing/        # Progress tracking for entry polishing tasks
@@ -52,6 +53,8 @@ Makefile               # Build runner (make validate, make build, make quick, et
 - New entries should include `"schema_version": "2.0"` in their metadata
 - All explanations must be in English — Japanese text appears only in example phrases, collocations, and patterns
 - Never add inline word links (⟦...⟧) during entry creation — those are added in a separate polishing step
+- **Entry IDs must be unique.** Always run `python3 build/get_next_id.py` before creating each new entry to get the next available ID. This script scans the filesystem, so it is accurate even mid-session. Do not read `entries_index.json` or `PROJECT_CONTEXT_BRIEF.md` for the next ID — those may be stale. Do not reuse a previous result of `get_next_id.py` — run it fresh each time.
+- **Never renumber existing entries.** The five-digit IDs form part of the entry's URL on the live site. Changing an ID would break external links and search-engine indexes.
 
 ## Essential commands
 
@@ -64,6 +67,7 @@ python3 build/build_flat.py               # Full rebuild of the static site
 python3 build/build_flat.py --quick       # Incremental build — only changed entries
 
 # Entry creation helpers
+python3 build/get_next_id.py                                     # Get next available entry ID (ALWAYS run before each new entry)
 python3 build/check_duplicate.py "word" "reading"                # Check before creating an entry
 python3 build/check_duplicate.py --skip-candidates "word" "reading"  # When creating FROM candidates
 python3 build/get_entry_path.py <reading> <id>     # Get correct file path for an entry

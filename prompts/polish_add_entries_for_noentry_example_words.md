@@ -61,15 +61,13 @@ For each word in your list:
    - Include all required tags (pos, formality, politeness, semantic)
 
 5. **Determine the entry ID**:
-   - Find the next available ID:
+   - Find the next available ID by scanning the filesystem:
      ```bash
-     python3 -c "
-     import json
-     data = json.load(open('entries_index.json'))
-     ids = [int(e['id'].split('_')[0]) for e in data['entries']]
-     print(f'Next ID: {max(ids) + 1:05d}')
-     "
+     python3 build/get_next_id.py
      ```
+     This scans actual entry files on disk, so it is always accurate even when
+     creating multiple entries in a session without running `update_indexes.py`.
+     **Run this script before EACH new entry** — do not reuse a previous result.
    - Format: `{5-digit-number}_{romaji}` (e.g., `09478_bousou`)
 
 6. **Write the entry file**:

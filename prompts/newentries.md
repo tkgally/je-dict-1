@@ -15,6 +15,10 @@ Add 30 new entries to the Japanese-English learner's dictionary from candidate_w
      - This checks only against existing entries, not candidates
      - If it says "OK", proceed with creating the entry
      - If it says "DUPLICATE", SKIP this word - it's already an entry
+   - **Get the next available ID** (run this before EACH entry — do not reuse a previous result):
+     ```bash
+     python3 build/get_next_id.py
+     ```
    - Get timestamp: `python3 build/get_timestamp.py` (CRITICAL - always run this, never guess)
    - Write entry using the appropriate skill (auto-loaded based on part of speech)
    - **Include sense_numbers on all examples**: Every example must have a `sense_numbers` field
