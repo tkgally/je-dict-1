@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,750 |
+| Total entries | ~11,780 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,951 (open) |
-| Candidate words | ~420 |
+| General tier | ~8,981 (open) |
+| Candidate words | ~390 |
 | Cross-references | ~3,350 |
 | Example sentences | ~43,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 265)
+Added 30 new dictionary entries (IDs 11695-11724) from candidate_words.json:
+
+- **Loanwords - nouns (10)**: チュートリアル (tutorial), ファンタジー (fantasy), フィットネス (fitness), フェスティバル (festival), プレート (plate), レーダー (radar), ロール (roll/role), パッケージ (package), リアリティ (reality), ピックアップ (pickup/selection)
+- **Loanwords - na-adjective (1)**: ポピュラー (popular)
+- **Loanwords - noun/suru verb (3)**: スカウト (scouting/recruiting), トライ (try/attempt), リベラル (liberal)
+- **Japanese nouns - formal/historical (6)**: {主君|しゅくん} (feudal lord), {伯爵|はくしゃく} (count/earl), {俗称|ぞくしょう} (colloquial name), {亡骸|なきがら} (remains/corpse), {不死|ふし} (immortality), {下位|かい} (lower rank)
+- **Japanese nouns - general (5)**: {今日|こんにち} (today/nowadays), {交友|こうゆう} (friendship), {人力|じんりき} (manpower), {人工衛星|じんこうえいせい} (artificial satellite), {付加価値|ふかかち} (added value)
+- **Japanese nouns - counter (1)**: {件|けん} (matter/case; counter for cases)
+- **Japanese nouns - cultural (1)**: {仲居|なかい} (ryokan attendant)
+- **Nouns - warfare (1)**: {交戦|こうせん} (battle/engagement)
+- **Verbs (2)**: {代|か}える (to substitute), {代|か}わる (to take the place of)
+
+Notable features:
+- Good mix of katakana loanwords (14) and native Japanese words (16)
+- Multi-sense entries: トライ (attempt/rugby try), パッケージ (packaging/package deal), プレート (dish/metal plate), ファンタジー (genre/daydream), ロール (roll/role), リアリティ (realism/reality TV), ピックアップ (selection/pickup), {件|けん} (matter/counter), {今日|こんにち} (today/nowadays)
+- Transitive/intransitive pair: {代|か}える ↔ {代|か}わる
+- Homophone cross-references: {今日|こんにち} ↔ {今日|きょう}, {不死|ふし} ↔ {節|ふし}, {交戦|こうせん} ↔ {光線|こうせん}
+- Cultural context: {仲居|なかい} (ryokan hospitality), {伯爵|はくしゃく} (Meiji peerage system)
+- New kanji: 2,314 → 2,318 ({伯|はく}, {俗|ぞく}, {爵|しゃく}, {称|しょう})
+
+Total entries: 11,750 → 11,780
+Remaining candidates: 420 → 390 (30 removed)
 
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 264)
 Added 30 new dictionary entries (IDs 11665-11694) from candidate_words.json:
@@ -136,25 +160,6 @@ Notable features:
 
 Total entries: 11,630 → 11,660
 Remaining candidates: 540 → 510 (30 removed)
-
-### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 260)
-Added 30 new dictionary entries (IDs 11545-11574) from candidate_words.json:
-
-- **Nouns - abstract/formal (12)**: {主題|しゅだい} (theme/subject), {付着|ふちゃく} (adhesion), {代替|だいたい} (substitution), {件名|けんめい} (subject line), {任期|にんき} (term of office), {併用|へいよう} (combined use), {伝達|でんたつ} (transmission), {侵害|しんがい} (infringement), {保全|ほぜん} (conservation), {体罰|たいばつ} (corporal punishment), {保養|ほよう} (recuperation), {不詳|ふしょう} (unknown)
-- **Nouns - concrete/people (5)**: {位置|いち} (position/location), {住|す}まい (residence), {体内|たいない} (inside the body), {保護者|ほごしゃ} (guardian/parent), {信者|しんじゃ} (believer/devotee)
-- **Nouns - general (5)**: {作|つく}り{話|ばなし} (fabricated story), {使|つか}い{分|わ}け (proper use), {個別|こべつ} (individual/case-by-case), {便箋|びんせん} (letter paper), {人工|じんこう} (artificial)
-- **Verbs (3)**: {仕|つか}える (to serve), {供|そな}える (to offer), {作|つく}り{上|あ}げる (to build up/fabricate)
-- **Adjective (1)**: {健在|けんざい} (alive and well)
-- **Adverb/other (4)**: {今|いま}まで (until now), {他方|たほう} (on the other hand), {仮|かり} (temporary/hypothetical), {例年|れいねん} (normal year)
-
-Notable features:
-- Multi-sense entries: {仮|かり} (temporary/hypothetical), {信者|しんじゃ} (religious believer/fan devotee), {作|つく}り{上|あ}げる (build up/fabricate), {健在|けんざい} (alive and well/still going strong)
-- Diverse POS: nouns, verbs (ichidan), na-adjective, adverbs, conjunctions, pre-noun adjectivals
-- Register variety: formal ({侵害|しんがい}, {伝達|でんたつ}, {不詳|ふしょう}), neutral ({位置|いち}, {個別|こべつ}), informal ({信者|しんじゃ} sense 2)
-- Homophone notes: {代替|だいたい} vs {大体|だいたい}, {人工|じんこう} vs {人口|じんこう}, {任期|にんき} vs {人気|にんき}
-
-Total entries: 11,600 → 11,630
-Remaining candidates: 570 → 540 (30 removed)
 
 ---
 
