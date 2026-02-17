@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,720 |
+| Total entries | ~11,750 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,921 (open) |
-| Candidate words | ~450 |
-| Cross-references | ~3,340 |
-| Example sentences | ~43,300 |
+| General tier | ~8,951 (open) |
+| Candidate words | ~420 |
+| Cross-references | ~3,350 |
+| Example sentences | ~43,400 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 264)
+Added 30 new dictionary entries (IDs 11665-11694) from candidate_words.json:
+
+- **Nouns/suru verbs - joining/membership (4)**: {入会|にゅうかい} (enrollment), {入部|にゅうぶ} (joining school club), {入賞|にゅうしょう} (winning a prize), {入選|にゅうせん} (being selected for exhibition)
+- **Nouns/suru verbs - society/diplomacy (5)**: {公開|こうかい} (release to public), {共有|きょうゆう} (sharing), {共存|きょうぞん} (coexistence), {共生|きょうせい} (symbiosis), {共演|きょうえん} (co-starring)
+- **Nouns/suru verbs - technical/formal (3)**: {作動|さどう} (operation of machinery), {併設|へいせつ} (attached facility), {伝来|でんらい} (introduction from abroad)
+- **Nouns - formal (6)**: {公文書|こうぶんしょ} (official document), {公用語|こうようご} (official language), {兵器|へいき} (weapon), {兵士|へいし} (soldier), {使節|しせつ} (envoy), {共犯|きょうはん} (accomplice)
+- **Nouns - general (5)**: {全文|ぜんぶん} (full text), {全米|ぜんべい} (all of America), {円形|えんけい} (circular shape), {付|つ}け{根|ね} (base/root), {先住民|せんじゅうみん} (indigenous people)
+- **Nouns - abstract (3)**: {内心|ないしん} (inwardly), {内面|ないめん} (inner feelings), {何者|なにもの} (who/what kind of person)
+- **Verb (1)**: {兼|か}ねる (to serve as both / unable to)
+- **Adverb (1)**: {再度|さいど} (once more, again)
+- **Cultural (1)**: {侘|わ}び{寂|さ}び (wabi-sabi aesthetic)
+- **Noun/suru verb (1)**: {再会|さいかい} (reunion)
+
+Notable features:
+- Multi-sense entries: {兼|か}ねる (serve as both / Vますかねる unable to), {内面|ないめん} (inner self / inner surface), {伝来|でんらい} (introduction from abroad / handed down through generations)
+- Homophone notes: {公開|こうかい} vs {後悔|こうかい}/{航海|こうかい}, {再会|さいかい} vs {再開|さいかい}, {兵器|へいき} vs {平気|へいき}, {作動|さどう} vs {茶道|さどう}, {使節|しせつ} vs {施設|しせつ}
+- Distinction pairs: {共存|きょうぞん} vs {共生|きょうせい}, {入賞|にゅうしょう} vs {入選|にゅうせん}, {内心|ないしん} vs {内面|ないめん}
+- Cultural context: {侘|わ}び{寂|さ}び (tea ceremony, haiku, Zen aesthetics), {入部|にゅうぶ} (school club culture), {伝来|でんらい} (historical cultural exchange)
+- New kanji: 2,313 → 2,314 ({兵|へい})
+
+Total entries: 11,720 → 11,750
+Remaining candidates: 450 → 420 (30 removed)
 
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 263)
 Added 30 new dictionary entries (IDs 11635-11664) from candidate_words.json:
@@ -131,25 +155,6 @@ Notable features:
 
 Total entries: 11,600 → 11,630
 Remaining candidates: 570 → 540 (30 removed)
-
-### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 259)
-Added 30 new dictionary entries (IDs 11515-11544) from candidate_words.json:
-
-- **Verbs (6)**: {伏|ふ}せる (to turn face down/conceal), {傾|かたむ}ける (to tilt/devote), {催|もよお}す (to hold event/feel urge), {使|つか}い{切|き}る (to use up), {付|つ}け{加|くわ}える (to add/append), {使|つか}い{切|き}る (to use up completely)
-- **Na-adjectives (4)**: {優雅|ゆうが} (elegant), {健全|けんぜん} (healthy/sound), {偏屈|へんくつ} (eccentric/cranky), {優位|ゆうい} (superior/advantageous)
-- **Nouns - abstract/formal (10)**: {兆候|ちょうこう} (sign/symptom), {偽造|ぎぞう} (forgery), {僅差|きんさ} (narrow margin), {働|はたら}きかけ (effort/appeal), {倍増|ばいぞう} (doubling), {値上|ねあ}がり (price increase), {休業|きゅうぎょう} (business closure), {会談|かいだん} (conference/talks), {侵略|しんりゃく} (invasion), {修復|しゅうふく} (restoration)
-- **Nouns - concrete/cultural (6)**: {偽物|にせもの} (fake/counterfeit), {仕上|しあ}げ (finishing touches), {先延|さきの}ばし (procrastination), {僧侶|そうりょ} (Buddhist monk), {個室|こしつ} (private room), {個性|こせい} (personality/individuality)
-- **Nouns - people/origin (4)**: {働|はたら}き{者|もの} (hard worker), {元凶|げんきょう} (root cause/culprit), {元祖|がんそ} (originator/founder), {儒教|じゅきょう} (Confucianism)
-
-Notable features:
-- Multi-sense entries: {伏|ふ}せる (face down/conceal), {傾|かたむ}ける (tilt/devote), {催|もよお}す (hold event/feel urge), {傍|かたわ}ら (beside/while doing)
-- Cross-references: {偽物|にせもの} ↔ {本物|ほんもの}, {先延|さきの}ばし ↔ {延期|えんき}, {僧侶|そうりょ} ↔ お{坊|ぼう}さん, {僅差|きんさ} ↔ {大差|たいさ}, {侵略|しんりゃく} ↔ {侵攻|しんこう}, {修復|しゅうふく} ↔ {修理|しゅうり}
-- Set expressions: {耳|みみ}を{傾|かたむ}ける (listen attentively), {先延|さきの}ばしにする (to procrastinate)
-- Cultural context: {僧侶|そうりょ} (Japanese monks and marriage), {元祖|がんそ} (shop rivalry), {儒教|じゅきょう} (Edo period influence)
-- New kanji: 2,306 → 2,310 ({侶|りょ}, {僧|そう}, {儒|じゅ}, {凶|きょう})
-
-Total entries: 11,549 → 11,600 (includes entries from other sessions)
-Remaining candidates: 341 → 311 (30 removed)
 
 ---
 

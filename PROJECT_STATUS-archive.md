@@ -3,6 +3,25 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 259)
+Added 30 new dictionary entries (IDs 11515-11544) from candidate_words.json:
+
+- **Verbs (6)**: {伏|ふ}せる (to turn face down/conceal), {傾|かたむ}ける (to tilt/devote), {催|もよお}す (to hold event/feel urge), {使|つか}い{切|き}る (to use up), {付|つ}け{加|くわ}える (to add/append), {使|つか}い{切|き}る (to use up completely)
+- **Na-adjectives (4)**: {優雅|ゆうが} (elegant), {健全|けんぜん} (healthy/sound), {偏屈|へんくつ} (eccentric/cranky), {優位|ゆうい} (superior/advantageous)
+- **Nouns - abstract/formal (10)**: {兆候|ちょうこう} (sign/symptom), {偽造|ぎぞう} (forgery), {僅差|きんさ} (narrow margin), {働|はたら}きかけ (effort/appeal), {倍増|ばいぞう} (doubling), {値上|ねあ}がり (price increase), {休業|きゅうぎょう} (business closure), {会談|かいだん} (conference/talks), {侵略|しんりゃく} (invasion), {修復|しゅうふく} (restoration)
+- **Nouns - concrete/cultural (6)**: {偽物|にせもの} (fake/counterfeit), {仕上|しあ}げ (finishing touches), {先延|さきの}ばし (procrastination), {僧侶|そうりょ} (Buddhist monk), {個室|こしつ} (private room), {個性|こせい} (personality/individuality)
+- **Nouns - people/origin (4)**: {働|はたら}き{者|もの} (hard worker), {元凶|げんきょう} (root cause/culprit), {元祖|がんそ} (originator/founder), {儒教|じゅきょう} (Confucianism)
+
+Notable features:
+- Multi-sense entries: {伏|ふ}せる (face down/conceal), {傾|かたむ}ける (tilt/devote), {催|もよお}す (hold event/feel urge), {傍|かたわ}ら (beside/while doing)
+- Cross-references: {偽物|にせもの} ↔ {本物|ほんもの}, {先延|さきの}ばし ↔ {延期|えんき}, {僧侶|そうりょ} ↔ お{坊|ぼう}さん, {僅差|きんさ} ↔ {大差|たいさ}, {侵略|しんりゃく} ↔ {侵攻|しんこう}, {修復|しゅうふく} ↔ {修理|しゅうり}
+- Set expressions: {耳|みみ}を{傾|かたむ}ける (listen attentively), {先延|さきの}ばしにする (to procrastinate)
+- Cultural context: {僧侶|そうりょ} (Japanese monks and marriage), {元祖|がんそ} (shop rivalry), {儒教|じゅきょう} (Edo period influence)
+- New kanji: 2,306 → 2,310 ({侶|りょ}, {僧|そう}, {儒|じゅ}, {凶|きょう})
+
+Total entries: 11,549 → 11,600 (includes entries from other sessions)
+Remaining candidates: 341 → 311 (30 removed)
+
 ### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 258)
 Added 30 new dictionary entries (IDs 11464-11493) from candidate_words.json:
 
