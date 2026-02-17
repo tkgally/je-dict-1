@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,690 |
+| Total entries | ~11,720 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,891 (open) |
-| Candidate words | ~480 |
+| General tier | ~8,921 (open) |
+| Candidate words | ~450 |
 | Cross-references | ~3,340 |
 | Example sentences | ~43,300 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 263)
+Added 30 new dictionary entries (IDs 11635-11664) from candidate_words.json:
+
+- **Nouns - formal/abstract (10)**: {事象|じしょう} (phenomenon), {全力|ぜんりょく} (full effort), {全盛期|ぜんせいき} (heyday), {全容|ぜんよう} (full picture), {個人差|こじんさ} (individual differences), {保安|ほあん} (security), {公衆|こうしゅう} (the public), {代名詞|だいめいし} (pronoun/byword), {元年|がんねん} (first year of era), {仕立|した}て (tailoring)
+- **Nouns/suru verbs (10)**: {入手|にゅうしゅ} (obtaining), {全滅|ぜんめつ} (annihilation), {公演|こうえん} (public performance), {公表|こうひょう} (disclosure), {公認|こうにん} (official recognition), {入浴|にゅうよく} (bathing), {入門|にゅうもん} (introduction/becoming disciple), {先取|さきど}り (getting ahead), {修了|しゅうりょう} (course completion), {公約|こうやく} (campaign promise)
+- **Na-adjectives (3)**: {人為的|じんいてき} (artificial), {人道的|じんどうてき} (humanitarian), {全体的|ぜんたいてき} (overall)
+- **Nouns - social/political (3)**: {公共|こうきょう} (public), {信任|しんにん} (confidence/mandate), {付|つ}き{添|そ}い (attendant)
+- **Verbs (4)**: {入|い}り{込|こ}む (to slip into/get absorbed), {全|まっと}うする (to accomplish), {介|かい}する (to mediate/not care about)
+
+Notable features:
+- Multi-sense entries: {入門|にゅうもん} (intro book/becoming disciple), {代名詞|だいめいし} (pronoun/byword), {入|い}り{込|こ}む (enter deeply/get absorbed), {元年|がんねん} (era year/inaugural year), {仕立|した}て (tailoring/style format), {介|かい}する (go through/mind)
+- Homophone notes: {公演|こうえん} vs {公園|こうえん}, {修了|しゅうりょう} vs {終了|しゅうりょう}, {公共|こうきょう} vs {好況|こうきょう}
+- Cross-references: {入|い}り{込|こ}む ↔ {入|はい}り{込|こ}む, {公演|こうえん} ↔ {公園|こうえん}
+- Set phrases: {全力|ぜんりょく}を{尽|つ}くす, {意|い}に{介|かい}さない, {天寿|てんじゅ}を{全|まっと}うする
+- Formal register variety: {公表|こうひょう}, {信任|しんにん}, {人道的|じんどうてき} alongside neutral {全力|ぜんりょく}, {個人差|こじんさ}
+
+Total entries: 11,690 → 11,720
+Remaining candidates: 480 → 450 (30 removed)
 
 ### 2026-02-17 (Vocabulary Expansion - 30 Mixed Entries, Session 262)
 Added 30 new dictionary entries (IDs 11605-11634) from candidate_words.json:
@@ -131,25 +150,6 @@ Notable features:
 
 Total entries: 11,549 → 11,600 (includes entries from other sessions)
 Remaining candidates: 341 → 311 (30 removed)
-
-### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 258)
-Added 30 new dictionary entries (IDs 11464-11493) from candidate_words.json:
-
-- **Japanese compounds - formal/abstract (8)**: {不愉快|ふゆかい} (unpleasant), {不合理|ふごうり} (unreasonable), {不利益|ふりえき} (disadvantage), {争点|そうてん} (contested point), {事項|じこう} (matter/item), {交錯|こうさく} (intermingling), {事業者|じぎょうしゃ} (business operator), {主体|しゅたい} (subject/main body)
-- **Japanese compounds - people/culture (5)**: {亭主|ていしゅ} (husband/host), {仇|かたき} (enemy/target of vengeance), {亡霊|ぼうれい} (ghost/specter), {主治医|しゅじい} (attending physician), {人力車|じんりきしゃ} (rickshaw)
-- **Japanese compounds - other (8)**: {主観|しゅかん} (subjectivity), {主題歌|しゅだいか} (theme song), {主力|しゅりょく} (main force), {人差|ひとさ}し{指|ゆび} (index finger), {人里|ひとざと} (inhabited area), {五目|ごもく} (assorted), {云々|うんぬん} (and so on), {事欠|ことか}く (to lack)
-- **Loanwords (9)**: ダイナミック (dynamic), ラップ (wrap/rap), リリース (release), プロモーション (promotion), ヘイト (hate), マッチング (matching), バイアス (bias), バーチャル (virtual), テンプレート (template)
-
-Notable features:
-- Mixed native Japanese and loanwords: 21 native Japanese words + 9 loanwords for good variety
-- Multi-sense entries: ラップ (plastic wrap/rap music), {亭主|ていしゅ} (husband/host), {云々|うんぬん} (et cetera/to comment on), {主体|しゅたい} (main body/philosophical subject)
-- Cultural context: {亭主|ていしゅ}{関白|かんぱく} (domineering husband), {仇討|かたきう}ち ({忠臣蔵|ちゅうしんぐら} vendetta), {人力車|じんりきしゃ} (Meiji-era invention), マッチングアプリ (modern dating culture)
-- Formal register: {争点|そうてん}, {事項|じこう}, {不利益|ふりえき}, {事業者|じぎょうしゃ}, {交錯|こうさく}
-- Modern vocabulary: バイアス, バーチャル (VTuber culture), ヘイト (hate speech law), マッチング, テンプレート
-- New kanji: 2,303 → 2,306 ({云|うん}, {亭|てい}, {仇|かたき})
-
-Total entries: 11,519 → 11,549
-Remaining candidates: 371 → 341 (30 removed)
 
 ---
 
