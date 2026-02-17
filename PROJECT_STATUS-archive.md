@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-17 (Vocabulary Expansion - 30 Mixed Entries, Session 262)
+Added 30 new dictionary entries (IDs 11605-11634) from candidate_words.json:
+
+- **Nouns - formal/abstract (9)**: {他者|たしゃ} (others), {住居|じゅうきょ} (dwelling), {侵攻|しんこう} (invasion), {保有|ほゆう} (possession), {保健|ほけん} (healthcare), {保湿|ほしつ} (moisturizing), {信憑性|しんぴょうせい} (credibility), {個々|ここ} (individual), {体現|たいげん} (embodiment)
+- **Nouns - people/places (5)**: {仙人|せんにん} (hermit/sage), {令嬢|れいじょう} (young lady), {会長|かいちょう} (chairman), {住人|じゅうにん} (resident), {先進国|せんしんこく} (developed country)
+- **Nouns - concrete/cultural (4)**: {代物|しろもの} (thing/article), {兜|かぶと} (samurai helmet), {備|そな}え (preparation), {作画|さくが} (artwork/animation)
+- **Verbs (4)**: {入|い}り{混|ま}じる (to intermingle), {入|い}り{組|く}む (to be intricate), {入|い}れ{替|か}わる (to switch places), {作|つく}り{出|だ}す (to create)
+- **Adjectives (2)**: {優美|ゆうび} (graceful), ストレート (straight/direct)
+- **Adverbs (2)**: {今頃|いまごろ} (about now), {元来|がんらい} (originally)
+- **Nouns - informal/loanwords (4)**: {兄貴|あにき} (big brother), {不動|ふどう} (immovable), スローガン (slogan), リアクション (reaction)
+
+Total entries: 11,660 → 11,690
+Remaining candidates: 510 → 480 (30 removed)
+
 ### 2026-02-17 (Vocabulary Expansion - 30 Loanword Entries, Session 261)
 Added 30 new katakana loanword entries (IDs 11575-11604) from candidate_words.json:
 
