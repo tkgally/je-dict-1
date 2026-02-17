@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 256)
+Added 30 new dictionary entries (IDs 11404-11433) from candidate_words.json:
+
+- **主- compounds (5)**: {主人公|しゅじんこう} (protagonist), {主催|しゅさい} (hosting an event), {主導|しゅどう} (leadership), {主流|しゅりゅう} (mainstream), {主食|しゅしょく} (staple food)
+- **乗- compounds (3)**: {乗|の}っ{取|と}る (to take over/hijack), {乗|の}り{切|き}る (to get through/overcome), {乗用車|じょうようしゃ} (passenger car)
+- **乱- words (2)**: {乱|みだ}す (to disturb), {乱|みだ}れ (disorder)
+- **事- compounds (5)**: {事例|じれい} (case/example), {事務|じむ} (office work), {事実上|じじつじょう} (de facto), {事柄|ことがら} (matter/affair), {事業|じぎょう} (business/enterprise)
+- **人- compounds (2)**: {人材|じんざい} (talent/human resources), {人格|じんかく} (personality/character)
+- **仕- words (3)**: {仕上|しあ}がる (to be completed), {仕入|しい}れる (to stock/purchase), {仕切|しき}り (partition/management)
+- **代- compounds (2)**: {代償|だいしょう} (compensation/price to pay), {代行|だいこう} (proxy service)
+- **Other (8)**: {乳児|にゅうじ} (infant), {了承|りょうしょう} (consent), {予感|よかん} (premonition), {二次元|にじげん} (2D/anime world), {五輪|ごりん} (Olympics), {亡命|ぼうめい} (exile/defection), {交付|こうふ} (issuance), {仏教|ぶっきょう} (Buddhism)
+
+Total entries: 11,459 → 11,489
+Remaining candidates: 222 → 290
+
 ### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 255)
 Added 30 new dictionary entries (IDs 11374-11403) from candidate_words.json:
 

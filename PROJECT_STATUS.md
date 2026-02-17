@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,630 |
+| Total entries | ~11,660 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,831 (open) |
-| Candidate words | ~540 |
+| General tier | ~8,861 (open) |
+| Candidate words | ~510 |
 | Cross-references | ~3,340 |
-| Example sentences | ~43,100 |
+| Example sentences | ~43,300 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-17 (Vocabulary Expansion - 30 Loanword Entries, Session 261)
+Added 30 new katakana loanword entries (IDs 11575-11604) from candidate_words.json:
+
+- **Communication/tech (6)**: スルー (ignore/let pass), スペック (specs/personal attributes), スタンプ (stamp/LINE sticker), ステータス (status/prestige), リアルタイム (real-time), プラットフォーム (platform)
+- **Places/structures (4)**: スポット (spot/location), スタジオ (studio), ハブ (hub), フレーム (frame)
+- **Process/method (3)**: ステップ (step/phase), スライド (slide/presentation), モード (mode/fashion)
+- **Sports/leisure (4)**: バット (bat), リーグ (league), リード (lead/leash), トレード (trade/exchange)
+- **Business/work (4)**: スポンサー (sponsor), ポジション (position/role), ライセンス (license), ロジック (logic)
+- **Objects/tools (3)**: ストック (stock/reserve), スプレー (spray), チューブ (tube), ポンプ (pump)
+- **Media/appearance (3)**: ビジュアル (visual/appearance), メジャー (major/tape measure), ユニット (unit/group)
+- **Other (3)**: テクノロジー (technology)
+
+Notable features:
+- All katakana loanwords, filling gaps in the dictionary's loanword coverage
+- Multi-sense entries: スペック (tech specs/personal attributes), スタンプ (rubber stamp/LINE sticker), スポット (location/spotlight), ステータス (prestige/process status), スライド (presentation/sliding), メジャー (mainstream/tape measure), モード (English mode/French fashion), リード (lead advantage/leash), ユニット (module/performer group), プラットフォーム (station platform/digital platform), チューブ (squeeze tube/inner tube), ビジュアル (visual element/appearance)
+- Wasei-eigo notes: スルー (through ≠ ignore in English), マナーモード (manner mode), {既読|きどく}スルー
+- Cultural context: LINEスタンプ (mobile culture), スタンプラリー (stamp rallies), ユニットバス (Japanese housing), ビジュアル{系|けい} (visual kei music)
+- Etymology notes: ポンプ (Dutch/Portuguese origin), モード (dual English/French etymology)
+
+Total entries: 11,630 → 11,660
+Remaining candidates: 540 → 510 (30 removed)
 
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 260)
 Added 30 new dictionary entries (IDs 11545-11574) from candidate_words.json:
@@ -126,28 +148,6 @@ Notable features:
 
 Total entries: 11,489 → 11,519
 Remaining candidates: 353 → 323 (30 removed)
-
-### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 256)
-Added 30 new dictionary entries (IDs 11404-11433) from candidate_words.json:
-
-- **主- compounds (5)**: {主人公|しゅじんこう} (protagonist), {主催|しゅさい} (hosting an event), {主導|しゅどう} (leadership), {主流|しゅりゅう} (mainstream), {主食|しゅしょく} (staple food)
-- **乗- compounds (3)**: {乗|の}っ{取|と}る (to take over/hijack), {乗|の}り{切|き}る (to get through/overcome), {乗用車|じょうようしゃ} (passenger car)
-- **乱- words (2)**: {乱|みだ}す (to disturb), {乱|みだ}れ (disorder)
-- **事- compounds (5)**: {事例|じれい} (case/example), {事務|じむ} (office work), {事実上|じじつじょう} (de facto), {事柄|ことがら} (matter/affair), {事業|じぎょう} (business/enterprise)
-- **人- compounds (2)**: {人材|じんざい} (talent/human resources), {人格|じんかく} (personality/character)
-- **仕- words (3)**: {仕上|しあ}がる (to be completed), {仕入|しい}れる (to stock/purchase), {仕切|しき}り (partition/management)
-- **代- compounds (2)**: {代償|だいしょう} (compensation/price to pay), {代行|だいこう} (proxy service)
-- **Other (8)**: {乳児|にゅうじ} (infant), {了承|りょうしょう} (consent), {予感|よかん} (premonition), {二次元|にじげん} (2D/anime world), {五輪|ごりん} (Olympics), {亡命|ぼうめい} (exile/defection), {交付|こうふ} (issuance), {仏教|ぶっきょう} (Buddhism)
-
-Notable features:
-- Systematic kanji compound clusters: 主-, 乗-, 乱-, 事-, 仕-, 代- prefix/radical families
-- Multi-sense entries: {乗|の}っ{取|と}る (takeover/hijack), {仕切|しき}り (partition/management), {事業|じぎょう} (business/project), {二次元|にじげん} (math 2D/otaku culture), {代償|だいしょう} (figurative price/legal compensation)
-- Transitive/intransitive pair: {乱|みだ}す (transitive) ↔ {乱|みだ}れ (noun from intransitive)
-- Cultural context: {二次元|にじげん} (otaku 2D vs 3D culture), {五輪|ごりん} (Olympics shorthand), {代行|だいこう} ({運転|うんてん}{代行|だいこう} designated driver service), {仏教|ぶっきょう} (Japanese Buddhist customs)
-- Register variety: formal ({了承|りょうしょう}, {交付|こうふ}, {事実上|じじつじょう}) to neutral ({主流|しゅりゅう}, {予感|よかん})
-
-Total entries: 11,459 → 11,489
-Remaining candidates: 222 → 290 (30 removed, new candidates may have been added)
 
 ---
 
