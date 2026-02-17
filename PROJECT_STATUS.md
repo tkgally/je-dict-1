@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,660 |
+| Total entries | ~11,690 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~8,861 (open) |
-| Candidate words | ~510 |
+| General tier | ~8,891 (open) |
+| Candidate words | ~480 |
 | Cross-references | ~3,340 |
 | Example sentences | ~43,300 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-17 (Vocabulary Expansion - 30 Mixed Entries, Session 262)
+Added 30 new dictionary entries (IDs 11605-11634) from candidate_words.json:
+
+- **Nouns - formal/abstract (9)**: {他者|たしゃ} (others), {住居|じゅうきょ} (dwelling), {侵攻|しんこう} (invasion), {保有|ほゆう} (possession), {保健|ほけん} (healthcare), {保湿|ほしつ} (moisturizing), {信憑性|しんぴょうせい} (credibility), {個々|ここ} (individual), {体現|たいげん} (embodiment)
+- **Nouns - people/places (5)**: {仙人|せんにん} (hermit/sage), {令嬢|れいじょう} (young lady), {会長|かいちょう} (chairman), {住人|じゅうにん} (resident), {先進国|せんしんこく} (developed country)
+- **Nouns - concrete/cultural (4)**: {代物|しろもの} (thing/article), {兜|かぶと} (samurai helmet), {備|そな}え (preparation), {作画|さくが} (artwork/animation)
+- **Verbs (4)**: {入|い}り{混|ま}じる (to intermingle), {入|い}り{組|く}む (to be intricate), {入|い}れ{替|か}わる (to switch places), {作|つく}り{出|だ}す (to create)
+- **Adjectives (2)**: {優美|ゆうび} (graceful), ストレート (straight/direct)
+- **Adverbs (2)**: {今頃|いまごろ} (about now), {元来|がんらい} (originally)
+- **Nouns - informal/loanwords (4)**: {兄貴|あにき} (big brother), {不動|ふどう} (immovable), スローガン (slogan), リアクション (reaction)
+
+Notable features:
+- Diverse POS mix: 20 nouns, 4 verbs, 2 adjectives, 2 adverbs, 2 loanwords
+- Multi-sense entries: {今頃|いまごろ} (present time/too late), {作画|さくが} (artwork/animation quality), ストレート (straight/direct), {兄貴|あにき} (brother/respected figure), {入|い}れ{替|か}わる (switch places/be replaced), {作|つく}り{出|だ}す (create/generate atmosphere)
+- Cultural context: {兜|かぶと} (Boys' Day display), {仙人|せんにん} (Taoist mythology), {令嬢|れいじょう} ({悪役令嬢|あくやくれいじょう} light novel genre), {作画|さくが} (anime criticism), リアクション (variety show comedy)
+- Homophone notes: {保健|ほけん} vs {保険|ほけん}, {個々|ここ} vs ここ (here)
+- New kanji: 2,310 → 2,313 ({仙|せん}, {兜|かぶと}, {憑|ひょう})
+
+Total entries: 11,660 → 11,690
+Remaining candidates: 510 → 480 (30 removed)
 
 ### 2026-02-17 (Vocabulary Expansion - 30 Loanword Entries, Session 261)
 Added 30 new katakana loanword entries (IDs 11575-11604) from candidate_words.json:
@@ -129,25 +150,6 @@ Notable features:
 
 Total entries: 11,519 → 11,549
 Remaining candidates: 371 → 341 (30 removed)
-
-### 2026-02-16 (Vocabulary Expansion - 30 New Entries, Session 257)
-Added 30 new dictionary entries (IDs 11434-11463) from candidate_words.json:
-
-- **Expressions/adjectives (2)**: {仕方|しかた}ない (it can't be helped), {仲良|なかよ}し (close friend)
-- **Verbs (6)**: {仕組|しく}む (to devise/plot), {仰|あお}ぐ (to look up at/revere), {佇|たたず}む (to stand still), {伸|の}び{悩|なや}む (to plateau), {乗|の}っかる (to get on/jump on board)
-- **Nouns - society/people (5)**: {人手不足|ひとでぶそく} (labor shortage), {人情|にんじょう} (human feelings), {人間関係|にんげんかんけい} (interpersonal relations), {仲良|なかよ}し, {何事|なにごと} (what/everything)
-- **Nouns - abstract/general (8)**: {使命|しめい} (mission), {伝説|でんせつ} (legend), {伝承|でんしょう} (tradition/folklore), {侮辱|ぶじょく} (insult), {主導権|しゅどうけん} (initiative), {争奪戦|そうだつせん} (contest/scramble), {乱入|らんにゅう} (barging in), {作風|さくふう} (artistic style)
-- **Nouns - practical (7)**: {代謝|たいしゃ} (metabolism), {仮面|かめん} (mask), {侵入|しんにゅう} (intrusion), {依存|いぞん} (dependence/addiction), {保管|ほかん} (storage), {体験|たいけん} (firsthand experience), {休養|きゅうよう} (rest/recuperation)
-- **Nouns - specialized (2)**: {保育|ほいく} (childcare), {供養|くよう} (memorial service), {似顔絵|にがおえ} (portrait/caricature)
-
-Notable features:
-- Multi-sense entries: {仰|あお}ぐ (look up/revere/seek guidance), {仮面|かめん} (physical mask/figurative), {依存|いぞん} (dependence/addiction), {伝説|でんせつ} (legend/legendary), {何事|なにごと} (what/everything), {乗|の}っかる (physical/figurative)
-- Cultural context: {人情|にんじょう} ({義理|ぎり}{人情|にんじょう} cultural concept), {供養|くよう} (Buddhist memorial for objects), {保育|ほいく} ({待機|たいき}{児童|じどう} social issue), {仮面|かめん}ライダー
-- Social vocabulary: {人手不足|ひとでぶそく} (aging society), {人間関係|にんげんかんけい} (workplace stress), {依存|いぞん}{症|しょう} (modern addiction issues)
-- Verb variety: godan-mu ({仕組|しく}む, {佇|たたず}む, {伸|の}び{悩|なや}む), godan-gu ({仰|あお}ぐ), godan-ru ({乗|の}っかる)
-
-Total entries: 11,489 → 11,519
-Remaining candidates: 353 → 323 (30 removed)
 
 ---
 
