@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,960 |
+| Total entries | ~11,990 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,161 (open) |
-| Candidate words | ~210 |
+| General tier | ~9,191 (open) |
+| Candidate words | ~180 |
 | Cross-references | ~3,350 |
 | Example sentences | ~43,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 272)
+Added 30 new dictionary entries (IDs 11905-11934) from candidate_words.json:
+
+- **Nouns/suru verbs - 制 compounds (3)**: {制定|せいてい} (enactment), {制止|せいし} (restraint), {創設|そうせつ} (establishment)
+- **Nouns/suru verbs - 包/加 compounds (4)**: {包括|ほうかつ} (comprehensive), {包装|ほうそう} (packaging), {加入|かにゅう} (joining), {動員|どういん} (mobilization)
+- **Nouns - predecessor/reference (2)**: {前身|ぜんしん} (predecessor), {前述|ぜんじゅつ} (aforementioned)
+- **Nouns - people (3)**: {加害者|かがいしゃ} (perpetrator), {剣士|けんし} (swordsman), {勇者|ゆうしゃ} (hero)
+- **Nouns - food/culture (2)**: {削り節|けずりぶし} (bonito shavings), {割烹|かっぽう} (Japanese haute cuisine)
+- **Nouns - publishing (2)**: {副題|ふくだい} (subtitle), {創刊|そうかん} (first publication)
+- **Nouns - general (7)**: {十字|じゅうじ} (cross shape), {効能|こうのう} (efficacy), {効果音|こうかおん} (sound effect), {動き|うごき} (movement/trend), {勝ち負け|かちまけ} (winning and losing), {区画|くかく} (block/section), {助数詞|じょすうし} (counter word)
+- **Na-adjective (1)**: {劣悪|れつあく} (inferior/terrible)
+- **Noun (1)**: {労い|ねぎらい} (appreciation for effort)
+- **Nouns - supernatural (1)**: {化け物|ばけもの} (monster/ghost)
+- **Verbs (4)**: {制する|せいする} (to control/win), {剥ぐ|はぐ} (to strip off), {割り出す|わりだす} (to figure out), {包み込む|つつみこむ} (to envelop)
+
+Notable features:
+- Multi-sense entries: {制する|せいする} (restrain/win), {動き|うごき} (motion/trend), {化け物|ばけもの} (supernatural/figurative)
+- Cultural context: {割烹|かっぽう} (counter dining), {削り節|けずりぶし} (dashi/toppings), {勇者|ゆうしゃ} (RPG hero archetype), {労い|ねぎらい} (workplace appreciation culture)
+- Semantic clusters: 制- compounds (3), 包- compounds (2), 前- compounds (2)
+- New kanji: 2,326 → 2,327 ({烹|ほう})
+
+Total entries: 11,960 → 11,990
+Remaining candidates: 210 → 180 (30 removed)
 
 ### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 271)
 Added 30 new dictionary entries (IDs 11875-11904) from candidate_words.json:
@@ -135,27 +159,6 @@ Notable features:
 
 Total entries: 11,840 → 11,870
 Remaining candidates: 330 → 300 (30 removed)
-
-### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 267)
-Added 30 new dictionary entries (IDs 11755-11784) from candidate_words.json:
-
-- **Nouns - time/seasons (4)**: {冬季|とうき} (winter season), {冬至|とうじ} (winter solstice), {初雪|はつゆき} (first snow), {初回|しょかい} (first time/round)
-- **Nouns/suru verbs - emergence/departure (6)**: {出現|しゅつげん} (appearance), {出土|しゅつど} (excavation), {出家|しゅっけ} (entering priesthood), {出港|しゅっこう} (departure from port), {出生|しゅっしょう} (birth), {処刑|しょけい} (execution)
-- **Nouns - publishing/education (3)**: {出版社|しゅっぱんしゃ} (publisher), {全集|ぜんしゅう} (complete works), {初級|しょきゅう} (beginner level)
-- **Nouns/suru verbs - division/separation (5)**: {分岐|ぶんき} (branching), {分担|ぶんたん} (sharing duties), {分断|ぶんだん} (division), {分離|ぶんり} (separation), {分子|ぶんし} (molecule)
-- **Nouns - history/politics (3)**: {切腹|せっぷく} (seppuku), {列強|れっきょう} (great powers), {列挙|れっきょ} (enumeration)
-- **Nouns - succession/salary (3)**: {初代|しょだい} (first generation), {初任給|しょにんきゅう} (starting salary), {再燃|さいねん} (recurrence)
-- **Nouns - general (2)**: {出来|でき} (result/quality), {分刻|ふんきざ}み (minute by minute)
-- **Verbs (4)**: {凍|こお}りつく (to freeze solid), {出揃|でそろ}う (to be all present), {分|わ}け{合|あ}う (to share), {切|き}り{分|わ}ける (to cut into pieces)
-
-Notable features:
-- Multi-sense entries: {凍|こお}りつく (freeze solid/freeze with fear), {分子|ぶんし} (molecule/numerator/group member)
-- Cultural context: {冬至|とうじ} (yuzu bath tradition), {切腹|せっぷく} (samurai ritual), {出家|しゅっけ} (Buddhist vows), {初任給|しょにんきゅう} (gift tradition), {初雪|はつゆき} (seasonal news event)
-- Semantic clusters: 出- compounds (7 entries), 分- compounds (6 entries), 初- compounds (5 entries)
-- Distinction sets: {分担|ぶんたん} vs {分断|ぶんだん} vs {分離|ぶんり}
-
-Total entries: 11,810 → 11,840
-Remaining candidates: 360 → 330 (30 removed)
 
 ---
 

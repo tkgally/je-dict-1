@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 267)
+Added 30 new dictionary entries (IDs 11755-11784) from candidate_words.json:
+
+- **Nouns - time/seasons (4)**: {冬季|とうき} (winter season), {冬至|とうじ} (winter solstice), {初雪|はつゆき} (first snow), {初回|しょかい} (first time/round)
+- **Nouns/suru verbs - emergence/departure (6)**: {出現|しゅつげん} (appearance), {出土|しゅつど} (excavation), {出家|しゅっけ} (entering priesthood), {出港|しゅっこう} (departure from port), {出生|しゅっしょう} (birth), {処刑|しょけい} (execution)
+- **Nouns - publishing/education (3)**: {出版社|しゅっぱんしゃ} (publisher), {全集|ぜんしゅう} (complete works), {初級|しょきゅう} (beginner level)
+- **Nouns/suru verbs - division/separation (5)**: {分岐|ぶんき} (branching), {分担|ぶんたん} (sharing duties), {分断|ぶんだん} (division), {分離|ぶんり} (separation), {分子|ぶんし} (molecule)
+- **Nouns - history/politics (3)**: {切腹|せっぷく} (seppuku), {列強|れっきょう} (great powers), {列挙|れっきょ} (enumeration)
+- **Nouns - succession/salary (3)**: {初代|しょだい} (first generation), {初任給|しょにんきゅう} (starting salary), {再燃|さいねん} (recurrence)
+- **Nouns - general (2)**: {出来|でき} (result/quality), {分刻|ふんきざ}み (minute by minute)
+- **Verbs (4)**: {凍|こお}りつく (to freeze solid), {出揃|でそろ}う (to be all present), {分|わ}け{合|あ}う (to share), {切|き}り{分|わ}ける (to cut into pieces)
+
+Notable features:
+- Multi-sense entries: {凍|こお}りつく (freeze solid/freeze with fear), {分子|ぶんし} (molecule/numerator/group member)
+- Cultural context: {冬至|とうじ} (yuzu bath tradition), {切腹|せっぷく} (samurai ritual), {出家|しゅっけ} (Buddhist vows), {初任給|しょにんきゅう} (gift tradition), {初雪|はつゆき} (seasonal news event)
+- Semantic clusters: 出- compounds (7 entries), 分- compounds (6 entries), 初- compounds (5 entries)
+- Distinction sets: {分担|ぶんたん} vs {分断|ぶんだん} vs {分離|ぶんり}
+
+Total entries: 11,810 → 11,840
+Remaining candidates: 360 → 330 (30 removed)
+
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 266)
 Added 30 new dictionary entries (IDs 11725-11754) from candidate_words.json:
 
