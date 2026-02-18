@@ -14,27 +14,7 @@
   "examples": [
     {
       "id": "01670_ressha_ex1",
-      "japanese": "{列車|れっしゃ}が{駅|えき}に{到着|とうちゃく}しました。",
-      "english": "The train arrived at the station.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01670_ressha_ex2",
-      "japanese": "{夜行|やこう}{列車|れっしゃ}で{旅行|りょこう}しました。",
-      "english": "I traveled by night train.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01670_ressha_ex3",
-      "japanese": "{列車|れっしゃ}が{遅|おく}れています。",
+      "japanese": "{列車|れっしゃ}が{遅|おく}れている。",
       "english": "The train is delayed.",
       "notes": null,
       "has_audio": false,
@@ -43,9 +23,29 @@
       ]
     },
     {
+      "id": "01670_ressha_ex2",
+      "japanese": "{次|つぎ}の{列車|れっしゃ}は{何時|なんじ}ですか。",
+      "english": "What time is the next train?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01670_ressha_ex3",
+      "japanese": "{夜行|やこう}{列車|れっしゃ}に{乗|の}って{旅行|りょこう}しました。",
+      "english": "I traveled by night train.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01670_ressha_ex4",
-      "japanese": "この{列車|れっしゃ}は{各駅|かくえき}{停車|ていしゃ}です。",
-      "english": "This train stops at every station.",
+      "japanese": "{雪|ゆき}の{影響|えいきょう}で、{列車|れっしゃ}が{二時間|にじかん}も{遅|おく}れて{到着|とうちゃく}しました。",
+      "english": "Due to the snow, the train arrived two hours late.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -54,8 +54,8 @@
     },
     {
       "id": "01670_ressha_ex5",
-      "japanese": "{次|つぎ}の{列車|れっしゃ}まで30{分|ぷん}あります。",
-      "english": "There are 30 minutes until the next train.",
+      "japanese": "この{列車|れっしゃ}は{各駅|かくえき}{停車|ていしゃ}なので、{特急|とっきゅう}{列車|れっしゃ}に{乗|の}り{換|か}えたほうが{早|はや}く{着|つ}きますよ。",
+      "english": "This train stops at every station, so you'll arrive faster if you transfer to the express train.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-01-23T08:28:42Z",
+    "modified": "2026-02-18T10:05:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
