@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,930 |
+| Total entries | ~11,960 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,131 (open) |
-| Candidate words | ~240 |
+| General tier | ~9,161 (open) |
+| Candidate words | ~210 |
 | Cross-references | ~3,350 |
 | Example sentences | ~43,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 271)
+Added 30 new dictionary entries (IDs 11875-11904) from candidate_words.json:
+
+- **Nouns - time (3)**: {前半|ぜんはん} (first half), {前夜|ぜんや} (the night before), {初頭|しょとう} (beginning of a period)
+- **Nouns - 別 compounds (4)**: {別人|べつじん} (different person), {別名|べつめい} (alias), {別物|べつもの} (different thing entirely), {別途|べっと} (separately)
+- **Nouns - 厳 compounds/na-adj (4)**: {厳守|げんしゅ} (strict observance), {厳密|げんみつ} (precise), {厳格|げんかく} (strict/stern), {厳重|げんじゅう} (tight/stringent)
+- **Nouns - ceremony/customs (3)**: {参列|さんれつ} (ceremony attendance), {喪服|もふく} (mourning clothes), {吉日|きちじつ} (auspicious day)
+- **Nouns - body/speech (2)**: {口元|くちもと} (area around the mouth), {口頭|こうとう} (oral/verbal)
+- **Nouns/suru - formal (4)**: {制裁|せいさい} (sanction), {収縮|しゅうしゅく} (contraction), {受診|じゅしん} (seeing a doctor), {別居|べっきょ} (living apart)
+- **Nouns - relationships/culture (4)**: {同棲|どうせい} (cohabitation), {回転寿司|かいてんずし} (conveyor belt sushi), {合宿|がっしゅく} (training camp), {合流|ごうりゅう} (merging/joining up)
+- **Nouns - general (6)**: {召使|めしつか}い (servant), {吐露|とろ} (disclosure), {向上心|こうじょうしん} (ambition), {味|あじ}わい (flavor/charm), {古風|こふう} (old-fashioned), {営|いとな}み (activity/pursuit)
+
+Notable features:
+- Multi-sense entries: {味|あじ}わい (flavor/charm), {合流|ごうりゅう} (rivers-roads/people)
+- Semantic clusters: 別- compounds (4), 厳- compounds (4)
+- Distinction set: {厳密|げんみつ} vs {厳格|げんかく} vs {厳重|げんじゅう}
+- Cultural context: {吉日|きちじつ} (六曜 calendar), {回転寿司|かいてんずし} (dining culture), {喪服|もふく} (funeral etiquette), {合宿|がっしゅく} (club culture)
+
+Total entries: 11,930 → 11,960
+Remaining candidates: 240 → 210 (30 removed)
 
 ### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 270)
 Added 30 new dictionary entries (IDs 11845-11874) from candidate_words.json:
@@ -135,31 +156,6 @@ Notable features:
 
 Total entries: 11,810 → 11,840
 Remaining candidates: 360 → 330 (30 removed)
-
-### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 266)
-Added 30 new dictionary entries (IDs 11725-11754) from candidate_words.json:
-
-- **Nouns - cold/food (2)**: {冷凍|れいとう} (freezing), {冷蔵|れいぞう} (refrigeration)
-- **Nouns - entertainment (2)**: {出演|しゅつえん} (appearing on stage/TV), {出番|でばん} (one's turn)
-- **Nouns - life events/health (2)**: {出産|しゅっさん} (childbirth), {出血|しゅっけつ} (bleeding)
-- **Nouns - time/seasons (3)**: {初夏|しょか} (early summer), {初日|しょにち} (first day), {初期|しょき} (early period)
-- **Nouns - formal/political (4)**: {冒頭|ぼうとう} (beginning/opening), {共同体|きょうどうたい} (community), {内乱|ないらん} (civil war), {列島|れっとう} (archipelago)
-- **Nouns/suru verbs (6)**: {出品|しゅっぴん} (exhibiting/listing), {再建|さいけん} (reconstruction), {再考|さいこう} (reconsideration), {分割|ぶんかつ} (division), {分配|ぶんぱい} (distribution), {分裂|ぶんれつ} (split/fission)
-- **Nouns - general (3)**: {刃物|はもの} (blade/cutlery), {分|わ}かれ{道|みち} (fork in the road), {凪|なぎ} (calm/lull)
-- **Verbs (4)**: {冷|ひ}え{込|こ}む (to get very cold), {冷|ひ}やかす (to tease/window-shop), {出回|でまわ}る (to circulate), {兼|か}ね{備|そな}える (to possess both)
-- **Adjectives (2)**: {冷|ひ}ややか (chilly/cold in attitude), {切実|せつじつ} (earnest/pressing)
-- **Adverbs (2)**: {切|せつ}に (earnestly), {凛|りん}と (with dignity)
-
-Notable features:
-- Diverse POS mix: 22 nouns (incl. suru verbs), 4 verbs, 2 adjectives, 2 adverbs
-- Multi-sense entries: {冷|ひ}え{込|こ}む (cold weather/economy), {冷|ひ}やかす (tease/window-shop), {出品|しゅっぴん} (exhibit/list for sale), {再建|さいけん} (rebuild/restructure), {分裂|ぶんれつ} (political split/cell division), {冷|ひ}ややか (physical chill/cold attitude)
-- Distinction sets: {冷凍|れいとう} vs {冷蔵|れいぞう}, {分割|ぶんかつ} vs {分配|ぶんぱい} vs {分裂|ぶんれつ}
-- Homophone cross-references: {冒頭|ぼうとう} ↔ {暴騰|ぼうとう}, {再建|さいけん} ↔ {債権|さいけん}, {再考|さいこう} ↔ {最高|さいこう}, {出血|しゅっけつ} ↔ {出欠|しゅっけつ}, {内乱|ないらん} ↔ {内覧|ないらん}
-- Cultural context: {凪|なぎ} (kokuji, weather phenomenon), {堺|さかい} cutlery ({刃物|はもの}), {日本|にほん}{列島|れっとう}
-- New kanji: 2,318 → 2,319 ({凪|なぎ} — kokuji)
-
-Total entries: 11,780 → 11,810
-Remaining candidates: 390 → 360 (30 removed)
 
 ---
 

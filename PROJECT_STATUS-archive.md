@@ -3,6 +3,31 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 266)
+Added 30 new dictionary entries (IDs 11725-11754) from candidate_words.json:
+
+- **Nouns - cold/food (2)**: {冷凍|れいとう} (freezing), {冷蔵|れいぞう} (refrigeration)
+- **Nouns - entertainment (2)**: {出演|しゅつえん} (appearing on stage/TV), {出番|でばん} (one's turn)
+- **Nouns - life events/health (2)**: {出産|しゅっさん} (childbirth), {出血|しゅっけつ} (bleeding)
+- **Nouns - time/seasons (3)**: {初夏|しょか} (early summer), {初日|しょにち} (first day), {初期|しょき} (early period)
+- **Nouns - formal/political (4)**: {冒頭|ぼうとう} (beginning/opening), {共同体|きょうどうたい} (community), {内乱|ないらん} (civil war), {列島|れっとう} (archipelago)
+- **Nouns/suru verbs (6)**: {出品|しゅっぴん} (exhibiting/listing), {再建|さいけん} (reconstruction), {再考|さいこう} (reconsideration), {分割|ぶんかつ} (division), {分配|ぶんぱい} (distribution), {分裂|ぶんれつ} (split/fission)
+- **Nouns - general (3)**: {刃物|はもの} (blade/cutlery), {分|わ}かれ{道|みち} (fork in the road), {凪|なぎ} (calm/lull)
+- **Verbs (4)**: {冷|ひ}え{込|こ}む (to get very cold), {冷|ひ}やかす (to tease/window-shop), {出回|でまわ}る (to circulate), {兼|か}ね{備|そな}える (to possess both)
+- **Adjectives (2)**: {冷|ひ}ややか (chilly/cold in attitude), {切実|せつじつ} (earnest/pressing)
+- **Adverbs (2)**: {切|せつ}に (earnestly), {凛|りん}と (with dignity)
+
+Notable features:
+- Diverse POS mix: 22 nouns (incl. suru verbs), 4 verbs, 2 adjectives, 2 adverbs
+- Multi-sense entries: {冷|ひ}え{込|こ}む (cold weather/economy), {冷|ひ}やかす (tease/window-shop), {出品|しゅっぴん} (exhibit/list for sale), {再建|さいけん} (rebuild/restructure), {分裂|ぶんれつ} (political split/cell division), {冷|ひ}ややか (physical chill/cold attitude)
+- Distinction sets: {冷凍|れいとう} vs {冷蔵|れいぞう}, {分割|ぶんかつ} vs {分配|ぶんぱい} vs {分裂|ぶんれつ}
+- Homophone cross-references: {冒頭|ぼうとう} ↔ {暴騰|ぼうとう}, {再建|さいけん} ↔ {債権|さいけん}, {再考|さいこう} ↔ {最高|さいこう}, {出血|しゅっけつ} ↔ {出欠|しゅっけつ}, {内乱|ないらん} ↔ {内覧|ないらん}
+- Cultural context: {凪|なぎ} (kokuji, weather phenomenon), {堺|さかい} cutlery ({刃物|はもの}), {日本|にほん}{列島|れっとう}
+- New kanji: 2,318 → 2,319 ({凪|なぎ} — kokuji)
+
+Total entries: 11,780 → 11,810
+Remaining candidates: 390 → 360 (30 removed)
+
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 265)
 Added 30 new dictionary entries (IDs 11695-11724) from candidate_words.json:
 
