@@ -19,22 +19,22 @@
   "examples": [
     {
       "id": "01471_denwa_ex1",
-      "japanese": "{電話|でんわ}をかけてください。",
-      "english": "Please give me a call.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "01471_denwa_ex2",
       "japanese": "{電話|でんわ}が{鳴|な}っている。",
       "english": "The phone is ringing.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "01471_denwa_ex2",
+      "japanese": "{電話|でんわ}で{話|はな}しましょう。",
+      "english": "Let's talk on the phone.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     },
     {
@@ -49,26 +49,6 @@
     },
     {
       "id": "01471_denwa_ex4",
-      "japanese": "{電話|でんわ}{番号|ばんごう}を{教|おし}えてください。",
-      "english": "Please tell me your phone number.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01471_denwa_ex5",
-      "japanese": "{電話|でんわ}で{話|はな}しましょう。",
-      "english": "Let's talk on the phone.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "01471_denwa_ex6",
       "japanese": "{新|あたら}しい{電話|でんわ}を{買|か}った。",
       "english": "I bought a new phone.",
       "notes": null,
@@ -78,8 +58,28 @@
       ]
     },
     {
+      "id": "01471_denwa_ex5",
+      "japanese": "{電話|でんわ}をかけてください。",
+      "english": "Please give me a call.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01471_denwa_ex6",
+      "japanese": "{電話|でんわ}{番号|ばんごう}を{教|おし}えてください。",
+      "english": "Please tell me your phone number.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01471_denwa_ex7",
-      "japanese": "{電話|でんわ}があったら{知|し}らせてください。",
+      "japanese": "{電話|でんわ}があったら{教|おし}えてください。",
       "english": "Please let me know if there's a phone call.",
       "notes": null,
       "has_audio": false,
@@ -99,8 +99,8 @@
     },
     {
       "id": "01471_denwa_ex9",
-      "japanese": "{母|はは}から{電話|でんわ}があって、{今日|きょう}は{遅|おそ}くなると{言|い}っていた。",
-      "english": "I got a call from my mother, and she said she'd be late today.",
+      "japanese": "{友達|ともだち}に{電話|でんわ}したけど、{出|で}なかった。",
+      "english": "I called my friend, but they didn't answer.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -109,12 +109,22 @@
     },
     {
       "id": "01471_denwa_ex10",
-      "japanese": "{古|ふる}い{電話|でんわ}を{新|あたら}しいものに{変|か}えたいと{思|おも}っている。",
-      "english": "I'm thinking of replacing my old phone with a new one.",
+      "japanese": "この{電話|でんわ}はもう{古|ふる}いから、{新|あたら}しいのがほしい。",
+      "english": "This phone is old now, so I want a new one.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "01471_denwa_ex11",
+      "japanese": "{母|はは}から{電話|でんわ}があって、{今日|きょう}は{遅|おそ}くなると{言|い}っていた。",
+      "english": "I got a call from my mother, and she said she'd be late today.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
@@ -122,7 +132,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T12:08:33Z",
-    "modified": "2026-01-26T12:58:41Z",
+    "modified": "2026-02-17T23:50:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
