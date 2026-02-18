@@ -1,0 +1,56 @@
+#!/bin/bash
+# run_newentries.sh — Create new dictionary entries in batches
+# Each run creates 30 entries from candidate_words.json.
+# Default: 3 runs. Change TOTAL_RUNS below to adjust.
+
+set -euo pipefail
+
+TOTAL_RUNS=3
+PROJECT_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
+cd "$PROJECT_DIR"
+
+PROMPT="Read prompts/newentries.md and follow the instructions."
+LOG_FILE="prompts/batch/logs/newentries_$(date +%Y%m%d_%H%M%S).log"
+
+mkdir -p prompts/batch/logs
+
+echo "=== New Entries Batch — $TOTAL_RUNS runs ===" | tee "$LOG_FILE"
+echo "Started: $(date)" | tee -a "$LOG_FILE"
+echo "" | tee -a "$LOG_FILE"
+
+completed=0
+failed=0
+
+for i in $(seq 1 "$TOTAL_RUNS"); do
+    echo "--- Run $i of $TOTAL_RUNS ---" | tee -a "$LOG_FILE"
+    echo "Started: $(date)" | tee -a "$LOG_FILE"
+
+    RUN_LOG="prompts/batch/logs/newentries_run${i}_$(date +%Y%m%d_%H%M%S).log"
+    if script -q "$RUN_LOG" claude -p "$PROMPT"; then
+        cat "$RUN_LOG" >> "$LOG_FILE"
+        if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
+            git add -A
+            git commit -m "New entries — batch run $i of $TOTAL_RUNS ($(date +%Y-%m-%d))"
+            echo "Committed changes from run $i." | tee -a "$LOG_FILE"
+            completed=$((completed + 1))
+        else
+            echo "No changes in run $i — skipping commit." | tee -a "$LOG_FILE"
+            completed=$((completed + 1))
+        fi
+    else
+        cat "$RUN_LOG" >> "$LOG_FILE" 2>/dev/null
+        failed=$((failed + 1))
+        echo "ERROR: Run $i failed (exit code $?)." | tee -a "$LOG_FILE"
+        echo "Stopping batch to avoid cascading errors." | tee -a "$LOG_FILE"
+        break
+    fi
+
+    echo "Completed: $(date)" | tee -a "$LOG_FILE"
+    echo "" | tee -a "$LOG_FILE"
+done
+
+echo "=== Batch complete ===" | tee -a "$LOG_FILE"
+echo "Completed: $completed / $TOTAL_RUNS runs" | tee -a "$LOG_FILE"
+echo "Failed: $failed" | tee -a "$LOG_FILE"
+echo "Finished: $(date)" | tee -a "$LOG_FILE"
+echo "Log: $LOG_FILE"
