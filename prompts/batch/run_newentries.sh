@@ -26,7 +26,7 @@ for i in $(seq 1 "$TOTAL_RUNS"); do
     echo "Started: $(date)" | tee -a "$LOG_FILE"
 
     RUN_LOG="prompts/batch/logs/newentries_run${i}_$(date +%Y%m%d_%H%M%S).log"
-    if script -q "$RUN_LOG" claude -p "$PROMPT"; then
+    if claude -p "$PROMPT" --verbose 2>&1 | tee "$RUN_LOG"; then
         cat "$RUN_LOG" >> "$LOG_FILE"
         if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
             git add -A
@@ -38,7 +38,7 @@ for i in $(seq 1 "$TOTAL_RUNS"); do
             completed=$((completed + 1))
         fi
     else
-        cat "$RUN_LOG" >> "$LOG_FILE" 2>/dev/null
+        cat "$RUN_LOG" >> "$LOG_FILE"
         failed=$((failed + 1))
         echo "ERROR: Run $i failed (exit code $?)." | tee -a "$LOG_FILE"
         echo "Stopping batch to avoid cascading errors." | tee -a "$LOG_FILE"
