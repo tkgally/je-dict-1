@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,870 |
+| Total entries | ~11,900 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,071 (open) |
-| Candidate words | ~300 |
+| General tier | ~9,101 (open) |
+| Candidate words | ~270 |
 | Cross-references | ~3,350 |
 | Example sentences | ~43,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 269)
+Added 30 new dictionary entries (IDs 11815-11844) from candidate_words.json:
+
+- **Nouns/suru verbs - formal (7)**: {到達|とうたつ} (reaching), {制御|せいぎょ} (control), {勃発|ぼっぱつ} (outbreak), {喪失|そうしつ} (loss), {収集|しゅうしゅう} (collection), {募金|ぼきん} (fundraising), {回想|かいそう} (reminiscence)
+- **Nouns - time/schedule (3)**: {前回|ぜんかい} (last time), {前倒|まえだお}し (moving up schedule), {即席|そくせき} (instant/impromptu)
+- **Nouns - formal/abstract (4)**: {効力|こうりょく} (efficacy), {原点|げんてん} (origin), {協会|きょうかい} (association), {加齢|かれい} (aging)
+- **Nouns - concrete/cultural (5)**: {剣|けん} (sword), {古民家|こみんか} (old traditional house), {商店|しょうてん} (shop), {品揃|しなぞろ}え (product lineup), {呪文|じゅもん} (spell/incantation)
+- **Nouns - other (3)**: {原作|げんさく} (original work), {喜劇|きげき} (comedy), {品種|ひんしゅ} (variety/breed)
+- **Na-adjective (1)**: {単調|たんちょう} (monotonous)
+- **I-adjective (1)**: {危|あや}うい (dangerous/precarious)
+- **Nouns (1)**: {器|うつわ} (vessel/caliber)
+- **Verbs (5)**: {割|さ}く (to spare/devote), {励|はげ}む (to work hard at), {咲|さ}き{誇|ほこ}る (to be in full bloom), {営|いとな}む (to run a business), {吹|ふ}き{飛|と}ぶ (to be blown away)
+
+Notable features:
+- Multi-sense entries: {割|さ}く (spare/tear), {危|あや}うい (dangerous/narrowly), {営|いとな}む (run business/conduct ceremony), {器|うつわ} (vessel/caliber), {吹|ふ}き{飛|と}ぶ (blown away/vanish)
+- Cultural context: {古民家|こみんか} (renovation trend), {器|うつわ} (food presentation aesthetics), {呪文|じゅもん} (Dragon Quest/RPG culture), {剣|けん} (martial arts)
+- New kanji: 2,321 → 2,323 ({勃|ぼつ}, {呪|じゅ})
+
+Total entries: 11,870 → 11,900
+Remaining candidates: 300 → 270 (30 removed)
 
 ### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 268)
 Added 30 new dictionary entries (IDs 11785-11814) from candidate_words.json:
@@ -141,30 +162,6 @@ Notable features:
 
 Total entries: 11,750 → 11,780
 Remaining candidates: 420 → 390 (30 removed)
-
-### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 264)
-Added 30 new dictionary entries (IDs 11665-11694) from candidate_words.json:
-
-- **Nouns/suru verbs - joining/membership (4)**: {入会|にゅうかい} (enrollment), {入部|にゅうぶ} (joining school club), {入賞|にゅうしょう} (winning a prize), {入選|にゅうせん} (being selected for exhibition)
-- **Nouns/suru verbs - society/diplomacy (5)**: {公開|こうかい} (release to public), {共有|きょうゆう} (sharing), {共存|きょうぞん} (coexistence), {共生|きょうせい} (symbiosis), {共演|きょうえん} (co-starring)
-- **Nouns/suru verbs - technical/formal (3)**: {作動|さどう} (operation of machinery), {併設|へいせつ} (attached facility), {伝来|でんらい} (introduction from abroad)
-- **Nouns - formal (6)**: {公文書|こうぶんしょ} (official document), {公用語|こうようご} (official language), {兵器|へいき} (weapon), {兵士|へいし} (soldier), {使節|しせつ} (envoy), {共犯|きょうはん} (accomplice)
-- **Nouns - general (5)**: {全文|ぜんぶん} (full text), {全米|ぜんべい} (all of America), {円形|えんけい} (circular shape), {付|つ}け{根|ね} (base/root), {先住民|せんじゅうみん} (indigenous people)
-- **Nouns - abstract (3)**: {内心|ないしん} (inwardly), {内面|ないめん} (inner feelings), {何者|なにもの} (who/what kind of person)
-- **Verb (1)**: {兼|か}ねる (to serve as both / unable to)
-- **Adverb (1)**: {再度|さいど} (once more, again)
-- **Cultural (1)**: {侘|わ}び{寂|さ}び (wabi-sabi aesthetic)
-- **Noun/suru verb (1)**: {再会|さいかい} (reunion)
-
-Notable features:
-- Multi-sense entries: {兼|か}ねる (serve as both / Vますかねる unable to), {内面|ないめん} (inner self / inner surface), {伝来|でんらい} (introduction from abroad / handed down through generations)
-- Homophone notes: {公開|こうかい} vs {後悔|こうかい}/{航海|こうかい}, {再会|さいかい} vs {再開|さいかい}, {兵器|へいき} vs {平気|へいき}, {作動|さどう} vs {茶道|さどう}, {使節|しせつ} vs {施設|しせつ}
-- Distinction pairs: {共存|きょうぞん} vs {共生|きょうせい}, {入賞|にゅうしょう} vs {入選|にゅうせん}, {内心|ないしん} vs {内面|ないめん}
-- Cultural context: {侘|わ}び{寂|さ}び (tea ceremony, haiku, Zen aesthetics), {入部|にゅうぶ} (school club culture), {伝来|でんらい} (historical cultural exchange)
-- New kanji: 2,313 → 2,314 ({兵|へい})
-
-Total entries: 11,720 → 11,750
-Remaining candidates: 450 → 420 (30 removed)
 
 ---
 

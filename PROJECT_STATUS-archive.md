@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 264)
+Added 30 new dictionary entries (IDs 11665-11694) from candidate_words.json:
+
+- **Nouns/suru verbs - joining/membership (4)**: {入会|にゅうかい} (enrollment), {入部|にゅうぶ} (joining school club), {入賞|にゅうしょう} (winning a prize), {入選|にゅうせん} (being selected for exhibition)
+- **Nouns/suru verbs - society/diplomacy (5)**: {公開|こうかい} (release to public), {共有|きょうゆう} (sharing), {共存|きょうぞん} (coexistence), {共生|きょうせい} (symbiosis), {共演|きょうえん} (co-starring)
+- **Nouns/suru verbs - technical/formal (3)**: {作動|さどう} (operation of machinery), {併設|へいせつ} (attached facility), {伝来|でんらい} (introduction from abroad)
+- **Nouns - formal (6)**: {公文書|こうぶんしょ} (official document), {公用語|こうようご} (official language), {兵器|へいき} (weapon), {兵士|へいし} (soldier), {使節|しせつ} (envoy), {共犯|きょうはん} (accomplice)
+- **Nouns - general (5)**: {全文|ぜんぶん} (full text), {全米|ぜんべい} (all of America), {円形|えんけい} (circular shape), {付|つ}け{根|ね} (base/root), {先住民|せんじゅうみん} (indigenous people)
+- **Nouns - abstract (3)**: {内心|ないしん} (inwardly), {内面|ないめん} (inner feelings), {何者|なにもの} (who/what kind of person)
+- **Verb (1)**: {兼|か}ねる (to serve as both / unable to)
+- **Adverb (1)**: {再度|さいど} (once more, again)
+- **Cultural (1)**: {侘|わ}び{寂|さ}び (wabi-sabi aesthetic)
+- **Noun/suru verb (1)**: {再会|さいかい} (reunion)
+
+Notable features:
+- Multi-sense entries: {兼|か}ねる (serve as both / Vますかねる unable to), {内面|ないめん} (inner self / inner surface), {伝来|でんらい} (introduction from abroad / handed down through generations)
+- Homophone notes: {公開|こうかい} vs {後悔|こうかい}/{航海|こうかい}, {再会|さいかい} vs {再開|さいかい}, {兵器|へいき} vs {平気|へいき}, {作動|さどう} vs {茶道|さどう}, {使節|しせつ} vs {施設|しせつ}
+- Distinction pairs: {共存|きょうぞん} vs {共生|きょうせい}, {入賞|にゅうしょう} vs {入選|にゅうせん}, {内心|ないしん} vs {内面|ないめん}
+- Cultural context: {侘|わ}び{寂|さ}び (tea ceremony, haiku, Zen aesthetics), {入部|にゅうぶ} (school club culture), {伝来|でんらい} (historical cultural exchange)
+- New kanji: 2,313 → 2,314 ({兵|へい})
+
+Total entries: 11,720 → 11,750
+Remaining candidates: 450 → 420 (30 removed)
+
 ### 2026-02-17 (Vocabulary Expansion - 30 Mixed Entries, Session 262)
 Added 30 new dictionary entries (IDs 11605-11634) from candidate_words.json:
 
