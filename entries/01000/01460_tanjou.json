@@ -19,8 +19,8 @@
   "examples": [
     {
       "id": "01460_tanjou_ex1",
-      "japanese": "{子供|こども}の{誕生|たんじょう}を{祝|いわ}った。",
-      "english": "We celebrated the child's birth.",
+      "japanese": "{双子|ふたご}が{誕生|たんじょう}した。",
+      "english": "Twins were born.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -39,16 +39,6 @@
     },
     {
       "id": "01460_tanjou_ex3",
-      "japanese": "{誕生|たんじょう}おめでとう。",
-      "english": "Congratulations on the birth.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01460_tanjou_ex4",
       "japanese": "{赤|あか}ちゃんが{誕生|たんじょう}した。",
       "english": "A baby was born.",
       "notes": null,
@@ -58,10 +48,20 @@
       ]
     },
     {
+      "id": "01460_tanjou_ex4",
+      "japanese": "{子供|こども}の{誕生|たんじょう}を{家族|かぞく}で{喜|よろこ}んだ。",
+      "english": "The whole family celebrated the child's birth.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01460_tanjou_ex5",
-      "japanese": "{新|あたら}しいスターが{誕生|たんじょう}した。",
-      "english": "A new star was born.",
-      "notes": "Figurative usage",
+      "japanese": "{新|あたら}しい{商品|しょうひん}がたくさん{誕生|たんじょう}した。",
+      "english": "Many new products were created.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         2
@@ -69,8 +69,8 @@
     },
     {
       "id": "01460_tanjou_ex6",
-      "japanese": "{新|あたら}しい{時代|じだい}が{誕生|たんじょう}した。",
-      "english": "A new era was born.",
+      "japanese": "{新|あたら}しい{時代|じだい}が{誕生|たんじょう}しようとしている。",
+      "english": "A new era is about to be born.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -79,28 +79,18 @@
     },
     {
       "id": "01460_tanjou_ex7",
-      "japanese": "{双子|ふたご}が{誕生|たんじょう}した。",
-      "english": "Twins were born.",
+      "japanese": "この{大会|たいかい}から{新|あたら}しいチャンピオンが{誕生|たんじょう}した。",
+      "english": "A new champion emerged from this tournament.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
       ]
     },
     {
       "id": "01460_tanjou_ex8",
-      "japanese": "{新|あたら}しい{商品|しょうひん}が{誕生|たんじょう}した。",
-      "english": "A new product was created.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "01460_tanjou_ex9",
-      "japanese": "{誕生|たんじょう}の{瞬間|しゅんかん}に{立|た}ち{会|あ}った。",
-      "english": "I was present at the moment of birth.",
+      "japanese": "{子供|こども}の{誕生|たんじょう}は{人生|じんせい}で{一番|いちばん}{嬉|うれ}しい{出来事|できごと}だった。",
+      "english": "My child's birth was the happiest event of my life.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -108,13 +98,23 @@
       ]
     },
     {
-      "id": "01460_tanjou_ex10",
-      "japanese": "{新記録|しんきろく}が{誕生|たんじょう}した。",
-      "english": "A new record was set.",
+      "id": "01460_tanjou_ex9",
+      "japanese": "この{町|まち}からは{多|おお}くの{有名|ゆうめい}な{選手|せんしゅ}が{誕生|たんじょう}している。",
+      "english": "Many famous athletes have come from this town.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
         2
+      ]
+    },
+    {
+      "id": "01460_tanjou_ex10",
+      "japanese": "{初|はじ}めての{子供|こども}が{誕生|たんじょう}する{前|まえ}は、{毎日|まいにち}とても{楽|たの}しみだった。",
+      "english": "Before our first child was born, every day was full of excitement.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
       ]
     }
   ],
@@ -122,7 +122,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T12:28:49Z",
-    "modified": "2026-01-26T12:28:03Z",
+    "modified": "2026-02-17T23:50:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
