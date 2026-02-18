@@ -1,43 +1,30 @@
 ## Session: Example Sentences
 Date: 2026-02-18
-Entries checked: 01456-01475
+Entries checked: 01661-01680
 
 ### Changes Made
+- [01663]: Length progression — rewrote ex3-5 with proper progressive length (core tier)
+- [01665]: Length progression — reordered examples (moved shortest to ex1)
+- [01666]: Template fix — replaced ex3 (had ～ placeholder) with complete longer sentence
+- [01667]: Length progression — rewrote ex3-5 with progressive length (core tier)
+- [01669]: Length progression — rewrote ex4-5 with progressive length (core tier)
+- [01670]: Length progression — reordered and rewrote all 5 examples for proper progression (core tier)
+- [01671]: Missing count — added 3 examples for sense 2, improved sense 1 ex3 (now 3/3 per sense)
+- [01673]: Length progression — replaced ex3 with longer sentence
+- [01674]: Length progression — reorganized all 10 examples by sense with progressive length within each sense (core tier)
+- [01675]: Length progression — reordered and rewrote for progressive length
+- [01676]: Length progression — reordered and rewrote for progressive length
+- [01677]: Missing count — added 6 examples (had 1 per sense, now 3/3 for all 3 senses)
+- [01678]: Length progression — reordered, rewrote ex3 to be longest
+- [01679]: Length progression — reordered, rewrote ex3 as longer formal sentence
+- [01680]: Missing count — reorganized and added 3 examples (now 3/3 per sense)
 
-**Count issues (added examples):**
-- 01459_tanin: Added 3 examples for sense 1 (stranger) — had only 2, needed 5. Also reordered for length progression and moved 迷惑 (general) out of core ex1-2 position.
-- 01462_chikaku: Added 1 example for sense 1 (nearby) — had only 2, needed 3. Reordered for better sense 2 progression.
-- 01471_denwa: Added 1 example for sense 2 (phone call) — had only 4, needed 5. Reordered for progression. Fixed vocab violations: replaced 知らせる (general) and 変える (general) with basic-tier alternatives. Moved かける (core) out of basic ex1-2 position.
-
-**Vocabulary tier violations fixed:**
-- 01456_taisetsu: Replaced ex4 (限る is general tier, violates basic+core for basic entry). Swapped ex2/ex3 for length progression.
-- 01460_tanjou: Rewrote examples — ex1 used 祝う (general) in core ex1-2 position. Improved length progression throughout (was extremely flat, all 8-14 chars). Now ranges from 8-26 chars.
-- 01463_chishiki: Replaced ex1/ex2 — ex2 used 広げる (general) in core ex1-2 position. Reordered for progression.
-- 01465_chuugakkou: Replaced ex1/ex2 — both used general-tier vocab (卒業, 入学) in core ex1-2 position. Moved those to ex3+ positions.
-- 01466_chuusha: Replaced ex1/ex2 — ex2 used 禁止 (general) in core ex1-2 position. Created new short ex1 with basic+core vocab. Reordered for progression.
-
-**Length progression fixes (reorder/replace):**
-- 01457_taishikan: Reordered (was reversed: 14→12→9, now 9→12→14)
-- 01458_tatemono: Replaced ex3 with longer example (was 10 chars same as ex2, now 20 chars)
-- 01461_chiiki: Replaced ex3 with longer example (was 9 chars same as ex1, now 15 chars)
-- 01470_tenrankai: Reordered (ex2 was shorter than ex1)
-- 01473_dentou: Swapped ex1/ex2 (ex2 at 7 chars was shorter than ex1 at 11 chars)
-- 01474_denpou: Swapped ex2/ex3 (ex3 at 9 chars was shorter than ex2 at 12 chars)
-
-**Entries with no changes needed:**
-- 01464_chuui: General tier, 3 per sense, acceptable progression
-- 01468_teido: General tier, 3 per sense, acceptable progression
-- 01469_tekisuto: General tier, 3 per sense, acceptable progression
-- 01472_denchi: Core tier, 5 examples, good progression (7→11→11→20→26)
-- 01467_chuushin: Core tier, 5+ per sense, could improve progression but adequate
-- 01475_toori: Basic tier, 5 per sense, complex multi-sense ordering but adequate
-
-### Summary
-- Entries checked: 20
-- Entries modified: 14
-- Examples added: 5 new examples
-- Vocabulary violations fixed: 8 (across 5 entries)
-- Length progression fixes: 11 (reorders and replacements)
+### Entries with no changes needed
+- [01661]: OK (general, 1 sense, 3/3)
+- [01662]: OK (general, 1 sense, 3/3)
+- [01664]: OK (general, 1 sense, 3/3)
+- [01668]: OK (general, 1 sense, 3/3)
+- [01672]: OK (general, 1 sense, 3/3)
 
 ### Next Entry
-01476
+01681
