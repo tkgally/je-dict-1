@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-17
+**Last updated**: 2026-02-18
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,840 |
+| Total entries | ~11,870 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,041 (open) |
-| Candidate words | ~330 |
+| General tier | ~9,071 (open) |
+| Candidate words | ~300 |
 | Cross-references | ~3,350 |
 | Example sentences | ~43,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 268)
+Added 30 new dictionary entries (IDs 11785-11814) from candidate_words.json:
+
+- **Nouns/suru verbs - formal (8)**: {判明|はんめい} (becoming clear), {削減|さくげん} (reduction), {創業|そうぎょう} (founding a business), {加工|かこう} (processing), {勝利|しょうり} (victory), {回避|かいひ} (avoidance), {制約|せいやく} (constraint), {収容|しゅうよう} (accommodation/internment)
+- **Nouns - abstract/formal (6)**: {利点|りてん} (advantage), {前例|ぜんれい} (precedent), {効率|こうりつ} (efficiency), {危機|きき} (crisis), {勢力|せいりょく} (power/influence), {善意|ぜんい} (goodwill/good faith)
+- **Nouns - time/arrival (2)**: {到来|とうらい} (advent), {史上|しじょう} (in history)
+- **Nouns - concrete/cultural (5)**: {別荘|べっそう} (villa), {化石|かせき} (fossil), {匿名|とくめい} (anonymity), {口調|くちょう} (tone of voice), {古都|こと} (ancient capital)
+- **Nouns - other (3)**: {前線|ぜんせん} (front line/weather front), {原則|げんそく} (principle), {原料|げんりょう} (raw materials)
+- **Na-adjective (1)**: {台無|だいな}し (ruined)
+- **Noun (1)**: {四季|しき} (four seasons)
+- **Verbs (4)**: {占|し}める (to occupy/account for), {叶|かな}える (to fulfill), {告|つ}げる (to tell/herald), {嘆|なげ}く (to lament)
+
+Notable features:
+- Multi-sense entries: {占|し}める (occupy/account for), {告|つ}げる (tell/herald), {善意|ぜんい} (goodwill/good faith legal), {前線|ぜんせん} (front line/weather front), {収容|しゅうよう} (accommodation/internment), {原則|げんそく} (principle/as a rule)
+- Homophone cross-references: {占|し}める ↔ {閉|し}める/{締|し}める, {勢力|せいりょく} ↔ {精力|せいりょく}
+- Cultural context: {別荘|べっそう} (Karuizawa resort culture), {古都|こと} (Kyoto/Nara preservation), {四季|しき} (seasonal awareness), {匿名|とくめい} (anonymous internet culture)
+- New kanji: 2,319 → 2,321 ({嘆|たん}, {荘|そう})
+
+Total entries: 11,840 → 11,870
+Remaining candidates: 330 → 300 (30 removed)
 
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 267)
 Added 30 new dictionary entries (IDs 11755-11784) from candidate_words.json:
@@ -144,25 +165,6 @@ Notable features:
 
 Total entries: 11,720 → 11,750
 Remaining candidates: 450 → 420 (30 removed)
-
-### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 263)
-Added 30 new dictionary entries (IDs 11635-11664) from candidate_words.json:
-
-- **Nouns - formal/abstract (10)**: {事象|じしょう} (phenomenon), {全力|ぜんりょく} (full effort), {全盛期|ぜんせいき} (heyday), {全容|ぜんよう} (full picture), {個人差|こじんさ} (individual differences), {保安|ほあん} (security), {公衆|こうしゅう} (the public), {代名詞|だいめいし} (pronoun/byword), {元年|がんねん} (first year of era), {仕立|した}て (tailoring)
-- **Nouns/suru verbs (10)**: {入手|にゅうしゅ} (obtaining), {全滅|ぜんめつ} (annihilation), {公演|こうえん} (public performance), {公表|こうひょう} (disclosure), {公認|こうにん} (official recognition), {入浴|にゅうよく} (bathing), {入門|にゅうもん} (introduction/becoming disciple), {先取|さきど}り (getting ahead), {修了|しゅうりょう} (course completion), {公約|こうやく} (campaign promise)
-- **Na-adjectives (3)**: {人為的|じんいてき} (artificial), {人道的|じんどうてき} (humanitarian), {全体的|ぜんたいてき} (overall)
-- **Nouns - social/political (3)**: {公共|こうきょう} (public), {信任|しんにん} (confidence/mandate), {付|つ}き{添|そ}い (attendant)
-- **Verbs (4)**: {入|い}り{込|こ}む (to slip into/get absorbed), {全|まっと}うする (to accomplish), {介|かい}する (to mediate/not care about)
-
-Notable features:
-- Multi-sense entries: {入門|にゅうもん} (intro book/becoming disciple), {代名詞|だいめいし} (pronoun/byword), {入|い}り{込|こ}む (enter deeply/get absorbed), {元年|がんねん} (era year/inaugural year), {仕立|した}て (tailoring/style format), {介|かい}する (go through/mind)
-- Homophone notes: {公演|こうえん} vs {公園|こうえん}, {修了|しゅうりょう} vs {終了|しゅうりょう}, {公共|こうきょう} vs {好況|こうきょう}
-- Cross-references: {入|い}り{込|こ}む ↔ {入|はい}り{込|こ}む, {公演|こうえん} ↔ {公園|こうえん}
-- Set phrases: {全力|ぜんりょく}を{尽|つ}くす, {意|い}に{介|かい}さない, {天寿|てんじゅ}を{全|まっと}うする
-- Formal register variety: {公表|こうひょう}, {信任|しんにん}, {人道的|じんどうてき} alongside neutral {全力|ぜんりょく}, {個人差|こじんさ}
-
-Total entries: 11,690 → 11,720
-Remaining candidates: 480 → 450 (30 removed)
 
 ---
 
