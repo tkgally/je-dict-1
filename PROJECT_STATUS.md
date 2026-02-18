@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,900 |
+| Total entries | ~11,930 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,101 (open) |
-| Candidate words | ~270 |
+| General tier | ~9,131 (open) |
+| Candidate words | ~240 |
 | Cross-references | ~3,350 |
 | Example sentences | ~43,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 270)
+Added 30 new dictionary entries (IDs 11845-11874) from candidate_words.json:
+
+- **Verbs - godan (6)**: {利|き}く (to be effective), {勝|まさ}る (to surpass), {区切|くぎ}る (to divide/mark off), {口説|くど}く (to persuade/hit on), {呪|のろ}う (to curse), {名乗|なの}る (to call oneself)
+- **Verbs - ichidan (4)**: {努|つと}める (to strive), {化|ば}ける (to transform), {収|おさ}まる (to fit into/settle down), {割|わ}り{当|あ}てる (to assign/allocate)
+- **I-adjective (1)**: {勇|いさ}ましい (brave, valiant)
+- **Na-adjective (1)**: {厳|おごそ}か (solemn, majestic)
+- **Nouns - abstract/formal (6)**: {双方|そうほう} (both sides), {即座|そくざ} (immediately), {危惧|きぐ} (apprehension), {参照|さんしょう} (reference), {因果|いんが} (cause and effect/karma), {厳選|げんせん} (careful selection)
+- **Nouns - military/historical (2)**: {反乱|はんらん} (rebellion), {占領|せんりょう} (occupation)
+- **Nouns - cultural (2)**: {古墳|こふん} (ancient burial mound), {唐辛子|とうがらし} (chili pepper)
+- **Nouns - general (4)**: {呼|よ}びかけ (call/appeal), {命懸|いのちが}け (risking one's life), {咆哮|ほうこう} (roar/howl), {医師|いし} (doctor/physician)
+- **Nouns - arts/records (4)**: {台本|だいほん} (script/screenplay), {名作|めいさく} (masterpiece), {名簿|めいぼ} (register/roster), {受賞|じゅしょう} (winning a prize)
+
+Notable features:
+- Multi-sense entries: {利|き}く (effective/possible), {化|ば}ける (supernatural/figurative), {区切|くぎ}る (segment/conclude), {口説|くど}く (persuade/romance), {収|おさ}まる (fit/settle), {因果|いんが} (causation/karma), {名乗|なの}る (identify/claim)
+- Homophone cross-references: {利|き}く ↔ {効|き}く/{聞|き}く, {努|つと}める ↔ {務|つと}める/{勤|つと}める, {医師|いし} ↔ {意志|いし}/{石|いし}
+- Cultural context: {古墳|こふん} (Kofun period/UNESCO), {唐辛子|とうがらし} (shichimi/ichimi), {化|ば}ける (fox/tanuki folklore)
+- New kanji: 2,323 → 2,326 ({咆|ほう}, {哮|こう}, {墳|ふん})
+
+Total entries: 11,900 → 11,930
+Remaining candidates: 270 → 240 (30 removed)
 
 ### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 269)
 Added 30 new dictionary entries (IDs 11815-11844) from candidate_words.json:
@@ -138,30 +160,6 @@ Notable features:
 
 Total entries: 11,780 → 11,810
 Remaining candidates: 390 → 360 (30 removed)
-
-### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 265)
-Added 30 new dictionary entries (IDs 11695-11724) from candidate_words.json:
-
-- **Loanwords - nouns (10)**: チュートリアル (tutorial), ファンタジー (fantasy), フィットネス (fitness), フェスティバル (festival), プレート (plate), レーダー (radar), ロール (roll/role), パッケージ (package), リアリティ (reality), ピックアップ (pickup/selection)
-- **Loanwords - na-adjective (1)**: ポピュラー (popular)
-- **Loanwords - noun/suru verb (3)**: スカウト (scouting/recruiting), トライ (try/attempt), リベラル (liberal)
-- **Japanese nouns - formal/historical (6)**: {主君|しゅくん} (feudal lord), {伯爵|はくしゃく} (count/earl), {俗称|ぞくしょう} (colloquial name), {亡骸|なきがら} (remains/corpse), {不死|ふし} (immortality), {下位|かい} (lower rank)
-- **Japanese nouns - general (5)**: {今日|こんにち} (today/nowadays), {交友|こうゆう} (friendship), {人力|じんりき} (manpower), {人工衛星|じんこうえいせい} (artificial satellite), {付加価値|ふかかち} (added value)
-- **Japanese nouns - counter (1)**: {件|けん} (matter/case; counter for cases)
-- **Japanese nouns - cultural (1)**: {仲居|なかい} (ryokan attendant)
-- **Nouns - warfare (1)**: {交戦|こうせん} (battle/engagement)
-- **Verbs (2)**: {代|か}える (to substitute), {代|か}わる (to take the place of)
-
-Notable features:
-- Good mix of katakana loanwords (14) and native Japanese words (16)
-- Multi-sense entries: トライ (attempt/rugby try), パッケージ (packaging/package deal), プレート (dish/metal plate), ファンタジー (genre/daydream), ロール (roll/role), リアリティ (realism/reality TV), ピックアップ (selection/pickup), {件|けん} (matter/counter), {今日|こんにち} (today/nowadays)
-- Transitive/intransitive pair: {代|か}える ↔ {代|か}わる
-- Homophone cross-references: {今日|こんにち} ↔ {今日|きょう}, {不死|ふし} ↔ {節|ふし}, {交戦|こうせん} ↔ {光線|こうせん}
-- Cultural context: {仲居|なかい} (ryokan hospitality), {伯爵|はくしゃく} (Meiji peerage system)
-- New kanji: 2,314 → 2,318 ({伯|はく}, {俗|ぞく}, {爵|しゃく}, {称|しょう})
-
-Total entries: 11,750 → 11,780
-Remaining candidates: 420 → 390 (30 removed)
 
 ---
 

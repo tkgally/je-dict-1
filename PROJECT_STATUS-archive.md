@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 265)
+Added 30 new dictionary entries (IDs 11695-11724) from candidate_words.json:
+
+- **Loanwords - nouns (10)**: チュートリアル (tutorial), ファンタジー (fantasy), フィットネス (fitness), フェスティバル (festival), プレート (plate), レーダー (radar), ロール (roll/role), パッケージ (package), リアリティ (reality), ピックアップ (pickup/selection)
+- **Loanwords - na-adjective (1)**: ポピュラー (popular)
+- **Loanwords - noun/suru verb (3)**: スカウト (scouting/recruiting), トライ (try/attempt), リベラル (liberal)
+- **Japanese nouns - formal/historical (6)**: {主君|しゅくん} (feudal lord), {伯爵|はくしゃく} (count/earl), {俗称|ぞくしょう} (colloquial name), {亡骸|なきがら} (remains/corpse), {不死|ふし} (immortality), {下位|かい} (lower rank)
+- **Japanese nouns - general (5)**: {今日|こんにち} (today/nowadays), {交友|こうゆう} (friendship), {人力|じんりき} (manpower), {人工衛星|じんこうえいせい} (artificial satellite), {付加価値|ふかかち} (added value)
+- **Japanese nouns - counter (1)**: {件|けん} (matter/case; counter for cases)
+- **Japanese nouns - cultural (1)**: {仲居|なかい} (ryokan attendant)
+- **Nouns - warfare (1)**: {交戦|こうせん} (battle/engagement)
+- **Verbs (2)**: {代|か}える (to substitute), {代|か}わる (to take the place of)
+
+Notable features:
+- Good mix of katakana loanwords (14) and native Japanese words (16)
+- Multi-sense entries: トライ (attempt/rugby try), パッケージ (packaging/package deal), プレート (dish/metal plate), ファンタジー (genre/daydream), ロール (roll/role), リアリティ (realism/reality TV), ピックアップ (selection/pickup), {件|けん} (matter/counter), {今日|こんにち} (today/nowadays)
+- Transitive/intransitive pair: {代|か}える ↔ {代|か}わる
+- Homophone cross-references: {今日|こんにち} ↔ {今日|きょう}, {不死|ふし} ↔ {節|ふし}, {交戦|こうせん} ↔ {光線|こうせん}
+- Cultural context: {仲居|なかい} (ryokan hospitality), {伯爵|はくしゃく} (Meiji peerage system)
+- New kanji: 2,314 → 2,318 ({伯|はく}, {俗|ぞく}, {爵|しゃく}, {称|しょう})
+
+Total entries: 11,750 → 11,780
+Remaining candidates: 420 → 390 (30 removed)
+
 ### 2026-02-17 (Vocabulary Expansion - 30 New Entries, Session 264)
 Added 30 new dictionary entries (IDs 11665-11694) from candidate_words.json:
 
