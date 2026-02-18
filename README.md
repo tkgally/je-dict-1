@@ -29,10 +29,10 @@ Audio readings for example sentences will be added in the future.
 
 ## Current Status
 
-- **Over 11,000 entries** across three vocabulary tiers
-- **Vocabulary tiers**: Basic (801), Core (1,998), General (8,000+) — all new entries are added to general tier
+- **11,870 entries** across three vocabulary tiers
+- **Vocabulary tiers**: Basic (801), Core (1,998), General (9,071) — all new entries are added to general tier
 - **Over 3,300 cross-references** linking related entries
-- **~40,000 example sentences** with inline word links
+- **46,280 example sentences** with inline word links
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
 - **Automated pipeline** for batch dictionary maintenance tasks
