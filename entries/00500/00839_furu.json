@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00839_furu_ex1",
-      "japanese": "{雨|あめ}が{降|ふ}っています。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{降|ふ}っています。",
       "english": "It's raining.",
       "notes": "ている for ongoing weather",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00839_furu_ex2",
-      "japanese": "{昨日|きのう}{雪|ゆき}が{降|ふ}りました。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧{降|ふ}りました。",
       "english": "It snowed yesterday.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00839_furu_ex3",
-      "japanese": "{明日|あした}は{雨|あめ}が{降|ふ}るでしょう。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{降|ふ}る⟦でしょう→でしょう：09887_deshou⟧。",
       "english": "It will probably rain tomorrow.",
       "notes": "Weather forecast style",
       "has_audio": false,
@@ -47,7 +47,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:03:36Z",
-    "modified": "2026-01-20T03:30:00Z",
+    "modified": "2026-02-19T01:34:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
