@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "00908_warui_ex1",
-      "japanese": "{天気|てんき}が{悪|わる}いです。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{悪|わる}いです。",
       "english": "The weather is bad.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "00908_warui_ex2",
-      "japanese": "{目|め}が{悪|わる}いです。",
+      "japanese": "⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{悪|わる}いです。",
       "english": "I have bad eyesight.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "00908_warui_ex3",
-      "japanese": "{体|からだ}の{調子|ちょうし}が{悪|わる}いです。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧⟦{調子|ちょうし}→調子：03491_choushi⟧⟦が→が：00051_ga⟧{悪|わる}いです。",
       "english": "I'm not feeling well.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "00908_warui_ex4",
-      "japanese": "{成績|せいせき}が{悪|わる}くて、{先生|せんせい}に{注意|ちゅうい}されました。",
+      "japanese": "⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧{悪|わる}くて、⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦されました→する：00392_suru⟧。",
       "english": "My grades were bad, and the teacher scolded me.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "00908_warui_ex5",
-      "japanese": "この{道|みち}は{悪|わる}いので、ゆっくり{運転|うんてん}してください。{穴|あな}がたくさんあります。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道|みち}→道：00505_michi⟧⟦は→は：00079_ha⟧{悪|わる}いので、⟦ゆっくり→ゆっくり：00910_yukkuri⟧⟦{運転|うんてん}→運転：01335_unten⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。⟦{穴|あな}→穴：01691_ana⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦あります→ある：00006_aru⟧。",
       "english": "This road is bad, so please drive slowly. There are many holes.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "00908_warui_ex6",
-      "japanese": "{悪|わる}い、{遅|おく}れた。",
+      "japanese": "{悪|わる}い、⟦{遅|おく}れた→遅れる：00741_okureru⟧。",
       "english": "Sorry, I'm late.",
       "notes": "Casual apology",
       "has_audio": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": "00908_warui_ex7",
-      "japanese": "{悪|わる}いね、{待|ま}った?",
+      "japanese": "{悪|わる}い⟦ね→ね：09474_ne⟧、⟦{待|ま}った→待つ：00469_matsu⟧?",
       "english": "Sorry, did you wait?",
       "notes": "Casual apology",
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "00908_warui_ex8",
-      "japanese": "{悪|わる}いけど、ちょっと{手伝|てつだ}って。",
+      "japanese": "{悪|わる}い⟦けど→けど：09477_kedo⟧、⟦ちょっと→ちょっと：00595_chotto⟧⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧。",
       "english": "Sorry, but could you help me a bit?",
       "notes": null,
       "has_audio": false,
@@ -99,7 +99,7 @@
     },
     {
       "id": "00908_warui_ex9",
-      "japanese": "{悪|わる}いと{思|おも}ったから、{謝|あやま}りに{来|き}ました。",
+      "japanese": "{悪|わる}い⟦と→と：00512_to⟧⟦{思|おも}った→思う：00492_omou⟧⟦から→から：00504_kara⟧、⟦{謝|あやま}りに→謝る：01177_ayamaru⟧⟦{来|き}ました→来る：00254_kuru⟧。",
       "english": "I felt bad, so I came to apologize.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "00908_warui_ex10",
-      "japanese": "{悪|わる}いことをしたと{思|おも}ったら、すぐに{謝|あやま}るべきです。",
+      "japanese": "{悪|わる}い⟦こと→こと：01164_koto⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦と→と：00512_to⟧⟦{思|おも}ったら→思う：00492_omou⟧、⟦すぐに→すぐ：00814_sugu⟧⟦{謝|あやま}るべきです→謝る：01177_ayamaru⟧。",
       "english": "If you think you did something wrong, you should apologize right away.",
       "notes": null,
       "has_audio": false,
@@ -122,7 +122,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:11:10Z",
-    "modified": "2026-01-22T07:03:55Z",
+    "modified": "2026-02-19T03:16:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
