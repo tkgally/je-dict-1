@@ -1,11 +1,11 @@
 #!/bin/bash
 # run_newentries.sh — Create new dictionary entries in batches
 # Each run creates 30 entries from candidate_words.json.
-# Default: 3 runs. Change TOTAL_RUNS below to adjust.
+# Change TOTAL_RUNS below to adjust number of runs.
 
 set -euo pipefail
 
-TOTAL_RUNS=3
+TOTAL_RUNS=8
 PROJECT_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
 cd "$PROJECT_DIR"
 
