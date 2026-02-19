@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00815_tabun_ex1",
-      "japanese": "たぶん{明日|あした}は{雨|あめ}でしょう。",
+      "japanese": "たぶん⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦でしょう→でしょう：09887_deshou⟧。",
       "english": "It will probably rain tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00815_tabun_ex2",
-      "japanese": "たぶん{大丈夫|だいじょうぶ}だと{思|おも}います。",
+      "japanese": "たぶん⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧だ⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
       "english": "I think it's probably okay.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00815_tabun_ex3",
-      "japanese": "たぶん{来|こ}ないと{思|おも}います。",
+      "japanese": "たぶん⟦{来|こ}ない→来る：00254_kuru⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
       "english": "I don't think they'll probably come.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00815_tabun_ex4",
-      "japanese": "「{田中|たなか}さんは{来|き}ますか。」「たぶん{来|く}ると{思|おも}いますが、わかりません。」",
+      "japanese": "「{田中|たなか}さん⟦は→は：00079_ha⟧⟦{来|き}ます→来る：00254_kuru⟧⟦か→か：09473_ka⟧。」「たぶん⟦{来|く}る→来る：00254_kuru⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧⟦が→が：00051_ga⟧、⟦わかりません→分かる：00463_wakaru⟧。」",
       "english": "\"Will Tanaka-san come?\" \"I think they'll probably come, but I'm not sure.\"",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00815_tabun_ex5",
-      "japanese": "たぶん{電車|でんしゃ}が{遅|おく}れたのでしょう。いつもは{時間|じかん}どおりに{来|く}る{人|ひと}ですから。",
+      "japanese": "たぶん⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅|おく}れた→遅れる：00741_okureru⟧⟦の→の：09472_no⟧⟦でしょう→でしょう：09887_deshou⟧。⟦いつも→いつも：00599_itsumo⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦どおり→通り：01475_toori⟧⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧⟦{人|ひと}→人：00476_hito⟧です⟦から→から：00504_kara⟧。",
       "english": "The train was probably delayed. They're usually someone who arrives on time.",
       "notes": null,
       "has_audio": false,
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:22:07Z",
-    "modified": "2026-01-28T02:20:41Z",
+    "modified": "2026-02-19T01:02:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
