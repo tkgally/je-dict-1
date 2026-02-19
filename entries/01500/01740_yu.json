@@ -19,8 +19,8 @@
   "examples": [
     {
       "id": "01740_yu_ex1",
-      "japanese": "{湯|ゆ}を{沸|わ}かしてください。",
-      "english": "Please boil some water.",
+      "japanese": "お{湯|ゆ}が{熱|あつ}い。",
+      "english": "The hot water is hot.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -29,6 +29,46 @@
     },
     {
       "id": "01740_yu_ex2",
+      "japanese": "お{湯|ゆ}でお{茶|ちゃ}を{入|い}れた。",
+      "english": "I made tea with hot water.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01740_yu_ex3",
+      "japanese": "お{湯|ゆ}を{入|い}れてコーヒーを{作|つく}った。",
+      "english": "I poured hot water and made coffee.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01740_yu_ex4",
+      "japanese": "{寒|さむ}い{日|ひ}には{温|あたた}かいお{湯|ゆ}で{手|て}を{洗|あら}うと{気持|きも}ちがいい。",
+      "english": "On cold days, it feels nice to wash your hands with warm water.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01740_yu_ex5",
+      "japanese": "{私|わたし}は{毎日|まいにち}{朝|あさ}{起|お}きたら、まず{温|あたた}かいお{湯|ゆ}でお{茶|ちゃ}を{入|い}れて{飲|の}むのが{好|す}きです。",
+      "english": "Every day when I wake up in the morning, I like to make tea with hot water and drink it first.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01740_yu_ex6",
       "japanese": "{湯|ゆ}に{入|はい}る。",
       "english": "To take a bath.",
       "notes": null,
@@ -38,29 +78,9 @@
       ]
     },
     {
-      "id": "01740_yu_ex3",
-      "japanese": "{湯|ゆ}が{熱|あつ}すぎます。",
-      "english": "The hot water is too hot.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01740_yu_ex4",
-      "japanese": "お{湯|ゆ}を{入|い}れてコーヒーを{作|つく}る。",
-      "english": "Pour hot water to make coffee.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01740_yu_ex5",
-      "japanese": "{温泉|おんせん}の{湯|ゆ}は{気持|きも}ちがいい。",
-      "english": "The hot spring water feels nice.",
+      "id": "01740_yu_ex7",
+      "japanese": "{温|あたた}かい{湯|ゆ}に{入|はい}りたい。",
+      "english": "I want to get into warm water.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -68,29 +88,9 @@
       ]
     },
     {
-      "id": "01740_yu_ex6",
-      "japanese": "カップにお{湯|ゆ}を{注|そそ}ぐ。",
-      "english": "Pour hot water into the cup.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01740_yu_ex7",
-      "japanese": "{湯|ゆ}{気|げ}が{立|た}っている。",
-      "english": "Steam is rising.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
       "id": "01740_yu_ex8",
-      "japanese": "{銭湯|せんとう}の{湯|ゆ}に{浸|つ}かった。",
-      "english": "I soaked in the public bath.",
+      "japanese": "{温泉|おんせん}の{湯|ゆ}はとても{気持|きも}ちがいい。",
+      "english": "The hot spring water feels really nice.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -99,8 +99,8 @@
     },
     {
       "id": "01740_yu_ex9",
-      "japanese": "{露天|ろてん}{風呂|ぶろ}の{湯|ゆ}は{最高|さいこう}だ。",
-      "english": "Open-air bath water is the best.",
+      "japanese": "{日本|にほん}の{温泉|おんせん}では、{湯|ゆ}に{入|はい}る{前|まえ}に{体|からだ}を{洗|あら}わなければなりません。",
+      "english": "At Japanese hot springs, you must wash your body before getting into the water.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -109,12 +109,12 @@
     },
     {
       "id": "01740_yu_ex10",
-      "japanese": "お{湯|ゆ}が{足|た}りない。",
-      "english": "There's not enough hot water.",
+      "japanese": "{夏|なつ}は{暑|あつ}いので{冷|つめ}たい{水|みず}がいいですが、{冬|ふゆ}はやっぱり{温|あたた}かい{湯|ゆ}に{入|はい}りたくなります。",
+      "english": "In summer it's hot so cold water is fine, but in winter you really want to get into warm water.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
       ]
     }
   ],
@@ -122,7 +122,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:16:10Z",
-    "modified": "2026-01-23T08:38:15Z",
+    "modified": "2026-02-19T15:22:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
