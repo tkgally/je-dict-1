@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,020 |
+| Total entries | ~12,050 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,221 (open) |
-| Candidate words | ~508 |
-| Cross-references | ~3,350 |
-| Example sentences | ~43,400 |
+| General tier | ~9,251 (open) |
+| Candidate words | ~478 |
+| Cross-references | ~3,360 |
+| Example sentences | ~43,500 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 274)
+Added 30 new dictionary entries (IDs 11965-11994) from candidate_words.json:
+
+- **Verbs - godan (3)**: {厭|いと}う (to dislike/shun), {反|そ}る (to bend backward/warp), {取|と}り{憑|つ}く (to possess/haunt)
+- **Verbs - ichidan (1)**: {取|と}りやめる (to cancel)
+- **Verbs - suru (4)**: {反|はん}する (to contradict/violate), {博|はく}する (to win/gain), {即|そく}する (to conform to), {口|くち}ごたえする (to talk back)
+- **Nouns/suru - formal (5)**: {入団|にゅうだん} (joining a team), {即死|そくし} (instant death), {即位|そくい} (enthronement), {参戦|さんせん} (entering a war), {出展|しゅってん} (exhibiting)
+- **Nouns - food (2)**: {卵白|らんぱく} (egg white), {卵黄|らんおう} (egg yolk)
+- **Nouns - geography/direction (2)**: {原野|げんや} (wilderness), {南方|なんぽう} (the south)
+- **Nouns - abstract/formal (3)**: {原型|げんけい} (prototype), {原案|げんあん} (draft proposal), {利上|りあ}げ (interest rate hike)
+- **Nouns - culture (4)**: {参道|さんどう} (approach to shrine), {反旗|はんき} (flag of rebellion), {厄|やく} (misfortune/unlucky age), {八百万|やおよろず} (myriad gods)
+- **Nouns - general (4)**: {双眼鏡|そうがんきょう} (binoculars), {出禁|できん} (banned from entry), {単品|たんぴん} (single item/a la carte), {公|おおやけ} (public/official)
+- **Noun/adjective (1)**: {単一|たんいつ} (single/uniform)
+- **Expression (1)**: {右往左往|うおうさおう} (running about in confusion)
+
+Notable features:
+- Multi-sense entries: {反|はん}する (contradict/violate), {反|そ}る (arch back/warp), {取|と}り{憑|つ}く (possess/obsessed), {厄|やく} (misfortune/unlucky age), {原案|げんあん} (draft/original concept), {参戦|さんせん} (war/competition)
+- Cultural context: {厄|やく} ({厄年|やくどし} ages), {八百万|やおよろず} (Shinto animism), {参道|さんどう} ({表参道|おもてさんどう}), {即位|そくい} (Emperor's enthronement ceremony)
+- Homophone cross-references: {反|そ}る ↔ {剃|そ}る, {出展|しゅってん} ↔ {出典|しゅってん}
+- New kanji: 2,328 → 2,329 ({厭|えん})
+
+Total entries: 12,020 → 12,050
+Remaining candidates: 508 → 478 (30 removed)
 
 ### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 273)
 Added 30 new dictionary entries (IDs 11935-11964) from candidate_words.json:
@@ -139,27 +163,6 @@ Notable features:
 
 Total entries: 11,900 → 11,930
 Remaining candidates: 270 → 240 (30 removed)
-
-### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 269)
-Added 30 new dictionary entries (IDs 11815-11844) from candidate_words.json:
-
-- **Nouns/suru verbs - formal (7)**: {到達|とうたつ} (reaching), {制御|せいぎょ} (control), {勃発|ぼっぱつ} (outbreak), {喪失|そうしつ} (loss), {収集|しゅうしゅう} (collection), {募金|ぼきん} (fundraising), {回想|かいそう} (reminiscence)
-- **Nouns - time/schedule (3)**: {前回|ぜんかい} (last time), {前倒|まえだお}し (moving up schedule), {即席|そくせき} (instant/impromptu)
-- **Nouns - formal/abstract (4)**: {効力|こうりょく} (efficacy), {原点|げんてん} (origin), {協会|きょうかい} (association), {加齢|かれい} (aging)
-- **Nouns - concrete/cultural (5)**: {剣|けん} (sword), {古民家|こみんか} (old traditional house), {商店|しょうてん} (shop), {品揃|しなぞろ}え (product lineup), {呪文|じゅもん} (spell/incantation)
-- **Nouns - other (3)**: {原作|げんさく} (original work), {喜劇|きげき} (comedy), {品種|ひんしゅ} (variety/breed)
-- **Na-adjective (1)**: {単調|たんちょう} (monotonous)
-- **I-adjective (1)**: {危|あや}うい (dangerous/precarious)
-- **Nouns (1)**: {器|うつわ} (vessel/caliber)
-- **Verbs (5)**: {割|さ}く (to spare/devote), {励|はげ}む (to work hard at), {咲|さ}き{誇|ほこ}る (to be in full bloom), {営|いとな}む (to run a business), {吹|ふ}き{飛|と}ぶ (to be blown away)
-
-Notable features:
-- Multi-sense entries: {割|さ}く (spare/tear), {危|あや}うい (dangerous/narrowly), {営|いとな}む (run business/conduct ceremony), {器|うつわ} (vessel/caliber), {吹|ふ}き{飛|と}ぶ (blown away/vanish)
-- Cultural context: {古民家|こみんか} (renovation trend), {器|うつわ} (food presentation aesthetics), {呪文|じゅもん} (Dragon Quest/RPG culture), {剣|けん} (martial arts)
-- New kanji: 2,321 → 2,323 ({勃|ぼつ}, {呪|じゅ})
-
-Total entries: 11,870 → 11,900
-Remaining candidates: 300 → 270 (30 removed)
 
 ---
 
