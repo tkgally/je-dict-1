@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,050 |
+| Total entries | ~12,080 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,251 (open) |
-| Candidate words | ~478 |
+| General tier | ~9,281 (open) |
+| Candidate words | ~448 |
 | Cross-references | ~3,360 |
 | Example sentences | ~43,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 275)
+Added 30 new dictionary entries (IDs 11995-12024) from candidate_words.json:
+
+- **Verbs - godan (7)**: {哀|あわ}れむ (to pity), {取|と}り{交|か}わす (to exchange documents), {取|と}り{合|あ}う (to compete for), {吸|す}い{取|と}る (to absorb), {合|あ}わさる (to come together), {囲|かこ}う (to enclose), {図|はか}る (to plan/aim for)
+- **Verbs - ichidan (3)**: {噛|か}みしめる (to chew/savor), {名付|なづ}ける (to name), {問|と}いかける (to pose a question)
+- **Verbs - suru (1)**: {呈|てい}する (to present/exhibit)
+- **I-adjective (1)**: {喜|よろこ}ばしい (delightful)
+- **Nouns - body/health (1)**: {咳|せき} (cough)
+- **Nouns - culture/traditional (3)**: {囲炉裏|いろり} (sunken hearth), {土俵|どひょう} (sumo ring), {嗜|たしな}み (refinement)
+- **Nouns - politics/economics (5)**: {圧力|あつりょく} (pressure), {国交|こっこう} (diplomatic relations), {国債|こくさい} (government bond), {国産|こくさん} (domestic production), {困窮|こんきゅう} (poverty)
+- **Nouns - evaluation/abstract (4)**: {圧巻|あっかん} (highlight), {圧迫|あっぱく} (pressure/oppression), {合致|がっち} (agreement), {固執|こしつ} (obstinacy)
+- **Nouns - general (4)**: {吸血鬼|きゅうけつき} (vampire), {商標|しょうひょう} (trademark), {回顧|かいこ} (retrospection), {図面|ずめん} (blueprint)
+- **Nature (1)**: {団栗|どんぐり} (acorn)
+
+Notable features:
+- Multi-sense entries: {噛|か}みしめる (chew/savor), {取|と}り{合|あ}う (compete/pay attention), {吸|す}い{取|と}る (absorb/exploit), {囲|かこ}う (enclose/keep), {図|はか}る (plan/aim for), {呈|てい}する (present/exhibit), {圧迫|あっぱく} (physical/figurative), {圧力|あつりょく} (physical/political), {土俵|どひょう} (sumo ring/arena), {嗜|たしな}み (refinement/propriety)
+- Cultural context: {囲炉裏|いろり} (traditional hearth), {土俵|どひょう} (sumo culture), {嗜|たしな}み (cultural accomplishments), {団栗|どんぐり} (どんぐりの{背比|せくら}べ idiom)
+- Homophone cross-references: {図|はか}る ↔ {測|はか}る, {国債|こくさい} ↔ {国際|こくさい}, {回顧|かいこ} ↔ {解雇|かいこ}
+- New kanji: 2,329 → 2,331 ({俵|ひょう}, {嗜|し})
+
+Total entries: 12,050 → 12,080
+Remaining candidates: 478 → 448 (30 removed)
 
 ### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 274)
 Added 30 new dictionary entries (IDs 11965-11994) from candidate_words.json:
@@ -141,28 +164,6 @@ Notable features:
 
 Total entries: 11,930 → 11,960
 Remaining candidates: 240 → 210 (30 removed)
-
-### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 270)
-Added 30 new dictionary entries (IDs 11845-11874) from candidate_words.json:
-
-- **Verbs - godan (6)**: {利|き}く (to be effective), {勝|まさ}る (to surpass), {区切|くぎ}る (to divide/mark off), {口説|くど}く (to persuade/hit on), {呪|のろ}う (to curse), {名乗|なの}る (to call oneself)
-- **Verbs - ichidan (4)**: {努|つと}める (to strive), {化|ば}ける (to transform), {収|おさ}まる (to fit into/settle down), {割|わ}り{当|あ}てる (to assign/allocate)
-- **I-adjective (1)**: {勇|いさ}ましい (brave, valiant)
-- **Na-adjective (1)**: {厳|おごそ}か (solemn, majestic)
-- **Nouns - abstract/formal (6)**: {双方|そうほう} (both sides), {即座|そくざ} (immediately), {危惧|きぐ} (apprehension), {参照|さんしょう} (reference), {因果|いんが} (cause and effect/karma), {厳選|げんせん} (careful selection)
-- **Nouns - military/historical (2)**: {反乱|はんらん} (rebellion), {占領|せんりょう} (occupation)
-- **Nouns - cultural (2)**: {古墳|こふん} (ancient burial mound), {唐辛子|とうがらし} (chili pepper)
-- **Nouns - general (4)**: {呼|よ}びかけ (call/appeal), {命懸|いのちが}け (risking one's life), {咆哮|ほうこう} (roar/howl), {医師|いし} (doctor/physician)
-- **Nouns - arts/records (4)**: {台本|だいほん} (script/screenplay), {名作|めいさく} (masterpiece), {名簿|めいぼ} (register/roster), {受賞|じゅしょう} (winning a prize)
-
-Notable features:
-- Multi-sense entries: {利|き}く (effective/possible), {化|ば}ける (supernatural/figurative), {区切|くぎ}る (segment/conclude), {口説|くど}く (persuade/romance), {収|おさ}まる (fit/settle), {因果|いんが} (causation/karma), {名乗|なの}る (identify/claim)
-- Homophone cross-references: {利|き}く ↔ {効|き}く/{聞|き}く, {努|つと}める ↔ {務|つと}める/{勤|つと}める, {医師|いし} ↔ {意志|いし}/{石|いし}
-- Cultural context: {古墳|こふん} (Kofun period/UNESCO), {唐辛子|とうがらし} (shichimi/ichimi), {化|ば}ける (fox/tanuki folklore)
-- New kanji: 2,323 → 2,326 ({咆|ほう}, {哮|こう}, {墳|ふん})
-
-Total entries: 11,900 → 11,930
-Remaining candidates: 270 → 240 (30 removed)
 
 ---
 
