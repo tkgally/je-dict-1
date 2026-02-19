@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-18
+**Last updated**: 2026-02-19
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~11,990 |
+| Total entries | ~12,020 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,191 (open) |
-| Candidate words | ~180 |
+| General tier | ~9,221 (open) |
+| Candidate words | ~508 |
 | Cross-references | ~3,350 |
 | Example sentences | ~43,400 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 273)
+Added 30 new dictionary entries (IDs 11935-11964) from candidate_words.json:
+
+- **Nouns - food/cooking (2)**: {半熟|はんじゅく} (soft-boiled), {厨房|ちゅうぼう} (professional kitchen)
+- **Nouns - geography/history (2)**: {南極|なんきょく} (South Pole), {史跡|しせき} (historic site)
+- **Nouns - nuclear/military (3)**: {原爆|げんばく} (atomic bomb), {原発|げんぱつ} (nuclear power plant), {反撃|はんげき} (counterattack)
+- **Nouns/suru - formal/abstract (7)**: {即答|そくとう} (immediate reply), {反転|はんてん} (reversal), {取得|しゅとく} (acquisition), {受容|じゅよう} (acceptance), {召集|しょうしゅう} (convocation), {否認|ひにん} (denial), {君臨|くんりん} (reigning)
+- **Nouns - culture/language (5)**: {単行本|たんこうぼん} (standalone book/tankoubon), {博打|ばくち} (gambling), {合言葉|あいことば} (password/motto), {名門|めいもん} (prestigious institution), {号令|ごうれい} (command/signal)
+- **Nouns - general (2)**: {同情|どうじょう} (sympathy), {各種|かくしゅ} (various kinds)
+- **I-adjectives (2)**: {口寂|くちさび}しい (wanting to snack), {名高|なだか}い (renowned)
+- **Verbs - godan (4)**: {取|と}り{仕切|しき}る (to manage), {司|つかさど}る (to govern), {吹|ふ}き{込|こ}む (to blow into/instill), {叩|たた}き{出|だ}す (to drive out/produce a result)
+- **Verbs - ichidan (3)**: {千切|ちぎ}れる (to be torn apart), {古|ふる}びる (to become old), {呼|よ}び{寄|よ}せる (to summon)
+
+Notable features:
+- Multi-sense entries: {半熟|はんじゅく} (cooking/ripeness), {博打|ばくち} (gambling/risky venture), {合言葉|あいことば} (password/motto), {名門|めいもん} (family/institution), {吹|ふ}き{込|こ}む (blow in/instill/record), {叩|たた}き{出|だ}す (expel/achieve)
+- Cultural context: {口寂|くちさび}しい (uniquely Japanese concept), {号令|ごうれい} (Japanese classroom routine), {単行本|たんこうぼん} (manga culture), {博打|ばくち} (Edo-period gambling)
+- Homophone note: {受容|じゅよう} vs {需要|じゅよう}, {反転|はんてん} vs {斑点|はんてん}
+- New kanji: 2,327 → 2,328 ({厨|ちゅう})
+
+Total entries: 11,990 → 12,020
+Remaining candidates: 538 → 508 (30 removed)
 
 ### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 272)
 Added 30 new dictionary entries (IDs 11905-11934) from candidate_words.json:
@@ -138,27 +160,6 @@ Notable features:
 
 Total entries: 11,870 → 11,900
 Remaining candidates: 300 → 270 (30 removed)
-
-### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 268)
-Added 30 new dictionary entries (IDs 11785-11814) from candidate_words.json:
-
-- **Nouns/suru verbs - formal (8)**: {判明|はんめい} (becoming clear), {削減|さくげん} (reduction), {創業|そうぎょう} (founding a business), {加工|かこう} (processing), {勝利|しょうり} (victory), {回避|かいひ} (avoidance), {制約|せいやく} (constraint), {収容|しゅうよう} (accommodation/internment)
-- **Nouns - abstract/formal (6)**: {利点|りてん} (advantage), {前例|ぜんれい} (precedent), {効率|こうりつ} (efficiency), {危機|きき} (crisis), {勢力|せいりょく} (power/influence), {善意|ぜんい} (goodwill/good faith)
-- **Nouns - time/arrival (2)**: {到来|とうらい} (advent), {史上|しじょう} (in history)
-- **Nouns - concrete/cultural (5)**: {別荘|べっそう} (villa), {化石|かせき} (fossil), {匿名|とくめい} (anonymity), {口調|くちょう} (tone of voice), {古都|こと} (ancient capital)
-- **Nouns - other (3)**: {前線|ぜんせん} (front line/weather front), {原則|げんそく} (principle), {原料|げんりょう} (raw materials)
-- **Na-adjective (1)**: {台無|だいな}し (ruined)
-- **Noun (1)**: {四季|しき} (four seasons)
-- **Verbs (4)**: {占|し}める (to occupy/account for), {叶|かな}える (to fulfill), {告|つ}げる (to tell/herald), {嘆|なげ}く (to lament)
-
-Notable features:
-- Multi-sense entries: {占|し}める (occupy/account for), {告|つ}げる (tell/herald), {善意|ぜんい} (goodwill/good faith legal), {前線|ぜんせん} (front line/weather front), {収容|しゅうよう} (accommodation/internment), {原則|げんそく} (principle/as a rule)
-- Homophone cross-references: {占|し}める ↔ {閉|し}める/{締|し}める, {勢力|せいりょく} ↔ {精力|せいりょく}
-- Cultural context: {別荘|べっそう} (Karuizawa resort culture), {古都|こと} (Kyoto/Nara preservation), {四季|しき} (seasonal awareness), {匿名|とくめい} (anonymous internet culture)
-- New kanji: 2,319 → 2,321 ({嘆|たん}, {荘|そう})
-
-Total entries: 11,840 → 11,870
-Remaining candidates: 330 → 300 (30 removed)
 
 ---
 
