@@ -14,6 +14,16 @@
   "examples": [
     {
       "id": "01755_reibou_ex1",
+      "japanese": "{冷房|れいぼう}を{消|け}してください。",
+      "english": "Please turn off the air conditioning.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01755_reibou_ex2",
       "japanese": "{冷房|れいぼう}をつけてください。",
       "english": "Please turn on the air conditioning.",
       "notes": null,
@@ -23,27 +33,7 @@
       ]
     },
     {
-      "id": "01755_reibou_ex2",
-      "japanese": "{冷房|れいぼう}が{効|き}きすぎて{寒|さむ}い。",
-      "english": "The air conditioning is too strong and it's cold.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
       "id": "01755_reibou_ex3",
-      "japanese": "{冷房|れいぼう}の{温度|おんど}を{上|あ}げてもらえますか。",
-      "english": "Could you raise the air conditioning temperature?",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01755_reibou_ex4",
       "japanese": "{夏|なつ}は{冷房|れいぼう}なしでは{過|す}ごせない。",
       "english": "I can't get through summer without air conditioning.",
       "notes": null,
@@ -53,9 +43,19 @@
       ]
     },
     {
+      "id": "01755_reibou_ex4",
+      "japanese": "{冷房|れいぼう}の{温度|おんど}を{上|あ}げてもらえますか。",
+      "english": "Could you raise the air conditioning temperature?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "01755_reibou_ex5",
-      "japanese": "{冷房|れいぼう}を{消|け}してください。",
-      "english": "Please turn off the air conditioning.",
+      "japanese": "{冷房|れいぼう}が{効|き}きすぎて{寒|さむ}くなったので、{少|すこ}し{温度|おんど}を{上|あ}げた。",
+      "english": "The air conditioning got too cold, so I raised the temperature a bit.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -75,7 +75,7 @@
   ],
   "metadata": {
     "created": "2026-01-09T12:15:25Z",
-    "modified": "2026-01-23T08:45:52Z",
+    "modified": "2026-02-19T19:09:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
