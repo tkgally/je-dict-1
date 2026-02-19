@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00751_sengetsu_ex1",
-      "japanese": "{先月|せんげつ}⟦{新|あたら}しい→あたらしい：00506⟧⟦{車|くるま}→くるま：00516⟧⟦を→を：00422⟧⟦{買|か}いました→かう：00489⟧。",
+      "japanese": "{先月|せんげつ}⟦{新|あたら}しい→あたらしい：00506_atarashii⟧⟦{車|くるま}→くるま：00516_kuruma⟧⟦を→を：00422_wo⟧⟦{買|か}いました→かう：00489_kau⟧。",
       "english": "I bought a new car last month.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00751_sengetsu_ex2",
-      "japanese": "{先月|せんげつ}⟦{友達|ともだち}→ともだち：01478⟧⟦に→に：00314⟧⟦{会|あ}いました→あう：00482⟧。",
+      "japanese": "{先月|せんげつ}⟦{友達|ともだち}→ともだち：01478_tomodachi⟧⟦に→に：00314_ni⟧⟦{会|あ}いました→あう：00482_au⟧。",
       "english": "I met my friend last month.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00751_sengetsu_ex3",
-      "japanese": "{先月|せんげつ}⟦は→は：00079⟧⟦{忙|いそが}しかった→いそがしい：00591⟧⟦です→です：09485⟧。⟦{毎日|まいにち}→まいにち：00729⟧⟦{仕事|しごと}→しごと：00480⟧⟦が→が：00051⟧⟦ありました→ある：00006⟧。",
+      "japanese": "{先月|せんげつ}⟦は→は：00079_ha⟧⟦{忙|いそが}しかった→いそがしい：00591_isogashii⟧⟦です→です：09485_desu⟧。⟦{毎日|まいにち}→まいにち：00729_mainichi⟧⟦{仕事|しごと}→しごと：00480_shigoto⟧⟦が→が：00051_ga⟧⟦ありました→ある：00006_aru⟧。",
       "english": "I was busy last month. I had work every day.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00751_sengetsu_ex4",
-      "japanese": "{先月|せんげつ}⟦{母|はは}→はは：00549⟧⟦が→が：00051⟧⟦{日本|にほん}→にほん：03876⟧⟦に→に：00314⟧⟦{来|き}ました→くる：00254⟧⟦が→が：00051⟧、⟦もう→もう：00602⟧⟦{帰|かえ}りました→かえる：00508⟧。",
+      "japanese": "{先月|せんげつ}⟦{母|はは}→はは：00549_haha⟧⟦が→が：00051_ga⟧⟦{日本|にほん}→にほん：03876_nihon⟧⟦に→に：00314_ni⟧⟦{来|き}ました→くる：00254_kuru⟧⟦が→が：00051_ga⟧、⟦もう→もう：00602_mou⟧⟦{帰|かえ}りました→かえる：00508_kaeru⟧。",
       "english": "My mother came to Japan last month, but she already went back.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00751_sengetsu_ex5",
-      "japanese": "{先月|せんげつ}⟦は→は：00079⟧⟦{毎日|まいにち}→まいにち：00729⟧⟦{雨|あめ}→あめ：00583⟧⟦が→が：00051⟧⟦{降|ふ}りました→ふる：00839⟧。⟦{今月|こんげつ}→こんげつ：00720⟧⟦は→は：00079⟧⟦{天気|てんき}→てんき：00582⟧⟦が→が：00051⟧⟦いい→よい：02350⟧⟦から→から：00504⟧、⟦うれしい→うれしい：00822⟧⟦です→です：09485⟧。",
+      "japanese": "{先月|せんげつ}⟦は→は：00079_ha⟧⟦{毎日|まいにち}→まいにち：00729_mainichi⟧⟦{雨|あめ}→あめ：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}りました→ふる：00839_furu⟧。⟦{今月|こんげつ}→こんげつ：00720_kongetsu⟧⟦は→は：00079_ha⟧⟦{天気|てんき}→てんき：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→よい：02350_yoi⟧⟦から→から：00504_kara⟧、⟦うれしい→うれしい：00822_ureshii⟧⟦です→です：09485_desu⟧。",
       "english": "It rained every day last month. The weather is good this month, so I'm happy.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "{先月|せんげつ} means 'last month' and is part of the time reference system.\n\nTIME SERIES - MONTHS:\n- {先々月|せんせんげつ}: the month before last\n- {先月|せんげつ}: last month\n- ⟦{今月|こんげつ}→こんげつ：00720⟧: this month\n- ⟦{来月|らいげつ}→らいげつ：00744⟧: next month\n- ⟦{再来月|さらいげつ}→さらいげつ：01418⟧: the month after next\n\nKANJI BREAKDOWN:\n- {先|せん}: previous, before\n- {月|げつ}: month\n\nSIMILAR WORDS WITH {先|せん}:\n- ⟦{先週|せんしゅう}→せんしゅう：00752⟧: last week\n- ⟦{先日|せんじつ}→せんじつ：03305⟧: the other day\n- {先年|せんねん}: years ago, previous years\n\nGRAMMAR NOTES:\n- Used as time adverb without particle: {先月|せんげつ}{行|い}った (I went last month)\n- Used as noun with の: {先月|せんげつ}の⟦{売|う}り{上|あ}げ→うりあげ：04102⟧ (last month's sales)\n\nCOMMON PATTERNS:\n- {先月|せんげつ}の{末|まつ}: end of last month\n- {先月|せんげつ}の⟦{初|はじ}め→はじめ：02931⟧: beginning of last month",
+  "notes": "{先月|せんげつ} means 'last month' and is part of the time reference system.\n\nTIME SERIES - MONTHS:\n- {先々月|せんせんげつ}: the month before last\n- {先月|せんげつ}: last month\n- ⟦{今月|こんげつ}→こんげつ：00720_kongetsu⟧: this month\n- ⟦{来月|らいげつ}→らいげつ：00744_raigetsu⟧: next month\n- ⟦{再来月|さらいげつ}→さらいげつ：01418_saraigetsu⟧: the month after next\n\nKANJI BREAKDOWN:\n- {先|せん}: previous, before\n- {月|げつ}: month\n\nSIMILAR WORDS WITH {先|せん}:\n- ⟦{先週|せんしゅう}→せんしゅう：00752_senshuu⟧: last week\n- ⟦{先日|せんじつ}→せんじつ：03305_senjitsu⟧: the other day\n- {先年|せんねん}: years ago, previous years\n\nGRAMMAR NOTES:\n- Used as time adverb without particle: {先月|せんげつ}{行|い}った (I went last month)\n- Used as noun with の: {先月|せんげつ}の⟦{売|う}り{上|あ}げ→うりあげ：04102_uriage⟧ (last month's sales)\n\nCOMMON PATTERNS:\n- {先月|せんげつ}の{末|まつ}: end of last month\n- {先月|せんげつ}の⟦{初|はじ}め→はじめ：02931_hajime⟧: beginning of last month",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:01:11Z",
-    "modified": "2026-02-16T06:48:14Z",
+    "modified": "2026-02-19T12:27:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
