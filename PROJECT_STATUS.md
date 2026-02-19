@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,080 |
+| Total entries | ~12,110 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,281 (open) |
-| Candidate words | ~448 |
+| General tier | ~9,311 (open) |
+| Candidate words | ~419 |
 | Cross-references | ~3,360 |
 | Example sentences | ~43,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 276)
+Added 30 new dictionary entries (IDs 12025-12054) from candidate_words.json:
+
+- **Verbs - ichidan (2)**: {埋|うも}れる (to be buried/hidden), {入|い}り{乱|みだ}れる (to be jumbled together)
+- **Nouns/suru (9)**: {入所|にゅうしょ} (admission to facility), {合成|ごうせい} (synthesis), {同行|どうこう} (accompanying), {同期|どうき} (same cohort/synchronization), {命名|めいめい} (naming), {受理|じゅり} (acceptance of documents), {圧倒|あっとう} (overwhelming), {出店|しゅってん} (opening a shop), {在住|ざいじゅう} (residing in)
+- **Nouns - geography/land (5)**: {全域|ぜんいき} (entire area), {国土|こくど} (national territory), {土壌|どじょう} (soil), {土手|どて} (embankment), {地下室|ちかしつ} (basement)
+- **Nouns - culture/society (5)**: {和風|わふう} (Japanese-style), {土足|どそく} (with shoes on), {地主|じぬし} (landowner), {地獄|じごく} (hell), {各位|かくい} (formal address: everyone)
+- **Nouns - language/academic (3)**: {名称|めいしょう} (name/designation), {口語|こうご} (spoken language), {史実|しじつ} (historical fact)
+- **Nouns - general (4)**: {国連|こくれん} (United Nations), {回路|かいろ} (circuit), {囲|かこ}い (enclosure), {命取|いのちと}り (fatal mistake)
+- **Noun/na-adjective (1)**: {均一|きんいつ} (uniform/flat-rate)
+- **Noun/suffix (1)**: {向|む}き (direction/suited for)
+
+Notable features:
+- Multi-sense entries: {同期|どうき} (cohort/synchronization), {土壌|どじょう} (soil/breeding ground), {向|む}き (direction/suitability), {出店|しゅってん} (opening store/setting up stall), {均一|きんいつ} (uniform/flat-rate), {地獄|じごく} (Buddhist hell/terrible situation), {埋|うも}れる (buried/hidden)
+- Cultural context: {土足|どそく} (shoe etiquette), {和風|わふう} (Japanese vs Western style), {地獄|じごく} (Buddhist cosmology, idioms), {各位|かくい} (business etiquette), {地主|じぬし} (land reform history), {命名|めいめい} (baby naming ceremony)
+- New kanji: 2,331 → 2,332 ({獄|ごく})
+
+Total entries: 12,080 → 12,110
+Remaining candidates: 448 → 419 (29 removed)
 
 ### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 275)
 Added 30 new dictionary entries (IDs 11995-12024) from candidate_words.json:
@@ -143,27 +163,6 @@ Notable features:
 
 Total entries: 11,960 → 11,990
 Remaining candidates: 210 → 180 (30 removed)
-
-### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 271)
-Added 30 new dictionary entries (IDs 11875-11904) from candidate_words.json:
-
-- **Nouns - time (3)**: {前半|ぜんはん} (first half), {前夜|ぜんや} (the night before), {初頭|しょとう} (beginning of a period)
-- **Nouns - 別 compounds (4)**: {別人|べつじん} (different person), {別名|べつめい} (alias), {別物|べつもの} (different thing entirely), {別途|べっと} (separately)
-- **Nouns - 厳 compounds/na-adj (4)**: {厳守|げんしゅ} (strict observance), {厳密|げんみつ} (precise), {厳格|げんかく} (strict/stern), {厳重|げんじゅう} (tight/stringent)
-- **Nouns - ceremony/customs (3)**: {参列|さんれつ} (ceremony attendance), {喪服|もふく} (mourning clothes), {吉日|きちじつ} (auspicious day)
-- **Nouns - body/speech (2)**: {口元|くちもと} (area around the mouth), {口頭|こうとう} (oral/verbal)
-- **Nouns/suru - formal (4)**: {制裁|せいさい} (sanction), {収縮|しゅうしゅく} (contraction), {受診|じゅしん} (seeing a doctor), {別居|べっきょ} (living apart)
-- **Nouns - relationships/culture (4)**: {同棲|どうせい} (cohabitation), {回転寿司|かいてんずし} (conveyor belt sushi), {合宿|がっしゅく} (training camp), {合流|ごうりゅう} (merging/joining up)
-- **Nouns - general (6)**: {召使|めしつか}い (servant), {吐露|とろ} (disclosure), {向上心|こうじょうしん} (ambition), {味|あじ}わい (flavor/charm), {古風|こふう} (old-fashioned), {営|いとな}み (activity/pursuit)
-
-Notable features:
-- Multi-sense entries: {味|あじ}わい (flavor/charm), {合流|ごうりゅう} (rivers-roads/people)
-- Semantic clusters: 別- compounds (4), 厳- compounds (4)
-- Distinction set: {厳密|げんみつ} vs {厳格|げんかく} vs {厳重|げんじゅう}
-- Cultural context: {吉日|きちじつ} (六曜 calendar), {回転寿司|かいてんずし} (dining culture), {喪服|もふく} (funeral etiquette), {合宿|がっしゅく} (club culture)
-
-Total entries: 11,930 → 11,960
-Remaining candidates: 240 → 210 (30 removed)
 
 ---
 
