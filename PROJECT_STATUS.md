@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,140 |
+| Total entries | ~12,170 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,341 (open) |
-| Candidate words | ~445 |
+| General tier | ~9,371 (open) |
+| Candidate words | ~415 |
 | Cross-references | ~3,360 |
 | Example sentences | ~43,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 278)
+Added 30 new dictionary entries (IDs 12085-12114) from candidate_words.json:
+
+- **Verbs - ichidan (3)**: {取|と}り{換|か}える (to replace/exchange), {耐|た}える (to endure/withstand), {報|むく}いる (to reward/retaliate)
+- **Verb - godan (1)**: {塞|ふさ}ぎ{込|こ}む (to become depressed/brood)
+- **I-adjective (1)**: {固|かた}い (firm/solid/stiff)
+- **Na-adjective/noun (1)**: {壮絶|そうぜつ} (fierce/intense)
+- **Nouns/suru verbs (7)**: {変換|へんかん} (conversion), {増税|ぞうぜい} (tax increase), {壊滅|かいめつ} (devastation), {変装|へんそう} (disguise), {変身|へんしん} (transformation), {変革|へんかく} (reform), {団|だん}らん (family gathering)
+- **Nouns - culture/place (3)**: {境内|けいだい} (temple/shrine grounds), {城下町|じょうかまち} (castle town), {声優|せいゆう} (voice actor)
+- **Nouns - abstract/formal (5)**: {報酬|ほうしゅう} (remuneration), {境界|きょうかい} (boundary), {境遇|きょうぐう} (circumstances), {変人|へんじん} (eccentric), {外見|がいけん} (outward appearance)
+- **Nouns - language/society (3)**: {外来語|がいらいご} (loanword), {報連相|ほうれんそう} (report-contact-consult), {売|う}れっ{子|こ} (popular person)
+- **Nouns - nature/general (6)**: {夏季|かき} (summer season), {塩味|しおあじ} (salty taste), {塵|ちり} (dust), {地上|ちじょう} (above ground), {埋|う}め{立|た}て (land reclamation), {執事|しつじ} (butler)
+
+Notable features:
+- Multi-sense entries: {耐|た}える (endure/withstand), {報|むく}いる (reward/retaliate), {固|かた}い (firm/stiff)
+- Cultural context: {報連相|ほうれんそう} (workplace communication norm), {声優|せいゆう} (voice acting industry), {城下町|じょうかまち} (feudal castle towns), {執事|しつじ} (butler cafes)
+- Homophone cross-references: {変装|へんそう} ↔ {返送|へんそう}, {固|かた}い ↔ {硬|かた}い
+- New kanji: 2,332 → 2,334 ({遇|ぐう}, {酬|しゅう})
+
+Total entries: 12,140 → 12,170
+Remaining candidates: 445 → 415 (30 removed)
 
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 277)
 Added 30 new dictionary entries (IDs 12055-12084) from candidate_words.json:
@@ -139,28 +161,6 @@ Notable features:
 
 Total entries: 12,020 → 12,050
 Remaining candidates: 508 → 478 (30 removed)
-
-### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 273)
-Added 30 new dictionary entries (IDs 11935-11964) from candidate_words.json:
-
-- **Nouns - food/cooking (2)**: {半熟|はんじゅく} (soft-boiled), {厨房|ちゅうぼう} (professional kitchen)
-- **Nouns - geography/history (2)**: {南極|なんきょく} (South Pole), {史跡|しせき} (historic site)
-- **Nouns - nuclear/military (3)**: {原爆|げんばく} (atomic bomb), {原発|げんぱつ} (nuclear power plant), {反撃|はんげき} (counterattack)
-- **Nouns/suru - formal/abstract (7)**: {即答|そくとう} (immediate reply), {反転|はんてん} (reversal), {取得|しゅとく} (acquisition), {受容|じゅよう} (acceptance), {召集|しょうしゅう} (convocation), {否認|ひにん} (denial), {君臨|くんりん} (reigning)
-- **Nouns - culture/language (5)**: {単行本|たんこうぼん} (standalone book/tankoubon), {博打|ばくち} (gambling), {合言葉|あいことば} (password/motto), {名門|めいもん} (prestigious institution), {号令|ごうれい} (command/signal)
-- **Nouns - general (2)**: {同情|どうじょう} (sympathy), {各種|かくしゅ} (various kinds)
-- **I-adjectives (2)**: {口寂|くちさび}しい (wanting to snack), {名高|なだか}い (renowned)
-- **Verbs - godan (4)**: {取|と}り{仕切|しき}る (to manage), {司|つかさど}る (to govern), {吹|ふ}き{込|こ}む (to blow into/instill), {叩|たた}き{出|だ}す (to drive out/produce a result)
-- **Verbs - ichidan (3)**: {千切|ちぎ}れる (to be torn apart), {古|ふる}びる (to become old), {呼|よ}び{寄|よ}せる (to summon)
-
-Notable features:
-- Multi-sense entries: {半熟|はんじゅく} (cooking/ripeness), {博打|ばくち} (gambling/risky venture), {合言葉|あいことば} (password/motto), {名門|めいもん} (family/institution), {吹|ふ}き{込|こ}む (blow in/instill/record), {叩|たた}き{出|だ}す (expel/achieve)
-- Cultural context: {口寂|くちさび}しい (uniquely Japanese concept), {号令|ごうれい} (Japanese classroom routine), {単行本|たんこうぼん} (manga culture), {博打|ばくち} (Edo-period gambling)
-- Homophone note: {受容|じゅよう} vs {需要|じゅよう}, {反転|はんてん} vs {斑点|はんてん}
-- New kanji: 2,327 → 2,328 ({厨|ちゅう})
-
-Total entries: 11,990 → 12,020
-Remaining candidates: 538 → 508 (30 removed)
 
 ---
 
