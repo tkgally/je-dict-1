@@ -1,6 +1,6 @@
 # je-dict-1 — Japanese-English Learner's Dictionary
 
-A dictionary for intermediate learners of Japanese who can read kana and are building vocabulary. The live site is at https://www.tkgje.jp/. It is a completely static site (HTML/CSS/JS, no server) hosted on GitHub Pages. ~12,110 entries as of mid-February 2026.
+A dictionary for intermediate learners of Japanese who can read kana and are building vocabulary. The live site is at https://www.tkgje.jp/. It is a completely static site (HTML/CSS/JS, no server) hosted on GitHub Pages. Over 12,000 entries as of early 2026.
 
 ## Project structure
 
@@ -117,9 +117,9 @@ If `find_missing_furigana.py` shows entries from the current session, fix them b
 
 ## Vocabulary tiers
 
-- **Basic** (801 entries) — foundational words; closed, do not add
-- **Core** (1,998 entries) — essential adult communication; closed, do not add
-- **General** (~9,311 entries) — all other vocabulary; all new entries go here
+- **Basic** (~800 entries) — foundational words; closed, do not add
+- **Core** (~2,000 entries) — essential adult communication; closed, do not add
+- **General** (9,000+ entries, growing) — all other vocabulary; all new entries go here
 
 ## Task prompts
 
