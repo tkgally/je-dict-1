@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,290 |
+| Total entries | ~12,320 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,491 (open) |
-| Candidate words | ~551 |
+| General tier | ~9,521 (open) |
+| Candidate words | ~521 |
 | Cross-references | ~3,380 |
 | Example sentences | ~43,930 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 283)
+Added 30 new dictionary entries (IDs 12235-12264) from candidate_words.json:
+
+- **Nouns - abstract/formal (6)**: {妨|さまた}げ (hindrance), {喧騒|けんそう}→{威勢|いせい} (vigor), {威信|いしん} (prestige), {大義|たいぎ} (just cause), {字句|じく} (wording), {媒体|ばいたい} (medium/media)
+- **Nouns - education (3)**: {学食|がくしょく} (school cafeteria), {学級|がっきゅう} (school class), {学業|がくぎょう} (academics)
+- **Nouns - family/people (1)**: {妻子|さいし} (wife and children)
+- **Nouns - business/employment (2)**: {子会社|こがいしゃ} (subsidiary), {契約|けいやく}{社員|しゃいん} (contract employee)
+- **Nouns - culture/history (5)**: {大和|やまと} (ancient Japan), {大道芸|だいどうげい} (street performance), {守護|しゅご} (guardian/provincial governor), {奉公|ほうこう} (service/apprenticeship), {大判|おおばん} (large format/gold coin)
+- **Nouns - general (4)**: {安|やす}らぎ (tranquility), {孤島|ことう} (solitary island), {大台|おおだい} (round-number milestone), {守|まも}り (defense/amulet)
+- **Nouns/suru verbs (3)**: {存続|そんぞく} (continuation/survival), {始動|しどう} (starting up/launch), {大別|たいべつ} (broad classification)
+- **Na-adjectives (3)**: {安|やす}らか (peaceful), {安価|あんか} (inexpensive), {好|す}き{勝手|かって} (selfish)
+- **I-adjectives (1)**: {安|やす}っぽい (cheap-looking, tacky)
+- **Nouns - marriage (1)**: {婚姻|こんいん} (marriage - formal/legal)
+
+Notable features:
+- Multi-sense entries: {始動|しどう} (engine start/project launch), {守護|しゅご} (protection/provincial governor), {守|まも}り (defense/amulet), {大判|おおばん} (large size/gold coin), {学部|がくぶ} (faculty/undergraduate)
+- Cultural context: {大和|やまと} (Yamato civilization/native Japanese vocabulary), {奉公|ほうこう} (feudal service system), {大道芸|だいどうげい} (street performance culture), {学級|がっきゅう}{崩壊|ほうかい} (classroom collapse phenomenon)
+- Similar word comparisons: {安価|あんか} vs {安|やす}い; {婚姻|こんいん} vs {結婚|けっこん}; {学業|がくぎょう} vs {勉強|べんきょう}
+- New kanji: 2,343 → 2,344 ({姻|いん})
+
+Total entries: 12,290 → 12,320
+Remaining candidates: 551 → 521 (30 removed)
 
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 282)
 Added 30 new dictionary entries (IDs 12205-12234) from candidate_words.json:
@@ -139,28 +162,6 @@ Notable features:
 
 Total entries: 12,170 → 12,200
 Remaining candidates: 547 → 517 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 278)
-Added 30 new dictionary entries (IDs 12085-12114) from candidate_words.json:
-
-- **Verbs - ichidan (3)**: {取|と}り{換|か}える (to replace/exchange), {耐|た}える (to endure/withstand), {報|むく}いる (to reward/retaliate)
-- **Verb - godan (1)**: {塞|ふさ}ぎ{込|こ}む (to become depressed/brood)
-- **I-adjective (1)**: {固|かた}い (firm/solid/stiff)
-- **Na-adjective/noun (1)**: {壮絶|そうぜつ} (fierce/intense)
-- **Nouns/suru verbs (7)**: {変換|へんかん} (conversion), {増税|ぞうぜい} (tax increase), {壊滅|かいめつ} (devastation), {変装|へんそう} (disguise), {変身|へんしん} (transformation), {変革|へんかく} (reform), {団|だん}らん (family gathering)
-- **Nouns - culture/place (3)**: {境内|けいだい} (temple/shrine grounds), {城下町|じょうかまち} (castle town), {声優|せいゆう} (voice actor)
-- **Nouns - abstract/formal (5)**: {報酬|ほうしゅう} (remuneration), {境界|きょうかい} (boundary), {境遇|きょうぐう} (circumstances), {変人|へんじん} (eccentric), {外見|がいけん} (outward appearance)
-- **Nouns - language/society (3)**: {外来語|がいらいご} (loanword), {報連相|ほうれんそう} (report-contact-consult), {売|う}れっ{子|こ} (popular person)
-- **Nouns - nature/general (6)**: {夏季|かき} (summer season), {塩味|しおあじ} (salty taste), {塵|ちり} (dust), {地上|ちじょう} (above ground), {埋|う}め{立|た}て (land reclamation), {執事|しつじ} (butler)
-
-Notable features:
-- Multi-sense entries: {耐|た}える (endure/withstand), {報|むく}いる (reward/retaliate), {固|かた}い (firm/stiff)
-- Cultural context: {報連相|ほうれんそう} (workplace communication norm), {声優|せいゆう} (voice acting industry), {城下町|じょうかまち} (feudal castle towns), {執事|しつじ} (butler cafes)
-- Homophone cross-references: {変装|へんそう} ↔ {返送|へんそう}, {固|かた}い ↔ {硬|かた}い
-- New kanji: 2,332 → 2,334 ({遇|ぐう}, {酬|しゅう})
-
-Total entries: 12,140 → 12,170
-Remaining candidates: 445 → 415 (30 removed)
 
 ---
 
