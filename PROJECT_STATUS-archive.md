@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 279)
+Added 30 new dictionary entries (IDs 12115-12144) from candidate_words.json:
+
+- **Nouns/suru - change/transformation (4)**: {変容|へんよう} (transformation), {変異|へんい} (mutation), {変貌|へんぼう} (transfiguration), {増殖|ぞうしょく} (proliferation)
+- **Nouns - politics/governance (4)**: {国政|こくせい} (national politics), {国益|こくえき} (national interest), {国賓|こくひん} (state guest), {圧政|あっせい} (tyranny)
+- **Nouns - geography/earth (5)**: {地中|ちちゅう} (underground), {地価|ちか} (land price), {地殻|ちかく} (earth's crust), {土地柄|とちがら} (local character), {地|じ}べた (bare ground)
+- **Nouns - employment/office (3)**: {在職|ざいしょく} (being in office), {在留|ざいりゅう} (residing abroad), {在位|ざいい} (reign)
+- **Nouns - business/finance (3)**: {売却|ばいきゃく} (selling off assets), {取締役|とりしまりやく} (company director), {増額|ぞうがく} (increase in amount)
+- **Nouns - food (2)**: {塩水|しおみず} (salt water), {塩焼|しおや}き (salt-grilling)
+- **Nouns - naming/designation (2)**: {呼|よ}び{方|かた} (way of calling), {呼称|こしょう} (designation)
+- **Nouns - general (5)**: {変|か}わり{目|め} (turning point), {境地|きょうち} (state of mind), {回忌|かいき} (death anniversary), {国民性|こくみんせい} (national character), {固形|こけい} (solid form)
+- **Nouns - science/technical (2)**: {塩素|えんそ} (chlorine), {増幅|ぞうふく} (amplification)
+
+Notable features:
+- Multi-sense entry: {境地|きょうち} (state of mind / level of attainment)
+- Related word groups: transformation trio ({変容|へんよう}/{変異|へんい}/{変貌|へんぼう}), 在- compounds ({在職|ざいしょく}/{在留|ざいりゅう}/{在位|ざいい}), naming pair ({呼|よ}び{方|かた}/{呼称|こしょう})
+- Homophone cross-references: {地価|ちか} ↔ {地下|ちか}, {地殻|ちかく} ↔ {近|ちか}く
+- New kanji: 2,334 → 2,336 ({貌|ぼう}, {賓|ひん})
+
+Total entries: 12,170 → 12,200
+Remaining candidates: 547 → 517 (30 removed)
+
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 278)
 Added 30 new dictionary entries (IDs 12085-12114) from candidate_words.json:
 
