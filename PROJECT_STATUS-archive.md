@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 278)
+Added 30 new dictionary entries (IDs 12085-12114) from candidate_words.json:
+
+- **Verbs - ichidan (3)**: {取|と}り{換|か}える (to replace/exchange), {耐|た}える (to endure/withstand), {報|むく}いる (to reward/retaliate)
+- **Verb - godan (1)**: {塞|ふさ}ぎ{込|こ}む (to become depressed/brood)
+- **I-adjective (1)**: {固|かた}い (firm/solid/stiff)
+- **Na-adjective/noun (1)**: {壮絶|そうぜつ} (fierce/intense)
+- **Nouns/suru verbs (7)**: {変換|へんかん} (conversion), {増税|ぞうぜい} (tax increase), {壊滅|かいめつ} (devastation), {変装|へんそう} (disguise), {変身|へんしん} (transformation), {変革|へんかく} (reform), {団|だん}らん (family gathering)
+- **Nouns - culture/place (3)**: {境内|けいだい} (temple/shrine grounds), {城下町|じょうかまち} (castle town), {声優|せいゆう} (voice actor)
+- **Nouns - abstract/formal (5)**: {報酬|ほうしゅう} (remuneration), {境界|きょうかい} (boundary), {境遇|きょうぐう} (circumstances), {変人|へんじん} (eccentric), {外見|がいけん} (outward appearance)
+- **Nouns - language/society (3)**: {外来語|がいらいご} (loanword), {報連相|ほうれんそう} (report-contact-consult), {売|う}れっ{子|こ} (popular person)
+- **Nouns - nature/general (6)**: {夏季|かき} (summer season), {塩味|しおあじ} (salty taste), {塵|ちり} (dust), {地上|ちじょう} (above ground), {埋|う}め{立|た}て (land reclamation), {執事|しつじ} (butler)
+
+Notable features:
+- Multi-sense entries: {耐|た}える (endure/withstand), {報|むく}いる (reward/retaliate), {固|かた}い (firm/stiff)
+- Cultural context: {報連相|ほうれんそう} (workplace communication norm), {声優|せいゆう} (voice acting industry), {城下町|じょうかまち} (feudal castle towns), {執事|しつじ} (butler cafes)
+- Homophone cross-references: {変装|へんそう} ↔ {返送|へんそう}, {固|かた}い ↔ {硬|かた}い
+- New kanji: 2,332 → 2,334 ({遇|ぐう}, {酬|しゅう})
+
+Total entries: 12,140 → 12,170
+Remaining candidates: 445 → 415 (30 removed)
+
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 277)
 Added 30 new dictionary entries (IDs 12055-12084) from candidate_words.json:
 
