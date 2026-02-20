@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,260 |
+| Total entries | ~12,290 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,461 (open) |
-| Candidate words | ~457 |
-| Cross-references | ~3,370 |
-| Example sentences | ~43,820 |
+| General tier | ~9,491 (open) |
+| Candidate words | ~551 |
+| Cross-references | ~3,380 |
+| Example sentences | ~43,930 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 282)
+Added 30 new dictionary entries (IDs 12205-12234) from candidate_words.json:
+
+- **Nouns - preferences/food (3)**: {好|す}き{嫌|きら}い (likes and dislikes), {好物|こうぶつ} (favorite food), {好意|こうい} (goodwill/romantic interest)
+- **Nouns - people/family (4)**: {女将|おかみ} (proprietress), {女神|めがみ} (goddess), {女房|にょうぼう} (wife - informal), {姫|ひめ} (princess)
+- **Nouns - politics/society (4)**: {大国|たいこく} (major power), {大多数|だいたすう} (vast majority), {外資系|がいしけい} (foreign-affiliated), {委員会|いいんかい} (committee)
+- **Nouns - nature/science (2)**: {大麦|おおむぎ} (barley), {太陽系|たいようけい} (solar system)
+- **Nouns - culture (1)**: {妖怪|ようかい} (yokai)
+- **Nouns - social issues (2)**: {嫌|いや}がらせ (harassment), {子育|こそだ}て (child-rearing)
+- **Nouns/suru verbs (5)**: {奨励|しょうれい} (encouragement), {奪取|だっしゅ} (seizure), {妊娠|にんしん} (pregnancy), {孤立|こりつ} (isolation), {始末|しまつ} (management/outcome)
+- **Na-adjectives (3)**: {大人気|だいにんき} (very popular), {好調|こうちょう} (going well), {大|おお}がかり (large-scale)
+- **Na-adj/adverb (2)**: {存分|ぞんぶん} (to one's heart's content), {如実|にょじつ} (vividly)
+- **Verbs (3)**: {妨|さまた}げる (to hinder - ichidan), {威張|いば}る (to swagger - godan), {嫁|とつ}ぐ (to marry into - godan)
+
+Notable features:
+- Multi-sense entries: {好意|こうい} (goodwill/romantic interest), {始末|しまつ} (management/sorry outcome), {姫|ひめ} (princess/small prefix)
+- Cultural context: {女将|おかみ} (ryokan hospitality), {妖怪|ようかい} (Japanese folklore), {嫁|とつ}ぐ (patrilocal marriage), {子育|こそだ}て (declining birth rate policy)
+- Similar word comparisons: {好調|こうちょう} vs {順調|じゅんちょう}; {好意|こうい} vs {親切|しんせつ}; {好機|こうき} vs {機会|きかい}; {妨|さまた}げる vs {邪魔|じゃま}する
+- New kanji: 2,339 → 2,343 ({妊|にん}, {妖|よう}, {姫|ひめ}, {娠|しん})
+
+Total entries: 12,260 → 12,290
+Remaining candidates: 581 → 551 (30 removed)
 
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 281)
 Added 30 new dictionary entries (IDs 12175-12204) from candidate_words.json:
@@ -138,28 +161,6 @@ Notable features:
 
 Total entries: 12,140 → 12,170
 Remaining candidates: 445 → 415 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 277)
-Added 30 new dictionary entries (IDs 12055-12084) from candidate_words.json:
-
-- **Nouns - international/geography (3)**: {各国|かっこく} (each country), {全土|ぜんど} (entire territory), {地形|ちけい} (terrain)
-- **Nouns - formal/policy (5)**: {同等|どうとう} (equality), {喫緊|きっきん} (urgent), {名目|めいもく} (nominal/pretext), {参画|さんかく} (participation in planning), {基調|きちょう} (keynote/trend)
-- **Nouns - academic/language (3)**: {古語|こご} (archaic word), {和語|わご} (native Japanese word), {受動|じゅどう} (passive)
-- **Nouns - social/general (4)**: {同類|どうるい} (same kind), {呼|よ}び{名|な} (designation), {出所|でどころ} (source), {土日|どにち} (weekend)
-- **Nouns - specialized (4)**: {合併症|がっぺいしょう} (medical complication), {名勝|めいしょう} (scenic spot), {嗜好|しこう} (taste/preference), {右翼|うよく} (right wing)
-- **Nouns/suru verbs (5)**: {入隊|にゅうたい} (enlisting), {合体|がったい} (fusion), {同化|どうか} (assimilation), {同席|どうせき} (being present together), {回帰|かいき} (return/regression)
-- **Noun/suru/na-adj (1)**: {堪能|たんのう} (to enjoy fully / proficient)
-- **Nouns - historical (1)**: {合戦|かっせん} (battle)
-- **Nouns - grammar/formal (2)**: {否|いな} (whether or not / nay), {原形|げんけい} (original form / base form)
-- **Verbs - godan (2)**: {取|と}り{去|さ}る (to remove), {取|と}り{払|はら}う (to clear away)
-
-Notable features:
-- Multi-sense entries: {合戦|かっせん} (battle/contest), {同類|どうるい} (same type/birds of a feather), {回帰|かいき} (return/regression), {受動|じゅどう} (passivity/passive voice), {右翼|うよく} (politics/sports), {名目|めいもく} (pretext/nominal), {原形|げんけい} (original shape/base form), {否|いな} (whether or not/nay), {堪能|たんのう} (enjoy/proficient), {基調|きちょう} (keynote/trend)
-- Similar word comparisons: {同等|どうとう} vs {平等|びょうどう} vs {対等|たいとう}; {名勝|めいしょう} vs {名所|めいしょ}; {参画|さんかく} vs {参加|さんか}; {喫緊|きっきん} vs {緊急|きんきゅう}
-- Economics vocabulary: {名目|めいもく}GDP, {名目|めいもく}{賃金|ちんぎん}, {回帰|かいき}{分析|ぶんせき}, {基調|きちょう}
-
-Total entries: 12,110 → 12,140
-Remaining candidates: 419 → 445 (30 removed; net count changed due to other additions)
 
 ---
 

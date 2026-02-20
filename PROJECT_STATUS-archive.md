@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 277)
+Added 30 new dictionary entries (IDs 12055-12084) from candidate_words.json:
+
+- **Nouns - international/geography (3)**: {各国|かっこく} (each country), {全土|ぜんど} (entire territory), {地形|ちけい} (terrain)
+- **Nouns - formal/policy (5)**: {同等|どうとう} (equality), {喫緊|きっきん} (urgent), {名目|めいもく} (nominal/pretext), {参画|さんかく} (participation in planning), {基調|きちょう} (keynote/trend)
+- **Nouns - academic/language (3)**: {古語|こご} (archaic word), {和語|わご} (native Japanese word), {受動|じゅどう} (passive)
+- **Nouns - social/general (4)**: {同類|どうるい} (same kind), {呼|よ}び{名|な} (designation), {出所|でどころ} (source), {土日|どにち} (weekend)
+- **Nouns - specialized (4)**: {合併症|がっぺいしょう} (medical complication), {名勝|めいしょう} (scenic spot), {嗜好|しこう} (taste/preference), {右翼|うよく} (right wing)
+- **Nouns/suru verbs (5)**: {入隊|にゅうたい} (enlisting), {合体|がったい} (fusion), {同化|どうか} (assimilation), {同席|どうせき} (being present together), {回帰|かいき} (return/regression)
+- **Noun/suru/na-adj (1)**: {堪能|たんのう} (to enjoy fully / proficient)
+- **Nouns - historical (1)**: {合戦|かっせん} (battle)
+- **Nouns - grammar/formal (2)**: {否|いな} (whether or not / nay), {原形|げんけい} (original form / base form)
+- **Verbs - godan (2)**: {取|と}り{去|さ}る (to remove), {取|と}り{払|はら}う (to clear away)
+
+Notable features:
+- Multi-sense entries: {合戦|かっせん} (battle/contest), {同類|どうるい} (same type/birds of a feather), {回帰|かいき} (return/regression), {受動|じゅどう} (passivity/passive voice), {右翼|うよく} (politics/sports), {名目|めいもく} (pretext/nominal), {原形|げんけい} (original shape/base form), {否|いな} (whether or not/nay), {堪能|たんのう} (enjoy/proficient), {基調|きちょう} (keynote/trend)
+- Similar word comparisons: {同等|どうとう} vs {平等|びょうどう} vs {対等|たいとう}; {名勝|めいしょう} vs {名所|めいしょ}; {参画|さんかく} vs {参加|さんか}; {喫緊|きっきん} vs {緊急|きんきゅう}
+- Economics vocabulary: {名目|めいもく}GDP, {名目|めいもく}{賃金|ちんぎん}, {回帰|かいき}{分析|ぶんせき}, {基調|きちょう}
+
+Total entries: 12,110 → 12,140
+Remaining candidates: 419 → 445 (30 removed; net count changed due to other additions)
+
 ### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 276)
 Added 30 new dictionary entries (IDs 12025-12054) from candidate_words.json:
 
