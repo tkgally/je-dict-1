@@ -1,6 +1,6 @@
 # je-dict-1 — Japanese-English Learner's Dictionary
 
-A dictionary for intermediate learners of Japanese who can read kana and are building vocabulary. The live site is at https://www.tkgje.jp/. It is a completely static site (HTML/CSS/JS, no server) hosted on GitHub Pages. ~11,380 entries as of mid-February 2026.
+A dictionary for intermediate learners of Japanese who can read kana and are building vocabulary. The live site is at https://www.tkgje.jp/. It is a completely static site (HTML/CSS/JS, no server) hosted on GitHub Pages. Over 12,000 entries as of early 2026.
 
 ## Project structure
 
@@ -11,6 +11,7 @@ build/            # Python build, validation, and utility scripts
   build/templates/    # Standalone CSS and JS templates (styles.css, search.js, tag-search.js)
   build/tests/        # Unit tests (pytest)
   build/archive/      # One-time migration scripts (no longer used in regular operation)
+  build/schema.json             # JSON schema for entry validation
   build/entry_renderer.py       # Entry page HTML generation
   build/page_generators.py      # Navigation page generation (index, browse, recent, etc.)
   build/search_index_builder.py # Search index and JS generation
@@ -27,7 +28,7 @@ polishing/        # Progress tracking for entry polishing tasks
   polishing/tasks/{task}/progress.txt  # Next entry ID to process per task
   polishing/sessions/                  # Session logs (what was checked/changed)
 prompts/          # Task prompts for interactive sessions
-  prompts/batch/      # Batch-mode variants (for non-interactive `claude --print`)
+  prompts/batch/      # Shell runner scripts for non-interactive `claude --print` execution
   prompts/refactoring/  # Code refactoring prompts for build scripts
   prompts/expand-short-notes-tracking.txt  # Separate tracking file for expand-short-notes task
 candidate_words.json   # Words queued for future entry creation
@@ -45,7 +46,7 @@ Makefile               # Build runner (make validate, make build, make quick, et
 
 - Each entry is a JSON file at `entries/{range}/{id}_{romaji}.json`
 - Range directory = ID rounded down to nearest 500 (e.g., ID 01186 → `entries/01000/`)
-- Use `python3 build/get_entry_path.py <reading> <entry_id>` to get the correct path
+- Use `python3 build/get_entry_path.py <id> <romaji>` to get the correct path
 - Entries must validate against `build/schema.json`
 - All kanji must have furigana: `{漢字|かんじ}` — in headwords, examples, AND notes
 - Readings are always hiragana, never katakana
@@ -70,7 +71,7 @@ python3 build/build_flat.py --quick       # Incremental build — only changed e
 python3 build/get_next_id.py                                     # Get next available entry ID (ALWAYS run before each new entry)
 python3 build/check_duplicate.py "word" "reading"                # Check before creating an entry
 python3 build/check_duplicate.py --skip-candidates "word" "reading"  # When creating FROM candidates
-python3 build/get_entry_path.py <reading> <id>     # Get correct file path for an entry
+python3 build/get_entry_path.py <id> <romaji>       # Get correct file path for an entry
 python3 build/get_timestamp.py            # Get current UTC timestamp for metadata
 
 # Furigana and kanji
@@ -80,8 +81,9 @@ python3 build/update_kanji_index.py --check-new  # Check for new kanji needing I
 
 # Candidate management
 python3 build/manage_candidates.py add "word" "reading" "gloss"   # Add a candidate
-python3 build/manage_candidates.py remove "word" "reading"        # Remove a candidate
-python3 build/manage_candidates.py check "word" "reading"         # Check if word exists
+python3 build/manage_candidates.py check "word" "reading"         # Check if word exists as entry or candidate
+python3 build/manage_candidates.py sync                           # Remove candidates that now exist as entries
+python3 build/manage_candidates.py stats                          # Show candidate list statistics
 
 # Reports
 python3 build/report.py                   # Dictionary health dashboard
@@ -115,18 +117,18 @@ If `find_missing_furigana.py` shows entries from the current session, fix them b
 
 ## Vocabulary tiers
 
-- **Basic** (801 entries) — foundational words; closed, do not add
-- **Core** (1,998 entries) — essential adult communication; closed, do not add
-- **General** (~8,581 entries) — all other vocabulary; all new entries go here
+- **Basic** (~800 entries) — foundational words; closed, do not add
+- **Core** (~2,000 entries) — essential adult communication; closed, do not add
+- **General** (9,000+ entries, growing) — all other vocabulary; all new entries go here
 
 ## Task prompts
 
-The `prompts/` directory contains detailed instructions for each type of session task. Start a task by reading the prompt file (e.g., "Read prompts/newentries.md and follow the instructions"). Batch variants in `prompts/batch/` are optimized for non-interactive `claude --print` execution.
+The `prompts/` directory contains detailed instructions for each type of session task. Start a task by reading the prompt file (e.g., "Read prompts/newentries.md and follow the instructions"). Shell runner scripts in `prompts/batch/` automate tasks for non-interactive `claude --print` execution. `prompts/metaprompt_list.md` is a reference listing all available prompts with usage examples.
 
 **Dictionary building:**
 - `newentries.md` — create 30 entries from candidate_words.json
 - `newcandidates.md` — find new candidate words to add
-- `corpus_harvesting.md` — process corpus words into candidates
+- `corpus_harvesting.md` — process corpus words into candidates (progress tracked in `corpus_harvesting_next_entry_number.txt`)
 - `clean_up_candidates_list.md` — review and clean candidate_words.json
 - `polish_add_entries_for_noentry_example_words.md` — create entries for words marked `noentry` in inline links
 
