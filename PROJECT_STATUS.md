@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,230 |
+| Total entries | ~12,260 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,431 (open) |
-| Candidate words | ~487 |
+| General tier | ~9,461 (open) |
+| Candidate words | ~457 |
 | Cross-references | ~3,370 |
-| Example sentences | ~43,700 |
+| Example sentences | ~43,820 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 281)
+Added 30 new dictionary entries (IDs 12175-12204) from candidate_words.json:
+
+- **Verbs - ichidan (3)**: {失|う}せる (to vanish/get lost), {奏|かな}でる (to play music), {大人|おとな}びる (to look mature)
+- **Na-adjectives (4)**: {大嫌|だいきら}い (to detest), {大々的|だいだいてき} (large-scale), {多様|たよう} (diverse), {多大|ただい} (enormous)
+- **Adverbs (3)**: {夜|よ}な{夜|よ}な (night after night), {大概|たいがい} (generally/enough already), {大方|おおかた} (mostly/probably)
+- **Nouns - scale/size (3)**: {大規模|だいきぼ} (large-scale), {大都市|だいとし} (major city), {大金|たいきん} (large sum of money)
+- **Nouns - time/history (3)**: {大昔|おおむかし} (ancient times), {天下|てんか} (the realm/supremacy), {大河|たいが} (great river)
+- **Nouns - language/society (3)**: {失言|しつげん} (verbal gaffe), {失踪|しっそう} (disappearance), {失格|しっかく} (disqualification)
+- **Nouns - events/scale (4)**: {大賞|たいしょう} (grand prize), {大作|たいさく} (major work), {大病|たいびょう} (serious illness), {大惨事|だいさんじ} (catastrophe)
+- **Nouns - culture/abstract (4)**: {奉納|ほうのう} (shrine offering), {奈落|ならく} (abyss/theater trap), {奥底|おくそこ} (innermost depths), {多岐|たき} (wide-ranging)
+- **Nouns - groups (3)**: {多数派|たすうは} (majority faction), {大地|だいち} (earth/ground)
+
+Notable features:
+- Multi-sense entries: {失|う}せる (vanish/rude imperative), {大概|たいがい} (generally/moderation), {大方|おおかた} (mostly/probably), {奈落|ならく} (abyss/theater trap), {天下|てんか} (realm/supremacy), {失格|しっかく} (disqualification/unfit)
+- Cultural context: {奈落|ならく} (kabuki stage trap), {天下|てんか} (Sengoku period conquest), {奉納|ほうのう} (shrine offerings), {失格|しっかく} ({人間|にんげん}{失格|しっかく} novel)
+- Similar word comparisons: {大々的|だいだいてき} vs {大規模|だいきぼ}; {大概|たいがい} vs だいたい vs {大抵|たいてい}; {大作|たいさく} vs {名作|めいさく} vs {傑作|けっさく}
+- New kanji: 2,336 → 2,339 ({奈|な}, {奉|ほう}, {踪|そう})
+
+Total entries: 12,230 → 12,260
+Remaining candidates: 487 → 457 (30 removed)
 
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 280)
 Added 30 new dictionary entries (IDs 12145-12174) from candidate_words.json:
@@ -138,26 +160,6 @@ Notable features:
 
 Total entries: 12,110 → 12,140
 Remaining candidates: 419 → 445 (30 removed; net count changed due to other additions)
-
-### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 276)
-Added 30 new dictionary entries (IDs 12025-12054) from candidate_words.json:
-
-- **Verbs - ichidan (2)**: {埋|うも}れる (to be buried/hidden), {入|い}り{乱|みだ}れる (to be jumbled together)
-- **Nouns/suru (9)**: {入所|にゅうしょ} (admission to facility), {合成|ごうせい} (synthesis), {同行|どうこう} (accompanying), {同期|どうき} (same cohort/synchronization), {命名|めいめい} (naming), {受理|じゅり} (acceptance of documents), {圧倒|あっとう} (overwhelming), {出店|しゅってん} (opening a shop), {在住|ざいじゅう} (residing in)
-- **Nouns - geography/land (5)**: {全域|ぜんいき} (entire area), {国土|こくど} (national territory), {土壌|どじょう} (soil), {土手|どて} (embankment), {地下室|ちかしつ} (basement)
-- **Nouns - culture/society (5)**: {和風|わふう} (Japanese-style), {土足|どそく} (with shoes on), {地主|じぬし} (landowner), {地獄|じごく} (hell), {各位|かくい} (formal address: everyone)
-- **Nouns - language/academic (3)**: {名称|めいしょう} (name/designation), {口語|こうご} (spoken language), {史実|しじつ} (historical fact)
-- **Nouns - general (4)**: {国連|こくれん} (United Nations), {回路|かいろ} (circuit), {囲|かこ}い (enclosure), {命取|いのちと}り (fatal mistake)
-- **Noun/na-adjective (1)**: {均一|きんいつ} (uniform/flat-rate)
-- **Noun/suffix (1)**: {向|む}き (direction/suited for)
-
-Notable features:
-- Multi-sense entries: {同期|どうき} (cohort/synchronization), {土壌|どじょう} (soil/breeding ground), {向|む}き (direction/suitability), {出店|しゅってん} (opening store/setting up stall), {均一|きんいつ} (uniform/flat-rate), {地獄|じごく} (Buddhist hell/terrible situation), {埋|うも}れる (buried/hidden)
-- Cultural context: {土足|どそく} (shoe etiquette), {和風|わふう} (Japanese vs Western style), {地獄|じごく} (Buddhist cosmology, idioms), {各位|かくい} (business etiquette), {地主|じぬし} (land reform history), {命名|めいめい} (baby naming ceremony)
-- New kanji: 2,331 → 2,332 ({獄|ごく})
-
-Total entries: 12,080 → 12,110
-Remaining candidates: 448 → 419 (29 removed)
 
 ---
 
