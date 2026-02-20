@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 280)
+Added 30 new dictionary entries (IDs 12145-12174) from candidate_words.json:
+
+- **Nouns - building/surface (2)**: {壁面|へきめん} (wall surface), {外観|がいかん} (outward appearance)
+- **Nouns - communication (2)**: {声|こえ}かけ (calling out to someone), {声楽|せいがく} (vocal music)
+- **Nouns - media/culture (3)**: {外伝|がいでん} (side story/spin-off), {夜桜|よざくら} (cherry blossoms at night), {大福|だいふく} (daifuku mochi)
+- **Nouns - medical/body (2)**: {外傷|がいしょう} (external wound), {声帯|せいたい} (vocal cords)
+- **Nouns - business/economics (4)**: {外貨|がいか} (foreign currency), {外注|がいちゅう} (outsourcing), {増産|ぞうさん} (increased production), {大手|おおて} (major company)
+- **Nouns - general (6)**: {境界線|きょうかいせん} (boundary line), {売|う}り (selling point), {凡|ぼん}ミス (careless mistake), {団長|だんちょう} (group leader), {塩抜|しおぬ}き (desalting), {外面|がいめん} (outward appearance)
+- **Nouns - time (3)**: {夜更|よふ}け (late at night), {夜通|よどお}し (all night long), {大砲|たいほう} (cannon)
+- **Nouns/suru verbs (3)**: {変質|へんしつ} (change in quality), {増進|ぞうしん} (promotion/enhancement), {天使|てんし} (angel)
+- **Na-adjectives (3)**: {壮麗|そうれい} (magnificent), {多彩|たさい} (colorful/diverse), {多忙|たぼう} (very busy)
+- **Na-adjective/adverb (1)**: {大幅|おおはば} (significant/drastic)
+
+Notable features:
+- Multi-sense entries: {外伝|がいでん} (spin-off/supplementary biography), {売|う}り (selling point/selling), {外面|がいめん} (outer surface/public face), {大手|おおて} (major company/castle gate), {大砲|たいほう} (cannon/power hitter)
+- Cultural context: {夜桜|よざくら} (nighttime cherry blossom viewing tradition), {大福|だいふく} (traditional Japanese sweet), {塩抜|しおぬ}き (Japanese cooking technique)
+- Similar word comparisons: {壮麗|そうれい} vs {壮大|そうだい} vs {華麗|かれい}; {多忙|たぼう} vs {忙|いそが}しい vs {繁忙|はんぼう}; {多彩|たさい} vs {多様|たよう}
+
+Total entries: 12,200 → 12,230
+Remaining candidates: 517 → 487 (30 removed)
+
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 279)
 Added 30 new dictionary entries (IDs 12115-12144) from candidate_words.json:
 

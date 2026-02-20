@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,350 |
+| Total entries | ~12,380 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,551 (open) |
-| Candidate words | ~491 |
+| General tier | ~9,581 (open) |
+| Candidate words | ~461 |
 | Cross-references | ~3,380 |
-| Example sentences | ~43,930 |
+| Example sentences | ~44,050 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 285)
+Added 30 new dictionary entries (IDs 12295-12324) from candidate_words.json:
+
+- **Verbs (3)**: {孕|はら}む (to conceive/be fraught with - godan), {寝|ね}かせる (to lay down/let age - ichidan)
+- **Na-adjectives (4)**: {定|さだ}か (definite/certain), {実用的|じつようてき} (practical), {容易|ようい} (easy - formal), {多湿|たしつ} (humid)
+- **Nouns - household/family (4)**: {家事|かじ} (housework), {家具|かぐ} (furniture), {家庭|かてい} (home/household), {子持|こも}ち (having children)
+- **Nouns - business/work (3)**: {実務|じつむ} (practical work), {多用|たよう} (frequent use/being busy), {多額|たがく} (large sum of money)
+- **Nouns - government/legal (3)**: {官邸|かんてい} (official residence), {容疑|ようぎ} (suspicion of crime), {宣誓|せんせい} (oath/pledge)
+- **Nouns - abstract/formal (4)**: {安泰|あんたい} (peace/security), {安寧|あんねい} (tranquility), {寄与|きよ} (contribution), {富|とみ} (wealth)
+- **Nouns - combat/rivalry (2)**: {実戦|じっせん} (actual combat), {宿敵|しゅくてき} (archenemy)
+- **Nouns - culture/food (1)**: {南蛮|なんばん} (nanban-style/Western)
+- **Nouns - media (1)**: {密着|みっちゃく} (close contact/behind-the-scenes coverage)
+- **Nouns - concepts (4)**: {完璧主義|かんぺきしゅぎ} (perfectionism), {実在|じつざい} (actual existence), {宅|たく} (residence), {多量|たりょう} (large quantity)
+- **Nouns - health (2)**: {寝|ね}たきり (bedridden), {察|さっ}し (perception/tact)
+
+Notable features:
+- Multi-sense entries: {孕|はら}む (conceive/be fraught with), {子持|こも}ち (parent/containing roe), {多用|たよう} (frequent use/busy), {密着|みっちゃく} (physical contact/media coverage), {寝|ね}かせる (put to bed/let age)
+- Cultural context: {南蛮|なんばん} (Portuguese trade history and cuisine), {察|さっ}し (Japanese communication culture), {寝|ね}たきり (aging society)
+- Similar word comparisons: {容易|ようい} vs {簡単|かんたん}; {多量|たりょう} vs {大量|たいりょう}; {実戦|じっせん} vs {実践|じっせん}; {寄与|きよ} vs {貢献|こうけん}; {多用|たよう} vs {多様|たよう}
+- New kanji: 2,344 → 2,346 ({孕|はら}, {邸|てい})
+
+Total entries: 12,350 → 12,380
+Remaining candidates: 491 → 461 (30 removed)
 
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 284)
 Added 30 new dictionary entries (IDs 12265-12294) from candidate_words.json:
@@ -145,28 +169,6 @@ Notable features:
 
 Total entries: 12,230 → 12,260
 Remaining candidates: 487 → 457 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 280)
-Added 30 new dictionary entries (IDs 12145-12174) from candidate_words.json:
-
-- **Nouns - building/surface (2)**: {壁面|へきめん} (wall surface), {外観|がいかん} (outward appearance)
-- **Nouns - communication (2)**: {声|こえ}かけ (calling out to someone), {声楽|せいがく} (vocal music)
-- **Nouns - media/culture (3)**: {外伝|がいでん} (side story/spin-off), {夜桜|よざくら} (cherry blossoms at night), {大福|だいふく} (daifuku mochi)
-- **Nouns - medical/body (2)**: {外傷|がいしょう} (external wound), {声帯|せいたい} (vocal cords)
-- **Nouns - business/economics (4)**: {外貨|がいか} (foreign currency), {外注|がいちゅう} (outsourcing), {増産|ぞうさん} (increased production), {大手|おおて} (major company)
-- **Nouns - general (6)**: {境界線|きょうかいせん} (boundary line), {売|う}り (selling point), {凡|ぼん}ミス (careless mistake), {団長|だんちょう} (group leader), {塩抜|しおぬ}き (desalting), {外面|がいめん} (outward appearance)
-- **Nouns - time (3)**: {夜更|よふ}け (late at night), {夜通|よどお}し (all night long), {大砲|たいほう} (cannon)
-- **Nouns/suru verbs (3)**: {変質|へんしつ} (change in quality), {増進|ぞうしん} (promotion/enhancement), {天使|てんし} (angel)
-- **Na-adjectives (3)**: {壮麗|そうれい} (magnificent), {多彩|たさい} (colorful/diverse), {多忙|たぼう} (very busy)
-- **Na-adjective/adverb (1)**: {大幅|おおはば} (significant/drastic)
-
-Notable features:
-- Multi-sense entries: {外伝|がいでん} (spin-off/supplementary biography), {売|う}り (selling point/selling), {外面|がいめん} (outer surface/public face), {大手|おおて} (major company/castle gate), {大砲|たいほう} (cannon/power hitter)
-- Cultural context: {夜桜|よざくら} (nighttime cherry blossom viewing tradition), {大福|だいふく} (traditional Japanese sweet), {塩抜|しおぬ}き (Japanese cooking technique)
-- Similar word comparisons: {壮麗|そうれい} vs {壮大|そうだい} vs {華麗|かれい}; {多忙|たぼう} vs {忙|いそが}しい vs {繁忙|はんぼう}; {多彩|たさい} vs {多様|たよう}
-
-Total entries: 12,200 → 12,230
-Remaining candidates: 517 → 487 (30 removed)
 
 ---
 
