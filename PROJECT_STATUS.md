@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,320 |
+| Total entries | ~12,350 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,521 (open) |
-| Candidate words | ~521 |
+| General tier | ~9,551 (open) |
+| Candidate words | ~491 |
 | Cross-references | ~3,380 |
 | Example sentences | ~43,930 |
 | Audio files | 1,028 |
@@ -50,6 +50,33 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 284)
+Added 30 new dictionary entries (IDs 12265-12294) from candidate_words.json:
+
+- **Nouns - everyday/household (5)**: {定番|ていばん} (standard/staple), {宛先|あてさき} (address/destination), {家計|かけい} (household finances), {家出|いえで} (running away from home), {宝物|たからもの} (treasure)
+- **Nouns - medical/health (3)**: {安眠|あんみん} (sound sleep), {安静|あんせい} (rest/quiet repose), {完治|かんち} (complete recovery)
+- **Nouns - business/economics (4)**: {大企業|だいきぎょう} (large corporation), {安値|やすね} (low price), {実質|じっしつ} (substance/effectively), {実業家|じつぎょうか} (entrepreneur)
+- **Nouns - entertainment/media (4)**: {実写|じっしゃ} (live action), {完結|かんけつ} (completion/conclusion), {実況|じっきょう} (live commentary), {客席|きゃくせき} (audience seating)
+- **Nouns - education/academia (2)**: {学園|がくえん} (academy), {学術|がくじゅつ} (scholarship/academic)
+- **Nouns - buildings/places (1)**: {宮殿|きゅうでん} (palace)
+- **Nouns - nature/harvest (2)**: {実|みの}り (harvest/fruition), {大地震|おおじしん} (major earthquake)
+- **Nouns - appearance/emotion (2)**: {容姿|ようし} (appearance/looks), {容赦|ようしゃ} (mercy/forgiveness)
+- **Nouns - literary/formal (1)**: {宴|うたげ} (feast/banquet)
+- **Na-adjective (1)**: {密接|みっせつ} (close/closely connected)
+- **Suru verbs (1)**: {宣言|せんげん} (declaration/proclamation)
+- **Godan verb (1)**: {定|さだ}まる (to be settled)
+- **Ichidan verb (1)**: {寂|さび}れる (to become deserted)
+- **Noun/suru verb (1)**: {寄|よ}り{道|みち} (detour/side trip)
+- **Noun (social) (1)**: {孤独死|こどくし} (dying alone)
+
+Notable features:
+- Multi-sense entries: {実|みの}り (harvest/fruition), {実質|じっしつ} (substance/effectively), {客席|きゃくせき} (audience seating/passenger seating)
+- Cultural context: {孤独死|こどくし} (aging society issue), {大地震|おおじしん} (seismic culture), {定番|ていばん} (retail/cultural staples), {宴|うたげ} (literary/historical banquets)
+- Similar word comparisons: {安値|やすね} vs {高値|たかね}; {学園|がくえん} vs {学校|がっこう}; {宴|うたげ} vs {宴会|えんかい}; {定|さだ}まる vs {決|き}まる
+
+Total entries: 12,320 → 12,350
+Remaining candidates: 521 → 491 (30 removed)
 
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 283)
 Added 30 new dictionary entries (IDs 12235-12264) from candidate_words.json:
@@ -140,28 +167,6 @@ Notable features:
 
 Total entries: 12,200 → 12,230
 Remaining candidates: 517 → 487 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 279)
-Added 30 new dictionary entries (IDs 12115-12144) from candidate_words.json:
-
-- **Nouns/suru - change/transformation (4)**: {変容|へんよう} (transformation), {変異|へんい} (mutation), {変貌|へんぼう} (transfiguration), {増殖|ぞうしょく} (proliferation)
-- **Nouns - politics/governance (4)**: {国政|こくせい} (national politics), {国益|こくえき} (national interest), {国賓|こくひん} (state guest), {圧政|あっせい} (tyranny)
-- **Nouns - geography/earth (5)**: {地中|ちちゅう} (underground), {地価|ちか} (land price), {地殻|ちかく} (earth's crust), {土地柄|とちがら} (local character), {地|じ}べた (bare ground)
-- **Nouns - employment/office (3)**: {在職|ざいしょく} (being in office), {在留|ざいりゅう} (residing abroad), {在位|ざいい} (reign)
-- **Nouns - business/finance (3)**: {売却|ばいきゃく} (selling off assets), {取締役|とりしまりやく} (company director), {増額|ぞうがく} (increase in amount)
-- **Nouns - food (2)**: {塩水|しおみず} (salt water), {塩焼|しおや}き (salt-grilling)
-- **Nouns - naming/designation (2)**: {呼|よ}び{方|かた} (way of calling), {呼称|こしょう} (designation)
-- **Nouns - general (5)**: {変|か}わり{目|め} (turning point), {境地|きょうち} (state of mind), {回忌|かいき} (death anniversary), {国民性|こくみんせい} (national character), {固形|こけい} (solid form)
-- **Nouns - science/technical (2)**: {塩素|えんそ} (chlorine), {増幅|ぞうふく} (amplification)
-
-Notable features:
-- Multi-sense entry: {境地|きょうち} (state of mind / level of attainment)
-- Related word groups: transformation trio ({変容|へんよう}/{変異|へんい}/{変貌|へんぼう}), 在- compounds ({在職|ざいしょく}/{在留|ざいりゅう}/{在位|ざいい}), naming pair ({呼|よ}び{方|かた}/{呼称|こしょう})
-- Homophone cross-references: {地価|ちか} ↔ {地下|ちか}, {地殻|ちかく} ↔ {近|ちか}く
-- New kanji: 2,334 → 2,336 ({貌|ぼう}, {賓|ひん})
-
-Total entries: 12,170 → 12,200
-Remaining candidates: 547 → 517 (30 removed)
 
 ---
 
