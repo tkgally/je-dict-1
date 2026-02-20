@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 274)
+Added 30 new dictionary entries (IDs 11965-11994) from candidate_words.json:
+
+- **Verbs - godan (3)**: {厭|いと}う (to dislike/shun), {反|そ}る (to bend backward/warp), {取|と}り{憑|つ}く (to possess/haunt)
+- **Verbs - ichidan (1)**: {取|と}りやめる (to cancel)
+- **Verbs - suru (4)**: {反|はん}する (to contradict/violate), {博|はく}する (to win/gain), {即|そく}する (to conform to), {口|くち}ごたえする (to talk back)
+- **Nouns/suru - formal (5)**: {入団|にゅうだん} (joining a team), {即死|そくし} (instant death), {即位|そくい} (enthronement), {参戦|さんせん} (entering a war), {出展|しゅってん} (exhibiting)
+- **Nouns - food (2)**: {卵白|らんぱく} (egg white), {卵黄|らんおう} (egg yolk)
+- **Nouns - geography/direction (2)**: {原野|げんや} (wilderness), {南方|なんぽう} (the south)
+- **Nouns - abstract/formal (3)**: {原型|げんけい} (prototype), {原案|げんあん} (draft proposal), {利上|りあ}げ (interest rate hike)
+- **Nouns - culture (4)**: {参道|さんどう} (approach to shrine), {反旗|はんき} (flag of rebellion), {厄|やく} (misfortune/unlucky age), {八百万|やおよろず} (myriad gods)
+- **Nouns - general (4)**: {双眼鏡|そうがんきょう} (binoculars), {出禁|できん} (banned from entry), {単品|たんぴん} (single item/a la carte), {公|おおやけ} (public/official)
+- **Noun/adjective (1)**: {単一|たんいつ} (single/uniform)
+- **Expression (1)**: {右往左往|うおうさおう} (running about in confusion)
+
+Notable features:
+- Multi-sense entries: {反|はん}する (contradict/violate), {反|そ}る (arch back/warp), {取|と}り{憑|つ}く (possess/obsessed), {厄|やく} (misfortune/unlucky age), {原案|げんあん} (draft/original concept), {参戦|さんせん} (war/competition)
+- Cultural context: {厄|やく} ({厄年|やくどし} ages), {八百万|やおよろず} (Shinto animism), {参道|さんどう} ({表参道|おもてさんどう}), {即位|そくい} (Emperor's enthronement ceremony)
+- Homophone cross-references: {反|そ}る ↔ {剃|そ}る, {出展|しゅってん} ↔ {出典|しゅってん}
+- New kanji: 2,328 → 2,329 ({厭|えん})
+
+Total entries: 12,020 → 12,050
+Remaining candidates: 508 → 478 (30 removed)
+
 ### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 273)
 Added 30 new dictionary entries (IDs 11935-11964) from candidate_words.json:
 
