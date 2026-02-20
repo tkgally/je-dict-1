@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 275)
+Added 30 new dictionary entries (IDs 11995-12024) from candidate_words.json:
+
+- **Verbs - godan (7)**: {哀|あわ}れむ (to pity), {取|と}り{交|か}わす (to exchange documents), {取|と}り{合|あ}う (to compete for), {吸|す}い{取|と}る (to absorb), {合|あ}わさる (to come together), {囲|かこ}う (to enclose), {図|はか}る (to plan/aim for)
+- **Verbs - ichidan (3)**: {噛|か}みしめる (to chew/savor), {名付|なづ}ける (to name), {問|と}いかける (to pose a question)
+- **Verbs - suru (1)**: {呈|てい}する (to present/exhibit)
+- **I-adjective (1)**: {喜|よろこ}ばしい (delightful)
+- **Nouns - body/health (1)**: {咳|せき} (cough)
+- **Nouns - culture/traditional (3)**: {囲炉裏|いろり} (sunken hearth), {土俵|どひょう} (sumo ring), {嗜|たしな}み (refinement)
+- **Nouns - politics/economics (5)**: {圧力|あつりょく} (pressure), {国交|こっこう} (diplomatic relations), {国債|こくさい} (government bond), {国産|こくさん} (domestic production), {困窮|こんきゅう} (poverty)
+- **Nouns - evaluation/abstract (4)**: {圧巻|あっかん} (highlight), {圧迫|あっぱく} (pressure/oppression), {合致|がっち} (agreement), {固執|こしつ} (obstinacy)
+- **Nouns - general (4)**: {吸血鬼|きゅうけつき} (vampire), {商標|しょうひょう} (trademark), {回顧|かいこ} (retrospection), {図面|ずめん} (blueprint)
+- **Nature (1)**: {団栗|どんぐり} (acorn)
+
+Notable features:
+- Multi-sense entries: {噛|か}みしめる (chew/savor), {取|と}り{合|あ}う (compete/pay attention), {吸|す}い{取|と}る (absorb/exploit), {囲|かこ}う (enclose/keep), {図|はか}る (plan/aim for), {呈|てい}する (present/exhibit), {圧迫|あっぱく} (physical/figurative), {圧力|あつりょく} (physical/political), {土俵|どひょう} (sumo ring/arena), {嗜|たしな}み (refinement/propriety)
+- Cultural context: {囲炉裏|いろり} (traditional hearth), {土俵|どひょう} (sumo culture), {嗜|たしな}み (cultural accomplishments), {団栗|どんぐり} (どんぐりの{背比|せくら}べ idiom)
+- Homophone cross-references: {図|はか}る ↔ {測|はか}る, {国債|こくさい} ↔ {国際|こくさい}, {回顧|かいこ} ↔ {解雇|かいこ}
+- New kanji: 2,329 → 2,331 ({俵|ひょう}, {嗜|し})
+
+Total entries: 12,050 → 12,080
+Remaining candidates: 478 → 448 (30 removed)
+
 ### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 274)
 Added 30 new dictionary entries (IDs 11965-11994) from candidate_words.json:
 
