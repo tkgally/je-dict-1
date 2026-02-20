@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,200 |
+| Total entries | ~12,230 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,401 (open) |
-| Candidate words | ~517 |
+| General tier | ~9,431 (open) |
+| Candidate words | ~487 |
 | Cross-references | ~3,370 |
-| Example sentences | ~43,600 |
+| Example sentences | ~43,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 280)
+Added 30 new dictionary entries (IDs 12145-12174) from candidate_words.json:
+
+- **Nouns - building/surface (2)**: {壁面|へきめん} (wall surface), {外観|がいかん} (outward appearance)
+- **Nouns - communication (2)**: {声|こえ}かけ (calling out to someone), {声楽|せいがく} (vocal music)
+- **Nouns - media/culture (3)**: {外伝|がいでん} (side story/spin-off), {夜桜|よざくら} (cherry blossoms at night), {大福|だいふく} (daifuku mochi)
+- **Nouns - medical/body (2)**: {外傷|がいしょう} (external wound), {声帯|せいたい} (vocal cords)
+- **Nouns - business/economics (4)**: {外貨|がいか} (foreign currency), {外注|がいちゅう} (outsourcing), {増産|ぞうさん} (increased production), {大手|おおて} (major company)
+- **Nouns - general (6)**: {境界線|きょうかいせん} (boundary line), {売|う}り (selling point), {凡|ぼん}ミス (careless mistake), {団長|だんちょう} (group leader), {塩抜|しおぬ}き (desalting), {外面|がいめん} (outward appearance)
+- **Nouns - time (3)**: {夜更|よふ}け (late at night), {夜通|よどお}し (all night long), {大砲|たいほう} (cannon)
+- **Nouns/suru verbs (3)**: {変質|へんしつ} (change in quality), {増進|ぞうしん} (promotion/enhancement), {天使|てんし} (angel)
+- **Na-adjectives (3)**: {壮麗|そうれい} (magnificent), {多彩|たさい} (colorful/diverse), {多忙|たぼう} (very busy)
+- **Na-adjective/adverb (1)**: {大幅|おおはば} (significant/drastic)
+
+Notable features:
+- Multi-sense entries: {外伝|がいでん} (spin-off/supplementary biography), {売|う}り (selling point/selling), {外面|がいめん} (outer surface/public face), {大手|おおて} (major company/castle gate), {大砲|たいほう} (cannon/power hitter)
+- Cultural context: {夜桜|よざくら} (nighttime cherry blossom viewing tradition), {大福|だいふく} (traditional Japanese sweet), {塩抜|しおぬ}き (Japanese cooking technique)
+- Similar word comparisons: {壮麗|そうれい} vs {壮大|そうだい} vs {華麗|かれい}; {多忙|たぼう} vs {忙|いそが}しい vs {繁忙|はんぼう}; {多彩|たさい} vs {多様|たよう}
+
+Total entries: 12,200 → 12,230
+Remaining candidates: 517 → 487 (30 removed)
 
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 279)
 Added 30 new dictionary entries (IDs 12115-12144) from candidate_words.json:
@@ -136,29 +158,6 @@ Notable features:
 
 Total entries: 12,080 → 12,110
 Remaining candidates: 448 → 419 (29 removed)
-
-### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 275)
-Added 30 new dictionary entries (IDs 11995-12024) from candidate_words.json:
-
-- **Verbs - godan (7)**: {哀|あわ}れむ (to pity), {取|と}り{交|か}わす (to exchange documents), {取|と}り{合|あ}う (to compete for), {吸|す}い{取|と}る (to absorb), {合|あ}わさる (to come together), {囲|かこ}う (to enclose), {図|はか}る (to plan/aim for)
-- **Verbs - ichidan (3)**: {噛|か}みしめる (to chew/savor), {名付|なづ}ける (to name), {問|と}いかける (to pose a question)
-- **Verbs - suru (1)**: {呈|てい}する (to present/exhibit)
-- **I-adjective (1)**: {喜|よろこ}ばしい (delightful)
-- **Nouns - body/health (1)**: {咳|せき} (cough)
-- **Nouns - culture/traditional (3)**: {囲炉裏|いろり} (sunken hearth), {土俵|どひょう} (sumo ring), {嗜|たしな}み (refinement)
-- **Nouns - politics/economics (5)**: {圧力|あつりょく} (pressure), {国交|こっこう} (diplomatic relations), {国債|こくさい} (government bond), {国産|こくさん} (domestic production), {困窮|こんきゅう} (poverty)
-- **Nouns - evaluation/abstract (4)**: {圧巻|あっかん} (highlight), {圧迫|あっぱく} (pressure/oppression), {合致|がっち} (agreement), {固執|こしつ} (obstinacy)
-- **Nouns - general (4)**: {吸血鬼|きゅうけつき} (vampire), {商標|しょうひょう} (trademark), {回顧|かいこ} (retrospection), {図面|ずめん} (blueprint)
-- **Nature (1)**: {団栗|どんぐり} (acorn)
-
-Notable features:
-- Multi-sense entries: {噛|か}みしめる (chew/savor), {取|と}り{合|あ}う (compete/pay attention), {吸|す}い{取|と}る (absorb/exploit), {囲|かこ}う (enclose/keep), {図|はか}る (plan/aim for), {呈|てい}する (present/exhibit), {圧迫|あっぱく} (physical/figurative), {圧力|あつりょく} (physical/political), {土俵|どひょう} (sumo ring/arena), {嗜|たしな}み (refinement/propriety)
-- Cultural context: {囲炉裏|いろり} (traditional hearth), {土俵|どひょう} (sumo culture), {嗜|たしな}み (cultural accomplishments), {団栗|どんぐり} (どんぐりの{背比|せくら}べ idiom)
-- Homophone cross-references: {図|はか}る ↔ {測|はか}る, {国債|こくさい} ↔ {国際|こくさい}, {回顧|かいこ} ↔ {解雇|かいこ}
-- New kanji: 2,329 → 2,331 ({俵|ひょう}, {嗜|し})
-
-Total entries: 12,050 → 12,080
-Remaining candidates: 478 → 448 (30 removed)
 
 ---
 
