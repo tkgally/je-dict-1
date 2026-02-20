@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-19
+**Last updated**: 2026-02-20
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,110 |
+| Total entries | ~12,140 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,311 (open) |
-| Candidate words | ~419 |
+| General tier | ~9,341 (open) |
+| Candidate words | ~445 |
 | Cross-references | ~3,360 |
 | Example sentences | ~43,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 277)
+Added 30 new dictionary entries (IDs 12055-12084) from candidate_words.json:
+
+- **Nouns - international/geography (3)**: {各国|かっこく} (each country), {全土|ぜんど} (entire territory), {地形|ちけい} (terrain)
+- **Nouns - formal/policy (5)**: {同等|どうとう} (equality), {喫緊|きっきん} (urgent), {名目|めいもく} (nominal/pretext), {参画|さんかく} (participation in planning), {基調|きちょう} (keynote/trend)
+- **Nouns - academic/language (3)**: {古語|こご} (archaic word), {和語|わご} (native Japanese word), {受動|じゅどう} (passive)
+- **Nouns - social/general (4)**: {同類|どうるい} (same kind), {呼|よ}び{名|な} (designation), {出所|でどころ} (source), {土日|どにち} (weekend)
+- **Nouns - specialized (4)**: {合併症|がっぺいしょう} (medical complication), {名勝|めいしょう} (scenic spot), {嗜好|しこう} (taste/preference), {右翼|うよく} (right wing)
+- **Nouns/suru verbs (5)**: {入隊|にゅうたい} (enlisting), {合体|がったい} (fusion), {同化|どうか} (assimilation), {同席|どうせき} (being present together), {回帰|かいき} (return/regression)
+- **Noun/suru/na-adj (1)**: {堪能|たんのう} (to enjoy fully / proficient)
+- **Nouns - historical (1)**: {合戦|かっせん} (battle)
+- **Nouns - grammar/formal (2)**: {否|いな} (whether or not / nay), {原形|げんけい} (original form / base form)
+- **Verbs - godan (2)**: {取|と}り{去|さ}る (to remove), {取|と}り{払|はら}う (to clear away)
+
+Notable features:
+- Multi-sense entries: {合戦|かっせん} (battle/contest), {同類|どうるい} (same type/birds of a feather), {回帰|かいき} (return/regression), {受動|じゅどう} (passivity/passive voice), {右翼|うよく} (politics/sports), {名目|めいもく} (pretext/nominal), {原形|げんけい} (original shape/base form), {否|いな} (whether or not/nay), {堪能|たんのう} (enjoy/proficient), {基調|きちょう} (keynote/trend)
+- Similar word comparisons: {同等|どうとう} vs {平等|びょうどう} vs {対等|たいとう}; {名勝|めいしょう} vs {名所|めいしょ}; {参画|さんかく} vs {参加|さんか}; {喫緊|きっきん} vs {緊急|きんきゅう}
+- Economics vocabulary: {名目|めいもく}GDP, {名目|めいもく}{賃金|ちんぎん}, {回帰|かいき}{分析|ぶんせき}, {基調|きちょう}
+
+Total entries: 12,110 → 12,140
+Remaining candidates: 419 → 445 (30 removed; net count changed due to other additions)
 
 ### 2026-02-19 (Vocabulary Expansion - 30 New Entries, Session 276)
 Added 30 new dictionary entries (IDs 12025-12054) from candidate_words.json:
@@ -139,30 +161,6 @@ Notable features:
 
 Total entries: 11,990 → 12,020
 Remaining candidates: 538 → 508 (30 removed)
-
-### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 272)
-Added 30 new dictionary entries (IDs 11905-11934) from candidate_words.json:
-
-- **Nouns/suru verbs - 制 compounds (3)**: {制定|せいてい} (enactment), {制止|せいし} (restraint), {創設|そうせつ} (establishment)
-- **Nouns/suru verbs - 包/加 compounds (4)**: {包括|ほうかつ} (comprehensive), {包装|ほうそう} (packaging), {加入|かにゅう} (joining), {動員|どういん} (mobilization)
-- **Nouns - predecessor/reference (2)**: {前身|ぜんしん} (predecessor), {前述|ぜんじゅつ} (aforementioned)
-- **Nouns - people (3)**: {加害者|かがいしゃ} (perpetrator), {剣士|けんし} (swordsman), {勇者|ゆうしゃ} (hero)
-- **Nouns - food/culture (2)**: {削り節|けずりぶし} (bonito shavings), {割烹|かっぽう} (Japanese haute cuisine)
-- **Nouns - publishing (2)**: {副題|ふくだい} (subtitle), {創刊|そうかん} (first publication)
-- **Nouns - general (7)**: {十字|じゅうじ} (cross shape), {効能|こうのう} (efficacy), {効果音|こうかおん} (sound effect), {動き|うごき} (movement/trend), {勝ち負け|かちまけ} (winning and losing), {区画|くかく} (block/section), {助数詞|じょすうし} (counter word)
-- **Na-adjective (1)**: {劣悪|れつあく} (inferior/terrible)
-- **Noun (1)**: {労い|ねぎらい} (appreciation for effort)
-- **Nouns - supernatural (1)**: {化け物|ばけもの} (monster/ghost)
-- **Verbs (4)**: {制する|せいする} (to control/win), {剥ぐ|はぐ} (to strip off), {割り出す|わりだす} (to figure out), {包み込む|つつみこむ} (to envelop)
-
-Notable features:
-- Multi-sense entries: {制する|せいする} (restrain/win), {動き|うごき} (motion/trend), {化け物|ばけもの} (supernatural/figurative)
-- Cultural context: {割烹|かっぽう} (counter dining), {削り節|けずりぶし} (dashi/toppings), {勇者|ゆうしゃ} (RPG hero archetype), {労い|ねぎらい} (workplace appreciation culture)
-- Semantic clusters: 制- compounds (3), 包- compounds (2), 前- compounds (2)
-- New kanji: 2,326 → 2,327 ({烹|ほう})
-
-Total entries: 11,960 → 11,990
-Remaining candidates: 210 → 180 (30 removed)
 
 ---
 

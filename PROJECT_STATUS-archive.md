@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 272)
+Added 30 new dictionary entries (IDs 11905-11934) from candidate_words.json:
+
+- **Nouns/suru verbs - 制 compounds (3)**: {制定|せいてい} (enactment), {制止|せいし} (restraint), {創設|そうせつ} (establishment)
+- **Nouns/suru verbs - 包/加 compounds (4)**: {包括|ほうかつ} (comprehensive), {包装|ほうそう} (packaging), {加入|かにゅう} (joining), {動員|どういん} (mobilization)
+- **Nouns - predecessor/reference (2)**: {前身|ぜんしん} (predecessor), {前述|ぜんじゅつ} (aforementioned)
+- **Nouns - people (3)**: {加害者|かがいしゃ} (perpetrator), {剣士|けんし} (swordsman), {勇者|ゆうしゃ} (hero)
+- **Nouns - food/culture (2)**: {削り節|けずりぶし} (bonito shavings), {割烹|かっぽう} (Japanese haute cuisine)
+- **Nouns - publishing (2)**: {副題|ふくだい} (subtitle), {創刊|そうかん} (first publication)
+- **Nouns - general (7)**: {十字|じゅうじ} (cross shape), {効能|こうのう} (efficacy), {効果音|こうかおん} (sound effect), {動き|うごき} (movement/trend), {勝ち負け|かちまけ} (winning and losing), {区画|くかく} (block/section), {助数詞|じょすうし} (counter word)
+- **Na-adjective (1)**: {劣悪|れつあく} (inferior/terrible)
+- **Noun (1)**: {労い|ねぎらい} (appreciation for effort)
+- **Nouns - supernatural (1)**: {化け物|ばけもの} (monster/ghost)
+- **Verbs (4)**: {制する|せいする} (to control/win), {剥ぐ|はぐ} (to strip off), {割り出す|わりだす} (to figure out), {包み込む|つつみこむ} (to envelop)
+
+Notable features:
+- Multi-sense entries: {制する|せいする} (restrain/win), {動き|うごき} (motion/trend), {化け物|ばけもの} (supernatural/figurative)
+- Cultural context: {割烹|かっぽう} (counter dining), {削り節|けずりぶし} (dashi/toppings), {勇者|ゆうしゃ} (RPG hero archetype), {労い|ねぎらい} (workplace appreciation culture)
+- Semantic clusters: 制- compounds (3), 包- compounds (2), 前- compounds (2)
+- New kanji: 2,326 → 2,327 ({烹|ほう})
+
+Total entries: 11,960 → 11,990
+Remaining candidates: 210 → 180 (30 removed)
+
 ### 2026-02-18 (Vocabulary Expansion - 30 New Entries, Session 270)
 Added 30 new dictionary entries (IDs 11845-11874) from candidate_words.json:
 
