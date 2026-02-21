@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 287)
+Added 30 new dictionary entries (IDs 12370-12399) from candidate_words.json:
+
+- **Godan verbs (2)**: {寝返|ねがえ}る (to turn over/to defect), {宿|やど}す (to harbor/to conceive)
+- **Ichidan verb (1)**: {居合|いあ}わせる (to happen to be present)
+- **I-adjective (1)**: {尊|とうと}い (precious/noble/sacred)
+- **Nouns - history/culture (6)**: {土偶|どぐう} (clay figurine), {将軍|しょうぐん} (shogun), {宣教師|せんきょうし} (missionary), {家来|けらい} (retainer), {寄席|よせ} (variety theater), {屋敷|やしき} (mansion)
+- **Nouns - business/economics (3)**: {売上高|うりあげだか} (total sales), {富裕層|ふゆうそう} (wealthy class), {委譲|いじょう} (delegation of authority)
+- **Nouns - abstract/formal (5)**: {始祖|しそ} (founder), {尊厳|そんげん} (dignity), {対決|たいけつ} (confrontation), {対抗|たいこう} (opposition), {展望|てんぼう} (prospect/panoramic view)
+- **Nouns - daily life (4)**: {専用|せんよう} (exclusive use), {寝具|しんぐ} (bedding), メイド (maid), バック (back/reversing)
+- **Nouns - food/preservation (1)**: {塩蔵|えんぞう} (salt preservation)
+- **Nouns - concepts (4)**: {助動詞|じょどうし} (auxiliary verb), {不老不死|ふろうふし} (eternal youth), {多幸感|たこうかん} (euphoria), {女子高生|じょしこうせい} (high school girl)
+- **Nouns - medical (1)**: {大動脈|だいどうみゃく} (aorta)
+- **Nouns - people (2)**: {小僧|こぞう} (youngster/temple boy), {封印|ふういん} (seal/sealing away)
+
+Total entries: 12,425 → 12,455
+Remaining candidates: 543 → 513 (30 removed)
+
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 286)
 Added 30 new dictionary entries (IDs 12340-12369) from candidate_words.json:
 
