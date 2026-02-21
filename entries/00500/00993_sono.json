@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00993_sono_ex1",
-      "japanese": "その{本|ほん}をください。",
+      "japanese": "その⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please give me that book.",
       "notes": null,
       "has_audio": false,
@@ -22,7 +22,7 @@
     },
     {
       "id": "00993_sono_ex2",
-      "japanese": "その{本|ほん}を{貸|か}してください。",
+      "japanese": "その⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{貸|か}して→貸す：00537_kasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please lend me that book.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "00993_sono_ex3",
-      "japanese": "その{話|はなし}は{面白|おもしろ}いですか。",
+      "japanese": "その⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Is that story interesting?",
       "notes": null,
       "has_audio": false,
@@ -38,7 +38,7 @@
     },
     {
       "id": "00993_sono_ex4",
-      "japanese": "その{時|とき}、{友達|ともだち}が{来|き}ました。",
+      "japanese": "その⟦{時|とき}→時：02918_toki⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{来|き}ました→来る：00254_kuru⟧。",
       "english": "At that time, my friend came.",
       "notes": null,
       "has_audio": false,
@@ -46,18 +46,18 @@
     },
     {
       "id": "00993_sono_ex5",
-      "japanese": "その{店|みせ}は{駅|えき}の{近|ちか}くにあります。とてもおいしいラーメンを{出|だ}します。",
+      "japanese": "その⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧⟦{近|ちか}く→近い：00530_chikai⟧⟦に→に：00314_ni⟧⟦あります→ある：00006_aru⟧。⟦とても→とても：00593_totemo⟧⟦おいしい→美味しい：00740_oishii⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦を→を：00422_wo⟧⟦{出|だ}します→出す：01087_dasu⟧。",
       "english": "That shop is near the station. It serves very delicious ramen.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [1]
     }
   ],
-  "notes": "その is a demonstrative adjective meaning 'that,' used to modify nouns. It refers to something near the listener or previously mentioned.\n\nKO-SO-A-DO SYSTEM (adjective forms):\n- この: this (near speaker)\n- その: that (near listener or just mentioned)\n- あの: that over there (far from both)\n- どの: which? (question)\n\nIMPORTANT:\nその must always be followed by a noun. It cannot stand alone (use それ instead).\n\nCOMMON EXPRESSIONS:\n- その{時|とき}: at that time\n- その{後|あと}: after that\n- その{他|ほか}: others, the rest\n- その{通|とお}り: exactly, that's right\n- その{代|か}わり: instead, in exchange\n\nANAPHORIC USE:\nその often refers back to something mentioned earlier in the conversation, not just physical proximity.",
+  "notes": "その is a demonstrative adjective meaning 'that,' used to modify nouns. It refers to something near the listener or previously mentioned.\n\nKO-SO-A-DO SYSTEM (adjective forms):\n- ⟦この→この：00962_kono⟧: this (near speaker)\n- その: that (near listener or just mentioned)\n- ⟦あの→あの：00915_ano⟧: that over there (far from both)\n- ⟦どの→どの：00551_dono⟧: which? (question)\n\nIMPORTANT:\nその must always be followed by a noun. It cannot stand alone (use ⟦それ→それ：00994_sore⟧ instead).\n\nCOMMON EXPRESSIONS:\n- その⟦{時|とき}→時：02918_toki⟧: at that time\n- その⟦{後|あと}→後：09580_ato⟧: after that\n- その⟦{他|ほか}→他：04129_hoka⟧: others, the rest\n- その⟦{通|とお}り→通り：01475_toori⟧: exactly, that's right\n- その⟦{代|か}わり→代わり：01296_kawari⟧: instead, in exchange\n\nANAPHORIC USE:\nその often refers back to something mentioned earlier in the conversation, not just physical proximity.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:47:40Z",
-    "modified": "2026-02-04T04:44:17Z",
+    "modified": "2026-02-21T14:01:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
