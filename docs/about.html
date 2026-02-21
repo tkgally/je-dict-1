@@ -6,6 +6,35 @@
     <meta name="description" content="About the TKG Japanese-English Learner's Dictionary (TKGJE)">
     <title>About - TKG Japanese-English Learner's Dictionary</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+.about-page {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+.about-page h1, .about-page h2, .about-page h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.about-page h1 {
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+}
+.about-page h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+.about-page h3 {
+    margin-top: 1.3em;
+    margin-bottom: 0.6em;
+}
+.about-page p {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+.about-page section {
+    margin-bottom: 1.5em;
+}
+</style>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
 </head>
 <body>
@@ -43,62 +72,44 @@
 <main class="about-page">
     <h1>About the TKG Japanese-English Learner's Dictionary</h1>
     <section>
-        <br>
         <p>This dictionary is for learners of Japanese who are actively trying to build their vocabulary.</p>
-        <br>
         <p>I began this dictionary project in early January 2026 in the hope of creating the sort of dictionary that I desperately wanted when I was studying Japanese more than forty years ago. Nothing like this dictionary existed then. Some years later, I proposed creating a similar dictionary to several Japanese publishers, but they all rejected the idea, on the (very reasonable) grounds that it would have taken a team of lexiographers working several years to complete and that the dictionary would never sell enough copies to recoup the investment. I gave up the idea until very recently, when AI writing and agentic coding tools became good enough to do almost all of the work.</p>
-        <br>
         <p>All of the entry writing and coding and most of the conceptualization is being done by Claude Opus through Claude Code for the Web, with occasional debugging and other help from ChatGPT and Gemini. I serve mainly as project supervisor. The content is a bit choppy, and many improvements remain to be made. But it should be usable by learners even in its present form.</p>
-        <br>
         <p>All of the entry files and code are available at the dictionary’s <a href="https://github.com/tkgally/je-dict-1" target="_blank">GitHub repository</a>. This dictionary and all of its files are released into the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0 Universal</a>. Anyone may use and adapt the dictionary data for any purpose. While credit to me and to Claude would be welcome, I, at least, do not insist on it.</p>
-        <br><br>
         <p><b>Tom Gally</b></p>
         <p>Yokohama, Japan</p>
         <p><a href="https://www.gally.net/" target="_blank">gally.net</a></p>
-    </section>
-<br>
+	</section>
 	<hr>
     <section>
-		<br>
-		<h2>Blog</h2><br>
-		<h3>February 21, 2026</h3><br>
+		<h2>Blog</h2>
+		<h3>February 21, 2026</h3>
 <p>I am continuing to have Claude add new entries to the dictionary based on the corpus I had it compile a few weeks ago. It is over half way through the list of word forms extracted from that corpus, and I expect it should be finished in a week or so. The words it is choosing from the list all look suitable for this dictionary and, in aggregate, should fill nearly all gaps in essential vocabulary.</p>
-<br>
 <p>After that word hunt is done, I plan to try the “think of related words” strategy again. I will have Claude go through the full list of headwords one by one. For each word, it will come up with a list of synonyms, antonyms, and related words and create entries for any of those words that are not yet in the dictionary. I hope that will fill in any remaining gaps.</p>
-<br>
 <p>Other tasks for the weeks and months ahead: more complete information on verb conjugations and <i>i</i>-adjective declensions; better coverage of kanji and other orthographic variations; better cross-referencing between entries; addition of inline links to all example sentences (fewer than one-tenth of the entries have the links now); improvements to the interface; and addition of audio readings to example sentences.</p>
-<br>
-		<p>At some point, I plan to create a comprehensive proofreading and evaluation agent. It will read through the entries one at a time and critically examine every element: glosses, definitions, example sentences and their translations, notes, furigana, cross-references, etc., and suggest corrections and improvements. I might run that agent with either GPT or Gemini instead of Claude, to get a second opinion, so to speak.</p><br>
-<h3>February 7, 2026</h3><br>
+		<p>At some point, I plan to create a comprehensive proofreading and evaluation agent. It will read through the entries one at a time and critically examine every element: glosses, definitions, example sentences and their translations, notes, furigana, cross-references, etc., and suggest corrections and improvements. I might run that agent with either GPT or Gemini instead of Claude, to get a second opinion, so to speak.</p>
+<h3>February 7, 2026</h3>
 <p>In addition to just having Claude think up new headwords, as I described on January 27, I am also adding words that Claude has used in example sentences but that did not yet have entries. This process is catching many common words that had been overlooked.</p>
-<br>
 <p>Also, the corpus I am compiling has reached around 250,000 characters, about two-thirds from the web and about one-third texts generated by Claude, ChatGPT, and Gemini. A couple of days ago, I had Claude use a natural language processing program it found on the web to extract the canonical forms (lemmas) of all words in that corpus. I then let Claude decide which of those words should be candidates for inclusion in this dictionary, based on a few criteria I gave it: avoid proper names, overly technical or specialized terms, etc. It is making very good choices.</p>
-<br>
 <p>For the time being, I will be adding words mainly using these two methods, as the words found in this way are, to my eye, appropiate for inclusion in this dictionary. The earlier method—having Claude just think of words—is increasingly yielding low-frequency vocabulary not so important to learners.</p>
-<br>
 <p>The headword-addition process goes slowly, about thirty entries per batch and at most four or five batches per day. The dictionary did reach my initial target of ten thousand headwords a couple of days ago, but I can see from the words still being added that that target was too low.</p>
-<br>
 <p>After the entry count reaches fifteen or twenty thousand, I will start checking for entries that can be removed or merged. I have noticed cases in which minor <i>okurigana</i> or kanji variations led Claude to create separate entries for what are usually regarded as the same word. There are probably many more such cases, and I will have Claude search for and deal with them systematically at some point.</p>
-		<br>
-<h3>February 3, 2026</h3><br>
+<h3>February 3, 2026</h3>
 <p>Yesterday, I started adding a new feature to the dictionary: inline links from words that appear in example sentences to the entries for those words (if the entries exist). This feature required the creation of a new tagging system for the examples in the JSON entry files.</p>
-<br>
 <p>For Claude to create links to the correct files, it cannot just write a deterministic program, as the same string of characters might, depending on the context, represent different words. Instead, Claude must examine each sentence semantically, a time- and token-consuming process. The links won’t appear in all entries for quite some time. Some entries that do have the links are those for <a href="entries/00000/00104_hiroba.html" target="_blank">広場</a>, <a href="entries/00000/00073_gomu.html" target="_blank">ゴム</a>, and <a href="entries/00000/00041_fudan.html" target="_blank">普段</a>. Both the Examples and Links toggles must be turned on to view the links.</p>
-<br>
-<h3>January 27, 2026</h3><br>
-<p>A few notes about how headwords are being collected for this dictionary.</p><br>
-<p>When I started the project early this month, I had Claude decide for itself what words to use as headwords. It reported that it started with a wordlist it found on GitHub for people studying for the Japanese Language Proficiency Test. As it started writing entries, on its own initiative it marked each entry with a JLPT level (N5, N4, N3, N2, or N1).</p><br>
-<p>A few days into the project, I had it start compiling <a href="https://github.com/tkgally/je-dict-1/blob/main/candidate_words.json" target="_blank">a list of candidate words</a>. I had it write <a href="https://github.com/tkgally/je-dict-1/blob/main/prompts/newcandidates.md" target="_blank">a prompt</a> that I could give it to have it add words to the list. The prompt basically asks Claude to think of 100 words that would be suitable for this dictionary and add them to the list. I then run <a href="https://github.com/tkgally/je-dict-1/blob/main/prompts/newentries.md" target="_blank">another prompt</a> to have it create entries from words on the candidates list, currently 30 at a time. (I tried larger batches, but it would start cutting corners and ignore key parts of the prompt as it ran out of context.)</p><br>
-<p>This method <i>seems</i> to be getting pretty good coverage of basic and core vocabulary, though there might be gaps. I haven’t run a comparison with existing dictionaries or wordlists, and I would like to avoid doing so if possible. This “think of words that belong in the dictionary” would certainly not be viable for a human-produced dictionary, nearly all of which are compiled based on previous dictionaries, but it might be okay when a language model trained on vast amounts of text is doing the “thinking.” We’ll see.</p><br>
-<p>Today, I had it add to the candidates list most of the words that it has used so far in the notes sections of entries. This increased the candidates list from around 500 words to over 10,000, though there were a lot of spurious entries that I have started to have it cull.</p><br>
-<p>The JLPT itself does not specify vocabulary for its levels; it seems to have adopted a CEFR-like approach that avoids associating particular words or skills with assessment levels. So, a week or two ago, I had Claude delete all of the JLPT levels and create instead an original three-tier vocabulary system. The initial candidates for the basic and core tiers were voted on by Claude, ChatGPT, Gemini, and Grok. I then had Claude adjust the tier membership so that each of those two tiers would be reasonably complete; that is, if a word in a distinct and limited semantic category—such as days of the week—is in the tier, then the other words in that category should be in the same tier. This seems to have worked reasonably well, though I will need to have Claude revisit and revise this tier system later.</p><br>
+<h3>January 27, 2026</h3>
+<p>A few notes about how headwords are being collected for this dictionary.</p>
+<p>When I started the project early this month, I had Claude decide for itself what words to use as headwords. It reported that it started with a wordlist it found on GitHub for people studying for the Japanese Language Proficiency Test. As it started writing entries, on its own initiative it marked each entry with a JLPT level (N5, N4, N3, N2, or N1).</p>
+<p>A few days into the project, I had it start compiling <a href="https://github.com/tkgally/je-dict-1/blob/main/candidate_words.json" target="_blank">a list of candidate words</a>. I had it write <a href="https://github.com/tkgally/je-dict-1/blob/main/prompts/newcandidates.md" target="_blank">a prompt</a> that I could give it to have it add words to the list. The prompt basically asks Claude to think of 100 words that would be suitable for this dictionary and add them to the list. I then run <a href="https://github.com/tkgally/je-dict-1/blob/main/prompts/newentries.md" target="_blank">another prompt</a> to have it create entries from words on the candidates list, currently 30 at a time. (I tried larger batches, but it would start cutting corners and ignore key parts of the prompt as it ran out of context.)</p>
+<p>This method <i>seems</i> to be getting pretty good coverage of basic and core vocabulary, though there might be gaps. I haven’t run a comparison with existing dictionaries or wordlists, and I would like to avoid doing so if possible. This “think of words that belong in the dictionary” would certainly not be viable for a human-produced dictionary, nearly all of which are compiled based on previous dictionaries, but it might be okay when a language model trained on vast amounts of text is doing the “thinking.” We’ll see.</p>
+<p>Today, I had it add to the candidates list most of the words that it has used so far in the notes sections of entries. This increased the candidates list from around 500 words to over 10,000, though there were a lot of spurious entries that I have started to have it cull.</p>
+<p>The JLPT itself does not specify vocabulary for its levels; it seems to have adopted a CEFR-like approach that avoids associating particular words or skills with assessment levels. So, a week or two ago, I had Claude delete all of the JLPT levels and create instead an original three-tier vocabulary system. The initial candidates for the basic and core tiers were voted on by Claude, ChatGPT, Gemini, and Grok. I then had Claude adjust the tier membership so that each of those two tiers would be reasonably complete; that is, if a word in a distinct and limited semantic category—such as days of the week—is in the tier, then the other words in that category should be in the same tier. This seems to have worked reasonably well, though I will need to have Claude revisit and revise this tier system later.</p>
 <p>I have also started a separate project in which I have Claude Code compile a corpus of texts in various genres from the web. When the corpus is reasonably large, I will have Claude  scan it to find essential words that have not been added to the dictionary or the candidates list yet. I am hopeful that this will fill in any gaps in vocabulary that should be in any dictionary of Japanese.</p>
-<br>
-<h3>January 22, 2026</h3><br>
-	<p>Today I had Claude add a kanji index function. Click on any kanji in the headword of an entry and you will be taken to a list of all entries in the dictionary that contain that kanji.</p><br>
-	<p>I have also been having Claude run the continue_polishing.md prompt on batches of entries to adjust the vocabulary level in example sentences for the base and core tiers, add example sentences, and fix various problems. This is a token-heavy task, and it can only do about 20 at a time before running out of context. It might take a week or longer to go through all of the entries in this way. After it’s done, I plan to set up a similar procedure for Claude to improve the notes sections of the entries. They vary widely in length and format now, and I want them to be more consistent.</p><br>
-	<p>After that is done, I plan to enhance the cross-referencing between entries and add information on verb conjugations.</p><br>
-	<p>I want eventually to add audio readings of all of the example sentences. A couple of weeks ago, I did produce about a thousand example readings in mp3 format using OpenAI’s text-to-speech model (at an API cost of about one yen per sentence). The intonation was quite natural, but there were occasional mistakes, such as punctuation marks read aloud or the particle は read as <i>ha</i> instead of <i>wa</i>. I decided that such misreadings would be annoying to users of the dictionary, so I am currently planning to add audio files only after either TTS models improve for Japanese or I find a way for LLMs to check audio readings for accuracy automatically.</p><br>
+<h3>January 22, 2026</h3>
+	<p>Today I had Claude add a kanji index function. Click on any kanji in the headword of an entry and you will be taken to a list of all entries in the dictionary that contain that kanji.</p>
+	<p>I have also been having Claude run the continue_polishing.md prompt on batches of entries to adjust the vocabulary level in example sentences for the base and core tiers, add example sentences, and fix various problems. This is a token-heavy task, and it can only do about 20 at a time before running out of context. It might take a week or longer to go through all of the entries in this way. After it’s done, I plan to set up a similar procedure for Claude to improve the notes sections of the entries. They vary widely in length and format now, and I want them to be more consistent.</p>
+	<p>After that is done, I plan to enhance the cross-referencing between entries and add information on verb conjugations.</p>
+	<p>I want eventually to add audio readings of all of the example sentences. A couple of weeks ago, I did produce about a thousand example readings in mp3 format using OpenAI’s text-to-speech model (at an API cost of about one yen per sentence). The intonation was quite natural, but there were occasional mistakes, such as punctuation marks read aloud or the particle は read as <i>ha</i> instead of <i>wa</i>. I decided that such misreadings would be annoying to users of the dictionary, so I am currently planning to add audio files only after either TTS models improve for Japanese or I find a way for LLMs to check audio readings for accuracy automatically.</p>
 		<p>While doing these other tasks, I will continue to add new entries.</p>
     </section>
 </main>
