@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,575 |
+| Total entries | ~12,605 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,776 (open) |
-| Candidate words | ~555 |
+| General tier | ~9,806 (open) |
+| Candidate words | ~525 |
 | Cross-references | ~3,380 |
-| Example sentences | ~44,700 |
+| Example sentences | ~44,800 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 292)
+Added 30 new dictionary entries (IDs 12520-12549) from candidate_words.json:
+
+- **Na-adjectives (2)**: {強固|きょうこ} (firm/solid), {強硬|きょうこう} (hardline/unyielding)
+- **I-adjective (1)**: {後|うし}ろめたい (feeling guilty/uneasy)
+- **Godan verbs (2)**: {彩|いろど}る (to color/decorate), {建|た}つ (to be built)
+- **Nouns - geography/nature (3)**: {山岳|さんがく} (mountains), {山村|さんそん} (mountain village), {山地|さんち} (mountainous area — replaced with {広域|こういき})
+- **Nouns - history/culture (4)**: {幕末|ばくまつ} (end of Edo period), {家元|いえもと} (grand master of traditional art), {宮廷|きゅうてい} (imperial court), {屋号|やごう} (trade name/kabuki stage name)
+- **Nouns - society/governance (4)**: {弱者|じゃくしゃ} (the weak), {当局|とうきょく} (the authorities), {年功序列|ねんこうじょれつ} (seniority system), {廃校|はいこう} (school closure)
+- **Nouns - food/nature (2)**: {小松菜|こまつな} (komatsuna), {山賊|さんぞく} (mountain bandit)
+- **Nouns - abstract/descriptive (5)**: {巨体|きょたい} (huge physique), {序章|じょしょう} (prologue), {彷彿|ほうふつ} (reminiscent), {当|あ}て{字|じ} (ateji), {座談会|ざだんかい} (round-table discussion)
+- **Nouns - arts/theater (1)**: {小道具|こどうぐ} (props)
+- **Noun/suru verbs (6)**: {大量生産|たいりょうせいさん} (mass production), {定住|ていじゅう} (permanent residence), {強要|きょうよう} (coercion), {形成|けいせい} (formation), {待望|たいぼう} (long-awaited), {征服|せいふく} (conquest)
+
+Notable features:
+- Multi-sense entries: {小道具|こどうぐ} (theater props/small tools), {屋号|やごう} (shop name/kabuki stage name), {彩|いろど}る (color/embellish), {征服|せいふく} (military conquest/figurative mastery)
+- Cultural context: {家元|いえもと} (iemoto system), {幕末|ばくまつ} (Bakumatsu era), {屋号|やごう} (kabuki calling names), {年功序列|ねんこうじょれつ} (Japanese employment), {山賊|さんぞく} (sanzoku-yaki dish), {廃校|はいこう} (rural repurposing trend)
+- Diverse word types: adjectives (na/i), godan verbs, suru verbs, formal nouns, cultural terms
+- New kanji: 2,361 → 2,366 ({岳|がく}, {廷|てい}, {彷|ほう}, {彿|ふつ}, {征|せい})
+
+Total entries: 12,575 → 12,605
+Remaining candidates: 555 → 525 (30 removed)
 
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 291)
 Added 30 new dictionary entries (IDs 12490-12519) from candidate_words.json:
@@ -148,29 +171,6 @@ Notable features:
 
 Total entries: 12,455 → 12,485
 Remaining candidates: 513 → 483 (30 removed)
-
-### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 287)
-Added 30 new dictionary entries (IDs 12370-12399) from candidate_words.json:
-
-- **Godan verbs (2)**: {寝返|ねがえ}る (to turn over/to defect), {宿|やど}す (to harbor/to conceive)
-- **Ichidan verb (1)**: {居合|いあ}わせる (to happen to be present)
-- **I-adjective (1)**: {尊|とうと}い (precious/noble/sacred)
-- **Nouns - history/culture (6)**: {土偶|どぐう} (clay figurine), {将軍|しょうぐん} (shogun), {宣教師|せんきょうし} (missionary), {家来|けらい} (retainer), {寄席|よせ} (variety theater), {屋敷|やしき} (mansion)
-- **Nouns - business/economics (3)**: {売上高|うりあげだか} (total sales), {富裕層|ふゆうそう} (wealthy class), {委譲|いじょう} (delegation of authority)
-- **Nouns - abstract/formal (5)**: {始祖|しそ} (founder), {尊厳|そんげん} (dignity), {対決|たいけつ} (confrontation), {対抗|たいこう} (opposition), {展望|てんぼう} (prospect/panoramic view)
-- **Nouns - daily life (4)**: {専用|せんよう} (exclusive use), {寝具|しんぐ} (bedding), メイド (maid), バック (back/reversing)
-- **Nouns - food/preservation (1)**: {塩蔵|えんぞう} (salt preservation)
-- **Nouns - concepts (4)**: {助動詞|じょどうし} (auxiliary verb), {不老不死|ふろうふし} (eternal youth), {多幸感|たこうかん} (euphoria), {女子高生|じょしこうせい} (high school girl)
-- **Nouns - medical (1)**: {大動脈|だいどうみゃく} (aorta)
-- **Nouns - people (2)**: {小僧|こぞう} (youngster/temple boy), {封印|ふういん} (seal/sealing away)
-
-Notable features:
-- Multi-sense entries: {寝返|ねがえ}る (turn in bed/defect), {宿|やど}す (harbor/conceive/reflect light), {将軍|しょうぐん} (shogun/general), {大動脈|だいどうみゃく} (aorta/main artery), バック (background/reversing), メイド (maid/maid cafe worker), {封印|ふういん} (physical seal/sealing away), {尊|とうと}い (precious/sacred), {展望|てんぼう} (outlook/panoramic view), {小僧|こぞう} (brat/temple boy)
-- Cultural context: {土偶|どぐう} (Jomon archaeology), {将軍|しょうぐん} (feudal governance), {寄席|よせ} (rakugo tradition), {家来|けらい} (Momotaro folk tale), メイド (Akihabara subculture), {不老不死|ふろうふし} (East Asian mythology)
-- Similar word comparisons: {始祖|しそ} vs {創始者|そうししゃ}; {売上高|うりあげだか} vs {売|う}り{上|あ}げ; {対決|たいけつ} vs {対立|たいりつ}; {富裕層|ふゆうそう} vs {金持|かねも}ち; {尊|とうと}い (slang usage in otaku culture)
-
-Total entries: 12,425 → 12,455
-Remaining candidates: 543 → 513 (30 removed)
 
 ---
 
