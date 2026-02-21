@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00997_soshite_ex1",
-      "japanese": "そして{帰|かえ}った。",
+      "japanese": "そして⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "And then I went home.",
       "notes": null,
       "has_audio": false,
@@ -22,7 +22,7 @@
     },
     {
       "id": "00997_soshite_ex2",
-      "japanese": "{朝|あさ}ご{飯|はん}を{食|た}べました。そして{学校|がっこう}へ{行|い}きました。",
+      "japanese": "⟦{朝|あさ}ご{飯|はん}→朝ご飯：02843_asagohan⟧⟦を→を：00422_wo⟧⟦{食|た}べました→食べる：00396_taberu⟧。そして⟦{学校|がっこう}→学校：00055_gakkou⟧⟦へ→へ：02473_he⟧⟦{行|い}きました→行く：00119_iku⟧。",
       "english": "I ate breakfast. And then I went to school.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "00997_soshite_ex3",
-      "japanese": "{彼|かれ}は{頭|あたま}がいい。そして{優|やさ}しいです。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。そして⟦{優|やさ}しい→優しい：02640_yasashii⟧⟦です→です：09485_desu⟧。",
       "english": "He is smart. And he is kind.",
       "notes": null,
       "has_audio": false,
@@ -38,7 +38,7 @@
     },
     {
       "id": "00997_soshite_ex4",
-      "japanese": "{勉強|べんきょう}して、{仕事|しごと}をして、そして{寝|ね}ました。",
+      "japanese": "⟦{勉強|べんきょう}して→勉強する：00527_benkyousuru⟧、⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧、そして⟦{寝|ね}ました→寝る：00470_neru⟧。",
       "english": "I studied, worked, and then went to sleep.",
       "notes": null,
       "has_audio": false,
@@ -46,18 +46,18 @@
     },
     {
       "id": "00997_soshite_ex5",
-      "japanese": "{最初|さいしょ}は{難|むずか}しかったです。そして{時間|じかん}もかかりました。でも{最後|さいご}にはできました。",
+      "japanese": "⟦{最初|さいしょ}→最初：00882_saisho⟧⟦は→は：00079_ha⟧⟦{難|むずか}しかった→難しい：00517_muzukashii⟧⟦です→です：09485_desu⟧。そして⟦{時間|じかん}→時間：00468_jikan⟧⟦も→も：00484_mo⟧⟦かかりました→かかる：00711_kakaru⟧。⟦でも→でも：00925_demo⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦できました→できる：00557_dekiru⟧。",
       "english": "At first it was difficult. And it also took time. But in the end I did it.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [1]
     }
   ],
-  "notes": "そして is a conjunction meaning 'and' or 'and then,' connecting sentences to show sequence or addition.\n\nPOSITION:\nUsed at the beginning of a new sentence (not within a sentence).\n\nSIMILAR CONJUNCTIONS:\n- そして: and, and then (neutral)\n- それから: after that, and then (more casual, sequential)\n- また: also, moreover (additive)\n- さらに: furthermore (formal, emphatic)\n\nEXAMPLE PATTERN:\n[Sentence A]。そして、[Sentence B]。\n{食|た}べた。そして、{寝|ね}た。(I ate. And then I slept.)\n\nNOTE:\nMore formal/written than それから. Often used in storytelling.",
+  "notes": "そして is a conjunction meaning 'and' or 'and then,' connecting sentences to show sequence or addition.\n\nPOSITION:\nUsed at the beginning of a new sentence (not within a sentence).\n\nSIMILAR CONJUNCTIONS:\n- そして: and, and then (neutral)\n- ⟦それから→それから：00996_sorekara⟧: after that, and then (more casual, sequential)\n- ⟦また→また：00969_mata⟧: also, moreover (additive)\n- ⟦さらに→更に：03817_sarani⟧: furthermore (formal, emphatic)\n\nEXAMPLE PATTERN:\n[Sentence A]\u3002そして、[Sentence B]\u3002\n⟦{食|た}べた→食べる：00396_taberu⟧。そして、⟦{寝|ね}た→寝る：00470_neru⟧。(I ate. And then I slept.)\n\nNOTE:\nMore formal/written than ⟦それから→それから：00996_sorekara⟧. Often used in storytelling.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:51:46Z",
-    "modified": "2026-01-30T04:55:12Z",
+    "modified": "2026-02-21T14:01:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
