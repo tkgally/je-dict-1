@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 288)
+Added 30 new dictionary entries (IDs 12400-12429) from candidate_words.json:
+
+- **Nouns - abstract/formal (4)**: {差異|さい} (difference/discrepancy), {山積|さんせき} (accumulation of problems), {対比|たいひ} (contrast/comparison), {巨額|きょがく} (enormous sum)
+- **Nouns - culture/religion (4)**: {山車|だし} (festival float), {巫女|みこ} (shrine maiden), {師匠|ししょう} (master/teacher), {帝国|ていこく} (empire)
+- **Nouns - food (3)**: {山菜|さんさい} (wild mountain vegetables), {山椒|さんしょう} (Japanese pepper), {干物|ひもの} (dried fish)
+- **Nouns - geography/places (2)**: {山道|やまみち} (mountain path), {工房|こうぼう} (workshop/studio)
+- **Nouns - daily life/society (5)**: {巷|ちまた} (the streets/the public), {巻|ま}き{寿司|ずし} (sushi roll), {工程|こうてい} (process/procedure), {庶民|しょみん} (common people), {市販|しはん} (commercially available)
+- **Nouns - travel/lifestyle (2)**: {帰省|きせい} (returning to hometown), {幼馴染|おさななじみ} (childhood friend)
+- **Nouns - other (3)**: {対話|たいわ} (dialogue), {展示|てんじ} (exhibition), {巡回|じゅんかい} (patrol/tour)
+- **Na-adjective (1)**: {平凡|へいぼん} (ordinary/commonplace)
+- **I-adjective (1)**: {小高|こだか}い (slightly elevated)
+- **Ichidan verbs (2)**: {廃|すた}れる (to fall into disuse), {帯|お}びる (to wear/be tinged with)
+- **Godan verb (1)**: {巡|めぐ}らす (to encircle/to ponder)
+- **Suru verb (1)**: {属|ぞく}する (to belong to)
+- **Noun/suru verbs (1)**: {幻|まぼろし} (illusion/phantom/legendary)
+
+Total entries: 12,455 → 12,485
+Remaining candidates: 513 → 483 (30 removed)
+
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 287)
 Added 30 new dictionary entries (IDs 12370-12399) from candidate_words.json:
 
