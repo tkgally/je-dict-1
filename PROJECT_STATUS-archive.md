@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 285)
+Added 30 new dictionary entries (IDs 12295-12324) from candidate_words.json:
+
+- **Verbs (3)**: {孕|はら}む (to conceive/be fraught with - godan), {寝|ね}かせる (to lay down/let age - ichidan)
+- **Na-adjectives (4)**: {定|さだ}か (definite/certain), {実用的|じつようてき} (practical), {容易|ようい} (easy - formal), {多湿|たしつ} (humid)
+- **Nouns - household/family (4)**: {家事|かじ} (housework), {家具|かぐ} (furniture), {家庭|かてい} (home/household), {子持|こも}ち (having children)
+- **Nouns - business/work (3)**: {実務|じつむ} (practical work), {多用|たよう} (frequent use/being busy), {多額|たがく} (large sum of money)
+- **Nouns - government/legal (3)**: {官邸|かんてい} (official residence), {容疑|ようぎ} (suspicion of crime), {宣誓|せんせい} (oath/pledge)
+- **Nouns - abstract/formal (4)**: {安泰|あんたい} (peace/security), {安寧|あんねい} (tranquility), {寄与|きよ} (contribution), {富|とみ} (wealth)
+- **Nouns - combat/rivalry (2)**: {実戦|じっせん} (actual combat), {宿敵|しゅくてき} (archenemy)
+- **Nouns - culture/food (1)**: {南蛮|なんばん} (nanban-style/Western)
+- **Nouns - media (1)**: {密着|みっちゃく} (close contact/behind-the-scenes coverage)
+- **Nouns - concepts (4)**: {完璧主義|かんぺきしゅぎ} (perfectionism), {実在|じつざい} (actual existence), {宅|たく} (residence), {多量|たりょう} (large quantity)
+- **Nouns - health (2)**: {寝|ね}たきり (bedridden), {察|さっ}し (perception/tact)
+
+Total entries: 12,350 → 12,380
+Remaining candidates: 491 → 461 (30 removed)
+
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 282)
 Added 30 new dictionary entries (IDs 12205-12234) from candidate_words.json:
 

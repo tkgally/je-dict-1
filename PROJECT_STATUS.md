@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,515 |
+| Total entries | ~12,545 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,716 (open) |
-| Candidate words | ~453 |
+| General tier | ~9,746 (open) |
+| Candidate words | ~585 |
 | Cross-references | ~3,380 |
-| Example sentences | ~44,490 |
+| Example sentences | ~44,600 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 290)
+Added 30 new dictionary entries (IDs 12460-12489) from candidate_words.json:
+
+- **Na-adjectives (3)**: {希薄|きはく} (thin/tenuous), {平坦|へいたん} (flat/uneventful), {広範|こうはん} (wide-ranging)
+- **Na-adjective/noun (1)**: {廉価|れんか} (low-priced/inexpensive)
+- **Godan verbs (2)**: {弄|もてあそ}ぶ (to toy with/fiddle with), {引|ひ}き{渡|わた}す (to hand over/extradite)
+- **Nouns - government/politics (3)**: {安保|あんぽ} (security treaty), {官庁|かんちょう} (government office), {市長|しちょう} (mayor)
+- **Nouns - geography/place (3)**: {山麓|さんろく} (foot of mountain), {市街|しがい} (city streets), {店頭|てんとう} (storefront)
+- **Nouns - food/culture (2)**: {寒天|かんてん} (agar), {巻物|まきもの} (scroll/rolled sushi)
+- **Nouns - business (2)**: {店舗|てんぽ} (shop - formal), {廃棄|はいき} (disposal)
+- **Nouns - abstract/formal (5)**: {定説|ていせつ} (established theory), {実体|じったい} (substance/true form), {席巻|せっけん} (sweeping over), {庇護|ひご} (protection/asylum), {廃止|はいし} (abolition)
+- **Nouns - time (2)**: {年明|としあ}け (beginning of new year), {年越|としこ}し (New Year's Eve)
+- **Nouns - people/education (3)**: {幼児|ようじ} (infant/toddler), {少人数|しょうにんずう} (small group), {底辺|ていへん} (base/bottom of society)
+- **Nouns - other (3)**: {小型|こがた} (small-sized), {小文字|こもじ} (lowercase/small kana), {差|さ}し{金|がね} (instigation)
+- **Noun/suru verb (1)**: {延命|えんめい} (life extension)
+
+Notable features:
+- Multi-sense entries: {希薄|きはく} (diluted/weak), {平坦|へいたん} (flat terrain/smooth path), {小文字|こもじ} (lowercase/small kana), {巻物|まきもの} (scroll/rolled sushi), {弄|もてあそ}ぶ (toy with emotions/fiddle with), {引|ひ}き{渡|わた}す (deliver property/extradite), {底辺|ていへん} (triangle base/bottom of society)
+- Cultural context: {安保|あんぽ} (Anpo protests of 1960), {年越|としこ}し (toshikoshi soba tradition), {寒天|かんてん} (wagashi ingredient), {山麓|さんろく} (literary/travel writing)
+- Diverse word types: na-adjectives, godan verbs, suru verbs, formal nouns, cultural terms
+- New kanji: 2,356 → 2,359 ({坦|たん}, {庁|ちょう}, {廉|れん})
+
+Total entries: 12,515 → 12,545
+Remaining candidates: 615 → 585 (30 removed)
 
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 289)
 Added 30 new dictionary entries (IDs 12430-12459) from candidate_words.json:
@@ -146,30 +171,6 @@ Notable features:
 
 Total entries: 12,380 → 12,410 (actually 12,395 → 12,425 per validator)
 Remaining candidates: 573 → 543 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 285)
-Added 30 new dictionary entries (IDs 12295-12324) from candidate_words.json:
-
-- **Verbs (3)**: {孕|はら}む (to conceive/be fraught with - godan), {寝|ね}かせる (to lay down/let age - ichidan)
-- **Na-adjectives (4)**: {定|さだ}か (definite/certain), {実用的|じつようてき} (practical), {容易|ようい} (easy - formal), {多湿|たしつ} (humid)
-- **Nouns - household/family (4)**: {家事|かじ} (housework), {家具|かぐ} (furniture), {家庭|かてい} (home/household), {子持|こも}ち (having children)
-- **Nouns - business/work (3)**: {実務|じつむ} (practical work), {多用|たよう} (frequent use/being busy), {多額|たがく} (large sum of money)
-- **Nouns - government/legal (3)**: {官邸|かんてい} (official residence), {容疑|ようぎ} (suspicion of crime), {宣誓|せんせい} (oath/pledge)
-- **Nouns - abstract/formal (4)**: {安泰|あんたい} (peace/security), {安寧|あんねい} (tranquility), {寄与|きよ} (contribution), {富|とみ} (wealth)
-- **Nouns - combat/rivalry (2)**: {実戦|じっせん} (actual combat), {宿敵|しゅくてき} (archenemy)
-- **Nouns - culture/food (1)**: {南蛮|なんばん} (nanban-style/Western)
-- **Nouns - media (1)**: {密着|みっちゃく} (close contact/behind-the-scenes coverage)
-- **Nouns - concepts (4)**: {完璧主義|かんぺきしゅぎ} (perfectionism), {実在|じつざい} (actual existence), {宅|たく} (residence), {多量|たりょう} (large quantity)
-- **Nouns - health (2)**: {寝|ね}たきり (bedridden), {察|さっ}し (perception/tact)
-
-Notable features:
-- Multi-sense entries: {孕|はら}む (conceive/be fraught with), {子持|こも}ち (parent/containing roe), {多用|たよう} (frequent use/busy), {密着|みっちゃく} (physical contact/media coverage), {寝|ね}かせる (put to bed/let age)
-- Cultural context: {南蛮|なんばん} (Portuguese trade history and cuisine), {察|さっ}し (Japanese communication culture), {寝|ね}たきり (aging society)
-- Similar word comparisons: {容易|ようい} vs {簡単|かんたん}; {多量|たりょう} vs {大量|たいりょう}; {実戦|じっせん} vs {実践|じっせん}; {寄与|きよ} vs {貢献|こうけん}; {多用|たよう} vs {多様|たよう}
-- New kanji: 2,344 → 2,346 ({孕|はら}, {邸|てい})
-
-Total entries: 12,350 → 12,380
-Remaining candidates: 491 → 461 (30 removed)
 
 ---
 
