@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00962_kono_ex1",
-      "japanese": "この{本|ほん}は{面白|おもしろ}いです。",
+      "japanese": "この⟦{本|ほん}→本：00111_hon⟧⟦は→は：00079_ha⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧⟦です→です：09485_desu⟧。",
       "english": "This book is interesting.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00962_kono_ex2",
-      "japanese": "この{辺|へん}に{銀行|ぎんこう}はありますか。",
+      "japanese": "この⟦{辺|へん}→辺：00937_hen⟧⟦に→に：00314_ni⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Is there a bank around here?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00962_kono_ex3",
-      "japanese": "この{人|ひと}は{誰|だれ}ですか。",
+      "japanese": "この⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Who is this person?",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00962_kono_ex4",
-      "japanese": "この{映画|えいが}を{見|み}たことがありますか。",
+      "japanese": "この⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Have you seen this movie?",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00962_kono_ex5",
-      "japanese": "この{店|みせ}のラーメンはとてもおいしいですよ。",
+      "japanese": "この⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦おいしい→美味しい：00740_oishii⟧⟦です→です：09485_desu⟧⟦よ→よ：09475_yo⟧。",
       "english": "The ramen at this shop is very delicious.",
       "notes": null,
       "has_audio": false,
@@ -67,8 +67,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:11:50Z",
-    "modified": "2026-01-28T02:20:41Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-21T01:10:40Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
