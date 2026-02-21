@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00973_nanji_ex1",
-      "japanese": "{今|いま}{何時|なんじ}?",
+      "japanese": "⟦{今|いま}→今：00945_ima⟧{何時|なんじ}?",
       "english": "What time is it now?",
       "notes": null,
       "has_audio": false,
@@ -22,7 +22,7 @@
     },
     {
       "id": "00973_nanji_ex2",
-      "japanese": "{何時|なんじ}に{起|お}きますか。",
+      "japanese": "{何時|なんじ}⟦に→に：00314_ni⟧⟦{起|お}きます→起きる：00521_okiru⟧⟦か→か：09473_ka⟧。",
       "english": "What time do you wake up?",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "00973_nanji_ex3",
-      "japanese": "{学校|がっこう}は{何時|なんじ}に{始|はじ}まりますか。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦は→は：00079_ha⟧{何時|なんじ}⟦に→に：00314_ni⟧⟦{始|はじ}まります→始まる：00841_hajimaru⟧⟦か→か：09473_ka⟧。",
       "english": "What time does school start?",
       "notes": null,
       "has_audio": false,
@@ -38,7 +38,7 @@
     },
     {
       "id": "00973_nanji_ex4",
-      "japanese": "{今日|きょう}は{何時|なんじ}に{家|いえ}に{帰|かえ}りますか。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{何時|なんじ}⟦に→に：00314_ni⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{帰|かえ}ります→帰る：00508_kaeru⟧⟦か→か：09473_ka⟧。",
       "english": "What time are you coming home today?",
       "notes": null,
       "has_audio": false,
@@ -46,19 +46,19 @@
     },
     {
       "id": "00973_nanji_ex5",
-      "japanese": "{電車|でんしゃ}は{何時|なんじ}に{出|で}ますか。{早|はや}めに{駅|えき}に{行|い}ったほうがいいと{思|おも}います。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧{何時|なんじ}⟦に→に：00314_ni⟧⟦{出|で}ます→出る：00513_deru⟧⟦か→か：09473_ka⟧。⟦{早|はや}め→早い：00514_hayai⟧⟦に→に：00314_ni⟧⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧ほう⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
       "english": "What time does the train leave? I think we should go to the station early.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [1]
     }
   ],
-  "notes": "{何時|なんじ} is the question word for asking about time. Combines {何|なん} (what) + {時|じ} (hour).\n\nCOMMON PATTERNS:\n- {今|いま}{何時|なんじ}?: What time is it now?\n- {何時|なんじ}に〜?: At what time ~?\n- {何時|なんじ}から{何時|なんじ}まで: from what time to what time\n\nHOUR READINGS:\nIrregular readings to remember:\n- {四時|よじ} (not しじ)\n- {七時|しちじ}\n- {九時|くじ}\n\nMINUTES:\nUse {何分|なんぷん} to ask about minutes. Combined: {何時|なんじ}{何分|なんぷん}?",
+  "notes": "{何時|なんじ} is the question word for asking about time. Combines ⟦{何|なん}→何：00498_nani⟧ (what) + {時|じ} (hour).\n\nCOMMON PATTERNS:\n- ⟦{今|いま}→今：00945_ima⟧{何時|なんじ}?: What time is it now?\n- {何時|なんじ}⟦に→に：00314_ni⟧〜?: At what time ~?\n- {何時|なんじ}⟦から→から：00504_kara⟧{何時|なんじ}⟦まで→まで：00490_made⟧: from what time to what time\n\nHOUR READINGS:\nIrregular readings to remember:\n- {四時|よじ} (not しじ)\n- ⟦{七時|しちじ}→七時：10114_shichiji⟧\n- ⟦{九時|くじ}→九時：10980_kuji⟧\n\nMINUTES:\nUse {何分|なんぷん} to ask about minutes. Combined: {何時|なんじ}{何分|なんぷん}?",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:35:58Z",
-    "modified": "2026-02-05T07:00:17Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-21T01:40:08Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
