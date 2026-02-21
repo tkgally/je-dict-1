@@ -19,9 +19,9 @@
   "examples": [
     {
       "id": "01990_keredo_ex1",
-      "japanese": "{行|い}きたいけれど、{時間|じかん}がない。",
-      "english": "I want to go, but I don't have time.",
-      "notes": null,
+      "japanese": "{雨|あめ}だけど、{出|で}かけよう。",
+      "english": "It's raining, but let's go out.",
+      "notes": "けど is the most casual form",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -29,26 +29,6 @@
     },
     {
       "id": "01990_keredo_ex2",
-      "japanese": "{高|たか}いけれども、{買|か}います。",
-      "english": "It's expensive, but I'll buy it.",
-      "notes": "けれども is slightly more formal",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01990_keredo_ex3",
-      "japanese": "{雨|あめ}だけど、{出|で}かけよう。",
-      "english": "It's raining, but let's go out.",
-      "notes": "けど is casual",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01990_keredo_ex4",
       "japanese": "{疲|つか}れたけれど、{頑張|がんば}る。",
       "english": "I'm tired, but I'll do my best.",
       "notes": null,
@@ -58,23 +38,43 @@
       ]
     },
     {
-      "id": "01990_keredo_ex5",
-      "japanese": "{難|むずか}しいけれども、{面白|おもしろ}い。",
-      "english": "Although it's difficult, it's interesting.",
-      "notes": null,
+      "id": "01990_keredo_ex3",
+      "japanese": "{高|たか}いけれども、{買|か}います。",
+      "english": "It's expensive, but I'll buy it.",
+      "notes": "けれども is slightly more formal",
       "has_audio": false,
       "sense_numbers": [
-        2
+        1
       ]
     },
     {
-      "id": "01990_keredo_ex6",
-      "japanese": "{分|わ}からないけど、やってみる。",
-      "english": "I don't understand, but I'll try.",
+      "id": "01990_keredo_ex4",
+      "japanese": "すみませんけれど、{駅|えき}までの{道|みち}を{教|おし}えてください。",
+      "english": "Excuse me, but could you tell me the way to the station?",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "01990_keredo_ex5",
+      "japanese": "{日本語|にほんご}は{難|むずか}しいけれど、{毎日|まいにち}{少|すこ}しずつ{勉強|べんきょう}している。",
+      "english": "Japanese is difficult, but I study a little every day.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01990_keredo_ex6",
+      "japanese": "{小|ちい}さいけれど、{便利|べんり}だ。",
+      "english": "Although it's small, it's convenient.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     },
     {
@@ -89,18 +89,18 @@
     },
     {
       "id": "01990_keredo_ex8",
-      "japanese": "すみませんけれど、{教|おし}えてください。",
-      "english": "I'm sorry, but could you tell me?",
+      "japanese": "{難|むずか}しいけれども、{面白|おもしろ}い。",
+      "english": "Although it's difficult, it's interesting.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
       ]
     },
     {
       "id": "01990_keredo_ex9",
-      "japanese": "{小|ちい}さいけれど、{便利|べんり}だ。",
-      "english": "Although it's small, it's convenient.",
+      "japanese": "{遠|とお}いけれども、{天気|てんき}がいいので{歩|ある}いて{行|い}く。",
+      "english": "Although it's far, the weather is good so I'll walk.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -109,8 +109,8 @@
     },
     {
       "id": "01990_keredo_ex10",
-      "japanese": "{遠|とお}いけれども、{歩|ある}いて{行|い}く。",
-      "english": "Even though it's far, I'll walk.",
+      "japanese": "あの{人|ひと}は{年|とし}を{取|と}っているけれど、とても{元気|げんき}に{見|み}える。",
+      "english": "Although that person is getting old, they look very energetic.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:19:23Z",
-    "modified": "2026-01-20T05:10:00Z",
+    "modified": "2026-02-21T03:45:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
