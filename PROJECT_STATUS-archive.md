@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 286)
+Added 30 new dictionary entries (IDs 12340-12369) from candidate_words.json:
+
+- **Godan verbs (3)**: {寝転|ねころ}がる (to sprawl out), {富|と}む (to be rich in), {導|みちび}く (to guide/derive)
+- **Ichidan verbs (2)**: {封|ふう}じる (to seal/block), {尽|つ}きる (to run out/be exhausted)
+- **Na-adjectives (4)**: {安穏|あんのん} (peaceful), {寡黙|かもく} (taciturn), {対等|たいとう} (equal), {対照的|たいしょうてき} (contrastive)
+- **Na-adj/noun (1)**: {小柄|こがら} (petite)
+- **Nouns - work/society (3)**: {定職|ていしょく} (steady job), {家業|かぎょう} (family business), {就任|しゅうにん} (taking office)
+- **Nouns - abstract/formal (5)**: {容認|ようにん} (acceptance), {実証|じっしょう} (verification), {尺度|しゃくど} (yardstick), {屈指|くっし} (leading/foremost), {対峙|たいじ} (confrontation)
+- **Nouns - daily life (5)**: {寝起|ねお}き (waking up), {寝床|ねどこ} (sleeping place), {小遣|こづか}い (pocket money), {居場所|いばしょ} (one's place), {寿命|じゅみょう} (lifespan)
+- **Nouns - food (1)**: {完食|かんしょく} (eating everything)
+- **Nouns - pattern/form (1)**: {定型|ていけい} (fixed form)
+- **Nouns - nature (1)**: {寒波|かんぱ} (cold wave)
+- **Noun/suru verbs (4)**: {密集|みっしゅう} (crowding), {寄贈|きぞう} (donation), {対峙|たいじ} (confrontation), {就任|しゅうにん} (inauguration)
+
+Notable features:
+- Multi-sense entries: {寝起|ねお}き (waking up/living somewhere), {宿|やど}る (to lodge/to inhabit), {封|ふう}じる (to seal/to suppress), {導|みちび}く (to guide/to derive), {寿命|じゅみょう} (lifespan/service life), {居場所|いばしょ} (location/belonging)
+- Cultural context: {家業|かぎょう} (traditional family businesses), {居場所|いばしょ} (social isolation discussions), {完食|かんしょく} (food waste culture), {小遣|こづか}い (salaryman allowance)
+- Similar word comparisons: {安穏|あんのん} vs {平穏|へいおん}; {寡黙|かもく} vs {無口|むくち}; {寸前|すんぜん} vs {直前|ちょくぜん}; {尺度|しゃくど} vs {基準|きじゅん}; {富|と}む vs {豊|ゆた}かな
+- New kanji: 2,348 → 2,350 ({寡|か}, {峙|じ})
+
+Total entries: 12,380 → 12,410 (actually 12,395 → 12,425 per validator)
+Remaining candidates: 573 → 543 (30 removed)
+
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 285)
 Added 30 new dictionary entries (IDs 12295-12324) from candidate_words.json:
 
