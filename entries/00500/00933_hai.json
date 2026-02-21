@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00933_hai_ex1",
-      "japanese": "コーヒーを{一|いっ}{杯|ぱい}ください。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{一|いっ}→一：00705_ichi⟧{杯|ぱい}⟦ください→ください：02899_kudasai⟧。",
       "english": "One cup of coffee, please.",
       "notes": "いっぱい with small っ and ぱ",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00933_hai_ex2",
-      "japanese": "{毎朝|まいあさ}{水|みず}を{二|に}{杯|はい}{飲|の}みます。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{二|に}→二：00736_ni⟧{杯|はい}⟦{飲|の}みます→飲む：00322_nomu⟧。",
       "english": "I drink two glasses of water every morning.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00933_hai_ex3",
-      "japanese": "ラーメンを{三|さん}{杯|ばい}{食|た}べました。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦を→を：00422_wo⟧⟦{三|さん}→三：00749_san⟧{杯|ばい}⟦{食|た}べました→食べる：00396_taberu⟧。",
       "english": "I ate three bowls of ramen.",
       "notes": "さんばい with voiced ば",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00933_hai_ex4",
-      "japanese": "お{茶|ちゃ}をもう{一|いっ}{杯|ぱい}いかがですか。",
+      "japanese": "⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧⟦もう→もう：00602_mou⟧⟦{一|いっ}→一：00705_ichi⟧{杯|ぱい}⟦いかが→いかが：02846_ikaga⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Would you like another cup of tea?",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00933_hai_ex5",
-      "japanese": "{夜|よる}ごはんの{後|あと}で、{味噌汁|みそしる}を{二|に}{杯|はい}{飲|の}んで、コーヒーも{一|いっ}{杯|ぱい}{飲|の}みました。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦ごはん→ご飯：00776_gohan⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧、⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧⟦を→を：00422_wo⟧⟦{二|に}→二：00736_ni⟧{杯|はい}⟦{飲|の}んで→飲む：00322_nomu⟧、⟦コーヒー→コーヒー：00789_koohii⟧⟦も→も：00484_mo⟧⟦{一|いっ}→一：00705_ichi⟧{杯|ぱい}⟦{飲|の}みました→飲む：00322_nomu⟧。",
       "english": "After dinner, I drank two bowls of miso soup and also one cup of coffee.",
       "notes": null,
       "has_audio": false,
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:03:41Z",
-    "modified": "2026-02-04T05:08:34Z",
+    "modified": "2026-02-21T00:15:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
