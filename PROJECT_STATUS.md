@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,485 |
+| Total entries | ~12,515 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,686 (open) |
-| Candidate words | ~483 |
+| General tier | ~9,716 (open) |
+| Candidate words | ~453 |
 | Cross-references | ~3,380 |
-| Example sentences | ~44,350 |
+| Example sentences | ~44,490 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 289)
+Added 30 new dictionary entries (IDs 12430-12459) from candidate_words.json:
+
+- **I-adjective (1)**: {小難|こむずか}しい (somewhat difficult/nitpicky)
+- **Na-adjectives (2)**: {希少|きしょう} (rare/scarce), {平穏|へいおん} (peaceful/tranquil)
+- **Godan verbs (3)**: {引|ひ}っかかる (to get caught/be tricked/bother), {引|ひ}き{継|つ}ぐ (to take over/inherit), {引|ひ}き{裂|さ}く (to tear apart/separate)
+- **Nouns - measurement/quantity (3)**: {小|こ}さじ (teaspoon), {少量|しょうりょう} (small amount), {度合|どあ}い (degree/extent)
+- **Nouns - geography/place (3)**: {山奥|やまおく} (deep in mountains), {家並|いえな}み (row of houses), {庭園|ていえん} (formal garden)
+- **Nouns - history/culture (3)**: {幕府|ばくふ} (shogunate), {干支|えと} (Chinese zodiac), {年末年始|ねんまつねんし} (year-end/New Year period)
+- **Nouns - business/society (4)**: {属性|ぞくせい} (attribute/property), {対価|たいか} (compensation), {店主|てんしゅ} (shop owner), {干渉|かんしょう} (interference)
+- **Nouns - abstract/descriptive (5)**: {巨人|きょじん} (giant/great figure), {寒気|かんき} (cold air), {廃墟|はいきょ} (ruins), {引|ひ}き{金|がね} (trigger), {序盤|じょばん} (opening phase)
+- **Noun/suru verbs (4)**: {工作|こうさく} (crafting/scheming), {巣|す}ごもり (staying home), {小出|こだ}し (doling out), {尻込|しりご}み (flinching)
+- **Noun/suffix (1)**: {層|そう} (layer/demographic segment)
+
+Notable features:
+- Multi-sense entries: {小難|こむずか}しい (complicated/fussy), {巨人|きょじん} (giant/titan), {工作|こうさく} (crafts/scheming), {引|ひ}き{金|がね} (gun trigger/catalyst), {引|ひ}っかかる (3 senses: caught/tricked/bother), {引|ひ}き{裂|さ}く (tear/separate), {層|そう} (layer/demographic)
+- Cultural context: {幕府|ばくふ} (three shogunates), {干支|えと} (twelve zodiac animals), {年末年始|ねんまつねんし} (holiday customs), {巣|す}ごもり (COVID-era buzzword), {庭園|ていえん} (Japanese garden types)
+- Diverse word types: verbs, adjectives, nouns, suru verbs, suffix
+- New kanji: 2,355 → 2,356 ({墟|きょ})
+
+Total entries: 12,485 → 12,515
+Remaining candidates: 483 → 453 (30 removed)
 
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 288)
 Added 30 new dictionary entries (IDs 12400-12429) from candidate_words.json:
@@ -147,33 +170,6 @@ Notable features:
 
 Total entries: 12,350 → 12,380
 Remaining candidates: 491 → 461 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 284)
-Added 30 new dictionary entries (IDs 12265-12294) from candidate_words.json:
-
-- **Nouns - everyday/household (5)**: {定番|ていばん} (standard/staple), {宛先|あてさき} (address/destination), {家計|かけい} (household finances), {家出|いえで} (running away from home), {宝物|たからもの} (treasure)
-- **Nouns - medical/health (3)**: {安眠|あんみん} (sound sleep), {安静|あんせい} (rest/quiet repose), {完治|かんち} (complete recovery)
-- **Nouns - business/economics (4)**: {大企業|だいきぎょう} (large corporation), {安値|やすね} (low price), {実質|じっしつ} (substance/effectively), {実業家|じつぎょうか} (entrepreneur)
-- **Nouns - entertainment/media (4)**: {実写|じっしゃ} (live action), {完結|かんけつ} (completion/conclusion), {実況|じっきょう} (live commentary), {客席|きゃくせき} (audience seating)
-- **Nouns - education/academia (2)**: {学園|がくえん} (academy), {学術|がくじゅつ} (scholarship/academic)
-- **Nouns - buildings/places (1)**: {宮殿|きゅうでん} (palace)
-- **Nouns - nature/harvest (2)**: {実|みの}り (harvest/fruition), {大地震|おおじしん} (major earthquake)
-- **Nouns - appearance/emotion (2)**: {容姿|ようし} (appearance/looks), {容赦|ようしゃ} (mercy/forgiveness)
-- **Nouns - literary/formal (1)**: {宴|うたげ} (feast/banquet)
-- **Na-adjective (1)**: {密接|みっせつ} (close/closely connected)
-- **Suru verbs (1)**: {宣言|せんげん} (declaration/proclamation)
-- **Godan verb (1)**: {定|さだ}まる (to be settled)
-- **Ichidan verb (1)**: {寂|さび}れる (to become deserted)
-- **Noun/suru verb (1)**: {寄|よ}り{道|みち} (detour/side trip)
-- **Noun (social) (1)**: {孤独死|こどくし} (dying alone)
-
-Notable features:
-- Multi-sense entries: {実|みの}り (harvest/fruition), {実質|じっしつ} (substance/effectively), {客席|きゃくせき} (audience seating/passenger seating)
-- Cultural context: {孤独死|こどくし} (aging society issue), {大地震|おおじしん} (seismic culture), {定番|ていばん} (retail/cultural staples), {宴|うたげ} (literary/historical banquets)
-- Similar word comparisons: {安値|やすね} vs {高値|たかね}; {学園|がくえん} vs {学校|がっこう}; {宴|うたげ} vs {宴会|えんかい}; {定|さだ}まる vs {決|き}まる
-
-Total entries: 12,320 → 12,350
-Remaining candidates: 521 → 491 (30 removed)
 
 ---
 
