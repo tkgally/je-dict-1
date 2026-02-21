@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,410 |
+| Total entries | ~12,455 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,611 (open) |
-| Candidate words | ~543 |
+| General tier | ~9,656 (open) |
+| Candidate words | ~513 |
 | Cross-references | ~3,380 |
-| Example sentences | ~44,050 |
+| Example sentences | ~44,200 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 287)
+Added 30 new dictionary entries (IDs 12370-12399) from candidate_words.json:
+
+- **Godan verbs (2)**: {寝返|ねがえ}る (to turn over/to defect), {宿|やど}す (to harbor/to conceive)
+- **Ichidan verb (1)**: {居合|いあ}わせる (to happen to be present)
+- **I-adjective (1)**: {尊|とうと}い (precious/noble/sacred)
+- **Nouns - history/culture (6)**: {土偶|どぐう} (clay figurine), {将軍|しょうぐん} (shogun), {宣教師|せんきょうし} (missionary), {家来|けらい} (retainer), {寄席|よせ} (variety theater), {屋敷|やしき} (mansion)
+- **Nouns - business/economics (3)**: {売上高|うりあげだか} (total sales), {富裕層|ふゆうそう} (wealthy class), {委譲|いじょう} (delegation of authority)
+- **Nouns - abstract/formal (5)**: {始祖|しそ} (founder), {尊厳|そんげん} (dignity), {対決|たいけつ} (confrontation), {対抗|たいこう} (opposition), {展望|てんぼう} (prospect/panoramic view)
+- **Nouns - daily life (4)**: {専用|せんよう} (exclusive use), {寝具|しんぐ} (bedding), メイド (maid), バック (back/reversing)
+- **Nouns - food/preservation (1)**: {塩蔵|えんぞう} (salt preservation)
+- **Nouns - concepts (4)**: {助動詞|じょどうし} (auxiliary verb), {不老不死|ふろうふし} (eternal youth), {多幸感|たこうかん} (euphoria), {女子高生|じょしこうせい} (high school girl)
+- **Nouns - medical (1)**: {大動脈|だいどうみゃく} (aorta)
+- **Nouns - people (2)**: {小僧|こぞう} (youngster/temple boy), {封印|ふういん} (seal/sealing away)
+
+Notable features:
+- Multi-sense entries: {寝返|ねがえ}る (turn in bed/defect), {宿|やど}す (harbor/conceive/reflect light), {将軍|しょうぐん} (shogun/general), {大動脈|だいどうみゃく} (aorta/main artery), バック (background/reversing), メイド (maid/maid cafe worker), {封印|ふういん} (physical seal/sealing away), {尊|とうと}い (precious/sacred), {展望|てんぼう} (outlook/panoramic view), {小僧|こぞう} (brat/temple boy)
+- Cultural context: {土偶|どぐう} (Jomon archaeology), {将軍|しょうぐん} (feudal governance), {寄席|よせ} (rakugo tradition), {家来|けらい} (Momotaro folk tale), メイド (Akihabara subculture), {不老不死|ふろうふし} (East Asian mythology)
+- Similar word comparisons: {始祖|しそ} vs {創始者|そうししゃ}; {売上高|うりあげだか} vs {売|う}り{上|あ}げ; {対決|たいけつ} vs {対立|たいりつ}; {富裕層|ふゆうそう} vs {金持|かねも}ち; {尊|とうと}い (slang usage in otaku culture)
+
+Total entries: 12,425 → 12,455
+Remaining candidates: 543 → 513 (30 removed)
 
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 286)
 Added 30 new dictionary entries (IDs 12340-12369) from candidate_words.json:
@@ -148,29 +171,6 @@ Notable features:
 
 Total entries: 12,290 → 12,320
 Remaining candidates: 551 → 521 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 282)
-Added 30 new dictionary entries (IDs 12205-12234) from candidate_words.json:
-
-- **Nouns - preferences/food (3)**: {好|す}き{嫌|きら}い (likes and dislikes), {好物|こうぶつ} (favorite food), {好意|こうい} (goodwill/romantic interest)
-- **Nouns - people/family (4)**: {女将|おかみ} (proprietress), {女神|めがみ} (goddess), {女房|にょうぼう} (wife - informal), {姫|ひめ} (princess)
-- **Nouns - politics/society (4)**: {大国|たいこく} (major power), {大多数|だいたすう} (vast majority), {外資系|がいしけい} (foreign-affiliated), {委員会|いいんかい} (committee)
-- **Nouns - nature/science (2)**: {大麦|おおむぎ} (barley), {太陽系|たいようけい} (solar system)
-- **Nouns - culture (1)**: {妖怪|ようかい} (yokai)
-- **Nouns - social issues (2)**: {嫌|いや}がらせ (harassment), {子育|こそだ}て (child-rearing)
-- **Nouns/suru verbs (5)**: {奨励|しょうれい} (encouragement), {奪取|だっしゅ} (seizure), {妊娠|にんしん} (pregnancy), {孤立|こりつ} (isolation), {始末|しまつ} (management/outcome)
-- **Na-adjectives (3)**: {大人気|だいにんき} (very popular), {好調|こうちょう} (going well), {大|おお}がかり (large-scale)
-- **Na-adj/adverb (2)**: {存分|ぞんぶん} (to one's heart's content), {如実|にょじつ} (vividly)
-- **Verbs (3)**: {妨|さまた}げる (to hinder - ichidan), {威張|いば}る (to swagger - godan), {嫁|とつ}ぐ (to marry into - godan)
-
-Notable features:
-- Multi-sense entries: {好意|こうい} (goodwill/romantic interest), {始末|しまつ} (management/sorry outcome), {姫|ひめ} (princess/small prefix)
-- Cultural context: {女将|おかみ} (ryokan hospitality), {妖怪|ようかい} (Japanese folklore), {嫁|とつ}ぐ (patrilocal marriage), {子育|こそだ}て (declining birth rate policy)
-- Similar word comparisons: {好調|こうちょう} vs {順調|じゅんちょう}; {好意|こうい} vs {親切|しんせつ}; {好機|こうき} vs {機会|きかい}; {妨|さまた}げる vs {邪魔|じゃま}する
-- New kanji: 2,339 → 2,343 ({妊|にん}, {妖|よう}, {姫|ひめ}, {娠|しん})
-
-Total entries: 12,260 → 12,290
-Remaining candidates: 581 → 551 (30 removed)
 
 ---
 
