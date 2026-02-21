@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,455 |
+| Total entries | ~12,485 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,656 (open) |
-| Candidate words | ~513 |
+| General tier | ~9,686 (open) |
+| Candidate words | ~483 |
 | Cross-references | ~3,380 |
-| Example sentences | ~44,200 |
+| Example sentences | ~44,350 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,32 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 288)
+Added 30 new dictionary entries (IDs 12400-12429) from candidate_words.json:
+
+- **Nouns - abstract/formal (4)**: {差異|さい} (difference/discrepancy), {山積|さんせき} (accumulation of problems), {対比|たいひ} (contrast/comparison), {巨額|きょがく} (enormous sum)
+- **Nouns - culture/religion (4)**: {山車|だし} (festival float), {巫女|みこ} (shrine maiden), {師匠|ししょう} (master/teacher), {帝国|ていこく} (empire)
+- **Nouns - food (3)**: {山菜|さんさい} (wild mountain vegetables), {山椒|さんしょう} (Japanese pepper), {干物|ひもの} (dried fish)
+- **Nouns - geography/places (2)**: {山道|やまみち} (mountain path), {工房|こうぼう} (workshop/studio)
+- **Nouns - daily life/society (5)**: {巷|ちまた} (the streets/the public), {巻|ま}き{寿司|ずし} (sushi roll), {工程|こうてい} (process/procedure), {庶民|しょみん} (common people), {市販|しはん} (commercially available)
+- **Nouns - travel/lifestyle (2)**: {帰省|きせい} (returning to hometown), {幼馴染|おさななじみ} (childhood friend)
+- **Nouns - other (3)**: {対話|たいわ} (dialogue), {展示|てんじ} (exhibition), {巡回|じゅんかい} (patrol/tour)
+- **Na-adjective (1)**: {平凡|へいぼん} (ordinary/commonplace)
+- **I-adjective (1)**: {小高|こだか}い (slightly elevated)
+- **Ichidan verbs (2)**: {廃|すた}れる (to fall into disuse), {帯|お}びる (to wear/be tinged with)
+- **Godan verb (1)**: {巡|めぐ}らす (to encircle/to ponder)
+- **Suru verb (1)**: {属|ぞく}する (to belong to)
+- **Noun/suru verbs (1)**: {幻|まぼろし} (illusion/phantom/legendary)
+
+Notable features:
+- Multi-sense entries: {巡|めぐ}らす (encircle/ponder), {帯|お}びる (wear/be tinged with), {幻|まぼろし} (illusion/legendary rarity)
+- Cultural context: {山車|だし} (festival floats at Gion and Takayama), {巫女|みこ} (shrine maiden traditions), {帰省|きせい} (homecoming rush), {山椒|さんしょう} (proverb about small but pungent)
+- Similar word comparisons: {差異|さい} vs {違|ちが}い; {対比|たいひ} vs {比較|ひかく}; {巷|ちまた} journalistic usage; {工房|こうぼう} vs {工場|こうじょう}
+- New kanji: 2,350 → 2,355 ({匠|しょう}, {巫|ふ}, {巷|こう}, {帝|てい}, {庶|しょ})
+
+Total entries: 12,455 → 12,485
+Remaining candidates: 513 → 483 (30 removed)
 
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 287)
 Added 30 new dictionary entries (IDs 12370-12399) from candidate_words.json:
@@ -148,29 +174,6 @@ Notable features:
 
 Total entries: 12,320 → 12,350
 Remaining candidates: 521 → 491 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 283)
-Added 30 new dictionary entries (IDs 12235-12264) from candidate_words.json:
-
-- **Nouns - abstract/formal (6)**: {妨|さまた}げ (hindrance), {喧騒|けんそう}→{威勢|いせい} (vigor), {威信|いしん} (prestige), {大義|たいぎ} (just cause), {字句|じく} (wording), {媒体|ばいたい} (medium/media)
-- **Nouns - education (3)**: {学食|がくしょく} (school cafeteria), {学級|がっきゅう} (school class), {学業|がくぎょう} (academics)
-- **Nouns - family/people (1)**: {妻子|さいし} (wife and children)
-- **Nouns - business/employment (2)**: {子会社|こがいしゃ} (subsidiary), {契約|けいやく}{社員|しゃいん} (contract employee)
-- **Nouns - culture/history (5)**: {大和|やまと} (ancient Japan), {大道芸|だいどうげい} (street performance), {守護|しゅご} (guardian/provincial governor), {奉公|ほうこう} (service/apprenticeship), {大判|おおばん} (large format/gold coin)
-- **Nouns - general (4)**: {安|やす}らぎ (tranquility), {孤島|ことう} (solitary island), {大台|おおだい} (round-number milestone), {守|まも}り (defense/amulet)
-- **Nouns/suru verbs (3)**: {存続|そんぞく} (continuation/survival), {始動|しどう} (starting up/launch), {大別|たいべつ} (broad classification)
-- **Na-adjectives (3)**: {安|やす}らか (peaceful), {安価|あんか} (inexpensive), {好|す}き{勝手|かって} (selfish)
-- **I-adjectives (1)**: {安|やす}っぽい (cheap-looking, tacky)
-- **Nouns - marriage (1)**: {婚姻|こんいん} (marriage - formal/legal)
-
-Notable features:
-- Multi-sense entries: {始動|しどう} (engine start/project launch), {守護|しゅご} (protection/provincial governor), {守|まも}り (defense/amulet), {大判|おおばん} (large size/gold coin), {学部|がくぶ} (faculty/undergraduate)
-- Cultural context: {大和|やまと} (Yamato civilization/native Japanese vocabulary), {奉公|ほうこう} (feudal service system), {大道芸|だいどうげい} (street performance culture), {学級|がっきゅう}{崩壊|ほうかい} (classroom collapse phenomenon)
-- Similar word comparisons: {安価|あんか} vs {安|やす}い; {婚姻|こんいん} vs {結婚|けっこん}; {学業|がくぎょう} vs {勉強|べんきょう}
-- New kanji: 2,343 → 2,344 ({姻|いん})
-
-Total entries: 12,290 → 12,320
-Remaining candidates: 551 → 521 (30 removed)
 
 ---
 
