@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,545 |
+| Total entries | ~12,575 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,746 (open) |
-| Candidate words | ~585 |
+| General tier | ~9,776 (open) |
+| Candidate words | ~555 |
 | Cross-references | ~3,380 |
-| Example sentences | ~44,600 |
+| Example sentences | ~44,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 291)
+Added 30 new dictionary entries (IDs 12490-12519) from candidate_words.json:
+
+- **Adverbs (3)**: {引|ひ}き{続|つづ}き (continuously/subsequently), {当初|とうしょ} (initially), {後日|ごじつ} (another day)
+- **Na-adjectives (3)**: {小規模|しょうきぼ} (small-scale), {必須|ひっす} (essential/mandatory), {強欲|ごうよく} (greedy/avaricious)
+- **I-adjective (1)**: {心地|ここち}よい (comfortable/pleasant)
+- **Godan verbs (1)**: {微睡|まどろ}む (to doze/slumber)
+- **Ichidan verb (1)**: {張|は}りつめる (to be taut/tense)
+- **Nouns - occupation (2)**: {庭師|にわし} (gardener), {家政婦|かせいふ} (housekeeper)
+- **Nouns - social/political (2)**: {少数派|しょうすうは} (minority group), {当事者|とうじしゃ} (person concerned)
+- **Nouns - abstract/formal (6)**: {弱点|じゃくてん} (weak point), {強み|つよみ} (strength/forte), {形見|かたみ} (keepsake/memento), {彩|いろど}り (coloring/variety), {従来|じゅうらい} (conventional), {待遇|たいぐう} (treatment/conditions)
+- **Nouns - time/period (2)**: {幼少|ようしょう} (childhood), {後味|あとあじ} (aftertaste)
+- **Nouns - other (2)**: {幕|まく} (curtain/act), {弾丸|だんがん} (bullet)
+- **Noun/suru verbs (7)**: {強制|きょうせい} (compulsion), {強奪|ごうだつ} (robbery), {後押|あとお}し (support/backing), {復讐|ふくしゅう} (revenge), {寵愛|ちょうあい} (favor/doting), {延焼|えんしょう} (fire spread), {待遇|たいぐう} (treatment)
+
+Notable features:
+- Multi-sense entries: {張|は}りつめる (taut/tense), {彩|いろど}り (coloring/variety), {後味|あとあじ} (literal/figurative aftertaste), {幕|まく} (curtain/act), {待遇|たいぐう} (treatment/compensation), {引|ひ}き{続|つづ}き (continuously/subsequently), {従来|じゅうらい} (conventional/up to now)
+- Cultural context: {庭師|にわし} (traditional Japanese garden craft), {幕|まく} (kabuki theater/Edo period compounds), {形見|かたみ} ({形見|かたみ}{分|わ}け custom), {家政婦|かせいふ} (agency-based services)
+- Diverse word types: adjectives, verbs, adverbs, suru verbs, formal nouns
+- New kanji: 2,359 → 2,361 ({寵|ちょう}, {讐|しゅう})
+
+Total entries: 12,545 → 12,575
+Remaining candidates: 585 → 555 (30 removed)
 
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 290)
 Added 30 new dictionary entries (IDs 12460-12489) from candidate_words.json:
@@ -147,30 +171,6 @@ Notable features:
 
 Total entries: 12,425 → 12,455
 Remaining candidates: 543 → 513 (30 removed)
-
-### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 286)
-Added 30 new dictionary entries (IDs 12340-12369) from candidate_words.json:
-
-- **Godan verbs (3)**: {寝転|ねころ}がる (to sprawl out), {富|と}む (to be rich in), {導|みちび}く (to guide/derive)
-- **Ichidan verbs (2)**: {封|ふう}じる (to seal/block), {尽|つ}きる (to run out/be exhausted)
-- **Na-adjectives (4)**: {安穏|あんのん} (peaceful), {寡黙|かもく} (taciturn), {対等|たいとう} (equal), {対照的|たいしょうてき} (contrastive)
-- **Na-adj/noun (1)**: {小柄|こがら} (petite)
-- **Nouns - work/society (3)**: {定職|ていしょく} (steady job), {家業|かぎょう} (family business), {就任|しゅうにん} (taking office)
-- **Nouns - abstract/formal (5)**: {容認|ようにん} (acceptance), {実証|じっしょう} (verification), {尺度|しゃくど} (yardstick), {屈指|くっし} (leading/foremost), {対峙|たいじ} (confrontation)
-- **Nouns - daily life (5)**: {寝起|ねお}き (waking up), {寝床|ねどこ} (sleeping place), {小遣|こづか}い (pocket money), {居場所|いばしょ} (one's place), {寿命|じゅみょう} (lifespan)
-- **Nouns - food (1)**: {完食|かんしょく} (eating everything)
-- **Nouns - pattern/form (1)**: {定型|ていけい} (fixed form)
-- **Nouns - nature (1)**: {寒波|かんぱ} (cold wave)
-- **Noun/suru verbs (4)**: {密集|みっしゅう} (crowding), {寄贈|きぞう} (donation), {対峙|たいじ} (confrontation), {就任|しゅうにん} (inauguration)
-
-Notable features:
-- Multi-sense entries: {寝起|ねお}き (waking up/living somewhere), {宿|やど}る (to lodge/to inhabit), {封|ふう}じる (to seal/to suppress), {導|みちび}く (to guide/to derive), {寿命|じゅみょう} (lifespan/service life), {居場所|いばしょ} (location/belonging)
-- Cultural context: {家業|かぎょう} (traditional family businesses), {居場所|いばしょ} (social isolation discussions), {完食|かんしょく} (food waste culture), {小遣|こづか}い (salaryman allowance)
-- Similar word comparisons: {安穏|あんのん} vs {平穏|へいおん}; {寡黙|かもく} vs {無口|むくち}; {寸前|すんぜん} vs {直前|ちょくぜん}; {尺度|しゃくど} vs {基準|きじゅん}; {富|と}む vs {豊|ゆた}かな
-- New kanji: 2,348 → 2,350 ({寡|か}, {峙|じ})
-
-Total entries: 12,380 → 12,410 (actually 12,395 → 12,425 per validator)
-Remaining candidates: 573 → 543 (30 removed)
 
 ---
 
