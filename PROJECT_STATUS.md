@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,605 |
+| Total entries | ~12,635 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,806 (open) |
-| Candidate words | ~525 |
+| General tier | ~9,836 (open) |
+| Candidate words | ~495 |
 | Cross-references | ~3,380 |
-| Example sentences | ~44,800 |
+| Example sentences | ~44,920 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 293)
+Added 30 new dictionary entries (IDs 12550-12579) from candidate_words.json:
+
+- **Ichidan verbs (3)**: {役立|やくだ}てる (to put to use), {従|したが}える (to be accompanied by), {徹|てっ}する (to devote oneself to)
+- **Godan verbs (3)**: {志|こころざ}す (to aspire to), {思|おも}い{描|えが}く (to envision), {忍|しの}び{込|こ}む (to sneak in)
+- **I-adjective (1)**: {快|こころよ}い (pleasant/willing)
+- **Na-adjective (1)**: {忠実|ちゅうじつ} (faithful/loyal)
+- **Adverb (1)**: {急遽|きゅうきょ} (suddenly/on short notice)
+- **Nouns - abstract/descriptive (7)**: {当|あ}たり{外|はず}れ (hit or miss), {形態|けいたい} (form/configuration), {得体|えたい} (true nature), {念頭|ねんとう} (mind/keeping in mind), {思惑|おもわく} (speculation/ulterior motive), {心地|ここち} (feeling/sensation), {快挙|かいきょ} (remarkable feat)
+- **Nouns - economics/society (4)**: {引|ひ}き{上|あ}げ (raise/withdrawal), {引|ひ}き{下|さ}げ (reduction/cut), {後半|こうはん} (second half), {後釜|あとがま} (successor)
+- **Nouns - time (1)**: {後々|のちのち} (later on)
+- **Nouns - role (1)**: {役|やく} (role/duty)
+- **Noun/suru verbs (5)**: {後退|こうたい} (retreat/decline), {強行|きょうこう} (forcing through), {従事|じゅうじ} (engaging in), {復帰|ふっき} (return/comeback), {復活|ふっかつ} (revival/resurrection)
+- **Noun/na-adjective (1)**: {得|とく} (profit/economical)
+- **Noun (1)**: {底|そこ} (bottom/depths)
+- **Noun (1)**: {微笑|ほほえ}み (smile)
+
+Notable features:
+- Multi-sense entries: {引|ひ}き{上|あ}げ (increase/repatriation), {後退|こうたい} (physical retreat/figurative decline), {復活|ふっかつ} (revival/resurrection), {快|こころよ}い (pleasant/willing), {忠実|ちゅうじつ} (loyal/accurate), {徹|てっ}する (devote oneself/last through), {得|とく} (profit/bargain), {底|そこ} (physical bottom/figurative depths), {思惑|おもわく} (expectation/ulterior motive), {役|やく} (acting role/duty)
+- Diverse word types: ichidan verbs, godan verbs, suru verbs, adjectives, adverbs, nouns
+- New kanji: 2,366 → 2,367 ({遽|きょ})
+
+Total entries: 12,605 → 12,635
+Remaining candidates: 525 → 495 (30 removed)
 
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 292)
 Added 30 new dictionary entries (IDs 12520-12549) from candidate_words.json:
@@ -145,32 +170,6 @@ Notable features:
 
 Total entries: 12,485 → 12,515
 Remaining candidates: 483 → 453 (30 removed)
-
-### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 288)
-Added 30 new dictionary entries (IDs 12400-12429) from candidate_words.json:
-
-- **Nouns - abstract/formal (4)**: {差異|さい} (difference/discrepancy), {山積|さんせき} (accumulation of problems), {対比|たいひ} (contrast/comparison), {巨額|きょがく} (enormous sum)
-- **Nouns - culture/religion (4)**: {山車|だし} (festival float), {巫女|みこ} (shrine maiden), {師匠|ししょう} (master/teacher), {帝国|ていこく} (empire)
-- **Nouns - food (3)**: {山菜|さんさい} (wild mountain vegetables), {山椒|さんしょう} (Japanese pepper), {干物|ひもの} (dried fish)
-- **Nouns - geography/places (2)**: {山道|やまみち} (mountain path), {工房|こうぼう} (workshop/studio)
-- **Nouns - daily life/society (5)**: {巷|ちまた} (the streets/the public), {巻|ま}き{寿司|ずし} (sushi roll), {工程|こうてい} (process/procedure), {庶民|しょみん} (common people), {市販|しはん} (commercially available)
-- **Nouns - travel/lifestyle (2)**: {帰省|きせい} (returning to hometown), {幼馴染|おさななじみ} (childhood friend)
-- **Nouns - other (3)**: {対話|たいわ} (dialogue), {展示|てんじ} (exhibition), {巡回|じゅんかい} (patrol/tour)
-- **Na-adjective (1)**: {平凡|へいぼん} (ordinary/commonplace)
-- **I-adjective (1)**: {小高|こだか}い (slightly elevated)
-- **Ichidan verbs (2)**: {廃|すた}れる (to fall into disuse), {帯|お}びる (to wear/be tinged with)
-- **Godan verb (1)**: {巡|めぐ}らす (to encircle/to ponder)
-- **Suru verb (1)**: {属|ぞく}する (to belong to)
-- **Noun/suru verbs (1)**: {幻|まぼろし} (illusion/phantom/legendary)
-
-Notable features:
-- Multi-sense entries: {巡|めぐ}らす (encircle/ponder), {帯|お}びる (wear/be tinged with), {幻|まぼろし} (illusion/legendary rarity)
-- Cultural context: {山車|だし} (festival floats at Gion and Takayama), {巫女|みこ} (shrine maiden traditions), {帰省|きせい} (homecoming rush), {山椒|さんしょう} (proverb about small but pungent)
-- Similar word comparisons: {差異|さい} vs {違|ちが}い; {対比|たいひ} vs {比較|ひかく}; {巷|ちまた} journalistic usage; {工房|こうぼう} vs {工場|こうじょう}
-- New kanji: 2,350 → 2,355 ({匠|しょう}, {巫|ふ}, {巷|こう}, {帝|てい}, {庶|しょ})
-
-Total entries: 12,455 → 12,485
-Remaining candidates: 513 → 483 (30 removed)
 
 ---
 
