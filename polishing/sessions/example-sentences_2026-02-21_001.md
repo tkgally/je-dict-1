@@ -1,35 +1,36 @@
-# Example Sentences Polish — 2026-02-21 Session 001
+## Session: Example Sentences
+Date: 2026-02-21
+Entries checked: 02120-02139
 
-## Range checked
-01960–01999 (40 entries)
+### Changes Made
+- [02120] insufficient count - added 4 examples (sense 1: +1, sense 2: +3) with progressive length
+- [02121] typo fix in ex6 (extra `{`), added 1 example for sense 2, replaced ex7-ex10 with longer versions for progression
+- [02122] replaced ex7-ex10 with longer versions for length progression
+- [02123] insufficient count - added 1 example (longer, with context)
+- [02124] insufficient count - added 6 examples (2 per sense) with progressive length
+- [02125] insufficient count - added 4 examples (2 per sense) with progressive length
+- [02126] replaced ex9-ex10 with longer versions for length progression
+- [02127] added 1 example for sense 2, replaced ex9-ex10 with longer versions
+- [02128] replaced ex9-ex10 with longer versions for length progression
+- [02129] replaced ex9-ex10 with longer versions for length progression
+- [02130] replaced ex9-ex10 with longer versions for length progression
+- [02132] added 1 example for sense 2, replaced ex9-ex10 with longer versions
+- [02133] insufficient count - added 1 example (longer, with context)
+- [02134] added 1 example for sense 2, replaced ex9-ex10 with longer versions
+- [02135] added 1 example for sense 2, replaced ex9 with longer version
+- [02136] insufficient count - added 4 examples (2 per sense) with progressive length
+- [02137] insufficient count - added 4 examples (2 per sense) with progressive length
+- [02138] insufficient count - added 1 example (longer, with context)
+- [02139] insufficient count - added 1 example (longer, with context)
 
-## Summary
-- Entries checked: 40
-- Entries modified: 39
-- Entries acceptable as-is: 1 (01967 nakusu)
+### Entries Not Modified
+- [02131] count OK, acceptable length variety already present
 
-## Changes by category
+### Common Issues Found
+- **Insufficient example count**: 10 entries (general tier) had only 1-2 examples per sense instead of minimum 3
+- **Missing sense coverage**: 5 core entries had sense 2 with only 4 examples (needs 5)
+- **No length progression**: Nearly all core entries had 10 short examples of similar length (~8-12 chars) with no progression to longer sentences
+- **Typo**: 02121 ex6 had extra `{` before お金
 
-### Batch 1 (01960–01979) — committed separately
-- **General 2-sense count fixes** (3→6 examples each): 01960 tsuku, 01961 tsutawaru, 01962 tsunagu, 01963 tsunagaru, 01964 tsumoru, 01965 dekiru, 01969 nagareru, 01973 nobasu, 01976 nozomu
-- **Core/basic full rewrite**: 01966 nakunaru (core, all 10 examples formulaic → rewritten with progressive length by sense)
-- **Core/basic count + progression**: 01968 nagasu, 01970 naru (basic), 01972 noseru, 01974 nobiru, 01975 nokosu, 01978 hiku, 01979 hiraku
-- **Progression-only fixes**: 01971 niru, 01977 hakaru
-
-### Batch 2 (01980–01999)
-- **Critical count deficiency** (basic/core needing 5/sense):
-  - 01988 miseru (basic, 3→5)
-  - 01989 okanemochi (core, 3→5)
-  - 01993 ken (core, 3→5)
-  - 01998 kun (general, S2 had 0 examples → added 3)
-- **General 2-sense count fixes** (3→6 examples):
-  - 01980 hirogaru, 01981 hirogeru, 01982 fukumu, 01983 furu, 01984 fureru, 01986 mamoru
-- **Core/basic reorder + progression**:
-  - 01990 keredo (basic, 2 senses, reordered + progression + added S2 example)
-  - 01991 yahari (core, 3 senses, all 15 examples reordered by sense with progressive length)
-- **Progression-only fixes** (general, 1 sense):
-  - 01985 heru, 01987 manabu, 01992 konpyuuta, 01994 in, 01995 oki, 01996 gakubu, 01997 ku, 01999 sama
-
-## Progress
-- Previous: next: 01960
-- Updated to: next: 02000
+### Next Entry
+02140
