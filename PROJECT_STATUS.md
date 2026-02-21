@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-20
+**Last updated**: 2026-02-21
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,380 |
+| Total entries | ~12,410 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,581 (open) |
-| Candidate words | ~461 |
+| General tier | ~9,611 (open) |
+| Candidate words | ~543 |
 | Cross-references | ~3,380 |
 | Example sentences | ~44,050 |
 | Audio files | 1,028 |
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 286)
+Added 30 new dictionary entries (IDs 12340-12369) from candidate_words.json:
+
+- **Godan verbs (3)**: {寝転|ねころ}がる (to sprawl out), {富|と}む (to be rich in), {導|みちび}く (to guide/derive)
+- **Ichidan verbs (2)**: {封|ふう}じる (to seal/block), {尽|つ}きる (to run out/be exhausted)
+- **Na-adjectives (4)**: {安穏|あんのん} (peaceful), {寡黙|かもく} (taciturn), {対等|たいとう} (equal), {対照的|たいしょうてき} (contrastive)
+- **Na-adj/noun (1)**: {小柄|こがら} (petite)
+- **Nouns - work/society (3)**: {定職|ていしょく} (steady job), {家業|かぎょう} (family business), {就任|しゅうにん} (taking office)
+- **Nouns - abstract/formal (5)**: {容認|ようにん} (acceptance), {実証|じっしょう} (verification), {尺度|しゃくど} (yardstick), {屈指|くっし} (leading/foremost), {対峙|たいじ} (confrontation)
+- **Nouns - daily life (5)**: {寝起|ねお}き (waking up), {寝床|ねどこ} (sleeping place), {小遣|こづか}い (pocket money), {居場所|いばしょ} (one's place), {寿命|じゅみょう} (lifespan)
+- **Nouns - food (1)**: {完食|かんしょく} (eating everything)
+- **Nouns - pattern/form (1)**: {定型|ていけい} (fixed form)
+- **Nouns - nature (1)**: {寒波|かんぱ} (cold wave)
+- **Noun/suru verbs (4)**: {密集|みっしゅう} (crowding), {寄贈|きぞう} (donation), {対峙|たいじ} (confrontation), {就任|しゅうにん} (inauguration)
+
+Notable features:
+- Multi-sense entries: {寝起|ねお}き (waking up/living somewhere), {宿|やど}る (to lodge/to inhabit), {封|ふう}じる (to seal/to suppress), {導|みちび}く (to guide/to derive), {寿命|じゅみょう} (lifespan/service life), {居場所|いばしょ} (location/belonging)
+- Cultural context: {家業|かぎょう} (traditional family businesses), {居場所|いばしょ} (social isolation discussions), {完食|かんしょく} (food waste culture), {小遣|こづか}い (salaryman allowance)
+- Similar word comparisons: {安穏|あんのん} vs {平穏|へいおん}; {寡黙|かもく} vs {無口|むくち}; {寸前|すんぜん} vs {直前|ちょくぜん}; {尺度|しゃくど} vs {基準|きじゅん}; {富|と}む vs {豊|ゆた}かな
+- New kanji: 2,348 → 2,350 ({寡|か}, {峙|じ})
+
+Total entries: 12,380 → 12,410 (actually 12,395 → 12,425 per validator)
+Remaining candidates: 573 → 543 (30 removed)
 
 ### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 285)
 Added 30 new dictionary entries (IDs 12295-12324) from candidate_words.json:
@@ -147,28 +171,6 @@ Notable features:
 
 Total entries: 12,260 → 12,290
 Remaining candidates: 581 → 551 (30 removed)
-
-### 2026-02-20 (Vocabulary Expansion - 30 New Entries, Session 281)
-Added 30 new dictionary entries (IDs 12175-12204) from candidate_words.json:
-
-- **Verbs - ichidan (3)**: {失|う}せる (to vanish/get lost), {奏|かな}でる (to play music), {大人|おとな}びる (to look mature)
-- **Na-adjectives (4)**: {大嫌|だいきら}い (to detest), {大々的|だいだいてき} (large-scale), {多様|たよう} (diverse), {多大|ただい} (enormous)
-- **Adverbs (3)**: {夜|よ}な{夜|よ}な (night after night), {大概|たいがい} (generally/enough already), {大方|おおかた} (mostly/probably)
-- **Nouns - scale/size (3)**: {大規模|だいきぼ} (large-scale), {大都市|だいとし} (major city), {大金|たいきん} (large sum of money)
-- **Nouns - time/history (3)**: {大昔|おおむかし} (ancient times), {天下|てんか} (the realm/supremacy), {大河|たいが} (great river)
-- **Nouns - language/society (3)**: {失言|しつげん} (verbal gaffe), {失踪|しっそう} (disappearance), {失格|しっかく} (disqualification)
-- **Nouns - events/scale (4)**: {大賞|たいしょう} (grand prize), {大作|たいさく} (major work), {大病|たいびょう} (serious illness), {大惨事|だいさんじ} (catastrophe)
-- **Nouns - culture/abstract (4)**: {奉納|ほうのう} (shrine offering), {奈落|ならく} (abyss/theater trap), {奥底|おくそこ} (innermost depths), {多岐|たき} (wide-ranging)
-- **Nouns - groups (3)**: {多数派|たすうは} (majority faction), {大地|だいち} (earth/ground)
-
-Notable features:
-- Multi-sense entries: {失|う}せる (vanish/rude imperative), {大概|たいがい} (generally/moderation), {大方|おおかた} (mostly/probably), {奈落|ならく} (abyss/theater trap), {天下|てんか} (realm/supremacy), {失格|しっかく} (disqualification/unfit)
-- Cultural context: {奈落|ならく} (kabuki stage trap), {天下|てんか} (Sengoku period conquest), {奉納|ほうのう} (shrine offerings), {失格|しっかく} ({人間|にんげん}{失格|しっかく} novel)
-- Similar word comparisons: {大々的|だいだいてき} vs {大規模|だいきぼ}; {大概|たいがい} vs だいたい vs {大抵|たいてい}; {大作|たいさく} vs {名作|めいさく} vs {傑作|けっさく}
-- New kanji: 2,336 → 2,339 ({奈|な}, {奉|ほう}, {踪|そう})
-
-Total entries: 12,230 → 12,260
-Remaining candidates: 487 → 457 (30 removed)
 
 ---
 
