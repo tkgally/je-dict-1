@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,914 |
+| Total entries | ~12,944 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,115 (open) |
-| Candidate words | ~327 |
+| General tier | ~10,145 (open) |
+| Candidate words | ~297 |
 | Cross-references | ~3,380 |
 | Example sentences | ~45,150 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 303)
+Added 30 new dictionary entries (IDs 12859-12888) from candidate_words.json:
+
+- **Nouns - general (17)**: {暗闇|くらやみ} (darkness), {期限|きげん} (deadline), {杖|つえ} (cane), {束|つか}の{間|ま} (brief moment), {本心|ほんしん} (true feelings), {拠|よ}り{所|どころ} (foundation/support), {本場|ほんば} (place of origin), {文房具|ぶんぼうぐ} (stationery), {斜面|しゃめん} (slope), {本性|ほんしょう} (true nature), {教|おし}え{子|ご} (pupil), {指針|ししん} (guideline), {本題|ほんだい} (main topic), {教材|きょうざい} (teaching materials), {救|すく}い (salvation), {文献|ぶんけん} (literature/references), {書評|しょひょう} (book review)
+- **Noun/suru verbs (6)**: {指名|しめい} (nomination), {敗北|はいぼく} (defeat), {捕獲|ほかく} (capture), {接客|せっきゃく} (customer service), {日持|ひも}ち (shelf life), {政権|せいけん} (political power)
+- **Noun/no-adjectives (2)**: {暗黙|あんもく} (tacit/implicit), {新婚|しんこん} (newlywed)
+- **I-adjective (1)**: {望|のぞ}ましい (desirable)
+- **Ichidan verb (1)**: {押|お}し{上|あ}げる (to push up/boost)
+- **Nouns - work/culture (3)**: {新卒|しんそつ} (new graduate), {振|ふ}り{付|つ}け (choreography), {本業|ほんぎょう} (main occupation)
+
+Notable features:
+- Multi-sense entries: {期限|きげん} (deadline/expiration), {押|お}し{上|あ}げる (physical/figurative), {拠|よ}り{所|どころ} (basis/emotional support), {指針|ししん} (guideline/needle)
+- Cultural relevance: {新卒|しんそつ} (Japanese hiring system), {暗黙|あんもく} (indirect communication), {接客|せっきゃく} (service culture), {本場|ほんば} (food authenticity)
+- Good mix of everyday vocabulary and formal/literary words
+
+Total entries: 12,914 → 12,944 (approximate)
+Remaining candidates: 327 → 297 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 302)
 Added 30 new dictionary entries (IDs 12829-12858) from candidate_words.json:
@@ -132,31 +150,6 @@ Notable features:
 
 Total entries: 12,785 → 12,815 (approximate)
 Remaining candidates: 447 → 417 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 298)
-Added 30 new dictionary entries (IDs 12700-12729) from candidate_words.json:
-
-- **Godan verbs (4)**: {操|あやつ}る (to manipulate/operate), {挑|いど}む (to challenge), {撒|ま}く (to scatter/sprinkle), {散|ち}らばる (to be scattered)
-- **Ichidan verbs (2)**: {損|そこ}ねる (to harm/fail to do), {敗|やぶ}れる (to be defeated)
-- **I-adjective (1)**: {拙|つたな}い (unskillful/clumsy)
-- **Na-adjective (1)**: {性急|せいきゅう} (hasty/impatient)
-- **Adverbs (2)**: {断固|だんこ} (firmly/resolutely), {断然|だんぜん} (definitely/by far)
-- **Nouns - emotion/abstract (3)**: {心情|しんじょう} (feelings/sentiments), {快感|かいかん} (pleasant sensation), {挙句|あげく} (in the end)
-- **Nouns - time/season (3)**: {旬|しゅん} (in season/peak), {放課後|ほうかご} (after school), {新緑|しんりょく} (fresh green foliage)
-- **Nouns - culture/language (4)**: {昔話|むかしばなし} (folktale), {教訓|きょうくん} (lesson/moral), {文脈|ぶんみゃく} (context), {数々|かずかず} (many/numerous)
-- **Nouns - body/object (3)**: {指先|ゆびさき} (fingertip), {指紋|しもん} (fingerprint), {斧|おの} (axe)
-- **Nouns - food (1)**: {明太子|めんたいこ} (spicy pollock roe)
-- **Nouns - person (1)**: {旅人|たびびと} (traveler)
-- **Nouns - other (5)**: {御託|ごたく} (tedious excuses), {往生|おうじょう} (passing away/being stuck), {掟|おきて} (rule/code), {早|はや}とちり (jumping to conclusions), {時代遅|じだいおく}れ (outdated)
-
-Notable features:
-- Multi-sense entries: {操|あやつ}る (skillful handling/manipulation), {往生|おうじょう} (death/being stuck), {損|そこ}ねる (harm/fail to do), {撒|ま}く (scatter/shake off), {断然|だんぜん} (by far/resolutely), {旬|しゅん} (food season/peak popularity), {昔話|むかしばなし} (folktale/reminiscence)
-- Diverse word types: godan verbs, ichidan verbs, adjectives (i/na), adverbs, nouns, suru verbs
-- Cultural depth: {旬|しゅん} (seasonal food culture), {昔話|むかしばなし} (oral tradition), {明太子|めんたいこ} (Hakata specialty), {掟|おきて} (traditional codes)
-- New kanji: 2,371 → 2,373 ({掟|てい}, {斧|ふ})
-
-Total entries: 12,755 → 12,785
-Remaining candidates: 375 → 345 (30 removed)
 
 ---
 
