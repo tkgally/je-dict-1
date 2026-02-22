@@ -3,6 +3,23 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 289)
+Added 30 new dictionary entries (IDs 12430-12459) from candidate_words.json:
+
+- **I-adjective (1)**: {小難|こむずか}しい (somewhat difficult/nitpicky)
+- **Na-adjectives (2)**: {希少|きしょう} (rare/scarce), {平穏|へいおん} (peaceful/tranquil)
+- **Godan verbs (3)**: {引|ひ}っかかる (to get caught/be tricked/bother), {引|ひ}き{継|つ}ぐ (to take over/inherit), {引|ひ}き{裂|さ}く (to tear apart/separate)
+- **Nouns - measurement/quantity (3)**: {小|こ}さじ (teaspoon), {少量|しょうりょう} (small amount), {度合|どあ}い (degree/extent)
+- **Nouns - geography/place (3)**: {山奥|やまおく} (deep in mountains), {家並|いえな}み (row of houses), {庭園|ていえん} (formal garden)
+- **Nouns - history/culture (3)**: {幕府|ばくふ} (shogunate), {干支|えと} (Chinese zodiac), {年末年始|ねんまつねんし} (year-end/New Year period)
+- **Nouns - business/society (4)**: {属性|ぞくせい} (attribute/property), {対価|たいか} (compensation), {店主|てんしゅ} (shop owner), {干渉|かんしょう} (interference)
+- **Nouns - abstract/descriptive (5)**: {巨人|きょじん} (giant/great figure), {寒気|かんき} (cold air), {廃墟|はいきょ} (ruins), {引|ひ}き{金|がね} (trigger), {序盤|じょばん} (opening phase)
+- **Noun/suru verbs (4)**: {工作|こうさく} (crafting/scheming), {巣|す}ごもり (staying home), {小出|こだ}し (doling out), {尻込|しりご}み (flinching)
+- **Noun/suffix (1)**: {層|そう} (layer/demographic segment)
+
+Total entries: 12,485 → 12,515
+Remaining candidates: 483 → 453 (30 removed)
+
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 288)
 Added 30 new dictionary entries (IDs 12400-12429) from candidate_words.json:
 
