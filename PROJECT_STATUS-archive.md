@@ -3,6 +3,31 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 293)
+Added 30 new dictionary entries (IDs 12550-12579) from candidate_words.json:
+
+- **Ichidan verbs (3)**: {役立|やくだ}てる (to put to use), {従|したが}える (to be accompanied by), {徹|てっ}する (to devote oneself to)
+- **Godan verbs (3)**: {志|こころざ}す (to aspire to), {思|おも}い{描|えが}く (to envision), {忍|しの}び{込|こ}む (to sneak in)
+- **I-adjective (1)**: {快|こころよ}い (pleasant/willing)
+- **Na-adjective (1)**: {忠実|ちゅうじつ} (faithful/loyal)
+- **Adverb (1)**: {急遽|きゅうきょ} (suddenly/on short notice)
+- **Nouns - abstract/descriptive (7)**: {当|あ}たり{外|はず}れ (hit or miss), {形態|けいたい} (form/configuration), {得体|えたい} (true nature), {念頭|ねんとう} (mind/keeping in mind), {思惑|おもわく} (speculation/ulterior motive), {心地|ここち} (feeling/sensation), {快挙|かいきょ} (remarkable feat)
+- **Nouns - economics/society (4)**: {引|ひ}き{上|あ}げ (raise/withdrawal), {引|ひ}き{下|さ}げ (reduction/cut), {後半|こうはん} (second half), {後釜|あとがま} (successor)
+- **Nouns - time (1)**: {後々|のちのち} (later on)
+- **Nouns - role (1)**: {役|やく} (role/duty)
+- **Noun/suru verbs (5)**: {後退|こうたい} (retreat/decline), {強行|きょうこう} (forcing through), {従事|じゅうじ} (engaging in), {復帰|ふっき} (return/comeback), {復活|ふっかつ} (revival/resurrection)
+- **Noun/na-adjective (1)**: {得|とく} (profit/economical)
+- **Noun (1)**: {底|そこ} (bottom/depths)
+- **Noun (1)**: {微笑|ほほえ}み (smile)
+
+Notable features:
+- Multi-sense entries: {引|ひ}き{上|あ}げ (increase/repatriation), {後退|こうたい} (physical retreat/figurative decline), {復活|ふっかつ} (revival/resurrection), {快|こころよ}い (pleasant/willing), {忠実|ちゅうじつ} (loyal/accurate), {徹|てっ}する (devote oneself/last through), {得|とく} (profit/bargain), {底|そこ} (physical bottom/figurative depths), {思惑|おもわく} (expectation/ulterior motive), {役|やく} (acting role/duty)
+- Diverse word types: ichidan verbs, godan verbs, suru verbs, adjectives, adverbs, nouns
+- New kanji: 2,366 → 2,367 ({遽|きょ})
+
+Total entries: 12,605 → 12,635
+Remaining candidates: 525 → 495 (30 removed)
+
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 291)
 Added 30 new dictionary entries (IDs 12490-12519) from candidate_words.json:
 
