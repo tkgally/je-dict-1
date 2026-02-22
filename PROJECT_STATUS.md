@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,785 |
+| Total entries | ~12,815 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,986 (open) |
-| Candidate words | ~345 |
+| General tier | ~10,016 (open) |
+| Candidate words | ~417 |
 | Cross-references | ~3,380 |
 | Example sentences | ~45,150 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 299)
+Added 30 new dictionary entries (IDs 12739-12768) from candidate_words.json:
+
+- **Godan verbs (2)**: {手渡|てわた}す (to hand over), {打|う}ち{勝|か}つ (to overcome)
+- **Ichidan verb (1)**: {手|て}がける (to handle/work on)
+- **I-adjective (1)**: {憎|にく}い (hateful/admirable)
+- **Na-adjective (1)**: {意外|いがい} (unexpected/surprising)
+- **Nouns - emotion/thought (3)**: {情感|じょうかん} (emotion/pathos), {念|ねん} (thought/caution), {感触|かんしょく} (feel/touch/impression)
+- **Nouns - hand/manual (8)**: {手|て}すり (handrail), {手|て}ぶら (empty-handed), {手口|てぐち} (modus operandi), {手触|てざわ}り (texture), {手引|てび}き (guidance/handbook), {手料理|てりょうり} (home cooking), {手洗|てあら}い (handwashing/washroom), {手作業|てさぎょう} (manual work)
+- **Nouns - ownership/affiliation (3)**: {所属|しょぞく} (affiliation), {所持|しょじ} (possession), {所有|しょゆう} (ownership)
+- **Nouns - war/military (3)**: {戦場|せんじょう} (battlefield), {戦士|せんし} (warrior), {戦術|せんじゅつ} (tactics)
+- **Nouns - other (8)**: {情勢|じょうせい} (situation), {意思|いし} (intention/will), {成|な}り{立|た}ち (formation/origin), {手法|しゅほう} (technique), {徳用|とくよう} (economy size), {心霊|しんれい} (supernatural), {当主|とうしゅ} (head of household), {所在|しょざい} (whereabouts)
+
+Notable features:
+- Multi-sense entries: {憎|にく}い (hateful/ironic praise), {感触|かんしょく} (physical/figurative), {手引|てび}き (guidance/handbook), {手洗|てあら}い (handwashing/restroom), {念|ねん} (thought/caution), {成|な}り{立|た}ち (origin/structure), {手|て}がける (work on/raise)
+- Cross-references: {意外|いがい}↔{以外|いがい}, {意思|いし}↔{意志|いし}, {憎|にく}い↔〜にくい, {当主|とうしゅ}↔{投手|とうしゅ}, {念|ねん}↔{年|ねん}
+- Strong 手-compound cluster: 8 entries built around {手|て}
+- Good mix of everyday ({手|て}ぶら, {手洗|てあら}い) and formal vocabulary ({所有|しょゆう}, {情勢|じょうせい})
+
+Total entries: 12,785 → 12,815 (approximate)
+Remaining candidates: 447 → 417 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 298)
 Added 30 new dictionary entries (IDs 12700-12729) from candidate_words.json:
@@ -146,28 +168,6 @@ Notable features:
 
 Total entries: 12,665 → 12,695
 Remaining candidates: 465 → 435 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 294)
-Added 30 new dictionary entries (IDs 12580-12609) from candidate_words.json:
-
-- **Godan verbs (7)**: {張|は}る (to stretch/spread/insist), {引|ひ}き{離|はな}す (to pull apart/leave behind), {悟|さと}る (to realize/attain enlightenment), {悩|なや}ます (to trouble/torment), {急|せ}かす (to rush someone), {怒鳴|どな}り{込|こ}む (to barge in yelling), {思|おも}い{立|た}つ (to resolve on impulse)
-- **Ichidan verbs (2)**: {引|ひ}き{立|た}てる (to set off/promote), {惚|ほ}れる (to fall in love/be captivated)
-- **I-adjective (1)**: {息苦|いきぐる}しい (suffocating/oppressive)
-- **Na-adjective (1)**: {形式的|けいしきてき} (formal/perfunctory)
-- **Adverbs (2)**: {往々|おうおう} (often/not uncommonly), {恐|おそ}る{恐|おそ}る (timidly/gingerly)
-- **Nouns - workplace/social (5)**: {後任|こうにん} (successor), {後継者|こうけいしゃ} (heir/successor), {恩師|おんし} (former teacher/mentor), {後期|こうき} (latter period), {恒例|こうれい} (regular event)
-- **Nouns - abstract (5)**: {後戻|あともど}り (turning back/regression), {底上|そこあ}げ (raising the level), {後付|あとづ}け (after-the-fact), {広義|こうぎ} (broad sense), {忠誠|ちゅうせい} (loyalty)
-- **Nouns - culture (2)**: {忍|しの}び (stealth/ninja), {怪談|かいだん} (ghost story)
-- **Nouns - other (3)**: {強者|つわもの} (formidable person), {山間|さんかん} (mountain area), {微量|びりょう} (trace amount)
-- **Noun/suru verbs (2)**: {志向|しこう} (inclination/orientation), {心待|こころま}ち (eager anticipation)
-
-Notable features:
-- Multi-sense entries: {張|は}る (3 senses: stretch/tense/stubborn), {引|ひ}き{離|はな}す (pull apart/leave behind), {引|ひ}き{立|た}てる (enhance/promote), {形式的|けいしきてき} (procedural/perfunctory), {悟|さと}る (perceive/enlightenment), {惚|ほ}れる (romantic/non-romantic), {息苦|いきぐる}しい (physical/figurative), {後戻|あともど}り (physical/figurative), {忍|しの}び (stealth/ninja), {強者|つわもの} (competitor/warrior)
-- Diverse word types: godan verbs, ichidan verbs, adjectives, adverbs, nouns, suru verbs
-- Cross-references added: {後任|こうにん}↔{後継者|こうけいしゃ}, {広義|こうぎ}↔{狭義|きょうぎ}, {形式的|けいしきてき}↔{実質的|じっしつてき}, {張|は}る↔{貼|は}る, {後期|こうき}↔{前期|ぜんき}
-
-Total entries: 12,635 → 12,665
-Remaining candidates: 495 → 465 (30 removed)
 
 ---
 
