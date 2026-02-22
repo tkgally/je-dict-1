@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-21
+**Last updated**: 2026-02-22
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,635 |
+| Total entries | ~12,665 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,836 (open) |
-| Candidate words | ~495 |
+| General tier | ~9,866 (open) |
+| Candidate words | ~465 |
 | Cross-references | ~3,380 |
-| Example sentences | ~44,920 |
+| Example sentences | ~45,040 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 294)
+Added 30 new dictionary entries (IDs 12580-12609) from candidate_words.json:
+
+- **Godan verbs (7)**: {張|は}る (to stretch/spread/insist), {引|ひ}き{離|はな}す (to pull apart/leave behind), {悟|さと}る (to realize/attain enlightenment), {悩|なや}ます (to trouble/torment), {急|せ}かす (to rush someone), {怒鳴|どな}り{込|こ}む (to barge in yelling), {思|おも}い{立|た}つ (to resolve on impulse)
+- **Ichidan verbs (2)**: {引|ひ}き{立|た}てる (to set off/promote), {惚|ほ}れる (to fall in love/be captivated)
+- **I-adjective (1)**: {息苦|いきぐる}しい (suffocating/oppressive)
+- **Na-adjective (1)**: {形式的|けいしきてき} (formal/perfunctory)
+- **Adverbs (2)**: {往々|おうおう} (often/not uncommonly), {恐|おそ}る{恐|おそ}る (timidly/gingerly)
+- **Nouns - workplace/social (5)**: {後任|こうにん} (successor), {後継者|こうけいしゃ} (heir/successor), {恩師|おんし} (former teacher/mentor), {後期|こうき} (latter period), {恒例|こうれい} (regular event)
+- **Nouns - abstract (5)**: {後戻|あともど}り (turning back/regression), {底上|そこあ}げ (raising the level), {後付|あとづ}け (after-the-fact), {広義|こうぎ} (broad sense), {忠誠|ちゅうせい} (loyalty)
+- **Nouns - culture (2)**: {忍|しの}び (stealth/ninja), {怪談|かいだん} (ghost story)
+- **Nouns - other (3)**: {強者|つわもの} (formidable person), {山間|さんかん} (mountain area), {微量|びりょう} (trace amount)
+- **Noun/suru verbs (2)**: {志向|しこう} (inclination/orientation), {心待|こころま}ち (eager anticipation)
+
+Notable features:
+- Multi-sense entries: {張|は}る (3 senses: stretch/tense/stubborn), {引|ひ}き{離|はな}す (pull apart/leave behind), {引|ひ}き{立|た}てる (enhance/promote), {形式的|けいしきてき} (procedural/perfunctory), {悟|さと}る (perceive/enlightenment), {惚|ほ}れる (romantic/non-romantic), {息苦|いきぐる}しい (physical/figurative), {後戻|あともど}り (physical/figurative), {忍|しの}び (stealth/ninja), {強者|つわもの} (competitor/warrior)
+- Diverse word types: godan verbs, ichidan verbs, adjectives, adverbs, nouns, suru verbs
+- Cross-references added: {後任|こうにん}↔{後継者|こうけいしゃ}, {広義|こうぎ}↔{狭義|きょうぎ}, {形式的|けいしきてき}↔{実質的|じっしつてき}, {張|は}る↔{貼|は}る, {後期|こうき}↔{前期|ぜんき}
+
+Total entries: 12,635 → 12,665
+Remaining candidates: 495 → 465 (30 removed)
 
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 293)
 Added 30 new dictionary entries (IDs 12550-12579) from candidate_words.json:
@@ -147,29 +169,6 @@ Notable features:
 
 Total entries: 12,515 → 12,545
 Remaining candidates: 615 → 585 (30 removed)
-
-### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 289)
-Added 30 new dictionary entries (IDs 12430-12459) from candidate_words.json:
-
-- **I-adjective (1)**: {小難|こむずか}しい (somewhat difficult/nitpicky)
-- **Na-adjectives (2)**: {希少|きしょう} (rare/scarce), {平穏|へいおん} (peaceful/tranquil)
-- **Godan verbs (3)**: {引|ひ}っかかる (to get caught/be tricked/bother), {引|ひ}き{継|つ}ぐ (to take over/inherit), {引|ひ}き{裂|さ}く (to tear apart/separate)
-- **Nouns - measurement/quantity (3)**: {小|こ}さじ (teaspoon), {少量|しょうりょう} (small amount), {度合|どあ}い (degree/extent)
-- **Nouns - geography/place (3)**: {山奥|やまおく} (deep in mountains), {家並|いえな}み (row of houses), {庭園|ていえん} (formal garden)
-- **Nouns - history/culture (3)**: {幕府|ばくふ} (shogunate), {干支|えと} (Chinese zodiac), {年末年始|ねんまつねんし} (year-end/New Year period)
-- **Nouns - business/society (4)**: {属性|ぞくせい} (attribute/property), {対価|たいか} (compensation), {店主|てんしゅ} (shop owner), {干渉|かんしょう} (interference)
-- **Nouns - abstract/descriptive (5)**: {巨人|きょじん} (giant/great figure), {寒気|かんき} (cold air), {廃墟|はいきょ} (ruins), {引|ひ}き{金|がね} (trigger), {序盤|じょばん} (opening phase)
-- **Noun/suru verbs (4)**: {工作|こうさく} (crafting/scheming), {巣|す}ごもり (staying home), {小出|こだ}し (doling out), {尻込|しりご}み (flinching)
-- **Noun/suffix (1)**: {層|そう} (layer/demographic segment)
-
-Notable features:
-- Multi-sense entries: {小難|こむずか}しい (complicated/fussy), {巨人|きょじん} (giant/titan), {工作|こうさく} (crafts/scheming), {引|ひ}き{金|がね} (gun trigger/catalyst), {引|ひ}っかかる (3 senses: caught/tricked/bother), {引|ひ}き{裂|さ}く (tear/separate), {層|そう} (layer/demographic)
-- Cultural context: {幕府|ばくふ} (three shogunates), {干支|えと} (twelve zodiac animals), {年末年始|ねんまつねんし} (holiday customs), {巣|す}ごもり (COVID-era buzzword), {庭園|ていえん} (Japanese garden types)
-- Diverse word types: verbs, adjectives, nouns, suru verbs, suffix
-- New kanji: 2,355 → 2,356 ({墟|きょ})
-
-Total entries: 12,485 → 12,515
-Remaining candidates: 483 → 453 (30 removed)
 
 ---
 
