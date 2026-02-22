@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,944 |
+| Total entries | ~12,974 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,145 (open) |
-| Candidate words | ~297 |
+| General tier | ~10,175 (open) |
+| Candidate words | ~501 |
 | Cross-references | ~3,380 |
-| Example sentences | ~45,150 |
+| Example sentences | ~45,270 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 304)
+Added 30 new dictionary entries (IDs 12889-12918) from candidate_words.json:
+
+- **Noun/suru verbs (21)**: {所蔵|しょぞう} (possession/holding), {投下|とうか} (dropping/investment), {投与|とうよ} (drug administration), {投入|とうにゅう} (throwing in/deployment), {折衝|せっしょう} (negotiation), {指令|しれい} (directive), {授与|じゅよ} (conferral), {採取|さいしゅ} (sampling), {探求|たんきゅう} (quest/inquiry), {接待|せったい} (business entertainment), {接触|せっしょく} (contact), {提示|ていじ} (presentation), {推奨|すいしょう} (recommendation), {推進|すいしん} (promotion/propulsion), {提供|ていきょう} (provision), {撤回|てっかい} (retraction), {撤廃|てっぱい} (abolition), {改心|かいしん} (change of heart), {敵対|てきたい} (hostility), {断言|だんげん} (declaration), {救出|きゅうしゅつ} (rescue)
+- **Nouns (5)**: {抗体|こうたい} (antibody), {数値|すうち} (numerical value), {文庫本|ぶんこぼん} (paperback book), {敗戦|はいせん} (defeat in war), {摂氏|せっし} (Celsius)
+- **Noun/no-adjective (2)**: {手動|しゅどう} (manual operation), {手製|てせい} (handmade)
+- **Na-adjective (1)**: {抜本的|ばっぽんてき} (fundamental/radical)
+- **Compound noun (1)**: {技術革新|ぎじゅつかくしん} (technological innovation)
+
+Notable features:
+- Multi-sense entries: {投下|とうか} (dropping/capital investment), {投入|とうにゅう} (inserting/deploying resources), {接待|せったい} (business entertainment/general hospitality), {接触|せっしょく} (physical/interpersonal contact), {推進|すいしん} (policy promotion/physical propulsion)
+- Heavy concentration of formal/institutional vocabulary: negotiation, policy, medicine, law
+- Business culture: {接待|せったい} (client entertainment), {折衝|せっしょう} (bargaining), {推奨|すいしょう} (endorsement)
+- Medical/scientific: {投与|とうよ} (dosing), {抗体|こうたい} (antibody), {摂氏|せっし} (Celsius), {採取|さいしゅ} (sampling)
+- Cultural: {文庫本|ぶんこぼん} (Japanese paperback format), {敗戦|はいせん} (WWII context)
+
+Total entries: 12,944 → 12,974 (approximate)
+Remaining candidates: 531 → 501 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 303)
 Added 30 new dictionary entries (IDs 12859-12888) from candidate_words.json:
@@ -128,28 +147,6 @@ Notable features:
 
 Total entries: 12,815 → 12,854 (approximate)
 Remaining candidates: 417 → 387 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 299)
-Added 30 new dictionary entries (IDs 12739-12768) from candidate_words.json:
-
-- **Godan verbs (2)**: {手渡|てわた}す (to hand over), {打|う}ち{勝|か}つ (to overcome)
-- **Ichidan verb (1)**: {手|て}がける (to handle/work on)
-- **I-adjective (1)**: {憎|にく}い (hateful/admirable)
-- **Na-adjective (1)**: {意外|いがい} (unexpected/surprising)
-- **Nouns - emotion/thought (3)**: {情感|じょうかん} (emotion/pathos), {念|ねん} (thought/caution), {感触|かんしょく} (feel/touch/impression)
-- **Nouns - hand/manual (8)**: {手|て}すり (handrail), {手|て}ぶら (empty-handed), {手口|てぐち} (modus operandi), {手触|てざわ}り (texture), {手引|てび}き (guidance/handbook), {手料理|てりょうり} (home cooking), {手洗|てあら}い (handwashing/washroom), {手作業|てさぎょう} (manual work)
-- **Nouns - ownership/affiliation (3)**: {所属|しょぞく} (affiliation), {所持|しょじ} (possession), {所有|しょゆう} (ownership)
-- **Nouns - war/military (3)**: {戦場|せんじょう} (battlefield), {戦士|せんし} (warrior), {戦術|せんじゅつ} (tactics)
-- **Nouns - other (8)**: {情勢|じょうせい} (situation), {意思|いし} (intention/will), {成|な}り{立|た}ち (formation/origin), {手法|しゅほう} (technique), {徳用|とくよう} (economy size), {心霊|しんれい} (supernatural), {当主|とうしゅ} (head of household), {所在|しょざい} (whereabouts)
-
-Notable features:
-- Multi-sense entries: {憎|にく}い (hateful/ironic praise), {感触|かんしょく} (physical/figurative), {手引|てび}き (guidance/handbook), {手洗|てあら}い (handwashing/restroom), {念|ねん} (thought/caution), {成|な}り{立|た}ち (origin/structure), {手|て}がける (work on/raise)
-- Cross-references: {意外|いがい}↔{以外|いがい}, {意思|いし}↔{意志|いし}, {憎|にく}い↔〜にくい, {当主|とうしゅ}↔{投手|とうしゅ}, {念|ねん}↔{年|ねん}
-- Strong 手-compound cluster: 8 entries built around {手|て}
-- Good mix of everyday ({手|て}ぶら, {手洗|てあら}い) and formal vocabulary ({所有|しょゆう}, {情勢|じょうせい})
-
-Total entries: 12,785 → 12,815 (approximate)
-Remaining candidates: 447 → 417 (30 removed)
 
 ---
 
