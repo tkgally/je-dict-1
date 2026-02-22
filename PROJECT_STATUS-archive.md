@@ -3,6 +3,23 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 294)
+Added 30 new dictionary entries (IDs 12580-12609) from candidate_words.json:
+
+- **Godan verbs (7)**: {張|は}る (to stretch/spread/insist), {引|ひ}き{離|はな}す (to pull apart/leave behind), {悟|さと}る (to realize/attain enlightenment), {悩|なや}ます (to trouble/torment), {急|せ}かす (to rush someone), {怒鳴|どな}り{込|こ}む (to barge in yelling), {思|おも}い{立|た}つ (to resolve on impulse)
+- **Ichidan verbs (2)**: {引|ひ}き{立|た}てる (to set off/promote), {惚|ほ}れる (to fall in love/be captivated)
+- **I-adjective (1)**: {息苦|いきぐる}しい (suffocating/oppressive)
+- **Na-adjective (1)**: {形式的|けいしきてき} (formal/perfunctory)
+- **Adverbs (2)**: {往々|おうおう} (often/not uncommonly), {恐|おそ}る{恐|おそ}る (timidly/gingerly)
+- **Nouns - workplace/social (5)**: {後任|こうにん} (successor), {後継者|こうけいしゃ} (heir/successor), {恩師|おんし} (former teacher/mentor), {後期|こうき} (latter period), {恒例|こうれい} (regular event)
+- **Nouns - abstract (5)**: {後戻|あともど}り (turning back/regression), {底上|そこあ}げ (raising the level), {後付|あとづ}け (after-the-fact), {広義|こうぎ} (broad sense), {忠誠|ちゅうせい} (loyalty)
+- **Nouns - culture (2)**: {忍|しの}び (stealth/ninja), {怪談|かいだん} (ghost story)
+- **Nouns - other (3)**: {強者|つわもの} (formidable person), {山間|さんかん} (mountain area), {微量|びりょう} (trace amount)
+- **Noun/suru verbs (2)**: {志向|しこう} (inclination/orientation), {心待|こころま}ち (eager anticipation)
+
+Total entries: 12,635 → 12,665
+Remaining candidates: 495 → 465 (30 removed)
+
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 293)
 Added 30 new dictionary entries (IDs 12550-12579) from candidate_words.json:
 
