@@ -6,12 +6,12 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 
 | Metric | Value |
 |--------|-------|
-| Total entries | 12,695 |
+| Total entries | 12,914 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | 9,896 (open — all new entries here) |
+| General tier | 10,115 (open — all new entries here) |
 | Next entry ID | Run `python3 build/get_next_id.py` before each entry |
-| Candidate words | 435 |
+| Candidate words | 327 |
 | Cross-references | ~3,380 |
 | Example sentences | ~45,150 |
 
