@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,854 |
+| Total entries | ~12,884 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,055 (open) |
-| Candidate words | ~387 |
+| General tier | ~10,085 (open) |
+| Candidate words | ~357 |
 | Cross-references | ~3,380 |
 | Example sentences | ~45,150 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 301)
+Added 30 new dictionary entries (IDs 12799-12828) from candidate_words.json:
+
+- **Godan verbs (4)**: {指|ゆび}さす (to point at), {折|お}り{畳|たた}む (to fold up), {振|ふ}り{絞|しぼ}る (to muster), {抱|だ}きつく (to cling to)
+- **Ichidan verbs (3)**: {抜|ぬ}け{出|で}る (to slip out/stand out), {押|お}し{込|こ}める (to confine/cram in), {抑|おさ}える (to suppress/curb)
+- **I-adjective (1)**: {手厚|てあつ}い (generous/cordial)
+- **Adverb (1)**: {折々|おりおり} (from time to time)
+- **Noun (1)**: {手足|てあし} (hands and feet/right-hand man)
+- **Noun/suru verbs (14)**: {技法|ぎほう} (technique), {抗議|こうぎ} (protest), {打破|だは} (breakthrough), {抽出|ちゅうしゅつ} (extraction), {拡張|かくちょう} (expansion), {持続|じぞく} (continuation), {捕食|ほしょく} (predation), {搾取|さくしゅ} (exploitation), {推測|すいそく} (conjecture), {撤退|てったい} (withdrawal), {擬人化|ぎじんか} (personification), {攻略|こうりゃく} (strategy guide), {放棄|ほうき} (abandonment), {放置|ほうち} (neglect)
+- **Nouns - other (6)**: {技能|ぎのう} (skill), {持論|じろん} (pet theory), {指標|しひょう} (indicator), {挿絵|さしえ} (illustration), {挑発|ちょうはつ} (provocation), {挿入|そうにゅう} (insertion)
+
+Notable features:
+- Multi-sense entries: {手足|てあし} (limbs/agent), {抜|ぬ}け{出|で}る (slip out/stand out), {押|お}し{込|こ}める (confine/cram), {抑|おさ}える (suppress/curb), {抽出|ちゅうしゅつ} (extract/sample), {攻略|こうりゃく} (capture/walkthrough)
+- Modern culture: {攻略|こうりゃく} (gaming walkthroughs), {擬人化|ぎじんか} (otaku culture), {放置|ほうち} (idle games)
+- Strong 手-radical cluster: many entries feature hand-related kanji (技, 指, 抑, 押, 抱, 抗, 抽, 拡, 持, 挑, 振, 挿, 捕, 搾, 推, 撤, 擬, 攻, 放, 折)
+- New kanji: 2,378 → 2,381 ({搾|さく}, {撤|てつ}, {擬|ぎ})
+
+Total entries: 12,854 → 12,884 (approximate)
+Remaining candidates: 387 → 357 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 300)
 Added 30 new dictionary entries (IDs 12769-12798) from candidate_words.json:
@@ -146,27 +166,6 @@ Notable features:
 
 Total entries: 12,725 → 12,755
 Remaining candidates: 405 → 375 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 296)
-Added 30 new dictionary entries (IDs 12640-12669) from candidate_words.json:
-
-- **Pre-noun adjectival (1)**: {幾多|いくた} (many/numerous - literary)
-- **Noun/suru verbs (2)**: {女装|じょそう} (cross-dressing), {志願|しがん} (volunteering/application)
-- **Noun/adjective-no (1)**: {多国籍|たこくせき} (multinational)
-- **Nouns - technical/academic (4)**: {座標|ざひょう} (coordinates), {微生物|びせいぶつ} (microorganism), {心理学|しんりがく} (psychology), {建材|けんざい} (building materials)
-- **Nouns - history/culture (10)**: {平安|へいあん} (Heian era/peace), {宰相|さいしょう} (prime minister - literary), {宮中|きゅうちゅう} (imperial court), {宮司|ぐうじ} (Shinto chief priest), {家臣|かしん} (retainer), {家老|かろう} (chief retainer), {奉行|ぶぎょう} (magistrate), {公家|くげ} (court noble), {士族|しぞく} (former samurai class), {人間国宝|にんげんこくほう} (Living National Treasure)
-- **Nouns - society/geography (5)**: {外需|がいじゅ} (external demand), {官民|かんみん} (public-private), {山地|さんち} (mountainous area), {女中|じょちゅう} (maid - archaic), {大佐|たいさ} (colonel)
-- **Nouns - general (5)**: {寺社|じしゃ} (temples and shrines), {宙|ちゅう} (midair/space), {女形|おんながた} (onnagata actor), {大関|おおぜき} (ōzeki sumo rank), {思春期|ししゅんき} (puberty/adolescence)
-- **Nouns - abstract (2)**: {悪循環|あくじゅんかん} (vicious cycle), {多神教|たしんきょう} (polytheism)
-
-Notable features:
-- Multi-sense entries: {平安|へいあん} (peace/Heian era), {宙|ちゅう} (midair/space)
-- Strong Japanese history/culture cluster: {公家|くげ}, {家臣|かしん}, {家老|かろう}, {奉行|ぶぎょう}, {宰相|さいしょう}, {士族|しぞく}, {宮中|きゅうちゅう}, {宮司|ぐうじ}
-- Cultural depth: {女形|おんながた} (kabuki tradition), {大関|おおぜき} (sumo ranking), {人間国宝|にんげんこくほう} (cultural preservation)
-- New kanji: 2,368 → 2,370 ({佐|さ}, {宰|さい})
-
-Total entries: 12,695 → 12,725
-Remaining candidates: 435 → 405 (30 removed)
 
 ---
 
