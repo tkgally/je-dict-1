@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,004 |
+| Total entries | ~13,034 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,205 (open) |
-| Candidate words | ~423 |
+| General tier | ~10,235 (open) |
+| Candidate words | ~393 |
 | Cross-references | ~3,390 |
 | Example sentences | ~45,380 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 306)
+Added 30 new dictionary entries (IDs 12949-12978) from candidate_words.json:
+
+- **Nouns (20)**: {旅先|たびさき} (travel destination), {旅客|りょかく} (passenger), {日取|ひど}り (scheduling a date), {日数|にっすう} (number of days), {日本酒|にほんしゅ} (Japanese sake), {日本食|にほんしょく} (Japanese food), {日系|にっけい} (of Japanese descent), {旧姓|きゅうせい} (maiden name), {旧暦|きゅうれき} (lunar calendar), {明|あか}るみ (coming to light), {昨今|さっこん} (nowadays), {昼過|ひるす}ぎ (early afternoon), {時事|じじ} (current affairs), {時代劇|じだいげき} (period drama), {時価|じか} (market price), {時点|じてん} (point in time), {時間帯|じかんたい} (time slot/time zone), {晴天|せいてん} (clear sky), {暑|あつ}さ (heat), {景観|けいかん} (landscape)
+- **Verbs (4)**: {旅立|たびだ}つ (to depart on journey, godan), {昇|のぼ}る (to rise, godan), {明|あ}かす (to reveal/stay up all night, godan), {映|うつ}す (to reflect/project, godan)
+- **Intransitive verb (1)**: {映|うつ}る (to be reflected/appear, godan)
+- **Adverbs (2)**: {早々|そうそう} (promptly/right after), {暗|あん}に (implicitly)
+- **Noun (1)**: {暴言|ぼうげん} (abusive language)
+- **Expression (1)**: {敬具|けいぐ} (respectfully yours)
+- **Noun (1)**: {教義|きょうぎ} (doctrine)
+
+Notable features:
+- Multi-sense entries: {旅立|たびだ}つ (journey/euphemism for death), {明|あ}かす (reveal/stay up all night), {映|うつ}す (reflect/project), {映|うつ}る (reflected/appear on screen), {早々|そうそう} (promptly/suffix: right after), {時間帯|じかんたい} (time slot/time zone)
+- Transitive-intransitive pair: {映|うつ}す ↔ {映|うつ}る
+- Homophone notes: {昇|のぼ}る vs {登|のぼ}る, {暑|あつ}さ vs {厚|あつ}さ vs {熱|あつ}さ, {映|うつ}す vs {写|うつ}す vs {移|うつ}す
+- Cultural: {日本酒|にほんしゅ} (brewing terms), {旧暦|きゅうれき} (Meiji calendar reform), {旧姓|きゅうせい} (夫婦別姓 debate), {敬具|けいぐ} (letter writing conventions), {時代劇|じだいげき} (大河ドラマ)
+- Time/日-related cluster: many entries built around 日, 時, 旧, 早, 昼, 明, 映, 昨, 晴, 暑, 暗, 暴, 景
+
+Total entries: 13,004 → 13,034 (approximate)
+Remaining candidates: 423 → 393 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 305)
 Added 30 new dictionary entries (IDs 12919-12948) from candidate_words.json:
@@ -123,26 +144,6 @@ Notable features:
 
 Total entries: 12,884 → 12,914 (approximate)
 Remaining candidates: 357 → 327 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 301)
-Added 30 new dictionary entries (IDs 12799-12828) from candidate_words.json:
-
-- **Godan verbs (4)**: {指|ゆび}さす (to point at), {折|お}り{畳|たた}む (to fold up), {振|ふ}り{絞|しぼ}る (to muster), {抱|だ}きつく (to cling to)
-- **Ichidan verbs (3)**: {抜|ぬ}け{出|で}る (to slip out/stand out), {押|お}し{込|こ}める (to confine/cram in), {抑|おさ}える (to suppress/curb)
-- **I-adjective (1)**: {手厚|てあつ}い (generous/cordial)
-- **Adverb (1)**: {折々|おりおり} (from time to time)
-- **Noun (1)**: {手足|てあし} (hands and feet/right-hand man)
-- **Noun/suru verbs (14)**: {技法|ぎほう} (technique), {抗議|こうぎ} (protest), {打破|だは} (breakthrough), {抽出|ちゅうしゅつ} (extraction), {拡張|かくちょう} (expansion), {持続|じぞく} (continuation), {捕食|ほしょく} (predation), {搾取|さくしゅ} (exploitation), {推測|すいそく} (conjecture), {撤退|てったい} (withdrawal), {擬人化|ぎじんか} (personification), {攻略|こうりゃく} (strategy guide), {放棄|ほうき} (abandonment), {放置|ほうち} (neglect)
-- **Nouns - other (6)**: {技能|ぎのう} (skill), {持論|じろん} (pet theory), {指標|しひょう} (indicator), {挿絵|さしえ} (illustration), {挑発|ちょうはつ} (provocation), {挿入|そうにゅう} (insertion)
-
-Notable features:
-- Multi-sense entries: {手足|てあし} (limbs/agent), {抜|ぬ}け{出|で}る (slip out/stand out), {押|お}し{込|こ}める (confine/cram), {抑|おさ}える (suppress/curb), {抽出|ちゅうしゅつ} (extract/sample), {攻略|こうりゃく} (capture/walkthrough)
-- Modern culture: {攻略|こうりゃく} (gaming walkthroughs), {擬人化|ぎじんか} (otaku culture), {放置|ほうち} (idle games)
-- Strong 手-radical cluster: many entries feature hand-related kanji (技, 指, 抑, 押, 抱, 抗, 抽, 拡, 持, 挑, 振, 挿, 捕, 搾, 推, 撤, 擬, 攻, 放, 折)
-- New kanji: 2,378 → 2,381 ({搾|さく}, {撤|てつ}, {擬|ぎ})
-
-Total entries: 12,854 → 12,884 (approximate)
-Remaining candidates: 387 → 357 (30 removed)
 
 ---
 

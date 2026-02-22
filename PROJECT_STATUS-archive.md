@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 301)
+Added 30 new dictionary entries (IDs 12799-12828) from candidate_words.json:
+
+- **Godan verbs (4)**: {指|ゆび}さす (to point at), {折|お}り{畳|たた}む (to fold up), {振|ふ}り{絞|しぼ}る (to muster), {抱|だ}きつく (to cling to)
+- **Ichidan verbs (3)**: {抜|ぬ}け{出|で}る (to slip out/stand out), {押|お}し{込|こ}める (to confine/cram in), {抑|おさ}える (to suppress/curb)
+- **I-adjective (1)**: {手厚|てあつ}い (generous/cordial)
+- **Adverb (1)**: {折々|おりおり} (from time to time)
+- **Noun (1)**: {手足|てあし} (hands and feet/right-hand man)
+- **Noun/suru verbs (14)**: {技法|ぎほう} (technique), {抗議|こうぎ} (protest), {打破|だは} (breakthrough), {抽出|ちゅうしゅつ} (extraction), {拡張|かくちょう} (expansion), {持続|じぞく} (continuation), {捕食|ほしょく} (predation), {搾取|さくしゅ} (exploitation), {推測|すいそく} (conjecture), {撤退|てったい} (withdrawal), {擬人化|ぎじんか} (personification), {攻略|こうりゃく} (strategy guide), {放棄|ほうき} (abandonment), {放置|ほうち} (neglect)
+- **Nouns - other (6)**: {技能|ぎのう} (skill), {持論|じろん} (pet theory), {指標|しひょう} (indicator), {挿絵|さしえ} (illustration), {挑発|ちょうはつ} (provocation), {挿入|そうにゅう} (insertion)
+
+Notable features:
+- Multi-sense entries: {手足|てあし} (limbs/agent), {抜|ぬ}け{出|で}る (slip out/stand out), {押|お}し{込|こ}める (confine/cram), {抑|おさ}える (suppress/curb), {抽出|ちゅうしゅつ} (extract/sample), {攻略|こうりゃく} (capture/walkthrough)
+- Modern culture: {攻略|こうりゃく} (gaming walkthroughs), {擬人化|ぎじんか} (otaku culture), {放置|ほうち} (idle games)
+- Strong 手-radical cluster: many entries feature hand-related kanji (技, 指, 抑, 押, 抱, 抗, 抽, 拡, 持, 挑, 振, 挿, 捕, 搾, 推, 撤, 擬, 攻, 放, 折)
+- New kanji: 2,378 → 2,381 ({搾|さく}, {撤|てつ}, {擬|ぎ})
+
+Total entries: 12,854 → 12,884 (approximate)
+Remaining candidates: 387 → 357 (30 removed)
+
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 300)
 Added 30 new dictionary entries (IDs 12769-12798) from candidate_words.json:
 
