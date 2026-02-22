@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 291)
+Added 30 new dictionary entries (IDs 12490-12519) from candidate_words.json:
+
+- **Adverbs (3)**: {引|ひ}き{続|つづ}き (continuously/subsequently), {当初|とうしょ} (initially), {後日|ごじつ} (another day)
+- **Na-adjectives (3)**: {小規模|しょうきぼ} (small-scale), {必須|ひっす} (essential/mandatory), {強欲|ごうよく} (greedy/avaricious)
+- **I-adjective (1)**: {心地|ここち}よい (comfortable/pleasant)
+- **Godan verbs (1)**: {微睡|まどろ}む (to doze/slumber)
+- **Ichidan verb (1)**: {張|は}りつめる (to be taut/tense)
+- **Nouns - occupation (2)**: {庭師|にわし} (gardener), {家政婦|かせいふ} (housekeeper)
+- **Nouns - social/political (2)**: {少数派|しょうすうは} (minority group), {当事者|とうじしゃ} (person concerned)
+- **Nouns - abstract/formal (6)**: {弱点|じゃくてん} (weak point), {強み|つよみ} (strength/forte), {形見|かたみ} (keepsake/memento), {彩|いろど}り (coloring/variety), {従来|じゅうらい} (conventional), {待遇|たいぐう} (treatment/conditions)
+- **Nouns - time/period (2)**: {幼少|ようしょう} (childhood), {後味|あとあじ} (aftertaste)
+- **Nouns - other (2)**: {幕|まく} (curtain/act), {弾丸|だんがん} (bullet)
+- **Noun/suru verbs (7)**: {強制|きょうせい} (compulsion), {強奪|ごうだつ} (robbery), {後押|あとお}し (support/backing), {復讐|ふくしゅう} (revenge), {寵愛|ちょうあい} (favor/doting), {延焼|えんしょう} (fire spread), {待遇|たいぐう} (treatment)
+
+Notable features:
+- Multi-sense entries: {張|は}りつめる (taut/tense), {彩|いろど}り (coloring/variety), {後味|あとあじ} (literal/figurative aftertaste), {幕|まく} (curtain/act), {待遇|たいぐう} (treatment/compensation), {引|ひ}き{続|つづ}き (continuously/subsequently), {従来|じゅうらい} (conventional/up to now)
+- Cultural context: {庭師|にわし} (traditional Japanese garden craft), {幕|まく} (kabuki theater/Edo period compounds), {形見|かたみ} ({形見|かたみ}{分|わ}け custom), {家政婦|かせいふ} (agency-based services)
+- Diverse word types: adjectives, verbs, adverbs, suru verbs, formal nouns
+- New kanji: 2,359 → 2,361 ({寵|ちょう}, {讐|しゅう})
+
+Total entries: 12,545 → 12,575
+Remaining candidates: 585 → 555 (30 removed)
+
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 290)
 Added 30 new dictionary entries (IDs 12460-12489) from candidate_words.json:
 

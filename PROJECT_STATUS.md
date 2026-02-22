@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,695 |
+| Total entries | ~12,725 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,896 (open) |
-| Candidate words | ~435 |
+| General tier | ~9,926 (open) |
+| Candidate words | ~405 |
 | Cross-references | ~3,380 |
 | Example sentences | ~45,150 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 296)
+Added 30 new dictionary entries (IDs 12640-12669) from candidate_words.json:
+
+- **Pre-noun adjectival (1)**: {幾多|いくた} (many/numerous - literary)
+- **Noun/suru verbs (2)**: {女装|じょそう} (cross-dressing), {志願|しがん} (volunteering/application)
+- **Noun/adjective-no (1)**: {多国籍|たこくせき} (multinational)
+- **Nouns - technical/academic (4)**: {座標|ざひょう} (coordinates), {微生物|びせいぶつ} (microorganism), {心理学|しんりがく} (psychology), {建材|けんざい} (building materials)
+- **Nouns - history/culture (10)**: {平安|へいあん} (Heian era/peace), {宰相|さいしょう} (prime minister - literary), {宮中|きゅうちゅう} (imperial court), {宮司|ぐうじ} (Shinto chief priest), {家臣|かしん} (retainer), {家老|かろう} (chief retainer), {奉行|ぶぎょう} (magistrate), {公家|くげ} (court noble), {士族|しぞく} (former samurai class), {人間国宝|にんげんこくほう} (Living National Treasure)
+- **Nouns - society/geography (5)**: {外需|がいじゅ} (external demand), {官民|かんみん} (public-private), {山地|さんち} (mountainous area), {女中|じょちゅう} (maid - archaic), {大佐|たいさ} (colonel)
+- **Nouns - general (5)**: {寺社|じしゃ} (temples and shrines), {宙|ちゅう} (midair/space), {女形|おんながた} (onnagata actor), {大関|おおぜき} (ōzeki sumo rank), {思春期|ししゅんき} (puberty/adolescence)
+- **Nouns - abstract (2)**: {悪循環|あくじゅんかん} (vicious cycle), {多神教|たしんきょう} (polytheism)
+
+Notable features:
+- Multi-sense entries: {平安|へいあん} (peace/Heian era), {宙|ちゅう} (midair/space)
+- Strong Japanese history/culture cluster: {公家|くげ}, {家臣|かしん}, {家老|かろう}, {奉行|ぶぎょう}, {宰相|さいしょう}, {士族|しぞく}, {宮中|きゅうちゅう}, {宮司|ぐうじ}
+- Cultural depth: {女形|おんながた} (kabuki tradition), {大関|おおぜき} (sumo ranking), {人間国宝|にんげんこくほう} (cultural preservation)
+- New kanji: 2,368 → 2,370 ({佐|さ}, {宰|さい})
+
+Total entries: 12,695 → 12,725
+Remaining candidates: 435 → 405 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 295)
 Added 30 new dictionary entries (IDs 12610-12639) from candidate_words.json:
@@ -145,30 +166,6 @@ Notable features:
 
 Total entries: 12,575 → 12,605
 Remaining candidates: 555 → 525 (30 removed)
-
-### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 291)
-Added 30 new dictionary entries (IDs 12490-12519) from candidate_words.json:
-
-- **Adverbs (3)**: {引|ひ}き{続|つづ}き (continuously/subsequently), {当初|とうしょ} (initially), {後日|ごじつ} (another day)
-- **Na-adjectives (3)**: {小規模|しょうきぼ} (small-scale), {必須|ひっす} (essential/mandatory), {強欲|ごうよく} (greedy/avaricious)
-- **I-adjective (1)**: {心地|ここち}よい (comfortable/pleasant)
-- **Godan verbs (1)**: {微睡|まどろ}む (to doze/slumber)
-- **Ichidan verb (1)**: {張|は}りつめる (to be taut/tense)
-- **Nouns - occupation (2)**: {庭師|にわし} (gardener), {家政婦|かせいふ} (housekeeper)
-- **Nouns - social/political (2)**: {少数派|しょうすうは} (minority group), {当事者|とうじしゃ} (person concerned)
-- **Nouns - abstract/formal (6)**: {弱点|じゃくてん} (weak point), {強み|つよみ} (strength/forte), {形見|かたみ} (keepsake/memento), {彩|いろど}り (coloring/variety), {従来|じゅうらい} (conventional), {待遇|たいぐう} (treatment/conditions)
-- **Nouns - time/period (2)**: {幼少|ようしょう} (childhood), {後味|あとあじ} (aftertaste)
-- **Nouns - other (2)**: {幕|まく} (curtain/act), {弾丸|だんがん} (bullet)
-- **Noun/suru verbs (7)**: {強制|きょうせい} (compulsion), {強奪|ごうだつ} (robbery), {後押|あとお}し (support/backing), {復讐|ふくしゅう} (revenge), {寵愛|ちょうあい} (favor/doting), {延焼|えんしょう} (fire spread), {待遇|たいぐう} (treatment)
-
-Notable features:
-- Multi-sense entries: {張|は}りつめる (taut/tense), {彩|いろど}り (coloring/variety), {後味|あとあじ} (literal/figurative aftertaste), {幕|まく} (curtain/act), {待遇|たいぐう} (treatment/compensation), {引|ひ}き{続|つづ}き (continuously/subsequently), {従来|じゅうらい} (conventional/up to now)
-- Cultural context: {庭師|にわし} (traditional Japanese garden craft), {幕|まく} (kabuki theater/Edo period compounds), {形見|かたみ} ({形見|かたみ}{分|わ}け custom), {家政婦|かせいふ} (agency-based services)
-- Diverse word types: adjectives, verbs, adverbs, suru verbs, formal nouns
-- New kanji: 2,359 → 2,361 ({寵|ちょう}, {讐|しゅう})
-
-Total entries: 12,545 → 12,575
-Remaining candidates: 585 → 555 (30 removed)
 
 ---
 
