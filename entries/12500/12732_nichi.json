@@ -1,0 +1,84 @@
+{
+  "id": "12732_nichi",
+  "headword": "{日|にち}",
+  "reading": "にち",
+  "part_of_speech": "counter",
+  "gloss": "day (counter), date",
+  "schema_version": "2.0",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "counter for days",
+      "explanation": "Counts the number of days. Used after a number to indicate a duration in days."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "date of the month",
+      "explanation": "Indicates the day of the month when used after a number. Days 1 through 10 and the 20th have special native Japanese readings."
+    }
+  ],
+  "examples": [
+    {
+      "id": "12732_nichi_ex1",
+      "japanese": "{三|さん}{日|にち}かかった。",
+      "english": "It took three days.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "12732_nichi_ex2",
+      "japanese": "{旅行|りょこう}は{五|いつ}{日間|かかん}だった。",
+      "english": "The trip was five days long.",
+      "notes": "〜{日間|にちかん} is used for duration: 'for ~ days.'",
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "12732_nichi_ex3",
+      "japanese": "{今日|きょう}は{十五|じゅうご}{日|にち}だ。",
+      "english": "Today is the 15th.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "12732_nichi_ex4",
+      "japanese": "{誕生日|たんじょうび}は{何|なん}{日|にち}ですか。",
+      "english": "What day (date) is your birthday?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    },
+    {
+      "id": "12732_nichi_ex5",
+      "japanese": "{給料|きゅうりょう}は{毎月|まいつき}{二十五|にじゅうご}{日|にち}に{振|ふ}り{込|こ}まれる。",
+      "english": "Salary is deposited on the 25th of every month.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [2]
+    }
+  ],
+  "notes": "{日|にち} is the standard counter for days and dates.\n\nCOUNTING PATTERN (duration):\n- 1: {一日|いちにち}\n- 2: {二日|ふつか}\n- 3: {三日|みっか}\n- 4: {四日|よっか}\n- 5: {五日|いつか}\n- 6: {六日|むいか}\n- 7: {七日|なのか}\n- 8: {八日|ようか}\n- 9: {九日|ここのか}\n- 10: {十日|とおか}\n- 14: {十四日|じゅうよっか}\n- 20: {二十日|はつか}\n- 24: {二十四日|にじゅうよっか}\n\nFor 11 and above (except 14, 20, 24), use the on'yomi pattern: {十一日|じゅういちにち}, {十五日|じゅうごにち}, etc.\n\nDATES VS. DURATION:\n- Dates 1st through 10th use the same native readings as duration counting: {一日|ついたち} (1st), {二日|ふつか} (2nd), etc.\n- Exception: the 1st of the month is {一日|ついたち}, but one day (duration) is {一日|いちにち}\n\nRELATED COUNTERS:\n- 〜{日間|にちかん}: emphasizes duration (for ~ days)\n- 〜{日目|にちめ}: ordinal (the ~th day)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02249_hi",
+      "reading": "ひ",
+      "headword": "{日|ひ}",
+      "label": "native reading"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-22T06:48:28Z",
+    "modified": "2026-02-22T06:48:28Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": ["counter"],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": ["time-general", "number"]
+    }
+  }
+}
