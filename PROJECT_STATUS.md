@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,725 |
+| Total entries | ~12,755 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,926 (open) |
-| Candidate words | ~405 |
+| General tier | ~9,956 (open) |
+| Candidate words | ~375 |
 | Cross-references | ~3,380 |
 | Example sentences | ~45,150 |
 | Audio files | 1,028 |
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 297)
+Added 30 new dictionary entries (IDs 12670-12699) from candidate_words.json:
+
+- **Ichidan verbs (2)**: {忍|しの}ばせる (to hide/conceal), {戯|たわむ}れる (to play/frolic/flirt)
+- **Godan verb (1)**: {惚|ほ}れ{込|こ}む (to fall deeply in love with)
+- **I-adjective (1)**: {愛|あい}らしい (lovely/charming)
+- **Na-adjective (1)**: {微細|びさい} (minute/fine/microscopic)
+- **Taru-adjective/adverb (1)**: {意気揚々|いきようよう} (in high spirits/triumphant)
+- **Noun/suru verbs (7)**: {急増|きゅうぞう} (rapid increase), {悪用|あくよう} (misuse), {応答|おうとう} (response), {懇願|こんがん} (entreaty), {成就|じょうじゅ} (fulfillment), {急変|きゅうへん} (sudden change), {愛用|あいよう} (regular use)
+- **Nouns - emotion/personality (3)**: {憂|うれ}い (sorrow/grief), {感受性|かんじゅせい} (sensitivity), {愛想|あいそ} (friendliness)
+- **Nouns - reputation/naming (2)**: {悪名|あくめい} (infamy), {愛称|あいしょう} (pet name/nickname)
+- **Nouns - society/law (3)**: {慣例|かんれい} (custom/convention), {戸籍|こせき} (family register), {必然性|ひつぜんせい} (necessity/inevitability)
+- **Nouns - scene/spectacle (2)**: {情景|じょうけい} (scene/spectacle), {惨状|さんじょう} (disastrous scene)
+- **Nouns - person/role (2)**: {悪党|あくとう} (villain/scoundrel), {悪役|あくやく} (villain role)
+- **Nouns - other (5)**: {悪寒|おかん} (chills), {悪口|わるぐち} (insult/bad-mouthing), {怪物|かいぶつ} (monster), {意匠|いしょう} (design/artistic conception), {心持|こころも}ち (feeling/slightly)
+
+Notable features:
+- Multi-sense entries: {怪物|かいぶつ} (monster/extraordinary person), {憂|うれ}い (sorrow/worry), {戯|たわむ}れる (frolic/flirt), {愛想|あいそ} (friendliness/patience), {心持|こころも}ち (feeling/slightly)
+- Diverse word types: ichidan verbs, godan verb, adjectives (i/na/taru), suru verbs, nouns, adverb
+- Cultural context: {戸籍|こせき} (Japanese family register system), {成就|じょうじゅ} (shrine prayers), {意匠|いしょう} (design law)
+- New kanji: 2,370 → 2,371 ({懇|こん})
+
+Total entries: 12,725 → 12,755
+Remaining candidates: 405 → 375 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 296)
 Added 30 new dictionary entries (IDs 12640-12669) from candidate_words.json:
@@ -143,29 +168,6 @@ Notable features:
 
 Total entries: 12,605 → 12,635
 Remaining candidates: 525 → 495 (30 removed)
-
-### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 292)
-Added 30 new dictionary entries (IDs 12520-12549) from candidate_words.json:
-
-- **Na-adjectives (2)**: {強固|きょうこ} (firm/solid), {強硬|きょうこう} (hardline/unyielding)
-- **I-adjective (1)**: {後|うし}ろめたい (feeling guilty/uneasy)
-- **Godan verbs (2)**: {彩|いろど}る (to color/decorate), {建|た}つ (to be built)
-- **Nouns - geography/nature (3)**: {山岳|さんがく} (mountains), {山村|さんそん} (mountain village), {山地|さんち} (mountainous area — replaced with {広域|こういき})
-- **Nouns - history/culture (4)**: {幕末|ばくまつ} (end of Edo period), {家元|いえもと} (grand master of traditional art), {宮廷|きゅうてい} (imperial court), {屋号|やごう} (trade name/kabuki stage name)
-- **Nouns - society/governance (4)**: {弱者|じゃくしゃ} (the weak), {当局|とうきょく} (the authorities), {年功序列|ねんこうじょれつ} (seniority system), {廃校|はいこう} (school closure)
-- **Nouns - food/nature (2)**: {小松菜|こまつな} (komatsuna), {山賊|さんぞく} (mountain bandit)
-- **Nouns - abstract/descriptive (5)**: {巨体|きょたい} (huge physique), {序章|じょしょう} (prologue), {彷彿|ほうふつ} (reminiscent), {当|あ}て{字|じ} (ateji), {座談会|ざだんかい} (round-table discussion)
-- **Nouns - arts/theater (1)**: {小道具|こどうぐ} (props)
-- **Noun/suru verbs (6)**: {大量生産|たいりょうせいさん} (mass production), {定住|ていじゅう} (permanent residence), {強要|きょうよう} (coercion), {形成|けいせい} (formation), {待望|たいぼう} (long-awaited), {征服|せいふく} (conquest)
-
-Notable features:
-- Multi-sense entries: {小道具|こどうぐ} (theater props/small tools), {屋号|やごう} (shop name/kabuki stage name), {彩|いろど}る (color/embellish), {征服|せいふく} (military conquest/figurative mastery)
-- Cultural context: {家元|いえもと} (iemoto system), {幕末|ばくまつ} (Bakumatsu era), {屋号|やごう} (kabuki calling names), {年功序列|ねんこうじょれつ} (Japanese employment), {山賊|さんぞく} (sanzoku-yaki dish), {廃校|はいこう} (rural repurposing trend)
-- Diverse word types: adjectives (na/i), godan verbs, suru verbs, formal nouns, cultural terms
-- New kanji: 2,361 → 2,366 ({岳|がく}, {廷|てい}, {彷|ほう}, {彿|ふつ}, {征|せい})
-
-Total entries: 12,575 → 12,605
-Remaining candidates: 555 → 525 (30 removed)
 
 ---
 
