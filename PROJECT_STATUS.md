@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,755 |
+| Total entries | ~12,785 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,956 (open) |
-| Candidate words | ~375 |
+| General tier | ~9,986 (open) |
+| Candidate words | ~345 |
 | Cross-references | ~3,380 |
 | Example sentences | ~45,150 |
 | Audio files | 1,028 |
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 298)
+Added 30 new dictionary entries (IDs 12700-12729) from candidate_words.json:
+
+- **Godan verbs (4)**: {操|あやつ}る (to manipulate/operate), {挑|いど}む (to challenge), {撒|ま}く (to scatter/sprinkle), {散|ち}らばる (to be scattered)
+- **Ichidan verbs (2)**: {損|そこ}ねる (to harm/fail to do), {敗|やぶ}れる (to be defeated)
+- **I-adjective (1)**: {拙|つたな}い (unskillful/clumsy)
+- **Na-adjective (1)**: {性急|せいきゅう} (hasty/impatient)
+- **Adverbs (2)**: {断固|だんこ} (firmly/resolutely), {断然|だんぜん} (definitely/by far)
+- **Nouns - emotion/abstract (3)**: {心情|しんじょう} (feelings/sentiments), {快感|かいかん} (pleasant sensation), {挙句|あげく} (in the end)
+- **Nouns - time/season (3)**: {旬|しゅん} (in season/peak), {放課後|ほうかご} (after school), {新緑|しんりょく} (fresh green foliage)
+- **Nouns - culture/language (4)**: {昔話|むかしばなし} (folktale), {教訓|きょうくん} (lesson/moral), {文脈|ぶんみゃく} (context), {数々|かずかず} (many/numerous)
+- **Nouns - body/object (3)**: {指先|ゆびさき} (fingertip), {指紋|しもん} (fingerprint), {斧|おの} (axe)
+- **Nouns - food (1)**: {明太子|めんたいこ} (spicy pollock roe)
+- **Nouns - person (1)**: {旅人|たびびと} (traveler)
+- **Nouns - other (5)**: {御託|ごたく} (tedious excuses), {往生|おうじょう} (passing away/being stuck), {掟|おきて} (rule/code), {早|はや}とちり (jumping to conclusions), {時代遅|じだいおく}れ (outdated)
+
+Notable features:
+- Multi-sense entries: {操|あやつ}る (skillful handling/manipulation), {往生|おうじょう} (death/being stuck), {損|そこ}ねる (harm/fail to do), {撒|ま}く (scatter/shake off), {断然|だんぜん} (by far/resolutely), {旬|しゅん} (food season/peak popularity), {昔話|むかしばなし} (folktale/reminiscence)
+- Diverse word types: godan verbs, ichidan verbs, adjectives (i/na), adverbs, nouns, suru verbs
+- Cultural depth: {旬|しゅん} (seasonal food culture), {昔話|むかしばなし} (oral tradition), {明太子|めんたいこ} (Hakata specialty), {掟|おきて} (traditional codes)
+- New kanji: 2,371 → 2,373 ({掟|てい}, {斧|ふ})
+
+Total entries: 12,755 → 12,785
+Remaining candidates: 375 → 345 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 297)
 Added 30 new dictionary entries (IDs 12670-12699) from candidate_words.json:
@@ -143,31 +168,6 @@ Notable features:
 
 Total entries: 12,635 → 12,665
 Remaining candidates: 495 → 465 (30 removed)
-
-### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 293)
-Added 30 new dictionary entries (IDs 12550-12579) from candidate_words.json:
-
-- **Ichidan verbs (3)**: {役立|やくだ}てる (to put to use), {従|したが}える (to be accompanied by), {徹|てっ}する (to devote oneself to)
-- **Godan verbs (3)**: {志|こころざ}す (to aspire to), {思|おも}い{描|えが}く (to envision), {忍|しの}び{込|こ}む (to sneak in)
-- **I-adjective (1)**: {快|こころよ}い (pleasant/willing)
-- **Na-adjective (1)**: {忠実|ちゅうじつ} (faithful/loyal)
-- **Adverb (1)**: {急遽|きゅうきょ} (suddenly/on short notice)
-- **Nouns - abstract/descriptive (7)**: {当|あ}たり{外|はず}れ (hit or miss), {形態|けいたい} (form/configuration), {得体|えたい} (true nature), {念頭|ねんとう} (mind/keeping in mind), {思惑|おもわく} (speculation/ulterior motive), {心地|ここち} (feeling/sensation), {快挙|かいきょ} (remarkable feat)
-- **Nouns - economics/society (4)**: {引|ひ}き{上|あ}げ (raise/withdrawal), {引|ひ}き{下|さ}げ (reduction/cut), {後半|こうはん} (second half), {後釜|あとがま} (successor)
-- **Nouns - time (1)**: {後々|のちのち} (later on)
-- **Nouns - role (1)**: {役|やく} (role/duty)
-- **Noun/suru verbs (5)**: {後退|こうたい} (retreat/decline), {強行|きょうこう} (forcing through), {従事|じゅうじ} (engaging in), {復帰|ふっき} (return/comeback), {復活|ふっかつ} (revival/resurrection)
-- **Noun/na-adjective (1)**: {得|とく} (profit/economical)
-- **Noun (1)**: {底|そこ} (bottom/depths)
-- **Noun (1)**: {微笑|ほほえ}み (smile)
-
-Notable features:
-- Multi-sense entries: {引|ひ}き{上|あ}げ (increase/repatriation), {後退|こうたい} (physical retreat/figurative decline), {復活|ふっかつ} (revival/resurrection), {快|こころよ}い (pleasant/willing), {忠実|ちゅうじつ} (loyal/accurate), {徹|てっ}する (devote oneself/last through), {得|とく} (profit/bargain), {底|そこ} (physical bottom/figurative depths), {思惑|おもわく} (expectation/ulterior motive), {役|やく} (acting role/duty)
-- Diverse word types: ichidan verbs, godan verbs, suru verbs, adjectives, adverbs, nouns
-- New kanji: 2,366 → 2,367 ({遽|きょ})
-
-Total entries: 12,605 → 12,635
-Remaining candidates: 525 → 495 (30 removed)
 
 ---
 
