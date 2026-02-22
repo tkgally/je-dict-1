@@ -8,23 +8,24 @@ Process words from `prompts/corpus_extracted_words.json` to find suitable candid
 
 2. **Determine batch size**: Use the target number specified by the user. If none is specified, process **500 entries**.
 
-3. **Process each entry one by one**:
-   - Read the word and its example sentence from `corpus_extracted_words.json`
-   - The example sentence shows how the word appeared in a corpus (web texts and LLM-written texts) - use it as reference for understanding the meaning
+3. **Load the batch and scan for candidates**:
+   - Read all entries in the batch from `corpus_extracted_words.json`
+   - The example sentence shows how the word appeared in a corpus (web texts and LLM-written texts) — use it as reference for understanding the meaning
    - Rely primarily on your own linguistic knowledge when deciding whether to add the word
+   - Scan the full batch first to identify categories (proper nouns, numeric expressions, clearly common words, etc.) before starting to add — this is much more efficient than true one-by-one processing
 
 4. **For each word, evaluate against these criteria**:
 
    **EXCLUDE if any of these apply:**
-   - Already in `entries_index.json` (check using `python3 build/manage_candidates.py check "word" "reading"`)
-   - Already in `candidate_words.json`
-   - Is a proper noun (place names, personal names, company names, etc.)
+   - Is a proper noun (place names, personal names, company names, era names, etc.)
    - Is a number or numeric expression (1人, 2度, 3日, etc.)
    - Is a highly ephemeral slang term
    - Is vulgar or discriminatory
    - Is archaic or dialect-specific
    - Is a technical abbreviation or brand name (JR東日本, ICカード, etc.)
    - Is a single kana character or meaningless fragment
+   - Is a predictable compound or inflected form of a more basic word (e.g., skip 決め方 if 決める exists; skip potential forms like 泳げる)
+   - Is too specialized for a general learner's dictionary (medical terms, scientific jargon, etc.)
 
    **INCLUDE if it meets eligibility AND at least one of these:**
    - Similar frequency/usefulness to existing dictionary entries
@@ -37,6 +38,8 @@ Process words from `prompts/corpus_extracted_words.json` to find suitable candid
    - Determine the correct reading (in hiragana, even for katakana words)
    - Write a brief English gloss (under 50 characters)
    - Use: `python3 build/manage_candidates.py add "headword" "reading" "gloss"`
+   - **Do NOT pre-check with `manage_candidates.py check`** — the `add` command already has built-in duplicate detection that is more thorough (checks both headword and reading against entries and candidates). Pre-checking wastes time.
+   - When chaining multiple `add` commands, use `;` (not `&&`) to separate them, since `add` exits with code 1 on duplicates and `&&` would abort the chain
 
 6. **Track progress**: Keep a running count of:
    - Words evaluated
@@ -47,26 +50,45 @@ Process words from `prompts/corpus_extracted_words.json` to find suitable candid
    - Update `prompts/corpus_harvesting_next_entry_number.txt` with the next entry number to process
    - Report a summary: total evaluated, added, skipped (with breakdown by reason)
 
-## Example Workflow
+## Efficient Workflow
+
+The corpus is sorted by kanji radical, so entries come in clusters (all 気~ words together, all 水~ words together, etc.). Many will be common words already in the 12,000+ entry dictionary. **Expect roughly 15–25% of evaluated words to be new candidates**; the rest will be proper nouns, duplicates, or otherwise excluded.
+
+### Recommended approach:
+
+1. **Load the full batch** into context
+2. **Triage by category** — mentally group entries into: proper nouns (skip), numeric expressions (skip), obvious candidates (add), words that need checking (evaluate)
+3. **Batch-add candidates in groups** of 10–20 using `;`-separated commands:
+   ```
+   python3 build/manage_candidates.py add "word1" "reading1" "gloss1" ; \
+   python3 build/manage_candidates.py add "word2" "reading2" "gloss2" ; \
+   ...
+   ```
+4. **Let the `add` command handle duplicate detection** — don't worry about duplicates; the script will reject them and print which entry already exists. This is normal and expected.
+
+### Example:
 
 ```
 Starting at entry 1, processing 500 entries...
 
-Entry 1: "1人" - SKIP (numeric expression)
-Entry 2: "1度" - SKIP (numeric expression)
+Scanning batch: entries 1-500
+- Entries 1-14: numeric expressions (1人, 1度, 1日, ...) → SKIP all
+- Entry 15: ああ → common interjection, try to add
+- Entry 16: あいだ → common word, try to add
+- Entry 17: あいにく → common adverb, try to add
 ...
-Entry 15: "ああ" - Check if in dictionary... Already exists, SKIP
-Entry 16: "あいだ" - Check if in dictionary... Already exists as 間, SKIP
-Entry 17: "あいにく" - Check if in dictionary... Not found.
-  Evaluating: Common adverb meaning "unfortunately"
-  Adding: python3 build/manage_candidates.py add "あいにく" "あいにく" "unfortunately, unluckily"
-...
+
+Batch adding:
+  python3 build/manage_candidates.py add "ああ" "ああ" "ah, oh (interjection)" ; \
+  python3 build/manage_candidates.py add "あいにく" "あいにく" "unfortunately, unluckily" ; \
+  ...
+
+Results: ああ → duplicate (already exists as entry 00123), あいにく → added as C03500
 ```
 
 ## Important Notes
 
-- Use `python3 build/manage_candidates.py check "word" "reading"` to verify duplicates before adding
-- The manage_candidates.py script will automatically reject duplicates, but checking first is more efficient
 - Readings must always be in hiragana (e.g., "すきー" not "スキー")
-- Be conservative - when in doubt, skip. Quality over quantity.
+- Be conservative — when in doubt, skip. Quality over quantity.
 - Focus on words that intermediate-to-advanced learners would genuinely benefit from knowing
+- When a word appears in both kanji and kana variants in the corpus (e.g., 気付く / 気づく), add only the more standard form
