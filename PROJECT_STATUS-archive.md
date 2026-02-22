@@ -3,6 +3,25 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 295)
+Added 30 new dictionary entries (IDs 12610-12639) from candidate_words.json:
+
+- **Godan verbs (2)**: {悼|いた}む (to mourn/grieve), {憤|いきどおる} (to be indignant)
+- **Ichidan verbs (3)**: {恵|めぐ}まれる (to be blessed with), {愛|め}でる (to admire beauty), {成|な}し{遂|と}げる (to accomplish)
+- **Godan verb (1)**: {慈|いつく}しむ (to cherish tenderly)
+- **I-adjective (1)**: {愛|いと}おしい (dear/lovable/precious)
+- **Na-adjective (1)**: {悲惨|ひさん} (miserable/tragic)
+- **Adverb (1)**: {幾度|いくど} (many times - literary)
+- **Pronoun (1)**: {当方|とうほう} (we/our side - formal)
+- **Nouns - emotion/abstract (5)**: {憧|あこが}れ (longing/yearning), {感性|かんせい} (sensibility), {恋愛|れんあい} (romantic love), {恥|はじ} (shame), {悪夢|あくむ} (nightmare)
+- **Nouns - communication (3)**: {悲鳴|ひめい} (scream), {応酬|おうしゅう} (exchange of arguments), {後援|こうえん} (sponsorship)
+- **Nouns - cognitive (3)**: {想定|そうてい} (assumption), {意向|いこう} (intention), {意図|いと} (aim/purpose)
+- **Nouns - cultural (4)**: {彼岸|ひがん} (equinox/the other shore), {山門|さんもん} (temple gate), {懐石|かいせき} (kaiseki cuisine), {心中|しんじゅう} (double suicide)
+- **Nouns - other (5)**: {役人|やくにん} (government official), {引|ひ}き{換|か}え (exchange), {懐|ふところ} (bosom/purse), {成熟|せいじゅく} (maturity), {戦闘|せんとう} (combat)
+
+Total entries: 12,665 → 12,695
+Remaining candidates: 465 → 435 (30 removed)
+
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 294)
 Added 30 new dictionary entries (IDs 12580-12609) from candidate_words.json:
 

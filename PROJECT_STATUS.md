@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,815 |
+| Total entries | ~12,854 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,016 (open) |
-| Candidate words | ~417 |
+| General tier | ~10,055 (open) |
+| Candidate words | ~387 |
 | Cross-references | ~3,380 |
 | Example sentences | ~45,150 |
 | Audio files | 1,028 |
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 300)
+Added 30 new dictionary entries (IDs 12769-12798) from candidate_words.json:
+
+- **Godan verbs (8)**: {打|う}ちのめす (to devastate), {打|う}ち{破|やぶ}る (to break through), {抱|かか}え{込|こ}む (to take on alone), {押|お}しつぶす (to crush), {担|にな}う (to shoulder), {振|ふ}るう (to wield), {挽|ひ}く (to grind), {推|お}す (to recommend/support)
+- **Ichidan verbs (4)**: {打|う}ち{立|た}てる (to establish), {掲|かか}げる (to raise/advocate), {捉|とら}える (to grasp/capture), {据|す}える (to set/install)
+- **Suru verb (1)**: {扮|ふん}する (to disguise as/play a role)
+- **I-adjective (1)**: {手|て}っ{取|と}り{早|はや}い (quick and easy)
+- **Na-adjectives (2)**: {投|な}げやり (half-hearted/apathetic), {抜群|ばつぐん} (outstanding)
+- **Nouns (9)**: {手助|てだす}け (help), {手招|てまね}き (beckoning), {打撃|だげき} (blow/batting), {扱|あつか}い (treatment/handling), {承諾|しょうだく} (consent), {技巧|ぎこう} (technique/craftsmanship), {抑揚|よくよう} (intonation), {担|にな}い{手|て} (bearer/driving force), {拒絶|きょぜつ} (rejection)
+- **Technical nouns (2)**: {搭載|とうさい} (equipped with), {振|ふ}り{仮名|がな} (furigana)
+- **Expression (1)**: {拝啓|はいけい} (Dear Sir/Madam)
+- **Blessed verb (1)**: {授|さず}かる (to be granted/blessed with)
+- **Cultural noun (1)**: {折|お}り{鶴|づる} (paper crane)
+
+Notable features:
+- Multi-sense entries: {打|う}ちのめす (physical/emotional), {打|う}ち{破|やぶ}る (physical/figurative), {抱|かか}え{込|こ}む (hold/shoulder alone), {押|お}しつぶす (crush/suppress), {掲|かか}げる (raise/advocate/publish), {捉|とら}える (catch/perceive), {据|す}える (place/fix), {推|お}す (recommend/fan), {打撃|だげき} (blow/batting), {扮|ふん}する (disguise/play role), {授|さず}かる (receive/blessed with child), {打|う}ち{立|た}てる (establish/set record), {振|ふ}るう (wield/exercise)
+- Strong 打ち- compound cluster: {打|う}ちのめす, {打|う}ち{破|やぶ}る, {打|う}ち{立|た}てる, {打撃|だげき}
+- Cultural entries: {折|お}り{鶴|づる} (Hiroshima peace symbol), {拝啓|はいけい} (formal letter customs), {振|ふ}り{仮名|がな} (Japanese writing system)
+- Modern language: {推|お}す with 推し活 (fan culture) sense
+- New kanji: 2,373 → 2,378 ({啓|けい}, {扮|ふん}, {挽|ばん}, {捉|そく}, {諾|だく})
+
+Total entries: 12,815 → 12,854 (approximate)
+Remaining candidates: 417 → 387 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 299)
 Added 30 new dictionary entries (IDs 12739-12768) from candidate_words.json:
@@ -143,31 +167,6 @@ Notable features:
 
 Total entries: 12,695 → 12,725
 Remaining candidates: 435 → 405 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 295)
-Added 30 new dictionary entries (IDs 12610-12639) from candidate_words.json:
-
-- **Godan verbs (2)**: {悼|いた}む (to mourn/grieve), {憤|いきどおる} (to be indignant)
-- **Ichidan verbs (3)**: {恵|めぐ}まれる (to be blessed with), {愛|め}でる (to admire beauty), {成|な}し{遂|と}げる (to accomplish)
-- **Godan verb (1)**: {慈|いつく}しむ (to cherish tenderly)
-- **I-adjective (1)**: {愛|いと}おしい (dear/lovable/precious)
-- **Na-adjective (1)**: {悲惨|ひさん} (miserable/tragic)
-- **Adverb (1)**: {幾度|いくど} (many times - literary)
-- **Pronoun (1)**: {当方|とうほう} (we/our side - formal)
-- **Nouns - emotion/abstract (5)**: {憧|あこが}れ (longing/yearning), {感性|かんせい} (sensibility), {恋愛|れんあい} (romantic love), {恥|はじ} (shame), {悪夢|あくむ} (nightmare)
-- **Nouns - communication (3)**: {悲鳴|ひめい} (scream), {応酬|おうしゅう} (exchange of arguments), {後援|こうえん} (sponsorship)
-- **Nouns - cognitive (3)**: {想定|そうてい} (assumption), {意向|いこう} (intention), {意図|いと} (aim/purpose)
-- **Nouns - cultural (4)**: {彼岸|ひがん} (equinox/the other shore), {山門|さんもん} (temple gate), {懐石|かいせき} (kaiseki cuisine), {心中|しんじゅう} (double suicide)
-- **Nouns - other (5)**: {役人|やくにん} (government official), {引|ひ}き{換|か}え (exchange), {懐|ふところ} (bosom/purse), {成熟|せいじゅく} (maturity), {戦闘|せんとう} (combat)
-
-Notable features:
-- Multi-sense entries: {引|ひ}き{換|か}え (exchange/in return for), {彼岸|ひがん} (equinox/Buddhist concept), {懐|ふところ} (bosom/finances)
-- Cultural depth: {彼岸|ひがん} (equinox customs, Buddhist philosophy), {懐石|かいせき} (tea ceremony origins), {心中|しんじゅう} (Chikamatsu plays), {恥|はじ} (shame culture), {山門|さんもん} (Buddhist architecture)
-- Strong emotion/psychology cluster: {愛|いと}おしい, {慈|いつく}しむ, {愛|め}でる, {憧|あこが}れ, {憤|いきどお}る, {悼|いた}む
-- New kanji: 2,367 → 2,368 ({悼|とう})
-
-Total entries: 12,665 → 12,695
-Remaining candidates: 465 → 435 (30 removed)
 
 ---
 
