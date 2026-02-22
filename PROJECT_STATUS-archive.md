@@ -3,6 +3,31 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 290)
+Added 30 new dictionary entries (IDs 12460-12489) from candidate_words.json:
+
+- **Na-adjectives (3)**: {希薄|きはく} (thin/tenuous), {平坦|へいたん} (flat/uneventful), {広範|こうはん} (wide-ranging)
+- **Na-adjective/noun (1)**: {廉価|れんか} (low-priced/inexpensive)
+- **Godan verbs (2)**: {弄|もてあそ}ぶ (to toy with/fiddle with), {引|ひ}き{渡|わた}す (to hand over/extradite)
+- **Nouns - government/politics (3)**: {安保|あんぽ} (security treaty), {官庁|かんちょう} (government office), {市長|しちょう} (mayor)
+- **Nouns - geography/place (3)**: {山麓|さんろく} (foot of mountain), {市街|しがい} (city streets), {店頭|てんとう} (storefront)
+- **Nouns - food/culture (2)**: {寒天|かんてん} (agar), {巻物|まきもの} (scroll/rolled sushi)
+- **Nouns - business (2)**: {店舗|てんぽ} (shop - formal), {廃棄|はいき} (disposal)
+- **Nouns - abstract/formal (5)**: {定説|ていせつ} (established theory), {実体|じったい} (substance/true form), {席巻|せっけん} (sweeping over), {庇護|ひご} (protection/asylum), {廃止|はいし} (abolition)
+- **Nouns - time (2)**: {年明|としあ}け (beginning of new year), {年越|としこ}し (New Year's Eve)
+- **Nouns - people/education (3)**: {幼児|ようじ} (infant/toddler), {少人数|しょうにんずう} (small group), {底辺|ていへん} (base/bottom of society)
+- **Nouns - other (3)**: {小型|こがた} (small-sized), {小文字|こもじ} (lowercase/small kana), {差|さ}し{金|がね} (instigation)
+- **Noun/suru verb (1)**: {延命|えんめい} (life extension)
+
+Notable features:
+- Multi-sense entries: {希薄|きはく} (diluted/weak), {平坦|へいたん} (flat terrain/smooth path), {小文字|こもじ} (lowercase/small kana), {巻物|まきもの} (scroll/rolled sushi), {弄|もてあそ}ぶ (toy with emotions/fiddle with), {引|ひ}き{渡|わた}す (deliver property/extradite), {底辺|ていへん} (triangle base/bottom of society)
+- Cultural context: {安保|あんぽ} (Anpo protests of 1960), {年越|としこ}し (toshikoshi soba tradition), {寒天|かんてん} (wagashi ingredient), {山麓|さんろく} (literary/travel writing)
+- Diverse word types: na-adjectives, godan verbs, suru verbs, formal nouns, cultural terms
+- New kanji: 2,356 → 2,359 ({坦|たん}, {庁|ちょう}, {廉|れん})
+
+Total entries: 12,515 → 12,545
+Remaining candidates: 615 → 585 (30 removed)
+
 ### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 289)
 Added 30 new dictionary entries (IDs 12430-12459) from candidate_words.json:
 

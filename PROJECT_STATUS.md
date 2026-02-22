@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,665 |
+| Total entries | ~12,695 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~9,866 (open) |
-| Candidate words | ~465 |
+| General tier | ~9,896 (open) |
+| Candidate words | ~435 |
 | Cross-references | ~3,380 |
-| Example sentences | ~45,040 |
+| Example sentences | ~45,150 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 295)
+Added 30 new dictionary entries (IDs 12610-12639) from candidate_words.json:
+
+- **Godan verbs (2)**: {悼|いた}む (to mourn/grieve), {憤|いきどおる} (to be indignant)
+- **Ichidan verbs (3)**: {恵|めぐ}まれる (to be blessed with), {愛|め}でる (to admire beauty), {成|な}し{遂|と}げる (to accomplish)
+- **Godan verb (1)**: {慈|いつく}しむ (to cherish tenderly)
+- **I-adjective (1)**: {愛|いと}おしい (dear/lovable/precious)
+- **Na-adjective (1)**: {悲惨|ひさん} (miserable/tragic)
+- **Adverb (1)**: {幾度|いくど} (many times - literary)
+- **Pronoun (1)**: {当方|とうほう} (we/our side - formal)
+- **Nouns - emotion/abstract (5)**: {憧|あこが}れ (longing/yearning), {感性|かんせい} (sensibility), {恋愛|れんあい} (romantic love), {恥|はじ} (shame), {悪夢|あくむ} (nightmare)
+- **Nouns - communication (3)**: {悲鳴|ひめい} (scream), {応酬|おうしゅう} (exchange of arguments), {後援|こうえん} (sponsorship)
+- **Nouns - cognitive (3)**: {想定|そうてい} (assumption), {意向|いこう} (intention), {意図|いと} (aim/purpose)
+- **Nouns - cultural (4)**: {彼岸|ひがん} (equinox/the other shore), {山門|さんもん} (temple gate), {懐石|かいせき} (kaiseki cuisine), {心中|しんじゅう} (double suicide)
+- **Nouns - other (5)**: {役人|やくにん} (government official), {引|ひ}き{換|か}え (exchange), {懐|ふところ} (bosom/purse), {成熟|せいじゅく} (maturity), {戦闘|せんとう} (combat)
+
+Notable features:
+- Multi-sense entries: {引|ひ}き{換|か}え (exchange/in return for), {彼岸|ひがん} (equinox/Buddhist concept), {懐|ふところ} (bosom/finances)
+- Cultural depth: {彼岸|ひがん} (equinox customs, Buddhist philosophy), {懐石|かいせき} (tea ceremony origins), {心中|しんじゅう} (Chikamatsu plays), {恥|はじ} (shame culture), {山門|さんもん} (Buddhist architecture)
+- Strong emotion/psychology cluster: {愛|いと}おしい, {慈|いつく}しむ, {愛|め}でる, {憧|あこが}れ, {憤|いきどお}る, {悼|いた}む
+- New kanji: 2,367 → 2,368 ({悼|とう})
+
+Total entries: 12,665 → 12,695
+Remaining candidates: 465 → 435 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 294)
 Added 30 new dictionary entries (IDs 12580-12609) from candidate_words.json:
@@ -144,31 +169,6 @@ Notable features:
 
 Total entries: 12,545 → 12,575
 Remaining candidates: 585 → 555 (30 removed)
-
-### 2026-02-21 (Vocabulary Expansion - 30 New Entries, Session 290)
-Added 30 new dictionary entries (IDs 12460-12489) from candidate_words.json:
-
-- **Na-adjectives (3)**: {希薄|きはく} (thin/tenuous), {平坦|へいたん} (flat/uneventful), {広範|こうはん} (wide-ranging)
-- **Na-adjective/noun (1)**: {廉価|れんか} (low-priced/inexpensive)
-- **Godan verbs (2)**: {弄|もてあそ}ぶ (to toy with/fiddle with), {引|ひ}き{渡|わた}す (to hand over/extradite)
-- **Nouns - government/politics (3)**: {安保|あんぽ} (security treaty), {官庁|かんちょう} (government office), {市長|しちょう} (mayor)
-- **Nouns - geography/place (3)**: {山麓|さんろく} (foot of mountain), {市街|しがい} (city streets), {店頭|てんとう} (storefront)
-- **Nouns - food/culture (2)**: {寒天|かんてん} (agar), {巻物|まきもの} (scroll/rolled sushi)
-- **Nouns - business (2)**: {店舗|てんぽ} (shop - formal), {廃棄|はいき} (disposal)
-- **Nouns - abstract/formal (5)**: {定説|ていせつ} (established theory), {実体|じったい} (substance/true form), {席巻|せっけん} (sweeping over), {庇護|ひご} (protection/asylum), {廃止|はいし} (abolition)
-- **Nouns - time (2)**: {年明|としあ}け (beginning of new year), {年越|としこ}し (New Year's Eve)
-- **Nouns - people/education (3)**: {幼児|ようじ} (infant/toddler), {少人数|しょうにんずう} (small group), {底辺|ていへん} (base/bottom of society)
-- **Nouns - other (3)**: {小型|こがた} (small-sized), {小文字|こもじ} (lowercase/small kana), {差|さ}し{金|がね} (instigation)
-- **Noun/suru verb (1)**: {延命|えんめい} (life extension)
-
-Notable features:
-- Multi-sense entries: {希薄|きはく} (diluted/weak), {平坦|へいたん} (flat terrain/smooth path), {小文字|こもじ} (lowercase/small kana), {巻物|まきもの} (scroll/rolled sushi), {弄|もてあそ}ぶ (toy with emotions/fiddle with), {引|ひ}き{渡|わた}す (deliver property/extradite), {底辺|ていへん} (triangle base/bottom of society)
-- Cultural context: {安保|あんぽ} (Anpo protests of 1960), {年越|としこ}し (toshikoshi soba tradition), {寒天|かんてん} (wagashi ingredient), {山麓|さんろく} (literary/travel writing)
-- Diverse word types: na-adjectives, godan verbs, suru verbs, formal nouns, cultural terms
-- New kanji: 2,356 → 2,359 ({坦|たん}, {庁|ちょう}, {廉|れん})
-
-Total entries: 12,515 → 12,545
-Remaining candidates: 615 → 585 (30 removed)
 
 ---
 
