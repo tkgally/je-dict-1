@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 300)
+Added 30 new dictionary entries (IDs 12769-12798) from candidate_words.json:
+
+- **Godan verbs (8)**: {打|う}ちのめす (to devastate), {打|う}ち{破|やぶ}る (to break through), {抱|かか}え{込|こ}む (to take on alone), {押|お}しつぶす (to crush), {担|にな}う (to shoulder), {振|ふ}るう (to wield), {挽|ひ}く (to grind), {推|お}す (to recommend/support)
+- **Ichidan verbs (4)**: {打|う}ち{立|た}てる (to establish), {掲|かか}げる (to raise/advocate), {捉|とら}える (to grasp/capture), {据|す}える (to set/install)
+- **Suru verb (1)**: {扮|ふん}する (to disguise as/play a role)
+- **I-adjective (1)**: {手|て}っ{取|と}り{早|はや}い (quick and easy)
+- **Na-adjectives (2)**: {投|な}げやり (half-hearted/apathetic), {抜群|ばつぐん} (outstanding)
+- **Nouns (9)**: {手助|てだす}け (help), {手招|てまね}き (beckoning), {打撃|だげき} (blow/batting), {扱|あつか}い (treatment/handling), {承諾|しょうだく} (consent), {技巧|ぎこう} (technique/craftsmanship), {抑揚|よくよう} (intonation), {担|にな}い{手|て} (bearer/driving force), {拒絶|きょぜつ} (rejection)
+- **Technical nouns (2)**: {搭載|とうさい} (equipped with), {振|ふ}り{仮名|がな} (furigana)
+- **Expression (1)**: {拝啓|はいけい} (Dear Sir/Madam)
+- **Blessed verb (1)**: {授|さず}かる (to be granted/blessed with)
+- **Cultural noun (1)**: {折|お}り{鶴|づる} (paper crane)
+
+Notable features:
+- Multi-sense entries: {打|う}ちのめす (physical/emotional), {打|う}ち{破|やぶ}る (physical/figurative), {抱|かか}え{込|こ}む (hold/shoulder alone), {押|お}しつぶす (crush/suppress), {掲|かか}げる (raise/advocate/publish), {捉|とら}える (catch/perceive), {据|す}える (place/fix), {推|お}す (recommend/fan), {打撃|だげき} (blow/batting), {扮|ふん}する (disguise/play role), {授|さず}かる (receive/blessed with child), {打|う}ち{立|た}てる (establish/set record), {振|ふ}るう (wield/exercise)
+- Strong 打ち- compound cluster: {打|う}ちのめす, {打|う}ち{破|やぶ}る, {打|う}ち{立|た}てる, {打撃|だげき}
+- Cultural entries: {折|お}り{鶴|づる} (Hiroshima peace symbol), {拝啓|はいけい} (formal letter customs), {振|ふ}り{仮名|がな} (Japanese writing system)
+- Modern language: {推|お}す with 推し活 (fan culture) sense
+- New kanji: 2,373 → 2,378 ({啓|けい}, {扮|ふん}, {挽|ばん}, {捉|そく}, {諾|だく})
+
+Total entries: 12,815 → 12,854 (approximate)
+Remaining candidates: 417 → 387 (30 removed)
+
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 299)
 Added 30 new dictionary entries (IDs 12739-12768) from candidate_words.json:
 

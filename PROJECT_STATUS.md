@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~12,974 |
+| Total entries | ~13,004 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,175 (open) |
-| Candidate words | ~501 |
-| Cross-references | ~3,380 |
-| Example sentences | ~45,270 |
+| General tier | ~10,205 (open) |
+| Candidate words | ~423 |
+| Cross-references | ~3,390 |
+| Example sentences | ~45,380 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 305)
+Added 30 new dictionary entries (IDs 12919-12948) from candidate_words.json:
+
+- **Noun/suru verbs (9)**: {探索|たんさく} (search/exploration), {撤収|てっしゅう} (withdrawal/removal), {改修|かいしゅう} (repair/renovation), {放出|ほうしゅつ} (release/emission), {救済|きゅうさい} (relief/salvation), {敬遠|けいえん} (keeping at arm's length/intentional walk), {支持|しじ} (support/backing), {摘発|てきはつ} (exposure/crackdown), {放映|ほうえい} (broadcasting)
+- **Nouns (14)**: {攻防|こうぼう} (offense and defense), {救命|きゅうめい} (lifesaving), {教習所|きょうしゅうじょ} (driving school), {文体|ぶんたい} (writing style), {文化財|ぶんかざい} (cultural property), {支障|ししょう} (hindrance), {態勢|たいせい} (posture/readiness), {手先|てさき} (fingertips/agent), {手下|てした} (subordinate/henchman), {敗者|はいしゃ} (loser), {教員|きょういん} (teacher), {故事|こじ} (historical anecdote), {接点|せってん} (point of contact), {攻め|せめ} (attack/offense)
+- **Verbs (3)**: {接|せっ}する (to adjoin/to treat, suru), {撃|う}つ (to shoot, godan), {改|あらた}める (to reform/examine, ichidan)
+- **Godan verb (1)**: {揺|ゆ}るがす (to shake/undermine)
+- **Noun/pre-noun adjectival (1)**: {所定|しょてい} (prescribed/designated)
+- **Noun/adverb (1)**: {数多|かずおお}く (many/numerous)
+- **Noun (1)**: {文書|ぶんしょ} (document)
+
+Notable features:
+- Multi-sense entries: {接|せっ}する (contact/treat), {敬遠|けいえん} (avoidance/baseball), {手先|てさき} (fingertips/pawn), {揺|ゆ}るがす (physical/figurative), {接点|せってん} (connection/electrical), {改|あらた}める (reform/inspect), {撤収|てっしゅう} (withdrawal/removal)
+- Homophone cross-references: {改修|かいしゅう}↔{回収|かいしゅう}, {支持|しじ}↔{指示|しじ}, {支障|ししょう}↔{師匠|ししょう}, {敗者|はいしゃ}↔{歯医者|はいしゃ}, {態勢|たいせい}↔{体制|たいせい}, {故事|こじ}↔{誇示|こじ}
+- Good mix of formal/institutional ({所定|しょてい}, {文書|ぶんしょ}, {教員|きょういん}) and everyday vocabulary ({教習所|きょうしゅうじょ}, {手下|てした})
+- Cultural: {文化財|ぶんかざい} (property protection system), {故事|こじ} (Chinese classical origins), {敬遠|けいえん} (Confucian etymology)
+
+Total entries: 12,974 → 13,004 (approximate)
+Remaining candidates: 501 → 423 (30 removed, plus additional sync)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 304)
 Added 30 new dictionary entries (IDs 12889-12918) from candidate_words.json:
@@ -123,30 +143,6 @@ Notable features:
 
 Total entries: 12,854 → 12,884 (approximate)
 Remaining candidates: 387 → 357 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 300)
-Added 30 new dictionary entries (IDs 12769-12798) from candidate_words.json:
-
-- **Godan verbs (8)**: {打|う}ちのめす (to devastate), {打|う}ち{破|やぶ}る (to break through), {抱|かか}え{込|こ}む (to take on alone), {押|お}しつぶす (to crush), {担|にな}う (to shoulder), {振|ふ}るう (to wield), {挽|ひ}く (to grind), {推|お}す (to recommend/support)
-- **Ichidan verbs (4)**: {打|う}ち{立|た}てる (to establish), {掲|かか}げる (to raise/advocate), {捉|とら}える (to grasp/capture), {据|す}える (to set/install)
-- **Suru verb (1)**: {扮|ふん}する (to disguise as/play a role)
-- **I-adjective (1)**: {手|て}っ{取|と}り{早|はや}い (quick and easy)
-- **Na-adjectives (2)**: {投|な}げやり (half-hearted/apathetic), {抜群|ばつぐん} (outstanding)
-- **Nouns (9)**: {手助|てだす}け (help), {手招|てまね}き (beckoning), {打撃|だげき} (blow/batting), {扱|あつか}い (treatment/handling), {承諾|しょうだく} (consent), {技巧|ぎこう} (technique/craftsmanship), {抑揚|よくよう} (intonation), {担|にな}い{手|て} (bearer/driving force), {拒絶|きょぜつ} (rejection)
-- **Technical nouns (2)**: {搭載|とうさい} (equipped with), {振|ふ}り{仮名|がな} (furigana)
-- **Expression (1)**: {拝啓|はいけい} (Dear Sir/Madam)
-- **Blessed verb (1)**: {授|さず}かる (to be granted/blessed with)
-- **Cultural noun (1)**: {折|お}り{鶴|づる} (paper crane)
-
-Notable features:
-- Multi-sense entries: {打|う}ちのめす (physical/emotional), {打|う}ち{破|やぶ}る (physical/figurative), {抱|かか}え{込|こ}む (hold/shoulder alone), {押|お}しつぶす (crush/suppress), {掲|かか}げる (raise/advocate/publish), {捉|とら}える (catch/perceive), {据|す}える (place/fix), {推|お}す (recommend/fan), {打撃|だげき} (blow/batting), {扮|ふん}する (disguise/play role), {授|さず}かる (receive/blessed with child), {打|う}ち{立|た}てる (establish/set record), {振|ふ}るう (wield/exercise)
-- Strong 打ち- compound cluster: {打|う}ちのめす, {打|う}ち{破|やぶ}る, {打|う}ち{立|た}てる, {打撃|だげき}
-- Cultural entries: {折|お}り{鶴|づる} (Hiroshima peace symbol), {拝啓|はいけい} (formal letter customs), {振|ふ}り{仮名|がな} (Japanese writing system)
-- Modern language: {推|お}す with 推し活 (fan culture) sense
-- New kanji: 2,373 → 2,378 ({啓|けい}, {扮|ふん}, {挽|ばん}, {捉|そく}, {諾|だく})
-
-Total entries: 12,815 → 12,854 (approximate)
-Remaining candidates: 417 → 387 (30 removed)
 
 ---
 
