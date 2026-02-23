@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,214 |
+| Total entries | ~13,244 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,415 (open) |
-| Candidate words | ~463 |
+| General tier | ~10,445 (open) |
+| Candidate words | ~433 |
 | Cross-references | ~3,400 |
-| Example sentences | ~46,050 |
+| Example sentences | ~46,170 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 313)
+Added 30 new dictionary entries (IDs 13159-13188) from candidate_words.json:
+
+- **Nouns (14)**: {楽器|がっき} (musical instrument), {歌詞|かし} (lyrics), {欠片|かけら} (fragment), {次回|じかい} (next time), {標本|ひょうほん} (specimen), {標高|ひょうこう} (altitude), {構図|こうず} (composition), {機器|きき} (equipment), {楽団|がくだん} (orchestra), {楽曲|がっきょく} (musical composition), {欲|よく} (desire), {欧州|おうしゅう} (Europe), {機材|きざい} (equipment/gear), {機密|きみつ} (classified information)
+- **Na-adjectives (2)**: {極端|きょくたん} (extreme), {極秘|ごくひ} (top secret)
+- **Noun/suru verbs (7)**: {構想|こうそう} (concept/vision), {構築|こうちく} (construction), {機能|きのう} (function), {模索|もさく} (searching/exploring), {歓喜|かんき} (joy/ecstasy), {欲求|よっきゅう} (desire/urge), {歌唱|かしょう} (singing)
+- **Nouns (2)**: {次元|じげん} (dimension), {権威|けんい} (authority)
+- **Nouns (1)**: {横書|よこが}き (horizontal writing)
+- **Verbs (4)**: {欠|か}く (to lack, godan transitive), {欠|か}ける (to chip/be lacking, ichidan intransitive), {欺|あざむ}く (to deceive, godan), {横|よこ}たわる (to lie down/stretch across, godan)
+
+Notable features:
+- Transitive/intransitive pair: {欠|か}く↔{欠|か}ける (with cross-references)
+- Music cluster: {楽器|がっき}, {歌詞|かし}, {楽団|がくだん}, {楽曲|がっきょく}, {歌唱|かしょう}
+- Secrecy cluster: {極秘|ごくひ}, {機密|きみつ} (with cross-references)
+- Equipment pair: {機器|きき}↔{機材|きざい} (with cross-references)
+- Desire pair: {欲|よく}↔{欲求|よっきゅう} (with cross-references)
+- Multi-sense entries: {機能|きのう} (2 senses), {欠|か}く (2 senses), {欠|か}ける (2 senses), {欠片|かけら} (2 senses), {次元|じげん} (2 senses), {権威|けんい} (2 senses), {標本|ひょうほん} (2 senses), {構図|こうず} (2 senses), {欲|よく} (2 senses), {横|よこ}たわる (2 senses)
+
+Total entries: 13,214 → 13,244 (approximate)
+Remaining candidates: 463 → 433 (30 removed)
 
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 312)
 Added 30 new dictionary entries (IDs 13129-13158) from candidate_words.json:
@@ -142,28 +163,6 @@ Notable features:
 
 Total entries: 13,094 → 13,124 (approximate)
 Remaining candidates: 583 → 553 (30 removed)
-
-### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 308)
-Added 30 new dictionary entries (IDs 13009-13038) from candidate_words.json:
-
-- **Na-adjectives (5)**: {最終的|さいしゅうてき} (final/ultimate), {普遍的|ふへんてき} (universal), {晴|は}れやか (bright/radiant), {最適|さいてき} (optimal), {最悪|さいあく} (worst/terrible)
-- **Na-adjective/nouns (3)**: {未熟|みじゅく} (immature/unripe), {有意義|ゆういぎ} (meaningful), {慣用|かんよう} (idiomatic)
-- **Nouns (13)**: {最先端|さいせんたん} (cutting edge), {最優先|さいゆうせん} (top priority), {未成年|みせいねん} (minor), {木材|もくざい} (timber), {木|き}の{実|み} (nut/berry), {有無|うむ} (presence or absence), {有権者|ゆうけんしゃ} (voter), {有識者|ゆうしきしゃ} (expert), {書面|しょめん} (written document), {書体|しょたい} (typeface), {暴力団|ぼうりょくだん} (crime syndicate), {新芽|しんめ} (new bud), {末期|まっき} (final stage)
-- **Noun/no-adjective (1)**: {未知|みち} (unknown)
-- **Noun/suru verbs (4)**: {新設|しんせつ} (new establishment), {明記|めいき} (clearly stating), {明示|めいじ} (explicit indication), {改定|かいてい} (revision of standards)
-- **Nouns (3)**: {本体|ほんたい} (main body), {本名|ほんみょう} (real name), {放射能|ほうしゃのう} (radioactivity)
-- **Noun (1)**: {支|ささ}え (support)
-
-Notable features:
-- Multi-sense entries: {最悪|さいあく} (worst/terrible exclamation), {未熟|みじゅく} (inexperienced/unripe), {本体|ほんたい} (main unit/true form)
-- 最- prefix cluster: {最悪|さいあく}, {最適|さいてき}, {最先端|さいせんたん}, {最優先|さいゆうせん}, {最終的|さいしゅうてき}
-- 未- prefix cluster: {未知|みち}, {未熟|みじゅく}, {未成年|みせいねん}
-- Formal/written: {書面|しょめん}, {明記|めいき}, {明示|めいじ}, {有権者|ゆうけんしゃ}, {有識者|ゆうしきしゃ}
-- Homophone distinction: {改定|かいてい} (standards/prices) vs {改訂|かいてい} (text)
-- New kanji: 2,383 → 2,384 ({遍|へん})
-
-Total entries: 13,064 → 13,094 (approximate)
-Remaining candidates: 363 → 333 (30 removed)
 
 ---
 
