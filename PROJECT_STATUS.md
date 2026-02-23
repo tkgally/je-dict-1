@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,154 |
+| Total entries | ~13,184 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,355 (open) |
-| Candidate words | ~523 |
+| General tier | ~10,385 (open) |
+| Candidate words | ~493 |
 | Cross-references | ~3,400 |
-| Example sentences | ~45,810 |
+| Example sentences | ~45,920 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 311)
+Added 30 new dictionary entries (IDs 13099-13128) from candidate_words.json:
+
+- **Adverbs (1)**: {果|は}たして (as expected; really?)
+- **Nouns (13)**: {枠|わく} (frame/slot), {柚子|ゆず} (yuzu citrus), {柵|さく} (fence/barrier), {核心|かくしん} (core/crux), {根元|ねもと} (root/base), {根底|こんてい} (foundation/basis), {校門|こうもん} (school gate), {枠組|わくぐ}み (framework), {板前|いたまえ} (Japanese chef), {松茸|まつたけ} (matsutake mushroom), {核兵器|かくへいき} (nuclear weapons), {桜並木|さくらなみき} (row of cherry trees), {桜前線|さくらぜんせん} (cherry blossom front)
+- **Na-adjective/nouns (2)**: {柔軟|じゅうなん} (flexible), {格段|かくだん} (remarkably)
+- **I-adjective (1)**: {根強|ねづよ}い (deep-rooted)
+- **Noun/no-adjective (1)**: {根本|こんぽん} (fundamental)
+- **Noun/prefix (1)**: {核|かく} (nucleus/nuclear)
+- **Noun/suru verbs (5)**: {栽培|さいばい} (cultivation), {格闘|かくとう} (grappling), {来訪|らいほう} (visit), {格付|かくづ}け (rating), {格上|かくあ}げ (upgrade)
+- **Verbs (3)**: {栄|さか}える (to prosper, ichidan), {根付|ねづ}く (to take root, godan), {根|ね}ざす (to be rooted in, godan)
+
+Notable features:
+- 根- cluster: {根強|ねづよ}い, {根本|こんぽん}, {根底|こんてい}, {根元|ねもと}, {根付|ねづ}く, {根|ね}ざす
+- 格- cluster: {格闘|かくとう}, {格段|かくだん}, {格付|かくづ}け, {格上|かくあ}げ
+- 核- cluster: {核|かく}, {核心|かくしん}, {核兵器|かくへいき}
+- 桜- pair: {桜並木|さくらなみき}, {桜前線|さくらぜんせん}
+- Cultural: {柚子|ゆず} (yuzu bath), {梅干|うめぼ}し (umeboshi), {松茸|まつたけ} (luxury mushroom), {板前|いたまえ} (sushi chef), {桜前線|さくらぜんせん} (spring tracking)
+- Cross-references between related entries: {根本|こんぽん}↔{根底|こんてい}, {枠|わく}↔{枠組|わくぐ}み, {格付|かくづ}け↔{格上|かくあ}げ, {根付|ねづ}く↔{根|ね}ざす
+- Homophone: {核心|かくしん}↔{革新|かくしん}
+- New kanji: 2,385 → 2,388 ({枠|わく}, {柚|ゆず}, {柵|さく})
+
+Total entries: 13,154 → 13,184 (approximate)
+Remaining candidates: 523 → 493 (30 removed)
 
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 310)
 Added 30 new dictionary entries (IDs 13069-13098) from candidate_words.json:
@@ -140,27 +165,6 @@ Notable features:
 
 Total entries: 13,034 → 13,064 (approximate)
 Remaining candidates: 393 → 363 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 306)
-Added 30 new dictionary entries (IDs 12949-12978) from candidate_words.json:
-
-- **Nouns (20)**: {旅先|たびさき} (travel destination), {旅客|りょかく} (passenger), {日取|ひど}り (scheduling a date), {日数|にっすう} (number of days), {日本酒|にほんしゅ} (Japanese sake), {日本食|にほんしょく} (Japanese food), {日系|にっけい} (of Japanese descent), {旧姓|きゅうせい} (maiden name), {旧暦|きゅうれき} (lunar calendar), {明|あか}るみ (coming to light), {昨今|さっこん} (nowadays), {昼過|ひるす}ぎ (early afternoon), {時事|じじ} (current affairs), {時代劇|じだいげき} (period drama), {時価|じか} (market price), {時点|じてん} (point in time), {時間帯|じかんたい} (time slot/time zone), {晴天|せいてん} (clear sky), {暑|あつ}さ (heat), {景観|けいかん} (landscape)
-- **Verbs (4)**: {旅立|たびだ}つ (to depart on journey, godan), {昇|のぼ}る (to rise, godan), {明|あ}かす (to reveal/stay up all night, godan), {映|うつ}す (to reflect/project, godan)
-- **Intransitive verb (1)**: {映|うつ}る (to be reflected/appear, godan)
-- **Adverbs (2)**: {早々|そうそう} (promptly/right after), {暗|あん}に (implicitly)
-- **Noun (1)**: {暴言|ぼうげん} (abusive language)
-- **Expression (1)**: {敬具|けいぐ} (respectfully yours)
-- **Noun (1)**: {教義|きょうぎ} (doctrine)
-
-Notable features:
-- Multi-sense entries: {旅立|たびだ}つ (journey/euphemism for death), {明|あ}かす (reveal/stay up all night), {映|うつ}す (reflect/project), {映|うつ}る (reflected/appear on screen), {早々|そうそう} (promptly/suffix: right after), {時間帯|じかんたい} (time slot/time zone)
-- Transitive-intransitive pair: {映|うつ}す ↔ {映|うつ}る
-- Homophone notes: {昇|のぼ}る vs {登|のぼ}る, {暑|あつ}さ vs {厚|あつ}さ vs {熱|あつ}さ, {映|うつ}す vs {写|うつ}す vs {移|うつ}す
-- Cultural: {日本酒|にほんしゅ} (brewing terms), {旧暦|きゅうれき} (Meiji calendar reform), {旧姓|きゅうせい} (夫婦別姓 debate), {敬具|けいぐ} (letter writing conventions), {時代劇|じだいげき} (大河ドラマ)
-- Time/日-related cluster: many entries built around 日, 時, 旧, 早, 昼, 明, 映, 昨, 晴, 暑, 暗, 暴, 景
-
-Total entries: 13,004 → 13,034 (approximate)
-Remaining candidates: 423 → 393 (30 removed)
 
 ---
 
