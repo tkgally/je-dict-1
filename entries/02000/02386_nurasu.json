@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02386_nurasu_ex1",
-      "japanese": "タオルを濡らす。",
+      "japanese": "タオルを{濡|ぬ}らす。",
       "english": "To wet a towel.",
       "notes": null,
       "has_audio": false,
@@ -24,9 +24,19 @@
     },
     {
       "id": "02386_nurasu_ex2",
-      "japanese": "{手|て}を濡らさずに{済|す}む。",
+      "japanese": "{手|て}を{濡|ぬ}らさずに{済|す}む。",
       "english": "To manage without getting one's hands wet.",
       "notes": "Idiomatic: to avoid effort",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02386_nurasu_ex3",
+      "japanese": "{雨|あめ}で{服|ふく}を{濡|ぬ}らしてしまったので、{着替|きが}えなければならなかった。",
+      "english": "I got my clothes wet in the rain, so I had to change.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -37,8 +47,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T08:53:12Z",
-    "modified": "2026-01-27T02:25:52Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-23T01:20:21Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
