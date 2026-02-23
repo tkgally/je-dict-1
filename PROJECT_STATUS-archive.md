@@ -3,6 +3,22 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 302)
+Added 30 new dictionary entries (IDs 12829-12858) from candidate_words.json:
+
+- **Katakana loanwords (16)**: カルト (cult), ジャッジ (judgment), スキップ (skip), スクラップ (scrap), タトゥー (tattoo), ディレクター (director), トラップ (trap), ドラゴン (dragon), ヒステリー (hysteria), ピリオド (period), ピース (peace/piece), プレイ (play), プロデューサー (producer), モンスター (monster), レーズン (raisin), ワースト (worst)
+- **Japanese nouns (12)**: {感情移入|かんじょういにゅう} (empathy), {参勤交代|さんきんこうたい} (alternate attendance), {御所|ごしょ} (imperial palace), {御用|ごよう} (official business), {忍術|にんじゅつ} (ninjutsu), {念仏|ねんぶつ} (Buddhist prayer), {手裏剣|しゅりけん} (shuriken), {戦前|せんぜん} (prewar), {戦後|せんご} (postwar), {所以|ゆえん} (reason), {懐疑|かいぎ} (skepticism), {恵方|えほう} (lucky direction)
+- **Noun/suru verbs**: {投影|とうえい} (projection), {夜叉|やしゃ} (yaksha/demon)
+
+Notable features:
+- Multi-sense entries: カルト (cult group/cult classic), スキップ (gait/omit), スクラップ (junk/clippings), ピリオド (punctuation/ending), ピース (peace/piece), トラップ (trap/soccer trapping), モンスター (creature/demanding person), {御用|ごよう} (business/arrest), {投影|とうえい} (light projection/psychological), {夜叉|やしゃ} (spirit/fierce person)
+- Good mix of katakana loanwords and Japanese historical/cultural terms
+- Cultural entries: {参勤交代|さんきんこうたい} (Edo system), {念仏|ねんぶつ} (Pure Land Buddhism), {恵方|えほう} (Setsubun custom), タトゥー (Japanese tattoo culture), {夜叉|やしゃ} (Buddhist mythology)
+- New kanji: 2,381 → 2,382 ({叉|さ})
+
+Total entries: 12,884 → 12,914 (approximate)
+Remaining candidates: 357 → 327 (30 removed)
+
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 301)
 Added 30 new dictionary entries (IDs 12799-12828) from candidate_words.json:
 

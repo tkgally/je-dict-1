@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-22
+**Last updated**: 2026-02-23
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,034 |
+| Total entries | ~13,064 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,235 (open) |
-| Candidate words | ~393 |
-| Cross-references | ~3,390 |
-| Example sentences | ~45,380 |
+| General tier | ~10,265 (open) |
+| Candidate words | ~363 |
+| Cross-references | ~3,400 |
+| Example sentences | ~45,490 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 307)
+Added 30 new dictionary entries (IDs 12979-13008) from candidate_words.json:
+
+- **Noun/suru verbs (4)**: {戦死|せんし} (death in battle), {断絶|だんぜつ} (severance), {暗躍|あんやく} (secret maneuvering), {早寝|はやね} (going to bed early)
+- **Nouns (16)**: {戦時|せんじ} (wartime), {新婦|しんぷ} (bride), {新郎|しんろう} (groom), {新曲|しんきょく} (new song), {新着|しんちゃく} (new arrival), {旅立|たびだ}ち (departure), {旅路|たびじ} (journey), {文豪|ぶんごう} (literary master), {文芸|ぶんげい} (literary art), {文語|ぶんご} (literary language), {昼夜|ちゅうや} (day and night), {晴|は}れ{着|ぎ} (formal clothes), {月収|げっしゅう} (monthly income), {月極|つきぎめ} (monthly rental), {月見|つきみ} (moon viewing), {朝市|あさいち} (morning market)
+- **Na-adjective/nouns (5)**: {月並|つきな}み (commonplace), {有害|ゆうがい} (harmful), {有罪|ゆうざい} (guilty), {有益|ゆうえき} (beneficial), {有力|ゆうりょく} (influential)
+- **Noun/pre-noun adjectival (1)**: {有数|ゆうすう} (prominent)
+- **Nouns (2)**: {有志|ゆうし} (volunteers), {暗黒|あんこく} (darkness)
+- **Adverb (1)**: {早晩|そうばん} (sooner or later)
+- **Verb (1)**: {施|ほどこ}す (to apply/to give charity, godan)
+
+Notable features:
+- Multi-sense entries: {施|ほどこ}す (apply/give charity), {暗黒|あんこく} (physical darkness/figurative darkness), {有力|ゆうりょく} (influential/strong candidate), {月見|つきみ} (moon viewing/egg on food)
+- Wedding pair: {新郎|しんろう} ↔ {新婦|しんぷ}
+- Travel cluster: {旅立|たびだ}ち, {旅路|たびじ} (literary terms)
+- Literature cluster: {文豪|ぶんごう}, {文芸|ぶんげい}, {文語|ぶんご}
+- 有- prefix cluster: {有害|ゆうがい}, {有罪|ゆうざい}, {有益|ゆうえき}, {有志|ゆうし}, {有数|ゆうすう}, {有力|ゆうりょく}
+- Cultural: {月見|つきみ} (autumn tradition + food), {晴|は}れ{着|ぎ} (hare/ke distinction), {朝市|あさいち} (Japanese market tradition)
+- New kanji: 2,382 → 2,383 ({郎|ろう})
+
+Total entries: 13,034 → 13,064 (approximate)
+Remaining candidates: 393 → 363 (30 removed)
 
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 306)
 Added 30 new dictionary entries (IDs 12949-12978) from candidate_words.json:
@@ -128,22 +151,6 @@ Notable features:
 
 Total entries: 12,914 → 12,944 (approximate)
 Remaining candidates: 327 → 297 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 302)
-Added 30 new dictionary entries (IDs 12829-12858) from candidate_words.json:
-
-- **Katakana loanwords (16)**: カルト (cult), ジャッジ (judgment), スキップ (skip), スクラップ (scrap), タトゥー (tattoo), ディレクター (director), トラップ (trap), ドラゴン (dragon), ヒステリー (hysteria), ピリオド (period), ピース (peace/piece), プレイ (play), プロデューサー (producer), モンスター (monster), レーズン (raisin), ワースト (worst)
-- **Japanese nouns (12)**: {感情移入|かんじょういにゅう} (empathy), {参勤交代|さんきんこうたい} (alternate attendance), {御所|ごしょ} (imperial palace), {御用|ごよう} (official business), {忍術|にんじゅつ} (ninjutsu), {念仏|ねんぶつ} (Buddhist prayer), {手裏剣|しゅりけん} (shuriken), {戦前|せんぜん} (prewar), {戦後|せんご} (postwar), {所以|ゆえん} (reason), {懐疑|かいぎ} (skepticism), {恵方|えほう} (lucky direction)
-- **Noun/suru verbs**: {投影|とうえい} (projection), {夜叉|やしゃ} (yaksha/demon)
-
-Notable features:
-- Multi-sense entries: カルト (cult group/cult classic), スキップ (gait/omit), スクラップ (junk/clippings), ピリオド (punctuation/ending), ピース (peace/piece), トラップ (trap/soccer trapping), モンスター (creature/demanding person), {御用|ごよう} (business/arrest), {投影|とうえい} (light projection/psychological), {夜叉|やしゃ} (spirit/fierce person)
-- Good mix of katakana loanwords and Japanese historical/cultural terms
-- Cultural entries: {参勤交代|さんきんこうたい} (Edo system), {念仏|ねんぶつ} (Pure Land Buddhism), {恵方|えほう} (Setsubun custom), タトゥー (Japanese tattoo culture), {夜叉|やしゃ} (Buddhist mythology)
-- New kanji: 2,381 → 2,382 ({叉|さ})
-
-Total entries: 12,884 → 12,914 (approximate)
-Remaining candidates: 357 → 327 (30 removed)
 
 ---
 
