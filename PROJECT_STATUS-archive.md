@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 305)
+Added 30 new dictionary entries (IDs 12919-12948) from candidate_words.json:
+
+- **Noun/suru verbs (9)**: {探索|たんさく} (search/exploration), {撤収|てっしゅう} (withdrawal/removal), {改修|かいしゅう} (repair/renovation), {放出|ほうしゅつ} (release/emission), {救済|きゅうさい} (relief/salvation), {敬遠|けいえん} (keeping at arm's length/intentional walk), {支持|しじ} (support/backing), {摘発|てきはつ} (exposure/crackdown), {放映|ほうえい} (broadcasting)
+- **Nouns (14)**: {攻防|こうぼう} (offense and defense), {救命|きゅうめい} (lifesaving), {教習所|きょうしゅうじょ} (driving school), {文体|ぶんたい} (writing style), {文化財|ぶんかざい} (cultural property), {支障|ししょう} (hindrance), {態勢|たいせい} (posture/readiness), {手先|てさき} (fingertips/agent), {手下|てした} (subordinate/henchman), {敗者|はいしゃ} (loser), {教員|きょういん} (teacher), {故事|こじ} (historical anecdote), {接点|せってん} (point of contact), {攻め|せめ} (attack/offense)
+- **Verbs (3)**: {接|せっ}する (to adjoin/to treat, suru), {撃|う}つ (to shoot, godan), {改|あらた}める (to reform/examine, ichidan)
+- **Godan verb (1)**: {揺|ゆ}るがす (to shake/undermine)
+- **Noun/pre-noun adjectival (1)**: {所定|しょてい} (prescribed/designated)
+- **Noun/adverb (1)**: {数多|かずおお}く (many/numerous)
+- **Noun (1)**: {文書|ぶんしょ} (document)
+
+Notable features:
+- Multi-sense entries: {接|せっ}する (contact/treat), {敬遠|けいえん} (avoidance/baseball), {手先|てさき} (fingertips/pawn), {揺|ゆ}るがす (physical/figurative), {接点|せってん} (connection/electrical), {改|あらた}める (reform/inspect), {撤収|てっしゅう} (withdrawal/removal)
+- Homophone cross-references: {改修|かいしゅう}↔{回収|かいしゅう}, {支持|しじ}↔{指示|しじ}, {支障|ししょう}↔{師匠|ししょう}, {敗者|はいしゃ}↔{歯医者|はいしゃ}, {態勢|たいせい}↔{体制|たいせい}, {故事|こじ}↔{誇示|こじ}
+- Good mix of formal/institutional ({所定|しょてい}, {文書|ぶんしょ}, {教員|きょういん}) and everyday vocabulary ({教習所|きょうしゅうじょ}, {手下|てした})
+- Cultural: {文化財|ぶんかざい} (property protection system), {故事|こじ} (Chinese classical origins), {敬遠|けいえん} (Confucian etymology)
+
+Total entries: 12,974 → 13,004 (approximate)
+Remaining candidates: 501 → 423 (30 removed, plus additional sync)
+
 ### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 304)
 Added 30 new dictionary entries (IDs 12889-12918) from candidate_words.json:
 
