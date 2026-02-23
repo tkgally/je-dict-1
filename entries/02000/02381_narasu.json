@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02381_narasu_ex1",
-      "japanese": "ベルを鳴らす。",
+      "japanese": "ベルを{鳴|な}らす。",
       "english": "To ring the bell.",
       "notes": null,
       "has_audio": false,
@@ -24,8 +24,18 @@
     },
     {
       "id": "02381_narasu_ex2",
-      "japanese": "クラクションを鳴らす。",
+      "japanese": "クラクションを{鳴|な}らす。",
       "english": "To honk the horn.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02381_narasu_ex3",
+      "japanese": "{目覚|めざ}まし{時計|どけい}を{鳴|な}らしても、なかなか{起|お}きられない。",
+      "english": "Even when I set the alarm clock, I can't easily wake up.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -37,8 +47,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T08:53:12Z",
-    "modified": "2026-01-24T07:38:50Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-23T01:13:09Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
