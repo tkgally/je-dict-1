@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02382_nieru_ex1",
-      "japanese": "{野菜|やさい}が煮えた。",
+      "japanese": "{野菜|やさい}が{煮|に}えた。",
       "english": "The vegetables are cooked.",
       "notes": null,
       "has_audio": false,
@@ -24,8 +24,18 @@
     },
     {
       "id": "02382_nieru_ex2",
-      "japanese": "まだ煮えていない。",
+      "japanese": "まだ{煮|に}えていない。",
       "english": "It's not cooked yet.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02382_nieru_ex3",
+      "japanese": "{大根|だいこん}がやわらかく{煮|に}えるまで、もう{少|すこ}し{待|ま}ってください。",
+      "english": "Please wait a little longer until the daikon is cooked until soft.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -37,8 +47,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T08:53:12Z",
-    "modified": "2026-01-28T02:20:41Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-02-23T01:13:09Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
