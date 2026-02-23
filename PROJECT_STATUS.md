@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,184 |
+| Total entries | ~13,214 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,385 (open) |
-| Candidate words | ~493 |
+| General tier | ~10,415 (open) |
+| Candidate words | ~463 |
 | Cross-references | ~3,400 |
-| Example sentences | ~45,920 |
+| Example sentences | ~46,050 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 312)
+Added 30 new dictionary entries (IDs 13129-13158) from candidate_words.json:
+
+- **Nouns (18)**: {業界|ぎょうかい} (industry), {業者|ぎょうしゃ} (vendor/contractor), {根菜|こんさい} (root vegetable), {枚数|まいすう} (number of flat objects), {棟梁|とうりょう} (master carpenter), {格|かく} (status/rank), {業種|ぎょうしゅ} (type of industry), {極|きょく} (pole/extreme), {極|きわ}み (extreme/peak), {極度|きょくど} (extreme/utmost), {桃色|ももいろ} (pink), {梨|なし} (pear), {棘|とげ} (thorn/splinter), {桶|おけ} (bucket/tub), {桜餅|さくらもち} (cherry blossom rice cake), {桜吹雪|さくらふぶき} (cherry petal shower), {本数|ほんすう} (number of long objects), {擬音|ぎおん} (onomatopoeia)
+- **Noun/no-adjectives (3)**: {業務用|ぎょうむよう} (for commercial use), {旧来|きゅうらい} (traditional), {枚挙|まいきょ} (enumeration)
+- **Noun/suru verbs (5)**: {検定|けんてい} (certification exam), {検出|けんしゅつ} (detection), {林立|りんりつ} (standing in clusters), {撃退|げきたい} (repelling), {撹乱|かくらん} (disruption)
+- **Verbs (2)**: {極|きわ}める (to master, ichidan), {案|あん}ずる (to worry, irregular)
+- **Cultural (1)**: {文楽|ぶんらく} (Bunraku puppet theater)
+- **Time (1)**: {明|あ}け (dawn/end of period)
+
+Notable features:
+- 極- cluster: {極|きょく}, {極|きわ}み, {極|きわ}める, {極度|きょくど} (with cross-references)
+- 業- cluster: {業界|ぎょうかい}, {業者|ぎょうしゃ}, {業種|ぎょうしゅ}, {業務用|ぎょうむよう}
+- Counter-number pair: {枚数|まいすう}↔{本数|ほんすう} (with cross-references)
+- 桜- pair: {桜餅|さくらもち}, {桜吹雪|さくらふぶき}
+- Multi-sense entries: {棘|とげ} (3 senses), {格|かく} (3 senses), {極|きょく} (2 senses), {検定|けんてい} (2 senses), {本数|ほんすう} (2 senses), {桃色|ももいろ} (2 senses), {案|あん}ずる (2 senses), {極|きわ}める (2 senses), {擬音|ぎおん} (2 senses), {明|あ}け (2 senses), {棟梁|とうりょう} (2 senses)
+- Cultural: {文楽|ぶんらく} (UNESCO heritage), {桜餅|さくらもち} (seasonal sweet), {桜吹雪|さくらふぶき} (poetic spring image)
+- New kanji: 2,388 → 2,393 ({撹|かく}, {梁|りょう}, {梨|なし}, {棘|とげ}, {棟|とう})
+
+Total entries: 13,184 → 13,214 (approximate)
+Remaining candidates: 493 → 463 (30 removed)
 
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 311)
 Added 30 new dictionary entries (IDs 13099-13128) from candidate_words.json:
@@ -142,29 +164,6 @@ Notable features:
 
 Total entries: 13,064 → 13,094 (approximate)
 Remaining candidates: 363 → 333 (30 removed)
-
-### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 307)
-Added 30 new dictionary entries (IDs 12979-13008) from candidate_words.json:
-
-- **Noun/suru verbs (4)**: {戦死|せんし} (death in battle), {断絶|だんぜつ} (severance), {暗躍|あんやく} (secret maneuvering), {早寝|はやね} (going to bed early)
-- **Nouns (16)**: {戦時|せんじ} (wartime), {新婦|しんぷ} (bride), {新郎|しんろう} (groom), {新曲|しんきょく} (new song), {新着|しんちゃく} (new arrival), {旅立|たびだ}ち (departure), {旅路|たびじ} (journey), {文豪|ぶんごう} (literary master), {文芸|ぶんげい} (literary art), {文語|ぶんご} (literary language), {昼夜|ちゅうや} (day and night), {晴|は}れ{着|ぎ} (formal clothes), {月収|げっしゅう} (monthly income), {月極|つきぎめ} (monthly rental), {月見|つきみ} (moon viewing), {朝市|あさいち} (morning market)
-- **Na-adjective/nouns (5)**: {月並|つきな}み (commonplace), {有害|ゆうがい} (harmful), {有罪|ゆうざい} (guilty), {有益|ゆうえき} (beneficial), {有力|ゆうりょく} (influential)
-- **Noun/pre-noun adjectival (1)**: {有数|ゆうすう} (prominent)
-- **Nouns (2)**: {有志|ゆうし} (volunteers), {暗黒|あんこく} (darkness)
-- **Adverb (1)**: {早晩|そうばん} (sooner or later)
-- **Verb (1)**: {施|ほどこ}す (to apply/to give charity, godan)
-
-Notable features:
-- Multi-sense entries: {施|ほどこ}す (apply/give charity), {暗黒|あんこく} (physical darkness/figurative darkness), {有力|ゆうりょく} (influential/strong candidate), {月見|つきみ} (moon viewing/egg on food)
-- Wedding pair: {新郎|しんろう} ↔ {新婦|しんぷ}
-- Travel cluster: {旅立|たびだ}ち, {旅路|たびじ} (literary terms)
-- Literature cluster: {文豪|ぶんごう}, {文芸|ぶんげい}, {文語|ぶんご}
-- 有- prefix cluster: {有害|ゆうがい}, {有罪|ゆうざい}, {有益|ゆうえき}, {有志|ゆうし}, {有数|ゆうすう}, {有力|ゆうりょく}
-- Cultural: {月見|つきみ} (autumn tradition + food), {晴|は}れ{着|ぎ} (hare/ke distinction), {朝市|あさいち} (Japanese market tradition)
-- New kanji: 2,382 → 2,383 ({郎|ろう})
-
-Total entries: 13,034 → 13,064 (approximate)
-Remaining candidates: 393 → 363 (30 removed)
 
 ---
 
