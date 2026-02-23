@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,094 |
+| Total entries | ~13,124 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,295 (open) |
-| Candidate words | ~333 |
+| General tier | ~10,325 (open) |
+| Candidate words | ~553 |
 | Cross-references | ~3,400 |
-| Example sentences | ~45,600 |
+| Example sentences | ~45,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 309)
+Added 30 new dictionary entries (IDs 13039-13068) from candidate_words.json:
+
+- **Nouns/counters (3)**: {台|だい} (stand/counter for machines), {号|ごう} (number/issue), {和|わ} (harmony/Japanese-style)
+- **Na-adjective (1)**: {急|きゅう} (sudden/steep/urgent)
+- **Nouns (12)**: {恒星|こうせい} (star), {新春|しんしゅん} (New Year), {方位|ほうい} (direction/bearing), {旧正月|きゅうしょうがつ} (Lunar New Year), {書記|しょき} (secretary/clerk), {最低限|さいていげん} (minimum), {最前線|さいぜんせん} (forefront), {最盛期|さいせいき} (peak period), {来客|らいきゃく} (visitor), {村人|むらびと} (villager), {木工|もっこう} (woodworking), {末尾|まつび} (tail end)
+- **Noun/suru verbs (6)**: {改訂|かいてい} (revision of text), {明文化|めいぶんか} (codification), {明言|めいげん} (clear statement), {新調|しんちょう} (getting new), {来日|らいにち} (coming to Japan), {来店|らいてん} (visiting a store)
+- **Noun/na-adj (1)**: {未完成|みかんせい} (incomplete)
+- **Noun (2)**: {本文|ほんぶん} (main text), {書|か}き{方|かた} (way of writing)
+- **Verbs (5)**: {映|うつ}し{出|だ}す (to project/reflect, godan), {書|か}き{入|い}れる (to write in, ichidan), {書|か}き{出|だ}す (to begin writing/list out, godan), {束|たば}ねる (to bundle/lead, ichidan), {明|あ}け{暮|く}れる (to be absorbed in, ichidan)
+
+Notable features:
+- Multi-sense entries: {台|だい} (stand/counter), {号|ごう} (issue/designation), {和|わ} (harmony/Japanese-style), {急|きゅう} (sudden/steep/urgent), {映|うつ}し{出|だ}す (project/portray), {書|か}き{出|だ}す (begin writing/list out), {束|たば}ねる (bundle/lead)
+- Homophone distinction: {改訂|かいてい} (text) vs {改定|かいてい} (standards)
+- 最- prefix cluster: {最低限|さいていげん}, {最前線|さいぜんせん}, {最盛期|さいせいき}
+- 来- pattern cluster: {来日|らいにち}, {来客|らいきゃく}, {来店|らいてん}
+- 書き- compound cluster: {書|か}き{入|い}れる, {書|か}き{出|だ}す, {書|か}き{方|かた}
+- Cultural: {和|わ} (Japanese-style prefix), {新春|しんしゅん} (New Year), {旧正月|きゅうしょうがつ} (Lunar New Year)
+
+Total entries: 13,094 → 13,124 (approximate)
+Remaining candidates: 583 → 553 (30 removed)
 
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 308)
 Added 30 new dictionary entries (IDs 13009-13038) from candidate_words.json:
@@ -136,25 +158,6 @@ Notable features:
 
 Total entries: 12,974 → 13,004 (approximate)
 Remaining candidates: 501 → 423 (30 removed, plus additional sync)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 304)
-Added 30 new dictionary entries (IDs 12889-12918) from candidate_words.json:
-
-- **Noun/suru verbs (21)**: {所蔵|しょぞう} (possession/holding), {投下|とうか} (dropping/investment), {投与|とうよ} (drug administration), {投入|とうにゅう} (throwing in/deployment), {折衝|せっしょう} (negotiation), {指令|しれい} (directive), {授与|じゅよ} (conferral), {採取|さいしゅ} (sampling), {探求|たんきゅう} (quest/inquiry), {接待|せったい} (business entertainment), {接触|せっしょく} (contact), {提示|ていじ} (presentation), {推奨|すいしょう} (recommendation), {推進|すいしん} (promotion/propulsion), {提供|ていきょう} (provision), {撤回|てっかい} (retraction), {撤廃|てっぱい} (abolition), {改心|かいしん} (change of heart), {敵対|てきたい} (hostility), {断言|だんげん} (declaration), {救出|きゅうしゅつ} (rescue)
-- **Nouns (5)**: {抗体|こうたい} (antibody), {数値|すうち} (numerical value), {文庫本|ぶんこぼん} (paperback book), {敗戦|はいせん} (defeat in war), {摂氏|せっし} (Celsius)
-- **Noun/no-adjective (2)**: {手動|しゅどう} (manual operation), {手製|てせい} (handmade)
-- **Na-adjective (1)**: {抜本的|ばっぽんてき} (fundamental/radical)
-- **Compound noun (1)**: {技術革新|ぎじゅつかくしん} (technological innovation)
-
-Notable features:
-- Multi-sense entries: {投下|とうか} (dropping/capital investment), {投入|とうにゅう} (inserting/deploying resources), {接待|せったい} (business entertainment/general hospitality), {接触|せっしょく} (physical/interpersonal contact), {推進|すいしん} (policy promotion/physical propulsion)
-- Heavy concentration of formal/institutional vocabulary: negotiation, policy, medicine, law
-- Business culture: {接待|せったい} (client entertainment), {折衝|せっしょう} (bargaining), {推奨|すいしょう} (endorsement)
-- Medical/scientific: {投与|とうよ} (dosing), {抗体|こうたい} (antibody), {摂氏|せっし} (Celsius), {採取|さいしゅ} (sampling)
-- Cultural: {文庫本|ぶんこぼん} (Japanese paperback format), {敗戦|はいせん} (WWII context)
-
-Total entries: 12,944 → 12,974 (approximate)
-Remaining candidates: 531 → 501 (30 removed)
 
 ---
 
