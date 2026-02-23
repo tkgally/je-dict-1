@@ -19,8 +19,8 @@
   "examples": [
     {
       "id": "02415_hoeru_ex1",
-      "japanese": "{犬|いぬ}が吠えている。",
-      "english": "The dog is barking.",
+      "japanese": "{犬|いぬ}が{吠|ほ}える。",
+      "english": "The dog barks.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -29,12 +29,52 @@
     },
     {
       "id": "02415_hoeru_ex2",
-      "japanese": "ライオンが吠える。",
-      "english": "The lion roars.",
+      "japanese": "{隣|となり}の{犬|いぬ}が{吠|ほ}えている。",
+      "english": "The neighbor's dog is barking.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "02415_hoeru_ex3",
+      "japanese": "{知|し}らない{人|ひと}が{来|く}ると、{犬|いぬ}が{吠|ほ}える。",
+      "english": "When a stranger comes, the dog barks.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02415_hoeru_ex4",
+      "japanese": "{大|おお}きな{声|こえ}で{吠|ほ}える。",
+      "english": "To roar in a loud voice.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "02415_hoeru_ex5",
+      "japanese": "{監督|かんとく}が{選手|せんしゅ}に{向|む}かって{吠|ほ}えた。",
+      "english": "The coach roared at the players.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "02415_hoeru_ex6",
+      "japanese": "{負|ま}けた{相手|あいて}に{吠|ほ}えても{意味|いみ}がない。",
+      "english": "There's no point in shouting at the opponent you lost to.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
@@ -42,7 +82,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T08:57:17Z",
-    "modified": "2026-01-29T09:01:33Z",
+    "modified": "2026-02-23T02:25:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
