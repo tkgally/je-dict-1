@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,064 |
+| Total entries | ~13,094 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,265 (open) |
-| Candidate words | ~363 |
+| General tier | ~10,295 (open) |
+| Candidate words | ~333 |
 | Cross-references | ~3,400 |
-| Example sentences | ~45,490 |
+| Example sentences | ~45,600 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 308)
+Added 30 new dictionary entries (IDs 13009-13038) from candidate_words.json:
+
+- **Na-adjectives (5)**: {最終的|さいしゅうてき} (final/ultimate), {普遍的|ふへんてき} (universal), {晴|は}れやか (bright/radiant), {最適|さいてき} (optimal), {最悪|さいあく} (worst/terrible)
+- **Na-adjective/nouns (3)**: {未熟|みじゅく} (immature/unripe), {有意義|ゆういぎ} (meaningful), {慣用|かんよう} (idiomatic)
+- **Nouns (13)**: {最先端|さいせんたん} (cutting edge), {最優先|さいゆうせん} (top priority), {未成年|みせいねん} (minor), {木材|もくざい} (timber), {木|き}の{実|み} (nut/berry), {有無|うむ} (presence or absence), {有権者|ゆうけんしゃ} (voter), {有識者|ゆうしきしゃ} (expert), {書面|しょめん} (written document), {書体|しょたい} (typeface), {暴力団|ぼうりょくだん} (crime syndicate), {新芽|しんめ} (new bud), {末期|まっき} (final stage)
+- **Noun/no-adjective (1)**: {未知|みち} (unknown)
+- **Noun/suru verbs (4)**: {新設|しんせつ} (new establishment), {明記|めいき} (clearly stating), {明示|めいじ} (explicit indication), {改定|かいてい} (revision of standards)
+- **Nouns (3)**: {本体|ほんたい} (main body), {本名|ほんみょう} (real name), {放射能|ほうしゃのう} (radioactivity)
+- **Noun (1)**: {支|ささ}え (support)
+
+Notable features:
+- Multi-sense entries: {最悪|さいあく} (worst/terrible exclamation), {未熟|みじゅく} (inexperienced/unripe), {本体|ほんたい} (main unit/true form)
+- 最- prefix cluster: {最悪|さいあく}, {最適|さいてき}, {最先端|さいせんたん}, {最優先|さいゆうせん}, {最終的|さいしゅうてき}
+- 未- prefix cluster: {未知|みち}, {未熟|みじゅく}, {未成年|みせいねん}
+- Formal/written: {書面|しょめん}, {明記|めいき}, {明示|めいじ}, {有権者|ゆうけんしゃ}, {有識者|ゆうしきしゃ}
+- Homophone distinction: {改定|かいてい} (standards/prices) vs {改訂|かいてい} (text)
+- New kanji: 2,383 → 2,384 ({遍|へん})
+
+Total entries: 13,064 → 13,094 (approximate)
+Remaining candidates: 363 → 333 (30 removed)
 
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 307)
 Added 30 new dictionary entries (IDs 12979-13008) from candidate_words.json:
@@ -133,24 +155,6 @@ Notable features:
 
 Total entries: 12,944 → 12,974 (approximate)
 Remaining candidates: 531 → 501 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 303)
-Added 30 new dictionary entries (IDs 12859-12888) from candidate_words.json:
-
-- **Nouns - general (17)**: {暗闇|くらやみ} (darkness), {期限|きげん} (deadline), {杖|つえ} (cane), {束|つか}の{間|ま} (brief moment), {本心|ほんしん} (true feelings), {拠|よ}り{所|どころ} (foundation/support), {本場|ほんば} (place of origin), {文房具|ぶんぼうぐ} (stationery), {斜面|しゃめん} (slope), {本性|ほんしょう} (true nature), {教|おし}え{子|ご} (pupil), {指針|ししん} (guideline), {本題|ほんだい} (main topic), {教材|きょうざい} (teaching materials), {救|すく}い (salvation), {文献|ぶんけん} (literature/references), {書評|しょひょう} (book review)
-- **Noun/suru verbs (6)**: {指名|しめい} (nomination), {敗北|はいぼく} (defeat), {捕獲|ほかく} (capture), {接客|せっきゃく} (customer service), {日持|ひも}ち (shelf life), {政権|せいけん} (political power)
-- **Noun/no-adjectives (2)**: {暗黙|あんもく} (tacit/implicit), {新婚|しんこん} (newlywed)
-- **I-adjective (1)**: {望|のぞ}ましい (desirable)
-- **Ichidan verb (1)**: {押|お}し{上|あ}げる (to push up/boost)
-- **Nouns - work/culture (3)**: {新卒|しんそつ} (new graduate), {振|ふ}り{付|つ}け (choreography), {本業|ほんぎょう} (main occupation)
-
-Notable features:
-- Multi-sense entries: {期限|きげん} (deadline/expiration), {押|お}し{上|あ}げる (physical/figurative), {拠|よ}り{所|どころ} (basis/emotional support), {指針|ししん} (guideline/needle)
-- Cultural relevance: {新卒|しんそつ} (Japanese hiring system), {暗黙|あんもく} (indirect communication), {接客|せっきゃく} (service culture), {本場|ほんば} (food authenticity)
-- Good mix of everyday vocabulary and formal/literary words
-
-Total entries: 12,914 → 12,944 (approximate)
-Remaining candidates: 327 → 297 (30 removed)
 
 ---
 
