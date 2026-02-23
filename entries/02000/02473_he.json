@@ -100,9 +100,9 @@
   "examples": [
     {
       "id": "02473_he_ex1",
-      "japanese": "{東京|とうきょう}へ{行|い}きます。",
-      "english": "I'm going to Tokyo.",
-      "notes": "Direction of travel",
+      "japanese": "{東京|とうきょう}へ{行|い}く。",
+      "english": "To go to Tokyo.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -112,7 +112,7 @@
       "id": "02473_he_ex2",
       "japanese": "{右|みぎ}へ{曲|ま}がってください。",
       "english": "Please turn right.",
-      "notes": "Direction with {曲|ま}がる (turn)",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -120,6 +120,36 @@
     },
     {
       "id": "02473_he_ex3",
+      "japanese": "{明日|あした}、{山|やま}へハイキングに{行|い}きます。",
+      "english": "Tomorrow I'm going hiking in the mountains.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02473_he_ex4",
+      "japanese": "{海|うみ}へ{向|む}かって{走|はし}ったら、とても{気持|きも}ちがよかった。",
+      "english": "When I ran toward the sea, it felt great.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02473_he_ex5",
+      "japanese": "{夏休|なつやす}みに{家族|かぞく}で{北海道|ほっかいどう}へ{旅行|りょこう}に{行|い}って、おいしいものをたくさん{食|た}べた。",
+      "english": "During summer vacation, I traveled to Hokkaido with my family and ate lots of delicious food.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02473_he_ex6",
       "japanese": "{田中様|たなかさま}へ",
       "english": "To Mr./Ms. Tanaka",
       "notes": "Formal letter addressee",
@@ -129,57 +159,7 @@
       ]
     },
     {
-      "id": "02473_he_ex4",
-      "japanese": "{明日|あした}、{京都|きょうと}へ{旅行|りょこう}します。",
-      "english": "Tomorrow I'm traveling to Kyoto.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "02473_he_ex5",
-      "japanese": "{夢|ゆめ}へ{向|む}かって{頑張|がんば}る。",
-      "english": "I'll work hard toward my dreams.",
-      "notes": "Abstract direction",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "02473_he_ex6",
-      "japanese": "{北|きた}へ{進|すす}んでください。",
-      "english": "Please proceed north.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
       "id": "02473_he_ex7",
-      "japanese": "{社長様|しゃちょうさま}へ",
-      "english": "To the President (of a company)",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "02473_he_ex8",
-      "japanese": "{海|うみ}へ{向|む}かって{走|はし}った。",
-      "english": "I ran toward the sea.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "02473_he_ex9",
       "japanese": "{お客様|おきゃくさま}へのお{知|し}らせ",
       "english": "Notice to customers",
       "notes": null,
@@ -189,13 +169,33 @@
       ]
     },
     {
-      "id": "02473_he_ex10",
-      "japanese": "{山|やま}へハイキングに{行|い}く。",
-      "english": "I'm going hiking to the mountains.",
+      "id": "02473_he_ex8",
+      "japanese": "{先生|せんせい}へのお{礼|れい}の{手紙|てがみ}を{書|か}いた。",
+      "english": "I wrote a thank-you letter to the teacher.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
+      ]
+    },
+    {
+      "id": "02473_he_ex9",
+      "japanese": "{社長|しゃちょう}へのメールは{丁寧|ていねい}に{書|か}いてください。",
+      "english": "Please write emails to the company president politely.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "02473_he_ex10",
+      "japanese": "{卒業|そつぎょう}する{友達|ともだち}へ、みんなで{色紙|しきし}にメッセージを{書|か}いた。",
+      "english": "We all wrote messages on a card for our graduating friend.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
@@ -231,7 +231,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T12:27:24Z",
-    "modified": "2026-01-20T05:15:30Z",
+    "modified": "2026-02-23T03:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
