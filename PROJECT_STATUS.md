@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,124 |
+| Total entries | ~13,154 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,325 (open) |
-| Candidate words | ~553 |
+| General tier | ~10,355 (open) |
+| Candidate words | ~523 |
 | Cross-references | ~3,400 |
-| Example sentences | ~45,700 |
+| Example sentences | ~45,810 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 310)
+Added 30 new dictionary entries (IDs 13069-13098) from candidate_words.json:
+
+- **Nouns (13)**: {文言|もんごん} (wording), {文様|もんよう} (pattern/design), {月間|げっかん} (monthly period), {有事|ゆうじ} (emergency), {朝廷|ちょうてい} (imperial court), {木星|もくせい} (Jupiter), {未遂|みすい} (attempted crime), {晩春|ばんしゅん} (late spring), {晩餐会|ばんさんかい} (banquet), {暖流|だんりゅう} (warm current), {曲目|きょくもく} (musical piece), {明細書|めいさいしょ} (detailed statement), {本殿|ほんでん} (main shrine building)
+- **Noun/no-adjective (5)**: {最強|さいきょう} (strongest), {最短|さいたん} (shortest), {最速|さいそく} (fastest), {最長|さいちょう} (longest), {有形|ゆうけい} (tangible), {木製|もくせい} (wooden)
+- **Noun/adverb (2)**: {最大限|さいだいげん} (maximum), {最小限|さいしょうげん} (minimum)
+- **Na-adjective (1)**: {有用|ゆうよう} (useful)
+- **Adverb (1)**: {末永|すえなが}く (for a long time)
+- **Noun/prefix (2)**: {日米|にちべい} (Japan-US), {時限|じげん} (time limit/timed)
+- **Noun/suru verb (1)**: {本格化|ほんかくか} (getting into full swing)
+- **Nouns (3)**: {本家|ほんけ} (main family/originator), {本拠地|ほんきょち} (headquarters), {村長|そんちょう} (village chief), {未然|みぜん} (prevention)
+
+Notable features:
+- 最- superlative cluster: {最大限|さいだいげん}, {最小限|さいしょうげん}, {最強|さいきょう}, {最短|さいたん}, {最速|さいそく}, {最長|さいちょう}
+- Antonym pairs: {最大限|さいだいげん}↔{最小限|さいしょうげん}, {最短|さいたん}↔{最長|さいちょう}
+- Homophone pairs: {木星|もくせい}↔{木製|もくせい}, {最速|さいそく}↔{催促|さいそく}, {村長|そんちょう}↔{尊重|そんちょう}
+- Multi-sense entries: {本家|ほんけ} (main family/originator), {時限|じげん} (class period/timed prefix)
+- Cultural: {朝廷|ちょうてい} (imperial court), {本殿|ほんでん} (Shinto shrine), {晩餐会|ばんさんかい} (state dinners), {晩春|ばんしゅん} (Ozu film)
+- New kanji: 2,384 → 2,385 ({餐|さん})
+
+Total entries: 13,124 → 13,154 (approximate)
+Remaining candidates: 553 → 523 (30 removed)
 
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 309)
 Added 30 new dictionary entries (IDs 13039-13068) from candidate_words.json:
@@ -138,26 +161,6 @@ Notable features:
 
 Total entries: 13,004 → 13,034 (approximate)
 Remaining candidates: 423 → 393 (30 removed)
-
-### 2026-02-22 (Vocabulary Expansion - 30 New Entries, Session 305)
-Added 30 new dictionary entries (IDs 12919-12948) from candidate_words.json:
-
-- **Noun/suru verbs (9)**: {探索|たんさく} (search/exploration), {撤収|てっしゅう} (withdrawal/removal), {改修|かいしゅう} (repair/renovation), {放出|ほうしゅつ} (release/emission), {救済|きゅうさい} (relief/salvation), {敬遠|けいえん} (keeping at arm's length/intentional walk), {支持|しじ} (support/backing), {摘発|てきはつ} (exposure/crackdown), {放映|ほうえい} (broadcasting)
-- **Nouns (14)**: {攻防|こうぼう} (offense and defense), {救命|きゅうめい} (lifesaving), {教習所|きょうしゅうじょ} (driving school), {文体|ぶんたい} (writing style), {文化財|ぶんかざい} (cultural property), {支障|ししょう} (hindrance), {態勢|たいせい} (posture/readiness), {手先|てさき} (fingertips/agent), {手下|てした} (subordinate/henchman), {敗者|はいしゃ} (loser), {教員|きょういん} (teacher), {故事|こじ} (historical anecdote), {接点|せってん} (point of contact), {攻め|せめ} (attack/offense)
-- **Verbs (3)**: {接|せっ}する (to adjoin/to treat, suru), {撃|う}つ (to shoot, godan), {改|あらた}める (to reform/examine, ichidan)
-- **Godan verb (1)**: {揺|ゆ}るがす (to shake/undermine)
-- **Noun/pre-noun adjectival (1)**: {所定|しょてい} (prescribed/designated)
-- **Noun/adverb (1)**: {数多|かずおお}く (many/numerous)
-- **Noun (1)**: {文書|ぶんしょ} (document)
-
-Notable features:
-- Multi-sense entries: {接|せっ}する (contact/treat), {敬遠|けいえん} (avoidance/baseball), {手先|てさき} (fingertips/pawn), {揺|ゆ}るがす (physical/figurative), {接点|せってん} (connection/electrical), {改|あらた}める (reform/inspect), {撤収|てっしゅう} (withdrawal/removal)
-- Homophone cross-references: {改修|かいしゅう}↔{回収|かいしゅう}, {支持|しじ}↔{指示|しじ}, {支障|ししょう}↔{師匠|ししょう}, {敗者|はいしゃ}↔{歯医者|はいしゃ}, {態勢|たいせい}↔{体制|たいせい}, {故事|こじ}↔{誇示|こじ}
-- Good mix of formal/institutional ({所定|しょてい}, {文書|ぶんしょ}, {教員|きょういん}) and everyday vocabulary ({教習所|きょうしゅうじょ}, {手下|てした})
-- Cultural: {文化財|ぶんかざい} (property protection system), {故事|こじ} (Chinese classical origins), {敬遠|けいえん} (Confucian etymology)
-
-Total entries: 12,974 → 13,004 (approximate)
-Remaining candidates: 501 → 423 (30 removed, plus additional sync)
 
 ---
 
