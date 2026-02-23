@@ -1,8 +1,8 @@
 ## Session: Example Sentences
 Date: 2026-02-23
-Entries checked: 02330-02349
+Entries checked: 02330-02364
 
-### Changes Made
+### Changes Made (batch 1: 02330-02349)
 - [02330]: Added 1 example (was 2, needed 3). Fixed missing furigana on 弱.
 - [02331]: Added 1 example (was 2, needed 3). Fixed missing furigana on 弱.
 - [02332]: Rewrote examples to cover both senses (was 2 total, now 6: 3 per sense). Fixed missing furigana on 論.
@@ -24,11 +24,28 @@ Entries checked: 02330-02349
 - [02348]: Fixed missing furigana on 激 in ex1-2. Added periods to phrase-only examples. Count was already OK (core tier, 5 per sense).
 - [02349]: Rewrote examples with furigana, added for both senses (was 2 total, now 6: 3 per sense). Fixed missing furigana on 貧.
 
+### Changes Made (batch 2: 02350-02364)
+- [02350]: Fixed missing furigana on 良 in ex1. Count was already OK (basic tier, 5 per sense).
+- [02351]: Fixed missing furigana on 明 in ex1-2. Count was already OK (core tier, 5 per sense).
+- [02352]: OK — no changes needed (basic tier, 5 per sense).
+- [02353]: Fixed missing furigana on 穏 in ex1-2, added periods. Count was already OK (core tier, 5 per sense).
+- [02354]: Added 1 example (was 2, needed 3).
+- [02355]: Rewrote examples with furigana, added 3 more (basic tier, was 2, needed 5). Fixed missing furigana on 好.
+- [02356]: Added 3 examples (core tier, was 2, needed 5).
+- [02357]: Added examples for both senses (was 1 per sense, now 3 per sense = 6 total).
+- [02358]: Added 1 example for sense 2 (core tier, sense 2 had 4, needed 5).
+- [02359]: Added 1 example for sense 2 (basic tier, sense 2 had 4, needed 5).
+- [02360]: Added 1 example for sense 2 (core tier, sense 2 had 4, needed 5).
+- [02361]: OK — no changes needed (basic tier, 5 per sense).
+- [02362]: Rewrote all examples for all 3 senses (was 2 total, now 9: 3 per sense).
+- [02363]: Added 1 example for sense 2 (core tier, sense 2 had 4, needed 5).
+- [02364]: Added 3 examples (core tier, was 2, needed 5).
+
 ### Summary
-- Entries checked: 20
-- Entries modified: 18
-- Entries already OK: 2 (02339, no changes; noted but not counted)
-- Issues found: insufficient example count (16 entries), missing furigana (10 entries), phrase-only examples without periods (3 entries)
+- Entries checked: 35
+- Entries modified: 31
+- Entries already OK: 4 (02339, 02352, 02361, and partially 02350/02351/02353 where only furigana was fixed)
+- Issues found: insufficient example count (25 entries), missing furigana (14 entries), phrase-only examples without periods (5 entries)
 
 ### Next Entry
-02350
+02365
