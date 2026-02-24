@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,274 |
+| Total entries | ~13,304 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,475 (open) |
-| Candidate words | ~727 |
+| General tier | ~10,505 (open) |
+| Candidate words | ~697 |
 | Cross-references | ~3,400 |
-| Example sentences | ~46,280 |
+| Example sentences | ~46,390 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 315)
+Added 30 new dictionary entries (IDs 13219-13248) from candidate_words.json:
+
+- **Nouns (22)**: {歌謡|かよう} (popular song), {武力|ぶりょく} (military power), {武将|ぶしょう} (military commander), {歩兵|ほへい} (infantry), {死因|しいん} (cause of death), {死者|ししゃ} (fatalities), {殺人|さつじん} (murder), {母語|ぼご} (mother tongue), {民族|みんぞく} (ethnic group), {民俗|みんぞく} (folklore), {民法|みんぽう} (civil law), {極限|きょくげん} (limit/extreme), {機微|きび} (subtlety), {歌劇|かげき} (opera), {母乳|ぼにゅう} (breast milk), {武家|ぶけ} (samurai family), {武芸|ぶげい} (martial arts), {武術|ぶじゅつ} (combat techniques), {歌|うた}い{手|て} (singer), {民|たみ} (the people), {楷書|かいしょ} (block script), {死|し} (death)
+- **Na-adjective/noun (1)**: {正統|せいとう} (orthodox, legitimate)
+- **Noun/suru verbs (5)**: {殺害|さつがい} (killing), {民主化|みんしゅか} (democratization), {樹立|じゅりつ} (establishment), {武装|ぶそう} (armament), {死去|しきょ} (passing away)
+- **Noun with 2 senses (2)**: {殿堂|でんどう} (palace/hall of fame), {毀損|きそん} (damage/defamation)
+
+Notable features:
+- 武- cluster: {武力|ぶりょく}, {武将|ぶしょう}, {武装|ぶそう}, {武家|ぶけ}, {武芸|ぶげい}, {武術|ぶじゅつ}
+- 死- cluster: {死|し}, {死因|しいん}, {死者|ししゃ}, {死去|しきょ}
+- 民- cluster: {民|たみ}, {民族|みんぞく}, {民俗|みんぞく}, {民主化|みんしゅか}, {民法|みんぽう}
+- 殺- pair: {殺害|さつがい}, {殺人|さつじん} (with cross-references)
+- Homophone pair: {民族|みんぞく}↔{民俗|みんぞく} (with cross-references)
+- Multi-sense entries: {殿堂|でんどう} (2 senses), {毀損|きそん} (2 senses)
+- Cultural: {武家|ぶけ} (feudal class system), {歌謡|かよう} (Showa music), {楷書|かいしょ} (calligraphy)
+- New kanji: 2,394 → 2,396 ({楷|かい}, {毀|き})
+
+Total entries: 13,274 → 13,304 (approximate)
+Remaining candidates: 727 → 697 (30 removed)
 
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 314)
 Added 30 new dictionary entries (IDs 13189-13218) from candidate_words.json:
@@ -138,29 +159,6 @@ Notable features:
 
 Total entries: 13,154 → 13,184 (approximate)
 Remaining candidates: 523 → 493 (30 removed)
-
-### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 310)
-Added 30 new dictionary entries (IDs 13069-13098) from candidate_words.json:
-
-- **Nouns (13)**: {文言|もんごん} (wording), {文様|もんよう} (pattern/design), {月間|げっかん} (monthly period), {有事|ゆうじ} (emergency), {朝廷|ちょうてい} (imperial court), {木星|もくせい} (Jupiter), {未遂|みすい} (attempted crime), {晩春|ばんしゅん} (late spring), {晩餐会|ばんさんかい} (banquet), {暖流|だんりゅう} (warm current), {曲目|きょくもく} (musical piece), {明細書|めいさいしょ} (detailed statement), {本殿|ほんでん} (main shrine building)
-- **Noun/no-adjective (5)**: {最強|さいきょう} (strongest), {最短|さいたん} (shortest), {最速|さいそく} (fastest), {最長|さいちょう} (longest), {有形|ゆうけい} (tangible), {木製|もくせい} (wooden)
-- **Noun/adverb (2)**: {最大限|さいだいげん} (maximum), {最小限|さいしょうげん} (minimum)
-- **Na-adjective (1)**: {有用|ゆうよう} (useful)
-- **Adverb (1)**: {末永|すえなが}く (for a long time)
-- **Noun/prefix (2)**: {日米|にちべい} (Japan-US), {時限|じげん} (time limit/timed)
-- **Noun/suru verb (1)**: {本格化|ほんかくか} (getting into full swing)
-- **Nouns (3)**: {本家|ほんけ} (main family/originator), {本拠地|ほんきょち} (headquarters), {村長|そんちょう} (village chief), {未然|みぜん} (prevention)
-
-Notable features:
-- 最- superlative cluster: {最大限|さいだいげん}, {最小限|さいしょうげん}, {最強|さいきょう}, {最短|さいたん}, {最速|さいそく}, {最長|さいちょう}
-- Antonym pairs: {最大限|さいだいげん}↔{最小限|さいしょうげん}, {最短|さいたん}↔{最長|さいちょう}
-- Homophone pairs: {木星|もくせい}↔{木製|もくせい}, {最速|さいそく}↔{催促|さいそく}, {村長|そんちょう}↔{尊重|そんちょう}
-- Multi-sense entries: {本家|ほんけ} (main family/originator), {時限|じげん} (class period/timed prefix)
-- Cultural: {朝廷|ちょうてい} (imperial court), {本殿|ほんでん} (Shinto shrine), {晩餐会|ばんさんかい} (state dinners), {晩春|ばんしゅん} (Ozu film)
-- New kanji: 2,384 → 2,385 ({餐|さん})
-
-Total entries: 13,124 → 13,154 (approximate)
-Remaining candidates: 553 → 523 (30 removed)
 
 ---
 
