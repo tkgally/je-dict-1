@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,454 |
+| Total entries | ~13,484 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,655 (open) |
-| Candidate words | ~547 |
+| General tier | ~10,685 (open) |
+| Candidate words | ~517 |
 | Cross-references | ~3,400 |
 | Example sentences | ~46,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 321)
+Added 30 new dictionary entries (IDs 13399-13428) from candidate_words.json:
+
+- **Verbs (6)**: {替|か}える (to replace, ichidan transitive), {有|ゆう}する (to possess, suru formal), {瀕|ひん}する (to be on the verge of, suru), {炒|い}る (to roast, godan transitive), {点|た}てる (to make tea, ichidan transitive), {煮立|にた}つ (to come to a boil, godan intransitive)
+- **Food nouns (5)**: {焼|や}きそば (fried noodles), {焼|や}き{魚|ざかな} (grilled fish), {煎茶|せんちゃ} (sencha green tea), {煮干|にぼ}し (dried sardines for broth), {点心|てんしん} (dim sum)
+- **Light/fire nouns (4)**: {灯籠|とうろう} (lantern), {灯|ともしび} (light/lamp), {火種|ひだね} (ember/source of conflict), {火星|かせい} (Mars)
+- **General nouns (4)**: {焦点|しょうてん} (focus/focal point), {熟成|じゅくせい} (aging/maturation), {激戦|げきせん} (fierce battle), {激突|げきとつ} (clash/collision)
+- **Na-adjectives/nouns (7)**: {濃密|のうみつ} (dense/intense), {無力|むりょく} (powerless), {無名|むめい} (unknown), {無垢|むく} (pure/innocent), {無謀|むぼう} (reckless), {無関心|むかんしん} (indifferent), {無常|むじょう} (impermanence)
+- **Other (4)**: {漫然|まんぜん} (aimlessly, adverb), {潮流|ちょうりゅう} (tidal current/trend), {煙幕|えんまく} (smokescreen), {演目|えんもく} (program item)
+
+Notable features:
+- 無- cluster: {無力|むりょく}, {無名|むめい}, {無垢|むく}, {無常|むじょう}, {無謀|むぼう}, {無関心|むかんしん}
+- Food/cooking cluster: {焼|や}きそば, {焼|や}き{魚|ざかな}, {煎茶|せんちゃ}, {煮干|にぼ}し, {点心|てんしん}, {炒|い}る, {煮立|にた}つ, {点|た}てる, {熟成|じゅくせい}
+- Fire/light cluster: {灯籠|とうろう}, {灯|ともしび}, {火種|ひだね}, {火星|かせい}
+- Multi-sense entries: {灯|ともしび} (2), {火種|ひだね} (2), {焦点|しょうてん} (2), {激戦|げきせん} (2), {激突|げきとつ} (2), {潮流|ちょうりゅう} (2), {濃密|のうみつ} (2), {無名|むめい} (2), {無垢|むく} (2), {煙幕|えんまく} (2)
+- Cultural: {無常|むじょう} (Buddhist impermanence), {点|た}てる (tea ceremony), {灯籠|とうろう} (Obon lanterns), {煎茶|せんちゃ} (tea varieties)
+- Kanji contrast: {替|か}える vs {変|か}える vs {代|か}える (replace vs change vs substitute)
+- New kanji: 2,401 → 2,402 ({瀕|ひん})
+
+Total entries: 13,454 → 13,484 (approximate)
+Remaining candidates: 547 → 517 (30 removed)
 
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 320)
 Added 30 new dictionary entries (IDs 13369-13398) from candidate_words.json:
@@ -133,26 +155,6 @@ Notable features:
 
 Total entries: 13,334 → 13,364 (approximate)
 Remaining candidates: 667 → 637 (30 removed)
-
-### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 316)
-Added 30 new dictionary entries (IDs 13249-13278) from candidate_words.json:
-
-- **Nouns (18)**: {決着|けっちゃく} (settlement), {決|き}め{手|て} (deciding factor), {気品|きひん} (elegance), {気質|きしつ} (temperament), {民衆|みんしゅう} (the masses), {水害|すいがい} (flood damage), {水田|すいでん} (rice paddy), {水蒸気|すいじょうき} (steam), {水路|すいろ} (waterway), {汚名|おめい} (disgrace), {氷柱|つらら} (icicle), {沿道|えんどう} (roadside), {波乱|はらん} (turbulence), {没後|ぼつご} (after death), {河川|かせん} (river), {戦乱|せんらん} (turmoil of war), {洋食|ようしょく} (Western food), {民間|みんかん} (private sector)
-- **Na-adjective (1)**: {活発|かっぱつ} (active, lively)
-- **Noun/na-adjective (1)**: {気|き}がかり (worry, concern)
-- **Noun/suru verbs (6)**: {沈黙|ちんもく} (silence), {決断|けつだん} (decision), {決戦|けっせん} (decisive battle), {気兼|きが}ね (reserve), {派遣|はけん} (dispatch/temp staffing), {抹殺|まっさつ} (obliteration)
-- **Verbs (2)**: {決|き}めつける (to jump to conclusions, ichidan), {気遣|きづか}う (to worry about, godan)
-- **Multi-sense entries (2)**: {民間|みんかん} (2 senses), {派遣|はけん} (2 senses)
-
-Notable features:
-- 決- cluster: {決断|けつだん}, {決着|けっちゃく}, {決|き}め{手|て}, {決戦|けっせん}, {決|き}めつける
-- 気- cluster: {気合|きあ}い, {気品|きひん}, {気質|きしつ}, {気|き}がかり, {気兼|きが}ね, {気遣|きづか}う
-- 水- cluster: {水害|すいがい}, {水田|すいでん}, {水蒸気|すいじょうき}, {水路|すいろ}
-- 民- pair: {民衆|みんしゅう}, {民間|みんかん}
-- Cultural: {洋食|ようしょく} (Meiji-era Western food), {気兼|きが}ね (Japanese social restraint), {水田|すいでん} (rice cultivation)
-
-Total entries: 13,304 → 13,334 (approximate)
-Remaining candidates: 697 → 667 (30 removed)
 
 ---
 

@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 316)
+Added 30 new dictionary entries (IDs 13249-13278) from candidate_words.json:
+
+- **Nouns (18)**: {決着|けっちゃく} (settlement), {決|き}め{手|て} (deciding factor), {気品|きひん} (elegance), {気質|きしつ} (temperament), {民衆|みんしゅう} (the masses), {水害|すいがい} (flood damage), {水田|すいでん} (rice paddy), {水蒸気|すいじょうき} (steam), {水路|すいろ} (waterway), {汚名|おめい} (disgrace), {氷柱|つらら} (icicle), {沿道|えんどう} (roadside), {波乱|はらん} (turbulence), {没後|ぼつご} (after death), {河川|かせん} (river), {戦乱|せんらん} (turmoil of war), {洋食|ようしょく} (Western food), {民間|みんかん} (private sector)
+- **Na-adjective (1)**: {活発|かっぱつ} (active, lively)
+- **Noun/na-adjective (1)**: {気|き}がかり (worry, concern)
+- **Noun/suru verbs (6)**: {沈黙|ちんもく} (silence), {決断|けつだん} (decision), {決戦|けっせん} (decisive battle), {気兼|きが}ね (reserve), {派遣|はけん} (dispatch/temp staffing), {抹殺|まっさつ} (obliteration)
+- **Verbs (2)**: {決|き}めつける (to jump to conclusions, ichidan), {気遣|きづか}う (to worry about, godan)
+- **Multi-sense entries (2)**: {民間|みんかん} (2 senses), {派遣|はけん} (2 senses)
+
+Notable features:
+- 決- cluster: {決断|けつだん}, {決着|けっちゃく}, {決|き}め{手|て}, {決戦|けっせん}, {決|き}めつける
+- 気- cluster: {気合|きあ}い, {気品|きひん}, {気質|きしつ}, {気|き}がかり, {気兼|きが}ね, {気遣|きづか}う
+- 水- cluster: {水害|すいがい}, {水田|すいでん}, {水蒸気|すいじょうき}, {水路|すいろ}
+- 民- pair: {民衆|みんしゅう}, {民間|みんかん}
+- Cultural: {洋食|ようしょく} (Meiji-era Western food), {気兼|きが}ね (Japanese social restraint), {水田|すいでん} (rice cultivation)
+
+Total entries: 13,304 → 13,334 (approximate)
+Remaining candidates: 697 → 667 (30 removed)
+
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 314)
 Added 30 new dictionary entries (IDs 13189-13218) from candidate_words.json:
 
