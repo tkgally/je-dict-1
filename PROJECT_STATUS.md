@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,304 |
+| Total entries | ~13,334 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,505 (open) |
-| Candidate words | ~697 |
+| General tier | ~10,535 (open) |
+| Candidate words | ~667 |
 | Cross-references | ~3,400 |
 | Example sentences | ~46,390 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 316)
+Added 30 new dictionary entries (IDs 13249-13278) from candidate_words.json:
+
+- **Nouns (18)**: {決着|けっちゃく} (settlement), {決|き}め{手|て} (deciding factor), {気品|きひん} (elegance), {気質|きしつ} (temperament), {民衆|みんしゅう} (the masses), {水害|すいがい} (flood damage), {水田|すいでん} (rice paddy), {水蒸気|すいじょうき} (steam), {水路|すいろ} (waterway), {汚名|おめい} (disgrace), {氷柱|つらら} (icicle), {沿道|えんどう} (roadside), {波乱|はらん} (turbulence), {没後|ぼつご} (after death), {河川|かせん} (river), {戦乱|せんらん} (turmoil of war), {洋食|ようしょく} (Western food), {民間|みんかん} (private sector)
+- **Na-adjective (1)**: {活発|かっぱつ} (active, lively)
+- **Noun/na-adjective (1)**: {気|き}がかり (worry, concern)
+- **Noun/suru verbs (6)**: {沈黙|ちんもく} (silence), {決断|けつだん} (decision), {決戦|けっせん} (decisive battle), {気兼|きが}ね (reserve), {派遣|はけん} (dispatch/temp staffing), {抹殺|まっさつ} (obliteration)
+- **Verbs (2)**: {決|き}めつける (to jump to conclusions, ichidan), {気遣|きづか}う (to worry about, godan)
+- **Multi-sense entries (2)**: {民間|みんかん} (2 senses), {派遣|はけん} (2 senses)
+
+Notable features:
+- 決- cluster: {決断|けつだん}, {決着|けっちゃく}, {決|き}め{手|て}, {決戦|けっせん}, {決|き}めつける
+- 気- cluster: {気合|きあ}い, {気品|きひん}, {気質|きしつ}, {気|き}がかり, {気兼|きが}ね, {気遣|きづか}う
+- 水- cluster: {水害|すいがい}, {水田|すいでん}, {水蒸気|すいじょうき}, {水路|すいろ}
+- 民- pair: {民衆|みんしゅう}, {民間|みんかん}
+- Cultural: {洋食|ようしょく} (Meiji-era Western food), {気兼|きが}ね (Japanese social restraint), {水田|すいでん} (rice cultivation)
+
+Total entries: 13,304 → 13,334 (approximate)
+Remaining candidates: 697 → 667 (30 removed)
 
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 315)
 Added 30 new dictionary entries (IDs 13219-13248) from candidate_words.json:
@@ -134,31 +154,6 @@ Notable features:
 
 Total entries: 13,184 → 13,214 (approximate)
 Remaining candidates: 493 → 463 (30 removed)
-
-### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 311)
-Added 30 new dictionary entries (IDs 13099-13128) from candidate_words.json:
-
-- **Adverbs (1)**: {果|は}たして (as expected; really?)
-- **Nouns (13)**: {枠|わく} (frame/slot), {柚子|ゆず} (yuzu citrus), {柵|さく} (fence/barrier), {核心|かくしん} (core/crux), {根元|ねもと} (root/base), {根底|こんてい} (foundation/basis), {校門|こうもん} (school gate), {枠組|わくぐ}み (framework), {板前|いたまえ} (Japanese chef), {松茸|まつたけ} (matsutake mushroom), {核兵器|かくへいき} (nuclear weapons), {桜並木|さくらなみき} (row of cherry trees), {桜前線|さくらぜんせん} (cherry blossom front)
-- **Na-adjective/nouns (2)**: {柔軟|じゅうなん} (flexible), {格段|かくだん} (remarkably)
-- **I-adjective (1)**: {根強|ねづよ}い (deep-rooted)
-- **Noun/no-adjective (1)**: {根本|こんぽん} (fundamental)
-- **Noun/prefix (1)**: {核|かく} (nucleus/nuclear)
-- **Noun/suru verbs (5)**: {栽培|さいばい} (cultivation), {格闘|かくとう} (grappling), {来訪|らいほう} (visit), {格付|かくづ}け (rating), {格上|かくあ}げ (upgrade)
-- **Verbs (3)**: {栄|さか}える (to prosper, ichidan), {根付|ねづ}く (to take root, godan), {根|ね}ざす (to be rooted in, godan)
-
-Notable features:
-- 根- cluster: {根強|ねづよ}い, {根本|こんぽん}, {根底|こんてい}, {根元|ねもと}, {根付|ねづ}く, {根|ね}ざす
-- 格- cluster: {格闘|かくとう}, {格段|かくだん}, {格付|かくづ}け, {格上|かくあ}げ
-- 核- cluster: {核|かく}, {核心|かくしん}, {核兵器|かくへいき}
-- 桜- pair: {桜並木|さくらなみき}, {桜前線|さくらぜんせん}
-- Cultural: {柚子|ゆず} (yuzu bath), {梅干|うめぼ}し (umeboshi), {松茸|まつたけ} (luxury mushroom), {板前|いたまえ} (sushi chef), {桜前線|さくらぜんせん} (spring tracking)
-- Cross-references between related entries: {根本|こんぽん}↔{根底|こんてい}, {枠|わく}↔{枠組|わくぐ}み, {格付|かくづ}け↔{格上|かくあ}げ, {根付|ねづ}く↔{根|ね}ざす
-- Homophone: {核心|かくしん}↔{革新|かくしん}
-- New kanji: 2,385 → 2,388 ({枠|わく}, {柚|ゆず}, {柵|さく})
-
-Total entries: 13,154 → 13,184 (approximate)
-Remaining candidates: 523 → 493 (30 removed)
 
 ---
 

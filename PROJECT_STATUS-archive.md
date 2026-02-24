@@ -3,6 +3,31 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 311)
+Added 30 new dictionary entries (IDs 13099-13128) from candidate_words.json:
+
+- **Adverbs (1)**: {果|は}たして (as expected; really?)
+- **Nouns (13)**: {枠|わく} (frame/slot), {柚子|ゆず} (yuzu citrus), {柵|さく} (fence/barrier), {核心|かくしん} (core/crux), {根元|ねもと} (root/base), {根底|こんてい} (foundation/basis), {校門|こうもん} (school gate), {枠組|わくぐ}み (framework), {板前|いたまえ} (Japanese chef), {松茸|まつたけ} (matsutake mushroom), {核兵器|かくへいき} (nuclear weapons), {桜並木|さくらなみき} (row of cherry trees), {桜前線|さくらぜんせん} (cherry blossom front)
+- **Na-adjective/nouns (2)**: {柔軟|じゅうなん} (flexible), {格段|かくだん} (remarkably)
+- **I-adjective (1)**: {根強|ねづよ}い (deep-rooted)
+- **Noun/no-adjective (1)**: {根本|こんぽん} (fundamental)
+- **Noun/prefix (1)**: {核|かく} (nucleus/nuclear)
+- **Noun/suru verbs (5)**: {栽培|さいばい} (cultivation), {格闘|かくとう} (grappling), {来訪|らいほう} (visit), {格付|かくづ}け (rating), {格上|かくあ}げ (upgrade)
+- **Verbs (3)**: {栄|さか}える (to prosper, ichidan), {根付|ねづ}く (to take root, godan), {根|ね}ざす (to be rooted in, godan)
+
+Notable features:
+- 根- cluster: {根強|ねづよ}い, {根本|こんぽん}, {根底|こんてい}, {根元|ねもと}, {根付|ねづ}く, {根|ね}ざす
+- 格- cluster: {格闘|かくとう}, {格段|かくだん}, {格付|かくづ}け, {格上|かくあ}げ
+- 核- cluster: {核|かく}, {核心|かくしん}, {核兵器|かくへいき}
+- 桜- pair: {桜並木|さくらなみき}, {桜前線|さくらぜんせん}
+- Cultural: {柚子|ゆず} (yuzu bath), {梅干|うめぼ}し (umeboshi), {松茸|まつたけ} (luxury mushroom), {板前|いたまえ} (sushi chef), {桜前線|さくらぜんせん} (spring tracking)
+- Cross-references between related entries: {根本|こんぽん}↔{根底|こんてい}, {枠|わく}↔{枠組|わくぐ}み, {格付|かくづ}け↔{格上|かくあ}げ, {根付|ねづ}く↔{根|ね}ざす
+- Homophone: {核心|かくしん}↔{革新|かくしん}
+- New kanji: 2,385 → 2,388 ({枠|わく}, {柚|ゆず}, {柵|さく})
+
+Total entries: 13,154 → 13,184 (approximate)
+Remaining candidates: 523 → 493 (30 removed)
+
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 310)
 Added 30 new dictionary entries (IDs 13069-13098) from candidate_words.json:
 
