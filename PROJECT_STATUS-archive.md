@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 317)
+Added 30 new dictionary entries (IDs 13279-13308) from candidate_words.json:
+
+- **Nouns (16)**: {沿岸|えんがん} (coast), {派出所|はしゅつしょ} (police box), {浮世絵|うきよえ} (ukiyo-e), {海底|かいてい} (seabed), {海賊|かいぞく} (pirate), {海軍|かいぐん} (navy), {消火|しょうか} (firefighting), {深呼吸|しんこきゅう} (deep breath), {法人|ほうじん} (corporation), {法令|ほうれい} (law/ordinance), {沢庵|たくあん} (pickled daikon), {浮き彫り|うきぼり} (relief/highlighting), {深読み|ふかよみ} (overinterpretation), {流行語|りゅうこうご} (buzzword), {浅漬け|あさづけ} (quick pickles), {洋風|ようふう} (Western-style)
+- **Na-adjective (1)**: {法的|ほうてき} (legal)
+- **I-adjective (1)**: {淡い|あわい} (faint, pale)
+- **Noun/suru verbs (7)**: {洗濯|せんたく} (laundry), {消耗|しょうもう} (consumption), {混同|こんどう} (confusion), {治癒|ちゆ} (healing), {泣き寝入り|なきねいり} (giving up without recourse), {浮気|うわき} (infidelity), {浪人|ろうにん} (ronin/exam retaker)
+- **Verbs (5)**: {沿う|そう} (to follow along, godan intransitive), {泊める|とめる} (to let stay, ichidan transitive), {浸かる|つかる} (to soak, godan intransitive), {淹れる|いれる} (to brew, ichidan transitive), {混沌|こんとん} (chaos, taru-adj)
+
+Notable features:
+- Water/liquid cluster: {沿岸|えんがん}, {海底|かいてい}, {海賊|かいぞく}, {海軍|かいぐん}, {浸かる|つかる}, {淹れる|いれる}
+- Law cluster: {法人|ほうじん}, {法令|ほうれい}, {法的|ほうてき}
+- Food cluster: {沢庵|たくあん}, {浅漬け|あさづけ}, {洋風|ようふう} (with cross-references)
+- Multi-sense entries: {沿う|そう} (2), {浮気|うわき} (2), {淡い|あわい} (2), {浸かる|つかる} (2), {浮き彫り|うきぼり} (2), {浪人|ろうにん} (2)
+- Cultural: {浮世絵|うきよえ} (Edo art), {派出所|はしゅつしょ} (police system), {浪人|ろうにん} (exam culture), {沢庵|たくあん} (Zen cuisine)
+- New kanji: 2,396 → 2,399 ({庵|あん}, {沌|とん}, {癒|ゆ})
+
+Total entries: 13,334 → 13,364 (approximate)
+Remaining candidates: 667 → 637 (30 removed)
+
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 316)
 Added 30 new dictionary entries (IDs 13249-13278) from candidate_words.json:
 
