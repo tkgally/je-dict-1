@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,424 |
+| Total entries | ~13,454 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,625 (open) |
-| Candidate words | ~577 |
+| General tier | ~10,655 (open) |
+| Candidate words | ~547 |
 | Cross-references | ~3,400 |
 | Example sentences | ~46,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 320)
+Added 30 new dictionary entries (IDs 13369-13398) from candidate_words.json:
+
+- **Nouns (14)**: {炭|すみ} (charcoal), {炭酸|たんさん} (carbonation), {炊飯|すいはん} (rice cooking), {火花|ひばな} (spark), {灯|あか}り (lamplight), {海産物|かいさんぶつ} (marine products), {湾岸|わんがん} (bay area), {漢方|かんぽう} (kampo medicine), {漢文|かんぶん} (classical Chinese writing), {無罪|むざい} (not guilty), {無言|むごん} (silence), {無効|むこう} (invalid), {無職|むしょく} (unemployed), {無人|むじん} (unmanned)
+- **Noun/suru verbs (7)**: {激動|げきどう} (upheaval), {激化|げきか} (intensification), {濃縮|のうしゅく} (concentration), {火葬|かそう} (cremation), {潜入|せんにゅう} (infiltration), {潜在|せんざい} (latent), {点在|てんざい} (scattered), {流用|りゅうよう} (diversion)
+- **Verbs (3)**: {澄|す}む (to become clear, godan intransitive), {灯|とも}る (to be lit, godan intransitive), {火照|ほて}る (to flush, godan intransitive)
+- **Na-adjective/noun (3)**: {激安|げきやす} (dirt cheap), {無茶|むちゃ} (unreasonable)
+- **I-adjective (1)**: {温|あたた}かい (warm)
+- **Adverb/noun (1)**: {無断|むだん} (without permission)
+
+Notable features:
+- 無- cluster: {無断|むだん}, {無罪|むざい}, {無言|むごん}, {無効|むこう}, {無職|むしょく}, {無茶|むちゃ}, {無人|むじん}
+- 激- cluster: {激動|げきどう}, {激化|げきか}, {激安|げきやす}
+- Fire/light cluster: {火花|ひばな}, {火葬|かそう}, {火照|ほて}る, {灯|あか}り, {灯|とも}る, {炭|すみ}, {炭酸|たんさん}
+- 潜- pair: {潜入|せんにゅう} (infiltration) ↔ {潜在|せんざい} (latent)
+- Multi-sense entries: {潮|しお} (2), {澄|す}む (2), {炭酸|たんさん} (2), {火花|ひばな} (2), {無人|むじん} (2), {流用|りゅうよう} (2), {温|あたた}かい (2)
+- Kanji contrast: {温|あたた}かい vs {暖|あたた}かい (food/feelings vs weather/climate)
+- Cultural: {漢方|かんぽう} (traditional medicine), {漢文|かんぶん} (classical Chinese study), {火葬|かそう} (cremation customs), {炭|すみ} (charcoal in tea ceremony)
+- New kanji: 2,400 → 2,401 ({澄|すむ})
+
+Total entries: 13,424 → 13,454 (approximate)
+Remaining candidates: 577 → 547 (30 removed)
 
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 319)
 Added 30 new dictionary entries (IDs 13339-13368) from candidate_words.json:
@@ -130,27 +153,6 @@ Notable features:
 
 Total entries: 13,304 → 13,334 (approximate)
 Remaining candidates: 697 → 667 (30 removed)
-
-### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 315)
-Added 30 new dictionary entries (IDs 13219-13248) from candidate_words.json:
-
-- **Nouns (22)**: {歌謡|かよう} (popular song), {武力|ぶりょく} (military power), {武将|ぶしょう} (military commander), {歩兵|ほへい} (infantry), {死因|しいん} (cause of death), {死者|ししゃ} (fatalities), {殺人|さつじん} (murder), {母語|ぼご} (mother tongue), {民族|みんぞく} (ethnic group), {民俗|みんぞく} (folklore), {民法|みんぽう} (civil law), {極限|きょくげん} (limit/extreme), {機微|きび} (subtlety), {歌劇|かげき} (opera), {母乳|ぼにゅう} (breast milk), {武家|ぶけ} (samurai family), {武芸|ぶげい} (martial arts), {武術|ぶじゅつ} (combat techniques), {歌|うた}い{手|て} (singer), {民|たみ} (the people), {楷書|かいしょ} (block script), {死|し} (death)
-- **Na-adjective/noun (1)**: {正統|せいとう} (orthodox, legitimate)
-- **Noun/suru verbs (5)**: {殺害|さつがい} (killing), {民主化|みんしゅか} (democratization), {樹立|じゅりつ} (establishment), {武装|ぶそう} (armament), {死去|しきょ} (passing away)
-- **Noun with 2 senses (2)**: {殿堂|でんどう} (palace/hall of fame), {毀損|きそん} (damage/defamation)
-
-Notable features:
-- 武- cluster: {武力|ぶりょく}, {武将|ぶしょう}, {武装|ぶそう}, {武家|ぶけ}, {武芸|ぶげい}, {武術|ぶじゅつ}
-- 死- cluster: {死|し}, {死因|しいん}, {死者|ししゃ}, {死去|しきょ}
-- 民- cluster: {民|たみ}, {民族|みんぞく}, {民俗|みんぞく}, {民主化|みんしゅか}, {民法|みんぽう}
-- 殺- pair: {殺害|さつがい}, {殺人|さつじん} (with cross-references)
-- Homophone pair: {民族|みんぞく}↔{民俗|みんぞく} (with cross-references)
-- Multi-sense entries: {殿堂|でんどう} (2 senses), {毀損|きそん} (2 senses)
-- Cultural: {武家|ぶけ} (feudal class system), {歌謡|かよう} (Showa music), {楷書|かいしょ} (calligraphy)
-- New kanji: 2,394 → 2,396 ({楷|かい}, {毀|き})
-
-Total entries: 13,274 → 13,304 (approximate)
-Remaining candidates: 727 → 697 (30 removed)
 
 ---
 
