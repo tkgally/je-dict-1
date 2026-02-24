@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 312)
+Added 30 new dictionary entries (IDs 13129-13158) from candidate_words.json:
+
+- **Nouns (18)**: {業界|ぎょうかい} (industry), {業者|ぎょうしゃ} (vendor/contractor), {根菜|こんさい} (root vegetable), {枚数|まいすう} (number of flat objects), {棟梁|とうりょう} (master carpenter), {格|かく} (status/rank), {業種|ぎょうしゅ} (type of industry), {極|きょく} (pole/extreme), {極|きわ}み (extreme/peak), {極度|きょくど} (extreme/utmost), {桃色|ももいろ} (pink), {梨|なし} (pear), {棘|とげ} (thorn/splinter), {桶|おけ} (bucket/tub), {桜餅|さくらもち} (cherry blossom rice cake), {桜吹雪|さくらふぶき} (cherry petal shower), {本数|ほんすう} (number of long objects), {擬音|ぎおん} (onomatopoeia)
+- **Noun/no-adjectives (3)**: {業務用|ぎょうむよう} (for commercial use), {旧来|きゅうらい} (traditional), {枚挙|まいきょ} (enumeration)
+- **Noun/suru verbs (5)**: {検定|けんてい} (certification exam), {検出|けんしゅつ} (detection), {林立|りんりつ} (standing in clusters), {撃退|げきたい} (repelling), {撹乱|かくらん} (disruption)
+- **Verbs (2)**: {極|きわ}める (to master, ichidan), {案|あん}ずる (to worry, irregular)
+- **Cultural (1)**: {文楽|ぶんらく} (Bunraku puppet theater)
+- **Time (1)**: {明|あ}け (dawn/end of period)
+
+Notable features:
+- 極- cluster: {極|きょく}, {極|きわ}み, {極|きわ}める, {極度|きょくど} (with cross-references)
+- 業- cluster: {業界|ぎょうかい}, {業者|ぎょうしゃ}, {業種|ぎょうしゅ}, {業務用|ぎょうむよう}
+- Counter-number pair: {枚数|まいすう}↔{本数|ほんすう} (with cross-references)
+- 桜- pair: {桜餅|さくらもち}, {桜吹雪|さくらふぶき}
+- Multi-sense entries: {棘|とげ} (3 senses), {格|かく} (3 senses), {極|きょく} (2 senses), {検定|けんてい} (2 senses), {本数|ほんすう} (2 senses), {桃色|ももいろ} (2 senses), {案|あん}ずる (2 senses), {極|きわ}める (2 senses), {擬音|ぎおん} (2 senses), {明|あ}け (2 senses), {棟梁|とうりょう} (2 senses)
+- Cultural: {文楽|ぶんらく} (UNESCO heritage), {桜餅|さくらもち} (seasonal sweet), {桜吹雪|さくらふぶき} (poetic spring image)
+- New kanji: 2,388 → 2,393 ({撹|かく}, {梁|りょう}, {梨|なし}, {棘|とげ}, {棟|とう})
+
+Total entries: 13,184 → 13,214 (approximate)
+Remaining candidates: 493 → 463 (30 removed)
+
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 311)
 Added 30 new dictionary entries (IDs 13099-13128) from candidate_words.json:
 
