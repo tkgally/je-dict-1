@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 318)
+Added 30 new dictionary entries (IDs 13309-13338) from candidate_words.json:
+
+- **Nouns (13)**: {水中|すいちゅう} (underwater), {水平線|すいへいせん} (horizon), {清流|せいりゅう} (clear stream), {溶岩|ようがん} (lava), {漆器|しっき} (lacquerware), {深み|ふかみ} (depth), {海水|かいすい} (seawater), {湯船|ゆぶね} (bathtub), {気づき|きづき} (awareness)
+- **Na-adjectives (2)**: {浅はか|あさはか} (shallow/thoughtless), {清らか|きよらか} (pure)
+- **Noun/suru verbs (10)**: {減税|げんぜい} (tax cut), {満載|まんさい} (fully loaded), {派生|はせい} (derivation), {流入|りゅうにゅう} (influx), {流出|りゅうしゅつ} (outflow), {消滅|しょうめつ} (extinction), {混迷|こんめい} (turmoil), {減速|げんそく} (deceleration), {源泉|げんせん} (source), {漂流|ひょうりゅう} (drifting)
+- **Verbs (5)**: {渋る|しぶる} (to hesitate, godan), {浮かべる|うかべる} (to float/show expression, ichidan transitive), {添える|そえる} (to add/garnish, ichidan transitive), {演じる|えんじる} (to perform, ichidan transitive), {滅ぼす|ほろぼす} (to destroy, godan transitive)
+- **Other (2)**: {満開|まんかい} (full bloom), {湧く|わく} (to well up, godan intransitive), {湿る|しめる} (to get damp, godan intransitive), {渦巻く|うずまく} (to swirl, godan intransitive)
+
+Total entries: 13,364 → 13,394 (approximate)
+Remaining candidates: 637 → 607 (30 removed)
+
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 317)
 Added 30 new dictionary entries (IDs 13279-13308) from candidate_words.json:
 
