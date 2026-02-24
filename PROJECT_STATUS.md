@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,334 |
+| Total entries | ~13,364 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,535 (open) |
-| Candidate words | ~667 |
+| General tier | ~10,565 (open) |
+| Candidate words | ~637 |
 | Cross-references | ~3,400 |
 | Example sentences | ~46,390 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 317)
+Added 30 new dictionary entries (IDs 13279-13308) from candidate_words.json:
+
+- **Nouns (16)**: {沿岸|えんがん} (coast), {派出所|はしゅつしょ} (police box), {浮世絵|うきよえ} (ukiyo-e), {海底|かいてい} (seabed), {海賊|かいぞく} (pirate), {海軍|かいぐん} (navy), {消火|しょうか} (firefighting), {深呼吸|しんこきゅう} (deep breath), {法人|ほうじん} (corporation), {法令|ほうれい} (law/ordinance), {沢庵|たくあん} (pickled daikon), {浮き彫り|うきぼり} (relief/highlighting), {深読み|ふかよみ} (overinterpretation), {流行語|りゅうこうご} (buzzword), {浅漬け|あさづけ} (quick pickles), {洋風|ようふう} (Western-style)
+- **Na-adjective (1)**: {法的|ほうてき} (legal)
+- **I-adjective (1)**: {淡い|あわい} (faint, pale)
+- **Noun/suru verbs (7)**: {洗濯|せんたく} (laundry), {消耗|しょうもう} (consumption), {混同|こんどう} (confusion), {治癒|ちゆ} (healing), {泣き寝入り|なきねいり} (giving up without recourse), {浮気|うわき} (infidelity), {浪人|ろうにん} (ronin/exam retaker)
+- **Verbs (5)**: {沿う|そう} (to follow along, godan intransitive), {泊める|とめる} (to let stay, ichidan transitive), {浸かる|つかる} (to soak, godan intransitive), {淹れる|いれる} (to brew, ichidan transitive), {混沌|こんとん} (chaos, taru-adj)
+
+Notable features:
+- Water/liquid cluster: {沿岸|えんがん}, {海底|かいてい}, {海賊|かいぞく}, {海軍|かいぐん}, {浸かる|つかる}, {淹れる|いれる}
+- Law cluster: {法人|ほうじん}, {法令|ほうれい}, {法的|ほうてき}
+- Food cluster: {沢庵|たくあん}, {浅漬け|あさづけ}, {洋風|ようふう} (with cross-references)
+- Multi-sense entries: {沿う|そう} (2), {浮気|うわき} (2), {淡い|あわい} (2), {浸かる|つかる} (2), {浮き彫り|うきぼり} (2), {浪人|ろうにん} (2)
+- Cultural: {浮世絵|うきよえ} (Edo art), {派出所|はしゅつしょ} (police system), {浪人|ろうにん} (exam culture), {沢庵|たくあん} (Zen cuisine)
+- New kanji: 2,396 → 2,399 ({庵|あん}, {沌|とん}, {癒|ゆ})
+
+Total entries: 13,334 → 13,364 (approximate)
+Remaining candidates: 667 → 637 (30 removed)
 
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 316)
 Added 30 new dictionary entries (IDs 13249-13278) from candidate_words.json:
@@ -132,28 +152,6 @@ Notable features:
 
 Total entries: 13,214 → 13,244 (approximate)
 Remaining candidates: 463 → 433 (30 removed)
-
-### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 312)
-Added 30 new dictionary entries (IDs 13129-13158) from candidate_words.json:
-
-- **Nouns (18)**: {業界|ぎょうかい} (industry), {業者|ぎょうしゃ} (vendor/contractor), {根菜|こんさい} (root vegetable), {枚数|まいすう} (number of flat objects), {棟梁|とうりょう} (master carpenter), {格|かく} (status/rank), {業種|ぎょうしゅ} (type of industry), {極|きょく} (pole/extreme), {極|きわ}み (extreme/peak), {極度|きょくど} (extreme/utmost), {桃色|ももいろ} (pink), {梨|なし} (pear), {棘|とげ} (thorn/splinter), {桶|おけ} (bucket/tub), {桜餅|さくらもち} (cherry blossom rice cake), {桜吹雪|さくらふぶき} (cherry petal shower), {本数|ほんすう} (number of long objects), {擬音|ぎおん} (onomatopoeia)
-- **Noun/no-adjectives (3)**: {業務用|ぎょうむよう} (for commercial use), {旧来|きゅうらい} (traditional), {枚挙|まいきょ} (enumeration)
-- **Noun/suru verbs (5)**: {検定|けんてい} (certification exam), {検出|けんしゅつ} (detection), {林立|りんりつ} (standing in clusters), {撃退|げきたい} (repelling), {撹乱|かくらん} (disruption)
-- **Verbs (2)**: {極|きわ}める (to master, ichidan), {案|あん}ずる (to worry, irregular)
-- **Cultural (1)**: {文楽|ぶんらく} (Bunraku puppet theater)
-- **Time (1)**: {明|あ}け (dawn/end of period)
-
-Notable features:
-- 極- cluster: {極|きょく}, {極|きわ}み, {極|きわ}める, {極度|きょくど} (with cross-references)
-- 業- cluster: {業界|ぎょうかい}, {業者|ぎょうしゃ}, {業種|ぎょうしゅ}, {業務用|ぎょうむよう}
-- Counter-number pair: {枚数|まいすう}↔{本数|ほんすう} (with cross-references)
-- 桜- pair: {桜餅|さくらもち}, {桜吹雪|さくらふぶき}
-- Multi-sense entries: {棘|とげ} (3 senses), {格|かく} (3 senses), {極|きょく} (2 senses), {検定|けんてい} (2 senses), {本数|ほんすう} (2 senses), {桃色|ももいろ} (2 senses), {案|あん}ずる (2 senses), {極|きわ}める (2 senses), {擬音|ぎおん} (2 senses), {明|あ}け (2 senses), {棟梁|とうりょう} (2 senses)
-- Cultural: {文楽|ぶんらく} (UNESCO heritage), {桜餅|さくらもち} (seasonal sweet), {桜吹雪|さくらふぶき} (poetic spring image)
-- New kanji: 2,388 → 2,393 ({撹|かく}, {梁|りょう}, {梨|なし}, {棘|とげ}, {棟|とう})
-
-Total entries: 13,184 → 13,214 (approximate)
-Remaining candidates: 493 → 463 (30 removed)
 
 ---
 
