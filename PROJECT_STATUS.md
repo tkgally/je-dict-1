@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,364 |
+| Total entries | ~13,394 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,565 (open) |
-| Candidate words | ~637 |
+| General tier | ~10,595 (open) |
+| Candidate words | ~607 |
 | Cross-references | ~3,400 |
-| Example sentences | ~46,390 |
+| Example sentences | ~46,500 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 318)
+Added 30 new dictionary entries (IDs 13309-13338) from candidate_words.json:
+
+- **Nouns (13)**: {水中|すいちゅう} (underwater), {水平線|すいへいせん} (horizon), {清流|せいりゅう} (clear stream), {溶岩|ようがん} (lava), {漆器|しっき} (lacquerware), {深み|ふかみ} (depth), {海水|かいすい} (seawater), {湯船|ゆぶね} (bathtub), {気づき|きづき} (awareness)
+- **Na-adjectives (2)**: {浅はか|あさはか} (shallow/thoughtless), {清らか|きよらか} (pure)
+- **Noun/suru verbs (10)**: {減税|げんぜい} (tax cut), {満載|まんさい} (fully loaded), {派生|はせい} (derivation), {流入|りゅうにゅう} (influx), {流出|りゅうしゅつ} (outflow), {消滅|しょうめつ} (extinction), {混迷|こんめい} (turmoil), {減速|げんそく} (deceleration), {源泉|げんせん} (source), {漂流|ひょうりゅう} (drifting)
+- **Verbs (5)**: {渋る|しぶる} (to hesitate, godan), {浮かべる|うかべる} (to float/show expression, ichidan transitive), {添える|そえる} (to add/garnish, ichidan transitive), {演じる|えんじる} (to perform, ichidan transitive), {滅ぼす|ほろぼす} (to destroy, godan transitive)
+- **Other (2)**: {満開|まんかい} (full bloom), {湧く|わく} (to well up, godan intransitive), {湿る|しめる} (to get damp, godan intransitive), {渦巻く|うずまく} (to swirl, godan intransitive)
+
+Notable features:
+- Water/nature theme: {水中|すいちゅう}, {水平線|すいへいせん}, {清流|せいりゅう}, {海水|かいすい}, {溶岩|ようがん}, {湧く|わく}, {漂流|ひょうりゅう}
+- 流- cluster: {流入|りゅうにゅう}↔{流出|りゅうしゅつ} (antonym pair with cross-refs)
+- 減- cluster: {減税|げんぜい}, {減速|げんそく}
+- Multi-sense entries: {浮かべる|うかべる} (2), {湧く|わく} (2), {深み|ふかみ} (2), {渦巻く|うずまく} (2), {源泉|げんせん} (2)
+- Cultural: {漆器|しっき} (traditional lacquerware), {湯船|ゆぶね} (Japanese bathing), {満開|まんかい} (cherry blossom season)
+- Transitive/intransitive pairs: {浮かべる|うかべる}↔{浮かぶ|うかぶ}, {滅ぼす|ほろぼす}↔{滅びる|ほろびる}
+
+Total entries: 13,364 → 13,394 (approximate)
+Remaining candidates: 637 → 607 (30 removed)
 
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 317)
 Added 30 new dictionary entries (IDs 13279-13308) from candidate_words.json:
@@ -131,27 +151,6 @@ Notable features:
 
 Total entries: 13,244 → 13,274 (approximate)
 Remaining candidates: 757 → 727 (30 removed)
-
-### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 313)
-Added 30 new dictionary entries (IDs 13159-13188) from candidate_words.json:
-
-- **Nouns (14)**: {楽器|がっき} (musical instrument), {歌詞|かし} (lyrics), {欠片|かけら} (fragment), {次回|じかい} (next time), {標本|ひょうほん} (specimen), {標高|ひょうこう} (altitude), {構図|こうず} (composition), {機器|きき} (equipment), {楽団|がくだん} (orchestra), {楽曲|がっきょく} (musical composition), {欲|よく} (desire), {欧州|おうしゅう} (Europe), {機材|きざい} (equipment/gear), {機密|きみつ} (classified information)
-- **Na-adjectives (2)**: {極端|きょくたん} (extreme), {極秘|ごくひ} (top secret)
-- **Noun/suru verbs (7)**: {構想|こうそう} (concept/vision), {構築|こうちく} (construction), {機能|きのう} (function), {模索|もさく} (searching/exploring), {歓喜|かんき} (joy/ecstasy), {欲求|よっきゅう} (desire/urge), {歌唱|かしょう} (singing)
-- **Nouns (2)**: {次元|じげん} (dimension), {権威|けんい} (authority)
-- **Nouns (1)**: {横書|よこが}き (horizontal writing)
-- **Verbs (4)**: {欠|か}く (to lack, godan transitive), {欠|か}ける (to chip/be lacking, ichidan intransitive), {欺|あざむ}く (to deceive, godan), {横|よこ}たわる (to lie down/stretch across, godan)
-
-Notable features:
-- Transitive/intransitive pair: {欠|か}く↔{欠|か}ける (with cross-references)
-- Music cluster: {楽器|がっき}, {歌詞|かし}, {楽団|がくだん}, {楽曲|がっきょく}, {歌唱|かしょう}
-- Secrecy cluster: {極秘|ごくひ}, {機密|きみつ} (with cross-references)
-- Equipment pair: {機器|きき}↔{機材|きざい} (with cross-references)
-- Desire pair: {欲|よく}↔{欲求|よっきゅう} (with cross-references)
-- Multi-sense entries: {機能|きのう} (2 senses), {欠|か}く (2 senses), {欠|か}ける (2 senses), {欠片|かけら} (2 senses), {次元|じげん} (2 senses), {権威|けんい} (2 senses), {標本|ひょうほん} (2 senses), {構図|こうず} (2 senses), {欲|よく} (2 senses), {横|よこ}たわる (2 senses)
-
-Total entries: 13,214 → 13,244 (approximate)
-Remaining candidates: 463 → 433 (30 removed)
 
 ---
 

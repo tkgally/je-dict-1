@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 313)
+Added 30 new dictionary entries (IDs 13159-13188) from candidate_words.json:
+
+- **Nouns (14)**: {楽器|がっき} (musical instrument), {歌詞|かし} (lyrics), {欠片|かけら} (fragment), {次回|じかい} (next time), {標本|ひょうほん} (specimen), {標高|ひょうこう} (altitude), {構図|こうず} (composition), {機器|きき} (equipment), {楽団|がくだん} (orchestra), {楽曲|がっきょく} (musical composition), {欲|よく} (desire), {欧州|おうしゅう} (Europe), {機材|きざい} (equipment/gear), {機密|きみつ} (classified information)
+- **Na-adjectives (2)**: {極端|きょくたん} (extreme), {極秘|ごくひ} (top secret)
+- **Noun/suru verbs (7)**: {構想|こうそう} (concept/vision), {構築|こうちく} (construction), {機能|きのう} (function), {模索|もさく} (searching/exploring), {歓喜|かんき} (joy/ecstasy), {欲求|よっきゅう} (desire/urge), {歌唱|かしょう} (singing)
+- **Nouns (2)**: {次元|じげん} (dimension), {権威|けんい} (authority)
+- **Nouns (1)**: {横書|よこが}き (horizontal writing)
+- **Verbs (4)**: {欠|か}く (to lack, godan transitive), {欠|か}ける (to chip/be lacking, ichidan intransitive), {欺|あざむ}く (to deceive, godan), {横|よこ}たわる (to lie down/stretch across, godan)
+
+Notable features:
+- Transitive/intransitive pair: {欠|か}く↔{欠|か}ける (with cross-references)
+- Music cluster: {楽器|がっき}, {歌詞|かし}, {楽団|がくだん}, {楽曲|がっきょく}, {歌唱|かしょう}
+- Secrecy cluster: {極秘|ごくひ}, {機密|きみつ} (with cross-references)
+- Equipment pair: {機器|きき}↔{機材|きざい} (with cross-references)
+- Desire pair: {欲|よく}↔{欲求|よっきゅう} (with cross-references)
+- Multi-sense entries: {機能|きのう} (2 senses), {欠|か}く (2 senses), {欠|か}ける (2 senses), {欠片|かけら} (2 senses), {次元|じげん} (2 senses), {権威|けんい} (2 senses), {標本|ひょうほん} (2 senses), {構図|こうず} (2 senses), {欲|よく} (2 senses), {横|よこ}たわる (2 senses)
+
+Total entries: 13,214 → 13,244 (approximate)
+Remaining candidates: 463 → 433 (30 removed)
+
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 312)
 Added 30 new dictionary entries (IDs 13129-13158) from candidate_words.json:
 
