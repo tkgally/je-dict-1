@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 309)
+Added 30 new dictionary entries (IDs 13039-13068) from candidate_words.json:
+
+- **Nouns/counters (3)**: {台|だい} (stand/counter for machines), {号|ごう} (number/issue), {和|わ} (harmony/Japanese-style)
+- **Na-adjective (1)**: {急|きゅう} (sudden/steep/urgent)
+- **Nouns (12)**: {恒星|こうせい} (star), {新春|しんしゅん} (New Year), {方位|ほうい} (direction/bearing), {旧正月|きゅうしょうがつ} (Lunar New Year), {書記|しょき} (secretary/clerk), {最低限|さいていげん} (minimum), {最前線|さいぜんせん} (forefront), {最盛期|さいせいき} (peak period), {来客|らいきゃく} (visitor), {村人|むらびと} (villager), {木工|もっこう} (woodworking), {末尾|まつび} (tail end)
+- **Noun/suru verbs (6)**: {改訂|かいてい} (revision of text), {明文化|めいぶんか} (codification), {明言|めいげん} (clear statement), {新調|しんちょう} (getting new), {来日|らいにち} (coming to Japan), {来店|らいてん} (visiting a store)
+- **Noun/na-adj (1)**: {未完成|みかんせい} (incomplete)
+- **Noun (2)**: {本文|ほんぶん} (main text), {書|か}き{方|かた} (way of writing)
+- **Verbs (5)**: {映|うつ}し{出|だ}す (to project/reflect, godan), {書|か}き{入|い}れる (to write in, ichidan), {書|か}き{出|だ}す (to begin writing/list out, godan), {束|たば}ねる (to bundle/lead, ichidan), {明|あ}け{暮|く}れる (to be absorbed in, ichidan)
+
+Notable features:
+- Multi-sense entries: {台|だい} (stand/counter), {号|ごう} (issue/designation), {和|わ} (harmony/Japanese-style), {急|きゅう} (sudden/steep/urgent), {映|うつ}し{出|だ}す (project/portray), {書|か}き{出|だ}す (begin writing/list out), {束|たば}ねる (bundle/lead)
+- Homophone distinction: {改訂|かいてい} (text) vs {改定|かいてい} (standards)
+- 最- prefix cluster: {最低限|さいていげん}, {最前線|さいぜんせん}, {最盛期|さいせいき}
+- 来- pattern cluster: {来日|らいにち}, {来客|らいきゃく}, {来店|らいてん}
+- 書き- compound cluster: {書|か}き{入|い}れる, {書|か}き{出|だ}す, {書|か}き{方|かた}
+- Cultural: {和|わ} (Japanese-style prefix), {新春|しんしゅん} (New Year), {旧正月|きゅうしょうがつ} (Lunar New Year)
+
+Total entries: 13,094 → 13,124 (approximate)
+Remaining candidates: 583 → 553 (30 removed)
+
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 308)
 Added 30 new dictionary entries (IDs 13009-13038) from candidate_words.json:
 
