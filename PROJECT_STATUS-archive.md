@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 314)
+Added 30 new dictionary entries (IDs 13189-13218) from candidate_words.json:
+
+- **Nouns (16)**: {正面|しょうめん} (front/facade), {正体|しょうたい} (true identity), {正論|せいろん} (sound argument), {正念場|しょうねんば} (critical moment), {正社員|せいしゃいん} (regular employee), {歳月|さいげつ} (time/years), {死刑|しけい} (death penalty), {毒舌|どくぜつ} (sharp tongue), {母音|ぼいん} (vowel), {母方|ははかた} (maternal side), {母国語|ぼこくご} (mother tongue), {次男|じなん} (second son), {機種|きしゅ} (device model), {歩調|ほちょう} (pace/cadence), {歩み|あゆみ} (step/progress), {民家|みんか} (private house)
+- **Na-adjectives (4)**: {正当|せいとう} (legitimate), {残酷|ざんこく} (cruel), {極悪|ごくあく} (heinous), {楽ちん|らくちん} (easy/effortless)
+- **Noun/suru verbs (3)**: {欠如|けつじょ} (lack/deficiency), {毛嫌い|けぎらい} (instinctive dislike), {比例|ひれい} (proportion)
+- **Verbs (2)**: {歩む|あゆむ} (to walk/tread, godan), {歩み寄る|あゆみよる} (to compromise, godan)
+- **Adverbs/other (5)**: {毎回|まいかい} (every time), {次いで|ついで} (next/subsequently), {歴代|れきだい} (successive), {比喩|ひゆ} (metaphor), {機運|きうん} (momentum)
+
+Notable features:
+- 正- cluster: {正面|しょうめん}, {正体|しょうたい}, {正当|せいとう}, {正論|せいろん}, {正念場|しょうねんば}, {正社員|せいしゃいん}
+- 歩- cluster: {歩み|あゆみ}, {歩む|あゆむ}, {歩み寄る|あゆみよる}, {歩調|ほちょう}
+- 母- cluster: {母音|ぼいん}, {母方|ははかた}, {母国語|ぼこくご}
+- Multi-sense entries: {正面|しょうめん} (2), {歩み|あゆみ} (2), {歩む|あゆむ} (2), {歩み寄る|あゆみよる} (2), {民家|みんか} (2), {比例|ひれい} (2), {歩調|ほちょう} (2)
+- Cultural: {正社員|せいしゃいん} (Japanese employment system), {正念場|しょうねんば} (kabuki origin)
+- New kanji: 2,393 → 2,394 ({喩|ゆ})
+
+Total entries: 13,244 → 13,274 (approximate)
+Remaining candidates: 757 → 727 (30 removed)
+
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 313)
 Added 30 new dictionary entries (IDs 13159-13188) from candidate_words.json:
 
