@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-23
+**Last updated**: 2026-02-24
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,244 |
+| Total entries | ~13,274 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,445 (open) |
-| Candidate words | ~433 |
+| General tier | ~10,475 (open) |
+| Candidate words | ~727 |
 | Cross-references | ~3,400 |
-| Example sentences | ~46,170 |
+| Example sentences | ~46,280 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 314)
+Added 30 new dictionary entries (IDs 13189-13218) from candidate_words.json:
+
+- **Nouns (16)**: {正面|しょうめん} (front/facade), {正体|しょうたい} (true identity), {正論|せいろん} (sound argument), {正念場|しょうねんば} (critical moment), {正社員|せいしゃいん} (regular employee), {歳月|さいげつ} (time/years), {死刑|しけい} (death penalty), {毒舌|どくぜつ} (sharp tongue), {母音|ぼいん} (vowel), {母方|ははかた} (maternal side), {母国語|ぼこくご} (mother tongue), {次男|じなん} (second son), {機種|きしゅ} (device model), {歩調|ほちょう} (pace/cadence), {歩み|あゆみ} (step/progress), {民家|みんか} (private house)
+- **Na-adjectives (4)**: {正当|せいとう} (legitimate), {残酷|ざんこく} (cruel), {極悪|ごくあく} (heinous), {楽ちん|らくちん} (easy/effortless)
+- **Noun/suru verbs (3)**: {欠如|けつじょ} (lack/deficiency), {毛嫌い|けぎらい} (instinctive dislike), {比例|ひれい} (proportion)
+- **Verbs (2)**: {歩む|あゆむ} (to walk/tread, godan), {歩み寄る|あゆみよる} (to compromise, godan)
+- **Adverbs/other (5)**: {毎回|まいかい} (every time), {次いで|ついで} (next/subsequently), {歴代|れきだい} (successive), {比喩|ひゆ} (metaphor), {機運|きうん} (momentum)
+
+Notable features:
+- 正- cluster: {正面|しょうめん}, {正体|しょうたい}, {正当|せいとう}, {正論|せいろん}, {正念場|しょうねんば}, {正社員|せいしゃいん}
+- 歩- cluster: {歩み|あゆみ}, {歩む|あゆむ}, {歩み寄る|あゆみよる}, {歩調|ほちょう}
+- 母- cluster: {母音|ぼいん}, {母方|ははかた}, {母国語|ぼこくご}
+- Multi-sense entries: {正面|しょうめん} (2), {歩み|あゆみ} (2), {歩む|あゆむ} (2), {歩み寄る|あゆみよる} (2), {民家|みんか} (2), {比例|ひれい} (2), {歩調|ほちょう} (2)
+- Cultural: {正社員|せいしゃいん} (Japanese employment system), {正念場|しょうねんば} (kabuki origin)
+- New kanji: 2,393 → 2,394 ({喩|ゆ})
+
+Total entries: 13,244 → 13,274 (approximate)
+Remaining candidates: 757 → 727 (30 removed)
 
 ### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 313)
 Added 30 new dictionary entries (IDs 13159-13188) from candidate_words.json:
@@ -141,28 +161,6 @@ Notable features:
 
 Total entries: 13,124 → 13,154 (approximate)
 Remaining candidates: 553 → 523 (30 removed)
-
-### 2026-02-23 (Vocabulary Expansion - 30 New Entries, Session 309)
-Added 30 new dictionary entries (IDs 13039-13068) from candidate_words.json:
-
-- **Nouns/counters (3)**: {台|だい} (stand/counter for machines), {号|ごう} (number/issue), {和|わ} (harmony/Japanese-style)
-- **Na-adjective (1)**: {急|きゅう} (sudden/steep/urgent)
-- **Nouns (12)**: {恒星|こうせい} (star), {新春|しんしゅん} (New Year), {方位|ほうい} (direction/bearing), {旧正月|きゅうしょうがつ} (Lunar New Year), {書記|しょき} (secretary/clerk), {最低限|さいていげん} (minimum), {最前線|さいぜんせん} (forefront), {最盛期|さいせいき} (peak period), {来客|らいきゃく} (visitor), {村人|むらびと} (villager), {木工|もっこう} (woodworking), {末尾|まつび} (tail end)
-- **Noun/suru verbs (6)**: {改訂|かいてい} (revision of text), {明文化|めいぶんか} (codification), {明言|めいげん} (clear statement), {新調|しんちょう} (getting new), {来日|らいにち} (coming to Japan), {来店|らいてん} (visiting a store)
-- **Noun/na-adj (1)**: {未完成|みかんせい} (incomplete)
-- **Noun (2)**: {本文|ほんぶん} (main text), {書|か}き{方|かた} (way of writing)
-- **Verbs (5)**: {映|うつ}し{出|だ}す (to project/reflect, godan), {書|か}き{入|い}れる (to write in, ichidan), {書|か}き{出|だ}す (to begin writing/list out, godan), {束|たば}ねる (to bundle/lead, ichidan), {明|あ}け{暮|く}れる (to be absorbed in, ichidan)
-
-Notable features:
-- Multi-sense entries: {台|だい} (stand/counter), {号|ごう} (issue/designation), {和|わ} (harmony/Japanese-style), {急|きゅう} (sudden/steep/urgent), {映|うつ}し{出|だ}す (project/portray), {書|か}き{出|だ}す (begin writing/list out), {束|たば}ねる (bundle/lead)
-- Homophone distinction: {改訂|かいてい} (text) vs {改定|かいてい} (standards)
-- 最- prefix cluster: {最低限|さいていげん}, {最前線|さいぜんせん}, {最盛期|さいせいき}
-- 来- pattern cluster: {来日|らいにち}, {来客|らいきゃく}, {来店|らいてん}
-- 書き- compound cluster: {書|か}き{入|い}れる, {書|か}き{出|だ}す, {書|か}き{方|かた}
-- Cultural: {和|わ} (Japanese-style prefix), {新春|しんしゅん} (New Year), {旧正月|きゅうしょうがつ} (Lunar New Year)
-
-Total entries: 13,094 → 13,124 (approximate)
-Remaining candidates: 583 → 553 (30 removed)
 
 ---
 
