@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,574 |
+| Total entries | ~13,604 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,775 (open) |
-| Candidate words | ~6,195 |
+| General tier | ~10,805 (open) |
+| Candidate words | ~6,165 |
 | Cross-references | ~3,400 |
-| Example sentences | ~46,800 |
+| Example sentences | ~46,900 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 325)
+Added 30 new dictionary entries (IDs 13519-13548) from candidate_words.json:
+
+- **Food noun (1)**: {甘酒|あまざけ} (amazake)
+- **I-adjective (1)**: {甚|はなは}だしい (extreme, excessive)
+- **Godan verbs (2)**: {生|い}き{残|のこ}る (to survive), {生|う}まれ{変|か}わる (to be reborn)
+- **生- cluster (4)**: {生業|なりわい} (livelihood), {生計|せいけい} (living), {生息|せいそく} (inhabiting), {生態|せいたい} (ecology)
+- **Na-adjectives (2)**: {無作法|ぶさほう} (ill-mannered), {無様|ぶざま} (unsightly)
+- **王- cluster (3)**: {王宮|おうきゅう} (royal palace), {王者|おうじゃ} (king/champion), {王家|おうけ} (royal family)
+- **特- cluster (2)**: {特製|とくせい} (specially made), {特質|とくしつ} (characteristic)
+- **Noun/suru verbs (3)**: {献上|けんじょう} (offering), {現存|げんそん} (extant), {混濁|こんだく} (turbidity)
+- **Other nouns (12)**: {甥|おい} (nephew), {用品|ようひん} (supplies), {田畑|たはた} (farmland), {深紅|しんく} (crimson), {火消|ひけ}し (firefighter/damage control), {物欲|ぶつよく} (materialism), {狭義|きょうぎ} (narrow sense), {産声|うぶごえ} (first cry), {産物|さんぶつ} (product), {用心棒|ようじんぼう} (bodyguard), {用法|ようほう} (usage), {瓢箪|ひょうたん} (gourd)
+
+Notable features:
+- 生- cluster: 4 entries covering livelihood, living, inhabiting, and ecology
+- 王- cluster: 3 entries covering palaces, champions, and royal families
+- Multi-sense entries: {生|い}き{残|のこ}る (2: physical + competitive survival), {生|う}まれ{変|か}わる (2: reincarnation + transformation), {火消|ひけ}し (2: historical firefighter + damage control), {産声|うぶごえ} (2: literal first cry + figurative founding), {産物|さんぶつ} (2: physical product + result of circumstances), {王者|おうじゃ} (2: king + champion), {用心棒|ようじんぼう} (2: bodyguard + door bar), {混濁|こんだく} (2: turbidity + confusion)
+- Cultural: {甘酒|あまざけ} (New Year's shrine drink), {瓢箪|ひょうたん} (Hideyoshi's emblem, proverb), {火消|ひけ}し (Edo firefighters), {献上|けんじょう} (imperial offerings), {用心棒|ようじんぼう} (Kurosawa film)
+- New kanji: 2,410 → 2,411 ({甥|せい})
+
+Total entries: 13,574 → 13,604 (approximate)
+Remaining candidates: 6,195 → 6,165 (30 removed)
 
 ### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 324)
 Added 30 new dictionary entries (IDs 13489-13518) from candidate_words.json:
@@ -142,29 +165,6 @@ Notable features:
 
 Total entries: 13,454 → 13,484 (approximate)
 Remaining candidates: 547 → 517 (30 removed)
-
-### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 320)
-Added 30 new dictionary entries (IDs 13369-13398) from candidate_words.json:
-
-- **Nouns (14)**: {炭|すみ} (charcoal), {炭酸|たんさん} (carbonation), {炊飯|すいはん} (rice cooking), {火花|ひばな} (spark), {灯|あか}り (lamplight), {海産物|かいさんぶつ} (marine products), {湾岸|わんがん} (bay area), {漢方|かんぽう} (kampo medicine), {漢文|かんぶん} (classical Chinese writing), {無罪|むざい} (not guilty), {無言|むごん} (silence), {無効|むこう} (invalid), {無職|むしょく} (unemployed), {無人|むじん} (unmanned)
-- **Noun/suru verbs (7)**: {激動|げきどう} (upheaval), {激化|げきか} (intensification), {濃縮|のうしゅく} (concentration), {火葬|かそう} (cremation), {潜入|せんにゅう} (infiltration), {潜在|せんざい} (latent), {点在|てんざい} (scattered), {流用|りゅうよう} (diversion)
-- **Verbs (3)**: {澄|す}む (to become clear, godan intransitive), {灯|とも}る (to be lit, godan intransitive), {火照|ほて}る (to flush, godan intransitive)
-- **Na-adjective/noun (3)**: {激安|げきやす} (dirt cheap), {無茶|むちゃ} (unreasonable)
-- **I-adjective (1)**: {温|あたた}かい (warm)
-- **Adverb/noun (1)**: {無断|むだん} (without permission)
-
-Notable features:
-- 無- cluster: {無断|むだん}, {無罪|むざい}, {無言|むごん}, {無効|むこう}, {無職|むしょく}, {無茶|むちゃ}, {無人|むじん}
-- 激- cluster: {激動|げきどう}, {激化|げきか}, {激安|げきやす}
-- Fire/light cluster: {火花|ひばな}, {火葬|かそう}, {火照|ほて}る, {灯|あか}り, {灯|とも}る, {炭|すみ}, {炭酸|たんさん}
-- 潜- pair: {潜入|せんにゅう} (infiltration) ↔ {潜在|せんざい} (latent)
-- Multi-sense entries: {潮|しお} (2), {澄|す}む (2), {炭酸|たんさん} (2), {火花|ひばな} (2), {無人|むじん} (2), {流用|りゅうよう} (2), {温|あたた}かい (2)
-- Kanji contrast: {温|あたた}かい vs {暖|あたた}かい (food/feelings vs weather/climate)
-- Cultural: {漢方|かんぽう} (traditional medicine), {漢文|かんぶん} (classical Chinese study), {火葬|かそう} (cremation customs), {炭|すみ} (charcoal in tea ceremony)
-- New kanji: 2,400 → 2,401 ({澄|すむ})
-
-Total entries: 13,424 → 13,454 (approximate)
-Remaining candidates: 577 → 547 (30 removed)
 
 ---
 
