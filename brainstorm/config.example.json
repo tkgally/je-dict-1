@@ -1,0 +1,16 @@
+{
+  "openrouter_api_key": "YOUR_OPENROUTER_API_KEY_HERE",
+  "model": "MODEL_NAME_HERE",
+  "temperature": 0.8,
+  "max_tokens": 4096,
+  "batch_size": 15,
+  "relation_types": [
+    "synonyms and near-synonyms (same meaning, different register or nuance)",
+    "antonyms (direct opposites)",
+    "same semantic field (words in the same category)",
+    "same-kanji compounds (other common words using the same kanji)",
+    "register variants (formal/informal pairs, written/spoken variants)",
+    "collocational partners (words that naturally pair with the seed)",
+    "situationally related (words a learner would need in the same context)"
+  ]
+}
