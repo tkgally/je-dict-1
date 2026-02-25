@@ -4,20 +4,20 @@ Run the brainstorming pipeline to discover candidate words for the dictionary us
 
 ## How it works
 
-The pipeline selects batches of seed words from `brainstorm/entries_and_candidates_for_LLM_brainstorming.json`, sends them to an LLM, and collects related word suggestions. Suggestions are programmatically filtered against all existing entries and candidates, deduplicated against previous runs, and saved to an output file.
+The pipeline selects batches of seed words from `entries_and_candidates_for_LLM_brainstorming.json`, sends them to an LLM, and collects related word suggestions. Suggestions are programmatically filtered against all existing entries and candidates, deduplicated against previous runs, and saved to an output file.
 
 ## Prerequisites
 
 Before running, ensure:
-1. `brainstorm/entries_and_candidates_for_LLM_brainstorming.json` exists (copy from `prompts/` if needed)
-2. `brainstorm/config.json` exists and has your OpenRouter API key and model name filled in (copy from `config.example.json` if needed)
+1. `entries_and_candidates_for_LLM_brainstorming.json` exists
+2. `config.json` exists and has your OpenRouter API key and model name filled in
 
 ## Steps
 
 ### 1. Check current status
 
 ```bash
-python3 brainstorm/llm_brainstorm.py --stats
+python3 llm_brainstorm.py --stats
 ```
 
 Report the statistics: total entries, checked/unchecked counts, and any existing output files.
@@ -28,14 +28,14 @@ Run batches. Start with a small number to verify things work, then scale up:
 
 ```bash
 # Run 5 batches (each batch = 15 seed words, generating ~75-225 candidate suggestions)
-python3 brainstorm/llm_brainstorm.py -n 5
+python3 llm_brainstorm.py -n 5
 ```
 
 For a longer session:
 
 ```bash
 # Run 20 batches
-python3 brainstorm/llm_brainstorm.py -n 20
+python3 llm_brainstorm.py -n 20
 ```
 
 Monitor the output. For each batch the script reports:
@@ -46,7 +46,7 @@ Monitor the output. For each batch the script reports:
 
 ### 3. Review results
 
-After running, check the output file (`brainstorm/new_candidates_by_{model}.json`). Look for:
+After running, check the output file (`new_candidates_by_{model}.json`). Look for:
 - **False positives**: words that are not real Japanese, are proper nouns, or are too obscure
 - **Reading errors**: incorrect hiragana readings
 - **Gloss quality**: glosses should be brief and accurate
@@ -59,7 +59,7 @@ If the results look problematic, consider adjusting `config.json`:
 ### 4. Show final statistics
 
 ```bash
-python3 brainstorm/llm_brainstorm.py --stats
+python3 llm_brainstorm.py --stats
 ```
 
 ### 5. Report to user
@@ -72,7 +72,7 @@ Summarize:
 
 ## Configuration reference
 
-`brainstorm/config.json` fields:
+`config.json` fields:
 
 | Field | Description |
 |-------|-------------|
@@ -86,12 +86,8 @@ Summarize:
 ## Commands reference
 
 ```bash
-python3 brainstorm/llm_brainstorm.py --stats           # Show statistics
-python3 brainstorm/llm_brainstorm.py -n 1              # Run 1 batch
-python3 brainstorm/llm_brainstorm.py -n 10             # Run 10 batches
-python3 brainstorm/llm_brainstorm.py --reset-checked   # Reset all checked flags
+python3 llm_brainstorm.py --stats           # Show statistics
+python3 llm_brainstorm.py -n 1              # Run 1 batch
+python3 llm_brainstorm.py -n 10             # Run 10 batches
+python3 llm_brainstorm.py --reset-checked   # Reset all checked flags
 ```
-
-## Later: importing results into candidate_words.json
-
-The output file is a standalone JSON file. In a separate step (not part of this pipeline), candidates from this file can be reviewed and selectively imported into `candidate_words.json` using `python3 build/manage_candidates.py add`. That import step includes its own duplicate checking.
