@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-24
+**Last updated**: 2026-02-25
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,544 |
+| Total entries | ~13,574 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,745 (open) |
-| Candidate words | ~457 |
+| General tier | ~10,775 (open) |
+| Candidate words | ~6,195 |
 | Cross-references | ~3,400 |
-| Example sentences | ~46,600 |
+| Example sentences | ~46,800 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 324)
+Added 30 new dictionary entries (IDs 13489-13518) from candidate_words.json:
+
+- **Food noun (1)**: {焼売|しゅうまい} (shumai)
+- **Na-adjectives (4)**: {猛烈|もうれつ} (fierce), {率直|そっちょく} (frank), {無造作|むぞうさ} (casual/careless), {無差別|むさべつ} (indiscriminate)
+- **I-adjective (1)**: {狭苦|せまくる}しい (cramped)
+- **特- cluster (4)**: {特権|とっけん} (privilege), {特例|とくれい} (special case), {特筆|とくひつ} (special mention), {特性|とくせい} (characteristic)
+- **現- cluster (3)**: {現地|げんち} (local/on-site), {現行|げんこう} (current/in force), {現職|げんしょく} (incumbent)
+- **王- cluster (2)**: {王道|おうどう} (classic approach/royal road), {王朝|おうちょう} (dynasty)
+- **Noun/suru verbs (6)**: {独占|どくせん} (monopoly), {猶予|ゆうよ} (postponement), {献金|けんきん} (donation), {牽引|けんいん} (towing/leading), {狩猟|しゅりょう} (hunting), {爆破|ばくは} (blasting)
+- **Verb (1)**: {燃|も}え{上|あ}がる (to flare up, godan intransitive)
+- **Other nouns (8)**: {狭間|はざま} (gap/between), {片腕|かたうで} (one arm/right-hand man), {灯火|ともしび} (lamplight), {減益|げんえき} (profit decline), {漉|こ}す (to strain), {熊手|くまで} (rake/lucky charm), {獅子舞|ししまい} (lion dance), {物体|ぶったい} (object)
+
+Notable features:
+- 特- cluster: 4 entries covering rights, exceptions, noteworthy mentions, and properties
+- 現- cluster: 3 entries covering location, laws, and positions
+- 王- cluster: 2 entries covering mainstream/classic and dynasty
+- Multi-sense entries: {独占|どくせん} (2: monopoly + exclusive possession), {牽引|けんいん} (2: towing + leading), {片腕|かたうで} (2: one arm + right-hand man), {王道|おうどう} (2: classic + royal road), {燃|も}え{上|あ}がる (2: flare up + passion), {現職|げんしょく} (2: incumbent + current position), {熊手|くまで} (2: rake + lucky charm)
+- Cultural: {獅子舞|ししまい} (lion dance traditions), {熊手|くまで} (Tori-no-Ichi festival), {王朝|おうちょう} (Heian court culture)
+- Legal/business: {猶予|ゆうよ} (suspended sentence), {献金|けんきん} (political donations), {特権|とっけん} (diplomatic immunity), {減益|げんえき} (earnings reports)
+- New kanji: 2,405 → 2,410 ({漉|ろく}, {烈|れつ}, {牽|けん}, {猟|りょう}, {猶|ゆう})
+
+Total entries: 13,544 → 13,574 (approximate)
+Remaining candidates: 6,225 → 6,195 (30 removed)
 
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 323)
 Added 30 new dictionary entries (IDs 13459-13488) from candidate_words.json:
@@ -140,26 +165,6 @@ Notable features:
 
 Total entries: 13,424 → 13,454 (approximate)
 Remaining candidates: 577 → 547 (30 removed)
-
-### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 319)
-Added 30 new dictionary entries (IDs 13339-13368) from candidate_words.json:
-
-- **Verbs (8)**: {浸る|ひたる} (to be immersed, godan intransitive), {清める|きよめる} (to purify, ichidan transitive), {泣きじゃくる|なきじゃくる} (to sob, godan intransitive), {泣き崩れる|なきくずれる} (to break down in tears, ichidan intransitive), {決め込む|きめこむ} (to assume/pretend, godan transitive), {添う|そう} (to accompany/marry, godan intransitive), {減じる|げんじる} (to reduce, ichidan), {換える|かえる} (to exchange, ichidan transitive)
-- **Nouns (15)**: {深入り|ふかいり} (overinvolvement), {渦中|かちゅう} (in the midst of), {渾身|こんしん} (with all one's might), {浴場|よくじょう} (bathhouse), {消失|しょうしつ} (disappearance), {混在|こんざい} (intermingling), {添加|てんか} (addition of substances), {清酒|せいしゅ} (refined sake), {減量|げんりょう} (weight reduction), {渡来|とらい} (arrival from abroad), {満了|まんりょう} (expiration), {満天|まんてん} (whole sky), {源流|げんりゅう} (headwaters/origin), {漏れ|もれ} (leak/omission), {流儀|りゅうぎ} (style/manner)
-- **Noun/suru verbs (5)**: {滅亡|めつぼう} (downfall), {演習|えんしゅう} (exercise/drill), {混浴|こんよく} (mixed bathing), {深入り|ふかいり}, {消失|しょうしつ}
-- **Other (2)**: {滅多|めった} (rarely/reckless, adverb/na-adj), {法被|はっぴ} (happi coat), {流派|りゅうは} (school/style), {海女|あま} (ama diver)
-
-Notable features:
-- Crying cluster: {泣きじゃくる|なきじゃくる} (to sob) ↔ {泣き崩れる|なきくずれる} (to break down in tears)
-- 流- cluster: {流儀|りゅうぎ} (personal style) ↔ {流派|りゅうは} (school/tradition)
-- 減- cluster: {減じる|げんじる} (to reduce), {減量|げんりょう} (weight loss)
-- Water/bathing: {浴場|よくじょう}, {混浴|こんよく}, {清酒|せいしゅ}, {浸る|ひたる}
-- Multi-sense entries: {浸る|ひたる} (2), {清める|きよめる} (2), {決め込む|きめこむ} (2), {添う|そう} (2), {源流|げんりゅう} (2), {滅多|めった} (2), {漏れ|もれ} (2), {演習|えんしゅう} (2), {換える|かえる} (1, with kanji distinction notes)
-- Cultural: {法被|はっぴ} (festival coat), {海女|あま} (pearl diving), {混浴|こんよく} (bathing customs), {清める|きよめる} (Shinto purification), {清酒|せいしゅ} (sake)
-- New kanji: 2,399 → 2,400 ({渾|こん})
-
-Total entries: 13,394 → 13,424 (approximate)
-Remaining candidates: 607 → 577 (30 removed)
 
 ---
 

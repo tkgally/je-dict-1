@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 319)
+Added 30 new dictionary entries (IDs 13339-13368) from candidate_words.json:
+
+- **Verbs (8)**: {浸る|ひたる} (to be immersed, godan intransitive), {清める|きよめる} (to purify, ichidan transitive), {泣きじゃくる|なきじゃくる} (to sob, godan intransitive), {泣き崩れる|なきくずれる} (to break down in tears, ichidan intransitive), {決め込む|きめこむ} (to assume/pretend, godan transitive), {添う|そう} (to accompany/marry, godan intransitive), {減じる|げんじる} (to reduce, ichidan), {換える|かえる} (to exchange, ichidan transitive)
+- **Nouns (15)**: {深入り|ふかいり} (overinvolvement), {渦中|かちゅう} (in the midst of), {渾身|こんしん} (with all one's might), {浴場|よくじょう} (bathhouse), {消失|しょうしつ} (disappearance), {混在|こんざい} (intermingling), {添加|てんか} (addition of substances), {清酒|せいしゅ} (refined sake), {減量|げんりょう} (weight reduction), {渡来|とらい} (arrival from abroad), {満了|まんりょう} (expiration), {満天|まんてん} (whole sky), {源流|げんりゅう} (headwaters/origin), {漏れ|もれ} (leak/omission), {流儀|りゅうぎ} (style/manner)
+- **Noun/suru verbs (5)**: {滅亡|めつぼう} (downfall), {演習|えんしゅう} (exercise/drill), {混浴|こんよく} (mixed bathing), {深入り|ふかいり}, {消失|しょうしつ}
+- **Other (2)**: {滅多|めった} (rarely/reckless, adverb/na-adj), {法被|はっぴ} (happi coat), {流派|りゅうは} (school/style), {海女|あま} (ama diver)
+
+Notable features:
+- Crying cluster: {泣きじゃくる|なきじゃくる} (to sob) ↔ {泣き崩れる|なきくずれる} (to break down in tears)
+- 流- cluster: {流儀|りゅうぎ} (personal style) ↔ {流派|りゅうは} (school/tradition)
+- 減- cluster: {減じる|げんじる} (to reduce), {減量|げんりょう} (weight loss)
+- Water/bathing: {浴場|よくじょう}, {混浴|こんよく}, {清酒|せいしゅ}, {浸る|ひたる}
+- Multi-sense entries: {浸る|ひたる} (2), {清める|きよめる} (2), {決め込む|きめこむ} (2), {添う|そう} (2), {源流|げんりゅう} (2), {滅多|めった} (2), {漏れ|もれ} (2), {演習|えんしゅう} (2), {換える|かえる} (1, with kanji distinction notes)
+- Cultural: {法被|はっぴ} (festival coat), {海女|あま} (pearl diving), {混浴|こんよく} (bathing customs), {清める|きよめる} (Shinto purification), {清酒|せいしゅ} (sake)
+- New kanji: 2,399 → 2,400 ({渾|こん})
+
+Total entries: 13,394 → 13,424 (approximate)
+Remaining candidates: 607 → 577 (30 removed)
+
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 318)
 Added 30 new dictionary entries (IDs 13309-13338) from candidate_words.json:
 
