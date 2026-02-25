@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,604 |
+| Total entries | ~13,634 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,805 (open) |
-| Candidate words | ~6,165 |
+| General tier | ~10,835 (open) |
+| Candidate words | ~6,135 |
 | Cross-references | ~3,400 |
-| Example sentences | ~46,900 |
+| Example sentences | ~47,000 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 326)
+Added 30 new dictionary entries (IDs 13549-13578) from candidate_words.json:
+
+- **異- cluster (8)**: {異様|いよう} (bizarre), {異論|いろん} (dissenting opinion), {異議|いぎ} (objection), {異例|いれい} (exceptional), {異性|いせい} (opposite sex), {異質|いしつ} (heterogeneous), {異端|いたん} (heresy)
+- **略- cluster (3)**: {略称|りゃくしょう} (abbreviation), {略歴|りゃくれき} (brief bio), {略奪|りゃくだつ} (plunder)
+- **特- cluster (2)**: {特異|とくい} (peculiar), {特段|とくだん} (particularly)
+- **現- cluster (2)**: {現時点|げんじてん} (at this point), {現物|げんぶつ} (the real thing)
+- **町- cluster (2)**: {町内|ちょうない} (neighborhood), {町|まち}おこし (town revitalization)
+- **I-adjective (1)**: {甲高|かんだか}い (shrill)
+- **Na-adjective/noun (1)**: {男前|おとこまえ} (handsome/cool)
+- **Noun/suru verbs (4)**: {疎外|そがい} (alienation), {産卵|さんらん} (egg-laying), {生還|せいかん} (survival), {畏怖|いふ} (awe)
+- **Other nouns (7)**: {画像|がぞう} (image), {理事|りじ} (director), {申|もう}し{出|で} (offer), {甘味|かんみ} (sweetness/dessert), {無形|むけい} (intangible), {生協|せいきょう} (co-op), {用例|ようれい} (usage example)
+
+Notable features:
+- 異- cluster: 7 entries covering deviation, dissent, formality, gender, nature, and doctrine
+- Multi-sense entries: {現物|げんぶつ} (2: real thing + spot goods), {生還|せいかん} (2: survival + baseball scoring), {甘味|かんみ} (2: sweetness + dessert), {男前|おとこまえ} (2: handsome + admirably bold)
+- Formal register: {異議|いぎ} (courtroom), {異論|いろん} (meetings), {現時点|げんじてん} (news/business), {特段|とくだん} (official), {略歴|りゃくれき} (professional), {理事|りじ} (governance)
+- Cultural: {町|まち}おこし (regional revitalization movement), {甘味|かんみ}{処|どころ} (traditional sweets shops), {生協|せいきょう} (university co-ops), {無形|むけい}{文化|ぶんか}{財|ざい} (UNESCO heritage)
+- Homophone cross-refs: {異議|いぎ}↔{意義|いぎ}, {特異|とくい}↔{得意|とくい}, {異性|いせい}↔{威勢|いせい}
+
+Total entries: 13,604 → 13,634 (approximate)
+Remaining candidates: 6,165 → 6,135 (30 removed)
 
 ### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 325)
 Added 30 new dictionary entries (IDs 13519-13548) from candidate_words.json:
@@ -143,28 +166,6 @@ Notable features:
 
 Total entries: 13,484 → 13,514 (approximate)
 Remaining candidates: 517 → 487 (30 removed)
-
-### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 321)
-Added 30 new dictionary entries (IDs 13399-13428) from candidate_words.json:
-
-- **Verbs (6)**: {替|か}える (to replace, ichidan transitive), {有|ゆう}する (to possess, suru formal), {瀕|ひん}する (to be on the verge of, suru), {炒|い}る (to roast, godan transitive), {点|た}てる (to make tea, ichidan transitive), {煮立|にた}つ (to come to a boil, godan intransitive)
-- **Food nouns (5)**: {焼|や}きそば (fried noodles), {焼|や}き{魚|ざかな} (grilled fish), {煎茶|せんちゃ} (sencha green tea), {煮干|にぼ}し (dried sardines for broth), {点心|てんしん} (dim sum)
-- **Light/fire nouns (4)**: {灯籠|とうろう} (lantern), {灯|ともしび} (light/lamp), {火種|ひだね} (ember/source of conflict), {火星|かせい} (Mars)
-- **General nouns (4)**: {焦点|しょうてん} (focus/focal point), {熟成|じゅくせい} (aging/maturation), {激戦|げきせん} (fierce battle), {激突|げきとつ} (clash/collision)
-- **Na-adjectives/nouns (7)**: {濃密|のうみつ} (dense/intense), {無力|むりょく} (powerless), {無名|むめい} (unknown), {無垢|むく} (pure/innocent), {無謀|むぼう} (reckless), {無関心|むかんしん} (indifferent), {無常|むじょう} (impermanence)
-- **Other (4)**: {漫然|まんぜん} (aimlessly, adverb), {潮流|ちょうりゅう} (tidal current/trend), {煙幕|えんまく} (smokescreen), {演目|えんもく} (program item)
-
-Notable features:
-- 無- cluster: {無力|むりょく}, {無名|むめい}, {無垢|むく}, {無常|むじょう}, {無謀|むぼう}, {無関心|むかんしん}
-- Food/cooking cluster: {焼|や}きそば, {焼|や}き{魚|ざかな}, {煎茶|せんちゃ}, {煮干|にぼ}し, {点心|てんしん}, {炒|い}る, {煮立|にた}つ, {点|た}てる, {熟成|じゅくせい}
-- Fire/light cluster: {灯籠|とうろう}, {灯|ともしび}, {火種|ひだね}, {火星|かせい}
-- Multi-sense entries: {灯|ともしび} (2), {火種|ひだね} (2), {焦点|しょうてん} (2), {激戦|げきせん} (2), {激突|げきとつ} (2), {潮流|ちょうりゅう} (2), {濃密|のうみつ} (2), {無名|むめい} (2), {無垢|むく} (2), {煙幕|えんまく} (2)
-- Cultural: {無常|むじょう} (Buddhist impermanence), {点|た}てる (tea ceremony), {灯籠|とうろう} (Obon lanterns), {煎茶|せんちゃ} (tea varieties)
-- Kanji contrast: {替|か}える vs {変|か}える vs {代|か}える (replace vs change vs substitute)
-- New kanji: 2,401 → 2,402 ({瀕|ひん})
-
-Total entries: 13,454 → 13,484 (approximate)
-Remaining candidates: 547 → 517 (30 removed)
 
 ---
 
