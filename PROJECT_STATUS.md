@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,724 |
+| Total entries | ~13,754 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,925 (open) |
-| Candidate words | ~6,045 |
+| General tier | ~10,955 (open) |
+| Candidate words | ~6,015 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,300 |
+| Example sentences | ~47,400 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 330)
+Added 30 new dictionary entries (IDs 13669-13698) from candidate_words.json:
+
+- **Nouns (13)**: {矢印|やじるし} (arrow sign), {眠|ねむ}り (sleep), {短冊|たんざく} (tanzaku strip), {白湯|さゆ} (plain hot water), {盃|さかずき} (sake cup), {硫黄|いおう} (sulfur), {白書|はくしょ} (white paper), {白身|しろみ} (white meat/egg white), {直球|ちょっきゅう} (fastball/directness), {知性|ちせい} (intelligence), {盛|も}り (food serving), {盛|も}り{上|あ}がり (excitement), {知見|ちけん} (knowledge/findings)
+- **Na-adjective (1)**: {真摯|しんし} (sincere)
+- **I-adjectives (1)**: {真新|まあたら}しい (brand new)
+- **Noun/suru verbs (7)**: {破壊|はかい} (destruction), {破損|はそん} (damage), {確保|かくほ} (securing), {確信|かくしん} (conviction), {着用|ちゃくよう} (wearing), {登壇|とうだん} (taking the stage), {直視|ちょくし} (looking squarely), {発声|はっせい} (vocalization)
+- **Ichidan verbs (3)**: {睨|にら}みつける (to glare at), {着|き}せる (to dress someone), {痛|いた}めつける (to torment)
+- **Godan verb (1)**: {研|と}ぎ{澄|す}ます (to hone/sharpen)
+- **Multi-sense noun (3)**: {目覚|めざ}め (2: waking + figurative awakening), {目前|もくぜん} (2: before eyes + imminent), {真髄|しんずい} (1: essence)
+
+Notable features:
+- Multi-sense entries: {破壊|はかい} (2: physical + figurative destruction), {着|き}せる (2: dress someone + place blame), {直球|ちょっきゅう} (2: fastball + being direct), {白身|しろみ} (2: white fish + egg white), {目覚|めざ}め (2: waking + awakening), {目前|もくぜん} (2: before eyes + imminent), {盛|も}り{上|あ}がり (2: excitement + physical swell)
+- Cultural: {短冊|たんざく} (Tanabata strips), {盃|さかずき} (ceremonial sake cups, {三々九度|さんさんくど}), {白湯|さゆ} (health trend)
+- Homophone cross-refs: {確信|かくしん}↔{核心|かくしん}↔{革新|かくしん}, {発声|はっせい}↔{発生|はっせい}, {破損|はそん}↔{破壊|はかい} (contrast)
+- New kanji: 2,418 → 2,421 ({摯|し}, {盃|はい}, {硫|りゅう})
+
+Total entries: 13,724 → 13,754 (approximate)
+Remaining candidates: 6,045 → 6,015 (30 removed)
 
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 329)
 Added 30 new dictionary entries (IDs 13639-13668) from candidate_words.json:
@@ -152,29 +172,6 @@ Notable features:
 
 Total entries: 13,604 → 13,634 (approximate)
 Remaining candidates: 6,165 → 6,135 (30 removed)
-
-### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 325)
-Added 30 new dictionary entries (IDs 13519-13548) from candidate_words.json:
-
-- **Food noun (1)**: {甘酒|あまざけ} (amazake)
-- **I-adjective (1)**: {甚|はなは}だしい (extreme, excessive)
-- **Godan verbs (2)**: {生|い}き{残|のこ}る (to survive), {生|う}まれ{変|か}わる (to be reborn)
-- **生- cluster (4)**: {生業|なりわい} (livelihood), {生計|せいけい} (living), {生息|せいそく} (inhabiting), {生態|せいたい} (ecology)
-- **Na-adjectives (2)**: {無作法|ぶさほう} (ill-mannered), {無様|ぶざま} (unsightly)
-- **王- cluster (3)**: {王宮|おうきゅう} (royal palace), {王者|おうじゃ} (king/champion), {王家|おうけ} (royal family)
-- **特- cluster (2)**: {特製|とくせい} (specially made), {特質|とくしつ} (characteristic)
-- **Noun/suru verbs (3)**: {献上|けんじょう} (offering), {現存|げんそん} (extant), {混濁|こんだく} (turbidity)
-- **Other nouns (12)**: {甥|おい} (nephew), {用品|ようひん} (supplies), {田畑|たはた} (farmland), {深紅|しんく} (crimson), {火消|ひけ}し (firefighter/damage control), {物欲|ぶつよく} (materialism), {狭義|きょうぎ} (narrow sense), {産声|うぶごえ} (first cry), {産物|さんぶつ} (product), {用心棒|ようじんぼう} (bodyguard), {用法|ようほう} (usage), {瓢箪|ひょうたん} (gourd)
-
-Notable features:
-- 生- cluster: 4 entries covering livelihood, living, inhabiting, and ecology
-- 王- cluster: 3 entries covering palaces, champions, and royal families
-- Multi-sense entries: {生|い}き{残|のこ}る (2: physical + competitive survival), {生|う}まれ{変|か}わる (2: reincarnation + transformation), {火消|ひけ}し (2: historical firefighter + damage control), {産声|うぶごえ} (2: literal first cry + figurative founding), {産物|さんぶつ} (2: physical product + result of circumstances), {王者|おうじゃ} (2: king + champion), {用心棒|ようじんぼう} (2: bodyguard + door bar), {混濁|こんだく} (2: turbidity + confusion)
-- Cultural: {甘酒|あまざけ} (New Year's shrine drink), {瓢箪|ひょうたん} (Hideyoshi's emblem, proverb), {火消|ひけ}し (Edo firefighters), {献上|けんじょう} (imperial offerings), {用心棒|ようじんぼう} (Kurosawa film)
-- New kanji: 2,410 → 2,411 ({甥|せい})
-
-Total entries: 13,574 → 13,604 (approximate)
-Remaining candidates: 6,195 → 6,165 (30 removed)
 
 ---
 
