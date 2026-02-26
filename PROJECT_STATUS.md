@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,754 |
+| Total entries | ~13,784 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,955 (open) |
-| Candidate words | ~6,015 |
+| General tier | ~10,985 (open) |
+| Candidate words | ~5,985 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,400 |
+| Example sentences | ~47,500 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 331)
+Added 30 new dictionary entries (IDs 13699-13728) from candidate_words.json:
+
+- **Nouns (12)**: {真意|しんい} (true intention), {省庁|しょうちょう} (government ministries), {着想|ちゃくそう} (idea/inspiration), {異物|いぶつ} (foreign body), {画集|がしゅう} (art book), {白玉|しらたま} (rice flour dumpling), {砂粒|すなつぶ} (grain of sand), {番茶|ばんちゃ} (coarse green tea), {石碑|せきひ} (stone monument), {矜持|きょうじ} (pride/dignity), {碁盤|ごばん} (go board), {異国|いこく} (foreign land)
+- **Na-adjectives (2)**: {知的|ちてき} (intellectual), {盲目|もうもく} (blind)
+- **Noun/no-adjective (3)**: {直近|ちょっきん} (most recent), {略式|りゃくしき} (informal), {異形|いぎょう} (monstrous form)
+- **Noun/suru verbs (6)**: {直結|ちょっけつ} (direct connection), {発汗|はっかん} (sweating), {確定|かくてい} (finalization), {着色|ちゃくしょく} (coloring), {直撃|ちょくげき} (direct hit), {直談判|じかだんぱん} (direct negotiation)
+- **Taru-adjective (1)**: {確固|かっこ} (firm/unwavering)
+- **Godan verbs (2)**: {白|しら}む (to grow light at dawn), {着古|きふる}す (to wear out clothing)
+- **Ichidan verb (1)**: {登|のぼ}り{詰|つ}める (to climb to the top)
+- **Noun/na-adjective (3)**: {相対|そうたい} (relative), {相応|そうおう} (suitable), {硬化|こうか} (hardening)
+
+Notable features:
+- Multi-sense entries: {知的|ちてき} (2: intellectual + intelligent-looking), {直近|ちょっきん} (2: temporal + spatial), {白|しら}む (2: dawn + pallor), {登|のぼ}り{詰|つ}める (2: physical + figurative), {盲目|もうもく} (2: literal + figurative blindness)
+- Cultural: {碁盤|ごばん}の{目|め} (Kyoto grid pattern), {番茶|ばんちゃ} (everyday tea culture, proverb), {白玉|しらたま} (wagashi ingredient)
+- Literary: {白|しら}む (poetic dawn), {矜持|きょうじ} (elevated pride), {異国|いこく} (evocative foreign land), {確固|かっこ}たる (formal resolve)
+- Practical: {確定|かくてい}{申告|しんこく} (tax returns), {省庁|しょうちょう} (Japanese government structure), {直撃|ちょくげき}インタビュー (journalism)
+- New kanji: 2,421 → 2,423 ({矜|きん}, {碑|ひ})
+
+Total entries: 13,754 → 13,784 (approximate)
+Remaining candidates: 6,015 → 5,985 (30 removed)
 
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 330)
 Added 30 new dictionary entries (IDs 13669-13698) from candidate_words.json:
@@ -149,29 +171,6 @@ Notable features:
 
 Total entries: 13,634 → 13,664 (approximate)
 Remaining candidates: 6,135 → 6,105 (30 removed)
-
-### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 326)
-Added 30 new dictionary entries (IDs 13549-13578) from candidate_words.json:
-
-- **異- cluster (8)**: {異様|いよう} (bizarre), {異論|いろん} (dissenting opinion), {異議|いぎ} (objection), {異例|いれい} (exceptional), {異性|いせい} (opposite sex), {異質|いしつ} (heterogeneous), {異端|いたん} (heresy)
-- **略- cluster (3)**: {略称|りゃくしょう} (abbreviation), {略歴|りゃくれき} (brief bio), {略奪|りゃくだつ} (plunder)
-- **特- cluster (2)**: {特異|とくい} (peculiar), {特段|とくだん} (particularly)
-- **現- cluster (2)**: {現時点|げんじてん} (at this point), {現物|げんぶつ} (the real thing)
-- **町- cluster (2)**: {町内|ちょうない} (neighborhood), {町|まち}おこし (town revitalization)
-- **I-adjective (1)**: {甲高|かんだか}い (shrill)
-- **Na-adjective/noun (1)**: {男前|おとこまえ} (handsome/cool)
-- **Noun/suru verbs (4)**: {疎外|そがい} (alienation), {産卵|さんらん} (egg-laying), {生還|せいかん} (survival), {畏怖|いふ} (awe)
-- **Other nouns (7)**: {画像|がぞう} (image), {理事|りじ} (director), {申|もう}し{出|で} (offer), {甘味|かんみ} (sweetness/dessert), {無形|むけい} (intangible), {生協|せいきょう} (co-op), {用例|ようれい} (usage example)
-
-Notable features:
-- 異- cluster: 7 entries covering deviation, dissent, formality, gender, nature, and doctrine
-- Multi-sense entries: {現物|げんぶつ} (2: real thing + spot goods), {生還|せいかん} (2: survival + baseball scoring), {甘味|かんみ} (2: sweetness + dessert), {男前|おとこまえ} (2: handsome + admirably bold)
-- Formal register: {異議|いぎ} (courtroom), {異論|いろん} (meetings), {現時点|げんじてん} (news/business), {特段|とくだん} (official), {略歴|りゃくれき} (professional), {理事|りじ} (governance)
-- Cultural: {町|まち}おこし (regional revitalization movement), {甘味|かんみ}{処|どころ} (traditional sweets shops), {生協|せいきょう} (university co-ops), {無形|むけい}{文化|ぶんか}{財|ざい} (UNESCO heritage)
-- Homophone cross-refs: {異議|いぎ}↔{意義|いぎ}, {特異|とくい}↔{得意|とくい}, {異性|いせい}↔{威勢|いせい}
-
-Total entries: 13,604 → 13,634 (approximate)
-Remaining candidates: 6,165 → 6,135 (30 removed)
 
 ---
 
