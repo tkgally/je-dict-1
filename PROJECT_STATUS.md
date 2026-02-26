@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-25
+**Last updated**: 2026-02-26
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,634 |
+| Total entries | ~13,664 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,835 (open) |
-| Candidate words | ~6,135 |
+| General tier | ~10,865 (open) |
+| Candidate words | ~6,105 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,000 |
+| Example sentences | ~47,100 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,32 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 327)
+Added 30 new dictionary entries (IDs 13579-13608) from candidate_words.json:
+
+- **Government/town cluster (3)**: {町役場|まちやくば} (town hall), {町長|ちょうちょう} (town mayor), {町人|ちょうにん} (townsperson)
+- **Royalty cluster (3)**: {王位|おうい} (throne), {王族|おうぞく} (royalty), {王立|おうりつ} (royal)
+- **画- cluster (3)**: {画数|かくすう} (stroke count), {画一的|かくいつてき} (uniform/standardized), {画策|かくさく} (scheming)
+- **疑- cluster (2)**: {疑わしい|うたがわしい} (suspicious/doubtful), {疑惑|ぎわく} (suspicion)
+- **Tea/food cluster (4)**: {玉露|ぎょくろ} (gyokuro tea), {烏龍|うーろん} (oolong), {白菜|はくさい} (Chinese cabbage), {発酵|はっこう} (fermentation)
+- **Health/body (2)**: {疲労|ひろう} (fatigue), {癒し|いやし} (healing/comfort)
+- **History/military (2)**: {爆撃|ばくげき} (bombing), {疎開|そかい} (wartime evacuation)
+- **Other nouns (8)**: {無所属|むしょぞく} (independent/unaffiliated), {男爵|だんしゃく} (baron), {異名|いみょう} (epithet), {男気|おとこぎ} (chivalry), {瓜|うり} (melon/gourd), {炉|ろ} (furnace/hearth), {牢|ろう} (prison), {皇居|こうきょ} (Imperial Palace)
+- **Loanword (1)**: リカバリー (recovery)
+- **Na-adjective (1)**: {無惨|むざん} (cruel/tragic)
+- **Godan verb (1)**: {盛り込む|もりこむ} (to incorporate)
+
+Notable features:
+- Multi-sense entries: {疑わしい|うたがわしい} (2: doubtful + suspicious), {男爵|だんしゃく} (2: baron + potato), {無惨|むざん} (2: cruel + tragic/pitiful), {盛り込む|もりこむ} (2: incorporate + heap into)
+- Government cluster: {町役場|まちやくば}/{町長|ちょうちょう}/{町人|ちょうにん} with context on Japan's municipal hierarchy
+- Tea culture: {玉露|ぎょくろ} (brewing temperature), {烏龍|うーろん} (izakaya culture)
+- Cultural: {皇居|こうきょ} (Imperial Palace jogging/visits), {男気|おとこぎ}じゃんけん, {画数|かくすう} (name fortune-telling)
+- Historical: {町人|ちょうにん} (Edo merchant class), {疎開|そかい} (wartime evacuation), {男爵|だんしゃく} (Meiji peerage)
+- New kanji: 2,411 → 2,413 ({酵|こう}, {龍|りゅう})
+
+Total entries: 13,634 → 13,664 (approximate)
+Remaining candidates: 6,135 → 6,105 (30 removed)
 
 ### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 326)
 Added 30 new dictionary entries (IDs 13549-13578) from candidate_words.json:
@@ -144,28 +170,6 @@ Notable features:
 
 Total entries: 13,514 → 13,544 (approximate)
 Remaining candidates: 487 → 457 (30 removed)
-
-### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 322)
-Added 30 new dictionary entries (IDs 13429-13458) from candidate_words.json:
-
-- **Nouns (20)**: {瀕死|ひんし} (near death), {火|ひ}の{粉|こ} (sparks), {濁|にご}り (cloudiness), {激流|げきりゅう} (torrent), {深淵|しんえん} (abyss), {潮目|しおめ} (tidal front/turning point), {演者|えんじゃ} (performer), {演芸|えんげい} (performing arts), {漢詩|かんし} (Chinese poetry), {漢語|かんご} (Sino-Japanese word), {最低賃金|さいていちんぎん} (minimum wage), {最安値|さいやすね} (lowest price), {氷河期|ひょうがき} (ice age), {浄土|じょうど} (Pure Land), {旗本|はたもと} (hatamoto), {怨霊|おんりょう} (vengeful spirit), {淵|ふち} (deep pool/abyss), {灰汁|あく} (scum/lye), {無傷|むきず} (unscathed), {新進気鋭|しんしんきえい} (up-and-coming)
-- **Noun/suru verbs (4)**: {激闘|げきとう} (fierce battle), {撃破|げきは} (crushing defeat), {擁立|ようりつ} (to install a leader), {憑依|ひょうい} (spirit possession)
-- **Noun/suru verb (work) (1)**: {本採用|ほんさいよう} (permanent hire)
-- **Noun/suffix (1)**: {気味|きみ} (sensation/touch of)
-- **Formal nouns (2)**: {我|わ}が{国|くに} (our country), {所存|しょぞん} (intention, humble)
-- **Noun with two senses (2)**: {沙汰|さた} (notice/affair), {手打|てう}ち (handmade/settlement)
-
-Notable features:
-- Multi-sense entries: {潮目|しおめ} (2), {気味|きみ} (2), {沙汰|さた} (2), {手打|てう}ち (2), {淵|ふち} (2), {灰汁|あく} (3), {無傷|むきず} (2)
-- Supernatural cluster: {怨霊|おんりょう}, {憑依|ひょうい} (with cross-cultural notes)
-- Historical: {旗本|はたもと} (Edo-period), {浄土|じょうど} (Buddhist Pure Land)
-- 激- cluster: {激流|げきりゅう}, {激闘|げきとう}, {撃破|げきは}
-- Cultural: {灰汁|あく} (cooking technique), {演芸|えんげい} (variety entertainment), {漢詩|かんし}/{漢語|かんご} (language/literature)
-- Formal register: {所存|しょぞん} (humble), {我|わ}が{国|くに} (official)
-- New kanji: 2,402 → 2,404 ({擁|よう}, {淵|えん})
-
-Total entries: 13,484 → 13,514 (approximate)
-Remaining candidates: 517 → 487 (30 removed)
 
 ---
 

@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 322)
+Added 30 new dictionary entries (IDs 13429-13458) from candidate_words.json:
+
+- **Nouns (20)**: {瀕死|ひんし} (near death), {火|ひ}の{粉|こ} (sparks), {濁|にご}り (cloudiness), {激流|げきりゅう} (torrent), {深淵|しんえん} (abyss), {潮目|しおめ} (tidal front/turning point), {演者|えんじゃ} (performer), {演芸|えんげい} (performing arts), {漢詩|かんし} (Chinese poetry), {漢語|かんご} (Sino-Japanese word), {最低賃金|さいていちんぎん} (minimum wage), {最安値|さいやすね} (lowest price), {氷河期|ひょうがき} (ice age), {浄土|じょうど} (Pure Land), {旗本|はたもと} (hatamoto), {怨霊|おんりょう} (vengeful spirit), {淵|ふち} (deep pool/abyss), {灰汁|あく} (scum/lye), {無傷|むきず} (unscathed), {新進気鋭|しんしんきえい} (up-and-coming)
+- **Noun/suru verbs (4)**: {激闘|げきとう} (fierce battle), {撃破|げきは} (crushing defeat), {擁立|ようりつ} (to install a leader), {憑依|ひょうい} (spirit possession)
+- **Noun/suru verb (work) (1)**: {本採用|ほんさいよう} (permanent hire)
+- **Noun/suffix (1)**: {気味|きみ} (sensation/touch of)
+- **Formal nouns (2)**: {我|わ}が{国|くに} (our country), {所存|しょぞん} (intention, humble)
+- **Noun with two senses (2)**: {沙汰|さた} (notice/affair), {手打|てう}ち (handmade/settlement)
+
+Notable features:
+- Multi-sense entries: {潮目|しおめ} (2), {気味|きみ} (2), {沙汰|さた} (2), {手打|てう}ち (2), {淵|ふち} (2), {灰汁|あく} (3), {無傷|むきず} (2)
+- Supernatural cluster: {怨霊|おんりょう}, {憑依|ひょうい} (with cross-cultural notes)
+- Historical: {旗本|はたもと} (Edo-period), {浄土|じょうど} (Buddhist Pure Land)
+- 激- cluster: {激流|げきりゅう}, {激闘|げきとう}, {撃破|げきは}
+- Cultural: {灰汁|あく} (cooking technique), {演芸|えんげい} (variety entertainment), {漢詩|かんし}/{漢語|かんご} (language/literature)
+- Formal register: {所存|しょぞん} (humble), {我|わ}が{国|くに} (official)
+- New kanji: 2,402 → 2,404 ({擁|よう}, {淵|えん})
+
+Total entries: 13,484 → 13,514 (approximate)
+Remaining candidates: 517 → 487 (30 removed)
+
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 321)
 Added 30 new dictionary entries (IDs 13399-13428) from candidate_words.json:
 
