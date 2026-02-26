@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 325)
+Added 30 new dictionary entries (IDs 13519-13548) from candidate_words.json:
+
+- **Food noun (1)**: {甘酒|あまざけ} (amazake)
+- **I-adjective (1)**: {甚|はなは}だしい (extreme, excessive)
+- **Godan verbs (2)**: {生|い}き{残|のこ}る (to survive), {生|う}まれ{変|か}わる (to be reborn)
+- **生- cluster (4)**: {生業|なりわい} (livelihood), {生計|せいけい} (living), {生息|せいそく} (inhabiting), {生態|せいたい} (ecology)
+- **Na-adjectives (2)**: {無作法|ぶさほう} (ill-mannered), {無様|ぶざま} (unsightly)
+- **王- cluster (3)**: {王宮|おうきゅう} (royal palace), {王者|おうじゃ} (king/champion), {王家|おうけ} (royal family)
+- **特- cluster (2)**: {特製|とくせい} (specially made), {特質|とくしつ} (characteristic)
+- **Noun/suru verbs (3)**: {献上|けんじょう} (offering), {現存|げんそん} (extant), {混濁|こんだく} (turbidity)
+- **Other nouns (12)**: {甥|おい} (nephew), {用品|ようひん} (supplies), {田畑|たはた} (farmland), {深紅|しんく} (crimson), {火消|ひけ}し (firefighter/damage control), {物欲|ぶつよく} (materialism), {狭義|きょうぎ} (narrow sense), {産声|うぶごえ} (first cry), {産物|さんぶつ} (product), {用心棒|ようじんぼう} (bodyguard), {用法|ようほう} (usage), {瓢箪|ひょうたん} (gourd)
+
+Notable features:
+- 生- cluster: 4 entries covering livelihood, living, inhabiting, and ecology
+- 王- cluster: 3 entries covering palaces, champions, and royal families
+- Multi-sense entries: {生|い}き{残|のこ}る (2: physical + competitive survival), {生|う}まれ{変|か}わる (2: reincarnation + transformation), {火消|ひけ}し (2: historical firefighter + damage control), {産声|うぶごえ} (2: literal first cry + figurative founding), {産物|さんぶつ} (2: physical product + result of circumstances), {王者|おうじゃ} (2: king + champion), {用心棒|ようじんぼう} (2: bodyguard + door bar), {混濁|こんだく} (2: turbidity + confusion)
+- Cultural: {甘酒|あまざけ} (New Year's shrine drink), {瓢箪|ひょうたん} (Hideyoshi's emblem, proverb), {火消|ひけ}し (Edo firefighters), {献上|けんじょう} (imperial offerings), {用心棒|ようじんぼう} (Kurosawa film)
+- New kanji: 2,410 → 2,411 ({甥|せい})
+
+Total entries: 13,574 → 13,604 (approximate)
+Remaining candidates: 6,195 → 6,165 (30 removed)
+
 ### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 324)
 Added 30 new dictionary entries (IDs 13489-13518) from candidate_words.json:
 
