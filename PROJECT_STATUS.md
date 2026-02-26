@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,664 |
+| Total entries | ~13,694 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,865 (open) |
-| Candidate words | ~6,105 |
+| General tier | ~10,895 (open) |
+| Candidate words | ~6,075 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,100 |
+| Example sentences | ~47,200 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,32 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 328)
+Added 30 new dictionary entries (IDs 13609-13638) from candidate_words.json:
+
+- **Health/illness cluster (7)**: {疫病|えきびょう} (epidemic), {病|やまい} (illness), {病|や}む (to be ill), {病弱|びょうじゃく} (sickly), {痛|いた}める (to hurt), {痛感|つうかん} (keenly feeling), {療法|りょうほう} (therapy)
+- **Healing (1)**: {癒|いや}す (to heal)
+- **四字熟語 (1)**: {疲労困憊|ひろうこんぱい} (total exhaustion)
+- **Cognition/language (3)**: {目撃|もくげき} (witnessing), {直訳|ちょくやく} (literal translation), {疑似|ぎじ} (pseudo/simulated)
+- **Descriptive (2)**: {目覚|めざま}ましい (remarkable), {盛大|せいだい} → replaced by {発祥|はっしょう} (origin/birthplace)
+- **Food (2)**: {田楽|でんがく} (dengaku), ラード (lard)
+- **People (3)**: {猛者|もさ} (tough guy), {痴漢|ちかん} (groper), {王妃|おうひ} (queen consort)
+- **General nouns (4)**: {物販|ぶっぱん} (merchandise sales), {法|ほう} (law/method), {渡|わた}り (crossing), {白紙|はくし} (blank paper/clean slate)
+- **Scene/stage (1)**: {登場|とうじょう} (appearance/entrance)
+- **Loanwords (5)**: ライト (light), リストアップ (listing), レーベル (music label), リニア (maglev), ファクス (fax)
+- **Person (1)**: レディ (lady)
+
+Notable features:
+- Health/illness cluster: 7 related entries covering epidemic, illness, constitution, pain, therapy
+- Multi-sense entries: {病|やまい} (2: illness + bad habit), {病|や}む (2: physical + mental), {痛|いた}める (2: physical + emotional), {癒|いや}す (2: heal + soothe), ライト (2: light device + casual), {白紙|はくし} (2: blank paper + clean slate), {法|ほう} (2: law + method), {渡|わた}り (2: crossing + opportunity), レーベル (2: music label + product label), リニア (2: maglev + linear)
+- Cultural: {痴漢|ちかん} (women-only train cars), ファクス (Japan's fax culture), {田楽|でんがく} (traditional cuisine), ラード (ramen culture)
+- Wasei-eigo: リストアップ (list up — not standard English)
+- Modern slang: {病|や}んでる (mentally unwell, youth language)
+- New kanji: 2,413 → 2,416 ({妃|ひ}, {憊|はい}, {祥|しょう})
+
+Total entries: 13,664 → 13,694 (approximate)
+Remaining candidates: 6,105 → 6,075 (30 removed)
 
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 327)
 Added 30 new dictionary entries (IDs 13579-13608) from candidate_words.json:
@@ -147,29 +173,6 @@ Notable features:
 
 Total entries: 13,544 → 13,574 (approximate)
 Remaining candidates: 6,225 → 6,195 (30 removed)
-
-### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 323)
-Added 30 new dictionary entries (IDs 13459-13488) from candidate_words.json:
-
-- **Time/day noun (1)**: {火曜|かよう} (Tuesday)
-- **Food/cooking nouns (4)**: {熱湯|ねっとう} (boiling water), {燻製|くんせい} (smoked food), {牛蒡|ごぼう} (burdock root), {牡丹|ぼたん} (peony)
-- **片- cluster (3)**: {片手|かたて} (one hand), {片言|かたこと} (broken speech), {片隅|かたすみ} (corner/nook)
-- **特- cluster (9)**: {特訓|とっくん} (special training), {特許|とっきょ} (patent), {特集|とくしゅう} (special feature), {特典|とくてん} (bonus/perk), {特化|とっか} (specialization), {特有|とくゆう} (peculiar to), {特産品|とくさんひん} (local specialty), {特色|とくしょく} (distinctive feature), {特注|とくちゅう} (custom order)
-- **無- cluster (5)**: {無視|むし} (ignoring), {無責任|むせきにん} (irresponsible), {無条件|むじょうけん} (unconditional), {無能|むのう} (incompetent), {無縁|むえん} (unrelated)
-- **Noun/suru verbs (5)**: {物|もの}まね (mimicry), {特訓|とっくん}, {特集|とくしゅう}, {特化|とっか}, {熱狂|ねっきょう} (frenzy)
-- **Other nouns (6)**: {燃料|ねんりょう} (fuel), {犯行|はんこう} (criminal act), {焼失|しょうしつ} (destruction by fire), {深層|しんそう} (deep layer), {熱弁|ねつべん} (passionate speech), {物言|ものい}い (way of speaking/objection)
-
-Notable features:
-- 特- cluster: 9 entries covering training, patents, media, commerce, and culture
-- 無- cluster: 5 entries covering social behavior, morality, and philosophy
-- 片- cluster: 3 entries covering body, language, and space
-- Multi-sense entries: {物言|ものい}い (2: speech manner + objection/sumo term)
-- Cultural: {牡丹|ぼたん} (flower symbolism, botan-nabe), {牛蒡|ごぼう} (burdock in Japanese cooking), {物|もの}まね (impersonation comedy), {特産品|とくさんひん} (regional products/omiyage culture)
-- Homophone cross-refs: {犯行|はんこう}↔{反抗|はんこう}, {焼失|しょうしつ}↔{消失|しょうしつ}
-- New kanji: 2,404 → 2,405 ({蒡|ぼう})
-
-Total entries: 13,514 → 13,544 (approximate)
-Remaining candidates: 487 → 457 (30 removed)
 
 ---
 
