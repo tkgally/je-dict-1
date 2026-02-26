@@ -14,16 +14,6 @@
   "examples": [
     {
       "id": "02679_kuda_ex1",
-      "japanese": "{水道|すいどう}の{管|くだ}が{詰|つ}まった。",
-      "english": "The water pipe got clogged.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "02679_kuda_ex2",
       "japanese": "{管|くだ}を{通|とお}す。",
       "english": "To run a pipe through.",
       "notes": null,
@@ -33,10 +23,20 @@
       ]
     },
     {
+      "id": "02679_kuda_ex2",
+      "japanese": "{水道|すいどう}の{管|くだ}が{詰|つ}まった。",
+      "english": "The water pipe got clogged.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "02679_kuda_ex3",
-      "japanese": "{排水|はいすい}{管|かん}",
-      "english": "Drainage pipe.",
-      "notes": "[Note: 管 reads かん in compounds]",
+      "japanese": "{管|くだ}の{中|なか}に{水|みず}が{流|なが}れている。",
+      "english": "Water is flowing through the pipe.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -44,9 +44,9 @@
     },
     {
       "id": "02679_kuda_ex4",
-      "japanese": "{管|くだ}の{中|なか}に{水|みず}が{流|なが}れている。",
-      "english": "Water is flowing through the pipe.",
-      "notes": null,
+      "japanese": "{排水|はいすい}{管|かん}が{壊|こわ}れて{水|みず}が{漏|も}れている。",
+      "english": "The drainage pipe is broken and water is leaking.",
+      "notes": "[Note: 管 reads かん in compounds]",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-11T07:04:25Z",
-    "modified": "2026-01-20T14:25:48Z",
+    "modified": "2026-02-26T06:32:23Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
