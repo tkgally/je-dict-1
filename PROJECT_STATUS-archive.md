@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 326)
+Added 30 new dictionary entries (IDs 13549-13578) from candidate_words.json:
+
+- **異- cluster (8)**: {異様|いよう} (bizarre), {異論|いろん} (dissenting opinion), {異議|いぎ} (objection), {異例|いれい} (exceptional), {異性|いせい} (opposite sex), {異質|いしつ} (heterogeneous), {異端|いたん} (heresy)
+- **略- cluster (3)**: {略称|りゃくしょう} (abbreviation), {略歴|りゃくれき} (brief bio), {略奪|りゃくだつ} (plunder)
+- **特- cluster (2)**: {特異|とくい} (peculiar), {特段|とくだん} (particularly)
+- **現- cluster (2)**: {現時点|げんじてん} (at this point), {現物|げんぶつ} (the real thing)
+- **町- cluster (2)**: {町内|ちょうない} (neighborhood), {町|まち}おこし (town revitalization)
+- **I-adjective (1)**: {甲高|かんだか}い (shrill)
+- **Na-adjective/noun (1)**: {男前|おとこまえ} (handsome/cool)
+- **Noun/suru verbs (4)**: {疎外|そがい} (alienation), {産卵|さんらん} (egg-laying), {生還|せいかん} (survival), {畏怖|いふ} (awe)
+- **Other nouns (7)**: {画像|がぞう} (image), {理事|りじ} (director), {申|もう}し{出|で} (offer), {甘味|かんみ} (sweetness/dessert), {無形|むけい} (intangible), {生協|せいきょう} (co-op), {用例|ようれい} (usage example)
+
+Notable features:
+- 異- cluster: 7 entries covering deviation, dissent, formality, gender, nature, and doctrine
+- Multi-sense entries: {現物|げんぶつ} (2: real thing + spot goods), {生還|せいかん} (2: survival + baseball scoring), {甘味|かんみ} (2: sweetness + dessert), {男前|おとこまえ} (2: handsome + admirably bold)
+- Formal register: {異議|いぎ} (courtroom), {異論|いろん} (meetings), {現時点|げんじてん} (news/business), {特段|とくだん} (official), {略歴|りゃくれき} (professional), {理事|りじ} (governance)
+- Cultural: {町|まち}おこし (regional revitalization movement), {甘味|かんみ}{処|どころ} (traditional sweets shops), {生協|せいきょう} (university co-ops), {無形|むけい}{文化|ぶんか}{財|ざい} (UNESCO heritage)
+- Homophone cross-refs: {異議|いぎ}↔{意義|いぎ}, {特異|とくい}↔{得意|とくい}, {異性|いせい}↔{威勢|いせい}
+
+Total entries: 13,604 → 13,634 (approximate)
+Remaining candidates: 6,165 → 6,135 (30 removed)
+
 ### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 325)
 Added 30 new dictionary entries (IDs 13519-13548) from candidate_words.json:
 
