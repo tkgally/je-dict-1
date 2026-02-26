@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,784 |
+| Total entries | ~13,814 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,985 (open) |
-| Candidate words | ~5,985 |
+| General tier | ~11,015 (open) |
+| Candidate words | ~5,955 |
 | Cross-references | ~3,400 |
 | Example sentences | ~47,500 |
 | Audio files | 1,028 |
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 332)
+Added 30 new dictionary entries (IDs 13729-13758) from candidate_words.json:
+
+- **Nouns (14)**: {礎|いしずえ} (foundation), {社会人|しゃかいじん} (working adult), {社内|しゃない} (within company), {祈|いの}り (prayer), {祭壇|さいだん} (altar), {神棚|かみだな} (kami shelf), {礼節|れいせつ} (courtesy), {禁物|きんもつ} (taboo), {社畜|しゃちく} (corporate slave), {直売所|ちょくばいじょ} (farm stand), {秘訣|ひけつ} (secret/key), {空間|くうかん} (space), {秋刀魚|さんま} (Pacific saury), {福祉|ふくし} (welfare)
+- **Noun/suru verbs (4)**: {祝福|しゅくふく} (blessing), {祈願|きがん} (supplication), {移住|いじゅう} (migration), {突破|とっぱ} (breakthrough)
+- **Noun/na-adjectives (3)**: {神秘|しんぴ} (mystery/mystique), {究極|きゅうきょく} (ultimate), {確立|かくりつ} (establishment)
+- **Na-adjective (1)**: {神聖|しんせい} (sacred)
+- **Ichidan verbs (3)**: {禁|きん}じる (to prohibit), {秀|ひい}でる (to excel), {称|たた}える (to praise)
+- **I-adjective (1)**: {禍々|まがまが}しい (ominous/sinister)
+- **Noun/suru verb (1)**: {目礼|もくれい} (silent nod)
+- **Adverb (1)**: {目|ま}の{当|あ}たり (before one's eyes)
+- **Cultural noun (1)**: {神隠|かみかく}し (spiriting away)
+
+Notable features:
+- Multi-sense entries: {禁|きん}じる (2: prohibit + suppress emotion), {突破|とっぱ} (2: break through + surpass number)
+- Cultural: {神隠|かみかく}し (folklore, Studio Ghibli), {神棚|かみだな} (household worship), {秋刀魚|さんま} (autumn cuisine icon), {社会人|しゃかいじん} (life stage concept)
+- Modern/colloquial: {社畜|しゃちく} (internet slang for overworked employees)
+- Religion cluster: {祈|いの}り, {祝福|しゅくふく}, {神秘|しんぴ}, {神聖|しんせい}, {祈願|きがん}, {祭壇|さいだん}, {神棚|かみだな}
+- Business cluster: {社会人|しゃかいじん}, {社内|しゃない}, {社畜|しゃちく}, {社交|しゃこう} (indirectly)
+- Homophone notes: {確立|かくりつ}↔{確率|かくりつ}, {福祉|ふくし}↔{副詞|ふくし}, {秘訣|ひけつ}↔{否決|ひけつ}
+- New kanji: 2,423 → 2,427 ({祉|し}, {禍|か}, {聖|せい}, {訣|けつ})
+
+Total entries: 13,784 → 13,814 (approximate)
+Remaining candidates: 5,985 → 5,955 (30 removed)
 
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 331)
 Added 30 new dictionary entries (IDs 13699-13728) from candidate_words.json:
@@ -145,32 +170,6 @@ Notable features:
 
 Total entries: 13,664 → 13,694 (approximate)
 Remaining candidates: 6,105 → 6,075 (30 removed)
-
-### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 327)
-Added 30 new dictionary entries (IDs 13579-13608) from candidate_words.json:
-
-- **Government/town cluster (3)**: {町役場|まちやくば} (town hall), {町長|ちょうちょう} (town mayor), {町人|ちょうにん} (townsperson)
-- **Royalty cluster (3)**: {王位|おうい} (throne), {王族|おうぞく} (royalty), {王立|おうりつ} (royal)
-- **画- cluster (3)**: {画数|かくすう} (stroke count), {画一的|かくいつてき} (uniform/standardized), {画策|かくさく} (scheming)
-- **疑- cluster (2)**: {疑わしい|うたがわしい} (suspicious/doubtful), {疑惑|ぎわく} (suspicion)
-- **Tea/food cluster (4)**: {玉露|ぎょくろ} (gyokuro tea), {烏龍|うーろん} (oolong), {白菜|はくさい} (Chinese cabbage), {発酵|はっこう} (fermentation)
-- **Health/body (2)**: {疲労|ひろう} (fatigue), {癒し|いやし} (healing/comfort)
-- **History/military (2)**: {爆撃|ばくげき} (bombing), {疎開|そかい} (wartime evacuation)
-- **Other nouns (8)**: {無所属|むしょぞく} (independent/unaffiliated), {男爵|だんしゃく} (baron), {異名|いみょう} (epithet), {男気|おとこぎ} (chivalry), {瓜|うり} (melon/gourd), {炉|ろ} (furnace/hearth), {牢|ろう} (prison), {皇居|こうきょ} (Imperial Palace)
-- **Loanword (1)**: リカバリー (recovery)
-- **Na-adjective (1)**: {無惨|むざん} (cruel/tragic)
-- **Godan verb (1)**: {盛り込む|もりこむ} (to incorporate)
-
-Notable features:
-- Multi-sense entries: {疑わしい|うたがわしい} (2: doubtful + suspicious), {男爵|だんしゃく} (2: baron + potato), {無惨|むざん} (2: cruel + tragic/pitiful), {盛り込む|もりこむ} (2: incorporate + heap into)
-- Government cluster: {町役場|まちやくば}/{町長|ちょうちょう}/{町人|ちょうにん} with context on Japan's municipal hierarchy
-- Tea culture: {玉露|ぎょくろ} (brewing temperature), {烏龍|うーろん} (izakaya culture)
-- Cultural: {皇居|こうきょ} (Imperial Palace jogging/visits), {男気|おとこぎ}じゃんけん, {画数|かくすう} (name fortune-telling)
-- Historical: {町人|ちょうにん} (Edo merchant class), {疎開|そかい} (wartime evacuation), {男爵|だんしゃく} (Meiji peerage)
-- New kanji: 2,411 → 2,413 ({酵|こう}, {龍|りゅう})
-
-Total entries: 13,634 → 13,664 (approximate)
-Remaining candidates: 6,135 → 6,105 (30 removed)
 
 ---
 
