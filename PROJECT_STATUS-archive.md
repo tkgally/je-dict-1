@@ -3,6 +3,31 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 324)
+Added 30 new dictionary entries (IDs 13489-13518) from candidate_words.json:
+
+- **Food noun (1)**: {焼売|しゅうまい} (shumai)
+- **Na-adjectives (4)**: {猛烈|もうれつ} (fierce), {率直|そっちょく} (frank), {無造作|むぞうさ} (casual/careless), {無差別|むさべつ} (indiscriminate)
+- **I-adjective (1)**: {狭苦|せまくる}しい (cramped)
+- **特- cluster (4)**: {特権|とっけん} (privilege), {特例|とくれい} (special case), {特筆|とくひつ} (special mention), {特性|とくせい} (characteristic)
+- **現- cluster (3)**: {現地|げんち} (local/on-site), {現行|げんこう} (current/in force), {現職|げんしょく} (incumbent)
+- **王- cluster (2)**: {王道|おうどう} (classic approach/royal road), {王朝|おうちょう} (dynasty)
+- **Noun/suru verbs (6)**: {独占|どくせん} (monopoly), {猶予|ゆうよ} (postponement), {献金|けんきん} (donation), {牽引|けんいん} (towing/leading), {狩猟|しゅりょう} (hunting), {爆破|ばくは} (blasting)
+- **Verb (1)**: {燃|も}え{上|あ}がる (to flare up, godan intransitive)
+- **Other nouns (8)**: {狭間|はざま} (gap/between), {片腕|かたうで} (one arm/right-hand man), {灯火|ともしび} (lamplight), {減益|げんえき} (profit decline), {漉|こ}す (to strain), {熊手|くまで} (rake/lucky charm), {獅子舞|ししまい} (lion dance), {物体|ぶったい} (object)
+
+Notable features:
+- 特- cluster: 4 entries covering rights, exceptions, noteworthy mentions, and properties
+- 現- cluster: 3 entries covering location, laws, and positions
+- 王- cluster: 2 entries covering mainstream/classic and dynasty
+- Multi-sense entries: {独占|どくせん} (2: monopoly + exclusive possession), {牽引|けんいん} (2: towing + leading), {片腕|かたうで} (2: one arm + right-hand man), {王道|おうどう} (2: classic + royal road), {燃|も}え{上|あ}がる (2: flare up + passion), {現職|げんしょく} (2: incumbent + current position), {熊手|くまで} (2: rake + lucky charm)
+- Cultural: {獅子舞|ししまい} (lion dance traditions), {熊手|くまで} (Tori-no-Ichi festival), {王朝|おうちょう} (Heian court culture)
+- Legal/business: {猶予|ゆうよ} (suspended sentence), {献金|けんきん} (political donations), {特権|とっけん} (diplomatic immunity), {減益|げんえき} (earnings reports)
+- New kanji: 2,405 → 2,410 ({漉|ろく}, {烈|れつ}, {牽|けん}, {猟|りょう}, {猶|ゆう})
+
+Total entries: 13,544 → 13,574 (approximate)
+Remaining candidates: 6,225 → 6,195 (30 removed)
+
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 323)
 Added 30 new dictionary entries (IDs 13459-13488) from candidate_words.json:
 
