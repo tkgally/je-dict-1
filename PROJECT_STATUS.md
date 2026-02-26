@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,694 |
+| Total entries | ~13,724 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~10,895 (open) |
-| Candidate words | ~6,075 |
+| General tier | ~10,925 (open) |
+| Candidate words | ~6,045 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,200 |
+| Example sentences | ~47,300 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,33 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 329)
+Added 30 new dictionary entries (IDs 13639-13668) from candidate_words.json:
+
+- **発- cluster (3)**: {発|はっ}する (to emit/issue), {発効|はっこう} (taking effect), {発足|ほっそく} (inauguration)
+- **直- cluster (3)**: {直前|ちょくぜん} (just before), {直面|ちょくめん} (confronting), {直通|ちょくつう} (direct connection)
+- **目- cluster (3)**: {目当|めあ}て (aim/attraction), {目玉|めだま} (eyeball/highlight), {目線|めせん} (gaze/perspective)
+- **盛- cluster (2)**: {盛大|せいだい} (grand), {盛況|せいきょう} (great turnout)
+- **監- cluster (2)**: {監修|かんしゅう} (editorial supervision), {監禁|かんきん} (confinement)
+- **相- cluster (2)**: {相性|あいしょう} (compatibility), {相殺|そうさい} (offset)
+- **真- cluster (3)**: {真|ま}っ{最中|さいちゅう} (right in the middle of), {真心|まごころ} (sincerity), {真顔|まがお} (straight face)
+- **Ichidan verb (1)**: {省|かえり}みる (to reflect on)
+- **Suru verbs (4)**: {瞑想|めいそう} (meditation), {着目|ちゃくもく} (attention), {短縮|たんしゅく} (shortening), {疾走|しっそう} (sprint)
+- **Time nouns (2)**: {瞬時|しゅんじ} (instant), {矢先|やさき} (just when)
+- **Other nouns (3)**: {白黒|しろくろ} (black and white), {皮切|かわき}り (starting with), {知名度|ちめいど} (name recognition)
+- **Household (1)**: {皿洗|さらあら}い (dishwashing)
+- **Medical (1)**: {看護|かんご} (nursing)
+
+Notable features:
+- Multi-sense entries: {白黒|しろくろ} (2: monochrome + right/wrong), {目当|めあ}て (2: aim + attraction), {目玉|めだま} (2: eyeball + highlight), {目線|めせん} (2: gaze + perspective), {発|はっ}する (2: emit + issue)
+- Thematic clusters: 直- (3 entries), 目- (3 entries), 真- (3 entries)
+- Homophone cross-refs: {発効|はっこう}↔{発行|はっこう}↔{発酵|はっこう}, {監修|かんしゅう}↔{慣習|かんしゅう}, {相性|あいしょう}↔{愛称|あいしょう}, {瞑想|めいそう}↔{迷走|めいそう}, {疾走|しっそう}↔{失踪|しっそう}, {看護|かんご}↔{漢語|かんご}
+- Etymology: {皮切|かわき}り (from moxibustion), {矢先|やさき} (from arrowhead)
+- New kanji: 2,416 → 2,418 ({疾|しつ}, {瞑|めい})
+
+Total entries: 13,694 → 13,724 (approximate)
+Remaining candidates: 6,075 → 6,045 (30 removed)
 
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 328)
 Added 30 new dictionary entries (IDs 13609-13638) from candidate_words.json:
@@ -148,31 +175,6 @@ Notable features:
 
 Total entries: 13,574 → 13,604 (approximate)
 Remaining candidates: 6,195 → 6,165 (30 removed)
-
-### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 324)
-Added 30 new dictionary entries (IDs 13489-13518) from candidate_words.json:
-
-- **Food noun (1)**: {焼売|しゅうまい} (shumai)
-- **Na-adjectives (4)**: {猛烈|もうれつ} (fierce), {率直|そっちょく} (frank), {無造作|むぞうさ} (casual/careless), {無差別|むさべつ} (indiscriminate)
-- **I-adjective (1)**: {狭苦|せまくる}しい (cramped)
-- **特- cluster (4)**: {特権|とっけん} (privilege), {特例|とくれい} (special case), {特筆|とくひつ} (special mention), {特性|とくせい} (characteristic)
-- **現- cluster (3)**: {現地|げんち} (local/on-site), {現行|げんこう} (current/in force), {現職|げんしょく} (incumbent)
-- **王- cluster (2)**: {王道|おうどう} (classic approach/royal road), {王朝|おうちょう} (dynasty)
-- **Noun/suru verbs (6)**: {独占|どくせん} (monopoly), {猶予|ゆうよ} (postponement), {献金|けんきん} (donation), {牽引|けんいん} (towing/leading), {狩猟|しゅりょう} (hunting), {爆破|ばくは} (blasting)
-- **Verb (1)**: {燃|も}え{上|あ}がる (to flare up, godan intransitive)
-- **Other nouns (8)**: {狭間|はざま} (gap/between), {片腕|かたうで} (one arm/right-hand man), {灯火|ともしび} (lamplight), {減益|げんえき} (profit decline), {漉|こ}す (to strain), {熊手|くまで} (rake/lucky charm), {獅子舞|ししまい} (lion dance), {物体|ぶったい} (object)
-
-Notable features:
-- 特- cluster: 4 entries covering rights, exceptions, noteworthy mentions, and properties
-- 現- cluster: 3 entries covering location, laws, and positions
-- 王- cluster: 2 entries covering mainstream/classic and dynasty
-- Multi-sense entries: {独占|どくせん} (2: monopoly + exclusive possession), {牽引|けんいん} (2: towing + leading), {片腕|かたうで} (2: one arm + right-hand man), {王道|おうどう} (2: classic + royal road), {燃|も}え{上|あ}がる (2: flare up + passion), {現職|げんしょく} (2: incumbent + current position), {熊手|くまで} (2: rake + lucky charm)
-- Cultural: {獅子舞|ししまい} (lion dance traditions), {熊手|くまで} (Tori-no-Ichi festival), {王朝|おうちょう} (Heian court culture)
-- Legal/business: {猶予|ゆうよ} (suspended sentence), {献金|けんきん} (political donations), {特権|とっけん} (diplomatic immunity), {減益|げんえき} (earnings reports)
-- New kanji: 2,405 → 2,410 ({漉|ろく}, {烈|れつ}, {牽|けん}, {猟|りょう}, {猶|ゆう})
-
-Total entries: 13,544 → 13,574 (approximate)
-Remaining candidates: 6,225 → 6,195 (30 removed)
 
 ---
 
