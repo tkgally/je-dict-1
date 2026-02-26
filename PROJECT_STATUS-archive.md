@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 323)
+Added 30 new dictionary entries (IDs 13459-13488) from candidate_words.json:
+
+- **Time/day noun (1)**: {火曜|かよう} (Tuesday)
+- **Food/cooking nouns (4)**: {熱湯|ねっとう} (boiling water), {燻製|くんせい} (smoked food), {牛蒡|ごぼう} (burdock root), {牡丹|ぼたん} (peony)
+- **片- cluster (3)**: {片手|かたて} (one hand), {片言|かたこと} (broken speech), {片隅|かたすみ} (corner/nook)
+- **特- cluster (9)**: {特訓|とっくん} (special training), {特許|とっきょ} (patent), {特集|とくしゅう} (special feature), {特典|とくてん} (bonus/perk), {特化|とっか} (specialization), {特有|とくゆう} (peculiar to), {特産品|とくさんひん} (local specialty), {特色|とくしょく} (distinctive feature), {特注|とくちゅう} (custom order)
+- **無- cluster (5)**: {無視|むし} (ignoring), {無責任|むせきにん} (irresponsible), {無条件|むじょうけん} (unconditional), {無能|むのう} (incompetent), {無縁|むえん} (unrelated)
+- **Noun/suru verbs (5)**: {物|もの}まね (mimicry), {特訓|とっくん}, {特集|とくしゅう}, {特化|とっか}, {熱狂|ねっきょう} (frenzy)
+- **Other nouns (6)**: {燃料|ねんりょう} (fuel), {犯行|はんこう} (criminal act), {焼失|しょうしつ} (destruction by fire), {深層|しんそう} (deep layer), {熱弁|ねつべん} (passionate speech), {物言|ものい}い (way of speaking/objection)
+
+Notable features:
+- 特- cluster: 9 entries covering training, patents, media, commerce, and culture
+- 無- cluster: 5 entries covering social behavior, morality, and philosophy
+- 片- cluster: 3 entries covering body, language, and space
+- Multi-sense entries: {物言|ものい}い (2: speech manner + objection/sumo term)
+- Cultural: {牡丹|ぼたん} (flower symbolism, botan-nabe), {牛蒡|ごぼう} (burdock in Japanese cooking), {物|もの}まね (impersonation comedy), {特産品|とくさんひん} (regional products/omiyage culture)
+- Homophone cross-refs: {犯行|はんこう}↔{反抗|はんこう}, {焼失|しょうしつ}↔{消失|しょうしつ}
+- New kanji: 2,404 → 2,405 ({蒡|ぼう})
+
+Total entries: 13,514 → 13,544 (approximate)
+Remaining candidates: 487 → 457 (30 removed)
+
 ### 2026-02-24 (Vocabulary Expansion - 30 New Entries, Session 322)
 Added 30 new dictionary entries (IDs 13429-13458) from candidate_words.json:
 
