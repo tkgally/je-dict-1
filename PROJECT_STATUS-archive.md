@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 334)
+Added 30 new dictionary entries (IDs 13789-13818) from candidate_words.json:
+
+- **Na-adjectives (4)**: {細|こま}やか (attentive/detailed), {簡易|かんい} (simple/simplified), {絶妙|ぜつみょう} (exquisite/superb), {緩|ゆる}やか (gentle/gradual)
+- **Nouns (15)**: {細工|さいく} (craftsmanship), {細菌|さいきん} (bacteria), {紺色|こんいろ} (navy blue), {終盤|しゅうばん} (final stage), {組|く}み{合|あ}わせ (combination), {経歴|けいれき} (career history), {経路|けいろ} (route/path), {結晶|けっしょう} (crystal), {結束|けっそく} (unity), {給食|きゅうしょく} (school lunch), {素顔|すがお} (bare face), {立地|りっち} (location), {紅白|こうはく} (red and white), {納税|のうぜい} (tax payment), {素手|すで} (bare hands)
+- **Noun/suru verbs (5)**: {絶叫|ぜっきょう} (scream), {結成|けっせい} (formation), {目視|もくし} (visual inspection), plus above entries that also function as suru verbs
+- **Nouns (other) (3)**: {絶品|ぜっぴん} (superb item), {罠|わな} (trap), {続編|ぞくへん} (sequel)
+- **Noun/adverb (1)**: {終日|しゅうじつ} (all day)
+- **Godan verbs (2)**: {結|むす}びつく (to be connected), {紡|つむ}ぐ (to spin thread)
+- **Ichidan verb (1)**: {絶|た}える (to cease/die out)
+
+Notable features:
+- Multi-sense entries: {細工|さいく} (2: craftsmanship + trickery), {経路|けいろ} (2: physical route + abstract channel), {結晶|けっしょう} (2: crystal + fruit of effort), {紅白|こうはく} (2: colors + team competition), {素顔|すがお} (2: bare face + true character), {罠|わな} (2: animal trap + scheme), {絶|た}える (2: cease + die out), {緩|ゆる}やか (2: gentle + loose), {細|こま}やか (2: attentive + warm/rich)
+- Cultural: {紅白|こうはく} (NHK紅白歌合戦), {給食|きゅうしょく} (Japanese school lunch system), {縁起|えんぎ} (luck/omens in Japanese culture), {紺色|こんいろ} (traditional indigo dyeing)
+- Literary: {紡|つむ}ぐ (modern metaphorical usage for weaving stories/bonds)
+- Practical: {経歴|けいれき} (job applications), {納税|のうぜい} (ふるさと納税), {立地|りっち} (real estate), {目視|もくし} (workplace safety)
+- New kanji: 2,428 → 2,430 ({紡|ぼう}, {罠|わな})
+
+Total entries: 13,844 → 13,874 (approximate)
+Remaining candidates: 5,925 → 5,895 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 333)
 Added 30 new dictionary entries (IDs 13759-13788) from candidate_words.json:
 
