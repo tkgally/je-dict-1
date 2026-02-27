@@ -8,10 +8,11 @@ recent, random, and pending.
 """
 
 import html
+from collections import defaultdict
 from datetime import datetime, timezone
 
 from path_utils import get_directory_range
-from japanese_utils import KANA_ROWS
+from japanese_utils import KANA_ROWS, strip_furigana, is_kanji
 from html_utils import (
     generate_nav_header,
     generate_furigana_script,
@@ -77,7 +78,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
 
     return f'''{generate_html_head("Home")}
 <body>
-{generate_nav_header()}
+{generate_nav_header(show_all_links=False)}
 <main class="home-page">
     <div class="hero">
         <h1>TKG Japanese-English Learner's Dictionary</h1>
@@ -94,6 +95,14 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
             <label><input type="radio" name="search-type" value="japanese"> Japanese</label>
             <label><input type="radio" name="search-type" value="english"> English</label>
             <label><input type="radio" name="search-type" value="romaji"> Romaji</label>
+        </div>
+
+        <div class="home-nav-links">
+            <a href="advanced.html">Advanced</a>
+            <a href="browse.html">Browse</a>
+            <a href="kanji.html">Kanji</a>
+            <a href="recent.html">Recent</a>
+            <a href="pending.html">Pending</a>
         </div>
 
         <div id="results-section" class="results-section" style="display: none;">
@@ -117,7 +126,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
 <script src="search.js"></script>
 
 <footer>
-    <p>TKG Japanese-English Learner's Dictionary - Under Development</p>
+    <p>TKG Japanese-English Learner's Dictionary</p>
     <p>Last update: {build_time_jst}</p>
 </footer>
 {generate_furigana_script()}
@@ -626,7 +635,7 @@ def generate_advanced_page() -> str:
 
     return f'''{custom_head}
 <body>
-{generate_nav_header()}
+{generate_nav_header(show_all_links=False)}
 <main class="search-page">
     <h1>Advanced Search</h1>
 
@@ -687,7 +696,7 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
     html_parts = [
         generate_html_head("Browse"),
         '<body>',
-        generate_nav_header(),
+        generate_nav_header(show_all_links=False),
         '<main class="browse-page">',
         '<h1>Browse Entries</h1>',
         '<p class="browse-intro">Click on a kana row to expand and see entries.</p>',
@@ -741,7 +750,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
     html_parts = [
         generate_html_head("Recent Entries"),
         '<body>',
-        generate_nav_header(),
+        generate_nav_header(show_all_links=False),
         '<main class="recent-page">',
         '<h1>Recent Entries</h1>',
         '<p class="recent-intro">Most recently added or revised entries.</p>',
@@ -848,7 +857,7 @@ def generate_pending_page(candidates: list) -> str:
     html_parts = [
         generate_html_head("Pending"),
         '<body>',
-        generate_nav_header(),
+        generate_nav_header(show_all_links=False),
         '<main class="pending-page">',
         '<h1>Pending Words</h1>',
         f'<p class="pending-intro">Candidate words awaiting dictionary entry creation ({len(candidates):,} words). Most recently added appear first.</p>',
@@ -925,3 +934,71 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
         })
 
     return recent
+
+
+def generate_kanji_list_page(entries: list, kanji_list: dict) -> str:
+    """Generate the kanji.html page listing kanji by headword frequency.
+
+    Args:
+        entries: List of all entry dicts (with 'headword' fields).
+        kanji_list: The kanji_list.json data (with 'kanji' mapping).
+    """
+    # Count how many headwords contain each kanji
+    kanji_counts = defaultdict(int)
+    for entry in entries:
+        plain = strip_furigana(entry['headword'])
+        # Count each kanji once per headword (not per occurrence)
+        seen = set()
+        for ch in plain:
+            if is_kanji(ch) and ch not in seen:
+                seen.add(ch)
+                kanji_counts[ch] += 1
+
+    # Filter to only kanji in kanji_list (those with index pages)
+    kanji_map = kanji_list.get('kanji', {})
+    kanji_with_counts = []
+    for kanji_char, count in kanji_counts.items():
+        if kanji_char in kanji_map:
+            kanji_id = kanji_map[kanji_char]['kanji_id']
+            kanji_with_counts.append((kanji_char, count, kanji_id))
+
+    # Sort by count descending, then by kanji character for stability
+    kanji_with_counts.sort(key=lambda x: (-x[1], x[0]))
+
+    # Build the HTML content
+    html_parts = [
+        generate_html_head("Kanji in Headwords"),
+        '<body>',
+        generate_nav_header(show_all_links=False),
+        '<main class="kanji-list-page">',
+        '<h1>Kanji in Headwords</h1>',
+        '<div class="kanji-stream">',
+    ]
+
+    current_count = None
+    for kanji_char, count, kanji_id in kanji_with_counts:
+        if count != current_count:
+            current_count = count
+            html_parts.append(
+                f'<span class="kanji-count-label">{count}</span>'
+            )
+        html_parts.append(
+            f'<a href="kanji/{html.escape(kanji_id)}.html" '
+            f'class="kanji-stream-char">{html.escape(kanji_char)}</a>'
+        )
+
+    html_parts.append('</div>')
+    html_parts.append('</main>')
+    html_parts.append('''
+        <footer>
+            <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    ''')
+    html_parts.append(generate_header_search_redirect_script())
+    html_parts.append(generate_furigana_script())
+    html_parts.append(generate_examples_script())
+    html_parts.append(generate_wordlinks_script())
+    html_parts.append('</body>')
+    html_parts.append('</html>')
+
+    return '\n'.join(html_parts)

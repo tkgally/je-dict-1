@@ -268,7 +268,6 @@ main {
 .hero {
     text-align: center;
     padding: var(--spacing-xl) 0;
-    border-bottom: 1px solid var(--color-border);
     margin-bottom: var(--spacing-xl);
 }
 
@@ -1135,6 +1134,61 @@ ruby rt {
     flex: 1;
 }
 
+/* Home Page Navigation Links */
+.home-nav-links {
+    display: flex;
+    gap: var(--spacing-lg);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: var(--spacing-md);
+}
+
+.home-nav-links a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.home-nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Kanji List Page */
+.kanji-list-page h1 {
+    margin-bottom: var(--spacing-lg);
+}
+
+.kanji-stream {
+    line-height: 2.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.kanji-stream-char {
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 0.4em;
+}
+
+.kanji-stream-char:hover {
+    color: var(--color-accent);
+}
+
+.kanji-count-label {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    margin: 0 0.2em;
+    vertical-align: middle;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -1245,5 +1299,10 @@ footer a:hover {
     .kanji-entry-item .entry-gloss {
         width: 100%;
         margin-top: 0.25rem;
+    }
+
+    .kanji-stream-char {
+        font-size: 32px;
+        margin: 0 0.3em;
     }
 }
