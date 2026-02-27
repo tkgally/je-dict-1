@@ -3,6 +3,33 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 329)
+Added 30 new dictionary entries (IDs 13639-13668) from candidate_words.json:
+
+- **発- cluster (3)**: {発|はっ}する (to emit/issue), {発効|はっこう} (taking effect), {発足|ほっそく} (inauguration)
+- **直- cluster (3)**: {直前|ちょくぜん} (just before), {直面|ちょくめん} (confronting), {直通|ちょくつう} (direct connection)
+- **目- cluster (3)**: {目当|めあ}て (aim/attraction), {目玉|めだま} (eyeball/highlight), {目線|めせん} (gaze/perspective)
+- **盛- cluster (2)**: {盛大|せいだい} (grand), {盛況|せいきょう} (great turnout)
+- **監- cluster (2)**: {監修|かんしゅう} (editorial supervision), {監禁|かんきん} (confinement)
+- **相- cluster (2)**: {相性|あいしょう} (compatibility), {相殺|そうさい} (offset)
+- **真- cluster (3)**: {真|ま}っ{最中|さいちゅう} (right in the middle of), {真心|まごころ} (sincerity), {真顔|まがお} (straight face)
+- **Ichidan verb (1)**: {省|かえり}みる (to reflect on)
+- **Suru verbs (4)**: {瞑想|めいそう} (meditation), {着目|ちゃくもく} (attention), {短縮|たんしゅく} (shortening), {疾走|しっそう} (sprint)
+- **Time nouns (2)**: {瞬時|しゅんじ} (instant), {矢先|やさき} (just when)
+- **Other nouns (3)**: {白黒|しろくろ} (black and white), {皮切|かわき}り (starting with), {知名度|ちめいど} (name recognition)
+- **Household (1)**: {皿洗|さらあら}い (dishwashing)
+- **Medical (1)**: {看護|かんご} (nursing)
+
+Notable features:
+- Multi-sense entries: {白黒|しろくろ} (2: monochrome + right/wrong), {目当|めあ}て (2: aim + attraction), {目玉|めだま} (2: eyeball + highlight), {目線|めせん} (2: gaze + perspective), {発|はっ}する (2: emit + issue)
+- Thematic clusters: 直- (3 entries), 目- (3 entries), 真- (3 entries)
+- Homophone cross-refs: {発効|はっこう}↔{発行|はっこう}↔{発酵|はっこう}, {監修|かんしゅう}↔{慣習|かんしゅう}, {相性|あいしょう}↔{愛称|あいしょう}, {瞑想|めいそう}↔{迷走|めいそう}, {疾走|しっそう}↔{失踪|しっそう}, {看護|かんご}↔{漢語|かんご}
+- Etymology: {皮切|かわき}り (from moxibustion), {矢先|やさき} (from arrowhead)
+- New kanji: 2,416 → 2,418 ({疾|しつ}, {瞑|めい})
+
+Total entries: 13,694 → 13,724 (approximate)
+Remaining candidates: 6,075 → 6,045 (30 removed)
+
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 328)
 Added 30 new dictionary entries (IDs 13609-13638) from candidate_words.json:
 
