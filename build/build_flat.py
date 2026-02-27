@@ -67,6 +67,7 @@ from page_generators import (
     generate_recent_page,
     generate_random_page,
     generate_pending_page,
+    generate_kanji_list_page,
     build_recent_entries,
 )
 
@@ -349,7 +350,15 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
         with open(docs_dir / 'pending.html', 'w', encoding='utf-8') as f:
             f.write(generate_pending_page(candidates))
 
-    print("  Generated index.html, advanced.html, browse.html, recent.html, random.html, pending.html")
+    # Kanji list page (kanji by headword frequency)
+    kanji_list_file = project_root / 'kanji' / 'kanji_list.json'
+    if kanji_list_file.exists():
+        with open(kanji_list_file, 'r', encoding='utf-8') as f:
+            kanji_list_data = json.load(f)
+        with open(docs_dir / 'kanji.html', 'w', encoding='utf-8') as f:
+            f.write(generate_kanji_list_page(entries, kanji_list_data))
+
+    print("  Generated index.html, advanced.html, browse.html, recent.html, random.html, pending.html, kanji.html")
 
     timings['4_navigation_pages'] = time.time() - phase_start
 
