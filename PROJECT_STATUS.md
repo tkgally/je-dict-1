@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,994 |
+| Total entries | ~14,024 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,195 (open) |
-| Candidate words | ~5,775 |
+| General tier | ~11,225 (open) |
+| Candidate words | ~5,745 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,000 |
+| Example sentences | ~48,100 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 339)
+Added 30 new dictionary entries (IDs 13939-13968) from candidate_words.json:
+
+- **Nouns (17)**: {胃袋|いぶくろ} (stomach), {胡桃|くるみ} (walnut), {脇道|わきみち} (side road/digression), {自治体|じちたい} (municipality), {良心|りょうしん} (conscience), {色合|いろあ}い (shade/hue), {美意識|びいしき} (aesthetic sense), {聞|き}き{覚|おぼ}え (familiarity from hearing), {腎臓|じんぞう} (kidney), {色彩|しきさい} (color/coloring), {芸人|げいにん} (entertainer), {花吹雪|はなふぶき} (flurry of petals), {脚本家|きゃくほんか} (screenwriter), {義務教育|ぎむきょういく} (compulsory education), {芋虫|いもむし} (caterpillar), {花形|はながた} (star/leading figure), {色調|しきちょう} (color tone)
+- **Noun/suru verbs (3)**: {脱却|だっきゃく} (breaking free), {自律|じりつ} (autonomy), {自作|じさく} (self-made)
+- **Nouns with two senses (4)**: {胴体|どうたい} (torso + fuselage), {脇道|わきみち} (side road + digression), {色合|いろあ}い (hue + figurative tinge), {色彩|しきさい} (color + character/tone)
+- **Noun/adjective (3)**: {良質|りょうしつ} (good quality), {自家製|じかせい} (homemade), {能動的|のうどうてき} (active/proactive)
+- **Na-adjective (1)**: {良好|りょうこう} (good/favorable)
+- **I-adjective (1)**: {肌寒|はだざむ}い (chilly)
+- **Verbs (3)**: {脅|おびや}かす (to threaten, godan), {腰掛|こしか}ける (to sit down, ichidan), {背|そむ}ける (to turn away, ichidan)
+- **Noun (literary) (1)**: {芳香|ほうこう} (fragrance)
+
+Notable features:
+- Multi-sense entries: {胴体|どうたい} (2: torso + fuselage), {脅|おびや}かす (2: threaten + challenge), {脇道|わきみち} (2: side road + digression), {色合|いろあ}い (2: hue + figurative tinge), {色彩|しきさい} (2: color + character/tone)
+- Body/medical: {胃袋|いぶくろ}, {胴体|どうたい}, {腎臓|じんぞう}
+- Art/aesthetics: {色合|いろあ}い, {色彩|しきさい}, {色調|しきちょう}, {美意識|びいしき}
+- Cultural: {花吹雪|はなふぶき} (cherry blossoms), {芸人|げいにん} (comedy culture), {義務教育|ぎむきょういく}
+- Nature: {胡桃|くるみ}, {芋虫|いもむし}, {肌寒|はだざむ}い, {花吹雪|はなふぶき}
+- New kanji: 2,441 → 2,443 ({胴|どう}, {腎|じん})
+
+Total entries: 13,994 → 14,024 (approximate)
+Remaining candidates: 5,775 → 5,745 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 338)
 Added 30 new dictionary entries (IDs 13909-13938) from candidate_words.json:
@@ -127,27 +150,6 @@ Notable features:
 
 Total entries: 13,874 → 13,904 (approximate)
 Remaining candidates: 5,895 → 5,865 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 334)
-Added 30 new dictionary entries (IDs 13789-13818) from candidate_words.json:
-
-- **Na-adjectives (4)**: {細|こま}やか (attentive/detailed), {簡易|かんい} (simple/simplified), {絶妙|ぜつみょう} (exquisite/superb), {緩|ゆる}やか (gentle/gradual)
-- **Nouns (15)**: {細工|さいく} (craftsmanship), {細菌|さいきん} (bacteria), {紺色|こんいろ} (navy blue), {終盤|しゅうばん} (final stage), {組|く}み{合|あ}わせ (combination), {経歴|けいれき} (career history), {経路|けいろ} (route/path), {結晶|けっしょう} (crystal), {結束|けっそく} (unity), {給食|きゅうしょく} (school lunch), {素顔|すがお} (bare face), {立地|りっち} (location), {紅白|こうはく} (red and white), {納税|のうぜい} (tax payment), {素手|すで} (bare hands)
-- **Noun/suru verbs (5)**: {絶叫|ぜっきょう} (scream), {結成|けっせい} (formation), {目視|もくし} (visual inspection), plus above entries that also function as suru verbs
-- **Nouns (other) (3)**: {絶品|ぜっぴん} (superb item), {罠|わな} (trap), {続編|ぞくへん} (sequel)
-- **Noun/adverb (1)**: {終日|しゅうじつ} (all day)
-- **Godan verbs (2)**: {結|むす}びつく (to be connected), {紡|つむ}ぐ (to spin thread)
-- **Ichidan verb (1)**: {絶|た}える (to cease/die out)
-
-Notable features:
-- Multi-sense entries: {細工|さいく} (2: craftsmanship + trickery), {経路|けいろ} (2: physical route + abstract channel), {結晶|けっしょう} (2: crystal + fruit of effort), {紅白|こうはく} (2: colors + team competition), {素顔|すがお} (2: bare face + true character), {罠|わな} (2: animal trap + scheme), {絶|た}える (2: cease + die out), {緩|ゆる}やか (2: gentle + loose), {細|こま}やか (2: attentive + warm/rich)
-- Cultural: {紅白|こうはく} (NHK紅白歌合戦), {給食|きゅうしょく} (Japanese school lunch system), {縁起|えんぎ} (luck/omens in Japanese culture), {紺色|こんいろ} (traditional indigo dyeing)
-- Literary: {紡|つむ}ぐ (modern metaphorical usage for weaving stories/bonds)
-- Practical: {経歴|けいれき} (job applications), {納税|のうぜい} (ふるさと納税), {立地|りっち} (real estate), {目視|もくし} (workplace safety)
-- New kanji: 2,428 → 2,430 ({紡|ぼう}, {罠|わな})
-
-Total entries: 13,844 → 13,874 (approximate)
-Remaining candidates: 5,925 → 5,895 (30 removed)
 
 ---
 
