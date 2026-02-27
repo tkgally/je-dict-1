@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 330)
+Added 30 new dictionary entries (IDs 13669-13698) from candidate_words.json:
+
+- **Nouns (13)**: {矢印|やじるし} (arrow sign), {眠|ねむ}り (sleep), {短冊|たんざく} (tanzaku strip), {白湯|さゆ} (plain hot water), {盃|さかずき} (sake cup), {硫黄|いおう} (sulfur), {白書|はくしょ} (white paper), {白身|しろみ} (white meat/egg white), {直球|ちょっきゅう} (fastball/directness), {知性|ちせい} (intelligence), {盛|も}り (food serving), {盛|も}り{上|あ}がり (excitement), {知見|ちけん} (knowledge/findings)
+- **Na-adjective (1)**: {真摯|しんし} (sincere)
+- **I-adjectives (1)**: {真新|まあたら}しい (brand new)
+- **Noun/suru verbs (7)**: {破壊|はかい} (destruction), {破損|はそん} (damage), {確保|かくほ} (securing), {確信|かくしん} (conviction), {着用|ちゃくよう} (wearing), {登壇|とうだん} (taking the stage), {直視|ちょくし} (looking squarely), {発声|はっせい} (vocalization)
+- **Ichidan verbs (3)**: {睨|にら}みつける (to glare at), {着|き}せる (to dress someone), {痛|いた}めつける (to torment)
+- **Godan verb (1)**: {研|と}ぎ{澄|す}ます (to hone/sharpen)
+- **Multi-sense noun (3)**: {目覚|めざ}め (2: waking + figurative awakening), {目前|もくぜん} (2: before eyes + imminent), {真髄|しんずい} (1: essence)
+
+Total entries: 13,724 → 13,754 (approximate)
+Remaining candidates: 6,045 → 6,015 (30 removed)
+
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 329)
 Added 30 new dictionary entries (IDs 13639-13668) from candidate_words.json:
 
