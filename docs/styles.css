@@ -1146,7 +1146,8 @@ ruby rt {
 .home-nav-links a {
     color: var(--color-accent);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .home-nav-links a:hover {
@@ -1170,6 +1171,7 @@ ruby rt {
     text-decoration: none;
     color: inherit;
     margin: 0 0.4em;
+    vertical-align: baseline;
 }
 
 .kanji-stream-char:hover {
@@ -1186,7 +1188,8 @@ ruby rt {
     border-radius: 4px;
     padding: 0.1rem 0.4rem;
     margin: 0 0.2em;
-    vertical-align: middle;
+    position: relative;
+    top: -0.6em;
 }
 
 /* Footer */

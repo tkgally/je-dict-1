@@ -802,7 +802,7 @@ def generate_random_page(entries: list) -> str:
     html_parts = [
         generate_html_head("Random"),
         '<body>',
-        generate_nav_header(),
+        generate_nav_header(show_all_links=False),
         '<main class="random-page">',
         '<h1>Random Word Cloud</h1>',
         '<p class="random-intro">Click any word to view its entry. Refresh the page for a new arrangement.</p>',
@@ -967,11 +967,11 @@ def generate_kanji_list_page(entries: list, kanji_list: dict) -> str:
 
     # Build the HTML content
     html_parts = [
-        generate_html_head("Kanji in Headwords"),
+        generate_html_head("Kanji by Number of Headwords"),
         '<body>',
         generate_nav_header(show_all_links=False),
         '<main class="kanji-list-page">',
-        '<h1>Kanji in Headwords</h1>',
+        '<h1>Kanji by number of headwords in which they appear</h1>',
         '<div class="kanji-stream">',
     ]
 
