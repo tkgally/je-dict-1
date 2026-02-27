@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,934 |
+| Total entries | ~13,964 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,135 (open) |
-| Candidate words | ~5,835 |
+| General tier | ~11,165 (open) |
+| Candidate words | ~5,805 |
 | Cross-references | ~3,400 |
 | Example sentences | ~47,900 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 337)
+Added 30 new dictionary entries (IDs 13879-13908) from candidate_words.json:
+
+- **Noun/suru verbs (11)**: {総称|そうしょう} (general term), {結合|けつごう} (combination), {結集|けっしゅう} (rally), {続投|ぞくとう} (continuing in position), {編入|へんにゅう} (incorporation), {編纂|へんさん} (compilation), {緊縮|きんしゅく} (austerity), {罵倒|ばとう} (verbal abuse), {習得|しゅうとく} (mastery), {老化|ろうか} (aging), {考案|こうあん} (devising)
+- **Nouns (9)**: {総裁|そうさい} (party president), {素地|そじ} (groundwork), {種族|しゅぞく} (race/tribe), {簡体字|かんたいじ} (simplified Chinese character), {繁体字|はんたいじ} (traditional Chinese character), {美徳|びとく} (virtue), {聴衆|ちょうしゅう} (audience), {職務|しょくむ} (duties), {習|なら}い{事|ごと} (lessons)
+- **Na-adjective (1)**: {絶大|ぜつだい} (immense)
+- **Godan verbs (5)**: {練|ね}り{歩|ある}く (to parade), {繰|く}り{出|だ}す (to sally forth), {祓|はら}う (to exorcise), {羽|は}ばたく (to flap wings), {羽織|はお}る (to throw on)
+- **Intransitive verb (1)**: {翻|ひるがえ}る (to flutter/be reversed)
+- **Expression (1)**: {百歩譲|ひゃっぽゆず}って (even granting that)
+- **Other nouns (2)**: {置|お}いてけぼり (being left behind), {置|お}き{手紙|てがみ} (note left behind)
+
+Notable features:
+- Multi-sense entries: {繰|く}り{出|だ}す (2: go out + unleash), {素地|そじ} (2: groundwork + raw material), {続投|ぞくとう} (2: baseball + politics), {羽|は}ばたく (2: flap wings + spread wings figuratively), {翻|ひるがえ}る (2: flutter + be reversed)
+- Cross-reference pairs: {簡体字|かんたいじ}↔{繁体字|はんたいじ}, {祓|はら}う↔{払|はら}う
+- Cultural: {祓|はら}う (Shinto purification), {百歩譲|ひゃっぽゆず}って (Chinese idiom origin)
+- Sports/politics: {続投|ぞくとう} (baseball → politics), {総裁|そうさい} (party leadership)
+- New kanji: 2,436 → 2,439 ({祓|ふつ}, {纂|さん}, {罵|ば})
+
+Total entries: 13,934 → 13,964 (approximate)
+Remaining candidates: 5,835 → 5,805 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 336)
 Added 30 new dictionary entries (IDs 13849-13878) from candidate_words.json:
@@ -129,31 +150,6 @@ Notable features:
 
 Total entries: 13,814 → 13,844 (approximate)
 Remaining candidates: 5,955 → 5,925 (30 removed)
-
-### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 332)
-Added 30 new dictionary entries (IDs 13729-13758) from candidate_words.json:
-
-- **Nouns (14)**: {礎|いしずえ} (foundation), {社会人|しゃかいじん} (working adult), {社内|しゃない} (within company), {祈|いの}り (prayer), {祭壇|さいだん} (altar), {神棚|かみだな} (kami shelf), {礼節|れいせつ} (courtesy), {禁物|きんもつ} (taboo), {社畜|しゃちく} (corporate slave), {直売所|ちょくばいじょ} (farm stand), {秘訣|ひけつ} (secret/key), {空間|くうかん} (space), {秋刀魚|さんま} (Pacific saury), {福祉|ふくし} (welfare)
-- **Noun/suru verbs (4)**: {祝福|しゅくふく} (blessing), {祈願|きがん} (supplication), {移住|いじゅう} (migration), {突破|とっぱ} (breakthrough)
-- **Noun/na-adjectives (3)**: {神秘|しんぴ} (mystery/mystique), {究極|きゅうきょく} (ultimate), {確立|かくりつ} (establishment)
-- **Na-adjective (1)**: {神聖|しんせい} (sacred)
-- **Ichidan verbs (3)**: {禁|きん}じる (to prohibit), {秀|ひい}でる (to excel), {称|たた}える (to praise)
-- **I-adjective (1)**: {禍々|まがまが}しい (ominous/sinister)
-- **Noun/suru verb (1)**: {目礼|もくれい} (silent nod)
-- **Adverb (1)**: {目|ま}の{当|あ}たり (before one's eyes)
-- **Cultural noun (1)**: {神隠|かみかく}し (spiriting away)
-
-Notable features:
-- Multi-sense entries: {禁|きん}じる (2: prohibit + suppress emotion), {突破|とっぱ} (2: break through + surpass number)
-- Cultural: {神隠|かみかく}し (folklore, Studio Ghibli), {神棚|かみだな} (household worship), {秋刀魚|さんま} (autumn cuisine icon), {社会人|しゃかいじん} (life stage concept)
-- Modern/colloquial: {社畜|しゃちく} (internet slang for overworked employees)
-- Religion cluster: {祈|いの}り, {祝福|しゅくふく}, {神秘|しんぴ}, {神聖|しんせい}, {祈願|きがん}, {祭壇|さいだん}, {神棚|かみだな}
-- Business cluster: {社会人|しゃかいじん}, {社内|しゃない}, {社畜|しゃちく}, {社交|しゃこう} (indirectly)
-- Homophone notes: {確立|かくりつ}↔{確率|かくりつ}, {福祉|ふくし}↔{副詞|ふくし}, {秘訣|ひけつ}↔{否決|ひけつ}
-- New kanji: 2,423 → 2,427 ({祉|し}, {禍|か}, {聖|せい}, {訣|けつ})
-
-Total entries: 13,784 → 13,814 (approximate)
-Remaining candidates: 5,985 → 5,955 (30 removed)
 
 ---
 
