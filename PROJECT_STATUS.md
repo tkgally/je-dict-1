@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,084 |
+| Total entries | ~14,114 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,285 (open) |
-| Candidate words | ~5,685 |
+| General tier | ~11,315 (open) |
+| Candidate words | ~5,655 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,300 |
+| Example sentences | ~48,400 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 342)
+Added 30 new dictionary entries (IDs 14029-14058) from candidate_words.json:
+
+- **Noun/suru verbs (9)**: {蘇生|そせい} (resuscitation), {衰弱|すいじゃく} (debilitation), {融合|ゆうごう} (fusion), {補充|ほじゅう} (replenishment), {落下|らっか} (fall/drop), {表明|ひょうめい} (declaration), {補給|ほきゅう} (supply), {行|い}き{来|き} (coming and going), {落書|らくが}き (graffiti)
+- **Nouns (11)**: {裏話|うらばなし} (behind-the-scenes story), {薬草|やくそう} (medicinal herb), {血縁|けつえん} (blood relation), {製法|せいほう} (manufacturing method), {街道|かいどう} (highway), {菜|な}の{花|はな} (rapeseed flower), {蜂蜜|はちみつ} (honey), {装束|しょうぞく} (costume), {衛生|えいせい} (hygiene), {薬物|やくぶつ} (drug), {英気|えいき} (vigor)
+- **Noun/na-adjective (4)**: {裏腹|うらはら} (contrary), {行方不明|ゆくえふめい} (missing), {蒼白|そうはく} (pale/pallid), {裏返|うらがえ}し (inside out)
+- **Na-adjective (1)**: {裕福|ゆうふく} (wealthy)
+- **Noun (literary) (1)**: {装|よそお}い (attire/appearance)
+- **Noun/suru verb (formal, 1)**: {虚偽|きょぎ} (falsehood)
+- **Noun/suru verb (social, 1)**: {虐待|ぎゃくたい} (abuse)
+- **Ichidan verb (1)**: {裏付|うらづ}ける (to substantiate)
+- **Godan verb (1)**: {荒|あ}らす (to devastate)
+
+Notable features:
+- Multi-sense entries: {裏返|うらがえ}し (2: inside out + flip side), {装|よそお}い (2: attire + guise), {荒|あ}らす (2: devastate + ransack)
+- Medical/health: {蘇生|そせい} (CPR), {衰弱|すいじゃく}, {衛生|えいせい}, {薬物|やくぶつ}, {薬草|やくそう}
+- Legal/formal: {虚偽|きょぎ}, {虐待|ぎゃくたい}, {表明|ひょうめい}, {裏付|うらづ}ける
+- Cultural: {街道|かいどう} (Edo highways), {装束|しょうぞく} (traditional costumes), {菜|な}の{花|はな} (spring tradition)
+- Food: {蜂蜜|はちみつ}, {菜|な}の{花|はな}, {製法|せいほう}
+- New kanji: 2,445 → 2,447 ({蒼|そう}, {虐|ぎゃく})
+
+Total entries: 14,084 → 14,114 (approximate)
+Remaining candidates: 5,685 → 5,655 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 341)
 Added 30 new dictionary entries (IDs 13999-14028) from candidate_words.json:
@@ -114,27 +138,6 @@ Notable features:
 
 Total entries: 13,964 → 13,994 (approximate)
 Remaining candidates: 5,805 → 5,775 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 337)
-Added 30 new dictionary entries (IDs 13879-13908) from candidate_words.json:
-
-- **Noun/suru verbs (11)**: {総称|そうしょう} (general term), {結合|けつごう} (combination), {結集|けっしゅう} (rally), {続投|ぞくとう} (continuing in position), {編入|へんにゅう} (incorporation), {編纂|へんさん} (compilation), {緊縮|きんしゅく} (austerity), {罵倒|ばとう} (verbal abuse), {習得|しゅうとく} (mastery), {老化|ろうか} (aging), {考案|こうあん} (devising)
-- **Nouns (9)**: {総裁|そうさい} (party president), {素地|そじ} (groundwork), {種族|しゅぞく} (race/tribe), {簡体字|かんたいじ} (simplified Chinese character), {繁体字|はんたいじ} (traditional Chinese character), {美徳|びとく} (virtue), {聴衆|ちょうしゅう} (audience), {職務|しょくむ} (duties), {習|なら}い{事|ごと} (lessons)
-- **Na-adjective (1)**: {絶大|ぜつだい} (immense)
-- **Godan verbs (5)**: {練|ね}り{歩|ある}く (to parade), {繰|く}り{出|だ}す (to sally forth), {祓|はら}う (to exorcise), {羽|は}ばたく (to flap wings), {羽織|はお}る (to throw on)
-- **Intransitive verb (1)**: {翻|ひるがえ}る (to flutter/be reversed)
-- **Expression (1)**: {百歩譲|ひゃっぽゆず}って (even granting that)
-- **Other nouns (2)**: {置|お}いてけぼり (being left behind), {置|お}き{手紙|てがみ} (note left behind)
-
-Notable features:
-- Multi-sense entries: {繰|く}り{出|だ}す (2: go out + unleash), {素地|そじ} (2: groundwork + raw material), {続投|ぞくとう} (2: baseball + politics), {羽|は}ばたく (2: flap wings + spread wings figuratively), {翻|ひるがえ}る (2: flutter + be reversed)
-- Cross-reference pairs: {簡体字|かんたいじ}↔{繁体字|はんたいじ}, {祓|はら}う↔{払|はら}う
-- Cultural: {祓|はら}う (Shinto purification), {百歩譲|ひゃっぽゆず}って (Chinese idiom origin)
-- Sports/politics: {続投|ぞくとう} (baseball → politics), {総裁|そうさい} (party leadership)
-- New kanji: 2,436 → 2,439 ({祓|ふつ}, {纂|さん}, {罵|ば})
-
-Total entries: 13,934 → 13,964 (approximate)
-Remaining candidates: 5,835 → 5,805 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 340)
 Added 30 new dictionary entries (IDs 13969-13998) from candidate_words.json:

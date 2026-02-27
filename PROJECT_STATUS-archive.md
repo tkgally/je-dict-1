@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 337)
+Added 30 new dictionary entries (IDs 13879-13908) from candidate_words.json:
+
+- **Noun/suru verbs (11)**: {総称|そうしょう} (general term), {結合|けつごう} (combination), {結集|けっしゅう} (rally), {続投|ぞくとう} (continuing in position), {編入|へんにゅう} (incorporation), {編纂|へんさん} (compilation), {緊縮|きんしゅく} (austerity), {罵倒|ばとう} (verbal abuse), {習得|しゅうとく} (mastery), {老化|ろうか} (aging), {考案|こうあん} (devising)
+- **Nouns (9)**: {総裁|そうさい} (party president), {素地|そじ} (groundwork), {種族|しゅぞく} (race/tribe), {簡体字|かんたいじ} (simplified Chinese character), {繁体字|はんたいじ} (traditional Chinese character), {美徳|びとく} (virtue), {聴衆|ちょうしゅう} (audience), {職務|しょくむ} (duties), {習|なら}い{事|ごと} (lessons)
+- **Na-adjective (1)**: {絶大|ぜつだい} (immense)
+- **Godan verbs (5)**: {練|ね}り{歩|ある}く (to parade), {繰|く}り{出|だ}す (to sally forth), {祓|はら}う (to exorcise), {羽|は}ばたく (to flap wings), {羽織|はお}る (to throw on)
+- **Intransitive verb (1)**: {翻|ひるがえ}る (to flutter/be reversed)
+- **Expression (1)**: {百歩譲|ひゃっぽゆず}って (even granting that)
+- **Other nouns (2)**: {置|お}いてけぼり (being left behind), {置|お}き{手紙|てがみ} (note left behind)
+
+Notable features:
+- Multi-sense entries: {繰|く}り{出|だ}す (2: go out + unleash), {素地|そじ} (2: groundwork + raw material), {続投|ぞくとう} (2: baseball + politics), {羽|は}ばたく (2: flap wings + spread wings figuratively), {翻|ひるがえ}る (2: flutter + be reversed)
+- Cross-reference pairs: {簡体字|かんたいじ}↔{繁体字|はんたいじ}, {祓|はら}う↔{払|はら}う
+- Cultural: {祓|はら}う (Shinto purification), {百歩譲|ひゃっぽゆず}って (Chinese idiom origin)
+- Sports/politics: {続投|ぞくとう} (baseball → politics), {総裁|そうさい} (party leadership)
+- New kanji: 2,436 → 2,439 ({祓|ふつ}, {纂|さん}, {罵|ば})
+
+Total entries: 13,934 → 13,964 (approximate)
+Remaining candidates: 5,835 → 5,805 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 336)
 Added 30 new dictionary entries (IDs 13849-13878) from candidate_words.json:
 
