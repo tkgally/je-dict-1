@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,054 |
+| Total entries | ~14,084 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,255 (open) |
-| Candidate words | ~5,715 |
+| General tier | ~11,285 (open) |
+| Candidate words | ~5,685 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,200 |
+| Example sentences | ~48,300 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 341)
+Added 30 new dictionary entries (IDs 13999-14028) from candidate_words.json:
+
+- **Godan verbs (5)**: {興|おこ}す (to start/revive), {舞|ま}い{戻|もど}る (to come back), {聞|き}かす (to tell/let hear), {若返|わかがえ}る (to rejuvenate), {行|い}き{交|か}う (to come and go)
+- **Ichidan verb (1)**: {聞|き}きつける (to hear about)
+- **Nouns (14)**: {脇腹|わきばら} (flank), {舶来|はくらい} (imported goods), {航空機|こうくうき} (aircraft), {肉団子|にくだんご} (meatball), {至上|しじょう} (supreme), {苗字|みょうじ} (surname), {自国|じこく} (one's own country), {美貌|びぼう} (beauty), {老女|ろうじょ} (old woman), {花鳥|かちょう} (flowers and birds), {茶屋|ちゃや} (teahouse), {裏技|うらわざ} (secret trick/hack), {著作権|ちょさくけん} (copyright), {街灯|がいとう} (streetlight)
+- **Noun/suru verbs (5)**: {肉薄|にくはく} (closing in on), {自戒|じかい} (self-admonition), {蓄積|ちくせき} (accumulation), {補強|ほきょう} (reinforcement), {薄着|うすぎ} (light clothing)
+- **Nouns (literary/cultural) (3)**: {義憤|ぎふん} (righteous indignation), {苦渋|くじゅう} (anguish), {花道|はなみち} (kabuki runway/glorious exit)
+- **Nouns (other) (2)**: {荒波|あらなみ} (rough waves), {血統|けっとう} (lineage)
+
+Notable features:
+- Multi-sense entries: {興|おこ}す (2: start + revive), {花道|はなみち} (2: kabuki runway + glorious exit)
+- Verbs: Good mix of godan and ichidan with transitivity/aspect notes
+- Cultural: {舶来|はくらい} (Meiji import culture), {花道|はなみち} (kabuki), {茶屋|ちゃや} (traditional teahouse), {花鳥|かちょう} (classical aesthetics)
+- Modern/practical: {裏技|うらわざ} (life hack), {著作権|ちょさくけん} (copyright law), {航空機|こうくうき}
+- Body: {脇腹|わきばら}
+- Food: {肉団子|にくだんご}
+- New kanji: 2,444 → 2,445 ({舶|はく})
+
+Total entries: 14,054 → 14,084 (approximate)
+Remaining candidates: 5,715 → 5,685 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 339)
 Added 30 new dictionary entries (IDs 13939-13968) from candidate_words.json:
@@ -113,24 +135,6 @@ Notable features:
 
 Total entries: 13,934 → 13,964 (approximate)
 Remaining candidates: 5,835 → 5,805 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 336)
-Added 30 new dictionary entries (IDs 13849-13878) from candidate_words.json:
-
-- **Nouns (14)**: {素行|そこう} (conduct), {終身雇用|しゅうしんこよう} (lifetime employment), {結界|けっかい} (spiritual barrier), {白|しろ} (white/innocence), {総会|そうかい} (general meeting), {総理|そうり} (prime minister), {粉雪|こなゆき} (powder snow), {繭|まゆ} (cocoon), {紅|べに} (rouge/crimson), {紋|もん} (crest/pattern), {絵文字|えもじ} (emoji), {絵柄|えがら} (design/art style), {罫線|けいせん} (ruled line), {絵師|えし} (illustrator)
-- **Noun/suru verbs (10)**: {納付|のうふ} (payment), {終結|しゅうけつ} (conclusion), {続出|ぞくしゅつ} (appearing in succession), {線引|せんび}き (drawing a line/distinction), {統率|とうそつ} (leadership), {締結|ていけつ} (signing of treaty), {累積|るいせき} (accumulation), {粉砕|ふんさい} (pulverization), {総括|そうかつ} (summary/review), {続報|ぞくほう} (follow-up report)
-- **Nouns (other) (5)**: {維新|いしん} (restoration/reform), {縦書|たてが}き (vertical writing), {絶好|ぜっこう} (best/ideal), {素性|すじょう} (origin/identity), {繊維|せんい} (fiber/textile)
-- **Ichidan verb (1)**: {経|へ}る (to pass through/elapse)
-
-Notable features:
-- Multi-sense entries: {結界|けっかい} (2: sacred boundary + magical barrier), {白|しろ} (2: white + innocence), {紅|べに} (2: rouge + crimson color), {紋|もん} (2: family crest + pattern), {絵柄|えがら} (2: design + art style), {線引|せんび}き (2: drawing lines + making distinctions), {粉砕|ふんさい} (2: physical crushing + figurative destruction), {繊維|せんい} (2: biological fiber + textile), {経|へ}る (2: pass through + time elapses), {絵師|えし} (2: traditional painter + digital illustrator)
-- Cultural: {終身雇用|しゅうしんこよう} (Japanese employment culture), {維新|いしん} (Meiji Restoration), {縦書|たてが}き (Japanese writing direction), {紋|もん} (family crests), {繭|まゆ} (silk industry), {結界|けっかい} (Buddhist/anime term)
-- Modern: {絵文字|えもじ} (emoji origin), {絵師|えし} (digital art culture), {絵柄|えがら} (manga/anime discussion)
-- Business/legal: {納付|のうふ}, {総会|そうかい}, {総理|そうり}, {締結|ていけつ}, {累積|るいせき}, {総括|そうかつ}
-- New kanji: 2,434 → 2,436 ({繭|けん}, {罫|けい})
-
-Total entries: 13,904 → 13,934 (approximate)
-Remaining candidates: 5,865 → 5,835 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 340)
 Added 30 new dictionary entries (IDs 13969-13998) from candidate_words.json:
