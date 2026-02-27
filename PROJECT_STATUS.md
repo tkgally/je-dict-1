@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,904 |
+| Total entries | ~13,934 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,105 (open) |
-| Candidate words | ~5,865 |
+| General tier | ~11,135 (open) |
+| Candidate words | ~5,835 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,800 |
+| Example sentences | ~47,900 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 336)
+Added 30 new dictionary entries (IDs 13849-13878) from candidate_words.json:
+
+- **Nouns (14)**: {素行|そこう} (conduct), {終身雇用|しゅうしんこよう} (lifetime employment), {結界|けっかい} (spiritual barrier), {白|しろ} (white/innocence), {総会|そうかい} (general meeting), {総理|そうり} (prime minister), {粉雪|こなゆき} (powder snow), {繭|まゆ} (cocoon), {紅|べに} (rouge/crimson), {紋|もん} (crest/pattern), {絵文字|えもじ} (emoji), {絵柄|えがら} (design/art style), {罫線|けいせん} (ruled line), {絵師|えし} (illustrator)
+- **Noun/suru verbs (10)**: {納付|のうふ} (payment), {終結|しゅうけつ} (conclusion), {続出|ぞくしゅつ} (appearing in succession), {線引|せんび}き (drawing a line/distinction), {統率|とうそつ} (leadership), {締結|ていけつ} (signing of treaty), {累積|るいせき} (accumulation), {粉砕|ふんさい} (pulverization), {総括|そうかつ} (summary/review), {続報|ぞくほう} (follow-up report)
+- **Nouns (other) (5)**: {維新|いしん} (restoration/reform), {縦書|たてが}き (vertical writing), {絶好|ぜっこう} (best/ideal), {素性|すじょう} (origin/identity), {繊維|せんい} (fiber/textile)
+- **Ichidan verb (1)**: {経|へ}る (to pass through/elapse)
+
+Notable features:
+- Multi-sense entries: {結界|けっかい} (2: sacred boundary + magical barrier), {白|しろ} (2: white + innocence), {紅|べに} (2: rouge + crimson color), {紋|もん} (2: family crest + pattern), {絵柄|えがら} (2: design + art style), {線引|せんび}き (2: drawing lines + making distinctions), {粉砕|ふんさい} (2: physical crushing + figurative destruction), {繊維|せんい} (2: biological fiber + textile), {経|へ}る (2: pass through + time elapses), {絵師|えし} (2: traditional painter + digital illustrator)
+- Cultural: {終身雇用|しゅうしんこよう} (Japanese employment culture), {維新|いしん} (Meiji Restoration), {縦書|たてが}き (Japanese writing direction), {紋|もん} (family crests), {繭|まゆ} (silk industry), {結界|けっかい} (Buddhist/anime term)
+- Modern: {絵文字|えもじ} (emoji origin), {絵師|えし} (digital art culture), {絵柄|えがら} (manga/anime discussion)
+- Business/legal: {納付|のうふ}, {総会|そうかい}, {総理|そうり}, {締結|ていけつ}, {累積|るいせき}, {総括|そうかつ}
+- New kanji: 2,434 → 2,436 ({繭|けん}, {罫|けい})
+
+Total entries: 13,904 → 13,934 (approximate)
+Remaining candidates: 5,865 → 5,835 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 335)
 Added 30 new dictionary entries (IDs 13819-13848) from candidate_words.json:
@@ -136,28 +154,6 @@ Notable features:
 
 Total entries: 13,784 → 13,814 (approximate)
 Remaining candidates: 5,985 → 5,955 (30 removed)
-
-### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 331)
-Added 30 new dictionary entries (IDs 13699-13728) from candidate_words.json:
-
-- **Nouns (12)**: {真意|しんい} (true intention), {省庁|しょうちょう} (government ministries), {着想|ちゃくそう} (idea/inspiration), {異物|いぶつ} (foreign body), {画集|がしゅう} (art book), {白玉|しらたま} (rice flour dumpling), {砂粒|すなつぶ} (grain of sand), {番茶|ばんちゃ} (coarse green tea), {石碑|せきひ} (stone monument), {矜持|きょうじ} (pride/dignity), {碁盤|ごばん} (go board), {異国|いこく} (foreign land)
-- **Na-adjectives (2)**: {知的|ちてき} (intellectual), {盲目|もうもく} (blind)
-- **Noun/no-adjective (3)**: {直近|ちょっきん} (most recent), {略式|りゃくしき} (informal), {異形|いぎょう} (monstrous form)
-- **Noun/suru verbs (6)**: {直結|ちょっけつ} (direct connection), {発汗|はっかん} (sweating), {確定|かくてい} (finalization), {着色|ちゃくしょく} (coloring), {直撃|ちょくげき} (direct hit), {直談判|じかだんぱん} (direct negotiation)
-- **Taru-adjective (1)**: {確固|かっこ} (firm/unwavering)
-- **Godan verbs (2)**: {白|しら}む (to grow light at dawn), {着古|きふる}す (to wear out clothing)
-- **Ichidan verb (1)**: {登|のぼ}り{詰|つ}める (to climb to the top)
-- **Noun/na-adjective (3)**: {相対|そうたい} (relative), {相応|そうおう} (suitable), {硬化|こうか} (hardening)
-
-Notable features:
-- Multi-sense entries: {知的|ちてき} (2: intellectual + intelligent-looking), {直近|ちょっきん} (2: temporal + spatial), {白|しら}む (2: dawn + pallor), {登|のぼ}り{詰|つ}める (2: physical + figurative), {盲目|もうもく} (2: literal + figurative blindness)
-- Cultural: {碁盤|ごばん}の{目|め} (Kyoto grid pattern), {番茶|ばんちゃ} (everyday tea culture, proverb), {白玉|しらたま} (wagashi ingredient)
-- Literary: {白|しら}む (poetic dawn), {矜持|きょうじ} (elevated pride), {異国|いこく} (evocative foreign land), {確固|かっこ}たる (formal resolve)
-- Practical: {確定|かくてい}{申告|しんこく} (tax returns), {省庁|しょうちょう} (Japanese government structure), {直撃|ちょくげき}インタビュー (journalism)
-- New kanji: 2,421 → 2,423 ({矜|きん}, {碑|ひ})
-
-Total entries: 13,754 → 13,784 (approximate)
-Remaining candidates: 6,015 → 5,985 (30 removed)
 
 ---
 
