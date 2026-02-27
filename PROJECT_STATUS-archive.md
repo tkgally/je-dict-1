@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 336)
+Added 30 new dictionary entries (IDs 13849-13878) from candidate_words.json:
+
+- **Nouns (14)**: {素行|そこう} (conduct), {終身雇用|しゅうしんこよう} (lifetime employment), {結界|けっかい} (spiritual barrier), {白|しろ} (white/innocence), {総会|そうかい} (general meeting), {総理|そうり} (prime minister), {粉雪|こなゆき} (powder snow), {繭|まゆ} (cocoon), {紅|べに} (rouge/crimson), {紋|もん} (crest/pattern), {絵文字|えもじ} (emoji), {絵柄|えがら} (design/art style), {罫線|けいせん} (ruled line), {絵師|えし} (illustrator)
+- **Noun/suru verbs (10)**: {納付|のうふ} (payment), {終結|しゅうけつ} (conclusion), {続出|ぞくしゅつ} (appearing in succession), {線引|せんび}き (drawing a line/distinction), {統率|とうそつ} (leadership), {締結|ていけつ} (signing of treaty), {累積|るいせき} (accumulation), {粉砕|ふんさい} (pulverization), {総括|そうかつ} (summary/review), {続報|ぞくほう} (follow-up report)
+- **Nouns (other) (5)**: {維新|いしん} (restoration/reform), {縦書|たてが}き (vertical writing), {絶好|ぜっこう} (best/ideal), {素性|すじょう} (origin/identity), {繊維|せんい} (fiber/textile)
+- **Ichidan verb (1)**: {経|へ}る (to pass through/elapse)
+
+Notable features:
+- Multi-sense entries: {結界|けっかい} (2: sacred boundary + magical barrier), {白|しろ} (2: white + innocence), {紅|べに} (2: rouge + crimson color), {紋|もん} (2: family crest + pattern), {絵柄|えがら} (2: design + art style), {線引|せんび}き (2: drawing lines + making distinctions), {粉砕|ふんさい} (2: physical crushing + figurative destruction), {繊維|せんい} (2: biological fiber + textile), {経|へ}る (2: pass through + time elapses), {絵師|えし} (2: traditional painter + digital illustrator)
+- Cultural: {終身雇用|しゅうしんこよう} (Japanese employment culture), {維新|いしん} (Meiji Restoration), {縦書|たてが}き (Japanese writing direction), {紋|もん} (family crests), {繭|まゆ} (silk industry), {結界|けっかい} (Buddhist/anime term)
+- Modern: {絵文字|えもじ} (emoji origin), {絵師|えし} (digital art culture), {絵柄|えがら} (manga/anime discussion)
+- Business/legal: {納付|のうふ}, {総会|そうかい}, {総理|そうり}, {締結|ていけつ}, {累積|るいせき}, {総括|そうかつ}
+- New kanji: 2,434 → 2,436 ({繭|けん}, {罫|けい})
+
+Total entries: 13,904 → 13,934 (approximate)
+Remaining candidates: 5,865 → 5,835 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 335)
 Added 30 new dictionary entries (IDs 13819-13848) from candidate_words.json:
 
