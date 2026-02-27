@@ -3,6 +3,25 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 338)
+Added 30 new dictionary entries (IDs 13909-13938) from candidate_words.json:
+
+- **Nouns (16)**: {肩書|かたが}き (title/credential), {聴覚|ちょうかく} (hearing), {肉体|にくたい} (physical body), {羽毛|うもう} (down/feathers), {義足|ぎそく} (prosthetic leg), {耐性|たいせい} (resistance/tolerance), {聖域|せいいき} (sanctuary), {聞|き}き{込|こ}み (inquiry), {職種|しょくしゅ} (job type), {育|そだ}ち (upbringing), {背筋|せすじ} (spine/posture), {脅威|きょうい} (threat), {脇役|わきやく} (supporting role), {肴|さかな} (appetizer), {自前|じまえ} (self-supplied), {習|なら}わし (custom)
+- **Noun/suru verbs (7)**: {美化|びか} (beautification), {肥満|ひまん} (obesity), {翻案|ほんあん} (adaptation), {老朽|ろうきゅう} (dilapidation), {脱出|だっしゅつ} (escape), {膠着|こうちゃく} (stalemate), {自称|じしょう} (self-proclaimed)
+- **Noun (two senses, 5)**: {美学|びがく} (aesthetics), {肉食|にくしょく} (meat-eating/aggressive), {背伸|せの}び (tiptoe/overreaching), {育成|いくせい} (development), {習性|しゅうせい} (nature/habit)
+- **Adverb/noun (1)**: {至極|しごく} (extremely)
+- **Expression (1)**: {老若男女|ろうにゃくなんにょ} (all ages)
+
+Notable features:
+- Multi-sense entries: {美化|びか} (2: beautification + glorification), {美学|びがく} (2: academic + personal), {肉食|にくしょく} (2: carnivorous + aggressive dating), {聖域|せいいき} (2: sacred place + untouchable area), {背伸|せの}び (2: tiptoe + overreaching), {育|そだ}ち (2: upbringing + growth), {肴|さかな} (2: appetizer + conversation topic), {自前|じまえ} (2: self-owned + self-funded), {習性|しゅうせい} (2: animal instinct + ingrained habit)
+- Body/medical: {聴覚|ちょうかく}, {肉体|にくたい}, {義足|ぎそく}, {背筋|せすじ}, {肥満|ひまん}, {耐性|たいせい}
+- Work/business: {肩書|かたが}き, {職種|しょくしゅ}, {育成|いくせい}, {自前|じまえ}
+- Cultural: {肴|さかな} (sake culture), {老若男女|ろうにゃくなんにょ} (Buddhist reading), {習|なら}わし (traditions)
+- New kanji: 2,439 → 2,441 ({脅|きょう}, {膠|こう})
+
+Total entries: 13,964 → 13,994 (approximate)
+Remaining candidates: 5,805 → 5,775 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 337)
 Added 30 new dictionary entries (IDs 13879-13908) from candidate_words.json:
 
