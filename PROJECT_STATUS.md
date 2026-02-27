@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,844 |
+| Total entries | ~13,874 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,045 (open) |
-| Candidate words | ~5,925 |
+| General tier | ~11,075 (open) |
+| Candidate words | ~5,895 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,600 |
+| Example sentences | ~47,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 334)
+Added 30 new dictionary entries (IDs 13789-13818) from candidate_words.json:
+
+- **Na-adjectives (4)**: {細|こま}やか (attentive/detailed), {簡易|かんい} (simple/simplified), {絶妙|ぜつみょう} (exquisite/superb), {緩|ゆる}やか (gentle/gradual)
+- **Nouns (15)**: {細工|さいく} (craftsmanship), {細菌|さいきん} (bacteria), {紺色|こんいろ} (navy blue), {終盤|しゅうばん} (final stage), {組|く}み{合|あ}わせ (combination), {経歴|けいれき} (career history), {経路|けいろ} (route/path), {結晶|けっしょう} (crystal), {結束|けっそく} (unity), {給食|きゅうしょく} (school lunch), {素顔|すがお} (bare face), {立地|りっち} (location), {紅白|こうはく} (red and white), {納税|のうぜい} (tax payment), {素手|すで} (bare hands)
+- **Noun/suru verbs (5)**: {絶叫|ぜっきょう} (scream), {結成|けっせい} (formation), {目視|もくし} (visual inspection), plus above entries that also function as suru verbs
+- **Nouns (other) (3)**: {絶品|ぜっぴん} (superb item), {罠|わな} (trap), {続編|ぞくへん} (sequel)
+- **Noun/adverb (1)**: {終日|しゅうじつ} (all day)
+- **Godan verbs (2)**: {結|むす}びつく (to be connected), {紡|つむ}ぐ (to spin thread)
+- **Ichidan verb (1)**: {絶|た}える (to cease/die out)
+
+Notable features:
+- Multi-sense entries: {細工|さいく} (2: craftsmanship + trickery), {経路|けいろ} (2: physical route + abstract channel), {結晶|けっしょう} (2: crystal + fruit of effort), {紅白|こうはく} (2: colors + team competition), {素顔|すがお} (2: bare face + true character), {罠|わな} (2: animal trap + scheme), {絶|た}える (2: cease + die out), {緩|ゆる}やか (2: gentle + loose), {細|こま}やか (2: attentive + warm/rich)
+- Cultural: {紅白|こうはく} (NHK紅白歌合戦), {給食|きゅうしょく} (Japanese school lunch system), {縁起|えんぎ} (luck/omens in Japanese culture), {紺色|こんいろ} (traditional indigo dyeing)
+- Literary: {紡|つむ}ぐ (modern metaphorical usage for weaving stories/bonds)
+- Practical: {経歴|けいれき} (job applications), {納税|のうぜい} (ふるさと納税), {立地|りっち} (real estate), {目視|もくし} (workplace safety)
+- New kanji: 2,428 → 2,430 ({紡|ぼう}, {罠|わな})
+
+Total entries: 13,844 → 13,874 (approximate)
+Remaining candidates: 5,925 → 5,895 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 333)
 Added 30 new dictionary entries (IDs 13759-13788) from candidate_words.json:
@@ -138,33 +159,6 @@ Notable features:
 
 Total entries: 13,724 → 13,754 (approximate)
 Remaining candidates: 6,045 → 6,015 (30 removed)
-
-### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 329)
-Added 30 new dictionary entries (IDs 13639-13668) from candidate_words.json:
-
-- **発- cluster (3)**: {発|はっ}する (to emit/issue), {発効|はっこう} (taking effect), {発足|ほっそく} (inauguration)
-- **直- cluster (3)**: {直前|ちょくぜん} (just before), {直面|ちょくめん} (confronting), {直通|ちょくつう} (direct connection)
-- **目- cluster (3)**: {目当|めあ}て (aim/attraction), {目玉|めだま} (eyeball/highlight), {目線|めせん} (gaze/perspective)
-- **盛- cluster (2)**: {盛大|せいだい} (grand), {盛況|せいきょう} (great turnout)
-- **監- cluster (2)**: {監修|かんしゅう} (editorial supervision), {監禁|かんきん} (confinement)
-- **相- cluster (2)**: {相性|あいしょう} (compatibility), {相殺|そうさい} (offset)
-- **真- cluster (3)**: {真|ま}っ{最中|さいちゅう} (right in the middle of), {真心|まごころ} (sincerity), {真顔|まがお} (straight face)
-- **Ichidan verb (1)**: {省|かえり}みる (to reflect on)
-- **Suru verbs (4)**: {瞑想|めいそう} (meditation), {着目|ちゃくもく} (attention), {短縮|たんしゅく} (shortening), {疾走|しっそう} (sprint)
-- **Time nouns (2)**: {瞬時|しゅんじ} (instant), {矢先|やさき} (just when)
-- **Other nouns (3)**: {白黒|しろくろ} (black and white), {皮切|かわき}り (starting with), {知名度|ちめいど} (name recognition)
-- **Household (1)**: {皿洗|さらあら}い (dishwashing)
-- **Medical (1)**: {看護|かんご} (nursing)
-
-Notable features:
-- Multi-sense entries: {白黒|しろくろ} (2: monochrome + right/wrong), {目当|めあ}て (2: aim + attraction), {目玉|めだま} (2: eyeball + highlight), {目線|めせん} (2: gaze + perspective), {発|はっ}する (2: emit + issue)
-- Thematic clusters: 直- (3 entries), 目- (3 entries), 真- (3 entries)
-- Homophone cross-refs: {発効|はっこう}↔{発行|はっこう}↔{発酵|はっこう}, {監修|かんしゅう}↔{慣習|かんしゅう}, {相性|あいしょう}↔{愛称|あいしょう}, {瞑想|めいそう}↔{迷走|めいそう}, {疾走|しっそう}↔{失踪|しっそう}, {看護|かんご}↔{漢語|かんご}
-- Etymology: {皮切|かわき}り (from moxibustion), {矢先|やさき} (from arrowhead)
-- New kanji: 2,416 → 2,418 ({疾|しつ}, {瞑|めい})
-
-Total entries: 13,694 → 13,724 (approximate)
-Remaining candidates: 6,075 → 6,045 (30 removed)
 
 ---
 
