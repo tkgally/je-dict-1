@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,964 |
+| Total entries | ~13,994 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,165 (open) |
-| Candidate words | ~5,805 |
+| General tier | ~11,195 (open) |
+| Candidate words | ~5,775 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,900 |
+| Example sentences | ~48,000 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 338)
+Added 30 new dictionary entries (IDs 13909-13938) from candidate_words.json:
+
+- **Nouns (16)**: {肩書|かたが}き (title/credential), {聴覚|ちょうかく} (hearing), {肉体|にくたい} (physical body), {羽毛|うもう} (down/feathers), {義足|ぎそく} (prosthetic leg), {耐性|たいせい} (resistance/tolerance), {聖域|せいいき} (sanctuary), {聞|き}き{込|こ}み (inquiry), {職種|しょくしゅ} (job type), {育|そだ}ち (upbringing), {背筋|せすじ} (spine/posture), {脅威|きょうい} (threat), {脇役|わきやく} (supporting role), {肴|さかな} (appetizer), {自前|じまえ} (self-supplied), {習|なら}わし (custom)
+- **Noun/suru verbs (7)**: {美化|びか} (beautification), {肥満|ひまん} (obesity), {翻案|ほんあん} (adaptation), {老朽|ろうきゅう} (dilapidation), {脱出|だっしゅつ} (escape), {膠着|こうちゃく} (stalemate), {自称|じしょう} (self-proclaimed)
+- **Noun (two senses, 5)**: {美学|びがく} (aesthetics), {肉食|にくしょく} (meat-eating/aggressive), {背伸|せの}び (tiptoe/overreaching), {育成|いくせい} (development), {習性|しゅうせい} (nature/habit)
+- **Adverb/noun (1)**: {至極|しごく} (extremely)
+- **Expression (1)**: {老若男女|ろうにゃくなんにょ} (all ages)
+
+Notable features:
+- Multi-sense entries: {美化|びか} (2: beautification + glorification), {美学|びがく} (2: academic + personal), {肉食|にくしょく} (2: carnivorous + aggressive dating), {聖域|せいいき} (2: sacred place + untouchable area), {背伸|せの}び (2: tiptoe + overreaching), {育|そだ}ち (2: upbringing + growth), {肴|さかな} (2: appetizer + conversation topic), {自前|じまえ} (2: self-owned + self-funded), {習性|しゅうせい} (2: animal instinct + ingrained habit)
+- Body/medical: {聴覚|ちょうかく}, {肉体|にくたい}, {義足|ぎそく}, {背筋|せすじ}, {肥満|ひまん}, {耐性|たいせい}
+- Work/business: {肩書|かたが}き, {職種|しょくしゅ}, {育成|いくせい}, {自前|じまえ}
+- Cultural: {肴|さかな} (sake culture), {老若男女|ろうにゃくなんにょ} (Buddhist reading), {習|なら}わし (traditions)
+- New kanji: 2,439 → 2,441 ({脅|きょう}, {膠|こう})
+
+Total entries: 13,964 → 13,994 (approximate)
+Remaining candidates: 5,805 → 5,775 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 337)
 Added 30 new dictionary entries (IDs 13879-13908) from candidate_words.json:
@@ -129,27 +148,6 @@ Notable features:
 
 Total entries: 13,844 → 13,874 (approximate)
 Remaining candidates: 5,925 → 5,895 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 333)
-Added 30 new dictionary entries (IDs 13759-13788) from candidate_words.json:
-
-- **Ichidan verbs (2)**: {秘|ひ}める (to keep secret), {築|きず}き{上|あ}げる (to build up)
-- **Godan verb (1)**: {競|きそ}う (to compete)
-- **Noun/suru verbs (6)**: {移植|いしょく} (transplant), {移行|いこう} (transition), {突入|とつにゅう} (rushing in), {立候補|りっこうほ} (candidacy), {移籍|いせき} (transfer), {精進|しょうじん} (devotion)
-- **Nouns (11)**: {移|うつ}り{変|か}わり (change over time), {空耳|そらみみ} (mishearing), {窯|かま} (kiln), {竜|りゅう} (dragon), {笑|え}み (smile), {節度|せつど} (moderation), {米粉|こめこ} (rice flour), {粉末|ふんまつ} (powder), {秘伝|ひでん} (secret tradition), {税務署|ぜいむしょ} (tax office), {策略|さくりゃく} (stratagem)
-- **Na-adjectives (4)**: {粋|いき} (stylish/chic), {精密|せいみつ} (precise), {突飛|とっぴ} (outlandish), {端的|たんてき} (straightforward), {稀有|けう} (rare)
-- **Nouns (3)**: {精度|せいど} (precision), {簿記|ぼき} (bookkeeping), {精一杯|せいいっぱい} (to the fullest)
-- **Adverbs (2)**: {突如|とつじょ} (suddenly), {立|た}て{続|つづ}け (in succession)
-
-Notable features:
-- Multi-sense entries: {移植|いしょく} (2: organ transplant + plant/software porting), {突入|とつにゅう} (2: physical charge + entering a phase), {粋|いき} (2: stylish + considerate), {精進|しょうじん} (2: devotion + vegetarian cuisine)
-- Cultural: {粋|いき} (Edo aesthetic), {竜|りゅう} (East Asian dragon mythology), {精進|しょうじん} (Buddhist practice), {窯|かま} (pottery culture), {空耳|そらみみ} (Soramimi Hour TV segment)
-- Practical: {税務署|ぜいむしょ} (tax filing), {簿記|ぼき} (Nissho certification), {精度|せいど} (AI/tech accuracy), {移行|いこう} (system migration)
-- Literary: {秘|ひ}める, {笑|え}み, {稀有|けう}, {突如|とつじょ}
-- New kanji: 2,427 → 2,428 ({窯|かま})
-
-Total entries: 13,814 → 13,844 (approximate)
-Remaining candidates: 5,955 → 5,925 (30 removed)
 
 ---
 

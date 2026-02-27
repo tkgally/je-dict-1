@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 333)
+Added 30 new dictionary entries (IDs 13759-13788) from candidate_words.json:
+
+- **Ichidan verbs (2)**: {秘|ひ}める (to keep secret), {築|きず}き{上|あ}げる (to build up)
+- **Godan verb (1)**: {競|きそ}う (to compete)
+- **Noun/suru verbs (6)**: {移植|いしょく} (transplant), {移行|いこう} (transition), {突入|とつにゅう} (rushing in), {立候補|りっこうほ} (candidacy), {移籍|いせき} (transfer), {精進|しょうじん} (devotion)
+- **Nouns (11)**: {移|うつ}り{変|か}わり (change over time), {空耳|そらみみ} (mishearing), {窯|かま} (kiln), {竜|りゅう} (dragon), {笑|え}み (smile), {節度|せつど} (moderation), {米粉|こめこ} (rice flour), {粉末|ふんまつ} (powder), {秘伝|ひでん} (secret tradition), {税務署|ぜいむしょ} (tax office), {策略|さくりゃく} (stratagem)
+- **Na-adjectives (4)**: {粋|いき} (stylish/chic), {精密|せいみつ} (precise), {突飛|とっぴ} (outlandish), {端的|たんてき} (straightforward), {稀有|けう} (rare)
+- **Nouns (3)**: {精度|せいど} (precision), {簿記|ぼき} (bookkeeping), {精一杯|せいいっぱい} (to the fullest)
+- **Adverbs (2)**: {突如|とつじょ} (suddenly), {立|た}て{続|つづ}け (in succession)
+
+Total entries: 13,814 → 13,844 (approximate)
+Remaining candidates: 5,955 → 5,925 (30 removed)
+
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 332)
 Added 30 new dictionary entries (IDs 13729-13758) from candidate_words.json:
 
