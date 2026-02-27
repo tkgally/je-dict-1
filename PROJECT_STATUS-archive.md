@@ -3,6 +3,25 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 335)
+Added 30 new dictionary entries (IDs 13819-13848) from candidate_words.json:
+
+- **Na-adjectives (2)**: {穏和|おんわ} (gentle/mild), {粗野|そや} (crude/boorish)
+- **Nouns (16)**: {精霊|せいれい} (spirit), {紀元|きげん} (era/epoch), {紀行|きこう} (travelogue), {看板娘|かんばんむすめ} (poster girl), {紋章|もんしょう} (coat of arms), {秘宝|ひほう} (hidden treasure), {系譜|けいふ} (genealogy), {紀元前|きげんぜん} (B.C.), {箇条|かじょう} (item/clause), {真骨頂|しんこっちょう} (true worth), {禊|みそぎ} (purification ritual), {祠|ほこら} (small shrine), {縛|しば}り (binding/restriction), {絶頂|ぜっちょう} (peak/summit), {縁談|えんだん} (marriage proposal), {系列|けいれつ} (series/keiretsu)
+- **Noun/suru verbs (10)**: {直送|ちょくそう} (direct delivery), {管轄|かんかつ} (jurisdiction), {直立|ちょくりつ} (standing upright), {直轄|ちょっかつ} (direct control), {終焉|しゅうえん} (end/demise), {絶賛|ぜっさん} (high praise), {継承|けいしょう} (succession), {統治|とうち} (governance), {緩和|かんわ} (alleviation), {給付|きゅうふ} (benefit payment)
+- **Adverb (1)**: {総|そう}じて (generally)
+- **Noun (literary) (1)**: {発露|はつろ} (manifestation)
+
+Notable features:
+- Multi-sense entries: {精霊|せいれい} (2: nature spirit + Obon spirit), {紀元|きげん} (2: epoch + A.D.), {禊|みそぎ} (2: ritual + political atonement), {縛|しば}り (2: physical binding + restriction/rule), {絶頂|ぜっちょう} (2: mountain summit + zenith)
+- Cultural: {禊|みそぎ} (Shinto purification, political usage), {祠|ほこら} (wayside shrines), {看板娘|かんばんむすめ} (Edo-era concept), {精霊|しょうりょう} (Obon), {紋章|もんしょう} (heraldry)
+- Business/legal: {管轄|かんかつ}, {直轄|ちょっかつ}, {系列|けいれつ} (keiretsu corporate groups), {給付|きゅうふ} (government benefits), {統治|とうち}
+- Historical: {紀元|きげん}/{紀元前|きげんぜん} (calendar systems), {継承|けいしょう}, {終焉|しゅうえん}
+- New kanji: 2,430 → 2,434 ({焉|えん}, {祠|し}, {禊|けい}, {轄|かつ})
+
+Total entries: 13,874 → 13,904 (approximate)
+Remaining candidates: 5,895 → 5,865 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 334)
 Added 30 new dictionary entries (IDs 13789-13818) from candidate_words.json:
 

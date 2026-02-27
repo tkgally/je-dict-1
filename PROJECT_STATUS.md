@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,024 |
+| Total entries | ~14,054 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,225 (open) |
-| Candidate words | ~5,745 |
+| General tier | ~11,255 (open) |
+| Candidate words | ~5,715 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,100 |
+| Example sentences | ~48,200 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -132,24 +132,27 @@ Notable features:
 Total entries: 13,904 → 13,934 (approximate)
 Remaining candidates: 5,865 → 5,835 (30 removed)
 
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 335)
-Added 30 new dictionary entries (IDs 13819-13848) from candidate_words.json:
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 340)
+Added 30 new dictionary entries (IDs 13969-13998) from candidate_words.json:
 
-- **Na-adjectives (2)**: {穏和|おんわ} (gentle/mild), {粗野|そや} (crude/boorish)
-- **Nouns (16)**: {精霊|せいれい} (spirit), {紀元|きげん} (era/epoch), {紀行|きこう} (travelogue), {看板娘|かんばんむすめ} (poster girl), {紋章|もんしょう} (coat of arms), {秘宝|ひほう} (hidden treasure), {系譜|けいふ} (genealogy), {紀元前|きげんぜん} (B.C.), {箇条|かじょう} (item/clause), {真骨頂|しんこっちょう} (true worth), {禊|みそぎ} (purification ritual), {祠|ほこら} (small shrine), {縛|しば}り (binding/restriction), {絶頂|ぜっちょう} (peak/summit), {縁談|えんだん} (marriage proposal), {系列|けいれつ} (series/keiretsu)
-- **Noun/suru verbs (10)**: {直送|ちょくそう} (direct delivery), {管轄|かんかつ} (jurisdiction), {直立|ちょくりつ} (standing upright), {直轄|ちょっかつ} (direct control), {終焉|しゅうえん} (end/demise), {絶賛|ぜっさん} (high praise), {継承|けいしょう} (succession), {統治|とうち} (governance), {緩和|かんわ} (alleviation), {給付|きゅうふ} (benefit payment)
-- **Adverb (1)**: {総|そう}じて (generally)
-- **Noun (literary) (1)**: {発露|はつろ} (manifestation)
+- **Nouns (14)**: {航路|こうろ} (sea/air route), {花言葉|はなことば} (language of flowers), {腹心|ふくしん} (confidant), {自室|じしつ} (one's own room), {致命傷|ちめいしょう} (fatal wound), {義弟|ぎてい} (brother-in-law), {純文学|じゅんぶんがく} (literary fiction), {罪人|ざいにん} (criminal/sinner), {船頭|せんどう} (boatman), {花|はな}びら (flower petal), {蔵|くら} (storehouse), {蓄|たくわ}え (savings), {蓮根|れんこん} (lotus root), {落|お}ち{目|め} (decline)
+- **Noun/suru verbs (5)**: {自白|じはく} (confession), {自立|じりつ} (independence), {脱帽|だつぼう} (hats off), {苦戦|くせん} (hard fight), {興行|こうぎょう} (public performance)
+- **Noun/no-adjective (3)**: {臨床|りんしょう} (clinical), {自主|じしゅ} (independent/voluntary), {若手|わかて} (young talent)
+- **Na-adjective (2)**: {艶|あで}やか (gorgeous/elegant), {著名|ちょめい} (famous/renowned)
+- **I-adjectives (2)**: {色|いろ}っぽい (sexy/alluring), {荒々|あらあら}しい (rough/wild)
+- **Verbs (2)**: {興|きょう}じる (to enjoy, ichidan), {芽吹|めぶ}く (to bud/sprout, godan)
+- **Noun (pioneering) (1)**: {草分|くさわ}け (pioneer/trailblazer)
 
 Notable features:
-- Multi-sense entries: {精霊|せいれい} (2: nature spirit + Obon spirit), {紀元|きげん} (2: epoch + A.D.), {禊|みそぎ} (2: ritual + political atonement), {縛|しば}り (2: physical binding + restriction/rule), {絶頂|ぜっちょう} (2: mountain summit + zenith)
-- Cultural: {禊|みそぎ} (Shinto purification, political usage), {祠|ほこら} (wayside shrines), {看板娘|かんばんむすめ} (Edo-era concept), {精霊|しょうりょう} (Obon), {紋章|もんしょう} (heraldry)
-- Business/legal: {管轄|かんかつ}, {直轄|ちょっかつ}, {系列|けいれつ} (keiretsu corporate groups), {給付|きゅうふ} (government benefits), {統治|とうち}
-- Historical: {紀元|きげん}/{紀元前|きげんぜん} (calendar systems), {継承|けいしょう}, {終焉|しゅうえん}
-- New kanji: 2,430 → 2,434 ({焉|えん}, {祠|し}, {禊|けい}, {轄|かつ})
+- Multi-sense entries: {脱帽|だつぼう} (2: removing hat + admiration), {致命傷|ちめいしょう} (2: fatal wound + decisive damage), {罪人|ざいにん} (2: criminal + sinner)
+- Nature/plants: {花|はな}びら, {花言葉|はなことば}, {芽吹|めぶ}く, {蓮根|れんこん}, {荒々|あらあら}しい
+- Cultural: {船頭|せんどう} (proverb), {純文学|じゅんぶんがく} (Akutagawa/Naoki Prizes), {蔵|くら} (traditional architecture), {花言葉|はなことば}
+- Legal/formal: {自白|じはく}, {罪人|ざいにん}, {臨床|りんしょう}
+- Social/career: {若手|わかて}, {自立|じりつ}, {自主|じしゅ}, {落|お}ち{目|め}, {草分|くさわ}け
+- New kanji: 2,443 → 2,444 ({蓮|れん})
 
-Total entries: 13,874 → 13,904 (approximate)
-Remaining candidates: 5,895 → 5,865 (30 removed)
+Total entries: 14,024 → 14,054 (approximate)
+Remaining candidates: 5,745 → 5,715 (30 removed)
 
 ---
 
