@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 328)
+Added 30 new dictionary entries (IDs 13609-13638) from candidate_words.json:
+
+- **Health/illness cluster (7)**: {疫病|えきびょう} (epidemic), {病|やまい} (illness), {病|や}む (to be ill), {病弱|びょうじゃく} (sickly), {痛|いた}める (to hurt), {痛感|つうかん} (keenly feeling), {療法|りょうほう} (therapy)
+- **Healing (1)**: {癒|いや}す (to heal)
+- **四字熟語 (1)**: {疲労困憊|ひろうこんぱい} (total exhaustion)
+- **Cognition/language (3)**: {目撃|もくげき} (witnessing), {直訳|ちょくやく} (literal translation), {疑似|ぎじ} (pseudo/simulated)
+- **Descriptive (2)**: {目覚|めざま}ましい (remarkable), {発祥|はっしょう} (origin/birthplace)
+- **Food (2)**: {田楽|でんがく} (dengaku), ラード (lard)
+- **People (3)**: {猛者|もさ} (tough guy), {痴漢|ちかん} (groper), {王妃|おうひ} (queen consort)
+- **General nouns (4)**: {物販|ぶっぱん} (merchandise sales), {法|ほう} (law/method), {渡|わた}り (crossing), {白紙|はくし} (blank paper/clean slate)
+- **Scene/stage (1)**: {登場|とうじょう} (appearance/entrance)
+- **Loanwords (5)**: ライト (light), リストアップ (listing), レーベル (music label), リニア (maglev), ファクス (fax)
+- **Person (1)**: レディ (lady)
+
+Total entries: 13,664 → 13,694 (approximate)
+Remaining candidates: 6,105 → 6,075 (30 removed)
+
 ### 2026-02-25 (Vocabulary Expansion - 30 New Entries, Session 326)
 Added 30 new dictionary entries (IDs 13549-13578) from candidate_words.json:
 

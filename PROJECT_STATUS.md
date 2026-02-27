@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-26
+**Last updated**: 2026-02-27
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~13,814 |
+| Total entries | ~13,844 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,015 (open) |
-| Candidate words | ~5,955 |
+| General tier | ~11,045 (open) |
+| Candidate words | ~5,925 |
 | Cross-references | ~3,400 |
-| Example sentences | ~47,500 |
+| Example sentences | ~47,600 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 333)
+Added 30 new dictionary entries (IDs 13759-13788) from candidate_words.json:
+
+- **Ichidan verbs (2)**: {秘|ひ}める (to keep secret), {築|きず}き{上|あ}げる (to build up)
+- **Godan verb (1)**: {競|きそ}う (to compete)
+- **Noun/suru verbs (6)**: {移植|いしょく} (transplant), {移行|いこう} (transition), {突入|とつにゅう} (rushing in), {立候補|りっこうほ} (candidacy), {移籍|いせき} (transfer), {精進|しょうじん} (devotion)
+- **Nouns (11)**: {移|うつ}り{変|か}わり (change over time), {空耳|そらみみ} (mishearing), {窯|かま} (kiln), {竜|りゅう} (dragon), {笑|え}み (smile), {節度|せつど} (moderation), {米粉|こめこ} (rice flour), {粉末|ふんまつ} (powder), {秘伝|ひでん} (secret tradition), {税務署|ぜいむしょ} (tax office), {策略|さくりゃく} (stratagem)
+- **Na-adjectives (4)**: {粋|いき} (stylish/chic), {精密|せいみつ} (precise), {突飛|とっぴ} (outlandish), {端的|たんてき} (straightforward), {稀有|けう} (rare)
+- **Nouns (3)**: {精度|せいど} (precision), {簿記|ぼき} (bookkeeping), {精一杯|せいいっぱい} (to the fullest)
+- **Adverbs (2)**: {突如|とつじょ} (suddenly), {立|た}て{続|つづ}け (in succession)
+
+Notable features:
+- Multi-sense entries: {移植|いしょく} (2: organ transplant + plant/software porting), {突入|とつにゅう} (2: physical charge + entering a phase), {粋|いき} (2: stylish + considerate), {精進|しょうじん} (2: devotion + vegetarian cuisine)
+- Cultural: {粋|いき} (Edo aesthetic), {竜|りゅう} (East Asian dragon mythology), {精進|しょうじん} (Buddhist practice), {窯|かま} (pottery culture), {空耳|そらみみ} (Soramimi Hour TV segment)
+- Practical: {税務署|ぜいむしょ} (tax filing), {簿記|ぼき} (Nissho certification), {精度|せいど} (AI/tech accuracy), {移行|いこう} (system migration)
+- Literary: {秘|ひ}める, {笑|え}み, {稀有|けう}, {突如|とつじょ}
+- New kanji: 2,427 → 2,428 ({窯|かま})
+
+Total entries: 13,814 → 13,844 (approximate)
+Remaining candidates: 5,955 → 5,925 (30 removed)
 
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 332)
 Added 30 new dictionary entries (IDs 13729-13758) from candidate_words.json:
@@ -144,32 +165,6 @@ Notable features:
 
 Total entries: 13,694 → 13,724 (approximate)
 Remaining candidates: 6,075 → 6,045 (30 removed)
-
-### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 328)
-Added 30 new dictionary entries (IDs 13609-13638) from candidate_words.json:
-
-- **Health/illness cluster (7)**: {疫病|えきびょう} (epidemic), {病|やまい} (illness), {病|や}む (to be ill), {病弱|びょうじゃく} (sickly), {痛|いた}める (to hurt), {痛感|つうかん} (keenly feeling), {療法|りょうほう} (therapy)
-- **Healing (1)**: {癒|いや}す (to heal)
-- **四字熟語 (1)**: {疲労困憊|ひろうこんぱい} (total exhaustion)
-- **Cognition/language (3)**: {目撃|もくげき} (witnessing), {直訳|ちょくやく} (literal translation), {疑似|ぎじ} (pseudo/simulated)
-- **Descriptive (2)**: {目覚|めざま}ましい (remarkable), {盛大|せいだい} → replaced by {発祥|はっしょう} (origin/birthplace)
-- **Food (2)**: {田楽|でんがく} (dengaku), ラード (lard)
-- **People (3)**: {猛者|もさ} (tough guy), {痴漢|ちかん} (groper), {王妃|おうひ} (queen consort)
-- **General nouns (4)**: {物販|ぶっぱん} (merchandise sales), {法|ほう} (law/method), {渡|わた}り (crossing), {白紙|はくし} (blank paper/clean slate)
-- **Scene/stage (1)**: {登場|とうじょう} (appearance/entrance)
-- **Loanwords (5)**: ライト (light), リストアップ (listing), レーベル (music label), リニア (maglev), ファクス (fax)
-- **Person (1)**: レディ (lady)
-
-Notable features:
-- Health/illness cluster: 7 related entries covering epidemic, illness, constitution, pain, therapy
-- Multi-sense entries: {病|やまい} (2: illness + bad habit), {病|や}む (2: physical + mental), {痛|いた}める (2: physical + emotional), {癒|いや}す (2: heal + soothe), ライト (2: light device + casual), {白紙|はくし} (2: blank paper + clean slate), {法|ほう} (2: law + method), {渡|わた}り (2: crossing + opportunity), レーベル (2: music label + product label), リニア (2: maglev + linear)
-- Cultural: {痴漢|ちかん} (women-only train cars), ファクス (Japan's fax culture), {田楽|でんがく} (traditional cuisine), ラード (ramen culture)
-- Wasei-eigo: リストアップ (list up — not standard English)
-- Modern slang: {病|や}んでる (mentally unwell, youth language)
-- New kanji: 2,413 → 2,416 ({妃|ひ}, {憊|はい}, {祥|しょう})
-
-Total entries: 13,664 → 13,694 (approximate)
-Remaining candidates: 6,105 → 6,075 (30 removed)
 
 ---
 
