@@ -3,6 +3,22 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 332)
+Added 30 new dictionary entries (IDs 13729-13758) from candidate_words.json:
+
+- **Nouns (14)**: {礎|いしずえ} (foundation), {社会人|しゃかいじん} (working adult), {社内|しゃない} (within company), {祈|いの}り (prayer), {祭壇|さいだん} (altar), {神棚|かみだな} (kami shelf), {礼節|れいせつ} (courtesy), {禁物|きんもつ} (taboo), {社畜|しゃちく} (corporate slave), {直売所|ちょくばいじょ} (farm stand), {秘訣|ひけつ} (secret/key), {空間|くうかん} (space), {秋刀魚|さんま} (Pacific saury), {福祉|ふくし} (welfare)
+- **Noun/suru verbs (4)**: {祝福|しゅくふく} (blessing), {祈願|きがん} (supplication), {移住|いじゅう} (migration), {突破|とっぱ} (breakthrough)
+- **Noun/na-adjectives (3)**: {神秘|しんぴ} (mystery/mystique), {究極|きゅうきょく} (ultimate), {確立|かくりつ} (establishment)
+- **Na-adjective (1)**: {神聖|しんせい} (sacred)
+- **Ichidan verbs (3)**: {禁|きん}じる (to prohibit), {秀|ひい}でる (to excel), {称|たた}える (to praise)
+- **I-adjective (1)**: {禍々|まがまが}しい (ominous/sinister)
+- **Noun/suru verb (1)**: {目礼|もくれい} (silent nod)
+- **Adverb (1)**: {目|ま}の{当|あ}たり (before one's eyes)
+- **Cultural noun (1)**: {神隠|かみかく}し (spiriting away)
+
+Total entries: 13,784 → 13,814 (approximate)
+Remaining candidates: 5,985 → 5,955 (30 removed)
+
 ### 2026-02-26 (Vocabulary Expansion - 30 New Entries, Session 330)
 Added 30 new dictionary entries (IDs 13669-13698) from candidate_words.json:
 
