@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 345)
+Added 30 new dictionary entries (IDs 14119-14148) from candidate_words.json:
+
+- **Nouns (10)**: {茎|くき} (stem/stalk), {苦|くる}しみ (suffering), {行|おこな}い (behavior/deed), {荷台|にだい} (truck bed), {見覚|みおぼ}え (recognition), {親心|おやごころ} (parental love), {視界|しかい} (field of vision), {視線|しせん} (gaze), {若年|じゃくねん} (youth), {製造業|せいぞうぎょう} (manufacturing industry)
+- **Noun/suru verbs (7)**: {行政|ぎょうせい} (administration), {表記|ひょうき} (notation), {襲撃|しゅうげき} (attack/raid), {要約|ようやく} (summary), {規定|きてい} (regulation), {観戦|かんせん} (spectating), {解消|かいしょう} (elimination/resolution), {解禁|かいきん} (lifting a ban)
+- **Na-adjective (1)**: {親密|しんみつ} (intimate/close)
+- **Godan verbs (5)**: {見失|みうしな}う (to lose sight of), {見積|みつ}もる (to estimate), {見舞|みま}う (to visit sick/to strike), {見開|みひら}く (to open eyes wide), {親|した}しむ (to become familiar with)
+- **Ichidan verbs (2)**: {見捨|みす}てる (to abandon), {見据|みす}える (to stare at/keep in sight)
+- **Nouns (other) (3)**: {藩|はん} (feudal domain), {言|い}い{伝|つた}え (legend), {言|い}い{回|まわ}し (phrasing)
+- **Noun (1)**: {言動|げんどう} (words and actions)
+
+Notable features:
+- Multi-sense entries: {見舞|みま}う (2: visit sick + befall), {見据|みす}える (2: stare at + keep in sight)
+- 見- compound verbs: {見失|みうしな}う, {見捨|みす}てる, {見据|みす}える, {見積|みつ}もる, {見舞|みま}う, {見開|みひら}く, {見覚|みおぼ}え
+- Language/expression: {表記|ひょうき}, {言|い}い{伝|つた}え, {言|い}い{回|まわ}し, {言動|げんどう}, {要約|ようやく}
+- Society/law: {行政|ぎょうせい}, {規定|きてい}, {解消|かいしょう}, {解禁|かいきん}, {襲撃|しゅうげき}
+- Family/relationships: {親心|おやごころ}, {親密|しんみつ}, {親|した}しむ
+- History: {藩|はん} (feudal domain)
+- New kanji: 2,451 → 2,452 ({藩|はん})
+
+Total entries: 14,174 → 14,204 (approximate)
+Remaining candidates: 5,595 → 5,565 (30 removed)
+
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 344)
 Added 30 new dictionary entries (IDs 14089-14118) from candidate_words.json:
 

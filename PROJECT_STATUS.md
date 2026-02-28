@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,324 |
+| Total entries | ~14,354 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,525 (open) |
-| Candidate words | ~5,445 |
+| General tier | ~11,555 (open) |
+| Candidate words | ~5,415 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 350)
+Added 30 new dictionary entries (IDs 14269-14298) from candidate_words.json:
+
+- **Nouns (18)**: {読|よ}み{方|かた} (way of reading), {詰|つ}め{込|こ}み (cramming), {語|かた}り{手|て} (narrator), {覆|おお}い (cover), {見落|みお}とし (oversight), {豆|まめ}まき (bean-throwing), {語順|ごじゅん} (word order), {跡取|あとと}り (heir), {跡地|あとち} (former site), {路面電車|ろめんでんしゃ} (streetcar), {身代|みが}わり (substitute), {身|み}だしなみ (grooming), {身|み}の{丈|たけ} (stature/means), {転機|てんき} (turning point), {辛味|からみ} (spiciness), {辻褄|つじつま} (consistency), {輪郭|りんかく} (outline), {足湯|あしゆ} (foot bath), {軽自動車|けいじどうしゃ} (kei car)
+- **Noun/suru verbs (3)**: {賞賛|しょうさん} (praise), {踏襲|とうしゅう} (following precedent), {身震|みぶる}い (shudder), {転嫁|てんか} (shifting blame)
+- **Godan verbs (2)**: {解|と}き{明|あ}かす (to elucidate), {踏|ふ}み{出|だ}す (to step forward)
+- **Ichidan verb (1)**: {表|あらわ}れる (to manifest)
+- **Na-adjectives (2)**: {迅速|じんそく} (swift), {軽|かる}やか (light/nimble)
+- **Noun (multi-sense) (4)**: {走馬灯|そうまとう} (2: lantern + flashback), {軒並|のきな}み (2: row of houses + across the board), {身|み}の{丈|たけ} (2: height + means), {輪郭|りんかく} (2: outline + framework)
+
+Notable features:
+- Multi-sense entries: {読|よ}み{方|かた} (2: reading + interpretation), {踏|ふ}み{出|だ}す (2: physical + figurative), {転嫁|てんか} (2: blame + costs), {走馬灯|そうまとう} (2: lantern + flashback)
+- 身- compounds: {身代|みが}わり, {身|み}だしなみ, {身|み}の{丈|たけ}, {身震|みぶる}い
+- Culture: {豆|まめ}まき (Setsubun), {足湯|あしゆ} (hot spring foot bath), {軽自動車|けいじどうしゃ} (kei car), {走馬灯|そうまとう}
+- Language/education: {読|よ}み{方|かた}, {語順|ごじゅん}, {語|かた}り{手|て}
+- Food: {辛味|からみ}
+- New kanji: 2,461 → 2,465 ({褄|つま}, {辻|つじ}, {迅|じん}, {郭|かく})
+
+Total entries: 14,324 → 14,354 (approximate)
+Remaining candidates: 5,445 → 5,415 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 349)
 Added 30 new dictionary entries (IDs 14239-14268) from candidate_words.json:
@@ -130,29 +151,6 @@ Notable features:
 
 Total entries: 14,204 → 14,234 (approximate)
 Remaining candidates: 5,565 → 5,535 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 345)
-Added 30 new dictionary entries (IDs 14119-14148) from candidate_words.json:
-
-- **Nouns (10)**: {茎|くき} (stem/stalk), {苦|くる}しみ (suffering), {行|おこな}い (behavior/deed), {荷台|にだい} (truck bed), {見覚|みおぼ}え (recognition), {親心|おやごころ} (parental love), {視界|しかい} (field of vision), {視線|しせん} (gaze), {若年|じゃくねん} (youth), {製造業|せいぞうぎょう} (manufacturing industry)
-- **Noun/suru verbs (7)**: {行政|ぎょうせい} (administration), {表記|ひょうき} (notation), {襲撃|しゅうげき} (attack/raid), {要約|ようやく} (summary), {規定|きてい} (regulation), {観戦|かんせん} (spectating), {解消|かいしょう} (elimination/resolution), {解禁|かいきん} (lifting a ban)
-- **Na-adjective (1)**: {親密|しんみつ} (intimate/close)
-- **Godan verbs (5)**: {見失|みうしな}う (to lose sight of), {見積|みつ}もる (to estimate), {見舞|みま}う (to visit sick/to strike), {見開|みひら}く (to open eyes wide), {親|した}しむ (to become familiar with)
-- **Ichidan verbs (2)**: {見捨|みす}てる (to abandon), {見据|みす}える (to stare at/keep in sight)
-- **Nouns (other) (3)**: {藩|はん} (feudal domain), {言|い}い{伝|つた}え (legend), {言|い}い{回|まわ}し (phrasing)
-- **Noun (1)**: {言動|げんどう} (words and actions)
-
-Notable features:
-- Multi-sense entries: {見舞|みま}う (2: visit sick + befall), {見据|みす}える (2: stare at + keep in sight)
-- 見- compound verbs: {見失|みうしな}う, {見捨|みす}てる, {見据|みす}える, {見積|みつ}もる, {見舞|みま}う, {見開|みひら}く, {見覚|みおぼ}え
-- Language/expression: {表記|ひょうき}, {言|い}い{伝|つた}え, {言|い}い{回|まわ}し, {言動|げんどう}, {要約|ようやく}
-- Society/law: {行政|ぎょうせい}, {規定|きてい}, {解消|かいしょう}, {解禁|かいきん}, {襲撃|しゅうげき}
-- Family/relationships: {親心|おやごころ}, {親密|しんみつ}, {親|した}しむ
-- History: {藩|はん} (feudal domain)
-- New kanji: 2,451 → 2,452 ({藩|はん})
-
-Total entries: 14,174 → 14,204 (approximate)
-Remaining candidates: 5,595 → 5,565 (30 removed)
 
 ---
 
