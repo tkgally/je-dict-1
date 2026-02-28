@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,114 |
+| Total entries | ~14,144 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,315 (open) |
-| Candidate words | ~5,655 |
+| General tier | ~11,345 (open) |
+| Candidate words | ~5,625 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,400 |
+| Example sentences | ~48,500 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 343)
+Added 30 new dictionary entries (IDs 14059-14088) from candidate_words.json:
+
+- **Godan verbs (3)**: {花開|はなひら}く (to bloom/flourish), {脱|ぬ}がす (to undress someone), {薄|うす}まる (to become diluted)
+- **Ichidan verb (1)**: {舞|ま}い{降|お}りる (to swoop down)
+- **Nouns (14)**: {神髄|しんずい} (essence), {禅宗|ぜんしゅう} (Zen Buddhism), {能楽|のうがく} (noh theater), {神事|しんじ} (Shinto ritual), {群青|ぐんじょう} (ultramarine blue), {肉筆|にくひつ} (handwriting), {習俗|しゅうぞく} (customs), {老年|ろうねん} (old age), {艦隊|かんたい} (fleet), {背徳|はいとく} (immorality), {神楽|かぐら} (kagura), {蘊蓄|うんちく} (extensive knowledge), {著書|ちょしょ} (written work), {蜜|みつ} (honey/nectar)
+- **Noun/suru verbs (2)**: {補完|ほかん} (supplementation), {行使|こうし} (exercise of power)
+- **Noun/na-adjectives (4)**: {美形|びけい} (good-looking), {縦横無尽|じゅうおうむじん} (freely in all directions), {荒削|あらけず}り (rough-hewn), {表裏一体|ひょうりいったい} (two sides of same coin)
+- **Noun/verb-suru (1)**: {膝枕|ひざまくら} (lap pillow)
+- **Noun/prefix (1)**: {自家|じか} (one's own/home-made)
+- **Noun (business) (1)**: {自社|じしゃ} (one's own company)
+- **Noun (cultural) (2)**: {茶室|ちゃしつ} (tea room), {茶|ちゃ}の{湯|ゆ} (tea ceremony)
+- **Noun (political) (1)**: {草|くさ}の{根|ね} (grassroots)
+
+Notable features:
+- Multi-sense entries: {花開|はなひら}く (2: bloom + flourish), {荒削|あらけず}り (2: rough-hewn + unpolished talent)
+- Japanese culture: {禅宗|ぜんしゅう}, {能楽|のうがく}, {神事|しんじ}, {神楽|かぐら}, {茶室|ちゃしつ}, {茶|ちゃ}の{湯|ゆ}
+- Four-character compounds: {縦横無尽|じゅうおうむじん}, {表裏一体|ひょうりいったい}
+- Arts/writing: {肉筆|にくひつ}, {群青|ぐんじょう}, {著書|ちょしょ}
+- New kanji: 2,447 → 2,449 ({艦|かん}, {蘊|うん})
+
+Total entries: 14,114 → 14,144 (approximate)
+Remaining candidates: 5,655 → 5,625 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 342)
 Added 30 new dictionary entries (IDs 14029-14058) from candidate_words.json:
@@ -119,25 +143,6 @@ Notable features:
 
 Total entries: 13,994 → 14,024 (approximate)
 Remaining candidates: 5,775 → 5,745 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 338)
-Added 30 new dictionary entries (IDs 13909-13938) from candidate_words.json:
-
-- **Nouns (16)**: {肩書|かたが}き (title/credential), {聴覚|ちょうかく} (hearing), {肉体|にくたい} (physical body), {羽毛|うもう} (down/feathers), {義足|ぎそく} (prosthetic leg), {耐性|たいせい} (resistance/tolerance), {聖域|せいいき} (sanctuary), {聞|き}き{込|こ}み (inquiry), {職種|しょくしゅ} (job type), {育|そだ}ち (upbringing), {背筋|せすじ} (spine/posture), {脅威|きょうい} (threat), {脇役|わきやく} (supporting role), {肴|さかな} (appetizer), {自前|じまえ} (self-supplied), {習|なら}わし (custom)
-- **Noun/suru verbs (7)**: {美化|びか} (beautification), {肥満|ひまん} (obesity), {翻案|ほんあん} (adaptation), {老朽|ろうきゅう} (dilapidation), {脱出|だっしゅつ} (escape), {膠着|こうちゃく} (stalemate), {自称|じしょう} (self-proclaimed)
-- **Noun (two senses, 5)**: {美学|びがく} (aesthetics), {肉食|にくしょく} (meat-eating/aggressive), {背伸|せの}び (tiptoe/overreaching), {育成|いくせい} (development), {習性|しゅうせい} (nature/habit)
-- **Adverb/noun (1)**: {至極|しごく} (extremely)
-- **Expression (1)**: {老若男女|ろうにゃくなんにょ} (all ages)
-
-Notable features:
-- Multi-sense entries: {美化|びか} (2: beautification + glorification), {美学|びがく} (2: academic + personal), {肉食|にくしょく} (2: carnivorous + aggressive dating), {聖域|せいいき} (2: sacred place + untouchable area), {背伸|せの}び (2: tiptoe + overreaching), {育|そだ}ち (2: upbringing + growth), {肴|さかな} (2: appetizer + conversation topic), {自前|じまえ} (2: self-owned + self-funded), {習性|しゅうせい} (2: animal instinct + ingrained habit)
-- Body/medical: {聴覚|ちょうかく}, {肉体|にくたい}, {義足|ぎそく}, {背筋|せすじ}, {肥満|ひまん}, {耐性|たいせい}
-- Work/business: {肩書|かたが}き, {職種|しょくしゅ}, {育成|いくせい}, {自前|じまえ}
-- Cultural: {肴|さかな} (sake culture), {老若男女|ろうにゃくなんにょ} (Buddhist reading), {習|なら}わし (traditions)
-- New kanji: 2,439 → 2,441 ({脅|きょう}, {膠|こう})
-
-Total entries: 13,964 → 13,994 (approximate)
-Remaining candidates: 5,805 → 5,775 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 340)
 Added 30 new dictionary entries (IDs 13969-13998) from candidate_words.json:
