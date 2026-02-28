@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,234 |
+| Total entries | ~14,264 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,435 (open) |
-| Candidate words | ~5,535 |
+| General tier | ~11,465 (open) |
+| Candidate words | ~5,505 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,800 |
+| Example sentences | ~48,900 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 347)
+Added 30 new dictionary entries (IDs 14179-14208) from candidate_words.json:
+
+- **Godan verbs (3)**: {言|い}い{争|あらそ}う (to argue), {誇|ほこ}る (to be proud of), {詠|よ}む (to compose a poem)
+- **Ichidan verb (1)**: {詰|つ}めかける (to crowd into)
+- **I-adjective (1)**: {誇|ほこ}らしい (proud)
+- **Na-adjective/noun (2)**: {親愛|しんあい} (dear/beloved), {血|ち}まみれ (blood-soaked)
+- **Noun/suru verbs (7)**: {認知|にんち} (cognition), {診療|しんりょう} (medical treatment), {解読|かいどく} (deciphering), {計測|けいそく} (measurement), {解剖|かいぼう} (dissection), {訪日|ほうにち} (visit to Japan), {討伐|とうばつ} (subjugation)
+- **Nouns (16)**: {規約|きやく} (terms/agreement), {訴|うった}え (appeal/lawsuit), {言論|げんろん} (speech/discourse), {直伝|じきでん} (direct transmission), {親交|しんこう} (friendship), {計略|けいりゃく} (strategy/ruse), {観賞|かんしょう} (viewing for enjoyment), {言霊|ことだま} (power of words), {親族|しんぞく} (relatives), {誘|さそ}い (invitation), {茶髪|ちゃぱつ} (brown-dyed hair), {美肌|びはだ} (beautiful skin), {診療所|しんりょうじょ} (clinic), {老害|ろうがい} (harmful elderly), {脱法|だっぽう} (circumventing law), {言質|げんち} (verbal commitment)
+
+Notable features:
+- Multi-sense entries: {誇|ほこ}る (2: pride + boasting), {訴|うった}え (2: appeal + lawsuit), {認知|にんち} (2: cognition + acknowledgment), {解剖|かいぼう} (2: dissection + analysis), {誘|さそ}い (2: invitation + enticement), {老害|ろうがい} (2: systemic + individual), {詠|よ}む (2: compose + recite)
+- Communication/language: {言|い}い{争|あらそ}う, {言論|げんろん}, {言霊|ことだま}, {言質|げんち}
+- Medical: {診療|しんりょう}, {診療所|しんりょうじょ}, {解剖|かいぼう}
+- Culture: {言霊|ことだま} (kotodama belief), {茶髪|ちゃぱつ} (hair culture)
+- New kanji: 2,453 → 2,455 ({剖|ぼう}, {詠|えい})
+
+Total entries: 14,234 → 14,264 (approximate)
+Remaining candidates: 5,535 → 5,505 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 346)
 Added 30 new dictionary entries (IDs 14149-14178) from candidate_words.json:
@@ -139,30 +159,6 @@ Notable features:
 
 Total entries: 14,114 → 14,144 (approximate)
 Remaining candidates: 5,655 → 5,625 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 342)
-Added 30 new dictionary entries (IDs 14029-14058) from candidate_words.json:
-
-- **Noun/suru verbs (9)**: {蘇生|そせい} (resuscitation), {衰弱|すいじゃく} (debilitation), {融合|ゆうごう} (fusion), {補充|ほじゅう} (replenishment), {落下|らっか} (fall/drop), {表明|ひょうめい} (declaration), {補給|ほきゅう} (supply), {行|い}き{来|き} (coming and going), {落書|らくが}き (graffiti)
-- **Nouns (11)**: {裏話|うらばなし} (behind-the-scenes story), {薬草|やくそう} (medicinal herb), {血縁|けつえん} (blood relation), {製法|せいほう} (manufacturing method), {街道|かいどう} (highway), {菜|な}の{花|はな} (rapeseed flower), {蜂蜜|はちみつ} (honey), {装束|しょうぞく} (costume), {衛生|えいせい} (hygiene), {薬物|やくぶつ} (drug), {英気|えいき} (vigor)
-- **Noun/na-adjective (4)**: {裏腹|うらはら} (contrary), {行方不明|ゆくえふめい} (missing), {蒼白|そうはく} (pale/pallid), {裏返|うらがえ}し (inside out)
-- **Na-adjective (1)**: {裕福|ゆうふく} (wealthy)
-- **Noun (literary) (1)**: {装|よそお}い (attire/appearance)
-- **Noun/suru verb (formal, 1)**: {虚偽|きょぎ} (falsehood)
-- **Noun/suru verb (social, 1)**: {虐待|ぎゃくたい} (abuse)
-- **Ichidan verb (1)**: {裏付|うらづ}ける (to substantiate)
-- **Godan verb (1)**: {荒|あ}らす (to devastate)
-
-Notable features:
-- Multi-sense entries: {裏返|うらがえ}し (2: inside out + flip side), {装|よそお}い (2: attire + guise), {荒|あ}らす (2: devastate + ransack)
-- Medical/health: {蘇生|そせい} (CPR), {衰弱|すいじゃく}, {衛生|えいせい}, {薬物|やくぶつ}, {薬草|やくそう}
-- Legal/formal: {虚偽|きょぎ}, {虐待|ぎゃくたい}, {表明|ひょうめい}, {裏付|うらづ}ける
-- Cultural: {街道|かいどう} (Edo highways), {装束|しょうぞく} (traditional costumes), {菜|な}の{花|はな} (spring tradition)
-- Food: {蜂蜜|はちみつ}, {菜|な}の{花|はな}, {製法|せいほう}
-- New kanji: 2,445 → 2,447 ({蒼|そう}, {虐|ぎゃく})
-
-Total entries: 14,084 → 14,114 (approximate)
-Remaining candidates: 5,685 → 5,655 (30 removed)
 
 ---
 
