@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 343)
+Added 30 new dictionary entries (IDs 14059-14088) from candidate_words.json:
+
+- **Godan verbs (3)**: {花開|はなひら}く (to bloom/flourish), {脱|ぬ}がす (to undress someone), {薄|うす}まる (to become diluted)
+- **Ichidan verb (1)**: {舞|ま}い{降|お}りる (to swoop down)
+- **Nouns (14)**: {神髄|しんずい} (essence), {禅宗|ぜんしゅう} (Zen Buddhism), {能楽|のうがく} (noh theater), {神事|しんじ} (Shinto ritual), {群青|ぐんじょう} (ultramarine blue), {肉筆|にくひつ} (handwriting), {習俗|しゅうぞく} (customs), {老年|ろうねん} (old age), {艦隊|かんたい} (fleet), {背徳|はいとく} (immorality), {神楽|かぐら} (kagura), {蘊蓄|うんちく} (extensive knowledge), {著書|ちょしょ} (written work), {蜜|みつ} (honey/nectar)
+- **Noun/suru verbs (2)**: {補完|ほかん} (supplementation), {行使|こうし} (exercise of power)
+- **Noun/na-adjectives (4)**: {美形|びけい} (good-looking), {縦横無尽|じゅうおうむじん} (freely in all directions), {荒削|あらけず}り (rough-hewn), {表裏一体|ひょうりいったい} (two sides of same coin)
+- **Noun/verb-suru (1)**: {膝枕|ひざまくら} (lap pillow)
+- **Noun/prefix (1)**: {自家|じか} (one's own/home-made)
+- **Noun (business) (1)**: {自社|じしゃ} (one's own company)
+- **Noun (cultural) (2)**: {茶室|ちゃしつ} (tea room), {茶|ちゃ}の{湯|ゆ} (tea ceremony)
+- **Noun (political) (1)**: {草|くさ}の{根|ね} (grassroots)
+
+Notable features:
+- Multi-sense entries: {花開|はなひら}く (2: bloom + flourish), {荒削|あらけず}り (2: rough-hewn + unpolished talent)
+- Japanese culture: {禅宗|ぜんしゅう}, {能楽|のうがく}, {神事|しんじ}, {神楽|かぐら}, {茶室|ちゃしつ}, {茶|ちゃ}の{湯|ゆ}
+- Four-character compounds: {縦横無尽|じゅうおうむじん}, {表裏一体|ひょうりいったい}
+- Arts/writing: {肉筆|にくひつ}, {群青|ぐんじょう}, {著書|ちょしょ}
+- New kanji: 2,447 → 2,449 ({艦|かん}, {蘊|うん})
+
+Total entries: 14,114 → 14,144 (approximate)
+Remaining candidates: 5,655 → 5,625 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 342)
 Added 30 new dictionary entries (IDs 14029-14058) from candidate_words.json:
 

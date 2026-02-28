@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,264 |
+| Total entries | ~14,294 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,465 (open) |
-| Candidate words | ~5,505 |
+| General tier | ~11,495 (open) |
+| Candidate words | ~5,475 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,900 |
+| Example sentences | ~49,000 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 348)
+Added 30 new dictionary entries (IDs 14209-14238) from candidate_words.json:
+
+- **Noun/suru verbs (8)**: {誘惑|ゆうわく} (temptation), {誘拐|ゆうかい} (kidnapping), {説教|せっきょう} (sermon/lecture), {説得|せっとく} (persuasion), {談笑|だんしょう} (chatting and laughing), {警戒|けいかい} (vigilance), {護衛|ごえい} (escort/bodyguard), {負荷|ふか} (load/burden)
+- **Godan verbs (6)**: {誤魔化|ごまか}す (to deceive/gloss over), {見返|みかえ}す (to look back/get even), {解|と}き{放|はな}つ (to set free), {諭|さと}す (to admonish), {賑|にぎ}わう (to be bustling), {記|しる}す (to write down)
+- **Ichidan verb (1)**: {設|もう}ける (to establish/set up)
+- **Na-adjectives (2)**: {誠実|せいじつ} (sincere), {豪快|ごうかい} (bold/hearty)
+- **Nouns (13)**: {語彙|ごい} (vocabulary), {語源|ごげん} (etymology), {読|よ}み{物|もの} (reading material), {試|こころ}み (attempt/trial), {豆乳|とうにゅう} (soy milk), {豊作|ほうさく} (bountiful harvest), {豚汁|とんじる} (pork miso soup), {負|お}い{目|め} (sense of guilt), {財閥|ざいばつ} (zaibatsu), {賛否|さんぴ} (pros and cons), {賞金|しょうきん} (prize money), {複数|ふくすう} (plural/multiple), {要件|ようけん} (requirement)
+
+Notable features:
+- Multi-sense entries: {誘惑|ゆうわく} (2: temptation + seduction), {誤魔化|ごまか}す (2: deceive + gloss over), {説教|せっきょう} (2: sermon + scolding), {見返|みかえ}す (2: look back + get even), {解|と}き{放|はな}つ (2: physical + figurative release), {要件|ようけん} (2: requirement + business matter)
+- Communication: {説教|せっきょう}, {説得|せっとく}, {諭|さと}す, {談笑|だんしょう}, {記|しる}す
+- Language/education: {語彙|ごい}, {語源|ごげん}, {読|よ}み{物|もの}, {複数|ふくすう}
+- Food: {豆乳|とうにゅう}, {豚汁|とんじる}, {豊作|ほうさく}
+- Society/business: {財閥|ざいばつ}, {賛否|さんぴ}, {賞金|しょうきん}, {要件|ようけん}
+- New kanji: 2,455 → 2,458 ({拐|かい}, {諭|ゆ}, {閥|ばつ})
+
+Total entries: 14,264 → 14,294 (approximate)
+Remaining candidates: 5,505 → 5,475 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 347)
 Added 30 new dictionary entries (IDs 14179-14208) from candidate_words.json:
@@ -135,30 +155,6 @@ Notable features:
 
 Total entries: 14,144 → 14,174 (approximate)
 Remaining candidates: 5,625 → 5,595 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 343)
-Added 30 new dictionary entries (IDs 14059-14088) from candidate_words.json:
-
-- **Godan verbs (3)**: {花開|はなひら}く (to bloom/flourish), {脱|ぬ}がす (to undress someone), {薄|うす}まる (to become diluted)
-- **Ichidan verb (1)**: {舞|ま}い{降|お}りる (to swoop down)
-- **Nouns (14)**: {神髄|しんずい} (essence), {禅宗|ぜんしゅう} (Zen Buddhism), {能楽|のうがく} (noh theater), {神事|しんじ} (Shinto ritual), {群青|ぐんじょう} (ultramarine blue), {肉筆|にくひつ} (handwriting), {習俗|しゅうぞく} (customs), {老年|ろうねん} (old age), {艦隊|かんたい} (fleet), {背徳|はいとく} (immorality), {神楽|かぐら} (kagura), {蘊蓄|うんちく} (extensive knowledge), {著書|ちょしょ} (written work), {蜜|みつ} (honey/nectar)
-- **Noun/suru verbs (2)**: {補完|ほかん} (supplementation), {行使|こうし} (exercise of power)
-- **Noun/na-adjectives (4)**: {美形|びけい} (good-looking), {縦横無尽|じゅうおうむじん} (freely in all directions), {荒削|あらけず}り (rough-hewn), {表裏一体|ひょうりいったい} (two sides of same coin)
-- **Noun/verb-suru (1)**: {膝枕|ひざまくら} (lap pillow)
-- **Noun/prefix (1)**: {自家|じか} (one's own/home-made)
-- **Noun (business) (1)**: {自社|じしゃ} (one's own company)
-- **Noun (cultural) (2)**: {茶室|ちゃしつ} (tea room), {茶|ちゃ}の{湯|ゆ} (tea ceremony)
-- **Noun (political) (1)**: {草|くさ}の{根|ね} (grassroots)
-
-Notable features:
-- Multi-sense entries: {花開|はなひら}く (2: bloom + flourish), {荒削|あらけず}り (2: rough-hewn + unpolished talent)
-- Japanese culture: {禅宗|ぜんしゅう}, {能楽|のうがく}, {神事|しんじ}, {神楽|かぐら}, {茶室|ちゃしつ}, {茶|ちゃ}の{湯|ゆ}
-- Four-character compounds: {縦横無尽|じゅうおうむじん}, {表裏一体|ひょうりいったい}
-- Arts/writing: {肉筆|にくひつ}, {群青|ぐんじょう}, {著書|ちょしょ}
-- New kanji: 2,447 → 2,449 ({艦|かん}, {蘊|うん})
-
-Total entries: 14,114 → 14,144 (approximate)
-Remaining candidates: 5,655 → 5,625 (30 removed)
 
 ---
 
