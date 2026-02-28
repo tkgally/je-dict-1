@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 342)
+Added 30 new dictionary entries (IDs 14029-14058) from candidate_words.json:
+
+- **Noun/suru verbs (9)**: {蘇生|そせい} (resuscitation), {衰弱|すいじゃく} (debilitation), {融合|ゆうごう} (fusion), {補充|ほじゅう} (replenishment), {落下|らっか} (fall/drop), {表明|ひょうめい} (declaration), {補給|ほきゅう} (supply), {行|い}き{来|き} (coming and going), {落書|らくが}き (graffiti)
+- **Nouns (11)**: {裏話|うらばなし} (behind-the-scenes story), {薬草|やくそう} (medicinal herb), {血縁|けつえん} (blood relation), {製法|せいほう} (manufacturing method), {街道|かいどう} (highway), {菜|な}の{花|はな} (rapeseed flower), {蜂蜜|はちみつ} (honey), {装束|しょうぞく} (costume), {衛生|えいせい} (hygiene), {薬物|やくぶつ} (drug), {英気|えいき} (vigor)
+- **Noun/na-adjective (4)**: {裏腹|うらはら} (contrary), {行方不明|ゆくえふめい} (missing), {蒼白|そうはく} (pale/pallid), {裏返|うらがえ}し (inside out)
+- **Na-adjective (1)**: {裕福|ゆうふく} (wealthy)
+- **Noun (literary) (1)**: {装|よそお}い (attire/appearance)
+- **Noun/suru verb (formal, 1)**: {虚偽|きょぎ} (falsehood)
+- **Noun/suru verb (social, 1)**: {虐待|ぎゃくたい} (abuse)
+- **Ichidan verb (1)**: {裏付|うらづ}ける (to substantiate)
+- **Godan verb (1)**: {荒|あ}らす (to devastate)
+
+Notable features:
+- Multi-sense entries: {裏返|うらがえ}し (2: inside out + flip side), {装|よそお}い (2: attire + guise), {荒|あ}らす (2: devastate + ransack)
+- Medical/health: {蘇生|そせい} (CPR), {衰弱|すいじゃく}, {衛生|えいせい}, {薬物|やくぶつ}, {薬草|やくそう}
+- Legal/formal: {虚偽|きょぎ}, {虐待|ぎゃくたい}, {表明|ひょうめい}, {裏付|うらづ}ける
+- Cultural: {街道|かいどう} (Edo highways), {装束|しょうぞく} (traditional costumes), {菜|な}の{花|はな} (spring tradition)
+- Food: {蜂蜜|はちみつ}, {菜|な}の{花|はな}, {製法|せいほう}
+- New kanji: 2,445 → 2,447 ({蒼|そう}, {虐|ぎゃく})
+
+Total entries: 14,084 → 14,114 (approximate)
+Remaining candidates: 5,685 → 5,655 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 341)
 Added 30 new dictionary entries (IDs 13999-14028) from candidate_words.json:
 
