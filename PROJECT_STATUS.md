@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,414 |
+| Total entries | ~14,444 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,615 (open) |
-| Candidate words | ~5,355 |
+| General tier | ~11,645 (open) |
+| Candidate words | ~5,325 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 353)
+Added 30 new dictionary entries (IDs 14359-14388) from candidate_words.json:
+
+- **Noun/suru verbs (13)**: {転載|てんさい} (reposting), {送|おく}り{迎|むか}え (picking up and dropping off), {通話|つうわ} (telephone call), {逝去|せいきょ} (passing away), {造形|ぞうけい} (modeling/plastic arts), {進展|しんてん} (progress), {運行|うんこう} (train/bus operation), {遠回|とおまわ}り (detour), {適応|てきおう} (adaptation), {遭遇|そうぐう} (encounter), {進出|しんしゅつ} (expansion/advance), {連結|れんけつ} (connection/coupling), {逃亡|とうぼう} (flight/escape)
+- **Nouns (11)**: {農産物|のうさんぶつ} (agricultural products), {近隣|きんりん} (neighborhood), {詰|つ}め{物|もの} (filling/stuffing), {買取|かいとり} (trade-in), {連中|れんちゅう} (bunch/group), {週刊|しゅうかん} (weekly publication), {達人|たつじん} (master/expert), {遠隔|えんかく} (remote), {適量|てきりょう} (proper amount), {道標|みちしるべ} (signpost), {道筋|みちすじ} (route/course)
+- **Godan verbs (2)**: {請|う}け{負|お}う (to contract), {遠|とお}ざかる (to recede)
+- **Ichidan verb (1)**: {諌|いさ}める (to admonish)
+- **Na-adjective (1)**: {過度|かど} (excessive)
+- **I-adjective (1)**: {逆風|ぎゃくふう} (headwind/adversity)
+- **Noun (1)**: {過|あやま}ち (mistake/wrongdoing)
+
+Notable features:
+- Multi-sense entries: {逆風|ぎゃくふう} (2: headwind + adversity), {造形|ぞうけい} (2: modeling + plastic arts), {道標|みちしるべ} (2: signpost + guide), {道筋|みちすじ} (2: route + course of action)
+- Transportation: {運行|うんこう}, {遠回|とおまわ}り, {送|おく}り{迎|むか}え, {連結|れんけつ}
+- Business/formal: {転載|てんさい}, {進出|しんしゅつ}, {連結|れんけつ}, {請|う}け{負|お}う, {買取|かいとり}
+- Daily life: {通話|つうわ}, {詰|つ}め{物|もの}, {適量|てきりょう}, {週刊|しゅうかん}
+- New kanji: 2,468 → 2,470 ({諌|かん}, {逝|せい})
+
+Total entries: 14,414 → 14,444 (approximate)
+Remaining candidates: 5,355 → 5,325 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 352)
 Added 30 new dictionary entries (IDs 14329-14358) from candidate_words.json:
@@ -132,26 +153,6 @@ Notable features:
 
 Total entries: 14,294 → 14,324 (approximate)
 Remaining candidates: 5,475 → 5,445 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 348)
-Added 30 new dictionary entries (IDs 14209-14238) from candidate_words.json:
-
-- **Noun/suru verbs (8)**: {誘惑|ゆうわく} (temptation), {誘拐|ゆうかい} (kidnapping), {説教|せっきょう} (sermon/lecture), {説得|せっとく} (persuasion), {談笑|だんしょう} (chatting and laughing), {警戒|けいかい} (vigilance), {護衛|ごえい} (escort/bodyguard), {負荷|ふか} (load/burden)
-- **Godan verbs (6)**: {誤魔化|ごまか}す (to deceive/gloss over), {見返|みかえ}す (to look back/get even), {解|と}き{放|はな}つ (to set free), {諭|さと}す (to admonish), {賑|にぎ}わう (to be bustling), {記|しる}す (to write down)
-- **Ichidan verb (1)**: {設|もう}ける (to establish/set up)
-- **Na-adjectives (2)**: {誠実|せいじつ} (sincere), {豪快|ごうかい} (bold/hearty)
-- **Nouns (13)**: {語彙|ごい} (vocabulary), {語源|ごげん} (etymology), {読|よ}み{物|もの} (reading material), {試|こころ}み (attempt/trial), {豆乳|とうにゅう} (soy milk), {豊作|ほうさく} (bountiful harvest), {豚汁|とんじる} (pork miso soup), {負|お}い{目|め} (sense of guilt), {財閥|ざいばつ} (zaibatsu), {賛否|さんぴ} (pros and cons), {賞金|しょうきん} (prize money), {複数|ふくすう} (plural/multiple), {要件|ようけん} (requirement)
-
-Notable features:
-- Multi-sense entries: {誘惑|ゆうわく} (2: temptation + seduction), {誤魔化|ごまか}す (2: deceive + gloss over), {説教|せっきょう} (2: sermon + scolding), {見返|みかえ}す (2: look back + get even), {解|と}き{放|はな}つ (2: physical + figurative release), {要件|ようけん} (2: requirement + business matter)
-- Communication: {説教|せっきょう}, {説得|せっとく}, {諭|さと}す, {談笑|だんしょう}, {記|しる}す
-- Language/education: {語彙|ごい}, {語源|ごげん}, {読|よ}み{物|もの}, {複数|ふくすう}
-- Food: {豆乳|とうにゅう}, {豚汁|とんじる}, {豊作|ほうさく}
-- Society/business: {財閥|ざいばつ}, {賛否|さんぴ}, {賞金|しょうきん}, {要件|ようけん}
-- New kanji: 2,455 → 2,458 ({拐|かい}, {諭|ゆ}, {閥|ばつ})
-
-Total entries: 14,264 → 14,294 (approximate)
-Remaining candidates: 5,505 → 5,475 (30 removed)
 
 ---
 
