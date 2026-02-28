@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,294 |
+| Total entries | ~14,324 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,495 (open) |
-| Candidate words | ~5,475 |
+| General tier | ~11,525 (open) |
+| Candidate words | ~5,445 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 349)
+Added 30 new dictionary entries (IDs 14239-14268) from candidate_words.json:
+
+- **Noun/suru verbs (6)**: {解毒|げどく} (detoxification), {誘発|ゆうはつ} (inducement), {誹謗|ひぼう} (slander), {調停|ちょうてい} (mediation), {調印|ちょういん} (signing), {賛同|さんどう} (agreement)
+- **Godan verbs (7)**: {見出|みいだ}す (to discover), {語|かた}らう (to converse), {説|と}く (to preach), {読|よ}み{解|と}く (to interpret), {読|よ}み{込|こ}む (to load), {覆|おお}い{隠|かく}す (to conceal), {赴|おもむ}く (to proceed)
+- **Ichidan verb (1)**: {見|み}せつける (to show off)
+- **Nouns (14)**: {荷車|にぐるま} (cart), {語尾|ごび} (word ending), {諜報|ちょうほう} (espionage), {諸々|もろもろ} (various), {負|ま}け{犬|いぬ} (loser), {賃上|ちんあ}げ (wage increase), {賢者|けんじゃ} (sage), {赤子|あかご} (baby), {走行|そうこう} (vehicle running), {起業家|きぎょうか} (entrepreneur), {起因|きいん} (cause), {谷底|たにそこ} (valley bottom), {蒸|む}し (steaming), {訪|おとず}れ (visit/advent)
+- **Noun/suffix (1)**: {術|じゅつ} (technique/art)
+- **Noun (1)**: {言|い}い{合|あ}い (argument)
+
+Notable features:
+- Multi-sense entries: {見出|みいだ}す (2: discover + find meaning), {説|と}く (2: expound + advocate), {読|よ}み{込|こ}む (2: load data + read thoroughly), {負|ま}け{犬|いぬ} (2: loser + underdog), {術|じゅつ} (2: technique + means), {訪|おとず}れ (2: visit + arrival)
+- Communication: {語|かた}らう, {語尾|ごび}, {説|と}く, {誹謗|ひぼう}, {賛同|さんどう}, {言|い}い{合|あ}い
+- Legal/formal: {調停|ちょうてい}, {調印|ちょういん}, {起因|きいん}, {誹謗|ひぼう}
+- Business/work: {賃上|ちんあ}げ, {起業家|きぎょうか}, {走行|そうこう}
+- New kanji: 2,458 → 2,461 ({誹|ひ}, {諜|ちょう}, {謗|ぼう})
+
+Total entries: 14,294 → 14,324 (approximate)
+Remaining candidates: 5,475 → 5,445 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 348)
 Added 30 new dictionary entries (IDs 14209-14238) from candidate_words.json:
@@ -133,28 +153,6 @@ Notable features:
 
 Total entries: 14,174 → 14,204 (approximate)
 Remaining candidates: 5,595 → 5,565 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 344)
-Added 30 new dictionary entries (IDs 14089-14118) from candidate_words.json:
-
-- **Nouns (17)**: {草木|くさき} (plants/vegetation), {製菓|せいか} (confectionery making), {街路|がいろ} (street), {群像|ぐんぞう} (group portrait/ensemble), {表題|ひょうだい} (title/heading), {薬剤|やくざい} (pharmaceutical), {苦味|にがみ} (bitterness), {衣装|いしょう} (costume), {被害者|ひがいしゃ} (victim), {落|お}ち{葉|ば} (fallen leaves), {見|み}た{目|め} (appearance), {見|み}せ{場|ば} (highlight), {覇権|はけん} (hegemony), {褐色|かっしょく} (brown), {茶会|ちゃかい} (tea gathering), {英雄|えいゆう} (hero), {薪|まき} (firewood)
-- **Noun/suru verbs (5)**: {装備|そうび} (equipment/equipping), {装飾|そうしょく} (decoration), {補助|ほじょ} (assistance/subsidy), {要望|ようぼう} (request/demand), {複合|ふくごう} (compound/composite)
-- **Na-adjective (2)**: {荒唐無稽|こうとうむけい} (absurd), {美麗|びれい} (beautiful/gorgeous)
-- **Noun (2 senses, 4)**: {裏打|うらう}ち (backing + substantiation), {群像|ぐんぞう} (art + ensemble), {要領|ようりょう} (knack + gist), {補助|ほじょ} (assistance + subsidy)
-- **Ichidan verb (1)**: {薄|うす}れる (to fade/weaken)
-- **Noun (other, 3)**: {薄給|はっきゅう} (low salary), {蒸|む}し{風呂|ぶろ} (steam bath), {絵巻|えまき} (picture scroll)
-
-Notable features:
-- Multi-sense entries: {裏打|うらう}ち (2: lining + substantiation), {装備|そうび} (2: equipment + equipping), {補助|ほじょ} (2: assistance + subsidy), {薄|うす}れる (2: physical fading + abstract weakening), {要領|ようりょう} (2: knack + gist)
-- Four-character compound: {荒唐無稽|こうとうむけい}
-- Food/taste: {苦味|にがみ}, {製菓|せいか}
-- Arts/culture: {絵巻|えまき}, {群像|ぐんぞう}, {茶会|ちゃかい}, {美麗|びれい}
-- Work/society: {薄給|はっきゅう}, {被害者|ひがいしゃ}, {覇権|はけん}, {要望|ようぼう}
-- Nature/seasons: {草木|くさき}, {落|お}ち{葉|ば}
-- New kanji: 2,449 → 2,451 ({薪|しん}, {褐|かつ})
-
-Total entries: 14,144 → 14,174 (approximate)
-Remaining candidates: 5,625 → 5,595 (30 removed)
 
 ---
 

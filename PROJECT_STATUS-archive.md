@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 344)
+Added 30 new dictionary entries (IDs 14089-14118) from candidate_words.json:
+
+- **Nouns (17)**: {草木|くさき} (plants/vegetation), {製菓|せいか} (confectionery making), {街路|がいろ} (street), {群像|ぐんぞう} (group portrait/ensemble), {表題|ひょうだい} (title/heading), {薬剤|やくざい} (pharmaceutical), {苦味|にがみ} (bitterness), {衣装|いしょう} (costume), {被害者|ひがいしゃ} (victim), {落|お}ち{葉|ば} (fallen leaves), {見|み}た{目|め} (appearance), {見|み}せ{場|ば} (highlight), {覇権|はけん} (hegemony), {褐色|かっしょく} (brown), {茶会|ちゃかい} (tea gathering), {英雄|えいゆう} (hero), {薪|まき} (firewood)
+- **Noun/suru verbs (5)**: {装備|そうび} (equipment/equipping), {装飾|そうしょく} (decoration), {補助|ほじょ} (assistance/subsidy), {要望|ようぼう} (request/demand), {複合|ふくごう} (compound/composite)
+- **Na-adjective (2)**: {荒唐無稽|こうとうむけい} (absurd), {美麗|びれい} (beautiful/gorgeous)
+- **Ichidan verb (1)**: {薄|うす}れる (to fade/weaken)
+- New kanji: 2,449 → 2,451 ({薪|しん}, {褐|かつ})
+
+Total entries: 14,144 → 14,174 (approximate)
+Remaining candidates: 5,625 → 5,595 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 343)
 Added 30 new dictionary entries (IDs 14059-14088) from candidate_words.json:
 
