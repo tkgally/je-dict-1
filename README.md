@@ -2,6 +2,8 @@
 
 This is the repository for a Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
 
+**Live site**: https://www.tkgje.jp/
+
 This dictionary is licensed under Creative Commons Zero v1.0 Universal, and anyone is free to copy the data and code for whatever purpose they like, including commercial uses.
 
 ## Overview
@@ -29,17 +31,15 @@ Audio readings for example sentences will be added in the future.
 
 ## Current Status
 
-- **11,870 entries** across three vocabulary tiers
-- **Vocabulary tiers**: Basic (801), Core (1,998), General (9,071) — all new entries are added to general tier
-- **Over 3,300 cross-references** linking related entries
-- **46,280 example sentences** with inline word links
+- **Over 14,000 entries** across three vocabulary tiers
+- **Vocabulary tiers**: Basic (801), Core (1,998), General (the rest) — all new entries are added to general tier
+- **Many cross-references** linking related entries
+- **Over 50,000 example sentences** with inline word links
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
 - **Automated pipeline** for batch dictionary maintenance tasks
 - **Robust build system** with atomic builds, XSS protection, and comprehensive validation
 - **CI/CD** with GitHub Actions for validation and automated pipeline runs
-
-**Live site**: https://www.tkgje.jp/
 
 ## Target Users
 
