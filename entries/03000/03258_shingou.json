@@ -19,9 +19,9 @@
   "examples": [
     {
       "id": "03258_shingou_ex1",
-      "japanese": "{信号|しんごう}が{青|あお}になったら{渡|わた}ってください。",
-      "english": "Please cross when the light turns green.",
-      "notes": "In Japanese, the green light is called 青 (blue)",
+      "japanese": "{信号|しんごう}が{赤|あか}だ。",
+      "english": "The light is red.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -39,8 +39,38 @@
     },
     {
       "id": "03258_shingou_ex3",
+      "japanese": "{信号|しんごう}が{青|あお}になったら{渡|わた}ってください。",
+      "english": "Please cross when the light turns green.",
+      "notes": "In Japanese, the green light is called {青|あお} (blue)",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03258_shingou_ex4",
+      "japanese": "{信号|しんごう}を{送|おく}る。",
+      "english": "To send a signal.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "03258_shingou_ex5",
       "japanese": "{電波|でんぱ}{信号|しんごう}を{受信|じゅしん}した。",
       "english": "We received a radio signal.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "03258_shingou_ex6",
+      "japanese": "{出発|しゅっぱつ}の{信号|しんごう}が{出|で}たら、すぐに{走|はし}り{始|はじ}めてください。",
+      "english": "When the starting signal is given, please begin running immediately.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -52,7 +82,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-12T00:54:55Z",
-    "modified": "2026-01-19T12:17:42.154290Z",
+    "modified": "2026-02-28T03:33:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
