@@ -19,8 +19,18 @@
   "examples": [
     {
       "id": "03431_tabi_ex1",
-      "japanese": "{彼|かれ}に{会|あ}う{度|たび}に{元気|げんき}をもらう。",
-      "english": "I feel energized every time I meet him.",
+      "japanese": "{一度|いちど}{試|ため}してみてください。",
+      "english": "Please try it once.",
+      "notes": "{一度|いちど} = once",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03431_tabi_ex2",
+      "japanese": "{見|み}る{度|たび}に{思|おも}い{出|だ}す。",
+      "english": "I remember every time I see it.",
       "notes": "〜度に = every time ~",
       "has_audio": false,
       "sense_numbers": [
@@ -28,23 +38,43 @@
       ]
     },
     {
-      "id": "03431_tabi_ex2",
+      "id": "03431_tabi_ex3",
       "japanese": "{今度|こんど}こそ{成功|せいこう}させたい。",
       "english": "I want to make it succeed this time for sure.",
-      "notes": "今度 = this time, next time",
+      "notes": "{今度|こんど} = this time, next time",
       "has_audio": false,
       "sense_numbers": [
         1
       ]
     },
     {
-      "id": "03431_tabi_ex3",
+      "id": "03431_tabi_ex4",
+      "japanese": "{彼|かれ}に{会|あ}う{度|たび}に{元気|げんき}をもらう。",
+      "english": "I feel energized every time I meet him.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "03431_tabi_ex5",
       "japanese": "{何度|なんど}も{失敗|しっぱい}したが、{諦|あきら}めなかった。",
       "english": "I failed many times, but I didn't give up.",
-      "notes": "何度も = many times",
+      "notes": "{何度|なんど}も = many times",
       "has_audio": false,
       "sense_numbers": [
         1
+      ]
+    },
+    {
+      "id": "03431_tabi_ex6",
+      "japanese": "{日本|にほん}に{行|い}く{度|たび}に{新|あたら}しいお{店|みせ}を{見|み}つける。",
+      "english": "Every time I go to Japan, I find a new shop.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
@@ -60,7 +90,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T09:16:00Z",
-    "modified": "2026-01-24T07:38:50Z",
+    "modified": "2026-02-28T23:23:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
