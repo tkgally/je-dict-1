@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,354 |
+| Total entries | ~14,384 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,555 (open) |
-| Candidate words | ~5,415 |
+| General tier | ~11,585 (open) |
+| Candidate words | ~5,385 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 351)
+Added 30 new dictionary entries (IDs 14299-14328) from candidate_words.json:
+
+- **Nouns (14)**: {跡継|あとつ}ぎ (successor), {身|み}なり (appearance), {身代金|みのしろきん} (ransom), {軸|じく} (axis/core/scroll), {轟音|ごうおん} (thunderous roar), {迫力|はくりょく} (force/impact), {逆効果|ぎゃくこうか} (counterproductive), {逸話|いつわ} (anecdote), {道場|どうじょう} (dojo), {近況|きんきょう} (recent situation), {連日|れんじつ} (day after day), {進路|しんろ} (course/career path)
+- **Noun/suru verbs (7)**: {転倒|てんとう} (falling over/reversal), {軽視|けいし} (disregard), {購買|こうばい} (purchasing), {追悼|ついとう} (mourning), {追放|ついほう} (banishment), {退治|たいじ} (extermination), {通報|つうほう} (report/notification), {速報|そくほう} (breaking news), {連載|れんさい} (serialization), {過労死|かろうし} (death from overwork)
+- **Godan verbs (3)**: {貸|か}し{出|だ}す (to lend out), {透|す}き{通|とお}る (to be transparent)
+- **Ichidan verbs (3)**: {貶|おとし}める (to disparage), {追|お}い{詰|つ}める (to corner), {途絶|とだ}える (to cease), {遂|と}げる (to accomplish)
+- **Na-adjective (1)**: {過激|かげき} (radical/extreme)
+- **Multi-sense entries (2)**: {身内|みうち} (2: family + inner circle), {転倒|てんとう} (2: toppling + reversal), {軸|じく} (3: axis + core + scroll), {進路|しんろ} (2: route + career path)
+
+Notable features:
+- Multi-sense entries: {身内|みうち}, {転倒|てんとう}, {軸|じく} (3 senses), {進路|しんろ}
+- Culture: {道場|どうじょう} (martial arts), {退治|たいじ} (Momotaro folklore), {過労死|かろうし} (social issue)
+- Media: {連載|れんさい} (manga culture), {速報|そくほう} (news), {通報|つうほう}
+- Society: {過労死|かろうし}, {追放|ついほう}, {軽視|けいし}, {過激|かげき}
+- New kanji: 2,465 → 2,467 ({貶|おとし}, {轟|とどろき})
+
+Total entries: 14,354 → 14,384 (approximate)
+Remaining candidates: 5,415 → 5,385 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 350)
 Added 30 new dictionary entries (IDs 14269-14298) from candidate_words.json:
@@ -131,26 +151,6 @@ Notable features:
 
 Total entries: 14,234 → 14,264 (approximate)
 Remaining candidates: 5,535 → 5,505 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 346)
-Added 30 new dictionary entries (IDs 14149-14178) from candidate_words.json:
-
-- **Nouns (14)**: {芸者|げいしゃ} (geisha), {街|まち}づくり (community development), {英国|えいこく} (Britain), {衆議院|しゅうぎいん} (House of Representatives), {痴話喧嘩|ちわげんか} (lovers' quarrel), {留飲|りゅういん} (vindication), {要塞|ようさい} (fortress), {見世物|みせもの} (spectacle), {規範|きはん} (norm), {観光地|かんこうち} (tourist spot), {試練|しれん} (trial/ordeal), {詰|つ}め{合|あ}わせ (assortment), {話|はな}し{合|あ}い (discussion), {誓|ちか}い (vow/oath)
-- **Noun/suru verbs (7)**: {襲来|しゅうらい} (invasion), {見合|みあ}い (matchmaking), {解明|かいめい} (elucidation), {記載|きさい} (listing), {設立|せつりつ} (establishment), {許容|きょよう} (tolerance), {該当|がいとう} (applicable)
-- **Noun (multi-sense) (1)**: {衣|ころも} (robe + batter)
-- **Noun (1)**: {記者|きしゃ} (reporter), {親権|しんけん} (parental rights), {言|い}い{方|かた} (way of saying), {言葉|ことば}づかい (language use)
-- **Ichidan verbs (3)**: {薄汚|うすよご}れる (to become grimy), {言|い}い{聞|き}かせる (to admonish), {詫|わ}びる (to apologize)
-- **Godan verb (1)**: {託|たく}す (to entrust)
-
-Notable features:
-- Multi-sense entry: {衣|ころも} (2: robe/garment + batter/coating)
-- Politics/law: {衆議院|しゅうぎいん}, {親権|しんけん}, {規範|きはん}, {該当|がいとう}
-- Communication: {言|い}い{方|かた}, {言葉|ことば}づかい, {言|い}い{聞|き}かせる, {話|はな}し{合|あ}い, {詫|わ}びる, {誓|ちか}い
-- Culture: {芸者|げいしゃ}, {見世物|みせもの}, {見合|みあ}い, {観光地|かんこうち}
-- New kanji: 2,452 → 2,453 ({該|がい})
-
-Total entries: 14,204 → 14,234 (approximate)
-Remaining candidates: 5,565 → 5,535 (30 removed)
 
 ---
 
