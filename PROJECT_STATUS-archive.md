@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 347)
+Added 30 new dictionary entries (IDs 14179-14208) from candidate_words.json:
+
+- **Godan verbs (3)**: {言|い}い{争|あらそ}う (to argue), {誇|ほこ}る (to be proud of), {詠|よ}む (to compose a poem)
+- **Ichidan verb (1)**: {詰|つ}めかける (to crowd into)
+- **I-adjective (1)**: {誇|ほこ}らしい (proud)
+- **Na-adjective/noun (2)**: {親愛|しんあい} (dear/beloved), {血|ち}まみれ (blood-soaked)
+- **Noun/suru verbs (7)**: {認知|にんち} (cognition), {診療|しんりょう} (medical treatment), {解読|かいどく} (deciphering), {計測|けいそく} (measurement), {解剖|かいぼう} (dissection), {訪日|ほうにち} (visit to Japan), {討伐|とうばつ} (subjugation)
+- **Nouns (16)**: {規約|きやく} (terms/agreement), {訴|うった}え (appeal/lawsuit), {言論|げんろん} (speech/discourse), {直伝|じきでん} (direct transmission), {親交|しんこう} (friendship), {計略|けいりゃく} (strategy/ruse), {観賞|かんしょう} (viewing for enjoyment), {言霊|ことだま} (power of words), {親族|しんぞく} (relatives), {誘|さそ}い (invitation), {茶髪|ちゃぱつ} (brown-dyed hair), {美肌|びはだ} (beautiful skin), {診療所|しんりょうじょ} (clinic), {老害|ろうがい} (harmful elderly), {脱法|だっぽう} (circumventing law), {言質|げんち} (verbal commitment)
+
+Notable features:
+- Multi-sense entries: {誇|ほこ}る (2: pride + boasting), {訴|うった}え (2: appeal + lawsuit), {認知|にんち} (2: cognition + acknowledgment), {解剖|かいぼう} (2: dissection + analysis), {誘|さそ}い (2: invitation + enticement), {老害|ろうがい} (2: systemic + individual), {詠|よ}む (2: compose + recite)
+- Communication/language: {言|い}い{争|あらそ}う, {言論|げんろん}, {言霊|ことだま}, {言質|げんち}
+- Medical: {診療|しんりょう}, {診療所|しんりょうじょ}, {解剖|かいぼう}
+- Culture: {言霊|ことだま} (kotodama belief), {茶髪|ちゃぱつ} (hair culture)
+- New kanji: 2,453 → 2,455 ({剖|ぼう}, {詠|えい})
+
+Total entries: 14,234 → 14,264 (approximate)
+Remaining candidates: 5,535 → 5,505 (30 removed)
+
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 345)
 Added 30 new dictionary entries (IDs 14119-14148) from candidate_words.json:
 

@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,384 |
+| Total entries | ~14,414 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,585 (open) |
-| Candidate words | ~5,385 |
+| General tier | ~11,615 (open) |
+| Candidate words | ~5,355 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 352)
+Added 30 new dictionary entries (IDs 14329-14358) from candidate_words.json:
+
+- **Nouns (12)**: {蕎麦|そば} (soba noodles), {語|かた}り{口|くち} (narrative style), {美酒|びしゅ} (fine wine/sake), {美少女|びしょうじょ} (beautiful girl), {見本市|みほんいち} (trade fair), {踊|おど}り{子|こ} (dancer), {諸島|しょとう} (archipelago), {軌跡|きせき} (trajectory), {近郊|きんこう} (suburbs), {農地|のうち} (farmland), {辺境|へんきょう} (frontier), {聞|き}き{捨|す}て (ignoring what one hears)
+- **Noun/suru verbs (7)**: {肥大|ひだい} (enlargement), {蔑視|べっし} (contempt), {虐殺|ぎゃくさつ} (massacre), {転生|てんせい} (reincarnation), {返信|へんしん} (reply), {退場|たいじょう} (exit/ejection), {返還|へんかん} (return/restitution)
+- **Nouns (other) (4)**: {自己満|じこまん} (self-satisfaction), {迷宮|めいきゅう} (labyrinth), {追|お}い{風|かぜ} (tailwind), {近年|きんねん} (recent years)
+- **Verbs (3)**: {読|よ}みふける (to be absorbed in reading), {解|と}きほぐす (to unravel/ease), {訴|うった}えかける (to appeal to)
+- **Verb-suru (1)**: {要|よう}する (to require)
+- **Na-adjective (2)**: {身勝手|みがって} (selfish), {軟弱|なんじゃく} (weak/spineless)
+- **I-adjective (1)**: {軽症|けいしょう} (mild case)
+
+Notable features:
+- Multi-sense entries: {肥大|ひだい} (2: medical + figurative), {解|と}きほぐす (2: physical + emotional), {迷宮|めいきゅう} (2: labyrinth + cold case), {追|お}い{風|かぜ} (2: literal + figurative), {退場|たいじょう} (2: exit + ejection), {軌跡|きせき} (2: trajectory + track record), {軟弱|なんじゃく} (2: physical + character)
+- Food: {蕎麦|そば} (soba noodles), {美酒|びしゅ} (fine sake)
+- Culture/media: {美少女|びしょうじょ} (anime), {転生|てんせい} (isekai genre), {踊|おど}り{子|こ} (Kawabata), {迷宮|めいきゅう} (gaming/detective)
+- Geography: {諸島|しょとう}, {農地|のうち}, {辺境|へんきょう}, {近郊|きんこう}
+- New kanji: 2,467 → 2,468 ({蕎|きょう})
+
+Total entries: 14,384 → 14,414 (approximate)
+Remaining candidates: 5,385 → 5,355 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 351)
 Added 30 new dictionary entries (IDs 14299-14328) from candidate_words.json:
@@ -131,26 +152,6 @@ Notable features:
 
 Total entries: 14,264 → 14,294 (approximate)
 Remaining candidates: 5,505 → 5,475 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 347)
-Added 30 new dictionary entries (IDs 14179-14208) from candidate_words.json:
-
-- **Godan verbs (3)**: {言|い}い{争|あらそ}う (to argue), {誇|ほこ}る (to be proud of), {詠|よ}む (to compose a poem)
-- **Ichidan verb (1)**: {詰|つ}めかける (to crowd into)
-- **I-adjective (1)**: {誇|ほこ}らしい (proud)
-- **Na-adjective/noun (2)**: {親愛|しんあい} (dear/beloved), {血|ち}まみれ (blood-soaked)
-- **Noun/suru verbs (7)**: {認知|にんち} (cognition), {診療|しんりょう} (medical treatment), {解読|かいどく} (deciphering), {計測|けいそく} (measurement), {解剖|かいぼう} (dissection), {訪日|ほうにち} (visit to Japan), {討伐|とうばつ} (subjugation)
-- **Nouns (16)**: {規約|きやく} (terms/agreement), {訴|うった}え (appeal/lawsuit), {言論|げんろん} (speech/discourse), {直伝|じきでん} (direct transmission), {親交|しんこう} (friendship), {計略|けいりゃく} (strategy/ruse), {観賞|かんしょう} (viewing for enjoyment), {言霊|ことだま} (power of words), {親族|しんぞく} (relatives), {誘|さそ}い (invitation), {茶髪|ちゃぱつ} (brown-dyed hair), {美肌|びはだ} (beautiful skin), {診療所|しんりょうじょ} (clinic), {老害|ろうがい} (harmful elderly), {脱法|だっぽう} (circumventing law), {言質|げんち} (verbal commitment)
-
-Notable features:
-- Multi-sense entries: {誇|ほこ}る (2: pride + boasting), {訴|うった}え (2: appeal + lawsuit), {認知|にんち} (2: cognition + acknowledgment), {解剖|かいぼう} (2: dissection + analysis), {誘|さそ}い (2: invitation + enticement), {老害|ろうがい} (2: systemic + individual), {詠|よ}む (2: compose + recite)
-- Communication/language: {言|い}い{争|あらそ}う, {言論|げんろん}, {言霊|ことだま}, {言質|げんち}
-- Medical: {診療|しんりょう}, {診療所|しんりょうじょ}, {解剖|かいぼう}
-- Culture: {言霊|ことだま} (kotodama belief), {茶髪|ちゃぱつ} (hair culture)
-- New kanji: 2,453 → 2,455 ({剖|ぼう}, {詠|えい})
-
-Total entries: 14,234 → 14,264 (approximate)
-Remaining candidates: 5,535 → 5,505 (30 removed)
 
 ---
 
