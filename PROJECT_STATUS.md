@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,204 |
+| Total entries | ~14,234 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,405 (open) |
-| Candidate words | ~5,565 |
+| General tier | ~11,435 (open) |
+| Candidate words | ~5,535 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,700 |
+| Example sentences | ~48,800 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 346)
+Added 30 new dictionary entries (IDs 14149-14178) from candidate_words.json:
+
+- **Nouns (14)**: {芸者|げいしゃ} (geisha), {街|まち}づくり (community development), {英国|えいこく} (Britain), {衆議院|しゅうぎいん} (House of Representatives), {痴話喧嘩|ちわげんか} (lovers' quarrel), {留飲|りゅういん} (vindication), {要塞|ようさい} (fortress), {見世物|みせもの} (spectacle), {規範|きはん} (norm), {観光地|かんこうち} (tourist spot), {試練|しれん} (trial/ordeal), {詰|つ}め{合|あ}わせ (assortment), {話|はな}し{合|あ}い (discussion), {誓|ちか}い (vow/oath)
+- **Noun/suru verbs (7)**: {襲来|しゅうらい} (invasion), {見合|みあ}い (matchmaking), {解明|かいめい} (elucidation), {記載|きさい} (listing), {設立|せつりつ} (establishment), {許容|きょよう} (tolerance), {該当|がいとう} (applicable)
+- **Noun (multi-sense) (1)**: {衣|ころも} (robe + batter)
+- **Noun (1)**: {記者|きしゃ} (reporter), {親権|しんけん} (parental rights), {言|い}い{方|かた} (way of saying), {言葉|ことば}づかい (language use)
+- **Ichidan verbs (3)**: {薄汚|うすよご}れる (to become grimy), {言|い}い{聞|き}かせる (to admonish), {詫|わ}びる (to apologize)
+- **Godan verb (1)**: {託|たく}す (to entrust)
+
+Notable features:
+- Multi-sense entry: {衣|ころも} (2: robe/garment + batter/coating)
+- Politics/law: {衆議院|しゅうぎいん}, {親権|しんけん}, {規範|きはん}, {該当|がいとう}
+- Communication: {言|い}い{方|かた}, {言葉|ことば}づかい, {言|い}い{聞|き}かせる, {話|はな}し{合|あ}い, {詫|わ}びる, {誓|ちか}い
+- Culture: {芸者|げいしゃ}, {見世物|みせもの}, {見合|みあ}い, {観光地|かんこうち}
+- New kanji: 2,452 → 2,453 ({該|がい})
+
+Total entries: 14,204 → 14,234 (approximate)
+Remaining candidates: 5,565 → 5,535 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 345)
 Added 30 new dictionary entries (IDs 14119-14148) from candidate_words.json:
@@ -143,28 +163,6 @@ Notable features:
 
 Total entries: 14,084 → 14,114 (approximate)
 Remaining candidates: 5,685 → 5,655 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 341)
-Added 30 new dictionary entries (IDs 13999-14028) from candidate_words.json:
-
-- **Godan verbs (5)**: {興|おこ}す (to start/revive), {舞|ま}い{戻|もど}る (to come back), {聞|き}かす (to tell/let hear), {若返|わかがえ}る (to rejuvenate), {行|い}き{交|か}う (to come and go)
-- **Ichidan verb (1)**: {聞|き}きつける (to hear about)
-- **Nouns (14)**: {脇腹|わきばら} (flank), {舶来|はくらい} (imported goods), {航空機|こうくうき} (aircraft), {肉団子|にくだんご} (meatball), {至上|しじょう} (supreme), {苗字|みょうじ} (surname), {自国|じこく} (one's own country), {美貌|びぼう} (beauty), {老女|ろうじょ} (old woman), {花鳥|かちょう} (flowers and birds), {茶屋|ちゃや} (teahouse), {裏技|うらわざ} (secret trick/hack), {著作権|ちょさくけん} (copyright), {街灯|がいとう} (streetlight)
-- **Noun/suru verbs (5)**: {肉薄|にくはく} (closing in on), {自戒|じかい} (self-admonition), {蓄積|ちくせき} (accumulation), {補強|ほきょう} (reinforcement), {薄着|うすぎ} (light clothing)
-- **Nouns (literary/cultural) (3)**: {義憤|ぎふん} (righteous indignation), {苦渋|くじゅう} (anguish), {花道|はなみち} (kabuki runway/glorious exit)
-- **Nouns (other) (2)**: {荒波|あらなみ} (rough waves), {血統|けっとう} (lineage)
-
-Notable features:
-- Multi-sense entries: {興|おこ}す (2: start + revive), {花道|はなみち} (2: kabuki runway + glorious exit)
-- Verbs: Good mix of godan and ichidan with transitivity/aspect notes
-- Cultural: {舶来|はくらい} (Meiji import culture), {花道|はなみち} (kabuki), {茶屋|ちゃや} (traditional teahouse), {花鳥|かちょう} (classical aesthetics)
-- Modern/practical: {裏技|うらわざ} (life hack), {著作権|ちょさくけん} (copyright law), {航空機|こうくうき}
-- Body: {脇腹|わきばら}
-- Food: {肉団子|にくだんご}
-- New kanji: 2,444 → 2,445 ({舶|はく})
-
-Total entries: 14,054 → 14,084 (approximate)
-Remaining candidates: 5,715 → 5,685 (30 removed)
 
 ---
 

@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 341)
+Added 30 new dictionary entries (IDs 13999-14028) from candidate_words.json:
+
+- **Godan verbs (5)**: {興|おこ}す (to start/revive), {舞|ま}い{戻|もど}る (to come back), {聞|き}かす (to tell/let hear), {若返|わかがえ}る (to rejuvenate), {行|い}き{交|か}う (to come and go)
+- **Ichidan verb (1)**: {聞|き}きつける (to hear about)
+- **Nouns (14)**: {脇腹|わきばら} (flank), {舶来|はくらい} (imported goods), {航空機|こうくうき} (aircraft), {肉団子|にくだんご} (meatball), {至上|しじょう} (supreme), {苗字|みょうじ} (surname), {自国|じこく} (one's own country), {美貌|びぼう} (beauty), {老女|ろうじょ} (old woman), {花鳥|かちょう} (flowers and birds), {茶屋|ちゃや} (teahouse), {裏技|うらわざ} (secret trick/hack), {著作権|ちょさくけん} (copyright), {街灯|がいとう} (streetlight)
+- **Noun/suru verbs (5)**: {肉薄|にくはく} (closing in on), {自戒|じかい} (self-admonition), {蓄積|ちくせき} (accumulation), {補強|ほきょう} (reinforcement), {薄着|うすぎ} (light clothing)
+- **Nouns (literary/cultural) (3)**: {義憤|ぎふん} (righteous indignation), {苦渋|くじゅう} (anguish), {花道|はなみち} (kabuki runway/glorious exit)
+- **Nouns (other) (2)**: {荒波|あらなみ} (rough waves), {血統|けっとう} (lineage)
+
+Notable features:
+- Multi-sense entries: {興|おこ}す (2: start + revive), {花道|はなみち} (2: kabuki runway + glorious exit)
+- Verbs: Good mix of godan and ichidan with transitivity/aspect notes
+- Cultural: {舶来|はくらい} (Meiji import culture), {花道|はなみち} (kabuki), {茶屋|ちゃや} (traditional teahouse), {花鳥|かちょう} (classical aesthetics)
+- Modern/practical: {裏技|うらわざ} (life hack), {著作権|ちょさくけん} (copyright law), {航空機|こうくうき}
+- Body: {脇腹|わきばら}
+- Food: {肉団子|にくだんご}
+- New kanji: 2,444 → 2,445 ({舶|はく})
+
+Total entries: 14,054 → 14,084 (approximate)
+Remaining candidates: 5,715 → 5,685 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 340)
 Added 30 new dictionary entries (IDs 13969-13998) from candidate_words.json:
 
