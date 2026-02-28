@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 339)
+Added 30 new dictionary entries (IDs 13939-13968) from candidate_words.json:
+
+- **Nouns (17)**: {胃袋|いぶくろ} (stomach), {胡桃|くるみ} (walnut), {脇道|わきみち} (side road/digression), {自治体|じちたい} (municipality), {良心|りょうしん} (conscience), {色合|いろあ}い (shade/hue), {美意識|びいしき} (aesthetic sense), {聞|き}き{覚|おぼ}え (familiarity from hearing), {腎臓|じんぞう} (kidney), {色彩|しきさい} (color/coloring), {芸人|げいにん} (entertainer), {花吹雪|はなふぶき} (flurry of petals), {脚本家|きゃくほんか} (screenwriter), {義務教育|ぎむきょういく} (compulsory education), {芋虫|いもむし} (caterpillar), {花形|はながた} (star/leading figure), {色調|しきちょう} (color tone)
+- **Noun/suru verbs (3)**: {脱却|だっきゃく} (breaking free), {自律|じりつ} (autonomy), {自作|じさく} (self-made)
+- **Nouns with two senses (4)**: {胴体|どうたい} (torso + fuselage), {脇道|わきみち} (side road + digression), {色合|いろあ}い (hue + figurative tinge), {色彩|しきさい} (color + character/tone)
+- **Noun/adjective (3)**: {良質|りょうしつ} (good quality), {自家製|じかせい} (homemade), {能動的|のうどうてき} (active/proactive)
+- **Na-adjective (1)**: {良好|りょうこう} (good/favorable)
+- **I-adjective (1)**: {肌寒|はだざむ}い (chilly)
+- **Verbs (3)**: {脅|おびや}かす (to threaten, godan), {腰掛|こしか}ける (to sit down, ichidan), {背|そむ}ける (to turn away, ichidan)
+- **Noun (literary) (1)**: {芳香|ほうこう} (fragrance)
+
+Notable features:
+- Multi-sense entries: {胴体|どうたい} (2: torso + fuselage), {脅|おびや}かす (2: threaten + challenge), {脇道|わきみち} (2: side road + digression), {色合|いろあ}い (2: hue + figurative tinge), {色彩|しきさい} (2: color + character/tone)
+- Body/medical: {胃袋|いぶくろ}, {胴体|どうたい}, {腎臓|じんぞう}
+- Art/aesthetics: {色合|いろあ}い, {色彩|しきさい}, {色調|しきちょう}, {美意識|びいしき}
+- Cultural: {花吹雪|はなふぶき} (cherry blossoms), {芸人|げいにん} (comedy culture), {義務教育|ぎむきょういく}
+- Nature: {胡桃|くるみ}, {芋虫|いもむし}, {肌寒|はだざむ}い, {花吹雪|はなふぶき}
+- New kanji: 2,441 → 2,443 ({胴|どう}, {腎|じん})
+
+Total entries: 13,994 → 14,024 (approximate)
+Remaining candidates: 5,775 → 5,745 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 338)
 Added 30 new dictionary entries (IDs 13909-13938) from candidate_words.json:
 

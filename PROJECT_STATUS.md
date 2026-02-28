@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-27
+**Last updated**: 2026-02-28
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,144 |
+| Total entries | ~14,174 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,345 (open) |
-| Candidate words | ~5,625 |
+| General tier | ~11,375 (open) |
+| Candidate words | ~5,595 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,500 |
+| Example sentences | ~48,600 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 344)
+Added 30 new dictionary entries (IDs 14089-14118) from candidate_words.json:
+
+- **Nouns (17)**: {草木|くさき} (plants/vegetation), {製菓|せいか} (confectionery making), {街路|がいろ} (street), {群像|ぐんぞう} (group portrait/ensemble), {表題|ひょうだい} (title/heading), {薬剤|やくざい} (pharmaceutical), {苦味|にがみ} (bitterness), {衣装|いしょう} (costume), {被害者|ひがいしゃ} (victim), {落|お}ち{葉|ば} (fallen leaves), {見|み}た{目|め} (appearance), {見|み}せ{場|ば} (highlight), {覇権|はけん} (hegemony), {褐色|かっしょく} (brown), {茶会|ちゃかい} (tea gathering), {英雄|えいゆう} (hero), {薪|まき} (firewood)
+- **Noun/suru verbs (5)**: {装備|そうび} (equipment/equipping), {装飾|そうしょく} (decoration), {補助|ほじょ} (assistance/subsidy), {要望|ようぼう} (request/demand), {複合|ふくごう} (compound/composite)
+- **Na-adjective (2)**: {荒唐無稽|こうとうむけい} (absurd), {美麗|びれい} (beautiful/gorgeous)
+- **Noun (2 senses, 4)**: {裏打|うらう}ち (backing + substantiation), {群像|ぐんぞう} (art + ensemble), {要領|ようりょう} (knack + gist), {補助|ほじょ} (assistance + subsidy)
+- **Ichidan verb (1)**: {薄|うす}れる (to fade/weaken)
+- **Noun (other, 3)**: {薄給|はっきゅう} (low salary), {蒸|む}し{風呂|ぶろ} (steam bath), {絵巻|えまき} (picture scroll)
+
+Notable features:
+- Multi-sense entries: {裏打|うらう}ち (2: lining + substantiation), {装備|そうび} (2: equipment + equipping), {補助|ほじょ} (2: assistance + subsidy), {薄|うす}れる (2: physical fading + abstract weakening), {要領|ようりょう} (2: knack + gist)
+- Four-character compound: {荒唐無稽|こうとうむけい}
+- Food/taste: {苦味|にがみ}, {製菓|せいか}
+- Arts/culture: {絵巻|えまき}, {群像|ぐんぞう}, {茶会|ちゃかい}, {美麗|びれい}
+- Work/society: {薄給|はっきゅう}, {被害者|ひがいしゃ}, {覇権|はけん}, {要望|ようぼう}
+- Nature/seasons: {草木|くさき}, {落|お}ち{葉|ば}
+- New kanji: 2,449 → 2,451 ({薪|しん}, {褐|かつ})
+
+Total entries: 14,144 → 14,174 (approximate)
+Remaining candidates: 5,625 → 5,595 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 343)
 Added 30 new dictionary entries (IDs 14059-14088) from candidate_words.json:
@@ -120,29 +142,6 @@ Notable features:
 
 Total entries: 14,054 → 14,084 (approximate)
 Remaining candidates: 5,715 → 5,685 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 339)
-Added 30 new dictionary entries (IDs 13939-13968) from candidate_words.json:
-
-- **Nouns (17)**: {胃袋|いぶくろ} (stomach), {胡桃|くるみ} (walnut), {脇道|わきみち} (side road/digression), {自治体|じちたい} (municipality), {良心|りょうしん} (conscience), {色合|いろあ}い (shade/hue), {美意識|びいしき} (aesthetic sense), {聞|き}き{覚|おぼ}え (familiarity from hearing), {腎臓|じんぞう} (kidney), {色彩|しきさい} (color/coloring), {芸人|げいにん} (entertainer), {花吹雪|はなふぶき} (flurry of petals), {脚本家|きゃくほんか} (screenwriter), {義務教育|ぎむきょういく} (compulsory education), {芋虫|いもむし} (caterpillar), {花形|はながた} (star/leading figure), {色調|しきちょう} (color tone)
-- **Noun/suru verbs (3)**: {脱却|だっきゃく} (breaking free), {自律|じりつ} (autonomy), {自作|じさく} (self-made)
-- **Nouns with two senses (4)**: {胴体|どうたい} (torso + fuselage), {脇道|わきみち} (side road + digression), {色合|いろあ}い (hue + figurative tinge), {色彩|しきさい} (color + character/tone)
-- **Noun/adjective (3)**: {良質|りょうしつ} (good quality), {自家製|じかせい} (homemade), {能動的|のうどうてき} (active/proactive)
-- **Na-adjective (1)**: {良好|りょうこう} (good/favorable)
-- **I-adjective (1)**: {肌寒|はだざむ}い (chilly)
-- **Verbs (3)**: {脅|おびや}かす (to threaten, godan), {腰掛|こしか}ける (to sit down, ichidan), {背|そむ}ける (to turn away, ichidan)
-- **Noun (literary) (1)**: {芳香|ほうこう} (fragrance)
-
-Notable features:
-- Multi-sense entries: {胴体|どうたい} (2: torso + fuselage), {脅|おびや}かす (2: threaten + challenge), {脇道|わきみち} (2: side road + digression), {色合|いろあ}い (2: hue + figurative tinge), {色彩|しきさい} (2: color + character/tone)
-- Body/medical: {胃袋|いぶくろ}, {胴体|どうたい}, {腎臓|じんぞう}
-- Art/aesthetics: {色合|いろあ}い, {色彩|しきさい}, {色調|しきちょう}, {美意識|びいしき}
-- Cultural: {花吹雪|はなふぶき} (cherry blossoms), {芸人|げいにん} (comedy culture), {義務教育|ぎむきょういく}
-- Nature: {胡桃|くるみ}, {芋虫|いもむし}, {肌寒|はだざむ}い, {花吹雪|はなふぶき}
-- New kanji: 2,441 → 2,443 ({胴|どう}, {腎|じん})
-
-Total entries: 13,994 → 14,024 (approximate)
-Remaining candidates: 5,775 → 5,745 (30 removed)
 
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 340)
 Added 30 new dictionary entries (IDs 13969-13998) from candidate_words.json:
