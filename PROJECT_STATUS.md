@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,174 |
+| Total entries | ~14,204 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,375 (open) |
-| Candidate words | ~5,595 |
+| General tier | ~11,405 (open) |
+| Candidate words | ~5,565 |
 | Cross-references | ~3,400 |
-| Example sentences | ~48,600 |
+| Example sentences | ~48,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 345)
+Added 30 new dictionary entries (IDs 14119-14148) from candidate_words.json:
+
+- **Nouns (10)**: {茎|くき} (stem/stalk), {苦|くる}しみ (suffering), {行|おこな}い (behavior/deed), {荷台|にだい} (truck bed), {見覚|みおぼ}え (recognition), {親心|おやごころ} (parental love), {視界|しかい} (field of vision), {視線|しせん} (gaze), {若年|じゃくねん} (youth), {製造業|せいぞうぎょう} (manufacturing industry)
+- **Noun/suru verbs (7)**: {行政|ぎょうせい} (administration), {表記|ひょうき} (notation), {襲撃|しゅうげき} (attack/raid), {要約|ようやく} (summary), {規定|きてい} (regulation), {観戦|かんせん} (spectating), {解消|かいしょう} (elimination/resolution), {解禁|かいきん} (lifting a ban)
+- **Na-adjective (1)**: {親密|しんみつ} (intimate/close)
+- **Godan verbs (5)**: {見失|みうしな}う (to lose sight of), {見積|みつ}もる (to estimate), {見舞|みま}う (to visit sick/to strike), {見開|みひら}く (to open eyes wide), {親|した}しむ (to become familiar with)
+- **Ichidan verbs (2)**: {見捨|みす}てる (to abandon), {見据|みす}える (to stare at/keep in sight)
+- **Nouns (other) (3)**: {藩|はん} (feudal domain), {言|い}い{伝|つた}え (legend), {言|い}い{回|まわ}し (phrasing)
+- **Noun (1)**: {言動|げんどう} (words and actions)
+
+Notable features:
+- Multi-sense entries: {見舞|みま}う (2: visit sick + befall), {見据|みす}える (2: stare at + keep in sight)
+- 見- compound verbs: {見失|みうしな}う, {見捨|みす}てる, {見据|みす}える, {見積|みつ}もる, {見舞|みま}う, {見開|みひら}く, {見覚|みおぼ}え
+- Language/expression: {表記|ひょうき}, {言|い}い{伝|つた}え, {言|い}い{回|まわ}し, {言動|げんどう}, {要約|ようやく}
+- Society/law: {行政|ぎょうせい}, {規定|きてい}, {解消|かいしょう}, {解禁|かいきん}, {襲撃|しゅうげき}
+- Family/relationships: {親心|おやごころ}, {親密|しんみつ}, {親|した}しむ
+- History: {藩|はん} (feudal domain)
+- New kanji: 2,451 → 2,452 ({藩|はん})
+
+Total entries: 14,174 → 14,204 (approximate)
+Remaining candidates: 5,595 → 5,565 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 344)
 Added 30 new dictionary entries (IDs 14089-14118) from candidate_words.json:
@@ -142,28 +165,6 @@ Notable features:
 
 Total entries: 14,054 → 14,084 (approximate)
 Remaining candidates: 5,715 → 5,685 (30 removed)
-
-### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 340)
-Added 30 new dictionary entries (IDs 13969-13998) from candidate_words.json:
-
-- **Nouns (14)**: {航路|こうろ} (sea/air route), {花言葉|はなことば} (language of flowers), {腹心|ふくしん} (confidant), {自室|じしつ} (one's own room), {致命傷|ちめいしょう} (fatal wound), {義弟|ぎてい} (brother-in-law), {純文学|じゅんぶんがく} (literary fiction), {罪人|ざいにん} (criminal/sinner), {船頭|せんどう} (boatman), {花|はな}びら (flower petal), {蔵|くら} (storehouse), {蓄|たくわ}え (savings), {蓮根|れんこん} (lotus root), {落|お}ち{目|め} (decline)
-- **Noun/suru verbs (5)**: {自白|じはく} (confession), {自立|じりつ} (independence), {脱帽|だつぼう} (hats off), {苦戦|くせん} (hard fight), {興行|こうぎょう} (public performance)
-- **Noun/no-adjective (3)**: {臨床|りんしょう} (clinical), {自主|じしゅ} (independent/voluntary), {若手|わかて} (young talent)
-- **Na-adjective (2)**: {艶|あで}やか (gorgeous/elegant), {著名|ちょめい} (famous/renowned)
-- **I-adjectives (2)**: {色|いろ}っぽい (sexy/alluring), {荒々|あらあら}しい (rough/wild)
-- **Verbs (2)**: {興|きょう}じる (to enjoy, ichidan), {芽吹|めぶ}く (to bud/sprout, godan)
-- **Noun (pioneering) (1)**: {草分|くさわ}け (pioneer/trailblazer)
-
-Notable features:
-- Multi-sense entries: {脱帽|だつぼう} (2: removing hat + admiration), {致命傷|ちめいしょう} (2: fatal wound + decisive damage), {罪人|ざいにん} (2: criminal + sinner)
-- Nature/plants: {花|はな}びら, {花言葉|はなことば}, {芽吹|めぶ}く, {蓮根|れんこん}, {荒々|あらあら}しい
-- Cultural: {船頭|せんどう} (proverb), {純文学|じゅんぶんがく} (Akutagawa/Naoki Prizes), {蔵|くら} (traditional architecture), {花言葉|はなことば}
-- Legal/formal: {自白|じはく}, {罪人|ざいにん}, {臨床|りんしょう}
-- Social/career: {若手|わかて}, {自立|じりつ}, {自主|じしゅ}, {落|お}ち{目|め}, {草分|くさわ}け
-- New kanji: 2,443 → 2,444 ({蓮|れん})
-
-Total entries: 14,024 → 14,054 (approximate)
-Remaining candidates: 5,745 → 5,715 (30 removed)
 
 ---
 

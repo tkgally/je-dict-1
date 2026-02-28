@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 340)
+Added 30 new dictionary entries (IDs 13969-13998) from candidate_words.json:
+
+- **Nouns (14)**: {航路|こうろ} (sea/air route), {花言葉|はなことば} (language of flowers), {腹心|ふくしん} (confidant), {自室|じしつ} (one's own room), {致命傷|ちめいしょう} (fatal wound), {義弟|ぎてい} (brother-in-law), {純文学|じゅんぶんがく} (literary fiction), {罪人|ざいにん} (criminal/sinner), {船頭|せんどう} (boatman), {花|はな}びら (flower petal), {蔵|くら} (storehouse), {蓄|たくわ}え (savings), {蓮根|れんこん} (lotus root), {落|お}ち{目|め} (decline)
+- **Noun/suru verbs (5)**: {自白|じはく} (confession), {自立|じりつ} (independence), {脱帽|だつぼう} (hats off), {苦戦|くせん} (hard fight), {興行|こうぎょう} (public performance)
+- **Noun/no-adjective (3)**: {臨床|りんしょう} (clinical), {自主|じしゅ} (independent/voluntary), {若手|わかて} (young talent)
+- **Na-adjective (2)**: {艶|あで}やか (gorgeous/elegant), {著名|ちょめい} (famous/renowned)
+- **I-adjectives (2)**: {色|いろ}っぽい (sexy/alluring), {荒々|あらあら}しい (rough/wild)
+- **Verbs (2)**: {興|きょう}じる (to enjoy, ichidan), {芽吹|めぶ}く (to bud/sprout, godan)
+- **Noun (pioneering) (1)**: {草分|くさわ}け (pioneer/trailblazer)
+
+Notable features:
+- Multi-sense entries: {脱帽|だつぼう} (2: removing hat + admiration), {致命傷|ちめいしょう} (2: fatal wound + decisive damage), {罪人|ざいにん} (2: criminal + sinner)
+- Nature/plants: {花|はな}びら, {花言葉|はなことば}, {芽吹|めぶ}く, {蓮根|れんこん}, {荒々|あらあら}しい
+- Cultural: {船頭|せんどう} (proverb), {純文学|じゅんぶんがく} (Akutagawa/Naoki Prizes), {蔵|くら} (traditional architecture), {花言葉|はなことば}
+- Legal/formal: {自白|じはく}, {罪人|ざいにん}, {臨床|りんしょう}
+- Social/career: {若手|わかて}, {自立|じりつ}, {自主|じしゅ}, {落|お}ち{目|め}, {草分|くさわ}け
+- New kanji: 2,443 → 2,444 ({蓮|れん})
+
+Total entries: 14,024 → 14,054 (approximate)
+Remaining candidates: 5,745 → 5,715 (30 removed)
+
 ### 2026-02-27 (Vocabulary Expansion - 30 New Entries, Session 339)
 Added 30 new dictionary entries (IDs 13939-13968) from candidate_words.json:
 
