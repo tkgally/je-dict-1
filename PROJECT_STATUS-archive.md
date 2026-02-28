@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 348)
+Added 30 new dictionary entries (IDs 14209-14238) from candidate_words.json:
+
+- **Noun/suru verbs (8)**: {誘惑|ゆうわく} (temptation), {誘拐|ゆうかい} (kidnapping), {説教|せっきょう} (sermon/lecture), {説得|せっとく} (persuasion), {談笑|だんしょう} (chatting and laughing), {警戒|けいかい} (vigilance), {護衛|ごえい} (escort/bodyguard), {負荷|ふか} (load/burden)
+- **Godan verbs (6)**: {誤魔化|ごまか}す (to deceive/gloss over), {見返|みかえ}す (to look back/get even), {解|と}き{放|はな}つ (to set free), {諭|さと}す (to admonish), {賑|にぎ}わう (to be bustling), {記|しる}す (to write down)
+- **Ichidan verb (1)**: {設|もう}ける (to establish/set up)
+- **Na-adjectives (2)**: {誠実|せいじつ} (sincere), {豪快|ごうかい} (bold/hearty)
+- **Nouns (13)**: {語彙|ごい} (vocabulary), {語源|ごげん} (etymology), {読|よ}み{物|もの} (reading material), {試|こころ}み (attempt/trial), {豆乳|とうにゅう} (soy milk), {豊作|ほうさく} (bountiful harvest), {豚汁|とんじる} (pork miso soup), {負|お}い{目|め} (sense of guilt), {財閥|ざいばつ} (zaibatsu), {賛否|さんぴ} (pros and cons), {賞金|しょうきん} (prize money), {複数|ふくすう} (plural/multiple), {要件|ようけん} (requirement)
+
+Notable features:
+- Multi-sense entries: {誘惑|ゆうわく} (2: temptation + seduction), {誤魔化|ごまか}す (2: deceive + gloss over), {説教|せっきょう} (2: sermon + scolding), {見返|みかえ}す (2: look back + get even), {解|と}き{放|はな}つ (2: physical + figurative release), {要件|ようけん} (2: requirement + business matter)
+- Communication: {説教|せっきょう}, {説得|せっとく}, {諭|さと}す, {談笑|だんしょう}, {記|しる}す
+- Language/education: {語彙|ごい}, {語源|ごげん}, {読|よ}み{物|もの}, {複数|ふくすう}
+- Food: {豆乳|とうにゅう}, {豚汁|とんじる}, {豊作|ほうさく}
+- Society/business: {財閥|ざいばつ}, {賛否|さんぴ}, {賞金|しょうきん}, {要件|ようけん}
+- New kanji: 2,455 → 2,458 ({拐|かい}, {諭|ゆ}, {閥|ばつ})
+
+Total entries: 14,264 → 14,294 (approximate)
+Remaining candidates: 5,505 → 5,475 (30 removed)
+
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 347)
 Added 30 new dictionary entries (IDs 14179-14208) from candidate_words.json:
 
