@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,504 |
+| Total entries | ~14,534 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,705 (open) |
-| Candidate words | ~5,265 |
+| General tier | ~11,735 (open) |
+| Candidate words | ~5,235 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 356)
+Added 30 new dictionary entries (IDs 14449-14478) from candidate_words.json:
+
+- **Godan verbs (5)**: {連|つら}なる (to stretch in a row), {釣|つ}り{合|あ}う (to be balanced), {鈍|にぶ}る (to become dull), {長引|ながび}く (to drag on), {酔|よ}い{潰|つぶ}れる (to pass out drunk — ichidan)
+- **Ichidan verb (1)**: {鑑|かんが}みる (to consider, in light of)
+- **Noun/suru verbs (5)**: {連合|れんごう} (union/alliance), {選定|せんてい} (selection/designation), {進級|しんきゅう} (grade promotion), {長持|ながも}ち (long-lasting), {配役|はいやく} (casting)
+- **Nouns (13)**: {道化|どうけ} (clown/buffoon), {謀反|むほん} (rebellion), {邦楽|ほうがく} (Japanese music), {部位|ぶい} (body part/site), {酢飯|すめし} (sushi rice), {醜聞|しゅうぶん} (scandal), {里芋|さといも} (taro), {野良犬|のらいぬ} (stray dog), {野郎|やろう} (guy/bastard), {金貨|きんか} (gold coin), {釘付|くぎづ}け (riveted/captivated), {鉄板|てっぱん} (iron plate/sure thing), {銅像|どうぞう} (bronze statue)
+- **Nouns (other) (3)**: {鉢巻|はちまき} (headband), {長編|ちょうへん} (full-length work), {長寿|ちょうじゅ} (longevity)
+- **Na-adjectives (2)**: {足早|あしばや} (brisk pace), {邪険|じゃけん} (harsh treatment)
+- **Na-adjective (1)**: {重厚|じゅうこう} (stately/dignified)
+
+Notable features:
+- Multi-sense entries: {鈍|にぶ}る (2: dull blade + weakened skills), {道化|どうけ} (2: person + act), {釘付|くぎづ}け (2: captivated + nailed down), {鉄板|てっぱん} (2: iron plate + sure thing), {野郎|やろう} (2: guy + bastard), {連|つら}なる (2: lined up + attend)
+- Food/culture: {酢飯|すめし}, {里芋|さといも}, {邦楽|ほうがく}, {鉢巻|はちまき}, {長寿|ちょうじゅ}
+- Daily life: {長引|ながび}く, {長持|ながも}ち, {足早|あしばや}, {野良犬|のらいぬ}, {野郎|やろう}
+- Formal/literary: {鑑|かんが}みる, {醜聞|しゅうぶん}, {選定|せんてい}, {謀反|むほん}
+- New kanji: 2,474 → 2,475 ({邦|ほう})
+
+Total entries: 14,504 → 14,534 (approximate)
+Remaining candidates: 5,265 → 5,235 (30 removed)
 
 ### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 355)
 Added 30 new dictionary entries (IDs 14419-14448) from candidate_words.json:
@@ -132,26 +153,6 @@ Notable features:
 
 Total entries: 14,384 → 14,414 (approximate)
 Remaining candidates: 5,385 → 5,355 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 351)
-Added 30 new dictionary entries (IDs 14299-14328) from candidate_words.json:
-
-- **Nouns (14)**: {跡継|あとつ}ぎ (successor), {身|み}なり (appearance), {身代金|みのしろきん} (ransom), {軸|じく} (axis/core/scroll), {轟音|ごうおん} (thunderous roar), {迫力|はくりょく} (force/impact), {逆効果|ぎゃくこうか} (counterproductive), {逸話|いつわ} (anecdote), {道場|どうじょう} (dojo), {近況|きんきょう} (recent situation), {連日|れんじつ} (day after day), {進路|しんろ} (course/career path)
-- **Noun/suru verbs (7)**: {転倒|てんとう} (falling over/reversal), {軽視|けいし} (disregard), {購買|こうばい} (purchasing), {追悼|ついとう} (mourning), {追放|ついほう} (banishment), {退治|たいじ} (extermination), {通報|つうほう} (report/notification), {速報|そくほう} (breaking news), {連載|れんさい} (serialization), {過労死|かろうし} (death from overwork)
-- **Godan verbs (3)**: {貸|か}し{出|だ}す (to lend out), {透|す}き{通|とお}る (to be transparent)
-- **Ichidan verbs (3)**: {貶|おとし}める (to disparage), {追|お}い{詰|つ}める (to corner), {途絶|とだ}える (to cease), {遂|と}げる (to accomplish)
-- **Na-adjective (1)**: {過激|かげき} (radical/extreme)
-- **Multi-sense entries (2)**: {身内|みうち} (2: family + inner circle), {転倒|てんとう} (2: toppling + reversal), {軸|じく} (3: axis + core + scroll), {進路|しんろ} (2: route + career path)
-
-Notable features:
-- Multi-sense entries: {身内|みうち}, {転倒|てんとう}, {軸|じく} (3 senses), {進路|しんろ}
-- Culture: {道場|どうじょう} (martial arts), {退治|たいじ} (Momotaro folklore), {過労死|かろうし} (social issue)
-- Media: {連載|れんさい} (manga culture), {速報|そくほう} (news), {通報|つうほう}
-- Society: {過労死|かろうし}, {追放|ついほう}, {軽視|けいし}, {過激|かげき}
-- New kanji: 2,465 → 2,467 ({貶|おとし}, {轟|とどろき})
-
-Total entries: 14,354 → 14,384 (approximate)
-Remaining candidates: 5,415 → 5,385 (30 removed)
 
 ---
 
