@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,534 |
+| Total entries | ~14,564 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,735 (open) |
-| Candidate words | ~5,235 |
+| General tier | ~11,765 (open) |
+| Candidate words | ~5,205 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 357)
+Added 30 new dictionary entries (IDs 14479-14508) from candidate_words.json:
+
+- **Nouns (20)**: {背脂|せあぶら} (back fat/ramen topping), {行司|ぎょうじ} (sumo referee), {良書|りょうしょ} (good book), {署員|しょいん} (station staff), {追|お}っ{手|て} (pursuer), {送|おく}り{火|び} (Obon farewell fire), {通商|つうしょう} (trade/commerce), {通年|つうねん} (year-round), {連峰|れんぽう} (mountain range), {選抜|せんばつ} (selection), {配分|はいぶん} (allocation), {重曹|じゅうそう} (baking soda), {野鳥|やちょう} (wild bird), {金平糖|こんぺいとう} (konpeito candy), {鉢合|はちあ}わせ (running into someone), {金物|かなもの} (hardware/ironware), {鉄壁|てっぺき} (iron wall), {銭|ぜに} (money/coin), {野草|やそう} (wild plant), {配下|はいか} (subordinate)
+- **Multi-sense noun (2)**: {銘柄|めいがら} (brand + stock issue), {重|おも}み (weight + significance)
+- **Na-adjective (1)**: {鋭敏|えいびん} (keen/acute)
+- **Expressions (1)**: {諸行無常|しょぎょうむじょう} (all things are impermanent)
+- **Nouns (other) (6)**: {謀略|ぼうりゃく} (stratagem), {襟首|えりくび} (scruff of neck), {輪廻|りんね} (cycle of rebirth), {連立|れんりつ} (coalition), {進撃|しんげき} (advance/charge), {都道府県|とどうふけん} (prefectures)
+
+Notable features:
+- Multi-sense entries: {銘柄|めいがら} (2: brand + stock), {重|おも}み (2: physical weight + significance)
+- Food/culture: {背脂|せあぶら}, {金平糖|こんぺいとう}, {重曹|じゅうそう}, {送|おく}り{火|び}, {行司|ぎょうじ}
+- Nature: {野鳥|やちょう}, {野草|やそう}, {連峰|れんぽう}
+- Politics/economics: {連立|れんりつ}, {通商|つうしょう}, {配分|はいぶん}, {銘柄|めいがら}, {選抜|せんばつ}
+- Philosophy/religion: {諸行無常|しょぎょうむじょう}, {輪廻|りんね}
+- New kanji: 2,475 → 2,478 ({峰|ほう}, {廻|かい}, {曹|そう})
+
+Total entries: 14,534 → 14,564 (approximate)
+Remaining candidates: 5,235 → 5,205 (30 removed)
 
 ### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 356)
 Added 30 new dictionary entries (IDs 14449-14478) from candidate_words.json:
@@ -132,27 +152,6 @@ Notable features:
 
 Total entries: 14,414 → 14,444 (approximate)
 Remaining candidates: 5,355 → 5,325 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 352)
-Added 30 new dictionary entries (IDs 14329-14358) from candidate_words.json:
-
-- **Nouns (12)**: {蕎麦|そば} (soba noodles), {語|かた}り{口|くち} (narrative style), {美酒|びしゅ} (fine wine/sake), {美少女|びしょうじょ} (beautiful girl), {見本市|みほんいち} (trade fair), {踊|おど}り{子|こ} (dancer), {諸島|しょとう} (archipelago), {軌跡|きせき} (trajectory), {近郊|きんこう} (suburbs), {農地|のうち} (farmland), {辺境|へんきょう} (frontier), {聞|き}き{捨|す}て (ignoring what one hears)
-- **Noun/suru verbs (7)**: {肥大|ひだい} (enlargement), {蔑視|べっし} (contempt), {虐殺|ぎゃくさつ} (massacre), {転生|てんせい} (reincarnation), {返信|へんしん} (reply), {退場|たいじょう} (exit/ejection), {返還|へんかん} (return/restitution)
-- **Nouns (other) (4)**: {自己満|じこまん} (self-satisfaction), {迷宮|めいきゅう} (labyrinth), {追|お}い{風|かぜ} (tailwind), {近年|きんねん} (recent years)
-- **Verbs (3)**: {読|よ}みふける (to be absorbed in reading), {解|と}きほぐす (to unravel/ease), {訴|うった}えかける (to appeal to)
-- **Verb-suru (1)**: {要|よう}する (to require)
-- **Na-adjective (2)**: {身勝手|みがって} (selfish), {軟弱|なんじゃく} (weak/spineless)
-- **I-adjective (1)**: {軽症|けいしょう} (mild case)
-
-Notable features:
-- Multi-sense entries: {肥大|ひだい} (2: medical + figurative), {解|と}きほぐす (2: physical + emotional), {迷宮|めいきゅう} (2: labyrinth + cold case), {追|お}い{風|かぜ} (2: literal + figurative), {退場|たいじょう} (2: exit + ejection), {軌跡|きせき} (2: trajectory + track record), {軟弱|なんじゃく} (2: physical + character)
-- Food: {蕎麦|そば} (soba noodles), {美酒|びしゅ} (fine sake)
-- Culture/media: {美少女|びしょうじょ} (anime), {転生|てんせい} (isekai genre), {踊|おど}り{子|こ} (Kawabata), {迷宮|めいきゅう} (gaming/detective)
-- Geography: {諸島|しょとう}, {農地|のうち}, {辺境|へんきょう}, {近郊|きんこう}
-- New kanji: 2,467 → 2,468 ({蕎|きょう})
-
-Total entries: 14,384 → 14,414 (approximate)
-Remaining candidates: 5,385 → 5,355 (30 removed)
 
 ---
 
