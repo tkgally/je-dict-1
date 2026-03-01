@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-02-28
+**Last updated**: 2026-03-01
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,444 |
+| Total entries | ~14,474 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,645 (open) |
-| Candidate words | ~5,325 |
+| General tier | ~11,675 (open) |
+| Candidate words | ~5,295 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 354)
+Added 30 new dictionary entries (IDs 14389-14418) from candidate_words.json:
+
+- **Noun/suru verbs (10)**: {転用|てんよう} (repurposing), {転移|てんい} (metastasis/transference), {転身|てんしん} (career change), {輩出|はいしゅつ} (producing talent), {起用|きよう} (appointment), {返上|へんじょう} (forfeiture), {追求|ついきゅう} (pursuit), {配置|はいち} (placement), {配布|はいふ} (distribution), {逃走|とうそう} (escape)
+- **Nouns (11)**: {語|かた}り (narration), {軍事|ぐんじ} (military affairs), {軍艦|ぐんかん} (warship), {近世|きんせい} (early modern period), {通称|つうしょう} (common name), {部門|ぶもん} (department), {郷土|きょうど} (homeland), {都度|つど} (each time), {酵素|こうそ} (enzyme), {重点|じゅうてん} (emphasis), {選択肢|せんたくし} (option)
+- **Na-adjective (1)**: {辺鄙|へんぴ} (remote)
+- **Nouns (other) (4)**: {醍醐味|だいごみ} (true delight), {重傷|じゅうしょう} (serious injury), {野原|のはら} (field/meadow), {遺産|いさん} (heritage/inheritance)
+- **Godan verb (1)**: {醸|かも}し{出|だ}す (to create atmosphere)
+- **Noun/na-adj/suru verb (1)**: {重宝|ちょうほう} (useful/handy)
+- **Godan verb (1)**: {見合|みあ}う (to be proportionate)
+- **Noun/suru verb (1)**: {退散|たいさん} (dispersal)
+
+Notable features:
+- Multi-sense entries: {見合|みあ}う (2: proportionate + look at each other), {転移|てんい} (2: metastasis + transference), {遺産|いさん} (2: inheritance + heritage), {重宝|ちょうほう} (2: useful + treasure)
+- Military/history: {軍事|ぐんじ}, {軍艦|ぐんかん}, {近世|きんせい}, {返上|へんじょう}
+- Business/work: {起用|きよう}, {転身|てんしん}, {部門|ぶもん}, {配置|はいち}, {配布|はいふ}
+- Science/medicine: {酵素|こうそ}, {転移|てんい}, {重傷|じゅうしょう}
+- Culture: {醍醐味|だいごみ} (Buddhist origin), {醸|かも}し{出|だ}す (brewing metaphor), {郷土|きょうど}
+- New kanji: 2,470 → 2,474 ({肢|し}, {鄙|ひ}, {醍|だい}, {醐|ご})
+
+Total entries: 14,444 → 14,474 (approximate)
+Remaining candidates: 5,325 → 5,295 (30 removed)
 
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 353)
 Added 30 new dictionary entries (IDs 14359-14388) from candidate_words.json:
@@ -133,26 +156,6 @@ Notable features:
 
 Total entries: 14,324 → 14,354 (approximate)
 Remaining candidates: 5,445 → 5,415 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 349)
-Added 30 new dictionary entries (IDs 14239-14268) from candidate_words.json:
-
-- **Noun/suru verbs (6)**: {解毒|げどく} (detoxification), {誘発|ゆうはつ} (inducement), {誹謗|ひぼう} (slander), {調停|ちょうてい} (mediation), {調印|ちょういん} (signing), {賛同|さんどう} (agreement)
-- **Godan verbs (7)**: {見出|みいだ}す (to discover), {語|かた}らう (to converse), {説|と}く (to preach), {読|よ}み{解|と}く (to interpret), {読|よ}み{込|こ}む (to load), {覆|おお}い{隠|かく}す (to conceal), {赴|おもむ}く (to proceed)
-- **Ichidan verb (1)**: {見|み}せつける (to show off)
-- **Nouns (14)**: {荷車|にぐるま} (cart), {語尾|ごび} (word ending), {諜報|ちょうほう} (espionage), {諸々|もろもろ} (various), {負|ま}け{犬|いぬ} (loser), {賃上|ちんあ}げ (wage increase), {賢者|けんじゃ} (sage), {赤子|あかご} (baby), {走行|そうこう} (vehicle running), {起業家|きぎょうか} (entrepreneur), {起因|きいん} (cause), {谷底|たにそこ} (valley bottom), {蒸|む}し (steaming), {訪|おとず}れ (visit/advent)
-- **Noun/suffix (1)**: {術|じゅつ} (technique/art)
-- **Noun (1)**: {言|い}い{合|あ}い (argument)
-
-Notable features:
-- Multi-sense entries: {見出|みいだ}す (2: discover + find meaning), {説|と}く (2: expound + advocate), {読|よ}み{込|こ}む (2: load data + read thoroughly), {負|ま}け{犬|いぬ} (2: loser + underdog), {術|じゅつ} (2: technique + means), {訪|おとず}れ (2: visit + arrival)
-- Communication: {語|かた}らう, {語尾|ごび}, {説|と}く, {誹謗|ひぼう}, {賛同|さんどう}, {言|い}い{合|あ}い
-- Legal/formal: {調停|ちょうてい}, {調印|ちょういん}, {起因|きいん}, {誹謗|ひぼう}
-- Business/work: {賃上|ちんあ}げ, {起業家|きぎょうか}, {走行|そうこう}
-- New kanji: 2,458 → 2,461 ({誹|ひ}, {諜|ちょう}, {謗|ぼう})
-
-Total entries: 14,294 → 14,324 (approximate)
-Remaining candidates: 5,475 → 5,445 (30 removed)
 
 ---
 
