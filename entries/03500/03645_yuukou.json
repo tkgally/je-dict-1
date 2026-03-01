@@ -19,6 +19,16 @@
   "examples": [
     {
       "id": "03645_yuukou_ex1",
+      "japanese": "この{切符|きっぷ}はまだ{有効|ゆうこう}だ。",
+      "english": "This ticket is still valid.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03645_yuukou_ex2",
       "japanese": "このクーポンは{来月|らいげつ}まで{有効|ゆうこう}です。",
       "english": "This coupon is valid until next month.",
       "notes": null,
@@ -28,9 +38,39 @@
       ]
     },
     {
-      "id": "03645_yuukou_ex2",
-      "japanese": "{時間|じかん}を{有効|ゆうこう}に{使|つか}いましょう。",
-      "english": "Let's use our time effectively.",
+      "id": "03645_yuukou_ex3",
+      "japanese": "パスポートの{有効|ゆうこう}{期限|きげん}を{確認|かくにん}してください。",
+      "english": "Please check the expiration date of your passport.",
+      "notes": "有効期限 = expiration date (literally: validity period)",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03645_yuukou_ex4",
+      "japanese": "{契約|けいやく}は{来年|らいねん}の{三月|さんがつ}まで{有効|ゆうこう}なので、それまでに{更新|こうしん}する{必要|ひつよう}がある。",
+      "english": "The contract is valid until next March, so it needs to be renewed by then.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03645_yuukou_ex5",
+      "japanese": "この{割引|わりびき}カードは{発行|はっこう}から{一年間|いちねんかん}{有効|ゆうこう}で、{期限|きげん}が{切|き}れたら{自動的|じどうてき}に{無効|むこう}になる。",
+      "english": "This discount card is valid for one year from issue, and becomes invalid automatically when it expires.",
+      "notes": "無効 = invalid (opposite of 有効)",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03645_yuukou_ex6",
+      "japanese": "{有効|ゆうこう}な{方法|ほうほう}を{考|かんが}える。",
+      "english": "To think of an effective method.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -38,10 +78,40 @@
       ]
     },
     {
-      "id": "03645_yuukou_ex3",
+      "id": "03645_yuukou_ex7",
+      "japanese": "{時間|じかん}を{有効|ゆうこう}に{使|つか}いましょう。",
+      "english": "Let's use our time effectively.",
+      "notes": "有効に使う = to use effectively",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "03645_yuukou_ex8",
       "japanese": "この{方法|ほうほう}は{有効|ゆうこう}だと{思|おも}う。",
       "english": "I think this method is effective.",
       "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "03645_yuukou_ex9",
+      "japanese": "{運動|うんどう}は{健康|けんこう}を{保|たも}つために{有効|ゆうこう}な{手段|しゅだん}の{一|ひと}つだ。",
+      "english": "Exercise is one of the effective means of maintaining health.",
+      "notes": "有効な手段 = effective means",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "03645_yuukou_ex10",
+      "japanese": "{限|かぎ}られた{資源|しげん}を{有効|ゆうこう}{活用|かつよう}するために、リサイクルが{大切|たいせつ}だと{言|い}われている。",
+      "english": "It is said that recycling is important in order to make effective use of limited resources.",
+      "notes": "有効活用 = effective utilization",
       "has_audio": false,
       "sense_numbers": [
         2
@@ -51,7 +121,7 @@
   "notes": "USAGE: {有効|ゆうこう} is used for both (1) validity of documents, tickets, etc., and (2) effectiveness of methods, measures, etc.\n\nCOMMON PATTERNS:\n・{有効|ゆうこう}{期限|きげん} (expiration date)\n・{有効|ゆうこう}に{使|つか}う (to use effectively)\n・{有効|ゆうこう}な{手段|しゅだん} (effective means)\n・{有効|ゆうこう}{活用|かつよう} (effective utilization)\n\nCONTRAST:\n・{無効|むこう} - invalid, ineffective\n\nNOTE: Do not confuse with {友好|ゆうこう} (friendship), which has the same reading.",
   "metadata": {
     "created": "2026-01-12T16:03:00Z",
-    "modified": "2026-01-19T12:17:42.444410Z",
+    "modified": "2026-03-01T07:05:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
