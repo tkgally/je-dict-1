@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 351)
+Added 30 new dictionary entries (IDs 14299-14328) from candidate_words.json:
+
+- **Nouns (14)**: {跡継|あとつ}ぎ (successor), {身|み}なり (appearance), {身代金|みのしろきん} (ransom), {軸|じく} (axis/core/scroll), {轟音|ごうおん} (thunderous roar), {迫力|はくりょく} (force/impact), {逆効果|ぎゃくこうか} (counterproductive), {逸話|いつわ} (anecdote), {道場|どうじょう} (dojo), {近況|きんきょう} (recent situation), {連日|れんじつ} (day after day), {進路|しんろ} (course/career path)
+- **Noun/suru verbs (7)**: {転倒|てんとう} (falling over/reversal), {軽視|けいし} (disregard), {購買|こうばい} (purchasing), {追悼|ついとう} (mourning), {追放|ついほう} (banishment), {退治|たいじ} (extermination), {通報|つうほう} (report/notification), {速報|そくほう} (breaking news), {連載|れんさい} (serialization), {過労死|かろうし} (death from overwork)
+- **Godan verbs (3)**: {貸|か}し{出|だ}す (to lend out), {透|す}き{通|とお}る (to be transparent)
+- **Ichidan verbs (3)**: {貶|おとし}める (to disparage), {追|お}い{詰|つ}める (to corner), {途絶|とだ}える (to cease), {遂|と}げる (to accomplish)
+- **Na-adjective (1)**: {過激|かげき} (radical/extreme)
+- **Multi-sense entries (2)**: {身内|みうち} (2: family + inner circle), {転倒|てんとう} (2: toppling + reversal), {軸|じく} (3: axis + core + scroll), {進路|しんろ} (2: route + career path)
+
+Notable features:
+- Multi-sense entries: {身内|みうち}, {転倒|てんとう}, {軸|じく} (3 senses), {進路|しんろ}
+- Culture: {道場|どうじょう} (martial arts), {退治|たいじ} (Momotaro folklore), {過労死|かろうし} (social issue)
+- Media: {連載|れんさい} (manga culture), {速報|そくほう} (news), {通報|つうほう}
+- Society: {過労死|かろうし}, {追放|ついほう}, {軽視|けいし}, {過激|かげき}
+- New kanji: 2,465 → 2,467 ({貶|おとし}, {轟|とどろき})
+
+Total entries: 14,354 → 14,384 (approximate)
+Remaining candidates: 5,415 → 5,385 (30 removed)
+
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 350)
 Added 30 new dictionary entries (IDs 14269-14298) from candidate_words.json:
 
