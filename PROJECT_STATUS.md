@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,474 |
+| Total entries | ~14,504 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,675 (open) |
-| Candidate words | ~5,295 |
+| General tier | ~11,705 (open) |
+| Candidate words | ~5,265 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 355)
+Added 30 new dictionary entries (IDs 14419-14448) from candidate_words.json:
+
+- **Noun/suru verbs (11)**: {逃避|とうひ} (escape/evasion), {連動|れんどう} (linkage), {連帯|れんたい} (solidarity), {遠出|とおで} (excursion), {遠吠|とおぼ}え (howling), {醸造|じょうぞう} (brewing), {量産|りょうさん} (mass production), {配列|はいれつ} (arrangement/array), {選出|せんしゅつ} (selection/election), {遊|あそ}び{心|ごころ} (playfulness — noun only), {金欠|きんけつ} (being broke — noun only)
+- **Na-adjective (1)**: {過密|かみつ} (overcrowding)
+- **Verbs (5)**: {通|とお}り{抜|ぬ}ける (to pass through — ichidan), {透|す}かす (to hold up to light — godan), {遠|とお}のく (to recede — godan), {酔|よ}う (to get drunk — godan), {重|おも}んじる (to value — ichidan)
+- **Nouns (13)**: {過渡期|かとき} (transitional period), {途上国|とじょうこく} (developing country), {道中|どうちゅう} (during a journey), {道程|みちのり} (distance/journey), {選手権|せんしゅけん} (championship), {遺体|いたい} (corpse/remains), {邸宅|ていたく} (mansion), {部族|ぶぞく} (tribe), {酒屋|さかや} (liquor store), {野生|やせい} (wild/wildlife), {野良猫|のらねこ} (stray cat), {金髪|きんぱつ} (blonde hair), {重|おも}さ (weight/heaviness)
+
+Notable features:
+- Multi-sense entries: {透|す}かす (2: hold to light + thin out), {酔|よ}う (3: drunk + motion sick + entranced), {連帯|れんたい} (2: solidarity + joint liability), {道程|みちのり} (2: distance + figurative path), {重|おも}さ (2: physical weight + significance), {配列|はいれつ} (2: arrangement + array), {遠吠|とおぼ}え (2: howling + empty threats)
+- Daily life: {酒屋|さかや}, {野良猫|のらねこ}, {金欠|きんけつ}, {金髪|きんぱつ}, {遠出|とおで}
+- Society/politics: {途上国|とじょうこく}, {連帯|れんたい}, {選出|せんしゅつ}, {過渡期|かとき}
+- Business/tech: {量産|りょうさん}, {連動|れんどう}, {配列|はいれつ}
+
+Total entries: 14,474 → 14,504 (approximate)
+Remaining candidates: 5,295 → 5,265 (30 removed)
 
 ### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 354)
 Added 30 new dictionary entries (IDs 14389-14418) from candidate_words.json:
@@ -135,27 +152,6 @@ Notable features:
 
 Total entries: 14,354 → 14,384 (approximate)
 Remaining candidates: 5,415 → 5,385 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 350)
-Added 30 new dictionary entries (IDs 14269-14298) from candidate_words.json:
-
-- **Nouns (18)**: {読|よ}み{方|かた} (way of reading), {詰|つ}め{込|こ}み (cramming), {語|かた}り{手|て} (narrator), {覆|おお}い (cover), {見落|みお}とし (oversight), {豆|まめ}まき (bean-throwing), {語順|ごじゅん} (word order), {跡取|あとと}り (heir), {跡地|あとち} (former site), {路面電車|ろめんでんしゃ} (streetcar), {身代|みが}わり (substitute), {身|み}だしなみ (grooming), {身|み}の{丈|たけ} (stature/means), {転機|てんき} (turning point), {辛味|からみ} (spiciness), {辻褄|つじつま} (consistency), {輪郭|りんかく} (outline), {足湯|あしゆ} (foot bath), {軽自動車|けいじどうしゃ} (kei car)
-- **Noun/suru verbs (3)**: {賞賛|しょうさん} (praise), {踏襲|とうしゅう} (following precedent), {身震|みぶる}い (shudder), {転嫁|てんか} (shifting blame)
-- **Godan verbs (2)**: {解|と}き{明|あ}かす (to elucidate), {踏|ふ}み{出|だ}す (to step forward)
-- **Ichidan verb (1)**: {表|あらわ}れる (to manifest)
-- **Na-adjectives (2)**: {迅速|じんそく} (swift), {軽|かる}やか (light/nimble)
-- **Noun (multi-sense) (4)**: {走馬灯|そうまとう} (2: lantern + flashback), {軒並|のきな}み (2: row of houses + across the board), {身|み}の{丈|たけ} (2: height + means), {輪郭|りんかく} (2: outline + framework)
-
-Notable features:
-- Multi-sense entries: {読|よ}み{方|かた} (2: reading + interpretation), {踏|ふ}み{出|だ}す (2: physical + figurative), {転嫁|てんか} (2: blame + costs), {走馬灯|そうまとう} (2: lantern + flashback)
-- 身- compounds: {身代|みが}わり, {身|み}だしなみ, {身|み}の{丈|たけ}, {身震|みぶる}い
-- Culture: {豆|まめ}まき (Setsubun), {足湯|あしゆ} (hot spring foot bath), {軽自動車|けいじどうしゃ} (kei car), {走馬灯|そうまとう}
-- Language/education: {読|よ}み{方|かた}, {語順|ごじゅん}, {語|かた}り{手|て}
-- Food: {辛味|からみ}
-- New kanji: 2,461 → 2,465 ({褄|つま}, {辻|つじ}, {迅|じん}, {郭|かく})
-
-Total entries: 14,324 → 14,354 (approximate)
-Remaining candidates: 5,445 → 5,415 (30 removed)
 
 ---
 

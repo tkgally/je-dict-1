@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 350)
+Added 30 new dictionary entries (IDs 14269-14298) from candidate_words.json:
+
+- **Nouns (18)**: {読|よ}み{方|かた} (way of reading), {詰|つ}め{込|こ}み (cramming), {語|かた}り{手|て} (narrator), {覆|おお}い (cover), {見落|みお}とし (oversight), {豆|まめ}まき (bean-throwing), {語順|ごじゅん} (word order), {跡取|あとと}り (heir), {跡地|あとち} (former site), {路面電車|ろめんでんしゃ} (streetcar), {身代|みが}わり (substitute), {身|み}だしなみ (grooming), {身|み}の{丈|たけ} (stature/means), {転機|てんき} (turning point), {辛味|からみ} (spiciness), {辻褄|つじつま} (consistency), {輪郭|りんかく} (outline), {足湯|あしゆ} (foot bath), {軽自動車|けいじどうしゃ} (kei car)
+- **Noun/suru verbs (3)**: {賞賛|しょうさん} (praise), {踏襲|とうしゅう} (following precedent), {身震|みぶる}い (shudder), {転嫁|てんか} (shifting blame)
+- **Godan verbs (2)**: {解|と}き{明|あ}かす (to elucidate), {踏|ふ}み{出|だ}す (to step forward)
+- **Ichidan verb (1)**: {表|あらわ}れる (to manifest)
+- **Na-adjectives (2)**: {迅速|じんそく} (swift), {軽|かる}やか (light/nimble)
+- **Noun (multi-sense) (4)**: {走馬灯|そうまとう} (2: lantern + flashback), {軒並|のきな}み (2: row of houses + across the board), {身|み}の{丈|たけ} (2: height + means), {輪郭|りんかく} (2: outline + framework)
+
+Notable features:
+- Multi-sense entries: {読|よ}み{方|かた} (2: reading + interpretation), {踏|ふ}み{出|だ}す (2: physical + figurative), {転嫁|てんか} (2: blame + costs), {走馬灯|そうまとう} (2: lantern + flashback)
+- 身- compounds: {身代|みが}わり, {身|み}だしなみ, {身|み}の{丈|たけ}, {身震|みぶる}い
+- Culture: {豆|まめ}まき (Setsubun), {足湯|あしゆ} (hot spring foot bath), {軽自動車|けいじどうしゃ} (kei car), {走馬灯|そうまとう}
+- Language/education: {読|よ}み{方|かた}, {語順|ごじゅん}, {語|かた}り{手|て}
+- Food: {辛味|からみ}
+- New kanji: 2,461 → 2,465 ({褄|つま}, {辻|つじ}, {迅|じん}, {郭|かく})
+
+Total entries: 14,324 → 14,354 (approximate)
+Remaining candidates: 5,445 → 5,415 (30 removed)
+
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 349)
 Added 30 new dictionary entries (IDs 14239-14268) from candidate_words.json:
 
