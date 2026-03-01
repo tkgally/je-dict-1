@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 349)
+Added 30 new dictionary entries (IDs 14239-14268) from candidate_words.json:
+
+- **Noun/suru verbs (6)**: {解毒|げどく} (detoxification), {誘発|ゆうはつ} (inducement), {誹謗|ひぼう} (slander), {調停|ちょうてい} (mediation), {調印|ちょういん} (signing), {賛同|さんどう} (agreement)
+- **Godan verbs (7)**: {見出|みいだ}す (to discover), {語|かた}らう (to converse), {説|と}く (to preach), {読|よ}み{解|と}く (to interpret), {読|よ}み{込|こ}む (to load), {覆|おお}い{隠|かく}す (to conceal), {赴|おもむ}く (to proceed)
+- **Ichidan verb (1)**: {見|み}せつける (to show off)
+- **Nouns (14)**: {荷車|にぐるま} (cart), {語尾|ごび} (word ending), {諜報|ちょうほう} (espionage), {諸々|もろもろ} (various), {負|ま}け{犬|いぬ} (loser), {賃上|ちんあ}げ (wage increase), {賢者|けんじゃ} (sage), {赤子|あかご} (baby), {走行|そうこう} (vehicle running), {起業家|きぎょうか} (entrepreneur), {起因|きいん} (cause), {谷底|たにそこ} (valley bottom), {蒸|む}し (steaming), {訪|おとず}れ (visit/advent)
+- **Noun/suffix (1)**: {術|じゅつ} (technique/art)
+- **Noun (1)**: {言|い}い{合|あ}い (argument)
+
+Notable features:
+- Multi-sense entries: {見出|みいだ}す (2: discover + find meaning), {説|と}く (2: expound + advocate), {読|よ}み{込|こ}む (2: load data + read thoroughly), {負|ま}け{犬|いぬ} (2: loser + underdog), {術|じゅつ} (2: technique + means), {訪|おとず}れ (2: visit + arrival)
+- Communication: {語|かた}らう, {語尾|ごび}, {説|と}く, {誹謗|ひぼう}, {賛同|さんどう}, {言|い}い{合|あ}い
+- Legal/formal: {調停|ちょうてい}, {調印|ちょういん}, {起因|きいん}, {誹謗|ひぼう}
+- Business/work: {賃上|ちんあ}げ, {起業家|きぎょうか}, {走行|そうこう}
+- New kanji: 2,458 → 2,461 ({誹|ひ}, {諜|ちょう}, {謗|ぼう})
+
+Total entries: 14,294 → 14,324 (approximate)
+Remaining candidates: 5,475 → 5,445 (30 removed)
+
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 348)
 Added 30 new dictionary entries (IDs 14209-14238) from candidate_words.json:
 
