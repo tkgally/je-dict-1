@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,714 |
+| Total entries | ~14,744 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,915 (open) |
-| Candidate words | ~5,055 |
+| General tier | ~11,945 (open) |
+| Candidate words | ~5,025 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 363)
+Added 30 new dictionary entries (IDs 14659-14688) from candidate_words.json:
+
+- **Nouns (14)**: {防具|ぼうぐ} (protective gear), {陣営|じんえい} (camp/faction), {雪景色|ゆきげしき} (snowy scenery), {霊|れい} (spirit/ghost), {露天|ろてん} (open air), {顔|かお}ぶれ (lineup), {風紀|ふうき} (public morals), {風貌|ふうぼう} (appearance), {食塩|しょくえん} (table salt), {餅|もち}つき (rice cake pounding), {首位|しゅい} (first place), {香料|こうりょう} (spices/fragrance), {高台|たかだい} (elevated ground), {顔立|かおだ}ち (facial features)
+- **Noun/suru verbs (7)**: {開国|かいこく} (opening of a country), {陳情|ちんじょう} (petition), {集約|しゅうやく} (consolidation), {集結|しゅうけつ} (gathering), {頻発|ひんぱつ} (frequent occurrence), {駆使|くし} (full command), {魅了|みりょう} (fascination)
+- **Noun/suru verb (1)**: {高望|たかのぞ}み (aiming too high)
+- **Noun/adjective-no (1)**: {非日常|ひにちじょう} (extraordinary)
+- **Godan verbs (2)**: {霞|かす}む (to become hazy), {駆|か}け{寄|よ}る (to rush over to)
+- **Na-adjective (1)**: {鮮明|せんめい} (vivid/clear)
+- **Noun (time) (1)**: {頃合|ころあ}い (suitable time)
+- **Noun (cultural) (3)**: {金魚|きんぎょ}すくい (goldfish scooping), {開国|かいこく} (opening of country), {餅|もち}つき (mochi pounding)
+
+Notable features:
+- Multi-sense entries: {防具|ぼうぐ} (2: sports gear + armor), {霊|れい} (2: spirit + ghost), {香料|こうりょう} (2: spice + fragrance), {霞|かす}む (2: become hazy + be overshadowed), {頃合|ころあ}い (2: suitable time + moderate degree), {陣営|じんえい} (2: faction + military camp), {集約|しゅうやく} (2: consolidation + intensive)
+- Culture: {金魚|きんぎょ}すくい, {餅|もち}つき, {露天|ろてん}, {開国|かいこく}
+- Daily life: {食塩|しょくえん}, {高台|たかだい}, {顔立|かおだ}ち, {顔|かお}ぶれ
+- Formal/written: {類似|るいじ}, {鮮明|せんめい}, {風貌|ふうぼう}, {陳情|ちんじょう}, {駆使|くし}
+- New kanji: 2,487 → 2,488 ({陣|じん})
+
+Total entries: 14,714 → 14,744 (approximate)
+Remaining candidates: 5,055 → 5,025 (30 removed)
 
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 362)
 Added 30 new dictionary entries (IDs 14629-14658) from candidate_words.json:
@@ -134,27 +156,6 @@ Notable features:
 
 Total entries: 14,594 → 14,624 (approximate)
 Remaining candidates: 5,175 → 5,145 (30 removed)
-
-### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 358)
-Added 30 new dictionary entries (IDs 14509-14538) from candidate_words.json:
-
-- **I-adjective (1)**: {重|おも}たい (heavy — colloquial)
-- **Na-adjectives (2)**: {閑静|かんせい} (quiet/peaceful), {間近|まぢか} (close/imminent)
-- **Godan verbs (2)**: {閉|と}じこもる (to shut oneself in), {阻|はば}む (to block)
-- **Godan verb (1)**: {陥|おちい}る (to fall into)
-- **Noun/suru verbs (10)**: {通説|つうせつ} (accepted theory), {進言|しんげん} (advice to a superior), {鎖国|さこく} (national isolation), {鑑賞|かんしょう} (appreciation), {長居|ながい} (overstaying), {長続|ながつづ}き (lasting), {閉鎖|へいさ} (closure), {開花|かいか} (flowering), {隔離|かくり} (quarantine), {隠居|いんきょ} (retirement)
-- **Nouns (14)**: {農作業|のうさぎょう} (farm work), {錦鯉|にしきごい} (koi), {鎮痛|ちんつう} (pain relief), {長女|ちょうじょ} (eldest daughter), {長男|ちょうなん} (eldest son), {長雨|ながあめ} (prolonged rain), {門松|かどまつ} (New Year's pine decoration), {闇|やみ} (darkness/black market), {降雪|こうせつ} (snowfall), {陶器|とうき} (pottery), {随一|ずいいち} (foremost), {際限|さいげん} (limit), {障壁|しょうへき} (barrier), {閃光|せんこう} (flash)
-
-Notable features:
-- Multi-sense entries: {開花|かいか} (2: blooming + bearing fruit), {闇|やみ} (2: darkness + black market), {間近|まぢか} (2: nearby + imminent), {隠居|いんきょ} (2: retirement + retired person)
-- Culture: {門松|かどまつ}, {錦鯉|にしきごい}, {鎖国|さこく}, {陶器|とうき}
-- Family: {長女|ちょうじょ}, {長男|ちょうなん}
-- Weather: {長雨|ながあめ}, {降雪|こうせつ}
-- Medical: {鎮痛|ちんつう}, {隔離|かくり}
-- New kanji: 2,478 → 2,481 ({錦|きん}, {鎮|ちん}, {閃|せん})
-
-Total entries: 14,564 → 14,594 (approximate)
-Remaining candidates: 5,205 → 5,175 (30 removed)
 
 ---
 
