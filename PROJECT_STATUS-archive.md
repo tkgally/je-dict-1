@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 354)
+Added 30 new dictionary entries (IDs 14389-14418) from candidate_words.json:
+
+- **Noun/suru verbs (10)**: {転用|てんよう} (repurposing), {転移|てんい} (metastasis/transference), {転身|てんしん} (career change), {輩出|はいしゅつ} (producing talent), {起用|きよう} (appointment), {返上|へんじょう} (forfeiture), {追求|ついきゅう} (pursuit), {配置|はいち} (placement), {配布|はいふ} (distribution), {逃走|とうそう} (escape)
+- **Nouns (11)**: {語|かた}り (narration), {軍事|ぐんじ} (military affairs), {軍艦|ぐんかん} (warship), {近世|きんせい} (early modern period), {通称|つうしょう} (common name), {部門|ぶもん} (department), {郷土|きょうど} (homeland), {都度|つど} (each time), {酵素|こうそ} (enzyme), {重点|じゅうてん} (emphasis), {選択肢|せんたくし} (option)
+- **Na-adjective (1)**: {辺鄙|へんぴ} (remote)
+- **Nouns (other) (4)**: {醍醐味|だいごみ} (true delight), {重傷|じゅうしょう} (serious injury), {野原|のはら} (field/meadow), {遺産|いさん} (heritage/inheritance)
+- **Godan verb (1)**: {醸|かも}し{出|だ}す (to create atmosphere)
+- **Noun/na-adj/suru verb (1)**: {重宝|ちょうほう} (useful/handy)
+- **Godan verb (1)**: {見合|みあ}う (to be proportionate)
+- **Noun/suru verb (1)**: {退散|たいさん} (dispersal)
+
+Notable features:
+- Multi-sense entries: {見合|みあ}う (2: proportionate + look at each other), {転移|てんい} (2: metastasis + transference), {遺産|いさん} (2: inheritance + heritage), {重宝|ちょうほう} (2: useful + treasure)
+- Military/history: {軍事|ぐんじ}, {軍艦|ぐんかん}, {近世|きんせい}, {返上|へんじょう}
+- Business/work: {起用|きよう}, {転身|てんしん}, {部門|ぶもん}, {配置|はいち}, {配布|はいふ}
+- Science/medicine: {酵素|こうそ}, {転移|てんい}, {重傷|じゅうしょう}
+- Culture: {醍醐味|だいごみ} (Buddhist origin), {醸|かも}し{出|だ}す (brewing metaphor), {郷土|きょうど}
+- New kanji: 2,470 → 2,474 ({肢|し}, {鄙|ひ}, {醍|だい}, {醐|ご})
+
+Total entries: 14,444 → 14,474 (approximate)
+Remaining candidates: 5,325 → 5,295 (30 removed)
+
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 353)
 Added 30 new dictionary entries (IDs 14359-14388) from candidate_words.json:
 

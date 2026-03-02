@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,594 |
+| Total entries | ~14,624 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,795 (open) |
-| Candidate words | ~5,175 |
+| General tier | ~11,825 (open) |
+| Candidate words | ~5,145 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 359)
+Added 30 new dictionary entries (IDs 14539-14568) from candidate_words.json:
+
+- **Ichidan verbs (2)**: {長|た}ける (to be skilled at), {閉|と}じ{込|こ}める (to lock up/confine)
+- **Godan verbs (2)**: {謳|うた}う (to extol/stipulate), {諮|はか}る (to consult)
+- **Noun/suru verbs (7)**: {鎮圧|ちんあつ} (suppression), {進入|しんにゅう} (entry/approach), {白濁|はくだく} (cloudiness), {配車|はいしゃ} (vehicle dispatch), {閉塞|へいそく} (blockage/stagnation), {開示|かいじ} (disclosure), {除去|じょきょ} (removal)
+- **Nouns (14)**: {部活動|ぶかつどう} (club activities), {鎧|よろい} (armor), {遺物|いぶつ} (relic), {部類|ぶるい} (category), {酒宴|しゅえん} (drinking party), {都市部|としぶ} (urban area), {銀髪|ぎんぱつ} (silver hair), {酒浸|さけびた}り (heavy drinking), {見殺|みごろ}し (abandoning), {自失|じしつ} (daze/stupor), {長身|ちょうしん} (tall stature), {門外漢|もんがいかん} (outsider/layman), {防音|ぼうおん} (soundproofing), {陛下|へいか} (Your Majesty)
+- **Na-adjectives (2)**: {長|なが}め (somewhat long), {閑散|かんさん} (deserted/slack)
+- **Adverb (1)**: {道|みち}すがら (along the way)
+- **Noun (time) (1)**: {間際|まぎわ} (just before/verge)
+- **Noun (formal) (1)**: {隆盛|りゅうせい} (prosperity/flourishing)
+
+Notable features:
+- Multi-sense entries: {謳|うた}う (2: extol + stipulate), {閉塞|へいそく} (2: blockage + stagnation), {閑散|かんさん} (2: deserted + slack)
+- Culture/society: {部活動|ぶかつどう}, {鎧|よろい}, {陛下|へいか}, {酒宴|しゅえん}, {門外漢|もんがいかん}
+- Daily life: {防音|ぼうおん}, {配車|はいしゃ}, {都市部|としぶ}, {長身|ちょうしん}, {銀髪|ぎんぱつ}
+- Formal/literary: {諮|はか}る, {隆盛|りゅうせい}, {道|みち}すがら, {開示|かいじ}
+- New kanji: 2,481 → 2,486 ({諮|し}, {謳|おう}, {鎧|がい}, {陛|へい}, {隆|りゅう})
+
+Total entries: 14,594 → 14,624 (approximate)
+Remaining candidates: 5,175 → 5,145 (30 removed)
 
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 358)
 Added 30 new dictionary entries (IDs 14509-14538) from candidate_words.json:
@@ -129,29 +151,6 @@ Notable features:
 
 Total entries: 14,474 → 14,504 (approximate)
 Remaining candidates: 5,295 → 5,265 (30 removed)
-
-### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 354)
-Added 30 new dictionary entries (IDs 14389-14418) from candidate_words.json:
-
-- **Noun/suru verbs (10)**: {転用|てんよう} (repurposing), {転移|てんい} (metastasis/transference), {転身|てんしん} (career change), {輩出|はいしゅつ} (producing talent), {起用|きよう} (appointment), {返上|へんじょう} (forfeiture), {追求|ついきゅう} (pursuit), {配置|はいち} (placement), {配布|はいふ} (distribution), {逃走|とうそう} (escape)
-- **Nouns (11)**: {語|かた}り (narration), {軍事|ぐんじ} (military affairs), {軍艦|ぐんかん} (warship), {近世|きんせい} (early modern period), {通称|つうしょう} (common name), {部門|ぶもん} (department), {郷土|きょうど} (homeland), {都度|つど} (each time), {酵素|こうそ} (enzyme), {重点|じゅうてん} (emphasis), {選択肢|せんたくし} (option)
-- **Na-adjective (1)**: {辺鄙|へんぴ} (remote)
-- **Nouns (other) (4)**: {醍醐味|だいごみ} (true delight), {重傷|じゅうしょう} (serious injury), {野原|のはら} (field/meadow), {遺産|いさん} (heritage/inheritance)
-- **Godan verb (1)**: {醸|かも}し{出|だ}す (to create atmosphere)
-- **Noun/na-adj/suru verb (1)**: {重宝|ちょうほう} (useful/handy)
-- **Godan verb (1)**: {見合|みあ}う (to be proportionate)
-- **Noun/suru verb (1)**: {退散|たいさん} (dispersal)
-
-Notable features:
-- Multi-sense entries: {見合|みあ}う (2: proportionate + look at each other), {転移|てんい} (2: metastasis + transference), {遺産|いさん} (2: inheritance + heritage), {重宝|ちょうほう} (2: useful + treasure)
-- Military/history: {軍事|ぐんじ}, {軍艦|ぐんかん}, {近世|きんせい}, {返上|へんじょう}
-- Business/work: {起用|きよう}, {転身|てんしん}, {部門|ぶもん}, {配置|はいち}, {配布|はいふ}
-- Science/medicine: {酵素|こうそ}, {転移|てんい}, {重傷|じゅうしょう}
-- Culture: {醍醐味|だいごみ} (Buddhist origin), {醸|かも}し{出|だ}す (brewing metaphor), {郷土|きょうど}
-- New kanji: 2,470 → 2,474 ({肢|し}, {鄙|ひ}, {醍|だい}, {醐|ご})
-
-Total entries: 14,444 → 14,474 (approximate)
-Remaining candidates: 5,325 → 5,295 (30 removed)
 
 ---
 
