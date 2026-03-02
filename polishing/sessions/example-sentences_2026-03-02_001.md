@@ -1,10 +1,10 @@
 # Example Sentences Polishing Session
 
 **Date:** 2026-03-02
-**Range checked:** 03721–03760
-**Entries checked:** 40
-**Entries modified:** 33
-**Entries already compliant:** 7
+**Range checked:** 03721–03780
+**Entries checked:** 60
+**Entries modified:** 43
+**Entries already compliant:** 17
 
 ## Batch 1: 03721–03740
 
@@ -62,9 +62,37 @@
 | 03759_noumin | core | 1 | 3 | 5 | +2 |
 | 03760_shosai | core | 1 | 3 | 5 | +2 |
 
+## Batch 3: 03761–03780
+
+### Passed (no changes needed)
+- 03763_seimei (声明)
+- 03765_maemotte
+- 03767_zei
+- 03769_kankou
+- 03770_koufuku
+- 03771_taisen
+- 03774_senkou (選考)
+- 03775_seikou
+- 03776_seiki
+- 03780_reigi
+
+### Modified (10 entries)
+| Entry | Tier | Senses | Before | After | Change |
+|-------|------|--------|--------|-------|--------|
+| 03761_shokumotsu | core | 1 | 3 | 5 | +2 |
+| 03762_shokuryou | core | 1 | 3 | 5 | +2 |
+| 03764_seimei (姓名) | core | 1 | 3 | 5 | +2 |
+| 03766_nazenara | core | 1 | 3 | 5 | +2 |
+| 03768_shou | general | 2 | 3 | 6 | +3 |
+| 03772_chigainai | core | 1 | 3 | 5 | +2 |
+| 03773_senkou (先行) | core | 2 | 3 | 10 | +7 |
+| 03777_mitsu | general | 3 | 3 | 9 | +6 |
+| 03778_kouhai | general | 2 | 3 | 6 | +3 |
+| 03779_nashi | general | 2 | 3 | 6 | +3 |
+
 ## Notes
 - Most multi-sense entries had only 3 examples total regardless of sense count
 - Core 2-sense entries needed the most additions (+7 from 3→10)
 - Fixed reversed furigana in 03724_honoo: `{ろうそく|蝋燭}` → `ろうそく`
-- Used parallel agents for batch 2 to speed up fixes
-- Progress updated to `next: 03761`
+- Used parallel agents for batches 2 and 3 to speed up fixes
+- Progress updated to `next: 03781`
