@@ -3,6 +3,17 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 355)
+Added 30 new dictionary entries (IDs 14419-14448) from candidate_words.json:
+
+- **Noun/suru verbs (11)**: {逃避|とうひ} (escape/evasion), {連動|れんどう} (linkage), {連帯|れんたい} (solidarity), {遠出|とおで} (excursion), {遠吠|とおぼ}え (howling), {醸造|じょうぞう} (brewing), {量産|りょうさん} (mass production), {配列|はいれつ} (arrangement/array), {選出|せんしゅつ} (selection/election), {遊|あそ}び{心|ごころ} (playfulness — noun only), {金欠|きんけつ} (being broke — noun only)
+- **Na-adjective (1)**: {過密|かみつ} (overcrowding)
+- **Verbs (5)**: {通|とお}り{抜|ぬ}ける (to pass through — ichidan), {透|す}かす (to hold up to light — godan), {遠|とお}のく (to recede — godan), {酔|よ}う (to get drunk — godan), {重|おも}んじる (to value — ichidan)
+- **Nouns (13)**: {過渡期|かとき} (transitional period), {途上国|とじょうこく} (developing country), {道中|どうちゅう} (during a journey), {道程|みちのり} (distance/journey), {選手権|せんしゅけん} (championship), {遺体|いたい} (corpse/remains), {邸宅|ていたく} (mansion), {部族|ぶぞく} (tribe), {酒屋|さかや} (liquor store), {野生|やせい} (wild/wildlife), {野良猫|のらねこ} (stray cat), {金髪|きんぱつ} (blonde hair), {重|おも}さ (weight/heaviness)
+
+Total entries: 14,474 → 14,504 (approximate)
+Remaining candidates: 5,295 → 5,265 (30 removed)
+
 ### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 354)
 Added 30 new dictionary entries (IDs 14389-14418) from candidate_words.json:
 
