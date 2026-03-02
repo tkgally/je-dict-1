@@ -1,10 +1,10 @@
 # Example Sentences Polishing Session
 
 **Date:** 2026-03-02
-**Range checked:** 03721–03820
-**Entries checked:** 100
-**Entries modified:** 61
-**Entries already compliant:** 39
+**Range checked:** 03721–03840
+**Entries checked:** 120
+**Entries modified:** 74
+**Entries already compliant:** 46
 
 ## Batch 1: 03721–03740
 
@@ -146,9 +146,38 @@
 | 03818_shikamo | core | 1 | 3 | 5 | +2 |
 | 03819_shitagatte | core | 1 | 3 | 5 | +2 |
 
+## Batch 6: 03821–03840
+
+### Passed (no changes needed)
+- 03823_senshu
+- 03827_sutoresu
+- 03829_ankeeto
+- 03833_intabyuu
+- 03835_enjin
+- 03839_kurisumasu
+- 03840_guruupu
+
+### Modified (13 entries)
+| Entry | Tier | Senses | Before | After | Change |
+|-------|------|--------|--------|-------|--------|
+| 03821_joutou | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03822_subete | core | 1 | 3 | 5 | +2 |
+| 03824_arayuru | core | 1 | 3 | 5 | +2 |
+| 03825_aruiha | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03826_itsudemo | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03828_messeeji | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03830_aisukuriimu | core | 1 | 3 | 5 | +2 |
+| 03831_arubamu | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03832_imeeji | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03834_enerugii | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03836_kaado | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03837_kyanpu | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03838_kurashikku | general | 2 | 3 | 6 | +3, reorganized by sense |
+
 ## Notes
 - Most multi-sense entries had only 3 examples total regardless of sense count
 - Core 2-sense entries needed the most additions (+7 from 3→10)
 - Fixed reversed furigana in 03724_honoo: `{ろうそく|蝋燭}` → `ろうそく`
-- Used parallel agents for batches 2-5 to speed up fixes
-- Progress updated to `next: 03821`
+- Fixed example ID format in 6 entries where agents used short IDs (e.g., 03831_ex1 → 03831_arubamu_ex1)
+- Used parallel agents for batches 2-6 to speed up fixes
+- Progress updated to `next: 03841`
