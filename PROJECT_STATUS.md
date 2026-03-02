@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,624 |
+| Total entries | ~14,654 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,825 (open) |
-| Candidate words | ~5,145 |
+| General tier | ~11,855 (open) |
+| Candidate words | ~5,115 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 360)
+Added 30 new dictionary entries (IDs 14569-14598) from candidate_words.json:
+
+- **Noun/suru verbs (12)**: {開店|かいてん} (opening a store), {開業|かいぎょう} (starting a business), {防止|ぼうし} (prevention), {闘争|とうそう} (struggle/conflict), {防御|ぼうぎょ} (defense), {阻害|そがい} (obstruction), {隣接|りんせつ} (adjacent), {離脱|りだつ} (withdrawal), {難航|なんこう} (rough going), {開設|かいせつ} (establishment), {集計|しゅうけい} (tabulation), {陥落|かんらく} (fall/capture)
+- **Nouns (7)**: {関門|かんもん} (barrier/hurdle), {階層|かいそう} (class/layer), {集大成|しゅうたいせい} (culmination), {雑煮|ぞうに} (New Year's soup), {難色|なんしょく} (reluctance), {雨上|あめあ}がり (after rain), {雨音|あまおと} (sound of rain), {詰|つ}め{襟|えり} (stand-up collar), {離島|りとう} (remote island)
+- **Noun/na-adjective (3)**: {間抜|まぬ}け (fool), {雄弁|ゆうべん} (eloquent), {雑|ざつ} (sloppy)
+- **Godan verbs (2)**: {見知|みし}る (to know by sight), {集|つど}う (to gather)
+- **Noun (time) (1)**: {除夜|じょや} (New Year's Eve)
+- **Adverbs (2)**: {長|なが}らく (for a long time), {難|なん}なく (without difficulty)
+
+Notable features:
+- Multi-sense entries: {開店|かいてん} (2: first opening + daily opening), {関門|かんもん} (2: checkpoint + hurdle), {階層|かいそう} (2: social class + layer/tier), {陰|かげ} (2: shade + behind the scenes)
+- Culture/seasons: {雑煮|ぞうに}, {除夜|じょや}, {雨上|あめあ}がり, {雨音|あまおと}, {詰|つ}め{襟|えり}
+- Business/formal: {開店|かいてん}, {開業|かいぎょう}, {開設|かいせつ}, {集計|しゅうけい}, {難航|なんこう}, {難色|なんしょく}
+- Diverse POS mix: nouns, suru verbs, godan verbs, na-adjectives, adverbs
+
+Total entries: 14,624 → 14,654 (approximate)
+Remaining candidates: 5,145 → 5,115 (30 removed)
 
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 359)
 Added 30 new dictionary entries (IDs 14539-14568) from candidate_words.json:
@@ -134,23 +153,6 @@ Notable features:
 
 Total entries: 14,504 → 14,534 (approximate)
 Remaining candidates: 5,265 → 5,235 (30 removed)
-
-### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 355)
-Added 30 new dictionary entries (IDs 14419-14448) from candidate_words.json:
-
-- **Noun/suru verbs (11)**: {逃避|とうひ} (escape/evasion), {連動|れんどう} (linkage), {連帯|れんたい} (solidarity), {遠出|とおで} (excursion), {遠吠|とおぼ}え (howling), {醸造|じょうぞう} (brewing), {量産|りょうさん} (mass production), {配列|はいれつ} (arrangement/array), {選出|せんしゅつ} (selection/election), {遊|あそ}び{心|ごころ} (playfulness — noun only), {金欠|きんけつ} (being broke — noun only)
-- **Na-adjective (1)**: {過密|かみつ} (overcrowding)
-- **Verbs (5)**: {通|とお}り{抜|ぬ}ける (to pass through — ichidan), {透|す}かす (to hold up to light — godan), {遠|とお}のく (to recede — godan), {酔|よ}う (to get drunk — godan), {重|おも}んじる (to value — ichidan)
-- **Nouns (13)**: {過渡期|かとき} (transitional period), {途上国|とじょうこく} (developing country), {道中|どうちゅう} (during a journey), {道程|みちのり} (distance/journey), {選手権|せんしゅけん} (championship), {遺体|いたい} (corpse/remains), {邸宅|ていたく} (mansion), {部族|ぶぞく} (tribe), {酒屋|さかや} (liquor store), {野生|やせい} (wild/wildlife), {野良猫|のらねこ} (stray cat), {金髪|きんぱつ} (blonde hair), {重|おも}さ (weight/heaviness)
-
-Notable features:
-- Multi-sense entries: {透|す}かす (2: hold to light + thin out), {酔|よ}う (3: drunk + motion sick + entranced), {連帯|れんたい} (2: solidarity + joint liability), {道程|みちのり} (2: distance + figurative path), {重|おも}さ (2: physical weight + significance), {配列|はいれつ} (2: arrangement + array), {遠吠|とおぼ}え (2: howling + empty threats)
-- Daily life: {酒屋|さかや}, {野良猫|のらねこ}, {金欠|きんけつ}, {金髪|きんぱつ}, {遠出|とおで}
-- Society/politics: {途上国|とじょうこく}, {連帯|れんたい}, {選出|せんしゅつ}, {過渡期|かとき}
-- Business/tech: {量産|りょうさん}, {連動|れんどう}, {配列|はいれつ}
-
-Total entries: 14,474 → 14,504 (approximate)
-Remaining candidates: 5,295 → 5,265 (30 removed)
 
 ---
 
