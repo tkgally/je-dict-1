@@ -1,10 +1,10 @@
 # Example Sentences Polishing Session
 
 **Date:** 2026-03-02
-**Range checked:** 03721–03780
-**Entries checked:** 60
-**Entries modified:** 43
-**Entries already compliant:** 17
+**Range checked:** 03721–03800
+**Entries checked:** 80
+**Entries modified:** 52
+**Entries already compliant:** 28
 
 ## Batch 1: 03721–03740
 
@@ -90,9 +90,37 @@
 | 03778_kouhai | general | 2 | 3 | 6 | +3 |
 | 03779_nashi | general | 2 | 3 | 6 | +3 |
 
+## Batch 4: 03781–03800
+
+### Passed (no changes needed)
+- 03781_reisei
+- 03782_rensou
+- 03783_renzoku
+- 03785_roudou
+- 03786_ronsou
+- 03787_ronbun
+- 03796_wan
+- 03797_ryoukin
+- 03798_reigai
+- 03799_ryou (量)
+- 03800_ryou (寮)
+
+### Modified (9 entries)
+| Entry | Tier | Senses | Before | After | Change |
+|-------|------|--------|--------|-------|--------|
+| 03784_roujin | core | 1 | 3 | 5 | +2 |
+| 03788_wakare | core | 1 | 3 | 5 | +2 |
+| 03789_wagamama | core | 1 | 3 | 5 | +2 |
+| 03790_waki | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03791_wazato | core | 1 | 3 | 5 | +2 |
+| 03792_wazuka | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03793_wadai | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03794_warukuchi | core | 1 | 3 | 5 | +2 |
+| 03795_wareware | core | 1 | 3 | 5 | +2, reordered for length |
+
 ## Notes
 - Most multi-sense entries had only 3 examples total regardless of sense count
 - Core 2-sense entries needed the most additions (+7 from 3→10)
 - Fixed reversed furigana in 03724_honoo: `{ろうそく|蝋燭}` → `ろうそく`
-- Used parallel agents for batches 2 and 3 to speed up fixes
-- Progress updated to `next: 03781`
+- Used parallel agents for batches 2-4 to speed up fixes
+- Progress updated to `next: 03801`
