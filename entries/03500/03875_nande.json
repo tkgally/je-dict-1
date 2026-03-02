@@ -19,9 +19,9 @@
   "examples": [
     {
       "id": "03875_nande_ex1",
-      "japanese": "{何|なん}で{来|こ}なかったの？",
-      "english": "Why didn't you come?",
-      "notes": "Asking for reason",
+      "japanese": "{何|なん}でだろう。",
+      "english": "I wonder why.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -29,8 +29,8 @@
     },
     {
       "id": "03875_nande_ex2",
-      "japanese": "{何|なん}でそんなことを{言|い}うの？",
-      "english": "Why would you say something like that?",
+      "japanese": "{何|なん}で{来|こ}なかったの？",
+      "english": "Why didn't you come?",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -39,16 +39,6 @@
     },
     {
       "id": "03875_nande_ex3",
-      "japanese": "{何|なん}で{行|い}く？ — {電車|でんしゃ}で{行|い}く。",
-      "english": "How are you getting there? — I'm going by train.",
-      "notes": "Asking about means",
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "03875_nande_ex4",
       "japanese": "{何|なん}で{遅|おく}れたの？",
       "english": "Why were you late?",
       "notes": null,
@@ -58,9 +48,19 @@
       ]
     },
     {
+      "id": "03875_nande_ex4",
+      "japanese": "{何|なん}で{泣|な}いてるの？",
+      "english": "Why are you crying?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "03875_nande_ex5",
-      "japanese": "{何|なん}で{知|し}ってるの？",
-      "english": "How do you know that? / Why do you know that?",
+      "japanese": "{何|なん}でそんなことを{言|い}うの？",
+      "english": "Why would you say something like that?",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -69,6 +69,16 @@
     },
     {
       "id": "03875_nande_ex6",
+      "japanese": "{何|なん}で{書|か}く？",
+      "english": "What do you write with?",
+      "notes": "Asking about means/tools",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "03875_nande_ex7",
       "japanese": "{何|なん}で{食|た}べる？ — {箸|はし}で{食|た}べる。",
       "english": "What do you eat it with? — With chopsticks.",
       "notes": null,
@@ -78,23 +88,13 @@
       ]
     },
     {
-      "id": "03875_nande_ex7",
-      "japanese": "{何|なん}で{書|か}く？ — ペンで{書|か}く。",
-      "english": "What do you write with? — With a pen.",
+      "id": "03875_nande_ex8",
+      "japanese": "{何|なん}で{行|い}く？ — {電車|でんしゃ}で{行|い}く。",
+      "english": "How are you getting there? — I'm going by train.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
         2
-      ]
-    },
-    {
-      "id": "03875_nande_ex8",
-      "japanese": "{何|なん}で{泣|な}いてるの？",
-      "english": "Why are you crying?",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
       ]
     },
     {
@@ -109,12 +109,12 @@
     },
     {
       "id": "03875_nande_ex10",
-      "japanese": "{何|なん}でだろう。",
-      "english": "I wonder why.",
+      "japanese": "{学校|がっこう}まで{何|なん}で{行|い}っている？ — バスで{行|い}っている。",
+      "english": "How do you get to school? — I go by bus.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
       ]
     }
   ],
@@ -137,7 +137,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-01-24T07:38:50Z",
+    "modified": "2026-03-02T01:21:27Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
