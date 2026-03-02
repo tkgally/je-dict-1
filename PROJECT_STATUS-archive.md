@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 358)
+Added 30 new dictionary entries (IDs 14509-14538) from candidate_words.json:
+
+- **I-adjective (1)**: {重|おも}たい (heavy — colloquial)
+- **Na-adjectives (2)**: {閑静|かんせい} (quiet/peaceful), {間近|まぢか} (close/imminent)
+- **Godan verbs (2)**: {閉|と}じこもる (to shut oneself in), {阻|はば}む (to block)
+- **Godan verb (1)**: {陥|おちい}る (to fall into)
+- **Noun/suru verbs (10)**: {通説|つうせつ} (accepted theory), {進言|しんげん} (advice to a superior), {鎖国|さこく} (national isolation), {鑑賞|かんしょう} (appreciation), {長居|ながい} (overstaying), {長続|ながつづ}き (lasting), {閉鎖|へいさ} (closure), {開花|かいか} (flowering), {隔離|かくり} (quarantine), {隠居|いんきょ} (retirement)
+- **Nouns (14)**: {農作業|のうさぎょう} (farm work), {錦鯉|にしきごい} (koi), {鎮痛|ちんつう} (pain relief), {長女|ちょうじょ} (eldest daughter), {長男|ちょうなん} (eldest son), {長雨|ながあめ} (prolonged rain), {門松|かどまつ} (New Year's pine decoration), {闇|やみ} (darkness/black market), {降雪|こうせつ} (snowfall), {陶器|とうき} (pottery), {随一|ずいいち} (foremost), {際限|さいげん} (limit), {障壁|しょうへき} (barrier), {閃光|せんこう} (flash)
+
+Notable features:
+- Multi-sense entries: {開花|かいか} (2: blooming + bearing fruit), {闇|やみ} (2: darkness + black market), {間近|まぢか} (2: nearby + imminent), {隠居|いんきょ} (2: retirement + retired person)
+- Culture: {門松|かどまつ}, {錦鯉|にしきごい}, {鎖国|さこく}, {陶器|とうき}
+- Family: {長女|ちょうじょ}, {長男|ちょうなん}
+- Weather: {長雨|ながあめ}, {降雪|こうせつ}
+- Medical: {鎮痛|ちんつう}, {隔離|かくり}
+- New kanji: 2,478 → 2,481 ({錦|きん}, {鎮|ちん}, {閃|せん})
+
+Total entries: 14,564 → 14,594 (approximate)
+Remaining candidates: 5,205 → 5,175 (30 removed)
+
 ### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 357)
 Added 30 new dictionary entries (IDs 14479-14508) from candidate_words.json:
 
