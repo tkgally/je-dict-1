@@ -14,6 +14,16 @@
   "examples": [
     {
       "id": "03694_hassha_ex1",
+      "japanese": "{発車|はっしゃ}ベルが{鳴|な}った。",
+      "english": "The departure bell rang.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03694_hassha_ex2",
       "japanese": "{電車|でんしゃ}は{間|ま}もなく{発車|はっしゃ}します。",
       "english": "The train will depart shortly.",
       "notes": "Common station announcement",
@@ -23,9 +33,19 @@
       ]
     },
     {
-      "id": "03694_hassha_ex2",
+      "id": "03694_hassha_ex3",
       "japanese": "{発車|はっしゃ}{時刻|じこく}を{確認|かくにん}してください。",
       "english": "Please check the departure time.",
+      "notes": "{発車|はっしゃ}{時刻|じこく} = departure time",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03694_hassha_ex4",
+      "japanese": "バスが{発車|はっしゃ}するまで、あと5{分|ふん}あります。",
+      "english": "There are five more minutes until the bus departs.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -33,9 +53,9 @@
       ]
     },
     {
-      "id": "03694_hassha_ex3",
-      "japanese": "{発車|はっしゃ}ベルが{鳴|な}った。",
-      "english": "The departure bell rang.",
+      "id": "03694_hassha_ex5",
+      "japanese": "{急|いそ}いでホームに{向|む}かったが、{電車|でんしゃ}はもう{発車|はっしゃ}していた。",
+      "english": "I hurried to the platform, but the train had already departed.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -62,7 +82,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-01-19T12:14:22.224226Z",
+    "modified": "2026-03-01T23:29:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
