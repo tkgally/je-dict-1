@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,684 |
+| Total entries | ~14,714 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,885 (open) |
-| Candidate words | ~5,085 |
+| General tier | ~11,915 (open) |
+| Candidate words | ~5,055 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 362)
+Added 30 new dictionary entries (IDs 14629-14658) from candidate_words.json:
+
+- **Verbs (4)**: {面|めん}する (to face), {静|しず}まり{返|かえ}る (to fall completely silent), {馴染|なじ}む (to become familiar), {駆|か}けつける (to rush to)
+- **Nouns (17)**: {風呂|ふろ} (bath), {食|しょく}パン (sliced bread), {首輪|くびわ} (collar), {馬車|ばしゃ} (carriage), {魂|たましい} (soul), {魔法|まほう} (magic), {魔女|まじょ} (witch), {魚屋|さかなや} (fish shop), {鮮度|せんど} (freshness), {麺|めん} (noodles), {黄金|おうごん} (gold), {髪型|かみがた} (hairstyle), {高熱|こうねつ} (high fever), {駄々|だだ} (tantrum), {馬力|ばりき} (horsepower), {騒動|そうどう} (commotion), {驚異|きょうい} (wonder)
+- **Noun/suru verbs (4)**: {高騰|こうとう} (soaring prices), {集会|しゅうかい} (assembly), {養成|ようせい} (training), {高揚|こうよう} (elation)
+- **Nouns (other) (2)**: {頼|たよ}り (reliance), {高齢|こうれい} (old age)
+- **I-adjectives (2)**: {頼|たよ}りない (unreliable), {青白|あおじろ}い (pale)
+- **Noun (weather) (1)**: {風向|かざむ}き (wind direction)
+
+Notable features:
+- Multi-sense entries: {馴染|なじ}む (2: get used to + fit in), {黄金|おうごん} (2: gold + golden/prime), {魂|たましい} (2: soul + spirit/passion), {風向|かざむ}き (2: wind direction + trend), {青白|あおじろ}い (2: pale + bluish-white), {馬力|ばりき} (2: horsepower + vigor)
+- Daily life: {風呂|ふろ}, {食|しょく}パン, {首輪|くびわ}, {髪型|かみがた}, {麺|めん}, {魚屋|さかなや}
+- Culture/pop culture: {魔法|まほう}, {魔女|まじょ}, {黄金|おうごん}, {魂|たましい}
+- Economy/society: {高騰|こうとう}, {高齢|こうれい}, {集会|しゅうかい}, {養成|ようせい}
+- New kanji: 2,486 → 2,487 ({魂|こん})
+
+Total entries: 14,684 → 14,714 (approximate)
+Remaining candidates: 5,085 → 5,055 (30 removed)
 
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 361)
 Added 30 new dictionary entries (IDs 14599-14628) from candidate_words.json:
@@ -135,26 +155,6 @@ Notable features:
 
 Total entries: 14,564 → 14,594 (approximate)
 Remaining candidates: 5,205 → 5,175 (30 removed)
-
-### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 357)
-Added 30 new dictionary entries (IDs 14479-14508) from candidate_words.json:
-
-- **Nouns (20)**: {背脂|せあぶら} (back fat/ramen topping), {行司|ぎょうじ} (sumo referee), {良書|りょうしょ} (good book), {署員|しょいん} (station staff), {追|お}っ{手|て} (pursuer), {送|おく}り{火|び} (Obon farewell fire), {通商|つうしょう} (trade/commerce), {通年|つうねん} (year-round), {連峰|れんぽう} (mountain range), {選抜|せんばつ} (selection), {配分|はいぶん} (allocation), {重曹|じゅうそう} (baking soda), {野鳥|やちょう} (wild bird), {金平糖|こんぺいとう} (konpeito candy), {鉢合|はちあ}わせ (running into someone), {金物|かなもの} (hardware/ironware), {鉄壁|てっぺき} (iron wall), {銭|ぜに} (money/coin), {野草|やそう} (wild plant), {配下|はいか} (subordinate)
-- **Multi-sense noun (2)**: {銘柄|めいがら} (brand + stock issue), {重|おも}み (weight + significance)
-- **Na-adjective (1)**: {鋭敏|えいびん} (keen/acute)
-- **Expressions (1)**: {諸行無常|しょぎょうむじょう} (all things are impermanent)
-- **Nouns (other) (6)**: {謀略|ぼうりゃく} (stratagem), {襟首|えりくび} (scruff of neck), {輪廻|りんね} (cycle of rebirth), {連立|れんりつ} (coalition), {進撃|しんげき} (advance/charge), {都道府県|とどうふけん} (prefectures)
-
-Notable features:
-- Multi-sense entries: {銘柄|めいがら} (2: brand + stock), {重|おも}み (2: physical weight + significance)
-- Food/culture: {背脂|せあぶら}, {金平糖|こんぺいとう}, {重曹|じゅうそう}, {送|おく}り{火|び}, {行司|ぎょうじ}
-- Nature: {野鳥|やちょう}, {野草|やそう}, {連峰|れんぽう}
-- Politics/economics: {連立|れんりつ}, {通商|つうしょう}, {配分|はいぶん}, {銘柄|めいがら}, {選抜|せんばつ}
-- Philosophy/religion: {諸行無常|しょぎょうむじょう}, {輪廻|りんね}
-- New kanji: 2,475 → 2,478 ({峰|ほう}, {廻|かい}, {曹|そう})
-
-Total entries: 14,534 → 14,564 (approximate)
-Remaining candidates: 5,235 → 5,205 (30 removed)
 
 ---
 

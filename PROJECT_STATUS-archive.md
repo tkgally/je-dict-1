@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 357)
+Added 30 new dictionary entries (IDs 14479-14508) from candidate_words.json:
+
+- **Nouns (20)**: {背脂|せあぶら} (back fat/ramen topping), {行司|ぎょうじ} (sumo referee), {良書|りょうしょ} (good book), {署員|しょいん} (station staff), {追|お}っ{手|て} (pursuer), {送|おく}り{火|び} (Obon farewell fire), {通商|つうしょう} (trade/commerce), {通年|つうねん} (year-round), {連峰|れんぽう} (mountain range), {選抜|せんばつ} (selection), {配分|はいぶん} (allocation), {重曹|じゅうそう} (baking soda), {野鳥|やちょう} (wild bird), {金平糖|こんぺいとう} (konpeito candy), {鉢合|はちあ}わせ (running into someone), {金物|かなもの} (hardware/ironware), {鉄壁|てっぺき} (iron wall), {銭|ぜに} (money/coin), {野草|やそう} (wild plant), {配下|はいか} (subordinate)
+- **Multi-sense noun (2)**: {銘柄|めいがら} (brand + stock issue), {重|おも}み (weight + significance)
+- **Na-adjective (1)**: {鋭敏|えいびん} (keen/acute)
+- **Expressions (1)**: {諸行無常|しょぎょうむじょう} (all things are impermanent)
+- **Nouns (other) (6)**: {謀略|ぼうりゃく} (stratagem), {襟首|えりくび} (scruff of neck), {輪廻|りんね} (cycle of rebirth), {連立|れんりつ} (coalition), {進撃|しんげき} (advance/charge), {都道府県|とどうふけん} (prefectures)
+
+Notable features:
+- Multi-sense entries: {銘柄|めいがら} (2: brand + stock), {重|おも}み (2: physical weight + significance)
+- Food/culture: {背脂|せあぶら}, {金平糖|こんぺいとう}, {重曹|じゅうそう}, {送|おく}り{火|び}, {行司|ぎょうじ}
+- Nature: {野鳥|やちょう}, {野草|やそう}, {連峰|れんぽう}
+- Politics/economics: {連立|れんりつ}, {通商|つうしょう}, {配分|はいぶん}, {銘柄|めいがら}, {選抜|せんばつ}
+- Philosophy/religion: {諸行無常|しょぎょうむじょう}, {輪廻|りんね}
+- New kanji: 2,475 → 2,478 ({峰|ほう}, {廻|かい}, {曹|そう})
+
+Total entries: 14,534 → 14,564 (approximate)
+Remaining candidates: 5,235 → 5,205 (30 removed)
+
 ### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 356)
 Added 30 new dictionary entries (IDs 14449-14478) from candidate_words.json:
 
