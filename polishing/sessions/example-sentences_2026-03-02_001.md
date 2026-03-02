@@ -1,10 +1,10 @@
 # Example Sentences Polishing Session
 
 **Date:** 2026-03-02
-**Range checked:** 03721–03840
-**Entries checked:** 120
-**Entries modified:** 74
-**Entries already compliant:** 46
+**Range checked:** 03721–03860
+**Entries checked:** 140
+**Entries modified:** 86
+**Entries already compliant:** 54
 
 ## Batch 1: 03721–03740
 
@@ -174,10 +174,38 @@
 | 03837_kyanpu | general | 2 | 3 | 6 | +3, reorganized by sense |
 | 03838_kurashikku | general | 2 | 3 | 6 | +3, reorganized by sense |
 
+## Batch 7: 03841–03860
+
+### Passed (no changes needed)
+- 03843_kontesuto
+- 03844_koochi
+- 03850_sukejuuru
+- 03852_supiichi
+- 03856_dansu
+- 03857_chansu
+- 03858_chiimu
+- 03859_tento
+
+### Modified (12 entries)
+| Entry | Tier | Senses | Before | After | Change |
+|-------|------|--------|--------|-------|--------|
+| 03841_keesu | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03842_geemu | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03845_gooru | general | 3 | 3 | 9 | +6, reorganized by sense |
+| 03846_sain | general | 3 | 3 | 9 | +6, reorganized by sense |
+| 03847_shokku | general | 2 | 3 | 6 | +3 |
+| 03848_suicchi | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03849_sukii | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03851_sutairu | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03853_setto | general | 3 | 3 | 9 | +6, reorganized by sense |
+| 03854_sentaa | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03855_taitoru | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03860_dezain | core | 1 | 3 | 5 | +2, reordered for length |
+
 ## Notes
 - Most multi-sense entries had only 3 examples total regardless of sense count
 - Core 2-sense entries needed the most additions (+7 from 3→10)
 - Fixed reversed furigana in 03724_honoo: `{ろうそく|蝋燭}` → `ろうそく`
 - Fixed example ID format in 6 entries where agents used short IDs (e.g., 03831_ex1 → 03831_arubamu_ex1)
-- Used parallel agents for batches 2-6 to speed up fixes
-- Progress updated to `next: 03841`
+- Used parallel agents for batches 2-7 to speed up fixes
+- Progress updated to `next: 03861`
