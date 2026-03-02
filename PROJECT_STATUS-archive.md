@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 353)
+Added 30 new dictionary entries (IDs 14359-14388) from candidate_words.json:
+
+- **Noun/suru verbs (13)**: {転載|てんさい} (reposting), {送|おく}り{迎|むか}え (picking up and dropping off), {通話|つうわ} (telephone call), {逝去|せいきょ} (passing away), {造形|ぞうけい} (modeling/plastic arts), {進展|しんてん} (progress), {運行|うんこう} (train/bus operation), {遠回|とおまわ}り (detour), {適応|てきおう} (adaptation), {遭遇|そうぐう} (encounter), {進出|しんしゅつ} (expansion/advance), {連結|れんけつ} (connection/coupling), {逃亡|とうぼう} (flight/escape)
+- **Nouns (11)**: {農産物|のうさんぶつ} (agricultural products), {近隣|きんりん} (neighborhood), {詰|つ}め{物|もの} (filling/stuffing), {買取|かいとり} (trade-in), {連中|れんちゅう} (bunch/group), {週刊|しゅうかん} (weekly publication), {達人|たつじん} (master/expert), {遠隔|えんかく} (remote), {適量|てきりょう} (proper amount), {道標|みちしるべ} (signpost), {道筋|みちすじ} (route/course)
+- **Godan verbs (2)**: {請|う}け{負|お}う (to contract), {遠|とお}ざかる (to recede)
+- **Ichidan verb (1)**: {諌|いさ}める (to admonish)
+- **Na-adjective (1)**: {過度|かど} (excessive)
+- **I-adjective (1)**: {逆風|ぎゃくふう} (headwind/adversity)
+- **Noun (1)**: {過|あやま}ち (mistake/wrongdoing)
+
+Notable features:
+- Multi-sense entries: {逆風|ぎゃくふう} (2: headwind + adversity), {造形|ぞうけい} (2: modeling + plastic arts), {道標|みちしるべ} (2: signpost + guide), {道筋|みちすじ} (2: route + course of action)
+- Transportation: {運行|うんこう}, {遠回|とおまわ}り, {送|おく}り{迎|むか}え, {連結|れんけつ}
+- Business/formal: {転載|てんさい}, {進出|しんしゅつ}, {連結|れんけつ}, {請|う}け{負|お}う, {買取|かいとり}
+- Daily life: {通話|つうわ}, {詰|つ}め{物|もの}, {適量|てきりょう}, {週刊|しゅうかん}
+- New kanji: 2,468 → 2,470 ({諌|かん}, {逝|せい})
+
+Total entries: 14,414 → 14,444 (approximate)
+Remaining candidates: 5,355 → 5,325 (30 removed)
+
 ### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 351)
 Added 30 new dictionary entries (IDs 14299-14328) from candidate_words.json:
 

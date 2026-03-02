@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-01
+**Last updated**: 2026-03-02
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,564 |
+| Total entries | ~14,594 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,765 (open) |
-| Candidate words | ~5,205 |
+| General tier | ~11,795 (open) |
+| Candidate words | ~5,175 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 358)
+Added 30 new dictionary entries (IDs 14509-14538) from candidate_words.json:
+
+- **I-adjective (1)**: {重|おも}たい (heavy — colloquial)
+- **Na-adjectives (2)**: {閑静|かんせい} (quiet/peaceful), {間近|まぢか} (close/imminent)
+- **Godan verbs (2)**: {閉|と}じこもる (to shut oneself in), {阻|はば}む (to block)
+- **Godan verb (1)**: {陥|おちい}る (to fall into)
+- **Noun/suru verbs (10)**: {通説|つうせつ} (accepted theory), {進言|しんげん} (advice to a superior), {鎖国|さこく} (national isolation), {鑑賞|かんしょう} (appreciation), {長居|ながい} (overstaying), {長続|ながつづ}き (lasting), {閉鎖|へいさ} (closure), {開花|かいか} (flowering), {隔離|かくり} (quarantine), {隠居|いんきょ} (retirement)
+- **Nouns (14)**: {農作業|のうさぎょう} (farm work), {錦鯉|にしきごい} (koi), {鎮痛|ちんつう} (pain relief), {長女|ちょうじょ} (eldest daughter), {長男|ちょうなん} (eldest son), {長雨|ながあめ} (prolonged rain), {門松|かどまつ} (New Year's pine decoration), {闇|やみ} (darkness/black market), {降雪|こうせつ} (snowfall), {陶器|とうき} (pottery), {随一|ずいいち} (foremost), {際限|さいげん} (limit), {障壁|しょうへき} (barrier), {閃光|せんこう} (flash)
+
+Notable features:
+- Multi-sense entries: {開花|かいか} (2: blooming + bearing fruit), {闇|やみ} (2: darkness + black market), {間近|まぢか} (2: nearby + imminent), {隠居|いんきょ} (2: retirement + retired person)
+- Culture: {門松|かどまつ}, {錦鯉|にしきごい}, {鎖国|さこく}, {陶器|とうき}
+- Family: {長女|ちょうじょ}, {長男|ちょうなん}
+- Weather: {長雨|ながあめ}, {降雪|こうせつ}
+- Medical: {鎮痛|ちんつう}, {隔離|かくり}
+- New kanji: 2,478 → 2,481 ({錦|きん}, {鎮|ちん}, {閃|せん})
+
+Total entries: 14,564 → 14,594 (approximate)
+Remaining candidates: 5,205 → 5,175 (30 removed)
 
 ### 2026-03-01 (Vocabulary Expansion - 30 New Entries, Session 357)
 Added 30 new dictionary entries (IDs 14479-14508) from candidate_words.json:
@@ -131,27 +152,6 @@ Notable features:
 
 Total entries: 14,444 → 14,474 (approximate)
 Remaining candidates: 5,325 → 5,295 (30 removed)
-
-### 2026-02-28 (Vocabulary Expansion - 30 New Entries, Session 353)
-Added 30 new dictionary entries (IDs 14359-14388) from candidate_words.json:
-
-- **Noun/suru verbs (13)**: {転載|てんさい} (reposting), {送|おく}り{迎|むか}え (picking up and dropping off), {通話|つうわ} (telephone call), {逝去|せいきょ} (passing away), {造形|ぞうけい} (modeling/plastic arts), {進展|しんてん} (progress), {運行|うんこう} (train/bus operation), {遠回|とおまわ}り (detour), {適応|てきおう} (adaptation), {遭遇|そうぐう} (encounter), {進出|しんしゅつ} (expansion/advance), {連結|れんけつ} (connection/coupling), {逃亡|とうぼう} (flight/escape)
-- **Nouns (11)**: {農産物|のうさんぶつ} (agricultural products), {近隣|きんりん} (neighborhood), {詰|つ}め{物|もの} (filling/stuffing), {買取|かいとり} (trade-in), {連中|れんちゅう} (bunch/group), {週刊|しゅうかん} (weekly publication), {達人|たつじん} (master/expert), {遠隔|えんかく} (remote), {適量|てきりょう} (proper amount), {道標|みちしるべ} (signpost), {道筋|みちすじ} (route/course)
-- **Godan verbs (2)**: {請|う}け{負|お}う (to contract), {遠|とお}ざかる (to recede)
-- **Ichidan verb (1)**: {諌|いさ}める (to admonish)
-- **Na-adjective (1)**: {過度|かど} (excessive)
-- **I-adjective (1)**: {逆風|ぎゃくふう} (headwind/adversity)
-- **Noun (1)**: {過|あやま}ち (mistake/wrongdoing)
-
-Notable features:
-- Multi-sense entries: {逆風|ぎゃくふう} (2: headwind + adversity), {造形|ぞうけい} (2: modeling + plastic arts), {道標|みちしるべ} (2: signpost + guide), {道筋|みちすじ} (2: route + course of action)
-- Transportation: {運行|うんこう}, {遠回|とおまわ}り, {送|おく}り{迎|むか}え, {連結|れんけつ}
-- Business/formal: {転載|てんさい}, {進出|しんしゅつ}, {連結|れんけつ}, {請|う}け{負|お}う, {買取|かいとり}
-- Daily life: {通話|つうわ}, {詰|つ}め{物|もの}, {適量|てきりょう}, {週刊|しゅうかん}
-- New kanji: 2,468 → 2,470 ({諌|かん}, {逝|せい})
-
-Total entries: 14,414 → 14,444 (approximate)
-Remaining candidates: 5,355 → 5,325 (30 removed)
 
 ---
 
