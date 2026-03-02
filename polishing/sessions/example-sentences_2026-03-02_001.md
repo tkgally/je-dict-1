@@ -1,10 +1,10 @@
 # Example Sentences Polishing Session
 
 **Date:** 2026-03-02
-**Range checked:** 03721–03860
-**Entries checked:** 140
-**Entries modified:** 86
-**Entries already compliant:** 54
+**Range checked:** 03721–03880
+**Entries checked:** 160
+**Entries modified:** 100
+**Entries already compliant:** 60
 
 ## Batch 1: 03721–03740
 
@@ -202,10 +202,38 @@
 | 03855_taitoru | general | 2 | 3 | 6 | +3, reorganized by sense |
 | 03860_dezain | core | 1 | 3 | 5 | +2, reordered for length |
 
+## Batch 8: 03861–03880
+
+### Passed (no changes needed)
+- 03861_deeto
+- 03864_toranpu
+- 03865_tonneru
+- 03869_haikingu
+- 03872_masukomi
+- 03873_nanika
+
+### Modified (14 entries)
+| Entry | Tier | Senses | Before | After | Change |
+|-------|------|--------|--------|-------|--------|
+| 03862_toppu | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03863_torakku | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03866_doraibu | general | 2 | 3 | 6 | +3, reordered sense 2 |
+| 03867_dorama | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03868_nokku | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03870_baransu | general | 2 | 3 | 6 | +3, reorganized by sense |
+| 03871_puro | general | 2 | 3 | 6 | +3, reordered sense 2 |
+| 03874_nanimo | basic | 2 | 10 | 10 | rebalanced senses |
+| 03875_nande | basic | 2 | 10 | 10 | rebalanced senses |
+| 03876_nihon | core | 1 | 3 | 5 | +2 |
+| 03877_youbi | basic | 1 | 3 | 5 | +2 |
+| 03878_moto | general | 3 | 3 | 9 | +6, reorganized by sense |
+| 03879_douzoyoroshiku | core | 2 | 3 | 10 | +7, reorganized by sense |
+| 03880_kama | general | 2 | 3 | 6 | +3, reorganized by sense |
+
 ## Notes
 - Most multi-sense entries had only 3 examples total regardless of sense count
 - Core 2-sense entries needed the most additions (+7 from 3→10)
 - Fixed reversed furigana in 03724_honoo: `{ろうそく|蝋燭}` → `ろうそく`
 - Fixed example ID format in 6 entries where agents used short IDs (e.g., 03831_ex1 → 03831_arubamu_ex1)
-- Used parallel agents for batches 2-7 to speed up fixes
-- Progress updated to `next: 03861`
+- Used parallel agents for batches 2-8 to speed up fixes
+- Progress updated to `next: 03881`
