@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-02
+**Last updated**: 2026-03-03
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,744 |
+| Total entries | ~14,774 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,945 (open) |
-| Candidate words | ~5,025 |
+| General tier | ~11,975 (open) |
+| Candidate words | ~4,996 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 364)
+Added 30 new dictionary entries (IDs 14689-14718) from candidate_words.json:
+
+- **Nouns (16)**: {重要文化財|じゅうようぶんかざい} (Important Cultural Property), {陸地|りくち} (land), {顔面|がんめん} (face), {食育|しょくいく} (food education), {音源|おんげん} (sound source/audio track), {高まり|たかまり} (rise/heightening), {高値|たかね} (high price), {高額|こうがく} (large sum), {高温|こうおん} (high temperature), {魚介|ぎょかい} (seafood), {鯛|たい} (sea bream), {黒船|くろふね} (black ships), {黎明期|れいめいき} (dawn of an era), {騎士|きし} (knight), {風当|かぜあ}たり (wind exposure/criticism), {食|く}い{倒|だお}れ (eating oneself into ruin)
+- **Noun/suru verb (1)**: {鼓舞|こぶ} (encouragement)
+- **Godan verbs (2)**: {陣取|じんど}る (to take up position), {駆|か}る (to drive/compel)
+- **Ichidan verbs (2)**: {駆|か}ける (to run/dash), {魅|み}せる (to fascinate)
+- **Na-adjectives (4)**: {風流|ふうりゅう} (elegant), {鬱|うつ} (depression), {高らか|たからか} (resounding), {露|あらわ} (exposed/undisguised)
+- **Adverb (1)**: {黙々|もくもく} (silently/diligently)
+- **Multi-POS (4)**: {風俗|ふうぞく} (customs/entertainment), {雛形|ひながた} (model/template), {鞘|さや} (sheath/pod), {風水|ふうすい} (feng shui)
+
+Notable features:
+- Multi-sense entries: {風俗|ふうぞく} (2: customs + adult entertainment), {雛形|ひながた} (2: model + template), {鞘|さや} (2: sheath + pod), {鬱|うつ} (2: depression + gloom), {黒船|くろふね} (2: historical + figurative disruptor), {音源|おんげん} (2: sound source + audio track), {風当|かぜあ}たり (2: wind exposure + criticism), {駆|か}る (2: drive/spur + compel), {駆|か}ける (2: run + gallop), {露|あらわ} (2: exposed + undisguised), {食|く}い{倒|だお}れ (2: spending ruin + Osaka culture)
+- Culture: {重要文化財|じゅうようぶんかざい}, {黒船|くろふね}, {風水|ふうすい}, {風流|ふうりゅう}, {鯛|たい}, {食|く}い{倒|だお}れ
+- Daily life: {高温|こうおん}, {魚介|ぎょかい}, {顔面|がんめん}, {食育|しょくいく}, {音源|おんげん}
+- Finance: {高値|たかね}, {高額|こうがく}
+- New kanji: 2,488 → 2,490 ({雛|すい}, {鞘|しょう})
+
+Total entries: 14,744 → 14,774 (approximate)
+Remaining candidates: 5,025 → 4,996 (29 removed)
 
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 363)
 Added 30 new dictionary entries (IDs 14659-14688) from candidate_words.json:
@@ -134,28 +155,6 @@ Notable features:
 
 Total entries: 14,624 → 14,654 (approximate)
 Remaining candidates: 5,145 → 5,115 (30 removed)
-
-### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 359)
-Added 30 new dictionary entries (IDs 14539-14568) from candidate_words.json:
-
-- **Ichidan verbs (2)**: {長|た}ける (to be skilled at), {閉|と}じ{込|こ}める (to lock up/confine)
-- **Godan verbs (2)**: {謳|うた}う (to extol/stipulate), {諮|はか}る (to consult)
-- **Noun/suru verbs (7)**: {鎮圧|ちんあつ} (suppression), {進入|しんにゅう} (entry/approach), {白濁|はくだく} (cloudiness), {配車|はいしゃ} (vehicle dispatch), {閉塞|へいそく} (blockage/stagnation), {開示|かいじ} (disclosure), {除去|じょきょ} (removal)
-- **Nouns (14)**: {部活動|ぶかつどう} (club activities), {鎧|よろい} (armor), {遺物|いぶつ} (relic), {部類|ぶるい} (category), {酒宴|しゅえん} (drinking party), {都市部|としぶ} (urban area), {銀髪|ぎんぱつ} (silver hair), {酒浸|さけびた}り (heavy drinking), {見殺|みごろ}し (abandoning), {自失|じしつ} (daze/stupor), {長身|ちょうしん} (tall stature), {門外漢|もんがいかん} (outsider/layman), {防音|ぼうおん} (soundproofing), {陛下|へいか} (Your Majesty)
-- **Na-adjectives (2)**: {長|なが}め (somewhat long), {閑散|かんさん} (deserted/slack)
-- **Adverb (1)**: {道|みち}すがら (along the way)
-- **Noun (time) (1)**: {間際|まぎわ} (just before/verge)
-- **Noun (formal) (1)**: {隆盛|りゅうせい} (prosperity/flourishing)
-
-Notable features:
-- Multi-sense entries: {謳|うた}う (2: extol + stipulate), {閉塞|へいそく} (2: blockage + stagnation), {閑散|かんさん} (2: deserted + slack)
-- Culture/society: {部活動|ぶかつどう}, {鎧|よろい}, {陛下|へいか}, {酒宴|しゅえん}, {門外漢|もんがいかん}
-- Daily life: {防音|ぼうおん}, {配車|はいしゃ}, {都市部|としぶ}, {長身|ちょうしん}, {銀髪|ぎんぱつ}
-- Formal/literary: {諮|はか}る, {隆盛|りゅうせい}, {道|みち}すがら, {開示|かいじ}
-- New kanji: 2,481 → 2,486 ({諮|し}, {謳|おう}, {鎧|がい}, {陛|へい}, {隆|りゅう})
-
-Total entries: 14,594 → 14,624 (approximate)
-Remaining candidates: 5,175 → 5,145 (30 removed)
 
 ---
 

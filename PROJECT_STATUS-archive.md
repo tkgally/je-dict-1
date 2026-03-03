@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 359)
+Added 30 new dictionary entries (IDs 14539-14568) from candidate_words.json:
+
+- **Ichidan verbs (2)**: {長|た}ける (to be skilled at), {閉|と}じ{込|こ}める (to lock up/confine)
+- **Godan verbs (2)**: {謳|うた}う (to extol/stipulate), {諮|はか}る (to consult)
+- **Noun/suru verbs (7)**: {鎮圧|ちんあつ} (suppression), {進入|しんにゅう} (entry/approach), {白濁|はくだく} (cloudiness), {配車|はいしゃ} (vehicle dispatch), {閉塞|へいそく} (blockage/stagnation), {開示|かいじ} (disclosure), {除去|じょきょ} (removal)
+- **Nouns (14)**: {部活動|ぶかつどう} (club activities), {鎧|よろい} (armor), {遺物|いぶつ} (relic), {部類|ぶるい} (category), {酒宴|しゅえん} (drinking party), {都市部|としぶ} (urban area), {銀髪|ぎんぱつ} (silver hair), {酒浸|さけびた}り (heavy drinking), {見殺|みごろ}し (abandoning), {自失|じしつ} (daze/stupor), {長身|ちょうしん} (tall stature), {門外漢|もんがいかん} (outsider/layman), {防音|ぼうおん} (soundproofing), {陛下|へいか} (Your Majesty)
+- **Na-adjectives (2)**: {長|なが}め (somewhat long), {閑散|かんさん} (deserted/slack)
+- **Adverb (1)**: {道|みち}すがら (along the way)
+- **Noun (time) (1)**: {間際|まぎわ} (just before/verge)
+- **Noun (formal) (1)**: {隆盛|りゅうせい} (prosperity/flourishing)
+
+Total entries: 14,594 → 14,624 (approximate)
+Remaining candidates: 5,175 → 5,145 (30 removed)
+
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 358)
 Added 30 new dictionary entries (IDs 14509-14538) from candidate_words.json:
 
