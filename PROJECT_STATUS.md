@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,804 |
+| Total entries | ~14,834 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,005 (open) |
-| Candidate words | ~4,966 |
+| General tier | ~12,035 (open) |
+| Candidate words | ~4,936 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 366)
+Added 30 new dictionary entries (IDs 14749-14778) from candidate_words.json:
+
+- **Nouns (13)**: {囃子|はやし} (musical accompaniment), {妃|きさき} (empress consort), {具体例|ぐたいれい} (concrete example), {保冷剤|ほれいざい} (ice pack), {色紙|しきし} (autograph board), {港湾|こうわん} (harbor), {魔王|まおう} (demon king), {酒粕|さけかす} (sake lees), {領事館|りょうじかん} (consulate), {外交官|がいこうかん} (diplomat), {招待状|しょうたいじょう} (invitation), {鉄製|てっせい} (made of iron), {身辺|しんぺん} (around oneself)
+- **Noun/suru verbs (7)**: {白眼視|はくがんし} (scorn), {遷都|せんと} (capital transfer), {祝賀|しゅくが} (celebration), {入港|にゅうこう} (port entry), {割愛|かつあい} (omitting), {鎮座|ちんざ} (enshrinement), {風靡|ふうび} (sweeping popularity)
+- **Na-adjectives (5)**: {荘厳|そうごん} (solemn/sublime), {厳粛|げんしゅく} (grave/solemn), {高尚|こうしょう} (noble/refined), {限定的|げんていてき} (limited), {網羅的|もうらてき} (exhaustive)
+- **Noun/na-adjective (1)**: {非道|ひどう} (inhumane)
+- **Noun/suru verb (2)**: {現状維持|げんじょういじ} (status quo), {逢瀬|おうせ} (tryst)
+- **Ichidan verb (1)**: {盛|も}り{付|つ}ける (to plate food)
+- **Noun (ceremony) (1)**: {祝辞|しゅくじ} (congratulatory speech)
+
+Notable features:
+- Multi-sense entries: {鎮座|ちんざ} (2: enshrinement + sitting imposingly)
+- Paired entries: {荘厳|そうごん}/{厳粛|げんしゅく}, {限定的|げんていてき}/{網羅的|もうらてき}, {領事館|りょうじかん}/{外交官|がいこうかん}
+- Cultural: {囃子|はやし}, {妃|きさき}, {逢瀬|おうせ}, {色紙|しきし}, {酒粕|さけかす}, {魔王|まおう}
+- Formal/academic: {白眼視|はくがんし}, {遷都|せんと}, {割愛|かつあい}, {風靡|ふうび}, {高尚|こうしょう}
+- New kanji: 2,493 → 2,496 ({囃|そう}, {逢|ほう}, {靡|ひ})
+
+Total entries: 14,804 → 14,834 (approximate)
+Remaining candidates: 4,966 → 4,936 (30 removed)
 
 ### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 365)
 Added 30 new dictionary entries (IDs 14719-14748) from candidate_words.json:
@@ -134,29 +155,6 @@ Notable features:
 
 Total entries: 14,684 → 14,714 (approximate)
 Remaining candidates: 5,085 → 5,055 (30 removed)
-
-### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 361)
-Added 30 new dictionary entries (IDs 14599-14628) from candidate_words.json:
-
-- **Nouns (17)**: {随所|ずいしょ} (everywhere), {集|つど}い (gathering), {雑念|ざつねん} (distracting thoughts), {門|もん} (gate), {難所|なんしょ} (difficult spot), {雨水|あまみず} (rainwater), {雪国|ゆきぐに} (snow country), {電力|でんりょく} (electric power), {露天風呂|ろてんぶろ} (open-air bath), {青春|せいしゅん} (youth), {静|しず}けさ (quietness), {面子|めんつ} (face/dignity), {頻度|ひんど} (frequency), {願|ねが}い{事|ごと} (wish), {風船|ふうせん} (balloon), {養子|ようし} (adopted child), {風土|ふうど} (climate and culture)
-- **Noun/suru verbs (2)**: {離散|りさん} (dispersal), {非難|ひなん} (criticism)
-- **Noun/na-adjective (2)**: {非常識|ひじょうしき} (lack of common sense), {難病|なんびょう} (intractable disease)
-- **Ichidan verbs (2)**: {青|あお}ざめる (to turn pale), {飢|う}える (to starve)
-- **Godan verbs (3)**: {頬張|ほおば}る (to stuff one's cheeks), {頼|たの}み{込|こ}む (to beg), {食|く}いしばる (to clench teeth)
-- **Na-adjective (1)**: {頑|かたく}な (stubborn)
-- **Noun (food) (1)**: {風味|ふうみ} (flavor)
-- **Noun (geography) (1)**: {陰影|いんえい} (shadow/nuance)
-- **Noun (time) (1)**: {震災|しんさい} (earthquake disaster)
-
-Notable features:
-- Multi-sense entries: {陰影|いんえい} (2: shading + nuance), {飢|う}える (2: starve + hunger for), {風土|ふうど} (2: climate + cultural character)
-- Culture/nature: {露天風呂|ろてんぶろ}, {雪国|ゆきぐに}, {雨水|あまみず}, {震災|しんさい}, {青春|せいしゅん}, {願|ねが}い{事|ごと}
-- Body/emotion: {頬張|ほおば}る, {青|あお}ざめる, {食|く}いしばる, {飢|う}える
-- Social/abstract: {面子|めんつ}, {非常識|ひじょうしき}, {非難|ひなん}, {養子|ようし}, {離散|りさん}
-- Diverse POS mix: nouns, suru verbs, godan verbs, ichidan verbs, na-adjectives
-
-Total entries: 14,654 → 14,684 (approximate)
-Remaining candidates: 5,115 → 5,085 (30 removed)
 
 ---
 

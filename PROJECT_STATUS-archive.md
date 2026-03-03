@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 361)
+Added 30 new dictionary entries (IDs 14599-14628) from candidate_words.json:
+
+- **Nouns (17)**: {随所|ずいしょ} (everywhere), {集|つど}い (gathering), {雑念|ざつねん} (distracting thoughts), {門|もん} (gate), {難所|なんしょ} (difficult spot), {雨水|あまみず} (rainwater), {雪国|ゆきぐに} (snow country), {電力|でんりょく} (electric power), {露天風呂|ろてんぶろ} (open-air bath), {青春|せいしゅん} (youth), {静|しず}けさ (quietness), {面子|めんつ} (face/dignity), {頻度|ひんど} (frequency), {願|ねが}い{事|ごと} (wish), {風船|ふうせん} (balloon), {養子|ようし} (adopted child), {風土|ふうど} (climate and culture)
+- **Noun/suru verbs (2)**: {離散|りさん} (dispersal), {非難|ひなん} (criticism)
+- **Noun/na-adjective (2)**: {非常識|ひじょうしき} (lack of common sense), {難病|なんびょう} (intractable disease)
+- **Ichidan verbs (2)**: {青|あお}ざめる (to turn pale), {飢|う}える (to starve)
+- **Godan verbs (3)**: {頬張|ほおば}る (to stuff one's cheeks), {頼|たの}み{込|こ}む (to beg), {食|く}いしばる (to clench teeth)
+- **Na-adjective (1)**: {頑|かたく}な (stubborn)
+- **Noun (food) (1)**: {風味|ふうみ} (flavor)
+- **Noun (geography) (1)**: {陰影|いんえい} (shadow/nuance)
+- **Noun (time) (1)**: {震災|しんさい} (earthquake disaster)
+
+Notable features:
+- Multi-sense entries: {陰影|いんえい} (2: shading + nuance), {飢|う}える (2: starve + hunger for), {風土|ふうど} (2: climate + cultural character)
+- Culture/nature: {露天風呂|ろてんぶろ}, {雪国|ゆきぐに}, {雨水|あまみず}, {震災|しんさい}, {青春|せいしゅん}, {願|ねが}い{事|ごと}
+- Body/emotion: {頬張|ほおば}る, {青|あお}ざめる, {食|く}いしばる, {飢|う}える
+- Social/abstract: {面子|めんつ}, {非常識|ひじょうしき}, {非難|ひなん}, {養子|ようし}, {離散|りさん}
+- Diverse POS mix: nouns, suru verbs, godan verbs, ichidan verbs, na-adjectives
+
+Total entries: 14,654 → 14,684 (approximate)
+Remaining candidates: 5,115 → 5,085 (30 removed)
+
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 359)
 Added 30 new dictionary entries (IDs 14539-14568) from candidate_words.json:
 
