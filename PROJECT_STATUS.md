@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,834 |
+| Total entries | ~14,864 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,035 (open) |
-| Candidate words | ~4,936 |
+| General tier | ~12,065 (open) |
+| Candidate words | ~4,906 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 367)
+Added 30 new dictionary entries (IDs 14779-14808) from candidate_words.json:
+
+- **Nouns (14)**: {道連|みちづ}れ (traveling companion), {縁結|えんむす}び (matchmaking), {面識|めんしき} (acquaintance), {挽肉|ひきにく} (ground meat), {身振|みぶ}り (gesture), {欠員|けついん} (vacancy), {先代|せんだい} (predecessor), {長電話|ながでんわ} (long phone call), {重役|じゅうやく} (executive), {空室|くうしつ} (vacant room), {慰謝料|いしゃりょう} (consolation money), {野菜炒|やさいいた}め (stir-fried vegetables), {鍋物|なべもの} (hot pot), {設計図|せっけいず} (blueprint)
+- **Noun/suru verbs (8)**: {矯正|きょうせい} (correction), {丸暗記|まるあんき} (rote memorization), {深酒|ふかざけ} (heavy drinking), {転送|てんそう} (forwarding), {報復|ほうふく} (retaliation), {暗唱|あんしょう} (recitation), {釈放|しゃくほう} (release), {世襲|せしゅう} (hereditary succession)
+- **I-adjective (1)**: {嘆|なげ}かわしい (deplorable)
+- **Na-adjective (1)**: {潜在的|せんざいてき} (potential/latent)
+- **Adverb (1)**: {格段|かくだん}に (remarkably)
+- **Noun (weather) (1)**: {高気圧|こうきあつ} (high atmospheric pressure)
+- **Ichidan verb (1)**: {迎|むか}え{入|い}れる (to welcome in)
+- **Godan verbs (2)**: {食|く}い{下|さ}がる (to persist), {立|た}ちくらみ (dizziness upon standing)
+
+Notable features:
+- Multi-sense entries: {道連|みちづ}れ (2: companion + dragging down), {迎|むか}え{入|い}れる (compound verb)
+- Daily life: {挽肉|ひきにく}, {野菜炒|やさいいた}め, {鍋物|なべもの}, {立|た}ちくらみ, {長電話|ながでんわ}, {空室|くうしつ}
+- Legal/formal: {慰謝料|いしゃりょう}, {釈放|しゃくほう}, {報復|ほうふく}, {面識|めんしき}
+- Business: {重役|じゅうやく}, {欠員|けついん}, {転送|てんそう}, {設計図|せっけいず}
+- Education: {丸暗記|まるあんき}, {暗唱|あんしょう}, {矯正|きょうせい}
+- Culture: {縁結|えんむす}び, {鍋物|なべもの}, {世襲|せしゅう}
+- New kanji: 2,496 → 2,497 ({矯|きょう})
+
+Total entries: 14,834 → 14,864 (approximate)
+Remaining candidates: 4,936 → 4,906 (30 removed)
 
 ### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 366)
 Added 30 new dictionary entries (IDs 14749-14778) from candidate_words.json:
@@ -135,26 +159,6 @@ Notable features:
 
 Total entries: 14,714 → 14,744 (approximate)
 Remaining candidates: 5,055 → 5,025 (30 removed)
-
-### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 362)
-Added 30 new dictionary entries (IDs 14629-14658) from candidate_words.json:
-
-- **Verbs (4)**: {面|めん}する (to face), {静|しず}まり{返|かえ}る (to fall completely silent), {馴染|なじ}む (to become familiar), {駆|か}けつける (to rush to)
-- **Nouns (17)**: {風呂|ふろ} (bath), {食|しょく}パン (sliced bread), {首輪|くびわ} (collar), {馬車|ばしゃ} (carriage), {魂|たましい} (soul), {魔法|まほう} (magic), {魔女|まじょ} (witch), {魚屋|さかなや} (fish shop), {鮮度|せんど} (freshness), {麺|めん} (noodles), {黄金|おうごん} (gold), {髪型|かみがた} (hairstyle), {高熱|こうねつ} (high fever), {駄々|だだ} (tantrum), {馬力|ばりき} (horsepower), {騒動|そうどう} (commotion), {驚異|きょうい} (wonder)
-- **Noun/suru verbs (4)**: {高騰|こうとう} (soaring prices), {集会|しゅうかい} (assembly), {養成|ようせい} (training), {高揚|こうよう} (elation)
-- **Nouns (other) (2)**: {頼|たよ}り (reliance), {高齢|こうれい} (old age)
-- **I-adjectives (2)**: {頼|たよ}りない (unreliable), {青白|あおじろ}い (pale)
-- **Noun (weather) (1)**: {風向|かざむ}き (wind direction)
-
-Notable features:
-- Multi-sense entries: {馴染|なじ}む (2: get used to + fit in), {黄金|おうごん} (2: gold + golden/prime), {魂|たましい} (2: soul + spirit/passion), {風向|かざむ}き (2: wind direction + trend), {青白|あおじろ}い (2: pale + bluish-white), {馬力|ばりき} (2: horsepower + vigor)
-- Daily life: {風呂|ふろ}, {食|しょく}パン, {首輪|くびわ}, {髪型|かみがた}, {麺|めん}, {魚屋|さかなや}
-- Culture/pop culture: {魔法|まほう}, {魔女|まじょ}, {黄金|おうごん}, {魂|たましい}
-- Economy/society: {高騰|こうとう}, {高齢|こうれい}, {集会|しゅうかい}, {養成|ようせい}
-- New kanji: 2,486 → 2,487 ({魂|こん})
-
-Total entries: 14,684 → 14,714 (approximate)
-Remaining candidates: 5,085 → 5,055 (30 removed)
 
 ---
 
