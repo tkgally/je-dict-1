@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,774 |
+| Total entries | ~14,804 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~11,975 (open) |
-| Candidate words | ~4,996 |
+| General tier | ~12,005 (open) |
+| Candidate words | ~4,966 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 365)
+Added 30 new dictionary entries (IDs 14719-14748) from candidate_words.json:
+
+- **Nouns (15)**: ケチャップ (ketchup), {開港|かいこう} (opening of a port), {冷凍庫|れいとうこ} (freezer), {常温|じょうおん} (room temperature), {穴場|あなば} (hidden gem), {撤去|てっきょ} (removal), {下見|したみ} (preliminary visit), {怪獣|かいじゅう} (monster), {泥酔|でいすい} (dead drunk), {車酔|くるまよ}い (carsickness), {駄菓子|だがし} (cheap sweets), {積雪|せきせつ} (snow cover), {助手席|じょしゅせき} (passenger seat), {鋼|はがね} (steel), {古本|ふるほん} (used book)
+- **Nouns (compound)**: {掘|ほ}り{出|だ}し{物|もの} (bargain/lucky find), {鍵盤|けんばん} (keyboard/keys), {犠牲|ぎせい} (sacrifice/victim), {弁償|べんしょう} (compensation), {正反対|せいはんたい} (exact opposite)
+- **I-adjectives (2)**: {待|ま}ち{遠|どお}しい (eagerly awaited), {脂|あぶら}っこい (greasy)
+- **Na-adjectives (3)**: {割高|わりだか} (relatively expensive), {割安|わりやす} (relatively cheap), {過保護|かほご} (overprotective)
+- **Godan verb (1)**: {悔|く}やむ (to regret/mourn)
+- **Food/drink (4)**: ケチャップ, おでん, {駄菓子|だがし}, {脂|あぶら}っこい
+- **Noun (food)**: おでん (oden stew)
+
+Notable features:
+- Multi-sense entries: {悔|く}やむ (2: regret + mourn), {洋画|ようが} (2: Western film + Western painting), {犠牲|ぎせい} (2: sacrifice + victim)
+- Paired entries: {割高|わりだか}/{割安|わりやす}, {邦画|ほうが}/{洋画|ようが}
+- Daily life: {冷凍庫|れいとうこ}, {常温|じょうおん}, {車酔|くるまよ}い, {助手席|じょしゅせき}, {段差|だんさ}
+- Culture: おでん, {駄菓子|だがし}, {怪獣|かいじゅう}, {古本|ふるほん}
+- New kanji: 2,490 → 2,493 ({犠|ぎ}, {牲|せい}, {鋼|こう})
+
+Total entries: 14,774 → 14,804 (approximate)
+Remaining candidates: 4,996 → 4,966 (30 removed)
 
 ### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 364)
 Added 30 new dictionary entries (IDs 14689-14718) from candidate_words.json:
@@ -136,25 +157,6 @@ Notable features:
 
 Total entries: 14,654 → 14,684 (approximate)
 Remaining candidates: 5,115 → 5,085 (30 removed)
-
-### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 360)
-Added 30 new dictionary entries (IDs 14569-14598) from candidate_words.json:
-
-- **Noun/suru verbs (12)**: {開店|かいてん} (opening a store), {開業|かいぎょう} (starting a business), {防止|ぼうし} (prevention), {闘争|とうそう} (struggle/conflict), {防御|ぼうぎょ} (defense), {阻害|そがい} (obstruction), {隣接|りんせつ} (adjacent), {離脱|りだつ} (withdrawal), {難航|なんこう} (rough going), {開設|かいせつ} (establishment), {集計|しゅうけい} (tabulation), {陥落|かんらく} (fall/capture)
-- **Nouns (7)**: {関門|かんもん} (barrier/hurdle), {階層|かいそう} (class/layer), {集大成|しゅうたいせい} (culmination), {雑煮|ぞうに} (New Year's soup), {難色|なんしょく} (reluctance), {雨上|あめあ}がり (after rain), {雨音|あまおと} (sound of rain), {詰|つ}め{襟|えり} (stand-up collar), {離島|りとう} (remote island)
-- **Noun/na-adjective (3)**: {間抜|まぬ}け (fool), {雄弁|ゆうべん} (eloquent), {雑|ざつ} (sloppy)
-- **Godan verbs (2)**: {見知|みし}る (to know by sight), {集|つど}う (to gather)
-- **Noun (time) (1)**: {除夜|じょや} (New Year's Eve)
-- **Adverbs (2)**: {長|なが}らく (for a long time), {難|なん}なく (without difficulty)
-
-Notable features:
-- Multi-sense entries: {開店|かいてん} (2: first opening + daily opening), {関門|かんもん} (2: checkpoint + hurdle), {階層|かいそう} (2: social class + layer/tier), {陰|かげ} (2: shade + behind the scenes)
-- Culture/seasons: {雑煮|ぞうに}, {除夜|じょや}, {雨上|あめあ}がり, {雨音|あまおと}, {詰|つ}め{襟|えり}
-- Business/formal: {開店|かいてん}, {開業|かいぎょう}, {開設|かいせつ}, {集計|しゅうけい}, {難航|なんこう}, {難色|なんしょく}
-- Diverse POS mix: nouns, suru verbs, godan verbs, na-adjectives, adverbs
-
-Total entries: 14,624 → 14,654 (approximate)
-Remaining candidates: 5,145 → 5,115 (30 removed)
 
 ---
 
