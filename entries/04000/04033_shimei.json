@@ -14,8 +14,8 @@
   "examples": [
     {
       "id": "04033_shimei_ex1",
-      "japanese": "{氏名|しめい}をフルネームで{記入|きにゅう}してください。",
-      "english": "Please write your full name.",
+      "japanese": "{氏名|しめい}を{書|か}いてください。",
+      "english": "Please write your name.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -24,6 +24,16 @@
     },
     {
       "id": "04033_shimei_ex2",
+      "japanese": "ここに{氏名|しめい}と{住所|じゅうしょ}を{記入|きにゅう}する。",
+      "english": "Fill in your name and address here.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04033_shimei_ex3",
       "japanese": "{応募者|おうぼしゃ}の{氏名|しめい}と{住所|じゅうしょ}を{確認|かくにん}した。",
       "english": "I confirmed the applicant's name and address.",
       "notes": null,
@@ -33,10 +43,20 @@
       ]
     },
     {
-      "id": "04033_shimei_ex3",
+      "id": "04033_shimei_ex4",
       "japanese": "{氏名|しめい}{不詳|ふしょう}の{男性|だんせい}が{病院|びょういん}に{運|はこ}ばれた。",
       "english": "An unidentified man was brought to the hospital.",
       "notes": "氏名不詳 = name unknown, unidentified",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04033_shimei_ex5",
+      "japanese": "{申込書|もうしこみしょ}には{氏名|しめい}、{生年月日|せいねんがっぴ}、{連絡先|れんらくさき}を{正確|せいかく}に{記入|きにゅう}してください。",
+      "english": "Please accurately fill in your full name, date of birth, and contact information on the application form.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -55,7 +75,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-01-19T12:17:42.701885Z",
+    "modified": "2026-03-03T00:31:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
