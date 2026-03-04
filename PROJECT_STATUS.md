@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,044 |
+| Total entries | ~15,074 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,245 (open) |
-| Candidate words | ~4,726 |
+| General tier | ~12,275 (open) |
+| Candidate words | ~4,696 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 374)
+Added 30 new dictionary entries (IDs 14989-15018) from candidate_words.json:
+
+- **Nouns (21)**: {淡雪|あわゆき} (light snow), {掃除当番|そうじとうばん} (cleaning duty), {調理器具|ちょうりきぐ} (cooking utensils), {湯切|ゆぎ}り (draining hot water), {賀正|がしょう} (New Year's greeting), {迎春|げいしゅん} (welcoming New Year), {糸|いと}こんにゃく (konjac noodles), {追跡番号|ついせきばんごう} (tracking number), {美品|びひん} (item in good condition), {放射線|ほうしゃせん} (radiation), {自分|じぶん}らしさ (individuality), {赤外線|せきがいせん} (infrared), {国庫|こっこ} (national treasury), {愛好家|あいこうか} (enthusiast), {凝|こ}り{性|しょう} (perfectionist streak), {一口大|ひとくちだい} (bite-sized), {梯子酒|はしござけ} (bar hopping), {無礼講|ぶれいこう} (dropping formalities), {特盛|とくも}り (extra-large serving), {並盛|なみも}り (regular serving), {山菜採|さんさいと}り (foraging)
+- **Noun/verb-suru (2)**: {電子化|でんしか} (digitization), {職務質問|しょくむしつもん} (police questioning)
+- **Adverb (1)**: {点々|てんてん}と (here and there)
+- **Nouns (other) (3)**: {外線|がいせん} (outside phone line), {義手|ぎしゅ} (prosthetic hand), {商用車|しょうようしゃ} (commercial vehicle)
+- **Ichidan verb (1)**: {組|く}み{伏|ふ}せる (to pin down)
+- **Godan verb (1)**: {痛|いた}み{入|い}る (to be deeply grateful)
+- **Loanword (1)**: ルーチン (routine)
+
+Notable features:
+- Diverse themes: food/cooking ({糸|いと}こんにゃく, {湯切|ゆぎ}り, {一口大|ひとくちだい}, {特盛|とくも}り, {並盛|なみも}り), seasonal ({淡雪|あわゆき}, {賀正|がしょう}, {迎春|げいしゅん}, {山菜採|さんさいと}り), daily life ({追跡番号|ついせきばんごう}, {美品|びひん}, {掃除当番|そうじとうばん})
+- Science/tech: {放射線|ほうしゃせん}, {赤外線|せきがいせん}, {電子化|でんしか}
+- Culture: {無礼講|ぶれいこう}, {梯子酒|はしござけ}, {掃除当番|そうじとうばん}
+- Keigo: {痛|いた}み{入|い}る (humble formal expression)
+- First entries in 15000 directory range
+
+Total entries: 15,044 → 15,074 (approximate)
+Remaining candidates: 4,726 → 4,696 (30 removed)
 
 ### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 373)
 Added 30 new dictionary entries (IDs 14959-14988) from candidate_words.json:
@@ -137,28 +158,6 @@ Notable features:
 
 Total entries: 14,924 → 14,954 (approximate)
 Remaining candidates: 4,846 → 4,816 (30 removed)
-
-### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 369)
-Added 30 new dictionary entries (IDs 14839-14868) from candidate_words.json:
-
-- **Noun/suru verbs (7)**: {調整|ちょうせい} (adjustment), {匹敵|ひってき} (rivaling), {検問|けんもん} (checkpoint), {強制終了|きょうせいしゅうりょう} (force quit), {記名|きめい} (signing one's name), {上告|じょうこく} (final appeal), {近縁|きんえん} (closely related)
-- **Nouns (14)**: {就職活動|しゅうしょくかつどう} (job hunting), {魔物|まもの} (demon/monster), {光沢|こうたく} (luster), {港町|みなとまち} (port town), {大型連休|おおがたれんきゅう} (long holiday), {通行料|つうこうりょう} (toll), {甘酢|あまず} (sweet vinegar), {固体|こたい} (solid), {人口密度|じんこうみつど} (population density), {車間距離|しゃかんきょり} (following distance), {領主|りょうしゅ} (feudal lord), {領地|りょうち} (territory), {演台|えんだい} (podium), {霊場|れいじょう} (sacred site)
-- **Godan verbs (2)**: {香|かお}る (to smell sweet), {取次|とりつ}ぐ (to relay/transfer)
-- **Ichidan verb (1)**: {避|よ}ける (to dodge)
-- **Na-adjective/noun (2)**: {完全無欠|かんぜんむけつ} (absolute perfection), {高|たか}め (on the high side)
-- **Noun (cultural) (3)**: {春夏秋冬|しゅんかしゅうとう} (four seasons), {大和言葉|やまとことば} (native Japanese words), {皇位|こうい} (imperial throne)
-- **Noun (academic) (1)**: {音韻|おんいん} (phonology)
-
-Notable features:
-- Multi-sense entries: {魔物|まもの} (2: monster + jinx), {取次|とりつ}ぐ (2: relay + transfer call), {近縁|きんえん} (2: biological + familial), {音韻|おんいん} (2: phonology + phoneme)
-- Daily life: {調整|ちょうせい}, {就職活動|しゅうしょくかつどう}, {大型連休|おおがたれんきゅう}, {車間距離|しゃかんきょり}, {通行料|つうこうりょう}
-- Food: {甘酢|あまず}
-- Science: {固体|こたい}, {人口密度|じんこうみつど}
-- Culture/history: {領主|りょうしゅ}, {領地|りょうち}, {皇位|こうい}, {霊場|れいじょう}, {春夏秋冬|しゅんかしゅうとう}
-- Business: {取次|とりつ}ぐ, {記名|きめい}, {演台|えんだい}
-
-Total entries: 14,894 → 14,924 (approximate)
-Remaining candidates: 4,876 → 4,846 (30 removed)
 
 ---
 
