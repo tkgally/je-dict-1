@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 363)
+Added 30 new dictionary entries (IDs 14659-14688) from candidate_words.json:
+
+- **Nouns (14)**: {防具|ぼうぐ} (protective gear), {陣営|じんえい} (camp/faction), {雪景色|ゆきげしき} (snowy scenery), {霊|れい} (spirit/ghost), {露天|ろてん} (open air), {顔|かお}ぶれ (lineup), {風紀|ふうき} (public morals), {風貌|ふうぼう} (appearance), {食塩|しょくえん} (table salt), {餅|もち}つき (rice cake pounding), {首位|しゅい} (first place), {香料|こうりょう} (spices/fragrance), {高台|たかだい} (elevated ground), {顔立|かおだ}ち (facial features)
+- **Noun/suru verbs (7)**: {開国|かいこく} (opening of a country), {陳情|ちんじょう} (petition), {集約|しゅうやく} (consolidation), {集結|しゅうけつ} (gathering), {頻発|ひんぱつ} (frequent occurrence), {駆使|くし} (full command), {魅了|みりょう} (fascination)
+- **Noun/suru verb (1)**: {高望|たかのぞ}み (aiming too high)
+- **Noun/adjective-no (1)**: {非日常|ひにちじょう} (extraordinary)
+- **Godan verbs (2)**: {霞|かす}む (to become hazy), {駆|か}け{寄|よ}る (to rush over to)
+- **Na-adjective (1)**: {鮮明|せんめい} (vivid/clear)
+- **Noun (time) (1)**: {頃合|ころあ}い (suitable time)
+- **Noun (cultural) (3)**: {金魚|きんぎょ}すくい (goldfish scooping), {開国|かいこく} (opening of country), {餅|もち}つき (mochi pounding)
+
+Total entries: 14,714 → 14,744 (approximate)
+Remaining candidates: 5,055 → 5,025 (30 removed)
+
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 362)
 Added 30 new dictionary entries (IDs 14629-14658) from candidate_words.json:
 
