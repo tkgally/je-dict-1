@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,924 |
+| Total entries | ~14,954 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,125 (open) |
-| Candidate words | ~4,846 |
+| General tier | ~12,155 (open) |
+| Candidate words | ~4,816 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 370)
+Added 30 new dictionary entries (IDs 14869-14898) from candidate_words.json:
+
+- **Godan verbs (4)**: {相次|あいつ}ぐ (to follow in succession), {嘲笑|あざわら}う (to sneer at), {塞|ふさ}がる (to be blocked), {寝|ね}そべる (to sprawl)
+- **Nouns (13)**: {凹凸|おうとつ} (unevenness), {元旦|がんたん} (New Year's Day), {単身|たんしん} (alone), {麺類|めんるい} (noodles), {出稼|でかせ}ぎ (migrant work), {煩悩|ぼんのう} (worldly desires), {駄目元|だめもと} (nothing to lose), {乳幼児|にゅうようじ} (infants and toddlers), {離乳食|りにゅうしょく} (baby food), {遺族|いぞく} (bereaved family), {運動神経|うんどうしんけい} (athletic ability), {傷跡|きずあと} (scar), {睡魔|すいま} (drowsiness)
+- **Noun/suru verbs (4)**: {朗読|ろうどく} (reading aloud), {仲違|なかたが}い (falling out), {紛失|ふんしつ} (loss), {決裂|けつれつ} (breakdown)
+- **Na-adjectives (4)**: {不覚|ふかく} (blunder), {端正|たんせい} (handsome), {致命的|ちめいてき} (fatal), {念入|ねんい}り (thorough)
+- **Nouns (other) (5)**: {自責|じせき} (self-blame), {門限|もんげん} (curfew), {発端|ほったん} (origin), {売|う}れ{行|ゆ}き (sales performance), {伸|の}びしろ (room for growth)
+
+Notable features:
+- Multi-sense entries: {塞|ふさ}がる (2: blocked + occupied)
+- Daily life: {麺類|めんるい}, {門限|もんげん}, {元旦|がんたん}, {離乳食|りにゅうしょく}, {乳幼児|にゅうようじ}, {運動神経|うんどうしんけい}
+- Emotions/psychology: {煩悩|ぼんのう}, {自責|じせき}, {不覚|ふかく}, {睡魔|すいま}
+- Business/news: {相次|あいつ}ぐ, {決裂|けつれつ}, {紛失|ふんしつ}, {致命的|ちめいてき}, {売|う}れ{行|ゆ}き, {発端|ほったん}
+- Colloquial: {駄目元|だめもと}, {寝|ね}そべる, {伸|の}びしろ
+
+Total entries: 14,924 → 14,954 (approximate)
+Remaining candidates: 4,846 → 4,816 (30 removed)
 
 ### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 369)
 Added 30 new dictionary entries (IDs 14839-14868) from candidate_words.json:
@@ -139,27 +158,6 @@ Notable features:
 
 Total entries: 14,804 → 14,834 (approximate)
 Remaining candidates: 4,966 → 4,936 (30 removed)
-
-### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 365)
-Added 30 new dictionary entries (IDs 14719-14748) from candidate_words.json:
-
-- **Nouns (15)**: ケチャップ (ketchup), {開港|かいこう} (opening of a port), {冷凍庫|れいとうこ} (freezer), {常温|じょうおん} (room temperature), {穴場|あなば} (hidden gem), {撤去|てっきょ} (removal), {下見|したみ} (preliminary visit), {怪獣|かいじゅう} (monster), {泥酔|でいすい} (dead drunk), {車酔|くるまよ}い (carsickness), {駄菓子|だがし} (cheap sweets), {積雪|せきせつ} (snow cover), {助手席|じょしゅせき} (passenger seat), {鋼|はがね} (steel), {古本|ふるほん} (used book)
-- **Nouns (compound)**: {掘|ほ}り{出|だ}し{物|もの} (bargain/lucky find), {鍵盤|けんばん} (keyboard/keys), {犠牲|ぎせい} (sacrifice/victim), {弁償|べんしょう} (compensation), {正反対|せいはんたい} (exact opposite)
-- **I-adjectives (2)**: {待|ま}ち{遠|どお}しい (eagerly awaited), {脂|あぶら}っこい (greasy)
-- **Na-adjectives (3)**: {割高|わりだか} (relatively expensive), {割安|わりやす} (relatively cheap), {過保護|かほご} (overprotective)
-- **Godan verb (1)**: {悔|く}やむ (to regret/mourn)
-- **Food/drink (4)**: ケチャップ, おでん, {駄菓子|だがし}, {脂|あぶら}っこい
-- **Noun (food)**: おでん (oden stew)
-
-Notable features:
-- Multi-sense entries: {悔|く}やむ (2: regret + mourn), {洋画|ようが} (2: Western film + Western painting), {犠牲|ぎせい} (2: sacrifice + victim)
-- Paired entries: {割高|わりだか}/{割安|わりやす}, {邦画|ほうが}/{洋画|ようが}
-- Daily life: {冷凍庫|れいとうこ}, {常温|じょうおん}, {車酔|くるまよ}い, {助手席|じょしゅせき}, {段差|だんさ}
-- Culture: おでん, {駄菓子|だがし}, {怪獣|かいじゅう}, {古本|ふるほん}
-- New kanji: 2,490 → 2,493 ({犠|ぎ}, {牲|せい}, {鋼|こう})
-
-Total entries: 14,774 → 14,804 (approximate)
-Remaining candidates: 4,996 → 4,966 (30 removed)
 
 ---
 
