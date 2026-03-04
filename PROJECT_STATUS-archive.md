@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 366)
+Added 30 new dictionary entries (IDs 14749-14778) from candidate_words.json:
+
+- **Nouns (13)**: {囃子|はやし} (musical accompaniment), {妃|きさき} (empress consort), {具体例|ぐたいれい} (concrete example), {保冷剤|ほれいざい} (ice pack), {色紙|しきし} (autograph board), {港湾|こうわん} (harbor), {魔王|まおう} (demon king), {酒粕|さけかす} (sake lees), {領事館|りょうじかん} (consulate), {外交官|がいこうかん} (diplomat), {招待状|しょうたいじょう} (invitation), {鉄製|てっせい} (made of iron), {身辺|しんぺん} (around oneself)
+- **Noun/suru verbs (7)**: {白眼視|はくがんし} (scorn), {遷都|せんと} (capital transfer), {祝賀|しゅくが} (celebration), {入港|にゅうこう} (port entry), {割愛|かつあい} (omitting), {鎮座|ちんざ} (enshrinement), {風靡|ふうび} (sweeping popularity)
+- **Na-adjectives (5)**: {荘厳|そうごん} (solemn/sublime), {厳粛|げんしゅく} (grave/solemn), {高尚|こうしょう} (noble/refined), {限定的|げんていてき} (limited), {網羅的|もうらてき} (exhaustive)
+- **Noun/na-adjective (1)**: {非道|ひどう} (inhumane)
+- **Noun/suru verb (2)**: {現状維持|げんじょういじ} (status quo), {逢瀬|おうせ} (tryst)
+- **Ichidan verb (1)**: {盛|も}り{付|つ}ける (to plate food)
+- **Noun (ceremony) (1)**: {祝辞|しゅくじ} (congratulatory speech)
+
+Notable features:
+- Multi-sense entries: {鎮座|ちんざ} (2: enshrinement + sitting imposingly)
+- Paired entries: {荘厳|そうごん}/{厳粛|げんしゅく}, {限定的|げんていてき}/{網羅的|もうらてき}, {領事館|りょうじかん}/{外交官|がいこうかん}
+- Cultural: {囃子|はやし}, {妃|きさき}, {逢瀬|おうせ}, {色紙|しきし}, {酒粕|さけかす}, {魔王|まおう}
+- Formal/academic: {白眼視|はくがんし}, {遷都|せんと}, {割愛|かつあい}, {風靡|ふうび}, {高尚|こうしょう}
+- New kanji: 2,493 → 2,496 ({囃|そう}, {逢|ほう}, {靡|ひ})
+
+Total entries: 14,804 → 14,834 (approximate)
+Remaining candidates: 4,966 → 4,936 (30 removed)
+
 ### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 365)
 Added 30 new dictionary entries (IDs 14719-14748) from candidate_words.json:
 
