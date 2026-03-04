@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 364)
+Added 30 new dictionary entries (IDs 14689-14718) from candidate_words.json:
+
+- **Nouns (16)**: {重要文化財|じゅうようぶんかざい} (Important Cultural Property), {陸地|りくち} (land), {顔面|がんめん} (face), {食育|しょくいく} (food education), {音源|おんげん} (sound source/audio track), {高まり|たかまり} (rise/heightening), {高値|たかね} (high price), {高額|こうがく} (large sum), {高温|こうおん} (high temperature), {魚介|ぎょかい} (seafood), {鯛|たい} (sea bream), {黒船|くろふね} (black ships), {黎明期|れいめいき} (dawn of an era), {騎士|きし} (knight), {風当|かぜあ}たり (wind exposure/criticism), {食|く}い{倒|だお}れ (eating oneself into ruin)
+- **Noun/suru verb (1)**: {鼓舞|こぶ} (encouragement)
+- **Godan verbs (2)**: {陣取|じんど}る (to take up position), {駆|か}る (to drive/compel)
+- **Ichidan verbs (2)**: {駆|か}ける (to run/dash), {魅|み}せる (to fascinate)
+- **Na-adjectives (4)**: {風流|ふうりゅう} (elegant), {鬱|うつ} (depression), {高らか|たからか} (resounding), {露|あらわ} (exposed/undisguised)
+- **Adverb (1)**: {黙々|もくもく} (silently/diligently)
+- **Multi-POS (4)**: {風俗|ふうぞく} (customs/entertainment), {雛形|ひながた} (model/template), {鞘|さや} (sheath/pod), {風水|ふうすい} (feng shui)
+
+Total entries: 14,744 → 14,774 (approximate)
+Remaining candidates: 5,025 → 4,996 (29 removed)
+
 ### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 363)
 Added 30 new dictionary entries (IDs 14659-14688) from candidate_words.json:
 

@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,894 |
+| Total entries | ~14,924 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,095 (open) |
-| Candidate words | ~4,876 |
+| General tier | ~12,125 (open) |
+| Candidate words | ~4,846 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 369)
+Added 30 new dictionary entries (IDs 14839-14868) from candidate_words.json:
+
+- **Noun/suru verbs (7)**: {調整|ちょうせい} (adjustment), {匹敵|ひってき} (rivaling), {検問|けんもん} (checkpoint), {強制終了|きょうせいしゅうりょう} (force quit), {記名|きめい} (signing one's name), {上告|じょうこく} (final appeal), {近縁|きんえん} (closely related)
+- **Nouns (14)**: {就職活動|しゅうしょくかつどう} (job hunting), {魔物|まもの} (demon/monster), {光沢|こうたく} (luster), {港町|みなとまち} (port town), {大型連休|おおがたれんきゅう} (long holiday), {通行料|つうこうりょう} (toll), {甘酢|あまず} (sweet vinegar), {固体|こたい} (solid), {人口密度|じんこうみつど} (population density), {車間距離|しゃかんきょり} (following distance), {領主|りょうしゅ} (feudal lord), {領地|りょうち} (territory), {演台|えんだい} (podium), {霊場|れいじょう} (sacred site)
+- **Godan verbs (2)**: {香|かお}る (to smell sweet), {取次|とりつ}ぐ (to relay/transfer)
+- **Ichidan verb (1)**: {避|よ}ける (to dodge)
+- **Na-adjective/noun (2)**: {完全無欠|かんぜんむけつ} (absolute perfection), {高|たか}め (on the high side)
+- **Noun (cultural) (3)**: {春夏秋冬|しゅんかしゅうとう} (four seasons), {大和言葉|やまとことば} (native Japanese words), {皇位|こうい} (imperial throne)
+- **Noun (academic) (1)**: {音韻|おんいん} (phonology)
+
+Notable features:
+- Multi-sense entries: {魔物|まもの} (2: monster + jinx), {取次|とりつ}ぐ (2: relay + transfer call), {近縁|きんえん} (2: biological + familial), {音韻|おんいん} (2: phonology + phoneme)
+- Daily life: {調整|ちょうせい}, {就職活動|しゅうしょくかつどう}, {大型連休|おおがたれんきゅう}, {車間距離|しゃかんきょり}, {通行料|つうこうりょう}
+- Food: {甘酢|あまず}
+- Science: {固体|こたい}, {人口密度|じんこうみつど}
+- Culture/history: {領主|りょうしゅ}, {領地|りょうち}, {皇位|こうい}, {霊場|れいじょう}, {春夏秋冬|しゅんかしゅうとう}
+- Business: {取次|とりつ}ぐ, {記名|きめい}, {演台|えんだい}
+
+Total entries: 14,894 → 14,924 (approximate)
+Remaining candidates: 4,876 → 4,846 (30 removed)
 
 ### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 368)
 Added 30 new dictionary entries (IDs 14809-14838) from candidate_words.json:
@@ -138,27 +160,6 @@ Notable features:
 
 Total entries: 14,774 → 14,804 (approximate)
 Remaining candidates: 4,996 → 4,966 (30 removed)
-
-### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 364)
-Added 30 new dictionary entries (IDs 14689-14718) from candidate_words.json:
-
-- **Nouns (16)**: {重要文化財|じゅうようぶんかざい} (Important Cultural Property), {陸地|りくち} (land), {顔面|がんめん} (face), {食育|しょくいく} (food education), {音源|おんげん} (sound source/audio track), {高まり|たかまり} (rise/heightening), {高値|たかね} (high price), {高額|こうがく} (large sum), {高温|こうおん} (high temperature), {魚介|ぎょかい} (seafood), {鯛|たい} (sea bream), {黒船|くろふね} (black ships), {黎明期|れいめいき} (dawn of an era), {騎士|きし} (knight), {風当|かぜあ}たり (wind exposure/criticism), {食|く}い{倒|だお}れ (eating oneself into ruin)
-- **Noun/suru verb (1)**: {鼓舞|こぶ} (encouragement)
-- **Godan verbs (2)**: {陣取|じんど}る (to take up position), {駆|か}る (to drive/compel)
-- **Ichidan verbs (2)**: {駆|か}ける (to run/dash), {魅|み}せる (to fascinate)
-- **Na-adjectives (4)**: {風流|ふうりゅう} (elegant), {鬱|うつ} (depression), {高らか|たからか} (resounding), {露|あらわ} (exposed/undisguised)
-- **Adverb (1)**: {黙々|もくもく} (silently/diligently)
-- **Multi-POS (4)**: {風俗|ふうぞく} (customs/entertainment), {雛形|ひながた} (model/template), {鞘|さや} (sheath/pod), {風水|ふうすい} (feng shui)
-
-Notable features:
-- Multi-sense entries: {風俗|ふうぞく} (2: customs + adult entertainment), {雛形|ひながた} (2: model + template), {鞘|さや} (2: sheath + pod), {鬱|うつ} (2: depression + gloom), {黒船|くろふね} (2: historical + figurative disruptor), {音源|おんげん} (2: sound source + audio track), {風当|かぜあ}たり (2: wind exposure + criticism), {駆|か}る (2: drive/spur + compel), {駆|か}ける (2: run + gallop), {露|あらわ} (2: exposed + undisguised), {食|く}い{倒|だお}れ (2: spending ruin + Osaka culture)
-- Culture: {重要文化財|じゅうようぶんかざい}, {黒船|くろふね}, {風水|ふうすい}, {風流|ふうりゅう}, {鯛|たい}, {食|く}い{倒|だお}れ
-- Daily life: {高温|こうおん}, {魚介|ぎょかい}, {顔面|がんめん}, {食育|しょくいく}, {音源|おんげん}
-- Finance: {高値|たかね}, {高額|こうがく}
-- New kanji: 2,488 → 2,490 ({雛|すい}, {鞘|しょう})
-
-Total entries: 14,744 → 14,774 (approximate)
-Remaining candidates: 5,025 → 4,996 (29 removed)
 
 ---
 
