@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,014 |
+| Total entries | ~15,044 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,215 (open) |
-| Candidate words | ~4,756 |
+| General tier | ~12,245 (open) |
+| Candidate words | ~4,726 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 373)
+Added 30 new dictionary entries (IDs 14959-14988) from candidate_words.json:
+
+- **Nouns (15)**: {芸能人|げいのうじん} (celebrity), {雇|やと}い{主|ぬし} (employer), {日雇|ひやと}い (day labor), {学生証|がくせいしょう} (student ID), {授業料|じゅぎょうりょう} (tuition fee), {親睦会|しんぼくかい} (social gathering), {独身者|どくしんしゃ} (single person), {粒子|りゅうし} (particle), {適応力|てきおうりょく} (adaptability), {潜在能力|せんざいのうりょく} (latent ability), {税収|ぜいしゅう} (tax revenue), {不審物|ふしんぶつ} (suspicious object), {保存食|ほぞんしょく} (preserved food), {初耳|はつみみ} (news to me), {不祥事|ふしょうじ} (scandal)
+- **Noun/na-adj (2)**: {不釣|ふつ}り{合|あ}い (mismatched), {未定|みてい} (undecided)
+- **Noun/verb-suru (3)**: {拍手喝采|はくしゅかっさい} (applause and cheers), {舌打|したう}ち (clicking tongue), {表裏|ひょうり} (two sides)
+- **Godan verbs (4)**: {追|お}い{抜|ぬ}く (to pass), {搾|しぼ}り{取|と}る (to squeeze out), {送|おく}り{返|かえ}す (to send back), {使|つか}い{勝手|がって} (ease of use)
+- **Ichidan verb (1)**: {寄|よ}せ{集|あつ}める (to gather together)
+- **Nouns (other) (5)**: {芸術家|げいじゅつか} (artist), {佳境|かきょう} (climax), {遠距離|えんきょり} (long distance), {前世|ぜんせ} (previous life), {来世|らいせ} (next life)
+
+Notable features:
+- Multi-sense entries: {追|お}い{抜|ぬ}く (2: overtake + surpass), {搾|しぼ}り{取|と}る (2: squeeze + exploit), {授業料|じゅぎょうりょう} (2: tuition + lesson learned), {日雇|ひやと}い (2: day labor + day laborer), {表裏|ひょうり} (3: front/back + duality + duplicity)
+- Daily life: {学生証|がくせいしょう}, {初耳|はつみみ}, {使|つか}い{勝手|がって}, {保存食|ほぞんしょく}
+- Work/society: {雇|やと}い{主|ぬし}, {日雇|ひやと}い, {親睦会|しんぼくかい}, {税収|ぜいしゅう}, {不祥事|ふしょうじ}
+- Science/abstract: {粒子|りゅうし}, {適応力|てきおうりょく}, {潜在能力|せんざいのうりょく}
+- Culture/religion: {前世|ぜんせ}, {来世|らいせ}
+- New kanji: 2,498 → 2,499 ({佳|か})
+
+Total entries: 15,014 → 15,044 (approximate)
+Remaining candidates: 4,756 → 4,726 (30 removed)
 
 ### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 372)
 Added 30 new dictionary entries (IDs 14929-14958) from candidate_words.json:
@@ -138,28 +159,6 @@ Notable features:
 
 Total entries: 14,894 → 14,924 (approximate)
 Remaining candidates: 4,876 → 4,846 (30 removed)
-
-### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 368)
-Added 30 new dictionary entries (IDs 14809-14838) from candidate_words.json:
-
-- **Nouns (16)**: {英会話|えいかいわ} (English conversation), {目盛|めも}り (scale/graduation), {行商人|ぎょうしょうにん} (peddler), {聞|き}き{書|が}き (oral history transcript), {藻|も} (algae), {葦|あし} (reed), {身辺|しんぺん} (one's surroundings), {自筆|じひつ} (handwriting), {青果|せいか} (fresh produce), {精肉|せいにく} (butchered meat), {長|なが}ねぎ (green onion), {予約席|よやくせき} (reserved seat), {雪見|ゆきみ} (snow viewing), {雛人形|ひなにんぎょう} (hina dolls), {見取|みと}り{図|ず} (floor plan), {断面図|だんめんず} (cross-section)
-- **Noun/suru verbs (8)**: {渡米|とべい} (going to America), {周回|しゅうかい} (lap/circuit), {摩耗|まもう} (wear and tear), {休戦|きゅうせん} (ceasefire), {開戦|かいせん} (outbreak of war), {潜水|せんすい} (diving), {水分補給|すいぶんほきゅう} (hydration), {位置情報|いちじょうほう} (location data)
-- **Ichidan verb (1)**: {照|て}らし{合|あ}わせる (to check against)
-- **Godan verb (1)**: {討|う}つ (to strike down)
-- **Na-adjective/noun (1)**: {無関係|むかんけい} (unrelated)
-- **Compound nouns (3)**: {得意分野|とくいぶんや} (area of expertise), {連帯責任|れんたいせきにん} (collective responsibility), {過激派|かげきは} (extremists)
-
-Notable features:
-- Multi-sense entries: {英会話|えいかいわ} (2: conversation + classes), {周回|しゅうかい} (2: lap + touring), {討|う}つ (2: slay + subjugate)
-- Daily life: {水分補給|すいぶんほきゅう}, {予約席|よやくせき}, {長|なが}ねぎ, {目盛|めも}り, {位置情報|いちじょうほう}
-- Supermarket: {青果|せいか}, {精肉|せいにく}
-- Culture: {雪見|ゆきみ}, {雛人形|ひなにんぎょう}, {葦|あし}, {聞|き}き{書|が}き
-- Military/history: {休戦|きゅうせん}, {開戦|かいせん}, {討|う}つ, {過激派|かげきは}
-- Technical: {断面図|だんめんず}, {見取|みと}り{図|ず}, {摩耗|まもう}
-- New kanji: 2,497 → 2,498 ({葦|い})
-
-Total entries: 14,864 → 14,894 (approximate)
-Remaining candidates: 4,906 → 4,876 (30 removed)
 
 ---
 

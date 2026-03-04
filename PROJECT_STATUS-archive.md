@@ -3,6 +3,19 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 368)
+Added 30 new dictionary entries (IDs 14809-14838) from candidate_words.json:
+
+- **Nouns (16)**: {英会話|えいかいわ} (English conversation), {目盛|めも}り (scale/graduation), {行商人|ぎょうしょうにん} (peddler), {聞|き}き{書|が}き (oral history transcript), {藻|も} (algae), {葦|あし} (reed), {身辺|しんぺん} (one's surroundings), {自筆|じひつ} (handwriting), {青果|せいか} (fresh produce), {精肉|せいにく} (butchered meat), {長|なが}ねぎ (green onion), {予約席|よやくせき} (reserved seat), {雪見|ゆきみ} (snow viewing), {雛人形|ひなにんぎょう} (hina dolls), {見取|みと}り{図|ず} (floor plan), {断面図|だんめんず} (cross-section)
+- **Noun/suru verbs (8)**: {渡米|とべい} (going to America), {周回|しゅうかい} (lap/circuit), {摩耗|まもう} (wear and tear), {休戦|きゅうせん} (ceasefire), {開戦|かいせん} (outbreak of war), {潜水|せんすい} (diving), {水分補給|すいぶんほきゅう} (hydration), {位置情報|いちじょうほう} (location data)
+- **Ichidan verb (1)**: {照|て}らし{合|あ}わせる (to check against)
+- **Godan verb (1)**: {討|う}つ (to strike down)
+- **Na-adjective/noun (1)**: {無関係|むかんけい} (unrelated)
+- **Compound nouns (3)**: {得意分野|とくいぶんや} (area of expertise), {連帯責任|れんたいせきにん} (collective responsibility), {過激派|かげきは} (extremists)
+
+Total entries: 14,864 → 14,894 (approximate)
+Remaining candidates: 4,906 → 4,876 (30 removed)
+
 ### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 367)
 Added 30 new dictionary entries (IDs 14779-14808) from candidate_words.json:
 
