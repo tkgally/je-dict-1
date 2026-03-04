@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 367)
+Added 30 new dictionary entries (IDs 14779-14808) from candidate_words.json:
+
+- **Nouns (14)**: {道連|みちづ}れ (traveling companion), {縁結|えんむす}び (matchmaking), {面識|めんしき} (acquaintance), {挽肉|ひきにく} (ground meat), {身振|みぶ}り (gesture), {欠員|けついん} (vacancy), {先代|せんだい} (predecessor), {長電話|ながでんわ} (long phone call), {重役|じゅうやく} (executive), {空室|くうしつ} (vacant room), {慰謝料|いしゃりょう} (consolation money), {野菜炒|やさいいた}め (stir-fried vegetables), {鍋物|なべもの} (hot pot), {設計図|せっけいず} (blueprint)
+- **Noun/suru verbs (8)**: {矯正|きょうせい} (correction), {丸暗記|まるあんき} (rote memorization), {深酒|ふかざけ} (heavy drinking), {転送|てんそう} (forwarding), {報復|ほうふく} (retaliation), {暗唱|あんしょう} (recitation), {釈放|しゃくほう} (release), {世襲|せしゅう} (hereditary succession)
+- **I-adjective (1)**: {嘆|なげ}かわしい (deplorable)
+- **Na-adjective (1)**: {潜在的|せんざいてき} (potential/latent)
+- **Adverb (1)**: {格段|かくだん}に (remarkably)
+- **Noun (weather) (1)**: {高気圧|こうきあつ} (high atmospheric pressure)
+- **Ichidan verb (1)**: {迎|むか}え{入|い}れる (to welcome in)
+- **Godan verbs (2)**: {食|く}い{下|さ}がる (to persist), {立|た}ちくらみ (dizziness upon standing)
+
+Notable features:
+- Multi-sense entries: {道連|みちづ}れ (2: companion + dragging down), {迎|むか}え{入|い}れる (compound verb)
+- Daily life: {挽肉|ひきにく}, {野菜炒|やさいいた}め, {鍋物|なべもの}, {立|た}ちくらみ, {長電話|ながでんわ}, {空室|くうしつ}
+- Legal/formal: {慰謝料|いしゃりょう}, {釈放|しゃくほう}, {報復|ほうふく}, {面識|めんしき}
+- Business: {重役|じゅうやく}, {欠員|けついん}, {転送|てんそう}, {設計図|せっけいず}
+- Education: {丸暗記|まるあんき}, {暗唱|あんしょう}, {矯正|きょうせい}
+- Culture: {縁結|えんむす}び, {鍋物|なべもの}, {世襲|せしゅう}
+- New kanji: 2,496 → 2,497 ({矯|きょう})
+
+Total entries: 14,834 → 14,864 (approximate)
+Remaining candidates: 4,936 → 4,906 (30 removed)
+
 ### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 366)
 Added 30 new dictionary entries (IDs 14749-14778) from candidate_words.json:
 
