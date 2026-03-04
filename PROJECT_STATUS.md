@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-03
+**Last updated**: 2026-03-04
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,864 |
+| Total entries | ~14,894 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,065 (open) |
-| Candidate words | ~4,906 |
+| General tier | ~12,095 (open) |
+| Candidate words | ~4,876 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 368)
+Added 30 new dictionary entries (IDs 14809-14838) from candidate_words.json:
+
+- **Nouns (16)**: {英会話|えいかいわ} (English conversation), {目盛|めも}り (scale/graduation), {行商人|ぎょうしょうにん} (peddler), {聞|き}き{書|が}き (oral history transcript), {藻|も} (algae), {葦|あし} (reed), {身辺|しんぺん} (one's surroundings), {自筆|じひつ} (handwriting), {青果|せいか} (fresh produce), {精肉|せいにく} (butchered meat), {長|なが}ねぎ (green onion), {予約席|よやくせき} (reserved seat), {雪見|ゆきみ} (snow viewing), {雛人形|ひなにんぎょう} (hina dolls), {見取|みと}り{図|ず} (floor plan), {断面図|だんめんず} (cross-section)
+- **Noun/suru verbs (8)**: {渡米|とべい} (going to America), {周回|しゅうかい} (lap/circuit), {摩耗|まもう} (wear and tear), {休戦|きゅうせん} (ceasefire), {開戦|かいせん} (outbreak of war), {潜水|せんすい} (diving), {水分補給|すいぶんほきゅう} (hydration), {位置情報|いちじょうほう} (location data)
+- **Ichidan verb (1)**: {照|て}らし{合|あ}わせる (to check against)
+- **Godan verb (1)**: {討|う}つ (to strike down)
+- **Na-adjective/noun (1)**: {無関係|むかんけい} (unrelated)
+- **Compound nouns (3)**: {得意分野|とくいぶんや} (area of expertise), {連帯責任|れんたいせきにん} (collective responsibility), {過激派|かげきは} (extremists)
+
+Notable features:
+- Multi-sense entries: {英会話|えいかいわ} (2: conversation + classes), {周回|しゅうかい} (2: lap + touring), {討|う}つ (2: slay + subjugate)
+- Daily life: {水分補給|すいぶんほきゅう}, {予約席|よやくせき}, {長|なが}ねぎ, {目盛|めも}り, {位置情報|いちじょうほう}
+- Supermarket: {青果|せいか}, {精肉|せいにく}
+- Culture: {雪見|ゆきみ}, {雛人形|ひなにんぎょう}, {葦|あし}, {聞|き}き{書|が}き
+- Military/history: {休戦|きゅうせん}, {開戦|かいせん}, {討|う}つ, {過激派|かげきは}
+- Technical: {断面図|だんめんず}, {見取|みと}り{図|ず}, {摩耗|まもう}
+- New kanji: 2,497 → 2,498 ({葦|い})
+
+Total entries: 14,864 → 14,894 (approximate)
+Remaining candidates: 4,906 → 4,876 (30 removed)
 
 ### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 367)
 Added 30 new dictionary entries (IDs 14779-14808) from candidate_words.json:
@@ -137,28 +159,6 @@ Notable features:
 
 Total entries: 14,744 → 14,774 (approximate)
 Remaining candidates: 5,025 → 4,996 (29 removed)
-
-### 2026-03-02 (Vocabulary Expansion - 30 New Entries, Session 363)
-Added 30 new dictionary entries (IDs 14659-14688) from candidate_words.json:
-
-- **Nouns (14)**: {防具|ぼうぐ} (protective gear), {陣営|じんえい} (camp/faction), {雪景色|ゆきげしき} (snowy scenery), {霊|れい} (spirit/ghost), {露天|ろてん} (open air), {顔|かお}ぶれ (lineup), {風紀|ふうき} (public morals), {風貌|ふうぼう} (appearance), {食塩|しょくえん} (table salt), {餅|もち}つき (rice cake pounding), {首位|しゅい} (first place), {香料|こうりょう} (spices/fragrance), {高台|たかだい} (elevated ground), {顔立|かおだ}ち (facial features)
-- **Noun/suru verbs (7)**: {開国|かいこく} (opening of a country), {陳情|ちんじょう} (petition), {集約|しゅうやく} (consolidation), {集結|しゅうけつ} (gathering), {頻発|ひんぱつ} (frequent occurrence), {駆使|くし} (full command), {魅了|みりょう} (fascination)
-- **Noun/suru verb (1)**: {高望|たかのぞ}み (aiming too high)
-- **Noun/adjective-no (1)**: {非日常|ひにちじょう} (extraordinary)
-- **Godan verbs (2)**: {霞|かす}む (to become hazy), {駆|か}け{寄|よ}る (to rush over to)
-- **Na-adjective (1)**: {鮮明|せんめい} (vivid/clear)
-- **Noun (time) (1)**: {頃合|ころあ}い (suitable time)
-- **Noun (cultural) (3)**: {金魚|きんぎょ}すくい (goldfish scooping), {開国|かいこく} (opening of country), {餅|もち}つき (mochi pounding)
-
-Notable features:
-- Multi-sense entries: {防具|ぼうぐ} (2: sports gear + armor), {霊|れい} (2: spirit + ghost), {香料|こうりょう} (2: spice + fragrance), {霞|かす}む (2: become hazy + be overshadowed), {頃合|ころあ}い (2: suitable time + moderate degree), {陣営|じんえい} (2: faction + military camp), {集約|しゅうやく} (2: consolidation + intensive)
-- Culture: {金魚|きんぎょ}すくい, {餅|もち}つき, {露天|ろてん}, {開国|かいこく}
-- Daily life: {食塩|しょくえん}, {高台|たかだい}, {顔立|かおだ}ち, {顔|かお}ぶれ
-- Formal/written: {類似|るいじ}, {鮮明|せんめい}, {風貌|ふうぼう}, {陳情|ちんじょう}, {駆使|くし}
-- New kanji: 2,487 → 2,488 ({陣|じん})
-
-Total entries: 14,714 → 14,744 (approximate)
-Remaining candidates: 5,055 → 5,025 (30 removed)
 
 ---
 
