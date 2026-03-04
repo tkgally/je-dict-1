@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,954 |
+| Total entries | ~14,984 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,155 (open) |
-| Candidate words | ~4,816 |
+| General tier | ~12,185 (open) |
+| Candidate words | ~4,786 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 371)
+Added 30 new dictionary entries (IDs 14899-14928) from candidate_words.json:
+
+- **Adverbs (2)**: {概|がい}して (generally), {続々|ぞくぞく}と (one after another)
+- **Nouns (11)**: {最善|さいぜん} (the very best), {栄誉|えいよ} (honor), {右腕|みぎうで} (right arm/right-hand man), {毛筆|もうひつ} (writing brush), {車載|しゃさい} (on-board/vehicle-mounted), {準備運動|じゅんびうんどう} (warm-up exercise), {徹夜明|てつやあ}け (morning after all-nighter), {道具箱|どうぐばこ} (toolbox), {精神面|せいしんめん} (mental aspect), {韻|いん} (rhyme), ひび (crack)
+- **Noun/suru verbs (5)**: {一掃|いっそう} (clean sweep), {退任|たいにん} (leaving office), {着任|ちゃくにん} (taking up a post), {再演|さいえん} (revival performance), {和解|わかい}する (to reconcile)
+- **I-adjective (1)**: {絶|た}え{間|ま}ない (ceaseless)
+- **Na-adjective (1)**: {個性的|こせいてき} (unique/distinctive)
+- **Expressions (2)**: {腹|はら}を{括|くく}る (to brace oneself), ごまをする (to butter up)
+- **Noun (time) (1)**: {一昼夜|いっちゅうや} (a whole day and night)
+- **Noun (food/drink) (2)**: {晩酌|ばんしゃく} (evening drink), おつまみ (drinking snacks)
+- **Other nouns (3)**: {弾力|だんりょく} (elasticity), {晴|は}れ{舞台|ぶたい} (grand occasion), {適性|てきせい} (aptitude)
+- **Verb (1)**: ねじ{伏|ふ}せる (to pin down/force into submission)
+- **Noun (school) (1)**: {日直|にっちょく} (day duty)
+
+Notable features:
+- Multi-sense entries: {右腕|みぎうで} (2: arm + right-hand man), ひび (2: crack + rift), {和解|わかい}する (2: reconcile + legal settlement), ねじ{伏|ふ}せる (2: physical + figurative), {弾力|だんりょく} (2: elasticity + flexibility)
+- Diverse POS: adverbs, adjectives, verbs, nouns, expressions
+- Daily life: {準備運動|じゅんびうんどう}, {徹夜明|てつやあ}け, {日直|にっちょく}, {道具箱|どうぐばこ}, {晩酌|ばんしゃく}, おつまみ
+- Business/formal: {退任|たいにん}, {着任|ちゃくにん}, {適性|てきせい}, {和解|わかい}する, {概|がい}して
+- Idiomatic: ごまをする, {腹|はら}を{括|くく}る
+
+Total entries: 14,954 → 14,984 (approximate)
+Remaining candidates: 4,816 → 4,786 (30 removed)
 
 ### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 370)
 Added 30 new dictionary entries (IDs 14869-14898) from candidate_words.json:
@@ -137,27 +162,6 @@ Notable features:
 
 Total entries: 14,834 → 14,864 (approximate)
 Remaining candidates: 4,936 → 4,906 (30 removed)
-
-### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 366)
-Added 30 new dictionary entries (IDs 14749-14778) from candidate_words.json:
-
-- **Nouns (13)**: {囃子|はやし} (musical accompaniment), {妃|きさき} (empress consort), {具体例|ぐたいれい} (concrete example), {保冷剤|ほれいざい} (ice pack), {色紙|しきし} (autograph board), {港湾|こうわん} (harbor), {魔王|まおう} (demon king), {酒粕|さけかす} (sake lees), {領事館|りょうじかん} (consulate), {外交官|がいこうかん} (diplomat), {招待状|しょうたいじょう} (invitation), {鉄製|てっせい} (made of iron), {身辺|しんぺん} (around oneself)
-- **Noun/suru verbs (7)**: {白眼視|はくがんし} (scorn), {遷都|せんと} (capital transfer), {祝賀|しゅくが} (celebration), {入港|にゅうこう} (port entry), {割愛|かつあい} (omitting), {鎮座|ちんざ} (enshrinement), {風靡|ふうび} (sweeping popularity)
-- **Na-adjectives (5)**: {荘厳|そうごん} (solemn/sublime), {厳粛|げんしゅく} (grave/solemn), {高尚|こうしょう} (noble/refined), {限定的|げんていてき} (limited), {網羅的|もうらてき} (exhaustive)
-- **Noun/na-adjective (1)**: {非道|ひどう} (inhumane)
-- **Noun/suru verb (2)**: {現状維持|げんじょういじ} (status quo), {逢瀬|おうせ} (tryst)
-- **Ichidan verb (1)**: {盛|も}り{付|つ}ける (to plate food)
-- **Noun (ceremony) (1)**: {祝辞|しゅくじ} (congratulatory speech)
-
-Notable features:
-- Multi-sense entries: {鎮座|ちんざ} (2: enshrinement + sitting imposingly)
-- Paired entries: {荘厳|そうごん}/{厳粛|げんしゅく}, {限定的|げんていてき}/{網羅的|もうらてき}, {領事館|りょうじかん}/{外交官|がいこうかん}
-- Cultural: {囃子|はやし}, {妃|きさき}, {逢瀬|おうせ}, {色紙|しきし}, {酒粕|さけかす}, {魔王|まおう}
-- Formal/academic: {白眼視|はくがんし}, {遷都|せんと}, {割愛|かつあい}, {風靡|ふうび}, {高尚|こうしょう}
-- New kanji: 2,493 → 2,496 ({囃|そう}, {逢|ほう}, {靡|ひ})
-
-Total entries: 14,804 → 14,834 (approximate)
-Remaining candidates: 4,966 → 4,936 (30 removed)
 
 ---
 
