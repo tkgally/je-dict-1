@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~14,984 |
+| Total entries | ~15,014 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,185 (open) |
-| Candidate words | ~4,786 |
+| General tier | ~12,215 (open) |
+| Candidate words | ~4,756 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 372)
+Added 30 new dictionary entries (IDs 14929-14958) from candidate_words.json:
+
+- **Nouns (14)**: {雨宿|あまやど}り (taking shelter from rain), {群衆|ぐんしゅう} (crowd), {履物|はきもの} (footwear), {酒豪|しゅごう} (heavy drinker), {黒帯|くろおび} (black belt), {牡丹雪|ぼたんゆき} (large snowflakes), {宿場|しゅくば} (post town), {砂利|じゃり} (gravel), {目玉焼|めだまや}き (fried egg), {母校|ぼこう} (alma mater), しきたり (custom), {負債|ふさい} (debt), {公害|こうがい} (pollution), {奥義|おうぎ} (secret teachings)
+- **Noun/suru verbs (7)**: {浄化|じょうか} (purification), {授乳|じゅにゅう} (breastfeeding), {執務|しつむ} (office work), {交代|こうたい} (replacement), {浸水|しんすい} (flooding), {順応|じゅんのう} (adaptation), {擁護|ようご} (advocacy)
+- **Noun/suru verbs (political) (2)**: {出馬|しゅつば} (running for office), {伝授|でんじゅ} (passing down knowledge)
+- **Na-adjectives (2)**: {高飛車|たかびしゃ} (high-handed), {明白|めいはく} (obvious)
+- **Noun (no-adj) (2)**: {未婚|みこん} (unmarried), {月例|げつれい} (monthly)
+- **Godan verb (1)**: {涙|なみだ}ぐむ (to be moved to tears)
+- **Noun (cultural) (2)**: {横綱|よこづな} (sumo grand champion), {段落|だんらく} (paragraph)
+
+Notable features:
+- Multi-sense entries: {段落|だんらく} (2: paragraph + end of phase), {浄化|じょうか} (2: physical + figurative), {出馬|しゅつば} (2: candidacy + stepping in), {横綱|よこづな} (2: sumo rank + the very best)
+- Daily life: {雨宿|あまやど}り, {履物|はきもの}, {目玉焼|めだまや}き, {授乳|じゅにゅう}, しきたり
+- Culture/sports: {横綱|よこづな}, {黒帯|くろおび}, {宿場|しゅくば}, {奥義|おうぎ}, {砂利|じゃり}
+- Business/formal: {執務|しつむ}, {負債|ふさい}, {月例|げつれい}, {明白|めいはく}, {擁護|ようご}
+- Environment/weather: {牡丹雪|ぼたんゆき}, {公害|こうがい}, {浸水|しんすい}, {浄化|じょうか}
+- Politics/social: {出馬|しゅつば}, {未婚|みこん}, {交代|こうたい}
+
+Total entries: 14,984 → 15,014 (approximate)
+Remaining candidates: 4,786 → 4,756 (30 removed)
 
 ### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 371)
 Added 30 new dictionary entries (IDs 14899-14928) from candidate_words.json:
@@ -138,30 +160,6 @@ Notable features:
 
 Total entries: 14,864 → 14,894 (approximate)
 Remaining candidates: 4,906 → 4,876 (30 removed)
-
-### 2026-03-03 (Vocabulary Expansion - 30 New Entries, Session 367)
-Added 30 new dictionary entries (IDs 14779-14808) from candidate_words.json:
-
-- **Nouns (14)**: {道連|みちづ}れ (traveling companion), {縁結|えんむす}び (matchmaking), {面識|めんしき} (acquaintance), {挽肉|ひきにく} (ground meat), {身振|みぶ}り (gesture), {欠員|けついん} (vacancy), {先代|せんだい} (predecessor), {長電話|ながでんわ} (long phone call), {重役|じゅうやく} (executive), {空室|くうしつ} (vacant room), {慰謝料|いしゃりょう} (consolation money), {野菜炒|やさいいた}め (stir-fried vegetables), {鍋物|なべもの} (hot pot), {設計図|せっけいず} (blueprint)
-- **Noun/suru verbs (8)**: {矯正|きょうせい} (correction), {丸暗記|まるあんき} (rote memorization), {深酒|ふかざけ} (heavy drinking), {転送|てんそう} (forwarding), {報復|ほうふく} (retaliation), {暗唱|あんしょう} (recitation), {釈放|しゃくほう} (release), {世襲|せしゅう} (hereditary succession)
-- **I-adjective (1)**: {嘆|なげ}かわしい (deplorable)
-- **Na-adjective (1)**: {潜在的|せんざいてき} (potential/latent)
-- **Adverb (1)**: {格段|かくだん}に (remarkably)
-- **Noun (weather) (1)**: {高気圧|こうきあつ} (high atmospheric pressure)
-- **Ichidan verb (1)**: {迎|むか}え{入|い}れる (to welcome in)
-- **Godan verbs (2)**: {食|く}い{下|さ}がる (to persist), {立|た}ちくらみ (dizziness upon standing)
-
-Notable features:
-- Multi-sense entries: {道連|みちづ}れ (2: companion + dragging down), {迎|むか}え{入|い}れる (compound verb)
-- Daily life: {挽肉|ひきにく}, {野菜炒|やさいいた}め, {鍋物|なべもの}, {立|た}ちくらみ, {長電話|ながでんわ}, {空室|くうしつ}
-- Legal/formal: {慰謝料|いしゃりょう}, {釈放|しゃくほう}, {報復|ほうふく}, {面識|めんしき}
-- Business: {重役|じゅうやく}, {欠員|けついん}, {転送|てんそう}, {設計図|せっけいず}
-- Education: {丸暗記|まるあんき}, {暗唱|あんしょう}, {矯正|きょうせい}
-- Culture: {縁結|えんむす}び, {鍋物|なべもの}, {世襲|せしゅう}
-- New kanji: 2,496 → 2,497 ({矯|きょう})
-
-Total entries: 14,834 → 14,864 (approximate)
-Remaining candidates: 4,936 → 4,906 (30 removed)
 
 ---
 
