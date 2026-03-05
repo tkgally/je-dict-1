@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,164 |
+| Total entries | ~15,194 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,365 (open) |
-| Candidate words | ~4,606 |
+| General tier | ~12,395 (open) |
+| Candidate words | ~4,576 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 378)
+Added 30 new dictionary entries (IDs 15109-15138) from candidate_words.json:
+
+- **Na-adjectives (4)**: {強烈|きょうれつ} (intense), {不注意|ふちゅうい} (careless), {格安|かくやす} (bargain), {身軽|みがる} (agile/unburdened)
+- **Nouns (15)**: {竹林|ちくりん} (bamboo grove), {私生活|しせいかつ} (private life), {法廷|ほうてい} (courtroom), {食物繊維|しょくもつせんい} (dietary fiber), {遊戯|ゆうぎ} (game), {溶液|ようえき} (solution), {荘園|しょうえん} (manor), {偉人|いじん} (great person), {失態|しったい} (blunder), {余談|よだん} (digression), {郷土料理|きょうどりょうり} (local cuisine), {老後|ろうご} (old age), {末|すえ}っ{子|こ} (youngest child), {一軒家|いっけんや} (detached house), {密度|みつど} (density)
+- **Noun/verb-suru (4)**: {欠乏|けつぼう} (deficiency), {降参|こうさん} (surrender), {食|た}べ{歩|ある}き (food tour), {粗探|あらさが}し (fault-finding)
+- **Na-adj/noun (1)**: {小刻|こきざ}み (in small increments)
+- **Noun/suffix (1)**: {類|るい} (kind/type)
+- **Verbs (2)**: {忍|しの}び{寄|よ}る (to creep up — godan), {見惚|みと}れる (to gaze admiringly — ichidan)
+- **Noun (go/strategy) (1)**: {布石|ふせき} (preparatory step)
+- **Expression (1)**: {一理|いちり}ある (to have a point)
+- **Noun (immigration) (1)**: {永住|えいじゅう} (permanent residence)
+
+Notable features:
+- Multi-sense entries: {食|た}べ{歩|ある}き (2), {身軽|みがる} (2), {密度|みつど} (2), {布石|ふせき} (2)
+- Daily life: {格安|かくやす}, {私生活|しせいかつ}, {老後|ろうご}, {末|すえ}っ{子|こ}, {一軒家|いっけんや}
+- Culture/food: {郷土料理|きょうどりょうり}, {食物繊維|しょくもつせんい}, {竹林|ちくりん}, {食|た}べ{歩|ある}き
+- Academic: {溶液|ようえき}, {密度|みつど}, {荘園|しょうえん}
+
+Total entries: 15,164 → 15,194 (approximate)
+Remaining candidates: 4,606 → 4,576 (30 removed)
 
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 377)
 Added 30 new dictionary entries (IDs 15079-15108) from candidate_words.json:
@@ -136,27 +158,6 @@ Notable features:
 
 Total entries: 15,044 → 15,074 (approximate)
 Remaining candidates: 4,726 → 4,696 (30 removed)
-
-### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 373)
-Added 30 new dictionary entries (IDs 14959-14988) from candidate_words.json:
-
-- **Nouns (15)**: {芸能人|げいのうじん} (celebrity), {雇|やと}い{主|ぬし} (employer), {日雇|ひやと}い (day labor), {学生証|がくせいしょう} (student ID), {授業料|じゅぎょうりょう} (tuition fee), {親睦会|しんぼくかい} (social gathering), {独身者|どくしんしゃ} (single person), {粒子|りゅうし} (particle), {適応力|てきおうりょく} (adaptability), {潜在能力|せんざいのうりょく} (latent ability), {税収|ぜいしゅう} (tax revenue), {不審物|ふしんぶつ} (suspicious object), {保存食|ほぞんしょく} (preserved food), {初耳|はつみみ} (news to me), {不祥事|ふしょうじ} (scandal)
-- **Noun/na-adj (2)**: {不釣|ふつ}り{合|あ}い (mismatched), {未定|みてい} (undecided)
-- **Noun/verb-suru (3)**: {拍手喝采|はくしゅかっさい} (applause and cheers), {舌打|したう}ち (clicking tongue), {表裏|ひょうり} (two sides)
-- **Godan verbs (4)**: {追|お}い{抜|ぬ}く (to pass), {搾|しぼ}り{取|と}る (to squeeze out), {送|おく}り{返|かえ}す (to send back), {使|つか}い{勝手|がって} (ease of use)
-- **Ichidan verb (1)**: {寄|よ}せ{集|あつ}める (to gather together)
-- **Nouns (other) (5)**: {芸術家|げいじゅつか} (artist), {佳境|かきょう} (climax), {遠距離|えんきょり} (long distance), {前世|ぜんせ} (previous life), {来世|らいせ} (next life)
-
-Notable features:
-- Multi-sense entries: {追|お}い{抜|ぬ}く (2: overtake + surpass), {搾|しぼ}り{取|と}る (2: squeeze + exploit), {授業料|じゅぎょうりょう} (2: tuition + lesson learned), {日雇|ひやと}い (2: day labor + day laborer), {表裏|ひょうり} (3: front/back + duality + duplicity)
-- Daily life: {学生証|がくせいしょう}, {初耳|はつみみ}, {使|つか}い{勝手|がって}, {保存食|ほぞんしょく}
-- Work/society: {雇|やと}い{主|ぬし}, {日雇|ひやと}い, {親睦会|しんぼくかい}, {税収|ぜいしゅう}, {不祥事|ふしょうじ}
-- Science/abstract: {粒子|りゅうし}, {適応力|てきおうりょく}, {潜在能力|せんざいのうりょく}
-- Culture/religion: {前世|ぜんせ}, {来世|らいせ}
-- New kanji: 2,498 → 2,499 ({佳|か})
-
-Total entries: 15,014 → 15,044 (approximate)
-Remaining candidates: 4,756 → 4,726 (30 removed)
 
 ---
 
