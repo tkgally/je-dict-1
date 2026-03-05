@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 375)
+Added 30 new dictionary entries (IDs 15019-15048) from candidate_words.json:
+
+- **Nouns (16)**: {雑学|ざつがく} (trivia), {目頭|めがしら} (inner corner of eye), {発作|ほっさ} (attack/fit), {堪忍袋|かんにんぶくろ} (patience), {反動|はんどう} (recoil/backlash), {上流|じょうりゅう} (upstream/upper class), {下流|かりゅう} (downstream/lower class), {段位|だんい} (dan rank), {裏方|うらかた} (behind-the-scenes), {口数|くちかず} (talkativeness), {帳消|ちょうけ}し (cancellation), {沿線|えんせん} (along a railway line), {容疑者|ようぎしゃ} (suspect), {裏声|うらごえ} (falsetto), {直射日光|ちょくしゃにっこう} (direct sunlight), まつ{毛|げ} (eyelash)
+- **Noun/verb-suru (5)**: {激励|げきれい} (encouragement), {合法|ごうほう} (legal), {独|ひと}り{占|じ}め (monopolizing), {殺到|さっとう} (rush/flood), {噴射|ふんしゃ} (jet/spray)
+- **Noun/na-adj (1)**: {無礼|ぶれい} (rude)
+- **Godan verbs (3)**: {呻|うめ}く (to groan), {着飾|きかざ}る (to dress up), {断|た}ち{切|き}る (to sever)
+- **Adverbs (2)**: {当分|とうぶん} (for the time being), {一挙|いっきょ}に (all at once)
+- **Noun (linguistics) (2)**: {送|おく}り{仮名|がな} (okurigana), {号泣|ごうきゅう} (wailing)
+- **Noun (water) (1)**: {給水|きゅうすい} (water supply)
+
+Notable features:
+- Multi-sense entries: {呻|うめ}く (2: pain + frustration), {発作|ほっさ} (2: medical + emotional), {上流|じょうりゅう} (2: river + social class), {下流|かりゅう} (2: river + social class), {反動|はんどう} (2: rebound + political), {断|た}ち{切|き}る (2: physical + figurative)
+- Paired entries: {上流|じょうりゅう}/{下流|かりゅう} (upstream/downstream, upper/lower class)
+- Body/emotion: {目頭|めがしら}, まつ{毛|げ}, {号泣|ごうきゅう}, {堪忍袋|かんにんぶくろ}
+- Daily life: {裏方|うらかた}, {沿線|えんせん}, {直射日光|ちょくしゃにっこう}, {給水|きゅうすい}
+- Legal/news: {容疑者|ようぎしゃ}, {合法|ごうほう}, {殺到|さっとう}
+- Culture: {段位|だんい}, {送|おく}り{仮名|がな}
+- New kanji: 2,499 → 2,500 ({呻|うめ}く)
+
+Total entries: 15,074 → 15,104 (approximate)
+Remaining candidates: 4,696 → 4,666 (30 removed)
+
 ### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 373)
 Added 30 new dictionary entries (IDs 14959-14988) from candidate_words.json:
 
