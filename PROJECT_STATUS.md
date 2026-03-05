@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,284 |
+| Total entries | ~15,314 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,485 (open) |
-| Candidate words | ~4,487 |
+| General tier | ~12,515 (open) |
+| Candidate words | ~4,457 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 382)
+Added 30 new dictionary entries (IDs 15229-15258) from candidate_words.json:
+
+- **Expressions (1)**: {口|くち}を{挟|はさ}む (to butt in)
+- **Nouns (12)**: {美食家|びしょくか} (gourmet), {墓地|ぼち} (cemetery), {肉屋|にくや} (butcher shop), お{惣菜|そうざい} (deli food), {難癖|なんくせ} (fault-finding), {幕切|まくぎ}れ (finale), {構成員|こうせいいん} (member), {筆順|ひつじゅん} (stroke order), {県民性|けんみんせい} (regional character), {自然界|しぜんかい} (natural world), たらこ (cod roe), {規則性|きそくせい} (regularity)
+- **Noun/verb-suru (7)**: {転居|てんきょ} (moving), {弛緩|しかん} (relaxation), {激減|げきげん} (sharp decrease), {優先|ゆうせん} (priority), {後続|こうぞく} (following), {総計|そうけい} (sum total), {助力|じょりょく} (assistance)
+- **Noun/verb-suru (more) (2)**: {戒告|かいこく} (admonition), {丸|まる}{呑|の}み (swallowing whole)
+- **Adjective-i (1)**: {煙|けむ}たい (smoky; hard to be around)
+- **Na-adjective (2)**: {難解|なんかい} (abstruse), {平穏無事|へいおんぶじ} (peaceful and uneventful)
+- **Adjective-no/noun (3)**: {炊|た}き{立|た}て (freshly cooked), {不滅|ふめつ} (immortal), {極小|ごくしょう} (minuscule)
+- **Adjective-no/noun (more) (1)**: {恒久|こうきゅう} (permanent)
+- **Noun (other) (1)**: {不一致|ふいっち} (discrepancy)
+
+Notable features:
+- Multi-sense entries: {肉屋|にくや} (2: shop + person), {煙|けむ}たい (2: smoky + socially uncomfortable), {幕切|まくぎ}れ (2: theater + figurative), {丸|まる}{呑|の}み (2: literal + figurative)
+- Food: お{惣菜|そうざい}, {炊|た}き{立|た}て, たらこ, {美食家|びしょくか}, {肉屋|にくや}
+- Formal/written: {転居|てんきょ}, {戒告|かいこく}, {構成員|こうせいいん}, {総計|そうけい}, {助力|じょりょく}
+- Culture: {県民性|けんみんせい}, {筆順|ひつじゅん}
+- New kanji: 2,502 → 2,503 ({弛|し})
+
+Total entries: 15,284 → 15,314 (approximate)
+Remaining candidates: 4,487 → 4,457 (30 removed)
 
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 381)
 Added 30 new dictionary entries (IDs 15199-15228) from candidate_words.json:
@@ -134,27 +157,6 @@ Notable features:
 
 Total entries: 15,164 → 15,194 (approximate)
 Remaining candidates: 4,606 → 4,576 (30 removed)
-
-### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 377)
-Added 30 new dictionary entries (IDs 15079-15108) from candidate_words.json:
-
-- **Nouns (16)**: シアター (theater), スタンダード (standard), コレステロール (cholesterol), プレイヤー (player), ミーム (meme), {結末|けつまつ} (ending), {唸|うな}り{声|ごえ} (groan/growl), {飲食店|いんしょくてん} (restaurant), {芸能界|げいのうかい} (show business), {衣食住|いしょくじゅう} (basic necessities), {講演会|こうえんかい} (lecture meeting), {選挙区|せんきょく} (electoral district), {子宝|こだから} (gift of children), {食通|しょくつう} (gourmet), {駐輪|ちゅうりん} (bicycle parking), {小麦色|こむぎいろ} (golden-brown/tanned)
-- **Nouns (other) (5)**: モラトリアム (moratorium), フェミニスト (feminist), {世辞|せじ} (flattery), {舞妓|まいこ} (apprentice geisha), {現行犯|げんこうはん} (caught in the act)
-- **Na-adjectives (3)**: {冷酷|れいこく} (cruel), {丹念|たんねん} (painstaking), {伝統芸能|でんとうげいのう} (traditional performing arts)
-- **Expressions/compounds (3)**: {厄介払|やっかいばら}い (good riddance), {手持|ても}ち{無沙汰|ぶさた} (having nothing to do), {右肩上|みぎかたあ}がり (steadily rising)
-- **Verb (1)**: {勇気|ゆうき}づける (to encourage)
-- **Adjective-i (1)**: {礼儀正|れいぎただ}しい (polite/well-mannered)
-- **Adjective-taru (1)**: {微々|びび}たる (slight/insignificant)
-
-Notable features:
-- Multi-sense entries: プレイヤー (2: person + device), モラトリアム (2: suspension + identity exploration), フェミニスト (2: rights advocate + chivalrous man)
-- Katakana loanwords: シアター, スタンダード, コレステロール, プレイヤー, モラトリアム, ミーム, フェミニスト
-- Culture: {舞妓|まいこ}, {伝統芸能|でんとうげいのう}, {芸能界|げいのうかい}
-- Daily life: {飲食店|いんしょくてん}, {駐輪|ちゅうりん}, {衣食住|いしょくじゅう}, {小麦色|こむぎいろ}
-- New kanji: 2,500 → 2,501 ({妓|ぎ})
-
-Total entries: 15,134 → 15,164 (approximate)
-Remaining candidates: 4,636 → 4,606 (30 removed)
 
 ---
 
