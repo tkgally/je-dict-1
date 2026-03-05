@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 371)
+Added 30 new dictionary entries (IDs 14899-14928) from candidate_words.json:
+
+- **Adverbs (2)**: {概|がい}して (generally), {続々|ぞくぞく}と (one after another)
+- **Nouns (11)**: {最善|さいぜん} (the very best), {栄誉|えいよ} (honor), {右腕|みぎうで} (right arm/right-hand man), {毛筆|もうひつ} (writing brush), {車載|しゃさい} (on-board/vehicle-mounted), {準備運動|じゅんびうんどう} (warm-up exercise), {徹夜明|てつやあ}け (morning after all-nighter), {道具箱|どうぐばこ} (toolbox), {精神面|せいしんめん} (mental aspect), {韻|いん} (rhyme), ひび (crack)
+- **Noun/suru verbs (5)**: {一掃|いっそう} (clean sweep), {退任|たいにん} (leaving office), {着任|ちゃくにん} (taking up a post), {再演|さいえん} (revival performance), {和解|わかい}する (to reconcile)
+- **I-adjective (1)**: {絶|た}え{間|ま}ない (ceaseless)
+- **Na-adjective (1)**: {個性的|こせいてき} (unique/distinctive)
+- **Expressions (2)**: {腹|はら}を{括|くく}る (to brace oneself), ごまをする (to butter up)
+- **Noun (time) (1)**: {一昼夜|いっちゅうや} (a whole day and night)
+- **Noun (food/drink) (2)**: {晩酌|ばんしゃく} (evening drink), おつまみ (drinking snacks)
+- **Other nouns (3)**: {弾力|だんりょく} (elasticity), {晴|は}れ{舞台|ぶたい} (grand occasion), {適性|てきせい} (aptitude)
+- **Verb (1)**: ねじ{伏|ふ}せる (to pin down/force into submission)
+- **Noun (school) (1)**: {日直|にっちょく} (day duty)
+
+Total entries: 14,954 → 14,984 (approximate)
+Remaining candidates: 4,816 → 4,786 (30 removed)
+
 ### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 370)
 Added 30 new dictionary entries (IDs 14869-14898) from candidate_words.json:
 
