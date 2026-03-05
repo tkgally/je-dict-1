@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,134 |
+| Total entries | ~15,164 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,335 (open) |
-| Candidate words | ~4,636 |
+| General tier | ~12,365 (open) |
+| Candidate words | ~4,606 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 377)
+Added 30 new dictionary entries (IDs 15079-15108) from candidate_words.json:
+
+- **Nouns (16)**: シアター (theater), スタンダード (standard), コレステロール (cholesterol), プレイヤー (player), ミーム (meme), {結末|けつまつ} (ending), {唸|うな}り{声|ごえ} (groan/growl), {飲食店|いんしょくてん} (restaurant), {芸能界|げいのうかい} (show business), {衣食住|いしょくじゅう} (basic necessities), {講演会|こうえんかい} (lecture meeting), {選挙区|せんきょく} (electoral district), {子宝|こだから} (gift of children), {食通|しょくつう} (gourmet), {駐輪|ちゅうりん} (bicycle parking), {小麦色|こむぎいろ} (golden-brown/tanned)
+- **Nouns (other) (5)**: モラトリアム (moratorium), フェミニスト (feminist), {世辞|せじ} (flattery), {舞妓|まいこ} (apprentice geisha), {現行犯|げんこうはん} (caught in the act)
+- **Na-adjectives (3)**: {冷酷|れいこく} (cruel), {丹念|たんねん} (painstaking), {伝統芸能|でんとうげいのう} (traditional performing arts)
+- **Expressions/compounds (3)**: {厄介払|やっかいばら}い (good riddance), {手持|ても}ち{無沙汰|ぶさた} (having nothing to do), {右肩上|みぎかたあ}がり (steadily rising)
+- **Verb (1)**: {勇気|ゆうき}づける (to encourage)
+- **Adjective-i (1)**: {礼儀正|れいぎただ}しい (polite/well-mannered)
+- **Adjective-taru (1)**: {微々|びび}たる (slight/insignificant)
+
+Notable features:
+- Multi-sense entries: プレイヤー (2: person + device), モラトリアム (2: suspension + identity exploration), フェミニスト (2: rights advocate + chivalrous man)
+- Katakana loanwords: シアター, スタンダード, コレステロール, プレイヤー, モラトリアム, ミーム, フェミニスト
+- Culture: {舞妓|まいこ}, {伝統芸能|でんとうげいのう}, {芸能界|げいのうかい}
+- Daily life: {飲食店|いんしょくてん}, {駐輪|ちゅうりん}, {衣食住|いしょくじゅう}, {小麦色|こむぎいろ}
+- New kanji: 2,500 → 2,501 ({妓|ぎ})
+
+Total entries: 15,134 → 15,164 (approximate)
+Remaining candidates: 4,636 → 4,606 (30 removed)
 
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 376)
 Added 30 new dictionary entries (IDs 15049-15078) from candidate_words.json:
@@ -136,28 +157,6 @@ Notable features:
 
 Total entries: 15,014 → 15,044 (approximate)
 Remaining candidates: 4,756 → 4,726 (30 removed)
-
-### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 372)
-Added 30 new dictionary entries (IDs 14929-14958) from candidate_words.json:
-
-- **Nouns (14)**: {雨宿|あまやど}り (taking shelter from rain), {群衆|ぐんしゅう} (crowd), {履物|はきもの} (footwear), {酒豪|しゅごう} (heavy drinker), {黒帯|くろおび} (black belt), {牡丹雪|ぼたんゆき} (large snowflakes), {宿場|しゅくば} (post town), {砂利|じゃり} (gravel), {目玉焼|めだまや}き (fried egg), {母校|ぼこう} (alma mater), しきたり (custom), {負債|ふさい} (debt), {公害|こうがい} (pollution), {奥義|おうぎ} (secret teachings)
-- **Noun/suru verbs (7)**: {浄化|じょうか} (purification), {授乳|じゅにゅう} (breastfeeding), {執務|しつむ} (office work), {交代|こうたい} (replacement), {浸水|しんすい} (flooding), {順応|じゅんのう} (adaptation), {擁護|ようご} (advocacy)
-- **Noun/suru verbs (political) (2)**: {出馬|しゅつば} (running for office), {伝授|でんじゅ} (passing down knowledge)
-- **Na-adjectives (2)**: {高飛車|たかびしゃ} (high-handed), {明白|めいはく} (obvious)
-- **Noun (no-adj) (2)**: {未婚|みこん} (unmarried), {月例|げつれい} (monthly)
-- **Godan verb (1)**: {涙|なみだ}ぐむ (to be moved to tears)
-- **Noun (cultural) (2)**: {横綱|よこづな} (sumo grand champion), {段落|だんらく} (paragraph)
-
-Notable features:
-- Multi-sense entries: {段落|だんらく} (2: paragraph + end of phase), {浄化|じょうか} (2: physical + figurative), {出馬|しゅつば} (2: candidacy + stepping in), {横綱|よこづな} (2: sumo rank + the very best)
-- Daily life: {雨宿|あまやど}り, {履物|はきもの}, {目玉焼|めだまや}き, {授乳|じゅにゅう}, しきたり
-- Culture/sports: {横綱|よこづな}, {黒帯|くろおび}, {宿場|しゅくば}, {奥義|おうぎ}, {砂利|じゃり}
-- Business/formal: {執務|しつむ}, {負債|ふさい}, {月例|げつれい}, {明白|めいはく}, {擁護|ようご}
-- Environment/weather: {牡丹雪|ぼたんゆき}, {公害|こうがい}, {浸水|しんすい}, {浄化|じょうか}
-- Politics/social: {出馬|しゅつば}, {未婚|みこん}, {交代|こうたい}
-
-Total entries: 14,984 → 15,014 (approximate)
-Remaining candidates: 4,786 → 4,756 (30 removed)
 
 ---
 
