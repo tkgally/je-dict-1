@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,104 |
+| Total entries | ~15,134 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,305 (open) |
-| Candidate words | ~4,666 |
+| General tier | ~12,335 (open) |
+| Candidate words | ~4,636 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 376)
+Added 30 new dictionary entries (IDs 15049-15078) from candidate_words.json:
+
+- **Nouns (14)**: {綴|つづ}り (spelling), {用件|ようけん} (business/matter), {鉢植|はちう}え (potted plant), {下地|したじ} (groundwork/base coat), {幹線|かんせん} (main line), {爆音|ばくおん} (roar/blast), {原色|げんしょく} (primary color), {来歴|らいれき} (history/provenance), {振替休日|ふりかえきゅうじつ} (substitute holiday), {救急|きゅうきゅう} (emergency), {首飾|くびかざ}り (necklace), {腕輪|うでわ} (bracelet), {倍率|ばいりつ} (magnification/competitive ratio), {個展|こてん} (solo exhibition)
+- **Noun/verb-suru (7)**: {没入|ぼつにゅう} (immersion), {燃焼|ねんしょう} (combustion), {補修|ほしゅう} (repair), {近代化|きんだいか} (modernization), {読解|どっかい} (reading comprehension), {聴解|ちょうかい} (listening comprehension), {粘着|ねんちゃく} (adhesion)
+- **Na-adjectives (3)**: {綿密|めんみつ} (meticulous), {不遜|ふそん} (arrogant), {具|ぐ}だくさん (full of ingredients)
+- **No-adjective (1)**: {泥|どろ}だらけ (covered in mud)
+- **Noun/verb-suru (art) (1)**: {彩色|さいしき} (coloring/painting)
+- **Godan verbs (3)**: {立|た}ち{直|なお}る (to recover), {響|ひび}き{渡|わた}る (to echo), {摘|つ}み{取|と}る (to pluck)
+- **Ichidan verb (1)**: {追|お}い{上|あ}げる (to gain on)
+
+Notable features:
+- Multi-sense entries: {綴|つづ}り (2: spelling + bound pages), {燃焼|ねんしょう} (2: combustion + energy burning), {下地|したじ} (2: groundwork + base coat), {原色|げんしょく} (2: primary color + vivid color), {粘着|ねんちゃく} (2: adhesion + obsessive clinging), {倍率|ばいりつ} (2: magnification + competitive ratio), {摘|つ}み{取|と}る (2: pluck + nip in the bud)
+- Education pair: {読解|どっかい}/{聴解|ちょうかい} (reading/listening comprehension)
+- Accessories: {首飾|くびかざ}り, {腕輪|うでわ}
+- Daily life: {鉢植|はちう}え, {具|ぐ}だくさん, {泥|どろ}だらけ, {救急|きゅうきゅう}, {振替休日|ふりかえきゅうじつ}
+- Compound verbs: {立|た}ち{直|なお}る, {響|ひび}き{渡|わた}る, {追|お}い{上|あ}げる, {摘|つ}み{取|と}る
+
+Total entries: 15,104 → 15,134 (approximate)
+Remaining candidates: 4,666 → 4,636 (30 removed)
 
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 375)
 Added 30 new dictionary entries (IDs 15019-15048) from candidate_words.json:
@@ -137,31 +158,6 @@ Notable features:
 
 Total entries: 14,984 → 15,014 (approximate)
 Remaining candidates: 4,786 → 4,756 (30 removed)
-
-### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 371)
-Added 30 new dictionary entries (IDs 14899-14928) from candidate_words.json:
-
-- **Adverbs (2)**: {概|がい}して (generally), {続々|ぞくぞく}と (one after another)
-- **Nouns (11)**: {最善|さいぜん} (the very best), {栄誉|えいよ} (honor), {右腕|みぎうで} (right arm/right-hand man), {毛筆|もうひつ} (writing brush), {車載|しゃさい} (on-board/vehicle-mounted), {準備運動|じゅんびうんどう} (warm-up exercise), {徹夜明|てつやあ}け (morning after all-nighter), {道具箱|どうぐばこ} (toolbox), {精神面|せいしんめん} (mental aspect), {韻|いん} (rhyme), ひび (crack)
-- **Noun/suru verbs (5)**: {一掃|いっそう} (clean sweep), {退任|たいにん} (leaving office), {着任|ちゃくにん} (taking up a post), {再演|さいえん} (revival performance), {和解|わかい}する (to reconcile)
-- **I-adjective (1)**: {絶|た}え{間|ま}ない (ceaseless)
-- **Na-adjective (1)**: {個性的|こせいてき} (unique/distinctive)
-- **Expressions (2)**: {腹|はら}を{括|くく}る (to brace oneself), ごまをする (to butter up)
-- **Noun (time) (1)**: {一昼夜|いっちゅうや} (a whole day and night)
-- **Noun (food/drink) (2)**: {晩酌|ばんしゃく} (evening drink), おつまみ (drinking snacks)
-- **Other nouns (3)**: {弾力|だんりょく} (elasticity), {晴|は}れ{舞台|ぶたい} (grand occasion), {適性|てきせい} (aptitude)
-- **Verb (1)**: ねじ{伏|ふ}せる (to pin down/force into submission)
-- **Noun (school) (1)**: {日直|にっちょく} (day duty)
-
-Notable features:
-- Multi-sense entries: {右腕|みぎうで} (2: arm + right-hand man), ひび (2: crack + rift), {和解|わかい}する (2: reconcile + legal settlement), ねじ{伏|ふ}せる (2: physical + figurative), {弾力|だんりょく} (2: elasticity + flexibility)
-- Diverse POS: adverbs, adjectives, verbs, nouns, expressions
-- Daily life: {準備運動|じゅんびうんどう}, {徹夜明|てつやあ}け, {日直|にっちょく}, {道具箱|どうぐばこ}, {晩酌|ばんしゃく}, おつまみ
-- Business/formal: {退任|たいにん}, {着任|ちゃくにん}, {適性|てきせい}, {和解|わかい}する, {概|がい}して
-- Idiomatic: ごまをする, {腹|はら}を{括|くく}る
-
-Total entries: 14,954 → 14,984 (approximate)
-Remaining candidates: 4,816 → 4,786 (30 removed)
 
 ---
 
