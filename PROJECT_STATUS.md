@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,254 |
+| Total entries | ~15,284 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,455 (open) |
-| Candidate words | ~4,517 |
+| General tier | ~12,485 (open) |
+| Candidate words | ~4,487 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 381)
+Added 30 new dictionary entries (IDs 15199-15228) from candidate_words.json:
+
+- **Nouns (15)**: {関取|せきとり} (ranked sumo wrestler), {飾|かざ}り{気|け} (affectation), {総理大臣|そうりだいじん} (Prime Minister), {総意|そうい} (consensus), {人肌|ひとはだ} (body warmth), {私物|しぶつ} (personal belongings), {領事|りょうじ} (consul), {提案書|ていあんしょ} (written proposal), {装飾品|そうしょくひん} (ornaments), {軍艦巻|ぐんかんま}き (battleship roll sushi), お{造|つく}り (sashimi), {炙|あぶ}り (seared food), {低空|ていくう} (low altitude), 校長室 (principal's office), すりこぎ (wooden pestle)
+- **Na-adjectives (3)**: {国民的|こくみんてき} (nationally popular), {粗暴|そぼう} (rough/violent), {痛切|つうせつ} (keen/acute)
+- **Godan verbs (2)**: {引|ひ}き{締|し}まる (to tighten), {着崩|きくず}す (to wear casually)
+- **Suru verb (1)**: {失礼|しつれい}する (to excuse oneself)
+- **Nouns (more) (6)**: {刑法|けいほう} (criminal law), {閑職|かんしょく} (dead-end position), {議決|ぎけつ} (resolution/vote), {対抗策|たいこうさく} (countermeasure), {強国|きょうこく} (powerful nation), {持|も}ち{株|かぶ} (shareholdings)
+- **Nouns (abstract) (1)**: {具現化|ぐげんか} (embodiment)
+- **Expressions (1)**: {口|くち}を{滑|すべ}らす (to let something slip)
+- **Nouns (construction) (1)**: {架橋|かきょう} (bridge building)
+
+Notable features:
+- Multi-sense entries: {引|ひ}き{締|し}まる (2: physical + mental), {失礼|しつれい}する (2: leave-taking + being rude), {架橋|かきょう} (2: literal + figurative), {低空|ていくう} (figurative usage: barely scraping by)
+- Food/culture: {軍艦巻|ぐんかんま}き, お{造|つく}り, {炙|あぶ}り, すりこぎ, {関取|せきとり}
+- Business/politics: {総理大臣|そうりだいじん}, {議決|ぎけつ}, {持|も}ち{株|かぶ}, {対抗策|たいこうさく}, {提案書|ていあんしょ}
+- Daily life: {私物|しぶつ}, {校長室|こうちょうしつ}, {口|くち}を{滑|すべ}らす, {着崩|きくず}す
+
+Total entries: 15,254 → 15,284 (approximate)
+Remaining candidates: 4,517 → 4,487 (30 removed)
 
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 380)
 Added 30 new dictionary entries (IDs 15169-15198) from candidate_words.json:
@@ -134,27 +155,6 @@ Notable features:
 
 Total entries: 15,134 → 15,164 (approximate)
 Remaining candidates: 4,636 → 4,606 (30 removed)
-
-### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 376)
-Added 30 new dictionary entries (IDs 15049-15078) from candidate_words.json:
-
-- **Nouns (14)**: {綴|つづ}り (spelling), {用件|ようけん} (business/matter), {鉢植|はちう}え (potted plant), {下地|したじ} (groundwork/base coat), {幹線|かんせん} (main line), {爆音|ばくおん} (roar/blast), {原色|げんしょく} (primary color), {来歴|らいれき} (history/provenance), {振替休日|ふりかえきゅうじつ} (substitute holiday), {救急|きゅうきゅう} (emergency), {首飾|くびかざ}り (necklace), {腕輪|うでわ} (bracelet), {倍率|ばいりつ} (magnification/competitive ratio), {個展|こてん} (solo exhibition)
-- **Noun/verb-suru (7)**: {没入|ぼつにゅう} (immersion), {燃焼|ねんしょう} (combustion), {補修|ほしゅう} (repair), {近代化|きんだいか} (modernization), {読解|どっかい} (reading comprehension), {聴解|ちょうかい} (listening comprehension), {粘着|ねんちゃく} (adhesion)
-- **Na-adjectives (3)**: {綿密|めんみつ} (meticulous), {不遜|ふそん} (arrogant), {具|ぐ}だくさん (full of ingredients)
-- **No-adjective (1)**: {泥|どろ}だらけ (covered in mud)
-- **Noun/verb-suru (art) (1)**: {彩色|さいしき} (coloring/painting)
-- **Godan verbs (3)**: {立|た}ち{直|なお}る (to recover), {響|ひび}き{渡|わた}る (to echo), {摘|つ}み{取|と}る (to pluck)
-- **Ichidan verb (1)**: {追|お}い{上|あ}げる (to gain on)
-
-Notable features:
-- Multi-sense entries: {綴|つづ}り (2: spelling + bound pages), {燃焼|ねんしょう} (2: combustion + energy burning), {下地|したじ} (2: groundwork + base coat), {原色|げんしょく} (2: primary color + vivid color), {粘着|ねんちゃく} (2: adhesion + obsessive clinging), {倍率|ばいりつ} (2: magnification + competitive ratio), {摘|つ}み{取|と}る (2: pluck + nip in the bud)
-- Education pair: {読解|どっかい}/{聴解|ちょうかい} (reading/listening comprehension)
-- Accessories: {首飾|くびかざ}り, {腕輪|うでわ}
-- Daily life: {鉢植|はちう}え, {具|ぐ}だくさん, {泥|どろ}だらけ, {救急|きゅうきゅう}, {振替休日|ふりかえきゅうじつ}
-- Compound verbs: {立|た}ち{直|なお}る, {響|ひび}き{渡|わた}る, {追|お}い{上|あ}げる, {摘|つ}み{取|と}る
-
-Total entries: 15,104 → 15,134 (approximate)
-Remaining candidates: 4,666 → 4,636 (30 removed)
 
 ---
 
