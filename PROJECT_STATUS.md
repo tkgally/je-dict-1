@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,194 |
+| Total entries | ~15,224 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,395 (open) |
-| Candidate words | ~4,576 |
+| General tier | ~12,425 (open) |
+| Candidate words | ~4,546 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 379)
+Added 30 new dictionary entries (IDs 15139-15168) from candidate_words.json:
+
+- **Expressions (4)**: ひょっとすると (perhaps), なんていうか (how should I put it), {恐縮|きょうしゅく}ですが (excuse me but), {知|し}らん (don't know — casual)
+- **Nouns (14)**: {本人|ほんにん}{確認|かくにん} (identity verification), {月|つき}{初|はじ}め (start of month), {貸借|たいしゃく} (lending/borrowing), {昇降|しょうこう} (ascending/descending), {一文|いちぶん} (single sentence), {破|やぶ}れ{目|め} (tear/rip), {現品|げんぴん} (actual item), {進行形|しんこうけい} (progressive form), ご{機嫌|きげん}{取|と}り (flattery), {三度|さんど} (three times), {諸経費|しょけいひ} (miscellaneous expenses), {米飯|べいはん} (cooked rice), {参議院|さんぎいん} (House of Councillors), {既卒|きそつ} (previous graduate)
+- **Nouns (more) (7)**: {上|のぼ}り{下|くだ}り (ups and downs), {遠泳|えんえい} (long-distance swimming), {芸風|げいふう} (artistic style), {月頭|げっとう} (beginning of month), {不純物|ふじゅんぶつ} (impurities), {皆殺|みなごろ}し (massacre), {雑居|ざっきょ} (mixed tenancy)
+- **Nouns (science) (1)**: ろ{過|か} (filtration)
+- **Adverbs/time (2)**: {目標|もくひょう}{達成|たっせい} (goal achievement), {毎夕|まいゆう} (every evening)
+- **Verbs (2)**: きょろつく (to look around — godan), {眠|ねむ}れる (to be able to sleep — ichidan)
+
+Notable features:
+- Multi-sense entries: {上|のぼ}り{下|くだ}り (2: physical + figurative), {現品|げんぴん} (2: actual item + display stock), {進行形|しんこうけい} (2: grammar + ongoing), {知|し}らん (2: don't know + don't care), {眠|ねむ}れる (2: potential + attributive), {三度|さんど} (2: three times + three degrees)
+- Business: {本人|ほんにん}{確認|かくにん}, {貸借|たいしゃく}, {諸経費|しょけいひ}, {月頭|げっとう}, {既卒|きそつ}, {目標|もくひょう}{達成|たっせい}
+- Polite expressions: {恐縮|きょうしゅく}ですが, ひょっとすると
+- Science: {不純物|ふじゅんぶつ}, ろ{過|か}
+
+Total entries: 15,194 → 15,224 (approximate)
+Remaining candidates: 4,576 → 4,546 (30 removed)
 
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 378)
 Added 30 new dictionary entries (IDs 15109-15138) from candidate_words.json:
@@ -137,27 +156,6 @@ Notable features:
 
 Total entries: 15,074 → 15,104 (approximate)
 Remaining candidates: 4,696 → 4,666 (30 removed)
-
-### 2026-03-04 (Vocabulary Expansion - 30 New Entries, Session 374)
-Added 30 new dictionary entries (IDs 14989-15018) from candidate_words.json:
-
-- **Nouns (21)**: {淡雪|あわゆき} (light snow), {掃除当番|そうじとうばん} (cleaning duty), {調理器具|ちょうりきぐ} (cooking utensils), {湯切|ゆぎ}り (draining hot water), {賀正|がしょう} (New Year's greeting), {迎春|げいしゅん} (welcoming New Year), {糸|いと}こんにゃく (konjac noodles), {追跡番号|ついせきばんごう} (tracking number), {美品|びひん} (item in good condition), {放射線|ほうしゃせん} (radiation), {自分|じぶん}らしさ (individuality), {赤外線|せきがいせん} (infrared), {国庫|こっこ} (national treasury), {愛好家|あいこうか} (enthusiast), {凝|こ}り{性|しょう} (perfectionist streak), {一口大|ひとくちだい} (bite-sized), {梯子酒|はしござけ} (bar hopping), {無礼講|ぶれいこう} (dropping formalities), {特盛|とくも}り (extra-large serving), {並盛|なみも}り (regular serving), {山菜採|さんさいと}り (foraging)
-- **Noun/verb-suru (2)**: {電子化|でんしか} (digitization), {職務質問|しょくむしつもん} (police questioning)
-- **Adverb (1)**: {点々|てんてん}と (here and there)
-- **Nouns (other) (3)**: {外線|がいせん} (outside phone line), {義手|ぎしゅ} (prosthetic hand), {商用車|しょうようしゃ} (commercial vehicle)
-- **Ichidan verb (1)**: {組|く}み{伏|ふ}せる (to pin down)
-- **Godan verb (1)**: {痛|いた}み{入|い}る (to be deeply grateful)
-- **Loanword (1)**: ルーチン (routine)
-
-Notable features:
-- Diverse themes: food/cooking ({糸|いと}こんにゃく, {湯切|ゆぎ}り, {一口大|ひとくちだい}, {特盛|とくも}り, {並盛|なみも}り), seasonal ({淡雪|あわゆき}, {賀正|がしょう}, {迎春|げいしゅん}, {山菜採|さんさいと}り), daily life ({追跡番号|ついせきばんごう}, {美品|びひん}, {掃除当番|そうじとうばん})
-- Science/tech: {放射線|ほうしゃせん}, {赤外線|せきがいせん}, {電子化|でんしか}
-- Culture: {無礼講|ぶれいこう}, {梯子酒|はしござけ}, {掃除当番|そうじとうばん}
-- Keigo: {痛|いた}み{入|い}る (humble formal expression)
-- First entries in 15000 directory range
-
-Total entries: 15,044 → 15,074 (approximate)
-Remaining candidates: 4,726 → 4,696 (30 removed)
 
 ---
 
