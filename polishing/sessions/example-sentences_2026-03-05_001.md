@@ -1,25 +1,41 @@
 ## Session: Example Sentences
 Date: 2026-03-05
-Entries checked: 04526-04565
+Entries checked: 04566-04605
 
 ### Changes Made
-- [04534]: Insufficient count (core) - added 2 examples (ex4, ex5) to meet 5-example minimum
-- [04538]: Insufficient count (core) - added 2 examples (ex4, ex5) to meet 5-example minimum
-- [04540]: Insufficient count (core) + length progression - reordered examples and added 2 (ex4, ex5)
-- [04544]: Insufficient count (core) - added 2 examples (ex4, ex5) to meet 5-example minimum
-- [04547]: Insufficient per-sense count (general, 2 senses) - added 3 examples (1 for sense 1, 2 for sense 2)
-- [04549]: Insufficient per-sense count (general, 2 senses) - added 3 examples (2 for sense 1, 1 for sense 2)
-- [04552]: Insufficient count (core) - added 2 examples (ex4, ex5) to meet 5-example minimum
-- [04554]: Insufficient count (core, 2 senses) - rewrote and expanded from 3 to 10 examples (5 per sense)
-- [04557]: Insufficient count (core) - added 2 examples (ex4, ex5) to meet 5-example minimum
-- [04560]: Insufficient count (core) - added 2 examples (ex4, ex5) to meet 5-example minimum
-- [04562]: Insufficient count (core) - added 2 examples (ex4, ex5) to meet 5-example minimum
-- [04565]: Insufficient per-sense count (general, 2 senses) - added 3 examples (1 for sense 1, 2 for sense 2)
+
+#### Batch 1 (04566-04585)
+- 04567: Added examples to meet 5/sense for core entry (2 senses)
+- 04568: Added examples to meet 3/sense, added missing notes fields
+- 04569: Added examples to meet 5/sense for core entry (2 senses)
+- 04570: Added 1 example for sense 2, fixed duplicate IDs, added missing notes fields
+- 04571: Added examples to meet 3/sense (2 senses)
+- 04572: Added examples to meet 3/sense, added missing notes fields
+- 04573: Added examples to meet 3/sense, added missing notes fields
+- 04574: Added examples to meet 5/sense for core entry (2 senses)
+- 04575: Added examples to meet 5/sense, added missing notes fields
+- 04577: Added missing notes fields (count already OK)
+- 04579: Added examples to meet 3/sense (3 senses)
+- 04576: Added examples to meet 3/sense (3 senses)
+- 04580: Added examples to meet 5/sense, added missing notes fields
+- 04581: Added examples to meet 3/sense (2 senses)
+- 04582: Added examples to meet 5/sense, added missing notes fields
+- 04583: Added examples to meet 5/sense (2 senses)
+- 04584: Added examples to meet 3/sense, added missing notes fields
+- 04585: Added examples to meet 3/sense (3 senses)
+
+No changes needed: 04566, 04578
+
+#### Batch 2 (04586-04605)
+- All 20 entries modified to meet minimum example counts
+- Common fixes: insufficient examples per sense, missing notes fields
 
 ### Summary
 - Entries checked: 40
-- Entries modified: 12
-- Main issue: Core tier entries with only 3 examples (need 5), and multi-sense entries lacking 3 examples per sense
+- Entries modified: 38
+- Entries OK as-is: 2 (04566, 04578)
+- Most common issue: insufficient example count per sense
+- Secondary issue: missing notes:null field on examples
 
 ### Next Entry
-04566
+04606
