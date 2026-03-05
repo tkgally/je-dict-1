@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,224 |
+| Total entries | ~15,254 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,425 (open) |
-| Candidate words | ~4,546 |
+| General tier | ~12,455 (open) |
+| Candidate words | ~4,517 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 380)
+Added 30 new dictionary entries (IDs 15169-15198) from candidate_words.json:
+
+- **Nouns (18)**: {香味野菜|こうみやさい} (aromatic vegetables), {霧吹|きりふ}き (spray bottle), {惚気話|のろけばなし} (love-boasting), {独占欲|どくせんよく} (possessiveness), {志望者|しぼうしゃ} (applicant), {教職員|きょうしょくいん} (teaching staff), {議席|ぎせき} (parliamentary seat), {洗濯洗剤|せんたくせんざい} (laundry detergent), {蕁麻疹|じんましん} (hives), {数倍|すうばい} (several times), {一輪車|いちりんしゃ} (unicycle/wheelbarrow), {番付|ばんづけ} (rankings), {面倒|めんどう}くさがり (lazy person), {常識外|じょうしきはず}れ (lacking common sense), {余暇|よか} (leisure time), {推薦状|すいせんじょう} (recommendation letter), {政界|せいかい} (political world), {対抗心|たいこうしん} (competitive spirit)
+- **Noun/verb-suru (3)**: {路駐|ろちゅう} (street parking), {懐柔|かいじゅう} (winning over), {付随|ふずい} (accompanying)
+- **Na-adjective (1)**: {過敏|かびん} (hypersensitive)
+- **Nouns (medical) (1)**: {拒絶反応|きょぜつはんのう} (rejection reaction)
+- **Expressions (2)**: {度|ど}を{越|こ}す (to go too far), {予期|よき}せぬ (unexpected)
+- **Godan verbs (2)**: {潜|もぐ}り{込|こ}む (to slip into), {上|あ}がり{込|こ}む (to enter someone's house)
+- **Adverbs (2)**: {頻繁|ひんぱん}に (frequently), オタク (otaku/geek)
+
+Notable features:
+- Multi-sense entries: {拒絶反応|きょぜつはんのう} (2: medical + figurative), {一輪車|いちりんしゃ} (2: unicycle + wheelbarrow), {潜|もぐ}り{込|こ}む (2: physical + figurative), {番付|ばんづけ} (2: sumo + general)
+- Medical: {蕁麻疹|じんましん}, {過敏|かびん}, {拒絶反応|きょぜつはんのう}
+- Daily life: {洗濯洗剤|せんたくせんざい}, {霧吹|きりふ}き, {路駐|ろちゅう}, {一輪車|いちりんしゃ}
+- Culture/society: オタク, {番付|ばんづけ}, {政界|せいかい}, {議席|ぎせき}
+- Relationships: {独占欲|どくせんよく}, {惚気話|のろけばなし}
+- New kanji: 2,501 → 2,502 ({蕁|じん})
+
+Total entries: 15,224 → 15,254 (approximate)
+Remaining candidates: 4,546 → 4,517 (29 removed)
 
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 379)
 Added 30 new dictionary entries (IDs 15139-15168) from candidate_words.json:
@@ -133,29 +155,6 @@ Notable features:
 
 Total entries: 15,104 → 15,134 (approximate)
 Remaining candidates: 4,666 → 4,636 (30 removed)
-
-### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 375)
-Added 30 new dictionary entries (IDs 15019-15048) from candidate_words.json:
-
-- **Nouns (16)**: {雑学|ざつがく} (trivia), {目頭|めがしら} (inner corner of eye), {発作|ほっさ} (attack/fit), {堪忍袋|かんにんぶくろ} (patience), {反動|はんどう} (recoil/backlash), {上流|じょうりゅう} (upstream/upper class), {下流|かりゅう} (downstream/lower class), {段位|だんい} (dan rank), {裏方|うらかた} (behind-the-scenes), {口数|くちかず} (talkativeness), {帳消|ちょうけ}し (cancellation), {沿線|えんせん} (along a railway line), {容疑者|ようぎしゃ} (suspect), {裏声|うらごえ} (falsetto), {直射日光|ちょくしゃにっこう} (direct sunlight), まつ{毛|げ} (eyelash)
-- **Noun/verb-suru (5)**: {激励|げきれい} (encouragement), {合法|ごうほう} (legal), {独|ひと}り{占|じ}め (monopolizing), {殺到|さっとう} (rush/flood), {噴射|ふんしゃ} (jet/spray)
-- **Noun/na-adj (1)**: {無礼|ぶれい} (rude)
-- **Godan verbs (3)**: {呻|うめ}く (to groan), {着飾|きかざ}る (to dress up), {断|た}ち{切|き}る (to sever)
-- **Adverbs (2)**: {当分|とうぶん} (for the time being), {一挙|いっきょ}に (all at once)
-- **Noun (linguistics) (2)**: {送|おく}り{仮名|がな} (okurigana), {号泣|ごうきゅう} (wailing)
-- **Noun (water) (1)**: {給水|きゅうすい} (water supply)
-
-Notable features:
-- Multi-sense entries: {呻|うめ}く (2: pain + frustration), {発作|ほっさ} (2: medical + emotional), {上流|じょうりゅう} (2: river + social class), {下流|かりゅう} (2: river + social class), {反動|はんどう} (2: rebound + political), {断|た}ち{切|き}る (2: physical + figurative)
-- Paired entries: {上流|じょうりゅう}/{下流|かりゅう} (upstream/downstream, upper/lower class)
-- Body/emotion: {目頭|めがしら}, まつ{毛|げ}, {号泣|ごうきゅう}, {堪忍袋|かんにんぶくろ}
-- Daily life: {裏方|うらかた}, {沿線|えんせん}, {直射日光|ちょくしゃにっこう}, {給水|きゅうすい}
-- Legal/news: {容疑者|ようぎしゃ}, {合法|ごうほう}, {殺到|さっとう}
-- Culture: {段位|だんい}, {送|おく}り{仮名|がな}
-- New kanji: 2,499 → 2,500 ({呻|うめ}く)
-
-Total entries: 15,074 → 15,104 (approximate)
-Remaining candidates: 4,696 → 4,666 (30 removed)
 
 ---
 
