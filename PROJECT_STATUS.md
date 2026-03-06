@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,344 |
+| Total entries | ~15,374 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,545 (open) |
-| Candidate words | ~4,427 |
+| General tier | ~12,575 (open) |
+| Candidate words | ~4,397 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 384)
+Added 30 new dictionary entries (IDs 15289-15318) from candidate_words.json:
+
+- **Nouns (14)**: {王室|おうしつ} (royal family), {君主|くんしゅ} (monarch), {雨具|あまぐ} (rain gear), メンチカツ (minced meat cutlet), {監視|かんし}カメラ (surveillance camera), {男子校|だんしこう} (boys' school), {手編|てあ}み (hand-knit), {学籍番号|がくせきばんごう} (student ID number), お{墓参|はかまい}り (visiting a grave), お{供|そな}え{物|もの} (offering), {敬老|けいろう}の{日|ひ} (Respect for the Aged Day), {義兄弟|ぎきょうだい} (brothers-in-law), {但|ただ}し{書|が}き (proviso), {二流|にりゅう} (second-rate)
+- **Noun/verb-suru (5)**: {同伴|どうはん} (accompanying), {履行|りこう} (fulfillment), {体調管理|たいちょうかんり} (health management), {環境保護|かんきょうほご} (environmental protection), {化膿|かのう} (suppuration)
+- **Compound nouns (3)**: {森林破壊|しんりんはかい} (deforestation), {新社会人|しんしゃかいじん} (new workforce member), {不徳|ふとく} (lack of virtue)
+- **Adverbs (3)**: {即座|そくざ}に (immediately), {予定通|よていどお}り (as scheduled), {終始|しゅうし} (throughout)
+- **Na-adjectives (2)**: {真|まっ}っ{当|とう} (proper/honest), {色鮮|いろあざ}やか (colorful)
+- **Expressions (2)**: {核心|かくしん}を{突|つ}く (to hit the nail on the head), {目|め}を{伏|ふ}せる (to look down)
+- **Other (1)**: {爆睡|ばくすい} (sleeping deeply — colloquial)
+
+Notable features:
+- Multi-sense entries: {義兄弟|ぎきょうだい} (2: in-law/step + sworn), {但|ただ}し{書|が}き (2: legal proviso + receipt itemization)
+- Culture: お{墓参|はかまい}り, {敬老|けいろう}の{日|ひ}, お{供|そな}え{物|もの}, {新社会人|しんしゃかいじん}
+- Environment: {環境保護|かんきょうほご}, {森林破壊|しんりんはかい}
+- Daily life: {体調管理|たいちょうかんり}, {雨具|あまぐ}, メンチカツ, {爆睡|ばくすい}
+- Formal/business: {履行|りこう}, {但|ただ}し{書|が}き, {同伴|どうはん}, {不徳|ふとく}
+- New kanji: 2,504 → 2,505 ({膿|のう})
+
+Total entries: 15,344 → 15,374 (approximate)
+Remaining candidates: 4,427 → 4,397 (30 removed)
 
 ### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 383)
 Added 30 new dictionary entries (IDs 15259-15288) from candidate_words.json:
@@ -136,25 +158,6 @@ Notable features:
 
 Total entries: 15,224 → 15,254 (approximate)
 Remaining candidates: 4,546 → 4,517 (29 removed)
-
-### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 379)
-Added 30 new dictionary entries (IDs 15139-15168) from candidate_words.json:
-
-- **Expressions (4)**: ひょっとすると (perhaps), なんていうか (how should I put it), {恐縮|きょうしゅく}ですが (excuse me but), {知|し}らん (don't know — casual)
-- **Nouns (14)**: {本人|ほんにん}{確認|かくにん} (identity verification), {月|つき}{初|はじ}め (start of month), {貸借|たいしゃく} (lending/borrowing), {昇降|しょうこう} (ascending/descending), {一文|いちぶん} (single sentence), {破|やぶ}れ{目|め} (tear/rip), {現品|げんぴん} (actual item), {進行形|しんこうけい} (progressive form), ご{機嫌|きげん}{取|と}り (flattery), {三度|さんど} (three times), {諸経費|しょけいひ} (miscellaneous expenses), {米飯|べいはん} (cooked rice), {参議院|さんぎいん} (House of Councillors), {既卒|きそつ} (previous graduate)
-- **Nouns (more) (7)**: {上|のぼ}り{下|くだ}り (ups and downs), {遠泳|えんえい} (long-distance swimming), {芸風|げいふう} (artistic style), {月頭|げっとう} (beginning of month), {不純物|ふじゅんぶつ} (impurities), {皆殺|みなごろ}し (massacre), {雑居|ざっきょ} (mixed tenancy)
-- **Nouns (science) (1)**: ろ{過|か} (filtration)
-- **Adverbs/time (2)**: {目標|もくひょう}{達成|たっせい} (goal achievement), {毎夕|まいゆう} (every evening)
-- **Verbs (2)**: きょろつく (to look around — godan), {眠|ねむ}れる (to be able to sleep — ichidan)
-
-Notable features:
-- Multi-sense entries: {上|のぼ}り{下|くだ}り (2: physical + figurative), {現品|げんぴん} (2: actual item + display stock), {進行形|しんこうけい} (2: grammar + ongoing), {知|し}らん (2: don't know + don't care), {眠|ねむ}れる (2: potential + attributive), {三度|さんど} (2: three times + three degrees)
-- Business: {本人|ほんにん}{確認|かくにん}, {貸借|たいしゃく}, {諸経費|しょけいひ}, {月頭|げっとう}, {既卒|きそつ}, {目標|もくひょう}{達成|たっせい}
-- Polite expressions: {恐縮|きょうしゅく}ですが, ひょっとすると
-- Science: {不純物|ふじゅんぶつ}, ろ{過|か}
-
-Total entries: 15,194 → 15,224 (approximate)
-Remaining candidates: 4,576 → 4,546 (30 removed)
 
 ---
 
