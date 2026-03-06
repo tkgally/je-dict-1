@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,434 |
+| Total entries | ~15,464 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,635 (open) |
-| Candidate words | ~4,337 |
+| General tier | ~12,665 (open) |
+| Candidate words | ~4,307 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 387)
+Added 30 new dictionary entries (IDs 15379-15408) from candidate_words.json:
+
+- **Nouns (17)**: {鼻緒|はなお} (thong strap), {和傘|わがさ} (Japanese umbrella), {木管|もっかん} (woodwind), {金管|きんかん} (brass instrument), しゃり (sushi rice), {雨林|うりん} (rainforest), {魚卵|ぎょらん} (fish roe), {少額|しょうがく} (small sum), {形状|けいじょう} (shape/form), {姓|せい} (surname), {年|とし}の{瀬|せ} (year-end), {命綱|いのちづな} (lifeline), {専業|せんぎょう} (sole occupation), {出身地|しゅっしんち} (birthplace), {水不足|みずぶそく} (water shortage), {塗|ぬ}り{物|もの} (lacquerware), {寒暖計|かんだんけい} (thermometer)
+- **Noun/verb-suru (3)**: {浮上|ふじょう} (surfacing), {復職|ふくしょく} (returning to work), {養蜂|ようほう} (beekeeping)
+- **Na-adjectives (4)**: まともな (proper/decent), {残虐|ざんぎゃく} (cruel/brutal), {絶望的|ぜつぼうてき} (hopeless), {純朴|じゅんぼく} (simple and honest)
+- **Other nouns (3)**: ピエロ (clown), {直喩|ちょくゆ} (simile), {隠喩|いんゆ} (metaphor)
+- **Noun (building) (1)**: {石造|いしづく}り (stone construction)
+- **Verb (1)**: {切|き}り{裂|さ}く (to slash/rip apart)
+- **Person noun (1)**: {独裁者|どくさいしゃ} (dictator)
+
+Notable features:
+- Paired entries: {木管|もっかん}/{金管|きんかん}, {直喩|ちょくゆ}/{隠喩|いんゆ}
+- Multi-sense entries: まともな (2: proper + direct), {命綱|いのちづな} (2: safety rope + figurative lifeline), {浮上|ふじょう} (2: surfacing + emergence)
+- Culture/tradition: {和傘|わがさ}, {鼻緒|はなお}, {塗|ぬ}り{物|もの}, しゃり, {年|とし}の{瀬|せ}
+- Academic: {直喩|ちょくゆ}, {隠喩|いんゆ}, {形状|けいじょう}
+- Daily life: {出身地|しゅっしんち}, {復職|ふくしょく}, {専業|せんぎょう}, {少額|しょうがく}
+
+Total entries: 15,434 → 15,464 (approximate)
+Remaining candidates: 4,337 → 4,307 (30 removed)
 
 ### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 386)
 Added 30 new dictionary entries (IDs 15349-15378) from candidate_words.json:
@@ -134,29 +155,6 @@ Notable features:
 
 Total entries: 15,314 → 15,344 (approximate)
 Remaining candidates: 4,457 → 4,427 (30 removed)
-
-### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 382)
-Added 30 new dictionary entries (IDs 15229-15258) from candidate_words.json:
-
-- **Expressions (1)**: {口|くち}を{挟|はさ}む (to butt in)
-- **Nouns (12)**: {美食家|びしょくか} (gourmet), {墓地|ぼち} (cemetery), {肉屋|にくや} (butcher shop), お{惣菜|そうざい} (deli food), {難癖|なんくせ} (fault-finding), {幕切|まくぎ}れ (finale), {構成員|こうせいいん} (member), {筆順|ひつじゅん} (stroke order), {県民性|けんみんせい} (regional character), {自然界|しぜんかい} (natural world), たらこ (cod roe), {規則性|きそくせい} (regularity)
-- **Noun/verb-suru (7)**: {転居|てんきょ} (moving), {弛緩|しかん} (relaxation), {激減|げきげん} (sharp decrease), {優先|ゆうせん} (priority), {後続|こうぞく} (following), {総計|そうけい} (sum total), {助力|じょりょく} (assistance)
-- **Noun/verb-suru (more) (2)**: {戒告|かいこく} (admonition), {丸|まる}{呑|の}み (swallowing whole)
-- **Adjective-i (1)**: {煙|けむ}たい (smoky; hard to be around)
-- **Na-adjective (2)**: {難解|なんかい} (abstruse), {平穏無事|へいおんぶじ} (peaceful and uneventful)
-- **Adjective-no/noun (3)**: {炊|た}き{立|た}て (freshly cooked), {不滅|ふめつ} (immortal), {極小|ごくしょう} (minuscule)
-- **Adjective-no/noun (more) (1)**: {恒久|こうきゅう} (permanent)
-- **Noun (other) (1)**: {不一致|ふいっち} (discrepancy)
-
-Notable features:
-- Multi-sense entries: {肉屋|にくや} (2: shop + person), {煙|けむ}たい (2: smoky + socially uncomfortable), {幕切|まくぎ}れ (2: theater + figurative), {丸|まる}{呑|の}み (2: literal + figurative)
-- Food: お{惣菜|そうざい}, {炊|た}き{立|た}て, たらこ, {美食家|びしょくか}, {肉屋|にくや}
-- Formal/written: {転居|てんきょ}, {戒告|かいこく}, {構成員|こうせいいん}, {総計|そうけい}, {助力|じょりょく}
-- Culture: {県民性|けんみんせい}, {筆順|ひつじゅん}
-- New kanji: 2,502 → 2,503 ({弛|し})
-
-Total entries: 15,284 → 15,314 (approximate)
-Remaining candidates: 4,487 → 4,457 (30 removed)
 
 ---
 
