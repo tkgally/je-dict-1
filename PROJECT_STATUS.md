@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 388)
+Added 30 new dictionary entries (IDs 15409-15438) from candidate_words.json:
+
+- **Nouns (17)**: {所在地|しょざいち} (location/address), {街路樹|がいろじゅ} (roadside trees), {原産地|げんさんち} (place of origin), {製造元|せいぞうもと} (manufacturer), {愛読書|あいどくしょ} (favorite book), {縮尺|しゅくしゃく} (map scale), {年中行事|ねんじゅうぎょうじ} (annual event), {美容師|びようし} (beautician), {執念|しゅうねん} (tenacity), {鉄橋|てっきょう} (railway bridge), {薄味|うすあじ} (mild flavor), {革靴|かわぐつ} (leather shoes), {円筒|えんとう} (cylinder), {立|た}て{札|ふだ} (notice board), {初舞台|はつぶたい} (debut performance), {口|くち}ぶり (way of talking), {霊魂|れいこん} (soul/spirit)
+- **Verbs (4)**: {慌|あわ}てふためく (to panic), {企|くわだ}てる (to plot), {発覚|はっかく}する (to be revealed), {的中|てきちゅう}する (to hit the mark)
+- **Na-adjectives (3)**: {断続的|だんぞくてき} (intermittent), {口達者|くちだっしゃ} (silver-tongued), {共学|きょうがく} (coeducation)
+- **Adverb (1)**: {相次|あいつ}いで (one after another)
+- **Multi-sense nouns (3)**: {墓穴|ぼけつ} (grave + own undoing), {空白|くうはく} (blank space + void), {研磨|けんま} (polishing + skill refinement)
+- **Multi-sense verb (1)**: {的中|てきちゅう}する (hitting target + prediction coming true)
+
+Notable features:
+- Diverse domains: business ({所在地|しょざいち}, {製造元|せいぞうもと}, {原産地|げんさんち}), food ({薄味|うすあじ}), culture ({年中行事|ねんじゅうぎょうじ}, {初舞台|はつぶたい}), daily life ({美容師|びようし}, {革靴|かわぐつ}, {愛読書|あいどくしょ})
+- News/formal vocabulary: {発覚|はっかく}する, {相次|あいつ}いで, {断続的|だんぞくてき}
+
+Total entries: ~15,464 → ~15,494 (approximate)
+Remaining candidates: ~4,307 → ~4,277 (30 removed)
+
 ### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 387)
 Added 30 new dictionary entries (IDs 15379-15408) from candidate_words.json:
 
@@ -135,26 +152,6 @@ Notable features:
 
 Total entries: 15,344 → 15,374 (approximate)
 Remaining candidates: 4,427 → 4,397 (30 removed)
-
-### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 383)
-Added 30 new dictionary entries (IDs 15259-15288) from candidate_words.json:
-
-- **Nouns (12)**: {強風|きょうふう} (strong wind), {空|あ}き{地|ち} (vacant lot), {農作物|のうさくぶつ} (crops), {株主|かぶぬし} (shareholder), {飲料水|いんりょうすい} (drinking water), {卒業生|そつぎょうせい} (graduate), {運転免許|うんてんめんきょ} (driver's license), {窃盗|せっとう} (theft), {飼|か}い{主|ぬし} (pet owner), {隔週|かくしゅう} (every other week), {門出|かどで} (departure/new start), {厚着|あつぎ} (dressing warmly)
-- **Noun/verb-suru (9)**: {乱用|らんよう} (abuse/misuse), {的中|てきちゅう} (hitting the mark), {整列|せいれつ} (lining up), {服用|ふくよう} (taking medicine), {埋葬|まいそう} (burial), {抜粋|ばっすい} (excerpt), {重複|じゅうふく} (duplication), {布教|ふきょう} (proselytizing), {負傷|ふしょう} (injury), {決壊|けっかい} (breach/collapse)
-- **Verbs (3)**: {緩|ゆる}める (to loosen), {引|ひ}き{締|し}める (to tighten), {似通|にかよ}う (to resemble closely)
-- **Na-adjectives (2)**: {寛大|かんだい} (generous/tolerant), {速|すみ}やか (speedy/prompt)
-- **Adverb (1)**: {絶|た}えず (constantly)
-- **Expression (1)**: {一部始終|いちぶしじゅう} (the whole story)
-
-Notable features:
-- Multi-sense entries: {的中|てきちゅう} (2: hitting target + prediction coming true), {緩|ゆる}める (2: physical loosening + relaxing rules), {引|ひ}き{締|し}める (2: toning body + bracing discipline), {門出|かどで} (2: departure + new start), {布教|ふきょう} (2: religious + informal evangelizing)
-- Antonym pair: {緩|ゆる}める ↔ {引|ひ}き{締|し}める
-- Daily life: {厚着|あつぎ}, {飼|か}い{主|ぬし}, {運転免許|うんてんめんきょ}, {飲料水|いんりょうすい}, {隔週|かくしゅう}
-- Formal/news: {窃盗|せっとう}, {負傷|ふしょう}, {決壊|けっかい}, {乱用|らんよう}, {整列|せいれつ}
-- New kanji: 2,503 → 2,504 ({窃|せつ})
-
-Total entries: 15,314 → 15,344 (approximate)
-Remaining candidates: 4,457 → 4,427 (30 removed)
 
 ---
 
