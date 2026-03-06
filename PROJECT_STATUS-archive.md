@@ -3,6 +3,22 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 378)
+Added 30 new dictionary entries (IDs 15109-15138) from candidate_words.json:
+
+- **Na-adjectives (4)**: {強烈|きょうれつ} (intense), {不注意|ふちゅうい} (careless), {格安|かくやす} (bargain), {身軽|みがる} (agile/unburdened)
+- **Nouns (15)**: {竹林|ちくりん} (bamboo grove), {私生活|しせいかつ} (private life), {法廷|ほうてい} (courtroom), {食物繊維|しょくもつせんい} (dietary fiber), {遊戯|ゆうぎ} (game), {溶液|ようえき} (solution), {荘園|しょうえん} (manor), {偉人|いじん} (great person), {失態|しったい} (blunder), {余談|よだん} (digression), {郷土料理|きょうどりょうり} (local cuisine), {老後|ろうご} (old age), {末|すえ}っ{子|こ} (youngest child), {一軒家|いっけんや} (detached house), {密度|みつど} (density)
+- **Noun/verb-suru (4)**: {欠乏|けつぼう} (deficiency), {降参|こうさん} (surrender), {食|た}べ{歩|ある}き (food tour), {粗探|あらさが}し (fault-finding)
+- **Na-adj/noun (1)**: {小刻|こきざ}み (in small increments)
+- **Noun/suffix (1)**: {類|るい} (kind/type)
+- **Verbs (2)**: {忍|しの}び{寄|よ}る (to creep up — godan), {見惚|みと}れる (to gaze admiringly — ichidan)
+- **Noun (go/strategy) (1)**: {布石|ふせき} (preparatory step)
+- **Expression (1)**: {一理|いちり}ある (to have a point)
+- **Noun (immigration) (1)**: {永住|えいじゅう} (permanent residence)
+
+Total entries: 15,164 → 15,194 (approximate)
+Remaining candidates: 4,606 → 4,576 (30 removed)
+
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 375)
 Added 30 new dictionary entries (IDs 15019-15048) from candidate_words.json:
 

@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-05
+**Last updated**: 2026-03-06
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,314 |
+| Total entries | ~15,344 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,515 (open) |
-| Candidate words | ~4,457 |
+| General tier | ~12,545 (open) |
+| Candidate words | ~4,427 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 383)
+Added 30 new dictionary entries (IDs 15259-15288) from candidate_words.json:
+
+- **Nouns (12)**: {強風|きょうふう} (strong wind), {空|あ}き{地|ち} (vacant lot), {農作物|のうさくぶつ} (crops), {株主|かぶぬし} (shareholder), {飲料水|いんりょうすい} (drinking water), {卒業生|そつぎょうせい} (graduate), {運転免許|うんてんめんきょ} (driver's license), {窃盗|せっとう} (theft), {飼|か}い{主|ぬし} (pet owner), {隔週|かくしゅう} (every other week), {門出|かどで} (departure/new start), {厚着|あつぎ} (dressing warmly)
+- **Noun/verb-suru (9)**: {乱用|らんよう} (abuse/misuse), {的中|てきちゅう} (hitting the mark), {整列|せいれつ} (lining up), {服用|ふくよう} (taking medicine), {埋葬|まいそう} (burial), {抜粋|ばっすい} (excerpt), {重複|じゅうふく} (duplication), {布教|ふきょう} (proselytizing), {負傷|ふしょう} (injury), {決壊|けっかい} (breach/collapse)
+- **Verbs (3)**: {緩|ゆる}める (to loosen), {引|ひ}き{締|し}める (to tighten), {似通|にかよ}う (to resemble closely)
+- **Na-adjectives (2)**: {寛大|かんだい} (generous/tolerant), {速|すみ}やか (speedy/prompt)
+- **Adverb (1)**: {絶|た}えず (constantly)
+- **Expression (1)**: {一部始終|いちぶしじゅう} (the whole story)
+
+Notable features:
+- Multi-sense entries: {的中|てきちゅう} (2: hitting target + prediction coming true), {緩|ゆる}める (2: physical loosening + relaxing rules), {引|ひ}き{締|し}める (2: toning body + bracing discipline), {門出|かどで} (2: departure + new start), {布教|ふきょう} (2: religious + informal evangelizing)
+- Antonym pair: {緩|ゆる}める ↔ {引|ひ}き{締|し}める
+- Daily life: {厚着|あつぎ}, {飼|か}い{主|ぬし}, {運転免許|うんてんめんきょ}, {飲料水|いんりょうすい}, {隔週|かくしゅう}
+- Formal/news: {窃盗|せっとう}, {負傷|ふしょう}, {決壊|けっかい}, {乱用|らんよう}, {整列|せいれつ}
+- New kanji: 2,503 → 2,504 ({窃|せつ})
+
+Total entries: 15,314 → 15,344 (approximate)
+Remaining candidates: 4,457 → 4,427 (30 removed)
 
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 382)
 Added 30 new dictionary entries (IDs 15229-15258) from candidate_words.json:
@@ -135,28 +155,6 @@ Notable features:
 
 Total entries: 15,194 → 15,224 (approximate)
 Remaining candidates: 4,576 → 4,546 (30 removed)
-
-### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 378)
-Added 30 new dictionary entries (IDs 15109-15138) from candidate_words.json:
-
-- **Na-adjectives (4)**: {強烈|きょうれつ} (intense), {不注意|ふちゅうい} (careless), {格安|かくやす} (bargain), {身軽|みがる} (agile/unburdened)
-- **Nouns (15)**: {竹林|ちくりん} (bamboo grove), {私生活|しせいかつ} (private life), {法廷|ほうてい} (courtroom), {食物繊維|しょくもつせんい} (dietary fiber), {遊戯|ゆうぎ} (game), {溶液|ようえき} (solution), {荘園|しょうえん} (manor), {偉人|いじん} (great person), {失態|しったい} (blunder), {余談|よだん} (digression), {郷土料理|きょうどりょうり} (local cuisine), {老後|ろうご} (old age), {末|すえ}っ{子|こ} (youngest child), {一軒家|いっけんや} (detached house), {密度|みつど} (density)
-- **Noun/verb-suru (4)**: {欠乏|けつぼう} (deficiency), {降参|こうさん} (surrender), {食|た}べ{歩|ある}き (food tour), {粗探|あらさが}し (fault-finding)
-- **Na-adj/noun (1)**: {小刻|こきざ}み (in small increments)
-- **Noun/suffix (1)**: {類|るい} (kind/type)
-- **Verbs (2)**: {忍|しの}び{寄|よ}る (to creep up — godan), {見惚|みと}れる (to gaze admiringly — ichidan)
-- **Noun (go/strategy) (1)**: {布石|ふせき} (preparatory step)
-- **Expression (1)**: {一理|いちり}ある (to have a point)
-- **Noun (immigration) (1)**: {永住|えいじゅう} (permanent residence)
-
-Notable features:
-- Multi-sense entries: {食|た}べ{歩|ある}き (2), {身軽|みがる} (2), {密度|みつど} (2), {布石|ふせき} (2)
-- Daily life: {格安|かくやす}, {私生活|しせいかつ}, {老後|ろうご}, {末|すえ}っ{子|こ}, {一軒家|いっけんや}
-- Culture/food: {郷土料理|きょうどりょうり}, {食物繊維|しょくもつせんい}, {竹林|ちくりん}, {食|た}べ{歩|ある}き
-- Academic: {溶液|ようえき}, {密度|みつど}, {荘園|しょうえん}
-
-Total entries: 15,164 → 15,194 (approximate)
-Remaining candidates: 4,606 → 4,576 (30 removed)
 
 ---
 
