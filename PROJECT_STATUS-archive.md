@@ -3,6 +3,49 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 381)
+Added 30 new dictionary entries (IDs 15199-15228) from candidate_words.json:
+
+- **Nouns (15)**: {関取|せきとり} (ranked sumo wrestler), {飾|かざ}り{気|け} (affectation), {総理大臣|そうりだいじん} (Prime Minister), {総意|そうい} (consensus), {人肌|ひとはだ} (body warmth), {私物|しぶつ} (personal belongings), {領事|りょうじ} (consul), {提案書|ていあんしょ} (written proposal), {装飾品|そうしょくひん} (ornaments), {軍艦巻|ぐんかんま}き (battleship roll sushi), お{造|つく}り (sashimi), {炙|あぶ}り (seared food), {低空|ていくう} (low altitude), 校長室 (principal's office), すりこぎ (wooden pestle)
+- **Na-adjectives (3)**: {国民的|こくみんてき} (nationally popular), {粗暴|そぼう} (rough/violent), {痛切|つうせつ} (keen/acute)
+- **Godan verbs (2)**: {引|ひ}き{締|し}まる (to tighten), {着崩|きくず}す (to wear casually)
+- **Suru verb (1)**: {失礼|しつれい}する (to excuse oneself)
+- **Nouns (more) (6)**: {刑法|けいほう} (criminal law), {閑職|かんしょく} (dead-end position), {議決|ぎけつ} (resolution/vote), {対抗策|たいこうさく} (countermeasure), {強国|きょうこく} (powerful nation), {持|も}ち{株|かぶ} (shareholdings)
+- **Nouns (abstract) (1)**: {具現化|ぐげんか} (embodiment)
+- **Expressions (1)**: {口|くち}を{滑|すべ}らす (to let something slip)
+- **Nouns (construction) (1)**: {架橋|かきょう} (bridge building)
+
+Notable features:
+- Multi-sense entries: {引|ひ}き{締|し}まる (2: physical + mental), {失礼|しつれい}する (2: leave-taking + being rude), {架橋|かきょう} (2: literal + figurative), {低空|ていくう} (figurative usage: barely scraping by)
+- Food/culture: {軍艦巻|ぐんかんま}き, お{造|つく}り, {炙|あぶ}り, すりこぎ, {関取|せきとり}
+- Business/politics: {総理大臣|そうりだいじん}, {議決|ぎけつ}, {持|も}ち{株|かぶ}, {対抗策|たいこうさく}, {提案書|ていあんしょ}
+- Daily life: {私物|しぶつ}, {校長室|こうちょうしつ}, {口|くち}を{滑|すべ}らす, {着崩|きくず}す
+
+Total entries: 15,254 → 15,284 (approximate)
+Remaining candidates: 4,517 → 4,487 (30 removed)
+
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 380)
+Added 30 new dictionary entries (IDs 15169-15198) from candidate_words.json:
+
+- **Nouns (18)**: {香味野菜|こうみやさい} (aromatic vegetables), {霧吹|きりふ}き (spray bottle), {惚気話|のろけばなし} (love-boasting), {独占欲|どくせんよく} (possessiveness), {志望者|しぼうしゃ} (applicant), {教職員|きょうしょくいん} (teaching staff), {議席|ぎせき} (parliamentary seat), {洗濯洗剤|せんたくせんざい} (laundry detergent), {蕁麻疹|じんましん} (hives), {数倍|すうばい} (several times), {一輪車|いちりんしゃ} (unicycle/wheelbarrow), {番付|ばんづけ} (rankings), {面倒|めんどう}くさがり (lazy person), {常識外|じょうしきはず}れ (lacking common sense), {余暇|よか} (leisure time), {推薦状|すいせんじょう} (recommendation letter), {政界|せいかい} (political world), {対抗心|たいこうしん} (competitive spirit)
+- **Noun/verb-suru (3)**: {路駐|ろちゅう} (street parking), {懐柔|かいじゅう} (winning over), {付随|ふずい} (accompanying)
+- **Na-adjective (1)**: {過敏|かびん} (hypersensitive)
+- **Nouns (medical) (1)**: {拒絶反応|きょぜつはんのう} (rejection reaction)
+- **Expressions (2)**: {度|ど}を{越|こ}す (to go too far), {予期|よき}せぬ (unexpected)
+- **Godan verbs (2)**: {潜|もぐ}り{込|こ}む (to slip into), {上|あ}がり{込|こ}む (to enter someone's house)
+- **Adverbs (2)**: {頻繁|ひんぱん}に (frequently), オタク (otaku/geek)
+
+Notable features:
+- Multi-sense entries: {拒絶反応|きょぜつはんのう} (2: medical + figurative), {一輪車|いちりんしゃ} (2: unicycle + wheelbarrow), {潜|もぐ}り{込|こ}む (2: physical + figurative), {番付|ばんづけ} (2: sumo + general)
+- Medical: {蕁麻疹|じんましん}, {過敏|かびん}, {拒絶反応|きょぜつはんのう}
+- Daily life: {洗濯洗剤|せんたくせんざい}, {霧吹|きりふ}き, {路駐|ろちゅう}, {一輪車|いちりんしゃ}
+- Culture/society: オタク, {番付|ばんづけ}, {政界|せいかい}, {議席|ぎせき}
+- Relationships: {独占欲|どくせんよく}, {惚気話|のろけばなし}
+- New kanji: 2,501 → 2,502 ({蕁|じん})
+
+Total entries: 15,224 → 15,254 (approximate)
+Remaining candidates: 4,546 → 4,517 (29 removed)
+
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 378)
 Added 30 new dictionary entries (IDs 15109-15138) from candidate_words.json:
 
