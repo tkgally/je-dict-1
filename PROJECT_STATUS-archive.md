@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 382)
+Added 30 new dictionary entries (IDs 15229-15258) from candidate_words.json:
+
+- **Expressions (1)**: {口|くち}を{挟|はさ}む (to butt in)
+- **Nouns (12)**: {美食家|びしょくか} (gourmet), {墓地|ぼち} (cemetery), {肉屋|にくや} (butcher shop), お{惣菜|そうざい} (deli food), {難癖|なんくせ} (fault-finding), {幕切|まくぎ}れ (finale), {構成員|こうせいいん} (member), {筆順|ひつじゅん} (stroke order), {県民性|けんみんせい} (regional character), {自然界|しぜんかい} (natural world), たらこ (cod roe), {規則性|きそくせい} (regularity)
+- **Noun/verb-suru (7)**: {転居|てんきょ} (moving), {弛緩|しかん} (relaxation), {激減|げきげん} (sharp decrease), {優先|ゆうせん} (priority), {後続|こうぞく} (following), {総計|そうけい} (sum total), {助力|じょりょく} (assistance)
+- **Noun/verb-suru (more) (2)**: {戒告|かいこく} (admonition), {丸|まる}{呑|の}み (swallowing whole)
+- **Adjective-i (1)**: {煙|けむ}たい (smoky; hard to be around)
+- **Na-adjective (2)**: {難解|なんかい} (abstruse), {平穏無事|へいおんぶじ} (peaceful and uneventful)
+- **Adjective-no/noun (3)**: {炊|た}き{立|た}て (freshly cooked), {不滅|ふめつ} (immortal), {極小|ごくしょう} (minuscule)
+- **Adjective-no/noun (more) (1)**: {恒久|こうきゅう} (permanent)
+- **Noun (other) (1)**: {不一致|ふいっち} (discrepancy)
+
+Notable features:
+- Multi-sense entries: {肉屋|にくや} (2: shop + person), {煙|けむ}たい (2: smoky + socially uncomfortable), {幕切|まくぎ}れ (2: theater + figurative), {丸|まる}{呑|の}み (2: literal + figurative)
+- Food: お{惣菜|そうざい}, {炊|た}き{立|た}て, たらこ, {美食家|びしょくか}, {肉屋|にくや}
+- Formal/written: {転居|てんきょ}, {戒告|かいこく}, {構成員|こうせいいん}, {総計|そうけい}, {助力|じょりょく}
+- Culture: {県民性|けんみんせい}, {筆順|ひつじゅん}
+- New kanji: 2,502 → 2,503 ({弛|し})
+
+Total entries: 15,284 → 15,314 (approximate)
+Remaining candidates: 4,487 → 4,457 (30 removed)
+
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 381)
 Added 30 new dictionary entries (IDs 15199-15228) from candidate_words.json:
 
