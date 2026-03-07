@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 389)
+Added 30 new dictionary entries (IDs 15439-15468) from candidate_words.json:
+
+- **Expressions (9)**: {意地|いじ}を{張|は}る (to be stubborn), {腰|こし}を{下|お}ろす (to sit down), {手|て}に{負|お}えない (unmanageable), {目|め}を{輝|かがや}かせる (eyes light up), {腰|こし}を{抜|ぬ}かす (frozen with shock), {満員御礼|まんいんおんれい} (full house), {火|ひ}の{用心|ようじん} (beware of fire), {命|いのち}に{関|かか}わる (life-threatening), {首|くび}を{縦|たて}に{振|ふ}る (to nod yes)
+- **Nouns (7)**: {非対面|ひたいめん} (non-face-to-face), {発送済|はっそうず}み (shipped), {永住権|えいじゅうけん} (permanent residency), {鎮痛剤|ちんつうざい} (painkiller), {老夫婦|ろうふうふ} (elderly couple), {名著|めいちょ} (masterpiece book), {新年度|しんねんど} (new fiscal year)
+- **Noun/verb-suru (3)**: {精通|せいつう} (being well-versed), {熟達|じゅくたつ} (proficiency), {抑止力|よくしりょく} (deterrent force)
+- **Verbs (3)**: {引|ひ}き{連|つ}れる (to take along), {奪|うば}い{合|あ}う (to scramble for), {踏|ふ}みにじる (to trample)
+- **Na-adjective (1)**: {全般的|ぜんぱんてき} (overall)
+- **Adverb (1)**: {従来通|じゅうらいどお}り (as before)
+- **Other nouns (4)**: {下|した}の{名前|なまえ} (given name), {開発者|かいはつしゃ} (developer), {免状|めんじょう} (diploma), {雨乞|あまご}い (praying for rain)
+- **Verb-ichidan (1)**: {取|と}り{留|と}める (to save a life)
+- **Multi-sense verb (1)**: {踏|ふ}みにじる (2: literal trampling + figurative violation)
+
+Notable features:
+- Strong emphasis on expressions and idioms (9 entries)
+- Practical daily life: {発送済|はっそうず}み, {非対面|ひたいめん}, {鎮痛剤|ちんつうざい}, {開発者|かいはつしゃ}
+- Culture: {満員御礼|まんいんおんれい}, {火|ひ}の{用心|ようじん}, {雨乞|あまご}い
+- Immigration/legal: {永住権|えいじゅうけん}
+- New kanji: 2,510 → 2,511 ({乞|こ})
+
+Total entries: ~15,494 → ~15,524 (approximate)
+Remaining candidates: ~4,277 → ~4,247 (30 removed)
+
 ### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 387)
 Added 30 new dictionary entries (IDs 15379-15408) from candidate_words.json:
 

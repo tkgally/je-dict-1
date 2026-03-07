@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,644 |
+| Total entries | ~15,674 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,845 (open) |
-| Candidate words | ~4,127 |
+| General tier | ~12,875 (open) |
+| Candidate words | ~4,097 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,32 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 394)
+Added 30 new dictionary entries (IDs 15589-15618) from candidate_words.json:
+
+- **Noun/verb-suru (8)**: {提唱|ていしょう} (advocacy), {付与|ふよ} (granting), {結実|けつじつ} (bearing fruit), {立案|りつあん} (planning), {力走|りきそう} (powerful run), {奪還|だっかん} (recapture), {方向転換|ほうこうてんかん} (change of direction), {断行|だんこう} (decisive action)
+- **Nouns (7)**: {名案|めいあん} (brilliant idea), {帰省|きせい}ラッシュ (homecoming rush), {部外者|ぶがいしゃ} (outsider), {桜色|さくらいろ} (cherry blossom pink), {野暮用|やぼよう} (trifling errand), {濃紺|のうこん} (dark navy), {障害物|しょうがいぶつ} (obstacle)
+- **Na-adjectives (3)**: {地道|じみち} (steady), {独占的|どくせんてき} (monopolistic), {種別|しゅべつ} (classification)
+- **I-adjectives (2)**: {忍耐強|にんたいづよ}い (patient), {気忙|きぜわ}しい (restless)
+- **Noun/na-adjective (2)**: {非凡|ひぼん} (extraordinary), {腹|はら}ぺこ (starving)
+- **Pre-noun adjectival (1)**: {古|ふる}びた (old-looking)
+- **Noun (1)**: ろくでなし (good-for-nothing)
+- **Noun/expression (2)**: {三者三様|さんしゃさんよう} (each to their own), {繰|く}り{越|こ}し (carryover)
+- **Verb-godan (1)**: {駆|か}け{出|だ}す (to dash off)
+- **Verb-ichidan (1)**: {強|し}いる (to force)
+- **Expression (1)**: {気|き}を{紛|まぎ}らす (to distract oneself)
+- **Color (1)**: {黄緑|きみどり} (yellow-green)
+
+Notable features:
+- Good variety of parts of speech across adjectives, verbs, nouns, and expressions
+- Practical daily life: {帰省|きせい}ラッシュ, {野暮用|やぼよう}, {腹|はら}ぺこ, {繰|く}り{越|こ}し
+- Business/formal: {付与|ふよ}, {立案|りつあん}, {断行|だんこう}, {独占的|どくせんてき}, {種別|しゅべつ}
+- Color pair: {桜色|さくらいろ}, {黄緑|きみどり}, {濃紺|のうこん}
+- Multi-sense entries: {駆|か}け{出|だ}す (2: start running + run out), {結実|けつじつ} (2: literal + figurative), {方向転換|ほうこうてんかん} (2: physical + strategic)
+
+Total entries: ~15,644 → ~15,674 (approximate)
+Remaining candidates: ~4,127 → ~4,097 (30 removed)
 
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 393)
 Added 30 new dictionary entries (IDs 15559-15588) from candidate_words.json:
@@ -140,29 +166,6 @@ Notable features:
 
 Total entries: ~15,524 → ~15,554 (approximate)
 Remaining candidates: ~4,247 → ~4,217 (30 removed)
-
-### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 389)
-Added 30 new dictionary entries (IDs 15439-15468) from candidate_words.json:
-
-- **Expressions (9)**: {意地|いじ}を{張|は}る (to be stubborn), {腰|こし}を{下|お}ろす (to sit down), {手|て}に{負|お}えない (unmanageable), {目|め}を{輝|かがや}かせる (eyes light up), {腰|こし}を{抜|ぬ}かす (frozen with shock), {満員御礼|まんいんおんれい} (full house), {火|ひ}の{用心|ようじん} (beware of fire), {命|いのち}に{関|かか}わる (life-threatening), {首|くび}を{縦|たて}に{振|ふ}る (to nod yes)
-- **Nouns (7)**: {非対面|ひたいめん} (non-face-to-face), {発送済|はっそうず}み (shipped), {永住権|えいじゅうけん} (permanent residency), {鎮痛剤|ちんつうざい} (painkiller), {老夫婦|ろうふうふ} (elderly couple), {名著|めいちょ} (masterpiece book), {新年度|しんねんど} (new fiscal year)
-- **Noun/verb-suru (3)**: {精通|せいつう} (being well-versed), {熟達|じゅくたつ} (proficiency), {抑止力|よくしりょく} (deterrent force)
-- **Verbs (3)**: {引|ひ}き{連|つ}れる (to take along), {奪|うば}い{合|あ}う (to scramble for), {踏|ふ}みにじる (to trample)
-- **Na-adjective (1)**: {全般的|ぜんぱんてき} (overall)
-- **Adverb (1)**: {従来通|じゅうらいどお}り (as before)
-- **Other nouns (4)**: {下|した}の{名前|なまえ} (given name), {開発者|かいはつしゃ} (developer), {免状|めんじょう} (diploma), {雨乞|あまご}い (praying for rain)
-- **Verb-ichidan (1)**: {取|と}り{留|と}める (to save a life)
-- **Multi-sense verb (1)**: {踏|ふ}みにじる (2: literal trampling + figurative violation)
-
-Notable features:
-- Strong emphasis on expressions and idioms (9 entries)
-- Practical daily life: {発送済|はっそうず}み, {非対面|ひたいめん}, {鎮痛剤|ちんつうざい}, {開発者|かいはつしゃ}
-- Culture: {満員御礼|まんいんおんれい}, {火|ひ}の{用心|ようじん}, {雨乞|あまご}い
-- Immigration/legal: {永住権|えいじゅうけん}
-- New kanji: 2,510 → 2,511 ({乞|こ})
-
-Total entries: ~15,494 → ~15,524 (approximate)
-Remaining candidates: ~4,277 → ~4,247 (30 removed)
 
 ---
 
