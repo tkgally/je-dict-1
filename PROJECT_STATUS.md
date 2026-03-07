@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,614 |
+| Total entries | ~15,644 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,815 (open) |
-| Candidate words | ~4,157 |
+| General tier | ~12,845 (open) |
+| Candidate words | ~4,127 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 393)
+Added 30 new dictionary entries (IDs 15559-15588) from candidate_words.json:
+
+- **Nouns (20)**: {芥川賞|あくたがわしょう} (Akutagawa Prize), {直木賞|なおきしょう} (Naoki Prize), {処女作|しょじょさく} (debut work), {占星術|せんせいじゅつ} (astrology), {久遠|くおん} (eternity), {血圧計|けつあつけい} (blood pressure monitor), {酷寒|こっかん} (severe cold), {美人画|びじんが} (bijin-ga), {五線譜|ごせんふ} (musical staff), {毛織物|けおりもの} (woolen fabric), {静止画|せいしが} (still image), {接近戦|せっきんせん} (close-quarters combat), {病熱|びょうねつ} (fever from illness), {貯水槽|ちょすいそう} (water tank), {汚泥|おでい} (sludge), {補正予算|ほせいよさん} (supplementary budget), {高山植物|こうざんしょくぶつ} (alpine plants), {不在連絡票|ふざいれんらくひょう} (missed delivery notice), {百聞|ひゃくぶん} (hearing a hundred times), {瞬間接着剤|しゅんかんせっちゃくざい} (super glue)
+- **Noun/verb-suru (3)**: {誤嚥|ごえん} (aspiration), {起案|きあん} (drafting), {急接近|きゅうせっきん} (rapid approach)
+- **Noun/na-adjective (3)**: {至高|しこう} (supreme), {超一流|ちょういちりゅう} (world-class), {電気自動車|でんきじどうしゃ} (electric vehicle)
+- **Noun (2)**: {公使|こうし} (diplomatic minister), {少数民族|しょうすうみんぞく} (ethnic minority)
+- **Noun (1)**: {真|ま}っ{向|こう}{勝負|しょうぶ} (head-on contest)
+- **Expression (1)**: {機嫌|きげん}をとる (to humor someone)
+
+Notable features:
+- Literary prizes pair: {芥川賞|あくたがわしょう}/{直木賞|なおきしょう}
+- Daily life vocabulary: {不在連絡票|ふざいれんらくひょう}, {瞬間接着剤|しゅんかんせっちゃくざい}, {血圧計|けつあつけい}
+- Technical/modern: {電気自動車|でんきじどうしゃ}, {静止画|せいしが}, {補正予算|ほせいよさん}
+- Cultural: {美人画|びじんが}, {占星術|せんせいじゅつ}, {久遠|くおん}
+- Multi-sense entry: {急接近|きゅうせっきん} (2: physical approach + relationship)
+- New kanji: 2,516 → 2,517 ({芥|かい})
+
+Total entries: ~15,614 → ~15,644 (approximate)
+Remaining candidates: ~4,157 → ~4,127 (30 removed)
 
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 392)
 Added 30 new dictionary entries (IDs 15529-15558) from candidate_words.json:
@@ -142,23 +163,6 @@ Notable features:
 
 Total entries: ~15,494 → ~15,524 (approximate)
 Remaining candidates: ~4,277 → ~4,247 (30 removed)
-
-### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 388)
-Added 30 new dictionary entries (IDs 15409-15438) from candidate_words.json:
-
-- **Nouns (17)**: {所在地|しょざいち} (location/address), {街路樹|がいろじゅ} (roadside trees), {原産地|げんさんち} (place of origin), {製造元|せいぞうもと} (manufacturer), {愛読書|あいどくしょ} (favorite book), {縮尺|しゅくしゃく} (map scale), {年中行事|ねんじゅうぎょうじ} (annual event), {美容師|びようし} (beautician), {執念|しゅうねん} (tenacity), {鉄橋|てっきょう} (railway bridge), {薄味|うすあじ} (mild flavor), {革靴|かわぐつ} (leather shoes), {円筒|えんとう} (cylinder), {立|た}て{札|ふだ} (notice board), {初舞台|はつぶたい} (debut performance), {口|くち}ぶり (way of talking), {霊魂|れいこん} (soul/spirit)
-- **Verbs (4)**: {慌|あわ}てふためく (to panic), {企|くわだ}てる (to plot), {発覚|はっかく}する (to be revealed), {的中|てきちゅう}する (to hit the mark)
-- **Na-adjectives (3)**: {断続的|だんぞくてき} (intermittent), {口達者|くちだっしゃ} (silver-tongued), {共学|きょうがく} (coeducation)
-- **Adverb (1)**: {相次|あいつ}いで (one after another)
-- **Multi-sense nouns (3)**: {墓穴|ぼけつ} (grave + own undoing), {空白|くうはく} (blank space + void), {研磨|けんま} (polishing + skill refinement)
-- **Multi-sense verb (1)**: {的中|てきちゅう}する (hitting target + prediction coming true)
-
-Notable features:
-- Diverse domains: business ({所在地|しょざいち}, {製造元|せいぞうもと}, {原産地|げんさんち}), food ({薄味|うすあじ}), culture ({年中行事|ねんじゅうぎょうじ}, {初舞台|はつぶたい}), daily life ({美容師|びようし}, {革靴|かわぐつ}, {愛読書|あいどくしょ})
-- News/formal vocabulary: {発覚|はっかく}する, {相次|あいつ}いで, {断続的|だんぞくてき}
-
-Total entries: ~15,464 → ~15,494 (approximate)
-Remaining candidates: ~4,307 → ~4,277 (30 removed)
 
 ---
 
