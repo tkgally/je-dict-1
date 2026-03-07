@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,584 |
+| Total entries | ~15,614 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,785 (open) |
-| Candidate words | ~4,187 |
+| General tier | ~12,815 (open) |
+| Candidate words | ~4,157 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 392)
+Added 30 new dictionary entries (IDs 15529-15558) from candidate_words.json:
+
+- **Nouns (12)**: {屁理屈|へりくつ} (quibble), {魔法使|まほうつか}い (wizard), {心当|こころあ}たり (having an idea), {新入社員|しんにゅうしゃいん} (new employee), {街角|まちかど} (street corner), {必需品|ひつじゅひん} (necessities), {和太鼓|わだいこ} (Japanese drum), {低地|ていち} (lowland), {望遠|ぼうえん} (telephoto), {巡|めぐ}り{合|あ}い (chance encounter), {雨|あま}だれ (raindrops from eaves), {刹那|せつな} (moment/instant)
+- **Noun/verb-suru (5)**: {脱走|だっそう} (escape/desertion), {暴動|ぼうどう} (riot), {絶交|ぜっこう} (breaking off friendship), {哀悼|あいとう} (condolence), {抗争|こうそう} (conflict/feud)
+- **Noun/na-adjective (3)**: {不変|ふへん} (unchanging), {印象的|いんしょうてき} (impressive), {隠密|おんみつ} (secrecy/spy)
+- **Noun/verb-suru (2)**: {夏|なつ}バテ (summer heat fatigue), {留守番|るすばん} (house-sitting)
+- **Expression (2)**: {根|ね}に{持|も}つ (to hold a grudge), {二|ふた}つ{返事|へんじ} (ready consent)
+- **Noun (2)**: {二刀流|にとうりゅう} (dual-wielding), {破談|はだん} (broken deal)
+- **Verb-godan (1)**: {近寄|ちかよ}る (to approach)
+- **Verb-ichidan (1)**: {買|か}い{占|し}める (to buy up/hoard)
+- **I-adjective (1)**: {男|おとこ}らしい (manly)
+- **Four-character idiom (1)**: {盛者必衰|じょうしゃひっすい} (the prosperous must decline)
+
+Notable features:
+- Mix of practical daily vocabulary ({心当|こころあ}たり, {必需品|ひつじゅひん}, {留守番|るすばん}, {買|か}い{占|し}める) and cultural/literary words ({刹那|せつな}, {盛者必衰|じょうしゃひっすい}, {隠密|おんみつ})
+- Social/relationship words: {絶交|ぜっこう}, {根|ね}に{持|も}つ, {巡|めぐ}り{合|あ}い
+- Modern usage: {二刀流|にとうりゅう} (Ohtani), {夏|なつ}バテ, {男|おとこ}らしい
+- Multi-sense entry: {二刀流|にとうりゅう} (2: swordsmanship + excelling in two fields), {隠密|おんみつ} (2: secrecy + spy)
+- New kanji: 2,514 → 2,516 ({刹|せつ}, {屁|へ})
+
+Total entries: ~15,584 → ~15,614 (approximate)
+Remaining candidates: ~4,187 → ~4,157 (30 removed)
 
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 391)
 Added 30 new dictionary entries (IDs 15499-15528) from candidate_words.json:
@@ -135,27 +159,6 @@ Notable features:
 
 Total entries: ~15,464 → ~15,494 (approximate)
 Remaining candidates: ~4,307 → ~4,277 (30 removed)
-
-### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 387)
-Added 30 new dictionary entries (IDs 15379-15408) from candidate_words.json:
-
-- **Nouns (17)**: {鼻緒|はなお} (thong strap), {和傘|わがさ} (Japanese umbrella), {木管|もっかん} (woodwind), {金管|きんかん} (brass instrument), しゃり (sushi rice), {雨林|うりん} (rainforest), {魚卵|ぎょらん} (fish roe), {少額|しょうがく} (small sum), {形状|けいじょう} (shape/form), {姓|せい} (surname), {年|とし}の{瀬|せ} (year-end), {命綱|いのちづな} (lifeline), {専業|せんぎょう} (sole occupation), {出身地|しゅっしんち} (birthplace), {水不足|みずぶそく} (water shortage), {塗|ぬ}り{物|もの} (lacquerware), {寒暖計|かんだんけい} (thermometer)
-- **Noun/verb-suru (3)**: {浮上|ふじょう} (surfacing), {復職|ふくしょく} (returning to work), {養蜂|ようほう} (beekeeping)
-- **Na-adjectives (4)**: まともな (proper/decent), {残虐|ざんぎゃく} (cruel/brutal), {絶望的|ぜつぼうてき} (hopeless), {純朴|じゅんぼく} (simple and honest)
-- **Other nouns (3)**: ピエロ (clown), {直喩|ちょくゆ} (simile), {隠喩|いんゆ} (metaphor)
-- **Noun (building) (1)**: {石造|いしづく}り (stone construction)
-- **Verb (1)**: {切|き}り{裂|さ}く (to slash/rip apart)
-- **Person noun (1)**: {独裁者|どくさいしゃ} (dictator)
-
-Notable features:
-- Paired entries: {木管|もっかん}/{金管|きんかん}, {直喩|ちょくゆ}/{隠喩|いんゆ}
-- Multi-sense entries: まともな (2: proper + direct), {命綱|いのちづな} (2: safety rope + figurative lifeline), {浮上|ふじょう} (2: surfacing + emergence)
-- Culture/tradition: {和傘|わがさ}, {鼻緒|はなお}, {塗|ぬ}り{物|もの}, しゃり, {年|とし}の{瀬|せ}
-- Academic: {直喩|ちょくゆ}, {隠喩|いんゆ}, {形状|けいじょう}
-- Daily life: {出身地|しゅっしんち}, {復職|ふくしょく}, {専業|せんぎょう}, {少額|しょうがく}
-
-Total entries: 15,434 → 15,464 (approximate)
-Remaining candidates: 4,337 → 4,307 (30 removed)
 
 ---
 

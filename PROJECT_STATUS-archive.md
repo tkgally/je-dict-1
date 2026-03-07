@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 387)
+Added 30 new dictionary entries (IDs 15379-15408) from candidate_words.json:
+
+- **Nouns (17)**: {鼻緒|はなお} (thong strap), {和傘|わがさ} (Japanese umbrella), {木管|もっかん} (woodwind), {金管|きんかん} (brass instrument), しゃり (sushi rice), {雨林|うりん} (rainforest), {魚卵|ぎょらん} (fish roe), {少額|しょうがく} (small sum), {形状|けいじょう} (shape/form), {姓|せい} (surname), {年|とし}の{瀬|せ} (year-end), {命綱|いのちづな} (lifeline), {専業|せんぎょう} (sole occupation), {出身地|しゅっしんち} (birthplace), {水不足|みずぶそく} (water shortage), {塗|ぬ}り{物|もの} (lacquerware), {寒暖計|かんだんけい} (thermometer)
+- **Noun/verb-suru (3)**: {浮上|ふじょう} (surfacing), {復職|ふくしょく} (returning to work), {養蜂|ようほう} (beekeeping)
+- **Na-adjectives (4)**: まともな (proper/decent), {残虐|ざんぎゃく} (cruel/brutal), {絶望的|ぜつぼうてき} (hopeless), {純朴|じゅんぼく} (simple and honest)
+- **Other nouns (3)**: ピエロ (clown), {直喩|ちょくゆ} (simile), {隠喩|いんゆ} (metaphor)
+- **Noun (building) (1)**: {石造|いしづく}り (stone construction)
+- **Verb (1)**: {切|き}り{裂|さ}く (to slash/rip apart)
+- **Person noun (1)**: {独裁者|どくさいしゃ} (dictator)
+
+Notable features:
+- Paired entries: {木管|もっかん}/{金管|きんかん}, {直喩|ちょくゆ}/{隠喩|いんゆ}
+- Multi-sense entries: まともな (2: proper + direct), {命綱|いのちづな} (2: safety rope + figurative lifeline), {浮上|ふじょう} (2: surfacing + emergence)
+- Culture/tradition: {和傘|わがさ}, {鼻緒|はなお}, {塗|ぬ}り{物|もの}, しゃり, {年|とし}の{瀬|せ}
+- Academic: {直喩|ちょくゆ}, {隠喩|いんゆ}, {形状|けいじょう}
+- Daily life: {出身地|しゅっしんち}, {復職|ふくしょく}, {専業|せんぎょう}, {少額|しょうがく}
+
+Total entries: 15,434 → 15,464 (approximate)
+Remaining candidates: 4,337 → 4,307 (30 removed)
+
 ### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 385)
 Added 30 new dictionary entries (IDs 15319-15348) from candidate_words.json:
 
