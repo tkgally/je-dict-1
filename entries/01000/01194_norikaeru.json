@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "01194_norikaeru_ex1",
-      "japanese": "{東京駅|とうきょうえき}で{乗|の}り{換|か}えてください。",
+      "japanese": "⟦{東京駅|とうきょうえき}→東京駅：noentry⟧⟦で→で：00502_de⟧{乗|の}り{換|か}えて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please transfer at Tokyo Station.",
       "notes": "で marks the transfer point",
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "01194_norikaeru_ex2",
-      "japanese": "{新幹線|しんかんせん}に{乗|の}り{換|か}える。",
+      "japanese": "⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}える。",
       "english": "Transfer to the Shinkansen.",
       "notes": "に marks what you're transferring to",
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "01194_norikaeru_ex3",
-      "japanese": "{乗|の}り{換|か}えなしで{行|い}ける。",
+      "japanese": "{乗|の}り{換|か}えなし⟦で→で：00502_de⟧⟦{行|い}ける→いける：06957_ikeru⟧。",
       "english": "You can go there without transferring.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "01194_norikaeru_ex4",
-      "japanese": "{次|つぎ}の{駅|えき}で{乗|の}り{換|か}えてください。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{乗|の}り{換|か}えて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please transfer at the next station.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "01194_norikaeru_ex5",
-      "japanese": "ここで{地下鉄|ちかてつ}からバスに{乗|の}り{換|か}える。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧⟦から→から：00504_kara⟧⟦バス→バス：00769_basu⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}える。",
       "english": "I transfer from the subway to the bus here.",
       "notes": "Shows transfer between different vehicle types",
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "01194_norikaeru_ex6",
-      "japanese": "{別|べつ}の{会社|かいしゃ}に{乗|の}り{換|か}えた。",
+      "japanese": "⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}えた。",
       "english": "I switched to a different company.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": "01194_norikaeru_ex7",
-      "japanese": "{新|あたら}しいスマホに{乗|の}り{換|か}える。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦スマホ→スマホ：04721_sumaho⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}える。",
       "english": "I'm switching to a new smartphone.",
       "notes": null,
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "01194_norikaeru_ex8",
-      "japanese": "{電気|でんき}{自動車|じどうしゃ}に{乗|の}り{換|か}えた。",
+      "japanese": "⟦{電気|でんき}→電気：09780_denki⟧⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}えた。",
       "english": "I switched to an electric car.",
       "notes": null,
       "has_audio": false,
@@ -99,7 +99,7 @@
     },
     {
       "id": "01194_norikaeru_ex9",
-      "japanese": "{別|べつ}の{携帯|けいたい}{会社|かいしゃ}に{乗|の}り{換|か}える。",
+      "japanese": "⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{携帯|けいたい}→携帯：00715_keitai⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}える。",
       "english": "I'm changing to a different mobile carrier.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "01194_norikaeru_ex10",
-      "japanese": "{格安|かくやす}のプランに{乗|の}り{換|か}えた。",
+      "japanese": "⟦{格安|かくやす}→格安：15125_kakuyasu⟧⟦の→の：09472_no⟧⟦プラン→プラン：00345_puran⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}えた。",
       "english": "I switched to a budget plan.",
       "notes": null,
       "has_audio": false,
@@ -122,7 +122,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T12:38:29Z",
-    "modified": "2026-01-23T02:56:49Z",
+    "modified": "2026-03-06T23:21:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
