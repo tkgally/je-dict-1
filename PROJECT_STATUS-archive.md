@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 384)
+Added 30 new dictionary entries (IDs 15289-15318) from candidate_words.json:
+
+- **Nouns (14)**: {王室|おうしつ} (royal family), {君主|くんしゅ} (monarch), {雨具|あまぐ} (rain gear), メンチカツ (minced meat cutlet), {監視|かんし}カメラ (surveillance camera), {男子校|だんしこう} (boys' school), {手編|てあ}み (hand-knit), {学籍番号|がくせきばんごう} (student ID number), お{墓参|はかまい}り (visiting a grave), お{供|そな}え{物|もの} (offering), {敬老|けいろう}の{日|ひ} (Respect for the Aged Day), {義兄弟|ぎきょうだい} (brothers-in-law), {但|ただ}し{書|が}き (proviso), {二流|にりゅう} (second-rate)
+- **Noun/verb-suru (5)**: {同伴|どうはん} (accompanying), {履行|りこう} (fulfillment), {体調管理|たいちょうかんり} (health management), {環境保護|かんきょうほご} (environmental protection), {化膿|かのう} (suppuration)
+- **Compound nouns (3)**: {森林破壊|しんりんはかい} (deforestation), {新社会人|しんしゃかいじん} (new workforce member), {不徳|ふとく} (lack of virtue)
+- **Adverbs (3)**: {即座|そくざ}に (immediately), {予定通|よていどお}り (as scheduled), {終始|しゅうし} (throughout)
+- **Na-adjectives (2)**: {真|まっ}っ{当|とう} (proper/honest), {色鮮|いろあざ}やか (colorful)
+- **Expressions (2)**: {核心|かくしん}を{突|つ}く (to hit the nail on the head), {目|め}を{伏|ふ}せる (to look down)
+- **Other (1)**: {爆睡|ばくすい} (sleeping deeply — colloquial)
+
+Total entries: 15,344 → 15,374 (approximate)
+Remaining candidates: 4,427 → 4,397 (30 removed)
+
 ### 2026-03-05 (Vocabulary Expansion - 30 New Entries, Session 382)
 Added 30 new dictionary entries (IDs 15229-15258) from candidate_words.json:
 
