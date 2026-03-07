@@ -11,10 +11,7 @@
         if (/[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/.test(query)) {
             return 'japanese';
         }
-        if (/^[a-z]+$/i.test(query)) {
-            return query.length <= 10 ? 'romaji' : 'english';
-        }
-        return 'english';
+        return 'romaji';
     }
 
     function performSearch(query, searchType) {

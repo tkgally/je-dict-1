@@ -86,14 +86,13 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
 
     <section class="search-section">
         <div class="search-form">
-            <input type="text" id="search-input" placeholder="Search Japanese, English, or romaji..." autocomplete="off">
+            <input type="text" id="search-input" placeholder="Search Japanese or romaji..." autocomplete="off">
             <button type="button" id="search-button">Search</button>
         </div>
 
         <div class="search-options">
             <label><input type="radio" name="search-type" value="auto" checked> Auto-detect</label>
             <label><input type="radio" name="search-type" value="japanese"> Japanese</label>
-            <label><input type="radio" name="search-type" value="english"> English</label>
             <label><input type="radio" name="search-type" value="romaji"> Romaji</label>
         </div>
 
