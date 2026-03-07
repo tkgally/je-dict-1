@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,674 |
+| Total entries | ~15,704 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,875 (open) |
-| Candidate words | ~4,097 |
+| General tier | ~12,905 (open) |
+| Candidate words | ~4,067 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 395)
+Added 30 new dictionary entries (IDs 15619-15648) from candidate_words.json:
+
+- **Nouns (11)**: {柑橘類|かんきつるい} (citrus fruits), {日系人|にっけいじん} (person of Japanese descent), {嫡男|ちゃくなん} (legitimate heir), {手渡|てわた}し (hand delivery), {勝者|しょうしゃ} (winner), {首脳|しゅのう} (head/leader), {調律師|ちょうりつし} (piano tuner), {土蔵|どぞう} (earthen storehouse), {債券|さいけん} (bond), {動物|どうぶつ}{病院|びょういん} (vet hospital), {競走|きょうそう} (race)
+- **Noun/verb-suru (5)**: {譲渡|じょうと} (transfer), {安堵|あんど}する (to be relieved), {参拝|さんぱい}する (to visit a shrine), {具現|ぐげん} (embodiment), {完走|かんそう}する (to finish a race)
+- **Na-adjectives (3)**: {専門的|せんもんてき} (specialized), {不正確|ふせいかく} (inaccurate), {凄絶|せいぜつ} (ghastly/fierce)
+- **Verbs (3)**: {投|な}げつける (to hurl at), {軽|かろ}んじる (to belittle), {洒落|しゃれ}た (stylish)
+- **Nouns (other) (5)**: いきさつ (circumstances), {戸建|こだて} (detached house), {術後|じゅつご} (post-operative), {羞恥心|しゅうちしん} (sense of shame), {右肩下|みぎかたさ}がり (downward trend)
+- **Adverb (1)**: {何故|なぜ}か (for some reason)
+- **Expression (1)**: {甘|あま}く{見|み}る (to underestimate)
+- **Place name (1)**: {九州|きゅうしゅう} (Kyushu)
+
+Notable features:
+- Good variety: financial ({債券|さいけん}, {譲渡|じょうと}), medical ({術後|じゅつご}, {動物|どうぶつ}{病院|びょういん}), cultural ({土蔵|どぞう}, {参拝|さんぱい}する, {嫡男|ちゃくなん})
+- Practical daily life: {戸建|こだて}, {手渡|てわた}し, {完走|かんそう}する, {甘|あま}く{見|み}る
+- Multi-sense entries: いきさつ (2: circumstances + complications), {凄絶|せいぜつ} (2: ghastly + fierce), {洒落|しゃれ}た (2: stylish + witty)
+- New kanji: 2,517 → 2,520 ({嫡|ちゃく}, {柑|かん}, {橘|きつ})
+
+Total entries: ~15,674 → ~15,704 (approximate)
+Remaining candidates: ~4,097 → ~4,067 (30 removed)
 
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 394)
 Added 30 new dictionary entries (IDs 15589-15618) from candidate_words.json:
@@ -143,29 +164,6 @@ Notable features:
 
 Total entries: ~15,554 → ~15,584 (approximate)
 Remaining candidates: ~4,217 → ~4,187 (30 removed)
-
-### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 390)
-Added 30 new dictionary entries (IDs 15469-15498) from candidate_words.json:
-
-- **Nouns (11)**: {道草|みちくさ} (dawdling on the way), {各駅停車|かくえきていしゃ} (local train), {平熱|へいねつ} (normal body temperature), {黒幕|くろまく} (mastermind), {蔵書|ぞうしょ} (book collection), {競泳|きょうえい} (competitive swimming), {靴底|くつぞこ} (shoe sole), {満車|まんしゃ} (parking lot full), {頭髪|とうはつ} (head hair), {五十音|ごじゅうおん} (Japanese syllabary), {出版物|しゅっぱんぶつ} (publication)
-- **Noun/verb-suru (3)**: {日焼|ひや}け (sunburn/suntan), {積|つ}ん{読|どく} (buying books and not reading them), {研鑽|けんさん} (diligent study)
-- **Expressions (4)**: {宝|たから}の{持|も}ち{腐|ぐさ}れ (wasted talent), {万事休|ばんじきゅう}す (all is lost), {重箱|じゅうばこ}の{隅|すみ}をつつく (to nitpick), {否|いな}めない (undeniable)
-- **Na-adjectives (3)**: {罰当|ばちあ}たり (sacrilegious), {盛|も}りだくさん (packed with content), {恩知|おんし}らず (ungrateful)
-- **I-adjective (1)**: {思慮深|しりょぶか}い (thoughtful, prudent)
-- **Nouns (other) (5)**: {神頼|かみだの}み (praying as last resort), {打開策|だかいさく} (breakthrough measure), {立|た}ち{居振|いふ}る{舞|ま}い (deportment), {音律|おんりつ} (melody/tuning), {異聞|いぶん} (strange tale)
-- **Adverb/noun (1)**: {数多|あまた} (many, numerous)
-- **Noun (1)**: {洗|あら}い{場|ば} (washing area)
-- **Time noun (1)**: {一昨年|いっさくねん} (year before last)
-
-Notable features:
-- Mix of practical daily vocabulary ({日焼|ひや}け, {各駅停車|かくえきていしゃ}, {満車|まんしゃ}, {靴底|くつぞこ}) and literary/cultural words ({数多|あまた}, {異聞|いぶん}, {万事休|ばんじきゅう}す)
-- Multiple proverbs and set expressions: {宝|たから}の{持|も}ち{腐|ぐさ}れ, {重箱|じゅうばこ}の{隅|すみ}をつつく
-- Book/reading theme: {積|つ}ん{読|どく}, {蔵書|ぞうしょ}, {出版物|しゅっぱんぶつ}
-- Multi-sense entries: {日焼|ひや}け (2: skin + materials), {音律|おんりつ} (2: melody + tuning system), {異聞|いぶん} (2: strange tale + variant account)
-- New kanji: 2,511 → 2,512 ({鑽|さん})
-
-Total entries: ~15,524 → ~15,554 (approximate)
-Remaining candidates: ~4,247 → ~4,217 (30 removed)
 
 ---
 
