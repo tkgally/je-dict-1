@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 385)
+Added 30 new dictionary entries (IDs 15319-15348) from candidate_words.json:
+
+- **Nouns (15)**: {灰燼|かいじん} (ashes/destruction), {腰掛|こしか}け (seat/stepping stone), {不始末|ふしまつ} (mismanagement), {雨天|うてん} (rainy weather), {炭酸水|たんさんすい} (sparkling water), {消火器|しょうかき} (fire extinguisher), {果汁|かじゅう} (fruit juice), {水色|みずいろ} (light blue), {葬儀|そうぎ} (funeral), {歳末|さいまつ} (year-end), {張|は}り{紙|がみ} (posted notice), {弱|よわ}み (weakness), {菊|きく} (chrysanthemum), {貴重品|きちょうひん} (valuables), {貯金箱|ちょきんばこ} (piggy bank)
+- **Noun/verb-suru (5)**: {健闘|けんとう} (good fight), {一目惚|ひとめぼ}れ (love at first sight), {夜遊|よあそ}び (nightlife), {命拾|いのちびろ}い (narrow escape), {対戦|たいせん} (match/competition)
+- **Expressions (2)**: {弱音|よわね}を{吐|は}く (to whine), {見栄|みえ}を{張|は}る (to show off)
+- **Na-adjective (1)**: {多種多様|たしゅたよう} (diverse)
+- **Adverb (1)**: {期待通|きたいどお}り (as expected)
+- **Pre-noun adjectival (1)**: {謎|なぞ}めいた (enigmatic)
+- **Verb (1)**: {群|むら}がる (to swarm)
+- **Other nouns (4)**: {空|あ}き{巣|す} (burglary), {普段着|ふだんぎ} (casual clothes), {丸太|まるた} (log), {波止場|はとば} (wharf)
+
+Notable features:
+- Multi-sense entries: {腰掛|こしか}け (2: bench + temporary job)
+- Homophone cross-refs: {健闘|けんとう}/{検討|けんとう}/{見当|けんとう}, {消火器|しょうかき}/{消化器|しょうかき}, {対戦|たいせん}/{大戦|たいせん}
+- Daily life: {炭酸水|たんさんすい}, {消火器|しょうかき}, {貴重品|きちょうひん}, {普段着|ふだんぎ}, {貯金箱|ちょきんばこ}, {張|は}り{紙|がみ}
+- Culture: {菊|きく}, {葬儀|そうぎ}, {歳末|さいまつ}, {波止場|はとば}
+- New kanji: 2,505 → 2,507 ({燼|じん}, {菊|きく})
+
+Total entries: 15,374 → 15,404 (approximate)
+Remaining candidates: 4,397 → 4,367 (30 removed)
+
 ### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 384)
 Added 30 new dictionary entries (IDs 15289-15318) from candidate_words.json:
 

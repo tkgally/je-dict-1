@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,524 |
+| Total entries | ~15,554 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,725 (open) |
-| Candidate words | ~4,247 |
+| General tier | ~12,755 (open) |
+| Candidate words | ~4,217 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 390)
+Added 30 new dictionary entries (IDs 15469-15498) from candidate_words.json:
+
+- **Nouns (11)**: {道草|みちくさ} (dawdling on the way), {各駅停車|かくえきていしゃ} (local train), {平熱|へいねつ} (normal body temperature), {黒幕|くろまく} (mastermind), {蔵書|ぞうしょ} (book collection), {競泳|きょうえい} (competitive swimming), {靴底|くつぞこ} (shoe sole), {満車|まんしゃ} (parking lot full), {頭髪|とうはつ} (head hair), {五十音|ごじゅうおん} (Japanese syllabary), {出版物|しゅっぱんぶつ} (publication)
+- **Noun/verb-suru (3)**: {日焼|ひや}け (sunburn/suntan), {積|つ}ん{読|どく} (buying books and not reading them), {研鑽|けんさん} (diligent study)
+- **Expressions (4)**: {宝|たから}の{持|も}ち{腐|ぐさ}れ (wasted talent), {万事休|ばんじきゅう}す (all is lost), {重箱|じゅうばこ}の{隅|すみ}をつつく (to nitpick), {否|いな}めない (undeniable)
+- **Na-adjectives (3)**: {罰当|ばちあ}たり (sacrilegious), {盛|も}りだくさん (packed with content), {恩知|おんし}らず (ungrateful)
+- **I-adjective (1)**: {思慮深|しりょぶか}い (thoughtful, prudent)
+- **Nouns (other) (5)**: {神頼|かみだの}み (praying as last resort), {打開策|だかいさく} (breakthrough measure), {立|た}ち{居振|いふ}る{舞|ま}い (deportment), {音律|おんりつ} (melody/tuning), {異聞|いぶん} (strange tale)
+- **Adverb/noun (1)**: {数多|あまた} (many, numerous)
+- **Noun (1)**: {洗|あら}い{場|ば} (washing area)
+- **Time noun (1)**: {一昨年|いっさくねん} (year before last)
+
+Notable features:
+- Mix of practical daily vocabulary ({日焼|ひや}け, {各駅停車|かくえきていしゃ}, {満車|まんしゃ}, {靴底|くつぞこ}) and literary/cultural words ({数多|あまた}, {異聞|いぶん}, {万事休|ばんじきゅう}す)
+- Multiple proverbs and set expressions: {宝|たから}の{持|も}ち{腐|ぐさ}れ, {重箱|じゅうばこ}の{隅|すみ}をつつく
+- Book/reading theme: {積|つ}ん{読|どく}, {蔵書|ぞうしょ}, {出版物|しゅっぱんぶつ}
+- Multi-sense entries: {日焼|ひや}け (2: skin + materials), {音律|おんりつ} (2: melody + tuning system), {異聞|いぶん} (2: strange tale + variant account)
+- New kanji: 2,511 → 2,512 ({鑽|さん})
+
+Total entries: ~15,524 → ~15,554 (approximate)
+Remaining candidates: ~4,247 → ~4,217 (30 removed)
 
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 389)
 Added 30 new dictionary entries (IDs 15439-15468) from candidate_words.json:
@@ -131,28 +154,6 @@ Notable features:
 
 Total entries: 15,404 → 15,434 (approximate)
 Remaining candidates: 4,367 → 4,337 (30 removed)
-
-### 2026-03-06 (Vocabulary Expansion - 30 New Entries, Session 385)
-Added 30 new dictionary entries (IDs 15319-15348) from candidate_words.json:
-
-- **Nouns (15)**: {灰燼|かいじん} (ashes/destruction), {腰掛|こしか}け (seat/stepping stone), {不始末|ふしまつ} (mismanagement), {雨天|うてん} (rainy weather), {炭酸水|たんさんすい} (sparkling water), {消火器|しょうかき} (fire extinguisher), {果汁|かじゅう} (fruit juice), {水色|みずいろ} (light blue), {葬儀|そうぎ} (funeral), {歳末|さいまつ} (year-end), {張|は}り{紙|がみ} (posted notice), {弱|よわ}み (weakness), {菊|きく} (chrysanthemum), {貴重品|きちょうひん} (valuables), {貯金箱|ちょきんばこ} (piggy bank)
-- **Noun/verb-suru (5)**: {健闘|けんとう} (good fight), {一目惚|ひとめぼ}れ (love at first sight), {夜遊|よあそ}び (nightlife), {命拾|いのちびろ}い (narrow escape), {対戦|たいせん} (match/competition)
-- **Expressions (2)**: {弱音|よわね}を{吐|は}く (to whine), {見栄|みえ}を{張|は}る (to show off)
-- **Na-adjective (1)**: {多種多様|たしゅたよう} (diverse)
-- **Adverb (1)**: {期待通|きたいどお}り (as expected)
-- **Pre-noun adjectival (1)**: {謎|なぞ}めいた (enigmatic)
-- **Verb (1)**: {群|むら}がる (to swarm)
-- **Other nouns (4)**: {空|あ}き{巣|す} (burglary), {普段着|ふだんぎ} (casual clothes), {丸太|まるた} (log), {波止場|はとば} (wharf)
-
-Notable features:
-- Multi-sense entries: {腰掛|こしか}け (2: bench + temporary job)
-- Homophone cross-refs: {健闘|けんとう}/{検討|けんとう}/{見当|けんとう}, {消火器|しょうかき}/{消化器|しょうかき}, {対戦|たいせん}/{大戦|たいせん}
-- Daily life: {炭酸水|たんさんすい}, {消火器|しょうかき}, {貴重品|きちょうひん}, {普段着|ふだんぎ}, {貯金箱|ちょきんばこ}, {張|は}り{紙|がみ}
-- Culture: {菊|きく}, {葬儀|そうぎ}, {歳末|さいまつ}, {波止場|はとば}
-- New kanji: 2,505 → 2,507 ({燼|じん}, {菊|きく})
-
-Total entries: 15,374 → 15,404 (approximate)
-Remaining candidates: 4,397 → 4,367 (30 removed)
 
 ---
 
