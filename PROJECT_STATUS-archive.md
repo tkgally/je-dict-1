@@ -3,6 +3,32 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 394)
+Added 30 new dictionary entries (IDs 15589-15618) from candidate_words.json:
+
+- **Noun/verb-suru (8)**: {提唱|ていしょう} (advocacy), {付与|ふよ} (granting), {結実|けつじつ} (bearing fruit), {立案|りつあん} (planning), {力走|りきそう} (powerful run), {奪還|だっかん} (recapture), {方向転換|ほうこうてんかん} (change of direction), {断行|だんこう} (decisive action)
+- **Nouns (7)**: {名案|めいあん} (brilliant idea), {帰省|きせい}ラッシュ (homecoming rush), {部外者|ぶがいしゃ} (outsider), {桜色|さくらいろ} (cherry blossom pink), {野暮用|やぼよう} (trifling errand), {濃紺|のうこん} (dark navy), {障害物|しょうがいぶつ} (obstacle)
+- **Na-adjectives (3)**: {地道|じみち} (steady), {独占的|どくせんてき} (monopolistic), {種別|しゅべつ} (classification)
+- **I-adjectives (2)**: {忍耐強|にんたいづよ}い (patient), {気忙|きぜわ}しい (restless)
+- **Noun/na-adjective (2)**: {非凡|ひぼん} (extraordinary), {腹|はら}ぺこ (starving)
+- **Pre-noun adjectival (1)**: {古|ふる}びた (old-looking)
+- **Noun (1)**: ろくでなし (good-for-nothing)
+- **Noun/expression (2)**: {三者三様|さんしゃさんよう} (each to their own), {繰|く}り{越|こ}し (carryover)
+- **Verb-godan (1)**: {駆|か}け{出|だ}す (to dash off)
+- **Verb-ichidan (1)**: {強|し}いる (to force)
+- **Expression (1)**: {気|き}を{紛|まぎ}らす (to distract oneself)
+- **Color (1)**: {黄緑|きみどり} (yellow-green)
+
+Notable features:
+- Good variety of parts of speech across adjectives, verbs, nouns, and expressions
+- Practical daily life: {帰省|きせい}ラッシュ, {野暮用|やぼよう}, {腹|はら}ぺこ, {繰|く}り{越|こ}し
+- Business/formal: {付与|ふよ}, {立案|りつあん}, {断行|だんこう}, {独占的|どくせんてき}, {種別|しゅべつ}
+- Color pair: {桜色|さくらいろ}, {黄緑|きみどり}, {濃紺|のうこん}
+- Multi-sense entries: {駆|か}け{出|だ}す (2: start running + run out), {結実|けつじつ} (2: literal + figurative), {方向転換|ほうこうてんかん} (2: physical + strategic)
+
+Total entries: ~15,644 → ~15,674 (approximate)
+Remaining candidates: ~4,127 → ~4,097 (30 removed)
+
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 393)
 Added 30 new dictionary entries (IDs 15559-15588) from candidate_words.json:
 

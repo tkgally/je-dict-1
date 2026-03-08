@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,794 |
+| Total entries | ~15,824 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,995 (open) |
-| Candidate words | ~3,978 |
+| General tier | ~13,025 (open) |
+| Candidate words | ~3,948 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 399)
+Added 30 new dictionary entries (IDs 15739-15768) from candidate_words.json:
+
+- **Nouns (12)**: {捕鯨|ほげい} (whaling), {洋室|ようしつ} (Western-style room), {受話器|じゅわき} (telephone receiver), {放送局|ほうそうきょく} (broadcasting station), {鉱山|こうざん} (mine), {初旬|しょじゅん} (early part of month), {嫌悪感|けんおかん} (revulsion), {不快感|ふかいかん} (discomfort), {湿布|しっぷ} (medicated patch), {質量|しつりょう} (mass), {物陰|ものかげ} (behind something), {運勢|うんせい} (fortune)
+- **Noun/verb-suru (4)**: {模倣|もほう} (imitation), {忌避|きひ} (avoidance/recusal), {奮発|ふんぱつ} (splurging), {草案|そうあん} (draft)
+- **Noun/na-adjective (2)**: {桁違|けたちが}い (on a different scale), {不仲|ふなか} (discord)
+- **Na-adjective (2)**: {強靭|きょうじん} (tough/resilient), {無慈悲|むじひ} (merciless)
+- **Noun (compound) (3)**: {競技場|きょうぎじょう} (stadium), {話|はな}し{方|かた} (way of speaking), {回|まわ}り{道|みち} (detour)
+- **Noun (emotion) (1)**: {野心|やしん} (ambition)
+- **Noun (unusual event) (1)**: {異変|いへん} (unusual event)
+- **Verb-godan (3)**: {洗|あら}い{流|なが}す (to wash off), {取|と}り{壊|こわ}す (to demolish), {喘|あえ}ぐ (to gasp/struggle)
+- **Verb-ichidan (1)**: かき{混|ま}ぜる (to stir)
+- **Compound verb (1)**: {背負|せお}い{込|こ}む (to burden oneself with)
+
+Notable features:
+- Emotion/feeling cluster: {嫌悪感|けんおかん}, {不快感|ふかいかん}, {野心|やしん}, {無慈悲|むじひ}
+- Physical/figurative duality: {喘|あえ}ぐ (2: gasping + struggling under hardship), {回|まわ}り{道|みち} (2: physical detour + roundabout approach), {奮発|ふんぱつ} (2: splurging + exerting oneself)
+- Compound verbs: かき{混|ま}ぜる, {洗|あら}い{流|なが}す, {取|と}り{壊|こわ}す, {背負|せお}い{込|こ}む
+- Legal: {忌避|きひ} (avoidance + legal recusal), {草案|そうあん}
+
+Total entries: ~15,794 → ~15,824 (approximate)
+Remaining candidates: ~3,978 → ~3,948 (30 removed)
 
 ### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 398)
 Added 30 new dictionary entries (IDs 15709-15738) from candidate_words.json:
@@ -136,32 +159,6 @@ Notable features:
 
 Total entries: ~15,674 → ~15,704 (approximate)
 Remaining candidates: ~4,097 → ~4,067 (30 removed)
-
-### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 394)
-Added 30 new dictionary entries (IDs 15589-15618) from candidate_words.json:
-
-- **Noun/verb-suru (8)**: {提唱|ていしょう} (advocacy), {付与|ふよ} (granting), {結実|けつじつ} (bearing fruit), {立案|りつあん} (planning), {力走|りきそう} (powerful run), {奪還|だっかん} (recapture), {方向転換|ほうこうてんかん} (change of direction), {断行|だんこう} (decisive action)
-- **Nouns (7)**: {名案|めいあん} (brilliant idea), {帰省|きせい}ラッシュ (homecoming rush), {部外者|ぶがいしゃ} (outsider), {桜色|さくらいろ} (cherry blossom pink), {野暮用|やぼよう} (trifling errand), {濃紺|のうこん} (dark navy), {障害物|しょうがいぶつ} (obstacle)
-- **Na-adjectives (3)**: {地道|じみち} (steady), {独占的|どくせんてき} (monopolistic), {種別|しゅべつ} (classification)
-- **I-adjectives (2)**: {忍耐強|にんたいづよ}い (patient), {気忙|きぜわ}しい (restless)
-- **Noun/na-adjective (2)**: {非凡|ひぼん} (extraordinary), {腹|はら}ぺこ (starving)
-- **Pre-noun adjectival (1)**: {古|ふる}びた (old-looking)
-- **Noun (1)**: ろくでなし (good-for-nothing)
-- **Noun/expression (2)**: {三者三様|さんしゃさんよう} (each to their own), {繰|く}り{越|こ}し (carryover)
-- **Verb-godan (1)**: {駆|か}け{出|だ}す (to dash off)
-- **Verb-ichidan (1)**: {強|し}いる (to force)
-- **Expression (1)**: {気|き}を{紛|まぎ}らす (to distract oneself)
-- **Color (1)**: {黄緑|きみどり} (yellow-green)
-
-Notable features:
-- Good variety of parts of speech across adjectives, verbs, nouns, and expressions
-- Practical daily life: {帰省|きせい}ラッシュ, {野暮用|やぼよう}, {腹|はら}ぺこ, {繰|く}り{越|こ}し
-- Business/formal: {付与|ふよ}, {立案|りつあん}, {断行|だんこう}, {独占的|どくせんてき}, {種別|しゅべつ}
-- Color pair: {桜色|さくらいろ}, {黄緑|きみどり}, {濃紺|のうこん}
-- Multi-sense entries: {駆|か}け{出|だ}す (2: start running + run out), {結実|けつじつ} (2: literal + figurative), {方向転換|ほうこうてんかん} (2: physical + strategic)
-
-Total entries: ~15,644 → ~15,674 (approximate)
-Remaining candidates: ~4,127 → ~4,097 (30 removed)
 
 ---
 
