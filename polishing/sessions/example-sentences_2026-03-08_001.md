@@ -1,33 +1,37 @@
 ## Session: Example Sentences
 Date: 2026-03-08
-Entries checked: 05212-05271
+Entries checked: 05400-05439
 
-### Changes Made (Batch 1: 05212-05251)
-- 05223 (uirusu): Insufficient examples per sense (general, 2 senses, had 1+2, needed 3+3) - added 3 examples
-- 05224 (haritsuke): Insufficient examples for core tier (had 3, needed 5) - added 2 examples
-- 05229 (fukikae): Insufficient examples for core tier (had 3, needed 5) - added 2 examples
-- 05233 (sakushi): Insufficient examples for core tier (had 3, needed 5) - added 2 examples
-- 05247 (myaku): Insufficient examples per sense (general, 2 senses, had 2+1, needed 3+3) - added 3 examples
+### Changes Made
+- [05401]: insufficient count (core, 2 senses) - added 7 examples (3→10, 5 per sense)
+- [05402]: insufficient count (core) - added 2 examples (3→5)
+- [05403]: insufficient count (core) - added 2 examples, reordered for progressive length (3→5)
+- [05405]: insufficient count (general, 2 senses) - added 3 examples, reordered by sense (3→6)
+- [05406]: insufficient count (core) - added 2 examples (3→5)
+- [05407]: insufficient count (core) - added 2 examples (3→5)
+- [05408]: insufficient count (general, 2 senses) - added 3 examples, fixed furigana in notes (3→6)
+- [05412]: insufficient count (general, 2 senses) - added 3 examples (3→6)
+- [05416]: insufficient count (core) - added 2 examples, rewrote ex2-3 for better progression (3→5)
+- [05419]: insufficient count (core) - added 2 examples, rewrote ex3 (3→5)
+- [05420]: insufficient count (core) - added 2 examples (3→5)
+- [05425]: insufficient count (core) - added 2 examples (3→5)
+- [05426]: insufficient count (general, 2 senses) - added 3 examples, reordered by sense (3→6)
+- [05427]: insufficient count (core) - added 2 examples (3→5)
+- [05428]: insufficient count (general, 2 senses) - added 3 examples, reordered by sense (3→6)
+- [05429]: insufficient count (general, 2 senses) - added 3 examples, reordered by sense (3→6)
+- [05430]: insufficient count (general, 2 senses) - added 3 examples, reordered by sense (3→6)
+- [05431]: insufficient count (core, 2 senses) - added 7 examples (3→10, 5 per sense)
+- [05432]: insufficient count (basic) - added 2 examples with basic+core vocab (3→5)
+- [05435]: insufficient count (general, 2 senses) - added 3 examples, reordered by sense (3→6)
+- [05437]: insufficient count (core) - added 2 examples (3→5)
+- [05438]: insufficient count (core) - added 2 examples (3→5)
 
-### Changes Made (Batch 2: 05252-05271)
-- 05253 (waei): Insufficient examples for core tier (had 3, needed 5) - added 2 examples
-- 05255 (sarasara): Insufficient examples per sense (general, 2 senses, had 2+1, needed 3+3) - added 3 examples
-- 05256 (perapera): Insufficient examples per sense (general, 3 senses, had 2+1+0, needed 3+3+3) - added 6 examples
-- 05257 (torotoro): Insufficient examples per sense (general, 2 senses, had 2+1, needed 3+3) - added 3 examples
-- 05259 (paripari): Insufficient examples per sense (general, 2 senses, had 2+1, needed 3+3) - added 3 examples
-- 05261 (gangan): Insufficient examples per sense (general, 2 senses, had 2+1, needed 3+3) - added 3 examples
-- 05265 (mukamuka): Insufficient examples per sense (core, 2 senses, had 2+1, needed 5+5) - added 7 examples
-- 05266 (bikubiku): Insufficient examples for core tier (had 3, needed 5) - added 2 examples
-- 05267 (sowasowa): Insufficient examples for core tier (had 3, needed 5) - added 2 examples
-- 05268 (harahara): Insufficient examples per sense (core, 2 senses, had 2+1, needed 5+5) - added 7 examples
-- 05269 (bootto): Insufficient examples per sense (core, 2 senses, had 2+1, needed 5+5) - added 7 examples
-- 05270 (utouto): Insufficient examples for core tier (had 3, needed 5) - added 2 examples
-- 05271 (uttori): Insufficient examples for core tier (had 3, needed 5) - added 2 examples
-
-### Entries Checked (No Changes Needed)
-05212-05222 (except 05223), 05225-05232 (except 05224, 05229),
-05234-05246 (except 05233, 05247), 05248-05254 (except 05253),
-05258, 05260, 05262-05264
+### Summary
+- Entries checked: 40
+- Entries modified: 22
+- Entries OK as-is: 18
+- Primary issue: insufficient example count (all 22 modifications)
+- Core entries with only 3 examples were the most common problem
 
 ### Next Entry
-05272
+05440
