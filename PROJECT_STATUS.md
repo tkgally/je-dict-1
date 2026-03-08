@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-07
+**Last updated**: 2026-03-08
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,704 |
+| Total entries | ~15,734 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,905 (open) |
-| Candidate words | ~4,067 |
+| General tier | ~12,935 (open) |
+| Candidate words | ~4,037 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 396)
+Added 30 new dictionary entries (IDs 15649-15678) from candidate_words.json:
+
+- **Nouns (18)**: {高齢者|こうれいしゃ} (elderly person), {焼|や}き{芋|いも} (roasted sweet potato), {遺失物|いしつぶつ} (lost property), {保険金|ほけんきん} (insurance money), {資産|しさん} (assets), {無力感|むりょくかん} (helplessness), {手|て}ほどき (basic instruction), {苦労人|くろうにん} (person of hardship), {半月|はんつき} (half a month), {四字熟語|よじじゅくご} (four-character idiom), {貴社|きしゃ} (your company), {装丁|そうてい} (book design), {診察室|しんさつしつ} (examination room), {窓枠|まどわく} (window frame), {小論文|しょうろんぶん} (short essay), {城塞|じょうさい} (fortress), {背表紙|せびょうし} (book spine), {情報源|じょうほうげん} (information source)
+- **Noun/na-adjective (1)**: {不規則|ふきそく} (irregular)
+- **Noun/verb-suru (6)**: {完敗|かんぱい} (complete defeat), {突発|とっぱつ} (sudden outbreak), {道案内|みちあんない} (giving directions), {遮断|しゃだん} (cutoff/blocking), {中休|なかやす}み (mid-break), {定期検診|ていきけんしん} (periodic checkup)
+- **Noun (work) (3)**: {年次|ねんじ} (annual), {試用期間|しようきかん} (probation period), {不採用|ふさいよう} (rejection)
+- **Verb-godan (1)**: {打|う}ち{負|ま}かす (to defeat)
+- **Adverb (1)**: けろりと (nonchalantly; completely recovering)
+
+Notable features:
+- Business/work cluster: {年次|ねんじ}, {貴社|きしゃ}, {試用期間|しようきかん}, {不採用|ふさいよう}, {資産|しさん}, {保険金|ほけんきん}
+- Medical: {診察室|しんさつしつ}, {定期検診|ていきけんしん}, {高齢者|こうれいしゃ}
+- Books/publishing: {装丁|そうてい}, {背表紙|せびょうし}, {小論文|しょうろんぶん}
+- Culture/food: {焼|や}き{芋|いも}, {四字熟語|よじじゅくご}
+- Multi-sense entries: けろりと (2: nonchalant + complete recovery), {年次|ねんじ} (2: annual + year of service)
+
+Total entries: ~15,704 → ~15,734 (approximate)
+Remaining candidates: ~4,067 → ~4,037 (30 removed)
 
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 395)
 Added 30 new dictionary entries (IDs 15619-15648) from candidate_words.json:
@@ -142,28 +162,6 @@ Notable features:
 
 Total entries: ~15,584 → ~15,614 (approximate)
 Remaining candidates: ~4,187 → ~4,157 (30 removed)
-
-### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 391)
-Added 30 new dictionary entries (IDs 15499-15528) from candidate_words.json:
-
-- **Nouns (13)**: {茶葉|ちゃば} (tea leaves), {球場|きゅうじょう} (baseball stadium), {暗室|あんしつ} (darkroom), {編|あ}み{棒|ぼう} (knitting needle), {長袖|ながそで} (long sleeves), {半袖|はんそで} (short sleeves), {藍色|あいいろ} (indigo blue), {住職|じゅうしょく} (chief temple priest), {週明|しゅうあ}け (beginning of the week), {車窓|しゃそう} (train window), {切|き}り{株|かぶ} (tree stump), {茶器|ちゃき} (tea utensils), {例|たと}え{話|ばなし} (parable)
-- **Noun/verb-suru (8)**: {剥奪|はくだつ} (deprivation), {召喚|しょうかん} (summons), {助走|じょそう} (approach run), {逆戻|ぎゃくもど}り (reversal), {投球|とうきゅう} (pitching), {抹消|まっしょう} (erasure), {応戦|おうせん} (fighting back), {守備|しゅび} (defense)
-- **Noun/na-adjective (4)**: {不摂生|ふせっせい} (unhealthy lifestyle), {空虚|くうきょ} (emptiness), {不可避|ふかひ} (unavoidable), {無意味|むいみ} (meaningless)
-- **Noun (2)**: {徒労|とろう} (wasted effort), {背信|はいしん} (betrayal)
-- **Noun (body) (1)**: {胃腸|いちょう} (stomach and intestines)
-- **Noun (social) (1)**: {人付|ひとづ}き{合|あ}い (socializing)
-- **Verb-ichidan (1)**: {垢抜|あかぬ}ける (to become sophisticated)
-
-Notable features:
-- Sports cluster: {守備|しゅび}, {投球|とうきゅう}, {球場|きゅうじょう}, {助走|じょそう}
-- Clothing pair: {長袖|ながそで}/{半袖|はんそで}
-- Cultural/traditional: {茶器|ちゃき}, {住職|じゅうしょく}, {藍色|あいいろ}
-- Formal/legal: {剥奪|はくだつ}, {召喚|しょうかん}, {抹消|まっしょう}, {背信|はいしん}
-- Multi-sense entries: {召喚|しょうかん} (2: legal summons + fantasy summoning), {守備|しゅび} (2: military defense + sports fielding), {応戦|おうせん} (2: counterattack + accepting a challenge)
-- New kanji: 2,512 → 2,514 ({腸|ちょう}, {藍|あい})
-
-Total entries: ~15,554 → ~15,584 (approximate)
-Remaining candidates: ~4,217 → ~4,187 (30 removed)
 
 ---
 

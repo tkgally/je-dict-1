@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 391)
+Added 30 new dictionary entries (IDs 15499-15528) from candidate_words.json:
+
+- **Nouns (13)**: {茶葉|ちゃば} (tea leaves), {球場|きゅうじょう} (baseball stadium), {暗室|あんしつ} (darkroom), {編|あ}み{棒|ぼう} (knitting needle), {長袖|ながそで} (long sleeves), {半袖|はんそで} (short sleeves), {藍色|あいいろ} (indigo blue), {住職|じゅうしょく} (chief temple priest), {週明|しゅうあ}け (beginning of the week), {車窓|しゃそう} (train window), {切|き}り{株|かぶ} (tree stump), {茶器|ちゃき} (tea utensils), {例|たと}え{話|ばなし} (parable)
+- **Noun/verb-suru (8)**: {剥奪|はくだつ} (deprivation), {召喚|しょうかん} (summons), {助走|じょそう} (approach run), {逆戻|ぎゃくもど}り (reversal), {投球|とうきゅう} (pitching), {抹消|まっしょう} (erasure), {応戦|おうせん} (fighting back), {守備|しゅび} (defense)
+- **Noun/na-adjective (4)**: {不摂生|ふせっせい} (unhealthy lifestyle), {空虚|くうきょ} (emptiness), {不可避|ふかひ} (unavoidable), {無意味|むいみ} (meaningless)
+- **Noun (2)**: {徒労|とろう} (wasted effort), {背信|はいしん} (betrayal)
+- **Noun (body) (1)**: {胃腸|いちょう} (stomach and intestines)
+- **Noun (social) (1)**: {人付|ひとづ}き{合|あ}い (socializing)
+- **Verb-ichidan (1)**: {垢抜|あかぬ}ける (to become sophisticated)
+
+Notable features:
+- Sports cluster: {守備|しゅび}, {投球|とうきゅう}, {球場|きゅうじょう}, {助走|じょそう}
+- Clothing pair: {長袖|ながそで}/{半袖|はんそで}
+- Cultural/traditional: {茶器|ちゃき}, {住職|じゅうしょく}, {藍色|あいいろ}
+- Formal/legal: {剥奪|はくだつ}, {召喚|しょうかん}, {抹消|まっしょう}, {背信|はいしん}
+- Multi-sense entries: {召喚|しょうかん} (2: legal summons + fantasy summoning), {守備|しゅび} (2: military defense + sports fielding), {応戦|おうせん} (2: counterattack + accepting a challenge)
+- New kanji: 2,512 → 2,514 ({腸|ちょう}, {藍|あい})
+
+Total entries: ~15,554 → ~15,584 (approximate)
+Remaining candidates: ~4,217 → ~4,187 (30 removed)
+
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 389)
 Added 30 new dictionary entries (IDs 15439-15468) from candidate_words.json:
 
