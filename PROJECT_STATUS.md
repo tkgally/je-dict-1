@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,764 |
+| Total entries | ~15,794 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~12,965 (open) |
-| Candidate words | ~4,008 |
+| General tier | ~12,995 (open) |
+| Candidate words | ~3,978 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 398)
+Added 30 new dictionary entries (IDs 15709-15738) from candidate_words.json:
+
+- **Nouns (14)**: {軽食|けいしょく} (light meal), {身元|みもと} (identity), {領土|りょうど} (territory), {見晴|みは}らし (view), {一式|いっしき} (complete set), {猛獣|もうじゅう} (wild beast), {監獄|かんごく} (prison), {皇太子|こうたいし} (crown prince), {一区切|ひとくぎ}り (pause/milestone), {浅瀬|あさせ} (shoal), {自営業|じえいぎょう} (self-employment), {満室|まんしつ} (no vacancy), {縁起物|えんぎもの} (lucky charm), {速度制限|そくどせいげん} (speed limit)
+- **Noun/verb-suru (7)**: {束縛|そくばく} (restraint), {冷遇|れいぐう} (cold treatment), {点呼|てんこ} (roll call), {団結|だんけつ} (unity), {脱獄|だつごく} (prison break), {投獄|とうごく} (imprisonment), {逆走|ぎゃくそう} (wrong-way driving)
+- **Noun/na-adjective (1)**: {怠慢|たいまん} (negligence)
+- **Na-adjective (1)**: {不確実|ふかくじつ} (uncertain)
+- **Noun/yojijukugo (2)**: {音信不通|おんしんふつう} (loss of contact), {意気消沈|いきしょうちん} (dejection)
+- **Verb-godan (2)**: {労|ねぎら}う (to appreciate labor), {眩|くら}む (to be dizzy/dazzled)
+- **Expression (2)**: {全力|ぜんりょく}を{尽|つ}くす (to do one's best), {何食|なにく}わぬ{顔|かお} (innocent look)
+- **Adverb (1)**: {平然|へいぜん}と (calmly, nonchalantly)
+
+Notable features:
+- Law/prison cluster: {監獄|かんごく}, {脱獄|だつごく}, {投獄|とうごく}
+- Transportation: {逆走|ぎゃくそう}, {速度制限|そくどせいげん}
+- Behavioral/emotional: {束縛|そくばく}, {意気消沈|いきしょうちん}, {何食|なにく}わぬ{顔|かお}, {平然|へいぜん}と
+- Cultural: {縁起物|えんぎもの}, {皇太子|こうたいし}
+- Multi-sense entry: {眩|くら}む (2: dizziness + being dazzled/blinded by greed)
+
+Total entries: ~15,764 → ~15,794 (approximate)
+Remaining candidates: ~4,008 → ~3,978 (30 removed)
 
 ### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 397)
 Added 30 new dictionary entries (IDs 15679-15708) from candidate_words.json:
@@ -140,27 +162,6 @@ Notable features:
 
 Total entries: ~15,644 → ~15,674 (approximate)
 Remaining candidates: ~4,127 → ~4,097 (30 removed)
-
-### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 393)
-Added 30 new dictionary entries (IDs 15559-15588) from candidate_words.json:
-
-- **Nouns (20)**: {芥川賞|あくたがわしょう} (Akutagawa Prize), {直木賞|なおきしょう} (Naoki Prize), {処女作|しょじょさく} (debut work), {占星術|せんせいじゅつ} (astrology), {久遠|くおん} (eternity), {血圧計|けつあつけい} (blood pressure monitor), {酷寒|こっかん} (severe cold), {美人画|びじんが} (bijin-ga), {五線譜|ごせんふ} (musical staff), {毛織物|けおりもの} (woolen fabric), {静止画|せいしが} (still image), {接近戦|せっきんせん} (close-quarters combat), {病熱|びょうねつ} (fever from illness), {貯水槽|ちょすいそう} (water tank), {汚泥|おでい} (sludge), {補正予算|ほせいよさん} (supplementary budget), {高山植物|こうざんしょくぶつ} (alpine plants), {不在連絡票|ふざいれんらくひょう} (missed delivery notice), {百聞|ひゃくぶん} (hearing a hundred times), {瞬間接着剤|しゅんかんせっちゃくざい} (super glue)
-- **Noun/verb-suru (3)**: {誤嚥|ごえん} (aspiration), {起案|きあん} (drafting), {急接近|きゅうせっきん} (rapid approach)
-- **Noun/na-adjective (3)**: {至高|しこう} (supreme), {超一流|ちょういちりゅう} (world-class), {電気自動車|でんきじどうしゃ} (electric vehicle)
-- **Noun (2)**: {公使|こうし} (diplomatic minister), {少数民族|しょうすうみんぞく} (ethnic minority)
-- **Noun (1)**: {真|ま}っ{向|こう}{勝負|しょうぶ} (head-on contest)
-- **Expression (1)**: {機嫌|きげん}をとる (to humor someone)
-
-Notable features:
-- Literary prizes pair: {芥川賞|あくたがわしょう}/{直木賞|なおきしょう}
-- Daily life vocabulary: {不在連絡票|ふざいれんらくひょう}, {瞬間接着剤|しゅんかんせっちゃくざい}, {血圧計|けつあつけい}
-- Technical/modern: {電気自動車|でんきじどうしゃ}, {静止画|せいしが}, {補正予算|ほせいよさん}
-- Cultural: {美人画|びじんが}, {占星術|せんせいじゅつ}, {久遠|くおん}
-- Multi-sense entry: {急接近|きゅうせっきん} (2: physical approach + relationship)
-- New kanji: 2,516 → 2,517 ({芥|かい})
-
-Total entries: ~15,614 → ~15,644 (approximate)
-Remaining candidates: ~4,157 → ~4,127 (30 removed)
 
 ---
 

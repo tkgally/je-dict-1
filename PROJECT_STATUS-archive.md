@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 393)
+Added 30 new dictionary entries (IDs 15559-15588) from candidate_words.json:
+
+- **Nouns (20)**: {芥川賞|あくたがわしょう} (Akutagawa Prize), {直木賞|なおきしょう} (Naoki Prize), {処女作|しょじょさく} (debut work), {占星術|せんせいじゅつ} (astrology), {久遠|くおん} (eternity), {血圧計|けつあつけい} (blood pressure monitor), {酷寒|こっかん} (severe cold), {美人画|びじんが} (bijin-ga), {五線譜|ごせんふ} (musical staff), {毛織物|けおりもの} (woolen fabric), {静止画|せいしが} (still image), {接近戦|せっきんせん} (close-quarters combat), {病熱|びょうねつ} (fever from illness), {貯水槽|ちょすいそう} (water tank), {汚泥|おでい} (sludge), {補正予算|ほせいよさん} (supplementary budget), {高山植物|こうざんしょくぶつ} (alpine plants), {不在連絡票|ふざいれんらくひょう} (missed delivery notice), {百聞|ひゃくぶん} (hearing a hundred times), {瞬間接着剤|しゅんかんせっちゃくざい} (super glue)
+- **Noun/verb-suru (3)**: {誤嚥|ごえん} (aspiration), {起案|きあん} (drafting), {急接近|きゅうせっきん} (rapid approach)
+- **Noun/na-adjective (3)**: {至高|しこう} (supreme), {超一流|ちょういちりゅう} (world-class), {電気自動車|でんきじどうしゃ} (electric vehicle)
+- **Noun (2)**: {公使|こうし} (diplomatic minister), {少数民族|しょうすうみんぞく} (ethnic minority)
+- **Noun (1)**: {真|ま}っ{向|こう}{勝負|しょうぶ} (head-on contest)
+- **Expression (1)**: {機嫌|きげん}をとる (to humor someone)
+
+Notable features:
+- Literary prizes pair: {芥川賞|あくたがわしょう}/{直木賞|なおきしょう}
+- Daily life vocabulary: {不在連絡票|ふざいれんらくひょう}, {瞬間接着剤|しゅんかんせっちゃくざい}, {血圧計|けつあつけい}
+- Technical/modern: {電気自動車|でんきじどうしゃ}, {静止画|せいしが}, {補正予算|ほせいよさん}
+- Cultural: {美人画|びじんが}, {占星術|せんせいじゅつ}, {久遠|くおん}
+- Multi-sense entry: {急接近|きゅうせっきん} (2: physical approach + relationship)
+- New kanji: 2,516 → 2,517 ({芥|かい})
+
+Total entries: ~15,614 → ~15,644 (approximate)
+Remaining candidates: ~4,157 → ~4,127 (30 removed)
+
 ### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 391)
 Added 30 new dictionary entries (IDs 15499-15528) from candidate_words.json:
 
