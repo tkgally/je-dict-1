@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,824 |
+| Total entries | ~15,854 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,025 (open) |
-| Candidate words | ~3,948 |
+| General tier | ~13,055 (open) |
+| Candidate words | ~3,919 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 400)
+Added 30 new dictionary entries (IDs 15769-15799) from candidate_words.json:
+
+- **Nouns (15)**: {憎|にく}しみ (hatred), {差額|さがく} (difference), {隠|かく}し{事|ごと} (secret), {前払|まえばら}い (advance payment), {義兄|ぎけい} (brother-in-law), {定型文|ていけいぶん} (boilerplate text), {逃亡者|とうぼうしゃ} (fugitive), {銀貨|ぎんか} (silver coin), {濁流|だくりゅう} (muddy torrent), {原稿用紙|げんこうようし} (manuscript paper), {歓迎会|かんげいかい} (welcome party), {感電|かんでん} (electric shock), {整髪|せいはつ} (hairdressing), {無香料|むこうりょう} (fragrance-free), {内需|ないじゅ} (domestic demand)
+- **Noun/adjective-no (1)**: {極上|ごくじょう} (finest quality)
+- **Noun/verb-suru (3)**: {兼用|けんよう} (dual use), {開墾|かいこん} (land reclamation), {特急券|とっきゅうけん} (express ticket)
+- **Noun/na-adjective (1)**: {意気地|いくじ}なし (coward)
+- **Na-adjective (3)**: {丁重|ていちょう} (courteous), {庶民的|しょみんてき} (down-to-earth), {浅薄|せんぱく} (shallow)
+- **Adjective-i (2)**: {古臭|ふるくさ}い (old-fashioned), おむつ → moved below
+- **Verb-godan (1)**: {欲張|よくば}る (to be greedy)
+- **Verb-ichidan (1)**: {押|お}しのける (to push aside)
+- **Other nouns (3)**: おむつ (diaper), お{吸|す}い{物|もの} (clear soup), ひらめき (inspiration), {立|た}ち{回|まわ}り (maneuvering/fight scene)
+
+Notable features:
+- Daily-life cluster: おむつ, お{吸|す}い{物|もの}, {前払|まえばら}い, {特急券|とっきゅうけん}, {無香料|むこうりょう}
+- Business: {差額|さがく}, {定型文|ていけいぶん}, {内需|ないじゅ}, {歓迎会|かんげいかい}
+- Multi-sense entries: {古臭|ふるくさ}い (2: outdated + musty), {押|お}しのける (2: physical + figurative), {立|た}ち{回|まわ}り (2: social maneuvering + fight scene)
+- New kanji: 2,522 → 2,523 ({墾|こん})
+
+Total entries: ~15,824 → ~15,854 (approximate)
+Remaining candidates: ~3,948 → ~3,919 (29 removed)
 
 ### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 399)
 Added 30 new dictionary entries (IDs 15739-15768) from candidate_words.json:
@@ -138,27 +160,6 @@ Notable features:
 
 Total entries: ~15,704 → ~15,734 (approximate)
 Remaining candidates: ~4,067 → ~4,037 (30 removed)
-
-### 2026-03-07 (Vocabulary Expansion - 30 New Entries, Session 395)
-Added 30 new dictionary entries (IDs 15619-15648) from candidate_words.json:
-
-- **Nouns (11)**: {柑橘類|かんきつるい} (citrus fruits), {日系人|にっけいじん} (person of Japanese descent), {嫡男|ちゃくなん} (legitimate heir), {手渡|てわた}し (hand delivery), {勝者|しょうしゃ} (winner), {首脳|しゅのう} (head/leader), {調律師|ちょうりつし} (piano tuner), {土蔵|どぞう} (earthen storehouse), {債券|さいけん} (bond), {動物|どうぶつ}{病院|びょういん} (vet hospital), {競走|きょうそう} (race)
-- **Noun/verb-suru (5)**: {譲渡|じょうと} (transfer), {安堵|あんど}する (to be relieved), {参拝|さんぱい}する (to visit a shrine), {具現|ぐげん} (embodiment), {完走|かんそう}する (to finish a race)
-- **Na-adjectives (3)**: {専門的|せんもんてき} (specialized), {不正確|ふせいかく} (inaccurate), {凄絶|せいぜつ} (ghastly/fierce)
-- **Verbs (3)**: {投|な}げつける (to hurl at), {軽|かろ}んじる (to belittle), {洒落|しゃれ}た (stylish)
-- **Nouns (other) (5)**: いきさつ (circumstances), {戸建|こだて} (detached house), {術後|じゅつご} (post-operative), {羞恥心|しゅうちしん} (sense of shame), {右肩下|みぎかたさ}がり (downward trend)
-- **Adverb (1)**: {何故|なぜ}か (for some reason)
-- **Expression (1)**: {甘|あま}く{見|み}る (to underestimate)
-- **Place name (1)**: {九州|きゅうしゅう} (Kyushu)
-
-Notable features:
-- Good variety: financial ({債券|さいけん}, {譲渡|じょうと}), medical ({術後|じゅつご}, {動物|どうぶつ}{病院|びょういん}), cultural ({土蔵|どぞう}, {参拝|さんぱい}する, {嫡男|ちゃくなん})
-- Practical daily life: {戸建|こだて}, {手渡|てわた}し, {完走|かんそう}する, {甘|あま}く{見|み}る
-- Multi-sense entries: いきさつ (2: circumstances + complications), {凄絶|せいぜつ} (2: ghastly + fierce), {洒落|しゃれ}た (2: stylish + witty)
-- New kanji: 2,517 → 2,520 ({嫡|ちゃく}, {柑|かん}, {橘|きつ})
-
-Total entries: ~15,674 → ~15,704 (approximate)
-Remaining candidates: ~4,097 → ~4,067 (30 removed)
 
 ---
 
