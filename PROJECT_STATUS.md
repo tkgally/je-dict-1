@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,884 |
+| Total entries | ~15,912 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,085 (open) |
-| Candidate words | ~3,891 |
+| General tier | ~13,113 (open) |
+| Candidate words | ~3,861 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 402)
+Added 30 new dictionary entries (IDs 15830-15859) from candidate_words.json:
+
+- **Nouns (22)**: {父方|ちちかた} (paternal side), {次女|じじょ} (second daughter), {牢屋|ろうや} (jail), {大粒|おおつぶ} (large grain/drop), {揃|そろ}い (matching set), お{祓|はら}い (purification ritual), {世帯主|せたいぬし} (head of household), {管制塔|かんせいとう} (control tower), {海面|かいめん} (sea surface/level), {古文書|こもんじょ} (ancient document), {書式|しょしき} (format), {幼児語|ようじご} (baby talk), {専属|せんぞく} (exclusive), {糖分|とうぶん} (sugar content), {領海|りょうかい} (territorial waters), {甲斐|かい} (worth/reward), {屋根裏|やねうら} (attic), {渓流|けいりゅう} (mountain stream), {皇帝|こうてい} (emperor), {王国|おうこく} (kingdom), {海鳥|うみどり} (seabird), {暖気|だんき} (warm air)
+- **Noun/verb-suru (7)**: {急成長|きゅうせいちょう} (rapid growth), {冬眠|とうみん} (hibernation), {介抱|かいほう} (nursing), {静止|せいし} (stillness), {暗算|あんざん} (mental arithmetic), {会釈|えしゃく} (slight bow), {入国|にゅうこく} (entry into country)
+- **Noun with two senses (4)**: {海面|かいめん} (2: surface + level), {天敵|てんてき} (2: predator + nemesis), {守護神|しゅごしん} (2: deity + sports guardian), {王国|おうこく} (2: literal + figurative)
+
+Notable features:
+- Family cluster: {父方|ちちかた}, {次女|じじょ}, {世帯主|せたいぬし}
+- Nature/geography: {海面|かいめん}, {渓流|けいりゅう}, {海鳥|うみどり}, {冬眠|とうみん}, {暖気|だんき}
+- History/politics: {皇帝|こうてい}, {王国|おうこく}, {領海|りょうかい}, {古文書|こもんじょ}
+- Daily life: {糖分|とうぶん}, {屋根裏|やねうら}, {暗算|あんざん}, {書式|しょしき}
+- Multi-sense entries: {天敵|てんてき} (natural enemy + figurative nemesis), {冬眠|とうみん} (literal + figurative dormancy)
+
+Total entries: ~15,884 → ~15,912 (approximate)
+Remaining candidates: ~3,891 → ~3,861 (30 removed)
 
 ### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 401)
 Added 30 new dictionary entries (IDs 15800-15829) from candidate_words.json:
@@ -138,29 +155,6 @@ Notable features:
 
 Total entries: ~15,764 → ~15,794 (approximate)
 Remaining candidates: ~4,008 → ~3,978 (30 removed)
-
-### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 397)
-Added 30 new dictionary entries (IDs 15679-15708) from candidate_words.json:
-
-- **Nouns (19)**: {苗木|なえぎ} (sapling), {感染症|かんせんしょう} (infectious disease), {平屋|ひらや} (one-story house), {備考|びこう} (remarks), {退職届|たいしょくとどけ} (resignation letter), {原本|げんぽん} (original document), {陶磁器|とうじき} (ceramics), {曲芸|きょくげい} (acrobatics), {密猟|みつりょう} (poaching), {潜水艦|せんすいかん} (submarine), {空母|くうぼ} (aircraft carrier), {異文化|いぶんか} (different culture), {茶托|ちゃたく} (teacup saucer), {定款|ていかん} (articles of incorporation), {被害届|ひがいとどけ} (damage report), {操縦席|そうじゅうせき} (cockpit), {箱推|はこお}し (supporting entire group), {四捨五入|ししゃごにゅう} (rounding), {踏|ふ}み{倒|たお}し (defaulting on debt)
-- **Noun with two senses (2)**: {報|むく}い (reward/retribution), {死角|しかく} (blind spot)
-- **Noun/na-adjective (1)**: {太|ふと}っ{腹|ぱら} (generous)
-- **Adjective-i (1)**: {輝|かがや}かしい (brilliant)
-- **Adjective-taru (1)**: {騒然|そうぜん} (tumultuous)
-- **Pre-noun adjectival (1)**: ありふれた (commonplace)
-- **Noun/verb-suru (3)**: {思索|しさく} (contemplation), {追憶|ついおく} (reminiscence), {一段落|いちだんらく} (reaching a stopping point)
-- **Noun (family) (1)**: {母性|ぼせい} (motherhood)
-- **Adverb (1)**: {存分|ぞんぶん}に (to one's heart's content)
-
-Notable features:
-- Business/legal cluster: {備考|びこう}, {退職届|たいしょくとどけ}, {原本|げんぽん}, {定款|ていかん}, {被害届|ひがいとどけ}, {踏|ふ}み{倒|たお}し
-- Military: {潜水艦|せんすいかん}, {空母|くうぼ}
-- Culture: {陶磁器|とうじき}, {茶托|ちゃたく}, {箱推|はこお}し, {異文化|いぶんか}
-- Multi-sense entries: {報|むく}い (2: reward + retribution), {死角|しかく} (2: physical + figurative)
-- New kanji: 2,520 → 2,522 ({托|たく}, {款|かん})
-
-Total entries: ~15,734 → ~15,764 (approximate)
-Remaining candidates: ~4,037 → ~4,008 (29 removed)
 
 ---
 
