@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,854 |
+| Total entries | ~15,884 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,055 (open) |
-| Candidate words | ~3,919 |
+| General tier | ~13,085 (open) |
+| Candidate words | ~3,891 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 401)
+Added 30 new dictionary entries (IDs 15800-15829) from candidate_words.json:
+
+- **Nouns (16)**: {忘年会|ぼうねんかい} (year-end party), {化粧水|けしょうすい} (face lotion), {特売品|とくばいひん} (bargain item), {二代目|にだいめ} (second generation), {草餅|くさもち} (mugwort rice cake), {短文|たんぶん} (short sentence), {非接触|ひせっしょく} (contactless), {容積|ようせき} (capacity), {製紙|せいし} (papermaking), {再入場|さいにゅうじょう} (re-entry), {呪|のろ}い (curse), {丁寧語|ていねいご} (polite language), {初版|しょはん} (first edition), {難点|なんてん} (drawback), {手落|てお}ち (oversight), {利下|りさ}げ (interest rate cut)
+- **Noun/verbal-noun (5)**: {禁酒|きんしゅ} (abstinence from alcohol), {準拠|じゅんきょ} (compliance), {承諾|しょうだく} (consent), {主催|しゅさい} (hosting), {音読|おんどく} (reading aloud)
+- **Noun/verbal-noun (2-sense) (2)**: {染色|せんしょく} (dyeing/staining), {不妊|ふにん} (infertility)
+- **Na-adjective (1)**: {無難|ぶなん} (safe/acceptable)
+- **Adverb (2)**: {未|いま}だに (still/even now), {速|すみ}やかに (promptly)
+- **Noun (literary) (2)**: {蛇足|だそく} (superfluous addition), {名|な}ばかり (in name only)
+- **Noun (food) (1)**: {焼|や}き{菓子|がし} (baked goods)
+- **Verb-godan (2-sense) (1)**: {突|つ}き{放|はな}す (to push away/reject coldly)
+
+Notable features:
+- Daily-life cluster: {忘年会|ぼうねんかい}, {化粧水|けしょうすい}, {特売品|とくばいひん}, {草餅|くさもち}, {焼|や}き{菓子|がし}
+- Business/formal: {承諾|しょうだく}, {準拠|じゅんきょ}, {主催|しゅさい}, {手落|てお}ち, {利下|りさ}げ
+- Language/education: {丁寧語|ていねいご}, {音読|おんどく}, {短文|たんぶん}
+- Multi-sense entries: {禁酒|きんしゅ} (2: personal + legal), {染色|せんしょく} (2: textile + biology), {突|つ}き{放|はな}す (2: physical + emotional)
+
+Total entries: ~15,854 → ~15,884 (approximate)
+Remaining candidates: ~3,919 → ~3,891 (28 removed)
 
 ### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 400)
 Added 30 new dictionary entries (IDs 15769-15799) from candidate_words.json:
@@ -140,26 +161,6 @@ Notable features:
 
 Total entries: ~15,734 → ~15,764 (approximate)
 Remaining candidates: ~4,037 → ~4,008 (29 removed)
-
-### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 396)
-Added 30 new dictionary entries (IDs 15649-15678) from candidate_words.json:
-
-- **Nouns (18)**: {高齢者|こうれいしゃ} (elderly person), {焼|や}き{芋|いも} (roasted sweet potato), {遺失物|いしつぶつ} (lost property), {保険金|ほけんきん} (insurance money), {資産|しさん} (assets), {無力感|むりょくかん} (helplessness), {手|て}ほどき (basic instruction), {苦労人|くろうにん} (person of hardship), {半月|はんつき} (half a month), {四字熟語|よじじゅくご} (four-character idiom), {貴社|きしゃ} (your company), {装丁|そうてい} (book design), {診察室|しんさつしつ} (examination room), {窓枠|まどわく} (window frame), {小論文|しょうろんぶん} (short essay), {城塞|じょうさい} (fortress), {背表紙|せびょうし} (book spine), {情報源|じょうほうげん} (information source)
-- **Noun/na-adjective (1)**: {不規則|ふきそく} (irregular)
-- **Noun/verb-suru (6)**: {完敗|かんぱい} (complete defeat), {突発|とっぱつ} (sudden outbreak), {道案内|みちあんない} (giving directions), {遮断|しゃだん} (cutoff/blocking), {中休|なかやす}み (mid-break), {定期検診|ていきけんしん} (periodic checkup)
-- **Noun (work) (3)**: {年次|ねんじ} (annual), {試用期間|しようきかん} (probation period), {不採用|ふさいよう} (rejection)
-- **Verb-godan (1)**: {打|う}ち{負|ま}かす (to defeat)
-- **Adverb (1)**: けろりと (nonchalantly; completely recovering)
-
-Notable features:
-- Business/work cluster: {年次|ねんじ}, {貴社|きしゃ}, {試用期間|しようきかん}, {不採用|ふさいよう}, {資産|しさん}, {保険金|ほけんきん}
-- Medical: {診察室|しんさつしつ}, {定期検診|ていきけんしん}, {高齢者|こうれいしゃ}
-- Books/publishing: {装丁|そうてい}, {背表紙|せびょうし}, {小論文|しょうろんぶん}
-- Culture/food: {焼|や}き{芋|いも}, {四字熟語|よじじゅくご}
-- Multi-sense entries: けろりと (2: nonchalant + complete recovery), {年次|ねんじ} (2: annual + year of service)
-
-Total entries: ~15,704 → ~15,734 (approximate)
-Remaining candidates: ~4,067 → ~4,037 (30 removed)
 
 ---
 
