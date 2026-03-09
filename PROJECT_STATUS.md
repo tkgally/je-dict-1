@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-08
+**Last updated**: 2026-03-09
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~15,972 |
+| Total entries | ~16,002 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,173 (open) |
-| Candidate words | ~3,802 |
+| General tier | ~13,203 (open) |
+| Candidate words | ~3,772 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 405)
+Added 30 new dictionary entries (IDs 15920-15949) from candidate_words.json:
+
+- **Nouns (14)**: {突風|とっぷう} (gust of wind), {雷雨|らいう} (thunderstorm), {目印|めじるし} (landmark), {専門店|せんもんてん} (specialty store), {札束|さつたば} (wad of bills), {王冠|おうかん} (crown), {日報|にっぽう} (daily report), {特産|とくさん} (local specialty), {本堂|ほんどう} (main hall), {分母|ぶんぼ} (denominator), {類義語|るいぎご} (synonym), {唾液|だえき} (saliva), {目星|めぼし} (lead/estimate), {卸値|おろしね} (wholesale price)
+- **Noun/verb-suru (4)**: {面会|めんかい} (visit), {大笑|おおわら}い (big laugh), {躍動|やくどう} (lively motion), {受講|じゅこう} (taking a course)
+- **Noun/na-adjective (3)**: {欲張|よくば}り (greedy), {無尽蔵|むじんぞう} (inexhaustible), {無欲|むよく} (selfless)
+- **Noun (multi-sense) (2)**: {王冠|おうかん} (2: crown + bottle cap), {大当|おおあ}たり (2: jackpot + big hit)
+- **Verb-godan (2)**: {強|つよ}がる (to act tough), {居座|いすわ}る (to stay put)
+- **Verb-ichidan (1)**: わきまえる (to discern/know one's place)
+- **Nouns (other) (4)**: {振|ふ}り{出|だ}し (starting point), {振替|ふりかえ} (transfer/substitution), {高潮|たかしお} (storm surge), {口封|くちふう}じ (silencing someone), {北方|ほっぽう} (the north)
+
+Notable features:
+- Weather cluster: {突風|とっぷう}, {雷雨|らいう}, {高潮|たかしお}
+- Commerce/work: {専門店|せんもんてん}, {卸値|おろしね}, {日報|にっぽう}, {受講|じゅこう}
+- Cultural: わきまえる (knowing one's place), {本堂|ほんどう} (temple hall), {特産|とくさん} (regional specialties)
+- Language: {類義語|るいぎご} (synonym), {分母|ぶんぼ} (denominator)
+- New kanji: 2,523 → 2,524 ({唾|だ})
+
+Total entries: ~15,972 → ~16,002 (approximate)
+Remaining candidates: ~3,802 → ~3,772 (30 removed)
 
 ### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 404)
 Added 30 new dictionary entries (IDs 15890-15919) from candidate_words.json:
@@ -148,29 +169,6 @@ Notable features:
 
 Total entries: ~15,824 → ~15,854 (approximate)
 Remaining candidates: ~3,948 → ~3,919 (29 removed)
-
-### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 399)
-Added 30 new dictionary entries (IDs 15739-15768) from candidate_words.json:
-
-- **Nouns (12)**: {捕鯨|ほげい} (whaling), {洋室|ようしつ} (Western-style room), {受話器|じゅわき} (telephone receiver), {放送局|ほうそうきょく} (broadcasting station), {鉱山|こうざん} (mine), {初旬|しょじゅん} (early part of month), {嫌悪感|けんおかん} (revulsion), {不快感|ふかいかん} (discomfort), {湿布|しっぷ} (medicated patch), {質量|しつりょう} (mass), {物陰|ものかげ} (behind something), {運勢|うんせい} (fortune)
-- **Noun/verb-suru (4)**: {模倣|もほう} (imitation), {忌避|きひ} (avoidance/recusal), {奮発|ふんぱつ} (splurging), {草案|そうあん} (draft)
-- **Noun/na-adjective (2)**: {桁違|けたちが}い (on a different scale), {不仲|ふなか} (discord)
-- **Na-adjective (2)**: {強靭|きょうじん} (tough/resilient), {無慈悲|むじひ} (merciless)
-- **Noun (compound) (3)**: {競技場|きょうぎじょう} (stadium), {話|はな}し{方|かた} (way of speaking), {回|まわ}り{道|みち} (detour)
-- **Noun (emotion) (1)**: {野心|やしん} (ambition)
-- **Noun (unusual event) (1)**: {異変|いへん} (unusual event)
-- **Verb-godan (3)**: {洗|あら}い{流|なが}す (to wash off), {取|と}り{壊|こわ}す (to demolish), {喘|あえ}ぐ (to gasp/struggle)
-- **Verb-ichidan (1)**: かき{混|ま}ぜる (to stir)
-- **Compound verb (1)**: {背負|せお}い{込|こ}む (to burden oneself with)
-
-Notable features:
-- Emotion/feeling cluster: {嫌悪感|けんおかん}, {不快感|ふかいかん}, {野心|やしん}, {無慈悲|むじひ}
-- Physical/figurative duality: {喘|あえ}ぐ (2: gasping + struggling under hardship), {回|まわ}り{道|みち} (2: physical detour + roundabout approach), {奮発|ふんぱつ} (2: splurging + exerting oneself)
-- Compound verbs: かき{混|ま}ぜる, {洗|あら}い{流|なが}す, {取|と}り{壊|こわ}す, {背負|せお}い{込|こ}む
-- Legal: {忌避|きひ} (avoidance + legal recusal), {草案|そうあん}
-
-Total entries: ~15,794 → ~15,824 (approximate)
-Remaining candidates: ~3,978 → ~3,948 (30 removed)
 
 ---
 
