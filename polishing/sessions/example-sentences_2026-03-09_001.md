@@ -1,25 +1,45 @@
 ## Session: Example Sentences
 Date: 2026-03-09
-Entries checked: 05440-05479
+Entries checked: 05640-05699
 
 ### Changes Made
-- [05445_heikou]: Insufficient count — added 3 examples (sense 1 had 2, sense 2 had 1; now 3+3)
-- [05446_suichoku]: Length progression — reordered examples (ex2 was shorter than ex1)
-- [05448_chouten]: Insufficient count — added 3 examples (sense 1 had 1, sense 2 had 2; now 3+3)
-- [05458_chuukan]: Insufficient count (core tier, had 3, needs 5) — added 2 examples; reordered to fix vocab tier violation (試験/結果 are general, moved from ex2 to ex3)
-- [05459_ryouiki]: Insufficient count — added 3 examples (sense 1 had 2, sense 2 had 1; now 3+3)
-- [05461_jogen]: Insufficient count (core tier, had 3, needs 5) — added 2 examples; fixed vocab tier violation (専門家 is general, moved from ex2 to ex3); fixed redundant furigana on もらう
-- [05463_yousei]: Insufficient count (core tier, had 3, needs 5) — rewrote ex1-2 to use basic+core vocab (政府/支援/応える are general); added 2 examples
-- [05469_risoku]: Insufficient count (core tier, had 3, needs 5) — rewrote ex1-2 to use basic+core vocab (預ける/避ける are general); added 2 examples
-- [05476_kanazuchi]: Insufficient count (core tier, 2 senses, had 3 total, needs 5+5) — rewrote and added 7 examples; fixed vocab tier violations (打つ is general, moved from ex1 to ex3)
-- [05477_nokogiri]: Insufficient count (core tier, had 3, needs 5) — rewrote ex2 to fix vocab violation (刃/錆びる are general); added 2 examples
-- [05478_doraibaa]: Insufficient count (general, 3 senses, had 1 per sense, needs 3 each) — added 6 examples
-- [05479_kaichuudentou]: Insufficient count (core tier, had 3, needs 5) — rewrote ex1-2 to fix vocab violations (停電/備える/用意/照らす are general); added 2 examples
+
+**Batch 1 (05640-05659) — 14 entries modified:**
+- 05640 (お葬式, core): insufficient count — added 2 examples (3→5)
+- 05641 (紹介する, core, 2 senses): insufficient count — restructured and added examples (3→10, 5 per sense)
+- 05643 (約束する, core, 2 senses): insufficient count — added 7 examples (3→10, 5 per sense)
+- 05644 (報告する, core): insufficient count — added 2 examples (3→5)
+- 05646 (ぎゅうぎゅう, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+- 05647 (賛成する, core): insufficient count — added 2 examples (3→5)
+- 05648 (反対する, core): insufficient count — added 2 examples (3→5)
+- 05650 (あっさり, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+- 05651 (邪魔する, core, 2 senses): insufficient count — restructured and added examples (3→10, 5 per sense)
+- 05652 (電話する, core): insufficient count — added 2 examples (3→5)
+- 05653 (がっちり, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+- 05654 (お願いする, core, 2 senses): insufficient count — restructured and added examples (3→10, 5 per sense)
+- 05655 (ざっくり, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+- 05657 (すんなり, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+
+**Batch 2 (05660-05679) — 4 entries modified:**
+- 05660 (ばっさり, general, 2 senses): insufficient per-sense count — added 2 sense 2 examples (3→5)
+- 05665 (批判的, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+- 05671 (歴史的, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+- 05675 (経済的, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+
+**Batch 3 (05680-05699) — 6 entries modified:**
+- 05681 (本格的, general, 2 senses): insufficient per-sense count — restructured and added examples (3→7)
+- 05683 (受け付ける, core, 2 senses): insufficient count — added 7 examples (3→10, 5 per sense)
+- 05685 (受け持つ, core): insufficient count — added 2 examples (3→5)
+- 05687 (受け流す, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+- 05691 (立て込む, general, 2 senses): insufficient per-sense count — added 3 examples (3→6)
+- 05698 (五感, core): insufficient count — added 2 examples (3→5)
 
 ### Summary
-- Entries checked: 40
-- Entries modified: 12
-- Issues found: insufficient example count (12), vocab tier violations in core entries (6), length progression (1)
+- 60 entries checked
+- 24 entries modified (40%)
+- 36 entries already compliant
+- Primary issue: multi-sense entries having total examples split across senses, leaving each sense below minimum
+- Core entries consistently had only 3 examples when 5 per sense are required
 
 ### Next Entry
-05480
+05700
