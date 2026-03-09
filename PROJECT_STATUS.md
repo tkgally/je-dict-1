@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,062 |
+| Total entries | ~16,092 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,263 (open) |
-| Candidate words | ~3,713 |
+| General tier | ~13,293 (open) |
+| Candidate words | ~3,683 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 408)
+Added 30 new dictionary entries (IDs 16010-16039) from candidate_words.json:
+
+- **Nouns (16)**: {極意|ごくい} (innermost secrets), {貨幣|かへい} (currency), {皆無|かいむ} (nothing at all), {忍|しの}び{足|あし} (stealthy steps), {葉桜|はざくら} (cherry tree in leaf), {積|つ}み{木|き} (building blocks), {異臭|いしゅう} (strange smell), {手鏡|てかがみ} (hand mirror), {地毛|じげ} (natural hair), {給湯室|きゅうとうしつ} (office kitchenette), {水割|みずわ}り (whisky and water), {通夜|つや} (wake/vigil), {補欠|ほけつ} (substitute), {鼻血|はなぢ} (nosebleed), {謝礼|しゃれい} (honorarium), {内祝|うちいわ}い (return gift)
+- **Na-adjectives (2)**: {熾烈|しれつ} (fierce), {非情|ひじょう} (heartless)
+- **Noun/na-adjective (3)**: {別格|べっかく} (exceptional), {弱気|よわき} (timid/bearish), {任意|にんい} (optional)
+- **Noun/verb-suru (2)**: {鑑定|かんてい} (appraisal), {抱擁|ほうよう} (embrace)
+- **Nouns (other) (3)**: {動機|どうき} (motive), {格式|かくしき} (formality/prestige), {好敵手|こうてきしゅ} (worthy rival)
+- **Verb-godan (1)**: {勝|か}ち{取|と}る (to win through effort)
+- **I-adjective (1)**: {口|くち}うるさい (nagging)
+- **Adverb (1)**: {一斉|いっせい}に (all at once)
+- **Noun (building/place) (1)**: {銭湯|せんとう} (public bathhouse)
+
+Notable features:
+- Multi-sense: {弱気|よわき} (2: timid + bearish), {任意|にんい} (2: optional + arbitrary)
+- Cultural: {通夜|つや} (funeral wake), {銭湯|せんとう} (public bath), {内祝|うちいわ}い (gift customs), {葉桜|はざくら} (seasonal)
+- Homophone notes: {非情|ひじょう} vs {非常|ひじょう}, {動機|どうき} vs {動悸|どうき}/{同期|どうき}
+- New kanji: 2,525 → 2,526 ({熾|し})
+
+Total entries: ~16,062 → ~16,092 (approximate)
+Remaining candidates: ~3,713 → ~3,683 (30 removed)
 
 ### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 407)
 Added 30 new dictionary entries (IDs 15980-16009) from candidate_words.json:
@@ -129,26 +151,6 @@ Notable features:
 
 Total entries: ~15,942 → ~15,972 (approximate)
 Remaining candidates: ~3,831 → ~3,802 (29 removed)
-
-### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 403)
-Added 30 new dictionary entries (IDs 15860-15889) from candidate_words.json:
-
-- **Nouns (16)**: {皆様|みなさま} (everyone, polite), {至|いた}る{所|ところ} (everywhere), {標識|ひょうしき} (sign/marker), お{悔|く}やみ (condolences), {首筋|くびすじ} (nape of the neck), {呼|よ}び{捨|す}て (calling without honorifics), {謙譲語|けんじょうご} (humble language), {同窓会|どうそうかい} (alumni reunion), {姿見|すがたみ} (full-length mirror), {反抗期|はんこうき} (rebellious phase), {留守番電話|るすばんでんわ} (voicemail), {三十路|みそじ} (thirty years old), {二桁|ふたけた} (double digits), {生|なま}クリーム (fresh cream), {化粧室|けしょうしつ} (powder room), {慈|いつく}しみ (compassion)
-- **Noun/verb-suru (6)**: {直面|ちょくめん}する (to confront), {克服|こくふく}する (to overcome), {出国|しゅっこく} (departure from country), {積載|せきさい} (loading cargo), {抵抗|ていこう}する (to resist), {一礼|いちれい} (a bow)
-- **Noun (multi-sense) (4)**: {終止符|しゅうしふ} (2: punctuation + figurative end), {殿|との} (2: feudal lord + husband), {同窓会|どうそうかい} (2: reunion + association), {抵抗|ていこう}する (2: resist + feel reluctant)
-- **Noun/adverb (1)**: {間一髪|かんいっぱつ} (by a hair's breadth)
-- **Na-adjective (1)**: {従順|じゅうじゅん} (obedient)
-- **I-adjective (1)**: {騒々|そうぞう}しい (noisy)
-- **Noun (other) (5)**: {悪臭|あくしゅう} (stench), {没落|ぼつらく} (downfall), {配色|はいしょく} (color scheme)
-
-Notable features:
-- Language/culture cluster: {謙譲語|けんじょうご}, {呼|よ}び{捨|す}て, {皆様|みなさま}
-- Social/life: {同窓会|どうそうかい}, {反抗期|はんこうき}, お{悔|く}やみ, {化粧室|けしょうしつ}
-- Travel: {出国|しゅっこく}, {留守番電話|るすばんでんわ}, {標識|ひょうしき}
-- Multi-sense entries: {終止符|しゅうしふ} (punctuation + figurative), {殿|との} (lord + husband), {抵抗|ていこう} (physical + psychological)
-
-Total entries: ~15,912 → ~15,942 (approximate)
-Remaining candidates: ~3,861 → ~3,831 (30 removed)
 
 ---
 
