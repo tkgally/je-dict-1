@@ -1,34 +1,25 @@
 ## Session: Example Sentences
 Date: 2026-03-09
-Entries checked: 05780-05799
+Entries checked: 05800-05839
 
 ### Changes Made
-- [05780]: Reordered examples for progressive length
-- [05781]: Added 6 examples (sense 2 had 0, sense 3 had 1; now 3 per sense)
-- [05782]: Added 2 examples (core, had 3 needed 5); fixed vocab tier violation (シンプル in ex2); rewrote ex1 shorter
-- [05783]: Reordered examples for progressive length; rewrote ex3 longer
-- [05784]: Added 2 examples (core, had 3 needed 5); fixed vocab tier violation (陽気 in ex2); reordered
-- [05785]: Added 2 examples (core, had 3 needed 5); reordered for progressive length
-- [05786]: Added 3 examples (general, 2 senses, sense 2 had 1 needed 3)
-- [05787]: Reordered examples for progressive length
-- [05788]: Rewrote ex3 (was just a phrase, not a sentence); reordered
-- [05789]: Added 7 examples (core, 2 senses, had 3 needed 10; now 5 per sense)
-- [05790]: Reordered examples for progressive length
-- [05791]: Checked — 15 examples, 5 per sense, adequate (no changes)
-- [05792]: Added 2 examples (core, had 3 needed 5); reordered
-- [05793]: Reordered examples for progressive length
-- [05794]: Reordered examples for progressive length
-- [05795]: Reordered examples for progressive length
-- [05796]: Reordered examples for progressive length
-- [05797]: Reordered examples for progressive length
-- [05798]: Added 2 examples (core, had 3 needed 5)
-- [05799]: Reordered examples for progressive length
+- [05802]: Added 2 examples (core tier, had 3/5), reordered for length progression
+- [05803]: Expanded from 3 to 10 examples (core tier, 2 senses, needed 5/sense)
+- [05810]: Added 2 examples, rewrote for better progression (core tier, had 3/5)
+- [05813]: Expanded from 3 to 10 examples (core tier, 2 senses, needed 5/sense)
+- [05823]: Added 3 examples for better per-sense coverage (general tier, 2 senses)
+- [05831]: Added 3 examples for sense 2 which had 0 (general tier, 2 senses)
+- [05834]: Added 2 examples (core tier, had 3/5)
+- [05835]: Added 2 examples (core tier, had 3/5)
+- [05836]: Added 2 examples (core tier, had 3/5)
+- [05837]: Expanded from 3 to 10 examples (core tier, 2 senses, needed 5/sense)
 
 ### Summary
-- Entries checked: 20
-- Entries modified: 19 (only 05791 was adequate as-is)
-- Examples added: 24
-- Common issues: insufficient count for core/multi-sense entries, reversed length progression, vocabulary tier violations
+- 40 entries checked
+- 10 entries modified
+- Most common issue: core tier entries with only 3 examples instead of required 5
+- Multi-sense entries (05803, 05813, 05837) needed the most work (5 per sense)
+- Two general tier entries (05823, 05831) had insufficient per-sense coverage
 
 ### Next Entry
-05800
+05840
