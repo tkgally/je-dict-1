@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 403)
+Added 30 new dictionary entries (IDs 15860-15889) from candidate_words.json:
+
+- **Nouns (16)**: {皆様|みなさま} (everyone, polite), {至|いた}る{所|ところ} (everywhere), {標識|ひょうしき} (sign/marker), お{悔|く}やみ (condolences), {首筋|くびすじ} (nape of the neck), {呼|よ}び{捨|す}て (calling without honorifics), {謙譲語|けんじょうご} (humble language), {同窓会|どうそうかい} (alumni reunion), {姿見|すがたみ} (full-length mirror), {反抗期|はんこうき} (rebellious phase), {留守番電話|るすばんでんわ} (voicemail), {三十路|みそじ} (thirty years old), {二桁|ふたけた} (double digits), {生|なま}クリーム (fresh cream), {化粧室|けしょうしつ} (powder room), {慈|いつく}しみ (compassion)
+- **Noun/verb-suru (6)**: {直面|ちょくめん}する (to confront), {克服|こくふく}する (to overcome), {出国|しゅっこく} (departure from country), {積載|せきさい} (loading cargo), {抵抗|ていこう}する (to resist), {一礼|いちれい} (a bow)
+- **Noun (multi-sense) (4)**: {終止符|しゅうしふ} (2: punctuation + figurative end), {殿|との} (2: feudal lord + husband), {同窓会|どうそうかい} (2: reunion + association), {抵抗|ていこう}する (2: resist + feel reluctant)
+- **Noun/adverb (1)**: {間一髪|かんいっぱつ} (by a hair's breadth)
+- **Na-adjective (1)**: {従順|じゅうじゅん} (obedient)
+- **I-adjective (1)**: {騒々|そうぞう}しい (noisy)
+- **Noun (other) (5)**: {悪臭|あくしゅう} (stench), {没落|ぼつらく} (downfall), {配色|はいしょく} (color scheme)
+
+Notable features:
+- Language/culture cluster: {謙譲語|けんじょうご}, {呼|よ}び{捨|す}て, {皆様|みなさま}
+- Social/life: {同窓会|どうそうかい}, {反抗期|はんこうき}, お{悔|く}やみ, {化粧室|けしょうしつ}
+- Travel: {出国|しゅっこく}, {留守番電話|るすばんでんわ}, {標識|ひょうしき}
+- Multi-sense entries: {終止符|しゅうしふ} (punctuation + figurative), {殿|との} (lord + husband), {抵抗|ていこう} (physical + psychological)
+
+Total entries: ~15,912 → ~15,942 (approximate)
+Remaining candidates: ~3,861 → ~3,831 (30 removed)
+
 ### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 397)
 Added 30 new dictionary entries (IDs 15679-15708) from candidate_words.json:
 
