@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,002 |
+| Total entries | ~16,032 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,203 (open) |
-| Candidate words | ~3,772 |
+| General tier | ~13,233 (open) |
+| Candidate words | ~3,743 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 406)
+Added 30 new dictionary entries (IDs 15950-15979) from candidate_words.json:
+
+- **Nouns (14)**: ジャスミン (jasmine), {盲人|もうじん} (blind person), {厳秘|げんぴ} (strict secrecy), {環境破壊|かんきょうはかい} (environmental destruction), {食欲不振|しょくよくふしん} (loss of appetite), {自習室|じしゅうしつ} (study room), {音声認識|おんせいにんしき} (voice recognition), {筆記用具|ひっきようぐ} (writing utensils), {海鳥|うみどり} (seabird), {窮乏|きゅうぼう} (destitution), {逆方向|ぎゃくほうこう} (opposite direction), {低速|ていそく} (low speed), {目詰|めづ}まり (clogging), {進行方向|しんこうほうこう} (direction of travel)
+- **Noun/verb-suru (3)**: {群雄割拠|ぐんゆうかっきょ} (rivalry of warlords), {防戦|ぼうせん} (defensive fight), {歩留|ぶどま}り (yield rate)
+- **Noun/na-adjective (2)**: {鉄面皮|てつめんぴ} (brazen), {読|よ}み{上|あ}げ (reading aloud / text-to-speech)
+- **Four-character compounds (2)**: {群雄割拠|ぐんゆうかっきょ}, {文明開化|ぶんめいかいか} (Meiji Westernization)
+- **Adverbs (3)**: {悠々|ゆうゆう}と (leisurely), {容赦|ようしゃ}なく (relentlessly), {全般的|ぜんぱんてき}に (overall)
+- **Expressions (4)**: どういうわけか (for some reason), {勇気|ゆうき}を{振|ふ}り{絞|しぼ}る (to summon courage), {会話|かいわ}が{弾|はず}む (lively conversation), ピントを{合|あ}わせる (to focus a lens)
+- **Other (2)**: ならば (if so - conjunction), {路上|ろじょう}ライブ (street performance)
+
+Notable features:
+- Technology: {音声認識|おんせいにんしき}, {低速|ていそく}, {目詰|めづ}まり, {読|よ}み{上|あ}げ
+- Culture/history: {文明開化|ぶんめいかいか}, {群雄割拠|ぐんゆうかっきょ}, {路上|ろじょう}ライブ, {彫|ほ}り{師|し}
+- Multi-sense entries: {彫|ほ}り{師|し} (2: tattoo artist + engraver), {読|よ}み{上|あ}げ (2: reading aloud + text-to-speech)
+
+Total entries: ~16,002 → ~16,032 (approximate)
+Remaining candidates: ~3,772 → ~3,743 (29 removed)
 
 ### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 405)
 Added 30 new dictionary entries (IDs 15920-15949) from candidate_words.json:
@@ -147,28 +166,6 @@ Notable features:
 
 Total entries: ~15,854 → ~15,884 (approximate)
 Remaining candidates: ~3,919 → ~3,891 (28 removed)
-
-### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 400)
-Added 30 new dictionary entries (IDs 15769-15799) from candidate_words.json:
-
-- **Nouns (15)**: {憎|にく}しみ (hatred), {差額|さがく} (difference), {隠|かく}し{事|ごと} (secret), {前払|まえばら}い (advance payment), {義兄|ぎけい} (brother-in-law), {定型文|ていけいぶん} (boilerplate text), {逃亡者|とうぼうしゃ} (fugitive), {銀貨|ぎんか} (silver coin), {濁流|だくりゅう} (muddy torrent), {原稿用紙|げんこうようし} (manuscript paper), {歓迎会|かんげいかい} (welcome party), {感電|かんでん} (electric shock), {整髪|せいはつ} (hairdressing), {無香料|むこうりょう} (fragrance-free), {内需|ないじゅ} (domestic demand)
-- **Noun/adjective-no (1)**: {極上|ごくじょう} (finest quality)
-- **Noun/verb-suru (3)**: {兼用|けんよう} (dual use), {開墾|かいこん} (land reclamation), {特急券|とっきゅうけん} (express ticket)
-- **Noun/na-adjective (1)**: {意気地|いくじ}なし (coward)
-- **Na-adjective (3)**: {丁重|ていちょう} (courteous), {庶民的|しょみんてき} (down-to-earth), {浅薄|せんぱく} (shallow)
-- **Adjective-i (2)**: {古臭|ふるくさ}い (old-fashioned), おむつ → moved below
-- **Verb-godan (1)**: {欲張|よくば}る (to be greedy)
-- **Verb-ichidan (1)**: {押|お}しのける (to push aside)
-- **Other nouns (3)**: おむつ (diaper), お{吸|す}い{物|もの} (clear soup), ひらめき (inspiration), {立|た}ち{回|まわ}り (maneuvering/fight scene)
-
-Notable features:
-- Daily-life cluster: おむつ, お{吸|す}い{物|もの}, {前払|まえばら}い, {特急券|とっきゅうけん}, {無香料|むこうりょう}
-- Business: {差額|さがく}, {定型文|ていけいぶん}, {内需|ないじゅ}, {歓迎会|かんげいかい}
-- Multi-sense entries: {古臭|ふるくさ}い (2: outdated + musty), {押|お}しのける (2: physical + figurative), {立|た}ち{回|まわ}り (2: social maneuvering + fight scene)
-- New kanji: 2,522 → 2,523 ({墾|こん})
-
-Total entries: ~15,824 → ~15,854 (approximate)
-Remaining candidates: ~3,948 → ~3,919 (29 removed)
 
 ---
 
