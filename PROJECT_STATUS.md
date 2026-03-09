@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 410)
+Added 30 new dictionary entries (IDs 16071-16100) from candidate_words.json:
+
+- **Nouns (22)**: デブ (fat person), {登場|とうじょう}{人物|じんぶつ} (character), {植民地|しょくみんち} (colony), {壁紙|かべがみ} (wallpaper), {帰路|きろ} (way home), {送別会|そうべつかい} (farewell party), {寒気|さむけ} (chill), {砂利|じゃり}{道|みち} (gravel road), {曇天|どんてん} (cloudy sky), {品詞|ひんし} (part of speech), {水鳥|みずとり} (waterfowl), {各所|かくしょ} (various places), {畜産|ちくさん} (livestock farming), {口座|こうざ}{番号|ばんごう} (account number), {脱力感|だつりょくかん} (exhaustion), {信頼|しんらい}{関係|かんけい} (trust relationship), {労働|ろうどう}{組合|くみあい} (labor union), {調理師|ちょうりし} (licensed cook)
+- **Nouns/verb-suru (7)**: {解析|かいせき} (analysis), {飛散|ひさん} (scattering), {射撃|しゃげき} (shooting), {発案|はつあん} (proposal), {退会|たいかい} (withdrawal), {静養|せいよう} (recuperation), {感化|かんか} (influence), {加点|かてん} (adding points)
+- **Na-adjective (1)**: {手狭|てぜま} (cramped)
+- **I-adjective (1)**: {情|なさ}け{深|ぶか}い (compassionate)
+- **Multi-sense (2)**: {壁紙|かべがみ} (2: wall + digital), {乳液|にゅうえき} (2: skincare + botanical), {解析|かいせき} (2: analysis + parsing)
+- **Noun (other) (1)**: {交互|こうご} (alternation)
+
+Notable features:
+- Practical daily life: {壁紙|かべがみ}, {口座|こうざ}{番号|ばんごう}, {退会|たいかい}, {乳液|にゅうえき}, {送別会|そうべつかい}
+- Health/body: {寒気|さむけ}, {脱力感|だつりょくかん}, {静養|せいよう}, {乳液|にゅうえき}
+- Work/society: {労働|ろうどう}{組合|くみあい}, {信頼|しんらい}{関係|かんけい}, {発案|はつあん}, {調理師|ちょうりし}
+- Academic: {品詞|ひんし}, {解析|かいせき}, {植民地|しょくみんち}
+
+Total entries: ~16,122 → ~16,152 (approximate)
+Remaining candidates: ~3,653 → ~3,623 (30 removed)
+
 ### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 409)
 Added 30 new dictionary entries (IDs 16040-16070) from candidate_words.json:
 
@@ -132,27 +151,6 @@ Notable features:
 
 Total entries: ~16,002 → ~16,032 (approximate)
 Remaining candidates: ~3,772 → ~3,743 (29 removed)
-
-### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 405)
-Added 30 new dictionary entries (IDs 15920-15949) from candidate_words.json:
-
-- **Nouns (14)**: {突風|とっぷう} (gust of wind), {雷雨|らいう} (thunderstorm), {目印|めじるし} (landmark), {専門店|せんもんてん} (specialty store), {札束|さつたば} (wad of bills), {王冠|おうかん} (crown), {日報|にっぽう} (daily report), {特産|とくさん} (local specialty), {本堂|ほんどう} (main hall), {分母|ぶんぼ} (denominator), {類義語|るいぎご} (synonym), {唾液|だえき} (saliva), {目星|めぼし} (lead/estimate), {卸値|おろしね} (wholesale price)
-- **Noun/verb-suru (4)**: {面会|めんかい} (visit), {大笑|おおわら}い (big laugh), {躍動|やくどう} (lively motion), {受講|じゅこう} (taking a course)
-- **Noun/na-adjective (3)**: {欲張|よくば}り (greedy), {無尽蔵|むじんぞう} (inexhaustible), {無欲|むよく} (selfless)
-- **Noun (multi-sense) (2)**: {王冠|おうかん} (2: crown + bottle cap), {大当|おおあ}たり (2: jackpot + big hit)
-- **Verb-godan (2)**: {強|つよ}がる (to act tough), {居座|いすわ}る (to stay put)
-- **Verb-ichidan (1)**: わきまえる (to discern/know one's place)
-- **Nouns (other) (4)**: {振|ふ}り{出|だ}し (starting point), {振替|ふりかえ} (transfer/substitution), {高潮|たかしお} (storm surge), {口封|くちふう}じ (silencing someone), {北方|ほっぽう} (the north)
-
-Notable features:
-- Weather cluster: {突風|とっぷう}, {雷雨|らいう}, {高潮|たかしお}
-- Commerce/work: {専門店|せんもんてん}, {卸値|おろしね}, {日報|にっぽう}, {受講|じゅこう}
-- Cultural: わきまえる (knowing one's place), {本堂|ほんどう} (temple hall), {特産|とくさん} (regional specialties)
-- Language: {類義語|るいぎご} (synonym), {分母|ぶんぼ} (denominator)
-- New kanji: 2,523 → 2,524 ({唾|だ})
-
-Total entries: ~15,972 → ~16,002 (approximate)
-Remaining candidates: ~3,802 → ~3,772 (30 removed)
 
 ---
 
