@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,032 |
+| Total entries | ~16,062 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,233 (open) |
-| Candidate words | ~3,743 |
+| General tier | ~13,263 (open) |
+| Candidate words | ~3,713 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 407)
+Added 30 new dictionary entries (IDs 15980-16009) from candidate_words.json:
+
+- **Nouns (11)**: {愛読|あいどく} (devoted reading), {多読|たどく} (extensive reading), {精読|せいどく} (intensive reading), {喪失感|そうしつかん} (sense of loss), {満足感|まんぞくかん} (feeling of satisfaction), {照合|しょうごう} (verification), {媒介|ばいかい} (intermediary/vector), {発電所|はつでんしょ} (power plant), {各界|かっかい} (various fields), {虚脱感|きょだつかん} (emptiness/lethargy), {自己肯定感|じここうていかん} (self-esteem)
+- **Na-adjectives (3)**: {粗末|そまつ}な (poor quality/humble), {貴重|きちょう}な (precious/valuable), {雑多|ざった}な (miscellaneous/jumbled)
+- **Nouns (geographical/cultural) (4)**: {諸国|しょこく} (various countries), {手巻|てま}き{寿司|ずし} (hand-rolled sushi), {稲荷寿司|いなりずし} (inari sushi), ペンション (Western-style guesthouse)
+- **Nouns (specialized) (4)**: {空車|くうしゃ} (vacant taxi), {蒸留酒|じょうりゅうしゅ} (distilled spirits), {庇|ひさし} (eaves/visor), {吸入|きゅうにゅう} (inhalation), {通信網|つうしんもう} (communication network)
+- **Verb-suru (1)**: {相反|あいはん}する (to conflict with)
+- **Conjunction (1)**: {乃至|ないし} (from...to, or even)
+- **Expressions (4)**: {胸|むね}をなでおろす (to feel relieved), {一線|いっせん}を{画|かく}す (to draw a clear line), {一刻|いっこく}も{早|はや}く (ASAP), {良心|りょうしん}が{咎|とが}める (to feel guilty)
+
+Notable features:
+- Reading cluster: {愛読|あいどく}, {多読|たどく}, {精読|せいどく}
+- Emotion cluster: {喪失感|そうしつかん}, {満足感|まんぞくかん}, {虚脱感|きょだつかん}, {自己肯定感|じここうていかん}
+- Food: {手巻|てま}き{寿司|ずし}, {稲荷寿司|いなりずし}, {蒸留酒|じょうりゅうしゅ}
+- Idiomatic expressions: {胸|むね}をなでおろす, {一線|いっせん}を{画|かく}す, {良心|りょうしん}が{咎|とが}める
+- New kanji: 2,524 → 2,525 ({乃|ない})
+
+Total entries: ~16,032 → ~16,062 (approximate)
+Remaining candidates: ~3,743 → ~3,713 (30 removed)
 
 ### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 406)
 Added 30 new dictionary entries (IDs 15950-15979) from candidate_words.json:
@@ -128,44 +149,6 @@ Notable features:
 
 Total entries: ~15,912 → ~15,942 (approximate)
 Remaining candidates: ~3,861 → ~3,831 (30 removed)
-
-### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 402)
-Added 30 new dictionary entries (IDs 15830-15859) from candidate_words.json:
-
-- **Nouns (22)**: {父方|ちちかた} (paternal side), {次女|じじょ} (second daughter), {牢屋|ろうや} (jail), {大粒|おおつぶ} (large grain/drop), {揃|そろ}い (matching set), お{祓|はら}い (purification ritual), {世帯主|せたいぬし} (head of household), {管制塔|かんせいとう} (control tower), {海面|かいめん} (sea surface/level), {古文書|こもんじょ} (ancient document), {書式|しょしき} (format), {幼児語|ようじご} (baby talk), {専属|せんぞく} (exclusive), {糖分|とうぶん} (sugar content), {領海|りょうかい} (territorial waters), {甲斐|かい} (worth/reward), {屋根裏|やねうら} (attic), {渓流|けいりゅう} (mountain stream), {皇帝|こうてい} (emperor), {王国|おうこく} (kingdom), {海鳥|うみどり} (seabird), {暖気|だんき} (warm air)
-- **Noun/verb-suru (7)**: {急成長|きゅうせいちょう} (rapid growth), {冬眠|とうみん} (hibernation), {介抱|かいほう} (nursing), {静止|せいし} (stillness), {暗算|あんざん} (mental arithmetic), {会釈|えしゃく} (slight bow), {入国|にゅうこく} (entry into country)
-- **Noun with two senses (4)**: {海面|かいめん} (2: surface + level), {天敵|てんてき} (2: predator + nemesis), {守護神|しゅごしん} (2: deity + sports guardian), {王国|おうこく} (2: literal + figurative)
-
-Notable features:
-- Family cluster: {父方|ちちかた}, {次女|じじょ}, {世帯主|せたいぬし}
-- Nature/geography: {海面|かいめん}, {渓流|けいりゅう}, {海鳥|うみどり}, {冬眠|とうみん}, {暖気|だんき}
-- History/politics: {皇帝|こうてい}, {王国|おうこく}, {領海|りょうかい}, {古文書|こもんじょ}
-- Daily life: {糖分|とうぶん}, {屋根裏|やねうら}, {暗算|あんざん}, {書式|しょしき}
-- Multi-sense entries: {天敵|てんてき} (natural enemy + figurative nemesis), {冬眠|とうみん} (literal + figurative dormancy)
-
-Total entries: ~15,884 → ~15,912 (approximate)
-Remaining candidates: ~3,891 → ~3,861 (30 removed)
-
-### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 401)
-Added 30 new dictionary entries (IDs 15800-15829) from candidate_words.json:
-
-- **Nouns (16)**: {忘年会|ぼうねんかい} (year-end party), {化粧水|けしょうすい} (face lotion), {特売品|とくばいひん} (bargain item), {二代目|にだいめ} (second generation), {草餅|くさもち} (mugwort rice cake), {短文|たんぶん} (short sentence), {非接触|ひせっしょく} (contactless), {容積|ようせき} (capacity), {製紙|せいし} (papermaking), {再入場|さいにゅうじょう} (re-entry), {呪|のろ}い (curse), {丁寧語|ていねいご} (polite language), {初版|しょはん} (first edition), {難点|なんてん} (drawback), {手落|てお}ち (oversight), {利下|りさ}げ (interest rate cut)
-- **Noun/verbal-noun (5)**: {禁酒|きんしゅ} (abstinence from alcohol), {準拠|じゅんきょ} (compliance), {承諾|しょうだく} (consent), {主催|しゅさい} (hosting), {音読|おんどく} (reading aloud)
-- **Noun/verbal-noun (2-sense) (2)**: {染色|せんしょく} (dyeing/staining), {不妊|ふにん} (infertility)
-- **Na-adjective (1)**: {無難|ぶなん} (safe/acceptable)
-- **Adverb (2)**: {未|いま}だに (still/even now), {速|すみ}やかに (promptly)
-- **Noun (literary) (2)**: {蛇足|だそく} (superfluous addition), {名|な}ばかり (in name only)
-- **Noun (food) (1)**: {焼|や}き{菓子|がし} (baked goods)
-- **Verb-godan (2-sense) (1)**: {突|つ}き{放|はな}す (to push away/reject coldly)
-
-Notable features:
-- Daily-life cluster: {忘年会|ぼうねんかい}, {化粧水|けしょうすい}, {特売品|とくばいひん}, {草餅|くさもち}, {焼|や}き{菓子|がし}
-- Business/formal: {承諾|しょうだく}, {準拠|じゅんきょ}, {主催|しゅさい}, {手落|てお}ち, {利下|りさ}げ
-- Language/education: {丁寧語|ていねいご}, {音読|おんどく}, {短文|たんぶん}
-- Multi-sense entries: {禁酒|きんしゅ} (2: personal + legal), {染色|せんしょく} (2: textile + biology), {突|つ}き{放|はな}す (2: physical + emotional)
-
-Total entries: ~15,854 → ~15,884 (approximate)
-Remaining candidates: ~3,919 → ~3,891 (28 removed)
 
 ---
 
