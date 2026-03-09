@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01284_moshi_ex1",
-      "japanese": "もし{雨|あめ}が{降|ふ}ったら、{行|い}きません。",
+      "japanese": "もし⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}ったら→降る：00839_furu⟧、⟦{行|い}きません→行く：00119_iku⟧。",
       "english": "If it rains, I won't go.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "01284_moshi_ex2",
-      "japanese": "もし{時間|じかん}があれば、{手伝|てつだ}ってください。",
+      "japanese": "もし⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦あれば→ある：00006_aru⟧、⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you have time, please help me.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "01284_moshi_ex3",
-      "japanese": "もしよかったら、{一緒|いっしょ}に{行|い}きませんか。",
+      "japanese": "もしよかったら、⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{行|い}きませんか→行く：00119_iku⟧。",
       "english": "If you'd like, would you like to go together?",
       "notes": "Polite invitation",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "01284_moshi_ex4",
-      "japanese": "もし{明日|あした}{天気|てんき}がよかったら、{公園|こうえん}でお{弁当|べんとう}を{食|た}べませんか。",
+      "japanese": "もし⟦{明日|あした}→明日：00501_ashita⟧⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧よかったら、⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧お⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦を→を：00422_wo⟧⟦{食|た}べませんか→食べる：00396_taberu⟧。",
       "english": "If the weather is nice tomorrow, shall we eat boxed lunches in the park?",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01284_moshi_ex5",
-      "japanese": "もし{日本|にほん}に{住|す}むことになったら、どこに{住|す}みたいか{考|かんが}えたことがありますか。",
+      "japanese": "もし⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧こと⟦になったら→なる：01970_naru⟧、⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧⟦{住|す}みたい→住む：00673_sumu⟧⟦か→か：09473_ka⟧⟦{考|かんが}えたこと→考える：00856_kangaeru⟧⟦が→が：00051_ga⟧⟦ありますか→ある：00006_aru⟧。",
       "english": "Have you ever thought about where you would want to live if you were to live in Japan?",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "もし marks a hypothetical condition and is typically paired with conditional forms.\n\nCONDITIONAL PAIRS:\n- もし〜たら: if ~ (most common, neutral)\n- もし〜ば: if ~ (slightly formal)\n- もし〜なら: if ~ (topical, \"speaking of\")\n- もし〜としたら: supposing that ~\n\nCOMMON EXPRESSIONS:\n- もしよかったら: if you'd like (polite offer)\n- もし{何|なに}かあったら: if something happens\n- もし{可能|かのう}なら: if possible\n\nOPTIONALITY:\nもし is optional—conditionals work without it. Adding もし emphasizes the hypothetical nature or adds politeness.\n\n{雨|あめ}が{降|ふ}ったら... = If it rains...\nもし{雨|あめ}が{降|ふ}ったら... = If it were to rain...\n\nNOTE:\nもし is an adverb, so it appears before the condition, not after.",
+  "notes": "もし marks a hypothetical condition and is typically paired with conditional forms.\n\nCONDITIONAL PAIRS:\n- もし〜たら: if ~ (most common, neutral)\n- もし〜ば: if ~ (slightly formal)\n- もし〜なら: if ~ (topical, \"speaking of\")\n- もし〜としたら: supposing that ~\n\nCOMMON EXPRESSIONS:\n- もしよかったら: if you'd like (polite offer)\n- もし⟦{何|なに}か→何か：03873_nanika⟧あったら: if something happens\n- もし⟦{可能|かのう}→可能：00175_kanou⟧なら: if possible\n\nOPTIONALITY:\nもし is optional—conditionals work without it. Adding もし emphasizes the hypothetical nature or adds politeness.\n\n⟦{雨|あめ}→雨：00583_ame⟧が⟦{降|ふ}ったら→降る：00839_furu⟧... = If it rains...\nもし⟦{雨|あめ}→雨：00583_ame⟧が⟦{降|ふ}ったら→降る：00839_furu⟧... = If it were to rain...\n\nNOTE:\nもし is an adverb, so it appears before the condition, not after.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-02-14T05:52:12Z",
+    "modified": "2026-03-09T01:34:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
