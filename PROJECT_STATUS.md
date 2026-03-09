@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,092 |
+| Total entries | ~16,122 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,293 (open) |
-| Candidate words | ~3,683 |
+| General tier | ~13,323 (open) |
+| Candidate words | ~3,653 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 409)
+Added 30 new dictionary entries (IDs 16040-16070) from candidate_words.json:
+
+- **Na-adjectives (4)**: {不気味|ぶきみ} (eerie), {家庭的|かていてき} (homely), {情熱的|じょうねつてき} (passionate), {柔軟|じゅうなん} (flexible)
+- **Nouns (15)**: {主体性|しゅたいせい} (initiative), {素足|すあし} (bare feet), そばかす (freckles), {深海|しんかい} (deep sea), {身寄|みよ}り (relative), {正装|せいそう} (formal dress), {客引|きゃくひ}き (tout), {校則|こうそく} (school rules), {良識|りょうしき} (good sense), {震源|しんげん} (epicenter), {公益|こうえき} (public interest), {常勤|じょうきん} (full-time work), {型落|かたお}ち (outdated model), {市町村|しちょうそん} (municipalities), {自意識|じいしき} (self-consciousness)
+- **Nouns (multi-sense) (4)**: {幕開|まくあ}け (2: curtain rise + dawn of era), {往来|おうらい} (2: traffic + street), {着替|きが}え (2: changing + spare clothes), {物別|ものわか}れ (breakdown of talks)
+- **I-adjectives (2)**: {泥臭|どろくさ}い (unrefined), きめ{細|こま}かい (fine-grained/detailed)
+- **Verbs (3)**: {導入|どうにゅう}する (to introduce), {脈打|みゃくう}つ (to pulsate), {位置|いち}づける (to position)
+- **Nouns (other) (1)**: {道|みち}なり (following the road), {新学期|しんがっき} (new school term)
+- **Expression (1)**: {感銘|かんめい}を{受|う}ける (to be deeply impressed)
+
+Notable features:
+- Good variety: na-adjectives, i-adjectives, verbs, expressions, practical nouns
+- Multi-sense: {幕開|まくあ}け, {往来|おうらい}, {着替|きが}え, {泥臭|どろくさ}い, {震源|しんげん}, {脈打|みゃくう}つ, きめ{細|こま}かい
+- Practical daily life: {着替|きが}え, {素足|すあし}, {道|みち}なり, {新学期|しんがっき}, {型落|かたお}ち
+- Social/cultural: {客引|きゃくひ}き, {校則|こうそく}, {正装|せいそう}, {自意識|じいしき}
+
+Total entries: ~16,092 → ~16,122 (approximate)
+Remaining candidates: ~3,683 → ~3,653 (30 removed)
 
 ### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 408)
 Added 30 new dictionary entries (IDs 16010-16039) from candidate_words.json:
@@ -133,24 +153,6 @@ Notable features:
 
 Total entries: ~15,972 → ~16,002 (approximate)
 Remaining candidates: ~3,802 → ~3,772 (30 removed)
-
-### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 404)
-Added 30 new dictionary entries (IDs 15890-15919) from candidate_words.json:
-
-- **Nouns (18)**: {慣用句|かんようく} (idiom), {空欄|くうらん} (blank space), {路線図|ろせんず} (route map), {実話|じつわ} (true story), {身動|みうご}き (body movement), {泣|な}き{言|ごと} (whining), {活火山|かっかざん} (active volcano), {白線|はくせん} (white line), {度胸|どきょう} (courage), {小路|こうじ} (narrow lane), {推進力|すいしんりょく} (driving force), {刺|さ}し{傷|きず} (stab wound), {控|ひか}え (reserve/copy), {出席簿|しゅっせきぼ} (attendance record), {養護施設|ようごしせつ} (care facility), {兄弟姉妹|きょうだいしまい} (siblings), {演出家|えんしゅつか} (stage director), {小旅行|しょうりょこう} (short trip)
-- **Noun (multi-sense) (3)**: {腹筋|ふっきん} (2: abs + sit-ups), {控|ひか}え (2: copy + reserve), {金星|きんせい} (1: Venus)
-- **Noun/verb-suru (2)**: {共作|きょうさく} (collaboration), {貸与|たいよ} (lending)
-- **Verb-godan (3)**: {絶|た}やす (to let die out), {巻|ま}き{戻|もど}す (to rewind), {召|め}す (to eat/wear, honorific)
-- **Adverb (1)**: {真|ま}っ{先|さき}に (first and foremost)
-- **Noun (compound) (3)**: {期限切|きげんぎ}れ (expiration), {水産業|すいさんぎょう} (fisheries industry), {違憲|いけん} (unconstitutional)
-
-Notable features:
-- Diverse mix: legal ({違憲|いけん}), education ({慣用句|かんようく}, {空欄|くうらん}, {出席簿|しゅっせきぼ}), travel ({路線図|ろせんず}, {白線|はくせん}, {小旅行|しょうりょこう})
-- Honorific verb: {召|め}す (3 senses: eat/drink, wear, summon)
-- Multi-sense entries: {腹筋|ふっきん} (body + exercise), {控|ひか}え (document + sports)
-
-Total entries: ~15,942 → ~15,972 (approximate)
-Remaining candidates: ~3,831 → ~3,802 (29 removed)
 
 ---
 
