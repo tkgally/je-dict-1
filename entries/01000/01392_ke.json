@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01392_ke_ex1",
-      "japanese": "{犬|いぬ}の{毛|け}が{長|なが}い。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦の→の：09472_no⟧{毛|け}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧。",
       "english": "The dog's fur is long.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "01392_ke_ex2",
-      "japanese": "{猫|ねこ}の{毛|け}が{服|ふく}についている。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧{毛|け}⟦が→が：00051_ga⟧⟦{服|ふく}→服：00695_fuku⟧⟦に→に：00314_ni⟧⟦ついている→付く：01960_tsuku⟧。",
       "english": "There's cat fur on my clothes.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "01392_ke_ex3",
-      "japanese": "{毛|け}が{抜|ぬ}ける{季節|きせつ}になった。",
+      "japanese": "{毛|け}⟦が→が：00051_ga⟧⟦{抜|ぬ}ける→抜ける：02385_nukeru⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "It's become the shedding season.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "01392_ke_ex4",
-      "japanese": "この{猫|ねこ}は{白|しろ}い{毛|け}と{黒|くろ}い{毛|け}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{猫|ねこ}→猫：02237_neko⟧⟦は→は：00079_ha⟧⟦{白|しろ}い→白い：00587_shiroi⟧{毛|け}⟦と→と：00512_to⟧⟦{黒|くろ}い→黒い：00588_kuroi⟧{毛|け}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This cat has white and black fur.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01392_ke_ex5",
-      "japanese": "{春|はる}になると{犬|いぬ}の{毛|け}がたくさん{抜|ぬ}けるから、{毎日|まいにち}{掃除|そうじ}しなければならない。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦の→の：09472_no⟧{毛|け}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{抜|ぬ}ける→抜ける：02385_nukeru⟧⟦から→から：00504_kara⟧、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦しなければならない→する：00392_suru⟧。",
       "english": "In spring the dog sheds a lot of fur, so I have to clean every day.",
       "notes": null,
       "has_audio": false,
@@ -67,7 +67,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-08T12:06:10Z",
-    "modified": "2026-02-15T04:59:29Z",
+    "modified": "2026-03-10T07:06:47Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
