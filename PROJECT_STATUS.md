@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,182 |
+| Total entries | ~16,212 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,383 (open) |
-| Candidate words | ~3,594 |
+| General tier | ~13,413 (open) |
+| Candidate words | ~3,564 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 412)
+Added 30 new dictionary entries (IDs 16131-16160) from candidate_words.json:
+
+- **Nouns (20)**: {誤字|ごじ} (typo), {自我|じが} (self/ego), {不和|ふわ} (discord), {締|し}め (closing/final dish), デマ (false rumor), {競|せ}り (auction), {揺|ゆ}れ (shaking), {毛穴|けあな} (pore), つまみ (drinking snack/knob), {背丈|せたけ} (stature), {熱気|ねっき} (heat/fervor), {総務|そうむ} (general affairs), {世論|よろん} (public opinion), {顧問|こもん} (advisor), {小言|こごと} (nagging), {余震|よしん} (aftershock), {可否|かひ} (approval), {老舗|しにせ} (long-established shop), {画質|がしつ} (image quality), {安否|あんぴ} (safety), {産毛|うぶげ} (downy hair), {公募|こうぼ} (open recruitment), {既婚|きこん} (married), {師走|しわす} (December), {牙|きば} (fang), {音痴|おんち} (tone-deaf)
+- **Verbs (3)**: {見入|みい}る (to gaze at), {蒸|む}らす (to steam/let rest), {背負|せお}う (to carry on back)
+- **Adverb (1)**: {随時|ずいじ} (at any time)
+
+Notable features:
+- Good POS variety: nouns, verbs, adverb, with multiple senses on つまみ, {締|し}め, {熱気|ねっき}, {音痴|おんち}, {背負|せお}う
+- Cultural: {老舗|しにせ}, {師走|しわす}, {競|せ}り (fish market auctions), {締|し}め (final dish), つまみ (izakaya culture)
+- Disaster vocabulary: {余震|よしん}, {揺|ゆ}れ, {安否|あんぴ}
+- Modern/digital: {画質|がしつ}, デマ, {公募|こうぼ}
+- New kanji: 2,526 → 2,527 ({牙|きば})
+
+Total entries: ~16,182 → ~16,212 (approximate)
+Remaining candidates: ~3,594 → ~3,564 (30 removed)
 
 ### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 411)
 Added 30 new dictionary entries (IDs 16101-16130) from candidate_words.json:
@@ -131,27 +148,6 @@ Notable features:
 
 Total entries: ~16,062 → ~16,092 (approximate)
 Remaining candidates: ~3,713 → ~3,683 (30 removed)
-
-### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 407)
-Added 30 new dictionary entries (IDs 15980-16009) from candidate_words.json:
-
-- **Nouns (11)**: {愛読|あいどく} (devoted reading), {多読|たどく} (extensive reading), {精読|せいどく} (intensive reading), {喪失感|そうしつかん} (sense of loss), {満足感|まんぞくかん} (feeling of satisfaction), {照合|しょうごう} (verification), {媒介|ばいかい} (intermediary/vector), {発電所|はつでんしょ} (power plant), {各界|かっかい} (various fields), {虚脱感|きょだつかん} (emptiness/lethargy), {自己肯定感|じここうていかん} (self-esteem)
-- **Na-adjectives (3)**: {粗末|そまつ}な (poor quality/humble), {貴重|きちょう}な (precious/valuable), {雑多|ざった}な (miscellaneous/jumbled)
-- **Nouns (geographical/cultural) (4)**: {諸国|しょこく} (various countries), {手巻|てま}き{寿司|ずし} (hand-rolled sushi), {稲荷寿司|いなりずし} (inari sushi), ペンション (Western-style guesthouse)
-- **Nouns (specialized) (4)**: {空車|くうしゃ} (vacant taxi), {蒸留酒|じょうりゅうしゅ} (distilled spirits), {庇|ひさし} (eaves/visor), {吸入|きゅうにゅう} (inhalation), {通信網|つうしんもう} (communication network)
-- **Verb-suru (1)**: {相反|あいはん}する (to conflict with)
-- **Conjunction (1)**: {乃至|ないし} (from...to, or even)
-- **Expressions (4)**: {胸|むね}をなでおろす (to feel relieved), {一線|いっせん}を{画|かく}す (to draw a clear line), {一刻|いっこく}も{早|はや}く (ASAP), {良心|りょうしん}が{咎|とが}める (to feel guilty)
-
-Notable features:
-- Reading cluster: {愛読|あいどく}, {多読|たどく}, {精読|せいどく}
-- Emotion cluster: {喪失感|そうしつかん}, {満足感|まんぞくかん}, {虚脱感|きょだつかん}, {自己肯定感|じここうていかん}
-- Food: {手巻|てま}き{寿司|ずし}, {稲荷寿司|いなりずし}, {蒸留酒|じょうりゅうしゅ}
-- Idiomatic expressions: {胸|むね}をなでおろす, {一線|いっせん}を{画|かく}す, {良心|りょうしん}が{咎|とが}める
-- New kanji: 2,524 → 2,525 ({乃|ない})
-
-Total entries: ~16,032 → ~16,062 (approximate)
-Remaining candidates: ~3,743 → ~3,713 (30 removed)
 
 ---
 

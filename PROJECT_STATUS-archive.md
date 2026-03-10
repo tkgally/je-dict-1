@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 407)
+Added 30 new dictionary entries (IDs 15980-16009) from candidate_words.json:
+
+- **Nouns (11)**: {愛読|あいどく} (devoted reading), {多読|たどく} (extensive reading), {精読|せいどく} (intensive reading), {喪失感|そうしつかん} (sense of loss), {満足感|まんぞくかん} (feeling of satisfaction), {照合|しょうごう} (verification), {媒介|ばいかい} (intermediary/vector), {発電所|はつでんしょ} (power plant), {各界|かっかい} (various fields), {虚脱感|きょだつかん} (emptiness/lethargy), {自己肯定感|じここうていかん} (self-esteem)
+- **Na-adjectives (3)**: {粗末|そまつ}な (poor quality/humble), {貴重|きちょう}な (precious/valuable), {雑多|ざった}な (miscellaneous/jumbled)
+- **Nouns (geographical/cultural) (4)**: {諸国|しょこく} (various countries), {手巻|てま}き{寿司|ずし} (hand-rolled sushi), {稲荷寿司|いなりずし} (inari sushi), ペンション (Western-style guesthouse)
+- **Nouns (specialized) (4)**: {空車|くうしゃ} (vacant taxi), {蒸留酒|じょうりゅうしゅ} (distilled spirits), {庇|ひさし} (eaves/visor), {吸入|きゅうにゅう} (inhalation), {通信網|つうしんもう} (communication network)
+- **Verb-suru (1)**: {相反|あいはん}する (to conflict with)
+- **Conjunction (1)**: {乃至|ないし} (from...to, or even)
+- **Expressions (4)**: {胸|むね}をなでおろす (to feel relieved), {一線|いっせん}を{画|かく}す (to draw a clear line), {一刻|いっこく}も{早|はや}く (ASAP), {良心|りょうしん}が{咎|とが}める (to feel guilty)
+
+Notable features:
+- Reading cluster: {愛読|あいどく}, {多読|たどく}, {精読|せいどく}
+- Emotion cluster: {喪失感|そうしつかん}, {満足感|まんぞくかん}, {虚脱感|きょだつかん}, {自己肯定感|じここうていかん}
+- Food: {手巻|てま}き{寿司|ずし}, {稲荷寿司|いなりずし}, {蒸留酒|じょうりゅうしゅ}
+- Idiomatic expressions: {胸|むね}をなでおろす, {一線|いっせん}を{画|かく}す, {良心|りょうしん}が{咎|とが}める
+- New kanji: 2,524 → 2,525 ({乃|ない})
+
+Total entries: ~16,032 → ~16,062 (approximate)
+Remaining candidates: ~3,743 → ~3,713 (30 removed)
+
 ### 2026-03-08 (Vocabulary Expansion - 30 New Entries, Session 403)
 Added 30 new dictionary entries (IDs 15860-15889) from candidate_words.json:
 
