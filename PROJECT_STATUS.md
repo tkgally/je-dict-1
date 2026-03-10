@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-09
+**Last updated**: 2026-03-10
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,122 |
+| Total entries | ~16,182 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,323 (open) |
-| Candidate words | ~3,653 |
+| General tier | ~13,383 (open) |
+| Candidate words | ~3,594 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 411)
+Added 30 new dictionary entries (IDs 16101-16130) from candidate_words.json:
+
+- **Nouns (12)**: {精進料理|しょうじんりょうり} (Buddhist vegetarian cuisine), {公衆電話|こうしゅうでんわ} (public telephone), {一時帰国|いちじきこく} (temporary return home), {休憩時間|きゅうけいじかん} (break time), {定期購読|ていきこうどく} (subscription), {清涼感|せいりょうかん} (refreshing feeling), {人道|じんどう} (humanitarianism), {零細|れいさい} (very small), {数式|すうしき} (equation), {寒流|かんりゅう} (cold current), {挙動|きょどう} (behavior), {箸箱|はしばこ} (chopstick case)
+- **Nouns (compound) (2)**: {早期発見|そうきはっけん} (early detection), チンゲン{菜|さい} (bok choy)
+- **Expressions (7)**: {間|ま}が{悪|わる}い (bad timing), {歯止|はど}めがかかる (to be brought under control), {返信不要|へんしんふよう} (no reply necessary), {目処|めど}が{立|た}つ (to take shape), お{世辞|せじ}{抜|ぬ}きで (without flattery), というか (or rather), {一挙一動|いっきょいちどう} (every single move)
+- **Adverbs (4)**: {事前|じぜん}に (in advance), {直後|ちょくご}に (immediately after), {並行|へいこう}して (in parallel), {無臭|むしゅう} (odorless)
+- **Nouns (other) (3)**: {見掛|みか}け{倒|だお}し (all show), {四方八方|しほうはっぽう} (in all directions), {乗|の}り{換|か}え (transfer)
+- **Verb (1)**: {見|み}え{透|す}く (to be obvious)
+- **Adjective (1)**: {手際|てぎわ}よい (efficient)
+
+Notable features:
+- Practical daily life: {公衆電話|こうしゅうでんわ}, {休憩時間|きゅうけいじかん}, {乗|の}り{換|か}え, {箸箱|はしばこ}, {定期購読|ていきこうどく}
+- Communication: というか, {返信不要|へんしんふよう}, お{世辞|せじ}{抜|ぬ}きで
+- Society/health: {人道|じんどう}, {早期発見|そうきはっけん}, {零細|れいさい}
+- Multi-sense: {間|ま}が{悪|わる}い (2: bad timing + awkward), {乗|の}り{換|か}え (2: transfer + switching)
+
+Total entries: ~16,152 → ~16,182 (approximate)
+Remaining candidates: ~3,623 → ~3,594 (29 removed)
 
 ### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 410)
 Added 30 new dictionary entries (IDs 16071-16100) from candidate_words.json:
@@ -132,25 +152,6 @@ Notable features:
 
 Total entries: ~16,032 → ~16,062 (approximate)
 Remaining candidates: ~3,743 → ~3,713 (30 removed)
-
-### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 406)
-Added 30 new dictionary entries (IDs 15950-15979) from candidate_words.json:
-
-- **Nouns (14)**: ジャスミン (jasmine), {盲人|もうじん} (blind person), {厳秘|げんぴ} (strict secrecy), {環境破壊|かんきょうはかい} (environmental destruction), {食欲不振|しょくよくふしん} (loss of appetite), {自習室|じしゅうしつ} (study room), {音声認識|おんせいにんしき} (voice recognition), {筆記用具|ひっきようぐ} (writing utensils), {海鳥|うみどり} (seabird), {窮乏|きゅうぼう} (destitution), {逆方向|ぎゃくほうこう} (opposite direction), {低速|ていそく} (low speed), {目詰|めづ}まり (clogging), {進行方向|しんこうほうこう} (direction of travel)
-- **Noun/verb-suru (3)**: {群雄割拠|ぐんゆうかっきょ} (rivalry of warlords), {防戦|ぼうせん} (defensive fight), {歩留|ぶどま}り (yield rate)
-- **Noun/na-adjective (2)**: {鉄面皮|てつめんぴ} (brazen), {読|よ}み{上|あ}げ (reading aloud / text-to-speech)
-- **Four-character compounds (2)**: {群雄割拠|ぐんゆうかっきょ}, {文明開化|ぶんめいかいか} (Meiji Westernization)
-- **Adverbs (3)**: {悠々|ゆうゆう}と (leisurely), {容赦|ようしゃ}なく (relentlessly), {全般的|ぜんぱんてき}に (overall)
-- **Expressions (4)**: どういうわけか (for some reason), {勇気|ゆうき}を{振|ふ}り{絞|しぼ}る (to summon courage), {会話|かいわ}が{弾|はず}む (lively conversation), ピントを{合|あ}わせる (to focus a lens)
-- **Other (2)**: ならば (if so - conjunction), {路上|ろじょう}ライブ (street performance)
-
-Notable features:
-- Technology: {音声認識|おんせいにんしき}, {低速|ていそく}, {目詰|めづ}まり, {読|よ}み{上|あ}げ
-- Culture/history: {文明開化|ぶんめいかいか}, {群雄割拠|ぐんゆうかっきょ}, {路上|ろじょう}ライブ, {彫|ほ}り{師|し}
-- Multi-sense entries: {彫|ほ}り{師|し} (2: tattoo artist + engraver), {読|よ}み{上|あ}げ (2: reading aloud + text-to-speech)
-
-Total entries: ~16,002 → ~16,032 (approximate)
-Remaining candidates: ~3,772 → ~3,743 (29 removed)
 
 ---
 
