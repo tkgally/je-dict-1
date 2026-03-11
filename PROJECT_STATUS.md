@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,272 |
+| Total entries | ~16,302 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,473 (open) |
-| Candidate words | ~3,505 |
+| General tier | ~13,503 (open) |
+| Candidate words | ~3,475 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,000 |
+| Example sentences | ~49,100 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 415)
+Added 30 new dictionary entries (IDs 16223-16252) from candidate_words.json:
+
+- **Nouns (15)**: {願書|がんしょ} (application form), {鼻詰|はなづ}まり (stuffy nose), {遮断機|しゃだんき} (crossing gate), {書庫|しょこ} (archive/stacks), {講義室|こうぎしつ} (lecture room), {投資家|とうしか} (investor), {守秘義務|しゅひぎむ} (duty of confidentiality), {十代|じゅうだい} (teens), {一戦|いっせん} (a match/battle), {排水口|はいすいこう} (drain), {警報機|けいほうき} (alarm device), {開放感|かいほうかん} (sense of openness), {実技|じつぎ} (practical skill), {自己啓発|じこけいはつ} (self-development), {生唾|なまつば} (saliva from anticipation)
+- **Nouns/verb-suru (6)**: {適任|てきにん} (well-qualified), {返礼|へんれい} (return gift), {切磋琢磨|せっさたくま} (friendly rivalry), {過信|かしん} (overconfidence), {弱体化|じゃくたいか} (weakening), {封入|ふうにゅう} (enclosure), {列席|れっせき} (formal attendance)
+- **Verbs (3)**: {張|は}り{合|あ}う (to compete), {預|あず}け{入|い}れる (to deposit), ガタつく (to rattle/become unstable)
+- **Adverbs (2)**: {一貫|いっかん}して (consistently), {絶|た}え{間|ま}なく (incessantly)
+- **Pre-noun adjectival (1)**: {並外|なみはず}れた (extraordinary)
+- **Historical (2)**: {仇討|あだう}ち (vengeance), {倒幕|とうばく} (overthrowing shogunate)
+
+Notable features:
+- Multi-sense: ガタつく (2: rattle + become unstable), {預|あず}け{入|い}れる (2: deposit money + check luggage)
+- Business/legal: {守秘義務|しゅひぎむ}, {投資家|とうしか}, {自己啓発|じこけいはつ}
+- Daily life: {鼻詰|はなづ}まり, {排水口|はいすいこう}, {遮断機|しゃだんき}, {警報機|けいほうき}
+- Culture/history: {仇討|あだう}ち, {倒幕|とうばく}, {返礼|へんれい}, {切磋琢磨|せっさたくま}
+- New kanji: 2,527 → 2,529 (琢, 磋)
+
+Total entries: ~16,272 → ~16,302 (approximate)
+Remaining candidates: ~3,505 → ~3,475 (30 removed)
 
 ### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 414)
 Added 30 new dictionary entries (IDs 16193-16222) from candidate_words.json:
@@ -132,24 +152,6 @@ Notable features:
 Total entries: ~16,152 → ~16,182 (approximate)
 Remaining candidates: ~3,623 → ~3,594 (29 removed)
 
-### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 410)
-Added 30 new dictionary entries (IDs 16071-16100) from candidate_words.json:
-
-- **Nouns (22)**: デブ (fat person), {登場|とうじょう}{人物|じんぶつ} (character), {植民地|しょくみんち} (colony), {壁紙|かべがみ} (wallpaper), {帰路|きろ} (way home), {送別会|そうべつかい} (farewell party), {寒気|さむけ} (chill), {砂利|じゃり}{道|みち} (gravel road), {曇天|どんてん} (cloudy sky), {品詞|ひんし} (part of speech), {水鳥|みずとり} (waterfowl), {各所|かくしょ} (various places), {畜産|ちくさん} (livestock farming), {口座|こうざ}{番号|ばんごう} (account number), {脱力感|だつりょくかん} (exhaustion), {信頼|しんらい}{関係|かんけい} (trust relationship), {労働|ろうどう}{組合|くみあい} (labor union), {調理師|ちょうりし} (licensed cook)
-- **Nouns/verb-suru (7)**: {解析|かいせき} (analysis), {飛散|ひさん} (scattering), {射撃|しゃげき} (shooting), {発案|はつあん} (proposal), {退会|たいかい} (withdrawal), {静養|せいよう} (recuperation), {感化|かんか} (influence), {加点|かてん} (adding points)
-- **Na-adjective (1)**: {手狭|てぜま} (cramped)
-- **I-adjective (1)**: {情|なさ}け{深|ぶか}い (compassionate)
-- **Multi-sense (2)**: {壁紙|かべがみ} (2: wall + digital), {乳液|にゅうえき} (2: skincare + botanical), {解析|かいせき} (2: analysis + parsing)
-- **Noun (other) (1)**: {交互|こうご} (alternation)
-
-Notable features:
-- Practical daily life: {壁紙|かべがみ}, {口座|こうざ}{番号|ばんごう}, {退会|たいかい}, {乳液|にゅうえき}, {送別会|そうべつかい}
-- Health/body: {寒気|さむけ}, {脱力感|だつりょくかん}, {静養|せいよう}, {乳液|にゅうえき}
-- Work/society: {労働|ろうどう}{組合|くみあい}, {信頼|しんらい}{関係|かんけい}, {発案|はつあん}, {調理師|ちょうりし}
-- Academic: {品詞|ひんし}, {解析|かいせき}, {植民地|しょくみんち}
-
-Total entries: ~16,122 → ~16,152 (approximate)
-Remaining candidates: ~3,653 → ~3,623 (30 removed)
 
 ---
 
