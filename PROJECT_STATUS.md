@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,242 |
+| Total entries | ~16,272 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,443 (open) |
-| Candidate words | ~3,534 |
+| General tier | ~13,473 (open) |
+| Candidate words | ~3,505 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 414)
+Added 30 new dictionary entries (IDs 16193-16222) from candidate_words.json:
+
+- **Nouns (14)**: {城跡|しろあと} (castle ruins), {太巻|ふとま}き (thick sushi roll), {洞穴|ほらあな} (cave), {体格|たいかく} (physique), {力作|りきさく} (painstaking work), ぬかるみ (muddy ground), {怒号|どごう} (angry roar), {人影|ひとかげ} (figure/sign of people), {仕事納|しごとおさ}め (last working day), {投|な}げ{売|う}り (fire sale), {夜行性|やこうせい} (nocturnal), {粘|ねば}り{気|け} (stickiness/tenacity), {三|さん}が{日|にち} (first three days of year), {昼下|ひるさ}がり (early afternoon)
+- **Nouns/verb-suru (6)**: {起業|きぎょう} (entrepreneurship), {配合|はいごう} (blending), {閉口|へいこう} (being stumped), {目隠|めかく}し (blindfold), やりくり (making do), {癒着|ゆちゃく} (adhesion/collusion)
+- **Na-adjectives (2)**: {貧弱|ひんじゃく} (poor/meager), {物騒|ぶっそう} (dangerous/unsafe)
+- **I-adjective (1)**: {卑|いや}しい (lowly/vulgar/greedy)
+- **Verbs (3)**: おどける (to joke around), うろつく (to loiter), ハッとする (to be startled)
+- **Noun/verb-suru (2)**: {棄権|きけん} (abstention/withdrawal), {独|ひと}り{立|だ}ち (becoming independent)
+- **Mimetic (1)**: ぐらぐら (wobbly/boiling vigorously)
+
+Notable features:
+- Good POS variety: nouns, verbs, adjectives, mimetic words
+- Multi-sense: {棄権|きけん} (2: voting + sports), {卑|いや}しい (2: lowly + greedy), {物騒|ぶっそう} (2: dangerous + alarming), {目隠|めかく}し (2: blindfold + screen), {粘|ねば}り{気|け} (2: sticky + tenacious), {癒着|ゆちゃく} (2: medical + political), ハッとする (2: startled + realization), ぐらぐら (2: wobbly + boiling), {人影|ひとかげ} (2: figure + sign of people)
+- Cultural: {三|さん}が{日|にち} (New Year), {仕事納|しごとおさ}め (year-end), {太巻|ふとま}き (sushi culture)
+- Daily life: やりくり, ぐらぐら, {昼下|ひるさ}がり, うろつく
+- Business/politics: {起業|きぎょう}, {投|な}げ{売|う}り, {癒着|ゆちゃく}
+
+Total entries: ~16,242 → ~16,272 (approximate)
+Remaining candidates: ~3,534 → ~3,505 (29 removed)
 
 ### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 413)
 Added 30 new dictionary entries (IDs 16161-16192) from candidate_words.json:
@@ -129,26 +150,6 @@ Notable features:
 
 Total entries: ~16,122 → ~16,152 (approximate)
 Remaining candidates: ~3,653 → ~3,623 (30 removed)
-
-### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 409)
-Added 30 new dictionary entries (IDs 16040-16070) from candidate_words.json:
-
-- **Na-adjectives (4)**: {不気味|ぶきみ} (eerie), {家庭的|かていてき} (homely), {情熱的|じょうねつてき} (passionate), {柔軟|じゅうなん} (flexible)
-- **Nouns (15)**: {主体性|しゅたいせい} (initiative), {素足|すあし} (bare feet), そばかす (freckles), {深海|しんかい} (deep sea), {身寄|みよ}り (relative), {正装|せいそう} (formal dress), {客引|きゃくひ}き (tout), {校則|こうそく} (school rules), {良識|りょうしき} (good sense), {震源|しんげん} (epicenter), {公益|こうえき} (public interest), {常勤|じょうきん} (full-time work), {型落|かたお}ち (outdated model), {市町村|しちょうそん} (municipalities), {自意識|じいしき} (self-consciousness)
-- **Nouns (multi-sense) (4)**: {幕開|まくあ}け (2: curtain rise + dawn of era), {往来|おうらい} (2: traffic + street), {着替|きが}え (2: changing + spare clothes), {物別|ものわか}れ (breakdown of talks)
-- **I-adjectives (2)**: {泥臭|どろくさ}い (unrefined), きめ{細|こま}かい (fine-grained/detailed)
-- **Verbs (3)**: {導入|どうにゅう}する (to introduce), {脈打|みゃくう}つ (to pulsate), {位置|いち}づける (to position)
-- **Nouns (other) (1)**: {道|みち}なり (following the road), {新学期|しんがっき} (new school term)
-- **Expression (1)**: {感銘|かんめい}を{受|う}ける (to be deeply impressed)
-
-Notable features:
-- Good variety: na-adjectives, i-adjectives, verbs, expressions, practical nouns
-- Multi-sense: {幕開|まくあ}け, {往来|おうらい}, {着替|きが}え, {泥臭|どろくさ}い, {震源|しんげん}, {脈打|みゃくう}つ, きめ{細|こま}かい
-- Practical daily life: {着替|きが}え, {素足|すあし}, {道|みち}なり, {新学期|しんがっき}, {型落|かたお}ち
-- Social/cultural: {客引|きゃくひ}き, {校則|こうそく}, {正装|せいそう}, {自意識|じいしき}
-
-Total entries: ~16,092 → ~16,122 (approximate)
-Remaining candidates: ~3,683 → ~3,653 (30 removed)
 
 ---
 
