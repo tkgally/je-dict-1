@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,302 |
+| Total entries | ~16,332 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,503 (open) |
-| Candidate words | ~3,475 |
+| General tier | ~13,533 (open) |
+| Candidate words | ~3,445 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,100 |
+| Example sentences | ~49,200 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 416)
+Added 30 new dictionary entries (IDs 16253-16282) from candidate_words.json:
+
+- **Nouns (14)**: {備品|びひん} (equipment), {起点|きてん} (starting point), {月刊|げっかん} (monthly publication), {交通渋滞|こうつうじゅうたい} (traffic jam), {自動改札機|じどうかいさつき} (automatic ticket gate), {地産地消|ちさんちしょう} (local production/consumption), {自給自足|じきゅうじそく} (self-sufficiency), {拳銃|けんじゅう} (handgun), {生野菜|なまやさい} (raw vegetables), {通話料|つうわりょう} (call charges), {労働力|ろうどうりょく} (labor force), {幸福感|こうふくかん} (sense of happiness), {冷食|れいしょく} (frozen food), {二泊三日|にはくみっか} (3 days 2 nights)
+- **Nouns/suru verbs (3)**: {全快|ぜんかい} (complete recovery), {改行|かいぎょう} (line break), {口座開設|こうざかいせつ} (opening a bank account)
+- **Nouns/adjective-no (3)**: {生乾|なまがわ}き (half-dried), {中規模|ちゅうきぼ} (medium-scale), {高性能|こうせいのう} (high performance)
+- **Expressions (4)**: {嫌気|いやけ}が{差|さ}す (to be fed up), {席|せき}を{譲|ゆず}る (to give up one's seat), お{暇|いとま}する (to take one's leave), {手際|てぎわ}のいい (efficient)
+- **Nouns (other) (3)**: {仕切|しき}り{直|なお}し (fresh start), {運任|うんまか}せ (trusting to luck), {三十日|みそか} (last day of month)
+- **Verb (1)**: {盛|も}り{立|た}てる (to liven up)
+- **Proper noun (1)**: {東南|とうなん}アジア (Southeast Asia)
+- **Onomatopoeia (1)**: けらけら (cackling laughter)
+
+Notable features:
+- Daily life: {生乾|なまがわ}き, {冷食|れいしょく}, {生野菜|なまやさい}, {交通渋滞|こうつうじゅうたい}
+- Travel: {二泊三日|にはくみっか}, {自動改札機|じどうかいさつき}, {東南|とうなん}アジア
+- Business/economy: {備品|びひん}, {口座開設|こうざかいせつ}, {労働力|ろうどうりょく}
+- Society: {地産地消|ちさんちしょう}, {自給自足|じきゅうじそく}, {幸福感|こうふくかん}
+- Multi-sense: {席|せき}を{譲|ゆず}る (2: literal seat + figurative position), {盛|も}り{立|た}てる (2: enliven + support)
+
+Total entries: ~16,302 → ~16,332 (approximate)
+Remaining candidates: ~3,475 → ~3,445 (30 removed)
 
 ### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 415)
 Added 30 new dictionary entries (IDs 16223-16252) from candidate_words.json:
@@ -131,27 +153,6 @@ Notable features:
 
 Total entries: ~16,182 → ~16,212 (approximate)
 Remaining candidates: ~3,594 → ~3,564 (30 removed)
-
-### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 411)
-Added 30 new dictionary entries (IDs 16101-16130) from candidate_words.json:
-
-- **Nouns (12)**: {精進料理|しょうじんりょうり} (Buddhist vegetarian cuisine), {公衆電話|こうしゅうでんわ} (public telephone), {一時帰国|いちじきこく} (temporary return home), {休憩時間|きゅうけいじかん} (break time), {定期購読|ていきこうどく} (subscription), {清涼感|せいりょうかん} (refreshing feeling), {人道|じんどう} (humanitarianism), {零細|れいさい} (very small), {数式|すうしき} (equation), {寒流|かんりゅう} (cold current), {挙動|きょどう} (behavior), {箸箱|はしばこ} (chopstick case)
-- **Nouns (compound) (2)**: {早期発見|そうきはっけん} (early detection), チンゲン{菜|さい} (bok choy)
-- **Expressions (7)**: {間|ま}が{悪|わる}い (bad timing), {歯止|はど}めがかかる (to be brought under control), {返信不要|へんしんふよう} (no reply necessary), {目処|めど}が{立|た}つ (to take shape), お{世辞|せじ}{抜|ぬ}きで (without flattery), というか (or rather), {一挙一動|いっきょいちどう} (every single move)
-- **Adverbs (4)**: {事前|じぜん}に (in advance), {直後|ちょくご}に (immediately after), {並行|へいこう}して (in parallel), {無臭|むしゅう} (odorless)
-- **Nouns (other) (3)**: {見掛|みか}け{倒|だお}し (all show), {四方八方|しほうはっぽう} (in all directions), {乗|の}り{換|か}え (transfer)
-- **Verb (1)**: {見|み}え{透|す}く (to be obvious)
-- **Adjective (1)**: {手際|てぎわ}よい (efficient)
-
-Notable features:
-- Practical daily life: {公衆電話|こうしゅうでんわ}, {休憩時間|きゅうけいじかん}, {乗|の}り{換|か}え, {箸箱|はしばこ}, {定期購読|ていきこうどく}
-- Communication: というか, {返信不要|へんしんふよう}, お{世辞|せじ}{抜|ぬ}きで
-- Society/health: {人道|じんどう}, {早期発見|そうきはっけん}, {零細|れいさい}
-- Multi-sense: {間|ま}が{悪|わる}い (2: bad timing + awkward), {乗|の}り{換|か}え (2: transfer + switching)
-
-Total entries: ~16,152 → ~16,182 (approximate)
-Remaining candidates: ~3,623 → ~3,594 (29 removed)
-
 
 ---
 
