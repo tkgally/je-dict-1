@@ -1,15 +1,28 @@
 ## Session: Example Sentences
 Date: 2026-03-11
-Entries checked: 05960-05979
+Entries checked: 05980-06019
 
 ### Changes Made
-- 05962_rokkotsu: Insufficient count (core tier, had 3/5) - added 2 examples, reordered for progressive length
-- 05964_nankotsu: Insufficient count per sense (general, 2 senses) - added 1 example for sense 1, 2 examples for sense 2
-- 05970_haitou: Missing sense coverage (general, 2 senses) - added 3 examples for sense 2 (distribution/allocation)
-- 05974_tanpo: Insufficient count per sense (general, 2 senses) - added 1 example for sense 1, 2 examples for sense 2, reordered for progressive length
+- [05980]: insufficient count - added 2 examples (core, 1 sense: 3→5)
+- [05984]: insufficient count - rewrote and expanded examples (core, 2 senses: 1+2→5+5)
+- [05985]: insufficient count - rewrote and expanded examples (core, 2 senses: 2+1→5+5)
+- [05986]: insufficient count - added 3 examples (general, 2 senses: 1+2→3+3)
+- [05987]: insufficient count - added 3 examples (general, 2 senses: 1+2→3+3)
+- [05988]: insufficient count - added 3 examples (general, 2 senses: 2+1→3+3)
+- [05990]: insufficient count - added 3 examples (general, 2 senses: 2+1→3+3)
+- [05991]: insufficient count - rewrote and expanded examples (core, 2 senses: 2+1→5+5)
+- [05992]: insufficient count - rewrote and expanded examples (core, 2 senses: 2+1→5+5)
+- [05998]: insufficient count - added 2 examples (core, 1 sense: 3→5)
+- [05999]: insufficient count - added 2 examples (core, 1 sense: 3→5)
+- [06002]: insufficient count - added 3 examples for sense 2 (general, 2 senses: 3+0→3+3)
+- [06004]: insufficient count - added 3 examples (general, 2 senses: 2+1→3+3)
+- [06011]: insufficient count - added 3 examples (general, 2 senses: 2+1→3+3)
 
-### Entries Passing (no changes needed)
-05960, 05961, 05963, 05965, 05966, 05967, 05968, 05969, 05971, 05972, 05973, 05975, 05976, 05977, 05978, 05979
+### Summary
+- Entries checked: 40
+- Entries modified: 14
+- Entries OK: 26
+- Primary issue: insufficient example count per sense, especially for multi-sense core entries
 
 ### Next Entry
-05980
+06020
