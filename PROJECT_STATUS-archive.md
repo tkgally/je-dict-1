@@ -3,6 +3,23 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 412)
+Added 30 new dictionary entries (IDs 16131-16160) from candidate_words.json:
+
+- **Nouns (20)**: {誤字|ごじ} (typo), {自我|じが} (self/ego), {不和|ふわ} (discord), {締|し}め (closing/final dish), デマ (false rumor), {競|せ}り (auction), {揺|ゆ}れ (shaking), {毛穴|けあな} (pore), つまみ (drinking snack/knob), {背丈|せたけ} (stature), {熱気|ねっき} (heat/fervor), {総務|そうむ} (general affairs), {世論|よろん} (public opinion), {顧問|こもん} (advisor), {小言|こごと} (nagging), {余震|よしん} (aftershock), {可否|かひ} (approval), {老舗|しにせ} (long-established shop), {画質|がしつ} (image quality), {安否|あんぴ} (safety), {産毛|うぶげ} (downy hair), {公募|こうぼ} (open recruitment), {既婚|きこん} (married), {師走|しわす} (December), {牙|きば} (fang), {音痴|おんち} (tone-deaf)
+- **Verbs (3)**: {見入|みい}る (to gaze at), {蒸|む}らす (to steam/let rest), {背負|せお}う (to carry on back)
+- **Adverb (1)**: {随時|ずいじ} (at any time)
+
+Notable features:
+- Good POS variety: nouns, verbs, adverb, with multiple senses on つまみ, {締|し}め, {熱気|ねっき}, {音痴|おんち}, {背負|せお}う
+- Cultural: {老舗|しにせ}, {師走|しわす}, {競|せ}り (fish market auctions), {締|し}め (final dish), つまみ (izakaya culture)
+- Disaster vocabulary: {余震|よしん}, {揺|ゆ}れ, {安否|あんぴ}
+- Modern/digital: {画質|がしつ}, デマ, {公募|こうぼ}
+- New kanji: 2,526 → 2,527 ({牙|きば})
+
+Total entries: ~16,182 → ~16,212 (approximate)
+Remaining candidates: ~3,594 → ~3,564 (30 removed)
+
 ### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 411)
 Added 30 new dictionary entries (IDs 16101-16130) from candidate_words.json:
 

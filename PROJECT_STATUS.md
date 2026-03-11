@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,332 |
+| Total entries | ~16,362 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,533 (open) |
-| Candidate words | ~3,445 |
+| General tier | ~13,563 (open) |
+| Candidate words | ~3,415 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,200 |
+| Example sentences | ~49,300 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 417)
+Added 30 new dictionary entries (IDs 16283-16312) from candidate_words.json:
+
+- **Nouns (17)**: {大好物|だいこうぶつ} (favorite food), {不平不満|ふへいふまん} (complaints), {明治維新|めいじいしん} (Meiji Restoration), {年貢|ねんぐ} (land tax), {古物商|こぶつしょう} (second-hand dealer), {質疑応答|しつぎおうとう} (Q&A session), {資産家|しさんか} (wealthy person), {聴診器|ちょうしんき} (stethoscope), {一級品|いっきゅうひん} (first-class goods), {貨物列車|かもつれっしゃ} (freight train), {凡作|ぼんさく} (mediocre work), {大道具|おおどうぐ} (stage set), {電子楽器|でんしがっき} (electronic instrument), ナムル (namul), {群雄|ぐんゆう} (rival warlords), {芸妓|げいぎ} (geisha), {遣唐使|けんとうし} (envoy to Tang China)
+- **Nouns/suru verbs (2)**: {中絶|ちゅうぜつ} (discontinuation/abortion), {表面化|ひょうめんか} (becoming apparent)
+- **Na-adjectives (2)**: {必要不可欠|ひつようふかけつ} (absolutely essential), {筋肉質|きんにくしつ} (muscular)
+- **Nouns/suru verb (1)**: {誹謗中傷|ひぼうちゅうしょう} (slander/defamation)
+- **Noun/suru verb (1)**: {真空|しんくう}パック (vacuum pack)
+- **Noun (1)**: {吸入器|きゅうにゅうき} (inhaler)
+- **Verb (1)**: {褒|ほ}めちぎる (to praise to the skies)
+- **Nouns (cultural) (3)**: {白拍子|しらびょうし} (Heian-era dancer), {隈取|くまど}り (kabuki makeup), マーマレード (marmalade)
+- **Expressions (2)**: {足|あし}を{延|の}ばす (to make a side trip), {身|み}の{丈|たけ}に{合|あ}う (within one's means)
+
+Notable features:
+- History/culture: {明治維新|めいじいしん}, {年貢|ねんぐ}, {遣唐使|けんとうし}, {白拍子|しらびょうし}, {隈取|くまど}り, {芸妓|げいぎ}, {群雄|ぐんゆう}
+- Medical: {聴診器|ちょうしんき}, {吸入器|きゅうにゅうき}, {中絶|ちゅうぜつ}
+- Modern society: {誹謗中傷|ひぼうちゅうしょう}, {表面化|ひょうめんか}, {古物商|こぶつしょう}
+- Food: {大好物|だいこうぶつ}, ナムル, マーマレード, {真空|しんくう}パック
+- Multi-sense: {中絶|ちゅうぜつ} (2: discontinuation + abortion)
+
+Total entries: ~16,332 → ~16,362 (approximate)
+Remaining candidates: ~3,445 → ~3,415 (30 removed)
 
 ### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 416)
 Added 30 new dictionary entries (IDs 16253-16282) from candidate_words.json:
@@ -136,23 +159,6 @@ Notable features:
 
 Total entries: ~16,212 → ~16,242 (approximate)
 Remaining candidates: ~3,564 → ~3,534 (30 removed)
-
-### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 412)
-Added 30 new dictionary entries (IDs 16131-16160) from candidate_words.json:
-
-- **Nouns (20)**: {誤字|ごじ} (typo), {自我|じが} (self/ego), {不和|ふわ} (discord), {締|し}め (closing/final dish), デマ (false rumor), {競|せ}り (auction), {揺|ゆ}れ (shaking), {毛穴|けあな} (pore), つまみ (drinking snack/knob), {背丈|せたけ} (stature), {熱気|ねっき} (heat/fervor), {総務|そうむ} (general affairs), {世論|よろん} (public opinion), {顧問|こもん} (advisor), {小言|こごと} (nagging), {余震|よしん} (aftershock), {可否|かひ} (approval), {老舗|しにせ} (long-established shop), {画質|がしつ} (image quality), {安否|あんぴ} (safety), {産毛|うぶげ} (downy hair), {公募|こうぼ} (open recruitment), {既婚|きこん} (married), {師走|しわす} (December), {牙|きば} (fang), {音痴|おんち} (tone-deaf)
-- **Verbs (3)**: {見入|みい}る (to gaze at), {蒸|む}らす (to steam/let rest), {背負|せお}う (to carry on back)
-- **Adverb (1)**: {随時|ずいじ} (at any time)
-
-Notable features:
-- Good POS variety: nouns, verbs, adverb, with multiple senses on つまみ, {締|し}め, {熱気|ねっき}, {音痴|おんち}, {背負|せお}う
-- Cultural: {老舗|しにせ}, {師走|しわす}, {競|せ}り (fish market auctions), {締|し}め (final dish), つまみ (izakaya culture)
-- Disaster vocabulary: {余震|よしん}, {揺|ゆ}れ, {安否|あんぴ}
-- Modern/digital: {画質|がしつ}, デマ, {公募|こうぼ}
-- New kanji: 2,526 → 2,527 ({牙|きば})
-
-Total entries: ~16,182 → ~16,212 (approximate)
-Remaining candidates: ~3,594 → ~3,564 (30 removed)
 
 ---
 
