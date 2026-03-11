@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 411)
+Added 30 new dictionary entries (IDs 16101-16130) from candidate_words.json:
+
+- **Nouns (12)**: {精進料理|しょうじんりょうり} (Buddhist vegetarian cuisine), {公衆電話|こうしゅうでんわ} (public telephone), {一時帰国|いちじきこく} (temporary return home), {休憩時間|きゅうけいじかん} (break time), {定期購読|ていきこうどく} (subscription), {清涼感|せいりょうかん} (refreshing feeling), {人道|じんどう} (humanitarianism), {零細|れいさい} (very small), {数式|すうしき} (equation), {寒流|かんりゅう} (cold current), {挙動|きょどう} (behavior), {箸箱|はしばこ} (chopstick case)
+- **Nouns (compound) (2)**: {早期発見|そうきはっけん} (early detection), チンゲン{菜|さい} (bok choy)
+- **Expressions (7)**: {間|ま}が{悪|わる}い (bad timing), {歯止|はど}めがかかる (to be brought under control), {返信不要|へんしんふよう} (no reply necessary), {目処|めど}が{立|た}つ (to take shape), お{世辞|せじ}{抜|ぬ}きで (without flattery), というか (or rather), {一挙一動|いっきょいちどう} (every single move)
+- **Adverbs (4)**: {事前|じぜん}に (in advance), {直後|ちょくご}に (immediately after), {並行|へいこう}して (in parallel), {無臭|むしゅう} (odorless)
+- **Nouns (other) (3)**: {見掛|みか}け{倒|だお}し (all show), {四方八方|しほうはっぽう} (in all directions), {乗|の}り{換|か}え (transfer)
+- **Verb (1)**: {見|み}え{透|す}く (to be obvious)
+- **Adjective (1)**: {手際|てぎわ}よい (efficient)
+
+Total entries: ~16,152 → ~16,182 (approximate)
+Remaining candidates: ~3,623 → ~3,594 (29 removed)
+
 ### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 409)
 Added 30 new dictionary entries (IDs 16040-16070) from candidate_words.json:
 
