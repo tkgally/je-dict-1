@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-10
+**Last updated**: 2026-03-11
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,212 |
+| Total entries | ~16,242 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,413 (open) |
-| Candidate words | ~3,564 |
+| General tier | ~13,443 (open) |
+| Candidate words | ~3,534 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 413)
+Added 30 new dictionary entries (IDs 16161-16192) from candidate_words.json:
+
+- **Nouns (17)**: {献血|けんけつ} (blood donation), {難関|なんかん} (barrier), {感嘆|かんたん} (admiration), {変形|へんけい} (transformation), {着手|ちゃくしゅ} (commencing), {免税店|めんぜいてん} (duty-free shop), {照会|しょうかい} (inquiry), {参観|さんかん} (observation visit), {形相|ぎょうそう} (grimace), {遠浅|とおあさ} (shallow shore), {下校|げこう} (leaving school), {聖火|せいか} (Olympic flame), {食|く}いしん{坊|ぼう} (glutton), {肩車|かたぐるま} (shoulder ride), {額縁|がくぶち} (picture frame), {悪天候|あくてんこう} (bad weather), {球団|きゅうだん} (baseball team)
+- **Na-adjective (1)**: {冷淡|れいたん} (cold, indifferent)
+- **Nouns (multi-sense) (2)**: {水玉|みずたま} (2: polka dots + water droplet), {目|め}を{細|ほそ}める (2: squint + look fondly)
+- **Verbs (3)**: {着|き}こなす (to wear well), {放|ほう}り{出|だ}す (to throw out/abandon), {作|つく}り{替|か}える (to remake)
+- **Noun (other) (3)**: {経営者|けいえいしゃ} (business owner), {限定品|げんていひん} (limited edition), {主将|しゅしょう} (team captain)
+- **Expressions (2)**: {挙句|あげく}の{果|は}て (in the end), {目|め}を{細|ほそ}める (to squint/look fondly)
+- **Verb (2-sense) (2)**: {放|ほう}り{出|だ}す (2: throw out + abandon), {建|た}て{直|なお}す (2: rebuild + reorganize)
+- **Noun (cultural) (1)**: {一見|いちげん}さん (first-time customer)
+
+Notable features:
+- Good POS variety: nouns, verbs, na-adjective, expressions
+- Cultural: {一見|いちげん}さん (Kyoto customer culture), {聖火|せいか} (Olympics), {食|く}いしん{坊|ぼう} (food culture)
+- Sports: {球団|きゅうだん}, {主将|しゅしょう}
+- Education: {下校|げこう}, {参観|さんかん}
+- Business: {着手|ちゃくしゅ}, {経営者|けいえいしゃ}, {照会|しょうかい}
+- Shopping/travel: {免税店|めんぜいてん}, {限定品|げんていひん}
+
+Total entries: ~16,212 → ~16,242 (approximate)
+Remaining candidates: ~3,564 → ~3,534 (30 removed)
 
 ### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 412)
 Added 30 new dictionary entries (IDs 16131-16160) from candidate_words.json:
@@ -126,28 +149,6 @@ Notable features:
 
 Total entries: ~16,092 → ~16,122 (approximate)
 Remaining candidates: ~3,683 → ~3,653 (30 removed)
-
-### 2026-03-09 (Vocabulary Expansion - 30 New Entries, Session 408)
-Added 30 new dictionary entries (IDs 16010-16039) from candidate_words.json:
-
-- **Nouns (16)**: {極意|ごくい} (innermost secrets), {貨幣|かへい} (currency), {皆無|かいむ} (nothing at all), {忍|しの}び{足|あし} (stealthy steps), {葉桜|はざくら} (cherry tree in leaf), {積|つ}み{木|き} (building blocks), {異臭|いしゅう} (strange smell), {手鏡|てかがみ} (hand mirror), {地毛|じげ} (natural hair), {給湯室|きゅうとうしつ} (office kitchenette), {水割|みずわ}り (whisky and water), {通夜|つや} (wake/vigil), {補欠|ほけつ} (substitute), {鼻血|はなぢ} (nosebleed), {謝礼|しゃれい} (honorarium), {内祝|うちいわ}い (return gift)
-- **Na-adjectives (2)**: {熾烈|しれつ} (fierce), {非情|ひじょう} (heartless)
-- **Noun/na-adjective (3)**: {別格|べっかく} (exceptional), {弱気|よわき} (timid/bearish), {任意|にんい} (optional)
-- **Noun/verb-suru (2)**: {鑑定|かんてい} (appraisal), {抱擁|ほうよう} (embrace)
-- **Nouns (other) (3)**: {動機|どうき} (motive), {格式|かくしき} (formality/prestige), {好敵手|こうてきしゅ} (worthy rival)
-- **Verb-godan (1)**: {勝|か}ち{取|と}る (to win through effort)
-- **I-adjective (1)**: {口|くち}うるさい (nagging)
-- **Adverb (1)**: {一斉|いっせい}に (all at once)
-- **Noun (building/place) (1)**: {銭湯|せんとう} (public bathhouse)
-
-Notable features:
-- Multi-sense: {弱気|よわき} (2: timid + bearish), {任意|にんい} (2: optional + arbitrary)
-- Cultural: {通夜|つや} (funeral wake), {銭湯|せんとう} (public bath), {内祝|うちいわ}い (gift customs), {葉桜|はざくら} (seasonal)
-- Homophone notes: {非情|ひじょう} vs {非常|ひじょう}, {動機|どうき} vs {動悸|どうき}/{同期|どうき}
-- New kanji: 2,525 → 2,526 ({熾|し})
-
-Total entries: ~16,062 → ~16,092 (approximate)
-Remaining candidates: ~3,713 → ~3,683 (30 removed)
 
 ---
 
