@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 415)
+Added 30 new dictionary entries (IDs 16223-16252) from candidate_words.json:
+
+- **Nouns (15)**: {願書|がんしょ} (application form), {鼻詰|はなづ}まり (stuffy nose), {遮断機|しゃだんき} (crossing gate), {書庫|しょこ} (archive/stacks), {講義室|こうぎしつ} (lecture room), {投資家|とうしか} (investor), {守秘義務|しゅひぎむ} (duty of confidentiality), {十代|じゅうだい} (teens), {一戦|いっせん} (a match/battle), {排水口|はいすいこう} (drain), {警報機|けいほうき} (alarm device), {開放感|かいほうかん} (sense of openness), {実技|じつぎ} (practical skill), {自己啓発|じこけいはつ} (self-development), {生唾|なまつば} (saliva from anticipation)
+- **Nouns/verb-suru (6)**: {適任|てきにん} (well-qualified), {返礼|へんれい} (return gift), {切磋琢磨|せっさたくま} (friendly rivalry), {過信|かしん} (overconfidence), {弱体化|じゃくたいか} (weakening), {封入|ふうにゅう} (enclosure), {列席|れっせき} (formal attendance)
+- **Verbs (3)**: {張|は}り{合|あ}う (to compete), {預|あず}け{入|い}れる (to deposit), ガタつく (to rattle/become unstable)
+- **Adverbs (2)**: {一貫|いっかん}して (consistently), {絶|た}え{間|ま}なく (incessantly)
+- **Pre-noun adjectival (1)**: {並外|なみはず}れた (extraordinary)
+- **Historical (2)**: {仇討|あだう}ち (vengeance), {倒幕|とうばく} (overthrowing shogunate)
+
+Notable features:
+- Multi-sense: ガタつく (2: rattle + become unstable), {預|あず}け{入|い}れる (2: deposit money + check luggage)
+- Business/legal: {守秘義務|しゅひぎむ}, {投資家|とうしか}, {自己啓発|じこけいはつ}
+- Daily life: {鼻詰|はなづ}まり, {排水口|はいすいこう}, {遮断機|しゃだんき}, {警報機|けいほうき}
+- Culture/history: {仇討|あだう}ち, {倒幕|とうばく}, {返礼|へんれい}, {切磋琢磨|せっさたくま}
+- New kanji: 2,527 → 2,529 (琢, 磋)
+
+Total entries: ~16,272 → ~16,302 (approximate)
+Remaining candidates: ~3,505 → ~3,475 (30 removed)
+
 ### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 414)
 Added 30 new dictionary entries (IDs 16193-16222) from candidate_words.json:
 

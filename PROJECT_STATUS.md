@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,422 |
+| Total entries | ~16,452 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,623 (open) |
-| Candidate words | ~3,356 |
+| General tier | ~13,653 (open) |
+| Candidate words | ~3,326 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,500 |
+| Example sentences | ~49,600 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 420)
+Added 30 new dictionary entries (IDs 16373-16402) from candidate_words.json:
+
+- **Nouns (17)**: {薬指|くすりゆび} (ring finger), {教頭|きょうとう} (vice-principal), {朝礼|ちょうれい} (morning assembly), {朝刊|ちょうかん} (morning newspaper), {凶器|きょうき} (weapon), {液晶|えきしょう} (LCD), {急流|きゅうりゅう} (rapid stream), {圏内|けんない} (within range), {筋力|きんりょく} (muscle strength), {冥福|めいふく} (rest in peace), {悪巧|わるだく}み (evil scheme), {平静|へいせい} (calm), {照|て}り (shine/glaze), {鎌|かま} (sickle), {隠|かく}れ{家|が} (hideaway), {生前|せいぜん} (during one's lifetime), {風評|ふうひょう} (rumor)
+- **Nouns/suru verbs (5)**: {駆除|くじょ} (extermination), {除外|じょがい} (exclusion), {離職|りしょく} (leaving one's job), {注視|ちゅうし} (close observation), {憶測|おくそく} (speculation)
+- **Nouns (multi-sense) (3)**: {上|のぼ}り{坂|ざか} (uphill/upward trend), {下|くだ}り{坂|ざか} (downhill/decline), {曲折|きょくせつ} (twists/complications)
+- **Noun/na-adjective (1)**: {平静|へいせい} (calm)
+- **Noun (person) (1)**: {幹事|かんじ} (organizer)
+- **Adverb (1)**: {気長|きなが}に (patiently)
+- **Expression (1)**: {凛|りん}とした (dignified/crisp)
+- **Noun (food/weather) (1)**: {照|て}り (shine/glaze)
+
+Notable features:
+- Multi-sense: {上|のぼ}り{坂|ざか} (2: physical + figurative), {下|くだ}り{坂|ざか} (2: physical + figurative), {隠|かく}れ{家|が} (2: hideout + hidden-gem restaurant), {凛|りん}とした (2: dignified + crisp air), {曲折|きょくせつ} (2: physical bends + complications), {照|て}り (2: sunshine + food glaze)
+- Work/school culture: {幹事|かんじ}, {朝礼|ちょうれい}, {教頭|きょうとう}, {離職|りしょく}
+- Formal/news: {注視|ちゅうし}, {風評|ふうひょう}, {憶測|おくそく}, {除外|じょがい}
+- Daily life: {薬指|くすりゆび}, {朝刊|ちょうかん}, {液晶|えきしょう}, {下取|したど}り, {筋力|きんりょく}
+- Cultural: {冥福|めいふく} (Buddhist condolence), {生前|せいぜん} (end-of-life culture), {鎌|かま} (traditional farming)
+- New kanji: 2,531 → 2,533 (冥, 鎌)
+
+Total entries: ~16,422 → ~16,452 (approximate)
+Remaining candidates: ~3,356 → ~3,326 (30 removed)
 
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 419)
 Added 30 new dictionary entries (IDs 16343-16372) from candidate_words.json:
@@ -140,26 +163,6 @@ Notable features:
 
 Total entries: ~16,302 → ~16,332 (approximate)
 Remaining candidates: ~3,475 → ~3,445 (30 removed)
-
-### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 415)
-Added 30 new dictionary entries (IDs 16223-16252) from candidate_words.json:
-
-- **Nouns (15)**: {願書|がんしょ} (application form), {鼻詰|はなづ}まり (stuffy nose), {遮断機|しゃだんき} (crossing gate), {書庫|しょこ} (archive/stacks), {講義室|こうぎしつ} (lecture room), {投資家|とうしか} (investor), {守秘義務|しゅひぎむ} (duty of confidentiality), {十代|じゅうだい} (teens), {一戦|いっせん} (a match/battle), {排水口|はいすいこう} (drain), {警報機|けいほうき} (alarm device), {開放感|かいほうかん} (sense of openness), {実技|じつぎ} (practical skill), {自己啓発|じこけいはつ} (self-development), {生唾|なまつば} (saliva from anticipation)
-- **Nouns/verb-suru (6)**: {適任|てきにん} (well-qualified), {返礼|へんれい} (return gift), {切磋琢磨|せっさたくま} (friendly rivalry), {過信|かしん} (overconfidence), {弱体化|じゃくたいか} (weakening), {封入|ふうにゅう} (enclosure), {列席|れっせき} (formal attendance)
-- **Verbs (3)**: {張|は}り{合|あ}う (to compete), {預|あず}け{入|い}れる (to deposit), ガタつく (to rattle/become unstable)
-- **Adverbs (2)**: {一貫|いっかん}して (consistently), {絶|た}え{間|ま}なく (incessantly)
-- **Pre-noun adjectival (1)**: {並外|なみはず}れた (extraordinary)
-- **Historical (2)**: {仇討|あだう}ち (vengeance), {倒幕|とうばく} (overthrowing shogunate)
-
-Notable features:
-- Multi-sense: ガタつく (2: rattle + become unstable), {預|あず}け{入|い}れる (2: deposit money + check luggage)
-- Business/legal: {守秘義務|しゅひぎむ}, {投資家|とうしか}, {自己啓発|じこけいはつ}
-- Daily life: {鼻詰|はなづ}まり, {排水口|はいすいこう}, {遮断機|しゃだんき}, {警報機|けいほうき}
-- Culture/history: {仇討|あだう}ち, {倒幕|とうばく}, {返礼|へんれい}, {切磋琢磨|せっさたくま}
-- New kanji: 2,527 → 2,529 (琢, 磋)
-
-Total entries: ~16,272 → ~16,302 (approximate)
-Remaining candidates: ~3,505 → ~3,475 (30 removed)
 
 ---
 
