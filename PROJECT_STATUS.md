@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,452 |
+| Total entries | ~16,482 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,653 (open) |
-| Candidate words | ~3,326 |
+| General tier | ~13,683 (open) |
+| Candidate words | ~3,296 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,600 |
+| Example sentences | ~49,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 421)
+Added 30 new dictionary entries (IDs 16403-16432) from candidate_words.json:
+
+- **Nouns (18)**: {野次馬|やじうま} (onlooker), {評論家|ひょうろんか} (critic), {新書|しんしょ} (pocket-sized book), {山積|やまづ}み (huge pile), {物腰|ものごし} (demeanor), {幼虫|ようちゅう} (larva), {絶壁|ぜっぺき} (precipice), {厚化粧|あつげしょう} (heavy makeup), {無駄話|むだばなし} (idle talk), {帰宅部|きたくぶ} (go-home club), {月謝|げっしゃ} (monthly tuition), {爪先|つまさき} (tiptoe), {天袋|てんぶくろ} (overhead cupboard), {鏡台|きょうだい} (dressing table), {画廊|がろう} (art gallery), {好感|こうかん} (good impression), {荒天|こうてん} (stormy weather), {焼香|しょうこう} (burning incense)
+- **Nouns/suru verbs (3)**: {減点|げんてん} (deducting points), {戦慄|せんりつ} (shudder), {大歓迎|だいかんげい} (warm welcome)
+- **Nouns (multi-sense) (3)**: {担任|たんにん} (homeroom teacher/person in charge), {修羅|しゅら} (carnage/Asura), {不意打|ふいう}ち (surprise attack)
+- **Noun/na-adjective (2)**: {不条理|ふじょうり} (absurdity), {謙譲|けんじょう} (humility)
+- **Adjective-i (2)**: {物珍|ものめずら}しい (novel/curious), {計算高|けいさんだか}い (calculating)
+- **Adverb (1)**: さながら (just like)
+- **Verb (1)**: {言|い}い{返|かえ}す (to talk back)
+
+Notable features:
+- School/education: {担任|たんにん}, {帰宅部|きたくぶ}, {月謝|げっしゃ}, {減点|げんてん}
+- Culture: {焼香|しょうこう} (Buddhist funerals), {新書|しんしょ} (publishing format), {鏡台|きょうだい} (traditional furniture)
+- Literary/formal: さながら, {戦慄|せんりつ}, {修羅|しゅら}, {謙譲|けんじょう}, {荒天|こうてん}
+- Daily life: {爪先|つまさき}, {厚化粧|あつげしょう}, {無駄話|むだばなし}, {野次馬|やじうま}
+- Multi-sense: {担任|たんにん} (2), {修羅|しゅら} (2), {大歓迎|だいかんげい} (2)
+- New kanji: 2,533 → 2,534 (慄)
+
+Total entries: ~16,452 → ~16,482 (approximate)
+Remaining candidates: ~3,326 → ~3,296 (30 removed)
 
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 420)
 Added 30 new dictionary entries (IDs 16373-16402) from candidate_words.json:
@@ -141,28 +163,6 @@ Notable features:
 
 Total entries: ~16,332 → ~16,362 (approximate)
 Remaining candidates: ~3,445 → ~3,415 (30 removed)
-
-### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 416)
-Added 30 new dictionary entries (IDs 16253-16282) from candidate_words.json:
-
-- **Nouns (14)**: {備品|びひん} (equipment), {起点|きてん} (starting point), {月刊|げっかん} (monthly publication), {交通渋滞|こうつうじゅうたい} (traffic jam), {自動改札機|じどうかいさつき} (automatic ticket gate), {地産地消|ちさんちしょう} (local production/consumption), {自給自足|じきゅうじそく} (self-sufficiency), {拳銃|けんじゅう} (handgun), {生野菜|なまやさい} (raw vegetables), {通話料|つうわりょう} (call charges), {労働力|ろうどうりょく} (labor force), {幸福感|こうふくかん} (sense of happiness), {冷食|れいしょく} (frozen food), {二泊三日|にはくみっか} (3 days 2 nights)
-- **Nouns/suru verbs (3)**: {全快|ぜんかい} (complete recovery), {改行|かいぎょう} (line break), {口座開設|こうざかいせつ} (opening a bank account)
-- **Nouns/adjective-no (3)**: {生乾|なまがわ}き (half-dried), {中規模|ちゅうきぼ} (medium-scale), {高性能|こうせいのう} (high performance)
-- **Expressions (4)**: {嫌気|いやけ}が{差|さ}す (to be fed up), {席|せき}を{譲|ゆず}る (to give up one's seat), お{暇|いとま}する (to take one's leave), {手際|てぎわ}のいい (efficient)
-- **Nouns (other) (3)**: {仕切|しき}り{直|なお}し (fresh start), {運任|うんまか}せ (trusting to luck), {三十日|みそか} (last day of month)
-- **Verb (1)**: {盛|も}り{立|た}てる (to liven up)
-- **Proper noun (1)**: {東南|とうなん}アジア (Southeast Asia)
-- **Onomatopoeia (1)**: けらけら (cackling laughter)
-
-Notable features:
-- Daily life: {生乾|なまがわ}き, {冷食|れいしょく}, {生野菜|なまやさい}, {交通渋滞|こうつうじゅうたい}
-- Travel: {二泊三日|にはくみっか}, {自動改札機|じどうかいさつき}, {東南|とうなん}アジア
-- Business/economy: {備品|びひん}, {口座開設|こうざかいせつ}, {労働力|ろうどうりょく}
-- Society: {地産地消|ちさんちしょう}, {自給自足|じきゅうじそく}, {幸福感|こうふくかん}
-- Multi-sense: {席|せき}を{譲|ゆず}る (2: literal seat + figurative position), {盛|も}り{立|た}てる (2: enliven + support)
-
-Total entries: ~16,302 → ~16,332 (approximate)
-Remaining candidates: ~3,475 → ~3,445 (30 removed)
 
 ---
 
