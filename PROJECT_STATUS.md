@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-11
+**Last updated**: 2026-03-12
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,362 |
+| Total entries | ~16,392 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,563 (open) |
-| Candidate words | ~3,415 |
+| General tier | ~13,593 (open) |
+| Candidate words | ~3,385 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,300 |
+| Example sentences | ~49,400 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 418)
+Added 30 new dictionary entries (IDs 16313-16342) from candidate_words.json:
+
+- **Nouns (12)**: {標的|ひょうてき} (target), {音響|おんきょう} (sound/acoustics), {元号|げんごう} (era name), {核家族|かくかぞく} (nuclear family), {古本屋|ふるほんや} (secondhand bookshop), {向|む}かい{風|かぜ} (headwind), {着|き}せ{替|か}え (dress-up), {割|わ}り{当|あ}て (allocation), {洋間|ようま} (Western-style room), {染料|せんりょう} (dye), {形勢|けいせい} (situation), {自虐|じぎゃく} (self-deprecation)
+- **Nouns/suru verbs (6)**: {挽回|ばんかい} (recovery), {英訳|えいやく} (English translation), {失念|しつねん} (forgetting), {合奏|がっそう} (ensemble), {伸縮|しんしゅく} (expansion/contraction), {放射|ほうしゃ} (radiation)
+- **Nouns/na-adj (2)**: {優勢|ゆうせい} (superiority), {捨|す}て{鉢|ばち} (desperate/reckless)
+- **Noun/na-adj/suru (1)**: {親孝行|おやこうこう} (filial piety)
+- **Noun/suru (1)**: {上書|うわが}き (overwriting)
+- **Adverbs (4)**: はきはき (briskly), {堂々|どうどう}と (confidently), {是非|ぜひ}とも (by all means), {一段|いちだん}と (even more)
+- **I-adjective (1)**: {心強|こころづよ}い (reassuring)
+- **Verbs (2)**: {食|く}い{違|ちが}う (to differ), {締|し}め{括|くく}る (to conclude)
+- **Noun/suru (1)**: {養育|よういく} (upbringing)
+
+Notable features:
+- Cultural: {元号|げんごう} (Japanese era system), {親孝行|おやこうこう} (filial piety), {古本屋|ふるほんや} (bookshop culture)
+- Business/formal: {失念|しつねん}, {形勢|けいせい}, {是非|ぜひ}とも, {挽回|ばんかい}
+- Daily life: {核家族|かくかぞく}, {洋間|ようま}, {着|き}せ{替|か}え, {上書|うわが}き
+- Multi-sense: {上書|うわが}き (2: computing overwrite + envelope address)
+- New kanji: 2,529 → 2,530 (孝)
+
+Total entries: ~16,362 → ~16,392 (approximate)
+Remaining candidates: ~3,415 → ~3,385 (30 removed)
 
 ### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 417)
 Added 30 new dictionary entries (IDs 16283-16312) from candidate_words.json:
@@ -136,29 +159,6 @@ Notable features:
 
 Total entries: ~16,242 → ~16,272 (approximate)
 Remaining candidates: ~3,534 → ~3,505 (29 removed)
-
-### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 413)
-Added 30 new dictionary entries (IDs 16161-16192) from candidate_words.json:
-
-- **Nouns (17)**: {献血|けんけつ} (blood donation), {難関|なんかん} (barrier), {感嘆|かんたん} (admiration), {変形|へんけい} (transformation), {着手|ちゃくしゅ} (commencing), {免税店|めんぜいてん} (duty-free shop), {照会|しょうかい} (inquiry), {参観|さんかん} (observation visit), {形相|ぎょうそう} (grimace), {遠浅|とおあさ} (shallow shore), {下校|げこう} (leaving school), {聖火|せいか} (Olympic flame), {食|く}いしん{坊|ぼう} (glutton), {肩車|かたぐるま} (shoulder ride), {額縁|がくぶち} (picture frame), {悪天候|あくてんこう} (bad weather), {球団|きゅうだん} (baseball team)
-- **Na-adjective (1)**: {冷淡|れいたん} (cold, indifferent)
-- **Nouns (multi-sense) (2)**: {水玉|みずたま} (2: polka dots + water droplet), {目|め}を{細|ほそ}める (2: squint + look fondly)
-- **Verbs (3)**: {着|き}こなす (to wear well), {放|ほう}り{出|だ}す (to throw out/abandon), {作|つく}り{替|か}える (to remake)
-- **Noun (other) (3)**: {経営者|けいえいしゃ} (business owner), {限定品|げんていひん} (limited edition), {主将|しゅしょう} (team captain)
-- **Expressions (2)**: {挙句|あげく}の{果|は}て (in the end), {目|め}を{細|ほそ}める (to squint/look fondly)
-- **Verb (2-sense) (2)**: {放|ほう}り{出|だ}す (2: throw out + abandon), {建|た}て{直|なお}す (2: rebuild + reorganize)
-- **Noun (cultural) (1)**: {一見|いちげん}さん (first-time customer)
-
-Notable features:
-- Good POS variety: nouns, verbs, na-adjective, expressions
-- Cultural: {一見|いちげん}さん (Kyoto customer culture), {聖火|せいか} (Olympics), {食|く}いしん{坊|ぼう} (food culture)
-- Sports: {球団|きゅうだん}, {主将|しゅしょう}
-- Education: {下校|げこう}, {参観|さんかん}
-- Business: {着手|ちゃくしゅ}, {経営者|けいえいしゃ}, {照会|しょうかい}
-- Shopping/travel: {免税店|めんぜいてん}, {限定品|げんていひん}
-
-Total entries: ~16,212 → ~16,242 (approximate)
-Remaining candidates: ~3,564 → ~3,534 (30 removed)
 
 ---
 
