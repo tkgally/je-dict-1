@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 414)
+Added 30 new dictionary entries (IDs 16193-16222) from candidate_words.json:
+
+- **Nouns (14)**: {城跡|しろあと} (castle ruins), {太巻|ふとま}き (thick sushi roll), {洞穴|ほらあな} (cave), {体格|たいかく} (physique), {力作|りきさく} (painstaking work), ぬかるみ (muddy ground), {怒号|どごう} (angry roar), {人影|ひとかげ} (figure/sign of people), {仕事納|しごとおさ}め (last working day), {投|な}げ{売|う}り (fire sale), {夜行性|やこうせい} (nocturnal), {粘|ねば}り{気|け} (stickiness/tenacity), {三|さん}が{日|にち} (first three days of year), {昼下|ひるさ}がり (early afternoon)
+- **Nouns/verb-suru (6)**: {起業|きぎょう} (entrepreneurship), {配合|はいごう} (blending), {閉口|へいこう} (being stumped), {目隠|めかく}し (blindfold), やりくり (making do), {癒着|ゆちゃく} (adhesion/collusion)
+- **Na-adjectives (2)**: {貧弱|ひんじゃく} (poor/meager), {物騒|ぶっそう} (dangerous/unsafe)
+- **I-adjective (1)**: {卑|いや}しい (lowly/vulgar/greedy)
+- **Verbs (3)**: おどける (to joke around), うろつく (to loiter), ハッとする (to be startled)
+- **Noun/verb-suru (2)**: {棄権|きけん} (abstention/withdrawal), {独|ひと}り{立|だ}ち (becoming independent)
+- **Mimetic (1)**: ぐらぐら (wobbly/boiling vigorously)
+
+Total entries: ~16,242 → ~16,272 (approximate)
+Remaining candidates: ~3,534 → ~3,505 (29 removed)
+
 ### 2026-03-10 (Vocabulary Expansion - 30 New Entries, Session 412)
 Added 30 new dictionary entries (IDs 16131-16160) from candidate_words.json:
 

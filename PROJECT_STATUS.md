@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,392 |
+| Total entries | ~16,422 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,593 (open) |
-| Candidate words | ~3,385 |
+| General tier | ~13,623 (open) |
+| Candidate words | ~3,356 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,400 |
+| Example sentences | ~49,500 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 419)
+Added 30 new dictionary entries (IDs 16343-16372) from candidate_words.json:
+
+- **Nouns (14)**: {崖|がけ}っぷち (cliff edge/critical moment), {仕送|しおく}り (allowance), {大西洋|たいせいよう} (Atlantic Ocean), {絶好調|ぜっこうちょう} (peak condition), {博士号|はくしごう} (doctorate), {歓待|かんたい} (hospitality), {一人前|ひとりまえ} (one serving/full-fledged), お{手伝|てつだ}いさん (housekeeper), {皇后|こうごう} (empress), {生中継|なまちゅうけい} (live broadcast), {長話|ながばなし} (long chat), {耳|みみ}かき (ear pick), {空洞|くうどう} (hollow/cavity), {多数決|たすうけつ} (majority vote)
+- **Verbs (4)**: でっち{上|あ}げる (to fabricate), {見受|みう}ける (to observe), {勘繰|かんぐ}る (to be suspicious), {吹|ふ}き{抜|ぬ}ける (to blow through)
+- **Adjective (1)**: {面倒臭|めんどうくさ}い (bothersome)
+- **Adverbs (2)**: {依然|いぜん}として (still/as before), カサカサ (dry/rustling)
+- **Nouns (other) (6)**: {坊|ぼ}っちゃん (young boy/pampered boy), {造詣|ぞうけい} (deep knowledge), {隅|すみ}っこ (corner), {短絡|たんらく} (short circuit/hasty reasoning), {同封|どうふう} (enclosure), {疾患|しっかん} (disease)
+- **Expression (1)**: {筋|すじ}が{通|とお}る (to make sense)
+- **Noun (literary) (1)**: {最果|さいは}て (farthest reaches)
+- **Noun (formal) (1)**: {造詣|ぞうけい} (deep knowledge)
+
+Notable features:
+- Good POS variety: nouns, verbs, adjective, adverbs, expression, onomatopoeia
+- Multi-sense: {崖|がけ}っぷち (2: physical + figurative), {一人前|ひとりまえ} (2: serving + full-fledged), {坊|ぼ}っちゃん (2: polite + spoiled), {空洞|くうどう} (2: physical + figurative), {短絡|たんらく} (2: electrical + reasoning), カサカサ (2: dry + rustling), {耳|みみ}かき (2: tool + act)
+- Formal/literary: {依然|いぜん}として, {見受|みう}ける, {造詣|ぞうけい}, {同封|どうふう}, {歓待|かんたい}, {疾患|しっかん}
+- Daily life: {面倒臭|めんどうくさ}い, {隅|すみ}っこ, {耳|みみ}かき, カサカサ, {仕送|しおく}り
+- New kanji: 2,530 → 2,531 (后)
+
+Total entries: ~16,392 → ~16,422 (approximate)
+Remaining candidates: ~3,385 → ~3,356 (29 removed)
 
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 418)
 Added 30 new dictionary entries (IDs 16313-16342) from candidate_words.json:
@@ -138,27 +160,6 @@ Notable features:
 
 Total entries: ~16,272 → ~16,302 (approximate)
 Remaining candidates: ~3,505 → ~3,475 (30 removed)
-
-### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 414)
-Added 30 new dictionary entries (IDs 16193-16222) from candidate_words.json:
-
-- **Nouns (14)**: {城跡|しろあと} (castle ruins), {太巻|ふとま}き (thick sushi roll), {洞穴|ほらあな} (cave), {体格|たいかく} (physique), {力作|りきさく} (painstaking work), ぬかるみ (muddy ground), {怒号|どごう} (angry roar), {人影|ひとかげ} (figure/sign of people), {仕事納|しごとおさ}め (last working day), {投|な}げ{売|う}り (fire sale), {夜行性|やこうせい} (nocturnal), {粘|ねば}り{気|け} (stickiness/tenacity), {三|さん}が{日|にち} (first three days of year), {昼下|ひるさ}がり (early afternoon)
-- **Nouns/verb-suru (6)**: {起業|きぎょう} (entrepreneurship), {配合|はいごう} (blending), {閉口|へいこう} (being stumped), {目隠|めかく}し (blindfold), やりくり (making do), {癒着|ゆちゃく} (adhesion/collusion)
-- **Na-adjectives (2)**: {貧弱|ひんじゃく} (poor/meager), {物騒|ぶっそう} (dangerous/unsafe)
-- **I-adjective (1)**: {卑|いや}しい (lowly/vulgar/greedy)
-- **Verbs (3)**: おどける (to joke around), うろつく (to loiter), ハッとする (to be startled)
-- **Noun/verb-suru (2)**: {棄権|きけん} (abstention/withdrawal), {独|ひと}り{立|だ}ち (becoming independent)
-- **Mimetic (1)**: ぐらぐら (wobbly/boiling vigorously)
-
-Notable features:
-- Good POS variety: nouns, verbs, adjectives, mimetic words
-- Multi-sense: {棄権|きけん} (2: voting + sports), {卑|いや}しい (2: lowly + greedy), {物騒|ぶっそう} (2: dangerous + alarming), {目隠|めかく}し (2: blindfold + screen), {粘|ねば}り{気|け} (2: sticky + tenacious), {癒着|ゆちゃく} (2: medical + political), ハッとする (2: startled + realization), ぐらぐら (2: wobbly + boiling), {人影|ひとかげ} (2: figure + sign of people)
-- Cultural: {三|さん}が{日|にち} (New Year), {仕事納|しごとおさ}め (year-end), {太巻|ふとま}き (sushi culture)
-- Daily life: やりくり, ぐらぐら, {昼下|ひるさ}がり, うろつく
-- Business/politics: {起業|きぎょう}, {投|な}げ{売|う}り, {癒着|ゆちゃく}
-
-Total entries: ~16,242 → ~16,272 (approximate)
-Remaining candidates: ~3,534 → ~3,505 (29 removed)
 
 ---
 
