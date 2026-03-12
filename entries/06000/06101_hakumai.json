@@ -14,8 +14,8 @@
   "examples": [
     {
       "id": "06101_hakumai_ex1",
-      "japanese": "{白米|はくまい}を{炊飯器|すいはんき}で{炊|た}く。",
-      "english": "To cook white rice in a rice cooker.",
+      "japanese": "{白米|はくまい}を{炊|た}く。",
+      "english": "To cook white rice.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -24,6 +24,16 @@
     },
     {
       "id": "06101_hakumai_ex2",
+      "japanese": "{白米|はくまい}を{三合|さんごう}{研|と}ぐ。",
+      "english": "To wash three cups of white rice.",
+      "notes": "{研|と}ぐ means to rinse rice before cooking",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06101_hakumai_ex3",
       "japanese": "{日本人|にほんじん}の{主食|しゅしょく}は{白米|はくまい}だ。",
       "english": "White rice is the staple food of Japanese people.",
       "notes": null,
@@ -33,10 +43,20 @@
       ]
     },
     {
-      "id": "06101_hakumai_ex3",
-      "japanese": "{白米|はくまい}を{三合|さんごう}{研|と}ぐ。",
-      "english": "To wash three cups of white rice.",
-      "notes": "{研|と}ぐ means to rinse rice before cooking",
+      "id": "06101_hakumai_ex4",
+      "japanese": "{炊|た}きたての{白米|はくまい}はとてもおいしい。",
+      "english": "Freshly cooked white rice is very delicious.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06101_hakumai_ex5",
+      "japanese": "{白米|はくまい}は{玄米|げんまい}に{比|くら}べると{栄養|えいよう}は{少|すく}ないが、{食|た}べやすくて{人気|にんき}がある。",
+      "english": "White rice has less nutrition than brown rice, but it's easy to eat and popular.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -62,7 +82,7 @@
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-01-19T12:17:44.183267Z",
+    "modified": "2026-03-12T00:42:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
