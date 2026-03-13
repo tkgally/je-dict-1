@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-12
+**Last updated**: 2026-03-13
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,512 |
+| Total entries | ~16,542 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,713 (open) |
-| Candidate words | ~3,266 |
+| General tier | ~13,743 (open) |
+| Candidate words | ~3,236 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,700 |
 | Audio files | 1,028 |
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 423)
+Added 30 new dictionary entries (IDs 16463-16492) from candidate_words.json:
+
+- **Nouns (16)**: {注意報|ちゅういほう} (advisory), {新刊|しんかん} (new publication), {千鳥足|ちどりあし} (drunken stagger), {悩|なや}み{事|ごと} (troubles), {喉越|のどご}し (mouthfeel), {飾|かざ}り{物|もの} (ornament), {食費|しょくひ} (food expenses), {生演奏|なまえんそう} (live performance), {植物園|しょくぶつえん} (botanical garden), {鮮魚|せんぎょ} (fresh fish), {煮魚|にざかな} (simmered fish), {凶作|きょうさく} (bad harvest), {観光名所|かんこうめいしょ} (tourist attraction), {加工品|かこうひん} (processed goods), {路面|ろめん} (road surface), {宿泊施設|しゅくはくしせつ} (lodging)
+- **Nouns/suru verbs (5)**: {驚嘆|きょうたん} (amazement), {決議|けつぎ} (resolution), {節税|せつぜい} (tax saving), {避暑|ひしょ} (summer retreat), {竣工|しゅんこう} (construction completion)
+- **Nouns (multi-sense) (3)**: {筋書|すじが}き (2: plot + scenario), {飾|かざ}り{物|もの} (2: decoration + figurehead), {歪|ひず}み (2: physical strain + social strain)
+- **Noun/suru verb (2)**: {思案|しあん} (pondering), {仮住|かりず}まい (temporary residence)
+- **Adverb (1)**: {一向|いっこう}に (not at all)
+- **Verb (1)**: {捻|ね}じれる (to be twisted)
+- **Expression (1)**: {体調|たいちょう}を{崩|くず}す (to fall ill)
+- **Noun/adjective (1)**: {蝶結|ちょうむす}び (bowknot)
+
+Notable features:
+- Food/drink: {喉越|のどご}し, {鮮魚|せんぎょ}, {煮魚|にざかな}, {加工品|かこうひん}, {食費|しょくひ}
+- Travel/places: {観光名所|かんこうめいしょ}, {宿泊施設|しゅくはくしせつ}, {避暑|ひしょ}, {植物園|しょくぶつえん}
+- Infrastructure: {路面|ろめん}, {竣工|しゅんこう}
+- Daily life: {悩|なや}み{事|ごと}, {蝶結|ちょうむす}び, {仮住|かりず}まい, {体調|たいちょう}を{崩|くず}す
+- Formal/political: {決議|けつぎ}, {捻|ね}じれる (twisted Diet), {驚嘆|きょうたん}
+- New kanji: 2,536 → 2,537 (竣)
+
+Total entries: ~16,512 → ~16,542 (approximate)
+Remaining candidates: ~3,266 → ~3,236 (30 removed)
 
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 422)
 Added 30 new dictionary entries (IDs 16433-16462) from candidate_words.json:
@@ -136,29 +159,6 @@ Notable features:
 
 Total entries: ~16,392 → ~16,422 (approximate)
 Remaining candidates: ~3,385 → ~3,356 (29 removed)
-
-### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 418)
-Added 30 new dictionary entries (IDs 16313-16342) from candidate_words.json:
-
-- **Nouns (12)**: {標的|ひょうてき} (target), {音響|おんきょう} (sound/acoustics), {元号|げんごう} (era name), {核家族|かくかぞく} (nuclear family), {古本屋|ふるほんや} (secondhand bookshop), {向|む}かい{風|かぜ} (headwind), {着|き}せ{替|か}え (dress-up), {割|わ}り{当|あ}て (allocation), {洋間|ようま} (Western-style room), {染料|せんりょう} (dye), {形勢|けいせい} (situation), {自虐|じぎゃく} (self-deprecation)
-- **Nouns/suru verbs (6)**: {挽回|ばんかい} (recovery), {英訳|えいやく} (English translation), {失念|しつねん} (forgetting), {合奏|がっそう} (ensemble), {伸縮|しんしゅく} (expansion/contraction), {放射|ほうしゃ} (radiation)
-- **Nouns/na-adj (2)**: {優勢|ゆうせい} (superiority), {捨|す}て{鉢|ばち} (desperate/reckless)
-- **Noun/na-adj/suru (1)**: {親孝行|おやこうこう} (filial piety)
-- **Noun/suru (1)**: {上書|うわが}き (overwriting)
-- **Adverbs (4)**: はきはき (briskly), {堂々|どうどう}と (confidently), {是非|ぜひ}とも (by all means), {一段|いちだん}と (even more)
-- **I-adjective (1)**: {心強|こころづよ}い (reassuring)
-- **Verbs (2)**: {食|く}い{違|ちが}う (to differ), {締|し}め{括|くく}る (to conclude)
-- **Noun/suru (1)**: {養育|よういく} (upbringing)
-
-Notable features:
-- Cultural: {元号|げんごう} (Japanese era system), {親孝行|おやこうこう} (filial piety), {古本屋|ふるほんや} (bookshop culture)
-- Business/formal: {失念|しつねん}, {形勢|けいせい}, {是非|ぜひ}とも, {挽回|ばんかい}
-- Daily life: {核家族|かくかぞく}, {洋間|ようま}, {着|き}せ{替|か}え, {上書|うわが}き
-- Multi-sense: {上書|うわが}き (2: computing overwrite + envelope address)
-- New kanji: 2,529 → 2,530 (孝)
-
-Total entries: ~16,362 → ~16,392 (approximate)
-Remaining candidates: ~3,415 → ~3,385 (30 removed)
 
 ---
 
