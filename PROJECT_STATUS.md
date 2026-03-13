@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,482 |
+| Total entries | ~16,512 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,683 (open) |
-| Candidate words | ~3,296 |
+| General tier | ~13,713 (open) |
+| Candidate words | ~3,266 |
 | Cross-references | ~3,400 |
 | Example sentences | ~49,700 |
 | Audio files | 1,028 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 422)
+Added 30 new dictionary entries (IDs 16433-16462) from candidate_words.json:
+
+- **Na-adjectives (3)**: {柔軟|じゅうなん}な (flexible), {無責任|むせきにん}な (irresponsible), {肥沃|ひよく}な (fertile)
+- **Nouns (20)**: {電子書籍|でんししょせき} (e-book), {金網|かなあみ} (wire mesh), {薄化粧|うすげしょう} (light makeup), {病床|びょうしょう} (sickbed), {協調性|きょうちょうせい} (cooperativeness), {関係者|かんけいしゃ} (person concerned), {怨恨|えんこん} (grudge), {全体像|ぜんたいぞう} (big picture), {撥水|はっすい} (water repellent), {行楽地|こうらくち} (tourist spot), {最新版|さいしんばん} (latest version), {山腹|さんぷく} (mountainside), {詳報|しょうほう} (detailed report), {健康維持|けんこういじ} (health maintenance), {中道|ちゅうどう} (centrism), {群舞|ぐんぶ} (group dance), {個体差|こたいさ} (individual variation), {逆転劇|ぎゃくてんげき} (dramatic comeback), {一網打尽|いちもうだじん} (wholesale roundup), {逆転負|ぎゃくてんま}け (come-from-behind loss)
+- **Nouns/suru verbs (5)**: {代用|だいよう} (substitution), {再確認|さいかくにん} (reconfirmation), {数値化|すうちか} (quantification), {再雇用|さいこよう} (re-employment), {定年退職|ていねんたいしょく} (mandatory retirement)
+- **Nouns (multi-sense) (2)**: {無風|むふう} (2: windless + uncontested), {一般道|いっぱんどう} (public road)
+
+Notable features:
+- Work/society: {協調性|きょうちょうせい}, {定年退職|ていねんたいしょく}, {再雇用|さいこよう}, {関係者|かんけいしゃ}, {無責任|むせきにん}な
+- Technology/modern: {電子書籍|でんししょせき}, {最新版|さいしんばん}, {数値化|すうちか}, {撥水|はっすい}
+- Sports/politics: {逆転劇|ぎゃくてんげき}, {逆転負|ぎゃくてんま}け, {中道|ちゅうどう}, {無風|むふう}
+- Nature/geography: {山腹|さんぷく}, {肥沃|ひよく}な
+- Four-character idiom: {一網打尽|いちもうだじん}
+- New kanji: 2,534 → 2,536 (撥, 沃)
+
+Total entries: ~16,482 → ~16,512 (approximate)
+Remaining candidates: ~3,296 → ~3,266 (30 removed)
 
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 421)
 Added 30 new dictionary entries (IDs 16403-16432) from candidate_words.json:
@@ -140,29 +159,6 @@ Notable features:
 
 Total entries: ~16,362 → ~16,392 (approximate)
 Remaining candidates: ~3,415 → ~3,385 (30 removed)
-
-### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 417)
-Added 30 new dictionary entries (IDs 16283-16312) from candidate_words.json:
-
-- **Nouns (17)**: {大好物|だいこうぶつ} (favorite food), {不平不満|ふへいふまん} (complaints), {明治維新|めいじいしん} (Meiji Restoration), {年貢|ねんぐ} (land tax), {古物商|こぶつしょう} (second-hand dealer), {質疑応答|しつぎおうとう} (Q&A session), {資産家|しさんか} (wealthy person), {聴診器|ちょうしんき} (stethoscope), {一級品|いっきゅうひん} (first-class goods), {貨物列車|かもつれっしゃ} (freight train), {凡作|ぼんさく} (mediocre work), {大道具|おおどうぐ} (stage set), {電子楽器|でんしがっき} (electronic instrument), ナムル (namul), {群雄|ぐんゆう} (rival warlords), {芸妓|げいぎ} (geisha), {遣唐使|けんとうし} (envoy to Tang China)
-- **Nouns/suru verbs (2)**: {中絶|ちゅうぜつ} (discontinuation/abortion), {表面化|ひょうめんか} (becoming apparent)
-- **Na-adjectives (2)**: {必要不可欠|ひつようふかけつ} (absolutely essential), {筋肉質|きんにくしつ} (muscular)
-- **Nouns/suru verb (1)**: {誹謗中傷|ひぼうちゅうしょう} (slander/defamation)
-- **Noun/suru verb (1)**: {真空|しんくう}パック (vacuum pack)
-- **Noun (1)**: {吸入器|きゅうにゅうき} (inhaler)
-- **Verb (1)**: {褒|ほ}めちぎる (to praise to the skies)
-- **Nouns (cultural) (3)**: {白拍子|しらびょうし} (Heian-era dancer), {隈取|くまど}り (kabuki makeup), マーマレード (marmalade)
-- **Expressions (2)**: {足|あし}を{延|の}ばす (to make a side trip), {身|み}の{丈|たけ}に{合|あ}う (within one's means)
-
-Notable features:
-- History/culture: {明治維新|めいじいしん}, {年貢|ねんぐ}, {遣唐使|けんとうし}, {白拍子|しらびょうし}, {隈取|くまど}り, {芸妓|げいぎ}, {群雄|ぐんゆう}
-- Medical: {聴診器|ちょうしんき}, {吸入器|きゅうにゅうき}, {中絶|ちゅうぜつ}
-- Modern society: {誹謗中傷|ひぼうちゅうしょう}, {表面化|ひょうめんか}, {古物商|こぶつしょう}
-- Food: {大好物|だいこうぶつ}, ナムル, マーマレード, {真空|しんくう}パック
-- Multi-sense: {中絶|ちゅうぜつ} (2: discontinuation + abortion)
-
-Total entries: ~16,332 → ~16,362 (approximate)
-Remaining candidates: ~3,445 → ~3,415 (30 removed)
 
 ---
 
