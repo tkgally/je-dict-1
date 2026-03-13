@@ -19,8 +19,9 @@
   "examples": [
     {
       "id": "06301_keiren_ex1",
-      "japanese": "{足|あし}が{痙攣|けいれん}して{動|うご}けない。",
-      "english": "My leg is cramping and I can't move.",
+      "japanese": "{足|あし}が{痙攣|けいれん}した。",
+      "english": "My leg cramped up.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -28,8 +29,9 @@
     },
     {
       "id": "06301_keiren_ex2",
-      "japanese": "{泳|およ}いでいる{時|とき}に{足|あし}が{痙攣|けいれん}した。",
-      "english": "My leg cramped while I was swimming.",
+      "japanese": "{目|め}の{周|まわ}りが{痙攣|けいれん}している。",
+      "english": "The area around my eye is twitching.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
@@ -37,6 +39,16 @@
     },
     {
       "id": "06301_keiren_ex3",
+      "japanese": "{泳|およ}いでいる{時|とき}に{足|あし}が{痙攣|けいれん}して{動|うご}けなくなった。",
+      "english": "My leg cramped while I was swimming and I couldn't move.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06301_keiren_ex4",
       "japanese": "{高熱|こうねつ}で{痙攣|けいれん}を{起|お}こした。",
       "english": "They had a convulsion due to high fever.",
       "notes": "{熱性|ねっせい}{痙攣|けいれん} = febrile seizure",
@@ -46,20 +58,30 @@
       ]
     },
     {
-      "id": "06301_keiren_ex4",
-      "japanese": "{目|め}の{周|まわ}りが{痙攣|けいれん}している。",
-      "english": "The area around my eye is twitching.",
-      "notes": "Minor eye twitching is also called {痙攣|けいれん}",
+      "id": "06301_keiren_ex5",
+      "japanese": "{子供|こども}が{痙攣|けいれん}したらすぐに{救急車|きゅうきゅうしゃ}を{呼|よ}んでください。",
+      "english": "If a child has a convulsion, please call an ambulance immediately.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
+      ]
+    },
+    {
+      "id": "06301_keiren_ex6",
+      "japanese": "{痙攣|けいれん}{発作|ほっさ}が{起|お}きたとき、{無理|むり}に{体|からだ}を{押|お}さえないようにする。",
+      "english": "When a seizure occurs, do not try to forcibly hold the person down.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
       ]
     }
   ],
   "notes": "MEDICAL TERM:\n{痙攣|けいれん} covers a range of involuntary muscle contractions from minor cramps to serious convulsions.\n\nTYPES:\n- {筋|きん}{痙攣|けいれん}: Muscle spasm/cramp\n- {熱性|ねっせい}{痙攣|けいれん}: Febrile seizure (in children with fever)\n- てんかん{発作|ほっさ}: Epileptic seizure\n\nCOMMON LOCATIONS:\n- {足|あし}: Leg (most common for exercise-related cramps)\n- {ふくらはぎ}: Calf (also called こむら{返|がえ}り)\n- {目|め}の{周|まわ}り: Around the eye (stress-related twitching)\n- {手|て}: Hand\n\nVERB USAGE:\n- {痙攣|けいれん}する: to have a spasm/convulsion\n- {痙攣|けいれん}を{起|お}こす: to have a convulsion/seizure\n\nCAUSES:\n- {運動|うんどう}: Exercise (muscle cramps)\n- {脱水|だっすい}: Dehydration\n- {電解質|でんかいしつ}{異常|いじょう}: Electrolyte imbalance\n- {疲労|ひろう}: Fatigue\n- {高熱|こうねつ}: High fever (especially in children)\n\nMEDICAL WARNING:\nIf convulsions are accompanied by loss of consciousness, last more than a few minutes, or occur repeatedly, seek emergency medical care.",
   "metadata": {
     "created": "2026-01-17T08:52:02Z",
-    "modified": "2026-01-19T12:17:44.329002Z",
+    "modified": "2026-03-13T00:48:46Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
