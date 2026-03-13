@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,573 |
+| Total entries | ~16,603 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,774 (open) |
-| Candidate words | ~3,205 |
+| General tier | ~13,804 (open) |
+| Candidate words | ~3,175 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,800 |
+| Example sentences | ~49,900 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 425)
+Added 30 new dictionary entries (IDs 16524-16553) from candidate_words.json:
+
+- **Nouns (13)**: {複合機|ふくごうき} (multi-function printer), {進入禁止|しんにゅうきんし} (no entry), {駐車券|ちゅうしゃけん} (parking ticket), {物損事故|ぶっそんじこ} (property damage accident), {奥地|おくち} (hinterland), {葉物|はもの} (leafy vegetables), {水産物|すいさんぶつ} (marine products), {軽傷|けいしょう} (minor injury), {接触不良|せっしょくふりょう} (loose connection), {取|と}り{合|あ}わせ (assortment), {電動自転車|でんどうじてんしゃ} (e-bike), {心|こころ}の{底|そこ} (bottom of one's heart), {五目寿司|ごもくずし} (mixed sushi)
+- **Nouns/suru verbs (5)**: {急速充電|きゅうそくじゅうでん} (rapid charging), {裏工作|うらこうさく} (backroom dealings), {組閣|そかく} (cabinet formation), {隠蔽工作|いんぺいこうさく} (cover-up), {補導|ほどう} (juvenile guidance)
+- **Nouns/pre-noun adjectivals (2)**: {家庭用|かていよう} (for home use), {体験型|たいけんがた} (hands-on)
+- **Nouns/adverbs (2)**: {世界一|せかいいち} (best in the world), {小粒|こつぶ} (small grain)
+- **Nouns/adjectives (1)**: {片手落|かたてお}ち (one-sided)
+- **Verbs (2)**: {垂|た}れ{流|なが}す (to discharge), {払|はら}い{戻|もど}す (to refund)
+- **Expressions (4)**: {暗礁|あんしょう}に{乗|の}り{上|あ}げる (to hit a snag), {影響|えいきょう}を{及|およ}ぼす (to exert influence), {差|さ}し{支|つか}えなければ (if you don't mind), それじゃあ (well then)
+- **Conjunction (1)**: それじゃあ (well then)
+
+Notable features:
+- Technology/modern life: {複合機|ふくごうき}, {急速充電|きゅうそくじゅうでん}, {電動自転車|でんどうじてんしゃ}, {接触不良|せっしょくふりょう}
+- Legal/news: {物損事故|ぶっそんじこ}, {裏工作|うらこうさく}, {隠蔽工作|いんぺいこうさく}, {補導|ほどう}, {組閣|そかく}
+- Daily life/food: {駐車券|ちゅうしゃけん}, {葉物|はもの}, {五目寿司|ごもくずし}, {水産物|すいさんぶつ}
+- Useful expressions: {差|さ}し{支|つか}えなければ, {影響|えいきょう}を{及|およ}ぼす, {暗礁|あんしょう}に{乗|の}り{上|あ}げる
+- Multi-sense: {垂|た}れ{流|なが}す (2: literal discharge + figurative spewing), {暗礁|あんしょう}に{乗|の}り{上|あ}げる (2: literal + figurative), {小粒|こつぶ} (2: size + figurative), それじゃあ (2: transitional + parting)
+
+Total entries: ~16,573 → ~16,603 (approximate)
+Remaining candidates: ~3,205 → ~3,175 (30 removed)
 
 ### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 424)
 Added 30 new dictionary entries (IDs 16493-16523) from candidate_words.json:
@@ -137,29 +159,6 @@ Notable features:
 
 Total entries: ~16,452 → ~16,482 (approximate)
 Remaining candidates: ~3,326 → ~3,296 (30 removed)
-
-### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 420)
-Added 30 new dictionary entries (IDs 16373-16402) from candidate_words.json:
-
-- **Nouns (17)**: {薬指|くすりゆび} (ring finger), {教頭|きょうとう} (vice-principal), {朝礼|ちょうれい} (morning assembly), {朝刊|ちょうかん} (morning newspaper), {凶器|きょうき} (weapon), {液晶|えきしょう} (LCD), {急流|きゅうりゅう} (rapid stream), {圏内|けんない} (within range), {筋力|きんりょく} (muscle strength), {冥福|めいふく} (rest in peace), {悪巧|わるだく}み (evil scheme), {平静|へいせい} (calm), {照|て}り (shine/glaze), {鎌|かま} (sickle), {隠|かく}れ{家|が} (hideaway), {生前|せいぜん} (during one's lifetime), {風評|ふうひょう} (rumor)
-- **Nouns/suru verbs (5)**: {駆除|くじょ} (extermination), {除外|じょがい} (exclusion), {離職|りしょく} (leaving one's job), {注視|ちゅうし} (close observation), {憶測|おくそく} (speculation)
-- **Nouns (multi-sense) (3)**: {上|のぼ}り{坂|ざか} (uphill/upward trend), {下|くだ}り{坂|ざか} (downhill/decline), {曲折|きょくせつ} (twists/complications)
-- **Noun/na-adjective (1)**: {平静|へいせい} (calm)
-- **Noun (person) (1)**: {幹事|かんじ} (organizer)
-- **Adverb (1)**: {気長|きなが}に (patiently)
-- **Expression (1)**: {凛|りん}とした (dignified/crisp)
-- **Noun (food/weather) (1)**: {照|て}り (shine/glaze)
-
-Notable features:
-- Multi-sense: {上|のぼ}り{坂|ざか} (2: physical + figurative), {下|くだ}り{坂|ざか} (2: physical + figurative), {隠|かく}れ{家|が} (2: hideout + hidden-gem restaurant), {凛|りん}とした (2: dignified + crisp air), {曲折|きょくせつ} (2: physical bends + complications), {照|て}り (2: sunshine + food glaze)
-- Work/school culture: {幹事|かんじ}, {朝礼|ちょうれい}, {教頭|きょうとう}, {離職|りしょく}
-- Formal/news: {注視|ちゅうし}, {風評|ふうひょう}, {憶測|おくそく}, {除外|じょがい}
-- Daily life: {薬指|くすりゆび}, {朝刊|ちょうかん}, {液晶|えきしょう}, {下取|したど}り, {筋力|きんりょく}
-- Cultural: {冥福|めいふく} (Buddhist condolence), {生前|せいぜん} (end-of-life culture), {鎌|かま} (traditional farming)
-- New kanji: 2,531 → 2,533 (冥, 鎌)
-
-Total entries: ~16,422 → ~16,452 (approximate)
-Remaining candidates: ~3,356 → ~3,326 (30 removed)
 
 ---
 

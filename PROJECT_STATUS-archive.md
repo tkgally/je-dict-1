@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 420)
+Added 30 new dictionary entries (IDs 16373-16402) from candidate_words.json:
+
+- **Nouns (17)**: {薬指|くすりゆび} (ring finger), {教頭|きょうとう} (vice-principal), {朝礼|ちょうれい} (morning assembly), {朝刊|ちょうかん} (morning newspaper), {凶器|きょうき} (weapon), {液晶|えきしょう} (LCD), {急流|きゅうりゅう} (rapid stream), {圏内|けんない} (within range), {筋力|きんりょく} (muscle strength), {冥福|めいふく} (rest in peace), {悪巧|わるだく}み (evil scheme), {平静|へいせい} (calm), {照|て}り (shine/glaze), {鎌|かま} (sickle), {隠|かく}れ{家|が} (hideaway), {生前|せいぜん} (during one's lifetime), {風評|ふうひょう} (rumor)
+- **Nouns/suru verbs (5)**: {駆除|くじょ} (extermination), {除外|じょがい} (exclusion), {離職|りしょく} (leaving one's job), {注視|ちゅうし} (close observation), {憶測|おくそく} (speculation)
+- **Nouns (multi-sense) (3)**: {上|のぼ}り{坂|ざか} (uphill/upward trend), {下|くだ}り{坂|ざか} (downhill/decline), {曲折|きょくせつ} (twists/complications)
+- **Noun/na-adjective (1)**: {平静|へいせい} (calm)
+- **Noun (person) (1)**: {幹事|かんじ} (organizer)
+- **Adverb (1)**: {気長|きなが}に (patiently)
+- **Expression (1)**: {凛|りん}とした (dignified/crisp)
+- **Noun (food/weather) (1)**: {照|て}り (shine/glaze)
+
+Total entries: ~16,422 → ~16,452 (approximate)
+Remaining candidates: ~3,356 → ~3,326 (30 removed)
+
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 419)
 Added 30 new dictionary entries (IDs 16343-16372) from candidate_words.json:
 
