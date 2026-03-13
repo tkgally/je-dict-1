@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 419)
+Added 30 new dictionary entries (IDs 16343-16372) from candidate_words.json:
+
+- **Nouns (14)**: {崖|がけ}っぷち (cliff edge/critical moment), {仕送|しおく}り (allowance), {大西洋|たいせいよう} (Atlantic Ocean), {絶好調|ぜっこうちょう} (peak condition), {博士号|はくしごう} (doctorate), {歓待|かんたい} (hospitality), {一人前|ひとりまえ} (one serving/full-fledged), お{手伝|てつだ}いさん (housekeeper), {皇后|こうごう} (empress), {生中継|なまちゅうけい} (live broadcast), {長話|ながばなし} (long chat), {耳|みみ}かき (ear pick), {空洞|くうどう} (hollow/cavity), {多数決|たすうけつ} (majority vote)
+- **Verbs (4)**: でっち{上|あ}げる (to fabricate), {見受|みう}ける (to observe), {勘繰|かんぐ}る (to be suspicious), {吹|ふ}き{抜|ぬ}ける (to blow through)
+- **Adjective (1)**: {面倒臭|めんどうくさ}い (bothersome)
+- **Adverbs (2)**: {依然|いぜん}として (still/as before), カサカサ (dry/rustling)
+- **Nouns (other) (6)**: {坊|ぼ}っちゃん (young boy/pampered boy), {造詣|ぞうけい} (deep knowledge), {隅|すみ}っこ (corner), {短絡|たんらく} (short circuit/hasty reasoning), {同封|どうふう} (enclosure), {疾患|しっかん} (disease)
+- **Expression (1)**: {筋|すじ}が{通|とお}る (to make sense)
+- **Noun (literary) (1)**: {最果|さいは}て (farthest reaches)
+- **Noun (formal) (1)**: {造詣|ぞうけい} (deep knowledge)
+
+Notable features:
+- Good POS variety: nouns, verbs, adjective, adverbs, expression, onomatopoeia
+- Multi-sense: {崖|がけ}っぷち (2: physical + figurative), {一人前|ひとりまえ} (2: serving + full-fledged), {坊|ぼ}っちゃん (2: polite + spoiled), {空洞|くうどう} (2: physical + figurative), {短絡|たんらく} (2: electrical + reasoning), カサカサ (2: dry + rustling), {耳|みみ}かき (2: tool + act)
+- Formal/literary: {依然|いぜん}として, {見受|みう}ける, {造詣|ぞうけい}, {同封|どうふう}, {歓待|かんたい}, {疾患|しっかん}
+- Daily life: {面倒臭|めんどうくさ}い, {隅|すみ}っこ, {耳|みみ}かき, カサカサ, {仕送|しおく}り
+- New kanji: 2,530 → 2,531 (后)
+
+Total entries: ~16,392 → ~16,422 (approximate)
+Remaining candidates: ~3,385 → ~3,356 (29 removed)
+
 ### 2026-03-11 (Vocabulary Expansion - 30 New Entries, Session 416)
 Added 30 new dictionary entries (IDs 16253-16282) from candidate_words.json:
 
