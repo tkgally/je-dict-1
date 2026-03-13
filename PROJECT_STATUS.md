@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,542 |
+| Total entries | ~16,573 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,743 (open) |
-| Candidate words | ~3,236 |
+| General tier | ~13,774 (open) |
+| Candidate words | ~3,205 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,700 |
+| Example sentences | ~49,800 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 424)
+Added 30 new dictionary entries (IDs 16493-16523) from candidate_words.json:
+
+- **Nouns (14)**: {麦茶|むぎちゃ} (barley tea), {玄米茶|げんまいちゃ} (brown rice tea), {隅々|すみずみ} (every nook and cranny), {秘境|ひきょう} (unexplored region), {連歌|れんが} (linked verse), {料理長|りょうりちょう} (head chef), {領空|りょうくう} (territorial airspace), {伴走者|ばんそうしゃ} (guide runner), {大衆文学|たいしゅうぶんがく} (popular fiction), {古代文明|こだいぶんめい} (ancient civilization), {蔵造|くらづく}り (warehouse architecture), {蔵屋敷|くらやしき} (domain warehouse), {避暑地|ひしょち} (summer resort), {発酵食品|はっこうしょくひん} (fermented food)
+- **Nouns/suru verbs (6)**: {訂正|ていせい} (correction), {窒息|ちっそく} (suffocation), {逆上|ぎゃくじょう} (frenzy), {増水|ぞうすい} (rising water), {溺愛|できあい} (doting), {搬入|はんにゅう} (carrying in)
+- **Nouns/suru verbs (2)**: {都落|みやこお}ち (fleeing the capital), {一気飲|いっきの}み (chugging)
+- **Noun/suru verb (special) (2)**: {突|つ}き{指|ゆび} (jammed finger), お{試|ため}し{期間|きかん} (trial period)
+- **Noun (compound) (3)**: {就職氷河期|しゅうしょくひょうがき} (employment ice age), {千秋楽|せんしゅうらく} (final day), {限界集落|げんかいしゅうらく} (dying village)
+- **Cultural (2)**: {端午|たんご}の{節句|せっく} (Boys' Day), {桃|もも}の{節句|せっく} (Girls' Day)
+- **Expression (1)**: {愛想|あいそ}がいい (amiable)
+- **Food culture (1)**: {幕の内弁当|まくのうちべんとう} (traditional boxed lunch)
+
+Notable features:
+- Food/drink: {麦茶|むぎちゃ}, {玄米茶|げんまいちゃ}, {発酵食品|はっこうしょくひん}, {幕の内弁当|まくのうちべんとう}, {一気飲|いっきの}み, {料理長|りょうりちょう}
+- Japanese culture: {千秋楽|せんしゅうらく}, {端午|たんご}の{節句|せっく}, {桃|もも}の{節句|せっく}, {連歌|れんが}, {蔵造|くらづく}り, {蔵屋敷|くらやしき}
+- Society: {就職氷河期|しゅうしょくひょうがき}, {限界集落|げんかいしゅうらく}, {大衆文学|たいしゅうぶんがく}
+- Safety/medical: {窒息|ちっそく}, {逆上|ぎゃくじょう}, {突|つ}き{指|ゆび}
+- Geography/travel: {秘境|ひきょう}, {避暑地|ひしょち}, {領空|りょうくう}
+- Multi-sense: {伴走者|ばんそうしゃ} (2: guide runner + supportive companion)
+
+Total entries: ~16,542 → ~16,573 (approximate)
+Remaining candidates: ~3,236 → ~3,205 (31 removed)
 
 ### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 423)
 Added 30 new dictionary entries (IDs 16463-16492) from candidate_words.json:
@@ -137,28 +160,6 @@ Notable features:
 
 Total entries: ~16,422 → ~16,452 (approximate)
 Remaining candidates: ~3,356 → ~3,326 (30 removed)
-
-### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 419)
-Added 30 new dictionary entries (IDs 16343-16372) from candidate_words.json:
-
-- **Nouns (14)**: {崖|がけ}っぷち (cliff edge/critical moment), {仕送|しおく}り (allowance), {大西洋|たいせいよう} (Atlantic Ocean), {絶好調|ぜっこうちょう} (peak condition), {博士号|はくしごう} (doctorate), {歓待|かんたい} (hospitality), {一人前|ひとりまえ} (one serving/full-fledged), お{手伝|てつだ}いさん (housekeeper), {皇后|こうごう} (empress), {生中継|なまちゅうけい} (live broadcast), {長話|ながばなし} (long chat), {耳|みみ}かき (ear pick), {空洞|くうどう} (hollow/cavity), {多数決|たすうけつ} (majority vote)
-- **Verbs (4)**: でっち{上|あ}げる (to fabricate), {見受|みう}ける (to observe), {勘繰|かんぐ}る (to be suspicious), {吹|ふ}き{抜|ぬ}ける (to blow through)
-- **Adjective (1)**: {面倒臭|めんどうくさ}い (bothersome)
-- **Adverbs (2)**: {依然|いぜん}として (still/as before), カサカサ (dry/rustling)
-- **Nouns (other) (6)**: {坊|ぼ}っちゃん (young boy/pampered boy), {造詣|ぞうけい} (deep knowledge), {隅|すみ}っこ (corner), {短絡|たんらく} (short circuit/hasty reasoning), {同封|どうふう} (enclosure), {疾患|しっかん} (disease)
-- **Expression (1)**: {筋|すじ}が{通|とお}る (to make sense)
-- **Noun (literary) (1)**: {最果|さいは}て (farthest reaches)
-- **Noun (formal) (1)**: {造詣|ぞうけい} (deep knowledge)
-
-Notable features:
-- Good POS variety: nouns, verbs, adjective, adverbs, expression, onomatopoeia
-- Multi-sense: {崖|がけ}っぷち (2: physical + figurative), {一人前|ひとりまえ} (2: serving + full-fledged), {坊|ぼ}っちゃん (2: polite + spoiled), {空洞|くうどう} (2: physical + figurative), {短絡|たんらく} (2: electrical + reasoning), カサカサ (2: dry + rustling), {耳|みみ}かき (2: tool + act)
-- Formal/literary: {依然|いぜん}として, {見受|みう}ける, {造詣|ぞうけい}, {同封|どうふう}, {歓待|かんたい}, {疾患|しっかん}
-- Daily life: {面倒臭|めんどうくさ}い, {隅|すみ}っこ, {耳|みみ}かき, カサカサ, {仕送|しおく}り
-- New kanji: 2,530 → 2,531 (后)
-
-Total entries: ~16,392 → ~16,422 (approximate)
-Remaining candidates: ~3,385 → ~3,356 (29 removed)
 
 ---
 
