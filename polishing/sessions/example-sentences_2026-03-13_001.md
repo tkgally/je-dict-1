@@ -1,36 +1,41 @@
 ## Session: Example Sentences
 Date: 2026-03-13
-Entries checked: 06280-06359
+Entries checked: 06420-06479
 
 ### Changes Made
-- [06284]: Insufficient count - sense 1 had 2/3, sense 2 had 2/3; added examples, reordered by sense
-- [06285]: Insufficient count - sense 1 had 2/3, sense 2 had 2/3; added examples, added missing notes:null
-- [06286]: Insufficient count - sense 1 had 2/3, sense 2 had 2/3; added examples, reordered by sense
-- [06287]: Insufficient count - sense 1 had 1/3; added 2 examples for sense 1
-- [06288]: Insufficient count - sense 1 had 1/3; added 2 examples for sense 1
-- [06289]: Insufficient count - sense 1 had 2/3, sense 2 had 2/3; added examples, added missing notes:null
-- [06297]: Insufficient count - sense 2 had 1/3; added 2 examples for sense 2, split original long ex1
-- [06301]: Insufficient count - sense 2 had 1/3; added 2 examples for sense 2, reordered
-- [06304]: Insufficient count - sense 2 had 1/3; added 2 examples for sense 2 (handprint)
-- [06309]: Insufficient count - 3 senses all below minimum (2/1/1); added 5 examples total
-- [06313]: Insufficient count - sense 1 had 2/3, sense 2 had 1/3; added 3 examples total
-- [06331]: Insufficient count - 3 senses (2/1/0); added 6 examples, now 3 per sense
-- [06342]: Insufficient count - sense 1 had 2/3, sense 2 had 1/3; added 3 examples total
-- [06343]: Insufficient count (core) - had 3/5; added 2 examples
-- [06344]: Insufficient count - sense 1 had 1/3, sense 2 had 2/3; added 3 examples total
-- [06346]: Insufficient count (core) - sense 1 had 2/5, sense 2 had 1/5; expanded to 5+5
-- [06353]: Insufficient count - sense 1 had 2/3, sense 2 had 1/3; added 3 examples total
-- [06355]: Insufficient count - sense 1 had 2/3, sense 2 had 1/3; added 3 examples total
-- [06356]: Insufficient count - sense 1 had 1/3, sense 2 had 2/3; added 3 examples total
-- [06357]: Insufficient count - sense 1 had 2/3, sense 2 had 1/3; added 3 examples total
-- [06359]: Insufficient count - sense 2 had 1/3; added 2 examples for sense 2 (waterspout)
+
+**Core tier entries — insufficient count (added to meet 5/sense minimum):**
+- 06437_ninoude: Rewrote ex1-2 for basic+core vocab compliance, added ex4-5 (3→5 examples)
+- 06438_tenokou: Rewrote ex1-2 for basic+core vocab compliance, added ex4-5 (3→5 examples)
+- 06453_buka: Rewrote ex1-2 for basic+core vocab compliance, added ex4-5 (3→5 examples)
+- 06456_kareshi: Reordered for progression, added ex4-5 (3→5 examples)
+
+**Multi-sense entries — insufficient per-sense coverage:**
+- 06439_keiri (2 senses): Added 3 examples (3→6 total, now 3/sense)
+- 06440_taimurain (2 senses): Added 3 examples (3→6 total, now 3/sense)
+- 06443_anarogu (2 senses): Added 3 examples (3→6 total, now 3/sense)
+- 06444_nagesen (2 senses): Added 3 examples (3→6 total, now 3/sense)
+- 06445_bushuugi (2 senses): Added 3 examples (3→6 total, now 3/sense)
+- 06447_enchou (3 senses): Added 5 examples (4→9 total, now 3/sense)
+- 06448_meisai (2 senses): Added 2 examples (3→5 total, now 3/sense)
+- 06463_hitoe (2 senses): Added 3 examples (3→6 total, now 3/sense)
+- 06464_futae (2 senses): Added 3 examples (3→6 total, now 3/sense)
+
+**Progression fixes:**
+- 06431_kachiku: Rewrote ex3 (was 7 chars, now 22 chars)
+- 06435_kyouki: Reordered and expanded ex3 for better progression
+- 06467_otesuu: Reordered examples (10→15→18)
+- 06476_gamenkyouyuu: Reordered examples (11→16→26)
+
+**Core tier vocabulary compliance fixes:**
+- 06437_ninoude: ex1 used 細い (general), ex2 used たるみ (unlisted) → rewrote with basic/core vocab
+- 06438_tenokou: ex1 used 塗る (general), ex2 used 拭く (general) → rewrote with basic/core vocab
+- 06453_buka: ex1 used 指導/管理職 (general), ex2 used 信頼/関係 (general) → rewrote with basic/core vocab
 
 ### Summary
-- Entries checked: 80 (06280-06359)
-- Entries modified: 21
-- Entries passing: 59
-- Primary issue: Multi-sense entries with insufficient examples per sense
-- Two core-tier entries fixed (06343, 06346) requiring 5 examples per sense
+- Entries checked: 60 (06420-06479)
+- Entries modified: 17
+- Issues found: insufficient per-sense counts (13), vocabulary tier violations (3), poor length progression (4)
 
 ### Next Entry
-06360
+06480
