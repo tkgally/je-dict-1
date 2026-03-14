@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,693 |
+| Total entries | ~16,738 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,894 (open) |
-| Candidate words | ~3,086 |
+| General tier | ~13,939 (open) |
+| Candidate words | ~3,041 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 428)
+Added 45 new dictionary entries (IDs 16644-16688) from candidate_words.json:
+
+- **Nouns (28)**: {源氏|げんじ} (Genji clan), {遊女|ゆうじょ} (courtesan), {連用形|れんようけい} (continuative form), {玩具|がんぐ} (toy, formal), {日系企業|にっけいきぎょう} (Japanese company overseas), {上水道|じょうすいどう} (water supply), {一党|いっとう} (faction), {中間報告|ちゅうかんほうこく} (interim report), {収容人数|しゅうようにんずう} (capacity), {潜伏期間|せんぷくきかん} (incubation period), {直流|ちょくりゅう} (direct current), {教材費|きょうざいひ} (teaching materials cost), {自己推薦|じこすいせん} (self-recommendation), {広告媒体|こうこくばいたい} (advertising medium), {酸素|さんそ}ボンベ (oxygen tank), {事務机|じむづくえ} (office desk), {学習机|がくしゅうづくえ} (study desk), {月度|げつど} (monthly period), {本籍地|ほんせきち} (registered domicile), {種本|たねほん} (source book), {指導案|しどうあん} (lesson plan), {豆電球|まめでんきゅう} (miniature bulb), {氷菓子|こおりがし} (frozen treat), {湯沸|ゆわ}かし{器|き} (water heater), {話題作|わだいづく}り (creating buzz), {格助詞|かくじょし} (case particle), {産学連携|さんがくれんけい} (industry-academia), {聖徳太子|しょうとくたいし} (Prince Shotoku)
+- **Nouns (business pair)**: {小売業|こうりぎょう} (retail trade), {卸売業|おろしうりぎょう} (wholesale trade)
+- **Nouns (speed pair)**: {秒速|びょうそく} (per second), {分速|ふんそく} (per minute)
+- **Nouns (other)**: {一昨日|いっさくじつ} (day before yesterday, formal), {愛想笑|あいそわら}い (forced smile), {暇|ひま}つぶし (killing time), {一時間半|いちじかんはん} (hour and a half)
+- **Nouns/no-adj (3)**: {粒状|りゅうじょう} (granular), {煎|い}り{立|た}て (freshly roasted), {防|ぼう}カビ (anti-mold)
+- **Na-adjective/noun (1)**: {爆安|ばくやす} (dirt cheap)
+- **Pre-noun adjectival (1)**: {適|てき}した (suitable)
+- **Adverbs (2)**: ああして (like that), {年々歳々|ねんねんさいさい} (year after year)
+- **Verb (1)**: {見向|みむ}く (to look toward)
+- **Noun (historical) (1)**: どん{尻|じり} (dead last)
+
+Notable features:
+- Multi-sense: {源氏|げんじ} (2: Minamoto clan + Tale of Genji)
+- Grammar/linguistics: {連用形|れんようけい}, {格助詞|かくじょし}
+- Historical/cultural: {聖徳太子|しょうとくたいし}, {源氏|げんじ}, {遊女|ゆうじょ}
+- Modern life: {爆安|ばくやす}, {日系企業|にっけいきぎょう}, {話題作|わだいづく}り
+- Paired entries: {小売業|こうりぎょう}/{卸売業|おろしうりぎょう}, {秒速|びょうそく}/{分速|ふんそく}, {事務机|じむづくえ}/{学習机|がくしゅうづくえ}
+- New kanji: 2,543 → 2,544 (玩)
+
+Total entries: ~16,693 → ~16,738 (approximate)
+Remaining candidates: ~3,086 → ~3,041 (45 removed)
 
 ### 2026-03-14 (Vocabulary Expansion - 60 New Entries, Session 427)
 Added 60 new dictionary entries (IDs 16584-16643) from candidate_words.json:
@@ -142,29 +167,6 @@ Notable features:
 
 Total entries: ~16,542 → ~16,573 (approximate)
 Remaining candidates: ~3,236 → ~3,205 (31 removed)
-
-### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 423)
-Added 30 new dictionary entries (IDs 16463-16492) from candidate_words.json:
-
-- **Nouns (16)**: {注意報|ちゅういほう} (advisory), {新刊|しんかん} (new publication), {千鳥足|ちどりあし} (drunken stagger), {悩|なや}み{事|ごと} (troubles), {喉越|のどご}し (mouthfeel), {飾|かざ}り{物|もの} (ornament), {食費|しょくひ} (food expenses), {生演奏|なまえんそう} (live performance), {植物園|しょくぶつえん} (botanical garden), {鮮魚|せんぎょ} (fresh fish), {煮魚|にざかな} (simmered fish), {凶作|きょうさく} (bad harvest), {観光名所|かんこうめいしょ} (tourist attraction), {加工品|かこうひん} (processed goods), {路面|ろめん} (road surface), {宿泊施設|しゅくはくしせつ} (lodging)
-- **Nouns/suru verbs (5)**: {驚嘆|きょうたん} (amazement), {決議|けつぎ} (resolution), {節税|せつぜい} (tax saving), {避暑|ひしょ} (summer retreat), {竣工|しゅんこう} (construction completion)
-- **Nouns (multi-sense) (3)**: {筋書|すじが}き (2: plot + scenario), {飾|かざ}り{物|もの} (2: decoration + figurehead), {歪|ひず}み (2: physical strain + social strain)
-- **Noun/suru verb (2)**: {思案|しあん} (pondering), {仮住|かりず}まい (temporary residence)
-- **Adverb (1)**: {一向|いっこう}に (not at all)
-- **Verb (1)**: {捻|ね}じれる (to be twisted)
-- **Expression (1)**: {体調|たいちょう}を{崩|くず}す (to fall ill)
-- **Noun/adjective (1)**: {蝶結|ちょうむす}び (bowknot)
-
-Notable features:
-- Food/drink: {喉越|のどご}し, {鮮魚|せんぎょ}, {煮魚|にざかな}, {加工品|かこうひん}, {食費|しょくひ}
-- Travel/places: {観光名所|かんこうめいしょ}, {宿泊施設|しゅくはくしせつ}, {避暑|ひしょ}, {植物園|しょくぶつえん}
-- Infrastructure: {路面|ろめん}, {竣工|しゅんこう}
-- Daily life: {悩|なや}み{事|ごと}, {蝶結|ちょうむす}び, {仮住|かりず}まい, {体調|たいちょう}を{崩|くず}す
-- Formal/political: {決議|けつぎ}, {捻|ね}じれる (twisted Diet), {驚嘆|きょうたん}
-- New kanji: 2,536 → 2,537 (竣)
-
-Total entries: ~16,512 → ~16,542 (approximate)
-Remaining candidates: ~3,266 → ~3,236 (30 removed)
 
 ---
 
