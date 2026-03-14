@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-13
+**Last updated**: 2026-03-14
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,603 |
+| Total entries | ~16,633 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,804 (open) |
-| Candidate words | ~3,175 |
+| General tier | ~13,834 (open) |
+| Candidate words | ~3,145 |
 | Cross-references | ~3,400 |
-| Example sentences | ~49,900 |
+| Example sentences | ~50,000 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-14 (Vocabulary Expansion - 30 New Entries, Session 426)
+Added 30 new dictionary entries (IDs 16554-16583) from candidate_words.json:
+
+- **Nouns (11)**: {読者|どくしゃ} (reader), {青少年|せいしょうねん} (youth), {体型|たいけい} (body type), {接続詞|せつぞくし} (conjunction), {専業主婦|せんぎょうしゅふ} (full-time housewife), {目論見|もくろみ} (plan/scheme), {結|むす}び{目|め} (knot), {一苦労|ひとくろう} (quite a struggle), {配信者|はいしんしゃ} (streamer), {要所|ようしょ} (key point), {脱字|だつじ} (omitted character)
+- **Nouns/suru verbs (6)**: {中毒|ちゅうどく} (poisoning/addiction), {登校|とうこう} (attending school), {視察|しさつ} (inspection), {徴収|ちょうしゅう} (collection/levy), {嗚咽|おえつ} (sobbing), {黙殺|もくさつ} (ignoring)
+- **Nouns/na-adj (2)**: スケベ (lewd/pervert), {軽微|けいび} (slight/minor)
+- **Nouns/suru verbs + na-adj (1)**: {懇談|こんだん} (informal talk)
+- **Adverbs (5)**: {着々|ちゃくちゃく}と (steadily), {必死|ひっし}に (desperately), {一気|いっき}に (in one go), {順次|じゅんじ} (sequentially), ひょっこり (unexpectedly)
+- **Nouns (special) (2)**: {小悪魔|こあくま} (flirtatious person), {口止|くちど}め (silencing)
+- **Verbs (2)**: {締|し}め{付|つ}ける (to tighten), {澄|す}ます (to clear/strain)
+- **Expression (1)**: おやすみなさい (good night)
+
+Notable features:
+- Diverse POS coverage: nouns, verbs, adverbs, adjectives, expressions
+- Multi-sense: {中毒|ちゅうどく} (2: poisoning + addiction), {一気|いっき}に (2: in one go + suddenly), {締|し}め{付|つ}ける (2: physical + figurative), {澄|す}ます (2: strain senses + look composed), スケベ (2: noun + adjective), {小悪魔|こあくま} (2: literal + figurative)
+- Modern vocabulary: {配信者|はいしんしゃ} (streamer/content creator)
+- Grammar term: {接続詞|せつぞくし}
+- New kanji: 2,537 → 2,539 (咽, 嗚)
+
+Total entries: ~16,603 → ~16,633 (approximate)
+Remaining candidates: ~3,175 → ~3,145 (30 removed)
 
 ### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 425)
 Added 30 new dictionary entries (IDs 16524-16553) from candidate_words.json:
@@ -137,28 +159,6 @@ Notable features:
 
 Total entries: ~16,482 → ~16,512 (approximate)
 Remaining candidates: ~3,296 → ~3,266 (30 removed)
-
-### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 421)
-Added 30 new dictionary entries (IDs 16403-16432) from candidate_words.json:
-
-- **Nouns (18)**: {野次馬|やじうま} (onlooker), {評論家|ひょうろんか} (critic), {新書|しんしょ} (pocket-sized book), {山積|やまづ}み (huge pile), {物腰|ものごし} (demeanor), {幼虫|ようちゅう} (larva), {絶壁|ぜっぺき} (precipice), {厚化粧|あつげしょう} (heavy makeup), {無駄話|むだばなし} (idle talk), {帰宅部|きたくぶ} (go-home club), {月謝|げっしゃ} (monthly tuition), {爪先|つまさき} (tiptoe), {天袋|てんぶくろ} (overhead cupboard), {鏡台|きょうだい} (dressing table), {画廊|がろう} (art gallery), {好感|こうかん} (good impression), {荒天|こうてん} (stormy weather), {焼香|しょうこう} (burning incense)
-- **Nouns/suru verbs (3)**: {減点|げんてん} (deducting points), {戦慄|せんりつ} (shudder), {大歓迎|だいかんげい} (warm welcome)
-- **Nouns (multi-sense) (3)**: {担任|たんにん} (homeroom teacher/person in charge), {修羅|しゅら} (carnage/Asura), {不意打|ふいう}ち (surprise attack)
-- **Noun/na-adjective (2)**: {不条理|ふじょうり} (absurdity), {謙譲|けんじょう} (humility)
-- **Adjective-i (2)**: {物珍|ものめずら}しい (novel/curious), {計算高|けいさんだか}い (calculating)
-- **Adverb (1)**: さながら (just like)
-- **Verb (1)**: {言|い}い{返|かえ}す (to talk back)
-
-Notable features:
-- School/education: {担任|たんにん}, {帰宅部|きたくぶ}, {月謝|げっしゃ}, {減点|げんてん}
-- Culture: {焼香|しょうこう} (Buddhist funerals), {新書|しんしょ} (publishing format), {鏡台|きょうだい} (traditional furniture)
-- Literary/formal: さながら, {戦慄|せんりつ}, {修羅|しゅら}, {謙譲|けんじょう}, {荒天|こうてん}
-- Daily life: {爪先|つまさき}, {厚化粧|あつげしょう}, {無駄話|むだばなし}, {野次馬|やじうま}
-- Multi-sense: {担任|たんにん} (2), {修羅|しゅら} (2), {大歓迎|だいかんげい} (2)
-- New kanji: 2,533 → 2,534 (慄)
-
-Total entries: ~16,452 → ~16,482 (approximate)
-Remaining candidates: ~3,326 → ~3,296 (30 removed)
 
 ---
 

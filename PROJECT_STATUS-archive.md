@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 421)
+Added 30 new dictionary entries (IDs 16403-16432) from candidate_words.json:
+
+- **Nouns (18)**: {野次馬|やじうま} (onlooker), {評論家|ひょうろんか} (critic), {新書|しんしょ} (pocket-sized book), {山積|やまづ}み (huge pile), {物腰|ものごし} (demeanor), {幼虫|ようちゅう} (larva), {絶壁|ぜっぺき} (precipice), {厚化粧|あつげしょう} (heavy makeup), {無駄話|むだばなし} (idle talk), {帰宅部|きたくぶ} (go-home club), {月謝|げっしゃ} (monthly tuition), {爪先|つまさき} (tiptoe), {天袋|てんぶくろ} (overhead cupboard), {鏡台|きょうだい} (dressing table), {画廊|がろう} (art gallery), {好感|こうかん} (good impression), {荒天|こうてん} (stormy weather), {焼香|しょうこう} (burning incense)
+- **Nouns/suru verbs (3)**: {減点|げんてん} (deducting points), {戦慄|せんりつ} (shudder), {大歓迎|だいかんげい} (warm welcome)
+- **Nouns (multi-sense) (3)**: {担任|たんにん} (homeroom teacher/person in charge), {修羅|しゅら} (carnage/Asura), {不意打|ふいう}ち (surprise attack)
+- **Noun/na-adjective (2)**: {不条理|ふじょうり} (absurdity), {謙譲|けんじょう} (humility)
+- **Adjective-i (2)**: {物珍|ものめずら}しい (novel/curious), {計算高|けいさんだか}い (calculating)
+- **Adverb (1)**: さながら (just like)
+- **Verb (1)**: {言|い}い{返|かえ}す (to talk back)
+
+Total entries: ~16,452 → ~16,482 (approximate)
+Remaining candidates: ~3,326 → ~3,296 (30 removed)
+
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 420)
 Added 30 new dictionary entries (IDs 16373-16402) from candidate_words.json:
 
