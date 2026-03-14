@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 432)
+Added 45 new dictionary entries (IDs 16825-16869) from candidate_words.json:
+
+- **Adjectives (i-adj, 6)**: {子供|こども}っぽい (childish), {胡散臭|うさんくさ}い (shady), {重苦|おもぐる}しい (oppressive), {注意深|ちゅういぶか}い (careful), {湿|しめ}っぽい (damp/gloomy), {流暢|りゅうちょう} (fluent)
+- **Adjectives (na-adj, 7)**: {理性的|りせいてき} (rational), {非力|ひりき} (powerless), {意図的|いとてき} (intentional), {好都合|こうつごう} (convenient), {不公平|ふこうへい} (unfair), {内気|うちき} (shy), {優柔不断|ゆうじゅうふだん} (indecisive)
+- **Nouns (17)**: {洗脳|せんのう} (brainwashing), {全額|ぜんがく} (full amount), {片思|かたおも}い (unrequited love), {絶景|ぜっけい} (superb view), {万引|まんび}き (shoplifting), {悪影響|あくえいきょう} (bad influence), {古典的|こてんてき} (classical), {鳴|な}き{声|ごえ} (animal cry), {節目|ふしめ} (turning point), {敵意|てきい} (hostility), {駄作|ださく} (poor work), {等身大|とうしんだい} (life-size), {靴紐|くつひも} (shoelace), {運動靴|うんどうぐつ} (sneakers), {朝型|あさがた} (morning person), {見頃|みごろ} (peak viewing season), {梅酒|うめしゅ} (plum wine)
+- **Adverbs (4)**: {心|こころ}から (sincerely), いずれも (all/any of them), {不意|ふい}に (unexpectedly), {反射的|はんしゃてき} (reflexively)
+- **Suru verbs (4)**: {精進|しょうじん}する (to devote oneself), お{参|まい}り (shrine visit), {勧誘|かんゆう} (solicitation), {挙手|きょしゅ} (show of hands)
+- **Other (7)**: おもてなし (hospitality), お{粥|かゆ} (rice porridge), まなざし (gaze), {故意|こい} (intent), {寒|さむ}がり (cold-sensitive person), {暑|あつ}がり (heat-sensitive person), {自撮|じど}り (selfie)
+
+Notable features:
+- Multi-sense: {湿|しめ}っぽい (2: damp + gloomy), {古典的|こてんてき} (2: classical + old-fashioned), {等身大|とうしんだい} (2: life-size + authentic)
+- Antonym pair: {寒|さむ}がり/{暑|あつ}がり
+- Cultural: おもてなし, お{参|まい}り, {梅酒|うめしゅ}, お{粥|かゆ}, {見頃|みごろ}
+- Modern: {自撮|じど}り, {洗脳|せんのう}, {朝型|あさがた}
+- Four-character compound: {優柔不断|ゆうじゅうふだん}
+- New kanji: 2,544 → 2,545 (暢)
+
+Total entries: ~16,874 → ~16,919 (approximate)
+Remaining candidates: ~2,905 → ~2,860 (45 removed)
+
 ### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 431)
 Added 45 new dictionary entries (IDs 16779-16824) from candidate_words.json:
 
@@ -148,31 +169,6 @@ Notable features:
 
 Total entries: ~16,693 → ~16,738 (approximate)
 Remaining candidates: ~3,086 → ~3,041 (45 removed)
-
-### 2026-03-14 (Vocabulary Expansion - 60 New Entries, Session 427)
-Added 60 new dictionary entries (IDs 16584-16643) from candidate_words.json:
-
-- **Nouns (30)**: マドンナ (belle), {浄瑠璃|じょうるり} (joruri), {文芸誌|ぶんげいし} (literary magazine), {各層|かくそう} (all strata), {毛髪|もうはつ} (hair), {麦芽|ばくが} (malt), {障子紙|しょうじがみ} (shoji paper), {三十代|さんじゅうだい} (one's thirties), {修士号|しゅうしごう} (master's degree), {学士号|がくしごう} (bachelor's degree), {共通語|きょうつうご} (common language), {接尾辞|せつびじ} (suffix), {接頭辞|せっとうじ} (prefix), {千円札|せんえんさつ} (1000-yen bill), {大奥|おおおく} (women's quarters), {美容液|びようえき} (beauty serum), {乾燥肌|かんそうはだ} (dry skin), インド{洋|よう} (Indian Ocean), {画伯|がはく} (master painter), {暗号資産|あんごうしさん} (crypto assets), {鵝鳥|がちょう} (goose), {猛禽類|もうきんるい} (birds of prey), {条文|じょうぶん} (text of a law), {共産主義|きょうさんしゅぎ} (communism), {民俗学|みんぞくがく} (folklore studies), {児童書|じどうしょ} (children's book), {偽札|にせさつ} (counterfeit bill), {脊髄|せきずい} (spinal cord), {学籍|がくせき} (school enrollment), {避難勧告|ひなんかんこく} (evacuation advisory)
-- **Nouns/suru verbs (6)**: {搬出|はんしゅつ} (carrying out), {受粉|じゅふん} (pollination), {加圧|かあつ} (pressurization), {煮炊|にた}き (cooking), {焼|や}き{増|ま}し (reprint), {他所見|よそみ} (looking away)
-- **Nouns/na-adj (3)**: {非公開|ひこうかい} (private), {近代的|きんだいてき} (modern), {充実|じゅうじつ}した (fulfilling)
-- **Counter/suffix (2)**: {時間目|じかんめ} (period), {出席率|しゅっせきりつ} (attendance rate)
-- **Seasonal (2)**: {春季|しゅんき} (spring season), {秋季|しゅうき} (autumn season)
-- **Adverbs/adjectives (3)**: ああいう (that kind of), {密|みつ}に (closely/secretly), {対面|たいめん}で (face-to-face)
-- **Compounds (5)**: {転売|てんばい}ヤー (reseller/scalper), {前々月|ぜんぜんげつ} (month before last), {布団|ふとん}カバー (futon cover), {炭酸割|たんさんわ}り (mixed with soda), {格|かく}ゲー (fighting game)
-- **Verbs (2)**: {繰|く}り{戻|もど}す (to carry back), {打|う}ちつける (to strike against)
-- **Expressions (3)**: っていうか (or rather), あの{方|かた} (that person polite), {五目並|ごもくなら}べ (gomoku game)
-- **Education (2)**: {初等教育|しょとうきょういく} (elementary education), {借家人|しゃくやにん} (tenant)
-- **Language (2)**: {広東語|かんとんご} (Cantonese), {共通語|きょうつうご} (common language)
-
-Notable features:
-- Double-sized batch: 60 entries in one session
-- Multi-sense: {共通語|きょうつうご} (2: lingua franca + standard Japanese), {密|みつ}に (2: closely + secretly), {打|う}ちつける (2: strike + nail down)
-- Modern vocabulary: {暗号資産|あんごうしさん}, {転売|てんばい}ヤー, {格|かく}ゲー
-- Cultural: {浄瑠璃|じょうるり}, {大奥|おおおく}, {五目並|ごもくなら}べ
-- New kanji: 2,539 → 2,543 (瑠, 璃, 禽, 鵝)
-
-Total entries: ~16,633 → ~16,693 (approximate)
-Remaining candidates: ~3,145 → ~3,086 (59 removed)
 
 ---
 
