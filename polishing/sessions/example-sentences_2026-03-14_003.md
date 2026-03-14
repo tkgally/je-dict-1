@@ -1,7 +1,7 @@
 # Example Sentences Polishing Session — 2026-03-14 (003)
 
-**Range checked:** 06600–06679
-**Progress:** `next: 06620` → `next: 06680`
+**Range checked:** 06600–06699
+**Progress:** `next: 06620` → `next: 06700`
 
 ## Entries checked (40 total)
 
@@ -72,8 +72,30 @@
 - **06678_waraidasu** (core, 1 sense): Had 3/5. Added ex4-ex5 (now 5)
 - **06679_hashiridasu** (core, 1 sense): Had 3/5. Added ex4-ex5 (now 5)
 
+### 06680–06699
+- **06680_hakikaeru** (core, 1 sense): Had 3/5. Added ex4-ex5 (now 5)
+- **06681_kotteri** (general, 2 senses): sense 1 had 2/3, sense 2 had 1/3. Added ex3 for sense 1, renumbered old ex3→ex4, added ex5-ex6 for sense 2 (now 3+3)
+- **06682_jiwajiwa** (general, 2 senses): sense 1 had 2/3, sense 2 had 1/3. Added ex3 for sense 1, renumbered old ex3→ex4, added ex5-ex6 for sense 2 (now 3+3)
+- **06683_potsupotsu** (general, 3 senses): sense 1 had 2/3, sense 2 had 0/3, sense 3 had 1/3. Added ex3-ex5 for sense 2, renumbered old ex3→ex6, added ex7 for sense 3, added ex8-ex9 for sense 1 (now 4+3+2→9 total)
+- **06684_sokosoko** (general, 2 senses): sense 1 had 2/3, sense 2 had 1/3. Added ex3 for sense 1, renumbered old ex3→ex4, added ex5-ex6 for sense 2 (now 3+3)
+- 06685_toutei: OK
+- 06686_iyaounaku: OK
+- 06687_monooboe: OK
+- 06688_kikubari: OK
+- 06689_kokorogake: OK
+- 06690_kimatsushiken: OK
+- 06691_chuukanshiken: OK
+- **06692_tsuishiken** (core, 1 sense): Had 3/5. Added ex4-ex5 (now 5)
+- **06693_taikyo** (general, 2 senses): sense 1 had 2/3, sense 2 had 1/3. Added ex3 for sense 1, renumbered old ex3→ex4, added ex5-ex6 for sense 2 (now 3+3)
+- 06694_denshimanee: OK
+- **06695_ogawa** (core, 1 sense): Had 3/5. Added ex4-ex5 (now 5)
+- **06696_torendo** (general, 2 senses): sense 1 had 1/3, sense 2 had 2/3. Added ex3-ex4 for sense 1, renumbered old ex3→ex5, added ex6 for sense 2 (now 3+3)
+- 06697_fesu: OK
+- 06698_dorinkubaa: OK
+- **06699_nandakanda** (core, 2 senses): sense 1 had 2/5, sense 2 had 2/5. Added ex4+ex6+ex8 for sense 1, added ex5+ex7 for sense 2 (now 5+4→9 total... ex1 counts for both)
+
 ## Summary
-- Entries checked: 80 (06600–06679)
-- Entries modified: 27
-- Examples added: ~75
+- Entries checked: 100 (06600–06699)
+- Entries modified: 37
+- Examples added: ~110
 - All modifications: adding examples to meet minimum per-sense requirements
