@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,633 |
+| Total entries | ~16,693 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,834 (open) |
-| Candidate words | ~3,145 |
+| General tier | ~13,894 (open) |
+| Candidate words | ~3,086 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-14 (Vocabulary Expansion - 60 New Entries, Session 427)
+Added 60 new dictionary entries (IDs 16584-16643) from candidate_words.json:
+
+- **Nouns (30)**: マドンナ (belle), {浄瑠璃|じょうるり} (joruri), {文芸誌|ぶんげいし} (literary magazine), {各層|かくそう} (all strata), {毛髪|もうはつ} (hair), {麦芽|ばくが} (malt), {障子紙|しょうじがみ} (shoji paper), {三十代|さんじゅうだい} (one's thirties), {修士号|しゅうしごう} (master's degree), {学士号|がくしごう} (bachelor's degree), {共通語|きょうつうご} (common language), {接尾辞|せつびじ} (suffix), {接頭辞|せっとうじ} (prefix), {千円札|せんえんさつ} (1000-yen bill), {大奥|おおおく} (women's quarters), {美容液|びようえき} (beauty serum), {乾燥肌|かんそうはだ} (dry skin), インド{洋|よう} (Indian Ocean), {画伯|がはく} (master painter), {暗号資産|あんごうしさん} (crypto assets), {鵝鳥|がちょう} (goose), {猛禽類|もうきんるい} (birds of prey), {条文|じょうぶん} (text of a law), {共産主義|きょうさんしゅぎ} (communism), {民俗学|みんぞくがく} (folklore studies), {児童書|じどうしょ} (children's book), {偽札|にせさつ} (counterfeit bill), {脊髄|せきずい} (spinal cord), {学籍|がくせき} (school enrollment), {避難勧告|ひなんかんこく} (evacuation advisory)
+- **Nouns/suru verbs (6)**: {搬出|はんしゅつ} (carrying out), {受粉|じゅふん} (pollination), {加圧|かあつ} (pressurization), {煮炊|にた}き (cooking), {焼|や}き{増|ま}し (reprint), {他所見|よそみ} (looking away)
+- **Nouns/na-adj (3)**: {非公開|ひこうかい} (private), {近代的|きんだいてき} (modern), {充実|じゅうじつ}した (fulfilling)
+- **Counter/suffix (2)**: {時間目|じかんめ} (period), {出席率|しゅっせきりつ} (attendance rate)
+- **Seasonal (2)**: {春季|しゅんき} (spring season), {秋季|しゅうき} (autumn season)
+- **Adverbs/adjectives (3)**: ああいう (that kind of), {密|みつ}に (closely/secretly), {対面|たいめん}で (face-to-face)
+- **Compounds (5)**: {転売|てんばい}ヤー (reseller/scalper), {前々月|ぜんぜんげつ} (month before last), {布団|ふとん}カバー (futon cover), {炭酸割|たんさんわ}り (mixed with soda), {格|かく}ゲー (fighting game)
+- **Verbs (2)**: {繰|く}り{戻|もど}す (to carry back), {打|う}ちつける (to strike against)
+- **Expressions (3)**: っていうか (or rather), あの{方|かた} (that person polite), {五目並|ごもくなら}べ (gomoku game)
+- **Education (2)**: {初等教育|しょとうきょういく} (elementary education), {借家人|しゃくやにん} (tenant)
+- **Language (2)**: {広東語|かんとんご} (Cantonese), {共通語|きょうつうご} (common language)
+
+Notable features:
+- Double-sized batch: 60 entries in one session
+- Multi-sense: {共通語|きょうつうご} (2: lingua franca + standard Japanese), {密|みつ}に (2: closely + secretly), {打|う}ちつける (2: strike + nail down)
+- Modern vocabulary: {暗号資産|あんごうしさん}, {転売|てんばい}ヤー, {格|かく}ゲー
+- Cultural: {浄瑠璃|じょうるり}, {大奥|おおおく}, {五目並|ごもくなら}べ
+- New kanji: 2,539 → 2,543 (瑠, 璃, 禽, 鵝)
+
+Total entries: ~16,633 → ~16,693 (approximate)
+Remaining candidates: ~3,145 → ~3,086 (59 removed)
 
 ### 2026-03-14 (Vocabulary Expansion - 30 New Entries, Session 426)
 Added 30 new dictionary entries (IDs 16554-16583) from candidate_words.json:
@@ -140,25 +165,6 @@ Notable features:
 
 Total entries: ~16,512 → ~16,542 (approximate)
 Remaining candidates: ~3,266 → ~3,236 (30 removed)
-
-### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 422)
-Added 30 new dictionary entries (IDs 16433-16462) from candidate_words.json:
-
-- **Na-adjectives (3)**: {柔軟|じゅうなん}な (flexible), {無責任|むせきにん}な (irresponsible), {肥沃|ひよく}な (fertile)
-- **Nouns (20)**: {電子書籍|でんししょせき} (e-book), {金網|かなあみ} (wire mesh), {薄化粧|うすげしょう} (light makeup), {病床|びょうしょう} (sickbed), {協調性|きょうちょうせい} (cooperativeness), {関係者|かんけいしゃ} (person concerned), {怨恨|えんこん} (grudge), {全体像|ぜんたいぞう} (big picture), {撥水|はっすい} (water repellent), {行楽地|こうらくち} (tourist spot), {最新版|さいしんばん} (latest version), {山腹|さんぷく} (mountainside), {詳報|しょうほう} (detailed report), {健康維持|けんこういじ} (health maintenance), {中道|ちゅうどう} (centrism), {群舞|ぐんぶ} (group dance), {個体差|こたいさ} (individual variation), {逆転劇|ぎゃくてんげき} (dramatic comeback), {一網打尽|いちもうだじん} (wholesale roundup), {逆転負|ぎゃくてんま}け (come-from-behind loss)
-- **Nouns/suru verbs (5)**: {代用|だいよう} (substitution), {再確認|さいかくにん} (reconfirmation), {数値化|すうちか} (quantification), {再雇用|さいこよう} (re-employment), {定年退職|ていねんたいしょく} (mandatory retirement)
-- **Nouns (multi-sense) (2)**: {無風|むふう} (2: windless + uncontested), {一般道|いっぱんどう} (public road)
-
-Notable features:
-- Work/society: {協調性|きょうちょうせい}, {定年退職|ていねんたいしょく}, {再雇用|さいこよう}, {関係者|かんけいしゃ}, {無責任|むせきにん}な
-- Technology/modern: {電子書籍|でんししょせき}, {最新版|さいしんばん}, {数値化|すうちか}, {撥水|はっすい}
-- Sports/politics: {逆転劇|ぎゃくてんげき}, {逆転負|ぎゃくてんま}け, {中道|ちゅうどう}, {無風|むふう}
-- Nature/geography: {山腹|さんぷく}, {肥沃|ひよく}な
-- Four-character idiom: {一網打尽|いちもうだじん}
-- New kanji: 2,534 → 2,536 (撥, 沃)
-
-Total entries: ~16,482 → ~16,512 (approximate)
-Remaining candidates: ~3,296 → ~3,266 (30 removed)
 
 ---
 
