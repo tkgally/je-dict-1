@@ -3,6 +3,25 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 422)
+Added 30 new dictionary entries (IDs 16433-16462) from candidate_words.json:
+
+- **Na-adjectives (3)**: {柔軟|じゅうなん}な (flexible), {無責任|むせきにん}な (irresponsible), {肥沃|ひよく}な (fertile)
+- **Nouns (20)**: {電子書籍|でんししょせき} (e-book), {金網|かなあみ} (wire mesh), {薄化粧|うすげしょう} (light makeup), {病床|びょうしょう} (sickbed), {協調性|きょうちょうせい} (cooperativeness), {関係者|かんけいしゃ} (person concerned), {怨恨|えんこん} (grudge), {全体像|ぜんたいぞう} (big picture), {撥水|はっすい} (water repellent), {行楽地|こうらくち} (tourist spot), {最新版|さいしんばん} (latest version), {山腹|さんぷく} (mountainside), {詳報|しょうほう} (detailed report), {健康維持|けんこういじ} (health maintenance), {中道|ちゅうどう} (centrism), {群舞|ぐんぶ} (group dance), {個体差|こたいさ} (individual variation), {逆転劇|ぎゃくてんげき} (dramatic comeback), {一網打尽|いちもうだじん} (wholesale roundup), {逆転負|ぎゃくてんま}け (come-from-behind loss)
+- **Nouns/suru verbs (5)**: {代用|だいよう} (substitution), {再確認|さいかくにん} (reconfirmation), {数値化|すうちか} (quantification), {再雇用|さいこよう} (re-employment), {定年退職|ていねんたいしょく} (mandatory retirement)
+- **Nouns (multi-sense) (2)**: {無風|むふう} (2: windless + uncontested), {一般道|いっぱんどう} (public road)
+
+Notable features:
+- Work/society: {協調性|きょうちょうせい}, {定年退職|ていねんたいしょく}, {再雇用|さいこよう}, {関係者|かんけいしゃ}, {無責任|むせきにん}な
+- Technology/modern: {電子書籍|でんししょせき}, {最新版|さいしんばん}, {数値化|すうちか}, {撥水|はっすい}
+- Sports/politics: {逆転劇|ぎゃくてんげき}, {逆転負|ぎゃくてんま}け, {中道|ちゅうどう}, {無風|むふう}
+- Nature/geography: {山腹|さんぷく}, {肥沃|ひよく}な
+- Four-character idiom: {一網打尽|いちもうだじん}
+- New kanji: 2,534 → 2,536 (撥, 沃)
+
+Total entries: ~16,482 → ~16,512 (approximate)
+Remaining candidates: ~3,296 → ~3,266 (30 removed)
+
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 421)
 Added 30 new dictionary entries (IDs 16403-16432) from candidate_words.json:
 
