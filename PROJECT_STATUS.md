@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,738 |
+| Total entries | ~16,783 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,939 (open) |
-| Candidate words | ~3,041 |
+| General tier | ~13,984 (open) |
+| Candidate words | ~2,996 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,36 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 429)
+Added 45 new dictionary entries (IDs 16689-16733) from candidate_words.json:
+
+- **Nouns (19)**: {北極|ほっきょく} (North Pole), {仲人|なこうど} (matchmaker), {役場|やくば} (town hall), {家柄|いえがら} (family lineage), {寝息|ねいき} (sleeping breath), {秒読|びょうよ}み (countdown), {新記録|しんきろく} (new record), {安定感|あんていかん} (sense of stability), {稼|かせ}ぎ{時|どき} (peak earning time), {真横|まよこ} (right beside), {真向|まむ}かい (directly opposite), {難題|なんだい} (difficult problem), {成金|なりきん} (nouveau riche), {平社員|ひらしゃいん} (rank-and-file employee), {足止|あしど}め (being stranded), {口先|くちさき} (lip service), {滑舌|かつぜつ} (articulation), {神主|かんぬし} (Shinto priest), {太|ふと}もも (thigh)
+- **Nouns/suru verbs (7)**: {完備|かんび} (fully equipped), {造園|ぞうえん} (landscaping), {野営|やえい} (camping), {設営|せつえい} (setting up), {終息|しゅうそく} (ending), {当惑|とうわく} (bewilderment), {節制|せっせい} (moderation)
+- **Nouns/na-adj (5)**: {短命|たんめい} (short-lived), {上出来|じょうでき} (well done), {不出来|ふでき} (poorly done), {互角|ごかく} (evenly matched), {好評|こうひょう} (favorable reception)
+- **Nouns + other (3)**: {後|うし}ろ{向|む}き (backward/pessimistic), {的外|まとはず}れ (off the mark), {実物大|じつぶつだい} (life-size)
+- **Noun/suru verb (1)**: {酷評|こくひょう} (harsh criticism)
+- **Noun/suru verb (1)**: {金縛|かなしば}り (sleep paralysis)
+- **Noun/suru verb (1)**: {寝坊|ねぼう}する (to oversleep)
+- **Noun/suru verb (1)**: {息抜|いきぬ}き (breather)
+- **Noun (1)**: {気晴|きば}らし (diversion)
+- **Noun (1)**: {初夢|はつゆめ} (first dream of year)
+- **Noun (1)**: {軽|けい}トラ (kei truck)
+- **Adverb (1)**: {何|なん}だか (somehow)
+- **Verb (ichidan) (1)**: うなされる (to have a nightmare)
+- **Verb (ichidan) (1)**: {色|いろ}あせる (to fade)
+- **Verb (godan) (1)**: {買|か}い{取|と}る (to buy up)
+
+Notable features:
+- Multi-sense: {後|うし}ろ{向|む}き (2: physical + figurative), {金縛|かなしば}り (2: sleep paralysis + bound), {成金|なりきん} (2: nouveau riche + shogi), {口先|くちさき} (2: lip service + way of speaking), {色|いろ}あせる (2: physical fading + figurative)
+- Antonym pairs: {上出来|じょうでき}/{不出来|ふでき}, {好評|こうひょう}/{酷評|こくひょう}
+- Near-synonym pair: {息抜|いきぬ}き/{気晴|きば}らし
+- Cultural: {初夢|はつゆめ}, {仲人|なこうど}, {成金|なりきん}, {神主|かんぬし}
+- Body parts: {太|ふと}もも, {滑舌|かつぜつ}
+- Daily life: {寝坊|ねぼう}する, {足止|あしど}め, {軽|けい}トラ
+
+Total entries: ~16,738 → ~16,783 (approximate)
+Remaining candidates: ~3,041 → ~2,996 (45 removed)
 
 ### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 428)
 Added 45 new dictionary entries (IDs 16644-16688) from candidate_words.json:
@@ -144,29 +174,6 @@ Notable features:
 
 Total entries: ~16,573 → ~16,603 (approximate)
 Remaining candidates: ~3,205 → ~3,175 (30 removed)
-
-### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 424)
-Added 30 new dictionary entries (IDs 16493-16523) from candidate_words.json:
-
-- **Nouns (14)**: {麦茶|むぎちゃ} (barley tea), {玄米茶|げんまいちゃ} (brown rice tea), {隅々|すみずみ} (every nook and cranny), {秘境|ひきょう} (unexplored region), {連歌|れんが} (linked verse), {料理長|りょうりちょう} (head chef), {領空|りょうくう} (territorial airspace), {伴走者|ばんそうしゃ} (guide runner), {大衆文学|たいしゅうぶんがく} (popular fiction), {古代文明|こだいぶんめい} (ancient civilization), {蔵造|くらづく}り (warehouse architecture), {蔵屋敷|くらやしき} (domain warehouse), {避暑地|ひしょち} (summer resort), {発酵食品|はっこうしょくひん} (fermented food)
-- **Nouns/suru verbs (6)**: {訂正|ていせい} (correction), {窒息|ちっそく} (suffocation), {逆上|ぎゃくじょう} (frenzy), {増水|ぞうすい} (rising water), {溺愛|できあい} (doting), {搬入|はんにゅう} (carrying in)
-- **Nouns/suru verbs (2)**: {都落|みやこお}ち (fleeing the capital), {一気飲|いっきの}み (chugging)
-- **Noun/suru verb (special) (2)**: {突|つ}き{指|ゆび} (jammed finger), お{試|ため}し{期間|きかん} (trial period)
-- **Noun (compound) (3)**: {就職氷河期|しゅうしょくひょうがき} (employment ice age), {千秋楽|せんしゅうらく} (final day), {限界集落|げんかいしゅうらく} (dying village)
-- **Cultural (2)**: {端午|たんご}の{節句|せっく} (Boys' Day), {桃|もも}の{節句|せっく} (Girls' Day)
-- **Expression (1)**: {愛想|あいそ}がいい (amiable)
-- **Food culture (1)**: {幕の内弁当|まくのうちべんとう} (traditional boxed lunch)
-
-Notable features:
-- Food/drink: {麦茶|むぎちゃ}, {玄米茶|げんまいちゃ}, {発酵食品|はっこうしょくひん}, {幕の内弁当|まくのうちべんとう}, {一気飲|いっきの}み, {料理長|りょうりちょう}
-- Japanese culture: {千秋楽|せんしゅうらく}, {端午|たんご}の{節句|せっく}, {桃|もも}の{節句|せっく}, {連歌|れんが}, {蔵造|くらづく}り, {蔵屋敷|くらやしき}
-- Society: {就職氷河期|しゅうしょくひょうがき}, {限界集落|げんかいしゅうらく}, {大衆文学|たいしゅうぶんがく}
-- Safety/medical: {窒息|ちっそく}, {逆上|ぎゃくじょう}, {突|つ}き{指|ゆび}
-- Geography/travel: {秘境|ひきょう}, {避暑地|ひしょち}, {領空|りょうくう}
-- Multi-sense: {伴走者|ばんそうしゃ} (2: guide runner + supportive companion)
-
-Total entries: ~16,542 → ~16,573 (approximate)
-Remaining candidates: ~3,236 → ~3,205 (31 removed)
 
 ---
 
