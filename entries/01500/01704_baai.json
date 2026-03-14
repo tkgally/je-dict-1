@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01704_baai_ex1",
-      "japanese": "{雨|あめ}の{場合|ばあい}は{中止|ちゅうし}です。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧{場合|ばあい}⟦は→は：00079_ha⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧です。",
       "english": "In case of rain, it will be cancelled.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "01704_baai_ex2",
-      "japanese": "{質問|しつもん}がある{場合|ばあい}は{聞|き}いてください。",
+      "japanese": "⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧{場合|ばあい}⟦は→は：00079_ha⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you have questions, please ask.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "01704_baai_ex3",
-      "japanese": "この{場合|ばあい}はどうすればいいですか。",
+      "japanese": "⟦この→この：00962_kono⟧{場合|ばあい}⟦は→は：00079_ha⟧⟦どう→どう：00543_dou⟧⟦すれば→する：00392_suru⟧⟦いいです→いい：00118_ii⟧⟦か→か：09473_ka⟧。",
       "english": "What should I do in this case?",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "{場合|ばあい} is essential for expressing conditional situations.\n\nCOMMON PATTERNS:\n- 〜の{場合|ばあい}(は): in case of ~, if ~\n- 〜{場合|ばあい}によって(は): depending on the case\n- {場合|ばあい}によっては: in some cases\n- いずれの{場合|ばあい}も: in any case\n- その{場合|ばあい}: in that case\n\nGRAMMAR NOTE:\nVerb/adjective + {場合|ばあい}: when/if ~\n- {行|い}く{場合|ばあい}: if (you) go\n- {難|むずか}しい{場合|ばあい}: if it's difficult\n- {必要|ひつよう}な{場合|ばあい}: if necessary",
+  "notes": "{場合|ばあい} is essential for expressing conditional situations.\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{場合|ばあい}(⟦は→は：00079_ha⟧): in case of ~, if ~\n- 〜{場合|ばあい}によって(は): depending on the case\n- {場合|ばあい}によっては: in some cases\n- ⟦いずれ→いずれ：01789_izure⟧⟦の→の：09472_no⟧{場合|ばあい}⟦も→も：00484_mo⟧: in any case\n- ⟦その→その：00993_sono⟧{場合|ばあい}: in that case\n\nGRAMMAR NOTE:\nVerb/adjective + {場合|ばあい}: when/if ~\n- ⟦{行|い}く→行く：00119_iku⟧{場合|ばあい}: if (you) go\n- ⟦{難|むずか}しい→難しい：00517_muzukashii⟧{場合|ばあい}: if it's difficult\n- ⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な{場合|ばあい}: if necessary",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:10:05Z",
-    "modified": "2026-01-19T12:17:41.034713Z",
+    "modified": "2026-03-14T13:41:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
