@@ -1,6 +1,6 @@
 ## Session: Example Sentences
 Date: 2026-03-14
-Entries checked: 06760-06819
+Entries checked: 06760-06839
 
 ### Changes Made (batch 1: 06760-06779)
 - 06762: insufficient count per sense - added 3 examples (general, s1: 1→3, s2: 2→3)
@@ -35,11 +35,15 @@ Entries checked: 06760-06819
 - 06815: insufficient count per sense + missing fields - added 6 examples (core, s1: 2→5, s2: 2→5)
 - 06819: insufficient count per sense + missing fields - added 2 examples (general, s1: 2→3, s2: 2→3)
 
+### Changes Made (batch 4: 06820-06839)
+- 06821: insufficient count per sense - added 2 examples (general, s1: 2→3, s2: 2→3)
+- 06828: insufficient count per sense - added 2 examples (general, s1: 2→3, s2: 2→3)
+
 ### Summary
-- Entries checked: 60 (06760-06819)
-- Entries modified: 27
-- Examples added: ~88
-- Main issues: insufficient per-sense counts, missing has_audio/notes fields
+- Entries checked: 80 (06760-06839)
+- Entries modified: 29
+- Examples added: ~92
+- Main issues: insufficient per-sense counts, missing has_audio/notes fields in 06790-06819
 
 ### Next Entry
-06820
+06840
