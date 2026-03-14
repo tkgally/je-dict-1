@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,828 |
+| Total entries | ~16,874 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,029 (open) |
-| Candidate words | ~2,951 |
+| General tier | ~14,075 (open) |
+| Candidate words | ~2,905 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 431)
+Added 45 new dictionary entries (IDs 16779-16824) from candidate_words.json:
+
+- **Nouns (24)**: {行|い}き{先|さき} (destination), {反対側|はんたいがわ} (opposite side), {会議中|かいぎちゅう} (in a meeting), {毒素|どくそ} (toxin), {作業服|さぎょうふく} (work clothes), {本革|ほんがわ} (genuine leather), {伝言板|でんごんばん} (message board), {可燃物|かねんぶつ} (burnable items), {染|し}み{抜|ぬ}き (stain removal), {客船|きゃくせん} (passenger ship), {受信箱|じゅしんばこ} (inbox), {会員制|かいいんせい} (membership system), {千代紙|ちよがみ} (chiyogami paper), {献杯|けんぱい} (memorial toast), {土産物屋|みやげものや} (souvenir shop), {昆布|こんぶ}だし (kelp stock), {催事場|さいじじょう} (event hall), {固定資産|こていしさん} (fixed assets), {養親|ようしん} (adoptive parent), {情操|じょうそう} (sentiment), {到来物|とうらいもの} (gift received), {知能指数|ちのうしすう} (IQ), {基礎代謝|きそたいしゃ} (basal metabolism), {産婦人科|さんふじんか} (OB/GYN)
+- **Nouns/suru verbs (4)**: {完遂|かんすい} (completion), {乗船|じょうせん} (boarding a ship), {重要視|じゅうようし} (regarding as important), {製材|せいざい} (lumbering)
+- **Na-adjectives (3)**: {持続的|じぞくてき} (sustainable), {枢要|すうよう} (pivotal), {繁多|はんた} (extremely busy)
+- **Adverbs/expressions (5)**: {予想通|よそうどお}り (as expected), {何|なん}としても (no matter what), {力一杯|ちからいっぱい} (with all one's strength), {口一杯|くちいっぱい} (mouthful), {他日|たじつ} (another day)
+- **Verbs (2)**: すすり{泣|な}く (to sob), {飼|か}い{慣|な}らす (to tame)
+- **Other nouns (5)**: {和文|わぶん} (Japanese text), {住民税|じゅうみんぜい} (resident tax), {極道|ごくどう} (gangster), {解毒剤|げどくざい} (antidote), {行|い}き{道|みち} (the way there)
+- **Multi-sense entries (2)**: {湯冷|ゆざ}まし (cooled water + tea vessel), {不治|ふじ}の{病|やまい} (incurable disease)
+
+Notable features:
+- Life in Japan: {可燃物|かねんぶつ}, {住民税|じゅうみんぜい}, {会員制|かいいんせい}, {催事場|さいじじょう}
+- Food/cooking: {昆布|こんぶ}だし, {湯冷|ゆざ}まし
+- Medical: {産婦人科|さんふじんか}, {毒素|どくそ}, {解毒剤|げどくざい}, {基礎代謝|きそたいしゃ}
+- Travel: {客船|きゃくせん}, {乗船|じょうせん}, {土産物屋|みやげものや}, {行|い}き{先|さき}
+- Cultural: {献杯|けんぱい}, {千代紙|ちよがみ}, {極道|ごくどう}, {到来物|とうらいもの}
+- Multi-sense: {極道|ごくどう} (2: gangster + delinquent), {湯冷|ゆざ}まし (2: cooled water + vessel)
+
+Total entries: ~16,828 → ~16,874 (approximate)
+Remaining candidates: ~2,951 → ~2,905 (46 removed)
 
 ### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 430)
 Added 45 new dictionary entries (IDs 16734-16778) from candidate_words.json:
@@ -151,28 +173,6 @@ Notable features:
 
 Total entries: ~16,633 → ~16,693 (approximate)
 Remaining candidates: ~3,145 → ~3,086 (59 removed)
-
-### 2026-03-14 (Vocabulary Expansion - 30 New Entries, Session 426)
-Added 30 new dictionary entries (IDs 16554-16583) from candidate_words.json:
-
-- **Nouns (11)**: {読者|どくしゃ} (reader), {青少年|せいしょうねん} (youth), {体型|たいけい} (body type), {接続詞|せつぞくし} (conjunction), {専業主婦|せんぎょうしゅふ} (full-time housewife), {目論見|もくろみ} (plan/scheme), {結|むす}び{目|め} (knot), {一苦労|ひとくろう} (quite a struggle), {配信者|はいしんしゃ} (streamer), {要所|ようしょ} (key point), {脱字|だつじ} (omitted character)
-- **Nouns/suru verbs (6)**: {中毒|ちゅうどく} (poisoning/addiction), {登校|とうこう} (attending school), {視察|しさつ} (inspection), {徴収|ちょうしゅう} (collection/levy), {嗚咽|おえつ} (sobbing), {黙殺|もくさつ} (ignoring)
-- **Nouns/na-adj (2)**: スケベ (lewd/pervert), {軽微|けいび} (slight/minor)
-- **Nouns/suru verbs + na-adj (1)**: {懇談|こんだん} (informal talk)
-- **Adverbs (5)**: {着々|ちゃくちゃく}と (steadily), {必死|ひっし}に (desperately), {一気|いっき}に (in one go), {順次|じゅんじ} (sequentially), ひょっこり (unexpectedly)
-- **Nouns (special) (2)**: {小悪魔|こあくま} (flirtatious person), {口止|くちど}め (silencing)
-- **Verbs (2)**: {締|し}め{付|つ}ける (to tighten), {澄|す}ます (to clear/strain)
-- **Expression (1)**: おやすみなさい (good night)
-
-Notable features:
-- Diverse POS coverage: nouns, verbs, adverbs, adjectives, expressions
-- Multi-sense: {中毒|ちゅうどく} (2: poisoning + addiction), {一気|いっき}に (2: in one go + suddenly), {締|し}め{付|つ}ける (2: physical + figurative), {澄|す}ます (2: strain senses + look composed), スケベ (2: noun + adjective), {小悪魔|こあくま} (2: literal + figurative)
-- Modern vocabulary: {配信者|はいしんしゃ} (streamer/content creator)
-- Grammar term: {接続詞|せつぞくし}
-- New kanji: 2,537 → 2,539 (咽, 嗚)
-
-Total entries: ~16,603 → ~16,633 (approximate)
-Remaining candidates: ~3,175 → ~3,145 (30 removed)
 
 ---
 
