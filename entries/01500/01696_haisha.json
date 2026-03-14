@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01696_haisha_ex1",
-      "japanese": "{歯医者|はいしゃ}に{行|い}かなければなりません。",
+      "japanese": "{歯医者|はいしゃ}⟦に→に：00314_ni⟧⟦{行|い}かなければなりません→行く：00119_iku⟧。",
       "english": "I have to go to the dentist.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "01696_haisha_ex2",
-      "japanese": "{歯医者|はいしゃ}で{虫歯|むしば}を{治|なお}しました。",
+      "japanese": "{歯医者|はいしゃ}⟦で→で：00502_de⟧⟦{虫歯|むしば}→虫歯：00299_mushiba⟧⟦を→を：00422_wo⟧⟦{治|なお}しました→治す：noentry⟧。",
       "english": "I had my cavity treated at the dentist.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "01696_haisha_ex3",
-      "japanese": "{歯医者|はいしゃ}が{怖|こわ}い。",
+      "japanese": "{歯医者|はいしゃ}⟦が→が：00051_ga⟧⟦{怖|こわ}い→怖い：00864_kowai⟧。",
       "english": "I'm afraid of the dentist.",
       "notes": "Common sentiment",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "01696_haisha_ex4",
-      "japanese": "{歯医者|はいしゃ}の{予約|よやく}を{取|と}りました。",
+      "japanese": "{歯医者|はいしゃ}⟦の→の：09472_no⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{取|と}りました→取る：00565_toru⟧。",
       "english": "I made a dentist appointment.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01696_haisha_ex5",
-      "japanese": "{近|ちか}くに{良|よ}い{歯医者|はいしゃ}はありますか。",
+      "japanese": "⟦{近|ちか}く→近く：00923_chikaku⟧⟦に→に：00314_ni⟧⟦{良|よ}い→良い：02350_yoi⟧{歯医者|はいしゃ}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Is there a good dentist nearby?",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "{歯医者|はいしゃ} refers to both the dentist and the dental office.\n\nCOMMON PATTERNS:\n- {歯医者|はいしゃ}に{行|い}く: to go to the dentist\n- {歯医者|はいしゃ}で{治療|ちりょう}する: to get treatment at the dentist\n- {歯医者|はいしゃ}を{予約|よやく}する: to make a dentist appointment\n\nDENTAL TERMS:\n- {虫歯|むしば}: cavity, tooth decay\n- {歯|は}を{抜|ぬ}く: to extract a tooth\n- {歯|は}を{磨|みが}く: to brush teeth\n- {歯科|しか}: dentistry\n- {歯科医|しかい}: dentist (formal)\n\nNote: {歯医者|はいしゃ} is casual; {歯科医|しかい} is the formal term.",
+  "notes": "{歯医者|はいしゃ} refers to both the dentist and the dental office.\n\nCOMMON PATTERNS:\n- {歯医者|はいしゃ}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the dentist\n- {歯医者|はいしゃ}⟦で→で：00502_de⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦する→する：00392_suru⟧: to get treatment at the dentist\n- {歯医者|はいしゃ}⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦する→する：00392_suru⟧: to make a dentist appointment\n\nDENTAL TERMS:\n- ⟦{虫歯|むしば}→虫歯：00299_mushiba⟧: cavity, tooth decay\n- ⟦{歯|は}→歯：00778_ha⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧: to extract a tooth\n- ⟦{歯|は}→歯：00778_ha⟧⟦を→を：00422_wo⟧⟦{磨|みが}く→磨く：02427_migaku⟧: to brush teeth\n- ⟦{歯科|しか}→歯科：11072_shika⟧: dentistry\n- ⟦{歯科医|しかい}→歯科医：noentry⟧: dentist (formal)\n\nNote: {歯医者|はいしゃ} is casual; ⟦{歯科医|しかい}→歯科医：noentry⟧ is the formal term.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:12:18Z",
-    "modified": "2026-01-23T08:28:42Z",
+    "modified": "2026-03-14T13:43:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
