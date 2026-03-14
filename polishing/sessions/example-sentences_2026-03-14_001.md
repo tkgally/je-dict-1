@@ -1,6 +1,6 @@
 ## Session: Example Sentences
 Date: 2026-03-14
-Entries checked: 06480-06519
+Entries checked: 06480-06539
 
 ### Changes Made
 - [06480]: Insufficient count - expanded from 4 to 10 examples (5 per sense for core entry with 2 senses)
@@ -21,11 +21,19 @@ Entries checked: 06480-06519
 - [06513]: Missing sense 2 examples - added 3 examples for slang muscular/intimidating sense
 - [06518]: Insufficient count per sense - added 1 for sense 1, 1 for sense 2; fixed duplicate
 - [06519]: Insufficient count per sense - added 1 for sense 1, 2 for sense 2
+- [06522]: Missing sense 2 examples - added 1 for sense 1, 3 for sense 2 (conceited person sense)
+- [06524]: Missing sense 2 examples - added 1 for sense 1, 2 for sense 2 (cube-shaped food sense)
+- [06526]: Insufficient count - added 2 examples (core entry needed 5, had 3)
+- [06527]: Insufficient count - added 2 examples (core entry needed 5, had 3)
+- [06528]: Insufficient count - added 2 examples (core entry needed 5, had 3)
+- [06529]: Insufficient count - added 2 examples (core entry needed 5, had 3)
+- [06530]: Insufficient count - added 2 examples (core entry needed 5, had 3)
+- [06531]: Insufficient count - added 2 examples (core entry needed 5, had 3)
 
 ### Summary
-- 40 entries checked
-- 18 entries modified
+- 60 entries checked
+- 26 entries modified
 - Primary issue: insufficient example count (especially core tier entries with only 3-4 examples instead of 5, and multi-sense entries lacking coverage for secondary senses)
 
 ### Next Entry
-06520
+06540
