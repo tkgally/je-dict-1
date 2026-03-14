@@ -19,27 +19,83 @@
   "examples": [
     {
       "id": "06895_kubiwofuru_ex1",
-      "japanese": "{彼|かれ}は{黙|だま}って{首|くび}を{横|よこ}に{振|ふ}った。",
-      "english": "He silently shook his head (to say no).",
-      "sense_numbers": [
-        1
-      ]
+      "japanese": "{彼|かれ}は{首|くび}を{横|よこ}に{振|ふ}った。",
+      "english": "He shook his head.",
+      "sense_numbers": [1],
+      "has_audio": false,
+      "notes": null
     },
     {
       "id": "06895_kubiwofuru_ex2",
       "japanese": "「{無理|むり}だ」と{首|くび}を{振|ふ}った。",
       "english": "\"It's impossible,\" he said, shaking his head.",
-      "sense_numbers": [
-        1
-      ]
+      "sense_numbers": [1],
+      "has_audio": false,
+      "notes": null
     },
     {
       "id": "06895_kubiwofuru_ex3",
+      "japanese": "{何度|なんど}{頼|たの}んでも、{彼女|かのじょ}は{首|くび}を{横|よこ}に{振|ふ}るばかりだった。",
+      "english": "No matter how many times I asked, she just kept shaking her head.",
+      "sense_numbers": [1],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "06895_kubiwofuru_ex4",
+      "japanese": "{医者|いしゃ}は{黙|だま}って{首|くび}を{横|よこ}に{振|ふ}った。その{表情|ひょうじょう}を{見|み}て、{家族|かぞく}は{覚悟|かくご}した。",
+      "english": "The doctor silently shook his head. Seeing his expression, the family prepared themselves.",
+      "sense_numbers": [1],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "06895_kubiwofuru_ex5",
+      "japanese": "{最初|さいしょ}は{首|くび}を{横|よこ}に{振|ふ}っていたが、{説得|せっとく}されて{最後|さいご}には{首|くび}を{縦|たて}に{振|ふ}った。",
+      "english": "At first she shook her head no, but after being persuaded, she finally nodded yes.",
+      "sense_numbers": [1, 2],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "06895_kubiwofuru_ex6",
       "japanese": "{質問|しつもん}に{首|くび}を{縦|たて}に{振|ふ}った。",
       "english": "She nodded in response to the question.",
-      "sense_numbers": [
-        2
-      ]
+      "sense_numbers": [2],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "06895_kubiwofuru_ex7",
+      "japanese": "{子供|こども}は{嬉|うれ}しそうに{首|くび}を{縦|たて}に{振|ふ}った。",
+      "english": "The child nodded happily.",
+      "sense_numbers": [2],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "06895_kubiwofuru_ex8",
+      "japanese": "「{分|わ}かった？」と{聞|き}くと、{彼|かれ}は{小|ちい}さく{首|くび}を{縦|たて}に{振|ふ}った。",
+      "english": "When I asked \"Do you understand?\" he gave a small nod.",
+      "sense_numbers": [2],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "06895_kubiwofuru_ex9",
+      "japanese": "{大|おお}きく{首|くび}を{縦|たて}に{振|ふ}って、{賛成|さんせい}の{意思|いし}を{示|しめ}した。",
+      "english": "She nodded emphatically to show her agreement.",
+      "sense_numbers": [2],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "06895_kubiwofuru_ex10",
+      "japanese": "「{行|い}きたい？」と{聞|き}かれて、{何度|なんど}も{首|くび}を{縦|たて}に{振|ふ}った。とても{楽|たの}しみだ。",
+      "english": "When asked \"Do you want to go?\" I nodded repeatedly. I'm really looking forward to it.",
+      "sense_numbers": [2],
+      "has_audio": false,
+      "notes": null
     }
   ],
   "notes": "STRUCTURE: {首|くび} (neck/head) + を + {振|ふ}る (to shake/swing)\n\nDIRECTION MATTERS:\n- {首|くび}を{横|よこ}に{振|ふ}る: shake head side to side (no, disagreement)\n- {首|くび}を{縦|たて}に{振|ふ}る: nod (yes, agreement)\n- Without direction specified, usually implies side-to-side (no)\n\nRELATED EXPRESSIONS:\n- うなずく (to nod) - specifically means agreement/understanding\n- {頷|うなず}く (same as above, kanji form)\n- {首|くび}をかしげる (to tilt one's head) - shows puzzlement\n\nCULTURAL NOTE: In Japan, as in most cultures, shaking the head side-to-side means 'no' and nodding means 'yes.' However, Japanese people may also tilt the head or say \"うーん\" to soften refusal.",
@@ -53,7 +109,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-01-19T12:17:44.768915Z",
+    "modified": "2026-03-14T12:17:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
