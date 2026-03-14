@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,783 |
+| Total entries | ~16,828 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~13,984 (open) |
-| Candidate words | ~2,996 |
+| General tier | ~14,029 (open) |
+| Candidate words | ~2,951 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 430)
+Added 45 new dictionary entries (IDs 16734-16778) from candidate_words.json:
+
+- **Verbs (8)**: {追|お}いかける (to chase), うっとうしい (gloomy/annoying, i-adj), {老|ふ}ける (to age), {上|あ}がりこむ (to enter someone's house), やり{遂|と}げる (to accomplish), {切|き}り{抜|ぬ}ける (to get through), {積|つ}み{込|こ}む (to load), {反|そ}り{返|かえ}る (to bend backward)
+- **Nouns (17)**: {焼|や}きたて (freshly baked), {揚|あ}げたて (freshly fried), うつ{伏|ぶ}せ (prone position), {総菜|そうざい} (deli food), タメ{口|ぐち} (casual speech), お{代|か}わり (seconds/refill), {開封|かいふう} (opening), びしょ{濡|ぬ}れ (soaking wet), {秋雨|あきさめ} (autumn rain), {贈呈|ぞうてい} (presentation), {大安|たいあん} (lucky day), {仏滅|ぶつめつ} (unlucky day), {波風|なみかぜ} (trouble), {造成|ぞうせい} (land development), {網焼|あみや}き (net-grilled), {不信感|ふしんかん} (distrust), {懇意|こんい} (friendship)
+- **Nouns/suru verbs (5)**: {哀願|あいがん} (supplication), {贈呈|ぞうてい} (presentation), {類推|るいすい} (analogy), {迎撃|げいげき} (interception), {自己主張|じこしゅちょう} (self-assertion)
+- **Adverbs (4)**: {極力|きょくりょく} (as much as possible), その{都度|つど} (each time), {割|わり}に (comparatively), {徹頭徹尾|てっとうてつび} (thoroughly)
+- **Expressions (2)**: {念|ねん}のため (just in case), {日|ひ}が{暮|く}れる (the sun sets)
+- **Other nouns (9)**: {常設|じょうせつ} (permanent), {近日|きんじつ} (soon), {公共料金|こうきょうりょうきん} (utility bills), {試供品|しきょうひん} (free sample), {祝杯|しゅくはい} (celebratory toast), {敬老|けいろう} (respect for elders), {言付|ことづ}け (verbal message), {不衛生|ふえいせい} (unsanitary), {運転席|うんてんせき} (driver's seat)
+
+Notable features:
+- Cultural pairs: {大安|たいあん}/{仏滅|ぶつめつ} (lucky/unlucky days in rokuyo calendar)
+- Food & cooking: {焼|や}きたて, {揚|あ}げたて, {総菜|そうざい}, {網焼|あみや}き, お{代|か}わり
+- Multi-sense: {追|お}いかける (2: physical + figurative), うっとうしい (2: gloomy + annoying), {波風|なみかぜ} (2: figurative + literal), {反|そ}り{返|かえ}る (2: body + warping), {割|わり}に (2: comparatively + considering)
+- Daily life: {公共料金|こうきょうりょうきん}, {試供品|しきょうひん}, {運転席|うんてんせき}, {開封|かいふう}
+- Social/cultural: タメ{口|ぐち}, {自己主張|じこしゅちょう}, {敬老|けいろう}
+- Four-character compound: {徹頭徹尾|てっとうてつび}
+
+Total entries: ~16,783 → ~16,828 (approximate)
+Remaining candidates: ~2,996 → ~2,951 (45 removed)
 
 ### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 429)
 Added 45 new dictionary entries (IDs 16689-16733) from candidate_words.json:
@@ -152,28 +173,6 @@ Notable features:
 
 Total entries: ~16,603 → ~16,633 (approximate)
 Remaining candidates: ~3,175 → ~3,145 (30 removed)
-
-### 2026-03-13 (Vocabulary Expansion - 30 New Entries, Session 425)
-Added 30 new dictionary entries (IDs 16524-16553) from candidate_words.json:
-
-- **Nouns (13)**: {複合機|ふくごうき} (multi-function printer), {進入禁止|しんにゅうきんし} (no entry), {駐車券|ちゅうしゃけん} (parking ticket), {物損事故|ぶっそんじこ} (property damage accident), {奥地|おくち} (hinterland), {葉物|はもの} (leafy vegetables), {水産物|すいさんぶつ} (marine products), {軽傷|けいしょう} (minor injury), {接触不良|せっしょくふりょう} (loose connection), {取|と}り{合|あ}わせ (assortment), {電動自転車|でんどうじてんしゃ} (e-bike), {心|こころ}の{底|そこ} (bottom of one's heart), {五目寿司|ごもくずし} (mixed sushi)
-- **Nouns/suru verbs (5)**: {急速充電|きゅうそくじゅうでん} (rapid charging), {裏工作|うらこうさく} (backroom dealings), {組閣|そかく} (cabinet formation), {隠蔽工作|いんぺいこうさく} (cover-up), {補導|ほどう} (juvenile guidance)
-- **Nouns/pre-noun adjectivals (2)**: {家庭用|かていよう} (for home use), {体験型|たいけんがた} (hands-on)
-- **Nouns/adverbs (2)**: {世界一|せかいいち} (best in the world), {小粒|こつぶ} (small grain)
-- **Nouns/adjectives (1)**: {片手落|かたてお}ち (one-sided)
-- **Verbs (2)**: {垂|た}れ{流|なが}す (to discharge), {払|はら}い{戻|もど}す (to refund)
-- **Expressions (4)**: {暗礁|あんしょう}に{乗|の}り{上|あ}げる (to hit a snag), {影響|えいきょう}を{及|およ}ぼす (to exert influence), {差|さ}し{支|つか}えなければ (if you don't mind), それじゃあ (well then)
-- **Conjunction (1)**: それじゃあ (well then)
-
-Notable features:
-- Technology/modern life: {複合機|ふくごうき}, {急速充電|きゅうそくじゅうでん}, {電動自転車|でんどうじてんしゃ}, {接触不良|せっしょくふりょう}
-- Legal/news: {物損事故|ぶっそんじこ}, {裏工作|うらこうさく}, {隠蔽工作|いんぺいこうさく}, {補導|ほどう}, {組閣|そかく}
-- Daily life/food: {駐車券|ちゅうしゃけん}, {葉物|はもの}, {五目寿司|ごもくずし}, {水産物|すいさんぶつ}
-- Useful expressions: {差|さ}し{支|つか}えなければ, {影響|えいきょう}を{及|およ}ぼす, {暗礁|あんしょう}に{乗|の}り{上|あ}げる
-- Multi-sense: {垂|た}れ{流|なが}す (2: literal discharge + figurative spewing), {暗礁|あんしょう}に{乗|の}り{上|あ}げる (2: literal + figurative), {小粒|こつぶ} (2: size + figurative), それじゃあ (2: transitional + parting)
-
-Total entries: ~16,573 → ~16,603 (approximate)
-Remaining candidates: ~3,205 → ~3,175 (30 removed)
 
 ---
 
