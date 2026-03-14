@@ -1,6 +1,6 @@
 ## Session: Example Sentences
 Date: 2026-03-14
-Entries checked: 06760-06799
+Entries checked: 06760-06819
 
 ### Changes Made (batch 1: 06760-06779)
 - 06762: insufficient count per sense - added 3 examples (general, s1: 1→3, s2: 2→3)
@@ -25,11 +25,21 @@ Entries checked: 06760-06799
 - 06798: missing has_audio/notes fields - fixed 3 examples
 - 06799: insufficient count per sense + missing fields - added 5 examples (general, s1: 1→3, s2: 2→3, s3: 1→3)
 
+### Changes Made (batch 3: 06800-06819)
+- 06802: insufficient count per sense + missing fields - added 2 examples (general, s1: 2→3, s2: 2→3)
+- 06803: insufficient count + missing fields - added 1 example (core, 4→5)
+- 06808: insufficient count + missing fields - added 2 examples (core, 3→5)
+- 06811: insufficient count per sense + missing fields - added 5 examples (general, s1: 2→3, s2: 1→3, s3: 1→3)
+- 06813: insufficient count per sense + missing fields - added 2 examples (general, s1: 1→3)
+- 06814: insufficient count per sense + missing fields - added 6 examples (core, s1: 2→5, s2: 2→5)
+- 06815: insufficient count per sense + missing fields - added 6 examples (core, s1: 2→5, s2: 2→5)
+- 06819: insufficient count per sense + missing fields - added 2 examples (general, s1: 2→3, s2: 2→3)
+
 ### Summary
-- Entries checked: 40 (06760-06799)
-- Entries modified: 19 (48%)
-- Examples added: ~62
-- Main issues: insufficient per-sense counts, missing has_audio/notes fields in entries 06790-06799
+- Entries checked: 60 (06760-06819)
+- Entries modified: 27
+- Examples added: ~88
+- Main issues: insufficient per-sense counts, missing has_audio/notes fields
 
 ### Next Entry
-06800
+06820
