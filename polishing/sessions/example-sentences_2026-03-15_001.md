@@ -1,31 +1,28 @@
 ## Session: Example Sentences
 Date: 2026-03-15
-Entries checked: 06951-06979
+Entries checked: 07312-07351
 
 ### Changes Made
-- [06953]: insufficient count - added 3 examples (2 for sense 1, 1 for sense 2) to meet 3/sense minimum
-- [06956]: insufficient count - added 3 examples (1 for sense 1, 2 for sense 2), renumbered
-- [06957]: insufficient count (core) - rewrote to 10 examples (5 per sense) to meet 5/sense minimum
-- [06958]: insufficient count - added 3 examples (1 for sense 1, 2 for sense 2)
-- [06965]: insufficient count - added 3 examples (2 for sense 1, 1 for sense 2), renumbered
-- [06966]: insufficient count (core) - added 2 examples to meet 5/sense minimum
-- [06970]: insufficient count - added 3 examples (1 for sense 1, 2 for sense 2), renumbered
-- [06971]: insufficient count - added 3 examples for sense 2 (had 0)
-- [06972]: insufficient count - expanded from 3 to 9 examples (3 per sense)
-- [06974]: insufficient count - added 3 examples (2 for sense 1, 1 for sense 2), renumbered
-- [06975]: insufficient count (core) - expanded from 3 to 10 examples (5 per sense)
-- [06977]: insufficient count (core) - expanded from 3 to 10 examples (5 per sense), including 5 for previously uncovered sense 2
-- [06978]: insufficient count (core) - added 2 examples to meet 5/sense minimum
-- [06979]: insufficient count - expanded from 3 to 9 examples (3 per sense)
-
-### Entries OK (no changes needed)
-06951, 06952, 06954, 06955, 06959, 06960, 06961, 06962, 06963, 06964, 06967, 06968, 06969, 06973, 06976
+- 07313 (okubukai): insufficient count - added 3 examples for 2 senses (sense 1: 2→3, sense 2: 1→3)
+- 07314 (namanurui): insufficient count - added 3 examples for 2 senses (sense 1: 1→3, sense 2: 2→3)
+- 07315 (isagiyoi): insufficient count - added 2 examples for sense 2 coverage (1→3)
+- 07319 (kimagure): insufficient count - added 3 examples for 2 senses; reordered for proper sense grouping
+- 07320 (yamuwoenai): insufficient count - core tier, added 2 examples (3→5)
+- 07322 (okoshi): insufficient count - core tier, added 2 examples (3→5)
+- 07324 (gyoukan): insufficient count - added 3 examples for 2 senses (sense 1: 1→3, sense 2: 2→3)
+- 07327 (korekushon): insufficient count - added 3 examples for 2 senses (sense 1: 2→3, sense 2: 1→3)
+- 07335 (haisuikou): insufficient count - core tier, added 2 examples (3→5)
+- 07341 (rinku): insufficient count - added 3 examples for 2 senses (sense 1: 2→3, sense 2: 1→3)
+- 07342 (sukyan): insufficient count - added 3 examples for 2 senses (sense 1: 2→3, sense 2: 1→3)
+- 07344 (hensou): insufficient count - core tier, added 2 examples (3→5)
+- 07345 (soufu): insufficient count - core tier, added 2 examples (3→5)
 
 ### Summary
-- Entries checked: 29
-- Entries modified: 14
-- Entries OK: 15
-- Main issue: Multi-sense entries with insufficient examples per sense
+- 40 entries checked
+- 13 entries modified
+- Primary issue: multi-sense entries only had 3 total examples instead of 3 per sense; core tier entries had only 3 instead of required 5
+- No vocabulary tier violations found
+- No naturalness issues found
 
 ### Next Entry
-06980
+07352
