@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,034 |
+| Total entries | ~17,069 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,235 (open) |
-| Candidate words | ~2,745 |
+| General tier | ~14,270 (open) |
+| Candidate words | ~2,710 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 436)
+Added 35 new dictionary entries (IDs 16986-17020) from candidate_words.json:
+
+- **Nouns (16)**: {総合|そうごう} (comprehensive), {箇条書|かじょうが}き (bulleted list), {条件付|じょうけんつ}き (conditional), {助|たす}け{合|あ}い (mutual aid), {読点|とうてん} (comma), {釜飯|かまめし} (pot rice), {粗食|そしょく} (plain food), {襟元|えりもと} (neckline), {語調|ごちょう} (tone of voice), {太鼓判|たいこばん} (seal of approval), ひし{形|がた} (diamond shape), {茶菓子|ちゃがし} (tea cakes), {純金|じゅんきん} (pure gold), {高層|こうそう}ビル (skyscraper), {贅沢品|ぜいたくひん} (luxury item), {同好会|どうこうかい} (hobby club)
+- **Nouns/suru (4)**: {漂白|ひょうはく} (bleaching), {占有|せんゆう} (occupancy), {酷使|こくし} (overworking), {繁茂|はんも} (luxuriant growth)
+- **Adjectives (3)**: {受動的|じゅどうてき} (passive), {用心深|ようじんぶか}い (cautious), {高機能|こうきのう} (high-performance)
+- **Verbs (4)**: {這|は}い{出|だ}す (to crawl out), やって{来|く}る (to come along), {回避|かいひ}する (to avoid), {風車|ふうしゃ} (windmill)
+- **Other (8)**: {骨|ほね}を{折|お}る (to take pains), {育|そだ}ちが{良|よ}い (well-bred), {湯桶読|ゆとうよ}み (kun+on reading), {手押|ておし}し{車|ぐるま} (pushcart), {借地|しゃくち} (leased land), {羽音|はおと} (sound of wings), コンタクトレンズ (contact lenses), {変化|へんげ} (shape-shifting)
+
+Notable features:
+- Multi-sense: {骨|ほね}を{折|お}る (2: make effort + break bone), {変化|へんげ} (2: transformation + apparition), やって{来|く}る (2: arrive + time/season comes)
+- Cross-references: {風車|ふうしゃ} ↔ {風車|かざぐるま}, {変化|へんげ} ↔ {変化|へんか}
+- Cultural: {釜飯|かまめし} (station food), {茶菓子|ちゃがし} (tea ceremony), {湯桶読|ゆとうよ}み (kanji reading patterns)
+- Linguistics: {読点|とうてん}, {湯桶読|ゆとうよ}み
+
+Total entries: ~17,034 → ~17,069 (approximate)
+Remaining candidates: ~2,745 → ~2,710 (35 removed)
 
 ### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 435)
 Added 35 new dictionary entries (IDs 16951-16985) from candidate_words.json:
@@ -129,28 +147,6 @@ Notable features:
 
 Total entries: ~16,874 → ~16,919 (approximate)
 Remaining candidates: ~2,905 → ~2,860 (45 removed)
-
-### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 431)
-Added 45 new dictionary entries (IDs 16779-16824) from candidate_words.json:
-
-- **Nouns (24)**: {行|い}き{先|さき} (destination), {反対側|はんたいがわ} (opposite side), {会議中|かいぎちゅう} (in a meeting), {毒素|どくそ} (toxin), {作業服|さぎょうふく} (work clothes), {本革|ほんがわ} (genuine leather), {伝言板|でんごんばん} (message board), {可燃物|かねんぶつ} (burnable items), {染|し}み{抜|ぬ}き (stain removal), {客船|きゃくせん} (passenger ship), {受信箱|じゅしんばこ} (inbox), {会員制|かいいんせい} (membership system), {千代紙|ちよがみ} (chiyogami paper), {献杯|けんぱい} (memorial toast), {土産物屋|みやげものや} (souvenir shop), {昆布|こんぶ}だし (kelp stock), {催事場|さいじじょう} (event hall), {固定資産|こていしさん} (fixed assets), {養親|ようしん} (adoptive parent), {情操|じょうそう} (sentiment), {到来物|とうらいもの} (gift received), {知能指数|ちのうしすう} (IQ), {基礎代謝|きそたいしゃ} (basal metabolism), {産婦人科|さんふじんか} (OB/GYN)
-- **Nouns/suru verbs (4)**: {完遂|かんすい} (completion), {乗船|じょうせん} (boarding a ship), {重要視|じゅうようし} (regarding as important), {製材|せいざい} (lumbering)
-- **Na-adjectives (3)**: {持続的|じぞくてき} (sustainable), {枢要|すうよう} (pivotal), {繁多|はんた} (extremely busy)
-- **Adverbs/expressions (5)**: {予想通|よそうどお}り (as expected), {何|なん}としても (no matter what), {力一杯|ちからいっぱい} (with all one's strength), {口一杯|くちいっぱい} (mouthful), {他日|たじつ} (another day)
-- **Verbs (2)**: すすり{泣|な}く (to sob), {飼|か}い{慣|な}らす (to tame)
-- **Other nouns (5)**: {和文|わぶん} (Japanese text), {住民税|じゅうみんぜい} (resident tax), {極道|ごくどう} (gangster), {解毒剤|げどくざい} (antidote), {行|い}き{道|みち} (the way there)
-- **Multi-sense entries (2)**: {湯冷|ゆざ}まし (cooled water + tea vessel), {不治|ふじ}の{病|やまい} (incurable disease)
-
-Notable features:
-- Life in Japan: {可燃物|かねんぶつ}, {住民税|じゅうみんぜい}, {会員制|かいいんせい}, {催事場|さいじじょう}
-- Food/cooking: {昆布|こんぶ}だし, {湯冷|ゆざ}まし
-- Medical: {産婦人科|さんふじんか}, {毒素|どくそ}, {解毒剤|げどくざい}, {基礎代謝|きそたいしゃ}
-- Travel: {客船|きゃくせん}, {乗船|じょうせん}, {土産物屋|みやげものや}, {行|い}き{先|さき}
-- Cultural: {献杯|けんぱい}, {千代紙|ちよがみ}, {極道|ごくどう}, {到来物|とうらいもの}
-- Multi-sense: {極道|ごくどう} (2: gangster + delinquent), {湯冷|ゆざ}まし (2: cooled water + vessel)
-
-Total entries: ~16,828 → ~16,874 (approximate)
-Remaining candidates: ~2,951 → ~2,905 (46 removed)
 
 ---
 
