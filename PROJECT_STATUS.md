@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,999 |
+| Total entries | ~17,034 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,200 (open) |
-| Candidate words | ~2,780 |
+| General tier | ~14,235 (open) |
+| Candidate words | ~2,745 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 435)
+Added 35 new dictionary entries (IDs 16951-16985) from candidate_words.json:
+
+- **Nouns (16)**: {誘導|ゆうどう} (guidance), {中級|ちゅうきゅう} (intermediate level), {看病|かんびょう} (nursing), {親分|おやぶん} (boss), {抜|ぬ}け{殻|がら} (cast-off skin), {快眠|かいみん} (sound sleep), {派閥|はばつ} (faction), {年頃|としごろ} (marriageable age), {日和|ひより} (weather), {正直者|しょうじきもの} (honest person), {飴玉|あめだま} (hard candy), {愛憎|あいぞう} (love and hate), {平行線|へいこうせん} (parallel lines), {美白|びはく} (skin whitening), {万端|ばんたん} (everything), {一般公開|いっぱんこうかい} (open to public)
+- **Nouns/suru (6)**: {軽減|けいげん} (reduction), {補填|ほてん} (compensation), {礼拝|れいはい} (worship), {買|か}い{食|ぐ}い (eating snacks on the go), {完走|かんそう} (finishing a race), {腐心|ふしん} (racking one's brains)
+- **Verbs (4)**: {忍|しの}ぶ (to endure/hide), {荒|あ}れ{果|は}てる (to fall into ruin), ぼやける (to become blurry), {上塗|うわぬ}り (topcoat/cover-up)
+- **Na-adjectives (2)**: {不吉|ふきつ} (ominous), {簡便|かんべん} (handy)
+- **Other (7)**: {更|さら}なる (further), {怠|なま}け{者|もの} (lazy person), {白|しろ}ワイン (white wine), {除夜|じょや}の{鐘|かね} (New Year's Eve bell), {往生際|おうじょうぎわ}が{悪|わる}い (poor loser), {定刻|ていこく} (scheduled time), {重任|じゅうにん} (heavy responsibility)
+
+Notable features:
+- Multi-sense: {忍|しの}ぶ (3: endure + conceal + reminisce), {抜|ぬ}け{殻|がら} (2: literal + figurative), {平行線|へいこうせん} (2: geometry + deadlock), {日和|ひより} (2: weather + opportunism), {上塗|うわぬ}り (2: topcoat + cover-up)
+- Cultural: {除夜|じょや}の{鐘|かね} (New Year's Eve bell ringing), {抜|ぬ}け{殻|がら} (cicada collecting), {買|か}い{食|ぐ}い (school rules)
+- Buddhist: {往生際|おうじょうぎわ}が{悪|わる}い (from Buddhist death concept), {礼拝|れいはい}
+- New kanji: 2,550 → 2,551 ({填|てん})
+
+Total entries: ~16,999 → ~17,034 (approximate)
+Remaining candidates: ~2,780 → ~2,745 (35 removed)
 
 ### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 434)
 Added 35 new dictionary entries (IDs 16916-16950) from candidate_words.json:
@@ -133,27 +151,6 @@ Notable features:
 
 Total entries: ~16,828 → ~16,874 (approximate)
 Remaining candidates: ~2,951 → ~2,905 (46 removed)
-
-### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 430)
-Added 45 new dictionary entries (IDs 16734-16778) from candidate_words.json:
-
-- **Verbs (8)**: {追|お}いかける (to chase), うっとうしい (gloomy/annoying, i-adj), {老|ふ}ける (to age), {上|あ}がりこむ (to enter someone's house), やり{遂|と}げる (to accomplish), {切|き}り{抜|ぬ}ける (to get through), {積|つ}み{込|こ}む (to load), {反|そ}り{返|かえ}る (to bend backward)
-- **Nouns (17)**: {焼|や}きたて (freshly baked), {揚|あ}げたて (freshly fried), うつ{伏|ぶ}せ (prone position), {総菜|そうざい} (deli food), タメ{口|ぐち} (casual speech), お{代|か}わり (seconds/refill), {開封|かいふう} (opening), びしょ{濡|ぬ}れ (soaking wet), {秋雨|あきさめ} (autumn rain), {贈呈|ぞうてい} (presentation), {大安|たいあん} (lucky day), {仏滅|ぶつめつ} (unlucky day), {波風|なみかぜ} (trouble), {造成|ぞうせい} (land development), {網焼|あみや}き (net-grilled), {不信感|ふしんかん} (distrust), {懇意|こんい} (friendship)
-- **Nouns/suru verbs (5)**: {哀願|あいがん} (supplication), {贈呈|ぞうてい} (presentation), {類推|るいすい} (analogy), {迎撃|げいげき} (interception), {自己主張|じこしゅちょう} (self-assertion)
-- **Adverbs (4)**: {極力|きょくりょく} (as much as possible), その{都度|つど} (each time), {割|わり}に (comparatively), {徹頭徹尾|てっとうてつび} (thoroughly)
-- **Expressions (2)**: {念|ねん}のため (just in case), {日|ひ}が{暮|く}れる (the sun sets)
-- **Other nouns (9)**: {常設|じょうせつ} (permanent), {近日|きんじつ} (soon), {公共料金|こうきょうりょうきん} (utility bills), {試供品|しきょうひん} (free sample), {祝杯|しゅくはい} (celebratory toast), {敬老|けいろう} (respect for elders), {言付|ことづ}け (verbal message), {不衛生|ふえいせい} (unsanitary), {運転席|うんてんせき} (driver's seat)
-
-Notable features:
-- Cultural pairs: {大安|たいあん}/{仏滅|ぶつめつ} (lucky/unlucky days in rokuyo calendar)
-- Food & cooking: {焼|や}きたて, {揚|あ}げたて, {総菜|そうざい}, {網焼|あみや}き, お{代|か}わり
-- Multi-sense: {追|お}いかける (2: physical + figurative), うっとうしい (2: gloomy + annoying), {波風|なみかぜ} (2: figurative + literal), {反|そ}り{返|かえ}る (2: body + warping), {割|わり}に (2: comparatively + considering)
-- Daily life: {公共料金|こうきょうりょうきん}, {試供品|しきょうひん}, {運転席|うんてんせき}, {開封|かいふう}
-- Social/cultural: タメ{口|ぐち}, {自己主張|じこしゅちょう}, {敬老|けいろう}
-- Four-character compound: {徹頭徹尾|てっとうてつび}
-
-Total entries: ~16,783 → ~16,828 (approximate)
-Remaining candidates: ~2,996 → ~2,951 (45 removed)
 
 ---
 
