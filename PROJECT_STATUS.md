@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,069 |
+| Total entries | ~17,104 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,270 (open) |
-| Candidate words | ~2,710 |
+| General tier | ~14,305 (open) |
+| Candidate words | ~2,675 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 437)
+Added 35 new dictionary entries (IDs 17021-17055) from candidate_words.json:
+
+- **Nouns (30)**: {権力者|けんりょくしゃ} (powerful person), {完全予約制|かんぜんよやくせい} (by appointment only), {発車|はっしゃ}メロディ (departure melody), {点字|てんじ}ブロック (tactile paving), リボ{払|ばら}い (revolving payment), {一括購入|いっかつこうにゅう} (bulk purchase), {急勾配|きゅうこうばい} (steep slope), {芝刈|しばか}り{機|き} (lawn mower), {防犯登録|ぼうはんとうろく} (bicycle registration), {清涼飲料水|せいりょういんりょうすい} (soft drink), {不快指数|ふかいしすう} (discomfort index), {脂肪燃焼|しぼうねんしょう} (fat burning), {股関節|こかんせつ} (hip joint), {対面授業|たいめんじゅぎょう} (in-person class), {校友会|こうゆうかい} (alumni association), {注文票|ちゅうもんひょう} (order slip), {有形文化財|ゆうけいぶんかざい} (tangible cultural property), {内容量|ないようりょう} (net content), クレーンゲーム (claw machine), {臨時休業|りんじきゅうぎょう} (temporary closure), {冷凍保存|れいとうほぞん} (frozen storage), {軽作業|けいさぎょう} (light work), {新規参入|しんきさんにゅう} (new market entry), {三角定規|さんかくじょうぎ} (set square), {自給率|じきゅうりつ} (self-sufficiency rate), {言論|げんろん}の{自由|じゆう} (freedom of speech), {技術者|ぎじゅつしゃ} (engineer), {定額制|ていがくせい} (subscription), {取|と}り{皿|ざら} (small plate), {追突|ついとつ} (rear-end collision)
+- **Na-adjective (1)**: {流動的|りゅうどうてき} (fluid/unstable)
+- **Expression (1)**: せっかくですが (thank you, but...)
+- **Noun/suru (1)**: {充満|じゅうまん} (being filled with)
+- **Noun with cross-ref (1)**: {責任転嫁|せきにんてんか} (shifting blame)
+- **Noun (1)**: {右利|みぎき}き (right-handed)
+
+Notable features:
+- Japan-specific: {防犯登録|ぼうはんとうろく}, {発車|はっしゃ}メロディ, {点字|てんじ}ブロック, クレーンゲーム, {完全予約制|かんぜんよやくせい}
+- Business/finance: リボ{払|ばら}い, {一括購入|いっかつこうにゅう}, {定額制|ていがくせい}, {新規参入|しんきさんにゅう}
+- Daily life: {取|と}り{皿|ざら}, {内容量|ないようりょう}, {臨時休業|りんじきゅうぎょう}, {冷凍保存|れいとうほぞん}
+- Politics/society: {権力者|けんりょくしゃ}, {言論|げんろん}の{自由|じゆう}, {自給率|じきゅうりつ}
+- New kanji: 2,551 → 2,553 ({勾|こう}, {股|こ})
+
+Total entries: ~17,069 → ~17,104 (approximate)
+Remaining candidates: ~2,710 → ~2,675 (35 removed)
 
 ### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 436)
 Added 35 new dictionary entries (IDs 16986-17020) from candidate_words.json:
@@ -126,27 +146,6 @@ Notable features:
 
 Total entries: ~16,919 → ~16,964 (approximate)
 Remaining candidates: ~2,860 → ~2,815 (45 removed)
-
-### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 432)
-Added 45 new dictionary entries (IDs 16825-16869) from candidate_words.json:
-
-- **Adjectives (i-adj, 6)**: {子供|こども}っぽい (childish), {胡散臭|うさんくさ}い (shady), {重苦|おもぐる}しい (oppressive), {注意深|ちゅういぶか}い (careful), {湿|しめ}っぽい (damp/gloomy), {流暢|りゅうちょう} (fluent)
-- **Adjectives (na-adj, 7)**: {理性的|りせいてき} (rational), {非力|ひりき} (powerless), {意図的|いとてき} (intentional), {好都合|こうつごう} (convenient), {不公平|ふこうへい} (unfair), {内気|うちき} (shy), {優柔不断|ゆうじゅうふだん} (indecisive)
-- **Nouns (17)**: {洗脳|せんのう} (brainwashing), {全額|ぜんがく} (full amount), {片思|かたおも}い (unrequited love), {絶景|ぜっけい} (superb view), {万引|まんび}き (shoplifting), {悪影響|あくえいきょう} (bad influence), {古典的|こてんてき} (classical), {鳴|な}き{声|ごえ} (animal cry), {節目|ふしめ} (turning point), {敵意|てきい} (hostility), {駄作|ださく} (poor work), {等身大|とうしんだい} (life-size), {靴紐|くつひも} (shoelace), {運動靴|うんどうぐつ} (sneakers), {朝型|あさがた} (morning person), {見頃|みごろ} (peak viewing season), {梅酒|うめしゅ} (plum wine)
-- **Adverbs (4)**: {心|こころ}から (sincerely), いずれも (all/any of them), {不意|ふい}に (unexpectedly), {反射的|はんしゃてき} (reflexively)
-- **Suru verbs (4)**: {精進|しょうじん}する (to devote oneself), お{参|まい}り (shrine visit), {勧誘|かんゆう} (solicitation), {挙手|きょしゅ} (show of hands)
-- **Other (7)**: おもてなし (hospitality), お{粥|かゆ} (rice porridge), まなざし (gaze), {故意|こい} (intent), {寒|さむ}がり (cold-sensitive person), {暑|あつ}がり (heat-sensitive person), {自撮|じど}り (selfie)
-
-Notable features:
-- Multi-sense: {湿|しめ}っぽい (2: damp + gloomy), {古典的|こてんてき} (2: classical + old-fashioned), {等身大|とうしんだい} (2: life-size + authentic)
-- Antonym pair: {寒|さむ}がり/{暑|あつ}がり
-- Cultural: おもてなし, お{参|まい}り, {梅酒|うめしゅ}, お{粥|かゆ}, {見頃|みごろ}
-- Modern: {自撮|じど}り, {洗脳|せんのう}, {朝型|あさがた}
-- Four-character compound: {優柔不断|ゆうじゅうふだん}
-- New kanji: 2,544 → 2,545 (暢)
-
-Total entries: ~16,874 → ~16,919 (approximate)
-Remaining candidates: ~2,905 → ~2,860 (45 removed)
 
 ---
 
