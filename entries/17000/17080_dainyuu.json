@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.0",
+  "id": "17080_dainyuu",
+  "headword": "{代入|だいにゅう}",
+  "reading": "だいにゅう",
+  "part_of_speech": "noun",
+  "gloss": "substitution; assignment (programming)",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "substitution; assignment; plugging in a value",
+      "explanation": "In mathematics, replacing a variable with a specific value. In programming, storing a value in a variable. A fundamental concept in both fields."
+    }
+  ],
+  "examples": [
+    {
+      "id": "17080_dainyuu_ex1",
+      "japanese": "{変数|へんすう}に{値|あたい}を{代入|だいにゅう}する。",
+      "english": "To assign a value to a variable.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "17080_dainyuu_ex2",
+      "japanese": "xに3を{代入|だいにゅう}すると、{答|こた}えは10になる。",
+      "english": "If you substitute 3 for x, the answer is 10.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "17080_dainyuu_ex3",
+      "japanese": "この{代入|だいにゅう}{演算子|えんざんし}は、{右辺|うへん}の{値|あたい}を{左辺|さへん}の{変数|へんすう}に{格納|かくのう}する。",
+      "english": "This assignment operator stores the value on the right side into the variable on the left side.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    }
+  ],
+  "notes": "USAGE:\nUsed in both mathematics and programming. In math, it means plugging a value into an equation. In programming, it means assigning a value to a variable using operators like = or :=.\n\nCOMMON COLLOCATIONS:\n- {代入|だいにゅう}する (to substitute; to assign)\n- {代入|だいにゅう}{演算子|えんざんし} (assignment operator)\n- {値|あたい}を{代入|だいにゅう}する (to assign a value)\n- {代入|だいにゅう}{式|しき} (assignment expression)",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-03-15T09:52:56Z",
+    "modified": "2026-03-15T09:52:56Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": ["noun", "verb-suru"],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": ["general"],
+      "domain": ["technical"]
+    }
+  }
+}

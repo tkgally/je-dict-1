@@ -3,6 +3,9 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-15 (Vocabulary Expansion - 45 New Entries, Session 433)
+Added 45 new dictionary entries (IDs 16870-16915) from candidate_words.json. Food/cooking, body, formal language entries. New kanji: 2,545 → 2,549.
+
 ### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 429)
 Added 45 new dictionary entries (IDs 16689-16733) from candidate_words.json:
 
