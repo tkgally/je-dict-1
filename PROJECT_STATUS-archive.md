@@ -3,6 +3,17 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 429)
+Added 45 new dictionary entries (IDs 16689-16733) from candidate_words.json:
+
+- **Nouns (19)**: {北極|ほっきょく} (North Pole), {仲人|なこうど} (matchmaker), {役場|やくば} (town hall), {家柄|いえがら} (family lineage), {寝息|ねいき} (sleeping breath), {秒読|びょうよ}み (countdown), {新記録|しんきろく} (new record), {安定感|あんていかん} (sense of stability), {稼|かせ}ぎ{時|どき} (peak earning time), {真横|まよこ} (right beside), {真向|まむ}かい (directly opposite), {難題|なんだい} (difficult problem), {成金|なりきん} (nouveau riche), {平社員|ひらしゃいん} (rank-and-file employee), {足止|あしど}め (being stranded), {口先|くちさき} (lip service), {滑舌|かつぜつ} (articulation), {神主|かんぬし} (Shinto priest), {太|ふと}もも (thigh)
+- **Nouns/suru verbs (7)**: {完備|かんび} (fully equipped), {造園|ぞうえん} (landscaping), {野営|やえい} (camping), {設営|せつえい} (setting up), {終息|しゅうそく} (ending), {当惑|とうわく} (bewilderment), {節制|せっせい} (moderation)
+- **Nouns/na-adj (5)**: {短命|たんめい} (short-lived), {上出来|じょうでき} (well done), {不出来|ふでき} (poorly done), {互角|ごかく} (evenly matched), {好評|こうひょう} (favorable reception)
+- **Other (14)**: {後|うし}ろ{向|む}き (backward/pessimistic), {的外|まとはず}れ (off the mark), {実物大|じつぶつだい} (life-size), {酷評|こくひょう} (harsh criticism), {金縛|かなしば}り (sleep paralysis), {寝坊|ねぼう}する (to oversleep), {息抜|いきぬ}き (breather), {気晴|きば}らし (diversion), {初夢|はつゆめ} (first dream of year), {軽|けい}トラ (kei truck), {何|なん}だか (somehow), うなされる (to have a nightmare), {色|いろ}あせる (to fade), {買|か}い{取|と}る (to buy up)
+
+Total entries: ~16,738 → ~16,783 (approximate)
+Remaining candidates: ~3,041 → ~2,996 (45 removed)
+
 ### 2026-03-12 (Vocabulary Expansion - 30 New Entries, Session 422)
 Added 30 new dictionary entries (IDs 16433-16462) from candidate_words.json:
 
