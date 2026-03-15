@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,964 |
+| Total entries | ~16,999 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,165 (open) |
-| Candidate words | ~2,815 |
+| General tier | ~14,200 (open) |
+| Candidate words | ~2,780 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 434)
+Added 35 new dictionary entries (IDs 16916-16950) from candidate_words.json:
+
+- **Expressions (10)**: {何|なに}が{何|なん}でも (no matter what), {姿|すがた}を{現|あらわ}す (to appear), {顔|かお}を{合|あ}わせる (to meet face-to-face), {気分|きぶん}が{晴|は}れる (to feel refreshed), {先|さき}を{越|こ}す (to beat someone to it), {一抹|いちまつ}の{不安|ふあん} (a touch of anxiety), {汗|あせ}をかく (to sweat), {滅相|めっそう}もない (don't be absurd), {言|い}い{逃|のが}れ (excuse/evasion), {踏|ふ}ん{張|ば}りどころ (crucial moment)
+- **Nouns (14)**: {居住者|きょじゅうしゃ} (resident), {情報開示|じょうほうかいじ} (information disclosure), {摩天楼|まてんろう} (skyscraper), {御朱印|ごしゅいん} (shrine/temple seal), ひったくり (purse snatching), {中吊|なかづ}り (train hanging ad), {漂着|ひょうちゃく} (drifting ashore), {焙煎|ばいせん} (roasting), {緊急事態|きんきゅうじたい} (state of emergency), {収拾|しゅうしゅう} (settling), {稼働|かどう} (operation), {規格|きかく} (standard), {収集家|しゅうしゅうか} (collector), {世論調査|よろんちょうさ} (opinion poll)
+- **Nouns (5 more)**: {慈善|じぜん} (charity), {幾何学|きかがく} (geometry), {早合点|はやがてん} (jumping to conclusions), {靴擦|くつず}れ (shoe blister), {準備体操|じゅんびたいそう} (warm-up exercises), {無人島|むじんとう} (uninhabited island)
+- **Na-adjective (1)**: {不審|ふしん} (suspicious)
+- **Adverb (1)**: さほど (not so much)
+- **Verbs (3)**: ハラハラする (to be on edge), {光|ひか}り{輝|かがや}く (to shine brilliantly), {指|さ}し{示|しめ}す (to indicate)
+
+Notable features:
+- Diverse word types: expressions, nouns, verbs, adverb, na-adjective
+- Cultural: {御朱印|ごしゅいん} (temple/shrine seals), {中吊|なかづ}り (train ads), {摩天楼|まてんろう}
+- Multi-sense: {汗|あせ}をかく (2: literal sweat + figurative effort), {光|ひか}り{輝|かがや}く (2: literal + figurative), {指|さ}し{示|しめ}す (2: physical pointing + abstract indication)
+- Homophone distinctions: {不審|ふしん} vs {不振|ふしん}, {収拾|しゅうしゅう} vs {収集|しゅうしゅう}, {規格|きかく} vs {企画|きかく}, {慈善|じぜん} vs {事前|じぜん}, {稼働|かどう} vs {華道|かどう}
+- New kanji: 2,549 → 2,550 ({焙|ばい})
+
+Total entries: ~16,964 → ~16,999 (approximate)
+Remaining candidates: ~2,815 → ~2,780 (35 removed)
 
 ### 2026-03-15 (Vocabulary Expansion - 45 New Entries, Session 433)
 Added 45 new dictionary entries (IDs 16870-16915) from candidate_words.json:
@@ -134,36 +154,6 @@ Notable features:
 
 Total entries: ~16,783 → ~16,828 (approximate)
 Remaining candidates: ~2,996 → ~2,951 (45 removed)
-
-### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 429)
-Added 45 new dictionary entries (IDs 16689-16733) from candidate_words.json:
-
-- **Nouns (19)**: {北極|ほっきょく} (North Pole), {仲人|なこうど} (matchmaker), {役場|やくば} (town hall), {家柄|いえがら} (family lineage), {寝息|ねいき} (sleeping breath), {秒読|びょうよ}み (countdown), {新記録|しんきろく} (new record), {安定感|あんていかん} (sense of stability), {稼|かせ}ぎ{時|どき} (peak earning time), {真横|まよこ} (right beside), {真向|まむ}かい (directly opposite), {難題|なんだい} (difficult problem), {成金|なりきん} (nouveau riche), {平社員|ひらしゃいん} (rank-and-file employee), {足止|あしど}め (being stranded), {口先|くちさき} (lip service), {滑舌|かつぜつ} (articulation), {神主|かんぬし} (Shinto priest), {太|ふと}もも (thigh)
-- **Nouns/suru verbs (7)**: {完備|かんび} (fully equipped), {造園|ぞうえん} (landscaping), {野営|やえい} (camping), {設営|せつえい} (setting up), {終息|しゅうそく} (ending), {当惑|とうわく} (bewilderment), {節制|せっせい} (moderation)
-- **Nouns/na-adj (5)**: {短命|たんめい} (short-lived), {上出来|じょうでき} (well done), {不出来|ふでき} (poorly done), {互角|ごかく} (evenly matched), {好評|こうひょう} (favorable reception)
-- **Nouns + other (3)**: {後|うし}ろ{向|む}き (backward/pessimistic), {的外|まとはず}れ (off the mark), {実物大|じつぶつだい} (life-size)
-- **Noun/suru verb (1)**: {酷評|こくひょう} (harsh criticism)
-- **Noun/suru verb (1)**: {金縛|かなしば}り (sleep paralysis)
-- **Noun/suru verb (1)**: {寝坊|ねぼう}する (to oversleep)
-- **Noun/suru verb (1)**: {息抜|いきぬ}き (breather)
-- **Noun (1)**: {気晴|きば}らし (diversion)
-- **Noun (1)**: {初夢|はつゆめ} (first dream of year)
-- **Noun (1)**: {軽|けい}トラ (kei truck)
-- **Adverb (1)**: {何|なん}だか (somehow)
-- **Verb (ichidan) (1)**: うなされる (to have a nightmare)
-- **Verb (ichidan) (1)**: {色|いろ}あせる (to fade)
-- **Verb (godan) (1)**: {買|か}い{取|と}る (to buy up)
-
-Notable features:
-- Multi-sense: {後|うし}ろ{向|む}き (2: physical + figurative), {金縛|かなしば}り (2: sleep paralysis + bound), {成金|なりきん} (2: nouveau riche + shogi), {口先|くちさき} (2: lip service + way of speaking), {色|いろ}あせる (2: physical fading + figurative)
-- Antonym pairs: {上出来|じょうでき}/{不出来|ふでき}, {好評|こうひょう}/{酷評|こくひょう}
-- Near-synonym pair: {息抜|いきぬ}き/{気晴|きば}らし
-- Cultural: {初夢|はつゆめ}, {仲人|なこうど}, {成金|なりきん}, {神主|かんぬし}
-- Body parts: {太|ふと}もも, {滑舌|かつぜつ}
-- Daily life: {寝坊|ねぼう}する, {足止|あしど}め, {軽|けい}トラ
-
-Total entries: ~16,738 → ~16,783 (approximate)
-Remaining candidates: ~3,041 → ~2,996 (45 removed)
 
 ---
 
