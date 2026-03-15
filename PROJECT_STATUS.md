@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-14
+**Last updated**: 2026-03-15
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~16,874 |
+| Total entries | ~16,964 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,075 (open) |
-| Candidate words | ~2,905 |
+| General tier | ~14,165 (open) |
+| Candidate words | ~2,815 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-15 (Vocabulary Expansion - 45 New Entries, Session 433)
+Added 45 new dictionary entries (IDs 16870-16915) from candidate_words.json:
+
+- **Nouns (17)**: {喧騒|けんそう} (tumult), {卸売|おろしう}り (wholesale), {移譲|いじょう} (transfer), {習練|しゅうれん} (training), {振付|ふりつけ} (choreography), {鮪|まぐろ} (tuna), {玉|たま}ねぎ (onion), {隔日|かくじつ} (every other day), {方策|ほうさく} (plan), {二重|にじゅう} (double), ふくらはぎ (calf), {敷布団|しきぶとん} (futon mattress), {小食|しょうしょく} (light eater), {歩留|ぶどま}り (yield rate), {洋紙|ようし} (western paper), {賛助|さんじょ} (sponsorship), {蜜柑|みかん} (mandarin orange)
+- **Na-adjectives (7)**: {稀少|きしょう} (rare), しとやか (graceful), {疎|まば}ら (sparse), {日常的|にちじょうてき} (daily), {不急|ふきゅう} (non-urgent), {硬質|こうしつ} (hard), {無恥|むち} (shameless)
+- **Verbs (6)**: {憐|あわ}れむ (to pity), {揚|あ}げる (to deep-fry), {怯|ひる}む (to flinch), まどろむ (to slumber), {寛|くつろ}ぐ (to relax), {煎|い}る (to roast)
+- **Nouns/suru (4)**: {度忘|どわす}れ (memory lapse), {興隆|こうりゅう} (prosperity), {修業|しゅぎょう} (apprenticeship), {不承知|ふしょうち} (disapproval)
+- **Other (11)**: つぼみ (bud), なぞなぞ (riddle), しゃもじ (rice paddle), ウトウト (dozing off), スリ (pickpocket), なんで (why), もしくは (or), {或|ある}いは (or/possibly), {釈然|しゃくぜん}としない (unconvinced), {初等|しょとう} (elementary), {仰|おっしゃ}る{通|とお}り (just as you say)
+- **I-adjective (1)**: {見窄|みすぼ}らしい (shabby)
+
+Notable features:
+- Food/cooking: {鮪|まぐろ}, {玉|たま}ねぎ, {蜜柑|みかん}, しゃもじ, {煎|い}る, {揚|あ}げる, {小食|しょうしょく}
+- Body: ふくらはぎ, ウトウト, まどろむ
+- Formal language: もしくは, {或|ある}いは, {仰|おっしゃ}る{通|とお}り, {釈然|しゃくぜん}としない
+- Multi-sense: {或|ある}いは (2: or + possibly)
+- New kanji: 2,545 → 2,549 ({憐|れん}, {或|わく}, {窄|さく}, {鮪|い})
+
+Total entries: ~16,919 → ~16,964 (approximate)
+Remaining candidates: ~2,860 → ~2,815 (45 removed)
 
 ### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 432)
 Added 45 new dictionary entries (IDs 16825-16869) from candidate_words.json:
@@ -144,31 +164,6 @@ Notable features:
 
 Total entries: ~16,738 → ~16,783 (approximate)
 Remaining candidates: ~3,041 → ~2,996 (45 removed)
-
-### 2026-03-14 (Vocabulary Expansion - 45 New Entries, Session 428)
-Added 45 new dictionary entries (IDs 16644-16688) from candidate_words.json:
-
-- **Nouns (28)**: {源氏|げんじ} (Genji clan), {遊女|ゆうじょ} (courtesan), {連用形|れんようけい} (continuative form), {玩具|がんぐ} (toy, formal), {日系企業|にっけいきぎょう} (Japanese company overseas), {上水道|じょうすいどう} (water supply), {一党|いっとう} (faction), {中間報告|ちゅうかんほうこく} (interim report), {収容人数|しゅうようにんずう} (capacity), {潜伏期間|せんぷくきかん} (incubation period), {直流|ちょくりゅう} (direct current), {教材費|きょうざいひ} (teaching materials cost), {自己推薦|じこすいせん} (self-recommendation), {広告媒体|こうこくばいたい} (advertising medium), {酸素|さんそ}ボンベ (oxygen tank), {事務机|じむづくえ} (office desk), {学習机|がくしゅうづくえ} (study desk), {月度|げつど} (monthly period), {本籍地|ほんせきち} (registered domicile), {種本|たねほん} (source book), {指導案|しどうあん} (lesson plan), {豆電球|まめでんきゅう} (miniature bulb), {氷菓子|こおりがし} (frozen treat), {湯沸|ゆわ}かし{器|き} (water heater), {話題作|わだいづく}り (creating buzz), {格助詞|かくじょし} (case particle), {産学連携|さんがくれんけい} (industry-academia), {聖徳太子|しょうとくたいし} (Prince Shotoku)
-- **Nouns (business pair)**: {小売業|こうりぎょう} (retail trade), {卸売業|おろしうりぎょう} (wholesale trade)
-- **Nouns (speed pair)**: {秒速|びょうそく} (per second), {分速|ふんそく} (per minute)
-- **Nouns (other)**: {一昨日|いっさくじつ} (day before yesterday, formal), {愛想笑|あいそわら}い (forced smile), {暇|ひま}つぶし (killing time), {一時間半|いちじかんはん} (hour and a half)
-- **Nouns/no-adj (3)**: {粒状|りゅうじょう} (granular), {煎|い}り{立|た}て (freshly roasted), {防|ぼう}カビ (anti-mold)
-- **Na-adjective/noun (1)**: {爆安|ばくやす} (dirt cheap)
-- **Pre-noun adjectival (1)**: {適|てき}した (suitable)
-- **Adverbs (2)**: ああして (like that), {年々歳々|ねんねんさいさい} (year after year)
-- **Verb (1)**: {見向|みむ}く (to look toward)
-- **Noun (historical) (1)**: どん{尻|じり} (dead last)
-
-Notable features:
-- Multi-sense: {源氏|げんじ} (2: Minamoto clan + Tale of Genji)
-- Grammar/linguistics: {連用形|れんようけい}, {格助詞|かくじょし}
-- Historical/cultural: {聖徳太子|しょうとくたいし}, {源氏|げんじ}, {遊女|ゆうじょ}
-- Modern life: {爆安|ばくやす}, {日系企業|にっけいきぎょう}, {話題作|わだいづく}り
-- Paired entries: {小売業|こうりぎょう}/{卸売業|おろしうりぎょう}, {秒速|びょうそく}/{分速|ふんそく}, {事務机|じむづくえ}/{学習机|がくしゅうづくえ}
-- New kanji: 2,543 → 2,544 (玩)
-
-Total entries: ~16,693 → ~16,738 (approximate)
-Remaining candidates: ~3,086 → ~3,041 (45 removed)
 
 ---
 
