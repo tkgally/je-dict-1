@@ -1,6 +1,6 @@
 # New Entry Creation Prompt
 
-Add 45 new entries to the Japanese-English learner's dictionary from candidate_words.json.
+Add 35 new entries to the Japanese-English learner's dictionary from candidate_words.json.
 
 ## Session Workflow
 
@@ -28,7 +28,7 @@ Add 45 new entries to the Japanese-English learner's dictionary from candidate_w
      - `{id_range}` is the ID rounded down to nearest 500 (e.g., 10207 → 10000)
      - `{id}_{romaji}` is the entry ID (e.g., 10207_asari)
 
-3. **After all 45 entries**:
+3. **After all 35 entries**:
    ```bash
    python3 build/validate.py          # Fix any errors before continuing
    python3 build/find_missing_furigana.py | head -60  # Check for missing furigana in notes
