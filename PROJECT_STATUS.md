@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,104 |
+| Total entries | ~17,139 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,305 (open) |
-| Candidate words | ~2,675 |
+| General tier | ~14,340 (open) |
+| Candidate words | ~2,640 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 438)
+Added 35 new dictionary entries (IDs 17056-17090) from candidate_words.json:
+
+- **Nouns (23)**: {事務局|じむきょく} (secretariat), お{酌|しゃく} (serving alcohol), {体|からだ}つき (body build), {僻地|へきち} (remote area), {引数|ひきすう} (argument/parameter), {近畿|きんき} (Kinki region), {資金調達|しきんちょうたつ} (fundraising), {再開発|さいかいはつ} (redevelopment), {給与明細|きゅうよめいさい} (pay stub), {定例会|ていれいかい} (regular meeting), {団体客|だんたいきゃく} (group tourists), {道路工事|どうろこうじ} (road work), {懸念事項|けねんじこう} (matters of concern), {歩数計|ほすうけい} (pedometer), {全巻|ぜんかん} (complete set), {判断材料|はんだんざいりょう} (basis for judgment), {寄稿|きこう} (article contribution), {来襲|らいしゅう} (raid), {凶行|きょうこう} (violent act), {代入|だいにゅう} (assignment), {休止|きゅうし} (suspension), {所有権|しょゆうけん} (ownership), {市街地|しがいち} (urban area), {最新鋭|さいしんえい} (state-of-the-art), {支持率|しじりつ} (approval rating), {不測|ふそく}の{事態|じたい} (unforeseen circumstances)
+- **Adjective (2)**: {無情|むじょう} (heartless), {説教臭|せっきょうくさ}い (preachy)
+- **Verbs (2)**: {酌|く}み{交|か}わす (to exchange cups), {遅|おく}らす (to delay)
+- **Adverb (1)**: {追|お}って (later, in due course)
+- **Suffix (1)**: {御中|おんちゅう} (addressed to organization)
+- **Other (4)**: {荷下|にお}ろし (unloading), {割増|わりまし} (surcharge), {農具|のうぐ} (farming tool)
+
+Notable features:
+- Business/work: {事務局|じむきょく}, {資金調達|しきんちょうたつ}, {給与明細|きゅうよめいさい}, {定例会|ていれいかい}, {懸念事項|けねんじこう}, {割増|わりまし}
+- Politics/news: {支持率|しじりつ}, {凶行|きょうこう}, {来襲|らいしゅう}, {不測|ふそく}の{事態|じたい}
+- Technical: {引数|ひきすう}, {代入|だいにゅう}, {最新鋭|さいしんえい}
+- Culture: お{酌|しゃく}, {酌|く}み{交|か}わす, {近畿|きんき}, {御中|おんちゅう}
+- New kanji: 2,553 → 2,555 ({僻|へき}, {畿|き})
+
+Total entries: ~17,104 → ~17,139 (approximate)
+Remaining candidates: ~2,675 → ~2,640 (35 removed)
 
 ### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 437)
 Added 35 new dictionary entries (IDs 17021-17055) from candidate_words.json:
@@ -126,26 +146,6 @@ Notable features:
 
 Total entries: ~16,964 → ~16,999 (approximate)
 Remaining candidates: ~2,815 → ~2,780 (35 removed)
-
-### 2026-03-15 (Vocabulary Expansion - 45 New Entries, Session 433)
-Added 45 new dictionary entries (IDs 16870-16915) from candidate_words.json:
-
-- **Nouns (17)**: {喧騒|けんそう} (tumult), {卸売|おろしう}り (wholesale), {移譲|いじょう} (transfer), {習練|しゅうれん} (training), {振付|ふりつけ} (choreography), {鮪|まぐろ} (tuna), {玉|たま}ねぎ (onion), {隔日|かくじつ} (every other day), {方策|ほうさく} (plan), {二重|にじゅう} (double), ふくらはぎ (calf), {敷布団|しきぶとん} (futon mattress), {小食|しょうしょく} (light eater), {歩留|ぶどま}り (yield rate), {洋紙|ようし} (western paper), {賛助|さんじょ} (sponsorship), {蜜柑|みかん} (mandarin orange)
-- **Na-adjectives (7)**: {稀少|きしょう} (rare), しとやか (graceful), {疎|まば}ら (sparse), {日常的|にちじょうてき} (daily), {不急|ふきゅう} (non-urgent), {硬質|こうしつ} (hard), {無恥|むち} (shameless)
-- **Verbs (6)**: {憐|あわ}れむ (to pity), {揚|あ}げる (to deep-fry), {怯|ひる}む (to flinch), まどろむ (to slumber), {寛|くつろ}ぐ (to relax), {煎|い}る (to roast)
-- **Nouns/suru (4)**: {度忘|どわす}れ (memory lapse), {興隆|こうりゅう} (prosperity), {修業|しゅぎょう} (apprenticeship), {不承知|ふしょうち} (disapproval)
-- **Other (11)**: つぼみ (bud), なぞなぞ (riddle), しゃもじ (rice paddle), ウトウト (dozing off), スリ (pickpocket), なんで (why), もしくは (or), {或|ある}いは (or/possibly), {釈然|しゃくぜん}としない (unconvinced), {初等|しょとう} (elementary), {仰|おっしゃ}る{通|とお}り (just as you say)
-- **I-adjective (1)**: {見窄|みすぼ}らしい (shabby)
-
-Notable features:
-- Food/cooking: {鮪|まぐろ}, {玉|たま}ねぎ, {蜜柑|みかん}, しゃもじ, {煎|い}る, {揚|あ}げる, {小食|しょうしょく}
-- Body: ふくらはぎ, ウトウト, まどろむ
-- Formal language: もしくは, {或|ある}いは, {仰|おっしゃ}る{通|とお}り, {釈然|しゃくぜん}としない
-- Multi-sense: {或|ある}いは (2: or + possibly)
-- New kanji: 2,545 → 2,549 ({憐|れん}, {或|わく}, {窄|さく}, {鮪|い})
-
-Total entries: ~16,919 → ~16,964 (approximate)
-Remaining candidates: ~2,860 → ~2,815 (45 removed)
 
 ---
 

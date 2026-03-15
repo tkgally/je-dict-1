@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.0",
+  "id": "17060_hikisuu",
+  "headword": "{引数|ひきすう}",
+  "reading": "ひきすう",
+  "part_of_speech": "noun",
+  "gloss": "argument; parameter",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "argument; parameter (in programming or mathematics)",
+      "explanation": "A value passed to a function, method, or command. In programming, the input data that a function receives to produce a result. Also used in mathematics for the independent variable of a function."
+    }
+  ],
+  "examples": [
+    {
+      "id": "17060_hikisuu_ex1",
+      "japanese": "この{関数|かんすう}は{引数|ひきすう}を{二|ふた}つ{取|と}る。",
+      "english": "This function takes two arguments.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "17060_hikisuu_ex2",
+      "japanese": "{引数|ひきすう}に{文字列|もじれつ}を{渡|わた}してください。",
+      "english": "Please pass a string as the argument.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    },
+    {
+      "id": "17060_hikisuu_ex3",
+      "japanese": "{引数|ひきすう}の{数|かず}が{間違|まちが}っていたので、エラーが{出|で}た。",
+      "english": "An error occurred because the number of arguments was wrong.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [1]
+    }
+  ],
+  "notes": "USAGE:\nPrimarily a technical term used in programming and mathematics. Pronounced ひきすう, not いんすう (which means \"factor\" in math). Very common in Japanese programming documentation.\n\nCOMMON COLLOCATIONS:\n- {引数|ひきすう}を{渡|わた}す (to pass an argument)\n- {引数|ひきすう}を{取|と}る (to take an argument)\n- {省略可能|しょうりゃくかのう}な{引数|ひきすう} (optional argument)\n- コマンドライン{引数|ひきすう} (command-line argument)\n\nSIMILAR WORDS:\n- パラメータ: parameter — often used interchangeably, but technically the variable name in a function definition\n- {戻|もど}り{値|ち}: return value — the output of a function, as opposed to the input",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-03-15T09:46:42Z",
+    "modified": "2026-03-15T09:46:42Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": ["noun"],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": ["general"],
+      "domain": ["technical"]
+    }
+  }
+}
