@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-15
+**Last updated**: 2026-03-16
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,139 |
+| Total entries | ~17,174 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,340 (open) |
-| Candidate words | ~2,640 |
+| General tier | ~14,375 (open) |
+| Candidate words | ~2,605 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 439)
+Added 35 new dictionary entries (IDs 17091-17125) from candidate_words.json:
+
+- **Nouns (22)**: {責務|せきむ} (duty), {清算|せいさん} (settlement), {全焼|ぜんしょう} (total fire), {証券|しょうけん} (securities), {北米|ほくべい} (North America), {面接官|めんせつかん} (interviewer), {対岸|たいがん} (opposite shore), {片面|かためん} (one side), {蓮華|れんげ} (soup spoon/lotus), {燃|も}えるゴミ (burnable garbage), {尊敬語|そんけいご} (honorific language), {頻出|ひんしゅつ} (frequent occurrence), {危篤|きとく} (critical condition), {販促|はんそく} (sales promotion), {健忘|けんぼう} (forgetfulness), {酒造|しゅぞう} (sake brewing), {私学|しがく} (private school), {救援物資|きゅうえんぶっし} (relief supplies), {許容量|きょようりょう} (tolerance), {絶世|ぜっせい} (peerless), {義理|ぎり}の{父|ちち} (father-in-law), {仕事|しごと}{中毒|ちゅうどく} (workaholic)
+- **Adjective (1)**: {素早|すばや}い (quick)
+- **Verbs (5)**: {泡立|あわだ}つ (to foam), {連|つ}れ{出|だ}す (to take out), {抑制|よくせい}する (to suppress), {圧倒|あっとう}する (to overwhelm), {乗馬|じょうば} (horse riding)
+- **Adverb (1)**: {一年中|いちねんじゅう} (all year round)
+- **Nouns (4)**: {成人病|せいじんびょう} (lifestyle disease), {官公庁|かんこうちょう} (government offices), {婚約者|こんやくしゃ} (fiancé), {自問自答|じもんじとう} (self-questioning)
+- **Expression (1)**: {耳|みみ}にする (to hear)
+- **Compound noun (1)**: {売|う}り{出|だ}し (bargain sale/debut)
+
+Notable features:
+- Daily life: {燃|も}えるゴミ, {蓮華|れんげ}, {片面|かためん}, {売|う}り{出|だ}し
+- Business/finance: {証券|しょうけん}, {販促|はんそく}, {清算|せいさん}, {面接官|めんせつかん}
+- Language/education: {尊敬語|そんけいご}, {頻出|ひんしゅつ}, {私学|しがく}
+- Medical: {危篤|きとく}, {健忘|けんぼう}, {成人病|せいじんびょう}
+- Family: {義理|ぎり}の{父|ちち}, {婚約者|こんやくしゃ}
+
+Total entries: ~17,139 → ~17,174 (approximate)
+Remaining candidates: ~2,640 → ~2,605 (35 removed)
 
 ### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 438)
 Added 35 new dictionary entries (IDs 17056-17090) from candidate_words.json:
@@ -126,26 +147,6 @@ Notable features:
 
 Total entries: ~16,999 → ~17,034 (approximate)
 Remaining candidates: ~2,780 → ~2,745 (35 removed)
-
-### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 434)
-Added 35 new dictionary entries (IDs 16916-16950) from candidate_words.json:
-
-- **Expressions (10)**: {何|なに}が{何|なん}でも (no matter what), {姿|すがた}を{現|あらわ}す (to appear), {顔|かお}を{合|あ}わせる (to meet face-to-face), {気分|きぶん}が{晴|は}れる (to feel refreshed), {先|さき}を{越|こ}す (to beat someone to it), {一抹|いちまつ}の{不安|ふあん} (a touch of anxiety), {汗|あせ}をかく (to sweat), {滅相|めっそう}もない (don't be absurd), {言|い}い{逃|のが}れ (excuse/evasion), {踏|ふ}ん{張|ば}りどころ (crucial moment)
-- **Nouns (14)**: {居住者|きょじゅうしゃ} (resident), {情報開示|じょうほうかいじ} (information disclosure), {摩天楼|まてんろう} (skyscraper), {御朱印|ごしゅいん} (shrine/temple seal), ひったくり (purse snatching), {中吊|なかづ}り (train hanging ad), {漂着|ひょうちゃく} (drifting ashore), {焙煎|ばいせん} (roasting), {緊急事態|きんきゅうじたい} (state of emergency), {収拾|しゅうしゅう} (settling), {稼働|かどう} (operation), {規格|きかく} (standard), {収集家|しゅうしゅうか} (collector), {世論調査|よろんちょうさ} (opinion poll)
-- **Nouns (5 more)**: {慈善|じぜん} (charity), {幾何学|きかがく} (geometry), {早合点|はやがてん} (jumping to conclusions), {靴擦|くつず}れ (shoe blister), {準備体操|じゅんびたいそう} (warm-up exercises), {無人島|むじんとう} (uninhabited island)
-- **Na-adjective (1)**: {不審|ふしん} (suspicious)
-- **Adverb (1)**: さほど (not so much)
-- **Verbs (3)**: ハラハラする (to be on edge), {光|ひか}り{輝|かがや}く (to shine brilliantly), {指|さ}し{示|しめ}す (to indicate)
-
-Notable features:
-- Diverse word types: expressions, nouns, verbs, adverb, na-adjective
-- Cultural: {御朱印|ごしゅいん} (temple/shrine seals), {中吊|なかづ}り (train ads), {摩天楼|まてんろう}
-- Multi-sense: {汗|あせ}をかく (2: literal sweat + figurative effort), {光|ひか}り{輝|かがや}く (2: literal + figurative), {指|さ}し{示|しめ}す (2: physical pointing + abstract indication)
-- Homophone distinctions: {不審|ふしん} vs {不振|ふしん}, {収拾|しゅうしゅう} vs {収集|しゅうしゅう}, {規格|きかく} vs {企画|きかく}, {慈善|じぜん} vs {事前|じぜん}, {稼働|かどう} vs {華道|かどう}
-- New kanji: 2,549 → 2,550 ({焙|ばい})
-
-Total entries: ~16,964 → ~16,999 (approximate)
-Remaining candidates: ~2,815 → ~2,780 (35 removed)
 
 ---
 
