@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,174 |
+| Total entries | ~17,209 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,375 (open) |
-| Candidate words | ~2,605 |
+| General tier | ~14,410 (open) |
+| Candidate words | ~2,570 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,000 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 440)
+Added 35 new dictionary entries (IDs 17126-17160) from candidate_words.json:
+
+- **Nouns (22)**: {前書|まえが}き (preface), {敷物|しきもの} (rug), {留|と}め{具|ぐ} (fastener), {形跡|けいせき} (traces), {種子|しゅし} (seed), {諸君|しょくん} (everyone), {合金|ごうきん} (alloy), {貴金属|ききんぞく} (precious metal), {茶筒|ちゃづつ} (tea caddy), {同世代|どうせだい} (same generation), {大文字|おおもじ} (uppercase), {甘味処|かんみどころ} (sweets shop), {全盛|ぜんせい} (heyday), {別冊|べっさつ} (supplement), {祝賀会|しゅくがかい} (celebration), {野外|やがい} (outdoors), {副食|ふくしょく} (side dish), {飴細工|あめざいく} (candy sculpture), {同調圧力|どうちょうあつりょく} (peer pressure), {知識人|ちしきじん} (intellectual), {客観性|きゃっかんせい} (objectivity), {無断欠勤|むだんけっきん} (unauthorized absence)
+- **Na-adjectives (2)**: {不健康|ふけんこう} (unhealthy), {自主的|じしゅてき} (voluntary)
+- **Noun/suru verbs (10)**: {楽観|らっかん} (optimism), {追記|ついき} (postscript), {失効|しっこう} (expiration), {提言|ていげん} (proposal), {潜伏|せんぷく} (hiding/latency), {登用|とうよう} (appointment), {嘱託|しょくたく} (contract worker), {合理化|ごうりか} (rationalization), {餓死|がし} (starvation), {過熱|かねつ} (overheating)
+- **Expression (1)**: {早寝早起|はやねはやお}き (early to bed, early to rise)
+
+Notable features:
+- Society/culture: {同調圧力|どうちょうあつりょく}, {知識人|ちしきじん}, {甘味処|かんみどころ}, {飴細工|あめざいく}
+- Business/work: {登用|とうよう}, {嘱託|しょくたく}, {合理化|ごうりか}, {無断欠勤|むだんけっきん}, {提言|ていげん}
+- Materials: {合金|ごうきん}, {貴金属|ききんぞく}
+- Daily life: {敷物|しきもの}, {留|と}め{具|ぐ}, {茶筒|ちゃづつ}, {包装|ほうそう}
+- New kanji: 2,555 → 2,557 ({嘱|しょく}, {餓|が})
+
+Total entries: ~17,174 → ~17,209 (approximate)
+Remaining candidates: ~2,605 → ~2,570 (35 removed)
 
 ### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 439)
 Added 35 new dictionary entries (IDs 17091-17125) from candidate_words.json:
@@ -129,24 +147,6 @@ Notable features:
 
 Total entries: ~17,034 → ~17,069 (approximate)
 Remaining candidates: ~2,745 → ~2,710 (35 removed)
-
-### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 435)
-Added 35 new dictionary entries (IDs 16951-16985) from candidate_words.json:
-
-- **Nouns (16)**: {誘導|ゆうどう} (guidance), {中級|ちゅうきゅう} (intermediate level), {看病|かんびょう} (nursing), {親分|おやぶん} (boss), {抜|ぬ}け{殻|がら} (cast-off skin), {快眠|かいみん} (sound sleep), {派閥|はばつ} (faction), {年頃|としごろ} (marriageable age), {日和|ひより} (weather), {正直者|しょうじきもの} (honest person), {飴玉|あめだま} (hard candy), {愛憎|あいぞう} (love and hate), {平行線|へいこうせん} (parallel lines), {美白|びはく} (skin whitening), {万端|ばんたん} (everything), {一般公開|いっぱんこうかい} (open to public)
-- **Nouns/suru (6)**: {軽減|けいげん} (reduction), {補填|ほてん} (compensation), {礼拝|れいはい} (worship), {買|か}い{食|ぐ}い (eating snacks on the go), {完走|かんそう} (finishing a race), {腐心|ふしん} (racking one's brains)
-- **Verbs (4)**: {忍|しの}ぶ (to endure/hide), {荒|あ}れ{果|は}てる (to fall into ruin), ぼやける (to become blurry), {上塗|うわぬ}り (topcoat/cover-up)
-- **Na-adjectives (2)**: {不吉|ふきつ} (ominous), {簡便|かんべん} (handy)
-- **Other (7)**: {更|さら}なる (further), {怠|なま}け{者|もの} (lazy person), {白|しろ}ワイン (white wine), {除夜|じょや}の{鐘|かね} (New Year's Eve bell), {往生際|おうじょうぎわ}が{悪|わる}い (poor loser), {定刻|ていこく} (scheduled time), {重任|じゅうにん} (heavy responsibility)
-
-Notable features:
-- Multi-sense: {忍|しの}ぶ (3: endure + conceal + reminisce), {抜|ぬ}け{殻|がら} (2: literal + figurative), {平行線|へいこうせん} (2: geometry + deadlock), {日和|ひより} (2: weather + opportunism), {上塗|うわぬ}り (2: topcoat + cover-up)
-- Cultural: {除夜|じょや}の{鐘|かね} (New Year's Eve bell ringing), {抜|ぬ}け{殻|がら} (cicada collecting), {買|か}い{食|ぐ}い (school rules)
-- Buddhist: {往生際|おうじょうぎわ}が{悪|わる}い (from Buddhist death concept), {礼拝|れいはい}
-- New kanji: 2,550 → 2,551 ({填|てん})
-
-Total entries: ~16,999 → ~17,034 (approximate)
-Remaining candidates: ~2,780 → ~2,745 (35 removed)
 
 ---
 
