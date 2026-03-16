@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,209 |
+| Total entries | ~17,244 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,410 (open) |
-| Candidate words | ~2,570 |
+| General tier | ~14,445 (open) |
+| Candidate words | ~2,535 |
 | Cross-references | ~3,400 |
-| Example sentences | ~50,000 |
+| Example sentences | ~50,200 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 441)
+Added 35 new dictionary entries (IDs 17161-17195) from candidate_words.json:
+
+- **Nouns (14)**: {夜食|やしょく} (late-night snack), {吉兆|きっちょう} (good omen), {廃屋|はいおく} (abandoned house), {激痛|げきつう} (intense pain), {成果物|せいかぶつ} (deliverable), {死語|しご} (dead word), {広範囲|こうはんい} (wide range), {古文|こぶん} (classical Japanese), {短期間|たんきかん} (short period), {御社|おんしゃ} (your company), {料理酒|りょうりしゅ} (cooking sake), {暗殺者|あんさつしゃ} (assassin), {美男子|びだんし} (handsome man), {石像|せきぞう} (stone statue)
+- **Nouns with figurative senses (3)**: {古傷|ふるきず} (old wound/past disgrace), {裸足|はだし} (barefoot), {巨木|きょぼく} (giant tree)
+- **Na-adjective (1)**: {大柄|おおがら} (large-framed/bold-patterned)
+- **Noun/suru verbs (10)**: {優遇|ゆうぐう} (favorable treatment), {解任|かいにん} (dismissal), {素揚|すあ}げ (deep-frying without batter), {存在|そんざい}する (to exist), {反映|はんえい}する (to reflect), {露呈|ろてい}する (to be exposed), {妥協|だきょう}する (to compromise), {交渉|こうしょう}する (to negotiate), {移住|いじゅう}する (to relocate), {解決|かいけつ}する (to solve)
+- **Verbs (3)**: {教壇|きょうだん} (teacher's platform), {商|あきな}い (trade/business), {責任者|せきにんしゃ} (person in charge)
+- **Ichidan verbs (3)**: {報|ほう}じる (to report), {仕損|しそん}じる (to fail), {逸|そ}れる (to stray)
+- **Noun (1)**: {困惑|こんわく}する (to be bewildered)
+
+Notable features:
+- Food/cooking: {夜食|やしょく}, {料理酒|りょうりしゅ}, {素揚|すあ}げ
+- Business: {御社|おんしゃ}, {成果物|せいかぶつ}, {解任|かいにん}, {交渉|こうしょう}する, {責任者|せきにんしゃ}
+- Body/health: {激痛|げきつう}, {古傷|ふるきず}, {裸足|はだし}, {大柄|おおがら}
+- Education/language: {古文|こぶん}, {死語|しご}, {教壇|きょうだん}
+- Nature/culture: {巨木|きょぼく}, {石像|せきぞう}, {吉兆|きっちょう}
+
+Total entries: ~17,209 → ~17,244 (approximate)
+Remaining candidates: ~2,570 → ~2,535 (35 removed)
 
 ### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 440)
 Added 35 new dictionary entries (IDs 17126-17160) from candidate_words.json:
@@ -129,24 +150,6 @@ Notable features:
 
 Total entries: ~17,069 → ~17,104 (approximate)
 Remaining candidates: ~2,710 → ~2,675 (35 removed)
-
-### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 436)
-Added 35 new dictionary entries (IDs 16986-17020) from candidate_words.json:
-
-- **Nouns (16)**: {総合|そうごう} (comprehensive), {箇条書|かじょうが}き (bulleted list), {条件付|じょうけんつ}き (conditional), {助|たす}け{合|あ}い (mutual aid), {読点|とうてん} (comma), {釜飯|かまめし} (pot rice), {粗食|そしょく} (plain food), {襟元|えりもと} (neckline), {語調|ごちょう} (tone of voice), {太鼓判|たいこばん} (seal of approval), ひし{形|がた} (diamond shape), {茶菓子|ちゃがし} (tea cakes), {純金|じゅんきん} (pure gold), {高層|こうそう}ビル (skyscraper), {贅沢品|ぜいたくひん} (luxury item), {同好会|どうこうかい} (hobby club)
-- **Nouns/suru (4)**: {漂白|ひょうはく} (bleaching), {占有|せんゆう} (occupancy), {酷使|こくし} (overworking), {繁茂|はんも} (luxuriant growth)
-- **Adjectives (3)**: {受動的|じゅどうてき} (passive), {用心深|ようじんぶか}い (cautious), {高機能|こうきのう} (high-performance)
-- **Verbs (4)**: {這|は}い{出|だ}す (to crawl out), やって{来|く}る (to come along), {回避|かいひ}する (to avoid), {風車|ふうしゃ} (windmill)
-- **Other (8)**: {骨|ほね}を{折|お}る (to take pains), {育|そだ}ちが{良|よ}い (well-bred), {湯桶読|ゆとうよ}み (kun+on reading), {手押|ておし}し{車|ぐるま} (pushcart), {借地|しゃくち} (leased land), {羽音|はおと} (sound of wings), コンタクトレンズ (contact lenses), {変化|へんげ} (shape-shifting)
-
-Notable features:
-- Multi-sense: {骨|ほね}を{折|お}る (2: make effort + break bone), {変化|へんげ} (2: transformation + apparition), やって{来|く}る (2: arrive + time/season comes)
-- Cross-references: {風車|ふうしゃ} ↔ {風車|かざぐるま}, {変化|へんげ} ↔ {変化|へんか}
-- Cultural: {釜飯|かまめし} (station food), {茶菓子|ちゃがし} (tea ceremony), {湯桶読|ゆとうよ}み (kanji reading patterns)
-- Linguistics: {読点|とうてん}, {湯桶読|ゆとうよ}み
-
-Total entries: ~17,034 → ~17,069 (approximate)
-Remaining candidates: ~2,745 → ~2,710 (35 removed)
 
 ---
 
