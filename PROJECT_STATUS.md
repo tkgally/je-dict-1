@@ -51,6 +51,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 444)
+Added 35 new dictionary entries (IDs 17267-17303) from candidate_words.json:
+
+- **Suru verbs (9)**: {発揮|はっき}する (to demonstrate), {主催|しゅさい}する (to host), {反論|はんろん}する (to refute), {推進|すいしん}する (to promote), {無視|むし}する (to ignore), {起動|きどう}する (to start up), {包装|ほうそう}する (to wrap), {操縦|そうじゅう}する (to pilot), {閉口|へいこう}する (to be stumped)
+- **Godan verbs (3)**: {黒|くろ}ずむ (to darken), {身籠|みごも}る (to become pregnant), {見|み}つけ{出|だ}す (to discover)
+- **Nouns (7)**: {慌|あわ}て{者|もの} (hasty person), {横向|よこむ}き (sideways), {特撮|とくさつ} (tokusatsu), {小動物|しょうどうぶつ} (small animal), {言|い}い{争|あらそ}い (quarrel), {錠剤|じょうざい} (tablet), {読書感想文|どくしょかんそうぶん} (book report)
+- **Noun/adjective (3)**: {未解決|みかいけつ} (unresolved), {純白|じゅんぱく} (pure white), {悪|わる}ふざけ (prank)
+- **Nouns (culture) (3)**: {炊|た}き{出|だ}し (soup kitchen), {確執|かくしつ} (feud), {謹賀新年|きんがしんねん} (Happy New Year)
+- **Expressions (4)**: お{見|み}えになる (to come, honorific), {相槌|あいづち}を{打|う}つ (back-channel), {口|くち}が{減|へ}らない (always has comeback), {身|み}の{毛|け}もよだつ (hair-raising)
+- **Adverbs (2)**: {足早|あしばや}に (briskly), {交互|こうご}に (alternately)
+- **Conjunction (1)**: それゆえ (therefore)
+- **Other (3)**: おっちょこちょい (scatterbrain), きちんとした (neat/proper), {落葉|らくよう} (falling leaves)
+
+Notable features:
+- Body/emotions: {閉口|へいこう}する, {身|み}の{毛|け}もよだつ, {確執|かくしつ}
+- Technology: {起動|きどう}する, {操縦|そうじゅう}する, {特撮|とくさつ}
+- Communication: {相槌|あいづち}を{打|う}つ, {反論|はんろん}する, {口|くち}が{減|へ}らない, {言|い}い{争|あらそ}い
+- Culture: {謹賀新年|きんがしんねん}, {炊|た}き{出|だ}し, {読書感想文|どくしょかんそうぶん}
+- New kanji: 2,560 → 2,561 ({錠|じょう})
+
+Total entries: ~17,314 → ~17,349 (approximate)
+Remaining candidates: ~2,465 → ~2,430 (35 removed)
+
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 443)
 Added 35 new dictionary entries (IDs 17231-17266) from candidate_words.json:
 
@@ -130,27 +153,6 @@ Notable features:
 
 Total entries: ~17,174 → ~17,209 (approximate)
 Remaining candidates: ~2,605 → ~2,570 (35 removed)
-
-### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 439)
-Added 35 new dictionary entries (IDs 17091-17125) from candidate_words.json:
-
-- **Nouns (22)**: {責務|せきむ} (duty), {清算|せいさん} (settlement), {全焼|ぜんしょう} (total fire), {証券|しょうけん} (securities), {北米|ほくべい} (North America), {面接官|めんせつかん} (interviewer), {対岸|たいがん} (opposite shore), {片面|かためん} (one side), {蓮華|れんげ} (soup spoon/lotus), {燃|も}えるゴミ (burnable garbage), {尊敬語|そんけいご} (honorific language), {頻出|ひんしゅつ} (frequent occurrence), {危篤|きとく} (critical condition), {販促|はんそく} (sales promotion), {健忘|けんぼう} (forgetfulness), {酒造|しゅぞう} (sake brewing), {私学|しがく} (private school), {救援物資|きゅうえんぶっし} (relief supplies), {許容量|きょようりょう} (tolerance), {絶世|ぜっせい} (peerless), {義理|ぎり}の{父|ちち} (father-in-law), {仕事|しごと}{中毒|ちゅうどく} (workaholic)
-- **Adjective (1)**: {素早|すばや}い (quick)
-- **Verbs (5)**: {泡立|あわだ}つ (to foam), {連|つ}れ{出|だ}す (to take out), {抑制|よくせい}する (to suppress), {圧倒|あっとう}する (to overwhelm), {乗馬|じょうば} (horse riding)
-- **Adverb (1)**: {一年中|いちねんじゅう} (all year round)
-- **Nouns (4)**: {成人病|せいじんびょう} (lifestyle disease), {官公庁|かんこうちょう} (government offices), {婚約者|こんやくしゃ} (fiancé), {自問自答|じもんじとう} (self-questioning)
-- **Expression (1)**: {耳|みみ}にする (to hear)
-- **Compound noun (1)**: {売|う}り{出|だ}し (bargain sale/debut)
-
-Notable features:
-- Daily life: {燃|も}えるゴミ, {蓮華|れんげ}, {片面|かためん}, {売|う}り{出|だ}し
-- Business/finance: {証券|しょうけん}, {販促|はんそく}, {清算|せいさん}, {面接官|めんせつかん}
-- Language/education: {尊敬語|そんけいご}, {頻出|ひんしゅつ}, {私学|しがく}
-- Medical: {危篤|きとく}, {健忘|けんぼう}, {成人病|せいじんびょう}
-- Family: {義理|ぎり}の{父|ちち}, {婚約者|こんやくしゃ}
-
-Total entries: ~17,139 → ~17,174 (approximate)
-Remaining candidates: ~2,640 → ~2,605 (35 removed)
 
 ---
 
