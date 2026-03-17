@@ -1,22 +1,28 @@
 ## Session: Example Sentences
 Date: 2026-03-17
-Entries checked: 07530-07569
+Entries checked: 07570-07598
 
 ### Changes Made
-- [07531]: Insufficient examples per sense - 2 senses had 3 total examples; expanded to 6 (3 per sense)
-- [07547]: Insufficient examples per sense - 2 senses had 3 total examples; expanded to 6 (3 per sense)
-- [07548]: Insufficient examples per sense - 2 senses had 3 total examples; expanded to 6 (3 per sense)
-- [07552]: Insufficient examples per sense - 2 senses had 3 total examples; expanded to 6 (3 per sense)
-- [07558]: Insufficient examples per sense - 2 senses had 3 total examples; expanded to 6 (3 per sense)
-- [07561]: Insufficient examples per sense - 2 senses had 3 total examples; expanded to 6 (3 per sense)
-- [07563]: Insufficient examples per sense - 2 senses had 3 total examples; expanded to 6 (3 per sense)
-- [07568]: Insufficient examples per sense - 2 senses had 3 total examples; expanded to 6 (3 per sense)
+- [07570]: Insufficient count - added examples to reach 3 per sense (sense 1: 1→3, sense 2: 2→3)
+- [07571]: Insufficient count - added examples to reach 3 per sense (3 senses, each 1→3, total 3→9)
+- [07572]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
+- [07575]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
+- [07577]: Insufficient count - added examples to reach 3 per sense (sense 1: 1→3, sense 2: 2→3)
+- [07579]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
+- [07586]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
+- [07590]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
+- [07592]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
+- [07593]: Insufficient count - added examples to reach 3 per sense (sense 1: 1→3, sense 2: 2→3)
+- [07594]: Insufficient count - added examples for sense 2 (sense 2: 0→3)
+- [07596]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
+- [07597]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
+- [07598]: Insufficient count - added examples to reach 3 per sense (sense 1: 2→3, sense 2: 1→3)
 
 ### Summary
-- 40 entries checked
-- 8 entries modified (all multi-sense entries needing more examples per sense)
-- 32 entries passed without changes
-- Common pattern: multi-sense general tier entries had 3 examples total but not 3 per sense
+- Entries checked: 29
+- Entries modified: 14
+- Entries OK: 15
+- Primary issue: Multi-sense entries had examples distributed across senses but not meeting the minimum 3 per sense requirement
 
 ### Next Entry
-07570
+07599
