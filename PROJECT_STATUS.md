@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,419 |
+| Total entries | ~17,454 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,620 (open) |
-| Candidate words | ~2,360 |
+| General tier | ~14,655 (open) |
+| Candidate words | ~2,325 |
 | Cross-references | ~3,400 |
-| Example sentences | ~50,500 |
+| Example sentences | ~50,600 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 447)
+Added 35 new dictionary entries (IDs 17374-17408) from candidate_words.json:
+
+- **Nouns (19)**: {塗|ぬ}り{薬|ぐすり} (ointment), {鉛筆削|えんぴつけず}り (pencil sharpener), {看板|かんばん}メニュー (signature dish), {鈍痛|どんつう} (dull pain), {事務職|じむしょく} (office job), {魔法瓶|まほうびん} (thermos), {防寒|ぼうかん} (cold protection), {買|か}い{替|か}え (replacement purchase), {健診|けんしん} (health checkup), {限定版|げんていばん} (limited edition), {宝庫|ほうこ} (treasure house), {土下座|どげざ} (prostration), {起源|きげん} (origin), {無駄足|むだあし} (wasted trip), {宅急便|たっきゅうびん} (courier service), {背骨|せぼね} (backbone), {綱引|つなひ}き (tug-of-war), {汚職|おしょく} (corruption), {武者震|むしゃぶる}い (excited trembling)
+- **Na-adjectives (4)**: {赤裸々|せきらら} (frank, candid), {不鮮明|ふせんめい} (unclear, blurred), {甚大|じんだい} (enormous, severe), {節々|ふしぶし} (joints / various points)
+- **Nouns/suru verbs (2)**: {表彰|ひょうしょう} (commendation), {黙祷|もくとう} (silent prayer)
+- **Noun (humble) (1)**: {弊社|へいしゃ} (our company)
+- **Noun (clothing) (1)**: {半|はん}ズボン (shorts)
+- **Noun (emotion) (1)**: {至福|しふく} (bliss)
+- **Verbs (2)**: {干上|ひあ}がる (to dry up), {鉢合|はちあ}わせる (to bump into)
+- **Noun (animal/culture) (1)**: {雛|ひな} (chick / hina doll)
+- **Noun (name painting/film) (1)**: {名画|めいが} (famous painting / classic film)
+- **Expressions (3)**: {真|ま}っ{赤|か}な{嘘|うそ} (blatant lie), {我|われ}に{返|かえ}る (to come to one's senses), {必着|ひっちゃく} (must arrive by)
+
+Notable features:
+- Health/body: {塗|ぬ}り{薬|ぐすり}, {鈍痛|どんつう}, {健診|けんしん}, {背骨|せぼね}, {節々|ふしぶし}
+- Business: {弊社|へいしゃ}, {事務職|じむしょく}, {表彰|ひょうしょう}, {汚職|おしょく}
+- Culture: {土下座|どげざ}, {黙祷|もくとう}, {雛|ひな}, {綱引|つなひ}き
+- Daily life: {宅急便|たっきゅうびん}, {魔法瓶|まほうびん}, {買|か}い{替|か}え, {防寒|ぼうかん}
+- New kanji: 2,563 → 2,565 ({彰|しょう}, {祷|とう})
+
+Total entries: ~17,419 → ~17,454 (approximate)
+Remaining candidates: ~2,360 → ~2,325 (35 removed)
 
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 446)
 Added 35 new dictionary entries (IDs 17339-17373) from candidate_words.json:
@@ -138,26 +162,6 @@ Notable features:
 
 Total entries: ~17,279 → ~17,314 (approximate)
 Remaining candidates: ~2,500 → ~2,465 (35 removed)
-
-### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 442)
-Added 35 new dictionary entries (IDs 17196-17230) from candidate_words.json:
-
-- **Particles/expressions (3)**: につき (regarding/per), といっても (although one might say), {難|がた}い (difficult to do, suffix)
-- **Verbs (9)**: おられる (to be, honorific), {場馴|ばな}れる (to get used to), ませる (to be precocious), {結|むす}び{付|つ}ける (to tie/connect), {埋|う}め{尽|つ}くす (to fill completely), {流|なが}される (to be swept away), {分岐|ぶんき}する (to branch off), {書|か}き{崩|くず}す (to write in cursive), {埋|う}め{尽|つ}くす (to fill up)
-- **Nouns (19)**: {生返事|なまへんじ} (vague reply), {一学期|いちがっき} (first semester), {零時|れいじ} (midnight), {国内外|こくないがい} (domestic and foreign), {体得|たいとく} (mastery through experience), {実力差|じつりょくさ} (skill gap), {進学校|しんがくこう} (prep school), {車体|しゃたい} (car body), {揉|も}み{返|かえ}し (post-massage soreness), {丸洗|まるあら}い (full wash), {納入|のうにゅう} (delivery/payment), {検品|けんぴん} (goods inspection), {不義理|ふぎり} (ingratitude), {適齢期|てきれいき} (marriageable age), {徒競走|ときょうそう} (footrace), {古美術|こびじゅつ} (antique art), {備考欄|びこうらん} (remarks column), {取引所|とりひきじょ} (exchange market), {花街|かがい} (geisha district)
-- **Other nouns (2)**: {送電|そうでん} (power transmission), {人類学|じんるいがく} (anthropology)
-- **Noun (1)**: {投|な}げ{技|わざ} (throwing technique)
-- **Adjective (1)**: {面映|おもは}ゆい (bashful/self-conscious)
-
-Notable features:
-- Grammar/language: につき, といっても, {難|がた}い, おられる
-- Culture: {花街|かがい}, お{座敷|ざしき}, {古美術|こびじゅつ}, {不義理|ふぎり}
-- Daily life: {生返事|なまへんじ}, {揉|も}み{返|かえ}し, {丸洗|まるあら}い, {備考欄|びこうらん}
-- Education/sports: {一学期|いちがっき}, {進学校|しんがくこう}, {徒競走|ときょうそう}
-- Business: {納入|のうにゅう}, {検品|けんぴん}, {取引所|とりひきじょ}
-
-Total entries: ~17,244 → ~17,279 (approximate)
-Remaining candidates: ~2,535 → ~2,500 (35 removed)
 
 ---
 
