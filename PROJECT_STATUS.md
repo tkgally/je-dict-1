@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,454 |
+| Total entries | ~17,489 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,655 (open) |
-| Candidate words | ~2,325 |
+| General tier | ~14,690 (open) |
+| Candidate words | ~2,290 |
 | Cross-references | ~3,400 |
-| Example sentences | ~50,600 |
+| Example sentences | ~50,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 448)
+Added 35 new dictionary entries (IDs 17409-17443) from candidate_words.json:
+
+- **Na-adjectives (4)**: {微|かす}かな (faint, slight), {僅|わず}かな (slight, a little), {温暖|おんだん}な (warm, temperate), ひょうきん (funny, comical)
+- **Nouns (15)**: {貴族|きぞく} (noble, aristocrat), {筆跡|ひっせき} (handwriting), {誤差|ごさ} (error, margin of error), {案内所|あんないじょ} (information desk), {完成品|かんせいひん} (finished product), {壁際|かべぎわ} (by the wall), {盗賊|とうぞく} (thief, bandit), {樹脂|じゅし} (resin, plastic), {熟年|じゅくねん} (mature age), {事務|じむ}{用品|ようひん} (office supplies), {中敷|なかじ}き (insole), {脳波|のうは} (brain waves), {美談|びだん} (heartwarming tale), {地方|ちほう}{都市|とし} (regional city), {比較|ひかく}{対象|たいしょう} (object of comparison)
+- **Nouns/suru verbs (8)**: {奉仕|ほうし} (service, volunteer work), {代筆|だいひつ} (ghostwriting), {特派員|とくはいん} (correspondent), {対局|たいきょく} (playing a match), {鎮火|ちんか} (extinguishing a fire), {狙撃|そげき} (sniping), {水洗|みずあら}い (washing with water), {再任|さいにん} (reappointment)
+- **Compound nouns (5)**: {安全|あんぜん}{運転|うんてん} (safe driving), {接客業|せっきゃくぎょう} (service industry), {不法|ふほう}{侵入|しんにゅう} (trespassing), {誤答|ごとう} (wrong answer), {空涙|そらなみだ} (crocodile tears)
+- **Na-adjective/noun (1)**: {挙動|きょどう}{不審|ふしん} (suspicious behavior)
+- **Noun/suru verb (literary) (1)**: {一瞥|いちべつ} (a glance)
+- **Noun (literary) (1)**: {下塗|したぬ}り (undercoat, primer)
+
+Notable features:
+- Measurement/analysis: {誤差|ごさ}, {比較|ひかく}{対象|たいしょう}, {脳波|のうは}
+- Daily life: {案内所|あんないじょ}, {水洗|みずあら}い, {中敷|なかじ}き, {事務|じむ}{用品|ようひん}
+- Society/culture: {貴族|きぞく}, {美談|びだん}, {地方|ちほう}{都市|とし}, {熟年|じゅくねん}
+- Writing/communication: {代筆|だいひつ}, {筆跡|ひっせき}, {特派員|とくはいん}
+- Crime/safety: {狙撃|そげき}, {不法|ふほう}{侵入|しんにゅう}, {盗賊|とうぞく}, {挙動|きょどう}{不審|ふしん}
+- New kanji: 2,565 → 2,566 ({瞥|べつ})
+
+Total entries: ~17,454 → ~17,489 (approximate)
+Remaining candidates: ~2,325 → ~2,290 (35 removed)
 
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 447)
 Added 35 new dictionary entries (IDs 17374-17408) from candidate_words.json:
@@ -141,27 +163,6 @@ Notable features:
 
 Total entries: ~17,314 → ~17,349 (approximate)
 Remaining candidates: ~2,465 → ~2,430 (35 removed)
-
-### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 443)
-Added 35 new dictionary entries (IDs 17231-17266) from candidate_words.json:
-
-- **Verbs (8)**: {甦|よみがえ}る (to revive), {彷徨|さまよ}う (to wander), {可愛|かわい}がる (to dote on), ボケる (to play the fool), {解|ほぐ}れる (to come loose), {擦|す}り{減|へ}る (to wear down), {結|むす}び{付|つ}く (to be connected)
-- **Na-adjectives (4)**: {逆|さか}さま (upside down), {控|ひか}えめ (moderate), {露|あらわ} (exposed), おろそか (negligent)
-- **Nouns (17)**: {縦|たて} (vertical), しつけ (discipline), {道|みち}しるべ (guidepost), ひき{肉|にく} (ground meat), {炭坑|たんこう} (coal mine), {物置|ものおき} (storage shed), {甘|あま}み (sweetness), {目途|めど} (prospect), {肩書|かたがき} (title), {街並|まちな}み (townscape), {落葉|おちば} (fallen leaves), {顔|かお}なじみ (familiar face), {測位|そくい} (positioning), {余|あま}り (remainder), {左記|さき} (mentioned below), {控室|ひかえしつ} (waiting room), {従兄弟|いとこ} (cousin)
-- **Adverbs (2)**: {度々|たびたび} (often), はるばる (from afar)
-- **Onomatopoeia (3)**: ガラガラ (empty/rattling), ボロボロ (worn out), ベタベタ (sticky/clingy)
-- **Other (1)**: {一押|いちお}し (top recommendation), {日次|にちじ} (daily), {足|あし}かせ (shackle/hindrance)
-
-Notable features:
-- Daily life/food: ひき{肉|にく}, {甘|あま}み, {物置|ものおき}, {控室|ひかえしつ}
-- Onomatopoeia: ガラガラ, ボロボロ, ベタベタ
-- Business: {目途|めど}, {肩書|かたがき}, {日次|にちじ}, {左記|さき}
-- Family/people: {従兄弟|いとこ}, {顔|かお}なじみ
-- Nature: {落葉|おちば}, {街並|まちな}み
-- New kanji: 2,557 → 2,560 ({坑|こう}, {徨|ほう}, {甦|そ})
-
-Total entries: ~17,279 → ~17,314 (approximate)
-Remaining candidates: ~2,500 → ~2,465 (35 removed)
 
 ---
 
