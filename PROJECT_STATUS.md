@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,314 |
+| Total entries | ~17,349 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,515 (open) |
-| Candidate words | ~2,465 |
+| General tier | ~14,550 (open) |
+| Candidate words | ~2,395 |
 | Cross-references | ~3,400 |
-| Example sentences | ~50,200 |
+| Example sentences | ~50,300 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 445)
+Added 35 new dictionary entries (IDs 17304-17338) from candidate_words.json:
+
+- **Verbs (4)**: {闘|たたか}う (to fight/struggle), あがる (to get nervous), {追|お}い{詰|つ}められる (to be cornered), {維持|いじ}する (to maintain)
+- **Nouns (8)**: {闘|たたか}い (fight/struggle), {街|まち} (commercial district), {香|こう} (incense), {最少|さいしょう} (minimum), {茶碗蒸|ちゃわんむ}し (egg custard), {実写化|じっしゃか} (live-action adaptation), {四|よ}つ{角|かど} (crossroads), {水掛|みずか}け{論|ろん} (futile argument)
+- **Expressions (15)**: {問答無用|もんどうむよう} (no arguing), {締|し}まりがない (slovenly), {合点|がてん}が{行|い}く (to be convinced), {可能|かのう}な{限|かぎ}り (as much as possible), {陰|かげ}りが{見|み}える (signs of decline), {余裕|よゆう}がない (no room/leeway), {見|み}るに{忍|しの}びない (unbearable to watch), {未然|みぜん}に{防|ふせ}ぐ (prevent beforehand), {事|こと}の{次第|しだい} (circumstances), {空気|くうき}を{壊|こわ}す (ruin the mood), {意識|いしき}が{遠|とお}のく (lose consciousness), {愛想|あいそ}を{振|ふ}りまく (try to please everyone), {幕|まく}を{閉|と}じる (come to an end), {耳|みみ}を{塞|ふさ}ぐ (cover one's ears), {髪|かみ}を{梳|と}かす (comb one's hair)
+- **Adjective (1)**: {容姿端麗|ようしたんれい} (strikingly beautiful)
+- **Adverb (1)**: {必然的|ひつぜんてき}に (inevitably)
+- **Suffix (1)**: {館|かん} (hall/building)
+- **Compounds (3)**: {現状打破|げんじょうだは} (breaking status quo), {読書三昧|どくしょざんまい} (absorbed in reading), {無断駐車|むだんちゅうしゃ} (unauthorized parking)
+- **Conjunction (1)**: そういうわけで (for that reason)
+- **Other (1)**: {型|かた}にはまる (to be conventional)
+
+Notable features:
+- Communication/social: {愛想|あいそ}を{振|ふ}りまく, {空気|くうき}を{壊|こわ}す, {耳|みみ}を{塞|ふさ}ぐ, {問答無用|もんどうむよう}, {水掛|みずか}け{論|ろん}
+- Cognition: {合点|がてん}が{行|い}く, {意識|いしき}が{遠|とお}のく, あがる
+- Culture/food: {茶碗蒸|ちゃわんむ}し, {香|こう}, {読書三昧|どくしょざんまい}, {実写化|じっしゃか}
+- Figurative language: {陰|かげ}りが{見|み}える, {幕|まく}を{閉|と}じる, {型|かた}にはまる
+- New kanji: 2,561 → 2,562 ({梳|そ})
+
+Total entries: ~17,314 → ~17,349 (approximate)
+Remaining candidates: ~2,430 → ~2,395 (35 removed)
 
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 444)
 Added 35 new dictionary entries (IDs 17267-17303) from candidate_words.json:
@@ -135,24 +158,6 @@ Notable features:
 
 Total entries: ~17,209 → ~17,244 (approximate)
 Remaining candidates: ~2,570 → ~2,535 (35 removed)
-
-### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 440)
-Added 35 new dictionary entries (IDs 17126-17160) from candidate_words.json:
-
-- **Nouns (22)**: {前書|まえが}き (preface), {敷物|しきもの} (rug), {留|と}め{具|ぐ} (fastener), {形跡|けいせき} (traces), {種子|しゅし} (seed), {諸君|しょくん} (everyone), {合金|ごうきん} (alloy), {貴金属|ききんぞく} (precious metal), {茶筒|ちゃづつ} (tea caddy), {同世代|どうせだい} (same generation), {大文字|おおもじ} (uppercase), {甘味処|かんみどころ} (sweets shop), {全盛|ぜんせい} (heyday), {別冊|べっさつ} (supplement), {祝賀会|しゅくがかい} (celebration), {野外|やがい} (outdoors), {副食|ふくしょく} (side dish), {飴細工|あめざいく} (candy sculpture), {同調圧力|どうちょうあつりょく} (peer pressure), {知識人|ちしきじん} (intellectual), {客観性|きゃっかんせい} (objectivity), {無断欠勤|むだんけっきん} (unauthorized absence)
-- **Na-adjectives (2)**: {不健康|ふけんこう} (unhealthy), {自主的|じしゅてき} (voluntary)
-- **Noun/suru verbs (10)**: {楽観|らっかん} (optimism), {追記|ついき} (postscript), {失効|しっこう} (expiration), {提言|ていげん} (proposal), {潜伏|せんぷく} (hiding/latency), {登用|とうよう} (appointment), {嘱託|しょくたく} (contract worker), {合理化|ごうりか} (rationalization), {餓死|がし} (starvation), {過熱|かねつ} (overheating)
-- **Expression (1)**: {早寝早起|はやねはやお}き (early to bed, early to rise)
-
-Notable features:
-- Society/culture: {同調圧力|どうちょうあつりょく}, {知識人|ちしきじん}, {甘味処|かんみどころ}, {飴細工|あめざいく}
-- Business/work: {登用|とうよう}, {嘱託|しょくたく}, {合理化|ごうりか}, {無断欠勤|むだんけっきん}, {提言|ていげん}
-- Materials: {合金|ごうきん}, {貴金属|ききんぞく}
-- Daily life: {敷物|しきもの}, {留|と}め{具|ぐ}, {茶筒|ちゃづつ}, {包装|ほうそう}
-- New kanji: 2,555 → 2,557 ({嘱|しょく}, {餓|が})
-
-Total entries: ~17,174 → ~17,209 (approximate)
-Remaining candidates: ~2,605 → ~2,570 (35 removed)
 
 ---
 
