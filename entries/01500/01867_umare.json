@@ -24,7 +24,7 @@
   "examples": [
     {
       "id": "01867_umare_ex1",
-      "japanese": "{東京|とうきょう}{生|う}まれです。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧{生|う}まれです。",
       "english": "I was born in Tokyo.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "01867_umare_ex2",
-      "japanese": "1990{年|ねん}{生|う}まれです。",
+      "japanese": "1990⟦{年|ねん}→年：09876_nen⟧{生|う}まれです。",
       "english": "I was born in 1990.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "01867_umare_ex3",
-      "japanese": "{生|う}まれも{育|そだ}ちも{大阪|おおさか}です。",
+      "japanese": "{生|う}まれ⟦も→も：00484_mo⟧⟦{育|そだ}ち→育つ：01951_sodatsu⟧⟦も→も：00484_mo⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧です。",
       "english": "I was born and raised in Osaka.",
       "notes": "Common expression",
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01867_umare_ex4",
-      "japanese": "{彼|かれ}は{生|う}まれが{良|よ}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{生|う}まれ⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧。",
       "english": "He comes from a good family.",
       "notes": null,
       "has_audio": false,
@@ -64,7 +64,7 @@
     },
     {
       "id": "01867_umare_ex5",
-      "japanese": "{生|う}まれながらの{才能|さいのう}がある。",
+      "japanese": "{生|う}まれながら⟦の→の：09472_no⟧⟦{才能|さいのう}→才能：02772_sainou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To have innate talent.",
       "notes": null,
       "has_audio": false,
@@ -74,7 +74,7 @@
     },
     {
       "id": "01867_umare_ex6",
-      "japanese": "{生|う}まれが{違|ちが}っても、{友達|ともだち}になれる。",
+      "japanese": "{生|う}まれ⟦が→が：00051_ga⟧⟦{違|ちが}って→違う：01957_chigau⟧⟦も→も：00484_mo⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧⟦なれる→なる：01970_naru⟧。",
       "english": "Even if your backgrounds are different, you can become friends.",
       "notes": null,
       "has_audio": false,
@@ -84,7 +84,7 @@
     },
     {
       "id": "01867_umare_ex7",
-      "japanese": "{田舎|いなか}{生|う}まれなので、{自然|しぜん}が{好|す}きだ。",
+      "japanese": "⟦{田舎|いなか}→田舎：01320_inaka⟧{生|う}まれなので、⟦{自然|しぜん}→自然：01423_shizen⟧⟦が→が：00051_ga⟧⟦{好|す}きだ→好き：02355_suki⟧。",
       "english": "Since I was born in the countryside, I love nature.",
       "notes": null,
       "has_audio": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "01867_umare_ex8",
-      "japanese": "あなたは{何年|なんねん}{生|う}まれですか。",
+      "japanese": "⟦あなた→あなた：02565_anata⟧⟦は→は：00079_ha⟧⟦{何年|なんねん}→何年：12737_nannen⟧{生|う}まれです⟦か→か：09473_ka⟧。",
       "english": "What year were you born in?",
       "notes": null,
       "has_audio": false,
@@ -104,7 +104,7 @@
     },
     {
       "id": "01867_umare_ex9",
-      "japanese": "{同|おな}じ{年|とし}{生|う}まれの{友達|ともだち}がたくさんいる。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧⟦{年|とし}→年：00486_toshi⟧{生|う}まれ⟦の→の：09472_no⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦いる→いる：00495_iru⟧。",
       "english": "I have many friends who were born in the same year.",
       "notes": null,
       "has_audio": false,
@@ -117,8 +117,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-02-20T01:50:46Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-03-17T00:57:22Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
