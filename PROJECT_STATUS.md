@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,279 |
+| Total entries | ~17,314 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,480 (open) |
-| Candidate words | ~2,500 |
+| General tier | ~14,515 (open) |
+| Candidate words | ~2,465 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 443)
+Added 35 new dictionary entries (IDs 17231-17266) from candidate_words.json:
+
+- **Verbs (8)**: {甦|よみがえ}る (to revive), {彷徨|さまよ}う (to wander), {可愛|かわい}がる (to dote on), ボケる (to play the fool), {解|ほぐ}れる (to come loose), {擦|す}り{減|へ}る (to wear down), {結|むす}び{付|つ}く (to be connected)
+- **Na-adjectives (4)**: {逆|さか}さま (upside down), {控|ひか}えめ (moderate), {露|あらわ} (exposed), おろそか (negligent)
+- **Nouns (17)**: {縦|たて} (vertical), しつけ (discipline), {道|みち}しるべ (guidepost), ひき{肉|にく} (ground meat), {炭坑|たんこう} (coal mine), {物置|ものおき} (storage shed), {甘|あま}み (sweetness), {目途|めど} (prospect), {肩書|かたがき} (title), {街並|まちな}み (townscape), {落葉|おちば} (fallen leaves), {顔|かお}なじみ (familiar face), {測位|そくい} (positioning), {余|あま}り (remainder), {左記|さき} (mentioned below), {控室|ひかえしつ} (waiting room), {従兄弟|いとこ} (cousin)
+- **Adverbs (2)**: {度々|たびたび} (often), はるばる (from afar)
+- **Onomatopoeia (3)**: ガラガラ (empty/rattling), ボロボロ (worn out), ベタベタ (sticky/clingy)
+- **Other (1)**: {一押|いちお}し (top recommendation), {日次|にちじ} (daily), {足|あし}かせ (shackle/hindrance)
+
+Notable features:
+- Daily life/food: ひき{肉|にく}, {甘|あま}み, {物置|ものおき}, {控室|ひかえしつ}
+- Onomatopoeia: ガラガラ, ボロボロ, ベタベタ
+- Business: {目途|めど}, {肩書|かたがき}, {日次|にちじ}, {左記|さき}
+- Family/people: {従兄弟|いとこ}, {顔|かお}なじみ
+- Nature: {落葉|おちば}, {街並|まちな}み
+- New kanji: 2,557 → 2,560 ({坑|こう}, {徨|ほう}, {甦|そ})
+
+Total entries: ~17,279 → ~17,314 (approximate)
+Remaining candidates: ~2,500 → ~2,465 (35 removed)
 
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 442)
 Added 35 new dictionary entries (IDs 17196-17230) from candidate_words.json:
@@ -130,26 +151,6 @@ Notable features:
 
 Total entries: ~17,139 → ~17,174 (approximate)
 Remaining candidates: ~2,640 → ~2,605 (35 removed)
-
-### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 438)
-Added 35 new dictionary entries (IDs 17056-17090) from candidate_words.json:
-
-- **Nouns (23)**: {事務局|じむきょく} (secretariat), お{酌|しゃく} (serving alcohol), {体|からだ}つき (body build), {僻地|へきち} (remote area), {引数|ひきすう} (argument/parameter), {近畿|きんき} (Kinki region), {資金調達|しきんちょうたつ} (fundraising), {再開発|さいかいはつ} (redevelopment), {給与明細|きゅうよめいさい} (pay stub), {定例会|ていれいかい} (regular meeting), {団体客|だんたいきゃく} (group tourists), {道路工事|どうろこうじ} (road work), {懸念事項|けねんじこう} (matters of concern), {歩数計|ほすうけい} (pedometer), {全巻|ぜんかん} (complete set), {判断材料|はんだんざいりょう} (basis for judgment), {寄稿|きこう} (article contribution), {来襲|らいしゅう} (raid), {凶行|きょうこう} (violent act), {代入|だいにゅう} (assignment), {休止|きゅうし} (suspension), {所有権|しょゆうけん} (ownership), {市街地|しがいち} (urban area), {最新鋭|さいしんえい} (state-of-the-art), {支持率|しじりつ} (approval rating), {不測|ふそく}の{事態|じたい} (unforeseen circumstances)
-- **Adjective (2)**: {無情|むじょう} (heartless), {説教臭|せっきょうくさ}い (preachy)
-- **Verbs (2)**: {酌|く}み{交|か}わす (to exchange cups), {遅|おく}らす (to delay)
-- **Adverb (1)**: {追|お}って (later, in due course)
-- **Suffix (1)**: {御中|おんちゅう} (addressed to organization)
-- **Other (4)**: {荷下|にお}ろし (unloading), {割増|わりまし} (surcharge), {農具|のうぐ} (farming tool)
-
-Notable features:
-- Business/work: {事務局|じむきょく}, {資金調達|しきんちょうたつ}, {給与明細|きゅうよめいさい}, {定例会|ていれいかい}, {懸念事項|けねんじこう}, {割増|わりまし}
-- Politics/news: {支持率|しじりつ}, {凶行|きょうこう}, {来襲|らいしゅう}, {不測|ふそく}の{事態|じたい}
-- Technical: {引数|ひきすう}, {代入|だいにゅう}, {最新鋭|さいしんえい}
-- Culture: お{酌|しゃく}, {酌|く}み{交|か}わす, {近畿|きんき}, {御中|おんちゅう}
-- New kanji: 2,553 → 2,555 ({僻|へき}, {畿|き})
-
-Total entries: ~17,104 → ~17,139 (approximate)
-Remaining candidates: ~2,675 → ~2,640 (35 removed)
 
 ---
 
