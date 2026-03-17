@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,349 |
+| Total entries | ~17,419 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,550 (open) |
-| Candidate words | ~2,395 |
+| General tier | ~14,620 (open) |
+| Candidate words | ~2,360 |
 | Cross-references | ~3,400 |
-| Example sentences | ~50,300 |
+| Example sentences | ~50,500 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 446)
+Added 35 new dictionary entries (IDs 17339-17373) from candidate_words.json:
+
+- **Suru verbs (9)**: {前進|ぜんしん}する (to advance), {後退|こうたい}する (to retreat), {予防|よぼう}する (to prevent), {防止|ぼうし}する (to stop), {侵入|しんにゅう}する (to invade), {対抗|たいこう}する (to oppose), {選出|せんしゅつ}する (to elect), {継承|けいしょう}する (to inherit), {記述|きじゅつ}する (to describe)
+- **Nouns (15)**: {告知|こくち} (notice), {男女|だんじょ}{平等|びょうどう} (gender equality), {排斥|はいせき} (exclusion), {高評価|こうひょうか} (positive rating), {自己|じこ}{評価|ひょうか} (self-evaluation), {文化|ぶんか}{遺産|いさん} (cultural heritage), {温室|おんしつ}{効果|こうか} (greenhouse effect), {健康|けんこう}{食品|しょくひん} (health food), {早番|はやばん} (early shift), {模範|もはん}{解答|かいとう} (model answer), {個別|こべつ}{指導|しどう} (individual tutoring), {車線|しゃせん}{変更|へんこう} (lane change), {着信|ちゃくしん}{履歴|りれき} (call history), {栄養|えいよう}{剤|ざい} (supplement), {変化球|へんかきゅう} (breaking ball)
+- **Informal nouns (2)**: {朝飯|あさめし} (breakfast), {昼飯|ひるめし} (lunch)
+- **Adjective (1)**: {写実的|しゃじつてき} (realistic)
+- **Verb (1)**: {切|き}り{揃|そろ}える (to trim evenly)
+- **Expressions (2)**: {口|くち}を{利|き}く (to speak/put in a word), {相手|あいて}にする (to deal with)
+- **Other nouns (5)**: {運転|うんてん}{代行|だいこう} (designated driver), {鉄鋼|てっこう} (iron and steel), {世捨|よす}て{人|びと} (hermit), {指導力|しどうりょく} (leadership), {大技|おおわざ} (major technique)
+
+Notable features:
+- Prevention/defense: {予防|よぼう}する, {防止|ぼうし}する, {侵入|しんにゅう}する, {対抗|たいこう}する
+- Society/culture: {男女|だんじょ}{平等|びょうどう}, {排斥|はいせき}, {文化|ぶんか}{遺産|いさん}, {世捨|よす}て{人|びと}
+- Modern life: {高評価|こうひょうか}, {着信|ちゃくしん}{履歴|りれき}, {運転|うんてん}{代行|だいこう}
+- Education: {模範|もはん}{解答|かいとう}, {個別|こべつ}{指導|しどう}, {自己|じこ}{評価|ひょうか}
+- New kanji: 2,562 → 2,563 ({斥|せき})
+
+Total entries: ~17,384 → ~17,419 (approximate)
+Remaining candidates: ~2,395 → ~2,360 (35 removed)
 
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 445)
 Added 35 new dictionary entries (IDs 17304-17338) from candidate_words.json:
@@ -137,27 +158,6 @@ Notable features:
 
 Total entries: ~17,244 → ~17,279 (approximate)
 Remaining candidates: ~2,535 → ~2,500 (35 removed)
-
-### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 441)
-Added 35 new dictionary entries (IDs 17161-17195) from candidate_words.json:
-
-- **Nouns (14)**: {夜食|やしょく} (late-night snack), {吉兆|きっちょう} (good omen), {廃屋|はいおく} (abandoned house), {激痛|げきつう} (intense pain), {成果物|せいかぶつ} (deliverable), {死語|しご} (dead word), {広範囲|こうはんい} (wide range), {古文|こぶん} (classical Japanese), {短期間|たんきかん} (short period), {御社|おんしゃ} (your company), {料理酒|りょうりしゅ} (cooking sake), {暗殺者|あんさつしゃ} (assassin), {美男子|びだんし} (handsome man), {石像|せきぞう} (stone statue)
-- **Nouns with figurative senses (3)**: {古傷|ふるきず} (old wound/past disgrace), {裸足|はだし} (barefoot), {巨木|きょぼく} (giant tree)
-- **Na-adjective (1)**: {大柄|おおがら} (large-framed/bold-patterned)
-- **Noun/suru verbs (10)**: {優遇|ゆうぐう} (favorable treatment), {解任|かいにん} (dismissal), {素揚|すあ}げ (deep-frying without batter), {存在|そんざい}する (to exist), {反映|はんえい}する (to reflect), {露呈|ろてい}する (to be exposed), {妥協|だきょう}する (to compromise), {交渉|こうしょう}する (to negotiate), {移住|いじゅう}する (to relocate), {解決|かいけつ}する (to solve)
-- **Verbs (3)**: {教壇|きょうだん} (teacher's platform), {商|あきな}い (trade/business), {責任者|せきにんしゃ} (person in charge)
-- **Ichidan verbs (3)**: {報|ほう}じる (to report), {仕損|しそん}じる (to fail), {逸|そ}れる (to stray)
-- **Noun (1)**: {困惑|こんわく}する (to be bewildered)
-
-Notable features:
-- Food/cooking: {夜食|やしょく}, {料理酒|りょうりしゅ}, {素揚|すあ}げ
-- Business: {御社|おんしゃ}, {成果物|せいかぶつ}, {解任|かいにん}, {交渉|こうしょう}する, {責任者|せきにんしゃ}
-- Body/health: {激痛|げきつう}, {古傷|ふるきず}, {裸足|はだし}, {大柄|おおがら}
-- Education/language: {古文|こぶん}, {死語|しご}, {教壇|きょうだん}
-- Nature/culture: {巨木|きょぼく}, {石像|せきぞう}, {吉兆|きっちょう}
-
-Total entries: ~17,209 → ~17,244 (approximate)
-Remaining candidates: ~2,570 → ~2,535 (35 removed)
 
 ---
 
