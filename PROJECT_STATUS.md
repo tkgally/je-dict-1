@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-16
+**Last updated**: 2026-03-17
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,244 |
+| Total entries | ~17,279 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,445 (open) |
-| Candidate words | ~2,535 |
+| General tier | ~14,480 (open) |
+| Candidate words | ~2,500 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 442)
+Added 35 new dictionary entries (IDs 17196-17230) from candidate_words.json:
+
+- **Particles/expressions (3)**: につき (regarding/per), といっても (although one might say), {難|がた}い (difficult to do, suffix)
+- **Verbs (9)**: おられる (to be, honorific), {場馴|ばな}れる (to get used to), ませる (to be precocious), {結|むす}び{付|つ}ける (to tie/connect), {埋|う}め{尽|つ}くす (to fill completely), {流|なが}される (to be swept away), {分岐|ぶんき}する (to branch off), {書|か}き{崩|くず}す (to write in cursive), {埋|う}め{尽|つ}くす (to fill up)
+- **Nouns (19)**: {生返事|なまへんじ} (vague reply), {一学期|いちがっき} (first semester), {零時|れいじ} (midnight), {国内外|こくないがい} (domestic and foreign), {体得|たいとく} (mastery through experience), {実力差|じつりょくさ} (skill gap), {進学校|しんがくこう} (prep school), {車体|しゃたい} (car body), {揉|も}み{返|かえ}し (post-massage soreness), {丸洗|まるあら}い (full wash), {納入|のうにゅう} (delivery/payment), {検品|けんぴん} (goods inspection), {不義理|ふぎり} (ingratitude), {適齢期|てきれいき} (marriageable age), {徒競走|ときょうそう} (footrace), {古美術|こびじゅつ} (antique art), {備考欄|びこうらん} (remarks column), {取引所|とりひきじょ} (exchange market), {花街|かがい} (geisha district)
+- **Other nouns (2)**: {送電|そうでん} (power transmission), {人類学|じんるいがく} (anthropology)
+- **Noun (1)**: {投|な}げ{技|わざ} (throwing technique)
+- **Adjective (1)**: {面映|おもは}ゆい (bashful/self-conscious)
+
+Notable features:
+- Grammar/language: につき, といっても, {難|がた}い, おられる
+- Culture: {花街|かがい}, お{座敷|ざしき}, {古美術|こびじゅつ}, {不義理|ふぎり}
+- Daily life: {生返事|なまへんじ}, {揉|も}み{返|かえ}し, {丸洗|まるあら}い, {備考欄|びこうらん}
+- Education/sports: {一学期|いちがっき}, {進学校|しんがくこう}, {徒競走|ときょうそう}
+- Business: {納入|のうにゅう}, {検品|けんぴん}, {取引所|とりひきじょ}
+
+Total entries: ~17,244 → ~17,279 (approximate)
+Remaining candidates: ~2,535 → ~2,500 (35 removed)
 
 ### 2026-03-16 (Vocabulary Expansion - 35 New Entries, Session 441)
 Added 35 new dictionary entries (IDs 17161-17195) from candidate_words.json:
@@ -130,26 +150,6 @@ Notable features:
 
 Total entries: ~17,104 → ~17,139 (approximate)
 Remaining candidates: ~2,675 → ~2,640 (35 removed)
-
-### 2026-03-15 (Vocabulary Expansion - 35 New Entries, Session 437)
-Added 35 new dictionary entries (IDs 17021-17055) from candidate_words.json:
-
-- **Nouns (30)**: {権力者|けんりょくしゃ} (powerful person), {完全予約制|かんぜんよやくせい} (by appointment only), {発車|はっしゃ}メロディ (departure melody), {点字|てんじ}ブロック (tactile paving), リボ{払|ばら}い (revolving payment), {一括購入|いっかつこうにゅう} (bulk purchase), {急勾配|きゅうこうばい} (steep slope), {芝刈|しばか}り{機|き} (lawn mower), {防犯登録|ぼうはんとうろく} (bicycle registration), {清涼飲料水|せいりょういんりょうすい} (soft drink), {不快指数|ふかいしすう} (discomfort index), {脂肪燃焼|しぼうねんしょう} (fat burning), {股関節|こかんせつ} (hip joint), {対面授業|たいめんじゅぎょう} (in-person class), {校友会|こうゆうかい} (alumni association), {注文票|ちゅうもんひょう} (order slip), {有形文化財|ゆうけいぶんかざい} (tangible cultural property), {内容量|ないようりょう} (net content), クレーンゲーム (claw machine), {臨時休業|りんじきゅうぎょう} (temporary closure), {冷凍保存|れいとうほぞん} (frozen storage), {軽作業|けいさぎょう} (light work), {新規参入|しんきさんにゅう} (new market entry), {三角定規|さんかくじょうぎ} (set square), {自給率|じきゅうりつ} (self-sufficiency rate), {言論|げんろん}の{自由|じゆう} (freedom of speech), {技術者|ぎじゅつしゃ} (engineer), {定額制|ていがくせい} (subscription), {取|と}り{皿|ざら} (small plate), {追突|ついとつ} (rear-end collision)
-- **Na-adjective (1)**: {流動的|りゅうどうてき} (fluid/unstable)
-- **Expression (1)**: せっかくですが (thank you, but...)
-- **Noun/suru (1)**: {充満|じゅうまん} (being filled with)
-- **Noun with cross-ref (1)**: {責任転嫁|せきにんてんか} (shifting blame)
-- **Noun (1)**: {右利|みぎき}き (right-handed)
-
-Notable features:
-- Japan-specific: {防犯登録|ぼうはんとうろく}, {発車|はっしゃ}メロディ, {点字|てんじ}ブロック, クレーンゲーム, {完全予約制|かんぜんよやくせい}
-- Business/finance: リボ{払|ばら}い, {一括購入|いっかつこうにゅう}, {定額制|ていがくせい}, {新規参入|しんきさんにゅう}
-- Daily life: {取|と}り{皿|ざら}, {内容量|ないようりょう}, {臨時休業|りんじきゅうぎょう}, {冷凍保存|れいとうほぞん}
-- Politics/society: {権力者|けんりょくしゃ}, {言論|げんろん}の{自由|じゆう}, {自給率|じきゅうりつ}
-- New kanji: 2,551 → 2,553 ({勾|こう}, {股|こ})
-
-Total entries: ~17,069 → ~17,104 (approximate)
-Remaining candidates: ~2,710 → ~2,675 (35 removed)
 
 ---
 
