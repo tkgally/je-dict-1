@@ -3,6 +3,9 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 448)
+Added 35 new dictionary entries (IDs 17409-17443) from candidate_words.json. Na-adjectives, nouns, suru verbs, compound nouns. Measurement/analysis, daily life, society/culture, writing/communication, and crime/safety entries. New kanji: 2,565 → 2,566. Total entries: ~17,454 → ~17,489.
+
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 446)
 Added 35 new dictionary entries (IDs 17339-17373) from candidate_words.json. Suru verbs, nouns, informal nouns, adjective, verb, expressions and compounds. Prevention/defense, society/culture, modern life, and education entries. New kanji: 2,562 → 2,563. Total entries: ~17,384 → ~17,419.
 

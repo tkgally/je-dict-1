@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,594 |
+| Total entries | ~17,626 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,795 (open) |
-| Candidate words | ~2,186 |
+| General tier | ~14,827 (open) |
+| Candidate words | ~2,152 |
 | Cross-references | ~3,400 |
-| Example sentences | ~50,900 |
+| Example sentences | ~51,020 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 453)
+Added 35 new dictionary entries (IDs 17737-17771) from candidate_words.json.
+
+- **Verbs (7)**: {問|と}い{合|あ}わせる (to inquire), {銘記|めいき}する (to engrave in mind), {茹|ゆ}で{上|あ}がる (to be done boiling), {造|つく}る (to build/brew), {鎮|しず}まる (to subside), {放浪|ほうろう} (wandering), {下|した}ゆで (parboiling)
+- **Nouns (18)**: {専制|せんせい} (despotism), {鴨|かも} (duck), {党首|とうしゅ} (party leader), {遠路|えんろ} (long journey), {祭典|さいてん} (festival), {恋仲|こいなか} (romantic relationship), {精魂|せいこん} (heart and soul), {墨汁|ぼくじゅう} (India ink), {発券|はっけん} (ticket issuance), {無|む} (nothingness/prefix), {防虫|ぼうちゅう} (insect repellent), {即効性|そっこうせい} (immediate effect), {中皿|ちゅうざら} (medium plate), {庭木|にわき} (garden tree), {手拍子|てびょうし} (hand clapping), {一読|いちどく} (single reading), {余熱|よねつ} (residual heat), {実情|じつじょう} (actual conditions)
+- **Adjectives (4)**: {清浄|せいじょう} (pure/clean), {呆然|ぼうぜん} (dumbfounded), {心外|しんがい} (regrettable), {妖艶|ようえん} (bewitching)
+- **Other (6)**: {謝意|しゃい} (gratitude), {背|せ}もたれ (backrest), {上旬|じょうじゅん} (first 10 days of month), {仮想|かそう} (virtual), {成仏|じょうぶつ} (entering Nirvana), {後払|あとばら}い (deferred payment)
+
+Notable features:
+- Cooking: {茹|ゆ}で{上|あ}がる, {下|した}ゆで, {余熱|よねつ}, {中皿|ちゅうざら}, {鴨|かも}
+- Culture/religion: {成仏|じょうぶつ}, {祭典|さいてん}, {墨汁|ぼくじゅう}, {手拍子|てびょうし}
+- Politics: {専制|せんせい}, {党首|とうしゅ}
+- Technology: {仮想|かそう}, {発券|はっけん}
+- Daily life: {背|せ}もたれ, {庭木|にわき}, {防虫|ぼうちゅう}, {後払|あとばら}い, {上旬|じょうじゅん}
+
+Total entries: ~17,594 → ~17,626 (approximate)
+Remaining candidates: ~2,186 → ~2,152 (34 removed)
 
 ### 2026-03-18 (Vocabulary Expansion - 32 New Entries, Session 452)
 Added 32 new dictionary entries (IDs 17702-17736) from candidate_words.json. (3 candidates skipped as duplicates of existing entries: {統率|とうそつ}, {貸与|たいよ}, {拝聴|はいちょう}.)
@@ -133,28 +151,6 @@ Notable features:
 
 Total entries: ~17,489 → ~17,524 (approximate)
 Remaining candidates: ~2,290 → ~2,255 (35 removed)
-
-### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 448)
-Added 35 new dictionary entries (IDs 17409-17443) from candidate_words.json:
-
-- **Na-adjectives (4)**: {微|かす}かな (faint, slight), {僅|わず}かな (slight, a little), {温暖|おんだん}な (warm, temperate), ひょうきん (funny, comical)
-- **Nouns (15)**: {貴族|きぞく} (noble, aristocrat), {筆跡|ひっせき} (handwriting), {誤差|ごさ} (error, margin of error), {案内所|あんないじょ} (information desk), {完成品|かんせいひん} (finished product), {壁際|かべぎわ} (by the wall), {盗賊|とうぞく} (thief, bandit), {樹脂|じゅし} (resin, plastic), {熟年|じゅくねん} (mature age), {事務|じむ}{用品|ようひん} (office supplies), {中敷|なかじ}き (insole), {脳波|のうは} (brain waves), {美談|びだん} (heartwarming tale), {地方|ちほう}{都市|とし} (regional city), {比較|ひかく}{対象|たいしょう} (object of comparison)
-- **Nouns/suru verbs (8)**: {奉仕|ほうし} (service, volunteer work), {代筆|だいひつ} (ghostwriting), {特派員|とくはいん} (correspondent), {対局|たいきょく} (playing a match), {鎮火|ちんか} (extinguishing a fire), {狙撃|そげき} (sniping), {水洗|みずあら}い (washing with water), {再任|さいにん} (reappointment)
-- **Compound nouns (5)**: {安全|あんぜん}{運転|うんてん} (safe driving), {接客業|せっきゃくぎょう} (service industry), {不法|ふほう}{侵入|しんにゅう} (trespassing), {誤答|ごとう} (wrong answer), {空涙|そらなみだ} (crocodile tears)
-- **Na-adjective/noun (1)**: {挙動|きょどう}{不審|ふしん} (suspicious behavior)
-- **Noun/suru verb (literary) (1)**: {一瞥|いちべつ} (a glance)
-- **Noun (literary) (1)**: {下塗|したぬ}り (undercoat, primer)
-
-Notable features:
-- Measurement/analysis: {誤差|ごさ}, {比較|ひかく}{対象|たいしょう}, {脳波|のうは}
-- Daily life: {案内所|あんないじょ}, {水洗|みずあら}い, {中敷|なかじ}き, {事務|じむ}{用品|ようひん}
-- Society/culture: {貴族|きぞく}, {美談|びだん}, {地方|ちほう}{都市|とし}, {熟年|じゅくねん}
-- Writing/communication: {代筆|だいひつ}, {筆跡|ひっせき}, {特派員|とくはいん}
-- Crime/safety: {狙撃|そげき}, {不法|ふほう}{侵入|しんにゅう}, {盗賊|とうぞく}, {挙動|きょどう}{不審|ふしん}
-- New kanji: 2,565 → 2,566 ({瞥|べつ})
-
-Total entries: ~17,454 → ~17,489 (approximate)
-Remaining candidates: ~2,325 → ~2,290 (35 removed)
 
 ---
 
