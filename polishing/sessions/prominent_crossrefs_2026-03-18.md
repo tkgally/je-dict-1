@@ -102,6 +102,24 @@ Date: 2026-03-18
 - 11770_bunki ↔ 17209_bunkisuru: 分岐 / 分岐する
 - 16205_heikou ↔ 17303_heikousuru: 閉口 / 閉口する
 - 09169_hekieki ↔ 09232_hekiekisuru: 辟易 / 辟易する
+- 12085_henkan ↔ 09890_henkansuru: 変換 / 変換する
+- 00770_benkyou ↔ 00527_benkyousuru: 勉強 / 勉強する
+- 03618_houkoku ↔ 05644_houkokusuru: 報告 / 報告する
+- 11932_housou ↔ 17300_housousuru: 包装 / 包装する
+- 02093_housou ↔ 01852_housousuru: 放送 / 放送する
+- 14571_boushi ↔ 17342_boushisuru: 防止 / 防止する
+- 13473_mushi ↔ 17288_mushisuru: 無視 / 無視する
+- 09933_men ↔ 14629_mensuru: 面 / 面する
+- 01517_yakusoku ↔ 05643_yakusokusuru: 約束 / 約束する
+- 09359_yancha ↔ 10776_yanchasuru: やんちゃ / やんちゃする
+- 02094_yushutsu ↔ 01855_yushutsusuru: 輸出 / 輸出する
+- 10000_you ↔ 14342_yousuru: 要 / 要する
+- 05635_yokusei ↔ 17121_yokuseisuru: 抑制 / 抑制する
+- 03664_yosou ↔ 06064_yosousuru: 予想 / 予想する
+- 03669_yobou ↔ 17341_yobousuru: 予防 / 予防する
+- 03674_rikai ↔ 06059_rikaisuru: 理解 / 理解する
+- 09149_rotei ↔ 17187_roteisuru: 露呈 / 露呈する
+- 10578_wakai ↔ 14912_wakaisuru: 和解 / 和解する
 
 ### Homophone References Added
 (none — no homophone pairs found in candidate list)
@@ -110,5 +128,5 @@ Date: 2026-03-18
 (none — all noun/する pairs warranted references)
 
 ### Statistics
-- Pairs evaluated: 100
-- References added: 200 (100 pairs × 2 directions)
+- Pairs evaluated: 118
+- References added: 236 (118 pairs × 2 directions)
