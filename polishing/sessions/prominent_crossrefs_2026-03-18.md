@@ -52,6 +52,31 @@ Date: 2026-03-18
 - 02086_shouchi ↔ 01835_shouchisuru: 承知 / 承知する
 - 02087_shokuji ↔ 01837_shokujisuru: 食事 / 食事する
 - 11440_shinnyuu ↔ 17343_shinnyuusuru: 侵入 / 侵入する
+- 00811_shinpai ↔ 06066_shinpaisuru: 心配 / 心配する
+- 01610_jama ↔ 05651_jamasuru: 邪魔 / 邪魔する
+- 12908_suishin ↔ 17281_suishinsuru: 推進 / 推進する
+- 01443_seikatsu ↔ 01839_seikatsusuru: 生活 / 生活する
+- 01444_seisan ↔ 01841_seisansuru: 生産 / 生産する
+- 01449_setsumei ↔ 05639_setsumeisuru: 説明 / 説明する
+- 14171_setsuritsu ↔ 17473_setsuritsusuru: 設立 / 設立する
+- 02088_sewa ↔ 01843_sewasuru: 世話 / 世話する
+- 14448_senshutsu ↔ 17345_senshutsusuru: 選出 / 選出する
+- 13283_sentaku ↔ 09656_sentakusuru: 洗濯 / 洗濯する
+- 03758_zenshin ↔ 17339_zenshinsuru: 前進 / 前進する
+- 14384_souguu ↔ 17454_souguusuru: 遭遇 / 遭遇する
+- 03689_soujuu ↔ 17302_soujuusuru: 操縦 / 操縦する
+- 02489_souzou ↔ 06060_souzousuru: 想像 / 想像する
+- 02089_soudan ↔ 01845_soudansuru: 相談 / 相談する
+- 03326_sonzai ↔ 17185_sonzaisuru: 存在 / 存在する
+- 03327_sonchou ↔ 17456_sonchousuru: 尊重 / 尊重する
+- 02090_taiin ↔ 01847_taiinsuru: 退院 / 退院する
+- 11443_taiken ↔ 09858_taikensuru: 体験 / 体験する
+- 12398_taikou ↔ 17344_taikousuru: 対抗 / 対抗する
+- 03382_tai ↔ 02126_taisuru: 対 / 対する
+- 17678_daietto ↔ 11008_daiettosuru: ダイエット / ダイエットする
+- 07423_dakyou ↔ 17188_dakyousuru: 妥協 / 妥協する
+- 03000_chekku ↔ 04916_chekkusuru: チェック / チェックする
+- 14839_chousei ↔ 10442_chouseisuru: 調整 / 調整する
 
 ### Homophone References Added
 (none — no homophone pairs found in candidate list)
@@ -60,5 +85,5 @@ Date: 2026-03-18
 (none — all noun/する pairs warranted references)
 
 ### Statistics
-- Pairs evaluated: 50
-- References added: 100 (50 pairs × 2 directions)
+- Pairs evaluated: 75
+- References added: 150 (75 pairs × 2 directions)
