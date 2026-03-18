@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "01998_kun_ex1",
-      "japanese": "{太郎|たろう}{君|くん}、{遊|あそ}ぼう。",
+      "japanese": "{太郎|たろう}{君|くん}、⟦{遊|あそ}ぼう→遊ぶ：00550_asobu⟧。",
       "english": "Taro, let's play.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "01998_kun_ex2",
-      "japanese": "{田中|たなか}{君|くん}、ちょっと{来|き}て。",
+      "japanese": "{田中|たなか}{君|くん}、⟦ちょっと→ちょっと：00595_chotto⟧⟦{来|き}て→来る：00254_kuru⟧。",
       "english": "Tanaka, come here for a moment.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "01998_kun_ex3",
-      "japanese": "{山田|やまだ}{君|くん}は{小学校|しょうがっこう}のときからの{友達|ともだち}だ。",
+      "japanese": "{山田|やまだ}{君|くん}⟦は→は：00079_ha⟧⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧⟦とき→時：02918_toki⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦だ→だ：09496_da⟧。",
       "english": "Yamada has been my friend since elementary school.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "01998_kun_ex4",
-      "japanese": "{佐藤|さとう}{君|くん}、この{資料|しりょう}をコピーしてくれ。",
+      "japanese": "{佐藤|さとう}{君|くん}、⟦この→この：00962_kono⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧⟦コピーして→コピーする：02941_kopiisuru⟧⟦くれ→くれる：00724_kureru⟧。",
       "english": "Sato, please copy this document.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "01998_kun_ex5",
-      "japanese": "{部長|ぶちょう}は{女性|じょせい}の{社員|しゃいん}にも{君|くん}をつけて{呼|よ}ぶ。",
+      "japanese": "⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦は→は：00079_ha⟧⟦{女性|じょせい}→女性：01617_josei⟧⟦の→の：09472_no⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{君|くん}⟦を→を：00422_wo⟧⟦つけて→付ける：00761_tsukeru⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧。",
       "english": "The department manager also addresses female employees with -kun.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "01998_kun_ex6",
-      "japanese": "うちの{会社|かいしゃ}では{男女|だんじょ}{問|と}わず{若|わか}い{社員|しゃいん}を{君|くん}づけで{呼|よ}ぶ{上司|じょうし}が{多|おお}い。",
+      "japanese": "⟦うち→内：01328_uchi⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{男女|だんじょ}→男女：03117_danjo⟧⟦{問|と}わず→問う：02299_tou⟧⟦{若|わか}い→若い：00823_wakai⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{君|くん}づけ⟦で→で：00502_de⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "At our company, many supervisors address young employees with -kun regardless of gender.",
       "notes": null,
       "has_audio": false,
@@ -82,8 +82,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:36:35Z",
-    "modified": "2026-02-21T03:45:30Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-03-18T03:35:12Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
