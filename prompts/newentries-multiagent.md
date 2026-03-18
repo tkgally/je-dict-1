@@ -4,9 +4,10 @@ Add 50+ new entries to the Japanese-English learner's dictionary from candidate_
 
 ## Architecture Overview
 
-- **Coordinator (you)**: Extracts candidates, assigns IDs, distributes work, runs validation/build
+- **Coordinator (you)**: Extracts candidates, assigns IDs, reads skill files, distributes work, runs validation/build
 - **Subagents (5+)**: Each independently creates ~10 entries using pre-assigned IDs and candidates
 - Each subagent operates within its own context window — they do NOT share context with each other or with you
+- **Subagents cannot load skills.** The coordinator must read the relevant skill files and include their full text in each subagent's prompt. This is critical for entry quality.
 
 ## Session Workflow
 
@@ -14,7 +15,7 @@ Add 50+ new entries to the Japanese-English learner's dictionary from candidate_
 
 1. **Read context**: Read `PROJECT_CONTEXT_BRIEF.md` for current counts and critical rules.
 
-2. **Select candidates**: Read `candidate_words.json` and select 50+ candidates to create entries for. Choose a diverse mix of parts of speech. Note the word, reading, and notes/gloss for each.
+2. **Select candidates**: Read `candidate_words.json` and select 50+ candidates to create entries for. Choose a diverse mix of parts of speech. Note the word, reading, notes/gloss, and likely part of speech for each.
 
 3. **Batch duplicate check**: Run a batch duplicate check on all selected candidates:
    ```bash
@@ -31,20 +32,32 @@ Add 50+ new entries to the Japanese-English learner's dictionary from candidate_
    - Romaji = reading converted to romaji (e.g., ひきょう → hikyou)
    - Path: `entries/{id_range}/{id}_{romaji}.json`
 
-7. **Read a sample entry**: Read one recent entry file to provide as a structural reference for subagents.
+7. **Read sample entries**: Read 2–3 recent entry files of different types (a verb, a noun, an adjective) to provide as structural references for subagents.
 
-8. **Group assignments**: Divide the candidates into groups of ~10 entries each, one group per subagent. Aim for 5–7 subagents. Try to group candidates by part of speech when possible (all verbs together, all nouns together, etc.) so that each subagent can focus on one entry type's requirements.
+8. **Read skill files**: Read the following skill files so you can include their full text in subagent prompts:
+   - `.claude/skills/entry-guidelines/SKILL.md` — general quality standards (include in ALL subagent prompts)
+   - `.claude/skills/example-sentences/SKILL.md` — example sentence requirements (include in ALL subagent prompts)
+   - `.claude/skills/vocabulary-notes/SKILL.md` — notes field formatting (include in ALL subagent prompts)
+   - `.claude/skills/verb-entry/SKILL.md` — verb-specific requirements (include for verb subagents)
+   - `.claude/skills/adjective-entry/SKILL.md` — adjective-specific requirements (include for adjective subagents)
+   - `.claude/skills/other-entries/SKILL.md` — noun/counter/adverb/expression requirements (include for those subagents)
+   - `.claude/skills/particle-entry/SKILL.md` — particle-specific requirements (include for particle subagents, if any)
+
+9. **Group assignments by part of speech**: Divide the candidates into groups of ~10 entries each, one group per subagent. Aim for 5–7 subagents. **Group by part of speech** so that each subagent only needs the skills relevant to its entry type:
+   - Verb group(s): gets verb-entry skill + general skills
+   - Adjective group(s): gets adjective-entry skill + general skills
+   - Noun/adverb/expression group(s): gets other-entries skill + general skills
+   - Particle group (if any): gets particle-entry skill + general skills
+
+   This keeps each subagent's prompt focused and avoids wasting context on irrelevant skills.
 
 ### Phase 2: Parallel Entry Creation (Subagents)
 
-Launch all subagents in parallel using the Agent tool. Each subagent receives:
+Launch all subagents in parallel using the Agent tool. Set `mode: "bypassPermissions"` so they can write files without prompts. Give each subagent a descriptive name like `entries-verbs-1`, `entries-nouns-1`, etc.
 
-- Its assigned list of candidates with pre-assigned IDs, file paths, and romaji
-- The timestamp to use
-- A sample entry for structural reference
-- The full set of entry creation rules (included in the subagent prompt below)
+**Each subagent prompt must include ALL of the following sections:**
 
-**Subagent prompt template:**
+#### Section 1: Task Description and Assignments
 
 ```
 You are creating dictionary entries for a Japanese-English learner's dictionary.
@@ -58,97 +71,65 @@ Create each entry as a JSON file using the Write tool.
 
 Use this exact timestamp for both metadata.created and metadata.modified:
 [timestamp from get_timestamp.py]
+```
 
+#### Section 2: Sample Entries
+
+Include 1–2 complete sample entry JSON files that match the part of speech this subagent is creating. For example, give verb subagents a sample verb entry, noun subagents a sample noun entry.
+
+```
 ## Sample Entry (structural reference)
 
-[Paste a complete sample entry JSON here]
-
-## Entry Creation Rules
-
-For EACH entry, create a JSON file at the specified path with these requirements:
-
-### Structure
-- `schema_version`: "2.0"
-- `id`: "{numeric_id}_{romaji}" (e.g., "16542_yunomi")
-- `headword`: The word with furigana on all kanji: `{漢字|かんじ}`
-- `reading`: Hiragana reading (always hiragana, never katakana)
-- `part_of_speech`: One of: noun, verb, adjective, い-adjective, な-adjective, adverb, particle, counter, expression, conjunction, prefix, suffix
-- `gloss`: Brief English gloss (the short definition)
-- `definitions`: Array of sense objects, each with sense_number, gloss, and explanation (in English)
-- `examples`: See example requirements below
-- `notes`: See notes requirements below
-- `cross_references`: Empty array [] for new entries
-- `metadata`: See metadata requirements below
-
-### Furigana — CRITICAL
-ALL kanji must have furigana in ALL fields — headword, examples, AND notes.
-Format: `{漢字|かんじ}` — curly braces, kanji, pipe, reading in hiragana.
-This includes kanji in idioms, collocations, and explanatory Japanese text.
-Example: `{暖簾|のれん}に{腕押|うでお}し` NOT `暖簾に腕押し`
-
-### All explanations in English
-Definitions, notes, etymology, usage explanations, and cultural context must be in English.
-Japanese text appears only in example phrases, collocations, and patterns — never as explanatory prose.
-
-### NEVER add inline word links
-Do NOT add ⟦...⟧ links — those are added in a separate polishing step.
-
-### Examples — Minimum 3 PER SENSE
-- Each sense needs at least 3 examples (2 senses = 6 examples, 3 senses = 9, etc.)
-- Examples progress from shorter to longer within each sense:
-  1. Short (5-15 chars Japanese) — demonstrates the word clearly
-  2. Medium (10-20 chars) — shows basic context
-  3. Longer (15-30 chars) — natural usage with fuller context
-- Every example must have `sense_numbers` field (e.g., `[1]`)
-- Example ID format: `{entry_id}_ex{N}` where N is sequential (ex1, ex2, ex3...)
-- `has_audio`: false
-- `notes`: null (unless a specific note is needed)
-- Include at least one common collocation per sense
-
-### Notes Field
-Structure the notes with these sections as appropriate:
-- USAGE: (how the word is used, register, context)
-- COMMON COLLOCATIONS: (list with format `- {漢字|かんじ}パターン (English gloss)`)
-- SIMILAR WORDS: (comparisons with related words, include furigana)
-- KANJI: (etymology or character breakdown, if helpful)
-- CULTURAL NOTE: (if relevant)
-All Japanese text in notes must have furigana on kanji.
-
-### Part-of-Speech-Specific Rules
-
-**Verbs**: Include transitivity ("transitive verb" or "intransitive verb" in gloss or definition). Note aspect/ている behavior if noteworthy. Include common particle patterns in collocations (e.g., ～を{食|た}べる).
-
-**Adjectives**: For い-adjectives, use part_of_speech "い-adjective". For な-adjectives, use "な-adjective". Show common predicate and modifier forms in collocations.
-
-**Nouns**: Note if the noun can function as a する verb (e.g., {勉強|べんきょう}する). Include counter patterns if applicable.
-
-### Metadata
-```json
-"metadata": {
-  "created": "[USE PROVIDED TIMESTAMP]",
-  "modified": "[USE PROVIDED TIMESTAMP]",
-  "ai_model": "claude-opus-4-6",
-  "vocabulary_tier": "general",
-  "tags": {
-    "pos": ["[part of speech]"],
-    "formality": "neutral",
-    "politeness": "plain",
-    "semantic": ["[1-3 relevant semantic tags]"]
-  }
-}
+[Paste complete sample entry JSON here — choose one matching this subagent's part of speech]
 ```
 
-All entries must have `vocabulary_tier: "general"`.
+#### Section 3: Full Skill Text — General Skills (ALL subagents)
 
-## Important
-- Write each entry file using the Write tool at the EXACT path specified
+Include the **complete, unabridged text** of these three skill files in every subagent prompt. Do not summarize — paste the full content:
+
+1. **entry-guidelines** (from `.claude/skills/entry-guidelines/SKILL.md`)
+   - Covers: file placement, furigana requirements, reading format, metadata tags (pos values, formality, politeness, semantic categories, transitivity), vocabulary tier policy, timestamps, duplicate definitions, quality checklist
+
+2. **example-sentences** (from `.claude/skills/example-sentences/SKILL.md`)
+   - Covers: minimum counts per sense per tier, progressive length requirements, vocabulary restrictions, sense_numbers rules, quality standards, example format reference
+
+3. **vocabulary-notes** (from `.claude/skills/vocabulary-notes/SKILL.md`)
+   - Covers: section headers, line breaks between sections, bullet points for lists, newlines in JSON, furigana in notes, structure templates
+
+**Why full text is required:** These skills contain specific tag values (e.g., valid `pos` tags like `verb-godan`, `verb-ichidan`, `adjective-i`, `adjective-na`), formatting rules (e.g., `\n\n` between sections in JSON notes), and quality checklists that cannot be adequately conveyed in a summary. Subagents cannot load skills themselves, so this is their only source of these requirements.
+
+#### Section 4: Full Skill Text — Part-of-Speech Skill (per subagent type)
+
+Include the **complete, unabridged text** of the relevant POS skill:
+
+| Subagent type | Skill to include |
+|---------------|------------------|
+| Verbs | `verb-entry` — transitivity (自動詞/他動詞), pair verbs, aspect/ている behavior, particle patterns, collocations, verb-specific tags (`verb-godan`/`verb-ichidan`/`verb-suru`/etc., `transitivity` tag) |
+| Adjectives | `adjective-entry` — い-adjective vs な-adjective, forms, conjugations, predicate vs modifier usage, similar words, adjective-specific tags (`adjective-i`/`adjective-na`/etc.) |
+| Nouns, counters, adverbs, expressions | `other-entries` — noun collocations, scope clarification, counter counting patterns (1–10), adverb position/modification, expression situational context and response pairs, type-specific tags |
+| Particles | `particle-entry` — predicate lists, particle contrasts, fixed patterns, information structure |
+
+#### Section 5: Operational Instructions
+
+Include these instructions at the end of every subagent prompt:
+
+```
+## Operational Instructions
+
+- Write each entry file using the Write tool at the EXACT path specified in your assignments
 - Do NOT run any validation scripts — the coordinator will handle that
-- Do NOT run get_next_id.py or get_timestamp.py — use the values provided
-- Do NOT run check_duplicate.py — the coordinator already checked
+- Do NOT run get_next_id.py or get_timestamp.py — use the values provided above
+- Do NOT run check_duplicate.py — the coordinator already checked all assignments
+- Do NOT add inline word links (⟦...⟧) — those are added in a separate polishing step
 - Focus entirely on writing high-quality entry JSON files
+- Apply the skill guidelines carefully — they define the quality standard for this dictionary
+- All explanations must be in English — Japanese text appears only in example phrases, collocations, and patterns
+- All kanji must have furigana in ALL fields (headword, examples, AND notes): {漢字|かんじ}
+- All readings must be hiragana, never katakana (even for katakana loanwords)
+- All examples must have sense_numbers
+- All entries must have vocabulary_tier: "general"
+- Use schema_version: "2.0"
 ```
-
-**Launch subagents**: Use the Agent tool to launch all subagents simultaneously (in a single message with multiple Agent tool calls). Set `mode: "bypassPermissions"` so they can write files without prompts. Give each subagent a descriptive name like `entries-batch-1`, `entries-batch-2`, etc.
 
 ### Phase 3: Validation and Build (Coordinator)
 
@@ -156,7 +137,17 @@ After ALL subagents complete:
 
 1. **Verify file creation**: Glob for all newly created entry files and confirm the count matches expectations. Check that filenames follow the `{id}_{romaji}.json` pattern.
 
-2. **Spot-check entries**: Read 2-3 entries from different subagents to verify structural correctness (furigana present, sense_numbers on examples, English-only explanations, no inline links, correct schema_version, etc.).
+2. **Spot-check entries**: Read 2–3 entries from different subagents to verify:
+   - Furigana on all kanji (in headword, examples, AND notes)
+   - sense_numbers on all examples
+   - English-only explanations (no Japanese prose)
+   - No inline word links (⟦...⟧)
+   - Correct schema_version ("2.0")
+   - Correct vocabulary_tier ("general")
+   - Proper metadata tags (correct pos values like `verb-godan` not just `verb`, transitivity tag on verbs, etc.)
+   - Notes field properly formatted (section headers, bullet points, `\n\n` between sections)
+   - Verb entries have transitivity, aspect, particle patterns
+   - Adjective entries specify い-adjective vs な-adjective correctly
 
 3. **Run validation**:
    ```bash
@@ -191,12 +182,14 @@ After ALL subagents complete:
 - **The coordinator owns all ID assignment** — subagents must never call `get_next_id.py`
 - **The coordinator runs all duplicate checks** — subagents must never call `check_duplicate.py`
 - **The coordinator runs all validation/build** — subagents only write JSON files
+- **Subagents cannot load skills** — the coordinator must read skill files and paste their full text into subagent prompts
 - **NEVER add inline word links (⟦...⟧)** — added in a separate polishing step
 - **ALL kanji require furigana** in headwords, examples, AND notes: `{漢字|かんじ}`
 - **All explanations must be in English** — Japanese only in example phrases and collocations
 - **All examples require sense_numbers** — validation will fail without them
 - **All new entries must have `vocabulary_tier: "general"`** — basic and core tiers are fixed
 - **Timestamps from get_timestamp.py only** — run once, share with all subagents
+- **Include full skill text in subagent prompts** — do not summarize or abbreviate skills
 
 ## Duplicate Check Details
 
@@ -234,4 +227,16 @@ If validate.py reports duplicates, use the resolve-duplicates skill to fix them 
 - With 7 subagents at ~10 entries each, expect ~70 entries per batch
 - Each subagent has its own context window, so the per-entry quality should match single-agent mode
 - The coordinator's context is mainly used for preparation and validation, not entry authoring
+- Grouping by part of speech keeps subagent prompts focused: each subagent only needs 3 general skills + 1 POS-specific skill, rather than all skills
 - If a subagent fails or produces fewer entries than expected, the coordinator can either fix the entries directly or launch a replacement subagent for the remaining work
+
+## Context Budget Considerations
+
+Each subagent's prompt will be substantial due to the included skill text. Approximate sizes:
+- General skills (entry-guidelines + example-sentences + vocabulary-notes): ~700 lines
+- POS-specific skill (verb-entry, adjective-entry, etc.): ~150–200 lines
+- Sample entry: ~80 lines
+- Assignments + operational instructions: ~50 lines
+- **Total per subagent: ~1,000 lines of prompt**
+
+This leaves ample context for the subagent to write ~10 high-quality entries. If you find subagents are running low on context, reduce the batch size per subagent to ~7–8 entries and increase the number of subagents.
