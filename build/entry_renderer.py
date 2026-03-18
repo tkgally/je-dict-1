@@ -252,10 +252,9 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
             <div class="entry-reading">{html.escape(reading)}</div>
             <div class="entry-pos">{html.escape(entry.get('part_of_speech', ''))}</div>
             <div class="entry-gloss">{html.escape(entry.get('gloss', ''))}</div>
-        </div>
     ''')
 
-    # Prominent see-also (high-visibility cross-references shown before definitions)
+    # Prominent see-also (high-visibility cross-references shown inside entry-header, above the border)
     prominent_refs = entry.get('prominent_see_also', [])
     if prominent_refs:
         html_parts.append('<div class="prominent-see-also">')
@@ -292,6 +291,8 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         html_parts.append(f'<span class="prominent-ref-label">See also:</span> ')
         html_parts.append(', '.join(ref_links))
         html_parts.append('</div>')
+
+    html_parts.append('</div>')  # Close entry-header
 
     # Definitions and Examples
     definitions = entry.get('definitions', [])
