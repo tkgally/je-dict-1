@@ -1,8 +1,8 @@
 ## Session: Example Sentences
 Date: 2026-03-18
-Entries checked: 07910-07999
+Entries checked: 07910-08099
 
-### Changes Made
+### Changes Made (batch 1: 07910-07999)
 - [07911]: insufficient count - added 1 example for sense 2 (aftermath/consequences)
 - [07914]: insufficient count - added 1 example for sense 2 (ridiculous/absurd)
 - [07917]: insufficient count - added 1 example for sense 2 (bookkeeping journal entry)
@@ -14,10 +14,13 @@ Entries checked: 07910-07999
 - [07945]: insufficient count - added 1 example for sense 1 (physical inertia/momentum)
 - [07963]: insufficient count - added 3 examples (1 for sense 1, 2 for sense 2) for memorandum
 
+### Changes Made (batch 2: 08000-08099)
+- [08059]: insufficient count - added 1 example for sense 1 (connection/link), renumbered subsequent examples
+
 ### Summary
-- 90 entries checked
-- 10 entries modified
+- 190 entries checked
+- 11 entries modified
 - All issues were insufficient example counts for multi-sense entries where one or more senses had fewer than 3 examples
 
 ### Next Entry
-08000
+08100
