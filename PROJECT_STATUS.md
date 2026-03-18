@@ -51,25 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
-### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 452)
-Added 35 new dictionary entries (IDs 17702-17736) from candidate_words.json:
+### 2026-03-18 (Vocabulary Expansion - 32 New Entries, Session 452)
+Added 32 new dictionary entries (IDs 17702-17736) from candidate_words.json. (3 candidates skipped as duplicates of existing entries: {統率|とうそつ}, {貸与|たいよ}, {拝聴|はいちょう}.)
 
 - **Nouns (14)**: {連休明|れんきゅうあ}け (end of long weekend), {収集日|しゅうしゅうび} (garbage collection day), {糠漬|ぬかづ}け (rice-bran pickles), {大葉|おおば} (green perilla leaf), {事実婚|じじつこん} (common-law marriage), {改訂版|かいていばん} (revised edition), {最前列|さいぜんれつ} (front row), {薄|うす}ら{笑|わら}い (smirk), {取|と}っ{組|く}み{合|あ}い (scuffle), {合唱団|がっしょうだん} (choir), {国立公園|こくりつこうえん} (national park), {門下生|もんかせい} (pupil/disciple), {家宝|かほう} (family heirloom), {器械|きかい} (apparatus/instrument)
-- **Noun/Suru verbs (13)**: {帰郷|ききょう} (returning home), {来場|らいじょう} (attendance), {統率|とうそつ} (leadership/command), {過大評価|かだいひょうか} (overestimation), {再挑戦|さいちょうせん} (trying again), {貸与|たいよ} (lending), {借用|しゃくよう} (borrowing), {拝聴|はいちょう} (listening, humble), {退席|たいせき} (leaving one's seat), {爆走|ばくそう} (reckless driving/blazing run), {諮問|しもん} (advisory inquiry), {固辞|こじ} (firm refusal), {摂生|せっせい} (health care/temperance)
+- **Noun/Suru verbs (10)**: {帰郷|ききょう} (returning home), {来場|らいじょう} (attendance), {過大評価|かだいひょうか} (overestimation), {再挑戦|さいちょうせん} (trying again), {借用|しゃくよう} (borrowing), {退席|たいせき} (leaving one's seat), {爆走|ばくそう} (reckless driving/blazing run), {諮問|しもん} (advisory inquiry), {固辞|こじ} (firm refusal), {摂生|せっせい} (health care/temperance)
 - **Noun/Suru verb (sports)**: {先発|せんぱつ} (starting lineup/departing first)
 - **Na-adjective (2)**: {前途有望|ぜんとゆうぼう} (having a promising future), {楽観主義|らっかんしゅぎ} (optimism)
 - **Noun (business)**: {外回|そとまわ}り (outside sales/outer loop), {中途採用|ちゅうとさいよう} (mid-career hiring), {未経験|みけいけん} (inexperienced)
 - **Noun (culture)**: {敵討|かたきう}ち (revenge/vengeance), {神宮|じんぐう} (grand shrine)
 
 Notable features:
-- Business/career: {中途採用|ちゅうとさいよう}, {未経験|みけいけん}, {外回|そとまわ}り, {貸与|たいよ}, {借用|しゃくよう}
-- Formal/keigo: {拝聴|はいちょう}, {退席|たいせき}, {諮問|しもん}, {固辞|こじ}
+- Business/career: {中途採用|ちゅうとさいよう}, {未経験|みけいけん}, {外回|そとまわ}り, {借用|しゃくよう}
+- Formal: {退席|たいせき}, {諮問|しもん}, {固辞|こじ}
 - Culture/history: {神宮|じんぐう}, {敵討|かたきう}ち, {門下生|もんかせい}, {家宝|かほう}
 - Food: {糠漬|ぬかづ}け, {大葉|おおば}
 - Daily life: {連休明|れんきゅうあ}け, {収集日|しゅうしゅうび}, {国立公園|こくりつこうえん}
 - New kanji: 2,567 → 2,568 ({糠|ぬか})
 
-Total entries: ~17,594 → ~17,629 (approximate)
+Total entries: ~17,594 → ~17,626 (approximate)
 Remaining candidates: ~2,186 → ~2,155 (31 removed)
 
 ### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 451)
