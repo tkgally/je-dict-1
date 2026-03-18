@@ -19,7 +19,9 @@
       "english": "I fired a gun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12921_utsu_ex2",
@@ -27,7 +29,9 @@
       "english": "They shot down the enemy plane.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12921_utsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The hunter went out to the mountains to shoot deer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nSpecifically refers to shooting with firearms or projectile weapons. Written with {撃|う}つ to distinguish from the more general {打|う}つ (to hit, to strike). Both are read うつ but have different meanings and kanji.\n\nCOMMON COLLOCATIONS:\n- {銃|じゅう}を{撃|う}つ: to fire a gun\n- {弾|たま}を{撃|う}つ: to fire a bullet\n- {撃|う}ち{落|お}とす: to shoot down\n- {撃|う}ち{殺|ころ}す: to shoot dead\n- {撃|う}ち{抜|ぬ}く: to shoot through\n\nKANJI NOTE:\n{撃|う}つ specifically uses the kanji {撃|げき} (attack, strike), distinguishing it from {打|う}つ (to hit/strike with hands or tools).",
@@ -54,12 +60,24 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-tsu",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "01221_utsu",
+      "reading": "うつ",
+      "headword": "{打|う}つ",
+      "note": "to hit, to strike (打)"
+    }
+  ]
 }
