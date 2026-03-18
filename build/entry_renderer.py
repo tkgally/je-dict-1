@@ -255,6 +255,44 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         </div>
     ''')
 
+    # Prominent see-also (high-visibility cross-references shown before definitions)
+    prominent_refs = entry.get('prominent_see_also', [])
+    if prominent_refs:
+        html_parts.append('<div class="prominent-see-also">')
+        ref_links = []
+        for ref in prominent_refs:
+            ref_reading = ref.get('reading', '')
+            ref_headword = ref.get('headword', '')
+            ref_note = ref.get('note', '')
+            target_id = ref.get('target_id', '')
+
+            # Resolve target
+            if not target_id:
+                candidates = readings_to_entries.get(ref_reading, [])
+                if len(candidates) == 1:
+                    target_id = candidates[0]['id']
+                elif len(candidates) > 1 and ref_headword:
+                    for candidate in candidates:
+                        if candidate['headword'] == ref_headword:
+                            target_id = candidate['id']
+                            break
+
+            display = process_furigana(ref_headword) if ref_headword else html.escape(ref_reading)
+            note_text = f' ({html.escape(ref_note)})' if ref_note else ''
+
+            if target_id and target_id in entries_dict:
+                target_dir_range = get_directory_range(target_id)
+                ref_links.append(
+                    f'<a href="{relative_path}entries/{target_dir_range}/{target_id}.html"'
+                    f' class="prominent-ref-link">{display}</a>{note_text}'
+                )
+            else:
+                ref_links.append(f'<span class="prominent-ref-pending">{display}</span>{note_text}')
+
+        html_parts.append(f'<span class="prominent-ref-label">See also:</span> ')
+        html_parts.append(', '.join(ref_links))
+        html_parts.append('</div>')
+
     # Definitions and Examples
     definitions = entry.get('definitions', [])
     examples = entry.get('examples', [])

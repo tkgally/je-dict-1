@@ -104,6 +104,34 @@
       "type": "string",
       "description": "Free-form prose: grammar notes, usage notes, cultural notes"
     },
+    "prominent_see_also": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["reading"],
+        "properties": {
+          "target_id": {
+            "type": "string",
+            "pattern": "^[0-9]{5}_[a-z]+(_[a-z]+)?$",
+            "description": "Hard-coded entry ID for direct resolution (optional)"
+          },
+          "reading": {
+            "type": "string",
+            "pattern": "^[ぁ-んーゝゞ]+$",
+            "description": "Hiragana reading of target word"
+          },
+          "headword": {
+            "type": "string",
+            "description": "Display form with kanji/furigana"
+          },
+          "note": {
+            "type": "string",
+            "description": "Brief disambiguation note (e.g., 'listen attentively', 'to pass away')"
+          }
+        }
+      },
+      "description": "High-visibility cross-references shown at top of entry page (for homophones, easily confused words)"
+    },
     "cross_references": {
       "type": "array",
       "items": {
