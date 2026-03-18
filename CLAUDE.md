@@ -22,6 +22,7 @@ build/            # Python build, validation, and utility scripts
   build/update_kanji_index.py   # Rebuild kanji JSON files; --check-new finds new kanji
   build/validate_tags.py        # Validate semantic/POS tag consistency
   build/get_next_id.py          # Get next available entry ID (scans filesystem)
+  build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 polishing/        # Progress tracking for entry polishing tasks
@@ -85,6 +86,11 @@ python3 build/manage_candidates.py check "word" "reading"         # Check if wor
 python3 build/manage_candidates.py sync                           # Remove candidates that now exist as entries
 python3 build/manage_candidates.py stats                          # Show candidate list statistics
 
+# Entry consolidation
+python3 build/find_merge_candidates.py              # Full report: merges, cross-refs, dup IDs
+python3 build/find_merge_candidates.py --merge-only # Only potential merges
+python3 build/find_merge_candidates.py --json       # Machine-readable output
+
 # Reports
 python3 build/report.py                   # Dictionary health dashboard
 
@@ -132,6 +138,11 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `clean_up_candidates_list.md` — review and clean candidate_words.json
 - `polish_add_entries_for_noentry_example_words.md` — create entries for words marked `noentry` in inline links
 
+**Entry consolidation:**
+- `consolidate_entries.md` — find and merge duplicate/variant entries
+- `add_prominent_crossrefs.md` — add high-visibility cross-references for homophones
+- `fix_duplicate_ids.md` — resolve entries sharing the same 5-digit numeric ID
+
 **Polishing (progress-tracked):**
 - `polish_add_inline_links.md` — add ⟦...⟧ cross-reference links to examples/notes
 - `polish_example_sentences.md` — check example count, quality, and vocabulary tier compliance
@@ -159,6 +170,7 @@ Detailed instructions for specific tasks live in `.claude/skills/`. Key ones:
 - `vocabulary-tiers` — tier criteria, word counts, self-containment principles
 - `kanji-index` — kanji ID assignment, index updates
 - `revise-entries` / `polish-entries` — improving existing entries
+- `consolidate-entries` — identifying and merging duplicate/variant entries
 - `delete-entry` / `resolve-duplicates` — safe removal and deduplication
 
 Invoke a skill with `/<skill-name>` (e.g., `/verb-entry`) to load its full instructions.

@@ -67,18 +67,27 @@ The `build_flat.py` step is critical - without it, new entries won't appear on t
 
    - If it says "OK: ... is not in the dictionary or candidates" → Safe to create entry
    - If it says "DUPLICATE: ..." → SKIP this word, do NOT create a duplicate
-   - **Informational notes** about homophones/homographs do NOT block entry creation
+   - **Informational notes** about homophones/homographs do NOT block entry creation — **BUT** you must evaluate them (see step 2)
 
-2. **Batch checking** (optional, to plan which candidates to work on):
+2. **If homophones are reported, check for spelling variants**:
+   The script reports entries with the same reading but different headwords. Most are genuine homophones (different words), but some may be **spelling variants of the same word** (e.g., a kana-only form alongside a kanji form). Before creating the entry, verify:
+   - Does an existing entry with the same reading cover the same meaning?
+   - Is the new headword just a different way to write the same word (kana vs kanji, alternative kanji)?
+   - If YES: do NOT create a new entry. Instead, consider updating the existing entry's notes to mention the alternative spelling.
+   - If NO (genuinely different word): proceed with entry creation.
+
+   See the `consolidate-entries` skill for the full decision framework.
+
+3. **Batch checking** (optional, to plan which candidates to work on):
    ```bash
    python3 build/check_duplicate.py --batch "食べる:たべる" "飲む:のむ" "書く:かく"
    ```
 
-3. **If the word was in candidate_words.json**: It will be automatically removed when you run `python3 build/update_indexes.py` after creating the entry.
+4. **If the word was in candidate_words.json**: It will be automatically removed when you run `python3 build/update_indexes.py` after creating the entry.
 
-4. **Only create new entries** for words that pass the duplicate check.
+5. **Only create new entries** for words that pass the duplicate check AND the variant check.
 
-This prevents duplicate entries and wasted effort on entries that must later be deleted.
+This prevents duplicate entries and wasted effort on entries that must later be deleted or merged.
 
 ## Content Guidelines
 

@@ -99,6 +99,21 @@ Run make quick to validate entries, update indexes, and rebuild only changed ent
 Read PROJECT_CONTEXT_BRIEF.md and summarize the current state of the dictionary.
 ```
 
+### Consolidate entries (merge duplicates/variants)
+```
+Read prompts/consolidate_entries.md and follow the instructions to find and merge duplicate or variant entries.
+```
+
+### Add prominent cross-references
+```
+Read prompts/add_prominent_crossrefs.md and follow the instructions to add high-visibility cross-references for homophones and easily confused words.
+```
+
+### Fix duplicate numeric IDs
+```
+Read prompts/fix_duplicate_ids.md and follow the instructions to resolve entries sharing the same 5-digit numeric ID.
+```
+
 ---
 
 ## Maintenance & Review
