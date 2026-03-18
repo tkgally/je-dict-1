@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,559 |
+| Total entries | ~17,594 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,760 (open) |
-| Candidate words | ~2,221 |
+| General tier | ~14,795 (open) |
+| Candidate words | ~2,186 |
 | Cross-references | ~3,400 |
-| Example sentences | ~50,800 |
+| Example sentences | ~50,900 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 451)
+Added 35 new dictionary entries (IDs 17514-17549) from candidate_words.json:
+
+- **Nouns (17)**: {飲|の}み{屋|や} (bar/pub), {並木道|なみきみち} (tree-lined road), {横目|よこめ} (sidelong glance), {銀世界|ぎんせかい} (snowy landscape), {独|ひと}り{身|み} (being single), {湖畔|こはん} (lakeside), {知恵袋|ちえぶくろ} (source of wisdom), {得意料理|とくいりょうり} (specialty dish), {遊具|ゆうぐ} (playground equipment), {命日|めいにち} (death anniversary), {土砂|どしゃ} (earth and sand), {夜道|よみち} (road at night), {零下|れいか} (below zero), {敬称|けいしょう} (honorific title), {乱気流|らんきりゅう} (turbulence), {非常事態|ひじょうじたい} (state of emergency), {急病|きゅうびょう} (sudden illness)
+- **Noun/Suru verbs (7)**: {仰天|ぎょうてん} (astonishment), {沈没|ちんぼつ} (sinking), {立|た}ち{往生|おうじょう} (being stranded), {複製|ふくせい} (reproduction), {熟読|じゅくどく} (reading carefully), {滑落|かつらく} (slipping and falling), {究明|きゅうめい} (investigation)
+- **Noun/Adjectives (4)**: {想定外|そうていがい} (unforeseen), {和洋折衷|わようせっちゅう} (Japanese-Western fusion), {純情|じゅんじょう} (pure-hearted), {弱腰|よわごし} (weak-kneed)
+- **Noun/Adjective (1)**: {丸裸|まるはだか} (stark naked; stripped bare)
+- **Verbs (2)**: {戒|いまし}める (to warn/admonish), {上向|うわむ}く (to improve/look up)
+- **Expressions (2)**: {首|くび}を{傾|かし}げる (to tilt head in puzzlement), {途方|とほう}に{暮|く}れる (to be at a loss)
+- **Adverb (1)**: よもや (surely not)
+- **Expression (1)**: {縁起|えんぎ}が{良|よ}い (auspicious)
+
+Notable features:
+- Disaster/emergency: {非常事態|ひじょうじたい}, {土砂|どしゃ}, {滑落|かつらく}, {乱気流|らんきりゅう}, {立|た}ち{往生|おうじょう}
+- Daily life/culture: {飲|の}み{屋|や}, {得意料理|とくいりょうり}, {命日|めいにち}, {縁起|えんぎ}が{良|よ}い, {和洋折衷|わようせっちゅう}
+- Emotion/cognition: {仰天|ぎょうてん}, {純情|じゅんじょう}, {途方|とほう}に{暮|く}れる, {首|くび}を{傾|かし}げる, よもや
+- Scenery/nature: {銀世界|ぎんせかい}, {並木道|なみきみち}, {湖畔|こはん}, {零下|れいか}
+- New kanji: 2,566 → 2,567 ({畔|はん})
+
+Total entries: ~17,559 → ~17,594 (approximate)
+Remaining candidates: ~2,221 → ~2,186 (35 removed)
 
 ### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 450)
 Added 35 new dictionary entries (IDs 17479-17513) from candidate_words.json:
@@ -136,27 +158,6 @@ Notable features:
 
 Total entries: ~17,419 → ~17,454 (approximate)
 Remaining candidates: ~2,360 → ~2,325 (35 removed)
-
-### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 446)
-Added 35 new dictionary entries (IDs 17339-17373) from candidate_words.json:
-
-- **Suru verbs (9)**: {前進|ぜんしん}する (to advance), {後退|こうたい}する (to retreat), {予防|よぼう}する (to prevent), {防止|ぼうし}する (to stop), {侵入|しんにゅう}する (to invade), {対抗|たいこう}する (to oppose), {選出|せんしゅつ}する (to elect), {継承|けいしょう}する (to inherit), {記述|きじゅつ}する (to describe)
-- **Nouns (15)**: {告知|こくち} (notice), {男女|だんじょ}{平等|びょうどう} (gender equality), {排斥|はいせき} (exclusion), {高評価|こうひょうか} (positive rating), {自己|じこ}{評価|ひょうか} (self-evaluation), {文化|ぶんか}{遺産|いさん} (cultural heritage), {温室|おんしつ}{効果|こうか} (greenhouse effect), {健康|けんこう}{食品|しょくひん} (health food), {早番|はやばん} (early shift), {模範|もはん}{解答|かいとう} (model answer), {個別|こべつ}{指導|しどう} (individual tutoring), {車線|しゃせん}{変更|へんこう} (lane change), {着信|ちゃくしん}{履歴|りれき} (call history), {栄養|えいよう}{剤|ざい} (supplement), {変化球|へんかきゅう} (breaking ball)
-- **Informal nouns (2)**: {朝飯|あさめし} (breakfast), {昼飯|ひるめし} (lunch)
-- **Adjective (1)**: {写実的|しゃじつてき} (realistic)
-- **Verb (1)**: {切|き}り{揃|そろ}える (to trim evenly)
-- **Expressions (2)**: {口|くち}を{利|き}く (to speak/put in a word), {相手|あいて}にする (to deal with)
-- **Other nouns (5)**: {運転|うんてん}{代行|だいこう} (designated driver), {鉄鋼|てっこう} (iron and steel), {世捨|よす}て{人|びと} (hermit), {指導力|しどうりょく} (leadership), {大技|おおわざ} (major technique)
-
-Notable features:
-- Prevention/defense: {予防|よぼう}する, {防止|ぼうし}する, {侵入|しんにゅう}する, {対抗|たいこう}する
-- Society/culture: {男女|だんじょ}{平等|びょうどう}, {排斥|はいせき}, {文化|ぶんか}{遺産|いさん}, {世捨|よす}て{人|びと}
-- Modern life: {高評価|こうひょうか}, {着信|ちゃくしん}{履歴|りれき}, {運転|うんてん}{代行|だいこう}
-- Education: {模範|もはん}{解答|かいとう}, {個別|こべつ}{指導|しどう}, {自己|じこ}{評価|ひょうか}
-- New kanji: 2,562 → 2,563 ({斥|せき})
-
-Total entries: ~17,384 → ~17,419 (approximate)
-Remaining candidates: ~2,395 → ~2,360 (35 removed)
 
 ---
 
