@@ -27,6 +27,31 @@ Date: 2026-03-18
 - 04428_kushami ↔ 05351_kushamisuru: くしゃみ / くしゃみする
 - 13841_keishou ↔ 17346_keishousuru: 継承 / 継承する
 - 00787_kega ↔ 01632_kegasuru: けが / けがする
+- 02710_kentou ↔ 17455_kentousuru: 検討 / 検討する
+- 02727_koushou ↔ 17189_koushousuru: 交渉 / 交渉する
+- 12556_koutai ↔ 17340_koutaisuru: 後退 / 後退する
+- 02752_kouryo ↔ 06061_kouryosuru: 考慮 / 考慮する
+- 02805_kokufuku ↔ 15863_kokufukusuru: 克服 / 克服する
+- 01405_koshou ↔ 01826_koshousuru: 故障 / 故障する
+- 04883_kopii ↔ 02941_kopiisuru: コピー / コピーする
+- 09170_konwaku ↔ 17192_konwakusuru: 困惑 / 困惑する
+- 13108_saibai ↔ 09860_saibaisuru: 栽培 / 栽培する
+- 03846_sain ↔ 09864_sainsuru: サイン / サインする
+- 02829_sansei ↔ 05647_sanseisuru: 賛成 / 賛成する
+- 10634_sanpai ↔ 15627_sanpaisuru: 参拝 / 参拝する
+- 12669_shigan ↔ 11342_shigansuru: 志願 / 志願する
+- 02083_shitaku ↔ 01828_shitakusuru: 支度 / 支度する
+- 00888_shitsumon ↔ 05637_shitsumonsuru: 質問 / 質問する
+- 11405_shusai ↔ 17278_shusaisuru: 主催 / 主催する
+- 02084_shusseki ↔ 01830_shussekisuru: 出席 / 出席する
+- 02085_shuppatsu ↔ 01832_shuppatsusuru: 出発 / 出発する
+- 11947_shutoku ↔ 10444_shutokusuru: 取得 / 取得する
+- 01432_shoukai ↔ 05641_shoukaisuru: 紹介 / 紹介する
+- 13788_shoujin ↔ 16828_shoujinsuru: 精進 / 精進する
+- 01435_shoutai ↔ 01833_shoutaisuru: 招待 / 招待する
+- 02086_shouchi ↔ 01835_shouchisuru: 承知 / 承知する
+- 02087_shokuji ↔ 01837_shokujisuru: 食事 / 食事する
+- 11440_shinnyuu ↔ 17343_shinnyuusuru: 侵入 / 侵入する
 
 ### Homophone References Added
 (none — no homophone pairs found in candidate list)
@@ -35,5 +60,5 @@ Date: 2026-03-18
 (none — all noun/する pairs warranted references)
 
 ### Statistics
-- Pairs evaluated: 25
-- References added: 50 (25 pairs × 2 directions)
+- Pairs evaluated: 50
+- References added: 100 (50 pairs × 2 directions)

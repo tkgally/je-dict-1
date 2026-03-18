@@ -19,7 +19,9 @@
       "english": "It's an event hosted by the city.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11405_shusai_ex2",
@@ -27,7 +29,9 @@
       "english": "I attended a charity concert organized by an NPO.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11405_shusai_ex3",
@@ -35,7 +39,9 @@
       "english": "An international symposium hosted by the university is scheduled to be held next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- ～が{主催|しゅさい}する (hosted/organized by ~)\n- {主催|しゅさい}{者|しゃ} (organizer, host)\n- {主催|しゅさい}{団体|だんたい} (organizing body)\n\nPATTERN: The organizer is marked with が: 「Xが{主催|しゅさい}するY」 means \"Y hosted by X.\" The event being hosted is the direct object when using を: 「Xが{大会|たいかい}を{主催|しゅさい}する」.",
@@ -46,11 +52,24 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["event"]
+      "semantic": [
+        "event"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "17278_shusaisuru",
+      "reading": "しゅさいする",
+      "headword": "{主催|しゅさい}する",
+      "note": "verb form"
+    }
+  ]
 }
