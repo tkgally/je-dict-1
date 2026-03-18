@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,524 |
+| Total entries | ~17,559 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,725 (open) |
-| Candidate words | ~2,255 |
+| General tier | ~14,760 (open) |
+| Candidate words | ~2,221 |
 | Cross-references | ~3,400 |
-| Example sentences | ~50,700 |
+| Example sentences | ~50,800 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 450)
+Added 35 new dictionary entries (IDs 17479-17513) from candidate_words.json:
+
+- **Expressions/Adverbs (7)**: {今|いま}まさに (at this very moment), {年|とし}ごとに (year by year), {可能|かのう}であれば (if possible), {均衡|きんこう}を{保|たも}つ (maintain balance), {反応|はんのう}を{見|み}る (gauge a reaction), {直|じか}に{触|ふ}れる (touch directly/experience firsthand), {耳|みみ}を{慣|な}らす (train one's ear)
+- **Nouns (17)**: {一昨昨日|さきおととい} (three days ago), {生活|せいかつ}の{質|しつ} (quality of life), {感染経路|かんせんけいろ} (route of infection), {無形文化財|むけいぶんかざい} (intangible cultural property), {英文法|えいぶんぽう} (English grammar), {化学肥料|かがくひりょう} (chemical fertilizer), {殺人未遂|さつじんみすい} (attempted murder), {戸籍抄本|こせきしょうほん} (family register extract), {物見櫓|ものみやぐら} (watchtower), {舞台装置|ぶたいそうち} (stage set), {長期保有|ちょうきほゆう} (long-term holding), {合|あ}わせ{酢|ず} (seasoned vinegar), {公衆衛生|こうしゅうえいせい} (public health), {隔世遺伝|かくせいいでん} (atavism), {臨時収入|りんじしゅうにゅう} (extra income), {体罰禁止|たいばつきんし} (corporal punishment ban), {修了式|しゅうりょうしき} (completion ceremony)
+- **Noun/Suru verbs (3)**: {予算|よさん}オーバー (over budget), {工業化|こうぎょうか} (industrialization), {銘記|めいき} (engrave in mind)
+- **Noun/No-adjectives (3)**: {自分用|じぶんよう} (for personal use), {未舗装|みほそう} (unpaved), {無酸素|むさんそ} (oxygen-free)
+- **Noun/Na-adjective (1)**: {正確無比|せいかくむひ} (unparalleled accuracy)
+- **Other (4)**: よくある{質問|しつもん} (FAQ), {一意専心|いちいせんしん} (single-minded devotion), きょろり (quick glance), {内意|ないい} (real intention)
+
+Notable features:
+- Health/science: {感染経路|かんせんけいろ}, {公衆衛生|こうしゅうえいせい}, {無酸素|むさんそ}, {隔世遺伝|かくせいいでん}
+- Culture/society: {無形文化財|むけいぶんかざい}, {物見櫓|ものみやぐら}, {舞台装置|ぶたいそうち}, {体罰禁止|たいばつきんし}
+- Business/finance: {予算|よさん}オーバー, {長期保有|ちょうきほゆう}, {臨時収入|りんじしゅうにゅう}
+- Education: {英文法|えいぶんぽう}, {修了式|しゅうりょうしき}, {耳|みみ}を{慣|な}らす
+- Legal/admin: {殺人未遂|さつじんみすい}, {戸籍抄本|こせきしょうほん}
+
+Total entries: ~17,524 → ~17,559 (approximate)
+Remaining candidates: ~2,255 → ~2,221 (34 removed)
 
 ### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 449)
 Added 35 new dictionary entries (IDs 17444-17478) from candidate_words.json:
@@ -137,29 +157,6 @@ Notable features:
 
 Total entries: ~17,384 → ~17,419 (approximate)
 Remaining candidates: ~2,395 → ~2,360 (35 removed)
-
-### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 445)
-Added 35 new dictionary entries (IDs 17304-17338) from candidate_words.json:
-
-- **Verbs (4)**: {闘|たたか}う (to fight/struggle), あがる (to get nervous), {追|お}い{詰|つ}められる (to be cornered), {維持|いじ}する (to maintain)
-- **Nouns (8)**: {闘|たたか}い (fight/struggle), {街|まち} (commercial district), {香|こう} (incense), {最少|さいしょう} (minimum), {茶碗蒸|ちゃわんむ}し (egg custard), {実写化|じっしゃか} (live-action adaptation), {四|よ}つ{角|かど} (crossroads), {水掛|みずか}け{論|ろん} (futile argument)
-- **Expressions (15)**: {問答無用|もんどうむよう} (no arguing), {締|し}まりがない (slovenly), {合点|がてん}が{行|い}く (to be convinced), {可能|かのう}な{限|かぎ}り (as much as possible), {陰|かげ}りが{見|み}える (signs of decline), {余裕|よゆう}がない (no room/leeway), {見|み}るに{忍|しの}びない (unbearable to watch), {未然|みぜん}に{防|ふせ}ぐ (prevent beforehand), {事|こと}の{次第|しだい} (circumstances), {空気|くうき}を{壊|こわ}す (ruin the mood), {意識|いしき}が{遠|とお}のく (lose consciousness), {愛想|あいそ}を{振|ふ}りまく (try to please everyone), {幕|まく}を{閉|と}じる (come to an end), {耳|みみ}を{塞|ふさ}ぐ (cover one's ears), {髪|かみ}を{梳|と}かす (comb one's hair)
-- **Adjective (1)**: {容姿端麗|ようしたんれい} (strikingly beautiful)
-- **Adverb (1)**: {必然的|ひつぜんてき}に (inevitably)
-- **Suffix (1)**: {館|かん} (hall/building)
-- **Compounds (3)**: {現状打破|げんじょうだは} (breaking status quo), {読書三昧|どくしょざんまい} (absorbed in reading), {無断駐車|むだんちゅうしゃ} (unauthorized parking)
-- **Conjunction (1)**: そういうわけで (for that reason)
-- **Other (1)**: {型|かた}にはまる (to be conventional)
-
-Notable features:
-- Communication/social: {愛想|あいそ}を{振|ふ}りまく, {空気|くうき}を{壊|こわ}す, {耳|みみ}を{塞|ふさ}ぐ, {問答無用|もんどうむよう}, {水掛|みずか}け{論|ろん}
-- Cognition: {合点|がてん}が{行|い}く, {意識|いしき}が{遠|とお}のく, あがる
-- Culture/food: {茶碗蒸|ちゃわんむ}し, {香|こう}, {読書三昧|どくしょざんまい}, {実写化|じっしゃか}
-- Figurative language: {陰|かげ}りが{見|み}える, {幕|まく}を{閉|と}じる, {型|かた}にはまる
-- New kanji: 2,561 → 2,562 ({梳|そ})
-
-Total entries: ~17,314 → ~17,349 (approximate)
-Remaining candidates: ~2,430 → ~2,395 (35 removed)
 
 ---
 

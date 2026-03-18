@@ -3,6 +3,9 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 445)
+Added 35 new dictionary entries (IDs 17304-17338) from candidate_words.json. Verbs, nouns, expressions, adjective, adverb, suffix, and compounds. Communication/social, cognition, culture/food, figurative language entries. New kanji: 2,561 → 2,562. Total entries: ~17,314 → ~17,349.
+
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 444)
 Added 35 new dictionary entries (IDs 17267-17303) from candidate_words.json. Suru verbs, godan verbs, nouns, expressions, adverbs, and more. Technology, communication, culture, and body/emotions entries. New kanji: 2,560 → 2,561. Total entries: ~17,314 → ~17,349.
 
