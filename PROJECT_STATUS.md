@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-17
+**Last updated**: 2026-03-18
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,489 |
+| Total entries | ~17,524 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,690 (open) |
-| Candidate words | ~2,290 |
+| General tier | ~14,725 (open) |
+| Candidate words | ~2,255 |
 | Cross-references | ~3,400 |
 | Example sentences | ~50,700 |
 | Audio files | 1,028 |
@@ -50,6 +50,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 449)
+Added 35 new dictionary entries (IDs 17444-17478) from candidate_words.json:
+
+- **Nouns (14)**: {里帰|さとがえ}り (returning home), {初恋|はつこい} (first love), {弱音|よわね} (whining), {真相|しんそう} (truth), {天守閣|てんしゅかく} (castle tower), {稲荷|いなり} (Inari deity/sushi), {曇|くも}り{空|ぞら} (cloudy sky), {値打|ねう}ち (value), {武士道|ぶしどう} (bushido), {家庭料理|かていりょうり} (home cooking), {旧友|きゅうゆう} (old friend), {名曲|めいきょく} (famous song), {漢方薬|かんぽうやく} (herbal medicine), {伝統工芸|でんとうこうげい} (traditional crafts)
+- **Suru verbs (7)**: {遭遇|そうぐう}する (to encounter), {検討|けんとう}する (to consider), {尊重|そんちょう}する (to respect), {確信|かくしん}する (to be convinced), {設立|せつりつ}する (to establish), {好転|こうてん} (change for the better), {保温|ほおん} (heat retention)
+- **Verbs (4)**: {振|ふ}られる (to be dumped), {出向|でむ}く (to go to), {貶|けな}す (to disparage), {懐|なつ}く (to become attached)
+- **Na-adjective/noun (2)**: {不機嫌|ふきげん} (bad mood), {飾|かざ}り{付|つ}け (decoration)
+- **Nouns (other) (4)**: {通販|つうはん} (online shopping), {逆|ぎゃく}ギレ (reverse outburst), {四|よ}つん{這|ば}い (on all fours), {発光|はっこう} (luminescence)
+- **Expressions (2)**: {煮|に}え{切|き}らない (indecisive), {探検|たんけん} (exploration)
+- **Person (2)**: {変|か}わり{者|もの} (eccentric), {点灯|てんとう} (turning on a light)
+
+Notable features:
+- Emotions/relationships: {初恋|はつこい}, {振|ふ}られる, {不機嫌|ふきげん}, {弱音|よわね}, {逆|ぎゃく}ギレ
+- Culture/Japan: {天守閣|てんしゅかく}, {稲荷|いなり}, {武士道|ぶしどう}, {伝統工芸|でんとうこうげい}, {漢方薬|かんぽうやく}
+- Business: {検討|けんとう}する, {設立|せつりつ}する
+- Daily life: {通販|つうはん}, {保温|ほおん}, {家庭料理|かていりょうり}, {曇|くも}り{空|ぞら}
+
+Total entries: ~17,489 → ~17,524 (approximate)
+Remaining candidates: ~2,290 → ~2,255 (35 removed)
 
 ### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 448)
 Added 35 new dictionary entries (IDs 17409-17443) from candidate_words.json:
@@ -140,29 +160,6 @@ Notable features:
 
 Total entries: ~17,314 → ~17,349 (approximate)
 Remaining candidates: ~2,430 → ~2,395 (35 removed)
-
-### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 444)
-Added 35 new dictionary entries (IDs 17267-17303) from candidate_words.json:
-
-- **Suru verbs (9)**: {発揮|はっき}する (to demonstrate), {主催|しゅさい}する (to host), {反論|はんろん}する (to refute), {推進|すいしん}する (to promote), {無視|むし}する (to ignore), {起動|きどう}する (to start up), {包装|ほうそう}する (to wrap), {操縦|そうじゅう}する (to pilot), {閉口|へいこう}する (to be stumped)
-- **Godan verbs (3)**: {黒|くろ}ずむ (to darken), {身籠|みごも}る (to become pregnant), {見|み}つけ{出|だ}す (to discover)
-- **Nouns (7)**: {慌|あわ}て{者|もの} (hasty person), {横向|よこむ}き (sideways), {特撮|とくさつ} (tokusatsu), {小動物|しょうどうぶつ} (small animal), {言|い}い{争|あらそ}い (quarrel), {錠剤|じょうざい} (tablet), {読書感想文|どくしょかんそうぶん} (book report)
-- **Noun/adjective (3)**: {未解決|みかいけつ} (unresolved), {純白|じゅんぱく} (pure white), {悪|わる}ふざけ (prank)
-- **Nouns (culture) (3)**: {炊|た}き{出|だ}し (soup kitchen), {確執|かくしつ} (feud), {謹賀新年|きんがしんねん} (Happy New Year)
-- **Expressions (4)**: お{見|み}えになる (to come, honorific), {相槌|あいづち}を{打|う}つ (back-channel), {口|くち}が{減|へ}らない (always has comeback), {身|み}の{毛|け}もよだつ (hair-raising)
-- **Adverbs (2)**: {足早|あしばや}に (briskly), {交互|こうご}に (alternately)
-- **Conjunction (1)**: それゆえ (therefore)
-- **Other (3)**: おっちょこちょい (scatterbrain), きちんとした (neat/proper), {落葉|らくよう} (falling leaves)
-
-Notable features:
-- Body/emotions: {閉口|へいこう}する, {身|み}の{毛|け}もよだつ, {確執|かくしつ}
-- Technology: {起動|きどう}する, {操縦|そうじゅう}する, {特撮|とくさつ}
-- Communication: {相槌|あいづち}を{打|う}つ, {反論|はんろん}する, {口|くち}が{減|へ}らない, {言|い}い{争|あらそ}い
-- Culture: {謹賀新年|きんがしんねん}, {炊|た}き{出|だ}し, {読書感想文|どくしょかんそうぶん}
-- New kanji: 2,560 → 2,561 ({錠|じょう})
-
-Total entries: ~17,314 → ~17,349 (approximate)
-Remaining candidates: ~2,465 → ~2,430 (35 removed)
 
 ---
 
