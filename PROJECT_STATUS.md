@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 452)
+Added 35 new dictionary entries (IDs 17702-17736) from candidate_words.json:
+
+- **Nouns (14)**: {連休明|れんきゅうあ}け (end of long weekend), {収集日|しゅうしゅうび} (garbage collection day), {糠漬|ぬかづ}け (rice-bran pickles), {大葉|おおば} (green perilla leaf), {事実婚|じじつこん} (common-law marriage), {改訂版|かいていばん} (revised edition), {最前列|さいぜんれつ} (front row), {薄|うす}ら{笑|わら}い (smirk), {取|と}っ{組|く}み{合|あ}い (scuffle), {合唱団|がっしょうだん} (choir), {国立公園|こくりつこうえん} (national park), {門下生|もんかせい} (pupil/disciple), {家宝|かほう} (family heirloom), {器械|きかい} (apparatus/instrument)
+- **Noun/Suru verbs (13)**: {帰郷|ききょう} (returning home), {来場|らいじょう} (attendance), {統率|とうそつ} (leadership/command), {過大評価|かだいひょうか} (overestimation), {再挑戦|さいちょうせん} (trying again), {貸与|たいよ} (lending), {借用|しゃくよう} (borrowing), {拝聴|はいちょう} (listening, humble), {退席|たいせき} (leaving one's seat), {爆走|ばくそう} (reckless driving/blazing run), {諮問|しもん} (advisory inquiry), {固辞|こじ} (firm refusal), {摂生|せっせい} (health care/temperance)
+- **Noun/Suru verb (sports)**: {先発|せんぱつ} (starting lineup/departing first)
+- **Na-adjective (2)**: {前途有望|ぜんとゆうぼう} (having a promising future), {楽観主義|らっかんしゅぎ} (optimism)
+- **Noun (business)**: {外回|そとまわ}り (outside sales/outer loop), {中途採用|ちゅうとさいよう} (mid-career hiring), {未経験|みけいけん} (inexperienced)
+- **Noun (culture)**: {敵討|かたきう}ち (revenge/vengeance), {神宮|じんぐう} (grand shrine)
+
+Notable features:
+- Business/career: {中途採用|ちゅうとさいよう}, {未経験|みけいけん}, {外回|そとまわ}り, {貸与|たいよ}, {借用|しゃくよう}
+- Formal/keigo: {拝聴|はいちょう}, {退席|たいせき}, {諮問|しもん}, {固辞|こじ}
+- Culture/history: {神宮|じんぐう}, {敵討|かたきう}ち, {門下生|もんかせい}, {家宝|かほう}
+- Food: {糠漬|ぬかづ}け, {大葉|おおば}
+- Daily life: {連休明|れんきゅうあ}け, {収集日|しゅうしゅうび}, {国立公園|こくりつこうえん}
+- New kanji: 2,567 → 2,568 ({糠|ぬか})
+
+Total entries: ~17,594 → ~17,629 (approximate)
+Remaining candidates: ~2,186 → ~2,155 (31 removed)
+
 ### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 451)
 Added 35 new dictionary entries (IDs 17514-17549) from candidate_words.json:
 
@@ -134,30 +155,6 @@ Notable features:
 
 Total entries: ~17,454 → ~17,489 (approximate)
 Remaining candidates: ~2,325 → ~2,290 (35 removed)
-
-### 2026-03-17 (Vocabulary Expansion - 35 New Entries, Session 447)
-Added 35 new dictionary entries (IDs 17374-17408) from candidate_words.json:
-
-- **Nouns (19)**: {塗|ぬ}り{薬|ぐすり} (ointment), {鉛筆削|えんぴつけず}り (pencil sharpener), {看板|かんばん}メニュー (signature dish), {鈍痛|どんつう} (dull pain), {事務職|じむしょく} (office job), {魔法瓶|まほうびん} (thermos), {防寒|ぼうかん} (cold protection), {買|か}い{替|か}え (replacement purchase), {健診|けんしん} (health checkup), {限定版|げんていばん} (limited edition), {宝庫|ほうこ} (treasure house), {土下座|どげざ} (prostration), {起源|きげん} (origin), {無駄足|むだあし} (wasted trip), {宅急便|たっきゅうびん} (courier service), {背骨|せぼね} (backbone), {綱引|つなひ}き (tug-of-war), {汚職|おしょく} (corruption), {武者震|むしゃぶる}い (excited trembling)
-- **Na-adjectives (4)**: {赤裸々|せきらら} (frank, candid), {不鮮明|ふせんめい} (unclear, blurred), {甚大|じんだい} (enormous, severe), {節々|ふしぶし} (joints / various points)
-- **Nouns/suru verbs (2)**: {表彰|ひょうしょう} (commendation), {黙祷|もくとう} (silent prayer)
-- **Noun (humble) (1)**: {弊社|へいしゃ} (our company)
-- **Noun (clothing) (1)**: {半|はん}ズボン (shorts)
-- **Noun (emotion) (1)**: {至福|しふく} (bliss)
-- **Verbs (2)**: {干上|ひあ}がる (to dry up), {鉢合|はちあ}わせる (to bump into)
-- **Noun (animal/culture) (1)**: {雛|ひな} (chick / hina doll)
-- **Noun (name painting/film) (1)**: {名画|めいが} (famous painting / classic film)
-- **Expressions (3)**: {真|ま}っ{赤|か}な{嘘|うそ} (blatant lie), {我|われ}に{返|かえ}る (to come to one's senses), {必着|ひっちゃく} (must arrive by)
-
-Notable features:
-- Health/body: {塗|ぬ}り{薬|ぐすり}, {鈍痛|どんつう}, {健診|けんしん}, {背骨|せぼね}, {節々|ふしぶし}
-- Business: {弊社|へいしゃ}, {事務職|じむしょく}, {表彰|ひょうしょう}, {汚職|おしょく}
-- Culture: {土下座|どげざ}, {黙祷|もくとう}, {雛|ひな}, {綱引|つなひ}き
-- Daily life: {宅急便|たっきゅうびん}, {魔法瓶|まほうびん}, {買|か}い{替|か}え, {防寒|ぼうかん}
-- New kanji: 2,563 → 2,565 ({彰|しょう}, {祷|とう})
-
-Total entries: ~17,419 → ~17,454 (approximate)
-Remaining candidates: ~2,360 → ~2,325 (35 removed)
 
 ---
 
