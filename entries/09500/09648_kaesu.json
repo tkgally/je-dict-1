@@ -18,7 +18,9 @@
       "english": "I return the book I borrowed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09648_kaesu_ex2",
@@ -26,7 +28,9 @@
       "english": "I will definitely pay back the money.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09648_kaesu_ex3",
@@ -34,7 +38,9 @@
       "english": "I'm sorry to talk back, but I think that's wrong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY:\n・Type: Transitive ({他動詞|たどうし})\n・Pair: {返|かえ}る (intransitive - rare in this meaning)\n・Pattern: Xを{返|かえ}す\n\nCOMMON PATTERNS:\n・{本|ほん}を{返|かえ}す (to return a book)\n・お{金|かね}を{返|かえ}す (to repay money)\n・{言葉|ことば}を{返|かえ}す (to talk back)\n・{恩|おん}を{返|かえ}す (to return a favor)\n\nNote: Not to be confused with {帰|かえ}す (to send back home).",
@@ -45,11 +51,23 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "02030_kaesu",
+      "reading": "かえす",
+      "headword": "{帰|かえ}す",
+      "note": "to send back (帰)"
+    }
+  ]
 }
