@@ -77,6 +77,31 @@ Date: 2026-03-18
 - 07423_dakyou ↔ 17188_dakyousuru: 妥協 / 妥協する
 - 03000_chekku ↔ 04916_chekkusuru: チェック / チェックする
 - 14839_chousei ↔ 10442_chouseisuru: 調整 / 調整する
+- 13652_chokumen ↔ 15862_chokumensuru: 直面 / 直面する
+- 03536_teian ↔ 06057_teiansuru: 提案 / 提案する
+- 03540_teikou ↔ 15888_teikousuru: 抵抗 / 抵抗する
+- 16493_teisei ↔ 10443_teiseisuru: 訂正 / 訂正する
+- 15262_tekichuu ↔ 15431_tekichuusuru: 的中 / 的中する
+- 01471_denwa ↔ 05652_denwasuru: 電話 / 電話する
+- 05092_doui ↔ 06056_douisuru: 同意 / 同意する
+- 12029_douki ↔ 08667_doukisuru: 同期 / 同期する
+- 10127_dounyuu ↔ 16055_dounyuusuru: 導入 / 導入する
+- 03127_nakanaori ↔ 06307_nakanaorisuru: 仲直り / 仲直りする
+- 02091_nyuuin ↔ 01849_nyuuinsuru: 入院 / 入院する
+- 02092_nyuugaku ↔ 01851_nyuugakusuru: 入学 / 入学する
+- 01692_nebou ↔ 16731_nebousuru: 寝坊 / 寝坊する
+- 02082_haiken ↔ 01823_haikensuru: 拝見 / 拝見する
+- 06381_haishaku ↔ 06032_haishakusuru: 拝借 / 拝借する
+- 07629_hakkaku ↔ 15423_hakkakusuru: 発覚 / 発覚する
+- 00086_hakki ↔ 17267_hakkisuru: 発揮 / 発揮する
+- 04327_hanei ↔ 17186_haneisuru: 反映 / 反映する
+- 01497_hantai ↔ 05648_hantaisuru: 反対 / 反対する
+- 03571_handan ↔ 06062_handansuru: 判断 / 判断する
+- 08677_hanron ↔ 17280_hanronsuru: 反論 / 反論する
+- 03707_hitei ↔ 06063_hiteisuru: 否定 / 否定する
+- 11770_bunki ↔ 17209_bunkisuru: 分岐 / 分岐する
+- 16205_heikou ↔ 17303_heikousuru: 閉口 / 閉口する
+- 09169_hekieki ↔ 09232_hekiekisuru: 辟易 / 辟易する
 
 ### Homophone References Added
 (none — no homophone pairs found in candidate list)
@@ -85,5 +110,5 @@ Date: 2026-03-18
 (none — all noun/する pairs warranted references)
 
 ### Statistics
-- Pairs evaluated: 75
-- References added: 150 (75 pairs × 2 directions)
+- Pairs evaluated: 100
+- References added: 200 (100 pairs × 2 directions)
