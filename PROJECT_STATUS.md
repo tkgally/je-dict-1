@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-18
+**Last updated**: 2026-03-19
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,626 |
+| Total entries | ~17,653 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,827 (open) |
-| Candidate words | ~2,152 |
+| General tier | ~14,854 (open) |
+| Candidate words | ~6,537 |
 | Cross-references | ~3,400 |
-| Example sentences | ~51,020 |
+| Example sentences | ~51,140 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 455)
+Added 35 new dictionary entries (IDs 17807-17841) from candidate_words.json.
+
+- **Nouns (16)**: {水銀|すいぎん} (mercury), {有名人|ゆうめいじん} (celebrity), {小物|こもの} (accessories/small fry), {冒険心|ぼうけんしん} (spirit of adventure), {標語|ひょうご} (slogan), {一匹狼|いっぴきおおかみ} (lone wolf), {次世代|じせだい} (next generation), ばい{菌|きん} (germs), {福引|ふくび}き (lucky draw), {危険性|きけんせい} (riskiness), {枝分|えだわ}かれ (branching), {水玉模様|みずたまもよう} (polka dots), {養父|ようふ} (adoptive father), {義姉|ぎし} (sister-in-law), {旅客機|りょかくき} (passenger plane), {脈拍|みゃくはく} (pulse)
+- **Suru verbs (5)**: {退席|たいせき}する (to leave one's seat), {投影|とうえい}する (to project), {借用|しゃくよう}する (to borrow formally), {貸与|たいよ}する (to lend formally), {消毒|しょうどく}する (to disinfect)
+- **Nouns/Na-adjectives (2)**: {無制限|むせいげん} (unlimited), {実力主義|じつりょくしゅぎ} (meritocracy)
+- **Expressions (6)**: {間違|まちが}いない (certain), {言|い}い{換|か}えれば (in other words), {猛威|もうい}を{振|ふ}るう (to rage), しっくりくる (to feel right), そっとしておく (to leave alone), {居眠|いねむ}り{運転|うんてん} (drowsy driving)
+- **Verb (1)**: {泣|な}き{叫|さけ}ぶ (to cry out)
+- **Adverbs (2)**: {表面上|ひょうめんじょう} (on the surface), {現段階|げんだんかい} (at the present stage)
+- **Noun (multi-sense) (2)**: {計算機|けいさんき} (calculator/computer), {妥協点|だきょうてん} (compromise point)
+
+Notable features:
+- Formal pairs: {借用|しゃくよう}する / {貸与|たいよ}する (borrow/lend)
+- Health/hygiene: {消毒|しょうどく}する, ばい{菌|きん}, {脈拍|みゃくはく}
+- Society/business: {実力主義|じつりょくしゅぎ}, {有名人|ゆうめいじん}, {標語|ひょうご}
+- Everyday expressions: しっくりくる, そっとしておく, {間違|まちが}いない
+- Culture: {一匹狼|いっぴきおおかみ}, {福引|ふくび}き, {水玉模様|みずたまもよう}
+
+Total entries: ~17,626 → ~17,653 (approximate)
+Remaining candidates: ~6,572 → ~6,537 (35 removed)
 
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 454)
 Added 35 new dictionary entries (IDs 17772-17806) from candidate_words.json.
@@ -133,26 +154,6 @@ Notable features:
 
 Total entries: ~17,559 → ~17,594 (approximate)
 Remaining candidates: ~2,221 → ~2,186 (35 removed)
-
-### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 450)
-Added 35 new dictionary entries (IDs 17479-17513) from candidate_words.json:
-
-- **Expressions/Adverbs (7)**: {今|いま}まさに (at this very moment), {年|とし}ごとに (year by year), {可能|かのう}であれば (if possible), {均衡|きんこう}を{保|たも}つ (maintain balance), {反応|はんのう}を{見|み}る (gauge a reaction), {直|じか}に{触|ふ}れる (touch directly/experience firsthand), {耳|みみ}を{慣|な}らす (train one's ear)
-- **Nouns (17)**: {一昨昨日|さきおととい} (three days ago), {生活|せいかつ}の{質|しつ} (quality of life), {感染経路|かんせんけいろ} (route of infection), {無形文化財|むけいぶんかざい} (intangible cultural property), {英文法|えいぶんぽう} (English grammar), {化学肥料|かがくひりょう} (chemical fertilizer), {殺人未遂|さつじんみすい} (attempted murder), {戸籍抄本|こせきしょうほん} (family register extract), {物見櫓|ものみやぐら} (watchtower), {舞台装置|ぶたいそうち} (stage set), {長期保有|ちょうきほゆう} (long-term holding), {合|あ}わせ{酢|ず} (seasoned vinegar), {公衆衛生|こうしゅうえいせい} (public health), {隔世遺伝|かくせいいでん} (atavism), {臨時収入|りんじしゅうにゅう} (extra income), {体罰禁止|たいばつきんし} (corporal punishment ban), {修了式|しゅうりょうしき} (completion ceremony)
-- **Noun/Suru verbs (3)**: {予算|よさん}オーバー (over budget), {工業化|こうぎょうか} (industrialization), {銘記|めいき} (engrave in mind)
-- **Noun/No-adjectives (3)**: {自分用|じぶんよう} (for personal use), {未舗装|みほそう} (unpaved), {無酸素|むさんそ} (oxygen-free)
-- **Noun/Na-adjective (1)**: {正確無比|せいかくむひ} (unparalleled accuracy)
-- **Other (4)**: よくある{質問|しつもん} (FAQ), {一意専心|いちいせんしん} (single-minded devotion), きょろり (quick glance), {内意|ないい} (real intention)
-
-Notable features:
-- Health/science: {感染経路|かんせんけいろ}, {公衆衛生|こうしゅうえいせい}, {無酸素|むさんそ}, {隔世遺伝|かくせいいでん}
-- Culture/society: {無形文化財|むけいぶんかざい}, {物見櫓|ものみやぐら}, {舞台装置|ぶたいそうち}, {体罰禁止|たいばつきんし}
-- Business/finance: {予算|よさん}オーバー, {長期保有|ちょうきほゆう}, {臨時収入|りんじしゅうにゅう}
-- Education: {英文法|えいぶんぽう}, {修了式|しゅうりょうしき}, {耳|みみ}を{慣|な}らす
-- Legal/admin: {殺人未遂|さつじんみすい}, {戸籍抄本|こせきしょうほん}
-
-Total entries: ~17,524 → ~17,559 (approximate)
-Remaining candidates: ~2,255 → ~2,221 (34 removed)
 
 ---
 
