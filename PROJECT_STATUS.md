@@ -51,6 +51,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 456)
+Added 35 new dictionary entries (IDs 17842-17876) from candidate_words.json.
+
+- **Suru verbs (6)**: {整備|せいび}する (to maintain), {解説|かいせつ}する (to commentate), {証明|しょうめい}する (to prove), {関連|かんれん}する (to be related), {入部|にゅうぶ}する (to join a club), {統率|とうそつ}する (to command)
+- **Ichidan verbs (2)**: {植|う}え{替|か}える (to replant), {釣|つ}り{上|あ}げる (to fish up/hike prices)
+- **Nouns (10)**: {人員|じんいん} (personnel), {支持者|しじしゃ} (supporter), {十字架|じゅうじか} (cross/crucifix), お{経|きょう} (Buddhist sutra), {関西弁|かんさいべん} (Kansai dialect), {連鎖反応|れんさはんのう} (chain reaction), {感度|かんど} (sensitivity), {飼育員|しいくいん} (zookeeper), {名誉毀損|めいよきそん} (defamation), {飽和状態|ほうわじょうたい} (saturation)
+- **Adjectives (3)**: {大|おお}まかな (rough/broad), {最愛|さいあい} (beloved), のろい (slow/sluggish)
+- **Nouns/Translation (2)**: {和訳|わやく} (Japanese translation), {意訳|いやく} (free translation)
+- **Noun (other) (3)**: {未完|みかん} (unfinished), ほら{吹|ふ}き (boaster), ライフライン (essential utilities), {交通量|こうつうりょう} (traffic volume)
+- **Adverbs/Onomatopoeia (3)**: {小刻|こきざ}みに (in small steps), ポカンと (blankly/gaping), かすかに (faintly)
+- **Expressions (5)**: というより (rather than), {今更|いまさら}ながら (even at this late stage), {愛着|あいちゃく}が{湧|わ}く (to grow fond of), {融通|ゆうずう}が{利|き}く (to be flexible), {水気|みずけ}を{切|き}る (to drain moisture)
+
+Notable features:
+- Translation pair: {和訳|わやく} / {意訳|いやく}
+- Cooking: {水気|みずけ}を{切|き}る
+- Culture/religion: {十字架|じゅうじか}, お{経|きょう}, {関西弁|かんさいべん}
+- Disaster: ライフライン
+- Legal: {名誉毀損|めいよきそん}
+- School life: {入部|にゅうぶ}する
+
+Total entries: ~17,653 → ~17,688 (approximate)
+Remaining candidates: ~6,537 → ~6,503 (34 removed)
+
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 455)
 Added 35 new dictionary entries (IDs 17807-17841) from candidate_words.json.
 
@@ -132,28 +155,6 @@ Notable features:
 
 Total entries: ~17,594 → ~17,626 (approximate)
 Remaining candidates: ~2,186 → ~2,155 (31 removed)
-
-### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 451)
-Added 35 new dictionary entries (IDs 17514-17549) from candidate_words.json:
-
-- **Nouns (17)**: {飲|の}み{屋|や} (bar/pub), {並木道|なみきみち} (tree-lined road), {横目|よこめ} (sidelong glance), {銀世界|ぎんせかい} (snowy landscape), {独|ひと}り{身|み} (being single), {湖畔|こはん} (lakeside), {知恵袋|ちえぶくろ} (source of wisdom), {得意料理|とくいりょうり} (specialty dish), {遊具|ゆうぐ} (playground equipment), {命日|めいにち} (death anniversary), {土砂|どしゃ} (earth and sand), {夜道|よみち} (road at night), {零下|れいか} (below zero), {敬称|けいしょう} (honorific title), {乱気流|らんきりゅう} (turbulence), {非常事態|ひじょうじたい} (state of emergency), {急病|きゅうびょう} (sudden illness)
-- **Noun/Suru verbs (7)**: {仰天|ぎょうてん} (astonishment), {沈没|ちんぼつ} (sinking), {立|た}ち{往生|おうじょう} (being stranded), {複製|ふくせい} (reproduction), {熟読|じゅくどく} (reading carefully), {滑落|かつらく} (slipping and falling), {究明|きゅうめい} (investigation)
-- **Noun/Adjectives (4)**: {想定外|そうていがい} (unforeseen), {和洋折衷|わようせっちゅう} (Japanese-Western fusion), {純情|じゅんじょう} (pure-hearted), {弱腰|よわごし} (weak-kneed)
-- **Noun/Adjective (1)**: {丸裸|まるはだか} (stark naked; stripped bare)
-- **Verbs (2)**: {戒|いまし}める (to warn/admonish), {上向|うわむ}く (to improve/look up)
-- **Expressions (2)**: {首|くび}を{傾|かし}げる (to tilt head in puzzlement), {途方|とほう}に{暮|く}れる (to be at a loss)
-- **Adverb (1)**: よもや (surely not)
-- **Expression (1)**: {縁起|えんぎ}が{良|よ}い (auspicious)
-
-Notable features:
-- Disaster/emergency: {非常事態|ひじょうじたい}, {土砂|どしゃ}, {滑落|かつらく}, {乱気流|らんきりゅう}, {立|た}ち{往生|おうじょう}
-- Daily life/culture: {飲|の}み{屋|や}, {得意料理|とくいりょうり}, {命日|めいにち}, {縁起|えんぎ}が{良|よ}い, {和洋折衷|わようせっちゅう}
-- Emotion/cognition: {仰天|ぎょうてん}, {純情|じゅんじょう}, {途方|とほう}に{暮|く}れる, {首|くび}を{傾|かし}げる, よもや
-- Scenery/nature: {銀世界|ぎんせかい}, {並木道|なみきみち}, {湖畔|こはん}, {零下|れいか}
-- New kanji: 2,566 → 2,567 ({畔|はん})
-
-Total entries: ~17,559 → ~17,594 (approximate)
-Remaining candidates: ~2,221 → ~2,186 (35 removed)
 
 ---
 
