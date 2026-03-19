@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,723 |
+| Total entries | ~17,758 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,924 (open) |
-| Candidate words | ~6,423 |
+| General tier | ~14,959 (open) |
+| Candidate words | ~6,388 |
 | Cross-references | ~3,400 |
-| Example sentences | ~51,350 |
+| Example sentences | ~51,480 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 459)
+Added 35 new dictionary entries (IDs 17947-17981) from candidate_words.json.
+
+- **Nouns (15)**: {浜辺|はまべ} (beach), {覆面|ふくめん} (mask/incognito), {理性|りせい} (reason/rationality), {母国|ぼこく} (motherland), {念願|ねんがん} (long-cherished wish), {猛威|もうい} (fury), {職歴|しょくれき} (work history), {翌日|よくじつ} (next day), {神父|しんぷ} (priest), {伴侶|はんりょ} (partner/spouse), {裏切|うらぎ}り (betrayal), {搭乗券|とうじょうけん} (boarding pass), {人目|ひとめ} (public eye), {精神力|せいしんりょく} (willpower), {依存症|いぞんしょう} (addiction)
+- **Noun/Na-adjective (1)**: {潔白|けっぱく} (innocence/purity)
+- **Noun/Adverb (1)**: {真|ま}っ{二|ふた}つ (right in half)
+- **Suru verbs (10)**: {調節|ちょうせつ} (adjustment), {合掌|がっしょう} (pressing palms together), {推測|すいそく} (conjecture), {譲歩|じょうほ} (concession), {論破|ろんぱ} (refutation), {微調整|びちょうせい} (fine-tuning), {点滅|てんめつ} (flashing), {凝視|ぎょうし} (staring), {伝聞|でんぶん} (hearsay), {密談|みつだん} (secret talk)
+- **Suru verbs (intransitive) (2)**: {意識|いしき}する (to be conscious of), {上達|じょうたつ}する (to improve)
+- **Noun/Verb-suru (cultural) (1)**: お{花見|はなみ} (cherry blossom viewing)
+- **Ichidan verb (1)**: {疲|つか}れ{果|は}てる (to be utterly exhausted)
+- **Noun (clothing) (1)**: {長靴|ながぐつ} (rubber boots)
+- **Noun (literary) (2)**: {疑念|ぎねん} (doubt/suspicion), {聖書|せいしょ} (Bible)
+- **Noun (found objects) (1)**: {拾|ひろ}い{物|もの} (found object/windfall)
+
+Notable features:
+- Cultural: お{花見|はなみ}, {合掌|がっしょう}, {聖書|せいしょ}
+- Emotional: {念願|ねんがん}, {潔白|けっぱく}, {裏切|うらぎ}り, {疑念|ぎねん}
+- Mental: {理性|りせい}, {精神力|せいしんりょく}, {意識|いしき}する
+- Communication: {論破|ろんぱ}, {密談|みつだん}, {伝聞|でんぶん}, {譲歩|じょうほ}
+- Daily life: {長靴|ながぐつ}, {搭乗券|とうじょうけん}, {覆面|ふくめん}
+- Cross-references added: 3 homophone pairs ({合掌|がっしょう}/{合唱|がっしょう}, {神父|しんぷ}/{新婦|しんぷ}, {聖書|せいしょ}/{清書|せいしょ}, {人目|ひとめ}/{一目|ひとめ})
+
+Total entries: ~17,723 → ~17,758 (approximate)
+Remaining candidates: ~6,423 → ~6,388 (35 removed)
 
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 458)
 Added 35 new dictionary entries (IDs 17912-17946) from candidate_words.json.
@@ -135,32 +160,6 @@ Notable features:
 
 Total entries: ~17,626 → ~17,653 (approximate)
 Remaining candidates: ~6,572 → ~6,537 (35 removed)
-
-### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 454)
-Added 35 new dictionary entries (IDs 17772-17806) from candidate_words.json.
-
-- **Nouns (21)**: {貴婦人|きふじん} (noblewoman), {光陰|こういん} (time/literary), {急斜面|きゅうしゃめん} (steep slope), {卸業者|おろしぎょうしゃ} (wholesaler), {中立国|ちゅうりつこく} (neutral country), {集積所|しゅうせきじょ} (collection point), {次長|じちょう} (deputy director), {案内図|あんないず} (guide map), {現代語|げんだいご} (modern language), {枠内|わくない} (within limits), {磁力|じりょく} (magnetic force), {異説|いせつ} (dissenting view), {益虫|えきちゅう} (beneficial insect), {広角|こうかく} (wide-angle), {不特定|ふとくてい} (unspecified), {在校生|ざいこうせい} (current student), {若気|わかげ} (youthful impetuousness), {国力|こくりょく} (national power), {公爵|こうしゃく} (duke), {特報|とくほう} (breaking news), {絶望感|ぜつぼうかん} (sense of despair)
-- **Noun/Suru verbs (6)**: {抜糸|ばっし} (stitch removal), {連写|れんしゃ} (burst mode), {口承|こうしょう} (oral tradition), {接写|せっしゃ} (close-up photography), {詳述|しょうじゅつ} (detailed description), {死滅|しめつ} (extinction)
-- **Na-adjectives (2)**: {道徳的|どうとくてき} (moral/ethical), {瑣末|さまつ} (trivial/trifling)
-- **Noun/Na-adjective (1)**: {虚像|きょぞう} (virtual/false image)
-- **Noun/No-adjective (1)**: {玄人好|くろうとごの}み (for connoisseurs)
-- **Noun (business) (2)**: {他社|たしゃ} (other company), {些事|さじ} (trivial matter)
-- **Verb (1)**: {組|く}み{合|あ}わさる (to be combined)
-- **Noun (multi-sense) (1)**: {枠内|わくない} (within frame/within limits)
-
-Notable features:
-- Photography: {連写|れんしゃ}, {接写|せっしゃ}, {広角|こうかく}
-- Business/organizations: {他社|たしゃ}, {次長|じちょう}, {卸業者|おろしぎょうしゃ}
-- Literary/formal: {光陰|こういん}, {貴婦人|きふじん}, {口承|こうしょう}, {詳述|しょうじゅつ}
-- Science: {磁力|じりょく}, {虚像|きょぞう}, {死滅|しめつ}, {益虫|えきちゅう}
-- New kanji: 2,568 → 2,569 ({瑣|さ})
-
-Total entries: ~17,626 → ~17,661 (approximate)
-Remaining candidates: ~2,152 → ~2,117 (35 removed)
-
-
-Total entries: ~17,594 → ~17,626 (approximate)
-Remaining candidates: ~2,186 → ~2,152 (34 removed)
 
 ---
 
