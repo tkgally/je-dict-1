@@ -63,9 +63,18 @@ Date: 2026-03-19
 - 専攻/選考, 摂生/節制, 星座/正座, 全身/前身
 - 正常/清浄, 整形/生計, 政党/正統
 
+**Batch 8 (た/ち group — 24 pairs):**
+- 対照/対象, 体制/態勢, 絶える/耐える, 尋ねる/訪ねる
+- 建つ/立つ, 建てる/立てる, 戦い/闘い, 戦う/闘う
+- 多様/多用, 短期/短気, 大戦/対戦, 注射/駐車
+- 便り/頼り, 代謝/退社, 他社/他者, 台頭/対等
+- 地下/地価, 炊く/焚く, 中止/注視, 代替/だいたい
+- 大気/待機, 体積/退席, 体型/体系, 経つ/立つ
+
 ### Statistics
 - Noun/する pairs evaluated: 6
 - Noun/する references added: 12 (6 × 2)
-- Homophone pairs evaluated: ~400+
-- Homophone references added: ~286 (143 pairs × 2)
-- Total references added this session: ~298
+- Homophone pairs evaluated: ~450+
+- Homophone references added: ~334 (167 pairs × 2)
+- Total references added this session: ~346
+- Progress: covered readings from あ through ち (previous session covered あ through か)
