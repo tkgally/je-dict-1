@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,758 |
+| Total entries | ~17,828 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,959 (open) |
-| Candidate words | ~6,388 |
+| General tier | ~15,029 (open) |
+| Candidate words | ~6,352 |
 | Cross-references | ~3,400 |
-| Example sentences | ~51,480 |
+| Example sentences | ~51,580 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 460)
+Added 35 new dictionary entries (IDs 17982-18016) from candidate_words.json.
+
+- **Nouns (20)**: {退所|たいしょ} (discharge from facility), {糖質|とうしつ}{制限|せいげん} (low-carb diet), {婦人|ふじん}{服|ふく} (women's clothing), {振付師|ふりつけし} (choreographer), ショーケース (showcase), {陳列棚|ちんれつだな} (display shelf), {腺|せん} (gland), {丁字路|ていじろ} (T-junction), {現代|げんだい}{文学|ぶんがく} (modern literature), {心理|しんり}{描写|びょうしゃ} (psychological description), {野手|やしゅ} (fielder), {記念|きねん}{式典|しきてん} (commemorative ceremony), コルク{抜|ぬ}き (corkscrew), {襟足|えりあし} (nape hairline), {一輪挿|いちりんざ}し (bud vase), {予約|よやく}{特典|とくてん} (pre-order bonus), {湯沸|ゆわ}かし (kettle), {主犯|しゅはん} (principal offender), {騎兵|きへい} (cavalry), {人格|じんかく}{形成|けいせい} (character building)
+- **Noun/Suru verbs (7)**: {先行|せんこう}{予約|よやく} (advance booking), {新規|しんき}{事業|じぎょう} (new business), {衛生|えいせい}{管理|かんり} (hygiene management), {共同|きょうどう}{開発|かいはつ} (joint development), {精神|せいしん}{統一|とういつ} (mental concentration), {築城|ちくじょう} (castle construction), {進軍|しんぐん} (military advance)
+- **Other (8)**: {最高|さいこう}{速度|そくど} (maximum speed), {身内|みうち}びいき (nepotism), {社外|しゃがい} (outside the company), {魔術|まじゅつ} (magic/sorcery), {深層|しんそう}{心理|しんり} (deep psychology), {貴殿|きでん} (you - formal pronoun), {盆|ぼん}{帰|がえ}り (Obon homecoming), {九死|きゅうし}に{一生|いっしょう} (narrow escape from death)
+
+Notable features:
+- Retail: ショーケース, {陳列棚|ちんれつだな}, {婦人|ふじん}{服|ふく}
+- Business: {新規|しんき}{事業|じぎょう}, {社外|しゃがい}, {共同|きょうどう}{開発|かいはつ}
+- Culture: {盆|ぼん}{帰|がえ}り, {一輪挿|いちりんざ}し, {築城|ちくじょう}
+- Medical: {腺|せん}
+- New kanji: 2,570 → 2,571 ({腺|せん})
+- Removed 1 stale candidate ({徹底的|てっていてき} - already existed)
+
+Total entries: ~17,793 → ~17,828 (approximate)
+Remaining candidates: ~6,388 → ~6,352 (36 removed: 35 created + 1 stale duplicate)
 
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 459)
 Added 35 new dictionary entries (IDs 17947-17981) from candidate_words.json.
@@ -139,27 +157,6 @@ Notable features:
 
 Total entries: ~17,653 → ~17,688 (approximate)
 Remaining candidates: ~6,537 → ~6,503 (34 removed)
-
-### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 455)
-Added 35 new dictionary entries (IDs 17807-17841) from candidate_words.json.
-
-- **Nouns (16)**: {水銀|すいぎん} (mercury), {有名人|ゆうめいじん} (celebrity), {小物|こもの} (accessories/small fry), {冒険心|ぼうけんしん} (spirit of adventure), {標語|ひょうご} (slogan), {一匹狼|いっぴきおおかみ} (lone wolf), {次世代|じせだい} (next generation), ばい{菌|きん} (germs), {福引|ふくび}き (lucky draw), {危険性|きけんせい} (riskiness), {枝分|えだわ}かれ (branching), {水玉模様|みずたまもよう} (polka dots), {養父|ようふ} (adoptive father), {義姉|ぎし} (sister-in-law), {旅客機|りょかくき} (passenger plane), {脈拍|みゃくはく} (pulse)
-- **Suru verbs (5)**: {退席|たいせき}する (to leave one's seat), {投影|とうえい}する (to project), {借用|しゃくよう}する (to borrow formally), {貸与|たいよ}する (to lend formally), {消毒|しょうどく}する (to disinfect)
-- **Nouns/Na-adjectives (2)**: {無制限|むせいげん} (unlimited), {実力主義|じつりょくしゅぎ} (meritocracy)
-- **Expressions (6)**: {間違|まちが}いない (certain), {言|い}い{換|か}えれば (in other words), {猛威|もうい}を{振|ふ}るう (to rage), しっくりくる (to feel right), そっとしておく (to leave alone), {居眠|いねむ}り{運転|うんてん} (drowsy driving)
-- **Verb (1)**: {泣|な}き{叫|さけ}ぶ (to cry out)
-- **Adverbs (2)**: {表面上|ひょうめんじょう} (on the surface), {現段階|げんだんかい} (at the present stage)
-- **Noun (multi-sense) (2)**: {計算機|けいさんき} (calculator/computer), {妥協点|だきょうてん} (compromise point)
-
-Notable features:
-- Formal pairs: {借用|しゃくよう}する / {貸与|たいよ}する (borrow/lend)
-- Health/hygiene: {消毒|しょうどく}する, ばい{菌|きん}, {脈拍|みゃくはく}
-- Society/business: {実力主義|じつりょくしゅぎ}, {有名人|ゆうめいじん}, {標語|ひょうご}
-- Everyday expressions: しっくりくる, そっとしておく, {間違|まちが}いない
-- Culture: {一匹狼|いっぴきおおかみ}, {福引|ふくび}き, {水玉模様|みずたまもよう}
-
-Total entries: ~17,626 → ~17,653 (approximate)
-Remaining candidates: ~6,572 → ~6,537 (35 removed)
 
 ---
 
