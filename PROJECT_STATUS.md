@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,828 |
+| Total entries | ~17,863 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,029 (open) |
-| Candidate words | ~6,352 |
+| General tier | ~15,064 (open) |
+| Candidate words | ~6,317 |
 | Cross-references | ~3,400 |
-| Example sentences | ~51,580 |
+| Example sentences | ~51,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 461)
+Added 35 new dictionary entries (IDs 18017-18051) from candidate_words.json.
+
+- **Nouns (14)**: {鼻歌|はなうた} (humming), {真昼|まひる} (midday), {紳士|しんし} (gentleman), {淑女|しゅくじょ} (lady), {交響曲|こうきょうきょく} (symphony), {演奏会|えんそうかい} (concert), {質感|しつかん} (texture), {郵便物|ゆうびんぶつ} (mail), {木炭|もくたん} (charcoal), {切|き}り{札|ふだ} (trump card), {囲碁|いご} (Go), {救|すく}いの{手|て} (helping hand), {指折|ゆびお}り (leading), {一回|いっかい}きり (once only)
+- **Noun/Suru verbs (10)**: {日向|ひなた}ぼっこ (sunbathing), {厳禁|げんきん} (strictly prohibited), {懺悔|ざんげ} (confession), {未払|みばら}い (unpaid), {出題|しゅつだい} (setting questions), {根負|こんま}け (giving in), {密告|みっこく} (informing), {盗作|とうさく} (plagiarism), {殴|なぐ}り{書|が}き (scribbling), {集客|しゅうきゃく} (attracting customers)
+- **Noun/Suru verbs (formal) (3)**: {快諾|かいだく} (ready consent), {疎通|そつう} (communication), {贈答|ぞうとう} (gift exchange)
+- **Noun/Na-adjectives (3)**: {引|ひ}っ{込|こ}み{思案|じあん} (shy), {崇高|すうこう} (sublime), {高品質|こうひんしつ} (high quality)
+- **Na-adjective (1)**: {華|はな}やかな (gorgeous)
+- **I-adjectives (2)**: {若々|わかわか}しい (youthful), {汚|けが}らわしい (disgusting)
+- **Noun/Verb-suru (1)**: {同情|どうじょう}する (to sympathize)
+- **Counter/Noun (1)**: {難問|なんもん} (difficult problem)
+
+Notable features:
+- Culture: {囲碁|いご}, {贈答|ぞうとう}, {懺悔|ざんげ}, {紳士|しんし}/{淑女|しゅくじょ} pair
+- Music: {交響曲|こうきょうきょく}, {演奏会|えんそうかい}
+- Personality: {引|ひ}っ{込|こ}み{思案|じあん}, {若々|わかわか}しい
+- Business: {集客|しゅうきゅく}, {未払|みばら}い, {快諾|かいだく}
+- Figurative: {切|き}り{札|ふだ}, {救|すく}いの{手|て}, {指折|ゆびお}り
+- New kanji: 2,571 → 2,573 ({懺|ざん}, {紳|しん})
+
+Total entries: ~17,828 → ~17,863 (approximate)
+Remaining candidates: ~6,352 → ~6,317 (35 removed)
 
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 460)
 Added 35 new dictionary entries (IDs 17982-18016) from candidate_words.json.
@@ -135,28 +158,6 @@ Notable features:
 Total entries: ~17,653 → ~17,688 (approximate)
 Remaining candidates: ~6,503 → ~6,469 (34 removed)
 
-### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 456)
-Added 35 new dictionary entries (IDs 17842-17876) from candidate_words.json.
-
-- **Suru verbs (6)**: {整備|せいび}する (to maintain), {解説|かいせつ}する (to commentate), {証明|しょうめい}する (to prove), {関連|かんれん}する (to be related), {入部|にゅうぶ}する (to join a club), {統率|とうそつ}する (to command)
-- **Ichidan verbs (2)**: {植|う}え{替|か}える (to replant), {釣|つ}り{上|あ}げる (to fish up/hike prices)
-- **Nouns (10)**: {人員|じんいん} (personnel), {支持者|しじしゃ} (supporter), {十字架|じゅうじか} (cross/crucifix), お{経|きょう} (Buddhist sutra), {関西弁|かんさいべん} (Kansai dialect), {連鎖反応|れんさはんのう} (chain reaction), {感度|かんど} (sensitivity), {飼育員|しいくいん} (zookeeper), {名誉毀損|めいよきそん} (defamation), {飽和状態|ほうわじょうたい} (saturation)
-- **Adjectives (3)**: {大|おお}まかな (rough/broad), {最愛|さいあい} (beloved), のろい (slow/sluggish)
-- **Nouns/Translation (2)**: {和訳|わやく} (Japanese translation), {意訳|いやく} (free translation)
-- **Noun (other) (3)**: {未完|みかん} (unfinished), ほら{吹|ふ}き (boaster), ライフライン (essential utilities), {交通量|こうつうりょう} (traffic volume)
-- **Adverbs/Onomatopoeia (3)**: {小刻|こきざ}みに (in small steps), ポカンと (blankly/gaping), かすかに (faintly)
-- **Expressions (5)**: というより (rather than), {今更|いまさら}ながら (even at this late stage), {愛着|あいちゃく}が{湧|わ}く (to grow fond of), {融通|ゆうずう}が{利|き}く (to be flexible), {水気|みずけ}を{切|き}る (to drain moisture)
-
-Notable features:
-- Translation pair: {和訳|わやく} / {意訳|いやく}
-- Cooking: {水気|みずけ}を{切|き}る
-- Culture/religion: {十字架|じゅうじか}, お{経|きょう}, {関西弁|かんさいべん}
-- Disaster: ライフライン
-- Legal: {名誉毀損|めいよきそん}
-- School life: {入部|にゅうぶ}する
-
-Total entries: ~17,653 → ~17,688 (approximate)
-Remaining candidates: ~6,537 → ~6,503 (34 removed)
 
 ---
 
