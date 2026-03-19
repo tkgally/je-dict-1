@@ -1,7 +1,7 @@
 ## Session: Prominent Cross-References
 Date: 2026-03-19
 
-### Noun/する Pair References Added
+### Noun/する Pair References Added (6 pairs)
 - 17718_shakuyou ↔ 17810_shakuyousuru: 借用 / 借用する
 - 07591_shoudoku ↔ 17818_shoudokusuru: 消毒 / 消毒する
 - 17720_taiseki ↔ 17808_taisekisuru: 退席 / 退席する
@@ -9,74 +9,63 @@ Date: 2026-03-19
 - 12854_touei ↔ 17809_toueisuru: 投影 / 投影する
 - 17488_meiki ↔ 17738_meikisuru: 銘記 / 銘記する
 
-### Homophone References Added
-- 11845_kiku ↔ 01932_kiku: 利く (effective) / 効く (effective) — kanji variants
-- 01932_kiku ↔ 00483_kiku: 効く (effective) / 聞く (hear)
-- 11845_kiku ↔ 00483_kiku: 利く (effective) / 聞く (hear)
-- 01141_kiken ↔ 16194_kiken: 危険 (danger) / 棄権 (abstention)
-- 13822_kigen ↔ 17394_kigen: 紀元 (era) / 起源 (origin)
-- 12444_kishou ↔ 16895_kishou: 希少 (rare) / 稀少 (rare) — kanji variants
-- 09943_kishou ↔ 10450_kishou: 気象 (weather) / 気性 (temperament)
-- 00228_kijun ↔ 04140_kijun: 基準 (standard) / 規準 (standard) — kanji variants
-- 09935_kiseki ↔ 14346_kiseki: 奇跡 (miracle) / 軌跡 (trajectory)
-- 02693_kiru ↔ 00541_kiru: 切る (cut) / 着る (wear)
-- 13139_kiwameru ↔ 15359_kiwameru: 極める (master) / 究める (investigate)
-- 13932_kyoui ↔ 14657_kyoui: 脅威 (threat) / 驚異 (wonder)
-- 02688_kyouchou ↔ 02600_kyouchou: 協調 (cooperation) / 強調 (emphasis)
-- 01388_kyousou ↔ 15644_kyousou: 競争 (competition) / 競走 (footrace)
-- 12537_kyoukou ↔ 12559_kyoukou: 強硬 (hardline) / 強行 (forcing)
-- 00261_kyouryoku ↔ 02656_kyouryoku: 協力 (cooperation) / 強力 (powerful)
-- 02783_keiki ↔ 02694_keiki: 契機 (trigger) / 景気 (economy)
-- 16342_keisei ↔ 12541_keisei: 形勢 (situation) / 形成 (formation)
-- 05466_kessai ↔ 11100_kessai: 決済 (settlement) / 決裁 (approval)
-- 16546_keishou ↔ 14348_keishou: 軽傷 (minor injury) / 軽症 (mild illness)
-- 02781_keii ↔ 02782_keii: 敬意 (respect) / 経緯 (circumstances)
-- 12558_keitai ↔ 00715_keitai: 形態 (form) / 携帯 (mobile phone)
-- 02793_kekkan ↔ 02742_kekkan: 欠陥 (defect) / 血管 (blood vessel)
-- 12500_kyousei ↔ 14784_kyousei: 強制 (compulsion) / 矯正 (correction)
-- 02789_kyouju ↔ 02589_kyouju: 享受 (enjoyment) / 教授 (professor)
+### Homophone References Added (~143 pairs)
 
-### Pairs Evaluated (no action needed)
-- 木 / 気 / 〜機: different POS and concepts
-- 器械 / 機会: apparatus vs opportunity, not confusable
-- 器官 / 季刊 / 期間 / 機関: distinct concepts (期間/機関 already linked)
-- 菊 / 聞く / 効く / 利く: 菊 is noun, not confusable with verbs
-- 危惧 / 器具: apprehension vs utensil, not confusable
-- 期限 / 機嫌 / 紀元 / 起源: 期限/機嫌 distinct; 紀元/起源 linked above
-- 寄稿 / 機構 / 気候 / 紀行: all distinct concepts
-- 岸 / 騎士: shore vs knight, not confusable
-- 汽車 / 記者 / 貴社: distinct concepts and registers
-- 気性 / 気象 / 起床 / 希少 / 稀少: linked confusable pairs above; 起床 distinct
-- 生地 / 記事: fabric vs article, not confusable
-- 帰省 / 規制: returning home vs regulation, not confusable
-- 基礎 / 起訴: foundation vs prosecution, not confusable
-- 期待 / 気体: hope vs gas, not confusable
-- 基調 / 貴重: keynote vs precious, not confusable
-- 機転 / 起点: quick wit vs starting point, not confusable
-- 昨日 / 機能: yesterday vs function, not confusable
-- 君 / 気味: pronoun vs sensation, not confusable
-- 九 / 急: number vs adjective, not confusable
-- 球団 / 糾弾: baseball team vs condemnation, not confusable
-- 休符 / 給付: music rest vs benefit, not confusable
-- 凶器 / 狂喜: weapon vs ecstasy, not confusable
-- 教義 / 狭義 / 競技 / 協議: all distinct concepts
-- 共学 / 驚愕: coeducation vs astonishment, not confusable
-- 凶行 / 強硬 / 強行: 凶行 is distinct; 強硬/強行 linked above
-- 共生 / 強制 / 矯正: linked confusable pair above; 共生 distinct enough
-- 兄弟 / 鏡台: siblings vs vanity table, not confusable
-- 強要 / 教養: coercion vs refinement, not confusable
-- 局 / 曲 / 極: all distinct concepts
-- 器用 / 起用: skillful vs appointment, not confusable
-- キロ / 帰路: loanword vs Japanese, not confusable
-- 菌 / 金: germ vs gold, not confusable
-- 禁煙 / 近縁: no smoking vs close relation, not confusable
-- 均衡 / 近郊: balance vs suburbs, not confusable
-- 禁止 / 近視: ban vs nearsightedness, not confusable
-- 近世 / 金星: pre-modern era vs Venus, not confusable
+**Batch 1 (き/け group — 25 pairs):**
+- 利く/効く, 効く/聞く, 利く/聞く, 危険/棄権, 紀元/起源
+- 希少/稀少, 気象/気性, 基準/規準, 奇跡/軌跡, 切る/着る
+- 極める/究める, 脅威/驚異, 協調/強調, 競争/競走, 強硬/強行
+- 協力/強力, 契機/景気, 形勢/形成, 決済/決裁, 軽傷/軽症
+- 敬意/経緯, 形態/携帯, 欠陥/血管, 強制/矯正, 享受/教授
+
+**Batch 2 (けん/げん/こう group — 20 pairs):**
+- 健診/検診, 喧噪/喧騒, 検討/見当, 月刊/月間, 原型/原形
+- 原始/原子, 減少/現象, 原点/減点, 原料/減量, 好意/行為
+- 公演/講演, 硬貨/高価, 効果/高価, 硬化/硬貨, 公開/後悔
+- 交換/好感, 公害/郊外, 抗議/講義, 広義/狭義, 献上/謙譲
+
+**Batch 3 (こう group continued — 20 pairs):**
+- 口座/講座, 後者/校舎, 公正/構成, 幸福/降伏, 超える/越える
+- 国債/国際, 交代/交替, 個人/故人, 超す/越す, 個体/固体
+- 応える/答える, 公表/好評, 交付/公布, 混む/込む, 構想/高層
+- 工程/肯定, 広範/後半, 控訴/酵素, 拘束/高速, 向上/工場
+
+**Batch 4 (さ/し group — 24 pairs):**
+- 再会/再開, 債券/債権, 最小/最少, 作成/作製, 裂ける/避ける
+- 割く/裂く, 冷ます/覚ます, 冷める/覚める, 刺す/指す, 刺す/差す
+- 指す/差す, 挿す/注す, 肴/魚, 賛成/酸性, 産地/山地
+- 潮/塩, 司会/視界, 視覚/資格, 志向/思考, 参道/賛同
+- 採決/採血, 支給/至急, 逆さま/逆様, 敷き布団/敷布団
+
+**Batch 5 (し/しゅ/しょ group — 28 pairs):**
+- 指示/支持, 史上/市場, 鎮まる/静まる, 失踪/疾走
+- 志望/死亡, 志望/脂肪, 死亡/脂肪, 指名/氏名
+- 締める/閉める, 占める/締める, 収束/終息, 修了/終了
+- 社内/車内, 消化/消火, 消化器/消火器, 紹介/照会
+- 障害/生涯, 消失/焼失, 照明/証明, 商人/承認
+- 食料/食糧, 仕様/使用, 出典/出展, 出勤/出金
+- 小食/少食, 週間/週刊, 修業/修行, 収拾/収集
+
+**Batch 6 (しん/じ/す/せ group — 27 pairs):**
+- 深刻/申告, 信条/心情, 心理/真理, 真髄/神髄
+- 侵攻/進行, 振興/新興, 慎重/身長, 進路/針路
+- 侵入/進入, 深層/真相, 地震/自信, 実戦/実践
+- 実体/実態, 自律/自立, 重傷/重症, 人口/人工
+- 受信/受診, 受容/需要, 自動/児童, 渋滞/重体
+- 好き/隙, 勧める/進める, 住む/済む, 角/隅
+- 墨/炭, 性格/正確, 申請/神聖
+
+**Batch 7 (せ/ぜ group — 23 pairs):**
+- 制作/製作, 清算/精算, 生産/精算, 成長/生長
+- 正当/正統, 制度/精度, 成年/青年, 制服/征服
+- 声明/生命, 勢力/精力, 攻める/責める, 洗濯/選択
+- 先頭/戦闘, 戦慄/旋律, 絶交/絶好, 先行/選考
+- 専攻/選考, 摂生/節制, 星座/正座, 全身/前身
+- 正常/清浄, 整形/生計, 政党/正統
 
 ### Statistics
 - Noun/する pairs evaluated: 6
 - Noun/する references added: 12 (6 × 2)
-- Homophone pairs evaluated: ~60
-- Homophone references added: 50 (25 pairs × 2)
-- Total references added this session: 62
+- Homophone pairs evaluated: ~400+
+- Homophone references added: ~286 (143 pairs × 2)
+- Total references added this session: ~298
