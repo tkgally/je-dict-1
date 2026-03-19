@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,688 |
+| Total entries | ~17,723 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,889 (open) |
-| Candidate words | ~6,469 |
+| General tier | ~14,924 (open) |
+| Candidate words | ~6,423 |
 | Cross-references | ~3,400 |
-| Example sentences | ~51,245 |
+| Example sentences | ~51,350 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 458)
+Added 35 new dictionary entries (IDs 17912-17946) from candidate_words.json.
+
+- **Nouns (16)**: {鉄棒|てつぼう} (horizontal bar), {電柱|でんちゅう} (utility pole), {氷山|ひょうざん} (iceberg), {即戦力|そくせんりょく} (immediate asset), {中東|ちゅうとう} (Middle East), {汎用性|はんようせい} (versatility), {懇親会|こんしんかい} (social gathering), {相違点|そういてん} (point of difference), {年齢制限|ねんれいせいげん} (age limit), {見合|みあ}わせ (service suspension), {二次創作|にじそうさく} (fan fiction), {交換留学|こうかんりゅうがく} (exchange program), {肘掛|ひじか}け{椅子|いす} (armchair), {公共施設|こうきょうしせつ} (public facilities), {予備知識|よびちしき} (background knowledge), {中火|なかび} (medium heat)
+- **Na-adjectives (4)**: {根本的|こんぽんてき} (fundamental), {円満|えんまん} (harmonious), {多才|たさい} (talented), {子供向|こどもむ}け (for children)
+- **Suru verbs (4)**: {曲解|きょっかい} (misinterpretation), {渡航|とこう} (traveling abroad), {拾|ひろ}い{読|よ}み (skimming), {大失敗|だいしっぱい} (huge failure)
+- **Verbs (1)**: せがむ (to pester)
+- **Nouns (other) (4)**: おやつ (afternoon snack), おねだり (begging), {出|だ}し{惜|お}しみ (stinting), {互助|ごじょ} (mutual aid)
+- **Number (2)**: {億|おく} (100 million), {兆|ちょう} (1 trillion)
+- **Adverb (1)**: {手短|てみじか}に (briefly)
+- **Expressions (2)**: {波風|なみかぜ}を{立|た}てる (to make waves), {初心者向|しょしんしゃむ}け (for beginners)
+- **No-adjective (1)**: {表向|おもてむ}き (outwardly)
+
+Notable features:
+- Numbers: {億|おく}, {兆|ちょう} — key Japanese number units
+- Culture: おやつ, {二次創作|にじそうさく}, {懇親会|こんしんかい}
+- Daily life: {電柱|でんちゅう}, {中火|なかび}, {肘掛|ひじか}け{椅子|いす}
+- Transport: {見合|みあ}わせ (service suspension)
+- Geography: {中東|ちゅうとう}
+- Education: {交換留学|こうかんりゅうがく}, {初心者向|しょしんしゃむ}け, {予備知識|よびちしき}
+
+Total entries: ~17,688 → ~17,723 (approximate)
+Remaining candidates: ~6,469 → ~6,423 (39 removed: 35 created + 4 stale duplicates)
 
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 457)
 Added 35 new dictionary entries (IDs 17877-17911) from candidate_words.json.
@@ -134,20 +158,6 @@ Notable features:
 Total entries: ~17,626 → ~17,661 (approximate)
 Remaining candidates: ~2,152 → ~2,117 (35 removed)
 
-### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 453)
-Added 35 new dictionary entries (IDs 17737-17771) from candidate_words.json.
-
-- **Verbs (7)**: {問|と}い{合|あ}わせる (to inquire), {銘記|めいき}する (to engrave in mind), {茹|ゆ}で{上|あ}がる (to be done boiling), {造|つく}る (to build/brew), {鎮|しず}まる (to subside), {放浪|ほうろう} (wandering), {下|した}ゆで (parboiling)
-- **Nouns (18)**: {専制|せんせい} (despotism), {鴨|かも} (duck), {党首|とうしゅ} (party leader), {遠路|えんろ} (long journey), {祭典|さいてん} (festival), {恋仲|こいなか} (romantic relationship), {精魂|せいこん} (heart and soul), {墨汁|ぼくじゅう} (India ink), {発券|はっけん} (ticket issuance), {無|む} (nothingness/prefix), {防虫|ぼうちゅう} (insect repellent), {即効性|そっこうせい} (immediate effect), {中皿|ちゅうざら} (medium plate), {庭木|にわき} (garden tree), {手拍子|てびょうし} (hand clapping), {一読|いちどく} (single reading), {余熱|よねつ} (residual heat), {実情|じつじょう} (actual conditions)
-- **Adjectives (4)**: {清浄|せいじょう} (pure/clean), {呆然|ぼうぜん} (dumbfounded), {心外|しんがい} (regrettable), {妖艶|ようえん} (bewitching)
-- **Other (6)**: {謝意|しゃい} (gratitude), {背|せ}もたれ (backrest), {上旬|じょうじゅん} (first 10 days of month), {仮想|かそう} (virtual), {成仏|じょうぶつ} (entering Nirvana), {後払|あとばら}い (deferred payment)
-
-Notable features:
-- Cooking: {茹|ゆ}で{上|あ}がる, {下|した}ゆで, {余熱|よねつ}, {中皿|ちゅうざら}, {鴨|かも}
-- Culture/religion: {成仏|じょうぶつ}, {祭典|さいてん}, {墨汁|ぼくじゅう}, {手拍子|てびょうし}
-- Politics: {専制|せんせい}, {党首|とうしゅ}
-- Technology: {仮想|かそう}, {発券|はっけん}
-- Daily life: {背|せ}もたれ, {庭木|にわき}, {防虫|ぼうちゅう}, {後払|あとばら}い, {上旬|じょうじゅん}
 
 Total entries: ~17,594 → ~17,626 (approximate)
 Remaining candidates: ~2,186 → ~2,152 (34 removed)
