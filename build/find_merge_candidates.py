@@ -134,6 +134,45 @@ def find_potential_merges(entries):
     return candidates
 
 
+def _load_entry_refs():
+    """Load cross-reference and prominent_see_also targets from actual entry files.
+
+    Returns a dict mapping entry_id -> set of target IDs/readings that the entry
+    references (via cross_references or prominent_see_also).
+    """
+    entry_refs = {}
+    for entry_dir in sorted(ENTRIES_DIR.iterdir()):
+        if not entry_dir.is_dir():
+            continue
+        for entry_file in sorted(entry_dir.glob('*.json')):
+            try:
+                with open(entry_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+            except (json.JSONDecodeError, IOError):
+                continue
+            refs = set()
+            # Check cross_references
+            cr = data.get('cross_references', [])
+            if isinstance(cr, list):
+                for ref in cr:
+                    if isinstance(ref, dict):
+                        if ref.get('target_id'):
+                            refs.add(ref['target_id'])
+                        if ref.get('reading'):
+                            refs.add(ref['reading'])
+            # Check prominent_see_also
+            psa = data.get('prominent_see_also', [])
+            if isinstance(psa, list):
+                for ref in psa:
+                    if isinstance(ref, dict):
+                        if ref.get('target_id'):
+                            refs.add(ref['target_id'])
+                        if ref.get('reading'):
+                            refs.add(ref['reading'])
+            entry_refs[data.get('id', '')] = refs
+    return entry_refs
+
+
 def find_missing_crossrefs(entries):
     """
     Find entry pairs that should cross-reference each other but don't.
@@ -141,6 +180,8 @@ def find_missing_crossrefs(entries):
     Detects:
     - Noun + する verb pairs (e.g., 喧嘩 and けんかする)
     - Same reading, different kanji (homophones like 無くなる / 亡くなる)
+
+    Checks both cross_references and prominent_see_also from actual entry files.
     """
     missing = []
 
@@ -152,18 +193,8 @@ def find_missing_crossrefs(entries):
         by_reading[reading].append(entry)
         by_id[entry['id']] = entry
 
-    # Load full entry data for cross-reference checking
-    entry_crossrefs = {}  # id -> set of target readings
-    for entry in entries:
-        refs = set()
-        cr = entry.get('cross_references', [])
-        if isinstance(cr, list):
-            for ref in cr:
-                if isinstance(ref, dict):
-                    if ref.get('target_id'):
-                        refs.add(ref['target_id'])
-                    refs.add(ref.get('reading', ''))
-        entry_crossrefs[entry['id']] = refs
+    # Load actual entry files for cross-reference checking
+    entry_crossrefs = _load_entry_refs()
 
     # Detect noun + する verb pairs
     suru_pattern = re.compile(r'する$')
