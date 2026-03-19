@@ -24,7 +24,9 @@
       "english": "The road splits into two.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10976_wakareru_ex2",
@@ -32,7 +34,9 @@
       "english": "Opinions were divided between for and against.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10976_wakareru_ex3",
@@ -40,7 +44,9 @@
       "english": "This river branches into three downstream.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10976_wakareru_ex4",
@@ -48,7 +54,9 @@
       "english": "Animals are classified into several groups.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10976_wakareru_ex5",
@@ -56,7 +64,9 @@
       "english": "Japanese verbs are divided into godan and ichidan types.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY:\n{自動詞|じどうし} (intransitive). Pair: {分|わ}ける (transitive, to divide/separate). Pattern: Xが（Yに）{分|わ}かれる.\n\nASPECT (ている):\n{分|わ}かれている indicates a resulting state: \"is divided/split.\"\n\nKANJI NOTE:\n{分|わ}かれる and {別|わか}れる are both read わかれる but differ in meaning. {分|わ}かれる means \"to split/divide\" (one thing becomes multiple), while {別|わか}れる means \"to part/say goodbye\" (people separate from each other).\n\nCOMMON PATTERNS:\n・{道|みち}が{分|わ}かれる (a road forks)\n・{意見|いけん}が{分|わ}かれる (opinions are divided)\n・AとBに{分|わ}かれる (to split into A and B)",
@@ -75,11 +85,23 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "01113_wakareru",
+      "reading": "わかれる",
+      "headword": "{別|わか}れる",
+      "note": "part from, separate"
+    }
+  ]
 }

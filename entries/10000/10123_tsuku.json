@@ -23,7 +23,9 @@
       "english": "I took up a new job.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10123_tsuku_ex2",
@@ -31,7 +33,9 @@
       "english": "To assume the position of president.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10123_tsuku_ex3",
@@ -39,7 +43,9 @@
       "english": "It's time to go to bed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: Intransitive ({自動詞|じどうし}).\n\nPATTERNS:\n・〜に{就|つ}く (to take up ~, to assume ~)\n・{職|しょく}に{就|つ}く (to get a job)\n・{席|せき}に{就|つ}く (to take one's seat)\n・{床|とこ}に{就|つ}く (to go to bed - formal)\n\nRELATED WORDS:\n・{就職|しゅうしょく}する (to get employed)\n・{就任|しゅうにん}する (to take office)",
@@ -49,11 +55,35 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "01960_tsuku",
+      "reading": "つく",
+      "headword": "{付|つ}く",
+      "note": "be attached, stick"
+    },
+    {
+      "target_id": "00680_tsuku",
+      "reading": "つく",
+      "headword": "{着|つ}く",
+      "note": "arrive"
+    },
+    {
+      "target_id": "12735_tsuku",
+      "reading": "つく",
+      "headword": "{突|つ}く",
+      "note": "poke, thrust"
+    }
+  ]
 }
