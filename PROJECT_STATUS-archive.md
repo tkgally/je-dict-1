@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 454)
+Added 35 new dictionary entries (IDs 17772-17806) from candidate_words.json.
+
+- **Nouns (21)**: {貴婦人|きふじん} (noblewoman), {光陰|こういん} (time/literary), {急斜面|きゅうしゃめん} (steep slope), {卸業者|おろしぎょうしゃ} (wholesaler), {中立国|ちゅうりつこく} (neutral country), {集積所|しゅうせきじょ} (collection point), {次長|じちょう} (deputy director), {案内図|あんないず} (guide map), {現代語|げんだいご} (modern language), {枠内|わくない} (within limits), {磁力|じりょく} (magnetic force), {異説|いせつ} (dissenting view), {益虫|えきちゅう} (beneficial insect), {広角|こうかく} (wide-angle), {不特定|ふとくてい} (unspecified), {在校生|ざいこうせい} (current student), {若気|わかげ} (youthful impetuousness), {国力|こくりょく} (national power), {公爵|こうしゃく} (duke), {特報|とくほう} (breaking news), {絶望感|ぜつぼうかん} (sense of despair)
+- **Noun/Suru verbs (6)**: {抜糸|ばっし} (stitch removal), {連写|れんしゃ} (burst mode), {口承|こうしょう} (oral tradition), {接写|せっしゃ} (close-up photography), {詳述|しょうじゅつ} (detailed description), {死滅|しめつ} (extinction)
+- **Na-adjectives (2)**: {道徳的|どうとくてき} (moral/ethical), {瑣末|さまつ} (trivial/trifling)
+- **Noun/Na-adjective (1)**: {虚像|きょぞう} (virtual/false image)
+- **Noun/No-adjective (1)**: {玄人好|くろうとごの}み (for connoisseurs)
+- **Noun (business) (2)**: {他社|たしゃ} (other company), {些事|さじ} (trivial matter)
+- **Verb (1)**: {組|く}み{合|あ}わさる (to be combined)
+- **Noun (multi-sense) (1)**: {枠内|わくない} (within frame/within limits)
+
+Total entries: ~17,626 → ~17,661 (approximate)
+Remaining candidates: ~2,152 → ~2,117 (35 removed)
+
 ### 2026-03-18 (Vocabulary Expansion - 32 New Entries, Session 452)
 Added 32 new dictionary entries (IDs 17702-17736) from candidate_words.json. Nouns, suru verbs, na-adjectives. Business/career, formal, culture/history, food, daily life entries. New kanji: 2,567 → 2,568. Total entries: ~17,594 → ~17,626.
 
