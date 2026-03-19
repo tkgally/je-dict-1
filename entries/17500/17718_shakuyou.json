@@ -19,7 +19,9 @@
       "english": "To borrow a meeting room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17718_shakuyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Please sign the borrowing form before receiving the equipment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17718_shakuyou_ex3",
@@ -35,7 +39,9 @@
       "english": "There are many words in English that were borrowed from Japanese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{借用|しゃくよう} is a formal word for borrowing. In everyday speech, {借|か}りる is used instead. {借用|しゃくよう} also applies to linguistic borrowing ({借用語|しゃくようご} = loanword).\n\nCOMMON COLLOCATIONS:\n- {借用書|しゃくようしょ} (borrowing form, IOU)\n- {借用語|しゃくようご} (loanword)\n- {借用|しゃくよう}{期間|きかん} (borrowing period)\n\nSIMILAR WORDS:\n{借|か}りる is the everyday word for borrowing. {借用|しゃくよう} is used in formal or institutional settings.",
@@ -53,12 +59,27 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["transaction"],
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "transaction"
+      ],
       "transitivity": "transitive"
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "17810_shakuyousuru",
+      "reading": "しゃくようする",
+      "headword": "{借用|しゃくよう}する",
+      "note": "verb form"
+    }
+  ]
 }
