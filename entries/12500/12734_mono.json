@@ -19,7 +19,9 @@
       "english": "Authorized persons only.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12734_mono_ex2",
@@ -27,7 +29,9 @@
       "english": "Those who are interested, please apply at the front desk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12734_mono_ex3",
@@ -35,7 +39,9 @@
       "english": "The suspect in this case has not yet been caught.",
       "notes": "In compounds, {者|しゃ} is the on'yomi reading. See note below.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{者|もの} means 'person' in formal or written contexts. It is distinct from {物|もの} (thing).\n\nREADINGS:\n- もの: standalone or in some native compounds — {者|もの}\n- しゃ: in Sino-Japanese compounds — {医者|いしゃ} (doctor), {学者|がくしゃ} (scholar), {記者|きしゃ} (reporter)\n\nCOMMON COMPOUNDS (しゃ reading):\n- {患者|かんじゃ}: patient\n- {容疑者|ようぎしゃ}: suspect\n- {希望者|きぼうしゃ}: applicant, person who wishes\n- {関係者|かんけいしゃ}: person involved, authorized person\n- {若者|わかもの}: young person\n\nCONTRAST WITH {人|ひと}:\n- {人|ひと} is the general, everyday word for 'person'\n- {者|もの} is more formal or literary and often appears in official or legal contexts",
@@ -61,10 +67,23 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "suffix"],
+      "pos": [
+        "noun",
+        "suffix"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "02259_mono",
+      "reading": "もの",
+      "headword": "{物|もの}",
+      "note": "thing, object"
+    }
+  ]
 }

@@ -19,7 +19,9 @@
       "english": "This ticket is invalid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13385_mukou_ex2",
@@ -27,7 +29,9 @@
       "english": "The contract became void.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13385_mukou_ex3",
@@ -35,7 +39,9 @@
       "english": "If there is a filling error, that ballot will be treated as invalid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe antonym is {有効|ゆうこう} (valid, effective). {無効|むこう} is used in legal, administrative, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {無効|むこう}になる: to become invalid\n- {無効|むこう}にする: to invalidate, to void\n- {無効|むこう}{投票|とうひょう}: invalid vote, spoiled ballot\n- {契約|けいやく}{無効|むこう}: contract nullification\n- {無効|むこう}{扱|あつか}い: treated as invalid",
@@ -60,11 +66,32 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["abstract"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "abstract"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "00971_mukou",
+      "reading": "むこう",
+      "headword": "{向|む}こう",
+      "note": "over there"
+    },
+    {
+      "target_id": "01516_mukou",
+      "reading": "むこう",
+      "headword": "{向こう|むこう}",
+      "note": "over there"
+    }
+  ]
 }

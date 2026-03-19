@@ -19,7 +19,9 @@
       "english": "Please clearly write your address and name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13030_meiki_ex2",
@@ -27,7 +29,9 @@
       "english": "The conditions are clearly stated in the contract.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13030_meiki_ex3",
@@ -35,7 +39,9 @@
       "english": "When applying, please send your resume with the desired position clearly noted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru verb ({明記|めいき}する) or noun. Very common in instructions on forms, contracts, and official documents. The pattern {明記|めいき}の{上|うえ} means 'having clearly stated' and is standard in application instructions.\n\nCOMMON COLLOCATIONS:\n- ～を{明記|めいき}する: to clearly state ~\n- {明記|めいき}の{上|うえ}: having clearly noted (on documents)\n- ～に{明記|めいき}されている: is clearly stated in ~\n\nSIMILAR WORDS:\n- {明示|めいじ}: explicit indication (showing clearly, not necessarily in writing)\n- {記載|きさい}: entry, description (writing down, less emphasis on clarity)",
@@ -53,14 +59,32 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "domain": ["business", "legal"],
-      "semantic": ["communication"]
+      "style": [
+        "written"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ],
+      "semantic": [
+        "communication"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "17488_meiki",
+      "reading": "めいき",
+      "headword": "{銘記|めいき}",
+      "note": "engrave in mind"
+    }
+  ]
 }
