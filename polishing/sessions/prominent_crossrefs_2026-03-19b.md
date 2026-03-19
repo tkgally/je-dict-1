@@ -259,8 +259,39 @@ Date: 2026-03-19
 - 枠 pairs: different from 沸く/湧く
 - 和紙/鷲, 椀/湾: different concepts
 
+### Batch 2: Writing Variants and Missed い-reading Pairs (39 pairs)
+
+**Writing variants (20 pairs):**
+- 揚げたて ↔ 揚げ立て, 足かせ ↔ 足枷, 甘み ↔ 甘味
+- いくら〜ても ↔ いくら～ても, 炒る ↔ 煎る, 〜員 ↔ ～員
+- 追いかける ↔ 追い掛ける, お目にかかる ↔ お目に掛かる
+- 卸売 ↔ 卸売り, 顔なじみ ↔ 顔馴染み, 肩書 ↔ 肩書き
+- 〜学部 ↔ 学部 ↔ ～学部 (3 pairs), 〜軒 ↔ ～軒, 〜号 ↔ 号
+- 修練 ↔ 習練, すり減る ↔ 擦り減る, 惣菜 ↔ 総菜, ため口 ↔ タメ口
+
+**Missed confusable pairs (19 pairs):**
+- 上がりこむ ↔ 上がり込む, 委譲 ↔ 移譲, 新入 ↔ 進入
+- 建て直す ↔ 立て直す, 意向 ↔ 移行
+- 医師 ↔ 石, 委譲 ↔ 異常, 異常 ↔ 移譲
+- 傷む ↔ 悼む, 悼む ↔ 痛む
+- 一員 ↔ 一因, 一同 ↔ 一堂, 一揆 ↔ 一気
+- 威勢 ↔ 異性, 移籍 ↔ 遺跡, 威信 ↔ 維新
+- 意地 ↔ 維持, 意見 ↔ 違憲, 胃腸 ↔ 銀杏
+
+### Batch 3: Additional Confusable Pairs (22 pairs)
+
+- 写す ↔ 移す, 映す ↔ 移す, 写る ↔ 移る, 映る ↔ 移る
+- 討つ ↔ 打つ, 討つ ↔ 撃つ
+- 異物 ↔ 遺物, 延焼 ↔ 炎症
+- 卸す ↔ 下ろす, 卸す ↔ 降ろす
+- 園芸 ↔ 演芸, 解雇 ↔ 回顧, 解消 ↔ 快勝
+- 回線 ↔ 海鮮, 開業 ↔ 改行, 改心 ↔ 回診
+- 会場 ↔ 海上, 懐疑 ↔ 会議, 快晴 ↔ 改正
+- 沿革 ↔ 遠隔, 意向 ↔ 以降, 幾〜 ↔ 行く
+
 ### Statistics
-- Homophone pairs evaluated: ~466
-- Homophone references added: ~302 (151 pairs × 2)
-- Reading range covered: つ through わ (all remaining)
-- Combined with earlier session today: covered all remaining readings
+- Batch 1: 151 homophone pairs, 302 references (つ through わ)
+- Batch 2: 39 pairs (writing variants + missed い pairs), 78 references
+- Batch 3: 22 additional confusable pairs, 44 references
+- Total this session: 212 pairs, 424 references
+- All readings now covered (あ through わ)
