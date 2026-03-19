@@ -51,6 +51,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 454)
+Added 35 new dictionary entries (IDs 17772-17806) from candidate_words.json.
+
+- **Nouns (21)**: {貴婦人|きふじん} (noblewoman), {光陰|こういん} (time/literary), {急斜面|きゅうしゃめん} (steep slope), {卸業者|おろしぎょうしゃ} (wholesaler), {中立国|ちゅうりつこく} (neutral country), {集積所|しゅうせきじょ} (collection point), {次長|じちょう} (deputy director), {案内図|あんないず} (guide map), {現代語|げんだいご} (modern language), {枠内|わくない} (within limits), {磁力|じりょく} (magnetic force), {異説|いせつ} (dissenting view), {益虫|えきちゅう} (beneficial insect), {広角|こうかく} (wide-angle), {不特定|ふとくてい} (unspecified), {在校生|ざいこうせい} (current student), {若気|わかげ} (youthful impetuousness), {国力|こくりょく} (national power), {公爵|こうしゃく} (duke), {特報|とくほう} (breaking news), {絶望感|ぜつぼうかん} (sense of despair)
+- **Noun/Suru verbs (6)**: {抜糸|ばっし} (stitch removal), {連写|れんしゃ} (burst mode), {口承|こうしょう} (oral tradition), {接写|せっしゃ} (close-up photography), {詳述|しょうじゅつ} (detailed description), {死滅|しめつ} (extinction)
+- **Na-adjectives (2)**: {道徳的|どうとくてき} (moral/ethical), {瑣末|さまつ} (trivial/trifling)
+- **Noun/Na-adjective (1)**: {虚像|きょぞう} (virtual/false image)
+- **Noun/No-adjective (1)**: {玄人好|くろうとごの}み (for connoisseurs)
+- **Noun (business) (2)**: {他社|たしゃ} (other company), {些事|さじ} (trivial matter)
+- **Verb (1)**: {組|く}み{合|あ}わさる (to be combined)
+- **Noun (multi-sense) (1)**: {枠内|わくない} (within frame/within limits)
+
+Notable features:
+- Photography: {連写|れんしゃ}, {接写|せっしゃ}, {広角|こうかく}
+- Business/organizations: {他社|たしゃ}, {次長|じちょう}, {卸業者|おろしぎょうしゃ}
+- Literary/formal: {光陰|こういん}, {貴婦人|きふじん}, {口承|こうしょう}, {詳述|しょうじゅつ}
+- Science: {磁力|じりょく}, {虚像|きょぞう}, {死滅|しめつ}, {益虫|えきちゅう}
+- New kanji: 2,568 → 2,569 ({瑣|さ})
+
+Total entries: ~17,626 → ~17,661 (approximate)
+Remaining candidates: ~2,152 → ~2,117 (35 removed)
+
 ### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 453)
 Added 35 new dictionary entries (IDs 17737-17771) from candidate_words.json.
 
@@ -131,26 +153,6 @@ Notable features:
 
 Total entries: ~17,524 → ~17,559 (approximate)
 Remaining candidates: ~2,255 → ~2,221 (34 removed)
-
-### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 449)
-Added 35 new dictionary entries (IDs 17444-17478) from candidate_words.json:
-
-- **Nouns (14)**: {里帰|さとがえ}り (returning home), {初恋|はつこい} (first love), {弱音|よわね} (whining), {真相|しんそう} (truth), {天守閣|てんしゅかく} (castle tower), {稲荷|いなり} (Inari deity/sushi), {曇|くも}り{空|ぞら} (cloudy sky), {値打|ねう}ち (value), {武士道|ぶしどう} (bushido), {家庭料理|かていりょうり} (home cooking), {旧友|きゅうゆう} (old friend), {名曲|めいきょく} (famous song), {漢方薬|かんぽうやく} (herbal medicine), {伝統工芸|でんとうこうげい} (traditional crafts)
-- **Suru verbs (7)**: {遭遇|そうぐう}する (to encounter), {検討|けんとう}する (to consider), {尊重|そんちょう}する (to respect), {確信|かくしん}する (to be convinced), {設立|せつりつ}する (to establish), {好転|こうてん} (change for the better), {保温|ほおん} (heat retention)
-- **Verbs (4)**: {振|ふ}られる (to be dumped), {出向|でむ}く (to go to), {貶|けな}す (to disparage), {懐|なつ}く (to become attached)
-- **Na-adjective/noun (2)**: {不機嫌|ふきげん} (bad mood), {飾|かざ}り{付|つ}け (decoration)
-- **Nouns (other) (4)**: {通販|つうはん} (online shopping), {逆|ぎゃく}ギレ (reverse outburst), {四|よ}つん{這|ば}い (on all fours), {発光|はっこう} (luminescence)
-- **Expressions (2)**: {煮|に}え{切|き}らない (indecisive), {探検|たんけん} (exploration)
-- **Person (2)**: {変|か}わり{者|もの} (eccentric), {点灯|てんとう} (turning on a light)
-
-Notable features:
-- Emotions/relationships: {初恋|はつこい}, {振|ふ}られる, {不機嫌|ふきげん}, {弱音|よわね}, {逆|ぎゃく}ギレ
-- Culture/Japan: {天守閣|てんしゅかく}, {稲荷|いなり}, {武士道|ぶしどう}, {伝統工芸|でんとうこうげい}, {漢方薬|かんぽうやく}
-- Business: {検討|けんとう}する, {設立|せつりつ}する
-- Daily life: {通販|つうはん}, {保温|ほおん}, {家庭料理|かていりょうり}, {曇|くも}り{空|ぞら}
-
-Total entries: ~17,489 → ~17,524 (approximate)
-Remaining candidates: ~2,290 → ~2,255 (35 removed)
 
 ---
 
