@@ -19,7 +19,9 @@
       "english": "To settle the expenses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10899_seisan_ex2",
@@ -27,7 +29,9 @@
       "english": "I paid the shortfall at the fare adjustment machine at the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10899_seisan_ex3",
@@ -35,7 +39,9 @@
       "english": "When you return from the business trip, please don't forget to settle your transportation expenses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{精|せい} (precise, detailed) + {算|さん} (calculate) = precise calculation.\n\nHOMOPHONE NOTE:\nDo not confuse with {生産|せいさん} (production, manufacturing) or {清算|せいさん} (liquidation, settling debts/relationships). {精算|せいさん} specifically refers to precise accounting and expense settlement.\n\nCOMMON COMPOUNDS:\n- {精算|せいさん}{機|き}: fare adjustment machine (at train stations)\n- {精算|せいさん}{書|しょ}: expense report, settlement statement\n- {精算|せいさん}{所|じょ}: fare adjustment window\n\nCOMMON COLLOCATIONS:\n- {経費|けいひ}を{精算|せいさん}する: to settle expenses\n- {運賃|うんちん}を{精算|せいさん}する: to adjust the fare\n- {立替|たてかえ}{分|ぶん}を{精算|せいさん}する: to settle the amount advanced",
@@ -46,11 +52,32 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["general"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "17092_seisan",
+      "reading": "せいさん",
+      "headword": "{清算|せいさん}",
+      "note": "settlement (清算)"
+    },
+    {
+      "target_id": "01444_seisan",
+      "reading": "せいさん",
+      "headword": "{生産|せいさん}",
+      "note": "production"
+    }
+  ]
 }
