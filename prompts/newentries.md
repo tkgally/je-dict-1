@@ -109,6 +109,30 @@ python3 build/check_duplicate.py --batch --skip-candidates "食べる:たべる"
 
 **Note**: When adding NEW candidates (not this task), omit `--skip-candidates` to check both entries and existing candidates.
 
+### Removing Stale Candidates
+
+When the duplicate check reveals that a candidate is effectively a duplicate of an existing entry — whether an exact match, a variant reading of the same word (e.g., だったんそ vs だつたんそ for 脱炭素), or a spelling variant (e.g., ふぉーく vs ふおーく for フォーク) — **remove it from candidate_words.json** directly. Use a script like:
+
+```python
+python3 -c "
+import json
+with open('candidate_words.json') as f:
+    data = json.load(f)
+remove_ids = {'C12345', 'C12346'}  # IDs of stale candidates
+data['candidates'] = [c for c in data['candidates'] if c['id'] not in remove_ids]
+data['metadata']['total_candidates'] = len(data['candidates'])
+with open('candidate_words.json', 'w') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write('\n')
+"
+```
+
+These stale candidates waste time in future sessions if left in the list. Remove them as you encounter them during the batch duplicate check phase, before you start creating entries. Common causes of stale candidates:
+- Variant readings (やぎょうせい vs やこうせい)
+- Typos in readings (どうふゅう instead of どうふう)
+- Alternative romanizations of the same sound (ふぉーく vs ふおーく)
+- Candidates with する that match existing entries without する
+
 ## Example JSON Format
 
 All required fields per the `example-sentences` skill:
