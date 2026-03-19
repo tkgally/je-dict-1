@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,653 |
+| Total entries | ~17,688 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~14,854 (open) |
-| Candidate words | ~6,537 |
+| General tier | ~14,889 (open) |
+| Candidate words | ~6,469 |
 | Cross-references | ~3,400 |
-| Example sentences | ~51,140 |
+| Example sentences | ~51,245 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 457)
+Added 35 new dictionary entries (IDs 17877-17911) from candidate_words.json.
+
+- **Nouns (35)**: {終演|しゅうえん} (end of performance), {贅沢三昧|ぜいたくざんまい} (indulgence), {魚の目|うおのめ} (corn on foot), {先頭車両|せんとうしゃりょう} (lead car), {火力発電|かりょくはつでん} (thermal power), {地下駐車場|ちかちゅうしゃじょう} (underground parking), {機体|きたい} (aircraft/fuselage), {五重|ごじゅう}の{塔|とう} (five-story pagoda), {既刊|きかん} (already published), {寄港地|きこうち} (port of call), {吸水|きゅうすい} (water absorption), {空腹時|くうふくじ} (on empty stomach), {尖塔|せんとう} (spire), {通信制|つうしんせい} (correspondence system), {記念切手|きねんきって} (commemorative stamp), {皆既月食|かいきげっしょく} (total lunar eclipse), {大|だい}リーグ (Major Leagues), {室内犬|しつないけん} (indoor dog), {執刀医|しっとうい} (operating surgeon), {痰|たん} (phlegm), {核燃料|かくねんりょう} (nuclear fuel), {画面収録|がめんしゅうろく} (screen recording), {磁場|じば} (magnetic field), {電磁波|でんじは} (electromagnetic waves), {解答欄|かいとうらん} (answer column), {指定席券|していせきけん} (reserved seat ticket), {原子力発電|げんしりょくはつでん} (nuclear power), {鉄筋|てっきん}コンクリート (reinforced concrete), {大量消費|たいりょうしょうひ} (mass consumption), {契約破棄|けいやくはき} (contract cancellation), {抗原|こうげん} (antigen), {上書|うわが}き{保存|ほぞん} (overwrite save), {放射性廃棄物|ほうしゃせいはいきぶつ} (radioactive waste), {銘板|めいばん} (nameplate), {労働基準法|ろうどうきじゅんほう} (Labor Standards Act)
+
+Notable features:
+- Energy: {火力発電|かりょくはつでん}, {原子力発電|げんしりょくはつでん}, {核燃料|かくねんりょう}, {放射性廃棄物|ほうしゃせいはいきぶつ}
+- Transportation: {先頭車両|せんとうしゃりょう}, {指定席券|していせきけん}, {寄港地|きこうち}, {機体|きたい}
+- Science: {磁場|じば}, {電磁波|でんじは}, {抗原|こうげん}, {皆既月食|かいきげっしょく}
+- Technology: {画面収録|がめんしゅうろく}, {上書|うわが}き{保存|ほぞん}
+- Legal/business: {契約破棄|けいやくはき}, {労働基準法|ろうどうきじゅんほう}
+- Culture: {五重|ごじゅう}の{塔|とう}, {大|だい}リーグ, {贅沢三昧|ぜいたくざんまい}
+- New kanji: 2,569 → 2,570 ({痰|たん})
+
+Total entries: ~17,653 → ~17,688 (approximate)
+Remaining candidates: ~6,503 → ~6,469 (34 removed)
 
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 456)
 Added 35 new dictionary entries (IDs 17842-17876) from candidate_words.json.
@@ -134,27 +151,6 @@ Notable features:
 
 Total entries: ~17,594 → ~17,626 (approximate)
 Remaining candidates: ~2,186 → ~2,152 (34 removed)
-
-### 2026-03-18 (Vocabulary Expansion - 32 New Entries, Session 452)
-Added 32 new dictionary entries (IDs 17702-17736) from candidate_words.json. (3 candidates skipped as duplicates of existing entries: {統率|とうそつ}, {貸与|たいよ}, {拝聴|はいちょう}.)
-
-- **Nouns (14)**: {連休明|れんきゅうあ}け (end of long weekend), {収集日|しゅうしゅうび} (garbage collection day), {糠漬|ぬかづ}け (rice-bran pickles), {大葉|おおば} (green perilla leaf), {事実婚|じじつこん} (common-law marriage), {改訂版|かいていばん} (revised edition), {最前列|さいぜんれつ} (front row), {薄|うす}ら{笑|わら}い (smirk), {取|と}っ{組|く}み{合|あ}い (scuffle), {合唱団|がっしょうだん} (choir), {国立公園|こくりつこうえん} (national park), {門下生|もんかせい} (pupil/disciple), {家宝|かほう} (family heirloom), {器械|きかい} (apparatus/instrument)
-- **Noun/Suru verbs (10)**: {帰郷|ききょう} (returning home), {来場|らいじょう} (attendance), {過大評価|かだいひょうか} (overestimation), {再挑戦|さいちょうせん} (trying again), {借用|しゃくよう} (borrowing), {退席|たいせき} (leaving one's seat), {爆走|ばくそう} (reckless driving/blazing run), {諮問|しもん} (advisory inquiry), {固辞|こじ} (firm refusal), {摂生|せっせい} (health care/temperance)
-- **Noun/Suru verb (sports)**: {先発|せんぱつ} (starting lineup/departing first)
-- **Na-adjective (2)**: {前途有望|ぜんとゆうぼう} (having a promising future), {楽観主義|らっかんしゅぎ} (optimism)
-- **Noun (business)**: {外回|そとまわ}り (outside sales/outer loop), {中途採用|ちゅうとさいよう} (mid-career hiring), {未経験|みけいけん} (inexperienced)
-- **Noun (culture)**: {敵討|かたきう}ち (revenge/vengeance), {神宮|じんぐう} (grand shrine)
-
-Notable features:
-- Business/career: {中途採用|ちゅうとさいよう}, {未経験|みけいけん}, {外回|そとまわ}り, {借用|しゃくよう}
-- Formal: {退席|たいせき}, {諮問|しもん}, {固辞|こじ}
-- Culture/history: {神宮|じんぐう}, {敵討|かたきう}ち, {門下生|もんかせい}, {家宝|かほう}
-- Food: {糠漬|ぬかづ}け, {大葉|おおば}
-- Daily life: {連休明|れんきゅうあ}け, {収集日|しゅうしゅうび}, {国立公園|こくりつこうえん}
-- New kanji: 2,567 → 2,568 ({糠|ぬか})
-
-Total entries: ~17,594 → ~17,626 (approximate)
-Remaining candidates: ~2,186 → ~2,155 (31 removed)
 
 ---
 

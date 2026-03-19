@@ -3,6 +3,9 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-18 (Vocabulary Expansion - 32 New Entries, Session 452)
+Added 32 new dictionary entries (IDs 17702-17736) from candidate_words.json. Nouns, suru verbs, na-adjectives. Business/career, formal, culture/history, food, daily life entries. New kanji: 2,567 → 2,568. Total entries: ~17,594 → ~17,626.
+
 ### 2026-03-18 (Vocabulary Expansion - 35 New Entries, Session 449)
 Added 35 new dictionary entries (IDs 17444-17478) from candidate_words.json. Nouns, suru verbs, verbs, na-adjectives, expressions. Emotions/relationships, culture/Japan, business, daily life entries. Total entries: ~17,489 → ~17,524.
 
