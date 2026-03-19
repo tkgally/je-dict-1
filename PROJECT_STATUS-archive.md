@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 456)
+Added 35 new dictionary entries (IDs 17842-17876) from candidate_words.json.
+
+- **Suru verbs (6)**: {整備|せいび}する (to maintain), {解説|かいせつ}する (to commentate), {証明|しょうめい}する (to prove), {関連|かんれん}する (to be related), {入部|にゅうぶ}する (to join a club), {統率|とうそつ}する (to command)
+- **Ichidan verbs (2)**: {植|う}え{替|か}える (to replant), {釣|つ}り{上|あ}げる (to fish up/hike prices)
+- **Nouns (10)**: {人員|じんいん} (personnel), {支持者|しじしゃ} (supporter), {十字架|じゅうじか} (cross/crucifix), お{経|きょう} (Buddhist sutra), {関西弁|かんさいべん} (Kansai dialect), {連鎖反応|れんさはんのう} (chain reaction), {感度|かんど} (sensitivity), {飼育員|しいくいん} (zookeeper), {名誉毀損|めいよきそん} (defamation), {飽和状態|ほうわじょうたい} (saturation)
+- **Adjectives (3)**: {大|おお}まかな (rough/broad), {最愛|さいあい} (beloved), のろい (slow/sluggish)
+- **Nouns/Translation (2)**: {和訳|わやく} (Japanese translation), {意訳|いやく} (free translation)
+- **Noun (other) (3)**: {未完|みかん} (unfinished), ほら{吹|ふ}き (boaster), ライフライン (essential utilities), {交通量|こうつうりょう} (traffic volume)
+- **Adverbs/Onomatopoeia (3)**: {小刻|こきざ}みに (in small steps), ポカンと (blankly/gaping), かすかに (faintly)
+- **Expressions (5)**: というより (rather than), {今更|いまさら}ながら (even at this late stage), {愛着|あいちゃく}が{湧|わ}く (to grow fond of), {融通|ゆうずう}が{利|き}く (to be flexible), {水気|みずけ}を{切|き}る (to drain moisture)
+
+Total entries: ~17,653 → ~17,688 (approximate)
+Remaining candidates: ~6,537 → ~6,503 (34 removed)
+
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 454)
 Added 35 new dictionary entries (IDs 17772-17806) from candidate_words.json.
 
