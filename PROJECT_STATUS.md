@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 464)
+Added 35 new dictionary entries (IDs 18122-18156) from candidate_words.json.
+
+- **Nouns (16)**: {中華料理|ちゅうかりょうり} (Chinese cuisine), {公共交通|こうきょうこうつう} (public transportation), {肉食動物|にくしょくどうぶつ} (carnivore), {著作物|ちょさくぶつ} (copyrighted work), {整骨院|せいこついん} (osteopathic clinic), {立|た}ち{見席|みせき} (standing room), {持|も}ち{歌|うた} (signature song), フライ{返|がえ}し (spatula), カトラリー (cutlery), {台所用品|だいどころようひん} (kitchenware), ダイヤ{乱|みだ}れ (schedule disruption), {出張手当|しゅっちょうてあて} (travel allowance), {記載漏|きさいも}れ (omission), {葉物野菜|はものやさい} (leafy vegetables), {波浪|はろう} (ocean waves), {歌唱力|かしょうりょく} (singing ability)
+- **Na-adjectives (4)**: {多目的|たもくてき} (multipurpose), {自己中心的|じこちゅうしんてき} (self-centered), {利他的|りたてき} (altruistic), {官能的|かんのうてき} (sensual)
+- **Expressions (5)**: {目頭|めがしら}が{熱|あつ}くなる (moved to tears), {肩|かた}を{並|なら}べる (to rival), {視野|しや}を{広|ひろ}げる (to broaden horizons), {百獣|ひゃくじゅう}の{王|おう} (king of beasts), {海外向|かいがいむ}け (for overseas)
+- **Noun/Suru verbs (6)**: {拭|ふ}き{掃除|そうじ} (wiping clean), {同時進行|どうじしんこう} (proceeding simultaneously), {現地集合|げんちしゅうごう} (meeting at venue), {給仕|きゅうじ} (waiting tables), {正月遊|しょうがつあそ}び (New Year games), {最先端技術|さいせんたんぎじゅつ} (cutting-edge technology)
+- **Other (4)**: {被害妄想|ひがいもうそう} (paranoia), {帰属意識|きぞくいしき} (sense of belonging), {蓋然性|がいぜんせい} (probability), {羽子板|はごいた} (battledore)
+
+Notable features:
+- Daily life: {中華料理|ちゅうかりょうり}, カトラリー, フライ{返|がえ}し, {台所用品|だいどころようひん}, {拭|ふ}き{掃除|そうじ}
+- Transportation: {公共交通|こうきょうこうつう}, ダイヤ{乱|みだ}れ
+- Workplace: {出張手当|しゅっちょうてあて}, {記載漏|きさいも}れ, {同時進行|どうじしんこう}
+- Culture: {正月遊|しょうがつあそ}び, {羽子板|はごいた}, {持|も}ち{歌|うた}, {給仕|きゅうじ}
+- Personality: {自己中心的|じこちゅうしんてき}, {利他的|りたてき}
+- Expressions: {目頭|めがしら}が{熱|あつ}くなる, {肩|かた}を{並|なら}べる, {視野|しや}を{広|ひろ}げる
+
+Total entries: ~17,933 → ~17,968 (approximate)
+Remaining candidates: ~6,237 → ~6,202 (35 removed)
+
 ### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 463)
 Added 35 new dictionary entries (IDs 18087-18121) from candidate_words.json.
 
@@ -132,31 +152,6 @@ Notable features:
 
 Total entries: ~17,793 → ~17,828 (approximate)
 Remaining candidates: ~6,388 → ~6,352 (36 removed: 35 created + 1 stale duplicate)
-
-### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 459)
-Added 35 new dictionary entries (IDs 17947-17981) from candidate_words.json.
-
-- **Nouns (15)**: {浜辺|はまべ} (beach), {覆面|ふくめん} (mask/incognito), {理性|りせい} (reason/rationality), {母国|ぼこく} (motherland), {念願|ねんがん} (long-cherished wish), {猛威|もうい} (fury), {職歴|しょくれき} (work history), {翌日|よくじつ} (next day), {神父|しんぷ} (priest), {伴侶|はんりょ} (partner/spouse), {裏切|うらぎ}り (betrayal), {搭乗券|とうじょうけん} (boarding pass), {人目|ひとめ} (public eye), {精神力|せいしんりょく} (willpower), {依存症|いぞんしょう} (addiction)
-- **Noun/Na-adjective (1)**: {潔白|けっぱく} (innocence/purity)
-- **Noun/Adverb (1)**: {真|ま}っ{二|ふた}つ (right in half)
-- **Suru verbs (10)**: {調節|ちょうせつ} (adjustment), {合掌|がっしょう} (pressing palms together), {推測|すいそく} (conjecture), {譲歩|じょうほ} (concession), {論破|ろんぱ} (refutation), {微調整|びちょうせい} (fine-tuning), {点滅|てんめつ} (flashing), {凝視|ぎょうし} (staring), {伝聞|でんぶん} (hearsay), {密談|みつだん} (secret talk)
-- **Suru verbs (intransitive) (2)**: {意識|いしき}する (to be conscious of), {上達|じょうたつ}する (to improve)
-- **Noun/Verb-suru (cultural) (1)**: お{花見|はなみ} (cherry blossom viewing)
-- **Ichidan verb (1)**: {疲|つか}れ{果|は}てる (to be utterly exhausted)
-- **Noun (clothing) (1)**: {長靴|ながぐつ} (rubber boots)
-- **Noun (literary) (2)**: {疑念|ぎねん} (doubt/suspicion), {聖書|せいしょ} (Bible)
-- **Noun (found objects) (1)**: {拾|ひろ}い{物|もの} (found object/windfall)
-
-Notable features:
-- Cultural: お{花見|はなみ}, {合掌|がっしょう}, {聖書|せいしょ}
-- Emotional: {念願|ねんがん}, {潔白|けっぱく}, {裏切|うらぎ}り, {疑念|ぎねん}
-- Mental: {理性|りせい}, {精神力|せいしんりょく}, {意識|いしき}する
-- Communication: {論破|ろんぱ}, {密談|みつだん}, {伝聞|でんぶん}, {譲歩|じょうほ}
-- Daily life: {長靴|ながぐつ}, {搭乗券|とうじょうけん}, {覆面|ふくめん}
-- Cross-references added: 3 homophone pairs ({合掌|がっしょう}/{合唱|がっしょう}, {神父|しんぷ}/{新婦|しんぷ}, {聖書|せいしょ}/{清書|せいしょ}, {人目|ひとめ}/{一目|ひとめ})
-
-Total entries: ~17,723 → ~17,758 (approximate)
-Remaining candidates: ~6,423 → ~6,388 (35 removed)
 
 ---
 
