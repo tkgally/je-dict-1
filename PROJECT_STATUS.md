@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 467)
+Added 35 new dictionary entries (IDs 18227-18261) from candidate_words.json.
+
+- **Nouns (14)**: {守衛|しゅえい} (security guard), ござ (rush mat), {牧師|ぼくし} (pastor), {図解|ずかい} (diagram), スパイ (spy), {善|よ}し{悪|あ}し (good or bad), {正夢|まさゆめ} (prophetic dream), {裏面|りめん} (back side), {豪雪|ごうせつ} (heavy snowfall), {自制心|じせいしん} (self-control), {人脈|じんみゃく} (personal connections), {偽名|ぎめい} (false name), {共稼|ともかせ}ぎ (dual income), {主催者|しゅさいしゃ} (organizer)
+- **Noun/Suru verbs (7)**: {誓約|せいやく} (oath), {著作|ちょさく} (literary work), {同感|どうかん} (agreement), {根絶|こんぜつ} (eradication), {進呈|しんてい} (presentation), {死別|しべつ} (bereavement), {感知|かんち} (detection)
+- **Na-adjectives (5)**: {無邪気|むじゃき} (innocent), {一途|いちず} (wholehearted), {強情|ごうじょう} (stubborn), {不謹慎|ふきんしん} (imprudent), {純真|じゅんしん} (pure)
+- **Noun/Suru verb (1)**: {密封|みっぷう} (airtight seal)
+- **Verbs (5)**: {見損|みそこ}なう (to misjudge), {枯|か}らす (to let wither), {恥|は}じる (to feel ashamed), {聞|き}き{返|かえ}す (to ask again), しなる (to bend)
+- **Noun (4)**: {所帯|しょたい} (household), {筋道|すじみち} (logic), {聖地|せいち} (sacred place)
+
+Notable features:
+- Character/personality: {無邪気|むじゃき}, {純真|じゅんしん}, {一途|いちず}, {強情|ごうじょう}, {自制心|じせいしん}
+- Social/professional: {人脈|じんみゃく}, {主催者|しゅさいしゃ}, {共稼|ともかせ}ぎ, {守衛|しゅえい}
+- Communication: {同感|どうかん}, {聞|き}き{返|かえ}す, {誓約|せいやく}, {進呈|しんてい}
+- Pop culture: {聖地|せいち} (anime pilgrimage), {正夢|まさゆめ}
+- Daily life: ござ, {密封|みっぷう}, {裏面|りめん}, {図解|ずかい}
+
+Total entries: ~18,038 → ~18,073 (approximate)
+Remaining candidates: ~6,132 → ~6,097 (35 removed)
+
 ### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 465)
 Added 35 new dictionary entries (IDs 18157-18191) from candidate_words.json.
 
@@ -108,29 +128,6 @@ Notable features:
 
 Total entries: ~17,898 → ~17,933 (approximate)
 Remaining candidates: ~6,272 → ~6,237 (35 removed)
-
-### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 462)
-Added 35 new dictionary entries (IDs 18052-18086) from candidate_words.json.
-
-- **Verbs (8)**: {注|そそ}ぎ{込|こ}む (to pour into), {途切|とぎ}れる (to be interrupted), {和|なご}む (to be soothed), {尊|とうと}ぶ (to value), つぼむ (to close up), {損|そこ}なう (to harm), {被|こうむ}る (to sustain damage), {際立|きわだ}たせる (to make stand out)
-- **Nouns/Suru verbs (8)**: {内示|ないじ} (unofficial notice), {更生|こうせい} (rehabilitation), {就航|しゅうこう} (entering service), {発給|はっきゅう} (issuance), {混和|こんわ} (mixing), リバウンド (rebound), {倍返|ばいがえ}し (returning double), {顕在|けんざい} (becoming manifest)
-- **Nouns (13)**: {満杯|まんぱい} (full to capacity), {対応力|たいおうりょく} (adaptability), {参政権|さんせいけん} (suffrage), {茶店|さてん} (teahouse), {丙|へい} (third/C grade), {卓|たく} (table), {吉凶|きっきょう} (fortune), {理容室|りようしつ} (barbershop), {電子機器|でんしきき} (electronic device), {生活苦|せいかつく} (hardship), {防腐剤|ぼうふざい} (preservative), {中性|ちゅうせい} (neutral), {砲兵|ほうへい} (artillery), {無機物|むきぶつ} (inorganic matter)
-- **Counters (2)**: {頭|とう} (large animals), {尾|び} (fish)
-- **Expressions (2)**: {目|め}につく (to catch one's eye), {気|き}にかける (to worry about)
-- **Adverb (1)**: これほど (this much)
-- **Na-adjective (1)**: {満杯|まんぱい} (full to capacity)
-
-Notable features:
-- Verbs with nuance: {和|なご}む (online culture), {損|そこ}なう (verb suffix usage), つぼむ (flower terminology)
-- Workplace: {内示|ないじ}, {更生|こうせい}, {対応力|たいおうりょく}
-- Daily life: {理容室|りようしつ}, {茶店|さてん}, {防腐剤|ぼうふざい}, {電子機器|でんしきき}
-- Culture: {倍返|ばいがえ}し (半沢直樹 catchphrase), {吉凶|きっきょう}, {丙|へい} (Heavenly Stems)
-- Counters: {頭|とう}, {尾|び} — animal counting
-- New kanji: 2,573 → 2,574 ({丙|へい})
-- Removed 11 stale duplicate candidates
-
-Total entries: ~17,863 → ~17,898 (approximate)
-Remaining candidates: ~6,317 → ~6,272 (45 removed: 34 created + 11 stale duplicates)
 
 ### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 466)
 Added 35 new dictionary entries (IDs 18192-18226) from candidate_words.json.

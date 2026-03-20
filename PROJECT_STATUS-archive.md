@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 462)
+Added 35 new dictionary entries (IDs 18052-18086) from candidate_words.json.
+
+- **Verbs (8)**: {注|そそ}ぎ{込|こ}む (to pour into), {途切|とぎ}れる (to be interrupted), {和|なご}む (to be soothed), {尊|とうと}ぶ (to value), つぼむ (to close up), {損|そこ}なう (to harm), {被|こうむ}る (to sustain damage), {際立|きわだ}たせる (to make stand out)
+- **Nouns/Suru verbs (8)**: {内示|ないじ} (unofficial notice), {更生|こうせい} (rehabilitation), {就航|しゅうこう} (entering service), {発給|はっきゅう} (issuance), {混和|こんわ} (mixing), リバウンド (rebound), {倍返|ばいがえ}し (returning double), {顕在|けんざい} (becoming manifest)
+- **Nouns (13)**: {満杯|まんぱい} (full to capacity), {対応力|たいおうりょく} (adaptability), {参政権|さんせいけん} (suffrage), {茶店|さてん} (teahouse), {丙|へい} (third/C grade), {卓|たく} (table), {吉凶|きっきょう} (fortune), {理容室|りようしつ} (barbershop), {電子機器|でんしきき} (electronic device), {生活苦|せいかつく} (hardship), {防腐剤|ぼうふざい} (preservative), {中性|ちゅうせい} (neutral), {砲兵|ほうへい} (artillery), {無機物|むきぶつ} (inorganic matter)
+- **Counters (2)**: {頭|とう} (large animals), {尾|び} (fish)
+- **Expressions (2)**: {目|め}につく (to catch one's eye), {気|き}にかける (to worry about)
+- **Adverb (1)**: これほど (this much)
+- **Na-adjective (1)**: {満杯|まんぱい} (full to capacity)
+
+Total entries: ~17,863 → ~17,898 (approximate)
+Remaining candidates: ~6,317 → ~6,272 (45 removed: 34 created + 11 stale duplicates)
+
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 461)
 Added 35 new dictionary entries (IDs 18017-18051) from candidate_words.json.
 
