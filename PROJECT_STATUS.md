@@ -132,28 +132,26 @@ Notable features:
 Total entries: ~17,863 → ~17,898 (approximate)
 Remaining candidates: ~6,317 → ~6,272 (45 removed: 34 created + 11 stale duplicates)
 
-### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 461)
-Added 35 new dictionary entries (IDs 18017-18051) from candidate_words.json.
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 466)
+Added 35 new dictionary entries (IDs 18192-18226) from candidate_words.json.
 
-- **Nouns (14)**: {鼻歌|はなうた} (humming), {真昼|まひる} (midday), {紳士|しんし} (gentleman), {淑女|しゅくじょ} (lady), {交響曲|こうきょうきょく} (symphony), {演奏会|えんそうかい} (concert), {質感|しつかん} (texture), {郵便物|ゆうびんぶつ} (mail), {木炭|もくたん} (charcoal), {切|き}り{札|ふだ} (trump card), {囲碁|いご} (Go), {救|すく}いの{手|て} (helping hand), {指折|ゆびお}り (leading), {一回|いっかい}きり (once only)
-- **Noun/Suru verbs (10)**: {日向|ひなた}ぼっこ (sunbathing), {厳禁|げんきん} (strictly prohibited), {懺悔|ざんげ} (confession), {未払|みばら}い (unpaid), {出題|しゅつだい} (setting questions), {根負|こんま}け (giving in), {密告|みっこく} (informing), {盗作|とうさく} (plagiarism), {殴|なぐ}り{書|が}き (scribbling), {集客|しゅうきゃく} (attracting customers)
-- **Noun/Suru verbs (formal) (3)**: {快諾|かいだく} (ready consent), {疎通|そつう} (communication), {贈答|ぞうとう} (gift exchange)
-- **Noun/Na-adjectives (3)**: {引|ひ}っ{込|こ}み{思案|じあん} (shy), {崇高|すうこう} (sublime), {高品質|こうひんしつ} (high quality)
-- **Na-adjective (1)**: {華|はな}やかな (gorgeous)
-- **I-adjectives (2)**: {若々|わかわか}しい (youthful), {汚|けが}らわしい (disgusting)
-- **Noun/Verb-suru (1)**: {同情|どうじょう}する (to sympathize)
-- **Counter/Noun (1)**: {難問|なんもん} (difficult problem)
+- **Nouns (17)**: {甘味料|かんみりょう} (sweetener), {滞在先|たいざいさき} (place of stay), {難聴|なんちょう} (hearing loss), {自己犠牲|じこぎせい} (self-sacrifice), {仏様|ほとけさま} (Buddha/the deceased), {焦|こ}げ{茶|ちゃ} (dark brown), {往路|おうろ} (outward journey), {一人旅|ひとりたび} (solo trip), {学割|がくわり} (student discount), {模擬試験|もぎしけん} (mock exam), {継母|ままはは} (stepmother), {雲海|うんかい} (sea of clouds), {日本画|にほんが} (Japanese painting), {春分|しゅんぶん}の{日|ひ} (Vernal Equinox Day), {襟巻|えりま}き (scarf), {冷|ひ}え{性|しょう} (cold sensitivity), {悠々自適|ゆうゆうじてき} (life of leisure)
+- **Noun/Suru verbs (3)**: {除雪|じょせつ} (snow removal), {終業|しゅうぎょう} (end of work), {暴露|ばくろ}する (to expose)
+- **Verbs (3)**: {分|わ}かち{合|あ}う (to share), {舞|ま}い{落|お}ちる (to flutter down), {見張|みは}る (to keep watch)
+- **I-adjectives (2)**: {愛|あい}くるしい (adorable), {回|まわ}りくどい (roundabout)
+- **Na-adjectives (4)**: {甘口|あまくち} (sweet/mild), {遠慮|えんりょ}がち (reserved), {温厚|おんこう} (gentle), {不格好|ぶかっこう} (awkward-looking), {縦長|たてなが} (tall and narrow)
+- **Adverbs (3)**: {漠然|ばくぜん}と (vaguely), {未然|みぜん}に (before it happens), どことなく (somehow)
 
 Notable features:
-- Culture: {囲碁|いご}, {贈答|ぞうとう}, {懺悔|ざんげ}, {紳士|しんし}/{淑女|しゅくじょ} pair
-- Music: {交響曲|こうきょうきょく}, {演奏会|えんそうかい}
-- Personality: {引|ひ}っ{込|こ}み{思案|じあん}, {若々|わかわか}しい
-- Business: {集客|しゅうきゅく}, {未払|みばら}い, {快諾|かいだく}
-- Figurative: {切|き}り{札|ふだ}, {救|すく}いの{手|て}, {指折|ゆびお}り
-- New kanji: 2,571 → 2,573 ({懺|ざん}, {紳|しん})
+- Food/drink: {甘味料|かんみりょう}, {甘口|あまくち}
+- Nature/weather: {雲海|うんかい}, {除雪|じょせつ}, {舞|ま}い{落|お}ちる
+- Culture: {春分|しゅんぶん}の{日|ひ}, {日本画|にほんが}, {仏様|ほとけさま}, {継母|ままはは}
+- Student life: {学割|がくわり}, {模擬試験|もぎしけん}
+- Travel: {滞在先|たいざいさき}, {往路|おうろ}, {一人旅|ひとりたび}
+- Personality: {温厚|おんこう}, {遠慮|えんりょ}がち, {不格好|ぶかっこう}
 
-Total entries: ~17,828 → ~17,863 (approximate)
-Remaining candidates: ~6,352 → ~6,317 (35 removed)
+Total entries: ~18,003 → ~18,038 (approximate)
+Remaining candidates: ~6,167 → ~6,132 (35 removed)
 
 ---
 
