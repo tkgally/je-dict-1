@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 463)
+Added 35 new dictionary entries (IDs 18087-18121) from candidate_words.json.
+
+- **Expressions (7)**: {申|もう}し{訳|わけ}ございません (deeply sorry), {失礼|しつれい}いたします (excuse me - formal), {知恵|ちえ}を{絞|しぼ}る (to rack one's brains), {皮|かわ}をむく (to peel), {食卓|しょくたく}を{囲|かこ}む (gather around the table), {焦点|しょうてん}を{絞|しぼ}る (to focus/narrow down), というのも (the reason is)
+- **Nouns (17)**: {負|ふ}の{連鎖|れんさ} (vicious cycle), {時短|じたん}{勤務|きんむ} (reduced working hours), {潜在|せんざい}{意識|いしき} (subconscious), {雑居|ざっきょ}ビル (multi-tenant building), {決定|けってい}{事項|じこう} (decided matters), {客室|きゃくしつ}{乗務員|じょうむいん} (flight attendant), {車内|しゃない}{販売|はんばい} (trolley service), {金融|きんゆう}{政策|せいさく} (monetary policy), {助演|じょえん} (supporting role), {資産|しさん}{運用|うんよう} (asset management), {赤十字|せきじゅうじ} (Red Cross), {配布物|はいふぶつ} (handouts), {公共|こうきょう}{交通|こうつう}{機関|きかん} (public transportation), {国際|こくさい}{連合|れんごう} (United Nations), {安保理|あんぽり} (UN Security Council), {寒冷|かんれい}{前線|ぜんせん} (cold front), {新規|しんき}{開拓|かいたく} (new business development)
+- **Na-adjectives (4)**: {能弁|のうべん} (eloquent), {不純|ふじゅん} (impure), {男性的|だんせいてき} (masculine), {精選|せいせん} (careful selection)
+- **Other (7)**: {泣|な}き{落|お}とし (tearful persuasion), {幾多|いくた}の (many - literary), {贔屓目|ひいきめ} (biased view), {生薬|しょうやく} (herbal medicine), {毒草|どくそう} (poisonous plant), {禁令|きんれい} (prohibition), {自由形|じゆうがた} (freestyle swimming)
+
+Notable features:
+- Formal expressions: {申|もう}し{訳|わけ}ございません, {失礼|しつれい}いたします — business Japanese essentials
+- Idiomatic: {知恵|ちえ}を{絞|しぼ}る, {泣|な}き{落|お}とし, {贔屓目|ひいきめ}
+- International affairs: {国際|こくさい}{連合|れんごう}, {安保理|あんぽり}, {赤十字|せきじゅうじ}
+- Workplace: {時短|じたん}{勤務|きんむ}, {決定|けってい}{事項|じこう}, {新規|しんき}{開拓|かいたく}
+- Daily life: {公共|こうきょう}{交通|こうつう}{機関|きかん}, {車内|しゃない}{販売|はんばい}, {皮|かわ}をむく
+
+Total entries: ~17,898 → ~17,933 (approximate)
+Remaining candidates: ~6,272 → ~6,237 (35 removed)
+
 ### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 462)
 Added 35 new dictionary entries (IDs 18052-18086) from candidate_words.json.
 
@@ -139,30 +157,6 @@ Notable features:
 
 Total entries: ~17,723 → ~17,758 (approximate)
 Remaining candidates: ~6,423 → ~6,388 (35 removed)
-
-### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 458)
-Added 35 new dictionary entries (IDs 17912-17946) from candidate_words.json.
-
-- **Nouns (16)**: {鉄棒|てつぼう} (horizontal bar), {電柱|でんちゅう} (utility pole), {氷山|ひょうざん} (iceberg), {即戦力|そくせんりょく} (immediate asset), {中東|ちゅうとう} (Middle East), {汎用性|はんようせい} (versatility), {懇親会|こんしんかい} (social gathering), {相違点|そういてん} (point of difference), {年齢制限|ねんれいせいげん} (age limit), {見合|みあ}わせ (service suspension), {二次創作|にじそうさく} (fan fiction), {交換留学|こうかんりゅうがく} (exchange program), {肘掛|ひじか}け{椅子|いす} (armchair), {公共施設|こうきょうしせつ} (public facilities), {予備知識|よびちしき} (background knowledge), {中火|なかび} (medium heat)
-- **Na-adjectives (4)**: {根本的|こんぽんてき} (fundamental), {円満|えんまん} (harmonious), {多才|たさい} (talented), {子供向|こどもむ}け (for children)
-- **Suru verbs (4)**: {曲解|きょっかい} (misinterpretation), {渡航|とこう} (traveling abroad), {拾|ひろ}い{読|よ}み (skimming), {大失敗|だいしっぱい} (huge failure)
-- **Verbs (1)**: せがむ (to pester)
-- **Nouns (other) (4)**: おやつ (afternoon snack), おねだり (begging), {出|だ}し{惜|お}しみ (stinting), {互助|ごじょ} (mutual aid)
-- **Number (2)**: {億|おく} (100 million), {兆|ちょう} (1 trillion)
-- **Adverb (1)**: {手短|てみじか}に (briefly)
-- **Expressions (2)**: {波風|なみかぜ}を{立|た}てる (to make waves), {初心者向|しょしんしゃむ}け (for beginners)
-- **No-adjective (1)**: {表向|おもてむ}き (outwardly)
-
-Notable features:
-- Numbers: {億|おく}, {兆|ちょう} — key Japanese number units
-- Culture: おやつ, {二次創作|にじそうさく}, {懇親会|こんしんかい}
-- Daily life: {電柱|でんちゅう}, {中火|なかび}, {肘掛|ひじか}け{椅子|いす}
-- Transport: {見合|みあ}わせ (service suspension)
-- Geography: {中東|ちゅうとう}
-- Education: {交換留学|こうかんりゅうがく}, {初心者向|しょしんしゃむ}け, {予備知識|よびちしき}
-
-Total entries: ~17,688 → ~17,723 (approximate)
-Remaining candidates: ~6,469 → ~6,423 (39 removed: 35 created + 4 stale duplicates)
 
 ---
 
