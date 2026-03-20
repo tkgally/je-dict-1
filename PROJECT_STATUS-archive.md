@@ -3,6 +3,30 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 458)
+Added 35 new dictionary entries (IDs 17912-17946) from candidate_words.json.
+
+- **Nouns (16)**: {鉄棒|てつぼう} (horizontal bar), {電柱|でんちゅう} (utility pole), {氷山|ひょうざん} (iceberg), {即戦力|そくせんりょく} (immediate asset), {中東|ちゅうとう} (Middle East), {汎用性|はんようせい} (versatility), {懇親会|こんしんかい} (social gathering), {相違点|そういてん} (point of difference), {年齢制限|ねんれいせいげん} (age limit), {見合|みあ}わせ (service suspension), {二次創作|にじそうさく} (fan fiction), {交換留学|こうかんりゅうがく} (exchange program), {肘掛|ひじか}け{椅子|いす} (armchair), {公共施設|こうきょうしせつ} (public facilities), {予備知識|よびちしき} (background knowledge), {中火|なかび} (medium heat)
+- **Na-adjectives (4)**: {根本的|こんぽんてき} (fundamental), {円満|えんまん} (harmonious), {多才|たさい} (talented), {子供向|こどもむ}け (for children)
+- **Suru verbs (4)**: {曲解|きょっかい} (misinterpretation), {渡航|とこう} (traveling abroad), {拾|ひろ}い{読|よ}み (skimming), {大失敗|だいしっぱい} (huge failure)
+- **Verbs (1)**: せがむ (to pester)
+- **Nouns (other) (4)**: おやつ (afternoon snack), おねだり (begging), {出|だ}し{惜|お}しみ (stinting), {互助|ごじょ} (mutual aid)
+- **Number (2)**: {億|おく} (100 million), {兆|ちょう} (1 trillion)
+- **Adverb (1)**: {手短|てみじか}に (briefly)
+- **Expressions (2)**: {波風|なみかぜ}を{立|た}てる (to make waves), {初心者向|しょしんしゃむ}け (for beginners)
+- **No-adjective (1)**: {表向|おもてむ}き (outwardly)
+
+Notable features:
+- Numbers: {億|おく}, {兆|ちょう} — key Japanese number units
+- Culture: おやつ, {二次創作|にじそうさく}, {懇親会|こんしんかい}
+- Daily life: {電柱|でんちゅう}, {中火|なかび}, {肘掛|ひじか}け{椅子|いす}
+- Transport: {見合|みあ}わせ (service suspension)
+- Geography: {中東|ちゅうとう}
+- Education: {交換留学|こうかんりゅうがく}, {初心者向|しょしんしゃむ}け, {予備知識|よびちしき}
+
+Total entries: ~17,688 → ~17,723 (approximate)
+Remaining candidates: ~6,469 → ~6,423 (39 removed: 35 created + 4 stale duplicates)
+
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 457)
 Added 35 new dictionary entries (IDs 17877-17911) from candidate_words.json.
 
