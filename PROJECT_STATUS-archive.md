@@ -3,6 +3,29 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 461)
+Added 35 new dictionary entries (IDs 18017-18051) from candidate_words.json.
+
+- **Nouns (14)**: {鼻歌|はなうた} (humming), {真昼|まひる} (midday), {紳士|しんし} (gentleman), {淑女|しゅくじょ} (lady), {交響曲|こうきょうきょく} (symphony), {演奏会|えんそうかい} (concert), {質感|しつかん} (texture), {郵便物|ゆうびんぶつ} (mail), {木炭|もくたん} (charcoal), {切|き}り{札|ふだ} (trump card), {囲碁|いご} (Go), {救|すく}いの{手|て} (helping hand), {指折|ゆびお}り (leading), {一回|いっかい}きり (once only)
+- **Noun/Suru verbs (10)**: {日向|ひなた}ぼっこ (sunbathing), {厳禁|げんきん} (strictly prohibited), {懺悔|ざんげ} (confession), {未払|みばら}い (unpaid), {出題|しゅつだい} (setting questions), {根負|こんま}け (giving in), {密告|みっこく} (informing), {盗作|とうさく} (plagiarism), {殴|なぐ}り{書|が}き (scribbling), {集客|しゅうきゃく} (attracting customers)
+- **Noun/Suru verbs (formal) (3)**: {快諾|かいだく} (ready consent), {疎通|そつう} (communication), {贈答|ぞうとう} (gift exchange)
+- **Noun/Na-adjectives (3)**: {引|ひ}っ{込|こ}み{思案|じあん} (shy), {崇高|すうこう} (sublime), {高品質|こうひんしつ} (high quality)
+- **Na-adjective (1)**: {華|はな}やかな (gorgeous)
+- **I-adjectives (2)**: {若々|わかわか}しい (youthful), {汚|けが}らわしい (disgusting)
+- **Noun/Verb-suru (1)**: {同情|どうじょう}する (to sympathize)
+- **Counter/Noun (1)**: {難問|なんもん} (difficult problem)
+
+Notable features:
+- Culture: {囲碁|いご}, {贈答|ぞうとう}, {懺悔|ざんげ}, {紳士|しんし}/{淑女|しゅくじょ} pair
+- Music: {交響曲|こうきょうきょく}, {演奏会|えんそうかい}
+- Personality: {引|ひ}っ{込|こ}み{思案|じあん}, {若々|わかわか}しい
+- Business: {集客|しゅうきゅく}, {未払|みばら}い, {快諾|かいだく}
+- Figurative: {切|き}り{札|ふだ}, {救|すく}いの{手|て}, {指折|ゆびお}り
+- New kanji: 2,571 → 2,573 ({懺|ざん}, {紳|しん})
+
+Total entries: ~17,828 → ~17,863 (approximate)
+Remaining candidates: ~6,352 → ~6,317 (35 removed)
+
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 460)
 Added 35 new dictionary entries (IDs 17982-18016) from candidate_words.json.
 
