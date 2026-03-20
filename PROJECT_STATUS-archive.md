@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 460)
+Added 35 new dictionary entries (IDs 17982-18016) from candidate_words.json.
+
+- **Nouns (20)**: {退所|たいしょ} (discharge from facility), {糖質|とうしつ}{制限|せいげん} (low-carb diet), {婦人|ふじん}{服|ふく} (women's clothing), {振付師|ふりつけし} (choreographer), ショーケース (showcase), {陳列棚|ちんれつだな} (display shelf), {腺|せん} (gland), {丁字路|ていじろ} (T-junction), {現代|げんだい}{文学|ぶんがく} (modern literature), {心理|しんり}{描写|びょうしゃ} (psychological description), {野手|やしゅ} (fielder), {記念|きねん}{式典|しきてん} (commemorative ceremony), コルク{抜|ぬ}き (corkscrew), {襟足|えりあし} (nape hairline), {一輪挿|いちりんざ}し (bud vase), {予約|よやく}{特典|とくてん} (pre-order bonus), {湯沸|ゆわ}かし (kettle), {主犯|しゅはん} (principal offender), {騎兵|きへい} (cavalry), {人格|じんかく}{形成|けいせい} (character building)
+- **Noun/Suru verbs (7)**: {先行|せんこう}{予約|よやく} (advance booking), {新規|しんき}{事業|じぎょう} (new business), {衛生|えいせい}{管理|かんり} (hygiene management), {共同|きょうどう}{開発|かいはつ} (joint development), {精神|せいしん}{統一|とういつ} (mental concentration), {築城|ちくじょう} (castle construction), {進軍|しんぐん} (military advance)
+- **Other (8)**: {最高|さいこう}{速度|そくど} (maximum speed), {身内|みうち}びいき (nepotism), {社外|しゃがい} (outside the company), {魔術|まじゅつ} (magic/sorcery), {深層|しんそう}{心理|しんり} (deep psychology), {貴殿|きでん} (you - formal pronoun), {盆|ぼん}{帰|がえ}り (Obon homecoming), {九死|きゅうし}に{一生|いっしょう} (narrow escape from death)
+
+Notable features:
+- Retail: ショーケース, {陳列棚|ちんれつだな}, {婦人|ふじん}{服|ふく}
+- Business: {新規|しんき}{事業|じぎょう}, {社外|しゃがい}, {共同|きょうどう}{開発|かいはつ}
+- Culture: {盆|ぼん}{帰|がえ}り, {一輪挿|いちりんざ}し, {築城|ちくじょう}
+- Medical: {腺|せん}
+- New kanji: 2,570 → 2,571 ({腺|せん})
+- Removed 1 stale candidate ({徹底的|てっていてき} - already existed)
+
+Total entries: ~17,793 → ~17,828 (approximate)
+Remaining candidates: ~6,388 → ~6,352 (36 removed: 35 created + 1 stale duplicate)
+
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 459)
 Added 35 new dictionary entries (IDs 17947-17981) from candidate_words.json.
 
