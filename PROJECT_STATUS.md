@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-19
+**Last updated**: 2026-03-20
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,863 |
+| Total entries | ~17,898 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,064 (open) |
-| Candidate words | ~6,317 |
+| General tier | ~15,099 (open) |
+| Candidate words | ~6,272 |
 | Cross-references | ~3,400 |
-| Example sentences | ~51,700 |
+| Example sentences | ~51,830 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 462)
+Added 35 new dictionary entries (IDs 18052-18086) from candidate_words.json.
+
+- **Verbs (8)**: {注|そそ}ぎ{込|こ}む (to pour into), {途切|とぎ}れる (to be interrupted), {和|なご}む (to be soothed), {尊|とうと}ぶ (to value), つぼむ (to close up), {損|そこ}なう (to harm), {被|こうむ}る (to sustain damage), {際立|きわだ}たせる (to make stand out)
+- **Nouns/Suru verbs (8)**: {内示|ないじ} (unofficial notice), {更生|こうせい} (rehabilitation), {就航|しゅうこう} (entering service), {発給|はっきゅう} (issuance), {混和|こんわ} (mixing), リバウンド (rebound), {倍返|ばいがえ}し (returning double), {顕在|けんざい} (becoming manifest)
+- **Nouns (13)**: {満杯|まんぱい} (full to capacity), {対応力|たいおうりょく} (adaptability), {参政権|さんせいけん} (suffrage), {茶店|さてん} (teahouse), {丙|へい} (third/C grade), {卓|たく} (table), {吉凶|きっきょう} (fortune), {理容室|りようしつ} (barbershop), {電子機器|でんしきき} (electronic device), {生活苦|せいかつく} (hardship), {防腐剤|ぼうふざい} (preservative), {中性|ちゅうせい} (neutral), {砲兵|ほうへい} (artillery), {無機物|むきぶつ} (inorganic matter)
+- **Counters (2)**: {頭|とう} (large animals), {尾|び} (fish)
+- **Expressions (2)**: {目|め}につく (to catch one's eye), {気|き}にかける (to worry about)
+- **Adverb (1)**: これほど (this much)
+- **Na-adjective (1)**: {満杯|まんぱい} (full to capacity)
+
+Notable features:
+- Verbs with nuance: {和|なご}む (online culture), {損|そこ}なう (verb suffix usage), つぼむ (flower terminology)
+- Workplace: {内示|ないじ}, {更生|こうせい}, {対応力|たいおうりょく}
+- Daily life: {理容室|りようしつ}, {茶店|さてん}, {防腐剤|ぼうふざい}, {電子機器|でんしきき}
+- Culture: {倍返|ばいがえ}し (半沢直樹 catchphrase), {吉凶|きっきょう}, {丙|へい} (Heavenly Stems)
+- Counters: {頭|とう}, {尾|び} — animal counting
+- New kanji: 2,573 → 2,574 ({丙|へい})
+- Removed 11 stale duplicate candidates
+
+Total entries: ~17,863 → ~17,898 (approximate)
+Remaining candidates: ~6,317 → ~6,272 (45 removed: 34 created + 11 stale duplicates)
 
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 461)
 Added 35 new dictionary entries (IDs 18017-18051) from candidate_words.json.
@@ -140,24 +163,6 @@ Notable features:
 
 Total entries: ~17,688 → ~17,723 (approximate)
 Remaining candidates: ~6,469 → ~6,423 (39 removed: 35 created + 4 stale duplicates)
-
-### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 457)
-Added 35 new dictionary entries (IDs 17877-17911) from candidate_words.json.
-
-- **Nouns (35)**: {終演|しゅうえん} (end of performance), {贅沢三昧|ぜいたくざんまい} (indulgence), {魚の目|うおのめ} (corn on foot), {先頭車両|せんとうしゃりょう} (lead car), {火力発電|かりょくはつでん} (thermal power), {地下駐車場|ちかちゅうしゃじょう} (underground parking), {機体|きたい} (aircraft/fuselage), {五重|ごじゅう}の{塔|とう} (five-story pagoda), {既刊|きかん} (already published), {寄港地|きこうち} (port of call), {吸水|きゅうすい} (water absorption), {空腹時|くうふくじ} (on empty stomach), {尖塔|せんとう} (spire), {通信制|つうしんせい} (correspondence system), {記念切手|きねんきって} (commemorative stamp), {皆既月食|かいきげっしょく} (total lunar eclipse), {大|だい}リーグ (Major Leagues), {室内犬|しつないけん} (indoor dog), {執刀医|しっとうい} (operating surgeon), {痰|たん} (phlegm), {核燃料|かくねんりょう} (nuclear fuel), {画面収録|がめんしゅうろく} (screen recording), {磁場|じば} (magnetic field), {電磁波|でんじは} (electromagnetic waves), {解答欄|かいとうらん} (answer column), {指定席券|していせきけん} (reserved seat ticket), {原子力発電|げんしりょくはつでん} (nuclear power), {鉄筋|てっきん}コンクリート (reinforced concrete), {大量消費|たいりょうしょうひ} (mass consumption), {契約破棄|けいやくはき} (contract cancellation), {抗原|こうげん} (antigen), {上書|うわが}き{保存|ほぞん} (overwrite save), {放射性廃棄物|ほうしゃせいはいきぶつ} (radioactive waste), {銘板|めいばん} (nameplate), {労働基準法|ろうどうきじゅんほう} (Labor Standards Act)
-
-Notable features:
-- Energy: {火力発電|かりょくはつでん}, {原子力発電|げんしりょくはつでん}, {核燃料|かくねんりょう}, {放射性廃棄物|ほうしゃせいはいきぶつ}
-- Transportation: {先頭車両|せんとうしゃりょう}, {指定席券|していせきけん}, {寄港地|きこうち}, {機体|きたい}
-- Science: {磁場|じば}, {電磁波|でんじは}, {抗原|こうげん}, {皆既月食|かいきげっしょく}
-- Technology: {画面収録|がめんしゅうろく}, {上書|うわが}き{保存|ほぞん}
-- Legal/business: {契約破棄|けいやくはき}, {労働基準法|ろうどうきじゅんほう}
-- Culture: {五重|ごじゅう}の{塔|とう}, {大|だい}リーグ, {贅沢三昧|ぜいたくざんまい}
-- New kanji: 2,569 → 2,570 ({痰|たん})
-
-Total entries: ~17,653 → ~17,688 (approximate)
-Remaining candidates: ~6,503 → ~6,469 (34 removed)
-
 
 ---
 

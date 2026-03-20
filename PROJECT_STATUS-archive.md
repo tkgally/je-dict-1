@@ -3,6 +3,23 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 457)
+Added 35 new dictionary entries (IDs 17877-17911) from candidate_words.json.
+
+- **Nouns (35)**: {終演|しゅうえん} (end of performance), {贅沢三昧|ぜいたくざんまい} (indulgence), {魚の目|うおのめ} (corn on foot), {先頭車両|せんとうしゃりょう} (lead car), {火力発電|かりょくはつでん} (thermal power), {地下駐車場|ちかちゅうしゃじょう} (underground parking), {機体|きたい} (aircraft/fuselage), {五重|ごじゅう}の{塔|とう} (five-story pagoda), {既刊|きかん} (already published), {寄港地|きこうち} (port of call), {吸水|きゅうすい} (water absorption), {空腹時|くうふくじ} (on empty stomach), {尖塔|せんとう} (spire), {通信制|つうしんせい} (correspondence system), {記念切手|きねんきって} (commemorative stamp), {皆既月食|かいきげっしょく} (total lunar eclipse), {大|だい}リーグ (Major Leagues), {室内犬|しつないけん} (indoor dog), {執刀医|しっとうい} (operating surgeon), {痰|たん} (phlegm), {核燃料|かくねんりょう} (nuclear fuel), {画面収録|がめんしゅうろく} (screen recording), {磁場|じば} (magnetic field), {電磁波|でんじは} (electromagnetic waves), {解答欄|かいとうらん} (answer column), {指定席券|していせきけん} (reserved seat ticket), {原子力発電|げんしりょくはつでん} (nuclear power), {鉄筋|てっきん}コンクリート (reinforced concrete), {大量消費|たいりょうしょうひ} (mass consumption), {契約破棄|けいやくはき} (contract cancellation), {抗原|こうげん} (antigen), {上書|うわが}き{保存|ほぞん} (overwrite save), {放射性廃棄物|ほうしゃせいはいきぶつ} (radioactive waste), {銘板|めいばん} (nameplate), {労働基準法|ろうどうきじゅんほう} (Labor Standards Act)
+
+Notable features:
+- Energy: {火力発電|かりょくはつでん}, {原子力発電|げんしりょくはつでん}, {核燃料|かくねんりょう}, {放射性廃棄物|ほうしゃせいはいきぶつ}
+- Transportation: {先頭車両|せんとうしゃりょう}, {指定席券|していせきけん}, {寄港地|きこうち}, {機体|きたい}
+- Science: {磁場|じば}, {電磁波|でんじは}, {抗原|こうげん}, {皆既月食|かいきげっしょく}
+- Technology: {画面収録|がめんしゅうろく}, {上書|うわが}き{保存|ほぞん}
+- Legal/business: {契約破棄|けいやくはき}, {労働基準法|ろうどうきじゅんほう}
+- Culture: {五重|ごじゅう}の{塔|とう}, {大|だい}リーグ, {贅沢三昧|ぜいたくざんまい}
+- New kanji: 2,569 → 2,570 ({痰|たん})
+
+Total entries: ~17,653 → ~17,688 (approximate)
+Remaining candidates: ~6,503 → ~6,469 (34 removed)
+
 ### 2026-03-19 (Vocabulary Expansion - 35 New Entries, Session 456)
 Added 35 new dictionary entries (IDs 17842-17876) from candidate_words.json.
 
