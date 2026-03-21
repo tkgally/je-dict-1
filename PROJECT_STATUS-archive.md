@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 463)
+Added 35 new dictionary entries (IDs 18087-18121) from candidate_words.json.
+
+- **Expressions (7)**: {申|もう}し{訳|わけ}ございません (deeply sorry), {失礼|しつれい}いたします (excuse me - formal), {知恵|ちえ}を{絞|しぼ}る (to rack one's brains), {皮|かわ}をむく (to peel), {食卓|しょくたく}を{囲|かこ}む (gather around the table), {焦点|しょうてん}を{絞|しぼ}る (to focus/narrow down), というのも (the reason is)
+- **Nouns (17)**: {負|ふ}の{連鎖|れんさ} (vicious cycle), {時短|じたん}{勤務|きんむ} (reduced working hours), {潜在|せんざい}{意識|いしき} (subconscious), {雑居|ざっきょ}ビル (multi-tenant building), {決定|けってい}{事項|じこう} (decided matters), {客室|きゃくしつ}{乗務員|じょうむいん} (flight attendant), {車内|しゃない}{販売|はんばい} (trolley service), {金融|きんゆう}{政策|せいさく} (monetary policy), {助演|じょえん} (supporting role), {資産|しさん}{運用|うんよう} (asset management), {赤十字|せきじゅうじ} (Red Cross), {配布物|はいふぶつ} (handouts), {公共|こうきょう}{交通|こうつう}{機関|きかん} (public transportation), {国際|こくさい}{連合|れんごう} (United Nations), {安保理|あんぽり} (UN Security Council), {寒冷|かんれい}{前線|ぜんせん} (cold front), {新規|しんき}{開拓|かいたく} (new business development)
+- **Na-adjectives (4)**: {能弁|のうべん} (eloquent), {不純|ふじゅん} (impure), {男性的|だんせいてき} (masculine), {精選|せいせん} (careful selection)
+- **Other (7)**: {泣|な}き{落|お}とし (tearful persuasion), {幾多|いくた}の (many - literary), {贔屓目|ひいきめ} (biased view), {生薬|しょうやく} (herbal medicine), {毒草|どくそう} (poisonous plant), {禁令|きんれい} (prohibition), {自由形|じゆうがた} (freestyle swimming)
+
+Notable features:
+- Formal expressions: {申|もう}し{訳|わけ}ございません, {失礼|しつれい}いたします — business Japanese essentials
+- Idiomatic: {知恵|ちえ}を{絞|しぼ}る, {泣|な}き{落|お}とし, {贔屓目|ひいきめ}
+- International affairs: {国際|こくさい}{連合|れんごう}, {安保理|あんぽり}, {赤十字|せきじゅうじ}
+- Workplace: {時短|じたん}{勤務|きんむ}, {決定|けってい}{事項|じこう}, {新規|しんき}{開拓|かいたく}
+- Daily life: {公共|こうきょう}{交通|こうつう}{機関|きかん}, {車内|しゃない}{販売|はんばい}, {皮|かわ}をむく
+
+Total entries: ~17,898 → ~17,933 (approximate)
+Remaining candidates: ~6,272 → ~6,237 (35 removed)
+
 ### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 462)
 Added 35 new dictionary entries (IDs 18052-18086) from candidate_words.json.
 
