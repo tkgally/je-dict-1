@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 468)
+Added 35 new dictionary entries (IDs 18262-18296) from candidate_words.json.
+
+- **Nouns (15)**: {起動|きどう} (startup), {開催地|かいさいち} (host city), {前売|まえう}り{券|けん} (advance ticket), {残量|ざんりょう} (remaining amount), {一団|いちだん} (a group), {億万長者|おくまんちょうじゃ} (billionaire), {相部屋|あいべや} (shared room), {三連休|さんれんきゅう} (three-day holiday), {旧型|きゅうがた} (old model), {展望台|てんぼうだい} (observation deck), {低音|ていおん} (bass), {卓球|たっきゅう} (table tennis), {船長|せんちょう} (ship captain), {黒砂糖|くろざとう} (brown sugar), {角砂糖|かくざとう} (sugar cube)
+- **Noun/Suru verbs (5)**: {手直|てなお}し (correction), {閲覧|えつらん}する (to browse), {寄生|きせい} (parasitism), {退出|たいしゅつ} (leaving), {噴出|ふんしゅつ} (eruption)
+- **Na-adjectives (4)**: {活動的|かつどうてき} (active), {高圧的|こうあつてき} (overbearing), {表情豊|ひょうじょうゆた}か (expressive), {平易|へいい} (plain)
+- **Verbs (3)**: {見回|みまわ}る (to patrol), {黙|だま}り{込|こ}む (to fall silent), うずくまる (to crouch down)
+- **Expressions (3)**: {面倒|めんどう}を{見|み}る (to look after), {目|め}を{逸|そ}らす (to look away), {裏|うら}をかく (to outwit)
+- **Nouns (5)**: {丸|まる}み (roundness), {短時間|たんじかん} (short time), {雲行|くもゆ}き (way things are going), {身|み}の{程|ほど} (one's place), {主権|しゅけん} (sovereignty)
+
+Notable features:
+- Technology: {起動|きどう}, {閲覧|えつらん}する, {旧型|きゅうがた}
+- Daily life: {前売|まえう}り{券|けん}, {相部屋|あいべや}, {三連休|さんれんきゅう}, {角砂糖|かくざとう}, {黒砂糖|くろざとう}
+- Expressions/idioms: {裏|うら}をかく, {身|み}の{程|ほど}, {雲行|くもゆ}き
+- Cross-references added for 3 homophones: {起動|きどう}/{軌道|きどう}, {一団|いちだん}/{一段|いちだん}, {寄生|きせい}/{帰省|きせい}/{規制|きせい}
+
+Total entries: ~18,073 → ~18,108 (approximate)
+Remaining candidates: ~6,097 → ~6,062 (35 removed)
+
 ### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 467)
 Added 35 new dictionary entries (IDs 18227-18261) from candidate_words.json.
 
@@ -128,27 +147,6 @@ Notable features:
 
 Total entries: ~17,898 → ~17,933 (approximate)
 Remaining candidates: ~6,272 → ~6,237 (35 removed)
-
-### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 466)
-Added 35 new dictionary entries (IDs 18192-18226) from candidate_words.json.
-
-- **Nouns (17)**: {甘味料|かんみりょう} (sweetener), {滞在先|たいざいさき} (place of stay), {難聴|なんちょう} (hearing loss), {自己犠牲|じこぎせい} (self-sacrifice), {仏様|ほとけさま} (Buddha/the deceased), {焦|こ}げ{茶|ちゃ} (dark brown), {往路|おうろ} (outward journey), {一人旅|ひとりたび} (solo trip), {学割|がくわり} (student discount), {模擬試験|もぎしけん} (mock exam), {継母|ままはは} (stepmother), {雲海|うんかい} (sea of clouds), {日本画|にほんが} (Japanese painting), {春分|しゅんぶん}の{日|ひ} (Vernal Equinox Day), {襟巻|えりま}き (scarf), {冷|ひ}え{性|しょう} (cold sensitivity), {悠々自適|ゆうゆうじてき} (life of leisure)
-- **Noun/Suru verbs (3)**: {除雪|じょせつ} (snow removal), {終業|しゅうぎょう} (end of work), {暴露|ばくろ}する (to expose)
-- **Verbs (3)**: {分|わ}かち{合|あ}う (to share), {舞|ま}い{落|お}ちる (to flutter down), {見張|みは}る (to keep watch)
-- **I-adjectives (2)**: {愛|あい}くるしい (adorable), {回|まわ}りくどい (roundabout)
-- **Na-adjectives (4)**: {甘口|あまくち} (sweet/mild), {遠慮|えんりょ}がち (reserved), {温厚|おんこう} (gentle), {不格好|ぶかっこう} (awkward-looking), {縦長|たてなが} (tall and narrow)
-- **Adverbs (3)**: {漠然|ばくぜん}と (vaguely), {未然|みぜん}に (before it happens), どことなく (somehow)
-
-Notable features:
-- Food/drink: {甘味料|かんみりょう}, {甘口|あまくち}
-- Nature/weather: {雲海|うんかい}, {除雪|じょせつ}, {舞|ま}い{落|お}ちる
-- Culture: {春分|しゅんぶん}の{日|ひ}, {日本画|にほんが}, {仏様|ほとけさま}, {継母|ままはは}
-- Student life: {学割|がくわり}, {模擬試験|もぎしけん}
-- Travel: {滞在先|たいざいさき}, {往路|おうろ}, {一人旅|ひとりたび}
-- Personality: {温厚|おんこう}, {遠慮|えんりょ}がち, {不格好|ぶかっこう}
-
-Total entries: ~18,003 → ~18,038 (approximate)
-Remaining candidates: ~6,167 → ~6,132 (35 removed)
 
 ---
 
