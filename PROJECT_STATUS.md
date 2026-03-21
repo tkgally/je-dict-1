@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 469)
+Added 35 new dictionary entries (IDs 18297-18331) from candidate_words.json.
+
+- **Nouns (20)**: {秀才|しゅうさい} (prodigy), {凡人|ぼんじん} (ordinary person), {造花|ぞうか} (artificial flower), {愛国心|あいこくしん} (patriotism), {骸骨|がいこつ} (skeleton), {点線|てんせん} (dotted line), {生垣|いけがき} (hedge), {至近距離|しきんきょり} (point-blank range), {小山|こやま} (hill), {半紙|はんし} (calligraphy paper), {競歩|きょうほ} (race walking), {胃痛|いつう} (stomachache), {波線|なみせん} (wavy line), {護身術|ごしんじゅつ} (self-defense), {新境地|しんきょうち} (new ground), {座卓|ざたく} (low table), {症例|しょうれい} (clinical case), セルフサービス (self-service), {三次元|さんじげん} (three-dimensional), {強者|きょうしゃ} (the strong)
+- **Nouns with suru (5)**: {大騒|おおさわ}ぎ (uproar), {出願|しゅつがん} (application), {休職|きゅうしょく} (leave of absence), {即断|そくだん} (snap decision), {治験|ちけん} (clinical trial)
+- **Nouns/Na-adjectives (3)**: {不評|ふひょう} (unpopularity), {不信|ふしん} (distrust), {非課税|ひかぜい} (tax-exempt)
+- **Other nouns (4)**: {残|のこ}り{物|もの} (leftovers), {引|ひ}け{目|め} (feeling of inferiority), {細切|こまぎ}れ (small pieces), {同性|どうせい} (same sex), {憐|あわ}れみ (pity)
+- **Expressions (2)**: {阿吽|あうん}の{呼吸|こきゅう} (perfect synchronization), {羽目|はめ}を{外|はず}す (to go overboard)
+
+Notable features:
+- People/personality: {秀才|しゅうさい}, {凡人|ぼんじん}, {強者|きょうしゃ}
+- Medical: {治験|ちけん}, {症例|しょうれい}, {胃痛|いつう}
+- Expressions/idioms: {阿吽|あうん}の{呼吸|こきゅう}, {羽目|はめ}を{外|はず}す
+- Daily life: {残|のこ}り{物|もの}, {造花|ぞうか}, セルフサービス, {座卓|ざたく}, {半紙|はんし}
+- New kanji added: 吽 (ID 02575)
+
+Total entries: ~18,108 → ~18,143 (approximate)
+Remaining candidates: ~6,062 → ~6,026 (35 removed + 1 stale)
+
 ### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 468)
 Added 35 new dictionary entries (IDs 18262-18296) from candidate_words.json.
 
@@ -129,24 +148,6 @@ Notable features:
 
 Total entries: ~17,933 → ~17,968 (approximate)
 Remaining candidates: ~6,237 → ~6,202 (35 removed)
-
-### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 463)
-Added 35 new dictionary entries (IDs 18087-18121) from candidate_words.json.
-
-- **Expressions (7)**: {申|もう}し{訳|わけ}ございません (deeply sorry), {失礼|しつれい}いたします (excuse me - formal), {知恵|ちえ}を{絞|しぼ}る (to rack one's brains), {皮|かわ}をむく (to peel), {食卓|しょくたく}を{囲|かこ}む (gather around the table), {焦点|しょうてん}を{絞|しぼ}る (to focus/narrow down), というのも (the reason is)
-- **Nouns (17)**: {負|ふ}の{連鎖|れんさ} (vicious cycle), {時短|じたん}{勤務|きんむ} (reduced working hours), {潜在|せんざい}{意識|いしき} (subconscious), {雑居|ざっきょ}ビル (multi-tenant building), {決定|けってい}{事項|じこう} (decided matters), {客室|きゃくしつ}{乗務員|じょうむいん} (flight attendant), {車内|しゃない}{販売|はんばい} (trolley service), {金融|きんゆう}{政策|せいさく} (monetary policy), {助演|じょえん} (supporting role), {資産|しさん}{運用|うんよう} (asset management), {赤十字|せきじゅうじ} (Red Cross), {配布物|はいふぶつ} (handouts), {公共|こうきょう}{交通|こうつう}{機関|きかん} (public transportation), {国際|こくさい}{連合|れんごう} (United Nations), {安保理|あんぽり} (UN Security Council), {寒冷|かんれい}{前線|ぜんせん} (cold front), {新規|しんき}{開拓|かいたく} (new business development)
-- **Na-adjectives (4)**: {能弁|のうべん} (eloquent), {不純|ふじゅん} (impure), {男性的|だんせいてき} (masculine), {精選|せいせん} (careful selection)
-- **Other (7)**: {泣|な}き{落|お}とし (tearful persuasion), {幾多|いくた}の (many - literary), {贔屓目|ひいきめ} (biased view), {生薬|しょうやく} (herbal medicine), {毒草|どくそう} (poisonous plant), {禁令|きんれい} (prohibition), {自由形|じゆうがた} (freestyle swimming)
-
-Notable features:
-- Formal expressions: {申|もう}し{訳|わけ}ございません, {失礼|しつれい}いたします — business Japanese essentials
-- Idiomatic: {知恵|ちえ}を{絞|しぼ}る, {泣|な}き{落|お}とし, {贔屓目|ひいきめ}
-- International affairs: {国際|こくさい}{連合|れんごう}, {安保理|あんぽり}, {赤十字|せきじゅうじ}
-- Workplace: {時短|じたん}{勤務|きんむ}, {決定|けってい}{事項|じこう}, {新規|しんき}{開拓|かいたく}
-- Daily life: {公共|こうきょう}{交通|こうつう}{機関|きかん}, {車内|しゃない}{販売|はんばい}, {皮|かわ}をむく
-
-Total entries: ~17,898 → ~17,933 (approximate)
-Remaining candidates: ~6,272 → ~6,237 (35 removed)
 
 ---
 
