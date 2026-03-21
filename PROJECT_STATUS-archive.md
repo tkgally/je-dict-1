@@ -3,6 +3,26 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 465)
+Added 35 new dictionary entries (IDs 18157-18191) from candidate_words.json.
+
+- **Nouns (20)**: {園児|えんじ} (kindergarten child), {豪邸|ごうてい} (mansion), {通算|つうさん} (cumulative total), {供|そな}え{物|もの} (offering), {嗜好品|しこうひん} (indulgence item), {土星|どせい} (Saturn), {水星|すいせい} (Mercury), {膝掛|ひざか}け (lap blanket), {抱|だ}き{枕|まくら} (body pillow), パプリカ (bell pepper), {手札|てふだ} (hand of cards), {貯水池|ちょすいち} (reservoir), {湧|わ}き{水|みず} (spring water), {安楽死|あんらくし} (euthanasia), {走行距離|そうこうきょり} (mileage), {五分咲|ごぶざ}き (half-bloom), {水上|すいじょう} (on the water), {肘掛|ひじか}け (armrest), {公民館|こうみんかん} (community center), {町民|ちょうみん} (townspeople)
+- **Noun/Suru verbs (7)**: {脚色|きゃくしょく} (dramatization), {再認識|さいにんしき} (renewed recognition), {駐在|ちゅうざい} (stationing), {丸写|まるうつ}し (copying verbatim), {殴打|おうだ} (striking), {防疫|ぼうえき} (epidemic prevention), {並走|へいそう} (running parallel)
+- **Verb (1)**: {捻|ひね}り{出|だ}す (to squeeze out / to devise)
+- **Na-adjectives (2)**: {粗悪|そあく} (inferior), {真|ま}っ{正直|しょうじき} (dead honest)
+- **Nouns with special context (3)**: お{点前|てまえ} (tea ceremony technique), {口|くち}づけ (kiss - literary), {正当防衛|せいとうぼうえい} (self-defense - legal)
+- **Noun/Verb-suru (2)**: {急死|きゅうし} (sudden death), {慈愛|じあい} (benevolent love)
+
+Notable features:
+- Daily life: パプリカ, {膝掛|ひざか}け, {抱|だ}き{枕|まくら}, {肘掛|ひじか}け, {公民館|こうみんかん}
+- Astronomy: {土星|どせい}, {水星|すいせい}
+- Culture: {五分咲|ごぶざ}き (cherry blossom scale), お{点前|てまえ} (tea ceremony), {供|そな}え{物|もの}
+- Legal/medical: {正当防衛|せいとうぼうえい}, {安楽死|あんらくし}, {防疫|ぼうえき}, {殴打|おうだ}
+- Cross-references added for 3 homophones: {水星|すいせい}/{彗星|すいせい}, {防疫|ぼうえき}/{貿易|ぼうえき}, {急死|きゅうし}/{休止|きゅうし}
+
+Total entries: ~17,968 → ~18,003 (approximate)
+Remaining candidates: ~6,202 → ~6,167 (35 removed)
+
 ### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 464)
 Added 35 new dictionary entries (IDs 18122-18156) from candidate_words.json.
 
