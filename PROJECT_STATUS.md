@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 471)
+Added 35 new dictionary entries (IDs 18367-18401) from candidate_words.json.
+
+- **Grammar suffixes (6)**: ～やすい (easy to), ～づらい (hard to), ～{終|お}わる (to finish doing), ～{始|はじ}める (to start doing), ～{直|なお}す (to do over), ～だらけ (covered in)
+- **Expressions/idioms (10)**: ～だけでなく (not only), {後手|ごて}に{回|まわ}る (to fall behind), {先手|せんて}を{打|う}つ (to take the initiative), {群|ぐん}を{抜|ぬ}く (to stand out), {注意|ちゅうい}を{払|はら}う (to pay attention), {念頭|ねんとう}に{置|お}く (to keep in mind), {罠|わな}にはまる (to fall into a trap), ご{苦労様|くろうさま} (thank you for your efforts), {俗|ぞく}に{言|い}う (commonly called), などなど (etcetera)
+- **Verbs (14)**: {寝過|ねす}ごす (to oversleep), {没頭|ぼっとう}する (to be absorbed in), {号泣|ごうきゅう}する (to wail), {誘発|ゆうはつ}する (to trigger), {交|まじ}わる (to cross), {噛|か}み{砕|くだ}く (to crunch/simplify), {立|た}てこもる (to barricade), {放|ほう}っておく (to leave alone), {据|す}え{置|お}く (to keep unchanged), {熟|じゅく}す (to ripen), じゃれ{合|あ}う (to frolic), {乗|じょう}ずる (to take advantage), がっつく (to devour), {勝|か}ち{誇|ほこ}る (to gloat)
+- **Nouns (5)**: {難読|なんどく} (hard to read), {登頂|とうちょう} (summiting), {口頭|こうとう}で (orally), {回答|かいとう}する (to reply), {雇|やと}い{止|ど}め (non-renewal of contract)
+
+Notable features:
+- Grammar focus: 6 productive verb suffixes (～やすい, ～づらい, ～{終|お}わる, ～{始|はじ}める, ～{直|なお}す, ～だらけ)
+- Idiomatic expressions: shogi-derived ({先手|せんて}を{打|う}つ, {後手|ごて}に{回|まわ}る), set phrases ({群|ぐん}を{抜|ぬ}く, {罠|わな}にはまる)
+- Colloquial vocabulary: がっつく, などなど, {放|ほう}っておく
+
+Total entries: ~18,178 → ~18,213 (approximate)
+Remaining candidates: ~5,988 → ~5,955 (33 removed as entries)
+
 ### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 470)
 Added 35 new dictionary entries (IDs 18332-18366) from candidate_words.json.
 
@@ -126,26 +142,6 @@ Notable features:
 
 Total entries: ~18,038 → ~18,073 (approximate)
 Remaining candidates: ~6,132 → ~6,097 (35 removed)
-
-### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 465)
-Added 35 new dictionary entries (IDs 18157-18191) from candidate_words.json.
-
-- **Nouns (20)**: {園児|えんじ} (kindergarten child), {豪邸|ごうてい} (mansion), {通算|つうさん} (cumulative total), {供|そな}え{物|もの} (offering), {嗜好品|しこうひん} (indulgence item), {土星|どせい} (Saturn), {水星|すいせい} (Mercury), {膝掛|ひざか}け (lap blanket), {抱|だ}き{枕|まくら} (body pillow), パプリカ (bell pepper), {手札|てふだ} (hand of cards), {貯水池|ちょすいち} (reservoir), {湧|わ}き{水|みず} (spring water), {安楽死|あんらくし} (euthanasia), {走行距離|そうこうきょり} (mileage), {五分咲|ごぶざ}き (half-bloom), {水上|すいじょう} (on the water), {肘掛|ひじか}け (armrest), {公民館|こうみんかん} (community center), {町民|ちょうみん} (townspeople)
-- **Noun/Suru verbs (7)**: {脚色|きゃくしょく} (dramatization), {再認識|さいにんしき} (renewed recognition), {駐在|ちゅうざい} (stationing), {丸写|まるうつ}し (copying verbatim), {殴打|おうだ} (striking), {防疫|ぼうえき} (epidemic prevention), {並走|へいそう} (running parallel)
-- **Verb (1)**: {捻|ひね}り{出|だ}す (to squeeze out / to devise)
-- **Na-adjectives (2)**: {粗悪|そあく} (inferior), {真|ま}っ{正直|しょうじき} (dead honest)
-- **Nouns with special context (3)**: お{点前|てまえ} (tea ceremony technique), {口|くち}づけ (kiss - literary), {正当防衛|せいとうぼうえい} (self-defense - legal)
-- **Noun/Verb-suru (2)**: {急死|きゅうし} (sudden death), {慈愛|じあい} (benevolent love)
-
-Notable features:
-- Daily life: パプリカ, {膝掛|ひざか}け, {抱|だ}き{枕|まくら}, {肘掛|ひじか}け, {公民館|こうみんかん}
-- Astronomy: {土星|どせい}, {水星|すいせい}
-- Culture: {五分咲|ごぶざ}き (cherry blossom scale), お{点前|てまえ} (tea ceremony), {供|そな}え{物|もの}
-- Legal/medical: {正当防衛|せいとうぼうえい}, {安楽死|あんらくし}, {防疫|ぼうえき}, {殴打|おうだ}
-- Cross-references added for 3 homophones: {水星|すいせい}/{彗星|すいせい}, {防疫|ぼうえき}/{貿易|ぼうえき}, {急死|きゅうし}/{休止|きゅうし}
-
-Total entries: ~17,968 → ~18,003 (approximate)
-Remaining candidates: ~6,202 → ~6,167 (35 removed)
 
 ---
 
