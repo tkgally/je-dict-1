@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 464)
+Added 35 new dictionary entries (IDs 18122-18156) from candidate_words.json.
+
+- **Nouns (16)**: {中華料理|ちゅうかりょうり} (Chinese cuisine), {公共交通|こうきょうこうつう} (public transportation), {肉食動物|にくしょくどうぶつ} (carnivore), {著作物|ちょさくぶつ} (copyrighted work), {整骨院|せいこついん} (osteopathic clinic), {立|た}ち{見席|みせき} (standing room), {持|も}ち{歌|うた} (signature song), フライ{返|がえ}し (spatula), カトラリー (cutlery), {台所用品|だいどころようひん} (kitchenware), ダイヤ{乱|みだ}れ (schedule disruption), {出張手当|しゅっちょうてあて} (travel allowance), {記載漏|きさいも}れ (omission), {葉物野菜|はものやさい} (leafy vegetables), {波浪|はろう} (ocean waves), {歌唱力|かしょうりょく} (singing ability)
+- **Na-adjectives (4)**: {多目的|たもくてき} (multipurpose), {自己中心的|じこちゅうしんてき} (self-centered), {利他的|りたてき} (altruistic), {官能的|かんのうてき} (sensual)
+- **Expressions (5)**: {目頭|めがしら}が{熱|あつ}くなる (moved to tears), {肩|かた}を{並|なら}べる (to rival), {視野|しや}を{広|ひろ}げる (to broaden horizons), {百獣|ひゃくじゅう}の{王|おう} (king of beasts), {海外向|かいがいむ}け (for overseas)
+- **Noun/Suru verbs (6)**: {拭|ふ}き{掃除|そうじ} (wiping clean), {同時進行|どうじしんこう} (proceeding simultaneously), {現地集合|げんちしゅうごう} (meeting at venue), {給仕|きゅうじ} (waiting tables), {正月遊|しょうがつあそ}び (New Year games), {最先端技術|さいせんたんぎじゅつ} (cutting-edge technology)
+- **Other (4)**: {被害妄想|ひがいもうそう} (paranoia), {帰属意識|きぞくいしき} (sense of belonging), {蓋然性|がいぜんせい} (probability), {羽子板|はごいた} (battledore)
+
+Total entries: ~17,933 → ~17,968 (approximate)
+Remaining candidates: ~6,237 → ~6,202 (35 removed)
+
 ### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 463)
 Added 35 new dictionary entries (IDs 18087-18121) from candidate_words.json.
 
