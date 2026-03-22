@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,318 |
+| Total entries | ~18,358 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,519 (open) |
-| Candidate words | ~5,848 |
+| General tier | ~15,559 (open) |
+| Candidate words | ~5,808 |
 | Cross-references | ~3,400 |
-| Example sentences | ~52,000 |
+| Example sentences | ~52,200 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,37 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-22 (Vocabulary Expansion - 40 New Entries, Session 475)
+Added 40 new dictionary entries (IDs 18509-18548) from candidate_words.json.
+
+- **Nouns (14)**: {密室|みっしつ} (locked room), {車検|しゃけん} (vehicle inspection), {担架|たんか} (stretcher), {本州|ほんしゅう} (Honshu), {照|て}れ{屋|や} (shy person), {月初|げっしょ} (beginning of month), {見張|みは}り (lookout), {静電気|せいでんき} (static electricity), {固定電話|こていでんわ} (landline), {長期戦|ちょうきせん} (long haul), {横線|よこせん} (horizontal line), {末娘|すえむすめ} (youngest daughter), {羊飼|ひつじか}い (shepherd), {滴|しずく} (droplet)
+- **Nouns/Suru verbs (6)**: {折半|せっぱん} (splitting in half), {没収|ぼっしゅう} (confiscation), {目配|めくば}せ (eye signal), {知覚|ちかく} (perception), {欠場|けつじょう} (absence from contest), {補正|ほせい} (correction)
+- **Na-adjectives/Nouns (5)**: {早急|さっきゅう} (urgent), {桁外|けたはず}れ (extraordinary), {朦朧|もうろう} (hazy/dazed), {混|ま}ぜこぜ (jumbled), {豊穣|ほうじょう} (bountiful)
+- **Suru verbs (2)**: {感服|かんぷく}する (to be impressed), {覚醒|かくせい}する (to awaken)
+- **Other verbs (1)**: {口|くち}ずさむ (to hum)
+- **Nouns with two senses (3)**: {大黒柱|だいこくばしら} (central pillar / breadwinner), {密室|みっしつ} (locked room / behind closed doors), {埋没|まいぼつ} (burial / obscurity)
+- **Adverb/Onomatopoeia (1)**: ぐつぐつ (simmering)
+- **Expression (1)**: {遅|おそ}かれ{早|はや}かれ (sooner or later)
+- **Four-character idiom (1)**: {一刀両断|いっとうりょうだん} (decisive action)
+- **Noun (1)**: {施策|しさく} (policy/measure)
+- **Noun (1)**: {若返|わかがえ}り (rejuvenation)
+- **Noun/Suru verb (1)**: {充血|じゅうけつ} (bloodshot)
+- **Noun/Suru verb (1)**: {競売|きょうばい} (auction)
+- **Noun (1)**: {夢心地|ゆめごこち} (dreamlike state)
+- **Noun (1)**: {嫌疑|けんぎ} (suspicion)
+- **Noun/Suru verb (1)**: {一握|ひとにぎ}り (a handful)
+
+Notable features:
+- Daily life: {車検|しゃけん}, {固定電話|こていでんわ}, {静電気|せいでんき}, {月初|げっしょ}, ぐつぐつ
+- Geography: {本州|ほんしゅう}
+- Legal/Formal: {嫌疑|けんぎ}, {競売|きょうばい}, {没収|ぼっしゅう}, {施策|しさく}
+- Four-character idiom: {一刀両断|いっとうりょうだん}
+- Multi-sense entries: {大黒柱|だいこくばしら}, {密室|みっしつ}, {埋没|まいぼつ}, {朦朧|もうろう}, {覚醒|かくせい}する, {一握|ひとにぎ}り
+- New kanji added: 朦 (ID 02580), 穣 (ID 02581), 醒 (ID 02582)
+
+Total entries: ~18,318 → ~18,358 (approximate)
+Remaining candidates: ~5,848 → ~5,808 (40 removed)
 
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 474)
 Added 35 new dictionary entries (IDs 18472-18508) from candidate_words.json.
@@ -133,26 +164,6 @@ Notable features:
 
 Total entries: ~18,178 → ~18,213 (approximate)
 Remaining candidates: ~5,988 → ~5,955 (33 removed as entries)
-
-### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 470)
-Added 35 new dictionary entries (IDs 18332-18366) from candidate_words.json.
-
-- **Nouns (28)**: {護衛艦|ごえいかん} (escort ship), {豪速球|ごうそっきゅう} (blazing fastball), {爵位|しゃくい} (peerage), {胸骨|きょうこつ} (sternum), {深奥|しんおう} (profound depths), {佳人|かじん} (beautiful woman), {阿吽|あうん} (a-un), {指向性|しこうせい} (directivity), {移調|いちょう} (transposition), {副読本|ふくどくほん} (supplementary reader), {基板|きばん} (circuit board), {導体|どうたい} (conductor), {国体|こくたい} (national polity), {発赤|ほっせき} (erythema), {泳力|えいりょく} (swimming ability), {絶対量|ぜったいりょう} (absolute amount), {所有欲|しょゆうよく} (possessiveness), {悪口雑言|あっこうぞうごん} (torrent of insults), {一家離散|いっかりさん} (family breakup), {匍匐前進|ほふくぜんしん} (belly crawl), {徒手空拳|としゅくうけん} (bare-handed), {鱗粉|りんぷん} (wing scales), {開襟|かいきん} (open collar), {銅色|あかがねいろ} (copper color), {床面|ゆかめん} (floor surface), {少佐|しょうさ} (major), {中佐|ちゅうさ} (lieutenant colonel), {加速器|かそくき} (accelerator)
-- **Other (7)**: {一個|いっこ}ずつ (one by one), {牌|ぱい} (mahjong tile), {給紙|きゅうし} (paper feed), {排気量|はいきりょう} (engine displacement), {困窮者|こんきゅうしゃ} (the needy), {陣中見舞|じんちゅうみま}い (morale visit), {板|いた}ガム (stick gum)
-
-Notable features:
-- Military: {護衛艦|ごえいかん}, {少佐|しょうさ}, {中佐|ちゅうさ}, {匍匐前進|ほふくぜんしん}
-- Four-character compounds: {悪口雑言|あっこうぞうごん}, {一家離散|いっかりさん}, {匍匐前進|ほふくぜんしん}, {徒手空拳|としゅくうけん}
-- Technical: {基板|きばん}, {導体|どうたい}, {指向性|しこうせい}, {加速器|かそくき}, {排気量|はいきりょう}
-- Medical: {胸骨|きょうこつ}, {発赤|ほっせき}
-- Literary: {佳人|かじん}, {深奥|しんおう}, {銅色|あかがねいろ}
-- New kanji added: 匍 (ID 02576), 匐 (ID 02577)
-- Removed 4 stale candidates (duplicates: {太っ腹|ふとっぱら}, {憎|にく}しみ, {小刻|こきざ}みに, {倍返|ばいがえ}し)
-
-Total entries: ~18,143 → ~18,178 (approximate)
-Remaining candidates: ~6,026 → ~5,988 (35 removed as entries + 4 stale removed)
-
-Remaining candidates: ~6,062 → ~6,026 (35 removed + 1 stale)
 
 ---
 
