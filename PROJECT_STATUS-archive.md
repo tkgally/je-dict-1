@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 470)
+Added 35 new dictionary entries (IDs 18332-18366) from candidate_words.json.
+
+- **Nouns (28)**: {護衛艦|ごえいかん} (escort ship), {豪速球|ごうそっきゅう} (blazing fastball), {爵位|しゃくい} (peerage), {胸骨|きょうこつ} (sternum), {深奥|しんおう} (profound depths), {佳人|かじん} (beautiful woman), {阿吽|あうん} (a-un), {指向性|しこうせい} (directivity), {移調|いちょう} (transposition), {副読本|ふくどくほん} (supplementary reader), {基板|きばん} (circuit board), {導体|どうたい} (conductor), {国体|こくたい} (national polity), {発赤|ほっせき} (erythema), {泳力|えいりょく} (swimming ability), {絶対量|ぜったいりょう} (absolute amount), {所有欲|しょゆうよく} (possessiveness), {悪口雑言|あっこうぞうごん} (torrent of insults), {一家離散|いっかりさん} (family breakup), {匍匐前進|ほふくぜんしん} (belly crawl), {徒手空拳|としゅくうけん} (bare-handed), {鱗粉|りんぷん} (wing scales), {開襟|かいきん} (open collar), {銅色|あかがねいろ} (copper color), {床面|ゆかめん} (floor surface), {少佐|しょうさ} (major), {中佐|ちゅうさ} (lieutenant colonel), {加速器|かそくき} (accelerator)
+- **Other (7)**: {一個|いっこ}ずつ (one by one), {牌|ぱい} (mahjong tile), {給紙|きゅうし} (paper feed), {排気量|はいきりょう} (engine displacement), {困窮者|こんきゅうしゃ} (the needy), {陣中見舞|じんちゅうみま}い (morale visit), {板|いた}ガム (stick gum)
+
+Notable features:
+- Military: {護衛艦|ごえいかん}, {少佐|しょうさ}, {中佐|ちゅうさ}, {匍匐前進|ほふくぜんしん}
+- Four-character compounds: {悪口雑言|あっこうぞうごん}, {一家離散|いっかりさん}, {匍匐前進|ほふくぜんしん}, {徒手空拳|としゅくうけん}
+- Technical: {基板|きばん}, {導体|どうたい}, {指向性|しこうせい}, {加速器|かそくき}, {排気量|はいきりょう}
+- Medical: {胸骨|きょうこつ}, {発赤|ほっせき}
+- Literary: {佳人|かじん}, {深奥|しんおう}, {銅色|あかがねいろ}
+- New kanji added: 匍 (ID 02576), 匐 (ID 02577)
+- Removed 4 stale candidates (duplicates: {太っ腹|ふとっぱら}, {憎|にく}しみ, {小刻|こきざ}みに, {倍返|ばいがえ}し)
+
+Total entries: ~18,143 → ~18,178 (approximate)
+Remaining candidates: ~6,026 → ~5,988 (35 removed as entries + 4 stale removed)
+
 ### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 469)
 Added 35 new dictionary entries (IDs 18297-18331) from candidate_words.json.
 
