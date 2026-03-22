@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02234_namae_ex1",
-      "japanese": "お{名前|なまえ}は{何|なん}ですか。",
+      "japanese": "お{名前|なまえ}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is your name?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02234_namae_ex2",
-      "japanese": "{名前|なまえ}を{書|か}いてください。",
+      "japanese": "{名前|なまえ}⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write your name.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02234_namae_ex3",
-      "japanese": "{友達|ともだち}の{名前|なまえ}がなかなか{思|おも}い{出|だ}せなくて{困|こま}った。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦の→の：09472_no⟧{名前|なまえ}⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{思|おも}い{出|だ}せなくて→思い出す：01258_omoidasu⟧⟦{困|こま}った→困る：00861_komaru⟧。",
       "english": "I couldn't remember my friend's name and it bothered me.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02234_namae_ex4",
-      "japanese": "{日本|にほん}では{名字|みょうじ}を{先|さき}に{言|い}って、その{後|あと}に{名前|なまえ}を{言|い}います。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{名字|みょうじ}→苗字：14012_myouji⟧⟦を→を：00422_wo⟧⟦{先|さき}→先：02883_saki⟧⟦に→に：00314_ni⟧⟦{言|い}って→言う：00515_iu⟧、⟦その→その：00993_sono⟧⟦{後|あと}→後：09580_ato⟧⟦に→に：00314_ni⟧{名前|なまえ}⟦を→を：00422_wo⟧⟦{言|い}います→言う：00515_iu⟧。",
       "english": "In Japan, you say your family name first, then your given name.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02234_namae_ex5",
-      "japanese": "{子|こ}どもが{生|う}まれたとき、いい{名前|なまえ}を{付|つ}けたいと{思|おも}って、{何日|なんにち}も{考|かんが}えてやっと{決|き}めた。",
+      "japanese": "⟦{子|こ}ども→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧⟦とき→時：02918_toki⟧、⟦いい→いい：00118_ii⟧{名前|なまえ}⟦を→を：00422_wo⟧⟦{付|つ}けたい→つける：00562_tsukeru⟧⟦と→と：00512_to⟧⟦{思|おも}って→思う：00492_omou⟧、{何日|なんにち}⟦も→も：00484_mo⟧⟦{考|かんが}えて→考える：00856_kangaeru⟧⟦やっと→やっと：01561_yatto⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "When our child was born, we wanted to give a good name, so we thought about it for days before finally deciding.",
       "notes": null,
       "has_audio": false,
@@ -67,8 +67,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:17:01Z",
-    "modified": "2026-02-22T01:25:26Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-03-22T02:48:24Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
