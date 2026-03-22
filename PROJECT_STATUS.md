@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,428 |
+| Total entries | ~18,463 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,629 (open) |
-| Candidate words | ~5,736 |
+| General tier | ~15,664 (open) |
+| Candidate words | ~5,701 |
 | Cross-references | ~3,400 |
-| Example sentences | ~52,600 |
+| Example sentences | ~52,700 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 478)
+Added 35 new dictionary entries (IDs 18619-18653) from candidate_words.json.
+
+- **Nouns (22)**: {洋楽|ようがく} (Western music), {新製品|しんせいひん} (new product), {付属品|ふぞくひん} (accessories), {別売|べつう}り (sold separately), {買|か}い{値|ね} (purchase price), {理事会|りじかい} (board of directors), {生命|せいめい}{保険|ほけん} (life insurance), {産業|さんぎょう}{革命|かくめい} (Industrial Revolution), {百貨店|ひゃっかてん} (department store), {裏門|うらもん} (back gate), {小心者|しょうしんもの} (coward), {正真正銘|しょうしんしょうめい} (genuine), お{化|ば}け{屋敷|やしき} (haunted house), {受験生|じゅけんせい} (exam student), くちばし (beak), {人事|じんじ}{異動|いどう} (personnel reshuffle), {撮|と}り{直|なお}し (retake), {予断|よだん} (prejudgment), {患部|かんぶ} (affected area), {微塵|みじん} (tiny particle / not at all), {序列|じょれつ} (hierarchy), {再利用|さいりよう} (reuse)
+- **Nouns/Suru verbs (7)**: {激変|げきへん} (drastic change), {分散|ぶんさん} (dispersion), {気疲|きづか}れ (mental fatigue), {介助|かいじょ} (caregiving), {切|き}り{盛|も}り (managing), {熱望|ねつぼう} (ardent desire), {除草|じょそう} (weeding)
+- **Nouns/Na-adjectives (4)**: {無知|むち} (ignorance), {軽|かる}はずみ (rashness), {気弱|きよわ} (timid), {半透明|はんとうめい} (translucent)
+- **Na-adjective (1)**: {体系的|たいけいてき} (systematic)
+- **Noun (1)**: {単身|たんしん}{赴任|ふにん} (living away from family for work)
+
+Notable features:
+- Multi-sense entries: {分散|ぶんさん} (2 senses), {微塵|みじん} (2 senses)
+- Cultural: {単身|たんしん}{赴任|ふにん}, {受験生|じゅけんせい}, {百貨店|ひゃっかてん}, お{化|ば}け{屋敷|やしき}
+- Business/Finance: {生命|せいめい}{保険|ほけん}, {買|か}い{値|ね}, {理事会|りじかい}, {人事|じんじ}{異動|いどう}, {序列|じょれつ}
+- Medical/Health: {患部|かんぶ}, {介助|かいじょ}
+- Homophone cross-references added for: {無知|むち}/{無恥|むち}, {予断|よだん}/{余談|よだん}, {除草|じょそう}/{助走|じょそう}/{女装|じょそう}, {患部|かんぶ}/{幹部|かんぶ}
+
+Total entries: ~18,428 → ~18,463 (approximate)
+Remaining candidates: ~5,736 → ~5,701 (35 removed as entries)
 
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 477)
 Added 35 new dictionary entries (IDs 18584-18618) from candidate_words.json.
@@ -143,29 +162,6 @@ Notable features:
 
 Total entries: ~18,283 → ~18,318 (approximate)
 Remaining candidates: ~5,883 → ~5,848 (35 removed)
-
-### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 473)
-Added 35 new dictionary entries (IDs 18437-18471) from candidate_words.json.
-
-- **Nouns (24)**: {文庫|ぶんこ} (paperback), {異世界|いせかい} (another world), {三|み}つ{編|あ}み (braid), {礼服|れいふく} (formal wear), {精神疾患|せいしんしっかん} (mental illness), {論評|ろんぴょう} (criticism), {役|やく}どころ (role), {引|ひ}き{立|た}て{役|やく} (foil), {長期保存|ちょうきほぞん} (long-term storage), {念珠|ねんじゅ} (prayer beads), {司令部|しれいぶ} (headquarters), {歳時記|さいじき} (saijiki), {万雷|ばんらい} (thunderous), {類人猿|るいじんえん} (great ape), {霊長類|れいちょうるい} (primates), {若造|わかぞう} (youngster), {水洗|すいせん}トイレ (flush toilet), {車夫|しゃふ} (rickshaw puller), {股下|またした} (inseam), {言|い}い{付|つ}け (order/tattling), {取|と}り{消|け}し{線|せん} (strikethrough), {鍵盤楽器|けんばんがっき} (keyboard instrument), {円座|えんざ} (round cushion), {英才教育|えいさいきょういく} (gifted education)
-- **Nouns/Other (5)**: {未開|みかい} (undeveloped), {不実|ふじつ} (faithlessness), {目出|めだ}し{帽|ぼう} (balaclava), {喚声|かんせい} (shout), {頓服|とんぷく} (as-needed medicine)
-- **Adverb (1)**: {判然|はんぜん} (clearly)
-- **Pronoun (1)**: {貴様|きさま} (you, rude)
-- **Interjection (1)**: ちくしょう (damn it)
-- **Expression (1)**: {熱|ねつ}を{帯|お}びる (to get heated)
-- **Traditional month name (1)**: {文月|ふづき} (July)
-- **Suru verb (1)**: {妥結|だけつ} (settlement)
-
-Notable features:
-- Culture: {歳時記|さいじき}, {文月|ふづき}, {念珠|ねんじゅ}, {車夫|しゃふ}, {円座|えんざ}
-- Modern culture: {異世界|いせかい}, {文庫|ぶんこ}
-- Medical: {精神疾患|せいしんしっかん}, {頓服|とんぷく}
-- Biology: {類人猿|るいじんえん}, {霊長類|れいちょうるい}
-- Expressive vocabulary: ちくしょう, {貴様|きさま}, {若造|わかぞう}
-- Removed 1 stale candidate ({蛞蝓|なめくじ} — kanji variant of existing なめくじ entry)
-
-Total entries: ~18,248 → ~18,283 (approximate)
-Remaining candidates: ~5,919 → ~5,883 (35 removed as entries + 1 stale removed)
 
 ---
 
