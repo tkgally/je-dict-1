@@ -51,6 +51,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 473)
+Added 35 new dictionary entries (IDs 18437-18471) from candidate_words.json.
+
+- **Nouns (24)**: {文庫|ぶんこ} (paperback), {異世界|いせかい} (another world), {三|み}つ{編|あ}み (braid), {礼服|れいふく} (formal wear), {精神疾患|せいしんしっかん} (mental illness), {論評|ろんぴょう} (criticism), {役|やく}どころ (role), {引|ひ}き{立|た}て{役|やく} (foil), {長期保存|ちょうきほぞん} (long-term storage), {念珠|ねんじゅ} (prayer beads), {司令部|しれいぶ} (headquarters), {歳時記|さいじき} (saijiki), {万雷|ばんらい} (thunderous), {類人猿|るいじんえん} (great ape), {霊長類|れいちょうるい} (primates), {若造|わかぞう} (youngster), {水洗|すいせん}トイレ (flush toilet), {車夫|しゃふ} (rickshaw puller), {股下|またした} (inseam), {言|い}い{付|つ}け (order/tattling), {取|と}り{消|け}し{線|せん} (strikethrough), {鍵盤楽器|けんばんがっき} (keyboard instrument), {円座|えんざ} (round cushion), {英才教育|えいさいきょういく} (gifted education)
+- **Nouns/Other (5)**: {未開|みかい} (undeveloped), {不実|ふじつ} (faithlessness), {目出|めだ}し{帽|ぼう} (balaclava), {喚声|かんせい} (shout), {頓服|とんぷく} (as-needed medicine)
+- **Adverb (1)**: {判然|はんぜん} (clearly)
+- **Pronoun (1)**: {貴様|きさま} (you, rude)
+- **Interjection (1)**: ちくしょう (damn it)
+- **Expression (1)**: {熱|ねつ}を{帯|お}びる (to get heated)
+- **Traditional month name (1)**: {文月|ふづき} (July)
+- **Suru verb (1)**: {妥結|だけつ} (settlement)
+
+Notable features:
+- Culture: {歳時記|さいじき}, {文月|ふづき}, {念珠|ねんじゅ}, {車夫|しゃふ}, {円座|えんざ}
+- Modern culture: {異世界|いせかい}, {文庫|ぶんこ}
+- Medical: {精神疾患|せいしんしっかん}, {頓服|とんぷく}
+- Biology: {類人猿|るいじんえん}, {霊長類|れいちょうるい}
+- Expressive vocabulary: ちくしょう, {貴様|きさま}, {若造|わかぞう}
+- Removed 1 stale candidate ({蛞蝓|なめくじ} — kanji variant of existing なめくじ entry)
+
+Total entries: ~18,248 → ~18,283 (approximate)
+Remaining candidates: ~5,919 → ~5,883 (35 removed as entries + 1 stale removed)
+
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 472)
 Added 35 new dictionary entries (IDs 18402-18436) from candidate_words.json.
 
@@ -124,26 +147,6 @@ Notable features:
 
 Total entries: ~18,108 → ~18,143 (approximate)
 Remaining candidates: ~6,062 → ~6,026 (35 removed + 1 stale)
-
-### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 468)
-Added 35 new dictionary entries (IDs 18262-18296) from candidate_words.json.
-
-- **Nouns (15)**: {起動|きどう} (startup), {開催地|かいさいち} (host city), {前売|まえう}り{券|けん} (advance ticket), {残量|ざんりょう} (remaining amount), {一団|いちだん} (a group), {億万長者|おくまんちょうじゃ} (billionaire), {相部屋|あいべや} (shared room), {三連休|さんれんきゅう} (three-day holiday), {旧型|きゅうがた} (old model), {展望台|てんぼうだい} (observation deck), {低音|ていおん} (bass), {卓球|たっきゅう} (table tennis), {船長|せんちょう} (ship captain), {黒砂糖|くろざとう} (brown sugar), {角砂糖|かくざとう} (sugar cube)
-- **Noun/Suru verbs (5)**: {手直|てなお}し (correction), {閲覧|えつらん}する (to browse), {寄生|きせい} (parasitism), {退出|たいしゅつ} (leaving), {噴出|ふんしゅつ} (eruption)
-- **Na-adjectives (4)**: {活動的|かつどうてき} (active), {高圧的|こうあつてき} (overbearing), {表情豊|ひょうじょうゆた}か (expressive), {平易|へいい} (plain)
-- **Verbs (3)**: {見回|みまわ}る (to patrol), {黙|だま}り{込|こ}む (to fall silent), うずくまる (to crouch down)
-- **Expressions (3)**: {面倒|めんどう}を{見|み}る (to look after), {目|め}を{逸|そ}らす (to look away), {裏|うら}をかく (to outwit)
-- **Nouns (5)**: {丸|まる}み (roundness), {短時間|たんじかん} (short time), {雲行|くもゆ}き (way things are going), {身|み}の{程|ほど} (one's place), {主権|しゅけん} (sovereignty)
-
-Notable features:
-- Technology: {起動|きどう}, {閲覧|えつらん}する, {旧型|きゅうがた}
-- Daily life: {前売|まえう}り{券|けん}, {相部屋|あいべや}, {三連休|さんれんきゅう}, {角砂糖|かくざとう}, {黒砂糖|くろざとう}
-- Expressions/idioms: {裏|うら}をかく, {身|み}の{程|ほど}, {雲行|くもゆ}き
-- Cross-references added for 3 homophones: {起動|きどう}/{軌道|きどう}, {一団|いちだん}/{一段|いちだん}, {寄生|きせい}/{帰省|きせい}/{規制|きせい}
-
-Total entries: ~18,073 → ~18,108 (approximate)
-Remaining candidates: ~6,097 → ~6,062 (35 removed)
-
 
 ---
 
