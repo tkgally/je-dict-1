@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-21
+**Last updated**: 2026-03-22
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~17,898 |
+| Total entries | ~18,318 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,099 (open) |
-| Candidate words | ~6,272 |
+| General tier | ~15,519 (open) |
+| Candidate words | ~5,848 |
 | Cross-references | ~3,400 |
-| Example sentences | ~51,830 |
+| Example sentences | ~52,000 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 474)
+Added 35 new dictionary entries (IDs 18472-18508) from candidate_words.json.
+
+- **Nouns (17)**: {抱負|ほうふ} (aspiration), {台車|だいしゃ} (hand cart), {健康保険|けんこうほけん} (health insurance), {営業時間|えいぎょうじかん} (business hours), お{猪口|ちょこ} (sake cup), {暖炉|だんろ} (fireplace), {財宝|ざいほう} (treasure), {予防策|よぼうさく} (preventive measure), {取|と}り{換|か}え (replacement), {飼|か}い{猫|ねこ} (pet cat), {商社|しょうしゃ} (trading company), {首都圏|しゅとけん} (Tokyo metro area), {潮干狩|しおひが}り (clamming), {出張所|しゅっちょうじょ} (branch office), {代理人|だいりにん} (agent/proxy), {中辛|ちゅうから} (medium-spicy), {水揚|みずあ}げ (fish landing/sales)
+- **Nouns/Suru verbs (7)**: {着席|ちゃくせき} (taking a seat), {飲酒運転|いんしゅうんてん} (drunk driving), {命中|めいちゅう} (direct hit), {即決|そっけつ} (snap decision), {模造|もぞう} (imitation), {放流|ほうりゅう} (release/discharge), {二転三転|にてんさんてん} (changing repeatedly)
+- **Na-adjectives (3)**: {悲痛|ひつう} (grief-stricken), {必然的|ひつぜんてき} (inevitable), {誇|ほこ}らしげ (proud-looking)
+- **Verbs (2)**: まぶす (to coat), {群|む}れる (to flock)
+- **Adjective (1)**: {得難|えがた}い (hard to come by)
+- **Expression (1)**: {気|き}が{進|すす}まない (reluctant)
+- **Noun/Adj (2)**: {最良|さいりょう} (the best), {失策|しっさく} (blunder/error)
+- **Four-character idiom (2)**: {一攫千金|いっかくせんきん} (striking it rich), {他力本願|たりきほんがん} (relying on others)
+- **Noun/Suru verb (1)**: {推奨|すいしょう} (recommendation)
+
+Notable features:
+- Daily life: {営業時間|えいぎょうじかん}, {健康保険|けんこうほけん}, {台車|だいしゃ}, {暖炉|だんろ}, {飼|か}い{猫|ねこ}, {中辛|ちゅうから}
+- Culture: お{猪口|ちょこ}, {潮干狩|しおひが}り, {他力本願|たりきほんがん}
+- Business: {商社|しょうしゃ}, {代理人|だいりにん}, {出張所|しゅっちょうじょ}
+- Four-character idioms: {一攫千金|いっかくせんきん}, {他力本願|たりきほんがん}, {二転三転|にてんさんてん}
+- Removed 2 duplicate candidates ({推奨|すいしょう}, {雑|ざつ} — already existed as entries)
+
+Total entries: ~18,283 → ~18,318 (approximate)
+Remaining candidates: ~5,883 → ~5,848 (35 removed)
 
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 473)
 Added 35 new dictionary entries (IDs 18437-18471) from candidate_words.json.
@@ -129,23 +152,6 @@ Notable features:
 Total entries: ~18,143 → ~18,178 (approximate)
 Remaining candidates: ~6,026 → ~5,988 (35 removed as entries + 4 stale removed)
 
-### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 469)
-Added 35 new dictionary entries (IDs 18297-18331) from candidate_words.json.
-
-- **Nouns (20)**: {秀才|しゅうさい} (prodigy), {凡人|ぼんじん} (ordinary person), {造花|ぞうか} (artificial flower), {愛国心|あいこくしん} (patriotism), {骸骨|がいこつ} (skeleton), {点線|てんせん} (dotted line), {生垣|いけがき} (hedge), {至近距離|しきんきょり} (point-blank range), {小山|こやま} (hill), {半紙|はんし} (calligraphy paper), {競歩|きょうほ} (race walking), {胃痛|いつう} (stomachache), {波線|なみせん} (wavy line), {護身術|ごしんじゅつ} (self-defense), {新境地|しんきょうち} (new ground), {座卓|ざたく} (low table), {症例|しょうれい} (clinical case), セルフサービス (self-service), {三次元|さんじげん} (three-dimensional), {強者|きょうしゃ} (the strong)
-- **Nouns with suru (5)**: {大騒|おおさわ}ぎ (uproar), {出願|しゅつがん} (application), {休職|きゅうしょく} (leave of absence), {即断|そくだん} (snap decision), {治験|ちけん} (clinical trial)
-- **Nouns/Na-adjectives (3)**: {不評|ふひょう} (unpopularity), {不信|ふしん} (distrust), {非課税|ひかぜい} (tax-exempt)
-- **Other nouns (4)**: {残|のこ}り{物|もの} (leftovers), {引|ひ}け{目|め} (feeling of inferiority), {細切|こまぎ}れ (small pieces), {同性|どうせい} (same sex), {憐|あわ}れみ (pity)
-- **Expressions (2)**: {阿吽|あうん}の{呼吸|こきゅう} (perfect synchronization), {羽目|はめ}を{外|はず}す (to go overboard)
-
-Notable features:
-- People/personality: {秀才|しゅうさい}, {凡人|ぼんじん}, {強者|きょうしゃ}
-- Medical: {治験|ちけん}, {症例|しょうれい}, {胃痛|いつう}
-- Expressions/idioms: {阿吽|あうん}の{呼吸|こきゅう}, {羽目|はめ}を{外|はず}す
-- Daily life: {残|のこ}り{物|もの}, {造花|ぞうか}, セルフサービス, {座卓|ざたく}, {半紙|はんし}
-- New kanji added: 吽 (ID 02575)
-
-Total entries: ~18,108 → ~18,143 (approximate)
 Remaining candidates: ~6,062 → ~6,026 (35 removed + 1 stale)
 
 ---

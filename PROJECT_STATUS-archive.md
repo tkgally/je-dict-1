@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 469)
+Added 35 new dictionary entries (IDs 18297-18331) from candidate_words.json.
+
+- **Nouns (20)**: {秀才|しゅうさい} (prodigy), {凡人|ぼんじん} (ordinary person), {造花|ぞうか} (artificial flower), {愛国心|あいこくしん} (patriotism), {骸骨|がいこつ} (skeleton), {点線|てんせん} (dotted line), {生垣|いけがき} (hedge), {至近距離|しきんきょり} (point-blank range), {小山|こやま} (hill), {半紙|はんし} (calligraphy paper), {競歩|きょうほ} (race walking), {胃痛|いつう} (stomachache), {波線|なみせん} (wavy line), {護身術|ごしんじゅつ} (self-defense), {新境地|しんきょうち} (new ground), {座卓|ざたく} (low table), {症例|しょうれい} (clinical case), セルフサービス (self-service), {三次元|さんじげん} (three-dimensional), {強者|きょうしゃ} (the strong)
+- **Nouns with suru (5)**: {大騒|おおさわ}ぎ (uproar), {出願|しゅつがん} (application), {休職|きゅうしょく} (leave of absence), {即断|そくだん} (snap decision), {治験|ちけん} (clinical trial)
+- **Nouns/Na-adjectives (3)**: {不評|ふひょう} (unpopularity), {不信|ふしん} (distrust), {非課税|ひかぜい} (tax-exempt)
+- **Other nouns (4)**: {残|のこ}り{物|もの} (leftovers), {引|ひ}け{目|め} (feeling of inferiority), {細切|こまぎ}れ (small pieces), {同性|どうせい} (same sex), {憐|あわ}れみ (pity)
+- **Expressions (2)**: {阿吽|あうん}の{呼吸|こきゅう} (perfect synchronization), {羽目|はめ}を{外|はず}す (to go overboard)
+
+Notable features:
+- People/personality: {秀才|しゅうさい}, {凡人|ぼんじん}, {強者|きょうしゃ}
+- Medical: {治験|ちけん}, {症例|しょうれい}, {胃痛|いつう}
+- Expressions/idioms: {阿吽|あうん}の{呼吸|こきゅう}, {羽目|はめ}を{外|はず}す
+- Daily life: {残|のこ}り{物|もの}, {造花|ぞうか}, セルフサービス, {座卓|ざたく}, {半紙|はんし}
+- New kanji added: 吽 (ID 02575)
+
+Total entries: ~18,108 → ~18,143 (approximate)
+
 ### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 468)
 Added 35 new dictionary entries (IDs 18262-18296) from candidate_words.json.
 
