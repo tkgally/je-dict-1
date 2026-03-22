@@ -3,6 +3,22 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 474)
+Added 35 new dictionary entries (IDs 18472-18508) from candidate_words.json.
+
+- **Nouns (17)**: {抱負|ほうふ} (aspiration), {台車|だいしゃ} (hand cart), {健康保険|けんこうほけん} (health insurance), {営業時間|えいぎょうじかん} (business hours), お{猪口|ちょこ} (sake cup), {暖炉|だんろ} (fireplace), {財宝|ざいほう} (treasure), {予防策|よぼうさく} (preventive measure), {取|と}り{換|か}え (replacement), {飼|か}い{猫|ねこ} (pet cat), {商社|しょうしゃ} (trading company), {首都圏|しゅとけん} (Tokyo metro area), {潮干狩|しおひが}り (clamming), {出張所|しゅっちょうじょ} (branch office), {代理人|だいりにん} (agent/proxy), {中辛|ちゅうから} (medium-spicy), {水揚|みずあ}げ (fish landing/sales)
+- **Nouns/Suru verbs (7)**: {着席|ちゃくせき} (taking a seat), {飲酒運転|いんしゅうんてん} (drunk driving), {命中|めいちゅう} (direct hit), {即決|そっけつ} (snap decision), {模造|もぞう} (imitation), {放流|ほうりゅう} (release/discharge), {二転三転|にてんさんてん} (changing repeatedly)
+- **Na-adjectives (3)**: {悲痛|ひつう} (grief-stricken), {必然的|ひつぜんてき} (inevitable), {誇|ほこ}らしげ (proud-looking)
+- **Verbs (2)**: まぶす (to coat), {群|む}れる (to flock)
+- **Adjective (1)**: {得難|えがた}い (hard to come by)
+- **Expression (1)**: {気|き}が{進|すす}まない (reluctant)
+- **Noun/Adj (2)**: {最良|さいりょう} (the best), {失策|しっさく} (blunder/error)
+- **Four-character idiom (2)**: {一攫千金|いっかくせんきん} (striking it rich), {他力本願|たりきほんがん} (relying on others)
+- **Noun/Suru verb (1)**: {推奨|すいしょう} (recommendation)
+
+Total entries: ~18,283 → ~18,318 (approximate)
+Remaining candidates: ~5,883 → ~5,848 (35 removed)
+
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 472)
 Added 35 new dictionary entries (IDs 18402-18436) from candidate_words.json.
 
