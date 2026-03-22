@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,393 |
+| Total entries | ~18,428 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,594 (open) |
-| Candidate words | ~5,773 |
+| General tier | ~15,629 (open) |
+| Candidate words | ~5,736 |
 | Cross-references | ~3,400 |
-| Example sentences | ~52,400 |
+| Example sentences | ~52,600 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 477)
+Added 35 new dictionary entries (IDs 18584-18618) from candidate_words.json.
+
+- **Expressions (13)**: に{違|ちが}いない (must be), {面目|めんぼく}ない (ashamed), {運|うん}が{良|い}い (lucky), {場|ば}を{盛|も}り{上|あ}げる (liven up), {喉|のど}を{鳴|な}らす (to purr), {本音|ほんね}を{吐|は}く (speak one's mind), {腰|こし}がある (chewy/firm), {変化|へんか}に{富|と}む (varied), {付|つ}き{合|あ}いがいい (sociable), {熱|ねつ}を{冷|さ}ます (cool down), {危険|きけん}を{孕|はら}む (fraught with danger), ページを{繰|く}る (leaf through pages), {発給|はっきゅう}する (to issue)
+- **Verbs (9)**: {書|か}き{損|そん}じる (writing mistake), {曲|ま}がりくねる (twist and turn), {叩|たた}きのめす (thrash), {立|た}ち{回|まわ}る (maneuver), {走|はし}り{去|さ}る (run away), {動|うご}き{出|だ}す (start moving), {滑|すべ}り{出|だ}す (get underway), めくり{上|あ}げる (roll up), そぎ{落|お}とす (strip away), {教|おし}え{導|みちび}く (mentor)
+- **Adjectives (5)**: {格好|かっこう}いい (cool), {小汚|こぎたな}い (scruffy), くすぐったい (ticklish), {疑|うたが}い{深|ぶか}い (distrustful), {理屈|りくつ}っぽい (argumentative)
+- **Nouns (3)**: {斜|なな}め{向|む}かい (diagonally opposite), {目利|めき}き (connoisseur), {身|み}の{上|うえ} (one's circumstances)
+- **Pronouns (2)**: {誰|だれ}も (nobody/everyone), どいつ (which one - rude)
+- **Adverb (1)**: {静|しず}かに (quietly)
+- **Noun/Suru verb (1)**: {更生|こうせい}する (rehabilitate)
+
+Notable features:
+- Multi-sense entries: くすぐったい (2), {立|た}ち{回|まわ}る (2), {滑|すべ}り{出|だ}す (2), {喉|のど}を{鳴|な}らす (2), {静|しず}かに (2), {誰|だれ}も (2), {熱|ねつ}を{冷|さ}ます (2)
+- Grammar/Patterns: に{違|ちが}いない, {誰|だれ}も, {静|しず}かに
+- Social/Cultural: {付|つ}き{合|あ}いがいい, {場|ば}を{盛|も}り{上|あ}げる, {本音|ほんね}を{吐|は}く, {腰|こし}がある
+- Compound verbs: {曲|ま}がりくねる, {叩|たた}きのめす, {走|はし}り{去|さ}る, {動|うご}き{出|だ}す, {滑|すべ}り{出|だ}す
+- Removed 4 stale candidates (duplicates: {挑戦|ちょうせん}, ～だらけ, ～だけでなく, ～がち)
+
+Total entries: ~18,393 → ~18,428 (approximate)
+Remaining candidates: ~5,773 → ~5,736 (33 removed as entries + 4 stale removed)
 
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 476)
 Added 35 new dictionary entries (IDs 18549-18583) from candidate_words.json.
@@ -145,27 +166,6 @@ Notable features:
 
 Total entries: ~18,248 → ~18,283 (approximate)
 Remaining candidates: ~5,919 → ~5,883 (35 removed as entries + 1 stale removed)
-
-### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 472)
-Added 35 new dictionary entries (IDs 18402-18436) from candidate_words.json.
-
-- **Nouns (22)**: {山小屋|やまごや} (mountain hut), {手提|てさ}げ (handbag), {子音|しいん} (consonant), {採光|さいこう} (natural lighting), {弦|げん} (string), {労苦|ろうく} (hardship), {滋養|じよう} (nourishment), {用量|ようりょう} (dosage), {処理能力|しょりのうりょく} (processing power), {汚染物質|おせんぶっしつ} (pollutant), {日除|ひよ}け (sunshade), {地表|ちひょう} (earth's surface), なめくじ (slug), {当|あ}てこすり (insinuation), {秒刻|びょうきざ}み (second by second), {野兎|のうさぎ} (hare), どんちゃん{騒|さわ}ぎ (revelry), スラックス (slacks), {執行猶予|しっこうゆうよ} (suspended sentence), {貧困層|ひんこんそう} (the poor), {発信源|はっしんげん} (source of information), {学|がく}ラン (school uniform)
-- **Nouns/Suru verbs (3)**: {残留|ざんりゅう} (remaining), {初公開|はつこうかい} (first showing), {接吻|せっぷん} (kiss)
-- **Na-adjectives/Nouns (3)**: {別個|べっこ} (separate), {未発達|みはったつ} (undeveloped), {不協和|ふきょうわ} (dissonance)
-- **Adjective (1)**: {珍奇|ちんき} (rare and curious)
-- **Adverbs/Other (2)**: {何|なん}らか (some kind of), {腹一杯|はらいっぱい} (bellyful)
-- **Expressions (4)**: {耳|みみ}に{付|つ}く (to stick in one's ears), {義妹|ぎまい} (sister-in-law), {濡|ぬ}れ{衣|ぎぬ}を{着|き}せる (to frame someone)
-
-Notable features:
-- Daily life: {山小屋|やまごや}, {手提|てさ}げ, {日除|ひよ}け, スラックス, {学|がく}ラン
-- Medical/Science: {用量|ようりょう}, {汚染物質|おせんぶっしつ}, {子音|しいん}, {地表|ちひょう}
-- Legal/News: {執行猶予|しっこうゆうよ}, {貧困層|ひんこんそう}, {残留|ざんりゅう}
-- Expressions/Idioms: {濡|ぬ}れ{衣|ぎぬ}を{着|き}せる, {耳|みみ}に{付|つ}く, {当|あ}てこすり
-- New kanji added: 吻 (ID 02578), 滋 (ID 02579)
-- Removed 2 stale candidates (duplicates: {客観的|きゃっかんてき}, {個人的|こじんてき})
-
-Total entries: ~18,213 → ~18,248 (approximate)
-Remaining candidates: ~5,955 → ~5,919 (34 removed as entries + 2 stale removed)
 
 ---
 
