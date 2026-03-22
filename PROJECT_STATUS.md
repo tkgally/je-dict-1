@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,358 |
+| Total entries | ~18,393 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,559 (open) |
-| Candidate words | ~5,808 |
+| General tier | ~15,594 (open) |
+| Candidate words | ~5,773 |
 | Cross-references | ~3,400 |
-| Example sentences | ~52,200 |
+| Example sentences | ~52,400 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 476)
+Added 35 new dictionary entries (IDs 18549-18583) from candidate_words.json.
+
+- **Nouns (20)**: {宝|たから}くじ (lottery), {夕刊|ゆうかん} (evening newspaper), {表通|おもてどお}り (main street), {得点王|とくてんおう} (top scorer), {新人王|しんじんおう} (rookie of the year), {寄合|よりあい} (gathering), {故事成語|こじせいご} (historical idiom), {列国|れっこく} (the nations), {蚊柱|かばしら} (gnat swarm), {多人数|たにんずう} (large group), {東洋学|とうようがく} (East Asian studies), {糊口|ここう} (livelihood), {有閑|ゆうかん} (leisure), {聖霊|せいれい} (Holy Spirit), {誰々|だれだれ} (so-and-so), {二回|ふたまわ}り (two rounds/sizes), {分譲地|ぶんじょうち} (subdivided land), {広告塔|こうこくとう} (advertising tower/figurehead), {使|つか}い{走|ばし}り (errand boy), {代書|だいしょ} (scrivener's work)
+- **Nouns/Suru verbs (7)**: {給油|きゅうゆ} (refueling), {訓読|くんどく} (kun reading), {反比例|はんぴれい} (inverse proportion), {注油|ちゅうゆ} (oiling), {類焼|るいしょう} (fire spread), {自決|じけつ} (self-determination), {代書|だいしょ} (writing for another)
+- **Na-adjectives (3)**: {乱雑|らんざつ} (messy), {不景気|ふけいき} (recession/gloomy), {土|つち}まみれ (covered in dirt)
+- **Adverbs (2)**: {多|おお}くとも (at most), {裏|うら}で (behind the scenes)
+- **Other (3)**: {因|よ}って (therefore — conjunction), {如|ごと}き (like — suffix), {盤|ばん} (board — noun/suffix)
+
+Notable features:
+- Multi-sense entries: {不景気|ふけいき} (2 senses), {広告塔|こうこくとう} (2 senses), {自決|じけつ} (2 senses), {両性|りょうせい} (2 senses), {使|つか}い{走|ばし}り (2 senses), {二回|ふたまわ}り (2 senses), {盤|ばん} (2 senses), {如|ごと}き (2 senses)
+- Sports: {得点王|とくてんおう}, {新人王|しんじんおう}
+- Academic/Literary: {訓読|くんどく}, {故事成語|こじせいご}, {東洋学|とうようがく}, {因|よ}って, {如|ごと}き, {糊口|ここう}
+- Removed 1 stale candidate ({片寄|かたよ}る — variant of existing {偏|かたよ}る)
+
+Total entries: ~18,358 → ~18,393 (approximate)
+Remaining candidates: ~5,808 → ~5,773 (34 removed as entries + 1 stale removed)
 
 ### 2026-03-22 (Vocabulary Expansion - 40 New Entries, Session 475)
 Added 40 new dictionary entries (IDs 18509-18548) from candidate_words.json.
@@ -148,22 +166,6 @@ Notable features:
 
 Total entries: ~18,213 → ~18,248 (approximate)
 Remaining candidates: ~5,955 → ~5,919 (34 removed as entries + 2 stale removed)
-
-### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 471)
-Added 35 new dictionary entries (IDs 18367-18401) from candidate_words.json.
-
-- **Grammar suffixes (6)**: ～やすい (easy to), ～づらい (hard to), ～{終|お}わる (to finish doing), ～{始|はじ}める (to start doing), ～{直|なお}す (to do over), ～だらけ (covered in)
-- **Expressions/idioms (10)**: ～だけでなく (not only), {後手|ごて}に{回|まわ}る (to fall behind), {先手|せんて}を{打|う}つ (to take the initiative), {群|ぐん}を{抜|ぬ}く (to stand out), {注意|ちゅうい}を{払|はら}う (to pay attention), {念頭|ねんとう}に{置|お}く (to keep in mind), {罠|わな}にはまる (to fall into a trap), ご{苦労様|くろうさま} (thank you for your efforts), {俗|ぞく}に{言|い}う (commonly called), などなど (etcetera)
-- **Verbs (14)**: {寝過|ねす}ごす (to oversleep), {没頭|ぼっとう}する (to be absorbed in), {号泣|ごうきゅう}する (to wail), {誘発|ゆうはつ}する (to trigger), {交|まじ}わる (to cross), {噛|か}み{砕|くだ}く (to crunch/simplify), {立|た}てこもる (to barricade), {放|ほう}っておく (to leave alone), {据|す}え{置|お}く (to keep unchanged), {熟|じゅく}す (to ripen), じゃれ{合|あ}う (to frolic), {乗|じょう}ずる (to take advantage), がっつく (to devour), {勝|か}ち{誇|ほこ}る (to gloat)
-- **Nouns (5)**: {難読|なんどく} (hard to read), {登頂|とうちょう} (summiting), {口頭|こうとう}で (orally), {回答|かいとう}する (to reply), {雇|やと}い{止|ど}め (non-renewal of contract)
-
-Notable features:
-- Grammar focus: 6 productive verb suffixes (～やすい, ～づらい, ～{終|お}わる, ～{始|はじ}める, ～{直|なお}す, ～だらけ)
-- Idiomatic expressions: shogi-derived ({先手|せんて}を{打|う}つ, {後手|ごて}に{回|まわ}る), set phrases ({群|ぐん}を{抜|ぬ}く, {罠|わな}にはまる)
-- Colloquial vocabulary: がっつく, などなど, {放|ほう}っておく
-
-Total entries: ~18,178 → ~18,213 (approximate)
-Remaining candidates: ~5,988 → ~5,955 (33 removed as entries)
 
 ---
 
