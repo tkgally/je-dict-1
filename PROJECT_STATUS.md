@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 472)
+Added 35 new dictionary entries (IDs 18402-18436) from candidate_words.json.
+
+- **Nouns (22)**: {山小屋|やまごや} (mountain hut), {手提|てさ}げ (handbag), {子音|しいん} (consonant), {採光|さいこう} (natural lighting), {弦|げん} (string), {労苦|ろうく} (hardship), {滋養|じよう} (nourishment), {用量|ようりょう} (dosage), {処理能力|しょりのうりょく} (processing power), {汚染物質|おせんぶっしつ} (pollutant), {日除|ひよ}け (sunshade), {地表|ちひょう} (earth's surface), なめくじ (slug), {当|あ}てこすり (insinuation), {秒刻|びょうきざ}み (second by second), {野兎|のうさぎ} (hare), どんちゃん{騒|さわ}ぎ (revelry), スラックス (slacks), {執行猶予|しっこうゆうよ} (suspended sentence), {貧困層|ひんこんそう} (the poor), {発信源|はっしんげん} (source of information), {学|がく}ラン (school uniform)
+- **Nouns/Suru verbs (3)**: {残留|ざんりゅう} (remaining), {初公開|はつこうかい} (first showing), {接吻|せっぷん} (kiss)
+- **Na-adjectives/Nouns (3)**: {別個|べっこ} (separate), {未発達|みはったつ} (undeveloped), {不協和|ふきょうわ} (dissonance)
+- **Adjective (1)**: {珍奇|ちんき} (rare and curious)
+- **Adverbs/Other (2)**: {何|なん}らか (some kind of), {腹一杯|はらいっぱい} (bellyful)
+- **Expressions (4)**: {耳|みみ}に{付|つ}く (to stick in one's ears), {義妹|ぎまい} (sister-in-law), {濡|ぬ}れ{衣|ぎぬ}を{着|き}せる (to frame someone)
+
+Notable features:
+- Daily life: {山小屋|やまごや}, {手提|てさ}げ, {日除|ひよ}け, スラックス, {学|がく}ラン
+- Medical/Science: {用量|ようりょう}, {汚染物質|おせんぶっしつ}, {子音|しいん}, {地表|ちひょう}
+- Legal/News: {執行猶予|しっこうゆうよ}, {貧困層|ひんこんそう}, {残留|ざんりゅう}
+- Expressions/Idioms: {濡|ぬ}れ{衣|ぎぬ}を{着|き}せる, {耳|みみ}に{付|つ}く, {当|あ}てこすり
+- New kanji added: 吻 (ID 02578), 滋 (ID 02579)
+- Removed 2 stale candidates (duplicates: {客観的|きゃっかんてき}, {個人的|こじんてき})
+
+Total entries: ~18,213 → ~18,248 (approximate)
+Remaining candidates: ~5,955 → ~5,919 (34 removed as entries + 2 stale removed)
+
 ### 2026-03-21 (Vocabulary Expansion - 35 New Entries, Session 471)
 Added 35 new dictionary entries (IDs 18367-18401) from candidate_words.json.
 
@@ -123,25 +144,6 @@ Notable features:
 Total entries: ~18,073 → ~18,108 (approximate)
 Remaining candidates: ~6,097 → ~6,062 (35 removed)
 
-### 2026-03-20 (Vocabulary Expansion - 35 New Entries, Session 467)
-Added 35 new dictionary entries (IDs 18227-18261) from candidate_words.json.
-
-- **Nouns (14)**: {守衛|しゅえい} (security guard), ござ (rush mat), {牧師|ぼくし} (pastor), {図解|ずかい} (diagram), スパイ (spy), {善|よ}し{悪|あ}し (good or bad), {正夢|まさゆめ} (prophetic dream), {裏面|りめん} (back side), {豪雪|ごうせつ} (heavy snowfall), {自制心|じせいしん} (self-control), {人脈|じんみゃく} (personal connections), {偽名|ぎめい} (false name), {共稼|ともかせ}ぎ (dual income), {主催者|しゅさいしゃ} (organizer)
-- **Noun/Suru verbs (7)**: {誓約|せいやく} (oath), {著作|ちょさく} (literary work), {同感|どうかん} (agreement), {根絶|こんぜつ} (eradication), {進呈|しんてい} (presentation), {死別|しべつ} (bereavement), {感知|かんち} (detection)
-- **Na-adjectives (5)**: {無邪気|むじゃき} (innocent), {一途|いちず} (wholehearted), {強情|ごうじょう} (stubborn), {不謹慎|ふきんしん} (imprudent), {純真|じゅんしん} (pure)
-- **Noun/Suru verb (1)**: {密封|みっぷう} (airtight seal)
-- **Verbs (5)**: {見損|みそこ}なう (to misjudge), {枯|か}らす (to let wither), {恥|は}じる (to feel ashamed), {聞|き}き{返|かえ}す (to ask again), しなる (to bend)
-- **Noun (4)**: {所帯|しょたい} (household), {筋道|すじみち} (logic), {聖地|せいち} (sacred place)
-
-Notable features:
-- Character/personality: {無邪気|むじゃき}, {純真|じゅんしん}, {一途|いちず}, {強情|ごうじょう}, {自制心|じせいしん}
-- Social/professional: {人脈|じんみゃく}, {主催者|しゅさいしゃ}, {共稼|ともかせ}ぎ, {守衛|しゅえい}
-- Communication: {同感|どうかん}, {聞|き}き{返|かえ}す, {誓約|せいやく}, {進呈|しんてい}
-- Pop culture: {聖地|せいち} (anime pilgrimage), {正夢|まさゆめ}
-- Daily life: ござ, {密封|みっぷう}, {裏面|りめん}, {図解|ずかい}
-
-Total entries: ~18,038 → ~18,073 (approximate)
-Remaining candidates: ~6,132 → ~6,097 (35 removed)
 
 ---
 
