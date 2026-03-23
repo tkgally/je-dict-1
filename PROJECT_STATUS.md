@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,708 |
+| Total entries | ~18,743 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,909 (open) |
-| Candidate words | ~5,454 |
+| General tier | ~15,944 (open) |
+| Candidate words | ~5,418 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 486)
+Added 35 new dictionary entries (IDs 18899-18933) from candidate_words.json.
+
+- **Nouns (15)**: {耳打|みみう}ち (whispering in ear), {麹|こうじ} (koji/malted rice), {透明感|とうめいかん} (transparency/clarity), {志望校|しぼうこう} (desired school), {審美眼|しんびがん} (aesthetic eye), {純利益|じゅんりえき} (net profit), お{汁粉|しるこ} (sweet red bean soup), {知的財産|ちてきざいさん} (intellectual property), {空|あ}き{瓶|びん} (empty bottle), {闇取引|やみとりひき} (black market deal), {日割|ひわ}り (daily rate), {香典返|こうでんがえ}し (condolence return gift), {不正解|ふせいかい} (incorrect answer), {赤|あか}ワイン (red wine), {在宅介護|ざいたくかいご} (home-based care)
+- **Nouns/Suru verbs (9)**: {再発行|さいはっこう} (reissue), {縁取|ふちど}り (bordering/edging), {再構築|さいこうちく} (reconstruction), {暗譜|あんぷ} (memorizing music), {狙|ねら}い{撃|う}ち (sniping/targeting), {機嫌取|きげんと}り (currying favor), {籠城|ろうじょう} (holing up/siege), {価格改定|かかくかいてい} (price revision), {不法投棄|ふほうとうき} (illegal dumping)
+- **Nouns (other)**: {据|す}え{置|お}き (leaving unchanged), シルエット (silhouette), {丸出|まるだ}し (fully exposed), {濃|こ}い{目|め} (on the strong side), {無断転載|むだんてんさい} (unauthorized reproduction), {今川焼|いまがわや}き (imagawayaki)
+- **Expressions (3)**: {結局|けっきょく}のところ (in the end), {脇目|わきめ}も{振|ふ}らず (single-mindedly), {一寸先|いっすんさき}は{闇|やみ} (future is unpredictable)
+- **Multi-sense entries**: {狙|ねら}い{撃|う}ち (2 senses), {籠城|ろうじょう} (2 senses)
+- New kanji added: 鍾, 麹 (IDs 02586-02587)
+
+Topics covered: food/drink, business/finance, education, law, culture, music, daily life
+Total entries: ~18,708 → ~18,743 (approximate)
+Remaining candidates: ~5,454 → ~5,418 (35 removed as entries + 1 stale candidate removed)
 
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 485)
 Added 35 new dictionary entries (IDs 18864-18898) from candidate_words.json.
@@ -114,24 +128,6 @@ Added 35 new dictionary entries (IDs 18759-18793) from candidate_words.json.
 
 Total entries: ~18,568 → ~18,603 (approximate)
 Remaining candidates: ~5,592 → ~5,559 (33 removed as entries)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 481)
-Added 35 new dictionary entries (IDs 18724-18758) from candidate_words.json.
-
-- **Godan verbs (7)**: {搾|しぼ}る (squeeze/extract), {見破|みやぶ}る (see through), {貫|つらぬ}く (pierce/carry through), {物語|ものがた}る (narrate/indicate), {謹|つつし}む (humbly do), {締|し}まる (tighten), {見通|みとお}す (see through/foresee)
-- **Ichidan verbs (3)**: {縮|ちぢ}まる (shrink), {朽|く}ちる (decay), {隔|へだ}てる (separate), {低|ひく}める (lower)
-- **Nouns (11)**: {見習|みなら}い (apprentice), {占|うらな}い (fortune-telling), お{使|つか}い (errand), {払|はら}い (payment), {不名誉|ふめいよ} (disgrace), {収入源|しゅうにゅうげん} (income source), {腹持|はらも}ち (filling food), {誤作動|ごさどう} (malfunction), {局所|きょくしょ} (local area), {球根|きゅうこん} (bulb), {成虫|せいちゅう} (adult insect), {決定打|けっていだ} (decisive blow), {分析家|ぶんせきか} (analyst), {腐|くさ}れ{縁|えん} (inseparable bond), {高学歴|こうがくれき} (highly educated), {健康体|けんこうたい} (healthy body), {共食|ともぐ}い (cannibalism/infighting)
-- **Adjectives (2)**: {表面的|ひょうめんてき} (superficial), {堅|かた}い (firm/strict)
-- **Adverbs (3)**: {著|いちじる}しく (remarkably), すごく (very), {多|おお}く (many/mostly)
-- **Expressions (2)**: {飴|あめ}と{鞭|むち} (carrot and stick), {瞬時|しゅんじ}に (in an instant)
-
-Notable features:
-- Multi-sense entries: {搾|しぼ}る (2), {貫|つらぬ}く (2), {隔|へだ}てる (2), {物語|ものがた}る (2), {締|し}まる (2), {見通|みとお}す (2), {払|はら}い (2), {共食|ともぐ}い (2), {多|おお}く (2)
-- Homophone distinctions: {搾|しぼ}る vs {絞|しぼ}る, {堅|かた}い vs {固|かた}い vs {硬|かた}い, {謹|つつし}む vs {慎|つつし}む, {締|し}まる vs {閉|し}まる
-- Cultural/Japanese life: {占|うらな}い, お{使|つか}い, {飴|あめ}と{鞭|むち}, {腐|くさ}れ{縁|えん}
-
-Total entries: ~18,533 → ~18,568 (approximate)
-Remaining candidates: ~5,627 → ~5,592 (35 removed as entries)
 
 ---
 
