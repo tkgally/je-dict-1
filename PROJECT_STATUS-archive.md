@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 483)
+Added 35 new dictionary entries (IDs 18794-18828) from candidate_words.json.
+
+- **Nouns (16)**: {横顔|よこがお} (profile/side view), {麻薬|まやく} (narcotic), {特価|とっか} (special price), {不作|ふさく} (bad harvest), {車種|しゃしゅ} (car model), {四隅|よすみ} (four corners), {初霜|はつしも} (first frost), {品数|しなかず} (number of items), {機内|きない} (inside aircraft), {中期|ちゅうき} (mid-term), {神殿|しんでん} (temple), {身柄|みがら} (custody), {強権|きょうけん} (authoritative power), {縦縞|たてじま} (vertical stripes), {横縞|よこじま} (horizontal stripes)
+- **Nouns/Suru verbs (8)**: {伝播|でんぱ} (propagation), {占拠|せんきょ} (occupation/seizure), {免職|めんしょく} (dismissal from post), {謹慎|きんしん} (suspension), {記帳|きちょう} (bookkeeping), {引率|いんそつ} (leading a group), {敬愛|けいあい} (respect and affection), {調剤|ちょうざい} (dispensing medicine), {自生|じせい} (growing wild), {完勝|かんしょう} (complete victory)
+- **Nouns/Na-adjective/Suru verb (1)**: {無心|むしん} (innocence/absorption/begging)
+- **Na-adjective (2)**: {辛口|からくち} (dry/spicy/harsh), {立体|りったい} (three-dimensional), {貧相|ひんそう} (poor-looking)
+- **Other (2)**: {空咳|からせき} (dry cough), {遅番|おそばん} (late shift), {渋面|じゅうめん} (grimace), {体面|たいめん} (honor/prestige), あざ (bruise/birthmark)
+- **Multi-sense entries**: {辛口|からくち} (3), {無心|むしん} (3), {空咳|からせき} (2), {横顔|よこがお} (2), {麻薬|まやく} (2), {立体|りったい} (2), {謹慎|きんしん} (2), {記帳|きちょう} (2), あざ (2)
+- **Paired entries**: {縦縞|たてじま}/{横縞|よこじま}, {完勝|かんしょう}/{完敗|かんぱい}
+
+Total entries: ~18,603 → ~18,638 (approximate)
+Remaining candidates: ~5,559 → ~5,524 (35 removed as entries)
+
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 481)
 Added 35 new dictionary entries (IDs 18724-18758) from candidate_words.json.
 
