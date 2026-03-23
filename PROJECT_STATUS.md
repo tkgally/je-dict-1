@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,533 |
+| Total entries | ~18,568 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,734 (open) |
-| Candidate words | ~5,627 |
+| General tier | ~15,769 (open) |
+| Candidate words | ~5,592 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 481)
+Added 35 new dictionary entries (IDs 18724-18758) from candidate_words.json.
+
+- **Godan verbs (7)**: {搾|しぼ}る (squeeze/extract), {見破|みやぶ}る (see through), {貫|つらぬ}く (pierce/carry through), {物語|ものがた}る (narrate/indicate), {謹|つつし}む (humbly do), {締|し}まる (tighten), {見通|みとお}す (see through/foresee)
+- **Ichidan verbs (3)**: {縮|ちぢ}まる (shrink), {朽|く}ちる (decay), {隔|へだ}てる (separate), {低|ひく}める (lower)
+- **Nouns (11)**: {見習|みなら}い (apprentice), {占|うらな}い (fortune-telling), お{使|つか}い (errand), {払|はら}い (payment), {不名誉|ふめいよ} (disgrace), {収入源|しゅうにゅうげん} (income source), {腹持|はらも}ち (filling food), {誤作動|ごさどう} (malfunction), {局所|きょくしょ} (local area), {球根|きゅうこん} (bulb), {成虫|せいちゅう} (adult insect), {決定打|けっていだ} (decisive blow), {分析家|ぶんせきか} (analyst), {腐|くさ}れ{縁|えん} (inseparable bond), {高学歴|こうがくれき} (highly educated), {健康体|けんこうたい} (healthy body), {共食|ともぐ}い (cannibalism/infighting)
+- **Adjectives (2)**: {表面的|ひょうめんてき} (superficial), {堅|かた}い (firm/strict)
+- **Adverbs (3)**: {著|いちじる}しく (remarkably), すごく (very), {多|おお}く (many/mostly)
+- **Expressions (2)**: {飴|あめ}と{鞭|むち} (carrot and stick), {瞬時|しゅんじ}に (in an instant)
+
+Notable features:
+- Multi-sense entries: {搾|しぼ}る (2), {貫|つらぬ}く (2), {隔|へだ}てる (2), {物語|ものがた}る (2), {締|し}まる (2), {見通|みとお}す (2), {払|はら}い (2), {共食|ともぐ}い (2), {多|おお}く (2)
+- Homophone distinctions: {搾|しぼ}る vs {絞|しぼ}る, {堅|かた}い vs {固|かた}い vs {硬|かた}い, {謹|つつし}む vs {慎|つつし}む, {締|し}まる vs {閉|し}まる
+- Cultural/Japanese life: {占|うらな}い, お{使|つか}い, {飴|あめ}と{鞭|むち}, {腐|くさ}れ{縁|えん}
+
+Total entries: ~18,533 → ~18,568 (approximate)
+Remaining candidates: ~5,627 → ~5,592 (35 removed as entries)
 
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 480)
 Added 35 new dictionary entries (IDs 18689-18723) from candidate_words.json.
@@ -134,24 +152,6 @@ Notable features:
 
 Total entries: ~18,393 → ~18,428 (approximate)
 Remaining candidates: ~5,773 → ~5,736 (33 removed as entries + 4 stale removed)
-
-### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 476)
-Added 35 new dictionary entries (IDs 18549-18583) from candidate_words.json.
-
-- **Nouns (20)**: {宝|たから}くじ (lottery), {夕刊|ゆうかん} (evening newspaper), {表通|おもてどお}り (main street), {得点王|とくてんおう} (top scorer), {新人王|しんじんおう} (rookie of the year), {寄合|よりあい} (gathering), {故事成語|こじせいご} (historical idiom), {列国|れっこく} (the nations), {蚊柱|かばしら} (gnat swarm), {多人数|たにんずう} (large group), {東洋学|とうようがく} (East Asian studies), {糊口|ここう} (livelihood), {有閑|ゆうかん} (leisure), {聖霊|せいれい} (Holy Spirit), {誰々|だれだれ} (so-and-so), {二回|ふたまわ}り (two rounds/sizes), {分譲地|ぶんじょうち} (subdivided land), {広告塔|こうこくとう} (advertising tower/figurehead), {使|つか}い{走|ばし}り (errand boy), {代書|だいしょ} (scrivener's work)
-- **Nouns/Suru verbs (7)**: {給油|きゅうゆ} (refueling), {訓読|くんどく} (kun reading), {反比例|はんぴれい} (inverse proportion), {注油|ちゅうゆ} (oiling), {類焼|るいしょう} (fire spread), {自決|じけつ} (self-determination), {代書|だいしょ} (writing for another)
-- **Na-adjectives (3)**: {乱雑|らんざつ} (messy), {不景気|ふけいき} (recession/gloomy), {土|つち}まみれ (covered in dirt)
-- **Adverbs (2)**: {多|おお}くとも (at most), {裏|うら}で (behind the scenes)
-- **Other (3)**: {因|よ}って (therefore — conjunction), {如|ごと}き (like — suffix), {盤|ばん} (board — noun/suffix)
-
-Notable features:
-- Multi-sense entries: {不景気|ふけいき} (2 senses), {広告塔|こうこくとう} (2 senses), {自決|じけつ} (2 senses), {両性|りょうせい} (2 senses), {使|つか}い{走|ばし}り (2 senses), {二回|ふたまわ}り (2 senses), {盤|ばん} (2 senses), {如|ごと}き (2 senses)
-- Sports: {得点王|とくてんおう}, {新人王|しんじんおう}
-- Academic/Literary: {訓読|くんどく}, {故事成語|こじせいご}, {東洋学|とうようがく}, {因|よ}って, {如|ごと}き, {糊口|ここう}
-- Removed 1 stale candidate ({片寄|かたよ}る — variant of existing {偏|かたよ}る)
-
-Total entries: ~18,358 → ~18,393 (approximate)
-Remaining candidates: ~5,808 → ~5,773 (34 removed as entries + 1 stale removed)
 
 ---
 

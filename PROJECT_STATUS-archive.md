@@ -3,6 +3,24 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 476)
+Added 35 new dictionary entries (IDs 18549-18583) from candidate_words.json.
+
+- **Nouns (20)**: {宝|たから}くじ (lottery), {夕刊|ゆうかん} (evening newspaper), {表通|おもてどお}り (main street), {得点王|とくてんおう} (top scorer), {新人王|しんじんおう} (rookie of the year), {寄合|よりあい} (gathering), {故事成語|こじせいご} (historical idiom), {列国|れっこく} (the nations), {蚊柱|かばしら} (gnat swarm), {多人数|たにんずう} (large group), {東洋学|とうようがく} (East Asian studies), {糊口|ここう} (livelihood), {有閑|ゆうかん} (leisure), {聖霊|せいれい} (Holy Spirit), {誰々|だれだれ} (so-and-so), {二回|ふたまわ}り (two rounds/sizes), {分譲地|ぶんじょうち} (subdivided land), {広告塔|こうこくとう} (advertising tower/figurehead), {使|つか}い{走|ばし}り (errand boy), {代書|だいしょ} (scrivener's work)
+- **Nouns/Suru verbs (7)**: {給油|きゅうゆ} (refueling), {訓読|くんどく} (kun reading), {反比例|はんぴれい} (inverse proportion), {注油|ちゅうゆ} (oiling), {類焼|るいしょう} (fire spread), {自決|じけつ} (self-determination), {代書|だいしょ} (writing for another)
+- **Na-adjectives (3)**: {乱雑|らんざつ} (messy), {不景気|ふけいき} (recession/gloomy), {土|つち}まみれ (covered in dirt)
+- **Adverbs (2)**: {多|おお}くとも (at most), {裏|うら}で (behind the scenes)
+- **Other (3)**: {因|よ}って (therefore — conjunction), {如|ごと}き (like — suffix), {盤|ばん} (board — noun/suffix)
+
+Notable features:
+- Multi-sense entries: {不景気|ふけいき} (2 senses), {広告塔|こうこくとう} (2 senses), {自決|じけつ} (2 senses), {両性|りょうせい} (2 senses), {使|つか}い{走|ばし}り (2 senses), {二回|ふたまわ}り (2 senses), {盤|ばん} (2 senses), {如|ごと}き (2 senses)
+- Sports: {得点王|とくてんおう}, {新人王|しんじんおう}
+- Academic/Literary: {訓読|くんどく}, {故事成語|こじせいご}, {東洋学|とうようがく}, {因|よ}って, {如|ごと}き, {糊口|ここう}
+- Removed 1 stale candidate ({片寄|かたよ}る — variant of existing {偏|かたよ}る)
+
+Total entries: ~18,358 → ~18,393 (approximate)
+Remaining candidates: ~5,808 → ~5,773 (34 removed as entries + 1 stale removed)
+
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 474)
 Added 35 new dictionary entries (IDs 18472-18508) from candidate_words.json.
 
