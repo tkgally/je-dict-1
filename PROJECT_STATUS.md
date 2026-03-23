@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,638 |
+| Total entries | ~18,673 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,839 (open) |
-| Candidate words | ~5,524 |
+| General tier | ~15,874 (open) |
+| Candidate words | ~5,489 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 484)
+Added 35 new dictionary entries (IDs 18829-18863) from candidate_words.json.
+
+- **Interjection (1)**: いらっしゃいませ (welcome)
+- **Nouns (12)**: {仕事場|しごとば} (workplace), {煮付|につ}け (simmered dish), {代休|だいきゅう} (compensatory day off), {入社式|にゅうしゃしき} (company entrance ceremony), {食器洗|しょっきあら}い (dishwashing), {閉塞感|へいそくかん} (sense of stagnation), {震|ふる}え (shiver/tremor), {飢餓|きが} (hunger/famine), {個人情報|こじんじょうほう} (personal information), お{知|し}らせ (notice), {証人|しょうにん} (witness), {入門書|にゅうもんしょ} (introductory book)
+- **Nouns/Suru verbs (7)**: {紛失|ふんしつ}する (to lose), {悪化|あっか}する (to worsen), {封鎖|ふうさ} (blockade), {増設|ぞうせつ} (expansion), {習得|しゅうとく}する (to master), {自滅|じめつ} (self-destruction), {閉館|へいかん} (closing of facility)
+- **Nouns/Suru verbs (2)**: {休館|きゅうかん} (temporary closure), {処方薬|しょほうやく} (prescription medicine)
+- **Na-adjectives (2)**: {簡明|かんめい} (concise and clear), ちぐはぐ (mismatched)
+- **Godan verbs (2)**: {飲|の}み{交|か}わす (to drink together), {後|あと}ずさる (to back away)
+- **Adverb (1)**: {即刻|そっこく} (immediately)
+- **Expressions (5)**: {夢中|むちゅう}になる (to become absorbed), {目|め}が{合|あ}う (to make eye contact), {目|め}をそむける (to avert one's eyes), どうしようもない (helpless/hopeless), {失敬|しっけい} (rude/excuse me)
+- **Other nouns (3)**: {流|なが}し (kitchen sink/cruising taxi), {星占|ほしうらな}い (horoscope), {郷里|きょうり} (hometown)
+- **Multi-sense entries**: {失敬|しっけい} (2), {流|なが}し (2), どうしようもない (2), {閉館|へいかん} (2)
+
+Total entries: ~18,638 → ~18,673 (approximate)
+Remaining candidates: ~5,524 → ~5,489 (35 removed as entries)
 
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 483)
 Added 35 new dictionary entries (IDs 18794-18828) from candidate_words.json.
@@ -123,27 +140,6 @@ Notable features:
 
 Total entries: ~18,498 → ~18,533 (approximate)
 Remaining candidates: ~5,666 → ~5,627 (35 removed as entries + 4 stale removed)
-
-### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 479)
-Added 35 new dictionary entries (IDs 18654-18688) from candidate_words.json.
-
-- **Nouns (19)**: お{酢|す} (vinegar), インコ (parakeet), {査証|さしょう} (visa), {中高生|ちゅうこうせい} (jr/sr high school students), {体脂肪|たいしぼう} (body fat), {利回|りまわ}り (yield), {聖堂|せいどう} (cathedral), {経験者|けいけんしゃ} (experienced person), {賭|か}け{事|ごと} (gambling), {埴輪|はにわ} (haniwa clay figure), {夏野菜|なつやさい} (summer vegetables), {煮浸|にびた}し (simmered dish), {混血|こんけつ} (mixed heritage), {白金|はっきん} (platinum), {水深|すいしん} (water depth), {坑道|こうどう} (mine tunnel), {胴元|どうもと} (bookmaker), {日勤|にっきん} (day shift), {拡大鏡|かくだいきょう} (magnifying glass)
-- **Nouns/Suru verbs (4)**: {希釈|きしゃく} (dilution), {差別化|さべつか} (differentiation), {続伸|ぞくしん} (continued rise), {共和|きょうわ} (republic)
-- **Na-adjectives/Nouns (4)**: {安楽|あんらく} (comfortable), {利発|りはつ} (clever), {姑息|こそく} (stopgap/cowardly), {耽美|たんび} (aestheticism)
-- **Adjective-no/Noun (1)**: {多機能|たきのう} (multi-function)
-- **Nouns (business pair) (2)**: {上期|かみき} (first half of fiscal year), {下期|しもき} (second half of fiscal year)
-- **Noun (2 senses) (3)**: {外装|がいそう} (exterior/packaging), {原画|げんが} (original art/key animation), {煙管|きせる} (kiseru pipe/fare evasion)
-- **Noun (2 senses) (2)**: {舎弟|しゃてい} (younger brother/underling), {姑息|こそく} (stopgap/cowardly)
-
-Notable features:
-- Multi-sense entries: {外装|がいそう} (2), {原画|げんが} (2), {煙管|きせる} (2), {姑息|こそく} (2), {舎弟|しゃてい} (2)
-- Business/Finance: {利回|りまわ}り, {上期|かみき}, {下期|しもき}, {差別化|さべつか}, {続伸|ぞくしん}
-- Food/Cooking: お{酢|す}, {夏野菜|なつやさい}, {煮浸|にびた}し
-- Culture/History: {埴輪|はにわ}, {煙管|きせる}, {睦月|むつき}, {耽美|たんび}
-- New kanji added: 埴 (ID 02583), 耽 (ID 02584)
-
-Total entries: ~18,463 → ~18,498 (approximate)
-Remaining candidates: ~5,701 → ~5,666 (35 removed as entries)
 
 ---
 

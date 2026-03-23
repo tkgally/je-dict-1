@@ -3,6 +3,27 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 479)
+Added 35 new dictionary entries (IDs 18654-18688) from candidate_words.json.
+
+- **Nouns (19)**: お{酢|す} (vinegar), インコ (parakeet), {査証|さしょう} (visa), {中高生|ちゅうこうせい} (jr/sr high school students), {体脂肪|たいしぼう} (body fat), {利回|りまわ}り (yield), {聖堂|せいどう} (cathedral), {経験者|けいけんしゃ} (experienced person), {賭|か}け{事|ごと} (gambling), {埴輪|はにわ} (haniwa clay figure), {夏野菜|なつやさい} (summer vegetables), {煮浸|にびた}し (simmered dish), {混血|こんけつ} (mixed heritage), {白金|はっきん} (platinum), {水深|すいしん} (water depth), {坑道|こうどう} (mine tunnel), {胴元|どうもと} (bookmaker), {日勤|にっきん} (day shift), {拡大鏡|かくだいきょう} (magnifying glass)
+- **Nouns/Suru verbs (4)**: {希釈|きしゃく} (dilution), {差別化|さべつか} (differentiation), {続伸|ぞくしん} (continued rise), {共和|きょうわ} (republic)
+- **Na-adjectives/Nouns (4)**: {安楽|あんらく} (comfortable), {利発|りはつ} (clever), {姑息|こそく} (stopgap/cowardly), {耽美|たんび} (aestheticism)
+- **Adjective-no/Noun (1)**: {多機能|たきのう} (multi-function)
+- **Nouns (business pair) (2)**: {上期|かみき} (first half of fiscal year), {下期|しもき} (second half of fiscal year)
+- **Noun (2 senses) (3)**: {外装|がいそう} (exterior/packaging), {原画|げんが} (original art/key animation), {煙管|きせる} (kiseru pipe/fare evasion)
+- **Noun (2 senses) (2)**: {舎弟|しゃてい} (younger brother/underling), {姑息|こそく} (stopgap/cowardly)
+
+Notable features:
+- Multi-sense entries: {外装|がいそう} (2), {原画|げんが} (2), {煙管|きせる} (2), {姑息|こそく} (2), {舎弟|しゃてい} (2)
+- Business/Finance: {利回|りまわ}り, {上期|かみき}, {下期|しもき}, {差別化|さべつか}, {続伸|ぞくしん}
+- Food/Cooking: お{酢|す}, {夏野菜|なつやさい}, {煮浸|にびた}し
+- Culture/History: {埴輪|はにわ}, {煙管|きせる}, {睦月|むつき}, {耽美|たんび}
+- New kanji added: 埴 (ID 02583), 耽 (ID 02584)
+
+Total entries: ~18,463 → ~18,498 (approximate)
+Remaining candidates: ~5,701 → ~5,666 (35 removed as entries)
+
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 478)
 Added 35 new dictionary entries (IDs 18619-18653) from candidate_words.json.
 
