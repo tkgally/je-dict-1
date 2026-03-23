@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,568 |
+| Total entries | ~18,603 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,769 (open) |
-| Candidate words | ~5,592 |
+| General tier | ~15,804 (open) |
+| Candidate words | ~5,559 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 482)
+Added 35 new dictionary entries (IDs 18759-18793) from candidate_words.json.
+
+- **Nouns (18)**: {区間|くかん} (section/segment), {検知|けんち} (detection), {力量|りきりょう} (ability/competence), {非常食|ひじょうしょく} (emergency food), {罰金|ばっきん} (fine/penalty), {犠牲者|ぎせいしゃ} (victim/casualty), {純度|じゅんど} (purity), {戦艦|せんかん} (battleship), {動力|どうりょく} (power/motive force), {数人|すうにん} (several people), {焦燥感|しょうそうかん} (feeling of impatience), {報奨金|ほうしょうきん} (reward money), {暑気|しょき} (summer heat), {操作性|そうさせい} (operability/usability), {地酒|じざけ} (local sake), {祝宴|しゅくえん} (celebration banquet), {交代制|こうたいせい} (shift system), {伸長|しんちょう} (growth/extension)
+- **Nouns/Suru verbs (6)**: {墜落|ついらく} (crash/fall), {軽視|けいし}する (to make light of), {登校|とうこう}する (to go to school), {論述|ろんじゅつ} (exposition), {追従|ついじゅう} (following blindly), {共催|きょうさい} (co-hosting)
+- **Nouns/Na-adjectives (2)**: {仮装|かそう} (costume/disguise), {見当違|けんとうちが}い (off the mark)
+- **Pre-noun adjectival (1)**: {特大|とくだい} (extra-large)
+- **Adjective-na (2)**: {邪悪|じゃあく} (evil/wicked), {鷹揚|おうよう} (generous/magnanimous)
+- **Adjective-i (1)**: {執念深|しゅうねんぶか}い (persistent/vindictive)
+- **Adverb (1)**: {粉々|こなごな} (in pieces/smashed)
+- **Verb (1)**: {肥|こ}える (to grow fat/become refined)
+- **Expression (1)**: {犬猿|けんえん}の{仲|なか} (like cats and dogs)
+- **Multi-sense entries**: {肥|こ}える (3 senses), {仮装|かそう} (2 senses)
+- New kanji added: 墜 (ID 02585)
+
+Total entries: ~18,568 → ~18,603 (approximate)
+Remaining candidates: ~5,592 → ~5,559 (33 removed as entries)
 
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 481)
 Added 35 new dictionary entries (IDs 18724-18758) from candidate_words.json.
@@ -131,27 +149,6 @@ Notable features:
 
 Total entries: ~18,428 → ~18,463 (approximate)
 Remaining candidates: ~5,736 → ~5,701 (35 removed as entries)
-
-### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 477)
-Added 35 new dictionary entries (IDs 18584-18618) from candidate_words.json.
-
-- **Expressions (13)**: に{違|ちが}いない (must be), {面目|めんぼく}ない (ashamed), {運|うん}が{良|い}い (lucky), {場|ば}を{盛|も}り{上|あ}げる (liven up), {喉|のど}を{鳴|な}らす (to purr), {本音|ほんね}を{吐|は}く (speak one's mind), {腰|こし}がある (chewy/firm), {変化|へんか}に{富|と}む (varied), {付|つ}き{合|あ}いがいい (sociable), {熱|ねつ}を{冷|さ}ます (cool down), {危険|きけん}を{孕|はら}む (fraught with danger), ページを{繰|く}る (leaf through pages), {発給|はっきゅう}する (to issue)
-- **Verbs (9)**: {書|か}き{損|そん}じる (writing mistake), {曲|ま}がりくねる (twist and turn), {叩|たた}きのめす (thrash), {立|た}ち{回|まわ}る (maneuver), {走|はし}り{去|さ}る (run away), {動|うご}き{出|だ}す (start moving), {滑|すべ}り{出|だ}す (get underway), めくり{上|あ}げる (roll up), そぎ{落|お}とす (strip away), {教|おし}え{導|みちび}く (mentor)
-- **Adjectives (5)**: {格好|かっこう}いい (cool), {小汚|こぎたな}い (scruffy), くすぐったい (ticklish), {疑|うたが}い{深|ぶか}い (distrustful), {理屈|りくつ}っぽい (argumentative)
-- **Nouns (3)**: {斜|なな}め{向|む}かい (diagonally opposite), {目利|めき}き (connoisseur), {身|み}の{上|うえ} (one's circumstances)
-- **Pronouns (2)**: {誰|だれ}も (nobody/everyone), どいつ (which one - rude)
-- **Adverb (1)**: {静|しず}かに (quietly)
-- **Noun/Suru verb (1)**: {更生|こうせい}する (rehabilitate)
-
-Notable features:
-- Multi-sense entries: くすぐったい (2), {立|た}ち{回|まわ}る (2), {滑|すべ}り{出|だ}す (2), {喉|のど}を{鳴|な}らす (2), {静|しず}かに (2), {誰|だれ}も (2), {熱|ねつ}を{冷|さ}ます (2)
-- Grammar/Patterns: に{違|ちが}いない, {誰|だれ}も, {静|しず}かに
-- Social/Cultural: {付|つ}き{合|あ}いがいい, {場|ば}を{盛|も}り{上|あ}げる, {本音|ほんね}を{吐|は}く, {腰|こし}がある
-- Compound verbs: {曲|ま}がりくねる, {叩|たた}きのめす, {走|はし}り{去|さ}る, {動|うご}き{出|だ}す, {滑|すべ}り{出|だ}す
-- Removed 4 stale candidates (duplicates: {挑戦|ちょうせん}, ～だらけ, ～だけでなく, ～がち)
-
-Total entries: ~18,393 → ~18,428 (approximate)
-Remaining candidates: ~5,773 → ~5,736 (33 removed as entries + 4 stale removed)
 
 ---
 
