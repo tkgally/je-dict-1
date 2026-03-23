@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02355_suki_ex1",
-      "japanese": "{犬|いぬ}が{好|す}き。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧{好|す}き。",
       "english": "I like dogs.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02355_suki_ex2",
-      "japanese": "{音楽|おんがく}が{好|す}きです。",
+      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦が→が：00051_ga⟧{好|す}きです。",
       "english": "I like music.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02355_suki_ex3",
-      "japanese": "{何|なに}が{好|す}きですか。",
+      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧{好|す}きです⟦か→か：09473_ka⟧。",
       "english": "What do you like?",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02355_suki_ex4",
-      "japanese": "{好|す}きな{食|た}べ{物|もの}は{何|なん}ですか。",
+      "japanese": "{好|す}きな⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧です⟦か→か：09473_ka⟧。",
       "english": "What is your favorite food?",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02355_suki_ex5",
-      "japanese": "{子供|こども}の{頃|ころ}から{絵|え}を{描|か}くのが{好|す}きだった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{頃|ころ}→〜ころ：03091_koro⟧⟦から→から：00504_kara⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}く→描く：02013_egaku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{好|す}きだった。",
       "english": "I have liked drawing since I was a child.",
       "notes": null,
       "has_audio": false,
@@ -67,8 +67,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T08:25:27Z",
-    "modified": "2026-02-23T00:29:47Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-03-23T00:52:52Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
