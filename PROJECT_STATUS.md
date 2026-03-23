@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-22
+**Last updated**: 2026-03-23
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,13 +19,13 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,498 |
+| Total entries | ~18,533 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,699 (open) |
-| Candidate words | ~5,666 |
+| General tier | ~15,734 (open) |
+| Candidate words | ~5,627 |
 | Cross-references | ~3,400 |
-| Example sentences | ~53,000 |
+| Example sentences | ~53,200 |
 | Audio files | 1,028 |
 
 ## v2 Quality Standards
@@ -50,6 +50,29 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 480)
+Added 35 new dictionary entries (IDs 18689-18723) from candidate_words.json.
+
+- **Verbs (11)**: {拭|ふ}き{取|と}る (wipe off), {追|お}い{返|かえ}す (send away), {焦|じ}らす (tease), {慣|な}れ{親|した}しむ (become familiar), {解|ほど}ける (come untied), やり{過|す}ごす (let pass), {消|き}え{失|う}せる (vanish), {充|あ}てる (allocate), {履|は}き{違|ちが}える (misinterpret), {追|お}い{落|お}とす (oust), {立|た}ちすくむ (stand frozen)
+- **Suru verbs (3)**: {推奨|すいしょう}する (recommend), {不自由|ふじゆう}する (lack), {東奔西走|とうほんせいそう} (rush about)
+- **Ichidan verb with 2 senses (3)**: {空|あ}ける (empty/vacate), {解|ほど}ける (untie/relax), やり{過|す}ごす (let pass/overdo)
+- **Expressions (8)**: {契約|けいやく}を{結|むす}ぶ (sign contract), {高|たか}を{括|くく}る (underestimate), {職|しょく}に{就|つ}く (get a job), {足|あし}がすくむ (frozen with fear), {時間|じかん}を{割|さ}く (spare time), {共|とも}にする (share), {正体|しょうたい}を{現|あらわ}す (reveal true colors), {窮地|きゅうち}に{陥|おちい}る (fall into predicament)
+- **Nouns (6)**: {小分|こわ}け (small portions), {安産|あんざん} (easy delivery), {丸焦|まるこ}げ (burnt to a crisp), {発信力|はっしんりょく} (communication power), {差|さ}し{水|みず} (adding water), {安置|あんち} (enshrinement)
+- **Adjective-na (1)**: {多角的|たかくてき} (multilateral)
+- **Adverbs (2)**: {毎秒|まいびょう} (every second), {常日頃|つねひごろ} (always)
+- **Other (2)**: {僅少|きんしょう} (very small amount), {数多|かずおお}くの (numerous)
+- **身を寄せる (1)**: {身|み}を{寄|よ}せる (take shelter with)
+
+Notable features:
+- Multi-sense entries: {空|あ}ける (2), {解|ほど}ける (2), やり{過|す}ごす (2), {履|は}き{違|ちが}える (2), {安置|あんち} (2)
+- Idioms/Expressions: {高|たか}を{括|くく}る, {正体|しょうたい}を{現|あらわ}す, {東奔西走|とうほんせいそう}, {窮地|きゅうち}に{陥|おちい}る
+- Daily life/Cooking: {小分|こわ}け, {差|さ}し{水|みず}, {丸焦|まるこ}げ
+- Body/Emotion pairs: {足|あし}がすくむ / {立|た}ちすくむ
+- Removed 4 stale candidates (個, 枚, 冊 as counter duplicates; 捲り上げる as kanji variant of existing めくり上げる)
+
+Total entries: ~18,498 → ~18,533 (approximate)
+Remaining candidates: ~5,666 → ~5,627 (35 removed as entries + 4 stale removed)
 
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 479)
 Added 35 new dictionary entries (IDs 18654-18688) from candidate_words.json.
@@ -129,37 +152,6 @@ Notable features:
 
 Total entries: ~18,358 → ~18,393 (approximate)
 Remaining candidates: ~5,808 → ~5,773 (34 removed as entries + 1 stale removed)
-
-### 2026-03-22 (Vocabulary Expansion - 40 New Entries, Session 475)
-Added 40 new dictionary entries (IDs 18509-18548) from candidate_words.json.
-
-- **Nouns (14)**: {密室|みっしつ} (locked room), {車検|しゃけん} (vehicle inspection), {担架|たんか} (stretcher), {本州|ほんしゅう} (Honshu), {照|て}れ{屋|や} (shy person), {月初|げっしょ} (beginning of month), {見張|みは}り (lookout), {静電気|せいでんき} (static electricity), {固定電話|こていでんわ} (landline), {長期戦|ちょうきせん} (long haul), {横線|よこせん} (horizontal line), {末娘|すえむすめ} (youngest daughter), {羊飼|ひつじか}い (shepherd), {滴|しずく} (droplet)
-- **Nouns/Suru verbs (6)**: {折半|せっぱん} (splitting in half), {没収|ぼっしゅう} (confiscation), {目配|めくば}せ (eye signal), {知覚|ちかく} (perception), {欠場|けつじょう} (absence from contest), {補正|ほせい} (correction)
-- **Na-adjectives/Nouns (5)**: {早急|さっきゅう} (urgent), {桁外|けたはず}れ (extraordinary), {朦朧|もうろう} (hazy/dazed), {混|ま}ぜこぜ (jumbled), {豊穣|ほうじょう} (bountiful)
-- **Suru verbs (2)**: {感服|かんぷく}する (to be impressed), {覚醒|かくせい}する (to awaken)
-- **Other verbs (1)**: {口|くち}ずさむ (to hum)
-- **Nouns with two senses (3)**: {大黒柱|だいこくばしら} (central pillar / breadwinner), {密室|みっしつ} (locked room / behind closed doors), {埋没|まいぼつ} (burial / obscurity)
-- **Adverb/Onomatopoeia (1)**: ぐつぐつ (simmering)
-- **Expression (1)**: {遅|おそ}かれ{早|はや}かれ (sooner or later)
-- **Four-character idiom (1)**: {一刀両断|いっとうりょうだん} (decisive action)
-- **Noun (1)**: {施策|しさく} (policy/measure)
-- **Noun (1)**: {若返|わかがえ}り (rejuvenation)
-- **Noun/Suru verb (1)**: {充血|じゅうけつ} (bloodshot)
-- **Noun/Suru verb (1)**: {競売|きょうばい} (auction)
-- **Noun (1)**: {夢心地|ゆめごこち} (dreamlike state)
-- **Noun (1)**: {嫌疑|けんぎ} (suspicion)
-- **Noun/Suru verb (1)**: {一握|ひとにぎ}り (a handful)
-
-Notable features:
-- Daily life: {車検|しゃけん}, {固定電話|こていでんわ}, {静電気|せいでんき}, {月初|げっしょ}, ぐつぐつ
-- Geography: {本州|ほんしゅう}
-- Legal/Formal: {嫌疑|けんぎ}, {競売|きょうばい}, {没収|ぼっしゅう}, {施策|しさく}
-- Four-character idiom: {一刀両断|いっとうりょうだん}
-- Multi-sense entries: {大黒柱|だいこくばしら}, {密室|みっしつ}, {埋没|まいぼつ}, {朦朧|もうろう}, {覚醒|かくせい}する, {一握|ひとにぎ}り
-- New kanji added: 朦 (ID 02580), 穣 (ID 02581), 醒 (ID 02582)
-
-Total entries: ~18,318 → ~18,358 (approximate)
-Remaining candidates: ~5,848 → ~5,808 (40 removed)
 
 ---
 
