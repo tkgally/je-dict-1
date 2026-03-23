@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,743 |
+| Total entries | ~18,778 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,944 (open) |
-| Candidate words | ~5,418 |
+| General tier | ~15,979 (open) |
+| Candidate words | ~5,382 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 487)
+Added 35 new dictionary entries (IDs 18934-18968) from candidate_words.json.
+
+- **Nouns (16)**: {霜降|しもふ}り (marbled meat), {泣|な}き{顔|がお} (tearful face), {格言|かくげん} (maxim), {出迎|でむか}え (greeting on arrival), {販売員|はんばいいん} (salesperson), {容貌|ようぼう} (facial features), {車線|しゃせん} (traffic lane), {依頼人|いらいにん} (client), {赤飯|せきはん} (red bean rice), {手錠|てじょう} (handcuffs), {証書|しょうしょ} (certificate), {水門|すいもん} (floodgate), {砂遊|すなあそ}び (sand play), {原材料|げんざいりょう} (raw materials), {笹|ささ}の{葉|は} (bamboo leaves), {格安航空会社|かくやすこうくうがいしゃ} (budget airline)
+- **Nouns/Suru verbs (9)**: {断念|だんねん} (giving up), {力説|りきせつ} (emphasizing), {消去|しょうきょ} (deletion), {消灯|しょうとう} (lights out), {完済|かんさい} (full repayment), {熟慮|じゅくりょ} (deliberation), {羽化|うか} (insect emergence), {推理|すいり} (deduction), {尾行|びこう} (tailing)
+- **Nouns (other, 5)**: {和製英語|わせいえいご} (Japanese-coined English), {屋内|おくない} (indoors), {完売|かんばい} (sold out), {書|か}き{換|か}え (rewriting), {発芽|はつが} (germination), {養鶏|ようけい} (poultry farming)
+- **Na-adjective (2)**: {端麗|たんれい} (graceful), {野蛮|やばん} (barbaric)
+- **I-adjective (1)**: {辛抱強|しんぼうづよ}い (patient)
+- **Noun (culture, 1)**: {自動改札|じどうかいさつ} (automatic ticket gate)
+- **Multi-sense entries**: {霜降|しもふ}り (2 senses), {書|か}き{換|か}え (2 senses)
+- Removed 1 stale candidate (無頓着な - already exists as entry)
+
+Topics covered: food/culture, crime/law, transport, nature, finance, daily life, language
+Total entries: ~18,743 → ~18,778 (approximate)
+Remaining candidates: ~5,418 → ~5,382 (35 removed as entries + 1 stale candidate removed)
 
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 486)
 Added 35 new dictionary entries (IDs 18899-18933) from candidate_words.json.
@@ -110,24 +126,6 @@ Added 35 new dictionary entries (IDs 18794-18828) from candidate_words.json.
 
 Total entries: ~18,603 → ~18,638 (approximate)
 Remaining candidates: ~5,559 → ~5,524 (35 removed as entries)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 482)
-Added 35 new dictionary entries (IDs 18759-18793) from candidate_words.json.
-
-- **Nouns (18)**: {区間|くかん} (section/segment), {検知|けんち} (detection), {力量|りきりょう} (ability/competence), {非常食|ひじょうしょく} (emergency food), {罰金|ばっきん} (fine/penalty), {犠牲者|ぎせいしゃ} (victim/casualty), {純度|じゅんど} (purity), {戦艦|せんかん} (battleship), {動力|どうりょく} (power/motive force), {数人|すうにん} (several people), {焦燥感|しょうそうかん} (feeling of impatience), {報奨金|ほうしょうきん} (reward money), {暑気|しょき} (summer heat), {操作性|そうさせい} (operability/usability), {地酒|じざけ} (local sake), {祝宴|しゅくえん} (celebration banquet), {交代制|こうたいせい} (shift system), {伸長|しんちょう} (growth/extension)
-- **Nouns/Suru verbs (6)**: {墜落|ついらく} (crash/fall), {軽視|けいし}する (to make light of), {登校|とうこう}する (to go to school), {論述|ろんじゅつ} (exposition), {追従|ついじゅう} (following blindly), {共催|きょうさい} (co-hosting)
-- **Nouns/Na-adjectives (2)**: {仮装|かそう} (costume/disguise), {見当違|けんとうちが}い (off the mark)
-- **Pre-noun adjectival (1)**: {特大|とくだい} (extra-large)
-- **Adjective-na (2)**: {邪悪|じゃあく} (evil/wicked), {鷹揚|おうよう} (generous/magnanimous)
-- **Adjective-i (1)**: {執念深|しゅうねんぶか}い (persistent/vindictive)
-- **Adverb (1)**: {粉々|こなごな} (in pieces/smashed)
-- **Verb (1)**: {肥|こ}える (to grow fat/become refined)
-- **Expression (1)**: {犬猿|けんえん}の{仲|なか} (like cats and dogs)
-- **Multi-sense entries**: {肥|こ}える (3 senses), {仮装|かそう} (2 senses)
-- New kanji added: 墜 (ID 02585)
-
-Total entries: ~18,568 → ~18,603 (approximate)
-Remaining candidates: ~5,592 → ~5,559 (33 removed as entries)
 
 ---
 
