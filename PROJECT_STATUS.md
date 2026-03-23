@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,778 |
+| Total entries | ~18,813 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,979 (open) |
-| Candidate words | ~5,382 |
+| General tier | ~16,014 (open) |
+| Candidate words | ~5,347 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 488)
+Added 35 new dictionary entries (IDs 18969-19003) from candidate_words.json.
+
+- **Nouns (11)**: {燃費|ねんぴ} (fuel efficiency), {時短|じたん} (time-saving), {節分|せつぶん} (Setsubun), {貯蓄|ちょちく} (savings), {終戦|しゅうせん} (end of war), {条項|じょうこう} (clause/provision), {品位|ひんい} (dignity), {横丁|よこちょう} (side street), {茶柱|ちゃばしら} (tea stalk - good omen), {複写|ふくしゃ} (copying), {未納|みのう} (unpaid)
+- **Nouns with 2 senses (4)**: {戦力|せんりょく} (military strength / key player), {目録|もくろく} (catalog / gift list), {役柄|やくがら} (acting role / nature of position), {放火|ほうか} (arson)
+- **Na-adjectives (3)**: {露骨|ろこつ} (blatant), {低俗|ていぞく} (vulgar), {卑猥|ひわい} (obscene)
+- **I-adjectives (5)**: {手|て}ごわい (tough/formidable), {寝苦|ねぐる}しい (hard to sleep), {慎|つつま}ましい (modest/humble), {物悲|ものかな}しい (melancholy), {華々|はなばな}しい (splendid)
+- **Suru verbs (8)**: {辞退|じたい}する (decline), {承諾|しょうだく}する (consent), {投稿|とうこう}する (post online), {拡散|かくさん}する (spread/go viral), {執行|しっこう} (enforcement), {向上|こうじょう}する (improve), {中断|ちゅうだん}する (interrupt), {操作|そうさ}する (operate/manipulate)
+- **Noun/Suru verbs with legal domain (2)**: {共謀|きょうぼう} (conspiracy), {提訴|ていそ} (filing lawsuit)
+- **Multi-sense entries**: {戦力|せんりょく} (2), {目録|もくろく} (2), {役柄|やくがら} (2), {投稿|とうこう}する (2), {拡散|かくさん}する (2), {操作|そうさ}する (2)
+- New kanji added: 猥 (ID 02588)
+
+Topics covered: law/legal, daily life, culture, media/technology, finance, food, weather, entertainment
+Total entries: ~18,778 → ~18,813 (approximate)
+Remaining candidates: ~5,382 → ~5,347 (35 removed as entries)
 
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 487)
 Added 35 new dictionary entries (IDs 18934-18968) from candidate_words.json.
@@ -112,20 +128,6 @@ Added 35 new dictionary entries (IDs 18829-18863) from candidate_words.json.
 
 Total entries: ~18,638 → ~18,673 (approximate)
 Remaining candidates: ~5,524 → ~5,489 (35 removed as entries)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 483)
-Added 35 new dictionary entries (IDs 18794-18828) from candidate_words.json.
-
-- **Nouns (16)**: {横顔|よこがお} (profile/side view), {麻薬|まやく} (narcotic), {特価|とっか} (special price), {不作|ふさく} (bad harvest), {車種|しゃしゅ} (car model), {四隅|よすみ} (four corners), {初霜|はつしも} (first frost), {品数|しなかず} (number of items), {機内|きない} (inside aircraft), {中期|ちゅうき} (mid-term), {神殿|しんでん} (temple), {身柄|みがら} (custody), {強権|きょうけん} (authoritative power), {縦縞|たてじま} (vertical stripes), {横縞|よこじま} (horizontal stripes)
-- **Nouns/Suru verbs (8)**: {伝播|でんぱ} (propagation), {占拠|せんきょ} (occupation/seizure), {免職|めんしょく} (dismissal from post), {謹慎|きんしん} (suspension), {記帳|きちょう} (bookkeeping), {引率|いんそつ} (leading a group), {敬愛|けいあい} (respect and affection), {調剤|ちょうざい} (dispensing medicine), {自生|じせい} (growing wild), {完勝|かんしょう} (complete victory)
-- **Nouns/Na-adjective/Suru verb (1)**: {無心|むしん} (innocence/absorption/begging)
-- **Na-adjective (2)**: {辛口|からくち} (dry/spicy/harsh), {立体|りったい} (three-dimensional), {貧相|ひんそう} (poor-looking)
-- **Other (2)**: {空咳|からせき} (dry cough), {遅番|おそばん} (late shift), {渋面|じゅうめん} (grimace), {体面|たいめん} (honor/prestige), あざ (bruise/birthmark)
-- **Multi-sense entries**: {辛口|からくち} (3), {無心|むしん} (3), {空咳|からせき} (2), {横顔|よこがお} (2), {麻薬|まやく} (2), {立体|りったい} (2), {謹慎|きんしん} (2), {記帳|きちょう} (2), あざ (2)
-- **Paired entries**: {縦縞|たてじま}/{横縞|よこじま}, {完勝|かんしょう}/{完敗|かんぱい}
-
-Total entries: ~18,603 → ~18,638 (approximate)
-Remaining candidates: ~5,559 → ~5,524 (35 removed as entries)
 
 ---
 
