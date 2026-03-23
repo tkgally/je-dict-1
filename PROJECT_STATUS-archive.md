@@ -3,6 +3,25 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 478)
+Added 35 new dictionary entries (IDs 18619-18653) from candidate_words.json.
+
+- **Nouns (22)**: {洋楽|ようがく} (Western music), {新製品|しんせいひん} (new product), {付属品|ふぞくひん} (accessories), {別売|べつう}り (sold separately), {買|か}い{値|ね} (purchase price), {理事会|りじかい} (board of directors), {生命|せいめい}{保険|ほけん} (life insurance), {産業|さんぎょう}{革命|かくめい} (Industrial Revolution), {百貨店|ひゃっかてん} (department store), {裏門|うらもん} (back gate), {小心者|しょうしんもの} (coward), {正真正銘|しょうしんしょうめい} (genuine), お{化|ば}け{屋敷|やしき} (haunted house), {受験生|じゅけんせい} (exam student), くちばし (beak), {人事|じんじ}{異動|いどう} (personnel reshuffle), {撮|と}り{直|なお}し (retake), {予断|よだん} (prejudgment), {患部|かんぶ} (affected area), {微塵|みじん} (tiny particle / not at all), {序列|じょれつ} (hierarchy), {再利用|さいりよう} (reuse)
+- **Nouns/Suru verbs (7)**: {激変|げきへん} (drastic change), {分散|ぶんさん} (dispersion), {気疲|きづか}れ (mental fatigue), {介助|かいじょ} (caregiving), {切|き}り{盛|も}り (managing), {熱望|ねつぼう} (ardent desire), {除草|じょそう} (weeding)
+- **Nouns/Na-adjectives (4)**: {無知|むち} (ignorance), {軽|かる}はずみ (rashness), {気弱|きよわ} (timid), {半透明|はんとうめい} (translucent)
+- **Na-adjective (1)**: {体系的|たいけいてき} (systematic)
+- **Noun (1)**: {単身|たんしん}{赴任|ふにん} (living away from family for work)
+
+Notable features:
+- Multi-sense entries: {分散|ぶんさん} (2 senses), {微塵|みじん} (2 senses)
+- Cultural: {単身|たんしん}{赴任|ふにん}, {受験生|じゅけんせい}, {百貨店|ひゃっかてん}, お{化|ば}け{屋敷|やしき}
+- Business/Finance: {生命|せいめい}{保険|ほけん}, {買|か}い{値|ね}, {理事会|りじかい}, {人事|じんじ}{異動|いどう}, {序列|じょれつ}
+- Medical/Health: {患部|かんぶ}, {介助|かいじょ}
+- Homophone cross-references added for: {無知|むち}/{無恥|むち}, {予断|よだん}/{余談|よだん}, {除草|じょそう}/{助走|じょそう}/{女装|じょそう}, {患部|かんぶ}/{幹部|かんぶ}
+
+Total entries: ~18,428 → ~18,463 (approximate)
+Remaining candidates: ~5,736 → ~5,701 (35 removed as entries)
+
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 477)
 Added 35 new dictionary entries (IDs 18584-18618) from candidate_words.json.
 
