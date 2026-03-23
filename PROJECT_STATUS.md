@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,603 |
+| Total entries | ~18,638 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,804 (open) |
-| Candidate words | ~5,559 |
+| General tier | ~15,839 (open) |
+| Candidate words | ~5,524 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 483)
+Added 35 new dictionary entries (IDs 18794-18828) from candidate_words.json.
+
+- **Nouns (16)**: {横顔|よこがお} (profile/side view), {麻薬|まやく} (narcotic), {特価|とっか} (special price), {不作|ふさく} (bad harvest), {車種|しゃしゅ} (car model), {四隅|よすみ} (four corners), {初霜|はつしも} (first frost), {品数|しなかず} (number of items), {機内|きない} (inside aircraft), {中期|ちゅうき} (mid-term), {神殿|しんでん} (temple), {身柄|みがら} (custody), {強権|きょうけん} (authoritative power), {縦縞|たてじま} (vertical stripes), {横縞|よこじま} (horizontal stripes)
+- **Nouns/Suru verbs (8)**: {伝播|でんぱ} (propagation), {占拠|せんきょ} (occupation/seizure), {免職|めんしょく} (dismissal from post), {謹慎|きんしん} (suspension), {記帳|きちょう} (bookkeeping), {引率|いんそつ} (leading a group), {敬愛|けいあい} (respect and affection), {調剤|ちょうざい} (dispensing medicine), {自生|じせい} (growing wild), {完勝|かんしょう} (complete victory)
+- **Nouns/Na-adjective/Suru verb (1)**: {無心|むしん} (innocence/absorption/begging)
+- **Na-adjective (2)**: {辛口|からくち} (dry/spicy/harsh), {立体|りったい} (three-dimensional), {貧相|ひんそう} (poor-looking)
+- **Other (2)**: {空咳|からせき} (dry cough), {遅番|おそばん} (late shift), {渋面|じゅうめん} (grimace), {体面|たいめん} (honor/prestige), あざ (bruise/birthmark)
+- **Multi-sense entries**: {辛口|からくち} (3), {無心|むしん} (3), {空咳|からせき} (2), {横顔|よこがお} (2), {麻薬|まやく} (2), {立体|りったい} (2), {謹慎|きんしん} (2), {記帳|きちょう} (2), あざ (2)
+- **Paired entries**: {縦縞|たてじま}/{横縞|よこじま}, {完勝|かんしょう}/{完敗|かんぱい}
+
+Total entries: ~18,603 → ~18,638 (approximate)
+Remaining candidates: ~5,559 → ~5,524 (35 removed as entries)
 
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 482)
 Added 35 new dictionary entries (IDs 18759-18793) from candidate_words.json.
@@ -130,25 +144,6 @@ Notable features:
 
 Total entries: ~18,463 → ~18,498 (approximate)
 Remaining candidates: ~5,701 → ~5,666 (35 removed as entries)
-
-### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 478)
-Added 35 new dictionary entries (IDs 18619-18653) from candidate_words.json.
-
-- **Nouns (22)**: {洋楽|ようがく} (Western music), {新製品|しんせいひん} (new product), {付属品|ふぞくひん} (accessories), {別売|べつう}り (sold separately), {買|か}い{値|ね} (purchase price), {理事会|りじかい} (board of directors), {生命|せいめい}{保険|ほけん} (life insurance), {産業|さんぎょう}{革命|かくめい} (Industrial Revolution), {百貨店|ひゃっかてん} (department store), {裏門|うらもん} (back gate), {小心者|しょうしんもの} (coward), {正真正銘|しょうしんしょうめい} (genuine), お{化|ば}け{屋敷|やしき} (haunted house), {受験生|じゅけんせい} (exam student), くちばし (beak), {人事|じんじ}{異動|いどう} (personnel reshuffle), {撮|と}り{直|なお}し (retake), {予断|よだん} (prejudgment), {患部|かんぶ} (affected area), {微塵|みじん} (tiny particle / not at all), {序列|じょれつ} (hierarchy), {再利用|さいりよう} (reuse)
-- **Nouns/Suru verbs (7)**: {激変|げきへん} (drastic change), {分散|ぶんさん} (dispersion), {気疲|きづか}れ (mental fatigue), {介助|かいじょ} (caregiving), {切|き}り{盛|も}り (managing), {熱望|ねつぼう} (ardent desire), {除草|じょそう} (weeding)
-- **Nouns/Na-adjectives (4)**: {無知|むち} (ignorance), {軽|かる}はずみ (rashness), {気弱|きよわ} (timid), {半透明|はんとうめい} (translucent)
-- **Na-adjective (1)**: {体系的|たいけいてき} (systematic)
-- **Noun (1)**: {単身|たんしん}{赴任|ふにん} (living away from family for work)
-
-Notable features:
-- Multi-sense entries: {分散|ぶんさん} (2 senses), {微塵|みじん} (2 senses)
-- Cultural: {単身|たんしん}{赴任|ふにん}, {受験生|じゅけんせい}, {百貨店|ひゃっかてん}, お{化|ば}け{屋敷|やしき}
-- Business/Finance: {生命|せいめい}{保険|ほけん}, {買|か}い{値|ね}, {理事会|りじかい}, {人事|じんじ}{異動|いどう}, {序列|じょれつ}
-- Medical/Health: {患部|かんぶ}, {介助|かいじょ}
-- Homophone cross-references added for: {無知|むち}/{無恥|むち}, {予断|よだん}/{余談|よだん}, {除草|じょそう}/{助走|じょそう}/{女装|じょそう}, {患部|かんぶ}/{幹部|かんぶ}
-
-Total entries: ~18,428 → ~18,463 (approximate)
-Remaining candidates: ~5,736 → ~5,701 (35 removed as entries)
 
 ---
 
