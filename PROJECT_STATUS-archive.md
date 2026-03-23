@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 480)
+Added 35 new dictionary entries (IDs 18689-18723) from candidate_words.json.
+
+- **Verbs (11)**: {拭|ふ}き{取|と}る (wipe off), {追|お}い{返|かえ}す (send away), {焦|じ}らす (tease), {慣|な}れ{親|した}しむ (become familiar), {解|ほど}ける (come untied), やり{過|す}ごす (let pass), {消|き}え{失|う}せる (vanish), {充|あ}てる (allocate), {履|は}き{違|ちが}える (misinterpret), {追|お}い{落|お}とす (oust), {立|た}ちすくむ (stand frozen)
+- **Suru verbs (3)**: {推奨|すいしょう}する (recommend), {不自由|ふじゆう}する (lack), {東奔西走|とうほんせいそう} (rush about)
+- **Expressions (8)**: {契約|けいやく}を{結|むす}ぶ (sign contract), {高|たか}を{括|くく}る (underestimate), {職|しょく}に{就|つ}く (get a job), {足|あし}がすくむ (frozen with fear), {時間|じかん}を{割|さ}く (spare time), {共|とも}にする (share), {正体|しょうたい}を{現|あらわ}す (reveal true colors), {窮地|きゅうち}に{陥|おちい}る (fall into predicament)
+- **Nouns (6)**: {小分|こわ}け (small portions), {安産|あんざん} (easy delivery), {丸焦|まるこ}げ (burnt to a crisp), {発信力|はっしんりょく} (communication power), {差|さ}し{水|みず} (adding water), {安置|あんち} (enshrinement)
+- **Other (7)**: {多角的|たかくてき} (multilateral), {毎秒|まいびょう} (every second), {常日頃|つねひごろ} (always), {僅少|きんしょう} (very small amount), {数多|かずおお}くの (numerous), {身|み}を{寄|よ}せる (take shelter with)
+
+Total entries: ~18,498 → ~18,533 (approximate)
+Remaining candidates: ~5,666 → ~5,627 (35 removed as entries + 4 stale removed)
+
 ### 2026-03-22 (Vocabulary Expansion - 35 New Entries, Session 479)
 Added 35 new dictionary entries (IDs 18654-18688) from candidate_words.json.
 
