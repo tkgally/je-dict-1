@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "02415_hoeru_ex1",
-      "japanese": "{犬|いぬ}が{吠|ほ}える。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧{吠|ほ}える。",
       "english": "The dog barks.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "02415_hoeru_ex2",
-      "japanese": "{隣|となり}の{犬|いぬ}が{吠|ほ}えている。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧{吠|ほ}えている。",
       "english": "The neighbor's dog is barking.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "02415_hoeru_ex3",
-      "japanese": "{知|し}らない{人|ひと}が{来|く}ると、{犬|いぬ}が{吠|ほ}える。",
+      "japanese": "⟦{知|し}らない→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧⟦と→と：00512_to⟧、⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧{吠|ほ}える。",
       "english": "When a stranger comes, the dog barks.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "02415_hoeru_ex4",
-      "japanese": "{大|おお}きな{声|こえ}で{吠|ほ}える。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧⟦{声|こえ}→声：02207_koe⟧⟦で→で：00502_de⟧{吠|ほ}える。",
       "english": "To roar in a loud voice.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "02415_hoeru_ex5",
-      "japanese": "{監督|かんとく}が{選手|せんしゅ}に{向|む}かって{吠|ほ}えた。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦{向|む}かって→向かう：01186_mukau⟧{吠|ほ}えた。",
       "english": "The coach roared at the players.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "02415_hoeru_ex6",
-      "japanese": "{負|ま}けた{相手|あいて}に{吠|ほ}えても{意味|いみ}がない。",
+      "japanese": "⟦{負|ま}けた→負ける：01134_makeru⟧⟦{相手|あいて}→相手：01677_aite⟧⟦に→に：00314_ni⟧{吠|ほ}えても⟦{意味|いみ}→意味：01155_imi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's no point in shouting at the opponent you lost to.",
       "notes": null,
       "has_audio": false,
@@ -82,8 +82,8 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T08:57:17Z",
-    "modified": "2026-02-23T02:25:49Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-03-23T06:50:23Z",
+    "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
