@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,673 |
+| Total entries | ~18,708 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~15,874 (open) |
-| Candidate words | ~5,489 |
+| General tier | ~15,909 (open) |
+| Candidate words | ~5,454 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 485)
+Added 35 new dictionary entries (IDs 18864-18898) from candidate_words.json.
+
+- **Nouns (18)**: {価格|かかく}{設定|せってい} (pricing), {志望|しぼう}{動機|どうき} (reason for applying), {書類|しょるい}{作成|さくせい} (document preparation), {標準|ひょうじゅん}{時|じ} (standard time), {予定|よてい}{変更|へんこう} (change of plans), {地球|ちきゅう}{温暖|おんだん}{化|か} (global warming), {異常|いじょう}{気象|きしょう} (abnormal weather), {派遣|はけん}{社員|しゃいん} (temporary worker), {月|げっ}{会費|かいひ} (monthly fee), {購読|こうどく}{料|りょう} (subscription fee), {固定|こてい}{給|きゅう} (fixed salary), {成果|せいか}{主義|しゅぎ} (meritocracy), {捉|とら}え{方|かた} (way of perceiving), {重|じゅう}{労働|ろうどう} (heavy labor), {緩衝|かんしょう}{材|ざい} (cushioning material), {段|だん}ボール (cardboard), {自宅|じたく}{待機|たいき} (staying at home), {再生|さいせい}{回数|かいすう} (view count)
+- **Nouns/Suru verbs (5)**: {汚名|おめい}{返上|へんじょう} (clearing one's name), {指名|しめい}{手配|てはい} (wanted list), {在宅|ざいたく}ワーク (remote work), {人道|じんどう}{支援|しえん} (humanitarian aid), {捜査|そうさ}{当局|とうきょく} (investigative authorities)
+- **Noun/Na-adjective (2)**: {意地|いじ}っ{張|ぱ}り (stubbornness), {一本調子|いっぽんちょうし} (monotone)
+- **Nouns - specialized (5)**: {在留|ざいりゅう}{資格|しかく} (residence status), {法的|ほうてき}{手段|しゅだん} (legal measures), {学歴|がくれき}{社会|しゃかい} (credential society), {社会|しゃかい}{保険|ほけん} (social insurance), {縄文|じょうもん}{時代|じだい} (Jomon period)
+- **Other nouns (2)**: {新古品|しんこひん} (like-new second-hand), {在宅|ざいたく}ワーク (WFH)
+- **Expressions (3)**: {機嫌|きげん}を{損|そこ}ねる (to offend), {振|ふ}り{出|だ}しに{戻|もど}る (back to square one), {器|うつわ}が{小|ちい}さい (small-minded)
+- **Multi-sense entry**: {息|いき}を{吹|ふ}き{返|かえ}す (2 senses - literal/figurative revival)
+
+Topics covered: business/work, environment, law, society, daily life, history
+Total entries: ~18,673 → ~18,708 (approximate)
+Remaining candidates: ~5,489 → ~5,454 (35 removed as entries + 1 stale candidate removed)
 
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 484)
 Added 35 new dictionary entries (IDs 18829-18863) from candidate_words.json.
@@ -117,29 +132,6 @@ Notable features:
 
 Total entries: ~18,533 → ~18,568 (approximate)
 Remaining candidates: ~5,627 → ~5,592 (35 removed as entries)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 480)
-Added 35 new dictionary entries (IDs 18689-18723) from candidate_words.json.
-
-- **Verbs (11)**: {拭|ふ}き{取|と}る (wipe off), {追|お}い{返|かえ}す (send away), {焦|じ}らす (tease), {慣|な}れ{親|した}しむ (become familiar), {解|ほど}ける (come untied), やり{過|す}ごす (let pass), {消|き}え{失|う}せる (vanish), {充|あ}てる (allocate), {履|は}き{違|ちが}える (misinterpret), {追|お}い{落|お}とす (oust), {立|た}ちすくむ (stand frozen)
-- **Suru verbs (3)**: {推奨|すいしょう}する (recommend), {不自由|ふじゆう}する (lack), {東奔西走|とうほんせいそう} (rush about)
-- **Ichidan verb with 2 senses (3)**: {空|あ}ける (empty/vacate), {解|ほど}ける (untie/relax), やり{過|す}ごす (let pass/overdo)
-- **Expressions (8)**: {契約|けいやく}を{結|むす}ぶ (sign contract), {高|たか}を{括|くく}る (underestimate), {職|しょく}に{就|つ}く (get a job), {足|あし}がすくむ (frozen with fear), {時間|じかん}を{割|さ}く (spare time), {共|とも}にする (share), {正体|しょうたい}を{現|あらわ}す (reveal true colors), {窮地|きゅうち}に{陥|おちい}る (fall into predicament)
-- **Nouns (6)**: {小分|こわ}け (small portions), {安産|あんざん} (easy delivery), {丸焦|まるこ}げ (burnt to a crisp), {発信力|はっしんりょく} (communication power), {差|さ}し{水|みず} (adding water), {安置|あんち} (enshrinement)
-- **Adjective-na (1)**: {多角的|たかくてき} (multilateral)
-- **Adverbs (2)**: {毎秒|まいびょう} (every second), {常日頃|つねひごろ} (always)
-- **Other (2)**: {僅少|きんしょう} (very small amount), {数多|かずおお}くの (numerous)
-- **身を寄せる (1)**: {身|み}を{寄|よ}せる (take shelter with)
-
-Notable features:
-- Multi-sense entries: {空|あ}ける (2), {解|ほど}ける (2), やり{過|す}ごす (2), {履|は}き{違|ちが}える (2), {安置|あんち} (2)
-- Idioms/Expressions: {高|たか}を{括|くく}る, {正体|しょうたい}を{現|あらわ}す, {東奔西走|とうほんせいそう}, {窮地|きゅうち}に{陥|おちい}る
-- Daily life/Cooking: {小分|こわ}け, {差|さ}し{水|みず}, {丸焦|まるこ}げ
-- Body/Emotion pairs: {足|あし}がすくむ / {立|た}ちすくむ
-- Removed 4 stale candidates (個, 枚, 冊 as counter duplicates; 捲り上げる as kanji variant of existing めくり上げる)
-
-Total entries: ~18,498 → ~18,533 (approximate)
-Remaining candidates: ~5,666 → ~5,627 (35 removed as entries + 4 stale removed)
 
 ---
 
