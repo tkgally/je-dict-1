@@ -8299,3 +8299,17 @@ Remaining candidates: 2,090 → 2,051
 See the full archive of earlier sessions in the commit history.
 
 Note: This archive was created on 2026-01-14 when PROJECT_STATUS.md was reorganized to keep only the 10 most recent change entries.
+
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 486)
+Added 35 new dictionary entries (IDs 18899-18933) from candidate_words.json.
+
+- **Nouns (15)**: {耳打|みみう}ち (whispering in ear), {麹|こうじ} (koji/malted rice), {透明感|とうめいかん} (transparency/clarity), {志望校|しぼうこう} (desired school), {審美眼|しんびがん} (aesthetic eye), {純利益|じゅんりえき} (net profit), お{汁粉|しるこ} (sweet red bean soup), {知的財産|ちてきざいさん} (intellectual property), {空|あ}き{瓶|びん} (empty bottle), {闇取引|やみとりひき} (black market deal), {日割|ひわ}り (daily rate), {香典返|こうでんがえ}し (condolence return gift), {不正解|ふせいかい} (incorrect answer), {赤|あか}ワイン (red wine), {在宅介護|ざいたくかいご} (home-based care)
+- **Nouns/Suru verbs (9)**: {再発行|さいはっこう} (reissue), {縁取|ふちど}り (bordering/edging), {再構築|さいこうちく} (reconstruction), {暗譜|あんぷ} (memorizing music), {狙|ねら}い{撃|う}ち (sniping/targeting), {機嫌取|きげんと}り (currying favor), {籠城|ろうじょう} (holing up/siege), {価格改定|かかくかいてい} (price revision), {不法投棄|ふほうとうき} (illegal dumping)
+- **Nouns (other)**: {据|す}え{置|お}き (leaving unchanged), シルエット (silhouette), {丸出|まるだ}し (fully exposed), {濃|こ}い{目|め} (on the strong side), {無断転載|むだんてんさい} (unauthorized reproduction), {今川焼|いまがわや}き (imagawayaki)
+- **Expressions (3)**: {結局|けっきょく}のところ (in the end), {脇目|わきめ}も{振|ふ}らず (single-mindedly), {一寸先|いっすんさき}は{闘|やみ} (future is unpredictable)
+- **Multi-sense entries**: {狙|ねら}い{撃|う}ち (2 senses), {籠城|ろうじょう} (2 senses)
+- New kanji added: 鍾, 麹 (IDs 02586-02587)
+
+Topics covered: food/drink, business/finance, education, law, culture, music, daily life
+Total entries: ~18,708 → ~18,743 (approximate)
+Remaining candidates: ~5,454 → ~5,418 (35 removed as entries + 1 stale candidate removed)

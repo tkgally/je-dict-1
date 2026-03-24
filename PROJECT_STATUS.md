@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 491)
+Added 35 new dictionary entries (IDs 19074-19108) from candidate_words.json.
+
+- **Nouns (15)**: {刑務所|けいむしょ} (prison), {研究所|けんきゅうじょ} (research institute), {上下関係|じょうげかんけい} (hierarchical relationship), {猛毒|もうどく} (deadly poison), {有力者|ゆうりょくしゃ} (influential person), {化石燃料|かせきねんりょう} (fossil fuel), {利|き}き{手|て} (dominant hand), {陸軍|りくぐん} (army), {立|た}ち{退|の}き (eviction), {我|わ}が{身|み} (oneself), {野犬|やけん} (stray dog), {万事|ばんじ} (everything), {塵取|ちりと}り (dustpan), {中級者|ちゅうきゅうしゃ} (intermediate-level person), {上級者|じょうきゅうしゃ} (advanced-level person)
+- **Nouns/Suru verbs (5)**: {解凍|かいとう} (thawing/decompression), {保守|ほしゅ} (conservatism/maintenance), お{披露目|ひろめ} (debut/unveiling), {再検討|さいけんとう} (re-examination), {増強|ぞうきょう} (reinforcement)
+- **Na-adjectives (3)**: {乱雑|らんざつ}な (messy), {神聖|しんせい}な (sacred), {不道徳|ふどうとく} (immoral)
+- **Adverbs (4)**: {段々|だんだん}と (gradually), {急速|きゅうそく}に (rapidly), {遠回|とおまわ}しに (indirectly), {露骨|ろこつ}に (blatantly)
+- **Nouns (specialized, 5)**: {遺言|いごん} (will/testament, legal reading), {株式会社|かぶしきがいしゃ} (corporation), {用水路|ようすいろ} (irrigation channel), {熟練工|じゅくれんこう} (skilled worker), ほうじ{茶|ちゃ} (roasted green tea)
+- **Nouns (other, 2)**: {無糖|むとう} (sugar-free), {突然変異|とつぜんへんい} (mutation)
+- **Verb (1)**: {消|き}え{去|さ}る (to vanish)
+- **Multi-sense entries**: {解凍|かいとう} (2: thawing/decompression), {保守|ほしゅ} (2: conservatism/maintenance), {突然変異|とつぜんへんい} (2: genetic mutation/figurative)
+
+Topics covered: law/justice, science, politics, food/drink, daily life, culture, communication, nature, business
+Total entries: ~18,883 → ~18,918 (approximate)
+Remaining candidates: ~5,276 → ~5,241 (35 removed as entries)
+
 ### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 490)
 Added 35 new dictionary entries (IDs 19039-19073) from candidate_words.json.
 
@@ -115,20 +131,6 @@ Added 35 new dictionary entries (IDs 18934-18968) from candidate_words.json.
 Topics covered: food/culture, crime/law, transport, nature, finance, daily life, language
 Total entries: ~18,743 → ~18,778 (approximate)
 Remaining candidates: ~5,418 → ~5,382 (35 removed as entries + 1 stale candidate removed)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 486)
-Added 35 new dictionary entries (IDs 18899-18933) from candidate_words.json.
-
-- **Nouns (15)**: {耳打|みみう}ち (whispering in ear), {麹|こうじ} (koji/malted rice), {透明感|とうめいかん} (transparency/clarity), {志望校|しぼうこう} (desired school), {審美眼|しんびがん} (aesthetic eye), {純利益|じゅんりえき} (net profit), お{汁粉|しるこ} (sweet red bean soup), {知的財産|ちてきざいさん} (intellectual property), {空|あ}き{瓶|びん} (empty bottle), {闇取引|やみとりひき} (black market deal), {日割|ひわ}り (daily rate), {香典返|こうでんがえ}し (condolence return gift), {不正解|ふせいかい} (incorrect answer), {赤|あか}ワイン (red wine), {在宅介護|ざいたくかいご} (home-based care)
-- **Nouns/Suru verbs (9)**: {再発行|さいはっこう} (reissue), {縁取|ふちど}り (bordering/edging), {再構築|さいこうちく} (reconstruction), {暗譜|あんぷ} (memorizing music), {狙|ねら}い{撃|う}ち (sniping/targeting), {機嫌取|きげんと}り (currying favor), {籠城|ろうじょう} (holing up/siege), {価格改定|かかくかいてい} (price revision), {不法投棄|ふほうとうき} (illegal dumping)
-- **Nouns (other)**: {据|す}え{置|お}き (leaving unchanged), シルエット (silhouette), {丸出|まるだ}し (fully exposed), {濃|こ}い{目|め} (on the strong side), {無断転載|むだんてんさい} (unauthorized reproduction), {今川焼|いまがわや}き (imagawayaki)
-- **Expressions (3)**: {結局|けっきょく}のところ (in the end), {脇目|わきめ}も{振|ふ}らず (single-mindedly), {一寸先|いっすんさき}は{闇|やみ} (future is unpredictable)
-- **Multi-sense entries**: {狙|ねら}い{撃|う}ち (2 senses), {籠城|ろうじょう} (2 senses)
-- New kanji added: 鍾, 麹 (IDs 02586-02587)
-
-Topics covered: food/drink, business/finance, education, law, culture, music, daily life
-Total entries: ~18,708 → ~18,743 (approximate)
-Remaining candidates: ~5,454 → ~5,418 (35 removed as entries + 1 stale candidate removed)
 
 ---
 
