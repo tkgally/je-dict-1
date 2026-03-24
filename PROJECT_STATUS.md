@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 490)
+Added 35 new dictionary entries (IDs 19039-19073) from candidate_words.json.
+
+- **Nouns (27)**: {石油|せきゆ}ストーブ (kerosene heater), {嬉|うれ}し{泣|な}き (crying for joy), {刻|きざ}み{葱|ねぎ} (chopped green onions), {一味唐辛子|いちみとうがらし} (ground chili pepper), {筆記試験|ひっきしけん} (written exam), {飲|の}み{薬|ぐすり} (oral medicine), {日|ひ}めくり (daily calendar), {米研|こめと}ぎ (rice washing), {折|お}り{返|かえ}し{地点|ちてん} (turnaround point), {手引|てび}き{書|しょ} (guidebook), {洗顔料|せんがんりょう} (facial cleanser), {借用語|しゃくようご} (loanword), {中南米|ちゅうなんべい} (Central/South America), {南半球|みなみはんきゅう} (Southern Hemisphere), {校外学習|こうがいがくしゅう} (field trip), {集団行動|しゅうだんこうどう} (group action), {商業地|しょうぎょうち} (commercial district), {原産国|げんさんこく} (country of origin), お{遍路|へんろ} (Shikoku pilgrimage), {脇|わき}の{下|した} (armpit), {月極駐車場|つきぎめちゅうしゃじょう} (monthly parking), {権威主義|けんいしゅぎ} (authoritarianism), {地方自治体|ちほうじちたい} (local government), {産業廃棄物|さんぎょうはいきぶつ} (industrial waste), {敏感肌|びんかんはだ} (sensitive skin), {留学費用|りゅうがくひよう} (study abroad expenses), {記述式|きじゅつしき} (essay-type test)
+- **Nouns (legal/government, 2)**: {最高裁判所|さいこうさいばんしょ} (Supreme Court), {人事課|じんじか} (HR department)
+- **Nouns (other, 2)**: {指揮官|しきかん} (commander), ぶどう{酒|しゅ} (wine)
+- **Noun/Suru verb (1)**: {再就職|さいしゅうしょく} (re-employment)
+- **Adverb (1)**: {一歩|いっぽ}ずつ (step by step)
+- **Time noun (1)**: {前々日|ぜんぜんじつ} (two days before)
+- **Expression (1)**: {異議|いぎ}を{唱|とな}える (to voice an objection)
+- **Multi-sense entry**: お{遍路|へんろ} (2 senses: pilgrim / pilgrimage)
+- Removed 1 stale candidate ({使|つか}い{走|ばし}り - already exists as entry)
+
+Topics covered: food, daily life, geography, education, law/government, health/skincare, culture, work
+Total entries: ~18,848 → ~18,883 (approximate)
+Remaining candidates: ~5,312 → ~5,276 (35 removed as entries + 1 stale candidate removed)
+
 ### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 489)
 Added 35 new dictionary entries (IDs 19004-19038) from candidate_words.json.
 
@@ -112,21 +129,6 @@ Added 35 new dictionary entries (IDs 18899-18933) from candidate_words.json.
 Topics covered: food/drink, business/finance, education, law, culture, music, daily life
 Total entries: ~18,708 → ~18,743 (approximate)
 Remaining candidates: ~5,454 → ~5,418 (35 removed as entries + 1 stale candidate removed)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 485)
-Added 35 new dictionary entries (IDs 18864-18898) from candidate_words.json.
-
-- **Nouns (18)**: {価格|かかく}{設定|せってい} (pricing), {志望|しぼう}{動機|どうき} (reason for applying), {書類|しょるい}{作成|さくせい} (document preparation), {標準|ひょうじゅん}{時|じ} (standard time), {予定|よてい}{変更|へんこう} (change of plans), {地球|ちきゅう}{温暖|おんだん}{化|か} (global warming), {異常|いじょう}{気象|きしょう} (abnormal weather), {派遣|はけん}{社員|しゃいん} (temporary worker), {月|げっ}{会費|かいひ} (monthly fee), {購読|こうどく}{料|りょう} (subscription fee), {固定|こてい}{給|きゅう} (fixed salary), {成果|せいか}{主義|しゅぎ} (meritocracy), {捉|とら}え{方|かた} (way of perceiving), {重|じゅう}{労働|ろうどう} (heavy labor), {緩衝|かんしょう}{材|ざい} (cushioning material), {段|だん}ボール (cardboard), {自宅|じたく}{待機|たいき} (staying at home), {再生|さいせい}{回数|かいすう} (view count)
-- **Nouns/Suru verbs (5)**: {汚名|おめい}{返上|へんじょう} (clearing one's name), {指名|しめい}{手配|てはい} (wanted list), {在宅|ざいたく}ワーク (remote work), {人道|じんどう}{支援|しえん} (humanitarian aid), {捜査|そうさ}{当局|とうきょく} (investigative authorities)
-- **Noun/Na-adjective (2)**: {意地|いじ}っ{張|ぱ}り (stubbornness), {一本調子|いっぽんちょうし} (monotone)
-- **Nouns - specialized (5)**: {在留|ざいりゅう}{資格|しかく} (residence status), {法的|ほうてき}{手段|しゅだん} (legal measures), {学歴|がくれき}{社会|しゃかい} (credential society), {社会|しゃかい}{保険|ほけん} (social insurance), {縄文|じょうもん}{時代|じだい} (Jomon period)
-- **Other nouns (2)**: {新古品|しんこひん} (like-new second-hand), {在宅|ざいたく}ワーク (WFH)
-- **Expressions (3)**: {機嫌|きげん}を{損|そこ}ねる (to offend), {振|ふ}り{出|だ}しに{戻|もど}る (back to square one), {器|うつわ}が{小|ちい}さい (small-minded)
-- **Multi-sense entry**: {息|いき}を{吹|ふ}き{返|かえ}す (2 senses - literal/figurative revival)
-
-Topics covered: business/work, environment, law, society, daily life, history
-Total entries: ~18,673 → ~18,708 (approximate)
-Remaining candidates: ~5,489 → ~5,454 (35 removed as entries + 1 stale candidate removed)
 
 ---
 
