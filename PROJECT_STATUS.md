@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-23
+**Last updated**: 2026-03-24
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~18,813 |
+| Total entries | ~19,023 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~16,014 (open) |
-| Candidate words | ~5,347 |
+| General tier | ~16,224 (open) |
+| Candidate words | ~5,135 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 494)
+Added 35 new dictionary entries (IDs 19179-19213) from candidate_words.json.
+
+- **Nouns/Suru verbs (19)**: {覚醒|かくせい} (awakening), {増量|ぞうりょう} (increase in quantity), {排泄|はいせつ} (excretion), {遮音|しゃおん} (sound insulation), {誤審|ごしん} (misjudgment), {熱唱|ねっしょう} (passionate singing), {例証|れいしょう} (exemplification), {休耕|きゅうこう} (fallow farmland), {地盤沈下|じばんちんか} (ground subsidence), {伝道|でんどう} (evangelism), {炭化|たんか} (carbonization), {打鍵|だけん} (keystroke), {私有|しゆう} (private ownership), {吸音|きゅうおん} (sound absorption), {検死|けんし} (autopsy), {執刀|しっとう} (performing surgery), {在任|ざいにん} (tenure), {戦勝|せんしょう} (war victory), {行程|こうてい} (journey/process)
+- **Nouns (11)**: {極致|きょくち} (pinnacle), {駐在所|ちゅうざいしょ} (police substation), {液状|えきじょう} (liquid state), {公職|こうしょく} (public office), {荷重|かじゅう} (load/weight), {行書|ぎょうしょ} (semi-cursive script), {草書|そうしょ} (cursive script), {情報漏洩|じょうほうろうえい} (data breach), {日本庭園|にほんていえん} (Japanese garden), {戦国時代|せんごくじだい} (Warring States period), {非常階段|ひじょうかいだん} (emergency staircase)
+- **Other (5)**: {体外|たいがい} (outside the body), {床|とこ}ずれ (bedsore), {海獣|かいじゅう} (marine mammal), {禁錮|きんこ} (imprisonment), {拙劣|せつれつ} (clumsy/poor)
+- **Multi-sense entries**: {覚醒|かくせい} (2: waking up / activation), {行程|こうてい} (2: journey / mechanical stroke), {地盤沈下|じばんちんか} (2: literal / figurative decline)
+- Removed 1 stale candidate ({却下|かっか} - wrong reading, correct reading きゃっか already exists)
+- Added 2 new kanji to index: 泄 (leak), 錮 (imprison)
+
+Topics covered: medicine, law, acoustics, calligraphy, sports, history, culture, engineering, nature
+Total entries: ~18,988 → ~19,023 (approximate)
+Remaining candidates: ~5,171 → ~5,135 (35 removed as entries + 1 stale candidate removed)
 
 ### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 493)
 Added 35 new dictionary entries (IDs 19144-19178) from candidate_words.json.
@@ -116,22 +130,6 @@ Added 35 new dictionary entries (IDs 19039-19073) from candidate_words.json.
 Topics covered: food, daily life, geography, education, law/government, health/skincare, culture, work
 Total entries: ~18,848 → ~18,883 (approximate)
 Remaining candidates: ~5,312 → ~5,276 (35 removed as entries + 1 stale candidate removed)
-
-### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 489)
-Added 35 new dictionary entries (IDs 19004-19038) from candidate_words.json.
-
-- **Nouns (16)**: {前髪|まえがみ} (bangs/fringe), {新居|しんきょ} (new home), {専門知識|せんもんちしき} (expertise), {引換券|ひきかえけん} (exchange ticket), {生卵|なまたまご} (raw egg), {熱帯雨林|ねったいうりん} (tropical rainforest), {打|う}ち{上|あ}げ{花火|はなび} (aerial fireworks), {近距離|きんきょり} (short distance), {飼|か}い{犬|いぬ} (pet dog), バニラ (vanilla), {来場者|らいじょうしゃ} (visitor), {観光|かんこう}バス (tour bus), {夕空|ゆうぞら} (evening sky), {速球|そっきゅう} (fastball), {白星|しろぼし} (win), {黄金色|こがねいろ} (golden color)
-- **Nouns/Suru verbs (7)**: {突撃|とつげき} (charge/assault), {動画配信|どうがはいしん} (video streaming), {傾聴|けいちょう} (active listening), {減少|げんしょう}する (to decrease), {礼装|れいそう} (formal dress), {押収|おうしゅう} (seizure), {相互理解|そうごりかい} (mutual understanding)
-- **Na-adjective (1)**: {経験豊富|けいけんほうふ} (highly experienced)
-- **Suru verbs (2)**: {魅了|みりょう}する (to fascinate), {想定|そうてい}する (to assume)
-- **Noun (other, 5)**: {四六時中|しろくじちゅう} (around the clock - adverb), {新生活|しんせいかつ} (new life), {箱詰|はこづ}め (boxed), {中腹|ちゅうふく} (mountainside), {惨劇|さんげき} (tragedy)
-- **Verbs (2)**: {真|ま}に{受|う}ける (to take at face value), {奪|うば}い{取|と}る (to snatch away)
-- **Noun (1)**: {外車|がいしゃ} (foreign car), {天然|てんねん}ガス (natural gas)
-- **Multi-sense entries**: {突撃|とつげき} (2 senses: military charge / surprise visit)
-
-Topics covered: daily life, sports, food, nature, travel, media, law, communication
-Total entries: ~18,813 → ~18,848 (approximate)
-Remaining candidates: ~5,347 → ~5,312 (35 removed as entries)
 
 ---
 
