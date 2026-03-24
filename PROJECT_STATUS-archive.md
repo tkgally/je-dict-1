@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 485)
+Added 35 new dictionary entries (IDs 18864-18898) from candidate_words.json.
+
+- **Nouns (18)**: {価格|かかく}{設定|せってい} (pricing), {志望|しぼう}{動機|どうき} (reason for applying), {書類|しょるい}{作成|さくせい} (document preparation), {標準|ひょうじゅん}{時|じ} (standard time), {予定|よてい}{変更|へんこう} (change of plans), {地球|ちきゅう}{温暖|おんだん}{化|か} (global warming), {異常|いじょう}{気象|きしょう} (abnormal weather), {派遣|はけん}{社員|しゃいん} (temporary worker), {月|げっ}{会費|かいひ} (monthly fee), {購読|こうどく}{料|りょう} (subscription fee), {固定|こてい}{給|きゅう} (fixed salary), {成果|せいか}{主義|しゅぎ} (meritocracy), {捉|とら}え{方|かた} (way of perceiving), {重|じゅう}{労働|ろうどう} (heavy labor), {緩衝|かんしょう}{材|ざい} (cushioning material), {段|だん}ボール (cardboard), {自宅|じたく}{待機|たいき} (staying at home), {再生|さいせい}{回数|かいすう} (view count)
+- **Nouns/Suru verbs (5)**: {汚名|おめい}{返上|へんじょう} (clearing one's name), {指名|しめい}{手配|てはい} (wanted list), {在宅|ざいたく}ワーク (remote work), {人道|じんどう}{支援|しえん} (humanitarian aid), {捜査|そうさ}{当局|とうきょく} (investigative authorities)
+- **Noun/Na-adjective (2)**: {意地|いじ}っ{張|ぱ}り (stubbornness), {一本調子|いっぽんちょうし} (monotone)
+- **Nouns - specialized (5)**: {在留|ざいりゅう}{資格|しかく} (residence status), {法的|ほうてき}{手段|しゅだん} (legal measures), {学歴|がくれき}{社会|しゃかい} (credential society), {社会|しゃかい}{保険|ほけん} (social insurance), {縄文|じょうもん}{時代|じだい} (Jomon period)
+- **Other nouns (2)**: {新古品|しんこひん} (like-new second-hand), {在宅|ざいたく}ワーク (WFH)
+- **Expressions (3)**: {機嫌|きげん}を{損|そこ}ねる (to offend), {振|ふ}り{出|だ}しに{戻|もど}る (back to square one), {器|うつわ}が{小|ちい}さい (small-minded)
+- **Multi-sense entry**: {息|いき}を{吹|ふ}き{返|かえ}す (2 senses - literal/figurative revival)
+
+Topics covered: business/work, environment, law, society, daily life, history
+Total entries: ~18,673 → ~18,708 (approximate)
+Remaining candidates: ~5,489 → ~5,454 (35 removed as entries + 1 stale candidate removed)
+
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 483)
 Added 35 new dictionary entries (IDs 18794-18828) from candidate_words.json.
 
