@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 493)
+Added 35 new dictionary entries (IDs 19144-19178) from candidate_words.json.
+
+- **Nouns (22)**: {都内|とない} (within Tokyo), {握|にぎ}り{寿司|ずし} (nigiri sushi), {熱帯魚|ねったいぎょ} (tropical fish), お{札|さつ} (banknote), {結納|ゆいのう} (betrothal gifts), {失点|しってん} (points lost), {班長|はんちょう} (group leader), {噴煙|ふんえん} (volcanic smoke), {薬学|やくがく} (pharmacy), {句点|くてん} (period/full stop), {食用油|しょくようゆ} (cooking oil), {交際費|こうさいひ} (entertainment expenses), {加盟国|かめいこく} (member state), {盛夏|せいか} (midsummer), {受取人|うけとりにん} (recipient), {遺骨|いこつ} (remains), {霊園|れいえん} (cemetery), {敷石|しきいし} (paving stone), {常備菜|じょうびさい} (make-ahead side dish), {制汗剤|せいかんざい} (antiperspirant), {砲弾|ほうだん} (shell/cannonball), {植物油|しょくぶつゆ} (vegetable oil)
+- **Nouns/Suru verbs (7)**: {入籍|にゅうせき} (marriage registration), {追撃|ついげき} (pursuit), {布陣|ふじん} (formation), {出陣|しゅつじん} (going to battle), {同一視|どういつし} (equating), {脇見|わきみ} (looking away), {首謀者|しゅぼうしゃ} (ringleader)
+- **Na-adjectives (2)**: {生理的|せいりてき} (physiological/visceral), {基礎的|きそてき} (fundamental)
+- **Nouns (other, 2)**: {事務官|じむかん} (administrative official), {霜害|そうがい} (frost damage)
+- **Adverb (1)**: {第一|だいいち}に (firstly)
+- **Noun with cultural note (1)**: {動乱|どうらん} (upheaval)
+- **Multi-sense entries**: {生理的|せいりてき} (2 senses: physiological / visceral aversion)
+
+Topics covered: geography, food, culture, sports, government, science, daily life, agriculture, military
+Total entries: ~18,953 → ~18,988 (approximate)
+Remaining candidates: ~5,205 → ~5,171 (35 removed as entries)
+
 ### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 492)
 Added 35 new dictionary entries (IDs 19109-19143) from candidate_words.json.
 
@@ -117,22 +132,6 @@ Added 35 new dictionary entries (IDs 19004-19038) from candidate_words.json.
 Topics covered: daily life, sports, food, nature, travel, media, law, communication
 Total entries: ~18,813 → ~18,848 (approximate)
 Remaining candidates: ~5,347 → ~5,312 (35 removed as entries)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 488)
-Added 35 new dictionary entries (IDs 18969-19003) from candidate_words.json.
-
-- **Nouns (11)**: {燃費|ねんぴ} (fuel efficiency), {時短|じたん} (time-saving), {節分|せつぶん} (Setsubun), {貯蓄|ちょちく} (savings), {終戦|しゅうせん} (end of war), {条項|じょうこう} (clause/provision), {品位|ひんい} (dignity), {横丁|よこちょう} (side street), {茶柱|ちゃばしら} (tea stalk - good omen), {複写|ふくしゃ} (copying), {未納|みのう} (unpaid)
-- **Nouns with 2 senses (4)**: {戦力|せんりょく} (military strength / key player), {目録|もくろく} (catalog / gift list), {役柄|やくがら} (acting role / nature of position), {放火|ほうか} (arson)
-- **Na-adjectives (3)**: {露骨|ろこつ} (blatant), {低俗|ていぞく} (vulgar), {卑猥|ひわい} (obscene)
-- **I-adjectives (5)**: {手|て}ごわい (tough/formidable), {寝苦|ねぐる}しい (hard to sleep), {慎|つつま}ましい (modest/humble), {物悲|ものかな}しい (melancholy), {華々|はなばな}しい (splendid)
-- **Suru verbs (8)**: {辞退|じたい}する (decline), {承諾|しょうだく}する (consent), {投稿|とうこう}する (post online), {拡散|かくさん}する (spread/go viral), {執行|しっこう} (enforcement), {向上|こうじょう}する (improve), {中断|ちゅうだん}する (interrupt), {操作|そうさ}する (operate/manipulate)
-- **Noun/Suru verbs with legal domain (2)**: {共謀|きょうぼう} (conspiracy), {提訴|ていそ} (filing lawsuit)
-- **Multi-sense entries**: {戦力|せんりょく} (2), {目録|もくろく} (2), {役柄|やくがら} (2), {投稿|とうこう}する (2), {拡散|かくさん}する (2), {操作|そうさ}する (2)
-- New kanji added: 猥 (ID 02588)
-
-Topics covered: law/legal, daily life, culture, media/technology, finance, food, weather, entertainment
-Total entries: ~18,778 → ~18,813 (approximate)
-Remaining candidates: ~5,382 → ~5,347 (35 removed as entries)
 
 ---
 
