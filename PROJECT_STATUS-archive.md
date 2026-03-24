@@ -3,6 +3,22 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 487)
+Added 35 new dictionary entries (IDs 18934-18968) from candidate_words.json.
+
+- **Nouns (16)**: {霜降|しもふ}り (marbled meat), {泣|な}き{顔|がお} (tearful face), {格言|かくげん} (maxim), {出迎|でむか}え (greeting on arrival), {販売員|はんばいいん} (salesperson), {容貌|ようぼう} (facial features), {車線|しゃせん} (traffic lane), {依頼人|いらいにん} (client), {赤飯|せきはん} (red bean rice), {手錠|てじょう} (handcuffs), {証書|しょうしょ} (certificate), {水門|すいもん} (floodgate), {砂遊|すなあそ}び (sand play), {原材料|げんざいりょう} (raw materials), {笹|ささ}の{葉|は} (bamboo leaves), {格安航空会社|かくやすこうくうがいしゃ} (budget airline)
+- **Nouns/Suru verbs (9)**: {断念|だんねん} (giving up), {力説|りきせつ} (emphasizing), {消去|しょうきょ} (deletion), {消灯|しょうとう} (lights out), {完済|かんさい} (full repayment), {熟慮|じゅくりょ} (deliberation), {羽化|うか} (insect emergence), {推理|すいり} (deduction), {尾行|びこう} (tailing)
+- **Nouns (other, 5)**: {和製英語|わせいえいご} (Japanese-coined English), {屋内|おくない} (indoors), {完売|かんばい} (sold out), {書|か}き{換|か}え (rewriting), {発芽|はつが} (germination), {養鶏|ようけい} (poultry farming)
+- **Na-adjective (2)**: {端麗|たんれい} (graceful), {野蛮|やばん} (barbaric)
+- **I-adjective (1)**: {辛抱強|しんぼうづよ}い (patient)
+- **Noun (culture, 1)**: {自動改札|じどうかいさつ} (automatic ticket gate)
+- **Multi-sense entries**: {霜降|しもふ}り (2 senses), {書|か}き{換|か}え (2 senses)
+- Removed 1 stale candidate (無頓着な - already exists as entry)
+
+Topics covered: food/culture, crime/law, transport, nature, finance, daily life, language
+Total entries: ~18,743 → ~18,778 (approximate)
+Remaining candidates: ~5,418 → ~5,382 (35 removed as entries + 1 stale candidate removed)
+
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 485)
 Added 35 new dictionary entries (IDs 18864-18898) from candidate_words.json.
 

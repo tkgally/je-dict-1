@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 492)
+Added 35 new dictionary entries (IDs 19109-19143) from candidate_words.json.
+
+- **Nouns (17)**: {冷|ひ}や{汗|あせ} (cold sweat), {得票|とくひょう} (votes obtained), {隣国|りんごく} (neighboring country), {開票|かいひょう} (ballot counting), {海抜|かいばつ} (above sea level), {前方|ぜんぽう} (front/forward), {後方|こうほう} (rear/behind), パンフレット (pamphlet), {諸説|しょせつ} (various theories), {夕闇|ゆうやみ} (evening darkness), お{姫様|ひめさま} (princess), {登山道|とざんどう} (mountain trail), {夕凪|ゆうなぎ} (evening calm), {遺書|いしょ} (will/testament), {身|み}の{上話|うえばなし} (life story), {博愛|はくあい} (philanthropy), {大将|たいしょう} (general/boss)
+- **Nouns/Suru verbs (5)**: {審議|しんぎ} (deliberation), {放任|ほうにん} (laissez-faire), {急展開|きゅうてんかい} (sudden development), {拘泥|こうでい} (fixation), {甘受|かんじゅ} (acceptance)
+- **Nouns/Na-adjectives (5)**: {切|き}れ{味|あじ} (sharpness), {少|すく}なめ (somewhat less), {安上|やすあ}がり (inexpensive), {軽量|けいりょう} (lightweight), {泥|どろ}まみれ (covered in mud)
+- **Na-adjective (1)**: {安直|あんちょく} (cheap/simplistic)
+- **Adjective-no (1)**: {無農薬|むのうやく} (pesticide-free)
+- **I-adjectives (2)**: {途方|とほう}もない (extraordinary), {親|した}しみやすい (approachable)
+- **Nouns (seasonal, 2)**: {冬休|ふゆやす}み (winter break), {春休|はるやす}み (spring break)
+- **Other (2)**: {行|い}きつけ (regular place), {説法|せっぽう} (sermon/preaching)
+- **Multi-sense entries**: {切|き}れ{味|あじ} (2), {安直|あんちょく} (2), {遺書|いしょ} (2), お{姫様|ひめさま} (2), {大将|たいしょう} (2), {途方|とほう}もない (2), {説法|せっぽう} (2)
+- Removed 1 stale candidate ({問屋|どんや} - variant reading of existing {問屋|とんや} entry)
+
+Topics covered: politics, nature, geography, food, daily life, culture, emotions, language
+Total entries: ~18,918 → ~18,953 (approximate)
+Remaining candidates: ~5,241 → ~5,205 (35 removed as entries + 1 stale candidate removed)
+
 ### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 491)
 Added 35 new dictionary entries (IDs 19074-19108) from candidate_words.json.
 
@@ -115,22 +133,6 @@ Added 35 new dictionary entries (IDs 18969-19003) from candidate_words.json.
 Topics covered: law/legal, daily life, culture, media/technology, finance, food, weather, entertainment
 Total entries: ~18,778 → ~18,813 (approximate)
 Remaining candidates: ~5,382 → ~5,347 (35 removed as entries)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 487)
-Added 35 new dictionary entries (IDs 18934-18968) from candidate_words.json.
-
-- **Nouns (16)**: {霜降|しもふ}り (marbled meat), {泣|な}き{顔|がお} (tearful face), {格言|かくげん} (maxim), {出迎|でむか}え (greeting on arrival), {販売員|はんばいいん} (salesperson), {容貌|ようぼう} (facial features), {車線|しゃせん} (traffic lane), {依頼人|いらいにん} (client), {赤飯|せきはん} (red bean rice), {手錠|てじょう} (handcuffs), {証書|しょうしょ} (certificate), {水門|すいもん} (floodgate), {砂遊|すなあそ}び (sand play), {原材料|げんざいりょう} (raw materials), {笹|ささ}の{葉|は} (bamboo leaves), {格安航空会社|かくやすこうくうがいしゃ} (budget airline)
-- **Nouns/Suru verbs (9)**: {断念|だんねん} (giving up), {力説|りきせつ} (emphasizing), {消去|しょうきょ} (deletion), {消灯|しょうとう} (lights out), {完済|かんさい} (full repayment), {熟慮|じゅくりょ} (deliberation), {羽化|うか} (insect emergence), {推理|すいり} (deduction), {尾行|びこう} (tailing)
-- **Nouns (other, 5)**: {和製英語|わせいえいご} (Japanese-coined English), {屋内|おくない} (indoors), {完売|かんばい} (sold out), {書|か}き{換|か}え (rewriting), {発芽|はつが} (germination), {養鶏|ようけい} (poultry farming)
-- **Na-adjective (2)**: {端麗|たんれい} (graceful), {野蛮|やばん} (barbaric)
-- **I-adjective (1)**: {辛抱強|しんぼうづよ}い (patient)
-- **Noun (culture, 1)**: {自動改札|じどうかいさつ} (automatic ticket gate)
-- **Multi-sense entries**: {霜降|しもふ}り (2 senses), {書|か}き{換|か}え (2 senses)
-- Removed 1 stale candidate (無頓着な - already exists as entry)
-
-Topics covered: food/culture, crime/law, transport, nature, finance, daily life, language
-Total entries: ~18,743 → ~18,778 (approximate)
-Remaining candidates: ~5,418 → ~5,382 (35 removed as entries + 1 stale candidate removed)
 
 ---
 
