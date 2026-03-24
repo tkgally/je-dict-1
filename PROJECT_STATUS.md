@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 489)
+Added 35 new dictionary entries (IDs 19004-19038) from candidate_words.json.
+
+- **Nouns (16)**: {前髪|まえがみ} (bangs/fringe), {新居|しんきょ} (new home), {専門知識|せんもんちしき} (expertise), {引換券|ひきかえけん} (exchange ticket), {生卵|なまたまご} (raw egg), {熱帯雨林|ねったいうりん} (tropical rainforest), {打|う}ち{上|あ}げ{花火|はなび} (aerial fireworks), {近距離|きんきょり} (short distance), {飼|か}い{犬|いぬ} (pet dog), バニラ (vanilla), {来場者|らいじょうしゃ} (visitor), {観光|かんこう}バス (tour bus), {夕空|ゆうぞら} (evening sky), {速球|そっきゅう} (fastball), {白星|しろぼし} (win), {黄金色|こがねいろ} (golden color)
+- **Nouns/Suru verbs (7)**: {突撃|とつげき} (charge/assault), {動画配信|どうがはいしん} (video streaming), {傾聴|けいちょう} (active listening), {減少|げんしょう}する (to decrease), {礼装|れいそう} (formal dress), {押収|おうしゅう} (seizure), {相互理解|そうごりかい} (mutual understanding)
+- **Na-adjective (1)**: {経験豊富|けいけんほうふ} (highly experienced)
+- **Suru verbs (2)**: {魅了|みりょう}する (to fascinate), {想定|そうてい}する (to assume)
+- **Noun (other, 5)**: {四六時中|しろくじちゅう} (around the clock - adverb), {新生活|しんせいかつ} (new life), {箱詰|はこづ}め (boxed), {中腹|ちゅうふく} (mountainside), {惨劇|さんげき} (tragedy)
+- **Verbs (2)**: {真|ま}に{受|う}ける (to take at face value), {奪|うば}い{取|と}る (to snatch away)
+- **Noun (1)**: {外車|がいしゃ} (foreign car), {天然|てんねん}ガス (natural gas)
+- **Multi-sense entries**: {突撃|とつげき} (2 senses: military charge / surprise visit)
+
+Topics covered: daily life, sports, food, nature, travel, media, law, communication
+Total entries: ~18,813 → ~18,848 (approximate)
+Remaining candidates: ~5,347 → ~5,312 (35 removed as entries)
+
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 488)
 Added 35 new dictionary entries (IDs 18969-19003) from candidate_words.json.
 
@@ -111,23 +127,6 @@ Added 35 new dictionary entries (IDs 18864-18898) from candidate_words.json.
 Topics covered: business/work, environment, law, society, daily life, history
 Total entries: ~18,673 → ~18,708 (approximate)
 Remaining candidates: ~5,489 → ~5,454 (35 removed as entries + 1 stale candidate removed)
-
-### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 484)
-Added 35 new dictionary entries (IDs 18829-18863) from candidate_words.json.
-
-- **Interjection (1)**: いらっしゃいませ (welcome)
-- **Nouns (12)**: {仕事場|しごとば} (workplace), {煮付|につ}け (simmered dish), {代休|だいきゅう} (compensatory day off), {入社式|にゅうしゃしき} (company entrance ceremony), {食器洗|しょっきあら}い (dishwashing), {閉塞感|へいそくかん} (sense of stagnation), {震|ふる}え (shiver/tremor), {飢餓|きが} (hunger/famine), {個人情報|こじんじょうほう} (personal information), お{知|し}らせ (notice), {証人|しょうにん} (witness), {入門書|にゅうもんしょ} (introductory book)
-- **Nouns/Suru verbs (7)**: {紛失|ふんしつ}する (to lose), {悪化|あっか}する (to worsen), {封鎖|ふうさ} (blockade), {増設|ぞうせつ} (expansion), {習得|しゅうとく}する (to master), {自滅|じめつ} (self-destruction), {閉館|へいかん} (closing of facility)
-- **Nouns/Suru verbs (2)**: {休館|きゅうかん} (temporary closure), {処方薬|しょほうやく} (prescription medicine)
-- **Na-adjectives (2)**: {簡明|かんめい} (concise and clear), ちぐはぐ (mismatched)
-- **Godan verbs (2)**: {飲|の}み{交|か}わす (to drink together), {後|あと}ずさる (to back away)
-- **Adverb (1)**: {即刻|そっこく} (immediately)
-- **Expressions (5)**: {夢中|むちゅう}になる (to become absorbed), {目|め}が{合|あ}う (to make eye contact), {目|め}をそむける (to avert one's eyes), どうしようもない (helpless/hopeless), {失敬|しっけい} (rude/excuse me)
-- **Other nouns (3)**: {流|なが}し (kitchen sink/cruising taxi), {星占|ほしうらな}い (horoscope), {郷里|きょうり} (hometown)
-- **Multi-sense entries**: {失敬|しっけい} (2), {流|なが}し (2), どうしようもない (2), {閉館|へいかん} (2)
-
-Total entries: ~18,638 → ~18,673 (approximate)
-Remaining candidates: ~5,524 → ~5,489 (35 removed as entries)
 
 ---
 
