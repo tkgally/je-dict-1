@@ -3,6 +3,22 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 488)
+Added 35 new dictionary entries (IDs 18969-19003) from candidate_words.json.
+
+- **Nouns (11)**: {燃費|ねんぴ} (fuel efficiency), {時短|じたん} (time-saving), {節分|せつぶん} (Setsubun), {貯蓄|ちょちく} (savings), {終戦|しゅうせん} (end of war), {条項|じょうこう} (clause/provision), {品位|ひんい} (dignity), {横丁|よこちょう} (side street), {茶柱|ちゃばしら} (tea stalk - good omen), {複写|ふくしゃ} (copying), {未納|みのう} (unpaid)
+- **Nouns with 2 senses (4)**: {戦力|せんりょく} (military strength / key player), {目録|もくろく} (catalog / gift list), {役柄|やくがら} (acting role / nature of position), {放火|ほうか} (arson)
+- **Na-adjectives (3)**: {露骨|ろこつ} (blatant), {低俗|ていぞく} (vulgar), {卑猥|ひわい} (obscene)
+- **I-adjectives (5)**: {手|て}ごわい (tough/formidable), {寝苦|ねぐる}しい (hard to sleep), {慎|つつま}ましい (modest/humble), {物悲|ものかな}しい (melancholy), {華々|はなばな}しい (splendid)
+- **Suru verbs (8)**: {辞退|じたい}する (decline), {承諾|しょうだく}する (consent), {投稿|とうこう}する (post online), {拡散|かくさん}する (spread/go viral), {執行|しっこう} (enforcement), {向上|こうじょう}する (improve), {中断|ちゅうだん}する (interrupt), {操作|そうさ}する (operate/manipulate)
+- **Noun/Suru verbs with legal domain (2)**: {共謀|きょうぼう} (conspiracy), {提訴|ていそ} (filing lawsuit)
+- **Multi-sense entries**: {戦力|せんりょく} (2), {目録|もくろく} (2), {役柄|やくがら} (2), {投稿|とうこう}する (2), {拡散|かくさん}する (2), {操作|そうさ}する (2)
+- New kanji added: 猥 (ID 02588)
+
+Topics covered: law/legal, daily life, culture, media/technology, finance, food, weather, entertainment
+Total entries: ~18,778 → ~18,813 (approximate)
+Remaining candidates: ~5,382 → ~5,347 (35 removed as entries)
+
 ### 2026-03-23 (Vocabulary Expansion - 35 New Entries, Session 487)
 Added 35 new dictionary entries (IDs 18934-18968) from candidate_words.json.
 
