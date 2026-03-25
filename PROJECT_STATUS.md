@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-25 (Noentry Link Polish - 25 New Entries + 18 Link Fixes)
+Created 25 new dictionary entries (IDs 19367-19391) for words marked `noentry` in inline links, and updated 18 existing-entry links.
+
+- **Link-only fixes (18 words)**: Updated noentry links to existing entries for かかる, 白, 風呂, 咲く, 宝くじ, 赤ちゃん, パソコン, トマト, おにぎり, 家族, 見つかる, 国旗, 犠牲者, 物腰, 王, 罰金, バラ, ひまわり
+- **New verb entries (6)**: {受|う}かる (to pass exam), {治|なお}す (to cure), {離|はな}す (to separate), {交|か}わす (to exchange), {冒|おか}す (to brave/risk), {剥|む}ける (to peel off)
+- **New adjective entries (2)**: {思|おも}いがけない (unexpected), {真|ま}ん{丸|まる} (perfectly round)
+- **New noun entries (17)**: {説明書|せつめいしょ}, {江戸|えど}, {餌食|えじき}, {経済学|けいざいがく}, {第一|だいいち}, {科学者|かがくしゃ}, {人前|ひとまえ}, {営業部|えいぎょうぶ}, {今日中|きょうじゅう}, {飛行士|ひこうし}, {安全性|あんぜんせい}, {委員長|いいんちょう}, {危害|きがい}, {日|ひ}の{丸|まる}, {木刀|ぼくとう}, {雀蜂|すずめばち}, {松竹梅|しょうちくばい}
+- Total noentry links resolved: ~60 links across ~55 entry files
+
 ### 2026-03-25 (Vocabulary Expansion - 30 New Entries, Session 500)
 Added 30 new dictionary entries (IDs 19337-19366) from candidate_words.json. A diverse mix of single-kanji words, common nouns, verbs, and expressions.
 
@@ -103,18 +112,6 @@ Topics covered: food, directions, education, business, animals, health, science,
 Total entries: ~19,085 → ~19,105 (approximate)
 Remaining candidates: ~5,072 → ~5,052 (20 entries created)
 
-### 2026-03-25 (Vocabulary Expansion - 27 New Entries, Session 496)
-Added 27 new dictionary entries (IDs 19249-19278) from candidate_words.json. Three candidates (限定, 拒絶, 抽出) were discovered as duplicates during validation and removed.
-
-- **Nouns (11)**: {売|う}れ{筋|すじ} (best seller), {軽装|けいそう} (light clothing), {日刊|にっかん} (daily publication), {日当|にっとう} (daily allowance), {採寸|さいすん} (taking measurements), {万人|ばんにん}{受|う}け (mass appeal), {居住地|きょじゅうち} (place of residence), {俗説|ぞくせつ} (popular belief), {中編|ちゅうへん} (novella), {商号|しょうごう} (trade name), {最高潮|さいこうちょう} (climax)
-- **Verbs/Expressions (9)**: {吹|ふ}っ{切|き}れる (to get over it), {思|おも}い{当|あ}たる (to come to mind), {買|か}い{叩|たた}く (to beat down price), {掛|か}け{違|ちが}える (to button wrongly/misunderstand), {浮|う}き{足|あし}{立|だ}つ (to panic), {振|ふ}り{出|だ}す (to issue), {一目|いちもく}{置|お}く (to acknowledge superiority), {感|かん}{極|きわ}まる (to be overcome with emotion), {板|いた}に{着|つ}く (to suit one well)
-- **Adjective/Adverb (4)**: {常識的|じょうしきてき} (sensible), {何気|なにげ}なく (casually), {一端|いっぱし} (full-fledged), {汗|あせ}っかき (heavy sweater)
-- **Other (3)**: {昼|ひる}どき (lunchtime), {定石|じょうせき} (standard approach), {平生|へいぜい} (ordinarily)
-- **Multi-sense entries**: {限定|げんてい} duplicate removed, {掛|か}け{違|ちが}える (2: literal button/figurative misunderstanding), {中編|ちゅうへん} (2: novella/middle volume), {居住地|きょじゅうち} (2: address/residential area), {振|ふ}り{出|だ}す (2: issue check/shake out), {定石|じょうせき} (2: Go moves/established approach)
-
-Topics covered: shopping, emotion, clothing, media, work, money, food, culture, literature, law, games
-Total entries: ~19,058 → ~19,085 (approximate)
-Remaining candidates: ~5,099 → ~5,072 (27 entries created)
 
 
 
