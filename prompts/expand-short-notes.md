@@ -229,3 +229,14 @@ When stopping, report:
 3. Number of entries skipped (with reasons)
 4. Next entry to continue from
 5. Estimated remaining entries
+
+## PR and Merge Workflow
+
+After all entries are expanded, validated, built, committed, and pushed:
+
+1. **Create a PR** for the branch
+2. **Poll CI status** every 60 seconds using the `pull_request_read` tool until all checks pass (allow up to 10 minutes)
+3. **Squash-merge the PR** once all checks are green
+4. **If CI fails**: read the error, fix the issue, push again, and repeat from step 2
+
+This allows the full workflow — from note expansion through merge — to complete without manual intervention.
