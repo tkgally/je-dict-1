@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-25 (Vocabulary Expansion - 19 New Entries, Session 499)
+Added 19 new dictionary entries (IDs 19317-19336) from candidate_words.json. One candidate ({重宝|ちょうほう}する) was discovered as a duplicate of entry 14415 and removed.
+
+- **Nouns (5)**: {興味津々|きょうみしんしん} (very interested), {瓜|うり}{二|ふた}つ (spitting image), {茶飯事|さはんじ} (everyday occurrence), {大吉|だいきち} (great fortune), {隔月|かくげつ} (every other month)
+- **Noun/Adjective (2)**: {手付|てつ}かず (untouched), {出不精|でぶしょう} (homebody)
+- **Verbs (6)**: {一息|ひといき}つく (to take a breather), {差|さ}し{迫|せま}る (to be imminent), {飛|と}び{立|た}つ (to take off), {恩|おん}に{着|き}る (to feel grateful), {教|おし}え{込|こ}む (to instill), ほころぶ (to come apart/bloom/smile)
+- **Adverbs (3)**: {心|こころ}なしか (somehow/perhaps), よっぽど (considerably), {折|おり}しも (just then)
+- **Other (2)**: {気|き}が{晴|は}れる (to feel refreshed), {飲|の}み{歩|ある}く (to go bar-hopping), いかなる (what kind of/any)
+- **Multi-sense entries**: ほころぶ (3: seam splitting / bud opening / breaking into smile), {飛|と}び{立|た}つ (2: take flight / set out), よっぽど (2: considerably / almost), いかなる (2: what kind of / whatever)
+
+Topics covered: emotion, daily life, culture, time, food-drink, nature, education, language
+Total entries: ~19,122 → ~19,141 (approximate)
+Remaining candidates: ~5,035 → ~5,015 (19 entries created + 1 duplicate removed)
+
 ### 2026-03-25 (Vocabulary Expansion - 17 New Entries, Session 498)
 Added 17 new dictionary entries (IDs 19299-19316) from candidate_words.json. One candidate (献身) was discovered as a duplicate of entry 10892 and removed.
 
@@ -103,19 +117,6 @@ Topics covered: food, culture, law, military, finance, health, daily life, media
 Total entries: ~19,023 → ~19,058 (approximate)
 Remaining candidates: ~5,135 → ~5,099 (35 removed as entries + 1 stale candidate removed)
 
-### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 494)
-Added 35 new dictionary entries (IDs 19179-19213) from candidate_words.json.
-
-- **Nouns/Suru verbs (19)**: {覚醒|かくせい} (awakening), {増量|ぞうりょう} (increase in quantity), {排泄|はいせつ} (excretion), {遮音|しゃおん} (sound insulation), {誤審|ごしん} (misjudgment), {熱唱|ねっしょう} (passionate singing), {例証|れいしょう} (exemplification), {休耕|きゅうこう} (fallow farmland), {地盤沈下|じばんちんか} (ground subsidence), {伝道|でんどう} (evangelism), {炭化|たんか} (carbonization), {打鍵|だけん} (keystroke), {私有|しゆう} (private ownership), {吸音|きゅうおん} (sound absorption), {検死|けんし} (autopsy), {執刀|しっとう} (performing surgery), {在任|ざいにん} (tenure), {戦勝|せんしょう} (war victory), {行程|こうてい} (journey/process)
-- **Nouns (11)**: {極致|きょくち} (pinnacle), {駐在所|ちゅうざいしょ} (police substation), {液状|えきじょう} (liquid state), {公職|こうしょく} (public office), {荷重|かじゅう} (load/weight), {行書|ぎょうしょ} (semi-cursive script), {草書|そうしょ} (cursive script), {情報漏洩|じょうほうろうえい} (data breach), {日本庭園|にほんていえん} (Japanese garden), {戦国時代|せんごくじだい} (Warring States period), {非常階段|ひじょうかいだん} (emergency staircase)
-- **Other (5)**: {体外|たいがい} (outside the body), {床|とこ}ずれ (bedsore), {海獣|かいじゅう} (marine mammal), {禁錮|きんこ} (imprisonment), {拙劣|せつれつ} (clumsy/poor)
-- **Multi-sense entries**: {覚醒|かくせい} (2: waking up / activation), {行程|こうてい} (2: journey / mechanical stroke), {地盤沈下|じばんちんか} (2: literal / figurative decline)
-- Removed 1 stale candidate ({却下|かっか} - wrong reading, correct reading きゃっか already exists)
-- Added 2 new kanji to index: 泄 (leak), 錮 (imprison)
-
-Topics covered: medicine, law, acoustics, calligraphy, sports, history, culture, engineering, nature
-Total entries: ~18,988 → ~19,023 (approximate)
-Remaining candidates: ~5,171 → ~5,135 (35 removed as entries + 1 stale candidate removed)
 
 
 ---
