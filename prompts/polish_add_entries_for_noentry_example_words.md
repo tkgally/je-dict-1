@@ -10,37 +10,111 @@ When adding inline word links to example sentences, words without dictionary ent
 ⟦{暴走|ぼうそう}→暴走：noentry⟧
 ```
 
-This task creates entries for these words and updates the links.
+This task creates entries for these words and updates the links. Since the `noentry` tags may have been added weeks or months ago, some words may already have entries that were created after the tag was written. The duplicate-checking process below accounts for this.
 
-## Workflow
+## Session Workflow
 
-### Phase 1: Find All `noentry` Words
+### Step 1: Preparation
 
-1. **Search for noentry occurrences**:
+1. **Read PROJECT_CONTEXT_BRIEF.md** for current counts and critical rules.
+
+2. **Find all `noentry` words** and build a working list:
    ```bash
    grep -r "：noentry⟧" entries/ --include="*.json" -h | \
      grep -oE '⟦[^⟧]+：noentry⟧' | sort | uniq -c | sort -rn
    ```
 
-2. **Extract unique words needing entries**:
+3. **Extract the unique base words**:
    ```bash
    grep -r "：noentry⟧" entries/ --include="*.json" -h | \
      grep -oE '→[^：]+：noentry' | sed 's/→//;s/：noentry//' | sort -u
    ```
 
-3. **Create a working list** of words to add, noting:
-   - The word (baseform)
+4. **Create a working list** of words, noting for each:
+   - The base word (dictionary form)
    - Its reading (from the surface form with furigana)
-   - The part of speech
-   - How many times it appears
+   - The likely part of speech
+   - How many times it appears (higher frequency = higher priority)
 
-### Phase 2: Create Entries for Each Word
+### Step 2: Check Each Word for Existing Entries
 
-For each word in your list:
+For each word on your list, determine whether it genuinely needs a new entry or whether an existing entry already covers it. This is a multi-step check because exact-match tools can miss orthographic variants.
 
-1. **Check for duplicates** (the word might exist under a different ID):
+#### 2a. Run the duplicate check script
+
+```bash
+python3 build/check_duplicate.py "暴走" "ぼうそう"
+```
+
+**Do NOT use `--skip-candidates` for this task** — these words are not coming from `candidate_words.json`, so you need the full check against both entries and candidates.
+
+- If it says **DUPLICATE** → the entry already exists. Skip to Step 3 (link update only).
+- If it says **OK** → proceed to step 2b.
+- If it reports **homophones** → evaluate whether any is a spelling variant of the same word.
+
+#### 2b. Semantic / orthographic variant check
+
+The `noentry` tag records the base form as written in the original example. But an entry may exist under a different orthographic form. Common variations:
+
+| Variation | Example |
+|-----------|---------|
+| Kanji vs kana spelling | 見つかる vs みつかる |
+| Alternative kanji | 聞く vs 聴く |
+| する compound vs standalone | 勉強する → existing entry for 勉強 |
+| Inflected form used as base | 作り方 → existing entries for 作る + 方 |
+| Kana long vowel mark | おおきい vs おーきい |
+
+**How to check**: Search the entries index for the reading (ignoring headword form):
+
+```bash
+grep -i "reading_hiragana" entries_index.json | grep "ぼうそう"
+```
+
+Also try searching by a key kanji or substring if the word is a compound:
+
+```bash
+grep "暴走" entries_index.json
+```
+
+**Decision**:
+- If an existing entry covers the same word with the same meaning → skip entry creation, go to Step 3 (update the link to point to the existing entry).
+- If the word is a compound like 作り方 and the components already have entries → skip entry creation, just remove the `noentry` link or update it to point to the most relevant component.
+- If no existing entry covers this word → proceed to entry creation (Step 2c).
+
+#### 2c. Check the candidate list
+
+```bash
+python3 build/manage_candidates.py check "暴走" "ぼうそう"
+```
+
+If the word is already a candidate, note this — you will create the entry (and `update_indexes.py` will remove the candidate automatically).
+
+### Step 3: Process Each Word
+
+For each word on your list, do ONE of the following:
+
+#### Option A: Entry already exists — update the link only
+
+If step 2 found an existing entry:
+
+1. Find files containing the noentry link:
    ```bash
-   python3 build/check_duplicate.py --skip-candidates "暴走" "ぼうそう"
+   grep -rl "→暴走：noentry⟧" entries/ --include="*.json"
+   ```
+
+2. In each file, replace `noentry` with the correct entry ID:
+   - Old: `⟦{暴走|ぼうそう}→暴走：noentry⟧`
+   - New: `⟦{暴走|ぼうそう}→暴走：09478_bousou⟧`
+
+3. Verify the existing entry's meaning matches the context where the link appears. If the word is used with a different sense, note this and decide whether a separate entry is warranted.
+
+4. **Update the `modified` timestamp** (from `python3 build/get_timestamp.py`) for each entry file you changed.
+
+#### Option B: No entry exists — create a new entry, then update the link
+
+1. **Get the next available ID** (run before EACH new entry — never reuse):
+   ```bash
+   python3 build/get_next_id.py
    ```
 
 2. **Get timestamp**:
@@ -49,140 +123,100 @@ For each word in your list:
    ```
 
 3. **Determine the part of speech** and load the appropriate skill:
-   - Verbs: `.claude/skills/verb-entry/SKILL.md`
-   - Adjectives: `.claude/skills/adjective-entry/SKILL.md`
-   - Nouns/Others: `.claude/skills/other-entries/SKILL.md`
-   - Particles: `.claude/skills/particle-entry/SKILL.md`
+   - Verbs: `/verb-entry`
+   - Adjectives: `/adjective-entry`
+   - Nouns/Others: `/other-entries`
+   - Particles: `/particle-entry`
 
-4. **Create the entry** following these requirements:
-   - Use `vocabulary_tier: "general"` for all new entries
-   - Include at least 3 examples per sense
-   - All kanji must have furigana in all fields
-   - Include all required tags (pos, formality, politeness, semantic)
+4. **Create the entry** following standard quality requirements:
+   - `vocabulary_tier: "general"` for all new entries
+   - `schema_version: "2.0"`
+   - At least 3 examples per sense, with progressive length
+   - All kanji must have furigana in all fields (headword, examples, notes)
+   - All required tags (pos, formality, politeness, semantic)
+   - All examples must have `sense_numbers`
+   - **NEVER add inline word links (⟦...⟧)** in the new entry — those are added in a separate polishing step
+   - All explanations in English; Japanese only in examples, collocations, patterns
+   - Notes must follow `vocabulary-notes` skill standards (headers, bullet points, minimum content)
 
-5. **Determine the entry ID**:
-   - Find the next available ID by scanning the filesystem:
-     ```bash
-     python3 build/get_next_id.py
-     ```
-     This scans actual entry files on disk, so it is always accurate even when
-     creating multiple entries in a session without running `update_indexes.py`.
-     **Run this script before EACH new entry** — do not reuse a previous result.
-   - Format: `{5-digit-number}_{romaji}` (e.g., `09478_bousou`)
+5. **Write the entry file**:
+   - Use `python3 build/get_entry_path.py <reading> <id>` to get the correct path
+   - Example: `entries/09000/09478_bousou.json`
 
-6. **Write the entry file**:
-   - Path: `entries/{id_range}/{id}_{romaji}.json`
-   - `{id_range}` is the ID rounded down to nearest 500 (e.g., 09478 → 09000)
-   - Example: Entry ID `09478_bousou` goes in `entries/09000/09478_bousou.json`
+6. **Update the noentry links** (same as Option A steps 1-4, using the new entry ID).
 
-### Phase 3: Update `noentry` Links
+#### Option C: Word is a sub-component or inflection — remove or simplify the link
 
-After creating entries, update the inline links:
+If the `noentry` word is a compound like 作り方 where the components (作る, 方) already have entries, or if it's a grammatical form that doesn't warrant its own entry:
 
-1. **Find files containing the specific noentry**:
+1. Either remove the `⟦...：noentry⟧` wrapper entirely (leaving the plain Japanese text), or replace the link with one pointing to the most relevant component entry.
+2. Update the `modified` timestamp for each changed file.
+
+### Step 4: Validate and Build
+
+After processing all words (or a batch, if stopping mid-list):
+
+```bash
+python3 build/validate.py                          # Fix any errors before continuing
+python3 build/find_missing_furigana.py | head -60   # Check for missing furigana
+python3 build/update_indexes.py                     # Sync indexes and candidate list
+python3 build/update_kanji_index.py --check-new     # Check for new kanji needing IDs
+python3 build/build_flat.py                         # Rebuild the static site
+```
+
+**If `find_missing_furigana.py` shows entries from your session**, fix them before building.
+
+**If new kanji are found**, assign on'yomi, kun'yomi, and gloss before building.
+
+### Step 5: Commit, Push, and Merge
+
+1. **Update PROJECT_STATUS.md** Recent Changes section with a summary (keep only 5 most recent entries; rotate oldest to archive).
+
+2. **Commit** (combine new entries and link updates):
    ```bash
-   grep -r "→暴走：noentry⟧" entries/ --include="*.json" -l
+   git add entries/ docs/ *.json PROJECT_STATUS.md
+   git commit -m "Add entries for noentry words and update links: [summary]"
    ```
 
-2. **For each file**, update the link:
-   - Old: `⟦{暴走|ぼうそう}→暴走：noentry⟧`
-   - New: `⟦{暴走|ぼうそう}→暴走：09478_bousou⟧`
+3. **Push** to the current branch.
 
-3. **Update the modified timestamp** for each changed entry
-
-### Phase 4: Verify and Validate
-
-1. **Run validation**:
-   ```bash
-   python3 build/validate.py 2>&1 | grep -A5 "Word link"
-   ```
-
-2. **Verify each updated link semantically**:
-   - Read the example sentence in context
-   - Confirm the new entry's gloss matches the word's meaning
-   - Check that the link is grammatically appropriate
-
-3. **Update indexes** (but do NOT build the site):
-   ```bash
-   python3 build/update_indexes.py
-   ```
-
-### Phase 5: Commit Changes
-
-1. **Commit new entries**:
-   ```bash
-   git add entries/ && git commit -m "Add entries for noentry words: [list words]"
-   ```
-
-2. **Commit link updates separately**:
-   ```bash
-   git add entries/ && git commit -m "Update noentry links with new entry IDs"
-   ```
-
-**Note:** Do NOT run `build_flat.py` - the site build is skipped for this task.
-
-## Quality Checklist
-
-### For New Entries
-- [ ] Duplicate check passed
-- [ ] All kanji have furigana (headword, examples, notes)
-- [ ] At least 3 examples per sense
-- [ ] All examples have `sense_numbers`
-- [ ] Tags complete (pos, formality, politeness, semantic)
-- [ ] `vocabulary_tier: "general"`
-
-### For Updated Links
-- [ ] Entry ID is correct
-- [ ] Meaning matches context in the original example
-- [ ] Furigana preserved correctly
-- [ ] No broken link syntax
-
-## Common `noentry` Word Types
-
-Based on inline linking work, these categories often need entries:
-
-| Category | Examples | Notes |
-|----------|----------|-------|
-| Grammatical words | です, ます, た | Copulas, auxiliaries |
-| Technical terms | 漢字, 部首 | Subject-specific vocabulary |
-| Idiom components | つく (in 嘘をつく) | Verbs with idiomatic uses |
-| Specialized verbs | 利く (brakes working) | Homographs with specific meanings |
-| Loanwords | データ, グラフ | Katakana words |
+4. **PR and merge workflow**:
+   - Create a PR for the branch
+   - Poll CI status every 60 seconds using the `pull_request_read` tool until all checks pass (allow up to 10 minutes)
+   - Squash-merge the PR once all checks are green
+   - If CI fails: read the error, fix the issue, push again, and repeat
 
 ## Prioritization
 
 When multiple `noentry` words exist, prioritize:
 
-1. **High frequency** - Words appearing in many examples
-2. **Core vocabulary** - Basic words learners need
-3. **Grammatical words** - Essential for understanding sentences
-4. **Domain clusters** - Words from the same topic area
+1. **Easy link-only fixes** — Words that already have entries (just update the link; fast wins)
+2. **High frequency** — Words appearing in many examples
+3. **Core vocabulary** — Basic words learners need
+4. **Domain clusters** — Words from the same topic area (efficient to create together)
 
-## Example Session
+## Quality Checklist
 
-```
-Found noentry words:
-  15  暴走 (ぼうそう) - noun
-   8  漢字 (かんじ) - noun
-   5  です (です) - copula
-   3  利く (きく) - verb
+### For New Entries
+- [ ] Duplicate + variant check passed (steps 2a and 2b)
+- [ ] All kanji have furigana (headword, examples, notes)
+- [ ] At least 3 examples per sense with progressive length
+- [ ] All examples have `sense_numbers`
+- [ ] Tags complete (pos, formality, politeness, semantic)
+- [ ] `vocabulary_tier: "general"` and `schema_version: "2.0"`
+- [ ] Notes follow vocabulary-notes skill standards
+- [ ] No inline word links (⟦...⟧) in the new entry
 
-Creating entry for 暴走...
-- Duplicate check: OK
-- Entry ID: 09478_bousou
-- Created: entries/09000/09478_bousou.json
-
-Updating links...
-- entries/00000/00022_bureeki.json: 1 link updated
-- entries/01000/01234_example.json: 2 links updated
-
-Validation: PASSED
-```
+### For Updated Links
+- [ ] Entry ID is correct
+- [ ] Meaning matches context in the original example
+- [ ] Furigana preserved correctly in the link
+- [ ] No broken link syntax
 
 ## Session Output
 
 At session end, report:
-1. Number of entries created
-2. Number of links updated
+1. Number of new entries created
+2. Number of links updated (broken down: link-only fixes vs new-entry links)
 3. Any words skipped (with reason)
 4. Remaining `noentry` count
