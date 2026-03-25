@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-25 (Vocabulary Expansion - 30 New Entries, Session 500)
+Added 30 new dictionary entries (IDs 19337-19366) from candidate_words.json. A diverse mix of single-kanji words, common nouns, verbs, and expressions.
+
+- **Single-kanji nouns (18)**: {鮭|さけ} (salmon), {串|くし} (skewer), {芝|しば} (turf), {刃|やいば} (blade), {芸|げい} (art/trick), {吉|きち} (good fortune), {凶|きょう} (bad luck), {乳|ちち} (milk/breast), {腸|ちょう} (intestine), {雫|しずく} (droplet), {虜|とりこ} (captive/devotee), {某|ぼう} (a certain), {黄|き} (yellow), {王|おう} (king), {的|まと} (target), {要|かなめ} (linchpin), {魔|ま} (demon), {栓|せん} (stopper)
+- **Multi-sense nouns (3)**: {錠|じょう} (lock/tablet, 2 senses), {節|せつ} (section/season/moderation, 3 senses), {表|ひょう} (table/chart)
+- **Verbs (2)**: {難航|なんこう}する (to run into difficulties), {始動|しどう}する (to start up)
+- **Other (7)**: {旧|きゅう} (old/former, prefix), {暦|こよみ} (calendar), {際|きわ} (edge/verge), {空模様|そらもよう} (weather conditions), {目|め}を{閉|と}じる (to close one's eyes), {抵抗感|ていこうかん} (reluctance), {主|あるじ} (master/host)
+- **Multi-sense entries**: {刃|やいば} (2: blade/sword), {芸|げい} (2: art/trick), {乳|ちち} (2: milk/breast), {虜|とりこ} (2: captive/devotee), {王|おう} (2: king/champion), {際|きわ} (2: edge/critical moment), {魔|ま} (2: demon/magic), {錠|じょう} (2: lock/tablet), {節|せつ} (3: section/season/moderation)
+
+4 new kanji added to kanji index: 某, 虜, 雫, 鮭
+Topics covered: food, culture, nature, body, tool, emotion, language, society, time, religion
+Total entries: ~19,141 → ~19,171 (approximate)
+Remaining candidates: ~5,015 → ~4,985 (30 entries created)
+
 ### 2026-03-25 (Vocabulary Expansion - 19 New Entries, Session 499)
 Added 19 new dictionary entries (IDs 19317-19336) from candidate_words.json. One candidate ({重宝|ちょうほう}する) was discovered as a duplicate of entry 14415 and removed.
 
@@ -101,21 +115,6 @@ Added 27 new dictionary entries (IDs 19249-19278) from candidate_words.json. Thr
 Topics covered: shopping, emotion, clothing, media, work, money, food, culture, literature, law, games
 Total entries: ~19,058 → ~19,085 (approximate)
 Remaining candidates: ~5,099 → ~5,072 (27 entries created)
-
-### 2026-03-25 (Vocabulary Expansion - 35 New Entries, Session 495)
-Added 35 new dictionary entries (IDs 19214-19248) from candidate_words.json.
-
-- **Nouns (21)**: ふりかけ (dry rice seasoning), {国旗|こっき} (national flag), {犯罪者|はんざいしゃ} (criminal), {捜索|そうさく} (search/manhunt), {空軍|くうぐん} (air force), {補助金|ほじょきん} (subsidy), {推敲|すいこう} (polishing writing), {親近感|しんきんかん} (feeling of closeness), {前任者|ぜんにんしゃ} (predecessor), {協賛|きょうさん} (sponsorship), {老眼鏡|ろうがんきょう} (reading glasses), {検温|けんおん} (temperature check), {平地|へいち} (level ground), {不燃物|ふねんぶつ} (non-burnable waste), {展示品|てんじひん} (exhibit), {学芸員|がくげいいん} (curator), {防音室|ぼうおんしつ} (soundproof room), {軽量化|けいりょうか} (weight reduction), {観葉植物|かんようしょくぶつ} (houseplant), {表彰台|ひょうしょうだい} (victory podium), {駅構内|えきこうない} (station premises)
-- **Nouns/Expressions (5)**: {根性|こんじょう} (willpower/disposition), {蚊帳|かや}の{外|そと} (being left out), {計算違|けいさんちが}い (miscalculation), {土足厳禁|どそくげんきん} (no shoes allowed), {消息|しょうそく} (whereabouts)
-- **Suru verbs (3)**: {掲載|けいさい}する (to publish), {団結|だんけつ}する (to unite), {発行|はっこう}する (to issue)
-- **Other nouns (6)**: {餌付|えづ}け (feeding animals), {営業職|えいぎょうしょく} (sales position), {息継|いきつ}ぎ (breathing pause), {写真映|しゃしんば}え (photogenic), {室内干|しつないぼ}し (indoor drying), {食習慣|しょくしゅうかん} (eating habits)
-- **Multi-sense entries**: {根性|こんじょう} (2: willpower / temperament), {計算違|けいさんちが}い (2: arithmetic error / misjudgment)
-- Removed 1 stale candidate ({終日|しゅうじつ} - already exists as entry 13807)
-- Added 1 new kanji to index: 敲 (knock)
-
-Topics covered: food, culture, law, military, finance, health, daily life, media, sports, nature, work
-Total entries: ~19,023 → ~19,058 (approximate)
-Remaining candidates: ~5,135 → ~5,099 (35 removed as entries + 1 stale candidate removed)
 
 
 
