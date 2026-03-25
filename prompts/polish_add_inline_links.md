@@ -203,6 +203,16 @@ Keep the progress file minimal:
 next: XXXXX
 ```
 
+## PR and Merge Workflow
+
+After all entries are processed, committed, and pushed:
+
+1. **Create a PR** for the branch
+2. **Enable auto-merge (squash)** on the PR so GitHub merges it automatically once CI passes
+3. **If CI fails**: read the error, fix the issue, push again, and re-enable auto-merge
+
+This allows the full workflow — from entry processing through merge — to complete without manual intervention.
+
 ## Output at Session End
 
 When stopping, report:
