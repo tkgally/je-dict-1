@@ -58,6 +58,46 @@ Add 35 new entries to the Japanese-English learner's dictionary from candidate_w
 - Timestamps must be from get_timestamp.py - the Z suffix is UTC, not JST
 - **All new entries must have `vocabulary_tier: "general"`** - basic and core tiers are fixed
 
+## Notes Field Requirements
+
+**See the `vocabulary-notes` skill for complete guidelines.** The notes field is a critical part of each entry. Short, unstructured notes are a common quality problem — follow these requirements carefully:
+
+### Structure and Formatting (MANDATORY)
+
+| Requirement | Standard |
+|-------------|----------|
+| **Section headers** | Use labeled headers (USAGE:, COMMON COLLOCATIONS:, SIMILAR WORDS:, TRANSITIVITY:, ASPECT:, etc.) for distinct categories of information |
+| **Paragraph breaks** | Separate sections with blank lines (`\n\n` in JSON) — never pack multiple topics into one paragraph |
+| **Bullet points** | Any list of 2+ items MUST use `- ` bullet points, not inline comma-separated lists |
+| **Language** | All explanatory prose in English; Japanese only in example phrases and collocations |
+| **Furigana** | All kanji in notes must have furigana: `{漢字|かんじ}` |
+
+### Minimum Content
+
+Every entry's notes should include at least:
+
+1. **Core semantic explanation** — what the word fundamentally means beyond the gloss (1-2 sentences)
+2. **Collocations or common expressions** — as a bulleted list with translations
+3. **At least one additional section** from: similar word distinctions, register notes, cultural context, common mistakes, etymology, related terms
+
+### Format Example (in JSON)
+
+```json
+"notes": "Core explanation of the word.\n\nCOMMON COLLOCATIONS:\n- {例|れい}one: translation\n- {例|れい}two: translation\n\nSIMILAR WORDS:\n- word1: gloss — how it differs\n- word2: gloss — how it differs"
+```
+
+### Anti-Patterns to Avoid
+
+These patterns indicate the notes field is too short or poorly structured:
+
+```
+✗ BAD: "Composed of X + Y. Common collocations: A, B, C. Related: D."
+  (Single paragraph, no headers, inline list instead of bullets)
+
+✓ GOOD: "Composed of X + Y.\n\nCOMMON COLLOCATIONS:\n- A: translation\n- B: translation\n- C: translation\n\nRELATED TERMS:\n- D: gloss — explanation"
+  (Separated sections, headers, bullet points)
+```
+
 ## Example Sentence Requirements
 
 **See the `example-sentences` skill for complete guidelines.** Key requirements for new entries:
