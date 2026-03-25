@@ -131,7 +131,7 @@ If step 2 found an existing entry:
 4. **Create the entry** following standard quality requirements:
    - `vocabulary_tier: "general"` for all new entries
    - `schema_version: "2.0"`
-   - At least 3 examples per sense, with progressive length
+   - At least 3 examples **per sense**, with progressive length. For multi-sense entries, this means 3+ examples for EACH sense (e.g., a 2-sense entry needs at least 6 examples total). Do NOT split 3 examples across senses — each sense must independently have 3+.
    - All kanji must have furigana in all fields (headword, examples, notes)
    - All required tags (pos, formality, politeness, semantic)
    - All examples must have `sense_numbers`
@@ -200,7 +200,7 @@ When multiple `noentry` words exist, prioritize:
 ### For New Entries
 - [ ] Duplicate + variant check passed (steps 2a and 2b)
 - [ ] All kanji have furigana (headword, examples, notes)
-- [ ] At least 3 examples per sense with progressive length
+- [ ] At least 3 examples **per sense** with progressive length (multi-sense entries need 3× number of senses)
 - [ ] All examples have `sense_numbers`
 - [ ] Tags complete (pos, formality, politeness, semantic)
 - [ ] `vocabulary_tier: "general"` and `schema_version: "2.0"`
