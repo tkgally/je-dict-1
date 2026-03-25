@@ -152,6 +152,16 @@ All required fields per the `example-sentences` skill:
 
 **ID format**: `{entry_id}_ex{N}` where N is sequential (ex1, ex2, ex3...)
 
+## PR and Merge Workflow
+
+After all entries are created, validated, built, committed, and pushed:
+
+1. **Create a PR** for the branch
+2. **Enable auto-merge (squash)** on the PR so GitHub merges it automatically once CI passes
+3. **If CI fails**: read the error, fix the issue, push again, and re-enable auto-merge
+
+This allows the full workflow — from entry creation through merge — to complete without manual intervention.
+
 ## If Duplicates Are Found During Validation
 
 If validate.py reports duplicates, use the resolve-duplicates skill to fix them before continuing.
