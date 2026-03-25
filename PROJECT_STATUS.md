@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-25 (Vocabulary Expansion - 27 New Entries, Session 496)
+Added 27 new dictionary entries (IDs 19249-19278) from candidate_words.json. Three candidates (限定, 拒絶, 抽出) were discovered as duplicates during validation and removed.
+
+- **Nouns (11)**: {売|う}れ{筋|すじ} (best seller), {軽装|けいそう} (light clothing), {日刊|にっかん} (daily publication), {日当|にっとう} (daily allowance), {採寸|さいすん} (taking measurements), {万人|ばんにん}{受|う}け (mass appeal), {居住地|きょじゅうち} (place of residence), {俗説|ぞくせつ} (popular belief), {中編|ちゅうへん} (novella), {商号|しょうごう} (trade name), {最高潮|さいこうちょう} (climax)
+- **Verbs/Expressions (9)**: {吹|ふ}っ{切|き}れる (to get over it), {思|おも}い{当|あ}たる (to come to mind), {買|か}い{叩|たた}く (to beat down price), {掛|か}け{違|ちが}える (to button wrongly/misunderstand), {浮|う}き{足|あし}{立|だ}つ (to panic), {振|ふ}り{出|だ}す (to issue), {一目|いちもく}{置|お}く (to acknowledge superiority), {感|かん}{極|きわ}まる (to be overcome with emotion), {板|いた}に{着|つ}く (to suit one well)
+- **Adjective/Adverb (4)**: {常識的|じょうしきてき} (sensible), {何気|なにげ}なく (casually), {一端|いっぱし} (full-fledged), {汗|あせ}っかき (heavy sweater)
+- **Other (3)**: {昼|ひる}どき (lunchtime), {定石|じょうせき} (standard approach), {平生|へいぜい} (ordinarily)
+- **Multi-sense entries**: {限定|げんてい} duplicate removed, {掛|か}け{違|ちが}える (2: literal button/figurative misunderstanding), {中編|ちゅうへん} (2: novella/middle volume), {居住地|きょじゅうち} (2: address/residential area), {振|ふ}り{出|だ}す (2: issue check/shake out), {定石|じょうせき} (2: Go moves/established approach)
+
+Topics covered: shopping, emotion, clothing, media, work, money, food, culture, literature, law, games
+Total entries: ~19,058 → ~19,085 (approximate)
+Remaining candidates: ~5,099 → ~5,072 (27 entries created)
+
 ### 2026-03-25 (Vocabulary Expansion - 35 New Entries, Session 495)
 Added 35 new dictionary entries (IDs 19214-19248) from candidate_words.json.
 
@@ -112,22 +125,6 @@ Added 35 new dictionary entries (IDs 19109-19143) from candidate_words.json.
 Topics covered: politics, nature, geography, food, daily life, culture, emotions, language
 Total entries: ~18,918 → ~18,953 (approximate)
 Remaining candidates: ~5,241 → ~5,205 (35 removed as entries + 1 stale candidate removed)
-
-### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 491)
-Added 35 new dictionary entries (IDs 19074-19108) from candidate_words.json.
-
-- **Nouns (15)**: {刑務所|けいむしょ} (prison), {研究所|けんきゅうじょ} (research institute), {上下関係|じょうげかんけい} (hierarchical relationship), {猛毒|もうどく} (deadly poison), {有力者|ゆうりょくしゃ} (influential person), {化石燃料|かせきねんりょう} (fossil fuel), {利|き}き{手|て} (dominant hand), {陸軍|りくぐん} (army), {立|た}ち{退|の}き (eviction), {我|わ}が{身|み} (oneself), {野犬|やけん} (stray dog), {万事|ばんじ} (everything), {塵取|ちりと}り (dustpan), {中級者|ちゅうきゅうしゃ} (intermediate-level person), {上級者|じょうきゅうしゃ} (advanced-level person)
-- **Nouns/Suru verbs (5)**: {解凍|かいとう} (thawing/decompression), {保守|ほしゅ} (conservatism/maintenance), お{披露目|ひろめ} (debut/unveiling), {再検討|さいけんとう} (re-examination), {増強|ぞうきょう} (reinforcement)
-- **Na-adjectives (3)**: {乱雑|らんざつ}な (messy), {神聖|しんせい}な (sacred), {不道徳|ふどうとく} (immoral)
-- **Adverbs (4)**: {段々|だんだん}と (gradually), {急速|きゅうそく}に (rapidly), {遠回|とおまわ}しに (indirectly), {露骨|ろこつ}に (blatantly)
-- **Nouns (specialized, 5)**: {遺言|いごん} (will/testament, legal reading), {株式会社|かぶしきがいしゃ} (corporation), {用水路|ようすいろ} (irrigation channel), {熟練工|じゅくれんこう} (skilled worker), ほうじ{茶|ちゃ} (roasted green tea)
-- **Nouns (other, 2)**: {無糖|むとう} (sugar-free), {突然変異|とつぜんへんい} (mutation)
-- **Verb (1)**: {消|き}え{去|さ}る (to vanish)
-- **Multi-sense entries**: {解凍|かいとう} (2: thawing/decompression), {保守|ほしゅ} (2: conservatism/maintenance), {突然変異|とつぜんへんい} (2: genetic mutation/figurative)
-
-Topics covered: law/justice, science, politics, food/drink, daily life, culture, communication, nature, business
-Total entries: ~18,883 → ~18,918 (approximate)
-Remaining candidates: ~5,276 → ~5,241 (35 removed as entries)
 
 ---
 
