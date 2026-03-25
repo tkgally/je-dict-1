@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-25 (Vocabulary Expansion - 17 New Entries, Session 498)
+Added 17 new dictionary entries (IDs 19299-19316) from candidate_words.json. One candidate (献身) was discovered as a duplicate of entry 10892 and removed.
+
+- **Nouns (12)**: {第一印象|だいいちいんしょう} (first impression), {食洗機|しょくせんき} (dishwasher), {即効|そっこう} (immediate effect), {別料金|べつりょうきん} (extra charge), {好印象|こういんしょう} (good impression), {婚約指輪|こんやくゆびわ} (engagement ring), {義実家|ぎじっか} (in-laws' home), {重箱読|じゅうばこよ}み (on+kun reading), アライグマ (raccoon), {革|かわ} (leather), {日銀|にちぎん} (Bank of Japan), {順風|じゅんぷう} (tailwind)
+- **Suru verbs (3)**: {公私混同|こうしこんどう} (mixing public/private), {方針転換|ほうしんてんかん} (policy shift), {自己|じこ}ＰＲ (self-promotion)
+- **Verb (1)**: {息|いき}が{詰|つ}まる (to feel suffocated)
+- **Suru verb (1)**: {転向|てんこう} (conversion/switching)
+- **Multi-sense entries**: {息|いき}が{詰|つ}まる (2: physical choking / figurative stifling), {順風|じゅんぷう} (2: tailwind / smooth sailing), {転向|てんこう} (2: ideological conversion / switching fields)
+
+Topics covered: social, household, money, relationships, language, nature, finance, politics, work, animals
+Total entries: ~19,105 → ~19,122 (approximate)
+Remaining candidates: ~5,052 → ~5,035 (17 entries created + 1 duplicate removed)
+
 ### 2026-03-25 (Vocabulary Expansion - 20 New Entries, Session 497)
 Added 20 new dictionary entries (IDs 19279-19298) from candidate_words.json.
 
@@ -103,21 +116,6 @@ Added 35 new dictionary entries (IDs 19179-19213) from candidate_words.json.
 Topics covered: medicine, law, acoustics, calligraphy, sports, history, culture, engineering, nature
 Total entries: ~18,988 → ~19,023 (approximate)
 Remaining candidates: ~5,171 → ~5,135 (35 removed as entries + 1 stale candidate removed)
-
-### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 493)
-Added 35 new dictionary entries (IDs 19144-19178) from candidate_words.json.
-
-- **Nouns (22)**: {都内|とない} (within Tokyo), {握|にぎ}り{寿司|ずし} (nigiri sushi), {熱帯魚|ねったいぎょ} (tropical fish), お{札|さつ} (banknote), {結納|ゆいのう} (betrothal gifts), {失点|しってん} (points lost), {班長|はんちょう} (group leader), {噴煙|ふんえん} (volcanic smoke), {薬学|やくがく} (pharmacy), {句点|くてん} (period/full stop), {食用油|しょくようゆ} (cooking oil), {交際費|こうさいひ} (entertainment expenses), {加盟国|かめいこく} (member state), {盛夏|せいか} (midsummer), {受取人|うけとりにん} (recipient), {遺骨|いこつ} (remains), {霊園|れいえん} (cemetery), {敷石|しきいし} (paving stone), {常備菜|じょうびさい} (make-ahead side dish), {制汗剤|せいかんざい} (antiperspirant), {砲弾|ほうだん} (shell/cannonball), {植物油|しょくぶつゆ} (vegetable oil)
-- **Nouns/Suru verbs (7)**: {入籍|にゅうせき} (marriage registration), {追撃|ついげき} (pursuit), {布陣|ふじん} (formation), {出陣|しゅつじん} (going to battle), {同一視|どういつし} (equating), {脇見|わきみ} (looking away), {首謀者|しゅぼうしゃ} (ringleader)
-- **Na-adjectives (2)**: {生理的|せいりてき} (physiological/visceral), {基礎的|きそてき} (fundamental)
-- **Nouns (other, 2)**: {事務官|じむかん} (administrative official), {霜害|そうがい} (frost damage)
-- **Adverb (1)**: {第一|だいいち}に (firstly)
-- **Noun with cultural note (1)**: {動乱|どうらん} (upheaval)
-- **Multi-sense entries**: {生理的|せいりてき} (2 senses: physiological / visceral aversion)
-
-Topics covered: geography, food, culture, sports, government, science, daily life, agriculture, military
-Total entries: ~18,953 → ~18,988 (approximate)
-Remaining candidates: ~5,205 → ~5,171 (35 removed as entries)
 
 
 ---
