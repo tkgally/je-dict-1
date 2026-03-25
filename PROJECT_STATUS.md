@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-25 (Vocabulary Expansion - 20 New Entries, Session 497)
+Added 20 new dictionary entries (IDs 19279-19298) from candidate_words.json.
+
+- **Nouns (13)**: {天丼|てんどん} (tempura rice bowl), {道順|みちじゅん} (route/directions), {厚紙|あつがみ} (cardboard), {子馬|こうま} (foal), {個数|こすう} (number of items), {専務|せんむ} (executive director), {濁音|だくおん} (voiced sound), {高卒|こうそつ} (high school graduate), {大卒|だいそつ} (university graduate), {無添加|むてんか} (additive-free), {非営利|ひえいり} (non-profit), {直属|ちょくぞく} (direct subordination), {愛護|あいご} (protection/welfare)
+- **Suru verbs (4)**: {忘却|ぼうきゃく} (forgetting), {過食|かしょく} (overeating), {放電|ほうでん} (discharge), {想起|そうき} (recollection)
+- **Multi-sense entries (3)**: {色気|いろけ} (2: sex appeal / ambition), {書|か}き{出|だ}し (2: opening sentence / data export), {黒星|くろぼし} (2: sports loss / black mark)
+
+Topics covered: food, directions, education, business, animals, health, science, language, sports, society
+Total entries: ~19,085 → ~19,105 (approximate)
+Remaining candidates: ~5,072 → ~5,052 (20 entries created)
+
 ### 2026-03-25 (Vocabulary Expansion - 27 New Entries, Session 496)
 Added 27 new dictionary entries (IDs 19249-19278) from candidate_words.json. Three candidates (限定, 拒絶, 抽出) were discovered as duplicates during validation and removed.
 
@@ -108,23 +119,6 @@ Topics covered: geography, food, culture, sports, government, science, daily lif
 Total entries: ~18,953 → ~18,988 (approximate)
 Remaining candidates: ~5,205 → ~5,171 (35 removed as entries)
 
-### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 492)
-Added 35 new dictionary entries (IDs 19109-19143) from candidate_words.json.
-
-- **Nouns (17)**: {冷|ひ}や{汗|あせ} (cold sweat), {得票|とくひょう} (votes obtained), {隣国|りんごく} (neighboring country), {開票|かいひょう} (ballot counting), {海抜|かいばつ} (above sea level), {前方|ぜんぽう} (front/forward), {後方|こうほう} (rear/behind), パンフレット (pamphlet), {諸説|しょせつ} (various theories), {夕闇|ゆうやみ} (evening darkness), お{姫様|ひめさま} (princess), {登山道|とざんどう} (mountain trail), {夕凪|ゆうなぎ} (evening calm), {遺書|いしょ} (will/testament), {身|み}の{上話|うえばなし} (life story), {博愛|はくあい} (philanthropy), {大将|たいしょう} (general/boss)
-- **Nouns/Suru verbs (5)**: {審議|しんぎ} (deliberation), {放任|ほうにん} (laissez-faire), {急展開|きゅうてんかい} (sudden development), {拘泥|こうでい} (fixation), {甘受|かんじゅ} (acceptance)
-- **Nouns/Na-adjectives (5)**: {切|き}れ{味|あじ} (sharpness), {少|すく}なめ (somewhat less), {安上|やすあ}がり (inexpensive), {軽量|けいりょう} (lightweight), {泥|どろ}まみれ (covered in mud)
-- **Na-adjective (1)**: {安直|あんちょく} (cheap/simplistic)
-- **Adjective-no (1)**: {無農薬|むのうやく} (pesticide-free)
-- **I-adjectives (2)**: {途方|とほう}もない (extraordinary), {親|した}しみやすい (approachable)
-- **Nouns (seasonal, 2)**: {冬休|ふゆやす}み (winter break), {春休|はるやす}み (spring break)
-- **Other (2)**: {行|い}きつけ (regular place), {説法|せっぽう} (sermon/preaching)
-- **Multi-sense entries**: {切|き}れ{味|あじ} (2), {安直|あんちょく} (2), {遺書|いしょ} (2), お{姫様|ひめさま} (2), {大将|たいしょう} (2), {途方|とほう}もない (2), {説法|せっぽう} (2)
-- Removed 1 stale candidate ({問屋|どんや} - variant reading of existing {問屋|とんや} entry)
-
-Topics covered: politics, nature, geography, food, daily life, culture, emotions, language
-Total entries: ~18,918 → ~18,953 (approximate)
-Remaining candidates: ~5,241 → ~5,205 (35 removed as entries + 1 stale candidate removed)
 
 ---
 
