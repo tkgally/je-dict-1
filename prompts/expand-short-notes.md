@@ -6,12 +6,11 @@ Systematically expand the `notes` field for dictionary entries that currently ha
 
 **Single focus**: Do the notes provide adequate guidance for learners?
 
-Entries with notes under 300 characters typically contain only:
-- A single etymology note (e.g., "From English 'computer'")
-- A single related word (e.g., "Related: X")
-- A simple antonym/synonym reference
+Entries with notes under 300 characters typically have one or both of these problems:
+- **Too little content**: Only a single etymology note, related word reference, or simple antonym/synonym mention
+- **No structure**: All information packed into a single paragraph without section headers, bullet points, or paragraph breaks
 
-These need to be expanded to include structured, learner-focused content following the vocabulary-notes skill guidelines.
+Both problems need to be fixed. Expanded notes must use structured formatting (section headers, bullet points, paragraph separators) following the vocabulary-notes skill guidelines.
 
 ## Reference Skill
 
