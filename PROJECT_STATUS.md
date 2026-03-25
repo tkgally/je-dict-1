@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-25 (Noentry Link Polish - 26 New Entries + All Remaining Links Resolved)
+Created 26 new dictionary entries (IDs 19436-19461) for words marked `noentry` in inline links, and resolved all remaining ~305 noentry links across ~190 files.
+
+- **New noun entries (21)**: {光栄|こうえい}, {迷|まよ}い, {重荷|おもに}, {闘志|とうし}, {路上|ろじょう}, {間柄|あいだがら}, {銅|どう}, {鉄分|てつぶん}, {高所|こうしょ}, {上体|じょうたい}, {人違|ひとちが}い, {例文|れいぶん}, {凍土|とうど}, {不良品|ふりょうひん}, {下半身|かはんしん}, {入場券|にゅうじょうけん}, {両腕|りょううで}, {貝殻|かいがら}, {沖合|おきあい}, {均等|きんとう}, {是非|ぜひ}, {土地勘|とちかん}
+- **New noun/suru entry (1)**: {転換|てんかん}
+- **New verb entries (2)**: {静|しず}める, {買|か}い{替|か}える
+- **New adverb entry (1)**: {青々|あおあお}
+- **Link-only updates (26 links)**: Updated noentry links to newly created entries
+- **Link removals (~280 links)**: Stripped noentry wrappers for number+counter combinations (百年, 十時, etc.), proper nouns (兵庫, 奈良, etc.), place names, specialized compounds, single-kanji words, and grammatical patterns
+- **All noentry links now resolved**: 0 remaining (down from ~305)
+
 ### 2026-03-25 (Noentry Link Polish - 44 New Entries + 132 Link Fixes)
 Created 44 new dictionary entries (IDs 19392-19435) for words marked `noentry` in inline links, and updated 132 existing-entry link-only fixes plus 56 links for newly created entries.
 
@@ -98,19 +109,6 @@ Added 19 new dictionary entries (IDs 19317-19336) from candidate_words.json. One
 Topics covered: emotion, daily life, culture, time, food-drink, nature, education, language
 Total entries: ~19,122 → ~19,141 (approximate)
 Remaining candidates: ~5,035 → ~5,015 (19 entries created + 1 duplicate removed)
-
-### 2026-03-25 (Vocabulary Expansion - 17 New Entries, Session 498)
-Added 17 new dictionary entries (IDs 19299-19316) from candidate_words.json. One candidate (献身) was discovered as a duplicate of entry 10892 and removed.
-
-- **Nouns (12)**: {第一印象|だいいちいんしょう} (first impression), {食洗機|しょくせんき} (dishwasher), {即効|そっこう} (immediate effect), {別料金|べつりょうきん} (extra charge), {好印象|こういんしょう} (good impression), {婚約指輪|こんやくゆびわ} (engagement ring), {義実家|ぎじっか} (in-laws' home), {重箱読|じゅうばこよ}み (on+kun reading), アライグマ (raccoon), {革|かわ} (leather), {日銀|にちぎん} (Bank of Japan), {順風|じゅんぷう} (tailwind)
-- **Suru verbs (3)**: {公私混同|こうしこんどう} (mixing public/private), {方針転換|ほうしんてんかん} (policy shift), {自己|じこ}ＰＲ (self-promotion)
-- **Verb (1)**: {息|いき}が{詰|つ}まる (to feel suffocated)
-- **Suru verb (1)**: {転向|てんこう} (conversion/switching)
-- **Multi-sense entries**: {息|いき}が{詰|つ}まる (2: physical choking / figurative stifling), {順風|じゅんぷう} (2: tailwind / smooth sailing), {転向|てんこう} (2: ideological conversion / switching fields)
-
-Topics covered: social, household, money, relationships, language, nature, finance, politics, work, animals
-Total entries: ~19,105 → ~19,122 (approximate)
-Remaining candidates: ~5,052 → ~5,035 (17 entries created + 1 duplicate removed)
 
 
 
