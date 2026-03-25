@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-24
+**Last updated**: 2026-03-25
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~19,023 |
+| Total entries | ~19,058 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~16,224 (open) |
-| Candidate words | ~5,135 |
+| General tier | ~16,259 (open) |
+| Candidate words | ~5,099 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-25 (Vocabulary Expansion - 35 New Entries, Session 495)
+Added 35 new dictionary entries (IDs 19214-19248) from candidate_words.json.
+
+- **Nouns (21)**: ふりかけ (dry rice seasoning), {国旗|こっき} (national flag), {犯罪者|はんざいしゃ} (criminal), {捜索|そうさく} (search/manhunt), {空軍|くうぐん} (air force), {補助金|ほじょきん} (subsidy), {推敲|すいこう} (polishing writing), {親近感|しんきんかん} (feeling of closeness), {前任者|ぜんにんしゃ} (predecessor), {協賛|きょうさん} (sponsorship), {老眼鏡|ろうがんきょう} (reading glasses), {検温|けんおん} (temperature check), {平地|へいち} (level ground), {不燃物|ふねんぶつ} (non-burnable waste), {展示品|てんじひん} (exhibit), {学芸員|がくげいいん} (curator), {防音室|ぼうおんしつ} (soundproof room), {軽量化|けいりょうか} (weight reduction), {観葉植物|かんようしょくぶつ} (houseplant), {表彰台|ひょうしょうだい} (victory podium), {駅構内|えきこうない} (station premises)
+- **Nouns/Expressions (5)**: {根性|こんじょう} (willpower/disposition), {蚊帳|かや}の{外|そと} (being left out), {計算違|けいさんちが}い (miscalculation), {土足厳禁|どそくげんきん} (no shoes allowed), {消息|しょうそく} (whereabouts)
+- **Suru verbs (3)**: {掲載|けいさい}する (to publish), {団結|だんけつ}する (to unite), {発行|はっこう}する (to issue)
+- **Other nouns (6)**: {餌付|えづ}け (feeding animals), {営業職|えいぎょうしょく} (sales position), {息継|いきつ}ぎ (breathing pause), {写真映|しゃしんば}え (photogenic), {室内干|しつないぼ}し (indoor drying), {食習慣|しょくしゅうかん} (eating habits)
+- **Multi-sense entries**: {根性|こんじょう} (2: willpower / temperament), {計算違|けいさんちが}い (2: arithmetic error / misjudgment)
+- Removed 1 stale candidate ({終日|しゅうじつ} - already exists as entry 13807)
+- Added 1 new kanji to index: 敲 (knock)
+
+Topics covered: food, culture, law, military, finance, health, daily life, media, sports, nature, work
+Total entries: ~19,023 → ~19,058 (approximate)
+Remaining candidates: ~5,135 → ~5,099 (35 removed as entries + 1 stale candidate removed)
 
 ### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 494)
 Added 35 new dictionary entries (IDs 19179-19213) from candidate_words.json.
@@ -113,23 +128,6 @@ Added 35 new dictionary entries (IDs 19074-19108) from candidate_words.json.
 Topics covered: law/justice, science, politics, food/drink, daily life, culture, communication, nature, business
 Total entries: ~18,883 → ~18,918 (approximate)
 Remaining candidates: ~5,276 → ~5,241 (35 removed as entries)
-
-### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 490)
-Added 35 new dictionary entries (IDs 19039-19073) from candidate_words.json.
-
-- **Nouns (27)**: {石油|せきゆ}ストーブ (kerosene heater), {嬉|うれ}し{泣|な}き (crying for joy), {刻|きざ}み{葱|ねぎ} (chopped green onions), {一味唐辛子|いちみとうがらし} (ground chili pepper), {筆記試験|ひっきしけん} (written exam), {飲|の}み{薬|ぐすり} (oral medicine), {日|ひ}めくり (daily calendar), {米研|こめと}ぎ (rice washing), {折|お}り{返|かえ}し{地点|ちてん} (turnaround point), {手引|てび}き{書|しょ} (guidebook), {洗顔料|せんがんりょう} (facial cleanser), {借用語|しゃくようご} (loanword), {中南米|ちゅうなんべい} (Central/South America), {南半球|みなみはんきゅう} (Southern Hemisphere), {校外学習|こうがいがくしゅう} (field trip), {集団行動|しゅうだんこうどう} (group action), {商業地|しょうぎょうち} (commercial district), {原産国|げんさんこく} (country of origin), お{遍路|へんろ} (Shikoku pilgrimage), {脇|わき}の{下|した} (armpit), {月極駐車場|つきぎめちゅうしゃじょう} (monthly parking), {権威主義|けんいしゅぎ} (authoritarianism), {地方自治体|ちほうじちたい} (local government), {産業廃棄物|さんぎょうはいきぶつ} (industrial waste), {敏感肌|びんかんはだ} (sensitive skin), {留学費用|りゅうがくひよう} (study abroad expenses), {記述式|きじゅつしき} (essay-type test)
-- **Nouns (legal/government, 2)**: {最高裁判所|さいこうさいばんしょ} (Supreme Court), {人事課|じんじか} (HR department)
-- **Nouns (other, 2)**: {指揮官|しきかん} (commander), ぶどう{酒|しゅ} (wine)
-- **Noun/Suru verb (1)**: {再就職|さいしゅうしょく} (re-employment)
-- **Adverb (1)**: {一歩|いっぽ}ずつ (step by step)
-- **Time noun (1)**: {前々日|ぜんぜんじつ} (two days before)
-- **Expression (1)**: {異議|いぎ}を{唱|とな}える (to voice an objection)
-- **Multi-sense entry**: お{遍路|へんろ} (2 senses: pilgrim / pilgrimage)
-- Removed 1 stale candidate ({使|つか}い{走|ばし}り - already exists as entry)
-
-Topics covered: food, daily life, geography, education, law/government, health/skincare, culture, work
-Total entries: ~18,848 → ~18,883 (approximate)
-Remaining candidates: ~5,312 → ~5,276 (35 removed as entries + 1 stale candidate removed)
 
 ---
 
