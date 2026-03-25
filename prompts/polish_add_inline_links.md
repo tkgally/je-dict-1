@@ -208,8 +208,9 @@ next: XXXXX
 After all entries are processed, committed, and pushed:
 
 1. **Create a PR** for the branch
-2. **Enable auto-merge (squash)** on the PR so GitHub merges it automatically once CI passes
-3. **If CI fails**: read the error, fix the issue, push again, and re-enable auto-merge
+2. **Poll CI status** every 60 seconds using the `pull_request_read` tool until all checks pass (allow up to 10 minutes)
+3. **Squash-merge the PR** once all checks are green
+4. **If CI fails**: read the error, fix the issue, push again, and repeat from step 2
 
 This allows the full workflow — from entry processing through merge — to complete without manual intervention.
 
