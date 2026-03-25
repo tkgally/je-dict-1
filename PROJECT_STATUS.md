@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-25 (Noentry Link Polish - 44 New Entries + 132 Link Fixes)
+Created 44 new dictionary entries (IDs 19392-19435) for words marked `noentry` in inline links, and updated 132 existing-entry link-only fixes plus 56 links for newly created entries.
+
+- **Link-only fixes (95 words)**: Updated noentry links to existing entries including うち, つく, でも, 月, 方, 後, 空, やる, よろしく, アルバム, ジャケット, プロジェクト, 億, 千, 政策, 節分, 給食, 音色, 鳴き声, and 75 more
+- **New noun entries (36)**: {本番|ほんばん}, {子犬|こいぬ}, {歯科医|しかい}, {解決策|かいけつさく}, {料理人|りょうりにん}, {窓側|まどがわ}, {白旗|しらはた}, チャンピオン, マニキュア, セメント, {肉料理|にくりょうり}, {小枝|こえだ}, {白馬|はくば}, {名古屋|なごや}, レンガ, {堤防|ていぼう}, {救急箱|きゅうきゅうばこ}, {新型|しんがた}, {火山灰|かざんばい}, ピアニスト, カップル, パン{屋|や}, デモ, {韓国|かんこく}, フランス, カンニング, コルク, イタリア, {生活費|せいかつひ}, {日本料理|にほんりょうり}, {航空券|こうくうけん}, {水|みず}たまり, {裏道|うらみち}, {病歴|びょうれき}, {批評家|ひひょうか}, {街頭|がいとう}, {褒|ほ}め{言葉|ことば}, {山火事|やまかじ}, {子守歌|こもりうた}, {粘土|ねんど}
+- **New adverb entries (3)**: くっきり, すくすく, なだらか (na-adj)
+- **New verb/suffix entries (1)**: まくる (to roll up / ~まくる suffix)
+- **New multi-sense entries**: マニキュア (2), デモ (2), {裏道|うらみち} (2), まくる (2)
+- 2 new kanji added: 堤, 韓
+- Total noentry links resolved: ~188 links across ~165 files; ~290 unique noentry words remaining
+
 ### 2026-03-25 (Noentry Link Polish - 25 New Entries + 18 Link Fixes)
 Created 25 new dictionary entries (IDs 19367-19391) for words marked `noentry` in inline links, and updated 18 existing-entry links.
 
@@ -100,17 +111,6 @@ Added 17 new dictionary entries (IDs 19299-19316) from candidate_words.json. One
 Topics covered: social, household, money, relationships, language, nature, finance, politics, work, animals
 Total entries: ~19,105 → ~19,122 (approximate)
 Remaining candidates: ~5,052 → ~5,035 (17 entries created + 1 duplicate removed)
-
-### 2026-03-25 (Vocabulary Expansion - 20 New Entries, Session 497)
-Added 20 new dictionary entries (IDs 19279-19298) from candidate_words.json.
-
-- **Nouns (13)**: {天丼|てんどん} (tempura rice bowl), {道順|みちじゅん} (route/directions), {厚紙|あつがみ} (cardboard), {子馬|こうま} (foal), {個数|こすう} (number of items), {専務|せんむ} (executive director), {濁音|だくおん} (voiced sound), {高卒|こうそつ} (high school graduate), {大卒|だいそつ} (university graduate), {無添加|むてんか} (additive-free), {非営利|ひえいり} (non-profit), {直属|ちょくぞく} (direct subordination), {愛護|あいご} (protection/welfare)
-- **Suru verbs (4)**: {忘却|ぼうきゃく} (forgetting), {過食|かしょく} (overeating), {放電|ほうでん} (discharge), {想起|そうき} (recollection)
-- **Multi-sense entries (3)**: {色気|いろけ} (2: sex appeal / ambition), {書|か}き{出|だ}し (2: opening sentence / data export), {黒星|くろぼし} (2: sports loss / black mark)
-
-Topics covered: food, directions, education, business, animals, health, science, language, sports, society
-Total entries: ~19,085 → ~19,105 (approximate)
-Remaining candidates: ~5,072 → ~5,052 (20 entries created)
 
 
 
