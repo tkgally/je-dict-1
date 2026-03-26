@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 24 New Entries)
+Added 24 new dictionary entries (IDs 19462-19485) from candidate_words.json. A diverse mix of nouns, adjectives, and verbs covering food, culture, language, and society.
+
+- **Nouns (15)**: {会食|かいしょく} (dining together), {逸品|いっぴん} (masterpiece), {遠方|えんぽう} (distant place), {含意|がんい} (implication), {鏡餅|かがみもち} (New Year rice cake), {資材|しざい} (materials), {余波|よは} (aftereffects), {便所|べんじょ} (toilet), {存命|そんめい} (alive), {天罰|てんばつ} (divine punishment), {穀類|こくるい} (grains), {名品|めいひん} (fine article), {小刀|こがたな} (small knife), {労務|ろうむ} (labor affairs), {亡命者|ぼうめいしゃ} (exile)
+- **Nouns/Suru verbs (4)**: {投降|とうこう} (surrender), {模写|もしゃ} (copying), {空想|くうそう} (fantasy), {冒涜|ぼうとく} (blasphemy)
+- **Adjective-na/Nouns (3)**: {激辛|げきから} (extremely spicy), {貧乏|びんぼう} (poor), {不敬|ふけい} (disrespectful)
+- **Verb (1)**: {編|あ}み{込|こ}む (to braid in)
+- **Food/culture (1)**: {柏餅|かしわもち} (oak-leaf rice cake)
+- 2 new kanji added: 柏, 涜
+- 1 stale candidate removed (会釈する, already exists)
+
 ### 2026-03-25 (Noentry Link Polish - 26 New Entries + All Remaining Links Resolved)
 Created 26 new dictionary entries (IDs 19436-19461) for words marked `noentry` in inline links, and resolved all remaining ~305 noentry links across ~190 files.
 
@@ -96,15 +107,6 @@ Topics covered: food, culture, nature, body, tool, emotion, language, society, t
 Total entries: ~19,141 → ~19,171 (approximate)
 Remaining candidates: ~5,015 → ~4,985 (30 entries created)
 
-### 2026-03-25 (Vocabulary Expansion - 19 New Entries, Session 499)
-Added 19 new dictionary entries (IDs 19317-19336) from candidate_words.json. One candidate ({重宝|ちょうほう}する) was discovered as a duplicate of entry 14415 and removed.
-
-- **Nouns (5)**: {興味津々|きょうみしんしん} (very interested), {瓜|うり}{二|ふた}つ (spitting image), {茶飯事|さはんじ} (everyday occurrence), {大吉|だいきち} (great fortune), {隔月|かくげつ} (every other month)
-- **Noun/Adjective (2)**: {手付|てつ}かず (untouched), {出不精|でぶしょう} (homebody)
-- **Verbs (6)**: {一息|ひといき}つく (to take a breather), {差|さ}し{迫|せま}る (to be imminent), {飛|と}び{立|た}つ (to take off), {恩|おん}に{着|き}る (to feel grateful), {教|おし}え{込|こ}む (to instill), ほころぶ (to come apart/bloom/smile)
-- **Adverbs (3)**: {心|こころ}なしか (somehow/perhaps), よっぽど (considerably), {折|おり}しも (just then)
-- **Other (2)**: {気|き}が{晴|は}れる (to feel refreshed), {飲|の}み{歩|ある}く (to go bar-hopping), いかなる (what kind of/any)
-- **Multi-sense entries**: ほころぶ (3: seam splitting / bud opening / breaking into smile), {飛|と}び{立|た}つ (2: take flight / set out), よっぽど (2: considerably / almost), いかなる (2: what kind of / whatever)
 
 Topics covered: emotion, daily life, culture, time, food-drink, nature, education, language
 Total entries: ~19,122 → ~19,141 (approximate)
