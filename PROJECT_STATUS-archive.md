@@ -3,6 +3,16 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-25 (Vocabulary Expansion - 19 New Entries, Session 499)
+Added 19 new dictionary entries (IDs 19317-19336) from candidate_words.json. One candidate ({重宝|ちょうほう}する) was discovered as a duplicate of entry 14415 and removed.
+
+- **Nouns (5)**: {興味津々|きょうみしんしん} (very interested), {瓜|うり}{二|ふた}つ (spitting image), {茶飯事|さはんじ} (everyday occurrence), {大吉|だいきち} (great fortune), {隔月|かくげつ} (every other month)
+- **Noun/Adjective (2)**: {手付|てつ}かず (untouched), {出不精|でぶしょう} (homebody)
+- **Verbs (6)**: {一息|ひといき}つく (to take a breather), {差|さ}し{迫|せま}る (to be imminent), {飛|と}び{立|た}つ (to take off), {恩|おん}に{着|き}る (to feel grateful), {教|おし}え{込|こ}む (to instill), ほころぶ (to come apart/bloom/smile)
+- **Adverbs (3)**: {心|こころ}なしか (somehow/perhaps), よっぽど (considerably), {折|おり}しも (just then)
+- **Other (2)**: {気|き}が{晴|は}れる (to feel refreshed), {飲|の}み{歩|ある}く (to go bar-hopping), いかなる (what kind of/any)
+- **Multi-sense entries**: ほころぶ (3: seam splitting / bud opening / breaking into smile), {飛|と}び{立|た}つ (2: take flight / set out), よっぽど (2: considerably / almost), いかなる (2: what kind of / whatever)
+
 ### 2026-03-24 (Vocabulary Expansion - 35 New Entries, Session 489)
 Added 35 new dictionary entries (IDs 19004-19038) from candidate_words.json.
 
