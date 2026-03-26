@@ -24,7 +24,7 @@
   "examples": [
     {
       "id": "02691_kei_ex1",
-      "japanese": "{計|けい}10{人|にん}",
+      "japanese": "{計|けい}10⟦{人|にん}→〜人：00658_nin⟧",
       "english": "A total of 10 people.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02691_kei_ex2",
-      "japanese": "{合計|ごうけい}で{千|せん}{円|えん}です。",
+      "japanese": "⟦{合計|ごうけい}→合計：02817_goukei⟧⟦で→で：00502_de⟧⟦{千|せん}→千：00809_sen⟧⟦{円|えん}→円：00774_en⟧です。",
       "english": "The total is 1,000 yen.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02691_kei_ex3",
-      "japanese": "{今日|きょう}の{売|う}り{上|あ}げは{計|けい}{五万|ごまん}{円|えん}だった。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{売|う}り{上|あ}げ→売り上げ：04102_uriage⟧⟦は→は：00079_ha⟧{計|けい}{五万|ごまん}⟦{円|えん}→円：00774_en⟧だった。",
       "english": "Today's sales totaled 50,000 yen.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02691_kei_ex4",
-      "japanese": "{計画|けいかく}を{立|た}てる。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧。",
       "english": "To make a plan.",
       "notes": null,
       "has_audio": false,
@@ -64,7 +64,7 @@
     },
     {
       "id": "02691_kei_ex5",
-      "japanese": "{旅行|りょこう}の{計画|けいかく}を{立|た}てている。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{立|た}てている→立てる：01196_tateru⟧。",
       "english": "I am making travel plans.",
       "notes": null,
       "has_audio": false,
@@ -74,7 +74,7 @@
     },
     {
       "id": "02691_kei_ex6",
-      "japanese": "{会社|かいしゃ}の{新|あたら}しい{計画|けいかく}について{話|はな}し{合|あ}った。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦について→に：00314_ni⟧⟦{話|はな}し{合|あ}った→話し合う：02396_hanashiau⟧。",
       "english": "We discussed the company's new plan.",
       "notes": null,
       "has_audio": false,
@@ -84,7 +84,7 @@
     },
     {
       "id": "02691_kei_ex7",
-      "japanese": "{体温|たいおん}{計|けい}で{測|はか}る。",
+      "japanese": "⟦{体温|たいおん}→体温：03385_taion⟧{計|けい}⟦で→で：00502_de⟧⟦{測|はか}る→測る：01977_hakaru⟧。",
       "english": "To measure with a thermometer.",
       "notes": null,
       "has_audio": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "02691_kei_ex8",
-      "japanese": "{時計|とけい}を{見|み}た。",
+      "japanese": "⟦{時計|とけい}→時計：00677_tokei⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I looked at the clock.",
       "notes": null,
       "has_audio": false,
@@ -104,7 +104,7 @@
     },
     {
       "id": "02691_kei_ex9",
-      "japanese": "{温度|おんど}{計|けい}で{部屋|へや}の{温度|おんど}を{確認|かくにん}した。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧{計|けい}⟦で→で：00502_de⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦した→する：00392_suru⟧。",
       "english": "I checked the room temperature with a thermometer.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T07:05:25Z",
-    "modified": "2026-01-24T07:38:50Z",
+    "modified": "2026-03-26T03:26:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
