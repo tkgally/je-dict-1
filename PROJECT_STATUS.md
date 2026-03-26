@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 502)
+Added 30 new dictionary entries (IDs 19486-19515) from candidate_words.json. A diverse mix of expressions, nouns, and adverbs covering daily life, culture, health, nature, and abstract concepts.
+
+- **Expressions (10)**: {折|おり}に{触|ふ}れて (on occasion), {元気|げんき}がない (listless), {落|お}ち{着|つ}かない (restless), {口火|くちび}を{切|き}る (to start things off), {心|こころ}ここにあらず (absentminded), {期限|きげん}が{切|き}れる (to expire), {言葉|ことば}を{交|か}わす (to exchange words), {役割|やくわり}を{果|は}たす (to fulfill a role)
+- **Nouns (15)**: {勝手口|かってぐち} (kitchen door), {因果関係|いんがかんけい} (causal relationship), {血糖値|けっとうち} (blood sugar level), {炭酸飲料|たんさんいんりょう} (carbonated beverage), {徳利|とっくり} (sake bottle), {豆類|まめるい} (legumes), {虚空|こくう} (void), {音漏|おとも}れ (sound leakage), {通信簿|つうしんぼ} (report card), {夕映|ゆうば}え (sunset glow), {青菜|あおな} (leafy greens), {後頭部|こうとうぶ} (back of the head), {生|は}え{際|ぎわ} (hairline), ご{祝儀袋|しゅうぎぶくろ} (gift money envelope), {適者生存|てきしゃせいぞん} (survival of the fittest)
+- **Noun/Suru verbs (3)**: {沈静化|ちんせいか} (calming down), バトンタッチ (handover), {品種改良|ひんしゅかいりょう} (selective breeding)
+- **Adverbs (2)**: {急|いそ}いで (hurriedly), {皆目|かいもく} (not at all)
+- **Na-adjective (1)**: {自分勝手|じぶんかって} (selfish)
+- **Other (1)**: {一切合切|いっさいがっさい} (absolutely everything)
+
 ### 2026-03-26 (Vocabulary Expansion - 23 New Entries)
 Added 23 new dictionary entries (IDs 19462-19485) from candidate_words.json. A diverse mix of nouns, adjectives, and verbs covering food, culture, language, and society.
 
@@ -94,24 +104,6 @@ Created 25 new dictionary entries (IDs 19367-19391) for words marked `noentry` i
 - **New noun entries (17)**: {説明書|せつめいしょ}, {江戸|えど}, {餌食|えじき}, {経済学|けいざいがく}, {第一|だいいち}, {科学者|かがくしゃ}, {人前|ひとまえ}, {営業部|えいぎょうぶ}, {今日中|きょうじゅう}, {飛行士|ひこうし}, {安全性|あんぜんせい}, {委員長|いいんちょう}, {危害|きがい}, {日|ひ}の{丸|まる}, {木刀|ぼくとう}, {雀蜂|すずめばち}, {松竹梅|しょうちくばい}
 - Total noentry links resolved: ~60 links across ~55 entry files
 
-### 2026-03-25 (Vocabulary Expansion - 30 New Entries, Session 500)
-Added 30 new dictionary entries (IDs 19337-19366) from candidate_words.json. A diverse mix of single-kanji words, common nouns, verbs, and expressions.
-
-- **Single-kanji nouns (18)**: {鮭|さけ} (salmon), {串|くし} (skewer), {芝|しば} (turf), {刃|やいば} (blade), {芸|げい} (art/trick), {吉|きち} (good fortune), {凶|きょう} (bad luck), {乳|ちち} (milk/breast), {腸|ちょう} (intestine), {雫|しずく} (droplet), {虜|とりこ} (captive/devotee), {某|ぼう} (a certain), {黄|き} (yellow), {王|おう} (king), {的|まと} (target), {要|かなめ} (linchpin), {魔|ま} (demon), {栓|せん} (stopper)
-- **Multi-sense nouns (3)**: {錠|じょう} (lock/tablet, 2 senses), {節|せつ} (section/season/moderation, 3 senses), {表|ひょう} (table/chart)
-- **Verbs (2)**: {難航|なんこう}する (to run into difficulties), {始動|しどう}する (to start up)
-- **Other (7)**: {旧|きゅう} (old/former, prefix), {暦|こよみ} (calendar), {際|きわ} (edge/verge), {空模様|そらもよう} (weather conditions), {目|め}を{閉|と}じる (to close one's eyes), {抵抗感|ていこうかん} (reluctance), {主|あるじ} (master/host)
-- **Multi-sense entries**: {刃|やいば} (2: blade/sword), {芸|げい} (2: art/trick), {乳|ちち} (2: milk/breast), {虜|とりこ} (2: captive/devotee), {王|おう} (2: king/champion), {際|きわ} (2: edge/critical moment), {魔|ま} (2: demon/magic), {錠|じょう} (2: lock/tablet), {節|せつ} (3: section/season/moderation)
-
-4 new kanji added to kanji index: 某, 虜, 雫, 鮭
-Topics covered: food, culture, nature, body, tool, emotion, language, society, time, religion
-Total entries: ~19,141 → ~19,171 (approximate)
-Remaining candidates: ~5,015 → ~4,985 (30 entries created)
-
-
-Topics covered: emotion, daily life, culture, time, food-drink, nature, education, language
-Total entries: ~19,122 → ~19,141 (approximate)
-Remaining candidates: ~5,035 → ~5,015 (19 entries created + 1 duplicate removed)
 
 
 
