@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 503)
+Added 30 new dictionary entries (IDs 19516-19545) from candidate_words.json. Focused on practical, high-utility words for intermediate learners — emotions, social behavior, common expressions, and everyday verbs.
+
+- **Expressions (7)**: {機嫌|きげん}が{悪|わる}い (in a bad mood), {納得|なっとく}がいかない (can't accept), {気|き}が{気|き}でない (anxious), {気|き}が{楽|らく} (at ease), {愛想|あいそ}を{尽|つ}かす (fed up with), {後|うし}ろ{髪|がみ}を{引|ひ}かれる (reluctant to leave), {丁重|ていちょう}に{断|ことわ}る (politely decline)
+- **Verbs (7)**: {面白|おもしろ}がる (find amusing), {遠慮|えんりょ}する (refrain), {謝罪|しゃざい}する (apologize formally), {拒絶|きょぜつ}する (reject), {変色|へんしょく}する (discolor), {波及|はきゅう}する (spread/ripple out), {絞|しぼ}り{出|だ}す (squeeze out)
+- **Nouns (5)**: {侵入者|しんにゅうしゃ} (intruder), {積極性|せっきょくせい} (proactiveness), {利害関係|りがいかんけい} (interests/stakes), {感想文|かんそうぶん} (book report), {習慣化|しゅうかんか} (habituation)
+- **Adjectives (2)**: {心細|こころぼそ}い (anxious/helpless), {心|こころ}もとない (uncertain/uneasy)
+- **Na-adjectives/Nouns (3)**: {高慢|こうまん} (arrogant), {独|ひと}りぼっち (all alone), ハイテンション (excited/hyper)
+- **Other (4)**: でございます (polite copula), お{天気屋|てんきや} (moody person), {入会|にゅうかい}する (join/enroll), {侵|おか}す (invade/violate)
+- **Verbs with cross-refs**: {積|つ}み{重|かさ}なる (pile up, with transitive pair), {移|うつ}り{変|か}わる (change gradually), {侵|おか}す (with homophone cross-refs to {犯|おか}す and {冒|おか}す)
+
 ### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 502)
 Added 30 new dictionary entries (IDs 19486-19515) from candidate_words.json. A diverse mix of expressions, nouns, and adverbs covering daily life, culture, health, nature, and abstract concepts.
 
@@ -94,17 +105,6 @@ Created 44 new dictionary entries (IDs 19392-19435) for words marked `noentry` i
 - **New multi-sense entries**: マニキュア (2), デモ (2), {裏道|うらみち} (2), まくる (2)
 - 2 new kanji added: 堤, 韓
 - Total noentry links resolved: ~188 links across ~165 files; ~290 unique noentry words remaining
-
-### 2026-03-25 (Noentry Link Polish - 25 New Entries + 18 Link Fixes)
-Created 25 new dictionary entries (IDs 19367-19391) for words marked `noentry` in inline links, and updated 18 existing-entry links.
-
-- **Link-only fixes (18 words)**: Updated noentry links to existing entries for かかる, 白, 風呂, 咲く, 宝くじ, 赤ちゃん, パソコン, トマト, おにぎり, 家族, 見つかる, 国旗, 犠牲者, 物腰, 王, 罰金, バラ, ひまわり
-- **New verb entries (6)**: {受|う}かる (to pass exam), {治|なお}す (to cure), {離|はな}す (to separate), {交|か}わす (to exchange), {冒|おか}す (to brave/risk), {剥|む}ける (to peel off)
-- **New adjective entries (2)**: {思|おも}いがけない (unexpected), {真|ま}ん{丸|まる} (perfectly round)
-- **New noun entries (17)**: {説明書|せつめいしょ}, {江戸|えど}, {餌食|えじき}, {経済学|けいざいがく}, {第一|だいいち}, {科学者|かがくしゃ}, {人前|ひとまえ}, {営業部|えいぎょうぶ}, {今日中|きょうじゅう}, {飛行士|ひこうし}, {安全性|あんぜんせい}, {委員長|いいんちょう}, {危害|きがい}, {日|ひ}の{丸|まる}, {木刀|ぼくとう}, {雀蜂|すずめばち}, {松竹梅|しょうちくばい}
-- Total noentry links resolved: ~60 links across ~55 entry files
-
-
 
 
 
