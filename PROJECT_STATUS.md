@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 505)
+Added 30 new dictionary entries (IDs 19576-19605) from candidate_words.json. Focused on verbs, literary terms, and useful vocabulary across a range of domains.
+
+- **Verbs (17)**: {背|そむ}く (defy/betray), {汗|あせ}ばむ (become sweaty), {濁|にご}す (make muddy/speak vaguely), {揺|ゆ}るぐ (shake/waver), {薫|かお}る (be fragrant), {綴|と}じる (bind/staple), {見誤|みあやま}る (misjudge), {挫|くじ}く (sprain/crush spirits), {商|あきな}う (trade), {退|しりぞ}ける (repel/reject), {障|さわ}る (hinder/offend), {投|とう}じる (throw in/invest/cast vote), {下向|したむ}く (look down), {跳|と}ぶ (jump/leap), {治|なお}る (heal/recover), {延|の}びる (be postponed/extended), {禁|きん}ずる (forbid/suppress)
+- **Nouns/Suru (3)**: {満喫|まんきつ} (thorough enjoyment), {錯綜|さくそう} (entanglement), {公言|こうげん} (public declaration)
+- **Nouns (7)**: {聞|き}き{役|やく} (listener role), {一般論|いっぱんろん} (generalization), {涼感|りょうかん} (cool feeling), {既述|きじゅつ} (already stated), {決算書|けっさんしょ} (financial statement), {余情|よじょう} (lingering feeling), {枯淡|こたん} (refined simplicity)
+- **Other (3)**: {米国|べいこく} (United States), {高等教育|こうとうきょういく} (higher education), {虚飾|きょしょく} (vanity/ostentation)
+- 1 new kanji added to index: 綜
+
 ### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 504)
 Added 30 new dictionary entries (IDs 19546-19575) from candidate_words.json. Focused on useful words for intermediate learners spanning emotions, daily life, culture, and practical vocabulary.
 
@@ -95,15 +104,6 @@ Added 23 new dictionary entries (IDs 19462-19485) from candidate_words.json. A d
 - 1 stale candidate removed (会釈する, already exists)
 - 1 duplicate removed (空想, already exists as entry 00256)
 
-### 2026-03-25 (Noentry Link Polish - 26 New Entries + All Remaining Links Resolved)
-Created 26 new dictionary entries (IDs 19436-19461) for words marked `noentry` in inline links, and resolved all remaining ~305 noentry links across ~190 files.
-
-- **New noun entries (21)**: {光栄|こうえい}, {迷|まよ}い, {重荷|おもに}, {闘志|とうし}, {路上|ろじょう}, {間柄|あいだがら}, {銅|どう}, {鉄分|てつぶん}, {高所|こうしょ}, {上体|じょうたい}, {人違|ひとちが}い, {例文|れいぶん}, {凍土|とうど}, {不良品|ふりょうひん}, {下半身|かはんしん}, {入場券|にゅうじょうけん}, {両腕|りょううで}, {貝殻|かいがら}, {沖合|おきあい}, {均等|きんとう}, {是非|ぜひ}, {土地勘|とちかん}
-- **New noun/suru entry (1)**: {転換|てんかん}
-- **New verb entries (2)**: {静|しず}める, {買|か}い{替|か}える
-- **New adverb entry (1)**: {青々|あおあお}
-- **Link-only updates (26 links)**: Updated noentry links to newly created entries
-- **Link removals (~280 links)**: Stripped noentry wrappers for number+counter combinations (百年, 十時, etc.), proper nouns (兵庫, 奈良, etc.), place names, specialized compounds, single-kanji words, and grammatical patterns
 - **All noentry links now resolved**: 0 remaining (down from ~305)
 
 
