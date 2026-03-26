@@ -51,16 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
-### 2026-03-26 (Vocabulary Expansion - 24 New Entries)
-Added 24 new dictionary entries (IDs 19462-19485) from candidate_words.json. A diverse mix of nouns, adjectives, and verbs covering food, culture, language, and society.
+### 2026-03-26 (Vocabulary Expansion - 23 New Entries)
+Added 23 new dictionary entries (IDs 19462-19485) from candidate_words.json. A diverse mix of nouns, adjectives, and verbs covering food, culture, language, and society.
 
 - **Nouns (15)**: {会食|かいしょく} (dining together), {逸品|いっぴん} (masterpiece), {遠方|えんぽう} (distant place), {含意|がんい} (implication), {鏡餅|かがみもち} (New Year rice cake), {資材|しざい} (materials), {余波|よは} (aftereffects), {便所|べんじょ} (toilet), {存命|そんめい} (alive), {天罰|てんばつ} (divine punishment), {穀類|こくるい} (grains), {名品|めいひん} (fine article), {小刀|こがたな} (small knife), {労務|ろうむ} (labor affairs), {亡命者|ぼうめいしゃ} (exile)
-- **Nouns/Suru verbs (4)**: {投降|とうこう} (surrender), {模写|もしゃ} (copying), {空想|くうそう} (fantasy), {冒涜|ぼうとく} (blasphemy)
+- **Nouns/Suru verbs (3)**: {投降|とうこう} (surrender), {模写|もしゃ} (copying), {冒涜|ぼうとく} (blasphemy)
 - **Adjective-na/Nouns (3)**: {激辛|げきから} (extremely spicy), {貧乏|びんぼう} (poor), {不敬|ふけい} (disrespectful)
 - **Verb (1)**: {編|あ}み{込|こ}む (to braid in)
 - **Food/culture (1)**: {柏餅|かしわもち} (oak-leaf rice cake)
 - 2 new kanji added: 柏, 涜
 - 1 stale candidate removed (会釈する, already exists)
+- 1 duplicate removed (空想, already exists as entry 00256)
 
 ### 2026-03-25 (Noentry Link Polish - 26 New Entries + All Remaining Links Resolved)
 Created 26 new dictionary entries (IDs 19436-19461) for words marked `noentry` in inline links, and resolved all remaining ~305 noentry links across ~190 files.
