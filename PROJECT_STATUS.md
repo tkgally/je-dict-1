@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 504)
+Added 30 new dictionary entries (IDs 19546-19575) from candidate_words.json. Focused on useful words for intermediate learners spanning emotions, daily life, culture, and practical vocabulary.
+
+- **Verbs (7)**: {引|ひ}きこもる (withdraw/shut in), {繁盛|はんじょう}する (prosper), {浮上|ふじょう}する (surface/emerge), {照|て}りつける (blaze down), ひねくれる (become twisted/perverse), {恐縮|きょうしゅく}する (feel obliged), {仕切|しき}り{直|なお}す (start over)
+- **Nouns (9)**: クリーニング (dry cleaning), アンテナ (antenna), {連帯感|れんたいかん} (solidarity), {果肉|かにく} (fruit flesh), {涙声|なみだごえ} (tearful voice), {入国審査|にゅうこくしんさ} (immigration), {追|お}っかけ (devoted fan), {円|えん}グラフ (pie chart), {生活習慣|せいかつしゅうかん} (lifestyle habits)
+- **Nouns (continued, 5)**: {病原体|びょうげんたい} (pathogen), {良策|りょうさく} (good plan), {思|おも}い{過|す}ごし (overthinking), {果皮|かひ} (fruit peel), {鳥籠|とりかご} (birdcage)
+- **Noun/Suru (1)**: {雪辱|せつじょく} (vindication)
+- **Expressions (3)**: {呆然|ぼうぜん}とする (be stunned), {度|ど}が{過|す}ぎる (go too far), {感無量|かんむりょう} (deeply moved)
+- **Na-adjective (2)**: {不親切|ふしんせつ} (unkind), {背中合|せなかあ}わせ (back to back)
+- **Adverbs (3)**: {時々刻々|じじこっこく} (moment by moment), ついうっかり (carelessly), {何|なに}はともあれ (anyway)
+
 ### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 503)
 Added 30 new dictionary entries (IDs 19516-19545) from candidate_words.json. Focused on practical, high-utility words for intermediate learners — emotions, social behavior, common expressions, and everyday verbs.
 
@@ -94,17 +105,6 @@ Created 26 new dictionary entries (IDs 19436-19461) for words marked `noentry` i
 - **Link-only updates (26 links)**: Updated noentry links to newly created entries
 - **Link removals (~280 links)**: Stripped noentry wrappers for number+counter combinations (百年, 十時, etc.), proper nouns (兵庫, 奈良, etc.), place names, specialized compounds, single-kanji words, and grammatical patterns
 - **All noentry links now resolved**: 0 remaining (down from ~305)
-
-### 2026-03-25 (Noentry Link Polish - 44 New Entries + 132 Link Fixes)
-Created 44 new dictionary entries (IDs 19392-19435) for words marked `noentry` in inline links, and updated 132 existing-entry link-only fixes plus 56 links for newly created entries.
-
-- **Link-only fixes (95 words)**: Updated noentry links to existing entries including うち, つく, でも, 月, 方, 後, 空, やる, よろしく, アルバム, ジャケット, プロジェクト, 億, 千, 政策, 節分, 給食, 音色, 鳴き声, and 75 more
-- **New noun entries (36)**: {本番|ほんばん}, {子犬|こいぬ}, {歯科医|しかい}, {解決策|かいけつさく}, {料理人|りょうりにん}, {窓側|まどがわ}, {白旗|しらはた}, チャンピオン, マニキュア, セメント, {肉料理|にくりょうり}, {小枝|こえだ}, {白馬|はくば}, {名古屋|なごや}, レンガ, {堤防|ていぼう}, {救急箱|きゅうきゅうばこ}, {新型|しんがた}, {火山灰|かざんばい}, ピアニスト, カップル, パン{屋|や}, デモ, {韓国|かんこく}, フランス, カンニング, コルク, イタリア, {生活費|せいかつひ}, {日本料理|にほんりょうり}, {航空券|こうくうけん}, {水|みず}たまり, {裏道|うらみち}, {病歴|びょうれき}, {批評家|ひひょうか}, {街頭|がいとう}, {褒|ほ}め{言葉|ことば}, {山火事|やまかじ}, {子守歌|こもりうた}, {粘土|ねんど}
-- **New adverb entries (3)**: くっきり, すくすく, なだらか (na-adj)
-- **New verb/suffix entries (1)**: まくる (to roll up / ~まくる suffix)
-- **New multi-sense entries**: マニキュア (2), デモ (2), {裏道|うらみち} (2), まくる (2)
-- 2 new kanji added: 堤, 韓
-- Total noentry links resolved: ~188 links across ~165 files; ~290 unique noentry words remaining
 
 
 
