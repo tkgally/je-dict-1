@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 14 New Entries, Session 509)
+Added 14 new dictionary entries (IDs 19686-19699) from candidate_words.json. Diverse mix of daily-life vocabulary, verbs, and cultural terms.
+
+- **Nouns (10)**: {部屋着|へやぎ} (loungewear), {一戸建|いっこだ}て (detached house), {学園祭|がくえんさい} (school festival), {仕事仲間|しごとなかま} (work colleague), {懇談会|こんだんかい} (informal meeting), {体臭|たいしゅう} (body odor), {内勤|ないきん} (desk work), {大家族|だいかぞく} (large family), {第一志望|だいいちしぼう} (first choice), {図工|ずこう} (arts and crafts)
+- **Verbs (4)**: {遠|とお}ざける (to keep away), ちらつく (to flicker), {埋|うず}もれる (to be buried in), {持|も}ち{運|はこ}ぶ (to carry around)
+- Removed 1 stale candidate ({間取|まど}り — already exists as entry 06078)
+
 ### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 508)
 Added 30 new dictionary entries (IDs 19656-19685) from candidate_words.json. Diverse mix of useful intermediate vocabulary including expressions, cultural terms, and formal language.
 
@@ -86,17 +93,6 @@ Added 30 new dictionary entries (IDs 19576-19605) from candidate_words.json. Foc
 - **Nouns (7)**: {聞|き}き{役|やく} (listener role), {一般論|いっぱんろん} (generalization), {涼感|りょうかん} (cool feeling), {既述|きじゅつ} (already stated), {決算書|けっさんしょ} (financial statement), {余情|よじょう} (lingering feeling), {枯淡|こたん} (refined simplicity)
 - **Other (3)**: {米国|べいこく} (United States), {高等教育|こうとうきょういく} (higher education), {虚飾|きょしょく} (vanity/ostentation)
 - 1 new kanji added to index: 綜
-
-### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 504)
-Added 30 new dictionary entries (IDs 19546-19575) from candidate_words.json. Focused on useful words for intermediate learners spanning emotions, daily life, culture, and practical vocabulary.
-
-- **Verbs (7)**: {引|ひ}きこもる (withdraw/shut in), {繁盛|はんじょう}する (prosper), {浮上|ふじょう}する (surface/emerge), {照|て}りつける (blaze down), ひねくれる (become twisted/perverse), {恐縮|きょうしゅく}する (feel obliged), {仕切|しき}り{直|なお}す (start over)
-- **Nouns (9)**: クリーニング (dry cleaning), アンテナ (antenna), {連帯感|れんたいかん} (solidarity), {果肉|かにく} (fruit flesh), {涙声|なみだごえ} (tearful voice), {入国審査|にゅうこくしんさ} (immigration), {追|お}っかけ (devoted fan), {円|えん}グラフ (pie chart), {生活習慣|せいかつしゅうかん} (lifestyle habits)
-- **Nouns (continued, 5)**: {病原体|びょうげんたい} (pathogen), {良策|りょうさく} (good plan), {思|おも}い{過|す}ごし (overthinking), {果皮|かひ} (fruit peel), {鳥籠|とりかご} (birdcage)
-- **Noun/Suru (1)**: {雪辱|せつじょく} (vindication)
-- **Expressions (3)**: {呆然|ぼうぜん}とする (be stunned), {度|ど}が{過|す}ぎる (go too far), {感無量|かんむりょう} (deeply moved)
-- **Na-adjective (2)**: {不親切|ふしんせつ} (unkind), {背中合|せなかあ}わせ (back to back)
-- **Adverbs (3)**: {時々刻々|じじこっこく} (moment by moment), ついうっかり (carelessly), {何|なに}はともあれ (anyway)
 
 
 
