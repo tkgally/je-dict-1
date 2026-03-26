@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 511)
+Added 30 new dictionary entries (IDs 19729-19758) from candidate_words.json. Mixed vocabulary including particles, expressions, business terms, and cultural vocabulary.
+
+- **Particles (2)**: くせに (despite/critical tone), ものの (although/even though)
+- **Expressions (4)**: {言|い}うまでもなく (it goes without saying), どっちにしろ (either way), {首|くび}を{横|よこ}に{振|ふ}る (to shake one's head), {居|い}ても{立|た}っても{居|い}られない (unable to sit still)
+- **Nouns (20)**: ピンボケ (out of focus), {許容範囲|きょようはんい} (acceptable range), {親会社|おやがいしゃ} (parent company), {更|さら}には (furthermore), {度数|どすう} (frequency/alcohol content), お{門違|かどちが}い (barking up the wrong tree), {建|た}て{替|か}え (rebuilding), {勧善懲悪|かんぜんちょうあく} (poetic justice), マーガリン (margarine), {迷惑行為|めいわくこうい} (nuisance behavior), {油性|ゆせい}ペン (permanent marker), {掛|か}け{時計|どけい} (wall clock), {都市計画|としけいかく} (urban planning), {四半世紀|しはんせいき} (quarter century), {手順書|てじゅんしょ} (procedure manual), {草食動物|そうしょくどうぶつ} (herbivore), {産出|さんしゅつ} (production/yield), {着色料|ちゃくしょくりょう} (coloring agent), {祭礼|さいれい} (religious festival), {関連会社|かんれんがいしゃ} (affiliated company)
+- **Other (4)**: {不健全|ふけんぜん} (unhealthy/na-adj), {碁石|ごいし} (Go stone), {壮年|そうねん} (prime of life), {予定|よてい}が{詰|つ}まる (packed schedule)
+- Removed 3 stale candidates (雑な, 滑らかな, 無数の — already exist as entries)
+
 ### 2026-03-26 (Vocabulary Expansion - 14 New Entries, Session 509)
 Added 14 new dictionary entries (IDs 19686-19699) from candidate_words.json. Diverse mix of daily-life vocabulary, verbs, and cultural terms.
 
@@ -74,16 +83,6 @@ Added 30 new dictionary entries (IDs 19626-19655) from candidate_words.json. Foc
 
 - **Suru verbs (27)**: {限定|げんてい}する (to limit), {抽出|ちゅうしゅつ}する (to extract), {把握|はあく}する (to grasp), {特化|とっか}する (to specialize), {密集|みっしゅう}する (to be densely packed), {告白|こくはく}する (to confess), {促進|そくしん}する (to promote), {稼働|かどう}する (to operate), {実施|じっし}する (to implement), {規制|きせい}する (to regulate), {制限|せいげん}する (to restrict), {加熱|かねつ}する (to heat), {誤解|ごかい}する (to misunderstand), {共有|きょうゆう}する (to share), {共感|きょうかん}する (to empathize), {緩和|かんわ}する (to ease), {特定|とくてい}する (to identify), {配達|はいたつ}する (to deliver), {提出|ていしゅつ}する (to submit), {通知|つうち}する (to notify), {追加|ついか}する (to add), {固定|こてい}する (to fix), {一致|いっち}する (to match), {空想|くうそう}する (to fantasize), {反射|はんしゃ}する (to reflect), {予測|よそく}する (to predict), {阻止|そし}する (to prevent)
 - **Nouns (3)**: {密閉|みっぺい} (airtight seal), {転校生|てんこうせい} (transfer student), {想定内|そうていない} (within expectations)
-
-### 2026-03-26 (Vocabulary Expansion - 20 New Entries, Session 506)
-Added 20 new dictionary entries (IDs 19606-19625) from candidate_words.json. Focused on useful intermediate-level vocabulary across a range of semantic areas.
-
-- **Nouns (11)**: {鼓動|こどう} (heartbeat), {模範|もはん} (model/exemplar), {威力|いりょく} (power/might), {猟師|りょうし} (hunter), {家路|いえじ} (road home), {画鋲|がびょう} (thumbtack), {赤身|あかみ} (lean meat), {黒糖|こくとう} (brown sugar), {菜園|さいえん} (vegetable garden), {集落|しゅうらく} (village/settlement), {代打|だいだ} (pinch hitter)
-- **Nouns/Suru verbs (4)**: {読破|どくは} (reading through), {撲滅|ぼくめつ} (eradication), {一望|いちぼう} (sweeping view), {必読|ひつどく} (must-read)
-- **Noun/Na-adj (2)**: {不服|ふふく} (dissatisfaction), {鋭利|えいり} (sharp/keen)
-- **Na-adjective (1)**: {雄大|ゆうだい} (grand/magnificent)
-- **Season/Time (2)**: {晩夏|ばんか} (late summer), {支流|しりゅう} (tributary)
-- 1 new kanji added to index: 鋲
 
 ### 2026-03-26 (Vocabulary Expansion - 29 New Entries, Session 510)
 Added 29 new dictionary entries (IDs 19700-19728) from candidate_words.json. Mixed vocabulary including adjectives, expressions, compass directions, and formal nouns.
