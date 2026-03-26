@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 512)
+Added 30 new dictionary entries (IDs 19759-19788) from candidate_words.json. Diverse mix of practical vocabulary for intermediate learners.
+
+- **Nouns (20)**: {誠意|せいい} (sincerity), {晩飯|ばんめし} (dinner), {煮込|にこ}み (stew), {音沙汰|おとさた} (news/sign of life), {花畑|はなばたけ} (flower field), {民芸|みんげい} (folk craft), {鎮静|ちんせい} (sedation), {珍事|ちんじ} (rare event), {平時|へいじ} (peacetime), {多重|たじゅう} (multiple), {号外|ごうがい} (extra edition), {正確|せいかく}さ (accuracy), {空襲|くうしゅう} (air raid), {引|ひ}き{締|し}め (tightening), {軽油|けいゆ} (diesel), すね (shin), {砲撃|ほうげき} (shelling), {流血|りゅうけつ} (bloodshed), {止血|しけつ} (hemostasis), {空爆|くうばく} (air strike)
+- **Adverbs (3)**: やむなく (unavoidably), {常時|じょうじ} (constantly), {初|はじ}めから (from the beginning)
+- **Other (7)**: ずぼら (lazy/na-adj), {号車|ごうしゃ} (train car number/counter), {手慣|てな}れる (to become skilled/verb), {油菜|あぶらな} (rapeseed), {定時制|ていじせい} (part-time school), {手工芸|しゅこうげい} (handicraft), {遠望|えんぼう} (distant view)
+
 ### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 511)
 Added 30 new dictionary entries (IDs 19729-19758) from candidate_words.json. Mixed vocabulary including particles, expressions, business terms, and cultural vocabulary.
 
@@ -77,12 +84,6 @@ Added 30 new dictionary entries (IDs 19656-19685) from candidate_words.json. Div
 - **Other (2)**: {何卒|なにとぞ} (please/formal), {生身|なまみ} (flesh and blood)
 - 1 new kanji added to index: 俸
 - Removed 1 stale candidate (活発 — already exists as entry 13272)
-
-### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 507)
-Added 30 new dictionary entries (IDs 19626-19655) from candidate_words.json. Focused on common する verbs and practical nouns useful for intermediate learners.
-
-- **Suru verbs (27)**: {限定|げんてい}する (to limit), {抽出|ちゅうしゅつ}する (to extract), {把握|はあく}する (to grasp), {特化|とっか}する (to specialize), {密集|みっしゅう}する (to be densely packed), {告白|こくはく}する (to confess), {促進|そくしん}する (to promote), {稼働|かどう}する (to operate), {実施|じっし}する (to implement), {規制|きせい}する (to regulate), {制限|せいげん}する (to restrict), {加熱|かねつ}する (to heat), {誤解|ごかい}する (to misunderstand), {共有|きょうゆう}する (to share), {共感|きょうかん}する (to empathize), {緩和|かんわ}する (to ease), {特定|とくてい}する (to identify), {配達|はいたつ}する (to deliver), {提出|ていしゅつ}する (to submit), {通知|つうち}する (to notify), {追加|ついか}する (to add), {固定|こてい}する (to fix), {一致|いっち}する (to match), {空想|くうそう}する (to fantasize), {反射|はんしゃ}する (to reflect), {予測|よそく}する (to predict), {阻止|そし}する (to prevent)
-- **Nouns (3)**: {密閉|みっぺい} (airtight seal), {転校生|てんこうせい} (transfer student), {想定内|そうていない} (within expectations)
 
 ### 2026-03-26 (Vocabulary Expansion - 29 New Entries, Session 510)
 Added 29 new dictionary entries (IDs 19700-19728) from candidate_words.json. Mixed vocabulary including adjectives, expressions, compass directions, and formal nouns.
