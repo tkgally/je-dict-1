@@ -85,10 +85,16 @@ Added 20 new dictionary entries (IDs 19606-19625) from candidate_words.json. Foc
 - **Season/Time (2)**: {晩夏|ばんか} (late summer), {支流|しりゅう} (tributary)
 - 1 new kanji added to index: 鋲
 
-### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 505)
-Added 30 new dictionary entries (IDs 19576-19605) from candidate_words.json. Focused on verbs, literary terms, and useful vocabulary across a range of domains.
+### 2026-03-26 (Vocabulary Expansion - 29 New Entries, Session 510)
+Added 29 new dictionary entries (IDs 19700-19728) from candidate_words.json. Mixed vocabulary including adjectives, expressions, compass directions, and formal nouns.
 
-- **Verbs (17)**: {背|そむ}く (defy/betray), {汗|あせ}ばむ (become sweaty), {濁|にご}す (make muddy/speak vaguely), {揺|ゆ}るぐ (shake/waver), {薫|かお}る (be fragrant), {綴|と}じる (bind/staple), {見誤|みあやま}る (misjudge), {挫|くじ}く (sprain/crush spirits), {商|あきな}う (trade), {退|しりぞ}ける (repel/reject), {障|さわ}る (hinder/offend), {投|とう}じる (throw in/invest/cast vote), {下向|したむ}く (look down), {跳|と}ぶ (jump/leap), {治|なお}る (heal/recover), {延|の}びる (be postponed/extended), {禁|きん}ずる (forbid/suppress)
+- **Nouns (14)**: {無機質|むきしつ} (inorganic/cold), {垢|あか} (grime), {略図|りゃくず} (rough sketch), {学区|がっく} (school district), {医薬品|いやくひん} (pharmaceutical), {護身|ごしん} (self-defense), {北東|ほくとう} (northeast), {南西|なんせい} (southwest), {安打|あんだ} (base hit), {多方面|たほうめん} (many fields), {食糧難|しょくりょうなん} (food shortage), {印字|いんじ} (printing), {細断|さいだん} (shredding), {裁定|さいてい} (ruling)
+- **Suru verbs (6)**: {絶食|ぜっしょく}する (to fast), {包囲|ほうい}する (to surround), {献身|けんしん}する (to devote oneself), {激賞|げきしょう}する (high praise), {慶祝|けいしゅく}する (to celebrate), {傾注|けいちゅう}する (to devote effort)
+- **Verbs (1)**: {化|ば}かす (to trick/bewitch)
+- **Adjectives (2)**: ねちっこい (persistent/clingy), {多面的|ためんてき} (multifaceted)
+- **Expressions (2)**: {伊達眼鏡|だてめがね} (fashion glasses), {自縄自縛|じじょうじばく} (caught in one's own trap), {心|こころ}に{銘|めい}じる (to take to heart), {少|すこ}しでも (even a little), {入職|にゅうしょく} (entering employment), {着岸|ちゃくがん} (docking)
+- 2 new kanji added to index: 伊, 慶
+- Removed 1 stale candidate (身の上話 — already exists as entry 19137)
 - **Nouns/Suru (3)**: {満喫|まんきつ} (thorough enjoyment), {錯綜|さくそう} (entanglement), {公言|こうげん} (public declaration)
 - **Nouns (7)**: {聞|き}き{役|やく} (listener role), {一般論|いっぱんろん} (generalization), {涼感|りょうかん} (cool feeling), {既述|きじゅつ} (already stated), {決算書|けっさんしょ} (financial statement), {余情|よじょう} (lingering feeling), {枯淡|こたん} (refined simplicity)
 - **Other (3)**: {米国|べいこく} (United States), {高等教育|こうとうきょういく} (higher education), {虚飾|きょしょく} (vanity/ostentation)
