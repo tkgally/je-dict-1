@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 507)
+Added 30 new dictionary entries (IDs 19626-19655) from candidate_words.json. Focused on common する verbs and practical nouns useful for intermediate learners.
+
+- **Suru verbs (27)**: {限定|げんてい}する (to limit), {抽出|ちゅうしゅつ}する (to extract), {把握|はあく}する (to grasp), {特化|とっか}する (to specialize), {密集|みっしゅう}する (to be densely packed), {告白|こくはく}する (to confess), {促進|そくしん}する (to promote), {稼働|かどう}する (to operate), {実施|じっし}する (to implement), {規制|きせい}する (to regulate), {制限|せいげん}する (to restrict), {加熱|かねつ}する (to heat), {誤解|ごかい}する (to misunderstand), {共有|きょうゆう}する (to share), {共感|きょうかん}する (to empathize), {緩和|かんわ}する (to ease), {特定|とくてい}する (to identify), {配達|はいたつ}する (to deliver), {提出|ていしゅつ}する (to submit), {通知|つうち}する (to notify), {追加|ついか}する (to add), {固定|こてい}する (to fix), {一致|いっち}する (to match), {空想|くうそう}する (to fantasize), {反射|はんしゃ}する (to reflect), {予測|よそく}する (to predict), {阻止|そし}する (to prevent)
+- **Nouns (3)**: {密閉|みっぺい} (airtight seal), {転校生|てんこうせい} (transfer student), {想定内|そうていない} (within expectations)
+
 ### 2026-03-26 (Vocabulary Expansion - 20 New Entries, Session 506)
 Added 20 new dictionary entries (IDs 19606-19625) from candidate_words.json. Focused on useful intermediate-level vocabulary across a range of semantic areas.
 
@@ -91,16 +97,6 @@ Added 30 new dictionary entries (IDs 19516-19545) from candidate_words.json. Foc
 - **Na-adjectives/Nouns (3)**: {高慢|こうまん} (arrogant), {独|ひと}りぼっち (all alone), ハイテンション (excited/hyper)
 - **Other (4)**: でございます (polite copula), お{天気屋|てんきや} (moody person), {入会|にゅうかい}する (join/enroll), {侵|おか}す (invade/violate)
 - **Verbs with cross-refs**: {積|つ}み{重|かさ}なる (pile up, with transitive pair), {移|うつ}り{変|か}わる (change gradually), {侵|おか}す (with homophone cross-refs to {犯|おか}す and {冒|おか}す)
-
-### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 502)
-Added 30 new dictionary entries (IDs 19486-19515) from candidate_words.json. A diverse mix of expressions, nouns, and adverbs covering daily life, culture, health, nature, and abstract concepts.
-
-- **Expressions (10)**: {折|おり}に{触|ふ}れて (on occasion), {元気|げんき}がない (listless), {落|お}ち{着|つ}かない (restless), {口火|くちび}を{切|き}る (to start things off), {心|こころ}ここにあらず (absentminded), {期限|きげん}が{切|き}れる (to expire), {言葉|ことば}を{交|か}わす (to exchange words), {役割|やくわり}を{果|は}たす (to fulfill a role)
-- **Nouns (15)**: {勝手口|かってぐち} (kitchen door), {因果関係|いんがかんけい} (causal relationship), {血糖値|けっとうち} (blood sugar level), {炭酸飲料|たんさんいんりょう} (carbonated beverage), {徳利|とっくり} (sake bottle), {豆類|まめるい} (legumes), {虚空|こくう} (void), {音漏|おとも}れ (sound leakage), {通信簿|つうしんぼ} (report card), {夕映|ゆうば}え (sunset glow), {青菜|あおな} (leafy greens), {後頭部|こうとうぶ} (back of the head), {生|は}え{際|ぎわ} (hairline), ご{祝儀袋|しゅうぎぶくろ} (gift money envelope), {適者生存|てきしゃせいぞん} (survival of the fittest)
-- **Noun/Suru verbs (3)**: {沈静化|ちんせいか} (calming down), バトンタッチ (handover), {品種改良|ひんしゅかいりょう} (selective breeding)
-- **Adverbs (2)**: {急|いそ}いで (hurriedly), {皆目|かいもく} (not at all)
-- **Na-adjective (1)**: {自分勝手|じぶんかって} (selfish)
-- **Other (1)**: {一切合切|いっさいがっさい} (absolutely everything)
 
 
 
