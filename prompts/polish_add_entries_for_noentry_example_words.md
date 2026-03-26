@@ -137,7 +137,7 @@ If step 2 found an existing entry:
    - All examples must have `sense_numbers`
    - **NEVER add inline word links (⟦...⟧)** in the new entry — those are added in a separate polishing step
    - All explanations in English; Japanese only in examples, collocations, patterns
-   - Notes must follow `vocabulary-notes` skill standards (headers, bullet points, minimum content)
+   - Notes must follow the Notes Field Requirements below (this is critical — see the dedicated section)
 
 5. **Write the entry file**:
    - Use `python3 build/get_entry_path.py <reading> <id>` to get the correct path
@@ -195,6 +195,52 @@ When multiple `noentry` words exist, prioritize:
 3. **Core vocabulary** — Basic words learners need
 4. **Domain clusters** — Words from the same topic area (efficient to create together)
 
+## Notes Field Requirements
+
+**See the `vocabulary-notes` skill for complete guidelines.** The notes field is a critical part of each entry. Short, unstructured notes are a common quality problem — follow these requirements carefully:
+
+### Structure and Formatting (MANDATORY)
+
+| Requirement | Standard |
+|-------------|----------|
+| **Section headers** | Use labeled headers (USAGE:, COMMON COLLOCATIONS:, SIMILAR WORDS:, TRANSITIVITY:, ASPECT:, etc.) for distinct categories of information. **Do NOT use `##` markdown headers** — use `UPPERCASE HEADER:` format instead. |
+| **Paragraph breaks** | Separate sections with blank lines (`\n\n` in JSON) — never pack multiple topics into one paragraph |
+| **Bullet points** | Any list of 2+ items MUST use `- ` bullet points, not inline comma-separated lists |
+| **Language** | All explanatory prose in English; Japanese only in example phrases and collocations |
+| **Furigana** | All kanji in notes must have furigana: `{漢字|かんじ}` |
+
+### Minimum Content
+
+Every entry's notes should include at least:
+
+1. **Core semantic explanation** — what the word fundamentally means beyond the gloss (1-2 sentences). This MUST be the opening paragraph. Do not start notes with "From English" or a compound structure — always lead with what the word means.
+2. **Collocations or common expressions** — as a bulleted list with translations
+3. **At least one additional section** from: similar word distinctions, register notes, cultural context, common mistakes, etymology, related terms
+
+### Format Example (in JSON)
+
+```json
+"notes": "Core explanation of the word.\n\nCOMMON COLLOCATIONS:\n- {例|れい}one: translation\n- {例|れい}two: translation\n\nSIMILAR WORDS:\n- word1: gloss — how it differs\n- word2: gloss — how it differs"
+```
+
+### Anti-Patterns to Avoid
+
+These patterns indicate the notes field is too short or poorly structured:
+
+```
+✗ BAD: "From English 'cement'.\n\nCOMMON COLLOCATIONS:\n- A: translation"
+  (No core explanation, starts with etymology, only 2 sections)
+
+✗ BAD: "## Common Patterns\n- A: meaning\n- B: meaning"
+  (Uses ## markdown headers which render incorrectly on the site)
+
+✗ BAD: "Composed of X + Y. Common collocations: A, B, C. Related: D."
+  (Single paragraph, no headers, inline list instead of bullets)
+
+✓ GOOD: "Cement is a powdery building material mixed with water and aggregate to form concrete.\n\nCOMMON COLLOCATIONS:\n- A: translation\n- B: translation\n\nRELATED TERMS:\n- D: gloss — explanation"
+  (Core explanation first, separated sections, UPPERCASE headers, bullet points)
+```
+
 ## Quality Checklist
 
 ### For New Entries
@@ -204,7 +250,9 @@ When multiple `noentry` words exist, prioritize:
 - [ ] All examples have `sense_numbers`
 - [ ] Tags complete (pos, formality, politeness, semantic)
 - [ ] `vocabulary_tier: "general"` and `schema_version: "2.0"`
-- [ ] Notes follow vocabulary-notes skill standards
+- [ ] Notes have core semantic explanation as opening paragraph
+- [ ] Notes use `HEADER:` format (not `## Header`)
+- [ ] Notes have at least 3 sections (core explanation + collocations + one additional)
 - [ ] No inline word links (⟦...⟧) in the new entry
 
 ### For Updated Links
