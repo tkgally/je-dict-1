@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 20 New Entries, Session 506)
+Added 20 new dictionary entries (IDs 19606-19625) from candidate_words.json. Focused on useful intermediate-level vocabulary across a range of semantic areas.
+
+- **Nouns (11)**: {鼓動|こどう} (heartbeat), {模範|もはん} (model/exemplar), {威力|いりょく} (power/might), {猟師|りょうし} (hunter), {家路|いえじ} (road home), {画鋲|がびょう} (thumbtack), {赤身|あかみ} (lean meat), {黒糖|こくとう} (brown sugar), {菜園|さいえん} (vegetable garden), {集落|しゅうらく} (village/settlement), {代打|だいだ} (pinch hitter)
+- **Nouns/Suru verbs (4)**: {読破|どくは} (reading through), {撲滅|ぼくめつ} (eradication), {一望|いちぼう} (sweeping view), {必読|ひつどく} (must-read)
+- **Noun/Na-adj (2)**: {不服|ふふく} (dissatisfaction), {鋭利|えいり} (sharp/keen)
+- **Na-adjective (1)**: {雄大|ゆうだい} (grand/magnificent)
+- **Season/Time (2)**: {晩夏|ばんか} (late summer), {支流|しりゅう} (tributary)
+- 1 new kanji added to index: 鋲
+
 ### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 505)
 Added 30 new dictionary entries (IDs 19576-19605) from candidate_words.json. Focused on verbs, literary terms, and useful vocabulary across a range of domains.
 
@@ -91,20 +101,6 @@ Added 30 new dictionary entries (IDs 19486-19515) from candidate_words.json. A d
 - **Adverbs (2)**: {急|いそ}いで (hurriedly), {皆目|かいもく} (not at all)
 - **Na-adjective (1)**: {自分勝手|じぶんかって} (selfish)
 - **Other (1)**: {一切合切|いっさいがっさい} (absolutely everything)
-
-### 2026-03-26 (Vocabulary Expansion - 23 New Entries)
-Added 23 new dictionary entries (IDs 19462-19485) from candidate_words.json. A diverse mix of nouns, adjectives, and verbs covering food, culture, language, and society.
-
-- **Nouns (15)**: {会食|かいしょく} (dining together), {逸品|いっぴん} (masterpiece), {遠方|えんぽう} (distant place), {含意|がんい} (implication), {鏡餅|かがみもち} (New Year rice cake), {資材|しざい} (materials), {余波|よは} (aftereffects), {便所|べんじょ} (toilet), {存命|そんめい} (alive), {天罰|てんばつ} (divine punishment), {穀類|こくるい} (grains), {名品|めいひん} (fine article), {小刀|こがたな} (small knife), {労務|ろうむ} (labor affairs), {亡命者|ぼうめいしゃ} (exile)
-- **Nouns/Suru verbs (3)**: {投降|とうこう} (surrender), {模写|もしゃ} (copying), {冒涜|ぼうとく} (blasphemy)
-- **Adjective-na/Nouns (3)**: {激辛|げきから} (extremely spicy), {貧乏|びんぼう} (poor), {不敬|ふけい} (disrespectful)
-- **Verb (1)**: {編|あ}み{込|こ}む (to braid in)
-- **Food/culture (1)**: {柏餅|かしわもち} (oak-leaf rice cake)
-- 2 new kanji added: 柏, 涜
-- 1 stale candidate removed (会釈する, already exists)
-- 1 duplicate removed (空想, already exists as entry 00256)
-
-- **All noentry links now resolved**: 0 remaining (down from ~305)
 
 
 
