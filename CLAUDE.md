@@ -174,3 +174,33 @@ Detailed instructions for specific tasks live in `.claude/skills/`. Key ones:
 - `delete-entry` / `resolve-duplicates` — safe removal and deduplication
 
 Invoke a skill with `/<skill-name>` (e.g., `/verb-entry`) to load its full instructions.
+
+## End-of-session PR and merge workflow (CRITICAL)
+
+All task prompts that create a PR must follow this complete workflow. The goal is to leave main in a fully clean state so the next session can start fresh.
+
+### Before creating the PR
+
+1. **Run `make build`** — this generates `docs/`, `entries_index.json`, and other build artifacts
+2. **Commit ALL changes including build artifacts**: `git add -A && git commit -m "..."`
+   - This must include `docs/`, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`, etc.
+   - The PR must contain both source changes AND rebuilt site files
+3. **Push** to the feature branch
+
+### PR, CI, and merge
+
+4. **Create the PR**
+5. **Poll CI** every 60 seconds until checks pass (up to 10 minutes)
+6. **Squash-merge** once CI is green
+7. If CI fails: fix, push, and repeat from step 5
+
+### Post-merge cleanup (MANDATORY)
+
+8. **Switch to main and pull**: `git checkout main && git pull origin main`
+9. **Verify clean state**: `git status` should show nothing to commit
+10. **Delete the feature branch locally**: `git branch -d <branch-name>`
+11. **Delete the feature branch remotely**: `git push origin --delete <branch-name>`
+
+If `git status` on main shows uncommitted changes after pulling (this should not happen if build artifacts were included in the PR), run `make build`, commit, and push to main directly.
+
+**Why this matters**: The `docs/` directory is deployed via GitHub Pages. If build artifacts are not in the PR, the live site won't update after merge, and the next session starts with a dirty repository.

@@ -232,11 +232,15 @@ When stopping, report:
 
 ## PR and Merge Workflow
 
-After all entries are expanded, validated, built, committed, and pushed:
+Follow the complete workflow described in CLAUDE.md under "End-of-session PR and merge workflow." The key points:
 
-1. **Create a PR** for the branch
-2. **Poll CI status** every 60 seconds using the `pull_request_read` tool until all checks pass (allow up to 10 minutes)
-3. **Squash-merge the PR** once all checks are green
-4. **If CI fails**: read the error, fix the issue, push again, and repeat from step 2
+1. **Run `make build` BEFORE the final commit** so that `docs/` and all build artifacts are included
+2. **`git add -A`** to stage everything (entries, docs, indexes, kanji, tracking file, session log, etc.)
+3. **Commit and push** to the feature branch
+4. **Create a PR** for the branch
+5. **Poll CI status** every 60 seconds until all checks pass (allow up to 10 minutes)
+6. **Squash-merge the PR** once all checks are green
+7. **If CI fails**: read the error, fix the issue, push again, and repeat from step 5
+8. **Post-merge cleanup**: switch to main, pull, verify clean state, delete feature branch locally and remotely
 
-This allows the full workflow — from note expansion through merge — to complete without manual intervention.
+**CRITICAL**: The PR must include rebuilt `docs/` files. If you commit entry changes but not the build output, the live site won't update and the repo will be left in a dirty state for the next session.
