@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 508)
+Added 30 new dictionary entries (IDs 19656-19685) from candidate_words.json. Diverse mix of useful intermediate vocabulary including expressions, cultural terms, and formal language.
+
+- **Expressions (6)**: かしこまりました (understood/humble), {口|くち}を{滑|すべ}らせる (let something slip), {先見|せんけん}の{明|めい} (foresight), {羽振|はぶ}りがいい (prosperous), {白紙|はくし}に{戻|もど}す (go back to square one), {信|しん}じ{難|がた}い (hard to believe)
+- **Nouns (15)**: {結婚祝|けっこんいわ}い (wedding gift), {秋分|しゅうぶん} (autumnal equinox), {若葉|わかば} (young leaves), {顔|かお}つき (facial expression), {施術|しじゅつ} (medical procedure), {支柱|しちゅう} (pillar/support), {流域|りゅういき} (river basin), {石器|せっき} (stone tool), {飼料|しりょう} (animal feed), {道幅|みちはば} (road width), {年俸|ねんぽう} (annual salary), {石垣|いしがき} (stone wall), {岸壁|がんぺき} (quay wall), {再出発|さいしゅっぱつ} (fresh start), {案内状|あんないじょう} (invitation letter)
+- **Nouns/Verbal nouns (4)**: {屈服|くっぷく} (submission), {併合|へいごう} (annexation), {退廃|たいはい} (decadence), {準拠|じゅんきょ}する (conform to)
+- **Adjectives (3)**: {寒冷|かんれい} (cold/frigid), {耐|た}え{難|がた}い (unbearable), {受|う}け{身|み} (passive)
+- **Other (2)**: {何卒|なにとぞ} (please/formal), {生身|なまみ} (flesh and blood)
+- 1 new kanji added to index: 俸
+- Removed 1 stale candidate (活発 — already exists as entry 13272)
+
 ### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 507)
 Added 30 new dictionary entries (IDs 19626-19655) from candidate_words.json. Focused on common する verbs and practical nouns useful for intermediate learners.
 
@@ -86,17 +97,6 @@ Added 30 new dictionary entries (IDs 19546-19575) from candidate_words.json. Foc
 - **Expressions (3)**: {呆然|ぼうぜん}とする (be stunned), {度|ど}が{過|す}ぎる (go too far), {感無量|かんむりょう} (deeply moved)
 - **Na-adjective (2)**: {不親切|ふしんせつ} (unkind), {背中合|せなかあ}わせ (back to back)
 - **Adverbs (3)**: {時々刻々|じじこっこく} (moment by moment), ついうっかり (carelessly), {何|なに}はともあれ (anyway)
-
-### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 503)
-Added 30 new dictionary entries (IDs 19516-19545) from candidate_words.json. Focused on practical, high-utility words for intermediate learners — emotions, social behavior, common expressions, and everyday verbs.
-
-- **Expressions (7)**: {機嫌|きげん}が{悪|わる}い (in a bad mood), {納得|なっとく}がいかない (can't accept), {気|き}が{気|き}でない (anxious), {気|き}が{楽|らく} (at ease), {愛想|あいそ}を{尽|つ}かす (fed up with), {後|うし}ろ{髪|がみ}を{引|ひ}かれる (reluctant to leave), {丁重|ていちょう}に{断|ことわ}る (politely decline)
-- **Verbs (7)**: {面白|おもしろ}がる (find amusing), {遠慮|えんりょ}する (refrain), {謝罪|しゃざい}する (apologize formally), {拒絶|きょぜつ}する (reject), {変色|へんしょく}する (discolor), {波及|はきゅう}する (spread/ripple out), {絞|しぼ}り{出|だ}す (squeeze out)
-- **Nouns (5)**: {侵入者|しんにゅうしゃ} (intruder), {積極性|せっきょくせい} (proactiveness), {利害関係|りがいかんけい} (interests/stakes), {感想文|かんそうぶん} (book report), {習慣化|しゅうかんか} (habituation)
-- **Adjectives (2)**: {心細|こころぼそ}い (anxious/helpless), {心|こころ}もとない (uncertain/uneasy)
-- **Na-adjectives/Nouns (3)**: {高慢|こうまん} (arrogant), {独|ひと}りぼっち (all alone), ハイテンション (excited/hyper)
-- **Other (4)**: でございます (polite copula), お{天気屋|てんきや} (moody person), {入会|にゅうかい}する (join/enroll), {侵|おか}す (invade/violate)
-- **Verbs with cross-refs**: {積|つ}み{重|かさ}なる (pile up, with transitive pair), {移|うつ}り{変|か}わる (change gradually), {侵|おか}す (with homophone cross-refs to {犯|おか}す and {冒|おか}す)
 
 
 
