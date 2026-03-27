@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 518)
+Added 30 new dictionary entries (IDs 19918-19947) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners including adjectives, onomatopoeia, cultural terms, and common nouns/expressions.
+
+- **Na-adjectives (2)**: {大|おお}げさ (exaggerated), {奇抜|きばつ} (outlandish)
+- **Nouns (13)**: {河口|かこう} (river mouth), {通行止|つうこうど}め (road closure), {下半期|しもはんき} (second half of year), {大衆|たいしゅう}{文化|ぶんか} (pop culture), {望郷|ぼうきょう} (homesickness), {根源|こんげん} (root/source), {書|か}き{初|ぞ}め (New Year's calligraphy), {食券|しょっけん} (meal ticket), {大詰|おおづ}め (final stage), {地声|じごえ} (natural voice), {高波|たかなみ} (high waves), {高音|こうおん} (high pitch), {写真集|しゃしんしゅう} (photo book)
+- **Noun/Suru verbs (5)**: {率先|そっせん} (taking initiative), {気絶|きぜつ} (fainting), {堂々巡|どうどうめぐ}り (going in circles), {酷似|こくじ} (striking resemblance), {一新|いっしん} (complete renewal)
+- **Expressions (2)**: {目|め}が{回|まわ}る (dizzy/swamped), {要領|ようりょう}がいい (resourceful)
+- **Onomatopoeia/Adverbs (3)**: ぱらぱら (scattered), {続|つづ}けざま (in succession), がっしり (solidly built)
+- **Other (5)**: {甘|あま}えん{坊|ぼう} (spoiled child), {市立|しりつ} (municipal), {春分|しゅんぶん} (spring equinox), {未亡人|みぼうじん} (widow)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 517)
 Added 30 new dictionary entries (IDs 19888-19917) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners including adverbs, verbs, expressions, and nouns.
 
@@ -88,15 +99,6 @@ Added 30 new dictionary entries (IDs 19819-19848) from candidate_words.json. Mix
 - **Other (5)**: {岐路|きろ} (crossroads), {賭|か}け (bet/gamble), {下戸|げこ} (non-drinker), {既知|きち} (known), {尾根|おね} (ridge)
 - New kanji added: 孵 (hatch)
 - Removed 1 stale candidate (湿気/しけ — variant reading of existing entry)
-
-### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 513)
-Added 30 new dictionary entries (IDs 19789-19818) from candidate_words.json. Diverse mix including weather terms, causative verbs, cultural vocabulary, and business/legal terms.
-
-- **Nouns (18)**: {盗|ぬす}み (theft), {転落|てんらく} (fall/decline), {洋式|ようしき} (Western-style), {聞|き}き{手|て} (listener), {実演|じつえん} (live demonstration), {熱波|ねっぱ} (heat wave), {顔料|がんりょう} (pigment), {長兄|ちょうけい} (eldest brother), {登記|とうき} (registration), {退団|たいだん} (leaving a group), {大容量|だいようりょう} (large capacity), {白地|しろじ} (white background), {美術室|びじゅつしつ} (art room), {司令塔|しれいとう} (control tower/playmaker), {妻子持|さいしも}ち (family man), {楽観視|らっかんし} (optimistic view), {炎暑|えんしょ} (scorching heat), {保有者|ほゆうしゃ} (holder/owner), {年次報告|ねんじほうこく} (annual report), {性自認|せいじにん} (gender identity), {沙汰止|さたや}み (abandoned/dropped), {社員食堂|しゃいんしょくどう} (employee cafeteria)
-- **Verbs (3)**: たわむ (to bend/warp), {悩|なや}ませる (to trouble), {怒|おこ}らせる (to make angry)
-- **Suru verbs (4)**: {踏破|とうは} (to traverse), {通読|つうどく} (to read through), {中座|ちゅうざ} (to leave midway)
-- **Adverbs (3)**: {不覚|ふかく}にも (unwittingly), つい{先日|せんじつ} (just the other day)
-- Removed 5 stale candidates (受理する, 同行する, 遂行する, 逆上する, 包括する — already exist as entries)
 
 ---
 
