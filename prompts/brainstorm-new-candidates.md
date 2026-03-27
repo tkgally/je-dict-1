@@ -37,12 +37,19 @@ values below and the corresponding `--flags` in the commands in the steps.
 ## Prerequisites
 
 - `OPENROUTER_API_KEY` environment variable must be set
-- Python `requests` library must be installed
 - Repository must be on `main` with a clean working tree
 
 ---
 
 ## Steps
+
+### 0. Ensure dependencies are installed
+
+```bash
+pip install -q requests
+```
+
+This is idempotent and fast if already installed.
 
 ### 1. Set up a feature branch
 
