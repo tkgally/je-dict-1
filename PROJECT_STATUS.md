@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-27 (Vocabulary Expansion - 24 New Entries, Session 515)
+Added 24 new dictionary entries (IDs 19849-19872) from candidate_words.json. Practical vocabulary for intermediate learners including daily life terms, academic titles, grammar points, and cultural vocabulary.
+
+- **Nouns (14)**: {雨傘|あまがさ} (rain umbrella), {遮光|しゃこう} (light blocking), {通信料|つうしんりょう} (communication charges), {口座振替|こうざふりかえ} (direct debit), {時間指定|じかんしてい} (time-slot delivery), {保安検査|ほあんけんさ} (security screening), {化学物質|かがくぶっしつ} (chemical substance), {非常|ひじょう}ベル (emergency bell), {明治|めいじ} (Meiji era), {准教授|じゅんきょうじゅ} (associate professor), お{祝|いわ}い{金|きん} (congratulatory money), {下方修正|かほうしゅうせい} (downward revision), {荷札|にふだ} (luggage tag), {筆先|ふでさき} (brush tip/writing style), {中間層|ちゅうかんそう} (middle class)
+- **Na-adjectives (4)**: {世俗的|せぞくてき} (secular/worldly), {無機質|むきしつ}な (cold/inorganic), {情緒不安定|じょうちょふあんてい} (emotionally unstable), {物欲|ものほ}しげ (wistful/longing)
+- **Other (5)**: {無課金|むかきん} (free-to-play), {鵜|う} (cormorant), どなたか (someone/polite), だけれども (although/but), といった (such as)
+- New kanji added: 准 (quasi), 鵜 (cormorant)
+
 ### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 514)
 Added 30 new dictionary entries (IDs 19819-19848) from candidate_words.json. Mix of useful vocabulary for intermediate learners including cultural terms, abstract nouns, and adjectives.
 
@@ -86,8 +94,6 @@ Added 30 new dictionary entries (IDs 19729-19758) from candidate_words.json. Mix
 - **Other (4)**: {不健全|ふけんぜん} (unhealthy/na-adj), {碁石|ごいし} (Go stone), {壮年|そうねん} (prime of life), {予定|よてい}が{詰|つ}まる (packed schedule)
 - Removed 3 stale candidates (雑な, 滑らかな, 無数の — already exist as entries)
 
-### 2026-03-26 (Vocabulary Expansion - 29 New Entries, Session 510)
-Added 29 new dictionary entries (IDs 19700-19728) from candidate_words.json. Mixed vocabulary including adjectives, expressions, compass directions, and formal nouns.
 
 - **Nouns (14)**: {無機質|むきしつ} (inorganic/cold), {垢|あか} (grime), {略図|りゃくず} (rough sketch), {学区|がっく} (school district), {医薬品|いやくひん} (pharmaceutical), {護身|ごしん} (self-defense), {北東|ほくとう} (northeast), {南西|なんせい} (southwest), {安打|あんだ} (base hit), {多方面|たほうめん} (many fields), {食糧難|しょくりょうなん} (food shortage), {印字|いんじ} (printing), {細断|さいだん} (shredding), {裁定|さいてい} (ruling)
 - **Suru verbs (6)**: {絶食|ぜっしょく}する (to fast), {包囲|ほうい}する (to surround), {献身|けんしん}する (to devote oneself), {激賞|げきしょう}する (high praise), {慶祝|けいしゅく}する (to celebrate), {傾注|けいちゅう}する (to devote effort)
