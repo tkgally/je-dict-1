@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-27 (Vocabulary Expansion - 15 New Entries, Session 516)
+Added 15 new dictionary entries (IDs 19873-19887) from candidate_words.json. Mix of common vocabulary useful for intermediate learners including cultural items, everyday nouns, and verbs.
+
+- **Nouns (12)**: {真珠|しんじゅ} (pearl), {焼酎|しょうちゅう} (shochu), {内戦|ないせん} (civil war), {敬礼|けいれい} (salute), {手仕事|てしごと} (handicraft), {内職|ないしょく} (side work), {休校|きゅうこう} (school closure), {水辺|みずべ} (waterside), {木立|こだち} (grove), {効|き}き{目|め} (effect), {置物|おきもの} (ornament), {人気者|にんきもの} (popular person)
+- **Na-adjective (1)**: {不都合|ふつごう} (inconvenient/improper)
+- **Noun with two senses (1)**: {火力|かりょく} (heat output/firepower)
+- **Verb (1)**: {案|あん}じる (to worry about)
+- New kanji added: 酎 (sake)
+- Removed 1 stale candidate (子守唄 — variant of existing 子守歌 entry)
+
 ### 2026-03-27 (Vocabulary Expansion - 24 New Entries, Session 515)
 Added 24 new dictionary entries (IDs 19849-19872) from candidate_words.json. Practical vocabulary for intermediate learners including daily life terms, academic titles, grammar points, and cultural vocabulary.
 
@@ -84,29 +94,6 @@ Added 30 new dictionary entries (IDs 19759-19788) from candidate_words.json. Div
 - **Nouns (20)**: {誠意|せいい} (sincerity), {晩飯|ばんめし} (dinner), {煮込|にこ}み (stew), {音沙汰|おとさた} (news/sign of life), {花畑|はなばたけ} (flower field), {民芸|みんげい} (folk craft), {鎮静|ちんせい} (sedation), {珍事|ちんじ} (rare event), {平時|へいじ} (peacetime), {多重|たじゅう} (multiple), {号外|ごうがい} (extra edition), {正確|せいかく}さ (accuracy), {空襲|くうしゅう} (air raid), {引|ひ}き{締|し}め (tightening), {軽油|けいゆ} (diesel), すね (shin), {砲撃|ほうげき} (shelling), {流血|りゅうけつ} (bloodshed), {止血|しけつ} (hemostasis), {空爆|くうばく} (air strike)
 - **Adverbs (3)**: やむなく (unavoidably), {常時|じょうじ} (constantly), {初|はじ}めから (from the beginning)
 - **Other (7)**: ずぼら (lazy/na-adj), {号車|ごうしゃ} (train car number/counter), {手慣|てな}れる (to become skilled/verb), {油菜|あぶらな} (rapeseed), {定時制|ていじせい} (part-time school), {手工芸|しゅこうげい} (handicraft), {遠望|えんぼう} (distant view)
-
-### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 511)
-Added 30 new dictionary entries (IDs 19729-19758) from candidate_words.json. Mixed vocabulary including particles, expressions, business terms, and cultural vocabulary.
-
-- **Particles (2)**: くせに (despite/critical tone), ものの (although/even though)
-- **Expressions (4)**: {言|い}うまでもなく (it goes without saying), どっちにしろ (either way), {首|くび}を{横|よこ}に{振|ふ}る (to shake one's head), {居|い}ても{立|た}っても{居|い}られない (unable to sit still)
-- **Nouns (20)**: ピンボケ (out of focus), {許容範囲|きょようはんい} (acceptable range), {親会社|おやがいしゃ} (parent company), {更|さら}には (furthermore), {度数|どすう} (frequency/alcohol content), お{門違|かどちが}い (barking up the wrong tree), {建|た}て{替|か}え (rebuilding), {勧善懲悪|かんぜんちょうあく} (poetic justice), マーガリン (margarine), {迷惑行為|めいわくこうい} (nuisance behavior), {油性|ゆせい}ペン (permanent marker), {掛|か}け{時計|どけい} (wall clock), {都市計画|としけいかく} (urban planning), {四半世紀|しはんせいき} (quarter century), {手順書|てじゅんしょ} (procedure manual), {草食動物|そうしょくどうぶつ} (herbivore), {産出|さんしゅつ} (production/yield), {着色料|ちゃくしょくりょう} (coloring agent), {祭礼|さいれい} (religious festival), {関連会社|かんれんがいしゃ} (affiliated company)
-- **Other (4)**: {不健全|ふけんぜん} (unhealthy/na-adj), {碁石|ごいし} (Go stone), {壮年|そうねん} (prime of life), {予定|よてい}が{詰|つ}まる (packed schedule)
-- Removed 3 stale candidates (雑な, 滑らかな, 無数の — already exist as entries)
-
-
-- **Nouns (14)**: {無機質|むきしつ} (inorganic/cold), {垢|あか} (grime), {略図|りゃくず} (rough sketch), {学区|がっく} (school district), {医薬品|いやくひん} (pharmaceutical), {護身|ごしん} (self-defense), {北東|ほくとう} (northeast), {南西|なんせい} (southwest), {安打|あんだ} (base hit), {多方面|たほうめん} (many fields), {食糧難|しょくりょうなん} (food shortage), {印字|いんじ} (printing), {細断|さいだん} (shredding), {裁定|さいてい} (ruling)
-- **Suru verbs (6)**: {絶食|ぜっしょく}する (to fast), {包囲|ほうい}する (to surround), {献身|けんしん}する (to devote oneself), {激賞|げきしょう}する (high praise), {慶祝|けいしゅく}する (to celebrate), {傾注|けいちゅう}する (to devote effort)
-- **Verbs (1)**: {化|ば}かす (to trick/bewitch)
-- **Adjectives (2)**: ねちっこい (persistent/clingy), {多面的|ためんてき} (multifaceted)
-- **Expressions (2)**: {伊達眼鏡|だてめがね} (fashion glasses), {自縄自縛|じじょうじばく} (caught in one's own trap), {心|こころ}に{銘|めい}じる (to take to heart), {少|すこ}しでも (even a little), {入職|にゅうしょく} (entering employment), {着岸|ちゃくがん} (docking)
-- 2 new kanji added to index: 伊, 慶
-- Removed 1 stale candidate (身の上話 — already exists as entry 19137)
-- **Nouns/Suru (3)**: {満喫|まんきつ} (thorough enjoyment), {錯綜|さくそう} (entanglement), {公言|こうげん} (public declaration)
-- **Nouns (7)**: {聞|き}き{役|やく} (listener role), {一般論|いっぱんろん} (generalization), {涼感|りょうかん} (cool feeling), {既述|きじゅつ} (already stated), {決算書|けっさんしょ} (financial statement), {余情|よじょう} (lingering feeling), {枯淡|こたん} (refined simplicity)
-- **Other (3)**: {米国|べいこく} (United States), {高等教育|こうとうきょういく} (higher education), {虚飾|きょしょく} (vanity/ostentation)
-- 1 new kanji added to index: 綜
-
 
 
 ---
