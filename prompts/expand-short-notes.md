@@ -1,12 +1,12 @@
 # Expand Short Notes
 
-Systematically expand the `notes` field for dictionary entries that currently have inadequate notes (under 300 characters). This is a **semantic task** that requires your knowledge of Japanese vocabulary, grammar, and usage patterns - it cannot be automated because writing comprehensive learner-focused notes requires understanding word meanings, common patterns, and potential learner difficulties.
+Systematically expand the `notes` field for dictionary entries that currently have inadequate notes (375 characters or fewer). This is a **semantic task** that requires your knowledge of Japanese vocabulary, grammar, and usage patterns - it cannot be automated because writing comprehensive learner-focused notes requires understanding word meanings, common patterns, and potential learner difficulties.
 
 ## Task Focus
 
 **Single focus**: Do the notes provide adequate guidance for learners?
 
-Entries with notes under 300 characters typically have one or both of these problems:
+Entries with notes of 375 characters or fewer typically have one or both of these problems:
 - **Too little content**: Only a single etymology note, related word reference, or simple antonym/synonym mention
 - **No structure**: All information packed into a single paragraph without section headers, bullet points, or paragraph breaks
 
@@ -84,7 +84,7 @@ This shows the next entry to process (entries are sorted by notes length, shorte
    - Use blank lines between sections
    - Use bullet points for lists of 2+ items
    - Use UPPERCASE section headers with colons
-   - Target 300-600 characters for most entries
+   - Target 400-600 characters for most entries
 
 5. **Update the entry**:
    - Replace the `notes` field with new content
@@ -197,6 +197,7 @@ The tracking file is sorted by notes length (shortest first), so:
 - Entries under 100 chars are most urgently in need of expansion
 - Entries 100-200 chars likely need substantial additions
 - Entries 200-300 chars may need moderate enhancement
+- Entries 300-375 chars may need light enhancement or restructuring
 
 ## Common Patterns to Add
 
