@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 517)
+Added 30 new dictionary entries (IDs 19888-19917) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners including adverbs, verbs, expressions, and nouns.
+
+- **Adverbs (9)**: {着実|ちゃくじつ}に (steadily), {意外|いがい}に (surprisingly), {大幅|おおはば}に (drastically), {大量|たいりょう}に (in large quantities), {無意識|むいしき}に (unconsciously), {事細|ことこま}かに (in great detail), {近|ちか}いうちに (in the near future), {第二|だいに}に (secondly)
+- **Verbs (6)**: {交付|こうふ}する (to issue officially), {通読|つうどく}する (to read through), {突|つ}き{刺|ささ}る (to pierce), {執|と}り{行|おこな}う (to conduct ceremony), {悔|く}い{改|あらた}める (to repent), {植|う}え{付|つ}ける (to implant)
+- **Expressions (3)**: {気|き}のせい (one's imagination), {何|なん}でもない (nothing special), {落|お}ち{着|つ}ける (to calm/relax)
+- **Nouns (7)**: {子分|こぶん} (follower), {微糖|びとう} (low sugar), {氷解|ひょうかい} (clearing of doubts), {板場|いたば} (kitchen/chef), {山札|やまふだ} (draw pile), {解釈違|かいしゃくちが}い (misinterpretation), {眼識|がんしき} (discerning eye)
+- **Adjectives/Other (5)**: {用意周到|よういしゅうとう} (thoroughly prepared), {忍|しの}び{難|がた}い (unbearable), {切|き}り{立|た}った (steep), {目立|めだ}たない (inconspicuous), かつ (and/moreover), {追随|ついずい}する (to follow/emulate)
+- Removed 29 candidates that now exist as entries
+
 ### 2026-03-27 (Vocabulary Expansion - 15 New Entries, Session 516)
 Added 15 new dictionary entries (IDs 19873-19887) from candidate_words.json. Mix of common vocabulary useful for intermediate learners including cultural items, everyday nouns, and verbs.
 
@@ -87,14 +97,6 @@ Added 30 new dictionary entries (IDs 19789-19818) from candidate_words.json. Div
 - **Suru verbs (4)**: {踏破|とうは} (to traverse), {通読|つうどく} (to read through), {中座|ちゅうざ} (to leave midway)
 - **Adverbs (3)**: {不覚|ふかく}にも (unwittingly), つい{先日|せんじつ} (just the other day)
 - Removed 5 stale candidates (受理する, 同行する, 遂行する, 逆上する, 包括する — already exist as entries)
-
-### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 512)
-Added 30 new dictionary entries (IDs 19759-19788) from candidate_words.json. Diverse mix of practical vocabulary for intermediate learners.
-
-- **Nouns (20)**: {誠意|せいい} (sincerity), {晩飯|ばんめし} (dinner), {煮込|にこ}み (stew), {音沙汰|おとさた} (news/sign of life), {花畑|はなばたけ} (flower field), {民芸|みんげい} (folk craft), {鎮静|ちんせい} (sedation), {珍事|ちんじ} (rare event), {平時|へいじ} (peacetime), {多重|たじゅう} (multiple), {号外|ごうがい} (extra edition), {正確|せいかく}さ (accuracy), {空襲|くうしゅう} (air raid), {引|ひ}き{締|し}め (tightening), {軽油|けいゆ} (diesel), すね (shin), {砲撃|ほうげき} (shelling), {流血|りゅうけつ} (bloodshed), {止血|しけつ} (hemostasis), {空爆|くうばく} (air strike)
-- **Adverbs (3)**: やむなく (unavoidably), {常時|じょうじ} (constantly), {初|はじ}めから (from the beginning)
-- **Other (7)**: ずぼら (lazy/na-adj), {号車|ごうしゃ} (train car number/counter), {手慣|てな}れる (to become skilled/verb), {油菜|あぶらな} (rapeseed), {定時制|ていじせい} (part-time school), {手工芸|しゅこうげい} (handicraft), {遠望|えんぼう} (distant view)
-
 
 ---
 
