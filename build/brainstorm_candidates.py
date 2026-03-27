@@ -36,6 +36,7 @@ BRAINSTORM_DATA = os.path.join(PROJECT_ROOT, 'prompts',
 OLD_BRAINSTORM_DATA = os.path.join(PROJECT_ROOT, 'brainstorming',
                                    'entries_and_candidates_for_LLM_brainstorming_old.json')
 RESULTS_FILE = os.path.join(PROJECT_ROOT, 'prompts', 'brainstorm_results.json')
+CHECKED_SEEDS_FILE = os.path.join(PROJECT_ROOT, 'brainstorming', 'checked_seeds.json')
 
 sys.path.insert(0, SCRIPT_DIR)
 from japanese_utils import normalize_reading, strip_furigana
@@ -54,6 +55,28 @@ def save_json(path, data):
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
         f.write('\n')
+
+
+def load_checked_seeds():
+    """Load the persistent set of checked seed (headword, reading) pairs.
+
+    This file is committed to the repo so checked state survives across
+    sessions, even when the large brainstorm data file is gitignored.
+    """
+    if os.path.exists(CHECKED_SEEDS_FILE):
+        try:
+            data = load_json(CHECKED_SEEDS_FILE)
+            return {(item[0], item[1]) for item in data}
+        except (json.JSONDecodeError, TypeError, IndexError):
+            return set()
+    return set()
+
+
+def save_checked_seeds(checked_set):
+    """Persist the checked seed set to a committed JSON file."""
+    os.makedirs(os.path.dirname(CHECKED_SEEDS_FILE), exist_ok=True)
+    data = sorted([list(pair) for pair in checked_set])
+    save_json(CHECKED_SEEDS_FILE, data)
 
 
 # ---------------------------------------------------------------------------
@@ -149,32 +172,24 @@ def init_brainstorm_data():
         if (word, reading) not in current_words:
             current_words[(word, reading)] = gloss
 
-    # Import checked values from the old brainstorming file
-    old_checked = {}
-    if os.path.exists(OLD_BRAINSTORM_DATA):
+    # Load persistent checked seeds (committed to repo — survives across sessions)
+    checked_seeds = load_checked_seeds()
+
+    # On first run, also import from the old brainstorming file
+    if not checked_seeds and os.path.exists(OLD_BRAINSTORM_DATA):
         old_data = load_json(OLD_BRAINSTORM_DATA)
         for item in old_data:
-            key = (item.get('headword', ''), item.get('reading', ''))
-            old_checked[key] = item.get('checked', 0)
-
-    # Preserve checked values from previous runs of this script
-    existing_checked = {}
-    if os.path.exists(BRAINSTORM_DATA):
-        try:
-            existing_data = load_json(BRAINSTORM_DATA)
-            for item in existing_data:
-                key = (item.get('headword', ''), item.get('reading', ''))
-                existing_checked[key] = item.get('checked', 0)
-        except (json.JSONDecodeError, TypeError):
-            pass  # file corrupt or empty — start fresh
+            if item.get('checked', 0) == 1:
+                checked_seeds.add((item.get('headword', ''), item.get('reading', '')))
+        if checked_seeds:
+            save_checked_seeds(checked_seeds)
+            print(f"Imported {len(checked_seeds)} checked seeds from old brainstorming file.")
 
     # Build the combined list
     brainstorm_data = []
     for (hw, reading), gloss in sorted(current_words.items(),
                                        key=lambda x: (x[0][1] or '', x[0][0] or '')):
-        # Priority: existing brainstorm checked > old brainstorm checked > 0
-        checked = existing_checked.get((hw, reading),
-                                       old_checked.get((hw, reading), 0))
+        checked = 1 if (hw, reading) in checked_seeds else 0
         brainstorm_data.append({
             'headword': hw,
             'reading': reading,
@@ -361,13 +376,18 @@ def brainstorm(config, num_batches=5):
         print(f"  {len(batch_new)} survived deduplication")
         all_new.extend(batch_new)
 
-        # Mark seeds as checked
+        # Mark seeds as checked in both the local data and the persistent file
         seed_keys = {(s['headword'], s['reading']) for s in seeds}
         for item in brainstorm_data:
             if (item['headword'], item['reading']) in seed_keys:
                 item['checked'] = 1
 
-        # Persist after each batch so progress is not lost on crash
+        # Persist checked seeds to the committed file (survives across sessions)
+        checked_seeds = load_checked_seeds()
+        checked_seeds.update(seed_keys)
+        save_checked_seeds(checked_seeds)
+
+        # Also persist the local brainstorm data file for crash recovery
         save_json(BRAINSTORM_DATA, brainstorm_data)
 
     print(f"\n=== RESULTS ===")
@@ -484,18 +504,21 @@ def add_results():
 
 def show_stats():
     """Show statistics about the brainstorming data file."""
-    if not os.path.exists(BRAINSTORM_DATA):
-        print("Brainstorm data file does not exist yet. Run 'init' first.")
-        return
+    checked_seeds = load_checked_seeds()
+    print(f"Persistent checked seeds (brainstorming/checked_seeds.json): {len(checked_seeds)}")
 
-    data = load_json(BRAINSTORM_DATA)
-    total = len(data)
-    checked = sum(1 for item in data if item.get('checked') == 1)
-    unchecked = total - checked
+    if os.path.exists(BRAINSTORM_DATA):
+        data = load_json(BRAINSTORM_DATA)
+        total = len(data)
+        checked = sum(1 for item in data if item.get('checked') == 1)
+        unchecked = total - checked
 
-    print(f"Total words in brainstorm list: {total}")
-    print(f"Checked (already used as seeds): {checked} ({100 * checked / total:.1f}%)")
-    print(f"Unchecked (available as seeds):  {unchecked} ({100 * unchecked / total:.1f}%)")
+        print(f"\nLocal brainstorm data file:")
+        print(f"  Total words: {total}")
+        print(f"  Checked (already used as seeds): {checked} ({100 * checked / total:.1f}%)")
+        print(f"  Unchecked (available as seeds):  {unchecked} ({100 * unchecked / total:.1f}%)")
+    else:
+        print("\nLocal brainstorm data file does not exist yet (will be created by 'init').")
 
     if os.path.exists(RESULTS_FILE):
         results = load_json(RESULTS_FILE)
@@ -533,14 +556,20 @@ def main():
         show_stats()
 
     elif args.command == 'reset-checked':
-        if not os.path.exists(BRAINSTORM_DATA):
-            print("Brainstorm data file does not exist. Run 'init' first.")
-            sys.exit(1)
-        data = load_json(BRAINSTORM_DATA)
-        for item in data:
-            item['checked'] = 0
-        save_json(BRAINSTORM_DATA, data)
-        print(f"Reset {len(data)} entries to unchecked.")
+        # Reset the persistent checked seeds file
+        save_checked_seeds(set())
+        print(f"Cleared {CHECKED_SEEDS_FILE}")
+
+        # Also reset the local brainstorm data file if it exists
+        if os.path.exists(BRAINSTORM_DATA):
+            data = load_json(BRAINSTORM_DATA)
+            for item in data:
+                item['checked'] = 0
+            save_json(BRAINSTORM_DATA, data)
+            print(f"Reset {len(data)} entries to unchecked in local data file.")
+        else:
+            print("Local brainstorm data file does not exist (not needed — "
+                  "checked_seeds.json is the source of truth).")
 
     elif args.command == 'add-results':
         add_results()

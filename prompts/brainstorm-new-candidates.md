@@ -188,10 +188,14 @@ Verify `git status` shows a clean working tree.
 ## Notes
 
 - The brainstorming data file (`prompts/entries-and-candidates-for-brainstorming.md`)
-  is a large JSON array and should NOT be committed to the repository. Add it to
-  `.gitignore` if it is not already there.
+  is a large JSON array and should NOT be committed to the repository. It is in
+  `.gitignore`.
 - The results file (`prompts/brainstorm_results.json`) is a temporary file and
   should also not be committed.
-- The `checked` field in the brainstorming data file tracks which words have
-  been used as seeds. Once all words are checked, run
+- **Seed tracking persistence**: The record of which words have been used as
+  seeds is stored in `brainstorming/checked_seeds.json`. This file IS committed
+  to the repository, so checked state survives across sessions and branch
+  merges. Each session picks up where the last one left off — no word is used
+  as a seed twice until all words have been used.
+- Once all words are checked, run
   `python3 build/brainstorm_candidates.py reset-checked` to start a new cycle.
