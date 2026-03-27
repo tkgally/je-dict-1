@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 514)
+Added 30 new dictionary entries (IDs 19819-19848) from candidate_words.json. Mix of useful vocabulary for intermediate learners including cultural terms, abstract nouns, and adjectives.
+
+- **Nouns (20)**: {夏至|げし} (summer solstice), {士気|しき} (morale), {予知|よち} (foreknowledge), {補佐|ほさ} (assistant), {孤児|こじ} (orphan), {模擬|もぎ} (mock), {機知|きち} (wit), {次期|じき} (next term), {帰化|きか} (naturalization), {遺棄|いき} (abandonment), ミニ (mini), {孵化|ふか} (hatching), ぶれ (shake/wavering), {図示|ずし} (illustration), {地場|じば} (local), {飲|の}み{食|く}い (eating and drinking), {冷|ひ}え (chill), {飢|う}え (hunger), {伸|の}び (growth), {慣|な}れ (familiarity)
+- **I-adjectives (3)**: {弱々|よわよわ}しい (frail), {義理堅|ぎりがた}い (dutiful), {芳|かんば}しい (fragrant/favorable)
+- **Na-adjectives (2)**: {奇異|きい} (strange), {美味|びみ} (delicious)
+- **Other (5)**: {岐路|きろ} (crossroads), {賭|か}け (bet/gamble), {下戸|げこ} (non-drinker), {既知|きち} (known), {尾根|おね} (ridge)
+- New kanji added: 孵 (hatch)
+- Removed 1 stale candidate (湿気/しけ — variant reading of existing entry)
+
 ### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 513)
 Added 30 new dictionary entries (IDs 19789-19818) from candidate_words.json. Diverse mix including weather terms, causative verbs, cultural vocabulary, and business/legal terms.
 
@@ -75,13 +85,6 @@ Added 30 new dictionary entries (IDs 19729-19758) from candidate_words.json. Mix
 - **Nouns (20)**: ピンボケ (out of focus), {許容範囲|きょようはんい} (acceptable range), {親会社|おやがいしゃ} (parent company), {更|さら}には (furthermore), {度数|どすう} (frequency/alcohol content), お{門違|かどちが}い (barking up the wrong tree), {建|た}て{替|か}え (rebuilding), {勧善懲悪|かんぜんちょうあく} (poetic justice), マーガリン (margarine), {迷惑行為|めいわくこうい} (nuisance behavior), {油性|ゆせい}ペン (permanent marker), {掛|か}け{時計|どけい} (wall clock), {都市計画|としけいかく} (urban planning), {四半世紀|しはんせいき} (quarter century), {手順書|てじゅんしょ} (procedure manual), {草食動物|そうしょくどうぶつ} (herbivore), {産出|さんしゅつ} (production/yield), {着色料|ちゃくしょくりょう} (coloring agent), {祭礼|さいれい} (religious festival), {関連会社|かんれんがいしゃ} (affiliated company)
 - **Other (4)**: {不健全|ふけんぜん} (unhealthy/na-adj), {碁石|ごいし} (Go stone), {壮年|そうねん} (prime of life), {予定|よてい}が{詰|つ}まる (packed schedule)
 - Removed 3 stale candidates (雑な, 滑らかな, 無数の — already exist as entries)
-
-### 2026-03-26 (Vocabulary Expansion - 14 New Entries, Session 509)
-Added 14 new dictionary entries (IDs 19686-19699) from candidate_words.json. Diverse mix of daily-life vocabulary, verbs, and cultural terms.
-
-- **Nouns (10)**: {部屋着|へやぎ} (loungewear), {一戸建|いっこだ}て (detached house), {学園祭|がくえんさい} (school festival), {仕事仲間|しごとなかま} (work colleague), {懇談会|こんだんかい} (informal meeting), {体臭|たいしゅう} (body odor), {内勤|ないきん} (desk work), {大家族|だいかぞく} (large family), {第一志望|だいいちしぼう} (first choice), {図工|ずこう} (arts and crafts)
-- **Verbs (4)**: {遠|とお}ざける (to keep away), ちらつく (to flicker), {埋|うず}もれる (to be buried in), {持|も}ち{運|はこ}ぶ (to carry around)
-- Removed 1 stale candidate ({間取|まど}り — already exists as entry 06078)
 
 ### 2026-03-26 (Vocabulary Expansion - 29 New Entries, Session 510)
 Added 29 new dictionary entries (IDs 19700-19728) from candidate_words.json. Mixed vocabulary including adjectives, expressions, compass directions, and formal nouns.
