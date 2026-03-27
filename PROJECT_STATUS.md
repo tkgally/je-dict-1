@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 519)
+Added 30 new dictionary entries (IDs 19948-19977) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners covering society, culture, food, nature, and everyday life.
+
+- **Nouns (26)**: {存在感|そんざいかん} (presence), {闘病|とうびょう} (fighting illness), {対談|たいだん} (dialogue), {休講|きゅうこう} (cancelled class), {鍋料理|なべりょうり} (hot pot), {線香花火|せんこうはなび} (sparkler), {記者会見|きしゃかいけん} (press conference), {完成度|かんせいど} (level of polish), {安堵感|あんどかん} (sense of relief), {強敵|きょうてき} (formidable enemy), {田舎暮|いなかぐ}らし (country living), {逆流|ぎゃくりゅう} (backflow), {準備万端|じゅんびばんたん} (fully prepared), {船旅|ふなたび} (boat trip), {格差社会|かくさしゃかい} (stratified society), {親|した}しみ (affection), {兵役|へいえき} (military service), {大流行|だいりゅうこう} (huge craze), {着脱|ちゃくだつ} (putting on/taking off), {振袖|ふりそで} (long-sleeved kimono), {小鉢|こばち} (small bowl/side dish), {密林|みつりん} (jungle), {弾|はず}み (momentum), {偏向|へんこう} (bias), {砂丘|さきゅう} (sand dune), {退位|たいい} (abdication)
+- **Nouns/Verbal nouns (2)**: {独走|どくそう} (running alone), {仕入先|しいれさき} (supplier)
+- **Na-adjective (1)**: {視覚的|しかくてき} (visual)
+- **Noun/Na-adjective (1)**: {非効率|ひこうりつ} (inefficient)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 518)
 Added 30 new dictionary entries (IDs 19918-19947) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners including adjectives, onomatopoeia, cultural terms, and common nouns/expressions.
 
@@ -89,16 +98,6 @@ Added 24 new dictionary entries (IDs 19849-19872) from candidate_words.json. Pra
 - **Na-adjectives (4)**: {世俗的|せぞくてき} (secular/worldly), {無機質|むきしつ}な (cold/inorganic), {情緒不安定|じょうちょふあんてい} (emotionally unstable), {物欲|ものほ}しげ (wistful/longing)
 - **Other (5)**: {無課金|むかきん} (free-to-play), {鵜|う} (cormorant), どなたか (someone/polite), だけれども (although/but), といった (such as)
 - New kanji added: 准 (quasi), 鵜 (cormorant)
-
-### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 514)
-Added 30 new dictionary entries (IDs 19819-19848) from candidate_words.json. Mix of useful vocabulary for intermediate learners including cultural terms, abstract nouns, and adjectives.
-
-- **Nouns (20)**: {夏至|げし} (summer solstice), {士気|しき} (morale), {予知|よち} (foreknowledge), {補佐|ほさ} (assistant), {孤児|こじ} (orphan), {模擬|もぎ} (mock), {機知|きち} (wit), {次期|じき} (next term), {帰化|きか} (naturalization), {遺棄|いき} (abandonment), ミニ (mini), {孵化|ふか} (hatching), ぶれ (shake/wavering), {図示|ずし} (illustration), {地場|じば} (local), {飲|の}み{食|く}い (eating and drinking), {冷|ひ}え (chill), {飢|う}え (hunger), {伸|の}び (growth), {慣|な}れ (familiarity)
-- **I-adjectives (3)**: {弱々|よわよわ}しい (frail), {義理堅|ぎりがた}い (dutiful), {芳|かんば}しい (fragrant/favorable)
-- **Na-adjectives (2)**: {奇異|きい} (strange), {美味|びみ} (delicious)
-- **Other (5)**: {岐路|きろ} (crossroads), {賭|か}け (bet/gamble), {下戸|げこ} (non-drinker), {既知|きち} (known), {尾根|おね} (ridge)
-- New kanji added: 孵 (hatch)
-- Removed 1 stale candidate (湿気/しけ — variant reading of existing entry)
 
 ---
 
