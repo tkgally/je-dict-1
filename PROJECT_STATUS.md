@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-25
+**Last updated**: 2026-03-27
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 513)
+Added 30 new dictionary entries (IDs 19789-19818) from candidate_words.json. Diverse mix including weather terms, causative verbs, cultural vocabulary, and business/legal terms.
+
+- **Nouns (18)**: {盗|ぬす}み (theft), {転落|てんらく} (fall/decline), {洋式|ようしき} (Western-style), {聞|き}き{手|て} (listener), {実演|じつえん} (live demonstration), {熱波|ねっぱ} (heat wave), {顔料|がんりょう} (pigment), {長兄|ちょうけい} (eldest brother), {登記|とうき} (registration), {退団|たいだん} (leaving a group), {大容量|だいようりょう} (large capacity), {白地|しろじ} (white background), {美術室|びじゅつしつ} (art room), {司令塔|しれいとう} (control tower/playmaker), {妻子持|さいしも}ち (family man), {楽観視|らっかんし} (optimistic view), {炎暑|えんしょ} (scorching heat), {保有者|ほゆうしゃ} (holder/owner), {年次報告|ねんじほうこく} (annual report), {性自認|せいじにん} (gender identity), {沙汰止|さたや}み (abandoned/dropped), {社員食堂|しゃいんしょくどう} (employee cafeteria)
+- **Verbs (3)**: たわむ (to bend/warp), {悩|なや}ませる (to trouble), {怒|おこ}らせる (to make angry)
+- **Suru verbs (4)**: {踏破|とうは} (to traverse), {通読|つうどく} (to read through), {中座|ちゅうざ} (to leave midway)
+- **Adverbs (3)**: {不覚|ふかく}にも (unwittingly), つい{先日|せんじつ} (just the other day)
+- Removed 5 stale candidates (受理する, 同行する, 遂行する, 逆上する, 包括する — already exist as entries)
+
 ### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 512)
 Added 30 new dictionary entries (IDs 19759-19788) from candidate_words.json. Diverse mix of practical vocabulary for intermediate learners.
 
@@ -73,17 +82,6 @@ Added 14 new dictionary entries (IDs 19686-19699) from candidate_words.json. Div
 - **Nouns (10)**: {部屋着|へやぎ} (loungewear), {一戸建|いっこだ}て (detached house), {学園祭|がくえんさい} (school festival), {仕事仲間|しごとなかま} (work colleague), {懇談会|こんだんかい} (informal meeting), {体臭|たいしゅう} (body odor), {内勤|ないきん} (desk work), {大家族|だいかぞく} (large family), {第一志望|だいいちしぼう} (first choice), {図工|ずこう} (arts and crafts)
 - **Verbs (4)**: {遠|とお}ざける (to keep away), ちらつく (to flicker), {埋|うず}もれる (to be buried in), {持|も}ち{運|はこ}ぶ (to carry around)
 - Removed 1 stale candidate ({間取|まど}り — already exists as entry 06078)
-
-### 2026-03-26 (Vocabulary Expansion - 30 New Entries, Session 508)
-Added 30 new dictionary entries (IDs 19656-19685) from candidate_words.json. Diverse mix of useful intermediate vocabulary including expressions, cultural terms, and formal language.
-
-- **Expressions (6)**: かしこまりました (understood/humble), {口|くち}を{滑|すべ}らせる (let something slip), {先見|せんけん}の{明|めい} (foresight), {羽振|はぶ}りがいい (prosperous), {白紙|はくし}に{戻|もど}す (go back to square one), {信|しん}じ{難|がた}い (hard to believe)
-- **Nouns (15)**: {結婚祝|けっこんいわ}い (wedding gift), {秋分|しゅうぶん} (autumnal equinox), {若葉|わかば} (young leaves), {顔|かお}つき (facial expression), {施術|しじゅつ} (medical procedure), {支柱|しちゅう} (pillar/support), {流域|りゅういき} (river basin), {石器|せっき} (stone tool), {飼料|しりょう} (animal feed), {道幅|みちはば} (road width), {年俸|ねんぽう} (annual salary), {石垣|いしがき} (stone wall), {岸壁|がんぺき} (quay wall), {再出発|さいしゅっぱつ} (fresh start), {案内状|あんないじょう} (invitation letter)
-- **Nouns/Verbal nouns (4)**: {屈服|くっぷく} (submission), {併合|へいごう} (annexation), {退廃|たいはい} (decadence), {準拠|じゅんきょ}する (conform to)
-- **Adjectives (3)**: {寒冷|かんれい} (cold/frigid), {耐|た}え{難|がた}い (unbearable), {受|う}け{身|み} (passive)
-- **Other (2)**: {何卒|なにとぞ} (please/formal), {生身|なまみ} (flesh and blood)
-- 1 new kanji added to index: 俸
-- Removed 1 stale candidate (活発 — already exists as entry 13272)
 
 ### 2026-03-26 (Vocabulary Expansion - 29 New Entries, Session 510)
 Added 29 new dictionary entries (IDs 19700-19728) from candidate_words.json. Mixed vocabulary including adjectives, expressions, compass directions, and formal nouns.
