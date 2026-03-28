@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 528)
+Added 30 new dictionary entries (IDs 20201-20230) from candidate_words.json. Mix of common suru-verbs, adjectives, and practical nouns for intermediate learners.
+
+- **Suru-verbs (9)**: {努力|どりょく}する (to make effort), {連絡|れんらく}する (to contact), {案内|あんない}する (to guide), {反応|はんのう}する (to react), {刺激|しげき}する (to stimulate), {移転|いてん}する (to relocate), {点灯|てんとう}する (to turn on light), {奉仕|ほうし}する (to serve), {合致|がっち}する (to match)
+- **Adjectives (4)**: {入念|にゅうねん} (thorough), {壊|こわ}れやすい (fragile), {物寂|ものさび}しい (lonely/desolate), {肥沃|ひよく} (fertile)
+- **Nouns (15)**: {職員|しょくいん} (staff member), {緊張感|きんちょうかん} (sense of tension), {前列|ぜんれつ} (front row), {後列|こうれつ} (back row), {納屋|なや} (barn/shed), {親元|おやもと} (parents' home), {内幕|ないまく} (inside story), {火元|ひもと} (origin of fire), {家具付|かぐつ}き (furnished), {川辺|かわべ} (riverbank), {岸辺|きしべ} (shore), {役立|やくだ}たず (good-for-nothing), {片目|かため} (one eye), {離宮|りきゅう} (detached palace), {牙城|がじょう} (stronghold)
+- **Verb (1)**: {看取|みと}る (to watch over a dying person)
+- **Noun/Adjective (1)**: {耳障|みみざわ}り (grating to hear)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 22 New Entries, Session 527)
 Added 22 new dictionary entries (IDs 20178-20200) from candidate_words.json. Mix of four-character idioms, literary vocabulary, cultural terms, and practical words for intermediate learners.
 
@@ -100,16 +110,6 @@ Added 30 new dictionary entries (IDs 20088-20117) from candidate_words.json. Div
 - **Daily Life/Materials (5)**: {布地|ぬのじ} (fabric), {綿花|めんか} (raw cotton), {綿棒|めんぼう} (cotton swab), {飲茶|やむちゃ} (dim sum), {熱々|あつあつ} (piping hot)
 - **Abstract (3)**: {一線|いっせん} (front line/boundary), {腹立|はらだ}ち (anger), {平面|へいめん} (flat surface)
 - **Other (3)**: {醜態|しゅうたい} (disgraceful behavior), {加護|かご} (divine protection), {直射|ちょくしゃ} (direct rays)
-
-### 2026-03-28 (Vocabulary Expansion - 20 New Entries, Session 523)
-Added 20 new dictionary entries (IDs 20068-20087) from candidate_words.json. Focus on practical expressions, useful verbs, and common words for intermediate learners.
-
-- **Expressions (7)**: {心|こころ}を{打|う}つ (to move deeply), {耳|みみ}を{貸|か}す (to lend an ear), {身|み}を{引|ひ}く (to step aside), {鼻|はな}をかむ (to blow one's nose), {手|て}を{繋|つな}ぐ (to hold hands), {元|もと}に{戻|もど}る (to return to original state), {弁|べん}が{立|た}つ (to be eloquent)
-- **Nouns (3)**: {衰|おとろ}え (decline), {様相|ようそう} (aspect), {初志|しょし} (original intention), {露見|ろけん} (exposure)
-- **Verbs (4)**: {上下|じょうげ}する (to rise and fall), {仕分|しわ}ける (to sort), {割|わ}り{振|ふ}る (to assign), ぶち{込|こ}む (to throw in), もぎ{取|と}る (to pluck off)
-- **Adverbs (2)**: あれほど (that much), {多少|たしょう}とも (to some extent)
-- **Other (1)**: {渡米|とべい}する (to go to America)
-- Removed 20 candidates that now exist as entries
 
 ---
 
