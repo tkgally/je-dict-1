@@ -3,6 +3,16 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-28 (Vocabulary Expansion - 20 New Entries, Session 523)
+Added 20 new dictionary entries (IDs 20068-20087) from candidate_words.json. Focus on practical expressions, useful verbs, and common words for intermediate learners.
+
+- **Expressions (7)**: {心|こころ}を{打|う}つ (to move deeply), {耳|みみ}を{貸|か}す (to lend an ear), {身|み}を{引|ひ}く (to step aside), {鼻|はな}をかむ (to blow one's nose), {手|て}を{繋|つな}ぐ (to hold hands), {元|もと}に{戻|もど}る (to return to original state), {弁|べん}が{立|た}つ (to be eloquent)
+- **Nouns (3)**: {衰|おとろ}え (decline), {様相|ようそう} (aspect), {初志|しょし} (original intention), {露見|ろけん} (exposure)
+- **Verbs (4)**: {上下|じょうげ}する (to rise and fall), {仕分|しわ}ける (to sort), {割|わ}り{振|ふ}る (to assign), ぶち{込|こ}む (to throw in), もぎ{取|と}る (to pluck off)
+- **Adverbs (2)**: あれほど (that much), {多少|たしょう}とも (to some extent)
+- **Other (1)**: {渡米|とべい}する (to go to America)
+- Removed 20 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 522)
 Added 30 new dictionary entries (IDs 20038-20067) from candidate_words.json. Mix of useful vocabulary including adverbs, adjectives, verbs, and nouns covering personality, business, culture, and daily life.
 
