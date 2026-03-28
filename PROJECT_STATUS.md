@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 522)
+Added 30 new dictionary entries (IDs 20038-20067) from candidate_words.json. Mix of useful vocabulary including adverbs, adjectives, verbs, and nouns covering personality, business, culture, and daily life.
+
+- **Nouns (10)**: {吐息|といき} (sigh), {影響力|えいきょうりょく} (influence), {耐久性|たいきゅうせい} (durability), {悪評|あくひょう} (bad reputation), {劇団|げきだん} (theater troupe), {裏目|うらめ} (backfire), {受領|じゅりょう} (receipt), {封書|ふうしょ} (sealed letter), {熱量|ねつりょう} (caloric value/passion), {可動|かどう} (movable)
+- **Na-adjectives (3)**: {楽天的|らくてんてき} (optimistic), {奔放|ほんぽう} (uninhibited), {有難迷惑|ありがためいわく} (unwelcome favor)
+- **Adverbs (4)**: {少|すこ}しずつ (little by little), {見事|みごと}に (splendidly), {巧|たく}みに (skillfully), えっと (um)
+- **Verbs (7)**: {対処|たいしょ}する (to deal with), {反復|はんぷく}する (to repeat), {了承|りょうしょう}する (to consent), {許可|きょか}する (to permit), {承認|しょうにん}する (to approve), {吹|ふ}き{出|で}る (to gush out), {削|けず}り{取|と}る (to scrape off)
+- **Other (6)**: {洗礼|せんれい} (baptism/ordeal), {同人|どうじん} (doujin/coterie), {行灯|あんどん} (paper lantern), {堂々|どうどう}たる (imposing), {規則正|きそくただ}しい (regular), {変|か}わった (unusual)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 521)
 Added 30 new dictionary entries (IDs 20008-20037) from candidate_words.json. Diverse vocabulary for intermediate learners covering emotions, culture, food, work, travel, and everyday life.
 
@@ -92,16 +102,6 @@ Added 30 new dictionary entries (IDs 19918-19947) from candidate_words.json. Div
 - **Onomatopoeia/Adverbs (3)**: ぱらぱら (scattered), {続|つづ}けざま (in succession), がっしり (solidly built)
 - **Other (5)**: {甘|あま}えん{坊|ぼう} (spoiled child), {市立|しりつ} (municipal), {春分|しゅんぶん} (spring equinox), {未亡人|みぼうじん} (widow)
 - Removed 30 candidates that now exist as entries
-
-### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 517)
-Added 30 new dictionary entries (IDs 19888-19917) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners including adverbs, verbs, expressions, and nouns.
-
-- **Adverbs (9)**: {着実|ちゃくじつ}に (steadily), {意外|いがい}に (surprisingly), {大幅|おおはば}に (drastically), {大量|たいりょう}に (in large quantities), {無意識|むいしき}に (unconsciously), {事細|ことこま}かに (in great detail), {近|ちか}いうちに (in the near future), {第二|だいに}に (secondly)
-- **Verbs (6)**: {交付|こうふ}する (to issue officially), {通読|つうどく}する (to read through), {突|つ}き{刺|ささ}る (to pierce), {執|と}り{行|おこな}う (to conduct ceremony), {悔|く}い{改|あらた}める (to repent), {植|う}え{付|つ}ける (to implant)
-- **Expressions (3)**: {気|き}のせい (one's imagination), {何|なん}でもない (nothing special), {落|お}ち{着|つ}ける (to calm/relax)
-- **Nouns (7)**: {子分|こぶん} (follower), {微糖|びとう} (low sugar), {氷解|ひょうかい} (clearing of doubts), {板場|いたば} (kitchen/chef), {山札|やまふだ} (draw pile), {解釈違|かいしゃくちが}い (misinterpretation), {眼識|がんしき} (discerning eye)
-- **Adjectives/Other (5)**: {用意周到|よういしゅうとう} (thoroughly prepared), {忍|しの}び{難|がた}い (unbearable), {切|き}り{立|た}った (steep), {目立|めだ}たない (inconspicuous), かつ (and/moreover), {追随|ついずい}する (to follow/emulate)
-- Removed 29 candidates that now exist as entries
 
 ---
 
