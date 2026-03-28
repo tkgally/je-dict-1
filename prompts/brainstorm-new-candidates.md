@@ -21,7 +21,7 @@ values below and the corresponding `--flags` in the commands in the steps.
 | Temperature   | `0.8`                     |
 | Max tokens    | `8192`                    |
 | Batch size    | `15` (seed words per batch) |
-| Batches       | `25` (override with `-n`)  |
+| Batches       | `100` (override with `-n`)  |
 
 **Relation types explored** (hardcoded in `build/brainstorm_candidates.py`):
 - synonyms and near-synonyms
@@ -94,7 +94,7 @@ python3 build/brainstorm_candidates.py brainstorm \
   --batch-size 15
 ```
 
-Use `-n 25` by default. The invoking metaprompt may specify a different number;
+Use `-n 100` by default. The invoking metaprompt may specify a different number;
 if so, use that value instead. To run more batches, repeat the cycle of
 steps 3 → 4 (brainstorm then add-results) multiple times, since each
 brainstorm run **overwrites** `brainstorm_results.json`. The persistent
