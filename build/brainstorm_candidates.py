@@ -469,6 +469,7 @@ def add_results():
             'added': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
         }
         candidates_data['candidates'].append(candidate)
+        print(f"  + {hw} ({reading}): {gloss}")
         next_id += 1
         added += 1
 

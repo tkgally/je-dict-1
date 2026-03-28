@@ -21,7 +21,7 @@ values below and the corresponding `--flags` in the commands in the steps.
 | Temperature   | `0.8`                     |
 | Max tokens    | `4096`                    |
 | Batch size    | `15` (seed words per batch) |
-| Batches       | `5`                       |
+| Batches       | `5` (override with `-n`)  |
 
 **Relation types explored** (hardcoded in `build/brainstorm_candidates.py`):
 - synonyms and near-synonyms
@@ -36,8 +36,10 @@ values below and the corresponding `--flags` in the commands in the steps.
 
 ## Prerequisites
 
-- `OPENROUTER_API_KEY` environment variable must be set
-- Repository must be on `main` with a clean working tree
+- `OPENROUTER_API_KEY` environment variable must be set.
+  Verify before doing anything else: `echo $OPENROUTER_API_KEY | head -c8`
+  If empty, abort immediately with a clear error message.
+- Repository should have a clean working tree
 
 ---
 
@@ -53,14 +55,19 @@ This is idempotent and fast if already installed.
 
 ### 1. Set up a feature branch
 
+**If you are already on a feature branch** (assigned by the harness or
+created before this prompt was invoked), skip branch creation and stay on
+that branch. Just make sure it is up to date:
+
+```bash
+git pull origin main --no-edit  # merge latest main into current branch
+```
+
+**Otherwise** (you are on `main` with no pre-assigned branch):
+
 ```bash
 git checkout main
 git pull origin main
-```
-
-Create a timestamped feature branch:
-
-```bash
 git checkout -b brainstorm/candidates-$(date +%Y%m%d-%H%M%S)
 ```
 
@@ -87,7 +94,13 @@ python3 build/brainstorm_candidates.py brainstorm \
   --batch-size 15
 ```
 
-This selects 5 batches of 15 random unchecked seed words, sends each batch to
+Use `-n 5` by default. The invoking metaprompt may specify a different number;
+if so, use that value instead. To run more batches, repeat the cycle of
+steps 3 → 4 (brainstorm then add-results) multiple times, since each
+brainstorm run **overwrites** `brainstorm_results.json`. The persistent
+`checked_seeds.json` ensures no seed word is reused across runs.
+
+This selects batches of 15 random unchecked seed words, sends each batch to
 the LLM, and filters the suggestions through flexible deduplication that
 handles:
 
@@ -117,7 +130,9 @@ import.
 python3 build/brainstorm_candidates.py stats
 ```
 
-Report the statistics to confirm the run completed.
+Report the statistics to confirm the run completed. The `add-results` command
+(step 4) prints each added word as `+ headword (reading): gloss` — use that
+output to compile the list of newly added candidates for reporting.
 
 ### 6. Validate and build
 
@@ -164,6 +179,8 @@ the PR.
 If CI fails, read the failure logs, fix the issue, commit, push, and re-check.
 
 ### 10. Post-merge cleanup
+
+Follow the end-of-session PR and merge workflow from CLAUDE.md:
 
 ```bash
 git checkout main
