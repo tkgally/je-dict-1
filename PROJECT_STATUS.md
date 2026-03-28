@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 532)
+Added 30 new dictionary entries (IDs 20321-20350) from candidate_words.json. Diverse mix of practical vocabulary for intermediate learners.
+
+- **Adjectives (7)**: ありきたり (commonplace), {凡庸|ぼんよう} (mediocre), {法外|ほうがい} (outrageous), {無鉄砲|むてっぽう} (reckless), {静粛|せいしゅく} (silent/solemn), {清廉|せいれん} (incorruptible), {底|そこ}なし (bottomless)
+- **Verbs (5)**: {持|も}ち{寄|よ}る (to bring and share), {落胆|らくたん}する (to be discouraged), チンする (to microwave), {禿|は}げる (to go bald), {撫|な}で{回|まわ}す (to stroke all over)
+- **Adverbs (2)**: さりげなく (casually), {一晩中|ひとばんじゅう} (all night long)
+- **Nouns (16)**: {経験談|けいけんだん} (personal account), {耳鳴|みみな}り (tinnitus), {雨粒|あまつぶ} (raindrop), {過不足|かふそく} (excess or deficiency), {助|す}っ{人|と} (helper), {変態|へんたい} (pervert/metamorphosis), {若|わか}さ (youth), {細身|ほそみ} (slim build), {魔除|まよ}け (charm against evil), {台風一過|たいふういっか} (clear skies after typhoon), {水|みず}はけ (drainage), {船便|ふなびん} (sea mail), {所持品|しょじひん} (belongings), {万歩計|まんぽけい} (pedometer), {出場|しゅつじょう}する (to compete), {演奏|えんそう}する (to perform music)
+- Added 1 new kanji to index: 禿
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 531)
 Added 30 new dictionary entries (IDs 20291-20320) from candidate_words.json. Diverse vocabulary including verbs, adjectives, expressions, and nouns for intermediate learners.
 
@@ -88,19 +98,6 @@ Added 30 new dictionary entries (IDs 20201-20230) from candidate_words.json. Mix
 - **Verb (1)**: {看取|みと}る (to watch over a dying person)
 - **Noun/Adjective (1)**: {耳障|みみざわ}り (grating to hear)
 - Removed 30 candidates that now exist as entries
-
-### 2026-03-28 (Vocabulary Expansion - 22 New Entries, Session 527)
-Added 22 new dictionary entries (IDs 20178-20200) from candidate_words.json. Mix of four-character idioms, literary vocabulary, cultural terms, and practical words for intermediate learners.
-
-- **Four-character idiom (1)**: {悪戦苦闘|あくせんくとう} (desperate struggle)
-- **Nouns (11)**: {戒|いまし}め (warning/admonition), {前衛|ぜんえい} (vanguard/avant-garde), {中庸|ちゅうよう} (moderation), {堕落|だらく} (depravity), {被災|ひさい} (disaster damage), {名言|めいげん} (famous saying), {立腹|りっぷく} (anger), {別離|べつり} (parting), {切|き}り{捨|す}て (rounding down/discarding), {再選|さいせん} (re-election), {両極端|りょうきょくたん} (both extremes)
-- **Nouns (practical) (5)**: {弁当箱|べんとうばこ} (lunch box), {肩代|かたが}わり (taking over debt), {行商|ぎょうしょう} (peddling), {地元民|じもとみん} (local resident), {湯豆腐|ゆどうふ} (boiled tofu)
-- **Nouns (culture) (2)**: {剣術|けんじゅつ} (swordsmanship), {牧畜|ぼくちく} (livestock farming)
-- **Nouns (literary) (2)**: {享楽|きょうらく} (pleasure-seeking), {風采|ふうさい} (appearance/bearing)
-- **Verb (1)**: {取|と}り{掛|か}かる (to start working on)
-- **Expression (1)**: {思|おも}いを{馳|は}せる (to think longingly of)
-- Removed 2 stale candidates (奔走する, 飛躍する — already existed as entries)
-- Added 2 new kanji to index: 堕, 庸
 
 ---
 
