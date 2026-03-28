@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 22 New Entries, Session 527)
+Added 22 new dictionary entries (IDs 20178-20200) from candidate_words.json. Mix of four-character idioms, literary vocabulary, cultural terms, and practical words for intermediate learners.
+
+- **Four-character idiom (1)**: {悪戦苦闘|あくせんくとう} (desperate struggle)
+- **Nouns (11)**: {戒|いまし}め (warning/admonition), {前衛|ぜんえい} (vanguard/avant-garde), {中庸|ちゅうよう} (moderation), {堕落|だらく} (depravity), {被災|ひさい} (disaster damage), {名言|めいげん} (famous saying), {立腹|りっぷく} (anger), {別離|べつり} (parting), {切|き}り{捨|す}て (rounding down/discarding), {再選|さいせん} (re-election), {両極端|りょうきょくたん} (both extremes)
+- **Nouns (practical) (5)**: {弁当箱|べんとうばこ} (lunch box), {肩代|かたが}わり (taking over debt), {行商|ぎょうしょう} (peddling), {地元民|じもとみん} (local resident), {湯豆腐|ゆどうふ} (boiled tofu)
+- **Nouns (culture) (2)**: {剣術|けんじゅつ} (swordsmanship), {牧畜|ぼくちく} (livestock farming)
+- **Nouns (literary) (2)**: {享楽|きょうらく} (pleasure-seeking), {風采|ふうさい} (appearance/bearing)
+- **Verb (1)**: {取|と}り{掛|か}かる (to start working on)
+- **Expression (1)**: {思|おも}いを{馳|は}せる (to think longingly of)
+- Removed 2 stale candidates (奔走する, 飛躍する — already existed as entries)
+- Added 2 new kanji to index: 堕, 庸
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 526)
 Added 30 new dictionary entries (IDs 20148-20177) from candidate_words.json. Practical vocabulary covering verbs, adjectives, nouns, and expressions for intermediate learners.
 
@@ -97,16 +110,6 @@ Added 20 new dictionary entries (IDs 20068-20087) from candidate_words.json. Foc
 - **Adverbs (2)**: あれほど (that much), {多少|たしょう}とも (to some extent)
 - **Other (1)**: {渡米|とべい}する (to go to America)
 - Removed 20 candidates that now exist as entries
-
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 522)
-Added 30 new dictionary entries (IDs 20038-20067) from candidate_words.json. Mix of useful vocabulary including adverbs, adjectives, verbs, and nouns covering personality, business, culture, and daily life.
-
-- **Nouns (10)**: {吐息|といき} (sigh), {影響力|えいきょうりょく} (influence), {耐久性|たいきゅうせい} (durability), {悪評|あくひょう} (bad reputation), {劇団|げきだん} (theater troupe), {裏目|うらめ} (backfire), {受領|じゅりょう} (receipt), {封書|ふうしょ} (sealed letter), {熱量|ねつりょう} (caloric value/passion), {可動|かどう} (movable)
-- **Na-adjectives (3)**: {楽天的|らくてんてき} (optimistic), {奔放|ほんぽう} (uninhibited), {有難迷惑|ありがためいわく} (unwelcome favor)
-- **Adverbs (4)**: {少|すこ}しずつ (little by little), {見事|みごと}に (splendidly), {巧|たく}みに (skillfully), えっと (um)
-- **Verbs (7)**: {対処|たいしょ}する (to deal with), {反復|はんぷく}する (to repeat), {了承|りょうしょう}する (to consent), {許可|きょか}する (to permit), {承認|しょうにん}する (to approve), {吹|ふ}き{出|で}る (to gush out), {削|けず}り{取|と}る (to scrape off)
-- **Other (6)**: {洗礼|せんれい} (baptism/ordeal), {同人|どうじん} (doujin/coterie), {行灯|あんどん} (paper lantern), {堂々|どうどう}たる (imposing), {規則正|きそくただ}しい (regular), {変|か}わった (unusual)
-- Removed 30 candidates that now exist as entries
 
 ---
 

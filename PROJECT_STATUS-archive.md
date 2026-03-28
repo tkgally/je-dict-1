@@ -3,6 +3,16 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 522)
+Added 30 new dictionary entries (IDs 20038-20067) from candidate_words.json. Mix of useful vocabulary including adverbs, adjectives, verbs, and nouns covering personality, business, culture, and daily life.
+
+- **Nouns (10)**: {吐息|といき} (sigh), {影響力|えいきょうりょく} (influence), {耐久性|たいきゅうせい} (durability), {悪評|あくひょう} (bad reputation), {劇団|げきだん} (theater troupe), {裏目|うらめ} (backfire), {受領|じゅりょう} (receipt), {封書|ふうしょ} (sealed letter), {熱量|ねつりょう} (caloric value/passion), {可動|かどう} (movable)
+- **Na-adjectives (3)**: {楽天的|らくてんてき} (optimistic), {奔放|ほんぽう} (uninhibited), {有難迷惑|ありがためいわく} (unwelcome favor)
+- **Adverbs (4)**: {少|すこ}しずつ (little by little), {見事|みごと}に (splendidly), {巧|たく}みに (skillfully), えっと (um)
+- **Verbs (7)**: {対処|たいしょ}する (to deal with), {反復|はんぷく}する (to repeat), {了承|りょうしょう}する (to consent), {許可|きょか}する (to permit), {承認|しょうにん}する (to approve), {吹|ふ}き{出|で}る (to gush out), {削|けず}り{取|と}る (to scrape off)
+- **Other (6)**: {洗礼|せんれい} (baptism/ordeal), {同人|どうじん} (doujin/coterie), {行灯|あんどん} (paper lantern), {堂々|どうどう}たる (imposing), {規則正|きそくただ}しい (regular), {変|か}わった (unusual)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 521)
 Added 30 new dictionary entries (IDs 20008-20037) from candidate_words.json. Diverse vocabulary for intermediate learners covering emotions, culture, food, work, travel, and everyday life.
 
