@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 20 New Entries, Session 523)
+Added 20 new dictionary entries (IDs 20068-20087) from candidate_words.json. Focus on practical expressions, useful verbs, and common words for intermediate learners.
+
+- **Expressions (7)**: {心|こころ}を{打|う}つ (to move deeply), {耳|みみ}を{貸|か}す (to lend an ear), {身|み}を{引|ひ}く (to step aside), {鼻|はな}をかむ (to blow one's nose), {手|て}を{繋|つな}ぐ (to hold hands), {元|もと}に{戻|もど}る (to return to original state), {弁|べん}が{立|た}つ (to be eloquent)
+- **Nouns (3)**: {衰|おとろ}え (decline), {様相|ようそう} (aspect), {初志|しょし} (original intention), {露見|ろけん} (exposure)
+- **Verbs (4)**: {上下|じょうげ}する (to rise and fall), {仕分|しわ}ける (to sort), {割|わ}り{振|ふ}る (to assign), ぶち{込|こ}む (to throw in), もぎ{取|と}る (to pluck off)
+- **Adverbs (2)**: あれほど (that much), {多少|たしょう}とも (to some extent)
+- **Other (1)**: {渡米|とべい}する (to go to America)
+- Removed 20 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 522)
 Added 30 new dictionary entries (IDs 20038-20067) from candidate_words.json. Mix of useful vocabulary including adverbs, adjectives, verbs, and nouns covering personality, business, culture, and daily life.
 
@@ -90,17 +100,6 @@ Added 30 new dictionary entries (IDs 19948-19977) from candidate_words.json. Div
 - **Nouns/Verbal nouns (2)**: {独走|どくそう} (running alone), {仕入先|しいれさき} (supplier)
 - **Na-adjective (1)**: {視覚的|しかくてき} (visual)
 - **Noun/Na-adjective (1)**: {非効率|ひこうりつ} (inefficient)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 518)
-Added 30 new dictionary entries (IDs 19918-19947) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners including adjectives, onomatopoeia, cultural terms, and common nouns/expressions.
-
-- **Na-adjectives (2)**: {大|おお}げさ (exaggerated), {奇抜|きばつ} (outlandish)
-- **Nouns (13)**: {河口|かこう} (river mouth), {通行止|つうこうど}め (road closure), {下半期|しもはんき} (second half of year), {大衆|たいしゅう}{文化|ぶんか} (pop culture), {望郷|ぼうきょう} (homesickness), {根源|こんげん} (root/source), {書|か}き{初|ぞ}め (New Year's calligraphy), {食券|しょっけん} (meal ticket), {大詰|おおづ}め (final stage), {地声|じごえ} (natural voice), {高波|たかなみ} (high waves), {高音|こうおん} (high pitch), {写真集|しゃしんしゅう} (photo book)
-- **Noun/Suru verbs (5)**: {率先|そっせん} (taking initiative), {気絶|きぜつ} (fainting), {堂々巡|どうどうめぐ}り (going in circles), {酷似|こくじ} (striking resemblance), {一新|いっしん} (complete renewal)
-- **Expressions (2)**: {目|め}が{回|まわ}る (dizzy/swamped), {要領|ようりょう}がいい (resourceful)
-- **Onomatopoeia/Adverbs (3)**: ぱらぱら (scattered), {続|つづ}けざま (in succession), がっしり (solidly built)
-- **Other (5)**: {甘|あま}えん{坊|ぼう} (spoiled child), {市立|しりつ} (municipal), {春分|しゅんぶん} (spring equinox), {未亡人|みぼうじん} (widow)
 - Removed 30 candidates that now exist as entries
 
 ---

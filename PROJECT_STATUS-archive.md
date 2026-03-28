@@ -3,6 +3,17 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 518)
+Added 30 new dictionary entries (IDs 19918-19947) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners including adjectives, onomatopoeia, cultural terms, and common nouns/expressions.
+
+- **Na-adjectives (2)**: {大|おお}げさ (exaggerated), {奇抜|きばつ} (outlandish)
+- **Nouns (13)**: {河口|かこう} (river mouth), {通行止|つうこうど}め (road closure), {下半期|しもはんき} (second half of year), {大衆|たいしゅう}{文化|ぶんか} (pop culture), {望郷|ぼうきょう} (homesickness), {根源|こんげん} (root/source), {書|か}き{初|ぞ}め (New Year's calligraphy), {食券|しょっけん} (meal ticket), {大詰|おおづ}め (final stage), {地声|じごえ} (natural voice), {高波|たかなみ} (high waves), {高音|こうおん} (high pitch), {写真集|しゃしんしゅう} (photo book)
+- **Noun/Suru verbs (5)**: {率先|そっせん} (taking initiative), {気絶|きぜつ} (fainting), {堂々巡|どうどうめぐ}り (going in circles), {酷似|こくじ} (striking resemblance), {一新|いっしん} (complete renewal)
+- **Expressions (2)**: {目|め}が{回|まわ}る (dizzy/swamped), {要領|ようりょう}がいい (resourceful)
+- **Onomatopoeia/Adverbs (3)**: ぱらぱら (scattered), {続|つづ}けざま (in succession), がっしり (solidly built)
+- **Other (5)**: {甘|あま}えん{坊|ぼう} (spoiled child), {市立|しりつ} (municipal), {春分|しゅんぶん} (spring equinox), {未亡人|みぼうじん} (widow)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-26 (Vocabulary Expansion - 23 New Entries)
 Added 23 new dictionary entries (IDs 19462-19485) from candidate_words.json. A diverse mix of nouns, adjectives, and verbs covering food, culture, language, and society.
 
