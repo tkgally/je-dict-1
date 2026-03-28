@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 521)
+Added 30 new dictionary entries (IDs 20008-20037) from candidate_words.json. Diverse vocabulary for intermediate learners covering emotions, culture, food, work, travel, and everyday life.
+
+- **Nouns (14)**: {眺望|ちょうぼう} (view/panorama), {綿毛|わたげ} (down/fluff), {金品|きんぴん} (money and valuables), {局長|きょくちょう} (bureau chief), {介護士|かいごし} (care worker), {到着口|とうちゃくぐち} (arrival gate), {入門者|にゅうもんしゃ} (beginner), {舞茸|まいたけ} (maitake mushroom), ミンチ (minced meat), {古典芸能|こてんげいのう} (classical performing arts), {練|ね}り{物|もの} (fish paste products), {戦友|せんゆう} (comrade-in-arms), インディーズ (indie), {恩義|おんぎ} (debt of gratitude)
+- **Noun/Suru verbs (7)**: {破滅|はめつ} (ruin), {色落|いろお}ち (color fading), {予行演習|よこうえんしゅう} (rehearsal), {勤続|きんぞく} (continuous service), {貸付|かしつけ} (lending), {熱愛|ねつあい} (passionate love), {転写|てんしゃ} (transcription)
+- **Na-adjectives (3)**: {険悪|けんあく} (hostile), {全国的|ぜんこくてき} (nationwide), {先進的|せんしんてき} (advanced)
+- **Verbs (2)**: {依存|いぞん}する (to depend on), {尋問|じんもん}する (to interrogate)
+- **Other (4)**: {弱虫|よわむし} (coward/wimp), {作|つく}りたて (freshly made), {恋|こい}に{落|お}ちる (to fall in love), {二足|にそく}のわらじ (wearing two hats)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 520)
 Added 30 new dictionary entries (IDs 19978-20007) from candidate_words.json. Practical vocabulary for intermediate learners covering daily life, business, culture, and general knowledge.
 
@@ -92,16 +102,6 @@ Added 30 new dictionary entries (IDs 19888-19917) from candidate_words.json. Div
 - **Nouns (7)**: {子分|こぶん} (follower), {微糖|びとう} (low sugar), {氷解|ひょうかい} (clearing of doubts), {板場|いたば} (kitchen/chef), {山札|やまふだ} (draw pile), {解釈違|かいしゃくちが}い (misinterpretation), {眼識|がんしき} (discerning eye)
 - **Adjectives/Other (5)**: {用意周到|よういしゅうとう} (thoroughly prepared), {忍|しの}び{難|がた}い (unbearable), {切|き}り{立|た}った (steep), {目立|めだ}たない (inconspicuous), かつ (and/moreover), {追随|ついずい}する (to follow/emulate)
 - Removed 29 candidates that now exist as entries
-
-### 2026-03-27 (Vocabulary Expansion - 15 New Entries, Session 516)
-Added 15 new dictionary entries (IDs 19873-19887) from candidate_words.json. Mix of common vocabulary useful for intermediate learners including cultural items, everyday nouns, and verbs.
-
-- **Nouns (12)**: {真珠|しんじゅ} (pearl), {焼酎|しょうちゅう} (shochu), {内戦|ないせん} (civil war), {敬礼|けいれい} (salute), {手仕事|てしごと} (handicraft), {内職|ないしょく} (side work), {休校|きゅうこう} (school closure), {水辺|みずべ} (waterside), {木立|こだち} (grove), {効|き}き{目|め} (effect), {置物|おきもの} (ornament), {人気者|にんきもの} (popular person)
-- **Na-adjective (1)**: {不都合|ふつごう} (inconvenient/improper)
-- **Noun with two senses (1)**: {火力|かりょく} (heat output/firepower)
-- **Verb (1)**: {案|あん}じる (to worry about)
-- New kanji added: 酎 (sake)
-- Removed 1 stale candidate (子守唄 — variant of existing 子守歌 entry)
 
 ---
 
