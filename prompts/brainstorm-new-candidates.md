@@ -19,7 +19,7 @@ values below and the corresponding `--flags` in the commands in the steps.
 | ------------- | ------------------------- |
 | Model         | `openai/gpt-4.1-mini`    |
 | Temperature   | `0.8`                     |
-| Max tokens    | `4096`                    |
+| Max tokens    | `8192`                    |
 | Batch size    | `15` (seed words per batch) |
 | Batches       | `25` (override with `-n`)  |
 
@@ -90,7 +90,7 @@ python3 build/brainstorm_candidates.py brainstorm \
   -n 5 \
   --model "openai/gpt-4.1-mini" \
   --temperature 0.8 \
-  --max-tokens 4096 \
+  --max-tokens 8192 \
   --batch-size 15
 ```
 
