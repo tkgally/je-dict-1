@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 520)
+Added 30 new dictionary entries (IDs 19978-20007) from candidate_words.json. Practical vocabulary for intermediate learners covering daily life, business, culture, and general knowledge.
+
+- **Nouns (18)**: {保証人|ほしょうにん} (guarantor), {靴|くつ}べら (shoehorn), {既製服|きせいふく} (ready-made clothing), {三輪車|さんりんしゃ} (tricycle), {中高年|ちゅうこうねん} (middle-aged/older), {忍耐力|にんたいりょく} (perseverance), {色素|しきそ} (pigment), {建具|たてぐ} (fittings), {拡声器|かくせいき} (loudspeaker), {電圧|でんあつ} (voltage), {借家|しゃっか} (rented house), フレーズ (phrase), コレクター (collector), {縫|ぬ}い{物|もの} (sewing), {根絶|ねだ}やし (eradication), {取|と}りまとめ (compilation), {隔年|かくねん} (every other year), {終幕|しゅうまく} (final act)
+- **Noun/Suru verbs (3)**: {総動員|そうどういん} (full mobilization), {援護|えんご} (support/cover), {裁断|さいだん} (cutting fabric)
+- **Verbs (3)**: {据|す}え{付|つ}ける (to install), {叩|たた}きつける (to slam), {同伴|どうはん}する (to accompany)
+- **Noun/No-adjective (3)**: {不屈|ふくつ} (indomitable), {自信満々|じしんまんまん} (full of confidence), {加糖|かとう} (sweetened)
+- **Adverb (1)**: {戦々恐々|せんせんきょうきょう} (trembling with fear)
+- **Expression (1)**: {雲泥|うんでい}の{差|さ} (world of difference)
+- **Other (1)**: {法令遵守|ほうれいじゅんしゅ} (legal compliance)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 519)
 Added 30 new dictionary entries (IDs 19948-19977) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners covering society, culture, food, nature, and everyday life.
 
@@ -90,14 +102,6 @@ Added 15 new dictionary entries (IDs 19873-19887) from candidate_words.json. Mix
 - **Verb (1)**: {案|あん}じる (to worry about)
 - New kanji added: 酎 (sake)
 - Removed 1 stale candidate (子守唄 — variant of existing 子守歌 entry)
-
-### 2026-03-27 (Vocabulary Expansion - 24 New Entries, Session 515)
-Added 24 new dictionary entries (IDs 19849-19872) from candidate_words.json. Practical vocabulary for intermediate learners including daily life terms, academic titles, grammar points, and cultural vocabulary.
-
-- **Nouns (14)**: {雨傘|あまがさ} (rain umbrella), {遮光|しゃこう} (light blocking), {通信料|つうしんりょう} (communication charges), {口座振替|こうざふりかえ} (direct debit), {時間指定|じかんしてい} (time-slot delivery), {保安検査|ほあんけんさ} (security screening), {化学物質|かがくぶっしつ} (chemical substance), {非常|ひじょう}ベル (emergency bell), {明治|めいじ} (Meiji era), {准教授|じゅんきょうじゅ} (associate professor), お{祝|いわ}い{金|きん} (congratulatory money), {下方修正|かほうしゅうせい} (downward revision), {荷札|にふだ} (luggage tag), {筆先|ふでさき} (brush tip/writing style), {中間層|ちゅうかんそう} (middle class)
-- **Na-adjectives (4)**: {世俗的|せぞくてき} (secular/worldly), {無機質|むきしつ}な (cold/inorganic), {情緒不安定|じょうちょふあんてい} (emotionally unstable), {物欲|ものほ}しげ (wistful/longing)
-- **Other (5)**: {無課金|むかきん} (free-to-play), {鵜|う} (cormorant), どなたか (someone/polite), だけれども (although/but), といった (such as)
-- New kanji added: 准 (quasi), 鵜 (cormorant)
 
 ---
 
