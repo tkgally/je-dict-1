@@ -3,6 +3,19 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-03-28 (Vocabulary Expansion - 28 New Entries, Session 525)
+Added 28 new dictionary entries (IDs 20118-20147) from candidate_words.json. Mix of adjectives, adverbs (onomatopoeia), nouns, verbs, and expressions for intermediate learners. Removed 2 duplicates found during validation (美化 and 連想 already existed).
+
+- **Adjective (1)**: {興味深|きょうみぶか}い (fascinating)
+- **Onomatopoeia/Adverbs (5)**: すらっと (slender), きりっと (crisp/sharp), ぱりっと (crisply), しゃんと (upright/alert), ぴしっと (sharply/neatly)
+- **Nouns (9)**: {贈答品|ぞうとうひん} (gift item), {面白味|おもしろみ} (interest/charm), {見聞|けんぶん} (experience), {被告人|ひこくにん} (defendant), {七味|しちみ} (seven-spice), {空腹感|くうふくかん} (hunger feeling), {筆算|ひっさん} (written calculation), {資料館|しりょうかん} (archive), {菌類|きんるい} (fungi)
+- **Nouns/Suru (3)**: {使役|しえき} (causative/employment), {代役|だいやく} (stand-in), {写実|しゃじつ} (realism)
+- **Verbs (2)**: {巻|ま}き{取|と}る (to reel in), {万策尽|ばんさくつ}きる (to exhaust all options)
+- **Nouns with する (2)**: {相互作用|そうごさよう} (interaction), {分家|ぶんけ} (branch family)
+- **Expressions (2)**: {一味違|いちみちが}う (a cut above), {要領|ようりょう}が{悪|わる}い (inefficient)
+- **Culture (2)**: {入園式|にゅうえんしき} (kindergarten entrance ceremony), {茸狩|きのこが}り (mushroom picking), {書状|しょじょう} (letter/missive)
+- Removed 28 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 20 New Entries, Session 523)
 Added 20 new dictionary entries (IDs 20068-20087) from candidate_words.json. Focus on practical expressions, useful verbs, and common words for intermediate learners.
 
