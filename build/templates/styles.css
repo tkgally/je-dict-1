@@ -1338,4 +1338,31 @@ footer a:hover {
         font-size: 32px;
         margin: 0 0.3em;
     }
+
+    .pending-page {
+        padding-left: var(--spacing-sm);
+        padding-right: var(--spacing-sm);
+    }
+
+    .pending-item {
+        gap: 0.5rem;
+        font-size: 0.85rem;
+        padding: 0.4rem var(--spacing-sm);
+    }
+
+    .pending-word {
+        min-width: 70px;
+        flex-shrink: 0;
+    }
+
+    .pending-reading {
+        min-width: 70px;
+        flex-shrink: 0;
+    }
+
+    .pending-notes {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }

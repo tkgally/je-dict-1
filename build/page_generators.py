@@ -854,7 +854,7 @@ def generate_random_page(entries: list) -> str:
 def generate_pending_page(candidates: list) -> str:
     """Generate the pending.html page showing candidate words."""
     html_parts = [
-        generate_html_head("Pending"),
+        generate_html_head("Pending", noindex=True),
         '<body>',
         generate_nav_header(show_all_links=False),
         '<main class="pending-page">',
