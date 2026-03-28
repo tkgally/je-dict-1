@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 529)
+Added 30 new dictionary entries (IDs 20231-20260) from candidate_words.json. Mix of practical vocabulary for intermediate learners covering travel, daily life, food, business, and emotions.
+
+- **Suru-verbs (5)**: {宿泊|しゅくはく}する (to stay overnight), {目撃|もくげき}する (to witness), {中座|ちゅうざ}する (to leave partway through), {見物|けんぶつ}する (to sightsee), {出火|しゅっか} (outbreak of fire)
+- **Adjective (1)**: ずる{賢|がしこ}い (sly, cunning)
+- **Adverb (1)**: {一向|いっこう} (not at all)
+- **Nouns (23)**: {体調不良|たいちょうふりょう} (feeling unwell), {本降|ほんぶ}り (steady rain), {悪酔|わるよ}い (bad drunkenness), {破格|はかく} (exceptional/bargain), {美容室|びようしつ} (beauty salon), {余生|よせい} (remaining years), {水|みず}しぶき (splash), {先方|せんぽう} (other party), {応接室|おうせつしつ} (reception room), {防寒着|ぼうかんぎ} (winter clothing), ぜんざい (sweet red bean soup), {崖崩|がけくず}れ (landslide), {試運転|しうんてん} (test run), {専業主夫|せんぎょうしゅふ} (househusband), {画材|がざい} (art supplies), {看板商品|かんばんしょうひん} (signature product), {黒髪|くろかみ} (black hair), {小袋|こぶくろ} (small bag), {冬|ふゆ}ごもり (winter seclusion), むなしさ (emptiness), {優越|ゆうえつ} (superiority), {素肌|すはだ} (bare skin), {麻婆豆腐|まーぼーどうふ} (mapo tofu)
+- Removed 1 stale candidate (連れ子 — already existed as entry with different reading)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 528)
 Added 30 new dictionary entries (IDs 20201-20230) from candidate_words.json. Mix of common suru-verbs, adjectives, and practical nouns for intermediate learners.
 
@@ -98,18 +108,6 @@ Added 28 new dictionary entries (IDs 20118-20147) from candidate_words.json. Mix
 - **Expressions (2)**: {一味違|いちみちが}う (a cut above), {要領|ようりょう}が{悪|わる}い (inefficient)
 - **Culture (2)**: {入園式|にゅうえんしき} (kindergarten entrance ceremony), {茸狩|きのこが}り (mushroom picking), {書状|しょじょう} (letter/missive)
 - Removed 28 candidates that now exist as entries
-
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 524)
-Added 30 new dictionary entries (IDs 20088-20117) from candidate_words.json. Diverse vocabulary covering academic, cultural, nature, daily life, and abstract concepts. Also removed 25 stale candidates (する forms of existing entries).
-
-- **Academic/Technical (4)**: {考古学|こうこがく} (archaeology), {含有|がんゆう} (containing), {内包|ないほう} (encompassing), {微小|びしょう} (minute)
-- **Nature/Color (4)**: {青葉|あおば} (fresh green leaves), {藍|あい} (indigo), {朱色|しゅいろ} (vermillion), {火炎|かえん} (flame)
-- **Communication (4)**: {談話|だんわ} (conversation/statement), {書簡|しょかん} (letter), {交信|こうしん} (radio contact), {歌声|うたごえ} (singing voice)
-- **Work/Society (4)**: {後継|こうけい} (successor), {前任|ぜんにん} (predecessor), {苦境|くきょう} (predicament), {総力|そうりょく} (total effort)
-- **Safety/Military (3)**: {退避|たいひ} (evacuation), {弾薬|だんやく} (ammunition), {投棄|とうき} (dumping)
-- **Daily Life/Materials (5)**: {布地|ぬのじ} (fabric), {綿花|めんか} (raw cotton), {綿棒|めんぼう} (cotton swab), {飲茶|やむちゃ} (dim sum), {熱々|あつあつ} (piping hot)
-- **Abstract (3)**: {一線|いっせん} (front line/boundary), {腹立|はらだ}ち (anger), {平面|へいめん} (flat surface)
-- **Other (3)**: {醜態|しゅうたい} (disgraceful behavior), {加護|かご} (divine protection), {直射|ちょくしゃ} (direct rays)
 
 ---
 
