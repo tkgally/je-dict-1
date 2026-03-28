@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 28 New Entries, Session 525)
+Added 28 new dictionary entries (IDs 20118-20147) from candidate_words.json. Mix of adjectives, adverbs (onomatopoeia), nouns, verbs, and expressions for intermediate learners. Removed 2 duplicates found during validation (美化 and 連想 already existed).
+
+- **Adjective (1)**: {興味深|きょうみぶか}い (fascinating)
+- **Onomatopoeia/Adverbs (5)**: すらっと (slender), きりっと (crisp/sharp), ぱりっと (crisply), しゃんと (upright/alert), ぴしっと (sharply/neatly)
+- **Nouns (9)**: {贈答品|ぞうとうひん} (gift item), {面白味|おもしろみ} (interest/charm), {見聞|けんぶん} (experience), {被告人|ひこくにん} (defendant), {七味|しちみ} (seven-spice), {空腹感|くうふくかん} (hunger feeling), {筆算|ひっさん} (written calculation), {資料館|しりょうかん} (archive), {菌類|きんるい} (fungi)
+- **Nouns/Suru (3)**: {使役|しえき} (causative/employment), {代役|だいやく} (stand-in), {写実|しゃじつ} (realism)
+- **Verbs (2)**: {巻|ま}き{取|と}る (to reel in), {万策尽|ばんさくつ}きる (to exhaust all options)
+- **Nouns with する (2)**: {相互作用|そうごさよう} (interaction), {分家|ぶんけ} (branch family)
+- **Expressions (2)**: {一味違|いちみちが}う (a cut above), {要領|ようりょう}が{悪|わる}い (inefficient)
+- **Culture (2)**: {入園式|にゅうえんしき} (kindergarten entrance ceremony), {茸狩|きのこが}り (mushroom picking), {書状|しょじょう} (letter/missive)
+- Removed 28 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 524)
 Added 30 new dictionary entries (IDs 20088-20117) from candidate_words.json. Diverse vocabulary covering academic, cultural, nature, daily life, and abstract concepts. Also removed 25 stale candidates (する forms of existing entries).
 
@@ -91,18 +104,6 @@ Added 30 new dictionary entries (IDs 20008-20037) from candidate_words.json. Div
 - **Na-adjectives (3)**: {険悪|けんあく} (hostile), {全国的|ぜんこくてき} (nationwide), {先進的|せんしんてき} (advanced)
 - **Verbs (2)**: {依存|いぞん}する (to depend on), {尋問|じんもん}する (to interrogate)
 - **Other (4)**: {弱虫|よわむし} (coward/wimp), {作|つく}りたて (freshly made), {恋|こい}に{落|お}ちる (to fall in love), {二足|にそく}のわらじ (wearing two hats)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 520)
-Added 30 new dictionary entries (IDs 19978-20007) from candidate_words.json. Practical vocabulary for intermediate learners covering daily life, business, culture, and general knowledge.
-
-- **Nouns (18)**: {保証人|ほしょうにん} (guarantor), {靴|くつ}べら (shoehorn), {既製服|きせいふく} (ready-made clothing), {三輪車|さんりんしゃ} (tricycle), {中高年|ちゅうこうねん} (middle-aged/older), {忍耐力|にんたいりょく} (perseverance), {色素|しきそ} (pigment), {建具|たてぐ} (fittings), {拡声器|かくせいき} (loudspeaker), {電圧|でんあつ} (voltage), {借家|しゃっか} (rented house), フレーズ (phrase), コレクター (collector), {縫|ぬ}い{物|もの} (sewing), {根絶|ねだ}やし (eradication), {取|と}りまとめ (compilation), {隔年|かくねん} (every other year), {終幕|しゅうまく} (final act)
-- **Noun/Suru verbs (3)**: {総動員|そうどういん} (full mobilization), {援護|えんご} (support/cover), {裁断|さいだん} (cutting fabric)
-- **Verbs (3)**: {据|す}え{付|つ}ける (to install), {叩|たた}きつける (to slam), {同伴|どうはん}する (to accompany)
-- **Noun/No-adjective (3)**: {不屈|ふくつ} (indomitable), {自信満々|じしんまんまん} (full of confidence), {加糖|かとう} (sweetened)
-- **Adverb (1)**: {戦々恐々|せんせんきょうきょう} (trembling with fear)
-- **Expression (1)**: {雲泥|うんでい}の{差|さ} (world of difference)
-- **Other (1)**: {法令遵守|ほうれいじゅんしゅ} (legal compliance)
 - Removed 30 candidates that now exist as entries
 
 ---
