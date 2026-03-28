@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 531)
+Added 30 new dictionary entries (IDs 20291-20320) from candidate_words.json. Diverse vocabulary including verbs, adjectives, expressions, and nouns for intermediate learners.
+
+- **Verbs (10)**: なりすます (to impersonate), {突|つ}き{刺|さ}さる (to pierce), ひったくる (to snatch), {吊|つ}り{下|さ}げる (to suspend), {兼用|けんよう}する (dual use), {使|つか}い{古|ふる}す (to wear out), {吸|す}い{上|あ}げる (to absorb), {巻|ま}き{上|あ}げる (to roll up/fleece), {含有|がんゆう}する (to contain), {内包|ないほう}する (to include/imply)
+- **Adjectives (4)**: {忌|い}まわしい (abominable), {手|て}ぬるい (too lenient), {長細|ながぼそ}い (long and thin), {磯臭|いそくさ}い (smelling of the sea)
+- **Expressions (8)**: {頼|たよ}りになる (reliable), {敷居|しきい}が{高|たか}い (intimidating), {忌憚|きたん}のない (frank), {手際|てぎわ}が{良|よ}い (efficient), {心|こころ}に{刺|さ}さる (to strike a chord), {頭|あたま}がいい (smart), {本気|ほんき}にする (to take seriously), {胸|むね}に{響|ひび}く (to resonate)
+- **Nouns (3)**: すす (soot), かぼす (kabosu citrus), {干|ほ}しぶどう (raisins)
+- **Other (5)**: {優秀|ゆうしゅう}な (excellent), {放|ほう}り{投|な}げる (to throw away), {日焼|ひや}けする (to sunburn/fade), だもん (because - casual), {運転|うんてん}する (to drive)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 530)
 Added 30 new dictionary entries (IDs 20261-20290) from candidate_words.json. Diverse vocabulary for intermediate learners covering daily life, culture, business, nature, and more.
 
@@ -91,18 +101,6 @@ Added 22 new dictionary entries (IDs 20178-20200) from candidate_words.json. Mix
 - **Expression (1)**: {思|おも}いを{馳|は}せる (to think longingly of)
 - Removed 2 stale candidates (奔走する, 飛躍する — already existed as entries)
 - Added 2 new kanji to index: 堕, 庸
-
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 526)
-Added 30 new dictionary entries (IDs 20148-20177) from candidate_words.json. Practical vocabulary covering verbs, adjectives, nouns, and expressions for intermediate learners.
-
-- **Suru-verbs (7)**: {整頓|せいとん}する (to tidy up), {整列|せいれつ}する (to line up), {履行|りこう}する (to fulfill), {遂行|すいこう}する (to accomplish), {遵守|じゅんしゅ}する (to comply), {嫉妬|しっと}する (to be jealous), {描写|びょうしゃ}する (to portray)
-- **Verbs (3)**: {義務付|ぎむづ}ける (to obligate), {出|だ}し{抜|ぬ}く (to outsmart), {建|た}ち{並|なら}ぶ (to stand in a row)
-- **Adjectives (3)**: {多様|たよう}な (diverse), {平凡|へいぼん}な (ordinary), {遠慮深|えんりょぶか}い (reserved)
-- **Nouns (11)**: {訪問者|ほうもんしゃ} (visitor), {便座|べんざ} (toilet seat), {片側|かたがわ} (one side), {前側|まえがわ} (front side), {後|うし}ろ{側|がわ} (back side), {地方紙|ちほうし} (local newspaper), {没入感|ぼつに��うかん} (immersion), {包容力|ほうようりょく} (magnanimity), {多文化|たぶんか} (multicultural), {現実感|げんじつかん} (sense of reality), {表彰式|ひょうしょうしき} (award ceremony)
-- **Nouns (food/culture) (2)**: {焼|や}き{餅|もち} (grilled mochi/jealousy), {食|た}べず{嫌|ぎら}い (dislike without trying)
-- **Expressions (2)**: {手|て}をつける (to start on), {手|て}を{伸|の}ばす (to reach out)
-- **Loanwords (2)**: レギンス (leggings), ナイロン (nylon)
-- Removed 29 candidates that now exist as entries
 
 ---
 
