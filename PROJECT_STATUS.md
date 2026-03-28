@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 530)
+Added 30 new dictionary entries (IDs 20261-20290) from candidate_words.json. Diverse vocabulary for intermediate learners covering daily life, culture, business, nature, and more.
+
+- **Verbs (4)**: {呆|あき}れ{果|は}てる (to be utterly dumbfounded), {高鳴|たかな}る (to throb/beat fast), {食|た}べ{歩|ある}く (to eat one's way around), {取|と}り{立|た}てる (to collect forcibly/single out/promote)
+- **Adjectives (3)**: {目新|めあたら}しい (novel), {型破|かたやぶ}り (unconventional), {小|こ}ぶり (smallish)
+- **Nouns (23)**: {横並|よこなら}び (side by side/conformity), {無駄骨|むだぼね} (wasted effort), {密輸|みつゆ} (smuggling), {直営|ちょくえい} (direct management), {夜風|よかぜ} (night breeze), {質疑|しつぎ} (Q&A), {林業|りんぎょう} (forestry), {停泊|ていはく} (anchoring), {配達員|はいたついん} (delivery person), {最高級|さいこうきゅう} (highest grade), {母子|ぼし} (mother and child), {返礼品|へんれいひん} (return gift), {展覧|てんらん} (exhibition), {送|おく}り{状|じょう} (shipping label), {陣痛|じんつう} (labor pains), {火災保険|かさいほけん} (fire insurance), {登校日|とうこうび} (school attendance day), {眼球|がんきゅう} (eyeball), {贈答用|ぞうとうよう} (for gift-giving), {農道|のうどう} (farm road), {質問者|しつもんしゃ} (questioner), {天気図|てんきず} (weather map), {募集要項|ぼしゅうようこう} (application guidelines)
+- Removed 8 stale candidates (duplicates of existing entries: 感動する, 密閉する, 考案する, 左右する, etc.)
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 529)
 Added 30 new dictionary entries (IDs 20231-20260) from candidate_words.json. Mix of practical vocabulary for intermediate learners covering travel, daily life, food, business, and emotions.
 
@@ -95,19 +103,6 @@ Added 30 new dictionary entries (IDs 20148-20177) from candidate_words.json. Pra
 - **Expressions (2)**: {手|て}をつける (to start on), {手|て}を{伸|の}ばす (to reach out)
 - **Loanwords (2)**: レギンス (leggings), ナイロン (nylon)
 - Removed 29 candidates that now exist as entries
-
-### 2026-03-28 (Vocabulary Expansion - 28 New Entries, Session 525)
-Added 28 new dictionary entries (IDs 20118-20147) from candidate_words.json. Mix of adjectives, adverbs (onomatopoeia), nouns, verbs, and expressions for intermediate learners. Removed 2 duplicates found during validation (美化 and 連想 already existed).
-
-- **Adjective (1)**: {興味深|きょうみぶか}い (fascinating)
-- **Onomatopoeia/Adverbs (5)**: すらっと (slender), きりっと (crisp/sharp), ぱりっと (crisply), しゃんと (upright/alert), ぴしっと (sharply/neatly)
-- **Nouns (9)**: {贈答品|ぞうとうひん} (gift item), {面白味|おもしろみ} (interest/charm), {見聞|けんぶん} (experience), {被告人|ひこくにん} (defendant), {七味|しちみ} (seven-spice), {空腹感|くうふくかん} (hunger feeling), {筆算|ひっさん} (written calculation), {資料館|しりょうかん} (archive), {菌類|きんるい} (fungi)
-- **Nouns/Suru (3)**: {使役|しえき} (causative/employment), {代役|だいやく} (stand-in), {写実|しゃじつ} (realism)
-- **Verbs (2)**: {巻|ま}き{取|と}る (to reel in), {万策尽|ばんさくつ}きる (to exhaust all options)
-- **Nouns with する (2)**: {相互作用|そうごさよう} (interaction), {分家|ぶんけ} (branch family)
-- **Expressions (2)**: {一味違|いちみちが}う (a cut above), {要領|ようりょう}が{悪|わる}い (inefficient)
-- **Culture (2)**: {入園式|にゅうえんしき} (kindergarten entrance ceremony), {茸狩|きのこが}り (mushroom picking), {書状|しょじょう} (letter/missive)
-- Removed 28 candidates that now exist as entries
 
 ---
 
