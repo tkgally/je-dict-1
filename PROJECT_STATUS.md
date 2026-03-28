@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 524)
+Added 30 new dictionary entries (IDs 20088-20117) from candidate_words.json. Diverse vocabulary covering academic, cultural, nature, daily life, and abstract concepts. Also removed 25 stale candidates (する forms of existing entries).
+
+- **Academic/Technical (4)**: {考古学|こうこがく} (archaeology), {含有|がんゆう} (containing), {内包|ないほう} (encompassing), {微小|びしょう} (minute)
+- **Nature/Color (4)**: {青葉|あおば} (fresh green leaves), {藍|あい} (indigo), {朱色|しゅいろ} (vermillion), {火炎|かえん} (flame)
+- **Communication (4)**: {談話|だんわ} (conversation/statement), {書簡|しょかん} (letter), {交信|こうしん} (radio contact), {歌声|うたごえ} (singing voice)
+- **Work/Society (4)**: {後継|こうけい} (successor), {前任|ぜんにん} (predecessor), {苦境|くきょう} (predicament), {総力|そうりょく} (total effort)
+- **Safety/Military (3)**: {退避|たいひ} (evacuation), {弾薬|だんやく} (ammunition), {投棄|とうき} (dumping)
+- **Daily Life/Materials (5)**: {布地|ぬのじ} (fabric), {綿花|めんか} (raw cotton), {綿棒|めんぼう} (cotton swab), {飲茶|やむちゃ} (dim sum), {熱々|あつあつ} (piping hot)
+- **Abstract (3)**: {一線|いっせん} (front line/boundary), {腹立|はらだ}ち (anger), {平面|へいめん} (flat surface)
+- **Other (3)**: {醜態|しゅうたい} (disgraceful behavior), {加護|かご} (divine protection), {直射|ちょくしゃ} (direct rays)
+
 ### 2026-03-28 (Vocabulary Expansion - 20 New Entries, Session 523)
 Added 20 new dictionary entries (IDs 20068-20087) from candidate_words.json. Focus on practical expressions, useful verbs, and common words for intermediate learners.
 
@@ -91,15 +103,6 @@ Added 30 new dictionary entries (IDs 19978-20007) from candidate_words.json. Pra
 - **Adverb (1)**: {戦々恐々|せんせんきょうきょう} (trembling with fear)
 - **Expression (1)**: {雲泥|うんでい}の{差|さ} (world of difference)
 - **Other (1)**: {法令遵守|ほうれいじゅんしゅ} (legal compliance)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-27 (Vocabulary Expansion - 30 New Entries, Session 519)
-Added 30 new dictionary entries (IDs 19948-19977) from candidate_words.json. Diverse mix of useful vocabulary for intermediate learners covering society, culture, food, nature, and everyday life.
-
-- **Nouns (26)**: {存在感|そんざいかん} (presence), {闘病|とうびょう} (fighting illness), {対談|たいだん} (dialogue), {休講|きゅうこう} (cancelled class), {鍋料理|なべりょうり} (hot pot), {線香花火|せんこうはなび} (sparkler), {記者会見|きしゃかいけん} (press conference), {完成度|かんせいど} (level of polish), {安堵感|あんどかん} (sense of relief), {強敵|きょうてき} (formidable enemy), {田舎暮|いなかぐ}らし (country living), {逆流|ぎゃくりゅう} (backflow), {準備万端|じゅんびばんたん} (fully prepared), {船旅|ふなたび} (boat trip), {格差社会|かくさしゃかい} (stratified society), {親|した}しみ (affection), {兵役|へいえき} (military service), {大流行|だいりゅうこう} (huge craze), {着脱|ちゃくだつ} (putting on/taking off), {振袖|ふりそで} (long-sleeved kimono), {小鉢|こばち} (small bowl/side dish), {密林|みつりん} (jungle), {弾|はず}み (momentum), {偏向|へんこう} (bias), {砂丘|さきゅう} (sand dune), {退位|たいい} (abdication)
-- **Nouns/Verbal nouns (2)**: {独走|どくそう} (running alone), {仕入先|しいれさき} (supplier)
-- **Na-adjective (1)**: {視覚的|しかくてき} (visual)
-- **Noun/Na-adjective (1)**: {非効率|ひこうりつ} (inefficient)
 - Removed 30 candidates that now exist as entries
 
 ---
