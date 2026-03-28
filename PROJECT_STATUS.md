@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 526)
+Added 30 new dictionary entries (IDs 20148-20177) from candidate_words.json. Practical vocabulary covering verbs, adjectives, nouns, and expressions for intermediate learners.
+
+- **Suru-verbs (7)**: {整頓|せいとん}する (to tidy up), {整列|せいれつ}する (to line up), {履行|りこう}する (to fulfill), {遂行|すいこう}する (to accomplish), {遵守|じゅんしゅ}する (to comply), {嫉妬|しっと}する (to be jealous), {描写|びょうしゃ}する (to portray)
+- **Verbs (3)**: {義務付|ぎむづ}ける (to obligate), {出|だ}し{抜|ぬ}く (to outsmart), {建|た}ち{並|なら}ぶ (to stand in a row)
+- **Adjectives (3)**: {多様|たよう}な (diverse), {平凡|へいぼん}な (ordinary), {遠慮深|えんりょぶか}い (reserved)
+- **Nouns (11)**: {訪問者|ほうもんしゃ} (visitor), {便座|べんざ} (toilet seat), {片側|かたがわ} (one side), {前側|まえがわ} (front side), {後|うし}ろ{側|がわ} (back side), {地方紙|ちほうし} (local newspaper), {没入感|ぼつに��うかん} (immersion), {包容力|ほうようりょく} (magnanimity), {多文化|たぶんか} (multicultural), {現実感|げんじつかん} (sense of reality), {表彰式|ひょうしょうしき} (award ceremony)
+- **Nouns (food/culture) (2)**: {焼|や}き{餅|もち} (grilled mochi/jealousy), {食|た}べず{嫌|ぎら}い (dislike without trying)
+- **Expressions (2)**: {手|て}をつける (to start on), {手|て}を{伸|の}ばす (to reach out)
+- **Loanwords (2)**: レギンス (leggings), ナイロン (nylon)
+- Removed 29 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 28 New Entries, Session 525)
 Added 28 new dictionary entries (IDs 20118-20147) from candidate_words.json. Mix of adjectives, adverbs (onomatopoeia), nouns, verbs, and expressions for intermediate learners. Removed 2 duplicates found during validation (美化 and 連想 already existed).
 
@@ -94,16 +106,6 @@ Added 30 new dictionary entries (IDs 20038-20067) from candidate_words.json. Mix
 - **Adverbs (4)**: {少|すこ}しずつ (little by little), {見事|みごと}に (splendidly), {巧|たく}みに (skillfully), えっと (um)
 - **Verbs (7)**: {対処|たいしょ}する (to deal with), {反復|はんぷく}する (to repeat), {了承|りょうしょう}する (to consent), {許可|きょか}する (to permit), {承認|しょうにん}する (to approve), {吹|ふ}き{出|で}る (to gush out), {削|けず}り{取|と}る (to scrape off)
 - **Other (6)**: {洗礼|せんれい} (baptism/ordeal), {同人|どうじん} (doujin/coterie), {行灯|あんどん} (paper lantern), {堂々|どうどう}たる (imposing), {規則正|きそくただ}しい (regular), {変|か}わった (unusual)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 521)
-Added 30 new dictionary entries (IDs 20008-20037) from candidate_words.json. Diverse vocabulary for intermediate learners covering emotions, culture, food, work, travel, and everyday life.
-
-- **Nouns (14)**: {眺望|ちょうぼう} (view/panorama), {綿毛|わたげ} (down/fluff), {金品|きんぴん} (money and valuables), {局長|きょくちょう} (bureau chief), {介護士|かいごし} (care worker), {到着口|とうちゃくぐち} (arrival gate), {入門者|にゅうもんしゃ} (beginner), {舞茸|まいたけ} (maitake mushroom), ミンチ (minced meat), {古典芸能|こてんげいのう} (classical performing arts), {練|ね}り{物|もの} (fish paste products), {戦友|せんゆう} (comrade-in-arms), インディーズ (indie), {恩義|おんぎ} (debt of gratitude)
-- **Noun/Suru verbs (7)**: {破滅|はめつ} (ruin), {色落|いろお}ち (color fading), {予行演習|よこうえんしゅう} (rehearsal), {勤続|きんぞく} (continuous service), {貸付|かしつけ} (lending), {熱愛|ねつあい} (passionate love), {転写|てんしゃ} (transcription)
-- **Na-adjectives (3)**: {険悪|けんあく} (hostile), {全国的|ぜんこくてき} (nationwide), {先進的|せんしんてき} (advanced)
-- **Verbs (2)**: {依存|いぞん}する (to depend on), {尋問|じんもん}する (to interrogate)
-- **Other (4)**: {弱虫|よわむし} (coward/wimp), {作|つく}りたて (freshly made), {恋|こい}に{落|お}ちる (to fall in love), {二足|にそく}のわらじ (wearing two hats)
 - Removed 30 candidates that now exist as entries
 
 ---
