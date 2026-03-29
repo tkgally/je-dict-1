@@ -4,6 +4,11 @@
   "reading": "さしだす",
   "part_of_speech": "verb (godan)",
   "gloss": "to hold out; to present; to submit",
+  "conjugation": {
+    "type": "godan",
+    "ending": "す",
+    "stem": "{差|さ}し{出|だ}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -183,7 +188,7 @@
   "notes": "{差|さ}し{出|だ}す is a transitive verb ({他動詞|たどうし}) formed from {差|さ}す (to hold up) + {出|だ}す (to put out). It suggests a polite or formal gesture of offering.\n\nASPECT (ている):\n{差|さ}し{出|だ}している indicates the ongoing action of holding something out.\n\nPARTICLE PATTERNS:\n- [thing]を{差|さ}し{出|だ}す — to hold out/present [thing]\n- [person]に[thing]を{差|さ}し{出|だ}す — to present [thing] to [person]\n\nCOMMON PATTERNS:\n- {手|て}を{差|さ}し{出|だ}す (hold out one's hand)\n- {名刺|めいし}を{差|さ}し{出|だ}す (present a business card)\n- {手紙|てがみ}を{差|さ}し{出|だ}す (send a letter)\n\nRELATED WORDS:\n- {差出人|さしだしにん}: sender (of mail)\n- {差|さ}し{入|い}れ: gift brought when visiting\n\nSIMILAR WORDS:\n- {出|だ}す: to take out (neutral)\n- {提出|ていしゅつ}する: to submit (formal documents)",
   "metadata": {
     "created": "2026-01-14T08:40:32Z",
-    "modified": "2026-03-04T00:49:20Z",
+    "modified": "2026-03-29T03:04:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -197,7 +202,8 @@
       "politeness": "plain",
       "semantic": [
         "action"
-      ]
+      ],
+      "verb_class": "godan-su"
     }
   }
 }
