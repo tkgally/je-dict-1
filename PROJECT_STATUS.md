@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 537)
+Added 30 new dictionary entries (IDs 20463-20492) from candidate_words.json. A diverse mix of everyday vocabulary, cultural terms, and practical words for intermediate learners.
+
+- **Na-adjective (1)**: {不活発|ふかっぱつ} (inactive/sluggish)
+- **Suru-verbs (2)**: {洗髪|せんぱつ} (hair washing), {盗撮|とうさつ} (secret photography)
+- **Nouns (27)**: {夜型|よるがた} (night owl), {甘|あま}い{物|もの} (sweets), {名刺交換|めいしこうかん} (exchanging business cards), {置時計|おきどけい} (desk clock), {神社仏閣|じんじゃぶっかく} (shrines and temples), {封建制|ほうけんせい} (feudalism), {副会長|ふくかいちょう} (vice-chairperson), {司会者|しかいしゃ} (emcee), {住所録|じゅうしょろく} (address book), {通用口|つうようぐち} (service entrance), {健康状態|けんこうじょうたい} (health condition), {滞在期間|たいざいきかん} (period of stay), リンス (conditioner), {二十代|にじゅうだい} (one's twenties), {寄宿舎|きしゅくしゃ} (dormitory), {目的語|もくてきご} (object in grammar), {異種|いしゅ} (different kind), {廃品|はいひん} (waste/scrap), {押|お}しボタン (push button), {荷物置|にもつお}き (luggage storage), {拡張現実|かくちょうげんじつ} (augmented reality), {地吹雪|じふぶき} (ground blizzard), {心筋梗塞|しんきんこうそく} (heart attack), {群青色|ぐんじょういろ} (ultramarine), {空言|そらごと} (empty words), {突然死|とつぜんし} (sudden death), {神職|しんしょく} (Shinto priest)
+- Added 1 new kanji to index: 梗
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 536)
 Added 30 new dictionary entries (IDs 20433-20462) from candidate_words.json. A mix of idioms, expressions, practical nouns, and adverbs for intermediate learners.
 
@@ -86,19 +95,6 @@ Added 30 new dictionary entries (IDs 20351-20380) from candidate_words.json. Div
 - **Nouns (19)**: {私|わたし}{共|ども} (we, humble), {未知数|みちすう} (unknown quantity), {浪人生|ろうにんせい} (ronin student), {妊婦|にんぷ} (pregnant woman), {手|て}ぶれ (camera shake), {根雪|ねゆき} (lingering snow), {駄賃|だちん} (small reward), {深緑|ふかみどり} (dark green), {今昔|こんじゃく} (past and present), {凶兆|きょうちょう} (bad omen), {球体|きゅうたい} (sphere), {什器|じゅうき} (fixtures), {進物|しんもつ} (formal gift), {空路|くうろ} (air route), {海路|かいろ} (sea route), {写|うつ}り (photo quality), {試写会|ししゃかい} (preview screening), {鍋蓋|なべぶた} (pot lid), {地肌|じはだ} (bare skin/texture)
 - Added 2 new kanji to index: 什, 弥
 - Removed 30 candidates that now exist as entries
-
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 532)
-Added 30 new dictionary entries (IDs 20321-20350) from candidate_words.json. Diverse mix of practical vocabulary for intermediate learners.
-
-- **Adjectives (7)**: ありきたり (commonplace), {凡庸|ぼんよう} (mediocre), {法外|ほうがい} (outrageous), {無鉄砲|むてっぽう} (reckless), {静粛|せいしゅく} (silent/solemn), {清廉|せいれん} (incorruptible), {底|そこ}なし (bottomless)
-- **Verbs (5)**: {持|も}ち{寄|よ}る (to bring and share), {落胆|らくたん}する (to be discouraged), チンする (to microwave), {禿|は}げる (to go bald), {撫|な}で{回|まわ}す (to stroke all over)
-- **Adverbs (2)**: さりげなく (casually), {一晩中|ひとばんじゅう} (all night long)
-- **Nouns (16)**: {経験談|けいけんだん} (personal account), {耳鳴|みみな}り (tinnitus), {雨粒|あまつぶ} (raindrop), {過不足|かふそく} (excess or deficiency), {助|す}っ{人|と} (helper), {変態|へんたい} (pervert/metamorphosis), {若|わか}さ (youth), {細身|ほそみ} (slim build), {魔除|まよ}け (charm against evil), {台風一過|たいふういっか} (clear skies after typhoon), {水|みず}はけ (drainage), {船便|ふなびん} (sea mail), {所持品|しょじひん} (belongings), {万歩計|まんぽけい} (pedometer), {出場|しゅつじょう}する (to compete), {演奏|えんそう}する (to perform music)
-- Added 1 new kanji to index: 禿
-- Removed 30 candidates that now exist as entries
-
-- Removed 30 candidates that now exist as entries
-
 
 ---
 
