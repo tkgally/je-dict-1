@@ -19,7 +19,9 @@
       "english": "To climb a small hill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12403_kodakai_ex2",
@@ -27,7 +29,9 @@
       "english": "The shrine stands on a slightly elevated spot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12403_kodakai_ex3",
@@ -35,7 +39,9 @@
       "english": "Looking down at the town from the top of a small hill, I could see rows of red roofs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "STRUCTURE:\n{小|こ} (small, slightly) + {高|たか}い (high, elevated). The prefix {小|こ} softens the meaning to indicate something only modestly elevated.\n\nUSAGE:\n{小高|こだか}い is almost always paired with {丘|おか} (hill) or similar terrain words. It describes a gentle rise in the landscape rather than a steep or dramatic elevation. It frequently appears in literary and descriptive writing.\n\nCOMMON COLLOCATIONS:\n- {小高|こだか}い{丘|おか}: a small hill\n- {小高|こだか}い{場所|ばしょ}: a slightly elevated place\n- {小高|こだか}い{土地|とち}: slightly raised land",
@@ -46,10 +52,49 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{小高|こだか}い",
+        "negative": "{小高|こだか}くない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{小高|こだか}かった",
+        "negative": "{小高|こだか}くなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{小高|こだか}くて",
+        "negative": "{小高|こだか}くなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{小高|こだか}く",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{小高|こだか}ければ",
+        "negative": "{小高|こだか}くなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{小高|こだか}かったら",
+        "negative": "{小高|こだか}くなかったら"
+      }
+    ]
   }
 }

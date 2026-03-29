@@ -19,7 +19,9 @@
       "english": "I'm reluctant to say goodbye.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10910_nagorioshii_ex2",
@@ -27,7 +29,9 @@
       "english": "It's hard to see such an enjoyable trip come to an end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10910_nagorioshii_ex3",
@@ -35,10 +39,12 @@
       "english": "They waved goodbye with a look of reluctance as they saw us off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CONJUGATION:\n- Negative: {名残惜|なごりお}しくない\n- Past: {名残惜|なごりお}しかった\n- Te-form: {名残惜|なごりお}しくて\n- Adverbial: {名残惜|なごりお}しく\n\nETYMOLOGY:\n{名残|なごり} (lingering feeling, aftermath) + {惜|お}しい (regrettable). The feeling of not wanting something to end.\n\nUSAGE:\nUsed at partings, the end of pleasant experiences, or when leaving a place one has grown attached to. Often modifies {別|わか}れ (parting) or appears in the pattern ～のが{名残惜|なごりお}しい.",
+  "notes": "ETYMOLOGY:\n{名残|なごり} (lingering feeling, aftermath) + {惜|お}しい (regrettable). The feeling of not wanting something to end.\n\nUSAGE:\nUsed at partings, the end of pleasant experiences, or when leaving a place one has grown attached to. Often modifies {別|わか}れ (parting) or appears in the pattern ～のが{名残惜|なごりお}しい.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
@@ -46,10 +52,49 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{名残惜|なごりお}しい",
+        "negative": "{名残惜|なごりお}しくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{名残惜|なごりお}しかった",
+        "negative": "{名残惜|なごりお}しくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{名残惜|なごりお}しくて",
+        "negative": "{名残惜|なごりお}しくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{名残惜|なごりお}しく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{名残惜|なごりお}しければ",
+        "negative": "{名残惜|なごりお}しくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{名残惜|なごりお}しかったら",
+        "negative": "{名残惜|なごりお}しくなかったら"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "He's a hard-to-please person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10909_kimuzukashii_ex2",
@@ -27,7 +29,9 @@
       "english": "That teacher had a stern expression on his face.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10909_kimuzukashii_ex3",
@@ -35,10 +39,12 @@
       "english": "My grandfather is so fussy that even the family finds it hard to approach him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CONJUGATION:\n- Negative: {気難|きむずか}しくない\n- Past: {気難|きむずか}しかった\n- Te-form: {気難|きむずか}しくて\n- Adverbial: {気難|きむずか}しく\n\nUSAGE:\nUsed almost exclusively to describe people or their expressions/attitudes. {気難|きむずか}しい{顔|かお} (a stern/difficult expression) is a very common collocation.\n\nSIMILAR WORDS:\n{難|むずか}しい describes general difficulty, while {気難|きむずか}しい specifically describes a person's temperament. {偏屈|へんくつ} (eccentric, stubborn) is stronger and more negative.",
+  "notes": "USAGE:\nUsed almost exclusively to describe people or their expressions/attitudes. {気難|きむずか}しい{顔|かお} (a stern/difficult expression) is a very common collocation.\n\nSIMILAR WORDS:\n{難|むずか}しい describes general difficulty, while {気難|きむずか}しい specifically describes a person's temperament. {偏屈|へんくつ} (eccentric, stubborn) is stronger and more negative.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
@@ -46,10 +52,49 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["people-personality"]
+      "semantic": [
+        "people-personality"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{気難|きむずか}しい",
+        "negative": "{気難|きむずか}しくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{気難|きむずか}しかった",
+        "negative": "{気難|きむずか}しくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{気難|きむずか}しくて",
+        "negative": "{気難|きむずか}しくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{気難|きむずか}しく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{気難|きむずか}しければ",
+        "negative": "{気難|きむずか}しくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{気難|きむずか}しかったら",
+        "negative": "{気難|きむずか}しくなかったら"
+      }
+    ]
   }
 }

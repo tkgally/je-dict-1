@@ -22,14 +22,19 @@ FORMS:
 
 **Note:** Not all adjectives have natural noun forms. Only include if commonly used.
 
-### 2. Conjugation Paradigm (MEDIUM PRIORITY)
-Show key conjugations:
+### 2. Conjugation Table (I-ADJECTIVES)
+I-adjective entries must include a `conjugation` field with all conjugated forms hard-coded in the JSON (parallel to verb conjugation tables). Use `python3 build/add_adjective_conjugations.py` to generate conjugation data after creating i-adjective entries.
 
+The conjugation table includes 6 forms: Present, Past, て form, Adverbial, Conditional ば, Conditional たら. See the `verb-conjugations` skill for the JSON structure (same format, different type values).
+
+Do NOT include a CONJUGATION: section in the notes field — that information belongs in the structured `conjugation` field.
+
+**Na-adjective conjugation** is still shown in notes:
 ```
 CONJUGATION:
-- Negative: {遠|とお}くない / {静|しず}かではない
-- Te-form: {遠|とお}くて / {静|しず}かで
-- Past: {遠|とお}かった / {静|しず}かだった
+- Negative: {静|しず}かではない
+- Te-form: {静|しず}かで
+- Past: {静|しず}かだった
 ```
 
 ### 3. Predicate vs. Modifier Usage (MEDIUM PRIORITY)

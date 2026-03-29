@@ -227,13 +227,13 @@
     },
     "conjugation": {
       "type": "object",
-      "description": "Full conjugation table for verb entries",
+      "description": "Full conjugation table for verb and i-adjective entries",
       "required": ["type", "forms"],
       "properties": {
         "type": {
           "type": "string",
-          "enum": ["godan", "ichidan", "suru", "kuru", "aru"],
-          "description": "Verb conjugation class"
+          "enum": ["godan", "ichidan", "suru", "kuru", "aru", "i-adjective", "ii"],
+          "description": "Conjugation class (verb or i-adjective)"
         },
         "forms": {
           "type": "array",

@@ -22,7 +22,9 @@
       "japanese": "さりげなく{声|こえ}をかけた。",
       "english": "I casually spoke to them.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{彼|かれ}はさりげなく{彼女|かのじょ}を{助|たす}けた。",
       "english": "He casually helped her.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "さりげない{会話|かいわ}の{中|なか}で{情報|じょうほう}を{集|あつ}めた。",
       "english": "I gathered information through casual conversation.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "さりげない{優|やさ}しさに{気|き}づいた。",
       "english": "I noticed the subtle kindness.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "さりげない{気配|きくば}りがうれしかった。",
       "english": "I was happy about the subtle thoughtfulness.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{彼女|かのじょ}はさりげない{仕草|しぐさ}で{周|まわ}りの{人|ひと}を{和|なご}ませるのが{上手|じょうず}だ。",
       "english": "She is good at putting those around her at ease with unobtrusive gestures.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,9 +85,49 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
-      "semantic": ["manner", "personality"]
+      "semantic": [
+        "manner",
+        "personality"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "さりげない",
+        "negative": "さりげなくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "さりげなかった",
+        "negative": "さりげなくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "さりげなくて",
+        "negative": "さりげなくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "さりげなく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "さりげなければ",
+        "negative": "さりげなくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "さりげなかったら",
+        "negative": "さりげなくなかったら"
+      }
+    ]
   }
 }

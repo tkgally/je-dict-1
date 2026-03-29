@@ -23,6 +23,7 @@ build/            # Python build, validation, and utility scripts
   build/validate_tags.py        # Validate semantic/POS tag consistency
   build/get_next_id.py          # Get next available entry ID (scans filesystem)
   build/add_conjugations.py      # Add full conjugation tables to verb entries
+  build/add_adjective_conjugations.py  # Add conjugation tables to i-adjective entries
   build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
@@ -57,6 +58,7 @@ Makefile               # Build runner (make validate, make build, make quick, et
 - All explanations must be in English — Japanese text appears only in example phrases, collocations, and patterns
 - Never add inline word links (⟦...⟧) during entry creation — those are added in a separate polishing step
 - **Verb entries must include a `conjugation` field** with all conjugated forms hard-coded in the JSON (see `verb-conjugations` skill). Use `python3 build/add_conjugations.py` to generate conjugation data after creating verb entries.
+- **I-adjective entries must include a `conjugation` field** with all conjugated forms. Use `python3 build/add_adjective_conjugations.py` to generate conjugation data after creating i-adjective entries.
 - **Entry IDs must be unique.** Always run `python3 build/get_next_id.py` before creating each new entry to get the next available ID. This script scans the filesystem, so it is accurate even mid-session. Do not read `entries_index.json` or `PROJECT_CONTEXT_BRIEF.md` for the next ID — those may be stale. Do not reuse a previous result of `get_next_id.py` — run it fresh each time.
 - **Never renumber existing entries.** The five-digit IDs form part of the entry's URL on the live site. Changing an ID would break external links and search-engine indexes.
 
@@ -82,6 +84,12 @@ python3 build/add_conjugations.py                    # Add conjugation to all ve
 python3 build/add_conjugations.py --start N --end M  # Process specific ID range
 python3 build/add_conjugations.py --dry-run          # Preview without writing
 python3 build/add_conjugations.py --force            # Overwrite existing conjugation data
+
+# I-adjective conjugation
+python3 build/add_adjective_conjugations.py                    # Add conjugation to all i-adjectives
+python3 build/add_adjective_conjugations.py --start N --end M  # Process specific ID range
+python3 build/add_adjective_conjugations.py --dry-run          # Preview without writing
+python3 build/add_adjective_conjugations.py --force            # Overwrite existing conjugation data
 
 # Furigana and kanji
 python3 build/verify_furigana.py <id>     # Check furigana coverage for one entry
@@ -123,6 +131,7 @@ After creating new entries (used by newentries prompts):
 python3 build/validate.py                                # Fix any errors first
 python3 build/find_missing_furigana.py | head -60        # Check for missing furigana
 python3 build/add_conjugations.py                        # Add conjugation to any new verbs
+python3 build/add_adjective_conjugations.py              # Add conjugation to any new i-adjectives
 python3 build/update_indexes.py                          # Sync indexes and candidate list
 python3 build/update_kanji_index.py --check-new          # Check for new kanji needing IDs
 python3 build/build_flat.py                              # Rebuild the static site

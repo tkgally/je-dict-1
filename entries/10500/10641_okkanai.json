@@ -19,7 +19,9 @@
       "english": "He has a scary face.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10641_okkanai_ex2",
@@ -27,7 +29,9 @@
       "english": "That teacher is scary, you know.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10641_okkanai_ex3",
@@ -35,10 +39,12 @@
       "english": "Don't walk alone on the road at night — it's scary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FORMS:\n・Adverbial: おっかなく (rare)\n・Noun form: おっかなさ\n\nCONJUGATION:\n・Negative: おっかなくない\n・Te-form: おっかなくて\n・Past: おっかなかった\n\nUSAGE:\nA colloquial synonym of {怖|こわ}い. Originally a Kanto (eastern Japan) dialect word, it is widely understood throughout Japan but retains a casual, slightly rough tone. More common in spoken language than in writing.\n\nRELATED EXPRESSION:\n・おっかなびっくり — fearfully, timidly (doing something while scared)",
+  "notes": "FORMS:\n・Adverbial: おっかなく (rare)\n・Noun form: おっかなさ\n\n・Negative: おっかなくない\n・Te-form: おっかなくて\n・Past: おっかなかった\n\nUSAGE:\nA colloquial synonym of {怖|こわ}い. Originally a Kanto (eastern Japan) dialect word, it is widely understood throughout Japan but retains a casual, slightly rough tone. More common in spoken language than in writing.\n\nRELATED EXPRESSION:\n・おっかなびっくり — fearfully, timidly (doing something while scared)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-08T15:14:06Z",
@@ -46,12 +52,56 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "style": ["spoken"],
-      "domain": ["colloquial"],
-      "semantic": ["emotion", "fear"]
+      "style": [
+        "spoken"
+      ],
+      "domain": [
+        "colloquial"
+      ],
+      "semantic": [
+        "emotion",
+        "fear"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "おっかない",
+        "negative": "おっかなくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "おっかなかった",
+        "negative": "おっかなくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "おっかなくて",
+        "negative": "おっかなくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "おっかなく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "おっかなければ",
+        "negative": "おっかなくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "おっかなかったら",
+        "negative": "おっかなくなかったら"
+      }
+    ]
   }
 }

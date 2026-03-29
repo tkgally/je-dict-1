@@ -22,7 +22,9 @@
       "japanese": "あの{人|ひと}はせこい。",
       "english": "That person is stingy.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "せこいことを{言|い}うな。",
       "english": "Don't be so cheap.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{彼|かれ}はせこいから{割|わ}り{勘|かん}でも1{円|えん}{単位|たんい}まで{計算|けいさん}する。",
       "english": "He's so stingy that even when splitting the bill, he calculates down to the last yen.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "せこい{手段|しゅだん}で{勝|か}っても{嬉|うれ}しくない。",
       "english": "Winning through petty means doesn't make me happy.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "そんなせこいこと{言|い}わないでよ。",
       "english": "Don't be so petty about it.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "ポイントを{少|すこ}しでも{多|おお}くもらおうと、せこい{買|か}い{方|かた}をしてしまう。",
       "english": "I end up shopping in petty ways to get even a few more reward points.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,9 +85,49 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "informal",
-      "semantic": ["personality", "criticism"]
+      "semantic": [
+        "personality",
+        "criticism"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "せこい",
+        "negative": "せこくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "せこかった",
+        "negative": "せこくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "せこくて",
+        "negative": "せこくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "せこく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "せこければ",
+        "negative": "せこくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "せこかったら",
+        "negative": "せこくなかったら"
+      }
+    ]
   }
 }

@@ -104,3 +104,13 @@ python3 build/add_conjugations.py           # Process all verbs
 python3 build/add_conjugations.py --dry-run # Preview without writing
 python3 build/add_conjugations.py --force   # Overwrite existing conjugation data
 ```
+
+## I-Adjective Conjugation
+
+I-adjectives also use the same `conjugation` JSON structure with 6 forms (Present, Past, て form, Adverbial, Conditional ば, Conditional たら). Type values are `i-adjective` (regular) or `ii` (いい and its compounds, which conjugate with よ- stem).
+
+```bash
+python3 build/add_adjective_conjugations.py           # Process all i-adjectives
+python3 build/add_adjective_conjugations.py --dry-run # Preview without writing
+python3 build/add_adjective_conjugations.py --force   # Overwrite existing
+```

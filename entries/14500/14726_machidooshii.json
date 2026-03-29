@@ -19,7 +19,9 @@
       "english": "I can't wait for summer vacation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14726_machidooshii_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm eagerly awaiting the release date of the new game.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14726_machidooshii_ex3",
@@ -35,7 +39,9 @@
       "english": "I'm so eager for cherry blossom season that I check the weather forecast every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Always used for positive anticipation — never for dreading something. The subject is the thing being awaited, marked by が.\n\nPATTERN: Xが{待|ま}ち{遠|どお}しい (can't wait for X)\n\nCOMMON COLLOCATIONS:\n- {春|はる}が{待|ま}ち{遠|どお}しい (looking forward to spring)\n- {卒業|そつぎょう}が{待|ま}ち{遠|どお}しい (can't wait for graduation)\n- {待|ま}ち{遠|どお}しくてたまらない (so eager one can barely stand it)\n\nUSAGE NOTE: This is a compound adjective from {待|ま}つ (to wait) + {遠|とお}い (far). Despite containing {遠|とお}い, the combined meaning is not about physical distance but emotional anticipation.",
@@ -46,10 +52,49 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{待|ま}ち{遠|どお}しい",
+        "negative": "{待|ま}ち{遠|どお}しくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{待|ま}ち{遠|どお}しかった",
+        "negative": "{待|ま}ち{遠|どお}しくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{待|ま}ち{遠|どお}しくて",
+        "negative": "{待|ま}ち{遠|どお}しくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{待|ま}ち{遠|どお}しく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{待|ま}ち{遠|どお}しければ",
+        "negative": "{待|ま}ち{遠|どお}しくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{待|ま}ち{遠|どお}しかったら",
+        "negative": "{待|ま}ち{遠|どお}しくなかったら"
+      }
+    ]
   }
 }

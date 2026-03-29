@@ -19,7 +19,9 @@
       "english": "That person is worthy of being a leader.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10476_fusawashii_ex2",
@@ -27,7 +29,9 @@
       "english": "Please come in attire appropriate for this occasion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10476_fusawashii_ex3",
@@ -35,7 +39,9 @@
       "english": "His efforts were worthy of receiving the award.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMS:\n- Adverbial: {相応|ふさわ}しく\n- Noun form: {相応|ふさわ}しさ (suitability)\n- Negative: {相応|ふさわ}しくない\n\nCOMMON PATTERNS:\n- ～に{相応|ふさわ}しい: suitable for, worthy of\n- ～に{相応|ふさわ}しくない: not suitable for\n\nSIMILAR WORDS:\n- {適切|てきせつ}: appropriate (more objective, used for actions and measures)\n- {似合|にあ}う: to suit, to look good on (often for appearance)",
@@ -46,11 +52,52 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["evaluation-quality"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "evaluation-quality"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{相応|ふさわ}しい",
+        "negative": "{相応|ふさわ}しくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{相応|ふさわ}しかった",
+        "negative": "{相応|ふさわ}しくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{相応|ふさわ}しくて",
+        "negative": "{相応|ふさわ}しくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{相応|ふさわ}しく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{相応|ふさわ}しければ",
+        "negative": "{相応|ふさわ}しくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{相応|ふさわ}しかったら",
+        "negative": "{相応|ふさわ}しくなかったら"
+      }
+    ]
   }
 }

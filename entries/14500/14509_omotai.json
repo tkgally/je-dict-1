@@ -19,7 +19,9 @@
       "english": "This luggage is heavy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14509_omotai_ex2",
@@ -27,7 +29,9 @@
       "english": "The shopping bags are so heavy that my arms hurt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14509_omotai_ex3",
@@ -35,7 +39,9 @@
       "english": "I ate too much and my stomach feels heavy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A colloquial form of {重|おも}い. While {重|おも}い is neutral and used in both spoken and written contexts, {重|おも}たい is primarily spoken and conveys a stronger sense of personal, physical sensation of heaviness.\n\nCOMMON COLLOCATIONS:\n- {荷物|にもつ}が{重|おも}たい (the luggage is heavy)\n- {足|あし}が{重|おも}たい (one's legs feel heavy)\n- {頭|あたま}が{重|おも}たい (one's head feels heavy)\n\nUSAGE NOTE:\n{重|おも}たい sounds more casual and subjective than {重|おも}い. Use {重|おも}い in writing, measurements, and objective descriptions. Use {重|おも}たい when expressing how something feels to you personally.",
@@ -46,10 +52,49 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{重|おも}たい",
+        "negative": "{重|おも}たくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{重|おも}たかった",
+        "negative": "{重|おも}たくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{重|おも}たくて",
+        "negative": "{重|おも}たくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{重|おも}たく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{重|おも}たければ",
+        "negative": "{重|おも}たくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{重|おも}たかったら",
+        "negative": "{重|おも}たくなかったら"
+      }
+    ]
   }
 }
