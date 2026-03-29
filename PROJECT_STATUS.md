@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 541)
+Added 30 new dictionary entries (IDs 20583-20612) from candidate_words.json. A diverse mix of practical vocabulary including verbs, nouns, adjectives, and adverbs for intermediate learners.
+
+- **Verbs (2)**: {儲|もう}ける (to make a profit), のぼせる (to feel flushed/to be infatuated)
+- **Na-adjectives (2)**: {非公式|ひこうしき} (informal/unofficial), {怪奇|かいき} (mysterious/eerie)
+- **Adverb (1)**: あたふた (in a fluster/hurriedly)
+- **Nouns (25)**: {綱渡|つなわた}り (tightrope walking), {農場|のうじょう} (farm), {真冬|まふゆ} (midwinter), {民意|みんい} (public will), {俗語|ぞくご} (slang), {上陸|じょうりく} (landing), {牽制|けんせい} (check/restraint), {企画書|きかくしょ} (proposal), {入眠|にゅうみん} (falling asleep), {師範|しはん} (master instructor), {口外|こうがい} (disclosing), {平衡|へいこう} (equilibrium), {先達|せんだつ} (pioneer), {土木|どぼく} (civil engineering), {大慌|おおあわ}て (great panic), {含|ふく}み{笑|わら}い (smothered laugh), {画風|がふう} (artistic style), {元金|がんきん} (principal), {表舞台|おもてぶたい} (public spotlight), {放牧|ほうぼく} (grazing), {奇人|きじん} (eccentric), {言語化|げんごか} (verbalization), {背面|はいめん} (back side), {後発|こうはつ} (latecomer), {降車|こうしゃ} (getting off vehicle)
+- Added 1 new kanji to index: 儲
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 540)
 Added 30 new dictionary entries (IDs 20553-20582) from candidate_words.json. A diverse mix of practical vocabulary covering adjectives, adverbs, verbs, and nouns for intermediate learners.
 
@@ -87,21 +97,6 @@ Added 30 new dictionary entries (IDs 20433-20462) from candidate_words.json. A m
 - **Nouns (20)**: {紙一重|かみひとえ} (paper-thin difference), {自己責任|じこせきにん} (self-responsibility), {予告編|よこくへん} (trailer/preview), {候補者|こうほしゃ} (candidate), {応募者|おうぼしゃ} (applicant), {責任感|せきにんかん} (sense of responsibility), ひねり (twist/ingenuity), {窓辺|まどべ} (by the window), {冷|ひ}え{込|こ}み (cold snap), {好景気|こうけいき} (economic boom), {自主性|じしゅせい} (independence/initiative), {柑橘|かんきつ} (citrus), {直営店|ちょくえいてん} (company-operated store), {発疹|はっしん} (rash), {分別|ふんべつ} (discretion), {経済成長|けいざいせいちょう} (economic growth), {遠隔操作|えんかくそうさ} (remote operation), {調理法|ちょうりほう} (cooking method), {薄毛|うすげ} (thinning hair), {新参|しんざん} (newcomer), {記入漏|きにゅうも}れ (omission in form), {自己負担|じこふたん} (out-of-pocket expense)
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 535)
-Added 30 new dictionary entries (IDs 20403-20432) from candidate_words.json. A mix of everyday vocabulary, cultural terms, and useful expressions for intermediate learners.
-
-- **Na-adjectives (3)**: {長期的|ちょうきてき} (long-term), {五分五分|ごぶごぶ} (fifty-fifty), {耳寄|みみよ}り (welcome news)
-- **Expressions (3)**: {気|き}を{悪|わる}くする (to take offense), やる{気|き}{満々|まんまん} (full of motivation), {殻|から}をむく (to peel/shell)
-- **Nouns (24)**: ホチキス (stapler), {試作|しさく} (prototype), {近眼|きんがん} (nearsightedness), {流星群|りゅうせいぐん} (meteor shower), {仮想現実|かそうげんじつ} (virtual reality), {見栄|みえ}っ{張|ぱ}り (show-off), ひっきりなしに (continuously), {上半期|かみはんき} (first half of year), {誤変換|ごへんかん} (incorrect kanji conversion), {指数|しすう} (index/exponent), {新聞紙|しんぶんし} (newspaper material), {減産|げんさん} (production cut), {社会復帰|しゃかいふっき} (return to society), {雑食|ざっしょく} (omnivorous), {再発防止|さいはつぼうし} (recurrence prevention), {携帯番号|けいたいばんごう} (mobile number), {現世|げんせ} (this world), {真綿|まわた} (silk floss), {調合|ちょうごう} (compounding), {屋台骨|やたいぼね} (backbone/foundation), {弥生時代|やよいじだい} (Yayoi period), {目立|めだ}ちたがり{屋|や} (attention seeker), {江戸時代|えどじだい} (Edo period), {通告|つうこく} (formal notice)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 539)
-Added 30 new dictionary entries (IDs 20523-20552) from candidate_words.json. A mix of practical everyday vocabulary, workplace expressions, compound nouns, and verbs for intermediate learners.
-
-- **Expressions (4)**: お{先|さき}に{失礼|しつれい}します (leaving before others), {広々|ひろびろ}とした (spacious), {年|とし}を{重|かさ}ねる (to grow older), {最中|さいちゅう}に (in the middle of)
-- **Verbs (2)**: {吹|ふ}き{付|つ}ける (to blow against/spray), {突|つ}き{合|あ}わせる (to compare/cross-reference)
-- **Nouns (24)**: ノートパソコン (laptop), {過小評価|かしょうひょうか} (underestimation), {時計回|とけいまわ}り (clockwise), {乗降|じょうこう} (boarding and alighting), {定番商品|ていばんしょうひん} (standard product), {話|はな}し{中|ちゅう} (line busy), トースト (toast), {一回限|いっかいかぎ}り (one time only), {標準化|ひょうじゅんか} (standardization), {経営陣|けいえいじん} (management team), {外貨両替|がいかりょうがえ} (foreign currency exchange), {芸術鑑賞|げいじゅつかんしょう} (art appreciation), {復路|ふくろ} (return route), {中華|ちゅうか}そば (Chinese-style noodles), {大音量|だいおんりょう} (high volume), {正常化|せいじょうか} (normalization), {体毛|たいもう} (body hair), {単発|たんぱつ} (one-time), {授業中|じゅぎょうちゅう} (during class), {情報発信|じょうほうはっしん} (information dissemination), {自責|じせき}の{念|ねん} (self-reproach), {稼働率|かどうりつ} (operating rate), バドミントン (badminton), {化粧下地|けしょうしたじ} (makeup primer)
-- Removed 30 candidates that now exist as entries
 
 
 
