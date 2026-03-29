@@ -31,9 +31,11 @@ Each dictionary entry must be written individually by hand, using:
 
 **After finishing all entries for a session:**
 ```bash
-python3 build/validate.py           # Validate all entries
-python3 build/update_indexes.py     # Update indexes and sync candidates
-python3 build/build_flat.py         # Rebuild website (REQUIRED for GitHub Pages)
+python3 build/validate.py                    # Validate all entries
+python3 build/add_conjugations.py            # Add conjugation to any new verbs
+python3 build/add_adjective_conjugations.py  # Add conjugation to any new i-adjectives
+python3 build/update_indexes.py              # Update indexes and sync candidates
+python3 build/build_flat.py                  # Rebuild website (REQUIRED for GitHub Pages)
 git add entries/ docs/ *.json PROJECT_STATUS.md
 git commit -m "Add N new dictionary entries"
 git push
@@ -94,6 +96,14 @@ This prevents duplicate entries and wasted effort on entries that must later be 
 All verb entries must include a `conjugation` field with the full set of conjugated forms hard-coded in the JSON. See the `verb-conjugations` skill for the complete specification.
 
 After creating verb entries, run `python3 build/add_conjugations.py` to automatically generate and write the conjugation data. Or include the full conjugation field directly when writing the entry JSON.
+
+## I-Adjective Conjugation (REQUIRED for all i-adjective entries)
+
+All i-adjective entries must include a `conjugation` field with 6 conjugated forms (Present, Past, て form, Adverbial, Conditional ば, Conditional たら). See the `verb-conjugations` skill for the JSON structure (same format, `type` is `"i-adjective"` or `"ii"` for いい compounds).
+
+After creating i-adjective entries, run `python3 build/add_adjective_conjugations.py` to automatically generate and write the conjugation data. Or include the full conjugation field directly when writing the entry JSON.
+
+**Na-adjectives do NOT have a `conjugation` field.** Their conjugation is shown in the notes field instead.
 
 ## Content Guidelines
 

@@ -25,6 +25,7 @@ See the `vocabulary-notes` skill for complete formatting guidelines.
 
 ### For ALL Verb Entries
 
+- [ ] **Conjugation field**: Add `conjugation` field if missing (run `python3 build/add_conjugations.py`)
 - [ ] **Transitivity**: Add transitivity type ({自動詞|じどうし}/{他動詞|たどうし})
 - [ ] **Pair verb**: Identify and link the transitive/intransitive pair
 - [ ] **Aspect notes**: Explain what ている means for this verb
@@ -69,7 +70,8 @@ See the `vocabulary-notes` skill for complete formatting guidelines.
 ### For Adjective Entries
 
 - [ ] **Forms**: Add adverbial form (〜く/〜に) and noun form (〜さ) where natural
-- [ ] **Conjugation**: Add negative, te-form, past
+- [ ] **I-adjective conjugation field**: Add `conjugation` field if missing (run `python3 build/add_adjective_conjugations.py`)
+- [ ] **Na-adjective conjugation in notes**: Verify negative, te-form, past are shown in notes
 - [ ] **Similar words**: Add distinctions from semantic neighbors
 
 ### For Noun Entries
@@ -174,10 +176,12 @@ This ensures the entry appears in the "Recent" page with the correct revision da
 After revising entries, run these commands:
 
 ```bash
-python3 build/validate.py           # Validate all entries
+python3 build/validate.py                    # Validate all entries
 python3 build/verify_furigana.py <entry_ids...>  # Verify furigana coverage
-python3 build/update_indexes.py     # Update indexes
-python3 build/build_flat.py         # Rebuild website (REQUIRED for GitHub Pages)
+python3 build/add_conjugations.py            # Add conjugation to any verbs missing it
+python3 build/add_adjective_conjugations.py  # Add conjugation to any i-adjectives missing it
+python3 build/update_indexes.py              # Update indexes
+python3 build/build_flat.py                  # Rebuild website (REQUIRED for GitHub Pages)
 git add entries/ docs/ *.json PROJECT_STATUS.md
 git commit -m "Revise entries to v2 standards"
 git push

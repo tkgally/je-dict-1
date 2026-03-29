@@ -85,9 +85,10 @@ _GROUP_LAST_ROWS = {'て form', 'ている past polite', 'Conditional たら', '
 
 def generate_conjugation_html(conjugation: dict) -> str:
     """
-    Generate the <details> HTML block for a verb conjugation table.
+    Generate the <details> HTML block for a conjugation table.
 
-    Reads pre-computed forms from the entry's conjugation.forms array.
+    Works for both verbs and i-adjectives. Reads pre-computed forms from
+    the entry's conjugation.forms array.
     Each form has: label, affirmative, negative (may be null).
     """
     forms = conjugation.get('forms', [])
@@ -345,7 +346,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         html_parts.append(', '.join(ref_links))
         html_parts.append('</div>')
 
-    # Conjugation table (for verb entries with pre-computed forms)
+    # Conjugation table (for verb and i-adjective entries with pre-computed forms)
     conjugation = entry.get('conjugation')
     if conjugation and conjugation.get('forms'):
         html_parts.append(generate_conjugation_html(conjugation))
