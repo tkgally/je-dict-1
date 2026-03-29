@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 22 New Entries, Session 534)
+Added 22 new dictionary entries (IDs 20381-20402) from candidate_words.json. A diverse mix of practical vocabulary covering emotions, nature, culture, daily life, and abstract concepts.
+
+- **Na-adjectives (3)**: {達者|たっしゃ} (skillful/healthy), {有望|ゆうぼう} (promising), {精力的|せいりょくてき} (energetic)
+- **Expressions (2)**: {否応|いやおう}なし (whether willing or not), {火気厳禁|かきげんきん} (no open flames)
+- **Nouns (17)**: {傍観者|ぼうかんしゃ} (bystander), {安心感|あんしんかん} (sense of security), わだかまり (lingering resentment), {枯|か}れ{葉|は} (dead leaves), {景勝地|けいしょうち} (scenic spot), {砂嵐|すなあらし} (sandstorm), {折|お}り{畳|たた}み{傘|がさ} (folding umbrella), {純喫茶|じゅんきっさ} (traditional coffee shop), {新年会|しんねんかい} (New Year's party), {丘陵|きゅうりょう} (hill), {心意気|こころいき} (spirit/determination), {歌謡曲|かようきょく} (popular song), {路線|ろせん}バス (local bus), {輪|わ}ゴム (rubber band), {基金|ききん} (fund), {自省|じせい} (self-reflection), {波打|なみう}ち{際|ぎわ} (water's edge)
+- Added 1 new kanji to index: 陵
+- Removed 22 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 533)
 Added 30 new dictionary entries (IDs 20351-20380) from candidate_words.json. Diverse mix including cultural terms, common expressions, and practical vocabulary for intermediate learners.
 
@@ -89,16 +98,6 @@ Added 30 new dictionary entries (IDs 20261-20290) from candidate_words.json. Div
 - **Adjectives (3)**: {目新|めあたら}しい (novel), {型破|かたやぶ}り (unconventional), {小|こ}ぶり (smallish)
 - **Nouns (23)**: {横並|よこなら}び (side by side/conformity), {無駄骨|むだぼね} (wasted effort), {密輸|みつゆ} (smuggling), {直営|ちょくえい} (direct management), {夜風|よかぜ} (night breeze), {質疑|しつぎ} (Q&A), {林業|りんぎょう} (forestry), {停泊|ていはく} (anchoring), {配達員|はいたついん} (delivery person), {最高級|さいこうきゅう} (highest grade), {母子|ぼし} (mother and child), {返礼品|へんれいひん} (return gift), {展覧|てんらん} (exhibition), {送|おく}り{状|じょう} (shipping label), {陣痛|じんつう} (labor pains), {火災保険|かさいほけん} (fire insurance), {登校日|とうこうび} (school attendance day), {眼球|がんきゅう} (eyeball), {贈答用|ぞうとうよう} (for gift-giving), {農道|のうどう} (farm road), {質問者|しつもんしゃ} (questioner), {天気図|てんきず} (weather map), {募集要項|ぼしゅうようこう} (application guidelines)
 - Removed 8 stale candidates (duplicates of existing entries: 感動する, 密閉する, 考案する, 左右する, etc.)
-
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 529)
-Added 30 new dictionary entries (IDs 20231-20260) from candidate_words.json. Mix of practical vocabulary for intermediate learners covering travel, daily life, food, business, and emotions.
-
-- **Suru-verbs (5)**: {宿泊|しゅくはく}する (to stay overnight), {目撃|もくげき}する (to witness), {中座|ちゅうざ}する (to leave partway through), {見物|けんぶつ}する (to sightsee), {出火|しゅっか} (outbreak of fire)
-- **Adjective (1)**: ずる{賢|がしこ}い (sly, cunning)
-- **Adverb (1)**: {一向|いっこう} (not at all)
-- **Nouns (23)**: {体調不良|たいちょうふりょう} (feeling unwell), {本降|ほんぶ}り (steady rain), {悪酔|わるよ}い (bad drunkenness), {破格|はかく} (exceptional/bargain), {美容室|びようしつ} (beauty salon), {余生|よせい} (remaining years), {水|みず}しぶき (splash), {先方|せんぽう} (other party), {応接室|おうせつしつ} (reception room), {防寒着|ぼうかんぎ} (winter clothing), ぜんざい (sweet red bean soup), {崖崩|がけくず}れ (landslide), {試運転|しうんてん} (test run), {専業主夫|せんぎょうしゅふ} (househusband), {画材|がざい} (art supplies), {看板商品|かんばんしょうひん} (signature product), {黒髪|くろかみ} (black hair), {小袋|こぶくろ} (small bag), {冬|ふゆ}ごもり (winter seclusion), むなしさ (emptiness), {優越|ゆうえつ} (superiority), {素肌|すはだ} (bare skin), {麻婆豆腐|まーぼーどうふ} (mapo tofu)
-- Removed 1 stale candidate (連れ子 — already existed as entry with different reading)
-- Removed 30 candidates that now exist as entries
 
 ---
 
