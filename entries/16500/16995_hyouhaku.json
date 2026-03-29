@@ -5,6 +5,10 @@
   "reading": "ひょうはく",
   "part_of_speech": "noun",
   "gloss": "bleaching; whitening",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{漂白|ひょうはく}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "To remove stains with bleach.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16995_hyouhaku_ex2",
@@ -27,7 +33,9 @@
       "english": "Please do not bleach this shirt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16995_hyouhaku_ex3",
@@ -35,21 +43,30 @@
       "english": "I separate colored and white clothes, and only bleach the white ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a noun and as a する verb ({漂白|ひょうはく}する = to bleach). Very common in laundry and cleaning contexts. Laundry care labels often include instructions about whether bleaching is allowed.\n\nCOMMON COLLOCATIONS:\n- {漂白|ひょうはく}{剤|ざい} (bleach, bleaching agent)\n- {漂白|ひょうはく}する (to bleach)\n- {塩素|えんそ}{系|けい}{漂白|ひょうはく}{剤|ざい} (chlorine-based bleach)\n- {酸素|さんそ}{系|けい}{漂白|ひょうはく}{剤|ざい} (oxygen-based bleach)",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-03-15T05:53:16Z",
+    "modified": "2026-03-29T03:08:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["household", "cleaning"]
+      "semantic": [
+        "household",
+        "cleaning"
+      ],
+      "verb_class": "suru"
     }
   }
 }

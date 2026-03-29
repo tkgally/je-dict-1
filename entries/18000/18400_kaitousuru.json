@@ -5,6 +5,10 @@
   "reading": "かいとうする",
   "part_of_speech": "verb",
   "gloss": "to reply; to answer; to respond",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{回答|かいとう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "To respond to a survey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18400_kaitousuru_ex2",
@@ -27,7 +33,9 @@
       "english": "Please answer the questions accurately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18400_kaitousuru_ex3",
@@ -35,22 +43,30 @@
       "english": "Companies have an obligation to respond promptly to customer inquiries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "PATTERN:\n～に{回答|かいとう}する (to respond to ~)\n\nCOMMON COLLOCATIONS:\n- アンケートに{回答|かいとう}する (to respond to a survey)\n- {質問|しつもん}に{回答|かいとう}する (to answer a question)\n- {問|と}い{合|あ}わせに{回答|かいとう}する (to respond to an inquiry)\n- {回答|かいとう}を{求|もと}める (to request a response)\n- {回答|かいとう}{期限|きげん} (response deadline)\n\nCONTRAST:\n- {回答|かいとう}する vs. {答|こた}える: {答|こた}える is the general word for answering and is used in everyday conversation. {回答|かいとう}する is more formal and implies an official, deliberate, or written response.\n- {回答|かいとう} vs. {返答|へんとう}: {返答|へんとう} emphasizes the act of replying (returning an answer), while {回答|かいとう} emphasizes the content and correctness of the answer.\n- {回答|かいとう} vs. {解答|かいとう}: Same pronunciation but different kanji. {解答|かいとう} means solving a problem or providing the solution to a test/quiz. {回答|かいとう} is a response to a question or inquiry.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-21T11:03:24Z",
-    "modified": "2026-03-21T11:03:24Z",
+    "modified": "2026-03-29T03:08:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "communication"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
   }
 }

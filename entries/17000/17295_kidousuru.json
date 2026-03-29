@@ -5,6 +5,10 @@
   "reading": "きどうする",
   "part_of_speech": "verb-suru",
   "gloss": "to start up; to boot; to launch (a machine or program)",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{起動|きどう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "To start up the computer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17295_kidousuru_ex2",
@@ -27,7 +33,9 @@
       "english": "I launched the app, but the screen stayed blank.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17295_kidousuru_ex3",
@@ -35,23 +43,32 @@
       "english": "If the computer does not start up normally, turn off the power, wait a few minutes, and try again.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both transitively (パソコンを{起動|きどう}する 'start up the computer') and intransitively (パソコンが{起動|きどう}する 'the computer starts up'). Essential vocabulary for anyone using computers or smartphones in Japanese.\n\nCOMMON COLLOCATIONS:\n- パソコンを{起動|きどう}する (boot a computer)\n- アプリを{起動|きどう}する (launch an app)\n- {起動|きどう}{時間|じかん} (startup time)\n- {起動|きどう}{画面|がめん} (startup screen)\n- {再|さい}{起動|きどう}する (restart/reboot)\n\nSIMILAR WORDS:\n- {立|た}ち{上|あ}げる: to start up/launch — more colloquial synonym\n- {再|さい}{起動|きどう}する: to restart/reboot — very commonly used for troubleshooting",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-17T04:37:32Z",
-    "modified": "2026-03-17T04:37:32Z",
+    "modified": "2026-03-29T03:08:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
+      "semantic": [
+        "action"
+      ],
       "transitivity": "both",
-      "domain": ["technical"]
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
   }
 }

@@ -5,6 +5,10 @@
   "reading": "いやく",
   "part_of_speech": "noun / verb (suru)",
   "gloss": "free translation; liberal translation",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{意訳|いやく}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "I translated this part freely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17846_iyaku_ex2",
@@ -27,7 +33,9 @@
       "english": "A literal translation sounds unnatural, so it's better to translate freely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17846_iyaku_ex3",
@@ -35,7 +43,9 @@
       "english": "Movie subtitles require the skill of paraphrasing within a limited character count.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or suru verb. Often discussed in contrast with {直訳|ちょくやく} (literal translation). In translation studies and language learning, learners are often told to aim for {意訳|いやく} to produce natural-sounding output.\n\nCOMMON COLLOCATIONS:\n- {意訳|いやく}する (to translate freely)\n- {意訳|いやく}すると (if translated freely)\n- {直訳|ちょくやく}と{意訳|いやく} (literal and free translation)\n\nSIMILAR WORDS:\n- {直訳|ちょくやく}: literal, word-for-word translation\n- {和訳|わやく}: translation into Japanese\n- {英訳|えいやく}: translation into English",
@@ -48,14 +58,21 @@
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-03-19T06:58:32Z",
+    "modified": "2026-03-29T03:08:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language", "translation"]
+      "semantic": [
+        "language",
+        "translation"
+      ],
+      "verb_class": "suru"
     }
   }
 }

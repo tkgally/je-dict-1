@@ -5,6 +5,10 @@
   "reading": "かどうする",
   "part_of_speech": "suru verb",
   "gloss": "to operate; to run; to be in operation",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{稼働|かどう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -17,7 +21,9 @@
       "id": "19633_kadousuru_ex1",
       "japanese": "サーバーが{稼働|かどう}している。",
       "english": "The server is running.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +31,9 @@
       "id": "19633_kadousuru_ex2",
       "japanese": "この{工場|こうじょう}は24{時間|じかん}{稼働|かどう}している。",
       "english": "This factory operates 24 hours a day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +41,9 @@
       "id": "19633_kadousuru_ex3",
       "japanese": "{新|あたら}しいシステムが{来月|らいげつ}から{稼働|かどう}する{予定|よてい}だ。",
       "english": "The new system is scheduled to go into operation next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -42,13 +52,18 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-03-26T09:35:41Z",
-    "modified": "2026-03-26T09:35:41Z",
+    "modified": "2026-03-29T03:08:58Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ],
+      "verb_class": "suru"
     }
   }
 }

@@ -5,6 +5,10 @@
   "reading": "はいち",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "placement; arrangement; positioning; deployment",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{配置|はいち}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "I rearranged the furniture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14409_haichi_ex2",
@@ -27,7 +33,9 @@
       "english": "Security guards were stationed at each exit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14409_haichi_ex3",
@@ -35,22 +43,30 @@
       "english": "We decided to review the desk arrangement in the office to improve efficiency.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{配置|はいち} is a noun that can function as a suru verb ({配置|はいち}する). It emphasizes deliberate, planned placement.\n\nPARTICLE PATTERNS:\n- [thing/person]を{配置|はいち}する (to place/deploy something)\n- [thing]の{配置|はいち} (the arrangement of something)\n\nCOMMON COLLOCATIONS:\n- {人員|じんいん}{配置|はいち} (personnel deployment)\n- {配置|はいち}{転換|てんかん} (redeployment, reassignment)\n- {配置|はいち}{図|ず} (layout diagram)\n- {配置|はいち}を{変|か}える (change the arrangement)\n\n{配置|はいち}{転換|てんかん} (redeployment) is a common workplace term for reassigning employees to different positions or departments within the same organization.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-01T09:09:08Z",
-    "modified": "2026-03-01T09:09:08Z",
+    "modified": "2026-03-29T03:08:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
   }
 }

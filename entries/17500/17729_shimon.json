@@ -5,6 +5,10 @@
   "reading": "しもん",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "consultation; advisory inquiry",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{諮問|しもん}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "The minister referred the matter to the advisory council.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17729_shimon_ex2",
@@ -27,7 +33,9 @@
       "english": "The advisory body compiled a report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17729_shimon_ex3",
@@ -35,23 +43,33 @@
       "english": "The matter of educational reform was referred to an expert panel, and a formal response was received six months later.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{諮問|しもん} is used in governmental and institutional settings. The typical process is: a leader or authority figure {諮問|しもん}s (consults) an advisory body, which then produces a {答申|とうしん} (formal recommendation).\n\nCOMMON COLLOCATIONS:\n- {諮問機関|しもんきかん} (advisory body)\n- {諮問委員会|しもんいいんかい} (advisory committee)\n- {諮問|しもん}に{応|おう}じる (to respond to a consultation)\n- {答申|とうしん} (formal recommendation in response to a consultation)",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-18T14:43:45Z",
-    "modified": "2026-03-18T14:43:45Z",
+    "modified": "2026-03-29T03:08:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["government"],
-      "transitivity": "transitive"
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "government"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
   }
 }
