@@ -98,7 +98,7 @@ For verbs with irregular forms (e.g., 行く with irregular て form), add an `o
 }
 ```
 
-Override keys correspond to table cells. Use overrides sparingly — only for genuinely irregular forms, not for regular conjugation.
+Override keys correspond to table cells. Use overrides sparingly — only for genuinely irregular forms, not for regular conjugation. Set a form to `"—"` (em dash) to suppress it entirely (displays a dash instead of a generated form).
 
 #### Known Irregular Verbs
 
@@ -111,6 +111,36 @@ Override keys correspond to table cells. Use overrides sparingly — only for ge
 | なさる | ます form is なさいます | present_polite, past_polite, volitional_polite |
 | ある | Negative is ない; no progressive/potential/passive/causative | Use type `"aru"` |
 | くれる | Imperative is くれ (not くれろ) | imperative_affirmative |
+
+#### Headwords Already in Passive Form
+
+Some entries have headwords that are themselves passive or passive-derived forms. These conjugate as ichidan verbs but should **not** show a passive row (a double-passive like 囚われられる is unnatural). Use `"—"` overrides to suppress the passive row.
+
+| Entry | Headword | Why passive is suppressed |
+|-------|----------|-------------------------|
+| 10402 | {囚|とら}われる | Passive of 囚う — already in passive form |
+| 07454 | {目|め}を{奪|うば}われる | Passive expression — 奪われる is already passive |
+| 17335 | {追|お}い{詰|つ}められる | Passive of 追い詰める — already in passive form |
+| 17448 | {振|ふ}られる | Passive of 振る — already in passive form |
+| 19692 | {埋|うず}もれる | Spontaneous/passive form of 埋もる |
+| 17197 | おられる | Honorific form of おる — passive-like construction |
+
+Example override for a passive-form headword:
+```json
+"conjugation": {
+  "type": "ichidan",
+  "stem": "{囚|とら}われ",
+  "overrides": {
+    "passive_affirmative": "—",
+    "passive_negative": "—"
+  }
+}
+```
+
+**When creating new entries**: If the headword is already a passive form (ending in ～れる/～られる derived from another verb), always add these overrides. Watch for patterns like:
+- Verb stem + れる/られる (passive of godan/ichidan verbs)
+- Spontaneous forms that are lexicalized as standalone verbs (e.g., 埋もれる, 崩れる)
+- Honorific ～れる forms (e.g., おられる)
 
 ## Display Format (Option D: Affirmative/Negative Table)
 
