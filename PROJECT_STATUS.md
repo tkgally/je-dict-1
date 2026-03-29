@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 536)
+Added 30 new dictionary entries (IDs 20433-20462) from candidate_words.json. A mix of idioms, expressions, practical nouns, and adverbs for intermediate learners.
+
+- **Expressions (8)**: さじを{投|な}げる (to give up), {満面|まんめん}の{笑|え}み (beaming smile), {似|に}たり{寄|よ}ったり (much the same), {胸|むね}が{熱|あつ}くなる (to be deeply moved), {恩|おん}を{仇|あだ}で{返|かえ}す (to repay kindness with evil), {継続|けいぞく}は{力|ちから}なり (persistence pays off)
+- **Adverbs (2)**: ともすれば (apt to/tending to), {何度|なんど}も (many times)
+- **Nouns (20)**: {紙一重|かみひとえ} (paper-thin difference), {自己責任|じこせきにん} (self-responsibility), {予告編|よこくへん} (trailer/preview), {候補者|こうほしゃ} (candidate), {応募者|おうぼしゃ} (applicant), {責任感|せきにんかん} (sense of responsibility), ひねり (twist/ingenuity), {窓辺|まどべ} (by the window), {冷|ひ}え{込|こ}み (cold snap), {好景気|こうけいき} (economic boom), {自主性|じしゅせい} (independence/initiative), {柑橘|かんきつ} (citrus), {直営店|ちょくえいてん} (company-operated store), {発疹|はっしん} (rash), {分別|ふんべつ} (discretion), {経済成長|けいざいせいちょう} (economic growth), {遠隔操作|えんかくそうさ} (remote operation), {調理法|ちょうりほう} (cooking method), {薄毛|うすげ} (thinning hair), {新参|しんざん} (newcomer), {記入漏|きにゅうも}れ (omission in form), {自己負担|じこふたん} (out-of-pocket expense)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 535)
 Added 30 new dictionary entries (IDs 20403-20432) from candidate_words.json. A mix of everyday vocabulary, cultural terms, and useful expressions for intermediate learners.
 
@@ -89,14 +97,6 @@ Added 30 new dictionary entries (IDs 20321-20350) from candidate_words.json. Div
 - Added 1 new kanji to index: 禿
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 531)
-Added 30 new dictionary entries (IDs 20291-20320) from candidate_words.json. Diverse vocabulary including verbs, adjectives, expressions, and nouns for intermediate learners.
-
-- **Verbs (10)**: なりすます (to impersonate), {突|つ}き{刺|さ}さる (to pierce), ひったくる (to snatch), {吊|つ}り{下|さ}げる (to suspend), {兼用|けんよう}する (dual use), {使|つか}い{古|ふる}す (to wear out), {吸|す}い{上|あ}げる (to absorb), {巻|ま}き{上|あ}げる (to roll up/fleece), {含有|がんゆう}する (to contain), {内包|ないほう}する (to include/imply)
-- **Adjectives (4)**: {忌|い}まわしい (abominable), {手|て}ぬるい (too lenient), {長細|ながぼそ}い (long and thin), {磯臭|いそくさ}い (smelling of the sea)
-- **Expressions (8)**: {頼|たよ}りになる (reliable), {敷居|しきい}が{高|たか}い (intimidating), {忌憚|きたん}のない (frank), {手際|てぎわ}が{良|よ}い (efficient), {心|こころ}に{刺|さ}さる (to strike a chord), {頭|あたま}がいい (smart), {本気|ほんき}にする (to take seriously), {胸|むね}に{響|ひび}く (to resonate)
-- **Nouns (3)**: すす (soot), かぼす (kabosu citrus), {干|ほ}しぶどう (raisins)
-- **Other (5)**: {優秀|ゆうしゅう}な (excellent), {放|ほう}り{投|な}げる (to throw away), {日焼|ひや}けする (to sunburn/fade), だもん (because - casual), {運転|うんてん}する (to drive)
 - Removed 30 candidates that now exist as entries
 
 
