@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-27
+**Last updated**: 2026-03-29
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 533)
+Added 30 new dictionary entries (IDs 20351-20380) from candidate_words.json. Diverse mix including cultural terms, common expressions, and practical vocabulary for intermediate learners.
+
+- **I-adjectives (3)**: {飽|あ}きっぽい (easily bored), {申|���う}し{訳|わけ}ない (sorry/inexcusable), {気前|きまえ}がいい (generous)
+- **Verbs (2)**: {乱読|らんどく}する (indiscriminate reading), {断|だん}ずる (to conclude decisively)
+- **Interjections (2)**: どれどれ (let me see), ううん (no, informal)
+- **Cultural/calendar terms (4)**: {弥生|やよい} (March), {如月|きさらぎ} (February), {神無月|かんなづき} (October), {立夏|りっか} (start of summer)
+- **Nouns (19)**: {私|わたし}{共|ども} (we, humble), {未知数|みちすう} (unknown quantity), {浪人生|ろうにんせい} (ronin student), {妊婦|にんぷ} (pregnant woman), {手|て}ぶれ (camera shake), {根雪|ねゆき} (lingering snow), {駄賃|だちん} (small reward), {深緑|ふかみどり} (dark green), {今昔|こんじゃく} (past and present), {凶兆|きょうちょう} (bad omen), {球体|きゅうたい} (sphere), {什器|じゅうき} (fixtures), {進物|しんもつ} (formal gift), {空路|くうろ} (air route), {海路|かいろ} (sea route), {写|うつ}り (photo quality), {試写会|ししゃかい} (preview screening), {鍋蓋|なべぶた} (pot lid), {地肌|じはだ} (bare skin/texture)
+- Added 2 new kanji to index: 什, 弥
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 532)
 Added 30 new dictionary entries (IDs 20321-20350) from candidate_words.json. Diverse mix of practical vocabulary for intermediate learners.
 
@@ -87,16 +98,6 @@ Added 30 new dictionary entries (IDs 20231-20260) from candidate_words.json. Mix
 - **Adverb (1)**: {一向|いっこう} (not at all)
 - **Nouns (23)**: {体調不良|たいちょうふりょう} (feeling unwell), {本降|ほんぶ}り (steady rain), {悪酔|わるよ}い (bad drunkenness), {破格|はかく} (exceptional/bargain), {美容室|びようしつ} (beauty salon), {余生|よせい} (remaining years), {水|みず}しぶき (splash), {先方|せんぽう} (other party), {応接室|おうせつしつ} (reception room), {防寒着|ぼうかんぎ} (winter clothing), ぜんざい (sweet red bean soup), {崖崩|がけくず}れ (landslide), {試運転|しうんてん} (test run), {専業主夫|せんぎょうしゅふ} (househusband), {画材|がざい} (art supplies), {看板商品|かんばんしょうひん} (signature product), {黒髪|くろかみ} (black hair), {小袋|こぶくろ} (small bag), {冬|ふゆ}ごもり (winter seclusion), むなしさ (emptiness), {優越|ゆうえつ} (superiority), {素肌|すはだ} (bare skin), {麻婆豆腐|まーぼーどうふ} (mapo tofu)
 - Removed 1 stale candidate (連れ子 — already existed as entry with different reading)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 528)
-Added 30 new dictionary entries (IDs 20201-20230) from candidate_words.json. Mix of common suru-verbs, adjectives, and practical nouns for intermediate learners.
-
-- **Suru-verbs (9)**: {努力|どりょく}する (to make effort), {連絡|れんらく}する (to contact), {案内|あんない}する (to guide), {反応|はんのう}する (to react), {刺激|しげき}する (to stimulate), {移転|いてん}する (to relocate), {点灯|てんとう}する (to turn on light), {奉仕|ほうし}する (to serve), {合致|がっち}する (to match)
-- **Adjectives (4)**: {入念|にゅうねん} (thorough), {壊|こわ}れやすい (fragile), {物寂|ものさび}しい (lonely/desolate), {肥沃|ひよく} (fertile)
-- **Nouns (15)**: {職員|しょくいん} (staff member), {緊張感|きんちょうかん} (sense of tension), {前列|ぜんれつ} (front row), {後列|こうれつ} (back row), {納屋|なや} (barn/shed), {親元|おやもと} (parents' home), {内幕|ないまく} (inside story), {火元|ひもと} (origin of fire), {家具付|かぐつ}き (furnished), {川辺|かわべ} (riverbank), {岸辺|きしべ} (shore), {役立|やくだ}たず (good-for-nothing), {片目|かため} (one eye), {離宮|りきゅう} (detached palace), {牙城|がじょう} (stronghold)
-- **Verb (1)**: {看取|みと}る (to watch over a dying person)
-- **Noun/Adjective (1)**: {耳障|みみざわ}り (grating to hear)
 - Removed 30 candidates that now exist as entries
 
 ---
