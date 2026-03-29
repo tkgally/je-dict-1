@@ -4,6 +4,18 @@
   "reading": "おっしゃる",
   "part_of_speech": "godan verb",
   "gloss": "to say; to speak (honorific)",
+  "conjugation": {
+    "type": "godan",
+    "ending": "る",
+    "stem": "おっしゃ",
+    "overrides": {
+      "present_polite_affirmative": "おっしいます",
+      "past_polite_affirmative": "おっしいました",
+      "present_polite_negative": "おっしいません",
+      "past_polite_negative": "おっしいませんでした",
+      "volitional_polite": "おっしいましょう"
+    }
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -89,7 +101,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-03-26T06:22:34Z",
+    "modified": "2026-03-29T03:03:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -100,7 +112,8 @@
       "politeness": "honorific",
       "semantic": [
         "action"
-      ]
+      ],
+      "verb_class": "godan-ru"
     }
   }
 }
