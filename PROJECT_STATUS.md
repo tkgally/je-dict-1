@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 538)
+Added 30 new dictionary entries (IDs 20493-20522) from candidate_words.json. A diverse mix of practical vocabulary including mimetic adverbs, everyday nouns, cultural terms, and formal expressions.
+
+- **Adverbs (5)**: もりもり (heartily/vigorously), どっさり (in heaps), がっぽり (raking it in), みっちり (thoroughly/tightly packed), {目下|もっか} (at present)
+- **Nouns (25)**: {上質|じょうしつ} (high quality), {栄光|えいこう} (glory), {漁業|ぎょぎょう} (fishing industry), {切断|せつだん} (cutting/severing), {量販店|りょうはんてん} (mass retailer), {品行|ひんこう} (conduct), {岩石|がんせき} (rock), {入札|にゅうさつ} (bidding), {頓珍漢|とんちんかん} (nonsensical), {大理石|だいりせき} (marble), {付|つ}け{焼|や}き{刃|ば} (superficial knowledge), {多発|たはつ} (frequent occurrence), {招待券|しょうたいけん} (invitation ticket), {横長|よこなが} (landscape-oriented), {旧知|きゅうち} (old acquaintance), {清純|せいじゅん} (pure/innocent), {蛍光|けいこう} (fluorescence), {準急|じゅんきゅう} (semi-express), {万物|ばんぶつ} (all things), {数日|すうじつ} (several days), {位置|いち}づけ (positioning), {残響|ざんきょう} (reverberation), {弾劾|だんがい} (impeachment), {上水|じょうすい} (water supply), {歌人|かじん} (waka poet)
+- Added 1 new kanji to index: 劾
+- Removed 1 stale duplicate candidate (却下)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 537)
 Added 30 new dictionary entries (IDs 20463-20492) from candidate_words.json. A diverse mix of everyday vocabulary, cultural terms, and practical words for intermediate learners.
 
@@ -85,16 +94,6 @@ Added 22 new dictionary entries (IDs 20381-20402) from candidate_words.json. A d
 - Added 1 new kanji to index: 陵
 - Removed 22 candidates that now exist as entries
 
-### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 533)
-Added 30 new dictionary entries (IDs 20351-20380) from candidate_words.json. Diverse mix including cultural terms, common expressions, and practical vocabulary for intermediate learners.
-
-- **I-adjectives (3)**: {飽|あ}きっぽい (easily bored), {申|���う}し{訳|わけ}ない (sorry/inexcusable), {気前|きまえ}がいい (generous)
-- **Verbs (2)**: {乱読|らんどく}する (indiscriminate reading), {断|だん}ずる (to conclude decisively)
-- **Interjections (2)**: どれどれ (let me see), ううん (no, informal)
-- **Cultural/calendar terms (4)**: {弥生|やよい} (March), {如月|きさらぎ} (February), {神無月|かんなづき} (October), {立夏|りっか} (start of summer)
-- **Nouns (19)**: {私|わたし}{共|ども} (we, humble), {未知数|みちすう} (unknown quantity), {浪人生|ろうにんせい} (ronin student), {妊婦|にんぷ} (pregnant woman), {手|て}ぶれ (camera shake), {根雪|ねゆき} (lingering snow), {駄賃|だちん} (small reward), {深緑|ふかみどり} (dark green), {今昔|こんじゃく} (past and present), {凶兆|きょうちょう} (bad omen), {球体|きゅうたい} (sphere), {什器|じゅうき} (fixtures), {進物|しんもつ} (formal gift), {空路|くうろ} (air route), {海路|かいろ} (sea route), {写|うつ}り (photo quality), {試写会|ししゃかい} (preview screening), {鍋蓋|なべぶた} (pot lid), {地肌|じはだ} (bare skin/texture)
-- Added 2 new kanji to index: 什, 弥
-- Removed 30 candidates that now exist as entries
 
 ---
 
