@@ -399,6 +399,62 @@ main {
     margin-top: var(--spacing-sm);
 }
 
+/* Conjugation Table */
+.conjugation-details {
+    margin-top: var(--spacing-md);
+}
+
+.conjugation-details summary {
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    padding: var(--spacing-sm) 0;
+    user-select: none;
+}
+
+.conjugation-details summary:hover {
+    color: var(--color-accent);
+}
+
+.conjugation-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin-top: var(--spacing-sm);
+}
+
+.conjugation-table thead th {
+    text-align: left;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    padding: 0.3rem 0.5rem;
+    border-bottom: 2px solid var(--color-border);
+    font-size: 0.8rem;
+}
+
+.conjugation-table tbody tr {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.conjugation-table tbody tr.conj-group-end {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.conj-label {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    padding: 0.3rem 0.5rem;
+    white-space: nowrap;
+    width: 1%;
+}
+
+.conj-form {
+    font-family: var(--font-jp);
+    padding: 0.3rem 0.5rem;
+    line-height: 1.8;
+}
+
 /* Definitions */
 .definitions {
     margin-top: var(--spacing-lg);

@@ -6,16 +6,93 @@
   "gloss": "to do (honorific)",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "なさ",
-    "overrides": {
-      "present_polite_affirmative": "なさいます",
-      "past_polite_affirmative": "なさいました",
-      "present_polite_negative": "なさいません",
-      "past_polite_negative": "なさいませんでした",
-      "volitional_polite": "なさいましょう",
-      "imperative_affirmative": "なさい"
-    }
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "なさる",
+        "negative": "なさらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "なさいます",
+        "negative": "なさいません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "なさった",
+        "negative": "なさらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "なさいました",
+        "negative": "なさいませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "なさって",
+        "negative": "なさらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "なさっている",
+        "negative": "なさっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "なさっています",
+        "negative": "なさっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "なさっていた",
+        "negative": "なさっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "なさっていました",
+        "negative": "なさっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "なされば",
+        "negative": "なさらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "なさったら",
+        "negative": "なさらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "なさろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "なさいましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "なされる",
+        "negative": "なされない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "なさられる",
+        "negative": "なさられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "なさらせる",
+        "negative": "なさらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "なさい",
+        "negative": "なさるな"
+      }
+    ]
   },
   "definitions": [
     {

@@ -22,8 +22,8 @@ build/            # Python build, validation, and utility scripts
   build/update_kanji_index.py   # Rebuild kanji JSON files; --check-new finds new kanji
   build/validate_tags.py        # Validate semantic/POS tag consistency
   build/get_next_id.py          # Get next available entry ID (scans filesystem)
+  build/add_conjugations.py      # Add full conjugation tables to verb entries
   build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
-  build/add_conjugations.py    # Batch-add conjugation data to verb entries (--start N --end M [--dry-run])
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 polishing/        # Progress tracking for entry polishing tasks
@@ -56,6 +56,7 @@ Makefile               # Build runner (make validate, make build, make quick, et
 - New entries should include `"schema_version": "2.0"` in their metadata
 - All explanations must be in English — Japanese text appears only in example phrases, collocations, and patterns
 - Never add inline word links (⟦...⟧) during entry creation — those are added in a separate polishing step
+- **Verb entries must include a `conjugation` field** with all conjugated forms hard-coded in the JSON (see `verb-conjugations` skill). Use `python3 build/add_conjugations.py` to generate conjugation data after creating verb entries.
 - **Entry IDs must be unique.** Always run `python3 build/get_next_id.py` before creating each new entry to get the next available ID. This script scans the filesystem, so it is accurate even mid-session. Do not read `entries_index.json` or `PROJECT_CONTEXT_BRIEF.md` for the next ID — those may be stale. Do not reuse a previous result of `get_next_id.py` — run it fresh each time.
 - **Never renumber existing entries.** The five-digit IDs form part of the entry's URL on the live site. Changing an ID would break external links and search-engine indexes.
 
@@ -75,6 +76,12 @@ python3 build/check_duplicate.py "word" "reading"                # Check before 
 python3 build/check_duplicate.py --skip-candidates "word" "reading"  # When creating FROM candidates
 python3 build/get_entry_path.py <id> <romaji>       # Get correct file path for an entry
 python3 build/get_timestamp.py            # Get current UTC timestamp for metadata
+
+# Verb conjugation
+python3 build/add_conjugations.py                    # Add conjugation to all verbs (skips existing)
+python3 build/add_conjugations.py --start N --end M  # Process specific ID range
+python3 build/add_conjugations.py --dry-run          # Preview without writing
+python3 build/add_conjugations.py --force            # Overwrite existing conjugation data
 
 # Furigana and kanji
 python3 build/verify_furigana.py <id>     # Check furigana coverage for one entry
@@ -115,6 +122,7 @@ After creating new entries (used by newentries prompts):
 ```bash
 python3 build/validate.py                                # Fix any errors first
 python3 build/find_missing_furigana.py | head -60        # Check for missing furigana
+python3 build/add_conjugations.py                        # Add conjugation to any new verbs
 python3 build/update_indexes.py                          # Sync indexes and candidate list
 python3 build/update_kanji_index.py --check-new          # Check for new kanji needing IDs
 python3 build/build_flat.py                              # Rebuild the static site
@@ -151,7 +159,6 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_furigana_correctness.md` — verify existing furigana readings are correct
 - `polish_semantic_labels.md` — verify semantic tags match word meanings
 - `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
-- `polish_verb_conjugations.md` — add conjugation data to existing verb entries
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`.
 
@@ -160,8 +167,8 @@ Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (fo
 Detailed instructions for specific tasks live in `.claude/skills/`. Key ones:
 
 - `entry-guidelines` — quality standards, file placement, metadata, tags (start here)
-- `verb-entry` — transitivity, aspect/ている, particle patterns, conjugation field
-- `verb-conjugations` — conjugation table JSON structure, form generation rules
+- `verb-entry` — transitivity, aspect/ている, particle patterns
+- `verb-conjugations` — full conjugation table specification, form categories, generation rules
 - `adjective-entry` — forms, conjugations, predicate vs. modifier usage
 - `particle-entry` — predicate lists, particle contrasts, fixed patterns
 - `other-entries` — nouns, counters, adverbs, expressions

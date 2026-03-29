@@ -19,7 +19,9 @@
       "english": "The taste is not quite right.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10742_imahitotsu_ex2",
@@ -27,7 +29,9 @@
       "english": "I didn't quite understand the explanation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10742_imahitotsu_ex3",
@@ -35,7 +39,9 @@
       "english": "I had high expectations, but the movie was somewhat lacking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nいまひとつ is a polite, indirect way to express that something is not satisfactory. It avoids harsh criticism while clearly indicating that something falls short. Very useful in Japanese culture where direct negative statements are often avoided.\n\nVARIATIONS:\n- いまいち: casual shortened form with the same meaning, more common in everyday speech\n\nCOMMON COLLOCATIONS:\n- いまひとつ{足|た}りない: lacking just a little\n- いまひとつピンとこない: not quite clicking/resonating",
@@ -45,10 +51,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "adjective-na"],
+      "pos": [
+        "adverb",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ],
+      "verb_class": "godan-tsu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "いまひとつ",
+        "negative": "いまひとたない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "いまひとちます",
+        "negative": "いまひとちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "いまひとった",
+        "negative": "いまひとたなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "いまひとちました",
+        "negative": "いまひとちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "いまひとって",
+        "negative": "いまひとたなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "いまひとっている",
+        "negative": "いまひとっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "いまひとっています",
+        "negative": "いまひとっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "いまひとっていた",
+        "negative": "いまひとっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "いまひとっていました",
+        "negative": "いまひとっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "いまひとてば",
+        "negative": "いまひとたなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "いまひとったら",
+        "negative": "いまひとたなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "いまひととう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "いまひとちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "いまひとてる",
+        "negative": "いまひとてない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "いまひとたれる",
+        "negative": "いまひとたれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "いまひとたせる",
+        "negative": "いまひとたせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "いまひとて",
+        "negative": "いまひとつな"
+      }
+    ]
   }
 }

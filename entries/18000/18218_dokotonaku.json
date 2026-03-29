@@ -19,7 +19,9 @@
       "english": "There's a somehow lonely atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18218_dokotonaku_ex2",
@@ -27,7 +29,9 @@
       "english": "Those two somehow resemble each other.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18218_dokotonaku_ex3",
@@ -35,7 +39,9 @@
       "english": "He seemed somehow lacking in energy today, so I tried talking to him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nLiterally 'from no particular place.' Often modifies adjectives and verbs of perception. Conveys a subtle, intuitive impression rather than a clear observation. Common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- どことなく{似|に}ている (somehow resembling)\n- どことなく{寂|さび}しい (somehow lonely)\n- どことなく{懐|なつ}かしい (somehow nostalgic)\n- どことなく{不安|ふあん}な (somehow uneasy)\n\nSIMILAR WORDS:\n- なんとなく: somehow, for no particular reason — very similar but slightly more casual; often implies doing something without clear intent\n- どこか: somewhere; in some way — can overlap in meaning but is broader in usage",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition", "descriptive"]
+      "semantic": [
+        "cognition",
+        "descriptive"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "どことなく",
+        "negative": "どことなかない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "どことなきます",
+        "negative": "どことなきません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "どことないた",
+        "negative": "どことなかなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "どことなきました",
+        "negative": "どことなきませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "どことないて",
+        "negative": "どことなかなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "どことないている",
+        "negative": "どことないていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "どことないています",
+        "negative": "どことないていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "どことないていた",
+        "negative": "どことないていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "どことないていました",
+        "negative": "どことないていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "どことなけば",
+        "negative": "どことなかなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "どことないたら",
+        "negative": "どことなかなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "どことなこう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "どことなきましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "どことなける",
+        "negative": "どことなけない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "どことなかれる",
+        "negative": "どことなかれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "どことなかせる",
+        "negative": "どことなかせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "どことなけ",
+        "negative": "どことなくな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Thank you for waiting so long. (Sorry to have kept you waiting.)",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14592_nagaraku_ex2",
@@ -27,7 +29,9 @@
       "english": "Thank you for your long patronage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14592_nagaraku_ex3",
@@ -35,7 +39,9 @@
       "english": "We have been in business for a long time, but we will be closing at the end of this month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{長|なが}らく is a formal, polite adverb often used in set phrases expressing gratitude or apology for something that has lasted a long time. It is very common in customer service, business, and ceremonial language.\n\nCOMMON COLLOCATIONS:\n- {長|なが}らくお{待|ま}たせしました (sorry to have kept you waiting)\n- {長|なが}らくご{愛顧|あいこ}いただき (thank you for your long patronage)\n- {長|なが}らくお{世話|せわ}になりました (thank you for your support over the years)\n\nSIMILAR WORDS:\n- {長|なが}らく: for a long time (formal, polite)\n- {長|なが}い{間|あいだ}: for a long time (neutral, everyday)\n- ずっと: all along, the whole time (casual, emphasizes continuity)",
@@ -46,10 +52,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{長|なが}らく",
+        "negative": "{長|なが}らかない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{長|なが}らきます",
+        "negative": "{長|なが}らきません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{長|なが}らいた",
+        "negative": "{長|なが}らかなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{長|なが}らきました",
+        "negative": "{長|なが}らきませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{長|なが}らいて",
+        "negative": "{長|なが}らかなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{長|なが}らいている",
+        "negative": "{長|なが}らいていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{長|なが}らいています",
+        "negative": "{長|なが}らいていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{長|なが}らいていた",
+        "negative": "{長|なが}らいていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{長|なが}らいていました",
+        "negative": "{長|なが}らいていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{長|なが}らけば",
+        "negative": "{長|なが}らかなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{長|なが}らいたら",
+        "negative": "{長|なが}らかなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{長|なが}らこう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{長|なが}らきましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{長|なが}らける",
+        "negative": "{長|なが}らけない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{長|なが}らかれる",
+        "negative": "{長|なが}らかれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{長|なが}らかせる",
+        "negative": "{長|なが}らかせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{長|なが}らけ",
+        "negative": "{長|なが}らくな"
+      }
+    ]
   }
 }

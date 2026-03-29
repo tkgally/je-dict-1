@@ -6,16 +6,93 @@
   "gloss": "to give (honorific); to do for me (honorific)",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "くださ",
-    "overrides": {
-      "present_polite_affirmative": "くださいます",
-      "past_polite_affirmative": "くださいました",
-      "present_polite_negative": "くださいません",
-      "past_polite_negative": "くださいませんでした",
-      "volitional_polite": "くださいましょう",
-      "imperative_affirmative": "ください"
-    }
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "くださる",
+        "negative": "くださらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "くださいます",
+        "negative": "くださいません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "くださった",
+        "negative": "くださらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "くださいました",
+        "negative": "くださいませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "くださって",
+        "negative": "くださらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "くださっている",
+        "negative": "くださっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "くださっています",
+        "negative": "くださっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "くださっていた",
+        "negative": "くださっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "くださっていました",
+        "negative": "くださっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "くだされば",
+        "negative": "くださらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "くださったら",
+        "negative": "くださらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "くださろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "くださいましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "くだされる",
+        "negative": "くだされない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "くださられる",
+        "negative": "くださられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "くださらせる",
+        "negative": "くださらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ください",
+        "negative": "くださるな"
+      }
+    ]
   },
   "definitions": [
     {

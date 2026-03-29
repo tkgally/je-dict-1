@@ -76,234 +76,9 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 </head>'''
 
 
-# ── Verb conjugation table generation ──────────────────────────────────────
-
-# Godan vowel rows keyed by dictionary-form ending kana
-_GODAN_ROWS = {
-    #  ending:  (a-row,   i-row,   u-row,  e-row,  o-row,  te/ta-base)
-    'う': ('わ', 'い', 'う', 'え', 'お', 'っ'),
-    'く': ('か', 'き', 'く', 'け', 'こ', 'い'),
-    'ぐ': ('が', 'ぎ', 'ぐ', 'げ', 'ご', 'い'),
-    'す': ('さ', 'し', 'す', 'せ', 'そ', 'し'),
-    'つ': ('た', 'ち', 'つ', 'て', 'と', 'っ'),
-    'ぬ': ('な', 'に', 'ぬ', 'ね', 'の', 'ん'),
-    'ぶ': ('ば', 'び', 'ぶ', 'べ', 'ぼ', 'ん'),
-    'む': ('ま', 'み', 'む', 'め', 'も', 'ん'),
-    'る': ('ら', 'り', 'る', 'れ', 'ろ', 'っ'),
-}
-
-# te/ta suffix depends on ending
-_GODAN_TE_TA = {
-    'う': ('て', 'た'),   'く': ('て', 'た'),   'ぐ': ('で', 'だ'),
-    'す': ('て', 'た'),   'つ': ('て', 'た'),   'ぬ': ('で', 'だ'),
-    'ぶ': ('で', 'だ'),   'む': ('で', 'だ'),   'る': ('て', 'た'),
-}
-
-
-def _generate_godan_forms(stem: str, ending: str, overrides: dict) -> list:
-    """Generate all conjugation forms for a godan verb."""
-    a, i, _u, e, o, te_base = _GODAN_ROWS[ending]
-    te_suf, ta_suf = _GODAN_TE_TA[ending]
-
-    te = f'{stem}{te_base}{te_suf}'
-    ta = f'{stem}{te_base}{ta_suf}'
-
-    def ov(key, default):
-        return overrides.get(key, default)
-
-    return [
-        # Group 1: Basic forms
-        ('Present', ov('present_affirmative', f'{stem}{ending}'),
-                    ov('present_negative', f'{stem}{a}ない')),
-        ('Present polite', ov('present_polite_affirmative', f'{stem}{i}ます'),
-                           ov('present_polite_negative', f'{stem}{i}ません')),
-        ('Past', ov('past_affirmative', ta),
-                 ov('past_negative', f'{stem}{a}なかった')),
-        ('Past polite', ov('past_polite_affirmative', f'{stem}{i}ました'),
-                        ov('past_polite_negative', f'{stem}{i}ませんでした')),
-        ('て form', ov('te_affirmative', te),
-                    ov('te_negative', f'{stem}{a}なくて')),
-        # Group 2: Progressive (ている)
-        ('ている present', ov('progressive_present_affirmative', f'{te}いる'),
-                           ov('progressive_present_negative', f'{te}いない')),
-        ('ている polite', ov('progressive_present_polite_affirmative', f'{te}います'),
-                          ov('progressive_present_polite_negative', f'{te}いません')),
-        ('ている past', ov('progressive_past_affirmative', f'{te}いた'),
-                        ov('progressive_past_negative', f'{te}いなかった')),
-        ('ている past polite', ov('progressive_past_polite_affirmative', f'{te}いました'),
-                               ov('progressive_past_polite_negative', f'{te}いませんでした')),
-        # Group 3: Conditional
-        ('Conditional ば', ov('conditional_ba_affirmative', f'{stem}{e}ば'),
-                          ov('conditional_ba_negative', f'{stem}{a}なければ')),
-        ('Conditional たら', ov('conditional_tara_affirmative', f'{ta}ら'),
-                            ov('conditional_tara_negative', f'{stem}{a}なかったら')),
-        # Group 4: Volitional
-        ('Volitional', ov('volitional_affirmative', f'{stem}{o}う'), None),
-        ('Volitional polite', ov('volitional_polite', f'{stem}{i}ましょう'), None),
-        # Group 5: Other forms
-        ('Potential', ov('potential_affirmative', f'{stem}{e}る'),
-                      ov('potential_negative', f'{stem}{e}ない')),
-        ('Passive', ov('passive_affirmative', f'{stem}{a}れる'),
-                    ov('passive_negative', f'{stem}{a}れない')),
-        ('Causative', ov('causative_affirmative', f'{stem}{a}せる'),
-                      ov('causative_negative', f'{stem}{a}せない')),
-        ('Imperative', ov('imperative_affirmative', f'{stem}{e}'),
-                       ov('imperative_negative', f'{stem}{ending}な')),
-    ]
-
-
-def _generate_ichidan_forms(stem: str, overrides: dict) -> list:
-    """Generate all conjugation forms for an ichidan verb."""
-    def ov(key, default):
-        return overrides.get(key, default)
-
-    return [
-        ('Present', ov('present_affirmative', f'{stem}る'),
-                    ov('present_negative', f'{stem}ない')),
-        ('Present polite', ov('present_polite_affirmative', f'{stem}ます'),
-                           ov('present_polite_negative', f'{stem}ません')),
-        ('Past', ov('past_affirmative', f'{stem}た'),
-                 ov('past_negative', f'{stem}なかった')),
-        ('Past polite', ov('past_polite_affirmative', f'{stem}ました'),
-                        ov('past_polite_negative', f'{stem}ませんでした')),
-        ('て form', ov('te_affirmative', f'{stem}て'),
-                    ov('te_negative', f'{stem}なくて')),
-        ('ている present', ov('progressive_present_affirmative', f'{stem}ている'),
-                           ov('progressive_present_negative', f'{stem}ていない')),
-        ('ている polite', ov('progressive_present_polite_affirmative', f'{stem}ています'),
-                          ov('progressive_present_polite_negative', f'{stem}ていません')),
-        ('ている past', ov('progressive_past_affirmative', f'{stem}ていた'),
-                        ov('progressive_past_negative', f'{stem}ていなかった')),
-        ('ている past polite', ov('progressive_past_polite_affirmative', f'{stem}ていました'),
-                               ov('progressive_past_polite_negative', f'{stem}ていませんでした')),
-        ('Conditional ば', ov('conditional_ba_affirmative', f'{stem}れば'),
-                          ov('conditional_ba_negative', f'{stem}なければ')),
-        ('Conditional たら', ov('conditional_tara_affirmative', f'{stem}たら'),
-                            ov('conditional_tara_negative', f'{stem}なかったら')),
-        ('Volitional', ov('volitional_affirmative', f'{stem}よう'), None),
-        ('Volitional polite', ov('volitional_polite', f'{stem}ましょう'), None),
-        ('Potential', ov('potential_affirmative', f'{stem}られる'),
-                      ov('potential_negative', f'{stem}られない')),
-        ('Passive', ov('passive_affirmative', f'{stem}られる'),
-                    ov('passive_negative', f'{stem}られない')),
-        ('Causative', ov('causative_affirmative', f'{stem}させる'),
-                      ov('causative_negative', f'{stem}させない')),
-        ('Imperative', ov('imperative_affirmative', f'{stem}ろ'),
-                       ov('imperative_negative', f'{stem}るな')),
-    ]
-
-
-def _generate_suru_forms(prefix: str, overrides: dict) -> list:
-    """Generate all conjugation forms for a する verb."""
-    p = prefix
-
-    def ov(key, default):
-        return overrides.get(key, default)
-
-    return [
-        ('Present', ov('present_affirmative', f'{p}する'),
-                    ov('present_negative', f'{p}しない')),
-        ('Present polite', ov('present_polite_affirmative', f'{p}します'),
-                           ov('present_polite_negative', f'{p}しません')),
-        ('Past', ov('past_affirmative', f'{p}した'),
-                 ov('past_negative', f'{p}しなかった')),
-        ('Past polite', ov('past_polite_affirmative', f'{p}しました'),
-                        ov('past_polite_negative', f'{p}しませんでした')),
-        ('て form', ov('te_affirmative', f'{p}して'),
-                    ov('te_negative', f'{p}しなくて')),
-        ('ている present', ov('progressive_present_affirmative', f'{p}している'),
-                           ov('progressive_present_negative', f'{p}していない')),
-        ('ている polite', ov('progressive_present_polite_affirmative', f'{p}しています'),
-                          ov('progressive_present_polite_negative', f'{p}していません')),
-        ('ている past', ov('progressive_past_affirmative', f'{p}していた'),
-                        ov('progressive_past_negative', f'{p}していなかった')),
-        ('ている past polite', ov('progressive_past_polite_affirmative', f'{p}していました'),
-                               ov('progressive_past_polite_negative', f'{p}していませんでした')),
-        ('Conditional ば', ov('conditional_ba_affirmative', f'{p}すれば'),
-                          ov('conditional_ba_negative', f'{p}しなければ')),
-        ('Conditional たら', ov('conditional_tara_affirmative', f'{p}したら'),
-                            ov('conditional_tara_negative', f'{p}しなかったら')),
-        ('Volitional', ov('volitional_affirmative', f'{p}しよう'), None),
-        ('Volitional polite', ov('volitional_polite', f'{p}しましょう'), None),
-        ('Potential', ov('potential_affirmative', f'{p}できる'),
-                      ov('potential_negative', f'{p}できない')),
-        ('Passive', ov('passive_affirmative', f'{p}される'),
-                    ov('passive_negative', f'{p}されない')),
-        ('Causative', ov('causative_affirmative', f'{p}させる'),
-                      ov('causative_negative', f'{p}させない')),
-        ('Imperative', ov('imperative_affirmative', f'{p}しろ'),
-                       ov('imperative_negative', f'{p}するな')),
-    ]
-
-
-def _generate_kuru_forms(prefix: str, overrides: dict) -> list:
-    """Generate all conjugation forms for a 来る verb."""
-    p = prefix
-
-    def ov(key, default):
-        return overrides.get(key, default)
-
-    return [
-        ('Present', ov('present_affirmative', f'{p}{{来|く}}る'),
-                    ov('present_negative', f'{p}{{来|こ}}ない')),
-        ('Present polite', ov('present_polite_affirmative', f'{p}{{来|き}}ます'),
-                           ov('present_polite_negative', f'{p}{{来|き}}ません')),
-        ('Past', ov('past_affirmative', f'{p}{{来|き}}た'),
-                 ov('past_negative', f'{p}{{来|こ}}なかった')),
-        ('Past polite', ov('past_polite_affirmative', f'{p}{{来|き}}ました'),
-                        ov('past_polite_negative', f'{p}{{来|き}}ませんでした')),
-        ('て form', ov('te_affirmative', f'{p}{{来|き}}て'),
-                    ov('te_negative', f'{p}{{来|こ}}なくて')),
-        ('ている present', ov('progressive_present_affirmative', f'{p}{{来|き}}ている'),
-                           ov('progressive_present_negative', f'{p}{{来|き}}ていない')),
-        ('ている polite', ov('progressive_present_polite_affirmative', f'{p}{{来|き}}ています'),
-                          ov('progressive_present_polite_negative', f'{p}{{来|き}}ていません')),
-        ('ている past', ov('progressive_past_affirmative', f'{p}{{来|き}}ていた'),
-                        ov('progressive_past_negative', f'{p}{{来|き}}ていなかった')),
-        ('ている past polite', ov('progressive_past_polite_affirmative', f'{p}{{来|き}}ていました'),
-                               ov('progressive_past_polite_negative', f'{p}{{来|き}}ていませんでした')),
-        ('Conditional ば', ov('conditional_ba_affirmative', f'{p}{{来|く}}れば'),
-                          ov('conditional_ba_negative', f'{p}{{来|こ}}なければ')),
-        ('Conditional たら', ov('conditional_tara_affirmative', f'{p}{{来|き}}たら'),
-                            ov('conditional_tara_negative', f'{p}{{来|こ}}なかったら')),
-        ('Volitional', ov('volitional_affirmative', f'{p}{{来|こ}}よう'), None),
-        ('Volitional polite', ov('volitional_polite', f'{p}{{来|き}}ましょう'), None),
-        ('Potential', ov('potential_affirmative', f'{p}{{来|こ}}られる'),
-                      ov('potential_negative', f'{p}{{来|こ}}られない')),
-        ('Passive', ov('passive_affirmative', f'{p}{{来|こ}}られる'),
-                    ov('passive_negative', f'{p}{{来|こ}}られない')),
-        ('Causative', ov('causative_affirmative', f'{p}{{来|こ}}させる'),
-                      ov('causative_negative', f'{p}{{来|こ}}させない')),
-        ('Imperative', ov('imperative_affirmative', f'{p}{{来|こ}}い'),
-                       ov('imperative_negative', f'{p}{{来|く}}るな')),
-    ]
-
-
-def _generate_aru_forms(overrides: dict) -> list:
-    """Generate conjugation forms for ある (limited set)."""
-    def ov(key, default):
-        return overrides.get(key, default)
-
-    return [
-        ('Present', ov('present_affirmative', 'ある'),
-                    ov('present_negative', 'ない')),
-        ('Present polite', ov('present_polite_affirmative', 'あります'),
-                           ov('present_polite_negative', 'ありません')),
-        ('Past', ov('past_affirmative', 'あった'),
-                 ov('past_negative', 'なかった')),
-        ('Past polite', ov('past_polite_affirmative', 'ありました'),
-                        ov('past_polite_negative', 'ありませんでした')),
-        ('て form', ov('te_affirmative', 'あって'),
-                    ov('te_negative', 'なくて')),
-        ('Conditional ば', ov('conditional_ba_affirmative', 'あれば'),
-                          ov('conditional_ba_negative', 'なければ')),
-        ('Conditional たら', ov('conditional_tara_affirmative', 'あったら'),
-                            ov('conditional_tara_negative', 'なかったら')),
-    ]
-
+# ── Conjugation table rendering ──────────────────────────────────────────
 
 # Row group boundaries for visual separators in the table.
-# After these row labels, a group-separator class is added.
 _GROUP_LAST_ROWS = {'て form', 'ている past polite', 'Conditional たら', 'Volitional polite'}
 
 
@@ -311,45 +86,19 @@ def generate_conjugation_html(conjugation: dict) -> str:
     """
     Generate the <details> HTML block for a verb conjugation table.
 
-    Args:
-        conjugation: The conjugation object from the entry JSON.
-
-    Returns:
-        HTML string for the conjugation details block, or empty string if
-        the conjugation data is invalid.
+    Reads pre-computed forms from the entry's conjugation.forms array.
+    Each form has: label, affirmative, negative (may be null).
     """
-    conj_type = conjugation.get('type', '')
-    overrides = conjugation.get('overrides', {})
-
-    if conj_type == 'godan':
-        ending = conjugation.get('ending', '')
-        stem = conjugation.get('stem', '')
-        if not ending or ending not in _GODAN_ROWS or stem is None:
-            return ''
-        forms = _generate_godan_forms(stem, ending, overrides)
-    elif conj_type == 'ichidan':
-        stem = conjugation.get('stem', '')
-        if stem is None:
-            return ''
-        forms = _generate_ichidan_forms(stem, overrides)
-    elif conj_type == 'suru':
-        prefix = conjugation.get('prefix', '')
-        if prefix is None:
-            return ''
-        forms = _generate_suru_forms(prefix, overrides)
-    elif conj_type == 'kuru':
-        prefix = conjugation.get('prefix', '')
-        if prefix is None:
-            return ''
-        forms = _generate_kuru_forms(prefix, overrides)
-    elif conj_type == 'aru':
-        forms = _generate_aru_forms(overrides)
-    else:
+    forms = conjugation.get('forms', [])
+    if not forms:
         return ''
 
-    # Build table rows
     rows = []
-    for label, aff, neg in forms:
+    for form in forms:
+        label = form.get('label', '')
+        aff = form.get('affirmative', '')
+        neg = form.get('negative')
+
         aff_html = process_furigana(aff) if aff else ''
         neg_html = process_furigana(neg) if neg else '—'
         group_end = ' class="conj-group-end"' if label in _GROUP_LAST_ROWS else ''
@@ -595,12 +344,10 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         html_parts.append(', '.join(ref_links))
         html_parts.append('</div>')
 
-    # Conjugation table (verbs only — inside entry-header, after gloss/cross-refs)
+    # Conjugation table (for verb entries with pre-computed forms)
     conjugation = entry.get('conjugation')
-    if conjugation:
-        conj_html = generate_conjugation_html(conjugation)
-        if conj_html:
-            html_parts.append(conj_html)
+    if conjugation and conjugation.get('forms'):
+        html_parts.append(generate_conjugation_html(conjugation))
 
     html_parts.append('</div>')  # Close entry-header
 

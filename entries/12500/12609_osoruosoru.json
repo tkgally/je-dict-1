@@ -19,7 +19,9 @@
       "english": "I timidly opened the door.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12609_osoruosoru_ex2",
@@ -27,7 +29,9 @@
       "english": "I nervously asked the teacher a question.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12609_osoruosoru_ex3",
@@ -35,7 +39,9 @@
       "english": "I gingerly brought the unfamiliar dish to my mouth, but it was surprisingly delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\nA reduplication of {恐|おそ}る, the classical attributive form of {恐|おそ}れる (to fear). The repetition intensifies the sense of timidity and hesitation.\n\nUSAGE:\nDescribes the manner of doing something — always modifies a verb. The fear involved is usually mild or everyday (nervousness, anxiety, apprehension) rather than extreme terror. Often used in lighthearted or relatable contexts.\n\nCOMMON COLLOCATIONS:\n- {恐|おそ}る{恐|おそ}る{聞|き}く: to ask nervously\n- {恐|おそ}る{恐|おそ}る{触|さわ}る: to touch gingerly\n- {恐|おそ}る{恐|おそ}る{覗|のぞ}く: to peek timidly",
@@ -46,10 +52,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{恐|おそ}る{恐|おそ}る",
+        "negative": "{恐|おそ}る{恐|おそ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{恐|おそ}る{恐|おそ}ります",
+        "negative": "{恐|おそ}る{恐|おそ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{恐|おそ}る{恐|おそ}った",
+        "negative": "{恐|おそ}る{恐|おそ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{恐|おそ}る{恐|おそ}りました",
+        "negative": "{恐|おそ}る{恐|おそ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{恐|おそ}る{恐|おそ}って",
+        "negative": "{恐|おそ}る{恐|おそ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{恐|おそ}る{恐|おそ}っている",
+        "negative": "{恐|おそ}る{恐|おそ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{恐|おそ}る{恐|おそ}っています",
+        "negative": "{恐|おそ}る{恐|おそ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{恐|おそ}る{恐|おそ}っていた",
+        "negative": "{恐|おそ}る{恐|おそ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{恐|おそ}る{恐|おそ}っていました",
+        "negative": "{恐|おそ}る{恐|おそ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{恐|おそ}る{恐|おそ}れば",
+        "negative": "{恐|おそ}る{恐|おそ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{恐|おそ}る{恐|おそ}ったら",
+        "negative": "{恐|おそ}る{恐|おそ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{恐|おそ}る{恐|おそ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{恐|おそ}る{恐|おそ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{恐|おそ}る{恐|おそ}れる",
+        "negative": "{恐|おそ}る{恐|おそ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{恐|おそ}る{恐|おそ}られる",
+        "negative": "{恐|おそ}る{恐|おそ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{恐|おそ}る{恐|おそ}らせる",
+        "negative": "{恐|おそ}る{恐|おそ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{恐|おそ}る{恐|おそ}れ",
+        "negative": "{恐|おそ}る{恐|おそ}るな"
+      }
+    ]
   }
 }

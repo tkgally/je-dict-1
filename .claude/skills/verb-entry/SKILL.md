@@ -11,34 +11,9 @@ When creating or revising VERB entries, include all of the following:
 
 ## Conjugation Field (REQUIRED)
 
-Every verb entry must include a `conjugation` field in the entry JSON. See the `verb-conjugations` skill for the full specification.
+Every verb entry must include a `conjugation` field with the full set of conjugated forms. See the `verb-conjugations` skill for the complete specification.
 
-**Place the field after `gloss` and before `definitions`.**
-
-Quick examples by verb class:
-
-```json
-// Godan: 書く
-"conjugation": { "type": "godan", "ending": "く", "stem": "{書|か}" }
-
-// Ichidan: 食べる
-"conjugation": { "type": "ichidan", "stem": "{食|た}べ" }
-
-// する verb: 勉強する
-"conjugation": { "type": "suru", "prefix": "{勉強|べんきょう}" }
-
-// 来る
-"conjugation": { "type": "kuru", "prefix": "" }
-
-// ある
-"conjugation": { "type": "aru" }
-```
-
-**Determining the stem**: The stem is everything before the conjugating ending, with furigana. For 話す, stem is `{話|はな}` and ending is `す`. For 食べる (ichidan), stem is `{食|た}べ`. For する verbs, prefix is the noun part.
-
-**Irregular verbs**: Add `"overrides": {...}` for non-standard forms (e.g., 行く has irregular て/た forms). See verb-conjugations skill for override keys.
-
-**Also set `verb_class` tag**: When adding conjugation, ensure `metadata.tags.verb_class` is set (e.g., `"godan-ku"`, `"ichidan"`, `"suru"`).
+After creating a verb entry, run `python3 build/add_conjugations.py` to generate the conjugation data, or include it directly. Also ensure `metadata.tags.verb_class` is set (e.g., `"godan-ku"`, `"ichidan"`, `"suru"`).
 
 ## Required Sections (HIGH PRIORITY)
 
@@ -192,11 +167,10 @@ All verb entries must include these tags in `metadata.tags`:
 
 ## Quality Checklist for Verbs
 
-- [ ] **Conjugation field present** with correct type, stem/ending/prefix
-- [ ] **verb_class tag set** in metadata.tags (e.g., godan-ku, ichidan, suru)
 - [ ] **All kanji have furigana** (headword, examples, AND notes)
 - [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
-- [ ] **Tags complete**: pos, transitivity, formality, politeness, semantic
+- [ ] **Tags complete**: pos, transitivity, verb_class, formality, politeness, semantic
+- [ ] **Conjugation field present** with full forms (see `verb-conjugations` skill)
 - [ ] Transitivity clearly marked (自動詞/他動詞)
 - [ ] Pair verb identified (if exists)
 - [ ] Aspect/ている behavior explained
