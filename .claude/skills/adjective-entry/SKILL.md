@@ -180,7 +180,8 @@ All adjective entries must include these tags in `metadata.tags`:
 - [ ] **Tags complete**: pos, formality, politeness, semantic
 - [ ] Part of speech correctly identified (i-adj vs. na-adj)
 - [ ] Adverbial form provided
-- [ ] Key conjugations shown
+- [ ] **I-adjective**: `conjugation` field present with 6 forms (run `add_adjective_conjugations.py` or include directly)
+- [ ] **Na-adjective**: Conjugation shown in notes (negative, te-form, past)
 - [ ] Similar words distinguished (if applicable)
 - [ ] Examples show both predicate and modifier uses
 - [ ] Register noted if not neutral

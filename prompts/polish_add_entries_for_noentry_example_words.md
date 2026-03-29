@@ -159,6 +159,8 @@ After processing all words (or a batch, if stopping mid-list):
 ```bash
 python3 build/validate.py                          # Fix any errors before continuing
 python3 build/find_missing_furigana.py | head -60   # Check for missing furigana
+python3 build/add_conjugations.py                   # Add conjugation to any new verbs
+python3 build/add_adjective_conjugations.py         # Add conjugation to any new i-adjectives
 python3 build/update_indexes.py                     # Sync indexes and candidate list
 python3 build/update_kanji_index.py --check-new     # Check for new kanji needing IDs
 python3 build/build_flat.py                         # Rebuild the static site

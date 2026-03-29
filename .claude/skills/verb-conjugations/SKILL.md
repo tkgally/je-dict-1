@@ -1,6 +1,6 @@
 ---
 name: verb-conjugations
-description: Full conjugation table specification for verb entries. Covers JSON structure, form categories, and generation rules for all verb classes.
+description: Full conjugation table specification for verb and i-adjective entries. Covers JSON structure, form categories, and generation rules for all verb classes and i-adjectives.
 ---
 
 # Verb Conjugation Tables

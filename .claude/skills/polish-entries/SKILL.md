@@ -107,6 +107,10 @@ At session end, update:
 python3 build/validate.py
 python3 build/validate_tags.py
 
+# Add conjugation to any verbs/i-adjectives missing it
+python3 build/add_conjugations.py
+python3 build/add_adjective_conjugations.py
+
 # Update indexes if entries changed
 python3 build/update_indexes.py
 
