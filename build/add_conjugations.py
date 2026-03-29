@@ -158,6 +158,34 @@ def _generate_kuru_forms(prefix: str) -> list:
     ]
 
 
+def _generate_zuru_forms(stem: str) -> list:
+    """Generate all conjugation forms for a ずる verb (e.g., 断ずる → 断じる).
+
+    ずる verbs are classical forms that conjugate with a じ stem in modern Japanese.
+    The stem parameter is the part before ずる (e.g., {断|だん} for 断ずる).
+    """
+    s = stem
+    return [
+        {'label': 'Present', 'affirmative': f'{s}じる', 'negative': f'{s}じない'},
+        {'label': 'Present polite', 'affirmative': f'{s}じます', 'negative': f'{s}じません'},
+        {'label': 'Past', 'affirmative': f'{s}じた', 'negative': f'{s}じなかった'},
+        {'label': 'Past polite', 'affirmative': f'{s}じました', 'negative': f'{s}じませんでした'},
+        {'label': 'て form', 'affirmative': f'{s}じて', 'negative': f'{s}じなくて'},
+        {'label': 'ている present', 'affirmative': f'{s}じている', 'negative': f'{s}じていない'},
+        {'label': 'ている polite', 'affirmative': f'{s}じています', 'negative': f'{s}じていません'},
+        {'label': 'ている past', 'affirmative': f'{s}じていた', 'negative': f'{s}じていなかった'},
+        {'label': 'ている past polite', 'affirmative': f'{s}じていました', 'negative': f'{s}じていませんでした'},
+        {'label': 'Conditional ば', 'affirmative': f'{s}じれば', 'negative': f'{s}じなければ'},
+        {'label': 'Conditional たら', 'affirmative': f'{s}じたら', 'negative': f'{s}じなかったら'},
+        {'label': 'Volitional', 'affirmative': f'{s}じよう', 'negative': None},
+        {'label': 'Volitional polite', 'affirmative': f'{s}じましょう', 'negative': None},
+        {'label': 'Potential', 'affirmative': f'{s}じられる', 'negative': f'{s}じられない'},
+        {'label': 'Passive', 'affirmative': f'{s}じられる', 'negative': f'{s}じられない'},
+        {'label': 'Causative', 'affirmative': f'{s}じさせる', 'negative': f'{s}じさせない'},
+        {'label': 'Imperative', 'affirmative': f'{s}じろ', 'negative': f'{s}じるな'},
+    ]
+
+
 def _generate_aru_forms() -> list:
     """Generate conjugation forms for ある (limited set — no passive/causative/etc.)."""
     return [
@@ -233,6 +261,13 @@ def _detect_verb_type(entry: dict) -> tuple:
         else:
             prefix = ''
         return 'kuru', {'prefix': prefix}
+
+    # Detect ずる verbs (e.g., 断ずる, 感ずる) — must come before ichidan
+    # These are classical verbs that conjugate with a じ stem in modern Japanese.
+    if reading.endswith('ずる') or 'ずる' in pos:
+        stem = _strip_suffix_from_headword(headword, 'ずる')
+        if stem != headword:
+            return 'zuru', {'stem': stem}
 
     # Detect ichidan verbs
     if ('ichidan' in pos or 'verb-ichidan' in pos_tags
@@ -367,6 +402,8 @@ def generate_conjugation(entry: dict) -> dict:
         forms = _generate_godan_forms(details['stem'], details['ending'], is_iku=is_iku)
     elif verb_type == 'ichidan':
         forms = _generate_ichidan_forms(details['stem'])
+    elif verb_type == 'zuru':
+        forms = _generate_zuru_forms(details['stem'])
     elif verb_type == 'suru':
         forms = _generate_suru_forms(details['prefix'])
     elif verb_type == 'kuru':
@@ -400,6 +437,8 @@ def _infer_verb_class_tag(verb_type: str, details: dict) -> str:
         }
         return ending_map.get(ending, '')
     elif verb_type == 'ichidan':
+        return 'ichidan'
+    elif verb_type == 'zuru':
         return 'ichidan'
     elif verb_type == 'suru':
         return 'suru'
