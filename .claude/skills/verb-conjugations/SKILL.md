@@ -105,10 +105,10 @@ Override keys correspond to table cells. Use overrides sparingly — only for ge
 | Verb | Issue | Override needed |
 |------|-------|-----------------|
 | {行|い}く | て/た form uses って/った (not いて/いた) | te, past, progressive, conditional たら forms |
-| いらっしゃる | ます form is いらっしゃいます (not いらっしゃります) | present_polite, past_polite, volitional_polite |
-| おっしゃる | ます form is おっしゃいます | present_polite, past_polite, volitional_polite |
-| くださる | ます form is くださいます | present_polite, past_polite, volitional_polite |
-| なさる | ます form is なさいます | present_polite, past_polite, volitional_polite |
+| いらっしゃる | ます form is いらっしゃいます; imperative is いらっしゃい | present_polite, past_polite, volitional_polite, imperative |
+| おっしゃる | ます form is おっしゃいます; imperative is おっしゃい | present_polite, past_polite, volitional_polite, imperative |
+| くださる | ます form is くださいます; imperative is ください | present_polite, past_polite, volitional_polite, imperative |
+| なさる | ます form is なさいます; imperative is なさい | present_polite, past_polite, volitional_polite, imperative |
 | ある | Negative is ない; no progressive/potential/passive/causative | Use type `"aru"` |
 | くれる | Imperative is くれ (not くれろ) | imperative_affirmative |
 
@@ -141,6 +141,35 @@ Example override for a passive-form headword:
 - Verb stem + れる/られる (passive of godan/ichidan verbs)
 - Spontaneous forms that are lexicalized as standalone verbs (e.g., 埋もれる, 崩れる)
 - Honorific ～れる forms (e.g., おられる)
+
+#### Potential/Spontaneous-Form Headwords
+
+Some entries are already potential or spontaneous forms. Their "potential" and "passive" rows should be suppressed since forms like 見えられる or できられる are unnatural.
+
+| Entry | Headword | Why potential/passive is suppressed |
+|-------|----------|-----------------------------------|
+| 00557 | できる | Potential form of する — already expresses ability |
+| 01165 | {見|み}える | Spontaneous "can see" — already expresses ability |
+| 01229 | {聞|き}こえる | Spontaneous "can hear" — already expresses ability |
+
+Example override:
+```json
+"conjugation": {
+  "type": "ichidan",
+  "stem": "でき",
+  "overrides": {
+    "potential_affirmative": "—",
+    "potential_negative": "—",
+    "passive_affirmative": "—",
+    "passive_negative": "—"
+  }
+}
+```
+
+**When creating new entries**: If the headword already expresses potential/ability/spontaneous meaning, suppress the potential and passive rows. Watch for:
+- できる and compound ～できる forms
+- Spontaneous perception verbs (見える, 聞こえる)
+- Other lexicalized potential forms entered as standalone entries
 
 ## Display Format (Option D: Affirmative/Negative Table)
 

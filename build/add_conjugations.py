@@ -126,16 +126,12 @@ def determine_verb_class(data):
             }
         })
 
-    # いらっしゃる, おっしゃる, くださる, なさる — irregular ます forms
+    # いらっしゃる, おっしゃる, くださる, なさる — irregular ます/imperative forms
+    # ます stem uses い instead of り (e.g., いらっしゃい not いらっしゃり)
+    # Imperative is also stem + い (e.g., いらっしゃい, ください, なさい)
     if reading in ('いらっしゃる', 'おっしゃる', 'くださる', 'なさる'):
-        stem = headword[:-1]  # Remove る
-        reading_stem = reading[:-1]
-        # ます stem replaces final り with い
-        if headword == reading:
-            # Kana-only
-            masu_stem = reading_stem[:-1] + 'い'
-        else:
-            masu_stem = stem[:-1] + 'い'
+        stem = headword[:-1]  # Remove る → いらっしゃ, おっしゃ, くださ, なさ
+        masu_stem = stem + 'い'  # いらっしゃい, おっしゃい, ください, なさい
         return ('godan', {
             'ending': 'る',
             'stem': stem,
@@ -144,7 +140,8 @@ def determine_verb_class(data):
                 "past_polite_affirmative": masu_stem + 'ました',
                 "present_polite_negative": masu_stem + 'ません',
                 "past_polite_negative": masu_stem + 'ませんでした',
-                "volitional_polite": masu_stem + 'ましょう'
+                "volitional_polite": masu_stem + 'ましょう',
+                "imperative_affirmative": masu_stem
             }
         })
 
