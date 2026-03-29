@@ -23,6 +23,7 @@ build/            # Python build, validation, and utility scripts
   build/validate_tags.py        # Validate semantic/POS tag consistency
   build/get_next_id.py          # Get next available entry ID (scans filesystem)
   build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
+  build/add_conjugations.py    # Batch-add conjugation data to verb entries (--start N --end M [--dry-run])
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 polishing/        # Progress tracking for entry polishing tasks

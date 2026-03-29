@@ -366,30 +366,62 @@ Given prefix P (empty for 来る itself):
 
 ある does **not** have: progressive (ている), volitional, potential, passive, causative, or imperative forms. These rows are omitted from the table.
 
+## Batch Processing Script
+
+A helper script at `build/add_conjugations.py` automates adding conjugation data to entries in bulk. See `prompts/polish_verb_conjugations.md` for usage instructions. The script handles the majority of entries but flags ambiguous cases for manual review.
+
 ## Determining Verb Class from Existing Entries
 
 Many existing entries have inconsistent `part_of_speech` values. Use these guidelines:
+
+### Identifying Verb Entries
+
+Check **both** `part_of_speech` and `metadata.tags.pos` — some entries have verb info in only one place.
+
+**IMPORTANT**: The word "adverb" contains "verb". When searching POS strings, use word-boundary-aware matching (e.g., regex `(?<!ad)verb`) to avoid classifying adverbs as verbs.
+
+**Entries that ARE verbs** (add conjugation):
+- Any POS containing "verb" (but not "adverb"), "godan", "ichidan", "suru", "kuru"
+- POS containing "verbal" (these are する nouns)
+- POS containing "noun (する)" (another する variant)
+- `metadata.tags.pos` containing "verb-suru", "verb-godan", "verb-ichidan", etc.
+- "auxiliary verb" entries (e.g., ～続ける)
+- "expression, verb phrase" entries (e.g., 頭を抱える)
+
+**Entries that are NOT verbs** (do NOT add conjugation):
+- Adverbs (POS "adverb" or "adverb, noun")
+- Proverbs ("expression (proverb)", "proverb")
+- ている expressions ("expression (verb て-form + いる)") — already conjugated
+- Noun forms of verbs where the headword ends in a non-dictionary kana like り, し, い (e.g., 申し送り, 仕送り) — even if POS says "godan verb"
 
 ### Identifying Godan vs Ichidan
 
 1. **Check existing `verb_class` tag** if present (in `metadata.tags.verb_class`)
 2. **Check `part_of_speech`** for explicit markers: "godan", "ichidan", "五段", "一段"
-3. **Check the dictionary ending**:
+3. **Verify the reading ends in a valid dictionary-form kana** (うくぐすつぬぶむる for godan; る for ichidan). If it ends in り, し, き, etc., the entry is likely a noun form, not a verb — skip it.
+4. **Check the dictionary ending**:
    - Ends in a kana other than る → always godan
-   - Ends in る with an え-row or い-row kana before it → usually ichidan (食べる, 見る, 起きる)
+   - Ends in る with an え-row kana before it → almost always ichidan (食べる, 見える, 教える)
+   - Ends in る with an い-row kana before it → usually ichidan (見る, 起きる), but some are godan (帰る, 走る, 知る, 入る, 切る, 散る)
    - Ends in る with an あ-row, う-row, or お-row kana before it → usually godan (分かる, 作る, 通る)
-   - Some are ambiguous (帰る is godan despite い before る) — use your knowledge
-4. **Check the notes field** for transitivity info that reveals the class
+   - For ambiguous cases, use your linguistic knowledge
+5. **Check the notes field** for transitivity info that reveals the class
 
 ### Identifying する Verbs
 
-The `part_of_speech` field has many variants for する verbs:
-- "noun, suru verb", "noun, verb (suru)", "noun, suru-verb", "noun / suru verb"
-- "verb (suru)", "suru verb", "verb-suru"
-- "noun, verb (する)", "noun / verb (する)"
-- And many more
+**All known POS patterns for する verbs** (compiled from the actual dictionary):
+- "noun, suru verb", "noun, verb (suru)", "noun, suru-verb", "noun / suru verb", "noun / suru-verb"
+- "verb (suru)", "suru verb", "verb-suru", "suru-verb"
+- "noun, verb (する)", "noun / verb (する)", "noun, する-verb", "する verb"
+- "noun; suru verb", "noun; verb (suru)", "noun; suru-verb", "noun/suru-verb", "noun/suru verb"
+- "noun (verbal)" — a する noun without explicit "suru" mention
+- "noun; noun (する)" — another variant without explicit "suru"
+- "adverb, suru verb", "adverb, verb (suru)"
+- "noun, suru verb, na-adjective" (e.g., 乾燥)
+- "noun, suru-verb, interjection" (e.g., 乾杯)
+- Plain "noun" **with `verb-suru` in `metadata.tags.pos`** — IMPORTANT: many entries have POS="noun" but are する verbs only identifiable from the tags array
 
-If the entry's headword ends in する, or the POS mentions "suru" or "する", it's a する verb. Use type `"suru"` with the prefix being the noun part.
+For all する verbs: use type `"suru"` with the prefix being the headword (without する if it ends in する).
 
 ### Identifying 来る
 
