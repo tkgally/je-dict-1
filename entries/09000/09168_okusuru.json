@@ -4,6 +4,10 @@
   "reading": "おくする",
   "part_of_speech": "suru verb",
   "gloss": "to be timid, to flinch, to be daunted",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{臆|おく}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -16,7 +20,9 @@
       "id": "09168_okusuru_ex1",
       "japanese": "{臆|おく}することなく",
       "english": "without flinching/hesitating",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +30,9 @@
       "id": "09168_okusuru_ex2",
       "japanese": "{困難|こんなん}に{臆|おく}してはいけない。",
       "english": "Don't be daunted by difficulties.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +40,9 @@
       "id": "09168_okusuru_ex3",
       "japanese": "{彼|かれ}は{臆|おく}することなく、{大勢|おおぜい}の{前|まえ}で{自分|じぶん}の{意見|いけん}を{主張|しゅちょう}した。",
       "english": "Without flinching, he asserted his opinion in front of a large crowd.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -41,15 +51,20 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-31T11:35:03Z",
-    "modified": "2026-01-31T11:35:03Z",
+    "modified": "2026-03-29T03:05:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
   }
 }

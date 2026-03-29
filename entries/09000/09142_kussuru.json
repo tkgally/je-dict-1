@@ -4,6 +4,10 @@
   "reading": "くっする",
   "part_of_speech": "suru verb",
   "gloss": "to yield, to submit, to succumb",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{屈|くっ}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -16,7 +20,9 @@
       "id": "09142_kussuru_ex1",
       "japanese": "{圧力|あつりょく}に{屈|くっ}する",
       "english": "to yield to pressure",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +30,9 @@
       "id": "09142_kussuru_ex2",
       "japanese": "{彼|かれ}は{脅迫|きょうはく}に{屈|くっ}しなかった。",
       "english": "He did not yield to the threats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +40,9 @@
       "id": "09142_kussuru_ex3",
       "japanese": "{困難|こんなん}に{屈|くっ}することなく、{最後|さいご}まで{戦|たたか}い{続|つづ}けた。",
       "english": "Without yielding to hardship, they continued to fight to the end.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -41,15 +51,20 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-31T11:23:03Z",
-    "modified": "2026-01-31T11:23:03Z",
+    "modified": "2026-03-29T03:05:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
   }
 }
