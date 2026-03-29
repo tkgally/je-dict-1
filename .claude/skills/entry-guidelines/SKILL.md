@@ -89,6 +89,20 @@ The `build_flat.py` step is critical - without it, new entries won't appear on t
 
 This prevents duplicate entries and wasted effort on entries that must later be deleted or merged.
 
+## Verb Conjugation (REQUIRED for all verb entries)
+
+All verb entries must include a `conjugation` field. See the `verb-conjugations` skill for the complete specification. The conjugation field stores minimal data (verb class, stem/ending) from which a full conjugation table is generated on the entry page.
+
+**Quick reference:**
+- Godan: `{"type": "godan", "ending": "く", "stem": "{書|か}"}`
+- Ichidan: `{"type": "ichidan", "stem": "{食|た}べ"}`
+- する: `{"type": "suru", "prefix": "{勉強|べんきょう}"}`
+- 来る: `{"type": "kuru", "prefix": ""}`
+- ある: `{"type": "aru"}`
+- Irregular forms: add `"overrides": {...}` (see skill for details)
+
+Place the `conjugation` field after `gloss` and before `definitions` in the entry JSON.
+
 ## Content Guidelines
 
 1. **Explain before exemplifying** - Definition first, then examples

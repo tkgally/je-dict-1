@@ -150,6 +150,7 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_furigana_correctness.md` — verify existing furigana readings are correct
 - `polish_semantic_labels.md` — verify semantic tags match word meanings
 - `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
+- `polish_verb_conjugations.md` — add conjugation data to existing verb entries
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`.
 
@@ -158,7 +159,8 @@ Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (fo
 Detailed instructions for specific tasks live in `.claude/skills/`. Key ones:
 
 - `entry-guidelines` — quality standards, file placement, metadata, tags (start here)
-- `verb-entry` — transitivity, aspect/ている, particle patterns
+- `verb-entry` — transitivity, aspect/ている, particle patterns, conjugation field
+- `verb-conjugations` — conjugation table JSON structure, form generation rules
 - `adjective-entry` — forms, conjugations, predicate vs. modifier usage
 - `particle-entry` — predicate lists, particle contrasts, fixed patterns
 - `other-entries` — nouns, counters, adverbs, expressions
