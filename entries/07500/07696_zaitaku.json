@@ -4,6 +4,10 @@
   "reading": "ざいたく",
   "part_of_speech": "noun, suru-verb",
   "gloss": "staying at home; being home; remote work",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{在宅|ざいたく}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -22,7 +26,9 @@
       "japanese": "{明日|あした}は{在宅|ざいたく}です。",
       "english": "I'll be home tomorrow.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +36,9 @@
       "japanese": "{配達|はいたつ}の{時間|じかん}に{在宅|ざいたく}していた。",
       "english": "I was home at the delivery time.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +46,9 @@
       "japanese": "{在宅|ざいたく}かどうか{確認|かくにん}してから{訪問|ほうもん}するようにしている。",
       "english": "I make sure to check if they're home before visiting.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +56,9 @@
       "japanese": "{在宅勤務|ざいたくきんむ}が{増|ふ}えてきた。",
       "english": "Remote work has been increasing.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +66,9 @@
       "japanese": "{週|しゅう}に{三日|みっか}{在宅|ざいたく}で{働|はたら}いている。",
       "english": "I work from home three days a week.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,21 +76,32 @@
       "japanese": "コロナ{以降|いこう}、{在宅勤務|ざいたくきんむ}を{導入|どうにゅう}する{企業|きぎょう}が{急増|きゅうぞう}した。",
       "english": "Since COVID, the number of companies adopting remote work has surged.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
   "notes": "ETYMOLOGY:\n{在|ざい} (being at) + {宅|たく} (home)\n\nCOMMON COMPOUNDS:\n・{在宅勤務|ざいたくきんむ} - remote work, working from home (WFH)\n・{在宅|ざいたく}ワーク - remote work\n・{在宅医療|ざいたくいりょう} - home healthcare\n\nMODERN USAGE:\nThe term became particularly common during and after the COVID-19 pandemic when many companies adopted remote work policies.\n\nRELATED WORK TERMS:\n・{出社|しゅっしゃ} - going to the office\n・{直行|ちょっこう} - going directly (to a site)\n・{直帰|ちょっき} - going straight home",
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-03-17T07:38:10Z",
+    "modified": "2026-03-29T03:05:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["work", "home"],
-      "domain": ["business"]
+      "semantic": [
+        "work",
+        "home"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
   }
 }

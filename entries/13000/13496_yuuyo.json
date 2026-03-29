@@ -5,6 +5,10 @@
   "reading": "ゆうよ",
   "part_of_speech": "noun, verb-suru",
   "gloss": "postponement, grace period, reprieve",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{猶予|ゆうよ}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "There is no more time to spare.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13496_yuuyo_ex2",
@@ -27,7 +33,9 @@
       "english": "I was granted a grace period for payment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13496_yuuyo_ex3",
@@ -35,22 +43,32 @@
       "english": "A sentence of three years imprisonment, suspended for five years, was handed down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFunctions as a noun and suru-verb. In legal contexts, {執行|しっこう}{猶予|ゆうよ} means a suspended sentence — the prison term is deferred on condition of good behavior. In everyday language, {猶予|ゆうよ}がない means there is no time to waste or no room for delay.\n\nCOMMON COLLOCATIONS:\n- {執行|しっこう}{猶予|ゆうよ}: suspended sentence\n- {猶予|ゆうよ}{期間|きかん}: grace period\n- {猶予|ゆうよ}がない: no time to spare\n- {猶予|ゆうよ}を{与|あた}える: to grant a reprieve\n- {支払|しはら}いの{猶予|ゆうよ}: payment deferral",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-25T13:26:34Z",
-    "modified": "2026-02-25T13:26:34Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "domain": ["legal"]
+      "semantic": [
+        "time-general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
   }
 }

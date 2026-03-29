@@ -4,6 +4,10 @@
   "reading": "とうたつ",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "reaching, attaining, arrival",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{到達|とうたつ}"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +23,9 @@
       "english": "We reached the goal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11815_toutatsu_ex2",
@@ -27,7 +33,9 @@
       "english": "The climbing team finally reached the summit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11815_toutatsu_ex3",
@@ -35,21 +43,29 @@
       "english": "Sales are expected to reach a record-high amount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Takes the particle に to mark the destination or target reached. More formal than {着|つ}く and emphasizes the culmination of a process or journey.\n\nCOMMON COLLOCATIONS:\n・{目標|もくひょう}に{到達|とうたつ}する — to reach a goal\n・{山頂|さんちょう}に{到達|とうたつ}する — to reach the summit\n・{到達|とうたつ}{点|てん} — point reached, attainment level\n・{到達|とうたつ}{度|ど} — degree of attainment",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-18T12:19:22Z",
-    "modified": "2026-02-18T12:19:22Z",
+    "modified": "2026-03-29T03:07:35Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
   }
 }

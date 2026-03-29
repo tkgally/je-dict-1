@@ -4,6 +4,10 @@
   "reading": "おうふく",
   "part_of_speech": "noun, suru-verb",
   "gloss": "round trip, going and returning",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{往復|おうふく}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -121,7 +125,7 @@
   "notes": "USAGE: {往復|おうふく} is commonly used for transportation and travel.\n\nCOMMON COMPOUNDS:\n・{往復|おうふく}{切符|きっぷ} (round-trip ticket)\n・{往復|おうふく}{運賃|うんちん} (round-trip fare)\n・{往復|おうふく}はがき (return postcard - has reply section attached)\n・{往復|おうふく}{書簡|しょかん} (correspondence, exchange of letters)\n\nPATTERNS:\n・{往復|おうふく}で〜 (round trip, takes ~)\n・{往復|おうふく}する (to make a round trip)\n\nCONTRAST:\n・{片道|かたみち} - one way (opposite)",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-03-03T02:49:18Z",
+    "modified": "2026-03-29T03:04:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -133,7 +137,8 @@
       "politeness": "plain",
       "semantic": [
         "action"
-      ]
+      ],
+      "verb_class": "suru"
     }
   }
 }

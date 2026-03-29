@@ -4,6 +4,10 @@
   "reading": "せいぎょ",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "control, regulation",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{制御|せいぎょ}"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +23,9 @@
       "english": "To control the temperature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11816_seigyo_ex2",
@@ -27,7 +33,9 @@
       "english": "This device is controlled by a computer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11816_seigyo_ex3",
@@ -35,22 +43,32 @@
       "english": "The car lost control and crashed into a wall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A technical term most commonly found in engineering, computing, and science. Compared to コントロール, {制御|せいぎょ} sounds more technical and formal, and is preferred in written and academic contexts.\n\nCOMMON COLLOCATIONS:\n・{制御|せいぎょ}する — to control, to regulate\n・{制御|せいぎょ}を{失|うしな}う — to lose control\n・{制御|せいぎょ}{装置|そうち} — control device\n・{制御|せいぎょ}システム — control system\n・{制御|せいぎょ}{盤|ばん} — control panel\n・{遠隔|えんかく}{制御|せいぎょ} — remote control",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-18T12:20:02Z",
-    "modified": "2026-02-18T12:20:02Z",
+    "modified": "2026-03-29T03:07:35Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
+      "semantic": [
+        "action"
+      ],
       "transitivity": "transitive",
-      "domain": ["technical"]
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
   }
 }

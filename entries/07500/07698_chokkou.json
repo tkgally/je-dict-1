@@ -4,6 +4,10 @@
   "reading": "ちょっこう",
   "part_of_speech": "noun, suru-verb",
   "gloss": "going directly; direct route; direct travel",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{直行|ちょっこう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -22,7 +26,9 @@
       "japanese": "{明日|あした}は{客先|きゃくさき}に{直行|ちょっこう}します。",
       "english": "Tomorrow I'll go directly to the client's office.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +36,9 @@
       "japanese": "{直行|ちょっこう}{直帰|ちょっき}でお{願|ねが}いします。",
       "english": "I'll be going directly to the site and straight home.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +46,9 @@
       "japanese": "{朝|あさ}いちで{現場|げんば}に{直行|ちょっこう}して、{午後|ごご}は{会社|かいしゃ}に{戻|もど}る{予定|よてい}だ。",
       "english": "I plan to go directly to the site first thing in the morning and return to the office in the afternoon.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +56,9 @@
       "japanese": "{直行便|ちょっこうびん}で{行|い}けば{早|はや}い。",
       "english": "It's faster if you take a direct flight.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +66,9 @@
       "japanese": "この{路線|ろせん}は{空港|くうこう}への{直行|ちょっこう}バスだ。",
       "english": "This route is a direct bus to the airport.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +76,9 @@
       "japanese": "{乗|の}り{換|か}えなしの{直行便|ちょっこうびん}があるので、{移動|いどう}が{楽|らく}だ。",
       "english": "There's a direct flight with no transfers, so the travel is easy.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -78,7 +94,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-03-17T07:38:10Z",
+    "modified": "2026-03-29T03:05:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -93,7 +109,8 @@
       ],
       "domain": [
         "business"
-      ]
+      ],
+      "verb_class": "suru"
     }
   }
 }

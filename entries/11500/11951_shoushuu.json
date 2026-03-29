@@ -4,6 +4,10 @@
   "reading": "しょうしゅう",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "convocation; summoning; to summon",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{召集|しょうしゅう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -18,7 +22,9 @@
       "english": "Convene the Diet (parliament).",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11951_shoushuu_ex2",
@@ -26,7 +32,9 @@
       "english": "Everyone was summoned for an emergency meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11951_shoushuu_ex3",
@@ -34,22 +42,30 @@
       "english": "During wartime, many young people received draft notices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・{国会|こっかい}{召集|しょうしゅう} (convocation of parliament)\n・{召集|しょうしゅう}{令状|れいじょう} (draft notice, call-up papers)\n・{臨時|りんじ}{召集|しょうしゅう} (extraordinary convocation)\n・{召集|しょうしゅう}をかける (issue a summons)\n\nSIMILAR WORDS:\n{招集|しょうしゅう} is a homograph with the same reading but a different first character. {召集|しょうしゅう} specifically refers to official, authoritative summoning (parliament, military), while {招集|しょうしゅう} is broader and can mean calling any group together. In practice, both are often used interchangeably in non-legal contexts.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-19T10:53:21Z",
-    "modified": "2026-02-19T10:53:21Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
   }
 }

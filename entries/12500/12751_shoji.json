@@ -4,6 +4,10 @@
   "reading": "しょじ",
   "part_of_speech": "noun, suru verb",
   "gloss": "possession, carrying",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{所持|しょじ}"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +23,9 @@
       "english": "I have identification on me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12751_shoji_ex2",
@@ -27,7 +33,9 @@
       "english": "Please let us inspect your belongings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12751_shoji_ex3",
@@ -35,22 +43,32 @@
       "english": "He was arrested on suspicion of possessing illegal drugs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{所持|しょじ} means to possess or carry something, typically in formal or legal contexts. It implies having something physically on one's person.\n\nPATTERN:\n- 〜を{所持|しょじ}する: to possess, to carry ~\n\nCOMMON COLLOCATIONS:\n- {所持|しょじ}{品|ひん}: personal belongings, items on one's person\n- {所持|しょじ}{金|きん}: money on hand, cash carried\n- {銃|じゅう}を{所持|しょじ}する: to carry a gun\n- {不法|ふほう}{所持|しょじ}: illegal possession\n\nSIMILAR WORDS:\n- {所有|しょゆう}: ownership (broader, includes property and rights)\n- {持|も}つ: to have, to hold (everyday word)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-22T10:00:38Z",
-    "modified": "2026-02-22T10:00:38Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["action"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
   }
 }

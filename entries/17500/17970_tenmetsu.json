@@ -5,6 +5,10 @@
   "reading": "てんめつ",
   "part_of_speech": "noun, verb-suru",
   "gloss": "flashing; flickering; blinking",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{点滅|てんめつ}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "The traffic light is flashing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17970_tenmetsu_ex2",
@@ -27,7 +33,9 @@
       "english": "The emergency light started flashing red.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17970_tenmetsu_ex3",
@@ -35,22 +43,30 @@
       "english": "When the yellow light is flashing, please proceed with caution.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nComposed of {点|てん} (to light, to turn on) and {滅|めつ} (to extinguish, to turn off). Describes the on-off cycle of lights, not continuous illumination.\n\nCOMMON COLLOCATIONS:\n- {点滅|てんめつ}する (to flash, to blink)\n- {点滅|てんめつ}{信号|しんごう} (flashing traffic signal)\n- {赤|あか}く{点滅|てんめつ}する (flash red)\n- {点滅|てんめつ}を{繰|く}り{返|かえ}す (flash repeatedly)\n\nSIMILAR WORDS:\n- {明滅|めいめつ}: flickering — more literary; describes light wavering between bright and dim\n- {点灯|てんとう}: lighting up — turning a light on (without the off cycle)\n- {消灯|しょうとう}: lights out — turning lights off",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-19T10:06:01Z",
-    "modified": "2026-03-19T10:06:01Z",
+    "modified": "2026-03-29T03:08:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
   }
 }

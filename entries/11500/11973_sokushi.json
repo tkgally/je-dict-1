@@ -4,6 +4,10 @@
   "reading": "そくし",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "instant death; dying instantly",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{即死|そくし}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -18,7 +22,9 @@
       "english": "The driver died instantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11973_sokushi_ex2",
@@ -26,7 +32,9 @@
       "english": "He died instantly from the impact of the accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11973_sokushi_ex3",
@@ -34,23 +42,31 @@
       "english": "Be careful, because this attack will kill you instantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・{即死|そくし}する (die instantly)\n・{即死|そくし}だった (was dead on the spot)\n・{即死|そくし}{攻撃|こうげき} (one-hit kill attack — gaming)\n\nUSAGE NOTES:\nFrequently appears in news reports about traffic accidents and disasters. In gaming contexts, {即死|そくし} refers to attacks or traps that kill a character in one hit regardless of remaining health. The noun form is often used as a predicate with だった: {即死|そくし}だった (was an instant death / died on the spot).",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-19T11:09:42Z",
-    "modified": "2026-02-19T11:09:42Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
   }
 }

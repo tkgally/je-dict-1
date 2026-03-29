@@ -5,6 +5,10 @@
   "reading": "のうぜい",
   "part_of_speech": "noun, suru verb",
   "gloss": "tax payment",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{納税|のうぜい}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "Paying taxes is a citizen's duty.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13806_nouzei_ex2",
@@ -27,7 +33,9 @@
       "english": "You must pay your taxes by the tax return deadline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13806_nouzei_ex3",
@@ -35,22 +43,32 @@
       "english": "If you use the furusato tax donation system, you can receive local specialty products.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlso functions as a suru verb: {納税|のうぜい}する (to pay taxes). A formal, official term commonly seen in government forms, news reports, and legal documents.\n\nCOMMON COLLOCATIONS:\n- {納税|のうぜい}{者|しゃ}: taxpayer\n- {納税|のうぜい}{額|がく}: amount of tax paid\n- {納税|のうぜい}{義務|ぎむ}: tax obligation\n- {納税|のうぜい}{証明書|しょうめいしょ}: tax payment certificate\n- ふるさと{納税|のうぜい}: furusato tax (hometown tax donation)\n\nCULTURE:\nふるさと{納税|のうぜい} is a popular system in Japan that allows taxpayers to donate to a local government of their choice in exchange for tax deductions and regional gift products. Despite the name, it functions more as a donation than a tax.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-27T04:16:28Z",
-    "modified": "2026-02-27T04:16:28Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
   }
 }

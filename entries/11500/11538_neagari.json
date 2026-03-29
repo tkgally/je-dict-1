@@ -4,6 +4,10 @@
   "reading": "ねあがり",
   "part_of_speech": "noun / verb (suru)",
   "gloss": "price increase, appreciation",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{値上|ねあ}がり"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -18,7 +22,9 @@
       "english": "Food prices went up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11538_neagari_ex2",
@@ -26,7 +32,9 @@
       "english": "Rising electricity costs are putting pressure on household finances.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11538_neagari_ex3",
@@ -34,7 +42,9 @@
       "english": "Due to the rise in raw material prices, the prices of many products are being reviewed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "The opposite is {値下|ねさ}がり (price decrease). A related but different term is {値上|ねあ}げ (a deliberate price hike by a seller), whereas {値上|ねあ}がり describes the price going up on its own or from external factors.\n\nCOMMON COLLOCATIONS:\n・{値上|ねあ}がりが{続|つづ}く (prices continue to rise)\n・{大幅|おおはば}な{値上|ねあ}がり (significant price increase)\n・{株価|かぶか}の{値上|ねあ}がり (stock price appreciation)\n・{値上|ねあ}がりを{見込|みこ}む (expect prices to rise)",
@@ -48,16 +58,24 @@
   ],
   "metadata": {
     "created": "2026-02-17T02:57:34Z",
-    "modified": "2026-02-17T02:57:34Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["economics-price"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "economics-price"
+      ],
+      "verb_class": "suru"
     }
   }
 }

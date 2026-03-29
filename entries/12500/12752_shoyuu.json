@@ -4,6 +4,10 @@
   "reading": "しょゆう",
   "part_of_speech": "noun, suru verb",
   "gloss": "ownership, possession",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{所有|しょゆう}"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +23,9 @@
       "english": "This land is owned by the city.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12752_shoyuu_ex2",
@@ -27,7 +33,9 @@
       "english": "He owns three cars.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12752_shoyuu_ex3",
@@ -35,22 +43,32 @@
       "english": "Who is the owner of this building?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{所有|しょゆう} is a formal term for ownership or possession, commonly used for property, assets, and legal rights.\n\nPATTERN:\n- 〜を{所有|しょゆう}する: to own ~\n\nCOMMON COLLOCATIONS:\n- {所有者|しょゆうしゃ}: owner\n- {所有権|しょゆうけん}: ownership rights, title\n- {所有物|しょゆうぶつ}: property, possessions\n- {土地|とち}{所有|しょゆう}: land ownership\n- {共同|きょうどう}{所有|しょゆう}: joint ownership\n- {私有|しゆう} / {国有|こくゆう} / {公有|こうゆう}: private / state / public ownership\n\nCONTRAST WITH {所持|しょじ}:\n- {所有|しょゆう}: ownership — broader concept including property rights\n- {所持|しょじ}: possession — physically carrying or having on one's person",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-22T10:01:00Z",
-    "modified": "2026-02-22T10:01:00Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["abstract"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "abstract"
+      ],
+      "verb_class": "suru"
     }
   }
 }

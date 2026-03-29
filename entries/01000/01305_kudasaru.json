@@ -4,6 +4,18 @@
   "reading": "くださる",
   "part_of_speech": "godan verb",
   "gloss": "to give (honorific); to do for me (honorific)",
+  "conjugation": {
+    "type": "godan",
+    "ending": "る",
+    "stem": "くださ",
+    "overrides": {
+      "present_polite_affirmative": "くだいます",
+      "past_polite_affirmative": "くだいました",
+      "present_polite_negative": "くだいません",
+      "past_polite_negative": "くだいませんでした",
+      "volitional_polite": "くだいましょう"
+    }
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -137,7 +149,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-03-26T01:40:08Z",
+    "modified": "2026-03-29T03:03:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -148,7 +160,8 @@
       "politeness": "honorific",
       "semantic": [
         "action"
-      ]
+      ],
+      "verb_class": "godan-ru"
     }
   }
 }

@@ -5,6 +5,10 @@
   "reading": "けんしゅつ",
   "part_of_speech": "noun, suru verb",
   "gloss": "detection, discovery",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{検出|けんしゅつ}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "A virus was detected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13132_kenshutsu_ex2",
@@ -27,7 +33,9 @@
       "english": "Harmful substances were detected in the water quality test.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13132_kenshutsu_ex3",
@@ -35,22 +43,32 @@
       "english": "This sensor has high sensitivity that can detect even trace amounts of gas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA technical word commonly used in scientific, medical, and IT contexts. Typically appears in passive form: {検出|けんしゅつ}される (to be detected). The subject of detection is marked with が.\n\nCOMMON COLLOCATIONS:\n- {検出|けんしゅつ}される: to be detected\n- {検出|けんしゅつ}{限界|げんかい}: detection limit\n- {検出|けんしゅつ}{率|りつ}: detection rate\n- {早期|そうき}{検出|けんしゅつ}: early detection",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-23T11:42:58Z",
-    "modified": "2026-02-23T11:42:58Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["science"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "science"
+      ],
+      "verb_class": "suru"
     }
   }
 }

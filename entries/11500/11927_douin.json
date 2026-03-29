@@ -4,6 +4,10 @@
   "reading": "どういん",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "mobilization",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{動員|どういん}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -18,7 +22,9 @@
       "english": "We mobilized everyone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11927_douin_ex2",
@@ -26,7 +32,9 @@
       "english": "We were able to draw a large audience to the event.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11927_douin_ex3",
@@ -34,22 +42,30 @@
       "english": "The Self-Defense Forces were mobilized for disaster recovery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Originally a military term meaning to assemble troops, now commonly used in civilian contexts for gathering people for events, projects, or emergencies. Also used for box office/attendance figures.\n\nCOMMON PATTERNS:\n・{動員|どういん}する (to mobilize)\n・{動員|どういん}される (to be mobilized)\n・{動員|どういん}をかける (to call for mobilization)\n・{観客|かんきゃく}{動員|どういん}{数|すう} (audience attendance numbers)\n・{総|そう}{動員|どういん} (total mobilization)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-18T14:19:13Z",
-    "modified": "2026-02-18T14:19:13Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
   }
 }

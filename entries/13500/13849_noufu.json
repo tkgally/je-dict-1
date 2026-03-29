@@ -5,6 +5,10 @@
   "reading": "のうふ",
   "part_of_speech": "noun / verb-suru",
   "gloss": "payment, delivery (of tax, fee, or premium)",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{納付|のうふ}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "Pay taxes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13849_noufu_ex2",
@@ -27,7 +33,9 @@
       "english": "The deadline for paying the insurance premium is approaching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13849_noufu_ex3",
@@ -35,22 +43,32 @@
       "english": "Resident tax can be paid in four installments per year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed specifically for official payments to government agencies, pension funds, or insurance bodies. Not used for ordinary commercial transactions or personal payments.\n\nSIMILAR WORDS:\n- {支払|しはら}い: payment (general, for any transaction)\n- {納税|のうぜい}: tax payment (specifically taxes)\n- {納入|のうにゅう}: delivery, payment (slightly broader, includes goods)\n\nCOMMON COLLOCATIONS:\n- {税金|ぜいきん}を{納付|のうふ}する: pay taxes\n- {保険料|ほけんりょう}の{納付|のうふ}: payment of insurance premiums\n- {納付|のうふ}{期限|きげん}: payment deadline\n- {納付|のうふ}{書|しょ}: payment slip\n- {未納付|みのうふ}: non-payment, unpaid",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-27T05:41:35Z",
-    "modified": "2026-02-27T05:41:35Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["finance"],
-      "domain": ["legal"]
+      "semantic": [
+        "finance"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
   }
 }

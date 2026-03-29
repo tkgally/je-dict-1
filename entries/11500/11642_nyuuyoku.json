@@ -4,6 +4,10 @@
   "reading": "にゅうよく",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "bathing, taking a bath",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{入浴|にゅうよく}"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +23,9 @@
       "english": "Take a bath before the meal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11642_nyuuyoku_ex2",
@@ -27,7 +33,9 @@
       "english": "Please hydrate after bathing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11642_nyuuyoku_ex3",
@@ -35,21 +43,29 @@
       "english": "At this hot spring inn, you can enjoy bathing in an open-air bath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A formal word for bathing. In everyday conversation, お{風呂|ふろ}に{入|はい}る is more common.\n\nCOMMON COLLOCATIONS:\n・{入浴|にゅうよく}する (take a bath)\n・{入浴|にゅうよく}{剤|ざい} (bath salts/additives)\n・{入浴|にゅうよく}{時間|じかん} (bathing time)\n・{入浴|にゅうよく}{後|ご} (after bathing)\n・{入浴|にゅうよく}{中|ちゅう} (currently bathing)\n・{入浴|にゅうよく}{介助|かいじょ} (bathing assistance — nursing/care context)\n\nIn medical and caregiving contexts, {入浴|にゅうよく} is the standard term rather than the casual お{風呂|ふろ}.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-17T18:35:29Z",
-    "modified": "2026-02-17T18:35:29Z",
+    "modified": "2026-03-29T03:07:35Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["consumption"]
+      "semantic": [
+        "consumption"
+      ],
+      "verb_class": "suru"
     }
   }
 }

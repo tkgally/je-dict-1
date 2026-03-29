@@ -4,6 +4,11 @@
   "reading": "いる",
   "part_of_speech": "verb (godan)",
   "gloss": "to need, to require",
+  "conjugation": {
+    "type": "godan",
+    "ending": "る",
+    "stem": "{要|い}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -52,7 +57,7 @@
   "notes": "{要|い}る is a godan verb meaning \"to need\" or \"to require.\"\n\nCONJUGATION:\n- {要|い}る (dictionary form)\n- {要|い}ります (polite)\n- {要|い}らない (negative: not needed)\n- {要|い}った (past)\n\nPATTERN:\n- Xが{要|い}る: X is needed\n- Xが{要|い}らない: X is not needed\n\nCONTRAST:\n- {要|い}る (godan, \"need\"): ends in -ru but conjugates as godan\n- いる (ichidan, \"exist\"): animate existence verb\n\nCOMMON EXPRESSIONS:\n- {時間|じかん}が{要|い}る (time is needed)\n- {お金|おかね}が{要|い}る (money is needed)\n- {要|い}らない (I don't need it)\n\nNOTE: Often written in kana as いる, but context distinguishes it from the existence verb.",
   "metadata": {
     "created": "2026-02-03T01:46:47Z",
-    "modified": "2026-02-03T01:46:47Z",
+    "modified": "2026-03-29T03:05:07Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +69,8 @@
       "transitivity": "intransitive",
       "semantic": [
         "existence"
-      ]
+      ],
+      "verb_class": "godan-ru"
     }
   }
 }

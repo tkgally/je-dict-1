@@ -4,6 +4,10 @@
   "reading": "すいてい",
   "part_of_speech": "noun, suru-verb",
   "gloss": "presumption, estimation",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{推定|すいてい}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -81,7 +85,7 @@
   "notes": "{推定|すいてい} means to infer or estimate based on available information. It is commonly used in news reports, scientific contexts, and legal terminology.\n\nCOMMON EXPRESSIONS:\n- {推定|すいてい}される: to be presumed/estimated\n- {推定|すいてい}{値|ち}: estimated value\n- {推定|すいてい}{年齢|ねんれい}: estimated age\n- {推定|すいてい}{無罪|むざい}: presumption of innocence (legal)\n\nRELATED WORDS:\n- {予測|よそく}: prediction, forecast\n- {見積|みつ}もり: estimate (especially for costs)\n- {推測|すいそく}: conjecture, guess (less certain than {推定|すいてい})",
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-03-04T02:32:04Z",
+    "modified": "2026-03-29T03:04:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +100,8 @@
       "politeness": "plain",
       "semantic": [
         "furniture"
-      ]
+      ],
+      "verb_class": "suru"
     }
   }
 }

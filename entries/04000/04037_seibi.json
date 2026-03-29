@@ -4,6 +4,10 @@
   "reading": "せいび",
   "part_of_speech": "noun, suru-verb",
   "gloss": "maintenance, servicing, development",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{整備|せいび}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -81,7 +85,7 @@
   "notes": "USAGE: {整備|せいび} has two main uses:\n\n1. MAINTENANCE (vehicles, equipment):\n- {車|くるま}の{整備|せいび} (car maintenance)\n- {整備|せいび}{工場|こうじょう} (repair shop)\n- {整備|せいび}{士|し} (mechanic)\n- {定期|ていき}{整備|せいび} (regular maintenance)\n\n2. INFRASTRUCTURE DEVELOPMENT:\n- {道路|どうろ}{整備|せいび} (road development)\n- {環境|かんきょう}{整備|せいび} (environmental improvement)\n- {インフラ}{整備|せいび} (infrastructure development)\n- {法|ほう}{整備|せいび} (legal framework development)\n\nRELATED: {整備|せいび}{不良|ふりょう} = poor maintenance, mechanical defect",
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-03-03T00:31:43Z",
+    "modified": "2026-03-29T03:04:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +100,8 @@
       "politeness": "plain",
       "semantic": [
         "action"
-      ]
+      ],
+      "verb_class": "suru"
     }
   }
 }

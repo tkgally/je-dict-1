@@ -5,6 +5,10 @@
   "reading": "へんい",
   "part_of_speech": "noun, suru verb",
   "gloss": "mutation, variation",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{変異|へんい}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "The virus mutates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12116_heni_ex2",
@@ -27,7 +33,9 @@
       "english": "A genetic mutation was discovered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12116_heni_ex3",
@@ -35,22 +43,33 @@
       "english": "This mutant strain is said to be more infectious than previous ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{変異|へんい} is primarily used in scientific and medical contexts, particularly in biology and genetics. It became widely known during discussions of viral mutations. As a する verb, it describes the process of mutating.\n\nCOMMON COLLOCATIONS:\n- {遺伝子|いでんし}{変異|へんい}: genetic mutation\n- {変異|へんい}{株|かぶ}: mutant strain, variant\n- {突然変異|とつぜんへんい}: sudden mutation\n- {変異|へんい}{体|たい}: mutant (organism)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-20T08:50:30Z",
-    "modified": "2026-02-20T08:50:30Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical", "academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical",
+        "academic"
+      ],
+      "verb_class": "suru"
     }
   }
 }
