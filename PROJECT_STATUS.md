@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 542)
+Added 30 new dictionary entries (IDs 20613-20642) from candidate_words.json. A diverse mix of practical vocabulary covering nouns, expressions, na-adjectives, and adverbs for intermediate learners.
+
+- **Na-adjectives (2)**: {鮮烈|せんれつ} (vivid/striking), {紳士的|しんしてき} (gentlemanly)
+- **Expressions (3)**: {根|ね}も{葉|は}もない (groundless), {約束|やくそく}を{破|やぶ}る (to break a promise), {注目|ちゅうもく}を{浴|あ}びる (to attract attention)
+- **Adverbs/expressions (2)**: {時間通|じかんどお}り (on time), {何|なん}でもかんでも (anything and everything)
+- **Nouns (23)**: {装着|そうちゃく} (equipping), {編成|へんせい} (formation), {人件費|じんけんひ} (labor costs), {唯一無二|ゆいいつむに} (one and only), {様変|さまが}わり (transformation), {問題点|もんだいてん} (problem area), {脱皮|だっぴ} (molting/outgrowing), {裸眼|らがん} (naked eye), {漁港|ぎょこう} (fishing port), {無一文|むいちもん} (penniless), {指切|ゆびき}り (pinky swear), {大学院生|だいがくいんせい} (graduate student), {煮汁|にじる} (cooking liquid), {精密検査|せいみつけんさ} (detailed examination), {反省文|はんせいぶん} (reflection paper), {金券|きんけん} (cash voucher), {受験票|じゅけんひょう} (exam ticket), お{焦|こ}げ (scorched rice), {人事部|じんじぶ} (HR department), {明明後日|しあさって} (three days from now), {洗米|せんまい} (rice washing), おじいちゃん (grandfather), {諸外国|しょがいこく} (various foreign countries)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 541)
 Added 30 new dictionary entries (IDs 20583-20612) from candidate_words.json. A diverse mix of practical vocabulary including verbs, nouns, adjectives, and adverbs for intermediate learners.
 
@@ -87,14 +96,6 @@ Added 30 new dictionary entries (IDs 20463-20492) from candidate_words.json. A d
 - **Suru-verbs (2)**: {洗髪|せんぱつ} (hair washing), {盗撮|とうさつ} (secret photography)
 - **Nouns (27)**: {夜型|よるがた} (night owl), {甘|あま}い{物|もの} (sweets), {名刺交換|めいしこうかん} (exchanging business cards), {置時計|おきどけい} (desk clock), {神社仏閣|じんじゃぶっかく} (shrines and temples), {封建制|ほうけんせい} (feudalism), {副会長|ふくかいちょう} (vice-chairperson), {司会者|しかいしゃ} (emcee), {住所録|じゅうしょろく} (address book), {通用口|つうようぐち} (service entrance), {健康状態|けんこうじょうたい} (health condition), {滞在期間|たいざいきかん} (period of stay), リンス (conditioner), {二十代|にじゅうだい} (one's twenties), {寄宿舎|きしゅくしゃ} (dormitory), {目的語|もくてきご} (object in grammar), {異種|いしゅ} (different kind), {廃品|はいひん} (waste/scrap), {押|お}しボタン (push button), {荷物置|にもつお}き (luggage storage), {拡張現実|かくちょうげんじつ} (augmented reality), {地吹雪|じふぶき} (ground blizzard), {心筋梗塞|しんきんこうそく} (heart attack), {群青色|ぐんじょういろ} (ultramarine), {空言|そらごと} (empty words), {突然死|とつぜんし} (sudden death), {神職|しんしょく} (Shinto priest)
 - Added 1 new kanji to index: 梗
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 536)
-Added 30 new dictionary entries (IDs 20433-20462) from candidate_words.json. A mix of idioms, expressions, practical nouns, and adverbs for intermediate learners.
-
-- **Expressions (8)**: さじを{投|な}げる (to give up), {満面|まんめん}の{笑|え}み (beaming smile), {似|に}たり{寄|よ}ったり (much the same), {胸|むね}が{熱|あつ}くなる (to be deeply moved), {恩|おん}を{仇|あだ}で{返|かえ}す (to repay kindness with evil), {継続|けいぞく}は{力|ちから}なり (persistence pays off)
-- **Adverbs (2)**: ともすれば (apt to/tending to), {何度|なんど}も (many times)
-- **Nouns (20)**: {紙一重|かみひとえ} (paper-thin difference), {自己責任|じこせきにん} (self-responsibility), {予告編|よこくへん} (trailer/preview), {候補者|こうほしゃ} (candidate), {応募者|おうぼしゃ} (applicant), {責任感|せきにんかん} (sense of responsibility), ひねり (twist/ingenuity), {窓辺|まどべ} (by the window), {冷|ひ}え{込|こ}み (cold snap), {好景気|こうけいき} (economic boom), {自主性|じしゅせい} (independence/initiative), {柑橘|かんきつ} (citrus), {直営店|ちょくえいてん} (company-operated store), {発疹|はっしん} (rash), {分別|ふんべつ} (discretion), {経済成長|けいざいせいちょう} (economic growth), {遠隔操作|えんかくそうさ} (remote operation), {調理法|ちょうりほう} (cooking method), {薄毛|うすげ} (thinning hair), {新参|しんざん} (newcomer), {記入漏|きにゅうも}れ (omission in form), {自己負担|じこふたん} (out-of-pocket expense)
 - Removed 30 candidates that now exist as entries
 
 
