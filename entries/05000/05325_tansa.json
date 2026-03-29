@@ -6,76 +6,6 @@
   "gloss": "exploration; probe",
   "conjugation": {
     "type": "suru",
-    "prefix": "{探査|たんさ}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "exploration; probe; search; investigation",
-      "explanation": "Systematic examination or investigation, especially of space or unknown areas."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05325_tansa_ex1",
-      "japanese": "{火星|かせい}{探査|たんさ}{機|き}が{着陸|ちゃくりく}した。",
-      "english": "The Mars probe landed.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05325_tansa_ex2",
-      "japanese": "{宇宙|うちゅう}{探査|たんさ}の{歴史|れきし}",
-      "english": "The history of space exploration",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05325_tansa_ex3",
-      "japanese": "{深海|しんかい}を{探査|たんさ}する。",
-      "english": "To explore the deep sea.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{探査|たんさ} means systematic investigation or exploration, especially of unknown or hard-to-reach places. Composed of {探|たん} (search) + {査|さ} (investigate).\n\nCOMMON COLLOCATIONS:\n- {宇宙|うちゅう}{探査|たんさ}: space exploration\n- {火星|かせい}{探査|たんさ}: Mars exploration\n- {月|つき}{探査|たんさ}: lunar exploration\n- {深海|しんかい}{探査|たんさ}: deep-sea exploration\n- {探査|たんさ}{機|き}: probe (spacecraft/robot)\n- {探査|たんさ}{船|せん}: exploration vessel\n\nSIMILAR WORDS:\n- {探検|たんけん}: exploration (adventure-style, human-led)\n- {調査|ちょうさ}: investigation, survey (broader, includes data collection)\n- {捜索|そうさく}: search (for missing persons or objects)",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "reading": "たんけん",
-      "headword": "{探検|たんけん}",
-      "label": "exploration (adventure)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-03-29T07:15:08Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -163,5 +93,72 @@
         "negative": "{探査|たんさ}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "exploration; probe; search; investigation",
+      "explanation": "Systematic examination or investigation, especially of space or unknown areas."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05325_tansa_ex1",
+      "japanese": "{火星|かせい}{探査|たんさ}{機|き}が{着陸|ちゃくりく}した。",
+      "english": "The Mars probe landed.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05325_tansa_ex2",
+      "japanese": "{宇宙|うちゅう}{探査|たんさ}の{歴史|れきし}",
+      "english": "The history of space exploration",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05325_tansa_ex3",
+      "japanese": "{深海|しんかい}を{探査|たんさ}する。",
+      "english": "To explore the deep sea.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{探査|たんさ} means systematic investigation or exploration, especially of unknown or hard-to-reach places. Composed of {探|たん} (search) + {査|さ} (investigate).\n\nCOMMON COLLOCATIONS:\n- {宇宙|うちゅう}{探査|たんさ}: space exploration\n- {火星|かせい}{探査|たんさ}: Mars exploration\n- {月|つき}{探査|たんさ}: lunar exploration\n- {深海|しんかい}{探査|たんさ}: deep-sea exploration\n- {探査|たんさ}{機|き}: probe (spacecraft/robot)\n- {探査|たんさ}{船|せん}: exploration vessel\n\nSIMILAR WORDS:\n- {探検|たんけん}: exploration (adventure-style, human-led)\n- {調査|ちょうさ}: investigation, survey (broader, includes data collection)\n- {捜索|そうさく}: search (for missing persons or objects)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "たんけん",
+      "headword": "{探検|たんけん}",
+      "label": "exploration (adventure)",
+      "target_id": "17461_tanken"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T05:20:28Z",
+    "modified": "2026-03-29T10:42:23Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

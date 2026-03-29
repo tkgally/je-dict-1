@@ -7,78 +7,6 @@
   "gloss": "startup; booting up",
   "conjugation": {
     "type": "suru",
-    "prefix": "{起動|きどう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "startup; booting up; launching",
-      "explanation": "The act of starting or launching a computer, application, or system. Used broadly for any device or software that powers on or initializes."
-    }
-  ],
-  "examples": [
-    {
-      "id": "18262_kidou_ex1",
-      "japanese": "パソコンを{起動|きどう}する。",
-      "english": "I start up the computer.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "18262_kidou_ex2",
-      "japanese": "アプリの{起動|きどう}が{遅|おそ}くなった。",
-      "english": "The app has become slow to start up.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "18262_kidou_ex3",
-      "japanese": "{電源|でんげん}ボタンを{押|お}してもパソコンが{起動|きどう}しないときは、サポートに{連絡|れんらく}してください。",
-      "english": "If the computer won't start even when you press the power button, please contact support.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\nMost commonly used with する to form a verb meaning \"to start up\" or \"to boot.\" Frequently appears in computing contexts but also applies to machines, engines, and systems in general.\n\nCOMMON COLLOCATIONS:\n- パソコンを{起動|きどう}する (to start up a computer)\n- アプリを{起動|きどう}する (to launch an app)\n- {起動|きどう}が{遅|おそ}い (slow to start)\n- {起動|きどう}{時|じ} (at startup)\n- {再|さい}{起動|きどう}する (to restart)\n\nSIMILAR WORDS:\n- {軌道|きどう}: orbit; track — a homophone with a completely different meaning\n- {起動|きどう} vs {再|さい}{起動|きどう}: {起動|きどう} is initial startup, while {再起動|さいきどう} is restarting",
-  "cross_references": [
-    {
-      "entry_id": "06360_kidou",
-      "headword": "{軌道|きどう}",
-      "reading": "きどう",
-      "type": "homophone",
-      "relationship": "homophone",
-      "notes": "Same reading きどう but means orbit or track"
-    }
-  ],
-  "metadata": {
-    "created": "2026-03-21T01:07:19Z",
-    "modified": "2026-03-29T03:08:58Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "technology"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -166,5 +94,74 @@
         "negative": "{起動|きどう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "startup; booting up; launching",
+      "explanation": "The act of starting or launching a computer, application, or system. Used broadly for any device or software that powers on or initializes."
+    }
+  ],
+  "examples": [
+    {
+      "id": "18262_kidou_ex1",
+      "japanese": "パソコンを{起動|きどう}する。",
+      "english": "I start up the computer.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "18262_kidou_ex2",
+      "japanese": "アプリの{起動|きどう}が{遅|おそ}くなった。",
+      "english": "The app has become slow to start up.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "18262_kidou_ex3",
+      "japanese": "{電源|でんげん}ボタンを{押|お}してもパソコンが{起動|きどう}しないときは、サポートに{連絡|れんらく}してください。",
+      "english": "If the computer won't start even when you press the power button, please contact support.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\nMost commonly used with する to form a verb meaning \"to start up\" or \"to boot.\" Frequently appears in computing contexts but also applies to machines, engines, and systems in general.\n\nCOMMON COLLOCATIONS:\n- パソコンを{起動|きどう}する (to start up a computer)\n- アプリを{起動|きどう}する (to launch an app)\n- {起動|きどう}が{遅|おそ}い (slow to start)\n- {起動|きどう}{時|じ} (at startup)\n- {再|さい}{起動|きどう}する (to restart)\n\nSIMILAR WORDS:\n- {軌道|きどう}: orbit; track — a homophone with a completely different meaning\n- {起動|きどう} vs {再|さい}{起動|きどう}: {起動|きどう} is initial startup, while {再起動|さいきどう} is restarting",
+  "cross_references": [
+    {
+      "entry_id": "06360_kidou",
+      "headword": "{軌道|きどう}",
+      "reading": "きどう",
+      "type": "homophone",
+      "relationship": "homophone",
+      "notes": "Same reading きどう but means orbit or track",
+      "target_id": "06360_kidou"
+    }
+  ],
+  "metadata": {
+    "created": "2026-03-21T01:07:19Z",
+    "modified": "2026-03-29T10:42:23Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

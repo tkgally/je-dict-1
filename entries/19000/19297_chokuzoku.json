@@ -3,71 +3,8 @@
   "headword": "{直属|ちょくぞく}",
   "reading": "ちょくぞく",
   "romaji": "chokuzoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective, suru verb",
   "gloss": "directly under; direct subordination",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{直属|ちょくぞく}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "directly under; direct subordination; reporting directly to",
-      "explanation": "Being under the direct authority or supervision of someone without any intermediate level. Commonly used for organizational relationships in workplaces and military."
-    }
-  ],
-  "examples": [
-    {
-      "id": "19297_chokuzoku_ex1",
-      "japanese": "{社長|しゃちょう}{直属|ちょくぞく}のチームだ。",
-      "english": "It's a team that reports directly to the president.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "19297_chokuzoku_ex2",
-      "japanese": "{直属|ちょくぞく}の{上司|じょうし}に{相談|そうだん}する。",
-      "english": "I'll consult with my direct supervisor.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "19297_chokuzoku_ex3",
-      "japanese": "{彼|かれ}は{本部長|ほんぶちょう}{直属|ちょくぞく}の{部下|ぶか}として、{重要|じゅうよう}なプロジェクトを{任|まか}されている。",
-      "english": "As a direct subordinate of the division head, he has been entrusted with important projects.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "Compound of {直|ちょく} (direct) + {属|ぞく} (belong to). Used as a の-adjective to modify nouns describing organizational relationships.\n\nCOMMON COLLOCATIONS:\n- {直属|ちょくぞく}の{上司|じょうし} — direct supervisor/boss\n- {直属|ちょくぞく}の{部下|ぶか} — direct subordinate\n- {社長|しゃちょう}{直属|ちょくぞく} — reporting directly to the president\n- {直属|ちょくぞく}する — to be under the direct authority of\n\nSIMILAR WORDS:\n- {所属|しょぞく} — belonging to, affiliation (does not imply direct reporting)\n- {配属|はいぞく} — assignment, posting (being assigned to a department)",
-  "schema_version": "2.0",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "adjective-no",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "business"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-03-25T04:48:50Z",
-    "modified": "2026-03-25T04:48:50Z"
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -157,5 +94,64 @@
         "negative": "{直属|ちょくぞく}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "directly under; direct subordination; reporting directly to",
+      "explanation": "Being under the direct authority or supervision of someone without any intermediate level. Commonly used for organizational relationships in workplaces and military."
+    }
+  ],
+  "examples": [
+    {
+      "id": "19297_chokuzoku_ex1",
+      "japanese": "{社長|しゃちょう}{直属|ちょくぞく}のチームだ。",
+      "english": "It's a team that reports directly to the president.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "19297_chokuzoku_ex2",
+      "japanese": "{直属|ちょくぞく}の{上司|じょうし}に{相談|そうだん}する。",
+      "english": "I'll consult with my direct supervisor.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "19297_chokuzoku_ex3",
+      "japanese": "{彼|かれ}は{本部長|ほんぶちょう}{直属|ちょくぞく}の{部下|ぶか}として、{重要|じゅうよう}なプロジェクトを{任|まか}されている。",
+      "english": "As a direct subordinate of the division head, he has been entrusted with important projects.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "Compound of {直|ちょく} (direct) + {属|ぞく} (belong to). Used as a の-adjective to modify nouns describing organizational relationships.\n\nCOMMON COLLOCATIONS:\n- {直属|ちょくぞく}の{上司|じょうし} — direct supervisor/boss\n- {直属|ちょくぞく}の{部下|ぶか} — direct subordinate\n- {社長|しゃちょう}{直属|ちょくぞく} — reporting directly to the president\n- {直属|ちょくぞく}する — to be under the direct authority of\n\nSIMILAR WORDS:\n- {所属|しょぞく} — belonging to, affiliation (does not imply direct reporting)\n- {配属|はいぞく} — assignment, posting (being assigned to a department)",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "adjective-no",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-03-25T04:48:50Z",
+    "modified": "2026-03-25T04:48:50Z"
   }
 }

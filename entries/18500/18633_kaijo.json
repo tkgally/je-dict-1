@@ -3,75 +3,8 @@
   "id": "18633_kaijo",
   "headword": "{介助|かいじょ}",
   "reading": "かいじょ",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "personal assistance; caregiving",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{介助|かいじょ}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "personal assistance; caregiving; physical support",
-      "explanation": "Providing hands-on assistance to people who need help with daily activities due to age, disability, or illness. Focuses on physical support such as helping with movement, eating, and bathing."
-    }
-  ],
-  "examples": [
-    {
-      "id": "18633_kaijo_ex1",
-      "japanese": "{食事|しょくじ}の{介助|かいじょ}をする。",
-      "english": "To assist with eating.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "18633_kaijo_ex2",
-      "japanese": "{入浴|にゅうよく}{介助|かいじょ}には{資格|しかく}が{必要|ひつよう}だ。",
-      "english": "A qualification is needed for bathing assistance.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "18633_kaijo_ex3",
-      "japanese": "{祖母|そぼ}は{歩行|ほこう}の{介助|かいじょ}が{必要|ひつよう}になり、{介助|かいじょ}{犬|けん}を{飼|か}い{始|はじ}めた。",
-      "english": "My grandmother needed walking assistance, so she started keeping an assistance dog.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\nDistinct from {介護|かいご} (nursing care), which covers broader long-term care including planning and management. {介助|かいじょ} focuses specifically on direct physical assistance. Common in healthcare and eldercare settings.\n\nCOMMON COLLOCATIONS:\n- {食事|しょくじ}{介助|かいじょ} (mealtime assistance)\n- {入浴|にゅうよく}{介助|かいじょ} (bathing assistance)\n- {歩行|ほこう}{介助|かいじょ} (walking assistance)\n- {介助|かいじょ}{犬|けん} (assistance dog)\n- {介助|かいじょ}{者|しゃ} (caregiver, assistant)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-29T03:08:58Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "health",
-        "assistance"
-      ],
-      "domain": [
-        "medical"
-      ],
-      "verb_class": "suru"
-    }
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -161,5 +94,68 @@
         "negative": "{介助|かいじょ}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "personal assistance; caregiving; physical support",
+      "explanation": "Providing hands-on assistance to people who need help with daily activities due to age, disability, or illness. Focuses on physical support such as helping with movement, eating, and bathing."
+    }
+  ],
+  "examples": [
+    {
+      "id": "18633_kaijo_ex1",
+      "japanese": "{食事|しょくじ}の{介助|かいじょ}をする。",
+      "english": "To assist with eating.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "18633_kaijo_ex2",
+      "japanese": "{入浴|にゅうよく}{介助|かいじょ}には{資格|しかく}が{必要|ひつよう}だ。",
+      "english": "A qualification is needed for bathing assistance.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "18633_kaijo_ex3",
+      "japanese": "{祖母|そぼ}は{歩行|ほこう}の{介助|かいじょ}が{必要|ひつよう}になり、{介助|かいじょ}{犬|けん}を{飼|か}い{始|はじ}めた。",
+      "english": "My grandmother needed walking assistance, so she started keeping an assistance dog.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\nDistinct from {介護|かいご} (nursing care), which covers broader long-term care including planning and management. {介助|かいじょ} focuses specifically on direct physical assistance. Common in healthcare and eldercare settings.\n\nCOMMON COLLOCATIONS:\n- {食事|しょくじ}{介助|かいじょ} (mealtime assistance)\n- {入浴|にゅうよく}{介助|かいじょ} (bathing assistance)\n- {歩行|ほこう}{介助|かいじょ} (walking assistance)\n- {介助|かいじょ}{犬|けん} (assistance dog)\n- {介助|かいじょ}{者|しゃ} (caregiver, assistant)",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-03-22T10:41:08Z",
+    "modified": "2026-03-29T03:08:58Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "assistance"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

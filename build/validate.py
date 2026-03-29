@@ -666,6 +666,10 @@ def check_cross_reference_semantics(entries_data: list[tuple[Path, dict]]) -> li
             if not ref_reading or not ref_headword:
                 continue
 
+            # Skip check if target_id is set — headword is display-only
+            if ref.get('target_id'):
+                continue
+
             candidates = reading_index.get(ref_reading, [])
             if len(candidates) == 0:
                 # No entry exists - this is fine, it's a forward reference

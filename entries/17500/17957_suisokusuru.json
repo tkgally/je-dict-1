@@ -3,72 +3,8 @@
   "id": "17957_suisokusuru",
   "headword": "{推測|すいそく}する",
   "reading": "すいそくする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to guess; to conjecture; to surmise",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{推測|すいそく}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to guess; to conjecture; to surmise; to infer",
-      "explanation": "To form an opinion or conclusion based on incomplete evidence or reasoning. More formal and analytical than simply guessing."
-    }
-  ],
-  "examples": [
-    {
-      "id": "17957_suisokusuru_ex1",
-      "japanese": "{原因|げんいん}を{推測|すいそく}する。",
-      "english": "Conjecture the cause.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "17957_suisokusuru_ex2",
-      "japanese": "{彼|かれ}の{行動|こうどう}から{気持|きも}ちを{推測|すいそく}した。",
-      "english": "I inferred his feelings from his behavior.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "17957_suisokusuru_ex3",
-      "japanese": "{限|かぎ}られたデータから{結果|けっか}を{推測|すいそく}するのは{難|むずか}しいが、やってみよう。",
-      "english": "It's difficult to surmise the results from limited data, but let's try.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\nA relatively formal word used in analytical, investigative, or academic contexts. Often used when drawing conclusions from indirect evidence.\n\nCOMMON COLLOCATIONS:\n- {原因|げんいん}を{推測|すいそく}する (surmise the cause)\n- {推測|すいそく}にすぎない (merely a guess)\n- {推測|すいそく}の{域|いき}を{出|で}ない (not go beyond conjecture)\n- {推測|すいそく}が{当|あ}たる (one's guess is correct)\n\nSIMILAR WORDS:\n- {推定|すいてい}する: to presume — more authoritative; used when establishing something as likely true, often in legal or scientific contexts\n- {憶測|おくそく}する: to speculate — implies guessing without solid evidence, often with negative connotation\n- {予測|よそく}する: to predict — focuses on forecasting future events",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-03-19T10:00:32Z",
-    "modified": "2026-03-29T03:08:18Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "cognition"
-      ],
-      "transitivity": "transitive",
-      "verb_class": "suru"
-    }
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -158,5 +94,65 @@
         "negative": "{推測|すいそく}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to guess; to conjecture; to surmise; to infer",
+      "explanation": "To form an opinion or conclusion based on incomplete evidence or reasoning. More formal and analytical than simply guessing."
+    }
+  ],
+  "examples": [
+    {
+      "id": "17957_suisokusuru_ex1",
+      "japanese": "{原因|げんいん}を{推測|すいそく}する。",
+      "english": "Conjecture the cause.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "17957_suisokusuru_ex2",
+      "japanese": "{彼|かれ}の{行動|こうどう}から{気持|きも}ちを{推測|すいそく}した。",
+      "english": "I inferred his feelings from his behavior.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "17957_suisokusuru_ex3",
+      "japanese": "{限|かぎ}られたデータから{結果|けっか}を{推測|すいそく}するのは{難|むずか}しいが、やってみよう。",
+      "english": "It's difficult to surmise the results from limited data, but let's try.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\nA relatively formal word used in analytical, investigative, or academic contexts. Often used when drawing conclusions from indirect evidence.\n\nCOMMON COLLOCATIONS:\n- {原因|げんいん}を{推測|すいそく}する (surmise the cause)\n- {推測|すいそく}にすぎない (merely a guess)\n- {推測|すいそく}の{域|いき}を{出|で}ない (not go beyond conjecture)\n- {推測|すいそく}が{当|あ}たる (one's guess is correct)\n\nSIMILAR WORDS:\n- {推定|すいてい}する: to presume — more authoritative; used when establishing something as likely true, often in legal or scientific contexts\n- {憶測|おくそく}する: to speculate — implies guessing without solid evidence, often with negative connotation\n- {予測|よそく}する: to predict — focuses on forecasting future events",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-03-19T10:00:32Z",
+    "modified": "2026-03-29T03:08:18Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
+    }
   }
 }

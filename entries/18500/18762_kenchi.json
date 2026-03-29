@@ -3,73 +3,8 @@
   "headword": "{検知|けんち}",
   "reading": "けんち",
   "romaji": "kenchi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "detection; sensing",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{検知|けんち}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "detection; sensing",
-      "explanation": "The act of detecting or identifying something, typically by a sensor, device, or system. Often used in technical contexts for automated detection of substances, signals, or conditions."
-    }
-  ],
-  "examples": [
-    {
-      "id": "18762_kenchi_ex1",
-      "japanese": "ガス{漏|も}れを{検知|けんち}する。",
-      "english": "To detect a gas leak.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "18762_kenchi_ex2",
-      "japanese": "センサーが{異常|いじょう}な{温度|おんど}を{検知|けんち}した。",
-      "english": "The sensor detected an abnormal temperature.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "18762_kenchi_ex3",
-      "japanese": "この{装置|そうち}は{微量|びりょう}の{有害|ゆうがい}ガスでも{検知|けんち}できる{性能|せいのう}を{持|も}っている。",
-      "english": "This device has the capability to detect even trace amounts of harmful gas.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "Often used with する to form the verb {検知|けんち}する (to detect). Common collocations: {検知|けんち}{器|き} (detector), {検知|けんち}センサー (detection sensor), {検知|けんち}{能力|のうりょく} (detection capability). Used primarily in technical and scientific contexts. Related: {検出|けんしゅつ} (detection — often used for laboratory analysis), {感知|かんち} (sensing — more general, includes human perception), {探知|たんち} (detection — often for searching/locating).",
-  "schema_version": "2.0",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "cognition"
-      ],
-      "domain": [
-        "technical"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-03-23T03:33:11Z",
-    "modified": "2026-03-23T03:33:11Z"
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -159,5 +94,66 @@
         "negative": "{検知|けんち}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "detection; sensing",
+      "explanation": "The act of detecting or identifying something, typically by a sensor, device, or system. Often used in technical contexts for automated detection of substances, signals, or conditions."
+    }
+  ],
+  "examples": [
+    {
+      "id": "18762_kenchi_ex1",
+      "japanese": "ガス{漏|も}れを{検知|けんち}する。",
+      "english": "To detect a gas leak.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "18762_kenchi_ex2",
+      "japanese": "センサーが{異常|いじょう}な{温度|おんど}を{検知|けんち}した。",
+      "english": "The sensor detected an abnormal temperature.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "18762_kenchi_ex3",
+      "japanese": "この{装置|そうち}は{微量|びりょう}の{有害|ゆうがい}ガスでも{検知|けんち}できる{性能|せいのう}を{持|も}っている。",
+      "english": "This device has the capability to detect even trace amounts of harmful gas.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "Often used with する to form the verb {検知|けんち}する (to detect). Common collocations: {検知|けんち}{器|き} (detector), {検知|けんち}センサー (detection sensor), {検知|けんち}{能力|のうりょく} (detection capability). Used primarily in technical and scientific contexts. Related: {検出|けんしゅつ} (detection — often used for laboratory analysis), {感知|かんち} (sensing — more general, includes human perception), {探知|たんち} (detection — often for searching/locating).",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "cognition"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-03-23T03:33:11Z",
+    "modified": "2026-03-23T03:33:11Z"
   }
 }

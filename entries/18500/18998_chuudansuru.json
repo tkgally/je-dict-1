@@ -2,71 +2,8 @@
   "id": "18998_chuudansuru",
   "headword": "{中断|ちゅうだん}する",
   "reading": "ちゅうだんする",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb, both",
   "gloss": "to interrupt; to suspend; to break off",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{中断|ちゅうだん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to interrupt; to suspend; to discontinue; to break off",
-      "explanation": "To stop an activity or process partway through, with the expectation or possibility of resuming later. Can be used both transitively (to interrupt something) and intransitively (something is interrupted)."
-    }
-  ],
-  "examples": [
-    {
-      "id": "18998_chuudansuru_ex1",
-      "japanese": "{工事|こうじ}が{中断|ちゅうだん}された。",
-      "english": "Construction was suspended.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "18998_chuudansuru_ex2",
-      "japanese": "{雨|あめ}で{試合|しあい}が{中断|ちゅうだん}した。",
-      "english": "The game was interrupted by rain.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "18998_chuudansuru_ex3",
-      "japanese": "サーバーの{障害|しょうがい}により、サービスが{一時的|いちじてき}に{中断|ちゅうだん}しております。",
-      "english": "Due to a server failure, the service has been temporarily suspended.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "Used both transitively ({作業|さぎょう}を{中断|ちゅうだん}する, to suspend work) and intransitively ({作業|さぎょう}が{中断|ちゅうだん}する, work is suspended). Unlike {中止|ちゅうし} (cancellation, permanent stop), {中断|ちゅうだん} implies the activity may be resumed. Common collocations: {一時|いちじ}{中断|ちゅうだん} (temporary interruption), {中断|ちゅうだん}なく (without interruption), {中断|ちゅうだん}を{余儀|よぎ}なくされる (to be forced to suspend).",
-  "schema_version": "2.0",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "transitivity": "both",
-      "verb_class": "suru"
-    },
-    "created": "2026-03-23T12:14:22Z",
-    "modified": "2026-03-23T12:14:22Z"
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -156,5 +93,64 @@
         "negative": "{中断|ちゅうだん}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to interrupt; to suspend; to discontinue; to break off",
+      "explanation": "To stop an activity or process partway through, with the expectation or possibility of resuming later. Can be used both transitively (to interrupt something) and intransitively (something is interrupted)."
+    }
+  ],
+  "examples": [
+    {
+      "id": "18998_chuudansuru_ex1",
+      "japanese": "{工事|こうじ}が{中断|ちゅうだん}された。",
+      "english": "Construction was suspended.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "18998_chuudansuru_ex2",
+      "japanese": "{雨|あめ}で{試合|しあい}が{中断|ちゅうだん}した。",
+      "english": "The game was interrupted by rain.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "18998_chuudansuru_ex3",
+      "japanese": "サーバーの{障害|しょうがい}により、サービスが{一時的|いちじてき}に{中断|ちゅうだん}しております。",
+      "english": "Due to a server failure, the service has been temporarily suspended.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "Used both transitively ({作業|さぎょう}を{中断|ちゅうだん}する, to suspend work) and intransitively ({作業|さぎょう}が{中断|ちゅうだん}する, work is suspended). Unlike {中止|ちゅうし} (cancellation, permanent stop), {中断|ちゅうだん} implies the activity may be resumed. Common collocations: {一時|いちじ}{中断|ちゅうだん} (temporary interruption), {中断|ちゅうだん}なく (without interruption), {中断|ちゅうだん}を{余儀|よぎ}なくされる (to be forced to suspend).",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "both",
+      "verb_class": "suru"
+    },
+    "created": "2026-03-23T12:14:22Z",
+    "modified": "2026-03-23T12:14:22Z"
   }
 }

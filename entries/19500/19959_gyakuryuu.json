@@ -3,71 +3,8 @@
   "headword": "{逆流|ぎゃくりゅう}",
   "reading": "ぎゃくりゅう",
   "romaji": "gyakuryuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "backflow; reverse flow; flowing backward",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{逆流|ぎゃくりゅう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "backflow; reverse flow; flowing backward",
-      "explanation": "The flow of liquid, gas, or other substances in the opposite direction from normal. Can be literal (water flowing upstream) or figurative (a reversal of trends)."
-    }
-  ],
-  "examples": [
-    {
-      "id": "19959_gyakuryuu_ex1",
-      "japanese": "{下水|げすい}が{逆流|ぎゃくりゅう}した。",
-      "english": "The sewage backed up.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "19959_gyakuryuu_ex2",
-      "japanese": "{大雨|おおあめ}で{川|かわ}の{水|みず}が{逆流|ぎゃくりゅう}した。",
-      "english": "The river water flowed backward due to heavy rain.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "19959_gyakuryuu_ex3",
-      "japanese": "{時代|じだい}の{流|なが}れに{逆流|ぎゃくりゅう}するような{政策|せいさく}だと{批判|ひはん}された。",
-      "english": "The policy was criticized as going against the flow of the times.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "Composed of {逆|ぎゃく} (reverse, opposite) + {流|りゅう} (flow, current). Used as both a noun and a する verb. Common in contexts involving plumbing, natural disasters, medicine (acid reflux), and figurative descriptions of going against trends.\n\nCOMMON COLLOCATIONS:\n- {逆流|ぎゃくりゅう}する: to flow backward\n- {逆流|ぎゃくりゅう}を{防|ふせ}ぐ: to prevent backflow\n- {胃酸|いさん}の{逆流|ぎゃくりゅう}: acid reflux (stomach acid flowing back up)\n- {逆流|ぎゃくりゅう}{防止|ぼうし}: backflow prevention\n\nSIMILAR WORDS:\n- {還流|かんりゅう}: reflux, return flow (technical/scientific term)\n- {氾濫|はんらん}: flooding, overflow (water exceeding its banks, not necessarily reversing)",
-  "schema_version": "2.0",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "nature",
-        "science"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-03-27T07:18:35Z",
-    "modified": "2026-03-27T07:18:35Z"
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -157,5 +94,64 @@
         "negative": "{逆流|ぎゃくりゅう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "backflow; reverse flow; flowing backward",
+      "explanation": "The flow of liquid, gas, or other substances in the opposite direction from normal. Can be literal (water flowing upstream) or figurative (a reversal of trends)."
+    }
+  ],
+  "examples": [
+    {
+      "id": "19959_gyakuryuu_ex1",
+      "japanese": "{下水|げすい}が{逆流|ぎゃくりゅう}した。",
+      "english": "The sewage backed up.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "19959_gyakuryuu_ex2",
+      "japanese": "{大雨|おおあめ}で{川|かわ}の{水|みず}が{逆流|ぎゃくりゅう}した。",
+      "english": "The river water flowed backward due to heavy rain.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "19959_gyakuryuu_ex3",
+      "japanese": "{時代|じだい}の{流|なが}れに{逆流|ぎゃくりゅう}するような{政策|せいさく}だと{批判|ひはん}された。",
+      "english": "The policy was criticized as going against the flow of the times.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "Composed of {逆|ぎゃく} (reverse, opposite) + {流|りゅう} (flow, current). Used as both a noun and a する verb. Common in contexts involving plumbing, natural disasters, medicine (acid reflux), and figurative descriptions of going against trends.\n\nCOMMON COLLOCATIONS:\n- {逆流|ぎゃくりゅう}する: to flow backward\n- {逆流|ぎゃくりゅう}を{防|ふせ}ぐ: to prevent backflow\n- {胃酸|いさん}の{逆流|ぎゃくりゅう}: acid reflux (stomach acid flowing back up)\n- {逆流|ぎゃくりゅう}{防止|ぼうし}: backflow prevention\n\nSIMILAR WORDS:\n- {還流|かんりゅう}: reflux, return flow (technical/scientific term)\n- {氾濫|はんらん}: flooding, overflow (water exceeding its banks, not necessarily reversing)",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "science"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-03-27T07:18:35Z",
+    "modified": "2026-03-27T07:18:35Z"
   }
 }

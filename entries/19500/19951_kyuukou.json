@@ -3,70 +3,8 @@
   "headword": "{休講|きゅうこう}",
   "reading": "きゅうこう",
   "romaji": "kyuukou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cancelled class; no lecture",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{休講|きゅうこう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "cancelled class; no lecture; class cancellation",
-      "explanation": "The cancellation of a scheduled university or school lecture, typically due to the instructor's absence, illness, or other circumstances."
-    }
-  ],
-  "examples": [
-    {
-      "id": "19951_kyuukou_ex1",
-      "japanese": "{今日|きょう}の{授業|じゅぎょう}は{休講|きゅうこう}です。",
-      "english": "Today's class is cancelled.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "19951_kyuukou_ex2",
-      "japanese": "{先生|せんせい}の{体調不良|たいちょうふりょう}で{休講|きゅうこう}になった。",
-      "english": "The class was cancelled because the teacher was unwell.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "19951_kyuukou_ex3",
-      "japanese": "{休講|きゅうこう}{情報|じょうほう}は{大学|だいがく}のウェブサイトで{確認|かくにん}してください。",
-      "english": "Please check the university website for class cancellation information.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "Composed of {休|きゅう} (rest, pause) + {講|こう} (lecture). Primarily used in university and school contexts. Used as a する verb: {休講|きゅうこう}する means 'to cancel a class' (from the instructor's side).\n\nCOMMON COLLOCATIONS:\n- {休講|きゅうこう}になる: a class gets cancelled\n- {休講|きゅうこう}する: to cancel a class (instructor's action)\n- {休講|きゅうこう}{情報|じょうほう}: class cancellation notice\n- {休講|きゅうこう}{届|とど}け: notification of class cancellation\n- {休講|きゅうこう}{掲示|けいじ}: posted cancellation announcement\n\nSIMILAR WORDS:\n- {休校|きゅうこう}: school closure (the entire school closes, e.g., for a typhoon)\n- {欠席|けっせき}: absence (a student missing class, not the class being cancelled)\n- {補講|ほこう}: make-up class (a rescheduled session to cover a cancelled one)",
-  "schema_version": "2.0",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "education"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-03-27T07:15:11Z",
-    "modified": "2026-03-27T07:15:11Z"
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -156,5 +94,63 @@
         "negative": "{休講|きゅうこう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "cancelled class; no lecture; class cancellation",
+      "explanation": "The cancellation of a scheduled university or school lecture, typically due to the instructor's absence, illness, or other circumstances."
+    }
+  ],
+  "examples": [
+    {
+      "id": "19951_kyuukou_ex1",
+      "japanese": "{今日|きょう}の{授業|じゅぎょう}は{休講|きゅうこう}です。",
+      "english": "Today's class is cancelled.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "19951_kyuukou_ex2",
+      "japanese": "{先生|せんせい}の{体調不良|たいちょうふりょう}で{休講|きゅうこう}になった。",
+      "english": "The class was cancelled because the teacher was unwell.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "19951_kyuukou_ex3",
+      "japanese": "{休講|きゅうこう}{情報|じょうほう}は{大学|だいがく}のウェブサイトで{確認|かくにん}してください。",
+      "english": "Please check the university website for class cancellation information.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "Composed of {休|きゅう} (rest, pause) + {講|こう} (lecture). Primarily used in university and school contexts. Used as a する verb: {休講|きゅうこう}する means 'to cancel a class' (from the instructor's side).\n\nCOMMON COLLOCATIONS:\n- {休講|きゅうこう}になる: a class gets cancelled\n- {休講|きゅうこう}する: to cancel a class (instructor's action)\n- {休講|きゅうこう}{情報|じょうほう}: class cancellation notice\n- {休講|きゅうこう}{届|とど}け: notification of class cancellation\n- {休講|きゅうこう}{掲示|けいじ}: posted cancellation announcement\n\nSIMILAR WORDS:\n- {休校|きゅうこう}: school closure (the entire school closes, e.g., for a typhoon)\n- {欠席|けっせき}: absence (a student missing class, not the class being cancelled)\n- {補講|ほこう}: make-up class (a rescheduled session to cover a cancelled one)",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-03-27T07:15:11Z",
+    "modified": "2026-03-27T07:15:11Z"
   }
 }

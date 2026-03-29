@@ -3,72 +3,8 @@
   "id": "18643_netsubou",
   "headword": "{熱望|ねつぼう}",
   "reading": "ねつぼう",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ardent desire; fervent wish",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{熱望|ねつぼう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "ardent desire; fervent wish; burning aspiration",
-      "explanation": "An intense, passionate desire for something. Stronger than {希望|きぼう} (hope) or {願望|がんぼう} (wish), conveying urgency and emotional intensity."
-    }
-  ],
-  "examples": [
-    {
-      "id": "18643_netsubou_ex1",
-      "japanese": "{平和|へいわ}を{熱望|ねつぼう}する。",
-      "english": "To fervently desire peace.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "18643_netsubou_ex2",
-      "japanese": "ファンが{続編|ぞくへん}を{熱望|ねつぼう}している。",
-      "english": "Fans are eagerly hoping for a sequel.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "18643_netsubou_ex3",
-      "japanese": "{長年|ながねん}{熱望|ねつぼう}していた{海外|かいがい}{留学|りゅうがく}がついに{実現|じつげん}した。",
-      "english": "The study abroad that I had fervently wished for over many years finally came true.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "A compound of {熱|ねつ} (heat, passion) + {望|ぼう} (hope, desire). Conveys an intense, burning desire — much stronger than ordinary wanting.\n\nREGISTER:\nFormal and literary. Common in news, essays, and written narrative. Rarely used in casual conversation.\n\nCOMMON PATTERNS:\n- {熱望|ねつぼう}する: to ardently desire\n- {熱望|ねつぼう}されている: to be eagerly awaited\n- {長年|ながねん}の{熱望|ねつぼう}: long-held ardent wish\n\nSIMILAR WORDS (intensity scale):\n- {希望|きぼう}: hope, wish (neutral)\n- {願望|がんぼう}: desire, aspiration (stronger)\n- {渇望|かつぼう}: craving, yearning (desperate)\n- {熱望|ねつぼう}: fervent desire (passionate, burning)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-29T03:08:58Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "emotion",
-        "desire"
-      ],
-      "verb_class": "suru"
-    }
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -158,5 +94,65 @@
         "negative": "{熱望|ねつぼう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "ardent desire; fervent wish; burning aspiration",
+      "explanation": "An intense, passionate desire for something. Stronger than {希望|きぼう} (hope) or {願望|がんぼう} (wish), conveying urgency and emotional intensity."
+    }
+  ],
+  "examples": [
+    {
+      "id": "18643_netsubou_ex1",
+      "japanese": "{平和|へいわ}を{熱望|ねつぼう}する。",
+      "english": "To fervently desire peace.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "18643_netsubou_ex2",
+      "japanese": "ファンが{続編|ぞくへん}を{熱望|ねつぼう}している。",
+      "english": "Fans are eagerly hoping for a sequel.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "18643_netsubou_ex3",
+      "japanese": "{長年|ながねん}{熱望|ねつぼう}していた{海外|かいがい}{留学|りゅうがく}がついに{実現|じつげん}した。",
+      "english": "The study abroad that I had fervently wished for over many years finally came true.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "A compound of {熱|ねつ} (heat, passion) + {望|ぼう} (hope, desire). Conveys an intense, burning desire — much stronger than ordinary wanting.\n\nREGISTER:\nFormal and literary. Common in news, essays, and written narrative. Rarely used in casual conversation.\n\nCOMMON PATTERNS:\n- {熱望|ねつぼう}する: to ardently desire\n- {熱望|ねつぼう}されている: to be eagerly awaited\n- {長年|ながねん}の{熱望|ねつぼう}: long-held ardent wish\n\nSIMILAR WORDS (intensity scale):\n- {希望|きぼう}: hope, wish (neutral)\n- {願望|がんぼう}: desire, aspiration (stronger)\n- {渇望|かつぼう}: craving, yearning (desperate)\n- {熱望|ねつぼう}: fervent desire (passionate, burning)",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-03-22T10:41:08Z",
+    "modified": "2026-03-29T03:08:58Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "emotion",
+        "desire"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

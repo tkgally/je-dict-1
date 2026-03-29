@@ -7,77 +7,6 @@
   "gloss": "deceleration, slowdown",
   "conjugation": {
     "type": "suru",
-    "prefix": "{減速|げんそく}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "deceleration, slowdown, slowing down",
-      "explanation": "Reducing speed, whether of a vehicle, economic growth, or other process. The opposite of acceleration."
-    }
-  ],
-  "examples": [
-    {
-      "id": "13336_gensoku_deceleration_ex1",
-      "japanese": "カーブの{手前|てまえ}で{減速|げんそく}した。",
-      "english": "I slowed down before the curve.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "13336_gensoku_deceleration_ex2",
-      "japanese": "{経済|けいざい}{成長|せいちょう}が{減速|げんそく}している。",
-      "english": "Economic growth is slowing down.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "13336_gensoku_deceleration_ex3",
-      "japanese": "{工事|こうじ}{区間|くかん}では{車両|しゃりょう}の{減速|げんそく}が{義務|ぎむ}づけられている。",
-      "english": "Vehicles are required to slow down in construction zones.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\nUsed for both physical deceleration (vehicles, machinery) and figurative slowdowns (economic growth, project progress). The opposite is {加速|かそく} (acceleration).\n\nNot to be confused with the homophone {原則|げんそく} (principle, general rule).\n\nCOMMON COLLOCATIONS:\n- {減速|げんそく}する: to decelerate, to slow down\n- {急|きゅう}{減速|げんそく}: sudden deceleration\n- {経済|けいざい}の{減速|げんそく}: economic slowdown\n- {減速|げんそく}{車線|しゃせん}: deceleration lane",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "かそく",
-      "headword": "{加速|かそく}",
-      "label": "acceleration"
-    }
-  ],
-  "metadata": {
-    "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-03-29T03:07:35Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "motion",
-        "economics"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -165,5 +94,73 @@
         "negative": "{減速|げんそく}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "deceleration, slowdown, slowing down",
+      "explanation": "Reducing speed, whether of a vehicle, economic growth, or other process. The opposite of acceleration."
+    }
+  ],
+  "examples": [
+    {
+      "id": "13336_gensoku_deceleration_ex1",
+      "japanese": "カーブの{手前|てまえ}で{減速|げんそく}した。",
+      "english": "I slowed down before the curve.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "13336_gensoku_deceleration_ex2",
+      "japanese": "{経済|けいざい}{成長|せいちょう}が{減速|げんそく}している。",
+      "english": "Economic growth is slowing down.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "13336_gensoku_deceleration_ex3",
+      "japanese": "{工事|こうじ}{区間|くかん}では{車両|しゃりょう}の{減速|げんそく}が{義務|ぎむ}づけられている。",
+      "english": "Vehicles are required to slow down in construction zones.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\nUsed for both physical deceleration (vehicles, machinery) and figurative slowdowns (economic growth, project progress). The opposite is {加速|かそく} (acceleration).\n\nNot to be confused with the homophone {原則|げんそく} (principle, general rule).\n\nCOMMON COLLOCATIONS:\n- {減速|げんそく}する: to decelerate, to slow down\n- {急|きゅう}{減速|げんそく}: sudden deceleration\n- {経済|けいざい}の{減速|げんそく}: economic slowdown\n- {減速|げんそく}{車線|しゃせん}: deceleration lane",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "かそく",
+      "headword": "{加速|かそく}",
+      "label": "acceleration",
+      "target_id": "00198_kasoku"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-24T10:00:26Z",
+    "modified": "2026-03-29T10:42:23Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "motion",
+        "economics"
+      ],
+      "verb_class": "suru"
+    }
   }
 }
