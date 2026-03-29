@@ -595,14 +595,14 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         html_parts.append(', '.join(ref_links))
         html_parts.append('</div>')
 
-    html_parts.append('</div>')  # Close entry-header
-
-    # Conjugation table (verbs only — rendered from the conjugation field)
+    # Conjugation table (verbs only — inside entry-header, after gloss/cross-refs)
     conjugation = entry.get('conjugation')
     if conjugation:
         conj_html = generate_conjugation_html(conjugation)
         if conj_html:
             html_parts.append(conj_html)
+
+    html_parts.append('</div>')  # Close entry-header
 
     # Definitions and Examples
     definitions = entry.get('definitions', [])
