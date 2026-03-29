@@ -6,87 +6,6 @@
   "gloss": "score",
   "conjugation": {
     "type": "suru",
-    "prefix": "{得点|とくてん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "score, points",
-      "explanation": "Points earned in a game, test, or competition."
-    }
-  ],
-  "examples": [
-    {
-      "id": "04909_tokuten_ex1",
-      "japanese": "{得点|とくてん}を{稼|かせ}ぐ。",
-      "english": "Score points.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04909_tokuten_ex2",
-      "japanese": "{最終|さいしゅう}{得点|とくてん}は３対２だった。",
-      "english": "The final score was 3-2.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04909_tokuten_ex3",
-      "japanese": "テストの{得点|とくてん}が{低|ひく}かった。",
-      "english": "The test score was low.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{得点|とくてん} refers to points earned in sports, games, tests, or competitions.\n\nCOMMON EXPRESSIONS:\n- {得点|とくてん}する: to score\n- {得点|とくてん}を{挙|あ}げる: to score, earn points\n- {得点|とくてん}を{稼|かせ}ぐ: to rack up points\n- {得点|とくてん}{王|おう}: scoring champion/leader\n- {最高|さいこう}{得点|とくてん}: highest score\n- {合計|ごうけい}{得点|とくてん}: total score\n\nCONTEXTS:\n- Sports: {試合|しあい}で{得点|とくてん}する (score in a game)\n- Tests: テストの{得点|とくてん} (test score)\n- Games: ゲームの{得点|とくてん} (game score)\n\nCONTRAST:\n- {得点|とくてん}: points scored/earned\n- {失点|しってん}: points lost/conceded\n- {点数|てんすう}: score, marks (more general term for numerical scores)",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "しってん",
-      "headword": "{失点|しってん}",
-      "label": "points lost"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T00:35:11Z",
-    "modified": "2026-03-29T03:04:32Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "domain": [
-        "academic"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "education"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "13469_tokuten",
-      "reading": "とくてん",
-      "headword": "{特典|とくてん}",
-      "note": "bonus, perk"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -174,5 +93,83 @@
         "negative": "{得点|とくてん}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "score, points",
+      "explanation": "Points earned in a game, test, or competition."
+    }
+  ],
+  "examples": [
+    {
+      "id": "04909_tokuten_ex1",
+      "japanese": "{得点|とくてん}を{稼|かせ}ぐ。",
+      "english": "Score points.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04909_tokuten_ex2",
+      "japanese": "{最終|さいしゅう}{得点|とくてん}は３対２だった。",
+      "english": "The final score was 3-2.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04909_tokuten_ex3",
+      "japanese": "テストの{得点|とくてん}が{低|ひく}かった。",
+      "english": "The test score was low.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{得点|とくてん} refers to points earned in sports, games, tests, or competitions.\n\nCOMMON EXPRESSIONS:\n- {得点|とくてん}する: to score\n- {得点|とくてん}を{挙|あ}げる: to score, earn points\n- {得点|とくてん}を{稼|かせ}ぐ: to rack up points\n- {得点|とくてん}{王|おう}: scoring champion/leader\n- {最高|さいこう}{得点|とくてん}: highest score\n- {合計|ごうけい}{得点|とくてん}: total score\n\nCONTEXTS:\n- Sports: {試合|しあい}で{得点|とくてん}する (score in a game)\n- Tests: テストの{得点|とくてん} (test score)\n- Games: ゲームの{得点|とくてん} (game score)\n\nCONTRAST:\n- {得点|とくてん}: points scored/earned\n- {失点|しってん}: points lost/conceded\n- {点数|てんすう}: score, marks (more general term for numerical scores)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "しってん",
+      "headword": "{失点|しってん}",
+      "label": "points lost",
+      "target_id": "19150_shitten"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T00:35:11Z",
+    "modified": "2026-03-29T10:42:23Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "domain": [
+        "academic"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "13469_tokuten",
+      "reading": "とくてん",
+      "headword": "{特典|とくてん}",
+      "note": "bonus, perk"
+    }
+  ]
 }

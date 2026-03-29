@@ -7,88 +7,6 @@
   "gloss": "borrowing (formal)",
   "conjugation": {
     "type": "suru",
-    "prefix": "{借用|しゃくよう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "borrowing; using something borrowed",
-      "explanation": "Formally borrowing something from someone, such as equipment, a room, or a concept. Used in administrative, legal, and academic contexts."
-    }
-  ],
-  "examples": [
-    {
-      "id": "17718_shakuyou_ex1",
-      "japanese": "{会議室|かいぎしつ}を{借用|しゃくよう}する。",
-      "english": "To borrow a meeting room.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "17718_shakuyou_ex2",
-      "japanese": "{借用書|しゃくようしょ}に{署名|しょめい}してから{備品|びひん}を{受|う}け{取|と}ってください。",
-      "english": "Please sign the borrowing form before receiving the equipment.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "17718_shakuyou_ex3",
-      "japanese": "{英語|えいご}には{日本語|にほんご}から{借用|しゃくよう}された{言葉|ことば}が{数多|かずおお}くある。",
-      "english": "There are many words in English that were borrowed from Japanese.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\n{借用|しゃくよう} is a formal word for borrowing. In everyday speech, {借|か}りる is used instead. {借用|しゃくよう} also applies to linguistic borrowing ({借用語|しゃくようご} = loanword).\n\nCOMMON COLLOCATIONS:\n- {借用書|しゃくようしょ} (borrowing form, IOU)\n- {借用語|しゃくようご} (loanword)\n- {借用|しゃくよう}{期間|きかん} (borrowing period)\n\nSIMILAR WORDS:\n{借|か}りる is the everyday word for borrowing. {借用|しゃくよう} is used in formal or institutional settings.",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "reading": "たいよ",
-      "headword": "{貸与|たいよ}",
-      "label": "lending (formal)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-03-18T14:40:05Z",
-    "modified": "2026-03-29T03:08:18Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "domain": [
-        "business"
-      ],
-      "semantic": [
-        "transaction"
-      ],
-      "transitivity": "transitive",
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "17810_shakuyousuru",
-      "reading": "しゃくようする",
-      "headword": "{借用|しゃくよう}する",
-      "note": "verb form"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -176,5 +94,84 @@
         "negative": "{借用|しゃくよう}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "borrowing; using something borrowed",
+      "explanation": "Formally borrowing something from someone, such as equipment, a room, or a concept. Used in administrative, legal, and academic contexts."
+    }
+  ],
+  "examples": [
+    {
+      "id": "17718_shakuyou_ex1",
+      "japanese": "{会議室|かいぎしつ}を{借用|しゃくよう}する。",
+      "english": "To borrow a meeting room.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "17718_shakuyou_ex2",
+      "japanese": "{借用書|しゃくようしょ}に{署名|しょめい}してから{備品|びひん}を{受|う}け{取|と}ってください。",
+      "english": "Please sign the borrowing form before receiving the equipment.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "17718_shakuyou_ex3",
+      "japanese": "{英語|えいご}には{日本語|にほんご}から{借用|しゃくよう}された{言葉|ことば}が{数多|かずおお}くある。",
+      "english": "There are many words in English that were borrowed from Japanese.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\n{借用|しゃくよう} is a formal word for borrowing. In everyday speech, {借|か}りる is used instead. {借用|しゃくよう} also applies to linguistic borrowing ({借用語|しゃくようご} = loanword).\n\nCOMMON COLLOCATIONS:\n- {借用書|しゃくようしょ} (borrowing form, IOU)\n- {借用語|しゃくようご} (loanword)\n- {借用|しゃくよう}{期間|きかん} (borrowing period)\n\nSIMILAR WORDS:\n{借|か}りる is the everyday word for borrowing. {借用|しゃくよう} is used in formal or institutional settings.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "たいよ",
+      "headword": "{貸与|たいよ}",
+      "label": "lending (formal)",
+      "target_id": "15912_taiyo"
+    }
+  ],
+  "metadata": {
+    "created": "2026-03-18T14:40:05Z",
+    "modified": "2026-03-29T10:42:23Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "transaction"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "17810_shakuyousuru",
+      "reading": "しゃくようする",
+      "headword": "{借用|しゃくよう}する",
+      "note": "verb form"
+    }
+  ]
 }

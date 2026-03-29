@@ -3,70 +3,8 @@
   "headword": "{遂行|すいこう}する",
   "reading": "すいこうする",
   "romaji": "suikousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb, transitive",
   "gloss": "to accomplish; to carry out; to execute",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{遂行|すいこう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to accomplish; to carry out; to execute (a task or mission)",
-      "explanation": "To carry something through to completion, especially a task, mission, or duty. Implies determination and thoroughness in seeing something through."
-    }
-  ],
-  "examples": [
-    {
-      "id": "20156_suikousuru_ex1",
-      "japanese": "{任務|にんむ}を{遂行|すいこう}する。",
-      "english": "To carry out a mission.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "20156_suikousuru_ex2",
-      "japanese": "{計画|けいかく}を{確実|かくじつ}に{遂行|すいこう}する。",
-      "english": "To reliably carry out a plan.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "20156_suikousuru_ex3",
-      "japanese": "{困難|こんなん}な{状況|じょうきょう}でも{職務|しょくむ}を{遂行|すいこう}しなければならない。",
-      "english": "Even in difficult circumstances, one must carry out one's duties.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "A する-verb from {遂行|すいこう}, a compound of {遂|すい} (accomplish, finally) and {行|こう} (perform). Formal and somewhat stiff; common in business, military, and official contexts. Emphasizes carrying a task through to completion.\n\nTRANSITIVITY:\nTransitive — takes を to mark the task being accomplished.\n\nCOMMON COLLOCATIONS:\n- {任務|にんむ}を{遂行|すいこう}する — to carry out a mission\n- {職務|しょくむ}を{遂行|すいこう}する — to perform one's duties\n- {計画|けいかく}を{遂行|すいこう}する — to execute a plan\n- {作戦|さくせん}を{遂行|すいこう}する — to carry out an operation\n\nSIMILAR WORDS:\n- {実行|じっこう}する — to execute, to carry out (more general, less formal)\n- {履行|りこう}する — to fulfill (specifically obligations and contracts)\n- {達成|たっせい}する — to achieve, to accomplish (focuses on reaching a goal)",
-  "schema_version": "2.0",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "transitivity": "transitive",
-      "verb_class": "suru"
-    },
-    "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -156,5 +94,64 @@
         "negative": "{遂行|すいこう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to accomplish; to carry out; to execute (a task or mission)",
+      "explanation": "To carry something through to completion, especially a task, mission, or duty. Implies determination and thoroughness in seeing something through."
+    }
+  ],
+  "examples": [
+    {
+      "id": "20156_suikousuru_ex1",
+      "japanese": "{任務|にんむ}を{遂行|すいこう}する。",
+      "english": "To carry out a mission.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "20156_suikousuru_ex2",
+      "japanese": "{計画|けいかく}を{確実|かくじつ}に{遂行|すいこう}する。",
+      "english": "To reliably carry out a plan.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "20156_suikousuru_ex3",
+      "japanese": "{困難|こんなん}な{状況|じょうきょう}でも{職務|しょくむ}を{遂行|すいこう}しなければならない。",
+      "english": "Even in difficult circumstances, one must carry out one's duties.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "A する-verb from {遂行|すいこう}, a compound of {遂|すい} (accomplish, finally) and {行|こう} (perform). Formal and somewhat stiff; common in business, military, and official contexts. Emphasizes carrying a task through to completion.\n\nTRANSITIVITY:\nTransitive — takes を to mark the task being accomplished.\n\nCOMMON COLLOCATIONS:\n- {任務|にんむ}を{遂行|すいこう}する — to carry out a mission\n- {職務|しょくむ}を{遂行|すいこう}する — to perform one's duties\n- {計画|けいかく}を{遂行|すいこう}する — to execute a plan\n- {作戦|さくせん}を{遂行|すいこう}する — to carry out an operation\n\nSIMILAR WORDS:\n- {実行|じっこう}する — to execute, to carry out (more general, less formal)\n- {履行|りこう}する — to fulfill (specifically obligations and contracts)\n- {達成|たっせい}する — to achieve, to accomplish (focuses on reaching a goal)",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
+    },
+    "created": "2026-03-28T15:12:49Z",
+    "modified": "2026-03-28T15:12:49Z"
   }
 }

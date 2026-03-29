@@ -3,70 +3,8 @@
   "headword": "{点灯|てんとう}する",
   "reading": "てんとうする",
   "romaji": "tentousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to light; to turn on (a light); to illuminate",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{点灯|てんとう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to light; to turn on (a light); to illuminate",
-      "explanation": "To switch on or ignite a light source. Used for both modern electric lights and traditional lighting."
-    }
-  ],
-  "examples": [
-    {
-      "id": "20211_tentousuru_ex1",
-      "japanese": "{街灯|がいとう}が{点灯|てんとう}した。",
-      "english": "The streetlights turned on.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "20211_tentousuru_ex2",
-      "japanese": "クリスマスツリーのイルミネーションが{点灯|てんとう}された。",
-      "english": "The Christmas tree illumination was lit.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "20211_tentousuru_ex3",
-      "japanese": "{夕方|ゆうがた}になると{自動的|じどうてき}にセンサーが{反応|はんのう}して、{庭|にわ}のライトが{点灯|てんとう}する{仕組|しく}みになっている。",
-      "english": "In the evening, the sensor activates automatically and the garden lights turn on.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "A somewhat formal word for turning on lights. In everyday speech, {電気|でんき}をつける (to turn on the light) is more common. {点灯|てんとう}する is preferred in technical, official, and ceremonial contexts such as illumination events.\n\nCOMMON COLLOCATIONS:\n- {点灯|てんとう}{式|しき}: lighting ceremony\n- {点灯|てんとう}{時間|じかん}: lighting time\n- {点灯|てんとう}{確認|かくにん}: light check\n- ランプが{点灯|てんとう}する: a lamp lights up\n- {警告灯|けいこくとう}が{点灯|てんとう}する: a warning light comes on\n\nSIMILAR WORDS:\n- つける: to turn on — everyday word for lights and appliances\n- {点|つ}く: to come on (intransitive) — the light turns on by itself\n- {消灯|しょうとう}する: to turn off lights — the antonym",
-  "schema_version": "2.0",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-03-28T17:10:31Z",
-    "modified": "2026-03-28T17:10:31Z"
-  },
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -156,5 +94,63 @@
         "negative": "{点灯|てんとう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to light; to turn on (a light); to illuminate",
+      "explanation": "To switch on or ignite a light source. Used for both modern electric lights and traditional lighting."
+    }
+  ],
+  "examples": [
+    {
+      "id": "20211_tentousuru_ex1",
+      "japanese": "{街灯|がいとう}が{点灯|てんとう}した。",
+      "english": "The streetlights turned on.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "20211_tentousuru_ex2",
+      "japanese": "クリスマスツリーのイルミネーションが{点灯|てんとう}された。",
+      "english": "The Christmas tree illumination was lit.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "20211_tentousuru_ex3",
+      "japanese": "{夕方|ゆうがた}になると{自動的|じどうてき}にセンサーが{反応|はんのう}して、{庭|にわ}のライトが{点灯|てんとう}する{仕組|しく}みになっている。",
+      "english": "In the evening, the sensor activates automatically and the garden lights turn on.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "A somewhat formal word for turning on lights. In everyday speech, {電気|でんき}をつける (to turn on the light) is more common. {点灯|てんとう}する is preferred in technical, official, and ceremonial contexts such as illumination events.\n\nCOMMON COLLOCATIONS:\n- {点灯|てんとう}{式|しき}: lighting ceremony\n- {点灯|てんとう}{時間|じかん}: lighting time\n- {点灯|てんとう}{確認|かくにん}: light check\n- ランプが{点灯|てんとう}する: a lamp lights up\n- {警告灯|けいこくとう}が{点灯|てんとう}する: a warning light comes on\n\nSIMILAR WORDS:\n- つける: to turn on — everyday word for lights and appliances\n- {点|つ}く: to come on (intransitive) — the light turns on by itself\n- {消灯|しょうとう}する: to turn off lights — the antonym",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-03-28T17:10:31Z",
+    "modified": "2026-03-28T17:10:31Z"
   }
 }

@@ -6,8 +6,93 @@
   "gloss": "to float, to rise to the surface",
   "conjugation": {
     "type": "godan",
-    "ending": "く",
-    "stem": "{浮|う}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{浮|う}く",
+        "negative": "{浮|う}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{浮|う}きます",
+        "negative": "{浮|う}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{浮|う}いた",
+        "negative": "{浮|う}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{浮|う}きました",
+        "negative": "{浮|う}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{浮|う}いて",
+        "negative": "{浮|う}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{浮|う}いている",
+        "negative": "{浮|う}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{浮|う}いています",
+        "negative": "{浮|う}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{浮|う}いていた",
+        "negative": "{浮|う}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{浮|う}いていました",
+        "negative": "{浮|う}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{浮|う}けば",
+        "negative": "{浮|う}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{浮|う}いたら",
+        "negative": "{浮|う}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{浮|う}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{浮|う}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{浮|う}ける",
+        "negative": "{浮|う}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{浮|う}かれる",
+        "negative": "{浮|う}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{浮|う}かせる",
+        "negative": "{浮|う}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{浮|う}け",
+        "negative": "{浮|う}くな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -124,12 +209,13 @@
       "type": "pair",
       "reading": "うかべる",
       "headword": "{浮|う}かべる",
-      "label": "transitive"
+      "label": "transitive",
+      "target_id": "13314_ukaberu"
     }
   ],
   "metadata": {
     "created": "2026-01-13T00:40:50Z",
-    "modified": "2026-03-29T03:02:24Z",
+    "modified": "2026-03-29T10:42:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -143,95 +229,5 @@
       ],
       "verb_class": "godan-ku"
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{浮|う}く",
-        "negative": "{浮|う}かない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{浮|う}きます",
-        "negative": "{浮|う}きません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{浮|う}いた",
-        "negative": "{浮|う}かなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{浮|う}きました",
-        "negative": "{浮|う}きませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{浮|う}いて",
-        "negative": "{浮|う}かなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{浮|う}いている",
-        "negative": "{浮|う}いていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{浮|う}いています",
-        "negative": "{浮|う}いていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{浮|う}いていた",
-        "negative": "{浮|う}いていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{浮|う}いていました",
-        "negative": "{浮|う}いていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{浮|う}けば",
-        "negative": "{浮|う}かなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{浮|う}いたら",
-        "negative": "{浮|う}かなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{浮|う}こう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{浮|う}きましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{浮|う}ける",
-        "negative": "{浮|う}けない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{浮|う}かれる",
-        "negative": "{浮|う}かれない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{浮|う}かせる",
-        "negative": "{浮|う}かせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{浮|う}け",
-        "negative": "{浮|う}くな"
-      }
-    ]
   }
 }
