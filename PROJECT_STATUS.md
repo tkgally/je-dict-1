@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 535)
+Added 30 new dictionary entries (IDs 20403-20432) from candidate_words.json. A mix of everyday vocabulary, cultural terms, and useful expressions for intermediate learners.
+
+- **Na-adjectives (3)**: {長期的|ちょうきてき} (long-term), {五分五分|ごぶごぶ} (fifty-fifty), {耳寄|みみよ}り (welcome news)
+- **Expressions (3)**: {気|き}を{悪|わる}くする (to take offense), やる{気|き}{満々|まんまん} (full of motivation), {殻|から}をむく (to peel/shell)
+- **Nouns (24)**: ホチキス (stapler), {試作|しさく} (prototype), {近眼|きんがん} (nearsightedness), {流星群|りゅうせいぐん} (meteor shower), {仮想現実|かそうげんじつ} (virtual reality), {見栄|みえ}っ{張|ぱ}り (show-off), ひっきりなしに (continuously), {上半期|かみはんき} (first half of year), {誤変換|ごへんかん} (incorrect kanji conversion), {指数|しすう} (index/exponent), {新聞紙|しんぶんし} (newspaper material), {減産|げんさん} (production cut), {社会復帰|しゃかいふっき} (return to society), {雑食|ざっしょく} (omnivorous), {再発防止|さいはつぼうし} (recurrence prevention), {携帯番号|けいたいばんごう} (mobile number), {現世|げんせ} (this world), {真綿|まわた} (silk floss), {調合|ちょうごう} (compounding), {屋台骨|やたいぼね} (backbone/foundation), {弥生時代|やよいじだい} (Yayoi period), {目立|めだ}ちたがり{屋|や} (attention seeker), {江戸時代|えどじだい} (Edo period), {通告|つうこく} (formal notice)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 22 New Entries, Session 534)
 Added 22 new dictionary entries (IDs 20381-20402) from candidate_words.json. A diverse mix of practical vocabulary covering emotions, nature, culture, daily life, and abstract concepts.
 
@@ -91,13 +99,6 @@ Added 30 new dictionary entries (IDs 20291-20320) from candidate_words.json. Div
 - **Other (5)**: {優秀|ゆうしゅう}な (excellent), {放|ほう}り{投|な}げる (to throw away), {日焼|ひや}けする (to sunburn/fade), だもん (because - casual), {運転|うんてん}する (to drive)
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-28 (Vocabulary Expansion - 30 New Entries, Session 530)
-Added 30 new dictionary entries (IDs 20261-20290) from candidate_words.json. Diverse vocabulary for intermediate learners covering daily life, culture, business, nature, and more.
-
-- **Verbs (4)**: {呆|あき}れ{果|は}てる (to be utterly dumbfounded), {高鳴|たかな}る (to throb/beat fast), {食|た}べ{歩|ある}く (to eat one's way around), {取|と}り{立|た}てる (to collect forcibly/single out/promote)
-- **Adjectives (3)**: {目新|めあたら}しい (novel), {型破|かたやぶ}り (unconventional), {小|こ}ぶり (smallish)
-- **Nouns (23)**: {横並|よこなら}び (side by side/conformity), {無駄骨|むだぼね} (wasted effort), {密輸|みつゆ} (smuggling), {直営|ちょくえい} (direct management), {夜風|よかぜ} (night breeze), {質疑|しつぎ} (Q&A), {林業|りんぎょう} (forestry), {停泊|ていはく} (anchoring), {配達員|はいたついん} (delivery person), {最高級|さいこうきゅう} (highest grade), {母子|ぼし} (mother and child), {返礼品|へんれいひん} (return gift), {展覧|てんらん} (exhibition), {送|おく}り{状|じょう} (shipping label), {陣痛|じんつう} (labor pains), {火災保険|かさいほけん} (fire insurance), {登校日|とうこうび} (school attendance day), {眼球|がんきゅう} (eyeball), {贈答用|ぞうとうよう} (for gift-giving), {農道|のうどう} (farm road), {質問者|しつもんしゃ} (questioner), {天気図|てんきず} (weather map), {募集要項|ぼしゅうようこう} (application guidelines)
-- Removed 8 stale candidates (duplicates of existing entries: 感動する, 密閉する, 考案する, 左右する, etc.)
 
 ---
 
