@@ -262,9 +262,18 @@ def _detect_verb_type(entry: dict) -> tuple:
             prefix = ''
         return 'kuru', {'prefix': prefix}
 
-    # Detect ずる verbs (e.g., 断ずる, 感ずる) — must come before ichidan
+    # Detect ずる verbs (e.g., 断ずる, 案ずる, 準ずる) — must come before ichidan
     # These are classical verbs that conjugate with a じ stem in modern Japanese.
-    if reading.endswith('ずる') or 'ずる' in pos:
+    # Be careful NOT to match godan verbs that happen to end in ずる (譲る, 削る,
+    # 引きずる, さえずる, ぐずる, バズる, etc.) — those are godan-ru verbs.
+    # Match only when: POS explicitly says ずる, OR reading ends in ずる and the
+    # entry is NOT already tagged as godan.
+    if 'ずる' in pos or (
+        reading.endswith('ずる')
+        and 'godan' not in pos
+        and 'verb-godan' not in pos_tags
+        and not (verb_class and 'godan' in verb_class)
+    ):
         stem = _strip_suffix_from_headword(headword, 'ずる')
         if stem != headword:
             return 'zuru', {'stem': stem}
