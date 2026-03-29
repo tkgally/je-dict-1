@@ -24,7 +24,9 @@
       "english": "A pleasant breeze is blowing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12571_kokoroyoi_ex2",
@@ -32,7 +34,9 @@
       "english": "Pleasant music was playing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12571_kokoroyoi_ex3",
@@ -40,7 +44,9 @@
       "english": "A morning walk brings a pleasant tiredness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12571_kokoroyoi_ex4",
@@ -48,7 +54,9 @@
       "english": "They gladly agreed to take it on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12571_kokoroyoi_ex5",
@@ -56,7 +64,9 @@
       "english": "When I asked, they readily consented.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12571_kokoroyoi_ex6",
@@ -64,7 +74,9 @@
       "english": "The teacher willingly wrote a letter of recommendation for me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 describes physical or sensory pleasantness and tends toward literary usage. Sense 2 is the more common everyday usage — the adverb form {快|こころよ}く followed by a verb of acceptance is a set pattern meaning \"gladly, willingly.\"\n\nGRAMMAR:\nI-adjective. The adverb form {快|こころよ}く is used especially for sense 2.\n\nCOMMON COLLOCATIONS:\n- {快|こころよ}く{引|ひ}き{受|う}ける: to gladly accept\n- {快|こころよ}く{承諾|しょうだく}する: to readily consent\n- {快|こころよ}い{風|かぜ}: a pleasant breeze\n- {快|こころよ}い{返事|へんじ}: a favorable reply",
@@ -75,10 +87,50 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion-positive", "sensation"]
+      "semantic": [
+        "emotion-positive",
+        "sensation"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{快|こころよ}い",
+        "negative": "{快|こころよ}くない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{快|こころよ}かった",
+        "negative": "{快|こころよ}くなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{快|こころよ}くて",
+        "negative": "{快|こころよ}くなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{快|こころよ}く",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{快|こころよ}ければ",
+        "negative": "{快|こころよ}くなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{快|こころよ}かったら",
+        "negative": "{快|こころよ}くなかったら"
+      }
+    ]
   }
 }

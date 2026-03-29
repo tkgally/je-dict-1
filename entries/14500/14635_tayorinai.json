@@ -19,7 +19,9 @@
       "english": "He's a bit unreliable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14635_tayorinai_ex2",
@@ -27,7 +29,9 @@
       "english": "I felt uneasy at the wishy-washy reply.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14635_tayorinai_ex3",
@@ -35,7 +39,9 @@
       "english": "He seemed unreliable when he first joined the company, but now he's fully competent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "An i-adjective formed from {頼|たよ}り (reliance) + ない (not). Literally \"not reliable.\"\n\nFORMS:\n- Adverbial: {頼|たよ}りなく\n- Noun form: {頼|たよ}りなさ\n\nCOMMON COLLOCATIONS:\n- {頼|たよ}りない{人|ひと}: an unreliable person\n- {頼|たよ}りない{返事|へんじ}: a vague/uncertain reply\n- {頼|たよ}りなく{見|み}える: to look unreliable\n- {頼|たよ}りない{足取|あしど}り: unsteady steps\n\nCONTRAST:\n- {頼|たよ}もしい: reliable, reassuring, dependable (opposite)\n- {頼|たよ}りになる: to be someone you can count on\n- {頼|たよ}りない: undependable, inspiring no confidence\n\nNOTE:\nOften used to describe people who seem inexperienced or lacking confidence, not necessarily those who break promises.",
@@ -46,10 +52,49 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{頼|たよ}りない",
+        "negative": "{頼|たよ}りなくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{頼|たよ}りなかった",
+        "negative": "{頼|たよ}りなくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{頼|たよ}りなくて",
+        "negative": "{頼|たよ}りなくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{頼|たよ}りなく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{頼|たよ}りなければ",
+        "negative": "{頼|たよ}りなくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{頼|たよ}りなかったら",
+        "negative": "{頼|たよ}りなくなかったら"
+      }
+    ]
   }
 }

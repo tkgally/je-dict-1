@@ -19,7 +19,9 @@
       "english": "A pleasant breeze is blowing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12515_kokochiyoi_ex2",
@@ -27,7 +29,9 @@
       "english": "I relaxed, enveloped by pleasant music.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12515_kokochiyoi_ex3",
@@ -35,7 +39,9 @@
       "english": "The spring sunlight was so pleasant that my walk ended up being longer than planned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA slightly literary and refined alternative to {気持|きも}ちいい (feels good). The base noun {心地|ここち} means \"feeling\" or \"sensation\" and appears in compounds like {住|す}み{心地|ごこち} (comfort of living in a place) and {寝心地|ねごこち} (sleeping comfort). When {心地|ここち} appears in compounds, it is read ごこち.\n\nCOMMON COLLOCATIONS:\n- {心地|ここち}よい{風|かぜ}: pleasant breeze\n- {心地|ここち}よい{眠|ねむ}り: comfortable sleep\n- {心地|ここち}よい{疲|つか}れ: pleasant tiredness (after exercise)\n- {心地|ここち}よく{過|す}ごす: to spend time comfortably",
@@ -46,11 +52,52 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["literary"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "literary"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{心地|ここち}よい",
+        "negative": "{心地|ここち}よくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{心地|ここち}よかった",
+        "negative": "{心地|ここち}よくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{心地|ここち}よくて",
+        "negative": "{心地|ここち}よくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{心地|ここち}よく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{心地|ここち}よければ",
+        "negative": "{心地|ここち}よくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{心地|ここち}よかったら",
+        "negative": "{心地|ここち}よくなかったら"
+      }
+    ]
   }
 }

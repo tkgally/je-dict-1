@@ -19,7 +19,9 @@
       "english": "An early response is desirable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12860_nozomashii_ex2",
@@ -27,7 +29,9 @@
       "english": "Experienced applicants are preferred, but those without experience can also apply.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12860_nozomashii_ex3",
@@ -35,7 +39,9 @@
       "english": "For health reasons, it is considered desirable to eat three proper meals a day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA relatively formal adjective derived from the verb {望|のぞ}む (to hope for, to desire). Commonly found in official guidelines, job postings, and written recommendations. Softer than {必要|ひつよう} (necessary) — it expresses a preference rather than a requirement. Often appears in the pattern ～が{望|のぞ}ましい (it is desirable that...).\n\nCOMMON COLLOCATIONS:\n- {望|のぞ}ましい{状態|じょうたい}: desirable state/condition\n- {望|のぞ}ましい{結果|けっか}: desirable result\n- {望|のぞ}ましくない: undesirable",
@@ -46,11 +52,52 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{望|のぞ}ましい",
+        "negative": "{望|のぞ}ましくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{望|のぞ}ましかった",
+        "negative": "{望|のぞ}ましくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{望|のぞ}ましくて",
+        "negative": "{望|のぞ}ましくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{望|のぞ}ましく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{望|のぞ}ましければ",
+        "negative": "{望|のぞ}ましくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{望|のぞ}ましかったら",
+        "negative": "{望|のぞ}ましくなかったら"
+      }
+    ]
   }
 }

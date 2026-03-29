@@ -6,123 +6,6 @@
   "gloss": "to stagger; to totter",
   "conjugation": {
     "type": "godan",
-    "ending": "く",
-    "stem": "よろめ"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to stagger; to totter; to stumble unsteadily",
-      "explanation": "To walk or move unsteadily with swaying motions, as if about to fall. Often caused by dizziness, weakness, intoxication, or being pushed."
-    },
-    {
-      "sense_number": 2,
-      "gloss": "to waver emotionally; to be attracted",
-      "explanation": "Figuratively, to feel emotionally swayed or attracted to someone, often implying an illicit or inappropriate romantic attraction."
-    }
-  ],
-  "examples": [
-    {
-      "id": "06971_yoromeku_ex1",
-      "japanese": "{酔|よ}っ{払|ぱら}いがよろめきながら{歩|ある}いていた。",
-      "english": "The drunk person was staggering as they walked.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "06971_yoromeku_ex2",
-      "japanese": "{強風|きょうふう}でよろめいて{倒|たお}れそうになった。",
-      "english": "I staggered in the strong wind and almost fell over.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "06971_yoromeku_ex3",
-      "japanese": "{貧血|ひんけつ}でよろめいて、{壁|かべ}に{手|て}をついた。",
-      "english": "I staggered from anemia and put my hand on the wall for support.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "06971_yoromeku_ex4",
-      "japanese": "{彼女|かのじょ}の{優|やさ}しさによろめいた。",
-      "english": "I was swayed by her kindness.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "06971_yoromeku_ex5",
-      "japanese": "{人妻|ひとづま}によろめく{男|おとこ}の{話|はなし}だ。",
-      "english": "It's a story about a man who falls for a married woman.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "06971_yoromeku_ex6",
-      "japanese": "{甘|あま}い{言葉|ことば}によろめきそうになったが、{思|おも}いとどまった。",
-      "english": "I almost gave in to the sweet words, but I held back.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    }
-  ],
-  "notes": "CONJUGATION:\n・よろめく → よろめかない (negative)\n・よろめく → よろめいて (te-form)\n・よろめく → よろめいた (past)\n\nORTHOGRAPHY:\nAlmost always written in hiragana. The kanji {蹌踉|よろめ}く exists but is rarely used.\n\nUSAGE:\nThe physical meaning (sense 1) is by far the most common. The figurative meaning (sense 2) is literary and somewhat dated, associated with the 1950s novel and film genre called 「よろめきドラマ」 about extramarital affairs.\n\nSIMILAR WORDS:\n・ふらつく - to be unsteady, to wobble (less dramatic than よろめく)\n・つまずく - to trip, to stumble (foot catches on something)\n・よろよろする - to move unsteadily (repetitive form, weaker movement)",
-  "cross_references": [
-    {
-      "type": "related",
-      "reading": "つまずく",
-      "headword": "つまずく",
-      "label": "to stumble",
-      "target_id": "06970_tsumazuku"
-    },
-    {
-      "type": "related",
-      "reading": "ふらつく",
-      "headword": "ふらつく",
-      "label": "to be unsteady"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-18T13:10:21Z",
-    "modified": "2026-03-29T03:05:07Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "intransitive",
-      "style": [
-        "literary"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "animal-mammal",
-        "food"
-      ],
-      "verb_class": "godan-ku"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -210,5 +93,117 @@
         "negative": "よろめくな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to stagger; to totter; to stumble unsteadily",
+      "explanation": "To walk or move unsteadily with swaying motions, as if about to fall. Often caused by dizziness, weakness, intoxication, or being pushed."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "to waver emotionally; to be attracted",
+      "explanation": "Figuratively, to feel emotionally swayed or attracted to someone, often implying an illicit or inappropriate romantic attraction."
+    }
+  ],
+  "examples": [
+    {
+      "id": "06971_yoromeku_ex1",
+      "japanese": "{酔|よ}っ{払|ぱら}いがよろめきながら{歩|ある}いていた。",
+      "english": "The drunk person was staggering as they walked.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06971_yoromeku_ex2",
+      "japanese": "{強風|きょうふう}でよろめいて{倒|たお}れそうになった。",
+      "english": "I staggered in the strong wind and almost fell over.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06971_yoromeku_ex3",
+      "japanese": "{貧血|ひんけつ}でよろめいて、{壁|かべ}に{手|て}をついた。",
+      "english": "I staggered from anemia and put my hand on the wall for support.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06971_yoromeku_ex4",
+      "japanese": "{彼女|かのじょ}の{優|やさ}しさによろめいた。",
+      "english": "I was swayed by her kindness.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "06971_yoromeku_ex5",
+      "japanese": "{人妻|ひとづま}によろめく{男|おとこ}の{話|はなし}だ。",
+      "english": "It's a story about a man who falls for a married woman.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "06971_yoromeku_ex6",
+      "japanese": "{甘|あま}い{言葉|ことば}によろめきそうになったが、{思|おも}いとどまった。",
+      "english": "I almost gave in to the sweet words, but I held back.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    }
+  ],
+  "notes": "・よろめく → よろめかない (negative)\n・よろめく → よろめいて (te-form)\n・よろめく → よろめいた (past)\n\nORTHOGRAPHY:\nAlmost always written in hiragana. The kanji {蹌踉|よろめ}く exists but is rarely used.\n\nUSAGE:\nThe physical meaning (sense 1) is by far the most common. The figurative meaning (sense 2) is literary and somewhat dated, associated with the 1950s novel and film genre called 「よろめきドラマ」 about extramarital affairs.\n\nSIMILAR WORDS:\n・ふらつく - to be unsteady, to wobble (less dramatic than よろめく)\n・つまずく - to trip, to stumble (foot catches on something)\n・よろよろする - to move unsteadily (repetitive form, weaker movement)",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "つまずく",
+      "headword": "つまずく",
+      "label": "to stumble",
+      "target_id": "06970_tsumazuku"
+    },
+    {
+      "type": "related",
+      "reading": "ふらつく",
+      "headword": "ふらつく",
+      "label": "to be unsteady"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-18T13:10:21Z",
+    "modified": "2026-03-29T03:05:07Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "intransitive",
+      "style": [
+        "literary"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "animal-mammal",
+        "food"
+      ],
+      "verb_class": "godan-ku"
+    }
   }
 }

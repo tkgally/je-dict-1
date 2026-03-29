@@ -19,7 +19,9 @@
       "english": "You're so clumsy, honestly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10485_donkusai_ex2",
@@ -27,7 +29,9 @@
       "english": "Even I think I'm clumsy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10485_donkusai_ex3",
@@ -35,7 +39,9 @@
       "english": "I was so clumsy that I always came in last at sports day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMS:\n- Adverbial: どんくさく\n- Negative: どんくさくない\n- Past: どんくさかった\n\nORIGIN:\nOriginally Kansai dialect, now used across Japan, especially in casual speech.\n\nNUANCE:\nCan be used affectionately or teasingly, but can also be rude depending on context. Often used for self-deprecation.\n\nSIMILAR WORDS:\n- {鈍|にぶ}い: dull, slow (more standard)\n- {不器用|ぶきよう}: clumsy, unskillful (more neutral)\n- のろい: slow, sluggish",
@@ -46,12 +52,55 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "style": ["spoken"],
-      "domain": ["colloquial"],
-      "semantic": ["personality-trait"]
+      "style": [
+        "spoken"
+      ],
+      "domain": [
+        "colloquial"
+      ],
+      "semantic": [
+        "personality-trait"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "どんくさい",
+        "negative": "どんくさくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "どんくさかった",
+        "negative": "どんくさくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "どんくさくて",
+        "negative": "どんくさくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "どんくさく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "どんくさければ",
+        "negative": "どんくさくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "どんくさかったら",
+        "negative": "どんくさくなかったら"
+      }
+    ]
   }
 }

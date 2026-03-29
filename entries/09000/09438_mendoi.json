@@ -18,7 +18,9 @@
       "english": "It's such a hassle, I don't want to do it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09438_mendoi_ex2",
@@ -26,7 +28,9 @@
       "english": "Explaining is too much trouble.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09438_mendoi_ex3",
@@ -34,7 +38,9 @@
       "english": "It's a pain, but I have no choice but to do it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09438_mendoi_ex4",
@@ -42,7 +48,9 @@
       "english": "Getting up in the morning is such a drag.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "めんどい is a casual contraction of めんどくさい ({面倒|めんどう}くさい). The contraction drops the くさ part, making it quicker to say.\n\nContraction pattern:\n- めんどくさい → めんどい\n- めんどくさくない → めんどくない\n\nSimilar contractions in casual Japanese:\n- うざい (from うざったい - annoying)\n- だるい (sluggish, can't be bothered)\n\nThis is very common among younger speakers and in casual conversation. It sounds lazy and casual, which fits the meaning well.",
@@ -52,11 +60,54 @@
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["evaluation", "emotion"],
-      "style": ["spoken", "slang"]
+      "semantic": [
+        "evaluation",
+        "emotion"
+      ],
+      "style": [
+        "spoken",
+        "slang"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "めんどい",
+        "negative": "めんどくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "めんどかった",
+        "negative": "めんどくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "めんどくて",
+        "negative": "めんどくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "めんどく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "めんどければ",
+        "negative": "めんどくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "めんどかったら",
+        "negative": "めんどくなかったら"
+      }
+    ]
   }
 }

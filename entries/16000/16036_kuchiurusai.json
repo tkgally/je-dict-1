@@ -19,7 +19,9 @@
       "english": "My boss is a nag.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16036_kuchiurusai_ex2",
@@ -27,7 +29,9 @@
       "english": "My mother nags about cleaning up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16036_kuchiurusai_ex3",
@@ -35,7 +39,9 @@
       "english": "You might think I'm being nitpicky, but I'd like you to check one more time for safety.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{口|くち}うるさい is a compound adjective from {口|くち} (mouth) + うるさい (annoying). It can modify nouns ({口|くち}うるさい{人|ひと}) or be used as an adverb ({口|くち}うるさく{言|い}う, to nag).\n\nCOMMON COLLOCATIONS:\n- {口|くち}うるさく{言|い}う (to nag, to harp on)\n- {口|くち}うるさい{人|ひと} (a nag, a fussy person)\n- {口|くち}うるさい{上司|じょうし} (a nagging boss)\n\nNUANCE:\nAlways carries a negative connotation from the perspective of the person being nagged. However, the nagging person may believe they are being helpful or responsible. Often used about parents, bosses, and senior colleagues.",
@@ -46,10 +52,49 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{口|くち}うるさい",
+        "negative": "{口|くち}うるさくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{口|くち}うるさかった",
+        "negative": "{口|くち}うるさくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{口|くち}うるさくて",
+        "negative": "{口|くち}うるさくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{口|くち}うるさく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{口|くち}うるさければ",
+        "negative": "{口|くち}うるさくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{口|くち}うるさかったら",
+        "negative": "{口|くち}うるさくなかったら"
+      }
+    ]
   }
 }

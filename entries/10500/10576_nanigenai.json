@@ -19,7 +19,9 @@
       "english": "A casual remark.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10576_nanigenai_ex2",
@@ -27,7 +29,9 @@
       "english": "Casual conversation is enjoyable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10576_nanigenai_ex3",
@@ -35,7 +39,9 @@
       "english": "Words I said without thinking ended up hurting the other person.",
       "notes": "The adverbial form {何気|なにげ}なく is very common.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMS:\n- Adnominal: {何気|なにげ}ない + noun\n- Adverbial: {何気|なにげ}なく\n- Predicate: {何気|なにげ}ない (rarely used predicatively)\n\nUSAGE:\nMost commonly used as a modifier before a noun ({何気|なにげ}ない{一言|ひとこと}, {何気|なにげ}ない{仕草|しぐさ}) or in the adverbial form {何気|なにげ}なく. Often implies that a casual or unthinking action had significant consequences.\n\nCOMMON COLLOCATIONS:\n- {何気|なにげ}ない{一言|ひとこと}: an offhand remark\n- {何気|なにげ}ない{仕草|しぐさ}: an unconscious gesture\n- {何気|なにげ}ない{日常|にちじょう}: ordinary daily life\n- {何気|なにげ}なく{見|み}る: to glance casually\n\nCAUTION:\n{何気|なにげ}に is widely used in casual speech as an adverb meaning \"casually\" or \"actually,\" but it is considered nonstandard. The standard adverbial form is {何気|なにげ}なく.",
@@ -46,10 +52,49 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{何気|なにげ}ない",
+        "negative": "{何気|なにげ}なくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{何気|なにげ}なかった",
+        "negative": "{何気|なにげ}なくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{何気|なにげ}なくて",
+        "negative": "{何気|なにげ}なくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{何気|なにげ}なく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{何気|なにげ}なければ",
+        "negative": "{何気|なにげ}なくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{何気|なにげ}なかったら",
+        "negative": "{何気|なにげ}なくなかったら"
+      }
+    ]
   }
 }

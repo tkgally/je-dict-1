@@ -6,112 +6,6 @@
   "gloss": "to move up (in time/schedule); to advance; to promote",
   "conjugation": {
     "type": "ichidan",
-    "stem": "{繰|く}り{上|あ}げ"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to move up; to advance (a date or time)",
-      "explanation": "To reschedule something to happen earlier than originally planned."
-    },
-    {
-      "sense_number": 2,
-      "gloss": "to promote; to move up (in rank or position)",
-      "explanation": "To advance someone to a higher position, often due to a vacancy."
-    }
-  ],
-  "examples": [
-    {
-      "id": "07007_kuriageru_ex1",
-      "japanese": "{会議|かいぎ}の{日程|にってい}を1{週間|しゅうかん}{繰|く}り{上|あ}げた。",
-      "english": "We moved up the meeting schedule by one week.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "07007_kuriageru_ex2",
-      "japanese": "{雨|あめ}の{予報|よほう}なので{運動会|うんどうかい}を{繰|く}り{上|あ}げて{実施|じっし}する。",
-      "english": "Since rain is forecast, we'll hold the sports day earlier.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "07007_kuriageru_ex3",
-      "japanese": "{出発|しゅっぱつ}{時間|じかん}を{三十分|さんじゅっぷん}{繰|く}り{上|あ}げることにした。",
-      "english": "We decided to move the departure time up by thirty minutes.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "07007_kuriageru_ex4",
-      "japanese": "{欠員|けついん}が{出|で}たので{次点|じてん}{候補|こうほ}が{繰|く}り{上|あ}げ{当選|とうせん}した。",
-      "english": "Due to a vacancy, the runner-up was promoted to winner.",
-      "notes": "{繰|く}り{上|あ}げ{当選|とうせん} is a set term for winning by advancement.",
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "07007_kuriageru_ex5",
-      "japanese": "{上|うえ}の{人|ひと}が{辞|や}めたので、{彼|かれ}が{繰|く}り{上|あ}げて{部長|ぶちょう}になった。",
-      "english": "Since the person above him quit, he was promoted to department head.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "07007_kuriageru_ex6",
-      "japanese": "{補欠|ほけつ}{選手|せんしゅ}が{繰|く}り{上|あ}げでレギュラーに{入|はい}った。",
-      "english": "The substitute player was promoted to the regular lineup.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    }
-  ],
-  "notes": "CONJUGATION:\n・{繰|く}り{上|あ}げる → {繰|く}り{上|あ}げない (negative)\n・{繰|く}り{上|あ}げる → {繰|く}り{上|あ}げて (te-form)\n・{繰|く}り{上|あ}げる → {繰|く}り{上|あ}げた (past)\n\nFORMATION:\nCompound verb: {繰|く}る (to reel/wind) + {上|あ}げる (to raise)\n\nCOLLOCATIONS:\n・{日程|にってい}を{繰|く}り{上|あ}げる - to move up a schedule\n・{時間|じかん}を{繰|く}り{上|あ}げる - to advance the time\n・{繰|く}り{上|あ}げ{当選|とうせん} - winning by advancement\n・{繰|く}り{上|あ}げ{返済|へんさい} - early repayment\n\nANTONYM:\n{繰|く}り{下|さ}げる - to move down, postpone (the opposite operation)",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "くりさげる",
-      "headword": "{繰|く}り{下|さ}げる",
-      "label": "to postpone/move down",
-      "target_id": "07262_kurisageru"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-18T13:35:29Z",
-    "modified": "2026-03-29T03:05:07Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-ichidan"
-      ],
-      "transitivity": "transitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "movement"
-      ],
-      "verb_class": "ichidan"
-    }
-  },
-  "conjugation": {
-    "type": "ichidan",
     "forms": [
       {
         "label": "Present",
@@ -199,5 +93,107 @@
         "negative": "{繰|く}り{上|あ}げるな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to move up; to advance (a date or time)",
+      "explanation": "To reschedule something to happen earlier than originally planned."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "to promote; to move up (in rank or position)",
+      "explanation": "To advance someone to a higher position, often due to a vacancy."
+    }
+  ],
+  "examples": [
+    {
+      "id": "07007_kuriageru_ex1",
+      "japanese": "{会議|かいぎ}の{日程|にってい}を1{週間|しゅうかん}{繰|く}り{上|あ}げた。",
+      "english": "We moved up the meeting schedule by one week.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "07007_kuriageru_ex2",
+      "japanese": "{雨|あめ}の{予報|よほう}なので{運動会|うんどうかい}を{繰|く}り{上|あ}げて{実施|じっし}する。",
+      "english": "Since rain is forecast, we'll hold the sports day earlier.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "07007_kuriageru_ex3",
+      "japanese": "{出発|しゅっぱつ}{時間|じかん}を{三十分|さんじゅっぷん}{繰|く}り{上|あ}げることにした。",
+      "english": "We decided to move the departure time up by thirty minutes.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "07007_kuriageru_ex4",
+      "japanese": "{欠員|けついん}が{出|で}たので{次点|じてん}{候補|こうほ}が{繰|く}り{上|あ}げ{当選|とうせん}した。",
+      "english": "Due to a vacancy, the runner-up was promoted to winner.",
+      "notes": "{繰|く}り{上|あ}げ{当選|とうせん} is a set term for winning by advancement.",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "07007_kuriageru_ex5",
+      "japanese": "{上|うえ}の{人|ひと}が{辞|や}めたので、{彼|かれ}が{繰|く}り{上|あ}げて{部長|ぶちょう}になった。",
+      "english": "Since the person above him quit, he was promoted to department head.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "07007_kuriageru_ex6",
+      "japanese": "{補欠|ほけつ}{選手|せんしゅ}が{繰|く}り{上|あ}げでレギュラーに{入|はい}った。",
+      "english": "The substitute player was promoted to the regular lineup.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    }
+  ],
+  "notes": "・{繰|く}り{上|あ}げる → {繰|く}り{上|あ}げない (negative)\n・{繰|く}り{上|あ}げる → {繰|く}り{上|あ}げて (te-form)\n・{繰|く}り{上|あ}げる → {繰|く}り{上|あ}げた (past)\n\nFORMATION:\nCompound verb: {繰|く}る (to reel/wind) + {上|あ}げる (to raise)\n\nCOLLOCATIONS:\n・{日程|にってい}を{繰|く}り{上|あ}げる - to move up a schedule\n・{時間|じかん}を{繰|く}り{上|あ}げる - to advance the time\n・{繰|く}り{上|あ}げ{当選|とうせん} - winning by advancement\n・{繰|く}り{上|あ}げ{返済|へんさい} - early repayment\n\nANTONYM:\n{繰|く}り{下|さ}げる - to move down, postpone (the opposite operation)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "くりさげる",
+      "headword": "{繰|く}り{下|さ}げる",
+      "label": "to postpone/move down",
+      "target_id": "07262_kurisageru"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-18T13:35:29Z",
+    "modified": "2026-03-29T03:05:07Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-ichidan"
+      ],
+      "transitivity": "transitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "ichidan"
+    }
   }
 }

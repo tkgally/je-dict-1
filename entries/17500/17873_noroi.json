@@ -19,7 +19,9 @@
       "english": "This car is slow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17873_noroi_ex2",
@@ -27,7 +29,9 @@
       "english": "He's slow at work, so he's always working overtime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17873_noroi_ex3",
@@ -35,7 +39,9 @@
       "english": "I was walking at a sluggish pace and missed the train.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn i-adjective with a somewhat negative, critical tone. More colloquial and blunter than {遅|おそ}い. Can describe speed of movement, work pace, or mental quickness.\n\nFORMS:\n- のろい (dictionary form)\n- のろくない (negative)\n- のろかった (past)\n- のろく{歩|ある}く (adverbial: to walk slowly)\n\nSIMILAR WORDS:\n- {遅|おそ}い: slow, late — neutral, standard term\n- のろい: slow, sluggish — more informal and critical\n- とろい: sluggish, dim-witted — colloquial, often about mental slowness\n- のろのろ: sluggishly (onomatopoeia) — describes slow, plodding movement",
@@ -46,10 +52,50 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["speed", "description"]
+      "semantic": [
+        "speed",
+        "description"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "のろい",
+        "negative": "のろくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "のろかった",
+        "negative": "のろくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "のろくて",
+        "negative": "のろくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "のろく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "のろければ",
+        "negative": "のろくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "のろかったら",
+        "negative": "のろくなかったら"
+      }
+    ]
   }
 }

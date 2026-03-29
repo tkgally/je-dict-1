@@ -19,7 +19,9 @@
       "english": "A heavy silence continued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16839_omogurushii_ex2",
@@ -27,7 +29,9 @@
       "english": "An oppressive atmosphere hung over the conference room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16839_omogurushii_ex3",
@@ -35,7 +39,9 @@
       "english": "During the rainy season, the oppressive weather continues and one tends to feel down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound adjective from {重|おも}い (heavy) + {苦|くる}しい (painful, suffocating). Describes atmospheres and moods that feel weighed down and oppressive.\n\nFORMS:\n- Adverbial: {重苦|おもぐる}しく\n- Noun form: {重苦|おもぐる}しさ\n\nCOMMON COLLOCATIONS:\n- {重苦|おもぐる}しい{空気|くうき}: oppressive atmosphere\n- {重苦|おもぐる}しい{沈黙|ちんもく}: heavy silence\n- {重苦|おもぐる}しい{雰囲気|ふんいき}: gloomy mood\n- {重苦|おもぐる}しい{天気|てんき}: oppressive weather\n\nREGISTER:\nLiterary and written. Common in novels, essays, and descriptive writing. Less common in casual conversation, where {暗|くら}い{雰囲気|ふんいき} or {重|おも}い{空気|くうき} would be more natural.",
@@ -46,11 +52,53 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["emotion", "weather"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "emotion",
+        "weather"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{重苦|おもぐる}しい",
+        "negative": "{重苦|おもぐる}しくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{重苦|おもぐる}しかった",
+        "negative": "{重苦|おもぐる}しくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{重苦|おもぐる}しくて",
+        "negative": "{重苦|おもぐる}しくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{重苦|おもぐる}しく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{重苦|おもぐる}しければ",
+        "negative": "{重苦|おもぐる}しくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{重苦|おもぐる}しかったら",
+        "negative": "{重苦|おもぐる}しくなかったら"
+      }
+    ]
   }
 }

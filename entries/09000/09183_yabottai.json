@@ -16,7 +16,9 @@
       "id": "09183_yabottai_ex1",
       "japanese": "{野暮|やぼ}ったい{服|ふく}",
       "english": "unfashionable clothes",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09183_yabottai_ex2",
       "japanese": "その{髪型|かみがた}、ちょっと{野暮|やぼ}ったくない?",
       "english": "Isn't that hairstyle a bit dowdy?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09183_yabottai_ex3",
       "japanese": "{野暮|やぼ}ったいデザインの{店|みせ}だったが、{料理|りょうり}は{絶品|ぜっぴん}だった。",
       "english": "The restaurant had an unfashionable design, but the food was superb.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,10 +51,50 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["appearance", "negative"]
+      "semantic": [
+        "appearance",
+        "negative"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{野暮|やぼ}ったい",
+        "negative": "{野暮|やぼ}ったくない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{野暮|やぼ}ったかった",
+        "negative": "{野暮|やぼ}ったくなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{野暮|やぼ}ったくて",
+        "negative": "{野暮|やぼ}ったくなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{野暮|やぼ}ったく",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{野暮|やぼ}ったければ",
+        "negative": "{野暮|やぼ}ったくなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{野暮|やぼ}ったかったら",
+        "negative": "{野暮|やぼ}ったくなかったら"
+      }
+    ]
   }
 }

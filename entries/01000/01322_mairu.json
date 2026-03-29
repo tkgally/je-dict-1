@@ -6,126 +6,6 @@
   "gloss": "to come; to go (humble)",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "参"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to come; to go (humble)",
-      "explanation": "Humble form of 行く and 来る, used when referring to one's own movement."
-    },
-    {
-      "sense_number": 2,
-      "gloss": "to visit (a shrine or temple)",
-      "explanation": "Used specifically for visiting sacred places."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01322_mairu_ex1",
-      "japanese": "⟦ただいま→ただいま：01062_tadaima⟧{参|まい}ります。",
-      "english": "I'm coming right away.",
-      "notes": "Humble announcement",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01322_mairu_ex2",
-      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{参|まい}ります。",
-      "english": "I will come to the company tomorrow.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01322_mairu_ex3",
-      "japanese": "お⟦{客|きゃく}→客：00865_kyaku⟧⟦{様|さま}→様：01549_sama⟧⟦の→の：09472_no⟧⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧{参|まい}ります⟦ので→ので：09501_node⟧、⟦しばらく→しばらく：01267_shibaraku⟧お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
-      "english": "I will come to you directly, so please wait a moment.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01322_mairu_ex4",
-      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧{参|まい}りました。",
-      "english": "I visited the shrine.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "01322_mairu_ex5",
-      "japanese": "お⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦に→に：00314_ni⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{近|ちか}く→近く：00923_chikaku⟧⟦の→の：09472_no⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧{参|まい}った。",
-      "english": "We visited a nearby shrine as a family on New Year's.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "01322_mairu_ex6",
-      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧、⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦と→と：00512_to⟧⟦{一緒|いっしょ}に→一緒：02848_issho⟧⟦あの→あの：00915_ano⟧お⟦{寺|てら}→寺：01676_tera⟧⟦に→に：00314_ni⟧{参|まい}る⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧⟦している→する：00392_suru⟧。",
-      "english": "Every year, I make it a point to visit that temple with my grandmother.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    }
-  ],
-  "notes": "参る is the humble form for both ⟦{行|い}く→行く：00119_iku⟧ and ⟦{来|く}る→来る：00254_kuru⟧, as well as the standard term for visiting shrines/temples.\n\nCONJUGATION:\n- 参ります (polite)\n- 参って (te-form)\n- 参った (past)\n\nSPECIAL USAGE:\n- 参った can also mean 'I give up' or express being overwhelmed\n\nKEIGO TYPE:\n- ⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧: Humble language\n- Honorific equivalent: ⟦いらっしゃる→いらっしゃる：01295_irassharu⟧",
-  "cross_references": [
-    {
-      "type": "keigo",
-      "reading": "いく",
-      "headword": "{行|い}く",
-      "label": "plain form (go)",
-      "target_id": "00119_iku"
-    },
-    {
-      "type": "keigo",
-      "reading": "くる",
-      "headword": "{来|く}る",
-      "label": "plain form (come)",
-      "target_id": "00254_kuru"
-    },
-    {
-      "type": "keigo",
-      "reading": "いらっしゃる",
-      "headword": "いらっしゃる",
-      "label": "honorific equivalent",
-      "target_id": "01295_irassharu"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-03-29T03:03:11Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "formality": "formal",
-      "politeness": "humble",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-ru"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -213,5 +93,120 @@
         "negative": "参るな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to come; to go (humble)",
+      "explanation": "Humble form of 行く and 来る, used when referring to one's own movement."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "to visit (a shrine or temple)",
+      "explanation": "Used specifically for visiting sacred places."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01322_mairu_ex1",
+      "japanese": "⟦ただいま→ただいま：01062_tadaima⟧{参|まい}ります。",
+      "english": "I'm coming right away.",
+      "notes": "Humble announcement",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01322_mairu_ex2",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{参|まい}ります。",
+      "english": "I will come to the company tomorrow.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01322_mairu_ex3",
+      "japanese": "お⟦{客|きゃく}→客：00865_kyaku⟧⟦{様|さま}→様：01549_sama⟧⟦の→の：09472_no⟧⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧{参|まい}ります⟦ので→ので：09501_node⟧、⟦しばらく→しばらく：01267_shibaraku⟧お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
+      "english": "I will come to you directly, so please wait a moment.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01322_mairu_ex4",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧{参|まい}りました。",
+      "english": "I visited the shrine.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01322_mairu_ex5",
+      "japanese": "お⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦に→に：00314_ni⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{近|ちか}く→近く：00923_chikaku⟧⟦の→の：09472_no⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧{参|まい}った。",
+      "english": "We visited a nearby shrine as a family on New Year's.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01322_mairu_ex6",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧、⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦と→と：00512_to⟧⟦{一緒|いっしょ}に→一緒：02848_issho⟧⟦あの→あの：00915_ano⟧お⟦{寺|てら}→寺：01676_tera⟧⟦に→に：00314_ni⟧{参|まい}る⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧⟦している→する：00392_suru⟧。",
+      "english": "Every year, I make it a point to visit that temple with my grandmother.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    }
+  ],
+  "notes": "参る is the humble form for both ⟦{行|い}く→行く：00119_iku⟧ and ⟦{来|く}る→来る：00254_kuru⟧, as well as the standard term for visiting shrines/temples.\n\nSPECIAL USAGE:\n- 参った can also mean 'I give up' or express being overwhelmed\n\nKEIGO TYPE:\n- ⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧: Humble language\n- Honorific equivalent: ⟦いらっしゃる→いらっしゃる：01295_irassharu⟧",
+  "cross_references": [
+    {
+      "type": "keigo",
+      "reading": "いく",
+      "headword": "{行|い}く",
+      "label": "plain form (go)",
+      "target_id": "00119_iku"
+    },
+    {
+      "type": "keigo",
+      "reading": "くる",
+      "headword": "{来|く}る",
+      "label": "plain form (come)",
+      "target_id": "00254_kuru"
+    },
+    {
+      "type": "keigo",
+      "reading": "いらっしゃる",
+      "headword": "いらっしゃる",
+      "label": "honorific equivalent",
+      "target_id": "01295_irassharu"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-08T03:55:00Z",
+    "modified": "2026-03-29T03:03:11Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "formality": "formal",
+      "politeness": "humble",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
+    }
   }
 }

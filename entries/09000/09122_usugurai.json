@@ -16,7 +16,9 @@
       "id": "09122_usugurai_ex1",
       "japanese": "{薄暗|うすぐら}い{部屋|へや}",
       "english": "a dimly lit room",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09122_usugurai_ex2",
       "japanese": "{夕方|ゆうがた}になって{辺|あた}りが{薄暗|うすぐら}くなった。",
       "english": "It became dusky as evening approached.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09122_usugurai_ex3",
       "japanese": "{薄暗|うすぐら}い{路地裏|ろじうら}を{一人|ひとり}で{歩|ある}くのは{怖|こわ}い。",
       "english": "It's scary to walk alone through dimly lit back alleys.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,10 +51,49 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-i"],
+      "pos": [
+        "adjective-i"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "i-adjective",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{薄暗|うすぐら}い",
+        "negative": "{薄暗|うすぐら}くない"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{薄暗|うすぐら}かった",
+        "negative": "{薄暗|うすぐら}くなかった"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{薄暗|うすぐら}くて",
+        "negative": "{薄暗|うすぐら}くなくて"
+      },
+      {
+        "label": "Adverbial",
+        "affirmative": "{薄暗|うすぐら}く",
+        "negative": null
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{薄暗|うすぐら}ければ",
+        "negative": "{薄暗|うすぐら}くなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{薄暗|うすぐら}かったら",
+        "negative": "{薄暗|うすぐら}くなかったら"
+      }
+    ]
   }
 }

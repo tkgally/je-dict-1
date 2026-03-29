@@ -79,7 +79,8 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 # ── Conjugation table rendering ──────────────────────────────────────────
 
 # Row group boundaries for visual separators in the table.
-_GROUP_LAST_ROWS = {'て form', 'ている past polite', 'Conditional たら', 'Volitional polite'}
+_GROUP_LAST_ROWS = {'て form', 'ている past polite', 'Conditional たら', 'Volitional polite',
+                     'Adverbial'}
 
 
 def generate_conjugation_html(conjugation: dict) -> str:

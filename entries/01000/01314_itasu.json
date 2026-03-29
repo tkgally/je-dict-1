@@ -6,69 +6,6 @@
   "gloss": "to do (humble)",
   "conjugation": {
     "type": "godan",
-    "ending": "す",
-    "stem": "いた"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to do (humble)",
-      "explanation": "Humble form of する, used to lower oneself when speaking to someone of higher status."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01314_itasu_ex1",
-      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦が→が：00051_ga⟧いたします。",
-      "english": "I will do it.",
-      "notes": "Humble way to offer to do something",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01314_itasu_ex2",
-      "japanese": "どういたしまして。",
-      "english": "You're welcome.",
-      "notes": "Common response to thanks",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01314_itasu_ex3",
-      "japanese": "ご⟦{案内|あんない}→案内：01291_annai⟧いたします。",
-      "english": "I will guide you.",
-      "notes": "Humble service expression",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "いたす is the humble form of する, used in {謙譲語|けんじょうご} (humble language) to lower the speaker's position.\n\nCONJUGATION:\n- いたします (polite present)\n- いたしました (polite past)\n- いたして (te-form)\n\nCOMMON EXPRESSIONS:\n- どういたしまして: You're welcome\n- ご{案内|あんない}いたします: I will guide you\n- お{待|ま}たせいたしました: I'm sorry to have kept you waiting\n\nKEIGO SYSTEM:\n- Humble: いたす (lowers speaker)\n- Honorific: なさる (elevates listener)\n- Polite: します (neutral)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-03-29T03:03:11Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "politeness": "humble",
-      "formality": "formal",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-su"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -156,5 +93,63 @@
         "negative": "いたすな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to do (humble)",
+      "explanation": "Humble form of する, used to lower oneself when speaking to someone of higher status."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01314_itasu_ex1",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦が→が：00051_ga⟧いたします。",
+      "english": "I will do it.",
+      "notes": "Humble way to offer to do something",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01314_itasu_ex2",
+      "japanese": "どういたしまして。",
+      "english": "You're welcome.",
+      "notes": "Common response to thanks",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01314_itasu_ex3",
+      "japanese": "ご⟦{案内|あんない}→案内：01291_annai⟧いたします。",
+      "english": "I will guide you.",
+      "notes": "Humble service expression",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "いたす is the humble form of する, used in {謙譲語|けんじょうご} (humble language) to lower the speaker's position.\n\nCOMMON EXPRESSIONS:\n- どういたしまして: You're welcome\n- ご{案内|あんない}いたします: I will guide you\n- お{待|ま}たせいたしました: I'm sorry to have kept you waiting\n\nKEIGO SYSTEM:\n- Humble: いたす (lowers speaker)\n- Honorific: なさる (elevates listener)\n- Polite: します (neutral)",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-01-08T03:55:00Z",
+    "modified": "2026-03-29T03:03:11Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "politeness": "humble",
+      "formality": "formal",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-su"
+    }
   }
 }
