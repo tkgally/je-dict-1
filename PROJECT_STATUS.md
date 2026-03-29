@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 540)
+Added 30 new dictionary entries (IDs 20553-20582) from candidate_words.json. A diverse mix of practical vocabulary covering adjectives, adverbs, verbs, and nouns for intermediate learners.
+
+- **Na-adjectives (5)**: {悪質|あくしつ} (malicious/poor quality), むやみ (reckless/excessive), {風変|ふうが}わり (eccentric), {移|うつ}り{気|ぎ} (fickle), ぶかぶか (baggy/too loose)
+- **Adverbs (3)**: たった{今|いま} (just now), いっそのこと (might as well), もうそろそろ (pretty soon)
+- **Suru-verbs (2)**: {緊張|きんちょう}する (to get nervous), {降伏|こうふく}する (to surrender)
+- **Nouns (20)**: {検疫|けんえき} (quarantine), {富豪|ふごう} (wealthy person), {民話|みんわ} (folk tale), {家計簿|かけいぼ} (household budget book), {閣僚|かくりょう} (cabinet minister), {細部|さいぶ} (details), {原文|げんぶん} (original text), {冒険家|ぼうけんか} (adventurer), {刑罰|けいばつ} (criminal punishment), {文具|ぶんぐ} (stationery), {座右|ざゆう}の{銘|めい} (personal motto), {世代|せだい}{交代|こうたい} (generational change), {寓話|ぐうわ} (fable), {重心|じゅうしん} (center of gravity), {釣|つ}り{合|あ}い (balance), {眼前|がんぜん} (before one's eyes), {原動力|げんどうりょく} (driving force), {注意書|ちゅういが}き (cautionary note), {致死量|ちしりょう} (lethal dose), けなげさ (admirable courage)
+- Added 1 new kanji to index: 寓
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 538)
 Added 30 new dictionary entries (IDs 20493-20522) from candidate_words.json. A diverse mix of practical vocabulary including mimetic adverbs, everyday nouns, cultural terms, and formal expressions.
 
@@ -93,14 +103,6 @@ Added 30 new dictionary entries (IDs 20523-20552) from candidate_words.json. A m
 - **Nouns (24)**: ノートパソコン (laptop), {過小評価|かしょうひょうか} (underestimation), {時計回|とけいまわ}り (clockwise), {乗降|じょうこう} (boarding and alighting), {定番商品|ていばんしょうひん} (standard product), {話|はな}し{中|ちゅう} (line busy), トースト (toast), {一回限|いっかいかぎ}り (one time only), {標準化|ひょうじゅんか} (standardization), {経営陣|けいえいじん} (management team), {外貨両替|がいかりょうがえ} (foreign currency exchange), {芸術鑑賞|げいじゅつかんしょう} (art appreciation), {復路|ふくろ} (return route), {中華|ちゅうか}そば (Chinese-style noodles), {大音量|だいおんりょう} (high volume), {正常化|せいじょうか} (normalization), {体毛|たいもう} (body hair), {単発|たんぱつ} (one-time), {授業中|じゅぎょうちゅう} (during class), {情報発信|じょうほうはっしん} (information dissemination), {自責|じせき}の{念|ねん} (self-reproach), {稼働率|かどうりつ} (operating rate), バドミントン (badminton), {化粧下地|けしょうしたじ} (makeup primer)
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-29 (Vocabulary Expansion - 22 New Entries, Session 534)
-Added 22 new dictionary entries (IDs 20381-20402) from candidate_words.json. A diverse mix of practical vocabulary covering emotions, nature, culture, daily life, and abstract concepts.
-
-- **Na-adjectives (3)**: {達者|たっしゃ} (skillful/healthy), {有望|ゆうぼう} (promising), {精力的|せいりょくてき} (energetic)
-- **Expressions (2)**: {否応|いやおう}なし (whether willing or not), {火気厳禁|かきげんきん} (no open flames)
-- **Nouns (17)**: {傍観者|ぼうかんしゃ} (bystander), {安心感|あんしんかん} (sense of security), わだかまり (lingering resentment), {枯|か}れ{葉|は} (dead leaves), {景勝地|けいしょうち} (scenic spot), {砂嵐|すなあらし} (sandstorm), {折|お}り{畳|たた}み{傘|がさ} (folding umbrella), {純喫茶|じゅんきっさ} (traditional coffee shop), {新年会|しんねんかい} (New Year's party), {丘陵|きゅうりょう} (hill), {心意気|こころいき} (spirit/determination), {歌謡曲|かようきょく} (popular song), {路線|ろせん}バス (local bus), {輪|わ}ゴム (rubber band), {基金|ききん} (fund), {自省|じせい} (self-reflection), {波打|なみう}ち{際|ぎわ} (water's edge)
-- Added 1 new kanji to index: 陵
-- Removed 22 candidates that now exist as entries
 
 
 ---
