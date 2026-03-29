@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-29 (Vocabulary Expansion - 15 New Entries, Session 543)
+Added 15 new dictionary entries (IDs 20643-20657) from candidate_words.json. A mix of practical vocabulary including four-character idioms, everyday nouns, cultural terms, and workplace vocabulary.
+
+- **Na-adjective (1)**: {明瞭|めいりょう} (clear/distinct)
+- **Nouns (14)**: {半信半疑|はんしんはんぎ} (half in doubt), {集金|しゅうきん} (bill collection), {廃業|はいぎょう} (closing a business), {旅費|りょひ} (travel expenses), {子羊|こひつじ} (lamb), {羊毛|ようもう} (wool), {納戸|なんど} (storage room), {前期|ぜんき} (first term), {学童|がくどう} (schoolchild), あんみつ (Japanese dessert), {世相|せそう} (social conditions), {厳寒|げんかん} (severe cold), {能書|のうが}き (boasting), {庶務|しょむ} (general affairs)
+- Removed 15 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 542)
 Added 30 new dictionary entries (IDs 20613-20642) from candidate_words.json. A diverse mix of practical vocabulary covering nouns, expressions, na-adjectives, and adverbs for intermediate learners.
 
@@ -87,15 +94,6 @@ Added 30 new dictionary entries (IDs 20493-20522) from candidate_words.json. A d
 - **Nouns (25)**: {上質|じょうしつ} (high quality), {栄光|えいこう} (glory), {漁業|ぎょぎょう} (fishing industry), {切断|せつだん} (cutting/severing), {量販店|りょうはんてん} (mass retailer), {品行|ひんこう} (conduct), {岩石|がんせき} (rock), {入札|にゅうさつ} (bidding), {頓珍漢|とんちんかん} (nonsensical), {大理石|だいりせき} (marble), {付|つ}け{焼|や}き{刃|ば} (superficial knowledge), {多発|たはつ} (frequent occurrence), {招待券|しょうたいけん} (invitation ticket), {横長|よこなが} (landscape-oriented), {旧知|きゅうち} (old acquaintance), {清純|せいじゅん} (pure/innocent), {蛍光|けいこう} (fluorescence), {準急|じゅんきゅう} (semi-express), {万物|ばんぶつ} (all things), {数日|すうじつ} (several days), {位置|いち}づけ (positioning), {残響|ざんきょう} (reverberation), {弾劾|だんがい} (impeachment), {上水|じょうすい} (water supply), {歌人|かじん} (waka poet)
 - Added 1 new kanji to index: 劾
 - Removed 1 stale duplicate candidate (却下)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 537)
-Added 30 new dictionary entries (IDs 20463-20492) from candidate_words.json. A diverse mix of everyday vocabulary, cultural terms, and practical words for intermediate learners.
-
-- **Na-adjective (1)**: {不活発|ふかっぱつ} (inactive/sluggish)
-- **Suru-verbs (2)**: {洗髪|せんぱつ} (hair washing), {盗撮|とうさつ} (secret photography)
-- **Nouns (27)**: {夜型|よるがた} (night owl), {甘|あま}い{物|もの} (sweets), {名刺交換|めいしこうかん} (exchanging business cards), {置時計|おきどけい} (desk clock), {神社仏閣|じんじゃぶっかく} (shrines and temples), {封建制|ほうけんせい} (feudalism), {副会長|ふくかいちょう} (vice-chairperson), {司会者|しかいしゃ} (emcee), {住所録|じゅうしょろく} (address book), {通用口|つうようぐち} (service entrance), {健康状態|けんこうじょうたい} (health condition), {滞在期間|たいざいきかん} (period of stay), リンス (conditioner), {二十代|にじゅうだい} (one's twenties), {寄宿舎|きしゅくしゃ} (dormitory), {目的語|もくてきご} (object in grammar), {異種|いしゅ} (different kind), {廃品|はいひん} (waste/scrap), {押|お}しボタン (push button), {荷物置|にもつお}き (luggage storage), {拡張現実|かくちょうげんじつ} (augmented reality), {地吹雪|じふぶき} (ground blizzard), {心筋梗塞|しんきんこうそく} (heart attack), {群青色|ぐんじょういろ} (ultramarine), {空言|そらごと} (empty words), {突然死|とつぜんし} (sudden death), {神職|しんしょく} (Shinto priest)
-- Added 1 new kanji to index: 梗
 - Removed 30 candidates that now exist as entries
 
 
