@@ -619,6 +619,74 @@ main {
     font-style: italic;
 }
 
+/* Conjugation Table */
+.conjugation-details {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.conjugation-details summary {
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    padding: var(--spacing-sm) 0;
+    user-select: none;
+}
+
+.conjugation-details summary:hover {
+    color: var(--color-accent);
+}
+
+.conjugation-details[open] summary {
+    margin-bottom: var(--spacing-sm);
+}
+
+.conjugation-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.conjugation-table thead th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    padding: 0.3rem 0.5rem;
+    border-bottom: 2px solid var(--color-border);
+}
+
+.conjugation-table thead th:first-child {
+    width: 30%;
+}
+
+.conjugation-table td {
+    padding: 0.25rem 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: baseline;
+}
+
+.conjugation-table .conj-label {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+}
+
+.conjugation-table .conj-form {
+    font-family: var(--font-jp);
+    font-size: 1rem;
+}
+
+.conjugation-table .conj-group-end td {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.conjugation-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
 /* Cross-References */
 .cross-references {
     margin-top: var(--spacing-lg);
@@ -1373,6 +1441,27 @@ footer a:hover {
 
     .sense-examples {
         margin-left: 0;
+    }
+
+    .conjugation-table {
+        font-size: 0.8rem;
+    }
+
+    .conjugation-table .conj-form {
+        font-size: 0.9rem;
+    }
+
+    .conjugation-table .conj-label {
+        font-size: 0.75rem;
+    }
+
+    .conjugation-table thead th {
+        font-size: 0.75rem;
+    }
+
+    .conjugation-table td,
+    .conjugation-table thead th {
+        padding: 0.2rem 0.3rem;
     }
 
     .kanji-header {
