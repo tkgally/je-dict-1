@@ -24,7 +24,6 @@ build/            # Python build, validation, and utility scripts
   build/get_next_id.py          # Get next available entry ID (scans filesystem)
   build/add_conjugations.py      # Add full conjugation tables to verb entries
   build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
-  build/add_conjugations.py    # Batch-add conjugation data to verb entries (--start N --end M [--dry-run])
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 polishing/        # Progress tracking for entry polishing tasks
@@ -160,7 +159,6 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_furigana_correctness.md` — verify existing furigana readings are correct
 - `polish_semantic_labels.md` — verify semantic tags match word meanings
 - `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
-- `polish_verb_conjugations.md` — add conjugation data to existing verb entries
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`.
 

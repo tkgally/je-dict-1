@@ -35,38 +35,6 @@
       "minLength": 1,
       "description": "Brief English equivalent for quick scanning"
     },
-    "conjugation": {
-      "type": "object",
-      "description": "Verb conjugation data for generating conjugation tables",
-      "required": ["type"],
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": ["godan", "ichidan", "suru", "kuru", "aru"],
-          "description": "Verb conjugation class"
-        },
-        "ending": {
-          "type": "string",
-          "enum": ["う", "く", "ぐ", "す", "つ", "ぬ", "ぶ", "む", "る"],
-          "description": "Dictionary form ending kana (godan verbs only)"
-        },
-        "stem": {
-          "type": "string",
-          "description": "Stem with furigana notation, everything before the ending (godan/ichidan)"
-        },
-        "prefix": {
-          "type": "string",
-          "description": "Noun prefix with furigana for suru/kuru verbs"
-        },
-        "overrides": {
-          "type": "object",
-          "description": "Override specific generated forms for irregular verbs. Keys are form names like present_polite_affirmative, te_affirmative, etc.",
-          "additionalProperties": {
-            "type": "string"
-          }
-        }
-      }
-    },
     "definitions": {
       "type": "array",
       "items": {

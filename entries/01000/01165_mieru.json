@@ -6,13 +6,83 @@
   "gloss": "to be visible, to appear",
   "conjugation": {
     "type": "ichidan",
-    "stem": "{見|み}え",
-    "overrides": {
-      "potential_affirmative": "—",
-      "potential_negative": "—",
-      "passive_affirmative": "—",
-      "passive_negative": "—"
-    }
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見|み}える",
+        "negative": "{見|み}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見|み}えます",
+        "negative": "{見|み}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見|み}えた",
+        "negative": "{見|み}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見|み}えました",
+        "negative": "{見|み}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見|み}えて",
+        "negative": "{見|み}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見|み}えている",
+        "negative": "{見|み}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見|み}えています",
+        "negative": "{見|み}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見|み}えていた",
+        "negative": "{見|み}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見|み}えていました",
+        "negative": "{見|み}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見|み}えれば",
+        "negative": "{見|み}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見|み}えたら",
+        "negative": "{見|み}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見|み}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見|み}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見|み}えさせる",
+        "negative": "{見|み}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見|み}えろ",
+        "negative": "{見|み}えるな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -208,95 +278,5 @@
       ],
       "verb_class": "ichidan"
     }
-  },
-  "conjugation": {
-    "type": "ichidan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{見|み}える",
-        "negative": "{見|み}えない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{見|み}えます",
-        "negative": "{見|み}えません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{見|み}えた",
-        "negative": "{見|み}えなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{見|み}えました",
-        "negative": "{見|み}えませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{見|み}えて",
-        "negative": "{見|み}えなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{見|み}えている",
-        "negative": "{見|み}えていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{見|み}えています",
-        "negative": "{見|み}えていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{見|み}えていた",
-        "negative": "{見|み}えていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{見|み}えていました",
-        "negative": "{見|み}えていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{見|み}えれば",
-        "negative": "{見|み}えなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{見|み}えたら",
-        "negative": "{見|み}えなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{見|み}えよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{見|み}えましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{見|み}えられる",
-        "negative": "{見|み}えられない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{見|み}えられる",
-        "negative": "{見|み}えられない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{見|み}えさせる",
-        "negative": "{見|み}えさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{見|み}えろ",
-        "negative": "{見|み}えるな"
-      }
-    ]
   }
 }

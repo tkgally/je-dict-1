@@ -6,13 +6,83 @@
   "gloss": "to be heard, to be audible",
   "conjugation": {
     "type": "ichidan",
-    "stem": "{聞|き}こえ",
-    "overrides": {
-      "potential_affirmative": "—",
-      "potential_negative": "—",
-      "passive_affirmative": "—",
-      "passive_negative": "—"
-    }
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{聞|き}こえる",
+        "negative": "{聞|き}こえない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{聞|き}こえます",
+        "negative": "{聞|き}こえません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{聞|き}こえた",
+        "negative": "{聞|き}こえなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{聞|き}こえました",
+        "negative": "{聞|き}こえませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{聞|き}こえて",
+        "negative": "{聞|き}こえなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{聞|き}こえている",
+        "negative": "{聞|き}こえていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{聞|き}こえています",
+        "negative": "{聞|き}こえていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{聞|き}こえていた",
+        "negative": "{聞|き}こえていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{聞|き}こえていました",
+        "negative": "{聞|き}こえていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{聞|き}こえれば",
+        "negative": "{聞|き}こえなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{聞|き}こえたら",
+        "negative": "{聞|き}こえなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{聞|き}こえよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{聞|き}こえましょう",
+        "negative": null
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{聞|き}こえさせる",
+        "negative": "{聞|き}こえさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{聞|き}こえろ",
+        "negative": "{聞|き}こえるな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -124,95 +194,5 @@
       ],
       "verb_class": "ichidan"
     }
-  },
-  "conjugation": {
-    "type": "ichidan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{聞|き}こえる",
-        "negative": "{聞|き}こえない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{聞|き}こえます",
-        "negative": "{聞|き}こえません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{聞|き}こえた",
-        "negative": "{聞|き}こえなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{聞|き}こえました",
-        "negative": "{聞|き}こえませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{聞|き}こえて",
-        "negative": "{聞|き}こえなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{聞|き}こえている",
-        "negative": "{聞|き}こえていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{聞|き}こえています",
-        "negative": "{聞|き}こえていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{聞|き}こえていた",
-        "negative": "{聞|き}こえていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{聞|き}こえていました",
-        "negative": "{聞|き}こえていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{聞|き}こえれば",
-        "negative": "{聞|き}こえなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{聞|き}こえたら",
-        "negative": "{聞|き}こえなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{聞|き}こえよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{聞|き}こえましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{聞|き}こえられる",
-        "negative": "{聞|き}こえられない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{聞|き}こえられる",
-        "negative": "{聞|き}こえられない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{聞|き}こえさせる",
-        "negative": "{聞|き}こえさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{聞|き}こえろ",
-        "negative": "{聞|き}こえるな"
-      }
-    ]
   }
 }

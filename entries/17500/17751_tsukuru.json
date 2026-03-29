@@ -7,8 +7,93 @@
   "gloss": "to build, to construct, to brew",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{造|つく}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{造|つく}る",
+        "negative": "{造|つく}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{造|つく}ります",
+        "negative": "{造|つく}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{造|つく}った",
+        "negative": "{造|つく}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{造|つく}りました",
+        "negative": "{造|つく}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{造|つく}って",
+        "negative": "{造|つく}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{造|つく}っている",
+        "negative": "{造|つく}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{造|つく}っています",
+        "negative": "{造|つく}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{造|つく}っていた",
+        "negative": "{造|つく}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{造|つく}っていました",
+        "negative": "{造|つく}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{造|つく}れば",
+        "negative": "{造|つく}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{造|つく}ったら",
+        "negative": "{造|つく}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{造|つく}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{造|つく}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{造|つく}れる",
+        "negative": "{造|つく}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{造|つく}られる",
+        "negative": "{造|つく}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{造|つく}らせる",
+        "negative": "{造|つく}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{造|つく}れ",
+        "negative": "{造|つく}るな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -109,7 +194,7 @@
         "action"
       ],
       "transitivity": "transitive",
-      "verb_class": "kuru"
+      "verb_class": "godan-ru"
     }
   },
   "prominent_see_also": [
@@ -119,95 +204,5 @@
       "headword": "{作|つく}る",
       "note": "make, create"
     }
-  ],
-  "conjugation": {
-    "type": "kuru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{来|く}る",
-        "negative": "{来|こ}ない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{来|き}ます",
-        "negative": "{来|き}ません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{来|き}た",
-        "negative": "{来|こ}なかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{来|き}ました",
-        "negative": "{来|き}ませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{来|き}て",
-        "negative": "{来|こ}なくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{来|き}ている",
-        "negative": "{来|き}ていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{来|き}ています",
-        "negative": "{来|き}ていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{来|き}ていた",
-        "negative": "{来|き}ていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{来|き}ていました",
-        "negative": "{来|き}ていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{来|く}れば",
-        "negative": "{来|こ}なければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{来|き}たら",
-        "negative": "{来|こ}なかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{来|こ}よう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{来|き}ましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{来|こ}られる",
-        "negative": "{来|こ}られない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{来|こ}られる",
-        "negative": "{来|こ}られない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{来|こ}させる",
-        "negative": "{来|こ}させない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{来|こ}い",
-        "negative": "{来|く}るな"
-      }
-    ]
-  }
+  ]
 }

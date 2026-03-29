@@ -6,16 +6,93 @@
   "gloss": "to say; to speak (honorific)",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "おっしゃ",
-    "overrides": {
-      "present_polite_affirmative": "おっしゃいます",
-      "past_polite_affirmative": "おっしゃいました",
-      "present_polite_negative": "おっしゃいません",
-      "past_polite_negative": "おっしゃいませんでした",
-      "volitional_polite": "おっしゃいましょう",
-      "imperative_affirmative": "おっしゃい"
-    }
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "おっしゃる",
+        "negative": "おっしゃらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "おっしゃいます",
+        "negative": "おっしゃいません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "おっしゃった",
+        "negative": "おっしゃらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "おっしゃいました",
+        "negative": "おっしゃいませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "おっしゃって",
+        "negative": "おっしゃらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "おっしゃっている",
+        "negative": "おっしゃっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "おっしゃっています",
+        "negative": "おっしゃっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "おっしゃっていた",
+        "negative": "おっしゃっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "おっしゃっていました",
+        "negative": "おっしゃっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "おっしゃれば",
+        "negative": "おっしゃらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "おっしゃったら",
+        "negative": "おっしゃらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "おっしゃろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "おっしゃいましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "おっしゃれる",
+        "negative": "おっしゃれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "おっしゃられる",
+        "negative": "おっしゃられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "おっしゃらせる",
+        "negative": "おっしゃらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "おっしゃい",
+        "negative": "おっしゃるな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -116,95 +193,5 @@
       ],
       "verb_class": "godan-ru"
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "おっしゃる",
-        "negative": "おっしゃらない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "おっしゃります",
-        "negative": "おっしゃりません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "おっしゃった",
-        "negative": "おっしゃらなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "おっしゃりました",
-        "negative": "おっしゃりませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "おっしゃって",
-        "negative": "おっしゃらなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "おっしゃっている",
-        "negative": "おっしゃっていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "おっしゃっています",
-        "negative": "おっしゃっていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "おっしゃっていた",
-        "negative": "おっしゃっていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "おっしゃっていました",
-        "negative": "おっしゃっていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "おっしゃれば",
-        "negative": "おっしゃらなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "おっしゃったら",
-        "negative": "おっしゃらなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "おっしゃろう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "おっしゃりましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "おっしゃれる",
-        "negative": "おっしゃれない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "おっしゃられる",
-        "negative": "おっしゃられない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "おっしゃらせる",
-        "negative": "おっしゃらせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "おっしゃれ",
-        "negative": "おっしゃるな"
-      }
-    ]
   }
 }

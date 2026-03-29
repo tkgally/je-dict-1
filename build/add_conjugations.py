@@ -213,9 +213,11 @@ def _detect_verb_type(entry: dict) -> tuple:
 
         return 'suru', {'prefix': prefix}
 
-    # Detect kuru verbs
-    if ('kuru' in pos or 'verb-kuru' in pos_tags or verb_class == 'kuru'
-            or reading.endswith('くる')):
+    # Detect kuru verbs — strict: only match if POS explicitly says kuru,
+    # or headword contains 来る. Do NOT match on reading alone (つくる, おくる are godan).
+    plain_hw = strip_furigana(headword)
+    is_kuru = ('kuru' in pos and 'godan' not in pos) or 'verb-kuru' in pos_tags or plain_hw.endswith('来る')
+    if is_kuru:
         plain = strip_furigana(headword)
         if plain.endswith('来る'):
             prefix = _strip_suffix_from_headword(headword, '{来|く}る')
