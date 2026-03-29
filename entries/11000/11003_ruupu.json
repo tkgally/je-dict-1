@@ -4,6 +4,10 @@
   "reading": "るーぷ",
   "part_of_speech": "noun / verb (suru)",
   "gloss": "loop",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "ループ"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +23,9 @@
       "english": "I got stuck in an infinite loop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11003_ruupu_ex2",
@@ -27,7 +33,9 @@
       "english": "I'm listening to this song on loop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11003_ruupu_ex3",
@@ -35,20 +43,28 @@
       "english": "I'm being careful not to loop through the same mistakes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ループ is a loanword from English \"loop,\" referring to a repeating cycle or circular process.\n\nCOMMON EXPRESSIONS:\n- {無限|むげん}ループ: infinite loop\n- ループする: to loop, to repeat in a cycle\n- ループ{再生|さいせい}: loop playback\n- タイムループ: time loop (in fiction)\n- ループもの: a story with a time-loop plot\n\nUSAGE BY DOMAIN:\n- Computing: a structure that repeats instructions ({無限|むげん}ループ = infinite loop, a common bug)\n- Music: playing a track or section on repeat (ループ{再生|さいせい})\n- Everyday: any situation stuck in repetition ({同|おな}じことのループ = same thing repeating)\n\nAs a する verb, ループする means \"to loop\" or \"to keep repeating\": {同|おな}じ{失敗|しっぱい}をループする (to keep repeating the same mistake).",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-12T07:08:36Z",
-    "modified": "2026-03-28T04:11:43Z",
+    "modified": "2026-03-29T03:07:35Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
   }
 }

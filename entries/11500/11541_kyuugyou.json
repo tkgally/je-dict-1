@@ -4,6 +4,10 @@
   "reading": "きゅうぎょう",
   "part_of_speech": "noun / verb (suru)",
   "gloss": "business closure, suspension of operations",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{休業|きゅうぎょう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -18,7 +22,9 @@
       "english": "Closed today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11541_kyuugyou_ex2",
@@ -26,7 +32,9 @@
       "english": "Notice of temporary closure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11541_kyuugyou_ex3",
@@ -34,23 +42,33 @@
       "english": "Due to the typhoon, many shops were forced to close.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Commonly seen on signs and notices. In Japanese labor law, {休業|きゅうぎょう} also refers to official leave periods such as {育児休業|いくじきゅうぎょう} (parental leave) and {介護休業|かいごきゅうぎょう} (nursing care leave).\n\nCOMMON COLLOCATIONS:\n・{休業|きゅうぎょう}する (to close, to suspend operations)\n・{臨時|りんじ}{休業|きゅうぎょう} (temporary closure)\n・{休業|きゅうぎょう}{日|び} (closure day)\n・{育児|いくじ}{休業|きゅうぎょう} (parental leave)\n・{休業|きゅうぎょう}{補償|ほしょう} (compensation during closure)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-17T02:58:41Z",
-    "modified": "2026-02-17T02:58:41Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["business-operation"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "business-operation"
+      ],
+      "verb_class": "suru"
     }
   }
 }

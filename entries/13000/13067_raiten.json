@@ -5,6 +5,10 @@
   "reading": "らいてん",
   "part_of_speech": "noun / suru verb",
   "gloss": "visiting a store, coming to a shop",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{来店|らいてん}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "Thank you for visiting our store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13067_raiten_ex2",
@@ -27,7 +33,9 @@
       "english": "Please make a reservation to visit the store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13067_raiten_ex3",
@@ -35,22 +43,32 @@
       "english": "During the sale period, many customers visited and it was extremely busy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{来店|らいてん} is primarily used from the perspective of the store or business, often in polite business language. It is common in retail, restaurants, and service industry contexts. Customers themselves are more likely to say {店|みせ}に{行|い}く (to go to a store).\n\nCOMMON COLLOCATIONS:\n- ご{来店|らいてん}ありがとうございます: thank you for visiting\n- {来店|らいてん}{予約|よやく}: appointment to visit\n- {来店|らいてん}いただく: to have someone visit (humble)\n- {来店|らいてん}{客|きゃく}: store visitors\n- ご{来店|らいてん}をお{待|ま}ちしております: we look forward to your visit\n\nPATTERN:\n{来|らい} + place forms a productive pattern: {来日|らいにち} (coming to Japan), {来店|らいてん} (coming to a store), {来社|らいしゃ} (coming to the company), {来校|らいこう} (coming to school).",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-23T10:09:24Z",
-    "modified": "2026-02-23T10:09:24Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "domain": ["business"]
+      "semantic": [
+        "movement"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
   }
 }

@@ -5,6 +5,10 @@
   "reading": "はっこう",
   "part_of_speech": "noun; verb-suru",
   "gloss": "fermentation",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{発酵|はっこう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "Miso is made by fermenting soybeans.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13605_hakkou_ex2",
@@ -27,7 +33,9 @@
       "english": "Fermented foods are said to be good for your health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13605_hakkou_ex3",
@@ -35,22 +43,32 @@
       "english": "In sake brewing, fermenting rice with koji mold creates its distinctive flavor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFunctions as a する verb: {発酵|はっこう}する (to ferment, intransitive) and {発酵|はっこう}させる (to ferment, transitive/causative). Japan has a particularly rich tradition of fermented foods, and {発酵|はっこう} frequently appears in discussions of food culture.\n\nJAPANESE FERMENTED FOODS:\n- {味噌|みそ}: miso (fermented soybean paste)\n- {醤油|しょうゆ}: soy sauce\n- {納豆|なっとう}: natto (fermented soybeans)\n- {漬物|つけもの}: pickles (many types use fermentation)\n- {日本酒|にほんしゅ}: sake\n\nCOMMON COLLOCATIONS:\n- {発酵|はっこう}{食品|しょくひん}: fermented food\n- {発酵|はっこう}させる: to ferment (something)\n- {乳酸|にゅうさん}{発酵|はっこう}: lactic acid fermentation\n- {自然|しぜん}{発酵|はっこう}: natural fermentation",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-26T09:55:10Z",
-    "modified": "2026-02-26T09:55:10Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
-      "domain": ["technical"]
+      "semantic": [
+        "food"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
   }
 }

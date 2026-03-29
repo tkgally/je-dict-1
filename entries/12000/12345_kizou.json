@@ -5,6 +5,10 @@
   "reading": "きぞう",
   "part_of_speech": "noun, verb (suru)",
   "gloss": "donation, presentation, gift",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{寄贈|きぞう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "I donated books to the library.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12345_kizou_ex2",
@@ -27,7 +33,9 @@
       "english": "Paintings were donated to the art museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12345_kizou_ex3",
@@ -35,21 +43,29 @@
       "english": "This building was donated by a local company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{寄贈|きぞう} is a formal term used primarily for donating items (not money) to public institutions like libraries, museums, schools, or hospitals. For monetary donations, {寄付|きふ} is more appropriate.\n\nCOLLOCATIONS:\n- {本|ほん}を{寄贈|きぞう}する — to donate books\n- {寄贈|きぞう}{図書|としょ} — donated books\n- {寄贈|きぞう}を{受|う}ける — to receive a donation\n- {寄贈|きぞう}{品|ひん} — donated item\n\nSIMILAR WORDS:\n{寄付|きふ} is the general term for donation, especially of money. {贈呈|ぞうてい} is a formal presentation or bestowal, often ceremonial. {寄贈|きぞう} specifically refers to donating physical items to institutions.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-21T05:20:05Z",
-    "modified": "2026-02-21T05:20:05Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
   }
 }

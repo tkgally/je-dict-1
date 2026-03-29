@@ -5,6 +5,10 @@
   "reading": "ぞうがく",
   "part_of_speech": "noun, suru verb",
   "gloss": "increase (in amount of money)",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{増額|ぞうがく}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "To increase the budget.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12134_zougaku_ex2",
@@ -27,7 +33,9 @@
       "english": "I requested a salary increase.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12134_zougaku_ex3",
@@ -35,7 +43,9 @@
       "english": "The government decided on a significant increase in defense spending, sparking debate in parliament.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{増額|ぞうがく} refers specifically to increases in monetary amounts. It is distinct from {増加|ぞうか} (general increase in quantity) and {値上|ねあ}げ (price hike for consumers). {増額|ぞうがく} is used for budgets, salaries, investments, and other financial figures.\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}の{増額|ぞうがく}: budget increase\n- {給与|きゅうよ}の{増額|ぞうがく}: salary increase\n- {大幅|おおはば}な{増額|ぞうがく}: significant increase\n- {増額|ぞうがく}を{要求|ようきゅう}する: to demand an increase",
@@ -49,15 +59,23 @@
   ],
   "metadata": {
     "created": "2026-02-20T08:56:51Z",
-    "modified": "2026-02-20T08:56:51Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"],
-      "domain": ["business"]
+      "semantic": [
+        "quantity"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
   }
 }

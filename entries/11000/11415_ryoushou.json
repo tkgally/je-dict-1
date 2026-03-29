@@ -4,6 +4,10 @@
   "reading": "りょうしょう",
   "part_of_speech": "noun / suru verb",
   "gloss": "consent, acknowledgment, approval",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{了承|りょうしょう}"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +23,9 @@
       "english": "Please understand. / Please accept this.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11415_ryoushou_ex2",
@@ -27,7 +33,9 @@
       "english": "I'll proceed after getting my supervisor's approval.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11415_ryoushou_ex3",
@@ -35,23 +43,33 @@
       "english": "The schedule may change, so please be aware of this in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- ご{了承|りょうしょう}ください (please understand/accept)\n- {了承|りょうしょう}を{得|え}る (to obtain approval)\n- {了承|りょうしょう}を{求|もと}める (to seek consent)\n- あらかじめご{了承|りょうしょう}ください (please be forewarned)\n\nREGISTER: This is a formal word commonly seen in business emails, official notices, and customer-facing communications. The ご prefix makes it honorific. In casual speech, {了解|りょうかい} is more common for simple acknowledgment.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-02-16T07:35:11Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["communication"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
   }
 }

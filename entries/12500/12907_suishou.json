@@ -5,6 +5,10 @@
   "reading": "すいしょう",
   "part_of_speech": "noun / suru verb",
   "gloss": "recommendation",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{推奨|すいしょう}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "It's a supplement recommended by doctors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12907_suishou_ex2",
@@ -27,7 +33,9 @@
       "english": "This setting is recommended.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12907_suishou_ex3",
@@ -35,21 +43,29 @@
       "english": "The Ministry of Health, Labour and Welfare recommends vaccination, but it is not mandatory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. More formal and authoritative than {勧|すす}める (to recommend). Typically the subject is an expert, organization, or official body. Very common in technical documentation (e.g., {推奨|すいしょう}スペック = recommended specs), product reviews, and health guidelines.\n\nCOMMON COLLOCATIONS:\n- {推奨|すいしょう}する: to recommend\n- {推奨|すいしょう}{環境|かんきょう}: recommended environment (system requirements)\n- {推奨|すいしょう}{品|ひん}: recommended product\n- {推奨|すいしょう}スペック: recommended specifications\n\nSIMILAR WORDS:\n- {勧|すす}める: to recommend (general, everyday usage)\n- {奨励|しょうれい}: encouragement, promotion (stronger, with incentives)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-22T14:26:41Z",
-    "modified": "2026-02-22T14:26:41Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
   }
 }

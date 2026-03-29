@@ -5,6 +5,10 @@
   "reading": "しれい",
   "part_of_speech": "noun / suru verb",
   "gloss": "order, directive, command",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{指令|しれい}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -19,7 +23,9 @@
       "english": "A directive came from headquarters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12899_shirei_ex2",
@@ -27,7 +33,9 @@
       "english": "An evacuation order was issued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12899_shirei_ex3",
@@ -35,21 +43,29 @@
       "english": "In accordance with the commander's orders, the unit immediately began its withdrawal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word used in military, governmental, and organizational hierarchies. Implies that the order comes from a recognized authority and carries the expectation of compliance. Can function as a suru verb ({指令|しれい}する = to issue a directive), though the noun usage is more common.\n\nCOMMON COLLOCATIONS:\n- {指令|しれい}を{出|だ}す: to issue an order\n- {指令|しれい}に{従|したが}う: to follow an order\n- {指令|しれい}{系統|けいとう}: chain of command\n- {避難|ひなん}{指令|しれい}: evacuation order\n\nSIMILAR WORDS:\n- {命令|めいれい}: order, command (more general, can be personal)\n- {指示|しじ}: instruction, direction (less forceful, more guidance-oriented)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-22T14:23:38Z",
-    "modified": "2026-02-22T14:23:38Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
   }
 }

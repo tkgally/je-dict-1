@@ -4,6 +4,11 @@
   "reading": "つつみこむ",
   "part_of_speech": "verb (godan, transitive)",
   "gloss": "to wrap up, to envelop, to enfold",
+  "conjugation": {
+    "type": "godan",
+    "ending": "む",
+    "stem": "{包|つつ}み{込|こ}"
+  },
   "definitions": [
     {
       "sense_number": 1,
@@ -18,7 +23,9 @@
       "english": "I wrapped my body up in a blanket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11933_tsutsumikomu_ex2",
@@ -26,7 +33,9 @@
       "english": "The mother gently enfolded her child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11933_tsutsumikomu_ex3",
@@ -34,23 +43,30 @@
       "english": "The mountaintop was enveloped in fog and nothing was visible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {包|つつ}む (to wrap) + {込|こ}む (into). The {込|こ}む suffix adds the nuance of wrapping thoroughly and completely, surrounding something on all sides. Frequently used in figurative/poetic descriptions.\n\nCOMMON PATTERNS:\n・〜で{包|つつ}み{込|こ}む (to envelop with/in ~)\n・〜に{包|つつ}み{込|こ}まれる (to be enveloped in ~)\n・{優|やさ}しく{包|つつ}み{込|こ}む (to gently envelop)\n・{光|ひかり}に{包|つつ}み{込|こ}まれる (to be bathed in light)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-18T14:21:00Z",
-    "modified": "2026-02-18T14:21:00Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "transitive",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-mu"
     }
   }
 }

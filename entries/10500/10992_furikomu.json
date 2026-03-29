@@ -4,6 +4,11 @@
   "reading": "ふりこむ",
   "part_of_speech": "godan verb",
   "gloss": "to transfer money (to a bank account)",
+  "conjugation": {
+    "type": "godan",
+    "ending": "む",
+    "stem": "{振|ふ}り{込|こ}"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +24,9 @@
       "english": "To transfer the rent payment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10992_furikomu_ex2",
@@ -27,7 +34,9 @@
       "english": "The salary is transferred to the bank every month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10992_furikomu_ex3",
@@ -35,7 +44,9 @@
       "english": "I transferred the money to the other person's account from the ATM.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10992_furikomu_ex4",
@@ -43,22 +54,31 @@
       "english": "The electricity bill is automatically transferred from the account.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{振|ふ}り{込|こ}む is a transitive verb ({他動詞|たどうし}) used for bank transfers.\n\nTRANSITIVITY:\n- Transitive ({他動詞|たどうし})\n- Pattern: [money]を [account]に {振|ふ}り{込|こ}む\n- Passive: {振|ふ}り{込|こ}まれる (commonly used for salary deposits)\n\nCOMMON PATTERNS:\n- {口座|こうざ}に{振|ふ}り{込|こ}む (transfer into an account)\n- {銀行|ぎんこう}に{振|ふ}り{込|こ}む (transfer to a bank)\n- {自動|じどう}{振|ふ}り{込|こ}み (automatic transfer)\n\nRELATED WORDS:\n- {振|ふ}り{込|こ}み: noun form (bank transfer)\n- {振|ふ}り{込|こ}め{詐欺|さぎ}: wire transfer fraud (a common type of scam in Japan)\n- {送金|そうきん}: remittance (more general term)\n- {引|ひ}き{落|お}とし: automatic debit/withdrawal",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-12T06:50:11Z",
-    "modified": "2026-02-12T06:50:11Z",
+    "modified": "2026-03-29T03:07:35Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["business"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "godan-mu"
     }
   }
 }

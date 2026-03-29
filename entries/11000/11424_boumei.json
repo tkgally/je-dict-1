@@ -4,6 +4,10 @@
   "reading": "ぼうめい",
   "part_of_speech": "noun / suru verb",
   "gloss": "exile, defection, seeking asylum",
+  "conjugation": {
+    "type": "suru",
+    "prefix": "{亡命|ぼうめい}"
+  },
   "schema_version": "2.0",
   "definitions": [
     {
@@ -19,7 +23,9 @@
       "english": "He went into exile abroad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11424_boumei_ex2",
@@ -27,7 +33,9 @@
       "english": "He sought asylum for political reasons.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11424_boumei_ex3",
@@ -35,22 +43,30 @@
       "english": "Many intellectuals defected to neighboring countries to escape the dictatorship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {亡命|ぼうめい}する (to go into exile, to defect)\n- {亡命|ぼうめい}{者|しゃ} (exile, defector, refugee)\n- {亡命|ぼうめい}{政府|せいふ} (government in exile)\n- {亡命|ぼうめい}を{求|もと}める (to seek asylum)\n- {政治|せいじ}{亡命|ぼうめい} (political exile)\n\nThe characters literally mean \"{亡|ぼう}\" (to flee/perish) + \"{命|めい}\" (life/fate), conveying the sense of fleeing to save one's life.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-02-16T07:35:11Z",
+    "modified": "2026-03-29T03:07:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics"]
+      "semantic": [
+        "politics"
+      ],
+      "verb_class": "suru"
     }
   }
 }
